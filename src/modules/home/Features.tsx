@@ -30,12 +30,6 @@ const Features = () => {
             icon: <LibraryBig size={50} />,
         },
         {
-            title: "Teacher Management",
-            tagline: "Organize teaching staff and assignments seamlessly.",
-            textColor: "text-gray-800",
-            icon: <Network size={50} />,
-        },
-        {
             title: "Class Scheduling",
             tagline: "Effortlessly schedule and manage classes.",
             textColor: "text-gray-800",
@@ -52,12 +46,6 @@ const Features = () => {
             tagline: "Control your school's finances, fees, and budgets.",
             textColor: "text-gray-800",
             icon: <Wallet size={50} />,
-        },
-        {
-            title: "Reports & Analytics",
-            tagline: "Generate detailed reports and track progress.",
-            textColor: "text-gray-800",
-            icon: <TrendingUpDown size={50} />,
         },
         {
             title: "Settings & Configuration",

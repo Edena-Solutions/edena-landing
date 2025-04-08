@@ -80,11 +80,6 @@ const MainNavigationMenu: React.FC = () => {
             description: "Manage student records, attendance, and performance.",
         },
         {
-            title: "Teachers",
-            href: "/teachers",
-            description: "Manage teaching staff and assignments.",
-        },
-        {
             title: "Classes",
             href: "/classes",
             description: "Schedule and organize classes for your school.",
@@ -101,16 +96,6 @@ const MainNavigationMenu: React.FC = () => {
             title: "Finance",
             href: "/finance",
             description: "Manage school finances, fees, and budgets.",
-        },
-        {
-            title: "Reports",
-            href: "/reports",
-            description: "Generate and view various reports and analytics.",
-        },
-        {
-            title: "Settings",
-            href: "/settings",
-            description: "Configure school settings and preferences.",
         },
     ];
 
