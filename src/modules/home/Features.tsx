@@ -196,7 +196,14 @@ const Features = () => {
                                             {feature.tagline}
                                         </h3>
                                     </div>
-                                    <div className="absolute w-30 h-30 bg-black text-white rounded-md top-45 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center">
+                                    <div
+                                        className="absolute w-30 h-30 text-white rounded-md top-45 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center"
+                                        style={{
+                                            backgroundImage: `url('src/assets/img/gradient.png')`,
+                                            backgroundSize: "cover",
+                                            backgroundPosition: "center",
+                                        }}
+                                    >
                                         {feature.icon}
                                     </div>
                                     <Button
