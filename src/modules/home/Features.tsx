@@ -199,7 +199,7 @@ const Features = () => {
                                     <div
                                         className="absolute w-30 h-30 text-white rounded-md top-45 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center"
                                         style={{
-                                            backgroundImage: `url('src/assets/img/gradient.png')`,
+                                            backgroundImage: `url('src/assets/img/gradient_1.png')`,
                                             backgroundSize: "cover",
                                             backgroundPosition: "center",
                                         }}

@@ -38,12 +38,18 @@ const {
             </CardFooter>
         </Card>
         <div class="flex flex-col-reverse md:flex-col gap-3 h-140">
-            <Card className="flex min-h-fit flex-col items-center gap-6 overflow-hidden rounded-md bg-gray-50 text-center">
+            <Card className="flex min-h-fit flex-col items-center gap-6 overflow-hidden rounded-md bg-gray-50 text-center"
+                style={{
+                    backgroundImage: `url('src/assets/img/gradient_1.png')`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "left",
+                }}
+            >
                 <CardContent className="flex flex-col items-center gap-4 p-8">
                     <p class="max-w-xs">
                         {bookADemoCTA}
                     </p>
-                    <Button>
+                    <Button variant="secondary">
                         Book a demo
                     </Button>
                 </CardContent>
