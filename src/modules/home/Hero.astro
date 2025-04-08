@@ -1,0 +1,104 @@
+---
+import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Image } from "astro:assets";
+import GooglePlayLogo from "@/assets/img/logos/google.svg"
+import AppleLogo from "@/assets/img/logos/apple.svg"
+
+interface Props {
+  mainTitle: string;
+  mainDescription: string;
+  mainImage: ImageMetadata;
+  
+  mobileTitle: string;
+  mobileDescription: string;
+  mobileBackgroundImage: string;
+  
+  orgTitle: string;
+  orgDescription: string;
+  organizationImage: ImageMetadata;
+}
+
+const { 
+  mainTitle, 
+  mainDescription, 
+  mainImage,
+  mobileTitle,
+  mobileDescription,
+  mobileBackgroundImage,
+  orgTitle,
+  orgDescription,
+  organizationImage
+} = Astro.props;
+---
+
+<div class="grid gap-3">
+  <Card className="flex flex-col items-center justify-start text-center sm:h-160 overflow-hidden bg-gray-50 gap-6">
+    <CardHeader className="pb-4">
+      <h1 class="text-3xl font-bold">{mainTitle}</h1>
+    </CardHeader>
+    <CardContent>
+      <p class="text-muted-foreground max-w-150">
+        {mainDescription}
+      </p>
+    </CardContent>
+    <CardFooter>
+      <Image src={mainImage} alt="Hero" loading="eager" />
+    </CardFooter>
+  </Card>
+  
+  <div class="grid sm:grid-cols-2 gap-3 px-4">
+    <Card
+      className="flex rounded-md flex-col items-center justify-center bg-cover bg-center text-center"
+      style={{
+        backgroundImage: `url('${mobileBackgroundImage}')`,
+      }}
+    >
+      <CardHeader className="pb-4">
+        <h2 class="text-3xl font-bold max-w-60">{mobileTitle}</h2>
+      </CardHeader>
+      <CardContent className="flex flex-col gap-6 items-center">
+        <p class="text-muted-foreground max-w-100">
+          {mobileDescription}
+        </p>
+      </CardContent>
+      <CardFooter className="flex flex-col gap-4 items-center">
+        <p>
+          Download the app
+        </p>
+        <div class="flex gap-4">
+          <Button className="flex gap-2 items-center" variant="outline">
+            <Image src={GooglePlayLogo} alt="Google Play logo" class="w-3" />
+            Google Play
+          </Button>
+          <Button className="flex gap-2 items-center" variant="outline">
+            <Image src={AppleLogo} alt="Apple logo" class="w-3 mb-[2px]" />
+            App Store
+          </Button>
+        </div>
+      </CardFooter>
+    </Card>
+    
+    <Card className="flex rounded-md flex-col items-center text-center gap-6 h-140 overflow-hidden bg-gray-50">
+      <CardHeader className="pb-2">
+        <h2 class="text-3xl font-bold">{orgTitle}</h2>
+      </CardHeader>
+      <CardContent className="flex flex-col gap-4 items-center">
+        <p class="text-muted-foreground max-w-140">
+          {orgDescription}
+        </p>
+        <div class="flex gap-4">
+          <Button variant="outline">
+            Learn more
+          </Button>
+          <Button>
+            Book a demo
+          </Button>
+        </div>
+      </CardContent>
+      <CardFooter>
+        <Image src={organizationImage} alt="Organization" />
+      </CardFooter>
+    </Card>
+  </div>
+</div>

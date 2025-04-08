@@ -1,0 +1,93 @@
+---
+import { cn } from "@/lib/utils";
+import { Image } from "astro:assets";
+import logo from "@/assets/img/logos/logo.svg"
+
+interface LinkGroup {
+  title: string;
+  links: {
+    title: string;
+    href: string;
+  }[];
+}
+
+interface Props {
+  className?: string;
+}
+
+const { className } = Astro.props;
+
+const footerGroups: LinkGroup[] = [
+  {
+    title: "Academics",
+    links: [
+        { title: "Students", href: "/students" },
+        { title: "Teachers", href: "/teachers" },
+        { title: "Classes", href: "/classes" },
+    ],
+  },
+  {
+    title: "Administration",
+    links: [
+        { title: "Dashboard", href: "/dashboard" },
+        { title: "Finance", href: "/finance" },
+        { title: "Settings", href: "/settings" },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [
+        { title: "Privacy Policy", href: "/privacy" },
+        { title: "Terms of Service", href: "/terms" },
+        { title: "Cookie Policy", href: "/cookies" },
+    ],
+  },
+];
+
+const currentYear = new Date().getFullYear();
+---
+
+<footer class={cn("mt-[16px] bg-gray-50", className)}>
+  <div class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div class="col-span-1 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-left">
+        {footerGroups.map((group) => (
+          <div class="space-y-4">
+            <h3 class="text-sm font-medium">{group.title}</h3>
+            <ul class="space-y-2">
+              {group.links.map((link) => (
+                <li>
+                  <a 
+                    href={link.href} 
+                    class="text-sm text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    {link.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+
+      <div class="md:col-span-1 text-center md:text-left order-first md:order-last mt-8 md:mt-0">
+        <a href="/" class="inline-block mb-6">
+          <Image src={logo} alt="Edena Logo" class="h-6 w-auto" />
+        </a>
+        <p class="text-muted-foreground mb-6">
+          Edena is a comprehensive school management system designed to streamline administrative tasks and enhance educational outcomes.
+        </p>
+      </div>
+    </div>
+
+    <div class=" pt-8 flex flex-col md:flex-row justify-between items-center">
+      <p class="text-sm text-muted-foreground text-center md:text-left">
+        &copy; {currentYear} Edena. All rights reserved.
+      </p>
+      <div class="mt-4 md:mt-0 text-center md:text-left">
+        <a href="/pricing" class="text-sm text-muted-foreground hover:text-primary mr-6">Pricing</a>
+        <a href="/faqs" class="text-sm text-muted-foreground hover:text-primary">FAQs</a>
+      </div>
+    </div>
+  </div>
+</footer>

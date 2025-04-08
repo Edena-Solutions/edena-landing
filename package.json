@@ -1,5 +1,5 @@
 {
-  "name": "astro-app",
+  "name": "edena-landing",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -11,14 +11,22 @@
   "dependencies": {
     "@astrojs/mdx": "^4.2.3",
     "@astrojs/react": "^4.2.3",
+    "@radix-ui/react-navigation-menu": "^1.2.5",
+    "@radix-ui/react-slot": "^1.1.2",
     "@tailwindcss/vite": "^4.0.17",
     "@types/canvas-confetti": "^1.9.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.1",
     "astro": "^5.6.1",
     "canvas-confetti": "^1.9.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "gsap": "^3.12.7",
+    "lucide-react": "^0.487.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tailwindcss": "^4.0.17"
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss": "^4.0.17",
+    "tailwindcss-animate": "^1.0.7"
   }
 }

@@ -1,0 +1,18 @@
+---
+import { Button } from "@/components/ui/button";
+import { Image } from "astro:assets";
+import favicon from "public/assets/img/favicon.svg"
+
+---
+<div class="flex flex-col items-center gap-16 px-10">
+    <Image src={favicon} alt="Edena"/>
+    <div class="text-center max-w-200 flex flex-col gap-4 items-center">
+        <h2 class="text-3xl font-bold">The future of school management starts here</h2>
+        <p class="text-muted-foreground text-xl">
+           Transform your school operations with Edena’s all-in-one solution. Effortlessly manage students, teachers, finances, and more, all in one place. Streamline communication with families and staff, and ensure a smooth onboarding process. Make informed decisions with real-time analytics, and enhance the learning experience with easy-to-use tools. All while maintaining data security and privacy, so you can focus on what truly matters — education.
+        </p>
+        <Button className="w-fit">
+            Start now
+        </Button>
+    </div>
+</div>
