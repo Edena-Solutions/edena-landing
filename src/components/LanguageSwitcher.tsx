@@ -38,25 +38,45 @@ export default function LanguageSwitcher({ currentLang }: LanguageSwitcherProps)
     };
 
     return (
-        <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-                <Button variant="secondary">
-                    {languageNames[currentLang]?.code || currentLang}
-                </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="start" className="w-fit">
-                {languages.map((lang) => (
-                    <DropdownMenuItem key={lang} asChild>
-                        <a
-                            href={createLanguageUrl(lang)}
-                            className="flex items-center justify-between gap-4 cursor-pointer"
-                        >
-                            <span>{languageNames[lang]?.name || lang}</span>
-                            {currentLang === lang && <Check className="h-4 w-4 text-primary" />}
-                        </a>
-                    </DropdownMenuItem>
+        <>
+            <div className="flex gap-2 md:hidden">
+                {["es", "en"].map((lang) => (
+                    <a
+                        href={`/${lang}${getPathWithoutLang()}`}
+                        className={`px-3 py-1 rounded text-sm font-medium ${
+                            currentLang === lang
+                                ? "bg-black text-white"
+                                : "bg-gray-100 text-black hover:bg-gray-200"
+                        }`}
+                    >
+                        {languageNames[lang].code}
+                    </a>
                 ))}
-            </DropdownMenuContent>
-        </DropdownMenu>
+            </div>
+            <div className="hidden md:block">
+                <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                        <Button variant="secondary">
+                            {languageNames[currentLang]?.code || currentLang}
+                        </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="start" className="w-fit">
+                        {languages.map((lang) => (
+                            <DropdownMenuItem key={lang} asChild>
+                                <a
+                                    href={createLanguageUrl(lang)}
+                                    className="flex items-center justify-between gap-4 cursor-pointer"
+                                >
+                                    <span>{languageNames[lang]?.name || lang}</span>
+                                    {currentLang === lang && (
+                                        <Check className="h-4 w-4 text-primary" />
+                                    )}
+                                </a>
+                            </DropdownMenuItem>
+                        ))}
+                    </DropdownMenuContent>
+                </DropdownMenu>
+            </div>
+        </>
     );
 }

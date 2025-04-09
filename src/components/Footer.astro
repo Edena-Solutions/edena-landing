@@ -81,12 +81,12 @@ const currentYear = new Date().getFullYear();
       </div>
     </div>
 
-    <div class="pt-8 flex flex-col md:flex-row justify-between items-center">
+    <div class="pt-8 flex flex-col-reverse md:flex-row justify-between gap-4 items-center">
       <p class="text-sm text-muted-foreground text-center md:text-left">
         &copy; {currentYear} Edena. {t.footer.allRightsReserved}
       </p>
 
-      <div class="mt-4 md:mt-0 text-center md:text-left flex items-center gap-6">
+      <div class="text-center md:text-left flex flex-col sm:flex-row items-center gap-6">
         <a href={`/${lang}/pricing`} class="text-sm text-muted-foreground hover:text-primary">{t.navigation.pricing}</a>
         <a href={`/${lang}/faqs`} class="text-sm text-muted-foreground hover:text-primary">{t.navigation.faqs}</a>
         <LanguageSwitcher client:load currentLang={lang} />  
