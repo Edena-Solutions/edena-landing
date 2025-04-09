@@ -1,49 +1,36 @@
 ---
+import type { Translation } from "@/i18n";
+
 import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Image } from "astro:assets";
+
 import GooglePlayLogo from "@/assets/img/logos/google.svg"
 import AppleLogo from "@/assets/img/logos/apple.svg"
-
+import heroImage from "@/assets/img/hero.png"
+import organizationImage from "@/assets/img/organization.png"
+import gradient from "@/assets/img/gradient_1.png"
 interface Props {
-  mainTitle: string;
-  mainDescription: string;
-  mainImage: ImageMetadata;
-  
-  mobileTitle: string;
-  mobileDescription: string;
-  mobileBackgroundImage: string;
-  
-  orgTitle: string;
-  orgDescription: string;
-  organizationImage: ImageMetadata;
+    t: Translation
 }
 
 const { 
-  mainTitle, 
-  mainDescription, 
-  mainImage,
-  mobileTitle,
-  mobileDescription,
-  mobileBackgroundImage,
-  orgTitle,
-  orgDescription,
-  organizationImage
+    t
 } = Astro.props;
 ---
 
 <div class="grid gap-3">
   <Card className="flex flex-col items-center justify-start text-center sm:h-160 overflow-hidden bg-gray-50 gap-6">
     <CardHeader className="pb-4">
-      <h1 class="text-3xl font-bold">{mainTitle}</h1>
+      <h1 class="text-3xl font-bold">{t.hero.mainTitle}</h1>
     </CardHeader>
     <CardContent>
       <p class="text-muted-foreground max-w-150">
-        {mainDescription}
+        {t.hero.mainDescription}
       </p>
     </CardContent>
     <CardFooter>
-      <Image src={mainImage} alt="Hero" loading="eager" />
+      <Image src={heroImage} alt="Hero" loading="eager" />
     </CardFooter>
   </Card>
   
@@ -51,22 +38,22 @@ const {
     <Card
       className="flex rounded-md flex-col items-center justify-center bg-cover bg-center text-center text-white"
       style={{
-        backgroundImage: `url('${mobileBackgroundImage}')`,
+        backgroundImage: `url('${gradient.src}')`,
         backgroundSize: "cover",
         backgroundPosition: "left",
       }}
     >
       <CardHeader className="pb-4">
-        <h2 class="text-3xl font-bold max-w-60">{mobileTitle}</h2>
+        <h2 class="text-3xl font-bold max-w-60">{t.hero.mobileTitle}</h2>
       </CardHeader>
       <CardContent className="flex flex-col gap-6 items-center">
         <p class=" max-w-100">
-          {mobileDescription}
+          {t.hero.mobileDescription}
         </p>
       </CardContent>
       <CardFooter className="flex flex-col gap-4 items-center">
         <p class="text-white">
-          Download the app
+          {t.downloadTheApp}
         </p>
         <div class="flex gap-4">
           <Button className="flex gap-2 items-center" variant="secondary">
@@ -83,18 +70,18 @@ const {
     
     <Card className="flex rounded-md flex-col items-center text-center gap-6 h-140 overflow-hidden bg-gray-50">
       <CardHeader className="pb-2">
-        <h2 class="text-3xl font-bold">{orgTitle}</h2>
+        <h2 class="text-3xl font-bold">{t.hero.orgTitle}</h2>
       </CardHeader>
       <CardContent className="flex flex-col gap-4 items-center">
         <p class="text-muted-foreground max-w-140">
-          {orgDescription}
+          {t.hero.orgDescription}
         </p>
         <div class="flex gap-4">
           <Button variant="outline">
-            Learn more
+            {t.knowMore}
           </Button>
           <Button>
-            Book a demo
+            {t.bookDemo}
           </Button>
         </div>
       </CardContent>

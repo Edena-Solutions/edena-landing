@@ -1,7 +1,11 @@
 export default {
+    bookDemo: "Book a demo",
+    downloadTheApp: "Download the app",
+    knowMore: "Read more",
     meta: {
-        title: "Edena | School Management System & ERP SetUp",
-        description: "All-in-one school management platform for modern educational institutions",
+        homeTitle: "Edena | School Management System & ERP SetUp",
+        homeDescription:
+            "All-in-one school management platform for modern educational institutions",
     },
     hero: {
         mainTitle: "Where education meets simplicity",
@@ -15,13 +19,14 @@ export default {
             "Forget the paperwork — Edena digitizes your school setup, letting families easily fill out their child's info directly, making onboarding faster and paperless.",
     },
     setup: {
+        title: "Fast Setup",
+        description: "A complete solution for onboarding families and managing your school",
         onboardingDescription:
             "Personalized onboarding emails guide families through their first steps — from signing documents to setting up their profiles — so no important task gets missed, and everyone starts off on the right foot.",
         operationsDescription:
             "Take full control of your school's operations with powerful tools to manage finances, track performance, and customize settings — all in one centralized platform.",
         bookADemoCTA: "Book a demo and discover how effortless school administration can be.",
     },
-    bookDemo: "Book a demo",
     footer: {
         legal: "Legal",
         privacyPolicy: "Privacy Policy",
@@ -51,6 +56,8 @@ export default {
             "Transform your school operations with Edena’s all-in-one solution. Effortlessly manage students, teachers, finances, and more, all in one place. Streamline communication with families and staff, and ensure a smooth onboarding process. Make informed decisions with real-time analytics, and enhance the learning experience with easy-to-use tools. All while maintaining data security and privacy, so you can focus on what truly matters — education.",
     },
     features: {
+        title: "Discover edena",
+        description: "Grow your center with Edena's all in one solution",
         studentManagement: {
             title: "Student Management",
             tagline: "Keep track of student records, attendance, and performance.",

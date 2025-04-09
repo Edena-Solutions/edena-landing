@@ -156,10 +156,8 @@ const Features = ({ t }: { t: Translation }) => {
         <div className="relative w-full">
             <div className="flex flex-col">
                 <div className="text-center">
-                    <h2 className="text-3xl font-bold">Discover edena</h2>
-                    <p className="text-muted-foreground">
-                        Grow your center with Edena's all in one solution
-                    </p>
+                    <h2 className="text-3xl font-bold">{t.features.title}</h2>
+                    <p className="text-muted-foreground">{t.features.description}</p>
                 </div>
                 <div ref={containerRef} className="px-[16px]">
                     <div

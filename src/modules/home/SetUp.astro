@@ -1,37 +1,33 @@
 ---
+import type { Translation } from "@/i18n";
+
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
 import { Image } from "astro:assets";
-import gradient from "@/assets/img/gradient_1.png";
 
+import mailImage from "@/assets/img/mail.png"
+import companyConfigImage from "@/assets/img/control.png"
+import gradient from "@/assets/img/gradient_1.png";
 interface Props {
-  onboardingDescription: string;
-  operationsDescription: string;
-  bookADemoCTA: string;
-  companyConfigImage: ImageMetadata;
-  mailImage: ImageMetadata;
+    t: Translation
 }
 
-const { 
-  onboardingDescription,
-  operationsDescription,
-  companyConfigImage,
-  mailImage,
-  bookADemoCTA
+const {
+    t,
 } = Astro.props;
 ---
 <div class="flex flex-col gap-16 ">
     <div class="text-center">
-        <h2 class="text-3xl font-bold">Fast Setup</h2>
+        <h2 class="text-3xl font-bold">{t.setup.title}</h2>
         <p class="text-muted-foreground">
-            A complete solution for onboarding families and managing your school
+            {t.setup.description}
         </p>
     </div>
     <div class="grid gap-3 px-4 text-sm sm:grid-cols-2">
         <Card className="flex h-140 flex-col items-center gap-6 overflow-hidden rounded-md bg-gray-50 text-center">
             <CardHeader className="flex flex-col items-center gap-4">
                 <p class="max-w-md">
-                    {onboardingDescription}
+                    {t.setup.onboardingDescription}
                 </p>
             </CardHeader>
             <CardFooter>
@@ -48,17 +44,17 @@ const {
             >
                 <CardContent className="flex items-center gap-4 p-8 justify-between w-full">
                     <p class="max-w-xs text-white font-semibold">
-                        {bookADemoCTA}
+                        {t.setup.bookADemoCTA}
                     </p>
                     <Button variant="secondary">
-                        Book a demo
+                        {t.bookDemo}
                     </Button>
                 </CardContent>
             </Card>
             <Card className="flex flex-col items-center overflow-hidden rounded-md bg-gray-50 text-center">
                 <CardHeader className="flex flex-col items-center gap-4">
                     <p class="max-w-md">
-                        {operationsDescription}
+                        {t.setup.operationsDescription}
                     </p>
                 </CardHeader>
                 <CardFooter>

@@ -1,7 +1,10 @@
 export default {
+    bookDemo: "Solicitar demo",
+    downloadTheApp: "Descarga la aplicación móvil",
+    knowMore: "Saber más",
     meta: {
-        title: "Edena | Sistema de Gestión Escolar y Configuración ERP",
-        description:
+        homeTitle: "Edena | Sistema de Gestión Escolar y Configuración ERP",
+        homeDescription:
             "Plataforma de gestión escolar todo en uno para instituciones educativas modernas",
     },
     hero: {
@@ -16,12 +19,14 @@ export default {
             "Olvídate del papeleo — Edena digitaliza la configuración de tu escuela, permitiendo a las familias completar fácilmente la información de sus hijos directamente, haciendo la incorporación más rápida y sin papel.",
     },
     setup: {
+        title: "Configuración rápida",
+        description: "Una solución completa para incorporar a las familias y gestionar tu escuela.",
         onboardingDescription:
-            "Los correos electrónicos de incorporación personalizados guían a las familias a través de sus primeros pasos — desde firmar documentos hasta configurar sus perfiles — para que ninguna tarea importante se pase por alto, y todos comiencen con buen pie.",
+            "Correos electrónicos personalizados de incorporación guían a las familias a través de sus primeros pasos — desde la firma de documentos hasta la configuración de sus perfiles — para que ninguna tarea importante se pase por alto, y todos comiencen con el pie derecho.",
         operationsDescription:
             "Toma el control total de las operaciones de tu escuela con potentes herramientas para gestionar finanzas, seguir el rendimiento y personalizar configuraciones — todo en una plataforma centralizada.",
         bookADemoCTA:
-            "Agenda una demo y descubre lo sencilla que puede ser la administración escolar.",
+            "Agenda una demo y descubre lo sencillo que puede ser administrar tu escuela.",
     },
     footer: {
         academics: "Académico",
@@ -38,7 +43,6 @@ export default {
             "Edena es un sistema completo de gestión escolar diseñado para simplificar las tareas administrativas y mejorar los resultados educativos.",
         allRightsReserved: "Todos los derechos reservados.",
     },
-    bookDemo: "Solicitar demo",
     navigation: {
         academics: "Académico",
         students: "Estudiantes",
@@ -59,6 +63,8 @@ export default {
             "Transforma las operaciones de tu escuela con la solución todo en uno de Edena. Gestiona fácilmente estudiantes, profesores, finanzas y más, todo desde un solo lugar. Agiliza la comunicación con familias y personal, y asegura un proceso de incorporación fluido. Toma decisiones informadas con analíticas en tiempo real y mejora la experiencia educativa con herramientas fáciles de usar. Todo ello manteniendo la seguridad y privacidad de los datos, para que puedas centrarte en lo que realmente importa: la educación.",
     },
     features: {
+        title: "Descubre Edena",
+        description: "Haz crecer tu centro con la solución todo en uno de Edena",
         studentManagement: {
             title: "Gestión de estudiantes",
             tagline:
