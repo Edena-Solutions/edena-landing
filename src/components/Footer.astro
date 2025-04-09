@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import { Image } from "astro:assets";
 import logo from "@/assets/img/logos/logo.svg"
 import { translations } from '@/i18n/index.ts';
+import LanguageSwitcher from "./LanguageSwitcher";
 interface LinkGroup {
   title: string;
   links: {
@@ -84,9 +85,11 @@ const currentYear = new Date().getFullYear();
       <p class="text-sm text-muted-foreground text-center md:text-left">
         &copy; {currentYear} Edena. {t.footer.allRightsReserved}
       </p>
-      <div class="mt-4 md:mt-0 text-center md:text-left">
-        <a href={`/${lang}/pricing`} class="text-sm text-muted-foreground hover:text-primary mr-6">{t.navigation.pricing}</a>
+
+      <div class="mt-4 md:mt-0 text-center md:text-left flex items-center gap-6">
+        <a href={`/${lang}/pricing`} class="text-sm text-muted-foreground hover:text-primary">{t.navigation.pricing}</a>
         <a href={`/${lang}/faqs`} class="text-sm text-muted-foreground hover:text-primary">{t.navigation.faqs}</a>
+        <LanguageSwitcher client:load currentLang={lang} />  
       </div>
     </div>
   </div>

@@ -155,7 +155,7 @@ const Features = ({ t }: { t: Translation }) => {
     return (
         <div className="relative w-full">
             <div className="flex flex-col">
-                <div className="text-center">
+                <div className="text-center px-4">
                     <h2 className="text-3xl font-bold">{t.features.title}</h2>
                     <p className="text-muted-foreground">{t.features.description}</p>
                 </div>

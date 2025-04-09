@@ -41,7 +41,7 @@ const { t } = Astro.props;
 const pricingPlans = await getCollection('pricing');
 ---
 
-<div class="grid md:grid-cols-3 gap-4 mx-auto">
+<div class="grid px-4 md:grid-cols-3 px-0 gap-4 mx-auto ">
   {pricingPlans.map((plan: PricingPlan) => {
     const planId = plan.data.id as keyof typeof t.pricing.plans;
     

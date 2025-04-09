@@ -252,7 +252,6 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                 <button className="w-full h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90">
                                     {t.bookDemo}
                                 </button>
-                                <LanguageSwitcher currentLang={lang} />
                             </div>
                         </div>
                     </div>
