@@ -79,4 +79,51 @@ export default {
             tagline: "Set up preferences and customize your school's settings.",
         },
     },
+    pricing: {
+        title: "Subscription Plans",
+        description:
+            "Solutions designed to meet the needs of your educational institution, from small daycares to large schools.",
+        mostPopular: "Most Popular",
+        plans: {
+            basic: {
+                name: "Basic",
+                description: "/month per institution",
+                features: {
+                    students: "Up to 100 students",
+                    attendance: "Attendance management",
+                    payment: "Payment administration",
+                    portal: "Parent portal",
+                    app: "Mobile app",
+                    support: "5x8 Support",
+                },
+                button: "Get started",
+            },
+            professional: {
+                name: "Professional",
+                description: "/month per institution",
+                features: {
+                    students: "Up to 500 students",
+                    basic: "Everything included in the Basic plan",
+                    academic: "Complete academic management",
+                    communication: "Direct communication with parents",
+                    app: "Mobile app",
+                    support: "24/7 Support",
+                },
+                button: "Get started",
+            },
+            enterprise: {
+                name: "Enterprise",
+                description: "Tailored to your needs",
+                features: {
+                    students: "Unlimited students",
+                    professional: "Everything included in the Professional plan",
+                    integration: "Integration with existing systems",
+                    reports: "Custom reports",
+                    multicampus: "Multi-campus management",
+                    advisor: "Dedicated advisor",
+                },
+                button: "Request a demo",
+            },
+        },
+    },
 };

@@ -87,4 +87,51 @@ export default {
             tagline: "Configura preferencias y personaliza los ajustes de tu escuela.",
         },
     },
+    pricing: {
+        title: "Planes de suscripción",
+        description:
+            "Soluciones diseñadas para adaptarse a las necesidades de tu institución educativa, desde pequeñas guarderías hasta grandes escuelas.",
+        mostPopular: "Más popular",
+        plans: {
+            basic: {
+                name: "Básico",
+                description: "/mes por institución",
+                features: {
+                    students: "Hasta 100 estudiantes",
+                    attendance: "Gestión de asistencia",
+                    payment: "Administración de pagos",
+                    portal: "Portal para padres",
+                    app: "Aplicación móvil",
+                    support: "Soporte 5x8",
+                },
+                button: "Comienza ahora",
+            },
+            professional: {
+                name: "Profesional",
+                description: "/mes por institución",
+                features: {
+                    students: "Hasta 500 estudiantes",
+                    basic: "Todo lo que incluye el plan Básico",
+                    academic: "Gestión académica completa",
+                    communication: "Comunicación directa con los padres",
+                    app: "Aplicación móvil",
+                    support: "Soporte 24/7",
+                },
+                button: "Comienza ahora",
+            },
+            enterprise: {
+                name: "Empresarial",
+                description: "Adaptado a tus necesidades",
+                features: {
+                    students: "Estudiantes ilimitados",
+                    professional: "Todo lo que incluye el plan Profesional",
+                    integration: "Integración con sistemas existentes",
+                    reports: "Informes personalizados",
+                    multicampus: "Gestión multi-campus",
+                    advisor: "Asesor dedicado",
+                },
+                button: "Solicita una demo",
+            },
+        },
+    },
 };

@@ -1,0 +1,89 @@
+---
+import type { Translation } from "@/i18n";
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Check } from "lucide-react";
+
+interface PlanTranslation {
+  name: string;
+  description: string;
+  features: Record<string, string>;
+  button: string;
+}
+
+interface Props {
+  t: Translation & {
+    pricing: {
+      mostPopular: string;
+      plans: Record<string, PlanTranslation>;
+    }
+  };
+}
+
+type PricingPlan = CollectionEntry<'pricing'>;
+type PricingPlanData = PricingPlan['data'];
+
+interface Feature {
+  id: string;
+  included: boolean;
+}
+
+const { t } = Astro.props;
+const pricingPlans = await getCollection('pricing');
+---
+
+<div class="grid md:grid-cols-3 gap-4 mx-auto">
+  {pricingPlans.map((plan: PricingPlan) => {
+    const planId = plan.data.id as keyof typeof t.pricing.plans;
+    
+    return (
+      <Card className="rounded-md bg-gray-50 flex flex-col justify-between relative">
+        {plan.data.isPopular && (
+          <div class="absolute top-0 right-0 bg-black text-white px-4 py-1 rounded-bl-sm text-sm font-medium">
+            {t.pricing.mostPopular}
+          </div>
+        )}
+        <CardHeader>
+          <Badge className="text-sm px-3 py-1" style={{ borderRadius: '5px' }}>
+            {t.pricing.plans[planId].name}
+          </Badge>
+          <CardTitle className="text-3xl font-bold mt-2">{plan.data.price}</CardTitle>
+          <CardDescription className="text-gray-500">
+            {t.pricing.plans[planId].description}
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div class="space-y-4">
+            {(plan.data.features as Feature[]).map((feature) => {
+              // Garantizar que el id de la característica existe en las traducciones
+              const featureId = feature.id as keyof typeof t.pricing.plans[typeof planId]['features'];
+              
+              return (
+                <div class="flex items-center gap-2">
+                  <Check className={`h-3 w-3 ${!feature.included ? 'text-gray-300' : ''}`} />
+                  <span class={!feature.included ? 'text-gray-400' : ''}>
+                    {t.pricing.plans[planId].features[featureId]}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        </CardContent>
+        <CardFooter>
+          <Button client:load className="w-full">
+            {t.pricing.plans[planId].button}
+          </Button>
+        </CardFooter>
+      </Card>
+    );
+  })}
+</div>

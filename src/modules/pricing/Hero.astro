@@ -1,0 +1,16 @@
+---
+import type { Translation } from '@/i18n';
+
+interface Props {
+    t: Translation
+}
+
+const {
+    t,
+} = Astro.props;
+---
+
+<div class="text-center flex flex-col gap-6 items-center pt-16">
+  <h2 class="text-3xl font-bold">{t.pricing.title}</h2>
+  <p class="max-w-md">{t.pricing.description}</p>
+</div>

@@ -1,116 +1,24 @@
 ---
+import { translations, languages } from '@/i18n/index.ts';
+
 import Layout from "@/layouts/main.astro";
-import { Check } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import Hero from '@/modules/pricing/Hero.astro';
+import Plans from '@/modules/pricing/Plans.astro';
 
-interface Feature {
-  text: string;
-  included: boolean;
+export function getStaticPaths() {
+  return languages.map(lang => ({
+    params: { lang },
+    props: { lang }
+  }));
 }
 
-interface PricingPlan {
-  id: string;
-  name: string;
-  price: string;
-  description: string;
-  isPopular?: boolean;
-  features: Feature[];
-  buttonText: string;
-}
-
-const pricingPlans: PricingPlan[] = [
-  {
-    id: "basic",
-    name: "Basic",
-    price: "100 €",
-    description: "/month per institution",
-    isPopular: false,
-    features: [
-      { text: "Up to 100 students", included: true },
-      { text: "Attendance management", included: true },
-      { text: "Payment administration", included: true },
-      { text: "Parent portal", included: true },
-      { text: "Mobile app", included: true },
-      { text: "5x8 Support", included: true },
-    ],
-    buttonText: "Get started"
-  },
-  {
-    id: "professional",
-    name: "Professional",
-    price: "200 €",
-    description: "/month per institution",
-    isPopular: true,
-    features: [
-      { text: "Up to 500 students", included: true },
-      { text: "Everything in Basic plan", included: true },
-      { text: "Complete academic management", included: true },
-      { text: "Parent communication", included: true },
-      { text: "Mobile app", included: true },
-      { text: "24/7 Support", included: true },
-    ],
-    buttonText: "Get started"
-  },
-  {
-    id: "enterprise",
-    name: "Enterprise",
-    price: "Custom",
-    description: "Tailored to your needs",
-    isPopular: false,
-    features: [
-      { text: "Unlimited students", included: true },
-      { text: "Everything in Professional plan", included: true },
-      { text: "Integration with existing systems", included: true },
-      { text: "Custom reports", included: true },
-      { text: "Multi-campus management", included: true },
-      { text: "Dedicated advisor", included: true },
-    ],
-    buttonText: "Book a demo"
-  }
-];
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
 ---
 
-<Layout content={{ title: "Edena | Pricing" }}>
-  <div class="flex flex-col gap-16 pt-16">
-    <div class="text-center flex flex-col gap-6 items-center">
-      <h2 class="text-3xl font-bold">Subscription Plans</h2>
-      <p class="max-w-md">
-        Solutions tailored to the needs of your educational institution, from small daycares to large schools.
-      </p>
-    </div>
-
-    <div class="grid md:grid-cols-3 gap-4 mx-auto">
-      {pricingPlans.map((plan) => (
-        <Card className="rounded-md bg-gray-50 flex flex-col justify-between relative">
-          {plan.isPopular && (
-            <div class="absolute top-0 right-0 bg-black text-white px-4 py-1 rounded-bl-sm text-sm font-medium">
-              Most popular
-            </div>
-          )}
-          <CardHeader>
-            <Badge className="text-sm px-3 py-1" style={{ borderRadius: '5px' }}>
-              {plan.name}
-            </Badge>
-            <CardTitle className="text-3xl font-bold mt-2">{plan.price}</CardTitle>
-            <CardDescription className="text-gray-500">{plan.description}</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div class="space-y-4">
-              {plan.features.map((feature) => (
-                <div class="flex items-center gap-2">
-                  <Check className={`h-3 w-3 ${!feature.included ? 'text-gray-300' : ''}`} />
-                  <span class={!feature.included ? 'text-gray-400' : ''}>{feature.text}</span>
-                </div>
-              ))}
-            </div>
-          </CardContent>
-          <CardFooter>
-            <Button client:load className="w-full">{plan.buttonText}</Button>
-          </CardFooter>
-        </Card>
-      ))}
-    </div>
-  </div>
+<Layout content={{ title: t.meta.homeTitle }} lang={lang}>
+    <section class="grid gap-16">
+        <Hero t={t} />
+        <Plans t={t} />
+    </section>
 </Layout>
