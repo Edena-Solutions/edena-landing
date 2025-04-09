@@ -1,38 +1,5 @@
 ---
-import Layout from "@/layouts/main.astro";
-import Hero from "@/modules/home/Hero.astro";
-import Features from "@/modules/home/Features.tsx";
-import heroImage from "@/assets/img/hero.png"
-import organizationImage from "@/assets/img/organization.png"
-import SetUp from "@/modules/home/SetUp.astro";
-import mailImage from "@/assets/img/mail.png"
-import companyConfigImage from "@/assets/img/control.png"
-import Solution from "@/modules/home/Solution.astro";
----
+import { defaultLanguage } from '@/i18n/utils';
 
-<Layout content={{ title: "Edena | School Management System & ERP SetUp" }}>
-    <section class="grid gap-16">
-        <Hero 
-            mainTitle="Where education meets simplicity"
-            mainDescription="Manage your center, communicate with families, and streamline your workflow — with powerful tools for automated billing and seamless client onboarding."
-            mainImage={heroImage}
-            
-            mobileTitle="Edena is now on mobile."
-            mobileDescription="Stay connected to your child's day-to-day at school with photos, updates, and newsletters — all in one place."
-            mobileBackgroundImage="src/assets/img/gradient_1.png"
-            
-            orgTitle="Digitize your school structure"
-            orgDescription="Forget the paperwork — Edena digitizes your school setup, letting families easily fill out their child's info directly, making onboarding faster and paperless."
-            organizationImage={organizationImage}
-        />
-        <SetUp 
-            onboardingDescription="Personalized onboarding emails guide families through their first steps — from signing documents to setting up their profiles — so no important task gets missed, and everyone starts off on the right foot."
-            operationsDescription="Take full control of your school's operations with powerful tools to manage finances, track performance, and customize settings — all in one centralized platform."
-            bookADemoCTA="Book a demo and discover how effortless school administration can be."
-            companyConfigImage={companyConfigImage}
-            mailImage={mailImage}
-        />
-        <Features client:load />
-        <Solution />
-    </section>
-</Layout>
+return Astro.redirect(`/${defaultLanguage}/`);
+---

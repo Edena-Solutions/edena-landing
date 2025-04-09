@@ -2,7 +2,7 @@
 import { cn } from "@/lib/utils";
 import { Image } from "astro:assets";
 import logo from "@/assets/img/logos/logo.svg"
-
+import { translations } from '@/i18n/index.ts';
 interface LinkGroup {
   title: string;
   links: {
@@ -13,34 +13,36 @@ interface LinkGroup {
 
 interface Props {
   className?: string;
+  lang: string;
 }
 
-const { className } = Astro.props;
+const { lang, className } = Astro.props;
+const t = translations[lang as keyof typeof translations];
 
 const footerGroups: LinkGroup[] = [
-  {
-    title: "Academics",
-    links: [
-        { title: "Students", href: "/students" },
-        { title: "Classes", href: "/classes" },
-    ],
-  },
-  {
-    title: "Administration",
-    links: [
-        { title: "Dashboard", href: "/dashboard" },
-        { title: "Finance", href: "/finance" },
-    ],
-  },
-  {
-    title: "Legal",
-    links: [
-        { title: "Privacy Policy", href: "/privacy" },
-        { title: "Terms of Service", href: "/terms" },
-        { title: "Cookie Policy", href: "/cookies" },
-    ],
-  },
-];
+    {
+      title: t.navigation.academics,
+      links: [
+          { title: t.navigation.students, href: `/${lang}/students` },
+          { title: t.navigation.classes, href: `/${lang}/classes` },
+      ],
+    },
+    {
+      title: t.navigation.administration,
+      links: [
+          { title:  t.navigation.dashboard, href: `/${lang}/dashboard` },
+          { title:  t.navigation.finance, href: `/${lang}/finance` },
+      ],
+    },
+    {
+      title:  t.footer.legal,
+      links: [
+          { title:  t.footer.privacyPolicy, href: `/${lang}/privacy` },
+          { title:  t.footer.termsOfService, href: `/${lang}/terms` },
+          { title:  t.footer.cookiePolicy, href: `/${lang}/cookies` },
+      ],
+    },
+  ]
 
 const currentYear = new Date().getFullYear();
 ---
@@ -69,22 +71,22 @@ const currentYear = new Date().getFullYear();
       </div>
 
       <div class="md:col-span-1 text-center md:text-left order-first md:order-last mt-8 md:mt-0">
-        <a href="/" class="inline-block mb-6">
+        <a href={`/${lang}/`} class="inline-block mb-6">
           <Image src={logo} alt="Edena Logo" class="h-6 w-auto" />
         </a>
         <p class="text-muted-foreground mb-6">
-          Edena is a comprehensive school management system designed to streamline administrative tasks and enhance educational outcomes.
+          {t.footer.description}
         </p>
       </div>
     </div>
 
-    <div class=" pt-8 flex flex-col md:flex-row justify-between items-center">
+    <div class="pt-8 flex flex-col md:flex-row justify-between items-center">
       <p class="text-sm text-muted-foreground text-center md:text-left">
-        &copy; {currentYear} Edena. All rights reserved.
+        &copy; {currentYear} Edena. {t.footer.allRightsReserved}
       </p>
       <div class="mt-4 md:mt-0 text-center md:text-left">
-        <a href="/pricing" class="text-sm text-muted-foreground hover:text-primary mr-6">Pricing</a>
-        <a href="/faqs" class="text-sm text-muted-foreground hover:text-primary">FAQs</a>
+        <a href={`/${lang}/pricing`} class="text-sm text-muted-foreground hover:text-primary mr-6">{t.navigation.pricing}</a>
+        <a href={`/${lang}/faqs`} class="text-sm text-muted-foreground hover:text-primary">{t.navigation.faqs}</a>
       </div>
     </div>
   </div>

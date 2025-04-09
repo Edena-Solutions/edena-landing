@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -10,6 +10,9 @@ import {
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import logo from "@/assets/img/logos/logo.svg";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { translations } from "@/i18n/index.ts";
+import { Button } from "./ui/button";
 
 interface MenuItem {
     title: string;
@@ -17,13 +20,18 @@ interface MenuItem {
     description: string;
 }
 
-const Logo: React.FC = () => (
-    <a href="/">
+interface Props {
+    className?: string;
+    lang: string;
+}
+
+const Logo = ({ lang }: { lang: string }) => (
+    <a href={`/${lang}/`}>
         <img src={logo.src} alt="Edena Logo" className="h-6 w-auto" />
     </a>
 );
 
-const MenuButton: React.FC<{ isOpen: boolean; onClick: () => void }> = ({ isOpen, onClick }) => (
+const MenuButton = ({ isOpen, onClick }: { isOpen: boolean; onClick: () => void }) => (
     <button
         className="md:hidden flex flex-col justify-center items-center w-10 h-10 space-y-1.5 focus:outline-none"
         onClick={onClick}
@@ -45,57 +53,64 @@ const MenuButton: React.FC<{ isOpen: boolean; onClick: () => void }> = ({ isOpen
     </button>
 );
 
-const ListItem = React.forwardRef<React.ElementRef<"a">, React.ComponentPropsWithoutRef<"a">>(
-    ({ className, title, children, ...props }, ref) => {
-        return (
-            <li>
-                <NavigationMenuLink asChild>
-                    <a
-                        ref={ref}
-                        className={cn(
-                            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-                            className
-                        )}
-                        {...props}
-                    >
-                        <div className="text-sm font-medium leading-none">{title}</div>
-                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                            {children}
-                        </p>
-                    </a>
-                </NavigationMenuLink>
-            </li>
-        );
-    }
-);
-ListItem.displayName = "ListItem";
+const ListItem = ({
+    className,
+    title,
+    href,
+    children,
+}: {
+    className?: string;
+    title: string;
+    href: string;
+    children: React.ReactNode;
+}) => {
+    return (
+        <li>
+            <NavigationMenuLink asChild>
+                <a
+                    className={cn(
+                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+                        className
+                    )}
+                    href={href}
+                >
+                    <div className="text-sm font-medium leading-none">{title}</div>
+                    <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                        {children}
+                    </p>
+                </a>
+            </NavigationMenuLink>
+        </li>
+    );
+};
 
-const MainNavigationMenu: React.FC = () => {
+const MainNavigationMenu = ({ lang, className }: Props) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const t = translations[lang as keyof typeof translations];
 
     const academics: MenuItem[] = [
         {
-            title: "Students",
-            href: "/students",
-            description: "Manage student records, attendance, and performance.",
+            title: t.navigation.students,
+            href: `/${lang}/students`,
+            description: t.navigation.studentsDescription,
         },
         {
-            title: "Classes",
-            href: "/classes",
-            description: "Schedule and organize classes for your school.",
+            title: t.navigation.classes,
+            href: `/${lang}/classes`,
+            description: t.navigation.classesDescription,
         },
     ];
 
     const administration: MenuItem[] = [
         {
-            title: "Dashboard",
-            href: "/dashboard",
-            description: "View your school's performance at a glance.",
+            title: t.navigation.dashboard,
+            href: `/${lang}/dashboard`,
+            description: t.navigation.dashboardDescription,
         },
         {
-            title: "Finance",
-            href: "/finance",
-            description: "Manage school finances, fees, and budgets.",
+            title: t.navigation.finance,
+            href: `/${lang}/finance`,
+            description: t.navigation.financeDescription,
         },
     ];
 
@@ -104,9 +119,9 @@ const MainNavigationMenu: React.FC = () => {
     };
 
     return (
-        <header className="w-full bg-background fixed h-15 flex items-center z-50">
+        <header className={cn("w-full bg-background fixed h-15 flex items-center z-50", className)}>
             <div className="container mx-auto px-4 flex h-fit items-center justify-between">
-                <Logo />
+                <Logo lang={lang} />
 
                 <MenuButton isOpen={isMobileMenuOpen} onClick={toggleMobileMenu} />
 
@@ -114,7 +129,9 @@ const MainNavigationMenu: React.FC = () => {
                     <NavigationMenu className="mx-auto flex justify-center">
                         <NavigationMenuList>
                             <NavigationMenuItem>
-                                <NavigationMenuTrigger>Academics</NavigationMenuTrigger>
+                                <NavigationMenuTrigger>
+                                    {t.navigation.academics}
+                                </NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                                         {academics.map((item) => (
@@ -131,7 +148,9 @@ const MainNavigationMenu: React.FC = () => {
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <NavigationMenuTrigger>Administration</NavigationMenuTrigger>
+                                <NavigationMenuTrigger>
+                                    {t.navigation.administration}
+                                </NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                                         {administration.map((item) => (
@@ -148,15 +167,21 @@ const MainNavigationMenu: React.FC = () => {
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
-                                    <a href="/pricing" className={navigationMenuTriggerStyle()}>
-                                        Pricing
+                                    <a
+                                        href={`/${lang}/pricing`}
+                                        className={navigationMenuTriggerStyle()}
+                                    >
+                                        {t.navigation.pricing}
                                     </a>
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
-                                    <a href="/faqs" className={navigationMenuTriggerStyle()}>
-                                        FAQS
+                                    <a
+                                        href={`/${lang}/faqs`}
+                                        className={navigationMenuTriggerStyle()}
+                                    >
+                                        {t.navigation.faqs}
                                     </a>
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
@@ -164,10 +189,9 @@ const MainNavigationMenu: React.FC = () => {
                     </NavigationMenu>
                 </div>
 
-                <div className="hidden md:flex items-center">
-                    <button className="h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90">
-                        Book a demo
-                    </button>
+                <div className="hidden md:flex items-center gap-2">
+                    <Button>{t.bookDemo}</Button>
+                    <LanguageSwitcher currentLang={lang} />
                 </div>
 
                 {isMobileMenuOpen && (
@@ -178,7 +202,7 @@ const MainNavigationMenu: React.FC = () => {
                     >
                         <div className="container px-4 py-4 space-y-4">
                             <div className="space-y-2">
-                                <div className="font-medium">Academics</div>
+                                <div className="font-medium">{t.navigation.academics}</div>
                                 <ul className="pl-2 space-y-2">
                                     {academics.map((item) => (
                                         <li key={item.title}>
@@ -194,7 +218,7 @@ const MainNavigationMenu: React.FC = () => {
                             </div>
 
                             <div className="space-y-2">
-                                <div className="font-medium">Administration</div>
+                                <div className="font-medium">{t.navigation.administration}</div>
                                 <ul className="pl-2 space-y-2">
                                     {administration.map((item) => (
                                         <li key={item.title}>
@@ -210,21 +234,26 @@ const MainNavigationMenu: React.FC = () => {
                             </div>
                             <div className="space-y-2">
                                 <a
-                                    href="/pricing"
+                                    href={`/${lang}/pricing`}
                                     className="block py-2 text-sm hover:text-primary"
                                 >
-                                    Pricing
+                                    {t.navigation.pricing}
                                 </a>
                             </div>
                             <div className="space-y-2">
-                                <a href="/faqs" className="block py-2 text-sm hover:text-primary">
-                                    FAQS
+                                <a
+                                    href={`/${lang}/faqs`}
+                                    className="block py-2 text-sm hover:text-primary"
+                                >
+                                    {t.navigation.faqs}
                                 </a>
                             </div>
-
-                            <button className="w-full h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90">
-                                Book a demo
-                            </button>
+                            <div>
+                                <button className="w-full h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90">
+                                    {t.bookDemo}
+                                </button>
+                                <LanguageSwitcher currentLang={lang} />
+                            </div>
                         </div>
                     </div>
                 )}

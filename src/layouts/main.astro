@@ -8,17 +8,19 @@ interface Props {
     title?: string;
     description?: string;
   };
+  lang?: string;
 }
 
 const { 
   content = {
     title: "School ERP, Edena",
     description: "Edena | School Management"
-  } 
+  },
+  lang = "es"
 } = Astro.props;
 ---
 
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,10 +30,10 @@ const {
     <title>{content.title}</title>
   </head>
   <body class="min-h-screen flex flex-col gap-16">
-    <MainNavigationMenu client:load />
+    <MainNavigationMenu client:load lang={lang}/>
     <main class="pt-15 flex-grow">
       <slot />
     </main>
-    <Footer />
+    <Footer lang={lang}/>
   </body>
 </html>

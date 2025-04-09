@@ -1,0 +1,52 @@
+---
+import Layout from "@/layouts/main.astro";
+import Hero from "@/modules/home/Hero.astro";
+import Features from "@/modules/home/Features.tsx";
+import SetUp from "@/modules/home/SetUp.astro";
+import Conclusion from "@/modules/home/Conclusion.astro";
+
+import heroImage from "@/assets/img/hero.png"
+import organizationImage from "@/assets/img/organization.png"
+import mailImage from "@/assets/img/mail.png"
+import companyConfigImage from "@/assets/img/control.png"
+import gradient from "@/assets/img/gradient_1.png"
+
+import { translations, languages } from '@/i18n/index.ts';
+
+export function getStaticPaths() {
+  return languages.map(lang => ({
+    params: { lang },
+    props: { lang }
+  }));
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+---
+
+<Layout content={{ title: t.meta.title }} lang={lang}>
+    <section class="grid gap-16">
+        <Hero 
+            mainTitle={t.hero.mainTitle}
+            mainDescription={t.hero.mainDescription}
+            mainImage={heroImage}
+            
+            mobileTitle={t.hero.mobileTitle}
+            mobileDescription={t.hero.mobileDescription}
+            mobileBackgroundImage={gradient.src}
+            
+            orgTitle={t.hero.orgTitle}
+            orgDescription={t.hero.orgDescription}
+            organizationImage={organizationImage}
+        />
+        <SetUp 
+            onboardingDescription={t.setup.onboardingDescription}
+            operationsDescription={t.setup.operationsDescription}
+            bookADemoCTA={t.setup.bookADemoCTA}
+            companyConfigImage={companyConfigImage}
+            mailImage={mailImage}
+        />
+        <Features client:load t={t}/>
+        <Conclusion lang={lang} />
+    </section>
+</Layout>

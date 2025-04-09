@@ -6,14 +6,14 @@ import {
     Cog,
     LayoutDashboard,
     LibraryBig,
-    Network,
     Shapes,
-    TrendingUpDown,
     Wallet,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import gradient from "@/assets/img/gradient_1.png";
+import type { Translation } from "@/i18n";
 
-const Features = () => {
+const Features = ({ t }: { t: Translation }) => {
     const scrollContainerRef = useRef<HTMLDivElement>(null);
     const containerRef = useRef<HTMLDivElement>(null);
     const [showLeftArrow, setShowLeftArrow] = useState(false);
@@ -24,33 +24,28 @@ const Features = () => {
 
     const features = [
         {
-            title: "Student Management",
-            tagline: "Keep track of student records, attendance, and performance.",
-            textColor: "text-gray-800",
+            title: t.features.studentManagement.title,
+            tagline: t.features.studentManagement.tagline,
             icon: <LibraryBig size={50} />,
         },
         {
-            title: "Class Scheduling",
-            tagline: "Effortlessly schedule and manage classes.",
-            textColor: "text-gray-800",
+            title: t.features.classScheduling.title,
+            tagline: t.features.classScheduling.tagline,
             icon: <Shapes size={50} />,
         },
         {
-            title: "Dashboard",
-            tagline: "Get a quick overview of your school's performance.",
-            textColor: "text-gray-800",
+            title: t.features.dashboard.title,
+            tagline: t.features.dashboard.tagline,
             icon: <LayoutDashboard size={50} />,
         },
         {
-            title: "Finance Management",
-            tagline: "Control your school's finances, fees, and budgets.",
-            textColor: "text-gray-800",
+            title: t.features.financeManagement.title,
+            tagline: t.features.financeManagement.tagline,
             icon: <Wallet size={50} />,
         },
         {
-            title: "Settings & Configuration",
-            tagline: "Set up preferences and customize your school's settings.",
-            textColor: "text-gray-800",
+            title: t.features.settingsConfiguration.title,
+            tagline: t.features.settingsConfiguration.tagline,
             icon: <Cog size={50} />,
         },
     ];
@@ -185,21 +180,17 @@ const Features = () => {
                             >
                                 <div className="h-[450px] relative overflow-hidden">
                                     <div className="absolute inset-0 p-4 sm:p-8 flex flex-col justify-start">
-                                        <div
-                                            className={`text-sm font-medium mb-1 ${feature.textColor}`}
-                                        >
+                                        <div className="text-sm font-medium mb-1">
                                             {feature.title}
                                         </div>
-                                        <h3
-                                            className={`text-lg sm:text-xl font-bold mb-2 ${feature.textColor}`}
-                                        >
+                                        <h3 className="text-lg sm:text-xl font-bold mb-2">
                                             {feature.tagline}
                                         </h3>
                                     </div>
                                     <div
                                         className="absolute w-30 h-30 text-white rounded-md top-45 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center"
                                         style={{
-                                            backgroundImage: `url('src/assets/img/gradient_1.png')`,
+                                            backgroundImage: `url('${gradient.src}')`,
                                             backgroundSize: "cover",
                                             backgroundPosition: "center",
                                         }}
