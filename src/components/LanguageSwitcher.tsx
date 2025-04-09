@@ -42,6 +42,7 @@ export default function LanguageSwitcher({ currentLang }: LanguageSwitcherProps)
             <div className="flex gap-2 md:hidden">
                 {["es", "en"].map((lang) => (
                     <a
+                        key={lang}
                         href={`/${lang}${getPathWithoutLang()}`}
                         className={`px-3 py-1 rounded text-sm font-medium ${
                             currentLang === lang
