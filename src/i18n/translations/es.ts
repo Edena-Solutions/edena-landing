@@ -6,6 +6,8 @@ export default {
         homeTitle: "Edena | Sistema de Gestión Escolar y Configuración ERP",
         homeDescription:
             "Plataforma de gestión escolar todo en uno para instituciones educativas modernas",
+        pricingTitle: "Edena | Precios",
+        faqsTitle: "Edena | Preguntas frecuentes",
     },
     hero: {
         mainTitle: "Donde la educación se encuentra con la simplicidad",

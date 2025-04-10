@@ -6,6 +6,8 @@ export default {
         homeTitle: "Edena | School Management System & ERP SetUp",
         homeDescription:
             "All-in-one school management platform for modern educational institutions",
+        pricingTitle: "Edena | Pricing",
+        faqsTitle: "Edena | FAQs",
     },
     hero: {
         mainTitle: "Where education meets simplicity",

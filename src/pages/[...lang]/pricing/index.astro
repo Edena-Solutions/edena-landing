@@ -16,7 +16,7 @@ const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 ---
 
-<Layout content={{ title: t.meta.homeTitle }} lang={lang}>
+<Layout content={{ title: t.meta.pricingTitle }} lang={lang}>
     <section class="grid gap-16 px-4">
         <Hero t={t} />
         <Plans t={t} />
