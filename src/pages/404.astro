@@ -1,11 +1,21 @@
 ---
 import Layout from "@/layouts/main.astro";
 ---
+
 <Layout content={{ title: "Edena | Page Not Found" }} lang={"en"}>
-    <section class="p-4">
-        <p class="font-semibold text-center">
-            Page Not Found
-        </p>
-    </section>
+  <section class="flex flex-col items-center justify-center min-h-[70vh] px-4 text-center">
+    <div class="space-y-6 max-w-3xl">
+      <h1 class="text-9xl font-extrabold tracking-tighter bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+        404
+      </h1>
+      
+      <h2 class="text-3xl font-bold">
+        Oops! We've lost this page
+      </h2>
+      
+      <p class="text-muted-foreground text-lg max-w-md mx-auto">
+        The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+      </p>
+    </div>
+  </section>
 </Layout>
-            
