@@ -18,6 +18,19 @@ const pricingCollection = defineCollection({
     }),
 });
 
+const faqCollection = defineCollection({
+    type: "content",
+    schema: z.object({
+        faqs: z.array(
+            z.object({
+                question: z.string(),
+                answer: z.string(),
+            })
+        ),
+    }),
+});
+
 export const collections = {
     pricing: pricingCollection,
+    faqs: faqCollection,
 };

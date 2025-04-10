@@ -134,4 +134,39 @@ export default {
             },
         },
     },
+    faqs: {
+        title: "Preguntas frecuentes",
+        description:
+            "Encuentra respuestas a las dudas más comunes sobre el funcionamiento de Edena, sus funcionalidades y cómo puede ayudarte a gestionar tu centro educativo.",
+        parent_onboarding: "¿Cómo se incorporan los padres a la plataforma?",
+        parent_onboarding_answer:
+            "Edena envía automáticamente correos personalizados con los pasos que deben seguir los padres, incluyendo la firma de documentos, la creación de sus perfiles y la configuración de su cuenta.",
+        parent_dashboard: "¿Los padres tienen acceso a un panel de control?",
+        parent_dashboard_answer:
+            "Sí, los padres disponen de un panel donde pueden gestionar la información de sus hijos, ver facturas, inscribirlos a extraescolares y comunicarse con la escuela.",
+        mobile_app_features: "¿Qué funciones tiene la app móvil?",
+        mobile_app_features_answer:
+            "La app móvil permite a las familias recibir notificaciones instantáneas, ver fotos de los niños, firmar documentos y gestionar toda la comunicación con la escuela desde el móvil.",
+        sending_photos: "¿Puedo enviar fotos y actualizaciones a las familias?",
+        sending_photos_answer:
+            "Sí, desde el panel del centro puedes compartir fotos, actividades y mensajes personalizados que llegan directamente a la app de los padres.",
+        billing_management: "¿Cómo se gestiona la facturación?",
+        billing_management_answer:
+            "Edena automatiza la generación de facturas en función de los servicios contratados, permitiendo cobros recurrentes, seguimiento de pagos y gestión de impagos.",
+        extracurricular_activities: "¿Se pueden gestionar actividades extraescolares?",
+        extracurricular_activities_answer:
+            "Sí, puedes crear actividades, gestionar inscripciones y permitir que las familias se inscriban o modifiquen la participación de sus hijos desde su panel.",
+        multiple_centers: "¿Es posible gestionar múltiples sedes o centros?",
+        multiple_centers_answer:
+            "Sí, Edena permite gestionar varios centros educativos desde un único panel, ideal para grupos escolares o cadenas de guarderías.",
+        center_dashboard: "¿Qué puedo ver en el dashboard del centro?",
+        center_dashboard_answer:
+            "El dashboard ofrece una visión completa de asistencia, inscripciones, estado de pagos, comunicaciones enviadas y rendimiento general del centro.",
+        support_type: "¿Qué tipo de soporte ofrece Edena?",
+        support_type_answer:
+            "Ofrecemos soporte por correo y chat según el plan contratado, incluyendo atención 24/7 para centros con plan profesional o enterprise.",
+        platform_customization: "¿Puedo personalizar la plataforma con el logo de mi escuela?",
+        platform_customization_answer:
+            "Sí, puedes personalizar aspectos visuales como el logo, colores y mensajes automáticos que se envían a las familias.",
+    },
 };

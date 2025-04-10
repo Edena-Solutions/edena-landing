@@ -11,6 +11,7 @@ import { Check } from "lucide-react";
 
 interface LanguageSwitcherProps {
     currentLang: string;
+    currentPath?: string;
 }
 
 const languageNames: Record<string, { code: string; name: string }> = {
@@ -18,24 +19,56 @@ const languageNames: Record<string, { code: string; name: string }> = {
     es: { code: "ES", name: "Español" },
 };
 
-export default function LanguageSwitcher({ currentLang }: LanguageSwitcherProps) {
-    const getPathWithoutLang = () => {
-        if (typeof window !== "undefined") {
-            const path = window.location.pathname;
-            const parts = path.split("/").filter(Boolean);
+export default function LanguageSwitcher({ currentLang, currentPath }: LanguageSwitcherProps) {
+    const [pathWithoutLang, setPathWithoutLang] = useState<string>("/");
 
-            if (parts.length > 0 && languages.includes(parts[0])) {
-                return "/" + parts.slice(1).join("/");
-            }
-            return path;
+    useEffect(() => {
+        const path = window.location.pathname;
+        const parts = path.split("/").filter(Boolean);
+
+        if (parts.length > 0 && languages.includes(parts[0])) {
+            setPathWithoutLang("/" + parts.slice(1).join("/"));
+        } else {
+            setPathWithoutLang(path);
         }
-        return "/";
-    };
+    }, []);
 
     const createLanguageUrl = (lang: string) => {
-        const pathWithoutLang = getPathWithoutLang();
         return `/${lang}${pathWithoutLang}`;
     };
+
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return (
+            <>
+                <div className="flex gap-2 md:hidden">
+                    {["es", "en"].map((lang) => (
+                        <a
+                            key={lang}
+                            href={`/${lang}${currentPath || "/"}`}
+                            className={`px-3 py-1 rounded text-sm font-medium ${
+                                currentLang === lang
+                                    ? "bg-black text-white"
+                                    : "bg-gray-100 text-black hover:bg-gray-200"
+                            }`}
+                        >
+                            {languageNames[lang].code}
+                        </a>
+                    ))}
+                </div>
+                <div className="hidden md:block">
+                    <Button variant="secondary">
+                        {languageNames[currentLang]?.code || currentLang}
+                    </Button>
+                </div>
+            </>
+        );
+    }
 
     return (
         <>
@@ -43,7 +76,7 @@ export default function LanguageSwitcher({ currentLang }: LanguageSwitcherProps)
                 {["es", "en"].map((lang) => (
                     <a
                         key={lang}
-                        href={`/${lang}${getPathWithoutLang()}`}
+                        href={createLanguageUrl(lang)}
                         className={`px-3 py-1 rounded text-sm font-medium ${
                             currentLang === lang
                                 ? "bg-black text-white"
@@ -66,7 +99,7 @@ export default function LanguageSwitcher({ currentLang }: LanguageSwitcherProps)
                             <DropdownMenuItem key={lang} asChild>
                                 <a
                                     href={createLanguageUrl(lang)}
-                                    className="flex items-center justify-between gap-4 cursor-pointer"
+                                    className="flex items-center justify-between gap-3 cursor-pointer"
                                 >
                                     <span>{languageNames[lang]?.name || lang}</span>
                                     {currentLang === lang && (

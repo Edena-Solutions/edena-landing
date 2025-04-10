@@ -16,6 +16,7 @@ const {
     t,
 } = Astro.props;
 ---
+
 <div class="flex flex-col gap-16 ">
     <div class="text-center px-4">
         <h2 class="text-3xl font-bold">{t.setup.title}</h2>
@@ -25,7 +26,7 @@ const {
     </div>
     <div class="grid gap-3 px-4 text-sm sm:grid-cols-2">
         <Card className="flex h-140 flex-col items-center gap-6 overflow-hidden rounded-md bg-gray-50 text-center">
-            <CardHeader className="flex flex-col items-center gap-4">
+            <CardHeader className="flex flex-col items-center gap-3">
                 <p class="max-w-md">
                     {t.setup.onboardingDescription}
                 </p>
@@ -42,7 +43,7 @@ const {
                     backgroundPosition: "top left",
                 }}
             >
-                <CardContent className="flex items-center flex-col sm:flex-row gap-4 p-8 justify-between w-full">
+                <CardContent className="flex items-center flex-col sm:flex-row gap-3 p-8 justify-between w-full">
                     <p class="max-w-xs text-white font-semibold text-center sm:text-left">
                         {t.setup.bookADemoCTA}
                     </p>
@@ -52,7 +53,7 @@ const {
                 </CardContent>
             </Card>
             <Card className="flex flex-col items-center overflow-hidden rounded-md bg-gray-50 text-center">
-                <CardHeader className="flex flex-col items-center gap-4">
+                <CardHeader className="flex flex-col items-center gap-3">
                     <p class="max-w-md">
                         {t.setup.operationsDescription}
                     </p>

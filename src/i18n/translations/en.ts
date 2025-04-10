@@ -126,4 +126,39 @@ export default {
             },
         },
     },
+    faqs: {
+        title: "Frequently Asked Questions",
+        description:
+            "Find answers to the most common questions about how Edena works, its features, and how it can help you manage your educational center.",
+        parent_onboarding: "How are parents onboarded to the platform?",
+        parent_onboarding_answer:
+            "Edena automatically sends personalized emails with the steps parents need to follow, including signing documents, creating their profiles, and setting up their account.",
+        parent_dashboard: "Do parents have access to a dashboard?",
+        parent_dashboard_answer:
+            "Yes, parents have a dashboard where they can manage their children's information, view invoices, enroll them in extracurricular activities, and communicate with the school.",
+        mobile_app_features: "What features does the mobile app offer?",
+        mobile_app_features_answer:
+            "The mobile app allows families to receive instant notifications, view photos of their children, sign documents, and manage all communication with the school from their phone.",
+        sending_photos: "Can I send photos and updates to families?",
+        sending_photos_answer:
+            "Yes, from the school panel you can share photos, activities, and personalized messages that go directly to the parents’ app.",
+        billing_management: "How is billing managed?",
+        billing_management_answer:
+            "Edena automates invoice generation based on the services contracted, enabling recurring payments, payment tracking, and debt management.",
+        extracurricular_activities: "Can extracurricular activities be managed?",
+        extracurricular_activities_answer:
+            "Yes, you can create activities, manage enrollments, and allow families to register or modify their children's participation from their dashboard.",
+        multiple_centers: "Is it possible to manage multiple locations or centers?",
+        multiple_centers_answer:
+            "Yes, Edena allows you to manage multiple educational centers from a single dashboard—ideal for school groups or daycare chains.",
+        center_dashboard: "What can I see in the center’s dashboard?",
+        center_dashboard_answer:
+            "The dashboard provides a complete view of attendance, enrollments, payment statuses, sent communications, and the overall performance of the center.",
+        support_type: "What kind of support does Edena offer?",
+        support_type_answer:
+            "We offer support via email and chat depending on your plan, including 24/7 assistance for professional or enterprise plans.",
+        platform_customization: "Can I customize the platform with my school’s logo?",
+        platform_customization_answer:
+            "Yes, you can customize visual aspects such as the logo, colors, and automatic messages sent to families.",
+    },
 };

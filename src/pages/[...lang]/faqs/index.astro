@@ -2,8 +2,8 @@
 import { translations, languages } from '@/i18n/index.ts';
 
 import Layout from "@/layouts/main.astro";
-import Hero from '@/modules/pricing/Hero.astro';
-import Plans from '@/modules/pricing/Plans.astro';
+import FAQs from '@/modules/faqs/FAQs.astro';
+import Hero from '@/modules/faqs/Hero.astro';
 
 export function getStaticPaths() {
   return languages.map(lang => ({
@@ -19,6 +19,6 @@ const t = translations[lang as keyof typeof translations];
 <Layout content={{ title: t.meta.homeTitle }} lang={lang}>
     <section class="grid gap-16 px-4">
         <Hero t={t} />
-        <Plans t={t} />
+        <FAQs t={t} />
     </section>
 </Layout>

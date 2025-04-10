@@ -162,7 +162,7 @@ const Features = ({ t }: { t: Translation }) => {
                 <div ref={containerRef} className="px-[16px]">
                     <div
                         ref={scrollContainerRef}
-                        className="flex overflow-x-auto snap-x snap-mandatory gap-4 pt-16 pb-2 mb-6 scrollbar-hide"
+                        className="flex overflow-x-auto snap-x snap-mandatory gap-3 pt-16 pb-2 mb-6 scrollbar-hide"
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                         onMouseEnter={() => setAutoplayPaused(true)}
                         onMouseLeave={() => setAutoplayPaused(false)}

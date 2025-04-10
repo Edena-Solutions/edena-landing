@@ -50,8 +50,8 @@ const currentYear = new Date().getFullYear();
 
 <footer class={cn("mt-[16px] bg-gray-50", className)}>
   <div class="container mx-auto px-4 py-12">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-      <div class="col-span-1 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-left">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-3">
+      <div class="col-span-1 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-3 text-center md:text-left">
         {footerGroups.map((group) => (
           <div class="space-y-4">
             <h3 class="text-sm font-medium">{group.title}</h3>
@@ -81,7 +81,7 @@ const currentYear = new Date().getFullYear();
       </div>
     </div>
 
-    <div class="pt-8 flex flex-col-reverse md:flex-row justify-between gap-4 items-center">
+    <div class="pt-8 flex flex-col-reverse md:flex-row justify-between gap-3 items-center">
       <p class="text-sm text-muted-foreground text-center md:text-left">
         &copy; {currentYear} Edena. {t.footer.allRightsReserved}
       </p>
