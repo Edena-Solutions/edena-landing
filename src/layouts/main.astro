@@ -3,6 +3,7 @@ import '@/styles/global.css';
 import MainNavigationMenu from '@/components/NavigationMenu';
 import Footer from '@/components/Footer.astro';
 import { ClientRouter } from 'astro:transitions';
+import Analytics from '@vercel/analytics/astro'
 
 interface Props {
   content?: {
@@ -31,6 +32,7 @@ const {
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <title>{content.title}</title>
   </head>
+  <Analytics />
   <body class="min-h-screen flex flex-col gap-16">
     <MainNavigationMenu client:load lang={lang}/>
     <main class="pt-15 flex-grow">
