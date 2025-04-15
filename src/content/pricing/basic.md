@@ -1,7 +1,7 @@
 ---
 id: "basic"
 name: "Basic"
-price: "100 €"
+price: "99 €"
 description: "/month per institution"
 isPopular: false
 features:

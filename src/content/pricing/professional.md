@@ -1,7 +1,7 @@
 ---
 id: "professional"
 name: "Professional"
-price: "200 €"
+price: "199 €"
 description: "/month per institution"
 isPopular: true
 features:
