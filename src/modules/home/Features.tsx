@@ -186,7 +186,7 @@ const Features = ({ t }: { t: Translation }) => {
                                         </h3>
                                     </div>
                                     <div
-                                        className="absolute w-30 h-30 text-white rounded-md top-45 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center"
+                                        className="absolute w-30 h-30 text-white rounded-md top-50 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center"
                                         style={{
                                             backgroundImage: `url('${gradient.src}')`,
                                             backgroundSize: "cover",

@@ -1,34 +1,35 @@
 export default {
-    bookDemo: "Solicitar demo",
-    downloadTheApp: "Descarga la aplicación móvil",
-    knowMore: "Saber más",
+    bookDemo: "Solicitar demo ",
+    downloadTheApp: "Descarga la app ",
+    knowMore: "Descubre más",
     meta: {
-        homeTitle: "Edena | Sistema de Gestión Escolar y Configuración ERP",
+        homeTitle: "Edena | Software de Gestión Escolar #1 en España | ERP Educativo",
         homeDescription:
-            "Plataforma de gestión escolar todo en uno para instituciones educativas modernas",
-        pricingTitle: "Edena | Precios",
-        faqsTitle: "Edena | Preguntas frecuentes",
+            "Transforma la gestión de tu centro educativo con Edena. La plataforma líder todo en uno que simplifica la administración escolar, mejora la comunicación con las familias y optimiza los procesos académicos.",
+        pricingTitle: "Edena | Planes y Precios Flexibles para Centros Educativos",
+        faqsTitle: "Edena | Preguntas Frecuentes sobre Gestión Escolar",
     },
     hero: {
-        mainTitle: "Donde la educación se encuentra con la simplicidad",
+        mainTitle: "Revoluciona la gestión de tu centro educativo",
         mainDescription:
-            "Gestiona tu centro, comunícate con las familias y optimiza tu flujo de trabajo — con potentes herramientas para facturación automatizada e incorporación fluida de clientes.",
-        mobileTitle: "Edena ahora está en móvil.",
+            "Simplifica la administración, potencia la comunicación y automatiza los procesos de tu centro educativo. Desde la facturación hasta la comunicación con familias, todo integrado en una única plataforma intuitiva y potente.",
+        mobileTitle: "Tu centro educativo en tu bolsillo",
         mobileDescription:
-            "Mantente conectado al día a día de tu hijo en la escuela con fotos, actualizaciones y boletines — todo en un solo lugar.",
-        orgTitle: "Digitaliza la estructura de tu escuela",
+            "Mantén una conexión directa con las familias compartiendo momentos especiales, actualizaciones en tiempo real y comunicaciones importantes — todo desde nuestra app móvil premiada.",
+        orgTitle: "Digitalización integral de tu centro educativo",
         orgDescription:
-            "Olvídate del papeleo — Edena digitaliza la configuración de tu escuela, permitiendo a las familias completar fácilmente la información de sus hijos directamente, haciendo la incorporación más rápida y sin papel.",
+            "Olvídate del papel y los procesos manuales. Edena digitaliza completamente la gestión de tu centro, permitiendo una incorporación fluida de familias, gestión documental automatizada y comunicación instantánea.",
     },
     setup: {
-        title: "Configuración rápida",
-        description: "Una solución completa para incorporar a las familias y gestionar tu escuela.",
+        title: "Implementación rápida y sin complicaciones",
+        description:
+            "La solución más completa para transformar la gestión de tu centro educativo en cuestión de días.",
         onboardingDescription:
-            "Correos electrónicos personalizados de incorporación guían a las familias a través de sus primeros pasos — desde la firma de documentos hasta la configuración de sus perfiles — para que ninguna tarea importante se pase por alto, y todos comiencen con el pie derecho.",
+            "Sistema de incorporación inteligente que guía a las familias paso a paso — desde la firma digital de documentos hasta la configuración de perfiles — garantizando una experiencia fluida y sin fricciones desde el primer día.",
         operationsDescription:
-            "Toma el control total de las operaciones de tu escuela con potentes herramientas para gestionar finanzas, seguir el rendimiento y personalizar configuraciones — todo en una plataforma centralizada.",
+            "Obtén control total sobre las operaciones de tu centro con herramientas avanzadas de gestión financiera, análisis de rendimiento y configuraciones personalizadas — todo centralizado en una única plataforma intuitiva.",
         bookADemoCTA:
-            "Agenda una demo y descubre lo sencillo que puede ser administrar tu escuela.",
+            "Solicita una demo personalizada y descubre cómo Edena puede transformar la gestión de tu centro educativo.",
     },
     footer: {
         academics: "Académico",
@@ -65,28 +66,29 @@ export default {
             "Transforma las operaciones de tu escuela con la solución todo en uno de Edena. Gestiona fácilmente estudiantes, profesores, finanzas y más, todo desde un solo lugar. Agiliza la comunicación con familias y personal, y asegura un proceso de incorporación fluido. Toma decisiones informadas con analíticas en tiempo real y mejora la experiencia educativa con herramientas fáciles de usar. Todo ello manteniendo la seguridad y privacidad de los datos, para que puedas centrarte en lo que realmente importa: la educación.",
     },
     features: {
-        title: "Descubre Edena",
-        description: "Haz crecer tu centro con la solución todo en uno de Edena",
+        title: "Descubre el poder de Edena",
+        description: "La solución integral que revoluciona la gestión educativa",
         studentManagement: {
-            title: "Gestión de estudiantes",
+            title: "Gestión integral de estudiantes",
             tagline:
-                "Lleva el control de los registros, asistencia y rendimiento de los estudiantes.",
+                "Control completo sobre expedientes, asistencia y seguimiento académico en tiempo real.",
         },
         classScheduling: {
-            title: "Programación de clases",
-            tagline: "Programa y gestiona clases sin esfuerzo.",
+            title: "Planificación académica inteligente",
+            tagline:
+                "Optimiza la programación de clases y recursos con nuestra tecnología avanzada.",
         },
         dashboard: {
-            title: "Panel de control",
-            tagline: "Obtén una vista rápida del rendimiento de tu escuela.",
+            title: "Panel de control intuitivo",
+            tagline: "Visualiza y analiza el rendimiento de tu centro con métricas en tiempo real.",
         },
         financeManagement: {
-            title: "Gestión financiera",
-            tagline: "Controla las finanzas, cuotas y presupuestos de tu escuela.",
+            title: "Gestión financiera automatizada",
+            tagline: "Automatiza cobros, gestiona presupuestos y optimiza los recursos económicos.",
         },
         settingsConfiguration: {
-            title: "Configuración y ajustes",
-            tagline: "Configura preferencias y personaliza los ajustes de tu escuela.",
+            title: "Personalización avanzada",
+            tagline: "Adapta la plataforma a las necesidades específicas de tu centro educativo.",
         },
     },
     pricing: {
