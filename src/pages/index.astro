@@ -3,7 +3,7 @@ import { defaultLanguage } from '@/i18n/utils';
 import Layout from "@/layouts/main.astro";
 ---
 
-<Layout content={{ title: "Edena" }} lang="en">
+<Layout content={{ title: "Edena" }} lang="es">
   <div class="flex items-center justify-center min-h-screen">
     <div class="loading-container">
       <img src="/assets/img/favicon.svg" alt="Logo" class="logo" />
@@ -35,6 +35,9 @@ import Layout from "@/layouts/main.astro";
     
     @keyframes pulse {
       0% {
+        transform: scale(0.8);
+      }
+      50% {
         transform: scale(1);
       }
       100% {
