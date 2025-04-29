@@ -1,75 +1,55 @@
 ---
 import { defaultLanguage } from '@/i18n/utils';
+import Layout from "@/layouts/main.astro";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Edena</title>
-    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
-    <meta name="description" content="Edena - Bienvenido a nuestra plataforma" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta property="og:title" content="Edena" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/assets/img/favicon.svg" />
-    <meta property="og:url" content="/" />
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background-color: #ffffff;
-      }
-      
-      .loading-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .logo {
-        width: 150px;
-        height: auto;
-        animation: pulse 2s infinite;
-      }
-      
-      .fade-out {
-        animation: fadeOut 0.8s forwards;
-      }
-      
-      @keyframes fadeOut {
-        from { opacity: 1; }
-        to { opacity: 0; }
-      }
-      
-      @keyframes pulse {
-        0% {
-          transform: scale(1);
-        }
-        100% {
-          transform: scale(0.8);
-        }
-      }
-    </style>
-  </head>
-  <body>
+<Layout content={{ title: "Edena" }} lang="en">
+  <div class="flex items-center justify-center min-h-screen">
     <div class="loading-container">
       <img src="/assets/img/favicon.svg" alt="Logo" class="logo" />
     </div>
+  </div>
+
+  <style>
+    .loading-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
     
-    <script define:vars={{ defaultLanguage }}>
+    .logo {
+      width: 100px;
+      height: auto;
+      animation: pulse 2s infinite;
+    }
+    
+    .fade-out {
+      animation: fadeOut 0.8s forwards;
+    }
+    
+    @keyframes fadeOut {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
+    
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(0.8);
+      }
+    }
+  </style>
+
+  <script define:vars={{ defaultLanguage }}>
+    setTimeout(() => {
+      document.querySelector('.loading-container').classList.add('fade-out');
+      
       setTimeout(() => {
-        document.querySelector('.loading-container').classList.add('fade-out');
-        
-        setTimeout(() => {
-          window.location.href = `/${defaultLanguage}/`;
-        }, 800);
-      }, 1000);
-    </script>
-  </body>
-</html>
+        window.location.href = `/${defaultLanguage}/`;
+      }, 800);
+    }, 1000);
+  </script>
+</Layout>
