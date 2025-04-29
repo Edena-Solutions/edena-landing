@@ -1,12 +1,21 @@
 ---
 import { defaultLanguage } from '@/i18n/utils';
+import { ClientRouter } from 'astro:transitions';
 ---
 
 <html lang="en">
   <head>
+    <ClientRouter />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Edena</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+    <meta name="description" content="Edena - Bienvenido a nuestra plataforma" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:title" content="Edena" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/img/favicon.svg" />
+    <meta property="og:url" content="/" />
     <style>
       body {
         margin: 0;
@@ -62,7 +71,7 @@ import { defaultLanguage } from '@/i18n/utils';
         setTimeout(() => {
           window.location.href = `/${defaultLanguage}/`;
         }, 800);
-      }, 800);
+      }, 1000);
     </script>
   </body>
 </html>
