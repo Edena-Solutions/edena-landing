@@ -20,7 +20,7 @@ const t = translations[lang as keyof typeof translations];
 
 <Layout content={{ title: t.meta.homeTitle }} lang={lang}>
     <section class="grid gap-16">
-        <Hero t={t} />
+        <Hero t={t} lang={lang} />
         <SetUp t={t} />
         <Features client:load t={t}/>
         <Conclusion lang={lang} />

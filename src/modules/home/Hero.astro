@@ -10,11 +10,13 @@ import organizationImage from "@/assets/img/organization.png"
 import gradient from "@/assets/img/gradient_1.png"
 import Link from "@/components/ui/link";
 interface Props {
-    t: Translation
+    t: Translation,
+    lang: string
 }
 
 const { 
-    t
+    t,
+    lang
 } = Astro.props;
 ---
 
@@ -51,7 +53,7 @@ const {
         </p>
       </CardContent>
       <CardFooter>
-        <Link href="/app">
+        <Link href={`/${lang}/app`}>
             <Button variant="secondary">
                     {t.knowMore}
             </Button>
