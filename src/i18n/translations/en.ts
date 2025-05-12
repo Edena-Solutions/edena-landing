@@ -8,6 +8,7 @@ export default {
             "Transform your educational institution with Edena - The leading all-in-one platform that streamlines school administration, enhances family communication, and optimizes academic processes.",
         pricingTitle: "Edena | Flexible Pricing Plans for Educational Institutions",
         faqsTitle: "Edena | School Management Software FAQs",
+        dashboardTitle: "Edena | School Management Software Dashboard",
     },
     hero: {
         mainTitle: "Transform Your Educational Institution",
@@ -166,5 +167,23 @@ export default {
         platform_customization: "How customizable is the platform?",
         platform_customization_answer:
             "Edena offers extensive customization options, including branding elements, communication templates, workflow automation, and reporting tools to match your institution's unique needs.",
+    },
+    dashboard: {
+        mainTitle: "Real-Time Analytics and Insights",
+        mainDescription:
+            "Edena is a school management software that helps you manage your school's operations, from billing to family engagement.",
+        quickActionsTitle: "Quick Actions",
+        quickActionsDescription:
+            "Generate invoices, create and manage your school's calendar, invite parents to the platform, and more.",
+        notificationsTitle: "Instant Notifications",
+        notificationsDescription:
+            "Receive instant notifications for important events, updates, and messages - keeping you connected to your school's operations.",
+        calendarDescription:
+            "Easily manage your school's calendar, including class schedules, events, and important dates.",
+        realTimeNotificationsExtendedDescription:
+            "Receive instant notifications for important events, updates, and messages - keeping you connected to your school's operations.",
+        notificationsAndCalendarTitle: "Instant Notifications and Calendar",
+        notificationsAndCalendarDescription:
+            "Receive instant notifications for important events, updates, and messages - keeping you connected to your school's operations. Also, easily manage your school's calendar, including class schedules, events, and important dates.",
     },
 };

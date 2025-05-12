@@ -20,7 +20,7 @@ interface FAQAccordionProps {
 
 export default function FAQAccordion({ faqs, t }: FAQAccordionProps) {
     return (
-        <div className="w-full max-w-3xl mx-auto py-8">
+        <div className="w-full max-w-3xl mx-auto">
             <Accordion type="single" collapsible className="w-full">
                 {faqs.map((faq, index) => {
                     return (

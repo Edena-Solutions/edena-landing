@@ -8,6 +8,7 @@ export default {
             "Transforma la gestión de tu centro educativo con Edena. La plataforma líder todo en uno que simplifica la administración escolar, mejora la comunicación con las familias y optimiza los procesos académicos.",
         pricingTitle: "Edena | Planes y Precios Flexibles para Centros Educativos",
         faqsTitle: "Edena | Preguntas Frecuentes sobre Gestión Escolar",
+        dashboardTitle: "Edena | Panel de Control para Centros Educativos",
     },
     hero: {
         mainTitle: "Revoluciona la gestión de tu centro educativo",
@@ -172,5 +173,26 @@ export default {
         platform_customization: "¿Puedo personalizar la plataforma con el logo de mi escuela?",
         platform_customization_answer:
             "Sí, puedes personalizar aspectos visuales como el logo, colores y mensajes automáticos que se envían a las familias.",
+    },
+    dashboard: {
+        mainTitle: "Análisis en tiempo real y perspectivas",
+        mainDescription:
+            "Edena es un software de gestión escolar que te ayuda a gestionar las operaciones de tu escuela, desde la facturación hasta la comunicación con las familias.",
+        quickActionsTitle: "Acciones rápidas",
+        quickActionsDescription:
+            "Genera facturas, crea y gestiona el calendario de tu escuela, invita a los padres a la plataforma, y más.",
+        notificationsTitle: "Notificaciones instantáneas",
+        notificationsDescription:
+            "Recibe notificaciones instantáneas para eventos importantes, actualizaciones y mensajes - manteniéndote conectado con las operaciones de tu escuela.",
+        calendarDescription:
+            "Gestiona el calendario de tu escuela, incluyendo horarios de clases, eventos y fechas importantes.",
+        calendarTitle: "Crea y gestiona el calendario de tu escuela",
+        calendarExtendedDescription:
+            "Gestiona el calendario de tu escuela, incluyendo horarios de clases, eventos y fechas importantes. También puedes crear y gestionar el calendario de tu escuela, incluyendo horarios de clases, eventos y fechas importantes.",
+        realTimeNotificationsExtendedDescription:
+            "Recibe notificaciones instantáneas para eventos importantes, actualizaciones y mensajes - manteniéndote conectado con las operaciones de tu escuela.",
+        notificationsAndCalendarTitle: "Notificaciones y calendario",
+        notificationsAndCalendarDescription:
+            "Recibe notificaciones instantáneas para eventos importantes, actualizaciones y mensajes - manteniéndote conectado con las operaciones de tu escuela. También puedes crear y gestionar el calendario de tu escuela, incluyendo horarios de clases, eventos y fechas importantes.",
     },
 };
