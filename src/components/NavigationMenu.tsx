@@ -270,7 +270,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             </div>
                             <div>
                                 <Link href={`/${lang}/demo`}>
-                                    <Button>{t.bookDemo}</Button>
+                                    <Button className="w-full">{t.bookDemo}</Button>
                                 </Link>
                             </div>
                         </div>
