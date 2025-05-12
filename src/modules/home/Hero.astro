@@ -53,7 +53,7 @@ const {
         </p>
       </CardContent>
       <CardFooter>
-        <Link href={`/${lang}/app`}>
+        <Link href="app">
             <Button variant="secondary">
                     {t.knowMore}
             </Button>
@@ -69,9 +69,11 @@ const {
         <p class="text-muted-foreground max-w-140">
           {t.hero.orgDescription}
         </p>
-        <Button>
-            {t.bookDemo}
-        </Button>
+        <Link href="demo">
+            <Button>
+                {t.bookDemo}
+            </Button>
+        </Link>
       </CardContent>
       <CardFooter>
         <Image src={organizationImage} alt="Organization" />

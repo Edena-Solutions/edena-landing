@@ -11,6 +11,7 @@ export default {
         dashboardTitle: "Edena | Intuitive Dashboard for School Management Software",
         studentsTitle: "Edena | Comprehensive Student Management and Academic Records",
         appTitle: "Edena | Mobile App for School Management Software",
+        demoTitle: "Edena | Book a Free Demo",
     },
     hero: {
         mainTitle: "Transform Your Educational Institution",

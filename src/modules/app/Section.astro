@@ -8,6 +8,7 @@ import { Image } from "astro:assets";
 import feed from "@/assets/img/feed_app.png"
 import notifications from "@/assets/img/notifications_app.png"
 import gradient from "@/assets/img/gradient_1.png";
+import Link from "@/components/ui/link";
 interface Props {
     t: Translation
 }
@@ -57,9 +58,11 @@ const {
                     <p class="max-w-xs text-white font-semibold text-center sm:text-left">
                         {t.setup.bookADemoCTA}
                     </p>
-                    <Button variant="secondary">
-                        {t.bookDemo}
-                    </Button>
+                    <Link href="demo">
+                        <Button variant="secondary">
+                            {t.bookDemo}
+                        </Button>
+                    </Link>
                 </CardContent>
             </Card>
         </div>

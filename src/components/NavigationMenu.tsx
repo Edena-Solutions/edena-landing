@@ -13,6 +13,7 @@ import logo from "@/assets/img/logos/logo.svg";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { translations } from "@/i18n/index.ts";
 import { Button } from "./ui/button";
+import Link from "./ui/link";
 
 interface MenuItem {
     title: string;
@@ -199,7 +200,9 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                 </div>
 
                 <div className="hidden md:flex items-center gap-2">
-                    <Button>{t.bookDemo}</Button>
+                    <Link href={`/${lang}/demo`}>
+                        <Button>{t.bookDemo}</Button>
+                    </Link>
                     <LanguageSwitcher currentLang={lang} />
                 </div>
 
@@ -266,9 +269,9 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                 </a>
                             </div>
                             <div>
-                                <button className="w-full h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90">
-                                    {t.bookDemo}
-                                </button>
+                                <Link href={`/${lang}/demo`}>
+                                    <Button>{t.bookDemo}</Button>
+                                </Link>
                             </div>
                         </div>
                     </div>

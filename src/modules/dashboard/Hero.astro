@@ -8,6 +8,7 @@ import { Image } from "astro:assets";
 import heroImage from "@/assets/img/dashboard_hero.png"
 import quickActions from "@/assets/img/quickactions.png"
 import gradient from "@/assets/img/gradient_1.png"
+import Link from "@/components/ui/link";
 interface Props {
     t: Translation
 }
@@ -64,9 +65,11 @@ const {
         </p>
       </CardContent>
       <CardFooter className="flex gap-3">
-        <Button variant="secondary">
-            {t.bookDemo}
-        </Button>
+        <Link href="demo">
+          <Button variant="secondary">
+              {t.bookDemo}
+          </Button>
+        </Link>
       </CardFooter>
     </Card>
     

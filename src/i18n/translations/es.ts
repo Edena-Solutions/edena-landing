@@ -11,6 +11,7 @@ export default {
         dashboardTitle: "Edena | Panel de Control Intuitivo para Centros Educativos",
         studentsTitle: "Edena | Gestión Integral de Estudiantes y Expedientes Académicos",
         appTitle: "Edena | Aplicación Móvil para Centros Educativos",
+        demoTitle: "Edena | Solicitar demo gratis",
     },
     hero: {
         mainTitle: "Transforma la gestión de tu centro educativo",
