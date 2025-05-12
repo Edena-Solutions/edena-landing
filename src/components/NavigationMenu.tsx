@@ -146,7 +146,6 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     </ul>
                                 </NavigationMenuContent>
                             </NavigationMenuItem>
-
                             <NavigationMenuItem>
                                 <NavigationMenuTrigger>
                                     {t.navigation.administration}
@@ -164,6 +163,16 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                         ))}
                                     </ul>
                                 </NavigationMenuContent>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <NavigationMenuLink asChild>
+                                    <a
+                                        href={`/${lang}/app`}
+                                        className={navigationMenuTriggerStyle()}
+                                    >
+                                        {t.navigation.app}
+                                    </a>
+                                </NavigationMenuLink>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
@@ -231,6 +240,14 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                         </li>
                                     ))}
                                 </ul>
+                            </div>
+                            <div className="space-y-2">
+                                <a
+                                    href={`/${lang}/app`}
+                                    className="block py-2 text-sm hover:text-primary"
+                                >
+                                    {t.navigation.app}
+                                </a>
                             </div>
                             <div className="space-y-2">
                                 <a

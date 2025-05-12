@@ -10,6 +10,7 @@ export default {
         faqsTitle: "Edena | Preguntas Frecuentes sobre Software de Gestión Escolar",
         dashboardTitle: "Edena | Panel de Control Intuitivo para Centros Educativos",
         studentsTitle: "Edena | Gestión Integral de Estudiantes y Expedientes Académicos",
+        appTitle: "Edena | Aplicación Móvil para Centros Educativos",
     },
     hero: {
         mainTitle: "Transforma la gestión de tu centro educativo",
@@ -63,6 +64,7 @@ export default {
         financeDescription: "Automatiza la gestión de finanzas escolares, cuotas y presupuestos.",
         pricing: "Precios",
         faqs: "Preguntas Frecuentes",
+        app: "App Móvil",
     },
     conclusion: {
         title: "El futuro de la gestión escolar empieza ahora",
@@ -218,5 +220,23 @@ export default {
         classroomsDetailsTitle: "Control detallado de espacios educativos",
         classroomsDetailsDescription:
             "Gestiona con precisión cada aspecto de tus aulas, desde equipamiento y capacidad hasta asignación de profesores y grupos, mejorando la planificación académica.",
+    },
+    app: {
+        mainTitle: "Tu centro educativo en tu bolsillo",
+        mainDescription:
+            "Accede a todas las funciones de Edena desde tu teléfono o tablet, gestiona facturas, asistencia y comunicaciones con familias, y mantente siempre informado sobre el estado de tu centro.",
+        androidIosTitle: "Descarga la app para Android e iOS",
+        androidIosDescription:
+            "Accede a todas las funciones de Edena desde tu teléfono o tablet, gestiona facturas, asistencia y comunicaciones con familias, y mantente siempre informado sobre el estado de tu centro.",
+        parentsConnectedTitle: "Conecta con las familias",
+        parentsConnectedDescription:
+            "Mantente siempre informado sobre el estado de tu centro y recibe notificaciones instantáneas sobre eventos importantes, actualizaciones y mensajes.",
+        uploadPicturesTitle: "Envía fotos y videos a las familias",
+        uploadPicturesDescription:
+            "Envía fotos y videos a las familias para que puedan ver el estado de su hijo en tiempo real.",
+        uploadPicturesAndVideosDescription:
+            "Actualizaciones en tiempo real y notificaciones a las familias sobre las actividades de sus hijos.",
+        communicateAndGetAlbumsDescription:
+            "Comunica con las familias y recibe álbumes de fotos y videos de sus hijos. También puedes enviar mensajes personalizados y recibir notificaciones sobre las actividades de sus hijos.",
     },
 };

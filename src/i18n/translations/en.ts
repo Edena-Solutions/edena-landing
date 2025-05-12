@@ -10,6 +10,7 @@ export default {
         faqsTitle: "Edena | School Management Software FAQs and Solutions",
         dashboardTitle: "Edena | Intuitive Dashboard for School Management Software",
         studentsTitle: "Edena | Comprehensive Student Management and Academic Records",
+        appTitle: "Edena | Mobile App for School Management Software",
     },
     hero: {
         mainTitle: "Transform Your Educational Institution",
@@ -57,6 +58,7 @@ export default {
         financeDescription: "Automate school financial management, fees, and budgets.",
         pricing: "Pricing",
         faqs: "FAQs",
+        app: "Mobile App",
     },
     conclusion: {
         title: "The Future of Education Management Starts Now",
@@ -211,5 +213,23 @@ export default {
         classroomsDetailsTitle: "Detailed Control of Educational Spaces",
         classroomsDetailsDescription:
             "Precisely manage every aspect of your classrooms, from equipment and capacity to teacher and group assignments, improving academic planning.",
+    },
+    app: {
+        mainTitle: "Your Educational Institution in Your Pocket",
+        mainDescription:
+            "Access all Edena functions from your phone or tablet, manage invoices, attendance, and family communications, and stay always informed about your institution's status.",
+        androidIosTitle: "Download the app for Android and iOS",
+        androidIosDescription:
+            "Access all Edena functions from your phone or tablet, manage invoices, attendance, and family communications, and stay always informed about your institution's status.",
+        parentsConnectedTitle: "Connect with Families",
+        parentsConnectedDescription:
+            "Stay always informed about your institution's status and receive instant notifications about important events, updates, and messages.",
+        uploadPicturesTitle: "Upload Pictures and Videos to Families",
+        uploadPicturesDescription:
+            "Send photos and videos to families to view the status of their child in real-time.",
+        uploadPicturesAndVideosDescription:
+            "Real-time updates and notifications to families about their child's activities and progress.",
+        communicateAndGetAlbumsDescription:
+            "Communicate with families and receive photo albums of their child's activities and progress. You can also send messages and receive notifications about their child's activities and progress.",
     },
 };
