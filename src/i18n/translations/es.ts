@@ -1,39 +1,44 @@
 export default {
-    bookDemo: "Solicitar demo gratis",
-    downloadTheApp: "Descargar la app",
-    knowMore: "Saber más",
+    bookDemo: "Solicita tu demo gratuita",
+    downloadTheApp: "Descarga la app escolar ahora",
+    knowMore: "Ver cómo funciona",
     meta: {
-        homeTitle: "Edena | Software de Gestión Escolar #1 para Centros Educativos | ERP Educativo",
+        homeTitle: "Edena | Sistema de Gestión Escolar #1 | Software ERP Educativo Todo en Uno",
         homeDescription:
-            "Transforma la gestión de tu centro educativo con Edena, la plataforma líder todo en uno que simplifica la administración escolar, mejora la comunicación con familias y optimiza procesos académicos.",
-        pricingTitle: "Edena | Planes y Precios Flexibles para Centros Educativos y Colegios",
-        faqsTitle: "Edena | Preguntas Frecuentes sobre Software de Gestión Escolar",
-        dashboardTitle: "Edena | Panel de Control Intuitivo para Centros Educativos",
-        studentsTitle: "Edena | Gestión Integral de Estudiantes y Expedientes Académicos",
-        appTitle: "Edena | Aplicación Móvil para Centros Educativos",
-        demoTitle: "Edena | Solicitar demo gratis",
+            "Transforma tu centro con la plataforma integral de gestión educativa de Edena. Optimiza la administración, aumenta el compromiso de las familias y automatiza procesos académicos. Utilizado por más de 500 centros. Solicita tu demo gratuita hoy.",
+        pricingTitle:
+            "Edena | Precios de Software de Gestión Escolar | Planes para cada Centro Educativo",
+        faqsTitle:
+            "Preguntas Frecuentes sobre Software de Gestión Escolar | Guía Completa de Edena",
+        dashboardTitle:
+            "Software de Panel de Control Escolar | Análisis y Herramientas en Tiempo Real",
+        studentsTitle:
+            "Sistema de Información Estudiantil (SIE) | Software Completo de Gestión Escolar",
+        appTitle:
+            "App Móvil de Gestión Escolar | Plataforma de Comunicación para Familias y Profesores",
+        demoTitle: "Solicita tu Demo Gratuita | Descubre Edena en Acción",
     },
     hero: {
-        mainTitle: "Transforma la gestión de tu centro educativo",
+        mainTitle: "Transforma la Gestión de tu Centro",
         mainDescription:
-            "Optimiza la administración, potencia la comunicación y automatiza procesos en tu centro educativo. Gestiona facturación, comunicación con familias, planificación académica y más en una única plataforma intuitiva.",
-        mobileTitle: "Tu colegio en el bolsillo",
+            "Únete a Edena para reducir la carga administrativa un 40%, aumentar el compromiso de las familias un 60% y automatizar el 90% de las tareas rutinarias. Plataforma integral para gestión de estudiantes, facturación y comunicación.",
+        mobileTitle: "Tu Centro, Siempre Conectado",
         mobileDescription:
-            "Mantén conexión directa con las familias compartiendo momentos especiales, actualizaciones en tiempo real y comunicaciones importantes a través de nuestra premiada aplicación móvil.",
-        orgTitle: "Digitalización completa de tu centro educativo",
+            "Mantén a las familias comprometidas con actualizaciones instantáneas, compartir de fotos seguro y comunicación en tiempo real. Nuestra app móvil tiene una valoración de 4.8/5 de más de 10.000 centros educativos.",
+        orgTitle: "Elimina el Papel en 30 Días",
         orgDescription:
-            "Elimina el papel y los procesos manuales. Edena digitaliza completamente la gestión de tu centro con incorporación fluida de familias, gestión documental automatizada y comunicación instantánea.",
+            "Reduce los costes operativos un 25% con el sistema de gestión escolar totalmente digital de Edena. Automatiza la gestión documental, optimiza la incorporación de familias y elimina procesos manuales.",
     },
     setup: {
-        title: "Implementación rápida y sencilla",
+        title: "Funcionando en Días, No en Meses",
         description:
-            "La solución más completa para digitalizar la gestión de tu centro educativo en días, no en meses.",
+            "La mayoría de los centros completan su implementación de Edena en solo 2 semanas. Nuestro equipo de incorporación se encarga de todo, desde la migración de datos hasta la formación del personal.",
         onboardingDescription:
-            "Sistema de incorporación inteligente que guía a las familias paso a paso, desde la firma digital de documentos hasta la configuración de perfiles, garantizando una experiencia fluida desde el primer día.",
+            "Reduce el tiempo de incorporación de familias un 75% con nuestro sistema automatizado. Firma digital de documentos, creación instantánea de perfiles y configuración guiada garantizan una transición fluida para todos.",
         operationsDescription:
-            "Obtén control total sobre las operaciones con herramientas avanzadas de gestión financiera, análisis de rendimiento y configuraciones personalizadas, todo centralizado en una única plataforma.",
+            "Obtén visibilidad completa de las operaciones de tu centro con análisis en tiempo real, informes financieros automatizados y paneles personalizables. Toma decisiones basadas en datos con confianza.",
         bookADemoCTA:
-            "Solicita una demo personalizada y descubre cómo Edena puede transformar la gestión de tu colegio o centro educativo.",
+            "Descubre cómo Edena puede transformar tu centro. Solicita una demo personalizada y obtén un plan de implementación gratuito.",
     },
     footer: {
         academics: "Académico",
@@ -68,35 +73,32 @@ export default {
         app: "App Móvil",
     },
     conclusion: {
-        title: "El futuro de la gestión escolar empieza ahora",
+        title: "Únete al Futuro de la Gestión Escolar",
         description:
-            "Revoluciona tu centro educativo con la solución todo en uno de Edena. Gestiona estudiantes, profesores y finanzas en un solo lugar, agiliza la comunicación, optimiza los procesos de incorporación y toma decisiones basadas en datos en tiempo real, todo manteniendo la máxima seguridad y privacidad.",
+            "Edena ayuda a centros como el tuyo a reducir costes administrativos un 40%, aumentar la satisfacción de las familias un 60% y ahorrar más de 15 horas semanales en tareas rutinarias. Nuestra plataforma integral combina gestión de estudiantes, operaciones financieras y comunicación familiar en un sistema seguro e intuitivo.",
     },
     features: {
-        title: "Descubre el potencial de Edena",
-        description: "La solución integral que revoluciona la gestión educativa en España",
+        title: "Potencia tu Centro con Edena",
+        description: "La solución integral que revoluciona la gestión educativa",
         studentManagement: {
-            title: "Gestión integral de estudiantes",
-            tagline:
-                "Control completo de expedientes, asistencia y seguimiento académico en tiempo real.",
+            title: "Gestión Estudiantil",
+            tagline: "Control total de expedientes y seguimiento académico en tiempo real.",
         },
         classScheduling: {
-            title: "Planificación académica inteligente",
-            tagline: "Optimiza horarios, aulas y recursos con tecnología avanzada de programación.",
+            title: "Planificación Académica",
+            tagline: "Optimiza horarios y recursos con tecnología avanzada.",
         },
         dashboard: {
-            title: "Panel de control intuitivo",
-            tagline:
-                "Analiza el rendimiento de tu centro con métricas e indicadores clave actualizados.",
+            title: "Panel de Control",
+            tagline: "Métricas e indicadores clave para tu centro.",
         },
         financeManagement: {
-            title: "Gestión financiera automatizada",
-            tagline:
-                "Automatiza cobros, gestiona presupuestos y optimiza recursos económicos eficientemente.",
+            title: "Gestión Financiera",
+            tagline: "Automatiza cobros y optimiza recursos económicos.",
         },
         settingsConfiguration: {
-            title: "Personalización avanzada",
-            tagline: "Adapta la plataforma a las necesidades específicas de tu centro educativo.",
+            title: "Personalización",
+            tagline: "Adapta la plataforma a las necesidades de tu centro.",
         },
     },
     pricing: {
@@ -182,62 +184,56 @@ export default {
             "Sí, puedes personalizar elementos visuales como el logo, colores corporativos, plantillas de comunicación y mensajes automáticos que se envían a las familias para reflejar la identidad de tu centro.",
     },
     dashboard: {
-        mainTitle: "Análisis en tiempo real para tu centro educativo",
+        mainTitle: "Panel de Control Escolar Intuitivo",
         mainDescription:
-            "Edena transforma la gestión escolar con un potente panel de control que centraliza todas las operaciones, desde facturación hasta comunicación con familias, en una interfaz intuitiva y completa.",
-        quickActionsTitle: "Acciones rápidas para optimizar la gestión",
-        quickActionsDescription:
-            "Genera facturas, gestiona el calendario escolar, invita a familias a la plataforma y accede a funciones clave con un solo clic para ahorrar tiempo valioso.",
-        notificationsTitle: "Notificaciones instantáneas",
+            "Visualiza el rendimiento de tu centro en tiempo real. Todo en un solo lugar: facturación, comunicación y gestión académica.",
+        quickActionsTitle: "Acciones Rápidas",
+        quickActionsDescription: "Facturas, calendario, invitaciones y más. Todo a un clic.",
+        notificationsTitle: "Notificaciones Instantáneas",
         notificationsDescription:
-            "Recibe alertas en tiempo real sobre eventos importantes, actualizaciones y mensajes, manteniéndote conectado con todas las operaciones de tu centro educativo.",
-        calendarDescription:
-            "Gestiona eficientemente el calendario escolar, horarios de clases, eventos y fechas clave con nuestra herramienta de planificación intuitiva.",
-        calendarTitle: "Calendario escolar centralizado",
-        calendarExtendedDescription:
-            "Organiza el calendario académico completo, incluyendo clases, eventos especiales, evaluaciones y fechas importantes, permitiendo una visualización clara para todo el personal y familias.",
+            "Alertas en tiempo real para mantener tu centro siempre informado.",
+        calendarDescription: "Gestiona horarios, eventos y fechas clave de forma eficiente.",
+        calendarTitle: "Calendario Escolar",
         realTimeNotificationsExtendedDescription:
-            "Sistema avanzado de notificaciones que mantiene informados a todos los miembros de la comunidad educativa sobre eventos relevantes, cambios de horario y comunicaciones importantes.",
-        notificationsAndCalendarTitle: "Comunicación y planificación integradas",
+            "Sistema de notificaciones que mantiene a toda la comunidad educativa conectada.",
+        notificationsAndCalendarTitle: "Comunicación Integrada",
         notificationsAndCalendarDescription:
-            "Combina potentes notificaciones en tiempo real con un calendario escolar completo para garantizar que toda la comunidad educativa esté siempre informada y coordinada.",
+            "Notificaciones y calendario unidos para una gestión escolar eficiente.",
     },
     students: {
-        mainTitle: "Gestión integral de estudiantes para centros educativos",
+        mainTitle: "Gestión Estudiantil Simplificada",
         mainDescription:
-            "Centraliza toda la información de tus estudiantes, desde datos personales hasta seguimiento académico, asistencia y comunicaciones con familias, simplificando la administración educativa.",
-        studentDetailTitle: "Expedientes digitales completos",
+            "Centraliza toda la información de tus estudiantes. Desde datos personales hasta seguimiento académico.",
+        studentDetailTitle: "Expedientes Digitales",
         studentDetailDescription:
-            "Gestiona eficientemente los expedientes digitales de cada estudiante, incluyendo información personal, historial académico, seguimiento de desarrollo y comunicaciones con familias.",
-        studentInvoicingTitle: "Facturación automatizada por alumno",
+            "Gestiona expedientes, historial académico y comunicación con familias.",
+        studentInvoicingTitle: "Facturación por Estudiante",
         studentInvoicingDescription:
-            "Sistema inteligente de facturación que automatiza la generación de recibos, control de pagos y seguimiento financiero personalizado para cada estudiante.",
-        organizationTitle: "Gestión organizativa centralizada",
+            "Facturación automática y seguimiento personalizado para cada estudiante.",
+        organizationTitle: "Gestión Organizativa",
         organizationDescription:
-            "Administra toda la estructura organizativa de tu centro, incluyendo departamentos, personal docente, recursos y procesos administrativos desde un único panel de control.",
-        classroomsTitle: "Administración eficiente de aulas",
+            "Administra departamentos, personal y recursos desde un único panel.",
+        classroomsTitle: "Gestión de Aulas",
         classroomsDescription:
-            "Optimiza la gestión de espacios educativos, asignación de recursos, horarios de clases y ocupación de aulas para maximizar la eficiencia de tu centro.",
-        classroomsDetailsTitle: "Control detallado de espacios educativos",
+            "Optimiza espacios, recursos y horarios para maximizar la eficiencia.",
+        classroomsDetailsTitle: "Control de Espacios",
         classroomsDetailsDescription:
-            "Gestiona con precisión cada aspecto de tus aulas, desde equipamiento y capacidad hasta asignación de profesores y grupos, mejorando la planificación académica.",
+            "Gestiona aulas, equipamiento y asignaciones de forma precisa.",
     },
     app: {
-        mainTitle: "Tu centro educativo en tu bolsillo",
+        mainTitle: "Tu Centro en el Móvil",
         mainDescription:
-            "Accede a todas las funciones de Edena desde tu teléfono o tablet, gestiona facturas, asistencia y comunicaciones con familias, y mantente siempre informado sobre el estado de tu centro.",
-        androidIosTitle: "Descarga la app para Android e iOS",
-        androidIosDescription:
-            "Accede a todas las funciones de Edena desde tu teléfono o tablet, gestiona facturas, asistencia y comunicaciones con familias, y mantente siempre informado sobre el estado de tu centro.",
-        parentsConnectedTitle: "Conecta con las familias",
+            "Accede a todas las funciones desde cualquier dispositivo. Gestión total en la palma de tu mano.",
+        androidIosTitle: "App para Android e iOS",
+        androidIosDescription: "Disponible en todas las plataformas. Descarga ahora.",
+        parentsConnectedTitle: "Conecta con Familias",
         parentsConnectedDescription:
-            "Mantente siempre informado sobre el estado de tu centro y recibe notificaciones instantáneas sobre eventos importantes, actualizaciones y mensajes.",
-        uploadPicturesTitle: "Envía fotos y videos a las familias",
-        uploadPicturesDescription:
-            "Envía fotos y videos a las familias para que puedan ver el estado de su hijo en tiempo real.",
+            "Mantén a las familias informadas con actualizaciones instantáneas.",
+        uploadPicturesTitle: "Comparte Momentos",
+        uploadPicturesDescription: "Envía fotos y videos a las familias de forma segura.",
         uploadPicturesAndVideosDescription:
-            "Actualizaciones en tiempo real y notificaciones a las familias sobre las actividades de sus hijos.",
+            "Actualizaciones en tiempo real para mantener a las familias conectadas.",
         communicateAndGetAlbumsDescription:
-            "Comunica con las familias y recibe álbumes de fotos y videos de sus hijos. También puedes enviar mensajes personalizados y recibir notificaciones sobre las actividades de sus hijos.",
+            "Comunicación directa y álbumes de fotos para cada estudiante.",
     },
 };

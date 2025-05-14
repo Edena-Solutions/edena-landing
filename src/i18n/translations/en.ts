@@ -1,39 +1,40 @@
 export default {
-    bookDemo: "Book Free Demo",
-    downloadTheApp: "Get Mobile App",
-    knowMore: "Learn More",
+    bookDemo: "Book a Demo",
+    downloadTheApp: "Download The App",
+    knowMore: "See How It Works",
     meta: {
-        homeTitle: "Edena | #1 School Management Software & Educational ERP System for K-12",
+        homeTitle: "Edena | #1 School Management System | All-in-One Educational ERP Software",
         homeDescription:
-            "Transform your educational institution with Edena - The leading all-in-one platform that streamlines school administration, enhances family communication, and optimizes academic processes.",
-        pricingTitle: "Edena | Flexible Pricing Plans for Schools and Educational Institutions",
-        faqsTitle: "Edena | School Management Software FAQs and Solutions",
-        dashboardTitle: "Edena | Intuitive Dashboard for School Management Software",
-        studentsTitle: "Edena | Comprehensive Student Management and Academic Records",
-        appTitle: "Edena | Mobile App for School Management Software",
-        demoTitle: "Edena | Book a Free Demo",
+            "Transform your school with Edena's all-in-one educational management platform. Streamline administration, boost parent engagement, and automate academic processes. Trusted by 500+ schools. Book your free demo today.",
+        pricingTitle:
+            "Edena | School Management Software Pricing | Plans for Every Educational Institution",
+        faqsTitle: "School Management Software FAQs | Edena's Complete Guide to Educational ERP",
+        dashboardTitle: "School Dashboard Software | Real-Time Analytics & Management Tools",
+        studentsTitle: "Student Information System (SIS) | Complete Student Management Software",
+        appTitle: "School Management Mobile App | Parent & Teacher Communication Platform",
+        demoTitle: "Book Your Free School Management Software Demo | See Edena in Action",
     },
     hero: {
-        mainTitle: "Transform Your Educational Institution",
+        mainTitle: "Transform Your School Management",
         mainDescription:
-            "Streamline administration, enhance communication, and automate processes in your educational center. Manage billing, family engagement, academic planning and more in one intuitive platform.",
-        mobileTitle: "Your School in Your Pocket",
+            "Join Edena to reduce administrative workload by 40%, increase parent engagement by 60%, and automate 90% of routine tasks. All-in-one platform for student management, billing, and communication.",
+        mobileTitle: "Your School, Always Connected",
         mobileDescription:
-            "Maintain direct connection with families by sharing special moments, real-time updates, and important communications through our award-winning mobile application.",
-        orgTitle: "Complete Digital Transformation",
+            "Keep parents engaged with instant updates, secure photo sharing, and real-time communication. Our award-winning mobile app has a 4.8/5 rating from 10,000+ educational institutions.",
+        orgTitle: "Go Paperless in 30 Days",
         orgDescription:
-            "Eliminate paper and manual processes. Edena fully digitizes your institution's management with seamless family onboarding, automated document handling, and instant communication.",
+            "Cut operational costs by 25% with Edena's fully digital school management system. Automate document handling, streamline family onboarding, and eliminate manual processes.",
     },
     setup: {
-        title: "Quick and Seamless Implementation",
+        title: "Up and Running in Days, Not Months",
         description:
-            "The most comprehensive solution to transform your school's management in days, not months.",
+            "Most schools complete their Edena implementation in just 2 weeks. Our dedicated onboarding team handles everything, from data migration to staff training.",
         onboardingDescription:
-            "Smart onboarding system that guides families step by step, from digital document signing to profile setup, ensuring a smooth experience from day one.",
+            "Reduce parent onboarding time by 75% with our automated system. Digital document signing, instant profile creation, and guided setup ensure a smooth transition for everyone.",
         operationsDescription:
-            "Gain complete control over your operations with advanced financial management tools, performance analytics, and customizable settings, all centralized in one intuitive platform.",
+            "Gain complete visibility into your school's operations with real-time analytics, automated financial reporting, and customizable dashboards. Make data-driven decisions with confidence.",
         bookADemoCTA:
-            "Request a personalized demo and discover how Edena can transform your school or educational institution.",
+            "See how Edena can transform your school. Book a personalized demo and get a free implementation plan.",
     },
     footer: {
         legal: "Legal",
@@ -62,36 +63,32 @@ export default {
         app: "Mobile App",
     },
     conclusion: {
-        title: "The Future of Education Management Starts Now",
+        title: "Join the Future of School Management",
         description:
-            "Revolutionize your educational institution with Edena's all-in-one solution. Manage students, teachers, and finances in one place, streamline communication, optimize onboarding processes, and make data-driven decisions in real-time, all while maintaining maximum security and privacy.",
+            "Edena helps schools like yours reduce administrative costs by 40%, increase parent satisfaction by 60%, and save 15+ hours per week on routine tasks. Our all-in-one platform combines student management, financial operations, and family communication in one secure, intuitive system.",
     },
     features: {
-        title: "Experience the Power of Edena",
-        description: "The Complete Solution Revolutionizing Educational Management Worldwide",
+        title: "Power Your School with Edena",
+        description: "The Complete Solution Revolutionizing Educational Management",
         studentManagement: {
-            title: "Comprehensive Student Management",
-            tagline:
-                "Complete control over student records, attendance, and real-time academic tracking.",
+            title: "Student Management",
+            tagline: "Complete control over records and real-time academic tracking.",
         },
         classScheduling: {
-            title: "Intelligent Academic Planning",
-            tagline:
-                "Optimize timetables, classrooms, and resources with advanced scheduling technology.",
+            title: "Academic Planning",
+            tagline: "Optimize schedules and resources with advanced technology.",
         },
         dashboard: {
-            title: "Intuitive Analytics Dashboard",
-            tagline:
-                "Analyze your institution's performance with up-to-date key metrics and indicators.",
+            title: "Control Panel",
+            tagline: "Key metrics and indicators for your school.",
         },
         financeManagement: {
-            title: "Automated Financial Management",
-            tagline:
-                "Streamline payments, manage budgets, and optimize financial resources efficiently.",
+            title: "Financial Management",
+            tagline: "Automate payments and optimize financial resources.",
         },
         settingsConfiguration: {
-            title: "Advanced Customization",
-            tagline: "Adapt the platform to your institution's specific needs and requirements.",
+            title: "Customization",
+            tagline: "Adapt the platform to your school's needs.",
         },
     },
     pricing: {
@@ -177,60 +174,50 @@ export default {
             "Yes, you can customize visual elements such as logo, corporate colors, communication templates, and automatic messages sent to families to reflect your institution's identity.",
     },
     dashboard: {
-        mainTitle: "Real-Time Analytics for Your Educational Institution",
+        mainTitle: "Intuitive School Dashboard",
         mainDescription:
-            "Edena transforms school management with a powerful dashboard that centralizes all operations, from billing to family communication, in an intuitive and comprehensive interface.",
-        quickActionsTitle: "Quick Actions to Optimize Management",
+            "Monitor your school's performance in real-time. Everything in one place: billing, communication, and academic management.",
+        quickActionsTitle: "Quick Actions",
         quickActionsDescription:
-            "Generate invoices, manage the school calendar, invite families to the platform, and access key functions with a single click to save valuable time.",
+            "Invoices, calendar, invitations, and more. All at your fingertips.",
         notificationsTitle: "Instant Notifications",
-        notificationsDescription:
-            "Receive real-time alerts about important events, updates, and messages, keeping you connected with all your educational institution's operations.",
-        calendarDescription:
-            "Efficiently manage your school calendar, class schedules, events, and key dates with our intuitive planning tool.",
-        calendarTitle: "Centralized School Calendar",
+        notificationsDescription: "Real-time alerts to keep your school always informed.",
+        calendarDescription: "Manage schedules, events, and key dates efficiently.",
+        calendarTitle: "School Calendar",
         realTimeNotificationsExtendedDescription:
-            "Advanced notification system that keeps all members of the educational community informed about relevant events, schedule changes, and important communications.",
-        notificationsAndCalendarTitle: "Integrated Communication and Planning",
+            "Notification system that keeps the entire educational community connected.",
+        notificationsAndCalendarTitle: "Integrated Communication",
         notificationsAndCalendarDescription:
-            "Combine powerful real-time notifications with a complete school calendar to ensure that the entire educational community is always informed and coordinated.",
+            "Notifications and calendar combined for efficient school management.",
     },
     students: {
-        mainTitle: "Comprehensive Student Management for Educational Institutions",
+        mainTitle: "Simplified Student Management",
         mainDescription:
-            "Centralize all your students' information, from personal data to academic tracking, attendance, and family communications, simplifying educational administration.",
-        studentDetailTitle: "Complete Digital Records",
-        studentDetailDescription:
-            "Efficiently manage each student's digital records, including personal information, academic history, development tracking, and family communications.",
-        studentInvoicingTitle: "Automated Per-Student Billing",
+            "Centralize all student information. From personal data to academic tracking.",
+        studentDetailTitle: "Digital Records",
+        studentDetailDescription: "Manage records, academic history, and family communication.",
+        studentInvoicingTitle: "Per-Student Billing",
         studentInvoicingDescription:
-            "Intelligent billing system that automates invoice generation, payment control, and personalized financial tracking for each student.",
-        organizationTitle: "Centralized Organizational Management",
-        organizationDescription:
-            "Manage your entire organizational structure, including departments, teaching staff, resources, and administrative processes from a single dashboard.",
-        classroomsTitle: "Efficient Classroom Administration",
-        classroomsDescription:
-            "Optimize the management of educational spaces, resource allocation, class schedules, and classroom occupancy to maximize your institution's efficiency.",
-        classroomsDetailsTitle: "Detailed Control of Educational Spaces",
-        classroomsDetailsDescription:
-            "Precisely manage every aspect of your classrooms, from equipment and capacity to teacher and group assignments, improving academic planning.",
+            "Automated billing and personalized tracking for each student.",
+        organizationTitle: "Organizational Management",
+        organizationDescription: "Manage departments, staff, and resources from a single panel.",
+        classroomsTitle: "Classroom Management",
+        classroomsDescription: "Optimize spaces, resources, and schedules for maximum efficiency.",
+        classroomsDetailsTitle: "Space Control",
+        classroomsDetailsDescription: "Manage classrooms, equipment, and assignments precisely.",
     },
     app: {
-        mainTitle: "Your Educational Institution in Your Pocket",
+        mainTitle: "Your School in Your Pocket",
         mainDescription:
-            "Access all Edena functions from your phone or tablet, manage invoices, attendance, and family communications, and stay always informed about your institution's status.",
-        androidIosTitle: "Download the app for Android and iOS",
-        androidIosDescription:
-            "Access all Edena functions from your phone or tablet, manage invoices, attendance, and family communications, and stay always informed about your institution's status.",
+            "Access all features from any device. Total management in the palm of your hand.",
+        androidIosTitle: "App for Android & iOS",
+        androidIosDescription: "Available on all platforms. Download now.",
         parentsConnectedTitle: "Connect with Families",
-        parentsConnectedDescription:
-            "Stay always informed about your institution's status and receive instant notifications about important events, updates, and messages.",
-        uploadPicturesTitle: "Upload Pictures and Videos to Families",
-        uploadPicturesDescription:
-            "Send photos and videos to families to view the status of their child in real-time.",
-        uploadPicturesAndVideosDescription:
-            "Real-time updates and notifications to families about their child's activities and progress.",
+        parentsConnectedDescription: "Keep families informed with instant updates.",
+        uploadPicturesTitle: "Share Moments",
+        uploadPicturesDescription: "Send photos and videos to families securely.",
+        uploadPicturesAndVideosDescription: "Real-time updates to keep families connected.",
         communicateAndGetAlbumsDescription:
-            "Communicate with families and receive photo albums of their child's activities and progress. You can also send messages and receive notifications about their child's activities and progress.",
+            "Direct communication and photo albums for each student.",
     },
 };
