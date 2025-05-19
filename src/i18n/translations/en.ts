@@ -3,7 +3,7 @@ export default {
     downloadTheApp: "Download The App",
     knowMore: "See How It Works",
     meta: {
-        homeTitle: "Edena | #1 School Management System | All-in-One Educational ERP Software",
+        homeTitle: "Edena | School Management System | All-in-One Educational ERP Software",
         homeDescription:
             "Transform your school with Edena's all-in-one educational management platform. Streamline administration, boost parent engagement, and automate academic processes. Trusted by 500+ schools. Book your free demo today.",
         pricingTitle:
