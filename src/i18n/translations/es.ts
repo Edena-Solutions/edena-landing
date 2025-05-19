@@ -192,7 +192,8 @@ export default {
         notificationsTitle: "Notificaciones Instantáneas",
         notificationsDescription:
             "Alertas en tiempo real para mantener tu centro siempre informado.",
-        calendarDescription: "Gestiona horarios, eventos y fechas clave de forma eficiente.",
+        calendarDescription:
+            "Gestiona horarios, eventos y fechas clave de forma eficiente. Notifica eventos importantes a toda la comunidad educativa.",
         calendarTitle: "Calendario Escolar",
         realTimeNotificationsExtendedDescription:
             "Sistema de notificaciones que mantiene a toda la comunidad educativa conectada.",
@@ -206,7 +207,7 @@ export default {
             "Centraliza toda la información de tus estudiantes. Desde datos personales hasta seguimiento académico.",
         studentDetailTitle: "Expedientes Digitales",
         studentDetailDescription:
-            "Gestiona expedientes, historial académico y comunicación con familias.",
+            "Gestiona expedientes, historial académico y comunicación con familias. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
         studentInvoicingTitle: "Facturación por Estudiante",
         studentInvoicingDescription:
             "Facturación automática y seguimiento personalizado para cada estudiante.",
@@ -215,7 +216,7 @@ export default {
             "Administra departamentos, personal y recursos desde un único panel.",
         classroomsTitle: "Gestión de Aulas",
         classroomsDescription:
-            "Optimiza espacios, recursos y horarios para maximizar la eficiencia.",
+            "Optimiza espacios, recursos y horarios para maximizar la eficiencia y reducir costes. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
         classroomsDetailsTitle: "Control de Espacios",
         classroomsDetailsDescription:
             "Gestiona aulas, equipamiento y asignaciones de forma precisa.",
@@ -234,6 +235,6 @@ export default {
         uploadPicturesAndVideosDescription:
             "Actualizaciones en tiempo real para mantener a las familias conectadas.",
         communicateAndGetAlbumsDescription:
-            "Comunicación directa y álbumes de fotos para cada estudiante.",
+            "Comunicación directa y álbumes de fotos para cada estudiante. Envía mensajes y fotos a las familias de forma segura y fácil.",
     },
 };

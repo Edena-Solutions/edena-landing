@@ -182,7 +182,8 @@ export default {
             "Invoices, calendar, invitations, and more. All at your fingertips.",
         notificationsTitle: "Instant Notifications",
         notificationsDescription: "Real-time alerts to keep your school always informed.",
-        calendarDescription: "Manage schedules, events, and key dates efficiently.",
+        calendarDescription:
+            "Manage schedules, events, and key dates efficiently. Notify important events to the entire educational community.",
         calendarTitle: "School Calendar",
         realTimeNotificationsExtendedDescription:
             "Notification system that keeps the entire educational community connected.",
@@ -195,14 +196,16 @@ export default {
         mainDescription:
             "Centralize all student information. From personal data to academic tracking.",
         studentDetailTitle: "Digital Records",
-        studentDetailDescription: "Manage records, academic history, and family communication.",
+        studentDetailDescription:
+            "Manage records, academic history, and family communication. All in one place so you can focus on what really matters: teaching.",
         studentInvoicingTitle: "Per-Student Billing",
         studentInvoicingDescription:
             "Automated billing and personalized tracking for each student.",
         organizationTitle: "Organizational Management",
         organizationDescription: "Manage departments, staff, and resources from a single panel.",
         classroomsTitle: "Classroom Management",
-        classroomsDescription: "Optimize spaces, resources, and schedules for maximum efficiency.",
+        classroomsDescription:
+            "Optimize spaces, resources, and schedules for maximum efficiency and reduce costs. All in one place so you can focus on what really matters: teaching.",
         classroomsDetailsTitle: "Space Control",
         classroomsDetailsDescription: "Manage classrooms, equipment, and assignments precisely.",
     },
@@ -218,6 +221,6 @@ export default {
         uploadPicturesDescription: "Send photos and videos to families securely.",
         uploadPicturesAndVideosDescription: "Real-time updates to keep families connected.",
         communicateAndGetAlbumsDescription:
-            "Direct communication and photo albums for each student.",
+            "Direct communication and photo albums for each student. Send messages and photos to families securely and easily.",
     },
 };
