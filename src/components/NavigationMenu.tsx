@@ -9,7 +9,7 @@ import {
     navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
-import logo from "@/assets/img/logos/logo.svg";
+import logo from "@/assets/img/logos/logo.png";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { translations } from "@/i18n/index.ts";
 import { Button } from "./ui/button";
