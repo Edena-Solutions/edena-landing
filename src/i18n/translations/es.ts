@@ -41,7 +41,7 @@ export default {
             "Descubre cómo Edena puede transformar tu centro. Solicita una demo personalizada y obtén un plan de implementación gratuito.",
     },
     footer: {
-        users: "Usuarios",
+        users: "Familias",
         students: "Estudiantes",
         classes: "Clases",
         administration: "Administración",
@@ -56,7 +56,7 @@ export default {
         allRightsReserved: "Todos los derechos reservados.",
     },
     navigation: {
-        users: "Usuarios",
+        users: "Familias",
         students: "Estudiantes",
         studentsDescription:
             "Gestiona registros, asistencia y seguimiento académico de estudiantes de forma eficiente.",

@@ -46,7 +46,7 @@ export default {
         allRightsReserved: "All rights reserved.",
     },
     navigation: {
-        users: "Users",
+        users: "Families",
         students: "Students",
         studentsDescription:
             "Manage student records, attendance tracking, and academic performance monitoring efficiently.",
