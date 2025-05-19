@@ -89,16 +89,16 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const t = translations[lang as keyof typeof translations];
 
-    const academics: MenuItem[] = [
+    const users: MenuItem[] = [
+        {
+            title: t.navigation.guardians,
+            href: `/${lang}/guardians`,
+            description: t.navigation.guardiansDescription,
+        },
         {
             title: t.navigation.students,
             href: `/${lang}/students`,
             description: t.navigation.studentsDescription,
-        },
-        {
-            title: t.navigation.classes,
-            href: `/${lang}/classes`,
-            description: t.navigation.classesDescription,
         },
     ];
 
@@ -130,12 +130,10 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     <NavigationMenu className="mx-auto flex justify-center">
                         <NavigationMenuList>
                             <NavigationMenuItem>
-                                <NavigationMenuTrigger>
-                                    {t.navigation.academics}
-                                </NavigationMenuTrigger>
+                                <NavigationMenuTrigger>{t.navigation.users}</NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                                        {academics.map((item) => (
+                                        {users.map((item) => (
                                             <ListItem
                                                 key={item.title}
                                                 title={item.title}
@@ -214,9 +212,9 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     >
                         <div className="container px-4 py-4 space-y-4">
                             <div className="space-y-2">
-                                <div className="font-medium">{t.navigation.academics}</div>
+                                <div className="font-medium">{t.navigation.users}</div>
                                 <ul className="pl-2 space-y-2">
-                                    {academics.map((item) => (
+                                    {users.map((item) => (
                                         <li key={item.title}>
                                             <a
                                                 href={item.href}

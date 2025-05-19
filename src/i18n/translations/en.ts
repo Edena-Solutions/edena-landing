@@ -46,12 +46,12 @@ export default {
         allRightsReserved: "All rights reserved.",
     },
     navigation: {
-        academics: "Academics",
+        users: "Users",
         students: "Students",
         studentsDescription:
             "Manage student records, attendance tracking, and academic performance monitoring efficiently.",
-        classes: "Classes",
-        classesDescription: "Schedule and organize classes, timetables, and resources with ease.",
+        guardians: "Families and guardians",
+        guardiansDescription: "Manage guardian information efficiently.",
         administration: "Administration",
         dashboard: "Dashboard",
         dashboardDescription:

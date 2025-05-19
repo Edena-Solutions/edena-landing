@@ -22,10 +22,10 @@ const t = translations[lang as keyof typeof translations];
 
 const footerGroups: LinkGroup[] = [
     {
-      title: t.navigation.academics,
+      title: t.navigation.users,
       links: [
+          { title: t.navigation.guardians, href: `/${lang}/guardians` },
           { title: t.navigation.students, href: `/${lang}/students` },
-          { title: t.navigation.classes, href: `/${lang}/classes` },
       ],
     },
     {
