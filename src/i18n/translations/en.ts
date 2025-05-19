@@ -20,7 +20,7 @@ export default {
             "Join Edena to reduce administrative workload by 40%, increase parent engagement by 60%, and automate 90% of routine tasks. All-in-one platform for student management, billing, and communication.",
         mobileTitle: "Your School, Always Connected",
         mobileDescription:
-            "Keep parents engaged with instant updates, secure photo sharing, and real-time communication. Our award-winning mobile app has a 4.8/5 rating from 10,000+ educational institutions.",
+            "Keep parents engaged with instant updates, secure photo sharing, and real-time communication.",
         orgTitle: "Go Paperless in 30 Days",
         orgDescription:
             "Cut operational costs by 25% with Edena's fully digital school management system. Automate document handling, streamline family onboarding, and eliminate manual processes.",

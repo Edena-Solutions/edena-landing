@@ -24,7 +24,7 @@ export default {
             "Únete a Edena para reducir la carga administrativa un 40%, aumentar el compromiso de las familias un 60% y automatizar el 90% de las tareas rutinarias. Plataforma integral para gestión de estudiantes, facturación y comunicación.",
         mobileTitle: "Tu Centro, Siempre Conectado",
         mobileDescription:
-            "Mantén a las familias comprometidas con actualizaciones instantáneas, compartir de fotos seguro y comunicación en tiempo real. Nuestra app móvil tiene una valoración de 4.8/5 de más de 10.000 centros educativos.",
+            "Mantén a las familias comprometidas con actualizaciones instantáneas, compartir de forma segura y comunicación en tiempo real.",
         orgTitle: "Elimina el Papel en 30 Días",
         orgDescription:
             "Reduce los costes operativos un 25% con el sistema de gestión escolar totalmente digital de Edena. Automatiza la gestión documental, optimiza la incorporación de familias y elimina procesos manuales.",
