@@ -19,6 +19,8 @@ export default {
         demoTitle: "Solicita tu Demo Gratuita | Descubre Edena en Acción",
         financeTitle:
             "Software de Gestión Escolar | Plataforma de Facturación y Comunicación para Centros Educativos",
+        guardiansTitle:
+            "Software de Gestión de Familias y Tutores | Plataforma de Comunicación para Familias y Profesores",
     },
     hero: {
         mainTitle: "Transforma la Gestión de tu Centro",
@@ -256,5 +258,24 @@ export default {
         mainTitle: "Automatiza la Gestión Financiera",
         mainDescription:
             "Gestiona facturas, cobros y pagos de forma automática. Reduce errores y aumenta la precisión. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
+    },
+    guardians: {
+        mainTitle: "Gestión de Familias y Tutores",
+        mainDescription:
+            "Gestiona la información de los padres de los estudiantes. Desde datos personales hasta seguimiento académico.",
+        onboardingTitle: "Incorporación de Familias",
+        onboardingDescription:
+            "Reduce el tiempo de incorporación de familias un 75% con nuestro sistema automatizado. Firma digital de documentos, creación instantánea de perfiles y configuración guiada garantizan una transición fluida para todos.",
+        dashboardTitle: "Panel de Control de Familias",
+        dashboardDescription:
+            "Las familias disponen de un completo panel donde pueden gestionar información de sus hijos, consultar y pagar facturas, inscribirse en actividades extracurriculares y comunicarse directamente con el centro.",
+        studentControlTitle: "Control de Estudiantes",
+        studentControlDescription:
+            "Gestiona registros, asistencia y seguimiento académico de estudiantes de forma eficiente.",
+        appTitle: "App Móvil",
+        appDescription:
+            "Accede a todas las funciones desde cualquier dispositivo. Total gestión en la palma de tu mano.",
+        documentSigningTitle: "Firma de Documentos",
+        documentSigningDescription: "Firma digital de documentos para una comunicación eficiente.",
     },
 };

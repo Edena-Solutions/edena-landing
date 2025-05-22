@@ -1,0 +1,71 @@
+---
+import type { Translation } from "@/i18n";
+
+import { Button } from "@/components/ui/button";
+import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
+import { Image } from "astro:assets";
+
+import appDetail from "@/assets/img/app_detail.png"
+import emailInvoice from "@/assets/img/invoice_email.png"
+import gradient from "@/assets/img/gradient_1.png";
+import Link from "@/components/ui/link";
+interface Props {
+    t: Translation
+}
+
+const {
+    t,
+} = Astro.props;
+---
+
+<div class="flex flex-col gap-16 items-center">
+    <div class="flex flex-col gap-3 text-center px-4">
+        <h2 class="text-3xl font-bold">{t.guardians.studentControlTitle}</h2>
+        <p class="text-muted-foreground max-w-2xl mx-auto">
+            {t.guardians.studentControlDescription}
+        </p>
+    </div>
+    <div class="grid gap-3 px-4 text-sm sm:grid-cols-2 w-full">
+        <Card className="flex h-100 sm:h-100 sm:h-140 flex-col items-center gap-6 overflow-hidden rounded-md bg-gray-50 text-center">
+            <CardHeader className="flex flex-col items-center gap-3">
+                <h2 class="text-3xl font-bold">{t.guardians.appTitle}</h2>
+                <p class="max-w-md">
+                    {t.guardians.appDescription}
+                </p>
+            </CardHeader>
+            <CardFooter>
+                <Image src={appDetail} alt="Invoice Details" class="w-80"/>
+            </CardFooter>
+        </Card>
+        <div class="flex flex-col-reverse md:flex-col gap-3 h-140">
+            <Card className="flex min-h-fit rounded-md"
+                style={{
+                    backgroundImage: `url('${gradient.src}')`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "top left",
+                }}
+            >
+                <CardContent className="flex items-center flex-col sm:flex-row gap-3 p-8 justify-between w-full">
+                    <p class="max-w-xs text-white font-semibold text-center sm:text-left">
+                        {t.setup.bookADemoCTA}
+                    </p>
+                    <Link href="demo">
+                        <Button variant="secondary">
+                            {t.bookDemo}
+                        </Button>
+                    </Link>
+                </CardContent>
+            </Card>
+            <Card className="flex flex-col items-center overflow-hidden rounded-md bg-gray-50 text-center">
+                <CardHeader className="flex flex-col items-center gap-3">
+                    <p class="max-w-md">
+                        {t.guardians.documentSigningDescription}
+                    </p>
+                </CardHeader>
+                <CardFooter>
+                    <Image src={emailInvoice} alt="Operations" class="h-140 w-auto" />
+                </CardFooter>
+            </Card>
+        </div>
+    </div>
+</div>

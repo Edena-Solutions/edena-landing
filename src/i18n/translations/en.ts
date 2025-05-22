@@ -15,6 +15,8 @@ export default {
         demoTitle: "Book Your Free School Management Software Demo | See Edena in Action",
         financeTitle:
             "School Management Software | Billing & Communication Platform for Educational Institutions",
+        guardiansTitle:
+            "Family & Guardian Management Software | Communication Platform for Families & Teachers",
     },
     hero: {
         mainTitle: "Transform Your School Management",
@@ -244,5 +246,24 @@ export default {
         mainTitle: "Automate Your Financial Management",
         mainDescription:
             "Manage invoices, payments, and billing cycles automatically. Reduce errors and increase accuracy. All in one place so you can focus on what really matters: teaching.",
+    },
+    guardians: {
+        mainTitle: "Family and Guardian Management",
+        mainDescription:
+            "Manage family information efficiently. From personal data to academic tracking.",
+        onboardingTitle: "Family Onboarding",
+        onboardingDescription:
+            "Reduce family onboarding time by 75% with our automated system. Digital document signing, instant profile creation, and guided setup ensure a smooth transition for everyone.",
+        dashboardTitle: "Family Dashboard",
+        dashboardDescription:
+            "Families have access to a comprehensive dashboard where they can manage their children's information, view and pay invoices, register for extracurricular activities, and communicate directly with the school.",
+        studentControlTitle: "Student Control",
+        studentControlDescription:
+            "Manage student records, attendance tracking, and academic performance monitoring efficiently.",
+        appTitle: "Mobile App",
+        appDescription:
+            "Access all features from any device. Total management in the palm of your hand.",
+        documentSigningTitle: "Document Signing",
+        documentSigningDescription: "Digital document signing for efficient communication.",
     },
 };
