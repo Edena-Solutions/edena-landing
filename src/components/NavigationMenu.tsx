@@ -173,7 +173,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     </a>
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
-                            <NavigationMenuItem>
+                            {/* <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
                                     <a
                                         href={`/${lang}/pricing`}
@@ -182,7 +182,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                         {t.navigation.pricing}
                                     </a>
                                 </NavigationMenuLink>
-                            </NavigationMenuItem>
+                            </NavigationMenuItem> */}
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
                                     <a
@@ -250,14 +250,14 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     {t.navigation.app}
                                 </a>
                             </div>
-                            <div className="space-y-2">
+                            {/* <div className="space-y-2">
                                 <a
                                     href={`/${lang}/pricing`}
                                     className="block py-2 text-sm hover:text-primary"
                                 >
                                     {t.navigation.pricing}
                                 </a>
-                            </div>
+                            </div> */}
                             <div className="space-y-2">
                                 <a
                                     href={`/${lang}/faqs`}

@@ -87,7 +87,7 @@ const currentYear = new Date().getFullYear();
       </p>
 
       <div class="text-center md:text-left flex flex-col sm:flex-row items-center gap-6">
-        <a href={`/${lang}/pricing`} class="text-sm text-muted-foreground hover:text-primary">{t.navigation.pricing}</a>
+        <!-- <a href={`/${lang}/pricing`} class="text-sm text-muted-foreground hover:text-primary">{t.navigation.pricing}</a> -->
         <a href={`/${lang}/faqs`} class="text-sm text-muted-foreground hover:text-primary">{t.navigation.faqs}</a>
         <LanguageSwitcher client:load currentLang={lang} />  
       </div>

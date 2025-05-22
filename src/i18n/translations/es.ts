@@ -17,6 +17,8 @@ export default {
         appTitle:
             "App Móvil de Gestión Escolar | Plataforma de Comunicación para Familias y Profesores",
         demoTitle: "Solicita tu Demo Gratuita | Descubre Edena en Acción",
+        financeTitle:
+            "Software de Gestión Escolar | Plataforma de Facturación y Comunicación para Centros Educativos",
     },
     hero: {
         mainTitle: "Transforma la Gestión de tu Centro",
@@ -43,7 +45,6 @@ export default {
     footer: {
         users: "Familias",
         students: "Estudiantes",
-        classes: "Clases",
         administration: "Administración",
         dashboard: "Panel de Control",
         finance: "Finanzas",
@@ -219,7 +220,7 @@ export default {
             "Optimiza espacios, recursos y horarios para maximizar la eficiencia y reducir costes. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
         classroomsDetailsTitle: "Control de Espacios",
         classroomsDetailsDescription:
-            "Gestiona aulas, equipamiento y asignaciones de forma precisa.",
+            "Gestiona aulas, equipamiento y asignaciones de forma precisa. Los estudiantes pueden ver sus aulas y equipamiento asignados.",
     },
     app: {
         mainTitle: "Tu Centro en el Móvil",
@@ -236,5 +237,24 @@ export default {
             "Actualizaciones en tiempo real para mantener a las familias conectadas.",
         communicateAndGetAlbumsDescription:
             "Comunicación directa y álbumes de fotos para cada estudiante. Envía mensajes y fotos a las familias de forma segura y fácil.",
+    },
+    finance: {
+        automationTitle: "Automatización de Procesos",
+        automationDescription:
+            "Automatiza tareas como la generación de facturas, cobros y seguimiento de pagos para reducir errores y aumentar la precisión.",
+        paperlessBillingTitle: "Facturación sin Papel",
+        paperlessBillingDescription: "Genera y envía facturas electrónicas de forma automática.",
+        analyticsTitle: "Análisis de Datos",
+        analyticsDescription:
+            "Accede a informes detallados sobre el rendimiento financiero. Obtén insights sobre el estado financiero de tu centro. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
+        fastBillingTitle: "Facturación Rápida",
+        fastBillingDescription:
+            "Genera y envía facturas electrónicas de forma automática. Envía facturas a las familias de forma instantánea y segura.",
+        billingCycleTitle: "Ciclo de Facturación",
+        billingCycleDescription:
+            "Crea ciclos de facturación y gestiona pagos recurrentes. Organiza tus operaciones financieras y reduce errores.",
+        mainTitle: "Automatiza la Gestión Financiera",
+        mainDescription:
+            "Gestiona facturas, cobros y pagos de forma automática. Reduce errores y aumenta la precisión. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
     },
 };

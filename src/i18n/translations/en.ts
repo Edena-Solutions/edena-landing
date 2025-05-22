@@ -13,6 +13,8 @@ export default {
         studentsTitle: "Student Information System (SIS) | Complete Student Management Software",
         appTitle: "School Management Mobile App | Parent & Teacher Communication Platform",
         demoTitle: "Book Your Free School Management Software Demo | See Edena in Action",
+        financeTitle:
+            "School Management Software | Billing & Communication Platform for Educational Institutions",
     },
     hero: {
         mainTitle: "Transform Your School Management",
@@ -207,7 +209,8 @@ export default {
         classroomsDescription:
             "Optimize spaces, resources, and schedules for maximum efficiency and reduce costs. All in one place so you can focus on what really matters: teaching.",
         classroomsDetailsTitle: "Space Control",
-        classroomsDetailsDescription: "Manage classrooms, equipment, and assignments precisely.",
+        classroomsDetailsDescription:
+            "Manage classrooms, equipment, and assignments precisely. Students can see their assigned classrooms and equipment.",
     },
     app: {
         mainTitle: "Your School in Your Pocket",
@@ -222,5 +225,24 @@ export default {
         uploadPicturesAndVideosDescription: "Real-time updates to keep families connected.",
         communicateAndGetAlbumsDescription:
             "Direct communication and photo albums for each student. Send messages and photos to families securely and easily.",
+    },
+    finance: {
+        automationTitle: "Automation of Processes",
+        automationDescription:
+            "Automate tasks like invoice generation, billing, and payment tracking to reduce errors and increase accuracy.",
+        paperlessBillingTitle: "Paperless Billing",
+        paperlessBillingDescription: "Generate and send electronic invoices automatically.",
+        analyticsTitle: "Data Analytics",
+        analyticsDescription:
+            "Access detailed financial performance reports. Get insights into your school's financial health. All in one place so you can focus on what really matters: teaching.",
+        fastBillingTitle: "Fast Billing",
+        fastBillingDescription:
+            "Generate and send electronic invoices automatically. Send invoices to families instantly and securely.",
+        billingCycleTitle: "Billing Cycle",
+        billingCycleDescription:
+            "Create billing cycles and manage recurring payments. Organize your financial operations and reduce errors.",
+        mainTitle: "Automate Your Financial Management",
+        mainDescription:
+            "Manage invoices, payments, and billing cycles automatically. Reduce errors and increase accuracy. All in one place so you can focus on what really matters: teaching.",
     },
 };
