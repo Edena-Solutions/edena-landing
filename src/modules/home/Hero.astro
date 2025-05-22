@@ -5,7 +5,6 @@ import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button";
 import { Image } from "astro:assets";
 
-import heroImage from "@/assets/img/dashboard_hero.png"
 import organizationImage from "@/assets/img/organization.png"
 import gradient from "@/assets/img/gradient_1.png"
 import Link from "@/components/ui/link";
@@ -16,12 +15,11 @@ interface Props {
 
 const { 
     t,
-    lang
 } = Astro.props;
 ---
 
 <div class="grid gap-3">
-  <Card className="flex flex-col items-center justify-start text-center sm:h-160 overflow-hidden bg-gray-50 gap-6">
+  <Card className="flex flex-col items-center justify-start text-center overflow-hidden bg-gray-50 gap-6">
     <CardHeader className="pb-4">
       <h1 class="text-3xl font-bold max-w-xl">{t.hero.mainTitle}</h1>
     </CardHeader>
@@ -30,9 +28,6 @@ const {
         {t.hero.mainDescription}
       </p>
     </CardContent>
-    <CardFooter>
-      <Image src={heroImage} alt="Hero" loading="eager" class="sm:w-3/4 mx-auto"/>
-    </CardFooter>
   </Card>
   
   <div class="grid sm:grid-cols-2 gap-3 px-4">
