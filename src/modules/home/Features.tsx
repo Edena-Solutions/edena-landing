@@ -4,9 +4,12 @@ import {
     ChevronLeft,
     ChevronRight,
     Cog,
+    File,
     LayoutDashboard,
     LibraryBig,
+    MessageCircle,
     Shapes,
+    UserRound,
     Wallet,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -47,6 +50,21 @@ const Features = ({ t }: { t: Translation }) => {
             title: t.features.settingsConfiguration.title,
             tagline: t.features.settingsConfiguration.tagline,
             icon: <Cog size={50} />,
+        },
+        {
+            title: t.features.parentCommunication.title,
+            tagline: t.features.parentCommunication.tagline,
+            icon: <MessageCircle size={50} />,
+        },
+        {
+            title: t.features.studentAttendance.title,
+            tagline: t.features.studentAttendance.tagline,
+            icon: <UserRound size={50} />,
+        },
+        {
+            title: t.features.invoices.title,
+            tagline: t.features.invoices.tagline,
+            icon: <File size={50} />,
         },
     ];
 

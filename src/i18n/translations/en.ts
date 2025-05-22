@@ -94,6 +94,18 @@ export default {
             title: "Customization",
             tagline: "Adapt the platform to your school's needs.",
         },
+        parentCommunication: {
+            title: "Parent Communication",
+            tagline: "Send messages and updates to families instantly.",
+        },
+        studentAttendance: {
+            title: "Student Attendance",
+            tagline: "Record and control student attendance automatically.",
+        },
+        invoices: {
+            title: "Invoices",
+            tagline: "Generate and send electronic invoices automatically.",
+        },
     },
     pricing: {
         title: "Flexible Plans for Every School",

@@ -103,6 +103,18 @@ export default {
             title: "Personalización",
             tagline: "Adapta la plataforma a las necesidades de tu centro.",
         },
+        parentCommunication: {
+            title: "Comunicación con Familias",
+            tagline: "Envía mensajes y actualizaciones a las familias de forma instantánea.",
+        },
+        studentAttendance: {
+            title: "Gestión de Asistencia",
+            tagline: "Registra y controla la asistencia de los estudiantes de forma automática.",
+        },
+        invoices: {
+            title: "Facturación",
+            tagline: "Genera y envía facturas electrónicas de forma automática.",
+        },
     },
     pricing: {
         title: "Planes flexibles para cada centro",
