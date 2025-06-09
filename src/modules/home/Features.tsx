@@ -190,7 +190,7 @@ const Features = ({ t }: { t: Translation }) => {
                         {features.map((feature, index) => (
                             <div
                                 key={feature.title}
-                                className={`hover:scale-103 rounded-md cursor-pointer flex-none w-full md:w-1/3 lg:w-1/4 snap-center transition-all duration-300 overflow-hidden transform bg-gray-50 ${
+                                className={`hover:scale-103 rounded cursor-pointer flex-none w-full md:w-1/3 lg:w-1/4 snap-center transition-all duration-300 overflow-hidden transform bg-gray-50 ${
                                     activeIndex === index ? "opacity-100" : "opacity-90"
                                 }`}
                             >
@@ -204,7 +204,7 @@ const Features = ({ t }: { t: Translation }) => {
                                         </h3>
                                     </div>
                                     <div
-                                        className="absolute w-30 h-30 text-white rounded-md top-50 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center"
+                                        className="absolute w-30 h-30 text-white rounded top-50 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center"
                                         style={{
                                             backgroundImage: `url('${gradient.src}')`,
                                             backgroundSize: "cover",
@@ -230,7 +230,7 @@ const Features = ({ t }: { t: Translation }) => {
                         <Button
                             onClick={() => scroll("left")}
                             className={`${!showLeftArrow && "opacity-50 cursor-not-allowed"}`}
-                            variant="outline"
+                            variant="secondary"
                             size="icon"
                             aria-label="Ver anterior"
                             disabled={!showLeftArrow}
@@ -241,7 +241,7 @@ const Features = ({ t }: { t: Translation }) => {
                         <Button
                             onClick={() => scroll("right")}
                             className={`${!showRightArrow && "opacity-50 cursor-not-allowed"}`}
-                            variant="outline"
+                            variant="secondary"
                             size="icon"
                             aria-label="Ver siguiente"
                             disabled={!showRightArrow}
