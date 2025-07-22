@@ -72,8 +72,9 @@ export default {
             "Edena helps schools like yours reduce administrative costs by 40%, increase parent satisfaction by 60%, and save 15+ hours per week on routine tasks. Our all-in-one platform combines student management, financial operations, and family communication in one secure, intuitive system.",
     },
     features: {
-        title: "Power Your School with Edena",
-        description: "The Complete Solution Revolutionizing Educational Management",
+        title: "Your School, Always Connected",
+        description:
+            "Get the most out of your school management system with Edena's all-in-one platform.",
         studentManagement: {
             title: "Student Management",
             tagline: "Complete control over records and real-time academic tracking.",
@@ -105,6 +106,42 @@ export default {
         invoices: {
             title: "Invoices",
             tagline: "Generate and send electronic invoices automatically.",
+        },
+        digitalRecords: {
+            title: "Digital Records",
+            tagline: "Manage all student information securely and organized.",
+        },
+        mobileApp: {
+            title: "Mobile App",
+            tagline: "Access all features from any mobile device.",
+        },
+        automatedBilling: {
+            title: "Automated Billing",
+            tagline: "Generate and send invoices automatically based on contracted services.",
+        },
+        realTimeAnalytics: {
+            title: "Real-time Analytics",
+            tagline: "Get detailed insights into your educational institution's performance.",
+        },
+        documentManagement: {
+            title: "Document Management",
+            tagline: "Organize and manage all center documents digitally.",
+        },
+        familyPortal: {
+            title: "Family Portal",
+            tagline: "Provide families with complete access to their children's information.",
+        },
+        staffManagement: {
+            title: "Staff Management",
+            tagline: "Efficiently manage teaching and administrative staff.",
+        },
+        calendarIntegration: {
+            title: "Calendar Integration",
+            tagline: "Sync events and activities with external calendars.",
+        },
+        reportingTools: {
+            title: "Reporting Tools",
+            tagline: "Generate customized reports for data-driven decision making.",
         },
     },
     pricing: {
