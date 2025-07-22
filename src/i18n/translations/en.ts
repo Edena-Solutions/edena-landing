@@ -38,7 +38,7 @@ export default {
         operationsDescription:
             "Gain complete visibility into your school's operations with real-time analytics, automated financial reporting, and customizable dashboards. Make data-driven decisions with confidence.",
         bookADemoCTA:
-            "See how Edena can transform your school. Book a personalized demo and get a free implementation plan.",
+            "See how Edena can transform your school. Book a personalized demo and get a free trial.",
     },
     footer: {
         legal: "Legal",

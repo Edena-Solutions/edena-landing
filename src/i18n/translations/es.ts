@@ -42,7 +42,7 @@ export default {
         operationsDescription:
             "Obtén visibilidad completa de las operaciones de tu centro con análisis en tiempo real, informes financieros automatizados y paneles personalizables. Toma decisiones basadas en datos con confianza.",
         bookADemoCTA:
-            "Descubre cómo Edena puede transformar tu centro. Solicita una demo personalizada y obtén un plan de implementación gratuito.",
+            "Descubre cómo Edena puede transformar tu centro. Solicita una demo y prueba gratis.",
     },
     footer: {
         users: "Familias",
