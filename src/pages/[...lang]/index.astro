@@ -2,11 +2,10 @@
 import { translations, languages } from '@/i18n/index.ts';
 import Layout from "@/layouts/main.astro";
 import Hero from "@/modules/home/Hero.astro";
-import Features from "@/modules/home/Features.tsx";
-import SetUp from "@/modules/home/SetUp.astro";
+import Carrousel from "@/modules/home/Carrousel";
 import Conclusion from "@/modules/home/Conclusion.astro";
 import MarketStats from "@/modules/home/MarketStats.astro";
-import FeaturesSection from "@/modules/home/FeaturesSection.tsx";
+import Features from "@/modules/home/Features.tsx";
 
 export function getStaticPaths() {
   return languages.map(lang => ({
@@ -21,9 +20,8 @@ const t = translations[lang as keyof typeof translations];
     <section class="grid gap-16">
         <Hero t={t} lang={lang} />
         <MarketStats t={t} lang={lang} />
-        <FeaturesSection client:load t={t} />
-        <SetUp t={t} />
-        <Features client:load t={t}/>
+        <Features client:load t={t} />
+        <Carrousel client:load t={t}/>
         <Conclusion lang={lang} />
     </section>
 </Layout>

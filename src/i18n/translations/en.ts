@@ -75,6 +75,8 @@ export default {
         title: "Your School, Always Connected",
         description:
             "Get the most out of your school management system with Edena's all-in-one platform.",
+        title2: "Your time is valuable",
+        description2: "Edena is the complete solution revolutionizing educational management",
         studentManagement: {
             title: "Student Management",
             tagline: "Complete control over records and real-time academic tracking.",

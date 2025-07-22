@@ -84,6 +84,8 @@ export default {
         title: "Tu centro, siempre conectado",
         description:
             "Obtén el máximo rendimiento de tu sistema de gestión escolar con la plataforma integral de Edena.",
+        title2: "Tu tiempo es valioso",
+        description2: "Edena es la solución integral que revoluciona la gestión educativa",
         studentManagement: {
             title: "Gestión estudiantil",
             tagline: "Control total de expedientes y seguimiento académico en tiempo real.",
