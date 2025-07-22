@@ -23,18 +23,18 @@ export default {
             "Software de Gestión de Familias y Tutores | Plataforma de Comunicación para Familias y Profesores",
     },
     hero: {
-        mainTitle: "Transforma la Gestión de tu Centro",
+        mainTitle: "Transforma la gestión escolar de tu centro",
         mainDescription:
             "Únete a Edena para reducir la carga administrativa un 40%, aumentar el compromiso de las familias un 60% y automatizar el 90% de las tareas rutinarias. Plataforma integral para gestión de estudiantes, facturación y comunicación.",
-        mobileTitle: "Tu Centro, Siempre Conectado",
+        mobileTitle: "Tu centro, siempre conectado",
         mobileDescription:
             "Mantén a las familias comprometidas con actualizaciones instantáneas, compartir de forma segura y comunicación en tiempo real.",
-        orgTitle: "Elimina el Papel en 30 Días",
+        orgTitle: "Elimina el papel en 30 días",
         orgDescription:
             "Reduce los costes operativos un 25% con el sistema de gestión escolar totalmente digital de Edena. Automatiza la gestión documental, optimiza la incorporación de familias y elimina procesos manuales.",
     },
     setup: {
-        title: "Funcionando en Días, No en Meses",
+        title: "Funcionando en días, no en meses",
         description:
             "La mayoría de los centros completan su implementación de Edena en solo 2 semanas. Nuestro equipo de incorporación se encarga de todo, desde la migración de datos hasta la formación del personal.",
         onboardingDescription:
@@ -81,22 +81,22 @@ export default {
             "Edena ayuda a centros como el tuyo a reducir costes administrativos un 40%, aumentar la satisfacción de las familias un 60% y ahorrar más de 15 horas semanales en tareas rutinarias. Nuestra plataforma integral combina gestión de estudiantes, operaciones financieras y comunicación familiar en un sistema seguro e intuitivo.",
     },
     features: {
-        title: "Potencia tu Centro con Edena",
+        title: "Potencia tu centro con Edena",
         description: "La solución integral que revoluciona la gestión educativa",
         studentManagement: {
-            title: "Gestión Estudiantil",
+            title: "Gestión estudiantil",
             tagline: "Control total de expedientes y seguimiento académico en tiempo real.",
         },
         classScheduling: {
-            title: "Planificación Académica",
+            title: "Planificación académica",
             tagline: "Optimiza horarios y recursos con tecnología avanzada.",
         },
         dashboard: {
-            title: "Panel de Control",
+            title: "Panel de control",
             tagline: "Métricas e indicadores clave para tu centro.",
         },
         financeManagement: {
-            title: "Gestión Financiera",
+            title: "Gestión financiera",
             tagline: "Automatiza cobros y optimiza recursos económicos.",
         },
         settingsConfiguration: {
@@ -104,11 +104,11 @@ export default {
             tagline: "Adapta la plataforma a las necesidades de tu centro.",
         },
         parentCommunication: {
-            title: "Comunicación con Familias",
+            title: "Comunicación con familias",
             tagline: "Envía mensajes y actualizaciones a las familias de forma instantánea.",
         },
         studentAttendance: {
-            title: "Gestión de Asistencia",
+            title: "Gestión de asistencia",
             tagline: "Registra y controla la asistencia de los estudiantes de forma automática.",
         },
         invoices: {
@@ -199,53 +199,53 @@ export default {
             "Sí, puedes personalizar elementos visuales como el logo, colores corporativos, plantillas de comunicación y mensajes automáticos que se envían a las familias para reflejar la identidad de tu centro.",
     },
     dashboard: {
-        mainTitle: "Panel de Control Escolar Intuitivo",
+        mainTitle: "Panel de control escolar intuitivo",
         mainDescription:
             "Visualiza el rendimiento de tu centro en tiempo real. Todo en un solo lugar: facturación, comunicación y gestión académica.",
-        quickActionsTitle: "Acciones Rápidas",
+        quickActionsTitle: "Acciones rápidas",
         quickActionsDescription: "Facturas, calendario, invitaciones y más. Todo a un clic.",
-        notificationsTitle: "Notificaciones Instantáneas",
+        notificationsTitle: "Notificaciones instantáneas",
         notificationsDescription:
             "Alertas en tiempo real para mantener tu centro siempre informado.",
         calendarDescription:
             "Gestiona horarios, eventos y fechas clave de forma eficiente. Notifica eventos importantes a toda la comunidad educativa.",
-        calendarTitle: "Calendario Escolar",
+        calendarTitle: "Calendario escolar",
         realTimeNotificationsExtendedDescription:
             "Sistema de notificaciones que mantiene a toda la comunidad educativa conectada.",
-        notificationsAndCalendarTitle: "Comunicación Integrada",
+        notificationsAndCalendarTitle: "Comunicación integrada",
         notificationsAndCalendarDescription:
             "Notificaciones y calendario unidos para una gestión escolar eficiente.",
     },
     students: {
-        mainTitle: "Gestión Estudiantil Simplificada",
+        mainTitle: "Gestión estudiantil simplificada",
         mainDescription:
             "Centraliza toda la información de tus estudiantes. Desde datos personales hasta seguimiento académico.",
-        studentDetailTitle: "Expedientes Digitales",
+        studentDetailTitle: "Expedientes digitales",
         studentDetailDescription:
             "Gestiona expedientes, historial académico y comunicación con familias. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
-        studentInvoicingTitle: "Facturación por Estudiante",
+        studentInvoicingTitle: "Facturación por estudiante",
         studentInvoicingDescription:
             "Facturación automática y seguimiento personalizado para cada estudiante.",
-        organizationTitle: "Gestión Organizativa",
+        organizationTitle: "Gestión organizativa",
         organizationDescription:
             "Administra departamentos, personal y recursos desde un único panel.",
-        classroomsTitle: "Gestión de Aulas",
+        classroomsTitle: "Gestión de aulas",
         classroomsDescription:
             "Optimiza espacios, recursos y horarios para maximizar la eficiencia y reducir costes. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
-        classroomsDetailsTitle: "Control de Espacios",
+        classroomsDetailsTitle: "Control de espacios",
         classroomsDetailsDescription:
             "Gestiona aulas, equipamiento y asignaciones de forma precisa. Los estudiantes pueden ver sus aulas y equipamiento asignados.",
     },
     app: {
-        mainTitle: "Tu Centro en el Móvil",
+        mainTitle: "Tu centro en el móvil",
         mainDescription:
             "Accede a todas las funciones desde cualquier dispositivo. Gestión total en la palma de tu mano.",
         androidIosTitle: "App para Android e iOS",
         androidIosDescription: "Disponible en todas las plataformas. Descarga ahora.",
-        parentsConnectedTitle: "Conecta con Familias",
+        parentsConnectedTitle: "Conecta con familias",
         parentsConnectedDescription:
             "Mantén a las familias informadas con actualizaciones instantáneas.",
-        uploadPicturesTitle: "Comparte Momentos",
+        uploadPicturesTitle: "Comparte momentos",
         uploadPicturesDescription: "Envía fotos y videos a las familias de forma segura.",
         uploadPicturesAndVideosDescription:
             "Actualizaciones en tiempo real para mantener a las familias conectadas.",
@@ -253,41 +253,41 @@ export default {
             "Comunicación directa y álbumes de fotos para cada estudiante. Envía mensajes y fotos a las familias de forma segura y fácil.",
     },
     finance: {
-        automationTitle: "Automatización de Procesos",
+        automationTitle: "Automatización de procesos",
         automationDescription:
             "Automatiza tareas como la generación de facturas, cobros y seguimiento de pagos para reducir errores y aumentar la precisión.",
-        paperlessBillingTitle: "Facturación sin Papel",
+        paperlessBillingTitle: "Facturación sin papel",
         paperlessBillingDescription: "Genera y envía facturas electrónicas de forma automática.",
-        analyticsTitle: "Análisis de Datos",
+        analyticsTitle: "Análisis de datos",
         analyticsDescription:
             "Accede a informes detallados sobre el rendimiento financiero. Obtén insights sobre el estado financiero de tu centro. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
-        fastBillingTitle: "Facturación Rápida",
+        fastBillingTitle: "Facturación rápida",
         fastBillingDescription:
             "Genera y envía facturas electrónicas de forma automática. Envía facturas a las familias de forma instantánea y segura.",
-        billingCycleTitle: "Ciclo de Facturación",
+        billingCycleTitle: "Ciclo de facturación",
         billingCycleDescription:
             "Crea ciclos de facturación y gestiona pagos recurrentes. Organiza tus operaciones financieras y reduce errores.",
-        mainTitle: "Automatiza la Gestión Financiera",
+        mainTitle: "Automatiza la gestión financiera",
         mainDescription:
             "Gestiona facturas, cobros y pagos de forma automática. Reduce errores y aumenta la precisión. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
     },
     guardians: {
-        mainTitle: "Gestión de Familias y Tutores",
+        mainTitle: "Gestión de familias y tutores",
         mainDescription:
             "Gestiona la información de los padres de los estudiantes. Desde datos personales hasta seguimiento académico.",
-        onboardingTitle: "Incorporación de Familias",
+        onboardingTitle: "Incorporación de familias",
         onboardingDescription:
             "Reduce el tiempo de incorporación de familias un 75% con nuestro sistema automatizado. Firma digital de documentos, creación instantánea de perfiles y configuración guiada garantizan una transición fluida para todos.",
-        dashboardTitle: "Panel de Control de Familias",
+        dashboardTitle: "Panel de control de familias",
         dashboardDescription:
             "Las familias pueden gestionar información de sus hijos, consultar y pagar facturas, inscribirse en actividades extracurriculares y comunicarse directamente con el centro.",
-        studentControlTitle: "Control de Estudiantes",
+        studentControlTitle: "Control de estudiantes",
         studentControlDescription:
             "Gestiona registros, asistencia y seguimiento académico de estudiantes de forma eficiente.",
-        appTitle: "App Móvil",
+        appTitle: "App móvil",
         appDescription:
             "Accede a todas las funciones desde cualquier dispositivo. Total gestión en la palma de tu mano.",
-        documentSigningTitle: "Firma de Documentos",
+        documentSigningTitle: "Firma de documentos",
         documentSigningDescription:
             "Firma digital de documentos para una comunicación eficiente. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
     },
