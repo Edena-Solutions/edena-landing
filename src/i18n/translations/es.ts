@@ -73,7 +73,7 @@ export default {
         financeDescription: "Automatiza la gestión de finanzas escolares, cuotas y presupuestos.",
         pricing: "Precios",
         faqs: "Preguntas Frecuentes",
-        app: "App Móvil",
+        app: "Edena Kids",
     },
     conclusion: {
         title: "Únete al Futuro de la Gestión Escolar",

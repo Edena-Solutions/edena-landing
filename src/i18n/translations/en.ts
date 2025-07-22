@@ -64,7 +64,7 @@ export default {
         financeDescription: "Automate school financial management, fees, and budgets.",
         pricing: "Pricing",
         faqs: "FAQs",
-        app: "Mobile App",
+        app: "Edena Kids",
     },
     conclusion: {
         title: "Join the Future of School Management",
