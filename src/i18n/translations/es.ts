@@ -82,7 +82,7 @@ export default {
             "Edena ayuda a centros como el tuyo a reducir costes administrativos un 40%, aumentar la satisfacción de las familias un 60% y ahorrar más de 15 horas semanales en tareas rutinarias. Nuestra plataforma integral combina gestión de estudiantes, operaciones financieras y comunicación familiar en un sistema seguro e intuitivo.",
     },
     features: {
-        title: "Tu centro, siempre conectado",
+        title: "Funcionalidades que transforman la gestión escolar",
         description:
             "Obtén el máximo rendimiento de tu sistema de gestión escolar con la plataforma integral de Edena.",
         studentManagement: {
@@ -308,7 +308,7 @@ export default {
             "Centraliza toda la información de tus estudiantes. Desde datos personales hasta seguimiento académico.",
         studentDetailTitle: "Expedientes digitales",
         studentDetailDescription:
-            "Gestiona expedientes, historial académico y comunicación con familias. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
+            "Gestiona expedientes, historial académico y comunicación con familias. Plataforma unificada que optimiza la gestión administrativa y mejora la experiencia educativa.",
         studentInvoicingTitle: "Facturación por estudiante",
         studentInvoicingDescription:
             "Facturación automática y seguimiento personalizado para cada estudiante.",
@@ -317,7 +317,7 @@ export default {
             "Administra departamentos, personal y recursos desde un único panel.",
         classroomsTitle: "Gestión de aulas",
         classroomsDescription:
-            "Optimiza espacios, recursos y horarios para maximizar la eficiencia y reducir costes. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
+            "Optimiza espacios, recursos y horarios para maximizar la eficiencia y reducir costes. Sistema inteligente que adapta la infraestructura a las necesidades educativas.",
         classroomsDetailsTitle: "Control de espacios",
         classroomsDetailsDescription:
             "Gestiona aulas, equipamiento y asignaciones de forma precisa. Los estudiantes pueden ver sus aulas y equipamiento asignados.",
@@ -346,7 +346,7 @@ export default {
         paperlessBillingDescription: "Genera y envía facturas electrónicas de forma automática.",
         analyticsTitle: "Análisis de datos",
         analyticsDescription:
-            "Accede a informes detallados sobre el rendimiento financiero. Obtén insights sobre el estado financiero de tu centro. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
+            "Accede a informes detallados sobre el rendimiento financiero. Obtén insights sobre el estado financiero de tu centro. Dashboard financiero que impulsa la toma de decisiones estratégicas.",
         fastBillingTitle: "Facturación rápida",
         fastBillingDescription:
             "Genera y envía facturas electrónicas de forma automática. Envía facturas a las familias de forma instantánea y segura.",
@@ -355,7 +355,7 @@ export default {
             "Crea ciclos de facturación y gestiona pagos recurrentes. Organiza tus operaciones financieras y reduce errores.",
         mainTitle: "Automatiza la gestión financiera",
         mainDescription:
-            "Gestiona facturas, cobros y pagos de forma automática. Reduce errores y aumenta la precisión. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
+            "Gestiona facturas, cobros y pagos de forma automática. Reduce errores y aumenta la precisión. Solución integral que transforma la administración financiera de tu centro.",
     },
     guardians: {
         mainTitle: "Gestión de familias y tutores",
@@ -375,7 +375,7 @@ export default {
             "Accede a todas las funciones desde cualquier dispositivo. Total gestión en la palma de tu mano.",
         documentSigningTitle: "Firma de documentos",
         documentSigningDescription:
-            "Firma digital de documentos para una comunicación eficiente. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
+            "Firma digital de documentos para una comunicación eficiente. Proceso simplificado que acelera la gestión administrativa.",
     },
     erpStats: {
         title: "Cómo ayudamos a crecer a nuestros clientes",

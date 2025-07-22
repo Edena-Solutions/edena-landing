@@ -73,7 +73,7 @@ export default {
             "Edena helps schools like yours reduce administrative costs by 40%, increase parent satisfaction by 60%, and save 15+ hours per week on routine tasks. Our all-in-one platform combines student management, financial operations, and family communication in one secure, intuitive system.",
     },
     features: {
-        title: "Your School, Always Connected",
+        title: "Features that Transform School Management",
         description:
             "Get the most out of your school management system with Edena's all-in-one platform.",
         studentManagement: {
@@ -297,7 +297,7 @@ export default {
             "Centralize all student information. From personal data to academic tracking.",
         studentDetailTitle: "Digital Records",
         studentDetailDescription:
-            "Manage records, academic history, and family communication. All in one place so you can focus on what really matters: teaching.",
+            "Manage records, academic history, and family communication. Unified platform that optimizes administrative management and enhances the educational experience.",
         studentInvoicingTitle: "Per-Student Billing",
         studentInvoicingDescription:
             "Automated billing and personalized tracking for each student.",
@@ -305,7 +305,7 @@ export default {
         organizationDescription: "Manage departments, staff, and resources from a single panel.",
         classroomsTitle: "Classroom Management",
         classroomsDescription:
-            "Optimize spaces, resources, and schedules for maximum efficiency and reduce costs. All in one place so you can focus on what really matters: teaching.",
+            "Optimize spaces, resources, and schedules for maximum efficiency and reduce costs. Intelligent system that adapts infrastructure to educational needs.",
         classroomsDetailsTitle: "Space Control",
         classroomsDetailsDescription:
             "Manage classrooms, equipment, and assignments precisely. Students can see their assigned classrooms and equipment.",
@@ -332,7 +332,7 @@ export default {
         paperlessBillingDescription: "Generate and send electronic invoices automatically.",
         analyticsTitle: "Data Analytics",
         analyticsDescription:
-            "Access detailed financial performance reports. Get insights into your school's financial health. All in one place so you can focus on what really matters: teaching.",
+            "Access detailed financial performance reports. Get insights into your school's financial health. Financial dashboard that drives strategic decision-making.",
         fastBillingTitle: "Fast Billing",
         fastBillingDescription:
             "Generate and send electronic invoices automatically. Send invoices to families instantly and securely.",
@@ -341,7 +341,7 @@ export default {
             "Create billing cycles and manage recurring payments. Organize your financial operations and reduce errors.",
         mainTitle: "Automate Your Financial Management",
         mainDescription:
-            "Manage invoices, payments, and billing cycles automatically. Reduce errors and increase accuracy. All in one place so you can focus on what really matters: teaching.",
+            "Manage invoices, payments, and billing cycles automatically. Reduce errors and increase accuracy. Comprehensive solution that transforms your institution's financial administration.",
     },
     guardians: {
         mainTitle: "Family and Guardian Management",
@@ -361,7 +361,7 @@ export default {
             "Access all features from any device. Total management in the palm of your hand.",
         documentSigningTitle: "Document Signing",
         documentSigningDescription:
-            "Digital document signing for efficient communication. All in one place so you can focus on what really matters: teaching.",
+            "Digital document signing for efficient communication. Simplified process that accelerates administrative management.",
     },
     erpStats: {
         title: "How our clients grow",
