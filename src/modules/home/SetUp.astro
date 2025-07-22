@@ -26,17 +26,17 @@ const {
         </p>
     </div>
     <div class="grid gap-3 px-4 text-sm sm:grid-cols-2">
-        <Card className="flex h-100 sm:h-140 flex-col items-center gap-6 overflow-hidden rounded bg-gray-50 text-center">
+        <Card className="flex h-140 sm:h-140 flex-col items-center gap-6 overflow-hidden rounded bg-gray-50 text-center">
             <CardHeader className="flex flex-col items-center gap-3">
                 <p class="max-w-md">
                     {t.setup.onboardingDescription}
                 </p>
             </CardHeader>
             <CardFooter>
-                <Image src={mailImage} alt="Mail" class="h-100 sm:h-140 w-auto"/>
+                <Image src={mailImage} alt="Mail" class="w-70"/>
             </CardFooter>
         </Card>
-        <div class="flex flex-col-reverse md:flex-col gap-3 h-140">
+        <div class="flex flex-col-reverse md:flex-col gap-3 sm:h-140">
             <Card className="flex min-h-fit rounded"
                 style={{
                     backgroundImage: `url('${gradient.src}')`,
@@ -55,7 +55,7 @@ const {
                     </Link>
                 </CardContent>
             </Card>
-            <Card className="flex flex-col items-center overflow-hidden rounded bg-gray-50 text-center">
+            <Card className="flex flex-col items-center overflow-hidden rounded bg-gray-50 text-center h-80 sm:h-auto">
                 <CardHeader className="flex flex-col items-center gap-3">
                     <p class="max-w-md">
                         {t.setup.operationsDescription}
