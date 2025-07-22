@@ -3,6 +3,9 @@ faqs:
     - question: "parent_onboarding"
       answer: "parent_onboarding_answer"
 
+    - question: "verifactu"
+      answer: "verifactu_answer"
+
     - question: "parent_dashboard"
       answer: "parent_dashboard_answer"
 

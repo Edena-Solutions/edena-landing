@@ -32,7 +32,7 @@ export default {
         orgTitle: "Elimina el papel en 30 días",
         orgDescription:
             "Reduce los costes operativos un 25% con el sistema de gestión escolar totalmente digital de Edena. Automatiza la gestión documental, optimiza la incorporación de familias y elimina procesos manuales.",
-        verifactuCertified: "Software certificado por Verifactu",
+        verifactuCertified: "Certificado AEAT Verifactu",
     },
     setup: {
         title: "Funcionando en días, no en meses",
@@ -253,6 +253,9 @@ export default {
         parent_onboarding: "¿Cómo funciona la incorporación de familias a la plataforma?",
         parent_onboarding_answer:
             "Edena envía automáticamente correos personalizados con instrucciones paso a paso para las familias, incluyendo firma digital de documentos, creación de perfiles y configuración de cuenta, simplificando todo el proceso de bienvenida.",
+        verifactu: "¿Qué es Verifactu?",
+        verifactu_answer:
+            "Verifactu es el sistema oficial de la Agencia Tributaria (AEAT) para la facturación electrónica. Edena está certificado para generar y enviar facturas electrónicas a través de la plataforma Verifactu de la AEAT, garantizando el cumplimiento normativo español.",
         parent_dashboard: "¿Qué pueden hacer las familias en su panel de control?",
         parent_dashboard_answer:
             "Las familias disponen de un completo panel donde pueden gestionar información de sus hijos, consultar y pagar facturas, inscribirse en actividades extracurriculares y comunicarse directamente con el centro.",

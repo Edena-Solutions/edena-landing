@@ -28,7 +28,7 @@ export default {
         orgTitle: "Go Paperless in 30 Days",
         orgDescription:
             "Cut operational costs by 25% with Edena's fully digital school management system. Automate document handling, streamline family onboarding, and eliminate manual processes.",
-        verifactuCertified: "Verifactu Certified Software",
+        verifactuCertified: "AEAT Verifactu Certified",
     },
     setup: {
         title: "Up and Running in Days, Not Months",
@@ -242,6 +242,9 @@ export default {
         parent_onboarding: "How does the family onboarding process work?",
         parent_onboarding_answer:
             "Edena automatically sends personalized emails with step-by-step instructions for families, including digital document signing, profile creation, and account setup, simplifying the entire welcome process.",
+        verifactu: "What is Verifactu?",
+        verifactu_answer:
+            "Verifactu is the official system of the Spanish Tax Agency (AEAT) for electronic invoicing. Edena is certified to generate and send electronic invoices through the AEAT's Verifactu platform, ensuring compliance with Spanish regulations.",
         parent_dashboard: "What can families do in their dashboard?",
         parent_dashboard_answer:
             "Families have access to a comprehensive dashboard where they can manage their children's information, view and pay invoices, register for extracurricular activities, and communicate directly with the school.",
