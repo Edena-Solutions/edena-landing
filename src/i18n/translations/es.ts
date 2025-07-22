@@ -76,7 +76,7 @@ export default {
         app: "Edena Kids",
     },
     conclusion: {
-        title: "Únete al Futuro de la Gestión Escolar",
+        title: "Únete al futuro de la gestión escolar",
         description:
             "Edena ayuda a centros como el tuyo a reducir costes administrativos un 40%, aumentar la satisfacción de las familias un 60% y ahorrar más de 15 horas semanales en tareas rutinarias. Nuestra plataforma integral combina gestión de estudiantes, operaciones financieras y comunicación familiar en un sistema seguro e intuitivo.",
     },
