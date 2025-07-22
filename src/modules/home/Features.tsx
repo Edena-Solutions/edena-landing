@@ -43,7 +43,7 @@ export default function Features({ t }: Props) {
 
     return (
         <GSAPSection className="flex flex-col gap-16 items-center">
-            <div className="flex flex-col gap-3 text-center px-4">
+            <div className="flex flex-col gap-3 text-center px-4 max-w-xl">
                 <h2 className="text-3xl font-bold">{t.features.title}</h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">{t.features.description}</p>
             </div>

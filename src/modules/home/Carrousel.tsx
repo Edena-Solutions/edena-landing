@@ -174,7 +174,7 @@ const Features = ({ t }: { t: Translation }) => {
     return (
         <GSAPSection className="relative w-full">
             <div className="flex flex-col">
-                <div className="text-center px-4">
+                <div className="flex flex-col gap-3 text-center px-4 max-w-xl mx-auto">
                     <h2 className="text-3xl font-bold">{t.carousel.title}</h2>
                     <p className="text-muted-foreground">{t.carousel.description}</p>
                 </div>
