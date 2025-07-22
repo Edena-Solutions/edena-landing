@@ -288,6 +288,7 @@ export default {
         appDescription:
             "Accede a todas las funciones desde cualquier dispositivo. Total gestión en la palma de tu mano.",
         documentSigningTitle: "Firma de Documentos",
-        documentSigningDescription: "Firma digital de documentos para una comunicación eficiente.",
+        documentSigningDescription:
+            "Firma digital de documentos para una comunicación eficiente. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
     },
 };

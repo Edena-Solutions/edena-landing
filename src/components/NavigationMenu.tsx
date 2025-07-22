@@ -213,7 +213,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                         <div className="container px-4 py-4 space-y-4">
                             <div className="space-y-2">
                                 <div className="font-medium">{t.navigation.users}</div>
-                                <ul className="pl-2 space-y-2">
+                                <ul className="space-y-2">
                                     {users.map((item) => (
                                         <li key={item.title}>
                                             <a
@@ -229,7 +229,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
 
                             <div className="space-y-2">
                                 <div className="font-medium">{t.navigation.administration}</div>
-                                <ul className="pl-2 space-y-2">
+                                <ul className="space-y-2">
                                     {administration.map((item) => (
                                         <li key={item.title}>
                                             <a

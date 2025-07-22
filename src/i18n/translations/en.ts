@@ -276,6 +276,7 @@ export default {
         appDescription:
             "Access all features from any device. Total management in the palm of your hand.",
         documentSigningTitle: "Document Signing",
-        documentSigningDescription: "Digital document signing for efficient communication.",
+        documentSigningDescription:
+            "Digital document signing for efficient communication. All in one place so you can focus on what really matters: teaching.",
     },
 };
