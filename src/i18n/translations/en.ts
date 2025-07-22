@@ -75,8 +75,6 @@ export default {
         title: "Your School, Always Connected",
         description:
             "Get the most out of your school management system with Edena's all-in-one platform.",
-        title2: "Your time is valuable",
-        description2: "Edena is the complete solution revolutionizing educational management",
         studentManagement: {
             title: "Student Management",
             tagline: "Complete control over records and real-time academic tracking.",
@@ -144,6 +142,49 @@ export default {
         reportingTools: {
             title: "Reporting Tools",
             tagline: "Generate customized reports for data-driven decision making.",
+        },
+    },
+    carousel: {
+        title: "Discover the Power of Intelligent School Management",
+        description:
+            "Explore the advanced features that will transform your educational institution's administration",
+        studentManagement: {
+            title: "Comprehensive Student Management",
+            tagline:
+                "Centralize all academic and personal student information in a unified platform.",
+        },
+        classScheduling: {
+            title: "Intelligent Academic Planning",
+            tagline:
+                "Automatically optimize schedules, resources, and spaces to maximize educational efficiency.",
+        },
+        dashboard: {
+            title: "Executive Dashboard",
+            tagline: "Visualize key metrics and make informed decisions with real-time data.",
+        },
+        financeManagement: {
+            title: "Automated Financial Management",
+            tagline:
+                "Reduce errors and optimize cash flow with automatic collections and intelligent tracking.",
+        },
+        settingsConfiguration: {
+            title: "Advanced Customization",
+            tagline:
+                "Adapt every aspect of the platform to your institution's specific identity and needs.",
+        },
+        parentCommunication: {
+            title: "Proactive Family Communication",
+            tagline: "Keep families informed and engaged with automatic and personalized updates.",
+        },
+        studentAttendance: {
+            title: "Intelligent Attendance Control",
+            tagline:
+                "Automate attendance recording and generate proactive alerts to improve tracking.",
+        },
+        invoices: {
+            title: "Advanced Electronic Billing",
+            tagline:
+                "Eliminate paper and accelerate collections with automatic billing and digital payments.",
         },
     },
     pricing: {

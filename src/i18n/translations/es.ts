@@ -84,8 +84,6 @@ export default {
         title: "Tu centro, siempre conectado",
         description:
             "Obtén el máximo rendimiento de tu sistema de gestión escolar con la plataforma integral de Edena.",
-        title2: "Tu tiempo es valioso",
-        description2: "Edena es la solución integral que revoluciona la gestión educativa",
         studentManagement: {
             title: "Gestión estudiantil",
             tagline: "Control total de expedientes y seguimiento académico en tiempo real.",
@@ -153,6 +151,51 @@ export default {
         reportingTools: {
             title: "Herramientas de reportes",
             tagline: "Genera informes personalizados para tomar decisiones basadas en datos.",
+        },
+    },
+    carousel: {
+        title: "Descubre el poder de la gestión escolar inteligente",
+        description:
+            "Explora las funcionalidades avanzadas que transformarán la administración de tu centro educativo",
+        studentManagement: {
+            title: "Gestión estudiantil integral",
+            tagline:
+                "Centraliza toda la información académica y personal de tus estudiantes en una plataforma unificada.",
+        },
+        classScheduling: {
+            title: "Planificación académica inteligente",
+            tagline:
+                "Optimiza automáticamente horarios, recursos y espacios para maximizar la eficiencia educativa.",
+        },
+        dashboard: {
+            title: "Dashboard ejecutivo",
+            tagline:
+                "Visualiza métricas clave y toma decisiones informadas con datos en tiempo real.",
+        },
+        financeManagement: {
+            title: "Gestión financiera automatizada",
+            tagline:
+                "Reduce errores y optimiza el flujo de caja con cobros automáticos y seguimiento inteligente.",
+        },
+        settingsConfiguration: {
+            title: "Personalización avanzada",
+            tagline:
+                "Adapta cada aspecto de la plataforma a la identidad y necesidades específicas de tu centro.",
+        },
+        parentCommunication: {
+            title: "Comunicación familiar proactiva",
+            tagline:
+                "Mantén a las familias informadas y comprometidas con actualizaciones automáticas y personalizadas.",
+        },
+        studentAttendance: {
+            title: "Control de asistencia inteligente",
+            tagline:
+                "Automatiza el registro de asistencia y genera alertas proactivas para mejorar el seguimiento.",
+        },
+        invoices: {
+            title: "Facturación electrónica avanzada",
+            tagline:
+                "Elimina el papel y acelera los cobros con facturación automática y pagos digitales.",
         },
     },
     pricing: {

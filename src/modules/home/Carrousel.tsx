@@ -28,43 +28,43 @@ const Features = ({ t }: { t: Translation }) => {
 
     const features = [
         {
-            title: t.features.studentManagement.title,
-            tagline: t.features.studentManagement.tagline,
+            title: t.carousel.studentManagement.title,
+            tagline: t.carousel.studentManagement.tagline,
             icon: <LibraryBig size={50} />,
         },
         {
-            title: t.features.classScheduling.title,
-            tagline: t.features.classScheduling.tagline,
+            title: t.carousel.classScheduling.title,
+            tagline: t.carousel.classScheduling.tagline,
             icon: <Shapes size={50} />,
         },
         {
-            title: t.features.dashboard.title,
-            tagline: t.features.dashboard.tagline,
+            title: t.carousel.dashboard.title,
+            tagline: t.carousel.dashboard.tagline,
             icon: <LayoutDashboard size={50} />,
         },
         {
-            title: t.features.financeManagement.title,
-            tagline: t.features.financeManagement.tagline,
+            title: t.carousel.financeManagement.title,
+            tagline: t.carousel.financeManagement.tagline,
             icon: <Wallet size={50} />,
         },
         {
-            title: t.features.settingsConfiguration.title,
-            tagline: t.features.settingsConfiguration.tagline,
+            title: t.carousel.settingsConfiguration.title,
+            tagline: t.carousel.settingsConfiguration.tagline,
             icon: <Cog size={50} />,
         },
         {
-            title: t.features.parentCommunication.title,
-            tagline: t.features.parentCommunication.tagline,
+            title: t.carousel.parentCommunication.title,
+            tagline: t.carousel.parentCommunication.tagline,
             icon: <MessageCircle size={50} />,
         },
         {
-            title: t.features.studentAttendance.title,
-            tagline: t.features.studentAttendance.tagline,
+            title: t.carousel.studentAttendance.title,
+            tagline: t.carousel.studentAttendance.tagline,
             icon: <UserRound size={50} />,
         },
         {
-            title: t.features.invoices.title,
-            tagline: t.features.invoices.tagline,
+            title: t.carousel.invoices.title,
+            tagline: t.carousel.invoices.tagline,
             icon: <File size={50} />,
         },
     ];
@@ -175,8 +175,8 @@ const Features = ({ t }: { t: Translation }) => {
         <GSAPSection className="relative w-full">
             <div className="flex flex-col">
                 <div className="text-center px-4">
-                    <h2 className="text-3xl font-bold">{t.features.title2}</h2>
-                    <p className="text-muted-foreground">{t.features.description2}</p>
+                    <h2 className="text-3xl font-bold">{t.carousel.title}</h2>
+                    <p className="text-muted-foreground">{t.carousel.description}</p>
                 </div>
                 <div ref={containerRef} className="px-[16px]">
                     <div
@@ -191,18 +191,16 @@ const Features = ({ t }: { t: Translation }) => {
                         {features.map((feature, index) => (
                             <div
                                 key={feature.title}
-                                className={`hover:scale-103 rounded cursor-pointer flex-none w-full md:w-1/3 lg:w-1/4 snap-center transition-all duration-300 overflow-hidden transform bg-gray-50 ${
+                                className={`rounded cursor-pointer flex-none w-full md:w-1/3 lg:w-1/4 snap-center transition-all duration-300 overflow-hidden transform bg-gray-50 ${
                                     activeIndex === index ? "opacity-100" : "opacity-90"
                                 }`}
                             >
                                 <div className="h-[450px] relative overflow-hidden">
                                     <div className="absolute inset-0 p-4 sm:p-8 flex flex-col justify-start">
-                                        <div className="text-sm font-medium mb-1">
+                                        <div className="text-xs font-medium mb-1">
                                             {feature.title}
                                         </div>
-                                        <h3 className="text-lg sm:text-xl font-bold mb-2">
-                                            {feature.tagline}
-                                        </h3>
+                                        <h3 className="font-bold mb-2">{feature.tagline}</h3>
                                     </div>
                                     <div
                                         className="absolute w-30 h-30 text-white rounded top-50 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center"
