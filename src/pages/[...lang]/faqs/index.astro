@@ -4,6 +4,7 @@ import { translations, languages } from '@/i18n/index.ts';
 import Layout from "@/layouts/main.astro";
 import FAQs from '@/modules/faqs/FAQs.astro';
 import Hero from '@/modules/faqs/Hero.astro';
+import GSAPSection from "@/components/ui/gsap-section";
 
 export function getStaticPaths() {
   return languages.map(lang => ({
@@ -17,8 +18,8 @@ const t = translations[lang as keyof typeof translations];
 ---
 
 <Layout content={{ title: t.meta.faqsTitle }} lang={lang}>
-    <section class="grid gap-16 px-4">
+    <GSAPSection client:load className="grid gap-16 px-4" animationType="opacity">
         <Hero t={t} />
         <FAQs t={t} />
-    </section>
+    </GSAPSection>
 </Layout>

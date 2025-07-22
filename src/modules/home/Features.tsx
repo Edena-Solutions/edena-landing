@@ -15,6 +15,7 @@ import {
 import { Button } from "@/components/ui/button";
 import gradient from "@/assets/img/gradient_2.png";
 import type { Translation } from "@/i18n";
+import GSAPSection from "@/components/ui/gsap-section";
 
 const Features = ({ t }: { t: Translation }) => {
     const scrollContainerRef = useRef<HTMLDivElement>(null);
@@ -171,7 +172,7 @@ const Features = ({ t }: { t: Translation }) => {
     }, [autoplayPaused]);
 
     return (
-        <div className="relative w-full">
+        <GSAPSection className="relative w-full">
             <div className="flex flex-col">
                 <div className="text-center px-4">
                     <h2 className="text-3xl font-bold">{t.features.title}</h2>
@@ -251,7 +252,7 @@ const Features = ({ t }: { t: Translation }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </GSAPSection>
     );
 };
 

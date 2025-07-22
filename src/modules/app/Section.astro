@@ -1,24 +1,19 @@
 ---
 import type { Translation } from "@/i18n";
-
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
 import { Image } from "astro:assets";
-
 import feed from "@/assets/img/screenshots/app/app_feed.png"
 import notifications from "@/assets/img/screenshots/app/app_notifications.png"
 import gradient from "@/assets/img/gradient_1.png";
 import Link from "@/components/ui/link";
+import GSAPSection from "@/components/ui/gsap-section";
 interface Props {
     t: Translation
 }
-
-const {
-    t,
-} = Astro.props;
+const { t } = Astro.props;
 ---
-
-<div class="flex flex-col gap-16 items-center">
+<GSAPSection client:load className="flex flex-col gap-16 items-center">
     <div class="flex flex-col gap-3 text-center px-4">
         <h2 class="text-3xl font-bold">{t.app.uploadPicturesTitle}</h2>
         <p class="text-muted-foreground max-w-2xl mx-auto">
@@ -67,4 +62,4 @@ const {
             </Card>
         </div>
     </div>
-</div>
+</GSAPSection>
