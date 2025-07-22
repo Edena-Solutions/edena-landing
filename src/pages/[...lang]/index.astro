@@ -7,7 +7,6 @@ import Features from "@/modules/home/Features.tsx";
 import SetUp from "@/modules/home/SetUp.astro";
 import Conclusion from "@/modules/home/Conclusion.astro";
 import MarketStats from "@/modules/home/MarketStats.astro";
-import GSAPSection from "@/components/ui/gsap-section";
 
 export function getStaticPaths() {
   return languages.map(lang => ({
@@ -21,11 +20,11 @@ const t = translations[lang as keyof typeof translations];
 ---
 
 <Layout content={{ title: t.meta.homeTitle }} lang={lang}>
-    <GSAPSection client:load className="grid gap-16" animationType="opacity">
+    <section class="grid gap-16">
         <Hero t={t} lang={lang} />
         <MarketStats t={t} lang={lang} />
         <SetUp t={t} />
         <Features client:load t={t}/>
         <Conclusion lang={lang} />
-    </GSAPSection>
+    </section>
 </Layout>
