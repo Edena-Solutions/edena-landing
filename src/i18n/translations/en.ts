@@ -279,4 +279,41 @@ export default {
         documentSigningDescription:
             "Digital document signing for efficient communication. All in one place so you can focus on what really matters: teaching.",
     },
+    erpStats: {
+        title: "How our clients grow",
+        description:
+            "Discover how our personalized strategies help schools and nurseries save time, increase enrollment, and improve family satisfaction.",
+        cases: [
+            {
+                stat: "+100%",
+                description:
+                    "Reduction in administrative tasks thanks to automation of key processes.",
+                bg: "dark",
+            },
+            {
+                stat: "+195%",
+                description:
+                    "Increase in enrollment conversion with digital forms and online onboarding.",
+                bg: "light",
+            },
+            {
+                stat: "+150%",
+                description:
+                    "Increase in qualified leads through digital acquisition and automated follow-up.",
+                bg: "light",
+            },
+            {
+                stat: "+98%",
+                description:
+                    "Family satisfaction after digitizing management and communication at the center.",
+                bg: "light",
+            },
+            {
+                stat: "-40%",
+                description:
+                    "Reduction in late or missed payments thanks to automated billing and collection.",
+                bg: "highlight",
+            },
+        ],
+    },
 };

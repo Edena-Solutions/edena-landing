@@ -291,4 +291,41 @@ export default {
         documentSigningDescription:
             "Firma digital de documentos para una comunicación eficiente. Todo en un solo lugar para que puedas concentrarte en lo que realmente importa: enseñar.",
     },
+    erpStats: {
+        title: "Cómo ayudamos a crecer a nuestros clientes",
+        description:
+            "Descubre cómo nuestras estrategias personalizadas ayudan a escuelas y guarderías a ahorrar tiempo, aumentar matrículas y mejorar la satisfacción de las familias.",
+        cases: [
+            {
+                stat: "+100%",
+                description:
+                    "De reducción en tareas administrativas gracias a la automatización de procesos clave.",
+                bg: "dark",
+            },
+            {
+                stat: "+195%",
+                description:
+                    "De incremento en la conversión de matrículas con formularios digitales y onboarding online.",
+                bg: "light",
+            },
+            {
+                stat: "+150%",
+                description:
+                    "De aumento en leads cualificados gracias a la captación digital y seguimiento automatizado.",
+                bg: "light",
+            },
+            {
+                stat: "+98%",
+                description:
+                    "De satisfacción de familias tras digitalizar la gestión y la comunicación del centro.",
+                bg: "light",
+            },
+            {
+                stat: "-40%",
+                description:
+                    "De reducción en impagos y retrasos gracias a la facturación y cobro automatizado.",
+                bg: "highlight",
+            },
+        ],
+    },
 };

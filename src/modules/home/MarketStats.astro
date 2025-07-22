@@ -1,0 +1,64 @@
+---
+import { Card, CardHeader } from "@/components/ui/card";
+import gradient from "@/assets/img/gradient_1.png";
+
+const { t } = Astro.props;
+const cases: Array<{stat: string, description: string, bg: string}> = t.erpStats.cases.slice(0, 5);
+
+const bgClass = (bg: string) => {
+  if (bg === 'dark') return 'bg-neutral-900 text-white';
+  if (bg === 'light') return 'bg-gray-50 text-neutral-900';
+  return 'bg-white';
+};
+
+const cardBgStyle = (bg: string) => {
+  if (bg === 'highlight') {
+    return {
+      backgroundImage: `url('${gradient.src}')`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'left',
+    };
+  }
+  return {};
+};
+
+const cardProps = [
+  { area: 'main', extra: 'p-8 flex flex-col sm:justify-end' },
+  { area: 'stat1', extra: 'flex flex-col items-start sm:justify-end p-8' },
+  { area: 'highlight1', extra: 'flex flex-col items-start sm:justify-end p-8' },
+  { area: 'stat2', extra: 'flex flex-col items-start sm:justify-end p-8' },
+  { area: 'stat3', extra: 'flex flex-col items-start sm:justify-end p-8' },
+];
+---
+<section class="flex flex-col gap-16 items-center">
+  <div class="flex flex-col gap-3 text-center px-4">
+    <h2 class="text-3xl font-bold">{t.erpStats.title}</h2>
+    <p class="text-muted-foreground max-w-2xl mx-auto">{t.erpStats.description}</p>
+  </div>
+  <div
+    class="grid w-full max-w-7xl gap-3 px-4
+      grid-cols-2
+      lg:[grid-template-areas:'main_main_stat1''highlight1_stat2_stat3']
+      lg:[grid-template-columns:2fr_1.2fr_1.2fr]
+      lg:[grid-template-rows:1.2fr_1fr]
+      lg:grid-cols-3
+      lg:auto-rows-fr"
+  >
+    {cases.map((c: {stat: string, description: string, bg: string}, i: number) => (
+      <Card
+        className={
+          bgClass(c.bg) +
+          ` rounded ${cardProps[i].extra} ` +
+          (i === 0 ? 'col-span-2 ' : '') +
+          `lg:[grid-area:${cardProps[i].area}]`
+        }
+        style={cardBgStyle(c.bg)}
+      >
+        <CardHeader className="p-0 pb-4">
+          <div class="text-4xl sm:text-5xl font-bold">{c.stat}</div>
+        </CardHeader>
+        <div class="text-sm">{c.description}</div>
+      </Card>
+    ))}
+  </div>
+</section> 
