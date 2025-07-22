@@ -280,7 +280,7 @@ export default {
             "Reduce el tiempo de incorporación de familias un 75% con nuestro sistema automatizado. Firma digital de documentos, creación instantánea de perfiles y configuración guiada garantizan una transición fluida para todos.",
         dashboardTitle: "Panel de Control de Familias",
         dashboardDescription:
-            "Las familias disponen de un completo panel donde pueden gestionar información de sus hijos, consultar y pagar facturas, inscribirse en actividades extracurriculares y comunicarse directamente con el centro.",
+            "Las familias pueden gestionar información de sus hijos, consultar y pagar facturas, inscribirse en actividades extracurriculares y comunicarse directamente con el centro.",
         studentControlTitle: "Control de Estudiantes",
         studentControlDescription:
             "Gestiona registros, asistencia y seguimiento académico de estudiantes de forma eficiente.",

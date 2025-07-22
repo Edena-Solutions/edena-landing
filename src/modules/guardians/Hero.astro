@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Image } from "astro:assets";
 
 import heroImage from "@/assets/img/guardian_hero.png"
-import mailImage from "@/assets/img/mail.png"
+import guardianManagement from "@/assets/img/guardian_management.png"
 import gradient from "@/assets/img/gradient_1.png"
 import Link from "@/components/ui/link";
 interface Props {
@@ -63,13 +63,13 @@ const {
       <CardHeader className="pb-2">
         <h2 class="text-3xl font-bold">{t.guardians.dashboardTitle}</h2>
       </CardHeader>
-      <CardContent className="flex flex-col gap-3 items-center">
+      <CardContent className="flex flex-col gap-3 items-center pb-0">
         <p class="text-muted-foreground max-w-140">
           {t.guardians.dashboardDescription}
         </p>
       </CardContent>
       <CardFooter>
-        <Image src={mailImage} alt="Organization" class="h-100 sm:h-140 w-auto" />
+        <Image src={guardianManagement} alt="Organization" class="h-100 sm:h-140 w-auto" />
       </CardFooter>
     </Card>
   </div>

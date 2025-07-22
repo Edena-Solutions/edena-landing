@@ -13,7 +13,7 @@ import {
     Wallet,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import gradient from "@/assets/img/gradient_1.png";
+import gradient from "@/assets/img/gradient_2.png";
 import type { Translation } from "@/i18n";
 
 const Features = ({ t }: { t: Translation }) => {
@@ -208,7 +208,7 @@ const Features = ({ t }: { t: Translation }) => {
                                         style={{
                                             backgroundImage: `url('${gradient.src}')`,
                                             backgroundSize: "cover",
-                                            backgroundPosition: "center",
+                                            backgroundPosition: "right",
                                         }}
                                     >
                                         {feature.icon}
