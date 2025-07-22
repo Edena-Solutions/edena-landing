@@ -28,6 +28,7 @@ export default {
         orgTitle: "Go Paperless in 30 Days",
         orgDescription:
             "Cut operational costs by 25% with Edena's fully digital school management system. Automate document handling, streamline family onboarding, and eliminate manual processes.",
+        verifactuCertified: "Verifactu Certified Software",
     },
     setup: {
         title: "Up and Running in Days, Not Months",

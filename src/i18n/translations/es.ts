@@ -32,6 +32,7 @@ export default {
         orgTitle: "Elimina el papel en 30 días",
         orgDescription:
             "Reduce los costes operativos un 25% con el sistema de gestión escolar totalmente digital de Edena. Automatiza la gestión documental, optimiza la incorporación de familias y elimina procesos manuales.",
+        verifactuCertified: "Software certificado por Verifactu",
     },
     setup: {
         title: "Funcionando en días, no en meses",
