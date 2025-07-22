@@ -47,11 +47,11 @@ export default function Features({ t }: Props) {
                 <h2 className="text-3xl font-bold">{t.features.title}</h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">{t.features.description}</p>
             </div>
-            <div className="grid gap-6 px-4 sm:grid-cols-2 lg:grid-cols-3 w-full max-w-7xl">
+            <div className="grid gap-3 px-4 sm:grid-cols-2 lg:grid-cols-3 w-full max-w-7xl">
                 {features.map((feature, index) => (
-                    <Card key={index} className="rounded flex flex-col p-6">
+                    <Card key={index} className="rounded flex flex-col p-6 bg-gray-50">
                         <CardHeader className="p-0 flex flex-col">
-                            <div className="flex mb-4 text-primary w-fit p-4 rounded border border-gray-300">
+                            <div className="flex mb-4 text-primary w-fit p-4 rounded bg-white">
                                 {feature.icon}
                             </div>
                             <h3 className="text-lg font-semibold">{feature.title}</h3>
