@@ -31,11 +31,11 @@ const {
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <title>{content.title}</title>
   </head>
-  <body class="min-h-screen flex flex-col gap-16">
+  <body class="min-h-screen flex flex-col gap-8">
     <MainNavigationMenu client:load lang={lang}/>
     <main class="pt-15 flex-grow">
       <slot />
     </main>
-    <Footer lang={lang} className="mt-16"/>
+    <Footer lang={lang}/>
   </body>
 </html>
