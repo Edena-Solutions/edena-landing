@@ -2,12 +2,10 @@
 import type { Translation } from "@/i18n";
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -47,12 +45,12 @@ const pricingPlans = await getCollection('pricing');
     return (
       <Card className="rounded bg-gray-50 flex flex-col justify-between relative">
         {plan.data.isPopular && (
-          <div class="absolute top-0 right-0 bg-black text-white px-4 py-1 rounded-bl-sm text-sm font-medium">
+          <div class="absolute top-0 right-0 bg-black text-white px-4 py-1 rounded-bl rounded-tr-sm text-sm font-medium">
             {t.pricing.mostPopular}
           </div>
         )}
         <CardHeader>
-          <Badge className="text-sm px-3 py-1" style={{ borderRadius: '5px' }}>
+          <Badge className="text-sm px-3 py-1">
             {t.pricing.plans[planId].name}
           </Badge>
           <CardTitle className="text-3xl font-bold mt-2">{plan.data.price}</CardTitle>
@@ -76,11 +74,6 @@ const pricingPlans = await getCollection('pricing');
             })}
           </div>
         </CardContent>
-        <CardFooter>
-          <Button client:load className="w-full">
-            {t.pricing.plans[planId].button}
-          </Button>
-        </CardFooter>
       </Card>
     );
   })}

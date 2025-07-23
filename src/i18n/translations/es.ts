@@ -73,7 +73,7 @@ export default {
         finance: "Finanzas",
         financeDescription: "Automatiza la gestión de finanzas escolares, cuotas y presupuestos.",
         pricing: "Precios",
-        faqs: "Preguntas Frecuentes",
+        faqs: "FAQs",
         app: "Edena Kids",
     },
     conclusion: {
@@ -288,6 +288,7 @@ export default {
         platform_customization: "¿Se puede personalizar la plataforma con la identidad del centro?",
         platform_customization_answer:
             "Sí, puedes personalizar elementos visuales como el logo, colores corporativos, plantillas de comunicación y mensajes automáticos que se envían a las familias para reflejar la identidad de tu centro.",
+        // Guardian
         guardian_access_rights: "¿Qué permisos tiene un tutor en la plataforma?",
         guardian_access_rights_answer:
             "Un tutor puede acceder a la información académica, facturación, actividades y comunicarse con el centro según los permisos asignados por la administración del centro.",

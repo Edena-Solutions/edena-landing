@@ -277,6 +277,7 @@ export default {
         platform_customization: "Can the platform be customized with my school's branding?",
         platform_customization_answer:
             "Yes, you can customize visual elements such as logo, corporate colors, communication templates, and automatic messages sent to families to reflect your institution's identity.",
+        // Guardian
         guardian_access_rights: "What permissions does a guardian have on the platform?",
         guardian_access_rights_answer:
             "A guardian can access academic information, billing, activities, and communicate with the school according to the permissions assigned by the administration.",
