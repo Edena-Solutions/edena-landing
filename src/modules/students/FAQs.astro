@@ -16,7 +16,7 @@ const faqsCollection = await getCollection('faqs');
 const studentsFaqs = faqsCollection.find(entry => entry.id === 'faqsStudents.md');
 ---
 <GSAPSection client:load className="grid gap-16 px-4">
-    <div class="text-center flex flex-col gap-6 items-center pt-16 max-w-2xl mx-auto">
+    <div class="text-center flex flex-col gap-6 items-center max-w-2xl mx-auto">
         <h2 class="text-3xl font-bold">{t.faqs.students?.title ?? t.faqs.title}</h2>
         <p class="max-w-xl">{t.faqs.students?.description ?? t.faqs.description}</p>
     </div>
