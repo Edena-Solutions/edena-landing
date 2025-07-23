@@ -1,0 +1,23 @@
+---
+faqs:
+    - question: "students_enrollment_process"
+      answer: "students_enrollment_process_answer"
+    - question: "students_attendance_tracking"
+      answer: "students_attendance_tracking_answer"
+    - question: "students_academic_records"
+      answer: "students_academic_records_answer"
+    - question: "students_parent_communication"
+      answer: "students_parent_communication_answer"
+    - question: "students_activity_management"
+      answer: "students_activity_management_answer"
+    - question: "students_data_privacy"
+      answer: "students_data_privacy_answer"
+    - question: "students_support_services"
+      answer: "students_support_services_answer"
+    - question: "students_mobile_access"
+      answer: "students_mobile_access_answer"
+    - question: "students_performance_monitoring"
+      answer: "students_performance_monitoring_answer"
+    - question: "students_support_options"
+      answer: "students_support_options_answer"
+---

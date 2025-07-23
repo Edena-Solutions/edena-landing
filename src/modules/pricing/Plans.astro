@@ -30,7 +30,6 @@ interface Props {
 }
 
 type PricingPlan = CollectionEntry<'pricing'>;
-type PricingPlanData = PricingPlan['data'];
 
 interface Feature {
   id: string;
@@ -64,7 +63,6 @@ const pricingPlans = await getCollection('pricing');
         <CardContent>
           <div class="space-y-4">
             {(plan.data.features as Feature[]).map((feature) => {
-              // Garantizar que el id de la característica existe en las traducciones
               const featureId = feature.id as keyof typeof t.pricing.plans[typeof planId]['features'];
               
               return (

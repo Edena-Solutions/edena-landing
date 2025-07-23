@@ -250,6 +250,11 @@ export default {
         title: "Preguntas frecuentes sobre Edena",
         description:
             "Resolvemos tus dudas sobre el funcionamiento de Edena, sus funcionalidades y cómo puede transformar la gestión de tu centro educativo con nuestra solución digital.",
+        guardians: {
+            title: "Preguntas frecuentes sobre Edena para familias y tutores",
+            description:
+                "Resolvemos tus dudas sobre el funcionamiento de Edena para familias y tutores, sus funcionalidades y cómo puede transformar la gestión de tu centro educativo con nuestra solución digital.",
+        },
         parent_onboarding: "¿Cómo funciona la incorporación de familias a la plataforma?",
         parent_onboarding_answer:
             "Edena envía automáticamente correos personalizados con instrucciones paso a paso para las familias, incluyendo firma digital de documentos, creación de perfiles y configuración de cuenta, simplificando todo el proceso de bienvenida.",
@@ -283,6 +288,185 @@ export default {
         platform_customization: "¿Se puede personalizar la plataforma con la identidad del centro?",
         platform_customization_answer:
             "Sí, puedes personalizar elementos visuales como el logo, colores corporativos, plantillas de comunicación y mensajes automáticos que se envían a las familias para reflejar la identidad de tu centro.",
+        guardian_access_rights: "¿Qué permisos tiene un tutor en la plataforma?",
+        guardian_access_rights_answer:
+            "Un tutor puede acceder a la información académica, facturación, actividades y comunicarse con el centro según los permisos asignados por la administración del centro.",
+        guardian_invitation_process: "¿Cómo se invita a un tutor a la plataforma?",
+        guardian_invitation_process_answer:
+            "La invitación se realiza mediante correo electrónico con un enlace seguro para completar el registro y establecer sus credenciales.",
+        guardian_data_privacy: "¿Cómo se protege la privacidad de los datos de los tutores?",
+        guardian_data_privacy_answer:
+            "Todos los datos están cifrados y cumplen con la normativa RGPD. Solo el personal autorizado puede acceder a la información de los tutores.",
+        guardian_multiple_children: "¿Puede un tutor gestionar varios hijos desde una sola cuenta?",
+        guardian_multiple_children_answer:
+            "Sí, un tutor puede gestionar la información y actividades de todos sus hijos desde un único perfil.",
+        guardian_communication_channels:
+            "¿Qué canales de comunicación están disponibles para los tutores?",
+        guardian_communication_channels_answer:
+            "Los tutores pueden comunicarse mediante mensajes internos, notificaciones push y correo electrónico integrados en la plataforma.",
+        guardian_update_information: "¿Cómo puede un tutor actualizar su información personal?",
+        guardian_update_information_answer:
+            "El tutor puede modificar sus datos personales y de contacto desde su panel de usuario, previa autenticación.",
+        guardian_emergency_contacts: "¿Se pueden añadir contactos de emergencia para los tutores?",
+        guardian_emergency_contacts_answer:
+            "Sí, la plataforma permite registrar y gestionar contactos de emergencia asociados a cada tutor o estudiante.",
+        guardian_language_support:
+            "¿La plataforma está disponible en varios idiomas para los tutores?",
+        guardian_language_support_answer:
+            "La plataforma ofrece soporte multilingüe, permitiendo a los tutores seleccionar su idioma preferido en la configuración.",
+        guardian_notifications: "¿Qué tipo de notificaciones reciben los tutores?",
+        guardian_notifications_answer:
+            "Reciben notificaciones sobre eventos, actividades, facturación, mensajes del centro y recordatorios importantes.",
+        guardian_support_options: "¿Qué opciones de soporte tienen los tutores si necesitan ayuda?",
+        guardian_support_options_answer:
+            "Los tutores pueden acceder a soporte vía chat, correo electrónico o consultar la sección de ayuda dentro de la plataforma.",
+        // Finance
+        finance: {
+            title: "Preguntas frecuentes sobre gestión financiera escolar con Edena",
+            description:
+                "Resuelve todas tus dudas sobre facturación, pagos, seguridad y automatización financiera en centros educativos con Edena. Descubre cómo optimizar la gestión económica de tu colegio o guardería.",
+        },
+        finance_invoicing_process: "¿Cómo funciona el proceso de facturación en Edena?",
+        finance_invoicing_process_answer:
+            "Edena automatiza la generación y envío de facturas, permitiendo un control total sobre los cobros y pagos del centro educativo.",
+        finance_payment_methods: "¿Qué métodos de pago acepta la plataforma?",
+        finance_payment_methods_answer:
+            "La plataforma admite transferencias bancarias, domiciliaciones, tarjetas y otros métodos digitales para facilitar el pago a las familias.",
+        finance_automated_billing: "¿Se pueden programar facturaciones automáticas?",
+        finance_automated_billing_answer:
+            "Sí, puedes configurar ciclos de facturación automáticos para cuotas recurrentes y servicios adicionales.",
+        finance_late_payments: "¿Cómo gestiona Edena los pagos atrasados?",
+        finance_late_payments_answer:
+            "El sistema envía recordatorios automáticos y permite el seguimiento de impagos en tiempo real.",
+        finance_refunds: "¿Es posible gestionar devoluciones o reembolsos?",
+        finance_refunds_answer:
+            "Sí, puedes procesar devoluciones y reembolsos directamente desde el panel de administración de Edena.",
+        finance_reporting_tools: "¿Qué herramientas de reporte financiero ofrece Edena?",
+        finance_reporting_tools_answer:
+            "Incluye informes detallados de ingresos, gastos, balances y previsiones para una gestión financiera eficiente.",
+        finance_data_security: "¿Cómo se protege la información financiera?",
+        finance_data_security_answer:
+            "Todos los datos están cifrados y cumplen con la normativa vigente para garantizar la máxima seguridad.",
+        finance_parent_portal: "¿Las familias pueden consultar su historial de pagos?",
+        finance_parent_portal_answer:
+            "Sí, cada familia tiene acceso a su portal donde puede ver facturas, pagos realizados y pendientes.",
+        finance_integration_accounting: "¿Se integra Edena con sistemas de contabilidad externos?",
+        finance_integration_accounting_answer:
+            "Edena permite exportar datos y conectarse con los principales softwares de contabilidad del mercado.",
+        finance_support_options: "¿Qué soporte ofrece Edena para temas financieros?",
+        finance_support_options_answer:
+            "Dispones de soporte especializado por chat, email y una base de conocimiento para resolver cualquier duda financiera.",
+        finance_verifactu_integration: "¿Edena está integrado con Verifactu?",
+        finance_verifactu_integration_answer:
+            "Sí, Edena está completamente integrado con el sistema Verifactu de la Agencia Tributaria, permitiendo la emisión y gestión de facturas electrónicas conforme a la normativa española.",
+        // App
+        app: {
+            title: "Preguntas frecuentes sobre la app móvil de Edena para familias y centros",
+            description:
+                "Encuentra respuestas sobre descargas, notificaciones, seguridad, funcionalidades y soporte de la app de Edena. Mejora la comunicación y la experiencia digital de tu comunidad educativa.",
+        },
+        app_download: "¿Cómo descargo la app de Edena?",
+        app_download_answer:
+            "La app está disponible en App Store y Google Play. Busca 'Edena' y descárgala gratis.",
+        app_notifications: "¿Qué tipo de notificaciones recibiré en la app?",
+        app_notifications_answer:
+            "Recibirás notificaciones sobre eventos, mensajes, facturación y novedades del centro en tiempo real.",
+        app_parent_access: "¿Cómo acceden los padres a la app?",
+        app_parent_access_answer:
+            "Los padres reciben una invitación con instrucciones para crear su cuenta y acceder a la app de forma segura.",
+        app_security: "¿Es segura la app de Edena?",
+        app_security_answer:
+            "Sí, la app utiliza cifrado de extremo a extremo y autenticación segura para proteger todos los datos.",
+        app_multiplatform: "¿La app funciona en todos los dispositivos?",
+        app_multiplatform_answer:
+            "La app es compatible con iOS y Android, y se adapta a móviles y tablets.",
+        app_features: "¿Qué funcionalidades ofrece la app?",
+        app_features_answer:
+            "Permite ver el calendario, recibir notificaciones, firmar documentos, consultar facturas y comunicarse con el centro.",
+        app_photo_sharing: "¿Puedo recibir fotos y actualizaciones de mi hijo/a?",
+        app_photo_sharing_answer:
+            "Sí, el personal del centro puede compartir fotos y novedades directamente a la app de los padres.",
+        app_document_signing: "¿Se pueden firmar documentos desde la app?",
+        app_document_signing_answer:
+            "La app permite la firma digital de autorizaciones y documentos escolares de forma sencilla.",
+        app_language_support: "¿La app está disponible en varios idiomas?",
+        app_language_support_answer:
+            "Sí, puedes seleccionar tu idioma preferido desde la configuración de la app.",
+        app_support_options: "¿Qué opciones de soporte tengo desde la app?",
+        app_support_options_answer:
+            "Puedes contactar con soporte desde la app vía chat, email o acceder a la sección de ayuda integrada.",
+        // Dashboard
+        dashboard: {
+            title: "Preguntas frecuentes sobre el panel de control y analítica de Edena",
+            description:
+                "Aclara tus dudas sobre informes, roles, notificaciones, integraciones y seguridad del dashboard de Edena. Gestiona tu centro educativo con datos en tiempo real y toma decisiones inteligentes.",
+        },
+        dashboard_real_time_data: "¿El panel muestra datos en tiempo real?",
+        dashboard_real_time_data_answer:
+            "Sí, el dashboard de Edena actualiza métricas y reportes en tiempo real para una gestión ágil.",
+        dashboard_custom_reports: "¿Puedo crear informes personalizados en el dashboard?",
+        dashboard_custom_reports_answer:
+            "Puedes generar y exportar informes adaptados a las necesidades de tu centro.",
+        dashboard_user_roles: "¿Se pueden asignar diferentes roles de usuario?",
+        dashboard_user_roles_answer:
+            "El sistema permite definir roles y permisos para cada usuario del centro.",
+        dashboard_notifications: "¿Qué tipo de notificaciones gestiona el dashboard?",
+        dashboard_notifications_answer:
+            "Gestiona notificaciones de eventos, incidencias, facturación y comunicaciones internas.",
+        dashboard_mobile_access: "¿Puedo acceder al dashboard desde el móvil?",
+        dashboard_mobile_access_answer:
+            "El dashboard es responsive y accesible desde cualquier dispositivo móvil o tablet.",
+        dashboard_data_export: "¿Se pueden exportar los datos del dashboard?",
+        dashboard_data_export_answer:
+            "Puedes exportar datos e informes en formatos compatibles con Excel y otros sistemas.",
+        dashboard_integration: "¿El dashboard se integra con otras plataformas?",
+        dashboard_integration_answer:
+            "Edena permite integraciones con sistemas académicos, contables y de comunicación externos.",
+        dashboard_data_security: "¿Cómo se protege la información del dashboard?",
+        dashboard_data_security_answer:
+            "Toda la información está cifrada y se realizan copias de seguridad automáticas.",
+        dashboard_performance: "¿El dashboard afecta al rendimiento del sistema?",
+        dashboard_performance_answer:
+            "El dashboard está optimizado para ofrecer un alto rendimiento sin afectar la experiencia de usuario.",
+        dashboard_support_options: "¿Qué soporte ofrece Edena para el dashboard?",
+        dashboard_support_options_answer:
+            "Dispones de soporte técnico especializado y documentación detallada para resolver cualquier incidencia.",
+        // Students
+        students: {
+            title: "Preguntas frecuentes sobre gestión de estudiantes en Edena",
+            description:
+                "Descubre cómo Edena facilita la matriculación, seguimiento académico, comunicación con familias y protección de datos de estudiantes. Todo lo que necesitas saber para una gestión estudiantil eficiente.",
+        },
+        students_enrollment_process: "¿Cómo se realiza el proceso de matriculación de estudiantes?",
+        students_enrollment_process_answer:
+            "El proceso es 100% digital, permitiendo la inscripción y gestión de estudiantes desde cualquier dispositivo.",
+        students_attendance_tracking: "¿Cómo se controla la asistencia de los estudiantes?",
+        students_attendance_tracking_answer:
+            "La plataforma registra la asistencia de forma automática y genera reportes para el seguimiento académico.",
+        students_academic_records: "¿Dónde consulto los expedientes académicos?",
+        students_academic_records_answer:
+            "Los expedientes están disponibles en el panel de cada estudiante, accesibles para familias y personal autorizado.",
+        students_parent_communication: "¿Cómo se comunican los padres con el centro?",
+        students_parent_communication_answer:
+            "A través de la plataforma y la app, los padres pueden enviar y recibir mensajes, notificaciones y documentos.",
+        students_activity_management: "¿Se pueden gestionar actividades extraescolares?",
+        students_activity_management_answer:
+            "Sí, puedes crear, inscribir y gestionar actividades desde el panel de estudiantes.",
+        students_data_privacy: "¿Cómo se protege la privacidad de los datos de los estudiantes?",
+        students_data_privacy_answer:
+            "Todos los datos cumplen con la normativa RGPD y están protegidos mediante cifrado avanzado.",
+        students_support_services: "¿Qué servicios de apoyo ofrece Edena a los estudiantes?",
+        students_support_services_answer:
+            "Incluye seguimiento académico, orientación y soporte personalizado para cada estudiante.",
+        students_mobile_access: "¿Los estudiantes pueden acceder a la plataforma desde el móvil?",
+        students_mobile_access_answer:
+            "Sí, la plataforma es accesible desde cualquier dispositivo móvil o tablet.",
+        students_performance_monitoring: "¿Cómo se monitoriza el rendimiento académico?",
+        students_performance_monitoring_answer:
+            "El sistema genera informes y alertas automáticas sobre el progreso y rendimiento de cada estudiante.",
+        students_support_options: "¿Qué opciones de soporte tienen los estudiantes?",
+        students_support_options_answer:
+            "Los estudiantes pueden acceder a soporte técnico y académico desde la plataforma y la app.",
     },
     dashboard: {
         mainTitle: "Panel de control escolar intuitivo",

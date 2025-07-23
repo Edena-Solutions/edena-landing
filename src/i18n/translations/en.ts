@@ -239,6 +239,11 @@ export default {
         title: "Frequently Asked Questions about Edena",
         description:
             "Find answers to common questions about Edena's features, functionality, and how our school management software can transform your educational institution's operations.",
+        guardians: {
+            title: "Frequently Asked Questions about Edena for Families and Guardians",
+            description:
+                "Find answers to common questions about Edena's features, functionality, and how our school management software can transform your educational institution's operations.",
+        },
         parent_onboarding: "How does the family onboarding process work?",
         parent_onboarding_answer:
             "Edena automatically sends personalized emails with step-by-step instructions for families, including digital document signing, profile creation, and account setup, simplifying the entire welcome process.",
@@ -272,6 +277,183 @@ export default {
         platform_customization: "Can the platform be customized with my school's branding?",
         platform_customization_answer:
             "Yes, you can customize visual elements such as logo, corporate colors, communication templates, and automatic messages sent to families to reflect your institution's identity.",
+        guardian_access_rights: "What permissions does a guardian have on the platform?",
+        guardian_access_rights_answer:
+            "A guardian can access academic information, billing, activities, and communicate with the school according to the permissions assigned by the administration.",
+        guardian_invitation_process: "How is a guardian invited to the platform?",
+        guardian_invitation_process_answer:
+            "The invitation is sent via email with a secure link to complete registration and set up credentials.",
+        guardian_data_privacy: "How is guardian data privacy protected?",
+        guardian_data_privacy_answer:
+            "All data is encrypted and complies with GDPR. Only authorized staff can access guardian information.",
+        guardian_multiple_children: "Can a guardian manage multiple children from one account?",
+        guardian_multiple_children_answer:
+            "Yes, a guardian can manage the information and activities of all their children from a single profile.",
+        guardian_communication_channels: "What communication channels are available for guardians?",
+        guardian_communication_channels_answer:
+            "Guardians can communicate via internal messages, push notifications, and integrated email within the platform.",
+        guardian_update_information: "How can a guardian update their personal information?",
+        guardian_update_information_answer:
+            "Guardians can update their personal and contact information from their user panel after authentication.",
+        guardian_emergency_contacts: "Can emergency contacts be added for guardians?",
+        guardian_emergency_contacts_answer:
+            "Yes, the platform allows registering and managing emergency contacts associated with each guardian or student.",
+        guardian_language_support: "Is the platform available in multiple languages for guardians?",
+        guardian_language_support_answer:
+            "The platform offers multilingual support, allowing guardians to select their preferred language in the settings.",
+        guardian_notifications: "What kind of notifications do guardians receive?",
+        guardian_notifications_answer:
+            "They receive notifications about events, activities, billing, school messages, and important reminders.",
+        guardian_support_options:
+            "What support options are available for guardians if they need help?",
+        guardian_support_options_answer:
+            "Guardians can access support via chat, email, or consult the help section within the platform.",
+        // Finance
+        finance: {
+            title: "Frequently Asked Questions about School Financial Management with Edena",
+            description:
+                "Find answers to all your questions about invoicing, payments, security, and financial automation in educational centers with Edena. Discover how to optimize your school's financial management.",
+        },
+        finance_invoicing_process: "How does the invoicing process work in Edena?",
+        finance_invoicing_process_answer:
+            "Edena automates invoice generation and delivery, giving you full control over your school's billing and payments.",
+        finance_payment_methods: "What payment methods does the platform accept?",
+        finance_payment_methods_answer:
+            "The platform supports bank transfers, direct debits, credit cards, and other digital payment methods for family convenience.",
+        finance_automated_billing: "Can I schedule automated billing?",
+        finance_automated_billing_answer:
+            "Yes, you can set up automatic billing cycles for recurring fees and additional services.",
+        finance_late_payments: "How does Edena handle late payments?",
+        finance_late_payments_answer:
+            "The system sends automatic reminders and allows real-time tracking of outstanding payments.",
+        finance_refunds: "Is it possible to process refunds?",
+        finance_refunds_answer: "Yes, you can process refunds directly from the Edena admin panel.",
+        finance_reporting_tools: "What financial reporting tools does Edena offer?",
+        finance_reporting_tools_answer:
+            "It includes detailed reports on income, expenses, balances, and forecasts for efficient financial management.",
+        finance_data_security: "How is financial information protected?",
+        finance_data_security_answer:
+            "All data is encrypted and complies with current regulations to ensure maximum security.",
+        finance_parent_portal: "Can families view their payment history?",
+        finance_parent_portal_answer:
+            "Yes, each family has access to a portal where they can view invoices, payments made, and outstanding balances.",
+        finance_integration_accounting: "Does Edena integrate with external accounting systems?",
+        finance_integration_accounting_answer:
+            "Edena allows you to export data and connect with leading accounting software on the market.",
+        finance_support_options: "What support does Edena offer for financial matters?",
+        finance_support_options_answer:
+            "You have access to specialized support via chat, email, and a knowledge base for any financial questions.",
+        finance_verifactu_integration: "Is Edena integrated with Verifactu?",
+        finance_verifactu_integration_answer:
+            "Yes, Edena is fully integrated with the Spanish Tax Agency's Verifactu system, enabling compliant electronic invoice issuance and management.",
+        // App
+        app: {
+            title: "Frequently Asked Questions about the Edena Mobile App for Families and Schools",
+            description:
+                "Get answers about downloads, notifications, security, features, and support for the Edena app. Enhance communication and the digital experience for your educational community.",
+        },
+        app_download: "How do I download the Edena app?",
+        app_download_answer:
+            "The app is available on the App Store and Google Play. Search for 'Edena' and download it for free.",
+        app_notifications: "What kind of notifications will I receive in the app?",
+        app_notifications_answer:
+            "You will receive notifications about events, messages, billing, and school news in real time.",
+        app_parent_access: "How do parents access the app?",
+        app_parent_access_answer:
+            "Parents receive an invitation with instructions to create their account and securely access the app.",
+        app_security: "Is the Edena app secure?",
+        app_security_answer:
+            "Yes, the app uses end-to-end encryption and secure authentication to protect all data.",
+        app_multiplatform: "Does the app work on all devices?",
+        app_multiplatform_answer:
+            "The app is compatible with iOS and Android, and adapts to both phones and tablets.",
+        app_features: "What features does the app offer?",
+        app_features_answer:
+            "You can view the calendar, receive notifications, sign documents, check invoices, and communicate with the school.",
+        app_photo_sharing: "Can I receive photos and updates about my child?",
+        app_photo_sharing_answer:
+            "Yes, school staff can share photos and updates directly to the parents' app.",
+        app_document_signing: "Can I sign documents from the app?",
+        app_document_signing_answer:
+            "The app allows digital signing of authorizations and school documents easily.",
+        app_language_support: "Is the app available in multiple languages?",
+        app_language_support_answer:
+            "Yes, you can select your preferred language from the app settings.",
+        app_support_options: "What support options are available from the app?",
+        app_support_options_answer:
+            "You can contact support via chat, email, or access the integrated help section from the app.",
+        // Dashboard
+        dashboard: {
+            title: "Frequently Asked Questions about Edena's Control Panel and Analytics",
+            description:
+                "Clarify your questions about reports, roles, notifications, integrations, and dashboard security. Manage your school with real-time data and make smart decisions.",
+        },
+        dashboard_real_time_data: "Does the dashboard display real-time data?",
+        dashboard_real_time_data_answer:
+            "Yes, Edena's dashboard updates metrics and reports in real time for agile management.",
+        dashboard_custom_reports: "Can I create custom reports in the dashboard?",
+        dashboard_custom_reports_answer:
+            "You can generate and export reports tailored to your school's needs.",
+        dashboard_user_roles: "Can I assign different user roles?",
+        dashboard_user_roles_answer:
+            "The system allows you to define roles and permissions for each school user.",
+        dashboard_notifications: "What kind of notifications does the dashboard manage?",
+        dashboard_notifications_answer:
+            "It manages notifications for events, incidents, billing, and internal communications.",
+        dashboard_mobile_access: "Can I access the dashboard from my mobile?",
+        dashboard_mobile_access_answer:
+            "The dashboard is responsive and accessible from any mobile device or tablet.",
+        dashboard_data_export: "Can I export dashboard data?",
+        dashboard_data_export_answer:
+            "You can export data and reports in formats compatible with Excel and other systems.",
+        dashboard_integration: "Does the dashboard integrate with other platforms?",
+        dashboard_integration_answer:
+            "Edena allows integrations with academic, accounting, and external communication systems.",
+        dashboard_data_security: "How is dashboard information protected?",
+        dashboard_data_security_answer:
+            "All information is encrypted and automatic backups are performed.",
+        dashboard_performance: "Does the dashboard affect system performance?",
+        dashboard_performance_answer:
+            "The dashboard is optimized for high performance without affecting user experience.",
+        dashboard_support_options: "What support does Edena offer for the dashboard?",
+        dashboard_support_options_answer:
+            "You have access to specialized technical support and detailed documentation for any issues.",
+        // Students
+        students: {
+            title: "Frequently Asked Questions about Student Management in Edena",
+            description:
+                "Discover how Edena streamlines enrollment, academic tracking, family communication, and student data protection. Everything you need to know for efficient student management.",
+        },
+        students_enrollment_process: "How is the student enrollment process carried out?",
+        students_enrollment_process_answer:
+            "The process is 100% digital, allowing enrollment and student management from any device.",
+        students_attendance_tracking: "How is student attendance tracked?",
+        students_attendance_tracking_answer:
+            "The platform automatically records attendance and generates reports for academic tracking.",
+        students_academic_records: "Where can I view academic records?",
+        students_academic_records_answer:
+            "Records are available in each student's panel, accessible to families and authorized staff.",
+        students_parent_communication: "How do parents communicate with the school?",
+        students_parent_communication_answer:
+            "Through the platform and app, parents can send and receive messages, notifications, and documents.",
+        students_activity_management: "Can extracurricular activities be managed?",
+        students_activity_management_answer:
+            "Yes, you can create, enroll, and manage activities from the student panel.",
+        students_data_privacy: "How is student data privacy protected?",
+        students_data_privacy_answer:
+            "All data complies with GDPR and is protected with advanced encryption.",
+        students_support_services: "What support services does Edena offer to students?",
+        students_support_services_answer:
+            "It includes academic tracking, guidance, and personalized support for each student.",
+        students_mobile_access: "Can students access the platform from their mobile?",
+        students_mobile_access_answer:
+            "Yes, the platform is accessible from any mobile device or tablet.",
+        students_performance_monitoring: "How is academic performance monitored?",
+        students_performance_monitoring_answer:
+            "The system generates reports and automatic alerts on each student's progress and performance.",
+        students_support_options: "What support options are available for students?",
+        students_support_options_answer:
+            "Students can access technical and academic support from the platform and app.",
     },
     dashboard: {
         mainTitle: "Intuitive School Dashboard",

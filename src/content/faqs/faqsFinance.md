@@ -1,0 +1,23 @@
+---
+faqs:
+    - question: "finance_invoicing_process"
+      answer: "finance_invoicing_process_answer"
+    - question: "finance_payment_methods"
+      answer: "finance_payment_methods_answer"
+    - question: "finance_automated_billing"
+      answer: "finance_automated_billing_answer"
+    - question: "finance_late_payments"
+      answer: "finance_late_payments_answer"
+    - question: "finance_refunds"
+      answer: "finance_refunds_answer"
+    - question: "finance_reporting_tools"
+      answer: "finance_reporting_tools_answer"
+    - question: "finance_data_security"
+      answer: "finance_data_security_answer"
+    - question: "finance_parent_portal"
+      answer: "finance_parent_portal_answer"
+    - question: "finance_verifactu_integration"
+      answer: "finance_verifactu_integration_answer"
+    - question: "finance_support_options"
+      answer: "finance_support_options_answer"
+---

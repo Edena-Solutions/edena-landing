@@ -1,0 +1,23 @@
+---
+faqs:
+    - question: "dashboard_real_time_data"
+      answer: "dashboard_real_time_data_answer"
+    - question: "dashboard_custom_reports"
+      answer: "dashboard_custom_reports_answer"
+    - question: "dashboard_user_roles"
+      answer: "dashboard_user_roles_answer"
+    - question: "dashboard_notifications"
+      answer: "dashboard_notifications_answer"
+    - question: "dashboard_mobile_access"
+      answer: "dashboard_mobile_access_answer"
+    - question: "dashboard_data_export"
+      answer: "dashboard_data_export_answer"
+    - question: "dashboard_integration"
+      answer: "dashboard_integration_answer"
+    - question: "dashboard_data_security"
+      answer: "dashboard_data_security_answer"
+    - question: "dashboard_performance"
+      answer: "dashboard_performance_answer"
+    - question: "dashboard_support_options"
+      answer: "dashboard_support_options_answer"
+---

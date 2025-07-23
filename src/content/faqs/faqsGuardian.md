@@ -1,0 +1,23 @@
+---
+faqs:
+    - question: "guardian_access_rights"
+      answer: "guardian_access_rights_answer"
+    - question: "guardian_invitation_process"
+      answer: "guardian_invitation_process_answer"
+    - question: "guardian_data_privacy"
+      answer: "guardian_data_privacy_answer"
+    - question: "guardian_multiple_children"
+      answer: "guardian_multiple_children_answer"
+    - question: "guardian_communication_channels"
+      answer: "guardian_communication_channels_answer"
+    - question: "guardian_update_information"
+      answer: "guardian_update_information_answer"
+    - question: "guardian_emergency_contacts"
+      answer: "guardian_emergency_contacts_answer"
+    - question: "guardian_language_support"
+      answer: "guardian_language_support_answer"
+    - question: "guardian_notifications"
+      answer: "guardian_notifications_answer"
+    - question: "guardian_support_options"
+      answer: "guardian_support_options_answer"
+---

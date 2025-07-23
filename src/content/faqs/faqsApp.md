@@ -1,0 +1,23 @@
+---
+faqs:
+    - question: "app_download"
+      answer: "app_download_answer"
+    - question: "app_notifications"
+      answer: "app_notifications_answer"
+    - question: "app_parent_access"
+      answer: "app_parent_access_answer"
+    - question: "app_security"
+      answer: "app_security_answer"
+    - question: "app_multiplatform"
+      answer: "app_multiplatform_answer"
+    - question: "app_features"
+      answer: "app_features_answer"
+    - question: "app_photo_sharing"
+      answer: "app_photo_sharing_answer"
+    - question: "app_document_signing"
+      answer: "app_document_signing_answer"
+    - question: "app_language_support"
+      answer: "app_language_support_answer"
+    - question: "app_support_options"
+      answer: "app_support_options_answer"
+---

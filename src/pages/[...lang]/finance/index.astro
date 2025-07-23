@@ -5,6 +5,7 @@ import Layout from "@/layouts/main.astro";
 import Section from '@/modules/finance/Section.astro';
 import Hero from '@/modules/finance/Hero.astro';
 import GSAPSection from "@/components/ui/gsap-section";
+import FAQs from '@/modules/finance/FAQs.astro';
 
 
 export function getStaticPaths() {
@@ -22,5 +23,6 @@ const t = translations[lang as keyof typeof translations];
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
         <Hero t={t} />
         <Section t={t} />
+        <FAQs t={t} />
     </GSAPSection>
 </Layout>
