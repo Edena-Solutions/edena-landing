@@ -5,39 +5,46 @@ import type { Translation } from "@/i18n";
 
 interface Props {
     t: Translation;
+    lang: string;
 }
 
-export default function Features({ t }: Props) {
+export default function Features({ t, lang }: Props) {
     const features = [
         {
             icon: <Users size={20} />,
             title: t.features.studentManagement.title,
             description: t.features.studentManagement.tagline,
+            navigateTo: `/${lang}/students`,
         },
         {
             icon: <Calendar size={20} />,
             title: t.features.classScheduling.title,
             description: t.features.classScheduling.tagline,
+            navigateTo: `/${lang}/dashboard`,
         },
         {
             icon: <Wallet size={20} />,
             title: t.features.financeManagement.title,
             description: t.features.financeManagement.tagline,
+            navigateTo: `/${lang}/finance`,
         },
         {
             icon: <MessageSquare size={20} />,
             title: t.features.parentCommunication.title,
             description: t.features.parentCommunication.tagline,
+            navigateTo: `/${lang}/guardians`,
         },
         {
             icon: <Check size={20} />,
             title: t.features.studentAttendance.title,
             description: t.features.studentAttendance.tagline,
+            navigateTo: `/${lang}/students`,
         },
         {
             icon: <FileText size={20} />,
             title: t.features.invoices.title,
             description: t.features.invoices.tagline,
+            navigateTo: `/${lang}/finance`,
         },
     ];
 
@@ -49,7 +56,11 @@ export default function Features({ t }: Props) {
             </div>
             <div className="grid gap-3 px-4 sm:grid-cols-2 lg:grid-cols-3 w-full max-w-7xl">
                 {features.map((feature, index) => (
-                    <Card key={index} className="rounded flex flex-col p-6 bg-gray-50">
+                    <Card
+                        key={index}
+                        className="rounded flex flex-col p-6 bg-gray-50 cursor-pointer"
+                        onClick={() => (window.location.href = feature.navigateTo)}
+                    >
                         <CardHeader className="p-0 flex flex-col">
                             <div className="flex mb-4 text-primary w-fit p-4 rounded bg-white">
                                 {feature.icon}

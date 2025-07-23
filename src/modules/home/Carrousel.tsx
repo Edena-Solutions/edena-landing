@@ -17,7 +17,7 @@ import gradient from "@/assets/img/gradient_2.png";
 import type { Translation } from "@/i18n";
 import GSAPSection from "@/components/ui/gsap-section";
 
-const Features = ({ t }: { t: Translation }) => {
+const Features = ({ t, lang }: { t: Translation; lang: string }) => {
     const scrollContainerRef = useRef<HTMLDivElement>(null);
     const containerRef = useRef<HTMLDivElement>(null);
     const [showLeftArrow, setShowLeftArrow] = useState(false);
@@ -31,41 +31,49 @@ const Features = ({ t }: { t: Translation }) => {
             title: t.carousel.studentManagement.title,
             tagline: t.carousel.studentManagement.tagline,
             icon: <LibraryBig size={50} />,
+            navigateTo: `/${lang}/students`,
         },
         {
             title: t.carousel.classScheduling.title,
             tagline: t.carousel.classScheduling.tagline,
             icon: <Shapes size={50} />,
+            navigateTo: `/${lang}/dashboard`,
         },
         {
             title: t.carousel.dashboard.title,
             tagline: t.carousel.dashboard.tagline,
             icon: <LayoutDashboard size={50} />,
+            navigateTo: `/${lang}/dashboard`,
         },
         {
             title: t.carousel.financeManagement.title,
             tagline: t.carousel.financeManagement.tagline,
             icon: <Wallet size={50} />,
+            navigateTo: `/${lang}/finance`,
         },
         {
             title: t.carousel.settingsConfiguration.title,
             tagline: t.carousel.settingsConfiguration.tagline,
             icon: <Cog size={50} />,
+            navigateTo: `/${lang}/dashboard`,
         },
         {
             title: t.carousel.parentCommunication.title,
             tagline: t.carousel.parentCommunication.tagline,
             icon: <MessageCircle size={50} />,
+            navigateTo: `/${lang}/guardians`,
         },
         {
             title: t.carousel.studentAttendance.title,
             tagline: t.carousel.studentAttendance.tagline,
             icon: <UserRound size={50} />,
+            navigateTo: `/${lang}/students`,
         },
         {
             title: t.carousel.invoices.title,
             tagline: t.carousel.invoices.tagline,
             icon: <File size={50} />,
+            navigateTo: `/${lang}/finance`,
         },
     ];
 
@@ -194,6 +202,7 @@ const Features = ({ t }: { t: Translation }) => {
                                 className={`rounded cursor-pointer flex-none w-full md:w-1/3 lg:w-1/4 snap-center transition-all duration-300 overflow-hidden transform bg-gray-50 ${
                                     activeIndex === index ? "opacity-100" : "opacity-90"
                                 }`}
+                                onClick={() => (window.location.href = feature.navigateTo)}
                             >
                                 <div className="h-[450px] relative overflow-hidden">
                                     <div className="absolute inset-0 p-4 sm:p-8 flex flex-col justify-start">

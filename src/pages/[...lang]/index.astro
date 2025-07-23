@@ -18,10 +18,10 @@ const t = translations[lang as keyof typeof translations];
 ---
 <Layout content={{ title: t.meta.homeTitle }} lang={lang}>
     <section class="grid gap-16">
-        <Hero t={t} lang={lang} />
-        <MarketStats t={t} lang={lang} />
-        <Features client:load t={t} />
-        <Carrousel client:load t={t}/>
+        <Hero t={t} />
+        <MarketStats t={t} />
+        <Features client:load t={t} lang={lang} />
+        <Carrousel client:load t={t} lang={lang} />
         <Conclusion lang={lang} />
     </section>
 </Layout>
