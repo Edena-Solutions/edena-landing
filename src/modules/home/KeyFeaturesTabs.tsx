@@ -103,7 +103,7 @@ export default function KeyFeaturesTabs({ t }: Props) {
                     {
                         opacity: 1,
                         x: 0,
-                        duration: 0.8,
+                        duration: 1,
                         ease: "power2.out",
                         onComplete: () => {
                             animating.current = false;
