@@ -144,6 +144,33 @@ export default {
             title: "Reporting Tools",
             tagline: "Generate customized reports for data-driven decision making.",
         },
+        keyFeaturesTabs: [
+            {
+                title: "Comprehensive App Management",
+                description:
+                    "Centralize all your school operations in a single digital platform.<br><br>Streamline processes, reduce errors, and save time with integrated management that connects administration, teachers, and families.<br><br>Discover how digital transformation drives efficiency and satisfaction across your entire educational community.",
+            },
+            {
+                title: "Advanced Control Panel",
+                description:
+                    "Get real-time insights into your school’s key metrics.<br><br>Make data-driven decisions with customizable dashboards, automated alerts, and intelligent reporting.<br><br>Edena’s advanced control panel empowers you to anticipate needs, enhance communication, and accelerate your institution’s growth.",
+            },
+            {
+                title: "Financial Management",
+                description:
+                    "Automate invoicing, collections, and payment tracking with a finance system built for schools and academies.<br><br>Reduce late payments, improve transparency, and offer families a seamless, secure payment experience.<br><br>Digital financial management is essential for your school’s sustainability and long-term success.",
+            },
+            {
+                title: "Guardian Management",
+                description:
+                    "Simplify communication and academic tracking between guardians, families, and students.<br><br>Manage permissions, meetings, and notifications from a single hub.<br><br>Efficient guardian management increases family engagement and student performance, strengthening your school’s reputation.",
+            },
+            {
+                title: "Student Management",
+                description:
+                    "Access complete student records, academic history, and personalized tracking for every learner.<br><br>Automate enrollment, monitor attendance, and boost retention with advanced digital tools.<br><br>Edena’s student management drives educational excellence and family satisfaction.",
+            },
+        ],
     },
     carousel: {
         title: "Discover the Power of Intelligent School Management",

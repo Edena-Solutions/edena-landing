@@ -153,6 +153,33 @@ export default {
             title: "Herramientas de reportes",
             tagline: "Genera informes personalizados para tomar decisiones basadas en datos.",
         },
+        keyFeaturesTabs: [
+            {
+                title: "Gestión integral de la app",
+                description:
+                    "Centraliza todas las operaciones de tu centro educativo en una sola plataforma digital.<br><br>Optimiza procesos, reduce errores y ahorra tiempo con una gestión integral que conecta administración, docentes y familias.<br><br>Descubre cómo la digitalización impulsa la eficiencia y la satisfacción de toda la comunidad escolar.",
+            },
+            {
+                title: "Panel de control avanzado",
+                description:
+                    "Visualiza en tiempo real los indicadores clave de tu centro.<br><br>Toma decisiones informadas con dashboards personalizables, alertas automáticas y reportes inteligentes.<br><br>El panel de control avanzado de Edena te permite anticipar necesidades, mejorar la comunicación y potenciar el crecimiento de tu institución educativa.",
+            },
+            {
+                title: "Gestión financiera",
+                description:
+                    "Automatiza la facturación, el cobro y el seguimiento de pagos con un sistema financiero diseñado para colegios y academias.<br><br>Reduce la morosidad, mejora la transparencia y ofrece a las familias una experiencia de pago ágil y segura.<br><br>La gestión financiera digital es clave para la sostenibilidad y el éxito de tu centro.",
+            },
+            {
+                title: "Gestión de tutores",
+                description:
+                    "Facilita la comunicación y el seguimiento académico entre tutores, familias y estudiantes.<br><br>Gestiona permisos, reuniones y notificaciones de forma centralizada.<br><br>Una gestión de tutores eficiente mejora la implicación familiar y el rendimiento escolar, fortaleciendo la reputación de tu centro educativo.",
+            },
+            {
+                title: "Gestión de estudiantes",
+                description:
+                    "Accede a expedientes completos, historial académico y seguimiento personalizado de cada estudiante.<br><br>Automatiza la matriculación, controla la asistencia y mejora la retención con herramientas digitales avanzadas.<br><br>La gestión de estudiantes de Edena impulsa la excelencia educativa y la satisfacción de las familias.",
+            },
+        ],
     },
     carousel: {
         title: "Descubre el poder de la gestión escolar inteligente",
