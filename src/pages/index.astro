@@ -4,55 +4,7 @@ import Layout from "@/layouts/main.astro";
 ---
 
 <Layout content={{ title: "Edena" }} lang="es">
-  <div class="flex items-center justify-center min-h-screen">
-    <div class="loading-container">
-      <img src="/assets/img/favicon.svg" alt="Logo" class="logo" />
-    </div>
-  </div>
-
-  <style>
-    .loading-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .logo {
-      width: 100px;
-      height: auto;
-      animation: pulse 2s infinite;
-    }
-    
-    .fade-out {
-      animation: fadeOut 0.8s forwards;
-    }
-    
-    @keyframes fadeOut {
-      from { opacity: 1; }
-      to { opacity: 0; }
-    }
-    
-    @keyframes pulse {
-      0% {
-        transform: scale(0.8);
-      }
-      50% {
-        transform: scale(1);
-      }
-      100% {
-        transform: scale(0.8);
-      }
-    }
-  </style>
-
   <script define:vars={{ defaultLanguage }}>
-    setTimeout(() => {
-      document.querySelector('.loading-container').classList.add('fade-out');
-      
-      setTimeout(() => {
-        window.location.href = `/${defaultLanguage}/`;
-      }, 800);
-    }, 1000);
+    window.location.href = `/${defaultLanguage}/`;
   </script>
 </Layout>
