@@ -99,7 +99,7 @@ export default function KeyFeaturesTabs({ t }: Props) {
                 setDisplayed(active);
                 gsap.fromTo(
                     cardInnerRef.current,
-                    { opacity: 0, x: 100 },
+                    { opacity: 0, x: 200 },
                     {
                         opacity: 1,
                         x: 0,
