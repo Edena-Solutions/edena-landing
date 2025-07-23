@@ -18,7 +18,7 @@ interface Props {
 const SQUARE_SIZE = 40;
 const SQUARE_RADIUS = 4;
 const SQUARE_LENGTH = 4 * (SQUARE_SIZE - 2 - SQUARE_RADIUS * 2) + 2 * Math.PI * SQUARE_RADIUS;
-const AUTO_ADVANCE_MS = 4000;
+const AUTO_ADVANCE_MS = 6500;
 
 export default function KeyFeaturesTabs({ t }: Props) {
     const translations = t?.features?.keyFeaturesTabs || es.features.keyFeaturesTabs;
@@ -31,8 +31,6 @@ export default function KeyFeaturesTabs({ t }: Props) {
     const prevActive = useRef(active);
     const cardRef = useRef<HTMLDivElement>(null);
     const animating = useRef(false);
-    const imgRef = useRef<HTMLImageElement>(null);
-    const contentRef = useRef<HTMLDivElement>(null);
     const cardInnerRef = useRef<HTMLDivElement>(null);
 
     const features = [
