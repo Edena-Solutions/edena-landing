@@ -11,6 +11,9 @@ export async function GET() {
         "/es/guardians/",
         "/es/pricing/",
         "/es/students/",
+        "/es/privacy/",
+        "/es/terms/",
+        "/es/cookies/",
         "/en/",
         "/en/app/",
         "/en/dashboard/",
@@ -20,6 +23,9 @@ export async function GET() {
         "/en/guardians/",
         "/en/pricing/",
         "/en/students/",
+        "/en/privacy/",
+        "/en/terms/",
+        "/en/cookies/",
     ];
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
