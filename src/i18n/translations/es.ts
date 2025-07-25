@@ -466,7 +466,7 @@ export default {
     },
     privacyPolicy: {
         title: "Política de Privacidad",
-        content: `Última actualización: 27 de mayo de 2024<br>
+        content: `Última actualización: 27 de mayo de 2025<br>
 <br>
 1. INTRODUCCIÓN<br>
 En Edena nos comprometemos a proteger la privacidad de nuestros usuarios y a ser transparentes sobre el tratamiento de sus datos personales, cumpliendo con el Reglamento (UE) 2016/679 (RGPD) y la Ley 34/2002 (LSSI).<br>
@@ -508,7 +508,7 @@ Para cualquier duda sobre privacidad, contacta con nuestro DPO en privacidad@ede
     },
     termsOfService: {
         title: "Términos y Condiciones de Uso",
-        content: `Última actualización: 27 de mayo de 2024<br>
+        content: `Última actualización: 27 de mayo de 2025<br>
 <br>
 1. OBJETO Y ACEPTACIÓN<br>
 Estos Términos y Condiciones regulan el acceso y uso de la plataforma Edena, propiedad de Edena Software S.L. Al utilizar la plataforma, el usuario acepta expresamente estas condiciones.<br>

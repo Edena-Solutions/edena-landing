@@ -453,7 +453,7 @@ export default {
     },
     termsOfService: {
         title: "Terms and Conditions of Use",
-        content: `Last update: May 27, 2024<br>
+        content: `Last update: May 27, 2025<br>
 <br>
 1. PURPOSE AND ACCEPTANCE<br>
 These Terms and Conditions govern access to and use of the Edena platform, owned by Edena Software S.L. By using the platform, the user expressly accepts these terms.<br>
@@ -616,7 +616,7 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
     },
     privacyPolicy: {
         title: "Privacy Policy",
-        content: `Last update: May 27, 2024<br>
+        content: `Last update: May 27, 2025<br>
 <br>
 1. INTRODUCTION<br>
 At Edena, we are committed to protecting your privacy and being transparent about how we process your personal data, in compliance with Regulation (EU) 2016/679 (GDPR) and Law 34/2002 (LSSI).<br>
