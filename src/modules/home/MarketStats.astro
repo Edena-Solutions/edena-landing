@@ -2,6 +2,7 @@
 import { Card, CardHeader } from "@/components/ui/card";
 import gradient from "@/assets/img/gradient_1.png";
 import GSAPSection from "@/components/ui/gsap-section";
+import AnimatedCounter from "@/components/AnimatedCounter";
 const { t } = Astro.props;
 const cases: Array<{stat: string, description: string, bg: string}> = t.erpStats.cases.slice(0, 5);
 const bgClass = (bg: string) => {
@@ -52,7 +53,12 @@ const cardProps = [
         style={cardBgStyle(c.bg)}
       >
         <CardHeader className="p-0 pb-4">
-          <div class="text-4xl sm:text-5xl font-bold">{c.stat}</div>
+          <AnimatedCounter 
+            value={c.stat} 
+            duration={2500}
+            className="text-4xl sm:text-5xl font-bold"
+            client:load
+          />
         </CardHeader>
         <div class="text-sm">{c.description}</div>
       </Card>
