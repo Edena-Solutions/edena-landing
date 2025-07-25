@@ -85,38 +85,6 @@ export default {
         title: "Funcionalidades que transforman la gestión escolar",
         description:
             "Obtén el máximo rendimiento de tu sistema de gestión escolar con la plataforma integral de Edena.",
-        studentManagement: {
-            title: "Gestión estudiantil",
-            tagline: "Control total de expedientes y seguimiento académico en tiempo real.",
-        },
-        classScheduling: {
-            title: "Planificación académica",
-            tagline: "Optimiza horarios y recursos con tecnología avanzada.",
-        },
-        dashboard: {
-            title: "Panel de control",
-            tagline: "Métricas e indicadores clave para tu centro.",
-        },
-        financeManagement: {
-            title: "Gestión financiera",
-            tagline: "Automatiza cobros y optimiza recursos económicos.",
-        },
-        settingsConfiguration: {
-            title: "Personalización",
-            tagline: "Adapta la plataforma a las necesidades de tu centro.",
-        },
-        parentCommunication: {
-            title: "Comunicación con familias",
-            tagline: "Envía mensajes y actualizaciones a las familias de forma instantánea.",
-        },
-        studentAttendance: {
-            title: "Gestión de asistencia",
-            tagline: "Registra y controla la asistencia de los estudiantes de forma automática.",
-        },
-        invoices: {
-            title: "Facturación",
-            tagline: "Genera y envía facturas electrónicas de forma automática.",
-        },
         digitalRecords: {
             title: "Expedientes digitales",
             tagline: "Gestiona toda la información estudiantil de forma segura y organizada.",
@@ -124,14 +92,6 @@ export default {
         mobileApp: {
             title: "App móvil",
             tagline: "Accede a todas las funciones desde cualquier dispositivo móvil.",
-        },
-        automatedBilling: {
-            title: "Facturación automática",
-            tagline: "Genera y envía facturas de forma automática según los servicios contratados.",
-        },
-        realTimeAnalytics: {
-            title: "Analíticas en tiempo real",
-            tagline: "Obtén insights detallados sobre el rendimiento de tu centro educativo.",
         },
         documentManagement: {
             title: "Gestión documental",
@@ -152,6 +112,14 @@ export default {
         reportingTools: {
             title: "Herramientas de reportes",
             tagline: "Genera informes personalizados para tomar decisiones basadas en datos.",
+        },
+        automatedBilling: {
+            title: "Facturación automática",
+            tagline: "Genera y envía facturas de forma automática según los servicios contratados.",
+        },
+        realTimeAnalytics: {
+            title: "Analíticas en tiempo real",
+            tagline: "Obtén insights detallados sobre el rendimiento de tu centro educativo.",
         },
         keyFeaturesTabs: [
             {

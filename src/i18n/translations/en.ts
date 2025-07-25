@@ -76,38 +76,6 @@ export default {
         title: "Features that Transform School Management",
         description:
             "Get the most out of your school management system with Edena's all-in-one platform.",
-        studentManagement: {
-            title: "Student Management",
-            tagline: "Complete control over records and real-time academic tracking.",
-        },
-        classScheduling: {
-            title: "Academic Planning",
-            tagline: "Optimize schedules and resources with advanced technology.",
-        },
-        dashboard: {
-            title: "Control Panel",
-            tagline: "Key metrics and indicators for your school.",
-        },
-        financeManagement: {
-            title: "Financial Management",
-            tagline: "Automate payments and optimize financial resources.",
-        },
-        settingsConfiguration: {
-            title: "Customization",
-            tagline: "Adapt the platform to your school's needs.",
-        },
-        parentCommunication: {
-            title: "Parent Communication",
-            tagline: "Send messages and updates to families instantly.",
-        },
-        studentAttendance: {
-            title: "Student Attendance",
-            tagline: "Record and control student attendance automatically.",
-        },
-        invoices: {
-            title: "Invoices",
-            tagline: "Generate and send electronic invoices automatically.",
-        },
         digitalRecords: {
             title: "Digital Records",
             tagline: "Manage all student information securely and organized.",
@@ -115,14 +83,6 @@ export default {
         mobileApp: {
             title: "Mobile App",
             tagline: "Access all features from any mobile device.",
-        },
-        automatedBilling: {
-            title: "Automated Billing",
-            tagline: "Generate and send invoices automatically based on contracted services.",
-        },
-        realTimeAnalytics: {
-            title: "Real-time Analytics",
-            tagline: "Get detailed insights into your educational institution's performance.",
         },
         documentManagement: {
             title: "Document Management",
@@ -143,6 +103,14 @@ export default {
         reportingTools: {
             title: "Reporting Tools",
             tagline: "Generate customized reports for data-driven decision making.",
+        },
+        automatedBilling: {
+            title: "Automated Billing",
+            tagline: "Generate and send invoices automatically based on contracted services.",
+        },
+        realTimeAnalytics: {
+            title: "Real-time Analytics",
+            tagline: "Get detailed insights into your educational institution's performance.",
         },
         keyFeaturesTabs: [
             {

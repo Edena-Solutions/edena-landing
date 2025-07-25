@@ -1,4 +1,4 @@
-import { Users, Calendar, Wallet, MessageSquare, Check, FileText } from "lucide-react";
+import { FileText, Smartphone, FolderOpen, Users, UserCheck, Calendar } from "lucide-react";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import GSAPSection from "@/components/ui/gsap-section";
 import type { Translation } from "@/i18n";
@@ -11,40 +11,40 @@ interface Props {
 export default function Features({ t, lang }: Props) {
     const features = [
         {
-            icon: <Users size={20} />,
-            title: t.features.studentManagement.title,
-            description: t.features.studentManagement.tagline,
+            icon: <FileText size={20} />,
+            title: t.features.digitalRecords.title,
+            description: t.features.digitalRecords.tagline,
             navigateTo: `/${lang}/students`,
         },
         {
-            icon: <Calendar size={20} />,
-            title: t.features.classScheduling.title,
-            description: t.features.classScheduling.tagline,
+            icon: <Smartphone size={20} />,
+            title: t.features.mobileApp.title,
+            description: t.features.mobileApp.tagline,
+            navigateTo: `/${lang}/app`,
+        },
+        {
+            icon: <FolderOpen size={20} />,
+            title: t.features.documentManagement.title,
+            description: t.features.documentManagement.tagline,
             navigateTo: `/${lang}/dashboard`,
         },
         {
-            icon: <Wallet size={20} />,
-            title: t.features.financeManagement.title,
-            description: t.features.financeManagement.tagline,
-            navigateTo: `/${lang}/finance`,
-        },
-        {
-            icon: <MessageSquare size={20} />,
-            title: t.features.parentCommunication.title,
-            description: t.features.parentCommunication.tagline,
+            icon: <Users size={20} />,
+            title: t.features.familyPortal.title,
+            description: t.features.familyPortal.tagline,
             navigateTo: `/${lang}/guardians`,
         },
         {
-            icon: <Check size={20} />,
-            title: t.features.studentAttendance.title,
-            description: t.features.studentAttendance.tagline,
-            navigateTo: `/${lang}/students`,
+            icon: <UserCheck size={20} />,
+            title: t.features.staffManagement.title,
+            description: t.features.staffManagement.tagline,
+            navigateTo: `/${lang}/dashboard`,
         },
         {
-            icon: <FileText size={20} />,
-            title: t.features.invoices.title,
-            description: t.features.invoices.tagline,
-            navigateTo: `/${lang}/finance`,
+            icon: <Calendar size={20} />,
+            title: t.features.calendarIntegration.title,
+            description: t.features.calendarIntegration.tagline,
+            navigateTo: `/${lang}/dashboard`,
         },
     ];
 
