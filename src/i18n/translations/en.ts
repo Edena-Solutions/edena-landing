@@ -452,21 +452,40 @@ export default {
             "Students can access technical and academic support from the platform and app.",
     },
     termsOfService: {
-        title: "Terms of Service",
-        content: `1. Purpose and Acceptance<br>
-This document governs access to and use of the Edena platform, owned by Edena Software S.L. Access implies acceptance of these terms.<br>
-2. Conditions of Use<br>
-The user agrees to use the platform in accordance with the law, morality, and public order. Use for unlawful or harmful purposes is prohibited.<br>
-3. Intellectual Property<br>
-All content, trademarks, and software are the exclusive property of Edena Software S.L. or its licensors. Reproduction, distribution, or modification without express authorization is prohibited.<br>
-4. Liability<br>
-Edena Software S.L. is not responsible for damages arising from the use of the platform, nor for service interruptions due to external causes.<br>
-5. Data Protection<br>
-The processing of personal data is governed by our Privacy Policy.<br>
-6. Modifications<br>
-Edena Software S.L. reserves the right to modify these terms at any time. Modifications will be published on the platform.<br>
-7. Applicable Law and Jurisdiction<br>
-These terms are governed by Spanish law. For any dispute, the parties submit to the courts and tribunals of Barcelona, Spain.`,
+        title: "Terms and Conditions of Use",
+        content: `Last update: May 27, 2024<br>
+<br>
+1. PURPOSE AND ACCEPTANCE<br>
+These Terms and Conditions govern access to and use of the Edena platform, owned by Edena Software S.L. By using the platform, the user expressly accepts these terms.<br>
+<br>
+2. REGISTRATION AND USER ACCOUNT<br>
+To access the services, users must be over 16 years old and provide accurate, up-to-date information. Users are responsible for keeping their credentials confidential and for all activities performed from their account.<br>
+<br>
+3. SUBSCRIPTION, PRICING, AND PAYMENTS<br>
+Access to certain services may require a paid subscription. The prices, conditions, and limits of each plan are available on the website. Edena reserves the right to modify fees, notifying users at least 15 days in advance.<br>
+<br>
+4. PERMITTED USE AND OBLIGATIONS<br>
+Users agree to use the platform in accordance with the law, morality, and public order. Use for illegal, fraudulent, or reputation-damaging activities is strictly prohibited.<br>
+<br>
+5. INTELLECTUAL AND INDUSTRIAL PROPERTY<br>
+All rights to the platform, its software, design, trademarks, and content belong to Edena Software S.L. or its licensors. Users may not copy, modify, distribute, sell, or rent any part of the platform without express authorization.<br>
+<br>
+6. ACCOUNT CANCELLATION AND SUSPENSION<br>
+Users may cancel their account at any time from the control panel. Edena may suspend or cancel accounts that breach these terms, notifying the user and retaining data for the legally required period.<br>
+<br>
+7. SERVICE MODIFICATIONS<br>
+Edena may modify, suspend, or discontinue the platform, in whole or in part, notifying users as far in advance as possible.<br>
+<br>
+8. LIMITATION OF LIABILITY<br>
+Edena does not guarantee uninterrupted service availability and is not liable for direct or indirect damages resulting from the use or inability to use the platform, except where legally required.<br>
+<br>
+9. DATA PROTECTION AND PRIVACY<br>
+The processing of personal data is governed by the Privacy Policy and current data protection regulations.<br>
+<br>
+10. APPLICABLE LAW AND JURISDICCIÓN<br>
+These terms are governed by Spanish law. For any dispute, the parties submit to the courts of Barcelona, Spain.<br>
+<br>
+For any questions about these terms, you can contact us at privacidad@edena.es.`,
     },
     dashboard: {
         mainTitle: "Intuitive School Dashboard",
@@ -597,29 +616,59 @@ These terms are governed by Spanish law. For any dispute, the parties submit to 
     },
     privacyPolicy: {
         title: "Privacy Policy",
-        content: `Data Controller: Edena Software S.L.<br>
-Purpose: To manage the relationship with users, clients, and suppliers, as well as to send commercial information related to our products and services.<br>
-Legal Basis: Consent of the data subject, performance of a contract, and compliance with legal obligations.<br>
-Recipients: Data will not be transferred to third parties, except under legal obligation or for the provision of contracted services.<br>
-Rights: Access, rectification, erasure, objection, restriction, and portability of data. You can exercise your rights by sending an email to privacidad@edena.es.<br>
-Retention: Data will be kept for as long as necessary to fulfill the purpose for which it was collected and to determine possible liabilities.<br>
-Security Measures: We apply technical and organizational measures to ensure the confidentiality, integrity, and availability of information.<br>
-International Transfers: No international data transfers are foreseen.<br>
-Additional Information: You can consult additional and detailed information about data protection on our website or by contacting our DPO at privacidad@edena.es.`,
+        content: `Last update: May 27, 2024<br>
+<br>
+1. INTRODUCTION<br>
+At Edena, we are committed to protecting your privacy and being transparent about how we process your personal data, in compliance with Regulation (EU) 2016/679 (GDPR) and Law 34/2002 (LSSI).<br>
+<br>
+2. DATA CONTROLLER<br>
+Controller: Edena Software S.L.<br>
+Email: privacidad@edena.es<br>
+<br>
+3. PERSONAL DATA PROCESSED AND PURPOSE<br>
+We process the data you provide through forms, registration, contact, subscription to communications, support, and use of the platform. The main purposes are:<br>
+- Manage your account and access to the platform.<br>
+- Provide and improve our services.<br>
+- Respond to inquiries and requests.<br>
+- Send commercial communications (if authorized).<br>
+- Comply with legal obligations.<br>
+<br>
+4. LEGAL BASIS<br>
+The legal basis for processing is your consent, the performance of a contract, and compliance with legal obligations.<br>
+<br>
+5. DATA RETENTION<br>
+Your data will be kept as long as necessary for the purpose for which it was collected, and for the periods required by applicable regulations.<br>
+<br>
+6. RECIPIENTS AND TRANSFERS<br>
+We do not share your data with third parties except by legal obligation or for the provision of essential services (technology providers, hosting, analytics, etc.), always under confidentiality and data processing agreements. We do not make international transfers outside the EEA without adequate safeguards.<br>
+<br>
+7. USER RIGHTS<br>
+You can exercise your rights of access, rectification, erasure, objection, restriction, and portability by sending an email to privacidad@edena.es. You can also file a complaint with the Spanish Data Protection Agency.<br>
+<br>
+8. INFORMATION SECURITY<br>
+We apply technical and organizational measures to protect your data and ensure its confidentiality, integrity, and availability.<br>
+<br>
+9. DATA ACCURACY<br>
+The user guarantees the truthfulness and updating of the data provided. Edena is not responsible for inaccurate or false data.<br>
+<br>
+10. CHANGES TO THE PRIVACY POLICY<br>
+Edena may modify this policy to adapt it to legislative or platform changes. We recommend reviewing it periodically.<br>
+<br>
+For any privacy questions, contact our DPO at privacidad@edena.es.`,
     },
     cookiePolicy: {
         title: "Cookie Policy",
-        content: `1. What are cookies?<br>
+        content: `1. WHAT ARE COOKIES?<br>
 Cookies are small text files stored on the user's device when visiting a website. They allow us to remember information about browsing and improve the user experience.<br>
-2. Types of cookies used<br>
+2. TYPES OF COOKIES USED<br>
 - Technical cookies: necessary for the operation of the website.<br>
 - Analytics cookies: allow us to analyze website usage to improve our services.<br>
 - Third-party cookies: managed by external services such as Google Analytics.<br>
-3. Cookie management<br>
+3. COOKIE MANAGEMENT<br>
 Users can configure their browser to accept, reject, or delete cookies. Disabling cookies may affect the website's functionality.<br>
-4. Consent<br>
+4. CONSENT<br>
 By browsing our website, the user accepts the use of cookies under the conditions set out in this policy.<br>
-5. More information<br>
+5. MORE INFORMATION<br>
 For any questions about our cookie policy, you can contact privacidad@edena.es.`,
     },
 };

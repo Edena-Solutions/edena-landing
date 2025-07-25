@@ -466,46 +466,95 @@ export default {
     },
     privacyPolicy: {
         title: "Política de Privacidad",
-        content: `Responsable del tratamiento: Edena Software S.L.<br>
-Finalidad: Gestionar la relación con usuarios, clientes y proveedores, así como el envío de información comercial relacionada con nuestros productos y servicios.<br>
-Legitimación: Consentimiento del interesado, ejecución de un contrato y cumplimiento de obligaciones legales.<br>
-Destinatarios: No se cederán datos a terceros, salvo obligación legal o para la prestación de servicios contratados.<br>
-Derechos: Acceso, rectificación, supresión, oposición, limitación y portabilidad de los datos. Puede ejercer sus derechos enviando un correo a privacidad@edena.es.<br>
-Conservación: Los datos se conservarán durante el tiempo necesario para cumplir con la finalidad para la que se recabaron y para determinar las posibles responsabilidades.<br>
-Medidas de seguridad: Aplicamos medidas técnicas y organizativas para garantizar la confidencialidad, integridad y disponibilidad de la información.<br>
-Transferencias internacionales: No se prevén transferencias internacionales de datos.<br>
-Información adicional: Puede consultar información adicional y detallada sobre protección de datos en nuestra web o contactando con nuestro DPO en privacidad@edena.es.`,
+        content: `Última actualización: 27 de mayo de 2024<br>
+<br>
+1. INTRODUCCIÓN<br>
+En Edena nos comprometemos a proteger la privacidad de nuestros usuarios y a ser transparentes sobre el tratamiento de sus datos personales, cumpliendo con el Reglamento (UE) 2016/679 (RGPD) y la Ley 34/2002 (LSSI).<br>
+<br>
+2. RESPONSABLE DEL TRATAMIENTO<br>
+Responsable: Edena Software S.L.<br>
+Email: privacidad@edena.es<br>
+<br>
+3. DATOS PERSONALES TRATADOS Y FINALIDAD<br>
+Tratamos los datos que nos facilitas a través de formularios, registro, contacto, suscripción a comunicaciones, soporte y uso de la plataforma. Las finalidades principales son:<br>
+- Gestionar tu cuenta y acceso a la plataforma.<br>
+- Prestar y mejorar nuestros servicios.<br>
+- Atender consultas y solicitudes.<br>
+- Enviar comunicaciones comerciales (si lo autorizas).<br>
+- Cumplir obligaciones legales.<br>
+<br>
+4. LEGITIMACIÓN<br>
+La base legal para el tratamiento es tu consentimiento, la ejecución de un contrato y el cumplimiento de obligaciones legales.<br>
+<br>
+5. CONSERVACIÓN DE LOS DATOS<br>
+Tus datos se conservarán mientras sean necesarios para la finalidad para la que se recabaron, y durante los plazos exigidos por la normativa aplicable.<br>
+<br>
+6. DESTINATARIOS Y TRANSFERENCIAS<br>
+No cedemos tus datos a terceros salvo obligación legal o para la prestación de servicios esenciales (proveedores tecnológicos, hosting, analítica, etc.), siempre bajo contratos de confidencialidad y tratamiento de datos. No realizamos transferencias internacionales fuera del EEE sin garantías adecuadas.<br>
+<br>
+7. DERECHOS DE LOS USUARIOS<br>
+Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad enviando un email a privacidad@edena.es. También puedes reclamar ante la Agencia Española de Protección de Datos.<br>
+<br>
+8. SEGURIDAD DE LA INFORMACIÓN<br>
+Aplicamos medidas técnicas y organizativas para proteger tus datos y garantizar su confidencialidad, integridad y disponibilidad.<br>
+<br>
+9. VERACIDAD DE LOS DATOS<br>
+El usuario garantiza la veracidad y actualización de los datos facilitados. Edena no se responsabiliza de datos inexactos o falsos.<br>
+<br>
+10. CAMBIOS EN LA POLÍTICA DE PRIVACIDAD<br>
+Edena podrá modificar esta política para adaptarla a novedades legislativas o de la plataforma. Te recomendamos revisarla periódicamente.<br>
+<br>
+Para cualquier duda sobre privacidad, contacta con nuestro DPO en privacidad@edena.es.`,
     },
     termsOfService: {
-        title: "Términos de Servicio",
-        content: `1. Objeto y aceptación<br>
-El presente documento regula el acceso y uso de la plataforma Edena, propiedad de Edena Software S.L. El acceso implica la aceptación de estos términos.<br>
-2. Condiciones de uso<br>
-El usuario se compromete a utilizar la plataforma conforme a la ley, la moral y el orden público. Queda prohibido el uso con fines ilícitos o lesivos.<br>
-3. Propiedad intelectual<br>
-Todos los contenidos, marcas y software son propiedad exclusiva de Edena Software S.L. o de sus licenciantes. Queda prohibida su reproducción, distribución o modificación sin autorización expresa.<br>
-4. Responsabilidad<br>
-Edena Software S.L. no se responsabiliza de los daños derivados del uso de la plataforma, ni de la interrupción del servicio por causas ajenas.<br>
-5. Protección de datos<br>
-El tratamiento de datos personales se rige por nuestra Política de Privacidad.<br>
-6. Modificaciones<br>
-Edena Software S.L. se reserva el derecho de modificar estos términos en cualquier momento. Las modificaciones serán publicadas en la plataforma.<br>
-7. Legislación aplicable y jurisdicción<br>
-Estos términos se rigen por la legislación española. Para cualquier controversia, las partes se someten a los juzgados y tribunales de Barcelona, España.`,
+        title: "Términos y Condiciones de Uso",
+        content: `Última actualización: 27 de mayo de 2024<br>
+<br>
+1. OBJETO Y ACEPTACIÓN<br>
+Estos Términos y Condiciones regulan el acceso y uso de la plataforma Edena, propiedad de Edena Software S.L. Al utilizar la plataforma, el usuario acepta expresamente estas condiciones.<br>
+<br>
+2. REGISTRO Y CUENTA DE USUARIO<br>
+Para acceder a los servicios, el usuario debe ser mayor de 16 años y proporcionar información veraz y actualizada. El usuario es responsable de la confidencialidad de sus credenciales y de todas las actividades realizadas desde su cuenta.<br>
+<br>
+3. CONTRATACIÓN, TARIFAS Y PAGOS<br>
+El acceso a determinados servicios puede requerir la contratación de un plan de pago. Los precios, condiciones y límites de cada plan están disponibles en la web. Edena se reserva el derecho de modificar las tarifas, notificando los cambios con al menos 15 días de antelación.<br>
+<br>
+4. USO PERMITIDO Y OBLIGACIONES<br>
+El usuario se compromete a utilizar la plataforma conforme a la ley, la moral y el orden público. Queda prohibido el uso para actividades ilícitas, fraudulentas o que puedan dañar la reputación de Edena o de terceros.<br>
+<br>
+5. PROPIEDAD INTELECTUAL E INDUSTRIAL<br>
+Todos los derechos sobre la plataforma, su software, diseño, marcas y contenidos pertenecen a Edena Software S.L. o a sus licenciantes. El usuario no podrá copiar, modificar, distribuir, vender o alquilar ninguna parte de la plataforma sin autorización expresa.<br>
+<br>
+6. CANCELACIÓN Y SUSPENSIÓN DE LA CUENTA<br>
+El usuario puede cancelar su cuenta en cualquier momento desde el panel de control. Edena podrá suspender o cancelar cuentas que incumplan estos términos, notificando al usuario y conservando los datos durante el plazo legalmente exigido.<br>
+<br>
+7. MODIFICACIONES DEL SERVICIO<br>
+Edena podrá modificar, suspender o interrumpir la plataforma, total o parcialmente, notificando a los usuarios con la máxima antelación posible.<br>
+<br>
+8. LIMITACIÓN DE RESPONSABILIDAD<br>
+Edena no garantiza la disponibilidad ininterrumpida del servicio ni se responsabiliza de daños directos o indirectos derivados del uso o imposibilidad de uso de la plataforma, salvo en los casos legalmente exigidos.<br>
+<br>
+9. PROTECCIÓN DE DATOS Y PRIVACIDAD<br>
+El tratamiento de datos personales se rige por la Política de Privacidad y la normativa vigente en materia de protección de datos.<br>
+<br>
+10. LEGISLACIÓN APLICABLE Y JURISDICCIÓN<br>
+Estos términos se rigen por la legislación española. Para cualquier controversia, las partes se someten a los juzgados y tribunales de Barcelona, España.<br>
+<br>
+Para cualquier consulta sobre estos términos, puede contactar con nosotros en privacidad@edena.es.`,
     },
     cookiePolicy: {
         title: "Política de Cookies",
-        content: `1. ¿Qué son las cookies?<br>
+        content: `1. ¿QUÉ SON LAS COOKIES?<br>
 Las cookies son pequeños archivos de texto que se almacenan en el dispositivo del usuario al visitar una web. Permiten recordar información sobre la navegación y mejorar la experiencia de usuario.<br>
-2. Tipos de cookies utilizadas<br>
+2. TIPOS DE COOKIES UTILIZADAS<br>
 - Cookies técnicas: necesarias para el funcionamiento de la web.<br>
 - Cookies de análisis: permiten analizar el uso de la web para mejorar nuestros servicios.<br>
 - Cookies de terceros: gestionadas por servicios externos como Google Analytics.<br>
-3. Gestión de cookies<br>
+3. GESTIÓN DE COOKIES<br>
 El usuario puede configurar su navegador para aceptar, rechazar o eliminar las cookies. La desactivación puede afectar al funcionamiento de la web.<br>
-4. Consentimiento<br>
+4. CONSENTIMIENTO<br>
 Al navegar por nuestra web, el usuario acepta el uso de cookies en las condiciones establecidas en esta política.<br>
-5. Más información<br>
+5. MÁS INFORMACIÓN<br>
 Para cualquier duda sobre nuestra política de cookies, puede contactar con privacidad@edena.es.`,
     },
     dashboard: {
