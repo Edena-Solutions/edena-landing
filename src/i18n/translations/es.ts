@@ -464,6 +464,50 @@ export default {
         students_support_options_answer:
             "Los estudiantes pueden acceder a soporte técnico y académico desde la plataforma y la app.",
     },
+    privacyPolicy: {
+        title: "Política de Privacidad",
+        content: `Responsable del tratamiento: Edena Software S.L.<br>
+Finalidad: Gestionar la relación con usuarios, clientes y proveedores, así como el envío de información comercial relacionada con nuestros productos y servicios.<br>
+Legitimación: Consentimiento del interesado, ejecución de un contrato y cumplimiento de obligaciones legales.<br>
+Destinatarios: No se cederán datos a terceros, salvo obligación legal o para la prestación de servicios contratados.<br>
+Derechos: Acceso, rectificación, supresión, oposición, limitación y portabilidad de los datos. Puede ejercer sus derechos enviando un correo a privacidad@edena.es.<br>
+Conservación: Los datos se conservarán durante el tiempo necesario para cumplir con la finalidad para la que se recabaron y para determinar las posibles responsabilidades.<br>
+Medidas de seguridad: Aplicamos medidas técnicas y organizativas para garantizar la confidencialidad, integridad y disponibilidad de la información.<br>
+Transferencias internacionales: No se prevén transferencias internacionales de datos.<br>
+Información adicional: Puede consultar información adicional y detallada sobre protección de datos en nuestra web o contactando con nuestro DPO en privacidad@edena.es.`,
+    },
+    termsOfService: {
+        title: "Términos de Servicio",
+        content: `1. Objeto y aceptación<br>
+El presente documento regula el acceso y uso de la plataforma Edena, propiedad de Edena Software S.L. El acceso implica la aceptación de estos términos.<br>
+2. Condiciones de uso<br>
+El usuario se compromete a utilizar la plataforma conforme a la ley, la moral y el orden público. Queda prohibido el uso con fines ilícitos o lesivos.<br>
+3. Propiedad intelectual<br>
+Todos los contenidos, marcas y software son propiedad exclusiva de Edena Software S.L. o de sus licenciantes. Queda prohibida su reproducción, distribución o modificación sin autorización expresa.<br>
+4. Responsabilidad<br>
+Edena Software S.L. no se responsabiliza de los daños derivados del uso de la plataforma, ni de la interrupción del servicio por causas ajenas.<br>
+5. Protección de datos<br>
+El tratamiento de datos personales se rige por nuestra Política de Privacidad.<br>
+6. Modificaciones<br>
+Edena Software S.L. se reserva el derecho de modificar estos términos en cualquier momento. Las modificaciones serán publicadas en la plataforma.<br>
+7. Legislación aplicable y jurisdicción<br>
+Estos términos se rigen por la legislación española. Para cualquier controversia, las partes se someten a los juzgados y tribunales de Barcelona, España.`,
+    },
+    cookiePolicy: {
+        title: "Política de Cookies",
+        content: `1. ¿Qué son las cookies?<br>
+Las cookies son pequeños archivos de texto que se almacenan en el dispositivo del usuario al visitar una web. Permiten recordar información sobre la navegación y mejorar la experiencia de usuario.<br>
+2. Tipos de cookies utilizadas<br>
+- Cookies técnicas: necesarias para el funcionamiento de la web.<br>
+- Cookies de análisis: permiten analizar el uso de la web para mejorar nuestros servicios.<br>
+- Cookies de terceros: gestionadas por servicios externos como Google Analytics.<br>
+3. Gestión de cookies<br>
+El usuario puede configurar su navegador para aceptar, rechazar o eliminar las cookies. La desactivación puede afectar al funcionamiento de la web.<br>
+4. Consentimiento<br>
+Al navegar por nuestra web, el usuario acepta el uso de cookies en las condiciones establecidas en esta política.<br>
+5. Más información<br>
+Para cualquier duda sobre nuestra política de cookies, puede contactar con privacidad@edena.es.`,
+    },
     dashboard: {
         mainTitle: "Panel de control escolar intuitivo",
         mainDescription:

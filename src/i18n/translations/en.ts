@@ -451,6 +451,23 @@ export default {
         students_support_options_answer:
             "Students can access technical and academic support from the platform and app.",
     },
+    termsOfService: {
+        title: "Terms of Service",
+        content: `1. Purpose and Acceptance<br>
+This document governs access to and use of the Edena platform, owned by Edena Software S.L. Access implies acceptance of these terms.<br>
+2. Conditions of Use<br>
+The user agrees to use the platform in accordance with the law, morality, and public order. Use for unlawful or harmful purposes is prohibited.<br>
+3. Intellectual Property<br>
+All content, trademarks, and software are the exclusive property of Edena Software S.L. or its licensors. Reproduction, distribution, or modification without express authorization is prohibited.<br>
+4. Liability<br>
+Edena Software S.L. is not responsible for damages arising from the use of the platform, nor for service interruptions due to external causes.<br>
+5. Data Protection<br>
+The processing of personal data is governed by our Privacy Policy.<br>
+6. Modifications<br>
+Edena Software S.L. reserves the right to modify these terms at any time. Modifications will be published on the platform.<br>
+7. Applicable Law and Jurisdiction<br>
+These terms are governed by Spanish law. For any dispute, the parties submit to the courts and tribunals of Barcelona, Spain.`,
+    },
     dashboard: {
         mainTitle: "Intuitive School Dashboard",
         mainDescription:
@@ -577,5 +594,32 @@ export default {
                 bg: "highlight",
             },
         ],
+    },
+    privacyPolicy: {
+        title: "Privacy Policy",
+        content: `Data Controller: Edena Software S.L.<br>
+Purpose: To manage the relationship with users, clients, and suppliers, as well as to send commercial information related to our products and services.<br>
+Legal Basis: Consent of the data subject, performance of a contract, and compliance with legal obligations.<br>
+Recipients: Data will not be transferred to third parties, except under legal obligation or for the provision of contracted services.<br>
+Rights: Access, rectification, erasure, objection, restriction, and portability of data. You can exercise your rights by sending an email to privacidad@edena.es.<br>
+Retention: Data will be kept for as long as necessary to fulfill the purpose for which it was collected and to determine possible liabilities.<br>
+Security Measures: We apply technical and organizational measures to ensure the confidentiality, integrity, and availability of information.<br>
+International Transfers: No international data transfers are foreseen.<br>
+Additional Information: You can consult additional and detailed information about data protection on our website or by contacting our DPO at privacidad@edena.es.`,
+    },
+    cookiePolicy: {
+        title: "Cookie Policy",
+        content: `1. What are cookies?<br>
+Cookies are small text files stored on the user's device when visiting a website. They allow us to remember information about browsing and improve the user experience.<br>
+2. Types of cookies used<br>
+- Technical cookies: necessary for the operation of the website.<br>
+- Analytics cookies: allow us to analyze website usage to improve our services.<br>
+- Third-party cookies: managed by external services such as Google Analytics.<br>
+3. Cookie management<br>
+Users can configure their browser to accept, reject, or delete cookies. Disabling cookies may affect the website's functionality.<br>
+4. Consent<br>
+By browsing our website, the user accepts the use of cookies under the conditions set out in this policy.<br>
+5. More information<br>
+For any questions about our cookie policy, you can contact privacidad@edena.es.`,
     },
 };
