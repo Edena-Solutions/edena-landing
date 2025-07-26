@@ -4,7 +4,7 @@ date: "2025-07-25"
 description: "Descubre cómo la integración con Verifactu garantiza el cumplimiento normativo en la facturación electrónica de centros educativos."
 tags: ["verifactu", "cumplimiento", "normativa", "facturación electrónica"]
 author: "Equipo Edena"
-cover: "https://images.unsplash.com/photo-1649209979970-f01d950cc5ed?auto=format&fit=crop&w=800&q=80"
+cover: "https://images.unsplash.com/photo-1554224155-cfa08c2a758f?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
 **Verifactu en la educación: Cumplimiento normativo simplificado**
