@@ -2,8 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from '@/layouts/main.astro';
 import { translations } from '@/i18n/index.ts';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import BlogPostList from '@/components/BlogPostList.tsx';
 
 export async function getStaticPaths() {
   return [
@@ -16,78 +15,11 @@ const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 const posts = await getCollection('blog');
 const sortedPosts = posts.sort((a, b) => b.data.date.localeCompare(a.data.date));
-
-const tagVariantMap = {
-  facturación: 'default',
-  automatización: 'secondary',
-  finanzas: 'default',
-  comunicación: 'secondary',
-  familias: 'secondary',
-  seguridad: 'destructive',
-  datos: 'destructive',
-  tendencias: 'default',
-  tecnología: 'default',
-  innovación: 'secondary',
-  asistencia: 'secondary',
-  gestión: 'default',
-  analítica: 'default',
-  rendimiento: 'default',
-  software: 'default',
-  comparativa: 'secondary',
-  UX: 'secondary',
-  apps: 'default',
-  móvil: 'secondary',
-  sostenibilidad: 'secondary',
-  digitalización: 'default',
-  "medio ambiente": 'secondary',
-  documentos: 'secondary',
-  administración: 'default',
-  eficiencia: 'secondary',
-} as const;
 ---
 
 <Layout content={{ title: `${t.navigation.blog} | Edena`, description: 'Artículos y novedades sobre gestión escolar, tecnología educativa y normativa.' }} lang={lang}>
   <section class="px-4">
     <h1 class="text-center max-w-2xl mx-auto pt-10 pb-8 text-3xl font-bold">{t.navigation.blog}</h1>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-      {sortedPosts.map(post => (
-        <Card className="overflow-hidden rounded bg-gray-50 p-4 group">
-          <a href={`/${lang}/blog/${post.slug}`} class="block">
-            {post.data.cover && (
-              <div class="overflow-hidden rounded relative h-80">
-                {post.data.tags && post.data.tags.length > 0 && (
-                  <span class="absolute top-1 left-2 z-10">
-                    <Badge variant={tagVariantMap[post.data.tags[0] as keyof typeof tagVariantMap] ?? 'default'} className="capitalize rounded-sm">
-                      {post.data.tags[0]}
-                    </Badge>
-                  </span>
-                )}
-                <img 
-                  src={post.data.cover} 
-                  alt={post.data.title}
-                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-              </div>
-            )}
-            <CardHeader className="px-0 py-2 group-hover:text-primary/70 transition-colors">
-              <CardTitle className="text-lg font-semibold line-clamp-2">
-                {post.data.title}
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="p-0 flex flex-col gap-2">
-              <p class="text-sm line-clamp-2">
-                {post.data.description}
-              </p>
-            </CardContent>
-            <CardFooter className="p-0 pt-4">
-              <p class="text-muted-foreground text-sm">
-                {new Date(post.data.date).toLocaleDateString(lang, { year: 'numeric', month: 'long', day: 'numeric' })} - {post.data.author}
-              </p>
-            </CardFooter>
-          </a>
-        </Card>
-      ))}
-    </div>
+    <BlogPostList client:load posts={sortedPosts} lang={lang} />
   </section>
 </Layout> 
