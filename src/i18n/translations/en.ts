@@ -91,6 +91,7 @@ export default {
         pricing: "Pricing",
         faqs: "FAQs",
         app: "Edena Kids",
+        blog: "Blog",
     },
     conclusion: {
         title: "Join the Future of School Management",

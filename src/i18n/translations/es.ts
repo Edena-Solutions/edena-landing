@@ -100,6 +100,7 @@ export default {
         pricing: "Precios",
         faqs: "FAQs",
         app: "Edena Kids",
+        blog: "Blog",
     },
     conclusion: {
         title: "Únete al futuro de la gestión escolar",

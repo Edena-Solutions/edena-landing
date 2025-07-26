@@ -198,6 +198,9 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                 </div>
 
                 <div className="hidden md:flex items-center gap-2">
+                    <Link href={`/${lang}/blog`}>
+                        <Button variant="ghost">{t.navigation.blog}</Button>
+                    </Link>
                     <Link href={`/${lang}/demo`}>
                         <Button>{t.bookDemo}</Button>
                     </Link>
@@ -264,6 +267,14 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     className="block py-2 text-sm hover:text-primary"
                                 >
                                     {t.navigation.faqs}
+                                </a>
+                            </div>
+                            <div className="space-y-2">
+                                <a
+                                    href={`/${lang}/blog`}
+                                    className="block py-2 text-sm hover:text-primary"
+                                >
+                                    {t.navigation.blog}
                                 </a>
                             </div>
                             <div>
