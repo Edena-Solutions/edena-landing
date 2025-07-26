@@ -14,7 +14,7 @@ const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 ---
 
-<Layout content={{ title: t.meta.demoTitle }} lang={lang}>
+<Layout content={{ title: t.meta.demoTitle, description: t.meta.demoDescription }} lang={lang}>
     <div class="calendly-inline-widget" data-url="https://calendly.com/edena-finance/30min" style="min-width:320px;height:700px;" />
     <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async />
 </Layout>

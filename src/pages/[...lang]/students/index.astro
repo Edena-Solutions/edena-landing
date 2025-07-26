@@ -14,7 +14,7 @@ export function getStaticPaths() {
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 ---
-<Layout content={{ title: t.meta.studentsTitle }} lang={lang}>
+<Layout content={{ title: t.meta.studentsTitle, description: t.meta.studentsDescription }} lang={lang}>
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
         <Hero t={t} />
         <Section t={t} />

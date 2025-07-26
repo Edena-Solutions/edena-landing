@@ -8,19 +8,44 @@ export default {
             "Transforma tu centro con la plataforma integral de gestión educativa de Edena. Optimiza la administración, aumenta el compromiso de las familias y automatiza procesos académicos. Utilizado por más de 500 centros. Solicita tu demo gratuita hoy.",
         pricingTitle:
             "Edena | Precios de Software de Gestión Escolar | Planes para cada Centro Educativo",
+        pricingDescription:
+            "Elige el plan perfecto de Edena para tu centro educativo. Desde gestión básica de estudiantes hasta soluciones ERP completas. Precios transparentes sin costes ocultos. Comienza tu prueba gratuita hoy.",
         faqsTitle:
             "Preguntas Frecuentes sobre Software de Gestión Escolar | Guía Completa de Edena",
+        faqsDescription:
+            "Encuentra respuestas a preguntas comunes sobre el software de gestión escolar de Edena. Aprende sobre funcionalidades, implementación, precios y cómo nuestra plataforma puede transformar tu centro educativo.",
         dashboardTitle:
             "Software de Panel de Control Escolar | Análisis y Herramientas en Tiempo Real",
+        dashboardDescription:
+            "Obtén información en tiempo real sobre el rendimiento de tu centro con el panel integral de Edena. Monitorea asistencia, sigue el progreso académico, gestiona finanzas y comunícate con familias desde una plataforma central.",
         studentsTitle:
             "Sistema de Información Estudiantil (SIE) | Software Completo de Gestión Escolar",
+        studentsDescription:
+            "Gestiona registros de estudiantes, asistencia, calificaciones y comunicación de forma eficiente con el Sistema de Información Estudiantil integral de Edena. Optimiza tareas administrativas y mejora los resultados estudiantiles.",
         appTitle:
             "App Móvil de Gestión Escolar | Plataforma de Comunicación para Familias y Profesores",
+        appDescription:
+            "Mantente conectado con la app móvil de Edena para familias y profesores. Recibe notificaciones instantáneas, visualiza el progreso estudiantil, comunícate de forma segura y accede a información escolar desde cualquier lugar.",
         demoTitle: "Solicita tu Demo Gratuita | Descubre Edena en Acción",
+        demoDescription:
+            "Experimenta la plataforma de gestión escolar de Edena de primera mano. Solicita una demo personalizada para ver cómo nuestro software puede optimizar las operaciones de tu centro educativo y mejorar el compromiso familiar.",
         financeTitle:
             "Software de Gestión Escolar | Plataforma de Facturación y Comunicación para Centros Educativos",
+        financeDescription:
+            "Automatiza la gestión financiera de tu centro con Edena. Maneja facturación, facturas, seguimiento de pagos e informes financieros de forma eficiente. Reduce la carga administrativa y mejora el flujo de caja.",
         guardiansTitle:
             "Software de Gestión de Familias y Tutores | Plataforma de Comunicación para Familias y Profesores",
+        guardiansDescription:
+            "Mejora el compromiso familiar con la plataforma de gestión de tutores de Edena. Optimiza la comunicación, comparte el progreso estudiantil y mantén informadas a las familias con nuestro portal familiar integral.",
+        privacyTitle: "Política de Privacidad | Software de Gestión Escolar Edena",
+        privacyDescription:
+            "Aprende cómo Edena protege los datos de tu centro y mantiene estándares de privacidad. Nuestra política de privacidad integral garantiza la seguridad de la información estudiantil, familiar e institucional.",
+        termsTitle: "Términos de Servicio | Software de Gestión Escolar Edena",
+        termsDescription:
+            "Revisa los términos de servicio de Edena para nuestra plataforma de gestión escolar. Entiende nuestros acuerdos de servicio, responsabilidades del usuario y pautas de uso de la plataforma.",
+        cookiesTitle: "Política de Cookies | Software de Gestión Escolar Edena",
+        cookiesDescription:
+            "Entiende cómo Edena usa cookies para mejorar tu experiencia con nuestra plataforma de gestión escolar. Aprende sobre tipos de cookies, uso y tus opciones de privacidad.",
     },
     hero: {
         mainTitle: "Transforma la gestión escolar de tu centro",

@@ -8,15 +8,40 @@ export default {
             "Transform your school with Edena's all-in-one educational management platform. Streamline administration, boost parent engagement, and automate academic processes. Trusted by 500+ schools. Book your free demo today.",
         pricingTitle:
             "Edena | School Management Software Pricing | Plans for Every Educational Institution",
+        pricingDescription:
+            "Choose the perfect Edena plan for your educational institution. From basic student management to comprehensive ERP solutions. Transparent pricing with no hidden fees. Start your free trial today.",
         faqsTitle: "School Management Software FAQs | Edena's Complete Guide to Educational ERP",
+        faqsDescription:
+            "Find answers to common questions about Edena's school management software. Learn about features, implementation, pricing, and how our platform can transform your educational institution.",
         dashboardTitle: "School Dashboard Software | Real-Time Analytics & Management Tools",
+        dashboardDescription:
+            "Get real-time insights into your school's performance with Edena's comprehensive dashboard. Monitor attendance, track academic progress, manage finances, and communicate with families from one central platform.",
         studentsTitle: "Student Information System (SIS) | Complete Student Management Software",
+        studentsDescription:
+            "Manage student records, attendance, grades, and communication efficiently with Edena's comprehensive Student Information System. Streamline administrative tasks and improve student outcomes.",
         appTitle: "School Management Mobile App | Parent & Teacher Communication Platform",
+        appDescription:
+            "Stay connected with Edena's mobile app for parents and teachers. Receive instant notifications, view student progress, communicate securely, and access school information from anywhere.",
         demoTitle: "Book Your Free School Management Software Demo | See Edena in Action",
+        demoDescription:
+            "Experience Edena's school management platform firsthand. Book a personalized demo to see how our software can streamline your educational institution's operations and improve family engagement.",
         financeTitle:
             "School Management Software | Billing & Communication Platform for Educational Institutions",
+        financeDescription:
+            "Automate your school's financial management with Edena. Handle billing, invoicing, payment tracking, and financial reporting efficiently. Reduce administrative workload and improve cash flow.",
         guardiansTitle:
             "Family & Guardian Management Software | Communication Platform for Families & Teachers",
+        guardiansDescription:
+            "Enhance family engagement with Edena's guardian management platform. Streamline communication, share student progress, and keep families informed with our comprehensive family portal.",
+        privacyTitle: "Privacy Policy | Edena School Management Software",
+        privacyDescription:
+            "Learn how Edena protects your school's data and maintains privacy standards. Our comprehensive privacy policy ensures the security of student, family, and institutional information.",
+        termsTitle: "Terms of Service | Edena School Management Software",
+        termsDescription:
+            "Review Edena's terms of service for our school management platform. Understand our service agreements, user responsibilities, and platform usage guidelines.",
+        cookiesTitle: "Cookie Policy | Edena School Management Software",
+        cookiesDescription:
+            "Understand how Edena uses cookies to improve your experience with our school management platform. Learn about cookie types, usage, and your privacy options.",
     },
     hero: {
         mainTitle: "Transform Your School Management",
