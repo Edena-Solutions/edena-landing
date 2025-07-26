@@ -125,7 +125,7 @@ export const BlogPostList: React.FC<BlogPostListProps> = ({ posts, lang }) => {
             </div>
             {showLoadMore && (
                 <div className="flex justify-center mt-8">
-                    <Button variant="secondary" size="lg" onClick={handleLoadMore}>
+                    <Button variant="secondary" onClick={handleLoadMore}>
                         {buttonText}
                     </Button>
                 </div>
