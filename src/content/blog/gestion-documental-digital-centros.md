@@ -27,13 +27,7 @@ Los centros educativos manejan una cantidad masiva de documentos: expedientes ac
 
 <br>
 
-**Digitalización inteligente**
-
 Los sistemas modernos de gestión documental digital utilizan tecnologías avanzadas para convertir documentos físicos en formatos digitales de alta calidad. La digitalización inteligente incluye reconocimiento óptico de caracteres (OCR), que permite buscar y editar texto en documentos escaneados.
-
-<br>
-
-**Almacenamiento seguro en la nube**
 
 Los documentos digitalizados se almacenan en la nube con múltiples capas de seguridad, incluyendo cifrado de datos, backups automáticos, y control de acceso granular. Esta seguridad es especialmente importante en el sector educativo, donde se maneja información sensible de menores.
 
@@ -43,25 +37,11 @@ Los documentos digitalizados se almacenan en la nube con múltiples capas de seg
 
 <br>
 
-**Eficiencia operativa**
-
 La gestión documental digital reduce drásticamente el tiempo necesario para encontrar, procesar, y compartir documentos. Los usuarios pueden acceder a la información que necesitan en segundos, sin importar dónde se encuentren.
-
-<br>
-
-**Seguridad y cumplimiento normativo**
 
 Los sistemas digitales proporcionan auditorías completas de acceso, cumplimiento con normativas de protección de datos, y protección contra pérdida o deterioro de documentos.
 
-<br>
-
-**Sostenibilidad ambiental**
-
 La digitalización elimina la necesidad de papel, reduciendo el impacto ambiental y los costes asociados con la impresión y almacenamiento físico.
-
-<br>
-
-**Accesibilidad y colaboración**
 
 Los documentos digitales pueden ser accedidos simultáneamente por múltiples usuarios, facilitando la colaboración y mejorando la comunicación entre diferentes departamentos.
 
@@ -71,19 +51,9 @@ Los documentos digitales pueden ser accedidos simultáneamente por múltiples us
 
 <br>
 
-**Fase de planificación**
-
 La implementación exitosa requiere una planificación cuidadosa que incluya la evaluación de necesidades, selección de tecnologías, y desarrollo de políticas de gestión documental.
 
-<br>
-
-**Digitalización de documentos existentes**
-
 El proceso de digitalización debe ser sistemático y organizado, priorizando documentos críticos y estableciendo estándares de calidad para la conversión digital.
-
-<br>
-
-**Formación y adopción**
 
 El personal debe recibir formación completa sobre el uso del nuevo sistema y las mejores prácticas para la gestión documental digital.
 
@@ -93,11 +63,7 @@ El personal debe recibir formación completa sobre el uso del nuevo sistema y la
 
 <br>
 
-**Centros educativos pioneros**
-
 Los centros educativos que implementan sistemas de gestión documental digital suelen lograr resultados extraordinarios. El tiempo dedicado a búsquedas de documentos se reduce drásticamente, y la satisfacción del personal aumenta significativamente.
-
-**Transformación digital integral**
 
 Muchos centros utilizan la gestión documental digital como parte de una iniciativa más amplia de transformación digital, mejorando la eficiencia operativa de manera notable.
 
@@ -107,19 +73,9 @@ Muchos centros utilizan la gestión documental digital como parte de una iniciat
 
 <br>
 
-**Inteligencia artificial y automatización**
-
 Los sistemas del futuro incluirán IA para clasificación automática de documentos, extracción de información relevante, y detección de patrones en la documentación.
 
-<br>
-
-**Integración con otros sistemas**
-
 La gestión documental digital se integrará cada vez más con otros sistemas del centro educativo, creando un ecosistema digital unificado.
-
-<br>
-
-**Análisis y insights**
 
 Los datos generados por la gestión documental digital proporcionarán insights valiosos sobre los procesos del centro y oportunidades de mejora.
 

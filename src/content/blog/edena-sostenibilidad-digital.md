@@ -31,19 +31,9 @@ Además del consumo de papel, la gestión tradicional implica desplazamientos in
 
 La digitalización de los procesos educativos no es solo una cuestión de modernización, sino también de sostenibilidad. Cuando un centro educativo implementa una plataforma como Edena, puede reducir drásticamente su impacto ambiental mientras mejora su eficiencia operativa.
 
-<br>
-
-**Reducción del consumo de papel**
-
 La implementación de Edena elimina la necesidad de la mayoría de documentos en papel. Las comunicaciones con las familias se realizan digitalmente, las facturas se envían por email, los expedientes académicos se almacenan en la nube, y los reportes se generan automáticamente sin necesidad de impresión.
 
 Esta reducción en el consumo de papel no solo salva árboles, sino que también reduce la energía necesaria para la producción, transporte, y eliminación de papel. Además, elimina la necesidad de almacenamiento físico de documentos, reduciendo el espacio necesario y la energía para climatización.
-
-<br>
-
-**Optimización de procesos y energía**
-
-<br>
 
 Los sistemas digitales como Edena optimizan los procesos administrativos, reduciendo el tiempo y la energía necesarios para completar tareas rutinarias. La automatización de procesos como la facturación, el control de asistencia, y la comunicación elimina pasos innecesarios y reduce el consumo de recursos.
 
@@ -55,19 +45,9 @@ Los centros educativos también pueden optimizar el uso de energía implementand
 
 <br>
 
-**Reducción de costes operativos**
-
-<br>
-
 La digitalización no solo es buena para el medio ambiente, sino también para el presupuesto del centro educativo. La eliminación del papel reduce costes de impresión, almacenamiento, y gestión de residuos. La automatización de procesos reduce el tiempo necesario para tareas administrativas, permitiendo que el personal se enfoque en actividades más valiosas.
 
 Los sistemas digitales también reducen errores administrativos que pueden resultar costosos. La facturación automatizada, por ejemplo, reduce los errores de cálculo y las demoras en los cobros, mejorando el flujo de caja del centro.
-
-<br>
-
-**Eficiencia energética**
-
-<br>
 
 Los centros educativos que implementan sistemas digitales modernos pueden reducir significativamente su consumo energético. Los servidores en la nube son más eficientes que los servidores locales, y la eliminación de equipos obsoletos reduce el consumo de electricidad.
 
@@ -79,27 +59,11 @@ Además, los sistemas digitales permiten un mejor control del uso de energía en
 
 <br>
 
-**Infraestructura en la nube eficiente**
-
-<br>
-
 Edena utiliza infraestructura en la nube que es significativamente más eficiente energéticamente que los servidores tradicionales. Los centros de datos modernos utilizan tecnologías de refrigeración avanzadas, energías renovables, y optimización automática del uso de recursos.
 
 Esta infraestructura no solo reduce el impacto ambiental directo, sino que también permite que múltiples centros educativos compartan recursos, maximizando la eficiencia y minimizando el desperdicio.
 
-<br>
-
-**Procesos optimizados**
-
-<br>
-
 Edena ha sido diseñado desde el principio con la eficiencia en mente. Cada funcionalidad ha sido optimizada para reducir el tiempo y los recursos necesarios para completar las tareas administrativas. La automatización de procesos elimina pasos innecesarios y reduce la posibilidad de errores que requieren corrección.
-
-<br>
-
-**Formación en sostenibilidad**
-
-<br>
 
 Edena no solo proporciona herramientas digitales, sino que también incluye formación sobre cómo utilizar la tecnología de forma sostenible. Los centros educativos aprenden a maximizar los beneficios ambientales de la digitalización y a implementar mejores prácticas de sostenibilidad.
 
@@ -109,19 +73,9 @@ Edena no solo proporciona herramientas digitales, sino que también incluye form
 
 <br>
 
-**Centros educativos comprometidos con el medio ambiente**
-
-<br>
-
 Los centros educativos que implementan sistemas de sostenibilidad digital suelen lograr resultados extraordinarios. Muchos centros reducen su consumo de papel de manera drástica, eliminan completamente el uso de plásticos de un solo uso en la administración, y reducen significativamente su huella de carbono.
 
 Los ahorros económicos suelen ser igualmente impresionantes. Los centros ahorran miles de euros anuales en costes de papel, impresión, y almacenamiento. Estos ahorros se reinvierten en programas educativos sobre sostenibilidad y en mejoras de las instalaciones.
-
-<br>
-
-**Iniciativas integrales de sostenibilidad**
-
-<br>
 
 Muchos centros utilizan la digitalización como parte de una iniciativa más amplia de sostenibilidad. Estos centros no solo digitalizan sus procesos administrativos, sino que también implementan sistemas de energía renovable, optimización de residuos, y educación ambiental.
 
@@ -133,25 +87,9 @@ Los resultados suelen ser transformadores. Muchos centros ahora generan más ene
 
 <br>
 
-**Inteligencia artificial para optimización**
-
-<br>
-
 Las futuras versiones de Edena incluirán funcionalidades de inteligencia artificial que optimizarán automáticamente el uso de recursos. Los sistemas aprenderán los patrones de uso del centro y ajustarán automáticamente la configuración para maximizar la eficiencia.
 
-<br>
-
-**Integración con energías renovables**
-
-<br>
-
 Edena está desarrollando integraciones con sistemas de energía renovable que permitirán a los centros educativos optimizar su uso de energía solar, eólica, y otras fuentes renovables. Los sistemas podrán ajustar automáticamente el consumo basándose en la disponibilidad de energía renovable.
-
-<br>
-
-**Análisis de impacto ambiental**
-
-<br>
 
 Los centros educativos podrán utilizar Edena para analizar y reportar su impacto ambiental. Los sistemas generarán reportes automáticos sobre el consumo de recursos, la huella de carbono, y las mejoras en sostenibilidad, permitiendo una transparencia completa y una mejora continua.
 
@@ -161,17 +99,7 @@ Los centros educativos podrán utilizar Edena para analizar y reportar su impact
 
 <br>
 
-**Integración curricular**
-
-<br>
-
 Edena no solo proporciona herramientas para la gestión sostenible, sino que también incluye recursos educativos que ayudan a los centros a integrar la sostenibilidad en su currículo. Los estudiantes pueden aprender sobre el impacto ambiental de diferentes actividades y cómo la tecnología puede ayudar a reducir este impacto.
-
-<br>
-
-**Proyectos de sostenibilidad**
-
-<br>
 
 Los centros educativos pueden utilizar Edena para gestionar proyectos de sostenibilidad que involucren a toda la comunidad educativa. Desde campañas de reciclaje hasta proyectos de energía renovable, la plataforma proporciona las herramientas necesarias para coordinar y medir el impacto de estas iniciativas.
 

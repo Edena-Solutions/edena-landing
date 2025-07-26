@@ -14,6 +14,7 @@ export async function GET() {
         "/es/privacy/",
         "/es/terms/",
         "/es/cookies/",
+        "/es/blog/",
         "/en/",
         "/en/app/",
         "/en/dashboard/",
@@ -26,6 +27,7 @@ export async function GET() {
         "/en/privacy/",
         "/en/terms/",
         "/en/cookies/",
+        "/en/blog/",
     ];
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>

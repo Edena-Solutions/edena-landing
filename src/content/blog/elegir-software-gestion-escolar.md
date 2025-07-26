@@ -35,31 +35,13 @@ Antes de comenzar la búsqueda, es fundamental evaluar las necesidades específi
 
 <br>
 
-**Facilidad de uso y adopción**
-
 El software debe ser intuitivo y fácil de usar para todos los usuarios, desde el personal administrativo hasta los profesores y familias.
-
-<br>
-
-**Funcionalidades específicas para educación**
 
 El software debe incluir funcionalidades específicas para centros educativos: gestión de matrículas, control de asistencia, comunicación con familias, y facturación escolar.
 
-<br>
-
-**Escalabilidad y flexibilidad**
-
 La solución debe poder crecer con el centro y adaptarse a cambios en las necesidades y procesos.
 
-<br>
-
-**Seguridad y cumplimiento normativo**
-
 El software debe cumplir con todas las normativas de protección de datos y seguridad aplicables al sector educativo.
-
-<br>
-
-**Soporte y formación**
 
 El proveedor debe ofrecer soporte técnico de calidad y formación completa para todos los usuarios.
 
@@ -69,31 +51,13 @@ El proveedor debe ofrecer soporte técnico de calidad y formación completa para
 
 <br>
 
-**Fase 1: Investigación y preselección**
-
 Identificar proveedores potenciales y evaluar sus soluciones basándose en criterios iniciales.
-
-<br>
-
-**Fase 2: Evaluación detallada**
 
 Probar las soluciones preseleccionadas con datos reales del centro y evaluar su funcionalidad.
 
-<br>
-
-**Fase 3: Verificación de referencias**
-
 Contactar con otros centros que usen las soluciones para obtener feedback real sobre su experiencia.
 
-<br>
-
-**Fase 4: Evaluación técnica**
-
 Verificar la compatibilidad técnica, integración con sistemas existentes, y requisitos de infraestructura.
-
-<br>
-
-**Fase 5: Negociación y contratación**
 
 Negociar términos comerciales, SLA, y condiciones de implementación y soporte.
 
@@ -103,25 +67,11 @@ Negociar términos comerciales, SLA, y condiciones de implementación y soporte.
 
 <br>
 
-**Enfoque en el precio sobre el valor**
-
 No elegir basándose únicamente en el precio, sino en el valor total que proporciona la solución.
-
-<br>
-
-**Ignorar las necesidades futuras**
 
 Considerar no solo las necesidades actuales, sino también cómo pueden evolucionar en el futuro.
 
-<br>
-
-**Subestimar la importancia del cambio organizacional**
-
 La implementación de nuevo software requiere cambios en procesos y formación del personal.
-
-<br>
-
-**No involucrar a todos los usuarios**
 
 Incluir en el proceso de selección a todos los usuarios que utilizarán el sistema.
 

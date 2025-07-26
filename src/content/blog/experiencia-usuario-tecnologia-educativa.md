@@ -27,25 +27,11 @@ Los centros educativos enfrentan un desafío único en la adopción de tecnolog�
 
 <br>
 
-**Simplicidad y claridad**
-
 La tecnología educativa debe ser intuitiva y fácil de usar desde el primer momento. Los usuarios no deben necesitar formación extensa para realizar tareas básicas, y la interfaz debe guiar naturalmente hacia las funcionalidades correctas.
-
-<br>
-
-**Consistencia y familiaridad**
 
 Los usuarios se sienten más cómodos con interfaces que siguen patrones familiares y consistentes. La tecnología educativa debe aprovechar las convenciones establecidas en otras aplicaciones que los usuarios ya conocen.
 
-<br>
-
-**Accesibilidad universal**
-
 La tecnología educativa debe ser accesible para usuarios con diferentes capacidades, incluyendo aquellos con discapacidades visuales, auditivas, o motoras. El diseño inclusivo no solo es ético, sino que también mejora la experiencia para todos los usuarios.
-
-<br>
-
-**Rendimiento y confiabilidad**
 
 Los usuarios esperan que la tecnología funcione de manera rápida y confiable. Los tiempos de carga lentos, errores frecuentes, o interrupciones del servicio pueden destruir la confianza en la tecnología y llevar a su abandono.
 
@@ -55,19 +41,9 @@ Los usuarios esperan que la tecnología funcione de manera rápida y confiable. 
 
 <br>
 
-**Resistencia y rechazo**
-
 Una mala experiencia de usuario genera resistencia al cambio y puede llevar a que los usuarios rechacen completamente la tecnología, volviendo a métodos tradicionales menos eficientes.
 
-<br>
-
-**Errores y confusión**
-
 Las interfaces confusas o mal diseñadas llevan a errores de usuario, pérdida de datos, y frustración. En el contexto educativo, estos errores pueden tener consecuencias significativas.
-
-<br>
-
-**Pérdida de confianza**
 
 Los usuarios que tienen experiencias negativas con la tecnología pierden confianza no solo en esa solución específica, sino también en la tecnología educativa en general.
 
@@ -77,19 +53,9 @@ Los usuarios que tienen experiencias negativas con la tecnología pierden confia
 
 <br>
 
-**Investigación y empatía**
-
 El diseño centrado en el usuario comienza con una comprensión profunda de las necesidades, frustraciones, y objetivos de los usuarios reales. La investigación debe incluir observación directa, entrevistas, y análisis de comportamiento.
 
-<br>
-
-**Iteración y mejora continua**
-
 El diseño de experiencia de usuario es un proceso iterativo que requiere feedback constante de los usuarios y mejoras continuas basadas en datos reales de uso.
-
-<br>
-
-**Pruebas con usuarios reales**
 
 Las pruebas con usuarios reales son esenciales para identificar problemas de usabilidad antes de que la tecnología se implemente completamente. Estas pruebas deben incluir usuarios representativos de todos los grupos objetivo.
 
