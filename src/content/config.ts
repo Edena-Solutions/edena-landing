@@ -30,7 +30,6 @@ const faqCollection = defineCollection({
     }),
 });
 
-// Blog collection
 const blogCollection = defineCollection({
     type: "content",
     schema: z.object({
