@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Image } from "astro:assets";
 import favicon from "@/assets/img/logos/logo-small.svg"
+import BookDemoButton from "@/components/BookDemoButton.astro";
 
 import { translations } from '@/i18n/index.ts';
 import Link from "@/components/ui/link";
@@ -16,9 +17,5 @@ const t = translations[lang as keyof typeof translations];
     <p class="text-muted-foreground max-w-2xl text-center">
         {t.conclusion.description}
     </p>
-    <Link href="demo">
-        <Button className="w-fit">
-            {t.bookDemo}
-        </Button>
-    </Link>
+    <BookDemoButton t={t} className="w-fit" />
 </div>

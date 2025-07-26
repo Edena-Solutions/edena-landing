@@ -1,0 +1,22 @@
+---
+import { Button } from "@/components/ui/button";
+import { getLanguageFromURL } from "@/i18n";
+import type { Translation } from "@/i18n";
+
+interface Props {
+    t: Translation;
+    variant?: "default" | "secondary" | "outline" | "ghost" | "link" | "destructive";
+    className?: string;
+}
+
+const { t, variant = "default", className = "" } = Astro.props;
+const currentPath = Astro.url.pathname;
+const lang = getLanguageFromURL(currentPath);
+const demoUrl = `/${lang}/demo`;
+---
+
+<a href={demoUrl}>
+    <Button variant={variant} className={className}>
+        {t.bookDemo}
+    </Button>
+</a> 

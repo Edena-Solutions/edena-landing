@@ -3,6 +3,7 @@ import type { Translation } from "@/i18n";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
 import { Image } from "astro:assets";
+import BookDemoButton from "@/components/BookDemoButton.astro";
 import invoiceDetail from "@/assets/img/screenshots/invoice/invoice_detail.png"
 import emailInvoice from "@/assets/img/screenshots/invoice/invoice_email.png"
 import gradient from "@/assets/img/gradient_1.png";
@@ -44,11 +45,7 @@ const { t } = Astro.props;
                     <p class="max-w-sm text-white font-semibold text-center sm:text-left">
                         {t.setup.bookADemoCTA}
                     </p>
-                    <Link href="demo">
-                        <Button variant="secondary">
-                            {t.bookDemo}
-                        </Button>
-                    </Link>
+                    <BookDemoButton t={t} variant="secondary" />
                 </CardContent>
             </Card>
             <Card className="flex flex-col items-center overflow-hidden rounded bg-gray-50 text-center h-60 sm:h-auto">
