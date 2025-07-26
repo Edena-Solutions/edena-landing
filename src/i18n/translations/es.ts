@@ -3,11 +3,10 @@ export default {
     downloadTheApp: "Descarga la app escolar ahora",
     knowMore: "Ver cómo funciona",
     meta: {
-        homeTitle: "Edena | Sistema de Gestión Escolar | Software ERP Educativo Todo en Uno",
+        homeTitle: "Sistema de Gestión Escolar | Edena",
         homeDescription:
             "Transforma tu centro con la plataforma integral de gestión educativa de Edena. Optimiza la administración, aumenta el compromiso de las familias y automatiza procesos académicos. Utilizado por más de 500 centros. Solicita tu demo gratuita hoy.",
-        pricingTitle:
-            "Edena | Precios de Software de Gestión Escolar | Planes para cada Centro Educativo",
+        pricingTitle: "Precios de Software de Gestión Escolar | Edena",
         pricingDescription:
             "Elige el plan perfecto de Edena para tu centro educativo. Desde gestión básica de estudiantes hasta soluciones ERP completas. Precios transparentes sin costes ocultos. Comienza tu prueba gratuita hoy.",
         faqsTitle:
