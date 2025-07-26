@@ -21,7 +21,6 @@ export default function TableOfContents({
     const [debug, setDebug] = useState<string>("");
 
     useEffect(() => {
-        // Buscar el contenedor del contenido del artículo específicamente
         const articleContainer = document.querySelector("article");
         const proseContainer = document.querySelector(".prose");
         const contentContainer = proseContainer || articleContainer;
