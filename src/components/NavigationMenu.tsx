@@ -124,7 +124,15 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
             <div className="container mx-auto px-4 flex h-fit items-center justify-between">
                 <Logo lang={lang} />
 
-                <MenuButton isOpen={isMobileMenuOpen} onClick={toggleMobileMenu} />
+                <div className="flex items-center gap-4">
+                    <Link href={`/${lang}/demo`} className="sm:hidden">
+                        <Button className="w-full" size="sm">
+                            {t.bookDemo}
+                        </Button>
+                    </Link>
+
+                    <MenuButton isOpen={isMobileMenuOpen} onClick={toggleMobileMenu} />
+                </div>
 
                 <div className="hidden md:block flex-1">
                     <NavigationMenu className="mx-auto flex justify-center">
