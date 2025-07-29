@@ -6,19 +6,26 @@ import { ChevronLeft } from 'lucide-react';
 import TableOfContents from '@/components/TableOfContents';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
-  const langs = ['es', 'en'];
-  return posts.flatMap(post =>
-    langs.map(lang => ({
-      params: { lang, slug: post.slug },
-      props: { lang, slug: post.slug }
-    }))
-  );
+  const postsEs = await getCollection('blogEs');
+  const postsEn = await getCollection('blogEn');
+  
+  const pathsEs = postsEs.map(post => ({
+    params: { lang: 'es', slug: post.slug },
+    props: { lang: 'es', slug: post.slug }
+  }));
+  
+  const pathsEn = postsEn.map(post => ({
+    params: { lang: 'en', slug: post.slug },
+    props: { lang: 'en', slug: post.slug }
+  }));
+  
+  return [...pathsEs, ...pathsEn];
 }
 
 const { lang, slug } = Astro.props;
 const t = translations[lang as keyof typeof translations];
-const post = await getEntry('blog', slug);
+const collectionName = lang === 'en' ? 'blogEn' : 'blogEs';
+const post = await getEntry(collectionName, slug);
 if (!post) throw new Error('Post not found');
 const { Content } = await post.render();
 ---

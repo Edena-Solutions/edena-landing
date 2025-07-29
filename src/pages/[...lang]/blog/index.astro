@@ -13,12 +13,13 @@ export async function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
-const posts = await getCollection('blog');
+const collectionName = lang === 'en' ? 'blogEn' : 'blogEs';
+const posts = await getCollection(collectionName);
 const sortedPosts = posts.sort((a, b) => b.data.date.localeCompare(a.data.date));
 ---
 
 <Layout content={{ title: `${t.navigation.blog} | Edena`, description: 'Artículos y novedades sobre gestión escolar, tecnología educativa y normativa.' }} lang={lang}>
-  <section class="px-4">
+  <section class="px-4"> 
     <h1 class="text-center max-w-2xl mx-auto pt-10 pb-8 text-3xl font-bold">{t.navigation.blog}</h1>
     <BlogPostList client:load posts={sortedPosts} lang={lang} />
   </section>

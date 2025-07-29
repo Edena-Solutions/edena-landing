@@ -30,7 +30,19 @@ const faqCollection = defineCollection({
     }),
 });
 
-const blogCollection = defineCollection({
+const blogEsCollection = defineCollection({
+    type: "content",
+    schema: z.object({
+        title: z.string(),
+        date: z.string(),
+        description: z.string(),
+        tags: z.array(z.string()).optional(),
+        author: z.string().optional(),
+        cover: z.string().optional(),
+    }),
+});
+
+const blogEnCollection = defineCollection({
     type: "content",
     schema: z.object({
         title: z.string(),
@@ -45,5 +57,6 @@ const blogCollection = defineCollection({
 export const collections = {
     pricing: pricingCollection,
     faqs: faqCollection,
-    blog: blogCollection,
+    blogEs: blogEsCollection,
+    blogEn: blogEnCollection,
 };
