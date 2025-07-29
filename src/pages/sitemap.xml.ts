@@ -1,6 +1,12 @@
+import { getCollection } from "astro:content";
+
 export async function GET() {
     const base = "https://edena.es";
-    const paths = [
+
+    const blogEsPosts = await getCollection("blogEs");
+    const blogEnPosts = await getCollection("blogEn");
+
+    const staticPaths = [
         "/",
         "/es/",
         "/es/app/",
@@ -30,17 +36,29 @@ export async function GET() {
         "/en/blog/",
     ];
 
+    const blogEsUrls = blogEsPosts.map((post) => `/es/blog/${post.slug}/`);
+
+    const blogEnUrls = blogEnPosts.map((post) => `/en/blog/${post.slug}/`);
+
+    const allPaths = [...staticPaths, ...blogEsUrls, ...blogEnUrls];
+
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${paths
-    .map(
-        (path) =>
-            `  <url><loc>${base}${path}</loc><changefreq>${
-                path === "/" || path === "/es/" || path === "/en/" ? "weekly" : "monthly"
-            }</changefreq><priority>${
-                path === "/" || path === "/es/" || path === "/en/" ? "1.0" : "0.7"
-            }</priority></url>`
-    )
+${allPaths
+    .map((path) => {
+        let priority = "0.7";
+        let changefreq = "monthly";
+
+        if (path === "/" || path === "/es/" || path === "/en/") {
+            priority = "1.0";
+            changefreq = "weekly";
+        } else if (path.includes("/blog/")) {
+            priority = "0.8";
+            changefreq = "monthly";
+        }
+
+        return `  <url><loc>${base}${path}</loc><changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`;
+    })
     .join("\n")}
 </urlset>`;
 
