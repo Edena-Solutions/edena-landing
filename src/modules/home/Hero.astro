@@ -9,6 +9,7 @@ import BookDemoButton from "@/components/BookDemoButton.astro";
 import gradient from "@/assets/img/gradient_1.png"
 import Link from "@/components/ui/link";
 import GSAPSection from "@/components/ui/gsap-section";
+import heroImage from "@/assets/img/screenshots/invoice/invoice_detail.png"
 import verifactuImage from "@/assets/img/logos/verifactu.png"
 
 interface Props {
@@ -21,19 +22,22 @@ const {
 ---
 
 <GSAPSection client:load className="grid gap-3" animationType="opacity">
-  <Card className="flex flex-col items-center justify-start text-center overflow-hidden bg-gray-50 gap-6">
+  <Card className="flex flex-col items-center justify-start text-center h-140 sm:h-160 overflow-hidden bg-gray-50 gap-6">
     <CardHeader className="pb-4">
-      <h1 class="text-3xl font-bold max-w-xl">{t.hero.mainTitle}</h1>
+      <h1 class="text-3xl font-bold max-w-3xl">{t.hero.mainTitle}</h1>
     </CardHeader>
-    <CardContent className="flex flex-col gap-10 items-center">
+    <CardContent>
       <p class="text-muted-foreground max-w-150">
         {t.hero.mainDescription}
       </p>
-      <div class="flex flex-col items-center gap-1">
-        <Image src={verifactuImage} alt="Verifactu" loading="eager" class="w-30" />
+    </CardContent>
+    <CardFooter className="relative">
+      <Image src={heroImage} alt="Hero" loading="eager" class="sm:w-3/4 mx-auto" />
+      <div class="flex flex-col items-center justify-center gap-1 absolute right-2 sm:right-50 -top-10 bg-white rounded-full p-2 w-30 h-30">
+        <Image src={verifactuImage} alt="Verifactu" loading="eager" class="w-20" />
         <p class="text-muted-foreground max-w-40 text-xs">{t.hero.verifactuCertified}</p>
       </div>
-    </CardContent>
+    </CardFooter>
   </Card>
   
   <div class="grid sm:grid-cols-2 gap-3 px-4">

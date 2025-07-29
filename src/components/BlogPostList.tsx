@@ -68,7 +68,7 @@ export const BlogPostList: React.FC<BlogPostListProps> = ({ posts, lang }) => {
 
     return (
         <>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-w-7xl mx-auto">
                 {posts.slice(0, visibleCount).map((post, idx) => (
                     <Card
                         key={post.slug}
