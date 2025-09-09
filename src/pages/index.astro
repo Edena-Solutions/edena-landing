@@ -1,10 +1,6 @@
 ---
-import { defaultLanguage } from '@/i18n/utils';
 import Layout from "@/layouts/main.astro";
 ---
 
 <Layout content={{ title: "Edena" }} lang="es">
-  <script define:vars={{ defaultLanguage }}>
-    window.location.href = `/${defaultLanguage}/`;
-  </script>
 </Layout>
