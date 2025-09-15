@@ -1,0 +1,53 @@
+User-agent: *
+Allow: /
+
+# Block development and testing paths
+Disallow: /_astro/
+Disallow: /api/
+Disallow: /.well-known/
+
+# Allow crawling of important content
+Allow: /es/
+Allow: /en/
+
+# Blog content (high priority for SEO)
+Allow: /es/blog/
+Allow: /en/blog/
+
+# Main product pages
+Allow: /es/app/
+Allow: /en/app/
+Allow: /es/dashboard/
+Allow: /en/dashboard/
+Allow: /es/finance/
+Allow: /en/finance/
+
+# User-focused pages
+Allow: /es/guardians/
+Allow: /en/guardians/
+Allow: /es/students/
+Allow: /en/students/
+
+# Commercial pages
+Allow: /es/pricing/
+Allow: /en/pricing/
+Allow: /es/demo/
+Allow: /en/demo/
+
+# Support pages
+Allow: /es/faqs/
+Allow: /en/faqs/
+
+# Legal pages (important for trust)
+Allow: /es/privacy/
+Allow: /en/privacy/
+Allow: /es/terms/
+Allow: /en/terms/
+Allow: /es/cookies/
+Allow: /en/cookies/
+
+# Sitemap location
+Sitemap: https://edena.es/sitemap.xml
+
+# Crawl delay to be respectful (optional)
+Crawl-delay: 1
