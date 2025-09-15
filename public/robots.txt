@@ -6,6 +6,45 @@ Disallow: /_astro/
 Disallow: /api/
 Disallow: /.well-known/
 
+# Block admin and authentication areas
+Disallow: /admin/
+Disallow: /login/
+Disallow: /auth/
+Disallow: /dashboard/login/
+
+# Block search and form submission pages
+Disallow: /search
+Disallow: /search/
+Disallow: /*search*
+Disallow: /form/
+Disallow: /submit/
+
+# Block duplicate content and parameters
+Disallow: /*?*
+Disallow: /*&*
+Disallow: /?*
+Disallow: /*/print
+Disallow: /print/
+
+# Block development files
+Disallow: /*.json
+Disallow: /*.xml$
+Disallow: /*.txt$
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /.git/
+
+# Block temporary and cache files
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /.cache/
+
+# Block error pages
+Disallow: /404
+Disallow: /500
+Disallow: /error
+
 # Allow crawling of important content
 Allow: /es/
 Allow: /en/
