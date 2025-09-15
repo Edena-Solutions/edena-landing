@@ -48,6 +48,3 @@ Allow: /en/cookies/
 
 # Sitemap location
 Sitemap: https://edena.es/sitemap.xml
-
-# Crawl delay to be respectful (optional)
-Crawl-delay: 1
