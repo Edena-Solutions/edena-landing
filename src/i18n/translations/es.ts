@@ -134,6 +134,179 @@ export default {
             title: "Integración de calendario",
             tagline: "Sincroniza eventos y actividades con calendarios externos.",
         },
+        guardianFeatures: {
+            title: "Para familias y tutores",
+            tagline:
+                "Funcionalidades diseñadas para familias y tutores para gestionar la información de sus hijos.",
+            realTimeNotifications: {
+                title: "Notificaciones en tiempo real",
+                tagline:
+                    "Recibe alertas instantáneas sobre asistencia, calificaciones y eventos escolares.",
+            },
+            academicProgress: {
+                title: "Seguimiento académico",
+                tagline: "Monitorea el progreso académico de tus hijos con informes detallados.",
+            },
+            secureMessaging: {
+                title: "Mensajería segura",
+                tagline:
+                    "Comunícate directamente con profesores y personal del centro de forma privada.",
+            },
+            eventCalendar: {
+                title: "Calendario de eventos",
+                tagline: "Mantente al día con todos los eventos escolares y fechas importantes.",
+            },
+            digitalDocuments: {
+                title: "Documentos digitales",
+                tagline:
+                    "Accede a boletines, certificados y documentos importantes desde cualquier lugar.",
+            },
+            paymentPortal: {
+                title: "Portal de pagos",
+                tagline:
+                    "Gestiona pagos de matrículas, excursiones y servicios de forma segura online.",
+            },
+        },
+        studentFeatures: {
+            title: "Sistema integral de gestión estudiantil",
+            tagline:
+                "Herramientas avanzadas de gestión académica que optimizan el rendimiento estudiantil y simplifican los procesos administrativos del centro educativo.",
+            digitalRecords: {
+                title: "Expedientes académicos digitales",
+                tagline:
+                    "Centraliza historiales académicos, calificaciones y certificaciones en un sistema seguro y accesible 24/7.",
+            },
+            attendanceTracking: {
+                title: "Control de asistencia inteligente",
+                tagline:
+                    "Automatiza el registro de asistencia con reportes en tiempo real y alertas automáticas para familias.",
+            },
+            gradeManagement: {
+                title: "Gestión avanzada de calificaciones",
+                tagline:
+                    "Sistema completo de evaluación con seguimiento de progreso académico y generación automática de boletines.",
+            },
+            scheduleOptimization: {
+                title: "Optimización de horarios escolares",
+                tagline:
+                    "Gestiona horarios académicos, asignación de aulas y recursos educativos con máxima eficiencia operacional.",
+            },
+            behaviorTracking: {
+                title: "Seguimiento conductual personalizado",
+                tagline:
+                    "Registra incidencias, logros y desarrollo personal con herramientas de análisis comportamental avanzado.",
+            },
+            academicReports: {
+                title: "Informes académicos automatizados",
+                tagline:
+                    "Genera reportes detallados de rendimiento estudiantil y métricas educativas para toma de decisiones basada en datos.",
+            },
+        },
+        dashboardFeatures: {
+            title: "Panel de control educativo avanzado",
+            tagline:
+                "Dashboard inteligente con analytics en tiempo real para la gestión integral de centros educativos y toma de decisiones estratégicas.",
+            realTimeAnalytics: {
+                title: "Análisis de datos en tiempo real",
+                tagline:
+                    "Monitoriza KPIs educativos, métricas de rendimiento y estadísticas institucionales con dashboards interactivos avanzados.",
+            },
+            performanceInsights: {
+                title: "Insights de rendimiento académico",
+                tagline:
+                    "Obtén análisis predictivos del rendimiento estudiantil y recomendaciones basadas en inteligencia artificial educativa.",
+            },
+            resourceOptimization: {
+                title: "Optimización de recursos educativos",
+                tagline:
+                    "Gestiona aulas, equipamiento y personal docente con algoritmos de optimización para maximizar la eficiencia operacional.",
+            },
+            communicationHub: {
+                title: "Centro de comunicación integrado",
+                tagline:
+                    "Centraliza notificaciones, mensajería y comunicaciones institucionales con herramientas de gestión multicanal.",
+            },
+            complianceTracking: {
+                title: "Seguimiento de cumplimiento normativo",
+                tagline:
+                    "Automatiza el control de normativas educativas, certificaciones y auditorías con alertas de cumplimiento regulatorio.",
+            },
+            customReports: {
+                title: "Informes personalizados avanzados",
+                tagline:
+                    "Crea reportes ejecutivos personalizados con visualización de datos y exportación automatizada para stakeholders.",
+            },
+        },
+        financeFeatures: {
+            title: "Gestión financiera educativa integral",
+            tagline:
+                "Sistema ERP financiero especializado en centros educativos con automatización de facturación, contabilidad y control presupuestario.",
+            automatedBilling: {
+                title: "Facturación automatizada inteligente",
+                tagline:
+                    "Genera automáticamente facturas de matrículas, servicios educativos y cuotas con integración de Verifactu y normativa fiscal.",
+            },
+            paymentProcessing: {
+                title: "Procesamiento de pagos multichannel",
+                tagline:
+                    "Acepta pagos online, transferencias bancarias y domiciliaciones SEPA con reconciliación automática y seguimiento de morosos.",
+            },
+            budgetManagement: {
+                title: "Gestión presupuestaria avanzada",
+                tagline:
+                    "Controla presupuestos departamentales, inversiones educativas y gastos operacionales con proyecciones financieras automatizadas.",
+            },
+            scholarshipManagement: {
+                title: "Gestión de becas y ayudas",
+                tagline:
+                    "Administra programas de becas, descuentos familiares y ayudas educativas con criterios automatizados de elegibilidad.",
+            },
+            financialReporting: {
+                title: "Reportes financieros regulatorios",
+                tagline:
+                    "Genera estados financieros, declaraciones fiscales y reportes de auditoría con cumplimiento normativo automatizado.",
+            },
+            costAnalysis: {
+                title: "Análisis de costes por estudiante",
+                tagline:
+                    "Calcula costes reales por alumno, rentabilidad de servicios y ROI educativo con métricas financieras avanzadas.",
+            },
+        },
+        appFeatures: {
+            title: "App móvil educativa multiplataforma",
+            tagline:
+                "Aplicación nativa iOS y Android para familias, estudiantes y profesores con funcionalidades offline y notificaciones push inteligentes.",
+            mobileNotifications: {
+                title: "Notificaciones push personalizadas",
+                tagline:
+                    "Recibe alertas instantáneas de asistencia, calificaciones y eventos con notificaciones segmentadas por perfil de usuario.",
+            },
+            offlineAccess: {
+                title: "Acceso offline y sincronización",
+                tagline:
+                    "Consulta información académica sin conexión con sincronización automática y almacenamiento local encriptado.",
+            },
+            parentPortal: {
+                title: "Portal móvil para familias",
+                tagline:
+                    "Acceso completo a expedientes académicos, comunicación con profesores y gestión de autorizaciones desde dispositivos móviles.",
+            },
+            teacherTools: {
+                title: "Herramientas móviles para docentes",
+                tagline:
+                    "Pasa lista, registra incidencias y comunícate con familias directamente desde la app con funcionalidades específicas para profesores.",
+            },
+            studentEngagement: {
+                title: "Engagement estudiantil gamificado",
+                tagline:
+                    "Aumenta la participación estudiantil con elementos de gamificación, logros académicos y seguimiento de objetivos educativos.",
+            },
+            secureMessaging: {
+                title: "Mensajería segura cifrada",
+                tagline:
+                    "Comunicación privada entre familias, profesores y administración con cifrado end-to-end y gestión de permisos granular.",
+            },
+        },
         reportingTools: {
             title: "Herramientas de reportes",
             tagline: "Genera informes personalizados para tomar decisiones basadas en datos.",

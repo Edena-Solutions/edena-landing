@@ -5,9 +5,8 @@ import Hero from "@/modules/home/Hero.astro";
 import Carrousel from "@/modules/home/Carrousel";
 import Conclusion from "@/modules/home/Conclusion.astro";
 import MarketStats from "@/modules/home/MarketStats.astro";
-import KeyFeaturesTabs from "@/modules/home/KeyFeaturesTabs";
-import Features from "@/modules/home/Features.tsx";
-
+import KeyFeaturesTabs from "@/components/KeyFeaturesTabs";
+import Features from "@/components/Features";
 export function getStaticPaths() {
   return languages.map(lang => ({
     params: { lang },
@@ -16,13 +15,52 @@ export function getStaticPaths() {
 }
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+
+const features = [
+    {
+        icon: "FileText",
+        title: t.features.digitalRecords.title,
+        description: t.features.digitalRecords.tagline,
+        navigateTo: `/${lang}/students`,
+    },
+    {
+        icon: "Smartphone",
+        title: t.features.mobileApp.title,
+        description: t.features.mobileApp.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+    {
+        icon: "FolderOpen",
+        title: t.features.documentManagement.title,
+        description: t.features.documentManagement.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "Users",
+        title: t.features.familyPortal.title,
+        description: t.features.familyPortal.tagline,
+        navigateTo: `/${lang}/guardians`,
+    },
+    {
+        icon: "UserCheck",
+        title: t.features.staffManagement.title,
+        description: t.features.staffManagement.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "Calendar",
+        title: t.features.calendarIntegration.title,
+        description: t.features.calendarIntegration.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+];
 ---
 <Layout content={{ title: t.meta.homeTitle, description: t.meta.homeDescription }} lang={lang}>
     <section class="grid gap-16">
         <Hero t={t} />
         <MarketStats t={t} />
         <KeyFeaturesTabs client:load t={t} />
-        <Features client:load t={t} lang={lang} />
+        <Features client:load t={t} features={features} />
         <Carrousel client:load t={t} lang={lang} />
         <Conclusion lang={lang} />
     </section>

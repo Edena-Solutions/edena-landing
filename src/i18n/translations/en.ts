@@ -125,6 +125,176 @@ export default {
             title: "Calendar Integration",
             tagline: "Sync events and activities with external calendars.",
         },
+        guardianFeatures: {
+            title: "For Families and Guardians",
+            tagline:
+                "Features designed for families and guardians to manage their children's information and activities.",
+            realTimeNotifications: {
+                title: "Real-time Notifications",
+                tagline: "Receive instant alerts about attendance, grades, and school events.",
+            },
+            academicProgress: {
+                title: "Academic Progress Tracking",
+                tagline: "Monitor your children's academic progress with detailed reports.",
+            },
+            secureMessaging: {
+                title: "Secure Messaging",
+                tagline: "Communicate directly with teachers and school staff privately.",
+            },
+            eventCalendar: {
+                title: "Event Calendar",
+                tagline: "Stay updated with all school events and important dates.",
+            },
+            digitalDocuments: {
+                title: "Digital Documents",
+                tagline:
+                    "Access report cards, certificates, and important documents from anywhere.",
+            },
+            paymentPortal: {
+                title: "Payment Portal",
+                tagline: "Manage tuition, trip fees, and service payments securely online.",
+            },
+        },
+        studentFeatures: {
+            title: "Comprehensive Student Information System",
+            tagline:
+                "Advanced academic management tools that optimize student performance and streamline educational institution administrative processes.",
+            digitalRecords: {
+                title: "Digital Academic Records Management",
+                tagline:
+                    "Centralize academic histories, grades, and certifications in a secure, 24/7 accessible student information system.",
+            },
+            attendanceTracking: {
+                title: "Smart Attendance Tracking System",
+                tagline:
+                    "Automate attendance recording with real-time reports and automatic family notifications for improved student monitoring.",
+            },
+            gradeManagement: {
+                title: "Advanced Grade Management Platform",
+                tagline:
+                    "Complete assessment system with academic progress tracking and automated report card generation for enhanced educational outcomes.",
+            },
+            scheduleOptimization: {
+                title: "Academic Schedule Optimization",
+                tagline:
+                    "Manage academic timetables, classroom assignments, and educational resources with maximum operational efficiency.",
+            },
+            behaviorTracking: {
+                title: "Personalized Behavior Tracking",
+                tagline:
+                    "Record incidents, achievements, and personal development with advanced behavioral analytics tools for holistic student assessment.",
+            },
+            academicReports: {
+                title: "Automated Academic Reporting",
+                tagline:
+                    "Generate comprehensive student performance reports and educational metrics for data-driven decision making in schools.",
+            },
+        },
+        dashboardFeatures: {
+            title: "Advanced Educational Control Panel",
+            tagline:
+                "Intelligent dashboard with real-time analytics for comprehensive educational institution management and strategic decision-making.",
+            realTimeAnalytics: {
+                title: "Real-Time Data Analytics",
+                tagline:
+                    "Monitor educational KPIs, performance metrics, and institutional statistics with advanced interactive dashboards and business intelligence.",
+            },
+            performanceInsights: {
+                title: "Academic Performance Insights",
+                tagline:
+                    "Get predictive analytics of student performance and AI-based recommendations for educational excellence and outcome optimization.",
+            },
+            resourceOptimization: {
+                title: "Educational Resource Optimization",
+                tagline:
+                    "Manage classrooms, equipment, and teaching staff with optimization algorithms to maximize operational efficiency and ROI.",
+            },
+            communicationHub: {
+                title: "Integrated Communication Center",
+                tagline:
+                    "Centralize notifications, messaging, and institutional communications with multichannel management tools and automation.",
+            },
+            complianceTracking: {
+                title: "Regulatory Compliance Monitoring",
+                tagline:
+                    "Automate educational regulations control, certifications, and audits with regulatory compliance alerts and reporting.",
+            },
+            customReports: {
+                title: "Advanced Custom Reporting",
+                tagline:
+                    "Create personalized executive reports with data visualization and automated export for stakeholders and decision makers.",
+            },
+        },
+        financeFeatures: {
+            title: "Comprehensive Educational Financial Management",
+            tagline:
+                "Specialized ERP financial system for educational institutions with billing automation, accounting, and budget control integration.",
+            automatedBilling: {
+                title: "Intelligent Automated Billing",
+                tagline:
+                    "Automatically generate tuition invoices, educational services, and fees with fiscal compliance and regulatory integration.",
+            },
+            paymentProcessing: {
+                title: "Multichannel Payment Processing",
+                tagline:
+                    "Accept online payments, bank transfers, and SEPA direct debits with automatic reconciliation and delinquency tracking.",
+            },
+            budgetManagement: {
+                title: "Advanced Budget Management",
+                tagline:
+                    "Control departmental budgets, educational investments, and operational expenses with automated financial projections.",
+            },
+            scholarshipManagement: {
+                title: "Scholarship and Aid Management",
+                tagline:
+                    "Administer scholarship programs, family discounts, and educational aid with automated eligibility criteria and processing.",
+            },
+            financialReporting: {
+                title: "Regulatory Financial Reporting",
+                tagline:
+                    "Generate financial statements, tax declarations, and audit reports with automated regulatory compliance and documentation.",
+            },
+            costAnalysis: {
+                title: "Cost-per-Student Analysis",
+                tagline:
+                    "Calculate real costs per student, service profitability, and educational ROI with advanced financial metrics and analytics.",
+            },
+        },
+        appFeatures: {
+            title: "Cross-Platform Educational Mobile App",
+            tagline:
+                "Native iOS and Android application for families, students, and teachers with offline functionality and intelligent push notifications.",
+            mobileNotifications: {
+                title: "Personalized Push Notifications",
+                tagline:
+                    "Receive instant alerts for attendance, grades, and events with user profile-segmented notifications and smart delivery.",
+            },
+            offlineAccess: {
+                title: "Offline Access and Synchronization",
+                tagline:
+                    "Access academic information without connection with automatic synchronization and encrypted local storage capabilities.",
+            },
+            parentPortal: {
+                title: "Mobile Family Portal",
+                tagline:
+                    "Complete access to academic records, teacher communication, and authorization management from mobile devices.",
+            },
+            teacherTools: {
+                title: "Mobile Teacher Tools",
+                tagline:
+                    "Take attendance, register incidents, and communicate with families directly from the app with teacher-specific functionalities.",
+            },
+            studentEngagement: {
+                title: "Gamified Student Engagement",
+                tagline:
+                    "Increase student participation with gamification elements, academic achievements, and educational goal tracking systems.",
+            },
+            secureMessaging: {
+                title: "Encrypted Secure Messaging",
+                tagline:
+                    "Private communication between families, teachers, and administration with end-to-end encryption and granular permission management.",
+            },
+        },
         reportingTools: {
             title: "Reporting Tools",
             tagline: "Generate customized reports for data-driven decision making.",

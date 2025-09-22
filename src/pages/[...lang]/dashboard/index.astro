@@ -6,6 +6,7 @@ import Hero from "@/modules/dashboard/Hero.astro";
 import Section from "@/modules/dashboard/Section.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from '@/modules/dashboard/FAQs.astro';
+import Features from '@/components/Features';
 
 export function getStaticPaths() {
   return languages.map(lang => ({
@@ -16,11 +17,51 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+
+const features = [
+  {
+    icon: "BarChart3",
+    title: t.features.dashboardFeatures.realTimeAnalytics.title,
+    description: t.features.dashboardFeatures.realTimeAnalytics.tagline,
+    navigateTo: `/${lang}/dashboard`,
+  },
+  {
+    icon: "TrendingUp",
+    title: t.features.dashboardFeatures.performanceInsights.title,
+    description: t.features.dashboardFeatures.performanceInsights.tagline,
+    navigateTo: `/${lang}/students`,
+  },
+  {
+    icon: "Settings",
+    title: t.features.dashboardFeatures.resourceOptimization.title,
+    description: t.features.dashboardFeatures.resourceOptimization.tagline,
+    navigateTo: `/${lang}/dashboard`,
+  },
+  {
+    icon: "MessageCircle",
+    title: t.features.dashboardFeatures.communicationHub.title,
+    description: t.features.dashboardFeatures.communicationHub.tagline,
+    navigateTo: `/${lang}/app`,
+  },
+  {
+    icon: "Shield",
+    title: t.features.dashboardFeatures.complianceTracking.title,
+    description: t.features.dashboardFeatures.complianceTracking.tagline,
+    navigateTo: `/${lang}/dashboard`,
+  },
+  {
+    icon: "FileText",
+    title: t.features.dashboardFeatures.customReports.title,
+    description: t.features.dashboardFeatures.customReports.tagline,
+    navigateTo: `/${lang}/dashboard`,
+  },
+];
 ---
 
 <Layout content={{ title: t.meta.dashboardTitle, description: t.meta.dashboardDescription }} lang={lang}>
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
         <Hero t={t} />
+        <Features client:load t={t} features={features} title={t.features.dashboardFeatures.title} description={t.features.dashboardFeatures.tagline} />
         <Section t={t} />
         <FAQs t={t} />
     </GSAPSection>

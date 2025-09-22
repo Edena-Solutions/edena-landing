@@ -5,7 +5,7 @@ import Section from '@/modules/guardians/Section.astro';
 import Hero from '@/modules/guardians/Hero.astro';
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from '@/modules/guardians/FAQs.astro';
-
+import Features from '@/components/Features';
 export function getStaticPaths() {
   return languages.map(lang => ({
     params: { lang },
@@ -14,10 +14,50 @@ export function getStaticPaths() {
 }
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+
+const features = [
+  {
+    icon: "Bell",
+    title: t.features.guardianFeatures.realTimeNotifications.title,
+    description: t.features.guardianFeatures.realTimeNotifications.tagline,
+    navigateTo: `/${lang}/app`,
+  },
+  {
+    icon: "TrendingUp",
+    title: t.features.guardianFeatures.academicProgress.title,
+    description: t.features.guardianFeatures.academicProgress.tagline,
+    navigateTo: `/${lang}/students`,
+  },
+  {
+    icon: "MessageSquare",
+    title: t.features.guardianFeatures.secureMessaging.title,
+    description: t.features.guardianFeatures.secureMessaging.tagline,
+    navigateTo: `/${lang}/app`,
+  },
+  {
+    icon: "Calendar",
+    title: t.features.guardianFeatures.eventCalendar.title,
+    description: t.features.guardianFeatures.eventCalendar.tagline,
+    navigateTo: `/${lang}/dashboard`,
+  },
+  {
+    icon: "FileText",
+    title: t.features.guardianFeatures.digitalDocuments.title,
+    description: t.features.guardianFeatures.digitalDocuments.tagline,
+    navigateTo: `/${lang}/students`,
+  },
+  {
+    icon: "CreditCard",
+    title: t.features.guardianFeatures.paymentPortal.title,
+    description: t.features.guardianFeatures.paymentPortal.tagline,
+    navigateTo: `/${lang}/finance`,
+  },
+];
 ---
 <Layout content={{ title: t.meta.guardiansTitle, description: t.meta.guardiansDescription }} lang={lang}>
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
         <Hero t={t} />
+        <Features client:load t={t} features={features} title={t.features.guardianFeatures.title} description={t.features.guardianFeatures.tagline} />
         <Section t={t} />
         <FAQs t={t} />
     </GSAPSection>
