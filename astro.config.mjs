@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 
 export default defineConfig({
-    site: 'https://www.edena.es',
+    site: 'https://edena.es',
     i18n: {
         defaultLocale: 'es',
         locales: ['es', 'en'],
@@ -14,9 +14,6 @@ export default defineConfig({
         fallback: {
             en: 'es'
         }
-    },
-    redirects: {
-        '/': '/es'
     },
     vite: {
         plugins: [tailwindcss()]
