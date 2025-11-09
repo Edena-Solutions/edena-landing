@@ -19,6 +19,7 @@ export default function GSAPSection({
     useEffect(() => {
         const el = ref.current;
         if (!el) return;
+        
         const observer = new window.IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting && !hasAnimated) {
@@ -45,9 +46,11 @@ export default function GSAPSection({
                     observer.disconnect();
                 }
             },
-            { threshold: 0.15 }
+            { threshold: 0.1, rootMargin: "0px" }
         );
+        
         observer.observe(el);
+        
         return () => observer.disconnect();
     }, [hasAnimated, animationType]);
 
