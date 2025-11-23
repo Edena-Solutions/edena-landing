@@ -31,6 +31,26 @@ const {
     <title>{content.title}</title>
     <!-- Canonical -->
     <link rel="canonical" href={`https://edena.es${Astro.url.pathname}`} />
+    <!-- Alternate languages (hreflang) -->
+    {Astro.url.pathname === '/' ? (
+      <>
+        <link rel="alternate" hreflang="es" href="https://edena.es/" />
+        <link rel="alternate" hreflang="en" href="https://edena.es/en/" />
+        <link rel="alternate" hreflang="x-default" href="https://edena.es/" />
+      </>
+    ) : Astro.url.pathname.startsWith('/es/') ? (
+      <>
+        <link rel="alternate" hreflang="es" href={`https://edena.es${Astro.url.pathname}`} />
+        <link rel="alternate" hreflang="en" href={`https://edena.es${Astro.url.pathname.replace('/es/', '/en/')}`} />
+        <link rel="alternate" hreflang="x-default" href={`https://edena.es${Astro.url.pathname}`} />
+      </>
+    ) : Astro.url.pathname.startsWith('/en/') ? (
+      <>
+        <link rel="alternate" hreflang="es" href={`https://edena.es${Astro.url.pathname.replace('/en/', '/es/')}`} />
+        <link rel="alternate" hreflang="en" href={`https://edena.es${Astro.url.pathname}`} />
+        <link rel="alternate" hreflang="x-default" href={`https://edena.es${Astro.url.pathname.replace('/en/', '/es/')}`} />
+      </>
+    ) : null}
     <!-- Favicons -->
     <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
     <!-- Open Graph -->
