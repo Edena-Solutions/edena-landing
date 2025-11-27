@@ -8,7 +8,6 @@ Disallow: /.well-known/
 
 # Block development files
 Disallow: /*.json
-Disallow: /*.xml$
 Disallow: /*.txt$
 Disallow: /src/
 Disallow: /node_modules/
