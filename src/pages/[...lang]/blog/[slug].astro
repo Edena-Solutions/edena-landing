@@ -1,56 +1,77 @@
 ---
-import { getEntry, getCollection } from 'astro:content';
-import Layout from '@/layouts/main.astro';
-import { translations } from '@/i18n/index.ts';
-import { ChevronLeft } from 'lucide-react';
-import TableOfContents from '@/components/TableOfContents';
+import { getEntry, getCollection } from "astro:content";
+import Layout from "@/layouts/main.astro";
+import { translations } from "@/i18n/index.ts";
+import { ChevronLeft } from "lucide-react";
+import TableOfContents from "@/components/TableOfContents";
 
 export async function getStaticPaths() {
-  const postsEs = await getCollection('blogEs');
-  const postsEn = await getCollection('blogEn');
-  
-  const pathsEs = postsEs.map(post => ({
-    params: { lang: 'es', slug: post.slug },
-    props: { lang: 'es', slug: post.slug }
-  }));
-  
-  const pathsEn = postsEn.map(post => ({
-    params: { lang: 'en', slug: post.slug },
-    props: { lang: 'en', slug: post.slug }
-  }));
-  
-  return [...pathsEs, ...pathsEn];
+    const postsEs = await getCollection("blogEs");
+    const postsEn = await getCollection("blogEn");
+
+    const pathsEs = postsEs.map((post) => ({
+        params: { lang: "es", slug: post.slug },
+        props: { lang: "es", slug: post.slug },
+    }));
+
+    const pathsEn = postsEn.map((post) => ({
+        params: { lang: "en", slug: post.slug },
+        props: { lang: "en", slug: post.slug },
+    }));
+
+    return [...pathsEs, ...pathsEn];
 }
 
 const { lang, slug } = Astro.props;
 const t = translations[lang as keyof typeof translations];
-const collectionName = lang === 'en' ? 'blogEn' : 'blogEs';
+const collectionName = lang === "en" ? "blogEn" : "blogEs";
 const post = await getEntry(collectionName, slug);
-if (!post) throw new Error('Post not found');
+if (!post) throw new Error("Post not found");
 const { Content } = await post.render();
 ---
 
 <Layout content={{ title: post.data.title, description: post.data.description }} lang={lang}>
-  <div class="max-w-7xl mx-auto py-6 px-4">
-    <a href={`/${lang}/blog/`} class="text-sm text-primary hover:underline flex items-center gap-2"><ChevronLeft className="w-4 h-4" /> {t.navigation.blog}</a>
-    
-    <div class="lg:hidden mb-6">
-      <TableOfContents client:load variant="mobile" />
-    </div>
-    
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 sm:mt-6">
-      <div class="hidden lg:block lg:col-span-1">
-        <TableOfContents client:load variant="sidebar" />
-      </div>
-      
-      <article class="lg:col-span-3">
-        <h1 class="text-3xl font-bold mb-2">{post.data.title}</h1>
-        <p class="text-muted-foreground text-sm mb-6">{new Date(post.data.date).toLocaleDateString(lang, { year: 'numeric', month: 'long', day: 'numeric' })}</p>
-        {post.data.cover && <img src={post.data.cover} alt={post.data.title} class="mb-6 rounded w-full max-h-80 object-cover" />}
-        <div class="prose prose-neutral max-w-none">
-          <Content />
+    <div class="max-w-7xl mx-auto py-6 px-4">
+        <a
+            href={`/${lang}/blog/`}
+            class="text-sm text-primary hover:underline flex items-center gap-2"
+            ><ChevronLeft className="w-4 h-4" /> {t.navigation.blog}</a
+        >
+
+        <div class="lg:hidden mb-6">
+            <TableOfContents client:load variant="mobile" />
         </div>
-      </article>
+
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 sm:mt-6">
+            <div class="hidden lg:block lg:col-span-1">
+                <TableOfContents client:load variant="sidebar" />
+            </div>
+
+            <article class="lg:col-span-3">
+                <h1 class="text-2xl font-bold mb-2">{post.data.title}</h1>
+                <p class="text-muted-foreground text-sm mb-6">
+                    {
+                        new Date(post.data.date).toLocaleDateString(lang, {
+                            year: "numeric",
+                            month: "long",
+                            day: "numeric",
+                        })
+                    }
+                </p>
+                {
+                    post.data.cover && (
+                        <img
+                            src={post.data.cover}
+                            alt={post.data.title}
+                            class="mb-6 rounded w-full max-h-80 object-cover"
+                        />
+                    )
+                }
+                <div class="prose prose-neutral max-w-none">
+                    <Content />
+                </div>
+            </article>
+        </div>
     </div>
-  </div>
-</Layout> 
+</Layout>
+

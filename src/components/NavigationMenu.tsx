@@ -75,7 +75,7 @@ const ListItem = ({
                     )}
                     href={href}
                 >
-                    <div className="text-sm font-medium leading-none">{title}</div>
+                    <div className="text-[10px] font-semibold uppercase tracking-widest">{title}</div>
                     <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
                         {children}
                     </p>
@@ -222,9 +222,9 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                         }`}
                     >
                         <div className="container px-4 py-4 space-y-4">
-                            <div className="space-y-2">
-                                <div className="font-medium">{t.navigation.users}</div>
-                                <ul className="space-y-2">
+                            <div className="space-y-1">
+                                <div className="text-[10px] font-semibold uppercase tracking-widest">{t.navigation.users}</div>
+                                <ul className="space-y-1">
                                     {users.map((item) => (
                                         <li key={item.title}>
                                             <a
@@ -238,9 +238,9 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                 </ul>
                             </div>
 
-                            <div className="space-y-2">
-                                <div className="font-medium">{t.navigation.administration}</div>
-                                <ul className="space-y-2">
+                            <div className="space-y-1">
+                                <div className="text-[10px] font-semibold uppercase tracking-widest">{t.navigation.administration}</div>
+                                <ul className="space-y-1">
                                     {administration.map((item) => (
                                         <li key={item.title}>
                                             <a
@@ -253,7 +253,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="space-y-2">
+                            <div className="space-y-1">
                                 <a
                                     href={`/${lang}/app`}
                                     className="block py-2 text-sm hover:text-primary"
@@ -261,7 +261,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     {t.navigation.app}
                                 </a>
                             </div>
-                            <div className="space-y-2">
+                            <div className="space-y-1">
                                 <a
                                     href={`/${lang}/pricing`}
                                     className="block py-2 text-sm hover:text-primary"
@@ -269,7 +269,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     {t.navigation.pricing}
                                 </a>
                             </div>
-                            <div className="space-y-2">
+                            <div className="space-y-1">
                                 <a
                                     href={`/${lang}/faqs`}
                                     className="block py-2 text-sm hover:text-primary"
@@ -277,18 +277,13 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     {t.navigation.faqs}
                                 </a>
                             </div>
-                            <div className="space-y-2">
+                            <div className="space-y-1">
                                 <a
                                     href={`/${lang}/blog`}
                                     className="block py-2 text-sm hover:text-primary"
                                 >
                                     {t.navigation.blog}
                                 </a>
-                            </div>
-                            <div>
-                                <Link href={`/${lang}/demo`}>
-                                    <Button className="w-full">{t.bookDemo}</Button>
-                                </Link>
                             </div>
                         </div>
                     </div>

@@ -122,7 +122,7 @@ export default function KeyFeaturesTabs({ t }: Props) {
     return (
         <GSAPSection className="flex flex-col items-center w-full gap-16">
             <div className="flex flex-col gap-3 text-center px-4 max-w-xl">
-                <h2 className="text-3xl font-bold">Las 5 claves de nuestra plataforma</h2>
+                <h2 className="text-2xl font-bold">Las 5 claves de nuestra plataforma</h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
                     Descubre las funcionalidades más potentes que te ayudarán a gestionar y escalar
                     tu organización educativa.
@@ -211,8 +211,8 @@ export default function KeyFeaturesTabs({ t }: Props) {
                             loading="lazy"
                         />
                         <div className="w-full sm:w-1/3">
-                            <CardHeader className="p-8 pb-2 sm:pb-8">
-                                <CardTitle className="text-2xl font-semibold">
+                            <CardHeader className="p-8 pb-2">
+                                <CardTitle className="uppercase tracking-widest text-[12px] font-semibold">
                                     {features[displayed].title}
                                 </CardTitle>
                             </CardHeader>

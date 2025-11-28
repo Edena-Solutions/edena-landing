@@ -1,25 +1,25 @@
 ---
-import { translations, languages } from '@/i18n/index.ts';
+import { translations, languages } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
 
 export function getStaticPaths() {
-  return languages.map(lang => ({
-    params: { lang },
-    props: { lang }
-  }));
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
 }
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 ---
+
 <Layout content={{ title: t.meta.termsTitle, description: t.meta.termsDescription }} lang={lang}>
-  <section class="max-w-3xl mx-auto py-10 px-4">
-    <h1 class="text-3xl font-bold mb-8">{t.termsOfService.title}</h1>
-    <div class="space-y-6 text-base leading-relaxed">
-      {t.termsOfService.content.split('<br>').map((p: string) => (
-        <p>{p}</p>
-      ))}
-    </div>
-  </section>
-</Layout> 
+    <section class="max-w-3xl mx-auto py-10 px-4">
+        <h1 class="text-2xl font-bold mb-8">{t.termsOfService.title}</h1>
+        <div class="space-y-6 text-base leading-relaxed">
+            {t.termsOfService.content.split("<br>").map((p: string) => <p>{p}</p>)}
+        </div>
+    </section>
+</Layout>
+
