@@ -102,12 +102,12 @@ export const BlogPostList: React.FC<BlogPostListProps> = ({ posts, lang }) => {
                                 </div>
                             )}
                             <CardHeader className="px-0 py-2 group-hover:text-primary/70 transition-colors">
-                                <CardTitle className="text-lg font-semibold line-clamp-2">
+                                <CardTitle className="text-sm font-semibold line-clamp-2">
                                     {post.data.title}
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="p-0 flex flex-col gap-2">
-                                <p className="text-sm line-clamp-2">{post.data.description}</p>
+                                <p className="text-[12px] line-clamp-2">{post.data.description}</p>
                             </CardContent>
                             <CardFooter className="p-0 pt-4">
                                 <p className="text-muted-foreground text-sm">
