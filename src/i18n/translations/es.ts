@@ -84,21 +84,24 @@ export default {
         allRightsReserved: "Todos los derechos reservados.",
     },
     navigation: {
-        users: "Familias",
+        products: "Productos",
+        functionalities: "Funcionalidades",
+        forCenter: "Para el centro",
+        forFamilies: "Para familias",
         students: "Estudiantes",
         studentsDescription:
             "Gestiona registros, asistencia y seguimiento académico de estudiantes de forma eficiente.",
         guardians: "Familias y tutores",
         guardiansDescription: "Gestiona la información de los padres de los estudiantes.",
-        administration: "Administración",
         dashboard: "Panel",
         dashboardDescription:
             "Visualiza el rendimiento de tu centro educativo con métricas en tiempo real.",
         finance: "Finanzas",
         financeDescription: "Automatiza la gestión de finanzas escolares, cuotas y presupuestos.",
+        app: "Edena Kids",
+        appDescription: "App móvil para familias, estudiantes y profesores.",
         pricing: "Precios",
         faqs: "FAQs",
-        app: "Edena Kids",
         blog: "Blog",
     },
     conclusion: {

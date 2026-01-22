@@ -6,7 +6,6 @@ import { Image } from "astro:assets";
 import BookDemoButton from "@/components/BookDemoButton.astro";
 import invoiceDetail from "@/assets/img/screenshots/invoice/invoice_detail.png";
 import emailInvoice from "@/assets/img/screenshots/invoice/invoice_email.png";
-import gradient from "@/assets/img/gradient_1.png";
 import Link from "@/components/ui/link";
 import GSAPSection from "@/components/ui/gsap-section";
 interface Props {
@@ -38,12 +37,7 @@ const { t } = Astro.props;
         </Card>
         <div class="flex flex-col-reverse md:flex-col gap-3 sm:h-140">
             <Card
-                className="flex min-h-fit rounded"
-                style={{
-                    backgroundImage: `url('${gradient.src}')`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "top left",
-                }}
+                className="flex min-h-fit rounded bg-gradient-primary"
             >
                 <CardContent
                     className="flex items-center flex-col sm:flex-row gap-3 p-8 justify-between w-full"

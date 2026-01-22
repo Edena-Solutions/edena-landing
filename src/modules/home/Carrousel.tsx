@@ -13,7 +13,6 @@ import {
     Wallet,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import gradient from "@/assets/img/gradient_2.png";
 import type { Translation } from "@/i18n";
 import GSAPSection from "@/components/ui/gsap-section";
 
@@ -212,12 +211,7 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
                                         <h3 className="font-bold mb-2">{feature.tagline}</h3>
                                     </div>
                                     <div
-                                        className="absolute w-30 h-30 text-white rounded top-50 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center"
-                                        style={{
-                                            backgroundImage: `url('${gradient.src}')`,
-                                            backgroundSize: "cover",
-                                            backgroundPosition: "right",
-                                        }}
+                                        className="absolute w-30 h-30 text-white rounded top-50 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center bg-gradient-primary"
                                     >
                                         {feature.icon}
                                     </div>

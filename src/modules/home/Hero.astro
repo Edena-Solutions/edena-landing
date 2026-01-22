@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Image } from "astro:assets";
 import BookDemoButton from "@/components/BookDemoButton.astro";
 
-import gradient from "@/assets/img/gradient_1.png";
 import Link from "@/components/ui/link";
 import GSAPSection from "@/components/ui/gsap-section";
 import heroImage from "@/assets/img/screenshots/invoice/invoice_detail.png";
@@ -46,12 +45,7 @@ const { t } = Astro.props;
 
     <div class="grid sm:grid-cols-2 gap-3 px-4">
         <Card
-            className="flex rounded flex-col items-center justify-center bg-cover bg-center text-center text-white"
-            style={{
-                backgroundImage: `url('${gradient.src}')`,
-                backgroundSize: "cover",
-                backgroundPosition: "left",
-            }}
+            className="flex rounded flex-col items-center justify-center text-center bg-gradient-primary"
         >
             <CardHeader className="pb-4">
                 <h2 class="text-2xl font-bold max-w-100">{t.hero.mobileTitle}</h2>

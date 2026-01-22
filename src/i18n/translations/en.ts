@@ -75,21 +75,24 @@ export default {
         allRightsReserved: "All rights reserved.",
     },
     navigation: {
-        users: "Families",
+        products: "Products",
+        functionalities: "Functionalities",
+        forCenter: "For centers",
+        forFamilies: "For families",
         students: "Students",
         studentsDescription:
             "Manage student records, attendance tracking, and academic performance monitoring efficiently.",
         guardians: "Families and guardians",
         guardiansDescription: "Manage guardian information efficiently.",
-        administration: "Administration",
         dashboard: "Dashboard",
         dashboardDescription:
             "Visualize your educational institution's performance with real-time metrics.",
         finance: "Finance",
         financeDescription: "Automate school financial management, fees, and budgets.",
+        app: "Edena Kids",
+        appDescription: "Mobile app for families, students and teachers.",
         pricing: "Pricing",
         faqs: "FAQs",
-        app: "Edena Kids",
         blog: "Blog",
     },
     conclusion: {

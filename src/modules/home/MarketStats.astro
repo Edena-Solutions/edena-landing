@@ -1,6 +1,5 @@
 ---
 import { Card, CardHeader } from "@/components/ui/card";
-import gradient from "@/assets/img/gradient_1.png";
 import GSAPSection from "@/components/ui/gsap-section";
 import AnimatedCounter from "@/components/AnimatedCounter";
 const { t } = Astro.props;
@@ -13,15 +12,11 @@ const bgClass = (bg: string) => {
     if (bg === "light") return "bg-gray-50 text-neutral-900";
     return "bg-white";
 };
-const cardBgStyle = (bg: string) => {
+const cardBgClass = (bg: string) => {
     if (bg === "highlight") {
-        return {
-            backgroundImage: `url('${gradient.src}')`,
-            backgroundSize: "cover",
-            backgroundPosition: "left",
-        };
+        return "bg-gradient-primary";
     }
-    return {};
+    return "";
 };
 const cardProps = [
     { area: "main", extra: "p-8 flex flex-col sm:justify-end" },
@@ -53,9 +48,9 @@ const cardProps = [
                         bgClass(c.bg) +
                         ` rounded ${cardProps[i].extra} ` +
                         (i === 0 ? "col-span-2 " : "") +
-                        `lg:[grid-area:${cardProps[i].area}]`
+                        `lg:[grid-area:${cardProps[i].area}] ` +
+                        cardBgClass(c.bg)
                     }
-                    style={cardBgStyle(c.bg)}
                 >
                     <CardHeader className="p-0 pb-4">
                         <AnimatedCounter

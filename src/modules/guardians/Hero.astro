@@ -8,7 +8,6 @@ import BookDemoButton from "@/components/BookDemoButton.astro";
 
 import heroImage from "@/assets/img/screenshots/guardians/guardian_hero.png";
 import guardianManagement from "@/assets/img/screenshots/guardians/guardian_management.png";
-import gradient from "@/assets/img/gradient_1.png";
 import Link from "@/components/ui/link";
 interface Props {
     t: Translation;
@@ -36,12 +35,7 @@ const { t } = Astro.props;
 
     <div class="grid sm:grid-cols-2 gap-3 px-4">
         <Card
-            className="flex rounded flex-col items-center justify-center bg-cover bg-center text-center text-white"
-            style={{
-                backgroundImage: `url('${gradient.src}')`,
-                backgroundSize: "cover",
-                backgroundPosition: "left",
-            }}
+            className="flex rounded flex-col items-center justify-center text-center bg-gradient-primary"
         >
             <CardHeader className="pb-4">
                 <h2 class="text-2xl font-bold max-w-100">{t.guardians.onboardingTitle}</h2>

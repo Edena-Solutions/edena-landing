@@ -39,17 +39,15 @@ const MenuButton = ({ isOpen, onClick }: { isOpen: boolean; onClick: () => void 
         aria-label={isOpen ? "Close menu" : "Open menu"}
     >
         <span
-            className={`block w-6 h-0.5 bg-foreground transition-all ${
-                isOpen ? "rotate-45 translate-y-2" : ""
-            }`}
+            className={`block w-6 h-0.5 bg-foreground transition-all ${isOpen ? "rotate-45 translate-y-2" : ""
+                }`}
         ></span>
         <span
             className={`block w-6 h-0.5 bg-foreground transition-all ${isOpen ? "opacity-0" : ""}`}
         ></span>
         <span
-            className={`block w-6 h-0.5 bg-foreground transition-all ${
-                isOpen ? "-rotate-45 -translate-y-2" : ""
-            }`}
+            className={`block w-6 h-0.5 bg-foreground transition-all ${isOpen ? "-rotate-45 -translate-y-2" : ""
+                }`}
         ></span>
     </button>
 );
@@ -89,20 +87,12 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const t = translations[lang as keyof typeof translations];
 
-    const users: MenuItem[] = [
-        {
-            title: t.navigation.guardians,
-            href: `/${lang}/guardians`,
-            description: t.navigation.guardiansDescription,
-        },
+    const products: MenuItem[] = [
         {
             title: t.navigation.students,
             href: `/${lang}/students`,
             description: t.navigation.studentsDescription,
         },
-    ];
-
-    const administration: MenuItem[] = [
         {
             title: t.navigation.dashboard,
             href: `/${lang}/dashboard`,
@@ -112,6 +102,29 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
             title: t.navigation.finance,
             href: `/${lang}/finance`,
             description: t.navigation.financeDescription,
+        },
+        {
+            title: t.navigation.app,
+            href: `/${lang}/app`,
+            description: t.navigation.appDescription,
+        },
+        {
+            title: t.navigation.guardians,
+            href: `/${lang}/guardians`,
+            description: t.navigation.guardiansDescription,
+        },
+    ];
+
+    const functionalities: MenuItem[] = [
+        {
+            title: t.navigation.forCenter,
+            href: `/${lang}/`,
+            description: t.features.title,
+        },
+        {
+            title: t.navigation.forFamilies,
+            href: `/${lang}/app`,
+            description: t.features.appFeatures.tagline,
         },
     ];
 
@@ -138,10 +151,10 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     <NavigationMenu className="mx-auto flex justify-center">
                         <NavigationMenuList>
                             <NavigationMenuItem>
-                                <NavigationMenuTrigger>{t.navigation.users}</NavigationMenuTrigger>
+                                <NavigationMenuTrigger>{t.navigation.products}</NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                                        {users.map((item) => (
+                                        {products.map((item) => (
                                             <ListItem
                                                 key={item.title}
                                                 title={item.title}
@@ -155,11 +168,11 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuTrigger>
-                                    {t.navigation.administration}
+                                    {t.navigation.functionalities}
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                                        {administration.map((item) => (
+                                        {functionalities.map((item) => (
                                             <ListItem
                                                 key={item.title}
                                                 title={item.title}
@@ -170,16 +183,6 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                         ))}
                                     </ul>
                                 </NavigationMenuContent>
-                            </NavigationMenuItem>
-                            <NavigationMenuItem>
-                                <NavigationMenuLink asChild>
-                                    <a
-                                        href={`/${lang}/app`}
-                                        className={navigationMenuTriggerStyle()}
-                                    >
-                                        {t.navigation.app}
-                                    </a>
-                                </NavigationMenuLink>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
@@ -217,15 +220,14 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
 
                 {isMobileMenuOpen && (
                     <div
-                        className={`md:hidden fixed inset-x-0 top-15 z-50 bg-background border-b transition-transform duration-300 ease-in-out transform ${
-                            isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
-                        }`}
+                        className={`md:hidden fixed inset-x-0 top-15 z-50 bg-background border-b transition-transform duration-300 ease-in-out transform ${isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
+                            }`}
                     >
-                        <div className="container px-4 py-4 space-y-4">
+                        <div className="container px-4 py-4 space-y-4 max-h-[calc(100vh-3.75rem)] overflow-y-auto">
                             <div className="space-y-1">
-                                <div className="text-[10px] font-semibold uppercase tracking-widest">{t.navigation.users}</div>
+                                <div className="text-[10px] font-semibold uppercase tracking-widest">{t.navigation.products}</div>
                                 <ul className="space-y-1">
-                                    {users.map((item) => (
+                                    {products.map((item) => (
                                         <li key={item.title}>
                                             <a
                                                 href={item.href}
@@ -239,9 +241,9 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             </div>
 
                             <div className="space-y-1">
-                                <div className="text-[10px] font-semibold uppercase tracking-widest">{t.navigation.administration}</div>
+                                <div className="text-[10px] font-semibold uppercase tracking-widest">{t.navigation.functionalities}</div>
                                 <ul className="space-y-1">
-                                    {administration.map((item) => (
+                                    {functionalities.map((item) => (
                                         <li key={item.title}>
                                             <a
                                                 href={item.href}
@@ -252,14 +254,6 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                         </li>
                                     ))}
                                 </ul>
-                            </div>
-                            <div className="space-y-1">
-                                <a
-                                    href={`/${lang}/app`}
-                                    className="block py-2 text-sm hover:text-primary"
-                                >
-                                    {t.navigation.app}
-                                </a>
                             </div>
                             <div className="space-y-1">
                                 <a
