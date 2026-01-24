@@ -263,15 +263,14 @@
     top: 3.75rem;
 }
 
-/* Custom max-width utilities */
 .max-w-100 {
-    max-width: 25rem; /* 400px */
+    max-width: 25rem;
 }
 
 .max-w-140 {
-    max-width: 35rem; /* 560px */
+    max-width: 35rem;
 }
 
 .max-w-150 {
-    max-width: 37.5rem; /* 600px */
+    max-width: 37.5rem;
 }
