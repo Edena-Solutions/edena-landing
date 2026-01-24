@@ -1,65 +1,115 @@
 ---
-import { translations, languages } from '@/i18n/index.ts';
+import { translations, languages } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
-import Section from '@/modules/app/Section.astro';
-import Hero from '@/modules/app/Hero.astro';
+import Section from "@/components/Section.astro";
+import Hero from "@/components/Hero.astro";
 import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from '@/modules/app/FAQs.astro';
-import Features from '@/components/Features';
+import FAQs from "@/modules/app/FAQs.astro";
+import Features from "@/components/Features";
+import heroImage from "@/assets/img/screenshots/app/app_detail.png";
+import notifications from "@/assets/img/screenshots/app/app_feed.png";
+import feed from "@/assets/img/screenshots/app/app_hero.png";
 
 export function getStaticPaths() {
-  return languages.map(lang => ({
-    params: { lang },
-    props: { lang }
-  }));
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
 }
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 
 const features = [
-  {
-    icon: "Bell",
-    title: t.features.appFeatures.mobileNotifications.title,
-    description: t.features.appFeatures.mobileNotifications.tagline,
-    navigateTo: `/${lang}/app`,
-  },
-  {
-    icon: "Wifi",
-    title: t.features.appFeatures.offlineAccess.title,
-    description: t.features.appFeatures.offlineAccess.tagline,
-    navigateTo: `/${lang}/app`,
-  },
-  {
-    icon: "Users",
-    title: t.features.appFeatures.parentPortal.title,
-    description: t.features.appFeatures.parentPortal.tagline,
-    navigateTo: `/${lang}/guardians`,
-  },
-  {
-    icon: "BookOpen",
-    title: t.features.appFeatures.teacherTools.title,
-    description: t.features.appFeatures.teacherTools.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
-  {
-    icon: "Trophy",
-    title: t.features.appFeatures.studentEngagement.title,
-    description: t.features.appFeatures.studentEngagement.tagline,
-    navigateTo: `/${lang}/students`,
-  },
-  {
-    icon: "Lock",
-    title: t.features.appFeatures.secureMessaging.title,
-    description: t.features.appFeatures.secureMessaging.tagline,
-    navigateTo: `/${lang}/app`,
-  },
+    {
+        icon: "Bell",
+        title: t.features.appFeatures.mobileNotifications.title,
+        description: t.features.appFeatures.mobileNotifications.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+    {
+        icon: "Wifi",
+        title: t.features.appFeatures.offlineAccess.title,
+        description: t.features.appFeatures.offlineAccess.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+    {
+        icon: "Users",
+        title: t.features.appFeatures.parentPortal.title,
+        description: t.features.appFeatures.parentPortal.tagline,
+        navigateTo: `/${lang}/guardians`,
+    },
+    {
+        icon: "BookOpen",
+        title: t.features.appFeatures.teacherTools.title,
+        description: t.features.appFeatures.teacherTools.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "Trophy",
+        title: t.features.appFeatures.studentEngagement.title,
+        description: t.features.appFeatures.studentEngagement.tagline,
+        navigateTo: `/${lang}/students`,
+    },
+    {
+        icon: "Lock",
+        title: t.features.appFeatures.secureMessaging.title,
+        description: t.features.appFeatures.secureMessaging.tagline,
+        navigateTo: `/${lang}/app`,
+    },
 ];
 ---
+
 <Layout content={{ title: t.meta.appTitle, description: t.meta.appDescription }} lang={lang}>
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero t={t} />
-        <Features client:load t={t} features={features} title={t.features.appFeatures.title} description={t.features.appFeatures.tagline} />
-        <Section t={t} />
+        <Hero
+            t={t}
+            heroImage={heroImage}
+            mainTitle={t.app.mainTitle}
+            mainDescription={t.app.mainDescription}
+            heroImageClass="object-cover md:w-2/3 mx-auto"
+            heroImageAspectRatio="2/3"
+            showBookDemoInHero={true}
+            leftCard={{
+                title: t.app.parentsConnectedTitle,
+                description: t.app.parentsConnectedDescription,
+                showButton: true,
+            }}
+            rightCard={{
+                title: t.app.androidIosTitle,
+                description: t.app.androidIosDescription,
+                downloadAppButtons: {
+                    iosUrl: "https://apps.apple.com/app/edena",
+                    androidUrl: "https://play.google.com/store/apps/details?id=com.edena",
+                },
+                cardClass: "h-60 justify-center items-center gap-4",
+            }}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={t.features.appFeatures.title}
+            description={t.features.appFeatures.tagline}
+        />
+        <Section
+            t={t}
+            sectionTitle={t.app.uploadPicturesTitle}
+            sectionDescription={t.app.uploadPicturesDescription}
+            leftCard={{
+                title: t.app.communicateAndGetAlbumsTitle,
+                description: t.app.communicateAndGetAlbumsDescription,
+                image: feed,
+                imageClass: "object-cover md:w-2/3 mx-auto",
+                cardClass: "h-110",
+            }}
+            rightCard={{
+                title: t.app.uploadPicturesAndVideosTitle,
+                description: t.app.uploadPicturesAndVideosDescription,
+                image: notifications,
+                imageClass: "object-cover md:w-2/3 mx-auto",
+                cardClass: "h-110",
+            }}
+        />
         <FAQs t={t} />
     </GSAPSection>
 </Layout>

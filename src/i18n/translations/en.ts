@@ -45,7 +45,7 @@ export default {
     hero: {
         mainTitle: "Transform Your School Management",
         mainDescription:
-            "Join Edena to reduce administrative workload by 40%, increase parent engagement by 60%, and automate 90% of routine tasks. All-in-one platform for student management, billing, and communication.",
+            "All-in-one platform for student management, billing, and communication.",
         mobileTitle: "Your School, Always Connected",
         mobileDescription:
             "Keep parents engaged with instant updates, secure photo sharing, and real-time communication.",
@@ -695,7 +695,7 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
             "Monitor your school's performance in real-time. Everything in one place: billing, communication, and academic management.",
         quickActionsTitle: "Quick Actions",
         quickActionsDescription:
-            "Invoices, calendar, invitations, and more. All at your fingertips.",
+            "Access the most common tasks instantly. Generate invoices, manage calendar events, send invitations, and handle daily operations with just one click.",
         notificationsTitle: "Instant Notifications",
         notificationsDescription: "Real-time alerts to keep your school always informed.",
         calendarDescription:
@@ -732,12 +732,14 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
         mainDescription:
             "Access all features from any device. Total management in the palm of your hand.",
         androidIosTitle: "App for Android & iOS",
-        androidIosDescription: "Available on all platforms. Download now.",
+        androidIosDescription: "Available on all platforms. Download now and stay connected.",
         parentsConnectedTitle: "Connect with Families",
         parentsConnectedDescription: "Keep families informed with instant updates.",
         uploadPicturesTitle: "Share Moments",
         uploadPicturesDescription: "Send photos and videos to families securely.",
+        uploadPicturesAndVideosTitle: "Real-Time Updates",
         uploadPicturesAndVideosDescription: "Real-time updates to keep families connected.",
+        communicateAndGetAlbumsTitle: "Communication & Albums",
         communicateAndGetAlbumsDescription:
             "Direct communication and photo albums for each student. Send messages and photos to families securely and easily.",
     },

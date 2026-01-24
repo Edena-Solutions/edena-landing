@@ -153,7 +153,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             <NavigationMenuItem>
                                 <NavigationMenuTrigger>{t.navigation.products}</NavigationMenuTrigger>
                                 <NavigationMenuContent>
-                                    <ul className="grid w-[400px] gap-4 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                                    <ul className="grid w-[400px] gap-2 p-2 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                                         {products.map((item) => (
                                             <ListItem
                                                 key={item.title}
@@ -184,7 +184,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     </ul>
                                 </NavigationMenuContent>
                             </NavigationMenuItem>
-                            <NavigationMenuItem>
+                            {/* <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
                                     <a
                                         href={`/${lang}/pricing`}
@@ -193,7 +193,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                         {t.navigation.pricing}
                                     </a>
                                 </NavigationMenuLink>
-                            </NavigationMenuItem>
+                            </NavigationMenuItem> */}
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
                                     <a
@@ -256,14 +256,14 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                 </ul>
                             </div>
                             <div>
-                                <div>
+                                {/* <div>
                                     <a
                                         href={`/${lang}/pricing`}
                                         className="block py-2 text-xs hover:text-primary"
                                     >
                                         {t.navigation.pricing}
                                     </a>
-                                </div>
+                                </div> */}
                                 <div>
                                     <a
                                         href={`/${lang}/faqs`}

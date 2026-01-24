@@ -49,7 +49,7 @@ export default {
     hero: {
         mainTitle: "Transforma la gestión escolar de tu centro",
         mainDescription:
-            "Únete a Edena para reducir la carga administrativa un 40%, aumentar el compromiso de las familias un 60% y automatizar el 90% de las tareas rutinarias. Plataforma integral para gestión de estudiantes, facturación y comunicación.",
+            "Plataforma integral para gestión de estudiantes, facturación y comunicación.",
         mobileTitle: "Tu centro, siempre conectado",
         mobileDescription:
             "Mantén a las familias comprometidas con actualizaciones instantáneas, compartir de forma segura y comunicación en tiempo real.",
@@ -767,7 +767,8 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
         mainDescription:
             "Visualiza el rendimiento de tu centro en tiempo real. Todo en un solo lugar: facturación, comunicación y gestión académica.",
         quickActionsTitle: "Acciones rápidas",
-        quickActionsDescription: "Facturas, calendario, invitaciones y más. Todo a un clic.",
+        quickActionsDescription:
+            "Accede a las tareas más comunes de forma instantánea. Genera facturas, gestiona eventos del calendario, envía invitaciones y maneja operaciones diarias con un solo clic.",
         notificationsTitle: "Notificaciones instantáneas",
         notificationsDescription:
             "Alertas en tiempo real para mantener tu centro siempre informado.",
@@ -806,14 +807,16 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
         mainDescription:
             "Accede a todas las funciones desde cualquier dispositivo. Gestión total en la palma de tu mano.",
         androidIosTitle: "App para Android e iOS",
-        androidIosDescription: "Disponible en todas las plataformas. Descarga ahora.",
+        androidIosDescription: "Disponible en todas las plataformas. Descarga ahora y mantente conectado.",
         parentsConnectedTitle: "Conecta con familias",
         parentsConnectedDescription:
             "Mantén a las familias informadas con actualizaciones instantáneas.",
         uploadPicturesTitle: "Comparte momentos",
         uploadPicturesDescription: "Envía fotos y videos a las familias de forma segura.",
+        uploadPicturesAndVideosTitle: "Actualizaciones en tiempo real",
         uploadPicturesAndVideosDescription:
             "Actualizaciones en tiempo real para mantener a las familias conectadas.",
+        communicateAndGetAlbumsTitle: "Comunicación y álbumes",
         communicateAndGetAlbumsDescription:
             "Comunicación directa y álbumes de fotos para cada estudiante. Envía mensajes y fotos a las familias de forma segura y fácil.",
     },

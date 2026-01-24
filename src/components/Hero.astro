@@ -13,6 +13,10 @@ interface HeroCard {
     imageClass?: string;
     showButton?: boolean;
     cardClass?: string;
+    downloadAppButtons?: {
+        androidUrl?: string;
+        iosUrl?: string;
+    };
 }
 
 interface Props {
@@ -24,6 +28,7 @@ interface Props {
     leftCard: HeroCard;
     rightCard: HeroCard;
     heroImageClass?: string;
+    heroImageAspectRatio?: string;
 }
 
 const {
@@ -35,6 +40,7 @@ const {
     leftCard,
     rightCard,
     heroImageClass = "w-full mx-auto object-contain",
+    heroImageAspectRatio = "16/9",
 } = Astro.props;
 ---
 
@@ -45,7 +51,7 @@ const {
         <CardHeader>
             <h1 class="text-xl font-bold max-w-2xl">{mainTitle}</h1>
         </CardHeader>
-        <CardContent className="flex flex-col gap-6 items-center pb-0">
+        <CardContent className="flex flex-col gap-4 items-center pb-0">
             <p class="text-muted-foreground max-w-150">
                 {mainDescription}
             </p>
@@ -57,7 +63,7 @@ const {
                 alt="Hero"
                 loading="eager"
                 class={heroImageClass}
-                style="aspect-ratio: 16/9;"
+                style={`aspect-ratio: ${heroImageAspectRatio};`}
             />
         </CardFooter>
     </Card>
@@ -84,7 +90,7 @@ const {
         </Card>
 
         <Card
-            className={`flex rounded flex-col items-center text-center overflow-hidden bg-gray-50 ${rightCard.cardClass || "h-80 md:h-110"} gap-6`}
+            className={`flex rounded flex-col items-center text-center overflow-hidden bg-gray-50 ${rightCard.cardClass || "h-80 md:h-110"} gap-4`}
         >
             {
                 rightCard.title && (
@@ -94,22 +100,55 @@ const {
                 )
             }
             <CardContent
-                className={`flex flex-col gap-4 items-center ${rightCard.image ? "pb-0" : ""}`}
+                className={`flex flex-col gap-4 items-center ${rightCard.image || rightCard.downloadAppButtons ? "pb-0" : ""}`}
             >
-                <p class="text-muted-foreground max-w-140">
+                <p class="text-muted-foreground max-w-100">
                     {rightCard.description}
                 </p>
             </CardContent>
             {
-                rightCard.image && (
-                    <CardFooter>
-                        <Image
-                            src={rightCard.image}
-                            alt={rightCard.title || "Image"}
-                            loading="eager"
-                            class={rightCard.imageClass || "w-full mx-auto object-contain"}
-                        />
+                rightCard.downloadAppButtons ? (
+                    <CardFooter className="flex flex-row gap-3 items-center w-full justify-center">
+                        {rightCard.downloadAppButtons.iosUrl && (
+                            <a
+                                href={rightCard.downloadAppButtons.iosUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="inline-block"
+                            >
+                                <img
+                                    src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1288569600"
+                                    alt="Download on the App Store"
+                                    class="h-9 w-auto"
+                                />
+                            </a>
+                        )}
+                        {rightCard.downloadAppButtons.androidUrl && (
+                            <a
+                                href={rightCard.downloadAppButtons.androidUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="inline-block"
+                            >
+                                <img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/960px-Google_Play_Store_badge_EN.svg.png"
+                                    alt="Get it on Google Play"
+                                    class="h-9 w-auto"
+                                />
+                            </a>
+                        )}
                     </CardFooter>
+                ) : (
+                    rightCard.image && (
+                        <CardFooter>
+                            <Image
+                                src={rightCard.image}
+                                alt={rightCard.title || "Image"}
+                                loading="eager"
+                                class={rightCard.imageClass || "w-full mx-auto object-contain"}
+                            />
+                        </CardFooter>
+                    )
                 )
             }
         </Card>
