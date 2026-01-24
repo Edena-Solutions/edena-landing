@@ -1,64 +1,108 @@
 ---
-import { translations, languages } from '@/i18n/index.ts';
+import { translations, languages } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
-import Section from '@/modules/students/Section.astro';
-import Hero from '@/modules/students/Hero.astro';
+import Section from "@/components/Section.astro";
+import Hero from "@/components/Hero.astro";
 import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from '@/modules/students/FAQs.astro';
-import Features from '@/components/Features';
+import FAQs from "@/modules/students/FAQs.astro";
+import Features from "@/components/Features";
+import heroImage from "@/assets/img/screenshots/students/students_hero.png";
+import studentDetail from "@/assets/img/screenshots/students/student_detail.png";
+import educationLevel from "@/assets/img/screenshots/students/student_classroom.png";
+import organization from "@/assets/img/screenshots/shared/organization.png";
 export function getStaticPaths() {
-  return languages.map(lang => ({
-    params: { lang },
-    props: { lang }
-  }));
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
 }
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 
 const features = [
-  {
-    icon: "FolderOpen",
-    title: t.features.studentFeatures.digitalRecords.title,
-    description: t.features.studentFeatures.digitalRecords.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
-  {
-    icon: "UserCheck",
-    title: t.features.studentFeatures.attendanceTracking.title,
-    description: t.features.studentFeatures.attendanceTracking.tagline,
-    navigateTo: `/${lang}/app`,
-  },
-  {
-    icon: "BarChart3",
-    title: t.features.studentFeatures.gradeManagement.title,
-    description: t.features.studentFeatures.gradeManagement.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
-  {
-    icon: "Calendar",
-    title: t.features.studentFeatures.scheduleOptimization.title,
-    description: t.features.studentFeatures.scheduleOptimization.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
-  {
-    icon: "TrendingUp",
-    title: t.features.studentFeatures.behaviorTracking.title,
-    description: t.features.studentFeatures.behaviorTracking.tagline,
-    navigateTo: `/${lang}/students`,
-  },
-  {
-    icon: "FileText",
-    title: t.features.studentFeatures.academicReports.title,
-    description: t.features.studentFeatures.academicReports.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
+    {
+        icon: "FolderOpen",
+        title: t.features.studentFeatures.digitalRecords.title,
+        description: t.features.studentFeatures.digitalRecords.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "UserCheck",
+        title: t.features.studentFeatures.attendanceTracking.title,
+        description: t.features.studentFeatures.attendanceTracking.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+    {
+        icon: "BarChart3",
+        title: t.features.studentFeatures.gradeManagement.title,
+        description: t.features.studentFeatures.gradeManagement.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "Calendar",
+        title: t.features.studentFeatures.scheduleOptimization.title,
+        description: t.features.studentFeatures.scheduleOptimization.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "TrendingUp",
+        title: t.features.studentFeatures.behaviorTracking.title,
+        description: t.features.studentFeatures.behaviorTracking.tagline,
+        navigateTo: `/${lang}/students`,
+    },
+    {
+        icon: "FileText",
+        title: t.features.studentFeatures.academicReports.title,
+        description: t.features.studentFeatures.academicReports.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
 ];
 ---
-<Layout content={{ title: t.meta.studentsTitle, description: t.meta.studentsDescription }} lang={lang}>
+
+<Layout
+    content={{ title: t.meta.studentsTitle, description: t.meta.studentsDescription }}
+    lang={lang}
+>
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero t={t} />
-        <Features client:load t={t} features={features} title={t.features.studentFeatures.title} description={t.features.studentFeatures.tagline} />
-        <Section t={t} />
+        <Hero
+            t={t}
+            heroImage={heroImage}
+            mainTitle={t.students.mainTitle}
+            mainDescription={t.students.mainDescription}
+            showBookDemoInHero={true}
+            leftCard={{
+                title: t.students.studentInvoicingTitle,
+                description: t.students.studentInvoicingDescription,
+                showButton: true,
+            }}
+            rightCard={{
+                title: t.students.studentDetailTitle,
+                description: t.students.studentDetailDescription,
+                image: studentDetail,
+            }}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={t.features.studentFeatures.title}
+            description={t.features.studentFeatures.tagline}
+        />
+        <Section
+            t={t}
+            sectionTitle={t.students.organizationTitle}
+            sectionDescription={t.students.organizationDescription}
+            leftCard={{
+                title: t.students.classroomsTitle,
+                description: t.students.classroomsDescription,
+                image: organization,
+            }}
+            rightCard={{
+                title: t.students.classroomsDetailsTitle,
+                description: t.students.classroomsDetailsDescription,
+                image: educationLevel,
+            }}
+        />
         <FAQs t={t} />
     </GSAPSection>
 </Layout>

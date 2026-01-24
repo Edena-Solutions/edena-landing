@@ -5,7 +5,7 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 const { t } = Astro.props;
 const cases: Array<{ stat: string; description: string; bg: string }> = t.erpStats.cases.slice(
     0,
-    5
+    5,
 );
 const bgClass = (bg: string) => {
     if (bg === "dark") return "bg-neutral-900 text-white";
@@ -28,12 +28,12 @@ const cardProps = [
 ---
 
 <GSAPSection client:load className="flex flex-col gap-16 items-center">
-    <div class="flex flex-col gap-3 text-center px-4 max-w-2xl">
-        <h2 class="text-2xl font-bold">{t.erpStats.title}</h2>
+    <div class="flex flex-col gap-4 text-center px-4 max-w-2xl">
+        <h2 class="text-xl font-bold">{t.erpStats.title}</h2>
         <p class="text-muted-foreground max-w-2xl mx-auto">{t.erpStats.description}</p>
     </div>
     <div
-        class="grid w-full max-w-7xl gap-3 px-4
+        class="grid w-full max-w-7xl gap-4 px-4
       grid-cols-2
       lg:[grid-template-areas:'main_main_stat1''highlight1_stat2_stat3']
       lg:[grid-template-columns:2fr_1.2fr_1.2fr]
@@ -66,4 +66,3 @@ const cardProps = [
         }
     </div>
 </GSAPSection>
-

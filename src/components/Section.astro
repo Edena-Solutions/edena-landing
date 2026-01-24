@@ -1,0 +1,150 @@
+---
+import type { Translation } from "@/i18n";
+import type { ImageMetadata } from "astro";
+
+import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
+import { Image } from "astro:assets";
+import BookDemoButton from "@/components/BookDemoButton.astro";
+import GSAPSection from "@/components/ui/gsap-section";
+
+interface SectionCard {
+    title?: string;
+    description: string;
+    image: ImageMetadata;
+    imageClass?: string;
+    cardClass?: string;
+}
+
+interface Props {
+    t: Translation;
+    sectionTitle: string;
+    sectionDescription: string;
+    leftCard: SectionCard;
+    rightCard: SectionCard;
+    showCTACard?: boolean;
+    ctaPosition?: "left" | "right";
+    leftCardHeight?: string;
+    rightCardHeight?: string;
+}
+
+const {
+    t,
+    sectionTitle,
+    sectionDescription,
+    leftCard,
+    rightCard,
+    showCTACard = false,
+    ctaPosition = "right",
+    leftCardHeight = "h-90 md:h-110",
+    rightCardHeight = "h-90 md:h-110",
+} = Astro.props;
+---
+
+<GSAPSection client:load className="flex flex-col gap-16 items-center">
+    <div class="flex flex-col gap-4 text-center px-4">
+        <h2 class="text-xl font-bold">{sectionTitle}</h2>
+        <p class="text-muted-foreground max-w-2xl mx-auto">
+            {sectionDescription}
+        </p>
+    </div>
+    <div class="grid gap-4 px-4 text-sm sm:grid-cols-2 w-full">
+        {showCTACard && ctaPosition === "left" ? (
+            <div class="flex flex-col-reverse md:flex-col gap-4 h-120 sm:h-140">
+                <Card className="flex min-h-fit rounded bg-gradient-primary">
+                    <CardContent
+                        className="flex items-center flex-col sm:flex-row gap-4 p-8 justify-between w-full"
+                    >
+                        <p class="max-w-sm text-white font-semibold text-center sm:text-left">
+                            {t.setup.bookADemoCTA}
+                        </p>
+                        <BookDemoButton t={t} variant="secondary" />
+                    </CardContent>
+                </Card>
+                <Card
+                    className={`flex flex-col items-center overflow-hidden rounded bg-gray-50 text-center ${leftCard.cardClass || ""}`}
+                >
+                    <CardHeader className="flex flex-col items-center gap-4">
+                        {leftCard.title && <h3 class="text-xl font-bold">{leftCard.title}</h3>}
+                        <p class="max-w-md">
+                            {leftCard.description}
+                        </p>
+                    </CardHeader>
+                    <CardFooter>
+                        <Image
+                            src={leftCard.image}
+                            alt={leftCard.title || "Image"}
+                            class={leftCard.imageClass || "w-full"}
+                        />
+                    </CardFooter>
+                </Card>
+            </div>
+        ) : (
+            <Card
+                className={`flex flex-col items-center gap-6 overflow-hidden rounded bg-gray-50 text-center ${leftCardHeight} ${leftCard.cardClass || ""}`}
+            >
+                <CardHeader className="flex flex-col items-center gap-4">
+                    {leftCard.title && <h3 class="text-xl font-bold">{leftCard.title}</h3>}
+                    <p class="max-w-md">
+                        {leftCard.description}
+                    </p>
+                </CardHeader>
+                <CardFooter>
+                    <Image
+                        src={leftCard.image}
+                        alt={leftCard.title || "Image"}
+                        class={leftCard.imageClass || "w-full"}
+                    />
+                </CardFooter>
+            </Card>
+        )}
+        {showCTACard && ctaPosition === "right" ? (
+            <div class="flex flex-col-reverse md:flex-col gap-4 sm:h-140">
+                <Card className="flex min-h-fit rounded bg-gradient-primary">
+                    <CardContent
+                        className="flex items-center flex-col sm:flex-row gap-4 p-8 justify-between w-full"
+                    >
+                        <p class="max-w-sm text-white font-semibold text-center sm:text-left">
+                            {t.setup.bookADemoCTA}
+                        </p>
+                        <BookDemoButton t={t} variant="secondary" />
+                    </CardContent>
+                </Card>
+                <Card
+                    className={`flex flex-col items-center overflow-hidden rounded bg-gray-50 text-center ${rightCard.cardClass || ""}`}
+                >
+                    <CardHeader className="flex flex-col items-center gap-4">
+                        {rightCard.title && <h3 class="text-xl font-bold">{rightCard.title}</h3>}
+                        <p class="max-w-md">
+                            {rightCard.description}
+                        </p>
+                    </CardHeader>
+                    <CardFooter>
+                        <Image
+                            src={rightCard.image}
+                            alt={rightCard.title || "Image"}
+                            class={rightCard.imageClass || "w-full"}
+                        />
+                    </CardFooter>
+                </Card>
+            </div>
+        ) : (
+            <Card
+                className={`flex flex-col items-center gap-6 overflow-hidden rounded bg-gray-50 text-center ${rightCardHeight} ${rightCard.cardClass || ""}`}
+            >
+                <CardHeader className="flex flex-col items-center gap-4">
+                    {rightCard.title && <h3 class="text-xl font-bold">{rightCard.title}</h3>}
+                    <p class="max-w-md">
+                        {rightCard.description}
+                    </p>
+                </CardHeader>
+                <CardFooter>
+                    <Image
+                        src={rightCard.image}
+                        alt={rightCard.title || "Image"}
+                        class={rightCard.imageClass || "w-auto"}
+                    />
+                </CardFooter>
+            </Card>
+        )}
+    </div>
+</GSAPSection>

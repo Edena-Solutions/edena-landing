@@ -1,68 +1,113 @@
 ---
-import { translations, languages } from '@/i18n/index.ts';
+import { translations, languages } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
-import Hero from "@/modules/dashboard/Hero.astro";
-import Section from "@/modules/dashboard/Section.astro";
+import Hero from "@/components/Hero.astro";
+import Section from "@/components/Section.astro";
 import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from '@/modules/dashboard/FAQs.astro';
-import Features from '@/components/Features';
+import FAQs from "@/modules/dashboard/FAQs.astro";
+import Features from "@/components/Features";
+import heroImage from "@/assets/img/screenshots/shared/hero.png";
+import quickActions from "@/assets/img/screenshots/dashboard/dashboard_quickactions.png";
+import notificationsImage from "@/assets/img/screenshots/dashboard/dashboard_notifications.png";
+import calendar from "@/assets/img/screenshots/dashboard/dashboard_calendar.png";
 
 export function getStaticPaths() {
-  return languages.map(lang => ({
-    params: { lang },
-    props: { lang }
-  }));
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
 }
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 
 const features = [
-  {
-    icon: "BarChart3",
-    title: t.features.dashboardFeatures.realTimeAnalytics.title,
-    description: t.features.dashboardFeatures.realTimeAnalytics.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
-  {
-    icon: "TrendingUp",
-    title: t.features.dashboardFeatures.performanceInsights.title,
-    description: t.features.dashboardFeatures.performanceInsights.tagline,
-    navigateTo: `/${lang}/students`,
-  },
-  {
-    icon: "Settings",
-    title: t.features.dashboardFeatures.resourceOptimization.title,
-    description: t.features.dashboardFeatures.resourceOptimization.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
-  {
-    icon: "MessageCircle",
-    title: t.features.dashboardFeatures.communicationHub.title,
-    description: t.features.dashboardFeatures.communicationHub.tagline,
-    navigateTo: `/${lang}/app`,
-  },
-  {
-    icon: "Shield",
-    title: t.features.dashboardFeatures.complianceTracking.title,
-    description: t.features.dashboardFeatures.complianceTracking.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
-  {
-    icon: "FileText",
-    title: t.features.dashboardFeatures.customReports.title,
-    description: t.features.dashboardFeatures.customReports.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
+    {
+        icon: "BarChart3",
+        title: t.features.dashboardFeatures.realTimeAnalytics.title,
+        description: t.features.dashboardFeatures.realTimeAnalytics.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "TrendingUp",
+        title: t.features.dashboardFeatures.performanceInsights.title,
+        description: t.features.dashboardFeatures.performanceInsights.tagline,
+        navigateTo: `/${lang}/students`,
+    },
+    {
+        icon: "Settings",
+        title: t.features.dashboardFeatures.resourceOptimization.title,
+        description: t.features.dashboardFeatures.resourceOptimization.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "MessageCircle",
+        title: t.features.dashboardFeatures.communicationHub.title,
+        description: t.features.dashboardFeatures.communicationHub.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+    {
+        icon: "Shield",
+        title: t.features.dashboardFeatures.complianceTracking.title,
+        description: t.features.dashboardFeatures.complianceTracking.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "FileText",
+        title: t.features.dashboardFeatures.customReports.title,
+        description: t.features.dashboardFeatures.customReports.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
 ];
 ---
 
-<Layout content={{ title: t.meta.dashboardTitle, description: t.meta.dashboardDescription }} lang={lang}>
+<Layout
+    content={{ title: t.meta.dashboardTitle, description: t.meta.dashboardDescription }}
+    lang={lang}
+>
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero t={t} />
-        <Features client:load t={t} features={features} title={t.features.dashboardFeatures.title} description={t.features.dashboardFeatures.tagline} />
-        <Section t={t} />
+        <Hero
+            t={t}
+            heroImage={heroImage}
+            showBookDemoInHero={true}
+            mainTitle={t.dashboard.mainTitle}
+            mainDescription={t.dashboard.mainDescription}
+            leftCard={{
+                title: t.dashboard.notificationsTitle,
+                description: t.dashboard.notificationsDescription,
+                showButton: true,
+            }}
+            rightCard={{
+                title: t.dashboard.quickActionsTitle,
+                description: t.dashboard.quickActionsDescription,
+                image: quickActions,
+                imageClass: "object-cover w-2/3 mx-auto",
+            }}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={t.features.dashboardFeatures.title}
+            description={t.features.dashboardFeatures.tagline}
+        />
+        <Section
+            t={t}
+            sectionTitle={t.dashboard.notificationsAndCalendarTitle}
+            sectionDescription={t.dashboard.notificationsAndCalendarDescription}
+            leftCard={{
+                title: t.dashboard.calendarTitle,
+                description: t.dashboard.calendarDescription,
+                image: calendar,
+            }}
+            rightCard={{
+                title: t.dashboard.realTimeNotificationsExtendedTitle,
+                description: t.dashboard.realTimeNotificationsExtendedDescription,
+                image: notificationsImage,
+                imageClass: "object-cover w-2/3 mx-auto",
+            }}
+        />
         <FAQs t={t} />
     </GSAPSection>
 </Layout>

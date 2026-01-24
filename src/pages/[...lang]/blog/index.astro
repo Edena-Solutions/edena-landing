@@ -27,10 +27,9 @@ const sortedPosts = posts.sort((a, b) => b.data.date.localeCompare(a.data.date))
     lang={lang}
 >
     <section class="px-4">
-        <h1 class="text-center max-w-2xl mx-auto pt-10 pb-8 text-2xl font-bold">
+        <h1 class="text-center max-w-2xl mx-auto pt-10 pb-8 text-xl font-bold">
             {t.navigation.blog}
         </h1>
         <BlogPostList client:load posts={sortedPosts} lang={lang} />
     </section>
 </Layout>
-

@@ -1,68 +1,111 @@
 ---
-import { translations, languages } from '@/i18n/index.ts';
+import { translations, languages } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
-import Section from '@/modules/finance/Section.astro';
-import Hero from '@/modules/finance/Hero.astro';
+import Section from "@/components/Section.astro";
+import Hero from "@/components/Hero.astro";
 import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from '@/modules/finance/FAQs.astro';
-import Features from '@/components/Features';
+import FAQs from "@/modules/finance/FAQs.astro";
+import Features from "@/components/Features";
+import heroImage from "@/assets/img/screenshots/invoice/invoice_hero.png";
+import billingCycle from "@/assets/img/screenshots/finance/billing_cycle.png";
+import invoiceAnalytics from "@/assets/img/screenshots/finance/invoice_analytics.png";
+import emailInvoice from "@/assets/img/screenshots/finance/invoice_email.png";
 
 export function getStaticPaths() {
-  return languages.map(lang => ({
-    params: { lang },
-    props: { lang }
-  }));
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
 }
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 
 const features = [
-  {
-    icon: "Receipt",
-    title: t.features.financeFeatures.automatedBilling.title,
-    description: t.features.financeFeatures.automatedBilling.tagline,
-    navigateTo: `/${lang}/finance`,
-  },
-  {
-    icon: "CreditCard",
-    title: t.features.financeFeatures.paymentProcessing.title,
-    description: t.features.financeFeatures.paymentProcessing.tagline,
-    navigateTo: `/${lang}/finance`,
-  },
-  {
-    icon: "PieChart",
-    title: t.features.financeFeatures.budgetManagement.title,
-    description: t.features.financeFeatures.budgetManagement.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
-  {
-    icon: "GraduationCap",
-    title: t.features.financeFeatures.scholarshipManagement.title,
-    description: t.features.financeFeatures.scholarshipManagement.tagline,
-    navigateTo: `/${lang}/students`,
-  },
-  {
-    icon: "FileBarChart",
-    title: t.features.financeFeatures.financialReporting.title,
-    description: t.features.financeFeatures.financialReporting.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
-  {
-    icon: "Calculator",
-    title: t.features.financeFeatures.costAnalysis.title,
-    description: t.features.financeFeatures.costAnalysis.tagline,
-    navigateTo: `/${lang}/dashboard`,
-  },
+    {
+        icon: "Receipt",
+        title: t.features.financeFeatures.automatedBilling.title,
+        description: t.features.financeFeatures.automatedBilling.tagline,
+        navigateTo: `/${lang}/finance`,
+    },
+    {
+        icon: "CreditCard",
+        title: t.features.financeFeatures.paymentProcessing.title,
+        description: t.features.financeFeatures.paymentProcessing.tagline,
+        navigateTo: `/${lang}/finance`,
+    },
+    {
+        icon: "PieChart",
+        title: t.features.financeFeatures.budgetManagement.title,
+        description: t.features.financeFeatures.budgetManagement.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "GraduationCap",
+        title: t.features.financeFeatures.scholarshipManagement.title,
+        description: t.features.financeFeatures.scholarshipManagement.tagline,
+        navigateTo: `/${lang}/students`,
+    },
+    {
+        icon: "FileBarChart",
+        title: t.features.financeFeatures.financialReporting.title,
+        description: t.features.financeFeatures.financialReporting.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "Calculator",
+        title: t.features.financeFeatures.costAnalysis.title,
+        description: t.features.financeFeatures.costAnalysis.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
 ];
 ---
 
-<Layout content={{ title: t.meta.financeTitle, description: t.meta.financeDescription }} lang={lang}>
+<Layout
+    content={{ title: t.meta.financeTitle, description: t.meta.financeDescription }}
+    lang={lang}
+>
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero t={t} />
-        <Features client:load t={t} features={features} title={t.features.financeFeatures.title} description={t.features.financeFeatures.tagline} />
-        <Section t={t} />
+        <Hero
+            t={t}
+            heroImage={heroImage}
+            mainTitle={t.finance.mainTitle}
+            mainDescription={t.finance.mainDescription}
+            showBookDemoInHero={true}
+            leftCard={{
+                title: t.finance.fastBillingTitle,
+                description: t.finance.fastBillingDescription,
+                showButton: true,
+            }}
+            rightCard={{
+                title: t.finance.billingCycleTitle,
+                description: t.finance.billingCycleDescription,
+                image: billingCycle,
+            }}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={t.features.financeFeatures.title}
+            description={t.features.financeFeatures.tagline}
+        />
+        <Section
+            t={t}
+            sectionTitle={t.finance.automationTitle}
+            sectionDescription={t.finance.automationDescription}
+            leftCard={{
+                title: t.finance.analyticsTitle,
+                description: t.finance.analyticsDescription,
+                image: invoiceAnalytics,
+            }}
+            rightCard={{
+                title: t.finance.paperlessBillingTitle,
+                description: t.finance.paperlessBillingDescription,
+                image: emailInvoice,
+            }}
+        />
         <FAQs t={t} />
     </GSAPSection>
 </Layout>

@@ -88,18 +88,18 @@ export default {
         functionalities: "Funcionalidades",
         forCenter: "Para el centro",
         forFamilies: "Para familias",
-        students: "Estudiantes",
+        students: "Gestión de Estudiantes",
         studentsDescription:
-            "Gestiona registros, asistencia y seguimiento académico de estudiantes de forma eficiente.",
-        guardians: "Familias y tutores",
-        guardiansDescription: "Gestiona la información de los padres de los estudiantes.",
-        dashboard: "Panel",
+            "Solución completa para gestionar registros, asistencia y seguimiento académico de estudiantes.",
+        guardians: "Portal de Familias",
+        guardiansDescription: "Plataforma integral para que familias y tutores se mantengan conectados con la educación de sus hijos.",
+        dashboard: "Panel de Análisis",
         dashboardDescription:
-            "Visualiza el rendimiento de tu centro educativo con métricas en tiempo real.",
-        finance: "Finanzas",
-        financeDescription: "Automatiza la gestión de finanzas escolares, cuotas y presupuestos.",
+            "Insights y métricas en tiempo real para visualizar el rendimiento de tu centro educativo y tomar decisiones basadas en datos.",
+        finance: "Suite Financiera",
+        financeDescription: "Sistema automatizado de gestión financiera para facturación, pagos, presupuestos e informes financieros.",
         app: "Edena Kids",
-        appDescription: "App móvil para familias, estudiantes y profesores.",
+        appDescription: "Aplicación móvil diseñada para familias, estudiantes y profesores para acceder a la información escolar desde cualquier lugar.",
         pricing: "Precios",
         faqs: "FAQs",
         blog: "Blog",
@@ -322,6 +322,10 @@ export default {
             title: "Analíticas en tiempo real",
             tagline: "Obtén insights detallados sobre el rendimiento de tu centro educativo.",
         },
+        keyFeaturesTabsTitle: "Las 5 claves de nuestra plataforma",
+        keyFeaturesTabsDescription:
+            "Descubre las funcionalidades más potentes que te ayudarán a gestionar y escalar tu organización educativa.",
+        keyFeaturesTabsGoToFeature: "Ir a la funcionalidad",
         keyFeaturesTabs: [
             {
                 title: "Gestión integral de la app",
@@ -770,8 +774,9 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
         calendarDescription:
             "Gestiona horarios, eventos y fechas clave de forma eficiente. Notifica eventos importantes a toda la comunidad educativa.",
         calendarTitle: "Calendario escolar",
+        realTimeNotificationsExtendedTitle: "Notificaciones en tiempo real",
         realTimeNotificationsExtendedDescription:
-            "Sistema de notificaciones que mantiene a toda la comunidad educativa conectada.",
+            "Sistema de notificaciones que mantiene a toda la comunidad educativa conectada. Recibe alertas y actualizaciones instantáneas para estar informado sobre eventos y actividades importantes.",
         notificationsAndCalendarTitle: "Comunicación integrada",
         notificationsAndCalendarDescription:
             "Notificaciones y calendario unidos para una gestión escolar eficiente.",
@@ -817,7 +822,8 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
         automationDescription:
             "Automatiza tareas como la generación de facturas, cobros y seguimiento de pagos para reducir errores y aumentar la precisión.",
         paperlessBillingTitle: "Facturación sin papel",
-        paperlessBillingDescription: "Genera y envía facturas electrónicas de forma automática.",
+        paperlessBillingDescription:
+            "Genera y envía facturas electrónicas de forma automática. Reduce el desperdicio de papel y optimiza tu proceso de facturación. Facturas digitales que son seguras, rastreables y respetuosas con el medio ambiente.",
         analyticsTitle: "Análisis de datos",
         analyticsDescription:
             "Accede a informes detallados sobre el rendimiento financiero. Obtén insights sobre el estado financiero de tu centro. Dashboard financiero que impulsa la toma de decisiones estratégicas.",

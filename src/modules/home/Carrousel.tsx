@@ -181,14 +181,14 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
     return (
         <GSAPSection className="relative w-full">
             <div className="flex flex-col">
-                <div className="flex flex-col gap-3 text-center px-4 max-w-xl mx-auto">
-                    <h2 className="text-2xl font-bold">{t.carousel.title}</h2>
+                <div className="flex flex-col gap-4 text-center px-4 max-w-xl mx-auto">
+                    <h2 className="text-xl font-bold">{t.carousel.title}</h2>
                     <p className="text-muted-foreground">{t.carousel.description}</p>
                 </div>
                 <div ref={containerRef} className="px-[16px]">
                     <div
                         ref={scrollContainerRef}
-                        className="flex overflow-x-auto snap-x snap-mandatory gap-3 pt-16 pb-2 mb-6 scrollbar-hide"
+                        className="flex overflow-x-auto snap-x snap-mandatory gap-4 pt-16 pb-2 mb-6 scrollbar-hide"
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                         onMouseEnter={() => setAutoplayPaused(true)}
                         onMouseLeave={() => setAutoplayPaused(false)}
@@ -198,9 +198,8 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
                         {features.map((feature, index) => (
                             <div
                                 key={feature.title}
-                                className={`rounded cursor-pointer flex-none w-full md:w-1/3 lg:w-1/4 snap-center transition-all duration-300 overflow-hidden transform bg-gray-50 ${
-                                    activeIndex === index ? "opacity-100" : "opacity-90"
-                                }`}
+                                className={`rounded cursor-pointer flex-none w-full md:w-1/3 lg:w-1/4 snap-center transition-all duration-300 overflow-hidden transform bg-gray-50 ${activeIndex === index ? "opacity-100" : "opacity-90"
+                                    }`}
                                 onClick={() => (window.location.href = feature.navigateTo)}
                             >
                                 <div className="h-[450px] relative overflow-hidden">

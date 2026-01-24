@@ -74,7 +74,7 @@ const ListItem = ({
                     href={href}
                 >
                     <div className="text-[10px] font-semibold uppercase tracking-widest">{title}</div>
-                    <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                    <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
                         {children}
                     </p>
                 </a>
@@ -153,7 +153,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             <NavigationMenuItem>
                                 <NavigationMenuTrigger>{t.navigation.products}</NavigationMenuTrigger>
                                 <NavigationMenuContent>
-                                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                                    <ul className="grid w-[400px] gap-4 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                                         {products.map((item) => (
                                             <ListItem
                                                 key={item.title}
@@ -171,7 +171,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     {t.navigation.functionalities}
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
-                                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                                    <ul className="grid w-[400px] gap-4 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                                         {functionalities.map((item) => (
                                             <ListItem
                                                 key={item.title}

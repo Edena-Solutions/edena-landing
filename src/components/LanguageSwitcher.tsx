@@ -51,11 +51,10 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                         <a
                             key={lang}
                             href={`/${lang}${currentPath || "/"}`}
-                            className={`px-3 py-1 rounded text-sm font-medium ${
-                                currentLang === lang
+                            className={`px-3 py-1 rounded text-sm font-medium ${currentLang === lang
                                     ? "bg-black text-white"
                                     : "bg-gray-100 text-black hover:bg-gray-200"
-                            }`}
+                                }`}
                         >
                             {languageNames[lang].code}
                         </a>
@@ -77,11 +76,10 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                     <a
                         key={lang}
                         href={createLanguageUrl(lang)}
-                        className={`px-3 py-1 rounded text-sm font-medium ${
-                            currentLang === lang
+                        className={`px-3 py-1 rounded text-sm font-medium ${currentLang === lang
                                 ? "bg-black text-white"
                                 : "bg-gray-100 text-black hover:bg-gray-200"
-                        }`}
+                            }`}
                     >
                         {languageNames[lang].code}
                     </a>
@@ -99,7 +97,7 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                             <DropdownMenuItem key={lang} asChild>
                                 <a
                                     href={createLanguageUrl(lang)}
-                                    className="flex items-center justify-between gap-3 cursor-pointer"
+                                    className="flex items-center justify-between gap-4 cursor-pointer"
                                 >
                                     <span>{languageNames[lang]?.name || lang}</span>
                                     {currentLang === lang && (

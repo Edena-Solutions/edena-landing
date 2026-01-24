@@ -16,7 +16,7 @@ const guardianFaqs = faqsCollection.find((entry) => entry.id === "faqsGuardian.m
 
 <GSAPSection client:load className="grid gap-16 px-4">
     <div class="text-center flex flex-col gap-6 items-center max-w-2xl mx-auto">
-        <h2 class="text-2xl font-bold">{t.faqs.guardians.title}</h2>
+        <h2 class="text-xl font-bold">{t.faqs.guardians.title}</h2>
         <p class="max-w-xl">{t.faqs.guardians.description}</p>
     </div>
     <FAQAccordion faqs={guardianFaqs?.data.faqs || []} t={t} client:load />

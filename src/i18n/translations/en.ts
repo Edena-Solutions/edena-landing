@@ -79,18 +79,18 @@ export default {
         functionalities: "Functionalities",
         forCenter: "For centers",
         forFamilies: "For families",
-        students: "Students",
+        students: "Student Management",
         studentsDescription:
-            "Manage student records, attendance tracking, and academic performance monitoring efficiently.",
-        guardians: "Families and guardians",
-        guardiansDescription: "Manage guardian information efficiently.",
-        dashboard: "Dashboard",
+            "Complete solution for managing student records, attendance tracking, and academic performance monitoring.",
+        guardians: "Family Portal",
+        guardiansDescription: "Comprehensive platform for families and guardians to stay connected with their children's education.",
+        dashboard: "Analytics Dashboard",
         dashboardDescription:
-            "Visualize your educational institution's performance with real-time metrics.",
-        finance: "Finance",
-        financeDescription: "Automate school financial management, fees, and budgets.",
+            "Real-time insights and metrics to visualize your educational institution's performance and make data-driven decisions.",
+        finance: "Financial Suite",
+        financeDescription: "Automated financial management system for billing, payments, budgets, and financial reporting.",
         app: "Edena Kids",
-        appDescription: "Mobile app for families, students and teachers.",
+        appDescription: "Mobile application designed for families, students, and teachers to access school information on the go.",
         pricing: "Pricing",
         faqs: "FAQs",
         blog: "Blog",
@@ -310,6 +310,10 @@ export default {
             title: "Real-time Analytics",
             tagline: "Get detailed insights into your educational institution's performance.",
         },
+        keyFeaturesTabsTitle: "The 5 Keys to Our Platform",
+        keyFeaturesTabsDescription:
+            "Discover the most powerful features that will help you manage and scale your educational organization.",
+        keyFeaturesTabsGoToFeature: "Go to feature",
         keyFeaturesTabs: [
             {
                 title: "Comprehensive App Management",
@@ -697,8 +701,9 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
         calendarDescription:
             "Manage schedules, events, and key dates efficiently. Notify important events to the entire educational community.",
         calendarTitle: "School Calendar",
+        realTimeNotificationsExtendedTitle: "Real-Time Notifications",
         realTimeNotificationsExtendedDescription:
-            "Notification system that keeps the entire educational community connected.",
+            "Notification system that keeps the entire educational community connected. Receive instant alerts and updates to stay informed about important events and activities.",
         notificationsAndCalendarTitle: "Integrated Communication",
         notificationsAndCalendarDescription:
             "Notifications and calendar combined for efficient school management.",
@@ -741,7 +746,8 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
         automationDescription:
             "Automate tasks like invoice generation, billing, and payment tracking to reduce errors and increase accuracy.",
         paperlessBillingTitle: "Paperless Billing",
-        paperlessBillingDescription: "Generate and send electronic invoices automatically.",
+        paperlessBillingDescription:
+            "Generate and send electronic invoices automatically. Reduce paper waste and streamline your billing process. Digital invoices that are secure, trackable, and environmentally friendly.",
         analyticsTitle: "Data Analytics",
         analyticsDescription:
             "Access detailed financial performance reports. Get insights into your school's financial health. Financial dashboard that drives strategic decision-making.",

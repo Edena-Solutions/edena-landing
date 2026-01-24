@@ -8,8 +8,7 @@ import BookDemoButton from "@/components/BookDemoButton.astro";
 
 import Link from "@/components/ui/link";
 import GSAPSection from "@/components/ui/gsap-section";
-import heroImage from "@/assets/img/screenshots/invoice/invoice_detail.png";
-import verifactuImage from "@/assets/img/logos/verifactu.png";
+import heroImage from "@/assets/img/screenshots/shared/hero.png";
 
 interface Props {
     t: Translation;
@@ -18,37 +17,35 @@ interface Props {
 const { t } = Astro.props;
 ---
 
-<GSAPSection client:load className="grid gap-3" animationType="opacity">
+<GSAPSection client:load className="grid gap-4" animationType="opacity">
     <Card
-        className="flex flex-col items-center justify-start text-center h-120 sm:h-160 overflow-hidden bg-gray-50 gap-6"
+        className="flex flex-col items-center justify-start text-center h-120 sm:h-160 overflow-hidden bg-gray-50 gap-4"
     >
-        <CardHeader className="pb-4">
-            <h1 class="text-2xl font-bold max-w-3xl">{t.hero.mainTitle}</h1>
+        <CardHeader>
+            <h1 class="text-xl font-bold max-w-2xl">{t.hero.mainTitle}</h1>
         </CardHeader>
         <CardContent>
             <p class="text-muted-foreground max-w-150">
                 {t.hero.mainDescription}
             </p>
         </CardContent>
-        <CardFooter className="relative">
-            <Image src={heroImage} alt="Hero" loading="eager" class="sm:w-3/4 mx-auto" />
-            <div
-                class="flex flex-col items-center justify-center gap-1 absolute right-2 sm:right-50 -top-10 bg-white rounded-full p-2 w-24 md:w-30 h-24 md:h-30"
-            >
-                <Image src={verifactuImage} alt="Verifactu" loading="eager" class="w-16 md:w-20" />
-                <p class="text-muted-foreground max-w-40 text-[8px] md:text-xs">
-                    {t.hero.verifactuCertified}
-                </p>
-            </div>
+        <CardFooter>
+            <Image
+                src={heroImage}
+                alt="Hero"
+                loading="eager"
+                class="w-full mx-auto object-contain"
+                style="aspect-ratio: 16/9;"
+            />
         </CardFooter>
     </Card>
 
-    <div class="grid sm:grid-cols-2 gap-3 px-4">
+    <div class="grid sm:grid-cols-2 gap-4 px-4">
         <Card
             className="flex rounded flex-col items-center justify-center text-center bg-gradient-primary"
         >
-            <CardHeader className="pb-4">
-                <h2 class="text-2xl font-bold max-w-100">{t.hero.mobileTitle}</h2>
+            <CardHeader className="pb-2">
+                <h2 class="text-xl font-bold max-w-100">{t.hero.mobileTitle}</h2>
             </CardHeader>
             <CardContent className="flex flex-col gap-6 items-center">
                 <p class="max-w-100">
@@ -64,11 +61,9 @@ const { t } = Astro.props;
             </CardFooter>
         </Card>
 
-        <Card
-            className="flex rounded flex-col items-center text-center gap-6 overflow-hidden bg-gray-50"
-        >
+        <Card className="flex rounded flex-col items-center text-center overflow-hidden bg-gray-50">
             <CardHeader className="pb-2">
-                <h2 class="text-2xl font-bold">{t.hero.orgTitle}</h2>
+                <h2 class="text-xl font-bold">{t.hero.orgTitle}</h2>
             </CardHeader>
             <CardContent className="flex flex-col gap-4 sm:gap-8 items-center">
                 <p class="text-muted-foreground max-w-140">

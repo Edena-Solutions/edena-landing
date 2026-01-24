@@ -1,20 +1,20 @@
 ---
 import { cn } from "@/lib/utils";
 import { Image } from "astro:assets";
-import logo from "@/assets/img/logos/logo.png"
-import { translations } from '@/i18n/index.ts';
+import logo from "@/assets/img/logos/logo.png";
+import { translations } from "@/i18n/index.ts";
 import LanguageSwitcher from "./LanguageSwitcher";
 interface LinkGroup {
-  title: string;
-  links: {
     title: string;
-    href: string;
-  }[];
+    links: {
+        title: string;
+        href: string;
+    }[];
 }
 
 interface Props {
-  className?: string;
-  lang: string;
+    className?: string;
+    lang: string;
 }
 
 const { lang, className } = Astro.props;
@@ -22,76 +22,90 @@ const t = translations[lang as keyof typeof translations];
 
 const footerGroups: LinkGroup[] = [
     {
-      title: t.navigation.users,
-      links: [
-          { title: t.navigation.guardians, href: `/${lang}/guardians` },
-          { title: t.navigation.students, href: `/${lang}/students` },
-      ],
+        title: t.navigation.users,
+        links: [
+            { title: t.navigation.guardians, href: `/${lang}/guardians` },
+            { title: t.navigation.students, href: `/${lang}/students` },
+        ],
     },
     {
-      title: t.navigation.administration,
-      links: [
-          { title:  t.navigation.dashboard, href: `/${lang}/dashboard` },
-          { title:  t.navigation.finance, href: `/${lang}/finance` },
-      ],
+        title: t.navigation.administration,
+        links: [
+            { title: t.navigation.dashboard, href: `/${lang}/dashboard` },
+            { title: t.navigation.finance, href: `/${lang}/finance` },
+        ],
     },
     {
-      title:  t.footer.legal,
-      links: [
-          { title:  t.footer.privacyPolicy, href: `/${lang}/privacy` },
-          { title:  t.footer.termsOfService, href: `/${lang}/terms` },
-          { title:  t.footer.cookiePolicy, href: `/${lang}/cookies` },
-      ],
+        title: t.footer.legal,
+        links: [
+            { title: t.footer.privacyPolicy, href: `/${lang}/privacy` },
+            { title: t.footer.termsOfService, href: `/${lang}/terms` },
+            { title: t.footer.cookiePolicy, href: `/${lang}/cookies` },
+        ],
     },
-  ]
+];
 
 const currentYear = new Date().getFullYear();
 ---
 
 <footer class={cn("mt-[16px] bg-gray-50", className)}>
-  <div class="container mx-auto px-4 py-12">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-3">
-      <div class="col-span-1 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-3 text-center md:text-left">
-        {footerGroups.map((group) => (
-          <div class="space-y-4">
-            <h3 class="text-sm font-medium">{group.title}</h3>
-            <ul class="space-y-2">
-              {group.links.map((link) => (
-                <li>
-                  <a 
-                    href={link.href} 
-                    class="text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    {link.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
+    <div class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div
+                class="col-span-1 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-left"
+            >
+                {
+                    footerGroups.map((group) => (
+                        <div class="space-y-4">
+                            <h3 class="text-sm font-medium">{group.title}</h3>
+                            <ul class="space-y-2">
+                                {group.links.map((link) => (
+                                    <li>
+                                        <a
+                                            href={link.href}
+                                            class="text-sm text-muted-foreground hover:text-primary transition-colors"
+                                        >
+                                            {link.title}
+                                        </a>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    ))
+                }
+            </div>
 
-      <div class="md:col-span-1 text-center md:text-left order-first md:order-last mt-8 md:mt-0">
-        <a href={`/${lang}/`} class="inline-block mb-2">
-          <Image src={logo} alt="Edena Logo" class="h-6 w-auto" />
-        </a>
-        <p class="text-muted-foreground mb-6 text-sm">
-          {t.footer.description}
-        </p>
-      </div>
+            <div
+                class="md:col-span-1 text-center md:text-left order-first md:order-last mt-8 md:mt-0"
+            >
+                <a href={`/${lang}/`} class="inline-block mb-2">
+                    <Image src={logo} alt="Edena Logo" class="h-6 w-auto" />
+                </a>
+                <p class="text-muted-foreground mb-6 text-sm">
+                    {t.footer.description}
+                </p>
+            </div>
+        </div>
+
+        <div class="pt-8 flex flex-col-reverse md:flex-row justify-between gap-4 items-center">
+            <p class="text-sm text-muted-foreground text-center md:text-left">
+                &copy; {currentYear} Edena. {t.footer.allRightsReserved}
+            </p>
+
+            <div class="text-center md:text-left flex flex-col sm:flex-row items-center gap-6">
+                <a href={`/${lang}/blog/`} class="text-sm text-muted-foreground hover:text-primary"
+                    >{t.navigation.blog}</a
+                >
+                <a
+                    href={`/${lang}/pricing`}
+                    class="text-sm text-muted-foreground hover:text-primary"
+                    >{t.navigation.pricing}</a
+                >
+                <a href={`/${lang}/faqs`} class="text-sm text-muted-foreground hover:text-primary"
+                    >{t.navigation.faqs}</a
+                >
+                <LanguageSwitcher client:load currentLang={lang} />
+            </div>
+        </div>
     </div>
-
-    <div class="pt-8 flex flex-col-reverse md:flex-row justify-between gap-3 items-center">
-      <p class="text-sm text-muted-foreground text-center md:text-left">
-        &copy; {currentYear} Edena. {t.footer.allRightsReserved}
-      </p>
-
-      <div class="text-center md:text-left flex flex-col sm:flex-row items-center gap-6">
-          <a href={`/${lang}/blog/`} class="text-sm text-muted-foreground hover:text-primary">{t.navigation.blog}</a>
-        <a href={`/${lang}/pricing`} class="text-sm text-muted-foreground hover:text-primary">{t.navigation.pricing}</a>
-        <a href={`/${lang}/faqs`} class="text-sm text-muted-foreground hover:text-primary">{t.navigation.faqs}</a>
-        <LanguageSwitcher client:load currentLang={lang} />  
-      </div>
-    </div>
-  </div>
 </footer>

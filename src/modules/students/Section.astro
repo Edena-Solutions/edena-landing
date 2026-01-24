@@ -15,44 +15,31 @@ const { t } = Astro.props;
 ---
 
 <GSAPSection client:load className="flex flex-col gap-16 items-center">
-    <div class="flex flex-col gap-3 text-center px-4">
-        <h2 class="text-2xl font-bold">{t.students.organizationTitle}</h2>
+    <div class="flex flex-col gap-4 text-center px-4">
+        <h2 class="text-xl font-bold">{t.students.organizationTitle}</h2>
         <p class="text-muted-foreground max-w-2xl mx-auto">
             {t.students.organizationDescription}
         </p>
     </div>
-    <div class="grid gap-3 px-4 text-sm sm:grid-cols-2 w-full">
-        <div class="flex flex-col-reverse md:flex-col gap-3 h-120 sm:h-140">
-            <Card
-                className="flex min-h-fit rounded bg-gradient-primary"
-            >
-                <CardContent
-                    className="flex items-center flex-col sm:flex-row gap-3 p-8 justify-between w-full"
-                >
-                    <p class="max-w-sm text-white font-semibold text-center sm:text-left">
-                        {t.setup.bookADemoCTA}
-                    </p>
-                    <BookDemoButton t={t} variant="secondary" />
-                </CardContent>
-            </Card>
-            <Card
-                className="flex flex-col items-center overflow-hidden rounded bg-gray-50 text-center"
-            >
-                <CardHeader className="flex flex-col items-center gap-3">
-                    <p class="max-w-md">
-                        {t.students.classroomsDescription}
-                    </p>
-                </CardHeader>
-                <CardFooter>
-                    <Image src={organization} alt="Operations" />
-                </CardFooter>
-            </Card>
-        </div>
+    <div class="grid gap-4 text-sm sm:grid-cols-2 w-full">
         <Card
-            className="flex h-90 sm:h-140 flex-col items-center gap-6 overflow-hidden rounded bg-gray-50 text-center"
+            className="flex flex-col items-center gap-6 overflow-hidden rounded bg-gray-50 text-center h-90 md:h-110"
         >
-            <CardHeader className="flex flex-col items-center gap-3">
-                <h3 class="text-2xl font-bold">{t.students.classroomsDetailsTitle}</h3>
+            <CardHeader className="flex flex-col items-center gap-4">
+                <h3 class="text-xl font-bold">{t.students.classroomsTitle}</h3>
+                <p class="max-w-md">
+                    {t.students.classroomsDescription}
+                </p>
+            </CardHeader>
+            <CardFooter>
+                <Image src={organization} alt="Operations" />
+            </CardFooter>
+        </Card>
+        <Card
+            className="flex flex-col items-center gap-6 overflow-hidden rounded bg-gray-50 text-center h-90 md:h-110"
+        >
+            <CardHeader className="flex flex-col items-center gap-4">
+                <h3 class="text-xl font-bold">{t.students.classroomsDetailsTitle}</h3>
                 <p class="max-w-md">
                     {t.students.classroomsDetailsDescription}
                 </p>

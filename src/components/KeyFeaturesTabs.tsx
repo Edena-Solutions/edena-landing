@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import app from "@/assets/img/screenshots/app/app_detail.png";
-import dashboard from "@/assets/img/screenshots/dashboard/dashboard_hero.png";
-import finance from "@/assets/img/screenshots/invoice/invoice_detail.png";
+import dashboard from "@/assets/img/screenshots/shared/hero.png";
+import finance from "@/assets/img/screenshots/finance/billing_cycle.png";
 import guardians from "@/assets/img/screenshots/guardians/guardian_hero.png";
 import students from "@/assets/img/screenshots/students/student_classroom.png";
 import { LayoutDashboard, Shapes, Wallet, Users, GraduationCap } from "lucide-react";
@@ -22,6 +22,9 @@ const AUTO_ADVANCE_MS = 6500;
 
 export default function KeyFeaturesTabs({ t }: Props) {
     const translations = t?.features?.keyFeaturesTabs || es.features.keyFeaturesTabs;
+    const title = t?.features?.keyFeaturesTabsTitle || es.features.keyFeaturesTabsTitle;
+    const description = t?.features?.keyFeaturesTabsDescription || es.features.keyFeaturesTabsDescription;
+    const goToFeature = t?.features?.keyFeaturesTabsGoToFeature || es.features.keyFeaturesTabsGoToFeature;
     const [active, setActive] = useState(0);
     const [displayed, setDisplayed] = useState(0);
     const [lastChange, setLastChange] = useState(Date.now());
@@ -121,11 +124,10 @@ export default function KeyFeaturesTabs({ t }: Props) {
 
     return (
         <GSAPSection className="flex flex-col items-center w-full gap-16">
-            <div className="flex flex-col gap-3 text-center px-4 max-w-xl">
-                <h2 className="text-2xl font-bold">Las 5 claves de nuestra plataforma</h2>
+            <div className="flex flex-col gap-4 text-center px-4 max-w-xl">
+                <h2 className="text-xl font-bold">{title}</h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
-                    Descubre las funcionalidades más potentes que te ayudarán a gestionar y escalar
-                    tu organización educativa.
+                    {description}
                 </p>
             </div>
             <div className="w-full max-w-7xl px-4 self-center hidden lg:grid lg:grid-cols-5 gap-x-4">
@@ -134,9 +136,8 @@ export default function KeyFeaturesTabs({ t }: Props) {
                     return (
                         <button
                             key={i}
-                            className={`bg-gray-50 flex w-full gap-2 flex-row items-center py-2 px-2 rounded transition-all cursor-pointer duration-200 ${
-                                isActive ? "bg-gray-100" : "hover:bg-gray-100"
-                            }`}
+                            className={`bg-gray-50 flex w-full gap-2 flex-row items-center py-2 px-2 rounded transition-all cursor-pointer duration-200 ${isActive ? "bg-gray-100" : "hover:bg-gray-100"
+                                }`}
                             onClick={() => handleTab(i)}
                             aria-selected={isActive}
                             tabIndex={0}
@@ -200,7 +201,7 @@ export default function KeyFeaturesTabs({ t }: Props) {
                     ref={cardRef}
                     className="flex flex-col sm:flex-row bg-gray-50 w-full overflow-hidden sm:h-100"
                 >
-                    <div ref={cardInnerRef} className="flex flex-col sm:flex-row w-full h-full">
+                    <div ref={cardInnerRef} className="flex flex-col sm:flex-row w-full h-full sm:items-center">
                         <img
                             src={features[displayed].img.src}
                             alt={features[displayed].title}
@@ -231,11 +232,10 @@ export default function KeyFeaturesTabs({ t }: Props) {
                         {features.map((_, i) => (
                             <button
                                 key={i}
-                                className={`rounded-full transition-all duration-200 ${
-                                    active === i ? "bg-primary w-2 h-2" : "bg-gray-200 w-2 h-2"
-                                }`}
+                                className={`rounded-full transition-all duration-200 ${active === i ? "bg-primary w-2 h-2" : "bg-gray-200 w-2 h-2"
+                                    }`}
                                 onClick={() => handleTab(i)}
-                                aria-label={`Ir a la funcionalidad ${i + 1}`}
+                                aria-label={`${goToFeature} ${i + 1}`}
                             />
                         ))}
                     </div>

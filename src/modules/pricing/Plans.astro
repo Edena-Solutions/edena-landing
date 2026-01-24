@@ -32,7 +32,7 @@ const { t } = Astro.props;
 const pricingPlans = await getCollection("pricing");
 ---
 
-<div class="grid md:grid-cols-3 px-0 gap-3 mx-auto">
+<div class="grid md:grid-cols-3 px-0 gap-4 mx-auto">
     {
         pricingPlans.map((plan: PricingPlan) => {
             const planId = plan.data.id as keyof typeof t.pricing.plans;
@@ -46,7 +46,7 @@ const pricingPlans = await getCollection("pricing");
                     )}
                     <CardHeader>
                         <Badge className="text-sm px-3 py-1">{t.pricing.plans[planId].name}</Badge>
-                        <CardTitle className="text-2xl font-bold mt-2">{plan.data.price}</CardTitle>
+                        <CardTitle className="text-xl font-bold mt-2">{plan.data.price}</CardTitle>
                         <CardDescription className="text-gray-500">
                             {t.pricing.plans[planId].description}
                         </CardDescription>
