@@ -22,17 +22,20 @@ const t = translations[lang as keyof typeof translations];
 
 const footerGroups: LinkGroup[] = [
     {
-        title: t.navigation.users,
+        title: t.navigation.products,
         links: [
-            { title: t.navigation.guardians, href: `/${lang}/guardians` },
             { title: t.navigation.students, href: `/${lang}/students` },
+            { title: t.navigation.dashboard, href: `/${lang}/dashboard` },
+            { title: t.navigation.finance, href: `/${lang}/finance` },
+            { title: t.navigation.app, href: `/${lang}/app` },
+            { title: t.navigation.guardians, href: `/${lang}/guardians` },
         ],
     },
     {
-        title: t.navigation.administration,
+        title: t.navigation.functionalities,
         links: [
-            { title: t.navigation.dashboard, href: `/${lang}/dashboard` },
-            { title: t.navigation.finance, href: `/${lang}/finance` },
+            { title: t.navigation.forCenter, href: `/${lang}/` },
+            { title: t.navigation.forFamilies, href: `/${lang}/app` },
         ],
     },
     {
@@ -52,13 +55,13 @@ const currentYear = new Date().getFullYear();
     <div class="container mx-auto px-4 py-12">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div
-                class="col-span-1 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-left"
+                class="col-span-1 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-2 text-center md:text-left"
             >
                 {
                     footerGroups.map((group) => (
                         <div class="space-y-4">
                             <h3 class="text-sm font-medium">{group.title}</h3>
-                            <ul class="space-y-2">
+                            <ul>
                                 {group.links.map((link) => (
                                     <li>
                                         <a
