@@ -8,6 +8,18 @@ export async function GET() {
 
     const staticPaths = [
         "/",
+        "/app/",
+        "/dashboard/",
+        "/demo/",
+        "/faqs/",
+        "/finance/",
+        "/guardians/",
+        "/pricing/",
+        "/students/",
+        "/privacy/",
+        "/terms/",
+        "/cookies/",
+        "/blog/",
         "/es/",
         "/es/app/",
         "/es/dashboard/",
@@ -36,30 +48,34 @@ export async function GET() {
         "/en/blog/",
     ];
 
-    const blogEsUrls = blogEsPosts.map((post) => `/es/blog/${post.slug}/`);
+    const blogEsUrls = blogEsPosts.map((post) => `/blog/${post.slug}/`);
+    const blogEsUrlsWithPrefix = blogEsPosts.map((post) => `/es/blog/${post.slug}/`);
 
     const blogEnUrls = blogEnPosts.map((post) => `/en/blog/${post.slug}/`);
 
-    const allPaths = [...staticPaths, ...blogEsUrls, ...blogEnUrls];
+    const allPaths = [...staticPaths, ...blogEsUrls, ...blogEsUrlsWithPrefix, ...blogEnUrls];
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${allPaths
-    .map((path) => {
-        let priority = "0.7";
-        let changefreq = "monthly";
+            .map((path) => {
+                let priority = "0.7";
+                let changefreq = "monthly";
 
-        if (path === "/" || path === "/es/" || path === "/en/") {
-            priority = "1.0";
-            changefreq = "weekly";
-        } else if (path.includes("/blog/")) {
-            priority = "0.8";
-            changefreq = "monthly";
-        }
+                if (path === "/" || path === "/en/") {
+                    priority = "1.0";
+                    changefreq = "weekly";
+                } else if (path.startsWith("/es/")) {
+                    priority = "0.6";
+                    changefreq = "monthly";
+                } else if (path.includes("/blog/")) {
+                    priority = "0.8";
+                    changefreq = "monthly";
+                }
 
-        return `  <url><loc>${base}${path}</loc><changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`;
-    })
-    .join("\n")}
+                return `  <url><loc>${base}${path}</loc><changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`;
+            })
+            .join("\n")}
 </urlset>`;
 
     return new Response(xml, {

@@ -52,8 +52,8 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                             key={lang}
                             href={`/${lang}${currentPath || "/"}`}
                             className={`px-3 py-1 rounded text-sm font-medium ${currentLang === lang
-                                    ? "bg-black text-white"
-                                    : "bg-gray-100 text-black hover:bg-gray-200"
+                                ? "bg-black text-white"
+                                : "bg-gray-100 text-black hover:bg-gray-200"
                                 }`}
                         >
                             {languageNames[lang].code}
@@ -77,8 +77,8 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                         key={lang}
                         href={createLanguageUrl(lang)}
                         className={`px-3 py-1 rounded text-sm font-medium ${currentLang === lang
-                                ? "bg-black text-white"
-                                : "bg-gray-100 text-black hover:bg-gray-200"
+                            ? "bg-black text-white"
+                            : "bg-gray-100 text-black hover:bg-gray-200"
                             }`}
                     >
                         {languageNames[lang].code}
