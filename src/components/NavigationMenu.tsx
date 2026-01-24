@@ -136,8 +136,8 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
     };
 
     return (
-        <header className={cn("w-full bg-background fixed h-15 flex items-center z-50 overflow-x-hidden", className)}>
-            <div className="container mx-auto px-4 flex h-fit items-center justify-between overflow-x-hidden">
+        <header className={cn("w-full bg-background fixed h-15 flex items-center z-50", className)}>
+            <div className="container mx-auto px-4 flex h-fit items-center justify-between">
                 <Logo lang={lang} />
 
                 <div className="flex items-center gap-4">
@@ -150,7 +150,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     <MenuButton isOpen={isMobileMenuOpen} onClick={toggleMobileMenu} />
                 </div>
 
-                <div className="hidden md:block flex-1">
+                <div className="hidden md:block flex-1 relative overflow-visible">
                     <NavigationMenu className="mx-auto flex justify-center">
                         <NavigationMenuList>
                             <NavigationMenuItem>
