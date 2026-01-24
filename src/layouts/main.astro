@@ -33,7 +33,7 @@ const defaultImageAlt =
     lang === "es" ? "Edena - Software de Gestión Escolar" : "Edena - School Management Software";
 ---
 
-<html lang={lang}>
+<html lang={lang} class="overflow-x-hidden">
     <head>
         <ClientRouter />
         <meta charset="utf-8" />
@@ -159,9 +159,9 @@ const defaultImageAlt =
         </script>
         <!-- End Google Tag Manager -->
     </head>
-    <body class="min-h-screen flex flex-col gap-8">
+    <body class="min-h-screen flex flex-col gap-8 overflow-x-hidden">
         <MainNavigationMenu client:load lang={lang} />
-        <main class="pt-15 flex-grow">
+        <main class="pt-15 flex-grow w-full overflow-x-hidden">
             <slot />
         </main>
         <Footer lang={lang} />

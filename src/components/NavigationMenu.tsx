@@ -136,8 +136,8 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
     };
 
     return (
-        <header className={cn("w-full bg-background fixed h-15 flex items-center z-50", className)}>
-            <div className="container mx-auto px-4 flex h-fit items-center justify-between">
+        <header className={cn("w-full bg-background fixed h-15 flex items-center z-50 overflow-x-hidden", className)}>
+            <div className="container mx-auto px-4 flex h-fit items-center justify-between overflow-x-hidden">
                 <Logo lang={lang} />
 
                 <div className="flex items-center gap-4">

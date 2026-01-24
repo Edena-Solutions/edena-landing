@@ -179,7 +179,7 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
     }, [autoplayPaused]);
 
     return (
-        <GSAPSection className="relative w-full">
+        <GSAPSection className="relative w-full overflow-x-hidden">
             <div className="flex flex-col">
                 <div className="flex flex-col gap-4 text-center px-4 max-w-xl mx-auto">
                     <h2 className="text-xl font-bold">{t.carousel.title}</h2>
