@@ -122,9 +122,8 @@ const features = [
         />
         <FAQs t={t} />
     </GSAPSection>
-    
-    <!-- Structured Data -->
     <SoftwareApplicationSchema
+        slot="structured-data"
         name="Edena - Panel de Control Escolar"
         description={t.meta.dashboardDescription}
         applicationCategory="EducationalApplication"
@@ -134,6 +133,7 @@ const features = [
     />
     {dashboardFaqs?.data.faqs && (
         <FAQPageSchema 
+            slot="structured-data"
             faqs={dashboardFaqs.data.faqs} 
             translations={t.faqs}
             lang={lang}

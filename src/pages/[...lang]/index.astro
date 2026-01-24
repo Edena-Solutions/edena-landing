@@ -57,16 +57,8 @@ const features = [
 ---
 
 <Layout content={{ title: t.meta.homeTitle, description: t.meta.homeDescription }} lang={lang}>
-    <section class="grid gap-16">
-        <Hero t={t} />
-        <MarketStats t={t} />
-        <KeyFeaturesTabs client:load t={t} />
-        <Features client:load t={t} features={features} />
-        <Conclusion lang={lang} />
-    </section>
-    
-    <!-- Structured Data -->
     <SoftwareApplicationSchema
+        slot="structured-data"
         name="Edena"
         description={t.meta.homeDescription}
         applicationCategory="EducationalApplication"
@@ -78,4 +70,11 @@ const features = [
             reviewCount: "500"
         }}
     />
+    <section class="grid gap-16">
+        <Hero t={t} />
+        <MarketStats t={t} />
+        <KeyFeaturesTabs client:load t={t} />
+        <Features client:load t={t} features={features} />
+        <Conclusion lang={lang} />
+    </section>
 </Layout>

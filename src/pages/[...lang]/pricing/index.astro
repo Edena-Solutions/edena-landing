@@ -34,17 +34,16 @@ const offers = pricingPlans
 ---
 
 <Layout content={{ title: t.meta.pricingTitle, description: t.meta.pricingDescription }} lang={lang}>
-    <section class="grid gap-16 px-4">
-        <Hero t={t} />
-        <Plans t={t} />
-    </section>
-    
-    <!-- Structured Data -->
     <ProductSchema
+        slot="structured-data"
         name="Edena - Software de Gestión Escolar"
         description={t.meta.pricingDescription}
         offers={offers}
         category="Software de Gestión Escolar"
         lang={lang}
     />
+    <section class="grid gap-16 px-4">
+        <Hero t={t} />
+        <Plans t={t} />
+    </section>
 </Layout>

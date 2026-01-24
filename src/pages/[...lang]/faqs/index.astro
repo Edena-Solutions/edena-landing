@@ -27,13 +27,12 @@ const faqEntry = await getEntry('faqs', 'faqspage');
         <Hero t={t} />
         <FAQs t={t} />
     </GSAPSection>
-    
-    <!-- Structured Data -->
-    {faqEntry?.data.faqs && (
-        <FAQPageSchema 
-            faqs={faqEntry.data.faqs} 
-            translations={t.faqs}
-            lang={lang}
-        />
-    )}
 </Layout>
+{faqEntry?.data.faqs && (
+    <FAQPageSchema 
+        slot="structured-data"
+        faqs={faqEntry.data.faqs} 
+        translations={t.faqs}
+        lang={lang}
+    />
+)}

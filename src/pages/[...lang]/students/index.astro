@@ -115,9 +115,8 @@ const features = [
         />
         <FAQs t={t} />
     </GSAPSection>
-    
-    <!-- Structured Data -->
     <SoftwareApplicationSchema
+        slot="structured-data"
         name="Edena - Sistema de Información Estudiantil"
         description={t.meta.studentsDescription}
         applicationCategory="EducationalApplication"
@@ -127,6 +126,7 @@ const features = [
     />
     {studentsFaqs?.data.faqs && (
         <FAQPageSchema 
+            slot="structured-data"
             faqs={studentsFaqs.data.faqs} 
             translations={t.faqs}
             lang={lang}

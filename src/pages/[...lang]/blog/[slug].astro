@@ -95,9 +95,8 @@ const ogImageHeight = post.data.cover ? "630" : "630";
             </article>
         </div>
     </div>
-
-    <!-- Structured Data -->
     <ArticleSchema
+        slot="structured-data"
         title={post.data.title}
         description={post.data.description}
         date={post.data.date}
@@ -107,6 +106,7 @@ const ogImageHeight = post.data.cover ? "630" : "630";
         lang={lang}
     />
     <BreadcrumbListSchema
+        slot="structured-data"
         items={[
             { name: lang === "es" ? "Inicio" : "Home", url: homeUrl },
             { name: t.navigation.blog, url: blogUrl },
