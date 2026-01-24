@@ -205,6 +205,21 @@
     body {
         @apply bg-background text-foreground;
     }
+
+    input,
+    textarea,
+    select {
+        font-size: 16px !important;
+    }
+
+    @media screen and (min-width: 768px) {
+
+        input,
+        textarea,
+        select {
+            font-size: inherit;
+        }
+    }
 }
 
 @keyframes spin-slow {
