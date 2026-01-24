@@ -226,12 +226,12 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                         <div className="container px-4 py-4 space-y-4 max-h-[calc(100vh-3.75rem)] overflow-y-auto">
                             <div className="space-y-1">
                                 <div className="text-[10px] font-semibold uppercase tracking-widest">{t.navigation.products}</div>
-                                <ul className="space-y-1">
+                                <ul>
                                     {products.map((item) => (
                                         <li key={item.title}>
                                             <a
                                                 href={item.href}
-                                                className="block py-2 text-sm hover:text-primary"
+                                                className="block py-2 text-xs hover:text-primary"
                                             >
                                                 {item.title}
                                             </a>
@@ -242,12 +242,12 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
 
                             <div className="space-y-1">
                                 <div className="text-[10px] font-semibold uppercase tracking-widest">{t.navigation.functionalities}</div>
-                                <ul className="space-y-1">
+                                <ul>
                                     {functionalities.map((item) => (
                                         <li key={item.title}>
                                             <a
                                                 href={item.href}
-                                                className="block py-2 text-sm hover:text-primary"
+                                                className="block py-2 text-xs hover:text-primary"
                                             >
                                                 {item.title}
                                             </a>
@@ -255,29 +255,31 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="space-y-1">
-                                <a
-                                    href={`/${lang}/pricing`}
-                                    className="block py-2 text-sm hover:text-primary"
-                                >
-                                    {t.navigation.pricing}
-                                </a>
-                            </div>
-                            <div className="space-y-1">
-                                <a
-                                    href={`/${lang}/faqs`}
-                                    className="block py-2 text-sm hover:text-primary"
-                                >
-                                    {t.navigation.faqs}
-                                </a>
-                            </div>
-                            <div className="space-y-1">
-                                <a
-                                    href={`/${lang}/blog`}
-                                    className="block py-2 text-sm hover:text-primary"
-                                >
-                                    {t.navigation.blog}
-                                </a>
+                            <div>
+                                <div>
+                                    <a
+                                        href={`/${lang}/pricing`}
+                                        className="block py-2 text-xs hover:text-primary"
+                                    >
+                                        {t.navigation.pricing}
+                                    </a>
+                                </div>
+                                <div>
+                                    <a
+                                        href={`/${lang}/faqs`}
+                                        className="block py-2 text-xs hover:text-primary"
+                                    >
+                                        {t.navigation.faqs}
+                                    </a>
+                                </div>
+                                <div>
+                                    <a
+                                        href={`/${lang}/blog`}
+                                        className="block py-2 text-xs hover:text-primary"
+                                    >
+                                        {t.navigation.blog}
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
