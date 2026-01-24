@@ -13,6 +13,7 @@ interface SectionCard {
     image: ImageMetadata;
     imageClass?: string;
     cardClass?: string;
+    altText?: string;
 }
 
 interface Props {
@@ -69,7 +70,7 @@ const {
                         <CardFooter>
                             <Image
                                 src={leftCard.image}
-                                alt={leftCard.title || "Image"}
+                                alt={leftCard.altText || leftCard.title || t.altText.heroImage}
                                 class={leftCard.imageClass || "w-full"}
                             />
                         </CardFooter>
@@ -86,7 +87,7 @@ const {
                     <CardFooter>
                         <Image
                             src={leftCard.image}
-                            alt={leftCard.title || "Image"}
+                            alt={leftCard.altText || leftCard.title || t.altText.heroImage}
                             class={leftCard.imageClass || "w-full"}
                         />
                     </CardFooter>
@@ -116,7 +117,7 @@ const {
                         <CardFooter>
                             <Image
                                 src={rightCard.image}
-                                alt={rightCard.title || "Image"}
+                                alt={rightCard.altText || rightCard.title || t.altText.heroImage}
                                 class={rightCard.imageClass || "w-full"}
                             />
                         </CardFooter>
@@ -133,7 +134,7 @@ const {
                     <CardFooter>
                         <Image
                             src={rightCard.image}
-                            alt={rightCard.title || "Image"}
+                            alt={rightCard.altText || rightCard.title || t.altText.heroImage}
                             class={rightCard.imageClass || "w-auto"}
                         />
                     </CardFooter>

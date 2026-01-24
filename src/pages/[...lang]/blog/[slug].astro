@@ -4,6 +4,8 @@ import Layout from "@/layouts/main.astro";
 import { translations } from "@/i18n/index.ts";
 import { ChevronLeft } from "lucide-react";
 import TableOfContents from "@/components/TableOfContents";
+import ArticleSchema from "@/components/StructuredData/Article.astro";
+import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
 
 export async function getStaticPaths() {
     const postsEs = await getCollection("blogEs");
@@ -28,9 +30,29 @@ const collectionName = lang === "en" ? "blogEn" : "blogEs";
 const post = await getEntry(collectionName, slug);
 if (!post) throw new Error("Post not found");
 const { Content } = await post.render();
+
+const postUrl = `https://edena.es/${lang}/blog/${slug}`;
+const blogUrl = `https://edena.es/${lang}/blog`;
+const homeUrl = `https://edena.es/${lang === "es" ? "" : lang + "/"}`;
+
+const publishedDate = new Date(post.data.date).toISOString();
+const ogImage = post.data.cover || "https://edena.es/assets/img/favicon.png";
+const ogImageWidth = post.data.cover ? "1200" : "1200";
+const ogImageHeight = post.data.cover ? "630" : "630";
 ---
 
-<Layout content={{ title: post.data.title, description: post.data.description }} lang={lang}>
+<Layout
+    content={{
+        title: post.data.title,
+        description: post.data.description,
+        ogImage: ogImage,
+        ogImageWidth: ogImageWidth,
+        ogImageHeight: ogImageHeight,
+        articleAuthor: post.data.author || "Edena Team",
+        articlePublishedTime: publishedDate,
+    }}
+    lang={lang}
+>
     <div class="max-w-7xl mx-auto py-6 px-4">
         <a
             href={`/${lang}/blog/`}
@@ -73,4 +95,23 @@ const { Content } = await post.render();
             </article>
         </div>
     </div>
+
+    <!-- Structured Data -->
+    <ArticleSchema
+        title={post.data.title}
+        description={post.data.description}
+        date={post.data.date}
+        author={post.data.author}
+        cover={post.data.cover}
+        url={postUrl}
+        lang={lang}
+    />
+    <BreadcrumbListSchema
+        items={[
+            { name: lang === "es" ? "Inicio" : "Home", url: homeUrl },
+            { name: t.navigation.blog, url: blogUrl },
+            { name: post.data.title, url: postUrl },
+        ]}
+        lang={lang}
+    />
 </Layout>

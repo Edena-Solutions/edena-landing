@@ -1,99 +1,168 @@
 ---
-import '@/styles/global.css';
-import MainNavigationMenu from '@/components/NavigationMenu';
-import Footer from '@/components/Footer.astro';
-import { ClientRouter } from 'astro:transitions';
+import "@/styles/global.css";
+import MainNavigationMenu from "@/components/NavigationMenu";
+import Footer from "@/components/Footer.astro";
+import { ClientRouter } from "astro:transitions";
+import OrganizationSchema from "@/components/StructuredData/Organization.astro";
+import { translations } from "@/i18n/index.ts";
 
 interface Props {
-  content?: {
-    title?: string;
-    description?: string;
-  };
-  lang?: string;
+    content?: {
+        title?: string;
+        description?: string;
+        ogImage?: string;
+        ogImageWidth?: string;
+        ogImageHeight?: string;
+        articleAuthor?: string;
+        articlePublishedTime?: string;
+    };
+    lang?: string;
 }
 
-const { 
-  content = {
-    title: "School ERP | Edena",
-    description: "School Management System"
-  },
-  lang = "es"
-} = Astro.props;
+const { content = {}, lang = "es" } = Astro.props;
+
+const t = translations[lang as keyof typeof translations];
+
+const title = content.title || t.meta.homeTitle;
+const description = content.description || t.meta.homeDescription;
+const ogImage = content.ogImage || "https://edena.es/assets/img/favicon.png";
+const ogImageWidth = content.ogImageWidth || "1200";
+const ogImageHeight = content.ogImageHeight || "630";
+
+const defaultImageAlt =
+    lang === "es" ? "Edena - Software de Gestión Escolar" : "Edena - School Management Software";
 ---
 
 <html lang={lang}>
-  <head>
-    <ClientRouter />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-    <meta name="description" content={content.description} />
-    <title>{content.title}</title>
-    <!-- Canonical -->
-    {Astro.url.pathname.startsWith('/es/') ? (
-      <link rel="canonical" href={`https://edena.es${Astro.url.pathname.replace('/es/', '/')}`} />
-    ) : (
-      <link rel="canonical" href={`https://edena.es${Astro.url.pathname}`} />
-    )}
-    <!-- Alternate languages (hreflang) -->
-    {Astro.url.pathname === '/' ? (
-      <>
-        <link rel="alternate" hreflang="es" href="https://edena.es/" />
-        <link rel="alternate" hreflang="en" href="https://edena.es/en/" />
-        <link rel="alternate" hreflang="x-default" href="https://edena.es/" />
-      </>
-    ) : Astro.url.pathname.startsWith('/es/') ? (
-      <>
-        <link rel="alternate" hreflang="es" href={`https://edena.es${Astro.url.pathname.replace('/es/', '/')}`} />
-        <link rel="alternate" hreflang="en" href={`https://edena.es${Astro.url.pathname.replace('/es/', '/en/')}`} />
-        <link rel="alternate" hreflang="x-default" href={`https://edena.es${Astro.url.pathname.replace('/es/', '/')}`} />
-      </>
-    ) : Astro.url.pathname.startsWith('/en/') ? (
-      <>
-        <link rel="alternate" hreflang="es" href={`https://edena.es${Astro.url.pathname.replace('/en/', '/')}`} />
-        <link rel="alternate" hreflang="en" href={`https://edena.es${Astro.url.pathname}`} />
-        <link rel="alternate" hreflang="x-default" href={`https://edena.es${Astro.url.pathname.replace('/en/', '/')}`} />
-      </>
-    ) : null}
-    <!-- Favicons -->
-    <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content={lang === 'es' ? 'es_ES' : 'en_US'} />
-    <meta property="og:title" content={content.title} />
-    <meta property="og:description" content={content.description} />
-    <meta property="og:url" content={`https://edena.es${Astro.url.pathname}`} />
-    <meta property="og:site_name" content="Edena" />
-    <meta property="og:image" content="/assets/img/favicon.png" />
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={content.title} />
-    <meta name="twitter:description" content={content.description} />
-    <meta name="twitter:image" content="/assets/img/favicon.png" />
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-    <!-- Google Tag Manager -->
-    <script is:inline>
-      (function(w,d,s,l,i){
-        w[l]=w[l]||[];
-        w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
-        var f=d.getElementsByTagName(s)[0];
-        var j=d.createElement(s);
-        var dl=l!='dataLayer'?'&l='+l:'';
-        j.async=true;
-        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-        if(f.parentNode) {
-          f.parentNode.insertBefore(j,f);
+    <head>
+        <ClientRouter />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="robots"
+            content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta name="description" content={description} />
+        <title>{title}</title>
+        <!-- Canonical -->
+        {
+            Astro.url.pathname.startsWith("/es/") ? (
+                <link
+                    rel="canonical"
+                    href={`https://edena.es${Astro.url.pathname.replace("/es/", "/")}`}
+                />
+            ) : (
+                <link rel="canonical" href={`https://edena.es${Astro.url.pathname}`} />
+            )
         }
-      })(window,document,'script','dataLayer','GTM-PF9S2VJ8');
-    </script>
-    <!-- End Google Tag Manager -->
-  </head>
-  <body class="min-h-screen flex flex-col gap-8">
-    <MainNavigationMenu client:load lang={lang}/>
-    <main class="pt-15 flex-grow">
-      <slot />
-    </main>
-    <Footer lang={lang}/>
-  </body>
+        <!-- Alternate languages (hreflang) -->
+        {
+            Astro.url.pathname === "/" ? (
+                <>
+                    <link rel="alternate" hreflang="es" href="https://edena.es/" />
+                    <link rel="alternate" hreflang="en" href="https://edena.es/en/" />
+                    <link rel="alternate" hreflang="x-default" href="https://edena.es/" />
+                </>
+            ) : Astro.url.pathname.startsWith("/es/") ? (
+                <>
+                    <link
+                        rel="alternate"
+                        hreflang="es"
+                        href={`https://edena.es${Astro.url.pathname.replace("/es/", "/")}`}
+                    />
+                    <link
+                        rel="alternate"
+                        hreflang="en"
+                        href={`https://edena.es${Astro.url.pathname.replace("/es/", "/en/")}`}
+                    />
+                    <link
+                        rel="alternate"
+                        hreflang="x-default"
+                        href={`https://edena.es${Astro.url.pathname.replace("/es/", "/")}`}
+                    />
+                </>
+            ) : Astro.url.pathname.startsWith("/en/") ? (
+                <>
+                    <link
+                        rel="alternate"
+                        hreflang="es"
+                        href={`https://edena.es${Astro.url.pathname.replace("/en/", "/")}`}
+                    />
+                    <link
+                        rel="alternate"
+                        hreflang="en"
+                        href={`https://edena.es${Astro.url.pathname}`}
+                    />
+                    <link
+                        rel="alternate"
+                        hreflang="x-default"
+                        href={`https://edena.es${Astro.url.pathname.replace("/en/", "/")}`}
+                    />
+                </>
+            ) : null
+        }
+        <!-- Favicons -->
+        <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+        <!-- Theme Color for Mobile -->
+        <meta name="theme-color" content="#1E1E1E" />
+        <!-- Open Graph -->
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content={lang === "es" ? "es_ES" : "en_US"} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={`https://edena.es${Astro.url.pathname}`} />
+        <meta property="og:site_name" content="Edena" />
+        <meta property="og:image" content={ogImage} />
+        <meta property="og:image:width" content={ogImageWidth} />
+        <meta property="og:image:height" content={ogImageHeight} />
+        <meta property="og:image:alt" content={title || defaultImageAlt} />
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@edena" />
+        <meta name="twitter:creator" content="@edena" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={ogImage} />
+        <meta name="twitter:image:alt" content={title || defaultImageAlt} />
+        {
+            content.articleAuthor && (
+                <meta property="article:author" content={content.articleAuthor} />
+            )
+        }
+        {
+            content.articlePublishedTime && (
+                <meta property="article:published_time" content={content.articlePublishedTime} />
+            )
+        }
+        <!-- Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Google Tag Manager -->
+        <script is:inline>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+                var f = d.getElementsByTagName(s)[0];
+                var j = d.createElement(s);
+                var dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                if (f.parentNode) {
+                    f.parentNode.insertBefore(j, f);
+                }
+            })(window, document, "script", "dataLayer", "GTM-PF9S2VJ8");
+        </script>
+        <!-- End Google Tag Manager -->
+        <!-- Structured Data -->
+        <OrganizationSchema lang={lang} />
+    </head>
+    <body class="min-h-screen flex flex-col gap-8">
+        <MainNavigationMenu client:load lang={lang} />
+        <main class="pt-15 flex-grow">
+            <slot />
+        </main>
+        <Footer lang={lang} />
+    </body>
 </html>

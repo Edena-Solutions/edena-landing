@@ -25,6 +25,7 @@ export default function KeyFeaturesTabs({ t }: Props) {
     const title = t?.features?.keyFeaturesTabsTitle || es.features.keyFeaturesTabsTitle;
     const description = t?.features?.keyFeaturesTabsDescription || es.features.keyFeaturesTabsDescription;
     const goToFeature = t?.features?.keyFeaturesTabsGoToFeature || es.features.keyFeaturesTabsGoToFeature;
+    const altTexts = t?.altText || es.altText;
     const [active, setActive] = useState(0);
     const [displayed, setDisplayed] = useState(0);
     const [lastChange, setLastChange] = useState(Date.now());
@@ -35,6 +36,16 @@ export default function KeyFeaturesTabs({ t }: Props) {
     const cardRef = useRef<HTMLDivElement>(null);
     const animating = useRef(false);
     const cardInnerRef = useRef<HTMLDivElement>(null);
+
+    // Map images to specific alt texts
+    const getImageAltText = (img: any) => {
+        if (img === app) return altTexts.appDetail;
+        if (img === dashboard) return altTexts.dashboardHero;
+        if (img === finance) return altTexts.billingCycle;
+        if (img === guardians) return altTexts.guardiansHero;
+        if (img === students) return altTexts.studentClassroom;
+        return altTexts.heroImage;
+    };
 
     const features = [
         {
@@ -204,7 +215,7 @@ export default function KeyFeaturesTabs({ t }: Props) {
                     <div ref={cardInnerRef} className="flex flex-col sm:flex-row w-full h-full sm:items-center">
                         <img
                             src={features[displayed].img.src}
-                            alt={features[displayed].title}
+                            alt={getImageAltText(features[displayed].img)}
                             className={cn(
                                 "w-full sm:w-2/3 object-cover object-top pt-5 h-50 sm:h-full",
                                 features[displayed].customClass

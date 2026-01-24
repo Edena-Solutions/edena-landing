@@ -3,24 +3,24 @@ export default {
     downloadTheApp: "Download The App",
     knowMore: "See How It Works",
     meta: {
-        homeTitle: "School Management System | Edena",
+        homeTitle: "School Management Software | Educational ERP | Edena",
         homeDescription:
-            "Transform your school with Edena's all-in-one educational management platform. Streamline administration, boost parent engagement, and automate academic processes. Trusted by 500+ schools. Book your free demo today.",
-        pricingTitle: "School Management Software Pricing | Edena",
+            "All-in-one school management software for schools and daycares. Student management, billing, family communication, and mobile app. Reduce costs 25% and increase family satisfaction 60%. Free demo.",
+        pricingTitle: "School Management Software Pricing | Plans from €99/month | No Hidden Costs",
         pricingDescription:
-            "Choose the perfect Edena plan for your educational institution. From basic student management to comprehensive ERP solutions. Transparent pricing with no hidden fees. Start your free trial today.",
+            "School management plans tailored to your institution. From basic student management to complete ERP. Transparent pricing, no commitment. 30-day free trial.",
         faqsTitle: "School Management Software FAQs | Edena's Complete Guide to Educational ERP",
         faqsDescription:
             "Find answers to common questions about Edena's school management software. Learn about features, implementation, pricing, and how our platform can transform your educational institution.",
         dashboardTitle: "School Dashboard Software | Real-Time Analytics & Management Tools",
         dashboardDescription:
             "Get real-time insights into your school's performance with Edena's comprehensive dashboard. Monitor attendance, track academic progress, manage finances, and communicate with families from one central platform.",
-        studentsTitle: "Student Information System (SIS) | Complete Student Management Software",
+        studentsTitle: "Student Information System (SIS) | Complete Academic Management",
         studentsDescription:
-            "Manage student records, attendance, grades, and communication efficiently with Edena's comprehensive Student Information System. Streamline administrative tasks and improve student outcomes.",
-        appTitle: "School Management Mobile App | Parent & Teacher Communication Platform",
+            "SIS software for student management: digital records, automatic attendance, grades and report cards. Reduces administrative tasks by 40%.",
+        appTitle: "Mobile App for Schools | Family-School Communication | Edena Kids",
         appDescription:
-            "Stay connected with Edena's mobile app for parents and teachers. Receive instant notifications, view student progress, communicate securely, and access school information from anywhere.",
+            "Free mobile app for families and teachers. Real-time notifications, academic tracking, secure messaging and offline access. Available iOS and Android.",
         demoTitle: "Book Your Free School Management Software Demo | See Edena in Action",
         demoDescription:
             "Experience Edena's school management platform firsthand. Book a personalized demo to see how our software can streamline your educational institution's operations and improve family engagement.",
@@ -29,9 +29,9 @@ export default {
         financeDescription:
             "Automate your school's financial management with Edena. Handle billing, invoicing, payment tracking, and financial reporting efficiently. Reduce administrative workload and improve cash flow.",
         guardiansTitle:
-            "Family & Guardian Management Software | Communication Platform for Families & Teachers",
+            "School Family Portal | School-Educational Communication | Edena",
         guardiansDescription:
-            "Enhance family engagement with Edena's guardian management platform. Streamline communication, share student progress, and keep families informed with our comprehensive family portal.",
+            "Family portal: real-time academic tracking, secure messaging with teachers, event calendar and payment portal. Increases family engagement by 60%.",
         privacyTitle: "Privacy Policy | Edena School Management Software",
         privacyDescription:
             "Learn how Edena protects your school's data and maintains privacy standards. Our comprehensive privacy policy ensures the security of student, family, and institutional information.",
@@ -876,5 +876,29 @@ Users can configure their browser to accept, reject, or delete cookies. Disablin
 By browsing our website, the user accepts the use of cookies under the conditions set out in this policy.<br>
 5. MORE INFORMATION<br>
 For any questions about our cookie policy, you can contact privacidad@edena.es.`,
+    },
+    altText: {
+        logo: "Edena Logo - School Management Software",
+        heroImage: "Edena school management dashboard showing real-time analytics and administrative tools",
+        appStoreBadge: "Download Edena on App Store",
+        googlePlayBadge: "Download Edena on Google Play",
+        appDetail: "Edena mobile app for families with student attendance notifications and school communication",
+        dashboardHero: "Edena school dashboard with real-time metrics and analytics",
+        studentsHero: "Edena student information system with academic records management",
+        guardiansHero: "Edena family portal for communication and academic tracking",
+        financeHero: "Edena financial suite with automated billing and payment management",
+        billingCycle: "Automated billing cycle in Edena for educational centers",
+        invoiceAnalytics: "Financial analytics and billing reports in Edena",
+        emailInvoice: "Paperless electronic invoicing in Edena",
+        studentDetail: "Student detail in Edena showing complete academic information",
+        studentClassroom: "Classroom and educational space management in Edena",
+        organization: "Student and group organization in Edena",
+        guardianManagement: "Family and guardian management panel in Edena",
+        appFeed: "Notifications and updates feed in Edena mobile app",
+        appHero: "Edena mobile app home screen for families",
+        quickActions: "Quick actions from Edena school dashboard",
+        notifications: "Real-time notification system in Edena",
+        calendar: "Integrated school calendar in Edena",
+        conclusionLogo: "Edena Logo - Transform your school management",
     },
 };

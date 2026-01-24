@@ -1,0 +1,69 @@
+---
+// Product Schema - Para página de pricing
+interface Offer {
+  price: string;
+  priceCurrency: string;
+  availability?: string;
+  url?: string;
+}
+
+interface Props {
+  name: string;
+  description: string;
+  offers: Offer[];
+  brand?: string;
+  category?: string;
+  lang?: string;
+}
+
+const {
+  name,
+  description,
+  offers,
+  brand = "Edena",
+  category = "Software",
+  lang = "es",
+} = Astro.props;
+
+interface ProductSchema {
+  "@context": string;
+  "@type": string;
+  "name": string;
+  "description": string;
+  "inLanguage": string;
+  "brand": {
+    "@type": string;
+    "name": string;
+  };
+  "category": string;
+  "offers": Array<{
+    "@type": string;
+    "price": string;
+    "priceCurrency": string;
+    "availability": string;
+    "url": string;
+  }>;
+}
+
+const productSchema: ProductSchema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": name,
+  "description": description,
+  "inLanguage": lang === "es" ? "es-ES" : "en-US",
+  "brand": {
+    "@type": "Brand",
+    "name": brand,
+  },
+  "category": category,
+  "offers": offers.map((offer) => ({
+    "@type": "Offer",
+    "price": offer.price,
+    "priceCurrency": offer.priceCurrency,
+    "availability": offer.availability || "https://schema.org/InStock",
+    "url": offer.url || "https://edena.es/pricing",
+  })),
+};
+---
+
+<script type="application/ld+json" is:inline set:html={JSON.stringify(productSchema)} />

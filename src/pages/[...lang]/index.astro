@@ -6,6 +6,7 @@ import Conclusion from "@/modules/home/Conclusion.astro";
 import MarketStats from "@/modules/home/MarketStats.astro";
 import KeyFeaturesTabs from "@/components/KeyFeaturesTabs";
 import Features from "@/components/Features";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 export function getStaticPaths() {
     return languages.map((lang) => ({
         params: { lang },
@@ -63,4 +64,18 @@ const features = [
         <Features client:load t={t} features={features} />
         <Conclusion lang={lang} />
     </section>
+    
+    <!-- Structured Data -->
+    <SoftwareApplicationSchema
+        name="Edena"
+        description={t.meta.homeDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang === 'es' ? '' : lang + '/'}`}
+        lang={lang}
+        aggregateRating={{
+            ratingValue: "4.8",
+            reviewCount: "500"
+        }}
+    />
 </Layout>

@@ -4,6 +4,8 @@ import { translations, languages } from '@/i18n/index.ts';
 import Layout from "@/layouts/main.astro";
 import Hero from '@/modules/pricing/Hero.astro';
 import Plans from '@/modules/pricing/Plans.astro';
+import ProductSchema from '@/components/StructuredData/Product.astro';
+import { getCollection } from 'astro:content';
 
 export function getStaticPaths() {
   return languages.map(lang => ({
@@ -14,6 +16,21 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const pricingPlans = await getCollection("pricing");
+
+// Prepare offers for Product schema
+const offers = pricingPlans
+  .filter((plan) => plan.data.price !== "Custom")
+  .map((plan) => {
+    const priceMatch = plan.data.price.match(/(\d+)/);
+    const price = priceMatch ? priceMatch[1] : "0";
+    return {
+      price: price,
+      priceCurrency: "EUR",
+      availability: "https://schema.org/InStock",
+      url: `https://edena.es/${lang}/pricing`,
+    };
+  });
 ---
 
 <Layout content={{ title: t.meta.pricingTitle, description: t.meta.pricingDescription }} lang={lang}>
@@ -21,4 +38,13 @@ const t = translations[lang as keyof typeof translations];
         <Hero t={t} />
         <Plans t={t} />
     </section>
+    
+    <!-- Structured Data -->
+    <ProductSchema
+        name="Edena - Software de Gestión Escolar"
+        description={t.meta.pricingDescription}
+        offers={offers}
+        category="Software de Gestión Escolar"
+        lang={lang}
+    />
 </Layout>

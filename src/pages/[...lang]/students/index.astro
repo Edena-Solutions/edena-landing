@@ -10,6 +10,9 @@ import heroImage from "@/assets/img/screenshots/students/students_hero.png";
 import studentDetail from "@/assets/img/screenshots/students/student_detail.png";
 import educationLevel from "@/assets/img/screenshots/students/student_classroom.png";
 import organization from "@/assets/img/screenshots/shared/organization.png";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { getCollection } from "astro:content";
 export function getStaticPaths() {
     return languages.map((lang) => ({
         params: { lang },
@@ -18,6 +21,10 @@ export function getStaticPaths() {
 }
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+
+// Get FAQs for structured data
+const faqsCollection = await getCollection("faqs");
+const studentsFaqs = faqsCollection.find((entry) => entry.id === "faqsStudents.md");
 
 const features = [
     {
@@ -79,6 +86,7 @@ const features = [
                 title: t.students.studentDetailTitle,
                 description: t.students.studentDetailDescription,
                 image: studentDetail,
+                altText: t.altText.studentDetail,
             }}
         />
         <Features
@@ -96,13 +104,32 @@ const features = [
                 title: t.students.classroomsTitle,
                 description: t.students.classroomsDescription,
                 image: organization,
+                altText: t.altText.organization,
             }}
             rightCard={{
                 title: t.students.classroomsDetailsTitle,
                 description: t.students.classroomsDetailsDescription,
                 image: educationLevel,
+                altText: t.altText.studentClassroom,
             }}
         />
         <FAQs t={t} />
     </GSAPSection>
+    
+    <!-- Structured Data -->
+    <SoftwareApplicationSchema
+        name="Edena - Sistema de Información Estudiantil"
+        description={t.meta.studentsDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/students`}
+        lang={lang}
+    />
+    {studentsFaqs?.data.faqs && (
+        <FAQPageSchema 
+            faqs={studentsFaqs.data.faqs} 
+            translations={t.faqs}
+            lang={lang}
+        />
+    )}
 </Layout>

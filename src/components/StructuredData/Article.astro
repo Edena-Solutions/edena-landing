@@ -1,0 +1,87 @@
+---
+// Article Schema - Para posts del blog
+interface Props {
+  title: string;
+  description: string;
+  date: string;
+  author?: string;
+  cover?: string;
+  url: string;
+  lang?: string;
+}
+
+const {
+  title,
+  description,
+  date,
+  author = "Edena Team",
+  cover,
+  url,
+  lang = "es",
+} = Astro.props;
+
+interface ArticleSchema {
+  "@context": string;
+  "@type": string;
+  "headline": string;
+  "description": string;
+  "datePublished": string;
+  "dateModified": string;
+  "inLanguage": string;
+  "author": {
+    "@type": string;
+    "name": string;
+  };
+  "publisher": {
+    "@type": string;
+    "name": string;
+    "logo": {
+      "@type": string;
+      "url": string;
+    };
+  };
+  "mainEntityOfPage": {
+    "@type": string;
+    "@id": string;
+  };
+  "image"?: {
+    "@type": string;
+    "url": string;
+  };
+}
+
+const articleSchema: ArticleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "datePublished": date,
+  "dateModified": date,
+  "inLanguage": lang === "es" ? "es-ES" : "en-US",
+  "author": {
+    "@type": "Organization",
+    "name": author,
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Edena",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://edena.es/assets/img/logo.png",
+    },
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": url,
+  },
+};
+
+if (cover) {
+  articleSchema.image = {
+    "@type": "ImageObject",
+    "url": cover.startsWith("http") ? cover : `https://edena.es${cover}`,
+  };
+}
+---
+
+<script type="application/ld+json" is:inline set:html={JSON.stringify(articleSchema)} />

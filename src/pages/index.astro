@@ -7,6 +7,7 @@ import Conclusion from "@/modules/home/Conclusion.astro";
 import MarketStats from "@/modules/home/MarketStats.astro";
 import KeyFeaturesTabs from "@/components/KeyFeaturesTabs";
 import Features from "@/components/Features";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 
 const lang = "es";
 const t = translations[lang];
@@ -60,4 +61,18 @@ const features = [
         <Carrousel client:load t={t} lang={lang} />
         <Conclusion lang={lang} />
     </section>
+    
+    <!-- Structured Data -->
+    <SoftwareApplicationSchema
+        name="Edena"
+        description={t.meta.homeDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url="https://edena.es/"
+        lang={lang}
+        aggregateRating={{
+            ratingValue: "4.8",
+            reviewCount: "500"
+        }}
+    />
 </Layout>

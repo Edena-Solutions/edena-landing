@@ -9,6 +9,9 @@ import Features from "@/components/Features";
 import heroImage from "@/assets/img/screenshots/app/app_detail.png";
 import notifications from "@/assets/img/screenshots/app/app_feed.png";
 import feed from "@/assets/img/screenshots/app/app_hero.png";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { getCollection } from "astro:content";
 
 export function getStaticPaths() {
     return languages.map((lang) => ({
@@ -18,6 +21,10 @@ export function getStaticPaths() {
 }
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+
+// Get FAQs for structured data
+const faqsCollection = await getCollection("faqs");
+const appFaqs = faqsCollection.find((entry) => entry.id === "faqsApp.md");
 
 const features = [
     {
@@ -101,6 +108,7 @@ const features = [
                 image: feed,
                 imageClass: "object-cover md:w-2/3 mx-auto",
                 cardClass: "h-110",
+                altText: t.altText.appHero,
             }}
             rightCard={{
                 title: t.app.uploadPicturesAndVideosTitle,
@@ -108,8 +116,30 @@ const features = [
                 image: notifications,
                 imageClass: "object-cover md:w-2/3 mx-auto",
                 cardClass: "h-110",
+                altText: t.altText.appFeed,
             }}
         />
         <FAQs t={t} />
     </GSAPSection>
+    
+    <!-- Structured Data -->
+    <SoftwareApplicationSchema
+        name="Edena Kids"
+        description={t.meta.appDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["iOS", "Android", "Web"]}
+        url={`https://edena.es/${lang}/app`}
+        lang={lang}
+        aggregateRating={{
+            ratingValue: "4.8",
+            reviewCount: "150"
+        }}
+    />
+    {appFaqs?.data.faqs && (
+        <FAQPageSchema 
+            faqs={appFaqs.data.faqs} 
+            translations={t.faqs}
+            lang={lang}
+        />
+    )}
 </Layout>

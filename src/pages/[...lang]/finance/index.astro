@@ -11,6 +11,9 @@ import heroImage from "@/assets/img/screenshots/invoice/invoice_hero.png";
 import billingCycle from "@/assets/img/screenshots/finance/billing_cycle.png";
 import invoiceAnalytics from "@/assets/img/screenshots/finance/invoice_analytics.png";
 import emailInvoice from "@/assets/img/screenshots/finance/invoice_email.png";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { getCollection } from "astro:content";
 
 export function getStaticPaths() {
     return languages.map((lang) => ({
@@ -21,6 +24,10 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+
+// Get FAQs for structured data
+const faqsCollection = await getCollection("faqs");
+const financeFaqs = faqsCollection.find((entry) => entry.id === "faqsFinance.md");
 
 const features = [
     {
@@ -82,6 +89,7 @@ const features = [
                 title: t.finance.billingCycleTitle,
                 description: t.finance.billingCycleDescription,
                 image: billingCycle,
+                altText: t.altText.billingCycle,
             }}
         />
         <Features
@@ -99,13 +107,32 @@ const features = [
                 title: t.finance.analyticsTitle,
                 description: t.finance.analyticsDescription,
                 image: invoiceAnalytics,
+                altText: t.altText.invoiceAnalytics,
             }}
             rightCard={{
                 title: t.finance.paperlessBillingTitle,
                 description: t.finance.paperlessBillingDescription,
                 image: emailInvoice,
+                altText: t.altText.emailInvoice,
             }}
         />
         <FAQs t={t} />
     </GSAPSection>
+    
+    <!-- Structured Data -->
+    <SoftwareApplicationSchema
+        name="Edena - Suite Financiera"
+        description={t.meta.financeDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/finance`}
+        lang={lang}
+    />
+    {financeFaqs?.data.faqs && (
+        <FAQPageSchema 
+            faqs={financeFaqs.data.faqs} 
+            translations={t.faqs}
+            lang={lang}
+        />
+    )}
 </Layout>

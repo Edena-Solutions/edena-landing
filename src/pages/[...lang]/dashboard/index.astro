@@ -11,6 +11,9 @@ import heroImage from "@/assets/img/screenshots/shared/hero.png";
 import quickActions from "@/assets/img/screenshots/dashboard/dashboard_quickactions.png";
 import notificationsImage from "@/assets/img/screenshots/dashboard/dashboard_notifications.png";
 import calendar from "@/assets/img/screenshots/dashboard/dashboard_calendar.png";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { getCollection } from "astro:content";
 
 export function getStaticPaths() {
     return languages.map((lang) => ({
@@ -21,6 +24,10 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+
+// Get FAQs for structured data
+const faqsCollection = await getCollection("faqs");
+const dashboardFaqs = faqsCollection.find((entry) => entry.id === "faqsDashboard.md");
 
 const features = [
     {
@@ -84,6 +91,7 @@ const features = [
                 image: quickActions,
                 imageClass: "object-cover md:w-2/3 mx-auto",
                 cardClass: "h-110",
+                altText: t.altText.quickActions,
             }}
         />
         <Features
@@ -101,6 +109,7 @@ const features = [
                 title: t.dashboard.calendarTitle,
                 description: t.dashboard.calendarDescription,
                 image: calendar,
+                altText: t.altText.calendar,
             }}
             rightCard={{
                 title: t.dashboard.realTimeNotificationsExtendedTitle,
@@ -108,8 +117,26 @@ const features = [
                 image: notificationsImage,
                 imageClass: "object-cover md:w-2/3 mx-auto",
                 cardClass: "h-110",
+                altText: t.altText.notifications,
             }}
         />
         <FAQs t={t} />
     </GSAPSection>
+    
+    <!-- Structured Data -->
+    <SoftwareApplicationSchema
+        name="Edena - Panel de Control Escolar"
+        description={t.meta.dashboardDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/dashboard`}
+        lang={lang}
+    />
+    {dashboardFaqs?.data.faqs && (
+        <FAQPageSchema 
+            faqs={dashboardFaqs.data.faqs} 
+            translations={t.faqs}
+            lang={lang}
+        />
+    )}
 </Layout>

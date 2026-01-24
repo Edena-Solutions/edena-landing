@@ -13,6 +13,7 @@ interface HeroCard {
     imageClass?: string;
     showButton?: boolean;
     cardClass?: string;
+    altText?: string;
     downloadAppButtons?: {
         androidUrl?: string;
         iosUrl?: string;
@@ -60,7 +61,7 @@ const {
             {showBookDemoInHero && <BookDemoButton t={t} />}
             <Image
                 src={heroImage}
-                alt="Hero"
+                alt={t.altText.heroImage}
                 loading="eager"
                 class={heroImageClass}
                 style={`aspect-ratio: ${heroImageAspectRatio};`}
@@ -118,7 +119,7 @@ const {
                             >
                                 <img
                                     src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1288569600"
-                                    alt="Download on the App Store"
+                                    alt={t.altText.appStoreBadge}
                                     class="h-9 w-auto"
                                 />
                             </a>
@@ -132,7 +133,7 @@ const {
                             >
                                 <img
                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/960px-Google_Play_Store_badge_EN.svg.png"
-                                    alt="Get it on Google Play"
+                                    alt={t.altText.googlePlayBadge}
                                     class="h-9 w-auto"
                                 />
                             </a>
@@ -143,7 +144,7 @@ const {
                         <CardFooter>
                             <Image
                                 src={rightCard.image}
-                                alt={rightCard.title || "Image"}
+                                alt={rightCard.altText || rightCard.title || t.altText.heroImage}
                                 loading="eager"
                                 class={rightCard.imageClass || "w-full mx-auto object-contain"}
                             />

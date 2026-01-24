@@ -1,0 +1,88 @@
+---
+// SoftwareApplication Schema - Para páginas de producto
+interface Props {
+  name: string;
+  description: string;
+  applicationCategory?: string;
+  operatingSystem?: string[];
+  offers?: {
+    price?: string;
+    priceCurrency?: string;
+  };
+  aggregateRating?: {
+    ratingValue: string;
+    reviewCount: string;
+  };
+  screenshot?: string;
+  url: string;
+  lang?: string;
+}
+
+const {
+  name,
+  description,
+  applicationCategory = "EducationalApplication",
+  operatingSystem = ["Web", "iOS", "Android"],
+  offers,
+  aggregateRating,
+  screenshot,
+  url,
+  lang = "es",
+} = Astro.props;
+
+interface SoftwareSchema {
+  "@context": string;
+  "@type": string;
+  "name": string;
+  "description": string;
+  "applicationCategory": string;
+  "operatingSystem": string[];
+  "url": string;
+  "inLanguage": string;
+  "offers": {
+    "@type": string;
+    "price": string;
+    "priceCurrency": string;
+  };
+  "screenshot"?: string;
+  "aggregateRating"?: {
+    "@type": string;
+    "ratingValue": string;
+    "reviewCount": string;
+  };
+}
+
+const softwareSchema: SoftwareSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": name,
+  "description": description,
+  "applicationCategory": applicationCategory,
+  "operatingSystem": operatingSystem,
+  "url": url,
+  "inLanguage": lang === "es" ? "es-ES" : "en-US",
+  "offers": offers ? {
+    "@type": "Offer",
+    "price": offers.price || "0",
+    "priceCurrency": offers.priceCurrency || "EUR"
+  } : {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  },
+};
+
+if (screenshot) {
+  softwareSchema.screenshot = screenshot;
+}
+
+if (aggregateRating) {
+  softwareSchema.aggregateRating = {
+    "@type": "AggregateRating",
+    "ratingValue": aggregateRating.ratingValue,
+    "reviewCount": aggregateRating.reviewCount,
+  };
+}
+---
+
+<script type="application/ld+json" is:inline set:html={JSON.stringify(softwareSchema)} />

@@ -10,6 +10,9 @@ import heroImage from "@/assets/img/screenshots/guardians/guardian_hero.png";
 import guardianManagement from "@/assets/img/screenshots/guardians/guardian_management.png";
 import appDetail from "@/assets/img/screenshots/app/app_detail.png";
 import emailInvoice from "@/assets/img/screenshots/finance/billing_cycle.png";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { getCollection } from "astro:content";
 export function getStaticPaths() {
     return languages.map((lang) => ({
         params: { lang },
@@ -18,6 +21,10 @@ export function getStaticPaths() {
 }
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+
+// Get FAQs for structured data
+const faqsCollection = await getCollection("faqs");
+const guardiansFaqs = faqsCollection.find((entry) => entry.id === "faqsGuardian.md");
 
 const features = [
     {
@@ -79,6 +86,7 @@ const features = [
                 title: t.guardians.dashboardTitle,
                 description: t.guardians.dashboardDescription,
                 image: guardianManagement,
+                altText: t.altText.guardianManagement,
             }}
         />
         <Features
@@ -98,13 +106,32 @@ const features = [
                 image: appDetail,
                 imageClass: "object-cover md:w-2/3 mx-auto",
                 cardClass: "h-110",
+                altText: t.altText.appDetail,
             }}
             rightCard={{
                 title: t.guardians.documentSigningTitle,
                 description: t.guardians.documentSigningDescription,
                 image: emailInvoice,
+                altText: t.altText.emailInvoice,
             }}
         />
         <FAQs t={t} />
     </GSAPSection>
+    
+    <!-- Structured Data -->
+    <SoftwareApplicationSchema
+        name="Edena - Portal de Familias"
+        description={t.meta.guardiansDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/guardians`}
+        lang={lang}
+    />
+    {guardiansFaqs?.data.faqs && (
+        <FAQPageSchema 
+            faqs={guardiansFaqs.data.faqs} 
+            translations={t.faqs}
+            lang={lang}
+        />
+    )}
 </Layout>

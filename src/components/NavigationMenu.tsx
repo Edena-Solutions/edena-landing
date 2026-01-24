@@ -26,11 +26,14 @@ interface Props {
     lang: string;
 }
 
-const Logo = ({ lang }: { lang: string }) => (
-    <a href={`/${lang}/`}>
-        <img src={logo.src} alt="Edena Logo" className="h-6 w-auto" />
-    </a>
-);
+const Logo = ({ lang }: { lang: string }) => {
+    const t = translations[lang as keyof typeof translations];
+    return (
+        <a href={`/${lang}/`}>
+            <img src={logo.src} alt={t.altText.logo} className="h-6 w-auto" />
+        </a>
+    );
+};
 
 const MenuButton = ({ isOpen, onClick }: { isOpen: boolean; onClick: () => void }) => (
     <button

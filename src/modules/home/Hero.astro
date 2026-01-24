@@ -32,7 +32,7 @@ const { t } = Astro.props;
         <CardFooter>
             <Image
                 src={heroImage}
-                alt="Hero"
+                alt={t.altText.heroImage}
                 loading="eager"
                 class="w-full mx-auto object-contain"
                 style="aspect-ratio: 16/9;"

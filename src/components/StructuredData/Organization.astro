@@ -1,0 +1,31 @@
+---
+// Organization Schema - Para todas las páginas
+interface Props {
+  lang?: string;
+}
+
+const { lang = "es" } = Astro.props;
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Edena",
+  "url": "https://edena.es",
+  "logo": "https://edena.es/assets/img/logo.png",
+  "description": lang === "es" 
+    ? "Sistema avanzado de gestión escolar que simplifica tareas administrativas, mejora la comunicación con familias y optimiza los resultados educativos."
+    : "Advanced school management system that simplifies administrative tasks, improves family communication and optimizes educational outcomes.",
+  "inLanguage": lang === "es" ? "es-ES" : "en-US",
+  "sameAs": [
+    "https://apps.apple.com/app/edena",
+    "https://play.google.com/store/apps/details?id=com.edena"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "availableLanguage": ["Spanish", "English"]
+  }
+};
+---
+
+<script type="application/ld+json" is:inline set:html={JSON.stringify(organizationSchema)} />

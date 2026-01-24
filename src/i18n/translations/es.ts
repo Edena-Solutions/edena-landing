@@ -3,12 +3,12 @@ export default {
     downloadTheApp: "Descarga la app escolar ahora",
     knowMore: "Ver cómo funciona",
     meta: {
-        homeTitle: "Sistema de Gestión Escolar | Edena",
+        homeTitle: "Software de Gestión Escolar | ERP Educativo Edena",
         homeDescription:
-            "Transforma tu centro con la plataforma integral de gestión educativa de Edena. Optimiza la administración, aumenta el compromiso de las familias y automatiza procesos académicos. Utilizado por más de 500 centros. Solicita tu demo gratuita hoy.",
-        pricingTitle: "Precios de Software de Gestión Escolar | Edena",
+            "Software de gestión escolar todo-en-uno para colegios y guarderías. Gestión de estudiantes, facturación, comunicación familiar y app móvil. Reduce costes 25% y aumenta satisfacción familiar 60%. Demo gratuita.",
+        pricingTitle: "Precios Software Gestión Escolar | Planes desde 99€/mes | Sin Costes Ocultos",
         pricingDescription:
-            "Elige el plan perfecto de Edena para tu centro educativo. Desde gestión básica de estudiantes hasta soluciones ERP completas. Precios transparentes sin costes ocultos. Comienza tu prueba gratuita hoy.",
+            "Planes de gestión escolar adaptados a tu centro. Desde gestión básica hasta ERP completo. Precios transparentes, sin permanencia. Prueba gratuita 30 días.",
         faqsTitle:
             "Preguntas Frecuentes sobre Software de Gestión Escolar | Guía Completa de Edena",
         faqsDescription:
@@ -18,13 +18,13 @@ export default {
         dashboardDescription:
             "Obtén información en tiempo real sobre el rendimiento de tu centro con el panel integral de Edena. Monitorea asistencia, sigue el progreso académico, gestiona finanzas y comunícate con familias desde una plataforma central.",
         studentsTitle:
-            "Sistema de Información Estudiantil (SIE) | Software Completo de Gestión Escolar",
+            "Sistema de Información Estudiantil (SIS) | Gestión Académica Completa",
         studentsDescription:
-            "Gestiona registros de estudiantes, asistencia, calificaciones y comunicación de forma eficiente con el Sistema de Información Estudiantil integral de Edena. Optimiza tareas administrativas y mejora los resultados estudiantiles.",
+            "Software SIS para gestión de estudiantes: expedientes digitales, asistencia automática, calificaciones y boletines. Reduce tareas administrativas 40%.",
         appTitle:
-            "App Móvil de Gestión Escolar | Plataforma de Comunicación para Familias y Profesores",
+            "App Móvil para Colegios | Comunicación Familias-Escuela | Edena Kids",
         appDescription:
-            "Mantente conectado con la app móvil de Edena para familias y profesores. Recibe notificaciones instantáneas, visualiza el progreso estudiantil, comunícate de forma segura y accede a información escolar desde cualquier lugar.",
+            "App móvil gratuita para familias y profesores. Notificaciones en tiempo real, seguimiento académico, mensajería segura y acceso offline. Disponible iOS y Android.",
         demoTitle: "Solicita tu Demo Gratuita | Descubre Edena en Acción",
         demoDescription:
             "Experimenta la plataforma de gestión escolar de Edena de primera mano. Solicita una demo personalizada para ver cómo nuestro software puede optimizar las operaciones de tu centro educativo y mejorar el compromiso familiar.",
@@ -33,9 +33,9 @@ export default {
         financeDescription:
             "Automatiza la gestión financiera de tu centro con Edena. Maneja facturación, facturas, seguimiento de pagos e informes financieros de forma eficiente. Reduce la carga administrativa y mejora el flujo de caja.",
         guardiansTitle:
-            "Software de Gestión de Familias y Tutores | Plataforma de Comunicación para Familias y Profesores",
+            "Portal Familias Escolares | Comunicación Centro-Educativo | Edena",
         guardiansDescription:
-            "Mejora el compromiso familiar con la plataforma de gestión de tutores de Edena. Optimiza la comunicación, comparte el progreso estudiantil y mantén informadas a las familias con nuestro portal familiar integral.",
+            "Portal para familias: seguimiento académico en tiempo real, mensajería segura con profesores, calendario de eventos y portal de pagos. Aumenta compromiso familiar 60%.",
         privacyTitle: "Política de Privacidad | Software de Gestión Escolar Edena",
         privacyDescription:
             "Aprende cómo Edena protege los datos de tu centro y mantiene estándares de privacidad. Nuestra política de privacidad integral garantiza la seguridad de la información estudiantil, familiar e institucional.",
@@ -896,5 +896,29 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
                 bg: "highlight",
             },
         ],
+    },
+    altText: {
+        logo: "Logo de Edena - Software de Gestión Escolar",
+        heroImage: "Dashboard de gestión escolar Edena mostrando análisis en tiempo real y herramientas administrativas",
+        appStoreBadge: "Descargar Edena en App Store",
+        googlePlayBadge: "Descargar Edena en Google Play",
+        appDetail: "App móvil Edena para familias con notificaciones de asistencia estudiantil y comunicación escolar",
+        dashboardHero: "Panel de control escolar Edena con métricas y análisis en tiempo real",
+        studentsHero: "Sistema de información estudiantil Edena con gestión de expedientes académicos",
+        guardiansHero: "Portal de familias Edena para comunicación y seguimiento académico",
+        financeHero: "Suite financiera Edena con facturación automática y gestión de pagos",
+        billingCycle: "Ciclo de facturación automatizado en Edena para centros educativos",
+        invoiceAnalytics: "Análisis financiero y reportes de facturación en Edena",
+        emailInvoice: "Facturación electrónica sin papel en Edena",
+        studentDetail: "Detalle de estudiante en Edena mostrando información académica completa",
+        studentClassroom: "Gestión de aulas y espacios educativos en Edena",
+        organization: "Organización de estudiantes y grupos en Edena",
+        guardianManagement: "Panel de gestión de familias y tutores en Edena",
+        appFeed: "Feed de notificaciones y actualizaciones en la app móvil Edena",
+        appHero: "Pantalla principal de la app móvil Edena para familias",
+        quickActions: "Acciones rápidas del panel de control escolar Edena",
+        notifications: "Sistema de notificaciones en tiempo real de Edena",
+        calendar: "Calendario escolar integrado en Edena",
+        conclusionLogo: "Logo de Edena - Transforma la gestión de tu centro educativo",
     },
 };

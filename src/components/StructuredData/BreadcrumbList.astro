@@ -1,0 +1,40 @@
+---
+// BreadcrumbList Schema - Para navegación
+interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+  lang?: string;
+}
+
+const { items, lang = "es" } = Astro.props;
+
+interface BreadcrumbSchema {
+  "@context": string;
+  "@type": string;
+  "inLanguage": string;
+  "itemListElement": Array<{
+    "@type": string;
+    "position": number;
+    "name": string;
+    "item": string;
+  }>;
+}
+
+const breadcrumbSchema: BreadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "inLanguage": lang === "es" ? "es-ES" : "en-US",
+  "itemListElement": items.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": item.name,
+    "item": item.url,
+  })),
+};
+---
+
+<script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbSchema)} />
