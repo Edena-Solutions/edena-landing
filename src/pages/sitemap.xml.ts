@@ -88,6 +88,18 @@ export async function GET() {
             lastmod: currentDate,
         },
         {
+            path: "/families/",
+            priority: "0.9",
+            changefreq: "monthly",
+            lastmod: currentDate,
+        },
+        {
+            path: "/centers/",
+            priority: "0.9",
+            changefreq: "monthly",
+            lastmod: currentDate,
+        },
+        {
             path: "/blog/",
             priority: "0.8",
             changefreq: "weekly",
@@ -167,6 +179,18 @@ export async function GET() {
             lastmod: currentDate,
         },
         {
+            path: "/es/families/",
+            priority: "0.9",
+            changefreq: "monthly",
+            lastmod: currentDate,
+        },
+        {
+            path: "/es/centers/",
+            priority: "0.9",
+            changefreq: "monthly",
+            lastmod: currentDate,
+        },
+        {
             path: "/es/blog/",
             priority: "0.8",
             changefreq: "weekly",
@@ -242,6 +266,18 @@ export async function GET() {
         {
             path: "/en/faqs/",
             priority: "0.8",
+            changefreq: "monthly",
+            lastmod: currentDate,
+        },
+        {
+            path: "/en/families/",
+            priority: "0.9",
+            changefreq: "monthly",
+            lastmod: currentDate,
+        },
+        {
+            path: "/en/centers/",
+            priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
         },
