@@ -1,0 +1,143 @@
+---
+import { translations, languages } from "@/i18n/index.ts";
+
+import Layout from "@/layouts/main.astro";
+import Hero from "@/components/Hero.astro";
+import Section from "@/components/Section.astro";
+import GSAPSection from "@/components/ui/gsap-section";
+import FAQs from "@/modules/families/FAQs.astro";
+import Features from "@/components/Features";
+import heroImage from "@/assets/img/screenshots/app/app_hero.png";
+import appDetail from "@/assets/img/screenshots/app/app_detail.png";
+import notifications from "@/assets/img/screenshots/app/app_notifications.png";
+import billingCycle from "@/assets/img/screenshots/finance/billing_cycle.png";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { getCollection } from "astro:content";
+
+export function getStaticPaths() {
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+
+const faqsCollection = await getCollection("faqs");
+const familiesFaqs = faqsCollection.find((entry) => entry.id === "faqsFamilies.md");
+
+const features = [
+    {
+        icon: "Smartphone",
+        title: t.features.familiesFeatures.mobileApp.title,
+        description: t.features.familiesFeatures.mobileApp.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+    {
+        icon: "CreditCard",
+        title: t.features.familiesFeatures.digitalBilling.title,
+        description: t.features.familiesFeatures.digitalBilling.tagline,
+        navigateTo: `/${lang}/finance`,
+    },
+    {
+        icon: "ShoppingCart",
+        title: t.features.familiesFeatures.onlineStore.title,
+        description: t.features.familiesFeatures.onlineStore.tagline,
+        navigateTo: `/${lang}/families`,
+    },
+    {
+        icon: "Bell",
+        title: t.features.familiesFeatures.realTimeNotifications.title,
+        description: t.features.familiesFeatures.realTimeNotifications.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+    {
+        icon: "FileText",
+        title: t.features.familiesFeatures.digitalDocuments.title,
+        description: t.features.familiesFeatures.digitalDocuments.tagline,
+        navigateTo: `/${lang}/guardians`,
+    },
+    {
+        icon: "MessageSquare",
+        title: t.features.familiesFeatures.secureCommunication.title,
+        description: t.features.familiesFeatures.secureCommunication.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+];
+---
+
+<Layout
+    content={{ title: t.meta.familiesTitle, description: t.meta.familiesDescription }}
+    lang={lang}
+>
+    <GSAPSection client:load className="grid gap-16" animationType="opacity">
+        <Hero
+            t={t}
+            heroImage={heroImage}
+            showBookDemoInHero={true}
+            mainTitle={t.families.mainTitle}
+            mainDescription={t.families.mainDescription}
+            leftCard={{
+                title: t.families.mobileAppTitle,
+                description: t.families.mobileAppDescription,
+                showButton: true,
+            }}
+            rightCard={{
+                title: t.families.digitalBillingTitle,
+                description: t.families.digitalBillingDescription,
+                image: billingCycle,
+                altText: t.altText.billingCycle,
+            }}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={t.features.familiesFeatures.title}
+            description={t.features.familiesFeatures.tagline}
+        />
+        <Section
+            t={t}
+            sectionTitle={t.families.communicationAndStoreTitle}
+            sectionDescription={t.families.communicationAndStoreDescription}
+            leftCard={{
+                title: t.families.appFeaturesTitle,
+                description: t.families.appFeaturesDescription,
+                image: appDetail,
+                imageClass: "object-cover md:w-2/3 mx-auto",
+                cardClass: "h-110",
+                altText: t.altText.appDetail,
+            }}
+            rightCard={{
+                title: t.families.onlineStoreTitle,
+                description: t.families.onlineStoreDescription,
+                image: notifications,
+                imageClass: "object-cover md:w-2/3 mx-auto",
+                cardClass: "h-110",
+                altText: t.altText.appHero,
+            }}
+        />
+        <FAQs t={t} />
+    </GSAPSection>
+    <SoftwareApplicationSchema
+        slot="structured-data"
+        name="Edena - Portal para Familias"
+        description={t.meta.familiesDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/families`}
+        lang={lang}
+    />
+    {
+        familiesFaqs?.data.faqs && (
+            <FAQPageSchema
+                slot="structured-data"
+                faqs={familiesFaqs.data.faqs}
+                translations={t.faqs}
+                lang={lang}
+            />
+        )
+    }
+</Layout>

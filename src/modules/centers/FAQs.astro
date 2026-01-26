@@ -1,0 +1,23 @@
+---
+import { getCollection } from "astro:content";
+import FAQAccordion from "@/components/FAQAccordion";
+import GSAPSection from "@/components/ui/gsap-section";
+import type { Translation } from "@/i18n";
+
+interface Props {
+    t: Translation;
+}
+
+const { t } = Astro.props;
+
+const faqsCollection = await getCollection("faqs");
+const centersFaqs = faqsCollection.find((entry) => entry.id === "faqsCenters.md");
+---
+
+<GSAPSection client:load className="grid gap-16 px-4">
+    <div class="text-center flex flex-col gap-6 items-center max-w-2xl mx-auto">
+        <h2 class="text-xl font-bold">{t.faqs.centers?.title ?? t.faqs.title}</h2>
+        <p class="max-w-xl">{t.faqs.centers?.description ?? t.faqs.description}</p>
+    </div>
+    <FAQAccordion faqs={centersFaqs?.data.faqs || []} t={t} client:load />
+</GSAPSection>

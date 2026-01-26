@@ -32,6 +32,14 @@ export default {
             "School Family Portal | School-Educational Communication | Edena",
         guardiansDescription:
             "Family portal: real-time academic tracking, secure messaging with teachers, event calendar and payment portal. Increases family engagement by 60%.",
+        familiesTitle:
+            "Family Portal | Mobile App, Digital Billing & Online Store | Edena",
+        familiesDescription:
+            "Everything families need in one place: free mobile app, digital billing, online store and direct communication with the school. Manage your children's education from any device.",
+        centersTitle:
+            "Solution for Educational Centers | Communication, Billing & Automation | Edena",
+        centersDescription:
+            "Comprehensive platform for educational centers: efficient family communication, automated billing, student management and process automation. Reduce administrative costs by up to 40%.",
         privacyTitle: "Privacy Policy | Edena School Management Software",
         privacyDescription:
             "Learn how Edena protects your school's data and maintains privacy standards. Our comprehensive privacy policy ensures the security of student, family, and institutional information.",
@@ -296,6 +304,76 @@ export default {
                 title: "Encrypted Secure Messaging",
                 tagline:
                     "Private communication between families, teachers, and administration with end-to-end encryption and granular permission management.",
+            },
+        },
+        familiesFeatures: {
+            title: "Everything Families Need",
+            tagline:
+                "Tools specifically designed for families to manage their children's education simply and efficiently.",
+            mobileApp: {
+                title: "Free Mobile App",
+                tagline:
+                    "Access all school information from your smartphone. Instant notifications, photos, messages and more.",
+            },
+            digitalBilling: {
+                title: "Digital Billing",
+                tagline:
+                    "View and pay your invoices online securely. Complete payment history and digital receipts.",
+            },
+            onlineStore: {
+                title: "Integrated Online Store",
+                tagline:
+                    "Purchase uniforms, school supplies and additional services directly from the platform.",
+            },
+            realTimeNotifications: {
+                title: "Real-time Notifications",
+                tagline:
+                    "Receive instant alerts about attendance, events, messages and important updates.",
+            },
+            digitalDocuments: {
+                title: "Digital Documents",
+                tagline:
+                    "Access report cards, certificates, authorizations and school documents from anywhere.",
+            },
+            secureCommunication: {
+                title: "Secure Communication",
+                tagline:
+                    "Stay in direct contact with teachers and the school through secure and private messaging.",
+            },
+        },
+        centersFeatures: {
+            title: "Comprehensive Solution for Educational Centers",
+            tagline:
+                "Professional tools designed to optimize management, communication and operations of your educational center.",
+            communicationHub: {
+                title: "Communication Hub",
+                tagline:
+                    "Manage all communication with families, teachers and staff from a single centralized panel.",
+            },
+            automatedBilling: {
+                title: "Automated Billing",
+                tagline:
+                    "Generate and send invoices automatically. Reduce errors and save time on financial management.",
+            },
+            processAutomation: {
+                title: "Process Automation",
+                tagline:
+                    "Automate repetitive tasks such as enrollment, attendance and report generation.",
+            },
+            analyticsDashboard: {
+                title: "Analytics Dashboard",
+                tagline:
+                    "Visualize key metrics, center performance and make data-driven decisions in real time.",
+            },
+            studentManagement: {
+                title: "Student Management",
+                tagline:
+                    "Manage records, attendance, grades and all student information in a centralized way.",
+            },
+            dataSecurity: {
+                title: "Data Security",
+                tagline:
+                    "Advanced data protection with encryption, GDPR compliance and automatic backups.",
             },
         },
         reportingTools: {
@@ -652,6 +730,76 @@ export default {
         students_support_options: "What support options are available for students?",
         students_support_options_answer:
             "Students can access technical and academic support from the platform and app.",
+        families: {
+            title: "Frequently Asked Questions about Edena for Families",
+            description:
+                "Get answers to all your questions about using Edena as a family: mobile app, billing, online store and communication with the school.",
+        },
+        families_mobile_app: "How does the mobile app work for families?",
+        families_mobile_app_answer:
+            "Edena's mobile app allows families to access all school information from their smartphone. You can receive real-time notifications, view photos of your children, check invoices, sign documents and communicate directly with the school.",
+        families_billing_access: "How can I view and pay my invoices?",
+        families_billing_access_answer:
+            "From your family portal you can access all your invoices, view payment history, download receipts and make online payments securely. Everything is available 24/7 from any device.",
+        families_online_store: "What can I buy in the online store?",
+        families_online_store_answer:
+            "The integrated online store allows you to purchase uniforms, school supplies, additional services such as cafeteria or extracurricular activities, and manage all your purchases from one place.",
+        families_notifications: "What type of notifications will I receive?",
+        families_notifications_answer:
+            "You will receive notifications about your children's attendance, school events, messages from the school, pending invoices, academic updates and any important information related to your children's education.",
+        families_document_access: "Can I access my children's documents?",
+        families_document_access_answer:
+            "Yes, you can access report cards, certificates, authorizations, reports and any school documents related to your children from your portal or mobile app.",
+        families_payment_methods: "What payment methods does the platform accept?",
+        families_payment_methods_answer:
+            "The platform accepts credit cards, bank transfers, SEPA direct debits and other secure digital payment methods to facilitate payment of invoices and services.",
+        families_multiple_children: "Can I manage multiple children from a single account?",
+        families_multiple_children_answer:
+            "Yes, from a single account you can manage the information, billing and communication of all your children, regardless of which educational center they attend.",
+        families_data_security: "How is my family's data protected?",
+        families_data_security_answer:
+            "All data is protected with advanced encryption and complies with GDPR regulations. Only authorized school staff and you can access your children's information.",
+        families_support: "What support do I have available as a family?",
+        families_support_answer:
+            "You can contact our support team through chat, email or from the mobile app. You also have a help section with guides and tutorials to resolve common questions.",
+        families_app_features: "What features does the mobile app have?",
+        families_app_features_answer:
+            "The mobile app includes push notifications, access to photos and albums, messaging with the school, invoice viewing, digital document signing, event calendar and academic tracking of your children.",
+        centers: {
+            title: "Frequently Asked Questions about Edena for Educational Centers",
+            description:
+                "Find answers about how Edena can help your center: communication, billing, automation and comprehensive management.",
+        },
+        centers_communication_tools: "What communication tools does Edena offer?",
+        centers_communication_tools_answer:
+            "Edena offers a complete communication system that includes secure messaging with families, push notifications, photo and update sharing, shared event calendar and real-time bidirectional communication.",
+        centers_billing_automation: "How does automated billing work?",
+        centers_billing_automation_answer:
+            "The system automatically generates invoices based on contracted services, sends payment reminders, manages direct debits and provides real-time tracking of collection status, significantly reducing administrative burden.",
+        centers_process_automation: "What processes can be automated?",
+        centers_process_automation_answer:
+            "You can automate invoice generation, attendance recording, notification sending, report creation, enrollment management and many other repetitive administrative tasks.",
+        centers_analytics_dashboard: "What information does the dashboard show?",
+        centers_analytics_dashboard_answer:
+            "The dashboard shows real-time metrics on attendance, enrollments, financial status, communications sent, academic performance and other key indicators for center management.",
+        centers_student_management: "How does Edena manage student information?",
+        centers_student_management_answer:
+            "Edena centralizes all student information: academic records, attendance, grades, family communication, billing and documents. Everything accessible from a single system.",
+        centers_data_security: "How does Edena guarantee data security?",
+        centers_data_security_answer:
+            "Edena uses advanced encryption, complies with GDPR regulations, performs automatic backups and maintains strict access controls to ensure maximum security of center and family data.",
+        centers_integration_options: "Can it integrate with other systems?",
+        centers_integration_options_answer:
+            "Yes, Edena allows integrations with accounting systems, external communication platforms and other educational software through APIs and data export in standard formats.",
+        centers_setup_time: "How long does implementation take?",
+        centers_setup_time_answer:
+            "Most centers complete implementation in 2 weeks. Our onboarding team manages data migration, configuration and staff training for a smooth transition.",
+        centers_support_levels: "What support levels does Edena offer?",
+        centers_support_levels_answer:
+            "We offer email and chat support during business hours for all plans, and priority 24/7 support for Professional and Enterprise plans, with a dedicated success advisor on the Enterprise plan.",
+        centers_cost_savings: "How much can my center save with Edena?",
+        centers_cost_savings_answer:
+            "Centers using Edena report reductions of up to 40% in administrative costs, 75% less time on family onboarding and savings of more than 15 hours per week on routine tasks.",
     },
     termsOfService: {
         title: "Terms and Conditions of Use",
@@ -782,6 +930,46 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
         documentSigningTitle: "Document Signing",
         documentSigningDescription:
             "Digital document signing for efficient communication. Simplified process that accelerates administrative management.",
+    },
+    families: {
+        mainTitle: "Everything for Families in One Place",
+        mainDescription:
+            "Free mobile app, digital billing, online store and direct communication. Manage your children's education from any device.",
+        mobileAppTitle: "Free Mobile App",
+        mobileAppDescription:
+            "Access all school information from your smartphone. Instant notifications, photos, messages and more, all in the palm of your hand.",
+        digitalBillingTitle: "Digital Billing",
+        digitalBillingDescription:
+            "View and pay your invoices online securely. Complete payment history, digital receipts and recurring payment management from your portal.",
+        communicationAndStoreTitle: "Communication and Integrated Store",
+        communicationAndStoreDescription:
+            "Stay in direct contact with the school and access additional services from a single place.",
+        appFeaturesTitle: "App Features",
+        appFeaturesDescription:
+            "Receive real-time notifications, view photos and albums of your children, communicate with teachers and access all school information from anywhere.",
+        onlineStoreTitle: "Online Store",
+        onlineStoreDescription:
+            "Purchase uniforms, school supplies, additional services such as cafeteria or extracurricular activities directly from the platform. Easy management of all your purchases.",
+    },
+    centers: {
+        mainTitle: "Comprehensive Solution for Your Educational Center",
+        mainDescription:
+            "Efficient communication, automated billing and complete management. Optimize your center's operations and reduce administrative costs by up to 40%.",
+        communicationTitle: "Centralized Communication",
+        communicationDescription:
+            "Manage all communication with families, teachers and staff from a single panel. Secure messaging, notifications and real-time updates.",
+        automationTitle: "Smart Automation",
+        automationDescription:
+            "Automate administrative processes such as billing, attendance and report generation. Save time and significantly reduce errors.",
+        integratedManagementTitle: "Integrated Management",
+        integratedManagementDescription:
+            "Everything you need to manage your educational center efficiently and professionally.",
+        realTimeCommunicationTitle: "Real-time Communication",
+        realTimeCommunicationDescription:
+            "Notification and messaging system that keeps the entire educational community connected. Send instant updates and manage communications centrally.",
+        financialAutomationTitle: "Financial Automation",
+        financialAutomationDescription:
+            "Generate invoices automatically, manage recurring payments and get real-time financial analytics. Reduce administrative burden and improve cash flow.",
     },
     erpStats: {
         title: "How our clients grow",

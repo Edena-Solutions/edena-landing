@@ -1,0 +1,23 @@
+---
+faqs:
+    - question: "families_mobile_app"
+      answer: "families_mobile_app_answer"
+    - question: "families_billing_access"
+      answer: "families_billing_access_answer"
+    - question: "families_online_store"
+      answer: "families_online_store_answer"
+    - question: "families_notifications"
+      answer: "families_notifications_answer"
+    - question: "families_document_access"
+      answer: "families_document_access_answer"
+    - question: "families_payment_methods"
+      answer: "families_payment_methods_answer"
+    - question: "families_multiple_children"
+      answer: "families_multiple_children_answer"
+    - question: "families_data_security"
+      answer: "families_data_security_answer"
+    - question: "families_support"
+      answer: "families_support_answer"
+    - question: "families_app_features"
+      answer: "families_app_features_answer"
+---

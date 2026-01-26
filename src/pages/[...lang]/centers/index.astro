@@ -1,0 +1,141 @@
+---
+import { translations, languages } from "@/i18n/index.ts";
+
+import Layout from "@/layouts/main.astro";
+import Hero from "@/components/Hero.astro";
+import Section from "@/components/Section.astro";
+import GSAPSection from "@/components/ui/gsap-section";
+import FAQs from "@/modules/centers/FAQs.astro";
+import Features from "@/components/Features";
+import heroImage from "@/assets/img/screenshots/finance/invoice_analytics.png";
+import dashboardNotifications from "@/assets/img/screenshots/dashboard/dashboard_notifications.png";
+import invoiceAnalytics from "@/assets/img/screenshots/finance/billing_cycle.png";
+import invoiceAutomation from "@/assets/img/screenshots/finance/invoice_email.png";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { getCollection } from "astro:content";
+
+export function getStaticPaths() {
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+
+const faqsCollection = await getCollection("faqs");
+const centersFaqs = faqsCollection.find((entry) => entry.id === "faqsCenters.md");
+
+const features = [
+    {
+        icon: "MessageCircle",
+        title: t.features.centersFeatures.communicationHub.title,
+        description: t.features.centersFeatures.communicationHub.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "CreditCard",
+        title: t.features.centersFeatures.automatedBilling.title,
+        description: t.features.centersFeatures.automatedBilling.tagline,
+        navigateTo: `/${lang}/finance`,
+    },
+    {
+        icon: "Zap",
+        title: t.features.centersFeatures.processAutomation.title,
+        description: t.features.centersFeatures.processAutomation.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "BarChart3",
+        title: t.features.centersFeatures.analyticsDashboard.title,
+        description: t.features.centersFeatures.analyticsDashboard.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+    {
+        icon: "Users",
+        title: t.features.centersFeatures.studentManagement.title,
+        description: t.features.centersFeatures.studentManagement.tagline,
+        navigateTo: `/${lang}/students`,
+    },
+    {
+        icon: "Shield",
+        title: t.features.centersFeatures.dataSecurity.title,
+        description: t.features.centersFeatures.dataSecurity.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+];
+---
+
+<Layout
+    content={{ title: t.meta.centersTitle, description: t.meta.centersDescription }}
+    lang={lang}
+>
+    <GSAPSection client:load className="grid gap-16" animationType="opacity">
+        <Hero
+            t={t}
+            heroImage={heroImage}
+            showBookDemoInHero={true}
+            mainTitle={t.centers.mainTitle}
+            mainDescription={t.centers.mainDescription}
+            leftCard={{
+                title: t.centers.communicationTitle,
+                description: t.centers.communicationDescription,
+                showButton: true,
+            }}
+            rightCard={{
+                title: t.centers.automationTitle,
+                description: t.centers.automationDescription,
+                image: invoiceAnalytics,
+                altText: t.altText.invoiceAnalytics,
+            }}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={t.features.centersFeatures.title}
+            description={t.features.centersFeatures.tagline}
+        />
+        <Section
+            t={t}
+            sectionTitle={t.centers.integratedManagementTitle}
+            sectionDescription={t.centers.integratedManagementDescription}
+            leftCard={{
+                title: t.centers.realTimeCommunicationTitle,
+                description: t.centers.realTimeCommunicationDescription,
+                image: dashboardNotifications,
+                imageClass: "object-cover md:w-2/3 mx-auto",
+                cardClass: "h-110",
+                altText: t.altText.notifications,
+            }}
+            rightCard={{
+                title: t.centers.financialAutomationTitle,
+                description: t.centers.financialAutomationDescription,
+                image: invoiceAutomation,
+                altText: t.altText.invoiceAnalytics,
+            }}
+        />
+        <FAQs t={t} />
+    </GSAPSection>
+    <SoftwareApplicationSchema
+        slot="structured-data"
+        name="Edena - Solución para Centros Educativos"
+        description={t.meta.centersDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/centers`}
+        lang={lang}
+    />
+    {
+        centersFaqs?.data.faqs && (
+            <FAQPageSchema
+                slot="structured-data"
+                faqs={centersFaqs.data.faqs}
+                translations={t.faqs}
+                lang={lang}
+            />
+        )
+    }
+</Layout>

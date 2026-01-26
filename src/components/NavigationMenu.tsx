@@ -121,12 +121,12 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
     const functionalities: MenuItem[] = [
         {
             title: t.navigation.forCenter,
-            href: `/${lang}/`,
+            href: `/${lang}/centers`,
             description: t.features.title,
         },
         {
             title: t.navigation.forFamilies,
-            href: `/${lang}/app`,
+            href: `/${lang}/families`,
             description: t.features.appFeatures.tagline,
         },
     ];

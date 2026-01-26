@@ -73,8 +73,6 @@ const features = [
             heroImage={heroImage}
             mainTitle={t.app.mainTitle}
             mainDescription={t.app.mainDescription}
-            heroImageClass="object-cover md:w-2/3 mx-auto"
-            heroImageAspectRatio="2/3"
             showBookDemoInHero={true}
             leftCard={{
                 title: t.app.parentsConnectedTitle,
@@ -131,15 +129,17 @@ const features = [
         lang={lang}
         aggregateRating={{
             ratingValue: "4.8",
-            reviewCount: "150"
+            reviewCount: "150",
         }}
     />
-    {appFaqs?.data.faqs && (
-        <FAQPageSchema 
-            slot="structured-data"
-            faqs={appFaqs.data.faqs} 
-            translations={t.faqs}
-            lang={lang}
-        />
-    )}
+    {
+        appFaqs?.data.faqs && (
+            <FAQPageSchema
+                slot="structured-data"
+                faqs={appFaqs.data.faqs}
+                translations={t.faqs}
+                lang={lang}
+            />
+        )
+    }
 </Layout>

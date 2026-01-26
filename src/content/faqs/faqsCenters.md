@@ -1,0 +1,23 @@
+---
+faqs:
+    - question: "centers_communication_tools"
+      answer: "centers_communication_tools_answer"
+    - question: "centers_billing_automation"
+      answer: "centers_billing_automation_answer"
+    - question: "centers_process_automation"
+      answer: "centers_process_automation_answer"
+    - question: "centers_analytics_dashboard"
+      answer: "centers_analytics_dashboard_answer"
+    - question: "centers_student_management"
+      answer: "centers_student_management_answer"
+    - question: "centers_data_security"
+      answer: "centers_data_security_answer"
+    - question: "centers_integration_options"
+      answer: "centers_integration_options_answer"
+    - question: "centers_setup_time"
+      answer: "centers_setup_time_answer"
+    - question: "centers_support_levels"
+      answer: "centers_support_levels_answer"
+    - question: "centers_cost_savings"
+      answer: "centers_cost_savings_answer"
+---

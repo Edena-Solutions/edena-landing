@@ -36,6 +36,14 @@ export default {
             "Portal Familias Escolares | Comunicación Centro-Educativo | Edena",
         guardiansDescription:
             "Portal para familias: seguimiento académico en tiempo real, mensajería segura con profesores, calendario de eventos y portal de pagos. Aumenta compromiso familiar 60%.",
+        familiesTitle:
+            "Portal para Familias | App Móvil, Facturación Digital y Tienda Online | Edena",
+        familiesDescription:
+            "Todo lo que las familias necesitan en un solo lugar: app móvil gratuita, facturación digital, tienda online y comunicación directa con el centro. Gestiona la educación de tus hijos desde cualquier dispositivo.",
+        centersTitle:
+            "Solución para Centros Educativos | Comunicación, Facturación y Automatización | Edena",
+        centersDescription:
+            "Plataforma integral para centros educativos: comunicación eficiente con familias, facturación automatizada, gestión de estudiantes y automatización de procesos. Reduce costes administrativos hasta un 40%.",
         privacyTitle: "Política de Privacidad | Software de Gestión Escolar Edena",
         privacyDescription:
             "Aprende cómo Edena protege los datos de tu centro y mantiene estándares de privacidad. Nuestra política de privacidad integral garantiza la seguridad de la información estudiantil, familiar e institucional.",
@@ -308,6 +316,76 @@ export default {
                 title: "Mensajería segura cifrada",
                 tagline:
                     "Comunicación privada entre familias, profesores y administración con cifrado end-to-end y gestión de permisos granular.",
+            },
+        },
+        familiesFeatures: {
+            title: "Todo lo que las familias necesitan",
+            tagline:
+                "Herramientas diseñadas específicamente para que las familias gestionen la educación de sus hijos de forma sencilla y eficiente.",
+            mobileApp: {
+                title: "App móvil gratuita",
+                tagline:
+                    "Accede a toda la información escolar desde tu smartphone. Notificaciones instantáneas, fotos, mensajes y más.",
+            },
+            digitalBilling: {
+                title: "Facturación digital",
+                tagline:
+                    "Consulta y paga tus facturas online de forma segura. Historial completo de pagos y recibos digitales.",
+            },
+            onlineStore: {
+                title: "Tienda online integrada",
+                tagline:
+                    "Compra uniformes, material escolar y servicios adicionales directamente desde la plataforma.",
+            },
+            realTimeNotifications: {
+                title: "Notificaciones en tiempo real",
+                tagline:
+                    "Recibe alertas instantáneas sobre asistencia, eventos, mensajes y actualizaciones importantes.",
+            },
+            digitalDocuments: {
+                title: "Documentos digitales",
+                tagline:
+                    "Accede a boletines, certificados, autorizaciones y documentos escolares desde cualquier lugar.",
+            },
+            secureCommunication: {
+                title: "Comunicación segura",
+                tagline:
+                    "Mantén contacto directo con profesores y el centro a través de mensajería segura y privada.",
+            },
+        },
+        centersFeatures: {
+            title: "Solución integral para centros educativos",
+            tagline:
+                "Herramientas profesionales diseñadas para optimizar la gestión, comunicación y operaciones de tu centro educativo.",
+            communicationHub: {
+                title: "Centro de comunicación",
+                tagline:
+                    "Gestiona toda la comunicación con familias, profesores y personal desde un único panel centralizado.",
+            },
+            automatedBilling: {
+                title: "Facturación automatizada",
+                tagline:
+                    "Genera y envía facturas automáticamente. Reduce errores y ahorra tiempo en gestión financiera.",
+            },
+            processAutomation: {
+                title: "Automatización de procesos",
+                tagline:
+                    "Automatiza tareas repetitivas como matriculación, asistencia y generación de informes.",
+            },
+            analyticsDashboard: {
+                title: "Dashboard analítico",
+                tagline:
+                    "Visualiza métricas clave, rendimiento del centro y toma decisiones basadas en datos en tiempo real.",
+            },
+            studentManagement: {
+                title: "Gestión de estudiantes",
+                tagline:
+                    "Administra expedientes, asistencia, calificaciones y toda la información estudiantil de forma centralizada.",
+            },
+            dataSecurity: {
+                title: "Seguridad de datos",
+                tagline:
+                    "Protección avanzada de datos con cifrado, cumplimiento RGPD y copias de seguridad automáticas.",
             },
         },
         reportingTools: {
@@ -668,6 +746,76 @@ export default {
         students_support_options: "¿Qué opciones de soporte tienen los estudiantes?",
         students_support_options_answer:
             "Los estudiantes pueden acceder a soporte técnico y académico desde la plataforma y la app.",
+        families: {
+            title: "Preguntas frecuentes sobre Edena para familias",
+            description:
+                "Resuelve todas tus dudas sobre cómo usar Edena como familia: app móvil, facturación, tienda online y comunicación con el centro.",
+        },
+        families_mobile_app: "¿Cómo funciona la app móvil para familias?",
+        families_mobile_app_answer:
+            "La app móvil de Edena permite a las familias acceder a toda la información escolar desde su smartphone. Puedes recibir notificaciones en tiempo real, ver fotos de tus hijos, consultar facturas, firmar documentos y comunicarte directamente con el centro.",
+        families_billing_access: "¿Cómo puedo consultar y pagar mis facturas?",
+        families_billing_access_answer:
+            "Desde tu portal de familia puedes acceder a todas tus facturas, ver el historial de pagos, descargar recibos y realizar pagos online de forma segura. Todo está disponible 24/7 desde cualquier dispositivo.",
+        families_online_store: "¿Qué puedo comprar en la tienda online?",
+        families_online_store_answer:
+            "La tienda online integrada permite comprar uniformes, material escolar, servicios adicionales como comedor o actividades extraescolares, y gestionar todas tus compras desde un solo lugar.",
+        families_notifications: "¿Qué tipo de notificaciones recibiré?",
+        families_notifications_answer:
+            "Recibirás notificaciones sobre asistencia de tus hijos, eventos escolares, mensajes del centro, facturas pendientes, actualizaciones académicas y cualquier información importante relacionada con la educación de tus hijos.",
+        families_document_access: "¿Puedo acceder a los documentos de mis hijos?",
+        families_document_access_answer:
+            "Sí, puedes acceder a boletines de notas, certificados, autorizaciones, informes y cualquier documento escolar relacionado con tus hijos desde tu portal o la app móvil.",
+        families_payment_methods: "¿Qué métodos de pago acepta la plataforma?",
+        families_payment_methods_answer:
+            "La plataforma acepta tarjetas de crédito, transferencias bancarias, domiciliaciones SEPA y otros métodos de pago digitales seguros para facilitar el pago de facturas y servicios.",
+        families_multiple_children: "¿Puedo gestionar varios hijos desde una sola cuenta?",
+        families_multiple_children_answer:
+            "Sí, desde una única cuenta puedes gestionar la información, facturación y comunicación de todos tus hijos, independientemente del centro educativo al que asistan.",
+        families_data_security: "¿Cómo se protegen los datos de mi familia?",
+        families_data_security_answer:
+            "Todos los datos están protegidos con cifrado avanzado y cumplen con la normativa RGPD. Solo el personal autorizado del centro y tú pueden acceder a la información de tus hijos.",
+        families_support: "¿Qué soporte tengo disponible como familia?",
+        families_support_answer:
+            "Puedes contactar con nuestro equipo de soporte a través de chat, email o desde la app móvil. También dispones de una sección de ayuda con guías y tutoriales para resolver dudas comunes.",
+        families_app_features: "¿Qué funcionalidades tiene la app móvil?",
+        families_app_features_answer:
+            "La app móvil incluye notificaciones push, acceso a fotos y álbumes, mensajería con el centro, consulta de facturas, firma digital de documentos, calendario de eventos y seguimiento académico de tus hijos.",
+        centers: {
+            title: "Preguntas frecuentes sobre Edena para centros educativos",
+            description:
+                "Encuentra respuestas sobre cómo Edena puede ayudar a tu centro: comunicación, facturación, automatización y gestión integral.",
+        },
+        centers_communication_tools: "¿Qué herramientas de comunicación ofrece Edena?",
+        centers_communication_tools_answer:
+            "Edena ofrece un sistema completo de comunicación que incluye mensajería segura con familias, notificaciones push, envío de fotos y actualizaciones, calendario de eventos compartido y comunicación bidireccional en tiempo real.",
+        centers_billing_automation: "¿Cómo funciona la facturación automatizada?",
+        centers_billing_automation_answer:
+            "El sistema genera automáticamente facturas según los servicios contratados, envía recordatorios de pago, gestiona domiciliaciones y proporciona seguimiento en tiempo real del estado de los cobros, reduciendo la carga administrativa significativamente.",
+        centers_process_automation: "¿Qué procesos se pueden automatizar?",
+        centers_process_automation_answer:
+            "Puedes automatizar la generación de facturas, el registro de asistencia, el envío de notificaciones, la creación de informes, la gestión de matriculaciones y muchas otras tareas administrativas repetitivas.",
+        centers_analytics_dashboard: "¿Qué información muestra el dashboard?",
+        centers_analytics_dashboard_answer:
+            "El dashboard muestra métricas en tiempo real sobre asistencia, matriculaciones, estado financiero, comunicaciones enviadas, rendimiento académico y otros indicadores clave para la gestión del centro.",
+        centers_student_management: "¿Cómo gestiona Edena la información de estudiantes?",
+        centers_student_management_answer:
+            "Edena centraliza toda la información estudiantil: expedientes académicos, asistencia, calificaciones, comunicación con familias, facturación y documentos. Todo accesible desde un único sistema.",
+        centers_data_security: "¿Cómo garantiza Edena la seguridad de los datos?",
+        centers_data_security_answer:
+            "Edena utiliza cifrado avanzado, cumple con la normativa RGPD, realiza copias de seguridad automáticas y mantiene estrictos controles de acceso para garantizar la máxima seguridad de los datos del centro y las familias.",
+        centers_integration_options: "¿Se puede integrar con otros sistemas?",
+        centers_integration_options_answer:
+            "Sí, Edena permite integraciones con sistemas de contabilidad, plataformas de comunicación externas y otros software educativos mediante APIs y exportación de datos en formatos estándar.",
+        centers_setup_time: "¿Cuánto tiempo tarda la implementación?",
+        centers_setup_time_answer:
+            "La mayoría de los centros completan la implementación en 2 semanas. Nuestro equipo de onboarding gestiona la migración de datos, configuración y formación del personal para una transición fluida.",
+        centers_support_levels: "¿Qué niveles de soporte ofrece Edena?",
+        centers_support_levels_answer:
+            "Ofrecemos soporte por email y chat en horario laboral para todos los planes, y soporte prioritario 24/7 para planes Profesional y Empresarial, con un asesor de éxito dedicado en el plan Empresarial.",
+        centers_cost_savings: "¿Cuánto puede ahorrar mi centro con Edena?",
+        centers_cost_savings_answer:
+            "Los centros que usan Edena reportan reducciones de hasta 40% en costes administrativos, 75% menos tiempo en incorporación de familias y ahorro de más de 15 horas semanales en tareas rutinarias.",
     },
     privacyPolicy: {
         title: "Política de Privacidad",
@@ -859,6 +1007,46 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
         documentSigningTitle: "Firma de documentos",
         documentSigningDescription:
             "Firma digital de documentos para una comunicación eficiente. Proceso simplificado que acelera la gestión administrativa.",
+    },
+    families: {
+        mainTitle: "Todo para las familias en un solo lugar",
+        mainDescription:
+            "App móvil gratuita, facturación digital, tienda online y comunicación directa. Gestiona la educación de tus hijos desde cualquier dispositivo.",
+        mobileAppTitle: "App móvil gratuita",
+        mobileAppDescription:
+            "Accede a toda la información escolar desde tu smartphone. Notificaciones instantáneas, fotos, mensajes y más, todo en la palma de tu mano.",
+        digitalBillingTitle: "Facturación digital",
+        digitalBillingDescription:
+            "Consulta y paga tus facturas online de forma segura. Historial completo de pagos, recibos digitales y gestión de pagos recurrentes desde tu portal.",
+        communicationAndStoreTitle: "Comunicación y tienda integrada",
+        communicationAndStoreDescription:
+            "Mantén contacto directo con el centro y accede a servicios adicionales desde un único lugar.",
+        appFeaturesTitle: "Funcionalidades de la app",
+        appFeaturesDescription:
+            "Recibe notificaciones en tiempo real, visualiza fotos y álbumes de tus hijos, comunícate con profesores y accede a toda la información escolar desde cualquier lugar.",
+        onlineStoreTitle: "Tienda online",
+        onlineStoreDescription:
+            "Compra uniformes, material escolar, servicios adicionales como comedor o actividades extraescolares directamente desde la plataforma. Gestión sencilla de todas tus compras.",
+    },
+    centers: {
+        mainTitle: "Solución integral para tu centro educativo",
+        mainDescription:
+            "Comunicación eficiente, facturación automatizada y gestión completa. Optimiza las operaciones de tu centro y reduce costes administrativos hasta un 40%.",
+        communicationTitle: "Comunicación centralizada",
+        communicationDescription:
+            "Gestiona toda la comunicación con familias, profesores y personal desde un único panel. Mensajería segura, notificaciones y actualizaciones en tiempo real.",
+        automationTitle: "Automatización inteligente",
+        automationDescription:
+            "Automatiza procesos administrativos como facturación, asistencia y generación de informes. Ahorra tiempo y reduce errores significativamente.",
+        integratedManagementTitle: "Gestión integrada",
+        integratedManagementDescription:
+            "Todo lo que necesitas para gestionar tu centro educativo de forma eficiente y profesional.",
+        realTimeCommunicationTitle: "Comunicación en tiempo real",
+        realTimeCommunicationDescription:
+            "Sistema de notificaciones y mensajería que mantiene a toda la comunidad educativa conectada. Envía actualizaciones instantáneas y gestiona comunicaciones de forma centralizada.",
+        financialAutomationTitle: "Automatización financiera",
+        financialAutomationDescription:
+            "Genera facturas automáticamente, gestiona cobros recurrentes y obtén análisis financieros en tiempo real. Reduce la carga administrativa y mejora el flujo de caja.",
     },
     erpStats: {
         title: "Cómo ayudamos a crecer a nuestros clientes",
