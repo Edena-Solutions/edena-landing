@@ -2,6 +2,7 @@
 import { translations, languages } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
 import Hero from "@/modules/home/Hero.astro";
+import Carrousel from "@/modules/home/Carrousel";
 import Conclusion from "@/modules/home/Conclusion.astro";
 import MarketStats from "@/modules/home/MarketStats.astro";
 import KeyFeaturesTabs from "@/components/KeyFeaturesTabs";
@@ -19,42 +20,46 @@ export function getStaticPaths() {
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 
+const getPath = (path: string) => {
+    return lang === "es" ? `/${path}` : `/${lang}/${path}`;
+};
+
 const features = [
     {
         icon: "FileText",
         title: t.features.digitalRecords.title,
         description: t.features.digitalRecords.tagline,
-        navigateTo: `/${lang}/students`,
+        navigateTo: getPath("students"),
     },
     {
         icon: "Smartphone",
         title: t.features.mobileApp.title,
         description: t.features.mobileApp.tagline,
-        navigateTo: `/${lang}/app`,
+        navigateTo: getPath("app"),
     },
     {
         icon: "FolderOpen",
         title: t.features.documentManagement.title,
         description: t.features.documentManagement.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: getPath("dashboard"),
     },
     {
         icon: "Users",
         title: t.features.familyPortal.title,
         description: t.features.familyPortal.tagline,
-        navigateTo: `/${lang}/guardians`,
+        navigateTo: getPath("guardians"),
     },
     {
         icon: "UserCheck",
         title: t.features.staffManagement.title,
         description: t.features.staffManagement.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: getPath("dashboard"),
     },
     {
         icon: "Calendar",
         title: t.features.calendarIntegration.title,
         description: t.features.calendarIntegration.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: getPath("dashboard"),
     },
 ];
 ---
@@ -73,7 +78,7 @@ const features = [
             reviewCount: "500",
         }}
     />
-    <section class="grid gap-16">
+    <section class="grid gap-16 w-full overflow-x-hidden">
         <Hero t={t} />
         <MarketStats t={t} />
         <KeyFeaturesTabs client:load t={t} />
