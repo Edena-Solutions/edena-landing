@@ -378,13 +378,26 @@ export async function GET() {
 
     const allUrls = [...staticUrls, ...blogEsUrls, ...blogEsUrlsWithPrefix, ...blogEnUrls];
 
+    const escapeXmlUrl = (url: string): string => {
+        return url.replace(/&/g, "&amp;");
+    };
+
+    const escapeXmlText = (text: string): string => {
+        return text
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&apos;");
+    };
+
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${allUrls
             .map((url) => {
                 let urlXml = `  <url>
-    <loc>${base}${url.path}</loc>
+    <loc>${escapeXmlUrl(base + url.path)}</loc>
     <lastmod>${url.lastmod}</lastmod>
     <changefreq>${url.changefreq}</changefreq>
     <priority>${url.priority}</priority>`;
@@ -392,9 +405,9 @@ ${allUrls
                 if (url.images && url.images.length > 0) {
                     urlXml += "\n" + url.images.map((image) => {
                         let imageXml = `    <image:image>
-      <image:loc>${image.loc}</image:loc>`;
+      <image:loc>${escapeXmlUrl(image.loc)}</image:loc>`;
                         if (image.title) {
-                            imageXml += `\n      <image:title>${image.title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")}</image:title>`;
+                            imageXml += `\n      <image:title>${escapeXmlText(image.title)}</image:title>`;
                         }
                         imageXml += "\n    </image:image>";
                         return imageXml;
