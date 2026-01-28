@@ -13,6 +13,7 @@ interface Props {
   offers: Offer[];
   brand?: string;
   category?: string;
+  image?: string;
   lang?: string;
 }
 
@@ -22,6 +23,7 @@ const {
   offers,
   brand = "Edena",
   category = "Software",
+  image = "https://edena.es/assets/img/logo.png",
   lang = "es",
 } = Astro.props;
 
@@ -30,6 +32,7 @@ interface ProductSchema {
   "@type": string;
   "name": string;
   "description": string;
+  "image": string | string[];
   "inLanguage": string;
   "brand": {
     "@type": string;
@@ -50,6 +53,7 @@ const productSchema: ProductSchema = {
   "@type": "Product",
   "name": name,
   "description": description,
+  "image": image.startsWith("http") ? image : `https://edena.es${image.startsWith("/") ? "" : "/"}${image}`,
   "inLanguage": lang === "es" ? "es-ES" : "en-US",
   "brand": {
     "@type": "Brand",
