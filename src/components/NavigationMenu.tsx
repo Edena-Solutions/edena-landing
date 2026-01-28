@@ -28,8 +28,9 @@ interface Props {
 
 const Logo = ({ lang }: { lang: string }) => {
     const t = translations[lang as keyof typeof translations];
+    const url = lang === "es" ? "/" : `/${lang}/`;
     return (
-        <a href={`/${lang}/`}>
+        <a href={url}>
             <img src={logo.src} alt={t.altText.logo} className="h-6 w-auto" />
         </a>
     );

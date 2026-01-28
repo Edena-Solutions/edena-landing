@@ -7,11 +7,14 @@ import MarketStats from "@/modules/home/MarketStats.astro";
 import KeyFeaturesTabs from "@/components/KeyFeaturesTabs";
 import Features from "@/components/Features";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+
 export function getStaticPaths() {
-    return languages.map((lang) => ({
-        params: { lang },
-        props: { lang },
-    }));
+    return languages
+        .filter((lang) => lang !== "es")
+        .map((lang) => ({
+            params: { lang },
+            props: { lang },
+        }));
 }
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
@@ -63,11 +66,11 @@ const features = [
         description={t.meta.homeDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}
-        url={`https://edena.es/${lang === 'es' ? '' : lang + '/'}`}
+        url={`https://edena.es/${lang === "es" ? "" : lang + "/"}`}
         lang={lang}
         aggregateRating={{
             ratingValue: "4.8",
-            reviewCount: "500"
+            reviewCount: "500",
         }}
     />
     <section class="grid gap-16">
