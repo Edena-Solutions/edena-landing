@@ -1,0 +1,77 @@
+---
+import { translations } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+import Hero from "@/modules/home/Hero.astro";
+import Conclusion from "@/modules/home/Conclusion.astro";
+import MarketStats from "@/modules/home/MarketStats.astro";
+import KeyFeaturesTabs from "@/components/KeyFeaturesTabs";
+import Features from "@/components/Features";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+
+const lang = "es";
+const t = translations[lang];
+
+const getPath = (path: string) => `/${lang}/${path}`;
+
+const features = [
+    {
+        icon: "FileText",
+        title: t.features.digitalRecords.title,
+        description: t.features.digitalRecords.tagline,
+        navigateTo: getPath("students"),
+    },
+    {
+        icon: "Smartphone",
+        title: t.features.mobileApp.title,
+        description: t.features.mobileApp.tagline,
+        navigateTo: getPath("app"),
+    },
+    {
+        icon: "FolderOpen",
+        title: t.features.documentManagement.title,
+        description: t.features.documentManagement.tagline,
+        navigateTo: getPath("dashboard"),
+    },
+    {
+        icon: "Users",
+        title: t.features.familyPortal.title,
+        description: t.features.familyPortal.tagline,
+        navigateTo: getPath("guardians"),
+    },
+    {
+        icon: "UserCheck",
+        title: t.features.staffManagement.title,
+        description: t.features.staffManagement.tagline,
+        navigateTo: getPath("dashboard"),
+    },
+    {
+        icon: "Calendar",
+        title: t.features.calendarIntegration.title,
+        description: t.features.calendarIntegration.tagline,
+        navigateTo: getPath("dashboard"),
+    },
+];
+---
+
+<Layout content={{ title: t.meta.homeTitle, description: t.meta.homeDescription }} lang={lang}>
+    <SoftwareApplicationSchema
+        slot="structured-data"
+        name="Edena"
+        description={t.meta.homeDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url="https://edena.es/en/"
+        lang={lang}
+        aggregateRating={{
+            ratingValue: "4.8",
+            reviewCount: "500",
+        }}
+    />
+    <section class="grid gap-16 w-full overflow-x-hidden">
+        <Hero t={t} />
+        <MarketStats t={t} />
+        <KeyFeaturesTabs client:load t={t} />
+        <Features client:load t={t} features={features} />
+        <Conclusion lang={lang} />
+    </section>
+</Layout>
