@@ -1,25 +1,17 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
 import Hero from "@/modules/home/Hero.astro";
-import Carrousel from "@/modules/home/Carrousel";
 import Conclusion from "@/modules/home/Conclusion.astro";
 import MarketStats from "@/modules/home/MarketStats.astro";
 import KeyFeaturesTabs from "@/components/KeyFeaturesTabs";
 import Features from "@/components/Features";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 
-// Home for non-default locales is served by src/pages/en/index.astro (and any future locale folders).
-// This file only generates sub-routes like /en/other when needed; index is handled by static pages.
-export function getStaticPaths() {
-    return [];
-}
-const { lang } = Astro.props;
-const t = translations[lang as keyof typeof translations];
+const lang = "en";
+const t = translations[lang];
 
-const getPath = (path: string) => {
-    return lang === "es" ? `/${path}` : `/${lang}/${path}`;
-};
+const getPath = (path: string) => `/${lang}/${path}`;
 
 const features = [
     {
@@ -68,7 +60,7 @@ const features = [
         description={t.meta.homeDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}
-        url={`https://edena.es/${lang === "es" ? "" : lang + "/"}`}
+        url="https://edena.es/en/"
         lang={lang}
         aggregateRating={{
             ratingValue: "4.8",
