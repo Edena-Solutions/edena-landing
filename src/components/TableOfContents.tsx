@@ -159,7 +159,7 @@ export default function TableOfContents({
                                 className={`text-left w-full px-2 py-1 text-sm rounded transition-colors cursor-pointer ${
                                     activeId === heading.id
                                         ? "text-primary bg-primary/10 font-medium"
-                                        : "text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                                        : "text-muted-foreground hover:text-accent-foreground"
                                 } ${
                                     heading.level === 2
                                         ? "font-medium"
