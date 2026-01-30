@@ -110,9 +110,7 @@ const defaultImageAlt =
             (function () {
                 var k = "edena-theme";
                 var t = localStorage.getItem(k);
-                var dark =
-                    t === "dark" ||
-                    (t !== "light" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+                var dark = t === "dark";
                 document.documentElement.classList.toggle("dark", dark);
                 document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
                 var m = document.querySelector('meta[name="theme-color"]');

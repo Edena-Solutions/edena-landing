@@ -167,12 +167,6 @@ export async function GET() {
             lastmod: currentDate,
         },
         {
-            path: "/es/demo/",
-            priority: "0.8",
-            changefreq: "monthly",
-            lastmod: currentDate,
-        },
-        {
             path: "/es/faqs/",
             priority: "0.8",
             changefreq: "monthly",
@@ -254,12 +248,6 @@ export async function GET() {
         {
             path: "/en/pricing/",
             priority: "0.9",
-            changefreq: "monthly",
-            lastmod: currentDate,
-        },
-        {
-            path: "/en/demo/",
-            priority: "0.8",
             changefreq: "monthly",
             lastmod: currentDate,
         },

@@ -12,7 +12,7 @@ interface Props {
 const { t, variant = "default", className = "" } = Astro.props;
 const currentPath = Astro.url.pathname;
 const lang = getLanguageFromURL(currentPath);
-const demoUrl = `/${lang}/demo`;
+const demoUrl = `/demo`;
 ---
 
 <a href={demoUrl}>
