@@ -1,13 +1,13 @@
 ---
-import { translations, languages } from '@/i18n/index.ts';
+import { translations, languages } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
 
 export function getStaticPaths() {
-  return languages.map(lang => ({
-    params: { lang },
-    props: { lang }
-  }));
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
 }
 
 const { lang } = Astro.props;
@@ -15,6 +15,12 @@ const t = translations[lang as keyof typeof translations];
 ---
 
 <Layout content={{ title: t.meta.demoTitle, description: t.meta.demoDescription }} lang={lang}>
-    <div class="calendly-inline-widget" data-url="https://calendly.com/edena-finance/30min" style="min-width:320px;height:700px;" />
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async />
+    <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/edena-finance/30min"
+        style="min-width:320px;height:700px;"
+    >
+    </div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async
+    ></script>
 </Layout>

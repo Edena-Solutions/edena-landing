@@ -1,0 +1,12 @@
+---
+import { translations } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+
+const lang = "en";
+const t = translations[lang];
+---
+
+<Layout content={{ title: t.meta.demoTitle, description: t.meta.demoDescription }} lang={lang}>
+    <div class="calendly-inline-widget" data-url="https://calendly.com/edena-finance/30min" style="min-width:320px;height:700px;" />
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async />
+</Layout>
