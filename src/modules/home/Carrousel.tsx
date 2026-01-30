@@ -198,7 +198,7 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
                         {features.map((feature, index) => (
                             <div
                                 key={feature.title}
-                                className={`rounded cursor-pointer flex-none w-full md:w-1/3 lg:w-1/4 snap-center transition-all duration-300 overflow-hidden transform bg-gray-50 ${activeIndex === index ? "opacity-100" : "opacity-90"
+                                className={`rounded cursor-pointer flex-none w-full md:w-1/3 lg:w-1/4 snap-center transition-all duration-300 overflow-hidden transform bg-card ${activeIndex === index ? "opacity-100" : "opacity-90"
                                     }`}
                                 onClick={() => (window.location.href = feature.navigateTo)}
                             >

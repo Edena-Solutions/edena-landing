@@ -72,7 +72,7 @@ export const BlogPostList: React.FC<BlogPostListProps> = ({ posts, lang }) => {
                 {posts.slice(0, visibleCount).map((post, idx) => (
                     <Card
                         key={post.slug}
-                        className="overflow-hidden rounded bg-gray-50 p-4 group animate-fadeIn"
+                        className="overflow-hidden rounded bg-card p-4 group animate-fadeIn"
                         style={{ animationDelay: `${(idx % POSTS_PER_PAGE) * 40}ms` }}
                     >
                         <a href={`/${lang}/blog/${post.slug}`} className="block">

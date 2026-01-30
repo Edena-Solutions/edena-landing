@@ -8,9 +8,9 @@ const cases: Array<{ stat: string; description: string; bg: string }> = t.erpSta
     5,
 );
 const bgClass = (bg: string) => {
-    if (bg === "dark") return "bg-neutral-900 text-white";
-    if (bg === "light") return "bg-gray-50 text-neutral-900";
-    return "bg-white";
+    if (bg === "dark") return "invert";
+    if (bg === "light") return "bg-card";
+    return "bg-card";
 };
 const cardBgClass = (bg: string) => {
     if (bg === "highlight") {

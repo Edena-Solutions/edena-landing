@@ -53,7 +53,7 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                             href={`/${lang}${currentPath || "/"}`}
                             className={`px-3 py-1 rounded text-sm font-medium ${currentLang === lang
                                 ? "bg-black text-white"
-                                : "bg-gray-100 text-black hover:bg-gray-200"
+                                : "bg-card text-black hover:bg-card/80"
                                 }`}
                         >
                             {languageNames[lang].code}

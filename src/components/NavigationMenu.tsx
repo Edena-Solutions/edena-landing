@@ -31,7 +31,7 @@ const Logo = ({ lang }: { lang: string }) => {
     const url = lang === "es" ? "/" : `/${lang}/`;
     return (
         <a href={url}>
-            <img src={logo.src} alt={t.altText.logo} className="h-6 w-auto" />
+            <img src={logo.src} alt={t.altText.logo} className="h-5 w-auto dark:invert" />
         </a>
     );
 };
@@ -189,24 +189,14 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                 </NavigationMenuContent>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuLink asChild>
-                                    <a
-                                        href={`/${lang}/pricing`}
-                                        className={navigationMenuTriggerStyle()}
-                                    >
-                                        {t.navigation.pricing}
-                                    </a>
-                                </NavigationMenuLink>
+                                <Link href={`/${lang}/pricing`}>
+                                    <Button variant="ghost">{t.navigation.pricing}</Button>
+                                </Link>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuLink asChild>
-                                    <a
-                                        href={`/${lang}/faqs`}
-                                        className={navigationMenuTriggerStyle()}
-                                    >
-                                        {t.navigation.faqs}
-                                    </a>
-                                </NavigationMenuLink>
+                                <Link href={`/${lang}/faqs`}>
+                                    <Button variant="ghost">{t.navigation.faqs}</Button>
+                                </Link>
                             </NavigationMenuItem>
                         </NavigationMenuList>
                     </NavigationMenu>

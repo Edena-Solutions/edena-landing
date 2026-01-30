@@ -47,7 +47,7 @@ const {
 
 <div class="grid gap-4">
     <Card
-        className="flex flex-col items-center justify-start text-center h-90 sm:h-160 overflow-hidden bg-gray-50 gap-4"
+        className="flex flex-col items-center justify-start text-center h-90 sm:h-160 overflow-hidden bg-card gap-4"
     >
         <CardHeader>
             <h1 class="text-xl font-bold max-w-2xl">{mainTitle}</h1>
@@ -84,14 +84,14 @@ const {
             {
                 leftCard.showButton && (
                     <CardFooter className="flex gap-4">
-                        <BookDemoButton t={t} variant="secondary" />
+                        <BookDemoButton t={t} variant="white" />
                     </CardFooter>
                 )
             }
         </Card>
 
         <Card
-            className={`flex rounded flex-col items-center text-center overflow-hidden bg-gray-50 ${rightCard.cardClass || "h-80 md:h-110"} gap-4`}
+            className={`flex rounded flex-col items-center text-center overflow-hidden bg-card ${rightCard.cardClass || "h-80 md:h-110"} gap-4`}
         >
             {
                 rightCard.title && (

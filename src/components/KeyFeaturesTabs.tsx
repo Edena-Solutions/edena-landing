@@ -147,7 +147,7 @@ export default function KeyFeaturesTabs({ t }: Props) {
                     return (
                         <button
                             key={i}
-                            className={`bg-gray-50 flex w-full gap-2 flex-row items-center py-2 px-2 rounded transition-all cursor-pointer duration-200 ${isActive ? "bg-gray-100" : "hover:bg-gray-100"
+                            className={`bg-card flex w-full gap-2 flex-row items-center justify-start py-2 px-2 rounded transition-all cursor-pointer duration-200 ${isActive ? "bg-accent" : "hover:bg-accent"
                                 }`}
                             onClick={() => handleTab(i)}
                             aria-selected={isActive}
@@ -167,7 +167,7 @@ export default function KeyFeaturesTabs({ t }: Props) {
                                         rx={SQUARE_RADIUS}
                                         ry={SQUARE_RADIUS}
                                         fill="none"
-                                        stroke="#e5e7eb"
+                                        className="stroke-secondary"
                                         strokeWidth={1}
                                     />
                                     <rect
@@ -201,7 +201,7 @@ export default function KeyFeaturesTabs({ t }: Props) {
                                 </div>
                             </div>
                             <div className="flex flex-col text-left">
-                                <p className="text-sm font-medium leading-tight">{f.title}</p>
+                                <p className="text-sm leading-tight">{f.title}</p>
                             </div>
                         </button>
                     );
@@ -210,7 +210,7 @@ export default function KeyFeaturesTabs({ t }: Props) {
             <div className="w-full flex justify-center sm:max-w-7xl sm:px-4">
                 <Card
                     ref={cardRef}
-                    className="flex flex-col sm:flex-row bg-gray-50 w-full overflow-hidden sm:h-100"
+                    className="flex flex-col sm:flex-row bg-card w-full overflow-hidden sm:h-100"
                 >
                     <div ref={cardInnerRef} className="flex flex-col sm:flex-row w-full h-full sm:items-center">
                         <img

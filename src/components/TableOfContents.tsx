@@ -149,7 +149,7 @@ export default function TableOfContents({
     return (
         <nav className={cn(navClasses, variant === "mobile" && "hidden")}>
             {headings.length === 0 ? (
-                <p className="text-sm text-gray-500">No se encontraron encabezados</p>
+                <p className="text-sm text-muted-foreground">No se encontraron encabezados</p>
             ) : (
                 <ul className="space-y-1">
                     {headings.map((heading) => (

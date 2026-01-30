@@ -38,7 +38,7 @@ const pricingPlans = await getCollection("pricing");
             const planId = plan.data.id as keyof typeof t.pricing.plans;
 
             return (
-                <Card className="rounded bg-gray-50 flex flex-col justify-between relative">
+                <Card className="rounded bg-card flex flex-col justify-between relative">
                     {plan.data.isPopular && (
                         <div class="absolute top-0 right-0 bg-black text-white px-4 py-1 rounded-bl rounded-tr-sm text-sm font-medium">
                             {t.pricing.mostPopular}
@@ -47,7 +47,7 @@ const pricingPlans = await getCollection("pricing");
                     <CardHeader>
                         <Badge className="text-sm px-3 py-1">{t.pricing.plans[planId].name}</Badge>
                         <CardTitle className="text-xl font-bold mt-2">{plan.data.price}</CardTitle>
-                        <CardDescription className="text-gray-500">
+                        <CardDescription className="text-muted-foreground pb-4">
                             {t.pricing.plans[planId].description}
                         </CardDescription>
                     </CardHeader>

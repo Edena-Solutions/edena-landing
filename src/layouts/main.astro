@@ -2,6 +2,7 @@
 import "@/styles/global.css";
 import MainNavigationMenu from "@/components/NavigationMenu";
 import Footer from "@/components/Footer.astro";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { ClientRouter } from "astro:transitions";
 import OrganizationSchema from "@/components/StructuredData/Organization.astro";
 import { translations } from "@/i18n/index.ts";
@@ -103,8 +104,21 @@ const defaultImageAlt =
         }
         <!-- Favicons -->
         <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
-        <!-- Theme Color for Mobile -->
-        <meta name="theme-color" content="#1E1E1E" />
+        <!-- Theme Color for Mobile (set by script before paint) -->
+        <meta name="theme-color" content="#ffffff" />
+        <script is:inline>
+            (function () {
+                var k = "edena-theme";
+                var t = localStorage.getItem(k);
+                var dark =
+                    t === "dark" ||
+                    (t !== "light" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+                document.documentElement.classList.toggle("dark", dark);
+                document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+                var m = document.querySelector('meta[name="theme-color"]');
+                if (m) m.setAttribute("content", dark ? "#0a0a0a" : "#ffffff");
+            })();
+        </script>
         <!-- Open Graph -->
         <meta property="og:type" content="website" />
         <meta property="og:locale" content={lang === "es" ? "es_ES" : "en_US"} />
@@ -159,11 +173,12 @@ const defaultImageAlt =
         </script>
         <!-- End Google Tag Manager -->
     </head>
-    <body class="min-h-screen flex flex-col gap-8 overflow-x-hidden">
+    <body class="min-h-screen flex flex-col gap-8 overflow-x-hidden bg-background">
         <MainNavigationMenu client:load lang={lang} />
         <main class="pt-15 flex-grow w-full overflow-x-hidden">
             <slot />
         </main>
         <Footer lang={lang} />
+        <ThemeToggle client:load />
     </body>
 </html>

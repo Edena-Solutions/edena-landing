@@ -28,11 +28,11 @@ export default function Features({ t, features, title, description }: Props) {
                 {features.map((feature, index) => (
                     <Card
                         key={index}
-                        className="rounded flex flex-col p-6 bg-gray-50 cursor-pointer"
+                        className="rounded flex flex-col p-6 bg-card cursor-pointer"
                         onClick={() => (window.location.href = feature.navigateTo)}
                     >
                         <CardHeader className="p-0 flex flex-col">
-                            <div className="flex mb-4 text-primary w-fit p-4 rounded bg-white">
+                            <div className="flex mb-4 text-primary w-fit p-4 rounded bg-background">
                                 <Icon name={feature.icon} size={20} />
                             </div>
                             <h3 className="uppercase tracking-widest text-[10px] font-semibold">{feature.title}</h3>

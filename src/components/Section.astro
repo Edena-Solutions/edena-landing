@@ -61,7 +61,7 @@ const {
                         </CardContent>
                     </Card>
                     <Card
-                        className={`flex flex-col items-center overflow-hidden rounded bg-gray-50 text-center ${leftCard.cardClass || ""}`}
+                        className={`flex flex-col items-center overflow-hidden rounded bg-card text-center ${leftCard.cardClass || ""}`}
                     >
                         <CardHeader className="flex flex-col items-center gap-4">
                             {leftCard.title && <h3 class="text-xl font-bold">{leftCard.title}</h3>}
@@ -78,7 +78,7 @@ const {
                 </div>
             ) : (
                 <Card
-                    className={`flex flex-col items-center gap-6 overflow-hidden rounded bg-gray-50 text-center ${leftCardHeight} ${leftCard.cardClass || ""}`}
+                    className={`flex flex-col items-center gap-6 overflow-hidden rounded bg-card text-center ${leftCardHeight} ${leftCard.cardClass || ""}`}
                 >
                     <CardHeader className="flex flex-col items-center gap-4">
                         {leftCard.title && <h3 class="text-xl font-bold">{leftCard.title}</h3>}
@@ -106,7 +106,7 @@ const {
                         </CardContent>
                     </Card>
                     <Card
-                        className={`flex flex-col items-center overflow-hidden rounded bg-gray-50 text-center ${rightCard.cardClass || ""}`}
+                        className={`flex flex-col items-center overflow-hidden rounded bg-card text-center ${rightCard.cardClass || ""}`}
                     >
                         <CardHeader className="flex flex-col items-center gap-4">
                             {rightCard.title && (
@@ -125,7 +125,7 @@ const {
                 </div>
             ) : (
                 <Card
-                    className={`flex flex-col items-center gap-6 overflow-hidden rounded bg-gray-50 text-center ${rightCardHeight} ${rightCard.cardClass || ""}`}
+                    className={`flex flex-col items-center gap-6 overflow-hidden rounded bg-card text-center ${rightCardHeight} ${rightCard.cardClass || ""}`}
                 >
                     <CardHeader className="flex flex-col items-center gap-4">
                         {rightCard.title && <h3 class="text-xl font-bold">{rightCard.title}</h3>}

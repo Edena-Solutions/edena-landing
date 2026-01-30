@@ -51,7 +51,7 @@ const footerGroups: LinkGroup[] = [
 const currentYear = new Date().getFullYear();
 ---
 
-<footer class={cn("mt-[16px] bg-gray-50", className)}>
+<footer class={cn("mt-[16px] bg-card", className)}>
     <div class="container mx-auto px-4 py-12">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div
@@ -82,7 +82,7 @@ const currentYear = new Date().getFullYear();
                 class="md:col-span-1 text-center md:text-left order-first md:order-last mt-8 md:mt-0"
             >
                 <a href={`/${lang}/`} class="inline-block mb-2">
-                    <Image src={logo} alt={t.altText.logo} class="h-6 w-auto" />
+                    <Image src={logo} alt={t.altText.logo} class="h-6 w-auto dark:invert" />
                 </a>
                 <p class="text-muted-foreground mb-6 text-sm">
                     {t.footer.description}
