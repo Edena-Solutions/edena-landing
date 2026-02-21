@@ -58,7 +58,7 @@ const {
             </p>
         </CardContent>
         <CardFooter className="flex flex-col gap-4">
-            {showBookDemoInHero && <BookDemoButton t={t} />}
+            {showBookDemoInHero && <BookDemoButton t={t} className="hidden sm:block" />}
             <Image
                 src={heroImage}
                 alt={t.altText.heroImage}
