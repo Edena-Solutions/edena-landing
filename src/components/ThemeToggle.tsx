@@ -66,9 +66,9 @@ export function ThemeToggle({ className }: { className?: string }) {
             aria-label={label}
             title={label}
             className={cn(
-                "fixed z-[100] size-11 rounded border border-border",
+                "fixed z-[100] size-11 rounded",
                 "bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-[max(1.5rem,env(safe-area-inset-right))]",
-                "bg-background/95 backdrop-blur-sm",
+                "bg-card backdrop-blur-sm",
                 className
             )}
         >
