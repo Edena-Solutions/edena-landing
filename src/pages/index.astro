@@ -63,7 +63,7 @@ const features = [
         lang={lang}
         aggregateRating={{
             ratingValue: "4.8",
-            reviewCount: "500"
+            reviewCount: "500",
         }}
     />
     <section class="grid gap-16 w-full overflow-x-hidden">
@@ -71,7 +71,6 @@ const features = [
         <MarketStats t={t} />
         <KeyFeaturesTabs client:load t={t} />
         <Features client:load t={t} features={features} />
-        <Carrousel client:load t={t} lang={lang} />
         <Conclusion lang={lang} />
     </section>
 </Layout>
