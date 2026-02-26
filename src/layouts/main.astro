@@ -172,6 +172,27 @@ const defaultImageAlt =
         <!-- End Google Tag Manager -->
     </head>
     <body class="min-h-screen flex flex-col gap-8 overflow-x-hidden bg-background">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-PF9S2VJ8"
+                height="0"
+                width="0"
+                style="display:none;visibility:hidden"
+            ></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <!-- Push page_view on every load/navigation so GTM tracks all routes (blog, faqs, demo, etc.). In GTM: add trigger Custom Event = "page_view" and fire your GA4 page view tag on it (you can use this instead of "All Pages" to avoid duplicates). -->
+        <script is:inline>
+            (function () {
+                function pushPageView() {
+                    try {
+                        (window.dataLayer = window.dataLayer || []).push({ event: "page_view" });
+                    } catch (e) {}
+                }
+                document.addEventListener("astro:page-load", pushPageView);
+            })();
+        </script>
         <MainNavigationMenu client:load lang={lang} />
         <main class="pt-15 flex-grow w-full overflow-x-hidden">
             <slot />
