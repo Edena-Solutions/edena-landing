@@ -104,8 +104,11 @@
 
     .bg-gradient-primary {
         position: relative;
-        background: #ff5252;
-        background: linear-gradient(267deg, rgba(255, 82, 82, 0.746) 0%, rgb(88, 199, 255) 50%, rgba(36, 109, 255, 0.645) 100%);
+        background: #5488f8;
+        background: linear-gradient(267deg,
+                rgba(137, 101, 228, 0.893) 0%,
+                rgb(84, 136, 248) 50%,
+                rgba(36, 109, 255, 0.645) 100%);
         color: white;
     }
 
@@ -121,8 +124,8 @@
 
     .hover-gradient-primary {
         --tw-gradient-from: rgb(36, 109, 255);
-        --tw-gradient-via: rgb(88, 199, 255);
-        --tw-gradient-to: rgb(255, 82, 82);
+        --tw-gradient-via: rgb(84, 136, 248);
+        --tw-gradient-to: rgba(137, 101, 228);
     }
 
     .hover-gradient-primary:hover {
