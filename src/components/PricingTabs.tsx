@@ -46,7 +46,7 @@ interface PricingTabsProps {
 }
 
 export function PricingTabs({ t, lang }: PricingTabsProps) {
-  const [value, setValue] = React.useState("calculator");
+  const [value, setValue] = React.useState("plans");
   const [plansAnnual, setPlansAnnual] = React.useState(false);
   const demoUrl = `/${lang}/demo`;
   const calcT = t.pricing?.calculator;
@@ -70,11 +70,11 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
   return (
     <Tabs value={value} onValueChange={setValue} className="w-full flex justify-center flex-col items-center gap-10">
       <TabsList className="gap-2 justify-center flex-wrap">
-        <TabsTrigger value="calculator" className="text-[10px] tracking-widest uppercase">
-          {t.pricing.viewCalculator}
-        </TabsTrigger>
         <TabsTrigger value="plans" className="text-[10px] tracking-widest uppercase">
           {t.pricing.viewPlans}
+        </TabsTrigger>
+        <TabsTrigger value="calculator" className="text-[10px] tracking-widest uppercase">
+          {t.pricing.viewCalculator}
         </TabsTrigger>
       </TabsList>
       <TabsContent value="plans" className="w-full data-[state=inactive]:hidden sm:px-20" forceMount>
@@ -107,8 +107,8 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
             const annualFrom = fromNumeric != null ? Math.round(fromNumeric * (1 - ANNUAL_DISCOUNT) * 100) / 100 : 0;
             const monthlyFromStr = fromNumeric != null ? formatPrice(monthlyFrom, lang) : "";
             const annualFromStr = fromNumeric != null ? formatPrice(annualFrom, lang) : "";
-            const monthlyFromLabel = fromNumeric != null ? (lang === "es" ? `Desde ${monthlyFromStr} por mes` : `From ${monthlyFromStr}/month`) : null;
-            const annualFromLabel = fromNumeric != null ? (lang === "es" ? `Desde ${annualFromStr} por mes` : `From ${annualFromStr}/month`) : null;
+            const monthlyFromLabel = fromNumeric != null ? (lang === "es" ? `Desde ${monthlyFromStr} al mes` : `From ${monthlyFromStr}/month`) : null;
+            const annualFromLabel = fromNumeric != null ? (lang === "es" ? `Desde ${annualFromStr} al mes` : `From ${annualFromStr}/month`) : null;
             const singleFromLabel = fromNumeric != null ? (plansAnnual ? annualFromLabel : monthlyFromLabel) : data.from;
             const monthlyPricePerChildLabel = prices
               ? formatPricePerChild(prices.pricePerChild, plan.id, lang)

@@ -1,0 +1,21 @@
+---
+faqs:
+    - question: "crm_requests_management"
+      answer: "crm_requests_management_answer"
+    - question: "crm_forms_customization"
+      answer: "crm_forms_customization_answer"
+    - question: "crm_pipeline_stages"
+      answer: "crm_pipeline_stages_answer"
+    - question: "crm_activity_tracking"
+      answer: "crm_activity_tracking_answer"
+    - question: "crm_integration_website"
+      answer: "crm_integration_website_answer"
+    - question: "crm_multiple_origins"
+      answer: "crm_multiple_origins_answer"
+    - question: "crm_reports"
+      answer: "crm_reports_answer"
+    - question: "crm_team_assignment"
+      answer: "crm_team_assignment_answer"
+    - question: "crm_data_security"
+      answer: "crm_data_security_answer"
+---

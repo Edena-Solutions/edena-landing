@@ -6,9 +6,9 @@ import Hero from "@/components/Hero.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/app/FAQs.astro";
 import Features from "@/components/Features";
-import heroImage from "@/assets/img/screenshots/app/app_detail.png";
-import notifications from "@/assets/img/screenshots/app/app_feed.png";
-import feed from "@/assets/img/screenshots/app/app_hero.png";
+import appAnimation from "@/assets/animations/app.json";
+import notificationAnimation from "@/assets/animations/notification.json";
+import touchbarAnimation from "@/assets/animations/touchbar.json";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -70,7 +70,7 @@ const features = [
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
         <Hero
             t={t}
-            heroImage={heroImage}
+            heroLottie={appAnimation}
             mainTitle={t.app.mainTitle}
             mainDescription={t.app.mainDescription}
             showBookDemoInHero={true}
@@ -103,17 +103,15 @@ const features = [
             leftCard={{
                 title: t.app.communicateAndGetAlbumsTitle,
                 description: t.app.communicateAndGetAlbumsDescription,
-                image: feed,
-                imageClass: "object-cover md:w-2/3 mx-auto",
-                cardClass: "h-110",
+                lottie: touchbarAnimation,
+                imageClass: "w-1/4 mx-auto",
                 altText: t.altText.appHero,
             }}
             rightCard={{
                 title: t.app.uploadPicturesAndVideosTitle,
                 description: t.app.uploadPicturesAndVideosDescription,
-                image: notifications,
-                imageClass: "object-cover md:w-2/3 mx-auto",
-                cardClass: "h-110",
+                lottie: notificationAnimation,
+                imageClass: "w-2/3 mx-auto -mt-5",
                 altText: t.altText.appFeed,
             }}
         />

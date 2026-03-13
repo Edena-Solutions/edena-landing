@@ -6,11 +6,13 @@ import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card"
 import { Image } from "astro:assets";
 import BookDemoButton from "@/components/BookDemoButton.astro";
 import GSAPSection from "@/components/ui/gsap-section";
+import LottiePlayer from "@/components/LottiePlayer";
 
 interface SectionCard {
     title?: string;
     description: string;
-    image: ImageMetadata;
+    image?: ImageMetadata;
+    lottie?: object;
     imageClass?: string;
     cardClass?: string;
     altText?: string;
@@ -61,35 +63,51 @@ const {
                         </CardContent>
                     </Card>
                     <Card
-                        className={`flex flex-col items-center overflow-hidden rounded bg-card text-center ${leftCard.cardClass || ""}`}
+                        className={`flex flex-col items-center rounded bg-card text-center ${leftCard.lottie ? "overflow-visible" : "overflow-hidden"} ${leftCard.cardClass || ""}`}
                     >
                         <CardHeader className="flex flex-col items-center gap-4">
                             {leftCard.title && <h3 class="text-xl font-bold">{leftCard.title}</h3>}
                             <p class="max-w-md">{leftCard.description}</p>
                         </CardHeader>
                         <CardFooter>
-                            <Image
-                                src={leftCard.image}
-                                alt={leftCard.altText || leftCard.title || t.altText.heroImage}
-                                class={leftCard.imageClass || "w-full"}
-                            />
+                            {leftCard.lottie ? (
+                                <LottiePlayer
+                                    client:only="react"
+                                    animationData={leftCard.lottie}
+                                    className={leftCard.imageClass || "w-full"}
+                                />
+                            ) : leftCard.image ? (
+                                <Image
+                                    src={leftCard.image}
+                                    alt={leftCard.altText || leftCard.title || t.altText.heroImage}
+                                    class={leftCard.imageClass || "w-full"}
+                                />
+                            ) : null}
                         </CardFooter>
                     </Card>
                 </div>
             ) : (
                 <Card
-                    className={`flex flex-col items-center gap-6 overflow-hidden rounded bg-card text-center ${leftCardHeight} ${leftCard.cardClass || ""}`}
+                    className={`flex flex-col items-center gap-6 rounded bg-card text-center ${leftCard.lottie ? "overflow-visible" : `overflow-hidden ${leftCardHeight}`} ${leftCard.cardClass || ""}`}
                 >
                     <CardHeader className="flex flex-col items-center gap-4">
                         {leftCard.title && <h3 class="text-xl font-bold">{leftCard.title}</h3>}
                         <p class="max-w-md">{leftCard.description}</p>
                     </CardHeader>
                     <CardFooter>
-                        <Image
-                            src={leftCard.image}
-                            alt={leftCard.altText || leftCard.title || t.altText.heroImage}
-                            class={leftCard.imageClass || "w-full"}
-                        />
+                        {leftCard.lottie ? (
+                            <LottiePlayer
+                                client:only="react"
+                                animationData={leftCard.lottie}
+                                className={leftCard.imageClass || "w-full"}
+                            />
+                        ) : leftCard.image ? (
+                            <Image
+                                src={leftCard.image}
+                                alt={leftCard.altText || leftCard.title || t.altText.heroImage}
+                                class={leftCard.imageClass || "w-full"}
+                            />
+                        ) : null}
                     </CardFooter>
                 </Card>
             )
@@ -106,7 +124,7 @@ const {
                         </CardContent>
                     </Card>
                     <Card
-                        className={`flex flex-col items-center overflow-hidden rounded bg-card text-center ${rightCard.cardClass || ""}`}
+                        className={`flex flex-col items-center rounded bg-card text-center ${rightCard.lottie ? "overflow-visible" : "overflow-hidden"} ${rightCard.cardClass || ""}`}
                     >
                         <CardHeader className="flex flex-col items-center gap-4">
                             {rightCard.title && (
@@ -115,28 +133,44 @@ const {
                             <p class="max-w-md">{rightCard.description}</p>
                         </CardHeader>
                         <CardFooter>
-                            <Image
-                                src={rightCard.image}
-                                alt={rightCard.altText || rightCard.title || t.altText.heroImage}
-                                class={rightCard.imageClass || "w-full"}
-                            />
+                            {rightCard.lottie ? (
+                                <LottiePlayer
+                                    client:only="react"
+                                    animationData={rightCard.lottie}
+                                    className={rightCard.imageClass || "w-full"}
+                                />
+                            ) : rightCard.image ? (
+                                <Image
+                                    src={rightCard.image}
+                                    alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                    class={rightCard.imageClass || "w-full"}
+                                />
+                            ) : null}
                         </CardFooter>
                     </Card>
                 </div>
             ) : (
                 <Card
-                    className={`flex flex-col items-center gap-6 overflow-hidden rounded bg-card text-center ${rightCardHeight} ${rightCard.cardClass || ""}`}
+                    className={`flex flex-col items-center gap-6 rounded bg-card text-center ${rightCard.lottie ? "overflow-visible" : `overflow-hidden ${rightCardHeight}`} ${rightCard.cardClass || ""}`}
                 >
                     <CardHeader className="flex flex-col items-center gap-4">
                         {rightCard.title && <h3 class="text-xl font-bold">{rightCard.title}</h3>}
                         <p class="max-w-md">{rightCard.description}</p>
                     </CardHeader>
                     <CardFooter>
-                        <Image
-                            src={rightCard.image}
-                            alt={rightCard.altText || rightCard.title || t.altText.heroImage}
-                            class={rightCard.imageClass || "w-auto"}
-                        />
+                        {rightCard.lottie ? (
+                            <LottiePlayer
+                                client:only="react"
+                                animationData={rightCard.lottie}
+                                className={rightCard.imageClass || "w-auto"}
+                            />
+                        ) : rightCard.image ? (
+                            <Image
+                                src={rightCard.image}
+                                alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                class={rightCard.imageClass || "w-auto"}
+                            />
+                        ) : null}
                     </CardFooter>
                 </Card>
             )

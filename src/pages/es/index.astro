@@ -7,6 +7,7 @@ import MarketStats from "@/modules/home/MarketStats.astro";
 import KeyFeaturesTabs from "@/components/KeyFeaturesTabs";
 import Features from "@/components/Features";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import BentoGrid from "@/components/ui/bento-grid";
 
 const lang = "es";
 const t = translations[lang];
@@ -70,6 +71,7 @@ const features = [
     <section class="grid gap-16 w-full overflow-x-hidden">
         <Hero t={t} />
         <MarketStats t={t} />
+        <BentoGrid client:only="react" t={t} />
         <KeyFeaturesTabs client:load t={t} />
         <Features client:load t={t} features={features} />
         <Conclusion lang={lang} />

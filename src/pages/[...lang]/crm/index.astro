@@ -1,0 +1,139 @@
+---
+import { translations, languages } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+import Hero from "@/components/Hero.astro";
+import Section from "@/components/Section.astro";
+import GSAPSection from "@/components/ui/gsap-section";
+import FAQs from "@/modules/crm/FAQs.astro";
+import Features from "@/components/Features";
+import crmHero from "@/assets/img/screenshots/crm/crm_hero.png";
+import crmList from "@/assets/img/screenshots/crm/crm_list.png";
+import crmForm from "@/assets/img/screenshots/crm/crm_form.png";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { getCollection } from "astro:content";
+
+export function getStaticPaths() {
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+
+const faqsCollection = await getCollection("faqs");
+const crmFaqs = faqsCollection.find((entry) => entry.id === "faqsCrm.md");
+
+const features = [
+    {
+        icon: "GitBranch",
+        title: t.features.crmFeatures.pipeline.title,
+        description: t.features.crmFeatures.pipeline.tagline,
+        navigateTo: `/${lang}/crm`,
+    },
+    {
+        icon: "FileEdit",
+        title: t.features.crmFeatures.forms.title,
+        description: t.features.crmFeatures.forms.tagline,
+        navigateTo: `/${lang}/crm`,
+    },
+    {
+        icon: "Activity",
+        title: t.features.crmFeatures.activity.title,
+        description: t.features.crmFeatures.activity.tagline,
+        navigateTo: `/${lang}/crm`,
+    },
+    {
+        icon: "UserPlus",
+        title: t.features.crmFeatures.assignment.title,
+        description: t.features.crmFeatures.assignment.tagline,
+        navigateTo: `/${lang}/crm`,
+    },
+    {
+        icon: "Globe",
+        title: t.features.crmFeatures.origin.title,
+        description: t.features.crmFeatures.origin.tagline,
+        navigateTo: `/${lang}/crm`,
+    },
+    {
+        icon: "BarChart2",
+        title: t.features.crmFeatures.reports.title,
+        description: t.features.crmFeatures.reports.tagline,
+        navigateTo: `/${lang}/crm`,
+    },
+];
+---
+
+<Layout content={{ title: t.meta.crmTitle, description: t.meta.crmDescription }} lang={lang}>
+    <GSAPSection client:load className="grid gap-16" animationType="opacity">
+        <Hero
+            t={t}
+            heroImage={crmHero}
+            showBookDemoInHero={true}
+            mainTitle={t.crm.mainTitle}
+            mainDescription={t.crm.mainDescription}
+            leftCard={{
+                title: t.crm.requestsTitle,
+                description: t.crm.requestsDescription,
+                showButton: true,
+            }}
+            rightCard={{
+                title: t.crm.heroRightCardTitle,
+                description: t.crm.heroRightCardDescription,
+                downloadAppButtons: {
+                    androidUrl: "https://play.google.com/store/apps/details?id=com.edena.crm",
+                    iosUrl: "https://apps.apple.com/app/id1555555555",
+                },
+                cardClass: "justify-center items-center gap-4",
+            }}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={t.features.crmFeatures.title}
+            description={t.features.crmFeatures.tagline}
+        />
+        <Section
+            t={t}
+            sectionTitle={t.crm.formsAndPipelineTitle}
+            sectionDescription={t.crm.formsAndPipelineDescription}
+            leftCard={{
+                title: t.crm.formTitle,
+                description: t.crm.formDescription,
+                image: crmForm,
+                imageClass: "w-full mx-auto object-contain md:h-100",
+                altText: t.altText.crmForm,
+            }}
+            rightCard={{
+                title: t.crm.pipelineTitle,
+                description: t.crm.pipelineDescription,
+                image: crmList,
+                imageClass: "w-full mx-auto object-contain md:h-100",
+                altText: t.altText.crmList,
+            }}
+        />
+        <FAQs t={t} />
+    </GSAPSection>
+    <SoftwareApplicationSchema
+        slot="structured-data"
+        name="Edena - CRM Escolar"
+        description={t.meta.crmDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/crm`}
+        lang={lang}
+    />
+    {
+        crmFaqs?.data.faqs && (
+            <FAQPageSchema
+                slot="structured-data"
+                faqs={crmFaqs.data.faqs}
+                translations={t.faqs}
+                lang={lang}
+            />
+        )
+    }
+</Layout>

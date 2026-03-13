@@ -6,7 +6,8 @@ export default {
         homeTitle: "Software de Gestión Escolar | ERP Educativo Edena",
         homeDescription:
             "Software de gestión escolar todo-en-uno para colegios y guarderías. Gestión de estudiantes, facturación, comunicación familiar y app móvil. Reduce costes 25% y aumenta satisfacción familiar 60%. Demo gratuita.",
-        pricingTitle: "Precios Software Gestión Escolar | Planes desde 99€/mes | Sin Costes Ocultos",
+        pricingTitle:
+            "Precios Software Gestión Escolar | Planes desde 99€/mes | Sin Costes Ocultos",
         pricingDescription:
             "Planes de gestión escolar adaptados a tu centro. Desde gestión básica hasta ERP completo. Precios transparentes, sin permanencia. Prueba gratuita 30 días.",
         faqsTitle:
@@ -17,12 +18,10 @@ export default {
             "Software de Panel de Control Escolar | Análisis y Herramientas en Tiempo Real",
         dashboardDescription:
             "Obtén información en tiempo real sobre el rendimiento de tu centro con el panel integral de Edena. Monitorea asistencia, sigue el progreso académico, gestiona finanzas y comunícate con familias desde una plataforma central.",
-        studentsTitle:
-            "Sistema de Información Estudiantil (SIS) | Gestión Académica Completa",
+        studentsTitle: "Sistema de Información Estudiantil (SIS) | Gestión Académica Completa",
         studentsDescription:
             "Software SIS para gestión de estudiantes: expedientes digitales, asistencia automática, calificaciones y boletines. Reduce tareas administrativas 40%.",
-        appTitle:
-            "App Móvil para Colegios | Comunicación Familias-Escuela | Edena Kids",
+        appTitle: "App Móvil para Colegios | Comunicación Familias-Escuela | Edena Kids",
         appDescription:
             "App móvil gratuita para familias y profesores. Notificaciones en tiempo real, seguimiento académico, mensajería segura y acceso offline. Disponible iOS y Android.",
         demoTitle: "Solicita tu Demo Gratuita | Descubre Edena en Acción",
@@ -32,8 +31,7 @@ export default {
             "Software de Gestión Escolar | Plataforma de Facturación y Comunicación para Centros Educativos",
         financeDescription:
             "Automatiza la gestión financiera de tu centro con Edena. Maneja facturación, facturas, seguimiento de pagos e informes financieros de forma eficiente. Reduce la carga administrativa y mejora el flujo de caja.",
-        guardiansTitle:
-            "Portal Familias Escolares | Comunicación Centro-Educativo | Edena",
+        guardiansTitle: "Portal Familias Escolares | Comunicación Centro-Educativo | Edena",
         guardiansDescription:
             "Portal para familias: seguimiento académico en tiempo real, mensajería segura con profesores, calendario de eventos y portal de pagos. Aumenta compromiso familiar 60%.",
         familiesTitle:
@@ -44,6 +42,10 @@ export default {
             "Solución para Centros Educativos | Comunicación, Facturación y Automatización | Edena",
         centersDescription:
             "Plataforma integral para centros educativos: comunicación eficiente con familias, facturación automatizada, gestión de estudiantes y automatización de procesos. Reduce costes administrativos hasta un 40%.",
+        crmTitle:
+            "CRM para Colegios y Guarderías | Gestión de Solicitudes y Captación de Familias | Edena",
+        crmDescription:
+            "CRM escolar integrado para gestionar solicitudes de matriculación, captar leads y convertir consultas en nuevas familias. Pipeline visual, formularios personalizables y seguimiento de actividad. Aumenta conversiones hasta un 35%.",
         privacyTitle: "Política de Privacidad | Software de Gestión Escolar Edena",
         privacyDescription:
             "Aprende cómo Edena protege los datos de tu centro y mantiene estándares de privacidad. Nuestra política de privacidad integral garantiza la seguridad de la información estudiantil, familiar e institucional.",
@@ -100,14 +102,20 @@ export default {
         studentsDescription:
             "Solución completa para gestionar registros, asistencia y seguimiento académico de estudiantes.",
         guardians: "Portal de Familias",
-        guardiansDescription: "Plataforma integral para que familias y tutores se mantengan conectados con la educación de sus hijos.",
+        guardiansDescription:
+            "Plataforma integral para que familias y tutores se mantengan conectados con la educación de sus hijos.",
         dashboard: "Panel de Análisis",
         dashboardDescription:
             "Insights y métricas en tiempo real para visualizar el rendimiento de tu centro educativo y tomar decisiones basadas en datos.",
         finance: "Suite Financiera",
-        financeDescription: "Sistema automatizado de gestión financiera para facturación, pagos, presupuestos e informes financieros.",
+        financeDescription:
+            "Sistema automatizado de gestión financiera para facturación, pagos, presupuestos e informes financieros.",
         app: "Edena Kids",
-        appDescription: "Aplicación móvil diseñada para familias, estudiantes y profesores para acceder a la información escolar desde cualquier lugar.",
+        appDescription:
+            "Aplicación móvil diseñada para familias, estudiantes y profesores para acceder a la información escolar desde cualquier lugar.",
+        crm: "CRM Escolar",
+        crmDescription:
+            "Gestiona solicitudes de matriculación, captura leads y convierte consultas en nuevas familias con pipeline visual y formularios personalizables.",
         pricing: "Precios",
         faqs: "FAQs",
         blog: "Blog",
@@ -116,6 +124,36 @@ export default {
         title: "Únete al futuro de la gestión escolar",
         description:
             "Edena ayuda a centros como el tuyo a reducir costes administrativos un 40%, aumentar la satisfacción de las familias un 60% y ahorrar más de 15 horas semanales en tareas rutinarias. Nuestra plataforma integral combina gestión de estudiantes, operaciones financieras y comunicación familiar en un sistema seguro e intuitivo.",
+    },
+    bento: {
+        title: "Todo lo que tu centro necesita en una sola plataforma",
+        description:
+            "Comunicación, facturación, app móvil y más, diseñados para optimizar las operaciones de tu centro educativo.",
+        chat: {
+            title: "Comunicación escolar",
+            description:
+                "Mensajería segura bidireccional entre profesores y familias. Notificaciones push instantáneas, alertas de asistencia y compartir fotos y documentos de forma privada. Aumenta el compromiso familiar hasta un 60%.",
+        },
+        app: {
+            title: "Comunicación centro-familias",
+            description:
+                "Canal directo entre tu centro y las familias. Notificaciones instantáneas, mensajería segura y actualizaciones en tiempo real para mantener a padres y tutores informados en todo momento.",
+        },
+        functions: {
+            title: "Suite de funcionalidades",
+            description:
+                "Gestión de estudiantes, facturación automatizada, control de asistencia, expedientes digitales y portal de familias. Todo integrado en un único ERP educativo para reducir costes administrativos hasta un 40%.",
+        },
+        touchbar: {
+            title: "Interfaz intuitiva",
+            description:
+                "Diseño pensado para el día a día escolar. Acceso rápido a funciones frecuentes, navegación simplificada y experiencia de usuario optimizada para que tu equipo sea productivo desde el primer día.",
+        },
+        users: {
+            title: "Gestión de usuarios",
+            description:
+                "Administra familias, estudiantes, profesores y personal del centro desde un único panel. Perfiles personalizados y permisos por rol.",
+        },
     },
     features: {
         title: "Funcionalidades que transforman la gestión escolar",
@@ -246,6 +284,35 @@ export default {
                 title: "Informes personalizados avanzados",
                 tagline:
                     "Crea reportes ejecutivos personalizados con visualización de datos y exportación automatizada para stakeholders.",
+            },
+        },
+        crmFeatures: {
+            title: "CRM escolar integrado",
+            tagline:
+                "Gestiona solicitudes, captura leads y convierte consultas en nuevas familias con pipeline visual y formularios personalizables.",
+            pipeline: {
+                title: "Pipeline de conversión",
+                tagline: "Visualiza y gestiona el recorrido de cada solicitud desde el primer contacto hasta la matriculación.",
+            },
+            forms: {
+                title: "Formularios personalizables",
+                tagline: "Crea formularios de captación adaptados a tu centro y captura leads desde tu web.",
+            },
+            activity: {
+                title: "Seguimiento de actividad",
+                tagline: "Historial completo de cambios, contactos y acciones por cada solicitud.",
+            },
+            assignment: {
+                title: "Asignación de responsables",
+                tagline: "Asigna cada lead a un miembro del equipo y optimiza el seguimiento.",
+            },
+            origin: {
+                title: "Origen multicanal",
+                tagline: "Registra el origen de cada solicitud: web, teléfono, email o formulario.",
+            },
+            reports: {
+                title: "Informes de conversión",
+                tagline: "Métricas de captación y conversión para optimizar tu estrategia comercial.",
             },
         },
         financeFeatures: {
@@ -421,14 +488,14 @@ export default {
                     "Automatiza la facturación, el cobro y el seguimiento de pagos con un sistema financiero diseñado para colegios y academias.<br><br>Reduce la morosidad, mejora la transparencia y ofrece a las familias una experiencia de pago ágil y segura.<br><br>La gestión financiera digital es clave para la sostenibilidad y el éxito de tu centro.",
             },
             {
-                title: "Gestión de tutores",
+                title: "CRM escolar",
                 description:
-                    "Facilita la comunicación y el seguimiento académico entre tutores, familias y estudiantes.<br><br>Gestiona permisos, reuniones y notificaciones de forma centralizada.<br><br>Una gestión de tutores eficiente mejora la implicación familiar y el rendimiento escolar, fortaleciendo la reputación de tu centro educativo.",
+                    "Gestiona solicitudes de matriculación, captura leads y convierte consultas en nuevas familias.<br><br>Pipeline visual con etapas personalizables, asignación de responsables y seguimiento de actividad en tiempo real.<br><br>El CRM de Edena te ayuda a no perder ninguna oportunidad y aumentar las conversiones hasta un 35%.",
             },
             {
-                title: "Gestión de estudiantes",
+                title: "Formularios dinámicos",
                 description:
-                    "Accede a expedientes completos, historial académico y seguimiento personalizado de cada estudiante.<br><br>Automatiza la matriculación, controla la asistencia y mejora la retención con herramientas digitales avanzadas.<br><br>La gestión de estudiantes de Edena impulsa la excelencia educativa y la satisfacción de las familias.",
+                    "Crea formularios de preinscripción y captación sin programar. Arrastra componentes, define campos y opciones, y publica en minutos.<br><br>Texto corto, email, teléfono, desplegables, casillas y más. Integra los formularios en tu web o landing pages para captar leads directamente en el CRM.<br><br>Formularios dinámicos que adaptas a las necesidades de tu centro y optimizas para conversión.",
             },
         ],
     },
@@ -486,29 +553,37 @@ export default {
         viewCalculator: "Calculadora",
         calculator: {
             title: "Selecciona los módulos que necesitas",
-            subtitle: "Ajusta el número de niños y los módulos que necesitas. El precio se actualiza al instante.",
+            subtitle:
+                "Ajusta el número de niños y los módulos que necesitas. El precio se actualiza al instante.",
             childrenLabel: "Número de niños",
-            childrenHint: "Desde 44€ por mes",
+            childrenHint: "Desde 44€ al mes",
             billingToggle: "Facturación",
-            billingDescription: "Facturación electrónica automatizada, compatible con Verifactu, generación de recibos y control de impagos.",
+            billingDescription:
+                "Facturación electrónica automatizada, compatible con Verifactu, generación de recibos y control de impagos.",
             billingHint: "+0,20€ por niño",
             extracurricularToggle: "Extraescolares",
-            extracurricularDescription: "Gestión y autogestión de actividades: solicitudes online, control de plazas y cobros vinculados.",
+            extracurricularDescription:
+                "Gestión y autogestión de actividades: solicitudes online, control de plazas y cobros vinculados.",
             extracurricularHint: "+0,10€ por niño",
             communicationProToggle: "Comunicación Pro",
-            communicationProDescription: "Chat en tiempo real, notificaciones push, confirmación de lectura y comunicación segmentada por grupo o aula.",
+            communicationProDescription:
+                "Chat en tiempo real, notificaciones push, confirmación de lectura y comunicación segmentada por grupo o aula.",
             communicationProHint: "+0,10€ por niño",
             automationToggle: "Automatización",
-            automationDescription: "Reglas personalizadas, workflows automáticos y procesos inteligentes de gestión de alumnos y onboarding.",
+            automationDescription:
+                "Reglas personalizadas, workflows automáticos y procesos inteligentes de gestión de alumnos y onboarding.",
             automationHint: "+0,25€ por niño",
             onlineStoreToggle: "Tienda Online",
-            onlineStoreDescription: "Venta de productos y servicios, albaranes y facturas automáticos, control de stock e histórico por alumno. Precio fijo mensual, no depende del número de niños.",
+            onlineStoreDescription:
+                "Venta de productos y servicios, albaranes y facturas automáticos, control de stock e histórico por alumno. Precio fijo mensual, no depende del número de niños.",
             onlineStoreHint: "10€/mes",
             cloudToggle: "Cloud",
-            cloudDescription: "Espacio en la nube para almacenar documentos. Crea carpetas y gestiona la visibilidad por grupo o alumno.",
+            cloudDescription:
+                "Espacio en la nube para almacenar documentos. Crea carpetas y gestiona la visibilidad por grupo o alumno.",
             cloudHint: "+0,25€ por niño",
             packCompleteMessage: "Te conviene el Pack Completo",
-            packCompleteDescription: "Todos los módulos incluidos: 2,12€/niño + 10€/mes (tienda online).",
+            packCompleteDescription:
+                "Todos los módulos incluidos: 2,12€/niño + 10€/mes (tienda online).",
             monthly: "Mensual",
             annual: "Anual",
             annualDiscount: "-15%",
@@ -522,9 +597,9 @@ export default {
         recommended: {
             esencial: {
                 name: "Esencial",
-                description: "Desde 44€ por mes",
+                description: "Desde 44€ al mes",
                 pricePerChild: "1,22€ por niño",
-                from: "Desde 44€ por mes",
+                from: "Desde 44€ al mes",
                 features: [
                     "Gestión completa de alumnos (expediente digital)",
                     "Control diario de asistencia",
@@ -540,9 +615,9 @@ export default {
             },
             gestionPro: {
                 name: "Gestión Pro",
-                description: "Desde 44€ por mes",
+                description: "Desde 44€ al mes",
                 pricePerChild: "1,52€ por niño",
-                from: "Desde 44€ por mes",
+                from: "Desde 44€ al mes",
                 features: [
                     "Todo lo incluido en el plan Esencial",
                     "Facturación electrónica automatizada (compatible con Verifactu)",
@@ -560,7 +635,7 @@ export default {
                 name: "Completo",
                 description: "Todos los módulos: 2,12€/niño + 10€/mes tienda.",
                 pricePerChild: "2,12€/niño + 10€/mes",
-                from: "Desde 44€ por mes",
+                from: "Desde 44€ al mes",
                 features: [
                     "Todo lo incluido en Gestión Pro",
                     "Gestión y autogestión de extraescolares",
@@ -811,6 +886,38 @@ export default {
         dashboard_support_options: "¿Qué soporte ofrece Edena para el dashboard?",
         dashboard_support_options_answer:
             "Dispones de soporte técnico especializado y documentación detallada para resolver cualquier incidencia.",
+        crm: {
+            title: "Preguntas frecuentes sobre el CRM escolar de Edena",
+            description:
+                "Resuelve tus dudas sobre gestión de solicitudes, formularios de captación, pipeline de conversión y seguimiento de leads. Convierte más consultas en matriculaciones.",
+        },
+        crm_requests_management: "¿Cómo gestiono las solicitudes de matriculación?",
+        crm_requests_management_answer:
+            "El CRM centraliza todas las solicitudes en una lista con filtros, búsqueda y asignación de responsables. Puedes ver origen, estado, fecha y responsable de cada lead.",
+        crm_forms_customization: "¿Puedo personalizar los formularios de captación?",
+        crm_forms_customization_answer:
+            "Sí, el editor visual permite crear formularios con campos de texto, email, teléfono, desplegables y casillas. Arrastra componentes y define opciones según las necesidades de tu centro.",
+        crm_pipeline_stages: "¿Qué etapas tiene el pipeline de conversión?",
+        crm_pipeline_stages_answer:
+            "El pipeline incluye: Nuevo, Contactado, Cualificado, Propuesta, Negociación y Ganado. Puedes cambiar el estado de cada solicitud con un clic y el historial de actividad se registra automáticamente.",
+        crm_activity_tracking: "¿Se registra el historial de actividad de cada solicitud?",
+        crm_activity_tracking_answer:
+            "Sí, cada cambio de estado, contacto o acción queda registrado con fecha y hora para un seguimiento completo del recorrido de cada lead.",
+        crm_integration_website: "¿Puedo integrar los formularios en mi web?",
+        crm_integration_website_answer:
+            "Los formularios generan enlaces que puedes incorporar en tu web, landing pages o campañas de email para captar leads directamente en el CRM.",
+        crm_multiple_origins: "¿Puedo registrar el origen de cada solicitud?",
+        crm_multiple_origins_answer:
+            "Sí, puedes indicar si la solicitud llegó por web, teléfono, email, visita o formulario. Esto te ayuda a optimizar tus canales de captación.",
+        crm_reports: "¿Hay informes de conversión disponibles?",
+        crm_reports_answer:
+            "El CRM ofrece métricas de captación, conversión por etapa y rendimiento por responsable para optimizar tu estrategia comercial.",
+        crm_team_assignment: "¿Puedo asignar responsables a cada solicitud?",
+        crm_team_assignment_answer:
+            "Sí, asigna cada lead a un miembro del equipo para distribuir el trabajo y asegurar un seguimiento personalizado de cada familia interesada.",
+        crm_data_security: "¿Cómo se protegen los datos del CRM?",
+        crm_data_security_answer:
+            "Todos los datos están cifrados y cumplen con la normativa RGPD. Solo el personal autorizado puede acceder a la información de las solicitudes.",
         // Students
         students: {
             title: "Preguntas frecuentes sobre gestión de estudiantes en Edena",
@@ -1011,6 +1118,26 @@ Al navegar por nuestra web, el usuario acepta el uso de cookies en las condicion
 5. MÁS INFORMACIÓN<br>
 Para cualquier duda sobre nuestra política de cookies, puede contactar con privacidad@edena.es.`,
     },
+    crm: {
+        mainTitle: "CRM escolar para captar y convertir familias",
+        mainDescription:
+            "Gestiona solicitudes de matriculación, captura leads desde múltiples canales y convierte consultas en nuevas familias. Pipeline visual, formularios personalizables y seguimiento de actividad integrado.",
+        requestsTitle: "Gestión de solicitudes",
+        requestsDescription:
+            "Lista centralizada de todas las solicitudes con filtros, búsqueda y asignación de responsables. Seguimiento del origen, estado y fecha de cada lead para no perder ninguna oportunidad.",
+        formTitle: "Formularios personalizables",
+        formDescription:
+            "Crea formularios de preinscripción y captación con campos personalizados. Arrastra componentes, define opciones y activa formularios para captar leads desde tu web o landing pages.",
+        pipelineTitle: "Pipeline de conversión",
+        pipelineDescription:
+            "Visualiza el recorrido de cada solicitud: Nuevo, Contactado, Cualificado, Propuesta, Negociación y Ganado. Cambia estados con un clic y mantén el historial de actividad completo.",
+        heroRightCardTitle: "Convierte más consultas en matriculaciones",
+        heroRightCardDescription:
+            "Cada lead que llega es una familia potencial. Solicita tu demo y descubre cómo el CRM de Edena te ayuda a no perder ninguna oportunidad y cerrar más plazas.",
+        formsAndPipelineTitle: "Formularios y seguimiento",
+        formsAndPipelineDescription:
+            "Captura leads con formularios personalizables y gestiona todo el recorrido hasta la matriculación desde un único panel.",
+    },
     dashboard: {
         mainTitle: "Panel de control escolar intuitivo",
         mainDescription:
@@ -1056,7 +1183,8 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
         mainDescription:
             "Accede a todas las funciones desde cualquier dispositivo. Gestión total en la palma de tu mano.",
         androidIosTitle: "App para Android e iOS",
-        androidIosDescription: "Disponible en todas las plataformas. Descarga ahora y mantente conectado.",
+        androidIosDescription:
+            "Disponible en todas las plataformas. Descarga ahora y mantente conectado.",
         parentsConnectedTitle: "Conecta con familias",
         parentsConnectedDescription:
             "Mantén a las familias informadas con actualizaciones instantáneas.",
@@ -1188,12 +1316,15 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
     },
     altText: {
         logo: "Logo de Edena - Software de Gestión Escolar",
-        heroImage: "Dashboard de gestión escolar Edena mostrando análisis en tiempo real y herramientas administrativas",
+        heroImage:
+            "Dashboard de gestión escolar Edena mostrando análisis en tiempo real y herramientas administrativas",
         appStoreBadge: "Descargar Edena en App Store",
         googlePlayBadge: "Descargar Edena en Google Play",
-        appDetail: "App móvil Edena para familias con notificaciones de asistencia estudiantil y comunicación escolar",
+        appDetail:
+            "App móvil Edena para familias con notificaciones de asistencia estudiantil y comunicación escolar",
         dashboardHero: "Panel de control escolar Edena con métricas y análisis en tiempo real",
-        studentsHero: "Sistema de información estudiantil Edena con gestión de expedientes académicos",
+        studentsHero:
+            "Sistema de información estudiantil Edena con gestión de expedientes académicos",
         guardiansHero: "Portal de familias Edena para comunicación y seguimiento académico",
         financeHero: "Suite financiera Edena con facturación automática y gestión de pagos",
         billingCycle: "Ciclo de facturación automatizado en Edena para centros educativos",
@@ -1208,6 +1339,9 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
         quickActions: "Acciones rápidas del panel de control escolar Edena",
         notifications: "Sistema de notificaciones en tiempo real de Edena",
         calendar: "Calendario escolar integrado en Edena",
+        crmHero: "CRM escolar Edena para gestión de solicitudes y captación de familias",
+        crmList: "Lista de solicitudes y leads en el CRM escolar Edena",
+        crmForm: "Editor de formularios personalizables del CRM Edena",
         conclusionLogo: "Logo de Edena - Transforma la gestión de tu centro educativo",
     },
 };

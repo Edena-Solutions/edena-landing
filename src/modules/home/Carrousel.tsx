@@ -10,7 +10,7 @@ import {
     MessageCircle,
     Shapes,
     UserRound,
-    Wallet,
+    WalletCards,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Translation } from "@/i18n";
@@ -47,7 +47,7 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
         {
             title: t.carousel.financeManagement.title,
             tagline: t.carousel.financeManagement.tagline,
-            icon: <Wallet size={50} />,
+            icon: <WalletCards size={50} />,
             navigateTo: `/${lang}/finance`,
         },
         {

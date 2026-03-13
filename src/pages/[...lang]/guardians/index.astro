@@ -8,7 +8,7 @@ import FAQs from "@/modules/guardians/FAQs.astro";
 import Features from "@/components/Features";
 import heroImage from "@/assets/img/screenshots/guardians/guardian_hero.png";
 import guardianManagement from "@/assets/img/screenshots/guardians/guardian_management.png";
-import appDetail from "@/assets/img/screenshots/app/app_detail.png";
+import appAnimation from "@/assets/animations/app.json";
 import emailInvoice from "@/assets/img/screenshots/finance/billing_cycle.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
@@ -103,9 +103,9 @@ const features = [
             leftCard={{
                 title: t.guardians.appTitle,
                 description: t.guardians.appDescription,
-                image: appDetail,
-                imageClass: "object-cover md:w-2/3 mx-auto",
-                cardClass: "h-110",
+                lottie: appAnimation,
+                imageClass: "object-cover mx-auto",
+                cardClass: "h-110 overflow-hidden",
                 altText: t.altText.appDetail,
             }}
             rightCard={{
@@ -126,12 +126,14 @@ const features = [
         url={`https://edena.es/${lang}/guardians`}
         lang={lang}
     />
-    {guardiansFaqs?.data.faqs && (
-        <FAQPageSchema 
-            slot="structured-data"
-            faqs={guardiansFaqs.data.faqs} 
-            translations={t.faqs}
-            lang={lang}
-        />
-    )}
+    {
+        guardiansFaqs?.data.faqs && (
+            <FAQPageSchema
+                slot="structured-data"
+                faqs={guardiansFaqs.data.faqs}
+                translations={t.faqs}
+                lang={lang}
+            />
+        )
+    }
 </Layout>

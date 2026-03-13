@@ -7,7 +7,7 @@ import Section from "@/components/Section.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/dashboard/FAQs.astro";
 import Features from "@/components/Features";
-import heroImage from "@/assets/img/screenshots/shared/hero.png";
+import heroImage from "@/assets/img/screenshots/finance/invoice_analytics.png";
 import quickActions from "@/assets/img/screenshots/dashboard/dashboard_quickactions.png";
 import notificationsImage from "@/assets/img/screenshots/dashboard/dashboard_notifications.png";
 import calendar from "@/assets/img/screenshots/dashboard/dashboard_calendar.png";
@@ -131,12 +131,14 @@ const features = [
         url={`https://edena.es/${lang}/dashboard`}
         lang={lang}
     />
-    {dashboardFaqs?.data.faqs && (
-        <FAQPageSchema 
-            slot="structured-data"
-            faqs={dashboardFaqs.data.faqs} 
-            translations={t.faqs}
-            lang={lang}
-        />
-    )}
+    {
+        dashboardFaqs?.data.faqs && (
+            <FAQPageSchema
+                slot="structured-data"
+                faqs={dashboardFaqs.data.faqs}
+                translations={t.faqs}
+                lang={lang}
+            />
+        )
+    }
 </Layout>

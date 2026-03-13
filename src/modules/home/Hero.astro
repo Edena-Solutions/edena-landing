@@ -5,10 +5,13 @@ import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button";
 import { Image } from "astro:assets";
 import BookDemoButton from "@/components/BookDemoButton.astro";
+import LottiePlayer from "@/components/LottiePlayer";
 
 import Link from "@/components/ui/link";
 import GSAPSection from "@/components/ui/gsap-section";
 import heroImage from "@/assets/img/screenshots/shared/hero.png";
+import appAnimation from "@/assets/animations/app.json";
+import invoiceEmail from "@/assets/img/screenshots/finance/invoice_email.png";
 
 interface Props {
     t: Translation;
@@ -40,37 +43,43 @@ const { t } = Astro.props;
         </CardFooter>
     </Card>
 
-    <div class="grid sm:grid-cols-2 gap-4 px-4">
+    <div class="grid gap-4 px-4 text-sm sm:grid-cols-2 w-full">
         <Card
-            className="flex rounded flex-col items-center justify-center text-center bg-gradient-primary"
+            className="flex flex-col items-center gap-6 rounded text-center overflow-visible bg-gradient-primary h-100 md:h-130 overflow-hidden"
         >
-            <CardHeader className="pb-2">
-                <h2 class="text-xl font-bold max-w-100">{t.hero.mobileTitle}</h2>
+            <CardHeader className="flex flex-col items-center gap-4">
+                <h3 class="text-xl font-bold">{t.hero.mobileTitle}</h3>
+                <p class="max-w-md">{t.hero.mobileDescription}</p>
             </CardHeader>
-            <CardContent className="flex flex-col gap-6 items-center">
-                <p class="max-w-100">
-                    {t.hero.mobileDescription}
-                </p>
-            </CardContent>
-            <CardFooter>
+            <CardFooter className="flex flex-col gap-4 items-center">
                 <Link href="app">
                     <Button variant="white">
                         {t.knowMore}
                     </Button>
                 </Link>
+                <LottiePlayer
+                    client:only="react"
+                    animationData={appAnimation}
+                    className="w-full mx-auto"
+                />
             </CardFooter>
         </Card>
 
-        <Card className="flex rounded flex-col items-center text-center overflow-hidden bg-card">
-            <CardHeader className="pb-2">
-                <h2 class="text-xl font-bold">{t.hero.orgTitle}</h2>
+        <Card
+            className="flex flex-col items-center gap-6 rounded bg-card text-center overflow-visible h-100 md:h-130 overflow-hidden"
+        >
+            <CardHeader className="flex flex-col items-center gap-4">
+                <h3 class="text-xl font-bold">{t.hero.orgTitle}</h3>
+                <p class="max-w-md text-muted-foreground">{t.hero.orgDescription}</p>
             </CardHeader>
-            <CardContent className="flex flex-col gap-4 sm:gap-8 items-center">
-                <p class="text-muted-foreground max-w-140">
-                    {t.hero.orgDescription}
-                </p>
+            <CardFooter className="flex flex-col gap-4 items-center">
                 <BookDemoButton t={t} />
-            </CardContent>
+                <Image
+                    src={invoiceEmail}
+                    alt={t.altText.emailInvoice || t.altText.heroImage}
+                    class="w-full mx-auto object-contain"
+                />
+            </CardFooter>
         </Card>
     </div>
 </GSAPSection>

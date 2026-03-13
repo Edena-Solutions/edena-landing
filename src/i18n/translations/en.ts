@@ -28,18 +28,20 @@ export default {
             "School Management Software | Billing & Communication Platform for Educational Institutions",
         financeDescription:
             "Automate your school's financial management with Edena. Handle billing, invoicing, payment tracking, and financial reporting efficiently. Reduce administrative workload and improve cash flow.",
-        guardiansTitle:
-            "School Family Portal | School-Educational Communication | Edena",
+        guardiansTitle: "School Family Portal | School-Educational Communication | Edena",
         guardiansDescription:
             "Family portal: real-time academic tracking, secure messaging with teachers, event calendar and payment portal. Increases family engagement by 60%.",
-        familiesTitle:
-            "Family Portal | Mobile App, Digital Billing & Online Store | Edena",
+        familiesTitle: "Family Portal | Mobile App, Digital Billing & Online Store | Edena",
         familiesDescription:
             "Everything families need in one place: free mobile app, digital billing, online store and direct communication with the school. Manage your children's education from any device.",
         centersTitle:
             "Solution for Educational Centers | Communication, Billing & Automation | Edena",
         centersDescription:
             "Comprehensive platform for educational centers: efficient family communication, automated billing, student management and process automation. Reduce administrative costs by up to 40%.",
+        crmTitle:
+            "CRM for Schools and Daycares | Enrollment Requests & Family Acquisition | Edena",
+        crmDescription:
+            "Integrated school CRM to manage enrollment requests, capture leads and convert inquiries into new families. Visual pipeline, customizable forms and activity tracking. Increase conversions by up to 35%.",
         privacyTitle: "Privacy Policy | Edena School Management Software",
         privacyDescription:
             "Learn how Edena protects your school's data and maintains privacy standards. Our comprehensive privacy policy ensures the security of student, family, and institutional information.",
@@ -52,8 +54,7 @@ export default {
     },
     hero: {
         mainTitle: "Transform Your School Management",
-        mainDescription:
-            "All-in-one platform for student management, billing, and communication.",
+        mainDescription: "All-in-one platform for student management, billing, and communication.",
         mobileTitle: "Your School, Always Connected",
         mobileDescription:
             "Keep parents engaged with instant updates, secure photo sharing, and real-time communication.",
@@ -91,14 +92,20 @@ export default {
         studentsDescription:
             "Complete solution for managing student records, attendance tracking, and academic performance monitoring.",
         guardians: "Family Portal",
-        guardiansDescription: "Comprehensive platform for families and guardians to stay connected with their children's education.",
+        guardiansDescription:
+            "Comprehensive platform for families and guardians to stay connected with their children's education.",
         dashboard: "Analytics Dashboard",
         dashboardDescription:
             "Real-time insights and metrics to visualize your educational institution's performance and make data-driven decisions.",
         finance: "Financial Suite",
-        financeDescription: "Automated financial management system for billing, payments, budgets, and financial reporting.",
+        financeDescription:
+            "Automated financial management system for billing, payments, budgets, and financial reporting.",
         app: "Edena Kids",
-        appDescription: "Mobile application designed for families, students, and teachers to access school information on the go.",
+        appDescription:
+            "Mobile application designed for families, students, and teachers to access school information on the go.",
+        crm: "School CRM",
+        crmDescription:
+            "Manage enrollment requests, capture leads and convert inquiries into new families with visual pipeline and customizable forms.",
         pricing: "Pricing",
         faqs: "FAQs",
         blog: "Blog",
@@ -107,6 +114,36 @@ export default {
         title: "Join the Future of School Management",
         description:
             "Edena helps schools like yours reduce administrative costs by 40%, increase parent satisfaction by 60%, and save 15+ hours per week on routine tasks. Our all-in-one platform combines student management, financial operations, and family communication in one secure, intuitive system.",
+    },
+    bento: {
+        title: "Everything Your School Needs in One Platform",
+        description:
+            "Communication, billing, mobile app and more, designed to streamline your educational institution's operations.",
+        chat: {
+            title: "School Communication",
+            description:
+                "Secure two-way messaging between teachers and families. Instant push notifications, attendance alerts, and private photo and document sharing. Increase family engagement by up to 60%.",
+        },
+        app: {
+            title: "School-family communication",
+            description:
+                "Direct channel between your school and families. Instant notifications, secure messaging and real-time updates to keep parents and guardians informed at all times.",
+        },
+        functions: {
+            title: "Suite of Features",
+            description:
+                "Student management, automated billing, attendance tracking, digital records and family portal. All integrated in one educational ERP to reduce administrative costs by up to 40%.",
+        },
+        touchbar: {
+            title: "Intuitive Interface",
+            description:
+                "Design built for daily school life. Quick access to frequent functions, simplified navigation and optimized user experience so your team is productive from day one.",
+        },
+        users: {
+            title: "User Management",
+            description:
+                "Manage families, students, teachers and school staff from a single dashboard. Custom profiles and role-based permissions.",
+        },
     },
     features: {
         title: "Features that Transform School Management",
@@ -234,6 +271,35 @@ export default {
                 title: "Advanced Custom Reporting",
                 tagline:
                     "Create personalized executive reports with data visualization and automated export for stakeholders and decision makers.",
+            },
+        },
+        crmFeatures: {
+            title: "Integrated school CRM",
+            tagline:
+                "Manage requests, capture leads and convert inquiries into new families with visual pipeline and customizable forms.",
+            pipeline: {
+                title: "Conversion pipeline",
+                tagline: "Visualize and manage the journey of each request from first contact to enrollment.",
+            },
+            forms: {
+                title: "Customizable forms",
+                tagline: "Create capture forms tailored to your school and capture leads from your website.",
+            },
+            activity: {
+                title: "Activity tracking",
+                tagline: "Complete history of changes, contacts and actions for each request.",
+            },
+            assignment: {
+                title: "Responsible assignment",
+                tagline: "Assign each lead to a team member and optimize follow-up.",
+            },
+            origin: {
+                title: "Multichannel origin",
+                tagline: "Record the origin of each request: web, phone, email or form.",
+            },
+            reports: {
+                title: "Conversion reports",
+                tagline: "Acquisition and conversion metrics to optimize your sales strategy.",
             },
         },
         financeFeatures: {
@@ -409,14 +475,14 @@ export default {
                     "Automate invoicing, collections, and payment tracking with a finance system built for schools and academies.<br><br>Reduce late payments, improve transparency, and offer families a seamless, secure payment experience.<br><br>Digital financial management is essential for your school’s sustainability and long-term success.",
             },
             {
-                title: "Guardian Management",
+                title: "School CRM",
                 description:
-                    "Simplify communication and academic tracking between guardians, families, and students.<br><br>Manage permissions, meetings, and notifications from a single hub.<br><br>Efficient guardian management increases family engagement and student performance, strengthening your school’s reputation.",
+                    "Manage enrollment requests, capture leads and convert inquiries into new families.<br><br>Visual pipeline with customizable stages, responsible assignment and real-time activity tracking.<br><br>Edena's CRM helps you never miss an opportunity and increase conversions by up to 35%.",
             },
             {
-                title: "Student Management",
+                title: "Dynamic forms",
                 description:
-                    "Access complete student records, academic history, and personalized tracking for every learner.<br><br>Automate enrollment, monitor attendance, and boost retention with advanced digital tools.<br><br>Edena’s student management drives educational excellence and family satisfaction.",
+                    "Create pre-registration and capture forms without coding. Drag components, define fields and options, and publish in minutes.<br><br>Short text, email, phone, dropdowns, checkboxes and more. Embed forms on your website or landing pages to capture leads directly in the CRM.<br><br>Dynamic forms you adapt to your school's needs and optimize for conversion.",
             },
         ],
     },
@@ -472,29 +538,37 @@ export default {
         viewCalculator: "Calculator",
         calculator: {
             title: "Select the modules you need",
-            subtitle: "Adjust the number of children and the modules you need. Price updates in real time.",
+            subtitle:
+                "Adjust the number of children and the modules you need. Price updates in real time.",
             childrenLabel: "Number of children",
             childrenHint: "From €44 per month",
             billingToggle: "Billing",
-            billingDescription: "Automated electronic billing, Verifactu compatible, receipt generation and payment monitoring.",
+            billingDescription:
+                "Automated electronic billing, Verifactu compatible, receipt generation and payment monitoring.",
             billingHint: "+€0.20 per child",
             extracurricularToggle: "After-school",
-            extracurricularDescription: "Activity management and self-service: online requests, place availability and linked payments.",
+            extracurricularDescription:
+                "Activity management and self-service: online requests, place availability and linked payments.",
             extracurricularHint: "+€0.10 per child",
             communicationProToggle: "Communication Pro",
-            communicationProDescription: "Real-time chat, push notifications, read receipts and segmented communication by group or class.",
+            communicationProDescription:
+                "Real-time chat, push notifications, read receipts and segmented communication by group or class.",
             communicationProHint: "+€0.10 per child",
             automationToggle: "Automation",
-            automationDescription: "Custom rules, automatic workflows and smart student management and onboarding processes.",
+            automationDescription:
+                "Custom rules, automatic workflows and smart student management and onboarding processes.",
             automationHint: "+€0.25 per child",
             onlineStoreToggle: "Online Store",
-            onlineStoreDescription: "Product and service sales, automatic delivery notes and invoices, stock control and history per student. Fixed monthly price, not per child.",
+            onlineStoreDescription:
+                "Product and service sales, automatic delivery notes and invoices, stock control and history per student. Fixed monthly price, not per child.",
             onlineStoreHint: "€10/month",
             cloudToggle: "Cloud",
-            cloudDescription: "Cloud storage for documents. Create folders and manage visibility by group or student.",
+            cloudDescription:
+                "Cloud storage for documents. Create folders and manage visibility by group or student.",
             cloudHint: "+€0.25 per child",
             packCompleteMessage: "The Complete Pack is best for you",
-            packCompleteDescription: "All modules included: €2.12/child + €10/month (online store).",
+            packCompleteDescription:
+                "All modules included: €2.12/child + €10/month (online store).",
             monthly: "Monthly",
             annual: "Annual",
             annualDiscount: "-15%",
@@ -795,6 +869,38 @@ export default {
         dashboard_support_options: "What support does Edena offer for the dashboard?",
         dashboard_support_options_answer:
             "You have access to specialized technical support and detailed documentation for any issues.",
+        crm: {
+            title: "Frequently Asked Questions about Edena's School CRM",
+            description:
+                "Get answers about request management, capture forms, conversion pipeline and lead tracking. Convert more inquiries into enrollments.",
+        },
+        crm_requests_management: "How do I manage enrollment requests?",
+        crm_requests_management_answer:
+            "The CRM centralizes all requests in a list with filters, search and responsible assignment. You can see origin, status, date and responsible for each lead.",
+        crm_forms_customization: "Can I customize the capture forms?",
+        crm_forms_customization_answer:
+            "Yes, the visual editor allows you to create forms with text, email, phone, dropdown and checkbox fields. Drag components and define options according to your school's needs.",
+        crm_pipeline_stages: "What stages does the conversion pipeline have?",
+        crm_pipeline_stages_answer:
+            "The pipeline includes: New, Contacted, Qualified, Proposal, Negotiation and Won. You can change the status of each request with one click and the activity history is recorded automatically.",
+        crm_activity_tracking: "Is the activity history of each request recorded?",
+        crm_activity_tracking_answer:
+            "Yes, each status change, contact or action is recorded with date and time for complete tracking of each lead's journey.",
+        crm_integration_website: "Can I integrate the forms on my website?",
+        crm_integration_website_answer:
+            "Forms generate links that you can embed on your website, landing pages or email campaigns to capture leads directly in the CRM.",
+        crm_multiple_origins: "Can I record the origin of each request?",
+        crm_multiple_origins_answer:
+            "Yes, you can indicate whether the request came from web, phone, email, visit or form. This helps you optimize your acquisition channels.",
+        crm_reports: "Are conversion reports available?",
+        crm_reports_answer:
+            "The CRM offers acquisition metrics, conversion by stage and performance by responsible to optimize your sales strategy.",
+        crm_team_assignment: "Can I assign responsibles to each request?",
+        crm_team_assignment_answer:
+            "Yes, assign each lead to a team member to distribute work and ensure personalized follow-up of each interested family.",
+        crm_data_security: "How is CRM data protected?",
+        crm_data_security_answer:
+            "All data is encrypted and complies with GDPR regulations. Only authorized staff can access request information.",
         // Students
         students: {
             title: "Frequently Asked Questions about Student Management in Edena",
@@ -937,6 +1043,26 @@ The processing of personal data is governed by the Privacy Policy and current da
 These terms are governed by Spanish law. For any dispute, the parties submit to the courts of Barcelona, Spain.<br>
 <br>
 For any questions about these terms, you can contact us at privacidad@edena.es.`,
+    },
+    crm: {
+        mainTitle: "School CRM to capture and convert families",
+        mainDescription:
+            "Manage enrollment requests, capture leads from multiple channels and convert inquiries into new families. Visual pipeline, customizable forms and integrated activity tracking.",
+        requestsTitle: "Request management",
+        requestsDescription:
+            "Centralized list of all requests with filters, search and responsible assignment. Track origin, status and date of each lead so you never miss an opportunity.",
+        formTitle: "Customizable forms",
+        formDescription:
+            "Create pre-registration and capture forms with custom fields. Drag components, define options and activate forms to capture leads from your website or landing pages.",
+        pipelineTitle: "Conversion pipeline",
+        pipelineDescription:
+            "Visualize the journey of each request: New, Contacted, Qualified, Proposal, Negotiation and Won. Change status with one click and keep the complete activity history.",
+        heroRightCardTitle: "Convert more inquiries into enrollments",
+        heroRightCardDescription:
+            "Every lead that comes in is a potential family. Book your demo and discover how Edena's CRM helps you never miss an opportunity and close more spots.",
+        formsAndPipelineTitle: "Forms and tracking",
+        formsAndPipelineDescription:
+            "Capture leads with customizable forms and manage the entire journey to enrollment from a single panel.",
     },
     dashboard: {
         mainTitle: "Intuitive School Dashboard",
@@ -1168,10 +1294,12 @@ For any questions about our cookie policy, you can contact privacidad@edena.es.`
     },
     altText: {
         logo: "Edena Logo - School Management Software",
-        heroImage: "Edena school management dashboard showing real-time analytics and administrative tools",
+        heroImage:
+            "Edena school management dashboard showing real-time analytics and administrative tools",
         appStoreBadge: "Download Edena on App Store",
         googlePlayBadge: "Download Edena on Google Play",
-        appDetail: "Edena mobile app for families with student attendance notifications and school communication",
+        appDetail:
+            "Edena mobile app for families with student attendance notifications and school communication",
         dashboardHero: "Edena school dashboard with real-time metrics and analytics",
         studentsHero: "Edena student information system with academic records management",
         guardiansHero: "Edena family portal for communication and academic tracking",
@@ -1188,6 +1316,9 @@ For any questions about our cookie policy, you can contact privacidad@edena.es.`
         quickActions: "Quick actions from Edena school dashboard",
         notifications: "Real-time notification system in Edena",
         calendar: "Integrated school calendar in Edena",
+        crmHero: "Edena school CRM for request management and family acquisition",
+        crmList: "Request and lead list in Edena school CRM",
+        crmForm: "Customizable form editor in Edena CRM",
         conclusionLogo: "Edena Logo - Transform your school management",
     },
 };

@@ -117,6 +117,11 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
             href: `/${lang}/guardians`,
             description: t.navigation.guardiansDescription,
         },
+        {
+            title: t.navigation.crm,
+            href: `/${lang}/crm`,
+            description: t.navigation.crmDescription,
+        },
     ];
 
     const functionalities: MenuItem[] = [

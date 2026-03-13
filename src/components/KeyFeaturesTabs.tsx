@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import app from "@/assets/img/screenshots/app/app_detail.png";
+import appHero from "@/assets/img/screenshots/app/app_hero.png";
 import dashboard from "@/assets/img/screenshots/shared/hero.png";
 import finance from "@/assets/img/screenshots/finance/billing_cycle.png";
-import guardians from "@/assets/img/screenshots/guardians/guardian_hero.png";
-import students from "@/assets/img/screenshots/students/student_classroom.png";
-import { LayoutDashboard, Shapes, Wallet, Users, GraduationCap } from "lucide-react";
+import crmHero from "@/assets/img/screenshots/crm/crm_hero.png";
+import crmForm from "@/assets/img/screenshots/crm/crm_form.png";
+import { LayoutDashboard, Shapes, WalletCards, SquareUser, Rows3 } from "lucide-react";
 import GSAPSection from "@/components/ui/gsap-section";
 import { cn } from "@/lib/utils";
 import es from "@/i18n/translations/es";
@@ -18,7 +18,7 @@ interface Props {
 const SQUARE_SIZE = 40;
 const SQUARE_RADIUS = 4;
 const SQUARE_LENGTH = 4 * (SQUARE_SIZE - 2 - SQUARE_RADIUS * 2) + 2 * Math.PI * SQUARE_RADIUS;
-const AUTO_ADVANCE_MS = 6500;
+const AUTO_ADVANCE_MS = 10500;
 
 export default function KeyFeaturesTabs({ t }: Props) {
     const translations = t?.features?.keyFeaturesTabs || es.features.keyFeaturesTabs;
@@ -39,18 +39,33 @@ export default function KeyFeaturesTabs({ t }: Props) {
 
     // Map images to specific alt texts
     const getImageAltText = (img: any) => {
-        if (img === app) return altTexts.appDetail;
+        if (img === appHero) return altTexts.appDetail;
         if (img === dashboard) return altTexts.dashboardHero;
         if (img === finance) return altTexts.billingCycle;
-        if (img === guardians) return altTexts.guardiansHero;
-        if (img === students) return altTexts.studentClassroom;
+        if (img === crmHero) return altTexts.crmHero;
+        if (img === crmForm) return altTexts.crmForm;
         return altTexts.heroImage;
     };
 
     const features = [
         {
+            ...translations[2],
+            img: finance,
+            icon: <WalletCards size={20} />,
+        },
+        {
+            ...translations[3],
+            img: crmHero,
+            icon: <SquareUser size={20} />,
+        },
+        {
+            ...translations[4],
+            img: crmForm,
+            icon: <Rows3 size={20} />,
+        },
+        {
             ...translations[0],
-            img: app,
+            img: appHero,
             icon: <Shapes size={20} />,
             customClass: "w-2/5 sm:w-2/5 m-auto",
         },
@@ -58,21 +73,6 @@ export default function KeyFeaturesTabs({ t }: Props) {
             ...translations[1],
             img: dashboard,
             icon: <LayoutDashboard size={20} />,
-        },
-        {
-            ...translations[2],
-            img: finance,
-            icon: <Wallet size={20} />,
-        },
-        {
-            ...translations[3],
-            img: guardians,
-            icon: <Users size={20} />,
-        },
-        {
-            ...translations[4],
-            img: students,
-            icon: <GraduationCap size={20} />,
         },
     ];
 

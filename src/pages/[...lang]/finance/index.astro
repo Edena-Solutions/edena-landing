@@ -7,7 +7,7 @@ import Hero from "@/components/Hero.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/finance/FAQs.astro";
 import Features from "@/components/Features";
-import heroImage from "@/assets/img/screenshots/invoice/invoice_hero.png";
+import heroImage from "@/assets/img/screenshots/finance/invoice_email.png";
 import billingCycle from "@/assets/img/screenshots/finance/billing_cycle.png";
 import invoiceAnalytics from "@/assets/img/screenshots/finance/invoice_analytics.png";
 import emailInvoice from "@/assets/img/screenshots/finance/invoice_email.png";
@@ -127,12 +127,14 @@ const features = [
         url={`https://edena.es/${lang}/finance`}
         lang={lang}
     />
-    {financeFaqs?.data.faqs && (
-        <FAQPageSchema 
-            slot="structured-data"
-            faqs={financeFaqs.data.faqs} 
-            translations={t.faqs}
-            lang={lang}
-        />
-    )}
+    {
+        financeFaqs?.data.faqs && (
+            <FAQPageSchema
+                slot="structured-data"
+                faqs={financeFaqs.data.faqs}
+                translations={t.faqs}
+                lang={lang}
+            />
+        )
+    }
 </Layout>
