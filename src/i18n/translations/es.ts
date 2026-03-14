@@ -1246,6 +1246,9 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
         documentSigningTitle: "Firma de documentos",
         documentSigningDescription:
             "Firma digital de documentos para una comunicación eficiente. Proceso simplificado que acelera la gestión administrativa.",
+        signaturePlaceholder: "Pruébalo aquí",
+        signatureClear: "Borrar",
+        signatureSave: "Guardar",
     },
     families: {
         mainTitle: "Todo para las familias en un solo lugar",

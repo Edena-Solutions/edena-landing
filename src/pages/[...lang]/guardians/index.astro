@@ -7,9 +7,9 @@ import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/guardians/FAQs.astro";
 import Features from "@/components/Features";
 import AppAnimation from "@/components/AppAnimation";
+import SignaturePad from "@/components/SignaturePad";
 import heroImage from "@/assets/img/screenshots/guardians/guardian_hero.png";
 import guardianManagement from "@/assets/img/screenshots/guardians/guardian_management.png";
-import emailInvoice from "@/assets/img/screenshots/finance/billing_cycle.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -110,11 +110,16 @@ const features = [
             rightCard={{
                 title: t.guardians.documentSigningTitle,
                 description: t.guardians.documentSigningDescription,
-                image: emailInvoice,
-                altText: t.altText.emailInvoice,
             }}
         >
             <AppAnimation slot="leftCardVisual" client:only="react" />
+            <SignaturePad
+                slot="rightCardVisual"
+                client:only="react"
+                placeholder={t.guardians.signaturePlaceholder}
+                clearLabel={t.guardians.signatureClear}
+                saveLabel={t.guardians.signatureSave}
+            />
         </Section>
         <FAQs t={t} />
     </GSAPSection>

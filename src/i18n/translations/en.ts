@@ -1165,6 +1165,9 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
         documentSigningTitle: "Document Signing",
         documentSigningDescription:
             "Digital document signing for efficient communication. Simplified process that accelerates administrative management.",
+        signaturePlaceholder: "Try it here",
+        signatureClear: "Clear",
+        signatureSave: "Save",
     },
     families: {
         mainTitle: "Everything for Families in One Place",
