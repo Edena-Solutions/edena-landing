@@ -143,10 +143,12 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
 
     return (
         <header className={cn("w-full bg-background fixed h-15 flex items-center z-50", className)}>
-            <div className="container mx-auto px-4 flex h-fit items-center justify-between">
-                <Logo lang={lang} />
+            <div className="container mx-auto px-4 flex h-fit items-center justify-between md:grid md:grid-cols-[1fr_auto_1fr] md:gap-4 md:items-center">
+                <div className="md:justify-self-start">
+                    <Logo lang={lang} />
+                </div>
 
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 md:hidden">
                     <Link href={lang === "es" ? "/demo" : "/en/demo"} className="sm:hidden">
                         <Button className="w-full" size="sm">
                             {t.bookDemo}
@@ -156,8 +158,8 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     <MenuButton isOpen={isMobileMenuOpen} onClick={toggleMobileMenu} />
                 </div>
 
-                <div className="hidden md:block flex-1 relative overflow-visible">
-                    <NavigationMenu className="mx-auto flex justify-center">
+                <div className="hidden md:flex md:justify-center relative overflow-visible">
+                    <NavigationMenu className="flex justify-center">
                         <NavigationMenuList>
                             <NavigationMenuItem>
                                 <NavigationMenuTrigger>{t.navigation.products}</NavigationMenuTrigger>
@@ -207,7 +209,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     </NavigationMenu>
                 </div>
 
-                <div className="hidden md:flex items-center gap-2">
+                <div className="hidden md:flex items-center gap-2 md:justify-self-end">
                     <Link href={`/${lang}/blog`}>
                         <Button variant="ghost">{t.navigation.blog}</Button>
                     </Link>
