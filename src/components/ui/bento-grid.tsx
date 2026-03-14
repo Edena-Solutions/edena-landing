@@ -1,5 +1,6 @@
 import Lottie from "lottie-react";
 import { cn } from "@/lib/utils";
+import GSAPSection from "@/components/ui/gsap-section";
 import notificationAnimation from "@/assets/animations/notification.json";
 import touchbarAnimation from "@/assets/animations/touchbar.json";
 import chatAnimation from "@/assets/animations/chat.json";
@@ -110,7 +111,7 @@ export default function BentoGrid({ t, className }: BentoGridProps) {
     ];
 
     return (
-        <section className={cn("w-full px-4", className)}>
+        <GSAPSection className={cn("w-full px-4", className)}>
             <div className="mx-auto">
                 <div className="mb-12 text-center">
                     <h2 className="text-xl font-bold">{bento.title || "Todo lo que tu centro necesita"}</h2>
@@ -129,6 +130,6 @@ export default function BentoGrid({ t, className }: BentoGridProps) {
                     <BentoCard {...items[4]} />
                 </div>
             </div>
-        </section>
+        </GSAPSection>
     );
 }
