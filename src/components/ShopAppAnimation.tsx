@@ -65,7 +65,7 @@ export default function ShopAppAnimation({ className }: { className?: string }) 
         <div
             ref={containerRef}
             className={cn(
-                "relative w-full min-w-[400px] max-w-[420px] mx-auto h-[380px] sm:h-[520px]",
+                "relative w-full min-w-[520px] max-w-[520px] sm:min-w-[400px] mx-auto h-[380px] sm:h-[520px] -mt-10",
                 "scale-[0.52] origin-center sm:scale-100",
                 className
             )}

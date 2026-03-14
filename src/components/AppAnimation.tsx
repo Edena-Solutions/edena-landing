@@ -81,7 +81,7 @@ export default function AppAnimation({ className }: { className?: string }) {
         <div
             ref={containerRef}
             className={cn(
-                "relative w-full min-w-[500px] max-w-[520px] mx-auto h-[380px] sm:h-[680px] -mt-10",
+                "relative w-full min-w-[400px] max-w-[400px] mx-auto h-[380px] sm:h-[680px] -mt-10",
                 "scale-[0.52] origin-center sm:scale-100",
                 className
             )}
