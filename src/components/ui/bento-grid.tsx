@@ -1,15 +1,29 @@
 import Lottie from "lottie-react";
 import { cn } from "@/lib/utils";
 import GSAPSection from "@/components/ui/gsap-section";
+import Icon from "@/components/ui/icon";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "@/components/ui/tooltip";
 import notificationAnimation from "@/assets/animations/notification.json";
 import touchbarAnimation from "@/assets/animations/touchbar.json";
 import chatAnimation from "@/assets/animations/chat.json";
-import functionsAnimation from "@/assets/animations/functions.json";
-import guardianHero from "@/assets/img/screenshots/guardians/guardian_hero.png";
+const USER_PORTRAIT_URLS = [
+    "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+];
 
 interface BentoItem {
     animation?: object;
     image?: ImageMetadata;
+    icons?: { icon: string; label: string }[];
+    portraits?: { src: string; label: string }[];
     title: string;
     description: string;
     className?: string;
@@ -28,6 +42,8 @@ interface BentoGridProps {
 function BentoCard({
     animation,
     image,
+    icons,
+    portraits,
     title,
     description,
     className,
@@ -53,6 +69,41 @@ function BentoCard({
                         alt={title}
                         className={cn("h-full w-full object-cover rounded-sm", imageClassName)}
                     />
+                ) : icons ? (
+                    <div className="grid grid-cols-5 gap-2 justify-center items-center">
+                        {icons.map(({ icon, label }) => (
+                            <Tooltip key={icon}>
+                                <TooltipTrigger asChild>
+                                    <div
+                                        className="cursor-pointer flex text-primary w-fit p-4 rounded bg-background cursor-default"
+                                        tabIndex={0}
+                                    >
+                                        <Icon name={icon} size={20} />
+                                    </div>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    <p>{label}</p>
+                                </TooltipContent>
+                            </Tooltip>
+                        ))}
+                    </div>
+                ) : portraits ? (
+                    <div className="grid grid-cols-5 gap-2 justify-center items-center">
+                        {portraits.map(({ src, label }) => (
+                            <Tooltip key={label}>
+                                <TooltipTrigger asChild>
+                                    <img
+                                        src={src}
+                                        alt={label}
+                                        className="cursor-pointer flex w-full h-full rounded-md object-cover"
+                                    />
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    <p>{label}</p>
+                                </TooltipContent>
+                            </Tooltip>
+                        ))}
+                    </div>
                 ) : animation ? (
                     <Lottie
                         animationData={animation}
@@ -77,6 +128,33 @@ export default function BentoGrid({ t, className }: BentoGridProps) {
             users?: { title?: string; description?: string };
         };
     })?.bento || {};
+    const tTyped = t as {
+        features?: {
+            digitalRecords?: { title?: string };
+            mobileApp?: { title?: string };
+            studentFeatures?: {
+                digitalRecords?: { title?: string };
+                attendanceTracking?: { title?: string };
+            };
+        };
+        navigation?: { dashboard?: string; finance?: string };
+    };
+    const tTypedFooter = t as { footer?: { users?: string; students?: string; administration?: string } };
+    const iconLabels = {
+        students: tTyped?.features?.studentFeatures?.digitalRecords?.title || tTyped?.features?.digitalRecords?.title || "Gestión de estudiantes",
+        billing: tTyped?.navigation?.finance || "Facturación",
+        attendance: tTyped?.features?.studentFeatures?.attendanceTracking?.title || "Control de asistencia",
+        records: tTyped?.features?.digitalRecords?.title || "Expedientes digitales",
+        portal: tTyped?.features?.mobileApp?.title || "Portal de familias",
+        dashboard: tTyped?.navigation?.dashboard || "Dashboard",
+    };
+    const portraitLabels = [
+        tTypedFooter?.footer?.users || "Familia",
+        "Profesor",
+        tTypedFooter?.footer?.students || "Estudiante",
+        tTypedFooter?.footer?.administration || "Administración",
+        "Director",
+    ];
     const items: BentoItem[] = [
         {
             animation: chatAnimation,
@@ -85,16 +163,20 @@ export default function BentoGrid({ t, className }: BentoGridProps) {
             lottieClassName: "mt-15",
         },
         {
-            image: guardianHero,
+            portraits: USER_PORTRAIT_URLS.map((src, i) => ({ src, label: portraitLabels[i] })),
             title: bento.users?.title || "Gestión de usuarios",
             description: bento.users?.description || "Administra familias, estudiantes y personal desde un único panel.",
-            imageClassName: "object-contain mt-30 w-full",
         },
         {
-            animation: functionsAnimation,
+            icons: [
+                { icon: "ShieldUser", label: iconLabels.students },
+                { icon: "WalletCards", label: iconLabels.billing },
+                { icon: "ClipboardCheck", label: iconLabels.attendance },
+                { icon: "Rows3", label: iconLabels.records },
+                { icon: "Send", label: iconLabels.portal },
+            ],
             title: bento.functions?.title || "Suite de funcionalidades",
             description: bento.functions?.description || "Gestión de estudiantes, facturación y portal de familias integrados.",
-            lottieClassName: "h-70 w-full",
         },
         {
             animation: touchbarAnimation,
@@ -111,25 +193,27 @@ export default function BentoGrid({ t, className }: BentoGridProps) {
     ];
 
     return (
-        <GSAPSection className={cn("w-full px-4", className)}>
-            <div className="mx-auto">
-                <div className="mb-12 text-center">
-                    <h2 className="text-xl font-bold">{bento.title || "Todo lo que tu centro necesita"}</h2>
-                    <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
-                        {bento.description || "Plataforma integral con las herramientas que tu centro educativo necesita."}
-                    </p>
+        <TooltipProvider>
+            <GSAPSection className={cn("w-full px-4", className)}>
+                <div className="mx-auto">
+                    <div className="mb-12 text-center">
+                        <h2 className="text-xl font-bold">{bento.title || "Todo lo que tu centro necesita"}</h2>
+                        <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
+                            {bento.description || "Plataforma integral con las herramientas que tu centro educativo necesita."}
+                        </p>
+                    </div>
+                    <div className="grid md:grid-cols-3 gap-4 auto-rows-[300px]">
+                        <BentoCard
+                            {...items[0]}
+                            className="col-span-1 row-span-2 h-full"
+                        />
+                        <BentoCard {...items[1]} />
+                        <BentoCard {...items[2]} />
+                        <BentoCard {...items[3]} />
+                        <BentoCard {...items[4]} />
+                    </div>
                 </div>
-                <div className="grid md:grid-cols-3 gap-4 auto-rows-[300px]">
-                    <BentoCard
-                        {...items[0]}
-                        className="col-span-1 row-span-2 h-full"
-                    />
-                    <BentoCard {...items[1]} />
-                    <BentoCard {...items[2]} />
-                    <BentoCard {...items[3]} />
-                    <BentoCard {...items[4]} />
-                </div>
-            </div>
-        </GSAPSection>
+            </GSAPSection>
+        </TooltipProvider>
     );
 }
