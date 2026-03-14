@@ -16,6 +16,7 @@ interface SectionCard {
     imageClass?: string;
     cardClass?: string;
     altText?: string;
+    showBookDemo?: boolean;
 }
 
 interface Props {
@@ -138,8 +139,11 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
                                 <h3 class="text-xl font-bold">{rightCard.title}</h3>
                             )}
                             <p class="max-w-md">{rightCard.description}</p>
+                            {rightCard.showBookDemo && (
+                                <BookDemoButton t={t} className="mt-2" />
+                            )}
                         </CardHeader>
-                        <CardFooter>
+                        <CardFooter className={hasRightCardSlot ? "flex-col items-stretch w-full min-h-0" : ""}>
                             {hasRightCardSlot ? (
                                 <slot name="rightCardVisual" />
                             ) : rightCard.lottie ? (
@@ -165,8 +169,11 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
                     <CardHeader className="flex flex-col items-center gap-4">
                         {rightCard.title && <h3 class="text-xl font-bold">{rightCard.title}</h3>}
                         <p class="max-w-md">{rightCard.description}</p>
+                        {rightCard.showBookDemo && (
+                            <BookDemoButton t={t} className="mt-2" />
+                        )}
                     </CardHeader>
-                    <CardFooter>
+                    <CardFooter className={hasRightCardSlot ? "flex-col items-stretch w-full min-h-0" : ""}>
                         {hasRightCardSlot ? (
                             <slot name="rightCardVisual" />
                         ) : rightCard.lottie ? (
