@@ -37,7 +37,6 @@ export default function KeyFeaturesTabs({ t }: Props) {
     const animating = useRef(false);
     const cardInnerRef = useRef<HTMLDivElement>(null);
 
-    // Map images to specific alt texts
     const getImageAltText = (img: any) => {
         if (img === appHero) return altTexts.appDetail;
         if (img === dashboard) return altTexts.dashboardHero;

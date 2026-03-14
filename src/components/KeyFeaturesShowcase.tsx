@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { ChevronUp, ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
 import appHero from "@/assets/img/screenshots/app/app_hero.png";
-import dashboard from "@/assets/img/screenshots/shared/hero.png";
+import dashboard from "@/assets/img/screenshots/finance/invoice_analytics.png";
 import finance from "@/assets/img/screenshots/finance/billing_cycle.png";
 import crmHero from "@/assets/img/screenshots/crm/crm_hero.png";
 import crmForm from "@/assets/img/screenshots/crm/crm_form.png";
@@ -77,11 +77,11 @@ export default function KeyFeaturesShowcase({ t }: Props) {
     const containerRef = useRef<HTMLDivElement>(null);
 
     const features = [
+        { ...translations[1], img: dashboard, icon: LayoutDashboard, useAppAnimation: false },
         { ...translations[2], img: finance, icon: WalletCards, useAppAnimation: false },
         { ...translations[3], img: crmHero, icon: SquareUser, useAppAnimation: false },
         { ...translations[4], img: crmForm, icon: Rows3, useAppAnimation: false },
         { ...translations[0], img: appHero, icon: Shapes, useAppAnimation: true },
-        { ...translations[1], img: dashboard, icon: LayoutDashboard, useAppAnimation: false },
     ];
 
     const getImageAltText = (img: typeof appHero) => {
@@ -167,10 +167,10 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                 >
                     <div
                         ref={imgRef}
-                        className="w-full lg:w-[130%] xl:w-[120%] lg:-mr-[35vw] xl:-mr-[30vw] h-[500px] md:h-[600px] lg:h-[750px] overflow-hidden shrink-0 flex items-center justify-center"
+                        className="w-full lg:w-[130%] xl:w-[100%] lg:-mr-[35vw] xl:-mr-[30vw] h-[500px] md:h-[600px] lg:h-[750px] overflow-hidden shrink-0 flex items-center justify-center"
                     >
                         {features[active].useAppAnimation ? (
-                            <AppAnimation className="h-full w-auto" />
+                            <AppAnimation className="h-full w-auto -translate-x-30" />
                         ) : (
                             <img
                                 src={features[active].img.src}
