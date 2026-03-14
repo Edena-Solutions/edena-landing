@@ -6,8 +6,8 @@ import Hero from "@/components/Hero.astro";
 import Section from "@/components/Section.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/families/FAQs.astro";
+import AppAnimation from "@/components/AppAnimation";
 import Features from "@/components/Features";
-import appAnimation from "@/assets/animations/app.json";
 import featuresAnimation from "@/assets/animations/functions.json";
 import shopAnimation from "@/assets/animations/shop.json";
 import billingCycle from "@/assets/img/screenshots/finance/billing_cycle.png";
@@ -75,7 +75,6 @@ const features = [
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
         <Hero
             t={t}
-            heroLottie={appAnimation}
             showBookDemoInHero={true}
             mainTitle={t.families.mainTitle}
             mainDescription={t.families.mainDescription}
@@ -90,7 +89,9 @@ const features = [
                 image: billingCycle,
                 altText: t.altText.billingCycle,
             }}
-        />
+        >
+            <AppAnimation slot="heroVisual" client:only="react" />
+        </Hero>
         <Features
             client:load
             t={t}

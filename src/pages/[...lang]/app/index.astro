@@ -6,7 +6,7 @@ import Hero from "@/components/Hero.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/app/FAQs.astro";
 import Features from "@/components/Features";
-import appAnimation from "@/assets/animations/app.json";
+import AppAnimation from "@/components/AppAnimation";
 import notificationAnimation from "@/assets/animations/notification.json";
 import touchbarAnimation from "@/assets/animations/touchbar.json";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
@@ -70,7 +70,6 @@ const features = [
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
         <Hero
             t={t}
-            heroLottie={appAnimation}
             mainTitle={t.app.mainTitle}
             mainDescription={t.app.mainDescription}
             showBookDemoInHero={true}
@@ -88,7 +87,9 @@ const features = [
                 },
                 cardClass: "h-60 justify-center items-center gap-4",
             }}
-        />
+        >
+            <AppAnimation slot="heroVisual" client:only="react" />
+        </Hero>
         <Features
             client:load
             t={t}

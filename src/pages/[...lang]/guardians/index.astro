@@ -6,9 +6,9 @@ import Hero from "@/components/Hero.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/guardians/FAQs.astro";
 import Features from "@/components/Features";
+import AppAnimation from "@/components/AppAnimation";
 import heroImage from "@/assets/img/screenshots/guardians/guardian_hero.png";
 import guardianManagement from "@/assets/img/screenshots/guardians/guardian_management.png";
-import appAnimation from "@/assets/animations/app.json";
 import emailInvoice from "@/assets/img/screenshots/finance/billing_cycle.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
@@ -103,7 +103,6 @@ const features = [
             leftCard={{
                 title: t.guardians.appTitle,
                 description: t.guardians.appDescription,
-                lottie: appAnimation,
                 imageClass: "object-cover mx-auto",
                 cardClass: "h-110 overflow-hidden",
                 altText: t.altText.appDetail,
@@ -114,7 +113,9 @@ const features = [
                 image: emailInvoice,
                 altText: t.altText.emailInvoice,
             }}
-        />
+        >
+            <AppAnimation slot="leftCardVisual" client:only="react" />
+        </Section>
         <FAQs t={t} />
     </GSAPSection>
     <SoftwareApplicationSchema
