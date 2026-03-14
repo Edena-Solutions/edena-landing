@@ -7,9 +7,9 @@ import Section from "@/components/Section.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/families/FAQs.astro";
 import AppAnimation from "@/components/AppAnimation";
+import ShopAppAnimation from "@/components/ShopAppAnimation";
 import Features from "@/components/Features";
 import featuresAnimation from "@/assets/animations/functions.json";
-import shopAnimation from "@/assets/animations/shop.json";
 import billingCycle from "@/assets/img/screenshots/finance/billing_cycle.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
@@ -114,12 +114,13 @@ const features = [
             rightCard={{
                 title: t.families.onlineStoreTitle,
                 description: t.families.onlineStoreDescription,
-                lottie: shopAnimation,
                 imageClass: "md:w-2/3 mx-auto overflow-hidden",
                 cardClass: "md:h-105 md:overflow-hidden",
                 altText: t.altText.appHero,
             }}
-        />
+        >
+            <ShopAppAnimation slot="rightCardVisual" client:only="react" />
+        </Section>
         <FAQs t={t} />
     </GSAPSection>
     <SoftwareApplicationSchema

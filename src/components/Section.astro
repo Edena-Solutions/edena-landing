@@ -43,6 +43,7 @@ const {
 } = Astro.props;
 
 const hasLeftCardSlot = Astro.slots.has("leftCardVisual");
+const hasRightCardSlot = Astro.slots.has("rightCardVisual");
 ---
 
 <GSAPSection client:load className="flex flex-col gap-16 items-center">
@@ -130,7 +131,7 @@ const hasLeftCardSlot = Astro.slots.has("leftCardVisual");
                         </CardContent>
                     </Card>
                     <Card
-                        className={`flex flex-col items-center rounded bg-card text-center ${rightCard.lottie ? "overflow-visible" : "overflow-hidden"} ${rightCard.cardClass || ""}`}
+                        className={`flex flex-col items-center rounded bg-card text-center ${rightCard.lottie || hasRightCardSlot ? "overflow-visible" : "overflow-hidden"} ${rightCard.cardClass || ""}`}
                     >
                         <CardHeader className="flex flex-col items-center gap-4">
                             {rightCard.title && (
@@ -139,7 +140,9 @@ const hasLeftCardSlot = Astro.slots.has("leftCardVisual");
                             <p class="max-w-md">{rightCard.description}</p>
                         </CardHeader>
                         <CardFooter>
-                            {rightCard.lottie ? (
+                            {hasRightCardSlot ? (
+                                <slot name="rightCardVisual" />
+                            ) : rightCard.lottie ? (
                                 <LottiePlayer
                                     client:only="react"
                                     animationData={rightCard.lottie}
@@ -157,14 +160,16 @@ const hasLeftCardSlot = Astro.slots.has("leftCardVisual");
                 </div>
             ) : (
                 <Card
-                    className={`flex flex-col items-center gap-6 rounded bg-card text-center ${rightCard.lottie ? "overflow-visible" : `overflow-hidden ${rightCardHeight}`} ${rightCard.cardClass || ""}`}
+                    className={`flex flex-col items-center gap-6 rounded bg-card text-center ${rightCard.lottie || hasRightCardSlot ? "overflow-visible" : `overflow-hidden ${rightCardHeight}`} ${rightCard.cardClass || ""}`}
                 >
                     <CardHeader className="flex flex-col items-center gap-4">
                         {rightCard.title && <h3 class="text-xl font-bold">{rightCard.title}</h3>}
                         <p class="max-w-md">{rightCard.description}</p>
                     </CardHeader>
                     <CardFooter>
-                        {rightCard.lottie ? (
+                        {hasRightCardSlot ? (
+                            <slot name="rightCardVisual" />
+                        ) : rightCard.lottie ? (
                             <LottiePlayer
                                 client:only="react"
                                 animationData={rightCard.lottie}
