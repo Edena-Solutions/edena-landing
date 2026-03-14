@@ -55,7 +55,10 @@ const { t } = Astro.props;
                         {t.knowMore}
                     </Button>
                 </Link>
-                <AppAnimation client:only="react" className="-mt-10" />
+                <AppAnimation
+                    client:only="react"
+                    className="md:-mt-20 md:min-w-[400px] md:max-w-[400px]"
+                />
             </CardFooter>
         </Card>
 

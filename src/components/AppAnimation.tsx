@@ -1,9 +1,10 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import appHero from "@/assets/img/screenshots/app/app_hero.png";
-import appFeed from "@/assets/img/screenshots/app/app_feed.png";
-import appDetail from "@/assets/img/screenshots/app/app_detail.png";
-import appNotifications from "@/assets/img/screenshots/app/app_notifications.png";
+import appCalendar from "@/assets/img/screenshots/app/app_calendar.png";
+import appStudents from "@/assets/img/screenshots/app/app_students.png";
+import appChat from "@/assets/img/screenshots/app/app_chat.png";
+import appExtracurricular from "@/assets/img/screenshots/app/app_extracurricular.png";
 import { cn } from "@/lib/utils";
 
 const STEP = 135;
@@ -74,7 +75,7 @@ export default function AppAnimation({ className }: { className?: string }) {
     }, []);
 
     const cardClass =
-        "absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-sm object-cover aspect-[9/19] overflow-hidden";
+        "absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-xl object-cover aspect-[9/19] overflow-hidden";
 
     return (
         <div
@@ -91,9 +92,9 @@ export default function AppAnimation({ className }: { className?: string }) {
                     className={`${cardClass} w-[48%] z-[1]`}
                 >
                     <img
-                        src={typeof appDetail === "string" ? appDetail : appDetail.src}
+                        src={typeof appCalendar === "string" ? appCalendar : appCalendar.src}
                         alt=""
-                        className="w-full h-full object-cover rounded-sm"
+                        className="w-full h-full object-cover rounded-xl"
                     />
                 </div>
                 <div
@@ -101,9 +102,9 @@ export default function AppAnimation({ className }: { className?: string }) {
                     className={`${cardClass} w-[52%] z-[2]`}
                 >
                     <img
-                        src={typeof appFeed === "string" ? appFeed : appFeed.src}
+                        src={typeof appExtracurricular === "string" ? appExtracurricular : appExtracurricular.src}
                         alt=""
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover rounded-xl"
                     />
                 </div>
                 <div
@@ -111,9 +112,9 @@ export default function AppAnimation({ className }: { className?: string }) {
                     className={`${cardClass} w-[52%] z-[2]`}
                 >
                     <img
-                        src={typeof appNotifications === "string" ? appNotifications : appNotifications.src}
+                        src={typeof appStudents === "string" ? appStudents : appStudents.src}
                         alt=""
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover rounded-xl"
                     />
                 </div>
                 <div
@@ -121,9 +122,9 @@ export default function AppAnimation({ className }: { className?: string }) {
                     className={`${cardClass} w-[48%] z-[1]`}
                 >
                     <img
-                        src={typeof appFeed === "string" ? appFeed : appFeed.src}
+                        src={typeof appChat === "string" ? appChat : appChat.src}
                         alt=""
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover rounded-xl"
                     />
                 </div>
                 <div
@@ -133,7 +134,7 @@ export default function AppAnimation({ className }: { className?: string }) {
                     <img
                         src={typeof appHero === "string" ? appHero : appHero.src}
                         alt=""
-                        className="w-full h-full object-cover aspect-[9/19]"
+                        className="w-full h-full object-cover aspect-[9/19] rounded-xl"
                     />
                 </div>
             </div>
