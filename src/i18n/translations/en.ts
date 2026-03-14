@@ -143,6 +143,13 @@ export default {
             title: "User Management",
             description:
                 "Manage families, students, teachers and school staff from a single dashboard. Custom profiles and role-based permissions.",
+            portraits: {
+                family: "Family",
+                teacher: "Teacher",
+                student: "Student",
+                administration: "Administration",
+                director: "Director",
+            },
         },
     },
     features: {

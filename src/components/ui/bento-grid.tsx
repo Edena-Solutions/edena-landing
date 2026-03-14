@@ -9,8 +9,8 @@ import {
     TooltipTrigger,
 } from "@/components/ui/tooltip";
 import notificationAnimation from "@/assets/animations/notification.json";
-import touchbarAnimation from "@/assets/animations/touchbar.json";
 import chatAnimation from "@/assets/animations/chat.json";
+import studentDetailImage from "@/assets/img/screenshots/students/student_detail.png";
 const USER_PORTRAIT_URLS = [
     "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
     "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
@@ -125,7 +125,11 @@ export default function BentoGrid({ t, className }: BentoGridProps) {
             app?: { title?: string; description?: string };
             functions?: { title?: string; description?: string };
             touchbar?: { title?: string; description?: string };
-            users?: { title?: string; description?: string };
+            users?: {
+                title?: string;
+                description?: string;
+                portraits?: { family?: string; teacher?: string; student?: string; administration?: string; director?: string };
+            };
         };
     })?.bento || {};
     const tTyped = t as {
@@ -139,7 +143,6 @@ export default function BentoGrid({ t, className }: BentoGridProps) {
         };
         navigation?: { dashboard?: string; finance?: string };
     };
-    const tTypedFooter = t as { footer?: { users?: string; students?: string; administration?: string } };
     const iconLabels = {
         students: tTyped?.features?.studentFeatures?.digitalRecords?.title || tTyped?.features?.digitalRecords?.title || "Gestión de estudiantes",
         billing: tTyped?.navigation?.finance || "Facturación",
@@ -149,11 +152,11 @@ export default function BentoGrid({ t, className }: BentoGridProps) {
         dashboard: tTyped?.navigation?.dashboard || "Dashboard",
     };
     const portraitLabels = [
-        tTypedFooter?.footer?.users || "Familia",
-        "Profesor",
-        tTypedFooter?.footer?.students || "Estudiante",
-        tTypedFooter?.footer?.administration || "Administración",
-        "Director",
+        bento.users?.portraits?.family || "Familia",
+        bento.users?.portraits?.teacher || "Profesor",
+        bento.users?.portraits?.student || "Estudiante",
+        bento.users?.portraits?.administration || "Administración",
+        bento.users?.portraits?.director || "Director",
     ];
     const items: BentoItem[] = [
         {
@@ -179,10 +182,10 @@ export default function BentoGrid({ t, className }: BentoGridProps) {
             description: bento.functions?.description || "Gestión de estudiantes, facturación y portal de familias integrados.",
         },
         {
-            animation: touchbarAnimation,
+            image: studentDetailImage,
             title: bento.touchbar?.title || "Interfaz intuitiva",
             description: bento.touchbar?.description || "Acceso rápido a funciones y navegación simplificada.",
-            lottieClassName: "h-20 w-full",
+            imageClassName: "object-contain w-full h-fit overflow-hidden mt-30",
         },
         {
             animation: notificationAnimation,

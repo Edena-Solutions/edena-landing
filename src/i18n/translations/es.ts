@@ -153,6 +153,13 @@ export default {
             title: "Gestión de usuarios",
             description:
                 "Administra familias, estudiantes, profesores y personal del centro desde un único panel. Perfiles personalizados y permisos por rol.",
+            portraits: {
+                family: "Familia",
+                teacher: "Profesor",
+                student: "Estudiante",
+                administration: "Administración",
+                director: "Director",
+            },
         },
     },
     features: {
