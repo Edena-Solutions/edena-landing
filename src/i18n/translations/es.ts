@@ -299,11 +299,13 @@ export default {
                 "Gestiona solicitudes, captura leads y convierte consultas en nuevas familias con pipeline visual y formularios personalizables.",
             pipeline: {
                 title: "Pipeline de conversión",
-                tagline: "Visualiza y gestiona el recorrido de cada solicitud desde el primer contacto hasta la matriculación.",
+                tagline:
+                    "Visualiza y gestiona el recorrido de cada solicitud desde el primer contacto hasta la matriculación.",
             },
             forms: {
                 title: "Formularios personalizables",
-                tagline: "Crea formularios de captación adaptados a tu centro y captura leads desde tu web.",
+                tagline:
+                    "Crea formularios de captación adaptados a tu centro y captura leads desde tu web.",
             },
             activity: {
                 title: "Seguimiento de actividad",
@@ -319,7 +321,8 @@ export default {
             },
             reports: {
                 title: "Informes de conversión",
-                tagline: "Métricas de captación y conversión para optimizar tu estrategia comercial.",
+                tagline:
+                    "Métricas de captación y conversión para optimizar tu estrategia comercial.",
             },
         },
         financeFeatures: {
@@ -482,27 +485,27 @@ export default {
             {
                 title: "Gestión integral de la app",
                 description:
-                    "Centraliza todas las operaciones de tu centro educativo en una sola plataforma digital.<br><br>Optimiza procesos, reduce errores y ahorra tiempo con una gestión integral que conecta administración, docentes y familias.<br><br>Descubre cómo la digitalización impulsa la eficiencia y la satisfacción de toda la comunidad escolar.",
+                    "Centraliza todas las operaciones de tu centro educativo en una sola plataforma digital. Optimiza procesos, reduce errores y ahorra tiempo con una gestión integral que conecta administración, docentes y familias.",
             },
             {
                 title: "Panel de control avanzado",
                 description:
-                    "Visualiza en tiempo real los indicadores clave de tu centro.<br><br>Toma decisiones informadas con dashboards personalizables, alertas automáticas y reportes inteligentes.<br><br>El panel de control avanzado de Edena te permite anticipar necesidades, mejorar la comunicación y potenciar el crecimiento de tu institución educativa.",
+                    "Visualiza en tiempo real los indicadores clave de tu centro. Toma decisiones informadas con dashboards personalizables, alertas automáticas y reportes inteligentes.",
             },
             {
                 title: "Gestión financiera",
                 description:
-                    "Automatiza la facturación, el cobro y el seguimiento de pagos con un sistema financiero diseñado para colegios y academias.<br><br>Reduce la morosidad, mejora la transparencia y ofrece a las familias una experiencia de pago ágil y segura.<br><br>La gestión financiera digital es clave para la sostenibilidad y el éxito de tu centro.",
+                    "Automatiza la facturación, el cobro y el seguimiento de pagos con un sistema financiero diseñado para colegios y academias. Reduce la morosidad, mejora la transparencia y ofrece a las familias una experiencia de pago ágil y segura.",
             },
             {
                 title: "CRM escolar",
                 description:
-                    "Gestiona solicitudes de matriculación, captura leads y convierte consultas en nuevas familias.<br><br>Pipeline visual con etapas personalizables, asignación de responsables y seguimiento de actividad en tiempo real.<br><br>El CRM de Edena te ayuda a no perder ninguna oportunidad y aumentar las conversiones hasta un 35%.",
+                    "Gestiona solicitudes de matriculación, captura leads y convierte consultas en nuevas familias. Pipeline visual con etapas personalizables, asignación de responsables y seguimiento de actividad en tiempo real.",
             },
             {
                 title: "Formularios dinámicos",
                 description:
-                    "Crea formularios de preinscripción y captación sin programar. Arrastra componentes, define campos y opciones, y publica en minutos.<br><br>Texto corto, email, teléfono, desplegables, casillas y más. Integra los formularios en tu web o landing pages para captar leads directamente en el CRM.<br><br>Formularios dinámicos que adaptas a las necesidades de tu centro y optimizas para conversión.",
+                    "Crea formularios de preinscripción y captación sin programar. Arrastra componentes, define campos y opciones, y publica en minutos. Texto corto, email, teléfono, desplegables, casillas y más.",
             },
         ],
     },

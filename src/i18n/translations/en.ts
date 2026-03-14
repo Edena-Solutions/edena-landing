@@ -38,8 +38,7 @@ export default {
             "Solution for Educational Centers | Communication, Billing & Automation | Edena",
         centersDescription:
             "Comprehensive platform for educational centers: efficient family communication, automated billing, student management and process automation. Reduce administrative costs by up to 40%.",
-        crmTitle:
-            "CRM for Schools and Daycares | Enrollment Requests & Family Acquisition | Edena",
+        crmTitle: "CRM for Schools and Daycares | Enrollment Requests & Family Acquisition | Edena",
         crmDescription:
             "Integrated school CRM to manage enrollment requests, capture leads and convert inquiries into new families. Visual pipeline, customizable forms and activity tracking. Increase conversions by up to 35%.",
         privacyTitle: "Privacy Policy | Edena School Management Software",
@@ -286,11 +285,13 @@ export default {
                 "Manage requests, capture leads and convert inquiries into new families with visual pipeline and customizable forms.",
             pipeline: {
                 title: "Conversion pipeline",
-                tagline: "Visualize and manage the journey of each request from first contact to enrollment.",
+                tagline:
+                    "Visualize and manage the journey of each request from first contact to enrollment.",
             },
             forms: {
                 title: "Customizable forms",
-                tagline: "Create capture forms tailored to your school and capture leads from your website.",
+                tagline:
+                    "Create capture forms tailored to your school and capture leads from your website.",
             },
             activity: {
                 title: "Activity tracking",
@@ -469,27 +470,27 @@ export default {
             {
                 title: "Comprehensive App Management",
                 description:
-                    "Centralize all your school operations in a single digital platform.<br><br>Streamline processes, reduce errors, and save time with integrated management that connects administration, teachers, and families.<br><br>Discover how digital transformation drives efficiency and satisfaction across your entire educational community.",
+                    "Centralize all your school operations in a single digital platform. Streamline processes, reduce errors, and save time with integrated management that connects administration, teachers, and families.",
             },
             {
                 title: "Advanced Control Panel",
                 description:
-                    "Get real-time insights into your school’s key metrics.<br><br>Make data-driven decisions with customizable dashboards, automated alerts, and intelligent reporting.<br><br>Edena’s advanced control panel empowers you to anticipate needs, enhance communication, and accelerate your institution’s growth.",
+                    "Get real-time insights into your school’s key metrics. Make data-driven decisions with customizable dashboards, automated alerts, and intelligent reporting.",
             },
             {
                 title: "Financial Management",
                 description:
-                    "Automate invoicing, collections, and payment tracking with a finance system built for schools and academies.<br><br>Reduce late payments, improve transparency, and offer families a seamless, secure payment experience.<br><br>Digital financial management is essential for your school’s sustainability and long-term success.",
+                    "Automate invoicing, collections, and payment tracking with a finance system built for schools and academies. Reduce late payments, improve transparency, and offer families a seamless, secure payment experience.",
             },
             {
                 title: "School CRM",
                 description:
-                    "Manage enrollment requests, capture leads and convert inquiries into new families.<br><br>Visual pipeline with customizable stages, responsible assignment and real-time activity tracking.<br><br>Edena's CRM helps you never miss an opportunity and increase conversions by up to 35%.",
+                    "Manage enrollment requests, capture leads and convert inquiries into new families. Visual pipeline with customizable stages, responsible assignment and real-time activity tracking.",
             },
             {
                 title: "Dynamic forms",
                 description:
-                    "Create pre-registration and capture forms without coding. Drag components, define fields and options, and publish in minutes.<br><br>Short text, email, phone, dropdowns, checkboxes and more. Embed forms on your website or landing pages to capture leads directly in the CRM.<br><br>Dynamic forms you adapt to your school's needs and optimize for conversion.",
+                    "Create pre-registration and capture forms without coding. Drag components, define fields and options, and publish in minutes. Short text, email, phone, dropdowns, checkboxes and more.",
             },
         ],
     },

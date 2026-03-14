@@ -5,7 +5,7 @@ import Hero from "@/modules/home/Hero.astro";
 import Carrousel from "@/modules/home/Carrousel";
 import Conclusion from "@/modules/home/Conclusion.astro";
 import MarketStats from "@/modules/home/MarketStats.astro";
-import KeyFeaturesTabs from "@/components/KeyFeaturesTabs";
+import KeyFeaturesShowcase from "@/components/KeyFeaturesShowcase";
 import Features from "@/components/Features";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 
@@ -78,7 +78,7 @@ const features = [
     <section class="grid gap-16 w-full overflow-x-hidden">
         <Hero t={t} />
         <MarketStats t={t} />
-        <KeyFeaturesTabs client:load t={t} />
+        <KeyFeaturesShowcase client:load t={t} />
         <Features client:load t={t} features={features} />
         <Conclusion lang={lang} />
     </section>

@@ -292,3 +292,7 @@
 .max-w-150 {
     max-width: 37.5rem;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
