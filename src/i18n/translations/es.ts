@@ -1230,7 +1230,7 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
     guardians: {
         mainTitle: "Gestión de familias y tutores",
         mainDescription:
-            "Gestiona la información de los padres de los estudiantes. Desde datos personales hasta seguimiento académico.",
+            "Gestiona la información de los padres de los estudiantes. Desde datos personales hasta formularios de firma digital para que las familias firmen documentos de forma eficiente.",
         onboardingTitle: "Incorporación de familias",
         onboardingDescription:
             "Reduce el tiempo de incorporación de familias un 75% con nuestro sistema automatizado. Firma digital de documentos, creación instantánea de perfiles y configuración guiada garantizan una transición fluida para todos.",

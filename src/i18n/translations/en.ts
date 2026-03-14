@@ -1149,7 +1149,7 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
     guardians: {
         mainTitle: "Family and Guardian Management",
         mainDescription:
-            "Manage family information efficiently. From personal data to academic tracking.",
+            "Manage family information efficiently. From personal data to digital document signing for efficient communication.",
         onboardingTitle: "Family Onboarding",
         onboardingDescription:
             "Reduce family onboarding time by 75% with our automated system. Digital document signing, instant profile creation, and guided setup ensure a smooth transition for everyone.",
