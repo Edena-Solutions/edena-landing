@@ -17,7 +17,7 @@ export default function SignaturePad({
     className,
 }: SignaturePadProps) {
     const canvasRef = useRef<HTMLCanvasElement>(null);
-    const [isDrawing, setIsDrawing] = useState(false);
+    const isDrawingRef = useRef(false);
     const [hasSignature, setHasSignature] = useState(false);
 
     const getContext = useCallback(() => {
@@ -50,7 +50,7 @@ export default function SignaturePad({
         return () => window.removeEventListener("resize", resizeCanvas);
     }, [resizeCanvas]);
 
-    const getCoords = (e: React.MouseEvent | React.TouchEvent) => {
+    const getCoords = useCallback((e: TouchEvent | MouseEvent) => {
         const canvas = canvasRef.current;
         if (!canvas) return null;
         const rect = canvas.getBoundingClientRect();
@@ -60,35 +60,57 @@ export default function SignaturePad({
                 y: e.touches[0].clientY - rect.top,
             };
         }
-        return { x: e.clientX - rect.left, y: e.clientY - rect.top };
-    };
+        return { x: (e as MouseEvent).clientX - rect.left, y: (e as MouseEvent).clientY - rect.top };
+    }, []);
 
-    const startDrawing = (e: React.MouseEvent | React.TouchEvent) => {
-        e.preventDefault();
-        const coords = getCoords(e);
-        if (!coords) return;
-        const { ctx } = getContext() || {};
-        if (!ctx) return;
-        ctx.beginPath();
-        ctx.moveTo(coords.x, coords.y);
-        setIsDrawing(true);
-        setHasSignature(true);
-    };
+    const startDrawing = useCallback(
+        (e: TouchEvent | MouseEvent) => {
+            e.preventDefault();
+            const coords = getCoords(e);
+            if (!coords) return;
+            const { ctx } = getContext() || {};
+            if (!ctx) return;
+            ctx.beginPath();
+            ctx.moveTo(coords.x, coords.y);
+            isDrawingRef.current = true;
+            setHasSignature(true);
+        },
+        [getCoords, getContext]
+    );
 
-    const draw = (e: React.MouseEvent | React.TouchEvent) => {
-        e.preventDefault();
-        if (!isDrawing) return;
-        const coords = getCoords(e);
-        if (!coords) return;
-        const { ctx } = getContext() || {};
-        if (!ctx) return;
-        ctx.lineTo(coords.x, coords.y);
-        ctx.stroke();
-    };
+    const draw = useCallback(
+        (e: TouchEvent | MouseEvent) => {
+            if (!isDrawingRef.current) return;
+            e.preventDefault();
+            const coords = getCoords(e);
+            if (!coords) return;
+            const { ctx } = getContext() || {};
+            if (!ctx) return;
+            ctx.lineTo(coords.x, coords.y);
+            ctx.stroke();
+        },
+        [getCoords, getContext]
+    );
 
-    const stopDrawing = () => {
-        setIsDrawing(false);
-    };
+    const stopDrawing = useCallback(() => {
+        isDrawingRef.current = false;
+    }, []);
+
+    useEffect(() => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const opts = { passive: false } as AddEventListenerOptions;
+        canvas.addEventListener("touchstart", startDrawing, opts);
+        canvas.addEventListener("touchmove", draw, opts);
+        canvas.addEventListener("touchend", stopDrawing, opts);
+        canvas.addEventListener("touchcancel", stopDrawing, opts);
+        return () => {
+            canvas.removeEventListener("touchstart", startDrawing);
+            canvas.removeEventListener("touchmove", draw);
+            canvas.removeEventListener("touchend", stopDrawing);
+            canvas.removeEventListener("touchcancel", stopDrawing);
+        };
+    }, [startDrawing, draw, stopDrawing]);
 
     const clear = () => {
         const { canvas, ctx } = getContext() || {};
@@ -115,13 +137,11 @@ export default function SignaturePad({
                 <canvas
                     ref={canvasRef}
                     className="w-full h-56 min-h-[200px] touch-none cursor-crosshair"
-                    onMouseDown={startDrawing}
-                    onMouseMove={draw}
-                    onMouseUp={stopDrawing}
-                    onMouseLeave={stopDrawing}
-                    onTouchStart={startDrawing}
-                    onTouchMove={draw}
-                    onTouchEnd={stopDrawing}
+                    style={{ touchAction: "none" }}
+                    onMouseDown={(e) => startDrawing(e.nativeEvent)}
+                    onMouseMove={(e) => draw(e.nativeEvent)}
+                    onMouseUp={(e) => stopDrawing()}
+                    onMouseLeave={(e) => stopDrawing()}
                 />
                 {!hasSignature && (
                     <div
