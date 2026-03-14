@@ -24,6 +24,7 @@ export default function AppAnimation({ className }: { className?: string }) {
     const mainRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
+        if (!containerRef.current) return;
         const ctx = gsap.context(() => {
             const tl = gsap.timeline({
                 repeat: -1,
@@ -78,7 +79,11 @@ export default function AppAnimation({ className }: { className?: string }) {
     return (
         <div
             ref={containerRef}
-            className={cn("relative w-full min-w-[500px] max-w-[520px] mx-auto h-[680px] -mt-10", className)}
+            className={cn(
+                "relative w-full min-w-[500px] max-w-[520px] mx-auto h-[380px] sm:h-[680px] -mt-10",
+                "scale-[0.52] origin-center sm:scale-100",
+                className
+            )}
         >
             <div className="absolute inset-0 flex items-center justify-center">
                 <div
