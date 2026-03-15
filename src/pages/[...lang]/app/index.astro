@@ -22,7 +22,6 @@ export function getStaticPaths() {
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 
-// Get FAQs for structured data
 const faqsCollection = await getCollection("faqs");
 const appFaqs = faqsCollection.find((entry) => entry.id === "faqsApp.md");
 

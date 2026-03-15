@@ -53,7 +53,8 @@ export default {
     },
     hero: {
         mainTitle: "Transform Your School Management",
-        mainDescription: "All-in-one platform for student management, billing, and communication.",
+        mainDescription:
+            "All-in-one platform for student management, billing, and communication. Reduce costs 25% and increase family satisfaction 60%. Free demo.",
         mobileTitle: "Your School, Always Connected",
         mobileDescription:
             "Keep parents engaged with instant updates, secure photo sharing, and real-time communication.",
@@ -387,7 +388,7 @@ export default {
             mobileApp: {
                 title: "Free Mobile App",
                 tagline:
-                    "Access all school information from your smartphone. Instant notifications, photos, messages and more.",
+                    "Access all school information from your smartphone. Instant notifications, photos, messages and more. Discover how Edena can transform your school in 30 days.",
             },
             digitalBilling: {
                 title: "Digital Billing",
@@ -735,7 +736,6 @@ export default {
         platform_customization: "Can the platform be customized with my school's branding?",
         platform_customization_answer:
             "Yes, you can customize visual elements such as logo, corporate colors, communication templates, and automatic messages sent to families to reflect your institution's identity.",
-        // Guardian
         guardian_access_rights: "What permissions does a guardian have on the platform?",
         guardian_access_rights_answer:
             "A guardian can access academic information, billing, activities, and communicate with the school according to the permissions assigned by the administration.",
@@ -767,7 +767,6 @@ export default {
             "What support options are available for guardians if they need help?",
         guardian_support_options_answer:
             "Guardians can access support via chat, email, or consult the help section within the platform.",
-        // Finance
         finance: {
             title: "Frequently Asked Questions about School Financial Management with Edena",
             description:
@@ -805,7 +804,6 @@ export default {
         finance_verifactu_integration: "Is Edena integrated with Verifactu?",
         finance_verifactu_integration_answer:
             "Yes, Edena is fully integrated with the Spanish Tax Agency's Verifactu system, enabling compliant electronic invoice issuance and management.",
-        // App
         app: {
             title: "Frequently Asked Questions about the Edena Mobile App for Families and Schools",
             description:
@@ -841,7 +839,6 @@ export default {
         app_support_options: "What support options are available from the app?",
         app_support_options_answer:
             "You can contact support via chat, email, or access the integrated help section from the app.",
-        // Dashboard
         dashboard: {
             title: "Frequently Asked Questions about Edena's Control Panel and Analytics",
             description:
@@ -909,7 +906,6 @@ export default {
         crm_data_security: "How is CRM data protected?",
         crm_data_security_answer:
             "All data is encrypted and complies with GDPR regulations. Only authorized staff can access request information.",
-        // Students
         students: {
             title: "Frequently Asked Questions about Student Management in Edena",
             description:
@@ -1094,7 +1090,7 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
     students: {
         mainTitle: "Simplified Student Management",
         mainDescription:
-            "Centralize all student information. From personal data to academic tracking.",
+            "Centralize all student information. From personal data to academic tracking reducing administrative tasks by 40% and increasing family satisfaction by 60%.",
         studentDetailTitle: "Digital Records",
         studentDetailDescription:
             "Manage records, academic history, and family communication. Unified platform that optimizes administrative management and enhances the educational experience.",

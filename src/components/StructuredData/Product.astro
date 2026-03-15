@@ -1,72 +1,73 @@
 ---
-// Product Schema - Para página de pricing
 interface Offer {
-  price: string;
-  priceCurrency: string;
-  availability?: string;
-  url?: string;
+    price: string;
+    priceCurrency: string;
+    availability?: string;
+    url?: string;
 }
 
 interface Props {
-  name: string;
-  description: string;
-  offers: Offer[];
-  brand?: string;
-  category?: string;
-  image?: string;
-  lang?: string;
+    name: string;
+    description: string;
+    offers: Offer[];
+    brand?: string;
+    category?: string;
+    image?: string;
+    lang?: string;
 }
 
 const {
-  name,
-  description,
-  offers,
-  brand = "Edena",
-  category = "Software",
-  image = "https://edena.es/assets/img/logo.png",
-  lang = "es",
+    name,
+    description,
+    offers,
+    brand = "Edena",
+    category = "Software",
+    image = "https://edena.es/assets/img/logo.png",
+    lang = "es",
 } = Astro.props;
 
 interface ProductSchema {
-  "@context": string;
-  "@type": string;
-  "name": string;
-  "description": string;
-  "image": string | string[];
-  "inLanguage": string;
-  "brand": {
+    "@context": string;
     "@type": string;
-    "name": string;
-  };
-  "category": string;
-  "offers": Array<{
-    "@type": string;
-    "price": string;
-    "priceCurrency": string;
-    "availability": string;
-    "url": string;
-  }>;
+    name: string;
+    description: string;
+    image: string | string[];
+    inLanguage: string;
+    brand: {
+        "@type": string;
+        name: string;
+    };
+    category: string;
+    offers: Array<{
+        "@type": string;
+        price: string;
+        priceCurrency: string;
+        availability: string;
+        url: string;
+    }>;
 }
 
 const productSchema: ProductSchema = {
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": name,
-  "description": description,
-  "image": image.startsWith("http") ? image : `https://edena.es${image.startsWith("/") ? "" : "/"}${image}`,
-  "inLanguage": lang === "es" ? "es-ES" : "en-US",
-  "brand": {
-    "@type": "Brand",
-    "name": brand,
-  },
-  "category": category,
-  "offers": offers.map((offer) => ({
-    "@type": "Offer",
-    "price": offer.price,
-    "priceCurrency": offer.priceCurrency,
-    "availability": offer.availability || "https://schema.org/InStock",
-    "url": offer.url || "https://edena.es/pricing",
-  })),
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: name,
+    description: description,
+    image: image.startsWith("http")
+        ? image
+        : `https://edena.es${image.startsWith("/") ? "" : "/"}${image}`,
+    inLanguage: lang === "es" ? "es-ES" : "en-US",
+    brand: {
+        "@type": "Brand",
+        name: brand,
+    },
+    category: category,
+    offers: offers.map((offer) => ({
+        "@type": "Offer",
+        price: offer.price,
+        priceCurrency: offer.priceCurrency,
+        availability: offer.availability || "https://schema.org/InStock",
+        url: offer.url || "https://edena.es/pricing",
+    })),
 };
 ---
 

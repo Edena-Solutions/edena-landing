@@ -1,25 +1,24 @@
 ---
-import { translations, languages } from '@/i18n/index.ts';
+import { translations, languages } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
-import FAQs from '@/modules/faqs/FAQs.astro';
-import Hero from '@/modules/faqs/Hero.astro';
+import FAQs from "@/modules/faqs/FAQs.astro";
+import Hero from "@/modules/faqs/Hero.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
-import { getEntry } from 'astro:content';
+import { getEntry } from "astro:content";
 
 export function getStaticPaths() {
-  return languages.map(lang => ({
-    params: { lang },
-    props: { lang }
-  }));
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
 }
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 
-// Get FAQs for structured data
-const faqEntry = await getEntry('faqs', 'faqspage');
+const faqEntry = await getEntry("faqs", "faqspage");
 ---
 
 <Layout content={{ title: t.meta.faqsTitle, description: t.meta.faqsDescription }} lang={lang}>
@@ -28,11 +27,13 @@ const faqEntry = await getEntry('faqs', 'faqspage');
         <FAQs t={t} />
     </GSAPSection>
 </Layout>
-{faqEntry?.data.faqs && (
-    <FAQPageSchema 
-        slot="structured-data"
-        faqs={faqEntry.data.faqs} 
-        translations={t.faqs}
-        lang={lang}
-    />
-)}
+{
+    faqEntry?.data.faqs && (
+        <FAQPageSchema
+            slot="structured-data"
+            faqs={faqEntry.data.faqs}
+            translations={t.faqs}
+            lang={lang}
+        />
+    )
+}

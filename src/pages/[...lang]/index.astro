@@ -1,16 +1,13 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
 import Hero from "@/modules/home/Hero.astro";
-import Carrousel from "@/modules/home/Carrousel";
 import Conclusion from "@/modules/home/Conclusion.astro";
 import MarketStats from "@/modules/home/MarketStats.astro";
 import KeyFeaturesShowcase from "@/components/KeyFeaturesShowcase";
 import Features from "@/components/Features";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 
-// Home for non-default locales is served by src/pages/en/index.astro (and any future locale folders).
-// This file only generates sub-routes like /en/other when needed; index is handled by static pages.
 export function getStaticPaths() {
     return [];
 }

@@ -1,53 +1,51 @@
 ---
-// FAQPage Schema - Para páginas con FAQs
 interface FAQ {
-  question: string;
-  answer: string;
+    question: string;
+    answer: string;
 }
 
 interface Props {
-  faqs: FAQ[];
-  translations: Record<string, any>;
-  lang?: string;
+    faqs: FAQ[];
+    translations: Record<string, any>;
+    lang?: string;
 }
 
 const { faqs, translations, lang = "es" } = Astro.props;
 
 interface FAQSchema {
-  "@context": string;
-  "@type": string;
-  "inLanguage": string;
-  "mainEntity": Array<{
+    "@context": string;
     "@type": string;
-    "name": string;
-    "acceptedAnswer": {
-      "@type": string;
-      "text": string;
-    };
-  }>;
+    inLanguage: string;
+    mainEntity: Array<{
+        "@type": string;
+        name: string;
+        acceptedAnswer: {
+            "@type": string;
+            text: string;
+        };
+    }>;
 }
 
-// Helper function to safely get translation
 function getTranslation(key: string, translations: Record<string, any>): string {
-  const value = translations[key];
-  if (typeof value === "string") {
-    return value;
-  }
-  return key; // Fallback to key if not found or not a string
+    const value = translations[key];
+    if (typeof value === "string") {
+        return value;
+    }
+    return key;
 }
 
 const faqSchema: FAQSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "inLanguage": lang === "es" ? "es-ES" : "en-US",
-  "mainEntity": faqs.map((faq) => ({
-    "@type": "Question",
-    "name": getTranslation(faq.question, translations),
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": getTranslation(faq.answer, translations),
-    },
-  })),
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    inLanguage: lang === "es" ? "es-ES" : "en-US",
+    mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: getTranslation(faq.question, translations),
+        acceptedAnswer: {
+            "@type": "Answer",
+            text: getTranslation(faq.answer, translations),
+        },
+    })),
 };
 ---
 

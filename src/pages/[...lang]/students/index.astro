@@ -22,7 +22,6 @@ export function getStaticPaths() {
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 
-// Get FAQs for structured data
 const faqsCollection = await getCollection("faqs");
 const studentsFaqs = faqsCollection.find((entry) => entry.id === "faqsStudents.md");
 
@@ -124,12 +123,14 @@ const features = [
         url={`https://edena.es/${lang}/students`}
         lang={lang}
     />
-    {studentsFaqs?.data.faqs && (
-        <FAQPageSchema 
-            slot="structured-data"
-            faqs={studentsFaqs.data.faqs} 
-            translations={t.faqs}
-            lang={lang}
-        />
-    )}
+    {
+        studentsFaqs?.data.faqs && (
+            <FAQPageSchema
+                slot="structured-data"
+                faqs={studentsFaqs.data.faqs}
+                translations={t.faqs}
+                lang={lang}
+            />
+        )
+    }
 </Layout>

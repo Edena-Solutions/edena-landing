@@ -59,7 +59,7 @@ export default {
     hero: {
         mainTitle: "Transforma la gestión escolar de tu centro",
         mainDescription:
-            "Plataforma integral para gestión de estudiantes, facturación y comunicación.",
+            "Plataforma integral para gestión de estudiantes, facturación y comunicación. Reduce costes 25% y aumenta satisfacción familiar 60%. Demo gratuita.",
         mobileTitle: "Tu centro, siempre conectado",
         mobileDescription:
             "Mantén a las familias comprometidas con actualizaciones instantáneas, compartir de forma segura y comunicación en tiempo real.",
@@ -752,7 +752,6 @@ export default {
         platform_customization: "¿Se puede personalizar la plataforma con la identidad del centro?",
         platform_customization_answer:
             "Sí, puedes personalizar elementos visuales como el logo, colores corporativos, plantillas de comunicación y mensajes automáticos que se envían a las familias para reflejar la identidad de tu centro.",
-        // Guardian
         guardian_access_rights: "¿Qué permisos tiene un tutor en la plataforma?",
         guardian_access_rights_answer:
             "Un tutor puede acceder a la información académica, facturación, actividades y comunicarse con el centro según los permisos asignados por la administración del centro.",
@@ -785,7 +784,6 @@ export default {
         guardian_support_options: "¿Qué opciones de soporte tienen los tutores si necesitan ayuda?",
         guardian_support_options_answer:
             "Los tutores pueden acceder a soporte vía chat, correo electrónico o consultar la sección de ayuda dentro de la plataforma.",
-        // Finance
         finance: {
             title: "Preguntas frecuentes sobre gestión financiera escolar con Edena",
             description:
@@ -824,7 +822,6 @@ export default {
         finance_verifactu_integration: "¿Edena está integrado con Verifactu?",
         finance_verifactu_integration_answer:
             "Sí, Edena está completamente integrado con el sistema Verifactu de la Agencia Tributaria, permitiendo la emisión y gestión de facturas electrónicas conforme a la normativa española.",
-        // App
         app: {
             title: "Preguntas frecuentes sobre la app móvil de Edena para familias y centros",
             description:
@@ -860,7 +857,6 @@ export default {
         app_support_options: "¿Qué opciones de soporte tengo desde la app?",
         app_support_options_answer:
             "Puedes contactar con soporte desde la app vía chat, email o acceder a la sección de ayuda integrada.",
-        // Dashboard
         dashboard: {
             title: "Preguntas frecuentes sobre el panel de control y analítica de Edena",
             description:
@@ -928,7 +924,6 @@ export default {
         crm_data_security: "¿Cómo se protegen los datos del CRM?",
         crm_data_security_answer:
             "Todos los datos están cifrados y cumplen con la normativa RGPD. Solo el personal autorizado puede acceder a la información de las solicitudes.",
-        // Students
         students: {
             title: "Preguntas frecuentes sobre gestión de estudiantes en Edena",
             description:
@@ -1171,7 +1166,7 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
     students: {
         mainTitle: "Gestión estudiantil simplificada",
         mainDescription:
-            "Centraliza toda la información de tus estudiantes. Desde datos personales hasta seguimiento académico.",
+            "Centraliza toda la información de tus estudiantes. Desde datos personales hasta seguimiento académico reduciendo tareas administrativas un 40% y aumentando satisfacción familiar un 60%.",
         studentDetailTitle: "Expedientes digitales",
         studentDetailDescription:
             "Gestiona expedientes, historial académico y comunicación con familias. Plataforma unificada que optimiza la gestión administrativa y mejora la experiencia educativa.",
@@ -1191,7 +1186,7 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
     app: {
         mainTitle: "Tu centro en el móvil",
         mainDescription:
-            "Accede a todas las funciones desde cualquier dispositivo. Gestión total en la palma de tu mano.",
+            "Accede a todas las funciones desde cualquier dispositivo. Gestión total en la palma de tu mano. Descúbre como Edena puede transformar tu centro educativo en 30 días.",
         androidIosTitle: "App para Android e iOS",
         androidIosDescription:
             "Disponible en todas las plataformas. Descarga ahora y mantente conectado.",
