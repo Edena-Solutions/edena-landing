@@ -6,6 +6,7 @@ import { ChevronLeft } from "lucide-react";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleSchema from "@/components/StructuredData/Article.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
+import Link from "@/components/ui/link";
 
 export async function getStaticPaths() {
     const postsEs = await getCollection("blogEs");
@@ -54,11 +55,10 @@ const ogImageHeight = post.data.cover ? "630" : "630";
     lang={lang}
 >
     <div class="max-w-7xl mx-auto py-6 px-4">
-        <a
-            href={`/${lang}/blog/`}
-            class="text-sm text-primary hover:underline flex items-center gap-2"
-            ><ChevronLeft className="w-4 h-4" /> {t.navigation.blog}</a
-        >
+        <Link href={`/${lang}/blog/`} className="text-sm flex items-center gap-2">
+            <ChevronLeft className="w-4 h-4" />
+            {t.navigation.blog}
+        </Link>
 
         <div class="lg:hidden mb-6">
             <TableOfContents client:load variant="mobile" />

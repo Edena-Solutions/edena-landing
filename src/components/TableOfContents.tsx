@@ -143,7 +143,7 @@ export default function TableOfContents({
 
     const navClasses =
         variant === "sidebar"
-            ? `sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto ${className}`
+            ? `sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto ${className}`
             : `lg:hidden ${className}`;
 
     return (
