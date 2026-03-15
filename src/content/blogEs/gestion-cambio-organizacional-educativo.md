@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1558932129-58b0867c4985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Gestión del cambio organizacional en centros educativos: Estrategias para la transformación exitosa**
+<strong>Gestión del cambio organizacional en centros educativos: Estrategias para la transformación exitosa</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Los centros educativos operan en un entorno de cambio constante, impulsado por a
 
 <br>
 
-**La naturaleza del cambio en organizaciones educativas**
+<strong>La naturaleza del cambio en organizaciones educativas</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ Los centros educativos también operan dentro de marcos regulatorios complejos q
 
 <br>
 
-**Factores impulsores del cambio educativo**
+<strong>Factores impulsores del cambio educativo</strong>
 
 <br>
 
@@ -41,7 +41,7 @@ Los cambios regulatorios y de política educativa externa obligan a adaptaciones
 
 <br>
 
-**Modelos de gestión del cambio aplicados a educación**
+<strong>Modelos de gestión del cambio aplicados a educación</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ El modelo ADKAR (Conciencia, Deseo, Conocimiento, Habilidad, Refuerzo) es partic
 
 <br>
 
-**Liderazgo transformacional en educación**
+<strong>Liderazgo transformacional en educación</strong>
 
 <br>
 
@@ -69,7 +69,7 @@ Las habilidades de comunicación son primordiales para líderes educativos gesti
 
 <br>
 
-**Estrategias para superar la resistencia al cambio**
+<strong>Estrategias para superar la resistencia al cambio</strong>
 
 <br>
 
@@ -83,7 +83,7 @@ Celebrar victorias tempranas y reconocer contribuciones ayuda a construir moment
 
 <br>
 
-**Comunicación efectiva durante el cambio**
+<strong>Comunicación efectiva durante el cambio</strong>
 
 <br>
 
@@ -97,7 +97,7 @@ La mensajería consistente a través de todos los canales de comunicación previ
 
 <br>
 
-**Implementación gradual y programas piloto**
+<strong>Implementación gradual y programas piloto</strong>
 
 <br>
 
@@ -111,7 +111,7 @@ Escalar programas piloto exitosos requiere planificación sistemática para asig
 
 <br>
 
-**Desarrollo profesional y capacitación**
+<strong>Desarrollo profesional y capacitación</strong>
 
 <br>
 
@@ -125,7 +125,7 @@ Las oportunidades de aprendizaje entre pares como comunidades de aprendizaje pro
 
 <br>
 
-**Evaluación y ajuste continuo**
+<strong>Evaluación y ajuste continuo</strong>
 
 <br>
 
@@ -139,7 +139,7 @@ La documentación de lecciones aprendidas durante procesos de cambio crea conoci
 
 <br>
 
-**Sostenibilidad del cambio a largo plazo**
+<strong>Sostenibilidad del cambio a largo plazo</strong>
 
 <br>
 
@@ -153,7 +153,7 @@ La planificación de sucesión de liderazgo asegura que el compromiso con los ca
 
 <br>
 
-**Tecnología como habilitador del cambio**
+<strong>Tecnología como habilitador del cambio</strong>
 
 <br>
 
@@ -167,7 +167,7 @@ Los sistemas basados en la nube, plataformas de gestión del aprendizaje y herra
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

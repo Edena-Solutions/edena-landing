@@ -2,13 +2,12 @@
 title: "Liderazgo educativo transformacional en la era digital: Competencias y estrategias"
 date: "2025-09-15"
 description: "Explora las competencias esenciales del liderazgo educativo transformacional en la era digital y cómo desarrollar capacidades directivas para el éxito institucional."
-tags:
-    ["liderazgo educativo", "transformación digital", "competencias directivas", "gestión escolar"]
+tags: ["liderazgo educativo", "transformación digital", "competencias directivas", "gestión escolar"]
 author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1601231808069-e6103868f686?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Liderazgo educativo transformacional en la era digital: Competencias y estrategias**
+<strong>Liderazgo educativo transformacional en la era digital: Competencias y estrategias</strong>
 
 <br>
 
@@ -16,7 +15,7 @@ El liderazgo educativo contemporáneo enfrenta desafíos sin precedentes que req
 
 <br>
 
-**Características del liderazgo transformacional educativo**
+<strong>Características del liderazgo transformacional educativo</strong>
 
 <br>
 
@@ -30,7 +29,7 @@ La consideración individualizada reconoce las necesidades únicas, fortalezas y
 
 <br>
 
-**Competencias digitales para líderes educativos**
+<strong>Competencias digitales para líderes educativos</strong>
 
 <br>
 
@@ -44,7 +43,7 @@ La seguridad y privacidad de datos representan competencias críticas dado el vo
 
 <br>
 
-**Visión estratégica y planificación digital**
+<strong>Visión estratégica y planificación digital</strong>
 
 <br>
 
@@ -58,7 +57,7 @@ La evaluación continua de progreso hacia objetivos digitales requiere métricas
 
 <br>
 
-**Gestión del cambio y cultura organizacional**
+<strong>Gestión del cambio y cultura organizacional</strong>
 
 <br>
 
@@ -72,7 +71,7 @@ La creación de comunidades de práctica interna facilita intercambio de conocim
 
 <br>
 
-**Desarrollo profesional y capacitación de equipos**
+<strong>Desarrollo profesional y capacitación de equipos</strong>
 
 <br>
 
@@ -86,7 +85,7 @@ La evaluación de effectiveness de programas de desarrollo profesional requiere 
 
 <br>
 
-**Comunicación y engagement de stakeholders**
+<strong>Comunicación y engagement de stakeholders</strong>
 
 <br>
 
@@ -100,7 +99,7 @@ La colaboración con community partners puede expand resources disponibles para 
 
 <br>
 
-**Innovación pedagógica y tecnológica**
+<strong>Innovación pedagógica y tecnológica</strong>
 
 <br>
 
@@ -114,7 +113,7 @@ La documentation y sharing de innovative practices both internally y con broader
 
 <br>
 
-**Evaluación de impacto y mejora continua**
+<strong>Evaluación de impacto y mejora continua</strong>
 
 <br>
 
@@ -128,7 +127,7 @@ Los cycles de continuous improvement basados en regular evaluation findings ensu
 
 <br>
 
-**Sostenibilidad financiera y recursos**
+<strong>Sostenibilidad financiera y recursos</strong>
 
 <br>
 
@@ -142,7 +141,7 @@ La development de business cases compelling para digital initiatives que clearly
 
 <br>
 
-**Ética y responsabilidad en liderazgo digital**
+<strong>Ética y responsabilidad en liderazgo digital</strong>
 
 <br>
 
@@ -156,7 +155,7 @@ La transparency sobre data collection, use, y protection practices builds trust 
 
 <br>
 
-**El futuro del liderazgo educativo**
+<strong>El futuro del liderazgo educativo</strong>
 
 <br>
 
@@ -170,7 +169,7 @@ La cultivation de adaptive leadership capabilities que enable rapid response a u
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

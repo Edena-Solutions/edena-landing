@@ -2,19 +2,12 @@
 title: "Teacher Digital Competencies in 2026: Over 661,000 Certified Educators"
 date: "2026-01-10"
 description: "80% of Spanish teachers now have digital competency certification. Discover how this training is transforming education and what it means for schools."
-tags:
-    [
-        "digital competencies",
-        "teacher training",
-        "digital certification",
-        "Plan DigEdu",
-        "teachers 2026",
-    ]
+tags: ["digital competencies", "teacher training", "digital certification", "Plan DigEdu", "teachers 2026"]
 author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1568828668638-b1b4014d91a2?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Teacher Digital Competencies in 2026: Over 661,000 Certified Educators**
+<strong>Teacher Digital Competencies in 2026: Over 661,000 Certified Educators</strong>
 
 <br>
 
@@ -22,27 +15,27 @@ The year 2026 marks a historic milestone in Spanish teacher training. With more 
 
 <br>
 
-**The Framework of Reference for Teacher Digital Competency**
+<strong>The Framework of Reference for Teacher Digital Competency</strong>
 
 <br>
 
 The Framework of Reference for Teacher Digital Competency, updated in 2022 and aligned with the European #DigCompEdu framework, establishes the competencies teachers must master in the digital age. This framework is not limited to basic use of technological tools; it encompasses six fundamental areas that transform teaching practice.
 
-The first area, **Information and information literacy**, trains teachers to search, evaluate, manage and share digital information critically and effectively. In a world saturated with information, this competency is essential to help students navigate the digital environment safely and productively.
+The first area, <strong>Information and information literacy</strong>, trains teachers to search, evaluate, manage and share digital information critically and effectively. In a world saturated with information, this competency is essential to help students navigate the digital environment safely and productively.
 
-The second area, **Communication and collaboration**, prepares teachers to communicate efficiently through digital media, collaborate in virtual environments and participate in online professional communities. This competency is crucial in a world where education transcends classroom walls.
+The second area, <strong>Communication and collaboration</strong>, prepares teachers to communicate efficiently through digital media, collaborate in virtual environments and participate in online professional communities. This competency is crucial in a world where education transcends classroom walls.
 
-The third area, **Digital content creation**, empowers teachers to create, edit and share quality digital educational resources. From educational videos to interactive presentations, certified teachers can create materials that significantly enrich the learning experience.
+The third area, <strong>Digital content creation</strong>, empowers teachers to create, edit and share quality digital educational resources. From educational videos to interactive presentations, certified teachers can create materials that significantly enrich the learning experience.
 
-The fourth area, **Security**, ensures teachers protect both their own information and that of their students, understand digital risks and promote safe and responsible technology use. In an era of growing concerns about digital privacy and security, this competency is more important than ever.
+The fourth area, <strong>Security</strong>, ensures teachers protect both their own information and that of their students, understand digital risks and promote safe and responsible technology use. In an era of growing concerns about digital privacy and security, this competency is more important than ever.
 
-The fifth area, **Problem solving**, trains teachers to identify technological needs, solve technical problems and use technology innovatively to improve teaching and learning.
+The fifth area, <strong>Problem solving</strong>, trains teachers to identify technological needs, solve technical problems and use technology innovatively to improve teaching and learning.
 
-The sixth area, **Evaluation and continuous improvement**, allows teachers to reflect on their digital practice, evaluate the effectiveness of technologies used and continuously adapt to new tools and methodologies.
+The sixth area, <strong>Evaluation and continuous improvement</strong>, allows teachers to reflect on their digital practice, evaluate the effectiveness of technologies used and continuously adapt to new tools and methodologies.
 
 <br>
 
-**More than 24,470 training actions developed**
+<strong>More than 24,470 training actions developed</strong>
 
 <br>
 
@@ -60,7 +53,7 @@ The diversity of these training actions ensures that each teacher finds the type
 
 <br>
 
-**Impact on daily teaching practice**
+<strong>Impact on daily teaching practice</strong>
 
 <br>
 
@@ -78,7 +71,7 @@ These changes are not superficial; they are significantly improving educational 
 
 <br>
 
-**Learning personalization thanks to digital competency**
+<strong>Learning personalization thanks to digital competency</strong>
 
 <br>
 
@@ -95,7 +88,7 @@ This personalization not only improves academic outcomes; it also increases stud
 
 <br>
 
-**Improved communication with families**
+<strong>Improved communication with families</strong>
 
 <br>
 
@@ -113,23 +106,23 @@ The result is a 60% increase in family satisfaction and greater parent engagemen
 
 <br>
 
-**Integration of new pedagogical methodologies**
+<strong>Integration of new pedagogical methodologies</strong>
 
 <br>
 
 Digital competency is not just about using technology; it's about integrating it in a pedagogically sound way. Certified teachers are adopting innovative methodologies that leverage technology's power:
 
-- **Digital project-based learning**: Students work on collaborative projects using digital tools
-- **Flipped classroom**: Students consume content at home and work on practical activities in the classroom
-- **Educational gamification**: Use of game elements to increase motivation and engagement
-- **Augmented and virtual reality**: Immersive experiences that enrich learning
-- **Microlearning**: Educational content in short and accessible formats
+- <strong>Digital project-based learning</strong>: Students work on collaborative projects using digital tools
+- <strong>Flipped classroom</strong>: Students consume content at home and work on practical activities in the classroom
+- <strong>Educational gamification</strong>: Use of game elements to increase motivation and engagement
+- <strong>Augmented and virtual reality</strong>: Immersive experiences that enrich learning
+- <strong>Microlearning</strong>: Educational content in short and accessible formats
 
 These methodologies, when implemented by digitally competent teachers, are transforming the educational experience and better preparing students for the digital world of the 21st century.
 
 <br>
 
-**Challenges and opportunities for educational centers**
+<strong>Challenges and opportunities for educational centers</strong>
 
 <br>
 
@@ -147,23 +140,23 @@ Centers investing in these technologies are seeing extraordinary returns: more s
 
 <br>
 
-**The role of school management systems**
+<strong>The role of school management systems</strong>
 
 <br>
 
 Modern school management systems are essential for certified teachers to fully apply their digital competencies. A comprehensive platform like Edena provides all the tools teachers need:
 
-- **Digital class management**: Organization of students, groups and schedules
-- **Integrated communication**: Messaging, notifications and real-time updates
-- **Digital assessment**: Creation and management of assessments, progress tracking
-- **Educational resources**: Storage and sharing of teaching materials
-- **Data analysis**: Insights on student performance and teaching effectiveness
+- <strong>Digital class management</strong>: Organization of students, groups and schedules
+- <strong>Integrated communication</strong>: Messaging, notifications and real-time updates
+- <strong>Digital assessment</strong>: Creation and management of assessments, progress tracking
+- <strong>Educational resources</strong>: Storage and sharing of teaching materials
+- <strong>Data analysis</strong>: Insights on student performance and teaching effectiveness
 
 When certified teachers have access to these tools, they can maximize the impact of their digital competencies and truly transform the educational experience.
 
 <br>
 
-**Continuous training and constant evolution**
+<strong>Continuous training and constant evolution</strong>
 
 <br>
 
@@ -181,7 +174,7 @@ Centers supporting this continuous training are creating a culture of innovation
 
 <br>
 
-**The future of teaching with digital competencies**
+<strong>The future of teaching with digital competencies</strong>
 
 <br>
 
@@ -197,23 +190,23 @@ This future is not far away; it is happening now in thousands of Spanish classro
 
 <br>
 
-**How Edena supports certified teachers**
+<strong>How Edena supports certified teachers</strong>
 
 <br>
 
 Edena is specifically designed to empower teachers certified in digital competencies, providing them with all the tools they need to apply their skills effectively:
 
-- **Intuitive platform**: Designed so teachers can use all functionalities without needing additional technical training
-- **Complete integration**: All tools work together coherently
-- **Fluid communication**: Integrated messaging and notification systems
-- **Data analysis**: Insights that help teachers make informed pedagogical decisions
-- **Continuous support**: Training and assistance to maximize platform use
+- <strong>Intuitive platform</strong>: Designed so teachers can use all functionalities without needing additional technical training
+- <strong>Complete integration</strong>: All tools work together coherently
+- <strong>Fluid communication</strong>: Integrated messaging and notification systems
+- <strong>Data analysis</strong>: Insights that help teachers make informed pedagogical decisions
+- <strong>Continuous support</strong>: Training and assistance to maximize platform use
 
 With Edena, certified teachers can transform their teaching practice and create exceptional educational experiences for their students.
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

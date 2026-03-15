@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Digital Competence for Educators: Preparing Teachers for the Future**
+<strong>Digital Competence for Educators: Preparing Teachers for the Future</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ In an increasingly digital world, educators need to develop digital competencies
 
 <br>
 
-**Beyond Basic Digital Literacy**
+<strong>Beyond Basic Digital Literacy</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Digitally competent educators not only use technological tools but also integrat
 
 <br>
 
-**Fundamental Technical Competencies**
+<strong>Fundamental Technical Competencies</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Teachers must be able to create digital content, manage online information, and 
 
 <br>
 
-**Digital Pedagogy and Instructional Design**
+<strong>Digital Pedagogy and Instructional Design</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Digitally competent teachers can design activities that integrate technology mea
 
 <br>
 
-**Digital Assessment and Feedback**
+<strong>Digital Assessment and Feedback</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Teachers must know how to use digital assessment tools to track student progress
 
 <br>
 
-**Digital Collaboration and Communication**
+<strong>Digital Collaboration and Communication</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Teachers must know how to use communication platforms to keep parents informed a
 
 <br>
 
-**Critical Thinking and Digital Literacy**
+<strong>Critical Thinking and Digital Literacy</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Teachers must understand algorithmic biases, misinformation, and the ethical cha
 
 <br>
 
-**Continuous Professional Development**
+<strong>Continuous Professional Development</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Educational centers must provide ongoing training opportunities that allow teach
 
 <br>
 
-**Digital Leadership in Education**
+<strong>Digital Leadership in Education</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Teacher leaders can create communities of practice to share resources, experienc
 
 <br>
 
-**Digital Equity and Accessibility**
+<strong>Digital Equity and Accessibility</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Teachers must know how to use accessibility tools, design content that is access
 
 <br>
 
-**Ethics and Digital Citizenship**
+<strong>Ethics and Digital Citizenship</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Teachers must be able to teach their students about digital security, online pri
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

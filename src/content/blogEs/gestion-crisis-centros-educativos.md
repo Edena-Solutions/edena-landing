@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1585829364536-ce348dd72ebc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Gestión de crisis en centros educativos: Protocolos y estrategias para la continuidad**
+<strong>Gestión de crisis en centros educativos: Protocolos y estrategias para la continuidad</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ En el entorno educativo actual, los centros deben estar preparados para enfrenta
 
 <br>
 
-**La importancia de la planificación preventiva**
+<strong>La importancia de la planificación preventiva</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ Los equipos de gestión de crisis deben estar claramente definidos, con roles y 
 
 <br>
 
-**Protocolos de comunicación en crisis**
+<strong>Protocolos de comunicación en crisis</strong>
 
 <br>
 
@@ -39,7 +39,7 @@ Los sistemas de alerta temprana permiten notificaciones inmediatas a toda la com
 
 <br>
 
-**Continuidad educativa durante crisis**
+<strong>Continuidad educativa durante crisis</strong>
 
 <br>
 
@@ -51,7 +51,7 @@ Los contenidos educativos deben adaptarse para la entrega remota, manteniendo la
 
 <br>
 
-**Gestión de recursos durante emergencias**
+<strong>Gestión de recursos durante emergencias</strong>
 
 <br>
 
@@ -63,7 +63,7 @@ Los recursos humanos deben gestionarse estratégicamente durante crisis prolonga
 
 <br>
 
-**Coordinación con autoridades externas**
+<strong>Coordinación con autoridades externas</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Los ejercicios conjuntos con autoridades externas permiten probar y refinar prot
 
 <br>
 
-**Apoyo psicológico y bienestar emocional**
+<strong>Apoyo psicológico y bienestar emocional</strong>
 
 <br>
 
@@ -87,7 +87,7 @@ La comunicación sensible y apropiada para la edad es crucial para ayudar a los 
 
 <br>
 
-**Tecnología para la gestión de crisis**
+<strong>Tecnología para la gestión de crisis</strong>
 
 <br>
 
@@ -99,7 +99,7 @@ Las aplicaciones móviles de emergencia permiten comunicación rápida y acceso 
 
 <br>
 
-**Evaluación y mejora continua**
+<strong>Evaluación y mejora continua</strong>
 
 <br>
 
@@ -111,7 +111,7 @@ Las revisiones post-crisis proporcionan oportunidades valiosas para aprender y m
 
 <br>
 
-**Recuperación y vuelta a la normalidad**
+<strong>Recuperación y vuelta a la normalidad</strong>
 
 <br>
 
@@ -123,7 +123,7 @@ La comunicación continua con las familias durante la fase de recuperación ayud
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

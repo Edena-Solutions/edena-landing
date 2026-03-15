@@ -2,19 +2,12 @@
 title: "Plan DigEdu 2026: The Digital Transformation Revolutionizing Education in Spain"
 date: "2026-01-08"
 description: "Discover how Plan DigEdu is transforming Spanish education with a 1.4 billion euro investment in digitalization, devices, and teacher digital competencies."
-tags:
-    [
-        "Plan DigEdu",
-        "educational digitalization",
-        "digital transformation",
-        "educational technology",
-        "Spain 2026",
-    ]
+tags: ["Plan DigEdu", "educational digitalization", "digital transformation", "educational technology", "Spain 2026"]
 author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Plan DigEdu 2026: The Digital Transformation Revolutionizing Education in Spain**
+<strong>Plan DigEdu 2026: The Digital Transformation Revolutionizing Education in Spain</strong>
 
 <br>
 
@@ -22,7 +15,7 @@ The Spanish educational sector is experiencing an unprecedented transformation. 
 
 <br>
 
-**What is Plan DigEdu and why is it crucial in 2026?**
+<strong>What is Plan DigEdu and why is it crucial in 2026?</strong>
 
 <br>
 
@@ -34,7 +27,7 @@ This massive investment is not just a technological modernization; it is a parad
 
 <br>
 
-**Technological infrastructure: 300,000 devices and digital classrooms**
+<strong>Technological infrastructure: 300,000 devices and digital classrooms</strong>
 
 <br>
 
@@ -46,7 +39,7 @@ The substantial improvement in center connectivity is another fundamental pillar
 
 <br>
 
-**Teacher digital competencies: 80% certified**
+<strong>Teacher digital competencies: 80% certified</strong>
 
 <br>
 
@@ -58,7 +51,7 @@ More than 24,470 training actions have been developed to train teachers, coverin
 
 <br>
 
-**Digital School Plans: 22,936 transformed centers**
+<strong>Digital School Plans: 22,936 transformed centers</strong>
 
 <br>
 
@@ -77,7 +70,7 @@ These plans are transforming educational centers into truly digital organization
 
 <br>
 
-**Curricular integration: digital competencies in all stages**
+<strong>Curricular integration: digital competencies in all stages</strong>
 
 <br>
 
@@ -89,7 +82,7 @@ The integration of these competencies in the official curriculum ensures that al
 
 <br>
 
-**Impact on center administrative management**
+<strong>Impact on center administrative management</strong>
 
 <br>
 
@@ -106,7 +99,7 @@ Digital billing, automated communication with families, digital attendance manag
 
 <br>
 
-**Digital communication with families: a new standard**
+<strong>Digital communication with families: a new standard</strong>
 
 <br>
 
@@ -124,7 +117,7 @@ This transformation in communication is increasing family engagement by 60%, acc
 
 <br>
 
-**Electronic billing and regulatory compliance**
+<strong>Electronic billing and regulatory compliance</strong>
 
 <br>
 
@@ -141,7 +134,7 @@ This automation not only improves efficiency; it also guarantees regulatory comp
 
 <br>
 
-**Challenges and opportunities for educational centers**
+<strong>Challenges and opportunities for educational centers</strong>
 
 <br>
 
@@ -159,7 +152,7 @@ The key to success is not in adopting all available technologies, but in choosin
 
 <br>
 
-**The future of digital education in Spain**
+<strong>The future of digital education in Spain</strong>
 
 <br>
 
@@ -177,24 +170,24 @@ Centers taking advantage of these opportunities now are positioning themselves a
 
 <br>
 
-**How Edena supports Plan DigEdu transformation**
+<strong>How Edena supports Plan DigEdu transformation</strong>
 
 <br>
 
 Edena is specifically designed to help educational centers meet Plan DigEdu objectives and maximize the benefits of digital transformation. Our comprehensive platform offers:
 
-- **Completely digital administrative management**: Eliminates paper and automates all administrative processes
-- **Digital communication with families**: Mobile app, web portal and real-time notifications
-- **Automated electronic billing**: Verifactu integration and guaranteed regulatory compliance
-- **Digital student management**: Completely digital records, attendance and evaluation
-- **Analytical dashboard**: Real-time data-based decision making
-- **Training and support**: We help your team maximize the platform
+- <strong>Completely digital administrative management</strong>: Eliminates paper and automates all administrative processes
+- <strong>Digital communication with families</strong>: Mobile app, web portal and real-time notifications
+- <strong>Automated electronic billing</strong>: Verifactu integration and guaranteed regulatory compliance
+- <strong>Digital student management</strong>: Completely digital records, attendance and evaluation
+- <strong>Analytical dashboard</strong>: Real-time data-based decision making
+- <strong>Training and support</strong>: We help your team maximize the platform
 
 With Edena, your center can transform into a truly digital organization, meeting and exceeding Plan DigEdu objectives while significantly improving operational efficiency and satisfaction of the entire educational community.
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

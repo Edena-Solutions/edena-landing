@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Transformación digital en centros educativos: De la resistencia al éxito**
+<strong>Transformación digital en centros educativos: De la resistencia al éxito</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La transformación digital no es solo una moda pasajera; es una necesidad impera
 
 <br>
 
-**El desafío de la resistencia al cambio**
+<strong>El desafío de la resistencia al cambio</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Los profesores pueden temer que la tecnología reemplace su papel o que requiera
 
 <br>
 
-**Estrategias de liderazgo efectivo**
+<strong>Estrategias de liderazgo efectivo</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Es fundamental que los líderes no solo hablen sobre la transformación, sino qu
 
 <br>
 
-**Comunicación y transparencia**
+<strong>Comunicación y transparencia</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Es importante crear múltiples canales de comunicación: reuniones regulares, bo
 
 <br>
 
-**Formación y desarrollo de competencias**
+<strong>Formación y desarrollo de competencias</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ La formación debe ser personalizada según las necesidades y niveles de compete
 
 <br>
 
-**Gestión del cambio por fases**
+<strong>Gestión del cambio por fases</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ La primera fase podría enfocarse en la infraestructura básica: conectividad, d
 
 <br>
 
-**Involucrar a toda la comunidad**
+<strong>Involucrar a toda la comunidad</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Los centros pueden crear comités de transformación digital que incluyan repres
 
 <br>
 
-**Medición y evaluación del progreso**
+<strong>Medición y evaluación del progreso</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Los centros deben realizar evaluaciones regulares para identificar qué está fu
 
 <br>
 
-**Gestión de riesgos y contingencia**
+<strong>Gestión de riesgos y contingencia</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Es importante tener sistemas de respaldo para asegurar que las operaciones crít
 
 <br>
 
-**Cultura de innovación continua**
+<strong>Cultura de innovación continua</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Esta cultura se puede fomentar a través de programas de innovación, espacios p
 
 <br>
 
-**Sostenibilidad y escalabilidad**
+<strong>Sostenibilidad y escalabilidad</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ La escalabilidad es especialmente importante para centros que planean expandirse
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Mobile Apps in Education: The Digital Experience in Your Pocket**
+<strong>Mobile Apps in Education: The Digital Experience in Your Pocket</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Mobile apps are revolutionizing how families interact with educational centers, 
 
 <br>
 
-**The revolution of mobile educational experience**
+<strong>The revolution of mobile educational experience</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Educational mobile apps offer instant access to academic information that allows
 
 <br>
 
-**Key functionalities of educational apps**
+<strong>Key functionalities of educational apps</strong>
 
 <br>
 
@@ -37,7 +37,7 @@ Modern apps include complete administrative functionalities. Parents can make pa
 
 <br>
 
-**Mobile-optimized user experience**
+<strong>Mobile-optimized user experience</strong>
 
 <br>
 
@@ -47,7 +47,7 @@ Modern apps include functionalities that work offline. Data synchronizes automat
 
 <br>
 
-**Security and privacy in educational apps**
+<strong>Security and privacy in educational apps</strong>
 
 <br>
 
@@ -57,7 +57,7 @@ Systems include monitoring and auditing tools. All actions in the app are record
 
 <br>
 
-**Integration with educational systems**
+<strong>Integration with educational systems</strong>
 
 <br>
 
@@ -67,7 +67,7 @@ Integration enables advanced functionalities. Centers can analyze how families u
 
 <br>
 
-**Implementation and adoption of mobile apps**
+<strong>Implementation and adoption of mobile apps</strong>
 
 <br>
 
@@ -79,7 +79,7 @@ It's fundamental to clearly communicate the app's benefits. Showing how the app 
 
 <br>
 
-**The future of educational apps**
+<strong>The future of educational apps</strong>
 
 <br>
 
@@ -91,7 +91,7 @@ Apps will integrate with notifications and alerts on wearable devices for even m
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

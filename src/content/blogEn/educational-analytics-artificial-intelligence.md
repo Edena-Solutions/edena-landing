@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1739805591936-39f03383c9a9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Educational Analytics and Artificial Intelligence: Data that Transforms Education**
+<strong>Educational Analytics and Artificial Intelligence: Data that Transforms Education</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Educational analytics and artificial intelligence are fundamentally transforming
 
 <br>
 
-**From Big Data to Educational Intelligence**
+<strong>From Big Data to Educational Intelligence</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Artificial intelligence takes this analytics a step further, using advanced algo
 
 <br>
 
-**Personalized Learning with AI**
+<strong>Personalized Learning with AI</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ AI systems can detect when a student is struggling with a specific concept and a
 
 <br>
 
-**Prediction and Dropout Prevention**
+<strong>Prediction and Dropout Prevention</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ When a student at risk is detected, the system can automatically trigger persona
 
 <br>
 
-**Optimization of Educational Resources**
+<strong>Optimization of Educational Resources</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Algorithms can suggest optimal schedules that maximize space usage and minimize 
 
 <br>
 
-**Intelligent Assessment and Feedback**
+<strong>Intelligent Assessment and Feedback</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Algorithms can identify patterns in common errors and suggest specific intervent
 
 <br>
 
-**Sentiment Analysis and Well-being**
+<strong>Sentiment Analysis and Well-being</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Algorithms can detect behavioral changes that may indicate mental or social heal
 
 <br>
 
-**Improving Teaching with Data**
+<strong>Improving Teaching with Data</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Data can show which approaches are most effective for different types of student
 
 <br>
 
-**Proactive Communication with Families**
+<strong>Proactive Communication with Families</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Algorithms can send personalized communications based on each family’s specifi
 
 <br>
 
-**Predictive Analysis for Strategic Planning**
+<strong>Predictive Analysis for Strategic Planning</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Algorithms can identify patterns in the demand for certain courses or programs. 
 
 <br>
 
-**Ethics and Privacy in Educational Analytics**
+<strong>Ethics and Privacy in Educational Analytics</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ It’s essential to protect the privacy of students and their families. Systems 
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

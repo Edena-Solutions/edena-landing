@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://plus.unsplash.com/premium_photo-1671829480432-9b0f10d869ef?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Edena y la sostenibilidad digital en centros educativos**
+<strong>Edena y la sostenibilidad digital en centros educativos</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ En un mundo cada vez más consciente de la importancia de la sostenibilidad, los
 
 <br>
 
-**El impacto ambiental de la gestión tradicional**
+<strong>El impacto ambiental de la gestión tradicional</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Además del consumo de papel, la gestión tradicional implica desplazamientos in
 
 <br>
 
-**La transformación digital como solución sostenible**
+<strong>La transformación digital como solución sostenible</strong>
 
 <br>
 
@@ -41,7 +41,7 @@ Los centros educativos también pueden optimizar el uso de energía implementand
 
 <br>
 
-**Beneficios económicos de la sostenibilidad digital**
+<strong>Beneficios económicos de la sostenibilidad digital</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Además, los sistemas digitales permiten un mejor control del uso de energía en
 
 <br>
 
-**El compromiso de Edena con la sostenibilidad**
+<strong>El compromiso de Edena con la sostenibilidad</strong>
 
 <br>
 
@@ -69,7 +69,7 @@ Edena no solo proporciona herramientas digitales, sino que también incluye form
 
 <br>
 
-**Casos de éxito en sostenibilidad**
+<strong>Casos de éxito en sostenibilidad</strong>
 
 <br>
 
@@ -83,7 +83,7 @@ Los resultados suelen ser transformadores. Muchos centros ahora generan más ene
 
 <br>
 
-**El futuro de la sostenibilidad digital en educación**
+<strong>El futuro de la sostenibilidad digital en educación</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Los centros educativos podrán utilizar Edena para analizar y reportar su impact
 
 <br>
 
-**Educación para la sostenibilidad**
+<strong>Educación para la sostenibilidad</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Los centros educativos pueden utilizar Edena para gestionar proyectos de sosteni
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

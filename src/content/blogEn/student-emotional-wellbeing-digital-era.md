@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1503891617560-5b8c2e28cbf6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Student Emotional Wellbeing in the Digital Era: Strategies and Tools**
+<strong>Student Emotional Wellbeing in the Digital Era: Strategies and Tools</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Student emotional wellbeing has become a critical priority for educational cente
 
 <br>
 
-**Challenges of wellbeing in the digital era**
+<strong>Challenges of wellbeing in the digital era</strong>
 
 <br>
 
@@ -29,7 +29,7 @@ Sleep problems related to screen use and hyperconnectivity significantly affect 
 
 <br>
 
-**Early identification of emotional problems**
+<strong>Early identification of emotional problems</strong>
 
 <br>
 
@@ -43,7 +43,7 @@ Regular self-assessment processes allow students to reflect on their own emotion
 
 <br>
 
-**Integrated emotional support strategies**
+<strong>Integrated emotional support strategies</strong>
 
 <br>
 
@@ -57,7 +57,7 @@ Mindfulness practices and stress reduction techniques can be taught as practical
 
 <br>
 
-**Positive use of technology for wellbeing**
+<strong>Positive use of technology for wellbeing</strong>
 
 <br>
 
@@ -71,7 +71,7 @@ Wellbeing tracking tools allow students to monitor their own emotional patterns,
 
 <br>
 
-**Creating supportive digital environments**
+<strong>Creating supportive digital environments</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Positive feedback systems in digital platforms can boost student self-esteem and
 
 <br>
 
-**Collaboration with families for wellbeing**
+<strong>Collaboration with families for wellbeing</strong>
 
 <br>
 
@@ -99,7 +99,7 @@ Family workshops on social-emotional competencies enable parents and caregivers 
 
 <br>
 
-**Professional mental health services**
+<strong>Professional mental health services</strong>
 
 <br>
 
@@ -113,7 +113,7 @@ Suicide prevention programs are critical components of comprehensive student wel
 
 <br>
 
-**Measuring and evaluating wellbeing**
+<strong>Measuring and evaluating wellbeing</strong>
 
 <br>
 
@@ -127,7 +127,7 @@ Longitudinal analyses can track the impact of wellbeing programs over time, iden
 
 <br>
 
-**Educational staff training**
+<strong>Educational staff training</strong>
 
 <br>
 
@@ -141,7 +141,7 @@ Staff wellbeing support is equally important, as stressed or burned-out educator
 
 <br>
 
-**Policies and school culture**
+<strong>Policies and school culture</strong>
 
 <br>
 
@@ -155,7 +155,7 @@ Diversity, equity, and inclusion initiatives ensure that all students feel value
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

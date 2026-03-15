@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Competencia digital para educadores: Preparando a los profesores del futuro**
+<strong>Competencia digital para educadores: Preparando a los profesores del futuro</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ En un mundo cada vez más digital, los educadores necesitan desarrollar competen
 
 <br>
 
-**Más allá de la alfabetización digital básica**
+<strong>Más allá de la alfabetización digital básica</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Los educadores digitalmente competentes no solo usan herramientas tecnológicas,
 
 <br>
 
-**Competencias técnicas fundamentales**
+<strong>Competencias técnicas fundamentales</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Los profesores deben ser capaces de crear contenido digital, gestionar informaci
 
 <br>
 
-**Pedagogía digital y diseño instruccional**
+<strong>Pedagogía digital y diseño instruccional</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Los profesores digitalmente competentes pueden diseñar actividades que integren
 
 <br>
 
-**Evaluación y feedback digital**
+<strong>Evaluación y feedback digital</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Los profesores deben saber usar herramientas de evaluación digital que les perm
 
 <br>
 
-**Colaboración y comunicación digital**
+<strong>Colaboración y comunicación digital</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Los profesores deben saber usar plataformas de comunicación para mantener infor
 
 <br>
 
-**Pensamiento crítico y alfabetización digital**
+<strong>Pensamiento crítico y alfabetización digital</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Los profesores deben entender los sesgos algorítmicos, la desinformación, y lo
 
 <br>
 
-**Desarrollo profesional continuo**
+<strong>Desarrollo profesional continuo</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Los centros educativos deben proporcionar oportunidades de formación continua q
 
 <br>
 
-**Liderazgo digital en educación**
+<strong>Liderazgo digital en educación</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Los profesores líderes pueden crear comunidades de práctica donde compartir re
 
 <br>
 
-**Equidad y accesibilidad digital**
+<strong>Equidad y accesibilidad digital</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Los profesores deben saber usar herramientas de accesibilidad, diseñar contenid
 
 <br>
 
-**Ética y ciudadanía digital**
+<strong>Ética y ciudadanía digital</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Los profesores deben ser capaces de enseñar a sus estudiantes sobre seguridad d
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

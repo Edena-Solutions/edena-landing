@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1564514476902-542f8c30121e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Innovación pedagógica con tecnología: Transformando la enseñanza y el aprendizaje**
+<strong>Innovación pedagógica con tecnología: Transformando la enseñanza y el aprendizaje</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La innovación pedagógica con tecnología no se trata simplemente de usar dispo
 
 <br>
 
-**Más allá de la tecnología: Pedagogía centrada en el estudiante**
+<strong>Más allá de la tecnología: Pedagogía centrada en el estudiante</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Los enfoques pedagógicos innovadores incluyen el aprendizaje basado en proyecto
 
 <br>
 
-**Aprendizaje personalizado y adaptativo**
+<strong>Aprendizaje personalizado y adaptativo</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Los algoritmos pueden identificar patrones de aprendizaje, detectar áreas donde
 
 <br>
 
-**Aprendizaje basado en proyectos con tecnología**
+<strong>Aprendizaje basado en proyectos con tecnología</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Las plataformas de colaboración permiten que los estudiantes trabajen juntos en
 
 <br>
 
-**Gamificación y aprendizaje lúdico**
+<strong>Gamificación y aprendizaje lúdico</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Los juegos educativos pueden enseñar conceptos complejos de manera divertida y 
 
 <br>
 
-**Realidad virtual y aumentada en educación**
+<strong>Realidad virtual y aumentada en educación</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Los estudiantes pueden "viajar" a diferentes épocas históricas, explorar el cu
 
 <br>
 
-**Aprendizaje colaborativo y conectado**
+<strong>Aprendizaje colaborativo y conectado</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Las plataformas de colaboración permiten que los estudiantes compartan recursos
 
 <br>
 
-**Flipped classroom y aprendizaje híbrido**
+<strong>Flipped classroom y aprendizaje híbrido</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ En el aula, los estudiantes pueden participar en actividades más interactivas, 
 
 <br>
 
-**Evaluación formativa y feedback continuo**
+<strong>Evaluación formativa y feedback continuo</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Los profesores pueden utilizar herramientas de evaluación que les permitan rast
 
 <br>
 
-**Desarrollo de competencias del siglo XXI**
+<strong>Desarrollo de competencias del siglo XXI</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Los proyectos tecnológicos pueden ayudar a los estudiantes a desarrollar estas 
 
 <br>
 
-**Formación y desarrollo profesional docente**
+<strong>Formación y desarrollo profesional docente</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Los centros educativos deben proporcionar formación en pedagogía digital, herr
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

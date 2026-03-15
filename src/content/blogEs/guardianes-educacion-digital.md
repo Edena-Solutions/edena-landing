@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1640622304233-7335e936f11b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Guardianes en la educación digital: El papel de los padres en la era tecnológica**
+<strong>Guardianes en la educación digital: El papel de los padres en la era tecnológica</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ En la era digital, el papel de los padres como guardianes de la educación de su
 
 <br>
 
-**El nuevo rol de los guardianes digitales**
+<strong>El nuevo rol de los guardianes digitales</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ El rol del guardián digital va más allá de simplemente limitar el tiempo de p
 
 <br>
 
-**Navegando el equilibrio tecnológico**
+<strong>Navegando el equilibrio tecnológico</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Los guardianes digitales efectivos establecen límites claros pero flexibles, ad
 
 <br>
 
-**Educación digital desde la infancia**
+<strong>Educación digital desde la infancia</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Los juegos educativos, las aplicaciones de aprendizaje, y el contenido digital d
 
 <br>
 
-**Protección y seguridad digital**
+<strong>Protección y seguridad digital</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Los padres deben estar informados sobre las plataformas que sus hijos utilizan, 
 
 <br>
 
-**Desarrollo del pensamiento crítico**
+<strong>Desarrollo del pensamiento crítico</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Los padres pueden modelar el pensamiento crítico discutiendo noticias, verifica
 
 <br>
 
-**Colaboración con centros educativos**
+<strong>Colaboración con centros educativos</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Esta colaboración permite que los padres refuercen en casa las lecciones aprend
 
 <br>
 
-**Modelado de comportamiento digital saludable**
+<strong>Modelado de comportamiento digital saludable</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Los padres pueden mostrar a sus hijos cómo usar la tecnología para aprender, c
 
 <br>
 
-**Adaptación a diferentes edades y etapas**
+<strong>Adaptación a diferentes edades y etapas</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Los padres deben adaptar sus estrategias según la edad, madurez, y necesidades 
 
 <br>
 
-**Herramientas y recursos para guardianes**
+<strong>Herramientas y recursos para guardianes</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Los grupos de padres y comunidades online pueden proporcionar apoyo y compartir 
 
 <br>
 
-**El futuro del guardianato digital**
+<strong>El futuro del guardianato digital</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ La inteligencia artificial, la realidad virtual, y otras tecnologías emergentes
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

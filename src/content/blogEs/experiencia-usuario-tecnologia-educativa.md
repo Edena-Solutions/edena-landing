@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**La experiencia de usuario: clave en la adopción de tecnología educativa**
+<strong>La experiencia de usuario: clave en la adopción de tecnología educativa</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La tecnología educativa ha avanzado significativamente en los últimos años, p
 
 <br>
 
-**El desafío de la adopción tecnológica en educación**
+<strong>El desafío de la adopción tecnológica en educación</strong>
 
 <br>
 
@@ -23,7 +23,7 @@ Los centros educativos enfrentan un desafío único en la adopción de tecnolog�
 
 <br>
 
-**Qué hace que una experiencia de usuario sea excelente**
+<strong>Qué hace que una experiencia de usuario sea excelente</strong>
 
 <br>
 
@@ -37,7 +37,7 @@ Los usuarios esperan que la tecnología funcione de manera rápida y confiable. 
 
 <br>
 
-**El impacto de una mala experiencia de usuario**
+<strong>El impacto de una mala experiencia de usuario</strong>
 
 <br>
 
@@ -49,7 +49,7 @@ Los usuarios que tienen experiencias negativas con la tecnología pierden confia
 
 <br>
 
-**Diseñando para el usuario educativo**
+<strong>Diseñando para el usuario educativo</strong>
 
 <br>
 
@@ -61,7 +61,7 @@ Las pruebas con usuarios reales son esenciales para identificar problemas de usa
 
 <br>
 
-**El caso de Edena: diseño centrado en el usuario**
+<strong>El caso de Edena: diseño centrado en el usuario</strong>
 
 <br>
 
@@ -69,7 +69,7 @@ Edena ha sido diseñado desde el principio con un enfoque centrado en el usuario
 
 <br>
 
-**El futuro de la experiencia de usuario en educación**
+<strong>El futuro de la experiencia de usuario en educación</strong>
 
 <br>
 
@@ -77,7 +77,7 @@ La experiencia de usuario en tecnología educativa continuará evolucionando con
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

@@ -9,7 +9,7 @@ import FAQs from "@/modules/dashboard/FAQs.astro";
 import Features from "@/components/Features";
 import heroImage from "@/assets/img/screenshots/finance/invoice_analytics.png";
 import quickActions from "@/assets/img/screenshots/dashboard/dashboard_quickactions.png";
-import notificationsImage from "@/assets/img/screenshots/dashboard/dashboard_notifications.png";
+import notificationAnimation from "@/assets/animations/notification.json";
 import calendar from "@/assets/img/screenshots/dashboard/dashboard_calendar.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
@@ -109,13 +109,14 @@ const features = [
                 description: t.dashboard.calendarDescription,
                 image: calendar,
                 altText: t.altText.calendar,
+                cardClass: "md:h-90",
             }}
             rightCard={{
                 title: t.dashboard.realTimeNotificationsExtendedTitle,
                 description: t.dashboard.realTimeNotificationsExtendedDescription,
-                image: notificationsImage,
-                imageClass: "object-cover md:w-2/3 mx-auto",
-                cardClass: "h-110",
+                lottie: notificationAnimation,
+                imageClass: "w-full md:w-2/3 mx-auto",
+                cardClass: "h-90",
                 altText: t.altText.notifications,
             }}
         />

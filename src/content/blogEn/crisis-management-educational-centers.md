@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1585829364536-ce348dd72ebc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Crisis Management in Educational Centers: Protocols and Strategies for Continuity**
+<strong>Crisis Management in Educational Centers: Protocols and Strategies for Continuity</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ In today's educational environment, centers must be prepared to face unforeseen 
 
 <br>
 
-**The importance of preventive planning**
+<strong>The importance of preventive planning</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ Crisis management teams must be clearly defined, with specific roles and respons
 
 <br>
 
-**Crisis communication protocols**
+<strong>Crisis communication protocols</strong>
 
 <br>
 
@@ -39,7 +39,7 @@ Early warning systems allow immediate notifications to the entire school communi
 
 <br>
 
-**Educational continuity during crises**
+<strong>Educational continuity during crises</strong>
 
 <br>
 
@@ -51,7 +51,7 @@ Educational content must be adapted for remote delivery, maintaining academic qu
 
 <br>
 
-**Resource management during emergencies**
+<strong>Resource management during emergencies</strong>
 
 <br>
 
@@ -63,7 +63,7 @@ Human resources must be managed strategically during prolonged crises. This incl
 
 <br>
 
-**Coordination with external authorities**
+<strong>Coordination with external authorities</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Joint exercises with external authorities allow testing and refining response pr
 
 <br>
 
-**Psychological support and emotional wellbeing**
+<strong>Psychological support and emotional wellbeing</strong>
 
 <br>
 
@@ -87,7 +87,7 @@ Sensitive and age-appropriate communication is crucial to help students process 
 
 <br>
 
-**Technology for crisis management**
+<strong>Technology for crisis management</strong>
 
 <br>
 
@@ -99,7 +99,7 @@ Emergency mobile applications allow rapid communication and access to critical p
 
 <br>
 
-**Evaluation and continuous improvement**
+<strong>Evaluation and continuous improvement</strong>
 
 <br>
 
@@ -111,7 +111,7 @@ Post-crisis reviews provide valuable opportunities to learn and improve. These r
 
 <br>
 
-**Recovery and return to normalcy**
+<strong>Recovery and return to normalcy</strong>
 
 <br>
 
@@ -123,7 +123,7 @@ Continued communication with families during the recovery phase helps maintain c
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

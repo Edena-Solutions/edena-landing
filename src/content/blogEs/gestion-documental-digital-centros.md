@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1583521214690-73421a1829a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Gestión documental digital: el futuro de la administración escolar**
+<strong>Gestión documental digital: el futuro de la administración escolar</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La gestión documental tradicional en centros educativos ha sido durante década
 
 <br>
 
-**El problema de la gestión documental tradicional**
+<strong>El problema de la gestión documental tradicional</strong>
 
 <br>
 
@@ -23,7 +23,7 @@ Los centros educativos manejan una cantidad masiva de documentos: expedientes ac
 
 <br>
 
-**La transformación digital de la gestión documental**
+<strong>La transformación digital de la gestión documental</strong>
 
 <br>
 
@@ -33,7 +33,7 @@ Los documentos digitalizados se almacenan en la nube con múltiples capas de seg
 
 <br>
 
-**Beneficios de la gestión documental digital**
+<strong>Beneficios de la gestión documental digital</strong>
 
 <br>
 
@@ -47,7 +47,7 @@ Los documentos digitales pueden ser accedidos simultáneamente por múltiples us
 
 <br>
 
-**Implementación de la gestión documental digital**
+<strong>Implementación de la gestión documental digital</strong>
 
 <br>
 
@@ -59,7 +59,7 @@ El personal debe recibir formación completa sobre el uso del nuevo sistema y la
 
 <br>
 
-**Casos de éxito en gestión documental digital**
+<strong>Casos de éxito en gestión documental digital</strong>
 
 <br>
 
@@ -69,7 +69,7 @@ Muchos centros utilizan la gestión documental digital como parte de una iniciat
 
 <br>
 
-**El futuro de la gestión documental digital**
+<strong>El futuro de la gestión documental digital</strong>
 
 <br>
 
@@ -81,7 +81,7 @@ Los datos generados por la gestión documental digital proporcionarán insights 
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

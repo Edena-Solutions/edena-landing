@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1629721671030-a83edbb11211?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Dashboard educativo: El centro de control para la gestión estratégica**
+<strong>Dashboard educativo: El centro de control para la gestión estratégica</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ En la era de la información, los centros educativos necesitan herramientas de g
 
 <br>
 
-**La necesidad de control estratégico integral**
+<strong>La necesidad de control estratégico integral</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Los directores y administradores se enfrentaban al desafío de tomar decisiones 
 
 <br>
 
-**El poder del dashboard estratégico**
+<strong>El poder del dashboard estratégico</strong>
 
 <br>
 
@@ -39,7 +39,7 @@ Los coordinadores académicos pueden consultar métricas específicas de sus ár
 
 <br>
 
-**Métricas estratégicas clave**
+<strong>Métricas estratégicas clave</strong>
 
 <br>
 
@@ -49,7 +49,7 @@ Los dashboards también monitorean la salud general del centro a través de la s
 
 <br>
 
-**Alertas estratégicas inteligentes**
+<strong>Alertas estratégicas inteligentes</strong>
 
 <br>
 
@@ -63,7 +63,7 @@ Los dashboards supervisan el cumplimiento de normativas educativas, fiscales y l
 
 <br>
 
-**Análisis predictivo para la planificación estratégica**
+<strong>Análisis predictivo para la planificación estratégica</strong>
 
 <br>
 
@@ -77,7 +77,7 @@ Los sistemas anticipan necesidades futuras de personal, instalaciones y recursos
 
 <br>
 
-**Integración con sistemas operativos**
+<strong>Integración con sistemas operativos</strong>
 
 <br>
 
@@ -91,7 +91,7 @@ Los dashboards generan automáticamente reportes estratégicos para diferentes a
 
 <br>
 
-**Casos de uso estratégicos específicos**
+<strong>Casos de uso estratégicos específicos</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Los sistemas generan reportes automáticos para auditorías internas y externas,
 
 <br>
 
-**Implementación del dashboard estratégico**
+<strong>Implementación del dashboard estratégico</strong>
 
 <br>
 
@@ -119,7 +119,7 @@ La implementación exitosa requiere un cambio cultural hacia la gestión basada 
 
 <br>
 
-**El futuro del dashboard estratégico**
+<strong>El futuro del dashboard estratégico</strong>
 
 <br>
 
@@ -131,7 +131,7 @@ Los dashboards se integrarán cada vez más con sistemas externos como bases de 
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

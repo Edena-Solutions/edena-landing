@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1503891617560-5b8c2e28cbf6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Bienestar emocional de estudiantes en la era digital: Estrategias y herramientas**
+<strong>Bienestar emocional de estudiantes en la era digital: Estrategias y herramientas</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ El bienestar emocional de los estudiantes se ha convertido en una prioridad crí
 
 <br>
 
-**Los desafíos del bienestar en la era digital**
+<strong>Los desafíos del bienestar en la era digital</strong>
 
 <br>
 
@@ -29,7 +29,7 @@ Los problemas de sueño relacionados con el uso de pantallas y la hiperconectivi
 
 <br>
 
-**Identificación temprana de problemas emocionales**
+<strong>Identificación temprana de problemas emocionales</strong>
 
 <br>
 
@@ -43,7 +43,7 @@ Los procesos de autoevaluación regulares permiten a los estudiantes reflexionar
 
 <br>
 
-**Estrategias de apoyo emocional integradas**
+<strong>Estrategias de apoyo emocional integradas</strong>
 
 <br>
 
@@ -57,7 +57,7 @@ Las prácticas de mindfulness y técnicas de reducción de estrés pueden enseñ
 
 <br>
 
-**Uso positivo de la tecnología para el bienestar**
+<strong>Uso positivo de la tecnología para el bienestar</strong>
 
 <br>
 
@@ -71,7 +71,7 @@ Las herramientas de seguimiento del bienestar permiten a estudiantes monitorear 
 
 <br>
 
-**Creación de entornos de apoyo digital**
+<strong>Creación de entornos de apoyo digital</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Los sistemas de retroalimentación positiva en plataformas digitales pueden aume
 
 <br>
 
-**Colaboración con familias para el bienestar**
+<strong>Colaboración con familias para el bienestar</strong>
 
 <br>
 
@@ -99,7 +99,7 @@ Los talleres familiares sobre competencias socioemocionales permiten que padres 
 
 <br>
 
-**Servicios profesionales de salud mental**
+<strong>Servicios profesionales de salud mental</strong>
 
 <br>
 
@@ -113,7 +113,7 @@ Los programas de prevención de suicidio son componentes críticos de sistemas c
 
 <br>
 
-**Medición y evaluación del bienestar**
+<strong>Medición y evaluación del bienestar</strong>
 
 <br>
 
@@ -127,7 +127,7 @@ Los análisis longitudinales pueden rastrear el impacto de programas de bienesta
 
 <br>
 
-**Capacitación del personal educativo**
+<strong>Capacitación del personal educativo</strong>
 
 <br>
 
@@ -141,7 +141,7 @@ El apoyo al bienestar del personal es igualmente importante, ya que educadores e
 
 <br>
 
-**Políticas y cultura escolar**
+<strong>Políticas y cultura escolar</strong>
 
 <br>
 
@@ -155,7 +155,7 @@ Las iniciativas de diversidad, equidad e inclusión aseguran que todos los estud
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

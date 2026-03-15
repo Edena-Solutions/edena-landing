@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1611348586755-53860f7ae57a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Innovative Pedagogical Methodologies: Transforming the Teaching-Learning Process**
+<strong>Innovative Pedagogical Methodologies: Transforming the Teaching-Learning Process</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ The educational landscape is experiencing a fundamental transformation in its pe
 
 <br>
 
-**Evolution towards student-centered methodologies**
+<strong>Evolution towards student-centered methodologies</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ Learning personalization becomes a central element, allowing each student to pro
 
 <br>
 
-**Project-based learning (PBL)**
+<strong>Project-based learning (PBL)</strong>
 
 <br>
 
@@ -41,7 +41,7 @@ The role of the educator in PBL is that of a mentor who guides the process, prov
 
 <br>
 
-**Cooperative and collaborative learning**
+<strong>Cooperative and collaborative learning</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Evaluation in collaborative environments includes both individual and group comp
 
 <br>
 
-**Flipped classroom**
+<strong>Flipped classroom</strong>
 
 <br>
 
@@ -69,7 +69,7 @@ Effective implementation of the flipped classroom requires high-quality material
 
 <br>
 
-**Educational gamification**
+<strong>Educational gamification</strong>
 
 <br>
 
@@ -83,7 +83,7 @@ Gamification is particularly effective for developing perseverance and resilienc
 
 <br>
 
-**Problem-based learning (PBL)**
+<strong>Problem-based learning (PBL)</strong>
 
 <br>
 
@@ -97,7 +97,7 @@ Educators in PBL environments act as facilitators who guide the process with app
 
 <br>
 
-**Design thinking in education**
+<strong>Design thinking in education</strong>
 
 <br>
 
@@ -111,7 +111,7 @@ Prototyping allows students to make their ideas tangible quickly and economicall
 
 <br>
 
-**Adaptive and personalized learning**
+<strong>Adaptive and personalized learning</strong>
 
 <br>
 
@@ -125,7 +125,7 @@ Educators in adaptive environments become learning coaches who interpret data in
 
 <br>
 
-**Integrated STEAM methodologies**
+<strong>Integrated STEAM methodologies</strong>
 
 <br>
 
@@ -139,7 +139,7 @@ STEAM spaces require flexible learning environments that can accommodate diverse
 
 <br>
 
-**Effective implementation of innovative methodologies**
+<strong>Effective implementation of innovative methodologies</strong>
 
 <br>
 
@@ -153,7 +153,7 @@ Community engagement helps families understand and support innovative pedagogica
 
 <br>
 
-**Assessment in innovative methodologies**
+<strong>Assessment in innovative methodologies</strong>
 
 <br>
 
@@ -167,7 +167,7 @@ Peer assessment and self-assessment develop metacognitive skills and help studen
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

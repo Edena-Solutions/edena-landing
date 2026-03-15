@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1579388654549-1f4e8c79b5a4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Espacios educativos del futuro: Diseño e innovación para el aprendizaje moderno**
+<strong>Espacios educativos del futuro: Diseño e innovación para el aprendizaje moderno</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Los espacios físicos donde ocurre el aprendizaje tienen un impacto profundo y f
 
 <br>
 
-**La evolución del diseño educativo**
+<strong>La evolución del diseño educativo</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ La neurociencia educativa ha proporcionado insights valiosos sobre cómo diferen
 
 <br>
 
-**Flexibilidad y adaptabilidad espacial**
+<strong>Flexibilidad y adaptabilidad espacial</strong>
 
 <br>
 
@@ -41,7 +41,7 @@ Las tecnologías de espacios inteligentes permiten que los entornos se adapten a
 
 <br>
 
-**Zonas de aprendizaje diversificadas**
+<strong>Zonas de aprendizaje diversificadas</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Las áreas de relajación y bienestar reconocen la importancia del descanso y re
 
 <br>
 
-**Tecnología integrada y espacios digitales**
+<strong>Tecnología integrada y espacios digitales</strong>
 
 <br>
 
@@ -69,7 +69,7 @@ Los entornos de realidad virtual y aumentada están comenzando a aparecer en esp
 
 <br>
 
-**Sostenibilidad y diseño verde**
+<strong>Sostenibilidad y diseño verde</strong>
 
 <br>
 
@@ -83,7 +83,7 @@ Los sistemas de monitoreo ambiental permiten a estudiantes y educadores rastrear
 
 <br>
 
-**Espacios para metodologías pedagógicas específicas**
+<strong>Espacios para metodologías pedagógicas específicas</strong>
 
 <br>
 
@@ -97,7 +97,7 @@ Las aulas invertidas requieren espacios que puedan transformarse rápidamente de
 
 <br>
 
-**Bienestar y salud en el diseño espacial**
+<strong>Bienestar y salud en el diseño espacial</strong>
 
 <br>
 
@@ -111,7 +111,7 @@ Los espacios de movimiento y actividad física reconocen la importancia del movi
 
 <br>
 
-**Inclusividad y accesibilidad universal**
+<strong>Inclusividad y accesibilidad universal</strong>
 
 <br>
 
@@ -125,7 +125,7 @@ Los espacios tranquilos y de reducción sensorial proporcionan refugios para est
 
 <br>
 
-**Planificación y diseño participativo**
+<strong>Planificación y diseño participativo</strong>
 
 <br>
 
@@ -139,7 +139,7 @@ Los bucles de retroalimentación continua aseguran que los espacios evolucionen 
 
 <br>
 
-**Consideraciones económicas y de implementación**
+<strong>Consideraciones económicas y de implementación</strong>
 
 <br>
 
@@ -153,7 +153,7 @@ La evaluación del retorno de inversión en mejoras espaciales considera benefic
 
 <br>
 
-**El futuro de los espacios educativos**
+<strong>El futuro de los espacios educativos</strong>
 
 <br>
 
@@ -165,7 +165,7 @@ La personalización espacial puede desarrollarse para acomodar preferencias de a
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

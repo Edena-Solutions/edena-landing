@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1576633587217-5c9b4930956b?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Student Experience in the Digital Era: Beyond Traditional Learning**
+<strong>Student Experience in the Digital Era: Beyond Traditional Learning</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ The student experience has evolved significantly in the digital era. It’s no l
 
 <br>
 
-**Redefining the Student Experience**
+<strong>Redefining the Student Experience</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ The modern student experience includes not only academic learning but also perso
 
 <br>
 
-**Personalization at Scale**
+<strong>Personalization at Scale</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Algorithms can identify unique learning patterns and suggest personalized resour
 
 <br>
 
-**Digital Connectivity and Community**
+<strong>Digital Connectivity and Community</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Discussion forums, virtual study groups, and educational social networks allow s
 
 <br>
 
-**Well-being and Holistic Support**
+<strong>Well-being and Holistic Support</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Systems can proactively detect when a student might need additional support and 
 
 <br>
 
-**Flexibility and Accessibility**
+<strong>Flexibility and Accessibility</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Students can access educational content anytime, anywhere. Class recordings, dig
 
 <br>
 
-**Gamification and Engagement**
+<strong>Gamification and Engagement</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Students can participate in educational “missions,” solve “puzzles” that
 
 <br>
 
-**Feedback and Continuous Improvement**
+<strong>Feedback and Continuous Improvement</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Students can receive feedback on academic progress, participation in activities,
 
 <br>
 
-**Preparation for the Future**
+<strong>Preparation for the Future</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Students can participate in projects that simulate real-world problems, use prof
 
 <br>
 
-**Accessibility and Inclusion**
+<strong>Accessibility and Inclusion</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Systems can automatically adapt content to each student’s specific needs. Stud
 
 <br>
 
-**Measuring and Improving the Experience**
+<strong>Measuring and Improving the Experience</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Centers can conduct regular surveys, analyze platform usage patterns, and collec
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

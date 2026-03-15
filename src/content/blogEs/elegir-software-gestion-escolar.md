@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Cómo elegir el mejor software de gestión escolar**
+<strong>Cómo elegir el mejor software de gestión escolar</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La selección del software de gestión escolar es una de las decisiones más imp
 
 <br>
 
-**El impacto de una mala elección**
+<strong>El impacto de una mala elección</strong>
 
 <br>
 
@@ -23,7 +23,7 @@ Elegir el software incorrecto puede tener consecuencias significativas: pérdida
 
 <br>
 
-**Evaluando las necesidades reales del centro**
+<strong>Evaluando las necesidades reales del centro</strong>
 
 <br>
 
@@ -31,7 +31,7 @@ Antes de comenzar la búsqueda, es fundamental evaluar las necesidades específi
 
 <br>
 
-**Criterios clave para la evaluación**
+<strong>Criterios clave para la evaluación</strong>
 
 <br>
 
@@ -47,7 +47,7 @@ El proveedor debe ofrecer soporte técnico de calidad y formación completa para
 
 <br>
 
-**El proceso de selección paso a paso**
+<strong>El proceso de selección paso a paso</strong>
 
 <br>
 
@@ -63,7 +63,7 @@ Negociar términos comerciales, SLA, y condiciones de implementación y soporte.
 
 <br>
 
-**Errores comunes a evitar**
+<strong>Errores comunes a evitar</strong>
 
 <br>
 
@@ -77,7 +77,7 @@ Incluir en el proceso de selección a todos los usuarios que utilizarán el sist
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

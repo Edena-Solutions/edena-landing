@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Evaluación y assessment digital en la educación moderna: Herramientas y estrategias**
+<strong>Evaluación y assessment digital en la educación moderna: Herramientas y estrategias</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La evaluación educativa está experimentando una revolución digital que está 
 
 <br>
 
-**La evolución del assessment educativo**
+<strong>La evolución del assessment educativo</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ La digitalización del assessment también ha democratizado el acceso a herramie
 
 <br>
 
-**Tipos de evaluación digital**
+<strong>Tipos de evaluación digital</strong>
 
 <br>
 
@@ -41,7 +41,7 @@ Los portafolios digitales capturan el crecimiento del aprendizaje a lo largo del
 
 <br>
 
-**Ventajas de la evaluación digital**
+<strong>Ventajas de la evaluación digital</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ La reducción de sesgos en la calificación es posible a través de sistemas aut
 
 <br>
 
-**Herramientas y plataformas de evaluación**
+<strong>Herramientas y plataformas de evaluación</strong>
 
 <br>
 
@@ -69,7 +69,7 @@ Los sistemas de proctoring automatizado utilizan inteligencia artificial para mo
 
 <br>
 
-**Analytics y visualización de datos**
+<strong>Analytics y visualización de datos</strong>
 
 <br>
 
@@ -83,7 +83,7 @@ Los análisis predictivos utilizan datos históricos para identificar estudiante
 
 <br>
 
-**Evaluación adaptativa e inteligencia artificial**
+<strong>Evaluación adaptativa e inteligencia artificial</strong>
 
 <br>
 
@@ -97,7 +97,7 @@ Los tutores virtuales inteligentes combinan evaluación con instrucción, propor
 
 <br>
 
-**Evaluación auténtica y basada en competencias**
+<strong>Evaluación auténtica y basada en competencias</strong>
 
 <br>
 
@@ -111,7 +111,7 @@ Los badges digitales y microcredenciales proporcionan reconocimiento granular de
 
 <br>
 
-**Accesibilidad y equidad en evaluación digital**
+<strong>Accesibilidad y equidad en evaluación digital</strong>
 
 <br>
 
@@ -125,7 +125,7 @@ Los algoritmos de evaluación deben examinarse cuidadosamente por sesgos que pod
 
 <br>
 
-**Privacidad y seguridad de datos**
+<strong>Privacidad y seguridad de datos</strong>
 
 <br>
 
@@ -139,7 +139,7 @@ Las políticas de retención de datos especifican cuánto tiempo se mantendrán 
 
 <br>
 
-**Implementación efectiva en centros educativos**
+<strong>Implementación efectiva en centros educativos</strong>
 
 <br>
 
@@ -153,7 +153,7 @@ El apoyo técnico continuo es esencial para mantener sistemas funcionando sin pr
 
 <br>
 
-**El futuro de la evaluación digital**
+<strong>El futuro de la evaluación digital</strong>
 
 <br>
 
@@ -167,7 +167,7 @@ La evaluación aumentada por blockchain puede proporcionar credenciales verifica
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

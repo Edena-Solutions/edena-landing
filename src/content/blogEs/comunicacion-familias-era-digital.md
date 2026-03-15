@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Comunicación institucional con familias: Estrategias para la era digital**
+<strong>Comunicación institucional con familias: Estrategias para la era digital</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La comunicación institucional con las familias se ha convertido en un pilar fun
 
 <br>
 
-**La evolución de la comunicación institucional**
+<strong>La evolución de la comunicación institucional</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ La revolución digital ha transformado completamente las expectativas de comunic
 
 <br>
 
-**Pilares de la comunicación institucional efectiva**
+<strong>Pilares de la comunicación institucional efectiva</strong>
 
 <br>
 
@@ -37,7 +37,7 @@ Las comunicaciones deben ser relevantes y oportunas. Los sistemas pueden identif
 
 <br>
 
-**Estrategias de comunicación multicanal**
+<strong>Estrategias de comunicación multicanal</strong>
 
 <br>
 
@@ -47,7 +47,7 @@ Es fundamental mantener coherencia en el mensaje y la imagen institucional a tra
 
 <br>
 
-**Contenido estratégico de comunicación**
+<strong>Contenido estratégico de comunicación</strong>
 
 <br>
 
@@ -59,7 +59,7 @@ Fortalecer el sentido de comunidad es fundamental para crear un entorno educativ
 
 <br>
 
-**Gestión de crisis comunicacional**
+<strong>Gestión de crisis comunicacional</strong>
 
 <br>
 
@@ -71,7 +71,7 @@ Después de una crisis, es fundamental evaluar la efectividad de la comunicació
 
 <br>
 
-**Medición y mejora continua**
+<strong>Medición y mejora continua</strong>
 
 <br>
 
@@ -83,7 +83,7 @@ Los sistemas modernos pueden analizar tendencias en los tipos de información m�
 
 <br>
 
-**Implementación de estrategias comunicacionales**
+<strong>Implementación de estrategias comunicacionales</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ El personal debe recibir formación sobre las políticas de comunicación instit
 
 <br>
 
-**El futuro de la comunicación institucional**
+<strong>El futuro de la comunicación institucional</strong>
 
 <br>
 
@@ -107,7 +107,7 @@ La comunicación se integrará cada vez más con sistemas de gestión académica
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

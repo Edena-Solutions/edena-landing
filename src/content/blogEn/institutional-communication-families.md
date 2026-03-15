@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Institutional Communication with Families: Strategies for the Digital Era**
+<strong>Institutional Communication with Families: Strategies for the Digital Era</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Institutional communication with families has become a fundamental pillar of suc
 
 <br>
 
-**The Evolution of Institutional Communication**
+<strong>The Evolution of Institutional Communication</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ The digital revolution has completely transformed communication expectations. Fa
 
 <br>
 
-**Pillars of Effective Institutional Communication**
+<strong>Pillars of Effective Institutional Communication</strong>
 
 <br>
 
@@ -37,7 +37,7 @@ Communications must be relevant and timely. Systems can automatically identify w
 
 <br>
 
-**Multichannel Communication Strategies**
+<strong>Multichannel Communication Strategies</strong>
 
 <br>
 
@@ -47,7 +47,7 @@ It's fundamental to maintain consistency in message and institutional image acro
 
 <br>
 
-**Strategic Communication Content**
+<strong>Strategic Communication Content</strong>
 
 <br>
 
@@ -59,7 +59,7 @@ Strengthening community sense is fundamental for creating a collaborative educat
 
 <br>
 
-**Crisis Communication Management**
+<strong>Crisis Communication Management</strong>
 
 <br>
 
@@ -71,7 +71,7 @@ After a crisis, it's fundamental to evaluate communication effectiveness to iden
 
 <br>
 
-**Measurement and Continuous Improvement**
+<strong>Measurement and Continuous Improvement</strong>
 
 <br>
 
@@ -83,7 +83,7 @@ Modern systems can analyze trends in most requested information types, allowing 
 
 <br>
 
-**Implementation of Communication Strategies**
+<strong>Implementation of Communication Strategies</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Staff must receive training on institutional communication policies to ensure al
 
 <br>
 
-**The Future of Institutional Communication**
+<strong>The Future of Institutional Communication</strong>
 
 <br>
 
@@ -107,7 +107,7 @@ Communication will increasingly integrate with academic management systems to pr
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

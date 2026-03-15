@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1550418290-a8d86ad674a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Educación inclusiva y tecnología asistiva: Creando aulas para todos**
+<strong>Educación inclusiva y tecnología asistiva: Creando aulas para todos</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La educación inclusiva representa uno de los mayores desafíos y oportunidades 
 
 <br>
 
-**El paradigma de la educación inclusiva moderna**
+<strong>El paradigma de la educación inclusiva moderna</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ La tecnología asistiva actúa como un puente que elimina barreras tradicionales
 
 <br>
 
-**Tecnologías asistivas para diversas necesidades**
+<strong>Tecnologías asistivas para diversas necesidades</strong>
 
 <br>
 
@@ -39,7 +39,7 @@ Para estudiantes con dificultades motoras, las interfaces adaptativas, software 
 
 <br>
 
-**Herramientas para dificultades de aprendizaje**
+<strong>Herramientas para dificultades de aprendizaje</strong>
 
 <br>
 
@@ -51,7 +51,7 @@ Las aplicaciones de apoyo a la escritura con corrección predictiva, sugerencias
 
 <br>
 
-**Personalización del aprendizaje a través de la tecnología**
+<strong>Personalización del aprendizaje a través de la tecnología</strong>
 
 <br>
 
@@ -63,7 +63,7 @@ Las plataformas de aprendizaje adaptativo pueden presentar el mismo contenido cu
 
 <br>
 
-**Implementación efectiva en el aula**
+<strong>Implementación efectiva en el aula</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ La capacitación continua del personal es fundamental para el éxito de programa
 
 <br>
 
-**Colaboración y aprendizaje social inclusivo**
+<strong>Colaboración y aprendizaje social inclusivo</strong>
 
 <br>
 
@@ -87,7 +87,7 @@ Los proyectos de aprendizaje colaborativo que incorporan tecnología asistiva no
 
 <br>
 
-**Evaluación y assessment inclusivo**
+<strong>Evaluación y assessment inclusivo</strong>
 
 <br>
 
@@ -99,7 +99,7 @@ Los sistemas de evaluación con inteligencia artificial pueden proporcionar feed
 
 <br>
 
-**Formación del profesorado para la inclusión**
+<strong>Formación del profesorado para la inclusión</strong>
 
 <br>
 
@@ -111,7 +111,7 @@ Los educadores también necesitan desarrollar habilidades para colaborar efectiv
 
 <br>
 
-**Beneficios para toda la comunidad educativa**
+<strong>Beneficios para toda la comunidad educativa</strong>
 
 <br>
 
@@ -123,7 +123,7 @@ Los educadores que desarrollan competencias en educación inclusiva mejoran sus 
 
 <br>
 
-**Desafíos y consideraciones futuras**
+<strong>Desafíos y consideraciones futuras</strong>
 
 <br>
 
@@ -135,7 +135,7 @@ La colaboración entre desarrolladores de tecnología, educadores y usuarios fin
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

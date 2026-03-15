@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1576633587217-5c9b4930956b?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Experiencia del estudiante en la era digital: Más allá del aprendizaje tradicional**
+<strong>Experiencia del estudiante en la era digital: Más allá del aprendizaje tradicional</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La experiencia del estudiante ha evolucionado significativamente en la era digit
 
 <br>
 
-**Redefiniendo la experiencia estudiantil**
+<strong>Redefiniendo la experiencia estudiantil</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ La experiencia del estudiante moderna incluye no solo el aprendizaje académico,
 
 <br>
 
-**Personalización a escala**
+<strong>Personalización a escala</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Los algoritmos pueden identificar patrones de aprendizaje únicos y sugerir recu
 
 <br>
 
-**Conectividad y comunidad digital**
+<strong>Conectividad y comunidad digital</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Los foros de discusión, grupos de estudio virtuales, y redes sociales educativa
 
 <br>
 
-**Bienestar y apoyo integral**
+<strong>Bienestar y apoyo integral</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Los sistemas pueden detectar proactivamente cuando un estudiante podría necesit
 
 <br>
 
-**Flexibilidad y accesibilidad**
+<strong>Flexibilidad y accesibilidad</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Los estudiantes pueden acceder al contenido educativo en cualquier momento y des
 
 <br>
 
-**Gamificación y engagement**
+<strong>Gamificación y engagement</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Los estudiantes pueden participar en "misiones" educativas, resolver "enigmas" q
 
 <br>
 
-**Feedback y mejora continua**
+<strong>Feedback y mejora continua</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Los estudiantes pueden recibir feedback sobre su progreso académico, participac
 
 <br>
 
-**Preparación para el futuro**
+<strong>Preparación para el futuro</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Los estudiantes pueden participar en proyectos que simulen problemas del mundo r
 
 <br>
 
-**Accesibilidad e inclusión**
+<strong>Accesibilidad e inclusión</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Los sistemas pueden adaptar automáticamente el contenido según las necesidades
 
 <br>
 
-**Medición y mejora de la experiencia**
+<strong>Medición y mejora de la experiencia</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Los centros pueden realizar encuestas regulares, analizar patrones de uso de pla
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

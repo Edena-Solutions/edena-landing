@@ -2,19 +2,12 @@
 title: "Plan DigEdu 2026: La Transformación Digital que Revoluciona la Educación en España"
 date: "2026-01-08"
 description: "Descubre cómo el Plan DigEdu está transformando la educación española con una inversión de 1.400 millones de euros en digitalización, dispositivos y competencias digitales del profesorado."
-tags:
-    [
-        "Plan DigEdu",
-        "digitalización educativa",
-        "transformación digital",
-        "tecnología educativa",
-        "España 2026",
-    ]
+tags: ["Plan DigEdu", "digitalización educativa", "transformación digital", "tecnología educativa", "España 2026"]
 author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Plan DigEdu 2026: La Transformación Digital que Revoluciona la Educación en España**
+<strong>Plan DigEdu 2026: La Transformación Digital que Revoluciona la Educación en España</strong>
 
 <br>
 
@@ -22,7 +15,7 @@ El sector educativo español está viviendo una transformación sin precedentes.
 
 <br>
 
-**¿Qué es el Plan DigEdu y por qué es crucial en 2026?**
+<strong>¿Qué es el Plan DigEdu y por qué es crucial en 2026?</strong>
 
 <br>
 
@@ -34,7 +27,7 @@ Esta inversión masiva no es solo una modernización tecnológica; es un cambio 
 
 <br>
 
-**Infraestructura tecnológica: 300.000 dispositivos y aulas digitales**
+<strong>Infraestructura tecnológica: 300.000 dispositivos y aulas digitales</strong>
 
 <br>
 
@@ -46,7 +39,7 @@ La mejora sustancial de la conectividad de los centros es otro pilar fundamental
 
 <br>
 
-**Competencias digitales del profesorado: el 80% certificado**
+<strong>Competencias digitales del profesorado: el 80% certificado</strong>
 
 <br>
 
@@ -58,7 +51,7 @@ Más de 24.470 acciones formativas se han desarrollado para capacitar al profeso
 
 <br>
 
-**Planes Digitales de Centro: 22.936 centros transformados**
+<strong>Planes Digitales de Centro: 22.936 centros transformados</strong>
 
 <br>
 
@@ -77,7 +70,7 @@ Estos planes están transformando los centros educativos en organizaciones verda
 
 <br>
 
-**Integración curricular: competencias digitales en todas las etapas**
+<strong>Integración curricular: competencias digitales en todas las etapas</strong>
 
 <br>
 
@@ -89,7 +82,7 @@ La integración de estas competencias en el currículo oficial asegura que todos
 
 <br>
 
-**El impacto en la gestión administrativa de los centros**
+<strong>El impacto en la gestión administrativa de los centros</strong>
 
 <br>
 
@@ -106,7 +99,7 @@ La facturación digital, la comunicación automatizada con familias, la gestión
 
 <br>
 
-**Comunicación digital con familias: un nuevo estándar**
+<strong>Comunicación digital con familias: un nuevo estándar</strong>
 
 <br>
 
@@ -124,7 +117,7 @@ Esta transformación en la comunicación está aumentando el compromiso familiar
 
 <br>
 
-**Facturación electrónica y cumplimiento normativo**
+<strong>Facturación electrónica y cumplimiento normativo</strong>
 
 <br>
 
@@ -141,7 +134,7 @@ Esta automatización no solo mejora la eficiencia; también garantiza el cumplim
 
 <br>
 
-**Desafíos y oportunidades para los centros educativos**
+<strong>Desafíos y oportunidades para los centros educativos</strong>
 
 <br>
 
@@ -159,7 +152,7 @@ La clave del éxito no está en adoptar todas las tecnologías disponibles, sino
 
 <br>
 
-**El futuro de la educación digital en España**
+<strong>El futuro de la educación digital en España</strong>
 
 <br>
 
@@ -177,24 +170,24 @@ Los centros que están aprovechando estas oportunidades ahora están posicionán
 
 <br>
 
-**Cómo Edena apoya la transformación del Plan DigEdu**
+<strong>Cómo Edena apoya la transformación del Plan DigEdu</strong>
 
 <br>
 
 Edena está diseñado específicamente para ayudar a los centros educativos a cumplir con los objetivos del Plan DigEdu y maximizar los beneficios de la transformación digital. Nuestra plataforma integral ofrece:
 
-- **Gestión administrativa completamente digital**: Elimina el papel y automatiza todos los procesos administrativos
-- **Comunicación digital con familias**: App móvil, portal web y notificaciones en tiempo real
-- **Facturación electrónica automatizada**: Integración con Verifactu y cumplimiento normativo garantizado
-- **Gestión de estudiantes digital**: Expedientes, asistencia y evaluación completamente digitales
-- **Dashboard analítico**: Toma de decisiones basada en datos en tiempo real
-- **Formación y soporte**: Ayudamos a tu equipo a aprovechar al máximo la plataforma
+- <strong>Gestión administrativa completamente digital</strong>: Elimina el papel y automatiza todos los procesos administrativos
+- <strong>Comunicación digital con familias</strong>: App móvil, portal web y notificaciones en tiempo real
+- <strong>Facturación electrónica automatizada</strong>: Integración con Verifactu y cumplimiento normativo garantizado
+- <strong>Gestión de estudiantes digital</strong>: Expedientes, asistencia y evaluación completamente digitales
+- <strong>Dashboard analítico</strong>: Toma de decisiones basada en datos en tiempo real
+- <strong>Formación y soporte</strong>: Ayudamos a tu equipo a aprovechar al máximo la plataforma
 
 Con Edena, tu centro puede transformarse en una organización verdaderamente digital, cumpliendo y superando los objetivos del Plan DigEdu mientras mejora significativamente la eficiencia operativa y la satisfacción de toda la comunidad educativa.
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

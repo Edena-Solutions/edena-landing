@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Educational Technology Trends for 2025: The Future of Learning**
+<strong>Educational Technology Trends for 2025: The Future of Learning</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ The landscape of educational technology is evolving at an unprecedented speed. W
 
 <br>
 
-**Personalized Artificial Intelligence**
+<strong>Personalized Artificial Intelligence</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ This personalization goes beyond simply adjusting the difficulty of exercises. A
 
 <br>
 
-**Virtual and Augmented Reality in the Classroom**
+<strong>Virtual and Augmented Reality in the Classroom</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Instead of reading about the history of Rome, students can "walk" through the st
 
 <br>
 
-**Project-Based Learning with Technology**
+<strong>Project-Based Learning with Technology</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Collaboration platforms allow students from different parts of the world to work
 
 <br>
 
-**Gamification and Playful Learning**
+<strong>Gamification and Playful Learning</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Gamification is also being used to develop soft skills such as leadership, teamw
 
 <br>
 
-**Internet of Things (IoT) in Education**
+<strong>Internet of Things (IoT) in Education</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ IoT devices are also being used to monitor attendance, manage educational resour
 
 <br>
 
-**Blockchain for Credentials and Certifications**
+<strong>Blockchain for Credentials and Certifications</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ This technology is especially valuable for continuing education and micro-creden
 
 <br>
 
-**Advanced Learning Analytics**
+<strong>Advanced Learning Analytics</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ This information can be used to identify at-risk students before it's too late, 
 
 <br>
 
-**Hybrid and Flexible Education**
+<strong>Hybrid and Flexible Education</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Advanced videoconferencing technologies, collaboration platforms, and remote ass
 
 <br>
 
-**Sustainability and Green Technology**
+<strong>Sustainability and Green Technology</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Educational projects are incorporating sustainability topics, using technology t
 
 <br>
 
-**Universal Accessibility**
+<strong>Universal Accessibility</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Artificial intelligence is being used to create educational content that automat
 
 <br>
 
-**The Role of Educators in the Digital Age**
+<strong>The Role of Educators in the Digital Age</strong>
 
 <br>
 
@@ -125,7 +125,7 @@ Future educators will need to develop new skills: digital competence, the abilit
 
 <br>
 
-**Preparing for the Future**
+<strong>Preparing for the Future</strong>
 
 <br>
 
@@ -135,7 +135,7 @@ It is essential that technology adoption is aligned with the center's educationa
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1554224155-cfa08c2a758f?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Verifactu en la educación: Cumplimiento normativo simplificado**
+<strong>Verifactu en la educación: Cumplimiento normativo simplificado</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ El cumplimiento normativo en la facturación electrónica se ha convertido en un
 
 <br>
 
-**El panorama normativo actual**
+<strong>El panorama normativo actual</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Las normativas actuales exigen que las facturas incluyan elementos como números
 
 <br>
 
-**Verifactu: La solución oficial de cumplimiento**
+<strong>Verifactu: La solución oficial de cumplimiento</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ La integración con Verifactu elimina la necesidad de que los centros educativos
 
 <br>
 
-**Garantías de cumplimiento normativo**
+<strong>Garantías de cumplimiento normativo</strong>
 
 <br>
 
@@ -47,7 +47,7 @@ Verifactu garantiza que todas las facturas se envíen a través de los canales o
 
 <br>
 
-**Beneficios del cumplimiento normativo**
+<strong>Beneficios del cumplimiento normativo</strong>
 
 <br>
 
@@ -59,7 +59,7 @@ Los centros educativos pueden enfocarse en su misión educativa sin preocuparse 
 
 <br>
 
-**Integración con sistemas educativos**
+<strong>Integración con sistemas educativos</strong>
 
 <br>
 
@@ -71,7 +71,7 @@ Cuando una factura es rechazada por la Administración por motivos normativos, V
 
 <br>
 
-**Reportes de cumplimiento normativo**
+<strong>Reportes de cumplimiento normativo</strong>
 
 <br>
 
@@ -83,7 +83,7 @@ Verifactu mantiene un historial completo de todas las facturas enviadas, incluye
 
 <br>
 
-**Implementación del cumplimiento normativo**
+<strong>Implementación del cumplimiento normativo</strong>
 
 <br>
 
@@ -97,7 +97,7 @@ El personal administrativo debe recibir formación sobre los aspectos normativos
 
 <br>
 
-**El futuro del cumplimiento normativo**
+<strong>El futuro del cumplimiento normativo</strong>
 
 <br>
 
@@ -107,7 +107,7 @@ Las futuras versiones de Verifactu incluirán funcionalidades avanzadas como an�
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

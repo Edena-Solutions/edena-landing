@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Automation of Administrative Tasks: Free Time for Education**
+<strong>Automation of Administrative Tasks: Free Time for Education</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Educational centers face a constant challenge: balancing administrative needs wi
 
 <br>
 
-**The Hidden Cost of Manual Tasks**
+<strong>The Hidden Cost of Manual Tasks</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Additionally, manual tasks consume valuable time that could be dedicated to more
 
 <br>
 
-**The Educational Automation Revolution**
+<strong>The Educational Automation Revolution</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Creating and managing schedules is a complex administrative task that can be sig
 
 <br>
 
-**Benefits of Automation for Different Actors**
+<strong>Benefits of Automation for Different Actors</strong>
 
 <br>
 
@@ -63,7 +63,7 @@ Automation also improves transparency and accountability, facilitating center ma
 
 <br>
 
-**Implementing Automation**
+<strong>Implementing Automation</strong>
 
 <br>
 
@@ -81,7 +81,7 @@ Adoption also requires cultural change. Users must trust automated systems and b
 
 <br>
 
-**Success Metrics**
+<strong>Success Metrics</strong>
 
 <br>
 
@@ -89,7 +89,7 @@ Centers that implement administrative automation typically see significant impro
 
 <br>
 
-**The Future of Administrative Automation**
+<strong>The Future of Administrative Automation</strong>
 
 <br>
 
@@ -97,7 +97,7 @@ Administrative automation will continue to evolve with new technologies. Future 
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

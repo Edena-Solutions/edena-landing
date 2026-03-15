@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**User Experience: Key to Educational Technology Adoption**
+<strong>User Experience: Key to Educational Technology Adoption</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Educational technology has advanced significantly in recent years, but the succe
 
 <br>
 
-**The Challenge of Technology Adoption in Education**
+<strong>The Challenge of Technology Adoption in Education</strong>
 
 <br>
 
@@ -23,7 +23,7 @@ Educational centers face a unique challenge in technology adoption: they must sa
 
 <br>
 
-**What Makes an Excellent User Experience**
+<strong>What Makes an Excellent User Experience</strong>
 
 <br>
 
@@ -37,7 +37,7 @@ Users expect technology to work quickly and reliably. Slow loading times, freque
 
 <br>
 
-**The Impact of Poor User Experience**
+<strong>The Impact of Poor User Experience</strong>
 
 <br>
 
@@ -49,7 +49,7 @@ Users who have negative experiences with technology lose confidence not only in 
 
 <br>
 
-**Designing for the Educational User**
+<strong>Designing for the Educational User</strong>
 
 <br>
 
@@ -61,7 +61,7 @@ Testing with real users is essential to identify usability problems before techn
 
 <br>
 
-**The Edena Case: User-Centered Design**
+<strong>The Edena Case: User-Centered Design</strong>
 
 <br>
 
@@ -69,7 +69,7 @@ Edena has been designed from the beginning with a user-centered approach. Each f
 
 <br>
 
-**The Future of User Experience in Education**
+<strong>The Future of User Experience in Education</strong>
 
 <br>
 
@@ -77,7 +77,7 @@ User experience in educational technology will continue to evolve with new techn
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

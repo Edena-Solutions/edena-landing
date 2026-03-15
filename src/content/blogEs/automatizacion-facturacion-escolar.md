@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://plus.unsplash.com/premium_photo-1679923906308-c26a0e2ca510?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Automatización de la facturación escolar: Optimiza tus procesos internos**
+<strong>Automatización de la facturación escolar: Optimiza tus procesos internos</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La gestión interna de la facturación es uno de los procesos más complejos y p
 
 <br>
 
-**Los desafíos de la facturación manual interna**
+<strong>Los desafíos de la facturación manual interna</strong>
 
 <br>
 
@@ -23,33 +23,33 @@ Los centros educativos manejan múltiples tipos de facturación: matrículas, me
 
 <br>
 
-**Automatización de procesos internos clave**
+<strong>Automatización de procesos internos clave</strong>
 
 <br>
 
-**Configuración centralizada de tarifas**
+<strong>Configuración centralizada de tarifas</strong>
 
 Los sistemas automatizados permiten configurar tarifas de forma centralizada, con reglas flexibles que se aplican automáticamente. Los centros pueden establecer tarifas base, descuentos por hermanos, becas y otros conceptos que se calculan automáticamente sin intervención manual.
 
 Esta configuración centralizada elimina errores de cálculo y asegura consistencia en toda la facturación del centro. Los cambios en las tarifas se aplican automáticamente a todas las facturas futuras, sin necesidad de modificar cada una individualmente.
 
-**Generación automática de facturas**
+<strong>Generación automática de facturas</strong>
 
 Una vez configuradas las tarifas, el sistema puede generar facturas automáticamente según calendarios predefinidos. Las facturas se crean con toda la información correcta, incluyendo conceptos, importes, fechas de vencimiento y métodos de pago disponibles.
 
 La automatización también permite generar facturas en lote para múltiples estudiantes, reduciendo drásticamente el tiempo necesario para completar este proceso mensual.
 
-**Seguimiento inteligente de pagos**
+<strong>Seguimiento inteligente de pagos</strong>
 
 Los sistemas automatizados registran automáticamente cada pago recibido, actualizan el estado de las facturas y generan confirmaciones para las familias. El sistema puede detectar pagos parciales, aplicar descuentos automáticamente y mantener un historial completo de todas las transacciones.
 
-**Gestión automática de morosidad**
+<strong>Gestión automática de morosidad</strong>
 
 La automatización incluye sistemas inteligentes de seguimiento de morosidad que envían recordatorios automáticos según configuraciones personalizables. Los centros pueden establecer diferentes niveles de recordatorios, desde notificaciones amigables hasta comunicaciones más formales.
 
 <br>
 
-**Beneficios operativos de la automatización interna**
+<strong>Beneficios operativos de la automatización interna</strong>
 
 <br>
 
@@ -57,7 +57,7 @@ La automatización elimina los errores humanos en cálculos, aplicaciones de des
 
 <br>
 
-**Implementación de la automatización interna**
+<strong>Implementación de la automatización interna</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ El primer paso es mapear todos los procesos de facturación actuales, identifica
 
 <br>
 
-**Métricas de éxito**
+<strong>Métricas de éxito</strong>
 
 <br>
 
@@ -73,7 +73,7 @@ Los centros que implementan automatización de facturación interna suelen ver m
 
 <br>
 
-**El futuro de la facturación automatizada**
+<strong>El futuro de la facturación automatizada</strong>
 
 <br>
 
@@ -81,7 +81,7 @@ La automatización de la facturación interna continuará evolucionando con nuev
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

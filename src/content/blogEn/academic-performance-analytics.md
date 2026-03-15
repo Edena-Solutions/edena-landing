@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1599081593734-5e65dd7abfba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Academic Performance Analytics: Data to Enhance Learning**
+<strong>Academic Performance Analytics: Data to Enhance Learning</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Educational analytics is revolutionizing how centers manage student learning and
 
 <br>
 
-**Direct Academic Indicators**
+<strong>Direct Academic Indicators</strong>
 
 <br>
 
@@ -23,7 +23,7 @@ Direct academic indicators include trends in grades by subject that reveal perfo
 
 <br>
 
-**Behavioral Indicators**
+<strong>Behavioral Indicators</strong>
 
 <br>
 
@@ -31,7 +31,7 @@ Among the most relevant behavioral indicators are attendance and punctuality pat
 
 <br>
 
-**Emotional and Social Indicators**
+<strong>Emotional and Social Indicators</strong>
 
 <br>
 
@@ -39,7 +39,7 @@ Emotional and social indicators allow analyzing changes in communication pattern
 
 <br>
 
-**Data-Driven Learning Personalization**
+<strong>Data-Driven Learning Personalization</strong>
 
 <br>
 
@@ -53,7 +53,7 @@ Each student has a unique learning pace. Analytics allows identifying when a stu
 
 <br>
 
-**Proactive and Effective Interventions**
+<strong>Proactive and Effective Interventions</strong>
 
 <br>
 
@@ -67,7 +67,7 @@ Systems can measure intervention effectiveness, allowing educators to adjust the
 
 <br>
 
-**Development of Specific Skills**
+<strong>Development of Specific Skills</strong>
 
 <br>
 
@@ -81,7 +81,7 @@ Systems can identify and foster the development of transversal skills such as cr
 
 <br>
 
-**Motivation and Engagement**
+<strong>Motivation and Engagement</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Systems can identify and celebrate specific achievements of each student, from g
 
 <br>
 
-**Collaboration Among Educators**
+<strong>Collaboration Among Educators</strong>
 
 <br>
 
@@ -109,7 +109,7 @@ Educators can use analytics insights to plan collaborative interventions that ad
 
 <br>
 
-**The Future of Academic Performance Analytics**
+<strong>The Future of Academic Performance Analytics</strong>
 
 <br>
 
@@ -121,7 +121,7 @@ Integration with wearable devices will allow monitoring factors such as sleep, p
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

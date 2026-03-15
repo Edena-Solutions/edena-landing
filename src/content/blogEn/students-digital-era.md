@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1604933834413-4cbe62737214?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Students in the Digital Era: Preparing the Next Generation**
+<strong>Students in the Digital Era: Preparing the Next Generation</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Today's students are growing up in a world radically different from previous gen
 
 <br>
 
-**The Profile of the Digital Student**
+<strong>The Profile of the Digital Student</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ These students are used to receiving instant information, processing multiple so
 
 <br>
 
-**Essential Skills for the Future**
+<strong>Essential Skills for the Future</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Critical thinking and problem-solving are more important than ever in a world wh
 
 <br>
 
-**Adapting to New Learning Methods**
+<strong>Adapting to New Learning Methods</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Adaptive learning platforms are providing personalized experiences that adjust t
 
 <br>
 
-**Challenges of the Digital Era**
+<strong>Challenges of the Digital Era</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Social isolation can be a risk when students spend too much time in digital envi
 
 <br>
 
-**Development of Digital Competencies**
+<strong>Development of Digital Competencies</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Digital competencies also include the ability to collaborate effectively in virt
 
 <br>
 
-**The Role of Creativity and Innovation**
+<strong>The Role of Creativity and Innovation</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Technology can be a powerful tool to foster creativity, providing platforms to c
 
 <br>
 
-**Preparing for the Future Job Market**
+<strong>Preparing for the Future Job Market</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ This includes lifelong learning skills, adaptability, and the ability to work in
 
 <br>
 
-**Digital Well-being and Mental Health**
+<strong>Digital Well-being and Mental Health</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Schools and families play an important role in teaching students about digital w
 
 <br>
 
-**Collaboration and Digital Teamwork**
+<strong>Collaboration and Digital Teamwork</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Digital tools are facilitating global collaboration, allowing students to work w
 
 <br>
 
-**The Future of Student Learning**
+<strong>The Future of Student Learning</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Virtual and augmented reality will provide immersive learning experiences that m
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

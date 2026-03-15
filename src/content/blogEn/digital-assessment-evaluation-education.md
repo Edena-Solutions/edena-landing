@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Digital Assessment and Evaluation in Modern Education: Tools and Strategies**
+<strong>Digital Assessment and Evaluation in Modern Education: Tools and Strategies</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Educational assessment is experiencing a digital revolution that is fundamentall
 
 <br>
 
-**The evolution of educational assessment**
+<strong>The evolution of educational assessment</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ The digitization of assessment has also democratized access to sophisticated eva
 
 <br>
 
-**Types of digital assessments**
+<strong>Types of digital assessments</strong>
 
 <br>
 
@@ -41,7 +41,7 @@ Digital portfolios capture learning growth over time, allowing students to demon
 
 <br>
 
-**Advantages of digital assessment**
+<strong>Advantages of digital assessment</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Reduction of grading bias is possible through automated systems that consistentl
 
 <br>
 
-**Assessment tools and platforms**
+<strong>Assessment tools and platforms</strong>
 
 <br>
 
@@ -69,7 +69,7 @@ Automated proctoring systems use artificial intelligence to monitor remote asses
 
 <br>
 
-**Analytics and data visualization**
+<strong>Analytics and data visualization</strong>
 
 <br>
 
@@ -83,7 +83,7 @@ Predictive analytics use historical data to identify students at risk of poor pe
 
 <br>
 
-**Adaptive assessment and artificial intelligence**
+<strong>Adaptive assessment and artificial intelligence</strong>
 
 <br>
 
@@ -97,7 +97,7 @@ Intelligent virtual tutors combine assessment with instruction, providing person
 
 <br>
 
-**Authentic and competency-based assessment**
+<strong>Authentic and competency-based assessment</strong>
 
 <br>
 
@@ -111,7 +111,7 @@ Digital badges and microcredentials provide granular recognition of specific com
 
 <br>
 
-**Accessibility and equity in digital assessment**
+<strong>Accessibility and equity in digital assessment</strong>
 
 <br>
 
@@ -125,7 +125,7 @@ Assessment algorithms must be carefully examined for biases that could disadvant
 
 <br>
 
-**Data privacy and security**
+<strong>Data privacy and security</strong>
 
 <br>
 
@@ -139,7 +139,7 @@ Data retention policies specify how long assessment data will be maintained and 
 
 <br>
 
-**Effective implementation in educational centers**
+<strong>Effective implementation in educational centers</strong>
 
 <br>
 
@@ -153,7 +153,7 @@ Ongoing technical support is essential to keep systems running smoothly and addr
 
 <br>
 
-**The future of digital assessment**
+<strong>The future of digital assessment</strong>
 
 <br>
 
@@ -167,7 +167,7 @@ Blockchain-augmented assessment may provide verifiable and immutable credentials
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1589935447067-5531094415d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Data Security in Educational Centers: Protecting Student Privacy in the Digital Age**
+<strong>Data Security in Educational Centers: Protecting Student Privacy in the Digital Age</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ As educational centers increasingly adopt digital technologies and collect more 
 
 <br>
 
-**The growing importance of data security**
+<strong>The growing importance of data security</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ The consequences of a data breach in an educational center can be severe. Beyond
 
 <br>
 
-**Types of data at risk**
+<strong>Types of data at risk</strong>
 
 <br>
 
@@ -43,7 +43,7 @@ Health and medical information may include immunization records, health conditio
 
 <br>
 
-**Regulatory requirements and compliance**
+<strong>Regulatory requirements and compliance</strong>
 
 <br>
 
@@ -59,7 +59,7 @@ State and local regulations may impose additional requirements for data security
 
 <br>
 
-**Common security threats and vulnerabilities**
+<strong>Common security threats and vulnerabilities</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Physical security threats include unauthorized access to facilities, theft of de
 
 <br>
 
-**Best practices for data security**
+<strong>Best practices for data security</strong>
 
 <br>
 
@@ -91,7 +91,7 @@ Staff training and awareness programs are essential for preventing security inci
 
 <br>
 
-**Technical security measures**
+<strong>Technical security measures</strong>
 
 <br>
 
@@ -107,7 +107,7 @@ Data backup and recovery systems ensure that important data can be restored in t
 
 <br>
 
-**Incident response and recovery**
+<strong>Incident response and recovery</strong>
 
 <br>
 
@@ -123,7 +123,7 @@ Recovery procedures help restore normal operations as quickly as possible after 
 
 <br>
 
-**Building a security culture**
+<strong>Building a security culture</strong>
 
 <br>
 
@@ -139,7 +139,7 @@ Recognition and rewards for good security practices help reinforce the importanc
 
 <br>
 
-**Measuring and improving security**
+<strong>Measuring and improving security</strong>
 
 <br>
 
@@ -155,7 +155,7 @@ Continuous improvement processes ensure that security programs evolve to address
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

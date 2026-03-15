@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Colaboración familias-centro educativo: Construyendo una comunidad unida**
+<strong>Colaboración familias-centro educativo: Construyendo una comunidad unida</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La colaboración efectiva entre familias y centros educativos es fundamental par
 
 <br>
 
-**El poder de la colaboración educativa**
+<strong>El poder de la colaboración educativa</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Los obstáculos incluyen horarios ocupados, barreras de comunicación, diferente
 
 <br>
 
-**Comunicación transparente y en tiempo real**
+<strong>Comunicación transparente y en tiempo real</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Los sistemas pueden enviar notificaciones automáticas sobre calificaciones, tar
 
 <br>
 
-**Participación activa de las familias**
+<strong>Participación activa de las familias</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Los centros pueden crear grupos de trabajo virtuales donde las familias pueden c
 
 <br>
 
-**Seguimiento del progreso académico**
+<strong>Seguimiento del progreso académico</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Los sistemas pueden proporcionar insights personalizados sobre las fortalezas y 
 
 <br>
 
-**Apoyo al aprendizaje en casa**
+<strong>Apoyo al aprendizaje en casa</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Los centros pueden compartir materiales educativos, guías de estudio, y activid
 
 <br>
 
-**Involucramiento en la toma de decisiones**
+<strong>Involucramiento en la toma de decisiones</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Los centros pueden consultar a las familias sobre políticas, programas, y mejor
 
 <br>
 
-**Creación de redes de apoyo**
+<strong>Creación de redes de apoyo</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Los centros pueden crear grupos de padres basados en intereses, necesidades, o c
 
 <br>
 
-**Celebración de logros y reconocimiento**
+<strong>Celebración de logros y reconocimiento</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Los sistemas pueden destacar logros académicos, contribuciones de voluntarios, 
 
 <br>
 
-**Formación y desarrollo de competencias**
+<strong>Formación y desarrollo de competencias</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Los centros pueden ofrecer talleres virtuales sobre temas como comunicación efe
 
 <br>
 
-**Medición y mejora de la colaboración**
+<strong>Medición y mejora de la colaboración</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Los centros pueden realizar encuestas regulares para evaluar la satisfacción de
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

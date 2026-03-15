@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Apps móviles en educación: La experiencia digital en tu bolsillo**
+<strong>Apps móviles en educación: La experiencia digital en tu bolsillo</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Las apps móviles están revolucionando la forma en que las familias interactúa
 
 <br>
 
-**La revolución de la experiencia móvil educativa**
+<strong>La revolución de la experiencia móvil educativa</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Las apps móviles educativas ofrecen acceso instantáneo a información académi
 
 <br>
 
-**Funcionalidades clave de las apps educativas**
+<strong>Funcionalidades clave de las apps educativas</strong>
 
 <br>
 
@@ -37,7 +37,7 @@ Las apps modernas incluyen funcionalidades administrativas completas. Los padres
 
 <br>
 
-**Experiencia de usuario optimizada para móviles**
+<strong>Experiencia de usuario optimizada para móviles</strong>
 
 <br>
 
@@ -47,7 +47,7 @@ Las apps modernas incluyen funcionalidades que funcionan sin conexión. Los dato
 
 <br>
 
-**Seguridad y privacidad en apps educativas**
+<strong>Seguridad y privacidad en apps educativas</strong>
 
 <br>
 
@@ -57,7 +57,7 @@ Los sistemas incluyen herramientas de monitoreo y auditoría. Todas las acciones
 
 <br>
 
-**Integración con sistemas educativos**
+<strong>Integración con sistemas educativos</strong>
 
 <br>
 
@@ -67,7 +67,7 @@ La integración permite funcionalidades avanzadas. Los centros pueden analizar c
 
 <br>
 
-**Implementación y adopción de apps móviles**
+<strong>Implementación y adopción de apps móviles</strong>
 
 <br>
 
@@ -79,7 +79,7 @@ Es fundamental comunicar claramente los beneficios de la app. Mostrar cómo la a
 
 <br>
 
-**El futuro de las apps educativas**
+<strong>El futuro de las apps educativas</strong>
 
 <br>
 
@@ -91,7 +91,7 @@ Las apps se integrarán con notificaciones y alertas en dispositivos wearables p
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

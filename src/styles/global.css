@@ -296,3 +296,11 @@
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
 }
+
+.blog-content p {
+    margin-bottom: 1.25em;
+}
+
+.blog-content p:last-child {
+    margin-bottom: 0;
+}

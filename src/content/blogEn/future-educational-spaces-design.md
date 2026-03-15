@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1579388654549-1f4e8c79b5a4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Future Educational Spaces: Design and Innovation for Modern Learning**
+<strong>Future Educational Spaces: Design and Innovation for Modern Learning</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ The physical spaces where learning occurs have a profound and frequently underes
 
 <br>
 
-**The evolution of educational design**
+<strong>The evolution of educational design</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ Educational neuroscience has provided valuable insights into how different envir
 
 <br>
 
-**Flexibility and spatial adaptability**
+<strong>Flexibility and spatial adaptability</strong>
 
 <br>
 
@@ -41,7 +41,7 @@ Smart space technologies enable environments to automatically adapt to different
 
 <br>
 
-**Diversified learning zones**
+<strong>Diversified learning zones</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Relaxation and wellness areas recognize the importance of rest and rejuvenation 
 
 <br>
 
-**Integrated technology and digital spaces**
+<strong>Integrated technology and digital spaces</strong>
 
 <br>
 
@@ -69,7 +69,7 @@ Virtual and augmented reality environments are beginning to appear in advanced e
 
 <br>
 
-**Sustainability and green design**
+<strong>Sustainability and green design</strong>
 
 <br>
 
@@ -83,7 +83,7 @@ Environmental monitoring systems allow students and educators to track metrics l
 
 <br>
 
-**Spaces for specific pedagogical methodologies**
+<strong>Spaces for specific pedagogical methodologies</strong>
 
 <br>
 
@@ -97,7 +97,7 @@ Flipped classrooms require spaces that can quickly transform from individual wor
 
 <br>
 
-**Wellbeing and health in spatial design**
+<strong>Wellbeing and health in spatial design</strong>
 
 <br>
 
@@ -111,7 +111,7 @@ Movement and physical activity spaces recognize the importance of movement for l
 
 <br>
 
-**Inclusivity and universal accessibility**
+<strong>Inclusivity and universal accessibility</strong>
 
 <br>
 
@@ -125,7 +125,7 @@ Quiet and sensory reduction spaces provide refuges for students who may feel ove
 
 <br>
 
-**Participatory planning and design**
+<strong>Participatory planning and design</strong>
 
 <br>
 
@@ -139,7 +139,7 @@ Continuous feedback loops ensure that spaces evolve based on actual use and chan
 
 <br>
 
-**Economic considerations and implementation**
+<strong>Economic considerations and implementation</strong>
 
 <br>
 
@@ -153,7 +153,7 @@ Return on investment evaluation for spatial improvements considers both tangible
 
 <br>
 
-**The future of educational spaces**
+<strong>The future of educational spaces</strong>
 
 <br>
 
@@ -165,7 +165,7 @@ Spatial personalization may develop to accommodate individual learning preferenc
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

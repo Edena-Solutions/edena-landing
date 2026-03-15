@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1599081593734-5e65dd7abfba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Analítica del rendimiento académico: Datos para potenciar el aprendizaje**
+<strong>Analítica del rendimiento académico: Datos para potenciar el aprendizaje</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La analítica educativa está revolucionando la forma en que los centros gestion
 
 <br>
 
-**Indicadores académicos directos**
+<strong>Indicadores académicos directos</strong>
 
 <br>
 
@@ -23,7 +23,7 @@ Los indicadores académicos directos incluyen tendencias en calificaciones por a
 
 <br>
 
-**Indicadores conductuales**
+<strong>Indicadores conductuales</strong>
 
 <br>
 
@@ -31,7 +31,7 @@ Entre los indicadores conductuales más relevantes se encuentran los patrones de
 
 <br>
 
-**Indicadores emocionales y sociales**
+<strong>Indicadores emocionales y sociales</strong>
 
 <br>
 
@@ -39,7 +39,7 @@ Los indicadores emocionales y sociales permiten analizar cambios en los patrones
 
 <br>
 
-**Personalización del aprendizaje basada en datos**
+<strong>Personalización del aprendizaje basada en datos</strong>
 
 <br>
 
@@ -53,7 +53,7 @@ Cada estudiante tiene un ritmo de aprendizaje único. La analítica permite iden
 
 <br>
 
-**Intervenciones proactivas y efectivas**
+<strong>Intervenciones proactivas y efectivas</strong>
 
 <br>
 
@@ -67,7 +67,7 @@ Los sistemas pueden medir la efectividad de las intervenciones, permitiendo a lo
 
 <br>
 
-**Desarrollo de habilidades específicas**
+<strong>Desarrollo de habilidades específicas</strong>
 
 <br>
 
@@ -81,7 +81,7 @@ Los sistemas pueden identificar y fomentar el desarrollo de habilidades transver
 
 <br>
 
-**Motivación y engagement**
+<strong>Motivación y engagement</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Los sistemas pueden identificar y celebrar logros específicos de cada estudiant
 
 <br>
 
-**Colaboración entre educadores**
+<strong>Colaboración entre educadores</strong>
 
 <br>
 
@@ -109,7 +109,7 @@ Los educadores pueden usar los insights de la analítica para planificar interve
 
 <br>
 
-**El futuro de la analítica del rendimiento académico**
+<strong>El futuro de la analítica del rendimiento académico</strong>
 
 <br>
 
@@ -121,7 +121,7 @@ La integración con dispositivos wearables permitirá monitorear factores como s
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

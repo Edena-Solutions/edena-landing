@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Retención de estudiantes en la era digital: Estrategias que funcionan**
+<strong>Retención de estudiantes en la era digital: Estrategias que funcionan</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La retención de estudiantes es uno de los desafíos más críticos que enfrenta
 
 <br>
 
-**El desafío de la retención en la era digital**
+<strong>El desafío de la retención en la era digital</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Los factores que influyen en la retención incluyen la calidad de la experiencia
 
 <br>
 
-**Personalización del aprendizaje**
+<strong>Personalización del aprendizaje</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Los algoritmos de aprendizaje automático pueden identificar patrones en el comp
 
 <br>
 
-**Comunicación proactiva y apoyo**
+<strong>Comunicación proactiva y apoyo</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Los centros pueden implementar sistemas de alerta temprana que identifiquen estu
 
 <br>
 
-**Creación de comunidades digitales**
+<strong>Creación de comunidades digitales</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Los foros de discusión, grupos de estudio virtuales, y redes sociales educativa
 
 <br>
 
-**Gamificación y engagement**
+<strong>Gamificación y engagement</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Los estudiantes pueden ganar puntos por completar tareas, participar en discusio
 
 <br>
 
-**Flexibilidad y accesibilidad**
+<strong>Flexibilidad y accesibilidad</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Los sistemas de gestión de aprendizaje permiten que los estudiantes accedan al 
 
 <br>
 
-**Análisis predictivo para intervención temprana**
+<strong>Análisis predictivo para intervención temprana</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Cuando se detecta un estudiante en riesgo, el sistema puede activar automáticam
 
 <br>
 
-**Feedback continuo y mejora**
+<strong>Feedback continuo y mejora</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Este feedback debe ser utilizado para hacer ajustes continuos en los programas e
 
 <br>
 
-**Integración de servicios de apoyo**
+<strong>Integración de servicios de apoyo</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Los estudiantes pueden programar citas en línea, acceder a recursos de autoayud
 
 <br>
 
-**Medición y evaluación del éxito**
+<strong>Medición y evaluación del éxito</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Los sistemas de análisis pueden proporcionar insights detallados sobre qué est
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

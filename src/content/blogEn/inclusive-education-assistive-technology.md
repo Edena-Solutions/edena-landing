@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1550418290-a8d86ad674a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Inclusive Education and Assistive Technology: Creating Classrooms for All**
+<strong>Inclusive Education and Assistive Technology: Creating Classrooms for All</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Inclusive education represents one of the greatest challenges and opportunities 
 
 <br>
 
-**The paradigm of modern inclusive education**
+<strong>The paradigm of modern inclusive education</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ Assistive technology acts as a bridge that eliminates traditional barriers to le
 
 <br>
 
-**Assistive technologies for diverse needs**
+<strong>Assistive technologies for diverse needs</strong>
 
 <br>
 
@@ -39,7 +39,7 @@ For students with motor difficulties, adaptive interfaces, voice recognition sof
 
 <br>
 
-**Tools for learning difficulties**
+<strong>Tools for learning difficulties</strong>
 
 <br>
 
@@ -51,7 +51,7 @@ Writing support applications with predictive correction, grammatical suggestions
 
 <br>
 
-**Learning personalization through technology**
+<strong>Learning personalization through technology</strong>
 
 <br>
 
@@ -63,7 +63,7 @@ Adaptive learning platforms can present the same curricular content in multiple 
 
 <br>
 
-**Effective classroom implementation**
+<strong>Effective classroom implementation</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Continuous staff training is fundamental to the success of inclusive programs. E
 
 <br>
 
-**Collaboration and inclusive social learning**
+<strong>Collaboration and inclusive social learning</strong>
 
 <br>
 
@@ -87,7 +87,7 @@ Collaborative learning projects that incorporate assistive technology not only b
 
 <br>
 
-**Inclusive evaluation and assessment**
+<strong>Inclusive evaluation and assessment</strong>
 
 <br>
 
@@ -99,7 +99,7 @@ Assessment systems with artificial intelligence can provide immediate and detail
 
 <br>
 
-**Teacher training for inclusion**
+<strong>Teacher training for inclusion</strong>
 
 <br>
 
@@ -111,7 +111,7 @@ Educators also need to develop skills to collaborate effectively with families, 
 
 <br>
 
-**Benefits for the entire educational community**
+<strong>Benefits for the entire educational community</strong>
 
 <br>
 
@@ -123,7 +123,7 @@ Educators who develop competencies in inclusive education improve their general 
 
 <br>
 
-**Challenges and future considerations**
+<strong>Challenges and future considerations</strong>
 
 <br>
 
@@ -135,7 +135,7 @@ Collaboration between technology developers, educators, and end users is essenti
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

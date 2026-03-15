@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1604933834413-4cbe62737214?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Estudiantes en la era digital: Preparando la próxima generación**
+<strong>Estudiantes en la era digital: Preparando la próxima generación</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Los estudiantes de hoy están creciendo en un mundo radicalmente diferente al de
 
 <br>
 
-**El perfil del estudiante digital**
+<strong>El perfil del estudiante digital</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Estos estudiantes están acostumbrados a recibir información instantánea, a pr
 
 <br>
 
-**Habilidades esenciales para el futuro**
+<strong>Habilidades esenciales para el futuro</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ El pensamiento crítico y la resolución de problemas son más importantes que n
 
 <br>
 
-**Adaptación a nuevos métodos de aprendizaje**
+<strong>Adaptación a nuevos métodos de aprendizaje</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Las plataformas de aprendizaje adaptativo están proporcionando experiencias per
 
 <br>
 
-**Desafíos de la era digital**
+<strong>Desafíos de la era digital</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ El aislamiento social puede ser un riesgo cuando los estudiantes pasan demasiado
 
 <br>
 
-**Desarrollo de competencias digitales**
+<strong>Desarrollo de competencias digitales</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Las competencias digitales también incluyen la capacidad de colaborar efectivam
 
 <br>
 
-**El papel de la creatividad y la innovación**
+<strong>El papel de la creatividad y la innovación</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ La tecnología puede ser una herramienta poderosa para fomentar la creatividad, 
 
 <br>
 
-**Preparación para el mercado laboral del futuro**
+<strong>Preparación para el mercado laboral del futuro</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Esto incluye habilidades de aprendizaje continuo, adaptabilidad, y capacidad par
 
 <br>
 
-**Bienestar digital y salud mental**
+<strong>Bienestar digital y salud mental</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Las escuelas y familias tienen un papel importante en enseñar a los estudiantes
 
 <br>
 
-**Colaboración y trabajo en equipo digital**
+<strong>Colaboración y trabajo en equipo digital</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Las herramientas digitales están facilitando la colaboración global, permitien
 
 <br>
 
-**El futuro del aprendizaje estudiantil**
+<strong>El futuro del aprendizaje estudiantil</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ La realidad virtual y aumentada proporcionarán experiencias de aprendizaje inme
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

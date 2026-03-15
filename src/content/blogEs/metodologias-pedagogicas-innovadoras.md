@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1611348586755-53860f7ae57a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Metodologías pedagógicas innovadoras: Transformando el proceso de enseñanza-aprendizaje**
+<strong>Metodologías pedagógicas innovadoras: Transformando el proceso de enseñanza-aprendizaje</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ El panorama educativo está experimentando una transformación fundamental en su
 
 <br>
 
-**La evolución hacia metodologías centradas en el estudiante**
+<strong>La evolución hacia metodologías centradas en el estudiante</strong>
 
 <br>
 
@@ -27,7 +27,7 @@ La personalización del aprendizaje se convierte en un elemento central, permiti
 
 <br>
 
-**Aprendizaje basado en proyectos (ABP)**
+<strong>Aprendizaje basado en proyectos (ABP)</strong>
 
 <br>
 
@@ -41,7 +41,7 @@ El rol del educador en ABP es el de un mentor que guía el proceso, proporciona 
 
 <br>
 
-**Aprendizaje cooperativo y colaborativo**
+<strong>Aprendizaje cooperativo y colaborativo</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ La evaluación en entornos colaborativos incluye tanto componentes individuales 
 
 <br>
 
-**Flipped classroom o aula invertida**
+<strong>Flipped classroom o aula invertida</strong>
 
 <br>
 
@@ -69,7 +69,7 @@ La implementación efectiva del aula invertida requiere materiales de alta calid
 
 <br>
 
-**Gamificación educativa**
+<strong>Gamificación educativa</strong>
 
 <br>
 
@@ -83,7 +83,7 @@ La gamificación es particularmente efectiva para desarrollar perseverancia y re
 
 <br>
 
-**Aprendizaje basado en problemas (PBL)**
+<strong>Aprendizaje basado en problemas (PBL)</strong>
 
 <br>
 
@@ -97,7 +97,7 @@ Los educadores en entornos ABP actúan como facilitadores que guían el proceso 
 
 <br>
 
-**Pensamiento de diseño en educación**
+<strong>Pensamiento de diseño en educación</strong>
 
 <br>
 
@@ -111,7 +111,7 @@ El prototipado permite a los estudiantes hacer tangibles sus ideas rápidamente 
 
 <br>
 
-**Aprendizaje adaptativo y personalizado**
+<strong>Aprendizaje adaptativo y personalizado</strong>
 
 <br>
 
@@ -125,7 +125,7 @@ Los educadores en entornos adaptativos se convierten en coaches de aprendizaje q
 
 <br>
 
-**Metodologías STEAM integradas**
+<strong>Metodologías STEAM integradas</strong>
 
 <br>
 
@@ -139,7 +139,7 @@ Los espacios STEAM requieren entornos de aprendizaje flexibles que puedan acomod
 
 <br>
 
-**Implementación efectiva de metodologías innovadoras**
+<strong>Implementación efectiva de metodologías innovadoras</strong>
 
 <br>
 
@@ -153,7 +153,7 @@ La participación de la comunidad ayuda a las familias a comprender y apoyar enf
 
 <br>
 
-**Evaluación en metodologías innovadoras**
+<strong>Evaluación en metodologías innovadoras</strong>
 
 <br>
 
@@ -167,7 +167,7 @@ La evaluación entre pares y la autoevaluación desarrollan habilidades metacogn
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

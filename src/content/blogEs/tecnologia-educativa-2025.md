@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Tendencias en tecnología educativa para 2025: El futuro del aprendizaje**
+<strong>Tendencias en tecnología educativa para 2025: El futuro del aprendizaje</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ El panorama de la tecnología educativa está evolucionando a una velocidad sin 
 
 <br>
 
-**Inteligencia artificial personalizada**
+<strong>Inteligencia artificial personalizada</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Esta personalización va más allá de simplemente ajustar la dificultad de los 
 
 <br>
 
-**Realidad virtual y aumentada en el aula**
+<strong>Realidad virtual y aumentada en el aula</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ En lugar de leer sobre la historia de Roma, los estudiantes pueden "caminar" por
 
 <br>
 
-**Aprendizaje basado en proyectos con tecnología**
+<strong>Aprendizaje basado en proyectos con tecnología</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Las plataformas de colaboración permiten que estudiantes de diferentes partes d
 
 <br>
 
-**Gamificación y aprendizaje lúdico**
+<strong>Gamificación y aprendizaje lúdico</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ La gamificación también está siendo utilizada para desarrollar habilidades bl
 
 <br>
 
-**Internet de las Cosas (IoT) en educación**
+<strong>Internet de las Cosas (IoT) en educación</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Los dispositivos IoT también están siendo utilizados para monitorear la asiste
 
 <br>
 
-**Blockchain para credenciales y certificaciones**
+<strong>Blockchain para credenciales y certificaciones</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Esta tecnología es especialmente valiosa para la educación continua y las micr
 
 <br>
 
-**Analítica de aprendizaje avanzada**
+<strong>Analítica de aprendizaje avanzada</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Esta información puede ser utilizada para identificar estudiantes en riesgo ant
 
 <br>
 
-**Educación híbrida y flexible**
+<strong>Educación híbrida y flexible</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Las tecnologías de videoconferencia avanzadas, plataformas de colaboración, y 
 
 <br>
 
-**Sostenibilidad y tecnología verde**
+<strong>Sostenibilidad y tecnología verde</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Los proyectos educativos están incorporando temas de sostenibilidad, utilizando
 
 <br>
 
-**Accesibilidad universal**
+<strong>Accesibilidad universal</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ La inteligencia artificial está siendo utilizada para crear contenido educativo
 
 <br>
 
-**El papel de los educadores en la era digital**
+<strong>El papel de los educadores en la era digital</strong>
 
 <br>
 
@@ -125,7 +125,7 @@ Los educadores del futuro necesitarán desarrollar nuevas habilidades: competenc
 
 <br>
 
-**Preparándose para el futuro**
+<strong>Preparándose para el futuro</strong>
 
 <br>
 
@@ -135,7 +135,7 @@ Es fundamental que la adopción de tecnología esté alineada con los objetivos 
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1458007683879-47560d7e33c3?q=80&w=1743&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Eficiencia operativa en centros educativos: Optimizando recursos con tecnología**
+<strong>Eficiencia operativa en centros educativos: Optimizando recursos con tecnología</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Los centros educativos enfrentan constantemente el desafío de hacer más con me
 
 <br>
 
-**El desafío de la eficiencia en educación**
+<strong>El desafío de la eficiencia en educación</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Los desafíos incluyen la duplicación de tareas administrativas, la falta de in
 
 <br>
 
-**Automatización de procesos administrativos**
+<strong>Automatización de procesos administrativos</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Los sistemas automatizados pueden procesar solicitudes de admisión, verificar d
 
 <br>
 
-**Integración de sistemas y datos**
+<strong>Integración de sistemas y datos</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Un sistema integrado puede conectar la gestión académica, administrativa, fina
 
 <br>
 
-**Gestión inteligente de recursos**
+<strong>Gestión inteligente de recursos</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Los algoritmos de programación pueden crear horarios óptimos que maximicen el 
 
 <br>
 
-**Comunicación eficiente con las familias**
+<strong>Comunicación eficiente con las familias</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Los sistemas pueden enviar comunicaciones automáticas sobre eventos importantes
 
 <br>
 
-**Análisis de datos para toma de decisiones**
+<strong>Análisis de datos para toma de decisiones</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Los centros pueden analizar métricas como tasas de ocupación, tiempos de respu
 
 <br>
 
-**Gestión financiera optimizada**
+<strong>Gestión financiera optimizada</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Los centros pueden implementar sistemas de pago en línea que reduzcan la necesi
 
 <br>
 
-**Optimización del uso de energía y recursos**
+<strong>Optimización del uso de energía y recursos</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Los sensores IoT pueden monitorear el uso de recursos y alertar sobre ineficienc
 
 <br>
 
-**Mejora de la experiencia del personal**
+<strong>Mejora de la experiencia del personal</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Los sistemas de gestión de recursos humanos pueden optimizar la programación, 
 
 <br>
 
-**Medición y mejora continua**
+<strong>Medición y mejora continua</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Los sistemas de monitoreo pueden rastrear métricas como tiempos de respuesta, t
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

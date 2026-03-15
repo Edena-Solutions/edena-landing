@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1589935447067-5531094415d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Seguridad de datos en centros educativos: Protegiendo el futuro digital**
+<strong>Seguridad de datos en centros educativos: Protegiendo el futuro digital</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ En la era digital, los centros educativos manejan cantidades masivas de datos se
 
 <br>
 
-**El panorama actual de la seguridad educativa**
+<strong>El panorama actual de la seguridad educativa</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Los incidentes de seguridad en el sector educativo han aumentado significativame
 
 <br>
 
-**Tipos de datos sensibles en centros educativos**
+<strong>Tipos de datos sensibles en centros educativos</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Los datos financieros incluyen información de facturación, métodos de pago, y
 
 <br>
 
-**Marco legal y normativo**
+<strong>Marco legal y normativo</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ En España, la Ley Orgánica de Protección de Datos Personales y Garantía de l
 
 <br>
 
-**Amenazas más comunes en el sector educativo**
+<strong>Amenazas más comunes en el sector educativo</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Los ataques de ransomware son particularmente devastadores porque pueden paraliz
 
 <br>
 
-**Mejores prácticas de seguridad**
+<strong>Mejores prácticas de seguridad</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ El cifrado de datos es fundamental tanto en tránsito como en reposo. Todos los 
 
 <br>
 
-**Formación y concienciación del personal**
+<strong>Formación y concienciación del personal</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Esta formación debe incluir reconocimiento de ataques de phishing, gestión seg
 
 <br>
 
-**Gestión de proveedores y terceros**
+<strong>Gestión de proveedores y terceros</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Los acuerdos de nivel de servicio (SLA) deben incluir requisitos específicos de
 
 <br>
 
-**Respuesta a incidentes**
+<strong>Respuesta a incidentes</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ El plan debe incluir roles y responsabilidades específicos, procedimientos de c
 
 <br>
 
-**Tecnologías emergentes y seguridad**
+<strong>Tecnologías emergentes y seguridad</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ La IA y el aprendizaje automático pueden ser utilizados tanto para mejorar la s
 
 <br>
 
-**Un caso de éxito real**
+<strong>Un caso de éxito real</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Los resultados incluyen cumplimiento completo con el RGPD, mejora significativa 
 
 <br>
 
-**El futuro de la seguridad educativa**
+<strong>El futuro de la seguridad educativa</strong>
 
 <br>
 
@@ -125,7 +125,7 @@ Los centros educativos también deberán adaptarse a nuevas normativas y estánd
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1739805591936-39f03383c9a9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Analítica educativa e inteligencia artificial: Datos que transforman la educación**
+<strong>Analítica educativa e inteligencia artificial: Datos que transforman la educación</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ La analítica educativa y la inteligencia artificial están transformando fundam
 
 <br>
 
-**Del big data a la inteligencia educativa**
+<strong>Del big data a la inteligencia educativa</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ La inteligencia artificial toma esta analítica un paso más allá, utilizando a
 
 <br>
 
-**Personalización del aprendizaje con IA**
+<strong>Personalización del aprendizaje con IA</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ Los sistemas de IA pueden detectar cuando un estudiante está luchando con un co
 
 <br>
 
-**Predicción y prevención del abandono**
+<strong>Predicción y prevención del abandono</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Cuando se detecta un estudiante en riesgo, el sistema puede activar automáticam
 
 <br>
 
-**Optimización de recursos educativos**
+<strong>Optimización de recursos educativos</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Los algoritmos pueden sugerir horarios óptimos que maximicen el uso de espacios
 
 <br>
 
-**Evaluación y feedback inteligente**
+<strong>Evaluación y feedback inteligente</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Los algoritmos pueden identificar patrones en los errores comunes y sugerir inte
 
 <br>
 
-**Análisis de sentimientos y bienestar**
+<strong>Análisis de sentimientos y bienestar</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Los algoritmos pueden detectar cambios en el comportamiento que podrían indicar
 
 <br>
 
-**Mejora de la enseñanza con datos**
+<strong>Mejora de la enseñanza con datos</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ Los datos pueden mostrar qué enfoques son más efectivos para diferentes tipos 
 
 <br>
 
-**Comunicación proactiva con familias**
+<strong>Comunicación proactiva con familias</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ Los algoritmos pueden enviar comunicaciones personalizadas basadas en las necesi
 
 <br>
 
-**Análisis predictivo para planificación estratégica**
+<strong>Análisis predictivo para planificación estratégica</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ Los algoritmos pueden identificar patrones en la demanda de ciertos cursos o pro
 
 <br>
 
-**Ética y privacidad en la analítica educativa**
+<strong>Ética y privacidad en la analítica educativa</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ Es fundamental proteger la privacidad de los estudiantes y sus familias. Los sis
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 

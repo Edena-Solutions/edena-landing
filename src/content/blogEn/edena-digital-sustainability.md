@@ -7,7 +7,7 @@ author: "Edena Team"
 cover: "https://plus.unsplash.com/premium_photo-1671829480432-9b0f10d869ef?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Edena and Digital Sustainability: Building a Sustainable Educational Future**
+<strong>Edena and Digital Sustainability: Building a Sustainable Educational Future</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ As the world becomes increasingly aware of the environmental impact of technolog
 
 <br>
 
-**Understanding digital sustainability in education**
+<strong>Understanding digital sustainability in education</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Educational centers have a responsibility to model sustainable practices for the
 
 <br>
 
-**Edena's commitment to sustainability**
+<strong>Edena's commitment to sustainability</strong>
 
 <br>
 
@@ -35,7 +35,7 @@ The company's sustainability initiatives include using energy-efficient technolo
 
 <br>
 
-**Energy-efficient technology solutions**
+<strong>Energy-efficient technology solutions</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ Cloud computing allows educational centers to access powerful digital tools with
 
 <br>
 
-**Paperless operations and digital transformation**
+<strong>Paperless operations and digital transformation</strong>
 
 <br>
 
@@ -55,7 +55,7 @@ Digital transformation reduces the need for paper, printing, and physical storag
 
 <br>
 
-**Sustainable data management**
+<strong>Sustainable data management</strong>
 
 <br>
 
@@ -65,7 +65,7 @@ Sustainable data management also includes responsible data retention policies th
 
 <br>
 
-**Remote and hybrid learning support**
+<strong>Remote and hybrid learning support</strong>
 
 <br>
 
@@ -75,7 +75,7 @@ Remote learning capabilities also allow educational centers to offer more flexib
 
 <br>
 
-**Sustainable procurement and partnerships**
+<strong>Sustainable procurement and partnerships</strong>
 
 <br>
 
@@ -85,7 +85,7 @@ These partnerships help ensure that the entire supply chain supports sustainable
 
 <br>
 
-**Environmental education and awareness**
+<strong>Environmental education and awareness</strong>
 
 <br>
 
@@ -95,7 +95,7 @@ By providing tools and resources for environmental education, Edena helps educat
 
 <br>
 
-**Measuring and reporting environmental impact**
+<strong>Measuring and reporting environmental impact</strong>
 
 <br>
 
@@ -105,7 +105,7 @@ This transparency helps educational centers understand the environmental impact 
 
 <br>
 
-**Supporting educational center sustainability**
+<strong>Supporting educational center sustainability</strong>
 
 <br>
 
@@ -115,7 +115,7 @@ This support includes helping educational centers assess their current environme
 
 <br>
 
-**Future sustainability initiatives**
+<strong>Future sustainability initiatives</strong>
 
 <br>
 
@@ -125,7 +125,7 @@ The company is also exploring ways to use artificial intelligence and other adva
 
 <br>
 
-**Conclusion**
+<strong>Conclusion</strong>
 
 <br>
 

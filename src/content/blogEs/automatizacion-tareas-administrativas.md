@@ -7,7 +7,7 @@ author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-**Automatización de tareas administrativas: Libera tiempo para la educación**
+<strong>Automatización de tareas administrativas: Libera tiempo para la educación</strong>
 
 <br>
 
@@ -15,7 +15,7 @@ Los centros educativos enfrentan un desafío constante: equilibrar las necesidad
 
 <br>
 
-**El costo oculto de las tareas manuales**
+<strong>El costo oculto de las tareas manuales</strong>
 
 <br>
 
@@ -25,7 +25,7 @@ Además, las tareas manuales consumen tiempo valioso que podría dedicarse a act
 
 <br>
 
-**La revolución de la automatización educativa**
+<strong>La revolución de la automatización educativa</strong>
 
 <br>
 
@@ -45,7 +45,7 @@ La creación y gestión de horarios es una tarea administrativa compleja que pue
 
 <br>
 
-**Beneficios de la automatización para diferentes actores**
+<strong>Beneficios de la automatización para diferentes actores</strong>
 
 <br>
 
@@ -63,7 +63,7 @@ La automatización también mejora la transparencia y la rendición de cuentas, 
 
 <br>
 
-**Implementación de la automatización**
+<strong>Implementación de la automatización</strong>
 
 <br>
 
@@ -81,7 +81,7 @@ La adopción también requiere un cambio cultural. Los usuarios deben confiar en
 
 <br>
 
-**Métricas de éxito**
+<strong>Métricas de éxito</strong>
 
 <br>
 
@@ -89,7 +89,7 @@ Los centros que implementan automatización administrativa suelen ver mejoras si
 
 <br>
 
-**El futuro de la automatización administrativa**
+<strong>El futuro de la automatización administrativa</strong>
 
 <br>
 
@@ -97,7 +97,7 @@ La automatización administrativa continuará evolucionando con nuevas tecnolog�
 
 <br>
 
-**Conclusión**
+<strong>Conclusión</strong>
 
 <br>
 
