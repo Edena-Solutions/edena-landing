@@ -72,7 +72,7 @@ const features = [
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
         <Hero
             t={t}
-            heroImage={heroImage}
+            heroImage={studentDetail}
             mainTitle={t.students.mainTitle}
             mainDescription={t.students.mainDescription}
             showBookDemoInHero={true}
@@ -84,7 +84,7 @@ const features = [
             rightCard={{
                 title: t.students.studentDetailTitle,
                 description: t.students.studentDetailDescription,
-                image: studentDetail,
+                image: heroImage,
                 altText: t.altText.studentDetail,
             }}
         />

@@ -46,6 +46,10 @@ export default {
             "CRM para Colegios y Guarderías | Gestión de Solicitudes y Captación de Familias | Edena",
         crmDescription:
             "CRM escolar integrado para gestionar solicitudes de matriculación, captar leads y convertir consultas en nuevas familias. Pipeline visual, formularios personalizables y seguimiento de actividad. Aumenta conversiones hasta un 35%.",
+        assignmentTitle:
+            "Software de Tareas y Evaluaciones para Colegios | Gestión de Calificaciones | Edena",
+        assignmentDescription:
+            "Planifica tareas, gestiona ciclos de evaluación y seguimiento de calificaciones en una sola plataforma. Boletines automáticos y visibilidad para familias. Reduce la carga de corrección un 40%.",
         privacyTitle: "Política de Privacidad | Software de Gestión Escolar Edena",
         privacyDescription:
             "Aprende cómo Edena protege los datos de tu centro y mantiene estándares de privacidad. Nuestra política de privacidad integral garantiza la seguridad de la información estudiantil, familiar e institucional.",
@@ -116,6 +120,9 @@ export default {
         crm: "CRM Escolar",
         crmDescription:
             "Gestiona solicitudes de matriculación, captura leads y convierte consultas en nuevas familias con pipeline visual y formularios personalizables.",
+        assignment: "Tareas y Evaluaciones",
+        assignmentDescription:
+            "Planifica tareas, ciclos de evaluación y seguimiento de calificaciones. Boletines automáticos y visibilidad para familias.",
         pricing: "Precios",
         faqs: "FAQs",
         blog: "Blog",
@@ -256,6 +263,41 @@ export default {
                 title: "Informes académicos automatizados",
                 tagline:
                     "Genera reportes detallados de rendimiento estudiantil y métricas educativas para toma de decisiones basada en datos.",
+            },
+        },
+        assignmentFeatures: {
+            title: "Gestión de tareas y evaluaciones",
+            tagline:
+                "Planifica tareas, haz seguimiento de calificaciones y gestiona ciclos de evaluación desde una sola plataforma. Informes automáticos y visibilidad para familias.",
+            scheduleManagement: {
+                title: "Planificación de tareas",
+                tagline:
+                    "Planifica y programa tareas por asignatura, grupo o periodo. Vista de calendario y control de plazos para profesores y estudiantes.",
+            },
+            evaluationCycles: {
+                title: "Ciclos de evaluación",
+                tagline:
+                    "Configura trimestres, cuatrimestres o periodos personalizados. Gestión centralizada de ciclos con agregación automática de calificaciones.",
+            },
+            gradeManagement: {
+                title: "Gestión de calificaciones",
+                tagline:
+                    "Registra y haz seguimiento de calificaciones por evaluación. Medias ponderadas, rúbricas y cálculo automático para boletines.",
+            },
+            automatedReports: {
+                title: "Boletines automáticos",
+                tagline:
+                    "Genera boletines y expedientes académicos de forma automática. Exporta a PDF y comparte con familias digitalmente.",
+            },
+            familyVisibility: {
+                title: "Visibilidad para familias",
+                tagline:
+                    "Las familias acceden a calificaciones y evaluaciones en tiempo real mediante la app o el portal. Progreso académico transparente y trazable.",
+            },
+            integration: {
+                title: "Integración completa",
+                tagline:
+                    "Vinculado con expedientes, asistencia y comunicación. Datos unificados para una gestión académica integral.",
             },
         },
         dashboardFeatures: {
@@ -477,7 +519,7 @@ export default {
             title: "Analíticas en tiempo real",
             tagline: "Obtén insights detallados sobre el rendimiento de tu centro educativo.",
         },
-        keyFeaturesTabsTitle: "Las 5 claves de nuestra plataforma",
+        keyFeaturesTabsTitle: "Las 6 claves de nuestra plataforma",
         keyFeaturesTabsDescription:
             "Descubre las funcionalidades más potentes que te ayudarán a gestionar y escalar tu organización educativa.",
         keyFeaturesTabsGoToFeature: "Ir a la funcionalidad",
@@ -496,6 +538,11 @@ export default {
                 title: "Gestión financiera",
                 description:
                     "Automatiza la facturación, el cobro y el seguimiento de pagos con un sistema financiero diseñado para colegios y academias. Reduce la morosidad, mejora la transparencia y ofrece a las familias una experiencia de pago ágil y segura.",
+            },
+            {
+                title: "Tareas y evaluaciones",
+                description:
+                    "Planifica tareas, gestiona ciclos de evaluación y haz seguimiento de calificaciones en un solo lugar. Boletines automáticos, visibilidad para familias y 40% menos carga de corrección para tu equipo docente.",
             },
             {
                 title: "CRM escolar",
@@ -857,6 +904,32 @@ export default {
         app_support_options: "¿Qué opciones de soporte tengo desde la app?",
         app_support_options_answer:
             "Puedes contactar con soporte desde la app vía chat, email o acceder a la sección de ayuda integrada.",
+        assignment: {
+            title: "Preguntas frecuentes sobre tareas y evaluaciones",
+            description:
+                "Encuentra respuestas sobre planificación de tareas, ciclos de evaluación, seguimiento de calificaciones y generación de informes. Optimiza la evaluación académica en tu centro.",
+        },
+        assignment_schedule_management: "¿Cómo funciona la planificación de tareas?",
+        assignment_schedule_management_answer:
+            "Puedes planificar tareas por asignatura, grupo o periodo desde una vista de calendario. Define plazos y activa recordatorios automáticos para profesores y estudiantes. Toda la información está centralizada.",
+        assignment_evaluation_cycles: "¿Puedo configurar ciclos de evaluación personalizados?",
+        assignment_evaluation_cycles_answer:
+            "Sí. Puedes configurar trimestres, cuatrimestres o periodos personalizados. Las calificaciones se agregan automáticamente por ciclo y alimentan la generación de boletines.",
+        assignment_grade_tracking: "¿Cómo se gestiona el seguimiento de calificaciones?",
+        assignment_grade_tracking_answer:
+            "Las calificaciones se registran por evaluación y se vinculan a estudiantes y asignaturas. Puedes usar medias ponderadas, rúbricas y cálculos automáticos. Todos los datos son trazables y exportables.",
+        assignment_family_visibility: "¿Las familias pueden ver calificaciones y evaluaciones?",
+        assignment_family_visibility_answer:
+            "Sí. Las familias acceden a calificaciones y evaluaciones en tiempo real mediante la app o el portal de familias. Puedes controlar la visibilidad y el nivel de detalle mostrado.",
+        assignment_integration: "¿Se integra con el resto de Edena?",
+        assignment_integration_answer:
+            "Sí. Las tareas y evaluaciones están integradas con expedientes, asistencia y comunicación. Todos los datos académicos están unificados para una gestión integral.",
+        assignment_report_generation: "¿Puedo generar boletines automáticamente?",
+        assignment_report_generation_answer:
+            "Sí. Los boletines y expedientes académicos se generan automáticamente a partir de las calificaciones registradas. Puedes exportar a PDF y compartirlos digitalmente con las familias.",
+        assignment_support_options: "¿Qué soporte ofrece Edena para la gestión de tareas?",
+        assignment_support_options_answer:
+            "Tienes acceso a soporte técnico vía chat y email, además de documentación y formación. Nuestro equipo puede ayudarte a configurar ciclos y optimizar tu flujo de evaluación.",
         dashboard: {
             title: "Preguntas frecuentes sobre el panel de control y analítica de Edena",
             description:
@@ -1163,6 +1236,26 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
         notificationsAndCalendarDescription:
             "Notificaciones y calendario unidos para una gestión escolar eficiente.",
     },
+    assignment: {
+        mainTitle: "Gestión de tareas y evaluaciones",
+        mainDescription:
+            "Planifica tareas, gestiona ciclos de evaluación y haz seguimiento de calificaciones en un solo lugar. Boletines automáticos, visibilidad para familias y 40% menos carga de corrección para tu equipo docente.",
+        scheduleTitle: "Planificación de tareas",
+        scheduleDescription:
+            "Programa tareas por asignatura, grupo o periodo. Vista de calendario, plazos y recordatorios automáticos. Profesores y coordinadores alineados en todo momento.",
+        evaluationTitle: "Gestión de evaluaciones",
+        evaluationDescription:
+            "Registra calificaciones, configura ciclos de evaluación y genera boletines automáticamente. Integrado con expedientes para una visibilidad académica completa.",
+        cyclesAndScoresTitle: "Ciclos de evaluación y calificaciones",
+        cyclesAndScoresDescription:
+            "Configura trimestres o periodos personalizados. Visualiza calificaciones, medias y progreso en tiempo real.",
+        cyclesTitle: "Ciclos de evaluación",
+        cyclesDescription:
+            "Gestiona trimestres, cuatrimestres o periodos de evaluación personalizados. Configuración centralizada con agregación automática de calificaciones por ciclo.",
+        scoresTitle: "Boletines y progreso",
+        scoresDescription:
+            "Seguimiento visual de calificaciones por estudiante, asignatura o grupo. Medias ponderadas, rúbricas y cálculos automáticos para boletines.",
+    },
     students: {
         mainTitle: "Gestión estudiantil simplificada",
         mainDescription:
@@ -1350,6 +1443,10 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
         crmHero: "CRM escolar Edena para gestión de solicitudes y captación de familias",
         crmList: "Lista de solicitudes y leads en el CRM escolar Edena",
         crmForm: "Editor de formularios personalizables del CRM Edena",
+        assignmentSchedule: "Planificación de tareas en Edena",
+        assignmentEvaluation: "Gestión de evaluaciones y calificaciones en Edena",
+        evaluationCycle: "Configuración de ciclos de evaluación en Edena",
+        assignmentScoreCard: "Boletín y seguimiento de calificaciones en Edena",
         conclusionLogo: "Logo de Edena - Transforma la gestión de tu centro educativo",
     },
 };

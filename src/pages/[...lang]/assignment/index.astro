@@ -1,0 +1,138 @@
+---
+import { translations, languages } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+import Section from "@/components/Section.astro";
+import Hero from "@/components/Hero.astro";
+import GSAPSection from "@/components/ui/gsap-section";
+import FAQs from "@/modules/assignment/FAQs.astro";
+import Features from "@/components/Features";
+import heroImage from "@/assets/img/screenshots/assignment/assignment_schedule.png";
+import evaluationCycle from "@/assets/img/screenshots/assignment/evaluation_cycle.png";
+import scoreCard from "@/assets/img/screenshots/assignment/assignment_score_card.png";
+import assignmentEvaluation from "@/assets/img/screenshots/assignment/assignment_evaluation.png";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { getCollection } from "astro:content";
+
+export function getStaticPaths() {
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+
+const faqsCollection = await getCollection("faqs");
+const assignmentFaqs = faqsCollection.find((entry) => entry.id === "faqsAssignment.md");
+
+const features = [
+    {
+        icon: "Calendar",
+        title: t.features.assignmentFeatures.scheduleManagement.title,
+        description: t.features.assignmentFeatures.scheduleManagement.tagline,
+        navigateTo: `/${lang}/assignment`,
+    },
+    {
+        icon: "RotateCcw",
+        title: t.features.assignmentFeatures.evaluationCycles.title,
+        description: t.features.assignmentFeatures.evaluationCycles.tagline,
+        navigateTo: `/${lang}/assignment`,
+    },
+    {
+        icon: "BarChart3",
+        title: t.features.assignmentFeatures.gradeManagement.title,
+        description: t.features.assignmentFeatures.gradeManagement.tagline,
+        navigateTo: `/${lang}/assignment`,
+    },
+    {
+        icon: "FileCheck",
+        title: t.features.assignmentFeatures.automatedReports.title,
+        description: t.features.assignmentFeatures.automatedReports.tagline,
+        navigateTo: `/${lang}/assignment`,
+    },
+    {
+        icon: "Users",
+        title: t.features.assignmentFeatures.familyVisibility.title,
+        description: t.features.assignmentFeatures.familyVisibility.tagline,
+        navigateTo: `/${lang}/assignment`,
+    },
+    {
+        icon: "Link",
+        title: t.features.assignmentFeatures.integration.title,
+        description: t.features.assignmentFeatures.integration.tagline,
+        navigateTo: `/${lang}/assignment`,
+    },
+];
+---
+
+<Layout
+    content={{ title: t.meta.assignmentTitle, description: t.meta.assignmentDescription }}
+    lang={lang}
+>
+    <GSAPSection client:load className="grid gap-16" animationType="opacity">
+        <Hero
+            t={t}
+            heroImage={heroImage}
+            mainTitle={t.assignment.mainTitle}
+            mainDescription={t.assignment.mainDescription}
+            showBookDemoInHero={true}
+            leftCard={{
+                title: t.assignment.scheduleTitle,
+                description: t.assignment.scheduleDescription,
+                showButton: true,
+            }}
+            rightCard={{
+                title: t.assignment.evaluationTitle,
+                description: t.assignment.evaluationDescription,
+                image: assignmentEvaluation,
+                altText: t.altText.assignmentEvaluation,
+            }}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={t.features.assignmentFeatures.title}
+            description={t.features.assignmentFeatures.tagline}
+        />
+        <Section
+            t={t}
+            sectionTitle={t.assignment.cyclesAndScoresTitle}
+            sectionDescription={t.assignment.cyclesAndScoresDescription}
+            leftCard={{
+                title: t.assignment.cyclesTitle,
+                description: t.assignment.cyclesDescription,
+                image: evaluationCycle,
+                altText: t.altText.evaluationCycle,
+            }}
+            rightCard={{
+                title: t.assignment.scoresTitle,
+                description: t.assignment.scoresDescription,
+                image: scoreCard,
+                altText: t.altText.assignmentScoreCard,
+            }}
+        />
+        <FAQs t={t} />
+    </GSAPSection>
+    <SoftwareApplicationSchema
+        slot="structured-data"
+        name="Edena - Assignment & Evaluation Management"
+        description={t.meta.assignmentDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/assignment`}
+        lang={lang}
+    />
+    {
+        assignmentFaqs?.data.faqs && (
+            <FAQPageSchema
+                slot="structured-data"
+                faqs={assignmentFaqs.data.faqs}
+                translations={t.faqs}
+                lang={lang}
+            />
+        )
+    }
+</Layout>

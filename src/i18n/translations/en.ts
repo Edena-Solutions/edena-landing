@@ -41,6 +41,10 @@ export default {
         crmTitle: "CRM for Schools and Daycares | Enrollment Requests & Family Acquisition | Edena",
         crmDescription:
             "Integrated school CRM to manage enrollment requests, capture leads and convert inquiries into new families. Visual pipeline, customizable forms and activity tracking. Increase conversions by up to 35%.",
+        assignmentTitle:
+            "Assignment & Evaluation Software for Schools | Academic Assessment Management | Edena",
+        assignmentDescription:
+            "Plan assignments, manage evaluation cycles and grade tracking in one platform. Automated report cards and family visibility. Reduce grading workload by 40%.",
         privacyTitle: "Privacy Policy | Edena School Management Software",
         privacyDescription:
             "Learn how Edena protects your school's data and maintains privacy standards. Our comprehensive privacy policy ensures the security of student, family, and institutional information.",
@@ -106,6 +110,9 @@ export default {
         crm: "School CRM",
         crmDescription:
             "Manage enrollment requests, capture leads and convert inquiries into new families with visual pipeline and customizable forms.",
+        assignment: "Assignments & Evaluations",
+        assignmentDescription:
+            "Plan assignments, evaluation cycles and grade tracking. Automated report cards and family visibility.",
         pricing: "Pricing",
         faqs: "FAQs",
         blog: "Blog",
@@ -243,6 +250,41 @@ export default {
                 title: "Automated Academic Reporting",
                 tagline:
                     "Generate comprehensive student performance reports and educational metrics for data-driven decision making in schools.",
+            },
+        },
+        assignmentFeatures: {
+            title: "Assignment & Evaluation Management",
+            tagline:
+                "Plan assignments, track grades and manage evaluation cycles from a single platform. Automated reports and family visibility.",
+            scheduleManagement: {
+                title: "Assignment Schedule Planning",
+                tagline:
+                    "Plan and schedule assignments by subject, group or period. Calendar view and deadline tracking for teachers and students.",
+            },
+            evaluationCycles: {
+                title: "Evaluation Cycles",
+                tagline:
+                    "Configure trimesters, quarters or custom periods. Centralized cycle management with automatic grade aggregation.",
+            },
+            gradeManagement: {
+                title: "Grade Management",
+                tagline:
+                    "Record and track grades by evaluation. Weighted averages, rubrics and automated calculation for report cards.",
+            },
+            automatedReports: {
+                title: "Automated Report Cards",
+                tagline:
+                    "Generate report cards and academic transcripts automatically. Export to PDF and share with families digitally.",
+            },
+            familyVisibility: {
+                title: "Family Visibility",
+                tagline:
+                    "Families access grades and evaluations in real time through the app or portal. Transparent and traceable academic progress.",
+            },
+            integration: {
+                title: "Full Integration",
+                tagline:
+                    "Linked to student records, attendance and communication. Unified data for holistic academic management.",
             },
         },
         dashboardFeatures: {
@@ -463,7 +505,7 @@ export default {
             title: "Real-time Analytics",
             tagline: "Get detailed insights into your educational institution's performance.",
         },
-        keyFeaturesTabsTitle: "The 5 Keys to Our Platform",
+        keyFeaturesTabsTitle: "The 6 Keys to Our Platform",
         keyFeaturesTabsDescription:
             "Discover the most powerful features that will help you manage and scale your educational organization.",
         keyFeaturesTabsGoToFeature: "Go to feature",
@@ -482,6 +524,11 @@ export default {
                 title: "Financial Management",
                 description:
                     "Automate invoicing, collections, and payment tracking with a finance system built for schools and academies. Reduce late payments, improve transparency, and offer families a seamless, secure payment experience.",
+            },
+            {
+                title: "Assignment & Evaluation Management",
+                description:
+                    "Plan assignments, manage evaluation cycles and track grades in one place. Automated report cards, family visibility and 40% less grading workload for your teaching team.",
             },
             {
                 title: "School CRM",
@@ -839,6 +886,32 @@ export default {
         app_support_options: "What support options are available from the app?",
         app_support_options_answer:
             "You can contact support via chat, email, or access the integrated help section from the app.",
+        assignment: {
+            title: "Frequently Asked Questions about Assignment & Evaluation Management",
+            description:
+                "Find answers about assignment planning, evaluation cycles, grade tracking and report generation. Optimize academic assessment in your center.",
+        },
+        assignment_schedule_management: "How does assignment schedule planning work?",
+        assignment_schedule_management_answer:
+            "You can plan assignments by subject, group or period from a calendar view. Set deadlines and activate automatic reminders for teachers and students. All information is centralized in one place.",
+        assignment_evaluation_cycles: "Can I configure custom evaluation cycles?",
+        assignment_evaluation_cycles_answer:
+            "Yes. You can configure trimesters, quarters or custom periods. Grades are automatically aggregated per cycle and feed into report card generation.",
+        assignment_grade_tracking: "How is grade tracking managed?",
+        assignment_grade_tracking_answer:
+            "Grades are recorded per evaluation and linked to students and subjects. You can use weighted averages, rubrics and automated calculations. All data is traceable and exportable.",
+        assignment_family_visibility: "Can families see grades and evaluations?",
+        assignment_family_visibility_answer:
+            "Yes. Families access grades and evaluations in real time through the app or family portal. You control visibility and the level of detail shown.",
+        assignment_integration: "Does it integrate with the rest of Edena?",
+        assignment_integration_answer:
+            "Yes. Assignments and evaluations are integrated with student records, attendance and communication. All academic data is unified for holistic management.",
+        assignment_report_generation: "Can I generate report cards automatically?",
+        assignment_report_generation_answer:
+            "Yes. Report cards and academic transcripts are generated automatically from recorded grades. You can export to PDF and share them digitally with families.",
+        assignment_support_options: "What support does Edena offer for assignment management?",
+        assignment_support_options_answer:
+            "You have access to technical support via chat and email, plus documentation and training. Our team can help you configure cycles and optimize your assessment workflow.",
         dashboard: {
             title: "Frequently Asked Questions about Edena's Control Panel and Analytics",
             description:
@@ -1087,6 +1160,26 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
         notificationsAndCalendarDescription:
             "Notifications and calendar combined for efficient school management.",
     },
+    assignment: {
+        mainTitle: "Assignment & Evaluation Management",
+        mainDescription:
+            "Plan assignments, manage evaluation cycles and track grades in one place. Automated report cards, family visibility and 40% less grading workload for your teaching team.",
+        scheduleTitle: "Assignment Planning",
+        scheduleDescription:
+            "Schedule assignments by subject, group or period. Calendar view, deadlines and automatic reminders. Teachers and coordinators aligned at all times.",
+        evaluationTitle: "Evaluation Management",
+        evaluationDescription:
+            "Record grades, configure evaluation cycles and generate report cards automatically. Integrated with student records for complete academic visibility.",
+        cyclesAndScoresTitle: "Evaluation Cycles & Scores",
+        cyclesAndScoresDescription:
+            "Configure trimesters or custom periods. Visualize grades, averages and progress in real time.",
+        cyclesTitle: "Evaluation Cycles",
+        cyclesDescription:
+            "Manage trimesters, quarters or custom evaluation periods. Centralized configuration with automatic grade aggregation for each cycle.",
+        scoresTitle: "Score Cards & Progress",
+        scoresDescription:
+            "Visual grade tracking by student, subject or group. Weighted averages, rubrics and automated calculations for report cards.",
+    },
     students: {
         mainTitle: "Simplified Student Management",
         mainDescription:
@@ -1326,6 +1419,10 @@ For any questions about our cookie policy, you can contact privacidad@edena.es.`
         crmHero: "Edena school CRM for request management and family acquisition",
         crmList: "Request and lead list in Edena school CRM",
         crmForm: "Customizable form editor in Edena CRM",
+        assignmentSchedule: "Assignment schedule planning in Edena",
+        assignmentEvaluation: "Evaluation and grade management in Edena",
+        evaluationCycle: "Evaluation cycles configuration in Edena",
+        assignmentScoreCard: "Score card and grade tracking in Edena",
         conclusionLogo: "Edena Logo - Transform your school management",
     },
 };

@@ -9,7 +9,7 @@ import AppAnimation from "@/components/AppAnimation";
 import Link from "@/components/ui/link";
 import GSAPSection from "@/components/ui/gsap-section";
 import heroImage from "@/assets/img/screenshots/shared/hero.png";
-import invoiceEmail from "@/assets/img/screenshots/finance/invoice_email.png";
+import assignmentEvaluation from "@/assets/img/screenshots/assignment/evaluation_cycle.png";
 
 interface Props {
     t: Translation;
@@ -72,7 +72,7 @@ const { t } = Astro.props;
             <CardFooter className="flex flex-col gap-4 items-center">
                 <BookDemoButton t={t} />
                 <Image
-                    src={invoiceEmail}
+                    src={assignmentEvaluation}
                     alt={t.altText.emailInvoice || t.altText.heroImage}
                     class="w-full mx-auto object-contain"
                 />

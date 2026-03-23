@@ -43,15 +43,17 @@ const MenuButton = ({ isOpen, onClick }: { isOpen: boolean; onClick: () => void 
         aria-label={isOpen ? "Close menu" : "Open menu"}
     >
         <span
-            className={`block w-6 h-0.5 bg-foreground transition-all ${isOpen ? "rotate-45 translate-y-2" : ""
-                }`}
+            className={`block w-6 h-0.5 bg-foreground transition-all ${
+                isOpen ? "rotate-45 translate-y-2" : ""
+            }`}
         ></span>
         <span
             className={`block w-6 h-0.5 bg-foreground transition-all ${isOpen ? "opacity-0" : ""}`}
         ></span>
         <span
-            className={`block w-6 h-0.5 bg-foreground transition-all ${isOpen ? "-rotate-45 -translate-y-2" : ""
-                }`}
+            className={`block w-6 h-0.5 bg-foreground transition-all ${
+                isOpen ? "-rotate-45 -translate-y-2" : ""
+            }`}
         ></span>
     </button>
 );
@@ -73,11 +75,13 @@ const ListItem = ({
                 <a
                     className={cn(
                         "block select-none space-y-1 rounded p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-                        className
+                        className,
                     )}
                     href={href}
                 >
-                    <div className="text-[10px] font-semibold uppercase tracking-widest">{title}</div>
+                    <div className="text-[10px] font-semibold uppercase tracking-widest">
+                        {title}
+                    </div>
                     <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
                         {children}
                     </p>
@@ -108,9 +112,9 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
             description: t.navigation.financeDescription,
         },
         {
-            title: t.navigation.app,
-            href: `/${lang}/app`,
-            description: t.navigation.appDescription,
+            title: t.navigation.crm,
+            href: `/${lang}/crm`,
+            description: t.navigation.crmDescription,
         },
         {
             title: t.navigation.guardians,
@@ -118,9 +122,14 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
             description: t.navigation.guardiansDescription,
         },
         {
-            title: t.navigation.crm,
-            href: `/${lang}/crm`,
-            description: t.navigation.crmDescription,
+            title: t.navigation.assignment,
+            href: `/${lang}/assignment`,
+            description: t.navigation.assignmentDescription,
+        },
+        {
+            title: t.navigation.app,
+            href: `/${lang}/app`,
+            description: t.navigation.appDescription,
         },
     ];
 
@@ -162,7 +171,9 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     <NavigationMenu className="flex justify-center">
                         <NavigationMenuList>
                             <NavigationMenuItem>
-                                <NavigationMenuTrigger>{t.navigation.products}</NavigationMenuTrigger>
+                                <NavigationMenuTrigger>
+                                    {t.navigation.products}
+                                </NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                     <ul className="grid w-[400px] gap-2 p-2 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                                         {products.map((item) => (
@@ -221,12 +232,15 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
 
                 {isMobileMenuOpen && (
                     <div
-                        className={`md:hidden fixed inset-x-0 top-15 z-50 bg-background border-b transition-transform duration-300 ease-in-out transform ${isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
-                            }`}
+                        className={`md:hidden fixed inset-x-0 top-15 z-50 bg-background border-b transition-transform duration-300 ease-in-out transform ${
+                            isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
+                        }`}
                     >
                         <div className="container px-4 py-4 space-y-4 max-h-[calc(100vh-3.75rem)] overflow-y-auto">
                             <div className="space-y-1">
-                                <div className="text-[10px] font-semibold uppercase tracking-widest">{t.navigation.products}</div>
+                                <div className="text-[10px] font-semibold uppercase tracking-widest">
+                                    {t.navigation.products}
+                                </div>
                                 <ul>
                                     {products.map((item) => (
                                         <li key={item.title}>
@@ -242,7 +256,9 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             </div>
 
                             <div className="space-y-1">
-                                <div className="text-[10px] font-semibold uppercase tracking-widest">{t.navigation.functionalities}</div>
+                                <div className="text-[10px] font-semibold uppercase tracking-widest">
+                                    {t.navigation.functionalities}
+                                </div>
                                 <ul>
                                     {functionalities.map((item) => (
                                         <li key={item.title}>
