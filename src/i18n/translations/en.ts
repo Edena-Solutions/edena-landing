@@ -635,65 +635,124 @@ export default {
             volumeBadge: "Volume discount available",
             cta: "Request demo",
         },
+        planFeatureSections: [
+            {
+                title: "Base platform",
+                items: [
+                    {
+                        moduleId: "platformBase",
+                        label: "Digital student record, attendance & org chart",
+                    },
+                    {
+                        moduleId: "platformBase",
+                        label: "Family web portal & mobile app (families & staff)",
+                    },
+                    {
+                        moduleId: "platformBase",
+                        label: "Basic communication, onboarding & family self-service",
+                    },
+                    {
+                        moduleId: "platformBase",
+                        label: "Basic centre analytics & 24/7 email & chat support",
+                    },
+                ],
+            },
+            {
+                title: "Billing",
+                items: [
+                    { moduleId: "billing", label: "Electronic invoicing (Verifactu)" },
+                    {
+                        moduleId: "billing",
+                        label: "Receipts, payment monitoring & advanced financial analytics",
+                    },
+                ],
+            },
+            {
+                title: "Communication",
+                items: [
+                    {
+                        moduleId: "communicationPro",
+                        label: "Real-time chat, push notifications & read receipts",
+                    },
+                    {
+                        moduleId: "communicationPro",
+                        label: "Segmented communication by group or class",
+                    },
+                ],
+            },
+            {
+                title: "After-school",
+                items: [
+                    {
+                        moduleId: "extracurricular",
+                        label: "After-school self-service, requests & place availability",
+                    },
+                    { moduleId: "extracurricular", label: "Linked payments" },
+                ],
+            },
+            {
+                title: "Automation",
+                items: [
+                    { moduleId: "automation", label: "Custom rules, workflows & smart onboarding" },
+                    { moduleId: "automation", label: "Smart student management processes" },
+                ],
+            },
+            {
+                title: "Online store",
+                items: [
+                    {
+                        moduleId: "onlineStore",
+                        label: "Product & service sales (+€10/month fixed)",
+                    },
+                    {
+                        moduleId: "onlineStore",
+                        label: "Delivery notes, invoices, stock & purchase history per student",
+                    },
+                ],
+            },
+            {
+                title: "Cloud",
+                items: [
+                    {
+                        moduleId: "cloud",
+                        label: "Cloud document storage, folders & visibility by group or student",
+                    },
+                ],
+            },
+        ],
         recommended: {
-            esencial: {
+            essential: {
                 name: "Essential",
                 description: "From €44 per month",
                 pricePerChild: "€1.22 per child",
                 from: "From €44 per month",
-                features: [
-                    "Complete student management (digital record)",
-                    "Daily attendance tracking",
-                    "Organisation chart and basic centre management",
-                    "Web portal for families",
-                    "Mobile app for families and staff",
-                    "Basic communication (notices and general announcements)",
-                    "Digital parent onboarding",
-                    "Basic family data self-service",
-                    "Basic centre analytics",
-                    "24/7 support by email and chat",
-                ],
+                featureIncludedIds: ["platformBase"],
             },
-            gestionPro: {
+            managementPro: {
                 name: "Management Pro",
                 description: "From €44 per month",
                 pricePerChild: "€1.52 per child",
                 from: "From €44 per month",
-                features: [
-                    "Everything included in Essential",
-                    "Automated electronic billing (Verifactu compatible)",
-                    "Receipt generation and payment monitoring",
-                    "Advanced financial analytics",
-                    "Communication Pro with families:",
-                    "Real-time chat during school hours",
-                    "Instant push notifications",
-                    "Read receipts",
-                    "Segmented communication by group or class",
-                    "Priority support",
+                featureIncludedIds: [
+                    "platformBase",
+                    "billing",
+                    "communicationPro",
+                    "extracurricular",
                 ],
             },
-            completo: {
+            complete: {
                 name: "Complete",
                 description: "All modules: €2.12/child + €10/month store.",
                 pricePerChild: "€2.12/child + €10/month",
                 from: "From €44 per month",
-                features: [
-                    "Everything included in Management Pro",
-                    "After-school management and self-service",
-                    "Online requests",
-                    "Place availability control",
-                    "Linked payments",
-                    "Advanced automation:",
-                    "Custom rules",
-                    "Automatic workflows",
-                    "Onboarding automation",
-                    "Smart student management processes",
-                    "Integrated online store:",
-                    "Product and service sales",
-                    "Automatic delivery notes and invoices",
-                    "Stock control",
-                    "Purchase history per student",
-                    "Full centre analytics",
+                featureIncludedIds: [
+                    "platformBase",
+                    "billing",
+                    "communicationPro",
+                    "extracurricular",
+                    "automation",
+                    "onlineStore",
+                    "cloud",
                 ],
             },
             cta: "Request demo",

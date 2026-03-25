@@ -651,65 +651,130 @@ export default {
             volumeBadge: "Descuento por volumen disponible",
             cta: "Solicitar demo",
         },
+        planFeatureSections: [
+            {
+                title: "Plataforma base",
+                items: [
+                    {
+                        moduleId: "platformBase",
+                        label: "Expediente digital, asistencia y organigrama",
+                    },
+                    {
+                        moduleId: "platformBase",
+                        label: "Portal web y app móvil (familias y equipo)",
+                    },
+                    {
+                        moduleId: "platformBase",
+                        label: "Comunicación básica, onboarding y autogestión familiar",
+                    },
+                    {
+                        moduleId: "platformBase",
+                        label: "Analíticas básicas del centro y soporte 24/7",
+                    },
+                ],
+            },
+            {
+                title: "Facturación",
+                items: [
+                    { moduleId: "billing", label: "Facturación electrónica (Verifactu)" },
+                    {
+                        moduleId: "billing",
+                        label: "Recibos, control de impagos y analíticas financieras avanzadas",
+                    },
+                ],
+            },
+            {
+                title: "Comunicación",
+                items: [
+                    {
+                        moduleId: "communicationPro",
+                        label: "Chat en tiempo real, push y confirmación de lectura",
+                    },
+                    {
+                        moduleId: "communicationPro",
+                        label: "Comunicación segmentada por grupo o aula",
+                    },
+                ],
+            },
+            {
+                title: "Extraescolares",
+                items: [
+                    {
+                        moduleId: "extracurricular",
+                        label: "Autogestión, solicitudes y control de plazas",
+                    },
+                    { moduleId: "extracurricular", label: "Cobros vinculados" },
+                ],
+            },
+            {
+                title: "Automatización",
+                items: [
+                    {
+                        moduleId: "automation",
+                        label: "Reglas, workflows y onboarding automatizado",
+                    },
+                    {
+                        moduleId: "automation",
+                        label: "Procesos inteligentes de gestión de alumnos",
+                    },
+                ],
+            },
+            {
+                title: "Tienda online",
+                items: [
+                    {
+                        moduleId: "onlineStore",
+                        label: "Venta de productos y servicios (+10€/mes fijo)",
+                    },
+                    {
+                        moduleId: "onlineStore",
+                        label: "Albaranes, facturas, stock e histórico de compras por alumno",
+                    },
+                ],
+            },
+            {
+                title: "Cloud",
+                items: [
+                    {
+                        moduleId: "cloud",
+                        label: "Documentación en la nube, carpetas y visibilidad por grupo o alumno",
+                    },
+                ],
+            },
+        ],
         recommended: {
-            esencial: {
+            essential: {
                 name: "Esencial",
                 description: "Desde 44€ al mes",
                 pricePerChild: "1,22€ por niño",
                 from: "Desde 44€ al mes",
-                features: [
-                    "Gestión completa de alumnos (expediente digital)",
-                    "Control diario de asistencia",
-                    "Organigrama y gestión básica del centro",
-                    "Portal web para familias",
-                    "App móvil para familias y equipo",
-                    "Comunicación básica (avisos y comunicados generales)",
-                    "Onboarding digital de padres",
-                    "Autogestión básica de datos familiares",
-                    "Analíticas básicas del centro",
-                    "Soporte 24/7 por email y chat",
-                ],
+                featureIncludedIds: ["platformBase"],
             },
-            gestionPro: {
+            managementPro: {
                 name: "Gestión Pro",
                 description: "Desde 44€ al mes",
                 pricePerChild: "1,52€ por niño",
                 from: "Desde 44€ al mes",
-                features: [
-                    "Todo lo incluido en el plan Esencial",
-                    "Facturación electrónica automatizada (compatible con Verifactu)",
-                    "Generación de recibos y control de impagos",
-                    "Analíticas financieras avanzadas",
-                    "Comunicación Pro con familias:",
-                    "Chat en tiempo real en horario académico",
-                    "Notificaciones push instantáneas",
-                    "Confirmación de lectura",
-                    "Comunicación segmentada por grupo o aula",
-                    "Soporte prioritario",
+                featureIncludedIds: [
+                    "platformBase",
+                    "billing",
+                    "communicationPro",
+                    "extracurricular",
                 ],
             },
-            completo: {
+            complete: {
                 name: "Completo",
                 description: "Todos los módulos: 2,12€/niño + 10€/mes tienda.",
                 pricePerChild: "2,12€/niño + 10€/mes",
                 from: "Desde 44€ al mes",
-                features: [
-                    "Todo lo incluido en Gestión Pro",
-                    "Gestión y autogestión de extraescolares",
-                    "Solicitudes online",
-                    "Control de plazas",
-                    "Cobros vinculados",
-                    "Automatización avanzada:",
-                    "Reglas personalizadas",
-                    "Workflows automáticos",
-                    "Automatización de onboarding",
-                    "Procesos inteligentes de gestión de alumnos",
-                    "Tienda online integrada:",
-                    "Venta de productos y servicios",
-                    "Generación automática de albaranes y facturas",
-                    "Control de stock",
-                    "Histórico de compras por alumno",
-                    "Analíticas completas del centro",
+                featureIncludedIds: [
+                    "platformBase",
+                    "billing",
+                    "communicationPro",
+                    "extracurricular",
+                    "automation",
+                    "onlineStore",
+                    "cloud",
                 ],
             },
             cta: "Solicitar demo",
