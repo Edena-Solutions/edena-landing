@@ -640,7 +640,7 @@ export default {
             cloudHint: "+0,25€ por niño",
             packCompleteMessage: "Te conviene el Pack Completo",
             packCompleteDescription:
-                "Todos los módulos incluidos: 2,12€/niño + 10€/mes (tienda online).",
+                "Todos los módulos incluidos: 1,90€/niño + 10€/mes (tienda online).",
             monthly: "Mensual",
             annual: "Anual",
             annualDiscount: "-15%",
@@ -657,7 +657,7 @@ export default {
                 items: [
                     {
                         moduleId: "platformBase",
-                        label: "Expediente digital, asistencia y organigrama",
+                        label: "Expediente digital y organigrama del centro",
                     },
                     {
                         moduleId: "platformBase",
@@ -670,6 +670,19 @@ export default {
                     {
                         moduleId: "platformBase",
                         label: "Analíticas básicas del centro y soporte 24/7",
+                    },
+                ],
+            },
+            {
+                title: "Asistencia y notas",
+                items: [
+                    {
+                        moduleId: "attendanceGrades",
+                        label: "Control de asistencia digital, registros y alertas a familias",
+                    },
+                    {
+                        moduleId: "attendanceGrades",
+                        label: "Calificaciones, tareas y ciclos de evaluación",
                     },
                 ],
             },
@@ -693,6 +706,19 @@ export default {
                     {
                         moduleId: "communicationPro",
                         label: "Comunicación segmentada por grupo o aula",
+                    },
+                ],
+            },
+            {
+                title: "CRM escolar",
+                items: [
+                    {
+                        moduleId: "crm",
+                        label: "Solicitudes de matriculación, pipeline y seguimiento de leads",
+                    },
+                    {
+                        moduleId: "crm",
+                        label: "Formularios de captación personalizables y origen multicanal",
                     },
                 ],
             },
@@ -746,31 +772,35 @@ export default {
             essential: {
                 name: "Esencial",
                 description: "Desde 44€ al mes",
-                pricePerChild: "1,22€ por niño",
+                pricePerChild: "1,00€ por niño",
                 from: "Desde 44€ al mes",
-                featureIncludedIds: ["platformBase"],
+                featureIncludedIds: ["platformBase", "attendanceGrades"],
             },
             managementPro: {
                 name: "Gestión Pro",
                 description: "Desde 44€ al mes",
-                pricePerChild: "1,52€ por niño",
+                pricePerChild: "1,40€ por niño",
                 from: "Desde 44€ al mes",
                 featureIncludedIds: [
                     "platformBase",
+                    "attendanceGrades",
                     "billing",
                     "communicationPro",
+                    "crm",
                     "extracurricular",
                 ],
             },
             complete: {
                 name: "Completo",
-                description: "Todos los módulos: 2,12€/niño + 10€/mes tienda.",
-                pricePerChild: "2,12€/niño + 10€/mes",
+                description: "Todos los módulos: 1,90€/niño + 10€/mes tienda.",
+                pricePerChild: "1,90€/niño + 10€/mes",
                 from: "Desde 44€ al mes",
                 featureIncludedIds: [
                     "platformBase",
+                    "attendanceGrades",
                     "billing",
                     "communicationPro",
+                    "crm",
                     "extracurricular",
                     "automation",
                     "onlineStore",

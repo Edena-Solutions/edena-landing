@@ -8,12 +8,12 @@ import { Switch } from "@/components/ui/switch";
 import Icon from "@/components/ui/icon";
 import { cn } from "@/lib/utils";
 
-const BASE_PRICE_PER_CHILD = 1.215;
+const BASE_PRICE_PER_CHILD = 1.0;
 const MIN_MONTHLY = 44;
 const ANNUAL_DISCOUNT = 0.15;
 const MIN_CHILDREN = 35;
 const VOLUME_THRESHOLD = 200;
-const PACK_PER_CHILD = 2.115;
+const PACK_PER_CHILD = 1.9;
 const ONLINE_STORE_FLAT_MONTHLY = 10;
 
 const MODULES = [

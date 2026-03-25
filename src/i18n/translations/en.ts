@@ -624,7 +624,7 @@ export default {
             cloudHint: "+€0.25 per child",
             packCompleteMessage: "The Complete Pack is best for you",
             packCompleteDescription:
-                "All modules included: €2.12/child + €10/month (online store).",
+                "All modules included: €1.90/child + €10/month (online store).",
             monthly: "Monthly",
             annual: "Annual",
             annualDiscount: "-15%",
@@ -641,7 +641,7 @@ export default {
                 items: [
                     {
                         moduleId: "platformBase",
-                        label: "Digital student record, attendance & org chart",
+                        label: "Digital student record & org chart",
                     },
                     {
                         moduleId: "platformBase",
@@ -654,6 +654,19 @@ export default {
                     {
                         moduleId: "platformBase",
                         label: "Basic centre analytics & 24/7 email & chat support",
+                    },
+                ],
+            },
+            {
+                title: "Attendance & grades",
+                items: [
+                    {
+                        moduleId: "attendanceGrades",
+                        label: "Digital attendance, registers & family alerts",
+                    },
+                    {
+                        moduleId: "attendanceGrades",
+                        label: "Grades, assignments & evaluation cycles",
                     },
                 ],
             },
@@ -677,6 +690,19 @@ export default {
                     {
                         moduleId: "communicationPro",
                         label: "Segmented communication by group or class",
+                    },
+                ],
+            },
+            {
+                title: "School CRM",
+                items: [
+                    {
+                        moduleId: "crm",
+                        label: "Enrollment requests, pipeline & lead tracking",
+                    },
+                    {
+                        moduleId: "crm",
+                        label: "Customizable capture forms & multi-channel origin",
                     },
                 ],
             },
@@ -724,31 +750,35 @@ export default {
             essential: {
                 name: "Essential",
                 description: "From €44 per month",
-                pricePerChild: "€1.22 per child",
+                pricePerChild: "€1.00 per child",
                 from: "From €44 per month",
-                featureIncludedIds: ["platformBase"],
+                featureIncludedIds: ["platformBase", "attendanceGrades"],
             },
             managementPro: {
                 name: "Management Pro",
                 description: "From €44 per month",
-                pricePerChild: "€1.52 per child",
+                pricePerChild: "€1.40 per child",
                 from: "From €44 per month",
                 featureIncludedIds: [
                     "platformBase",
+                    "attendanceGrades",
                     "billing",
                     "communicationPro",
+                    "crm",
                     "extracurricular",
                 ],
             },
             complete: {
                 name: "Complete",
-                description: "All modules: €2.12/child + €10/month store.",
-                pricePerChild: "€2.12/child + €10/month",
+                description: "All modules: €1.90/child + €10/month store.",
+                pricePerChild: "€1.90/child + €10/month",
                 from: "From €44 per month",
                 featureIncludedIds: [
                     "platformBase",
+                    "attendanceGrades",
                     "billing",
                     "communicationPro",
+                    "crm",
                     "extracurricular",
                     "automation",
                     "onlineStore",

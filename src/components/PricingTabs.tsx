@@ -22,9 +22,9 @@ const MIN_CHILDREN = 35;
 const MIN_MONTHLY = 44;
 
 const PLAN_PRICES: Record<string, { pricePerChild: number; flatMonthly?: number }> = {
-    essential: { pricePerChild: 1.22 },
-    managementPro: { pricePerChild: 1.52 },
-    complete: { pricePerChild: 2.12, flatMonthly: 10 },
+    essential: { pricePerChild: 1.0 },
+    managementPro: { pricePerChild: 1.4 },
+    complete: { pricePerChild: 1.9, flatMonthly: 10 },
 };
 
 function getFromPriceNumeric(
