@@ -20,16 +20,39 @@ export async function GET() {
                   .data.date.split("T")[0]
             : currentDate;
 
+    interface HreflangEntry {
+        hreflang: string;
+        href: string;
+    }
+
     interface SitemapUrl {
         path: string;
         priority: string;
         changefreq: string;
         lastmod: string;
+        hreflangLinks?: HreflangEntry[];
         images?: Array<{
             loc: string;
             title?: string;
         }>;
     }
+
+    const buildHreflang = (slug: string, defaultPath?: string): HreflangEntry[] => {
+        const esPath = `/es/${slug}`;
+        const enPath = `/en/${slug}`;
+        const xDefault = defaultPath ?? `/${slug}`;
+        return [
+            { hreflang: "x-default", href: `${base}${xDefault}` },
+            { hreflang: "es", href: `${base}${esPath}` },
+            { hreflang: "en", href: `${base}${enPath}` },
+        ];
+    };
+
+    const homeHreflang: HreflangEntry[] = [
+        { hreflang: "x-default", href: `${base}/` },
+        { hreflang: "es", href: `${base}/es/` },
+        { hreflang: "en", href: `${base}/en/` },
+    ];
 
     const staticUrls: SitemapUrl[] = [
         {
@@ -37,297 +60,419 @@ export async function GET() {
             priority: "1.0",
             changefreq: "weekly",
             lastmod: currentDate,
-            images: [{ loc: `${base}/assets/img/logo.png`, title: "Edena Logo" }],
+            hreflangLinks: homeHreflang,
+            images: [
+                {
+                    loc: `${base}/assets/img/logo.png`,
+                    title: "Edena - School Management Software",
+                },
+            ],
         },
         {
             path: "/app/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("app/"),
+            images: [{ loc: `${base}/assets/img/app-hero.png`, title: "Edena Kids Mobile App" }],
         },
         {
             path: "/dashboard/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("dashboard/"),
+            images: [
+                {
+                    loc: `${base}/assets/img/dashboard-hero.png`,
+                    title: "Edena School Analytics Dashboard",
+                },
+            ],
         },
         {
             path: "/students/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("students/"),
+            images: [
+                {
+                    loc: `${base}/assets/img/students-hero.png`,
+                    title: "Edena Student Information System",
+                },
+            ],
         },
         {
             path: "/guardians/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("guardians/"),
+            images: [
+                {
+                    loc: `${base}/assets/img/guardians-hero.png`,
+                    title: "Edena Family Portal",
+                },
+            ],
         },
         {
             path: "/finance/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("finance/"),
+            images: [
+                {
+                    loc: `${base}/assets/img/finance-hero.png`,
+                    title: "Edena School Billing Software",
+                },
+            ],
         },
         {
             path: "/crm/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("crm/"),
+            images: [{ loc: `${base}/assets/img/crm-hero.png`, title: "Edena School CRM" }],
         },
         {
             path: "/assignment/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("assignment/"),
+            images: [
+                {
+                    loc: `${base}/assets/img/assignment-hero.png`,
+                    title: "Edena Assignment & Evaluation Management",
+                },
+            ],
         },
         {
             path: "/pricing/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("pricing/"),
         },
         {
             path: "/demo/",
-            priority: "0.8",
+            priority: "1.0",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("demo/"),
         },
         {
             path: "/faqs/",
             priority: "0.8",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("faqs/"),
         },
         {
             path: "/families/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("families/"),
         },
         {
             path: "/centers/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("centers/"),
         },
         {
             path: "/blog/",
             priority: "0.8",
             changefreq: "weekly",
             lastmod: latestBlogEsDate,
+            hreflangLinks: [
+                { hreflang: "x-default", href: `${base}/blog/` },
+                { hreflang: "es", href: `${base}/es/blog/` },
+                { hreflang: "en", href: `${base}/en/blog/` },
+            ],
         },
         {
             path: "/privacy/",
             priority: "0.5",
             changefreq: "yearly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("privacy/"),
         },
         {
             path: "/terms/",
             priority: "0.5",
             changefreq: "yearly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("terms/"),
         },
         {
             path: "/cookies/",
             priority: "0.5",
             changefreq: "yearly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("cookies/"),
         },
         {
             path: "/es/",
             priority: "0.9",
             changefreq: "weekly",
             lastmod: currentDate,
-            images: [{ loc: `${base}/assets/img/logo.png`, title: "Edena Logo" }],
+            hreflangLinks: homeHreflang,
+            images: [
+                {
+                    loc: `${base}/assets/img/logo.png`,
+                    title: "Edena - Software de Gestión Escolar",
+                },
+            ],
         },
         {
             path: "/es/app/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("app/"),
         },
         {
             path: "/es/dashboard/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("dashboard/"),
         },
         {
             path: "/es/students/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("students/"),
         },
         {
             path: "/es/guardians/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("guardians/"),
         },
         {
             path: "/es/finance/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("finance/"),
         },
         {
             path: "/es/crm/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("crm/"),
         },
         {
             path: "/es/assignment/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("assignment/"),
         },
         {
             path: "/es/pricing/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("pricing/"),
+        },
+        {
+            path: "/es/demo/",
+            priority: "1.0",
+            changefreq: "monthly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("demo/"),
         },
         {
             path: "/es/faqs/",
             priority: "0.8",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("faqs/"),
         },
         {
             path: "/es/families/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("families/"),
         },
         {
             path: "/es/centers/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("centers/"),
         },
         {
             path: "/es/blog/",
             priority: "0.8",
             changefreq: "weekly",
             lastmod: latestBlogEsDate,
+            hreflangLinks: [
+                { hreflang: "x-default", href: `${base}/blog/` },
+                { hreflang: "es", href: `${base}/es/blog/` },
+                { hreflang: "en", href: `${base}/en/blog/` },
+            ],
         },
         {
             path: "/es/privacy/",
             priority: "0.5",
             changefreq: "yearly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("privacy/"),
         },
         {
             path: "/es/terms/",
             priority: "0.5",
             changefreq: "yearly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("terms/"),
         },
         {
             path: "/es/cookies/",
             priority: "0.5",
             changefreq: "yearly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("cookies/"),
         },
         {
             path: "/en/",
             priority: "0.9",
             changefreq: "weekly",
             lastmod: currentDate,
-            images: [{ loc: `${base}/assets/img/logo.png`, title: "Edena Logo" }],
+            hreflangLinks: homeHreflang,
+            images: [
+                {
+                    loc: `${base}/assets/img/logo.png`,
+                    title: "Edena - School Management Software",
+                },
+            ],
         },
         {
             path: "/en/app/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("app/"),
         },
         {
             path: "/en/dashboard/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("dashboard/"),
         },
         {
             path: "/en/students/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("students/"),
         },
         {
             path: "/en/guardians/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("guardians/"),
         },
         {
             path: "/en/finance/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("finance/"),
         },
         {
             path: "/en/crm/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("crm/"),
         },
         {
             path: "/en/assignment/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("assignment/"),
         },
         {
             path: "/en/pricing/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("pricing/"),
+        },
+        {
+            path: "/en/demo/",
+            priority: "1.0",
+            changefreq: "monthly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("demo/"),
         },
         {
             path: "/en/faqs/",
             priority: "0.8",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("faqs/"),
         },
         {
             path: "/en/families/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("families/"),
         },
         {
             path: "/en/centers/",
             priority: "0.9",
             changefreq: "monthly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("centers/"),
         },
         {
             path: "/en/blog/",
             priority: "0.8",
             changefreq: "weekly",
             lastmod: latestBlogEnDate,
+            hreflangLinks: [
+                { hreflang: "x-default", href: `${base}/blog/` },
+                { hreflang: "es", href: `${base}/es/blog/` },
+                { hreflang: "en", href: `${base}/en/blog/` },
+            ],
         },
         {
             path: "/en/privacy/",
             priority: "0.5",
             changefreq: "yearly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("privacy/"),
         },
         {
             path: "/en/terms/",
             priority: "0.5",
             changefreq: "yearly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("terms/"),
         },
         {
             path: "/en/cookies/",
             priority: "0.5",
             changefreq: "yearly",
             lastmod: currentDate,
+            hreflangLinks: buildHreflang("cookies/"),
         },
     ];
 
@@ -350,6 +495,10 @@ export async function GET() {
             priority: "0.7",
             changefreq: "monthly",
             lastmod: postDate,
+            hreflangLinks: [
+                { hreflang: "x-default", href: `${base}/blog/${post.slug}/` },
+                { hreflang: "es", href: `${base}/es/blog/${post.slug}/` },
+            ],
             images: images.length > 0 ? images : undefined,
         };
     });
@@ -373,6 +522,10 @@ export async function GET() {
             priority: "0.7",
             changefreq: "monthly",
             lastmod: postDate,
+            hreflangLinks: [
+                { hreflang: "x-default", href: `${base}/blog/${post.slug}/` },
+                { hreflang: "es", href: `${base}/es/blog/${post.slug}/` },
+            ],
             images: images.length > 0 ? images : undefined,
         };
     });
@@ -396,6 +549,7 @@ export async function GET() {
             priority: "0.7",
             changefreq: "monthly",
             lastmod: postDate,
+            hreflangLinks: [{ hreflang: "en", href: `${base}/en/blog/${post.slug}/` }],
             images: images.length > 0 ? images : undefined,
         };
     });
@@ -417,6 +571,7 @@ export async function GET() {
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${allUrls
     .map((url) => {
@@ -425,6 +580,17 @@ ${allUrls
     <lastmod>${url.lastmod}</lastmod>
     <changefreq>${url.changefreq}</changefreq>
     <priority>${url.priority}</priority>`;
+
+        if (url.hreflangLinks && url.hreflangLinks.length > 0) {
+            urlXml +=
+                "\n" +
+                url.hreflangLinks
+                    .map(
+                        (link) =>
+                            `    <xhtml:link rel="alternate" hreflang="${link.hreflang}" href="${escapeXmlUrl(link.href)}"/>`
+                    )
+                    .join("\n");
+        }
 
         if (url.images && url.images.length > 0) {
             urlXml +=
