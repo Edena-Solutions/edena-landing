@@ -10,14 +10,14 @@ export async function GET() {
     const latestBlogEsDate =
         blogEsPosts.length > 0
             ? blogEsPosts
-                .sort((a, b) => b.data.date.localeCompare(a.data.date))[0]
-                .data.date.split("T")[0]
+                  .sort((a, b) => b.data.date.localeCompare(a.data.date))[0]
+                  .data.date.split("T")[0]
             : currentDate;
     const latestBlogEnDate =
         blogEnPosts.length > 0
             ? blogEnPosts
-                .sort((a, b) => b.data.date.localeCompare(a.data.date))[0]
-                .data.date.split("T")[0]
+                  .sort((a, b) => b.data.date.localeCompare(a.data.date))[0]
+                  .data.date.split("T")[0]
             : currentDate;
 
     interface SitemapUrl {
@@ -89,18 +89,6 @@ export async function GET() {
         },
         {
             path: "/demo/",
-            priority: "0.8",
-            changefreq: "monthly",
-            lastmod: currentDate,
-        },
-        {
-            path: "/es/demo/",
-            priority: "0.8",
-            changefreq: "monthly",
-            lastmod: currentDate,
-        },
-        {
-            path: "/en/demo/",
             priority: "0.8",
             changefreq: "monthly",
             lastmod: currentDate,
@@ -431,15 +419,18 @@ export async function GET() {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${allUrls
-            .map((url) => {
-                let urlXml = `  <url>
+    .map((url) => {
+        let urlXml = `  <url>
     <loc>${escapeXmlUrl(base + url.path)}</loc>
     <lastmod>${url.lastmod}</lastmod>
     <changefreq>${url.changefreq}</changefreq>
     <priority>${url.priority}</priority>`;
 
-                if (url.images && url.images.length > 0) {
-                    urlXml += "\n" + url.images.map((image) => {
+        if (url.images && url.images.length > 0) {
+            urlXml +=
+                "\n" +
+                url.images
+                    .map((image) => {
                         let imageXml = `    <image:image>
       <image:loc>${escapeXmlUrl(image.loc)}</image:loc>`;
                         if (image.title) {
@@ -447,13 +438,14 @@ ${allUrls
                         }
                         imageXml += "\n    </image:image>";
                         return imageXml;
-                    }).join("\n");
-                }
+                    })
+                    .join("\n");
+        }
 
-                urlXml += "\n  </url>";
-                return urlXml;
-            })
-            .join("\n")}
+        urlXml += "\n  </url>";
+        return urlXml;
+    })
+    .join("\n")}
 </urlset>`;
 
     return new Response(xml, {
