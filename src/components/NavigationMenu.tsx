@@ -133,11 +133,26 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
         },
     ];
 
-    const functionalities: MenuItem[] = [
+    const segments: MenuItem[] = [
         {
-            title: t.navigation.forCenter,
-            href: `/${lang}/centers`,
-            description: t.features.title,
+            title: t.navigation.nurseries,
+            href: `/${lang}/nurseries`,
+            description: t.navigation.nurseriesDescription,
+        },
+        {
+            title: t.navigation.schools,
+            href: `/${lang}/schools`,
+            description: t.navigation.schoolsDescription,
+        },
+        {
+            title: t.navigation.academies,
+            href: `/${lang}/academies`,
+            description: t.navigation.academiesDescription,
+        },
+        {
+            title: t.navigation.groups,
+            href: `/${lang}/groups`,
+            description: t.navigation.groupsDescription,
         },
         {
             title: t.navigation.forFamilies,
@@ -193,8 +208,8 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     {t.navigation.functionalities}
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
-                                    <ul className="grid w-[400px] gap-4 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                                        {functionalities.map((item) => (
+                                    <ul className="grid w-[400px] gap-2 p-2 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                                        {segments.map((item) => (
                                             <ListItem
                                                 key={item.title}
                                                 title={item.title}
@@ -209,11 +224,6 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             <NavigationMenuItem>
                                 <Link href={`/${lang}/pricing`}>
                                     <Button variant="ghost">{t.navigation.pricing}</Button>
-                                </Link>
-                            </NavigationMenuItem>
-                            <NavigationMenuItem>
-                                <Link href={`/${lang}/faqs`}>
-                                    <Button variant="ghost">{t.navigation.faqs}</Button>
                                 </Link>
                             </NavigationMenuItem>
                         </NavigationMenuList>
@@ -260,7 +270,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     {t.navigation.functionalities}
                                 </div>
                                 <ul>
-                                    {functionalities.map((item) => (
+                                    {segments.map((item) => (
                                         <li key={item.title}>
                                             <a
                                                 href={item.href}
@@ -279,14 +289,6 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                         className="block py-2 text-sm hover:text-primary"
                                     >
                                         {t.navigation.pricing}
-                                    </a>
-                                </div>
-                                <div>
-                                    <a
-                                        href={`/${lang}/faqs`}
-                                        className="block py-2 text-sm hover:text-primary"
-                                    >
-                                        {t.navigation.faqs}
                                     </a>
                                 </div>
                                 <div>

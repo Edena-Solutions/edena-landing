@@ -1,0 +1,142 @@
+---
+import { translations, languages } from "@/i18n/index.ts";
+
+import Layout from "@/layouts/main.astro";
+import Hero from "@/components/Hero.astro";
+import Section from "@/components/Section.astro";
+import GSAPSection from "@/components/ui/gsap-section";
+import FAQs from "@/modules/schools/FAQs.astro";
+import Features from "@/components/Features";
+import AppAnimation from "@/components/AppAnimation";
+import heroImage from "@/assets/img/screenshots/finance/invoice_analytics.png";
+import billingCycle from "@/assets/img/screenshots/finance/invoice_email.png";
+import evaluationCycle from "@/assets/img/screenshots/assignment/assignment_score_card.png";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { getCollection } from "astro:content";
+
+export function getStaticPaths() {
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+
+const faqsCollection = await getCollection("faqs");
+const schoolsFaqs = faqsCollection.find((entry) => entry.id === "faqsSchools.md");
+
+const features = [
+    {
+        icon: "GraduationCap",
+        title: t.features.studentFeatures.digitalRecords.title,
+        description: t.features.studentFeatures.digitalRecords.tagline,
+        navigateTo: `/${lang}/students`,
+    },
+    {
+        icon: "ClipboardList",
+        title: t.features.studentFeatures.attendanceTracking.title,
+        description: t.features.studentFeatures.attendanceTracking.tagline,
+        navigateTo: `/${lang}/students`,
+    },
+    {
+        icon: "BookOpen",
+        title: t.features.assignmentFeatures.gradeManagement.title,
+        description: t.features.assignmentFeatures.gradeManagement.tagline,
+        navigateTo: `/${lang}/assignment`,
+    },
+    {
+        icon: "FileText",
+        title: t.features.assignmentFeatures.automatedReports.title,
+        description: t.features.assignmentFeatures.automatedReports.tagline,
+        navigateTo: `/${lang}/assignment`,
+    },
+    {
+        icon: "CreditCard",
+        title: t.features.centersFeatures.automatedBilling.title,
+        description: t.features.centersFeatures.automatedBilling.tagline,
+        navigateTo: `/${lang}/finance`,
+    },
+    {
+        icon: "MessageCircle",
+        title: t.features.centersFeatures.communicationHub.title,
+        description: t.features.centersFeatures.communicationHub.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+];
+---
+
+<Layout
+    content={{ title: t.meta.schoolsTitle, description: t.meta.schoolsDescription }}
+    lang={lang}
+>
+    <GSAPSection client:load className="grid gap-16" animationType="opacity">
+        <Hero
+            t={t}
+            heroImage={heroImage}
+            showBookDemoInHero={true}
+            mainTitle={t.schools.mainTitle}
+            mainDescription={t.schools.mainDescription}
+            leftCard={{
+                title: t.schools.communicationTitle,
+                description: t.schools.communicationDescription,
+                showButton: true,
+            }}
+            rightCard={{
+                title: t.schools.automationTitle,
+                description: t.schools.automationDescription,
+                image: evaluationCycle,
+                altText: t.altText.evaluationCycle,
+            }}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={t.schools.integratedManagementTitle}
+            description={t.schools.integratedManagementDescription}
+        />
+        <Section
+            t={t}
+            sectionTitle={t.schools.familyAndBillingSectionTitle}
+            sectionDescription={t.schools.familyAndBillingSectionDescription}
+            leftCard={{
+                title: t.schools.realTimeCommunicationTitle,
+                description: t.schools.realTimeCommunicationDescription,
+                cardClass: "h-80 md:h-120 overflow-hidden",
+            }}
+            rightCard={{
+                title: t.schools.financialAutomationTitle,
+                description: t.schools.financialAutomationDescription,
+                image: billingCycle,
+                imageClass: "w-full mx-auto",
+                cardClass: "h-80 md:h-120 overflow-hidden",
+                altText: t.altText.studentClassroom,
+            }}
+        >
+            <AppAnimation slot="leftCardVisual" client:only="react" className="-mt-10 md:-mt-30" />
+        </Section>
+        <FAQs t={t} />
+    </GSAPSection>
+    <SoftwareApplicationSchema
+        slot="structured-data"
+        name="Edena - Software para Colegios"
+        description={t.meta.schoolsDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/schools`}
+        lang={lang}
+    />
+    {
+        schoolsFaqs?.data.faqs && (
+            <FAQPageSchema
+                slot="structured-data"
+                faqs={schoolsFaqs.data.faqs}
+                translations={t.faqs}
+                lang={lang}
+            />
+        )
+    }
+</Layout>

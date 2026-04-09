@@ -1,0 +1,142 @@
+---
+import { translations, languages } from "@/i18n/index.ts";
+
+import Layout from "@/layouts/main.astro";
+import Hero from "@/components/Hero.astro";
+import Section from "@/components/Section.astro";
+import GSAPSection from "@/components/ui/gsap-section";
+import FAQs from "@/modules/nurseries/FAQs.astro";
+import Features from "@/components/Features";
+import heroImage from "@/assets/img/screenshots/shared/hero.png";
+import billingCycle from "@/assets/img/screenshots/finance/invoice_email.png";
+import chatAnimation from "@/assets/animations/chat.json";
+import classroomDetail from "@/assets/img/screenshots/students/student_classroom.png";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { getCollection } from "astro:content";
+
+export function getStaticPaths() {
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+
+const faqsCollection = await getCollection("faqs");
+const nurseriesFaqs = faqsCollection.find((entry) => entry.id === "faqsNurseries.md");
+
+const features = [
+    {
+        icon: "MessageCircle",
+        title: t.features.centersFeatures.communicationHub.title,
+        description: t.features.centersFeatures.communicationHub.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+    {
+        icon: "CreditCard",
+        title: t.features.centersFeatures.automatedBilling.title,
+        description: t.features.centersFeatures.automatedBilling.tagline,
+        navigateTo: `/${lang}/finance`,
+    },
+    {
+        icon: "Smartphone",
+        title: t.features.appFeatures.parentPortal.title,
+        description: t.features.appFeatures.parentPortal.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+    {
+        icon: "Bell",
+        title: t.features.appFeatures.mobileNotifications.title,
+        description: t.features.appFeatures.mobileNotifications.tagline,
+        navigateTo: `/${lang}/app`,
+    },
+    {
+        icon: "Users",
+        title: t.features.centersFeatures.studentManagement.title,
+        description: t.features.centersFeatures.studentManagement.tagline,
+        navigateTo: `/${lang}/students`,
+    },
+    {
+        icon: "Shield",
+        title: t.features.centersFeatures.dataSecurity.title,
+        description: t.features.centersFeatures.dataSecurity.tagline,
+        navigateTo: `/${lang}/dashboard`,
+    },
+];
+---
+
+<Layout
+    content={{ title: t.meta.nurseryTitle, description: t.meta.nurseryDescription }}
+    lang={lang}
+>
+    <GSAPSection client:load className="grid gap-16" animationType="opacity">
+        <Hero
+            t={t}
+            heroImage={heroImage}
+            showBookDemoInHero={true}
+            mainTitle={t.nurseries.mainTitle}
+            mainDescription={t.nurseries.mainDescription}
+            leftCard={{
+                title: t.nurseries.communicationTitle,
+                description: t.nurseries.communicationDescription,
+                showButton: true,
+            }}
+            rightCard={{
+                title: t.nurseries.automationTitle,
+                description: t.nurseries.automationDescription,
+                image: billingCycle,
+                altText: t.altText.appFeed,
+            }}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={t.nurseries.integratedManagementTitle}
+            description={t.nurseries.integratedManagementDescription}
+        />
+        <Section
+            t={t}
+            sectionTitle={t.nurseries.dailyLifeSectionTitle}
+            sectionDescription={t.nurseries.dailyLifeSectionDescription}
+            leftCard={{
+                title: t.nurseries.realTimeCommunicationTitle,
+                description: t.nurseries.realTimeCommunicationDescription,
+                lottie: chatAnimation,
+                imageClass: "w-1/3 mx-auto",
+                cardClass: "md:h-120 overflow-hidden h-100",
+                altText: t.altText.notifications,
+            }}
+            rightCard={{
+                title: t.nurseries.childrenManagementTitle,
+                description: t.nurseries.childrenManagementDescription,
+                image: classroomDetail,
+                cardClass: "h-80 md:h-120 overflow-hidden",
+                altText: t.altText.studentClassroom,
+            }}
+        />
+        <FAQs t={t} />
+    </GSAPSection>
+    <SoftwareApplicationSchema
+        slot="structured-data"
+        name="Edena - Software para Guarderías"
+        description={t.meta.nurseryDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/nurseries`}
+        lang={lang}
+    />
+    {
+        nurseriesFaqs?.data.faqs && (
+            <FAQPageSchema
+                slot="structured-data"
+                faqs={nurseriesFaqs.data.faqs}
+                translations={t.faqs}
+                lang={lang}
+            />
+        )
+    }
+</Layout>

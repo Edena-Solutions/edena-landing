@@ -51,6 +51,18 @@ export default {
         cookiesTitle: "Cookie Policy | Edena School Management Software",
         cookiesDescription:
             "Understand how Edena uses cookies to improve your experience with our school management platform. Learn about cookie types, usage, and your privacy options.",
+        nurseryTitle: "Nursery & Infant School Management Software | Edena",
+        nurseryDescription:
+            "Purpose-built for nurseries: family communication, daily photos, automated billing and digital records. Cut admin time by 40% from day one. Free family app included.",
+        schoolsTitle: "School Management Software | Primary to Sixth Form | Edena",
+        schoolsDescription:
+            "Complete ERP for schools: student records, grades, attendance, automated billing and family communication. Built for primary through sixth form.",
+        academiesTitle: "Academy Management Software | Billing, CRM & Attendance | Edena",
+        academiesDescription:
+            "All-in-one platform for language, dance, music and sports academies: automated billing, enrollment CRM, attendance tracking and a free family app.",
+        groupsTitle: "Multi-School Management Platform for Educational Groups | Edena",
+        groupsDescription:
+            "Manage your school network from one centralised dashboard. Unified billing, consolidated reporting and consistent operations across every campus.",
     },
     hero: {
         mainTitle: "Run Your School Without the Paperwork",
@@ -113,6 +125,18 @@ export default {
         pricing: "Pricing",
         faqs: "FAQs",
         blog: "Blog",
+        nurseries: "For Nurseries",
+        nurseriesDescription:
+            "Purpose-built for nurseries and infant schools: family communication, daily photo updates, and effortless daily management.",
+        schools: "For Schools",
+        schoolsDescription:
+            "Complete ERP for primary through sixth form: students, grades, attendance, and billing in one place.",
+        academies: "For Academies",
+        academiesDescription:
+            "Management, student acquisition CRM, and automated billing for language, dance, music, and sports academies.",
+        groups: "For School Groups",
+        groupsDescription:
+            "Centralised management for school networks and multi-campus groups from a single unified dashboard.",
     },
     conclusion: {
         title: "Your School. Less Admin. Better Results.",
@@ -1140,6 +1164,26 @@ export default {
             description:
                 "Find answers about how Edena can help your center: communication, billing, automation and comprehensive management.",
         },
+        nurseries: {
+            title: "Frequently Asked Questions for Nurseries & Infant Schools",
+            description:
+                "Everything you need to know about using Edena in your nursery: family communication, daily updates, billing, and setup.",
+        },
+        schools: {
+            title: "Frequently Asked Questions for Schools",
+            description:
+                "Clear answers about managing primary through sixth form with Edena: grades, attendance, billing, and family communication.",
+        },
+        academies: {
+            title: "Frequently Asked Questions for Academies",
+            description:
+                "Everything you need to know about Edena for language, dance, music, sports, and other academies.",
+        },
+        groups: {
+            title: "Frequently Asked Questions for Educational Groups",
+            description:
+                "Answers about multi-campus management, centralised dashboards, and scaling your school network with Edena.",
+        },
         centers_communication_tools: "What communication tools does Edena offer?",
         centers_communication_tools_answer:
             "Edena offers a complete communication system that includes secure messaging with families, push notifications, photo and update sharing, shared event calendar and real-time bidirectional communication.",
@@ -1364,6 +1408,98 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
         onlineStoreDescription:
             "Purchase uniforms, school supplies, additional services such as cafeteria or extracurricular activities directly from the platform. Easy management of all your purchases.",
     },
+    nurseries: {
+        mainTitle: "The Management Platform Your Nursery Actually Needs",
+        mainDescription:
+            "Daily family communication, secure photo sharing, automated billing, and digital records. Designed for the pace of nurseries and infant schools.",
+        communicationTitle: "Families Always in the Loop",
+        communicationDescription:
+            "Share photos, daily updates, meals, and activities with parents instantly from the app. More reassurance for them, fewer calls for you.",
+        automationTitle: "Payments That Handle Themselves",
+        automationDescription:
+            "Set up your billing cycles once and Edena collects automatically every month. Manage direct debits and track late fees with zero manual effort.",
+        integratedManagementTitle: "Your Entire Nursery in One Place",
+        integratedManagementDescription:
+            "Records, attendance, communication, and billing integrated in one platform designed specifically for nurseries and infant schools.",
+        realTimeCommunicationTitle: "Day-by-Day Moment Updates",
+        realTimeCommunicationDescription:
+            "Staff share photos, meals, nap times, and activities from the app. Parents receive them instantly and securely on their phones.",
+        financialAutomationTitle: "Billing Without the Admin Burden",
+        financialAutomationDescription:
+            "Configure your fee structures once and Edena automates invoicing and collection every month. Verifactu-certified for full fiscal compliance.",
+        childrenManagementTitle: "Every Child's Day, Fully Tracked",
+        childrenManagementDescription:
+            "Attendance, meals, nap times, incidents, and developmental notes recorded per child. Complete digital records available to staff and visible to families in real time.",
+        dailyLifeSectionTitle: "Daily Life at Your Nursery, Fully Connected",
+        dailyLifeSectionDescription:
+            "From the moment children arrive to when they go home — every update shared with parents and every record stored digitally.",
+    },
+    schools: {
+        mainTitle: "The ERP Your School Has Been Waiting For",
+        mainDescription:
+            "Complete management for primary, secondary, and sixth form: student records, grades, attendance, billing, and family communication—all in one system.",
+        communicationTitle: "Centralised Family Communication",
+        communicationDescription:
+            "Secure messaging, attendance alerts, and school news in one app. No WhatsApp groups, no paper circulars, no missed messages.",
+        automationTitle: "Automated Report Cards and Grades",
+        automationDescription:
+            "Teachers record grades and the system generates report cards automatically. Families receive them in real time through the app.",
+        integratedManagementTitle: "Academic and Admin Management in One Click",
+        integratedManagementDescription:
+            "From enrolment to graduation, Edena centralises all academic data and significantly reduces your administrative team's workload.",
+        realTimeCommunicationTitle: "Real-Time Academic Visibility for Everyone",
+        realTimeCommunicationDescription:
+            "Families get immediate access to grades, attendance, and incidents. Headteachers get a complete school overview on a single live dashboard.",
+        financialAutomationTitle: "Automated School Billing",
+        financialAutomationDescription:
+            "Tuition, monthly fees, and additional services billed automatically with Verifactu, SEPA direct debits, and integrated late payment tracking.",
+        familyAndBillingSectionTitle: "Connected Families, Effortless Billing",
+        familyAndBillingSectionDescription:
+            "Everything families need in one app, and everything admin needs to collect fees without lifting a finger.",
+    },
+    academies: {
+        mainTitle: "Run Your Academy Without the Paperwork",
+        mainDescription:
+            "Automated billing, attendance tracking, student acquisition CRM, and family communication. Free your academy from admin so you can focus entirely on teaching.",
+        communicationTitle: "Capture More Students with the Built-In CRM",
+        communicationDescription:
+            "Manage every enquiry, track each lead through a visual pipeline, and convert more prospects into enrolled students. Your waiting list, always organised.",
+        automationTitle: "Automated Billing for Every Fee Structure",
+        automationDescription:
+            "Set monthly, quarterly, or per-activity rates and Edena invoices and collects automatically. No more chasing payments or sending reminders manually.",
+        integratedManagementTitle: "Full Control of Your Academy",
+        integratedManagementDescription:
+            "Attendance, payments, family communication, and place management per activity—all integrated so nothing falls through the cracks.",
+        realTimeCommunicationTitle: "Students and Families Always Informed",
+        realTimeCommunicationDescription:
+            "Automatic notifications about schedules, class changes, events, and pending payments sent straight to every family's app.",
+        financialAutomationTitle: "Billing Designed for Academies",
+        financialAutomationDescription:
+            "Per-activity rates, class bundles, family discounts, and partial payments—all handled automatically. Export to accounting with one click.",
+    },
+    groups: {
+        mainTitle: "One Platform for Your Entire School Network",
+        mainDescription:
+            "Manage your whole network of nurseries or schools from a single centralised dashboard. Complete visibility, operational consistency, and cost savings across every campus.",
+        communicationTitle: "Unified Multi-Campus Dashboard",
+        communicationDescription:
+            "Real-time metrics from every campus in one view. Compare performance, attendance, and financial health across your entire group instantly.",
+        automationTitle: "Centralised Billing Across the Whole Network",
+        automationDescription:
+            "Unify the financial management of all campuses. Fees, invoicing, and collections managed centrally with individual visibility per location.",
+        integratedManagementTitle: "Operational Consistency Across Every Campus",
+        integratedManagementDescription:
+            "Same processes, same standards, same family experience across every campus. Scale your network without multiplying administrative overhead.",
+        realTimeCommunicationTitle: "Unified Communication Across All Families",
+        realTimeCommunicationDescription:
+            "Centralise network-wide communications while preserving each campus's identity. Send global or per-campus messages in a single click.",
+        financialAutomationTitle: "Consolidated Financial Reporting",
+        financialAutomationDescription:
+            "Real-time income, occupancy, and late payment reports across your entire network. Make strategic decisions backed by data from every campus.",
+        networkSectionTitle: "Scale Your Network Without Scaling Your Workload",
+        networkSectionDescription:
+            "Grow from two centres to twenty without adding admin complexity. One platform that keeps every campus aligned.",
+    },
     centers: {
         mainTitle: "The Complete Operating System for Your School",
         mainDescription:
@@ -1477,6 +1613,11 @@ Users can configure their browser to accept, reject, or delete cookies. Disablin
 By browsing our website, the user accepts the use of cookies under the conditions set out in this policy.<br>
 5. MORE INFORMATION<br>
 For any questions about our cookie policy, you can contact privacidad@edena.es.`,
+    },
+    blog: {
+        ctaTitle: "Ready to transform your school's management?",
+        ctaDescription:
+            "Thousands of schools use Edena to save 15+ hours a week on admin. See it live with a free, no-commitment demo tailored to your center.",
     },
     altText: {
         logo: "Edena Logo - School Management Software",

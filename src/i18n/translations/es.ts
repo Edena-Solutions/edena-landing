@@ -24,7 +24,8 @@ export default {
         demoTitle: "Demo Gratuita de Software de Gestión Escolar | Edena",
         demoDescription:
             "Ve Edena en directo con una demo personalizada para tu centro. Te mostramos exactamente cómo encaja en tu día a día, sin compromiso y sin presión. Reserva en menos de 2 minutos.",
-        financeTitle: "Software de Facturación Escolar | Automatización Financiera para Centros | Edena",
+        financeTitle:
+            "Software de Facturación Escolar | Automatización Financiera para Centros | Edena",
         financeDescription:
             "Automatiza facturas, domiciliaciones SEPA y seguimiento de cobros. Facturación electrónica certificada Verifactu, recordatorios automáticos de impago e informes financieros completos.",
         guardiansTitle: "Portal de Familias para Colegios | Comunicación Centro-Familia | Edena",
@@ -35,7 +36,7 @@ export default {
             "Todo lo escolar en una app gratuita: notas, facturas, mensajes, fotos y la tienda del centro. Gestiona varios hijos desde una sola cuenta, en cualquier dispositivo.",
         centersTitle: "Plataforma de Gestión para Centros Educativos | Edena",
         centersDescription:
-            "Plataforma integral para colegios y guarderías: facturación automática, comunicación familiar, CRM, asistencia digital y expedientes. Reduce costes administrativos hasta un 40%.",
+            "Plataforma integral para colegios y escuelas infantiles: facturación automática, comunicación familiar, CRM, asistencia digital y expedientes. Reduce costes administrativos hasta un 40%.",
         crmTitle: "CRM Escolar | Gestiona Matrículas y Capta Familias | Edena",
         crmDescription:
             "Lleva el seguimiento de cada solicitud desde el primer contacto hasta la matriculación firmada. Pipeline visual, formularios web y historial completo. Aumenta las conversiones hasta un 35%.",
@@ -51,6 +52,18 @@ export default {
         cookiesTitle: "Política de Cookies | Software de Gestión Escolar Edena",
         cookiesDescription:
             "Entiende cómo Edena usa cookies para mejorar tu experiencia con nuestra plataforma de gestión escolar. Aprende sobre tipos de cookies, uso y tus opciones de privacidad.",
+        nurseryTitle: "Software Gestión Escuelas Infantiles | Comunicación y Facturación | Edena",
+        nurseryDescription:
+            "Software para escuelas infantiles: app para familias, fotos diarias, facturación automática y expedientes digitales. Reduce la carga administrativa un 40% desde el primer día.",
+        schoolsTitle: "Software de Gestión Escolar para Colegios | ERP Educativo | Edena",
+        schoolsDescription:
+            "ERP para colegios: expedientes, notas, asistencia, facturación automática y comunicación familiar en una sola plataforma. Para primaria, ESO y bachillerato.",
+        academiesTitle: "Software para Academias | Gestión, Facturación y CRM | Edena",
+        academiesDescription:
+            "Gestiona tu academia con facturación automática, CRM de captación, control de asistencia y app para familias. Para academias de idiomas, danza, música y deporte.",
+        groupsTitle: "Software Gestión Multi-Centro | Grupos y Redes Educativas | Edena",
+        groupsDescription:
+            "Plataforma multi-centro para grupos educativos: panel unificado, facturación centralizada y reporting consolidado en tiempo real. Gestiona toda tu red educativa desde un solo lugar.",
     },
     hero: {
         mainTitle: "Gestiona tu centro sin el papeleo de siempre",
@@ -118,6 +131,18 @@ export default {
         pricing: "Precios",
         faqs: "FAQs",
         blog: "Blog",
+        nurseries: "Para escuelas infantiles",
+        nurseriesDescription:
+            "Software pensado para escuelas infantiles: comunicación con familias, fotos diarias y gestión del día a día sin complicaciones.",
+        schools: "Para colegios",
+        schoolsDescription:
+            "ERP completo para colegios desde primaria hasta bachillerato: alumnos, notas, asistencia y facturación en un solo lugar.",
+        academies: "Para academias",
+        academiesDescription:
+            "Gestión, captación de alumnos y facturación automática para academias de idiomas, danza, música y otras disciplinas.",
+        groups: "Para grupos educativos",
+        groupsDescription:
+            "Gestión centralizada para grupos y redes de centros educativos desde un único panel unificado.",
     },
     conclusion: {
         title: "Tu centro. Menos administración. Mejores resultados.",
@@ -876,7 +901,7 @@ export default {
             "Sí, la plataforma permite crear y gestionar actividades extraescolares, controlar inscripciones y capacitar a las familias para inscribir o modificar la participación de sus hijos directamente desde su panel.",
         multiple_centers: "¿Es posible gestionar varios centros educativos a la vez?",
         multiple_centers_answer:
-            "Absolutamente. Edena ofrece potentes capacidades de gestión multi-sede desde un único panel centralizado, ideal para grupos escolares, cadenas de guarderías o instituciones con varias ubicaciones.",
+            "Absolutamente. Edena ofrece potentes capacidades de gestión multi-sede desde un único panel centralizado, ideal para grupos escolares, cadenas de escuelas infantiles o instituciones con varias ubicaciones.",
         center_dashboard: "¿Qué información proporciona el panel de control para directores?",
         center_dashboard_answer:
             "El panel ofrece métricas en tiempo real sobre asistencia, inscripciones, estado financiero, comunicaciones enviadas y rendimiento general del centro, ayudando a tomar decisiones basadas en datos.",
@@ -921,7 +946,7 @@ export default {
         finance: {
             title: "Preguntas frecuentes sobre gestión financiera escolar con Edena",
             description:
-                "Resuelve todas tus dudas sobre facturación, pagos, seguridad y automatización financiera en centros educativos con Edena. Descubre cómo optimizar la gestión económica de tu colegio o guardería.",
+                "Resuelve todas tus dudas sobre facturación, pagos, seguridad y automatización financiera en centros educativos con Edena. Descubre cómo optimizar la gestión económica de tu colegio o escuela infantil.",
         },
         finance_invoicing_process: "¿Cómo funciona el proceso de facturación en Edena?",
         finance_invoicing_process_answer:
@@ -1158,6 +1183,26 @@ export default {
             title: "Preguntas frecuentes sobre Edena para centros educativos",
             description:
                 "Encuentra respuestas sobre cómo Edena puede ayudar a tu centro: comunicación, facturación, automatización y gestión integral.",
+        },
+        nurseries: {
+            title: "Preguntas frecuentes para escuelas infantiles",
+            description:
+                "Todo lo que necesitas saber sobre Edena para escuelas infantiles: comunicación con familias, fotos diarias, facturación y puesta en marcha.",
+        },
+        schools: {
+            title: "Preguntas frecuentes para colegios",
+            description:
+                "Respuestas sobre gestión académica, facturación y comunicación familiar para colegios de primaria, secundaria y bachillerato.",
+        },
+        academies: {
+            title: "Preguntas frecuentes para academias",
+            description:
+                "Todo lo que necesitas saber sobre Edena para academias de idiomas, danza, música, deporte y otras disciplinas.",
+        },
+        groups: {
+            title: "Preguntas frecuentes para grupos educativos",
+            description:
+                "Respuestas sobre gestión multi-centro, dashboard centralizado y escalabilidad para grupos y redes de centros.",
         },
         centers_communication_tools: "¿Qué herramientas de comunicación ofrece Edena?",
         centers_communication_tools_answer:
@@ -1445,6 +1490,98 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
         onlineStoreDescription:
             "Compra uniformes, material escolar, servicios adicionales como comedor o actividades extraescolares directamente desde la plataforma. Gestión sencilla de todas tus compras.",
     },
+    nurseries: {
+        mainTitle: "La plataforma que necesita tu escuela infantil, sin complicaciones",
+        mainDescription:
+            "Comunicación diaria con familias, fotos seguras, facturación automática y expedientes digitales. Diseñado para el ritmo real de las escuelas infantiles.",
+        communicationTitle: "Familias siempre al día",
+        communicationDescription:
+            "Comparte fotos, actualizaciones diarias, menús y actividades con los padres al instante desde la app. Más tranquilidad para ellos, menos llamadas para ti.",
+        automationTitle: "Cobros que se gestionan solos",
+        automationDescription:
+            "Configura los ciclos de facturación una vez y Edena cobra automáticamente cada mes. Gestiona domiciliaciones y controla impagos sin trabajo manual.",
+        integratedManagementTitle: "Todo tu centro en un solo lugar",
+        integratedManagementDescription:
+            "Expedientes, asistencia, comunicación y facturación integrados en una plataforma pensada específicamente para escuelas infantiles.",
+        realTimeCommunicationTitle: "El día a día de tu escuela infantil, en tiempo real",
+        realTimeCommunicationDescription:
+            "El personal comparte fotos, comidas, siestas y actividades directamente desde la app. Los padres lo reciben al instante y de forma segura en su móvil.",
+        financialAutomationTitle: "Facturación sin carga administrativa",
+        financialAutomationDescription:
+            "Configura las tarifas una vez y Edena automatiza la facturación y el cobro cada mes. Certificado Verifactu para cumplir la normativa fiscal.",
+        childrenManagementTitle: "El día de cada niño, registrado al detalle",
+        childrenManagementDescription:
+            "Asistencia, comidas, siestas, incidencias y notas de desarrollo registradas por alumno. Expedientes digitales completos accesibles para el personal y visibles para las familias en tiempo real.",
+        dailyLifeSectionTitle: "El día a día de tu escuela infantil, todo conectado",
+        dailyLifeSectionDescription:
+            "Desde que llegan los niños hasta que se van; cada momento compartido con las familias y cada registro guardado digitalmente.",
+    },
+    schools: {
+        mainTitle: "El ERP que tu colegio necesitaba desde hace tiempo",
+        mainDescription:
+            "Gestión completa para centros de primaria, secundaria y bachillerato: expedientes, notas, asistencia, facturación y comunicación con familias. Todo en un solo sistema.",
+        communicationTitle: "Comunicación centralizada con familias",
+        communicationDescription:
+            "Mensajería segura, alertas de asistencia y novedades del centro en una sola app. Sin WhatsApp, sin circulares en papel, sin mensajes perdidos.",
+        automationTitle: "Boletines y calificaciones automáticos",
+        automationDescription:
+            "Los profesores registran las notas y el sistema genera los boletines automáticamente. Las familias los reciben en tiempo real a través de la app.",
+        integratedManagementTitle: "Gestión académica y administrativa en un clic",
+        integratedManagementDescription:
+            "Desde la matrícula hasta la graduación, Edena centraliza toda la información académica y reduce significativamente la carga del personal administrativo.",
+        realTimeCommunicationTitle: "Visibilidad académica en tiempo real para todos",
+        realTimeCommunicationDescription:
+            "Las familias acceden al instante a notas, asistencia e incidencias. Los directores tienen visión completa del centro en un único panel centralizado.",
+        financialAutomationTitle: "Facturación escolar automatizada",
+        financialAutomationDescription:
+            "Matrículas, cuotas mensuales y servicios adicionales facturados automáticamente con Verifactu, domiciliaciones SEPA y control de impagos integrado.",
+        familyAndBillingSectionTitle: "Familias conectadas, cobros sin esfuerzo",
+        familyAndBillingSectionDescription:
+            "Todo lo que las familias necesitan en una app y todo lo que administración necesita para cobrar sin trabajo manual.",
+    },
+    academies: {
+        mainTitle: "Gestiona tu academia sin el papeleo de siempre",
+        mainDescription:
+            "Facturación automática, control de asistencia, CRM de captación y comunicación con familias. Libera a tu academia del papeleo para que te centres en enseñar.",
+        communicationTitle: "Capta más alumnos con el CRM integrado",
+        communicationDescription:
+            "Gestiona cada consulta, lleva el seguimiento de cada lead en un pipeline visual y convierte más interesados en alumnos matriculados. Tu lista de espera, siempre organizada.",
+        automationTitle: "Facturación automática para tus tarifas",
+        automationDescription:
+            "Configura mensualidades, trimestres o tarifas por actividad y Edena factura y cobra automáticamente. Sin recordatorios manuales ni perseguir pagos.",
+        integratedManagementTitle: "Control total de tu academia",
+        integratedManagementDescription:
+            "Asistencia, cobros, comunicación con alumnos y familias, y gestión de plazas por actividad: todo integrado para que no se te escape nada.",
+        realTimeCommunicationTitle: "Alumnos y familias siempre informados",
+        realTimeCommunicationDescription:
+            "Notificaciones automáticas de horarios, cambios de clase, eventos y pagos pendientes directamente a la app de cada familia.",
+        financialAutomationTitle: "Facturación adaptada a academias",
+        financialAutomationDescription:
+            "Tarifas por actividad, bonos, descuentos familiares y pagos parciales gestionados automáticamente. Exporta a contabilidad con un clic.",
+    },
+    groups: {
+        mainTitle: "Una sola plataforma para toda tu red de centros",
+        mainDescription:
+            "Gestiona toda tu red de escuelas infantiles o colegios desde un único panel centralizado. Visibilidad total, operativa consistente y ahorro de costes en cada centro.",
+        communicationTitle: "Dashboard unificado multi-centro",
+        communicationDescription:
+            "Métricas en tiempo real de todos tus centros en una sola vista. Compara rendimiento, asistencia y situación financiera de toda la red al instante.",
+        automationTitle: "Facturación centralizada para toda la red",
+        automationDescription:
+            "Unifica la gestión económica de todos tus centros. Tarifas, facturación y cobros gestionados de forma central con visibilidad individual por centro.",
+        integratedManagementTitle: "Operativa consistente en cada centro",
+        integratedManagementDescription:
+            "Mismos procesos, mismos estándares y misma experiencia para las familias en toda la red. Escala sin multiplicar la carga administrativa.",
+        realTimeCommunicationTitle: "Comunicación unificada con todas las familias",
+        realTimeCommunicationDescription:
+            "Centraliza la comunicación de toda la red manteniendo la identidad de cada centro. Mensajes globales o por centro con un solo clic.",
+        financialAutomationTitle: "Reporting financiero consolidado",
+        financialAutomationDescription:
+            "Informes de ingresos, ocupación y morosidad de toda la red en tiempo real. Toma decisiones estratégicas con datos de todos tus centros.",
+        networkSectionTitle: "Crece sin multiplicar la carga administrativa",
+        networkSectionDescription:
+            "Pasa de dos centros a veinte sin añadir complejidad operativa. Una sola plataforma que mantiene cada centro alineado.",
+    },
     centers: {
         mainTitle: "El sistema operativo completo para tu centro educativo",
         mainDescription:
@@ -1468,7 +1605,7 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
     erpStats: {
         title: "Cómo ayudamos a crecer a nuestros clientes",
         description:
-            "Descubre cómo nuestras estrategias personalizadas ayudan a escuelas y guarderías a ahorrar tiempo, aumentar matrículas y mejorar la satisfacción de las familias.",
+            "Descubre cómo nuestras estrategias personalizadas ayudan a colegios y escuelas infantiles a ahorrar tiempo, aumentar matrículas y mejorar la satisfacción de las familias.",
         cases: [
             {
                 stat: "+100%",
@@ -1501,6 +1638,11 @@ Para cualquier duda sobre nuestra política de cookies, puede contactar con priv
                 bg: "highlight",
             },
         ],
+    },
+    blog: {
+        ctaTitle: "¿Listo para transformar la gestión de tu centro?",
+        ctaDescription:
+            "Miles de centros usan Edena para ahorrar más de 15 horas semanales en tareas administrativas. Ve cómo funciona con una demo gratuita y sin compromiso adaptada a tu centro.",
     },
     altText: {
         logo: "Logo de Edena - Software de Gestión Escolar",

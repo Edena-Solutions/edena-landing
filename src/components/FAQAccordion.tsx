@@ -6,7 +6,13 @@ import {
 } from "@/components/ui/accordion";
 import type { Translation } from "@/i18n";
 
-type FAQKey = keyof Translation["faqs"];
+type FAQRecord = Translation["faqs"];
+type FAQStringValue = string;
+
+function getFaqString(faqs: FAQRecord, key: string): FAQStringValue {
+    const value = faqs[key as keyof FAQRecord];
+    return typeof value === "string" ? value : key;
+}
 
 export interface FAQItem {
     question: string;
@@ -26,13 +32,13 @@ export default function FAQAccordion({ faqs, t }: FAQAccordionProps) {
                     return (
                         <AccordionItem key={`item-${index}`} value={`item-${index}`}>
                             <AccordionTrigger className="text-left font-medium cursor-pointer">
-                                {t.faqs[faq.question as FAQKey]}
+                                {getFaqString(t.faqs, faq.question)}
                             </AccordionTrigger>
                             <AccordionContent>
                                 <div
                                     className="prose prose-sm mt-2"
                                     dangerouslySetInnerHTML={{
-                                        __html: t.faqs[faq.answer as FAQKey],
+                                        __html: getFaqString(t.faqs, faq.answer),
                                     }}
                                 />
                             </AccordionContent>
