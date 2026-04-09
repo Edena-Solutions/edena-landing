@@ -178,8 +178,7 @@ const defaultImageAlt =
                 src="https://www.googletagmanager.com/ns.html?id=GTM-PF9S2VJ8"
                 height="0"
                 width="0"
-                style="display:none;visibility:hidden"
-            ></iframe>
+                style="display:none;visibility:hidden"></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
         <!-- Push page_view on every load/navigation so GTM tracks all routes (blog, faqs, demo, etc.). In GTM: add trigger Custom Event = "page_view" and fire your GA4 page view tag on it (you can use this instead of "All Pages" to avoid duplicates). -->
@@ -194,7 +193,7 @@ const defaultImageAlt =
             })();
         </script>
         <MainNavigationMenu client:load lang={lang} />
-        <main class="pt-15 flex-grow w-full overflow-x-clip">
+        <main class="pt-15 flex-grow w-full max-w-[2000px] mx-auto overflow-x-clip">
             <slot />
         </main>
         <Footer lang={lang} />
