@@ -78,7 +78,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
 
     if (status === "success") {
         return (
-            <div className="rounded bg-secondary p-6 text-center space-y-2">
+            <div className="max-w-xl mx-auto rounded bg-secondary p-6 text-center space-y-2">
                 <p className="font-semibold text-lg">{ct.successTitle}</p>
                 <p className="text-muted-foreground text-sm">{ct.successDescription}</p>
             </div>
