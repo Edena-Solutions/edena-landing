@@ -26,7 +26,7 @@ const t = translations[lang as keyof typeof translations];
                 <h1 class="text-xl font-bold">{t.contact.title}</h1>
                 <p>{t.contact.description}</p>
             </div>
-            <ContactForm client:load lang={lang} />
+            <ContactForm client:load lang={lang} formspreeUrl={import.meta.env.PUBLIC_FORMSPREE_URL} />
             <div
                 class="bg-gradient-primary mt-8 rounded px-8 py-10 md:px-14 md:py-14 flex flex-col items-center text-center gap-6 max-w-xl mx-auto"
             >

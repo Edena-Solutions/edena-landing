@@ -20,6 +20,8 @@ jobs:
               with:
                   path: .
                   package-manager: pnpm@latest
+              env:
+                  PUBLIC_FORMSPREE_URL: ${{ secrets.PUBLIC_FORMSPREE_URL }}
 
     deploy:
         needs: build

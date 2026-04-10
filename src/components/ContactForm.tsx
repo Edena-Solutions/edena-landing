@@ -8,9 +8,10 @@ import { translations } from "@/i18n/index.ts";
 
 interface Props {
     lang: string;
+    formspreeUrl: string;
 }
 
-export function ContactForm({ lang }: Props) {
+export function ContactForm({ lang, formspreeUrl }: Props) {
     const t = translations[lang as keyof typeof translations];
     const ct = t.contact;
 
@@ -58,7 +59,7 @@ export function ContactForm({ lang }: Props) {
 
         setStatus("submitting");
         try {
-            const response = await fetch(import.meta.env.PUBLIC_FORMSPREE_URL, {
+            const response = await fetch(formspreeUrl, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(result.data),
