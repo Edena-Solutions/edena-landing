@@ -58,10 +58,10 @@ export function ContactForm({ lang }: Props) {
 
         setStatus("submitting");
         try {
-            const response = await fetch("/api/contact", {
+            const response = await fetch(import.meta.env.PUBLIC_FORMSPREE_URL, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ ...result.data, lang }),
+                body: JSON.stringify(result.data),
             });
 
             if (response.ok) {
