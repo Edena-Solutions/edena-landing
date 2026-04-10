@@ -1,0 +1,49 @@
+---
+import { translations, languages } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+import { ContactForm } from "@/components/ContactForm";
+import Link from "@/components/ui/link";
+import { Button } from "@/components/ui/button";
+
+export function getStaticPaths() {
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+---
+
+<Layout
+    content={{ title: t.meta.contactTitle, description: t.meta.contactDescription }}
+    lang={lang}
+>
+    <section class="grid gap-10 px-4">
+        <div class="max-w-2xl mx-auto w-full space-y-8">
+            <div class="text-center flex flex-col gap-6 items-center mx-auto pt-10">
+                <h1 class="text-xl font-bold">{t.contact.title}</h1>
+                <p>{t.contact.description}</p>
+            </div>
+            <ContactForm client:load lang={lang} />
+            <div
+                class="bg-gradient-primary mt-8 rounded px-8 py-10 md:px-14 md:py-14 flex flex-col items-center text-center gap-6 max-w-xl mx-auto"
+            >
+                <div class="flex flex-col items-center gap-3 text-white">
+                    <h2 class="text-xl md:text-2xl font-bold max-w-xl">
+                        {t.blog.ctaTitle}
+                    </h2>
+                    <p class="max-w-lg text-sm md:text-base">
+                        {t.blog.ctaDescription}
+                    </p>
+                </div>
+                <Link href="/demo">
+                    <Button variant="white">
+                        {t.bookDemo}
+                    </Button>
+                </Link>
+            </div>
+        </div>
+    </section>
+</Layout>

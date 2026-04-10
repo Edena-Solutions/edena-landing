@@ -64,6 +64,9 @@ export default {
         groupsTitle: "Software Gestión Multi-Centro | Grupos y Redes Educativas | Edena",
         groupsDescription:
             "Plataforma multi-centro para grupos educativos: panel unificado, facturación centralizada y reporting consolidado en tiempo real. Gestiona toda tu red educativa desde un solo lugar.",
+        contactTitle: "Contacto | Edena - Software de Gestión Escolar",
+        contactDescription:
+            "¿Tienes alguna pregunta sobre Edena? Ponte en contacto con nuestro equipo. Estamos aquí para ayudarte a encontrar la mejor solución para tu centro educativo.",
     },
     hero: {
         mainTitle: "Gestiona tu centro sin el papeleo de siempre",
@@ -129,6 +132,7 @@ export default {
         assignmentDescription:
             "Planifica tareas, ciclos de evaluación y seguimiento de calificaciones. Boletines automáticos y visibilidad para familias.",
         pricing: "Precios",
+        contact: "Contáctanos",
         faqs: "FAQs",
         blog: "Blog",
         nurseries: "Para escuelas infantiles",
@@ -143,6 +147,29 @@ export default {
         groups: "Para grupos educativos",
         groupsDescription:
             "Gestión centralizada para grupos y redes de centros educativos desde un único panel unificado.",
+    },
+    contact: {
+        title: "¿Hablamos?",
+        description: "Cuéntanos en qué podemos ayudarte y te responderemos lo antes posible.",
+        namePlaceholder: "Nombre",
+        nameLabel: "Nombre",
+        emailLabel: "Email",
+        emailPlaceholder: "tu@email.com",
+        centerLabel: "Nombre del centro",
+        centerPlaceholder: "Colegio, academia, escuela infantil...",
+        messageLabel: "Mensaje",
+        messagePlaceholder: "¿En qué podemos ayudarte?",
+        submit: "Enviar mensaje",
+        submitting: "Enviando...",
+        successTitle: "¡Mensaje enviado!",
+        successDescription: "Hemos recibido tu mensaje. Te responderemos en breve.",
+        errorTitle: "Error al enviar",
+        errorDescription: "Ha ocurrido un error. Por favor, inténtalo de nuevo.",
+        nameRequired: "El nombre es obligatorio",
+        emailRequired: "El email es obligatorio",
+        emailInvalid: "Introduce un email válido",
+        messageRequired: "El mensaje es obligatorio",
+        messageMinLength: "El mensaje debe tener al menos 10 caracteres",
     },
     conclusion: {
         title: "Tu centro. Menos administración. Mejores resultados.",

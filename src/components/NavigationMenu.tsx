@@ -226,6 +226,11 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     <Button variant="ghost">{t.navigation.pricing}</Button>
                                 </Link>
                             </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <Link href={`/${lang}/contact`}>
+                                    <Button variant="ghost">{t.navigation.contact}</Button>
+                                </Link>
+                            </NavigationMenuItem>
                         </NavigationMenuList>
                     </NavigationMenu>
                 </div>
@@ -289,6 +294,14 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                         className="block py-2 text-sm hover:text-primary"
                                     >
                                         {t.navigation.pricing}
+                                    </a>
+                                </div>
+                                <div>
+                                    <a
+                                        href={`/${lang}/contact`}
+                                        className="block py-2 text-sm hover:text-primary"
+                                    >
+                                        {t.navigation.contact}
                                     </a>
                                 </div>
                                 <div>

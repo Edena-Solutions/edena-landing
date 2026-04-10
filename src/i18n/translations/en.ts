@@ -63,6 +63,9 @@ export default {
         groupsTitle: "Multi-School Management Platform for Educational Groups | Edena",
         groupsDescription:
             "Manage your school network from one centralised dashboard. Unified billing, consolidated reporting and consistent operations across every campus.",
+        contactTitle: "Contact | Edena - School Management Software",
+        contactDescription:
+            "Have a question about Edena? Get in touch with our team. We're here to help you find the best solution for your school.",
     },
     hero: {
         mainTitle: "Run Your School Without the Paperwork",
@@ -123,6 +126,7 @@ export default {
         assignmentDescription:
             "Plan assignments, evaluation cycles and grade tracking. Automated report cards and family visibility.",
         pricing: "Pricing",
+        contact: "Contact Us",
         faqs: "FAQs",
         blog: "Blog",
         nurseries: "For Nurseries",
@@ -137,6 +141,29 @@ export default {
         groups: "For School Groups",
         groupsDescription:
             "Centralised management for school networks and multi-campus groups from a single unified dashboard.",
+    },
+    contact: {
+        title: "Get in Touch",
+        description: "Tell us how we can help and we'll get back to you as soon as possible.",
+        namePlaceholder: "Name",
+        nameLabel: "Name",
+        emailLabel: "Email",
+        emailPlaceholder: "you@email.com",
+        centerLabel: "School name",
+        centerPlaceholder: "School, academy, nursery...",
+        messageLabel: "Message",
+        messagePlaceholder: "How can we help you?",
+        submit: "Send message",
+        submitting: "Sending...",
+        successTitle: "Message sent!",
+        successDescription: "We've received your message. We'll get back to you shortly.",
+        errorTitle: "Failed to send",
+        errorDescription: "Something went wrong. Please try again.",
+        nameRequired: "Name is required",
+        emailRequired: "Email is required",
+        emailInvalid: "Please enter a valid email",
+        messageRequired: "Message is required",
+        messageMinLength: "Message must be at least 10 characters",
     },
     conclusion: {
         title: "Your School. Less Admin. Better Results.",
