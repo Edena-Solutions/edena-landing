@@ -1,5 +1,5 @@
 export default {
-    bookDemo: "Sol·licita la teva demo gratuïta",
+    bookDemo: "Sol·licita demo gratuïta",
     downloadTheApp: "Descarrega l'app gratuïta",
     knowMore: "Veure la demo en directe",
     meta: {
