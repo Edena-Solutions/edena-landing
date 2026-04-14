@@ -6,6 +6,7 @@ export async function GET() {
 
     const blogEsPosts = await getCollection("blogEs");
     const blogEnPosts = await getCollection("blogEn");
+    const blogCaPosts = await getCollection("blogCa");
 
     const latestBlogEsDate =
         blogEsPosts.length > 0
@@ -610,7 +611,37 @@ export async function GET() {
         };
     });
 
-    const allUrls = [...staticUrls, ...blogEsUrls, ...blogEsUrlsWithPrefix, ...blogEnUrls];
+    const blogCaUrls: SitemapUrl[] = blogCaPosts.map((post) => {
+        const postDate = post.data.date.split("T")[0];
+        const images: Array<{ loc: string; title?: string }> = [];
+
+        if (post.data.cover) {
+            const imageUrl = post.data.cover.startsWith("http")
+                ? post.data.cover
+                : `${base}${post.data.cover.startsWith("/") ? "" : "/"}${post.data.cover}`;
+            images.push({
+                loc: imageUrl,
+                title: post.data.title,
+            });
+        }
+
+        return {
+            path: `/ca/blog/${post.slug}/`,
+            priority: "0.7",
+            changefreq: "monthly",
+            lastmod: postDate,
+            hreflangLinks: [{ hreflang: "ca", href: `${base}/ca/blog/${post.slug}/` }],
+            images: images.length > 0 ? images : undefined,
+        };
+    });
+
+    const allUrls = [
+        ...staticUrls,
+        ...blogEsUrls,
+        ...blogEsUrlsWithPrefix,
+        ...blogEnUrls,
+        ...blogCaUrls,
+    ];
 
     const escapeXmlUrl = (url: string): string => {
         return url.replace(/&/g, "&amp;");

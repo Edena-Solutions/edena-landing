@@ -75,9 +75,17 @@ function buildPlanFeatureBlocks(
 function formatPricePerChild(value: number, planId: string, locale: string): string {
     const formatted = formatPrice(value, locale);
     if (planId === "complete") {
-        return locale === "es" ? `${formatted}/niño + 10€/mes` : `${formatted}/child + €10/month`;
+        return locale === "es"
+            ? `${formatted}/niño + 10€/mes`
+            : locale === "ca"
+              ? `${formatted}/nen + 10€/mes`
+              : `${formatted}/child + €10/month`;
     }
-    return locale === "es" ? `${formatted} por niño` : `${formatted} per child`;
+    return locale === "es"
+        ? `${formatted} por niño`
+        : locale === "ca"
+          ? `${formatted} per nen`
+          : `${formatted} per child`;
 }
 
 interface PricingTabsProps {
@@ -200,13 +208,17 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
                             fromNumeric != null
                                 ? lang === "es"
                                     ? `Desde ${monthlyFromStr} al mes`
-                                    : `From ${monthlyFromStr}/month`
+                                    : lang === "ca"
+                                      ? `Des de ${monthlyFromStr}/mes`
+                                      : `From ${monthlyFromStr}/month`
                                 : null;
                         const annualFromLabel =
                             fromNumeric != null
                                 ? lang === "es"
                                     ? `Desde ${annualFromStr} al mes`
-                                    : `From ${annualFromStr}/month`
+                                    : lang === "ca"
+                                      ? `Des de ${annualFromStr}/mes`
+                                      : `From ${annualFromStr}/month`
                                 : null;
                         const singleFromLabel =
                             fromNumeric != null

@@ -3,10 +3,11 @@ export default {
     downloadTheApp: "Descarrega l'app gratuïta",
     knowMore: "Veure la demo en directe",
     meta: {
-        homeTitle: "Programari de gestió escolar per a col·legis i llars d'infants | Edena",
+        homeTitle: "Programa de gestió escolar per a centres educatius | Edena",
         homeDescription:
             "Deixa de perdre hores en administració. Edena automatitza la facturació, l'assistència i la comunicació amb les famílies en una sola plataforma. Redueix costos un 40% i augmenta la satisfacció familiar un 60%. Demo gratuïta.",
-        pricingTitle: "Preus del programari de gestió escolar | Des de 44 €/mes | Sense compromís | Edena",
+        pricingTitle:
+            "Preus del programari de gestió escolar | Des de 44 €/mes | Sense compromís | Edena",
         pricingDescription:
             "Preu per alumne que s'adapta al teu centre. Sense quota d'alta, sense permanència, sense costos ocults. Des de 44 €/mes amb expedient digital, assistència i portal familiar. Prova gratuïta de 30 dies.",
         faqsTitle: "Preguntes freqüents sobre gestió escolar | Edena",
@@ -15,7 +16,7 @@ export default {
         dashboardTitle: "Panell de control escolar | Analítica en temps real | Edena",
         dashboardDescription:
             "Assistència, finances, matrícules i comunicacions en un sol panell actualitzat a l'instant. Detecta problemes abans que passin i pren decisions amb dades sempre vigents.",
-        studentsTitle: "Programari de gestió d'alumnes | Expedients, assistència i notes | Edena",
+        studentsTitle: "Programa de gestió d'alumnes | Expedients, assistència i notes | Edena",
         studentsDescription:
             "Expedients digitals, assistència automàtica, qualificacions i generació de butlletins en una sola plataforma. Redueix la càrrega administrativa un 40% des del primer dia.",
         appTitle: "App mòbil per a col·legis | Comunicació famílies-centre | Edena Kids",
@@ -25,7 +26,7 @@ export default {
         demoDescription:
             "Veure Edena en directe amb una demo personalitzada per al teu centre. Et mostrem exactament com encaixa en el teu dia a dia, sense compromís i sense pressió. Reserva en menys de 2 minuts.",
         financeTitle:
-            "Programari de facturació escolar | Automatització financera per a centres | Edena",
+            "Programa de facturació escolar | Automatització financera per a centres | Edena",
         financeDescription:
             "Automatitza factures, domiciliacions SEPA i seguiment de cobraments. Facturació electrònica certificada Verifactu, recordatoris automàtics d'impagament i informes financers complets.",
         guardiansTitle: "Portal de famílies per a col·legis | Comunicació centre-família | Edena",
@@ -40,31 +41,31 @@ export default {
         crmTitle: "CRM escolar | Gestiona matrícules i captura famílies | Edena",
         crmDescription:
             "Fes el seguiment de cada sol·licitud des del primer contacte fins a la matrícula signada. Pipeline visual, formularis web i historial complet. Augmenta les conversions fins a un 35%.",
-        assignmentTitle: "Programari d'avaluacions escolars | Tasques i qualificacions | Edena",
+        assignmentTitle: "Programa d'avaluacions escolars | Tasques i qualificacions | Edena",
         assignmentDescription:
             "Planifica tasques, configura cicles d'avaluació i genera butlletins automàticament. Les famílies veuen les notes en temps real. El teu equip docent redueix la càrrega de correcció un 40%.",
-        privacyTitle: "Política de privacitat | Programari de gestió escolar Edena",
+        privacyTitle: "Política de privacitat | Programa de gestió escolar Edena",
         privacyDescription:
             "Descobreix com Edena protegeix les dades del teu centre i manté estàndards de privacitat. La nostra política de privacitat integral garanteix la seguretat de la informació estudiantil, familiar i institucional.",
-        termsTitle: "Termes del servei | Programari de gestió escolar Edena",
+        termsTitle: "Termes del servei | Programa de gestió escolar Edena",
         termsDescription:
             "Revisa els termes del servei d'Edena per a la nostra plataforma de gestió escolar. Comprend els nostres acords de servei, responsabilitats de l'usuari i pautes d'ús de la plataforma.",
-        cookiesTitle: "Política de galetes | Programari de gestió escolar Edena",
+        cookiesTitle: "Política de galetes | Programa de gestió escolar Edena",
         cookiesDescription:
             "Comprend com Edena utilitza galetes per millorar la teva experiència amb la nostra plataforma de gestió escolar. Aprèn sobre tipus de galetes, ús i les teves opcions de privacitat.",
-        nurseryTitle: "Programari de gestió d'escoles infantils | Comunicació i facturació | Edena",
+        nurseryTitle: "Programa de gestió d'escoles infantils | Comunicació i facturació | Edena",
         nurseryDescription:
-            "Programari per a escoles infantils: app per a famílies, fotos diàries, facturació automàtica i expedients digitals. Redueix la càrrega administrativa un 40% des del primer dia.",
-        schoolsTitle: "Programari de gestió escolar per a col·legis | ERP educatiu | Edena",
+            "Programa per a escoles infantils: app per a famílies, fotos diàries, facturació automàtica i expedients digitals. Redueix la càrrega administrativa un 40% des del primer dia.",
+        schoolsTitle: "Programa de gestió escolar per a col·legis | ERP educatiu | Edena",
         schoolsDescription:
             "ERP per a col·legis: expedients, notes, assistència, facturació automàtica i comunicació familiar en una sola plataforma. Per a primària, ESO i batxillerat.",
-        academiesTitle: "Programari per a acadèmies | Gestió, facturació i CRM | Edena",
+        academiesTitle: "Programa per a acadèmies | Gestió, facturació i CRM | Edena",
         academiesDescription:
             "Gestiona la teva acadèmia amb facturació automàtica, CRM de captació, control d'assistència i app per a famílies. Per a acadèmies d'idiomes, dansa, música i esport.",
-        groupsTitle: "Programari de gestió multi-centre | Grups i xarxes educatives | Edena",
+        groupsTitle: "Programa de gestió multi-centre | Grups i xarxes educatives | Edena",
         groupsDescription:
             "Plataforma multi-centre per a grups educatius: panell unificat, facturació centralitzada i reporting consolidat en temps real. Gestiona tota la teva xarxa educativa des d'un sol lloc.",
-        contactTitle: "Contacte | Edena - Programari de gestió escolar",
+        contactTitle: "Contacte | Edena - Programa de gestió escolar",
         contactDescription:
             "Tens alguna pregunta sobre Edena? Posa't en contacte amb el nostre equip. Som aquí per ajudar-te a trobar la millor solució per al teu centre educatiu.",
     },
@@ -137,7 +138,7 @@ export default {
         blog: "Blog",
         nurseries: "Per a escoles infantils",
         nurseriesDescription:
-            "Programari pensat per a escoles infantils: comunicació amb famílies, fotos diàries i gestió del dia a dia sense complicacions.",
+            "Programa pensat per a escoles infantils: comunicació amb famílies, fotos diàries i gestió del dia a dia sense complicacions.",
         schools: "Per a col·legis",
         schoolsDescription:
             "ERP complet per a col·legis des de primària fins a batxillerat: alumnes, notes, assistència i facturació en un sol lloc.",
@@ -1672,7 +1673,7 @@ Per a qualsevol dubte sobre la nostra política de galetes, pots contactar amb p
             "Milers de centres usen Edena per estalviar més de 15 hores setmanals en tasques administratives. Veure com funciona amb una demo gratuïta i sense compromís adaptada al teu centre.",
     },
     altText: {
-        logo: "Logotip d'Edena - Programari de gestió escolar",
+        logo: "Logotip d'Edena - Programa de gestió escolar",
         heroImage:
             "Dashboard de gestió escolar Edena amb anàlisi en temps real i eines administratives",
         appStoreBadge: "Descarregar Edena a l'App Store",
@@ -1680,8 +1681,7 @@ Per a qualsevol dubte sobre la nostra política de galetes, pots contactar amb p
         appDetail:
             "App mòbil Edena per a famílies amb notificacions d'assistència estudiantil i comunicació escolar",
         dashboardHero: "Panell de control escolar Edena amb mètriques i anàlisi en temps real",
-        studentsHero:
-            "Sistema d'informació estudiantil Edena amb gestió d'expedients acadèmics",
+        studentsHero: "Sistema d'informació estudiantil Edena amb gestió d'expedients acadèmics",
         guardiansHero: "Portal de famílies Edena per a comunicació i seguiment acadèmic",
         financeHero: "Suite financera Edena amb facturació automàtica i gestió de pagaments",
         billingCycle: "Cicle de facturació automatitzat a Edena per a centres educatius",

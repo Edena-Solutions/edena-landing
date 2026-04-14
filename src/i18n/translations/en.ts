@@ -3,7 +3,7 @@ export default {
     downloadTheApp: "Download Free App",
     knowMore: "See It in Action",
     meta: {
-        homeTitle: "School Management Software for Schools & Daycares | Edena",
+        homeTitle: "School Management Software for Educational Centers | Edena",
         homeDescription:
             "Stop spending hours on admin. Edena automates billing, attendance, and family communication in one platform. Schools cut admin costs 40% and boost family satisfaction 60%. Free personalized demo.",
         pricingTitle: "School Management Software Pricing | From €44/month | Edena",

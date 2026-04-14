@@ -3,7 +3,7 @@ export default {
     downloadTheApp: "Descarga la app gratuita",
     knowMore: "Ver la demo en vivo",
     meta: {
-        homeTitle: "Software de Gestión Escolar para Colegios y Guarderías | Edena",
+        homeTitle: "Software de Gestión Escolar para Centros Educativos | Edena",
         homeDescription:
             "Deja de perder horas en administración. Edena automatiza facturación, asistencia y comunicación familiar en una sola plataforma. Reduce costes un 40% y aumenta la satisfacción familiar un 60%. Demo gratuita.",
         pricingTitle: "Precios Software Gestión Escolar | Desde 44€/mes | Sin Compromiso | Edena",

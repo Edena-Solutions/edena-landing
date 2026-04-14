@@ -12,6 +12,7 @@ import { Button } from "@/components/ui/button";
 export async function getStaticPaths() {
     const postsEs = await getCollection("blogEs");
     const postsEn = await getCollection("blogEn");
+    const postsCa = await getCollection("blogCa");
 
     const pathsEs = postsEs.map((post) => ({
         params: { lang: "es", slug: post.slug },
@@ -23,19 +24,25 @@ export async function getStaticPaths() {
         props: { lang: "en", slug: post.slug },
     }));
 
-    return [...pathsEs, ...pathsEn];
+    const pathsCa = postsCa.map((post) => ({
+        params: { lang: "ca", slug: post.slug },
+        props: { lang: "ca", slug: post.slug },
+    }));
+
+    return [...pathsEs, ...pathsEn, ...pathsCa];
 }
 
 const { lang, slug } = Astro.props;
 const t = translations[lang as keyof typeof translations];
-const collectionName = lang === "en" ? "blogEn" : "blogEs";
+const collectionName =
+    lang === "en" ? "blogEn" : lang === "ca" ? "blogCa" : "blogEs";
 const post = await getEntry(collectionName, slug);
 if (!post) throw new Error("Post not found");
 const { Content } = await post.render();
 
 const postUrl = `https://edena.es/${lang}/blog/${slug}`;
 const blogUrl = `https://edena.es/${lang}/blog`;
-const homeUrl = `https://edena.es/${lang === "es" ? "" : lang + "/"}`;
+const homeUrl = `https://edena.es/${lang === "es" ? "" : `${lang}/`}`;
 
 const publishedDate = new Date(post.data.date).toISOString();
 const ogImage = post.data.cover || "https://edena.es/assets/img/favicon.png";
@@ -127,7 +134,11 @@ const ogImageHeight = post.data.cover ? "630" : "630";
     <BreadcrumbListSchema
         slot="structured-data"
         items={[
-            { name: lang === "es" ? "Inicio" : "Home", url: homeUrl },
+            {
+                name:
+                    lang === "es" ? "Inicio" : lang === "ca" ? "Inici" : "Home",
+                url: homeUrl,
+            },
             { name: t.navigation.blog, url: blogUrl },
             { name: post.data.title, url: postUrl },
         ]}
