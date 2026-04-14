@@ -17,6 +17,7 @@ interface LanguageSwitcherProps {
 const languageNames: Record<string, { code: string; name: string }> = {
     en: { code: "EN", name: "English" },
     es: { code: "ES", name: "Español" },
+    ca: { code: "CA", name: "Català" },
 };
 
 export default function LanguageSwitcher({ currentLang, currentPath }: LanguageSwitcherProps) {
@@ -47,7 +48,7 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
         return (
             <>
                 <div className="flex gap-2 md:hidden">
-                    {["es", "en"].map((lang) => (
+                    {languages.map((lang) => (
                         <a
                             key={lang}
                             href={`/${lang}${currentPath || "/"}`}
@@ -72,7 +73,7 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
     return (
         <>
             <div className="flex gap-2 md:hidden">
-                {["es", "en"].map((lang) => (
+                {languages.map((lang) => (
                     <a
                         key={lang}
                         href={createLanguageUrl(lang)}

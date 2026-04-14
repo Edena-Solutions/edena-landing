@@ -1,4 +1,4 @@
-export const languages = ["en", "es"];
+export const languages = ["es", "en", "ca"];
 export const defaultLanguage = "es";
 
 export function getLanguageFromURL(pathname: string): string {
