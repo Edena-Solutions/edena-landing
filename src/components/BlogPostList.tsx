@@ -64,7 +64,7 @@ export const BlogPostList: React.FC<BlogPostListProps> = ({ posts, lang }) => {
         setVisibleCount((prev) => Math.min(prev + POSTS_PER_PAGE, posts.length));
     };
 
-    const buttonText = lang === "es" ? "Cargar más" : "Load more";
+    const buttonText = lang === "es" ? "Cargar más" : lang === "ca" ? "Carregar més" : "Load more";
 
     return (
         <>
@@ -83,8 +83,8 @@ export const BlogPostList: React.FC<BlogPostListProps> = ({ posts, lang }) => {
                                             <Badge
                                                 variant={
                                                     tagVariantMap[
-                                                    post.data
-                                                        .tags[0] as keyof typeof tagVariantMap
+                                                        post.data
+                                                            .tags[0] as keyof typeof tagVariantMap
                                                     ] ?? "default"
                                                 }
                                                 className="capitalize rounded-sm"
