@@ -70,7 +70,7 @@ export default {
             "Tens alguna pregunta sobre Edena? Posa't en contacte amb el nostre equip. Som aquí per ajudar-te a trobar la millor solució per al teu centre educatiu.",
     },
     hero: {
-        mainTitle: "Gestiona el teu centre sense el paperam de sempre",
+        mainTitle: "Gestiona el teu centre sense la paperassa de sempre",
         mainDescription:
             "Una sola plataforma per a facturació, expedients, assistència i comunicació amb les famílies. Els centres redueixen tasques administratives un 40% i milloren la satisfacció familiar un 60%. Prova gratuïta.",
         mobileTitle: "Connecta amb cada família, sense esforç extra",
@@ -103,7 +103,7 @@ export default {
         termsOfService: "Termes del servei",
         cookiePolicy: "Política de galetes",
         description:
-            "Edena és la plataforma de gestió escolar que elimina el paperam, automatitza la facturació i manté les famílies informades perquè el teu equip es pugui centrar en allò que importa: l'educació.",
+            "Edena és la plataforma de gestió escolar que elimina la paperassa, automatitza la facturació i manté les famílies informades perquè el teu equip es pugui centrar en allò que importa: l'educació.",
         allRightsReserved: "Tots els drets reservats.",
     },
     navigation: {
@@ -1568,9 +1568,9 @@ Per a qualsevol dubte sobre la nostra política de galetes, pots contactar amb p
             "Tot el que les famílies necessiten en una app i tot el que administració necessita per cobrar sense feina manual.",
     },
     academies: {
-        mainTitle: "Gestiona la teva acadèmia sense el paperam de sempre",
+        mainTitle: "Gestiona la teva acadèmia sense la paperassa de sempre",
         mainDescription:
-            "Facturació automàtica, control d'assistència, CRM de captació i comunicació amb famílies. Allibera la teva acadèmia del paperam per centrar-te a ensenyar.",
+            "Facturació automàtica, control d'assistència, CRM de captació i comunicació amb famílies. Allibera la teva acadèmia dla paperassa per centrar-te a ensenyar.",
         communicationTitle: "Capta més alumnes amb el CRM integrat",
         communicationDescription:
             "Gestiona cada consulta, fes el seguiment de cada lead en un pipeline visual i converteix més interessats en alumnes matriculats. La teva llista d'espera, sempre organitzada.",

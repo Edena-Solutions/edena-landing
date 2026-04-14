@@ -14,11 +14,30 @@ interface LanguageSwitcherProps {
     currentPath?: string;
 }
 
-const languageNames: Record<string, { code: string; name: string }> = {
-    en: { code: "EN", name: "English" },
-    es: { code: "ES", name: "Español" },
-    ca: { code: "CA", name: "Català" },
+const languageNames: Record<string, { code: string; name: string; flag: string }> = {
+    en: { code: "EN", name: "English", flag: "https://flagcdn.com/gb.svg" },
+    ca: {
+        code: "CA",
+        name: "Català",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/330px-Flag_of_Catalonia.svg.png",
+    },
+    es: { code: "ES", name: "Español", flag: "https://flagcdn.com/es.svg" },
 };
+
+function LangFlag({ src }: { src: string }) {
+    return (
+        <img
+            src={src}
+            alt=""
+            width={16}
+            height={16}
+            className="inline-block h-4 w-4 shrink-0 rounded object-cover"
+            loading="lazy"
+            decoding="async"
+            aria-hidden
+        />
+    );
+}
 
 export default function LanguageSwitcher({ currentLang, currentPath }: LanguageSwitcherProps) {
     const [pathWithoutLang, setPathWithoutLang] = useState<string>("/");
@@ -52,17 +71,20 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                         <a
                             key={lang}
                             href={`/${lang}${currentPath || "/"}`}
-                            className={`px-3 py-1 rounded text-sm font-medium ${currentLang === lang
-                                ? "bg-black text-white"
-                                : "bg-card text-black hover:bg-card/80"
-                                }`}
+                            className={`inline-flex items-center gap-1.5 px-3 py-1 rounded text-sm font-medium ${
+                                currentLang === lang
+                                    ? "bg-black text-white"
+                                    : "bg-card text-black hover:bg-card/80"
+                            }`}
                         >
+                            <LangFlag src={languageNames[lang].flag} />
                             {languageNames[lang].code}
                         </a>
                     ))}
                 </div>
                 <div className="hidden md:block">
-                    <Button variant="secondary">
+                    <Button variant="secondary" className="gap-2">
+                        <LangFlag src={languageNames[currentLang].flag} />
                         {languageNames[currentLang]?.code || currentLang}
                     </Button>
                 </div>
@@ -77,11 +99,13 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                     <a
                         key={lang}
                         href={createLanguageUrl(lang)}
-                        className={`px-3 py-1 rounded text-sm font-medium ${currentLang === lang
-                            ? "bg-black text-white"
-                            : "bg-gray-100 text-black hover:bg-gray-200"
-                            }`}
+                        className={`inline-flex items-center gap-1.5 px-3 py-1 rounded text-sm font-medium ${
+                            currentLang === lang
+                                ? "bg-black text-white"
+                                : "bg-gray-100 text-black hover:bg-gray-200"
+                        }`}
                     >
+                        <LangFlag src={languageNames[lang].flag} />
                         {languageNames[lang].code}
                     </a>
                 ))}
@@ -89,7 +113,8 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
             <div className="hidden md:block">
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
-                        <Button variant="secondary">
+                        <Button variant="secondary" className="gap-2">
+                            <LangFlag src={languageNames[currentLang].flag} />
                             {languageNames[currentLang]?.code || currentLang}
                         </Button>
                     </DropdownMenuTrigger>
@@ -100,7 +125,10 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                                     href={createLanguageUrl(lang)}
                                     className="flex items-center justify-between gap-4 cursor-pointer"
                                 >
-                                    <span>{languageNames[lang]?.name || lang}</span>
+                                    <span className="inline-flex items-center gap-2">
+                                        <LangFlag src={languageNames[lang].flag} />
+                                        {languageNames[lang]?.name || lang}
+                                    </span>
                                     {currentLang === lang && (
                                         <Check className="h-4 w-4 text-primary" />
                                     )}
