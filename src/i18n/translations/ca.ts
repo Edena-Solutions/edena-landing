@@ -1,7 +1,7 @@
 export default {
     bookDemo: "Sol·licita demo gratuïta",
     downloadTheApp: "Descarrega l'app gratuïta",
-    knowMore: "Veure la demo en directe",
+    knowMore: "Saber més",
     meta: {
         homeTitle: "Programa de gestió escolar per a centres educatius | Edena",
         homeDescription:

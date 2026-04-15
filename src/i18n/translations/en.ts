@@ -1,7 +1,7 @@
 export default {
     bookDemo: "Get Your Free Demo",
     downloadTheApp: "Download Free App",
-    knowMore: "See It in Action",
+    knowMore: "Know More",
     meta: {
         homeTitle: "School Management Software for Educational Centers | Edena",
         homeDescription:
