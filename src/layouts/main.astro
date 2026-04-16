@@ -5,6 +5,7 @@ import Footer from "@/components/Footer.astro";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { ClientRouter } from "astro:transitions";
 import OrganizationSchema from "@/components/StructuredData/Organization.astro";
+import CookieConsentBanner from "@/components/CookieConsentBanner";
 import { translations } from "@/i18n/index.ts";
 import { ogFromAsset } from "@/lib/og-image";
 import defaultOgImage from "@/assets/img/screenshots/shared/hero.png";
@@ -40,13 +41,39 @@ const defaultImageAlt =
 <html lang={lang} class="overflow-x-clip">
     <head>
         <ClientRouter />
+        <!-- Consent Mode (default) must run before any Google tag. Choice is read from localStorage on full page loads; the banner updates consent on accept/reject. -->
+        <script is:inline>
+            (function () {
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+                window.gtag = gtag;
+                var choice = null;
+                try {
+                    choice = localStorage.getItem("edena-cookie-consent");
+                } catch (e) {}
+                var base = {
+                    functionality_storage: "granted",
+                    personalization_storage: "denied",
+                    security_storage: "granted",
+                    wait_for_update: 500,
+                };
+                var adsDenied = {
+                    ad_storage: "denied",
+                    ad_user_data: "denied",
+                    ad_personalization: "denied",
+                };
+                if (choice === "accepted") {
+                    gtag("consent", "default", Object.assign({}, base, adsDenied, { analytics_storage: "granted" }));
+                } else {
+                    gtag("consent", "default", Object.assign({}, base, adsDenied, { analytics_storage: "denied" }));
+                }
+            })();
+        </script>
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-KV8MJGW01Y"></script>
         <script is:inline>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
             gtag("js", new Date());
             gtag("config", "G-KV8MJGW01Y");
         </script>
@@ -224,5 +251,6 @@ const defaultImageAlt =
         </main>
         <Footer lang={lang} />
         <ThemeToggle client:load />
+        <CookieConsentBanner client:load lang={lang} t={t} />
     </body>
 </html>

@@ -93,6 +93,14 @@ export default {
         bookADemoCTA:
             "Aurkitu zehazki nola egokitzen den Edena zure zentroan. Eskatu doako demoa konpromisorik gabe.",
     },
+    cookieConsent: {
+        title: "Cookieak eta analitika",
+        description:
+            "Lehenengo eta hirugarrenen cookieak erabiltzen ditugu (adib. Google Analytics) trafikoa neurtzeko eta webgunea hobetzeko. Onartu analitika edo ukatu.",
+        accept: "Onartu",
+        reject: "Ukatu",
+        policy: "Cookie-politika",
+    },
     footer: {
         users: "Familiak",
         students: "Ikasleak",
@@ -1350,7 +1358,7 @@ Cookieak testu-fitxategi txikiak dira erabiltzailearen gailuan gordetzen direnak
 3. COOKIEEN KUDEAKETA<br>
 Erabiltzaileak nabigatzailea konfigura dezake cookieak onartzeko, ukatzeko edo ezabatzeko. Desaktibazioak webaren funtzionamendian eragin dezake.<br>
 4. BAIMENA<br>
-Gure webean nabigatuz, erabiltzaileak cookieen erabilera onartzen du politika honetan ezarritako baldintzetan.<br>
+Beharrezko cookieak aurretiko baimenik gabe erabil daitezke. Analitika eta antzeko cookieak cookie-abisuan «Onartu» aukeratzen baduzu soilik aktibatzen dira.<br>
 5. INFORMAZIO GEHIAGO<br>
 Cookie-politikari buruzko edozein zalantzarako, jarri harremanetan privacidad@edena.es helbidean.`,
     },

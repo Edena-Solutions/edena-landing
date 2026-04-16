@@ -91,6 +91,14 @@ export default {
         bookADemoCTA:
             "Descubre exactamente cómo Edena encaja en tu centro. Solicita una demo gratuita sin ningún compromiso.",
     },
+    cookieConsent: {
+        title: "Cookies y analítica",
+        description:
+            "Usamos cookies propias y de terceros (por ejemplo Google Analytics) para medir el tráfico y mejorar la web. Puedes aceptar el uso de analítica o rechazarlo.",
+        accept: "Aceptar",
+        reject: "Rechazar",
+        policy: "Política de cookies",
+    },
     footer: {
         users: "Familias",
         students: "Estudiantes",
@@ -1351,7 +1359,7 @@ Las cookies son pequeños archivos de texto que se almacenan en el dispositivo d
 3. GESTIÓN DE COOKIES<br>
 El usuario puede configurar su navegador para aceptar, rechazar o eliminar las cookies. La desactivación puede afectar al funcionamiento de la web.<br>
 4. CONSENTIMIENTO<br>
-Al navegar por nuestra web, el usuario acepta el uso de cookies en las condiciones establecidas en esta política.<br>
+Las cookies estrictamente necesarias pueden utilizarse sin consentimiento previo. Las cookies de analítica y similares solo se activan si eliges «Aceptar» en el aviso de cookies.<br>
 5. MÁS INFORMACIÓN<br>
 Para cualquier duda sobre nuestra política de cookies, puede contactar con privacidad@edena.es.`,
     },

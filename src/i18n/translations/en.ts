@@ -90,6 +90,14 @@ export default {
         bookADemoCTA:
             "See exactly how Edena works for your school. Book a free, personalized demo—no commitment required.",
     },
+    cookieConsent: {
+        title: "Cookies and analytics",
+        description:
+            "We use first-party and third-party cookies (for example Google Analytics) to measure traffic and improve the site. You can accept analytics or decline.",
+        accept: "Accept",
+        reject: "Decline",
+        policy: "Cookie policy",
+    },
     footer: {
         legal: "Legal",
         privacyPolicy: "Privacy Policy",
@@ -1637,7 +1645,7 @@ Cookies are small text files stored on the user's device when visiting a website
 3. COOKIE MANAGEMENT<br>
 Users can configure their browser to accept, reject, or delete cookies. Disabling cookies may affect the website's functionality.<br>
 4. CONSENT<br>
-By browsing our website, the user accepts the use of cookies under the conditions set out in this policy.<br>
+Strictly necessary cookies may be used without prior consent. Analytics and similar cookies are only activated if you choose “Accept” in the cookie notice.<br>
 5. MORE INFORMATION<br>
 For any questions about our cookie policy, you can contact privacidad@edena.es.`,
     },

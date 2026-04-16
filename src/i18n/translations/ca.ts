@@ -92,6 +92,14 @@ export default {
         bookADemoCTA:
             "Descobreix exactament com Edena encaixa al teu centre. Sol·licita una demo gratuïta sense cap compromís.",
     },
+    cookieConsent: {
+        title: "Galetes i analítica",
+        description:
+            "Utilitzem galetes pròpies i de tercers (per exemple Google Analytics) per mesurar el trànsit i millorar el web. Pots acceptar l'analítica o rebutjar-la.",
+        accept: "Acceptar",
+        reject: "Rebutjar",
+        policy: "Política de galetes",
+    },
     footer: {
         users: "Famílies",
         students: "Estudiants",
@@ -1352,7 +1360,7 @@ Les galetes són petits fitxers de text que s'emmagatzemen al dispositiu de l'us
 3. GESTIÓ DE GALETES<br>
 L'usuari pot configurar el navegador per acceptar, rebutjar o eliminar les galetes. La desactivació pot afectar el funcionament de la web.<br>
 4. CONSENTIMENT<br>
-En navegar per la nostra web, l'usuari accepta l'ús de galetes en les condicions establertes en aquesta política.<br>
+Les galetes estrictament necessàries poden utilitzar-se sense consentiment previ. Les galetes d'analítica i similars només s'activen si tries «Acceptar» a l'avís de galetes.<br>
 5. MÉS INFORMACIÓ<br>
 Per a qualsevol dubte sobre la nostra política de galetes, pots contactar amb privacidad@edena.es.`,
     },
