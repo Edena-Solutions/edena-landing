@@ -59,21 +59,15 @@ function BentoCard({
                 <h3 className="text-xs uppercase tracking-widest font-bold">{title}</h3>
                 <p className="text-sm text-muted-foreground">{description}</p>
             </div>
-            <div className="flex flex-1 min-h-0 w-full items-stretch">
+            <div className="flex flex-1 items-center justify-center min-h-0">
                 {image ? (
-                    <div className="flex h-full min-h-[10.5rem] w-full flex-col justify-end md:min-h-0 md:justify-center">
-                        <img
-                            src={isDarkMode ? imageDark?.src : image?.src}
-                            alt={title}
-                            className={cn(
-                                "mx-auto block w-full max-w-full rounded object-contain object-bottom shadow-[0_14px_48px_rgba(0,0,0,0.14)] dark:shadow-[0_14px_48px_rgba(0,0,0,0.55)] md:object-center",
-                                "max-h-[min(100%,18rem)] sm:max-h-[min(100%,22rem)] md:max-h-full md:h-auto",
-                                imageClassName,
-                            )}
-                        />
-                    </div>
+                    <img
+                        src={isDarkMode ? imageDark?.src : image?.src}
+                        alt={title}
+                        className={cn("h-full w-full object-cover rounded", imageClassName)}
+                    />
                 ) : icons ? (
-                    <div className="mx-auto grid grid-cols-5 items-center justify-center gap-2 self-center">
+                    <div className="grid grid-cols-5 gap-2 justify-center items-center">
                         {icons.map(({ icon, label }) => (
                             <Tooltip key={icon}>
                                 <TooltipTrigger asChild>
@@ -91,7 +85,7 @@ function BentoCard({
                         ))}
                     </div>
                 ) : portraits ? (
-                    <div className="mx-auto grid grid-cols-5 items-center justify-center gap-2 self-center">
+                    <div className="grid grid-cols-5 gap-2 justify-center items-center">
                         {portraits.map(({ src, label }) => (
                             <Tooltip key={label}>
                                 <TooltipTrigger asChild>
@@ -210,7 +204,7 @@ export default function BentoGrid({ t, className }: BentoGridProps) {
             description:
                 bento.touchbar?.description ||
                 "Acceso rápido a funciones y navegación simplificada.",
-            imageClassName: "max-md:mt-0 md:mt-30",
+            imageClassName: "object-contain w-full h-fit overflow-hidden mt-30",
         },
         {
             animation: notificationAnimation,
