@@ -6,10 +6,12 @@ import Hero from "@/components/Hero.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/assignment/FAQs.astro";
 import Features from "@/components/Features";
-import heroImage from "@/assets/img/screenshots/assignment/assignment_schedule.png";
-import evaluationCycle from "@/assets/img/screenshots/assignment/evaluation_cycle.png";
-import scoreCard from "@/assets/img/screenshots/assignment/assignment_score_card.png";
+import heroImage from "@/assets/img/screenshots/assignment/evaluation_cycle.png";
+import heroImageDark from "@/assets/img/screenshots/assignment/dark/evaluation_cycle.png";
+import assignmentScoreCard from "@/assets/img/screenshots/assignment/assignment_score_card.png";
+import assignmentScoreCardDark from "@/assets/img/screenshots/assignment/dark/assignment_score_card.png";
 import assignmentEvaluation from "@/assets/img/screenshots/assignment/assignment_evaluation.png";
+import assignmentEvaluationDark from "@/assets/img/screenshots/assignment/dark/assignment_evaluation.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -75,6 +77,7 @@ const features = [
         <Hero
             t={t}
             heroImage={heroImage}
+            heroImageDark={heroImageDark}
             mainTitle={t.assignment.mainTitle}
             mainDescription={t.assignment.mainDescription}
             showBookDemoInHero={true}
@@ -86,7 +89,8 @@ const features = [
             rightCard={{
                 title: t.assignment.evaluationTitle,
                 description: t.assignment.evaluationDescription,
-                image: assignmentEvaluation,
+                image: assignmentScoreCard,
+                imageDark: assignmentScoreCardDark,
                 altText: t.altText.assignmentEvaluation,
             }}
         />
@@ -104,13 +108,15 @@ const features = [
             leftCard={{
                 title: t.assignment.cyclesTitle,
                 description: t.assignment.cyclesDescription,
-                image: evaluationCycle,
+                image: assignmentEvaluation,
+                imageDark: assignmentEvaluationDark,
                 altText: t.altText.evaluationCycle,
             }}
             rightCard={{
                 title: t.assignment.scoresTitle,
                 description: t.assignment.scoresDescription,
-                image: scoreCard,
+                image: assignmentScoreCard,
+                imageDark: assignmentScoreCardDark,
                 altText: t.altText.assignmentScoreCard,
             }}
         />

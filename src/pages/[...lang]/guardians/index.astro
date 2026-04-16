@@ -9,7 +9,9 @@ import Features from "@/components/Features";
 import AppAnimation from "@/components/AppAnimation";
 import SignaturePad from "@/components/SignaturePad";
 import heroImage from "@/assets/img/screenshots/guardians/guardian_hero.png";
+import heroImageDark from "@/assets/img/screenshots/guardians/dark/guardian_hero.png";
 import guardianManagement from "@/assets/img/screenshots/guardians/guardian_management.png";
+import guardianManagementDark from "@/assets/img/screenshots/guardians/dark/guardian_management.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -73,6 +75,7 @@ const features = [
         <Hero
             t={t}
             heroImage={heroImage}
+            heroImageDark={heroImageDark}
             showBookDemoInHero={true}
             mainTitle={t.guardians.mainTitle}
             mainDescription={t.guardians.mainDescription}
@@ -85,6 +88,7 @@ const features = [
                 title: t.guardians.dashboardTitle,
                 description: t.guardians.dashboardDescription,
                 image: guardianManagement,
+                imageDark: guardianManagementDark,
                 altText: t.altText.guardianManagement,
             }}
         />

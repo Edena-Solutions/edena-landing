@@ -8,9 +8,12 @@ import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/dashboard/FAQs.astro";
 import Features from "@/components/Features";
 import heroImage from "@/assets/img/screenshots/finance/invoice_analytics.png";
+import heroImageDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
 import quickActions from "@/assets/img/screenshots/dashboard/dashboard_quickactions.png";
+import quickActionsDark from "@/assets/img/screenshots/dashboard/dark/dashboard_quickactions.png";
 import notificationAnimation from "@/assets/animations/notification.json";
 import calendar from "@/assets/img/screenshots/dashboard/dashboard_calendar.png";
+import calendarDark from "@/assets/img/screenshots/dashboard/dark/dashboard_calendar.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -76,6 +79,7 @@ const features = [
         <Hero
             t={t}
             heroImage={heroImage}
+            heroImageDark={heroImageDark}
             showBookDemoInHero={true}
             mainTitle={t.dashboard.mainTitle}
             mainDescription={t.dashboard.mainDescription}
@@ -88,7 +92,8 @@ const features = [
                 title: t.dashboard.quickActionsTitle,
                 description: t.dashboard.quickActionsDescription,
                 image: quickActions,
-                imageClass: "object-cover md:w-2/3 mx-auto",
+                imageDark: quickActionsDark,
+                imageClass: "object-cover md:w-1/3 mx-auto",
                 cardClass: "h-110",
                 altText: t.altText.quickActions,
             }}
@@ -108,6 +113,7 @@ const features = [
                 title: t.dashboard.calendarTitle,
                 description: t.dashboard.calendarDescription,
                 image: calendar,
+                imageDark: calendarDark,
                 altText: t.altText.calendar,
                 cardClass: "md:h-90",
             }}

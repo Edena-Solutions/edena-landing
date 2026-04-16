@@ -1,0 +1,36 @@
+---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+interface Props {
+    src: ImageMetadata;
+    darkImage: ImageMetadata;
+    alt: string;
+    className?: string;
+    loading?: "eager" | "lazy" | null;
+    style?: string;
+}
+
+const { src, darkImage, alt, className = "", loading, style } = Astro.props;
+
+const base = className.trim();
+const lightClass =
+    `${base} dark:hidden shadow-[0_14px_48px_rgba(0,0,0,0.14)]`.trim();
+const darkClass =
+    `hidden dark:block ${base} shadow-[0_14px_48px_rgba(0,0,0,0.55)]`.trim();
+---
+
+<Image
+    src={src}
+    alt={alt}
+    class={lightClass}
+    loading={loading ?? undefined}
+    style={style}
+/>
+<Image
+    src={darkImage}
+    alt={alt}
+    class={darkClass}
+    loading={loading ?? undefined}
+    style={style}
+/>

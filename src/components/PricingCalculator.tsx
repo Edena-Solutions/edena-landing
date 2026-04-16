@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
-import { Switch } from "@/components/ui/switch";
 import Icon from "@/components/ui/icon";
 import { cn } from "@/lib/utils";
 
@@ -66,6 +65,7 @@ interface PricingCalculatorProps {
   demoUrl: string;
   locale?: string;
   className?: string;
+  isAnnual: boolean;
 }
 
 function round2(value: number): number {
@@ -90,7 +90,13 @@ const MODULE_LABELS: Record<string, { titleKey: keyof CalculatorTranslations; de
   cloud: { titleKey: "cloudToggle", descriptionKey: "cloudDescription", hintKey: "cloudHint" },
 };
 
-export function PricingCalculator({ t, demoUrl, locale = "es", className }: PricingCalculatorProps) {
+export function PricingCalculator({
+  t,
+  demoUrl,
+  locale = "es",
+  className,
+  isAnnual,
+}: PricingCalculatorProps) {
   const [children, setChildren] = React.useState(MIN_CHILDREN);
   const [modules, setModules] = React.useState<Record<string, boolean>>({
     billing: false,
@@ -100,7 +106,6 @@ export function PricingCalculator({ t, demoUrl, locale = "es", className }: Pric
     onlineStore: false,
     cloud: false,
   });
-  const [isAnnual, setIsAnnual] = React.useState(false);
 
   const effectiveChildren = Math.max(MIN_CHILDREN, Math.round(Number(children)) || MIN_CHILDREN);
   const allModulesSelected = MODULES.every((m) => modules[m.key]);
@@ -201,18 +206,11 @@ export function PricingCalculator({ t, demoUrl, locale = "es", className }: Pric
 
       <div className="order-1 lg:order-2 lg:sticky lg:top-24 lg:self-start flex flex-col gap-4">
         <Card className="rounded">
-          <CardHeader className="pb-2 flex flex-row justify-between items-center">
+          <CardHeader className="pb-2">
             <CardTitle className="text-xs uppercase tracking-widest mb-0">{t.totalMonthly}</CardTitle>
             <CardDescription className="sr-only">
               {t.perChild}, {t.totalAnnual}
             </CardDescription>
-            <div className="flex items-center gap-2">
-                <Switch checked={isAnnual} onCheckedChange={setIsAnnual} />
-                <span className="uppercase tracking-widest text-[10px]">{t.annual}</span>
-                <Badge variant="secondary" className="text-xs">
-                  {t.annualDiscount}
-                </Badge>
-              </div>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="space-y-2">

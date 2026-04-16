@@ -1,4 +1,19 @@
 import { useState } from "react";
+import type { LucideIcon } from "lucide-react";
+import {
+    Baby,
+    BookOpenText,
+    GraduationCap,
+    HeartHandshake,
+    Landmark,
+    LayoutDashboard,
+    LayoutGrid,
+    School,
+    Shapes,
+    SquareUser,
+    Users,
+    WalletCards,
+} from "lucide-react";
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -6,7 +21,6 @@ import {
     NavigationMenuLink,
     NavigationMenuList,
     NavigationMenuTrigger,
-    navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import logo from "@/assets/img/logos/logo.png";
@@ -19,6 +33,7 @@ interface MenuItem {
     title: string;
     href: string;
     description: string;
+    icon: LucideIcon;
 }
 
 interface Props {
@@ -63,30 +78,61 @@ const ListItem = ({
     title,
     href,
     children,
+    icon: Icon,
 }: {
     className?: string;
     title: string;
     href: string;
     children: React.ReactNode;
+    icon: LucideIcon;
 }) => {
     return (
         <li>
             <NavigationMenuLink asChild>
                 <a
                     className={cn(
-                        "block select-none space-y-1 rounded p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+                        "group flex flex-row gap-3 select-none rounded p-3 leading-none no-underline outline-none transition-colors hover:bg-muted focus-visible:bg-muted",
                         className,
                     )}
                     href={href}
                 >
-                    <div className="text-[10px] font-semibold uppercase tracking-widest">
-                        {title}
+                    <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-muted flex items-center justify-center text-foreground transition-colors group-hover:bg-background group-hover:text-primary-foreground group-focus-within:bg-primary group-focus-within:text-primary-foreground">
+                        <Icon size={20} />
                     </div>
-                    <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
-                        {children}
-                    </p>
+                    <div className="min-w-0 flex-1 space-y-1">
+                        <div className="text-[10px] font-semibold uppercase tracking-widest">
+                            {title}
+                        </div>
+                        <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
+                            {children}
+                        </p>
+                    </div>
                 </a>
             </NavigationMenuLink>
+        </li>
+    );
+};
+
+const MobileMenuItemLink = ({ item }: { item: MenuItem }) => {
+    const Icon = item.icon;
+    return (
+        <li>
+            <a
+                href={item.href}
+                className="group flex flex-row items-start gap-3 rounded-md px-2 py-2.5 -mx-2 text-foreground no-underline transition-colors hover:bg-muted focus-visible:bg-muted"
+            >
+                <div className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-muted flex items-center justify-center text-foreground transition-colors group-hover:bg-primary group-hover:text-primary-foreground group-focus-within:bg-primary group-focus-within:text-primary-foreground">
+                    <Icon size={20} />
+                </div>
+                <div className="min-w-0 flex-1 space-y-1">
+                    <div className="text-[10px] font-semibold uppercase tracking-widest">
+                        {item.title}
+                    </div>
+                    <p className="line-clamp-2 text-xs leading-snug text-muted-foreground">
+                        {item.description}
+                    </p>
+                </div>
+            </a>
         </li>
     );
 };
@@ -100,36 +146,43 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
             title: t.navigation.students,
             href: `/${lang}/students`,
             description: t.navigation.studentsDescription,
+            icon: GraduationCap,
         },
         {
             title: t.navigation.dashboard,
             href: `/${lang}/dashboard`,
             description: t.navigation.dashboardDescription,
+            icon: LayoutDashboard,
         },
         {
             title: t.navigation.finance,
             href: `/${lang}/finance`,
             description: t.navigation.financeDescription,
+            icon: WalletCards,
         },
         {
             title: t.navigation.crm,
             href: `/${lang}/crm`,
             description: t.navigation.crmDescription,
+            icon: SquareUser,
         },
         {
             title: t.navigation.guardians,
             href: `/${lang}/guardians`,
             description: t.navigation.guardiansDescription,
+            icon: Users,
         },
         {
             title: t.navigation.assignment,
             href: `/${lang}/assignment`,
             description: t.navigation.assignmentDescription,
+            icon: BookOpenText,
         },
         {
             title: t.navigation.app,
             href: `/${lang}/app`,
             description: t.navigation.appDescription,
+            icon: Shapes,
         },
     ];
 
@@ -138,26 +191,31 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
             title: t.navigation.nurseries,
             href: `/${lang}/nurseries`,
             description: t.navigation.nurseriesDescription,
+            icon: Baby,
         },
         {
             title: t.navigation.schools,
             href: `/${lang}/schools`,
             description: t.navigation.schoolsDescription,
+            icon: School,
         },
         {
             title: t.navigation.academies,
             href: `/${lang}/academies`,
             description: t.navigation.academiesDescription,
+            icon: Landmark,
         },
         {
             title: t.navigation.groups,
             href: `/${lang}/groups`,
             description: t.navigation.groupsDescription,
+            icon: LayoutGrid,
         },
         {
             title: t.navigation.forFamilies,
             href: `/${lang}/families`,
             description: t.features.appFeatures.tagline,
+            icon: HeartHandshake,
         },
     ];
 
@@ -196,6 +254,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                                 key={item.title}
                                                 title={item.title}
                                                 href={item.href}
+                                                icon={item.icon}
                                             >
                                                 {item.description}
                                             </ListItem>
@@ -214,6 +273,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                                 key={item.title}
                                                 title={item.title}
                                                 href={item.href}
+                                                icon={item.icon}
                                             >
                                                 {item.description}
                                             </ListItem>
@@ -258,14 +318,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                 </div>
                                 <ul>
                                     {products.map((item) => (
-                                        <li key={item.title}>
-                                            <a
-                                                href={item.href}
-                                                className="block py-2 text-sm hover:text-primary"
-                                            >
-                                                {item.title}
-                                            </a>
-                                        </li>
+                                        <MobileMenuItemLink key={item.title} item={item} />
                                     ))}
                                 </ul>
                             </div>
@@ -276,14 +329,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                 </div>
                                 <ul>
                                     {segments.map((item) => (
-                                        <li key={item.title}>
-                                            <a
-                                                href={item.href}
-                                                className="block py-2 text-sm hover:text-primary"
-                                            >
-                                                {item.title}
-                                            </a>
-                                        </li>
+                                        <MobileMenuItemLink key={item.title} item={item} />
                                     ))}
                                 </ul>
                             </div>

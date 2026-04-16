@@ -178,41 +178,34 @@ export async function GET() {
             lastmod: currentDate,
             hreflangLinks: buildHreflang("families/"),
         },
-                {
-                    path: "/centers/",
-                    priority: "0.9",
-                    changefreq: "monthly",
-                    lastmod: currentDate,
-                    hreflangLinks: buildHreflang("centers/"),
-                },
-                {
-                    path: "/es/nurseries/",
-                    priority: "0.9",
-                    changefreq: "monthly",
-                    lastmod: currentDate,
-                    hreflangLinks: buildHreflang("nurseries/", "/es/nurseries/"),
-                },
-                {
-                    path: "/es/schools/",
-                    priority: "0.9",
-                    changefreq: "monthly",
-                    lastmod: currentDate,
-                    hreflangLinks: buildHreflang("schools/", "/es/schools/"),
-                },
-                {
-                    path: "/es/academies/",
-                    priority: "0.9",
-                    changefreq: "monthly",
-                    lastmod: currentDate,
-                    hreflangLinks: buildHreflang("academies/", "/es/academies/"),
-                },
-                {
-                    path: "/es/groups/",
-                    priority: "0.9",
-                    changefreq: "monthly",
-                    lastmod: currentDate,
-                    hreflangLinks: buildHreflang("groups/", "/es/groups/"),
-                },
+        {
+            path: "/es/nurseries/",
+            priority: "0.9",
+            changefreq: "monthly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("nurseries/", "/es/nurseries/"),
+        },
+        {
+            path: "/es/schools/",
+            priority: "0.9",
+            changefreq: "monthly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("schools/", "/es/schools/"),
+        },
+        {
+            path: "/es/academies/",
+            priority: "0.9",
+            changefreq: "monthly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("academies/", "/es/academies/"),
+        },
+        {
+            path: "/es/groups/",
+            priority: "0.9",
+            changefreq: "monthly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("groups/", "/es/groups/"),
+        },
         {
             path: "/blog/",
             priority: "0.8",
@@ -335,13 +328,6 @@ export async function GET() {
             lastmod: currentDate,
             hreflangLinks: buildHreflang("families/"),
         },
-                {
-                    path: "/es/centers/",
-                    priority: "0.9",
-                    changefreq: "monthly",
-                    lastmod: currentDate,
-                    hreflangLinks: buildHreflang("centers/"),
-                },
         {
             path: "/es/blog/",
             priority: "0.8",
@@ -464,13 +450,6 @@ export async function GET() {
             lastmod: currentDate,
             hreflangLinks: buildHreflang("families/"),
         },
-                {
-                    path: "/en/centers/",
-                    priority: "0.9",
-                    changefreq: "monthly",
-                    lastmod: currentDate,
-                    hreflangLinks: buildHreflang("centers/"),
-                },
         {
             path: "/en/nurseries/",
             priority: "0.9",
@@ -674,7 +653,7 @@ ${allUrls
                 url.hreflangLinks
                     .map(
                         (link) =>
-                            `    <xhtml:link rel="alternate" hreflang="${link.hreflang}" href="${escapeXmlUrl(link.href)}"/>`
+                            `    <xhtml:link rel="alternate" hreflang="${link.hreflang}" href="${escapeXmlUrl(link.href)}"/>`,
                     )
                     .join("\n");
         }

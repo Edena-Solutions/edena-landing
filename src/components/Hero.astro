@@ -6,11 +6,13 @@ import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card"
 import { Image } from "astro:assets";
 import BookDemoButton from "@/components/BookDemoButton.astro";
 import LottiePlayer from "@/components/LottiePlayer";
+import ThemedImage from "@/components/ThemedImage.astro";
 
 interface HeroCard {
     title: string;
     description: string;
     image?: ImageMetadata;
+    imageDark?: ImageMetadata;
     lottie?: object;
     imageClass?: string;
     showButton?: boolean;
@@ -25,6 +27,7 @@ interface HeroCard {
 interface Props {
     t: Translation;
     heroImage?: ImageMetadata;
+    heroImageDark?: ImageMetadata;
     heroLottie?: object;
     mainTitle: string;
     mainDescription: string;
@@ -38,6 +41,7 @@ interface Props {
 const {
     t,
     heroImage,
+    heroImageDark,
     heroLottie,
     mainTitle,
     mainDescription,
@@ -64,7 +68,7 @@ const hasHeroSlot = Astro.slots.has("heroVisual");
             </p>
         </CardContent>
         <CardFooter className="flex flex-col gap-4">
-            {showBookDemoInHero && <BookDemoButton t={t} className="hidden sm:block mt-4" />}
+            {showBookDemoInHero && <BookDemoButton t={t} className="hidden sm:block my-4" />}
             {
                 hasHeroSlot ? (
                     <slot name="heroVisual" />
@@ -75,13 +79,24 @@ const hasHeroSlot = Astro.slots.has("heroVisual");
                         className={heroImageClass}
                     />
                 ) : heroImage ? (
-                    <Image
-                        src={heroImage}
-                        alt={t.altText.heroImage}
-                        loading="eager"
-                        class={heroImageClass}
-                        style={`aspect-ratio: ${heroImageAspectRatio};`}
-                    />
+                    heroImageDark ? (
+                        <ThemedImage
+                            src={heroImage}
+                            darkImage={heroImageDark}
+                            alt={t.altText.heroImage}
+                            loading="eager"
+                            className={`${heroImageClass} sm:w-2/3 rounded`.trim()}
+                            style={`aspect-ratio: ${heroImageAspectRatio};`}
+                        />
+                    ) : (
+                        <Image
+                            src={heroImage}
+                            alt={t.altText.heroImage}
+                            loading="eager"
+                            class={heroImageClass}
+                            style={`aspect-ratio: ${heroImageAspectRatio};`}
+                        />
+                    )
                 ) : null
             }
         </CardFooter>
@@ -119,7 +134,7 @@ const hasHeroSlot = Astro.slots.has("heroVisual");
                 )
             }
             <CardContent
-                className={`flex flex-col gap-4 items-center ${rightCard.image || rightCard.lottie || rightCard.downloadAppButtons ? "pb-0" : ""}`}
+                className={`flex flex-col gap-4 items-center ${rightCard.image || rightCard.imageDark || rightCard.lottie || rightCard.downloadAppButtons ? "pb-0" : ""}`}
             >
                 <p class="text-muted-foreground max-w-100">
                     {rightCard.description}
@@ -167,12 +182,22 @@ const hasHeroSlot = Astro.slots.has("heroVisual");
                     </CardFooter>
                 ) : rightCard.image ? (
                     <CardFooter>
-                        <Image
-                            src={rightCard.image}
-                            alt={rightCard.altText || rightCard.title || t.altText.heroImage}
-                            loading="eager"
-                            class={rightCard.imageClass || "w-full mx-auto object-contain"}
-                        />
+                        {rightCard.imageDark ? (
+                            <ThemedImage
+                                src={rightCard.image}
+                                darkImage={rightCard.imageDark}
+                                alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                loading="eager"
+                                className={`${rightCard.imageClass ?? "w-full xl:w-4/5 mx-auto object-contain"} rounded`.trim()}
+                            />
+                        ) : (
+                            <Image
+                                src={rightCard.image}
+                                alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                loading="eager"
+                                class={rightCard.imageClass || "w-full mx-auto object-contain"}
+                            />
+                        )}
                     </CardFooter>
                 ) : null
             }

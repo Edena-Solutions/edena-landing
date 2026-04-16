@@ -140,7 +140,7 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
         <Tabs
             value={value}
             onValueChange={setValue}
-            className="w-full flex justify-center flex-col items-center gap-10"
+            className="w-full flex justify-center flex-col items-center gap-6"
         >
             <TabsList className="gap-2 justify-center flex-wrap">
                 <TabsTrigger value="plans" className="text-[10px] tracking-widest uppercase">
@@ -150,12 +150,8 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
                     {t.pricing.viewCalculator}
                 </TabsTrigger>
             </TabsList>
-            <TabsContent
-                value="plans"
-                className="w-full data-[state=inactive]:hidden sm:px-20"
-                forceMount
-            >
-                <div className="flex flex-col items-center gap-6 mb-8 -mr-10 sm:-mr-12">
+            <div className="w-full flex flex-col items-center sm:px-20">
+                <div className="flex flex-col items-center gap-6 -mr-10 sm:-mr-12">
                     <div className="flex items-center gap-3">
                         <span className="uppercase tracking-widest text-[10px]">
                             {monthlyLabel}
@@ -175,6 +171,12 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
                         </div>
                     </div>
                 </div>
+            </div>
+            <TabsContent
+                value="plans"
+                className="w-full data-[state=inactive]:hidden sm:px-20"
+                forceMount
+            >
                 <div className="grid md:grid-cols-3 px-0 gap-4 mx-auto">
                     {planItems.map((plan) => {
                         const data = r[plan.id] as {
@@ -352,7 +354,12 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
                 id="calculator"
                 forceMount
             >
-                <PricingCalculator t={t.pricing.calculator} demoUrl={demoUrl} locale={lang} />
+                <PricingCalculator
+                    t={t.pricing.calculator}
+                    demoUrl={demoUrl}
+                    locale={lang}
+                    isAnnual={plansAnnual}
+                />
             </TabsContent>
         </Tabs>
     );

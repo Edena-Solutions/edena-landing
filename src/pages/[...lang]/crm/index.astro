@@ -7,8 +7,11 @@ import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/crm/FAQs.astro";
 import Features from "@/components/Features";
 import crmHero from "@/assets/img/screenshots/crm/crm_hero.png";
+import crmHeroDark from "@/assets/img/screenshots/crm/dark/crm_hero.png";
 import crmList from "@/assets/img/screenshots/crm/crm_list.png";
 import crmForm from "@/assets/img/screenshots/crm/crm_form.png";
+import crmFormDark from "@/assets/img/screenshots/crm/dark/crm_form.png";
+import crmListDark from "@/assets/img/screenshots/crm/dark/crm_list.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -71,6 +74,7 @@ const features = [
         <Hero
             t={t}
             heroImage={crmHero}
+            heroImageDark={crmHeroDark}
             showBookDemoInHero={true}
             mainTitle={t.crm.mainTitle}
             mainDescription={t.crm.mainDescription}
@@ -104,6 +108,7 @@ const features = [
                 title: t.crm.formTitle,
                 description: t.crm.formDescription,
                 image: crmForm,
+                imageDark: crmFormDark,
                 imageClass: "w-full mx-auto object-contain md:h-100",
                 altText: t.altText.crmForm,
             }}
@@ -111,6 +116,7 @@ const features = [
                 title: t.crm.pipelineTitle,
                 description: t.crm.pipelineDescription,
                 image: crmList,
+                imageDark: crmListDark,
                 imageClass: "w-full mx-auto object-contain md:h-100",
                 altText: t.altText.crmList,
             }}

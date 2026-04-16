@@ -9,8 +9,11 @@ import FAQs from "@/modules/schools/FAQs.astro";
 import Features from "@/components/Features";
 import AppAnimation from "@/components/AppAnimation";
 import heroImage from "@/assets/img/screenshots/finance/invoice_analytics.png";
-import billingCycle from "@/assets/img/screenshots/finance/invoice_email.png";
+import heroImageDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
+import billingCycle from "@/assets/img/screenshots/finance/billing_info.png";
+import billingCycleDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
 import evaluationCycle from "@/assets/img/screenshots/assignment/assignment_score_card.png";
+import evaluationCycleDark from "@/assets/img/screenshots/assignment/dark/assignment_score_card.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -76,6 +79,7 @@ const features = [
         <Hero
             t={t}
             heroImage={heroImage}
+            heroImageDark={heroImageDark}
             showBookDemoInHero={true}
             mainTitle={t.schools.mainTitle}
             mainDescription={t.schools.mainDescription}
@@ -88,6 +92,7 @@ const features = [
                 title: t.schools.automationTitle,
                 description: t.schools.automationDescription,
                 image: evaluationCycle,
+                imageDark: evaluationCycleDark,
                 altText: t.altText.evaluationCycle,
             }}
         />
@@ -111,6 +116,7 @@ const features = [
                 title: t.schools.financialAutomationTitle,
                 description: t.schools.financialAutomationDescription,
                 image: billingCycle,
+                imageDark: billingCycleDark,
                 imageClass: "w-full mx-auto",
                 cardClass: "h-80 md:h-120 overflow-hidden",
                 altText: t.altText.studentClassroom,

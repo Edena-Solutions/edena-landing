@@ -7,10 +7,14 @@ import Hero from "@/components/Hero.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/finance/FAQs.astro";
 import Features from "@/components/Features";
-import heroImage from "@/assets/img/screenshots/finance/invoice_email.png";
+import heroImage from "@/assets/img/screenshots/finance/billing_info.png";
+import heroImageDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
 import billingCycle from "@/assets/img/screenshots/finance/billing_cycle.png";
+import billingCycleDark from "@/assets/img/screenshots/finance/dark/billing_cycle.png";
 import invoiceAnalytics from "@/assets/img/screenshots/finance/invoice_analytics.png";
-import emailInvoice from "@/assets/img/screenshots/finance/invoice_email.png";
+import invoiceDetail from "@/assets/img/screenshots/invoice/invoice_detail.png";
+import invoiceAnalyticsDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
+import invoiceDetailDark from "@/assets/img/screenshots/invoice/dark/invoice_detail.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -76,6 +80,7 @@ const features = [
         <Hero
             t={t}
             heroImage={heroImage}
+            heroImageDark={heroImageDark}
             mainTitle={t.finance.mainTitle}
             mainDescription={t.finance.mainDescription}
             showBookDemoInHero={true}
@@ -88,6 +93,7 @@ const features = [
                 title: t.finance.billingCycleTitle,
                 description: t.finance.billingCycleDescription,
                 image: billingCycle,
+                imageDark: billingCycleDark,
                 altText: t.altText.billingCycle,
             }}
         />
@@ -106,12 +112,14 @@ const features = [
                 title: t.finance.analyticsTitle,
                 description: t.finance.analyticsDescription,
                 image: invoiceAnalytics,
+                imageDark: invoiceAnalyticsDark,
                 altText: t.altText.invoiceAnalytics,
             }}
             rightCard={{
                 title: t.finance.paperlessBillingTitle,
                 description: t.finance.paperlessBillingDescription,
-                image: emailInvoice,
+                image: invoiceDetail,
+                imageDark: invoiceDetailDark,
                 altText: t.altText.emailInvoice,
             }}
         />

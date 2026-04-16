@@ -1,11 +1,16 @@
 import { useState, useRef } from "react";
-import { ChevronUp, ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronUp, ChevronDown } from "lucide-react";
 import appHero from "@/assets/img/screenshots/app/app_hero.png";
 import dashboard from "@/assets/img/screenshots/finance/invoice_analytics.png";
+import dashboardDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
 import finance from "@/assets/img/screenshots/finance/billing_cycle.png";
+import financeDark from "@/assets/img/screenshots/finance/dark/billing_cycle.png";
 import assignmentScoreCard from "@/assets/img/screenshots/assignment/assignment_score_card.png";
+import assignmentScoreCardDark from "@/assets/img/screenshots/assignment/dark/assignment_score_card.png";
 import crmHero from "@/assets/img/screenshots/crm/crm_hero.png";
+import crmHeroDark from "@/assets/img/screenshots/crm/dark/crm_hero.png";
 import crmForm from "@/assets/img/screenshots/crm/crm_form.png";
+import crmFormDark from "@/assets/img/screenshots/crm/dark/crm_form.png";
 import {
     LayoutDashboard,
     Shapes,
@@ -17,6 +22,7 @@ import {
 import GSAPSection from "@/components/ui/gsap-section";
 import AppAnimation from "@/components/AppAnimation";
 import { cn } from "@/lib/utils";
+import { useIsDarkMode } from "@/hooks/use-is-dark-mode";
 import es from "@/i18n/translations/es";
 
 interface Props {
@@ -39,7 +45,7 @@ function TabItem({
     return (
         <div
             data-tab-item
-            className="rounded-md overflow-hidden bg-background cursor-pointer flex flex-col"
+            className="rounded overflow-hidden bg-background cursor-pointer flex flex-col"
         >
             <button
                 onClick={onClick}
@@ -54,7 +60,7 @@ function TabItem({
                 <span
                     className={cn(
                         "text-[10px] font-medium truncate flex-1 uppercase tracking-widest",
-                        isActive ? "text-foreground" : "text-muted-foreground",
+                        isActive && "text-foreground",
                     )}
                 >
                     {feature.title}
@@ -67,13 +73,25 @@ function TabItem({
                 )}
             >
                 <div className="min-h-0 overflow-hidden">
-                    <p className="px-4 pb-4 pt-0 text-sm text-muted-foreground leading-relaxed">
+                    <p className="px-4 pb-4 pt-0 text-sm leading-relaxed text-muted-foreground">
                         {shortDescription}
                     </p>
                 </div>
             </div>
         </div>
     );
+}
+
+type FeatureScreenshot = {
+    img: typeof appHero;
+    imgDark?: typeof appHero;
+    useAppAnimation: boolean;
+};
+
+function screenshotSrc(f: FeatureScreenshot, isDark: boolean) {
+    if (f.useAppAnimation) return null;
+    if (isDark && f.imgDark) return f.imgDark.src;
+    return f.img.src;
 }
 
 export default function KeyFeaturesShowcase({ t }: Props) {
@@ -98,18 +116,44 @@ export default function KeyFeaturesShowcase({ t }: Props) {
     const [active, setActive] = useState(0);
     const imgRef = useRef<HTMLDivElement>(null);
     const containerRef = useRef<HTMLDivElement>(null);
+    const isDarkMode = useIsDarkMode();
 
     const features = [
-        { ...translations[1], img: dashboard, icon: LayoutDashboard, useAppAnimation: false },
-        { ...translations[2], img: finance, icon: WalletCards, useAppAnimation: false },
+        {
+            ...translations[1],
+            img: dashboard,
+            imgDark: dashboardDark,
+            icon: LayoutDashboard,
+            useAppAnimation: false,
+        },
+        {
+            ...translations[2],
+            img: finance,
+            imgDark: financeDark,
+            icon: WalletCards,
+            useAppAnimation: false,
+        },
         {
             ...translations[3],
             img: assignmentScoreCard,
+            imgDark: assignmentScoreCardDark,
             icon: BookOpenText,
             useAppAnimation: false,
         },
-        { ...translations[4], img: crmHero, icon: SquareUser, useAppAnimation: false },
-        { ...translations[5], img: crmForm, icon: Rows3, useAppAnimation: false },
+        {
+            ...translations[4],
+            img: crmHero,
+            imgDark: crmHeroDark,
+            icon: SquareUser,
+            useAppAnimation: false,
+        },
+        {
+            ...translations[5],
+            img: crmForm,
+            imgDark: crmFormDark,
+            icon: Rows3,
+            useAppAnimation: false,
+        },
         { ...translations[0], img: appHero, icon: Shapes, useAppAnimation: true },
     ];
 
@@ -141,7 +185,7 @@ export default function KeyFeaturesShowcase({ t }: Props) {
             <div className="flex flex-col gap-8">
                 <div className="flex flex-col gap-4 text-center max-w-xl mx-auto px-4">
                     <h2 className="text-xl font-bold">{title}</h2>
-                    <p className="text-muted-foreground text-sm">{description}</p>
+                    <p className="text-sm text-muted-foreground">{description}</p>
                 </div>
 
                 <div className="lg:hidden flex flex-col gap-4 p-4 bg-card">
@@ -151,16 +195,16 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                                 <AppAnimation className="h-full w-auto max-h-[400px] mt-20" />
                             ) : (
                                 <img
-                                    src={features[active].img.src}
+                                    src={screenshotSrc(features[active], isDarkMode) ?? ""}
                                     alt={getImageAltText(features[active].img)}
-                                    className="max-w-full max-h-full w-auto h-auto mt-15 object-contain object-center"
+                                    className="max-w-full max-h-full w-auto h-auto mt-15 object-contain object-center rounded shadow-[0_14px_48px_rgba(0,0,0,0.14)] dark:shadow-[0_14px_48px_rgba(0,0,0,0.55)]"
                                 />
                             )}
                         </div>
                     </div>
 
                     <div
-                        className="overflow-x-auto -mx-4 px-4 pb-2 scrollbar-hide"
+                        className="overflow-x-auto -mx-4 px-4 scrollbar-hide"
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                     >
                         <div className="flex gap-2 min-w-max">
@@ -187,7 +231,7 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                     </div>
 
                     <div className="flex-1 min-w-0 rounded-sm px-4 py-3 bg-background">
-                        <p className="text-sm text-muted-foreground leading-relaxed">
+                        <p className="text-sm leading-relaxed text-muted-foreground">
                             {features[active].description}
                         </p>
                     </div>
@@ -198,30 +242,39 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                 >
                     <div
                         ref={imgRef}
-                        className="w-full lg:w-[130%] xl:w-[100%] lg:-mr-[35vw] xl:-mr-[30vw] h-[500px] md:h-[600px] lg:h-[750px] overflow-hidden shrink-0 flex items-center justify-center"
+                        className={cn(
+                            "w-full lg:-mr-[35vw] xl:-mr-[40vw] h-[500px] md:h-[600px] lg:h-[750px] shrink-0 flex items-center justify-center py-10",
+                            features[active].useAppAnimation ? "lg:-mr-[20vw] xl:-mr-[25vw]" : "",
+                        )}
                     >
                         {features[active].useAppAnimation ? (
-                            <AppAnimation className="h-full w-auto -translate-x-30" />
+                            <AppAnimation className="h-full w-auto max-w-full -translate-x-30" />
                         ) : (
-                            <img
-                                src={features[active].img.src}
-                                alt={getImageAltText(features[active].img)}
-                                className="w-full h-full object-contain object-center"
-                            />
+                            <div
+                                className={cn(
+                                    "max-h-full w-fit max-w-full mx-auto rounded overflow-hidden",
+                                )}
+                            >
+                                <img
+                                    src={screenshotSrc(features[active], isDarkMode) ?? ""}
+                                    alt={getImageAltText(features[active].img)}
+                                    className="block max-h-[min(100%,420px)] md:max-h-[min(100%,520px)] lg:max-h-[min(100%,660px)] w-auto max-w-full h-auto object-contain object-center dark:shadow-[0_14px_48px_rgba(0,0,0,0.55)] shadow-[0_14px_48px_rgba(0,0,0,0.14)]"
+                                />
+                            </div>
                         )}
                     </div>
 
                     <div className="absolute left-0 top-0 z-10 flex flex-col lg:flex-row lg:justify-start lg:items-stretch w-full min-h-[400px] md:min-h-[500px] lg:min-h-[560px] p-6 lg:p-10 lg:pl-16 xl:pl-24 pointer-events-none">
                         <div className="flex flex-col lg:max-w-md gap-4 pointer-events-auto">
-                            <div className="flex items-start gap-3 pt-9">
+                            <div className="flex items-start gap-3">
                                 <div className="flex flex-col gap-1 flex-shrink-0">
                                     <button
                                         onClick={handlePrev}
                                         disabled={active === 0}
                                         className={cn(
-                                            "w-9 h-9 rounded-md flex items-center justify-center transition-all cursor-pointer",
+                                            "w-9 h-9 rounded flex items-center justify-center transition-all cursor-pointer",
                                             active === 0
-                                                ? "bg-muted text-muted-foreground cursor-not-allowed"
+                                                ? "bg-muted cursor-not-allowed"
                                                 : "bg-background hover:bg-muted text-foreground",
                                         )}
                                         aria-label="Anterior"
@@ -232,9 +285,9 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                                         onClick={handleNext}
                                         disabled={active === features.length - 1}
                                         className={cn(
-                                            "w-9 h-9 rounded-md flex items-center justify-center transition-all cursor-pointer",
+                                            "w-9 h-9 rounded flex items-center justify-center transition-all cursor-pointer",
                                             active === features.length - 1
-                                                ? "bg-muted text-muted-foreground cursor-not-allowed"
+                                                ? "bg-muted cursor-not-allowed"
                                                 : "bg-background hover:bg-muted text-foreground",
                                         )}
                                         aria-label="Siguiente"

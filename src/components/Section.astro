@@ -7,11 +7,13 @@ import { Image } from "astro:assets";
 import BookDemoButton from "@/components/BookDemoButton.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import LottiePlayer from "@/components/LottiePlayer";
+import ThemedImage from "@/components/ThemedImage.astro";
 
 interface SectionCard {
     title?: string;
     description: string;
     image?: ImageMetadata;
+    imageDark?: ImageMetadata;
     lottie?: object;
     imageClass?: string;
     cardClass?: string;
@@ -82,11 +84,20 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
                                     className={leftCard.imageClass || "w-full"}
                                 />
                             ) : leftCard.image ? (
-                                <Image
-                                    src={leftCard.image}
-                                    alt={leftCard.altText || leftCard.title || t.altText.heroImage}
-                                    class={leftCard.imageClass || "w-full"}
-                                />
+                                leftCard.imageDark ? (
+                                    <ThemedImage
+                                        src={leftCard.image}
+                                        darkImage={leftCard.imageDark}
+                                        alt={leftCard.altText || leftCard.title || t.altText.heroImage}
+                                        className={`${leftCard.imageClass ?? "w-full xl:w-4/5 mx-auto object-contain"} rounded`.trim()}
+                                    />
+                                ) : (
+                                    <Image
+                                        src={leftCard.image}
+                                        alt={leftCard.altText || leftCard.title || t.altText.heroImage}
+                                        class={leftCard.imageClass || "w-full"}
+                                    />
+                                )
                             ) : null}
                         </CardFooter>
                     </Card>
@@ -109,11 +120,20 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
                                 className={leftCard.imageClass || "w-full"}
                             />
                         ) : leftCard.image ? (
-                            <Image
-                                src={leftCard.image}
-                                alt={leftCard.altText || leftCard.title || t.altText.heroImage}
-                                class={leftCard.imageClass || "w-full"}
-                            />
+                            leftCard.imageDark ? (
+                                <ThemedImage
+                                    src={leftCard.image}
+                                    darkImage={leftCard.imageDark}
+                                    alt={leftCard.altText || leftCard.title || t.altText.heroImage}
+                                    className={`${leftCard.imageClass ?? "w-full xl:w-4/5 mx-auto object-contain"} rounded`.trim()}
+                                />
+                            ) : (
+                                <Image
+                                    src={leftCard.image}
+                                    alt={leftCard.altText || leftCard.title || t.altText.heroImage}
+                                    class={leftCard.imageClass || "w-full"}
+                                />
+                            )
                         ) : null}
                     </CardFooter>
                 </Card>
@@ -149,11 +169,20 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
                                     className={rightCard.imageClass || "w-full"}
                                 />
                             ) : rightCard.image ? (
-                                <Image
-                                    src={rightCard.image}
-                                    alt={rightCard.altText || rightCard.title || t.altText.heroImage}
-                                    class={rightCard.imageClass || "w-full"}
-                                />
+                                rightCard.imageDark ? (
+                                    <ThemedImage
+                                        src={rightCard.image}
+                                        darkImage={rightCard.imageDark}
+                                        alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                        className={`${rightCard.imageClass ?? "w-full xl:w-4/5 mx-auto object-contain"} rounded`.trim()}
+                                    />
+                                ) : (
+                                    <Image
+                                        src={rightCard.image}
+                                        alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                        class={rightCard.imageClass || "w-full"}
+                                    />
+                                )
                             ) : null}
                         </CardFooter>
                     </Card>
@@ -176,11 +205,20 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
                                 className={rightCard.imageClass || "w-auto"}
                             />
                         ) : rightCard.image ? (
-                            <Image
-                                src={rightCard.image}
-                                alt={rightCard.altText || rightCard.title || t.altText.heroImage}
-                                class={rightCard.imageClass || "w-auto"}
-                            />
+                            rightCard.imageDark ? (
+                                <ThemedImage
+                                    src={rightCard.image}
+                                    darkImage={rightCard.imageDark}
+                                    alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                    className={`${rightCard.imageClass ?? "w-full xl:w-4/5 mx-auto object-contain"} rounded`.trim()}
+                                />
+                            ) : (
+                                <Image
+                                    src={rightCard.image}
+                                    alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                    class={rightCard.imageClass || "w-auto"}
+                                />
+                            )
                         ) : null}
                     </CardFooter>
                 </Card>

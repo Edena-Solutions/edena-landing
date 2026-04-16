@@ -8,9 +8,12 @@ import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/nurseries/FAQs.astro";
 import Features from "@/components/Features";
 import heroImage from "@/assets/img/screenshots/shared/hero.png";
-import billingCycle from "@/assets/img/screenshots/finance/invoice_email.png";
+import billingCycle from "@/assets/img/screenshots/finance/billing_info.png";
+import billingCycleDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
 import chatAnimation from "@/assets/animations/chat.json";
 import classroomDetail from "@/assets/img/screenshots/students/student_classroom.png";
+import heroImageDark from "@/assets/img/screenshots/shared/dark/hero.png";
+import classroomDetailDark from "@/assets/img/screenshots/students/dark/student_classroom.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -76,6 +79,7 @@ const features = [
         <Hero
             t={t}
             heroImage={heroImage}
+            heroImageDark={heroImageDark}
             showBookDemoInHero={true}
             mainTitle={t.nurseries.mainTitle}
             mainDescription={t.nurseries.mainDescription}
@@ -88,6 +92,7 @@ const features = [
                 title: t.nurseries.automationTitle,
                 description: t.nurseries.automationDescription,
                 image: billingCycle,
+                imageDark: billingCycleDark,
                 altText: t.altText.appFeed,
             }}
         />
@@ -114,6 +119,7 @@ const features = [
                 title: t.nurseries.childrenManagementTitle,
                 description: t.nurseries.childrenManagementDescription,
                 image: classroomDetail,
+                imageDark: classroomDetailDark,
                 cardClass: "h-80 md:h-120 overflow-hidden",
                 altText: t.altText.studentClassroom,
             }}

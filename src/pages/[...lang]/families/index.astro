@@ -10,7 +10,8 @@ import AppAnimation from "@/components/AppAnimation";
 import ShopAppAnimation from "@/components/ShopAppAnimation";
 import Features from "@/components/Features";
 import featuresAnimation from "@/assets/animations/functions.json";
-import billingCycle from "@/assets/img/screenshots/finance/billing_cycle.png";
+import billingCycle from "@/assets/img/screenshots/finance/billing_info.png";
+import billingCycleDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -87,6 +88,7 @@ const features = [
                 title: t.families.digitalBillingTitle,
                 description: t.families.digitalBillingDescription,
                 image: billingCycle,
+                imageDark: billingCycleDark,
                 altText: t.altText.billingCycle,
             }}
         >
