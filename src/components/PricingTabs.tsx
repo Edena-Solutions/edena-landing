@@ -96,7 +96,7 @@ interface PricingTabsProps {
 export function PricingTabs({ t, lang }: PricingTabsProps) {
     const [value, setValue] = React.useState("plans");
     const [plansAnnual, setPlansAnnual] = React.useState(false);
-    const demoUrl = `/demo`;
+    const demoUrl = `/${lang}/demo`;
     const calcT = t.pricing?.calculator;
     const monthlyLabel = calcT?.monthly ?? (lang === "es" ? "Mensual" : "Monthly");
     const annualLabel = calcT?.annual ?? (lang === "es" ? "Anual" : "Annual");

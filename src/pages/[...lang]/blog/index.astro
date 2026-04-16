@@ -9,13 +9,20 @@ export async function getStaticPaths() {
         { params: { lang: "es" }, props: { lang: "es" } },
         { params: { lang: "en" }, props: { lang: "en" } },
         { params: { lang: "ca" }, props: { lang: "ca" } },
+        { params: { lang: "eus" }, props: { lang: "eus" } },
     ];
 }
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 const collectionName =
-    lang === "en" ? "blogEn" : lang === "ca" ? "blogCa" : "blogEs";
+    lang === "en"
+        ? "blogEn"
+        : lang === "ca"
+          ? "blogCa"
+          : lang === "eus"
+            ? "blogEus"
+            : "blogEs";
 const posts = await getCollection(collectionName);
 const sortedPosts = posts.sort((a, b) => b.data.date.localeCompare(a.data.date));
 ---
@@ -23,8 +30,7 @@ const sortedPosts = posts.sort((a, b) => b.data.date.localeCompare(a.data.date))
 <Layout
     content={{
         title: `${t.navigation.blog} | Edena`,
-        description:
-            "Artículos y novedades sobre gestión escolar, tecnología educativa y normativa.",
+        description: `${t.navigation.blog} — Edena.`,
     }}
     lang={lang}
 >

@@ -1,6 +1,7 @@
 ---
 import { Button } from "@/components/ui/button";
 import type { Translation } from "@/i18n";
+import { getLanguageFromURL, localizedDemoPath } from "@/i18n";
 
 interface Props {
     t: Translation;
@@ -9,7 +10,7 @@ interface Props {
 }
 
 const { t, variant = "default", className = "" } = Astro.props;
-const demoUrl = `/demo`;
+const demoUrl = localizedDemoPath(getLanguageFromURL(Astro.url.pathname));
 ---
 
 <a href={demoUrl}>

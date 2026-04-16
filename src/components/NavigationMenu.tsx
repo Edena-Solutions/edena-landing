@@ -231,7 +231,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                 </div>
 
                 <div className="flex items-center gap-4 md:hidden">
-                    <Link href={"/demo"} className="sm:hidden">
+                    <Link href={`/${lang}/demo`} className="sm:hidden">
                         <Button className="w-full" size="sm">
                             {t.bookDemo}
                         </Button>
@@ -299,7 +299,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     <Link href={`/${lang}/blog`}>
                         <Button variant="ghost">{t.navigation.blog}</Button>
                     </Link>
-                    <Link href="/demo">
+                    <Link href={`/${lang}/demo`}>
                         <Button>{t.bookDemo}</Button>
                     </Link>
                     <LanguageSwitcher currentLang={lang} />

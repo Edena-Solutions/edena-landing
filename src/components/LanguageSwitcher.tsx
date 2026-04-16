@@ -22,6 +22,11 @@ const languageNames: Record<string, { code: string; name: string; flag: string }
         flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/330px-Flag_of_Catalonia.svg.png",
     },
     es: { code: "ES", name: "Español", flag: "https://flagcdn.com/es.svg" },
+    eus: {
+        code: "EUS",
+        name: "Euskera",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_of_the_Basque_Country.svg/960px-Flag_of_the_Basque_Country.svg.png",
+    },
 };
 
 function LangFlag({ src }: { src: string }) {

@@ -4,7 +4,7 @@ date: "2025-04-15"
 description: "Discover how mobile apps are transforming the educational experience, providing instant access to school information and services."
 tags: ["mobile apps", "digital experience", "instant access", "technology"]
 author: "Edena Team"
-cover: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+cover: "https://images.unsplash.com/photo-1584206863352-ce8b3a1c10e3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
 <strong>Mobile Apps in Education: The Digital Experience in Your Pocket</strong>

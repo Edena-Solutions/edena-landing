@@ -12,15 +12,54 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+
+const calendlyUrl = "https://calendly.com/edena-software/1h-meeting";
 ---
 
 <Layout content={{ title: t.meta.demoTitle, description: t.meta.demoDescription }} lang={lang}>
     <div
+        id="calendly-inline-demo"
         class="calendly-inline-widget"
-        data-url="https://calendly.com/edena-software/1h-meeting"
+        data-url={calendlyUrl}
         style="min-width:320px;height:700px;"
     >
     </div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async
-    ></script>
+    <script is:inline>
+        document.addEventListener("astro:page-load", () => {
+            const parent = document.getElementById("calendly-inline-demo");
+            if (!parent) return;
+            const url = parent.getAttribute("data-url");
+            if (!url) return;
+            parent.replaceChildren();
+
+            const inject = () => {
+                if (!window.Calendly) return;
+                const el = document.getElementById("calendly-inline-demo");
+                if (!el) return;
+                const u = el.getAttribute("data-url");
+                if (!u) return;
+                el.replaceChildren();
+                window.Calendly.initInlineWidget({ url: u, parentElement: el });
+            };
+
+            if (window.Calendly) {
+                inject();
+                return;
+            }
+
+            let script = document.querySelector("script[data-calendly-widget-js]");
+            if (!script) {
+                script = document.createElement("script");
+                script.src = "https://assets.calendly.com/assets/external/widget.js";
+                script.async = true;
+                script.dataset.calendlyWidgetJs = "1";
+                script.onload = inject;
+                document.head.appendChild(script);
+                return;
+            }
+
+            if (window.Calendly) inject();
+            else script.addEventListener("load", inject, { once: true });
+        });
+    </script>
 </Layout>

@@ -7,6 +7,7 @@ export async function GET() {
     const blogEsPosts = await getCollection("blogEs");
     const blogEnPosts = await getCollection("blogEn");
     const blogCaPosts = await getCollection("blogCa");
+    const blogEusPosts = await getCollection("blogEus");
 
     const latestBlogEsDate =
         blogEsPosts.length > 0
@@ -17,6 +18,18 @@ export async function GET() {
     const latestBlogEnDate =
         blogEnPosts.length > 0
             ? blogEnPosts
+                  .sort((a, b) => b.data.date.localeCompare(a.data.date))[0]
+                  .data.date.split("T")[0]
+            : currentDate;
+    const latestBlogEusDate =
+        blogEusPosts.length > 0
+            ? blogEusPosts
+                  .sort((a, b) => b.data.date.localeCompare(a.data.date))[0]
+                  .data.date.split("T")[0]
+            : currentDate;
+    const latestBlogCaDate =
+        blogCaPosts.length > 0
+            ? blogCaPosts
                   .sort((a, b) => b.data.date.localeCompare(a.data.date))[0]
                   .data.date.split("T")[0]
             : currentDate;
@@ -54,6 +67,71 @@ export async function GET() {
         { hreflang: "es", href: `${base}/es/` },
         { hreflang: "en", href: `${base}/en/` },
     ];
+
+    /** Subpaths under /ca/ and /eus/ that use [...lang] (same set as /en/). */
+    const sharedLocaleSubpaths: Array<{ segment: string; priority: string; changefreq: string }> = [
+        { segment: "app/", priority: "0.9", changefreq: "monthly" },
+        { segment: "dashboard/", priority: "0.9", changefreq: "monthly" },
+        { segment: "students/", priority: "0.9", changefreq: "monthly" },
+        { segment: "guardians/", priority: "0.9", changefreq: "monthly" },
+        { segment: "finance/", priority: "0.9", changefreq: "monthly" },
+        { segment: "crm/", priority: "0.9", changefreq: "monthly" },
+        { segment: "assignment/", priority: "0.9", changefreq: "monthly" },
+        { segment: "pricing/", priority: "0.9", changefreq: "monthly" },
+        { segment: "demo/", priority: "1.0", changefreq: "monthly" },
+        { segment: "faqs/", priority: "0.8", changefreq: "monthly" },
+        { segment: "families/", priority: "0.9", changefreq: "monthly" },
+        { segment: "nurseries/", priority: "0.9", changefreq: "monthly" },
+        { segment: "schools/", priority: "0.9", changefreq: "monthly" },
+        { segment: "academies/", priority: "0.9", changefreq: "monthly" },
+        { segment: "groups/", priority: "0.9", changefreq: "monthly" },
+        { segment: "contact/", priority: "0.8", changefreq: "monthly" },
+        { segment: "privacy/", priority: "0.5", changefreq: "yearly" },
+        { segment: "terms/", priority: "0.5", changefreq: "yearly" },
+        { segment: "cookies/", priority: "0.5", changefreq: "yearly" },
+    ];
+
+    const buildLocaleStaticUrls = (
+        langPrefix: "ca" | "eus",
+        hreflang: "ca" | "eu",
+        blogLastmod: string,
+    ): SitemapUrl[] => {
+        const urls: SitemapUrl[] = [
+            {
+                path: `/${langPrefix}/`,
+                priority: "0.9",
+                changefreq: "weekly",
+                lastmod: currentDate,
+                hreflangLinks: [{ hreflang, href: `${base}/${langPrefix}/` }],
+                images: [
+                    {
+                        loc: `${base}/assets/img/logo.png`,
+                        title: "Edena",
+                    },
+                ],
+            },
+            {
+                path: `/${langPrefix}/blog/`,
+                priority: "0.8",
+                changefreq: "weekly",
+                lastmod: blogLastmod,
+                hreflangLinks: [{ hreflang, href: `${base}/${langPrefix}/blog/` }],
+            },
+        ];
+        for (const p of sharedLocaleSubpaths) {
+            urls.push({
+                path: `/${langPrefix}/${p.segment}`,
+                priority: p.priority,
+                changefreq: p.changefreq,
+                lastmod: currentDate,
+                hreflangLinks: [{ hreflang, href: `${base}/${langPrefix}/${p.segment}` }],
+            });
+        }
+        return urls;
+    };
+
+    const caLocaleStaticUrls = buildLocaleStaticUrls("ca", "ca", latestBlogCaDate);
+    const eusLocaleStaticUrls = buildLocaleStaticUrls("eus", "eu", latestBlogEusDate);
 
     const staticUrls: SitemapUrl[] = [
         {
@@ -156,13 +234,6 @@ export async function GET() {
             changefreq: "monthly",
             lastmod: currentDate,
             hreflangLinks: buildHreflang("pricing/"),
-        },
-        {
-            path: "/demo/",
-            priority: "1.0",
-            changefreq: "monthly",
-            lastmod: currentDate,
-            hreflangLinks: buildHreflang("demo/"),
         },
         {
             path: "/faqs/",
@@ -329,6 +400,13 @@ export async function GET() {
             hreflangLinks: buildHreflang("families/"),
         },
         {
+            path: "/es/contact/",
+            priority: "0.8",
+            changefreq: "monthly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("contact/", "/es/contact/"),
+        },
+        {
             path: "/es/blog/",
             priority: "0.8",
             changefreq: "weekly",
@@ -449,6 +527,13 @@ export async function GET() {
             changefreq: "monthly",
             lastmod: currentDate,
             hreflangLinks: buildHreflang("families/"),
+        },
+        {
+            path: "/en/contact/",
+            priority: "0.8",
+            changefreq: "monthly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("contact/", "/es/contact/"),
         },
         {
             path: "/en/nurseries/",
@@ -614,12 +699,39 @@ export async function GET() {
         };
     });
 
+    const blogEusUrls: SitemapUrl[] = blogEusPosts.map((post) => {
+        const postDate = post.data.date.split("T")[0];
+        const images: Array<{ loc: string; title?: string }> = [];
+
+        if (post.data.cover) {
+            const imageUrl = post.data.cover.startsWith("http")
+                ? post.data.cover
+                : `${base}${post.data.cover.startsWith("/") ? "" : "/"}${post.data.cover}`;
+            images.push({
+                loc: imageUrl,
+                title: post.data.title,
+            });
+        }
+
+        return {
+            path: `/eus/blog/${post.slug}/`,
+            priority: "0.7",
+            changefreq: "monthly",
+            lastmod: postDate,
+            hreflangLinks: [{ hreflang: "eu", href: `${base}/eus/blog/${post.slug}/` }],
+            images: images.length > 0 ? images : undefined,
+        };
+    });
+
     const allUrls = [
         ...staticUrls,
+        ...caLocaleStaticUrls,
+        ...eusLocaleStaticUrls,
         ...blogEsUrls,
         ...blogEsUrlsWithPrefix,
         ...blogEnUrls,
         ...blogCaUrls,
+        ...blogEusUrls,
     ];
 
     const escapeXmlUrl = (url: string): string => {

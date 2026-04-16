@@ -5,6 +5,10 @@ import react from '@astrojs/react';
 
 export default defineConfig({
     site: 'https://edena.es',
+    redirects: {
+        '/demo': '/es/demo',
+        '/demo/': '/es/demo/',
+    },
     i18n: {
         defaultLocale: 'es',
         locales: ['es', 'en'],

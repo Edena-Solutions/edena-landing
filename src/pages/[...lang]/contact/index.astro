@@ -1,5 +1,5 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations, languages, localizedDemoPath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
 import { ContactForm } from "@/components/ContactForm";
 import Link from "@/components/ui/link";
@@ -14,6 +14,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const demoPath = localizedDemoPath(lang);
 ---
 
 <Layout
@@ -38,7 +39,7 @@ const t = translations[lang as keyof typeof translations];
                         {t.blog.ctaDescription}
                     </p>
                 </div>
-                <Link href="/demo">
+                <Link href={demoPath}>
                     <Button variant="white">
                         {t.bookDemo}
                     </Button>

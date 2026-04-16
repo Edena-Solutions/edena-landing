@@ -48,7 +48,14 @@ const articleSchema: ArticleSchema = {
     description: description,
     datePublished: date,
     dateModified: date,
-    inLanguage: lang === "es" ? "es-ES" : "en-US",
+    inLanguage:
+        lang === "es"
+            ? "es-ES"
+            : lang === "eus"
+              ? "eu"
+              : lang === "ca"
+                ? "ca-ES"
+                : "en-US",
     author: {
         "@type": "Organization",
         name: author,

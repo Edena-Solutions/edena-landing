@@ -26,7 +26,14 @@ interface BreadcrumbSchema {
 const breadcrumbSchema: BreadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    inLanguage: lang === "es" ? "es-ES" : "en-US",
+    inLanguage:
+        lang === "es"
+            ? "es-ES"
+            : lang === "eus"
+              ? "eu"
+              : lang === "ca"
+                ? "ca-ES"
+                : "en-US",
     itemListElement: items.map((item, index) => ({
         "@type": "ListItem",
         position: index + 1,

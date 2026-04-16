@@ -31,13 +31,25 @@ export async function getStaticPaths() {
         props: { lang: "ca", slug: post.slug },
     }));
 
-    return [...pathsEs, ...pathsEn, ...pathsCa];
+    const postsEus = await getCollection("blogEus");
+    const pathsEus = postsEus.map((post) => ({
+        params: { lang: "eus", slug: post.slug },
+        props: { lang: "eus", slug: post.slug },
+    }));
+
+    return [...pathsEs, ...pathsEn, ...pathsCa, ...pathsEus];
 }
 
 const { lang, slug } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 const collectionName =
-    lang === "en" ? "blogEn" : lang === "ca" ? "blogCa" : "blogEs";
+    lang === "en"
+        ? "blogEn"
+        : lang === "ca"
+          ? "blogCa"
+          : lang === "eus"
+            ? "blogEus"
+            : "blogEs";
 const post = await getEntry(collectionName, slug);
 if (!post) throw new Error("Post not found");
 const { Content } = await post.render();
@@ -112,7 +124,7 @@ const ogMeta = post.data.cover
                             {t.blog.ctaDescription}
                         </p>
                     </div>
-                    <Link href="/demo">
+                    <Link href={`/${lang}/demo`}>
                         <Button variant="white">
                             {t.bookDemo}
                         </Button>
@@ -136,7 +148,13 @@ const ogMeta = post.data.cover
         items={[
             {
                 name:
-                    lang === "es" ? "Inicio" : lang === "ca" ? "Inici" : "Home",
+                    lang === "es"
+                        ? "Inicio"
+                        : lang === "ca"
+                          ? "Inici"
+                          : lang === "eus"
+                            ? "Hasiera"
+                            : "Home",
                 url: homeUrl,
             },
             { name: t.navigation.blog, url: blogUrl },
