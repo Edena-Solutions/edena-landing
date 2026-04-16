@@ -5,6 +5,8 @@ import Hero from "@/modules/pricing/Hero.astro";
 import ProductSchema from "@/components/StructuredData/Product.astro";
 import { PricingTabs } from "@/components/PricingTabs";
 import { getCollection } from "astro:content";
+import { ogFromAsset } from "@/lib/og-image";
+import pricingOgImage from "@/assets/img/screenshots/finance/billing_cycle.png";
 
 export function getStaticPaths() {
     return languages.map((lang) => ({
@@ -32,7 +34,11 @@ const offers = pricingPlans
 ---
 
 <Layout
-    content={{ title: t.meta.pricingTitle, description: t.meta.pricingDescription }}
+    content={{
+        title: t.meta.pricingTitle,
+        description: t.meta.pricingDescription,
+        ...ogFromAsset(pricingOgImage, Astro.site),
+    }}
     lang={lang}
 >
     <ProductSchema

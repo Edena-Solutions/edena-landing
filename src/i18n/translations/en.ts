@@ -1,5 +1,5 @@
 export default {
-    bookDemo: "Get Your Free Demo",
+    bookDemo: "Book a Demo",
     downloadTheApp: "Download Free App",
     knowMore: "Know More",
     meta: {

@@ -17,6 +17,7 @@ import studentEvaluationDark from "@/assets/img/screenshots/students/dark/studen
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
+import { ogFromAsset } from "@/lib/og-image";
 export function getStaticPaths() {
     return languages.map((lang) => ({
         params: { lang },
@@ -70,7 +71,11 @@ const features = [
 ---
 
 <Layout
-    content={{ title: t.meta.studentsTitle, description: t.meta.studentsDescription }}
+    content={{
+        title: t.meta.studentsTitle,
+        description: t.meta.studentsDescription,
+        ...ogFromAsset(studentDetail, Astro.site),
+    }}
     lang={lang}
 >
     <GSAPSection client:load className="grid gap-16" animationType="opacity">

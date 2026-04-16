@@ -197,7 +197,7 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                                 <img
                                     src={screenshotSrc(features[active], isDarkMode) ?? ""}
                                     alt={getImageAltText(features[active].img)}
-                                    className="max-w-full max-h-full w-auto h-auto mt-15 object-contain object-center rounded shadow-[0_14px_48px_rgba(0,0,0,0.14)] dark:shadow-[0_14px_48px_rgba(0,0,0,0.55)]"
+                                    className="max-w-full max-h-full w-auto h-auto mt-15 object-contain object-center rounded"
                                 />
                             )}
                         </div>

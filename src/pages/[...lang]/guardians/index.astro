@@ -15,6 +15,7 @@ import guardianManagementDark from "@/assets/img/screenshots/guardians/dark/guar
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
+import { ogFromAsset } from "@/lib/og-image";
 export function getStaticPaths() {
     return languages.map((lang) => ({
         params: { lang },
@@ -68,7 +69,11 @@ const features = [
 ---
 
 <Layout
-    content={{ title: t.meta.guardiansTitle, description: t.meta.guardiansDescription }}
+    content={{
+        title: t.meta.guardiansTitle,
+        description: t.meta.guardiansDescription,
+        ...ogFromAsset(heroImage, Astro.site),
+    }}
     lang={lang}
 >
     <GSAPSection client:load className="grid gap-16" animationType="opacity">

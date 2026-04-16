@@ -15,6 +15,7 @@ import billingCycleDark from "@/assets/img/screenshots/finance/dark/billing_info
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
+import { ogFromAsset } from "@/lib/og-image";
 
 export function getStaticPaths() {
     return languages.map((lang) => ({
@@ -70,7 +71,11 @@ const features = [
 ---
 
 <Layout
-    content={{ title: t.meta.familiesTitle, description: t.meta.familiesDescription }}
+    content={{
+        title: t.meta.familiesTitle,
+        description: t.meta.familiesDescription,
+        ...ogFromAsset(billingCycle, Astro.site),
+    }}
     lang={lang}
 >
     <GSAPSection client:load className="grid gap-16" animationType="opacity">

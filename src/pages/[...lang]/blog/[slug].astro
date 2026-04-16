@@ -8,6 +8,8 @@ import ArticleSchema from "@/components/StructuredData/Article.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
 import Link from "@/components/ui/link";
 import { Button } from "@/components/ui/button";
+import { ogFromAsset } from "@/lib/og-image";
+import defaultBlogOg from "@/assets/img/screenshots/shared/hero.png";
 
 export async function getStaticPaths() {
     const postsEs = await getCollection("blogEs");
@@ -45,18 +47,16 @@ const blogUrl = `https://edena.es/${lang}/blog`;
 const homeUrl = `https://edena.es/${lang === "es" ? "" : `${lang}/`}`;
 
 const publishedDate = new Date(post.data.date).toISOString();
-const ogImage = post.data.cover || "https://edena.es/assets/img/favicon.png";
-const ogImageWidth = post.data.cover ? "1200" : "1200";
-const ogImageHeight = post.data.cover ? "630" : "630";
+const ogMeta = post.data.cover
+    ? { ogImage: post.data.cover, ogImageWidth: "1200", ogImageHeight: "630" }
+    : ogFromAsset(defaultBlogOg, Astro.site);
 ---
 
 <Layout
     content={{
         title: post.data.title,
         description: post.data.description,
-        ogImage: ogImage,
-        ogImageWidth: ogImageWidth,
-        ogImageHeight: ogImageHeight,
+        ...ogMeta,
         articleAuthor: post.data.author || "Edena Team",
         articlePublishedTime: publishedDate,
     }}

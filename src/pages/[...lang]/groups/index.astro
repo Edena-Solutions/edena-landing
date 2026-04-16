@@ -14,6 +14,7 @@ import chatAnimation from "@/assets/animations/chat.json";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
+import { ogFromAsset } from "@/lib/og-image";
 
 export function getStaticPaths() {
     return languages.map((lang) => ({
@@ -68,7 +69,14 @@ const features = [
 ];
 ---
 
-<Layout content={{ title: t.meta.groupsTitle, description: t.meta.groupsDescription }} lang={lang}>
+<Layout
+    content={{
+        title: t.meta.groupsTitle,
+        description: t.meta.groupsDescription,
+        ...ogFromAsset(heroImage, Astro.site),
+    }}
+    lang={lang}
+>
     <GSAPSection client:load className="grid gap-16" animationType="opacity">
         <Hero
             t={t}

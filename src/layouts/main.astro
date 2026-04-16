@@ -6,6 +6,8 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { ClientRouter } from "astro:transitions";
 import OrganizationSchema from "@/components/StructuredData/Organization.astro";
 import { translations } from "@/i18n/index.ts";
+import { ogFromAsset } from "@/lib/og-image";
+import defaultOgImage from "@/assets/img/screenshots/shared/hero.png";
 
 interface Props {
     content?: {
@@ -26,9 +28,10 @@ const t = translations[lang as keyof typeof translations];
 
 const title = content.title || t.meta.homeTitle;
 const description = content.description || t.meta.homeDescription;
-const ogImage = content.ogImage || "https://edena.es/assets/img/favicon.png";
-const ogImageWidth = content.ogImageWidth || "1200";
-const ogImageHeight = content.ogImageHeight || "630";
+const fallbackOg = ogFromAsset(defaultOgImage, Astro.site);
+const ogImage = content.ogImage || fallbackOg.ogImage;
+const ogImageWidth = content.ogImageWidth || fallbackOg.ogImageWidth;
+const ogImageHeight = content.ogImageHeight || fallbackOg.ogImageHeight;
 
 const defaultImageAlt =
     lang === "es" ? "Edena - Software de Gestión Escolar" : "Edena - School Management Software";
