@@ -1594,45 +1594,129 @@ For any questions about these terms, you can contact us at privacidad@edena.es.`
     },
     privacyPolicy: {
         title: "Privacy Policy",
-        content: `Last update: July 25, 2025<br>
+        content: `Last updated: April 17, 2026<br>
 <br>
-1. INTRODUCTION<br>
-At Edena, we are committed to protecting your privacy and being transparent about how we process your personal data, in compliance with Regulation (EU) 2016/679 (GDPR) and Law 34/2002 (LSSI).<br>
+1. INTRODUCTION AND PURPOSE<br>
+At Edena, we are committed to protecting the privacy of all users of our platform and to being fully transparent about how we process personal data. This Privacy Policy describes the data processing practices of Edena Software S.L. in connection with the use of the Edena platform and this website, in compliance with Regulation (EU) 2016/679 (GDPR), Organic Law 3/2018 of 5 December on the Protection of Personal Data and Guarantee of Digital Rights (LOPDGDD), and Law 34/2002 of 11 July on Information Society Services and Electronic Commerce (LSSI).<br>
+<br>
+Edena is a comprehensive educational management platform designed for educational institutions (schools, nurseries, academies, and school groups). As a platform that handles data of minors, students, and families, we apply the highest standards of privacy and security.<br>
 <br>
 2. DATA CONTROLLER<br>
-Controller: Edena Software S.L.<br>
+Company name: Edena Software S.L.<br>
+Address: Barcelona, Spain<br>
+Email: privacidad@edena.es<br>
+Website: www.edena.es<br>
+<br>
+3. DATA PROTECTION OFFICER (DPO)<br>
+Edena has appointed a Data Protection Officer (DPO) responsible for overseeing compliance with data protection regulations. You may contact our DPO at any time at: privacidad@edena.es<br>
+<br>
+4. PLATFORM USERS AND DATA PROCESSED<br>
+Edena provides services to different categories of users, each with specific data processing:<br>
+<br>
+4.1 Administrators and school staff<br>
+Data: full name, national ID, role/position, corporate email, phone number, login credentials, and activity logs on the platform.<br>
+Purpose: management of the contractual relationship with the institution, platform access and administration, operational communication, and technical support.<br>
+<br>
+4.2 Teachers and academic tutors<br>
+Data: full name, email address, login credentials, assigned subjects or groups, grades entered, and communications with families.<br>
+Purpose: delivery of educational services, communication with families, grade management, and attendance tracking.<br>
+<br>
+4.3 Families and legal guardians<br>
+Data: full name, email address, phone number, relationship to the student, payment data (handled by PCI DSS-certified providers), communication history, and attached documentation.<br>
+Purpose: school-family communication, payment and billing management, access to student records, and educational follow-up.<br>
+<br>
+4.4 Students<br>
+Data: full name, date of birth, photograph (optional, with explicit consent), academic data (grades, attendance, progress), and relevant health data (allergies, special educational needs) when explicitly provided by the school or family.<br>
+Purpose: academic and student record management, educational communication, and monitoring of school progress.<br>
+<br>
+4.5 Website visitors<br>
+Data: browsing data, IP address (anonymised), pages visited, session duration, and data from contact or demo request forms (name, email, school name, message).<br>
+Purpose: website usage analysis, improvement of user experience, and handling of information requests.<br>
+<br>
+5. PURPOSES OF PROCESSING AND LEGAL BASIS<br>
+a) Contract management and service delivery — Basis: performance of a contract (Art. 6.1.b GDPR).<br>
+b) Academic management and student records — Basis: performance of a contract / legitimate interest (Art. 6.1.b and 6.1.f GDPR).<br>
+c) Communication between school and families — Basis: performance of a contract / legitimate interest (Art. 6.1.b and 6.1.f GDPR).<br>
+d) Billing and payment management — Basis: performance of a contract / legal obligation (Art. 6.1.b and 6.1.c GDPR).<br>
+e) Sending commercial communications about Edena — Basis: consent (Art. 6.1.a GDPR). Consent may be withdrawn at any time.<br>
+f) Compliance with tax, employment, and commercial legal obligations — Basis: legal obligation (Art. 6.1.c GDPR).<br>
+g) Platform improvement and anonymised statistical analysis — Basis: legitimate interest (Art. 6.1.f GDPR).<br>
+<br>
+6. SPECIAL PROCESSING: DATA OF MINORS<br>
+Edena is fully aware of the particular sensitivity involved in processing personal data of minors. In accordance with Article 8 of the GDPR and Article 7 of the LOPDGDD:<br>
+<br>
+- Educational institutions, as data controllers for their students' data, are responsible for obtaining the consent of parents or legal guardians for the processing of data of children under 14.<br>
+- Edena acts as data processor with respect to student data entered by the educational institution, following its instructions.<br>
+- Health data and other special categories of student data (Art. 9 GDPR) are only processed when the institution explicitly enters them and a specific legal basis exists (explicit consent or necessity for the educational service).<br>
+- Edena does not use minors' data for any purpose other than strictly educational and school management purposes.<br>
+<br>
+7. DATA RETENTION<br>
+Data will be kept for the time strictly necessary for the purpose for which it was collected and, in any case, for the periods required by law:<br>
+<br>
+- Contract and billing data: 6 years (tax and commercial obligations).<br>
+- Commercial communication data: until consent is withdrawn.<br>
+- Student records: for the duration of the relationship with the institution and, after leaving, for the limitation period for potential liability (up to 5 years).<br>
+- Platform access and activity logs: maximum 12 months.<br>
+- Website visitor data: in accordance with the applicable cookie policy.<br>
+<br>
+After these periods, data will be deleted or irreversibly anonymised.<br>
+<br>
+8. RECIPIENTS AND DATA PROCESSORS<br>
+Edena does not sell or transfer personal data to third parties for commercial purposes. Data may only be disclosed to:<br>
+<br>
+- Technology and cloud infrastructure providers (hosting, databases) acting as data processors under GDPR-compliant agreements.<br>
+- Certified payment service providers (PCI DSS) for billing and payment management.<br>
+- Service analysis and monitoring providers, always on an anonymised or aggregated basis.<br>
+- Public authorities and bodies, exclusively to fulfil legal obligations.<br>
+<br>
+All our providers are subject to confidentiality agreements and data processing contracts that ensure GDPR compliance.<br>
+<br>
+9. INTERNATIONAL DATA TRANSFERS<br>
+As a general rule, data is hosted on servers located in the European Economic Area (EEA). In the exceptional cases where an international transfer outside the EEA is necessary, Edena ensures that appropriate safeguards under the GDPR are in place, such as standard contractual clauses approved by the European Commission or the existence of an adequacy decision.<br>
+<br>
+10. DATA SUBJECTS' RIGHTS<br>
+In accordance with the GDPR and LOPDGDD, users may exercise the following rights:<br>
+<br>
+- Right of access: to know what personal data we process about you.<br>
+- Right of rectification: to correct inaccurate or incomplete data.<br>
+- Right of erasure ("right to be forgotten"): to request deletion of your data when it is no longer necessary for the purpose for which it was collected.<br>
+- Right to object: to object to the processing of your data in certain circumstances.<br>
+- Right to restriction of processing: to request that processing be limited in certain cases provided for by law.<br>
+- Right to data portability: to receive your data in a structured, commonly used, and machine-readable format.<br>
+- Right to withdraw consent: at any time, without affecting the lawfulness of processing prior to withdrawal.<br>
+- Right not to be subject to automated decisions with significant legal effects.<br>
+<br>
+To exercise any of these rights, send a request to privacidad@edena.es stating your name, surname, and a copy of your identity document. We will respond within a maximum of one month.<br>
+<br>
+If you consider that your rights have not been properly addressed, you have the right to lodge a complaint with the Spanish Data Protection Agency (AEPD) — www.aepd.es.<br>
+<br>
+11. SECURITY MEASURES<br>
+Edena implements appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including:<br>
+<br>
+- Encryption of data in transit (TLS/HTTPS) and at rest.<br>
+- Role-based access control and least-privilege principle.<br>
+- Secure authentication and session management.<br>
+- Continuous monitoring and security incident detection.<br>
+- Regular backups and disaster recovery plans.<br>
+- Regular staff training on data protection and cybersecurity.<br>
+- Data Protection Impact Assessments (DPIAs) for high-risk processing activities.<br>
+<br>
+In the event of a security breach affecting the rights and freedoms of data subjects, Edena will notify the supervisory authority within 72 hours and, where necessary, will inform the affected individuals.<br>
+<br>
+12. ACCURACY AND TRUTHFULNESS OF DATA<br>
+Users undertake to provide truthful, accurate, and up-to-date data. Edena shall not be liable for any harm arising from the use of inaccurate or false data provided by the user. If the data changes, the user must notify us as soon as possible at privacidad@edena.es.<br>
+<br>
+13. CHANGES TO THIS POLICY<br>
+Edena may update this Privacy Policy to reflect legislative changes, supervisory authority decisions, or platform updates. When changes are substantial, users will be notified by email or through a prominent notice on the platform. The "last updated" date at the top of this document always reflects the current version.<br>
+<br>
+14. CONTACT AND COMPLAINTS<br>
+For any queries, requests, or complaints related to the processing of your personal data, please contact our Data Protection Officer:<br>
 Email: privacidad@edena.es<br>
 <br>
-3. PERSONAL DATA PROCESSED AND PURPOSE<br>
-We process the data you provide through forms, registration, contact, subscription to communications, support, and use of the platform. The main purposes are:<br>
-- Manage your account and access to the platform.<br>
-- Provide and improve our services.<br>
-- Respond to inquiries and requests.<br>
-- Send commercial communications (if authorized).<br>
-- Comply with legal obligations.<br>
-<br>
-4. LEGAL BASIS<br>
-The legal basis for processing is your consent, the performance of a contract, and compliance with legal obligations.<br>
-<br>
-5. DATA RETENTION<br>
-Your data will be kept as long as necessary for the purpose for which it was collected, and for the periods required by applicable regulations.<br>
-<br>
-6. RECIPIENTS AND TRANSFERS<br>
-We do not share your data with third parties except by legal obligation or for the provision of essential services (technology providers, hosting, analytics, etc.), always under confidentiality and data processing agreements. We do not make international transfers outside the EEA without adequate safeguards.<br>
-<br>
-7. USER RIGHTS<br>
-You can exercise your rights of access, rectification, erasure, objection, restriction, and portability by sending an email to privacidad@edena.es. You can also file a complaint with the Spanish Data Protection Agency.<br>
-<br>
-8. INFORMATION SECURITY<br>
-We apply technical and organizational measures to protect your data and ensure its confidentiality, integrity, and availability.<br>
-<br>
-9. DATA ACCURACY<br>
-The user guarantees the truthfulness and updating of the data provided. Edena is not responsible for inaccurate or false data.<br>
-<br>
-10. CHANGES TO THE PRIVACY POLICY<br>
-Edena may modify this policy to adapt it to legislative or platform changes. We recommend reviewing it periodically.<br>
-<br>
-For any privacy questions, contact our DPO at privacidad@edena.es.`,
+To lodge a complaint with the competent supervisory authority:<br>
+Spanish Data Protection Agency (AEPD)<br>
+C/ Jorge Juan, 6, 28001 Madrid<br>
+www.aepd.es`,
     },
     cookiePolicy: {
         title: "Cookie Policy",

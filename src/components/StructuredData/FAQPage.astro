@@ -37,7 +37,16 @@ function getTranslation(key: string, translations: Record<string, any>): string 
 const faqSchema: FAQSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    inLanguage: lang === "es" ? "es-ES" : "en-US",
+    inLanguage:
+        lang === "es"
+            ? "es-ES"
+            : lang === "fr"
+              ? "fr-FR"
+              : lang === "ca"
+                ? "ca-ES"
+                : lang === "eus"
+                  ? "eu"
+                  : "en-US",
     mainEntity: faqs.map((faq) => ({
         "@type": "Question",
         name: getTranslation(faq.question, translations),

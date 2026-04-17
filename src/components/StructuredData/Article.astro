@@ -55,7 +55,9 @@ const articleSchema: ArticleSchema = {
               ? "eu"
               : lang === "ca"
                 ? "ca-ES"
-                : "en-US",
+                : lang === "fr"
+                  ? "fr-FR"
+                  : "en-US",
     author: {
         "@type": "Organization",
         name: author,

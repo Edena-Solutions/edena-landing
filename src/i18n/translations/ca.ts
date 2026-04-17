@@ -1273,45 +1273,129 @@ export default {
     },
     privacyPolicy: {
         title: "Política de privacitat",
-        content: `Última actualització: 25 de juliol de 2025<br>
+        content: `Última actualització: 17 d'abril de 2026<br>
 <br>
-1. INTRODUCCIÓ<br>
-A Edena ens comprometem a protegir la privacitat dels nostres usuaris i a ser transparents sobre el tractament de les seves dades personals, complint el Reglament (UE) 2016/679 (RGPD) i la Llei 34/2002 (LSSI).<br>
+1. INTRODUCCIÓ I OBJECTE<br>
+A Edena ens comprometem a protegir la privacitat de tots els usuaris de la nostra plataforma i a ser completament transparents sobre com tractem les dades personals. Aquesta Política de privacitat descriu les pràctiques de tractament de dades d'Edena Software S.L. en relació amb l'ús de la plataforma Edena i d'aquest lloc web, de conformitat amb el Reglament (UE) 2016/679 (RGPD), la Llei orgànica 3/2018, de 5 de desembre, de Protecció de Dades Personals i garantia dels drets digitals (LOPDGDD), i la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i de Comerç Electrònic (LSSI).<br>
+<br>
+Edena és una plataforma de gestió educativa integral dissenyada per a centres educatius (col·legis, escoles bressol, acadèmies i grups educatius). En tant que plataforma que gestiona dades de menors d'edat, alumnes i famílies, apliquem les màximes garanties de privacitat i seguretat.<br>
 <br>
 2. RESPONSABLE DEL TRACTAMENT<br>
-Responsable: Edena Software S.L.<br>
-Correu: privacidad@edena.es<br>
+Raó social: Edena Software S.L.<br>
+Domicili: Barcelona, Espanya<br>
+Correu electrònic: privacidad@edena.es<br>
+Lloc web: www.edena.es<br>
 <br>
-3. DADES PERSONALS TRACTADES I FINALITAT<br>
-Tractem les dades que ens facilites mitjançant formularis, registre, contacte, subscripció a comunicacions, suport i ús de la plataforma. Les finalitats principals són:<br>
-- Gestionar el teu compte i accés a la plataforma.<br>
-- Prestar i millorar els nostres serveis.<br>
-- Atendre consultes i sol·licituds.<br>
-- Enviar comunicacions comercials (si ho autoritzes).<br>
-- Complir obligacions legals.<br>
+3. DELEGAT DE PROTECCIÓ DE DADES (DPD)<br>
+Edena ha designat un Delegat de Protecció de Dades (DPD) responsable de supervisar el compliment de la normativa en matèria de protecció de dades. Podeu contactar amb el nostre DPD en qualsevol moment a: privacidad@edena.es<br>
 <br>
-4. LEGITIMACIÓ<br>
-La base legal per al tractament és el teu consentiment, l'execució d'un contracte i el compliment d'obligacions legals.<br>
+4. USUARIS DE LA PLATAFORMA I DADES TRACTADES<br>
+Edena presta serveis a diferents categories d'usuaris, cadascuna amb un tractament de dades específic:<br>
 <br>
-5. CONSERVACIÓ DE LES DADES<br>
-Les teves dades es conservaran mentre siguin necessàries per a la finalitat per a la qual es van recollir, i durant els terminis exigits per la normativa aplicable.<br>
+4.1 Administradors i personal del centre educatiu<br>
+Dades: nom i cognoms, DNI/NIE, càrrec, correu electrònic corporatiu, número de telèfon, dades d'accés i registre d'activitat a la plataforma.<br>
+Finalitat: gestió de la relació contractual amb el centre, accés i administració de la plataforma, comunicació operativa i suport tècnic.<br>
 <br>
-6. DESTINATARIS I TRANSFERÈNCIES<br>
-No cedim les teves dades a tercers llevat d'obligació legal o per a la prestació de serveis essencials (proveïdors tecnològics, hosting, analítica, etc.), sempre sota contractes de confidencialitat i tractament de dades. No fem transferències internacionals fora de l'EEE sense garanties adequades.<br>
+4.2 Professors i tutors acadèmics<br>
+Dades: nom i cognoms, correu electrònic, dades d'accés, assignatures o grups assignats, qualificacions introduïdes i comunicacions amb les famílies.<br>
+Finalitat: prestació del servei educatiu, comunicació amb les famílies, gestió de qualificacions i control d'assistència.<br>
 <br>
-7. DRETS DELS USUARIS<br>
-Pots exercir els teus drets d'accés, rectificació, supressió, oposició, limitació i portabilitat enviant un correu a privacidad@edena.es. També pots reclamar davant l'Agència Espanyola de Protecció de Dades.<br>
+4.3 Famílies i tutors legals<br>
+Dades: nom i cognoms, correu electrònic, número de telèfon, relació amb l'alumne, dades de pagament (gestionades a través de proveïdors certificats PCI DSS), historial de comunicacions i documentació adjunta.<br>
+Finalitat: comunicació centre-família, gestió de pagaments i facturació, accés a l'expedient de l'alumne i seguiment educatiu.<br>
 <br>
-8. SEGURETAT DE LA INFORMACIÓ<br>
-Apliquem mesures tècniques i organitzatives per protegir les teves dades i garantir-ne la confidencialitat, integritat i disponibilitat.<br>
+4.4 Alumnes<br>
+Dades: nom i cognoms, data de naixement, fotografia (opcional, amb consentiment exprés), dades acadèmiques (qualificacions, assistència, evolució) i dades de salut rellevants (al·lèrgies, necessitats educatives especials) quan siguin aportades expressament pel centre o la família.<br>
+Finalitat: gestió acadèmica i de l'expedient de l'alumne, comunicació educativa i seguiment del progrés escolar.<br>
 <br>
-9. VERACITAT DE LES DADES<br>
-L'usuari garanteix la veracitat i l'actualització de les dades facilitades. Edena no es fa responsable de dades inexactes o falses.<br>
+4.5 Visitants del lloc web<br>
+Dades: dades de navegació, adreça IP (anonimitzada), pàgines visitades, durada de la sessió i dades de formularis de contacte o sol·licitud de demo (nom, correu electrònic, nom del centre, missatge).<br>
+Finalitat: anàlisi de l'ús del lloc web, millora de l'experiència d'usuari i atenció a sol·licituds d'informació.<br>
 <br>
-10. CANVIS A LA POLÍTICA DE PRIVACITAT<br>
-Edena podrà modificar aquesta política per adaptar-la a novetats legislatives o de la plataforma. Et recomanem revisar-la periòdicament.<br>
+5. FINALITATS DEL TRACTAMENT I BASE JURÍDICA<br>
+a) Gestió del contracte i prestació del servei — Base: execució d'un contracte (art. 6.1.b RGPD).<br>
+b) Gestió acadèmica i expedients d'alumnes — Base: execució d'un contracte / interès legítim del centre (art. 6.1.b i 6.1.f RGPD).<br>
+c) Comunicació entre el centre i les famílies — Base: execució d'un contracte / interès legítim (art. 6.1.b i 6.1.f RGPD).<br>
+d) Facturació i gestió de pagaments — Base: execució d'un contracte / obligació legal (art. 6.1.b i 6.1.c RGPD).<br>
+e) Enviament de comunicacions comercials sobre Edena — Base: consentiment (art. 6.1.a RGPD). Es pot revocar en qualsevol moment.<br>
+f) Compliment d'obligacions legals fiscals, laborals i mercantils — Base: obligació legal (art. 6.1.c RGPD).<br>
+g) Millora de la plataforma i anàlisi estadística anonimitzada — Base: interès legítim (art. 6.1.f RGPD).<br>
 <br>
-Per a qualsevol dubte sobre privacitat, contacta amb el nostre DPD a privacidad@edena.es.`,
+6. TRACTAMENT ESPECIAL: DADES DE MENORS D'EDAT<br>
+Edena és plenament conscient de l'especial sensibilitat que implica el tractament de dades personals de menors. En compliment de l'article 8 del RGPD i de l'article 7 de la LOPDGDD:<br>
+<br>
+- Els centres educatius, en qualitat de responsables del tractament de les dades dels seus alumnes, són els qui recapten el consentiment dels pares o tutors legals per al tractament de dades de menors de 14 anys.<br>
+- Edena actua com a encarregat del tractament respecte a les dades d'alumnes introduïdes pel centre educatiu, seguint les instruccions d'aquest.<br>
+- Les dades de salut i altres categories especials de dades d'alumnes (art. 9 RGPD) només es tracten quan el centre les introdueix expressament i existeix una base jurídica específica (consentiment explícit o necessitat per a la prestació del servei educatiu).<br>
+- Edena no utilitza les dades de menors per a cap finalitat diferent de les estrictament educatives i de gestió del centre.<br>
+<br>
+7. CONSERVACIÓ DE LES DADES<br>
+Les dades es conservaran durant el temps estrictament necessari per a la finalitat per a la qual van ser recaptades i, en tot cas, durant els terminis legalment establerts:<br>
+<br>
+- Dades de contractes i facturació: 6 anys (obligació fiscal i mercantil).<br>
+- Dades de comunicacions comercials: fins a la revocació del consentiment.<br>
+- Expedients d'alumnes: mentre duri la relació amb el centre i, després de la baixa, durant el termini de prescripció de possibles responsabilitats (màxim 5 anys).<br>
+- Logs d'accés i activitat a la plataforma: màxim 12 mesos.<br>
+- Dades de visitants del lloc web: d'acord amb la política de cookies aplicable.<br>
+<br>
+Transcorreguts aquests terminis, les dades seran eliminades o anonimitzades de forma irreversible.<br>
+<br>
+8. DESTINATARIS I ENCARREGATS DEL TRACTAMENT<br>
+Edena no ven ni cedeix dades personals a tercers amb finalitats comercials. Les dades únicament poden ser comunicades a:<br>
+<br>
+- Proveïdors tecnològics i d'infraestructura cloud (hosting, bases de dades) que actuen com a encarregats del tractament sota contractes que compleixen el RGPD.<br>
+- Proveïdors de serveis de pagament certificats (PCI DSS) per a la gestió de cobraments i facturació.<br>
+- Proveïdors d'anàlisi i monitorització del servei, sempre de forma anonimitzada o agregada.<br>
+- Autoritats i organismes públics, exclusivament en compliment d'obligacions legals.<br>
+<br>
+Tots els nostres proveïdors estan sotmesos a acords de confidencialitat i contractes d'encàrrec del tractament que garanteixen el compliment del RGPD.<br>
+<br>
+9. TRANSFERÈNCIES INTERNACIONALS DE DADES<br>
+Amb caràcter general, les dades s'allotgen en servidors ubicats a l'Espai Econòmic Europeu (EEE). En els casos excepcionals en què sigui necessària una transferència internacional fora de l'EEE, Edena garanteix que s'adopten les salvaguardes adequades previstes al RGPD, com les clàusules contractuals tipus aprovades per la Comissió Europea o l'existència d'una decisió d'adequació.<br>
+<br>
+10. DRETS DELS INTERESSATS<br>
+D'acord amb el RGPD i la LOPDGDD, els usuaris poden exercir els drets següents:<br>
+<br>
+- Dret d'accés: conèixer quines dades personals tractem sobre vostè.<br>
+- Dret de rectificació: corregir dades inexactes o incompletes.<br>
+- Dret de supressió ("dret a l'oblit"): sol·licitar l'eliminació de les seves dades quan ja no siguin necessàries per a la finalitat per a la qual van ser recaptades.<br>
+- Dret d'oposició: oposar-se al tractament de les seves dades en determinades circumstàncies.<br>
+- Dret de limitació del tractament: sol·licitar la restricció del tractament en certs supòsits previstos per la normativa.<br>
+- Dret de portabilitat: rebre les seves dades en un format estructurat, d'ús comú i lectura mecànica.<br>
+- Dret a retirar el consentiment: en qualsevol moment, sense que això afecti la licitud del tractament previ a la seva retirada.<br>
+- Dret a no ser objecte de decisions automatitzades amb efectes jurídics significatius.<br>
+<br>
+Per exercir qualsevol d'aquests drets, envieu una sol·licitud a privacidad@edena.es indicant el vostre nom, cognoms i una còpia del vostre document d'identitat. Respondrem en el termini màxim d'un mes.<br>
+<br>
+Si considereu que els vostres drets no han estat atesos adequadament, teniu dret a presentar una reclamació davant l'Agència Espanyola de Protecció de Dades (AEPD) — www.aepd.es.<br>
+<br>
+11. MESURES DE SEGURETAT<br>
+Edena implementa mesures tècniques i organitzatives apropiades per garantir un nivell de seguretat adequat al risc, incloent-hi:<br>
+<br>
+- Xifratge de dades en trànsit (TLS/HTTPS) i en repòs.<br>
+- Control d'accés basat en rols i principi de mínim privilegi.<br>
+- Autenticació segura i gestió de sessions.<br>
+- Monitoratge continu i detecció d'incidents de seguretat.<br>
+- Còpies de seguretat periòdiques i plans de recuperació davant desastres.<br>
+- Formació periòdica de l'equip en protecció de dades i ciberseguretat.<br>
+- Avaluacions d'impacte (DPIA) per a tractaments d'alt risc.<br>
+<br>
+En cas que es produeixi una bretxa de seguretat que afecti drets i llibertats dels interessats, Edena notificarà l'autoritat de control en el termini de 72 hores i, quan sigui necessari, informarà els propis afectats.<br>
+<br>
+12. EXACTITUD I VERACITAT DE LES DADES<br>
+L'usuari es compromet a proporcionar dades verídiques, exactes i actualitzades. Edena no serà responsable dels perjudicis que poguessin derivar-se de l'ús de dades inexactes o falses facilitades per l'usuari. Si les dades varien, l'usuari haurà de comunicar-ho com més aviat possible a privacidad@edena.es.<br>
+<br>
+13. MODIFICACIONS D'AQUESTA POLÍTICA<br>
+Edena podrà actualitzar aquesta Política de privacitat per adaptar-la a canvis legislatius, resolucions d'autoritats de control o modificacions a la plataforma. Quan els canvis siguin substancials, es notificarà als usuaris per correu electrònic o mitjançant un avís destacat a la plataforma. La data d'última actualització al principi d'aquest document reflecteix sempre la versió vigent.<br>
+<br>
+14. CONTACTE I RECLAMACIONS<br>
+Per a qualsevol consulta, sol·licitud o reclamació relacionada amb el tractament de les seves dades personals, podeu contactar amb el nostre Delegat de Protecció de Dades:<br>
+Correu electrònic: privacidad@edena.es<br>
+<br>
+Per a reclamacions davant l'autoritat de control competent:<br>
+Agència Espanyola de Protecció de Dades (AEPD)<br>
+C/ Jorge Juan, 6, 28001 Madrid<br>
+www.aepd.es`,
     },
     termsOfService: {
         title: "Termes i condicions d'ús",

@@ -59,7 +59,16 @@ const softwareSchema: SoftwareSchema = {
     applicationCategory: applicationCategory,
     operatingSystem: operatingSystem,
     url: url,
-    inLanguage: lang === "es" ? "es-ES" : "en-US",
+    inLanguage:
+        lang === "es"
+            ? "es-ES"
+            : lang === "fr"
+              ? "fr-FR"
+              : lang === "ca"
+                ? "ca-ES"
+                : lang === "eus"
+                  ? "eu"
+                  : "en-US",
     offers: offers
         ? {
               "@type": "Offer",

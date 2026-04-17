@@ -33,7 +33,9 @@ const breadcrumbSchema: BreadcrumbSchema = {
               ? "eu"
               : lang === "ca"
                 ? "ca-ES"
-                : "en-US",
+                : lang === "fr"
+                  ? "fr-FR"
+                  : "en-US",
     itemListElement: items.map((item, index) => ({
         "@type": "ListItem",
         position: index + 1,

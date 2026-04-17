@@ -64,7 +64,14 @@ export const BlogPostList: React.FC<BlogPostListProps> = ({ posts, lang }) => {
         setVisibleCount((prev) => Math.min(prev + POSTS_PER_PAGE, posts.length));
     };
 
-    const buttonText = lang === "es" ? "Cargar más" : lang === "ca" ? "Carregar més" : "Load more";
+    const buttonText =
+        lang === "es"
+            ? "Cargar más"
+            : lang === "ca"
+              ? "Carregar més"
+              : lang === "fr"
+                ? "Charger plus"
+                : "Load more";
 
     return (
         <>

@@ -66,6 +66,7 @@ export async function GET() {
         { hreflang: "x-default", href: `${base}/` },
         { hreflang: "es", href: `${base}/es/` },
         { hreflang: "en", href: `${base}/en/` },
+        { hreflang: "fr", href: `${base}/fr/` },
     ];
 
     /** Subpaths under /ca/ and /eus/ that use [...lang] (same set as /en/). */
@@ -92,8 +93,8 @@ export async function GET() {
     ];
 
     const buildLocaleStaticUrls = (
-        langPrefix: "ca" | "eus",
-        hreflang: "ca" | "eu",
+        langPrefix: "ca" | "eus" | "fr",
+        hreflang: "ca" | "eu" | "fr",
         blogLastmod: string,
     ): SitemapUrl[] => {
         const urls: SitemapUrl[] = [
@@ -132,6 +133,7 @@ export async function GET() {
 
     const caLocaleStaticUrls = buildLocaleStaticUrls("ca", "ca", latestBlogCaDate);
     const eusLocaleStaticUrls = buildLocaleStaticUrls("eus", "eu", latestBlogEusDate);
+    const frLocaleStaticUrls = buildLocaleStaticUrls("fr", "fr", latestBlogEnDate);
 
     const staticUrls: SitemapUrl[] = [
         {
@@ -723,15 +725,41 @@ export async function GET() {
         };
     });
 
+    const blogFrUrls: SitemapUrl[] = blogEnPosts.map((post) => {
+        const postDate = post.data.date.split("T")[0];
+        const images: Array<{ loc: string; title?: string }> = [];
+
+        if (post.data.cover) {
+            const imageUrl = post.data.cover.startsWith("http")
+                ? post.data.cover
+                : `${base}${post.data.cover.startsWith("/") ? "" : "/"}${post.data.cover}`;
+            images.push({
+                loc: imageUrl,
+                title: post.data.title,
+            });
+        }
+
+        return {
+            path: `/fr/blog/${post.slug}/`,
+            priority: "0.7",
+            changefreq: "monthly",
+            lastmod: postDate,
+            hreflangLinks: [{ hreflang: "fr", href: `${base}/fr/blog/${post.slug}/` }],
+            images: images.length > 0 ? images : undefined,
+        };
+    });
+
     const allUrls = [
         ...staticUrls,
         ...caLocaleStaticUrls,
         ...eusLocaleStaticUrls,
+        ...frLocaleStaticUrls,
         ...blogEsUrls,
         ...blogEsUrlsWithPrefix,
         ...blogEnUrls,
         ...blogCaUrls,
         ...blogEusUrls,
+        ...blogFrUrls,
     ];
 
     const escapeXmlUrl = (url: string): string => {

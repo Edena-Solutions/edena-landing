@@ -55,7 +55,16 @@ const productSchema: ProductSchema = {
     image: image.startsWith("http")
         ? image
         : `https://edena.es${image.startsWith("/") ? "" : "/"}${image}`,
-    inLanguage: lang === "es" ? "es-ES" : "en-US",
+    inLanguage:
+        lang === "es"
+            ? "es-ES"
+            : lang === "fr"
+              ? "fr-FR"
+              : lang === "ca"
+                ? "ca-ES"
+                : lang === "eus"
+                  ? "eu"
+                  : "en-US",
     brand: {
         "@type": "Brand",
         name: brand,

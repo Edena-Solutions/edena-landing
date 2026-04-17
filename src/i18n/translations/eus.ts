@@ -1271,45 +1271,129 @@ export default {
     },
     privacyPolicy: {
         title: "Pribatutasun-politika",
-        content: `Azken eguneraketa: 2025eko uztailaren 25a<br>
+        content: `Azken eguneraketa: 2026ko apirilaren 17a<br>
 <br>
-1. SARRERA<br>
-Edenan erabiltzaileen pribatutasuna babesteko eta beren datu pertsonalen tratamenduari buruz gardenak izateko konpromisoa hartzen dugu, Erregelamendua (EB) 2016/679 (RGPD) eta 34/2002 Legea (LSSI) betetzen ditugularik.<br>
+1. SARRERA ETA XEDEA<br>
+Edenan gure plataformako erabiltzaile guztien pribatutasuna babesteko eta datu pertsonalak nola tratatzen ditugun guztiz garden izateko konpromisoa hartzen dugu. Pribatutasun-politika honek Edena Software S.L.-ren datu-tratamendu praktikak deskribatzen ditu Edena plataformaren eta webgune honen erabilerari dagokionez, (EB) 2016/679 Erregelamenduarekin (DBEB), abenduaren 5eko 3/2018 Lege Organikoarekin (LOPDGDD) eta uztailaren 11ko 34/2002 Legearekin (LSSI) bat etorriz.<br>
+<br>
+Edena hezkuntza-zentroetarako (ikastetxe, haur-eskola, akademia eta hezkuntza-taldeetarako) diseinatutako kudeaketa-plataforma integrala da. Adingabeen, ikasleen eta familien datuak kudeatzen dituen plataforma gisa, pribatutasun eta segurtasun berme onenak aplikatzen ditugu.<br>
 <br>
 2. TRATAMENDUAREN ARDURADUNA<br>
-Arduraduna: Edena Software S.L.<br>
+Sozietate-izena: Edena Software S.L.<br>
+Helbidea: Bartzelona, Espainia<br>
+Posta elektronikoa: privacidad@edena.es<br>
+Webgunea: www.edena.es<br>
+<br>
+3. DATU-BABESEKO ORDEZKARIA (DBO)<br>
+Edenak Datu-babeseko Ordezkaria (DBO) izendatu du, datu-babeseko araudiaren betetzea gainbegiratzeko arduraduna. Gure DBOarekin edozein unetan harremanetan jar zaitezke helbide honetan: privacidad@edena.es<br>
+<br>
+4. PLATAFORMAKO ERABILTZAILEAK ETA TRATATUTAKO DATUAK<br>
+Edenak erabiltzaile-kategoria ezberdinei zerbitzuak eskaintzen dizkie, bakoitzak datu-tratamendu espezifikoa duelarik:<br>
+<br>
+4.1 Hezkuntza-zentroko administratzaileak eta langileak<br>
+Datuak: izen-abizenak, NAN/AIZ, kargua, posta elektroniko korporatiboa, telefono-zenbakia, sarbide-datuak eta plataformako jardueraren erregistroa.<br>
+Xedea: zentroarekin kontratu-harremanaren kudeaketa, plataformaren sarbidea eta administrazioa, komunikazio operatiboa eta laguntza teknikoa.<br>
+<br>
+4.2 Irakasleak eta tutorea akademikoak<br>
+Datuak: izen-abizenak, posta elektronikoa, sarbide-datuak, esleitutako irakasgaiak edo taldeak, sartutako kalifikazioak eta familiekin komunikazioak.<br>
+Xedea: hezkuntza-zerbitzuaren eskaintza, familiekin komunikazioa, kalifikazioen kudeaketa eta asistentziaren kontrola.<br>
+<br>
+4.3 Familiak eta legezko tutoreak<br>
+Datuak: izen-abizenak, posta elektronikoa, telefono-zenbakia, ikasleekin harremana, ordainketa-datuak (PCI DSS ziurtatutako hornitzaileen bidez kudeatuak), komunikazio-historia eta dokumentu erantsiak.<br>
+Xedea: zentro-familia komunikazioa, ordainketa eta fakturazio-kudeaketa, ikaslearen espedientera sarbidea eta hezkuntza-jarraipena.<br>
+<br>
+4.4 Ikasleak<br>
+Datuak: izen-abizenak, jaiotze-data, argazkia (aukerakoa, berariazko adostasunarekin), datu akademikoak (kalifikazioak, asistentzia, bilakaera) eta osasun-datu garrantzitsuak (alergiak, hezkuntza-premia bereziak) zentroak edo familiak berariaz ematen dituztenean.<br>
+Xedea: ikaslearen kudeaketa akademikoa eta espedientea, hezkuntza-komunikazioa eta ikasleen aurrerapenaren jarraipena.<br>
+<br>
+4.5 Webguneko bisitariak<br>
+Datuak: nabigazioko datuak, IP helbidea (anonimizatua), bisitatutako orriak, saioaren iraupena eta kontaktu edo demo-eskaerako formularioen datuak (izena, posta elektronikoa, zentroaren izena, mezua).<br>
+Xedea: webgunearen erabileraren analisia, erabiltzailearen esperientziaren hobekuntza eta informazio-eskaerak artatzea.<br>
+<br>
+5. TRATAMENDUAREN XEDEAK ETA OINARRI JURIDIKOA<br>
+a) Kontratuaren kudeaketa eta zerbitzuaren eskaintza — Oinarria: kontratuaren betearazpena (6.1.b art. DBEB).<br>
+b) Kudeaketa akademikoa eta ikasleen espedienteak — Oinarria: kontratuaren betearazpena / zentroko interes legitimoa (6.1.b eta 6.1.f art. DBEB).<br>
+c) Zentroa eta familien arteko komunikazioa — Oinarria: kontratuaren betearazpena / interes legitimoa (6.1.b eta 6.1.f art. DBEB).<br>
+d) Fakturaketa eta ordainketen kudeaketa — Oinarria: kontratuaren betearazpena / betebehar legala (6.1.b eta 6.1.c art. DBEB).<br>
+e) Edenari buruzko komunikazio komertzialen bidalketa — Oinarria: adostasuna (6.1.a art. DBEB). Edozein unetan erreboka daiteke.<br>
+f) Zerga, lan eta merkataritza-betebehar legalen betetzea — Oinarria: betebehar legala (6.1.c art. DBEB).<br>
+g) Plataformaren hobekuntza eta analisi estatistiko anonimizatua — Oinarria: interes legitimoa (6.1.f art. DBEB).<br>
+<br>
+6. TRATAMENDU BEREZIA: ADINGABEEN DATUAK<br>
+Edena guztiz jabetzen da adingabeen datu pertsonalen tratamenduak berekin dakartzan berezitasunez. DBEBren 8. artikuluaren eta LOPDGDDren 7. artikuluaren arabera:<br>
+<br>
+- Hezkuntza-zentroak, beren ikasleen datuen tratamenduaren arduradunak izanik, dira 14 urtetik beherako adingabeen datuen tratamendurako gurasoei edo legezko tutoreei adostasuna eskatzeaz arduratu behar direnak.<br>
+- Edena hezkuntza-zentroak sartutako ikasleen datuen tratamendu-enkargatu gisa jarduten du, zentroaren argibideen arabera.<br>
+- Osasun-datuak eta ikasleen datu-kategoria bereziak (9. art. DBEB) soilik tratatzen dira zentroak berariaz sartzen dituenean eta oinarri juridiko espezifiko bat dagoenean (adostasun esplizitua edo hezkuntza-zerbitzua eskaintzeko beharra).<br>
+- Edenak ez ditu adingabeen datuak zentroko kudeaketa eta hezkuntza-xedeetatik haratagoko xedeetarako erabiltzen.<br>
+<br>
+7. DATUEN GORDETZEA<br>
+Datuak bildu zireneko xederako beharrezkoa den denbora tartean gordeko dira eta, nolanahi ere, legez ezarritako epeetan zehar:<br>
+<br>
+- Kontratu eta fakturazio-datuak: 6 urte (zerga eta merkataritza-betebeharra).<br>
+- Komunikazio komertzialeko datuak: adostasuna errebokatu arte.<br>
+- Ikasleen espedienteak: zentroarekin harremana irauten duen bitartean eta, bajaren ondoren, erantzukizun posibleen preskripzio-epean zehar (gehienez 5 urte).<br>
+- Plataformako sarbide eta jarduera-erregistroak: gehienez 12 hilabete.<br>
+- Webguneko bisitarien datuak: aplikagarria den cookie-politikaren arabera.<br>
+<br>
+Epe hauek igaro ondoren, datuak era itzulezinean ezabatu edo anonimizatu egingo dira.<br>
+<br>
+8. HARTZAILEAK ETA TRATAMENDU-ENKARGATU​AK<br>
+Edenak ez ditu datu pertsonalak saltzen edo xede komertzialekin hirugarrenei lagaten. Datuak soilik honako hauei komunikatu ahal zaizkie:<br>
+<br>
+- DBEB betetzen duten kontratuen pean tratamendu-enkargatu gisa jarduten duten teknologia eta cloud azpiegitura hornitzaileak (hosting, datu-baseak).<br>
+- Kobrantzak eta fakturazio-kudeaketa egiteko ziurtatutako ordainketa-zerbitzu hornitzaileak (PCI DSS).<br>
+- Zerbitzu-analisi eta monitorizazio hornitzaileak, beti modu anonimizatu edo agregatuan.<br>
+- Agintaritza eta erakunde publikoak, soilik lege-betebeharrak betetzeko.<br>
+<br>
+Gure hornitzaile guztiak DBEBren betetzea bermatzen duten konfidentzialtasun-hitzarmenen eta tratamendu-enkarguen kontratuen mende daude.<br>
+<br>
+9. NAZIOARTEKO DATU-TRANSFERENTZIAK<br>
+Oro har, datuak Europako Ekonomia Eremuan (EEE) kokatutako zerbitzarietan gordetzen dira. EEEtik kanpoko nazioarteko transferentzia bat beharrezkoa den salbuespenezko kasuetan, Edenak DBEBn aurreikusitako babes-neurri egokiak hartzen direla bermatzen du, hala nola Europako Batzordeak onartutako kontratu-klausula estandarrak edo egokitasun-erabaki baten existentzia.<br>
+<br>
+10. INTERESDUNEN ESKUBIDEAK<br>
+DBEB eta LOPDGDDren arabera, erabiltzaileek eskubide hauek erabil ditzakete:<br>
+<br>
+- Sarbide-eskubidea: zuretzat tratatzen ditugun datu pertsonalak jakiteko.<br>
+- Zuzenketa-eskubidea: datu okerrak edo osatugabeak zuzentzeko.<br>
+- Ezabatze-eskubidea ("ahazteko eskubidea"): zure datuak ezabatzea eskatzeko, bildu ziren xederako beharrezkoak ez direnean.<br>
+- Aurkaritza-eskubidea: zure datuen tratamenduaren aurka egiteko zenbait kasutan.<br>
+- Tratamenduaren mugaketa-eskubidea: araudiak aurreikusitako zenbait kasutan tratamendua mugatzea eskatzeko.<br>
+- Eramangarritasun-eskubidea: zure datuak egitura-formatuan, erabilera arrunteko eta mekanikoki irakurgarrian jasotzeko.<br>
+- Adostasuna erretiratzeko eskubidea: edozein unetan, aurreko tratamenduaren zilegitasuna eragotzi gabe.<br>
+- Eragin juridiko esanguratsua duten erabaki automatizatuen xede ez izateko eskubidea.<br>
+<br>
+Eskubide hauetako edozein erabiltzeko, bidali eskaera bat privacidad@edena.es helbidera zure izen-abizenak eta nortasun-agiriaren kopia adieraziz. Hilabete gehieneko epean erantzungo dugu.<br>
+<br>
+Zure eskubideak behar bezala ez direla bete uste baduzu, Espainiako Datu-babeseko Agentzian (AEPD) erreklamazio bat aurkeztu dezakezu — www.aepd.es.<br>
+<br>
+11. SEGURTASUN-NEURRIAK<br>
+Edenak neurri tekniko eta antolaketa-neurri egokiak ezartzen ditu arriskuaren araberako segurtasun-maila egokia bermatzeko, besteak beste:<br>
+<br>
+- Transito bidezko (TLS/HTTPS) eta gordetako datuen zifratzea.<br>
+- Roletan oinarritutako sarbide-kontrola eta gutxieneko pribilegioaren printzipioa.<br>
+- Autentifikazio segurua eta saio-kudeaketa.<br>
+- Etengabeko monitorizazioa eta segurtasun-intzidentziaren detekzioa.<br>
+- Aldizkako babeskopiak eta hondamendi aurreko berreskuratze-planak.<br>
+- Taldearen aldizkako prestakuntza datu-babeserako eta zibersegurtasunerako.<br>
+- Arrisku handiko tratamenduentzako inpaktu-ebaluazioak (DPIA).<br>
+<br>
+Interesdunen eskubide eta askatasunak eragiten dituen segurtasun-arauhauste bat gertatuz gero, Edenak 72 orduko epean jakinaraziko dio kontrol-agintaritzari eta, beharrezkoa bada, kaltetutakoei ere jakinaraziko die.<br>
+<br>
+12. DATUEN ZEHAZTASUNA ETA EGIAZKOTASUNA<br>
+Erabiltzaileak egiazkoak, zehatzak eta eguneratutako datuak emateko konpromisoa hartzen du. Edena ez da erabiltzaileak emandako datu zehaztugabe edo faltsuen erabileratik eratorri litezkeen kalteen erantzule izango. Datuak aldatzen badira, erabiltzaileak ahalik azkarren jakinarazi beharko du privacidad@edena.es helbidera.<br>
+<br>
+13. POLITIKA HONEN ALDAKETAK<br>
+Edenak Pribatutasun-politika hau eguneratu ahal izango du lege-aldaketetara, kontrol-agintarien ebazpenetara edo plataformako aldaketetara egokitzeko. Aldaketak nabarmenak direnean, erabiltzaileei posta elektronikoaren bidez edo plataformako ohartarazpen nabarmen baten bidez jakinaraziko zaie. Dokumentu honen hasieran agertzen den azken eguneraketa-data beti indarreko bertsioa islatzen du.<br>
+<br>
+14. HARREMANA ETA ERREKLAMAZIOAK<br>
+Zure datu pertsonalen tratamenduari buruzko edozein kontsulta, eskaera edo erreklamaziorengatik, gure Datu-babeseko Ordezkariarengana jar zaitezke:<br>
 Posta elektronikoa: privacidad@edena.es<br>
 <br>
-3. TRATATUTAKO DATU PERTSONALAK ETA XEDEA<br>
-Inprimaki, erregistro, kontaktu, komunikazio harpidetza, laguntza eta plataformaren erabileraren bidez ematen diguzun datuak tratatzen ditugu. Helburu nagusiak hauek dira:<br>
-- Zure kontua eta plataformarako sarbidea kudeatzea.<br>
-- Gure zerbitzuak eskaintzea eta hobetzea.<br>
-- Kontsulta eta eskaerak artatzea.<br>
-- Komunikazio komertzialak bidaltzea (baimena ematen baduzu).<br>
-- Betebehar legalak betetzea.<br>
-<br>
-4. LEGITIMAZIOA<br>
-Tratamendurako oinarri legala zure baimena, kontratu baten exekuzioa eta betebehar legalen betetzea dira.<br>
-<br>
-5. DATUEN KONTSERBATZEA<br>
-Zure datuak jasotzeko xedea betetzeko beharrezkoak diren bitartean kontserbatuko dira, eta indarrean dagoen araudiak eskatzen dituen epeetan.<br>
-<br>
-6. HARTZAILEAK ETA TRANSFERENTZIAK<br>
-Ez diegu zure datuak hirugarrenei eman behar legalik gabe edo zerbitzu funtsezkoak eskaintzeko (hornitzaile teknologikoak, ostatua, analitika, etab.), beti konfidentzialtasun eta datuen tratamendu-kontratuen pean. Ez egiten dugu nazioarteko transferentziarik EEEtik kanpo bermen egokiak gabe.<br>
-<br>
-7. ERABILTZAILEEN ESKUBIDEAK<br>
-Sarbide, zuzenketa, ezabatze, aurkezpen, mugapen eta eramangarritasun eskubideak erabili ditzakezu privacidad@edena.es helbidera mezu bat bidaliz. Espainiako Datuen Babeserako Agentzian ere erreklamazioa jar dezakezu.<br>
-<br>
-8. INFORMAZIOAREN SEGURTASUNA<br>
-Zure datuak babesteko eta beren konfidentzialtasuna, osotasuna eta erabilgarritasuna bermatzeko neurri tekniko eta antolakuntzakoak aplikatzen ditugu.<br>
-<br>
-9. DATUEN EGIAZTASUNA<br>
-Erabiltzaileak emandako datuen egiaztasuna eta eguneratzea bermatzen du. Edenak ez du erantzukizunik datu zehaztugabe edo faltsuei dagokienez.<br>
-<br>
-10. PRIBATUTASUN-POLITIKAN ALDAKETAK<br>
-Edenak politika hau alda dezake lege- edo plataforma-berrietara egokitzeko. Aldian behin berrikustea gomendatzen dizugu.<br>
-<br>
-Pribatutasunari buruzko edozein zalantzarako, jarri gure DPOarekin harremanetan privacidad@edena.es helbidean.`,
+Kontrol-agintaritza eskudunaren aurrean erreklamazioak egiteko:<br>
+Espainiako Datu-babeseko Agentzia (AEPD)<br>
+C/ Jorge Juan, 6, 28001 Madrid<br>
+www.aepd.es`,
     },
     termsOfService: {
         title: "Erabileraren baldintzak",

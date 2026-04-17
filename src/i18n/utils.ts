@@ -1,7 +1,7 @@
-export const languages = ["es", "en", "ca", "eus"];
+export const languages = ["es", "en", "ca", "eus", "fr"];
 export const defaultLanguage = "es";
 
-const knownLocalePrefixes = new Set(["eus", "es", "en", "ca"]);
+const knownLocalePrefixes = new Set(["eus", "es", "en", "ca", "fr"]);
 
 export function getLanguageFromURL(pathname: string): string {
     const segment = pathname.split("/").filter(Boolean)[0];

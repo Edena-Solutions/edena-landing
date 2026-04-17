@@ -3,10 +3,11 @@ import ca from "./translations/ca";
 import en from "./translations/en";
 import es from "./translations/es";
 import eus from "./translations/eus";
+import fr from "./translations/fr";
 
-export const languages = ["es", "en", "ca", "eus"];
+export const languages = ["es", "en", "fr", "ca", "eus"];
 export const defaultLanguage = "es";
-export const translations = { en, es, ca, eus };
+export const translations = { en, es, ca, eus, fr };
 
 export { getLanguageFromURL, localizedDemoPath, useTranslatedPath };
 

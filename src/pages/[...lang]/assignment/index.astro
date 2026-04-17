@@ -12,6 +12,8 @@ import assignmentScoreCard from "@/assets/img/screenshots/assignment/assignment_
 import assignmentScoreCardDark from "@/assets/img/screenshots/assignment/dark/assignment_score_card.png";
 import assignmentEvaluation from "@/assets/img/screenshots/assignment/assignment_evaluation.png";
 import assignmentEvaluationDark from "@/assets/img/screenshots/assignment/dark/assignment_evaluation.png";
+import studentScoreCard from "@/assets/img/screenshots/students/student_evaluation.png";
+import studentScoreCardDark from "@/assets/img/screenshots/students/dark/student_evaluation.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -94,8 +96,8 @@ const features = [
             rightCard={{
                 title: t.assignment.evaluationTitle,
                 description: t.assignment.evaluationDescription,
-                image: assignmentScoreCard,
-                imageDark: assignmentScoreCardDark,
+                image: studentScoreCard,
+                imageDark: studentScoreCardDark,
                 altText: t.altText.assignmentEvaluation,
             }}
         />

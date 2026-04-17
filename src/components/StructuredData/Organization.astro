@@ -14,8 +14,19 @@ const organizationSchema = {
     description:
         lang === "es"
             ? "Sistema avanzado de gestión escolar que simplifica tareas administrativas, mejora la comunicación con familias y optimiza los resultados educativos."
-            : "Advanced school management system that simplifies administrative tasks, improves family communication and optimizes educational outcomes.",
-    inLanguage: lang === "es" ? "es-ES" : "en-US",
+            : lang === "fr"
+              ? "Système avancé de gestion scolaire qui simplifie les tâches administratives, améliore la communication avec les familles et optimise les résultats éducatifs."
+              : "Advanced school management system that simplifies administrative tasks, improves family communication and optimizes educational outcomes.",
+    inLanguage:
+        lang === "es"
+            ? "es-ES"
+            : lang === "fr"
+              ? "fr-FR"
+              : lang === "ca"
+                ? "ca-ES"
+                : lang === "eus"
+                  ? "eu"
+                  : "en-US",
     sameAs: [
         "https://apps.apple.com/app/edena",
         "https://play.google.com/store/apps/details?id=com.edena",

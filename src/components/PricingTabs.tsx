@@ -38,7 +38,9 @@ function getFromPriceNumeric(
 }
 
 function formatPrice(value: number, locale: string): string {
-    return new Intl.NumberFormat(locale === "en" ? "en-GB" : "es-ES", {
+    const intlLocale =
+        locale === "en" ? "en-GB" : locale === "fr" ? "fr-FR" : "es-ES";
+    return new Intl.NumberFormat(intlLocale, {
         style: "currency",
         currency: "EUR",
         minimumFractionDigits: 2,
@@ -79,13 +81,17 @@ function formatPricePerChild(value: number, planId: string, locale: string): str
             ? `${formatted}/niño + 10€/mes`
             : locale === "ca"
               ? `${formatted}/nen + 10€/mes`
-              : `${formatted}/child + €10/month`;
+              : locale === "fr"
+                ? `${formatted}/enfant + 10 €/mois`
+                : `${formatted}/child + €10/month`;
     }
     return locale === "es"
         ? `${formatted} por niño`
         : locale === "ca"
           ? `${formatted} per nen`
-          : `${formatted} per child`;
+          : locale === "fr"
+            ? `${formatted} par enfant`
+            : `${formatted} per child`;
 }
 
 interface PricingTabsProps {
@@ -98,8 +104,10 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
     const [plansAnnual, setPlansAnnual] = React.useState(false);
     const demoUrl = `/${lang}/demo`;
     const calcT = t.pricing?.calculator;
-    const monthlyLabel = calcT?.monthly ?? (lang === "es" ? "Mensual" : "Monthly");
-    const annualLabel = calcT?.annual ?? (lang === "es" ? "Anual" : "Annual");
+    const monthlyLabel =
+        calcT?.monthly ?? (lang === "es" ? "Mensual" : lang === "fr" ? "Mensuel" : "Monthly");
+    const annualLabel =
+        calcT?.annual ?? (lang === "es" ? "Anual" : lang === "fr" ? "Annuel" : "Annual");
     const annualDiscountLabel = calcT?.annualDiscount ?? "-15%";
     const r = t.pricing?.recommended ?? {
         essential: {
@@ -212,7 +220,9 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
                                     ? `Desde ${monthlyFromStr} al mes`
                                     : lang === "ca"
                                       ? `Des de ${monthlyFromStr}/mes`
-                                      : `From ${monthlyFromStr}/month`
+                                      : lang === "fr"
+                                        ? `À partir de ${monthlyFromStr}/mois`
+                                        : `From ${monthlyFromStr}/month`
                                 : null;
                         const annualFromLabel =
                             fromNumeric != null
@@ -220,7 +230,9 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
                                     ? `Desde ${annualFromStr} al mes`
                                     : lang === "ca"
                                       ? `Des de ${annualFromStr}/mes`
-                                      : `From ${annualFromStr}/month`
+                                      : lang === "fr"
+                                        ? `À partir de ${annualFromStr}/mois`
+                                        : `From ${annualFromStr}/month`
                                 : null;
                         const singleFromLabel =
                             fromNumeric != null

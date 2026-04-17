@@ -7,9 +7,12 @@ import Section from "@/components/Section.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/groups/FAQs.astro";
 import Features from "@/components/Features";
-import heroImage from "@/assets/img/screenshots/finance/billing_cycle.png";
-import reportingImage from "@/assets/img/screenshots/finance/invoice_analytics.png";
+import heroImage from "@/assets/img/screenshots/shared/organization.png";
+import heroImageDark from "@/assets/img/screenshots/shared/dark/organization.png";
+import reportingImage from "@/assets/img/screenshots/finance/billing_info.png";
+import reportingImageDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
 import sharedOrg from "@/assets/img/screenshots/shared/hero.png";
+import sharedOrgDark from "@/assets/img/screenshots/shared/dark/hero.png";
 import chatAnimation from "@/assets/animations/chat.json";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
@@ -81,6 +84,7 @@ const features = [
         <Hero
             t={t}
             heroImage={heroImage}
+            heroImageDark={heroImageDark}
             showBookDemoInHero={true}
             mainTitle={t.groups.mainTitle}
             mainDescription={t.groups.mainDescription}
@@ -93,6 +97,7 @@ const features = [
                 title: t.groups.automationTitle,
                 description: t.groups.automationDescription,
                 image: sharedOrg,
+                imageDark: sharedOrgDark,
                 altText: t.altText.organization,
             }}
         />
@@ -119,6 +124,7 @@ const features = [
                 title: t.groups.financialAutomationTitle,
                 description: t.groups.financialAutomationDescription,
                 image: reportingImage,
+                imageDark: reportingImageDark,
                 imageClass: "w-full mx-auto",
                 cardClass: "h-80 md:h-120 overflow-hidden",
                 altText: t.altText.invoiceAnalytics,

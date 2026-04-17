@@ -35,7 +35,11 @@ const ogImageWidth = content.ogImageWidth || fallbackOg.ogImageWidth;
 const ogImageHeight = content.ogImageHeight || fallbackOg.ogImageHeight;
 
 const defaultImageAlt =
-    lang === "es" ? "Edena - Software de Gestión Escolar" : "Edena - School Management Software";
+    lang === "es"
+        ? "Edena - Software de Gestión Escolar"
+        : lang === "fr"
+          ? "Edena - Logiciel de gestion scolaire"
+          : "Edena - School Management Software";
 ---
 
 <html lang={lang} class="overflow-x-clip">
@@ -172,7 +176,20 @@ const defaultImageAlt =
         </script>
         <!-- Open Graph -->
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content={lang === "es" ? "es_ES" : "en_US"} />
+        <meta
+            property="og:locale"
+            content={
+                lang === "es"
+                    ? "es_ES"
+                    : lang === "fr"
+                      ? "fr_FR"
+                      : lang === "ca"
+                        ? "ca_ES"
+                        : lang === "eus"
+                          ? "eu_ES"
+                          : "en_US"
+            }
+        />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:url" content={`https://edena.es${Astro.url.pathname}`} />

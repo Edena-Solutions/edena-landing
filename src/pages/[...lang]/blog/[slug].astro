@@ -37,7 +37,12 @@ export async function getStaticPaths() {
         props: { lang: "eus", slug: post.slug },
     }));
 
-    return [...pathsEs, ...pathsEn, ...pathsCa, ...pathsEus];
+    const pathsFr = postsEn.map((post) => ({
+        params: { lang: "fr", slug: post.slug },
+        props: { lang: "fr", slug: post.slug },
+    }));
+
+    return [...pathsEs, ...pathsEn, ...pathsCa, ...pathsEus, ...pathsFr];
 }
 
 const { lang, slug } = Astro.props;
@@ -45,11 +50,13 @@ const t = translations[lang as keyof typeof translations];
 const collectionName =
     lang === "en"
         ? "blogEn"
-        : lang === "ca"
-          ? "blogCa"
-          : lang === "eus"
-            ? "blogEus"
-            : "blogEs";
+        : lang === "fr"
+          ? "blogEn"
+          : lang === "ca"
+            ? "blogCa"
+            : lang === "eus"
+              ? "blogEus"
+              : "blogEs";
 const post = await getEntry(collectionName, slug);
 if (!post) throw new Error("Post not found");
 const { Content } = await post.render();
@@ -154,7 +161,9 @@ const ogMeta = post.data.cover
                           ? "Inici"
                           : lang === "eus"
                             ? "Hasiera"
-                            : "Home",
+                            : lang === "fr"
+                              ? "Accueil"
+                              : "Home",
                 url: homeUrl,
             },
             { name: t.navigation.blog, url: blogUrl },

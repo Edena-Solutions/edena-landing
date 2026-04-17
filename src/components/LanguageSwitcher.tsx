@@ -27,6 +27,7 @@ const languageNames: Record<string, { code: string; name: string; flag: string }
         name: "Euskera",
         flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_of_the_Basque_Country.svg/960px-Flag_of_the_Basque_Country.svg.png",
     },
+    fr: { code: "FR", name: "Français", flag: "https://flagcdn.com/fr.svg" },
 };
 
 function LangFlag({ src }: { src: string }) {

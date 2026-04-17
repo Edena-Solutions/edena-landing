@@ -46,8 +46,8 @@ export function ThemeToggle({ className }: { className?: string }) {
             <div
                 className={cn(
                     "fixed z-[100] size-11 rounded bg-secondary border border-border",
-                "bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-[max(1.5rem,env(safe-area-inset-right))]",
-                    className
+                    "bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-[max(1.5rem,env(safe-area-inset-right))]",
+                    className,
                 )}
                 aria-hidden
             />
@@ -68,8 +68,8 @@ export function ThemeToggle({ className }: { className?: string }) {
             className={cn(
                 "fixed z-[100] size-11 rounded",
                 "bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-[max(1.5rem,env(safe-area-inset-right))]",
-                "bg-card backdrop-blur-sm",
-                className
+                "bg-card shadow-[0_14px_48px_rgba(0,0,0,0.14)] dark:shadow-[0_14px_48px_rgba(0,0,0,0.55)]",
+                className,
             )}
         >
             <span className="relative inline-flex size-5 items-center justify-center">
@@ -78,7 +78,7 @@ export function ThemeToggle({ className }: { className?: string }) {
                         "size-5 absolute transition-all duration-300 ease-out",
                         isDark
                             ? "rotate-0 opacity-100"
-                            : "-rotate-90 opacity-0 pointer-events-none"
+                            : "-rotate-90 opacity-0 pointer-events-none",
                     )}
                     aria-hidden
                 />
@@ -87,7 +87,7 @@ export function ThemeToggle({ className }: { className?: string }) {
                         "size-5 absolute transition-all duration-300 ease-out",
                         !isDark
                             ? "rotate-0 opacity-100"
-                            : "rotate-90 opacity-0 pointer-events-none"
+                            : "rotate-90 opacity-0 pointer-events-none",
                     )}
                     aria-hidden
                 />

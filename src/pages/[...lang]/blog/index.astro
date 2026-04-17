@@ -10,6 +10,7 @@ export async function getStaticPaths() {
         { params: { lang: "en" }, props: { lang: "en" } },
         { params: { lang: "ca" }, props: { lang: "ca" } },
         { params: { lang: "eus" }, props: { lang: "eus" } },
+        { params: { lang: "fr" }, props: { lang: "fr" } },
     ];
 }
 
@@ -18,11 +19,13 @@ const t = translations[lang as keyof typeof translations];
 const collectionName =
     lang === "en"
         ? "blogEn"
-        : lang === "ca"
-          ? "blogCa"
-          : lang === "eus"
-            ? "blogEus"
-            : "blogEs";
+        : lang === "fr"
+          ? "blogEn"
+          : lang === "ca"
+            ? "blogCa"
+            : lang === "eus"
+              ? "blogEus"
+              : "blogEs";
 const posts = await getCollection(collectionName);
 const sortedPosts = posts.sort((a, b) => b.data.date.localeCompare(a.data.date));
 ---
