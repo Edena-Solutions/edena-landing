@@ -6,7 +6,8 @@ export default {
         homeTitle: "Logiciel de gestion scolaire pour établissements | Edena",
         homeDescription:
             "Ne perdez plus des heures en administration. Edena automatise la facturation, les présences et la communication avec les familles sur une seule plateforme. Réduisez les coûts de 40 % et augmentez la satisfaction des familles de 60 %. Démo gratuite.",
-        pricingTitle: "Tarifs logiciel de gestion scolaire | À partir de 44 €/mois | Sans engagement | Edena",
+        pricingTitle:
+            "Tarifs logiciel de gestion scolaire | À partir de 44 €/mois | Sans engagement | Edena",
         pricingDescription:
             "Tarif par élève qui s’adapte à votre établissement. Pas de frais d’installation, pas d’engagement, pas de coûts cachés. À partir de 44 €/mois avec dossier numérique, présences et portail familles. Essai gratuit 30 jours.",
         faqsTitle: "Questions fréquentes sur la gestion scolaire | Edena",
@@ -52,7 +53,8 @@ export default {
         cookiesTitle: "Politique relative aux cookies | Logiciel de gestion scolaire Edena",
         cookiesDescription:
             "Découvrez comment Edena utilise les cookies pour améliorer votre expérience sur notre plateforme de gestion scolaire. Types de cookies, usage et vos choix en matière de confidentialité.",
-        nurseryTitle: "Logiciel pour crèches et écoles maternelles | Communication et facturation | Edena",
+        nurseryTitle:
+            "Logiciel pour crèches et écoles maternelles | Communication et facturation | Edena",
         nurseryDescription:
             "Logiciel pour la petite enfance : app familles, photos du quotidien, facturation automatique et dossiers numériques. Réduisez la charge administrative de 40 % dès le premier jour.",
         schoolsTitle: "Logiciel de gestion scolaire pour écoles | ERP éducatif | Edena",
@@ -158,7 +160,8 @@ export default {
     },
     contact: {
         title: "On discute ?",
-        description: "Dites-nous comment nous pouvons vous aider et nous vous répondrons dès que possible.",
+        description:
+            "Dites-nous comment nous pouvons vous aider et nous vous répondrons dès que possible.",
         namePlaceholder: "Nom",
         nameLabel: "Nom",
         emailLabel: "E-mail",
@@ -227,7 +230,8 @@ export default {
             "Tirez le meilleur parti de votre système de gestion scolaire avec la plateforme tout-en-un Edena.",
         digitalRecords: {
             title: "Dossiers numériques",
-            tagline: "Gérez toutes les informations sur les élèves de façon sécurisée et structurée.",
+            tagline:
+                "Gérez toutes les informations sur les élèves de façon sécurisée et structurée.",
         },
         mobileApp: {
             title: "Application mobile",
@@ -260,7 +264,8 @@ export default {
             },
             academicProgress: {
                 title: "Suivi scolaire",
-                tagline: "Suivez la progression scolaire de vos enfants avec des rapports détaillés.",
+                tagline:
+                    "Suivez la progression scolaire de vos enfants avec des rapports détaillés.",
             },
             secureMessaging: {
                 title: "Messagerie sécurisée",
@@ -403,7 +408,8 @@ export default {
             },
             activity: {
                 title: "Suivi d’activité",
-                tagline: "Historique complet des changements, contacts et actions pour chaque demande.",
+                tagline:
+                    "Historique complet des changements, contacts et actions pour chaque demande.",
             },
             assignment: {
                 title: "Attribution des responsables",
@@ -411,7 +417,8 @@ export default {
             },
             origin: {
                 title: "Origine multicanal",
-                tagline: "Enregistrez l’origine de chaque demande : web, téléphone, e-mail ou formulaire.",
+                tagline:
+                    "Enregistrez l’origine de chaque demande : web, téléphone, e-mail ou formulaire.",
             },
             reports: {
                 title: "Rapports de conversion",
@@ -565,7 +572,8 @@ export default {
         },
         automatedBilling: {
             title: "Facturation automatique",
-            tagline: "Générez et envoyez les factures automatiquement selon les services souscrits.",
+            tagline:
+                "Générez et envoyez les factures automatiquement selon les services souscrits.",
         },
         realTimeAnalytics: {
             title: "Analytique en temps réel",
@@ -943,7 +951,8 @@ export default {
         support_type: "Quel type d’assistance technique Edena propose-t-elle ?",
         support_type_answer:
             "Nous proposons plusieurs niveaux d’assistance selon l’offre souscrite, dont l’aide par e-mail et chat aux heures ouvrées, et une assistance prioritaire 24h/24 pour les offres Professionnel et Entreprise.",
-        platform_customization: "Peut-on personnaliser la plateforme avec l’identité de l’établissement ?",
+        platform_customization:
+            "Peut-on personnaliser la plateforme avec l’identité de l’établissement ?",
         platform_customization_answer:
             "Oui, vous pouvez personnaliser le logo, les couleurs, les modèles de communication et les messages automatiques envoyés aux familles pour refléter l’identité de votre établissement.",
         guardian_access_rights: "Quels droits un tuteur a-t-il sur la plateforme ?",
@@ -952,17 +961,20 @@ export default {
         guardian_invitation_process: "Comment invite-t-on un tuteur sur la plateforme ?",
         guardian_invitation_process_answer:
             "L’invitation est envoyée par e-mail avec un lien sécurisé pour terminer l’inscription et définir ses identifiants.",
-        guardian_data_privacy: "Comment la confidentialité des données des tuteurs est-elle protégée ?",
+        guardian_data_privacy:
+            "Comment la confidentialité des données des tuteurs est-elle protégée ?",
         guardian_data_privacy_answer:
             "Toutes les données sont chiffrées et conformes au RGPD. Seul le personnel autorisé peut accéder aux informations des tuteurs.",
-        guardian_multiple_children: "Un tuteur peut-il gérer plusieurs enfants depuis un seul compte ?",
+        guardian_multiple_children:
+            "Un tuteur peut-il gérer plusieurs enfants depuis un seul compte ?",
         guardian_multiple_children_answer:
             "Oui, un tuteur peut gérer les informations et activités de tous ses enfants depuis un seul profil.",
         guardian_communication_channels:
             "Quels canaux de communication sont disponibles pour les tuteurs ?",
         guardian_communication_channels_answer:
             "Les tuteurs peuvent échanger via messages internes, notifications push et e-mail intégré à la plateforme.",
-        guardian_update_information: "Comment un tuteur met-il à jour ses informations personnelles ?",
+        guardian_update_information:
+            "Comment un tuteur met-il à jour ses informations personnelles ?",
         guardian_update_information_answer:
             "Le tuteur peut modifier ses données personnelles et de contact depuis son espace utilisateur, après authentification.",
         guardian_emergency_contacts: "Peut-on ajouter des contacts d’urgence pour les tuteurs ?",
@@ -1004,13 +1016,16 @@ export default {
         finance_data_security: "Comment les informations financières sont-elles protégées ?",
         finance_data_security_answer:
             "Toutes les données sont chiffrées et conformes à la réglementation en vigueur pour une sécurité maximale.",
-        finance_parent_portal: "Les familles peuvent-elles consulter leur historique de paiements ?",
+        finance_parent_portal:
+            "Les familles peuvent-elles consulter leur historique de paiements ?",
         finance_parent_portal_answer:
             "Oui, chaque famille accède à son portail pour voir factures, paiements effectués et en attente.",
-        finance_integration_accounting: "Edena s’intègre-t-elle aux logiciels de comptabilité externes ?",
+        finance_integration_accounting:
+            "Edena s’intègre-t-elle aux logiciels de comptabilité externes ?",
         finance_integration_accounting_answer:
             "Edena permet d’exporter des données et de se connecter aux principaux logiciels de comptabilité du marché.",
-        finance_support_options: "Quelle assistance Edena propose-t-elle pour les sujets financiers ?",
+        finance_support_options:
+            "Quelle assistance Edena propose-t-elle pour les sujets financiers ?",
         finance_support_options_answer:
             "Une assistance spécialisée par chat, e-mail et une base de connaissances pour toute question financière.",
         finance_verifactu_integration: "Edena est-elle intégrée à Verifactu ?",
@@ -1103,7 +1118,8 @@ export default {
         dashboard_integration: "Le tableau de bord s’intègre-t-il à d’autres plateformes ?",
         dashboard_integration_answer:
             "Edena permet des intégrations avec systèmes pédagogiques, comptables et de communication externes.",
-        dashboard_data_security: "Comment les informations du tableau de bord sont-elles protégées ?",
+        dashboard_data_security:
+            "Comment les informations du tableau de bord sont-elles protégées ?",
         dashboard_data_security_answer:
             "Toutes les informations sont chiffrées et des sauvegardes automatiques sont effectuées.",
         dashboard_performance: "Le tableau de bord affecte-t-il les performances du système ?",
@@ -1158,7 +1174,8 @@ export default {
         students_academic_records: "Où consulter les dossiers scolaires ?",
         students_academic_records_answer:
             "Les dossiers sont disponibles dans l’espace de chaque élève, accessibles aux familles et au personnel autorisé.",
-        students_parent_communication: "Comment les parents communiquent-ils avec l’établissement ?",
+        students_parent_communication:
+            "Comment les parents communiquent-ils avec l’établissement ?",
         students_parent_communication_answer:
             "Via la plateforme et l’app, les parents envoient et reçoivent messages, notifications et documents.",
         students_activity_management: "Peut-on gérer les activités périscolaires ?",
@@ -1167,7 +1184,8 @@ export default {
         students_data_privacy: "Comment la vie privée des données des élèves est-elle protégée ?",
         students_data_privacy_answer:
             "Toutes les données sont conformes au RGPD et protégées par un chiffrement avancé.",
-        students_support_services: "Quels services d’accompagnement Edena propose-t-elle aux élèves ?",
+        students_support_services:
+            "Quels services d’accompagnement Edena propose-t-elle aux élèves ?",
         students_support_services_answer:
             "Suivi scolaire, orientation et accompagnement personnalisé pour chaque élève.",
         students_mobile_access: "Les élèves peuvent-ils accéder à la plateforme depuis le mobile ?",
@@ -1397,40 +1415,125 @@ C/ Jorge Juan, 6, 28001 Madrid<br>
 www.aepd.es`,
     },
     termsOfService: {
-        title: "Conditions générales d’utilisation",
-        content: `Dernière mise à jour : 25 juillet 2025<br>
+        title: "Conditions générales d'utilisation",
+        content: `Dernière mise à jour : 17 avril 2026<br>
 <br>
 1. OBJET ET ACCEPTATION<br>
-Les présentes conditions régissent l’accès et l’utilisation de la plateforme Edena, propriété d’Edena Software S.L. En utilisant la plateforme, l’utilisateur accepte expressément ces conditions.<br>
+Les présentes Conditions générales d'utilisation (ci-après, "les Conditions") régissent l'accès et l'utilisation de la plateforme Edena (ci-après, "la Plateforme"), propriété d'Edena Software S.L. (ci-après, "Edena"). En s'inscrivant, en accédant à la Plateforme ou en l'utilisant, l'utilisateur ou l'établissement scolaire (ci-après, "le Client") accepte d'être lié par les présentes Conditions dans leur version en vigueur.<br>
 <br>
-2. INSCRIPTION ET COMPTE UTILISATEUR<br>
-Pour accéder aux services, l’utilisateur doit être âgé d’au moins 16 ans et fournir des informations exactes et à jour. L’utilisateur est responsable de la confidentialité de ses identifiants et de toutes les activités effectuées depuis son compte.<br>
+Si l'utilisateur agit au nom d'un établissement scolaire ou d'une organisation, il déclare disposer de l'autorité suffisante pour accepter les présentes Conditions au nom de ladite entité.<br>
 <br>
-3. SOUSCRIPTION, TARIFS ET PAIEMENTS<br>
-L’accès à certains services peut nécessiter la souscription d’une offre payante. Les prix, conditions et limites de chaque offre sont disponibles sur le site. Edena se réserve le droit de modifier les tarifs en notifiant les changements au moins 15 jours à l’avance.<br>
+2. DESCRIPTION DU SERVICE<br>
+Edena est une plateforme SaaS (Software as a Service) de gestion éducative intégrée offrant, entre autres, les fonctionnalités suivantes :<br>
 <br>
-4. USAGE AUTORISÉ ET OBLIGATIONS<br>
-L’utilisateur s’engage à utiliser la plateforme conformément à la loi, à la morale et à l’ordre public. Toute utilisation à des fins illicites, frauduleuses ou susceptible de porter atteinte à la réputation d’Edena ou de tiers est interdite.<br>
+- Gestion des élèves et des dossiers scolaires.<br>
+- Suivi des présences et cycles d'évaluation.<br>
+- Facturation automatisée et gestion des paiements.<br>
+- Portail familles et communication scolaire bidirectionnelle.<br>
+- Application mobile (Edena Kids) pour les familles, les élèves et les enseignants.<br>
+- CRM scolaire pour la gestion des inscriptions et la capture de leads.<br>
+- Tableau de bord d'analyse et de reporting en temps réel.<br>
+- Gestion des devoirs et bulletins de notes.<br>
 <br>
-5. PROPRIÉTÉ INTELLECTUELLE ET INDUSTRIELLE<br>
-Tous les droits sur la plateforme, son logiciel, son design, ses marques et contenus appartiennent à Edena Software S.L. ou à ses concédants. L’utilisateur ne peut copier, modifier, distribuer, vendre ou louer aucune partie de la plateforme sans autorisation expresse.<br>
+La portée exacte du service dépendra du plan souscrit. Edena pourra ajouter de nouvelles fonctionnalités ou modifier les existantes, moyennant un préavis approprié.<br>
 <br>
-6. RÉSILIATION ET SUSPENSION DU COMPTE<br>
-L’utilisateur peut résilier son compte à tout moment depuis le tableau de bord. Edena peut suspendre ou résilier les comptes en violation des présentes conditions, en informant l’utilisateur et en conservant les données pendant la durée légalement requise.<br>
+3. INSCRIPTION ET COMPTE UTILISATEUR<br>
+Pour accéder à la Plateforme, le Client doit effectuer le processus d'inscription en fournissant des informations véridiques, exactes et à jour. Le Client est responsable de :<br>
 <br>
-7. MODIFICATIONS DU SERVICE<br>
-Edena peut modifier, suspendre ou interrompre la plateforme, en tout ou partie, en informant les utilisateurs dans la mesure du possible.<br>
+- La confidentialité de l'ensemble des identifiants de connexion associés à son compte.<br>
+- La gestion et le contrôle des permissions d'accès des administrateurs, enseignants, familles et autres utilisateurs.<br>
+- La notification immédiate à Edena de toute utilisation non autorisée ou violation de sécurité sur son compte.<br>
+- S'assurer que les utilisateurs liés à son compte acceptent et respectent les présentes Conditions.<br>
 <br>
-8. LIMITATION DE RESPONSABILITÉ<br>
-Edena ne garantit pas la disponibilité ininterrompue du service et n’est pas responsable des dommages directs ou indirects résultant de l’utilisation ou de l’impossibilité d’utiliser la plateforme, sauf disposition légale impérative.<br>
+Edena se réserve le droit de suspendre ou de résilier les comptes en cas d'utilisation abusive ou de violation des présentes Conditions.<br>
 <br>
-9. PROTECTION DES DONNÉES ET CONFIDENTIALITÉ<br>
-Le traitement des données personnelles est régi par la politique de confidentialité et la réglementation applicable en matière de protection des données.<br>
+4. SOUSCRIPTION, OFFRES ET PAIEMENTS<br>
+4.1 Offres de service<br>
+Edena propose différentes offres d'abonnement en fonction du type et de la taille de l'établissement scolaire. Les détails, tarifs et conditions de chaque offre sont disponibles sur www.edena.es/fr/pricing.<br>
 <br>
-10. DROIT APPLICABLE ET JURIDICTION<br>
-Les présentes conditions sont régies par le droit espagnol. Pour tout litige, les parties se soumettent aux tribunaux de Barcelone, Espagne.<br>
+4.2 Période d'essai<br>
+Edena peut proposer des périodes d'essai gratuites. A l'issue de la période d'essai, le service ne reste actif que si une offre payante est souscrite.<br>
 <br>
-Pour toute question sur ces conditions, contactez-nous à privacidad@edena.es.`,
+4.3 Facturation et moyens de paiement<br>
+Les frais sont facturés selon la périodicité convenue (mensuelle ou annuelle). Le paiement doit être effectué via les moyens disponibles sur la Plateforme. Le non-paiement des frais, après la période de grâce applicable, peut entraîner la suspension du service, après notification préalable au Client.<br>
+<br>
+4.4 Modification des tarifs<br>
+Edena se réserve le droit de modifier ses tarifs, en notifiant les changements au moins 30 jours à l'avance. Si le Client n'accepte pas les nouveaux tarifs, il peut résilier le contrat sans pénalité avant leur entrée en vigueur.<br>
+<br>
+4.5 Renouvellement et résiliation<br>
+Les contrats se renouvellent automatiquement sauf si le Client notifie sa résiliation avec le préavis minimum requis par son offre. Les frais versés ne sont pas remboursables, sauf cas expressément prévus par la réglementation applicable ou les conditions spécifiques de l'offre.<br>
+<br>
+5. OBLIGATIONS DU CLIENT<br>
+Le Client s'engage à :<br>
+<br>
+- Utiliser la Plateforme conformément à la loi, à la morale et à l'ordre public.<br>
+- Ne pas effectuer d'activités susceptibles d'endommager, de surcharger ou de détériorer la Plateforme ou les systèmes d'Edena.<br>
+- Ne pas tenter d'accéder sans autorisation aux données d'autres clients ou utilisateurs.<br>
+- Ne pas utiliser la Plateforme à des fins illicites, frauduleuses ou susceptibles de nuire à la réputation d'Edena ou de tiers.<br>
+- Respecter toute la réglementation applicable dans le cadre de son activité en tant qu'établissement scolaire, notamment la réglementation sur la protection des données concernant les données personnelles des élèves et des familles saisies dans la Plateforme.<br>
+- Maintenir à jour ses coordonnées et informations de facturation.<br>
+<br>
+6. OBLIGATIONS D'EDENA<br>
+Edena s'engage à :<br>
+<br>
+- Maintenir la Plateforme avec un niveau de disponibilité mensuel (SLA) de 99,5 %, sauf maintenances programmées (notifiées 48 heures à l'avance) ou cas de force majeure.<br>
+- Fournir un support technique via les canaux activés dans chaque offre (courriel, chat, etc.).<br>
+- Maintenir et améliorer la Plateforme en garantissant sa sécurité et sa mise à jour technologique.<br>
+- Traiter les données personnelles conformément à la réglementation sur la protection des données et à la Politique de confidentialité d'Edena.<br>
+- Notifier au Client tout incident de sécurité susceptible d'affecter ses données, dans le délai prévu par la réglementation applicable.<br>
+<br>
+7. TRAITEMENT DES DONNÉES PERSONNELLES<br>
+Dans le cadre de la prestation du service, le Client agit en tant que responsable du traitement des données personnelles des élèves, des familles et du personnel qu'il saisit dans la Plateforme. Edena agit en tant que sous-traitant de ces données, en vertu du Contrat de sous-traitance (DPA) intégré aux présentes Conditions, conforme aux exigences de l'article 28 du RGPD.<br>
+<br>
+Le traitement des données découlant de l'utilisation de ce site web et de la relation commerciale avec Edena est régi par la Politique de confidentialité disponible sur www.edena.es/confidentialite.<br>
+<br>
+8. PROPRIÉTÉ INTELLECTUELLE ET INDUSTRIELLE<br>
+Tous les droits de propriété intellectuelle et industrielle sur la Plateforme, son logiciel, son design, ses logos, marques, dénomination sociale, code source, documentation et contenus appartiennent à Edena Software S.L. ou à ses concédants.<br>
+<br>
+Le Client n'acquiert qu'une licence d'utilisation non exclusive, non transférable et limitée aux fins du contrat, pour la durée de celui-ci. Sont expressément interdits :<br>
+- Copier, reproduire, distribuer ou communiquer publiquement la Plateforme ou ses contenus.<br>
+- Procéder à de l'ingénierie inverse, décompiler ou désassembler le logiciel.<br>
+- Sous-licencier ou céder les droits d'utilisation à des tiers sans l'autorisation expresse d'Edena.<br>
+<br>
+9. CONFIDENTIALITÉ<br>
+Les deux parties s'engagent à traiter comme confidentielle toute information à laquelle elles accèdent dans le cadre de la relation contractuelle et à ne pas la divulguer à des tiers, sauf obligation légale ou avec le consentement exprès de l'autre partie.<br>
+<br>
+Cette obligation de confidentialité s'étend pendant la durée du contrat et pendant une période de 3 ans après sa résiliation.<br>
+<br>
+10. LIMITATION DE RESPONSABILITÉ<br>
+Edena ne sera pas responsable de :<br>
+<br>
+- Dommages indirects, accessoires, spéciaux ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser la Plateforme.<br>
+- Perte de données causée par des actions imputables au Client (erreurs d'utilisateur, configurations incorrectes, etc.).<br>
+- Interruptions de service dues à un cas de force majeure, à des défaillances de tiers (fournisseurs de télécommunications, infrastructure cloud) ou à des attaques externes.<br>
+- Le contenu saisi dans la Plateforme par le Client ou ses utilisateurs.<br>
+<br>
+La responsabilité totale cumulée d'Edena envers le Client ne pourra pas dépasser le montant versé par le Client au cours des 12 mois précédant l'événement à l'origine de la réclamation.<br>
+<br>
+11. MODIFICATIONS DU SERVICE ET DES CONDITIONS<br>
+Edena peut modifier les présentes Conditions pour les adapter aux évolutions législatives, aux décisions des autorités de régulation ou aux améliorations du service. Les changements substantiels seront notifiés au moins 30 jours à l'avance par courriel ou par un avis sur la Plateforme.<br>
+<br>
+L'utilisation continue de la Plateforme après l'entrée en vigueur des nouvelles Conditions vaut acceptation de celles-ci. Si le Client n'est pas d'accord, il peut résilier le contrat avant leur entrée en vigueur sans pénalité.<br>
+<br>
+12. SUSPENSION ET RÉSILIATION DU CONTRAT<br>
+12.1 Par le Client : le Client peut résilier le contrat à tout moment depuis le tableau de bord, selon les modalités prévues dans son offre.<br>
+<br>
+12.2 Par Edena : Edena peut suspendre ou résilier le contrat, avec notification préalable, dans les cas suivants :<br>
+- Violation grave ou répétée des présentes Conditions.<br>
+- Non-paiement des frais après la période de grâce.<br>
+- Utilisation illégale ou frauduleuse de la Plateforme.<br>
+<br>
+12.3 Effets de la résiliation : après la résiliation, le Client disposera de 30 jours pour exporter ses données. Passé ce délai, Edena procédera à la suppression des données du Client conformément à sa politique de conservation et à la réglementation applicable.<br>
+<br>
+13. DROIT APPLICABLE ET JURIDICTION<br>
+Les présentes Conditions sont régies par le droit espagnol. Pour tout litige découlant de leur interprétation ou de leur exécution, les parties se soumettent aux tribunaux de la ville de Barcelone, Espagne, en renonçant expressément à tout autre for qui pourrait leur être applicable.<br>
+<br>
+Si une clause des présentes Conditions était déclarée nulle ou inapplicable, les autres clauses resteraient pleinement en vigueur.<br>
+<br>
+14. CONTACT<br>
+Pour toute question relative aux présentes Conditions générales :<br>
+Courriel : privacidad@edena.es<br>
+Site web : www.edena.es`,
     },
     cookiePolicy: {
         title: "Politique relative aux cookies",
@@ -1475,8 +1578,7 @@ Pour toute question sur notre politique de cookies, contactez privacidad@edena.e
         quickActionsDescription:
             "Accédez instantanément aux tâches courantes : factures, événements du calendrier, invitations et opérations du quotidien en un clic.",
         notificationsTitle: "Notifications instantanées",
-        notificationsDescription:
-            "Alertes en temps réel pour garder votre établissement informé.",
+        notificationsDescription: "Alertes en temps réel pour garder votre établissement informé.",
         calendarDescription:
             "Gérez plannings, événements et dates clés efficacement. Notifiez les événements importants à toute la communauté éducative.",
         calendarTitle: "Calendrier scolaire",
@@ -1518,8 +1620,7 @@ Pour toute question sur notre politique de cookies, contactez privacidad@edena.e
         studentInvoicingDescription:
             "Facturation automatique et suivi personnalisé pour chaque élève.",
         organizationTitle: "Organisation",
-        organizationDescription:
-            "Gérez services, personnel et ressources depuis un seul panneau.",
+        organizationDescription: "Gérez services, personnel et ressources depuis un seul panneau.",
         classroomsTitle: "Gestion des salles",
         classroomsDescription:
             "Optimisez espaces, ressources et emplois du temps pour maximiser l’efficacité et réduire les coûts. Infrastructure adaptée aux besoins pédagogiques.",
@@ -1577,8 +1678,7 @@ Pour toute question sur notre politique de cookies, contactez privacidad@edena.e
         dashboardDescription:
             "Les familles gèrent les infos sur leurs enfants, consultent et paient les factures, s’inscrivent aux activités périscolaires et communiquent directement avec l’établissement.",
         studentControlTitle: "Suivi des élèves",
-        studentControlDescription:
-            "Gérez inscriptions, présences et suivi scolaire efficacement.",
+        studentControlDescription: "Gérez inscriptions, présences et suivi scolaire efficacement.",
         appTitle: "Application mobile",
         appDescription:
             "Accédez à toutes les fonctions depuis n’importe quel appareil. Toute la gestion dans votre poche.",
@@ -1765,15 +1865,13 @@ Pour toute question sur notre politique de cookies, contactez privacidad@edena.e
     },
     altText: {
         logo: "Logo Edena - Logiciel de gestion scolaire",
-        heroImage:
-            "Tableau de bord Edena avec analytique en temps réel et outils administratifs",
+        heroImage: "Tableau de bord Edena avec analytique en temps réel et outils administratifs",
         appStoreBadge: "Télécharger Edena sur l’App Store",
         googlePlayBadge: "Télécharger Edena sur Google Play",
         appDetail:
             "App mobile Edena pour les familles avec notifications de présence et communication scolaire",
         dashboardHero: "Tableau de bord scolaire Edena avec métriques et analytique en temps réel",
-        studentsHero:
-            "Système d’information élèves Edena avec gestion des dossiers scolaires",
+        studentsHero: "Système d’information élèves Edena avec gestion des dossiers scolaires",
         guardiansHero: "Portail familles Edena pour la communication et le suivi scolaire",
         financeHero: "Suite financière Edena avec facturation automatique et gestion des paiements",
         billingCycle: "Cycle de facturation automatisé Edena pour établissements scolaires",

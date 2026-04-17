@@ -1399,39 +1399,124 @@ www.aepd.es`,
     },
     termsOfService: {
         title: "Termes i condicions d'ús",
-        content: `Última actualització: 25 de juliol de 2025<br>
+        content: `Última actualització: 17 d'abril de 2026<br>
 <br>
 1. OBJECTE I ACCEPTACIÓ<br>
-Aquests Termes i Condicions regulen l'accés i l'ús de la plataforma Edena, propietat d'Edena Software S.L. En utilitzar la plataforma, l'usuari accepta expressament aquestes condicions.<br>
+Aquests Termes i Condicions d'ús (d'ara endavant, "els Termes") regulen l'accés i l'ús de la plataforma Edena (d'ara endavant, "la Plataforma"), propietat d'Edena Software S.L. (d'ara endavant, "Edena"). En registrar-se, accedir o utilitzar la Plataforma, l'usuari o el centre educatiu (d'ara endavant, "el Client") accepta quedar vinculat per aquests Termes en la versió vigent en cada moment.<br>
 <br>
-2. REGISTRE I COMPTE D'USUARI<br>
-Per accedir als serveis, l'usuari ha de ser major de 16 anys i proporcionar informació veraç i actualitzada. L'usuari és responsable de la confidencialitat de les seves credencials i de totes les activitats realitzades des del seu compte.<br>
+Si l'usuari actua en nom d'un centre educatiu o organització, declara tenir autoritat suficient per acceptar aquests Termes en nom d'aquesta entitat.<br>
 <br>
-3. CONTRACTACIÓ, TARIFES I PAGAMENTS<br>
-L'accés a determinats serveis pot requerir la contractació d'un pla de pagament. Els preus, condicions i límits de cada pla estan disponibles a la web. Edena es reserva el dret de modificar les tarifes, notificant els canvis amb almenys 15 dies d'antelació.<br>
+2. DESCRIPCIÓ DEL SERVEI<br>
+Edena és una plataforma SaaS (Software as a Service) de gestió educativa integral que ofereix, entre d'altres, les funcionalitats següents:<br>
 <br>
-4. ÚS PERMÉS I OBLIGACIONS<br>
-L'usuari es compromet a utilitzar la plataforma d'acord amb la llei, la moral i l'ordre públic. Queda prohibit l'ús per a activitats il·lícites, fraudulentes o que puguin perjudicar la reputació d'Edena o de tercers.<br>
+- Gestió d'estudiants i expedients acadèmics.<br>
+- Control d'assistència i cicles d'avaluació.<br>
+- Facturació automatitzada i gestió de pagaments.<br>
+- Portal de famílies i comunicació escolar bidireccional.<br>
+- Aplicació mòbil (Edena Kids) per a famílies, alumnes i professors.<br>
+- CRM escolar per a la gestió de matrícules i captació de leads.<br>
+- Panell d'anàlisi i reporting en temps real.<br>
+- Gestió de tasques i butlletins de qualificacions.<br>
 <br>
-5. PROPIETAT INTEL·LECTUAL I INDUSTRIAL<br>
-Tots els drets sobre la plataforma, el seu programari, disseny, marques i continguts pertanyen a Edena Software S.L. o als seus llicenciants. L'usuari no podrà copiar, modificar, distribuir, vendre o llogar cap part de la plataforma sense autorització expressa.<br>
+L'abast concret del servei dependrà del pla contractat. Edena podrà incorporar noves funcionalitats o modificar les existents, notificant-ho amb l'antelació deguda.<br>
 <br>
-6. CANCEL·LACIÓ I SUSPENSIÓ DEL COMPTE<br>
-L'usuari pot cancel·lar el seu compte en qualsevol moment des del panell de control. Edena podrà suspendre o cancel·lar comptes que incompleixin aquests termes, notificant l'usuari i conservant les dades durant el termini legalment exigit.<br>
+3. REGISTRE I COMPTE D'USUARI<br>
+Per accedir a la Plataforma, el Client ha de completar el procés de registre proporcionant informació veraç, exacta i actualitzada. El Client és responsable de:<br>
 <br>
-7. MODIFICACIONS DEL SERVEI<br>
-Edena podrà modificar, suspendre o interrompre la plataforma, total o parcialment, notificant els usuaris amb la màxima antelació possible.<br>
+- Mantenir la confidencialitat de les credencials d'accés de tots els usuaris del seu compte.<br>
+- Gestionar i controlar els permisos d'accés d'administradors, professors, famílies i altres usuaris.<br>
+- Notificar a Edena de forma immediata davant de qualsevol ús no autoritzat o bretxa de seguretat al seu compte.<br>
+- Garantir que els usuaris vinculats al seu compte accepten i compleixen aquests Termes.<br>
 <br>
-8. LIMITACIÓ DE RESPONSABILITAT<br>
-Edena no garanteix la disponibilitat ininterrompuda del servei ni es fa responsable de danys directes o indirectes derivats de l'ús o la impossibilitat d'ús de la plataforma, llevat dels casos legalment exigits.<br>
+Edena es reserva el dret de suspendre o cancel·lar comptes en cas d'ús indegut o incompliment d'aquests Termes.<br>
 <br>
-9. PROTECCIÓ DE DADES I PRIVACITAT<br>
-El tractament de dades personals es regeix per la política de privacitat i la normativa vigent en matèria de protecció de dades.<br>
+4. CONTRACTACIÓ, PLANS I PAGAMENTS<br>
+4.1 Plans de servei<br>
+Edena ofereix diferents plans de subscripció en funció del tipus i la mida del centre educatiu. Els detalls, preus i condicions de cada pla estan disponibles a www.edena.es/ca/pricing.<br>
 <br>
-10. LEGISLACIÓ APLICABLE I JURISDICCIÓ<br>
-Aquests termes es regeixen per la legislació espanyola. Per a qualsevol controvèrsia, les parts es someten als jutjats i tribunals de Barcelona, Espanya.<br>
+4.2 Període de prova<br>
+Edena podrà oferir períodes de prova gratuïta. En finalitzar el període de prova, el servei es mantindrà actiu únicament si es formalitza la contractació d'un pla de pagament.<br>
 <br>
-Per a qualsevol consulta sobre aquests termes, pots contactar amb nosaltres a privacidad@edena.es.`,
+4.3 Facturació i formes de pagament<br>
+Les quotes es facturaran amb la periodicitat acordada (mensual o anual). El pagament s'haurà d'efectuar mitjançant els mètodes habilitats a la Plataforma. L'impagament de les quotes, transcorregut el període de gràcia corresponent, podrà donar lloc a la suspensió del servei, prèvia notificació al Client.<br>
+<br>
+4.4 Modificació de tarifes<br>
+Edena es reserva el dret de modificar els preus, notificant els canvis amb almenys 30 dies d'antelació. Si el Client no accepta els nous preus, podrà resoldre el contracte sense penalització abans de la seva entrada en vigor.<br>
+<br>
+4.5 Renovació i cancel·lació<br>
+Els contractes es renoven automàticament llevat que el Client notifiqui la baixa amb l'antelació mínima establerta en el seu pla. Les quotes abonades no són reemborsables, llevat dels casos expressament previstos per la normativa aplicable o en les condicions específiques del pla.<br>
+<br>
+5. OBLIGACIONS DEL CLIENT<br>
+El Client es compromet a:<br>
+<br>
+- Utilitzar la Plataforma de conformitat amb la llei, la moral i l'ordre públic.<br>
+- No realitzar activitats que puguin danyar, sobrecarregar o deteriorar la Plataforma o els sistemes d'Edena.<br>
+- No intentar accedir de forma no autoritzada a dades d'altres clients o usuaris.<br>
+- No utilitzar la Plataforma per a activitats il·lícites, fraudulentes o que puguin perjudicar la reputació d'Edena o de tercers.<br>
+- Complir amb tota la normativa aplicable en la seva activitat com a centre educatiu, especialment la normativa de protecció de dades respecte a les dades d'alumnes i famílies introduïdes a la Plataforma.<br>
+- Mantenir actualitzades les seves dades de contacte i de facturació.<br>
+<br>
+6. OBLIGACIONS D'EDENA<br>
+Edena es compromet a:<br>
+<br>
+- Mantenir la Plataforma disponible amb un nivell de disponibilitat (SLA) del 99,5% mensual, excepte manteniments programats (notificats amb 48h d'antelació) o causes de força major.<br>
+- Prestar suport tècnic a través dels canals habilitats en cada pla (correu electrònic, xat, etc.).<br>
+- Mantenir i millorar la Plataforma, garantint la seva seguretat i actualització tecnològica.<br>
+- Tractar les dades personals de conformitat amb la normativa de protecció de dades i la Política de privacitat d'Edena.<br>
+- Notificar al Client qualsevol incident de seguretat que pugui afectar les seves dades, dins del termini establert per la normativa aplicable.<br>
+<br>
+7. TRACTAMENT DE DADES PERSONALS<br>
+En el marc de la prestació del servei, el Client actua com a responsable del tractament de les dades personals d'alumnes, famílies i personal que introdueix a la Plataforma. Edena actua com a encarregat del tractament d'aquestes dades, en virtut del Contracte d'Encàrrec del Tractament (CET) que s'integra en aquests Termes i que compleix els requisits de l'article 28 del RGPD.<br>
+<br>
+El tractament de dades derivat de l'ús d'aquest lloc web i de la relació comercial amb Edena es regeix per la Política de privacitat disponible a www.edena.es/privacitat.<br>
+<br>
+8. PROPIETAT INTEL·LECTUAL I INDUSTRIAL<br>
+Tots els drets de propietat intel·lectual i industrial sobre la Plataforma, el seu programari, disseny, logotips, marques, nom comercial, codi font, documentació i continguts pertanyen a Edena Software S.L. o als seus llicenciants.<br>
+<br>
+El Client únicament adquireix una llicència d'ús no exclusiva, intransferible i limitada a les finalitats del contracte, durant la seva vigència. Queden expressament prohibits:<br>
+- Copiar, reproduir, distribuir o comunicar públicament la Plataforma o els seus continguts.<br>
+- Realitzar enginyeria inversa, descompilar o desmuntar el programari.<br>
+- Sublicenciar o cedir els drets d'ús a tercers sense autorització expressa d'Edena.<br>
+<br>
+9. CONFIDENCIALITAT<br>
+Ambdues parts es comprometen a tractar com a confidencial tota la informació a la qual accedeixin en el marc de la relació contractual i a no divulgar-la a tercers, excepte per obligació legal o amb el consentiment exprés de l'altra part.<br>
+<br>
+Aquesta obligació de confidencialitat s'estén durant la vigència del contracte i durant un període de 3 anys després de la seva terminació.<br>
+<br>
+10. LIMITACIÓ DE RESPONSABILITAT<br>
+Edena no serà responsable de:<br>
+<br>
+- Danys indirectes, incidentals, especials o conseqüents derivats de l'ús o impossibilitat d'ús de la Plataforma.<br>
+- Pèrdua de dades causada per accions imputables al Client (errors d'usuari, configuracions incorrectes, etc.).<br>
+- Interrupcions del servei per força major, fallades de tercers (proveïdors de telecomunicacions, infraestructura cloud) o atacs externs.<br>
+- El contingut introduït a la Plataforma pel Client o els seus usuaris.<br>
+<br>
+La responsabilitat total acumulada d'Edena davant el Client no podrà superar l'import abonat en els 12 mesos anteriors a l'esdeveniment que origina la reclamació.<br>
+<br>
+11. MODIFICACIONS DEL SERVEI I DELS TERMES<br>
+Edena podrà modificar aquests Termes per adaptar-los a canvis legislatius, resolucions d'autoritats o millores del servei. Els canvis substancials es notificaran amb almenys 30 dies d'antelació per correu electrònic o mitjançant avís a la Plataforma.<br>
+<br>
+L'ús continuat de la Plataforma després de l'entrada en vigor dels nous Termes implicarà la seva acceptació. Si el Client no hi està d'acord, podrà resoldre el contracte abans de la seva entrada en vigor sense penalització alguna.<br>
+<br>
+12. SUSPENSIÓ I RESOLUCIÓ DEL CONTRACTE<br>
+12.1 Per part del Client: el Client podrà resoldre el contracte en qualsevol moment des del panell de control, amb els efectes previstos en el seu pla.<br>
+<br>
+12.2 Per part d'Edena: Edena podrà suspendre o resoldre el contracte, amb notificació prèvia, en els supòsits següents:<br>
+- Incompliment greu o reiterat d'aquests Termes.<br>
+- Impagament de les quotes transcorregut el període de gràcia.<br>
+- Ús il·legal o fraudulent de la Plataforma.<br>
+<br>
+12.3 Efectes de la resolució: un cop resolt el contracte, el Client disposarà de 30 dies per exportar les seves dades. Transcorregut aquest termini, Edena procedirà a l'eliminació de les dades del Client de conformitat amb la seva política de retenció i la normativa aplicable.<br>
+<br>
+13. LEGISLACIÓ APLICABLE I JURISDICCIÓ<br>
+Aquests Termes es regeixen per la legislació espanyola. Per a qualsevol controvèrsia derivada de la seva interpretació o compliment, les parts se sotmeten als Jutjats i Tribunals de la ciutat de Barcelona, Espanya, amb renúncia expressa a qualsevol altre fur que pugui correspondre'ls.<br>
+<br>
+Si alguna clàusula d'aquests Termes fos declarada nul·la o inaplicable, les restants clàusules continuaran en vigor amb plena eficàcia.<br>
+<br>
+14. CONTACTE<br>
+Per a qualsevol consulta relacionada amb aquests Termes i Condicions:<br>
+Correu electrònic: privacidad@edena.es<br>
+Lloc web: www.edena.es`,
     },
     cookiePolicy: {
         title: "Política de galetes",

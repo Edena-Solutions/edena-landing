@@ -1397,39 +1397,124 @@ www.aepd.es`,
     },
     termsOfService: {
         title: "Erabileraren baldintzak",
-        content: `Azken eguneraketa: 2025eko uztailaren 25a<br>
+        content: `Azken eguneraketa: 2026ko apirilaren 17a<br>
 <br>
 1. XEDEA ETA ONARTZEA<br>
-Baldinta hauek Edena plataformarako sarbidea eta erabilera arautzen dituzte; Edena Software S.L. enpresaren jabetzakoa da. Plataforma erabiliz, erabiltzaileak baldinta hauek espresuki onartzen ditu.<br>
+Erabilera Baldintza hauek (hemendik aurrera, "Baldintzak") Edena plataformara (hemendik aurrera, "Plataforma") sarbidea eta haren erabilera arautzen dituzte; plataforma Edena Software S.L.-ren (hemendik aurrera, "Edena") jabetzakoa da. Plataforman erregistratzean, hara sartzerakoan edo erabiltzean, erabiltzaileak edo hezkuntza-zentroak (hemendik aurrera, "Bezeroa") indarreko Baldintzak onartzea onartzen du.<br>
 <br>
-2. ERREGISTROA ETA ERABILTZAILE-KONTUA<br>
-Zerbitzuetara sartzeko, erabiltzaileak 16 urte baino gehiago izan behar ditu eta informazio egiazkoa eta eguneratua eman. Erabiltzailea bere kredentzialen konfidentzialtasunaren eta bere kontutik egindako jarduera guztien erantzule da.<br>
+Erabiltzaileak hezkuntza-zentro edo erakunde baten izenean jarduten badu, nahikoa agintea duela adierazten du entitate horren izenean Baldintzak onartzeko.<br>
 <br>
-3. KONTRATAZIOA, TARIFAK ETA ORAINKETAK<br>
-Zenbait zerbitzutarako sarbideak ordainpeko plan bat kontratatzea eska dezake. Plan bakoitzaren prezioak, baldintzak eta mugak webean daude eskuragarri. Edenak tarifak aldatzeko eskubidea gordetzen du, gutxienez 15 eguneko aurretiazko jakinarazpenarekin.<br>
+2. ZERBITZUAREN DESKRIBAPENA<br>
+Edena hezkuntza-kudeaketarako SaaS (Software as a Service) plataforma integrala da, besteak beste, honako funtzionalitateak eskaintzen dituena:<br>
 <br>
-4. ONARTUTAKO ERABILERA ETA BETEBEHARRAK<br>
-Erabiltzaileak plataforma legearen, morala eta ordena publikoaren arabera erabiltzeko konpromisoa hartzen du. Debekatuta dago jarduera ilegal, iruzurti edo Edena edo hirugarrenen ospea kaltetu dezaketen erabilera.<br>
+- Ikasleen kudeaketa eta espediente akademikoak.<br>
+- Asistentziaren kontrola eta ebaluazio-zikloak.<br>
+- Fakturazio automatizatua eta ordainketen kudeaketa.<br>
+- Familien ataria eta bi norabideko eskola-komunikazioa.<br>
+- Aplikazio mugikorra (Edena Kids) familientzat, ikasleentzat eta irakasleentzat.<br>
+- Eskola-CRM matrikula-kudeaketarako eta lead-kapturarako.<br>
+- Analisi eta reporting panel erreala.<br>
+- Zereginen kudeaketa eta kalifikazio-boletinen sorkuntza.<br>
 <br>
-5. JABETZA INTELEKTUAL ETA INDUSTRIALA<br>
-Plataformaren, bere softwarearen, diseinuaren, marken eta edukien gaineko eskubide guztiak Edena Software S.L. edo bere lizentzia-emaillei dagozkie. Erabiltzaileak ezin izango du plataformaren zatirik kopiatu, aldatu, banatu, saldu edo alokatu baimen espresurik gabe.<br>
+Zerbitzuaren benetako norainokoa kontratatutako planaren araberakoa izango da. Edenak funtzionalitate berriak gehitu edo lehendaurreko batzuk aldatu ahal izango ditu, behar bezalako aurreabisua emanez.<br>
 <br>
-6. KONTUA EZEZTATZEA ETA ETENALDIA<br>
-Erabiltzaileak edozein unetan ezezta dezake bere kontua kontrol-panelatik. Edenak baldinta hauek urratzen dituzten kontuak eten edo ezeztatu ditzake, erabiltzaileari jakinaraziz eta datuak legez eskatzen den epean kontserbatuz.<br>
+3. ERREGISTROA ETA ERABILTZAILE-KONTUA<br>
+Plataformara sartzeko, Bezeroak erregistro-prozesua osatu behar du informazio egiazkoa, zehatza eta eguneratua emanez. Bezeroa da arduraduna:<br>
 <br>
-7. ZERBITZUAREN ALDAKETAK<br>
-Edenak plataforma oso edo partzialki alda, eten edo eten dezake, erabiltzaileei ahalik eta lehenago jakinaraziz.<br>
+- Bere kontuarekin lotutako sarbide-kredentzial guztien konfidentzialtasunaz.<br>
+- Administratzaileen, irakasleen, familien eta beste erabiltzaileen sarbide-baimenen kudeaketaz eta kontrolaz.<br>
+- Edena berehala jakinarazteaz bere kontuan baimenik gabeko edozein erabilera edo segurtasun-arau-hauste gertatuz gero.<br>
+- Bere kontuarekin lotutako erabiltzaileek Baldintza hauek onartzen eta betetzen dituztela ziurtatzeaz.<br>
 <br>
-8. ERANTZUKIZUNAREN MUGAPENA<br>
-Edenak ez du zerbitzuaren etenik gabeko erabilgarritasuna bermatzen, ezta plataformaren erabileratik edo erabili ezinik sortutako zuzeneko edo zeharkako kalteen erantzukizunik ere, legez eskatzen diren kasuetan izan ezik.<br>
+Edenak kontuak eteteko edo ezeztatzeko eskubidea gordetzen du erabilera desegokia edo Baldintza hauen hauste kasuan.<br>
 <br>
-9. DATUEN BABESA ETA PRIBATUTASUNA<br>
-Datu pertsonalen tratamendua Pribatutasun-politikak eta indarrean dagoen datu-babes araudiak arautzen dute.<br>
+4. KONTRATAZIO, PLANAK ETA ORDAINKETAK<br>
+4.1 Zerbitzu-planak<br>
+Edenak hainbat harpidetza-plan eskaintzen ditu, hezkuntza-zentroaren motaren eta tamainaren arabera. Plan bakoitzaren xehetasunak, prezioak eta baldintzak www.edena.es/eus/pricing helbidean daude eskuragarri.<br>
 <br>
-10. APLIKAGARRIA DEN LEGISLAZIOA ETA JURISDIZIOA<br>
-Baldinta hauek espainiar legearen arabera arautzen dira. Edozein gatazkatan, aldeak Bartzelonako (Espainia) epaitegi eta auzitegien menpe daude.<br>
+4.2 Proba-aldia<br>
+Edenak doako proba-aldiak eskaini ahal izango ditu. Proba-aldia amaitzean, zerbitzua aktibo jarraituko du soilik ordainpeko plan bat formalizatzen bada.<br>
 <br>
-Baldinta hauei buruzko edozein kontsultarako, jarri gurekin harremanetan privacidad@edena.es helbidean.`,
+4.3 Fakturaketa eta ordainketa-modalitateak<br>
+Kuotak adostutako aldizkakotasunarekin (hilero edo urtero) fakturatuko dira. Ordainketa Plataforman aktibatutako metodoen bidez egin behar da. Kuoten ordainketa ez egiteak, dagokion grazia-aldia igaro ondoren, zerbitzua etetea eragin dezake, Bezeroari aurretiaz jakinarazi ondoren.<br>
+<br>
+4.4 Tarifak aldatzea<br>
+Edenak prezioak aldatzeko eskubidea gordetzen du, aldaketak gutxienez 30 eguneko aurrerapenarekin jakinaraziz. Bezeroak prezio berriak onartzen ez baditu, kontratua penaltarik gabe ebaz dezake indarrean sartu aurretik.<br>
+<br>
+4.5 Berritzea eta baja hartzea<br>
+Kontratuak automatikoki berritzen dira, Bezeroak bere planak eskatzen duen gutxieneko aurrerapenarekin baja jakinarazten ez badu. Ordaindutako kuotak ez dira itzulgarriak, aplikagarria den araudiak edo planaren baldintza espezifikoek berariaz aurreikusitako kasuetan izan ezik.<br>
+<br>
+5. BEZEROAREN BETEBEHARRAK<br>
+Bezeroa konpromisoa hartzen du:<br>
+<br>
+- Plataforma legea, morala eta ordena publikoa betez erabiltzeko.<br>
+- Plataforma edo Edenaren sistemak kaltetu, gainkargatu edo narriastu dezaketen jardueretatik urrun egoteko.<br>
+- Beste bezero edo erabiltzaileen datuetara baimenik gabe sartzen saiatzeko ez egoteko.<br>
+- Plataforma jarduera ilegal, iruzurrezkoak edo Edenaren edo hirugarrenen ospea kalte dezaketen helburuetarako ez erabiltzeko.<br>
+- Hezkuntza-zentro gisa bere jarduerari aplikagarri zaion araudia osoa betetzeko, batez ere Plataforman sartutako ikasleen eta familien datu pertsonalei dagokienez datu-babeseko araudia.<br>
+- Kontaktu-datuak eta fakturazio-datuak eguneratuta mantentzeko.<br>
+<br>
+6. EDENAREN BETEBEHARRAK<br>
+Edena konpromisoa hartzen du:<br>
+<br>
+- Plataforma hileko %99,5eko erabilgarritasun-maila (SLA) batekin eskuragarri mantentzeko, mantentze programatuak (48 orduko aurrerapenarekin jakinaraziak) edo ezinbesteko gertaeretan izan ezik.<br>
+- Laguntza teknikoa eskaintzeko plan bakoitzean aktibatutako bideen bidez (posta elektronikoa, txata, etab.).<br>
+- Plataforma mantentzeko eta hobetzeko, segurtasuna eta eguneraketa teknologikoa bermatuz.<br>
+- Datu pertsonalak datu-babeseko araudiaren eta Edenaren Pribatutasun-politikaren arabera tratatzeko.<br>
+- Bezeroaren datuak eragina dezakeen segurtasun-intzidentziari buruz jakinarazteko, aplikagarri den araudiak ezarritako epean.<br>
+<br>
+7. DATU PERTSONALEN TRATAMENDUA<br>
+Zerbitzuaren prestazioaren esparruan, Bezeroa Plataforman sartzen dituen ikasleen, familien eta langilearen datu pertsonalen tratamenduaren arduradun gisa jarduten du. Edena datu horien tratamendu-enkargatu gisa jarduten du, Baldintza hauetan integratutako Tratamendu-Enkargu Kontratuaren (TEK) arabera, DBEBren 28. artikuluaren eskakizunak betetzen dituena.<br>
+<br>
+Webgune honen erabileratik eta Edenarekin merkataritza-harremanetatik eratorritako datuen tratamendua www.edena.es/pribatutasuna helbidean eskuragarri dagoen Pribatutasun-politikak arautzen du.<br>
+<br>
+8. JABETZA INTELEKTUAL ETA INDUSTRIALA<br>
+Plataformaren, bere softwarearen, diseinuaren, logotipoen, marken, izen komertzialaren, iturri-kodearen, dokumentazioaren eta edukien gaineko jabetza intelektual eta industrial eskubide guztiak Edena Software S.L.-renak edo bere lizentziatzaileeenak dira.<br>
+<br>
+Bezeroak soilik erabilera-lizentzia ez-esklusibo, lagatzen ezina eta kontratuaren helburuetara mugatua eskuratzen du, haren indarraldirako. Berariaz debekatuta daude:<br>
+- Plataforma edo haren edukiak kopiatzea, erreproduzitzea, banatzea edo publikoki komunikatzea.<br>
+- Alderantzizko ingeniaritza egitea, softwarea deskonpilatzea edo desmontatzea.<br>
+- Erabilerako eskubideak hirugarrenei azpilizentzatzea edo lagatzea Edenaren berariazko baimenik gabe.<br>
+<br>
+9. KONFIDENTZIALTASUNA<br>
+Bi alderdiek kontratu-harremanaren esparruan eskuratutako informazio guztia konfidentzialtzat tratatzeko eta hirugarrenei ez ezagutarazteko konpromisoa hartzen dute, lege-betebeharren kasuan edo beste aldearen berariazko baimenarekin izan ezik.<br>
+<br>
+Konfidentzialtasun-betebehar hau kontratua indarrean dagoen bitartean eta hura amaitu ondorengo 3 urtetan luzatzen da.<br>
+<br>
+10. ERANTZUKIZUN-MUGAKETA<br>
+Edena ez da erantzule izango:<br>
+<br>
+- Plataformaren erabileratik edo erabilezintasunetik eratorritako zeharkako, bariazko, bereizgarri edo ondoriozko kalteengatik.<br>
+- Bezeroari egozgarri diren ekintzengatik sortutako datu-galera (erabiltzaile-akatsak, konfigurazio okerrak, etab.).<br>
+- Ezinbesteko gertaerek, hirugarrenen hutsegiteek (telekomunikazio-hornitzaileak, cloud azpiegitura) edo kanpoko erasoek eragindako zerbitzu-etendurengatik.<br>
+- Bezeroak edo bere erabiltzaileek Plataforman sartutako edukiarengatik.<br>
+<br>
+Edenaren Bezeroaren aurreko erantzukizun metatua ezin da gainditu erreklamazioari bidea eman zion gertaeraren aurreko 12 hilabeteetan Bezeroak ordaindutako zenbatekoa.<br>
+<br>
+11. ZERBITZUAREN ETA BALDINTZEN ALDAKETAK<br>
+Edenak Baldintza hauek alda ditzake lege-aldaketetara, arau-agintarien ebazpenetara edo zerbitzu-hobekuntzetara egokitzeko. Funtsezko aldaketak gutxienez 30 eguneko aurrerapenarekin jakinaraziko dira posta elektronikoaren bidez edo Plataformako jakinarazpen baten bidez.<br>
+<br>
+Baldintza berriak indarrean sartu ondoren Plataforma etengabe erabiltzeak onarpen gisa hartuko da. Bezeroa ados ez badago, kontratua penaltarik gabe ebaz dezake indarrean sartu aurretik.<br>
+<br>
+12. KONTRATUAREN ETENDURA ETA EBAZPENA<br>
+12.1 Bezeroaren aldetik: Bezeroak edozein unetan ebaz dezake kontratua kontrol-paneletik, bere planean aurreikusitako ondorioekin.<br>
+<br>
+12.2 Edenaren aldetik: Edenak kontratua eten edo ebaz dezake, aurretiazko jakinarazpenarekin, honako kasuetan:<br>
+- Baldintza hauen hauste larria edo errepikatua.<br>
+- Grazia-aldia igaro ondorengo kuoten ordainketa ez egitea.<br>
+- Plataformaren erabilera ilegala edo iruzurrezkoa.<br>
+<br>
+12.3 Ebazpenaren ondorioak: ebazpena egin ondoren, Bezeroak 30 egun izango ditu bere datuak esportatzeko. Epe hori igaro ondoren, Edenak Bezeroaren datuak ezabatuko ditu bere atxikipen-politikaren eta aplikagarri den araudiaren arabera.<br>
+<br>
+13. APLIKAGARRI DEN LEGEDIA ETA JURISDIKZIOA<br>
+Baldintza hauek Espainiako legediak arautzen ditu. Hauen interpretaziotik edo betetzetik eratorritako edozein auzirengatik, alderdiak Bartzelona hiriko Epaitegi eta Auzitegietara jotzen dute, haiei egotz dakiekeen beste edozein auzitegi-esparri berariaz utziz.<br>
+<br>
+Baldintza hauetako klausula bat deuseztatu edo aplikaezin gisa adierazi bada, gainerako klausulak indarrean jarraituko dute eraginkortasun osoarekin.<br>
+<br>
+14. KONTAKTUA<br>
+Baldintza eta Kondizio hauei buruzko edozein kontsultarengatik:<br>
+Posta elektronikoa: privacidad@edena.es<br>
+Webgunea: www.edena.es`,
     },
     cookiePolicy: {
         title: "Cookie-politika",

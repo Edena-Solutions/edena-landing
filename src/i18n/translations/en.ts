@@ -1252,39 +1252,124 @@ export default {
     },
     termsOfService: {
         title: "Terms and Conditions of Use",
-        content: `Last update: July 25, 2025<br>
+        content: `Last updated: April 17, 2026<br>
 <br>
 1. PURPOSE AND ACCEPTANCE<br>
-These Terms and Conditions govern access to and use of the Edena platform, owned by Edena Software S.L. By using the platform, the user expressly accepts these terms.<br>
+These Terms and Conditions of Use (hereinafter, "the Terms") govern access to and use of the Edena platform (hereinafter, "the Platform"), owned by Edena Software S.L. (hereinafter, "Edena"). By registering, accessing or using the Platform, the user or educational institution (hereinafter, "the Client") agrees to be bound by these Terms as currently in force.<br>
 <br>
-2. REGISTRATION AND USER ACCOUNT<br>
-To access the services, users must be over 16 years old and provide accurate, up-to-date information. Users are responsible for keeping their credentials confidential and for all activities performed from their account.<br>
+If the user acts on behalf of an educational institution or organisation, they declare that they have sufficient authority to accept these Terms on behalf of that entity.<br>
 <br>
-3. SUBSCRIPTION, PRICING, AND PAYMENTS<br>
-Access to certain services may require a paid subscription. The prices, conditions, and limits of each plan are available on the website. Edena reserves the right to modify fees, notifying users at least 15 days in advance.<br>
+2. DESCRIPTION OF THE SERVICE<br>
+Edena is a comprehensive SaaS (Software as a Service) educational management platform offering, among others, the following features:<br>
 <br>
-4. PERMITTED USE AND OBLIGATIONS<br>
-Users agree to use the platform in accordance with the law, morality, and public order. Use for illegal, fraudulent, or reputation-damaging activities is strictly prohibited.<br>
+- Student management and academic records.<br>
+- Attendance tracking and assessment cycles.<br>
+- Automated billing and payment management.<br>
+- Family portal and two-way school communication.<br>
+- Mobile application (Edena Kids) for families, students, and teachers.<br>
+- School CRM for enrolment management and lead capture.<br>
+- Real-time analytics and reporting dashboard.<br>
+- Task management and grade report generation.<br>
 <br>
-5. INTELLECTUAL AND INDUSTRIAL PROPERTY<br>
-All rights to the platform, its software, design, trademarks, and content belong to Edena Software S.L. or its licensors. Users may not copy, modify, distribute, sell, or rent any part of the platform without express authorization.<br>
+The specific scope of the service will depend on the contracted plan. Edena may add new features or modify existing ones, providing appropriate advance notice.<br>
 <br>
-6. ACCOUNT CANCELLATION AND SUSPENSION<br>
-Users may cancel their account at any time from the control panel. Edena may suspend or cancel accounts that breach these terms, notifying the user and retaining data for the legally required period.<br>
+3. REGISTRATION AND USER ACCOUNT<br>
+To access the Platform, the Client must complete the registration process by providing truthful, accurate and up-to-date information. The Client is responsible for:<br>
 <br>
-7. SERVICE MODIFICATIONS<br>
-Edena may modify, suspend, or discontinue the platform, in whole or in part, notifying users as far in advance as possible.<br>
+- Maintaining the confidentiality of all login credentials associated with their account.<br>
+- Managing and controlling access permissions for administrators, teachers, families, and other users.<br>
+- Notifying Edena immediately of any unauthorised use or security breach on their account.<br>
+- Ensuring that users linked to their account accept and comply with these Terms.<br>
 <br>
-8. LIMITATION OF LIABILITY<br>
-Edena does not guarantee uninterrupted service availability and is not liable for direct or indirect damages resulting from the use or inability to use the platform, except where legally required.<br>
+Edena reserves the right to suspend or cancel accounts in the event of misuse or breach of these Terms.<br>
 <br>
-9. DATA PROTECTION AND PRIVACY<br>
-The processing of personal data is governed by the Privacy Policy and current data protection regulations.<br>
+4. CONTRACTING, PLANS, AND PAYMENTS<br>
+4.1 Service plans<br>
+Edena offers different subscription plans based on the type and size of the educational institution. Details, prices and conditions for each plan are available at www.edena.es/en/pricing.<br>
 <br>
-10. APPLICABLE LAW AND JURISDICCIÓN<br>
-These terms are governed by Spanish law. For any dispute, the parties submit to the courts of Barcelona, Spain.<br>
+4.2 Trial period<br>
+Edena may offer free trial periods. Once the trial period ends, the service will only remain active if a paid plan is formalised.<br>
 <br>
-For any questions about these terms, you can contact us at privacidad@edena.es.`,
+4.3 Billing and payment methods<br>
+Fees will be billed with the agreed frequency (monthly or annually). Payment must be made through the methods enabled on the Platform. Non-payment of fees, following the applicable grace period, may result in suspension of the service, after prior notification to the Client.<br>
+<br>
+4.4 Price changes<br>
+Edena reserves the right to modify prices, providing at least 30 days notice. If the Client does not accept the new prices, they may terminate the contract without penalty before the changes come into effect.<br>
+<br>
+4.5 Renewal and cancellation<br>
+Contracts renew automatically unless the Client notifies cancellation with the minimum advance notice required by their plan. Fees paid are non-refundable, except as expressly provided by applicable law or the specific plan conditions.<br>
+<br>
+5. CLIENT OBLIGATIONS<br>
+The Client undertakes to:<br>
+<br>
+- Use the Platform in compliance with the law, public morality, and public order.<br>
+- Not carry out activities that may damage, overload, or impair the Platform or Edena's systems.<br>
+- Not attempt to gain unauthorised access to data belonging to other clients or users.<br>
+- Not use the Platform for unlawful, fraudulent activities or activities that may harm the reputation of Edena or third parties.<br>
+- Comply with all applicable regulations in their capacity as an educational institution, particularly data protection laws regarding the personal data of students and families entered into the Platform.<br>
+- Keep their contact and billing information up to date.<br>
+<br>
+6. EDENA'S OBLIGATIONS<br>
+Edena undertakes to:<br>
+<br>
+- Maintain the Platform with a monthly availability level (SLA) of 99.5%, except for scheduled maintenance (notified 48 hours in advance) or force majeure events.<br>
+- Provide technical support through the channels enabled for each plan (email, chat, etc.).<br>
+- Maintain and improve the Platform, ensuring its security and technological currency.<br>
+- Process personal data in compliance with data protection legislation and Edena's Privacy Policy.<br>
+- Notify the Client of any security incident that may affect their data within the period established by applicable law.<br>
+<br>
+7. PERSONAL DATA PROCESSING<br>
+In the context of service delivery, the Client acts as data controller for the personal data of students, families, and staff entered into the Platform. Edena acts as data processor for such data, under the Data Processing Agreement (DPA) incorporated into these Terms, which complies with the requirements of Article 28 of the GDPR.<br>
+<br>
+The processing of data arising from the use of this website and the commercial relationship with Edena is governed by the Privacy Policy available at www.edena.es/privacy.<br>
+<br>
+8. INTELLECTUAL AND INDUSTRIAL PROPERTY<br>
+All intellectual and industrial property rights over the Platform, its software, design, logos, trademarks, trade name, source code, documentation, and content belong to Edena Software S.L. or its licensors.<br>
+<br>
+The Client acquires only a non-exclusive, non-transferable licence limited to the purposes of the contract, for its duration. The following are expressly prohibited:<br>
+- Copying, reproducing, distributing or publicly communicating the Platform or its content.<br>
+- Reverse engineering, decompiling or disassembling the software.<br>
+- Sublicensing or assigning usage rights to third parties without Edena's express written consent.<br>
+<br>
+9. CONFIDENTIALITY<br>
+Both parties undertake to treat as confidential all information accessed in the context of the contractual relationship and not to disclose it to third parties, except by legal obligation or with the express consent of the other party.<br>
+<br>
+This confidentiality obligation extends throughout the duration of the contract and for a period of 3 years following its termination.<br>
+<br>
+10. LIMITATION OF LIABILITY<br>
+Edena shall not be liable for:<br>
+<br>
+- Indirect, incidental, special or consequential damages arising from the use or inability to use the Platform.<br>
+- Loss of data caused by actions attributable to the Client (user errors, incorrect configurations, etc.).<br>
+- Service interruptions caused by force majeure, third-party failures (telecommunications providers, cloud infrastructure) or external attacks.<br>
+- Content entered into the Platform by the Client or its users.<br>
+<br>
+Edena's total cumulative liability to the Client shall not exceed the amount paid by the Client in the 12 months preceding the event giving rise to the claim.<br>
+<br>
+11. CHANGES TO THE SERVICE AND TERMS<br>
+Edena may modify these Terms to reflect legislative changes, regulatory authority decisions, or service improvements. Substantial changes will be notified at least 30 days in advance by email or through a notice on the Platform.<br>
+<br>
+Continued use of the Platform after the new Terms come into effect constitutes acceptance thereof. If the Client disagrees, they may terminate the contract before the changes take effect without any penalty.<br>
+<br>
+12. SUSPENSION AND TERMINATION OF CONTRACT<br>
+12.1 By the Client: the Client may terminate the contract at any time from the control panel, subject to the terms of their plan.<br>
+<br>
+12.2 By Edena: Edena may suspend or terminate the contract, with prior notice, in the following circumstances:<br>
+- Serious or repeated breach of these Terms.<br>
+- Non-payment of fees following the grace period.<br>
+- Unlawful or fraudulent use of the Platform.<br>
+<br>
+12.3 Effects of termination: upon termination, the Client will have 30 days to export their data. After that period, Edena will delete the Client's data in accordance with its retention policy and applicable law.<br>
+<br>
+13. APPLICABLE LAW AND JURISDICTION<br>
+These Terms are governed by Spanish law. For any dispute arising from their interpretation or performance, the parties submit to the courts of the city of Barcelona, Spain, expressly waiving any other jurisdiction that may apply to them.<br>
+<br>
+If any clause of these Terms is declared null or unenforceable, the remaining clauses shall remain in full force and effect.<br>
+<br>
+14. CONTACT<br>
+For any query related to these Terms and Conditions:<br>
+Email: privacidad@edena.es<br>
+Website: www.edena.es`,
     },
     crm: {
         mainTitle: "Turn Every Enrollment Inquiry Into a New Family",
