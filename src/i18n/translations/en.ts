@@ -1805,18 +1805,78 @@ www.aepd.es`,
     },
     cookiePolicy: {
         title: "Cookie Policy",
-        content: `1. WHAT ARE COOKIES?<br>
-Cookies are small text files stored on the user's device when visiting a website. They allow us to remember information about browsing and improve the user experience.<br>
-2. TYPES OF COOKIES USED<br>
-- Technical cookies: necessary for the operation of the website.<br>
-- Analytics cookies: allow us to analyze website usage to improve our services.<br>
-- Third-party cookies: managed by external services such as Google Analytics.<br>
-3. COOKIE MANAGEMENT<br>
-Users can configure their browser to accept, reject, or delete cookies. Disabling cookies may affect the website's functionality.<br>
-4. CONSENT<br>
-Strictly necessary cookies may be used without prior consent. Analytics and similar cookies are only activated if you choose “Accept” in the cookie notice.<br>
-5. MORE INFORMATION<br>
-For any questions about our cookie policy, you can contact privacidad@edena.es.`,
+        content: `Last updated: April 17, 2026<br>
+<br>
+1. WHAT ARE COOKIES?<br>
+Cookies are small text files that websites store on a user's device (computer, tablet, smartphone) when they visit them. They allow the site to remember user preferences, analyse browsing behaviour, improve the user experience and, in certain cases, display personalised advertising.<br>
+<br>
+2. WHO IS RESPONSIBLE FOR THE USE OF COOKIES ON THIS SITE?<br>
+The controller of the website www.edena.es and the use of cookies is Edena Software S.L. For any queries related to this policy, please contact us at privacidad@edena.es.<br>
+<br>
+3. TYPES OF COOKIES WE USE<br>
+Based on their purpose, the cookies you may encounter on our website are classified as follows:<br>
+<br>
+3.1 Technical or strictly necessary cookies<br>
+These are essential for the correct functioning of the website. They allow users to navigate and use different features, such as logging in, remembering language preferences, or keeping the session active. Without these cookies, some services may not work properly. They do not require user consent.<br>
+<br>
+3.2 Preference or personalisation cookies<br>
+These allow the website to remember information so that users access the service with certain features that differentiate their experience from other users, such as their preferred language, region, or visual theme.<br>
+<br>
+3.3 Analytics or measurement cookies<br>
+These allow the website controller to track and analyse user behaviour. The information collected is used to measure website activity and produce browsing statistics in order to improve the user experience and content offered. This information is never used for individualised advertising purposes.<br>
+<br>
+3.4 Marketing or behavioural advertising cookies<br>
+These allow advertising spaces on the website to be managed based on the user's browsing profile. They remember visits to the site and track browsing behaviour to show relevant advertisements on other websites.<br>
+<br>
+3.5 Third-party cookies<br>
+These are cookies installed by external services that appear on our pages. The main third parties that may install cookies when visiting our site are:<br>
+- Google Analytics (usage analysis and traffic statistics)<br>
+- Google Tag Manager (tracking tag management)<br>
+- Hotjar (heatmaps and behaviour analysis)<br>
+- Intercom or similar (customer support and chat)<br>
+Each of these providers has its own privacy and cookie policies. We recommend consulting them directly on their websites.<br>
+<br>
+4. COOKIES TABLE<br>
+Below are the main cookies used on this site:<br>
+<br>
+- _ga / _gid: Google Analytics — usage analysis — duration: up to 2 years.<br>
+- _gat: Google Analytics — request frequency control — duration: 1 minute.<br>
+- edena_session: user session — authentication — duration: session.<br>
+- edena_lang: language preference — personalisation — duration: 1 year.<br>
+- edena_theme: visual theme preference — personalisation — duration: 1 year.<br>
+- cookie_consent: record of cookie consent — necessary — duration: 1 year.<br>
+- _hjid: Hotjar — user identification for behaviour analysis — duration: 1 year.<br>
+<br>
+5. HOW CAN I MANAGE OR DISABLE COOKIES?<br>
+Users may, at any time, accept, reject or withdraw their consent to the use of cookies through the cookie preferences panel available on our website (the "Manage cookies" button in the footer).<br>
+<br>
+In addition, most browsers allow you to control cookies through their settings. Below are instructions for the most common browsers:<br>
+- Google Chrome: Settings > Privacy and security > Cookies and other site data.<br>
+- Mozilla Firefox: Options > Privacy and Security > Cookies and Site Data.<br>
+- Safari: Preferences > Privacy > Manage Website Data.<br>
+- Microsoft Edge: Settings > Privacy, search and services > Cookies.<br>
+<br>
+Please note that disabling certain cookies may affect the correct functioning of the website or prevent access to some features.<br>
+<br>
+6. CONSENT<br>
+On your first visit to our website, we display an information banner where you can accept, reject or configure the use of non-strictly necessary cookies. Your choice is recorded and respected on subsequent visits.<br>
+<br>
+Strictly necessary cookies do not require prior consent and are installed automatically when accessing the site. All other cookies (analytics, marketing, preferences) are only activated if you give your explicit consent.<br>
+<br>
+You may revoke or modify your consent at any time by accessing the cookie preferences panel available in the footer of our website.<br>
+<br>
+7. INTERNATIONAL TRANSFERS<br>
+Some third-party cookie providers (such as Google) may process data on servers located outside the European Economic Area (EEA). In such cases, these providers are governed by appropriate transfer mechanisms in accordance with the GDPR (standard contractual clauses, adequacy decisions, etc.).<br>
+<br>
+8. UPDATES TO THIS POLICY<br>
+Edena may update this Cookie Policy to reflect legislative changes, new website features, or changes in the third-party services used. The "last updated" date at the beginning of this document always reflects the current version. We recommend reviewing it periodically.<br>
+<br>
+9. MORE INFORMATION<br>
+For any queries about the use of cookies on our website, please contact us at:<br>
+Email: privacidad@edena.es<br>
+Website: www.edena.es<br>
+<br>
+For more information about cookies and how to manage them, you may consult the guide published by the Spanish Data Protection Agency (AEPD) at www.aepd.es.`,
     },
     blog: {
         ctaTitle: "Ready to transform your school's management?",

@@ -47,6 +47,20 @@ const tagVariantMap = {
     documentos: "secondary",
     administración: "default",
     eficiencia: "secondary",
+    // French tag labels (blogFr)
+    facturation: "default",
+    communication: "secondary",
+    familles: "secondary",
+    sécurité: "destructive",
+    données: "destructive",
+    technologie: "default",
+    innovation: "secondary",
+    gestion: "default",
+    analytique: "default",
+    performance: "default",
+    logiciel: "default",
+    "expérience numérique": "secondary",
+    numérisation: "default",
 } as const;
 
 interface BlogPostListProps {

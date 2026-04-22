@@ -1519,18 +1519,78 @@ Sitio web: www.edena.es`,
     },
     cookiePolicy: {
         title: "Política de Cookies",
-        content: `1. ¿QUÉ SON LAS COOKIES?<br>
-Las cookies son pequeños archivos de texto que se almacenan en el dispositivo del usuario al visitar una web. Permiten recordar información sobre la navegación y mejorar la experiencia de usuario.<br>
-2. TIPOS DE COOKIES UTILIZADAS<br>
-- Cookies técnicas: necesarias para el funcionamiento de la web.<br>
-- Cookies de análisis: permiten analizar el uso de la web para mejorar nuestros servicios.<br>
-- Cookies de terceros: gestionadas por servicios externos como Google Analytics.<br>
-3. GESTIÓN DE COOKIES<br>
-El usuario puede configurar su navegador para aceptar, rechazar o eliminar las cookies. La desactivación puede afectar al funcionamiento de la web.<br>
-4. CONSENTIMIENTO<br>
-Las cookies estrictamente necesarias pueden utilizarse sin consentimiento previo. Las cookies de analítica y similares solo se activan si eliges «Aceptar» en el aviso de cookies.<br>
-5. MÁS INFORMACIÓN<br>
-Para cualquier duda sobre nuestra política de cookies, puede contactar con privacidad@edena.es.`,
+        content: `Última actualización: 17 de abril de 2026<br>
+<br>
+1. ¿QUÉ SON LAS COOKIES?<br>
+Las cookies son pequeños archivos de texto que los sitios web almacenan en el dispositivo del usuario (ordenador, tablet, smartphone) cuando este los visita. Permiten al sitio recordar las preferencias del usuario, analizar el comportamiento de navegación, mejorar la experiencia de uso y, en ciertos casos, mostrar publicidad personalizada.<br>
+<br>
+2. ¿QUIÉN ES EL RESPONSABLE DEL USO DE COOKIES EN ESTE SITIO?<br>
+El responsable del sitio web www.edena.es y del uso de cookies es Edena Software S.L. Para cualquier consulta relacionada con esta política, puede contactar con nosotros en privacidad@edena.es.<br>
+<br>
+3. TIPOS DE COOKIES QUE UTILIZAMOS<br>
+En función de su finalidad, las cookies que puede encontrar en nuestro sitio web se clasifican de la siguiente manera:<br>
+<br>
+3.1 Cookies técnicas o estrictamente necesarias<br>
+Son imprescindibles para el correcto funcionamiento del sitio web. Permiten al usuario navegar y utilizar las diferentes funcionalidades, como iniciar sesión, recordar preferencias de idioma o mantener la sesión activa. Sin estas cookies, algunos servicios pueden no funcionar correctamente. No requieren el consentimiento del usuario.<br>
+<br>
+3.2 Cookies de preferencias o personalización<br>
+Permiten recordar información para que el usuario acceda al servicio con determinadas características que diferencian su experiencia de la de otros usuarios, como el idioma, la región o el tema visual preferido.<br>
+<br>
+3.3 Cookies de análisis o medición<br>
+Permiten al responsable del sitio web llevar el seguimiento y análisis del comportamiento de los usuarios. La información recogida se utiliza para medir la actividad del sitio web y elaborar estadísticas de navegación con el fin de mejorar la experiencia del usuario y los contenidos ofrecidos. En ningún caso se utiliza esta información con fines publicitarios individualizados.<br>
+<br>
+3.4 Cookies de marketing o publicidad comportamental<br>
+Permiten gestionar los espacios publicitarios del sitio web con base en el perfil de navegación del usuario. Recuerdan visitas al sitio y rastrean el comportamiento de navegación para mostrar anuncios relevantes en otros sitios web.<br>
+<br>
+3.5 Cookies de terceros<br>
+Son cookies instaladas por servicios externos que aparecen en nuestras páginas. Los principales terceros que pueden instalar cookies al visitar nuestro sitio son:<br>
+- Google Analytics (análisis de uso y estadísticas de tráfico)<br>
+- Google Tag Manager (gestión de etiquetas de seguimiento)<br>
+- Hotjar (mapas de calor y análisis de comportamiento)<br>
+- Intercom o similar (soporte al cliente y chat)<br>
+Cada uno de estos proveedores tiene sus propias políticas de privacidad y cookies. Te recomendamos consultarlas directamente en sus sitios web.<br>
+<br>
+4. TABLA DE COOKIES UTILIZADAS<br>
+A continuación se detallan las principales cookies utilizadas en este sitio:<br>
+<br>
+- _ga / _gid: Google Analytics — análisis de uso — duración: hasta 2 años.<br>
+- _gat: Google Analytics — control de frecuencia de solicitudes — duración: 1 minuto.<br>
+- edena_session: sesión de usuario — autenticación — duración: sesión.<br>
+- edena_lang: preferencia de idioma — personalización — duración: 1 año.<br>
+- edena_theme: preferencia de tema visual — personalización — duración: 1 año.<br>
+- cookie_consent: registro del consentimiento de cookies — necesaria — duración: 1 año.<br>
+- _hjid: Hotjar — identificación de usuario para análisis de comportamiento — duración: 1 año.<br>
+<br>
+5. ¿CÓMO PUEDO GESTIONAR O DESACTIVAR LAS COOKIES?<br>
+El usuario puede, en cualquier momento, aceptar, rechazar o retirar su consentimiento al uso de cookies a través del panel de preferencias de cookies disponible en nuestro sitio web (botón "Gestionar cookies" en el pie de página).<br>
+<br>
+Además, la mayoría de los navegadores permiten controlar las cookies a través de su configuración. A continuación encontrará instrucciones para los navegadores más comunes:<br>
+- Google Chrome: Configuración > Privacidad y seguridad > Cookies y otros datos de sitios.<br>
+- Mozilla Firefox: Opciones > Privacidad y seguridad > Cookies y datos del sitio.<br>
+- Safari: Preferencias > Privacidad > Gestionar datos de sitios web.<br>
+- Microsoft Edge: Configuración > Privacidad, búsqueda y servicios > Cookies.<br>
+<br>
+Tenga en cuenta que desactivar determinadas cookies puede afectar al correcto funcionamiento del sitio web o impedir el acceso a algunas funcionalidades.<br>
+<br>
+6. CONSENTIMIENTO<br>
+En su primera visita a nuestro sitio web, le mostramos un banner informativo donde puede aceptar, rechazar o configurar el uso de cookies no estrictamente necesarias. Su elección queda registrada y respetada en visitas posteriores.<br>
+<br>
+Las cookies estrictamente necesarias no requieren consentimiento previo y se instalan automáticamente al acceder al sitio. El resto de cookies (análisis, marketing, preferencias) solo se activan si usted da su consentimiento expreso.<br>
+<br>
+Puede revocar o modificar su consentimiento en cualquier momento accediendo al panel de preferencias de cookies disponible en el pie de página de nuestro sitio web.<br>
+<br>
+7. TRANSFERENCIAS INTERNACIONALES<br>
+Algunos de los proveedores de cookies de terceros (como Google) pueden tratar datos en servidores ubicados fuera del Espacio Económico Europeo (EEE). En estos casos, dichos proveedores se rigen por mecanismos de transferencia adecuados conforme al RGPD (cláusulas contractuales tipo, decisiones de adecuación, etc.).<br>
+<br>
+8. ACTUALIZACIONES DE ESTA POLÍTICA<br>
+Edena podrá actualizar esta Política de Cookies para adaptarla a cambios legislativos, nuevas funcionalidades del sitio o cambios en los servicios de terceros utilizados. La fecha de "última actualización" al inicio de este documento refleja siempre la versión vigente. Te recomendamos revisarla periódicamente.<br>
+<br>
+9. MÁS INFORMACIÓN<br>
+Para cualquier consulta sobre el uso de cookies en nuestro sitio web, puede contactar con nosotros en:<br>
+Correo electrónico: privacidad@edena.es<br>
+Sitio web: www.edena.es<br>
+<br>
+Para más información sobre cookies y su gestión, puede consultar la guía publicada por la Agencia Española de Protección de Datos (AEPD) en www.aepd.es.`,
     },
     crm: {
         mainTitle: "Convierte cada consulta en una nueva matriculación",

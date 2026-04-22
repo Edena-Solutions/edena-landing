@@ -8,6 +8,7 @@ export async function GET() {
     const blogEnPosts = await getCollection("blogEn");
     const blogCaPosts = await getCollection("blogCa");
     const blogEusPosts = await getCollection("blogEus");
+    const blogFrPosts = await getCollection("blogFr");
 
     const latestBlogEsDate =
         blogEsPosts.length > 0
@@ -30,6 +31,12 @@ export async function GET() {
     const latestBlogCaDate =
         blogCaPosts.length > 0
             ? blogCaPosts
+                  .sort((a, b) => b.data.date.localeCompare(a.data.date))[0]
+                  .data.date.split("T")[0]
+            : currentDate;
+    const latestBlogFrDate =
+        blogFrPosts.length > 0
+            ? blogFrPosts
                   .sort((a, b) => b.data.date.localeCompare(a.data.date))[0]
                   .data.date.split("T")[0]
             : currentDate;
@@ -133,7 +140,7 @@ export async function GET() {
 
     const caLocaleStaticUrls = buildLocaleStaticUrls("ca", "ca", latestBlogCaDate);
     const eusLocaleStaticUrls = buildLocaleStaticUrls("eus", "eu", latestBlogEusDate);
-    const frLocaleStaticUrls = buildLocaleStaticUrls("fr", "fr", latestBlogEnDate);
+    const frLocaleStaticUrls = buildLocaleStaticUrls("fr", "fr", latestBlogFrDate);
 
     const staticUrls: SitemapUrl[] = [
         {
@@ -725,7 +732,7 @@ export async function GET() {
         };
     });
 
-    const blogFrUrls: SitemapUrl[] = blogEnPosts.map((post) => {
+    const blogFrUrls: SitemapUrl[] = blogFrPosts.map((post) => {
         const postDate = post.data.date.split("T")[0];
         const images: Array<{ loc: string; title?: string }> = [];
 

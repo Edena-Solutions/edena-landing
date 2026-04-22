@@ -78,6 +78,18 @@ const blogEusCollection = defineCollection({
     }),
 });
 
+const blogFrCollection = defineCollection({
+    type: "content",
+    schema: z.object({
+        title: z.string(),
+        date: z.string(),
+        description: z.string(),
+        tags: z.array(z.string()).optional(),
+        author: z.string().optional(),
+        cover: z.string().optional(),
+    }),
+});
+
 export const collections = {
     pricing: pricingCollection,
     faqs: faqCollection,
@@ -85,4 +97,5 @@ export const collections = {
     blogEn: blogEnCollection,
     blogCa: blogCaCollection,
     blogEus: blogEusCollection,
+    blogFr: blogFrCollection,
 };

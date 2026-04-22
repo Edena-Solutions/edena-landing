@@ -1518,18 +1518,78 @@ Webgunea: www.edena.es`,
     },
     cookiePolicy: {
         title: "Cookie-politika",
-        content: `1. ZER DIRA COOKIEAK?<br>
-Cookieak testu-fitxategi txikiak dira erabiltzailearen gailuan gordetzen direnak web bat bisitatzean. Nabigazioari buruzko informazioa gogoratzea eta erabiltzaile-esperientzia hobetzea ahalbidetzen dute.<br>
-2. ERABILTAKO COOKIE MOTAK<br>
-- Cookie teknikoak: webaren funtzionamendurako beharrezkoak.<br>
-- Analisi-cookieak: webaren erabilera aztertzeko, gure zerbitzuak hobetzeko.<br>
-- Hirugarrenen cookieak: Google Analytics bezalako kanpoko zerbitzuek kudeatzen dituztenak.<br>
-3. COOKIEEN KUDEAKETA<br>
-Erabiltzaileak nabigatzailea konfigura dezake cookieak onartzeko, ukatzeko edo ezabatzeko. Desaktibazioak webaren funtzionamendian eragin dezake.<br>
-4. BAIMENA<br>
-Beharrezko cookieak aurretiko baimenik gabe erabil daitezke. Analitika eta antzeko cookieak cookie-abisuan «Onartu» aukeratzen baduzu soilik aktibatzen dira.<br>
-5. INFORMAZIO GEHIAGO<br>
-Cookie-politikari buruzko edozein zalantzarako, jarri harremanetan privacidad@edena.es helbidean.`,
+        content: `Azken eguneraketa: 2026ko apirilaren 17a<br>
+<br>
+1. ZER DIRA COOKIEAK?<br>
+Cookieak (edo galletak) webguneek erabiltzailearen gailuan (ordenagailua, tableta, mugikorra) gordetzen dituzten testu-fitxategi txikiak dira, erabiltzaileak webguneak bisitatzen dituenean. Webguneari erabiltzailearen hobespenak gogoratzeko, nabigazio-portaera aztertzeko, erabilera-esperientzia hobetzeko eta, zenbait kasutan, iragarkiak pertsonalizatzeko aukera ematen diote.<br>
+<br>
+2. NOR DA COOKIE HAUEN ARDURADUNA?<br>
+www.edena.es webgunearen eta cookieen erabileraren arduraduna Edena Software S.L. da. Politika honi buruzko edozein galderarentzat, jar zaitezke harremanetan privacidad@edena.es helbidean.<br>
+<br>
+3. ERABILTZEN DITUGUN COOKIE MOTAK<br>
+Haien helburuaren arabera, gure webgunean aurkitu ditzakezun cookieak honela sailkatzen dira:<br>
+<br>
+3.1 Cookie teknikoak edo ezinbesteko cookieak<br>
+Webgunearen funtzionamendu egokia bermatzeko ezinbestekoak dira. Erabiltzaileari nabigatzeko eta hainbat funtzionalitate erabiltzeko aukera ematen diote, hala nola saioa hastea, hizkuntza-hobespenak gogoratzea edo saioa aktibo mantentzea. Cookie hauek gabe, zenbait zerbitzu ez litezke behar bezala funtzionatu. Ez dute erabiltzailearen adostasunik behar.<br>
+<br>
+3.2 Hobespen edo pertsonalizazio cookieak<br>
+Erabiltzaileak beste erabiltzaileeengandik bereizten dituzten ezaugarri batzuekin zerbitzu atzitu dezan informazioa gogoratzeko aukera ematen dute, hala nola hizkuntza, eskualdea edo nahiago duten itxura bisual aukeratua.<br>
+<br>
+3.3 Analisi edo neurketa cookieak<br>
+Webgunearen arduradunak erabiltzaileen portaeraren jarraipena eta analisia egitea ahalbidetzen dute. Bildutako informazioa webgunearen jardueraren neurketa eta nabigazio-estatistiken ekoizpenerako erabiltzen da, erabiltzaile-esperientzia eta eskainitako edukiak hobetzeko. Informazio hau ez da inoiz banakako publizitate-helburuetarako erabiltzen.<br>
+<br>
+3.4 Marketing edo jokabide-publizitate cookieak<br>
+Erabiltzailearen nabigazio-profilean oinarrituta webguneko iragarki-espazioak kudeatzeko aukera ematen dute. Webguneko bisitaldiak gogoratzen dituzte eta nabigazio-portaera jarraitzen dute beste webguneetan iragarki garrantzitsuak erakusteko.<br>
+<br>
+3.5 Hirugarrenen cookieak<br>
+Gure orrietan agertzen diren kanpoko zerbitzuek instalatutako cookieak dira. Gure webgunea bisitatzean cookieak instala ditzaketen hornitzaile nagusiak hauek dira:<br>
+- Google Analytics (erabilera-analisia eta trafiko-estatistikak)<br>
+- Google Tag Manager (jarraipen-etiketen kudeaketa)<br>
+- Hotjar (bero-mapak eta portaera-analisia)<br>
+- Intercom edo antzekoa (bezero-laguntza eta txata)<br>
+Hornitzaile horietako bakoitzak bere pribatutasun- eta cookie-politika ditu. Haien webguneetan zuzenean kontsultatzea gomendatzen dizugu.<br>
+<br>
+4. ERABILTZEN DIREN COOKIEEN TAULA<br>
+Hona hemen webgune honetan erabiltzen diren cookie nagusien zehaztapenak:<br>
+<br>
+- _ga / _gid: Google Analytics — erabilera-analisia — iraupena: 2 urte arte.<br>
+- _gat: Google Analytics — eskaera-maiztasunaren kontrola — iraupena: 1 minutu.<br>
+- edena_session: erabiltzaile-saioa — autentifikazioa — iraupena: saioa.<br>
+- edena_lang: hizkuntza-hobespenera — pertsonalizazioa — iraupena: 1 urte.<br>
+- edena_theme: itxura bisualaren hobespenera — pertsonalizazioa — iraupena: 1 urte.<br>
+- cookie_consent: cookie-adostasunaren erregistroa — beharrezkoa — iraupena: 1 urte.<br>
+- _hjid: Hotjar — erabiltzailearen identifikazioa portaera-analisirako — iraupena: 1 urte.<br>
+<br>
+5. NOLA KUDEATU EDO DESGAITU DITZAKET COOKIEAK?<br>
+Erabiltzaileak, edozein unetan, cookieen erabilpenari bere adostasuna eman, ukatu edo erretiratu dezake gure webgunean eskuragarri dagoen cookie-hobespen-panelaren bidez (orri-oinean "Cookieak kudeatu" botoia).<br>
+<br>
+Gainera, nabigatzaile gehienek cookieak konfigurazioen bidez kontrolatzeko aukera ematen dute. Hona hemen nabigatzaile ohikoenetarako argibideak:<br>
+- Google Chrome: Ezarpenak > Pribatutasuna eta segurtasuna > Cookieak eta beste gune-datu batzuk.<br>
+- Mozilla Firefox: Aukerak > Pribatutasuna eta segurtasuna > Cookieak eta gunearen datuak.<br>
+- Safari: Hobespenak > Pribatutasuna > Webgunearen datuak kudeatu.<br>
+- Microsoft Edge: Ezarpenak > Pribatutasuna, bilaketa eta zerbitzuak > Cookieak.<br>
+<br>
+Kontuan hartu zenbait cookie desgaitzeak webgunearen funtzionamendu egokia eragin dezakeela edo funtzionalitate batzuetarako sarbidea galaraz dezakeela.<br>
+<br>
+6. ADOSTASUNA<br>
+Gure webgunera egiten duzun lehen bisitan, informazio-banner bat erakusten dizugu, non cookie ez-beharrezkoen erabilera onartu, ukatu edo konfiguratu dezakezun. Zure aukera erregistratzen da eta hurrengo bisitetan errespetatzen da.<br>
+<br>
+Cookie tekniko beharrezkoak ez dute aurretiazko adostasunik behar eta automatikoki instalatzen dira gunera sartzerakoan. Gainerako cookieak (analisia, marketina, hobespenak) soilik aktibatzen dira zure berariazko adostasuna ematen baduzu.<br>
+<br>
+Zure adostasuna edozein unetan erretiratu edo aldatu dezakezu gure webgunearen orri-oinean eskuragarri dagoen cookie-hobespen-panelera sartuz.<br>
+<br>
+7. NAZIOARTEKO TRANSFERENTZIAK<br>
+Hirugarrenen cookie-hornitzaile batzuek (Googlek bezala) Europako Ekonomia Eremutik (EEE) kanpo kokatutako zerbitzarietan datuak prozesatu ditzakete. Kasu horietan, hornitzaile horiek DBEBren arabera transferentzia-mekanismo egokiak aplikatzen dituzte (kontratu-klausula estandarrak, egokitasun-erabakiak, etab.).<br>
+<br>
+8. POLITIKA HONEN EGUNERAKETAK<br>
+Edenak Cookie Politika hau eguneratu ahal izango du lege-aldaketetara, webgunearen funtzionalitate berrietara edo erabiltzen diren hirugarrenen zerbitzuen aldaketetara egokitzeko. Dokumentu honen hasieran agertzen den azken eguneraketa-data beti indarreko bertsioa islatzen du. Aldizka berrikustea gomendatzen dizugu.<br>
+<br>
+9. INFORMAZIO GEHIAGO<br>
+Gure webgunean cookieen erabilerari buruzko edozein galderarentzat, jar zaitezke harremanetan:<br>
+Posta elektronikoa: privacidad@edena.es<br>
+Webgunea: www.edena.es<br>
+<br>
+Cookieei eta haien kudeaketari buruzko informazio gehiago lortzeko, Espainiako Datu-babeseko Agentziak (AEPD) www.aepd.es helbidean argitaratutako gida kontsultatu dezakezu.`,
     },
     crm: {
         mainTitle: "Bihurtu kontsulta bakoitza matrikulazio berri batean",

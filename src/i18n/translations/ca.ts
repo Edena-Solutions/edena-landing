@@ -1520,18 +1520,78 @@ Lloc web: www.edena.es`,
     },
     cookiePolicy: {
         title: "Política de galetes",
-        content: `1. QUÈ SÓN LES GALETES?<br>
-Les galetes són petits fitxers de text que s'emmagatzemen al dispositiu de l'usuari en visitar una web. Permeten recordar informació sobre la navegació i millorar l'experiència d'usuari.<br>
-2. TIPUS DE GALETES UTILITZADES<br>
-- Galetes tècniques: necessàries per al funcionament de la web.<br>
-- Galetes d'anàlisi: permeten analitzar l'ús de la web per millorar els nostres serveis.<br>
-- Galetes de tercers: gestionades per serveis externs com Google Analytics.<br>
-3. GESTIÓ DE GALETES<br>
-L'usuari pot configurar el navegador per acceptar, rebutjar o eliminar les galetes. La desactivació pot afectar el funcionament de la web.<br>
-4. CONSENTIMENT<br>
-Les galetes estrictament necessàries poden utilitzar-se sense consentiment previ. Les galetes d'analítica i similars només s'activen si tries «Acceptar» a l'avís de galetes.<br>
-5. MÉS INFORMACIÓ<br>
-Per a qualsevol dubte sobre la nostra política de galetes, pots contactar amb privacidad@edena.es.`,
+        content: `Última actualització: 17 d'abril de 2026<br>
+<br>
+1. QUÈ SÓN LES GALETES (COOKIES)?<br>
+Les galetes (cookies) són petits fitxers de text que els llocs web emmagatzemen al dispositiu de l'usuari (ordinador, tauleta, telèfon intel·ligent) quan els visita. Permeten al lloc recordar les preferències de l'usuari, analitzar el comportament de navegació, millorar l'experiència d'ús i, en determinats casos, mostrar publicitat personalitzada.<br>
+<br>
+2. QUI ÉS EL RESPONSABLE DE L'ÚS DE GALETES EN AQUEST LLOC?<br>
+El responsable del lloc web www.edena.es i de l'ús de galetes és Edena Software S.L. Per a qualsevol consulta relacionada amb aquesta política, podeu contactar-nos a privacidad@edena.es.<br>
+<br>
+3. TIPUS DE GALETES QUE UTILITZEM<br>
+En funció de la seva finalitat, les galetes que podeu trobar al nostre lloc web es classifiquen de la manera següent:<br>
+<br>
+3.1 Galetes tècniques o estrictament necessàries<br>
+Són imprescindibles per al correcte funcionament del lloc web. Permeten a l'usuari navegar i utilitzar les diferents funcionalitats, com iniciar sessió, recordar preferències d'idioma o mantenir la sessió activa. Sense aquestes galetes, alguns serveis poden no funcionar correctament. No requereixen el consentiment de l'usuari.<br>
+<br>
+3.2 Galetes de preferències o personalització<br>
+Permeten recordar informació perquè l'usuari accedeixi al servei amb determinades característiques que diferencien la seva experiència de la d'altres usuaris, com l'idioma, la regió o el tema visual preferit.<br>
+<br>
+3.3 Galetes d'anàlisi o mesura<br>
+Permeten al responsable del lloc web fer el seguiment i l'anàlisi del comportament dels usuaris. La informació recollida s'utilitza per mesurar l'activitat del lloc web i elaborar estadístiques de navegació amb la finalitat de millorar l'experiència de l'usuari i els continguts oferts. En cap cas s'utilitza aquesta informació amb fins publicitaris individualitzats.<br>
+<br>
+3.4 Galetes de màrqueting o publicitat comportamental<br>
+Permeten gestionar els espais publicitaris del lloc web basant-se en el perfil de navegació de l'usuari. Recorden visites al lloc i rastregen el comportament de navegació per mostrar anuncis rellevants en altres llocs web.<br>
+<br>
+3.5 Galetes de tercers<br>
+Són galetes instal·lades per serveis externs que apareixen a les nostres pàgines. Els principals tercers que poden instal·lar galetes en visitar el nostre lloc són:<br>
+- Google Analytics (anàlisi d'ús i estadístiques de trànsit)<br>
+- Google Tag Manager (gestió d'etiquetes de seguiment)<br>
+- Hotjar (mapes de calor i anàlisi de comportament)<br>
+- Intercom o similar (suport al client i xat)<br>
+Cadascun d'aquests proveïdors té les seves pròpies polítiques de privacitat i galetes. Us recomanem consultar-les directament als seus llocs web.<br>
+<br>
+4. TAULA DE GALETES UTILITZADES<br>
+A continuació es detallen les principals galetes utilitzades en aquest lloc:<br>
+<br>
+- _ga / _gid: Google Analytics — anàlisi d'ús — durada: fins a 2 anys.<br>
+- _gat: Google Analytics — control de freqüència de sol·licituds — durada: 1 minut.<br>
+- edena_session: sessió d'usuari — autenticació — durada: sessió.<br>
+- edena_lang: preferència d'idioma — personalització — durada: 1 any.<br>
+- edena_theme: preferència de tema visual — personalització — durada: 1 any.<br>
+- cookie_consent: registre del consentiment de galetes — necessària — durada: 1 any.<br>
+- _hjid: Hotjar — identificació d'usuari per a l'anàlisi de comportament — durada: 1 any.<br>
+<br>
+5. COM PUC GESTIONAR O DESACTIVAR LES GALETES?<br>
+L'usuari pot, en qualsevol moment, acceptar, rebutjar o retirar el seu consentiment a l'ús de galetes a través del panell de preferències de galetes disponible al nostre lloc web (botó "Gestionar galetes" al peu de pàgina).<br>
+<br>
+A més, la majoria de navegadors permeten controlar les galetes a través de la seva configuració. A continuació trobareu instruccions per als navegadors més habituals:<br>
+- Google Chrome: Configuració > Privadesa i seguretat > Galetes i altres dades de llocs.<br>
+- Mozilla Firefox: Opcions > Privadesa i seguretat > Galetes i dades del lloc.<br>
+- Safari: Preferències > Privadesa > Gestionar les dades del lloc web.<br>
+- Microsoft Edge: Configuració > Privadesa, cerca i serveis > Galetes.<br>
+<br>
+Tingueu en compte que desactivar determinades galetes pot afectar el correcte funcionament del lloc web o impedir l'accés a algunes funcionalitats.<br>
+<br>
+6. CONSENTIMENT<br>
+En la primera visita al nostre lloc web, us mostrem un bàner informatiu on podeu acceptar, rebutjar o configurar l'ús de galetes no estrictament necessàries. La vostra elecció queda registrada i respectada en visites posteriors.<br>
+<br>
+Les galetes estrictament necessàries no requereixen consentiment previ i s'instal·len automàticament en accedir al lloc. La resta de galetes (anàlisi, màrqueting, preferències) només s'activen si doneu el vostre consentiment exprés.<br>
+<br>
+Podeu revocar o modificar el vostre consentiment en qualsevol moment accedint al panell de preferències de galetes disponible al peu de pàgina del nostre lloc web.<br>
+<br>
+7. TRANSFERÈNCIES INTERNACIONALS<br>
+Alguns proveïdors de galetes de tercers (com Google) poden tractar dades en servidors ubicats fora de l'Espai Econòmic Europeu (EEE). En aquests casos, aquests proveïdors es regeixen per mecanismes de transferència adequats d'acord amb el RGPD (clàusules contractuals tipus, decisions d'adequació, etc.).<br>
+<br>
+8. ACTUALITZACIONS D'AQUESTA POLÍTICA<br>
+Edena podrà actualitzar aquesta Política de galetes per adaptar-la a canvis legislatius, noves funcionalitats del lloc o canvis en els serveis de tercers utilitzats. La data d'última actualització al principi d'aquest document reflecteix sempre la versió vigent. Us recomanem revisar-la periòdicament.<br>
+<br>
+9. MÉS INFORMACIÓ<br>
+Per a qualsevol consulta sobre l'ús de galetes al nostre lloc web, podeu contactar-nos a:<br>
+Correu electrònic: privacidad@edena.es<br>
+Lloc web: www.edena.es<br>
+<br>
+Per a més informació sobre les galetes i la seva gestió, podeu consultar la guia publicada per l'Agència Espanyola de Protecció de Dades (AEPD) a www.aepd.es.`,
     },
     crm: {
         mainTitle: "Converteix cada consulta en una matrícula nova",
