@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import Icon from "@/components/ui/icon";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import { cn } from "@/lib/utils";
 
 const BASE_PRICE_PER_CHILD = 1.0;
@@ -73,7 +74,7 @@ function round2(value: number): number {
 }
 
 function formatPrice(value: number, locale: string): string {
-  return new Intl.NumberFormat(locale === "en" ? "en-GB" : "es-ES", {
+  return new Intl.NumberFormat(intlLocaleForLang(locale), {
     style: "currency",
     currency: "EUR",
     minimumFractionDigits: 2,

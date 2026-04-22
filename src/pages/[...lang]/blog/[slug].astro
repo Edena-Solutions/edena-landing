@@ -8,6 +8,8 @@ import ArticleSchema from "@/components/StructuredData/Article.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
 import Link from "@/components/ui/link";
 import { Button } from "@/components/ui/button";
+import { homeBreadcrumbName } from "@/lib/breadcrumb";
+import { blogCollectionForLang } from "@/lib/blog-collection";
 import { ogFromAsset } from "@/lib/og-image";
 import defaultBlogOg from "@/assets/img/screenshots/shared/hero.png";
 
@@ -48,17 +50,7 @@ export async function getStaticPaths() {
 
 const { lang, slug } = Astro.props;
 const t = translations[lang as keyof typeof translations];
-const collectionName =
-    lang === "en"
-        ? "blogEn"
-        : lang === "fr"
-          ? "blogFr"
-          : lang === "ca"
-            ? "blogCa"
-            : lang === "eus"
-              ? "blogEus"
-              : "blogEs";
-const post = await getEntry(collectionName, slug);
+const post = await getEntry(blogCollectionForLang(lang), slug);
 if (!post) throw new Error("Post not found");
 const { Content } = await post.render();
 
@@ -155,16 +147,7 @@ const ogMeta = post.data.cover
         slot="structured-data"
         items={[
             {
-                name:
-                    lang === "es"
-                        ? "Inicio"
-                        : lang === "ca"
-                          ? "Inici"
-                          : lang === "eus"
-                            ? "Hasiera"
-                            : lang === "fr"
-                              ? "Accueil"
-                              : "Home",
+                name: homeBreadcrumbName(lang),
                 url: homeUrl,
             },
             { name: t.navigation.blog, url: blogUrl },

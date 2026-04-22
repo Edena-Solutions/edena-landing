@@ -70,6 +70,14 @@ interface BlogPostListProps {
 
 const POSTS_PER_PAGE = 12;
 
+const LOAD_MORE_LABELS: Record<string, string> = {
+    es: "Cargar más",
+    ca: "Carregar més",
+    fr: "Charger plus",
+    eus: "Kargatu gehiago",
+    en: "Load more",
+};
+
 export const BlogPostList: React.FC<BlogPostListProps> = ({ posts, lang }) => {
     const [visibleCount, setVisibleCount] = useState(POSTS_PER_PAGE);
     const showLoadMore = visibleCount < posts.length;
@@ -78,14 +86,7 @@ export const BlogPostList: React.FC<BlogPostListProps> = ({ posts, lang }) => {
         setVisibleCount((prev) => Math.min(prev + POSTS_PER_PAGE, posts.length));
     };
 
-    const buttonText =
-        lang === "es"
-            ? "Cargar más"
-            : lang === "ca"
-              ? "Carregar més"
-              : lang === "fr"
-                ? "Charger plus"
-                : "Load more";
+    const buttonText = LOAD_MORE_LABELS[lang] ?? LOAD_MORE_LABELS.en;
 
     return (
         <>

@@ -13,6 +13,7 @@ import { Badge } from "@/components/ui/badge";
 import { Switch } from "@/components/ui/switch";
 import { PricingCalculator } from "@/components/PricingCalculator";
 import type { Translation } from "@/i18n";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
@@ -27,6 +28,44 @@ const PLAN_PRICES: Record<string, { pricePerChild: number; flatMonthly?: number 
     complete: { pricePerChild: 1.9, flatMonthly: 10 },
 };
 
+/** When `t.pricing.calculator` is missing, match strings used in i18n files */
+const DEFAULT_CALC_TOGGLE_LABELS: Record<string, { monthly: string; annual: string }> = {
+    es: { monthly: "Mensual", annual: "Anual" },
+    ca: { monthly: "Mensual", annual: "Anual" },
+    fr: { monthly: "Mensuel", annual: "Annuel" },
+    eus: { monthly: "Hilabetekoa", annual: "Urtekoa" },
+    en: { monthly: "Monthly", annual: "Annual" },
+};
+
+const FROM_PRICE_PER_MONTH: Record<string, (formatted: string) => string> = {
+    es: (p) => `Desde ${p} al mes`,
+    ca: (p) => `Des de ${p}/mes`,
+    fr: (p) => `À partir de ${p}/mois`,
+    eus: (p) => `Gutxienez ${p}/hilean`,
+    en: (p) => `From ${p}/month`,
+};
+
+const COMPLETE_PLAN_PER_CHILD: Record<string, (formatted: string) => string> = {
+    es: (f) => `${f}/niño + 10€/mes`,
+    ca: (f) => `${f}/nen + 10€/mes`,
+    fr: (f) => `${f}/enfant + 10 €/mois`,
+    eus: (f) => `${f}/haurko + 10€/hilean`,
+    en: (f) => `${f}/child + €10/month`,
+};
+
+const PER_CHILD_LINE: Record<string, (formatted: string) => string> = {
+    es: (f) => `${f} por niño`,
+    ca: (f) => `${f} per nen`,
+    fr: (f) => `${f} par enfant`,
+    eus: (f) => `${f} haur bakoitzeko`,
+    en: (f) => `${f} per child`,
+};
+
+function fromPricePerMonthLabel(formatted: string, lang: string): string {
+    const fn = FROM_PRICE_PER_MONTH[lang] ?? FROM_PRICE_PER_MONTH.en;
+    return fn(formatted);
+}
+
 function getFromPriceNumeric(
     pricePerChild: number,
     flatMonthly: number,
@@ -37,10 +76,8 @@ function getFromPriceNumeric(
     return Math.max(minMonthly, raw);
 }
 
-function formatPrice(value: number, locale: string): string {
-    const intlLocale =
-        locale === "en" ? "en-GB" : locale === "fr" ? "fr-FR" : "es-ES";
-    return new Intl.NumberFormat(intlLocale, {
+function formatPrice(value: number, lang: string): string {
+    return new Intl.NumberFormat(intlLocaleForLang(lang), {
         style: "currency",
         currency: "EUR",
         minimumFractionDigits: 2,
@@ -74,24 +111,14 @@ function buildPlanFeatureBlocks(
     return { included, excluded };
 }
 
-function formatPricePerChild(value: number, planId: string, locale: string): string {
-    const formatted = formatPrice(value, locale);
+function formatPricePerChild(value: number, planId: string, lang: string): string {
+    const formatted = formatPrice(value, lang);
     if (planId === "complete") {
-        return locale === "es"
-            ? `${formatted}/niño + 10€/mes`
-            : locale === "ca"
-              ? `${formatted}/nen + 10€/mes`
-              : locale === "fr"
-                ? `${formatted}/enfant + 10 €/mois`
-                : `${formatted}/child + €10/month`;
+        const fn = COMPLETE_PLAN_PER_CHILD[lang] ?? COMPLETE_PLAN_PER_CHILD.en;
+        return fn(formatted);
     }
-    return locale === "es"
-        ? `${formatted} por niño`
-        : locale === "ca"
-          ? `${formatted} per nen`
-          : locale === "fr"
-            ? `${formatted} par enfant`
-            : `${formatted} per child`;
+    const fn = PER_CHILD_LINE[lang] ?? PER_CHILD_LINE.en;
+    return fn(formatted);
 }
 
 interface PricingTabsProps {
@@ -104,10 +131,9 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
     const [plansAnnual, setPlansAnnual] = React.useState(false);
     const demoUrl = `/${lang}/demo`;
     const calcT = t.pricing?.calculator;
-    const monthlyLabel =
-        calcT?.monthly ?? (lang === "es" ? "Mensual" : lang === "fr" ? "Mensuel" : "Monthly");
-    const annualLabel =
-        calcT?.annual ?? (lang === "es" ? "Anual" : lang === "fr" ? "Annuel" : "Annual");
+    const defaultToggle = DEFAULT_CALC_TOGGLE_LABELS[lang] ?? DEFAULT_CALC_TOGGLE_LABELS.en;
+    const monthlyLabel = calcT?.monthly ?? defaultToggle.monthly;
+    const annualLabel = calcT?.annual ?? defaultToggle.annual;
     const annualDiscountLabel = calcT?.annualDiscount ?? "-15%";
     const r = t.pricing?.recommended ?? {
         essential: {
@@ -216,23 +242,11 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
                             fromNumeric != null ? formatPrice(annualFrom, lang) : "";
                         const monthlyFromLabel =
                             fromNumeric != null
-                                ? lang === "es"
-                                    ? `Desde ${monthlyFromStr} al mes`
-                                    : lang === "ca"
-                                      ? `Des de ${monthlyFromStr}/mes`
-                                      : lang === "fr"
-                                        ? `À partir de ${monthlyFromStr}/mois`
-                                        : `From ${monthlyFromStr}/month`
+                                ? fromPricePerMonthLabel(monthlyFromStr, lang)
                                 : null;
                         const annualFromLabel =
                             fromNumeric != null
-                                ? lang === "es"
-                                    ? `Desde ${annualFromStr} al mes`
-                                    : lang === "ca"
-                                      ? `Des de ${annualFromStr}/mes`
-                                      : lang === "fr"
-                                        ? `À partir de ${annualFromStr}/mois`
-                                        : `From ${annualFromStr}/month`
+                                ? fromPricePerMonthLabel(annualFromStr, lang)
                                 : null;
                         const singleFromLabel =
                             fromNumeric != null
