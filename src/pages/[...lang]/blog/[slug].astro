@@ -17,6 +17,8 @@ export async function getStaticPaths() {
     const postsEs = await getCollection("blogEs");
     const postsEn = await getCollection("blogEn");
     const postsCa = await getCollection("blogCa");
+    const postsFr = await getCollection("blogFr");
+    const postsEus = await getCollection("blogEus");
 
     const pathsEs = postsEs.map((post) => ({
         params: { lang: "es", slug: post.slug },
@@ -33,13 +35,11 @@ export async function getStaticPaths() {
         props: { lang: "ca", slug: post.slug },
     }));
 
-    const postsEus = await getCollection("blogEus");
     const pathsEus = postsEus.map((post) => ({
         params: { lang: "eus", slug: post.slug },
         props: { lang: "eus", slug: post.slug },
     }));
 
-    const postsFr = await getCollection("blogFr");
     const pathsFr = postsFr.map((post) => ({
         params: { lang: "fr", slug: post.slug },
         props: { lang: "fr", slug: post.slug },
