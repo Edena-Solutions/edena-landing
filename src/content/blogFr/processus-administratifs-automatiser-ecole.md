@@ -5,8 +5,12 @@ description: "Automatisation des établissements scolaires : dix processus de ge
 tags: ["automatisation établissements scolaires", "gestion administrative scolaire", "processus", "numérisation"]
 author: "Équipe Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop"
+faqs:
+  - question: "L'automatisation supprime-t-elle des emplois ?"
+    answer: "Non. Elle libère du temps pour l'accueil des familles, la résolution d'incidents, l'amélioration des processus. L'automatisation de la gestion administrative permet de se concentrer sur l'essentiel."
+  - question: "Combien de temps dure le déploiement ?"
+    answer: "Cela dépend des processus. Facturation et relances peuvent être opérationnelles en quelques semaines. Une automatisation complète peut s'étaler sur plusieurs mois. Avancez par phases et mesurez les effets."
 ---
-
 <strong>Les 10 processus administratifs à automatiser dans votre établissement</strong>
 
 <br>
@@ -102,28 +106,3 @@ Indicateurs en temps réel : assiduité, encaissement, rétention. L'automatisat
 Priorisez ce qui consomme le plus de temps et génère le plus de plaintes : souvent facturation, présence, communication. La gestion administrative numérique se déploie par étapes : tout n'est pas à basculer d'un coup.
 
 <br>
-
-<strong>Questions fréquentes</strong>
-
-<br>
-
-<strong>L'automatisation supprime-t-elle des emplois ?</strong>
-<br>
-
-Non. Elle libère du temps pour l'accueil des familles, la résolution d'incidents, l'amélioration des processus. L'automatisation de la gestion administrative permet de se concentrer sur l'essentiel.
-
-<br>
-
-<strong>Combien de temps dure le déploiement ?</strong>
-<br>
-
-Cela dépend des processus. Facturation et relances peuvent être opérationnelles en quelques semaines. Une automatisation complète peut s'étaler sur plusieurs mois. Avancez par phases et mesurez les effets.
-
-<br>
-
-<strong>Conclusion</strong>
-<br>
-
-Automatiser ces dix leviers transforme la gestion administrative : moins d'erreurs, plus de réactivité, meilleure expérience pour les familles et les équipes. Commencez par ce qui fait le plus mal, puis enchaînez.
-
-Vous souhaitez automatiser la gestion de votre établissement ? Demandez une démonstration : facturation, présence et communication, sans engagement.

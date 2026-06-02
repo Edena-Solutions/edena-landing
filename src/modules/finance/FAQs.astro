@@ -16,8 +16,14 @@ const financeFaqs = faqsCollection.find((entry) => entry.id === "faqsFinance.md"
 
 <GSAPSection client:load className="grid gap-16 px-4">
     <div class="text-center flex flex-col gap-6 items-center max-w-2xl mx-auto">
-        <h2 class="text-xl font-bold">{t.faqs.finance?.title ?? t.faqs.title}</h2>
-        <p class="max-w-xl">{t.faqs.finance?.description ?? t.faqs.description}</p>
+        <h2
+            class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
+        >
+            {t.faqs.finance?.title ?? t.faqs.title}
+        </h2>
+        <p class="max-w-xl text-muted-foreground">
+            {t.faqs.finance?.description ?? t.faqs.description}
+        </p>
     </div>
     <FAQAccordion faqs={financeFaqs?.data.faqs || []} t={t} client:load />
 </GSAPSection>

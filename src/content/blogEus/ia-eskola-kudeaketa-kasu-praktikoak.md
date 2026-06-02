@@ -1,142 +1,175 @@
 ---
-title: "Adimen artifiziala eskola-administrazioan"
+title: "Adimen artifiziala ikastetxeko administrazioan"
 date: "2026-02-19"
-description: "Eskola-kudeaketan AA: automatizazio, iragarpen eta erabaki-laguntzaren praktika-kasu errealeak zentroetan."
-tags: ["eskola-kudeaketan AA", "adimen artifiziala", "automatizazioa", "administrazioa"]
-author: "Edena taldea"
+description: "AIren kasu praktikoak ikastetxeko administrazioan. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+tags:
+    - "AI ikastetxearen kudeaketa"
+    - "adimen artifiziala"
+    - "automatizazioa"
+    - "administrazioa"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1680783954745-3249be59e527?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - 15-ordu-admin-eskola-2026
+  - eskola-absentismoaren-automatizazioa
+  - ikastetxe-administrazio-prozesu-automatizatu
+  - administrazio-lanen-automatizazioa
+faqs:
+  - question: "Ikastetxeen kudeaketan IAk ordezkatzen al ditu lanpostuak?"
+    answer: "Ohiko kasuetan (bilketa-lehentasuna, alertak gordetzea, erantzun automatikoak), AI-ak laguntzen du eta balio handiagoko zereginetarako denbora askatzen du. Irizpideak eta familiekin harremanak taldearen esku geratzen dira."
+  - question: "Datu asko behar al ditugu AI erabiltzeko?"
+    answer: "Kasuaren araberakoa da. Alerta-arauetarako (atalase lehenetsiak, ez-ordainketak) datu operatiboak nahikoak dira. Iragarpen-ereduetarako (ez ordaintzeko edo baliogabetzeko arriskua) gutxienez urtebete edo bi urteko historia behar da."
+  - question: "Zer gertatzen da datuen babesa eta IA?"
+    answer: "Datuak legezko oinarrian eta segurtasun neurriekin tratatu behar dira. Hornitzaileak datuak trebatzeko ereduak tratatzen baditu, kontratuak hori arautu beharko du, eta baimendu gabeko helburuetarako erabiltzen ez dela ziurtatu behar du. Garrantzitsua da familiekin datuen erabilerari buruzko gardentasuna."
+  - question: "Departamendu teknikorik gabe has al gaitezke?"
+    answer: "Bai. Ikastetxeen kudeaketan AI irtenbide asko kudeaketa softwarean integratuta datoz (alertak, lehentasunak, txantiloiak). Zentroak ez du zertan eredurik eraiki; Bai, helburuak zehaztu eta emaitzak kontrolatu behar dituzu."
+  - question: "Nola aukeratu AI hornitzaile bat ikastetxeen kudeaketarako?"
+    answer: "Kontuan izan irtenbidea zure kudeaketarekin (matrikulazioa, fakturazioa, komunikazioa) integratuta dagoela, datuekin zer egiten duen dokumentatzen duela eta giza gainbegiratzea ahalbidetzen duela. Eskatu erreferentziak antzeko zentroetan."
 ---
 
-<strong>Adimen artifiziala eskola-administrazioan: praktika-kasu errealeak</strong>
-<br>
 
-Eskola-kudeaketan adimen artifiziala ez da eztabaida soilik: dagoeneko administrazio-zereginetan, ereduen detekzioan eta erabaki-laguntzan aplikatzen da. Artikulu honek praktika-kasu errealeak biltzen ditu zuzendariek eta administrazio-taldeek non eman dezakeen balioa AAk giza-irizpidea ordezkatu gabe ebaluatzeko.
+<strong>Adimen artifiziala ikastetxeko administrazioan: benetako kasu praktikoak</strong>
 
 <br>
 
-<strong>Zer esan nahi duen gaur egun eskola-kudeaketan AAk</strong>
-<br>
-
-Hezkuntza-zentro batean, eskola-kudeaketan AAk datuetatik ikasten duten edo arau aurreratuak jarraitzen dituzten sistemen erabilera esan nahi du zereginak automatizatzeko, informazioa sailkatzeko, emaitzak iragartzeko edo ekintzak iradokitzeako. Ez die pertsonak ordezkatzen; taldearen lehentasunak ezartzeko eta informazio gehiagorekin jokatzeko gaitasuna osatzen du.
+Ikastetxeko kudeaketan adimen artifiziala ez da eztabaidarako gaia soilik: administrazio-zereginetan, ereduen detekzioan eta erabakien laguntzan aplikatzen da jada. Artikulu honek kudeatzaileentzako eta administrazio taldeentzako benetako kasu praktikoak biltzen ditu, AI-ak balio erantsia non gehi dezakeen ebaluatzeko, giza iritzia ordezkatu gabe.
 
 <br>
 
-<strong>Non sartzen den eskola-kudeaketan AA</strong>
-<br>
-
-Datu eta zeregin errepikakorren bolumena duten eremuak dira egokienak: fakturazioa eta kobrantzak, familien komunikazioa, asistencia-kontrola, utzikeria edo ordainketarik gabeko arriskuaren detekzioa eta txostenak sortzea. Eskola-kudeaketan AAk balio du datu egituratuak eta zer lortu nahi den argi dagoenean.
+<strong>AI-ak zer esan nahi duen gaur egun ikastetxeko kudeaketan</strong>
 
 <br>
 
-<strong>Praktika-kasuak: eskola-kudeaketan AA</strong>
-<br>
+Hezkuntza-zentro baten testuinguruan, AI ikastetxeko kudeaketan datuetatik ikasten edo arau aurreratuak betetzen dituzten sistemak erabiltzeari egiten zaio erreferentzia, zereginak automatizatzeko, informazioa sailkatzeko, emaitzak aurreikusteko edo ekintzak iradokitzeko. Ez du pertsonak ordezkatzen; taldeak informazio gehiago lehenesteko eta jarduteko duen gaitasuna osatzen du.
 
 <br>
 
-<strong>1. Ordainketarik gabeko iragarpena eta kobrantza-lehentasuna</strong>
-<br>
-
-Urtean milaka ordainagi dituen zentro batek ordainketa-historiala, familiaren antzinatasuna eta ikasturteko unea gurutzatzen duen modelo bat integratu zuen. Sistemak ordainketarik gabeko probabilitatea esleitzen dio eta idazkaritzari iradokitzen dio zein kasutan aurreratu abisua edo harreman pertsonala. Eskola-kudeaketan AAk ez du erabakitzen nor ordaintzen duen; kobrantza-lana lehentasuntzen du eta idazkaritzaren karga handitu gabe murriztu zuen morositatea.
+<strong>Non IA sartzen den ikastetxeko kudeaketan</strong>
 
 <br>
 
-<strong>2. Utzikeria-arriskuaren goiztiarren detekzioa (atxikipena)</strong>
-<br>
-
-Asistencia-, ordainketa- eta jarduera-partaidetzako datuetatik abiatuta, ikastetxe batek alertak konfiguratu zituen atalaseak konbinatzen dituenak (adibidez, bi ordainketa faltak baino gehiago eta asistentzia-jaitsiera). Eskola-kudeaketan AAk ez die tutoreari edo orientazioari ordezkatzen; ikasle edo familia zein diren berrikustea komeni den adierazten du. Zuzendaritza-taldeak zerrenda horiek erabiltzen ditu proaktiboki harremanetan jartzeko eta arrisku-segmentuetan atxikipena hobetu du.
+Datu-bolumena duten eta zeregin errepikakorrak dituzten eremuak dira egokienak: fakturazioa eta kobrantza, familiekin komunikazioa, asistentzia kontrola, baliogabetzeko edo ez ordaintzeko arriskua hautematea eta txostenak sortzea. Ikastetxeko kudeaketan IAk laguntzen du datu egituratuak eta zer lortu behar den irizpide argiak daudenean.
 
 <br>
 
-<strong>3. Kontsulten sailkapena eta erantzun automatikoa</strong>
-<br>
-
-Prestakuntza profesionaleko zentro batek kontsulta errepikakor asko jasotzen ditu (epeak, dokumentazioa, prezioak). Laguntzaile bat inplementatu zuen kontsulta sailkatzen duena eta taldeak balioztatutako txantiloiekin erantzuten duena edo gaia konplexua denean idazkaritzara bideratzen duena. Eskola-kudeaketan AAk kasu horretan idazkaritzaren denbora askatzen du giza-irizpidea behar duten kasuetarako.
+<strong>Kasu praktikoak: AI ikastetxeko kudeaketan</strong>
 
 <br>
 
-<strong>4. Txosten eta zirkularren zirriborroen sorrera</strong>
-<br>
-
-Sistemako datuetatik (asistencia, emaitzak, gertakariak), tresna batzuek ikasle edo taldeko txosten-zirriborroak sortzen dituzte. Irakasleak edo orientatzaileak berrikusi eta sinatzen dute. Eskola-kudeaketan AAk idazketa azkartzen du ebaluazio pedagogikoa ordezkatu gabe.
+<strong>1. Lehenetsien aurreikuspena eta bilketaren lehentasuna</strong>
 
 <br>
 
-<strong>5. Ordainketa-abisuen optimizazioa</strong>
-<br>
-
-Ikastetxe batek ordainketa-abisuetarako uneko eta kanal desberdinak (posta elektronikoa, SMS) probatu zituen. Ordainketa-tasen arabera bidalketaren analisiarekin, sekuentzia (eguna eta kanala) doitu zuten kobrantza maximizatzeko eta mezuak minimizatzeko. Eskola-kudeaketan AAk analisi edo bidalketa-arauen moduan kobrantza-komunikazioaren eraginkortasuna hobetzen du.
+Urtean milaka ordainagiri dituen zentro batek ordainketa-historia, familiaren antzinatasuna eta ikastaro-denbora zeharkatzen dituen eredua integratzen zuen. Sistemak ez ordaintzeko probabilitatea esleitzen du eta idazkariari iradokitzen dio zein kasutan aurreratu abisua edo kontaktu pertsonala. Hemen ikastetxeko kudeaketan AI ez da erabakitzen nork ordaintzen duen; bilketa lanak lehenetsi eta berankortasunak murriztu, bulegoaren zama handitu gabe.
 
 <br>
 
-<strong>Eskola-kudeaketan AA sartzean ohiko akatsak</strong>
-<br>
-
-- AAri gainbegiratu gabe azken erabakiak hartzea itxarotea (giza arduraduna egon behar da).
-- Arazoa eta beharrezko datuak ondo definitu gabe tresna aukeratzea.
-- Datuen kalitatea ez ikusia egitea: datu osatu edo alboratuekin entrenatutako modelek emaitza ez fidagarriak ematen dituzte.
-- Taldea informatu eta erabileran eta mugaren prestakuntzan ez aritzea.
-- Emaitzak berrikusi eta doitu gabe AA proiektu puntual gisa tratatzea.
+<strong>2. Erretiratzeko arriskuaren detekzio goiztiarra (erretentzioa)</strong>
 
 <br>
 
-<strong>Ekintza-zerrenda: eskola-kudeaketan AA</strong>
-<br>
-
-1. Identifikatu zeregin bat edo bi bolumen eta irizpide argidunekin (kobrantza, atxikipena, kontsultak, txostenak).
-2. Egiaztatu dauden datuak nahikoa eta kalitate onekoak direla (osotasuna, koherentzia).
-3. Definitu nork gainbegiratzen dituen AAren irteerak eta nork jokatzen duen informazio horrekin.
-4. Hasi mugatutako pilotu batekin eta neurtu eragina (aurreztutako denbora, kobrantza-tasa, atxikipena).
-5. Prestatu taldea erabileran eta sistemaren mugan.
-6. Ikasturte bakoitzean berrikusi ea modelo edo arauak egokiak diren.
+Asistentziari, ordainketei eta jarduerei buruzko datuak erabiliz, ikastetxe batek atalaseak konbinatzen dituzten alertak konfiguratu zituen (adibidez, bi lehenespen edo gehiago eta asistentzia jaitsiera). Ikastetxeko kudeaketan AI ez da tutorea edo orientazioa ordezkatzen; berrikusi beharreko ikasleak edo familiak adierazten ditu. Zuzendaritza taldeak zerrenda hauek erabiltzen ditu modu proaktiboarekin harremanetan jartzeko eta arriskuan dauden segmentuetan atxikipena hobetu du.
 
 <br>
 
-<strong>Maiz egindako galderak</strong>
-<br>
+<strong>3. Kontsulten sailkapen eta erantzun automatikoa</strong>
 
 <br>
-<strong>Eskola-kudeaketan AAk lanpostuak ordezkatzen al ditu?</strong>
-<br>
 
-Kasu ohikoetan (kobrantza-lehentasuna, atxikipen-alertak, erantzun automatikoak), AAk laguntzen eta denbora askatzen du balio handiagoko zereginentzat. Irizpidea eta familien harremana taldearen esku geratzen dira.
+Lanbide Heziketako zentro batek behin eta berriro kontsulta ugari jasotzen ditu (epeak, dokumentazioa, prezioak). Kontsulta sailkatu eta taldeak baliozkotutako txantiloiekin erantzuten duen laguntzaile bat ezarri du edo gaia konplexua denean idazkaritzara bideratzen du. Ikastetxeen kudeaketan IAk hemen bulegoko denbora askatzen du giza epaia behar duten kasuetarako.
 
 <br>
-<strong>Datu asko behar al ditugu AA erabiltzeko?</strong>
-<br>
 
-Kasuaren arabera. Alerta-arauetan (falta- edo ordainketa-atalaseak) datu operatiboak nahikoa dira. Iragarpen-modeloetan (ordainketarik gabeko edo utzikeria-arriskua) maiz gutxienez urte bat edo bi historiala behar da.
+<strong>4. Txosten eta informazio zirriborroak sortzea</strong>
 
 <br>
-<strong>Zer gertatzen da datuen babesarekin eta AArekin?</strong>
-<br>
 
-Datuak oinarri legalean eta segurtasun-neurriekin tratatu behar dira. Hornitzaileak modeletarako datuak prozesatzen baditu, kontratuak arautu behar du eta baimenik gabeko helburuetarako erabiltzen ez direla bermatzen du. Familiekin datuen erabileraren gardentasuna garrantzitsua da.
+Sistemaren datuak erabiliz (asistentzia, emaitzak, gorabeherak), tresna batzuek ikasle edo talde bakoitzeko txosten zirriborroak sortzen dituzte. Irakasleak edo orientatzaileak berrikusi eta sinatzen du. Ikastetxeko kudeaketan IAk idazketa bizkortzen du ebaluazio pedagogikoa ordezkatu gabe.
 
 <br>
-<strong>Hasi gaitezke sail teknikorik gabe?</strong>
-<br>
 
-Bai. Eskola-kudeaketan AA asko kudeaketa-softwarean integratuta dator (alertak, lehentasuna, txantiloiak). Zentroak ez du modeloak eraiki behar; helburuak definitu eta emaitzak gainbegiratu behar ditu.
+<strong>5. Ordainketa abisuak optimizatzea</strong>
 
 <br>
-<strong>Nola aukeratu eskola-kudeaketarako AA hornitzaile bat?</strong>
+
+Ikastetxe batek ordu eta kanal desberdinak probatu zituen (posta elektronikoa, SMSa) ordainketa-abisuak egiteko. Ordainketa-tasen azterketarekin, sekuentzia (eguna eta kanala) egokitu zuten bilketa maximizatzeko eta mezuak minimizatzeko. Ikastetxeko kudeaketan AI, analisi edo bidalketa arauen moduan, bilketaren komunikazioaren eraginkortasuna hobetzen du.
+
 <br>
 
-Ebaluatu soluzioa zure kudeaketarekin integratuta dagoela (matrikulazioa, fakturazioa, komunikazioa), dokumentatzen duela zer egiten duen datuekin eta giza gainbegiratzea ahalbidetzen duela. Eskatu antzeko zentroen erreferentziak.
+<strong>Ohiko akatsak AI ikastetxeko kudeaketan sartzean</strong>
+
+<br>
+
+- Espero AIek azken erabakiak gainbegiratu gabe hartuko dituela (gizaki arduradun bat egon behar da).
+- Tresna bat aukeratu aurretik arazoa edo beharrezko datuak argi ez zehaztea.
+- Datuen kalitatea alde batera utzi: datu osatugabeekin edo alboragarriekin trebatutako ereduek emaitza fidagarriak ematen dituzte.
+- Taldeari ez informatzea edo sistemaren erabileraz eta mugez trebatzea.
+- Tratatu IA proiektu bakarreko gisa, emaitzak berrikusi eta doitu gabe.
+
+<br>
+
+<strong>Egiteko kontrol-zerrenda: AI ikastetxeko kudeaketan</strong>
+
+<br>
+
+1. Identifikatu zeregin bat edo bi bolumen eta irizpide argiekin (bilketa, atxikipena, kontsultak, txostenak).
+2. Dauden datuak nahikoak eta kalitatekoak direla egiaztatzea (osotasuna, koherentzia).
+3. Definitu nork kontrolatzen dituen AI irteerak eta nork jarduten duen informazio horren gainean.
+4. Hasi pilotu mugatu batekin eta neurtu inpaktua (aurreztutako denbora, bilketa-tasa, atxikipena).
+5. Taldea sistemaren erabileran eta mugetan trebatu.
+6. Berrikusi ikastaro bakoitza eredua edo arauak oraindik egokiak badira.
+
+<br>
+
+<strong>AI kasuak administrazioan (errealistak)</strong>
+
+<br>
+
+- **Zirriborro zirkularrak:** Taldeak berrikusi eta argitaratzen du; gizakirik gabe bidalketa automatikorik ez.
+- **Gorabeheren sailkapena:** Ibilbidea administraziora, tutoretzara edo zuzendaritzara, motaren arabera.
+- **Ordainketa berandu iragartzeko alertak:** Arriskuan dauden familiak identifikatzea lehenespen kronikoa baino lehen.
+- **Idazkaritzarako barne galderak:** Kontratatutako ingurunetik kanpo datu pertsonalak esportatu gabeko prozedurei buruzko erantzunak.
+
+<br>
+
+<strong>Laburpena 5 puntu nagusitan:</strong>
+
+<br>
+
+1. Ikastetxeen kudeaketan IA automatizatzen eta lehenesten du; Ez du ordezkatzen taldearen azken erabakia.
+2. Eragin handiagoa duten kasuak: bilketa, atxikipena, maiz kontsultak eta txostenak.
+3. Datuen kalitatea ezinbesteko baldintza da emaitza erabilgarriak lortzeko.
+4. Beti egon behar da giza gainbegiratzea eta taldeen prestakuntza.
+5. Pilotu, neurketa eta aldizkako berrikuspena arriskuak murrizten dituzte eta emaitzak hobetzen dituzte.
+
+AIk zure zentroaren kudeaketa nola lagundu dezakeen aztertu nahi baduzu (bilketak, atxikipena, komunikazioa), eskatu demo bat eta zure errealitateari aplikagarri zaizkion kasuak aztertuko ditugu.
+
+<br>
+
+<strong>Testuingurua Espainian: giza baliabideen bidezko administrazioa</strong>
+
+<br>
+
+Hiru laguneko idazkariek matrikula, bilketa, komunikazioa eta dokumentazioa mantentzen dituzte Espainiako eskola pribatu ertain gehienetan. Oroigarriak, erregistroak, adiskidetzeak eta zirkularrak automatizatzeak ez du giza judizioa ordezkatzen: salbuespenak negoziatzeko, egoera zailean dauden familiei laguntzeko eta urtea datu fidagarriekin ixteko itzultzen du.
+
+Neurtu prozesu bakoitzeko orduak softwarea erosi aurretik: horrela justifikatzen duzu ROI-a jabeari edo eskola-kontseiluari. Banku-kontziliaziorako edo bilketa-deietara astean zenbat ordu dedikatzen dituen ez dakien zentro batek ezin du ebaluatu ERP "garestia" batek bere burua ordaintzen duen ikastaro batean.
+
+Bidezko digitalizazioak zama zabaltzen du: autozerbitzuko ordainketak eta baimenak dituzten familiak, zati bikoiztu gutxiago dituzten irakasleak, azken orduko txostenen ordez hileko adierazleekin kudeaketa. Helburua ez da langileak murriztea murrizteagatik, talde berak ikasle gehiago edo zerbitzu gehiago kudeatzea irailean kiskali gabe baizik.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+280 familiaz osatutako zentroak asistentzia automatizatua, ordainketa abisuak eta hiruhileko buletinak bidaltzen ditu. Idazkari nagusiak astean 14 ordu berreskuratu zituen, pertsonalki arreta eta urtearen itxiera eskainita.
 
 <br>
 
 <strong>Ondorioa</strong>
+
 <br>
 
-Eskola-kudeaketan AA dagoeneko ordainketarik gabeko iragarpena, utzikeria-arriskua, erantzun automatikoak eta zirriborroen sorrera eremuetan dago. Balioa datuak, arauak edo modeloak taldearen irizpidearekin uztartzean dago. Erabilera mugatuan hastea, neurtzea eta doikuntza egitea da AA txertatzeko modurik segurua gainesperientziarik gabe.
+Ikastetxeen kudeaketan IA dagoeneko presente dago lehenetsitako iragarpenean, baliogabetzeko arriskuen detekzioan, erantzun automatizatuetan eta zirriborroen sorreran. Balioa datuak, arauak edo ereduak taldearen iritziarekin konbinatzean datza. Erabilera mugatuarekin hasita, neurtzea eta doitzea da IA ​​gehitzeko itxaropenik gabe sartzeko modurik seguruena.
 
-<strong>5 puntu gakoen laburpena:</strong>
-
-1. Eskola-kudeaketan AAk automatizatzen eta lehentasuntzen du; ez du taldearen azken erabakia ordezkatzen.
-2. Eragin handieneko kasuak: kobrantza, atxikipena, kontsulta maiztuak eta txostenak.
-3. Datuen kalitatea emaitza erabilgarrientzako baldintza aurrekoa da.
-4. Beti egon behar da giza gainbegiratzea eta taldearen prestakuntza.
-5. Pilotua, neurketa eta berrikuspen periodikoak arriskuak murrizten eta emaitzak hobetzen ditu.
-
-Nahi baduzu zure zentroaren kudeaketan nola lagun dezakeen AA aztertu (kobrantzak, atxikipena, komunikazioa), eskatu demo bat eta zure errealitateari aplika daitezkeen kasuak berrikusiko ditugu.
+<br>

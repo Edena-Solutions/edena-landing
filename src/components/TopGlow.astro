@@ -1,0 +1,20 @@
+---
+import { topGlowHeightClass, topGlowMaskClass } from "@/constants/top-glow-backgrounds";
+
+interface Props {
+    class?: string;
+}
+
+const { class: className = "" } = Astro.props;
+---
+
+<div
+    class:list={[
+        "pointer-events-none absolute inset-x-0 top-0 z-0 bg-gradient-primary",
+        topGlowHeightClass,
+        topGlowMaskClass,
+        className,
+    ]}
+    aria-hidden="true"
+>
+</div>

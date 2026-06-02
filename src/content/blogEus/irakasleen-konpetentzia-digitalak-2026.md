@@ -1,44 +1,103 @@
 ---
-title: "Irakasleen gaitasun digitalak 2026an: 661.000 irakasle baino gehiago ziurtatuta"
+title: "Irakasleen gaitasun digitalak 2026an: 661.000 irakasle ziurtatu baino gehiago"
 date: "2026-01-10"
-description: "Espainiako irakasleen %80ek dagoeneko gaitasun digitaletan ziurtagiria du. Ezagutu nola eraldatzen ari den prestakuntza horrek hezkuntza eta zer esan nahi duen zentroentzat."
+description: "Irakasle egiaztatuen egoera eta DigEdu 2026. Plana. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
-    [
-        "gaitasun digitalak",
-        "irakasleen prestakuntza",
-        "ziurtagiri digitala",
-        "Plan DigEdu",
-        "irakaslegoa 2026",
-    ]
-author: "Edena taldea"
+    - "gaitasun digitalak"
+    - "irakasleen prestakuntza"
+    - "ziurtagiri digitala"
+    - "DigEdu plana"
+    - "Irakasleen 2026"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1568828668638-b1b4014d91a2?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - pedagogia-metodologia-berragarriak
+  - pedagogia-berrikuntza-teknologia
+  - hezkuntzako-ebaluazio-digitala
+  - etorkizuneko-hezkuntza-espazioen-diseinua
+faqs:
+  - question: "Zer eskatzen dio DigEdu zentroari?"
+    answer: "Ingurune seguruak, irakasleen prestakuntza eta bidezko sarbidea; Kontsultatu egungo eskualdeko deialdia."
+  - question: "Irakaskuntza-ziurtagiria ordezkatzen al du?"
+    answer: "Ez; Tresnekin eta babestutako denborarekin osatzen da."
+  - question: "Nola lehenetsi prestakuntza?"
+    answer: "Astero erabiltzen duzuna (plataforma komuna) tresna isolatuen aurretik."
 ---
 
-<strong>Irakasleen gaitasun digitalak 2026an: 661.000 irakasle baino gehiago ziurtatuta</strong>
+
+<strong>Irakasleen gaitasun digitalak 2026an: 661.000 irakasle ziurtatu baino gehiago</strong>
 
 <br>
 
-2026ak Espainiako irakasleen prestakuntzan mugarri historikoa markatzen du. 661.366 irakasle baino gehiago gaitasun digitaletan ziurtatuta, Espainiak Plan DigEdu-ren helburua gainditu du: diru-laguntzaz mantentutako zentroetan irakasleen %80 ziurtatzea. Eraldaketa hori ez da zenbaki soilik; isileko iraultza bat da, espainiar gelan irakasten eta ikasten den modua aldatzen ari dena.
+2026. urteak mugarri historikoa markatzen du espainiar irakasleen prestakuntzan. Dagoeneko gaitasun digitaletan egiaztatutako 661.366 irakasle baino gehiagorekin, Espainiak DigEdu Planaren helburua gainditu du funts publikoekin lagundutako zentroetan irakasleen %80ko ziurtagiria lortzeko. Eraldaketa hori ez da zenbaki bat bakarrik; Iraultza isila da, gaztelaniazko ikasgeletan irakasteko eta ikasteko modua aldatzen ari dena.
 
 <br>
 
-<strong>Irakaslearen gaitasun digitalaren erreferentzia-markoa</strong>
+<strong>Gaitasun digitala irakasteko erreferentzia-esparrua</strong>
 
 <br>
 
-2022an eguneratutako Irakaslearen gaitasun digitalaren erreferentzia-markoa, Europako #DigCompEdu markoarekin lerrokatua, irakasleek aro digitalean menperatu behar dituzten gaitasunak ezartzen ditu. Marko hori ez da tresna teknologikoen erabilera oinarrizkora mugatzen; irakaskuntza-praktika eraldatzen duten sei eremu funtsezko estaltzen ditu.
+Irakaskuntzarako Gaitasun Digitaleko Erreferentzia Markoak, 2022an eguneratua eta Europako #DigCompEdu markoarekin lerrokatuta, irakasleek aro digitalean menderatu behar dituzten gaitasunak ezartzen ditu. Esparru hori ez da tresna teknologikoen oinarrizko erabilerara mugatzen; Irakaskuntza praktika eraldatzen duten oinarrizko sei arlo biltzen ditu.
 
-Lehen eremua, <strong>Informazioa eta informazio-alfabetizazioa</strong>, irakasleei informazio digitala modu kritiko eta eraginkorrean bilatzen, ebaluatzen, kudeatzen eta partekatzen irakasten die. Informazioz gainezka dagoen mundu batean, gaitasun hori funtsezkoa da ikasleei ingurune digitalean modu seguruan eta produktiboan nabigatzen laguntzeko.
+Lehenengo eremua,
 
-Bigarren eremua, <strong>Komunikazioa eta lankidetza</strong>, irakasleak modu eraginkorrean komunikatzeko, ingurune birtualetan lankidetzan aritzeko eta lineako profesional-komunitateetan parte hartzeko prestatzen ditu. Hezkuntzak gelaren hormak gainditzen dituen mundu batean gaitasun hori funtsezkoa da.
+<br>
 
-Hirugarren eremua, <strong>Edukien sorkuntza digitala</strong>, irakasleei kalitatezko baliabide hezkuntzaile digitalak sortu, editatu eta partekatzen irakasten die. Bideo hezkuntzaileetatik aurkezpen interaktiboetara, ziurtatutako irakasleek ikaskuntza-esperientzia nabarmen aberasten duten materialak sortu ditzakete.
+<strong>Informazio eta informazio alfabetatzea</strong>
 
-Laugarren eremua, <strong>Segurtasuna</strong>, irakasleek beren informazioa zein ikasleen informazioa babestea, arrisku digitalak ulertzea eta teknologiaren erabilera segurua eta arduratsua sustatzea bermatzen du. Pribatutasun eta segurtasun digitalaren kezka handitzen ari den aroan, gaitasun hori inoiz baino garrantzitsuagoa da.
+<br>
 
-Bostgarren eremua, <strong>Arazoen ebazpena</strong>, irakasleei behar teknologikoak identifikatzen, arazo teknikoak konpontzen eta irakaskuntza eta ikaskuntza hobetzeko modu berritzailean teknologia erabiltzen irakasten die.
+, irakasleak trebatzen ditu informazio digitala modu kritikoan eta eraginkorrean bilatu, ebaluatu, kudeatu eta partekatzeko. Informazioz betetako mundu batean, gaitasun hau ezinbestekoa da ikasleei ingurune digitalean modu seguruan eta produktiboan nabigatzen laguntzeko.
 
-Seigarren eremua, <strong>Ebaluazioa eta etengabeko hobekuntza</strong>, irakasleei beren praktika digitalari buruz hausnartzen, erabilitako teknologien eraginkortasuna ebaluatzen eta tresna eta metodologia berrietara etengabe egokitzen uzten die.
+Bigarren eremua,
+
+<br>
+
+<strong>Komunikazioa eta lankidetza</strong>
+
+<br>
+
+, irakasleak euskarri digitalen bidez eraginkortasunez komunikatzeko, ingurune birtualetan elkarlanean aritzeko eta sareko komunitate profesionaletan parte hartzeko prestatzen ditu. Gaitasun hori funtsezkoa da hezkuntzak ikasgelako hormak gainditzen dituen mundu batean.
+
+Hirugarren eremua,
+
+<br>
+
+<strong>Eduki digitalak sortzea</strong>
+
+<br>
+
+, irakasleei ahalmena ematen die kalitatezko hezkuntza baliabide digitalak sortu, editatu eta partekatzeko. Hezkuntza-bideoetatik hasi eta aurkezpen interaktiboetaraino, ziurtatutako irakasleek ikas-esperientzia nabarmen aberasten duten materialak sor ditzakete.
+
+Laugarren eremua,
+
+<br>
+
+<strong>Segurtasuna</strong>
+
+<br>
+
+, bermatzen du irakasleek beren eta ikasleen informazioa babesten dutela, arrisku digitalak ulertzen dituztela eta teknologiaren erabilera seguru eta arduratsua sustatzen dutela. Pribatutasunari eta segurtasun digitalari buruzko kezka gero eta handiagoa den garai honetan, gaitasun hau inoiz baino garrantzitsuagoa da.
+
+Bosgarren eremua,
+
+<br>
+
+<strong>Arazoak konpontzea</strong>
+
+<br>
+
+, irakasleak trebatzen ditu teknologia beharrak identifikatzeko, arazo teknikoak konpontzeko eta teknologia modu berritzailean erabiltzeko irakaskuntza eta ikaskuntza hobetzeko.
+
+Seigarren eremua,
+
+<br>
+
+<strong>Etengabeko ebaluazioa eta hobekuntza</strong>
+
+<br>
+
+, irakasleei beren praktika digitalari buruz hausnartzeko, erabiltzen diren teknologien eraginkortasuna ebaluatzeko eta tresna eta metodologia berrietara etengabe egokitzeko aukera ematen du.
 
 <br>
 
@@ -46,70 +105,70 @@ Seigarren eremua, <strong>Ebaluazioa eta etengabeko hobekuntza</strong>, irakasl
 
 <br>
 
-661.000 irakasle baino gehiagoren ziurtapena ez da kasualitatea. Lorpen horren atzean prestakuntza-esfortzu masiboa dago: Espainia osoan 24.470 prestakuntza-ekintza baino gehiago, oinarrizko gaitasunetatik espezializazio aurreratuenetara.
+661.000 irakasle baino gehiagoren ziurtagiria ez da kasualitatea izan. Lorpen honen atzean prestakuntza-esfortzu masiboa dago: Espainian zehar garatu diren 24.470 prestakuntza-ekintza baino gehiago, oinarrizko gaitasunetatik hasi eta espezializazio aurreratuetaraino.
 
-Prestakuntza-ekintza horiek ez dira ikastaro teoriko tradizionalak. Programa praktikoak dira hauek barne hartzen dituztenak:
+Prestakuntza-ekintza hauek ez dira ohiko ikastaro teorikoak. Programa praktikoak dira, besteak beste:
 
-- Tresna digital espezifikoetako presentzial eta lineako tailerrak
-- Irakasleek ikasitakoa aplikatzen duten lankidetza-proiektuak
-- Esperientziak eta praktika onak partekatzen dituzten praktika-komunitateak
-- gaitasun-maila desberdinak aitortzen dituzten ziurtapen progresiboak
-- teknologia berrietara egokitzen den prestakuntza jarraitua
+- Tresna digital espezifikoei buruzko tailerrak presentzialak eta online
+- Lankidetza-proiektuak non irakasleek ikasitakoa aplikatzen duten
+- Praktika-komunitateak, non esperientziak eta praktika onenak partekatzen dituzten
+- Gaitasun-maila desberdinak aitortzen dituzten ziurtagiri progresiboak
+- Sortzen ari diren teknologia berrietara egokitzen den etengabeko prestakuntza
 
-Prestakuntza-ekintzen aniztasunak irakasle bakoitzak bere beharretara, abiapuntu-mailara eta hezkuntza-testuinguru espezifikora ondoen egokitzen zaion prestakuntza-mota aurkitzea bermatzen du.
-
-<br>
-
-<strong>Eguneroko irakaskuntza-praktikan duen eragina</strong>
+Prestakuntza-ekintza hauen aniztasunak bermatzen du irakasle bakoitzak bere beharretara, hasierako mailara eta hezkuntza-testuinguru zehatza hobekien egokitzen den prestakuntza-mota aurkitzea.
 
 <br>
 
-Gaitasun digitaletan ziurtapenak irakasleen eguneroko irakaskuntza-praktika modu neurtu eta ulergarrietan eraldatzen ari da. Ziurtatutako irakasleek modu eraginkorragoan erabiltzen dute teknologia, ikaskuntza-esperientzia aberatsagoak sortzen dituzte eta lehen ezinezkoa zen moduan pertsonalizatzen dute hezkuntza.
-
-Gelan honakoak ikusten ari gara:
-
-- Ikasle bakoitzaren erritmora egokitzen diren ikaskuntza-plataforma moldakorrak
-- Ikasleen inplikazioa handitzen duen eduki multimedia interaktiboa
-- Kanal digitalen bidez ikasle eta familien arteko komunikazio arinagoa
-- Irakaskuntzan berehalako doikuntzak ahalbidetzen duen ebaluazio formatibo denbora errealekoa
-- Plataforma digitalen bidez irakasleen eta zentroen arteko lankidetza
-
-Aldaketa horiek ez dira azalekoak; emaitza hezkuntzaileak nabarmen hobetzen ari dira. Azken ikerketek erakusten dute gaitasun digital handiko irakasleak dituzten geletan ikasleek errendimendu akademiko hobea, inplikazio handiagoa eta gaitasun digital hobeak dituztela.
+<strong>Eguneroko irakaskuntza praktikan duen eragina</strong>
 
 <br>
 
-<strong>Gaitasun digitalari esker ikaskuntzaren pertsonalizazioa</strong>
+Gaitasun digitalen ziurtagiriak eguneroko irakaskuntza-praktika modu ukigarri eta neurgarrietan eraldatzen ari da. Ziurtagiria duten irakasleak teknologia eraginkorrago erabiltzen ari dira, ikaskuntza-esperientzia aberatsagoak sortzen eta hezkuntza pertsonalizatzen ari dira lehen ezinezkoak ziren moduan.
+
+Ikasgeletan, ikusten ari gara:
+
+- Ikasle bakoitzaren erritmora egokitzen diren ikaskuntza moldakorren plataformak erabiltzea
+- Ikaslea handitzen duten multimedia eduki interaktiboak sortzea engagement
+- Ikasle eta familiekin komunikazio arinago kanal digitalen bidez
+- Irakaskuntzan berehalako doikuntzak ahalbidetzen dituen denbora errealeko ebaluazio formatiboa
+- Irakasleen eta zentroen arteko lankidetza plataforma digitalen bidez
+
+Aldaketa hauek ez dira azalekoak; hezkuntza-emaitzak nabarmen hobetzen ari dira. Azken ikerketek erakusten dute digitalki gaitasun handiko irakasleak dituzten ikasgeletako ikasleek errendimendu akademiko hobea, engagement handiagoa eta gaitasun digital hobeak dituztela.
 
 <br>
 
-Irakaslearen gaitasun digitalak ekartzen duen eraldaketa nabarmenenetako bat ikaskuntza eskalan pertsonalizatzeko gaitasuna da, lehen ezinezkoa zen neurrian. Ziurtatutako irakasleek hezkuntza-datuen analisi-tresnak erabil ditzakete ikasle bakoitzaren behar indibidualak identifikatzeko.
-
-Ikastetxe-kudeaketa sistema modernoak, ikaskuntza-plataformekin integratuek, irakasleei honakoak egitea ahalbidetzen diete:
-
-- Atzeratzen hasten diren aurretik laguntza gehigarria behar duten ikasleak identifikatzea
-- Edukia eta irakaskuntza-tempo ikasle bakoitzaren behar espezifikoetara egokitzea
-- Zailtasunak hautematen direnean baliabide gehigarriak automatikoki ematea
-- Banakako lorpenak modu ikusgarriago eta motibagarriagoan ospatzea
-
-Pertsonalizazio horrek ez soilik emaitza akademikoak hobetzen ditu; ikasleen motibazioa ere handitzen eta frustrazioa murrizten du, ikaskuntza-ingurune positiboago eta produktiboagoa sortuz.
+<strong>Ikaskuntzaren pertsonalizazioa gaitasun digitalari esker</strong>
 
 <br>
 
-<strong>Familien komunikazio hobea</strong>
+Gaitasun digitalaren irakaskuntzak ekartzen duen eraldaketa esanguratsuenetako bat ikaskuntza lehen ezinezkoa zen eskalan pertsonalizatzeko gaitasuna da. Ziurtagiria duten irakasleek hezkuntza-datuak aztertzeko tresnak erabil ditzakete ikasle bakoitzaren beharrak identifikatzeko.
+
+Ikastetxeen kudeaketa sistema modernoek, ikasketa-plataformekin integratuta, irakasleei aukera ematen diete:
+
+- Atzean geratu aurretik laguntza osagarria behar duten ikasleak identifikatzea
+- Irakaskuntzaren edukia eta erritmoa ikasle bakoitzaren behar zehatzetara egokitzea
+- Zailtasunak hautematen direnean baliabide osagarriak automatikoki eskaintzea
+- Lorpen indibidualak modu ikusgarri eta motibagarriagoan ospatzea
+
+Pertsonalizazio horrek emaitza akademikoak hobetzeaz gain; Ikasleen motibazioa areagotzen du eta frustrazioa murrizten du, ikaskuntza-giro positiboa eta emankorragoa sortuz.
 
 <br>
 
-Irakaslearen gaitasun digitalak familien komunikazioa ere eraldatzen ari da. Ziurtatutako irakasleek modu eraginkorrean erabil ditzakete komunikazio digitalerako plataformak, aplikazio mugikorrak eta jakinarazpen-sistemak familiak informatuta eta konprometituta mantentzeko.
+<strong>Familiekiko komunikazioa hobetu</strong>
 
-Komunikazio hobetu horrek barne hartzen du:
+<br>
 
-- Ikasleen aurrerapen akademikoari buruzko eguneratze denbora errealekoak
-- Gertaera, zeregin eta data garrantzitsuen inguruko berehalako jakinarazpenak
-- Eskola-jardueren argazki eta bideoak modu seguruan partekatzea
-- Familiek galderak egin eta erantzun azkarrak jaso ditzaketen komunikazio bikoitza
-- Familiek etxean erabil ditzaketen hezkuntza-baliabideetarako sarbidea
+Irakasleen gaitasun digitala ere eraldatzen ari da familiekin komunikazioa. Ziurtagiria duten irakasleek modu eraginkorrean erabil ditzakete komunikazio-plataforma digitalak, aplikazio mugikorrak eta jakinarazpen-sistemak, familiak informatuta eta arduratuta mantentzeko.
 
-Emaitza familien asebetetzean %60ko igoera eta gurasoen konpromisoa seme-alaben hezkuntzan handitzea da, horrek berriz emaitza hezkuntzaileak hobetuz.
+Komunikazio hobetu honek barne hartzen ditu:
+
+- Ikasleen aurrerapen akademikoari buruzko eguneraketak denbora errealean
+- Gertaeren, zereginen eta data garrantzitsuei buruzko berehalako jakinarazpenak
+- Partekatu ikastetxeko jardueren argazkiak eta bideoak modu seguruan
+- Familiei galderak egiteko eta erantzun azkarrak jasotzeko aukera ematen dien bi norabideko komunikazioa
+- Familiek etxean erabil ditzaketen hezkuntza-baliabideetara sarbidea
+
+Ondorioz, familiaren gogobetetasuna % 60 hazi da eta gurasoen konpromiso handiagoa da seme-alaben hezkuntzarekin, eta horrek hezkuntza-emaitzak hobetzen ditu.
 
 <br>
 
@@ -117,67 +176,67 @@ Emaitza familien asebetetzean %60ko igoera eta gurasoen konpromisoa seme-alaben 
 
 <br>
 
-Gaitasun digitala ez da teknologia erabiltzea soilik; modu pedagogikoki senduan integratzea da. Ziurtatutako irakasleek teknologiaren boterea aprobetxatzen duten metodologia berritzaileak adoptatzen ari dira:
+Gaitasun digitala ez da soilik teknologia erabiltzea; pedagogikoki sendo integratzea da. Ziurtatutako irakasleek teknologiaren indarra aprobetxatzen duten metodologia berritzaileak hartzen ari dira:
 
-- <strong>Proiektuetan oinarritutako ikaskuntza digitala</strong>: Ikasleek tresna digitalak erabiliz lankidetza-proiektuetan lan egiten dute
-- <strong>Gela iraulia</strong>: Ikasleek etxean edukia kontsumitzen dute eta gelan jarduerak praktikoetan lan egiten dute
-- <strong>Hezkuntza-gamifikazioa</strong>: Motibazioa eta inplikazioa handitzeko joko-elementuen erabilera
-- <strong>Errealitate areagotua eta birtuala</strong>: Ikaskuntza aberasten duten esperientzia murgiltzaileak
-- <strong>Mikroikaskuntza</strong>: Formatu labur eta eskuragarrietan eduki hezkuntzailea
+- **Proiektu digitalean oinarritutako ikaskuntza**: ikasleek lankidetza-proiektuak lantzen dituzte tresna digitalak erabiliz
+- **Flipped classroom**: ikasleek etxean edukia kontsumitzen dute eta ikasgelan jarduera praktikoak lantzen dituzte.
+- **Hezkuntza-gamifikazioa**: Jolas-elementuen erabilera motibazioa eta engagement areagotzeko
+- **Errealitate areagotua eta birtuala**: ikaskuntza aberasten duten esperientzia murgilgarriak
+- **Mikroikaskuntza**: formatu labur eta irisgarrietan dauden hezkuntza edukiak
 
-Metodologia horiek gaitasun digitalarekin irakasleek inplementatzen dituztenean ikaskuntza-esperientzia eraldatzen ari dira eta ikasleak XXI. mendeko mundu digitalerako hobeto prestatzen dituzte.
-
-<br>
-
-<strong>Hezkuntza-zentroentzat erronkak eta aukerak</strong>
+Metodologia hauek, digitalki gaitasun handiko irakasleek ezartzen dituztenean, hezkuntza-esperientzia eraldatzen ari dira eta ikasleak hobeto prestatzen ari dira mundu digitalerako.
 
 <br>
 
-Irakasleen ziurtapen masiboa lorpen extraordinarioa den arren, hezkuntza-zentroentzat erronkak eta aukerak ere baditu. Zentroek ziurtatutako irakasleek gaitasunak aplikatu ahal izateko behar den azpiegitura teknologikoa dutela ziurtatu behar dute.
-
-Horrek barne hartzen du:
-
-- Ikastetxe-kudeaketa sistema moderno eta osoak
-- Integratutako ikaskuntza-plataformak
-- Familien komunikazio digitalerako tresnak
-- Gailu eta konektibitate egokiak
-- Laguntza tekniko jarraitua
-
-Teknologia horietan inbertitzen ari diren zentroek itzulketa extraordinarioak ikusten dituzte: irakasle asebetuagoak, ikasle konprometituagoak, famili inplikatuagoak eta emaitza hezkuntzaile orokorrak hobeak.
+<strong>Erronka eta aukerak hezkuntza-zentroentzat</strong>
 
 <br>
 
-<strong>Ikastetxe-kudeaketa sistemen papera</strong>
+Irakasleen ziurtagiria aparteko lorpena bada ere, hezkuntza-zentroentzako erronkak eta aukerak ere aurkezten ditu. Zentroek ziurtatu behar dute beharrezko azpiegitura teknologikoa dutela, egiaztatutako irakasleek beren gaitasunak aplika ditzaten.
+
+Honek barne hartzen ditu:
+
+- Ikastetxeen kudeaketa sistema moderno eta osoak
+- Ikasketa plataforma integratuak
+- Familiekin komunikatzeko tresna digitalak
+- Gailu egokiak eta konektibitatea
+- Etengabeko laguntza teknikoa
+
+Teknologia hauetan inbertitzen ari diren ikastetxeek etekin paregabea lortzen ari dira: irakasle pozik, ikasle konprometituagoak, familia inplikatuagoak eta hezkuntza-emaitza orokor hobeak.
 
 <br>
 
-Ikastetxe-kudeaketa sistema modernoak funtsezkoak dira ziurtatutako irakasleek gaitasun digitalak guztiz aplika ditzaten. Edena bezalako plataforma integralek irakasleek behar dituzten tresna guztiak eskaintzen dituzte:
-
-- <strong>Gela digitalaren kudeaketa</strong>: Ikasle, talde eta ordutegien antolaketa
-- <strong>Integratutako komunikazioa</strong>: Mezularitza, jakinarazpenak eta eguneratze denbora errealekoak
-- <strong>Ebaluazio digitala</strong>: Ebaluazioak sortzea eta kudeatzea, aurrerapenaren jarraipena
-- <strong>Baliabide hezkuntzaileak</strong>: Material didaktikoen biltegiratzea eta partekatzea
-- <strong>Datuen analisia</strong>: Ikasleen errendimenduari eta irakaskuntzaren eraginkortasunari buruzko ikuspegiak
-
-Ziurtatutako irakasleek tresna horietarako sarbidea dutenean, gaitasun digitalen eragina maximizatu eta ikaskuntza-esperientzia benetan eralda dezakete.
+<strong>Ikastetxeen kudeaketa sistemen eginkizuna</strong>
 
 <br>
 
-<strong>Prestakuntza jarraitua eta eboluzio etengabea</strong>
+Ikastetxeen kudeaketa sistema modernoak ezinbestekoak dira ziurtatutako irakasleek beren gaitasun digitalak guztiz aplikatzeko. Edena bezalako plataforma integral batek irakasleek behar dituzten tresna guztiak eskaintzen ditu:
+
+- **Gela-kudeaketa digitala**: Ikasleen, taldeen eta ordutegiak antolatzea
+- **Komunikazio integratua**: Mezularitza, jakinarazpenak eta eguneraketak denbora errealean
+- **Ebaluazio Digitala**: Ebaluazioak sortzea eta kudeatzea, aurrerapenen jarraipena
+- **Hezkuntza-baliabideak**: Hezkuntza-materialak biltegiratzea eta partekatzea
+- **Datuen analisia**: ikasleen lorpenei eta irakaskuntza-eraginkortasunari buruzko ikuspegiak
+
+Ziurtatutako irakasleek tresna hauetarako sarbidea dutenean, beren gaitasun digitalen eragina maximizatu dezakete eta hezkuntza-esperientzia benetan eraldatu dezakete.
 
 <br>
 
-Gaitasun digitala ez da helmuga; bidaia jarraitua da. Hezkuntza-teknologiak etengabe eboluzionatzen du eta irakasleek eguneratuta egon behar dute. Prestakuntza jarraian inbertitzen duten zentroek beren irakasleak hezkuntza-berrikuntzan liderrak izaten jarraituko direla bermatzen dute.
+<strong>Etengabeko prestakuntza eta etengabeko bilakaera</strong>
 
-Prestakuntza jarraitua honako hau barne hartzen du:
+<br>
 
-- Tresna eta plataforma berrien eguneratzeak
-- Metodologia pedagogiko berrien prestakuntza
-- Irakasleek ezagutza partekatzen duten praktika-komunitateak
-- Eremu espezializatuetan ziurtapen aurreratuak
-- Eguneratutako baliabide eta material hezkuntzaileetarako sarbidea
+Gaitasun digitala ez da helmuga; Etengabeko bidaia da. Hezkuntza teknologiak etengabe garatzen ari dira, eta irakasleek eguneratuta egon behar dute. Etengabeko prestakuntzan inbertitzen duten zentroek beren irakasleak hezkuntza-berrikuntzan lider izaten jarraitzen dutela bermatzen ari dira.
 
-Prestakuntza hori babesten duten zentroek berrikuntza eta etengabeko hobekuntza-kultura bat sortzen dute, hezkuntza-komunitate osoari onuragarria.
+Etengabeko prestakuntza honek barne hartzen ditu:
+
+- Tresna eta plataforma berrien eguneraketak
+- Sortzen ari diren metodologia pedagogikoetan trebatzea
+- Irakasleek ezagutzak partekatzen dituzten praktika-komunitateak
+- Ziurtagiri aurreratuak arlo espezializatuetan
+- Hezkuntza baliabide eta material eguneratuetara sarbidea
+
+Etengabeko prestakuntza hori laguntzen duten zentroak berrikuntzaren eta etengabeko hobekuntzaren kultura sortzen ari dira, hezkuntza komunitate osoari mesede egiten diona.
 
 <br>
 
@@ -185,40 +244,62 @@ Prestakuntza hori babesten duten zentroek berrikuntza eta etengabeko hobekuntza-
 
 <br>
 
-Espainiako irakaskuntzaren etorkizuna 661.000 irakasle baino gehiago ziurtatu horiek moldatzen ari dute. Hezkuntza eredu berri bat sortzen ari gara non:
+Espainian irakaskuntzaren etorkizuna ziurtagiridun 661.000 irakasle baino gehiago hauek osatzen ari dira. Hezkuntza eredu berri baten sorrera ikusten ari gara, non:
 
-- Teknologia modu naturalean integratzen den jarduera hezkuntzaile guztietan
-- Ikaskuntzaren pertsonalizazioa araua den, salbuespena ez
-- Komunikazioa etengabe fluitzen den hezkuntza-aktore guztien artean
-- Datuek erabaki pedagogikoak gidatzen dituzten
-- Berrikuntza etengabea eta espero dena den
+- Teknologia berez integratuta dago hezkuntza-jarduera guztietan
+- Ikaskuntzaren pertsonalizazioa araua da, ez salbuespena
+- Komunikazioa etengabe doa hezkuntza-eragile guztien artean
+- Datuek erabaki pedagogikoak gidatzen dituzte
+- Berrikuntza etengabea eta espero da
 
-Etorkizun hori urruti ez dago; egunero eraldatzen ari da milaka espainiar gelatan gaitasun digitalarekin irakasleek hezkuntza eraldatzen dutenean.
-
-<br>
-
-<strong>Nola laguntzen duen Edenak ziurtatutako irakasleei</strong>
+Etorkizun hau ez dago urrun; Orain gertatzen ari da Espainiako milaka ikasgelatan, non digitalki gaitasun handiko irakasleak hezkuntza eraldatzen ari diren egunez egun.
 
 <br>
 
-Edena bereziki diseinatu da gaitasun digitaletan ziurtatutako irakasleak gaitzeko, beren trebetasunak modu eraginkorrean aplikatzeko behar dituzten tresna guztiak emanez:
-
-- <strong>Plataforma intuitiboa</strong>: Irakasleek prestakuntza tekniko gehigarririk gabe funtzionalitate guztiak erabili ditzaten diseinatua
-- <strong>Integrazio osoa</strong>: Tresna guztiak modu koherentean elkarrekin lan egiten dute
-- <strong>Komunikazio arina</strong>: Integratutako mezularitza eta jakinarazpen-sistemak
-- <strong>Datuen analisia</strong>: Irakasleei erabaki pedagogiko informatuak hartzeko laguntzen dioten ikuspegiak
-- <strong>Laguntza jarraitua</strong>: Plataformaren erabilera maximizatzeko prestakuntza eta laguntza
-
-Edenarekin, ziurtatutako irakasleek beren irakaskuntza-praktika eralda eta ikasleentzat ikaskuntza-esperientzia apartak sortu ditzakete.
+<strong>Edena-k nola onartzen dituen irakasle ziurtatuak</strong>
 
 <br>
 
-<strong>Ondorioak</strong>
+Edena berariaz diseinatuta dago ziurtatutako irakasleak gaitasun digitaletan ahalduntzeko, beren gaitasunak eraginkortasunez aplikatzeko behar dituzten tresna guztiak emanez:
+
+- **Plataforma intuitiboa**: irakasleek funtzionalitate guztiak erabil ditzakete prestakuntza tekniko gehigarririk behar izan gabe diseinatuta.
+- **Erabateko integrazioa**: Tresna guztiek elkarrekin lan egiten dute koherentziaz
+- **Komunikazio fluidoa**: Mezularitza eta jakinarazpen sistema integratuak
+- **Datuen analisia**: irakasleei erabaki pedagogiko informatuak hartzen laguntzen dieten ikuspegiak
+- **Etengabeko laguntza**: plataformaren erabilera maximizatzeko prestakuntza eta laguntza
+
+Edena-rekin, ziurtatutako irakasleek beren irakaskuntza-praktika eraldatu eta beren ikasleentzako aparteko hezkuntza-esperientzia sor ditzakete.
 
 <br>
 
-661.000 irakasle baino gehiagoren gaitasun digitaletan ziurtapena 2026an Espainiako hezkuntza-sistemaren lorpen esanguratsuenetako bat da. Eraldaketa horrek funtsezki aldatzen ari du irakasten eta ikasten den modua, hezkuntza-sistema modernoago, eraginkorrago eta etorkizunerako hobeto prestatuago bat sortuz.
+<strong>Testuingurua Espainian: LOMLOE, funtsezko gaitasunak eta DigEdu</strong>
 
-Eraldaketa hori aprobetxatzen duten zentroek, ziurtatutako irakasleei behar duten tresnak eta laguntza emanez, hezkuntza-sektoreko liderrak bilakatzen ari dira. Familiak erakartzen duen, emaitzak hobetzen eta ikasleak mundu digitalerako hobeto prestatzen dituen hezkuntza-esperientzia superiorra eskaintzen dute.
+<br>
 
-Prest dago zure zentroa zure irakaslegoaren gaitasun digitalak gehien aprobetxatzeko? Ezagutu nola lagun diezakeen Edena ziurtatutako irakasleek hezkuntza eraldatzeko behar dituzten tresnak eskaintzen. Eskatu doako demo bat eta hasi zure irakasle-taldearen potentziala maximizatzen gaur bertan.
+LOMLOE-k hezkuntza-proiektuaren erdigunean jartzen ditu funtsezko gaitasunak eta etengabeko ebaluazioa. DigEdu Planak gaitasun digitalaren irakaskuntza, ingurune teknologiko seguruak eta ikasgeletan gailuen banaketa sustatzen ditu. Irakasleek zenbat eta denbora gehiago galdu administrazio-lan bikoiztuetan (paperean dauden zatiak, Excel-en zerrendak, bide ezberdinetako zirkularrak), orduan eta gutxiago falta da laguntza eta ebaluazio formatiborako.
+
+Kudeaketa digitalizatzeak ez du pedagogia ordezkatzen: ordu errealak askatzen ditu tutoretzan, sailen koordinazioan eta banakako jarraipenean. Lau komunikazio tresna ezberdin erabiltzen dituen fakultateak familiekin koherentzia eta barne koherentzia galtzen du ebaluazio eta jarraipen irizpideetan.
+
+2026an, Espainiako zentroetarako erabilgarria den hezkuntza-teknologiak ikasgela eta administrazioa lotzen ditu: erregistroek, komunikazioak, asistentzia eta analitikek datu-iturri bera partekatzen dute. Berrikuntza pedagogiko iraunkorrak LOMLOE onartzen du administrazio-zuzendaritzak irailean eta hiruhileko amaieran fakultateko orduak lapurtzeari uzten dionean.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Institutu bat lau komunikazio tresnetatik plataforma integratu batera pasatu zen. Fakultateak tutore bakoitzeko astean batez beste 2 ordu berreskuratu zituen administrazio-jarraipen-lanetan, saileko bileretan eta ebaluazio formatiboan berriro inbertituta.
+
+<br>
+
+<strong>Ondorioa</strong>
+
+<br>
+
+Gaitasun digitaletan 661.000 irakasle baino gehiagoren ziurtagiria Espainiako hezkuntza sistemaren lorpen esanguratsuenetako bat da 2026an. Eraldaketa hori funtsean aldatzen ari da irakasteko eta ikasteko modua, hezkuntza sistema modernoagoa, eraginkorragoa eta etorkizunerako prest dagoena sortuz.
+
+Eraldaketa honetaz baliatzen ari diren zentroak, beren irakasle egiaztatuei beharrezko tresnak eta laguntza emanez, hezkuntza sektorean lider gisa kokatzen ari dira. Familiak parte hartzen dituen, emaitzak hobetzen eta ikasleak mundu digitalerako hobeto prestatzen dituen hezkuntza-esperientzia bikaina eskaintzen ari dira.
+
+Zure ikastetxea prest al dago zure irakasleen gaitasun digitalei etekinik handiena ateratzeko? Ezagutu Edena-k nola lagun zaitzakeen zure irakasle egiaztatuek hezkuntza eraldatzeko behar dituzten tresnak eskaintzen. Eskatu doako demo bat eta hasi gaur zure irakasle-taldearen potentziala maximizatzen.
+
+<br>

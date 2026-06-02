@@ -1,10 +1,22 @@
 ---
 title: "Gestión de crisis en centros educativos: Protocolos y estrategias para la continuidad"
 date: "2025-08-01"
-description: "Descubre cómo desarrollar protocolos efectivos de gestión de crisis para garantizar la continuidad educativa y proteger a tu comunidad escolar."
+description: "Protocolos de crisis y continuidad en centros españoles. Guía práctica para centros educativos en España (2026)."
 tags: ["gestión de crisis", "protocolos", "continuidad educativa", "seguridad escolar"]
 author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1585829364536-ce348dd72ebc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - seo-centros-educativos
+  - marketing-educativo-digital-estrategias
+  - liderazgo-educativo-transformacional-digital
+  - gestion-cambio-organizacional-educativo
+faqs:
+  - question: "¿Protocolo digital en crisis?"
+    answer: "Canal único, plantillas preaprobadas, backup de listados de contacto fuera del centro."
+  - question: "¿Continuidad educativa?"
+    answer: "Acceso remoto a horarios y comunicados si el edificio cierra temporalmente."
+  - question: "¿Comunicar a familias?"
+    answer: "Rapidez, hechos verificados, una voz institucional."
 ---
 
 <strong>Gestión de crisis en centros educativos: Protocolos y estrategias para la continuidad</strong>
@@ -123,6 +135,26 @@ La comunicación continua con las familias durante la fase de recuperación ayud
 
 <br>
 
+<strong>Contexto en España: captación local y reputación</strong>
+
+<br>
+
+Las familias buscan en Google "colegio + barrio/ciudad", comparan Open Days y leen reseñas. Un centro sin ficha de Google Business optimizada, web móvil rápida y formulario de solicitud claro pierde leads frente a competidores que responden en 24 horas y ofrecen visita virtual.
+
+El marketing educativo en España debe respetar normativa de protección de datos en campañas y bases de datos de interesados. Captar emails en ferias sin base legal clara o sin CRM con seguimiento genera listas muertas y riesgo reputacional. Mide coste por matrícula cerrada, no solo impresiones o visitas web.
+
+La reputación digital se construye con coherencia: lo que prometes en web (cuotas, servicios, plazas) debe coincidir con lo que secretaría ejecuta en matrícula y cobro. Un Open Day bien ejecutado sin seguimiento CRM en 48 horas es dinero tirado. SEO local, referidos de familias actuales y pipeline medible suelen superar portales de pago con leads de baja calidad.
+
+<br>
+
+<strong>Caso práctico (España)</strong>
+
+<br>
+
+Un colegio privado en Bilbao optimizó ficha de Google Business, landing de Open Day y formulario CRM. Las solicitudes de información desde web subieron un 40 % en seis meses, con coste casi nulo frente a portales de pago.
+
+<br>
+
 <strong>Conclusión</strong>
 
 <br>
@@ -130,3 +162,5 @@ La comunicación continua con las familias durante la fase de recuperación ayud
 La gestión efectiva de crisis en centros educativos requiere planificación comprehensiva, protocolos claros y preparación continua. Los centros que invierten en sistemas robustos de gestión de crisis están mejor equipados para proteger a su comunidad escolar y mantener la continuidad educativa durante situaciones adversas.
 
 ¿Está tu centro educativo preparado para enfrentar crisis imprevistas? Descubre cómo Edena puede ayudarte a desarrollar protocolos de gestión de crisis efectivos y sistemas de comunicación robustos que protejan a tu comunidad educativa.
+
+<br>

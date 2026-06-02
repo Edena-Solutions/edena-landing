@@ -7,6 +7,7 @@ import { Image } from "astro:assets";
 import BookDemoButton from "@/components/BookDemoButton.astro";
 import LottiePlayer from "@/components/LottiePlayer";
 import ThemedImage from "@/components/ThemedImage.astro";
+import TopGlow from "@/components/TopGlow.astro";
 
 interface HeroCard {
     title: string;
@@ -57,10 +58,14 @@ const hasHeroSlot = Astro.slots.has("heroVisual");
 
 <div class="grid gap-4">
     <Card
-        className={`flex flex-col items-center justify-start text-center h-100 sm:h-160 bg-card gap-4 overflow-hidden`}
+        className={`flex flex-col items-center justify-start text-center h-100 sm:h-160 bg-background gap-4 overflow-hidden`}
     >
         <CardHeader>
-            <h1 class="text-xl font-bold max-w-2xl">{mainTitle}</h1>
+            <h1
+                class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
+            >
+                {mainTitle}
+            </h1>
         </CardHeader>
         <CardContent className="flex flex-col gap-4 items-center pb-0">
             <p class="text-muted-foreground max-w-150">
@@ -104,19 +109,20 @@ const hasHeroSlot = Astro.slots.has("heroVisual");
 
     <div class="grid sm:grid-cols-2 gap-4 px-4">
         <Card
-            className="flex rounded flex-col gap-4 items-center justify-center text-center bg-gradient-primary"
+            className="relative text-white flex rounded flex-col gap-4 items-center justify-center text-center overflow-hidden bg-card"
         >
-            <CardHeader>
+            <TopGlow />
+            <CardHeader className="relative z-10">
                 <h2 class="text-xl font-bold max-w-100">{leftCard.title}</h2>
             </CardHeader>
-            <CardContent className="flex flex-col gap-6 items-center pb-0">
+            <CardContent className="relative z-10 flex flex-col gap-6 items-center pb-0">
                 <p class="max-w-100">
                     {leftCard.description}
                 </p>
             </CardContent>
             {
                 leftCard.showButton && (
-                    <CardFooter className="flex gap-4 mt-4">
+                    <CardFooter className="relative z-10 flex gap-4 mt-4">
                         <BookDemoButton t={t} variant="white" />
                     </CardFooter>
                 )

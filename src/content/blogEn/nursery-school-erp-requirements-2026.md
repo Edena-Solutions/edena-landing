@@ -1,104 +1,117 @@
 ---
-title: "Nursery school ERP: what to look for in 2026"
+title: "What an ERP for nursery schools should have in 2026"
 date: "2026-04-08"
-description: "Places, billing, families, documents and app: buying criteria and real modules for choosing the right nursery management platform in 2026."
-tags: ["nursery school ERP", "nursery management software", "early years management", "childcare billing software", "nursery platform", "Edena"]
+description: "Specific ERP requirements for nursery schools. Practical guide for educational centers in Spain (2026)."
+tags:
+    - "ERP nursery schools"
+    - "daycare software"
+    - "educational management"
+    - "child billing"
+    - "school platform"
+    - "Eden"
 author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop"
+relatedPosts:
+  - school-management-software-comparison-spain-2026
+  - school-software-purchase-checklist-2026
+  - best-school-management-software
+  - choosing-school-management-software
+faqs:
+  - question: "Is Verifactu already mandatory for nursery schools?"
+    answer: "The obligation and calendar are defined by the tax regulations and the implementation calendar; Consult with your tax advisor. What you should demand from the supplier is clarity about how it supports electronic billing, in what period, and what support it offers for the transition."
+  - question: "Can an ERP for children also manage students with special needs?"
+    answer: "The digital file can store specific information on adaptations, authorizations and protocols. The level of detail and structure of those logs depends on how you configure the system; See what customizable fields the provider offers for this profile before you commit."
+  - question: "How do you manage the transition from an old system without losing critical data?"
+    answer: "Require a phased migration plan from the provider: first master data (students, tutors, groups), then collection history, then documents. Validate with real data before closing the old system and plan a coexistence period. Without that plan, the risk of losing history of non-payments or contracts is real."
+  - question: "How long does it take for the platform to be operational?"
+    answer: "It depends on the volume of data, the complexity of the center and the level of customization. In centers with up to 150 places, a basic pilot can be active in four to six weeks with migration and training included, if an internal manager is dedicated."
+  - question: "Is the extracurricular module worth it if we have few activities?"
+    answer: "If the activities generate their own charges and have limited places, the module avoids email management and the parallel registration form circuit. If you only have one activity with free registration and no charge, evaluate if the cost of the module is worth it."
 ---
 
-<strong>Nursery school ERP: what to look for in 2026</strong>
+<strong>What an ERP for nursery schools should have in 2026</strong>
 
 <br>
 
-A nursery or early years setting has very specific operational needs: monthly or termly payment cycles, limited places with long waiting lists, a very high-frequency relationship with families, and a regulatory load that demands traceability in authorisations, allergy records and safeguarding protocols. The "nursery ERP" is, in essence, the tool that holds that daily operation together without the head, admin and key workers depending on spreadsheets, emails and filing cabinets. In 2026, the question is no longer "whether to go digital" but "how to choose the platform that covers billing, families, documents and enrolment without creating more bureaucracy than it solves". Edena offers, according to contracted modules: base platform with digital pupil records, org chart, portal and app for families and staff, basic communication, onboarding, family self-service and analytics; electronic billing with Verifactu, invoices and arrears analysis; CRM with enrolment applications, pipeline and forms; extracurricular activities; automation; a school shop; and cloud documentation — all as listed in the public module catalogue, with nothing invented.
+A nursery school or daycare has very specific needs: monthly or quarterly payment cycles, limited places with long waiting lists, a very high frequency relationship with families, and a regulatory burden that requires traceability in authorizations, allergies and protocols. The "ERP for nursery schools" is, in essence, the tool that sustains this day-to-day life without management, administration and tutors depending on spreadsheets, emails and closets with folders. In 2026, the question is no longer "whether to digitize" but "how to choose the platform that covers collection, families, documents and deposits without creating more bureaucracy." Edena offers, according to contracted modules, a base platform with digital file, organizational chart, portal and app for families and team, basic communication, onboarding, family self-management and analytics; electronic billing with Verifactu, receipts and analysis of non-payments; CRM with enrollment requests, pipeline and forms; extracurriculars; automation; store; and cloud documentation, all according to the public catalog, without inventing capabilities.
 
 <br>
 
-<strong>The nursery-specific needs that generic systems often ignore</strong>
+<strong>The specific needs of children that many generic systems ignore</strong>
 
 <br>
 
-Billing cycles in nursery settings are not the same as in a primary school: there are fixed monthly fees, additional services (meals, early drop-off, activities), variability by attendance days in some cases, and subsidies or discounts based on the setting's criteria or public authority funding. A generic system without recurring billing logic, without integrated arrears management and without segmented due-date notifications turns those processes into manual work. The waiting list is another critical element: without an enrolment pipeline with statuses, lead sources and candidate follow-up, places are managed via an admin spreadsheet and unrecorded phone calls, which generates conflicts with families who "had been waiting longer".
+The billing cycles in nursery schools are not the same as those of a primary school: there are fixed monthly fees, additional services (dining room, early risers, activities), variability by days of attendance in some cases, and bonuses according to the criteria of the center or the public administration. A generic system without recurrence logic, without integrated default management and without segmented due notification turns these processes into manual work. The waiting list is another critical element: if there is no recruitment pipeline with statuses, origins and tracking of candidates, places are managed with secretarial Excel and calls without registration, which generates conflicts with families who "have been waiting longer."
 
 <br>
 
-<strong>Non-negotiables: what cannot be missing</strong>
+<strong>Hard requirements: what cannot be missing</strong>
 
 <br>
 
-- Recurring billing with a cycle aligned to family reality: traceable invoices, per-child history and arrears analytics.
-- Communication that actually arrives: basic if message volume is low; Pro with push notifications and read receipts when the frequency and importance of messages justify it.
-- Place and extracurricular management with capacity limits and linked billing, to avoid a third informal circuit running on paper.
-- Digital pupil records with authorisations, health data, ID photos and admission documents with controlled visibility.
-- CRM if you have a waiting list or multiple intake channels, to avoid rebuilding the pipeline on new spreadsheets every season.
-- Analytics that the head and admin team agree on, with the same definitions, so the monthly review closes with data, not impressions.
+- Recurring collection with a calendar aligned to the families' reality, with traceable receipts, history per student and late payment analysis.
+- Communication that arrives: basic if the volume of messages is low, Pro with push and confirmation when the frequency and importance of the message justify it.
+- Management of places and extracurricular activities with capacity limits and linked charges, so as not to create a third informal circuit on paper.
+- Digital file with authorizations, health data, ID photographs and admission documents with controlled visibility.
+- CRM if you have a waiting list or several entry routes, so as not to rewrite the funnel every season on new sheets.
+- Analysis that management and administration agree upon, with the same definitions, to close the monthly committee with data, not with impressions.
 
 <br>
 
-<strong>What to ask for in the demo, with your own data, not demo data</strong>
+<strong>What to ask in the demo, with your data and not with toy data</strong>
 
 <br>
 
-Ask to follow the complete flow from a place application through to the first payment and the upload of the collection authorisation. If you cannot trace those three points in ninety minutes without manually re-entering data, the system is not integrated. Also ask to see how an arrears case is managed: how many clicks to see which families have overdue invoices, when the last reminder was sent and what the current status is. That thirty-second flow in the demo reveals more than two hours of catalogue presentation.
+It asks you to go through the entire flow from a place request to the first payment and the loading of the collection authorization. If in ninety minutes you do not see traceability between those three points without manual re-writing of data, the system is not integrated. Also ask to see how a non-payment is managed: how many clicks to see which families have overdue bills, when the last notice was issued and what the current status is. That thirty-second flow in the demo reveals more than two hours of catalog presentation.
 
 <br>
 
-<strong>Total cost of ownership over three years: do not be driven by licence price alone</strong>
+<strong>Three-year TCO: don't get carried away by the license price alone</strong>
 
 <br>
 
-The per-child or per-place price is just the first layer. Add: the cost of migrating data from the previous system, training hours (for the whole team, not just one person who "figured it out"), the cost of running the old system in parallel during transition, any third-party integrations you will now need to retire or connect, and the risk of re-migrating in two years if the system does not scale. A system that looks cheap but forces you to use a third party for billing and another for families will end up costing more than an integrated platform with modular pricing.
+The price per student or per place is only the first layer. Add: cost of migrating data from the old system, hours of training (from the team, not just from "someone who learned alone"), cost of keeping the old system in parallel during the transition, possible integrations with external applications that you will now have to throw away or connect, and the risk of re-migrating in two years if the system does not scale. An ERP that seems cheap but forces you to a third party for billing and another for families ends up costing more than an integrated one with a modular price.
 
 <br>
 
-<strong>Common mistakes in nurseries</strong>
+<strong>Frequent errors in nursery schools</strong><br>
+
+- Choose by base price without calculating the total cost of migration and training.
+- Hire the Pro communication module and do not define templates, managers or frequency criteria: the channel is left empty of discipline.
+- Without a process manager: the system does not set the places policy or the dining room criteria; it only executes the rules you define.
+- Start with all the functionality on day one without a prior pilot, saturating the team with change and technology at the same time.
 
 <br>
 
-- Choosing on base price without calculating the full migration and training cost.
-- Purchasing the Pro communication module without defining templates, responsible staff or frequency criteria: the channel remains empty of discipline.
-- No process owner: the system does not set place policy or meal criteria; it only executes the rules you define.
-- Starting with full functionality on day one without a prior pilot, overwhelming the team with change and technology simultaneously.
+<strong>Child-specific ERP requirements</strong>
 
 <br>
 
-<strong>Frequently asked questions</strong>
+- **Places and ratios:** Control of occupancy per classroom and regulatory compliance.
+- **Menus and allergies:** Integrated into the file and daily communication with families.
+- **Collection authorizations:** Authorized persons updatable without paper at reception.
+- **Billing per day:** Half day, dining room, early risers with differentiated rates.
+- **Daily communication:** Food, nap or incident reports with traceability.
 
 <br>
 
-<strong>Is Verifactu already mandatory for nursery settings?</strong>
-<br>
-
-The obligation and timeline is defined by tax regulation and the implementation calendar; check with your accountant or tax adviser. What you must ask the vendor is clear detail on how they support electronic billing, on what timeline, and what transition support they offer.
+<strong>Context in Spain: what a school ERP requires in 2026</strong>
 
 <br>
 
-<strong>Can an ERP for nurseries manage children with special educational needs?</strong>
-<br>
+Beyond grades and attendance, school management software in Spain must cover billing (including Verifactu preparation), family portal or app, file with minor data under GDPR and LOPDGDD, and communications traceability. Buying an isolated SIS when the real pain is in secretarial, collections and families usually ends in duplicating data between three tools.
 
-The digital pupil record can store information about adaptations, authorisations and protocols. The level of detail and structure of those records depends on how you configure the system; check what customisable fields the vendor offers for this profile before committing.
+In nursery schools they weigh places, ratios, menus and allergies; in academies, bonuses, seasons and multiple venues; in private schools, differentiated fees, internal scholarships and commercial recruitment. An ERP that works in language academies may fall short if you manage child, NEAE or dining room ratios with billing per day.
 
-<br>
-
-<strong>How do you handle the transition from a legacy system without losing critical data?</strong>
-<br>
-
-Require the vendor to provide a phased migration plan: master data first (pupils, families, groups), then billing history, then documents. Validate with real data before closing the old system and plan a coexistence period. Without that plan, the risk of losing arrears history or signed contracts is real.
+Evaluates three-year TCO: license, migration, training, internal coordination hours and cost of bridge integrations. Request a demo with your real data (five families, one cycle of receipts) before deciding. Software that seems cheaper at the beginning can become more expensive if it forces you to add CRM, billing or communication separately.
 
 <br>
 
-<strong>How long until the platform is fully operational?</strong>
-<br>
-
-It depends on data volume, setting complexity and the level of personalisation needed. In settings with up to 150 places, a basic pilot can be live in four to six weeks including migration and training, if there is a dedicated internal lead.
+<strong>Case study (Spain)</strong>
 
 <br>
 
-<strong>Is the extracurricular module worth it if we only run a few activities?</strong>
-<br>
-
-If activities generate their own fees and have limited places, the module eliminates email-based management and the parallel paper sign-up circuit. If you only run one activity with open enrolment and no charge, assess whether the module cost justifies the benefit.
+An 85-place nursery school in Girona evaluated three providers with the same checklist: enrollment, menus, billing and family app. The 10-week pilot with real data revealed that only one closed the application-enrollment-payment cycle without Excel. The change cost them 40 hours of migration, but they eliminated duplicate data in three tools.
 
 <br>
 
@@ -106,4 +119,6 @@ If activities generate their own fees and have limited places, the module elimin
 
 <br>
 
-An ERP for nurseries in 2026 is not a technology novelty: it is the difference between a team that works with clear criteria and audit trails, and one that reconstructs reality every Monday from three separate sources. Choose with TCO, demo with your own data and an aligned team. With Edena you can start with the modules you will actually use from day one and add more when volume justifies it, with 24/7 support and no hidden catalogue surprises. Request a session and see the full flow with your own places, your billing cycle and your family communication.
+An ERP for nursery schools in 2026 is not a technological whim: it is the difference between a team that works with criteria and traces, and one that reconstructs reality every Monday from three different sources. Choose with TCO, demo with your data and aligned committee. In Edena you can start with the modules that you are really going to power and add when the volume justifies it, with 24/7 support and no catalog surprises. Request a session and see the complete flow with your places, your collection cycle and your communication.
+
+<br>

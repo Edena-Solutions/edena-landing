@@ -5,6 +5,7 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion";
 import type { Translation } from "@/i18n";
+import { cn } from "@/lib/utils";
 
 type FAQRecord = Translation["faqs"];
 type FAQStringValue = string;
@@ -22,11 +23,12 @@ export interface FAQItem {
 interface FAQAccordionProps {
     faqs: FAQItem[];
     t: Translation;
+    className?: string;
 }
 
-export default function FAQAccordion({ faqs, t }: FAQAccordionProps) {
+export default function FAQAccordion({ faqs, t, className }: FAQAccordionProps) {
     return (
-        <div className="w-full max-w-3xl mx-auto">
+        <div className={cn("w-full max-w-3xl mx-auto", className)}>
             <Accordion type="single" collapsible className="w-full">
                 {faqs.map((faq, index) => {
                     return (

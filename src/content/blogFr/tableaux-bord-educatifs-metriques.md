@@ -5,8 +5,18 @@ description: "Tableau de bord pédagogique et indicateurs : comment utiliser les
 tags: ["tableau de bord pédagogique indicateurs", "données", "direction", "KPI"]
 author: "Équipe Edena"
 cover: "https://plus.unsplash.com/premium_photo-1667850562258-b77dfa54c79d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+faqs:
+  - question: "Faut-il un outil de BI en plus du logiciel de gestion ?"
+    answer: "Souvent, les logiciels de gestion scolaire suffisent souvent pour encaissement, rétention et présence. Un outil de BI a du sens quand beaucoup de sources doivent être croisées ou pour des modèles sur mesure."
+  - question: "Qui paramètre le tableau ?"
+    answer: "L'idéal est un binôme processus (admin, direction) et éditeur. Les tableaux doivent répondre à des questions métiers, pas seulement aux rapports par défaut."
+  - question: "Financier et pédagogique sur le même écran ?"
+    answer: "Oui pour une vue de synthèse direction ; évitez d'y mêler le détail opérationnel (liste d'impayés) et les grands principes (rétention) sur le même panneau pour le même rôle, si cela embrouille la lecture."
+  - question: "Fréquence de mise à jour ?"
+    answer: "Selon l'indicateur : en direct ou journalier pour l'encaissement et les alertes ; hebdo ou mensuel pour occupation et rétention. L'important est l'automatisation depuis le SI."
+  - question: "Comment ne pas l'abandonner ?"
+    answer: "L'ancrer à des rituels (comité de direction, revue des impayés) et en tirer des décisions visibles. Sans action, le tableau ne sert à rien."
 ---
-
 <strong>Comment utiliser des tableaux de bord pédagogiques pour améliorer les indicateurs académiques et financiers</strong>
 <br>
 
@@ -126,53 +136,3 @@ Un collège a configuré un tableau direction avec encaissement, rétention par 
 6. Chaque année, réévaluer la pertinence des indicateurs.
 
 <br>
-
-<strong>Questions fréquentes</strong>
-<br>
-
-<br>
-<strong>Faut-il un outil de BI en plus du logiciel de gestion ?</strong>
-<br>
-
-Souvent, les logiciels de gestion scolaire suffisent souvent pour encaissement, rétention et présence. Un outil de BI a du sens quand beaucoup de sources doivent être croisées ou pour des modèles sur mesure.
-
-<br>
-<strong>Qui paramètre le tableau ?</strong>
-<br>
-
-L'idéal est un binôme processus (admin, direction) et éditeur. Les tableaux doivent répondre à des questions métiers, pas seulement aux rapports par défaut.
-
-<br>
-<strong>Financier et pédagogique sur le même écran ?</strong>
-<br>
-
-Oui pour une vue de synthèse direction ; évitez d'y mêler le détail opérationnel (liste d'impayés) et les grands principes (rétention) sur le même panneau pour le même rôle, si cela embrouille la lecture.
-
-<br>
-<strong>Fréquence de mise à jour ?</strong>
-<br>
-
-Selon l'indicateur : en direct ou journalier pour l'encaissement et les alertes ; hebdo ou mensuel pour occupation et rétention. L'important est l'automatisation depuis le SI.
-
-<br>
-<strong>Comment ne pas l'abandonner ?</strong>
-<br>
-
-L'ancrer à des rituels (comité de direction, revue des impayés) et en tirer des décisions visibles. Sans action, le tableau ne sert à rien.
-
-<br>
-
-<strong>Conclusion</strong>
-<br>
-
-Un tableau de bord bien utilisé améliore les indicateurs car il rend visibles des réalités qu'on agit tôt. Peu d'indicateurs par public, rôles clairs, alertes, revue périodique : voilà qui boucle la boucle.
-
-<strong>En cinq points :</strong>
-
-1. Un tableau de bord regroupe l'essentiel sur l'encaissement, la rétention, l'occupation, la présence.
-2. Adapter les vues (direction, admin, coord.).
-3. Les alertes (impayé, absentéisme, occupation) font grimper l'utilité.
-4. Mieux vaut peu d'indicateurs utiles qu'une pléthore inutilisée.
-5. Revue + action régulière.
-
-Vous voulez voir comment cela s'applique chez vous ? Demandez une démonstration : nous identifions avec vous les indicateurs prioritaires (encaissement, rétention, présence).

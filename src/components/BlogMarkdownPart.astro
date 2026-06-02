@@ -1,0 +1,12 @@
+---
+import { renderBlogBodyHtml } from "@/lib/render-blog-markdown";
+
+interface Props {
+    markdown: string;
+}
+
+const { markdown } = Astro.props;
+const html = renderBlogBodyHtml(markdown);
+---
+
+{html && <div set:html={html} />}

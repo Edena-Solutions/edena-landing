@@ -1,71 +1,87 @@
 ---
-title: "Pedagogia-metodologia berritzaileak: irakaskuntza-ikaskuntza prozesua eraldatzen"
+title: "Metodologia pedagogiko berritzaileak: Irakaskuntza-ikaskuntza prozesua eraldatzea"
 date: "2025-08-10"
-description: "Ezagutu hezkuntza iraultzen ari diren pedagogia-metodologia berritzaileenak eta nola inplementatu eraginkortasunez zure hezkuntza-zentroan."
-tags: ["pedagogia-metodologiak", "hezkuntza-berrikuntza", "irakaskuntza aktiboa", "ikaskuntza"]
-author: "Edena taldea"
+description: "LOMLOE-rekin bat datozen metodologia aktiboak. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+tags:
+    - "metodologías pedagógicas"
+    - "innovación educativa"
+    - "enseñanza activa"
+    - "aprendizaje"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1611348586755-53860f7ae57a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - pedagogia-berrikuntza-teknologia
+  - hezkuntzako-ebaluazio-digitala
+  - etorkizuneko-hezkuntza-espazioen-diseinua
+  - ikasleen-ongizate-emozional-digitala
+faqs:
+  - question: "Metodologia aktiboa administratzaile kargatu gabe?"
+    answer: "Planifikazioa eskatzen du; Zerrendak digitalizatzeak diseinatzeko denbora askatzen du."
+  - question: "Barne prestakuntza?"
+    answer: "Sailen arteko ikas komunitateak, ez kanpoko ikastaroa bakarrik."
+  - question: "Nola ebaluatu berrikuntza?"
+    answer: "Gaitasun-adierazle nagusiak, ez bakarrik irakasleen gogobetetasuna."
 ---
 
-<strong>Pedagogia-metodologia berritzaileak: irakaskuntza-ikaskuntza prozesua eraldatzen</strong>
+<strong>Metodologia pedagogiko berritzaileak: Irakaskuntza-ikaskuntza prozesua eraldatzea</strong>
 
 <br>
 
-Hezkuntzaren ikuspegia funtsezki eraldatzen ari da bere pedagogia-ikuspegietan. Irakaskuntza-metodo tradizionalak balio historikoa izan badute ere, XXI. mendeko ikasleen beharrak hobeto asetzen dituzten metodologia berritzaileek osatzen eta kasu askotan ordezkatzen dituzte. Zenbaki pedagogiko berri horiek ez dute soilik ikaskuntzaren eraginkortasuna hobetzen; mundu aldakorrean aurre egiteko gaitasun kritikoak garatzen dituzte ere, hala nola sormena, lankidetza eta arazoen ebazpena.
+Hezkuntza-paisaia oinarrizko eraldaketa jasaten ari da bere ikuspegi pedagogikoetan. Irakaskuntza-metodo tradizionalak, bere balio historikoa izan badute ere, 2026ko ikasleen beharrei hobeto erantzuten dieten metodologia berritzaileekin osatu eta ordezkatzen ari dira kasu askotan. Ikuspegi pedagogiko berri hauek ikaskuntzaren eraginkortasuna hobetzeaz gain, ikasleak etengabe aldatzen ari den mundu baten erronkei aurre egiteko prestatzen dituzte, gaitasun kritikoak garatuz, hala nola pentsamendu sortzailea, lankidetza eta arazoak konpontzeko.
 
 <br>
 
-<strong>Ikaslean zentratutako metodologietara eboluzioa</strong>
+<strong>Ikaslean zentratutako metodologietarako bilakaera</strong>
 
 <br>
 
-Pedagogia modernoko aldaketa nabarmenena irakaslean zentratutako ereduetatik ikaslean zentratutako ikuspegietara desplazamendua da. Trantsizio honek ikasle bakoitza bakarra dela onartzen du, ikaskuntza-estilo, ulermen-erritmo eta interes-eremu desberdinak dituztela eta hezkuntza-potentziala maximizatzeko aprobetxatu daitezkeela.
+Pedagogia modernoaren aldaketarik esanguratsuena irakasleengan zentratutako ereduetatik ikasleengan zentratutako ikuspegietara igarotzea da. Trantsizio honek ikasle bakoitza bakarra dela onartzen du, hezkuntza-potentziala maximizatzeko aprobetxatu daitezkeen ikaskuntza-estilo, ulermen-tasa eta interes-eremu desberdinak dituela.
 
-Ikaslean zentratutako metodologiak ikaskuntza aktiboa bultzatzen dute, non ikasleak ezagutzaren eraikuntzan parte-hartzaile aktiboak diren informazio pasiboaren hartzaile izan beharrean. Ikuspegi honek pentsamendu kritikoa, autonomia intelektuala eta ikaskuntza-prozesuaren gaineko erantzukizun pertsonala garatzen ditu.
+Ikaslean zentratutako metodologiek ikaskuntza aktiboa sustatzen dute, non ikasleak beren ezagutzak eraikitzeko parte-hartzaile aktiboak diren informazioaren hartzaile pasiboak beharrean. Ikuspegi honek pentsamendu kritikoaren trebetasunak, autonomia intelektuala eta ikasketa prozesuarekiko erantzukizun pertsonala garatzen ditu.
 
-Ikaskuntzaren pertsonalizazioa elementu zentral bihurtzen da, ikasle bakoitza bere gaitasun eta behar zehatzen arabera aurrera egin dezan ahalbidetuz. Hezitzaileak errazle eta gidari gisa jokatzen dute, laguntza pertsonalizatua emanez eta ikasleei beren interesak esploratu eta indarguneak garatzeko aukerak sortuz.
-
-<br>
-
-<strong>Proiektuetan oinarritutako ikaskuntza (POI)</strong>
+Ikaskuntzaren pertsonalizazioa elementu zentral bihurtzen da, ikasle bakoitzak bere gaitasun eta behar zehatzen arabera aurrera egiteko aukera emanez. Hezitzaileek dinamizatzaile eta gidari gisa jarduten dute, laguntza indibidualizatua eskainiz eta ikasleei euren interesak aztertzeko eta indarguneak garatzeko aukerak sortuz.
 
 <br>
 
-Proiektuetan oinarritutako ikaskuntza ikaskuntza akademikoa mundu errealeko aplikazioekin lotzen duten metodologia eraginkorrenetako bat da. Ikuspegi honetan, ikasleek ezagutza teorikoak aplikatu behar dituzten proiektu konplexu eta multidisziplinarioetan lan egiten dute benetako arazoak ebazteko.
-
-Proiektu eraginkorrak komunitatearen edo gai sozialen kontzientziazio-kanpainak bezalako gai esentzialak eta erronka errealek jasotzen dituztenak dira. Ikasleek ingurumen-jasangarritasun ekimenetan lan egin, arazo lokalentzako teknologia-konponbideak garatu edo gai sozial garrantzitsuei buruzko kanpainak sortu ditzakete.
-
-Metodologia honek proiektuen kudeaketa, talde-lana, komunikazio eraginkorra eta pentsamendu kritikoa bezalako gaitasun transbertsal funtsezkoak garatzen ditu. Ikasleek proiektu konplexuak planifikatu, exekutatu eta ebaluatzen ikasten dute, zuzenean lan-merkatuan transferitu daitezkeen trebetasunak.
-
-POIn hezitzailearen eginkizuna prozesua gidatzen duen mentorea da, baliabideak eta atzeraelikaduna ematen dituena baina ikasleei beren proiektuen jabetza mantentzen uzten diena. Autonomia horrek konfiantza, ekimena eta lidergo-trebetasunak garatzen ditu.
+<strong>Proiektuetan oinarritutako ikaskuntza (PBL)</strong>
 
 <br>
 
-<strong>Lankidetza- eta elkarlanean oinarritutako ikaskuntza</strong>
+Proiektuetan oinarritutako ikaskuntza ikaskuntza akademikoa mundu errealeko aplikazioekin konektatzeko metodologia eraginkorrenetako bat da. Planteamendu horretan, ikasleek diziplina anitzeko proiektu konplexuak lantzen dituzte, benetako problemak ebazteko ezagutza teorikoak aplikatzea eskatzen dutenak.
+
+Proiektu eraginkorrak komunitatearen edo gizartearen benetako funtsezko galdera eta erronkei erantzuten dietenak dira. Ikasleek ingurumen-iraunkortasuneko ekimenetan lan egin dezakete, tokiko arazoetarako konponbide teknologikoak garatu edo gizarte-arazoei buruzko sentsibilizazio kanpainak sortu ditzakete.
+
+Metodologia honek zeharkako oinarrizko gaitasunak garatzen ditu, hala nola proiektuen kudeaketa, talde-lana, komunikazio eraginkorra eta pentsamendu kritikoa. Ikasleek proiektu konplexuak planifikatzen, exekutatzen eta ebaluatzen ikasten dute, mundu profesionalera zuzenean transferi daitezkeen trebetasunak.
+
+Hezitzailearen eginkizuna PBLn prozesua gidatzen duen, baliabideak eta iritzia ematen duen tutore batena da, baina ikasleei beren proiektuen gaineko jabetza mantentzea ahalbidetzen die. Autonomia honek konfiantza, ekimena eta lidergo gaitasunak garatzen ditu.
 
 <br>
 
-Lankidetza- eta elkarlanean oinarritutako metodologiak ikaskuntza funtsean prozesu sozial bat dela onartzen dute, ikaskideen arteko elkarreraginaren bidez aberasten dena. Ikuspegi horiek talde-jarduerak arretaz egituratzen dituzte kide guztien parte-hartzea eta ikaskuntza maximizatzeko.
-
-Elkarlanean oinarritutako ikaskuntzak egitura zehatzak erabiltzen ditu kideen arteko mendekotasun positiboa bermatzeko. Ikasle bakoitzak rol zehatz bat du eta taldearen arrakasta partaide guztien ekarpen eraginkorraren menpekoa da. Honek gaitasun sozialak, enpatia eta erantzukizun kolektiboa garatzen ditu.
-
-Puzzle (jigsaw) bezalako teknikak, non ikasle bakoitza edukiaren zati zehatz batean aditu bihurtzen den eta gero ikaskideei irakasten dien, ikaskuntza indibiduala eta erantzukizun taldekoa konbinatzen ditu. Eztabaida egituratuak, ikerketa taldekideak eta aurkezpen lankidetzatsuak beste estrategia eraginkor batzuk dira.
-
-Lankidetza-ingurunuetako ebaluazioak banakako eta taldeko osagaiak barne hartzen ditu, lorpen pertsonalak eta talde-lana aitortzen dituena. Honek ikasleei erantzukizun indibiduala eta helburu kolektiboak orekatzen irakasten die.
+<strong>Ikaskuntza kooperatiboa eta kolaboratiboa</strong>
 
 <br>
 
-<strong>Gela iraulia</strong>
+Ikaskuntza kooperatibo eta kolaboratiboko metodologiek aitortzen dute ikaskuntza, funtsean, berdinen arteko elkarrekintzaren bidez aberasten den prozesu soziala dela. Planteamendu hauek talde-jarduerak arretaz egituratzen dituzte kide guztien partaidetza eta ikaskuntza maximizatzeko.
+
+Ikaskuntza kooperatiboak taldekideen arteko elkarrekiko mendekotasun positiboa bermatzen duten egitura espezifikoak erabiltzen ditu. Ikasle bakoitzak eginkizun zehatz bat du eta taldearen arrakasta parte hartzaile guztien ekarpen eraginkorraren araberakoa da. Horrek trebetasun sozialak, enpatia eta erantzukizun kolektiboa garatzen ditu.
+
+Jigsaw bezalako teknikek, non ikasle bakoitza eduki zehatz batean aditua den eta gero bere kideei irakasten dien, banakako ikaskuntza eta taldeko ardura uztartzen dituzte. Eztabaida egituratuak, talde ikerketak eta lankidetza-aurkezpenak dira beste estrategia eraginkor batzuk.
+
+Lankidetza-inguruneetako ebaluazioak banakako zein taldeko osagaiak hartzen ditu barne, lorpen pertsonalak zein talde-lana aintzat hartzen direla bermatuz. Honek ikasleei erantzukizun indibiduala eta helburu kolektiboak orekatzen irakasten die.
 
 <br>
 
-Gela irauli metodologiak gelaren egitura tradizionala funtsezki eraldatzen du, informazioaren transmisioa gelatik kanpora eramanez eta denbora presentziala aplikazio, eztabaida eta sintesi jardueretarako dedikatuz. Ikasleek teoria-edukia bideo, irakurketak edo baliabide digitalen bidez etxean eskuratzen dute, klaseko denbora jarduera interaktiboago eta pertsonalizatuagoetarako askatuz.
+<strong>Ikasgela irauli edo alderantzikatua</strong>
 
-Ikuspuntu honek hezitzaileei denbora presentzialean arreta pertsonalizatuagoa eskaintzen die, ulermen-zailtasun zehatzak identifikatu eta jartzeko. Ikasleek material teorikoa beren erritmoan berrikusi ditzakete, atalak pausatu eta errepikatu beharren arabera.
+<br>
 
-Jarduera presentzialak aplikazio praktikoan, arazoen ebazpenean, eztabaida sakonetan eta lankidetza-lanean zentratzen dira. Honek hezitzaile eta ikaskideekin denboraren balioa maximizatzen du, aurpegizko elkarreragina behar duten jardueretarako presentzia aprobetxatuz.
+Flipped classroom metodologiak errotik eraldatzen du klaseen egitura tradizionala, informazioaren transmisioa ikasgelatik kanpo mugituz eta aurrez aurreko denbora eskainiz aplikazio, eztabaida eta sintesi jarduerei. Ikasleek bideo, irakurgai edo baliabide digitalen bidez eskuratzen dituzte eduki teorikoak etxean, klaseko denbora librez jarduera interaktibo eta pertsonalizatuagoetarako.
 
-Gela irauli eraginkorrak ikaskuntza autonomorako material kalitatezkoa eta ikasitako edukian oinarritutako presentzial-jarduera arretaz diseinatuak behar ditu.
+Ikuspegi horri esker, hezitzaileei arreta pertsonalizatuagoa eskain diezaiekete pertsona-denboran, ulermen-zailtasun zehatzak identifikatuz eta zuzenduz. Ikasleek material teorikoak beren erritmoan berrikusi ditzakete, beharrezkoak diren atalak pausatu eta errepikatuz.
+
+Presentziako jarduerak aplikazio praktikoan, arazoen ebazpenean, eztabaida sakonetan eta lankidetza-lanean oinarritzen dira. Honek hezitzailearekin eta ikaskideekin duen denboraren balioa maximizatzen du, presentzia fisikoa erabiliz giza elkarrekintza zuzena behar duten jardueretarako.
+
+Ikasgela irauliaren ezarpen eraginkorrak kalitate handiko materialak behar ditu ikaskuntza autonomorako eta modu independentean ikasitako edukietan oinarritzen diren pertsonalki arretaz diseinatutako jarduerak.
 
 <br>
 
@@ -73,55 +89,55 @@ Gela irauli eraginkorrak ikaskuntza autonomorako material kalitatezkoa eta ikasi
 
 <br>
 
-Gamifikazioak jokoaren elementuak eta mekanikak hezkuntza-testuinguruan aplikatzen ditu motibazioa, konpromisoa eta informazioaren atxikipena handitzeko. Metodologia honek erronka, lorpen eta aurrerapen ikusgarrirako giza motibazio intrintsekoaz baliatzen du.
+Gamification-ek joko-elementuak eta mekanikak aplikatzen ditu hezkuntza-testuinguruan motibazioa, konpromisoa eta informazioa atxikitzeko. Metodologia honek giza motibazio intrintsekoa aprobetxatzen du erronketarako, lorpenetarako eta aurrerapen ikusgarrietarako.
 
-Gamifikazio sistemek puntu, domina, maila, sailkapen-taulak eta murgiltze-narrazioak barne har ditzakete. Ikasleek zereginak osatzeagatik puntu irabazi, gaitasun zehatzak erakustean dominak desblokeatu eta aurrerapen akademikoa irudikatzen duten mailen bidez aurrera egin dezakete.
+Gamifikazio-sistema eraginkorrak, besteak beste, puntuak, txapak, mailak, sailkapenak eta esperientzia murgilgarriak eta motibagarriak sortzen dituzten narrazioak barne hartzen ditu. Ikasleek lanak burutzeagatik puntuak lor ditzakete, konpetentzia espezifikoak erakusteko txapak desblokeatu eta aurrerapen akademikoa adierazten duten mailetan aurrera egin dezakete.
 
-Hezkuntza-misioek ikaskuntza-proiektuak elkarreragin murgiltzaileko abentura bihurtzen dituzte, non ikasleek erronka gainditu eta aurrera egiteko puzzleak ebatzi behar dituzten. Ihes-gela digitalak eta hezkuntza-ihs-gelak dibertsioa ikaskuntza sakonekin konbinatzen dituzte.
+Hezkuntza-misioek ikaskuntza-proiektuak abentura interaktibo bihurtzen dituzte, non ikasleek erronkak osatu eta puzzleak konpondu behar dituzten aurrera egiteko. Escape room digitalak eta hezkuntzako ihes gelak dibertsioa eta ikaskuntza sakona uztartzen ditu.
 
-Gamifikazioa perseberantzia eta erresilientzia garatzeko bereziki eraginkorra da, jokoek huts egitea ikaskuntza-prozesuaren zati normaltzat normalizatzen eta arrakasta lortzeko saiakera anitz bultzatzen baitituzte.
-
-<br>
-
-<strong>Arazoetan oinarritutako ikaskuntza (AOI)</strong>
+Gamifikazioa bereziki eraginkorra da iraunkortasuna eta erresilientzia garatzeko, jolasek porrota normalizatzen baitute ikaskuntza-prozesuaren zati gisa eta arrakasta lortzeko saiakera anitzak bultzatzen baititu.
 
 <br>
 
-Arazoetan oinarritutako ikaskuntzak ikasleei konponbide sinple edo bakarrak ez dituzten arazo konplexu eta benetakoekin aurkezten die. Ikasleek ikerketa, analisia eta konponbideak garatu behar dituzte diziplina anitzeko ezagutzak erabiliz.
-
-AOIn arazo eraginkorrak eremu profesionaletan profesionalek aurre egiten dieten erronka errealei islatzen dietenak dira. Kasu medikoak, dilema etikoak, ingurumen-erronkak edo ingeniaritza-arazoak barne har ditzakete, pentsamendu kritiko eta sormena eskatzen dutenak.
-
-AOI prozesu tipikoa arazoa konponbidea nola aurkitu aurretiko informazioarekin aurkeztearekin hasten da. Ikasleek zein ezagutza behar duten, non aurkitu eta nola aplikatu eraginkortasunez identifikatu behar dute. Ikuspegi honek ikerketa independentea eta ikaskuntza autoregulatua garatzen ditu.
-
-AOI inguruneko hezitzaileak erronka gidatzen duten errazle gisa jokatzen dute galdera egokiak eginez baina erantzun zuzenak eman gabe. Honek ikasleen gaitasuna konfiantza ematen die arazo konplexuak modu independentean ebazteko.
+<strong>Arazoetan oinarritutako ikaskuntza (PBL)</strong>
 
 <br>
 
-<strong>Hezkuntzan diseinu-pentsamendua</strong>
+Arazoetan oinarritutako ikaskuntzak arazo konplexu eta benetakoak aurkezten dizkie ikasleei, soluzio sinple edo bakarrak ez dituztenak. Ikasleek soluzioak ikertu, aztertu eta garatu behar dituzte hainbat diziplinatako ezagutzak erabiliz.
+
+PBLn arazo eraginkorrak profesionalek beren esparruetan dituzten benetako erronkak islatzen dituztenak dira. Pentsamendu kritikoa eta sormena eskatzen duten kasu medikoak, dilema etikoak, ingurumen-erronkak edo ingeniaritza-arazoak izan ditzakete.
+
+PBL prozesua normalean arazoa aurkeztean hasten da hura konpontzeko aldez aurretiko informaziorik gabe. Ikasleek zer ezagutza behar duten identifikatu behar dute, non aurkitu eta nola aplikatu eraginkortasunez. Ikuspegi honek ikerketa independentea eta autoerregulatutako ikaskuntza gaitasunak garatzen ditu.
+
+PBL ezarpenetako hezitzaileek dinamizatzaile gisa jokatzen dute, prozesua galdera egokiekin gidatzen dutenak, baina erantzun zuzenak ematea saihesten dute. Honek ikasleek arazo konplexuak modu independentean ebazteko duten gaitasunean konfiantza garatzen du.
 
 <br>
 
-Diseinu-pentsamenduak diseinu-munduko berrikuntza eta sormen prozesuak hezkuntza-erronketara aplikatzen ditu. Metodologiak enpatia, ideazioa, prototipoen sortzea eta proba osagai zentral gisa nabarmentzen ditu.
-
-Ikasleek diseinu-pentsamenduko proiektuekin hasten dira arazoa jorratzen duten erabiltzaile edo interes-taldeei buruzko enpatia sakon garatuz. Horrek elkarrizketak, behaketak eta ikerketa barne har ditzake behar errealei eta erronkei buruz ulertzeko.
-
-Ideazio-faseak pentsamendu dibergentea eta sormena bultzatzen ditu, ideia guztiak ongi etorriak diren eta berehalako epaiketarik gabeko esplorazioan. Buruko-ekaitzak, mapa mentalak eta ideazio-jokoak ikasleei konponbide berritzaileak sortzen laguntzen dizkiete.
-
-Prototipoek ikasleei ideiak azkar eta ekonomikoki ukitu ahal izatea ahalbidetzen die, baliabide esanguratsuak konprometitu aurretik kontzeptuak probatzeko. Ikuspegi honek iterazioa eta hobekuntza berrikuntza-prozesuaren zati natural gisa normalizatzen ditu.
+<strong>Design thinking hezkuntzan</strong>
 
 <br>
 
-<strong>Moldakorreko eta pertsonalizatutako ikaskuntza</strong>
+Design thinking-ak diseinuaren mundutik berrikuntza eta sormen prozesuak aplikatzen ditu hezkuntza erronketara. Metodologia honek enpatia, ideiak, prototipoak eta probak azpimarratzen ditu ikaskuntza-prozesuaren osagai nagusi gisa.
+
+Ikasleak diseinatzen dituzten proiektuak hasten dira, jorratzen ari diren arazoaren eraginpean dauden erabiltzaileekiko edo interes-taldeekiko enpatia sakona garatuz. Honek elkarrizketak, behaketak eta ikerketak izan ditzake benetako beharrak eta erronkak ulertzeko.
+
+Ideiatze faseak pentsamendu dibergentea eta sormena bultzatzen ditu, non ideia guztiak ongi etorriak eta aztertzen diren berehalako epaiketarik gabe. Brainstorming, buru-mapak eta ideia-jokoak bezalako teknikek ikasleei irtenbide berritzaileak sortzen laguntzen diete.
+
+Prototipatzeari esker, ikasleek beren ideiak ukigarri bihur ditzakete azkar eta merke, kontzeptuak probatuz baliabide garrantzitsuak konprometitu aurretik. Ikuspegi honek iterazioa eta hobekuntza normalizatzen ditu berrikuntza-prozesuaren zati natural gisa.
 
 <br>
 
-Moldakorreko ikaskuntza-metodologiak teknologia eta datu-analisia erabiltzen dituzte hezkuntza-esperientziak ikasle bakoitzaren behar, lehentasun eta aurrerapenaren arabera pertsonalizatzeko. Sistemek automatikoki doitu dezakete edukiaren zailtasuna, erritmoa eta aurkezpen-formatua ikasleen erantzunen eta jokabide-ereduen arabera.
+<strong>Ikaskuntza moldakorra eta pertsonalizatua</strong>
 
-Moldakorreko ikaskuntzaren algoritmoek ikasleen elkarreraginak aztertzen dituzte ezagutza-tarteak, ikaskuntza-lehentasunak eta erronka-maila optimoak identifikatzeko. Informazio horrek esku-hartze zuzenduak eta ikaskuntza-ibilbide pertsonalizatuak ematea ahalbidetzen du banakako potentziala maximizatzeko.
+<br>
 
-Pertsonalizazioa eduki akademikoz harago hedatzen da ebaluazio-metodoetara, lankidetza-aukeretara eta aberastasun-jardueretara. Ikasleek ezagutza erakusteko eta edukiarekin parte hartzeko modu desberdinak hauta ditzakete, ikaskuntza-estilo eta lehentasun aniztasuna onartuz.
+Ikaskuntza egokitzeko metodologiak teknologia eta datuen analisiak erabiltzen ditu hezkuntza-esperientziak pertsonalizatzeko, ikasle bakoitzaren behar, lehentasun eta aurrerapenen arabera. Sistema hauek automatikoki doitzen dituzte edukien zailtasuna, erritmoa eta aurkezpen formatua ikasleen erantzunen eta portaera ereduen arabera.
 
-Moldakorreko inguruneko hezitzaileak ikaskuntza-trebetasun bihurtzen dira datu-ikuspegien interpretazioa egiten eta algoritmoko pertsonalizazioa osatzen duen giza laguntza ematen dutenak. Teknologia-adimena eta giza jakinduria konbinazio horrek ikaskuntza-esperientzia optimoak sortzen ditu.
+Ikaskuntza egokitzeko algoritmoek ikasleen elkarrekintzak aztertzen dituzte ezagutza-hutsuneak, ikaskuntza-hobespenak eta erronka-maila optimoak identifikatzeko. Informazio horri esker, esku-hartze pertsonalizatuak eta norbanakoaren potentzialtasuna maximizatzen duten ikasketa-ibilbide pertsonalizatuak eskain daitezke.
+
+Pertsonalizazioa eduki akademikotik haratago hedatzen da ebaluazio-metodoak, lankidetza-aukerak eta aberasteko jarduerak barne. Ikasleek ezagutzak erakusteko eta edukiekin parte hartzeko hainbat modu aukeratu ditzakete, hainbat ikaskuntza-estilo eta hobespen egokituz.
+
+Ingurune moldagarrietako hezitzaileak ikaskuntza-entrenatzaile bihurtzen dira, datuen ikuspegia interpretatzen dutenak eta pertsonalizazio algoritmikoa osatzen duten giza laguntza eskaintzen dutenak. Adimen teknologikoaren eta giza jakinduriaren konbinazio honek ikaskuntza-esperientzia ezin hobeak sortzen ditu.
 
 <br>
 
@@ -129,41 +145,61 @@ Moldakorreko inguruneko hezitzaileak ikaskuntza-trebetasun bihurtzen dira datu-i
 
 <br>
 
-STEAM metodologiak (Zientzia, Teknologia, Ingeniaritza, Arteak eta Matematika) diziplina anitz integratzen ditu mundu errealeko konplexutasuna islatzen duten ikaskuntza-esperientzia holistikoak sortzeko. Ikuspegi honek materia tradizionalen siloak apurtzen ditu eta ikasleei ezagutza-eremuak elkarlotzen eta elkar osatzen direla erakusten die.
+STEAM (Science, Technology, Engineering, Arts and Mathematics) metodologiek diziplina anitz integratzen dituzte mundu errealaren konplexutasuna islatzen duten ikaskuntza-esperientzia holistikoak sortzeko. Ikuspegi honek irakasgaien silo tradizionalak apurtzen ditu eta ikasleei erakusten die nola jakintza-arloak nola elkarlotzen eta elkarren osagarri diren.
 
-STEAM proiektuek zientzia-ikerketa sormen-adierazpenarekin, ingeniaritza-diseinua analisi matematikoarekin eta tresna teknologikoak ikusmen artistikoarekin konbinatzen dituzte maiz. Adibidez, ikasleek arkitektura jasangarria diseina ditzakete (ingeniaritza) ingurumen-zientziak ikertzen dituzten bitartean, kontzeptu matematikoen adierazpen digital artistikoak sortu edo arazo komunitarioetarako teknologia-konponbideak garatu.
+STEAM proiektuek normalean ikerketa zientifikoa sormen adierazpenarekin, ingeniaritza diseinuarekin analisi matematikoarekin eta tresna teknologikoak ikuspegi artistikoarekin uztartzen dituzte. Adibidez, ikasleek arkitektura iraunkorra (ingeniaritza) diseina dezakete ingurumen-zientzia ikasten duten bitartean, kontzeptu matematikoen irudikapen artistiko digitalak sor ditzakete edo komunitate-arazoetarako irtenbide teknologikoak garatu.
 
-STEM arloetan arteak integratzeak sormena, estetika-aprezioa eta gizakiaren erdiko diseinu-pentsamendua gehitzen ditu. Konbinazio honek gaitasun analitikoak eta sormen-adierazpena garatzen ditu, gaitasun teknikoa eta pentsamendu berritzailea behar dituzten ibilbideetarako prestatuz.
+Arteak STEM irakasgaietan integratzeak sormena, estimu estetikoa eta gizakiarengan oinarritutako diseinuaren pentsamendua gehitzen ditu. Konbinazio honek trebetasun analitikoak eta adierazpen sortzailea garatzen ditu, ikasleak trebetasun teknikoa eta pentsamendu berritzailea eskatzen duten karrerarako prestatuz.
 
-STEAM espazioek ikaskuntza-ingurune malguak behar dituzte jarduera anitz onartzen dituztenak, zientzia-esperimentuetatik hasi eta sormen artistikoa, ingeniaritza-prototipoak eta diseinu digitalaren lana barne.
-
-<br>
-
-<strong>Pedagogia berritzaileen inplementazio eraginkorra</strong>
+STEAM espazioek ikaskuntza-ingurune malguak behar dituzte, esperimentu zientifikoetatik hasi eta arte-sorkuntzara, ingeniaritza-prototipatzea eta diseinu digitaleko lanetara arte.
 
 <br>
 
-Pedagogia-metodologia berritzaileen arrakastako inplementazioak plangintza zaindua, prestakuntza egokia eta trantsizio graduala estrategiak behar ditu. Hezkuntza-zentroek hezitzaileen prestakuntza, azpiegitura-beharrak eta komunitatearen onarpena jorratzen dituzten plan integralak garatu behar dituzte.
-
-Garapen profesionaleko programek hezitzaileei metodologia berrien ulermen teorikoa eta esperientzia praktikoa eskaini behar dizkiete. Tailerrak praktikoak, ikaskideen arteko behaketa-aukerak eta mentoretza-laguntza etengabea konfiantza eta gaitasuna garatzen laguntzen die irakasleei ikuspegi berritzaileekin.
-
-Programa pilotuak eta inplementazio gradualeko estrategiak metodologia beriak eskala handira aurretik probatu eta finetzeko aukera ematen dute. Ikuspegi honek erronkak identifikatzea eta esperientzia errealean eta atzeraelikadunean oinarritutako estrategia-doikuntzak ahalbidetzen ditu.
-
-Komunitatearen parte-hartzeak familiak ikuspegi pedagogiko berritzaileak ulertzen eta babesten laguntzen die. Informazio-saioak, erakustaldiak eta familiak metodologia beriak lehen eskuz ezagutzeko aukerak babesa eta lankidetza eraikitzen ditu.
+<strong>Metodologia berritzaileen ezarpen eraginkorra</strong>
 
 <br>
 
-<strong>Pedagogia berritzaileetan ebaluazioa</strong>
+Metodologia pedagogiko berritzaileak arrakastaz ezartzeak planifikazio zaindua, prestakuntza egokia eta pixkanaka trantsizio estrategiak eskatzen ditu. Ikastetxeek plan integralak garatu behar dituzte, irakasleen prestaketari, azpiegituren beharrei eta komunitatearen onarpenari erantzuteko.
+
+Garapen profesionaleko programek hezitzaileei ulermen teorikoa eta esperientzia praktikoa eskaini behar diete metodologia berriekin. Tailer praktikoek, ikaskideen behaketa aukerak eta etengabeko tutoretza-laguntzak irakasleei konfiantza eta gaitasuna garatzen laguntzen diete ikuspegi berritzaileekin.
+
+Programa pilotuek eta mailakako ezarpen-estrategiek metodologia berriak probatu eta findu daitezke eskala osoko inplementazioa baino lehen. Ikuspegi honek erronkak identifikatzea eta estrategiak egokitzea ahalbidetzen du benetako esperientzian eta feedbackean oinarrituta.
+
+Komunitatearen parte hartzeak familiei ikuspegi pedagogiko berritzaileak ulertzen eta onartzen laguntzen die. Informazio saioak, erakustaldiak eta familiek metodologia berriak bertatik bertara ezagutzeko aukerak laguntza eta lankidetza eraikitzeko.
 
 <br>
 
-Ebaluazio-metodo tradizionalek maiz huts egiten dute pedagogia berritzaileen ondoriozko ikaskuntza-emaitzak jasotzen. Metodologia beriek beren helburuekin lerrokatutako eta garatzen ari diren gaitasunak zehazki neurtzen dituzten ebaluazio-ikuspegiak behar dituzte.
+<strong>Ebaluazioa metodologia berritzaileetan</strong>
 
-Portfolioetan oinarritutako ebaluazioak ikasleei denboran zehar lana erakusten duen bildumaren bidez ikaskuntza erakusteko aukera ematen die. Portfolio digitalak aurkezpen multimediak, proiektuen dokumentazioa, hausnarketa-lanak eta ikaskideen atzeraelikaduna barne har ditzakete, ikaslearen lorpenaren irudi osagarria emanez.
+<br>
 
-Errendimenduan oinarritutako ebaluazioak ikasleen ezagutza eta trebetasunak testuinguru autentikoetan aplikatzeko gaitasuna ebaluatzen du. Honek aurkezpenak, erakustaldiak, simulazioak eta mundu errealeko proiektuak barne har ditzake, gaitasun anitzeko integrazioa eskatzen dutenak.
+Ebaluazio-metodo tradizionalek askotan ez dituzte jasotzen pedagogia berritzaileen ondoriozko ikaskuntza-emaitzak. Metodologia berriek beren helburuekin bat datozen eta garatzen diren gaitasunak zehaztasunez neurtzen dituzten ebaluazio-ikuspegiak behar dituzte.
 
-Ikaskideen arteko ebaluazioa eta autoebaluazioak gaitasun metakognitiboak garatzen eta ikasleei beren ikaskuntzaren jabetza hartzen laguntzen die. Egituratuak diren errubrikak eta hausnarketa-galdera-gidak ikasleei beren lana eta ikaskideena modu eraikitzailean ebaluatzen laguntzen dizkiete.
+Portfolioan oinarritutako ebaluazioari esker, ikasleek denboran zehar hazten diren lan-bildumen bidez erakusten dute ikaskuntza. Portafolio digitalek multimedia aurkezpenak, proiektuen dokumentazioa, gogoeta-idazkiak eta ikasleen lorpenaren irudi zabalak eskaintzen dituzten kideen iritziak izan ditzakete.
+
+Errendimenduan oinarritutako ebaluazioak ikasleek ezagutzak eta trebetasunak benetako testuinguruetan aplikatzeko duten gaitasuna ebaluatzen du. Honek hainbat gaitasun integratzea eskatzen duten aurkezpenak, erakustaldiak, simulazioak eta mundu errealeko proiektuak izan ditzake.
+
+Berdinen arteko ebaluazioak eta autoebaluazioak trebetasun metakognitiboak garatzen dituzte eta ikasleei beren ikaskuntzaren jabe egiten laguntzen diete. Errubrik egituratuek eta hausnarketa-eskaintzek ikasleak gidatzen dituzte beren lanak eta ikaskideenak modu eraikitzailean ebaluatzeko.
+
+<br>
+
+<strong>Testuingurua Espainian: LOMLOE, funtsezko gaitasunak eta DigEdu</strong>
+
+<br>
+
+LOMLOE-k hezkuntza-proiektuaren erdigunean jartzen ditu funtsezko gaitasunak eta etengabeko ebaluazioa. DigEdu Planak gaitasun digitalaren irakaskuntza, ingurune teknologiko seguruak eta ikasgeletan gailuen banaketa sustatzen ditu. Irakasleek zenbat eta denbora gehiago galdu administrazio-lan bikoiztuetan (paperean dauden zatiak, Excel-en zerrendak, bide ezberdinetako zirkularrak), orduan eta gutxiago falta da laguntza eta ebaluazio formatiborako.
+
+Kudeaketa digitalizatzeak ez du pedagogia ordezkatzen: ordu errealak askatzen ditu tutoretzan, sailen koordinazioan eta banakako jarraipenean. Lau komunikazio tresna ezberdin erabiltzen dituen fakultateak familiekin koherentzia eta barne koherentzia galtzen du ebaluazio eta jarraipen irizpideetan.
+
+2026an, Espainiako zentroetarako erabilgarria den hezkuntza-teknologiak ikasgela eta administrazioa lotzen ditu: erregistroek, komunikazioak, asistentzia eta analitikek datu-iturri bera partekatzen dute. Berrikuntza pedagogiko iraunkorrak LOMLOE onartzen du administrazio-zuzendaritzak irailean eta hiruhileko amaieran fakultateko orduak lapurtzeari uzten dionean.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Institutu bat lau komunikazio tresnetatik plataforma integratu batera pasatu zen. Fakultateak tutore bakoitzeko astean batez beste 2 ordu berreskuratu zituen administrazio-jarraipen-lanetan, saileko bileretan eta ebaluazio formatiboan berriro inbertituta.
 
 <br>
 
@@ -171,6 +207,8 @@ Ikaskideen arteko ebaluazioa eta autoebaluazioak gaitasun metakognitiboak garatz
 
 <br>
 
-Pedagogia-metodologia berritzaileak hezkuntza-praktikan eboluzio esentziala islatzen dute, ikasleak azkar aldatzen den munduan arrakastarako prestatuz. Ikuspegi horiek sormena, lankidetza, pentsamendu kritikoa eta komunikazioa bezalako gaitasun kritikoak garatzen dituzte etorkizuneko arrakastarako funtsezkoak direnak.
+Metodologia pedagogiko berritzaileek ezinbesteko bilakaera adierazten dute hezkuntza-praktikan, ikasleak arrakasta izateko prestatzen baitituzte azkar aldatzen ari den mundu batean. Ikuspegi hauek gaitasun kritikoak garatzen dituzte, besteak beste, sormena, lankidetza, pentsamendu kritikoa eta komunikazioa, etorkizuneko arrakasta lortzeko funtsezkoak direnak.
 
-Prest dago zure hezkuntza-zentroan pedagogia-metodologia berritzaileak inplementatzeko? Ezagutu nola lagun dezakeen Edena ikuspegi pedagogikoak garatu eta inplementatzen, ikasleak inplikatuz, ikaskuntza-emaitzak hobetuz eta etorkizuneko erronketarako prestatuz.
+Prest al dago zure hezkuntza zentroa metodologia pedagogiko berritzaileak ezartzeko? Ezagutu Edena-k nola lagun diezazukeen ikasleek parte hartzen duten ikuspegi pedagogikoak garatzen eta ezartzen, ikaskuntza-emaitzak hobetzen eta etorkizuneko erronketarako prestatzen.
+
+<br>

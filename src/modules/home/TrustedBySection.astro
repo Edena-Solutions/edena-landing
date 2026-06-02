@@ -1,0 +1,119 @@
+---
+import type { Translation } from "@/i18n";
+import { trustedByLogos } from "@/data/trustedByLogos";
+
+interface Props {
+    t: Translation;
+}
+
+const { t } = Astro.props;
+const marqueeLogos = [...trustedByLogos, ...trustedByLogos];
+---
+
+<section
+    class="trusted-by-section min-w-0 w-full max-w-full overflow-hidden pt-10 pb-5"
+    aria-label={t.trustedBySection.title}
+>
+    <p class="mb-6 text-center text-[10px] uppercase tracking-widest text-muted-foreground px-4">
+        {t.trustedBySection.title}
+    </p>
+
+    <div class="trusted-by-viewport relative w-full max-w-full overflow-hidden">
+        <div
+            class="pointer-events-none absolute inset-y-0 left-0 z-10 w-16 sm:w-28 bg-gradient-to-r from-background via-background/90 to-transparent"
+            aria-hidden="true"
+        >
+        </div>
+        <div
+            class="pointer-events-none absolute inset-y-0 right-0 z-10 w-16 sm:w-28 bg-gradient-to-l from-background via-background/90 to-transparent"
+            aria-hidden="true"
+        >
+        </div>
+
+        <div class="trusted-by-track flex items-center">
+            {
+                marqueeLogos.map((logo) => (
+                    <div class="trusted-by-item flex h-12 shrink-0 items-center justify-center px-8 sm:px-12">
+                        <img
+                            src={logo.src}
+                            alt={logo.alt}
+                            width={160}
+                            height={40}
+                            loading="lazy"
+                            decoding="async"
+                            class="trusted-by-logo h-8 w-auto max-w-[9rem] object-contain sm:h-9 sm:max-w-[10rem]"
+                        />
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+</section>
+
+<style>
+    .trusted-by-section {
+        contain: layout inline-size;
+    }
+
+    .trusted-by-viewport {
+        overflow-x: clip;
+        overflow-y: visible;
+    }
+
+    .trusted-by-track {
+        display: flex;
+        width: max-content;
+        animation: trusted-by-marquee 38s linear infinite;
+        will-change: transform;
+    }
+
+    .trusted-by-section:hover .trusted-by-track {
+        animation-play-state: paused;
+    }
+
+    .trusted-by-logo {
+        opacity: 0.55;
+        filter: grayscale(1);
+        transition:
+            opacity 0.2s ease,
+            filter 0.25s ease;
+    }
+
+    .trusted-by-logo:hover {
+        opacity: 1;
+        filter: none;
+    }
+
+    :global(.dark) .trusted-by-logo {
+        opacity: 0.7;
+        filter: brightness(0) invert(1);
+    }
+
+    :global(.dark) .trusted-by-logo:hover {
+        opacity: 1;
+        filter: none;
+    }
+
+    @keyframes trusted-by-marquee {
+        from {
+            transform: translate3d(0, 0, 0);
+        }
+        to {
+            transform: translate3d(-50%, 0, 0);
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .trusted-by-track {
+            animation: none;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem 0;
+        }
+
+        .trusted-by-item {
+            padding-inline: 1rem;
+        }
+    }
+</style>

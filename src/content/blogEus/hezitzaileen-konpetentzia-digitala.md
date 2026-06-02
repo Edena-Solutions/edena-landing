@@ -1,57 +1,70 @@
 ---
-title: "Hezitzaileentzako gaitasun digitala: etorkizuneko irakasleak prestatzen"
+title: "Hezitzaileentzako gaitasun digitala: Etorkizuneko irakasleak prestatzen"
 date: "2024-09-30"
-description: "Ezagutu hezitzaileek ikasleak mundu digitalerako prestatzeko behar dituzten gaitasun digital espezialak."
-tags: ["gaitasun digitala", "irakasleen prestakuntza", "teknologia", "hezitzaileak"]
-author: "Edena taldea"
+description: "Ezagutu hezitzaileek beren ikasleak mundu digitalerako prestatzeko ezinbesteko gaitasun digitalak."
+tags:
+    - "competencia digital"
+    - "formación docente"
+    - "tecnología"
+    - "educadores"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - digitalizazio-egiaztapen-zerrenda-2026
+faqs:
+  - question: "Nola lerrokatu teknologia LOMLOE-rekin?"
+    answer: "Lehenetsi funtsezko gaitasunetarako eta etengabeko ebaluaziorako denbora askatzen duten tresnak, ez tramankulu isolatuak."
+  - question: "Irakasleen prestakuntza: zenbat da nahikoa?"
+    answer: "Tresna bakoitzeko 60 minutuko saioak, grabatuak, etapa bakoitzeko erreferentzia batekin parekideen arteko zalantzak konpontzeko."
+  - question: "Digitalizazioak denbora pedagogikoa kentzen al du?"
+    answer: "Ongi eginda, merezi du: zerrendak eta eskuzko zirkularrak bikoiztu gutxiago ebaluazio eta tutoretzarako denbora gehiago dakar."
 ---
 
-<strong>Hezitzaileentzako gaitasun digitala: etorkizuneko irakasleak prestatzen</strong>
+<strong>Hezitzaileentzako gaitasun digitala: Etorkizuneko irakasleak prestatzen</strong>
 
 <br>
 
-Gero eta digitalago den mundu batean, hezitzaileek gaitasun digitalak garatu behar dituzte ez soilik teknologia erabiltzeko, baita modu eraginkorrean integratzeko ere beren praktika pedagogikoetan. Gaitasun digitala ez da trebetasun teknikoa soilik; hezkuntza-kalitatea zein eman diezaiogun ikasleei determinatzen duen gaitasun funtsezkoa da.
+Gero eta digitalagoa den mundu batean, hezitzaileek teknologia erabiltzeko ez ezik, praktika pedagogikoetan modu eraginkorrean integratzeko aukera ematen duten gaitasun digitalak garatu behar dituzte. Gaitasun digitala ez da gaitasun tekniko bat soilik; Gure ikasleei eskain diezaiekegun hezkuntza-kalitatea zehazten duen oinarrizko konpetentzia da.
 
 <br>
 
-<strong>Oinarrizko alfabetizazio digitalaren haratago</strong>
+<strong>Oinarrizko alfabetatze digitalaz harago</strong>
 
 <br>
 
-Hezitzaileentzako gaitasun digitala ordenagailua erabiltzea edo interneten nabigatzea baino haratago doa. Teknologiak irakaskuntza eta ikaskuntza nola eralda ditzakeen ulermen sakona garatzea eta eraldaketa hori modu eraginkorrean inplementatzeko behar diren trebetasunak eskuratzea da.
+Hezitzaileen gaitasun digitala ordenagailua erabiltzen edo Interneten nabigatzen jakiteaz haratago doa. Teknologiak irakaskuntza eta ikaskuntza nola eraldatu dezakeen ulermen sakona garatzea da, eta eraldaketa hori eraginkortasunez ezartzeko beharrezkoak diren gaitasunak eskuratzea da.
 
-Gaitasun digitalarekin hezitzaileek ez soilik erabiltzen dituzte tresna teknologikoak, baizik eta modu pedagogikoki sendoan integratzen dituzte irakaskuntza-praktiketan. Ulertzen dute teknologiak ikaskuntza mota desberdinak nola indar ditzakeen eta noiz eta nola erabili eragin hezkuntzile maximizatzeko.
-
-<br>
-
-<strong>Oinarrizko trebetasun teknikoak</strong>
+Digitalki gaitasun handiko hezitzaileek tresna teknologikoak erabiltzeaz gain, pedagogikoki sendo integratzen dituzte beren irakaskuntza-praktiketan. Ulertzen dute teknologiak nola hobetu dezakeen ikaskuntza mota desberdinak eta badakite noiz eta nola erabili bere hezkuntza-eragina maximizatzeko.
 
 <br>
 
-Hezitzaileek oinarrizko trebetasun teknikoak garatu behar dituzte tresna digitalak modu eraginkorrean erabiltzeko. Horrek barne hartzen du gailuen kudeaketa, software hezkuntzailea, ikaskuntza-plataformak eta komunikazio digitalerako tresnak.
-
-Irakasleek eduki digitala sortu, lineako informazioa kudeatu eta arazo tekniko oinarrizkoak konpondu gai izan behar dira. Segurtasun digitala, pribatutasuna eta hiritartasun digitala bezalako kontzeptu funtsemak ere ulertu behar dituzte gai horiek ikasleei irakasteko.
+<strong>Oinarrizko gaitasun teknikoak</strong>
 
 <br>
 
-<strong>Pedagogia digitala eta diseinu instrukzionala</strong>
+Hezitzaileek oinarrizko trebetasun teknikoak garatu behar dituzte, tresna digitalak eraginkortasunez erabiltzeko. Horrek gailuak, hezkuntza-softwarea, ikaskuntza-plataformak eta komunikazio digitaleko tresnak kudeatzea barne hartzen du.
+
+Irakasleek eduki digitalak sortzeko, sareko informazioa kudeatzeko eta oinarrizko arazo teknikoak konpontzeko gai izan behar dute. Segurtasun digitala, pribatutasuna eta hiritartasun digitala bezalako oinarrizko kontzeptuak ere ulertu behar dituzte gai horiek ikasleei irakasteko.
 
 <br>
 
-Gaitasun digitalak teknologiaren aukerak aprobetxatzeko diseinatutako ikaskuntza-esperientziak diseinatzeko gaitasuna barne hartzen du. Hezitzaileek ulertu behar dute tresna digital desberdinek nola lagun ditzaketen ikaskuntza-helburu eta metodologia pedagogiko desberdinak.
-
-Gaitasun digitalarekin irakasleek teknologia modu esanguratsuan integratzen duten jarduerak diseina ditzakete, gehigarri gisa ez, baizik eta ikaskuntza-prozesuaren elementu funtseko gisa. Teknologia ikaskuntza pertsonalizatzeko, lankidetza errazteko eta esperientzia erakargarriagoak sortzeko nola erabili dakite.
+<strong>Pedagogia digitala eta diseinu didaktikoa</strong>
 
 <br>
 
-<strong>Ebaluazioa eta feedback digitala</strong>
+Gaitasun digitalak teknologiaren aukerak aprobetxatzen dituzten ikaskuntza-esperientziak diseinatzeko gaitasuna barne hartzen du. Hezitzaileek ulertu behar dute tresna digital ezberdinek ikaskuntza-helburu eta metodologia pedagogiko desberdinak nola onar ditzaketen.
+
+Digitalki gaitasun handiko irakasleek teknologia modu esanguratsuan integratzen duten jarduerak diseina ditzakete, ez gehigarri gisa, ikaskuntza-prozesuaren oinarrizko elementu gisa baizik. Badakite teknologia erabiltzen ikaskuntza pertsonalizatzeko, lankidetza errazteko eta esperientzia erakargarriagoak sortzeko.
 
 <br>
 
-Teknologiak ebaluazioa eta feedbackerako aukera berriak eskaintzen ditu hezitzaileek ezagutu eta inplementatu behar dituztenak. Sistema digitalek ebaluazio formatibo jarraitua, feedback berehalakoa eta ikasleen aurrerapenaren analisi xehatua eman ditzakete.
+<strong>Ebaluazio eta feedback digitala</strong>
 
-Irakasleek ikasleen aurrerapena jarraitu, hobekuntza-eremuak identifikatu eta feedback pertsonalizatua eman diezaieten ebaluazio digitalerako tresnak erabiltzen jakitea behar dute. Tresna horiek ematen dituzten datuak nola interpretatu ere ulertu behar dute erabaki pedagogiko informatuak hartzeko.
+<br>
+
+Teknologiak ebaluazio eta feedback aukera berriak eskaintzen ditu, hezitzaileek ezagutu eta ezartzen jakin behar dituztenak. Sistema digitalek etengabeko ebaluazio formatiboa, berehalako iritzia eta ikasleen aurrerapenaren azterketa zehatza eman dezakete.
+
+Irakasleek ebaluazio-tresna digitalak erabiltzen jakin behar dute, ikasleen bilakaeraren jarraipena egiteko, hobetzeko arloak identifikatzea eta iritzi pertsonalizatua emateko. Era berean, tresna horiek ematen dituzten datuak nola interpretatu behar diren ulertu behar dute erabaki pedagogiko informatuak hartzeko.
 
 <br>
 
@@ -59,9 +72,9 @@ Irakasleek ikasleen aurrerapena jarraitu, hobekuntza-eremuak identifikatu eta fe
 
 <br>
 
-Gaitasun digitalarekin hezitzaileek teknologia nola erabili ikasle, guraso eta lankideekin lankidetza eta komunikazioa errazteko dakite. Tresna digitalek denbora eta espazioaren mugak gainditzen dituzten lankidetza-espazioak sortu ditzakete.
+Digitalki konpetentzia duten hezitzaileek badakite teknologia erabiltzen ikasle, guraso eta lankideekin lankidetza eta komunikazioa errazteko. Tresna digitalek denbora eta espazioaren mugak gainditzen dituzten lankidetza-espazioak sor ditzakete.
 
-Irakasleek komunikazio-plataformak erabiltzen jakitea behar dute gurasoak seme-alaben aurrerapenari buruz informatuta mantentzeko, ikasleen arteko lankidetza errazteko eta baliabideak eta praktika onak partekatzeko beste hezitzaileekin konektatzeko.
+Irakasleek jakin behar dute komunikazio-plataformak erabiltzen gurasoak seme-alaben aurrerapenaren berri izateko, ikasleen arteko lankidetza errazteko eta beste hezitzaile batzuekin harremanetan jartzeko baliabideak eta jardunbide egokiak partekatzeko.
 
 <br>
 
@@ -69,9 +82,9 @@ Irakasleek komunikazio-plataformak erabiltzen jakitea behar dute gurasoak seme-a
 
 <br>
 
-Hezitzaileek beren buruari teknologiari buruzko pentsamendu kritikoa garatu eta ikasleei mundu digitalean modu kritikoan nabigatzen irakatsi behar die. Horrek barne hartzen du lineako informazioaren kalitatea eta fidagarritasuna ebaluatzeko gaitasuna.
+Hezitzaileek teknologiari buruzko pentsamendu kritikoa garatu behar dute eta ikasleei mundu digitalean modu kritikoan nabigatzen irakasteko gai izan. Horrek barne hartzen du sareko informazioaren kalitatea eta sinesgarritasuna ebaluatzeko gaitasuna.
 
-Irakasleek algoritmoen alborapena, desinformazioa eta teknologia digitalaren erronka etikoak ulertu behar dituzte. Ikasleei kontsumitzaile kritiko eta eduki digitalaren sortzaile arduratsuak izaten irakatsi gai izan behar dira.
+Irakasleek teknologia digitalaren alborapen algoritmikoak, desinformazioa eta erronka etikoak ulertu behar dituzte. Beren ikasleei eduki digitalen kontsumitzaile kritikoak eta sortzaile arduratsuak izaten irakasteko gai izan behar dute.
 
 <br>
 
@@ -79,46 +92,74 @@ Irakasleek algoritmoen alborapena, desinformazioa eta teknologia digitalaren err
 
 <br>
 
-Gaitasun digitala ez da estatikoa; etengabeko garapen profesionala behar du. Hezitzaileek teknologia, tresna eta metodologia pedagogiko berriei buruz etengabe ikasteko prest egon behar dira.
+Gaitasun digitala ez da estatikoa; etengabeko garapen profesionala eskatzen du. Hezitzaileek teknologia, tresna eta metodologia pedagogiko berriak etengabe ikasteko prest egon behar dute.
 
-Hezkuntza-zentroek irakasleek gaitasun digitalak garatzeko prestakuntza jarraituko aukerak eman behar dituzte. Horrek barne hartu ditzake tailerrak, lineako ikastaroak, praktika-komunitateak eta teknologia berriekin esperimentatzeko aukerak.
-
-<br>
-
-<strong>Hezkuntzako lidergo digitala</strong>
+Hezkuntza-zentroek etengabeko prestakuntza-aukerak eskaini behar dituzte, irakasleek beren gaitasun digitalak garatzeko. Honek tailerrak, lineako ikastaroak, praktika komunitateak eta teknologia berriekin esperimentatzeko aukerak izan ditzake.
 
 <br>
 
-Gaitasun digitalarekin hezitzaileek beren hezkuntza-zentroen digitalizazio-eraldaketan liderrak jokatu dezakete. Beste irakasleei gaitasun digitalak garatzen lagun, hezkuntza-teknologiari buruzko erabakietan parte hartu eta teknologiaren erabilera eraginkorra defendatu dezakete.
-
-Irakasle-liderek praktika-komunitateak sortu ditzakete baliabideak, esperientziak eta praktika onak partekatzeko. Tresna teknologikoen ebaluazio eta hautaketan parte hartu eta zentroko teknologia-erabileraren politikak garatzen lagun dezakete.
+<strong>Lidergo digitala hezkuntzan</strong>
 
 <br>
 
-<strong>Ekitatea eta irisgarritasun digitala</strong>
+Digitalki konpetenteak diren hezitzaileak lider gisa jar ditzakete beren ikastetxeen eraldaketa digitalean. Beste irakasle batzuek beren gaitasun digitalak garatzen, hezkuntza-teknologiaren inguruko erabakiak hartzen eta teknologiaren erabilera eraginkorra defendatzen lagundu dezakete.
+
+Irakasleen arduradunek praktika komunitateak sor ditzakete, non baliabideak, esperientziak eta praktika onenak partekatzen dituzten. Tresna teknologikoen ebaluazioan eta aukeraketan parte hartu ahal izango dute, eta zentroan teknologia erabiltzeko politiken garapenean.
 
 <br>
 
-Gaitasun digitalarekin hezitzaileek ekitate digitalaren garrantzia ulertzen dute eta teknologia ikaskuntza-esperientzia inklusiboagoak sortzeko nola erabili dakite. Ikasle batzuek pairatu ditzaketen hes digitalak kontziente izan eta nola gainditu jakitea behar dute.
-
-Irakasleek irisgarritasun-tresnak erabiltzen, behar desberdinetako ikasleentzat eduki irisgarria diseinatzen eta teknologiak ikaskuntzarako hes berriak sortzen ez duela ziurtatzen jakitea behar dute.
+<strong>Ekitate digitala eta irisgarritasuna</strong>
 
 <br>
 
-<strong>Etika eta hiritartasun digitala</strong>
+Digitalki eskumenak diren hezitzaileek ekitate digitalaren garrantzia ulertzen dute eta teknologiak erabiltzen dakite hezkuntza-esperientzia inklusiboagoak sortzeko. Ikasle batzuek izan ditzaketen oztopo digitalen berri izan eta horiei nola aurre egin jakin behar dute.
+
+Irakasleek jakin behar dute irisgarritasun-tresnak erabiltzen, behar desberdinak dituzten ikasleentzat eskuragarri dauden edukiak diseinatzen eta teknologiak ikaskuntzarako oztopo berririk sortu ez dezan.
 
 <br>
 
-Hezitzaileek teknologiaren erabilera etiko eta arduratsua eredutu eta irakatsi behar dute. Horrek barne hartzen du pribatutasuna, jabetza intelektuala eta besteen eskubide digitalak errespetatzea.
-
-Irakasleek ikasleei segurtasun digitala, lineako pribatutasuna eta espazio digitaletan portaera arduratsua irakatsi gai izan behar dira. Beren praktiketan teknologiaren erabilera etikoa eredutatu behar dute.
+<strong>Etika eta herritartasun digitala</strong>
 
 <br>
 
-<strong>Ondorioak</strong>
+Hezitzaileek teknologiaren erabilera etiko eta arduratsua eredu eta irakatsi behar dute. Horrek barne hartzen ditu pribatutasunaren, jabetza intelektualaren eta besteen eskubide digitalekiko errespetua.
+
+Irakasleek beren ikasleei segurtasun digitalari, lineako pribatutasunari eta espazio digitaletako portaera arduratsuari buruz irakatsi behar diete. Teknologiaren erabilera etikoa eredu egin behar dute beren praktiketan.
 
 <br>
 
-Gaitasun digitala XXI. mendeko hezitzaileentzat funtsezkoa da. Aukera ez, baizik eta ikasleek bizi eta lan egingo duten mundu digitalerako prestatzeko beharra. Beren irakasleen gaitasun digitalen garapenean inbertitzen duten hezkuntza-zentroek ikasleen etorkizunean inbertitzen dute.
+<strong>Aldizkako prestakuntza laburra</strong>
 
-Prest zaude zure hezkuntza-taldearen gaitasun digitalak garatzeko? Ezagutu nola lagun diezakeen Edena prestakuntza-programak inplementatzen, zure irakasleak hezkuntzako digitalizazio-eraldaketan lideratzeko prestatzeko.
+<br>
+
+- **60 minutuko saioak:** Hiruhilekoka ERPri lotutako tresna, ez urteko ikastaro luzeak.
+- **Ordezkoentzako grabaketak:** Sarri eskatutako izapideetarako sarbidea.
+- **Erreferentzia etapaka:** Fakultatearen eta administrazioaren arteko harremanetarako pertsona galdera operatiboetarako.
+
+<br>
+
+<strong>Benetako lehia</strong>
+
+<br>
+
+Ingurune digitalak erabiltzea irizpide pedagogikoak dituzten familiekin ebaluatzeko, tutoretzak eta komunikaziorako.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+280 familiako zentroak asistentzia automatizatua, ordainketa abisuak eta buletinak. Idazkaritzak astean 14 ordu berreskuratu zituen pertsonalki arreta egiteko.
+
+<br>
+
+<strong>Ondorioa</strong>
+
+<br>
+
+Konpetentzia digitala ezinbestekoa da 2026ko hezitzaileentzat. Ez da aukera bat, beharra baizik, ikasleak bizi eta lan egingo duten mundu digitalerako prestatzea. Irakasleen gaitasun digitalen garapenean inbertitzen duten hezkuntza zentroek ikasleen etorkizunean inbertitzen dute.
+
+Prest al zaude zure hezkuntza-taldearen gaitasun digitalak garatzeko? Ezagutu Edena-k nola lagun zaitzakeen zure irakasleak hezkuntzan eraldaketa digitala gidatzeko prestatzen dituzten prestakuntza-programak ezartzen.
+
+<br>

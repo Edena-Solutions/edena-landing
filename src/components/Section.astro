@@ -8,6 +8,7 @@ import BookDemoButton from "@/components/BookDemoButton.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import LottiePlayer from "@/components/LottiePlayer";
 import ThemedImage from "@/components/ThemedImage.astro";
+import TopGlow from "@/components/TopGlow.astro";
 
 interface SectionCard {
     title?: string;
@@ -50,7 +51,11 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
 
 <GSAPSection client:load className="flex flex-col gap-16 items-center">
     <div class="flex flex-col gap-4 text-center px-4">
-        <h2 class="text-xl font-bold">{sectionTitle}</h2>
+        <h2
+            class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
+        >
+            {sectionTitle}
+        </h2>
         <p class="text-muted-foreground max-w-2xl mx-auto">
             {sectionDescription}
         </p>
@@ -59,12 +64,13 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
         {
             showCTACard && ctaPosition === "left" ? (
                 <div class="flex flex-col-reverse md:flex-col gap-4 h-120 sm:h-140">
-                    <Card className="flex min-h-fit rounded bg-gradient-primary">
-                        <CardContent className="flex items-center flex-col sm:flex-row gap-4 p-8 justify-between w-full">
-                            <p class="max-w-sm text-white font-semibold text-center sm:text-left">
+                    <Card className="relative text-white flex min-h-fit rounded overflow-hidden bg-card">
+                        <TopGlow />
+                        <CardContent className="relative z-10 flex items-center flex-col sm:flex-row gap-4 p-8 justify-between w-full">
+                            <p class="max-w-sm font-semibold text-center sm:text-left">
                                 {t.setup.bookADemoCTA}
                             </p>
-                            <BookDemoButton t={t} variant="secondary" />
+                            <BookDemoButton t={t} variant="white" />
                         </CardContent>
                     </Card>
                     <Card
@@ -88,13 +94,21 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
                                     <ThemedImage
                                         src={leftCard.image}
                                         darkImage={leftCard.imageDark}
-                                        alt={leftCard.altText || leftCard.title || t.altText.heroImage}
+                                        alt={
+                                            leftCard.altText ||
+                                            leftCard.title ||
+                                            t.altText.heroImage
+                                        }
                                         className={`${leftCard.imageClass ?? "w-full xl:w-4/5 mx-auto object-contain"} rounded`.trim()}
                                     />
                                 ) : (
                                     <Image
                                         src={leftCard.image}
-                                        alt={leftCard.altText || leftCard.title || t.altText.heroImage}
+                                        alt={
+                                            leftCard.altText ||
+                                            leftCard.title ||
+                                            t.altText.heroImage
+                                        }
                                         class={leftCard.imageClass || "w-full"}
                                     />
                                 )
@@ -142,12 +156,13 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
         {
             showCTACard && ctaPosition === "right" ? (
                 <div class="flex flex-col-reverse md:flex-col gap-4 sm:h-140">
-                    <Card className="flex min-h-fit rounded bg-gradient-primary">
-                        <CardContent className="flex items-center flex-col sm:flex-row gap-4 p-8 justify-between w-full">
-                            <p class="max-w-sm text-white font-semibold text-center sm:text-left">
+                    <Card className="relative text-white flex min-h-fit rounded overflow-hidden bg-card">
+                        <TopGlow />
+                        <CardContent className="relative z-10 flex items-center flex-col sm:flex-row gap-4 p-8 justify-between w-full">
+                            <p class="max-w-sm font-semibold text-center sm:text-left">
                                 {t.setup.bookADemoCTA}
                             </p>
-                            <BookDemoButton t={t} variant="secondary" />
+                            <BookDemoButton t={t} variant="white" />
                         </CardContent>
                     </Card>
                     <Card
@@ -173,13 +188,21 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
                                     <ThemedImage
                                         src={rightCard.image}
                                         darkImage={rightCard.imageDark}
-                                        alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                        alt={
+                                            rightCard.altText ||
+                                            rightCard.title ||
+                                            t.altText.heroImage
+                                        }
                                         className={`${rightCard.imageClass ?? "w-full xl:w-4/5 mx-auto object-contain"} rounded`.trim()}
                                     />
                                 ) : (
                                     <Image
                                         src={rightCard.image}
-                                        alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                        alt={
+                                            rightCard.altText ||
+                                            rightCard.title ||
+                                            t.altText.heroImage
+                                        }
                                         class={rightCard.imageClass || "w-full"}
                                     />
                                 )
@@ -209,13 +232,17 @@ const hasRightCardSlot = Astro.slots.has("rightCardVisual");
                                 <ThemedImage
                                     src={rightCard.image}
                                     darkImage={rightCard.imageDark}
-                                    alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                    alt={
+                                        rightCard.altText || rightCard.title || t.altText.heroImage
+                                    }
                                     className={`${rightCard.imageClass ?? "w-full xl:w-4/5 mx-auto object-contain"} rounded`.trim()}
                                 />
                             ) : (
                                 <Image
                                     src={rightCard.image}
-                                    alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                    alt={
+                                        rightCard.altText || rightCard.title || t.altText.heroImage
+                                    }
                                     class={rightCard.imageClass || "w-auto"}
                                 />
                             )

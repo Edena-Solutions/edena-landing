@@ -1,33 +1,47 @@
 ---
-title: "Eskola-zuzendari bakoitzak hilero neurtu behar dituen KPIak"
+title: "Ikastetxe zuzendari guztiak hilero neurtu behar dituzten KPIak"
 date: "2026-04-16"
-description: "Kobrantza, matrikula, okupazio eta komunikazio-adierazleak hezkuntza-zentroetako zuzendarientzat: zer neurtu, zein maiztasunean eta nola jardun."
+description: "Zuzendaritzarentzako hileko ezinbesteko KPIak. 2026ko gida praktikoa Espainiako hezkuntza-zentroetarako."
 tags:
-    [
-        "KPI eskola-zuzendaria",
-        "hezkuntza kudeaketa adierazleak",
-        "eskola analitika",
-        "zuzendari dashboard",
-        "hileko KPIak",
-        "Edena",
-    ]
-author: "Edena taldea"
+    - "KPI ikastetxe zuzendaria"
+    - "eskola-kudeaketa adierazleak"
+    - "hezkuntza-metrikak"
+    - "eskola-zentro analitika"
+    - "zuzendari panela"
+    - "Edena"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1705300332068-5f55b46ef98e?q=80&w=726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - hezkuntza-dashboarda
+  - hezkuntza-panel-metrikak
+  - analitika-hezkuntzako-ikastetxe-panelak
+  - analitika-errendimendu-akademikoa
+faqs:
+  - question: "Zenbat KPI dira gehiegi 200 ikasle baino gutxiagoko zentro txiki bateko zuzendaritza-taldearentzat?"
+    answer: "Lau eta sei artean 200 ikasle baino gutxiagoko zentro batean range egokia da. Arduradunik eta ekintza loturarik gabeko adierazle gehienek zarata sortzen dute, ez seinalea. Hasi kobrantza, matrikulazioa eta okupazioarekin, eta gehitu hirurak menperatzen dituzunean."
+  - question: "Zein maiztasun da egokia KPIak berrikusteko?"
+    answer: "Finantzarioak (kobrantza, ordaindu gabeak, kontsolidazioa) hileko ixtean eta arrisku-atalaseak badaude astekoaldi alertarekin. Matrikulazio eta kapturakoak aldiaren irekieran eta ixtean. Komunikazioari eta familiei buruzko hilabetean. Ez egin KPI bilera ekintza loturarik gabe: taldeak erabilera uzteko bide azkarrena da."
+  - question: "Edernen KPIak konfiguragarriak al dira ala plataformak ezarritakoak dira?"
+    answer: "Plataforma-oinarrian zentroko analitikaak kobrantza, matrikulazioa, plazak eta familien adierazleak barne hartzen ditu. Pertsonalizazio-maila kontratatutako moduluaren eta inplementazioan hitzartutako konfigurazioaren araberakoa da. Galdetu demoan zer adierazle dauden konfigurazio gehigarririk gabe eta zeintzuk lan gehigarria eskatzen duten."
+  - question: "Zer bereizten du KPI on bat hezkuntzan vanity metric batetatik?"
+    answer: "KPI on batek atalasea gainditu edo jaistean ekintza aktibatzen du: %80ko kobrantza-tasa bigarren abisu automatikoa aktibatzea. Vanity metric batek erabakia aldatzen ez duen zenbakia erakusten du: hilabete honetan bidalitako mezu-kopurua osoa. Datuak aguja mugatzen ez badu, ez da KPI bat, jarduera-txostena baizik."
+  - question: "Nola saihestu hileko batzordea definizioen eztabaida bihurtzea?"
+    answer: "Adostu idatziz lehen batzorde aurretik adierazle bakoitzaren definizio zehatza: zer barne hartzen duen, zer baztertzen duen, zein iturritatik datorren, zein maiztasunarekin eguneratzen den eta nor den arduraduna. Akordio hori mahai gainean duela, batzordea ekintzetatik abiatzen da. Hori gabe, bilera bakoitzak eztabaida bera irekitzen du."
 ---
 
-<strong>Eskola-zuzendari bakoitzak hilero neurtu behar dituen KPIak</strong>
+<strong>Ikastetxe zuzendari guztiak hilero neurtu behar dituzten KPIak</strong>
 
 <br>
 
-Ikastetxe, haur eskola edo akademia bateko zuzendari batek adierazlerik gabe inpresioetan oinarrituz lan egiten du. Hilabetea "ondo edo gaizki joan den" intuizioz jakinda ixten du, batzordean inork berdin definitu ez dituen zifrak eztabaidatzen ditu, eta hiru astez isil-isilik metatutako arazoei berandu erreakzionatzen die. KPIak ez dira burokrazia: aldez aurreko akordioa dira zein seinale garrantzizkoa den, zein maiztasunean eta zein ekintza sortarazten duen. Akordio hori gabe, munduko panel ederrenak debatea baino gehiago sortzen du. Artikulu honek hezkuntza-zentro batean aguja mugi dezaketen adierazleak proposatzen ditu, zein maiztasunean neurtu, zein ekintza lotzen dion bakoitzari, eta vanity metrics neurtu beharrean seinale errealak neurtzeko amarruak nola saihestu.
+Ikastetxe, haur-eskola edo akademia zuzendari batek adierazlerik gabe inpresioekin lan egiten du. Hilabetea "ondo edo gaizki joan da" intuizioagatik ixten du, batzordean inork berdin definitu ez dituen zifrak eztabaidatzen ditu eta hiru astez isil-gordatzen dauden arazoei beranduen erreakzionatzen die. KPIak ez dira burokrazia: zer seinale garrantzia duen, zein maiztasunarekin eta zer ekintza aktibatzen duen aldez aurretik hitzartzea dira. Akordio gabe, munduko panel ederrenak erabakiak baino eztabaida gehiago sortzen ditu. Artikulu honek hezkuntza-zentro bateko negozio-adierazleak aguja mugitzen dituztenak proposatzen ditu, zein maiztasunetan neurtu, zer ekintza bakoitzak lotzen duen eta neurketa zentzunean vanity metrics neurtu ordez saihestu.
 
 <br>
 
-<strong>Lehen printzipioa: alda dezakezun neurtu, ondo ikusten zaituena ez</strong>
+<strong>Lehen printzipioa: aldatu dezakezuna neurtu, ondo itxurarazten zaituena ez</strong>
 
 <br>
 
-Ikasle aktibo kopurua egoera-datu bat da, ez KPI ekintzaile bat. Kapazitate totalaren gaineko betetako plazaren ratioa bai: zure errentagarritasun-atalasea azpitik badago, matrikulazioko edo bajako seinale bat da, analisia behar duena. Vanity metrics eta KPI ekintzaileen arteko aldea datuak zer egin adierazten duen, ez soilik nola zauden. Dashboard zehaztu aurretik, taldearekin adostu: zein adierazle, zein atalase kezkatzen zaitu, nork du adierazlearen jabetasuna eta zein ekintza sortarazten du. Honekin, hileko batzordea ekintzetan hasten da, ez definizioen eztabaidan.
+Ikasle aktiboen kopurua egoera-datu bat da, ez KPI ekintza-gai bat. Guztizko gaitasunarekiko betetako plazen ratioa bai da: zure errentagarritasun-atalasearen azpitik badago, kaptura edo baja seinalea da azterketa behar duena. Vanity metrics eta KPI ekintza-gaien arteko aldea dago zergatia adierazten duen, ez soilik nola zauden. Panel-koadroa finkatu aurretik, taldearekiki adostu: zer adierazle, zer atalasek kezkatzen zaitu, nor da adierazlearen jabea eta zer ekintza aktibatzen du. Horrekin, hileko batzordeak ekintzetatik abiatzen da, ez definizioen eztabaidatik.
 
 <br>
 
@@ -35,21 +49,21 @@ Ikasle aktibo kopurua egoera-datu bat da, ez KPI ekintzaile bat. Kapazitate tota
 
 <br>
 
-- **Epearen barruan kobrantza-tasa:** emuandako guztia gainetik adostutako ebaketa-egunaren aurretik kobratutako ordainagiri ehunekoa. Alarma-atalasea: hilaren lehen astean ehuneko 85 azpitik.
-- **Ezordainketen batez besteko antzinatasuna:** iraungitako ordainagiriek zenbat egun daramatzate kobratzen. Hamabost eguneko ezordainketak irtenbide desberdina du laurogeita hamar egunekoak baino.
-- **Ikasle bakoitzeko batez besteko kuota:** hileko diru-sarrerak ikasle aktiboen artean zatituz. Erregistratu gabeko salbuespen ugari badaude edo gehigarriak (jangela, garraioa) fakturatzen ez ari badira jaisten da.
-- **Kontabilitatearen itxiera-denbora:** administrazioak hileko kontabilitate-itxiera egiteko zenbat ordu behar dituen. Egun erdi lan baino gehiago bada, prozesuak automatizazioa behar du.
+- **Epean kobrantza-tasa:** adostutako mozte-egunaren aurretik guztirako emitituaren gainean kobratutako erreziboen ehunekoa. Alarma-atalasea: hilaren lehen astean %85 baino gutxiago.
+- **Ordaindu gabeko batez besteko antzinatasuna:** iraungitako erreziboen kobratzen ez daraman egunak. Hamabost eguneko ordaindu gabeari irtenbide desberdina du laurogeita hamar egunekoak baino.
+- **Ikasle bakoitzeko batez besteko kuota:** hileko sarrerak ikasle aktiboen artean zatituriko. Jaisten bada erregistratuta ez dauden salbuespeak asko badaude edo gehigarriak (jangela, garraioa) fakturatzen ez badira.
+- **Kontsolidazio-denbora:** zenbat ordu behar ditu administrazioak hilabete kontablea ixteko. Egun erdiko lana gainditzen badu, prozesuak automatizazioa behar du.
 
 <br>
 
-<strong>Matrikula eta captazio KPIak</strong>
+<strong>Matrikulazio eta kaptura KPIak</strong>
 
 <br>
 
-- **Eskakizun bihurtze-tasa:** jasotako eskaerek zenbat berrespen bilakatzen duten matrikula. Ehuneko 40 azpitik badago, aztertu zein pipeline-fasetan erortzen diren hautagaiek gehiago.
-- **Eskaera batetik baieztatzeraino batez besteko denbora:** familia batek plaza eskatzetik baieztatua jasotzeraino zenbat lanegun igarotzen diren. Lehia handiko zentroetan bost lanegun baino gehiago hautagaiak galtzeko arriskua da.
-- **Matrikula berrien jatorria:** web-inprimakitik, gomendiotik, sare sozialetatik edo bisita fisikotik datozen. Jatorri bakoitzak ekintza desberdinak behar ditu elikatzeko edo hobetzeko.
-- **Itxaron-zerrendan plazak:** kapazitatearen ehuneko 15 gainditzen badu, zerbitzu-hedakuntzarako aukera edo komunikazio proaktiboa hobetzeko aukera duzu.
+- **Eskaera-konbertsioa:** baieztatutako matrikulazioan amaitutako eskaeren ehunekoa. %40 baino gutxiago bada, analizatu pipeline-eko zein fasetan erortzen diren hautagaiak gehien.
+- **Eskaeraren baiezpena arteko batez besteko denbora:** familia batek plaza eskatzetik baieztapena jasotzeraino pasatzen diren egunak. Zentro lehiakorretan bost egun baino gehiago hautagaia galtzeko arriskua da.
+- **Matrikula berrien jatorria:** web-inprimakitik, gomendiotik, sare sozial, bisita fisikotatik etortzen al dira? Jatorri bakoitzak elikatu edo hobetzeko ekintza desberdin bat behar du.
+- **Itxaron-zerrendako plazak:** zure gaitasunaren %15 gainditzen badu, zerbitzu hedapen edo zain dauden familiekin proaktibo komunikazio hobekuntza aukera duzu.
 
 <br>
 
@@ -57,8 +71,9 @@ Ikasle aktibo kopurua egoera-datu bat da, ez KPI ekintzaile bat. Kapazitate tota
 
 <br>
 
-- **Kanpo-kontakturik gabe ebatzitako intzidentzien ratioa:** zenbat familia-eskakizun automatikoki ebatzi ziren (ataria, aplikazioa, erantzun automatikoa) sekretaritzak esku hartu gabe. Autozerbitzu-efizientzia neurtzen du.
-- **Espedientea irekitzeko denbora:** ikasle berri batek lehen eskaeraren unean zenbat denbora behar duen espedientea osatzeko. Bi aste gainditzen badu, dokumentazio-itogunea dago.
+- **Kanpo-kontakturik gabe ebatzitako gorabeheren ratioa:** zenbat familia-eskaera automatikoki konpondu ziren (ataria, aplikazioa, erantzun automatikoa) idazkaritzaren esku-hartzerik gabe. Autozerbitzu-eraginkortasuna neurtzen du.
+- **Agiriaren irekitze-denbora:** hasierako eskaeraren ondoren ikasle berri baten agiriak osatzeraino zenbat denbora behar duen. Bi aste gainditzen badu, dokumentazio-botila-lepo bat dago.
+- **Administrazioko talde-asebetetzea:** ez da finantza-KPI bat, baina zereginen errepikakorretarako nekatu den taldeak zerbitzu-maila jaisten du. Hiruhilekoko bi galderako inkesta nahikoa da.
 
 <br>
 
@@ -66,55 +81,66 @@ Ikasle aktibo kopurua egoera-datu bat da, ez KPI ekintzaile bat. Kapazitate tota
 
 <br>
 
-- **Komunikazio kritikoen irekitze-tasa:** Pro komunikazioa irakurketa-baieztatuarekin erabiltzen baduzu, kobrantza-oharra edo legezko zirkularra irekitzen duten familien ehunekoa ehuneko 75 gainetik egon behar da.
-- **Atalean aktibo dauden familiak:** hilabetean sarbide aktiboarekin tutore ehunekoa. Ehuneko 60 azpitik badago, kanala ez dago funtzionatzen eta familiek ohar kritikoak ikusten ez dituzte.
+- **Komunikazio kritikoen irekitze-tasa:** Pro komunikazioa irakurketa-berrespena baduzu, kobrantza-abisu edo zirkular legal bat irekitzen duen familien ehunekoak %75 gainditu behar du.
+- **Atarian aktibo dauden familiak:** hilabetean sarbide aktiboko tutore ehunekoa. %60 baino gutxiago bada, kanala ez da funtzionatzen eta abisuak ez ikusten dituzten familiak izango dituzu.
+- **Komunikazio gorabeherak:** "ez nengoen jakitun" edo "ez zitzaidan iritsi abisua" erreklamazioak eta gatazkak. Hilabete batean igotzen bada, kanal edo mezu arazo bat dago.
 
 <br>
 
-<strong>Dashboard eraikitzeko: zeroetatik bi ordutan funtzional</strong>
+<strong>Panel-koadroa nola eraiki: zerotik bi ordutan funtziozkoa</strong>
 
 <br>
 
-Lehen urratsa: hileko dashboarderako zortzi adierazle baino ez aukeratu. Zortzi baino gehiagok zarata sortzen du. Bigarren urratsa: bakoitzarentzat, datu-iturria, eguneratze-maiztasuna eta alarma-atalasea definitu. Hirugarren urratsa: datu eta ekintza jabea esleitu, ez txosten-jabea soilik. Laugarren urratsa: dashboard berriarekin lehen batzordean denbora erdia definizioak baliozkotzen eta beste erdia ekintzetan ematen. Bigarren batzordean, ehuneko 80 ekintzak dira. Edenak oinarri-plataforman zentroko analitika barne hartzen du kobrantza-, plaza-, matrikula- eta familia-adierazleekin, talde osoarentzat datu-irizpide berdinekin.
+Lehen urratsa: ez aukeratu hileko panel-koadroa zortzi adierazle baino gehiago. Zortzi baino gehiak zarata sortzen du. Bigarren urratsa: bakoitzarentzat, datu-iturria (plataforma, kontabilitate, CRM), eguneratze-maiztasuna eta alarma-atalasea definitu. Hirugarren urratsa: datu eta ekintza arduraduna esleitu, ez soilik txostena. Laugarren urratsa: lehen batzordera panel berriarekin denboraren erdia definizioaren baliozkotzea eta beste erdia ekintzetarako. Bigarren batzordean, %80 ekintza da. Edernak plataforma-oinarrian zentroko analitika barne hartzen du kobrantza, plazak, matrikulazioa eta familien adierazleekin, talde osoari datu-irizpide berarekin.
 
 <br>
 
-<strong>Maiz egiten diren galderak</strong>
+<strong>Ohiko akatsak: inork kontsultatzen ez duen panela</strong>
 
 <br>
 
-<strong>Zenbat KPI dira gehiegi zentro txiki bateko zuzendaritza-taldearentzat?</strong>
-<br>
-
-Lau eta sei artean optimoa da 200 ikasle baino gutxiagoko zentro batentzat. Jabe eta ekintza lotutakorik gabeko adierazle gehiagok zarata sortzen dute, ez seinale. Hasi kobrantza, matrikula eta okupazioarekin, eta hiru horiek menperatzen dituzunean gehitu.
+Panel-koadroa hileko bileran ez badago, ez da existitzen. Batzorde aurreko gauean Excelean prestatutako panel-koadroa ez da KPI bat, aurkezpena baizik. Aldea da KPIa beti eskuragarri dagoela, irizpide berdinarekin, eta ekintza bat aktibatzen duela arazoa metatu aurretik, ondoren ez. Taldeak panel-koadroa norbaitek eskatu arte kontsultatzen ez badu, arazoa tresna ez da: adierazleek ez dute benetako hitzartutako ekintza lotura, eta hori da aldatu beharrekoa.
 
 <br>
 
-<strong>Zein maiztasun zuzena da KPIak berrikusteko?</strong>
-<br>
-
-Finantzazkoak (kobrantza, ezordainketak, kontabilitate-itxiera) hileko itxieran eta arrisku-atalaseak badaude asteko alertarekin. Matrikula eta captazio-koak aldian hasieran eta itxieran. Komunikazioa eta familienak hilero. Ez egin KPI bilerak ekintza lotutakorik gabe: hori da taldeak erabiltzeari utzi diezaion biderik azkarrena.
+<strong>Gorri/berde atalaseak KPI bakoitzeko</strong>
 
 <br>
 
-<strong>Edenaren analitika konfiguratua al da edo plataformak markatzen duena da?</strong>
-<br>
-
-Oinarri-plataformako zentroko analitikak kobrantza-, matrikula-, plaza- eta familia-adierazleak barne hartzen ditu. Pertsonalizazio-maila kontratatutako moduluaren eta ezarpenean adostutako konfigurazio-araberakoa da. Galdetu demostratzean zein adierazle dauden konfigurazio osagarririk gabe eskuragarri.
-
-<br>
-
-<strong>Zer desberdintzen du KPI on bat hezkuntzan vanity metric batetik?</strong>
-<br>
-
-KPI on batek ekintza sortarazten du atalasea gainditzen edo jaisten bada: kobrantza-tasa ehuneko 80ra jaitsi → bigarren gogorarazpen automatikoa aktibatu. Vanity metric batek erabakia aldatzen ez duen zenbaki bat erakusten du: hilabete honetan bidalitako mezu kopuru totala. Datuak aguja batek ere ez mugitzen badu, ez da KPIa, jarduera-txostena baizik.
+- **Zorrak >30 egun:** berdea <%6, anbra %6-10, gorria >%10. Gorrian ekintza: egutegia, SEPA prewarna eta abisuak berrikusi langile gehiago erantsi aurretik.
+- **Okupazioa:** berdea >%92, anbra %85-92, gorria <%85. Gorrian ekintza: kaptura, itxaron-zerrenda eta berritze ez diren bajak berrikusi.
+- **Hileko absentismoa:** berdea <%8, anbra %8-12, gorria >%12. Gorrian ekintza: ikastaro-protokoloaren ikasketa-buru alerta eta berrikuste.
+- **Eskaera-matrikulazioaren konbertsioa:** berdea >%35, anbra %25-35, gorria <%25. Gorrian ekintza: 48 h-ko bisitaren ondoko jarraipena eta erantzun-denbora auditatu.
 
 <br>
 
-<strong>Nola ekiditen dugu hileko batzordea definizioen eztabaida bihurtzea?</strong>
+<strong>Hileko berrikuste txantiloia (30 min)</strong>
+
 <br>
 
-Idatziz adostu, lehen batzorde aurretik, adierazle bakoitzaren definizio zehatza: zer barne hartzen duen, zer kanpoan uzten duen, zein iturritatik ateratzen den, zein periodizitatearekin eguneratzen den eta nor den arduraduna. Akordio hori mahaiaren gainean, batzordea ekintzetan hasten da. Hori gabe, bilera bakoitzak eztabaida bera berriro irekitzen du.
+- **0-10 minutu (diruzaintza eta zorrak):** Kobrantza-tasa, ordaindu gabeko batez besteko antzinatasuna, zor zenbatekoa >30 egun. Gorrian dagoen KPI batekin ekintza bat.
+- **10-20 minutu (okupazioa eta bajak):** Betetako plazak, aurreikusitako bajak, itxaron-zerrenda. Ikastaro batean absentismo anomaloa dagoen egiaztatu.
+- **20-30 minutu (onarpena eta operazioa):** Eskaera-pipeline, hilabeteko konbertsioa, komunikazio-gorabeherak. Hitzartutako ekintza eta arduradunekin itxi.
+
+<br>
+
+<strong>Espainiako testuingurua: datuak zuzendaritzarentzat, ez ikuskaritzarentzat soilik</strong>
+
+<br>
+
+Hilero okupazioa, zorrak, absentismoa eta eskaeren konbertsioa berrikusten dituen zuzendaria arazoa diruzaintzan agertu aurretik erabakiak hartzen du. Panelak fakturazioak eta idazkaritzak erabiltzen dituzten datu berberak erabili behar dituzte, ez txostena prestatzen duen pertsonaren arabera aldatzen diren irizpide desberdinak dituen Excel bikoiztuak.
+
+Ikastetxe-taldeetan, zentroaren arabera finkatze manualak hilaren 5. egunean saihesten ditu. Akats ohikoena ERPtik bereizirik analitika erostea da: bi egiaren iturri eta hiru orduko bilerak zifrak bateratzeko. Zortzi adierazle ondo definituekin eta gorri/berde atalaseekin operatibo taula zentro gehienentzat nahikoa da.
+
+Espainiako hezkuntza-analitika ez da soilik ikuskaritzako txostenak betetzea: zorrak aurreikustea, absentismo anomaloa duten ikastaroak detektatzea eta kapturak konbertitzen al dituen neurtzea da. Panela hileko zuzendaritza-bileran ez badago gorrian dagoen KPI bakoitzeko hitzartutako ekintzekin, operatiboki ez da existitzen.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Hitzartutako ikastetxe zuzendari batek hilaren 3. egunean lau KPI berrikusten ditu: okupazioa, zorra >30 egun, aurreko hileko absentismoa eta eskaera irekiak. Zorrak %8 gainditzen duenean, domiziliazio-kanpaina aktibatzen du; ikastaroaren absentismoa %12 gainditzen duenean, ikasketa-buruari dei egiten dio. 30 minutuko erabakiak, ez hiru orduko bilerak.
 
 <br>
 
@@ -122,4 +148,6 @@ Idatziz adostu, lehen batzorde aurretik, adierazle bakoitzaren definizio zehatza
 
 <br>
 
-KPIak ez dira helmuga: mapa dira. Sei adierazle ongi definituta, ekintzaile eta jabeekin hiltzen zuzendaria argitasunez erabaki dezakeen, arazoak aurreikus ditzakeen eta emaitzak frogatu ditzakeen zuzendaria da. Edenan, kobrantza-, matrikula-, familia- eta eragiketa-datuek irizpide bera partekatzen dute plataforma bakar batean. Eskatu demo bat, zure batzordeak behar dituen adierazleak definitu eta itxi lehen hilabetea datuekin, ez inpresioekin.
+KPIak ez dira helmuga: mapa dira. Zortzi adierazle ondo definituekin, ekintza-gaiekin eta arduraduna duen hilabetea ixten duen zuzendariak argitasunez erabaki, arazoak aurreikusi eta emaitzak froga ditzake. Edernan, kobrantza, matrikulazioa, familiak eta operazio-datuak plataforma bakarrean irizpidea partekatzen dute. Eskatu demo bat, zure batzordeak behar dituen adierazleak definitu eta lehen hilabetea itxi datuekin, ez inpresioekin.
+
+<br>

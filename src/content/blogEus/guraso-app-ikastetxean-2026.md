@@ -1,96 +1,115 @@
 ---
-title: "Guraso app ikastetxean: benetako onurak zuzendaritzarentzat eta familientzat"
+title: "Ikastetxeetako familientzako aplikazioa: zuzendaritza eta gurasoentzako benetako abantailak"
 date: "2026-04-05"
-description: "Ataria, push jakinarazpenak eta autogestioa: sekretaritzarako karga gutxiago, familientzat argitasun gehiago, plataforma bateratua Edenan."
+description: "Familia-aplikazio baten abantaila operatiboak kanal sakabanatuen aldean. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
-    [
-        "guraso app ikastetxea",
-        "hezkuntza ataria",
-        "eskola komunikazioa",
-        "familia autogestioa",
-        "push jakinarazpenak",
-        "Edena",
-    ]
-author: "Edena taldea"
+    - "eskolako familien aplikazioa"
+    - "hezkuntza ataria"
+    - "eskolako komunikazioa"
+    - "familiaren autogestioa"
+    - "push jakinarazpenak"
+    - "Edena"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1579621970343-21c491b3f363?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - ikastetxe-familia-plataforma-digital-komunikazioa
+  - zentro-hezkuntzako-komunikazio-digitala
+  - familia-komunikazioa-garai-digitalan
+  - hezkuntzarako-mugikor-aplikazioa
+faqs:
+  - question: "Aplikazioak paperezko agenda edo bilera presentzialak ordezkatzen ditu?"
+    answer: "Ez. Aplikazioak antolatzen, jakinarazi eta erregistratzen du; Ez du ordezkatzen tutoretza-elkarrizketa, kurtso hasierako bilera edo familia batek arreta pertsonalizatua behar duenean laguntza. Askatu denbora elkarrekintza horietarako, mezu errepikakorren zama murriztuz."
+  - question: "Zer gertatzen da smartphonerik ez duten edo gaitasun digital baxua duten familiekin?"
+    answer: "Web atarira edozein arakatzailetik sartzen da ezer deskargatu gabe. Oztopo digitalak dituzten familientzat, definitu babeskopia-protokolo bat (deitu, ohar, idazkaria) eta ez ezazu suposatu \"denek aplikazio bat dutela\". Oinarrizko posta elektronikoko komunikazioak laguntza-kanal gisa balio du oraindik."
+  - question: "Push jakinarazpenak mezuetarako soilik al dira edo ordainketa-abisuetarako ere?"
+    answer: "Pro komunikazioarekin, jakinarazpenak konfiguratu daitezke ordainketa-abisuetarako, dokumentazio abisuetarako, zirkularretarako eta txat-mezuetarako, zentroak zehaztutako irizpideen arabera. Fakturazio moduluak bilketa logika ematen du; Pro-k oharra mugikorrerako kanalera konektatzen du berrespenarekin."
+  - question: "Nola kudeatzen da familien eta taldearen arteko mezuen pribatutasuna?"
+    answer: "Communication Chat Pro zentro itxiko kanal bat da, ez sare sozial bat. Pribatutasuna, baimenak eta elkarrizketa-historietarako sarbidea zure DPOarekin definitu behar dira GDPR-ren esparruan: nork ikus dezake zer, zenbat denboraz eta zein oinarri juridikorekin."
+  - question: "Aplikaziotik kudeatu al daitezke absentziak eta baimenak?"
+    answer: "Bai. Oinarrizko plataformak familia-autogestioa barne hartzen du ohiko fluxu hauetarako: absentziaren jakinarazpena, ikaslearen espedientearen kontsulta, dokumentuetarako sarbidea eta, hala badagokio, gailuarekin konfiguratutako fluxuaren araberako baimenak sinatzea."
 ---
 
-<strong>Guraso app ikastetxean: benetako onurak zuzendaritzarentzat eta familientzat</strong>
+
+<strong>Ikastetxeetako familientzako aplikazioa: zuzendaritza eta gurasoentzako benetako abantailak</strong>
 
 <br>
 
-Aplikazio eta atari bat ez dira irudi-apaingarri soilak: dateak, ordainketak, oharrak eta dokumentuak aztarnekin bizi diren kanala dira. Dena mezu elektroniko soltetan edo paperean kudeatzen denean, sekretaritzak azalpen berak errepikatzen ditu eta zuzendaritzak ez du ikusgaitasunik ea zein mezu iritsi den, zein kuota iraungitzen den edo zein eranskini falta zaion. Edenan, oinarri-plataformak familientzako eta taldeentzako web-ataria eta aplikazio mugikorra, oinarrizko komunikazioa, onboarding-a, familia-autogestioa, zentroko analitika eta 24/7 laguntza barne hartzen ditu. Pro komunikazio-modulua, kontratatzen bada, denbora errealeko txata, push jakinarazpenak, irakurketa-baieztatua eta talde edo gelako komunikazio segmentatua gehitzen ditu. Dena argitaratutako katalogoan bezala: ezer asmatuik ez. Benetako onura ez da teknologikoa, negoziozkoa baizik: datu-identitate bakar batek tutore maila lotu du haserako interestik hartatik faktura, espediente eta dokumentuetara arte, bost kutxa ezberdinetan berreraiki gabe.
+Aplikazio bat eta atari bat ez dira irudien apainketa: datak, ordainketak, oharrak eta dokumentuak aztarnekin elkarbizitzen dituen kanala dira. Dena posta solte edo paper bidez kudeatzen denean, idazkaritzak azalpen berberak errepikatzen ditu eta zuzendaritzak ikusgarritasuna galtzen du zer mezu iritsi den, zer kuota duen edo zer eranskin falta den. Edena-n, oinarrizko plataformak familientzako eta taldeentzako web ataria eta mugikorreko aplikazioa, oinarrizko komunikazioa, onboarding eta familiaren autogestioa, zentroen analisiak eta 24/7 laguntza barne hartzen ditu. Pro komunikazio moduluak, kontratatuta badago, denbora errealeko txata, push jakinarazpenak, irakurketaren berrespena eta komunikazio segmentatua gehitzen ditu taldeka edo ikasgelaka. Dena argitaratutako katalogoaren arabera: ezer asmatua. Benetako etekina ez da teknologikoa, negozioa da: datu-identitate bakar batek lotzen du tutorea hasierako interesetik ordainagiria, espedientea eta dokumentuetara, bost kutxa ezberdinetan berreraiki gabe.
 
 <br>
 
-<strong>Zuzendaritzarentzat: gobernu hari bakoitza mikrogestatu gabe</strong>
+<strong>Kudeaketarako: gobernua hari bakoitza mikrokudeatu gabe</strong>
 
 <br>
 
-Zuzendaritzak ez du eguneko mezu guztiak irakurri behar; sare kritikoak —kobrantzak, larrialdi-dokumentazioa, legezko zirkularrak— familiei iristen eta irakurtzen ari direla jakin behar du. Oinarri-plataformako zentroko analitikarekin eta, Pro kontratatzen bada, irekitze-datuak eta irakurketa-baieztatuarekin, batzordeak "uste dut bidali genuela" eztabaidatzeari uzten dio eta zifrak erabiliz lan egiten du. Itxiera-irizpidea argi dago: zein ordainketa-oharra irekitze-tasak eskalada bat justifikatzen du, zein zirkular sinaturaren baieztatua bigarren kanal bat behartzeko.
+Zuzendaritzak ez ditu eguneko mezu guztiak irakurri behar; Jakin behar duzu bide kritikoak (bilketak, premiazko dokumentazioa, zirkular legalak) familietara iristen diren eta irakurtzen diren. Oinarrizko plataforman analitika zentralak dituena eta, Pro kontratatzen baduzu, datuak irekitzen badituzu eta baieztapena irakurriz, batzordeak "uste dut bidali dugula" eztabaidatzeari uzten dio eta zifrekin lanean hasten da. Itxiera-irizpidea argia da: ordainketa-abisuetan zein irekiera-tasa justifikatzen duen igoera bat, zirkular batean zein sinadura berresteak behar duen bigarren kanala, inoren memoriaren menpe egon gabe.
 
 <br>
 
-<strong>Familientzat: leku bakarra, marruskadura gutxiago</strong>
+<strong>Familientzat: leku bat, marruskadura gutxiago</strong>
 
 <br>
 
-Ordaindu, espedientea kontsultatu, baimena sinatu, absentzia jakinarazi edo dokumentua igo, aplikazio beretik, bi pausuetan, "beste kanal batetik egin nuen eta eskolak ez zuen ikusi" ehunekoa jaisten du. Gatazkak konfiantza higatu, lan bikoitza sortu eta sekretaritzari sistemak konpondu ahal zuen dei-denbora gehitzen dio. Familia-autogestioa, eskakizun eta prozesu-faseekin lotuta denean (matrikula, ordainketa, dokumentazioa), ordainketa-oharra hari batean eta espedientea bestean bizi izatea ekiditen du, gurutzatze gabe.
+Ordaindu, espedientea kontsultatu, baimen bat sinatuz, absentziaren berri eman edo dokumentu bat igotzeak, aplikazio beretik, bi urratsetan, murrizten du "beste kanal batetik egin nuen eta ikastetxeak ez zuen ikusi" ehunekoa. Gatazka honek konfiantza higatzen du, lan bikoitza sortzen du eta idazkaritza sistemak konpondu ahal izan dituen deiez okupatzen du. Familiaren autogestioak, eskakizun argiei eta prozesu faseei (erregistroa, ordainketa, dokumentazioa) lotuta daudenean, ilarak gailurrak murrizten ditu eta bilketa-oharra hari batean eta fitxategia beste batean bizitzea eragozten du, gurutzatu gabe.
 
 <br>
 
-<strong>Oinarrizko edo Pro: nola hautatu modulu hutsal batengatik dirua galdu gabe</strong>
+<strong>Basic edo Pro: nola aukeratu modulu hutsetan dirua xahutu gabe</strong>
 
 <br>
 
-Plataformako oinarrizko komunikazioak behar gehienak estaltzen ditu mezu sinplearekin, maiztasun txikiarekin eta segmentazio finekoa gabe. Taldeak homogeneoak badira, mezu-karga moderatua bada eta ohartze legal batean "irakurri gabe" arrisku ona bigarren kanal babesgarri batekin toleragarria bada, nahikoa da. Pro komenigarria da maiztasun handia dagoenean, talde ezberdin asko daudenean (ikasturte, gela, jarduera, jangela), legezko edo kobrantza-mezuek kargatzeko baieztatua behar dutenean, edo zentroa gertakari larri batean denbora errealean familiengatik iritsi behar denean. Ez erosi Pro eta hutsik utzi: moduluak erabilera-diziplina, txantiloiak, mezu-arduradunak eta maiztasun-irizpidea behar ditu, bestela zaratea bihurtzen da.
+Plataformaren oinarrizko komunikazioak beharren zati handi bat estaltzen du mezu sinple batekin, maiztasun baxuarekin eta segmentazio finrik gabe. Nahikoa da taldeak homogeneoak badira, mezuen karga neurrizkoa bada eta lege-ohar batean "irakurri gabe" izateko arriskua onartzen bada bigarren segurtasun-kanal batekin. Erosoa da maiztasun handia dagoenean, hainbat talde (ikastaroa, ikasgela, jarduera, jangela), jaso izanaren berrespena eskatzen duten legezko edo bilketa-mezuak daudenean, edo zentroa gertakari larriren bat gertatuz gero, familiengana denbora errealean iritsi behar denean. Ez erosi Pro eta utzi hutsik: moduluak erabilera diziplina, txantiloiak, mezuen kudeatzailea eta maiztasun irizpideak behar ditu, edo zarata bihurtzen da.
 
 <br>
 
-<strong>Fakturazioaren eta espedientearen integrazioa: desberdintzen duen abantaila</strong>
+<strong>Fakturazioarekin eta fitxategiarekin integratzea: bereizten duen abantaila</strong>
 
 <br>
 
-Mezuak soilik mugitzen dituen aplikazioa logotipodun eskola-txata da. Benetako aldea kobrantza-oharra, matrikulazioaren baieztatua edo dokumentu baten karga fakturen, espediente-egoeraren eta CRM pipeline-aren sistema berean bizitzea da. Horrela, sekretaritzak "ez dakit zer gertatzen den nire matrikularekin" ezin du konpondu lau fitxetan saltatuz: erantzuna plataforma berean dago. Fakturazio-modulua, CRM eta familia-ataria datu-irizpidea partekatzen dutenean, tutoreak koherentzia esperimentatzen du eta taldeak barne-marruskaduraren erdia lan egiten du.
+Mezuak bakarrik mugitzen dituen aplikazioa logo batekin ikastetxeko txat bat da. Benetako aldea zera da: bilketa-oharra, erregistroaren berrespena edo dokumentu bat igotzea ordainagiriaren, fitxategiaren egoera eta CRM kanalizazioaren sistema berean bizi direla. Hala, idazkaritzak ez du konpontzen "Ez dakit zer gertatzen ari den nire erregistroarekin" lau fitxaren artean errebotean: erantzuna plataforma berean dago. Fakturazio moduluak, CRM eta familiaren atariak datu-irizpideak partekatzen dituenean, tutoreak koherentzia izaten du eta taldeak barne-marruskaduraren erdiarekin lan egiten du.
 
 <br>
 
-<strong>Maiz egiten diren galderak</strong>
+<strong>Ezarpenean ohikoak diren akatsak</strong>
 
 <br>
 
-<strong>Appak paper-agenda edo aurrez aurreko bilerak ordezkatzen al ditu?</strong>
-<br>
-
-Ez. Appak antolatzen, ohartarazten eta erregistratzen du; ez du tutore-elkarrizketaren ordea, ikasturteko hasierako bileraren ordea, ezta familia batek arreta pertsonalizatua behar duenean laguntzaren ordea ere. Denbora askatzen du elkarrekintza horietarako errutinazko mezu-karga murriztuz.
-
-<br>
-
-<strong>Zer gertatzen da telefono adimenduna ez duten edo gaitasun digital txikia duten familiekin?</strong>
-<br>
-
-Web-atariak edozein nabigatzailetik funtzionatzen du deskargatu gabe. Hesi digitala duten familientzat, laguntza-protokolo bat definitu (deia, oharra, sekretaritza) eta "denek app dute" ez suposatu. Oinarrizko mezu elektronikozko komunikazioa laguntza-kanal gisa baliozkoa izaten jarraitzen du.
+- Abiarazi aplikazioa eta mantendu zazpi kanal paraleloan etenik gabe: WhatsApp, posta elektronikoa, agenda-oharra, ataria eta deia. Familiak nahastuta daude eta lan bolumena ez da gutxitzen.
+- Familiak edo taldea zein kanal den ofiziala zein mezu motatarako ez prestatzea.
+- Instalatu Pro mezu txantiloirik gabe, komunikazio kudeatzaile edo maiztasun irizpiderik gabe.
+- Konektatu aplikazioa beste bilketa-hornitzaile batekin, adiskidetzerik gabe, bi finantza "egia" sortuz.
+- Neurtu "bidalitako mezuak" arrakastaren KPI gisa. Garrantzitsua da atariak zer familiako kide aktiboen tasa duen eta zenbat gorabehera konpontzen diren deirik gabe.
 
 <br>
 
-<strong>Push jakinarazpenak mezuetarako soilik dira ala ordainketa-gogorarazpenetarako ere bai?</strong>
-<br>
-
-Pro komunikazioarekin, jakinarazpenak ordainketa-alertetarako, dokumentazio-gogorarazpenetarako, zirkularretarako eta txat-mezuetarako konfigura daitezke, zentroak definitutako irizpidearen arabera. Fakturazio-moduluak kobrantza-logika ematen du; Pro alertari mugikorreko kanalera baieztatuarekin lotzen du.
+<strong>Erabaki matrizea: aplikazioa vs WhatsApp vs posta elektronikoa</strong>
 
 <br>
 
-<strong>Nola kudeatzen da familiak eta taldea arteko mezu pribatutasuna?</strong>
+- **Aplikazio instituzionala:** Zirkularrak, ordainketak, baimenak, gorabeherak eta trazabilitatea. Masibo eta ikuskagarrientzako kanal nagusia.
+- **Posta elektronikoa:** Dokumentu luzeak, artxiba daitekeen komunikazio formala eta telefonorik gabeko familiak (derrigorrezko alternatiba).
+- **WhatsApp:** Protokoloarekin adostutako larrialdi espezifikoak; inoiz ez fakturatu edo bildu datu sentikorrak talde informalei.
+- **Oinarrizko araua:** Instituzionala aplikazioan; zer premiazkoa den irizpide idatziekin; masiboa inoiz kontrol edo erregistrorik gabe.
+
 <br>
 
-Pro komunikazioaren txata zentroko kanal itxia da, ez sare soziala. Pribatutasun-arauak, sarbide-baimenak eta elkarrizketa-historial atxikipen-epea zure DPD-arekin DAEB esparruan definitu behar dira: nork zer ikusi dezakeen, zenbat denbora eta zein oinarri legalarekin.
+<strong>Testuingurua Espainian: WhatsApp ez da kanal instituzionala</strong>
 
 <br>
 
-<strong>Absentziak eta baimenduak aplikaziotik kudea al daitezke?</strong>
+Espainian milaka zentrok jarraitzen dute tutoreen eta familien arteko WhatsApp taldeak erabiltzen. Larrialdi zehatzetarako funtzionatzen du, baina ez du trazabilitatea uzten, irakaslearen bizitza pertsonala eta profesionala nahasten ditu eta datuen babesa betetzea zailtzen du adingabeen zerrendak, gorabeherak edo datuak partekatzen direnean.
+
+Push jakinarazpenak dituen atari edo aplikazio batek, irakurketaren baieztapena eta ikastaroen arabera segmentatzen dituenak, idazkaritzarako deiak murrizten ditu eta kexen erregistroa uzten du, hala nola "Ez nuen enteratu". Familiek ez dute giza harreman gutxiagorik eskatzen: kanal ofizial bat eskatzen dute, non zirkularrak kontsultatu, irteerak baimendu, kuotak ordaintzeko eta euren espedientearen egoera ikusteko tutorearen telefono mugikor pertsonalaren menpe egon gabe.
+
+Gakoa ez da WhatsApp egun batetik bestera debekatzea, baizik eta familiek nahiago duten bide instituzionala eskaintzea, ordainketak, baimenak eta ohar kritikoak ebazten dituelako. Idatziz zehaztu aplikazioan zer doan (zirkularrak, ordainketak, baimenak) eta erreserbatu WhatsApp tutoretzarekin adostutako koordinazio espezifikorako.
+
 <br>
 
-Bai. Oinarri-plataformak familia-autogestioa barne hartzen ditu ohiko fluxu horietarako: absentzia-jakinarazpena, ikaslearen espedientearen kontsulta, dokumentuetarako sarbidea eta, hala konfiguratuta badago, talde nagusiarekin konfiguratutako fluxuaren arabera baimenduen sinadura.
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Madrilgo Lehen Hezkuntzako ikastetxe batek zirkularrak, gorabeherak eta baimenak bateratu zituen familia-aplikazio batean. Hiruhileko batean, arreta handieneko orduetan sarrerako deiak %35 jaitsi ziren eta familien %78k push jakinarazpenak aktibatu zituzten. WhatsApp tutoretzarekin adostutako larrialdi zehatzetarako bakarrik utzi zen.
 
 <br>
 
@@ -98,4 +117,6 @@ Bai. Oinarri-plataformak familia-autogestioa barne hartzen ditu ohiko fluxu hori
 
 <br>
 
-Aplikazio eta atari sendo batek giza harremana ez du ordezkatzen: prestatzen du. Errutinarioa den horren marruskadura murrizten du taldeak garrantzitsua denari arreta emateko ahalmena izan dezan. Edenan, ataria, aplikazioa, fakturazioaren, espedientearen, CRM eta dokumentuek datu-irizpidea partekatzen dute, Pro karga justifikatzen duenean eta 24/7 laguntza beti. Eskatu demo bat, karga erreala jarri eta laurogeita hamar egunetan neur ezazu adierazle finko batekin: zure taldeak seinalearekin lan egitea merezi du, ez zaratarekin.
+Aplikazio eta atari sendo batek ez dute giza harremana ordezkatzen: prestatzen dute. Errutinaren marruskadura murrizten dute, taldeak garrantzia duenari erantzuteko gaitasuna izan dezan. Edena-rekin, ataria, aplikazioa, fakturazioa, fitxategia, CRM eta dokumentazioa partekatzen datuak irizpideak, Pro-rekin kargak justifikatzen duenean eta beti 24/7 laguntza. Eskatu demo bat, jarri benetako karga eta neurtu laurogeita hamar egun adierazle finko batekin: zure ekipoak seinalearekin lan egitea merezi du, ez zaratarekin.
+
+<br>

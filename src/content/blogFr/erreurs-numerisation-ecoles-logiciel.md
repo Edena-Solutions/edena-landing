@@ -5,8 +5,12 @@ description: "Numérisation éducative et logiciel pour les écoles : les 7 erre
 tags: ["numérisation éducative", "logiciel pour écoles", "mise en œuvre", "erreurs"]
 author: "Équipe Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677269465314-d5d2247a0b0c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJvYm90fGVufDB8fDB8fHww"
+faqs:
+  - question: "Combien de temps faut-il pour voir les effets de la numérisation éducative ?"
+    answer: "Cela dépend du processus. La facturation et les rappels peuvent montrer un impact en quelques semaines. Une numérisation complète dans les écoles peut prendre plusieurs mois pour se stabiliser. Mesurez par phases."
+  - question: "Le logiciel pour les écoles doit-il tout intégrer ?"
+    answer: "Pas nécessairement. Un noyau unifié (facturation, familles, dossiers) simplifie en général. Mais si vous avez déjà des outils qui fonctionnent, évaluez les intégrations avant de tout remplacer."
 ---
-
 <strong>Numérisation dans les écoles : 7 erreurs que commettent les établissements en déployant un logiciel éducatif</strong>
 
 <br>
@@ -59,7 +63,7 @@ La licence n’est qu’une partie. Formation, migration, intégrations et suppo
 
 <br>
 
-Signer avec un fournisseur sans examiner le RGPD, la localisation des données ou les clauses de sous-traitant. La numérisation dans les écoles implique des données sensibles ; le logiciel pour les écoles doit être conforme. Ne supposez pas que « tout est permis ».
+Signer avec un fournisseur sans examiner le GDPR, la localisation des données ou les clauses de sous-traitant. La numérisation dans les écoles implique des données sensibles ; le logiciel pour les écoles doit être conforme. Ne supposez pas que « tout est permis ».
 
 <br>
 
@@ -78,28 +82,3 @@ Déployer puis oublier. La numérisation éducative est un processus continu. Le
 Définissez les besoins, impliquez l’équipe, planifiez migration et formation, évaluez le coût total, exigez la conformité réglementaire et mesurez les résultats. Un logiciel pour les écoles bien choisi et bien déployé transforme l’établissement ; évitez ces 7 erreurs pour maximiser le retour.
 
 <br>
-
-<strong>Questions fréquentes</strong>
-
-<br>
-
-<strong>Combien de temps faut-il pour voir les effets de la numérisation éducative ?</strong>
-<br>
-
-Cela dépend du processus. La facturation et les rappels peuvent montrer un impact en quelques semaines. Une numérisation complète dans les écoles peut prendre plusieurs mois pour se stabiliser. Mesurez par phases.
-
-<br>
-
-<strong>Le logiciel pour les écoles doit-il tout intégrer ?</strong>
-<br>
-
-Pas nécessairement. Un noyau unifié (facturation, familles, dossiers) simplifie en général. Mais si vous avez déjà des outils qui fonctionnent, évaluez les intégrations avant de tout remplacer.
-
-<br>
-
-<strong>Conclusion</strong>
-<br>
-
-La numérisation dans les écoles peut transformer l’établissement si ces 7 erreurs sont évitées. Un logiciel pour les écoles bien choisi, avec une équipe impliquée et une planification adéquate, apporte efficacité et satisfaction. Investissez avec méthode.
-
-Vous souhaitez numériser votre établissement en évitant ces erreurs ? Demandez une démo et passons en revue les besoins, les processus et les options sans engagement.

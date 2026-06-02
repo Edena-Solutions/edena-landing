@@ -5,8 +5,18 @@ description: "Communication numérique dans les établissements scolaires : cana
 tags: ["communication numérique établissements scolaires", "familles", "canaux", "outils"]
 author: "Équipe Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1170&auto=format&fit=crop"
+faqs:
+  - question: "Faut-il plutôt une application qu'un site web pour les familles ?"
+    answer: "Cela dépend du budget et de l'usage. Un portail adapté au mobile suffit souvent ; une application native peut renforcer la visibilité (icône, notifications) si les familles l'utilisent souvent."
+  - question: "Les notifications push remplacent-elles le courriel ?"
+    answer: "Pas nécessairement. Le courriel reste adapté au contenu long et à l'archivage. Les notifications et SMS excellent pour les messages courts et urgents exigeant une action rapide."
+  - question: "Comment respecter la protection des données lors d'envois de masse ?"
+    answer: "Utiliser des outils qui gèrent consentements et listes, n'utilisent pas les données à des fins commerciales non autorisées, et permettent la désinscription. Le fournisseur est sous-traitant s'il traite des données pour le compte de l'établissement."
+  - question: "Que faire des groupes de messagerie de parents ?"
+    answer: "Il n'est pas recommandé d'en faire le canal officiel : peu de contrôle, risques pour la vie privée et mélange des sujets. Mieux vaut proposer un canal institutionnel (portail, notifications) et, si l'établissement l'accepte, laisser la messagerie informelle à la marge, avec des règles claires."
+  - question: "La communication numérique en établissement exige-t-elle beaucoup de maintenance ?"
+    answer: "Le lancement demande un effort de mise en place ; ensuite, modèles et automatisations réduisent l'entretien. Prévoyez une revue chaque année des contenus et des segments."
 ---
-
 <strong>Améliorer la communication avec les familles : des outils numériques au-delà du courriel</strong>
 <br>
 
@@ -98,52 +108,3 @@ Un collège a remplacé les circulaires papier par des publications sur le porta
 7. Chaque année, vérifier que les canaux restent adaptés au retour des familles.
 
 <br>
-
-<strong>Questions fréquentes</strong>
-<br>
-
-<br>
-<strong>Faut-il plutôt une application qu'un site web pour les familles ?</strong>
-<br>
-
-Cela dépend du budget et de l'usage. Un portail adapté au mobile suffit souvent ; une application native peut renforcer la visibilité (icône, notifications) si les familles l'utilisent souvent.
-
-<br>
-<strong>Les notifications push remplacent-elles le courriel ?</strong>
-<br>
-
-Pas nécessairement. Le courriel reste adapté au contenu long et à l'archivage. Les notifications et SMS excellent pour les messages courts et urgents exigeant une action rapide.
-
-<br>
-<strong>Comment respecter la protection des données lors d'envois de masse ?</strong>
-<br>
-
-Utiliser des outils qui gèrent consentements et listes, n'utilisent pas les données à des fins commerciales non autorisées, et permettent la désinscription. Le fournisseur est sous-traitant s'il traite des données pour le compte de l'établissement.
-
-<br>
-<strong>Que faire des groupes de messagerie de parents ?</strong>
-<br>
-
-Il n'est pas recommandé d'en faire le canal officiel : peu de contrôle, risques pour la vie privée et mélange des sujets. Mieux vaut proposer un canal institutionnel (portail, notifications) et, si l'établissement l'accepte, laisser la messagerie informelle à la marge, avec des règles claires.
-
-<br>
-<strong>La communication numérique en établissement exige-t-elle beaucoup de maintenance ?</strong>
-<br>
-
-Le lancement demande un effort de mise en place ; ensuite, modèles et automatisations réduisent l'entretien. Prévoyez une revue chaque année des contenus et des segments.
-
-<br>
-
-<strong>Conclusion</strong>
-<br>
-
-La communication numérique en établissement progresse en combinant un canal de consultation (portail ou application), des notifications pour l'urgent et une segmentation par public. Aller au-delà du courriel ne signifie pas le supprimer, mais l'associer à des canaux consultés au quotidien, avec traçabilité et automatisation.
-
-<strong>Résumé en 5 points clés :</strong>  
-1) La communication numérique en établissement doit inclure un canal facilement consultable par les familles (portail / application).  
-2) Les notifications push ou SMS améliorent la lecture des alertes et des rappels.  
-3) Segmenter par niveau, service ou situation renforce la pertinence.  
-4) Modèles et automatisation font gagner du temps et cadrer les pratiques.  
-5) Définir le canal par type de message réduit le bruit et améliore la réponse.
-
-Souhaitez-vous revoir la communication avec les familles de votre établissement ? Demandez une démonstration : nous verrons canaux, segmentation et scénarios adaptés à votre contexte.

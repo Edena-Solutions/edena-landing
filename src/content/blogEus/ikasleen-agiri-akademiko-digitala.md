@@ -1,35 +1,47 @@
 ---
-title: "Nola zentralizatu ikaslearen informazio guztia sistema bakar batean"
+title: "Nola zentralizatu ikasleen informazio guztia sistema bakarrean"
 date: "2026-03-09"
-description: "Espediente akademiko digitala eta ikastetxeetan ikasleen kudeaketa: datuak zentralizatu, trazabilitatea hobetu eta irakasle eta idazkaritzaren lana erraztu."
-tags:
-    [
-        "espediente akademiko digitala",
-        "ikasleen kudeaketa ikastetxean",
-        "SIS",
-        "hezkuntza-zentroak",
-    ]
-author: "Edena taldea"
+description: "Irakasle/tutorearen espediente akademiko bateratuaren ikuspegia. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+author: "Edena Taldea"
 cover: "https://plus.unsplash.com/premium_photo-1769074257962-c297d5908fd5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2VudHJhbGl6ZWR8ZW58MHx8MHx8fDA%3D"
+relatedPosts:
+  - dokumentu-kudeaketa-eskola-2026
+  - zentro-agiri-kudeaketa-digitala
+faqs:
+  - question: "Espediente akademiko digitalak betetzen al du GDPR?"
+    answer: "Bai, sistemak segurtasun neurriak baditu (sarbide mugatua, enkriptatzea, auditoria) eta hornitzaileak datu prozesadore gisa jokatzen badu. Datu sentikorrak dituzten ikasleak eskolan kudeatzeko, araudia bete behar da."
+  - question: "Nork sar dezake espediente akademiko digitala?"
+    answer: "Konfiguratutako baimenen araberakoa da. Ikaslearen idazkariak, zuzendaritzak eta irakasleek izan ohi dute sarbidea. Ikastetxeko ikasleen kudeaketak eginkizunen araberako profilei gutxieneko sarbide-printzipioa betetzea ahalbidetu behar du."
+  - question: "Ikus al dezakete familiek espediente akademiko digitala?"
+    answer: "Dagokion informazioa ikus dezakete (asistentzia, komunikazioak, sinatu duten dokumentazioa). Espediente digital osoa barnekoa izan ohi da. Familien atari batekin ikastetxeko ikasleen kudeaketak gardentasun kontrolatua ahalbidetzen du."
+  - question: "Artxibo historiko osoa digitalizatu?"
+    answer: "Uneko ikastaroa eta dokumentu aktiboei lehentasuna ematea; historia faseka."
 ---
 
-<strong>Nola zentralizatu ikaslearen informazio guztia sistema bakar batean</strong>
+
+<strong>Nola zentralizatu ikasleen informazio guztia sistema bakarrean</strong>
 
 <br>
 
-Espediente akademiko digitala eta ikastetxeetan ikasleen kudeaketa karpetetan, kalkulu-orrietan eta emailetan sakabanatuta akatsak, atzerapenak eta frustrazioa sortzen ditu. Ikaslearen informazio guztia sistema bakarrean zentralizatzeak idazkaritza, irakasle eta zuzendaritzari datu eguneratuak sarbidea ematen die, trazabilitate eta betetze normatiboarekin. Artikulu honek nola inplementatu espediente akademiko digitala eta ikastetxeetan ikasleen kudeaketa hobetu azaltzen du.
+<strong>Angelua: irakasle/tutorearen ikuspegia</strong>
 
 <br>
 
-<strong>Zer barne hartzen duen espediente akademiko digital batek</strong>
+Jarraipen pedagogiko bateratua. Gobernantza <a href="/eus/blog/dokumentu-kudeaketa-eskola-2026">fitxategi digitala 2026</a>n.
+
+Espediente akademiko digitalak eta ikastetxeko ikasleen kudeaketa karpetetan, kalkulu-orrietan eta mezu elektronikoetan sakabanatuta dauden akatsak, atzerapenak eta frustrazioa sortzen dute. Ikasleen informazio guztia sistema bakar batean zentralizatzeak aukera ematen die idazkariari, irakasleei eta zuzendaritzari datu eguneratuak atzitzeko, trazabilitatea eta araudia betez. Artikulu honek espediente akademiko digitala nola ezarri eta ikasleen kudeaketa eskolan nola hobetu azaltzen du.
 
 <br>
 
-Datu pertsonalak, historia akademikoa, bertaratzea, kalifikazioak, oharrak, dokumentazioa (baimenak, txostenak) eta familiarekin komunikazioa. Ondo egituratutako espediente akademiko digital batek hori guztia leku bakarrean zentralizatzen du. Ikastetxeetan ikasleen kudeaketa espediente digitalekin karpetetan bilaketa eta transkripzio-akatsak ezabatzen ditu.
+<strong>Zer barne hartzen du espediente akademiko digitalak?</strong>
 
 <br>
 
-<strong>Espediente akademiko digitalaren onurak</strong>
+Datu pertsonalak, historia akademikoa, asistentzia, kalifikazioak, behaketak, dokumentazioa (baimenak, txostenak) eta familiarekin izandako komunikazioak. Ondo egituratutako transkripzio digital batek leku bakarrean zentralizatzen du hori guztia. Ikastetxeko ikasleak erregistro digitalekin kudeatzeak karpetetan bilaketak egitea ezabatzen du eta transkripzio akatsak murrizten ditu.
+
+<br>
+
+<strong>Espediente digitalaren onurak</strong>
 
 <br>
 
@@ -37,7 +49,7 @@ Datu pertsonalak, historia akademikoa, bertaratzea, kalifikazioak, oharrak, doku
 
 <br>
 
-Idazkaritza, irakasle eta zuzendaritzak ikaslearen informazioa hainbat lekutan bilatu gabe kontsulta dezakete. Ikastetxeetan ikasleen kudeaketa digitalak kontsulta bakoitzean denbora aurrezten du. Espediente akademiko digitala baimenak dituztenentzat beti eskuragarri dago.
+Idazkariak, irakasleek eta zuzendaritzak ikasleen informazioa kontsultatzen dute hainbat gune bilatu gabe. Eskola digital batean ikasleen kudeaketak denbora aurrezten du kontsulta bakoitzean. Espediente akademiko digitala beti dago eskuragarri baimenak dituen edonork.
 
 <br>
 
@@ -45,15 +57,15 @@ Idazkaritza, irakasle eta zuzendaritzak ikaslearen informazioa hainbat lekutan b
 
 <br>
 
-Nor sartu den, zer aldatu den eta noiz erregistroa. Espediente akademiko digitalak RGPD eta ikuskaritzaren aurreko betetzea errazten du. Ikastetxeetan ikasleen kudeaketa auditoreziarekin segurtasun juridikoa ematen du.
+Nor sartu den, zer aldatu den eta noizko erregistroa. Espediente akademiko digitalak GDPR betetzea eta ikuskapenei erantzutea errazten du. Auditoria duten ikastetxeetako ikasleen kudeaketak segurtasun juridikoa ematen du.
 
 <br>
 
-<strong>3. Integratutako komunikazioa</strong>
+<strong>3. Komunikazio integratua</strong>
 
 <br>
 
-Familiarekin komunikazioak espediente akademiko digitalean erregistratzen dira. Mezuak eta adostasunak galtzen ez dituen ikastetxeetan ikasleen kudeaketak mezuen hari integratua du.
+Familiarekiko komunikazioak espediente akademiko digitalean jasotzen dira. Mezuak integratzen dituen ikastetxeko ikasleen kudeaketak elkarrizketen edo akordioen haria galtzea saihesten du.
 
 <br>
 
@@ -61,7 +73,7 @@ Familiarekin komunikazioak espediente akademiko digitalean erregistratzen dira. 
 
 <br>
 
-Ikasle edo taldearen arabera tutore, orientazio edo ikuskaritzarako txostenak sortzea. Txosten integratuak dituen espediente akademiko digitalak eskuzko lan orduak aurrezten ditu. Analitikarekin ikastetxeetan ikasleen kudeaketak ikusgarritasuna ematen du.
+Ikasleen edo taldeen araberako txostenak sortzea tutoreetarako, orientaziorako edo ikuskapenerako. Txosten integratuak dituen espediente akademiko digitalak eskuzko lan orduak aurrezten ditu. Ikastetxeko ikasleak analitikekin kudeatzeak ikusgarritasuna ematen du.
 
 <br>
 
@@ -69,38 +81,88 @@ Ikasle edo taldearen arabera tutore, orientazio edo ikuskaritzarako txostenak so
 
 <br>
 
-Definitu zein datu diren kritikoak (matrikula, historia, dokumentazioa) eta zein formatutan dauden. Migrazioa faseetan planifikatu: lehen datu aktiboak, ondoren historia badagokio. Ikastetxeetan ikasleen kudeaketa digitalak datuen baliozkotzea eta taldearen prestakuntza behar du. Esperientzia duen hornitzaile batek espediente akademiko digitalean prozesuan gidatu zaitzake.
+Zein datu den kritikoa (erregistroa, historia, dokumentazioa) eta zein formatutan dagoen definitzen du. Migrazioa faseka planifikatu: lehenik uneko datuak, gero datu historikoak hala badagokio. Eskola digital batean ikasleen kudeaketak datuak baliozkotzea eta taldeen prestakuntza eskatzen du. Esperientziadun transkripzio digitalaren hornitzaile batek gidatuko zaitu prozesuan.
 
 <br>
 
-<strong>Maiz egiten diren galderak</strong>
+<strong>Artxibo historiko osoa digitalizatu?</strong>
 
 <br>
 
-<strong>Espediente akademiko digitalak RGPDa betetzen al du?</strong>
-<br>
-
-Bai, sistemak segurtasun-neurriak baditu (sarbide murriztua, zifratzea, auditoretza) eta hornitzaileak tratamendu-emandari gisa jokatzen badu. Ikastetxeetan ikasleen kudeaketa datu sentikorrekin betetze normatiboa eskatzen du.
+Uneko ikastaroa eta dokumentu aktiboei lehentasuna ematen die; historia faseka.
 
 <br>
 
-<strong>Nork atzitu dezake espediente akademiko digitala?</strong>
-<br>
-
-Konfiguratutako baimenen arabera. Idazkaritza, zuzendaritza eta ikaslearen irakasleek normalean sarbidea dute. Ikastetxeetan ikasleen kudeaketak rolaren arabeko profilak ahalbidetu behar ditu gutxieneko sarbide printzipioa betetzeko.
+<strong>Fitxategi digitalak zer eduki behar duen</strong>
 
 <br>
 
-<strong>Familiek espediente akademiko digitala ikus dezakete?</strong>
+- **Identifikazio datuak:** Ikaslea, tutoreak, ikastaroa eta kontaktuak ERPn eguneratuta.
+- **Historia akademikoa:** Tituluak, etengabeko ebaluazioa eta behaketak ikastaroka.
+- **Baimenak:** Irudia, eskola irteerak eta sinadura digitalarekin bilketa.
+- **Osasun txostenak:** Alergiak, botikak eta erizaintzak eskura daitezkeen protokoloak.
+- **Gorabeherak:** Elkarbizitza eta tutoretzaren jarraipena erregistro kronologikoarekin.
+- **NEAE Dokumentuak:** Sarbide mugatua duten egokitzapenak eta akordioak eginkizunen arabera.
+- **Artxibatutako Komunikazioak:** Fitxategiari lotutako mezu instituzionalak.
+
+Erabiltzaile eta dataren arabera erregistratutako sarbide bakoitza.
+
 <br>
 
-Dagokien informazioa ikus dezakete (bertaratzea, komunikazioak, sinatutako dokumentazioa). Espediente akademiko osoa normalean barnekoa da. Familien portalarekin ikastetxeetan ikasleen kudeaketak kontrolatutako gardentasuna ahalbidetzen du.
+<strong>Rol tipikoak</strong>
 
 <br>
 
-<strong>Ondorioak</strong>
+- **Administrazioa:** Kontratuak, fakturak, zordunketak eta altak edo bajak.
+- **Tutoretza:** Jarraipen akademikoa, taldeko gorabeherak eta bidaia-baimenak.
+- **Erizaintza:** Alergiak, botikak eta osasun protokoloak.
+- **Helbidea:** Aktak, barne protokoloak eta amaierako txostenak.
+- **Familia:** Zure dokumentuak eta ordainketa-egoera kontsultatzea.
+
 <br>
 
-Ikaslearen informazioa espediente akademiko digital batean zentralizatzeak ikastetxeetan ikasleen kudeaketa hobetzen du: sarbide berehalakoa, trazabilitatea eta betetze normatiboa. Datuak zentralizatzen dituen, komunikazioa integratzen duen eta txosten automatikoak sortzen dituen sisteman inbertitu.
+<strong>Onura neurgarria</strong>
 
-Zure ikasleen informazioa zentralizatu nahi duzu? Eskatu demo bat eta espedienteak, bertaratzea eta komunikazioa konpromisorik gabe berrikusiko ditugu.
+<br>
+
+Bilatu dokumentu bat: 12 minututik karpeta fisiko batean segundoetara bilaketarekin. Ikuskapenean, erantzun egunean bertan.
+
+<br>
+
+<strong>Aplikazioa zure zentroan</strong>
+
+<br>
+
+Praktikan, zentroko diruzaintza hobetzen da fakturazioak, bilketak eta kontziliazioa datu-iturri bera partekatzen dutenean. Saihestu Excel-era esportatzea adiskidetzeko: esportazio bakoitza errorerako eta atzerapenerako aukera da familiei erantzuteko.
+
+<br>
+
+<strong>Testuingurua Espainian: ikasleen espedienteak eta dokumentazioa</strong>
+
+<br>
+
+Irudi-baimenak, alergiak, NEAE, bilketa baimenak eta zerbitzu-kontratuak eginkizunen arabera (tutorea, erizaintza, administrazioa) eskuragarri egon behar dira sarbide-erregistroarekin. LOPDGDD-k ardura berezia eskatzen du adingabeekin: ez da nahikoa PDFak karpeta partekatu batean digitalizatzea baimenik edo trazabilitatearik gabe.
+
+Ondo diseinatutako fitxategi digital batek harreran karpetak saihesten ditu, familientzako erantzunak eta ikuskapenak bizkortzen ditu eta osasun-datuak edo egoera sentikorrak kontrolatu gabe posta elektronikoz zirkulatzeko arriskua murrizten du. Rol bakoitzak beharrezkoa dena bakarrik ikusi behar du (pribilegio txikiena), dokumentu kritikoetan ezabatzeko blokeoarekin eta nor eta noiz sartu den jakiteko.
+
+Kontsultatu aholkulariari atxikipen-epeak motaren arabera (akademikoa, laborala, zerga). Sistemak ezabatze-blokeoa eta ikuskapen-esportazioa baimendu behar ditu kexa edo ikuskapen bat izanez gero. Fitxategi historiko osoa lehen hilabetean digitalizatzea akats bat izan ohi da: uneko kurtsoa eta dokumentu aktiboei lehentasuna ematea, eta historia faseka migratzea.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Eskola pribatu batek baimenak eta gertaeren txostenak digitalizatu zituen. Ikaslearen dokumentua aurkitzeko batez besteko denbora: 12 minututik (karpeta fisikoa) 20 segundora (fitxategien bilaketa). Dokumental ikuskapen bati erantzun zioten egun berean.
+
+<br>
+
+<strong>Ondorioa</strong>
+
+<br>
+
+Ikasleen informazioa espediente akademiko digitalean zentralizatzeak ikasleen kudeaketa hobetzen du ikastetxean: berehalako sarbidea, trazabilitatea eta araudia betetzea. Inbertitu datuak zentralizatzen, komunikazioa integratzen eta txosten automatikoak sortzen dituen sistema batean.
+
+Zure ikasleen informazioa zentralizatu nahi duzu? Eskatu demo bat eta fitxategiak, laguntza eta komunikazioa konpromezurik gabe berrikusten ditugu.
+
+<br>

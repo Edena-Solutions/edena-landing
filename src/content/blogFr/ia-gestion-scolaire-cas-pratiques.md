@@ -5,8 +5,18 @@ description: "IA et gestion scolaire : cas pratiques réels d’automatisation, 
 tags: ["IA gestion scolaire", "intelligence artificielle", "automatisation", "administration"]
 author: "Équipe Edena"
 cover: "https://images.unsplash.com/photo-1680783954745-3249be59e527?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+faqs:
+  - question: "L’IA supprime-t-elle des emplois au secrétariat ?"
+    answer: "Dans les usages courants (priorisation des relances, alertes, réponses type), l’IA assiste et libère du temps pour des tâches à plus forte valeur. Le jugement et la relation aux familles restent du ressort des équipes."
+  - question: "Faut-il beaucoup de données ?"
+    answer: "Cela dépend. Des règles simples (seuils d’absences, impayés) s’appuient sur l’exploitation courante. Des modèles prédictifs demandent en général au moins un à deux ans d’historique."
+  - question: "Données personnelles et IA ?"
+    answer: "Le traitement doit reposer sur un fondement légal et des mesures de sécurité. Si le prestataire entraîne des modèles, le contrat doit l’encadrer. La transparence vis-à-vis des familles compte."
+  - question: "Peut-on commencer sans équipe technique ?"
+    answer: "Oui. Beaucoup de fonctions d’IA sont intégrées aux logiciels de gestion (alertes, priorisation, modèles). L’établissement n’a pas à construire ses propres modèles, mais doit fixer des objectifs et contrôler les résultats."
+  - question: "Comment choisir un fournisseur ?"
+    answer: "Vérifiez l’intégration à votre gestion (inscriptions, facturation, communication), la documentation sur le traitement des données et la possibilité de supervision humaine. Demandez des références d’établissements comparables."
 ---
-
 <strong>Intelligence artificielle dans l’administration scolaire : cas pratiques réels</strong>
 <br>
 
@@ -90,53 +100,3 @@ Un établissement a testé moments et canaux (e-mail, SMS). En analysant les tau
 6. Réévaluer chaque année si les modèles ou règles restent adaptés.
 
 <br>
-
-<strong>Questions fréquentes</strong>
-<br>
-
-<br>
-<strong>L’IA supprime-t-elle des emplois au secrétariat ?</strong>
-<br>
-
-Dans les usages courants (priorisation des relances, alertes, réponses type), l’IA assiste et libère du temps pour des tâches à plus forte valeur. Le jugement et la relation aux familles restent du ressort des équipes.
-
-<br>
-<strong>Faut-il beaucoup de données ?</strong>
-<br>
-
-Cela dépend. Des règles simples (seuils d’absences, impayés) s’appuient sur l’exploitation courante. Des modèles prédictifs demandent en général au moins un à deux ans d’historique.
-
-<br>
-<strong>Données personnelles et IA ?</strong>
-<br>
-
-Le traitement doit reposer sur un fondement légal et des mesures de sécurité. Si le prestataire entraîne des modèles, le contrat doit l’encadrer. La transparence vis-à-vis des familles compte.
-
-<br>
-<strong>Peut-on commencer sans équipe technique ?</strong>
-<br>
-
-Oui. Beaucoup de fonctions d’IA sont intégrées aux logiciels de gestion (alertes, priorisation, modèles). L’établissement n’a pas à construire ses propres modèles, mais doit fixer des objectifs et contrôler les résultats.
-
-<br>
-<strong>Comment choisir un fournisseur ?</strong>
-<br>
-
-Vérifiez l’intégration à votre gestion (inscriptions, facturation, communication), la documentation sur le traitement des données et la possibilité de supervision humaine. Demandez des références d’établissements comparables.
-
-<br>
-
-<strong>Conclusion</strong>
-<br>
-
-L’IA est déjà présente : impayés, rétention, réponses automatisées, brouillons. La valeur naît de la combinaison données, règles ou modèles, et regard humain. Commencer petit, mesurer et ajuster reste l’approche la plus sûre.
-
-<strong>En cinq points :</strong>
-
-1. L’IA automatise et priorise ; elle ne remplace pas la décision finale.
-2. Fort impact sur : recouvrement, rétention, questions récurrentes, rapports.
-3. Des données fiables sont la condition d’utilité.
-4. Supervision et formation permanentes.
-5. Pilote, mesure et revue périodique limitent les risques.
-
-Vous voulez explorer l’IA pour votre établissement (recouvrement, rétention, communication) ? Demandez une démonstration : nous passons en revue des cas applicables à votre contexte.

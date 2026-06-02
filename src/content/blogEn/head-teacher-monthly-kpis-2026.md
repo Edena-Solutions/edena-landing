@@ -1,25 +1,39 @@
 ---
-title: "Monthly KPIs every head teacher should track"
+title: "KPIs that every school principal should measure every month"
 date: "2026-04-16"
-description: "Billing, enrolment, occupancy and communication indicators for school leaders: what to measure, how often and how to act on the data."
+description: "Essential monthly KPIs for management. Practical guide for educational centers in Spain (2026)."
 tags:
-    [
-        "school KPIs",
-        "head teacher metrics",
-        "school management indicators",
-        "school analytics dashboard",
-        "education performance indicators",
-        "Edena",
-    ]
+    - "KPIs school director"
+    - "school management indicators"
+    - "educational metrics"
+    - "school center analytics"
+    - "director dashboard"
+    - "Eden"
 author: "Edena Team"
 cover: "https://images.unsplash.com/photo-1705300332068-5f55b46ef98e?q=80&w=726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - educational-dashboard
+  - educational-dashboards-metrics
+  - educational-analytics-school-dashboards
+  - academic-performance-analytics
+faqs:
+  - question: "How many KPIs are too many for a management team of a small center?"
+    answer: "Between four and six is ​​the optimal range for a center with fewer than 200 students. More indicators without a person responsible and without associated action generate noise, not signal. Start with charging, registration and occupancy, and add when you master those three."
+  - question: "What frequency is correct to review KPIs?"
+    answer: "The financial ones (collection, non-payments, reconciliation) at the monthly closing and with weekly alert if there are risk thresholds. Registration and recruitment at the opening and closing of the period. Communication and families monthly. Don't hold KPI meetings without linked action: it's the quickest way for the team to stop using them."
+  - question: "Are Edena's KPIs configurable or are they those set by the platform?"
+    answer: "Center analytics in the base platform include indicators of charges, enrollment, places and families. The level of customization depends on the contracted module and the configuration agreed upon during implementation. Ask in the demo which indicators are available without additional configuration and which require extra work."
+  - question: "What differentiates a good KPI from a vanity metric in education?"
+    answer: "A good KPI triggers an action if it exceeds or falls below a threshold: collection rate of 80% → activate second automatic warning. A vanity metric shows a number that doesn't change the decision: total number of messages sent this month. If the data does not move any needle, it is not a KPI, it is an activity report."
+  - question: "How to prevent the monthly committee from becoming a definition debate?"
+    answer: "Agree in writing, before the first committee, the exact definition of each indicator: what it includes, what it excludes, what source it comes from, how frequently it is updated and who is responsible. With that agreement on the table, the committee begins actions. Without it, every meeting opens the same debate."
 ---
 
-<strong>Monthly KPIs every head teacher should track</strong>
+<strong>KPIs that every school principal should measure every month</strong>
 
 <br>
 
-A head teacher, nursery manager or academy principal without indicators works on instinct. They close the month knowing whether it "went well or badly" by feeling, debate figures in the committee that nobody defined the same way, and react late to problems that have been building silently for three weeks. KPIs are not bureaucracy: they are the prior agreement on which signal matters, at what frequency and what action it triggers. Without that agreement, even the best-looking dashboard generates more debate than decision. This article sets out the business indicators that genuinely move the needle in an educational setting, how frequently to measure them, what action each one links to, and how to avoid the trap of measuring vanity metrics instead of real signal.
+A school, daycare or academy director without indicators works with impressions. He closes the month knowing whether "it went well or badly" by intuition, debates figures in the committee that no one has defined the same, and reacts late to problems that had been silently accumulating for three weeks. KPIs are not bureaucracy: they are the prior agreement on what signal matters, how frequently and what action it triggers. Without that agreement, the most beautiful dashboard in the world generates more debate than decision. This article proposes the business indicators that do move the needle in an educational center, at what frequency to measure them, what action each one links and how to avoid the pitfalls of measuring vanity metrics instead of a real signal.
 
 <br>
 
@@ -27,39 +41,39 @@ A head teacher, nursery manager or academy principal without indicators works on
 
 <br>
 
-The number of active pupils is a status figure, not an actionable KPI. The ratio of places occupied to total capacity is: if it is below your breakeven threshold, it is a signal about enrolment or departures that needs analysis. The difference between vanity metrics and actionable KPIs is whether the data indicates what to do, not just how you are doing. Before setting your dashboard, agree with your team: which indicator, which threshold concerns you, who owns the indicator and what action it triggers. With that, the monthly committee starts on actions, not on debating definitions.
+The number of active students is status data, not an actionable KPI. The ratio of occupied places to total capacity is: if it is below your profitability threshold, it is a sign of recruitment or withdrawal that requires analysis. The difference between vanity metrics and actionable KPIs is whether the data indicates what to do, not just how you are doing. Before setting your scorecard, agree with your team: what indicator, what threshold you are worried about, who owns the indicator and what action it triggers. With that, the monthly committee begins with actions, not with the debate of definitions.
 
 <br>
 
-<strong>Billing and finance KPIs</strong>
+<strong>Collection and finance KPIs</strong>
 
 <br>
 
-- **On-time collection rate:** percentage of invoices collected before the agreed cut-off day, over total issued. Alarm threshold: below 85% in the first week of the month.
-- **Average age of arrears:** how many days outstanding invoices have been unpaid. A fifteen-day arrear calls for a different response than a ninety-day one.
-- **Average fee per pupil:** monthly income divided by active pupils. It drops when there are many unrecorded exemptions or when extras (meals, transport) are not being invoiced correctly.
-- **Reconciliation time:** how long admin takes to close the monthly accounts. If it exceeds half a working day, the process needs automation.
+- **On-time collection rate:** percentage of receipts collected before the agreed cut-off day over the total issued. Alarm threshold: less than 85% in the first week of the month.
+- **Average age of non-payments:** How many days overdue bills have not been collected. A non-payment of fifteen days has a different solution than one of ninety.
+- **Average fee per student:** income for the month divided among active students. Lower if there are many unregistered exemptions or if extras (dining, transportation) are not billed.
+- **Reconciliation time:** how many hours it takes administration to close the accounting month. If it exceeds half a day of work, the process needs automation.
 
 <br>
 
-<strong>Enrolment and intake KPIs</strong>
+<strong>Enrollment and recruitment KPIs</strong>
 
 <br>
 
-- **Application-to-enrolment conversion rate:** percentage of applications received that result in a confirmed place. If it is below 40%, analyse at which pipeline stage most candidates drop off.
-- **Average time from application to confirmation:** how many working days pass between a family applying and receiving confirmation. More than five working days in a competitive setting is a candidate loss risk.
-- **Source of new enrolments:** do they come from the web form, referrals, social media, a visit? Each source needs different actions to sustain or improve it.
-- **Waiting list length:** if it exceeds 15% of capacity, you have an opportunity for service expansion or improved proactive communication with waiting families.
+- **Application conversion rate:** percentage of applications received that end in confirmed registration. If it is less than 40%, analyze which phase of the pipeline most candidates fall into.
+- **Average time from application to confirmation:** how many days pass between a family requesting a place and receiving confirmation. More than five business days in competitive centers is the risk of losing the candidate.
+- **Origin of new registrations:** Do they come from a web form, recommendation, social networks, physical visit? Each origin needs different actions to feed or improve it.
+- **Places on waiting list:** if it exceeds 15% of your capacity, you have an opportunity to expand service or improve proactive communication with waiting families.
 
 <br>
 
-<strong>Operations and team KPIs</strong>
+<strong>Operation and team KPIs</strong>
 
 <br>
 
-- **Rate of queries resolved without external contact:** how many family requests were resolved automatically (portal, app, auto-response) without admin intervention. Measures self-service efficiency.
-- **Time to complete a new pupil record:** how long it takes for a new pupil's file to be complete from their first application. If it exceeds two weeks, there is a documentation bottleneck.
-- **Admin team satisfaction:** not a financial KPI, but a team worn down by repetitive tasks lowers service quality. A two-question quarterly survey is enough.
+- **Ratio of incidents resolved without external contact:** how many family requests were resolved automatically (portal, app, automatic response) without secretarial intervention. Measures self-service efficiency.
+- **File opening time:** how long it takes for a new student's file to be complete from their first request. If it exceeds two weeks, there is a documentation bottleneck.
+- **Team satisfaction in administration:** It is not a financial KPI, but a team burned out with repetitive tasks lowers the level of service. A two-question quarterly survey is sufficient.
 
 <br>
 
@@ -67,64 +81,64 @@ The number of active pupils is a status figure, not an actionable KPI. The ratio
 
 <br>
 
-- **Open rate on critical communications:** if you use Pro communication with read receipts, the percentage of families opening a payment notice or legal circular should be above 75%.
-- **Active families on the portal:** percentage of parents with active portal access in the month. If below 60%, the channel is not working and families are missing critical notices.
-- **Communication-related complaints:** complaints or conflicts arising from "I didn't know" or "I didn't receive the notice". If this rises more than one month in a row, there is a channel or message problem.
+- **Opening rate of critical communications:** If you use Pro communication with read receipt, the percentage of families that open a collection notice or legal circular must be above 75%.
+- **Active families in the portal:** percentage of tutors with active access in the month. If it is less than 60%, the channel is not working and you will have families who do not see critical notices.
+- **Communication incidents:** claims or conflicts derived from "I did not find out" or "I did not receive the notice." If it goes up for more than a month, there is a channel or message problem.
 
 <br>
 
-<strong>How to build the dashboard: from zero to functional in two hours</strong>
+<strong>How to build the dashboard: from zero to functional in two hours</strong><br>
+
+Step one: Choose no more than eight indicators for the monthly scorecard. More than eight generates noise. Step two: for each one, define the data source (platform, accounting, CRM), the update frequency and the alarm threshold. Step three: assign responsibility for data and action, not just reporting. Step four: The first committee with the new table spends half the time validating definitions and the other half on actions. To the second committee, 80% is action. Edena includes center analytics in the base platform with indicators for charges, places, enrollment and families, with the same data criteria for the entire team.
 
 <br>
 
-Step one: choose no more than eight indicators for the monthly dashboard. More than eight creates noise. Step two: for each one, define the data source (platform, accounts, CRM), update frequency and alarm threshold. Step three: assign a data and action owner, not just a reporting owner. Step four: in the first committee with the new dashboard, spend half the time validating definitions and half on actions. By the second committee, 80% is action. Edena includes school analytics in the base platform with indicators for billing, places, enrolment and families, with the same data criteria for the whole team.
+<strong>The most frequent mistake: the dashboard that no one consults</strong>
 
 <br>
 
-<strong>The most common mistake: the dashboard nobody looks at</strong>
+If the scorecard is not in the monthly meeting, it does not exist. The dashboard that is prepared in Excel the night before the committee is not a KPI, it is a presentation. The difference is that the KPI is always available, with the same criteria, and triggers an action before the problem accumulates, not after. If your team does not consult the dashboard without someone asking them to, the problem is not the tool: it is that the indicators are not linked to a real and agreed action.
 
 <br>
 
-If the dashboard is not on the monthly meeting agenda, it does not exist. The dashboard prepared in a spreadsheet the night before the committee is not a KPI — it is a presentation. The difference is that a KPI is always available, with the same criteria, and triggers an action before the problem accumulates, not after. If your team does not check the dashboard unless someone asks them to, the problem is not the tool: it is that the indicators are not linked to a real, agreed action.
+<strong>Red / green thresholds by KPI</strong>
 
 <br>
 
-<strong>Frequently asked questions</strong>
+- **Delinquency >30 days:** green <6%, amber 6-10%, red >10%. Action in red: review calendar, SEPA advance notice and reminder sequence before expanding template.
+- **Occupation:** green >92%, amber 85-92%, red <85%. Action in red: review recruitment, waiting list and non-renewed cancellations.
+- **Monthly absenteeism:** green <8%, amber 8-12%, red >12%. Action in red: alert to the head of studies by course and protocol review.
+- **Application-registration conversion:** green >35%, amber 25-35%, red <25%. Action in red: audit post-visit follow-up in 48 hours and response times.
 
 <br>
 
-<strong>How many KPIs are too many for a small school leadership team?</strong>
-<br>
-
-Between four and six is the optimal range for a school with fewer than 200 pupils. More indicators without an owner and a linked action create noise, not signal. Start with billing, enrolment and occupancy, and add more when you have mastered those three.
+<strong>Monthly review template (30 min)</strong>
 
 <br>
 
-<strong>What is the right frequency to review KPIs?</strong>
-<br>
-
-Financial ones (billing, arrears, reconciliation) at the monthly close, with a weekly alert if there are risk thresholds. Enrolment and intake ones at the opening and close of the application period. Communication and family ones monthly. Do not hold KPI meetings without a linked action: it is the fastest way to get the team to stop using them.
-
-<br>
-
-<strong>Are Edena's analytics configurable or fixed?</strong>
-<br>
-
-School analytics in the base platform includes indicators for billing, enrolment, places and families. The level of customisation depends on the contracted module and the configuration agreed during implementation. Ask in the demo which indicators are available without additional configuration and which require extra setup.
+- **Minutes 0-10 (cash and delinquency):** Collection rate, average age of non-payments, amount in arrears >30 days. An action if there are KPIs in red.
+- **Minutes 10-20 (occupancy and cancellations):** Occupied places, planned cancellations, waiting list. Check if there is a course with abnormal absenteeism.
+- **Minutes 20-30 (admission and operation):** Request pipeline, month conversion, communication incidents. Close with responsible person and date for agreed action.
 
 <br>
 
-<strong>What is the difference between a good KPI and a vanity metric in education?</strong>
-<br>
-
-A good KPI triggers an action when it crosses a threshold: collection rate drops to 78% → activate second automated reminder. A vanity metric shows a number that does not change the decision: total messages sent this month. If the data does not move any lever, it is not a KPI — it is an activity report.
+<strong>Context in Spain: data for management, not only for inspection</strong>
 
 <br>
 
-<strong>How do we stop the monthly committee from becoming a debate about definitions?</strong>
+A director who reviews occupancy, late payments, absenteeism and application conversion every month makes decisions before the problem appears in the treasury. Dashboards should use the same data as billing and secretarial, not duplicate Excel with different criteria depending on who prepares the report.
+
+In groups of schools, consolidating by center avoids manual closures on the 5th of each month. The most common mistake is buying analytics separate from ERP: you end up with two sources of truth and three-hour meetings to reconcile figures. An operational dashboard with eight well-defined indicators and red/green thresholds is enough for most medium-sized centers.
+
+Educational analytics in Spain is not only about complying with inspection reports: it is about anticipating late payment, detecting courses with anomalous absenteeism and measuring whether recruitment converts. If the dashboard is not in the monthly management meeting with an agreed action per KPI in red, it does not exist operationally.
+
 <br>
 
-Agree in writing, before the first committee, the exact definition of each indicator: what it includes, what it excludes, which source it comes from, how often it updates and who is responsible. With that agreement on the table, the committee starts on actions. Without it, every meeting reopens the same debate.
+<strong>Case study (Spain)</strong>
+
+<br>
+
+A director of a charter school reviews four KPIs on the 3rd of each month: occupancy, late payment >30 days, absenteeism from the previous month and open applications. When delinquency exceeds 8%, a direct debit campaign is activated; When the absenteeism of a course exceeds 12%, it calls the head of studies. Decisions in 30 minutes, not in three-hour meetings.
 
 <br>
 
@@ -132,4 +146,6 @@ Agree in writing, before the first committee, the exact definition of each indic
 
 <br>
 
-KPIs are not the destination: they are the map. A head teacher who closes the month with six well-defined, actionable, owned indicators is a head who can decide clearly, anticipate problems and demonstrate results. With Edena, billing, enrolment, family and operations data share the same criteria in a single platform. Request a demo, define the indicators your committee needs and close the first month with data, not impressions.
+KPIs are not the destination: they are the map. A director who closes the month with eight well-defined, actionable and accountable indicators is a director who can decide clearly, anticipate problems and demonstrate results. With Edena, collection, enrollment, family and operation data share criteria on a single platform. Request a demo, define the indicators that your committee needs and close the first month with data, not impressions.
+
+<br>

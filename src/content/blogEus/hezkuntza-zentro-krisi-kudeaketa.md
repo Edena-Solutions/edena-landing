@@ -1,53 +1,69 @@
 ---
-title: "Krisien kudeaketa hezkuntza-zentroetan: jarraikortasunerako protokoloak eta estrategiak"
+title: "Krisiak kudeatzea hezkuntza-zentroetan: Jarraipenerako protokoloak eta estrategiak"
 date: "2025-08-01"
-description: "Ezagutu nola garatu krisien kudeaketa eraginkorreko protokoloak hezkuntza-jarraikortasuna bermatzeko eta zure eskola-komunitatea babesteko."
-tags: ["krisien kudeaketa", "protokoloak", "hezkuntza-jarraikortasuna", "eskola-segurtasuna"]
-author: "Edena taldea"
+description: "Espainiako zentroetan krisi eta jarraitasun protokoloak. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+tags:
+    - "gestión de crisis"
+    - "protocolos"
+    - "continuidad educativa"
+    - "seguridad escolar"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1585829364536-ce348dd72ebc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - hezkuntza-zentro-seo
+  - hezkuntza-marketin-digital-estrategiak
+  - hezkuntza-lidertza-eraldaketa-digitala
+  - hezkuntza-antolakuntza-aldaketa-kudeaketa
+faqs:
+  - question: "Protokolo digitala krisian?"
+    answer: "Kanal bakarra, aurrez onartutako txantiloiak, zentrotik kanpoko kontaktu zerrenden babeskopia."
+  - question: "Hezkuntzaren jarraipena?"
+    answer: "Ordutegietara eta iragarkietara urrutiko sarbidea eraikina aldi baterako ixten bada."
+  - question: "Familiei komunikatu?"
+    answer: "Abiadura, egiaztatutako gertaerak, ahots instituzionala."
 ---
 
-<strong>Krisien kudeaketa hezkuntza-zentroetan: jarraikortasunerako protokoloak eta estrategiak</strong>
+<strong>Krisiak kudeatzea hezkuntza-zentroetan: Jarraipenerako protokoloak eta estrategiak</strong>
 
 <br>
 
-Hezkuntza-ingurune aktualean, zentroek aurreikusi gabeko krisiei aurre egiteko prest egon behar dute, jarduera akademikoak eten eta ikasle eta langileen segurtasuna arriskuan jar ditzaketenak. Krisien kudeaketa eraginkorra zuzendaritza eta administrazio heztzekoaren gaitasun esentzial bihurtu da. Prestakuntza egokiak ez du eskola-komunitatea babesten soilik; hezkuntza-prozesuaren jarraikortasuna ere bermatzen du eta familien konfiantza mantentzen du.
+Egungo hezkuntza-ingurunean, zentroek prestatuta egon behar dute jarduera akademikoak eten eta ikasleen eta langileen segurtasuna arriskuan jar dezaketen ustekabeko krisiei aurre egiteko. Krisiaren kudeaketa eraginkorra hezkuntza-zuzendari eta administratzaileentzako ezinbesteko konpetentzia bihurtu da. Prestakuntza egokiak eskola-komunitatea babestu ez ezik, hezkuntza-prozesuaren jarraipena bermatzen du eta familien konfiantza mantentzen du.
 
 <br>
 
-<strong>Aurreikuspen-plangintzaren garrantzia</strong>
+<strong>Prebentzio-plangintzaren garrantzia</strong>
 
 <br>
 
-Krisien kudeaketa eraginkorra edozein larrialdi gertatu aurretik hasten da. Aurreikuspen-sistemak inplementatzen dituzten hezkuntza-zentroek hobeto prest daude azkar erantzuteko eta egoera kaltegarrien eragina murrizteko.
+Krisiaren kudeaketa eraginkorra edozein larrialdi gertatu baino askoz lehenago hasten da. Prebentzio-plangintza sistemak ezartzen dituzten hezkuntza-zentroak hobeto prestatuta daude azkar erantzuteko eta egoera kaltegarrien eragina minimizatzeko.
 
-Aurreikuspen-plangintzak zentro bakoitzarentzako krisi-eszenario posibleak identifikatzea dakar. Hauek osasun-larrialdiak, hondamen naturalak, segurtasun-gertakariak, krisi teknologikoak edo eskolako indarkeria-egoerak barne hartu ditzakete. Krisi mota bakoitzak protokolo zehatzak eta erantzun desberdinak behar ditu.
+Prebentzio-plangintzak zentro bakoitzerako krisi-eszenatoki zehatz posibleak identifikatzea dakar. Horien artean egon daitezke osasun-larrialdiak, hondamendi naturalak, segurtasun-gertaerak, krisi teknologikoak edo eskola-indarkeria egoerak. Krisi mota bakoitzak protokolo zehatzak eta erantzun ezberdinduak behar ditu.
 
-Krisien kudeaketa-taldeak argi definitu behar dira, kide bakoitzaren rol eta erantzukizun zehatzez. Honek koordinatzaile nagusia, komunikazioaren arduradunak, kanpoko agintariekin lotura dutenak eta ebakuazio-gainbegiraleak barne hartzen ditu. Talde horien prestakuntza erregularra funtsezkoa da erantzun koordinatu eta eraginkorra bermatzeko.
-
-<br>
-
-<strong>Krisietan komunikazio-protokoloak</strong>
+Krisiak kudeatzeko taldeak argi definitu behar dira, kide bakoitzaren eginkizun eta ardura zehatzekin. Koordinatzaile nagusi bat, komunikazio arduradunak, kanpoko agintariekin harremanak eta ebakuazio arduradunak barne hartzen ditu. Talde hauen ohiko prestakuntza ezinbestekoa da erantzun koordinatua eta eraginkorra bermatzeko.
 
 <br>
 
-Krisi batean komunikazio eraginkorra kritikoa da lasaitasuna mantentzeko, informazio zehatza emateko eta erantzunak koordinatzeko. Hezkuntza-zentroek komunikazio-sistema sendoak behar dituzte sistema nagusiak huts egiten dutenean ere funtzionatzen dutenak.
-
-Komunikazio-protokoloek lehentasunezko kanalak ezarri behar dituzte audientzia desberdinetarako. Familiei beren seme-alaben segurtasunari buruzko informazio berehalakoa behar zaie, bitartean langileek larrialdi-prozedurei buruzko argibide zehatzak. Tokiko agintariak eta komunikabideek ere zentroaren informazio ofiziala behar dezakete.
-
-Goiztiarren alerta-sistemek eskola-komunitate osoari berehalako jakinarazpenak bidaltzea ahalbidetzen dute. Sistemek testu-masiboak, mugikor-aplikazioen jakinarazpenak, megafonia-iragarpenak eta sare sozialetan eguneraketak barne hartu ditzakete. Komunikazio-kanalen erredundantzia funtsezkoa da mezuak hartzaile guztietara iristeko.
+<strong>Krisiaren komunikazio-protokoloak</strong>
 
 <br>
 
-<strong>Hezkuntza-jarraikortasuna krisietan</strong>
+Krisi garaian komunikazio eraginkorra funtsezkoa da lasai egoteko, informazio zehatza emateko eta erantzunak koordinatzeko. Ikastetxeek oinarrizko sistemak huts egiten dutenean ere funtzionatuko duten komunikazio-sistema sendoak behar dituzte.
+
+Komunikazio-protokoloek lehentasunezko bideak ezarri behar dituzte publiko ezberdinentzat. Familiek seme-alaben segurtasunari buruzko berehalako informazioa behar dute, eta langileek larrialdi-prozedurei buruzko argibide zehatzak eskatzen dituzte. Baliteke tokiko agintariek eta hedabideek zentroaren informazio ofiziala ere behar izatea.
+
+Abisu goiztiarreko sistemak eskola komunitate osoari berehalako jakinarazpenak ahalbidetzen dizkio. Sistema hauek testu-mezu masiboak, mugikorreko aplikazioen jakinarazpenak, helbide publikoko iragarkiak eta sare sozialen eguneraketak izan ditzakete. Komunikazio kanaletan erredundantzia ezinbestekoa da mezuak hartzaile guztietara iristen direla ziurtatzeko.
 
 <br>
 
-Krisi batean hezkuntza-jarraikortasuna mantentzea funtsezkoa da ikasleen ikaskuntzaren eragina murrizteko. Zentro modernoek kontingentzia-plangintza eduki behar dute hezkuntza-modu alternatiboetara azkar pasatzeko.
+<strong>Hezkuntzaren jarraipena krisi garaian</strong>
 
-Larrialdiko urrutiko hezkuntzak azpiegitura teknologiko sendoa eta protokolo argiak behar ditu. Irakasleek plataforma digitalak eraginkortasunez erabiltzeko prestakuntza behar dute, eta familiak teknologiara eta laguntza teknikora sarbidea. Jarraikortasun-plangintzak ikasle berezien edo baliabide mugatuekin ere kontuan hartu behar ditu.
+<br>
 
-Hezkuntza-edukiak urrutiko entregarako egokitu behar dira kalitate akademikoa mantenduz denbora eta baliabideen mugak kontuan hartuz. Honek grabatutako ikasgaiak, material digital interaktiboak eta ikasleek modu autonomoan osa ditzaketen proiektuak barne hartu ditzake.
+Krisi garaian hezkuntza-jarraitasuna mantentzea ezinbestekoa da ikasleen ikaskuntzan eragina gutxitzeko. Zentro modernoek hezkuntza-modalitate alternatiboetara trantsizio azkarra ahalbidetzen duten kontingentzia-planak izan behar dituzte.
+
+Urruneko larrialdietako hezkuntzak azpiegitura teknologiko sendoak eta protokolo argiak behar ditu. Irakasleak trebatu behar dira plataforma digitalak modu eraginkorrean erabiltzeko, eta familiek teknologia eta laguntza teknikorako sarbidea behar dute. Jarraipen planek behar bereziak edo baliabide mugatuak dituzten ikasleak ere kontuan hartu behar dituzte.
+
+Hezkuntza-edukiak urrutiko entregarako egokitu behar dira, kalitate akademikoa mantenduz, denbora eta baliabideen murrizketetara egokituz. Horrek grabatutako ikasgaiak, material interaktibo digitalak eta ikasleek modu independentean burutu ditzaketen proiektuak izan ditzake.
 
 <br>
 
@@ -55,11 +71,11 @@ Hezkuntza-edukiak urrutiko entregarako egokitu behar dira kalitate akademikoa ma
 
 <br>
 
-Krisi batean baliabideen kudeaketa eraginkorra funtsezkoa da eragiketa esentzialak mantentzeko eta langile zein ikasleei laguntzeko. Zentroek larrialdiko baliabideen inbentario eguneratuak eta banaketarako protokoloak eduki behar dituzte.
+Krisi garaian baliabideen kudeaketa eraginkorra funtsezkoa da funtsezko eragiketak mantentzeko eta langileei zein ikasleei laguntzeko. Zentroek larrialdietarako baliabideen eta banatzeko protokoloen inbentario eguneratuak izan behar dituzte.
 
-Baliabide teknologikoak bereziki garrantzitsuak dira krisi modernoetan. Honek komunikazio-tresna alternatiboak, energia-sorgailuak, ikasleei mailegurako gailu mugikorrak eta krisien kudeaketa-softwarea barne hartzen ditu. Datu-babeskopia-sistemek informazio kritikoa eskuragarri mantentzen dute sistema nagusiak huts egiten badu ere.
+Baliabide teknologikoak bereziki garrantzitsuak dira krisi modernoetan. Horrek babeskopia komunikazio-ekipoak, elektrizitate-sorgailuak, ikasleen maileguetarako gailu mugikorrak eta krisiak kudeatzeko softwarea barne hartzen ditu. Datuen babeskopia sistemek informazio kritikoa eskuragarri dagoela ziurtatzen dute, nahiz eta sistema nagusiak huts egin.
 
-Giza baliabideak estrategikoki kudeatu behar dira krisi luzatuetan. Honek langileen txandaketa-plangintza, langileen ongizate psikologikorako laguntza eta langile-kopuru murriztuarekin lan egiteko protokoloak barne hartzen ditu. Rol eta erantzukizunetan malgutasunak zentroa egoera aldatzaileetara egokitzen uzten du.
+Giza baliabideak estrategikoki kudeatu behar dira krisi luzeetan. Langileen txandaketa planak, langileentzako laguntza psikologikoa eta murriztutako langileekin lan egiteko protokoloak barne hartzen ditu. Rolen eta arduren malgutasunari esker, zentroa egoera aldakorretara egokitzea ahalbidetzen du.
 
 <br>
 
@@ -67,11 +83,11 @@ Giza baliabideak estrategikoki kudeatu behar dira krisi luzatuetan. Honek langil
 
 <br>
 
-Kanpoko agintariekin lankidetza eraginkorra funtsezkoa da krisien kudeaketa arrakastatsurako. Hezkuntza-zentroek harreman sendoak ezarri behar dituzte larrialdi-zerbitzuekin, hezkuntza-agintariekin eta komunitate-erakundeekin krisia gertatu aurretik.
+Kanpoko agintariekin lankidetza eraginkorra ezinbestekoa da krisiak kudeatzeko. Hezkuntza-zentroek harreman sendoak ezarri behar dituzte larrialdi zerbitzuekin, hezkuntza-agintariekin eta komunitate-erakundeekin krisia gertatu baino lehen.
 
-Koordinazio-protokoloek noiz eta nola harremanetan jarri behar diren agintari desberdinak zehaztu behar ditu. Honek larrialdiko osasun-zerbitzuak, tokiko polizia, suhiltzaileak, eskualdeko hezkuntza-agintariak eta hondamen-kudeaketa-erakundeak barne hartzen ditu. entitate horiekin komunikazio erregularrek harreman sendoak mantentzen eta protokoloak beharrezkoa denean eguneratzen laguntzen dute.
+Koordinazio-protokoloek agintari ezberdinekin noiz eta nola harremanetan jarri zehaztu behar dute. Honen barruan sartzen dira larrialdietako mediku zerbitzuak, udaltzainak, suhiltzaileak, eskualdeko hezkuntza agintaritzak eta hondamendiak kudeatzeko erakundeak. Entitate hauekin aldizkako komunikazioak harreman sendoak mantentzen eta beharrezkoak diren protokoloak eguneratzen laguntzen du.
 
-Kanpoko agintariekin ariketa bateratuak erantzun-protokoloak probatu eta hobetzeko aukera ematen dute. Ariketa horiek koordinazioan hobekuntza-eremuak identifikatzen dituzte eta parte-hartzaile guztiek beren rolak ulertzen dituztela bermatzen dute larrialdi errealean.
+Kanpoko agintariekin batera egindako ariketak erantzun-protokoloak probatu eta hobetu daitezke. Ariketa hauek koordinazioan hobetzeko arloak identifikatzen dituzte eta parte-hartzaile guztiek benetako larrialdi batean beren eginkizunak ulertzen dituztela ziurtatzen dute.
 
 <br>
 
@@ -79,47 +95,67 @@ Kanpoko agintariekin ariketa bateratuak erantzun-protokoloak probatu eta hobetze
 
 <br>
 
-Krisiek ongizate emozionalean eragin nabarmena izan dezakete ikasle, famili eta langileengan. Hezkuntza-zentroek laguntza psikologikoa krisien kudeaketa-plangintzetan integratu behar dute berreskurapena eta erresilientzia bultzatzeko.
+Krisiek eragin handia izan dezakete ikasleen, familien eta langileen ongizate emozionalean. Hezkuntza zentroek laguntza psikologikoa txertatu behar dute krisia kudeatzeko planetan, susperraldia eta erresilientzia sustatzeko.
 
-Laguntza psikologikorako protokoloek behar berehalakoak eta luze plazakoak jorratu behar ditu. Honek krisian lehen psikologia-laguntza, gertakariaren ondorengo azterketa-saioak eta laguntza gehigarria behar dutenentzako jarraipena barne hartzen du. Osasun mentaleko profesionalak krisi-erantzun-taldeetan integratu behar dira.
+Laguntza psikologikoko protokoloek berehalako zein epe luzeko beharrei erantzun behar diete. Horrek krisi garaian lehen laguntza psikologikoak, ekitaldiaren ostean informazio saioak eta laguntza osagarria behar dutenentzako etengabeko laguntza barne hartzen ditu. Osasun mentaleko profesionalak krisiari erantzuteko taldeetan integratu behar dira.
 
-Adinaren arabera egokitutako komunikazio sentikorra eta egokia funtzezkoa da ikasleei esperientzia traumatikoak prozesatzen laguntzeko. Hezitzaileek prestakuntza behar dute ikasleei krisiei buruz nola hitz egin eta laguntza profesionala behar duten estresa edo traumaren seinaleak nola identifikatzen.
-
-<br>
-
-<strong>Teknologia krisien kudeaketan</strong>
+Komunikazio sentikorra eta adinaren arabera egokitua funtsezkoa da ikasleei esperientzia traumatikoak prozesatzen laguntzeko. Hezitzaileek trebakuntza behar dute ikasleekin krisiei buruz hitz egin eta esku-hartze profesionala behar duten estres edo trauma zantzuak identifikatzean.
 
 <br>
 
-Tresna teknologiko modernoek erantzun-gaitasuna nabarmen hobetu dezakete krisietan. Hezkuntza-zentroek larrialdietan komunikazioa, koordinazioa eta monitorizazioa errazten duten teknologietan inbertitu behar dute.
-
-Krisien kudeaketa integratu sistemek erantzunak koordinatzeko plataforma zentralizatua eskaintzen dute. Sistemek denbora errealeko mapak, zerrenda egiaztapen automatizatuak, komunikazio-kanal seguruak eta langile eta ikasleen jarraipen-tresnak barne hartu ditzakete.
-
-Larrialdi-mugikor-aplikazioek komunikazio azkarra eta protokolo kritikoetarako sarbidea ahalbidetzen dute edozein kokapenetatik. Aplikazioek paniko-botoiak, larrialdi-telefono-zerrendak, ebakuazio-mapak eta krisi-egoerari buruzko denbora errealeko eguneraketak barne hartu ditzakete.
+<strong>Krisiak kudeatzeko teknologia</strong>
 
 <br>
 
-<strong>Ebaluazioa eta etengabeko hobekuntza</strong>
+Tresna teknologiko modernoek krisialdietan erantzun ahalmena nabarmen hobe dezakete. Hezkuntza zentroek larrialdietan komunikazioa, koordinazioa eta jarraipena errazten duten teknologietan inbertitu behar dute.
+
+Krisiak kudeatzeko sistema integratuak erantzunak koordinatzeko plataforma zentralizatua eskaintzen du. Sistema horiek denbora errealeko mapak, kontrol-zerrenda automatizatuak, komunikazio-kanal seguruak eta langileen eta ikasleen jarraipena egiteko tresnak izan ditzakete.
+
+Larrialdietarako mugikorreko aplikazioek komunikazio azkarra eta protokolo kritikoetarako sarbidea ahalbidetzen dute edozein tokitatik. Aplikazio hauek izu-botoiak, larrialdi-direktorioak, ebakuazio-mapak eta krisi egoerari buruzko denbora errealeko eguneraketak izan ditzakete.
 
 <br>
 
-Krisien kudeaketa-plangintzak erregularki ebaluatu eta eguneratu behar dira eraginkortasuna mantentzeko. Hezkuntza-zentroek berrikuspen-prozesuak inplementatu behar dituzte ariketen eta gertakari errealeetatik ikasitakoa integratuz.
-
-Simulazio-arikera erregularrek protokoloak probatu eta hobekuntza-eremuak identifikatzeko aukera ematen dute. Arikerek mota eta konplexutasun desberdinekoak izan behar dute, ebakuazioak, itxiera eta krisi anitzeko eszenarioak barne. Eskola-komunitate osoaren parte-hartzeak prestakuntza orokorra hobetzen du.
-
-Krisi osteko berrikuspenek ikasteko eta hobetzeko aukera baliotsuak eskaintzen dituzte. Berrikuspenek krisi-erantzunean parte hartu duten guztiak barne hartu behar dituzte eta ondo funtzionatu duena eta hobetu daitekeena identifikatzeko metodologia egituratuak erabili.
+<strong>Etengabeko ebaluazioa eta hobekuntza</strong>
 
 <br>
 
-<strong>Berreskurapena eta normaltasunera itzultzea</strong>
+Krisiak kudeatzeko planak aldian-aldian ebaluatu eta eguneratu behar dira haien eraginkortasuna mantentzeko. Hezkuntza-zentroek benetako ariketa eta gertakarietatik jasotako ikasgaiak barne hartzen dituzten berrikuspen-prozesuak ezarri behar dituzte.
+
+Aldizkako zulaketa-ariketek protokoloak probatu eta hobetzeko arloak identifikatzea ahalbidetzen dute. Ariketa hauek mota eta konplexutasuna aldatu behar dute, ebakuazioak, blokeoak eta hainbat krisi eszenatoki barne. Ariketa hauetan eskola komunitate osoaren parte hartzeak prestaketa orokorra hobetzen du.
+
+Krisiaren osteko berrikuspenek ikasteko eta hobetzeko aukera baliotsuak eskaintzen dituzte. Berrikuspen horiek krisiaren erantzunaren parte-hartzaile guztiak barne hartu behar dituzte eta metodologia egituratuak erabili behar dira ondo funtzionatu dutena eta hobetu daitekeena identifikatzeko.
 
 <br>
 
-Berreskurapen-fasea krisiaren hasierako erantzun bezain garrantzitsua da. Hezkuntza-zentroek jarduera normalak berriz hasteko plan argiak eduki behar dituzte eskola-komunitatearen alderdi guztiak jarduera berrekin prest daudela ziurtatzeko.
+<strong>Berreskuratzea eta normaltasunera itzultzea</strong>
 
-Berrekitze-protokoloek segurtasun fisikoa, ongizate emozionala eta prestakuntza akademikoa kontuan hartu behar ditu. Honek instalazioen segurtasun-ikuskapenak, osasun mentaleko ebaluazioak eta ikasleei galdu den ikasketa-denbora berreskuratzen laguntzeko planak barne hartu ditzake.
+<br>
 
-Berreskurapen-fasean familiekin komunikazio etengabeak konfiantza mantentzen du eta zentroaren ahaleginak jarduera normal seguru eta eraginkorrerako itzultzeko gardentasuna ematen du.
+Susperraldi fasea krisiaren hasierako erantzuna bezain garrantzitsua da. Ikastetxeek funtzionamendu arruntera pixkanaka itzultzeko plan argiak izan behar dituzte, eskola komunitateko alderdi guztiak jarduerak berriro hasteko prest daudela ziurtatuz.
+
+Berriro irekitzeko protokoloek segurtasun fisikoa, ongizate emozionala eta prestakuntza akademikoa kontuan izan behar dituzte. Honek instalazioen segurtasun-ikuskapenak, osasun mentalaren ebaluazioak eta ikasleei galdutako ikaskuntza-denbora konpontzen laguntzeko planak izan ditzake.
+
+Berreskuratze fasean familiekin etengabeko komunikazioak konfiantza mantentzen laguntzen du eta gardentasuna ematen du instalazioak ohiko jardueretara itzulera seguru eta eraginkorra bermatzeko egiten dituen ahaleginei buruz.
+
+<br>
+
+<strong>Testuingurua Espainian: tokiko kontratazioa eta ospea</strong>
+
+<br>
+
+Familiek Googlen "eskola + auzoa/hiria", alderatu Ate Irekien Egunak eta irakurri iritziak. Google Business-en zerrenda optimizatu gabeko zentro batek, mugikorrentzako webgune azkarrak eta eskaera-inprimaki argi batek galtzen du 24 orduko epean erantzun eta bisita birtual bat eskaintzen duten lehiakideek.
+
+Espainian hezkuntza-marketinak datuak babesteko araudia errespetatu behar du interesdunen kanpainetan eta datu-baseetan. Azoketan mezu elektronikoak lege-oinarri argirik gabe edo jarraipenarekin CRM gabe harrapatzea hildako zerrendak eta ospe-arriskua sortzen du. Erregistro itxi bakoitzeko neurriek kostua, ez inpresioak edo web bisiten soilik.
+
+Ospe digitala koherentziaz eraikitzen da: webgunean agintzen duzunak (kuotak, zerbitzuak, plazak) bat egin behar du idazkaritzak erregistroan eta bilketan gauzatzen duenarekin. Jarraipenik gabeko Open Day ondo exekutatu bat 48 ordutan dirua xahutzen da. Tokiko SEO, egungo familien erreferentziak eta kanalizazio neurgarriak sarritan kalitate baxuko bezeroekin ordaintzeko atariak gainditzen ditu.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Bilboko ikastetxe pribatu batek Google Business profila, Open Day lurreratzea eta CRM inprimakia optimizatu zituen. Webetik informazio eskaerak %40 igo ziren sei hilabetean, ordainketa-atariekin alderatuta ia zero kostuarekin.
 
 <br>
 
@@ -127,6 +163,8 @@ Berreskurapen-fasean familiekin komunikazio etengabeak konfiantza mantentzen du 
 
 <br>
 
-Hezkuntza-zentroetan krisien kudeaketa eraginkorrak plangintza zabala, protokolo argiak eta prestakuntza etengabea behar ditu. Krisien kudeaketa-sistema sendoetan inbertitzen duten zentroek beren eskola-komunitatea babesteko eta egoera kaltegarrietan hezkuntza-jarraikortasuna mantentzeko hobeto hornituta daude.
+Hezkuntza-zentroetan krisiaren kudeaketa eraginkorrak plangintza integrala, protokolo argiak eta etengabeko prestaketa eskatzen ditu. Krisiak kudeatzeko sistema sendoetan inbertitzen duten ikastetxeak hobeto hornituta daude beren eskola-komunitatea babesteko eta egoera kaltegarrietan hezkuntza-jarraitasuna mantentzeko.
 
-Prest dago zure hezkuntza-zentroa aurreikusi gabeko krisiei aurre egiteko? Ezagutu nola lagun dezakeen Edena krisien kudeaketa eraginkorreko protokoloak garatzen eta zure hezkuntza-komunitatea babesten duten komunikazio-sistema sendoak inplementatzen.
+Zure hezkuntza zentroa ezusteko krisiei aurre egiteko prest al dago? Ezagutu Edenak nola lagun zaitzakeen krisiak kudeatzeko protokolo eraginkorrak eta zure hezkuntza-komunitatea babesten duten komunikazio-sistema sendoak garatzen.
+
+<br>

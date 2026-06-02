@@ -1,7 +1,7 @@
 ---
 title: "KPIs que todo director de colegio debería medir cada mes"
 date: "2026-04-16"
-description: "Indicadores de cobro, matrícula, ocupación y comunicación para directores de centros educativos: qué medir, con qué frecuencia y cómo actuar."
+description: "KPIs mensuales imprescindibles para dirección. Guía práctica para centros educativos en España (2026)."
 tags:
     [
         "KPIs director colegio",
@@ -13,6 +13,22 @@ tags:
     ]
 author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1705300332068-5f55b46ef98e?q=80&w=726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - dashboard-educativo
+  - dashboards-educativos-metricas
+  - analitica-educativa-dashboards-escolares
+  - analitica-rendimiento-academico
+faqs:
+  - question: "¿Cuántos KPIs son demasiados para un equipo directivo de un centro pequeño?"
+    answer: "Entre cuatro y seis es el rango óptimo para un centro de menos de 200 alumnos. Más indicadores sin responsable y sin acción asociada generan ruido, no señal. Empieza con cobro, matrícula y ocupación, y añade cuando domines esos tres."
+  - question: "¿Qué frecuencia es la correcta para revisar los KPIs?"
+    answer: "Los financieros (cobro, impagos, reconciliación) en el cierre mensual y con alerta semanal si hay umbrales de riesgo. Los de matrícula y captación en apertura y cierre de período. Los de comunicación y familias mensualmente. No hagas reuniones de KPIs sin acción vinculada: es el camino más rápido para que el equipo deje de usarlos."
+  - question: "¿Los KPIs de Edena son configurables o son los que marca la plataforma?"
+    answer: "La analítica de centro en la plataforma base incluye indicadores de cobros, matrícula, plazas y familias. El nivel de personalización depende del módulo contratado y de la configuración acordada en la implantación. Pregunta en la demo qué indicadores están disponibles sin configuración adicional y cuáles requieren trabajo extra."
+  - question: "¿Qué diferencia un buen KPI de una vanity metric en educación?"
+    answer: "Un buen KPI dispara una acción si supera o baja de un umbral: tasa de cobro del 80% → activar segundo aviso automático. Una vanity metric muestra un número que no cambia la decisión: número total de mensajes enviados este mes. Si el dato no mueve ninguna aguja, no es un KPI, es un informe de actividad."
+  - question: "¿Cómo evitar que el comité mensual se convierta en debate de definiciones?"
+    answer: "Acuerda por escrito, antes del primer comité, la definición exacta de cada indicador: qué incluye, qué excluye, de qué fuente sale, con qué periodicidad se actualiza y quién es responsable. Con ese acuerdo sobre la mesa, el comité empieza en las acciones. Sin él, cada reunión abre el mismo debate."
 ---
 
 <strong>KPIs que todo director de colegio debería medir cada mes</strong>
@@ -89,42 +105,44 @@ Si el cuadro de mando no está en la reunión mensual, no existe. El dashboard q
 
 <br>
 
-<strong>Preguntas frecuentes</strong>
+<strong>Umbrales rojo / verde por KPI</strong>
 
 <br>
 
-<strong>¿Cuántos KPIs son demasiados para un equipo directivo de un centro pequeño?</strong>
-<br>
-
-Entre cuatro y seis es el rango óptimo para un centro de menos de 200 alumnos. Más indicadores sin responsable y sin acción asociada generan ruido, no señal. Empieza con cobro, matrícula y ocupación, y añade cuando domines esos tres.
-
-<br>
-
-<strong>¿Qué frecuencia es la correcta para revisar los KPIs?</strong>
-<br>
-
-Los financieros (cobro, impagos, reconciliación) en el cierre mensual y con alerta semanal si hay umbrales de riesgo. Los de matrícula y captación en apertura y cierre de período. Los de comunicación y familias mensualmente. No hagas reuniones de KPIs sin acción vinculada: es el camino más rápido para que el equipo deje de usarlos.
+- **Morosidad >30 días:** verde <6 %, ámbar 6-10 %, rojo >10 %. Acción en rojo: revisar calendario, preaviso SEPA y secuencia de recordatorios antes de ampliar plantilla.
+- **Ocupación:** verde >92 %, ámbar 85-92 %, rojo <85 %. Acción en rojo: revisar captación, lista de espera y bajas no renovadas.
+- **Absentismo mensual:** verde <8 %, ámbar 8-12 %, rojo >12 %. Acción en rojo: alerta a jefatura de estudios por curso y revisión de protocolo.
+- **Conversión solicitud-matrícula:** verde >35 %, ámbar 25-35 %, rojo <25 %. Acción en rojo: auditar seguimiento post-visita en 48 h y tiempos de respuesta.
 
 <br>
 
-<strong>¿Los KPIs de Edena son configurables o son los que marca la plataforma?</strong>
-<br>
-
-La analítica de centro en la plataforma base incluye indicadores de cobros, matrícula, plazas y familias. El nivel de personalización depende del módulo contratado y de la configuración acordada en la implantación. Pregunta en la demo qué indicadores están disponibles sin configuración adicional y cuáles requieren trabajo extra.
+<strong>Plantilla revisión mensual (30 min)</strong>
 
 <br>
 
-<strong>¿Qué diferencia un buen KPI de una vanity metric en educación?</strong>
+- **Minutos 0-10 (caja y morosidad):** Tasa de cobro, antigüedad media de impagos, importe en mora >30 días. Una acción si hay KPI en rojo.
+- **Minutos 10-20 (ocupación y bajas):** Plazas ocupadas, bajas previstas, lista de espera. Revisar si hay curso con absentismo anómalo.
+- **Minutos 20-30 (admisión y operación):** Pipeline de solicitudes, conversión del mes, incidencias de comunicación. Cerrar con responsable y fecha por acción acordada.
+
 <br>
 
-Un buen KPI dispara una acción si supera o baja de un umbral: tasa de cobro del 80% → activar segundo aviso automático. Una vanity metric muestra un número que no cambia la decisión: número total de mensajes enviados este mes. Si el dato no mueve ninguna aguja, no es un KPI, es un informe de actividad.
+<strong>Contexto en España: datos para dirección, no solo para inspección</strong>
 
 <br>
 
-<strong>¿Cómo evitar que el comité mensual se convierta en debate de definiciones?</strong>
+Un director que revisa cada mes ocupación, morosidad, absentismo y conversión de solicitudes toma decisiones antes de que el problema aparezca en la tesorería. Los dashboards deben usar los mismos datos que facturación y secretaría, no duplicar Excel con criterios distintos según quién prepare el informe.
+
+En grupos de colegios, consolidar por centro evita cierres manuales el día 5 de cada mes. El error más frecuente es comprar analítica aparte del ERP: acabas con dos fuentes de verdad y reuniones de tres horas para reconciliar cifras. Un cuadro de mando operativo con ocho indicadores bien definidos y umbrales rojo/verde basta para la mayoría de centros medianos.
+
+La analítica educativa en España no es solo cumplir informes de inspección: es anticipar morosidad, detectar cursos con absentismo anómalo y medir si la captación convierte. Si el dashboard no está en la reunión mensual de dirección con una acción acordada por KPI en rojo, no existe operativamente.
+
 <br>
 
-Acuerda por escrito, antes del primer comité, la definición exacta de cada indicador: qué incluye, qué excluye, de qué fuente sale, con qué periodicidad se actualiza y quién es responsable. Con ese acuerdo sobre la mesa, el comité empieza en las acciones. Sin él, cada reunión abre el mismo debate.
+<strong>Caso práctico (España)</strong>
+
+<br>
+
+Un director de colegio concertado revisa el día 3 de cada mes cuatro KPIs: ocupación, morosidad >30 días, absentismo del mes anterior y solicitudes abiertas. Cuando la morosidad supera el 8 %, activa campaña de domiciliación; cuando el absentismo de un curso supera el 12 %, convoca a jefatura de estudios. Decisiones en 30 minutos, no en reuniones de tres horas.
 
 <br>
 
@@ -133,3 +151,5 @@ Acuerda por escrito, antes del primer comité, la definición exacta de cada ind
 <br>
 
 Los KPIs no son el destino: son el mapa. Un director que cierra el mes con ocho indicadores bien definidos, accionables y con responsable es un director que puede decidir con claridad, anticipar problemas y demostrar resultados. Con Edena, los datos de cobro, matrícula, familias y operación comparten criterio en una sola plataforma. Pide una demo, define los indicadores que tu comité necesita y cierra el primer mes con datos, no con impresiones.
+
+<br>

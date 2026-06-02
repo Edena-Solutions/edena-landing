@@ -2,11 +2,23 @@
 title: "Qu'est-ce qu'un SIS (système d'information scolaire) et pourquoi votre établissement en a besoin en 2026"
 date: "2026-02-27"
 description: "Découvrez ce qu'est un SIS scolaire, comment un système d'information sur les élèves centralise les données et améliore la gestion de votre établissement en 2026."
-tags: ["SIS scolaire", "système d'information scolaire", "gestion scolaire", "établissements scolaires"]
+tags:
+    [
+        "SIS scolaire",
+        "système d'information scolaire",
+        "gestion scolaire",
+        "établissements scolaires",
+    ]
 author: "Équipe Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
+faqs:
+  - question: "Un SIS, c'est un ERP scolaire ?"
+    answer: "Pas exactement. Un SIS porte l'information sur les élèves. Un ERP scolaire couvre en plus la facturation, les RH, le stock, etc. Beaucoup de solutions intègrent SIS et finances dans une seule offre."
+  - question: "Le SIS doit-il comporter une appli pour les familles ?"
+    answer: "C'est fortement recommandé. Les familles veulent consulter présence, paiements et messages sur mobile. Cela baisse la pression sur le secrétariat."
+  - question: "Comment migrer vers un nouveau SIS ?"
+    answer: "Les éditeurs proposent souvent l'import depuis Excel ou l'ancien outil. Exigez un plan par phases, la validation des données sensibles, et un chevauchement si besoin."
 ---
-
 <strong>Qu'est-ce qu'un SIS (système d'information scolaire) et pourquoi votre établissement en a besoin en 2026</strong>
 
 <br>
@@ -27,7 +39,7 @@ Un SIS est une plateforme qui concentre au même endroit l'information académiq
 
 <br>
 
-Réglementation, protection des données et attentes des familles exigent traçabilité, sûreté et réactivité. Un SIS facilite le RGPD, la production de rapports pour l'inspection, une communication structurée avec les familles, et la détection de phénomènes (absentéisme, résultats, risques) autrement invisibles. Les établissements déjà équipés signalent en général moins d'heures administratives perdues et une meilleure satisfaction des familles.
+Réglementation, protection des données et attentes des familles exigent traçabilité, sûreté et réactivité. Un SIS facilite le GDPR, la production de rapports pour l'inspection, une communication structurée avec les familles, et la détection de phénomènes (absentéisme, résultats, risques) autrement invisibles. Les établissements déjà équipés signalent en général moins d'heures administratives perdues et une meilleure satisfaction des familles.
 
 <br>
 
@@ -79,7 +91,7 @@ Tableaux de bord d'assiduité, de résultats par groupe, de rétention, pour éc
 
 <br>
 
-Vérifiez le couverture de vos processus (dossier, assiduité, communication, facturation éventuelle), l'ergonomie (adoption côté secrétariat et enseignants), la sécurité (hébergement, chiffrement, RGPD) et l'évolutivité. Un SIS figé ou trop lourd à personnaliser devient vite un frein.
+Vérifiez le couverture de vos processus (dossier, assiduité, communication, facturation éventuelle), l'ergonomie (adoption côté secrétariat et enseignants), la sécurité (hébergement, chiffrement, GDPR) et l'évolutivité. Un SIS figé ou trop lourd à personnaliser devient vite un frein.
 
 <br>
 
@@ -93,35 +105,3 @@ Vérifiez le couverture de vos processus (dossier, assiduité, communication, fa
 - Négliger l'intégration avec la facturation ou d'autres outils existants.
 
 <br>
-
-<strong>Questions fréquentes</strong>
-
-<br>
-
-<strong>Un SIS, c'est un ERP scolaire ?</strong>
-<br>
-
-Pas exactement. Un SIS porte l'information sur les élèves. Un ERP scolaire couvre en plus la facturation, les RH, le stock, etc. Beaucoup de solutions intègrent SIS et finances dans une seule offre.
-
-<br>
-
-<strong>Le SIS doit-il comporter une appli pour les familles ?</strong>
-<br>
-
-C'est fortement recommandé. Les familles veulent consulter présence, paiements et messages sur mobile. Cela baisse la pression sur le secrétariat.
-
-<br>
-
-<strong>Comment migrer vers un nouveau SIS ?</strong>
-<br>
-
-Les éditeurs proposent souvent l'import depuis Excel ou l'ancien outil. Exigez un plan par phases, la validation des données sensibles, et un chevauchement si besoin.
-
-<br>
-
-<strong>Conclusion</strong>
-<br>
-
-Un SIS centralise l'information sur les élèves, fluidifie l'échange avec les familles et donne de la visibilité à la direction. En 2026, c'est un outil quasi indispensable pour toute structure qui vise l'efficacité et la conformité. Investissez dans une solution alignée sur vos processus et évolutive.
-
-Vous voulez voir comment un SIS peut transformer votre établissement ? Demandez une démonstration : dossiers, assiduité et communication avec les familles, sans engagement.

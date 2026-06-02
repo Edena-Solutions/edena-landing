@@ -1,121 +1,199 @@
 ---
-title: "Aretoko teknologia berriak 2026: hezkuntza-esperientzia eraldatzen"
+title: "Teknologia berriak ikasgelan 2026: hezkuntza-esperientzia eraldatzen"
 date: "2026-01-29"
-description: "Ezagutu 2026an aretoak iraultzen ari diren hezkuntza-teknologiak: AA pertsonalizatua, errealitate handituta, ikaskuntza moldakorra eta gehiago."
-tags: ["hezkuntza-teknologia", "areto digitala", "hezkuntza-berrikuntza", "AA hezkuntza", "ikaskuntza moldakorra"]
-author: "Edena taldea"
+description: "Ikasgelako teknologiak konpetentzietan eta administratzaile librean arreta jarrita. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+tags:
+    - "hezkuntza teknologia"
+    - "ikasgela digitala"
+    - "hezkuntza berrikuntza"
+    - "AI hezkuntza"
+    - "ikaskuntza egokitzailea"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1630148198235-6bd561ba72a4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - pedagogia-metodologia-berragarriak
+  - pedagogia-berrikuntza-teknologia
+  - hezkuntzako-ebaluazio-digitala
+  - etorkizuneko-hezkuntza-espazioen-diseinua
+faqs:
+  - question: "Pantaila interaktiboa edo ordenagailu eramangarria?"
+    answer: "Proiektu pedagogikoaren araberakoa da; Saihestu prestakuntzarik gabe erostea."
+  - question: "ROI administrazioan?"
+    answer: "Asistentzia eta notak plataforma berean integratzeak sarrera bikoitza murrizten du."
+  - question: "Iraunkortasuna?"
+    answer: "Berritzea zikloka, ez modaren arabera."
 ---
 
-<strong>Aretoko teknologia berriak 2026: hezkuntza-esperientzia eraldatzen</strong>
+
+<strong>Teknologia berriak ikasgelan 2026: hezkuntza-esperientzia eraldatzen</strong>
 
 <br>
 
-2026ak mugarri bat markatzen ari da espainiar aretoetan irakasten eta ikasten den moduan. DigEdu Plana ospe osoan dagoen bitartean, 240.000 areto baino gehiago sistema digital interaktiboekin hornitzen ari dira, eta hezkuntza-teknologia berriek milioika ikasleen ikaskuntza-esperientzia eraldatzen dute. Iraultza teknologiko hori ez da gailuei buruz soilik; teknologiak nola pertsonalizatzen duen hezkuntza, nola egiten duen ikaskuntza eraginkorragoa eta nola prestatzen dituen ikasleak hobeto etorkizunerako.
+2026. urtea aurretik eta ondoren markatzen ari da gaztelaniazko geletan nola irakasten eta ikasten dugun. DigEdu Planaren ezarpena bete-betean dagoen honetan, 240.000 gela baino gehiago sistema digital interaktiboez hornitzen ari dira, eta hezkuntza teknologia berriak milioika ikasleren ikaskuntza-esperientzia eraldatzen ari dira. Iraultza teknologiko hau ez da gailuak soilik; teknologiak hezkuntza pertsonalizatzen duen, ikaskuntza eraginkorragoa egiten eta ikasleak etorkizunerako hobeto prestatzen dituenari buruzkoa da.
 
 <br>
 
-<strong>Areto digital adimenduna: arbel interaktiboetatik harago</strong>
+<strong>Ikasgela digital adimenduna: arbel interaktiboetatik harago</strong>
 
 <br>
 
-2026ko areto digitalak arbel interaktibo sinpletatik askoz harago doaz. Benetan adimendunak diren aretoen agerpena ikusten ari gara, hainbat teknologia integratzen dituztenak ikaskuntza-esperientzia murgiltzaile eta pertsonalizatuak sortzeko.
+2026ko gela digitalak arbel interaktibo soiletatik haratago doaz. Teknologia anitzak integratzen dituzten ikasgela benetan adimentsuak sortzen ari gara ikusten ari gara, murgiltze-esperientzia pertsonalizatuak sortzeko.
 
-<strong>Proiekzio interaktibo aurreratuen sistemak</strong>: Arbel digital berriek ez dute pantaila ukigarria soilik; sistem osoak dira eta honako hauek ahalbidetzen dituzte:
+<br>
 
-- Erabiltzaile anitzeko elkarreragina aldi berean
-- Idazkera eta keinuen ezagutza
-- Ikasleen mugikor-gailuekin integrazioa
-- Saioen grabaketa automatikoa berrikusteko
-- Ikasleen parte-hartzearen denbora errealeko analisia
+<strong>Proiekzio sistema interaktibo aurreratuak</strong>
 
-<strong>Ikasle-gailu integratuak</strong>: DigEdu Planeko 300.000 gailu gehigarrien banaketarekin, ikasleek tabletak eta ordenagailu eramangarriak dituzte aretoaren ekosistemarekin modu perfektuan integratzen direnak:
+<br>
 
-- Irakaslearen arbelarekin sinkronizazio automatikoa
-- Edukia berehalako partekatzea
-- Proiektuetan denbora errealeko lankidetza
-- Baliabide heztzeko pertsonalizatuetarako sarbidea
-- Ebaluazio formatiboa berehalakoa
+: Arbel digital berriak ez dira ukipen-pantailak soilik; Sistema osoak dira, hau ahalbidetzen dutenak:
 
-<strong>Abiadura handiko konektibitatea</strong>: Zentroetako konektibitatearen hobekuntzak honako hauek ahalbidetzen ditu:
+- Erabiltzaile anitzeko elkarrekintza aldi berean
+- Eskuzko idazkera eta keinuen ezagutza
+- Ikasleen gailu mugikorrekin integratzea
+- Saioen grabaketa automatikoa geroago berrikusteko
+- Ikasleen parte-hartzearen denbora errealean aztertzea
 
-- Bideokonferentzia arinak adituekin eta beste zentroekin
-- Eduki heztzeko streaminga kalitate handian
-- Hodeiko aplikazioak atzerapenik gabe
+<br>
+
+<strong>Ikasleen gailu integratuak</strong>
+
+<br>
+
+: Plan DigEdu 300.000 gailu gehigarri banatuta, ikasleek ikasgelako ekosisteman ezin hobeto integratzen diren tablet eta ordenagailu eramangarrietarako sarbidea dute:
+
+- Sinkronizazio automatikoa irakaslearen arbelarekin
+- Partekatu edukia berehala
+- Proiektuetan denbora errealean lankidetza
+- Hezkuntza baliabide pertsonalizatuetarako sarbidea
+- Berehalako ebaluazio formatiboa
+
+<br>
+
+<strong>Abiadura handiko konexioa</strong>
+
+<br>
+
+: Zentroetan konektibitatea hobetzeak aukera ematen du:
+
+- Bideo-konferentziak adituekin eta beste zentro batzuekin
+- Kalitate handiko eduki didaktikoak erreproduzitzea
+- Hodeiko aplikazioak latentziarik gabe
 - Gailu guztien denbora errealeko sinkronizazioa
-- Baliabide heztzeko globalerako sarbidea
+- Hezkuntza baliabide globaletarako sarbidea
 
 <br>
 
-<strong>Adimen artifiziala pertsonalizatua hezkuntzan</strong>
+<strong>Adimen artifizial pertsonalizatua hezkuntzan</strong>
 
 <br>
 
-2026an aretoetara iristen ari diren teknologia eraldatzaileetako bat ikaskuntzaren pertsonalizaziorako aplikatutako adimen artifiziala da. AA heztzeko sistemek irakasleek irakaskuntza nola egokitzen duten eraldatzen dute ikasle bakoitzaren behar indibidualei.
+2026an ikasgeletara iristen ari den teknologia eraldatzaileenetako bat ikaskuntzaren pertsonalizazioari aplikatutako adimen artifiziala da. Hezkuntza AI sistemak irakasleek irakaskuntza ikasle bakoitzaren beharretara egokitzen duten modua aldatzen ari dira.
 
-<strong>Ikaskuntzaren analisi moldakorra</strong>: AA sistemek etengabe aztertzen dute ikasle bakoitzak nola ikasten duen:
+<br>
 
-- Ikaskuntza-eredu bereziak identifikatzen dituzte
-- Zailtasunak arazo bihurtu aurretik detektatzen dituzte
+<strong>Ikaskuntza egokitzeko analisia</strong>
+
+<br>
+
+: AI sistemek etengabe aztertzen dute ikasle bakoitzak nola ikasten duen:
+
+- Ikasketa eredu bereziak identifikatzea
+- Zailtasunak arazo bihurtu baino lehen detektatu
 - Erritmoa eta edukia automatikoki egokitzen dituzte
-- Behar denean baliabide gehigarriak iradokitzen dituzte
-- Lorpenak modu pertsonalizatuan ospatzen dituzte
+- Beharrezkoa denean baliabide osagarriak iradokitzea
+- Lorpenak modu pertsonalizatuan ospatu
 
-<strong>Tutore birtual adimendunak</strong>: AA laguntzaileek ikasleei laguntzen diete 24/7:
+<br>
 
-- Galderei hizkuntza naturalean erantzuten diete
-- Kontzeptuak hainbat modutan azaltzen dituzte ikasleak ulertu arte
-- Ikaslearen mailara egokitutako ariketa praktikoak ematen dituzte
-- Atzeraelikadura berehalakoa eta eraikitzailea eskaintzen dute
-- Aurrerapena jarraitzen dute eta ikaskuntza-estrategiak doitzen dituzte
+<strong>Tutore birtual adimentsuak</strong>
 
-<strong>Errendimenduaren analisi iragarlea</strong>: AAk arazoak gertatu aurretik iragar ditzake:
+<br>
 
-- Errendimendu baxuko arriskuko ikasleak identifikatzen ditu
-- Goiztiarren esku-hartze pertsonalizatuak iradokitzen ditu
-- Zein ikaslek behar duen laguntza gehigarria iragar dezake
-- Baliabide heztzeko esleipena optimizatzen du
+: AI laguntzaileak ikasleei laguntzen ari dira 24/7:
+
+- Galderak hizkuntza naturalean erantzutea
+- Kontzeptuak modu anitzetan azaltzen dituzte ikasleak ulertu arte
+- Ikaslearen mailara egokitutako praktika-ariketak eskaintzea
+- Berehalako iritzia eta eraikitzailea eskaintzea
+- Aurrerapenaren jarraipena eta ikasteko estrategiak egokitu
+
+<br>
+
+<strong>Errendimendu iragarlearen analisia</strong>
+
+<br>
+
+: AI-ak arazoak gertatu aurretik aurreikus ditzake:
+
+- Errendimendu txarra izateko arriskua duten ikasleak identifikatzen ditu
+- Esku-hartze goiztiar pertsonalizatuak iradokitzen ditu
+- Aurreikusi zein ikaslek behar duten laguntza osagarria
+- Hezkuntza baliabideen esleipena optimizatzea
 - Ikasleen atxikipena hobetzen du
 
-<strong>Edukien sorpen automatikoa</strong>: Irakasleek AA erabiltzen dute honetarako:
+<br>
 
-- Baliabide heztzeko pertsonalizatuak sortzea
-- Maila desberdinetara egokitutako ariketak sortzea
-- Ikaslearen aurrerapenari egokitzen diren ebaluazioak garatzea
-- Edukia hizkuntza anitzera automatikoki itzultzea
-- Beharr bereziak dituzten ikasleentzako bertsio irisgarriak sortzea
+<strong>Eduki automatikoa sortzea</strong>
 
 <br>
 
-<strong>Errealitate handitua eta birtuala aretoan</strong>
+: Irakasleak AI erabiltzen ari dira:
+
+- Hezkuntza-material pertsonalizatuak sortzea
+- Maila ezberdinetara egokitutako ariketak sortzea
+- Ikasleen aurrerapenera egokitzen diren ebaluazioak garatzea
+- Itzuli edukia hainbat hizkuntzatara automatikoki
+- Behar bereziak dituzten ikasleentzako bertsio irisgarriak sortzea
 
 <br>
 
-Errealitate handitua (EH) eta birtuala (EB) ikasleek eduki heztzekoarekin nola elkarreragiten duten eraldatzen ari dira, duela urte batzuk ezinezkoak ziren ikaskuntza-esperientzia murgiltzaileak sortuz.
+<strong>Errealitate areagotua eta birtuala ikasgelan</strong>
 
-<strong>Ikaskuntza murgiltzailea EBrekin</strong>: Ikasleek honako hauek egin ditzakete:
+<br>
 
-- Historiko eta geografikoki lekuetara birtualki bidaiatzea
-- Gorputz humanoa barrutik esploratzea
-- Gertaera historikoak bertan egongo balira bezala bizitzea
-- Objektu 3D konplexuak manipulatzea (molekulak, egiturak, makinak)
-- Gaitasunak ingurune seguruetan eta kontrolatuetan praktikatzea
+Errealitate areagotua (RA) eta errealitate birtuala (VR) ikasleak hezkuntza-edukien arteko harremana eraldatzen ari dira, duela urte batzuk ezinezkoak ziren murgiltze-esperientzia sortuz.
 
-<strong>Errealitate handitua ikuspegirako</strong>: EHk ikasleei honako hauek ahalbidetzen dizkie:
+<br>
 
-- Kontzeptu abstraktuen eredu 3Dak mundu errealean gainjarriak ikustea
-- Beren gailuetan eduki heztzekoarekin elkarreragitea
-- EH partekatuetan proiektuetan lankidetzan aritzea
-- Datu konplexuak modu intuitiboan ikustea
-- Ikusi soilik ez, eginez ikastea
+<strong>VR-rekin murgiltzeko ikaskuntza</strong>
 
-<strong>Aplikazio praktikoak arlo desberdinetan</strong>:
+<br>
 
-- <strong>Zientziak</strong>: Eguzki-sistema esploratzea, animalia birtualak disekatzea, erreakzio kimikoekin esperimentatzea
-- <strong>Historia</strong>: Zibilizazio zaharrak bisitatzea, gudu historikoak bizitzea, museo birtualak esploratzea
-- <strong>Matematikak</strong>: Geometria-kontzeptu konplexuak ikustea, grafiko 3Dak manipulatzea, funtzio abstraktuak ulertzea
-- <strong>Artea</strong>: Eskultura birtualak sortzea, margolaritza-teknikak esploratzea, arte-galeria globalak bisitatzea
-- <strong>Hizkuntzak</strong>: Hizkera amaierako ingurunetan murgiltzea, elkarrizketa praktika avatarrekin, kulturak esploratzea
+: Ikasleek:
+
+- Ia leku historiko eta geografikoetara bidaiatzea
+- Giza gorputza barrutik arakatu
+- Gertaera historikoak presente egongo balira bezala bizi
+- 3D objektu konplexuak manipulatu (molekulak, egiturak, makinak)
+- Trebetasunak lantzea ingurune seguru eta kontrolatuetan
+
+<br>
+
+<strong>Errealitate areagotua bistaratzeko</strong>
+
+<br>
+
+: AR-ak ikasleei aukera ematen die:
+
+- Ikusi mundu errealean gainjarritako kontzeptu abstraktuen 3D ereduak
+- Jarri elkarrekintza eduki didaktikoekin zure gailuetan
+- Elkarlanean partekatutako AR proiektuetan
+- Datu konplexuak intuitiboki bistaratu
+- Behatu beharrean, eginez ikasi
+
+<br>
+
+<strong>Aplikazio praktikoak irakasgai ezberdinetan</strong>
+
+<br>
+
+:
+
+- **Zientzia**: Eguzki-sistema arakatu, animalia birtualak disekzionatu, erreakzio kimikoekin esperimentatu
+- **Historia**: bisitatu antzinako zibilizazioak, bizi gudu historikoak, esploratu museo birtualak
+- **Matematika**: Ikusi kontzeptu geometriko konplexuak, 3D grafikoak manipulatu, funtzio abstraktuak ulertu.
+- **Artea**: Sortu eskultura birtualak, arakatu pintura teknikak, bisitatu mundu mailako arte galeriak
+- **Hizkuntzak**: jatorrizko hiztun inguruneetan murgiltzea, avatarrekin elkarrizketa praktikatzea, kulturen esplorazioa.
 
 <br>
 
@@ -123,31 +201,49 @@ Errealitate handitua (EH) eta birtuala (EB) ikasleek eduki heztzekoarekin nola e
 
 <br>
 
-Ikaskuntza moldakorreko plataformek algoritmo aurreratuak erabiltzen dituzte ikaskuntza-esperientzia guztiz pertsonalizatuak sortzeko, ikasle bakoitzaren beharrei denbora errealean egokitzen direnak.
+Ikaskuntza moldagarrien plataformak algoritmo aurreratuak erabiltzen ari dira denbora errealean ikasle bakoitzaren beharretara egokitzen diren ikaskuntza esperientzia guztiz pertsonalizatuak sortzeko.
 
-<strong>Ikaskuntza-bide pertsonalizatuak</strong>: Ikasle bakoitzak honako hau jasotzen du:
+<br>
 
-- Indargune eta ahulguneetan oinarritutako ikaskuntza-plan bakarra
-- Ikaskuntza-estilo hobetsiari egokitzen zaion edukia
-- Ulepena maximizatzeko optimizatutako ikaskuntza-erritmoa
-- Zailtasunak aurkitzean baliabide gehigarriak
-- Kontzeptuak azkar menperatzean erronka gehigarriak
+<strong>Ikasketa-ibilbide pertsonalizatuak</strong>
 
-<strong>Ebaluazio formatibo jarraitua</strong>: Azterketa periodikoen ordez, ikasleek honako hauek jasotzen dituzte:
+<br>
 
-- Ikaskuntza eten gabe ebaluatzen duen ebaluazio jarraitua
-- Hurrengo urratsa gidatzen duen atzeraelikadura berehalakoa
-- Praktika gehiago behar duten kontzeptuen identifikazioa
-- Lorpenen eta aurrerapenaren ospakizun automatikoa
-- Txosten xehetuak ikasle, irakasle eta familiarentzat
+: Ikasle bakoitzak:
 
-<strong>Hezkuntza-gamifikazio aurreratua</strong>: Joko-elementuak modu sofistikatuagoan erabiltzen ari dira:
+- Zure indargune eta ahulezietan oinarritutako ikaskuntza plan paregabea
+- Nahiago duzun ikasteko estilora egokitzen den edukia
+- Ikaskuntza-erritmo optimizatua ulermena maximizatzeko
+- Zailtasunak aurkitzen dituzunean baliabide osagarriak
+- Erronka gehigarria kontzeptuak azkar menderatzen dituzun heinean
 
-- Arrakasta mota desberdinak aitortzen dituen lorpen-sistemak
-- Ikaskuntza erakargarriagoa egiten duten narratiba murgiltzaileak
-- Talde-lana sustatzen duten lankidetza-lehiaketak
-- Ikasleak motibatzen duen ikusgarri aurrerapena
-- Ikaskuntza-jokabide positiboak indartzen dituzten sariak
+<br>
+
+<strong>Etengabeko ebaluazio formatiboa</strong>
+
+<br>
+
+: Aldizkako azterketen ordez, ikasleek jasotzen dute:
+
+- Ikaskuntza eteten ez duen etengabeko ebaluazioa
+- Hurrengo urratsa gidatzen duen berehalako iritzia
+- Praktika gehiago behar duten kontzeptuak identifikatzea
+- Lorpenen eta aurrerapenen ospakizun automatikoa
+- Ikasle, irakasle eta familientzako txosten zehatzak
+
+<br>
+
+<strong>Hezkuntza-gamifikazio aurreratua</strong>
+
+<br>
+
+: Joko-elementuak modu sofistikatuagoan erabiltzen ari dira:
+
+- Arrakasta mota desberdinak aitortzen dituzten lorpen-sistemak
+- Ikaskuntza erakargarriagoa egiten duten narrazio murgilgarriak
+- Talde-lana sustatzen duten lankidetza-gaitasunak
+- Ikasleak motibatzen dituen progresio ikusgarria
+- Ikasteko jokabide positiboak indartzen dituzten sariak
 
 <br>
 
@@ -155,209 +251,349 @@ Ikaskuntza moldakorreko plataformek algoritmo aurreratuak erabiltzen dituzte ika
 
 <br>
 
-Teknologia berriek aurretik ezinezkoak ziren lankidetza-moduak errazten dituzte, aretoaren hormak gainditzen dituzten ikaskuntza-komunitateak sortuz.
-
-<strong>Denbora errealeko lankidetza-plataformak</strong>: Ikasleek honako hauek egin ditzakete:
-
-- Edonondik proiektu lankidetza-lanetan aritzea
-- Kideekin dokumentuak aldi berean editatzea
-- Baliabideak eta ezagutzak berehalako partekatzea
-- Irakasle eta kideen atzeraelikadura denbora errealean jasotzea
-- Eztabaida eta eztabaida asinkronoetan parte hartzea
-
-<strong>Ikaskuntza-komunitate globalak</strong>: Teknologiek honako hauek ahalbidetzen dituzte:
-
-- Beste herrialde eta kulturatako ikasleekin konektatzea
-- Proiektu internazionaletan lankidetzan aritzea
-- Bideokonferentzien bidez aditu globaletatik ikastea
-- Lehiaketa eta erronka globaletan parte hartzea
-- Gaitasun interkulturalak garatzea
-
-<strong>Teknologiak erraztutako ikasleen arteko ikaskuntza</strong>: Sistemek honako hauek errazten dituzte:
-
-- Maila desberdinetako ikasleen arteko tutoretza
-- Automatikoki antolatutako ikasketa-talde birtualak
-- Ikasleen arteko ezagutza eta baliabideen partekatzea
-- Egituratutako eta gidatutako ikasleen arteko ebaluazioa
-- Eduki heztzekoaren sorkuntza lankidetzailea
+Teknologia berriek lehen ezinezkoak ziren lankidetza moduak errazten ari dira, ikasgelako hormak gainditzen dituzten ikas komunitateak sortzen.
 
 <br>
 
-<strong>Ikaskuntza-analitika eta datu heztzeko</strong>
+<strong>Denbora errealeko lankidetza plataformak</strong>
 
 <br>
 
-Datu heztzeko modu sofistikatuagoan erabiltzen ari dira ikaskuntza-esperientzia eta emaitza heztzeko etengabe hobetzeko.
+: Ikasleek:
 
-<strong>Denbora errealeko ikaskuntza-analisia</strong>: Irakasleek honako hau ikus dezakete:
+- Lankidetza-proiektuak edozein tokitatik lantzea
+- Editatu dokumentuak lankideekin aldi berean
+- Partekatu baliabideak eta ezagutzak berehala
+- Jaso ezazu irakasle eta ikaskideen iritzia denbora errealean
+- Eztabaida eta eztabaid asinkronoetan parte hartzea
 
-- Zein ikaslek parte hartzen duten aktiboki
-- Zein kontzeptuek sortzen dituzten zailtasunak
+<br>
+
+<strong>Ikasketa komunitate globalak</strong>
+
+<br>
+
+: Teknologiek aukera ematen dute:
+
+- Beste herrialde eta kulturetako ikasleekin konektatu
+- Nazioarteko proiektuetan lankidetzan aritzea
+- Mundu mailako adituengandik ikasi bideokonferentzia bidez
+- Mundu mailako lehiaketetan eta erronketan parte hartzea
+- Kulturarteko gaitasunak garatzea
+
+<br>
+
+<strong>Teknologiak gaitutako ikaskideen arteko ikaskuntza</strong>
+
+<br>
+
+: Sistemak errazten ari dira:
+
+- Maila ezberdinetako ikasleen arteko tutoretza
+- Automatikoki antolatutako ikastalde birtualak
+- Ikasleen artean ezagutzak eta baliabideak partekatzea
+- Berdinen arteko ebaluazio egituratua eta gidatua
+- Hezkuntza-edukiak elkarlanean sortzea
+
+<br>
+
+<strong>Ikaskuntzaren analitika eta hezkuntza-datuak</strong>
+
+<br>
+
+Hezkuntza-datuak modu sofistikatuagoan erabiltzen ari dira ikaskuntza-esperientzia eta hezkuntza-emaitzak etengabe hobetzeko.
+
+<br>
+
+<strong>Denbora errealeko ikaskuntza-analisia</strong>
+
+<br>
+
+: Irakasleek ikus dezakete:
+
+- Zein ikasle ari diren aktiboki parte hartzen
+- Zein kontzeptuk sortzen dituzten zailtasunak
 - Zein irakaskuntza-metodo diren eraginkorrenak
-- Nola aurreratzen den ikasle bakoitza banan-banan
-- Zein esku-harteketan funtzionatzen duen hobeto
-
-<strong>Iragarpen-ikuspegiak</strong>: Sistemek honako hauek egin ditzakete:
-
-- Zein ikaslek zailtasunak izan ditzakeen iragartzea
-- Arazo bihurtu aurretik hobekuntza-aukerak identifikatzea
-- Denbora eta baliabideen esleipena optimizatzea
-- Irakaskuntza-estrategia eraginkorragoak iradokitzea
-- Ebaluazio-emaitzak iragartzea
-
-<strong>Txosten osatuak</strong>: Hezkuntza-eragile guztiek informazio garrantzitsua jasotzen dute:
-
-- <strong>Ikasleak</strong>: Aurrerapen pertsonala, hobekuntza-eremuak, lorpenak
-- <strong>Irakasleak</strong>: Gelaren errendimendua, laguntza behar duten ikasleak, metodoen eraginkortasuna
-- <strong>Familiak</strong>: Seme-alaben aurrerapena, indargune-eremuak, etxeko laguntza-iradokizunak
-- <strong>Zuzendariak</strong>: Zentroaren errendimendua, joerak, erakunde-mailako hobekuntza-eremuak
+- Ikasle bakoitzak banaka nola egiten duen aurrera
+- Zein esku-hartzek funtzionatzen duten onena
 
 <br>
 
-<strong>Irisgarritasuna eta teknologia inklusiboa</strong>
+<strong>Ikuspegi iragarleak</strong>
 
 <br>
 
-Teknologia berriek hezkuntza inoiz baino irisgarriagoa eta inklusiboagoa egiten dute, beharr desberdinak dituzten ikasleentzako hesiak kentzen.
+: Sistemek:
 
-<strong>Integratutako laguntza-teknologiak</strong>:
+- Zein ikasle izan ditzaketen zailtasunak aurreikustea
+- Hobetzeko aukerak identifikatzea arazo bihurtu aurretik
+- Denbora eta baliabideen esleipena optimizatu
+- Irakaskuntza-estrategia eraginkorragoak proposatzea
+- Ebaluazioaren emaitzak aurreikustea
 
-- Ikusmen-mugatua duten ikasleentzako pantaila-irakurle aurreratuak
-- Idazketa-zailtasunak dituzten ikasleentzako ahots-ezagutza
-- Ikasle gorren edo hizkuntza desberdinetarako azpititulu automatikoa eta denbora errealeko itzulpena
-- Beharr motor desberdinetara egokitzen diren interfaze moldakorrak
-- Formatu anitzetan aurkezten den eduki moldakorra
+<br>
 
-<strong>Ikaskuntza-estilo desberdinetarako pertsonalizazioa</strong>:
+<strong>Txosten integralak</strong>
 
-- Eduki bisuala ikasle bisualentzat
-- Eduki entzungarria ikasle entzungarrientzat
-- Jarduera kinestesikoak ikasle praktikoentzat
-- Ulepena frogatzeko modu anitzak
-- Banan-banan egokitutako ikaskuntza-erritmoak
+<br>
 
-<strong>Geografiko eta ekonomiko hesiak kentzea</strong>:
+: Hezkuntza eragile guztiek informazio garrantzitsua jasotzen dute:
+
+- **Ikasleak**: Aurrerapen pertsonala, hobekuntza arloak, lorpenak
+- **Irakasleak**: Klaseko errendimendua, laguntza behar duten ikasleak, metodoen eraginkortasuna
+- **Familiak**: Zure seme-alaben aurrerapena, indarguneak, etxean laguntzeko proposamenak
+- **Zuzendariak**: Zentroaren errendimendua, joerak, erakundeen hobekuntza arloak
+
+<br>
+
+<strong>Irisgarritasuna eta inklusio teknologikoa</strong>
+
+<br>
+
+Teknologia berriek hezkuntza inoiz baino irisgarriagoa eta inklusiboagoa bihurtzen ari dira, behar desberdinak dituzten ikasleentzako oztopoak ezabatuz.
+
+<br>
+
+<strong>Laguntza-teknologi integratuak</strong>
+
+<br>
+
+:
+
+- Ikusmen urritasuna duten ikasleentzako pantaila irakurgailu aurreratuak
+- Idazteko zailtasunak dituzten ikasleen mintza-ezagutza
+- Azpititulu automatikoak eta denbora errealeko itzulpena ikasle gor eta urritasun linguistikoentzat
+- Motor behar ezberdinetara egokitzen diren interfaze moldagarriak
+- Formatu anitzetan aurkeztutako eduki moldagarriak
+
+<br>
+
+<strong>Ikaskuntza-estilo ezberdinetarako pertsonalizazioa</strong>
+
+<br>
+
+:
+
+- Ikus-ikasleentzako eduki bisuala
+- Entzumen-ikasleentzako entzumen-edukia
+- Ikasle praktikoentzako jarduera kinestesikoak
+- Ulermena erakusteko hainbat modu
+- Bakarka egokitutako ikas-erritmoak
+
+<br>
+
+<strong>Oztopo geografiko eta ekonomikoak ezabatzea</strong>
+
+<br>
+
+:
 
 - Kalitatezko hezkuntzarako sarbidea edonondik
-- Doako eta irekitako baliabide heztzeko
-- Aurretik bidaia garestiak behar zituzten ikaskuntza-aukerak
-- Eremu landetara iristen den hobetutako konektibitatea
-- Sarrerak demokratizatzen dituzten gailu eskuragarriak
+- Hezkuntza baliabide doakoak eta irekiak
+- Lehen bidaia garestiak eskatzen zituzten ikasteko aukerak
+- Landa eremuetara iristeko konektibitatea hobetu
+- Sarbidea demokratizatzen duten gailu merkeak
 
 <br>
 
-<strong>Etorkizuneko lanerako prestakuntza</strong>
+<strong>Lanaren etorkizuna prestatzen</strong>
 
 <br>
 
-Aretoko teknologiek ez dute oraingo ikaskuntza hobetzen soilik; ikasleak radikalki desberdina izango den lan-etorkizunerako prestatzen dituzte.
+Ikasgelako teknologiak ez dira soilik egungo ikaskuntza hobetzen ari; Ikasleak zeharo ezberdina izango den lan etorkizun baterako prestatzen ari dira.
 
-<strong>Gaitasun digital aurreratuak</strong>: Ikasleek honako hauek garatzen dituzte:
+<br>
 
-- Alfabetizazio digital sakona
-- Pentsamendu informatikoa
-- Programazioa eta kodifikazio oinarrizkoa
-- Teknologiaren erabilera etikoa eta kritikoa
-- Arazoak konpontzea tresna digitalekin
+<strong>Gaitasun digital aurreratuak</strong>
 
-<strong>XXI. mendeko gaitasunak</strong>: Teknologiek honako hauek sustatzen dituzte:
+<br>
 
-- Pentsamendu kritikoa eta informazioaren analisia
+: Ikasleak garatzen ari dira:
+
+- Alfabetatze digital sakona
+- Pentsamendu konputazionala
+- Oinarrizko programazioa eta kodeketa
+- Teknologiaren erabilera etiko eta kritikoa
+- Tresna digitalekin arazoak konpontzea
+
+<br>
+
+<strong>2026ko gaitasunak</strong>
+
+<br>
+
+: Teknologiak sustatzen ari dira:
+
+- Pentsamendu kritikoa eta informazioaren azterketa
 - Sormena eta berrikuntza
-- Ingurune digitaletan lankidetza
-- Komunikazio eraginkorra bide anitzetan
-- Moldakortasuna eta ikaskuntza jarraitua
-
-<strong>Oraindik ez dauden lanetarako prestakuntza</strong>: Ikasleek honako hau ikasten dute:
-
-- Teknologia berriak azkar nola ikasi
-- Aldaketa etengaleei nola egokitu
-- Adimen artifizialarekin nola lan egin
-- Ingurune birtualetan nola lankidetzan aritu
-- Herritar digital arduratsuak nola izan
+- Elkarlana ingurune digitaletan
+- Komunikazio eraginkorra euskarri anitzen bidez
+- Egokigarritasuna eta etengabeko ikaskuntza
 
 <br>
 
-<strong>Erronkak eta kontuan hartzekoak</strong>
+<strong>Oraindik existitzen ez diren lanpostuetarako prestatzea</strong>
 
 <br>
 
-Teknologia berriek aukera apartak eskaintzen badituzte ere, zentroek gainditu beharreko erronkak ere badituzte:
+: Ikasleak ikasten ari dira:
 
-<strong>Sarbide-ekitatea</strong>: Ikasle guztiek teknologiara berdin sartzeko bermea honako hau eskatzen du:
+- Nola ikasi teknologia berriak azkar
+- Nola egokitu etengabeko aldaketetara
+- Nola lan egin adimen artifizialarekin
+- Nola kolaboratu ingurune birtualetan
+- Nola izan herritar digital arduratsuak
+
+<br>
+
+<strong>Erronka eta gogoetak</strong>
+
+<br>
+
+Teknologia berriek aparteko aukerak eskaintzen dituzten arren, zentroek aurre egin behar dituzten erronkak ere aurkezten dituzte:
+
+<br>
+
+<strong>Sarbidean ekitatea</strong>
+
+<br>
+
+: Ikasle guztiek teknologiarako sarbidea berdina dutela ziurtatzeko, honako hau eskatzen du:
 
 - Gailuen banaketa ekitatiboa
-- Konfiantzazko konektibitatea guztientzat
-- Ikasle eta familien prestakuntza egokia
-- Laguntza tekniko jarraitua
+- Konektibitate fidagarria guztientzako
+- Ikasleentzako eta familientzako prestakuntza egokia
+- Etengabeko laguntza teknikoa
 
-<strong>Pribatutasuna eta segurtasuna</strong>: Ikasleen datuak babestea honako hau eskatzen du:
+<br>
 
-- RGPDa betetzen duten sistem seguruak
-- Segurtasun digitalean hezkuntza
-- Teknologiaren erabileraren politika argiak
-- Guraso-kontrola eta gainbegiratze egokia
+<strong>Pribatutasuna eta segurtasuna</strong>
 
-<strong>Irakasleen prestakuntza</strong>: Irakasleek honako hau behar dute:
+<br>
 
-- Teknologia berrietan prestakuntza jarraitua
-- Esperimentatzeko eta egokitzeko denbora
-- Arazoak sortzean laguntza teknikoa
+: Ikasleen datuak babesteak behar du:
+
+- GDPR betetzen duten sistema seguruak
+- Segurtasun digitaleko hezkuntza
+- Teknologia erabiltzeko politika argiak
+- Gurasoen kontrola eta zaintza egokia
+
+<br>
+
+<strong>Irakasleen prestakuntza</strong>
+
+<br>
+
+: Irakasleek behar dute:
+
+- Teknologia berrietan etengabeko prestakuntza
+- Esperimentatzeko eta egokitzeko garaia
+- Laguntza teknikoa arazoak sortzen direnean
 - Baliabide eta material eguneratuak
 
-<strong>Teknologiaren oreka</strong>: Oreka aurkitzea honako hauen artean:
+<br>
 
-- Teknologiaren erabilera eta ikaskuntza tradizionala
+<strong>Oreka teknologikoa</strong>
+
+<br>
+
+: Bilatu arteko oreka:
+
+- Teknologia eta ikaskuntza tradizionala erabiltzea
 - Pantailak eta jarduera fisikoak
-- Banakako pertsonalizazioa eta lankidetza
+- Indibidualizazioa eta lankidetza
 - Automatizazioa eta humanizazioa
 
 <br>
 
-<strong>Kudeaketa eskolaren sistemaren papera</strong>
+<strong>Ikastetxeen kudeaketa sistemen eginkizuna</strong>
 
 <br>
 
-Aretoko teknologia berriek benetan eraginkorrak izateko, kudeaketa eskolaren sistema osoekin integratu behar dira. Edenaren bezalako plataforma batek behar den azpiegitura ematen du:
+Ikasgelako teknologia berriak benetan eraginkorrak izan daitezen, ikastetxeko kudeaketa sistema integraletan integratu behar dira. Edena bezalako plataforma batek beharrezko azpiegitura eskaintzen du:
 
-- <strong>Hezkuntza-tresnekin integrazioa</strong>: Ikaskuntza-plataformekin, ebaluazio-sistemekin eta baliabide heztzekorekin konektatzen da
-- <strong>Komunikazio arina</strong>: Teknologiaren erabilerari buruz irakasle, ikasle eta familien arteko komunikazioa errazten du
-- <strong>Datuen analisia</strong>: Teknologiek ikaskuntzan nola eragiten duten ikuspegiak ematen ditu
-- <strong>Baliabideen kudeaketa</strong>: Gailuak, lizentziak eta hezkuntza-tresnetarako sarbidea kudeatzen laguntzen du
-- <strong>Laguntza jarraitua</strong>: Hezkuntza-teknologien erabilera maximizatzeko prestakuntza eta laguntza ematen du
-
-<br>
-
-<strong>Hezkuntza-teknologiaren etorkizun hurbila</strong>
+- **Hezkuntza tresnekin integratzea**: Ikasteko plataformekin, ebaluazio sistemekin eta hezkuntza baliabideekin konektatu
+- **Komunikazio fluidoa**: irakasle, ikasle eta familien arteko komunikazioa errazten du teknologiaren erabilerari buruz
+- **Datuen analisia**: teknologiak ikaskuntzan nola eragiten duten aztertzen du
+- **Baliabideen kudeaketa**: gailuak, lizentziak eta tresna teknologikoetarako sarbidea kudeatzen laguntzen du
+- **Etengabeko laguntza**: hezkuntza-teknologien erabilera maximizatzeko prestakuntza eta laguntza eskaintzen du
 
 <br>
 
-Etorkizun hurbilak berrikuntza gehiago ekarriko ditu:
+<strong>Hezkuntza teknologiaren berehalako etorkizuna</strong>
 
-<strong>Adimen artifizial aurreratuagoa</strong>: Honako hauek egin ditzaketen sistemak:
+<br>
+
+Etorkizun hurbilak are berrikuntza gehiago ekarriko ditu:
+
+<br>
+
+<strong>Adimen artifizial aurreratuena</strong>
+
+<br>
+
+: Ahal duten sistemak:
 
 - Ikaskuntzaren testuinguru emozionala ulertzea
-- Aldarte eta motibazioari egokitzea
-- Akademikoaz gain euskarri emozionala ematea
-- Ongizate ikasleko arazoak iragartzea eta prebenitzea
+- Aldarte eta motibaziora egokitzea
+- Laguntza emozionala eta laguntza akademikoa ematea
+- Ikasleen ongizate-arazoak aurreikustea eta prebenitzea
 
-<strong>Errealitate mistoa</strong>: EH eta EBren konbinazioa honako hau sortzen du:
+<br>
 
-- Esperientzia are murgiltzaileagoak
-- Mugimendu fisikoen murrizketak guztiz gainditzen dituen ikaskuntza
-- Espazio birtual partekatuetan lankidetza
+<strong>Errealitate mistoa</strong>
 
-<strong>Blockchain hezkuntzan</strong>: Honetarako:
+<br>
 
-- Kredentzial eta ziurtagirien egiaztapena
-- Erregistro akademikoen eramangarritasuna
-- Ebaluazio eta kalifikazioetan gardentasuna
+: AR eta VR konbinazioa sortzen duena:
 
-<strong>Gauzen Interneta (IoT) aretoan</strong>: Konektatutako gailuak honako hauek egiten dituztenak:
+- Are esperientzia murgilagoak
+- Muga fisikoak guztiz gainditzen dituen ikaskuntza
+- Partekatutako espazio birtualetan lankidetza
 
-- Ikaskuntza-ingurunea monitorizatzea
-- Baldintza fisikoak automatikoki optimizatzea
-- Espazio eta baliabideen erabilerari buruzko datuak ematea
+<br>
+
+<strong>Blockchain hezkuntzan</strong>
+
+<br>
+
+: Norentzat:
+
+- Kredentzialak eta ziurtagiriak egiaztatzea
+- Espediente akademikoen eramangarritasuna
+- Gardentasuna ebaluazioan eta kualifikazioetan
+
+<br>
+
+<strong>Gauzen Internet (IoT) ikasgelan</strong>
+
+<br>
+
+: Konektatutako gailuak:
+
+- Ikasteko ingurunea kontrolatzea
+- Baldintza fisikoak automatikoki optimizatu
+- Espazioen eta baliabideen erabilerari buruzko datuak ematea
+
+<br>
+
+<strong>Testuingurua Espainian: LOMLOE, funtsezko gaitasunak eta DigEdu</strong>
+
+<br>
+
+LOMLOE-k hezkuntza-proiektuaren erdigunean jartzen ditu funtsezko gaitasunak eta etengabeko ebaluazioa. DigEdu Planak gaitasun digitalaren irakaskuntza, ingurune teknologiko seguruak eta ikasgeletan gailuen banaketa sustatzen ditu. Irakasleek zenbat eta denbora gehiago galdu administrazio-lan bikoiztuetan (paperean dauden zatiak, Excel-en zerrendak, bide ezberdinetako zirkularrak), orduan eta gutxiago falta da laguntza eta ebaluazio formatiborako.
+
+Kudeaketa digitalizatzeak ez du pedagogia ordezkatzen: ordu errealak askatzen ditu tutoretzan, sailen koordinazioan eta banakako jarraipenean. Lau komunikazio tresna ezberdin erabiltzen dituen fakultateak familiekin koherentzia eta barne koherentzia galtzen du ebaluazio eta jarraipen irizpideetan.
+
+2026an, Espainiako zentroetarako erabilgarria den hezkuntza-teknologiak ikasgela eta administrazioa lotzen ditu: erregistroek, komunikazioak, asistentzia eta analitikek datu-iturri bera partekatzen dute. Berrikuntza pedagogiko iraunkorrak LOMLOE onartzen du administrazio-zuzendaritzak irailean eta hiruhileko amaieran fakultateko orduak lapurtzeari uzten dionean.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Institutu bat lau komunikazio tresnetatik plataforma integratu batera pasatu zen. Fakultateak tutore bakoitzeko astean batez beste 2 ordu berreskuratu zituen administrazio-jarraipen-lanetan, saileko bileretan eta ebaluazio formatiboan berriro inbertituta.
 
 <br>
 
@@ -365,8 +601,10 @@ Etorkizun hurbilak berrikuntza gehiago ekarriko ditu:
 
 <br>
 
-Aretoko teknologia berriek hezkuntza funtsean eraldatzen dute 2026an. AA pertsonalizatutik errealitate handitu murgiltzailera, teknologia horiek ikaskuntza eraginkorragoa, erakargarriagoa eta inoiz baino irisgarriagoa egiten dute.
+Ikasgelako teknologia berriak hezkuntza eraldatzen ari dira funtsean 2026an. Adimen artifizial pertsonalizatutik errealitate areagotu murgiltzera, teknologia hauek ikaskuntza inoiz baino eraginkorragoa, erakargarriagoa eta eskuragarriagoa bihurtzen ari dira.
 
-Teknologia horiek estrategikoki hartzen ari diren zentroek, guztiz integratzen dituzten kudeaketa eskolaren sistemekin, hezkuntza-sektorearen liderrak bilakatzen ari dira. Ikasleak etorkizunerako hobeto prestatzen dituzten hezkuntza-esperientziak eskaintzen dituzte, oraingo emaitza heztzeko nabarmen hobetzen bitartean.
+Teknologia hauek estrategikoki hartzen ari diren zentroak, horiek guztiz integratzen dituzten ikastetxeen kudeaketa sistemak dituztenak, hezkuntza sektorean lider gisa kokatzen ari dira. Ikasleak etorkizunerako hobeto prestatzen dituzten hezkuntza esperientziak eskaintzen ari dira, egungo hezkuntza-emaitzak nabarmen hobetzen dituzten bitartean.
 
-Prest dago zure zentroa hezkuntza-teknologia berriak aprobetxatzeko? Ezagutu nola lagun dezakeen Edena teknologia horiek eraginkorki integratzen, eragina maximizatzeko behar den kudeaketa-azpiegitura emanez. Eskatu demo doakoa eta hasi zure zentroko hezkuntza-esperientzia eraldatzen gaur bertan.
+Zure zentroa prestatuta al dago hezkuntza teknologia berriak aprobetxatzeko? Ezagutu Edena-k nola lagun zaitzakeen teknologia hauek modu eraginkorrean integratzen, haien eragina maximizatzeko beharrezkoa den kudeaketa-azpiegitura eskainiz. Eskatu doako demo bat eta hasi gaur zure zentroko hezkuntza-esperientzia eraldatzen.
+
+<br>

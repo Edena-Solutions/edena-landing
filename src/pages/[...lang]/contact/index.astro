@@ -4,6 +4,8 @@ import Layout from "@/layouts/main.astro";
 import { ContactForm } from "@/components/ContactForm";
 import Link from "@/components/ui/link";
 import { Button } from "@/components/ui/button";
+import TopGlow from "@/components/TopGlow.astro";
+import Conclusion from "@/modules/home/Conclusion.astro";
 
 export function getStaticPaths() {
     return languages.map((lang) => ({
@@ -21,30 +23,22 @@ const demoPath = localizedDemoPath(lang);
     content={{ title: t.meta.contactTitle, description: t.meta.contactDescription }}
     lang={lang}
 >
-    <section class="grid gap-10 px-4">
-        <div class="max-w-2xl mx-auto w-full space-y-8">
-            <div class="text-center flex flex-col gap-6 items-center mx-auto pt-10">
-                <h1 class="text-xl font-bold">{t.contact.title}</h1>
-                <p>{t.contact.description}</p>
-            </div>
-            <ContactForm client:load lang={lang} formspreeUrl={"https://formspree.io/f/mykbqoeq"} />
-            <div
-                class="bg-gradient-primary mt-8 rounded px-8 py-10 md:px-14 md:py-14 flex flex-col items-center text-center gap-6 max-w-xl mx-auto"
-            >
-                <div class="flex flex-col items-center gap-3 text-white">
-                    <h2 class="text-xl md:text-2xl font-bold max-w-xl">
-                        {t.blog.ctaTitle}
-                    </h2>
-                    <p class="max-w-lg text-sm md:text-base">
-                        {t.blog.ctaDescription}
-                    </p>
+    <section class="grid gap-10 px-4 pt-10 sm:p-10">
+        <div class="w-full flex flex-col gap-10 sm:flex-row">
+            <div class="flex flex-col gap-4 sm:w-2/3">
+                <div
+                    class="text-center flex flex-col gap-6 items-center sm:items-start mx-auto sm:mx-0 sm:gap-2"
+                >
+                    <h1 class="text-xl font-bold">{t.contact.title}</h1>
+                    <p class="text-muted-foreground text-sm">{t.contact.description}</p>
                 </div>
-                <Link href={demoPath}>
-                    <Button variant="white">
-                        {t.bookDemo}
-                    </Button>
-                </Link>
+                <ContactForm
+                    client:load
+                    lang={lang}
+                    formspreeUrl={"https://formspree.io/f/mykbqoeq"}
+                />
             </div>
+            <Conclusion lang={lang} isSimplified={true} />
         </div>
     </section>
 </Layout>

@@ -17,14 +17,16 @@ interface Props {
 
 export default function Features({ t, features, title, description }: Props) {
     return (
-        <GSAPSection className="flex flex-col gap-16 items-center">
+        <GSAPSection className="flex flex-col gap-16 items-center px-4">
             <div className="flex flex-col gap-4 text-center px-4 max-w-2xl">
-                <h2 className="text-xl font-bold">{title || t.features.title}</h2>
+                <h2 className="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto">
+                    {title || t.features.title}
+                </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
                     {description || t.features.description}
                 </p>
             </div>
-            <div className="grid gap-4 px-4 sm:grid-cols-2 lg:grid-cols-3 w-full max-w-7xl">
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 w-full max-w-7xl">
                 {features.map((feature, index) => (
                     <Card
                         key={index}
@@ -35,7 +37,9 @@ export default function Features({ t, features, title, description }: Props) {
                             <div className="flex mb-4 text-primary w-fit p-4 rounded bg-background">
                                 <Icon name={feature.icon} size={20} />
                             </div>
-                            <h3 className="uppercase tracking-widest text-[10px] font-semibold">{feature.title}</h3>
+                            <h3 className="uppercase tracking-widest text-[10px] font-semibold">
+                                {feature.title}
+                            </h3>
                         </CardHeader>
                         <CardContent className="p-0">
                             <p className="text-sm text-muted-foreground">{feature.description}</p>

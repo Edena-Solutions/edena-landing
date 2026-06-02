@@ -9,6 +9,10 @@ const { t } = Astro.props;
 ---
 
 <div class="text-center flex flex-col gap-6 items-center max-w-2xl mx-auto pt-10">
-    <h1 class="text-xl font-bold">{t.pricing.title}</h1>
-    <p>{t.pricing.description}</p>
+    <h1
+        class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
+    >
+        {t.pricing.title}
+    </h1>
+    <p class="text-muted-foreground max-w-150">{t.pricing.description}</p>
 </div>

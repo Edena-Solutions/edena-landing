@@ -87,7 +87,7 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
         const itemWidth = clientWidth / (window.innerWidth < 768 ? 1 : 3);
         const newActiveIndex = Math.min(
             Math.floor((scrollLeft + itemWidth / 2) / itemWidth),
-            features.length - 1
+            features.length - 1,
         );
 
         if (newActiveIndex !== activeIndex) {
@@ -182,7 +182,9 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
         <GSAPSection className="relative w-full overflow-x-hidden">
             <div className="flex flex-col">
                 <div className="flex flex-col gap-4 text-center px-4 max-w-xl mx-auto">
-                    <h2 className="text-xl font-bold">{t.carousel.title}</h2>
+                    <h2 className="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto">
+                        {t.carousel.title}
+                    </h2>
                     <p className="text-muted-foreground">{t.carousel.description}</p>
                 </div>
                 <div ref={containerRef} className="px-[16px]">
@@ -198,8 +200,9 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
                         {features.map((feature, index) => (
                             <div
                                 key={feature.title}
-                                className={`rounded cursor-pointer flex-none w-full md:w-1/3 lg:w-1/4 snap-center transition-all duration-300 overflow-hidden transform bg-card ${activeIndex === index ? "opacity-100" : "opacity-90"
-                                    }`}
+                                className={`rounded cursor-pointer flex-none w-full md:w-1/3 lg:w-1/4 snap-center transition-all duration-300 overflow-hidden transform bg-card ${
+                                    activeIndex === index ? "opacity-100" : "opacity-90"
+                                }`}
                                 onClick={() => (window.location.href = feature.navigateTo)}
                             >
                                 <div className="h-[450px] relative overflow-hidden">
@@ -209,9 +212,7 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
                                         </div>
                                         <h3 className="font-bold mb-2">{feature.tagline}</h3>
                                     </div>
-                                    <div
-                                        className="absolute w-30 h-30 text-white rounded top-50 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center bg-gradient-primary"
-                                    >
+                                    <div className="absolute w-30 h-30 text-primary-foreground rounded top-50 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center bg-primary">
                                         {feature.icon}
                                     </div>
                                     <Button

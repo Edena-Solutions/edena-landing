@@ -3,23 +3,33 @@ title: "Comment choisir un logiciel scolaire sans se tromper : checklist pour di
 date: "2026-04-20"
 description: "Guide et checklist pour directeurs d'école : critères d'achat, modules essentiels, questions pour la démo et calcul du coût réel sur trois ans."
 tags:
-    [
-        "choisir logiciel scolaire",
-        "checklist logiciel éducatif",
-        "critères ERP scolaire",
-        "acheter plateforme scolaire",
-        "démo logiciel école",
-        "Edena",
-    ]
+ [
+ "choisir logiciel scolaire",
+ "checklist logiciel éducatif",
+ "critères ERP scolaire",
+ "acheter plateforme scolaire",
+ "démo logiciel école",
+ "Edena",
+ ]
 author: "Équipe Edena"
 cover: "https://images.unsplash.com/photo-1661732017132-28b644cbcf9c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+faqs:
+  - question: "Combien de temps prend un changement complet de logiciel ?"
+    answer: "Entre deux et six mois, selon le volume de données, la complexité de l'établissement et la disponibilité de l'équipe interne. Un pilote de base (données maîtresses, premier cycle de facturation, portail familles) peut être actif en quatre semaines si un responsable interne y est dédié et que le fournisseur dispose d'un plan de migration défini."
+  - question: "Vaut-il mieux changer de logiciel en été ou en janvier ?"
+    answer: "L'été réduit l'impact sur les familles et l'équipe, mais comprime le temps de validation avec des données réelles d'inscription et de facturation en cours. Janvier est plus calme pour les inscriptions mais coïncide avec la clôture comptable. La réponse dépend de où se situe votre plus grande douleur : si c'est les inscriptions de septembre, changez en été ; si c'est la facturation, envisagez de le faire avec les données d'un mois calme."
+  - question: "Dois-je exiger une clause de portabilité des données dans le contrat ?"
+    answer: "Oui, toujours. Avant de signer, confirmez que vous pouvez exporter toutes vos données (élèves, paiements, dossiers, documents) dans un format ouvert (CSV, JSON, Excel) à tout moment. Si le fournisseur ne l'inclut pas dans le contrat ou le conditionne à un coût supplémentaire, c'est un signal d'alarme."
+  - question: "Est-il judicieux d'implémenter un système juste avant un pic d'inscription ?"
+    answer: "Non, sauf si la situation actuelle est tellement critique que n'importe quoi représente une amélioration. Dans les deux premiers mois d'utilisation, tout système fonctionne en dessous de son potentiel : l'équipe apprend, les processus s'ajustent, les erreurs apparaissent. Si vous le pouvez, activez le système en janvier ou février, consolidez le flux, et arrivez aux inscriptions de septembre avec le système déjà bien rôdé."
+  - question: "Que se passe-t-il si le fournisseur effectue des mises à jour qui perturbent mon flux de travail ?"
+    answer: "Exigez dans le contrat un préavis pour les changements perturbateurs (au moins deux semaines), un environnement de test avant la mise à jour en production, et un historique des notes de mise à jour dans le portail support. Un fournisseur qui met à jour sans préavis est un risque opérationnel."
 ---
-
 <strong>Comment choisir un logiciel scolaire sans se tromper : checklist pour directeurs</strong>
 
 <br>
 
-Choisir le logiciel de gestion de votre établissement est l'une des décisions les plus coûteuses à inverser — non pas en termes de prix de licence, mais en temps perdu, données perdues et perturbations quand le système ne convient pas et qu'il faut recommencer. En 2026, le marché espagnol propose des options solides, mais aussi des solutions qui vendent des modules que personne n'utilisera, promettent des intégrations qui n'existent pas et cachent les coûts de migration jusqu'à la signature. L'antidote est un processus d'évaluation honnête, avec vos propres critères — pas ceux du fournisseur —, une démo avec vos données réelles, et un calcul du coût total sur trois ans avant de vous engager. Cette checklist vous donne le cadre pour ce processus.
+Choisir le logiciel de gestion de votre établissement est l'une des décisions les plus coûteuses à inverser (non pas en termes de prix de licence, mais en temps perdu, données perdues et perturbations quand le système ne convient pas et qu'il faut recommencer. En 2026, le marché espagnol propose des options solides, mais aussi des solutions qui vendent des modules que personne n'utilisera, promettent des intégrations qui n'existent pas et cachent les coûts de migration jusqu'à la signature. L'antidote est un processus d'évaluation honnête, avec vos propres critères) pas ceux du fournisseur , une démo avec vos données réelles, et un calcul du coût total sur trois ans avant de vous engager. Cette checklist vous donne le cadre pour ce processus.
 
 <br>
 
@@ -94,48 +104,3 @@ Le prix mensuel de licence par élève n'est que la première couche. Ajoutez : 
 Semaine 1 : inventaire des frictions et critères propres. Semaine 2 : liste courte de trois fournisseurs, première démo avec le catalogue. Semaine 3 : démo approfondie avec vos données pour les deux finalistes. Semaine 4 : calcul du TCO, revue du contrat (portabilité des données, clauses de sortie, support) et décision. Pilote : démarrez avec le processus à plus forte friction, mesurez à quatre-vingt-dix jours, puis étendez. N'achetez pas sept modules si vous ne pouvez en activer que deux correctement dans les trois premiers mois.
 
 <br>
-
-<strong>Questions fréquentes</strong>
-
-<br>
-
-<strong>Combien de temps prend un changement complet de logiciel ?</strong>
-<br>
-
-Entre deux et six mois, selon le volume de données, la complexité de l'établissement et la disponibilité de l'équipe interne. Un pilote de base (données maîtresses, premier cycle de facturation, portail familles) peut être actif en quatre semaines si un responsable interne y est dédié et que le fournisseur dispose d'un plan de migration défini.
-
-<br>
-
-<strong>Vaut-il mieux changer de logiciel en été ou en janvier ?</strong>
-<br>
-
-L'été réduit l'impact sur les familles et l'équipe, mais comprime le temps de validation avec des données réelles d'inscription et de facturation en cours. Janvier est plus calme pour les inscriptions mais coïncide avec la clôture comptable. La réponse dépend de où se situe votre plus grande douleur : si c'est les inscriptions de septembre, changez en été ; si c'est la facturation, envisagez de le faire avec les données d'un mois calme.
-
-<br>
-
-<strong>Dois-je exiger une clause de portabilité des données dans le contrat ?</strong>
-<br>
-
-Oui, toujours. Avant de signer, confirmez que vous pouvez exporter toutes vos données (élèves, paiements, dossiers, documents) dans un format ouvert (CSV, JSON, Excel) à tout moment. Si le fournisseur ne l'inclut pas dans le contrat ou le conditionne à un coût supplémentaire, c'est un signal d'alarme.
-
-<br>
-
-<strong>Est-il judicieux d'implémenter un système juste avant un pic d'inscription ?</strong>
-<br>
-
-Non, sauf si la situation actuelle est tellement critique que n'importe quoi représente une amélioration. Dans les deux premiers mois d'utilisation, tout système fonctionne en dessous de son potentiel : l'équipe apprend, les processus s'ajustent, les erreurs apparaissent. Si vous le pouvez, activez le système en janvier ou février, consolidez le flux, et arrivez aux inscriptions de septembre avec le système déjà bien rôdé.
-
-<br>
-
-<strong>Que se passe-t-il si le fournisseur effectue des mises à jour qui perturbent mon flux de travail ?</strong>
-<br>
-
-Exigez dans le contrat un préavis pour les changements perturbateurs (au moins deux semaines), un environnement de test avant la mise à jour en production, et un historique des notes de mise à jour dans le portail support. Un fournisseur qui met à jour sans préavis est un risque opérationnel.
-
-<br>
-
-<strong>Conclusion</strong>
-
-<br>
-
-Bien choisir le logiciel de votre établissement, ce n'est pas comparer des fiches produit : c'est définir votre problème, faire la démo avec vos données, calculer le coût réel et lire le contrat. Edena est la plateforme qui centralise les dossiers, la facturation, les inscriptions, la communication, les documents et l'analytique avec des modules activables selon les besoins réels de l'établissement, un support 24h/7j et un accompagnement dans le processus de changement. Demandez une démo, apportez vos cinq principales frictions et en quatre-vingt-dix minutes vous saurez si ça correspond.

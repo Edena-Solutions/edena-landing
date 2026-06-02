@@ -30,64 +30,47 @@ const faqCollection = defineCollection({
     }),
 });
 
+const blogFaqSchema = z.array(
+    z.object({
+        question: z.string(),
+        answer: z.string(),
+    })
+);
+
+const blogPostSchema = z.object({
+    title: z.string(),
+    date: z.string(),
+    description: z.string(),
+    tags: z.array(z.string()).optional(),
+    author: z.string().optional(),
+    cover: z.string().optional(),
+    faqs: blogFaqSchema.optional(),
+    relatedPosts: z.array(z.string()).optional(),
+});
+
 const blogEsCollection = defineCollection({
     type: "content",
-    schema: z.object({
-        title: z.string(),
-        date: z.string(),
-        description: z.string(),
-        tags: z.array(z.string()).optional(),
-        author: z.string().optional(),
-        cover: z.string().optional(),
-    }),
+    schema: blogPostSchema,
 });
 
 const blogEnCollection = defineCollection({
     type: "content",
-    schema: z.object({
-        title: z.string(),
-        date: z.string(),
-        description: z.string(),
-        tags: z.array(z.string()).optional(),
-        author: z.string().optional(),
-        cover: z.string().optional(),
-    }),
+    schema: blogPostSchema,
 });
 
 const blogCaCollection = defineCollection({
     type: "content",
-    schema: z.object({
-        title: z.string(),
-        date: z.string(),
-        description: z.string(),
-        tags: z.array(z.string()).optional(),
-        author: z.string().optional(),
-        cover: z.string().optional(),
-    }),
+    schema: blogPostSchema,
 });
 
 const blogEusCollection = defineCollection({
     type: "content",
-    schema: z.object({
-        title: z.string(),
-        date: z.string(),
-        description: z.string(),
-        tags: z.array(z.string()).optional(),
-        author: z.string().optional(),
-        cover: z.string().optional(),
-    }),
+    schema: blogPostSchema,
 });
 
 const blogFrCollection = defineCollection({
     type: "content",
-    schema: z.object({
-        title: z.string(),
-        date: z.string(),
-        description: z.string(),
-        tags: z.array(z.string()).optional(),
-        author: z.string().optional(),
-        cover: z.string().optional(),
-    }),
+    schema: blogPostSchema,
 });
 
 export const collections = {
