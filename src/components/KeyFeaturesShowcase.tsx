@@ -5,8 +5,8 @@ import dashboard from "@/assets/img/screenshots/finance/invoice_analytics.png";
 import dashboardDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
 import finance from "@/assets/img/screenshots/finance/billing_cycle.png";
 import financeDark from "@/assets/img/screenshots/finance/dark/billing_cycle.png";
-import assignmentScoreCard from "@/assets/img/screenshots/assignment/assignment_score_card.png";
-import assignmentScoreCardDark from "@/assets/img/screenshots/assignment/dark/assignment_score_card.png";
+import assignmentScoreCard from "@/assets/img/screenshots/students/student_evaluation.png";
+import assignmentScoreCardDark from "@/assets/img/screenshots/students/dark/student_evaluation.png";
 import crmHero from "@/assets/img/screenshots/crm/crm_hero.png";
 import crmHeroDark from "@/assets/img/screenshots/crm/dark/crm_hero.png";
 import crmForm from "@/assets/img/screenshots/crm/crm_form.png";
@@ -253,7 +253,7 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                         )}
                     >
                         {features[active].useAppAnimation ? (
-                            <AppAnimation className="h-full w-auto max-w-full -translate-x-30" />
+                            <AppAnimation className="h-full w-auto max-w-full -translate-x-30 -translate-y-20" />
                         ) : (
                             <div
                                 className={cn(

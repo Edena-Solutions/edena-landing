@@ -11,8 +11,8 @@ import TopGlow from "@/components/TopGlow.astro";
 import ThemedImage from "@/components/ThemedImage.astro";
 import IntegrationsLogosStack from "@/components/IntegrationsLogosStack.astro";
 import TrustedBySection from "@/modules/home/TrustedBySection.astro";
-import heroImage from "@/assets/img/screenshots/shared/hero_ena.png";
-import heroImageDark from "@/assets/img/screenshots/shared/dark/hero_ena.png";
+import heroImage from "@/assets/img/screenshots/shared/hero.png";
+import heroImageDark from "@/assets/img/screenshots/shared/dark/hero.png";
 import BookDemoButton from "@/components/BookDemoButton.astro";
 
 interface Props {
@@ -45,7 +45,7 @@ const appUrl = translatePath("/app");
             <p class="text-muted-foreground max-w-150">
                 {t.hero.mainDescription}
             </p>
-            <div class="hidden md:flex flex-col gap-4 items-center justify-center mb-4 mt-8">
+            <div class="hidden md:flex flex-col gap-4 items-center justify-center mt-8">
                 <div class="flex gap-2 items-center justify-center">
                     <BookDemoButton t={t} variant="secondary" />
                     <Link href="https://stg.edena.es/register-organization">
