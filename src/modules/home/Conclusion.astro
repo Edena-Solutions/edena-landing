@@ -8,6 +8,8 @@ import desktopScreenshotDark from "@/assets/img/screenshots/finance/dark/invoice
 import mobileScreenshot from "@/assets/img/screenshots/app/app_students.png";
 import { translations } from "@/i18n/index.ts";
 import { cn } from "@/lib/utils";
+import Link from "@/components/ui/link";
+import { Button } from "@/components/ui/button";
 
 const { lang, isSimplified = false } = Astro.props;
 const t = translations[lang as keyof typeof translations];
@@ -20,8 +22,8 @@ const t = translations[lang as keyof typeof translations];
         <div
             class="relative z-10 flex flex-col items-center gap-6 px-6 pt-12 pb-0 text-center md:gap-8 md:pt-16 md:px-10"
         >
-            <div class="rounded bg-white p-2">
-                <Image src={favicon} alt={t.altText.conclusionLogo} class="h-10 w-10" />
+            <div class="rounded p-1 bg-white">
+                <Image src={favicon} alt={t.altText.conclusionLogo} class="h-10 w-10 ml-[1px]" />
             </div>
 
             <div class="flex max-w-3xl flex-col gap-4">
@@ -41,8 +43,12 @@ const t = translations[lang as keyof typeof translations];
                     )
                 }
             </div>
-
-            <BookDemoButton t={t} variant="white" className="w-fit" />
+            <div class="flex gap-2 items-center justify-center">
+                <BookDemoButton t={t} variant="secondary" />
+                <Link href="https://stg.edena.es/register-organization">
+                    <Button>{t.registerButton}</Button>
+                </Link>
+            </div>
         </div>
 
         <div class="relative z-10 mx-auto mt-8 w-full max-w-5xl md:mt-10">

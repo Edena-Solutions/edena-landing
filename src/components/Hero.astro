@@ -8,6 +8,8 @@ import BookDemoButton from "@/components/BookDemoButton.astro";
 import LottiePlayer from "@/components/LottiePlayer";
 import ThemedImage from "@/components/ThemedImage.astro";
 import TopGlow from "@/components/TopGlow.astro";
+import Link from "@/components/ui/link";
+import { Button } from "@/components/ui/button";
 
 interface HeroCard {
     title: string;
@@ -73,7 +75,23 @@ const hasHeroSlot = Astro.slots.has("heroVisual");
             </p>
         </CardContent>
         <CardFooter className="flex flex-col gap-4">
-            {showBookDemoInHero && <BookDemoButton t={t} className="hidden sm:block my-4" />}
+            {
+                showBookDemoInHero && (
+                    <div class="hidden md:flex flex-col gap-4 items-center justify-center my-4">
+                        <div class="flex gap-2 items-center justify-center">
+                            <BookDemoButton t={t} variant="secondary" />
+                            <Link href="https://stg.edena.es/register-organization">
+                                <Button>{t.registerButtonExtended}</Button>
+                            </Link>
+                        </div>
+                        <div>
+                            <p class="text-[8px] text-muted-foreground uppercase tracking-wider">
+                                {t.noCreditCardRequired}
+                            </p>
+                        </div>
+                    </div>
+                )
+            }
             {
                 hasHeroSlot ? (
                     <slot name="heroVisual" />

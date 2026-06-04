@@ -1,6 +1,6 @@
 # Edena: ERP de Gestión Escolar
 
-> Edena es una plataforma SaaS de gestión integral para centros educativos: colegios, escuelas infantiles, academias y grupos educativos. Automatiza facturación, asistencia, comunicación familiar y matrículas en una sola plataforma. Más de 500 centros ya ahorran más de 15 horas semanales.
+> Edena es una plataforma SaaS de gestión integral para centros educativos: colegios, escuelas infantiles, academias y grupos educativos. Automatiza facturación, asistencia, comunicación familiar y matrículas en una sola plataforma. Centros ya ahorran más de 15 horas semanales.
 
 Edena Software S.L. (Barcelona, España) · https://edena.es
 

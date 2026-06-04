@@ -23,13 +23,17 @@ const demoPath = localizedDemoPath(lang);
     content={{ title: t.meta.contactTitle, description: t.meta.contactDescription }}
     lang={lang}
 >
-    <section class="grid gap-10 px-4 pt-10 sm:p-10">
-        <div class="w-full flex flex-col gap-10 sm:flex-row">
-            <div class="flex flex-col gap-4 sm:w-2/3">
+    <section class="grid gap-10 px-4 pt-10 md:p-10">
+        <div class="w-full flex flex-col gap-10 md:flex-row justify-center max-w-7xl mx-auto">
+            <div class="flex flex-col gap-4 md:w-2/3">
                 <div
-                    class="text-center flex flex-col gap-6 items-center sm:items-start mx-auto sm:mx-0 sm:gap-2"
+                    class="text-center flex flex-col gap-2 items-center md:items-start mx-auto md:mx-0 md:text-left"
                 >
-                    <h1 class="text-xl font-bold">{t.contact.title}</h1>
+                    <h1
+                        class="text-xl sm:text-xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl"
+                    >
+                        {t.contact.title}
+                    </h1>
                     <p class="text-muted-foreground text-sm">{t.contact.description}</p>
                 </div>
                 <ContactForm

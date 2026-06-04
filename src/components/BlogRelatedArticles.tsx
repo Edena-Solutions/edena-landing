@@ -14,11 +14,13 @@ export default function BlogRelatedArticles({ title, posts }: BlogRelatedArticle
             <h2 className="font-bold mb-4">{title}</h2>
             <ul className="list-disc space-y-2 pl-5">
                 {posts.map((post) => (
-                    <li key={post.href} className="flex items-center gap-2">
-                        <Link href={post.href} variant="link">
-                            {post.title}
-                        </Link>
-                        <LinkIcon className="w-4 h-4" />
+                    <li key={post.href}>
+                        <span className="flex items-center gap-2">
+                            <Link href={post.href} variant="link">
+                                {post.title}
+                            </Link>
+                            <LinkIcon className="w-4 h-4" />
+                        </span>
                     </li>
                 ))}
             </ul>

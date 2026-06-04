@@ -6,6 +6,8 @@ import aiLogo from "@/assets/img/logos/ai.png";
 import type { Translation } from "@/i18n";
 import { CheckIcon, GlobeIcon } from "lucide-react";
 import ComplianceBadgeIcons from "@/components/icons/ComplianceBadgeIcons.astro";
+import Link from "@/components/ui/link";
+import { Button } from "@/components/ui/button";
 
 interface Props {
     t: Translation;
@@ -60,7 +62,15 @@ const trustBadges = ["gdpr", "soc2", "iso27001", "hipaa"] as const;
                 >
                     {enaSection.title}
                 </h2>
-                <BookDemoButton t={t} variant="white" className="mt-2" />
+                <p class="text-sm leading-relaxed text-white/85 max-w-xl mx-auto">
+                    {enaSection.description}
+                </p>
+                <div class="flex gap-2 items-center justify-center">
+                    <BookDemoButton t={t} className="bg-zinc-900 dark:bg-black text-white" />
+                    <Link href="https://stg.edena.es/register-organization">
+                        <Button variant="white">{t.registerButton}</Button>
+                    </Link>
+                </div>
             </div>
 
             <!-- Feature cards -->

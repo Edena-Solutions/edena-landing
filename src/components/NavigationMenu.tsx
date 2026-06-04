@@ -53,7 +53,7 @@ const Logo = ({ lang }: { lang: string }) => {
 
 const MenuButton = ({ isOpen, onClick }: { isOpen: boolean; onClick: () => void }) => (
     <button
-        className="md:hidden flex flex-col justify-center items-center w-10 h-10 space-y-1.5 focus:outline-none"
+        className="lg:hidden flex flex-col justify-center items-center w-10 h-10 space-y-1.5 focus:outline-none"
         onClick={onClick}
         aria-label={isOpen ? "Close menu" : "Open menu"}
     >
@@ -225,12 +225,72 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
 
     return (
         <header className={cn("w-full bg-background fixed h-15 flex items-center z-50", className)}>
-            <div className="container mx-auto px-4 flex h-fit items-center justify-between md:grid md:grid-cols-[1fr_auto_1fr] md:gap-4 md:items-center">
-                <div className="md:justify-self-start">
+            <div className="container mx-auto px-4 flex h-fit items-center justify-between gap-4">
+                <div className="flex min-w-0 items-center gap-4">
                     <Logo lang={lang} />
+
+                    <div className="hidden lg:flex relative overflow-visible">
+                        <NavigationMenu className="justify-start">
+                            <NavigationMenuList className="justify-start">
+                                <NavigationMenuItem>
+                                    <NavigationMenuTrigger>
+                                        {t.navigation.products}
+                                    </NavigationMenuTrigger>
+                                    <NavigationMenuContent>
+                                        <ul className="grid w-[400px] gap-2 p-2 lg:w-[500px] lg:grid-cols-2 lg:w-[600px]">
+                                            {products.map((item) => (
+                                                <ListItem
+                                                    key={item.title}
+                                                    title={item.title}
+                                                    href={item.href}
+                                                    icon={item.icon}
+                                                >
+                                                    {item.description}
+                                                </ListItem>
+                                            ))}
+                                        </ul>
+                                    </NavigationMenuContent>
+                                </NavigationMenuItem>
+                                <NavigationMenuItem>
+                                    <NavigationMenuTrigger>
+                                        {t.navigation.functionalities}
+                                    </NavigationMenuTrigger>
+                                    <NavigationMenuContent>
+                                        <ul className="grid w-[400px] gap-2 p-2 lg:w-[500px] lg:grid-cols-2 lg:w-[600px]">
+                                            {segments.map((item) => (
+                                                <ListItem
+                                                    key={item.title}
+                                                    title={item.title}
+                                                    href={item.href}
+                                                    icon={item.icon}
+                                                >
+                                                    {item.description}
+                                                </ListItem>
+                                            ))}
+                                        </ul>
+                                    </NavigationMenuContent>
+                                </NavigationMenuItem>
+                                <NavigationMenuItem>
+                                    <Link href={`/${lang}/pricing`}>
+                                        <Button variant="ghost">{t.navigation.pricing}</Button>
+                                    </Link>
+                                </NavigationMenuItem>
+                                <NavigationMenuItem>
+                                    <Link href={`/${lang}/contact`}>
+                                        <Button variant="ghost">{t.navigation.contact}</Button>
+                                    </Link>
+                                </NavigationMenuItem>
+                                <NavigationMenuItem>
+                                    <Link href={`/${lang}/blog`}>
+                                        <Button variant="ghost">{t.navigation.blog}</Button>
+                                    </Link>
+                                </NavigationMenuItem>
+                            </NavigationMenuList>
+                        </NavigationMenu>
+                    </div>
                 </div>
 
-                <div className="flex items-center gap-4 md:hidden">
+                <div className="flex items-center gap-4 lg:hidden">
                     <Link href={`/${lang}/demo`} className="sm:hidden">
                         <Button className="w-full" size="sm">
                             {t.bookDemo}
@@ -240,74 +300,22 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     <MenuButton isOpen={isMobileMenuOpen} onClick={toggleMobileMenu} />
                 </div>
 
-                <div className="hidden md:flex md:justify-center relative overflow-visible">
-                    <NavigationMenu className="flex justify-center">
-                        <NavigationMenuList>
-                            <NavigationMenuItem>
-                                <NavigationMenuTrigger>
-                                    {t.navigation.products}
-                                </NavigationMenuTrigger>
-                                <NavigationMenuContent>
-                                    <ul className="grid w-[400px] gap-2 p-2 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                                        {products.map((item) => (
-                                            <ListItem
-                                                key={item.title}
-                                                title={item.title}
-                                                href={item.href}
-                                                icon={item.icon}
-                                            >
-                                                {item.description}
-                                            </ListItem>
-                                        ))}
-                                    </ul>
-                                </NavigationMenuContent>
-                            </NavigationMenuItem>
-                            <NavigationMenuItem>
-                                <NavigationMenuTrigger>
-                                    {t.navigation.functionalities}
-                                </NavigationMenuTrigger>
-                                <NavigationMenuContent>
-                                    <ul className="grid w-[400px] gap-2 p-2 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                                        {segments.map((item) => (
-                                            <ListItem
-                                                key={item.title}
-                                                title={item.title}
-                                                href={item.href}
-                                                icon={item.icon}
-                                            >
-                                                {item.description}
-                                            </ListItem>
-                                        ))}
-                                    </ul>
-                                </NavigationMenuContent>
-                            </NavigationMenuItem>
-                            <NavigationMenuItem>
-                                <Link href={`/${lang}/pricing`}>
-                                    <Button variant="ghost">{t.navigation.pricing}</Button>
-                                </Link>
-                            </NavigationMenuItem>
-                            <NavigationMenuItem>
-                                <Link href={`/${lang}/contact`}>
-                                    <Button variant="ghost">{t.navigation.contact}</Button>
-                                </Link>
-                            </NavigationMenuItem>
-                        </NavigationMenuList>
-                    </NavigationMenu>
-                </div>
-
-                <div className="hidden md:flex items-center gap-2 md:justify-self-end">
-                    <Link href={`/${lang}/blog`}>
-                        <Button variant="ghost">{t.navigation.blog}</Button>
-                    </Link>
+                <div className="hidden lg:flex items-center gap-2 shrink-0">
                     <Link href={`/${lang}/demo`}>
-                        <Button>{t.bookDemo}</Button>
+                        <Button variant="link">{t.bookDemo}</Button>
+                    </Link>
+                    <Link href="https://stg.edena.es/login">
+                        <Button variant="secondary">{t.loginButton}</Button>
+                    </Link>
+                    <Link href="https://stg.edena.es/register-organization">
+                        <Button>{t.registerButton}</Button>
                     </Link>
                     <LanguageSwitcher currentLang={lang} />
                 </div>
 
                 {isMobileMenuOpen && (
                     <div
-                        className={`md:hidden fixed inset-x-0 top-15 z-50 bg-background border-b transition-transform duration-300 ease-in-out transform ${
+                        className={`lg:hidden fixed inset-x-0 top-15 z-50 bg-background border-b transition-transform duration-300 ease-in-out transform ${
                             isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
                         }`}
                     >

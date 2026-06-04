@@ -13,6 +13,7 @@ import IntegrationsLogosStack from "@/components/IntegrationsLogosStack.astro";
 import TrustedBySection from "@/modules/home/TrustedBySection.astro";
 import heroImage from "@/assets/img/screenshots/shared/hero_ena.png";
 import heroImageDark from "@/assets/img/screenshots/shared/dark/hero_ena.png";
+import BookDemoButton from "@/components/BookDemoButton.astro";
 
 interface Props {
     t: Translation;
@@ -44,6 +45,19 @@ const appUrl = translatePath("/app");
             <p class="text-muted-foreground max-w-150">
                 {t.hero.mainDescription}
             </p>
+            <div class="hidden md:flex flex-col gap-4 items-center justify-center mb-4 mt-8">
+                <div class="flex gap-2 items-center justify-center">
+                    <BookDemoButton t={t} variant="secondary" />
+                    <Link href="https://stg.edena.es/register-organization">
+                        <Button>{t.registerButtonExtended}</Button>
+                    </Link>
+                </div>
+                <div>
+                    <p class="text-[8px] text-muted-foreground uppercase tracking-wider">
+                        {t.noCreditCardRequired}
+                    </p>
+                </div>
+            </div>
         </CardContent>
         <CardFooter>
             <ThemedImage
