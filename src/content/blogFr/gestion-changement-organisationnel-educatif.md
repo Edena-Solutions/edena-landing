@@ -7,19 +7,18 @@ tags:
     - "leadership pédagogique"
     - "transformation organisationnelle"
     - "innovation"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1558932129-58b0867c4985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-numerisation-2026
+    - checklist-numerisation-2026
 faqs:
-  - question: "Combien investir dans la publicité ?"
-    answer: "Fermez d’abord le site Web, Google Business et CRM. Mesurez le coût par inscription clôturée avant d’augmenter le budget."
-  - question: "Comment aligner marketing et secrétariat ?"
-    answer: "Mêmes informations sur les tarifs et prestations sur le site internet, la visite et le contrat. Une source unique de vérité dans l’ERP."
-  - question: "Qu'est-ce qui fonctionne le mieux pour attirer les familles en Espagne ?"
-    answer: "SEO local, Google Business, Open Day avec formulaire court et suivi CRM en 24-48h."
+    - question: "Combien investir dans la publicité ?"
+      answer: "Fermez d’abord le site Web, Google Business et CRM. Mesurez le coût par inscription clôturée avant d’augmenter le budget."
+    - question: "Comment aligner marketing et secrétariat ?"
+      answer: "Mêmes informations sur les tarifs et prestations sur le site internet, la visite et le contrat. Une source unique de vérité dans l’ERP."
+    - question: "Qu'est-ce qui fonctionne le mieux pour attirer les familles en Espagne ?"
+      answer: "SEO local, Google Business, Open Day avec formulaire court et suivi CRM en 24-48h."
 ---
-
 
 <strong>Gestion du changement organisationnel dans les établissements scolaires : stratégies pour une transformation réussie</strong>
 

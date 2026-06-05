@@ -9,22 +9,22 @@ tags:
     - "family documents"
     - "GDPR centers"
     - "educational cloud"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576836165612-8bc9b07e7778?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digital-student-records
-  - digital-document-management
+    - digital-student-records
+    - digital-document-management
 faqs:
-  - question: "Is the Cloud module mandatory to have a digital file?"
-    answer: "No. The base platform includes a digital file with data, history and organizational chart. The Cloud module expands with a file repository, folders and granular visibility. Evaluate with your team the volume and type of documents before hiring a module that is empty of content and criteria."
-  - question: "Can we require families to upload documents to the portal instead of bringing them on paper?"
-    answer: "Yes, with transition. It requires clear communication, a loading guide, an alternative for families with little digital competence, and internal agreement on what happens if the document arrives in paper. It is not a decree: it is a change in process that needs support."
-  - question: "How to manage a document that can no longer be shared due to GDPR?"
-    answer: "With the criteria of your DPO: logical or physical withdrawal within the defined period, with registration of the action. The platform facilitates access and control, but the decision of what to delete and when is made by the center's data controller, not the software."
-  - question: "What happens to the documents when a student withdraws or transfers?"
-    answer: "It depends on your policy and the applicable regulations: some documents are moved with the file, others are archived for the legal period and then destroyed. Define the protocol before the first casualty occurs, not after."
-  - question: "Does Edena's Cloud module also serve for teaching team documents?"
-    answer: "Folders and visibility can be configured by group or student. For internal documentation of the teaching team, it is advisable to define a separate permissions structure, with your own criteria, consulting with your implementation partner which flows the contracted module supports."
+    - question: "Is the Cloud module mandatory to have a digital file?"
+      answer: "No. The base platform includes a digital file with data, history and organizational chart. The Cloud module expands with a file repository, folders and granular visibility. Evaluate with your team the volume and type of documents before hiring a module that is empty of content and criteria."
+    - question: "Can we require families to upload documents to the portal instead of bringing them on paper?"
+      answer: "Yes, with transition. It requires clear communication, a loading guide, an alternative for families with little digital competence, and internal agreement on what happens if the document arrives in paper. It is not a decree: it is a change in process that needs support."
+    - question: "How to manage a document that can no longer be shared due to GDPR?"
+      answer: "With the criteria of your DPO: logical or physical withdrawal within the defined period, with registration of the action. The platform facilitates access and control, but the decision of what to delete and when is made by the center's data controller, not the software."
+    - question: "What happens to the documents when a student withdraws or transfers?"
+      answer: "It depends on your policy and the applicable regulations: some documents are moved with the file, others are archived for the legal period and then destroyed. Define the protocol before the first casualty occurs, not after."
+    - question: "Does Edena's Cloud module also serve for teaching team documents?"
+      answer: "Folders and visibility can be configured by group or student. For internal documentation of the teaching team, it is advisable to define a separate permissions structure, with your own criteria, consulting with your implementation partner which flows the contracted module supports."
 ---
 
 <strong>Document management in schools: goodbye to paper and lost files</strong>

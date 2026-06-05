@@ -7,17 +7,17 @@ tags:
     - "experiencia"
     - "tecnología"
     - "educación"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalizazio-egiaztapen-zerrenda-2026
+    - digitalizazio-egiaztapen-zerrenda-2026
 faqs:
-  - question: "Nondik hasi digitalizazioa?"
-    answer: "Datu nagusi garbiak, kobrantza trazableak eta familien kanal ofiziala, aula-tresnak zabaldu baino lehen."
-  - question: "Hodeiko softwarea seguru al da adingabeentzat?"
-    answer: "Bai, izan daiteke kontratu, zifratze eta azpiprozesadore dokumentatuak badaude. Zentroa erantzule izaten da."
-  - question: "Zenbat denbora dedikatzen dio zuzendaritzak proiektuari?"
-    answer: "30-45 minutu astero lehen hamabi asteetan askotan nahikoa dira blokeoak kendu eta mikro-kudeaketarik egin gabe."
+    - question: "Nondik hasi digitalizazioa?"
+      answer: "Datu nagusi garbiak, kobrantza trazableak eta familien kanal ofiziala, aula-tresnak zabaldu baino lehen."
+    - question: "Hodeiko softwarea seguru al da adingabeentzat?"
+      answer: "Bai, izan daiteke kontratu, zifratze eta azpiprozesadore dokumentatuak badaude. Zentroa erantzule izaten da."
+    - question: "Zenbat denbora dedikatzen dio zuzendaritzak proiektuari?"
+      answer: "30-45 minutu astero lehen hamabi asteetan askotan nahikoa dira blokeoak kendu eta mikro-kudeaketarik egin gabe."
 ---
 
 <strong>Erabiltzaile-esperientzia: hezkuntza-teknologiaren adopzioko gakoa</strong>

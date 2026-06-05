@@ -10,20 +10,20 @@ tags:
         "IA educación",
         "aprendizaje adaptativo",
     ]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1630148198235-6bd561ba72a4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologias-pedagogicas-innovadoras
-  - innovacion-pedagogica-tecnologia
-  - evaluacion-assessment-digital-educativo
-  - espacios-educativos-futuro-diseno
+    - metodologias-pedagogicas-innovadoras
+    - innovacion-pedagogica-tecnologia
+    - evaluacion-assessment-digital-educativo
+    - espacios-educativos-futuro-diseno
 faqs:
-  - question: "¿Pantalla interactiva o portátil?"
-    answer: "Depende del proyecto pedagógico; evitad compra sin formación."
-  - question: "¿ROI en admin?"
-    answer: "Integrar asistencia y calificaciones en la misma plataforma reduce doble entrada."
-  - question: "¿Sostenibilidad?"
-    answer: "Renovación por ciclos, no por moda."
+    - question: "¿Pantalla interactiva o portátil?"
+      answer: "Depende del proyecto pedagógico; evitad compra sin formación."
+    - question: "¿ROI en admin?"
+      answer: "Integrar asistencia y calificaciones en la misma plataforma reduce doble entrada."
+    - question: "¿Sostenibilidad?"
+      answer: "Renovación por ciclos, no por moda."
 ---
 
 <strong>Nuevas Tecnologías en el Aula 2026: Transformando la Experiencia Educativa</strong>

@@ -7,19 +7,18 @@ tags:
     - "operacions"
     - "optimització"
     - "costos"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1458007683879-47560d7e33c3?q=80&w=1743&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - llista-verificacio-digitalitzacio-2026
+    - llista-verificacio-digitalitzacio-2026
 faqs:
-  - question: "Com es pot mesurar l'èxit del canvi?"
-    answer: "Hores admin setmanals, taxa derror en facturació o temps mitjà dalta de família nova."
-  - question: "Per què procés començo a automatitzar?"
-    answer: "Cobraments recurrents i assistència solen ser els de més retorn immediat en hores i errors evitats."
-  - question: "Quan dura un pilot raonable?"
-    answer: "Entre 8 i 12 setmanes, amb un cicle real de facturació o admissió i criteri dèxit escrit."
+    - question: "Com es pot mesurar l'èxit del canvi?"
+      answer: "Hores admin setmanals, taxa derror en facturació o temps mitjà dalta de família nova."
+    - question: "Per què procés començo a automatitzar?"
+      answer: "Cobraments recurrents i assistència solen ser els de més retorn immediat en hores i errors evitats."
+    - question: "Quan dura un pilot raonable?"
+      answer: "Entre 8 i 12 setmanes, amb un cicle real de facturació o admissió i criteri dèxit escrit."
 ---
-
 
 <strong>Eficiència operativa en centres educatius: Optimitzant recursos amb tecnologia</strong>
 

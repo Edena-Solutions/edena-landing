@@ -9,22 +9,22 @@ tags:
         "plataforma digital",
         "centros educativos",
     ]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1521424159246-e4a66f267e4b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - app-familias-colegios-ventajas-2026
-  - comunicacion-digital-centros-educativos
-  - comunicacion-familias-era-digital
-  - app-movil-educacion
+    - app-familias-colegios-ventajas-2026
+    - comunicacion-digital-centros-educativos
+    - comunicacion-familias-era-digital
+    - app-movil-educacion
 faqs:
-  - question: "¿Una app para padres de colegio sustituye al email?"
-    answer: "No necesariamente. El email sigue siendo útil para contenido largo. Pero una app para padres de colegio es mejor para avisos urgentes, notificaciones de asistencia y recordatorios de pago. Lo ideal es tener ambos y usarlos según el tipo de mensaje."
-  - question: "¿Las familias adoptan la app para padres de colegio?"
-    answer: "Sí, si el centro la presenta bien y ofrece valor (consultar asistencia, pagar, recibir avisos). La clave es que el primer contacto sea útil; si solo reciben circulares largas, la adopción será menor."
-  - question: "¿Cómo cumplir GDPR en la comunicación colegio familias?"
-    answer: "Usar herramientas que permitan gestionar consentimientos, no compartir datos con fines no autorizados y dar de baja a quien lo solicite. El proveedor debe actuar como encargado del tratamiento si procesa datos por cuenta del centro."
-  - question: "¿Es legal usar WhatsApp con familias?"
-    answer: "Con consentimiento y criterio, para coordinación; no sustituye canal institucional trazable."
+    - question: "¿Una app para padres de colegio sustituye al email?"
+      answer: "No necesariamente. El email sigue siendo útil para contenido largo. Pero una app para padres de colegio es mejor para avisos urgentes, notificaciones de asistencia y recordatorios de pago. Lo ideal es tener ambos y usarlos según el tipo de mensaje."
+    - question: "¿Las familias adoptan la app para padres de colegio?"
+      answer: "Sí, si el centro la presenta bien y ofrece valor (consultar asistencia, pagar, recibir avisos). La clave es que el primer contacto sea útil; si solo reciben circulares largas, la adopción será menor."
+    - question: "¿Cómo cumplir GDPR en la comunicación colegio familias?"
+      answer: "Usar herramientas que permitan gestionar consentimientos, no compartir datos con fines no autorizados y dar de baja a quien lo solicite. El proveedor debe actuar como encargado del tratamiento si procesa datos por cuenta del centro."
+    - question: "¿Es legal usar WhatsApp con familias?"
+      answer: "Con consentimiento y criterio, para coordinación; no sustituye canal institucional trazable."
 ---
 
 <strong>Cómo mejorar la comunicación con las familias desde una única plataforma digital</strong>

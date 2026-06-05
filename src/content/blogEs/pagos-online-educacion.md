@@ -3,24 +3,24 @@ title: "Cómo integrar pagos online en escuelas y reducir impagos"
 date: "2026-02-21"
 description: "Pasarelas, domiciliación SEPA y métodos de pago online en centros. Guía práctica para centros educativos en España (2026)."
 tags: ["pagos online educación", "impagos", "facturación", "centros educativos"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1556740714-a8395b3bf30f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - morosidad-colegios-cobros-automaticos-2026
-  - facturacion-electronica-verifactu-educacion-2026
-  - kpis-director-colegio-mensual-2026
-  - reducir-impagos-facturacion-colegios
+    - morosidad-colegios-cobros-automaticos-2026
+    - facturacion-electronica-verifactu-educacion-2026
+    - kpis-director-colegio-mensual-2026
+    - reducir-impagos-facturacion-colegios
 faqs:
-  - question: "¿Los pagos online en educación son seguros?"
-    answer: "Sí, si usas una pasarela que cumple PCI-DSS y no almacenas datos de tarjeta. El pago se realiza en la página del proveedor o con tokenización; el centro no maneja el número de tarjeta."
-  - question: "¿Qué coste tiene una pasarela para centros educativos?"
-    answer: "Suele ser un porcentaje por transacción más un posible fijo mensual. Compara con el coste actual de gestionar cobros manuales y con el impacto de reducir impagos."
-  - question: "¿Podemos seguir ofreciendo pago en efectivo o talón?"
-    answer: "Sí. Los pagos online en educación pueden convivir con otros métodos; el objetivo es que quien prefiera pagar online pueda hacerlo sin fricción."
-  - question: "¿Qué hacer si una familia dice que ha pagado y no aparece en el sistema?"
-    answer: "Tener un proceso claro: comprobar en la pasarela y en el banco, pedir justificante a la familia y actualizar el estado cuando se confirme. La conciliación periódica reduce estos casos."
-  - question: "¿La facturación electrónica (Verifactu) afecta a los pagos online?"
-    answer: "Son cosas distintas: la facturación electrónica regula el formato y envío de facturas; los pagos online son el medio de cobro. Pueden convivir: factura electrónica y enlace de pago en el mismo flujo."
+    - question: "¿Los pagos online en educación son seguros?"
+      answer: "Sí, si usas una pasarela que cumple PCI-DSS y no almacenas datos de tarjeta. El pago se realiza en la página del proveedor o con tokenización; el centro no maneja el número de tarjeta."
+    - question: "¿Qué coste tiene una pasarela para centros educativos?"
+      answer: "Suele ser un porcentaje por transacción más un posible fijo mensual. Compara con el coste actual de gestionar cobros manuales y con el impacto de reducir impagos."
+    - question: "¿Podemos seguir ofreciendo pago en efectivo o talón?"
+      answer: "Sí. Los pagos online en educación pueden convivir con otros métodos; el objetivo es que quien prefiera pagar online pueda hacerlo sin fricción."
+    - question: "¿Qué hacer si una familia dice que ha pagado y no aparece en el sistema?"
+      answer: "Tener un proceso claro: comprobar en la pasarela y en el banco, pedir justificante a la familia y actualizar el estado cuando se confirme. La conciliación periódica reduce estos casos."
+    - question: "¿La facturación electrónica (Verifactu) afecta a los pagos online?"
+      answer: "Son cosas distintas: la facturación electrónica regula el formato y envío de facturas; los pagos online son el medio de cobro. Pueden convivir: factura electrónica y enlace de pago en el mismo flujo."
 ---
 
 <strong>Cómo integrar pagos online en escuelas y reducir impagos</strong>

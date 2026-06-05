@@ -7,22 +7,21 @@ tags:
     - "protocoles"
     - "continuité pédagogique"
     - "sécurité scolaire"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1585829364536-ce348dd72ebc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - seo-etablissements-scolaires
-  - marketing-educatif-numerique-strategies
-  - leadership-educatif-transformation-numerique
-  - gestion-changement-organisationnel-educatif
+    - seo-etablissements-scolaires
+    - marketing-educatif-numerique-strategies
+    - leadership-educatif-transformation-numerique
+    - gestion-changement-organisationnel-educatif
 faqs:
-  - question: "Le protocole numérique en crise ?"
-    answer: "Canal unique, modèles pré-approuvés, sauvegarde des listes de contacts en dehors du centre."
-  - question: "Continuité pédagogique ?"
-    answer: "Accès à distance aux horaires et annonces en cas de fermeture temporaire du bâtiment."
-  - question: "Communiquer aux familles ?"
-    answer: "Rapidité, faits vérifiés, voix institutionnelle."
+    - question: "Le protocole numérique en crise ?"
+      answer: "Canal unique, modèles pré-approuvés, sauvegarde des listes de contacts en dehors du centre."
+    - question: "Continuité pédagogique ?"
+      answer: "Accès à distance aux horaires et annonces en cas de fermeture temporaire du bâtiment."
+    - question: "Communiquer aux familles ?"
+      answer: "Rapidité, faits vérifiés, voix institutionnelle."
 ---
-
 
 <strong>Gestion de crise dans les établissements scolaires : protocoles et stratégies de continuité</strong>
 

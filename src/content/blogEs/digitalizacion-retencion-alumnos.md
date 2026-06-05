@@ -3,24 +3,24 @@ title: "Impacto de la digitalización en la retención de alumnos"
 date: "2026-02-07"
 description: "Procesos admin que mejoran retención y reducen bajas. Guía práctica para centros educativos en España (2026)."
 tags: ["retención escolar", "digitalización", "centros educativos", "administración"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop"
 relatedPosts:
-  - matricula-online-centro-educativo-pasos-2026
-  - crm-escolar-matriculas-conversion-2026
-  - onboarding-digital-familias-matricula-online
-  - retencion-estudiantes-era-digital
+    - matricula-online-centro-educativo-pasos-2026
+    - crm-escolar-matriculas-conversion-2026
+    - onboarding-digital-familias-matricula-online
+    - retencion-estudiantes-era-digital
 faqs:
-  - question: "¿La retención escolar depende más de lo académico o de la administración?"
-    answer: "Ambos. Lo académico y el clima son decisivos; pero la experiencia administrativa (pagos, documentación, comunicación) influye en la percepción de seriedad y en la decisión de renovar."
-  - question: "¿Qué indicadores de retención escolar debo seguir?"
-    answer: "Tasa de renovación por etapa, por año de incorporación y, si es posible, por tipo de familia o programa. Cruza con impagos y asistencia para detectar riesgo."
-  - question: "¿La digitalización puede empeorar la relación con las familias?"
-    answer: "Solo si se usa de forma fría o masiva. Bien usada (mensajes claros, recordatorios útiles, menos errores), la digitalización suele mejorar la percepción."
-  - question: "¿Necesito un CRM educativo para trabajar la retención?"
-    answer: "No necesariamente. Un buen software de gestión con familias, pagos y alertas puede ser suficiente. Un CRM aporta cuando hay muchos puntos de contacto y ciclos de venta/renovación complejos."
-  - question: "¿Cómo convenzo al equipo de que la administración influye en la retención?"
-    answer: "Comparte datos: bajas asociadas a impagos o quejas administrativas, y evolución de la retención antes y después de cambios en procesos. Los números ayudan a alinear prioridades."
+    - question: "¿La retención escolar depende más de lo académico o de la administración?"
+      answer: "Ambos. Lo académico y el clima son decisivos; pero la experiencia administrativa (pagos, documentación, comunicación) influye en la percepción de seriedad y en la decisión de renovar."
+    - question: "¿Qué indicadores de retención escolar debo seguir?"
+      answer: "Tasa de renovación por etapa, por año de incorporación y, si es posible, por tipo de familia o programa. Cruza con impagos y asistencia para detectar riesgo."
+    - question: "¿La digitalización puede empeorar la relación con las familias?"
+      answer: "Solo si se usa de forma fría o masiva. Bien usada (mensajes claros, recordatorios útiles, menos errores), la digitalización suele mejorar la percepción."
+    - question: "¿Necesito un CRM educativo para trabajar la retención?"
+      answer: "No necesariamente. Un buen software de gestión con familias, pagos y alertas puede ser suficiente. Un CRM aporta cuando hay muchos puntos de contacto y ciclos de venta/renovación complejos."
+    - question: "¿Cómo convenzo al equipo de que la administración influye en la retención?"
+      answer: "Comparte datos: bajas asociadas a impagos o quejas administrativas, y evolución de la retención antes y después de cambios en procesos. Los números ayudan a alinear prioridades."
 ---
 
 <strong>Impacto de la digitalización administrativa en la retención de alumnos</strong>
@@ -134,11 +134,11 @@ Tras visita o propuesta aceptada, en el mismo flujo digital, antes del alta defi
 
 <br>
 
-1) La experiencia administrativa influye en la decisión de las familias de quedarse o marcharse.  
-2) La retención escolar mejora con alertas tempranas basadas en pagos, asistencia e incidencias.  
-3) Comunicación segmentada y recordatorios útiles reducen malentendidos y sensación de caos.  
-4) Medir retención por etapa o cohorte permite priorizar acciones.  
-5) Revisar y simplificar el proceso de renovación de matrícula es una palanca directa de retención.
+1. La experiencia administrativa influye en la decisión de las familias de quedarse o marcharse.
+2. La retención escolar mejora con alertas tempranas basadas en pagos, asistencia e incidencias.
+3. Comunicación segmentada y recordatorios útiles reducen malentendidos y sensación de caos.
+4. Medir retención por etapa o cohorte permite priorizar acciones.
+5. Revisar y simplificar el proceso de renovación de matrícula es una palanca directa de retención.
 
 ¿Quieres ver cómo mejorar la retención de tu centro con datos y procesos digitales? Solicita una demo y revisamos juntos indicadores, comunicación con familias y flujos de renovación.
 

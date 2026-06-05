@@ -7,19 +7,18 @@ tags:
     - "management"
     - "education"
     - "selection"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalization-checklist-2026
+    - digitalization-checklist-2026
 faqs:
-  - question: "How long should the search phase last?"
-    answer: "One week of planning and two to four weeks of focused demos are enough if you have clear criteria. More than two months without a pilot usually indicates a lack of internal decision, not a lack of offer."
-  - question: "Can I start just for fee collection?"
-    answer: "Yes, if the provider allows you to grow by modules without re-migrating. Ensure that files and families will reach the same master data."
-  - question: "What do I do if my center is chartered?"
-    answer: "Prioritize traceability of fees, scholarships and communication with administration; Commercial CRM weighs less than purely private schools, but Verifactu and LOPDGDD apply the same."
+    - question: "How long should the search phase last?"
+      answer: "One week of planning and two to four weeks of focused demos are enough if you have clear criteria. More than two months without a pilot usually indicates a lack of internal decision, not a lack of offer."
+    - question: "Can I start just for fee collection?"
+      answer: "Yes, if the provider allows you to grow by modules without re-migrating. Ensure that files and families will reach the same master data."
+    - question: "What do I do if my center is chartered?"
+      answer: "Prioritize traceability of fees, scholarships and communication with administration; Commercial CRM weighs less than purely private schools, but Verifactu and LOPDGDD apply the same."
 ---
-
 
 <strong>How to choose the best school management software</strong>
 

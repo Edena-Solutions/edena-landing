@@ -7,26 +7,25 @@ tags:
     - "intel·ligència artificial"
     - "automatització"
     - "administració"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1680783954745-3249be59e527?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - estalvi-15-hores-administracio-2026
-  - automatitzacio-absentisme-escolar
-  - processos-administratius-automatitzar-col-legi
-  - automatitzacio-tasques-administratives
+    - estalvi-15-hores-administracio-2026
+    - automatitzacio-absentisme-escolar
+    - processos-administratius-automatitzar-col-legi
+    - automatitzacio-tasques-administratives
 faqs:
-  - question: "La IA a la gestió escolar substitueix llocs de treball?"
-    answer: "En els casos típics (priorització de cobrament, alertes de retenció, respostes automàtiques), la IA assisteix i allibera temps per a tasques de més valor. El criteri i la relació amb les famílies segueixen a les mans de l'equip."
-  - question: "Necessitem moltes dades per utilitzar IA?"
-    answer: "Depèn del cas. Per a regles d'alerta (llindars de faltes, impagaments) n'hi ha prou amb dades operatives. Per a models predictius (risc d'impagament o baixa) sol fer falta historial d'almenys un o dos anys."
-  - question: "Què passa amb la protecció de dades i la IA?"
-    answer: "Les dades han de tractar-se amb base legal i mesures de seguretat. Si el proveïdor processa dades per entrenar models, el contracte l'ha de regular i assegurar que no s'utilitzen per a fins no autoritzats. La transparència amb les famílies sobre lús de dades és important."
-  - question: "Podem començar sense un departament tècnic?"
-    answer: "Sí. Moltes solucions d'IA en gestió escolar estan integrades en programari de gestió (alertes, priorització, plantilles). El centre no ha de fer models; sí que ha de definir objectius i supervisar resultats."
-  - question: "Com triar un proveïdor d'IA per a la gestió escolar?"
-    answer: "Valora que la solució estigui integrada amb la teva gestió (matrícula, facturació, comunicació), que documenti què fa amb les dades i permeti supervisió humana. Demana referències de centres semblants."
+    - question: "La IA a la gestió escolar substitueix llocs de treball?"
+      answer: "En els casos típics (priorització de cobrament, alertes de retenció, respostes automàtiques), la IA assisteix i allibera temps per a tasques de més valor. El criteri i la relació amb les famílies segueixen a les mans de l'equip."
+    - question: "Necessitem moltes dades per utilitzar IA?"
+      answer: "Depèn del cas. Per a regles d'alerta (llindars de faltes, impagaments) n'hi ha prou amb dades operatives. Per a models predictius (risc d'impagament o baixa) sol fer falta historial d'almenys un o dos anys."
+    - question: "Què passa amb la protecció de dades i la IA?"
+      answer: "Les dades han de tractar-se amb base legal i mesures de seguretat. Si el proveïdor processa dades per entrenar models, el contracte l'ha de regular i assegurar que no s'utilitzen per a fins no autoritzats. La transparència amb les famílies sobre lús de dades és important."
+    - question: "Podem començar sense un departament tècnic?"
+      answer: "Sí. Moltes solucions d'IA en gestió escolar estan integrades en programari de gestió (alertes, priorització, plantilles). El centre no ha de fer models; sí que ha de definir objectius i supervisar resultats."
+    - question: "Com triar un proveïdor d'IA per a la gestió escolar?"
+      answer: "Valora que la solució estigui integrada amb la teva gestió (matrícula, facturació, comunicació), que documenti què fa amb les dades i permeti supervisió humana. Demana referències de centres semblants."
 ---
-
 
 <strong>Intel·ligència artificial a l'administració escolar: casos pràctics reals</strong>
 

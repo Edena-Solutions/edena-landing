@@ -7,22 +7,22 @@ tags:
     - "management"
     - "education"
     - "technology"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80"
 relatedPosts:
-  - school-arrears-automated-billing-2026
-  - electronic-billing-verifactu-education-2026
-  - head-teacher-monthly-kpis-2026
-  - reduce-arrears-billing-schools
+    - school-arrears-automated-billing-2026
+    - electronic-billing-verifactu-education-2026
+    - head-teacher-monthly-kpis-2026
+    - reduce-arrears-billing-schools
 faqs:
-  - question: "Cash forecast per course?"
-    answer: "Yes: income from fees less historical delinquency and payment schedule to suppliers."
-  - question: "Reporting to the owner?"
-    answer: "Fixed monthly format: occupancy, delinquency, treasury, variation vs budget."
-  - question: "How much late payment is 'normal' at a private school?"
-    answer: "It varies by socioeconomic profile and collection method, but many healthy centers move between 4% and 8% at 45 days. Above 10% it is advisable to review the calendar, direct debit and sequence of reminders before expanding the workforce."
-  - question: "Does Verifactu change how I charge families?"
-    answer: "Verifactu mainly affects the issuance and traceability of invoices before the AEAT, not the payment method itself. It does require your billing software to generate compliant records; It is advisable to integrate it with collections and conciliation."
+    - question: "Cash forecast per course?"
+      answer: "Yes: income from fees less historical delinquency and payment schedule to suppliers."
+    - question: "Reporting to the owner?"
+      answer: "Fixed monthly format: occupancy, delinquency, treasury, variation vs budget."
+    - question: "How much late payment is 'normal' at a private school?"
+      answer: "It varies by socioeconomic profile and collection method, but many healthy centers move between 4% and 8% at 45 days. Above 10% it is advisable to review the calendar, direct debit and sequence of reminders before expanding the workforce."
+    - question: "Does Verifactu change how I charge families?"
+      answer: "Verifactu mainly affects the issuance and traceability of invoices before the AEAT, not the payment method itself. It does require your billing software to generate compliant records; It is advisable to integrate it with collections and conciliation."
 ---
 
 <strong>Smart financial management for educational centers</strong>
@@ -121,7 +121,7 @@ The CFO can now generate complete reports in minutes instead of days, and manage
 
 <br>
 
-Financial management in educational centers will continue to evolve with new technologies. Artificial intelligence will enable more sophisticated analysis and automation of complex decisions. The 
+Financial management in educational centers will continue to evolve with new technologies. Artificial intelligence will enable more sophisticated analysis and automation of complex decisions. The
 
 Integration with emerging payment systems, such as cryptocurrencies or mobile payments, will provide more options for families. Educational centers that adopt these technologies will be better positioned to compete in an increasingly digital market.
 

@@ -3,17 +3,17 @@ title: "Seguridad de datos en centros educativos: Protegiendo el futuro digital"
 date: "2025-01-25"
 description: "Medidas técnicas y organizativas de ciberseguridad. Guía práctica para centros educativos en España (2026)."
 tags: ["seguridad", "datos", "educación", "privacidad"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1589935447067-5531094415d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - proteccion-datos-escuela-digital
+    - proteccion-datos-escuela-digital
 faqs:
-  - question: "¿Copia de seguridad probada?"
-    answer: "Restauración de prueba al menos anual; no basta backup sin verificar."
-  - question: "¿Phishing al personal?"
-    answer: "Formación breve recurrente; el vector más común en centros."
-  - question: "¿Doble factor obligatorio?"
-    answer: "Recomendable en administración y dirección."
+    - question: "¿Copia de seguridad probada?"
+      answer: "Restauración de prueba al menos anual; no basta backup sin verificar."
+    - question: "¿Phishing al personal?"
+      answer: "Formación breve recurrente; el vector más común en centros."
+    - question: "¿Doble factor obligatorio?"
+      answer: "Recomendable en administración y dirección."
 ---
 
 <strong>Seguridad de datos en centros educativos: Protegiendo el futuro digital</strong>

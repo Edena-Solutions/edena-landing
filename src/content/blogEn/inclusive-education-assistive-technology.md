@@ -7,20 +7,20 @@ tags:
     - "assistive technology"
     - "accessibility"
     - "diversity"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1550418290-a8d86ad674a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - innovative-pedagogical-methodologies
-  - pedagogical-innovation-technology
-  - digital-assessment-evaluation-education
-  - future-educational-spaces-design
+    - innovative-pedagogical-methodologies
+    - pedagogical-innovation-technology
+    - digital-assessment-evaluation-education
+    - future-educational-spaces-design
 faqs:
-  - question: "Assistive technology in the ordinary classroom?"
-    answer: "Readers, enlargers, prediction software; integrated into individual plan if applicable."
-  - question: "Who evaluates needs?"
-    answer: "Guidance, PT and family; record in file with controlled access."
-  - question: "Center budget?"
-    answer: "Prioritize low-cost, high-impact adaptations over expensive, untrained hardware."
+    - question: "Assistive technology in the ordinary classroom?"
+      answer: "Readers, enlargers, prediction software; integrated into individual plan if applicable."
+    - question: "Who evaluates needs?"
+      answer: "Guidance, PT and family; record in file with controlled access."
+    - question: "Center budget?"
+      answer: "Prioritize low-cost, high-impact adaptations over expensive, untrained hardware."
 ---
 
 <strong>Inclusive education and assistive technology: Creating classrooms for all</strong>

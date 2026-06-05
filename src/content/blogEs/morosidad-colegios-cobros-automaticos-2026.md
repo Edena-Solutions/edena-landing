@@ -3,32 +3,32 @@ title: "Cómo reducir la morosidad en colegios y guarderías con cobros automati
 date: "2026-03-20"
 description: "Estrategia integral para bajar morosidad con cobros recurrentes y trazabilidad. Guía práctica para centros educativos en España (2026)."
 tags:
- [
- "morosidad colegios",
- "cobros automáticos",
- "impagos guardería",
- "facturación educativa",
- "recibos escolares",
- "control de cobro",
- ]
-author: "Equipo Edena"
+    [
+        "morosidad colegios",
+        "cobros automáticos",
+        "impagos guardería",
+        "facturación educativa",
+        "recibos escolares",
+        "control de cobro",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1635091238012-83fb7454e8bb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - facturacion-electronica-verifactu-educacion-2026
-  - kpis-director-colegio-mensual-2026
-  - reducir-impagos-facturacion-colegios
-  - pagos-online-educacion
+    - facturacion-electronica-verifactu-educacion-2026
+    - kpis-director-colegio-mensual-2026
+    - reducir-impagos-facturacion-colegios
+    - pagos-online-educacion
 faqs:
-  - question: "¿Cuánto puedo bajar la mora realistamente con automatización y procesos correctos?"
-    answer: "Depende de mix de ingresos, perfiles y política, pero en capas estructurales, reducciones de un tercio a la mitad de la cola baja, en 6–12 meses, con medición, no son infrecuentes. No prometemos milagros, prometemos menos variación mala."
-  - question: "¿Afecta la facturación electrónica a los recordatorios de familias?"
-    answer: "Sí, indirectamente: si la emisión y el recibo viven con claridad, bajan disputas, y baja re-trabajo. Asegúrate de que el proveedor no te deje a medias con la explicación a los tutores."
-  - question: "¿Qué hago con incumplimientos reiterados?"
-    answer: "Las reglas y la política interna, primero. El software ejecuta, no reemplaza el reglamento de servicios, pero sí da base para actuar con consistencia y sin arbitrariedades percibidas."
-  - question: "¿Debo conectar con pasarela de pago o banco?"
-    answer: "Estrategia: minimiza cajas y duplicación de criterio. Cuantos menos sitios, menos huecos. La plataforma debería concentrar criterio y trazas."
-  - question: "¿Cuándo tiene sentido escalar a gestión externa de cobros?"
-    answer: "Cuando la secuencia interna de escalada está completa, se ha ofrecido un plan de pago por escrito y se ha rechazado. El umbral de escalada es una decisión de política, no de software: acuérdalo con tu equipo antes de que ocurra el primer caso, documéntalo y aplícalo de forma consistente para que las familias experimenten un trato justo y predecible. La plataforma registra el historial que hace esa decisión defendible."
+    - question: "¿Cuánto puedo bajar la mora realistamente con automatización y procesos correctos?"
+      answer: "Depende de mix de ingresos, perfiles y política, pero en capas estructurales, reducciones de un tercio a la mitad de la cola baja, en 6–12 meses, con medición, no son infrecuentes. No prometemos milagros, prometemos menos variación mala."
+    - question: "¿Afecta la facturación electrónica a los recordatorios de familias?"
+      answer: "Sí, indirectamente: si la emisión y el recibo viven con claridad, bajan disputas, y baja re-trabajo. Asegúrate de que el proveedor no te deje a medias con la explicación a los tutores."
+    - question: "¿Qué hago con incumplimientos reiterados?"
+      answer: "Las reglas y la política interna, primero. El software ejecuta, no reemplaza el reglamento de servicios, pero sí da base para actuar con consistencia y sin arbitrariedades percibidas."
+    - question: "¿Debo conectar con pasarela de pago o banco?"
+      answer: "Estrategia: minimiza cajas y duplicación de criterio. Cuantos menos sitios, menos huecos. La plataforma debería concentrar criterio y trazas."
+    - question: "¿Cuándo tiene sentido escalar a gestión externa de cobros?"
+      answer: "Cuando la secuencia interna de escalada está completa, se ha ofrecido un plan de pago por escrito y se ha rechazado. El umbral de escalada es una decisión de política, no de software: acuérdalo con tu equipo antes de que ocurra el primer caso, documéntalo y aplícalo de forma consistente para que las familias experimenten un trato justo y predecible. La plataforma registra el historial que hace esa decisión defendible."
 ---
 
 <strong>Cómo reducir la morosidad en colegios y guarderías con cobros automatizados</strong>

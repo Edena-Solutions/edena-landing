@@ -9,26 +9,25 @@ tags:
     - "comprar plataforma escolar"
     - "demo programari escolar"
     - "Edena"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1661732017132-28b644cbcf9c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - comparativa-programari-gestio-escolar-2026
-  - millor-programari-gestio-escolar
-  - triar-programari-gestio-escolar
-  - erp-escolar-guia-digitalitzacio
+    - comparativa-programari-gestio-escolar-2026
+    - millor-programari-gestio-escolar
+    - triar-programari-gestio-escolar
+    - erp-escolar-guia-digitalitzacio
 faqs:
-  - question: "Quant de temps porta un procés de canvi de programari complet?"
-    answer: "Entre dos i sis mesos, segons el volum de dades, la complexitat del centre i la disponibilitat de l'equip intern. Un pilot bàsic (dades mestres, primer cicle de cobrament, portal de famílies) pot estar actiu en quatre setmanes si hi ha un responsable intern dedicat i el proveïdor té un pla de migració definit."
-  - question: "És millor canviar de sistema a l'estiu o al gener?"
-    answer: "Estiu redueix l'impacte en famílies i en equip, però comprimeix el temps de validació amb dades reals de matriculació i cobraments en marxa. El gener és més tranquil en matriculació però coincideix amb tancament comptable. La resposta depèn d'on és el teu dolor més gran: si és la matrícula del setembre, canvia a l'estiu; si és la facturació, avalua'l amb dades d'un mes tranquil."
-  - question: "He exigir un contracte de portabilitat de dades?"
-    answer: "Sí, sempre. Abans de signar, confirma que pots exportar totes les dades (alumnes, cobraments, expedients, documents) en format obert (CSV, JSON, Excel) en qualsevol moment. Si el proveïdor no inclou això al contracte o el condiciona a cost addicional, és un senyal d'alarma."
-  - question: "Teniu sentit implantar un sistema just abans d'un pic de matriculació?"
-    answer: "No, tret que la situació actual sigui tan crítica que qualsevol cosa millori. Els dos primers mesos d'ús qualsevol sistema funciona per sota del seu potencial: l'equip aprèn, els processos s'ajusten, els errors apareixen. Si pots, activa el sistema al gener o febrer, consolida el flux, i arriba a la matriculació del setembre amb el sistema ja rodat."
-  - question: "Què passa si el proveïdor té actualitzacions que trenquen el meu flux de treball?"
-    answer: "Exigeix ​​al contracte notificació prèvia de canvis disruptius (almenys dues setmanes), entorn de proves abans d'actualitzar en producció, i historial de notes d'actualització al portal de suport. Un proveïdor que actualitza sense avís és un risc operatiu."
+    - question: "Quant de temps porta un procés de canvi de programari complet?"
+      answer: "Entre dos i sis mesos, segons el volum de dades, la complexitat del centre i la disponibilitat de l'equip intern. Un pilot bàsic (dades mestres, primer cicle de cobrament, portal de famílies) pot estar actiu en quatre setmanes si hi ha un responsable intern dedicat i el proveïdor té un pla de migració definit."
+    - question: "És millor canviar de sistema a l'estiu o al gener?"
+      answer: "Estiu redueix l'impacte en famílies i en equip, però comprimeix el temps de validació amb dades reals de matriculació i cobraments en marxa. El gener és més tranquil en matriculació però coincideix amb tancament comptable. La resposta depèn d'on és el teu dolor més gran: si és la matrícula del setembre, canvia a l'estiu; si és la facturació, avalua'l amb dades d'un mes tranquil."
+    - question: "He exigir un contracte de portabilitat de dades?"
+      answer: "Sí, sempre. Abans de signar, confirma que pots exportar totes les dades (alumnes, cobraments, expedients, documents) en format obert (CSV, JSON, Excel) en qualsevol moment. Si el proveïdor no inclou això al contracte o el condiciona a cost addicional, és un senyal d'alarma."
+    - question: "Teniu sentit implantar un sistema just abans d'un pic de matriculació?"
+      answer: "No, tret que la situació actual sigui tan crítica que qualsevol cosa millori. Els dos primers mesos d'ús qualsevol sistema funciona per sota del seu potencial: l'equip aprèn, els processos s'ajusten, els errors apareixen. Si pots, activa el sistema al gener o febrer, consolida el flux, i arriba a la matriculació del setembre amb el sistema ja rodat."
+    - question: "Què passa si el proveïdor té actualitzacions que trenquen el meu flux de treball?"
+      answer: "Exigeix ​​al contracte notificació prèvia de canvis disruptius (almenys dues setmanes), entorn de proves abans d'actualitzar en producció, i historial de notes d'actualització al portal de suport. Un proveïdor que actualitza sense avís és un risc operatiu."
 ---
-
 
 <strong>Com triar programari escolar sense equivocar-te: checklist per a directors</strong>
 

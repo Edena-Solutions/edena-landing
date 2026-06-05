@@ -7,19 +7,18 @@ tags:
     - "données"
     - "éducation"
     - "confidentialité"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1589935447067-5531094415d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - protection-donnees-ecole-numerique
+    - protection-donnees-ecole-numerique
 faqs:
-  - question: "Sauvegarde testée ?"
-    answer: "Essai de restauration au moins une fois par an ; la sauvegarde sans vérification ne suffit pas."
-  - question: "Personnel de phishing ?"
-    answer: "Formation récurrente courte ; le vecteur le plus courant dans les centres."
-  - question: "Double facteur obligatoire ?"
-    answer: "Recommandé en administration et direction."
+    - question: "Sauvegarde testée ?"
+      answer: "Essai de restauration au moins une fois par an ; la sauvegarde sans vérification ne suffit pas."
+    - question: "Personnel de phishing ?"
+      answer: "Formation récurrente courte ; le vecteur le plus courant dans les centres."
+    - question: "Double facteur obligatoire ?"
+      answer: "Recommandé en administration et direction."
 ---
-
 
 <strong>Sécurité des données dans les établissements scolaires : protéger l'avenir numérique</strong>
 

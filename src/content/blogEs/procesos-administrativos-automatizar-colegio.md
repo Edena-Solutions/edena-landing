@@ -2,21 +2,27 @@
 title: "Los 10 procesos administrativos que deberías automatizar en tu colegio"
 date: "2026-03-02"
 description: "Lista priorizada de 10 procesos a automatizar. Guía práctica para centros educativos en España (2026)."
-tags: ["automatización en centros educativos", "gestión administrativa escolar", "procesos", "digitalización"]
-author: "Equipo Edena"
+tags:
+    [
+        "automatización en centros educativos",
+        "gestión administrativa escolar",
+        "procesos",
+        "digitalización",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop"
 relatedPosts:
-  - ahorrar-15-horas-administracion-escolar-2026
-  - automatizacion-absentismo-escolar
-  - ia-gestion-escolar-casos-practicos
-  - automatizacion-tareas-administrativas
+    - ahorrar-15-horas-administracion-escolar-2026
+    - automatizacion-absentismo-escolar
+    - ia-gestion-escolar-casos-practicos
+    - automatizacion-tareas-administrativas
 faqs:
-  - question: "¿La automatización en centros educativos sustituye puestos de trabajo?"
-    answer: "No. Libera tiempo para tareas de mayor valor: atención a familias, resolución de incidencias, mejora de procesos. La gestión administrativa escolar automatizada permite que el equipo se enfoque en lo que importa."
-  - question: "¿Cuánto tarda implantar la automatización en centros educativos?"
-    answer: "Depende del proceso. Facturación y recordatorios pueden estar operativos en semanas. Una automatización completa de la gestión administrativa escolar puede llevar varios meses. Planifica por fases y mide resultados."
-  - question: "¿Por qué proceso empiezo a automatizar?"
-    answer: "Cobros recurrentes y asistencia suelen ser los de mayor retorno inmediato en horas y errores evitados."
+    - question: "¿La automatización en centros educativos sustituye puestos de trabajo?"
+      answer: "No. Libera tiempo para tareas de mayor valor: atención a familias, resolución de incidencias, mejora de procesos. La gestión administrativa escolar automatizada permite que el equipo se enfoque en lo que importa."
+    - question: "¿Cuánto tarda implantar la automatización en centros educativos?"
+      answer: "Depende del proceso. Facturación y recordatorios pueden estar operativos en semanas. Una automatización completa de la gestión administrativa escolar puede llevar varios meses. Planifica por fases y mide resultados."
+    - question: "¿Por qué proceso empiezo a automatizar?"
+      answer: "Cobros recurrentes y asistencia suelen ser los de mayor retorno inmediato en horas y errores evitados."
 ---
 
 <strong>Los 10 procesos administrativos que deberías automatizar en tu colegio</strong>

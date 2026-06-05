@@ -3,20 +3,20 @@ title: "Educación inclusiva y tecnología asistiva: Creando aulas para todos"
 date: "2025-08-05"
 description: "Inclusión y tecnología asistiva en aula ordinaria. Guía práctica para centros educativos en España (2026)."
 tags: ["educación inclusiva", "tecnología asistiva", "accesibilidad", "diversidad"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1550418290-a8d86ad674a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologias-pedagogicas-innovadoras
-  - innovacion-pedagogica-tecnologia
-  - evaluacion-assessment-digital-educativo
-  - espacios-educativos-futuro-diseno
+    - metodologias-pedagogicas-innovadoras
+    - innovacion-pedagogica-tecnologia
+    - evaluacion-assessment-digital-educativo
+    - espacios-educativos-futuro-diseno
 faqs:
-  - question: "¿Tecnología asistiva en aula ordinaria?"
-    answer: "Lectores, ampliadores, software de predicción; integrados en plan individual si aplica."
-  - question: "¿Quién evalúa necesidades?"
-    answer: "Orientación, PT y familia; registro en expediente con acceso controlado."
-  - question: "¿Presupuesto del centro?"
-    answer: "Priorizad adaptaciones de alto impacto bajo coste antes que hardware caro sin formación."
+    - question: "¿Tecnología asistiva en aula ordinaria?"
+      answer: "Lectores, ampliadores, software de predicción; integrados en plan individual si aplica."
+    - question: "¿Quién evalúa necesidades?"
+      answer: "Orientación, PT y familia; registro en expediente con acceso controlado."
+    - question: "¿Presupuesto del centro?"
+      answer: "Priorizad adaptaciones de alto impacto bajo coste antes que hardware caro sin formación."
 ---
 
 <strong>Educación inclusiva y tecnología asistiva: Creando aulas para todos</strong>

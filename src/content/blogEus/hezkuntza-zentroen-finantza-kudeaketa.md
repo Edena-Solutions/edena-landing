@@ -7,22 +7,22 @@ tags:
     - "gestión"
     - "educación"
     - "tecnología"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80"
 relatedPosts:
-  - atzeratzea-murriztu-kobro-automatikoa-2026
-  - faktura-elektronikoa-verifactu-hezkuntza-2026
-  - kpi-hileko-zuzendaria-2026
-  - fakturazio-zorrak-murriztu-ikastetxeetan
+    - atzeratzea-murriztu-kobro-automatikoa-2026
+    - faktura-elektronikoa-verifactu-hezkuntza-2026
+    - kpi-hileko-zuzendaria-2026
+    - fakturazio-zorrak-murriztu-ikastetxeetan
 faqs:
-  - question: "Diru-kutxa iragarpen ikasturtez?"
-    answer: "Bai: kuota-sarreren bidez morositate historikoa eta hornitzaileei ordaintzeko egutegiaren arabera."
-  - question: "Txostena jabearentzat?"
-    answer: "Hileko formatu finkoa: okupazioa, morosiatea, diruzaintza, aurrekontuarekiko aldaera."
-  - question: "Zenbat morositate da 'normala' ikastetxe pribatu batean?"
-    answer: "Profil sozioekonomiko eta kobrantza-metodoaren araberakoa da, baina zentro osasuntsu askok %4-%8 bitartean mugitzen dira 45 egunera. %10 gainditzen bada, komeni da egutegia, domiziliatze eta oroigarri-sekuentzia berrikustea langileria zabaldu baino lehen."
-  - question: "Verifactuk familiei kobratzeko moduari eragiten dio?"
-    answer: "Verifactuk batez ere fakturen emisioa eta AEATarekiko trazagarritasunari eragiten dio, ez ordainketa-metodoari berari. Zure fakturazio-softwareak erregistro egokiak sortu behar ditu; komeni da kobrantzarekin eta bateratzea integratzea."
+    - question: "Diru-kutxa iragarpen ikasturtez?"
+      answer: "Bai: kuota-sarreren bidez morositate historikoa eta hornitzaileei ordaintzeko egutegiaren arabera."
+    - question: "Txostena jabearentzat?"
+      answer: "Hileko formatu finkoa: okupazioa, morosiatea, diruzaintza, aurrekontuarekiko aldaera."
+    - question: "Zenbat morositate da 'normala' ikastetxe pribatu batean?"
+      answer: "Profil sozioekonomiko eta kobrantza-metodoaren araberakoa da, baina zentro osasuntsu askok %4-%8 bitartean mugitzen dira 45 egunera. %10 gainditzen bada, komeni da egutegia, domiziliatze eta oroigarri-sekuentzia berrikustea langileria zabaldu baino lehen."
+    - question: "Verifactuk familiei kobratzeko moduari eragiten dio?"
+      answer: "Verifactuk batez ere fakturen emisioa eta AEATarekiko trazagarritasunari eragiten dio, ez ordainketa-metodoari berari. Zure fakturazio-softwareak erregistro egokiak sortu behar ditu; komeni da kobrantzarekin eta bateratzea integratzea."
 ---
 
 <strong>Finantza-kudeaketa adimentsua hezkuntza-zentroetarako</strong>

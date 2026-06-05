@@ -7,20 +7,20 @@ tags:
     - "assessment"
     - "tecnología educativa"
     - "medición aprendizaje"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - pedagogia-metodologia-berragarriak
-  - pedagogia-berrikuntza-teknologia
-  - etorkizuneko-hezkuntza-espazioen-diseinua
-  - ikasleen-ongizate-emozional-digitala
+    - pedagogia-metodologia-berragarriak
+    - pedagogia-berrikuntza-teknologia
+    - etorkizuneko-hezkuntza-espazioen-diseinua
+    - ikasleen-ongizate-emozional-digitala
 faqs:
-  - question: "Ebaluazio %100 digitala?"
-    answer: "Errubrikekin eta portfolioarekin posible; orekatu presentzial probekin etaparen arabera."
-  - question: "Ikuskapenerako trazabilitatea?"
-    answer: "Ebaluazio-historia eta LOMLOE irizpide ikusgai dituen fitxategia."
-  - question: "Denbora gutxiago zuzentzen?"
-    answer: "Bai autozuzenketa formatiboarekin eta ondo diseinatutako elementuen bankuekin."
+    - question: "Ebaluazio %100 digitala?"
+      answer: "Errubrikekin eta portfolioarekin posible; orekatu presentzial probekin etaparen arabera."
+    - question: "Ikuskapenerako trazabilitatea?"
+      answer: "Ebaluazio-historia eta LOMLOE irizpide ikusgai dituen fitxategia."
+    - question: "Denbora gutxiago zuzentzen?"
+      answer: "Bai autozuzenketa formatiboarekin eta ondo diseinatutako elementuen bankuekin."
 ---
 
 <strong>Ebaluazioa eta assessment digitala hezkuntza modernoan: tresnak eta estrategiak</strong>

@@ -7,17 +7,17 @@ tags:
     - "educational leadership"
     - "organizational transformation"
     - "innovation"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1558932129-58b0867c4985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalization-checklist-2026
+    - digitalization-checklist-2026
 faqs:
-  - question: "How much to invest in ads?"
-    answer: "First close the website, Google Business and CRM. Measure cost per closed registration before expanding budget."
-  - question: "How to align marketing and secretariat?"
-    answer: "Same information on fees and services on the website, visit and contract. A single source of truth in the ERP."
-  - question: "What works best to attract families in Spain?"
-    answer: "Local SEO, Google Business, Open Day with short form and CRM follow-up in 24-48 hours."
+    - question: "How much to invest in ads?"
+      answer: "First close the website, Google Business and CRM. Measure cost per closed registration before expanding budget."
+    - question: "How to align marketing and secretariat?"
+      answer: "Same information on fees and services on the website, visit and contract. A single source of truth in the ERP."
+    - question: "What works best to attract families in Spain?"
+      answer: "Local SEO, Google Business, Open Day with short form and CRM follow-up in 24-48 hours."
 ---
 
 <strong>Organizational change management in educational centers: Strategies for successful transformation</strong>

@@ -7,23 +7,22 @@ tags:
     - "GDPR"
     - "seguretat"
     - "directius"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1545175928-65a104e66691?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - seguretat-dades-centres-educatius
+    - seguretat-dades-centres-educatius
 faqs:
-  - question: "Qui és el responsable del tractament en un centre educatiu?"
-    answer: "Sol ser el titular del centre (entitat jurídica que dirigeix ​​el centre). Els directius actuen en nom seu; els proveïdors de programari són encarregats."
-  - question: "Les dades han de ser a servidors de la UE?"
-    answer: "No és obligatori en tots els casos, però és lopció més senzilla per complir el GDPR. Si el proveïdor utilitza països tercers, hi ha d'haver garanties (clàusules tipus, decisions d'adequació)."
-  - question: "Què fer si hi ha una fuita de dades?"
-    answer: "Avaluar el risc per als afectats; si hi ha risc, notificar a l'autoritat de control en 72 hores i, si escau, informar les persones afectades. Tenir un procediment escrit accelera la resposta."
-  - question: "Les famílies poden demanar que esborrem totes les dades del vostre fill?"
-    answer: "Tenen dret a la supressió quan ja no cal conservar-los (per exemple, després de deixar el centre i complert el termini legal de conservació). Hi ha excepcions (obligacions legals); convé documentar el criteri i el termini."
-  - question: "La protecció de dades a lescola digital exigeix ​​un DPO?"
-    answer: "No sempre. És obligatori en organismes públics i en tractaments a gran escala o de categories especials. Molts centres privats no estan obligats, però designen un responsable intern per coordinar; és bona pràctica."
+    - question: "Qui és el responsable del tractament en un centre educatiu?"
+      answer: "Sol ser el titular del centre (entitat jurídica que dirigeix ​​el centre). Els directius actuen en nom seu; els proveïdors de programari són encarregats."
+    - question: "Les dades han de ser a servidors de la UE?"
+      answer: "No és obligatori en tots els casos, però és lopció més senzilla per complir el GDPR. Si el proveïdor utilitza països tercers, hi ha d'haver garanties (clàusules tipus, decisions d'adequació)."
+    - question: "Què fer si hi ha una fuita de dades?"
+      answer: "Avaluar el risc per als afectats; si hi ha risc, notificar a l'autoritat de control en 72 hores i, si escau, informar les persones afectades. Tenir un procediment escrit accelera la resposta."
+    - question: "Les famílies poden demanar que esborrem totes les dades del vostre fill?"
+      answer: "Tenen dret a la supressió quan ja no cal conservar-los (per exemple, després de deixar el centre i complert el termini legal de conservació). Hi ha excepcions (obligacions legals); convé documentar el criteri i el termini."
+    - question: "La protecció de dades a lescola digital exigeix ​​un DPO?"
+      answer: "No sempre. És obligatori en organismes públics i en tractaments a gran escala o de categories especials. Molts centres privats no estan obligats, però designen un responsable intern per coordinar; és bona pràctica."
 ---
-
 
 <strong>Protecció de dades a la gestió digital d'escoles: guia pràctica per a directius</strong>
 

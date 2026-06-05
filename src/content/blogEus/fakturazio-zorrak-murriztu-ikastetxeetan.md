@@ -7,26 +7,25 @@ tags:
     - "ikastetxeko ordainketen kudeaketa"
     - "lehenetsiak"
     - "bilduma"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1662502729255-4d3a58486d4e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJhdWRzdGVyfGVufDB8fDB8fHww"
 relatedPosts:
-  - atzeratzea-murriztu-kobro-automatikoa-2026
-  - faktura-elektronikoa-verifactu-hezkuntza-2026
-  - kpi-hileko-zuzendaria-2026
-  - hezkuntza-ordainketak-online
+    - atzeratzea-murriztu-kobro-automatikoa-2026
+    - faktura-elektronikoa-verifactu-hezkuntza-2026
+    - kpi-hileko-zuzendaria-2026
+    - hezkuntza-ordainketak-online
 faqs:
-  - question: "Ikastetxeetako fakturazioak Verifactu sartu behar al du?"
-    answer: "Espainian, araudia aurrera doa. Zentroek fakturazio elektronikorako prestatuta egon behar dute. Ikastetxeko ordainketa-kudeaketa Verifactu-rekin batera egon daiteke: faktura elektronikoa eta ordainketa-esteka fluxu berean."
-  - question: "Seguru al dira online ordainketak ikastetxeko ordainketa-kudeaketan?"
-    answer: "Bai, PCI-DSS bat datorren atebide bat erabiltzen baduzu eta txartelaren datuak gordetzen ez badituzu. Lineako ordainketa integratua duten ikastetxeetan fakturazioa segurua da hornitzaileak araudia betetzen duenean."
-  - question: "Zenbateko atzerapena da \"normala\" eskola pribatu batean?"
-    answer: "Profil sozioekonomikoaren eta bilketa metodoaren arabera aldatzen da, baina zentro osasuntsu asko %4 eta %8 artean mugitzen dira 45 egunetan. % 10etik gora egutegia, zordunketa eta abisuen sekuentzia berrikustea komeni da plantilla zabaldu aurretik."
-  - question: "Verifactu-k aldatzen al du familiei kobratzeko modua?"
-    answer: "Verifactu-k fakturen jaulkipenari eta trazabilitateari eragiten dio batez ere AEATri, ez ordainketa-metodoari berari. Zure fakturazio-softwarea bete beharreko erregistroak sortzeko eskatzen du; Bilketarekin eta kontziliazioarekin integratzea komeni da."
-  - question: "Zuzeneko zordunketarik gabeko abisuekin bakarrik has al al naiz?"
-    answer: "Bai, baina eragina txikia izan ohi da. Konbinatu biak efektu handiena lortzeko."
+    - question: "Ikastetxeetako fakturazioak Verifactu sartu behar al du?"
+      answer: "Espainian, araudia aurrera doa. Zentroek fakturazio elektronikorako prestatuta egon behar dute. Ikastetxeko ordainketa-kudeaketa Verifactu-rekin batera egon daiteke: faktura elektronikoa eta ordainketa-esteka fluxu berean."
+    - question: "Seguru al dira online ordainketak ikastetxeko ordainketa-kudeaketan?"
+      answer: "Bai, PCI-DSS bat datorren atebide bat erabiltzen baduzu eta txartelaren datuak gordetzen ez badituzu. Lineako ordainketa integratua duten ikastetxeetan fakturazioa segurua da hornitzaileak araudia betetzen duenean."
+    - question: 'Zenbateko atzerapena da "normala" eskola pribatu batean?'
+      answer: "Profil sozioekonomikoaren eta bilketa metodoaren arabera aldatzen da, baina zentro osasuntsu asko %4 eta %8 artean mugitzen dira 45 egunetan. % 10etik gora egutegia, zordunketa eta abisuen sekuentzia berrikustea komeni da plantilla zabaldu aurretik."
+    - question: "Verifactu-k aldatzen al du familiei kobratzeko modua?"
+      answer: "Verifactu-k fakturen jaulkipenari eta trazabilitateari eragiten dio batez ere AEATri, ez ordainketa-metodoari berari. Zure fakturazio-softwarea bete beharreko erregistroak sortzeko eskatzen du; Bilketarekin eta kontziliazioarekin integratzea komeni da."
+    - question: "Zuzeneko zordunketarik gabeko abisuekin bakarrik has al al naiz?"
+      answer: "Bai, baina eragina txikia izan ohi da. Konbinatu biak efektu handiena lortzeko."
 ---
-
 
 <strong>Nola murriztu ez-ordainketak eta fakturazioa hobetu hezkuntza-zentroetan</strong>
 

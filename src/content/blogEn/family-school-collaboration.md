@@ -7,17 +7,17 @@ tags:
     - "families"
     - "community"
     - "stake"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalization-checklist-2026
+    - digitalization-checklist-2026
 faqs:
-  - question: "How many mass messages per week?"
-    answer: "As a practical rule, no more than two non-urgent communications per week so as not to overwhelm families."
-  - question: "How to segment audiences?"
-    answer: "By stage, course and services (dining room, transportation). Avoid sending everything to the entire center."
-  - question: "Does the app replace the tutor's WhatsApp?"
-    answer: "It doesn't have to. The app channels the institutional; WhatsApp can be left for specific coordination with written criteria."
+    - question: "How many mass messages per week?"
+      answer: "As a practical rule, no more than two non-urgent communications per week so as not to overwhelm families."
+    - question: "How to segment audiences?"
+      answer: "By stage, course and services (dining room, transportation). Avoid sending everything to the entire center."
+    - question: "Does the app replace the tutor's WhatsApp?"
+      answer: "It doesn't have to. The app channels the institutional; WhatsApp can be left for specific coordination with written criteria."
 ---
 
 <strong>Family-school collaboration: Building a united community</strong>

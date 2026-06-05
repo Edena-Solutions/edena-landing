@@ -7,21 +7,20 @@ tags:
     - "digital"
     - "medi ambient"
     - "educació"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1671829480432-9b0f10d869ef?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - experiencia-usuari-tecnologia-educativa
-  - experiencia-estudiant-era-digital
-  - estudiants-era-digital
+    - experiencia-usuari-tecnologia-educativa
+    - experiencia-estudiant-era-digital
+    - estudiants-era-digital
 faqs:
-  - question: "Quant de paper pot eliminar una escola?"
-    answer: "Circulars, autoritzacions i actes; conserveu legalment allò exigit en original o còpia certificada."
-  - question: "Estalvi econòmic mesurable?"
-    answer: "Sí en impressió i hores; calculeu línia base de setembre anterior."
-  - question: "Objeccions famílies al paper zero?"
-    answer: "Oferiu PDF descarregable i suport a secretaria per a qui ho necessiti."
+    - question: "Quant de paper pot eliminar una escola?"
+      answer: "Circulars, autoritzacions i actes; conserveu legalment allò exigit en original o còpia certificada."
+    - question: "Estalvi econòmic mesurable?"
+      answer: "Sí en impressió i hores; calculeu línia base de setembre anterior."
+    - question: "Objeccions famílies al paper zero?"
+      answer: "Oferiu PDF descarregable i suport a secretaria per a qui ho necessiti."
 ---
-
 
 <strong>Edena i la sostenibilitat digital en centres educatius</strong>
 

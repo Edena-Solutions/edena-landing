@@ -7,22 +7,21 @@ tags:
     - "gestió administrativa escolar"
     - "processos"
     - "digitalització"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop"
 relatedPosts:
-  - estalvi-15-hores-administracio-2026
-  - automatitzacio-absentisme-escolar
-  - ia-gestio-escolar-casos-practics
-  - automatitzacio-tasques-administratives
+    - estalvi-15-hores-administracio-2026
+    - automatitzacio-absentisme-escolar
+    - ia-gestio-escolar-casos-practics
+    - automatitzacio-tasques-administratives
 faqs:
-  - question: "L'automatització a centres educatius substitueix llocs de treball?"
-    answer: "No. Allibereu temps per a tasques de major valor: atenció a famílies, resolució d'incidències, millora de processos. La gestió administrativa escolar automatitzada permet que l'equip s'enfoca al que importa."
-  - question: "Quan triga implantar l'automatització a centres educatius?"
-    answer: "Depèn del procés. Facturació i recordatoris poden estar operatius en setmanes. Una automatització completa de la gestió administrativa escolar pot trigar uns quants mesos. Planifica per fases i mesura resultats."
-  - question: "Per què procés començo a automatitzar?"
-    answer: "Cobraments recurrents i assistència solen ser els de més retorn immediat en hores i errors evitats."
+    - question: "L'automatització a centres educatius substitueix llocs de treball?"
+      answer: "No. Allibereu temps per a tasques de major valor: atenció a famílies, resolució d'incidències, millora de processos. La gestió administrativa escolar automatitzada permet que l'equip s'enfoca al que importa."
+    - question: "Quan triga implantar l'automatització a centres educatius?"
+      answer: "Depèn del procés. Facturació i recordatoris poden estar operatius en setmanes. Una automatització completa de la gestió administrativa escolar pot trigar uns quants mesos. Planifica per fases i mesura resultats."
+    - question: "Per què procés començo a automatitzar?"
+      answer: "Cobraments recurrents i assistència solen ser els de més retorn immediat en hores i errors evitats."
 ---
-
 
 <strong>Els 10 processos administratius que hauries d'automatitzar a la teva escola</strong>
 

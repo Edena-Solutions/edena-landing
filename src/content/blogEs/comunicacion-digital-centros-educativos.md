@@ -3,24 +3,24 @@ title: "Comunicación con familias: herramientas más allá del email"
 date: "2026-02-17"
 description: "Canales digitales más allá del email masivo. Guía práctica para centros educativos en España (2026)."
 tags: ["comunicación digital centros educativos", "familias", "canales", "herramientas"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1170&auto=format&fit=crop"
 relatedPosts:
-  - app-familias-colegios-ventajas-2026
-  - comunicacion-colegio-familias-plataforma-digital
-  - comunicacion-familias-era-digital
-  - app-movil-educacion
+    - app-familias-colegios-ventajas-2026
+    - comunicacion-colegio-familias-plataforma-digital
+    - comunicacion-familias-era-digital
+    - app-movil-educacion
 faqs:
-  - question: "¿Es mejor una app propia o un portal web para las familias?"
-    answer: "Depende del presupuesto y del uso. Un portal responsive que funcione bien en móvil puede ser suficiente; una app nativa puede dar más visibilidad (icono, notificaciones) si las familias la usan con frecuencia."
-  - question: "¿Las notificaciones push sustituyen al email?"
-    answer: "No necesariamente. El email sigue siendo útil para contenido largo y para archivo. Push y SMS son mejores para avisos cortos y urgentes que requieren acción rápida."
-  - question: "¿Cómo cumplimos la protección de datos al enviar mensajes masivos?"
-    answer: "Usar herramientas que permitan gestionar consentimientos y listas, no compartir datos con fines comerciales no autorizados, y dar de baja a quien lo solicite. El proveedor debe actuar como encargado del tratamiento si procesa datos por cuenta del centro."
-  - question: "¿Qué hacemos con los grupos de WhatsApp de padres?"
-    answer: "No es recomendable usarlos como canal oficial: poco control, riesgo para la privacidad y mezcla de temas. Mejor ofrecer un canal oficial (portal, notificaciones) y dejar WhatsApp para uso informal si el centro lo considera adecuado, con normas claras."
-  - question: "¿La comunicación digital en centros educativos requiere mucho mantenimiento?"
-    answer: "La implantación inicial sí; después, con plantillas y automatizaciones, el mantenimiento puede ser bajo. Conviene revisar cada curso contenidos y segmentaciones."
+    - question: "¿Es mejor una app propia o un portal web para las familias?"
+      answer: "Depende del presupuesto y del uso. Un portal responsive que funcione bien en móvil puede ser suficiente; una app nativa puede dar más visibilidad (icono, notificaciones) si las familias la usan con frecuencia."
+    - question: "¿Las notificaciones push sustituyen al email?"
+      answer: "No necesariamente. El email sigue siendo útil para contenido largo y para archivo. Push y SMS son mejores para avisos cortos y urgentes que requieren acción rápida."
+    - question: "¿Cómo cumplimos la protección de datos al enviar mensajes masivos?"
+      answer: "Usar herramientas que permitan gestionar consentimientos y listas, no compartir datos con fines comerciales no autorizados, y dar de baja a quien lo solicite. El proveedor debe actuar como encargado del tratamiento si procesa datos por cuenta del centro."
+    - question: "¿Qué hacemos con los grupos de WhatsApp de padres?"
+      answer: "No es recomendable usarlos como canal oficial: poco control, riesgo para la privacidad y mezcla de temas. Mejor ofrecer un canal oficial (portal, notificaciones) y dejar WhatsApp para uso informal si el centro lo considera adecuado, con normas claras."
+    - question: "¿La comunicación digital en centros educativos requiere mucho mantenimiento?"
+      answer: "La implantación inicial sí; después, con plantillas y automatizaciones, el mantenimiento puede ser bajo. Conviene revisar cada curso contenidos y segmentaciones."
 ---
 
 <strong>Mejorando la comunicación con familias: herramientas digitales más allá del email</strong>
@@ -143,11 +143,11 @@ Con consentimiento y criterio, para coordinación; no sustituye canal institucio
 
 <br>
 
-1) La comunicación digital en centros educativos debe incluir un canal que las familias consulten con facilidad (portal/app).  
-2) Notificaciones push o SMS mejoran la lectura de avisos urgentes y recordatorios.  
-3) Segmentar por etapa, servicio o condición aumenta la relevancia de los mensajes.  
-4) Plantillas y automatización ahorran tiempo y unifican criterios.  
-5) Definir qué canal usar para cada tipo de mensaje evita ruido y mejora la respuesta.
+1. La comunicación digital en centros educativos debe incluir un canal que las familias consulten con facilidad (portal/app).
+2. Notificaciones push o SMS mejoran la lectura de avisos urgentes y recordatorios.
+3. Segmentar por etapa, servicio o condición aumenta la relevancia de los mensajes.
+4. Plantillas y automatización ahorran tiempo y unifican criterios.
+5. Definir qué canal usar para cada tipo de mensaje evita ruido y mejora la respuesta.
 
 ¿Quieres revisar cómo mejorar la comunicación con las familias de tu centro? Solicita una demo y vemos canales, segmentación y flujos que mejor se adaptan a tu realidad.
 

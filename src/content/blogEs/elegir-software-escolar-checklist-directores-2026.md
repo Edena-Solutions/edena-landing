@@ -3,32 +3,32 @@ title: "Cómo elegir software escolar sin equivocarte: checklist para directores
 date: "2026-04-20"
 description: "Checklist de compra para directores: demo, TCO y comité. Guía práctica para centros educativos en España (2026)."
 tags:
- [
- "elegir software escolar",
- "checklist software educativo",
- "criterios ERP escolar",
- "comprar plataforma escolar",
- "demo software escolar",
- "Edena",
- ]
-author: "Equipo Edena"
+    [
+        "elegir software escolar",
+        "checklist software educativo",
+        "criterios ERP escolar",
+        "comprar plataforma escolar",
+        "demo software escolar",
+        "Edena",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1661732017132-28b644cbcf9c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - comparativa-software-gestion-escolar-espana-2026
-  - mejor-software-gestion-escolar
-  - elegir-software-gestion-escolar
-  - erp-escolar-guia-digitalizacion
+    - comparativa-software-gestion-escolar-espana-2026
+    - mejor-software-gestion-escolar
+    - elegir-software-gestion-escolar
+    - erp-escolar-guia-digitalizacion
 faqs:
-  - question: "¿Cuánto tiempo lleva un proceso de cambio de software completo?"
-    answer: "Entre dos y seis meses, dependiendo del volumen de datos, la complejidad del centro y la disponibilidad del equipo interno. Un piloto básico (datos maestros, primer ciclo de cobro, portal de familias) puede estar activo en cuatro semanas si hay un responsable interno dedicado y el proveedor tiene plan de migración definido."
-  - question: "¿Es mejor cambiar de sistema en verano o en enero?"
-    answer: "Verano reduce el impacto en familias y equipo, pero comprime el tiempo de validación con datos reales de matriculación y cobros en marcha. Enero es más tranquilo en matriculación pero coincide con cierre contable. La respuesta depende de dónde está tu mayor dolor: si es la matrícula de septiembre, cambia en verano; si es la facturación, evalúa hacerlo con datos de un mes tranquilo."
-  - question: "¿Debo exigir un contrato de portabilidad de datos?"
-    answer: "Sí, siempre. Antes de firmar, confirma que puedes exportar todos tus datos (alumnos, cobros, expedientes, documentos) en formato abierto (CSV, JSON, Excel) en cualquier momento. Si el proveedor no incluye eso en el contrato o lo condiciona a coste adicional, es una señal de alarma."
-  - question: "¿Tiene sentido implantar un sistema justo antes de un pico de matriculación?"
-    answer: "No, salvo que la situación actual sea tan crítica que cualquier cosa mejore. Los primeros dos meses de uso cualquier sistema funciona por debajo de su potencial: el equipo aprende, los procesos se ajustan, los errores aparecen. Si puedes, activa el sistema en enero o febrero, consolida el flujo, y llega a la matriculación de septiembre con el sistema ya rodado."
-  - question: "¿Qué pasa si el proveedor tiene actualizaciones que rompen mi flujo de trabajo?"
-    answer: "Exige en el contrato notificación previa de cambios disruptivos (al menos dos semanas), entorno de pruebas antes de actualizar en producción, y historial de notas de actualización en el portal de soporte. Un proveedor que actualiza sin aviso es un riesgo operativo."
+    - question: "¿Cuánto tiempo lleva un proceso de cambio de software completo?"
+      answer: "Entre dos y seis meses, dependiendo del volumen de datos, la complejidad del centro y la disponibilidad del equipo interno. Un piloto básico (datos maestros, primer ciclo de cobro, portal de familias) puede estar activo en cuatro semanas si hay un responsable interno dedicado y el proveedor tiene plan de migración definido."
+    - question: "¿Es mejor cambiar de sistema en verano o en enero?"
+      answer: "Verano reduce el impacto en familias y equipo, pero comprime el tiempo de validación con datos reales de matriculación y cobros en marcha. Enero es más tranquilo en matriculación pero coincide con cierre contable. La respuesta depende de dónde está tu mayor dolor: si es la matrícula de septiembre, cambia en verano; si es la facturación, evalúa hacerlo con datos de un mes tranquilo."
+    - question: "¿Debo exigir un contrato de portabilidad de datos?"
+      answer: "Sí, siempre. Antes de firmar, confirma que puedes exportar todos tus datos (alumnos, cobros, expedientes, documentos) en formato abierto (CSV, JSON, Excel) en cualquier momento. Si el proveedor no incluye eso en el contrato o lo condiciona a coste adicional, es una señal de alarma."
+    - question: "¿Tiene sentido implantar un sistema justo antes de un pico de matriculación?"
+      answer: "No, salvo que la situación actual sea tan crítica que cualquier cosa mejore. Los primeros dos meses de uso cualquier sistema funciona por debajo de su potencial: el equipo aprende, los procesos se ajustan, los errores aparecen. Si puedes, activa el sistema en enero o febrero, consolida el flujo, y llega a la matriculación de septiembre con el sistema ya rodado."
+    - question: "¿Qué pasa si el proveedor tiene actualizaciones que rompen mi flujo de trabajo?"
+      answer: "Exige en el contrato notificación previa de cambios disruptivos (al menos dos semanas), entorno de pruebas antes de actualizar en producción, y historial de notas de actualización en el portal de soporte. Un proveedor que actualiza sin aviso es un riesgo operativo."
 ---
 
 <strong>Cómo elegir software escolar sin equivocarte: checklist para directores</strong>

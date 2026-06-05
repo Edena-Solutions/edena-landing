@@ -7,22 +7,21 @@ tags:
     - "eskola kudeatzeko softwarea"
     - "digitalizazioa"
     - "hezkuntza kudeaketa"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677363463978-1aaeb823b2ac?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
-  - software-aukera-egiaztapen-2026
-  - onena-eskola-kudeaketa-softwarea
-  - eskola-kudeaketa-softwarea-aukeratzea
+    - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
+    - software-aukera-egiaztapen-2026
+    - onena-eskola-kudeaketa-softwarea
+    - eskola-kudeaketa-softwarea-aukeratzea
 faqs:
-  - question: "ERP ikastetxe batek hainbat sistema ordezkatzen al ditu?"
-    answer: "Bai. Ongi aukeratutako eskola ERP kalkulu-orriak, fakturazio-softwarea, sakabanatuta dauden komunikazio-tresnak eta zure erregistroen kudeaketa batzuk ordezka ditzake. Helburua muin bateratua izatea da."
-  - question: "Eskola kudeatzeko softwareak fakturazio elektronikoa barne hartzen du?"
-    answer: "Eskola modernoak ERP normalean fakturazio elektronikoa eta Verifactu barne hartzen edo integratzen ditu. Egiaztatu zure hornitzailea prest dagoela edo egokitzen dela sinatu aurretik."
-  - question: "Zenbat denbora behar da eskola bat ezartzeko ERP?"
-    answer: "Abiapuntuaren eta irismenaren araberakoa da. Fakturazioa eta familiekin pilotu bat martxan egon daiteke aste gutxitan; Datuen migrazioarekin inplementazio osoa hainbat hilabete iraun dezake. Planifikazioa faseka."
+    - question: "ERP ikastetxe batek hainbat sistema ordezkatzen al ditu?"
+      answer: "Bai. Ongi aukeratutako eskola ERP kalkulu-orriak, fakturazio-softwarea, sakabanatuta dauden komunikazio-tresnak eta zure erregistroen kudeaketa batzuk ordezka ditzake. Helburua muin bateratua izatea da."
+    - question: "Eskola kudeatzeko softwareak fakturazio elektronikoa barne hartzen du?"
+      answer: "Eskola modernoak ERP normalean fakturazio elektronikoa eta Verifactu barne hartzen edo integratzen ditu. Egiaztatu zure hornitzailea prest dagoela edo egokitzen dela sinatu aurretik."
+    - question: "Zenbat denbora behar da eskola bat ezartzeko ERP?"
+      answer: "Abiapuntuaren eta irismenaren araberakoa da. Fakturazioa eta familiekin pilotu bat martxan egon daiteke aste gutxitan; Datuen migrazioarekin inplementazio osoa hainbat hilabete iraun dezake. Planifikazioa faseka."
 ---
-
 
 <strong>Eskola ERP: zure hezkuntza zentroaren kudeaketa digitalizatzeko gida osoa</strong>
 

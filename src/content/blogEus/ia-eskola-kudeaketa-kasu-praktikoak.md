@@ -7,26 +7,25 @@ tags:
     - "adimen artifiziala"
     - "automatizazioa"
     - "administrazioa"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1680783954745-3249be59e527?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - 15-ordu-admin-eskola-2026
-  - eskola-absentismoaren-automatizazioa
-  - ikastetxe-administrazio-prozesu-automatizatu
-  - administrazio-lanen-automatizazioa
+    - 15-ordu-admin-eskola-2026
+    - eskola-absentismoaren-automatizazioa
+    - ikastetxe-administrazio-prozesu-automatizatu
+    - administrazio-lanen-automatizazioa
 faqs:
-  - question: "Ikastetxeen kudeaketan IAk ordezkatzen al ditu lanpostuak?"
-    answer: "Ohiko kasuetan (bilketa-lehentasuna, alertak gordetzea, erantzun automatikoak), AI-ak laguntzen du eta balio handiagoko zereginetarako denbora askatzen du. Irizpideak eta familiekin harremanak taldearen esku geratzen dira."
-  - question: "Datu asko behar al ditugu AI erabiltzeko?"
-    answer: "Kasuaren araberakoa da. Alerta-arauetarako (atalase lehenetsiak, ez-ordainketak) datu operatiboak nahikoak dira. Iragarpen-ereduetarako (ez ordaintzeko edo baliogabetzeko arriskua) gutxienez urtebete edo bi urteko historia behar da."
-  - question: "Zer gertatzen da datuen babesa eta IA?"
-    answer: "Datuak legezko oinarrian eta segurtasun neurriekin tratatu behar dira. Hornitzaileak datuak trebatzeko ereduak tratatzen baditu, kontratuak hori arautu beharko du, eta baimendu gabeko helburuetarako erabiltzen ez dela ziurtatu behar du. Garrantzitsua da familiekin datuen erabilerari buruzko gardentasuna."
-  - question: "Departamendu teknikorik gabe has al gaitezke?"
-    answer: "Bai. Ikastetxeen kudeaketan AI irtenbide asko kudeaketa softwarean integratuta datoz (alertak, lehentasunak, txantiloiak). Zentroak ez du zertan eredurik eraiki; Bai, helburuak zehaztu eta emaitzak kontrolatu behar dituzu."
-  - question: "Nola aukeratu AI hornitzaile bat ikastetxeen kudeaketarako?"
-    answer: "Kontuan izan irtenbidea zure kudeaketarekin (matrikulazioa, fakturazioa, komunikazioa) integratuta dagoela, datuekin zer egiten duen dokumentatzen duela eta giza gainbegiratzea ahalbidetzen duela. Eskatu erreferentziak antzeko zentroetan."
+    - question: "Ikastetxeen kudeaketan IAk ordezkatzen al ditu lanpostuak?"
+      answer: "Ohiko kasuetan (bilketa-lehentasuna, alertak gordetzea, erantzun automatikoak), AI-ak laguntzen du eta balio handiagoko zereginetarako denbora askatzen du. Irizpideak eta familiekin harremanak taldearen esku geratzen dira."
+    - question: "Datu asko behar al ditugu AI erabiltzeko?"
+      answer: "Kasuaren araberakoa da. Alerta-arauetarako (atalase lehenetsiak, ez-ordainketak) datu operatiboak nahikoak dira. Iragarpen-ereduetarako (ez ordaintzeko edo baliogabetzeko arriskua) gutxienez urtebete edo bi urteko historia behar da."
+    - question: "Zer gertatzen da datuen babesa eta IA?"
+      answer: "Datuak legezko oinarrian eta segurtasun neurriekin tratatu behar dira. Hornitzaileak datuak trebatzeko ereduak tratatzen baditu, kontratuak hori arautu beharko du, eta baimendu gabeko helburuetarako erabiltzen ez dela ziurtatu behar du. Garrantzitsua da familiekin datuen erabilerari buruzko gardentasuna."
+    - question: "Departamendu teknikorik gabe has al gaitezke?"
+      answer: "Bai. Ikastetxeen kudeaketan AI irtenbide asko kudeaketa softwarean integratuta datoz (alertak, lehentasunak, txantiloiak). Zentroak ez du zertan eredurik eraiki; Bai, helburuak zehaztu eta emaitzak kontrolatu behar dituzu."
+    - question: "Nola aukeratu AI hornitzaile bat ikastetxeen kudeaketarako?"
+      answer: "Kontuan izan irtenbidea zure kudeaketarekin (matrikulazioa, fakturazioa, komunikazioa) integratuta dagoela, datuekin zer egiten duen dokumentatzen duela eta giza gainbegiratzea ahalbidetzen duela. Eskatu erreferentziak antzeko zentroetan."
 ---
-
 
 <strong>Adimen artifiziala ikastetxeko administrazioan: benetako kasu praktikoak</strong>
 

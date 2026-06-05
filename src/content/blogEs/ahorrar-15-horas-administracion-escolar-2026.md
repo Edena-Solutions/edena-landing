@@ -2,25 +2,33 @@
 title: "Cómo ahorrar 15 horas semanales en administración escolar"
 date: "2026-04-12"
 description: "Desglose de horas recuperables por proceso admin. Guía práctica para centros educativos en España (2026)."
-tags: ["ahorrar horas administración escolar", "automatización escolar", "eficiencia gestión educativa", "reducir tareas administrativas", "gestión tiempo colegio", "Edena"]
-author: "Equipo Edena"
+tags:
+    [
+        "ahorrar horas administración escolar",
+        "automatización escolar",
+        "eficiencia gestión educativa",
+        "reducir tareas administrativas",
+        "gestión tiempo colegio",
+        "Edena",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - automatizacion-absentismo-escolar
-  - ia-gestion-escolar-casos-practicos
-  - procesos-administrativos-automatizar-colegio
-  - automatizacion-tareas-administrativas
+    - automatizacion-absentismo-escolar
+    - ia-gestion-escolar-casos-practicos
+    - procesos-administrativos-automatizar-colegio
+    - automatizacion-tareas-administrativas
 faqs:
-  - question: "¿Las 15 horas son reales para un colegio pequeño de menos de 100 alumnos?"
-    answer: "Sí, aunque el desglose cambia. En centros pequeños, el tiempo se pierde más en tareas manuales de cobro y comunicación uno a uno. Un piloto de automatización de recibos y un formulario de matrícula digital puede recuperar entre seis y diez horas semanales en dos meses, dependiendo del volumen y la disciplina de uso."
-  - question: "¿Necesito todos los módulos para ver el ahorro?"
-    answer: "No. Empieza con el bloque que genera más fricción: si son los cobros, el módulo de facturación. Si es la matrícula, el CRM con formularios. Si es la comunicación, evalúa si la básica es suficiente antes de contratar Pro. El ahorro aparece cuando se cierra el canal paralelo, no cuando se acumulan módulos."
-  - question: "¿Cuánto tiempo tarda el equipo en adaptarse al cambio?"
-    answer: "Entre dos y seis semanas dependiendo de la frecuencia de uso y la formación. Los equipos que tienen un responsable interno designado y una guía sencilla de uso cotidiano se adaptan mucho más rápido que los que arrancan solos. Edena incluye onboarding y soporte 24/7 para acompañar esa transición."
-  - question: "¿El ahorro de tiempo implica reducir personal?"
-    answer: "No necesariamente. En la mayor parte de los centros, el tiempo recuperado se redirige hacia atención de calidad a familias, proyectos de mejora o captación. La eficiencia no es excusa para reducir plantilla: es argumento para hacer un trabajo más útil y menos repetitivo."
-  - question: "¿Cómo convenzo a la dirección de que la inversión compensa?"
-    answer: "Con datos propios: registra dos semanas de tiempos de proceso antes, estima el coste hora de secretaría y calcula el retorno a doce meses. En la mayoría de los casos, la reducción de impagos sola cubre el coste del módulo de facturación. Añade el valor del tiempo recuperado y el argumento es sencillo."
+    - question: "¿Las 15 horas son reales para un colegio pequeño de menos de 100 alumnos?"
+      answer: "Sí, aunque el desglose cambia. En centros pequeños, el tiempo se pierde más en tareas manuales de cobro y comunicación uno a uno. Un piloto de automatización de recibos y un formulario de matrícula digital puede recuperar entre seis y diez horas semanales en dos meses, dependiendo del volumen y la disciplina de uso."
+    - question: "¿Necesito todos los módulos para ver el ahorro?"
+      answer: "No. Empieza con el bloque que genera más fricción: si son los cobros, el módulo de facturación. Si es la matrícula, el CRM con formularios. Si es la comunicación, evalúa si la básica es suficiente antes de contratar Pro. El ahorro aparece cuando se cierra el canal paralelo, no cuando se acumulan módulos."
+    - question: "¿Cuánto tiempo tarda el equipo en adaptarse al cambio?"
+      answer: "Entre dos y seis semanas dependiendo de la frecuencia de uso y la formación. Los equipos que tienen un responsable interno designado y una guía sencilla de uso cotidiano se adaptan mucho más rápido que los que arrancan solos. Edena incluye onboarding y soporte 24/7 para acompañar esa transición."
+    - question: "¿El ahorro de tiempo implica reducir personal?"
+      answer: "No necesariamente. En la mayor parte de los centros, el tiempo recuperado se redirige hacia atención de calidad a familias, proyectos de mejora o captación. La eficiencia no es excusa para reducir plantilla: es argumento para hacer un trabajo más útil y menos repetitivo."
+    - question: "¿Cómo convenzo a la dirección de que la inversión compensa?"
+      answer: "Con datos propios: registra dos semanas de tiempos de proceso antes, estima el coste hora de secretaría y calcula el retorno a doce meses. En la mayoría de los casos, la reducción de impagos sola cubre el coste del módulo de facturación. Añade el valor del tiempo recuperado y el argumento es sencillo."
 ---
 
 <strong>Cómo ahorrar 15 horas semanales en administración escolar</strong>

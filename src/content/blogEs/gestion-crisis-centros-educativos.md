@@ -3,20 +3,20 @@ title: "Gestión de crisis en centros educativos: Protocolos y estrategias para 
 date: "2025-08-01"
 description: "Protocolos de crisis y continuidad en centros españoles. Guía práctica para centros educativos en España (2026)."
 tags: ["gestión de crisis", "protocolos", "continuidad educativa", "seguridad escolar"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1585829364536-ce348dd72ebc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - seo-centros-educativos
-  - marketing-educativo-digital-estrategias
-  - liderazgo-educativo-transformacional-digital
-  - gestion-cambio-organizacional-educativo
+    - seo-centros-educativos
+    - marketing-educativo-digital-estrategias
+    - liderazgo-educativo-transformacional-digital
+    - gestion-cambio-organizacional-educativo
 faqs:
-  - question: "¿Protocolo digital en crisis?"
-    answer: "Canal único, plantillas preaprobadas, backup de listados de contacto fuera del centro."
-  - question: "¿Continuidad educativa?"
-    answer: "Acceso remoto a horarios y comunicados si el edificio cierra temporalmente."
-  - question: "¿Comunicar a familias?"
-    answer: "Rapidez, hechos verificados, una voz institucional."
+    - question: "¿Protocolo digital en crisis?"
+      answer: "Canal único, plantillas preaprobadas, backup de listados de contacto fuera del centro."
+    - question: "¿Continuidad educativa?"
+      answer: "Acceso remoto a horarios y comunicados si el edificio cierra temporalmente."
+    - question: "¿Comunicar a familias?"
+      answer: "Rapidez, hechos verificados, una voz institucional."
 ---
 
 <strong>Gestión de crisis en centros educativos: Protocolos y estrategias para la continuidad</strong>

@@ -7,23 +7,22 @@ tags:
     - "màrqueting digital"
     - "atracció famílies"
     - "comunicació institucional"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - seo-centres-educatius
-  - crm-escolar-matricules-2026
-  - matricula-online-centre-pas-2026
+    - seo-centres-educatius
+    - crm-escolar-matricules-2026
+    - matricula-online-centre-pas-2026
 faqs:
-  - question: "Quant invertir en màrqueting digital una escola mitjana?"
-    answer: "Molt es resol amb web ben feta, Google Business i CRM abans que amb anuncis massius. Mesura cost per matrícula tancada."
-  - question: "He de ser a portals de comparació de col·legis?"
-    answer: "Compara cost per matrícula davant SEO local i referits. Exigeix ​​dades de qualitat del lead al portal."
-  - question: "Open Day només presencial?"
-    answer: "Ofereix streaming o visita virtual per no perdre leads que no poden acudir a la data fixa."
-  - question: "Com alinear màrqueting amb secretaria?"
-    answer: "Mateixa informació de quotes i serveis a web, visita i contracte. Una sola font de veritat al ERP evita promeses incomplertes."
+    - question: "Quant invertir en màrqueting digital una escola mitjana?"
+      answer: "Molt es resol amb web ben feta, Google Business i CRM abans que amb anuncis massius. Mesura cost per matrícula tancada."
+    - question: "He de ser a portals de comparació de col·legis?"
+      answer: "Compara cost per matrícula davant SEO local i referits. Exigeix ​​dades de qualitat del lead al portal."
+    - question: "Open Day només presencial?"
+      answer: "Ofereix streaming o visita virtual per no perdre leads que no poden acudir a la data fixa."
+    - question: "Com alinear màrqueting amb secretaria?"
+      answer: "Mateixa informació de quotes i serveis a web, visita i contracte. Una sola font de veritat al ERP evita promeses incomplertes."
 ---
-
 
 <strong>Màrqueting educatiu digital a Espanya</strong>
 

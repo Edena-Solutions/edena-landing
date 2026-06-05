@@ -3,20 +3,20 @@ title: "Metodologías pedagógicas innovadoras: Transformando el proceso de ense
 date: "2025-08-10"
 description: "Metodologías activas alineadas con LOMLOE. Guía práctica para centros educativos en España (2026)."
 tags: ["metodologías pedagógicas", "innovación educativa", "enseñanza activa", "aprendizaje"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1611348586755-53860f7ae57a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - innovacion-pedagogica-tecnologia
-  - evaluacion-assessment-digital-educativo
-  - espacios-educativos-futuro-diseno
-  - bienestar-emocional-estudiantes-digitales
+    - innovacion-pedagogica-tecnologia
+    - evaluacion-assessment-digital-educativo
+    - espacios-educativos-futuro-diseno
+    - bienestar-emocional-estudiantes-digitales
 faqs:
-  - question: "¿Metodología activa sin más carga admin?"
-    answer: "Requiere planificación; digitalizar listados libera tiempo para diseño didáctico."
-  - question: "¿Formación interna?"
-    answer: "Comunidades de aprendizaje entre departamentos, no solo curso externo."
-  - question: "¿Cómo evaluar innovación?"
-    answer: "Indicadores de competencia clave, no solo satisfacción del profesorado."
+    - question: "¿Metodología activa sin más carga admin?"
+      answer: "Requiere planificación; digitalizar listados libera tiempo para diseño didáctico."
+    - question: "¿Formación interna?"
+      answer: "Comunidades de aprendizaje entre departamentos, no solo curso externo."
+    - question: "¿Cómo evaluar innovación?"
+      answer: "Indicadores de competencia clave, no solo satisfacción del profesorado."
 ---
 
 <strong>Metodologías pedagógicas innovadoras: Transformando el proceso de enseñanza-aprendizaje</strong>

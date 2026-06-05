@@ -9,26 +9,25 @@ tags:
     - "hezkuntza eramaten du"
     - "eskola formak"
     - "inskripzioak"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1730382624360-9cf5609c8364?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - matrikula-online-urratsez-2026
-  - familia-digital-onboarding-matrikula-online
-  - ikasleen-atzokitze-digitalizazioa
-  - ikasle-atzokitzea-garai-digitalan
+    - matrikula-online-urratsez-2026
+    - familia-digital-onboarding-matrikula-online
+    - ikasleen-atzokitze-digitalizazioa
+    - ikasle-atzokitzea-garai-digitalan
 faqs:
-  - question: "CRM \"APIekin itsatsita\" plataforman integratuta dagoen berdina al da?"
-    answer: "Batzuetan, kostua, latentzia, bikoiztuak, desinkronizazioa eta ixteko hutsegiteekin, integratuta, arriskua gutxitu ohi da."
-  - question: "Zenbat handitzen da bihurketa CRM-rekin?"
-    answer: "Inbutuaren, sektorearen, eskaintzaren araberakoa da, ez dugu zifra magikorik ezartzen, baina etapak eta funtsak ikusita, normalean esfortzua lerrokatzen du, eta horrek tasa handitzen du, ez du 20 puntu bermatzen, baina isuri tontoak saihesten ditu."
-  - question: "Nola kudeatzen da itxaron-zerrenda CRM-n?"
-    answer: "Sortu itxaron-zerrendako etapa espezifiko bat kanalizazioan posizio-eremu batekin eta familiarentzako berrespen automatikoarekin. Espazio bat libre geratzen denean, sistemak agertokiaren jabeari abisatzen dio hurrengo eskaera aurrera dezan. Saihestu itxaron-zerrenda Excel bereizi batean kudeatzea: hor sortzen dira \"nor izan da denbora luzeagoan\" gatazkak."
-  - question: "Noiz gehitu Pro komunikazio modulua CRM fluxuari?"
-    answer: "Eskaeren bolumena nahikoa altua denean, mezu elektronikoak bakarrik familiei etapa-aldaketaren jakinarazpenak ez ikustea eragin diezaioten, edo berrespen-mezuak irakurtzeko berrespena behar duzunean. Oinarrizko komunikazioak bolumen moderatuetarako funtzionatzen du; Pro-k bultzada eta berrespena gehitzen ditu onarpen prozesuak hala eskatzen duenean."
-  - question: "Zer gertatzen da datu sentikorrak eta GDPR?"
-    answer: "Lege-oinarri-irizpideak, epeak, garbitasuna eta adostasuna, softwareak laguntzen ditu, ez ditu aholkuak ordezkatzen, gutxienekoak eskatzen ditu, Edena, plataformaren ikuspegia sarbide-kontrolarekin, dokumentazioa, erantzukizun partekatua."
+    - question: 'CRM "APIekin itsatsita" plataforman integratuta dagoen berdina al da?'
+      answer: "Batzuetan, kostua, latentzia, bikoiztuak, desinkronizazioa eta ixteko hutsegiteekin, integratuta, arriskua gutxitu ohi da."
+    - question: "Zenbat handitzen da bihurketa CRM-rekin?"
+      answer: "Inbutuaren, sektorearen, eskaintzaren araberakoa da, ez dugu zifra magikorik ezartzen, baina etapak eta funtsak ikusita, normalean esfortzua lerrokatzen du, eta horrek tasa handitzen du, ez du 20 puntu bermatzen, baina isuri tontoak saihesten ditu."
+    - question: "Nola kudeatzen da itxaron-zerrenda CRM-n?"
+      answer: 'Sortu itxaron-zerrendako etapa espezifiko bat kanalizazioan posizio-eremu batekin eta familiarentzako berrespen automatikoarekin. Espazio bat libre geratzen denean, sistemak agertokiaren jabeari abisatzen dio hurrengo eskaera aurrera dezan. Saihestu itxaron-zerrenda Excel bereizi batean kudeatzea: hor sortzen dira "nor izan da denbora luzeagoan" gatazkak.'
+    - question: "Noiz gehitu Pro komunikazio modulua CRM fluxuari?"
+      answer: "Eskaeren bolumena nahikoa altua denean, mezu elektronikoak bakarrik familiei etapa-aldaketaren jakinarazpenak ez ikustea eragin diezaioten, edo berrespen-mezuak irakurtzeko berrespena behar duzunean. Oinarrizko komunikazioak bolumen moderatuetarako funtzionatzen du; Pro-k bultzada eta berrespena gehitzen ditu onarpen prozesuak hala eskatzen duenean."
+    - question: "Zer gertatzen da datu sentikorrak eta GDPR?"
+      answer: "Lege-oinarri-irizpideak, epeak, garbitasuna eta adostasuna, softwareak laguntzen ditu, ez ditu aholkuak ordezkatzen, gutxienekoak eskatzen ditu, Edena, plataformaren ikuspegia sarbide-kontrolarekin, dokumentazioa, erantzukizun partekatua."
 ---
-
 
 <strong>CRM eskola: matrikulazioa nola handitu eta aplikazio gehiago bihurtu</strong>
 

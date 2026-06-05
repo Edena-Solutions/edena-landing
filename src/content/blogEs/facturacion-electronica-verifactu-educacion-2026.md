@@ -10,20 +10,20 @@ tags:
         "automatización",
         "gestión financiera",
     ]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1679922389535-7f4badadc07c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - morosidad-colegios-cobros-automaticos-2026
-  - kpis-director-colegio-mensual-2026
-  - reducir-impagos-facturacion-colegios
-  - pagos-online-educacion
+    - morosidad-colegios-cobros-automaticos-2026
+    - kpis-director-colegio-mensual-2026
+    - reducir-impagos-facturacion-colegios
+    - pagos-online-educacion
 faqs:
-  - question: "¿Qué es Verifactu y por qué es crucial para los centros educativos?"
-    answer: "Verifactu es el sistema oficial de la Agencia Tributaria española para la gestión de facturación electrónica. Este sistema permite la emisión, envío, recepción y almacenamiento de facturas electrónicas de forma segura y conforme a la normativa fiscal española. Para los centros educativos, la integración con Verifactu no es opcional; es un requisito legal que garantiza el cumplimiento con todas las normativas fiscales vigentes. La importancia de Verifactu va más allá del simple cumplimiento normativo. Este sistema proporciona: -"
-  - question: "¿Cuánto morosidad es 'normal' en un colegio privado?"
-    answer: "Varía por perfil socioeconómico y método de cobro, pero muchos centros saludables se mueven entre el 4 % y el 8 % a 45 días. Por encima del 10 % conviene revisar calendario, domiciliación y secuencia de recordatorios antes de ampliar plantilla."
-  - question: "¿Verifactu cambia cómo cobro a las familias?"
-    answer: "Verifactu afecta sobre todo a la emisión y trazabilidad de facturas ante la AEAT, no al método de pago en sí. Sí obliga a que tu software de facturación genere registros conformes; conviene integrarlo con cobros y conciliación."
+    - question: "¿Qué es Verifactu y por qué es crucial para los centros educativos?"
+      answer: "Verifactu es el sistema oficial de la Agencia Tributaria española para la gestión de facturación electrónica. Este sistema permite la emisión, envío, recepción y almacenamiento de facturas electrónicas de forma segura y conforme a la normativa fiscal española. Para los centros educativos, la integración con Verifactu no es opcional; es un requisito legal que garantiza el cumplimiento con todas las normativas fiscales vigentes. La importancia de Verifactu va más allá del simple cumplimiento normativo. Este sistema proporciona: -"
+    - question: "¿Cuánto morosidad es 'normal' en un colegio privado?"
+      answer: "Varía por perfil socioeconómico y método de cobro, pero muchos centros saludables se mueven entre el 4 % y el 8 % a 45 días. Por encima del 10 % conviene revisar calendario, domiciliación y secuencia de recordatorios antes de ampliar plantilla."
+    - question: "¿Verifactu cambia cómo cobro a las familias?"
+      answer: "Verifactu afecta sobre todo a la emisión y trazabilidad de facturas ante la AEAT, no al método de pago en sí. Sí obliga a que tu software de facturación genere registros conformes; conviene integrarlo con cobros y conciliación."
 ---
 
 <strong>Facturación Electrónica y Verifactu en Educación 2026: Cumplimiento Normativo y Eficiencia</strong>

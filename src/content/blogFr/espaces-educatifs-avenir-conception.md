@@ -7,22 +7,21 @@ tags:
     - "conception architecturale"
     - "innovation"
     - "apprentissage flexible"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579388654549-1f4e8c79b5a4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - methodologies-pedagogiques-innovantes
-  - innovation-pedagogique-technologie
-  - evaluation-numerique-educative
-  - bien-etre-emotionnel-eleves-numerique
+    - methodologies-pedagogiques-innovantes
+    - innovation-pedagogique-technologie
+    - evaluation-numerique-educative
+    - bien-etre-emotionnel-eleves-numerique
 faqs:
-  - question: "La flexibilité nécessite-t-elle plus de technologie ?"
-    answer: "Pas nécessairement ; oui, connectivité stable et stockage sécurisé des preuves."
-  - question: "Comment lier l’espace et LOMLOE ?"
-    answer: "Compétences d’apprendre à apprendre et d’autonomie dans des environnements variés."
-  - question: "Investir dans les salles de classe sans numériser l'administration ?"
-    answer: "La classe s'améliore ; La perception globale du centre reste liée au secrétariat."
+    - question: "La flexibilité nécessite-t-elle plus de technologie ?"
+      answer: "Pas nécessairement ; oui, connectivité stable et stockage sécurisé des preuves."
+    - question: "Comment lier l’espace et LOMLOE ?"
+      answer: "Compétences d’apprendre à apprendre et d’autonomie dans des environnements variés."
+    - question: "Investir dans les salles de classe sans numériser l'administration ?"
+      answer: "La classe s'améliore ; La perception globale du centre reste liée au secrétariat."
 ---
-
 
 <strong>Espaces éducatifs du futur : conception et innovation pour un apprentissage moderne</strong>
 

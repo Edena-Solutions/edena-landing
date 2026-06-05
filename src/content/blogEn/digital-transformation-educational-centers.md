@@ -7,17 +7,17 @@ tags:
     - "organizational change"
     - "leadership"
     - "innovation"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalization-checklist-2026
+    - digitalization-checklist-2026
 faqs:
-  - question: "How to measure the success of the change?"
-    answer: "Weekly admin hours, billing error rate or average new family registration time."
-  - question: "What process do I start to automate?"
-    answer: "Recurring charges and assistance tend to be the ones with the greatest immediate return in hours and errors avoided."
-  - question: "How long does a reasonable pilot last?"
-    answer: "Between 8 and 12 weeks, with an actual billing or admission cycle and written success criteria."
+    - question: "How to measure the success of the change?"
+      answer: "Weekly admin hours, billing error rate or average new family registration time."
+    - question: "What process do I start to automate?"
+      answer: "Recurring charges and assistance tend to be the ones with the greatest immediate return in hours and errors avoided."
+    - question: "How long does a reasonable pilot last?"
+      answer: "Between 8 and 12 weeks, with an actual billing or admission cycle and written success criteria."
 ---
 
 <strong>Digital transformation in educational centers: From resistance to success</strong>

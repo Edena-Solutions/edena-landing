@@ -2,20 +2,21 @@
 title: "Liderazgo educativo transformacional en la era digital: Competencias y estrategias"
 date: "2025-09-15"
 description: "Liderazgo de dirección en proyectos digitales escolares. Guía práctica para centros educativos en España (2026)."
-tags: ["liderazgo educativo", "transformación digital", "competencias directivas", "gestión escolar"]
-author: "Equipo Edena"
+tags:
+    ["liderazgo educativo", "transformación digital", "competencias directivas", "gestión escolar"]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1601231808069-e6103868f686?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - gestion-cambio-organizacional-educativo
-  - checklist-digitalizacion-2026
-  - kpis-director-colegio-mensual-2026
+    - gestion-cambio-organizacional-educativo
+    - checklist-digitalizacion-2026
+    - kpis-director-colegio-mensual-2026
 faqs:
-  - question: "¿Cuánto tiempo debe dedicar la dirección al proyecto?"
-    answer: "30-45 minutos semanales en las primeras doce semanas: suficiente para desbloquear, no para microgestionar."
-  - question: "¿Qué hago si un departamento se niega?"
-    answer: "Escucha el obstáculo concreto, ajusta formación o flujo, y fija fecha de corte del método anterior."
-  - question: "¿Necesito un responsable de transformación a tiempo completo?"
-    answer: "En centros medianos basta un referente interno con mandato del director y apoyo del proveedor."
+    - question: "¿Cuánto tiempo debe dedicar la dirección al proyecto?"
+      answer: "30-45 minutos semanales en las primeras doce semanas: suficiente para desbloquear, no para microgestionar."
+    - question: "¿Qué hago si un departamento se niega?"
+      answer: "Escucha el obstáculo concreto, ajusta formación o flujo, y fija fecha de corte del método anterior."
+    - question: "¿Necesito un responsable de transformación a tiempo completo?"
+      answer: "En centros medianos basta un referente interno con mandato del director y apoyo del proveedor."
 ---
 
 <strong>Liderazgo en proyectos digitales escolares</strong>

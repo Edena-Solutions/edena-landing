@@ -7,22 +7,21 @@ tags:
     - "expérience numérique"
     - "accès instantané"
     - "technologie"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1584206863352-ce8b3a1c10e3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - app-familles-ecole-avantages-2026
-  - communication-ecole-familles-plateforme-numerique
-  - communication-numerique-etablissements-scolaires
-  - communication-familles-ere-numerique
+    - app-familles-ecole-avantages-2026
+    - communication-ecole-familles-plateforme-numerique
+    - communication-numerique-etablissements-scolaires
+    - communication-familles-ere-numerique
 faqs:
-  - question: "Est-il légal d'utiliser WhatsApp en famille ?"
-    answer: "Avec consentement et discrétion, pour la coordination ; Cela ne remplace pas un canal institutionnel traçable."
-  - question: "Application obligatoire pour toutes les familles ?"
-    answer: "Recommandé avec une alternative pour ceux qui ne le peuvent pas ; Une communication égale est obligatoire."
-  - question: "Des notifications push sans encombrement ?"
-    answer: "Pousser les urgences ; informatif en bac digestif ou email récapitulatif."
+    - question: "Est-il légal d'utiliser WhatsApp en famille ?"
+      answer: "Avec consentement et discrétion, pour la coordination ; Cela ne remplace pas un canal institutionnel traçable."
+    - question: "Application obligatoire pour toutes les familles ?"
+      answer: "Recommandé avec une alternative pour ceux qui ne le peuvent pas ; Une communication égale est obligatoire."
+    - question: "Des notifications push sans encombrement ?"
+      answer: "Pousser les urgences ; informatif en bac digestif ou email récapitulatif."
 ---
-
 
 <strong>Applications mobiles dans l'éducation : l'expérience numérique dans votre poche</strong>
 

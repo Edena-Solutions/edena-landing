@@ -7,24 +7,23 @@ tags:
     - "eskolako gurasoentzako aplikazioa"
     - "plataforma digitala"
     - "hezkuntza zentroak"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1521424159246-e4a66f267e4b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - guraso-app-ikastetxean-2026
-  - zentro-hezkuntzako-komunikazio-digitala
-  - familia-komunikazioa-garai-digitalan
-  - hezkuntzarako-mugikor-aplikazioa
+    - guraso-app-ikastetxean-2026
+    - zentro-hezkuntzako-komunikazio-digitala
+    - familia-komunikazioa-garai-digitalan
+    - hezkuntzarako-mugikor-aplikazioa
 faqs:
-  - question: "Eskolako gurasoentzako aplikazio batek posta elektronikoa ordezkatzen al du?"
-    answer: "Ez derrigorrez. Posta elektronikoa erabilgarria da oraindik eduki luzerako. Baina eskolako gurasoentzako aplikazioa da onena premiazko oharrak, asistentzia jakinarazpenak eta ordainketa abisuetarako. Egokia da biak izatea eta mezu motaren arabera erabiltzea."
-  - question: "Familiek hartzen al dute aplikazioa eskolako gurasoentzat?"
-    answer: "Bai, zentroak ondo aurkezten badu eta balioa eskaintzen badu (laguntza kontsultatu, ordaindu, jakinarazpenak jaso). Lehen kontaktua erabilgarria dela da gakoa; Zirkular luzeak bakarrik jasotzen badituzte, adopzioa txikiagoa izango da."
-  - question: "Nola bete GDPR eskola-familia komunikazioan?"
-    answer: "Erabili baimenak kudeatzeko aukera ematen duten tresnak, baimenik gabeko helburuetarako datuak ez partekatzea eta eskatzen duenari harpidetza kentzea. Hornitzaileak datu-prozesadore gisa jardun behar du datuak zentroaren izenean tratatzen baditu."
-  - question: "Legezkoa al da WhatsApp familiekin erabiltzea?"
-    answer: "Adostasunarekin eta diskrezioarekin, koordinaziorako; Ez du ordezkatzen traza daitekeen kanal instituzionala."
+    - question: "Eskolako gurasoentzako aplikazio batek posta elektronikoa ordezkatzen al du?"
+      answer: "Ez derrigorrez. Posta elektronikoa erabilgarria da oraindik eduki luzerako. Baina eskolako gurasoentzako aplikazioa da onena premiazko oharrak, asistentzia jakinarazpenak eta ordainketa abisuetarako. Egokia da biak izatea eta mezu motaren arabera erabiltzea."
+    - question: "Familiek hartzen al dute aplikazioa eskolako gurasoentzat?"
+      answer: "Bai, zentroak ondo aurkezten badu eta balioa eskaintzen badu (laguntza kontsultatu, ordaindu, jakinarazpenak jaso). Lehen kontaktua erabilgarria dela da gakoa; Zirkular luzeak bakarrik jasotzen badituzte, adopzioa txikiagoa izango da."
+    - question: "Nola bete GDPR eskola-familia komunikazioan?"
+      answer: "Erabili baimenak kudeatzeko aukera ematen duten tresnak, baimenik gabeko helburuetarako datuak ez partekatzea eta eskatzen duenari harpidetza kentzea. Hornitzaileak datu-prozesadore gisa jardun behar du datuak zentroaren izenean tratatzen baditu."
+    - question: "Legezkoa al da WhatsApp familiekin erabiltzea?"
+      answer: "Adostasunarekin eta diskrezioarekin, koordinaziorako; Ez du ordezkatzen traza daitekeen kanal instituzionala."
 ---
-
 
 <strong>Nola hobetu familiekin komunikazioa plataforma digital bakar batetik</strong>
 

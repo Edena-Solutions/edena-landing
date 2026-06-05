@@ -7,19 +7,18 @@ tags:
     - "familles"
     - "communauté"
     - "miser"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-numerisation-2026
+    - checklist-numerisation-2026
 faqs:
-  - question: "Combien de messages de masse par semaine ?"
-    answer: "En règle pratique, pas plus de deux communications non urgentes par semaine pour ne pas accabler les familles."
-  - question: "Comment segmenter les audiences ?"
-    answer: "Par étape, parcours et services (salle à manger, transport). Évitez de tout envoyer dans tout le centre."
-  - question: "L'application remplace-t-elle le WhatsApp du tuteur ?"
-    answer: "Ce n’est pas obligatoire. L'application canalise l'institutionnel ; WhatsApp peut être laissé à une coordination spécifique avec des critères écrits."
+    - question: "Combien de messages de masse par semaine ?"
+      answer: "En règle pratique, pas plus de deux communications non urgentes par semaine pour ne pas accabler les familles."
+    - question: "Comment segmenter les audiences ?"
+      answer: "Par étape, parcours et services (salle à manger, transport). Évitez de tout envoyer dans tout le centre."
+    - question: "L'application remplace-t-elle le WhatsApp du tuteur ?"
+      answer: "Ce n’est pas obligatoire. L'application canalise l'institutionnel ; WhatsApp peut être laissé à une coordination spécifique avec des critères écrits."
 ---
-
 
 <strong>Collaboration famille-école : Bâtir une communauté unie</strong>
 

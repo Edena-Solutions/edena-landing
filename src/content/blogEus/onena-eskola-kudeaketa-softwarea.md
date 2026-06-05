@@ -7,26 +7,25 @@ tags:
     - "hezkuntza zentroak"
     - "hautaketa"
     - "digitalizazioa"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop"
 relatedPosts:
-  - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
-  - software-aukera-egiaztapen-2026
-  - eskola-kudeaketa-softwarea-aukeratzea
-  - erp-eskola-digitalizazio-gida
+    - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
+    - software-aukera-egiaztapen-2026
+    - eskola-kudeaketa-softwarea-aukeratzea
+    - erp-eskola-digitalizazio-gida
 faqs:
-  - question: "Zenbat balio du ikastetxeak kudeatzeko softwarea ezartzeak?"
-    answer: "Zentroaren tamainaren eta esparruaren araberakoa da. Lizentziaz gain, prestakuntza, datuen migrazioa eta pertsonalizazio posiblea daude. Konparatu kostu osoa 3 urtean."
-  - question: "Migra al ditzaket datuak egungo sistematik?"
-    answer: "Hornitzaile gehienek Excel edo aurreko sistemetatik inportatzea eskaintzen dute. Fasekako migrazio-plana eta datu kritikoak baliozkotzea eskatzen du."
-  - question: "Eskola kudeatzeko softwareak familientzako aplikaziorik barne hartzen du?"
-    answer: "Guztiak ez. Familiekiko komunikazioa lehentasunezkoa bada, egiaztatu aplikazioa edo ataria eta jakinarazpenak (ordainketen abisuak, bajak, zirkularrak)."
-  - question: "Zer gertatzen da fakturazio elektronikoa eta Verifactu?"
-    answer: "Espainian, araudia aurrera doa. Ikastetxeetarako ikastetxeen kudeaketa-software onena prestatuta edo egokitzapen-prozesuan egon behar da; Mesedez, egiaztatu sinatu aurretik."
-  - question: "Egokia al da software modularra edo bakarrean?"
-    answer: "Dagoeneko mantendu nahi dituzun tresnak (adibidez, plataforma akademikoa) badituzuen araberakoa da. Nukleo bateratu batek (fakturazioa, familiak, administrazioa) eguneroko eragiketak errazten ditu askotan."
+    - question: "Zenbat balio du ikastetxeak kudeatzeko softwarea ezartzeak?"
+      answer: "Zentroaren tamainaren eta esparruaren araberakoa da. Lizentziaz gain, prestakuntza, datuen migrazioa eta pertsonalizazio posiblea daude. Konparatu kostu osoa 3 urtean."
+    - question: "Migra al ditzaket datuak egungo sistematik?"
+      answer: "Hornitzaile gehienek Excel edo aurreko sistemetatik inportatzea eskaintzen dute. Fasekako migrazio-plana eta datu kritikoak baliozkotzea eskatzen du."
+    - question: "Eskola kudeatzeko softwareak familientzako aplikaziorik barne hartzen du?"
+      answer: "Guztiak ez. Familiekiko komunikazioa lehentasunezkoa bada, egiaztatu aplikazioa edo ataria eta jakinarazpenak (ordainketen abisuak, bajak, zirkularrak)."
+    - question: "Zer gertatzen da fakturazio elektronikoa eta Verifactu?"
+      answer: "Espainian, araudia aurrera doa. Ikastetxeetarako ikastetxeen kudeaketa-software onena prestatuta edo egokitzapen-prozesuan egon behar da; Mesedez, egiaztatu sinatu aurretik."
+    - question: "Egokia al da software modularra edo bakarrean?"
+      answer: "Dagoeneko mantendu nahi dituzun tresnak (adibidez, plataforma akademikoa) badituzuen araberakoa da. Nukleo bateratu batek (fakturazioa, familiak, administrazioa) eguneroko eragiketak errazten ditu askotan."
 ---
-
 
 <strong>Nola aukeratu eskola kudeatzeko software onena zure hezkuntza zentrorako</strong>
 

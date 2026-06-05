@@ -2,22 +2,21 @@
 title: "Com centralitzar tota la informació de l'alumne en un únic sistema"
 date: "2026-03-09"
 description: "Vista docent/tutor de lexpedient acadèmic unificat. Guia pràctica per a centres educatius a Espanya (2026)."
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1769074257962-c297d5908fd5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2VudHJhbGl6ZWR8ZW58MHx8MHx8fDA%3D"
 relatedPosts:
-  - gestio-documental-col-legis-2026
-  - gestio-documental-digital-centres
+    - gestio-documental-col-legis-2026
+    - gestio-documental-digital-centres
 faqs:
-  - question: "L'expedient acadèmic digital compleix el GDPR?"
-    answer: "Sí, si el sistema té mesures de seguretat (accés restringit, xifrat, auditoria) i el proveïdor actua com a encarregat del tractament. La gestió d'estudiants a l'escola amb dades sensibles exigeix ​​compliment normatiu."
-  - question: "Qui pot accedir a lexpedient acadèmic digital?"
-    answer: "Depèn dels permisos configurats. Secretaria, adreça i professors de l'alumne solen tenir accés. La gestió d'estudiants a l'escola ha de permetre perfils per rol per complir el principi de mínim accés."
-  - question: "Les famílies poden veure lexpedient acadèmic digital?"
-    answer: "Podeu veure la informació que els correspon (assistència, comunicacions, documentació que hagin signat). Lexpedient acadèmic digital complet sol ser intern. La gestió d'estudiants a l'escola amb portal per a famílies permet transparència controlada."
-  - question: "¿Digitalitzar tot l'arxiu històric?"
-    answer: "Prioritzeu curs actual i documents actius; l'històric per fases."
+    - question: "L'expedient acadèmic digital compleix el GDPR?"
+      answer: "Sí, si el sistema té mesures de seguretat (accés restringit, xifrat, auditoria) i el proveïdor actua com a encarregat del tractament. La gestió d'estudiants a l'escola amb dades sensibles exigeix ​​compliment normatiu."
+    - question: "Qui pot accedir a lexpedient acadèmic digital?"
+      answer: "Depèn dels permisos configurats. Secretaria, adreça i professors de l'alumne solen tenir accés. La gestió d'estudiants a l'escola ha de permetre perfils per rol per complir el principi de mínim accés."
+    - question: "Les famílies poden veure lexpedient acadèmic digital?"
+      answer: "Podeu veure la informació que els correspon (assistència, comunicacions, documentació que hagin signat). Lexpedient acadèmic digital complet sol ser intern. La gestió d'estudiants a l'escola amb portal per a famílies permet transparència controlada."
+    - question: "¿Digitalitzar tot l'arxiu històric?"
+      answer: "Prioritzeu curs actual i documents actius; l'històric per fases."
 ---
-
 
 <strong>Com centralitzar tota la informació de l'alumne en un únic sistema</strong>
 

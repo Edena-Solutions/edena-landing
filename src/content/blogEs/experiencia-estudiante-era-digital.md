@@ -3,17 +3,17 @@ title: "Experiencia del estudiante en la era digital: Más allá del aprendizaje
 date: "2024-09-01"
 description: "Descubre cómo crear experiencias estudiantiles excepcionales que combinen tecnología, personalización y conexión humana."
 tags: ["experiencia estudiante", "personalización", "engagement", "tecnología"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576633587217-5c9b4930956b?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-digitalizacion-2026
+    - checklist-digitalizacion-2026
 faqs:
-  - question: "¿Por dónde empiezo la digitalización?"
-    answer: "Datos maestros limpios, cobros trazables y canal familiar oficial antes de ampliar herramientas de aula."
-  - question: "¿El software en la nube es seguro para menores?"
-    answer: "Puede serlo con contrato de encargo, cifrado y subprocesadores documentados. El centro sigue siendo responsable."
-  - question: "¿Cuánto tiempo dedica la dirección al proyecto?"
-    answer: "30-45 minutos semanales en las primeras doce semanas suelen bastar para desbloquear sin microgestionar."
+    - question: "¿Por dónde empiezo la digitalización?"
+      answer: "Datos maestros limpios, cobros trazables y canal familiar oficial antes de ampliar herramientas de aula."
+    - question: "¿El software en la nube es seguro para menores?"
+      answer: "Puede serlo con contrato de encargo, cifrado y subprocesadores documentados. El centro sigue siendo responsable."
+    - question: "¿Cuánto tiempo dedica la dirección al proyecto?"
+      answer: "30-45 minutos semanales en las primeras doce semanas suelen bastar para desbloquear sin microgestionar."
 ---
 
 <strong>Experiencia del estudiante en la era digital: Más allá del aprendizaje tradicional</strong>

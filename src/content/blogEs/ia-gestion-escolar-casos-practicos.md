@@ -3,24 +3,24 @@ title: "Inteligencia artificial en la administración escolar"
 date: "2026-02-19"
 description: "Casos prácticos de IA en administración escolar. Guía práctica para centros educativos en España (2026)."
 tags: ["IA gestión escolar", "inteligencia artificial", "automatización", "administración"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1680783954745-3249be59e527?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - ahorrar-15-horas-administracion-escolar-2026
-  - automatizacion-absentismo-escolar
-  - procesos-administrativos-automatizar-colegio
-  - automatizacion-tareas-administrativas
+    - ahorrar-15-horas-administracion-escolar-2026
+    - automatizacion-absentismo-escolar
+    - procesos-administrativos-automatizar-colegio
+    - automatizacion-tareas-administrativas
 faqs:
-  - question: "¿La IA en la gestión escolar sustituye puestos de trabajo?"
-    answer: "En los casos típicos (priorización de cobro, alertas de retención, respuestas automáticas), la IA asiste y libera tiempo para tareas de mayor valor. El criterio y la relación con las familias siguen en manos del equipo."
-  - question: "¿Necesitamos muchos datos para usar IA?"
-    answer: "Depende del caso. Para reglas de alerta (umbrales de faltas, impagos) basta con datos operativos. Para modelos predictivos (riesgo de impago o de baja) suele hacer falta historial de al menos uno o dos años."
-  - question: "¿Qué pasa con la protección de datos y la IA?"
-    answer: "Los datos deben tratarse con base legal y medidas de seguridad. Si el proveedor procesa datos para entrenar modelos, el contrato debe regularlo y asegurar que no se usan para fines no autorizados. La transparencia con las familias sobre el uso de datos es importante."
-  - question: "¿Podemos empezar sin un departamento técnico?"
-    answer: "Sí. Muchas soluciones de IA en gestión escolar vienen integradas en software de gestión (alertas, priorización, plantillas). El centro no tiene que construir modelos; sí debe definir objetivos y supervisar resultados."
-  - question: "¿Cómo elegir un proveedor de IA para gestión escolar?"
-    answer: "Valora que la solución esté integrada con tu gestión (matrícula, facturación, comunicación), que documente qué hace con los datos y que permita supervisión humana. Pide referencias de centros similares."
+    - question: "¿La IA en la gestión escolar sustituye puestos de trabajo?"
+      answer: "En los casos típicos (priorización de cobro, alertas de retención, respuestas automáticas), la IA asiste y libera tiempo para tareas de mayor valor. El criterio y la relación con las familias siguen en manos del equipo."
+    - question: "¿Necesitamos muchos datos para usar IA?"
+      answer: "Depende del caso. Para reglas de alerta (umbrales de faltas, impagos) basta con datos operativos. Para modelos predictivos (riesgo de impago o de baja) suele hacer falta historial de al menos uno o dos años."
+    - question: "¿Qué pasa con la protección de datos y la IA?"
+      answer: "Los datos deben tratarse con base legal y medidas de seguridad. Si el proveedor procesa datos para entrenar modelos, el contrato debe regularlo y asegurar que no se usan para fines no autorizados. La transparencia con las familias sobre el uso de datos es importante."
+    - question: "¿Podemos empezar sin un departamento técnico?"
+      answer: "Sí. Muchas soluciones de IA en gestión escolar vienen integradas en software de gestión (alertas, priorización, plantillas). El centro no tiene que construir modelos; sí debe definir objetivos y supervisar resultados."
+    - question: "¿Cómo elegir un proveedor de IA para gestión escolar?"
+      answer: "Valora que la solución esté integrada con tu gestión (matrícula, facturación, comunicación), que documente qué hace con los datos y que permita supervisión humana. Pide referencias de centros similares."
 ---
 
 <strong>Inteligencia artificial en la administración escolar: casos prácticos reales</strong>

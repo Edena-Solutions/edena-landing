@@ -9,24 +9,24 @@ tags:
     - "family self-management"
     - "push notifications"
     - "Eden"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579621970343-21c491b3f363?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - school-family-communication-platform
-  - digital-communication-schools
-  - institutional-communication-families
-  - mobile-app-education
+    - school-family-communication-platform
+    - digital-communication-schools
+    - institutional-communication-families
+    - mobile-app-education
 faqs:
-  - question: "Does the app replace the paper agenda or face-to-face meetings?"
-    answer: "No. The app organizes, notifies and records; It does not replace the tutoring interview, the beginning of the course meeting or the support when a family needs personalized attention. Free up time for those interactions by reducing the burden of repetitive messages."
-  - question: "What happens to families that do not have a smartphone or have low digital competence?"
-    answer: "The web portal is accessed from any browser without downloading anything. For families with digital barriers, define a backup protocol (call, note, secretary) and don't assume that \"everyone has an app.\" Basic email communication is still valid as a support channel."
-  - question: "Are push notifications only for messages or also for payment reminders?"
-    answer: "With Pro communication, notifications can be configured for payment notices, documentation reminders, circulars and chat messages, depending on the criteria defined by the center. The billing module provides the collection logic; Pro connects the notice to the mobile channel with confirmation."
-  - question: "How is the privacy of messages between families and the team managed?"
-    answer: "Communication Chat Pro is a closed center channel, not a social network. Privacy, permissions and access to conversation histories should be defined with your DPO under the GDPR: who can see what, for how long and under what legal basis."
-  - question: "Can absences and authorizations be managed from the app?"
-    answer: "Yes. The base platform includes family self-management for these common flows: notification of absence, consultation of the student's file, access to documents and, if applicable, signing of authorizations according to the flow configured with the device."
+    - question: "Does the app replace the paper agenda or face-to-face meetings?"
+      answer: "No. The app organizes, notifies and records; It does not replace the tutoring interview, the beginning of the course meeting or the support when a family needs personalized attention. Free up time for those interactions by reducing the burden of repetitive messages."
+    - question: "What happens to families that do not have a smartphone or have low digital competence?"
+      answer: 'The web portal is accessed from any browser without downloading anything. For families with digital barriers, define a backup protocol (call, note, secretary) and don''t assume that "everyone has an app." Basic email communication is still valid as a support channel.'
+    - question: "Are push notifications only for messages or also for payment reminders?"
+      answer: "With Pro communication, notifications can be configured for payment notices, documentation reminders, circulars and chat messages, depending on the criteria defined by the center. The billing module provides the collection logic; Pro connects the notice to the mobile channel with confirmation."
+    - question: "How is the privacy of messages between families and the team managed?"
+      answer: "Communication Chat Pro is a closed center channel, not a social network. Privacy, permissions and access to conversation histories should be defined with your DPO under the GDPR: who can see what, for how long and under what legal basis."
+    - question: "Can absences and authorizations be managed from the app?"
+      answer: "Yes. The base platform includes family self-management for these common flows: notification of absence, consultation of the student's file, access to documents and, if applicable, signing of authorizations according to the flow configured with the device."
 ---
 
 <strong>App for families in schools: real advantages for management and parents</strong>

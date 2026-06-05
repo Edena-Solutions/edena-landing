@@ -7,19 +7,18 @@ tags:
     - "personalització"
     - "engagement"
     - "tecnologia"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576633587217-5c9b4930956b?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - llista-verificacio-digitalitzacio-2026
+    - llista-verificacio-digitalitzacio-2026
 faqs:
-  - question: "Per on començo la digitalització?"
-    answer: "Dades mestres netes, cobraments traçables i canal familiar oficial abans d ampliar eines d aula."
-  - question: "El programari al núvol és segur per a menors?"
-    answer: "Pot ser-ho amb contracte d'encàrrec, xifratge i subprocessadors documentats. El centre continua sent responsable."
-  - question: "Quant de temps dedica la direcció al projecte?"
-    answer: "30-45 minuts setmanals en les primeres dotze setmanes solen ser suficients per desbloquejar sense microgestionar."
+    - question: "Per on començo la digitalització?"
+      answer: "Dades mestres netes, cobraments traçables i canal familiar oficial abans d ampliar eines d aula."
+    - question: "El programari al núvol és segur per a menors?"
+      answer: "Pot ser-ho amb contracte d'encàrrec, xifratge i subprocessadors documentats. El centre continua sent responsable."
+    - question: "Quant de temps dedica la direcció al projecte?"
+      answer: "30-45 minuts setmanals en les primeres dotze setmanes solen ser suficients per desbloquejar sense microgestionar."
 ---
-
 
 <strong>Experiència de l'estudiant a l'era digital: Més enllà de l'aprenentatge tradicional</strong>
 

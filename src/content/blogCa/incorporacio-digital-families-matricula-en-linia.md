@@ -7,24 +7,23 @@ tags:
     - "inscripció digital alumnes"
     - "onboarding famílies"
     - "digitalització"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1680391380106-de9702ca6246?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
 relatedPosts:
-  - matricula-online-centre-pas-2026
-  - crm-escolar-matricules-2026
-  - digitalitzacio-retencio-alumnes
-  - retencio-estudiants-era-digital
+    - matricula-online-centre-pas-2026
+    - crm-escolar-matricules-2026
+    - digitalitzacio-retencio-alumnes
+    - retencio-estudiants-era-digital
 faqs:
-  - question: "La matrícula en línia a l'escola té validesa legal?"
-    answer: "Sí. La signatura electrònica i els documents digitals tenen la mateixa validesa que els presencials quan es compleixen els requisits normatius. La inscripció digital dels alumnes és vàlida si el procés està ben dissenyat."
-  - question: "Les famílies adopten la inscripció digital dels alumnes?"
-    answer: "Sí, quan el procés és clar i el centre ho comunica bé. El onboarding digital de famílies que ofereix valor (menys desplaçaments, menys paperassa) té bona adopció. La matrícula en línia a l'escola ha de ser fàcil de trobar i completar."
-  - question: "Què passa amb les famílies que prefereixen paper?"
-    answer: "Pots oferir totes dues opcions durant una transició. La matrícula en línia a l'escola pot conviure amb processos presencials. L'objectiu del onboarding digital de famílies és que qui vulgui digital ho pugui fer sense fricció."
-  - question: "Quan cobrar la reserva?"
-    answer: "Després de visita o proposta acceptada, al mateix flux digital, abans de l'alta definitiva."
+    - question: "La matrícula en línia a l'escola té validesa legal?"
+      answer: "Sí. La signatura electrònica i els documents digitals tenen la mateixa validesa que els presencials quan es compleixen els requisits normatius. La inscripció digital dels alumnes és vàlida si el procés està ben dissenyat."
+    - question: "Les famílies adopten la inscripció digital dels alumnes?"
+      answer: "Sí, quan el procés és clar i el centre ho comunica bé. El onboarding digital de famílies que ofereix valor (menys desplaçaments, menys paperassa) té bona adopció. La matrícula en línia a l'escola ha de ser fàcil de trobar i completar."
+    - question: "Què passa amb les famílies que prefereixen paper?"
+      answer: "Pots oferir totes dues opcions durant una transició. La matrícula en línia a l'escola pot conviure amb processos presencials. L'objectiu del onboarding digital de famílies és que qui vulgui digital ho pugui fer sense fricció."
+    - question: "Quan cobrar la reserva?"
+      answer: "Després de visita o proposta acceptada, al mateix flux digital, abans de l'alta definitiva."
 ---
-
 
 <strong>Onboarding digital de famílies: com matricular alumnes sense paperassa</strong>
 

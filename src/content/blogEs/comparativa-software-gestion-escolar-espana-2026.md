@@ -3,32 +3,32 @@ title: "Mejor software de gestión escolar en España: comparativa 2026"
 date: "2026-03-16"
 description: "Comparar mercado y criterios de compra de ERP escolar en España. Guía práctica para centros educativos en España (2026)."
 tags:
- [
- "software gestión escolar",
- "comparativa ERP educativo",
- "digitalización colegios",
- "facturación escolar",
- "plataforma escolar",
- "automatización administración educativa",
- ]
-author: "Equipo Edena"
+    [
+        "software gestión escolar",
+        "comparativa ERP educativo",
+        "digitalización colegios",
+        "facturación escolar",
+        "plataforma escolar",
+        "automatización administración educativa",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - elegir-software-escolar-checklist-directores-2026
-  - mejor-software-gestion-escolar
-  - elegir-software-gestion-escolar
-  - erp-escolar-guia-digitalizacion
+    - elegir-software-escolar-checklist-directores-2026
+    - mejor-software-gestion-escolar
+    - elegir-software-gestion-escolar
+    - erp-escolar-guia-digitalizacion
 faqs:
-  - question: "¿Existe un “mejor” software de gestión escolar universal en España?"
-    answer: "No. El adecuado es el que encaja en tus procesos, dimensión, régimen y prioridades de cobro y admisión. La comparativa útil pesa cada eje, no nombres de moda de la industria."
-  - question: "¿Debo exigir Verifactu en el contrato aunque la obligación aún evolucione?"
-    answer: "Exige claridad: cómo trata la plataforma la facturación electrónica, emisión, recibos y rastreo, y qué acompañamiento ofrece. La ambigüedad cuesta a secretaría y a la dirección, no solo a sistemas."
-  - question: "¿Puede sustituir un CRM genérico al CRM escolar del proveedor educativo?"
-    answer: "A veces, a costa de conectores, duplicar datos o perder contexto. Si matrículas, cobro y familias viven en el propio módulo, la consistencia y la trazabilidad suelen ser mayores, con menos mantenimiento."
-  - question: "¿Qué ventana mínima de piloto justifica probarse?"
-    answer: "Al menos ocho a doce semanas, con carga de datos reales, un ciclo de recibos, una campaña de admisión, y criterio de corte acordado (por ejemplo, reducir tareas o impagos) para decidir, no un “a ver qué pasa”."
-  - question: "¿Qué riesgo hay en elegir el más barato en licencia base?"
-    answer: "Que pagues luego con horas, integraciones, errores, frustración y posible re-migración. Mira TCO, no el primer euro."
+    - question: "¿Existe un “mejor” software de gestión escolar universal en España?"
+      answer: "No. El adecuado es el que encaja en tus procesos, dimensión, régimen y prioridades de cobro y admisión. La comparativa útil pesa cada eje, no nombres de moda de la industria."
+    - question: "¿Debo exigir Verifactu en el contrato aunque la obligación aún evolucione?"
+      answer: "Exige claridad: cómo trata la plataforma la facturación electrónica, emisión, recibos y rastreo, y qué acompañamiento ofrece. La ambigüedad cuesta a secretaría y a la dirección, no solo a sistemas."
+    - question: "¿Puede sustituir un CRM genérico al CRM escolar del proveedor educativo?"
+      answer: "A veces, a costa de conectores, duplicar datos o perder contexto. Si matrículas, cobro y familias viven en el propio módulo, la consistencia y la trazabilidad suelen ser mayores, con menos mantenimiento."
+    - question: "¿Qué ventana mínima de piloto justifica probarse?"
+      answer: "Al menos ocho a doce semanas, con carga de datos reales, un ciclo de recibos, una campaña de admisión, y criterio de corte acordado (por ejemplo, reducir tareas o impagos) para decidir, no un “a ver qué pasa”."
+    - question: "¿Qué riesgo hay en elegir el más barato en licencia base?"
+      answer: "Que pagues luego con horas, integraciones, errores, frustración y posible re-migración. Mira TCO, no el primer euro."
 ---
 
 <strong>Mejor software de gestión escolar en España: comparativa 2026</strong>

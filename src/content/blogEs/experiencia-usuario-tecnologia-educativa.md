@@ -3,17 +3,17 @@ title: "La experiencia de usuario: clave en la adopción de tecnología educativ
 date: "2025-01-20"
 description: "Descubre por qué la experiencia de usuario es fundamental para el éxito de la tecnología educativa y cómo diseñar soluciones que los usuarios realmente quieran usar."
 tags: ["UX", "experiencia", "tecnología", "educación"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-digitalizacion-2026
+    - checklist-digitalizacion-2026
 faqs:
-  - question: "¿Por dónde empiezo la digitalización?"
-    answer: "Datos maestros limpios, cobros trazables y canal familiar oficial antes de ampliar herramientas de aula."
-  - question: "¿El software en la nube es seguro para menores?"
-    answer: "Puede serlo con contrato de encargo, cifrado y subprocesadores documentados. El centro sigue siendo responsable."
-  - question: "¿Cuánto tiempo dedica la dirección al proyecto?"
-    answer: "30-45 minutos semanales en las primeras doce semanas suelen bastar para desbloquear sin microgestionar."
+    - question: "¿Por dónde empiezo la digitalización?"
+      answer: "Datos maestros limpios, cobros trazables y canal familiar oficial antes de ampliar herramientas de aula."
+    - question: "¿El software en la nube es seguro para menores?"
+      answer: "Puede serlo con contrato de encargo, cifrado y subprocesadores documentados. El centro sigue siendo responsable."
+    - question: "¿Cuánto tiempo dedica la dirección al proyecto?"
+      answer: "30-45 minutos semanales en las primeras doce semanas suelen bastar para desbloquear sin microgestionar."
 ---
 
 <strong>La experiencia de usuario: clave en la adopción de tecnología educativa</strong>

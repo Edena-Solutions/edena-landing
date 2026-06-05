@@ -7,17 +7,17 @@ tags:
     - "estrategias"
     - "familias"
     - "relaciones"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalizazio-egiaztapen-zerrenda-2026
+    - digitalizazio-egiaztapen-zerrenda-2026
 faqs:
-  - question: "Itxi behar al ditut tutorearen WhatsApp taldeak?"
-    answer: "Ez derrigorrez. Aplikazio instituzionalean zer gertatzen den zehazten du (zirkularrak, ordainketak, baimenak) eta WhatsApp erreserbatzen du larrialdi zehatzetarako irizpide idatziekin."
-  - question: "Nola lerrokatu tonua zuzendaritzaren eta tutoretzaren artean?"
-    answer: "Onartutako txantiloiak, mezarako kanal bakarra eta irakasleentzako prestakuntza laburra talde informalen bidez bidali behar ez dutenari buruz."
-  - question: "Zer gertatzen da telefonorik gabeko familiekin?"
-    answer: "Posta elektronikoa eta SMSa eskaintzen ditu alternatiba gisa; Inoiz ez eskatu aplikazio bakarra bide paralelo dokumentatu gabe."
+    - question: "Itxi behar al ditut tutorearen WhatsApp taldeak?"
+      answer: "Ez derrigorrez. Aplikazio instituzionalean zer gertatzen den zehazten du (zirkularrak, ordainketak, baimenak) eta WhatsApp erreserbatzen du larrialdi zehatzetarako irizpide idatziekin."
+    - question: "Nola lerrokatu tonua zuzendaritzaren eta tutoretzaren artean?"
+      answer: "Onartutako txantiloiak, mezarako kanal bakarra eta irakasleentzako prestakuntza laburra talde informalen bidez bidali behar ez dutenari buruz."
+    - question: "Zer gertatzen da telefonorik gabeko familiekin?"
+      answer: "Posta elektronikoa eta SMSa eskaintzen ditu alternatiba gisa; Inoiz ez eskatu aplikazio bakarra bide paralelo dokumentatu gabe."
 ---
 
 <strong>Komunikazio instituzionala familiekin: Aro digitalerako estrategiak</strong>

@@ -7,24 +7,24 @@ tags:
     - "educational centers"
     - "selection"
     - "digitization"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop"
 relatedPosts:
-  - school-management-software-comparison-spain-2026
-  - school-software-purchase-checklist-2026
-  - choosing-school-management-software
-  - erp-school-digitalization-guide
+    - school-management-software-comparison-spain-2026
+    - school-software-purchase-checklist-2026
+    - choosing-school-management-software
+    - erp-school-digitalization-guide
 faqs:
-  - question: "How much does it cost to implement school management software?"
-    answer: "It depends on the size of the center and the scope. In addition to the license, there is training, data migration and possible customization. Compare total cost over 3 years."
-  - question: "Can I migrate data from the current system?"
-    answer: "Most providers offer importing from Excel or previous systems. Requires a phased migration plan and validation of critical data."
-  - question: "Does the school management software include an app for families?"
-    answer: "Not all. If communication with families is a priority, check the app or portal and notifications (payment reminders, absences, circulars)."
-  - question: "What about electronic billing and Verifactu?"
-    answer: "In Spain, the regulations are advancing. The best school management software for centers must be prepared or in the process of adaptation; Please check it before signing."
-  - question: "Is modular or all-in-one software appropriate?"
-    answer: "It depends on whether you already have tools that you want to maintain (e.g. academic platform). A unified core (billing, families, administration) often simplifies day-to-day operations."
+    - question: "How much does it cost to implement school management software?"
+      answer: "It depends on the size of the center and the scope. In addition to the license, there is training, data migration and possible customization. Compare total cost over 3 years."
+    - question: "Can I migrate data from the current system?"
+      answer: "Most providers offer importing from Excel or previous systems. Requires a phased migration plan and validation of critical data."
+    - question: "Does the school management software include an app for families?"
+      answer: "Not all. If communication with families is a priority, check the app or portal and notifications (payment reminders, absences, circulars)."
+    - question: "What about electronic billing and Verifactu?"
+      answer: "In Spain, the regulations are advancing. The best school management software for centers must be prepared or in the process of adaptation; Please check it before signing."
+    - question: "Is modular or all-in-one software appropriate?"
+      answer: "It depends on whether you already have tools that you want to maintain (e.g. academic platform). A unified core (billing, families, administration) often simplifies day-to-day operations."
 ---
 
 <strong>How to choose the best school management software for your educational center</strong>

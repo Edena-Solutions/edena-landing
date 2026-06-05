@@ -7,22 +7,21 @@ tags:
     - "démarches administratives"
     - "efficacité"
     - "éducation"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - economiser-15h-administration-scolaire-2026
-  - automatisation-absentisme-scolaire
-  - ia-gestion-scolaire-cas-pratiques
-  - processus-administratifs-automatiser-ecole
+    - economiser-15h-administration-scolaire-2026
+    - automatisation-absentisme-scolaire
+    - ia-gestion-scolaire-cas-pratiques
+    - processus-administratifs-automatiser-ecole
 faqs:
-  - question: "Qu'est-ce qu'il ne faut PAS automatiser ?"
-    answer: "Décisions disciplinaires, situations familiales délicates, exceptions aux bourses."
-  - question: "Combien de temps faut-il pour constater les économies ?"
-    answer: "4 à 6 premières semaines après la formation minimale par rôle."
-  - question: "Risque d'erreurs massives ?"
-    answer: "Oui, si vous n'essayez pas les règles ; Commencez par un cours pilote."
+    - question: "Qu'est-ce qu'il ne faut PAS automatiser ?"
+      answer: "Décisions disciplinaires, situations familiales délicates, exceptions aux bourses."
+    - question: "Combien de temps faut-il pour constater les économies ?"
+      answer: "4 à 6 premières semaines après la formation minimale par rôle."
+    - question: "Risque d'erreurs massives ?"
+      answer: "Oui, si vous n'essayez pas les règles ; Commencez par un cours pilote."
 ---
-
 
 <strong>Automatisation des tâches administratives : libérer du temps pour l'éducation</strong>
 

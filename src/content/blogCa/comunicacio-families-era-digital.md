@@ -7,19 +7,18 @@ tags:
     - "estratègies"
     - "famílies"
     - "relacions"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - llista-verificacio-digitalitzacio-2026
+    - llista-verificacio-digitalitzacio-2026
 faqs:
-  - question: "He de tancar els grups de WhatsApp del tutor?"
-    answer: "No necessàriament. Defineix què va a app institucional (circulars, pagaments, autoritzacions) i reserva WhatsApp per a urgències puntuals amb criteri escrit."
-  - question: "Com alinear to entre direcció i tutories?"
-    answer: "Plantilles aprovades, canal únic per a allò massiu i formació breu al claustre sobre què no enviar per grups informals."
-  - question: "Què passa amb famílies sense telèfon intel·ligent?"
-    answer: "Ofereix email i SMS com a alternativa; mai no exigeixis només app sense via paral·lela documentada."
+    - question: "He de tancar els grups de WhatsApp del tutor?"
+      answer: "No necessàriament. Defineix què va a app institucional (circulars, pagaments, autoritzacions) i reserva WhatsApp per a urgències puntuals amb criteri escrit."
+    - question: "Com alinear to entre direcció i tutories?"
+      answer: "Plantilles aprovades, canal únic per a allò massiu i formació breu al claustre sobre què no enviar per grups informals."
+    - question: "Què passa amb famílies sense telèfon intel·ligent?"
+      answer: "Ofereix email i SMS com a alternativa; mai no exigeixis només app sense via paral·lela documentada."
 ---
-
 
 <strong>Comunicació institucional amb famílies: Estratègies per a l'era digital</strong>
 

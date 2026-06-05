@@ -9,24 +9,24 @@ tags:
     - "registration forms"
     - "School CRM"
     - "family self-management"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - school-crm-enrollment-pipeline-2026
-  - digital-family-onboarding-online-enrollment
-  - digitalization-student-retention
-  - student-retention-digital-era
+    - school-crm-enrollment-pipeline-2026
+    - digital-family-onboarding-online-enrollment
+    - digitalization-student-retention
+    - student-retention-digital-era
 faqs:
-  - question: "How long does it take to set up the enrollment process at Edena?"
-    answer: "A basic configuration (form, pipeline stages, payment rule and automated confirmation) can be ready in a week if the process design is already defined. More complex flows with multiple document types, stage automations, and Pro communication require two to three weeks. The implementation team accompanies the configuration within the onboarding."
-  - question: "How to measure that the digital process is working?"
-    answer: "The most reliable indicators are: application completion rate (initiated vs. sent), time from first contact to confirmed place, and percentage of calls \"did you receive my application?\" after launch. If completion rates are low, the form is too long or the first step is too demanding. If the time until confirmation has not decreased, the bottleneck is in the internal validation process, not in the form."
-  - question: "Do I need CRM and registration, or is an isolated form enough?"
-    answer: "A form without a funnel returns you to trays. The CRM provides stage, person responsible, origin and measurement. Without that, you don't learn to scale or prioritize as a committee."
-  - question: "What about the GDPR?"
-    answer: "You must establish legal basis, retention, access and consents with your DPO or advisor. The software facilitates access by role, traces and portals, but does not replace the legal criteria of the center. Edena presents product criteria, not legal advice."
-  - question: "How does the agreed regime or additional documentation fit in?"
-    answer: "Partition: request annexes at the appropriate stage, not “all in one Monday” that collapses verification. Anticipate peaks, not false workload."
+    - question: "How long does it take to set up the enrollment process at Edena?"
+      answer: "A basic configuration (form, pipeline stages, payment rule and automated confirmation) can be ready in a week if the process design is already defined. More complex flows with multiple document types, stage automations, and Pro communication require two to three weeks. The implementation team accompanies the configuration within the onboarding."
+    - question: "How to measure that the digital process is working?"
+      answer: 'The most reliable indicators are: application completion rate (initiated vs. sent), time from first contact to confirmed place, and percentage of calls "did you receive my application?" after launch. If completion rates are low, the form is too long or the first step is too demanding. If the time until confirmation has not decreased, the bottleneck is in the internal validation process, not in the form.'
+    - question: "Do I need CRM and registration, or is an isolated form enough?"
+      answer: "A form without a funnel returns you to trays. The CRM provides stage, person responsible, origin and measurement. Without that, you don't learn to scale or prioritize as a committee."
+    - question: "What about the GDPR?"
+      answer: "You must establish legal basis, retention, access and consents with your DPO or advisor. The software facilitates access by role, traces and portals, but does not replace the legal criteria of the center. Edena presents product criteria, not legal advice."
+    - question: "How does the agreed regime or additional documentation fit in?"
+      answer: "Partition: request annexes at the appropriate stage, not “all in one Monday” that collapses verification. Anticipate peaks, not false workload."
 ---
 
 <strong>How to digitize the online registration of your educational center step by step</strong>

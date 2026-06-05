@@ -7,20 +7,20 @@ tags:
     - "guardianes"
     - "educación"
     - "digital"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1640622304233-7335e936f11b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - guraso-app-ikastetxean-2026
-  - ikastetxe-familia-plataforma-digital-komunikazioa
-  - zentro-hezkuntzako-komunikazio-digitala
-  - familia-komunikazioa-garai-digitalan
+    - guraso-app-ikastetxean-2026
+    - ikastetxe-familia-plataforma-digital-komunikazioa
+    - zentro-hezkuntzako-komunikazio-digitala
+    - familia-komunikazioa-garai-digitalan
 faqs:
-  - question: "Gailua erabiltzeko akordioa?"
-    answer: "Arau argiak adinaren arabera, izena ematean familiek sinatuta."
-  - question: "Gurasoen kontrola zentroko aplikazioan?"
-    answer: "Zentroak txostenak ematen ditu; Etxeko kontrola familiaren ardura da zentroaren orientazioarekin."
-  - question: "14 urtetik beherakoak?"
-    answer: "Datuak plataformetan tratatzeko gurasoen baimena."
+    - question: "Gailua erabiltzeko akordioa?"
+      answer: "Arau argiak adinaren arabera, izena ematean familiek sinatuta."
+    - question: "Gurasoen kontrola zentroko aplikazioan?"
+      answer: "Zentroak txostenak ematen ditu; Etxeko kontrola familiaren ardura da zentroaren orientazioarekin."
+    - question: "14 urtetik beherakoak?"
+      answer: "Datuak plataformetan tratatzeko gurasoen baimena."
 ---
 
 <strong>Zaindariak hezkuntza digitalean: gurasoen papera aro teknologikoan</strong>

@@ -3,24 +3,24 @@ title: "Dashboards educativos para mejorar métricas académicas y financieras"
 date: "2026-02-27"
 description: "Diseño de dashboards académicos y financieros. Guía práctica para centros educativos en España (2026)."
 tags: ["dashboard educativo métricas", "datos", "dirección", "indicadores"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1667850562258-b77dfa54c79d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpis-director-colegio-mensual-2026
-  - dashboard-educativo
-  - analitica-educativa-dashboards-escolares
-  - analitica-rendimiento-academico
+    - kpis-director-colegio-mensual-2026
+    - dashboard-educativo
+    - analitica-educativa-dashboards-escolares
+    - analitica-rendimiento-academico
 faqs:
-  - question: "¿Necesitamos un BI aparte o basta con el software de gestión?"
-    answer: "Muchos software de gestión escolar incluyen reportes y dashboards básicos. Si cubren tus necesidades de cobro, retención y asistencia, puede ser suficiente. Un BI aparte tiene sentido cuando necesitas cruzar muchas fuentes o análisis muy personalizados."
-  - question: "¿Quién debe configurar el dashboard educativo?"
-    answer: "Lo ideal es que lo configure alguien que conozca los procesos (admin o dirección) con apoyo del proveedor si hace falta. Las métricas deben responder a preguntas reales del centro, no a lo que el sistema ofrece por defecto."
-  - question: "¿Las métricas académicas y las financieras pueden estar en el mismo dashboard?"
-    answer: "Sí, en una vista de dirección. Lo importante es no mezclar gran nivel de detalle operativo (lista de impagos) con indicadores estratégicos (tasa de retención) en la misma pantalla para la misma persona."
-  - question: "¿Con qué frecuencia debe actualizarse un dashboard educativo?"
-    answer: "Depende del indicador. Cobro y alertas pueden ser en tiempo real o diario; ocupación y retención suelen ser semanales o mensuales. Lo crítico es que la actualización sea automática desde el sistema."
-  - question: "¿Cómo evitamos que el equipo ignore el dashboard?"
-    answer: "Vinculando su uso a rutinas (reunión semanal de dirección, revisión de impagos cada lunes) y tomando decisiones visibles a partir de los datos. Si nadie actúa, el dashboard educativo pierde sentido."
+    - question: "¿Necesitamos un BI aparte o basta con el software de gestión?"
+      answer: "Muchos software de gestión escolar incluyen reportes y dashboards básicos. Si cubren tus necesidades de cobro, retención y asistencia, puede ser suficiente. Un BI aparte tiene sentido cuando necesitas cruzar muchas fuentes o análisis muy personalizados."
+    - question: "¿Quién debe configurar el dashboard educativo?"
+      answer: "Lo ideal es que lo configure alguien que conozca los procesos (admin o dirección) con apoyo del proveedor si hace falta. Las métricas deben responder a preguntas reales del centro, no a lo que el sistema ofrece por defecto."
+    - question: "¿Las métricas académicas y las financieras pueden estar en el mismo dashboard?"
+      answer: "Sí, en una vista de dirección. Lo importante es no mezclar gran nivel de detalle operativo (lista de impagos) con indicadores estratégicos (tasa de retención) en la misma pantalla para la misma persona."
+    - question: "¿Con qué frecuencia debe actualizarse un dashboard educativo?"
+      answer: "Depende del indicador. Cobro y alertas pueden ser en tiempo real o diario; ocupación y retención suelen ser semanales o mensuales. Lo crítico es que la actualización sea automática desde el sistema."
+    - question: "¿Cómo evitamos que el equipo ignore el dashboard?"
+      answer: "Vinculando su uso a rutinas (reunión semanal de dirección, revisión de impagos cada lunes) y tomando decisiones visibles a partir de los datos. Si nadie actúa, el dashboard educativo pierde sentido."
 ---
 
 <strong>Cómo usar dashboards educativos para mejorar métricas académicas y financieras</strong>

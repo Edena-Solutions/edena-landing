@@ -7,22 +7,21 @@ tags:
     - "gestion administrative"
     - "stratégie"
     - "adresse"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1629721671030-a83edbb11211?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpi-mensuels-direction-ecole-2026
-  - tableaux-bord-educatifs-metriques
-  - analytique-educative-tableaux-bord-scolaires
-  - analytique-rendement-academique
+    - kpi-mensuels-direction-ecole-2026
+    - tableaux-bord-educatifs-metriques
+    - analytique-educative-tableaux-bord-scolaires
+    - analytique-rendement-academique
 faqs:
-  - question: "De combien de tableaux de bord ai-je besoin ?"
-    answer: "Une opération mensuelle pour la gestion ; évitez de dupliquer Excel."
-  - question: "Un tableau de bord ou plusieurs ?"
-    answer: "Un principal pour la direction ; Les vues filtrées par rôle évitent de dupliquer Excel."
-  - question: "Mise à jour en temps réel ?"
-    answer: "Quotidien ou hebdomadaire suffit pour les décisions stratégiques ; en temps réel uniquement en opération de collecte."
+    - question: "De combien de tableaux de bord ai-je besoin ?"
+      answer: "Une opération mensuelle pour la gestion ; évitez de dupliquer Excel."
+    - question: "Un tableau de bord ou plusieurs ?"
+      answer: "Un principal pour la direction ; Les vues filtrées par rôle évitent de dupliquer Excel."
+    - question: "Mise à jour en temps réel ?"
+      answer: "Quotidien ou hebdomadaire suffit pour les décisions stratégiques ; en temps réel uniquement en opération de collecte."
 ---
-
 
 <strong>Tableau de bord pédagogique : le centre de contrôle pour la gestion stratégique</strong>
 

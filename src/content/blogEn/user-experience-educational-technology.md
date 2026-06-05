@@ -7,17 +7,17 @@ tags:
     - "experience"
     - "technology"
     - "education"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalization-checklist-2026
+    - digitalization-checklist-2026
 faqs:
-  - question: "Where do I start digitization?"
-    answer: "Clean master data, traceable charges and official family channel before expanding classroom tools."
-  - question: "Is cloud software safe for minors?"
-    answer: "It can be with custom contract, encryption and documented subprocessors. The center remains responsible."
-  - question: "How much time does management dedicate to the project?"
-    answer: "30-45 minutes a week in the first twelve weeks is usually enough to unlock without micromanaging."
+    - question: "Where do I start digitization?"
+      answer: "Clean master data, traceable charges and official family channel before expanding classroom tools."
+    - question: "Is cloud software safe for minors?"
+      answer: "It can be with custom contract, encryption and documented subprocessors. The center remains responsible."
+    - question: "How much time does management dedicate to the project?"
+      answer: "30-45 minutes a week in the first twelve weeks is usually enough to unlock without micromanaging."
 ---
 
 <strong>User experience: key in the adoption of educational technology</strong>

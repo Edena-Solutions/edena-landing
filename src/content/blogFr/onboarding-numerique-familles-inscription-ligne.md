@@ -9,16 +9,17 @@ tags:
         "onboarding familles",
         "numérisation",
     ]
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1680391380106-de9702ca6246?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
 faqs:
-  - question: "L'inscription en ligne en établissement a-t-elle une valeur juridique ?"
-    answer: "Oui. La signature électronique et les documents numériques ont la même portée que les processus en présentiel lorsque les exigences réglementaires sont respectées. L'inscription numérique des élèves est valide si le dispositif est correctement conçu."
-  - question: "Les familles adoptent-elles l'inscription numérique des élèves ?"
-    answer: "Oui, lorsque le parcours est clair et que l'établissement communique bien. Un onboarding numérique qui apporte de la valeur (moins de déplacements, moins de papiers) se adopte plutôt bien. L'inscription en ligne doit être facile à trouver et à compléter."
-  - question: "Que faire des familles qui préfèrent le papier ?"
-    answer: "Vous pouvez proposer les deux canaux pendant une période de transition. L'inscription en ligne peut coexister avec un parcours en présentiel. L'objectif de l'onboarding numérique est que celles et ceux qui veulent le numérique puissent le faire sans friction."
+    - question: "L'inscription en ligne en établissement a-t-elle une valeur juridique ?"
+      answer: "Oui. La signature électronique et les documents numériques ont la même portée que les processus en présentiel lorsque les exigences réglementaires sont respectées. L'inscription numérique des élèves est valide si le dispositif est correctement conçu."
+    - question: "Les familles adoptent-elles l'inscription numérique des élèves ?"
+      answer: "Oui, lorsque le parcours est clair et que l'établissement communique bien. Un onboarding numérique qui apporte de la valeur (moins de déplacements, moins de papiers) se adopte plutôt bien. L'inscription en ligne doit être facile à trouver et à compléter."
+    - question: "Que faire des familles qui préfèrent le papier ?"
+      answer: "Vous pouvez proposer les deux canaux pendant une période de transition. L'inscription en ligne peut coexister avec un parcours en présentiel. L'objectif de l'onboarding numérique est que celles et ceux qui veulent le numérique puissent le faire sans friction."
 ---
+
 <strong>Onboarding numérique des familles : inscrire les élèves sans paperasse</strong>
 
 <br>

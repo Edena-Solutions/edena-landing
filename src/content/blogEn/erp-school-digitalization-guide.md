@@ -7,20 +7,20 @@ tags:
     - "school management software"
     - "digitization"
     - "educational management"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677363463978-1aaeb823b2ac?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - school-management-software-comparison-spain-2026
-  - school-software-purchase-checklist-2026
-  - best-school-management-software
-  - choosing-school-management-software
+    - school-management-software-comparison-spain-2026
+    - school-software-purchase-checklist-2026
+    - best-school-management-software
+    - choosing-school-management-software
 faqs:
-  - question: "Does a school ERP replace several systems?"
-    answer: "Yes. A well-chosen school ERP can replace spreadsheets, siled billing software, scattered communication tools, and some of your records management. The goal is to have a unified core."
-  - question: "Does school management software include electronic billing?"
-    answer: "Modern school ERPs typically include or integrate e-invoicing and Verifactu. Check that your supplier is ready or adapting before signing."
-  - question: "How long does it take to implement a school ERP?"
-    answer: "It depends on the starting point and the scope. A pilot with billing and families can be operational in a few weeks; A full implementation with data migration can take several months. Plan in phases."
+    - question: "Does a school ERP replace several systems?"
+      answer: "Yes. A well-chosen school ERP can replace spreadsheets, siled billing software, scattered communication tools, and some of your records management. The goal is to have a unified core."
+    - question: "Does school management software include electronic billing?"
+      answer: "Modern school ERPs typically include or integrate e-invoicing and Verifactu. Check that your supplier is ready or adapting before signing."
+    - question: "How long does it take to implement a school ERP?"
+      answer: "It depends on the starting point and the scope. A pilot with billing and families can be operational in a few weeks; A full implementation with data migration can take several months. Plan in phases."
 ---
 
 <strong>School ERP: the complete guide to digitize the management of your educational center</strong>

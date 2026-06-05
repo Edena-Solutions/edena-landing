@@ -7,20 +7,20 @@ tags:
     - "gestión administrativa"
     - "estrategia"
     - "dirección"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1629721671030-a83edbb11211?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpi-hileko-zuzendaria-2026
-  - hezkuntza-panel-metrikak
-  - analitika-hezkuntzako-ikastetxe-panelak
-  - analitika-errendimendu-akademikoa
+    - kpi-hileko-zuzendaria-2026
+    - hezkuntza-panel-metrikak
+    - analitika-hezkuntzako-ikastetxe-panelak
+    - analitika-errendimendu-akademikoa
 faqs:
-  - question: "Zenbat dashboard behar ditut?"
-    answer: "Zuzendaritzarentzako hileko operatibo bat; saihestu Excel bikoiztea."
-  - question: "Dashboard bat ala hainbat?"
-    answer: "Zuzendaritzarentzako nagusi bat; rol-araberako ikuspegi iragazitakoak Excel bikoiztea saihesten dute."
-  - question: "Denbora errealeko eguneraketa?"
-    answer: "Egunero edo astero nahikoa da erabaki estrategikoetarako; denbora errealekoa kobrantza-eragiketetan soilik."
+    - question: "Zenbat dashboard behar ditut?"
+      answer: "Zuzendaritzarentzako hileko operatibo bat; saihestu Excel bikoiztea."
+    - question: "Dashboard bat ala hainbat?"
+      answer: "Zuzendaritzarentzako nagusi bat; rol-araberako ikuspegi iragazitakoak Excel bikoiztea saihesten dute."
+    - question: "Denbora errealeko eguneraketa?"
+      answer: "Egunero edo astero nahikoa da erabaki estrategikoetarako; denbora errealekoa kobrantza-eragiketetan soilik."
 ---
 
 <strong>Hezkuntza-dashboarda: kudeaketa estrategikorako kontrol-zentroa</strong>

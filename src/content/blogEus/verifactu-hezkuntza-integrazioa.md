@@ -7,22 +7,22 @@ tags:
     - "cumplimiento"
     - "normativa"
     - "facturación electrónica"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-cfa08c2a758f?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - atzeratzea-murriztu-kobro-automatikoa-2026
-  - faktura-elektronikoa-verifactu-hezkuntza-2026
-  - kpi-hileko-zuzendaria-2026
-  - fakturazio-zorrak-murriztu-ikastetxeetan
+    - atzeratzea-murriztu-kobro-automatikoa-2026
+    - faktura-elektronikoa-verifactu-hezkuntza-2026
+    - kpi-hileko-zuzendaria-2026
+    - fakturazio-zorrak-murriztu-ikastetxeetan
 faqs:
-  - question: "Nire agentziak eman dezaket niri?"
-    answer: "Bai, baina zentroak trazabilitatea koherentea izan behar du familiekin eta ERP."
-  - question: "Familientzako faktura sinplifikatuak?"
-    answer: "Aholkularitza kontsultatu zerbitzu motaren eta erakunde jaulkitzailearen arabera."
-  - question: "Zenbateko atzerapena da \"normala\" eskola pribatu batean?"
-    answer: "Profil sozioekonomikoaren eta bilketa metodoaren arabera aldatzen da, baina zentro osasuntsu asko %4 eta %8 artean mugitzen dira 45 egunetan. % 10etik gora egutegia, zordunketa eta abisuen sekuentzia berrikustea komeni da plantilla zabaldu aurretik."
-  - question: "Verifactu-k aldatzen al du familiei kobratzeko modua?"
-    answer: "Verifactu-k fakturen jaulkipenari eta trazabilitateari eragiten dio batez ere AEATri, ez ordainketa-metodoari berari. Zure fakturazio-softwarea bete beharreko erregistroak sortzeko eskatzen du; Bilketarekin eta kontziliazioarekin integratzea komeni da."
+    - question: "Nire agentziak eman dezaket niri?"
+      answer: "Bai, baina zentroak trazabilitatea koherentea izan behar du familiekin eta ERP."
+    - question: "Familientzako faktura sinplifikatuak?"
+      answer: "Aholkularitza kontsultatu zerbitzu motaren eta erakunde jaulkitzailearen arabera."
+    - question: 'Zenbateko atzerapena da "normala" eskola pribatu batean?'
+      answer: "Profil sozioekonomikoaren eta bilketa metodoaren arabera aldatzen da, baina zentro osasuntsu asko %4 eta %8 artean mugitzen dira 45 egunetan. % 10etik gora egutegia, zordunketa eta abisuen sekuentzia berrikustea komeni da plantilla zabaldu aurretik."
+    - question: "Verifactu-k aldatzen al du familiei kobratzeko modua?"
+      answer: "Verifactu-k fakturen jaulkipenari eta trazabilitateari eragiten dio batez ere AEATri, ez ordainketa-metodoari berari. Zure fakturazio-softwarea bete beharreko erregistroak sortzeko eskatzen du; Bilketarekin eta kontziliazioarekin integratzea komeni da."
 ---
 
 <strong>Verifactu Hezkuntzan: Erraz betetzea araudia</strong>

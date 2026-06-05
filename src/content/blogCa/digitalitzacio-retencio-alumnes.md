@@ -7,26 +7,25 @@ tags:
     - "digitalització"
     - "centres educatius"
     - "administració"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop"
 relatedPosts:
-  - matricula-online-centre-pas-2026
-  - crm-escolar-matricules-2026
-  - incorporacio-digital-families-matricula-en-linia
-  - retencio-estudiants-era-digital
+    - matricula-online-centre-pas-2026
+    - crm-escolar-matricules-2026
+    - incorporacio-digital-families-matricula-en-linia
+    - retencio-estudiants-era-digital
 faqs:
-  - question: "La retenció escolar depèn més del que és acadèmic o de l'administració?"
-    answer: "Tots dos. Allò acadèmic i el clima són decisius; però l'experiència administrativa (pagaments, documentació, comunicació) influeix en la percepció de serietat i la decisió de renovar."
-  - question: "Quins indicadors de retenció escolar he de seguir?"
-    answer: "Taxa de renovació per etapa, per any dincorporació i, si és possible, per tipus de família o programa. Creua amb impagaments i assistència per detectar risc."
-  - question: "La digitalització pot empitjorar la relació amb les famílies?"
-    answer: "Només si es fa servir de forma freda o massiva. Ben usada (missatges clars, recordatoris útils, menys errors), la digitalització sol millorar la percepció."
-  - question: "Necessito un CRM educatiu per treballar la retenció?"
-    answer: "No necessàriament. Un bon programari de gestió amb famílies, pagaments i alertes pot ser suficient. Un CRM aporta quan hi ha molts punts de contacte i cicles de venda/renovació complexos."
-  - question: "Com convenço l'equip que l'administració influeix a la retenció?"
-    answer: "Comparteix dades: baixes associades a impagaments o queixes administratives, i evolució de la retenció abans i després de canvis en processos. Els números ajuden a alinear prioritats."
+    - question: "La retenció escolar depèn més del que és acadèmic o de l'administració?"
+      answer: "Tots dos. Allò acadèmic i el clima són decisius; però l'experiència administrativa (pagaments, documentació, comunicació) influeix en la percepció de serietat i la decisió de renovar."
+    - question: "Quins indicadors de retenció escolar he de seguir?"
+      answer: "Taxa de renovació per etapa, per any dincorporació i, si és possible, per tipus de família o programa. Creua amb impagaments i assistència per detectar risc."
+    - question: "La digitalització pot empitjorar la relació amb les famílies?"
+      answer: "Només si es fa servir de forma freda o massiva. Ben usada (missatges clars, recordatoris útils, menys errors), la digitalització sol millorar la percepció."
+    - question: "Necessito un CRM educatiu per treballar la retenció?"
+      answer: "No necessàriament. Un bon programari de gestió amb famílies, pagaments i alertes pot ser suficient. Un CRM aporta quan hi ha molts punts de contacte i cicles de venda/renovació complexos."
+    - question: "Com convenço l'equip que l'administració influeix a la retenció?"
+      answer: "Comparteix dades: baixes associades a impagaments o queixes administratives, i evolució de la retenció abans i després de canvis en processos. Els números ajuden a alinear prioritats."
 ---
-
 
 <strong>Impacte de la digitalització administrativa a la retenció d'alumnes</strong>
 
@@ -139,11 +138,11 @@ Després de visita o proposta acceptada, al mateix flux digital, abans de l'alta
 
 <br>
 
-1) L'experiència administrativa influeix en la decisió de les famílies de quedar-se o anar-se'n.  
-2) La retenció escolar millora amb alertes primerenques basades en pagaments, assistència i incidències.  
-3) Comunicació segmentada i recordatoris útils redueixen malentesos i sensació de caos.  
-4) Mesurar retenció per etapa o cohort permet prioritzar accions.  
-5) Revisar i simplificar el procés de renovació de matrícula és una palanca directa de retenció.
+1. L'experiència administrativa influeix en la decisió de les famílies de quedar-se o anar-se'n.
+2. La retenció escolar millora amb alertes primerenques basades en pagaments, assistència i incidències.
+3. Comunicació segmentada i recordatoris útils redueixen malentesos i sensació de caos.
+4. Mesurar retenció per etapa o cohort permet prioritzar accions.
+5. Revisar i simplificar el procés de renovació de matrícula és una palanca directa de retenció.
 
 Voleu veure com millorar la retenció del vostre centre amb dades i processos digitals? Demana una demo i revisem junts indicadors, comunicació amb famílies i fluxos de renovació.
 

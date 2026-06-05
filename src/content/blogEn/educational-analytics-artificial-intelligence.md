@@ -7,22 +7,21 @@ tags:
     - "artificial intelligence"
     - "data"
     - "decisions"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1739805591936-39f03383c9a9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - innovative-pedagogical-methodologies
-  - pedagogical-innovation-technology
-  - digital-assessment-evaluation-education
-  - future-educational-spaces-design
+    - innovative-pedagogical-methodologies
+    - pedagogical-innovation-technology
+    - digital-assessment-evaluation-education
+    - future-educational-spaces-design
 faqs:
-  - question: "Does AI predict school dropouts?"
-    answer: "You can point out patterns (absenteeism, low grades), but the decision must be human and with protected data."
-  - question: "Do I need a data scientist?"
-    answer: "In medium-sized centers, automatic ERP reports and the criteria of the head of studies are sufficient."
-  - question: "Is it compatible with LOMLOE?"
-    answer: "Yes if it supports formative evaluation, not if it imposes opaque labels on students."
+    - question: "Does AI predict school dropouts?"
+      answer: "You can point out patterns (absenteeism, low grades), but the decision must be human and with protected data."
+    - question: "Do I need a data scientist?"
+      answer: "In medium-sized centers, automatic ERP reports and the criteria of the head of studies are sufficient."
+    - question: "Is it compatible with LOMLOE?"
+      answer: "Yes if it supports formative evaluation, not if it imposes opaque labels on students."
 ---
-
 
 <strong>Educational analytics and artificial intelligence: Data that transforms education</strong>
 

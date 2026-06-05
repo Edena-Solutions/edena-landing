@@ -9,24 +9,24 @@ tags:
     - "leads education"
     - "school forms"
     - "registrations"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1730382624360-9cf5609c8364?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - online-enrolment-digitalize-school-step-by-step-2026
-  - digital-family-onboarding-online-enrollment
-  - digitalization-student-retention
-  - student-retention-digital-era
+    - online-enrolment-digitalize-school-step-by-step-2026
+    - digital-family-onboarding-online-enrollment
+    - digitalization-student-retention
+    - student-retention-digital-era
 faqs:
-  - question: "Is a CRM “stuck with APIs” to the platform just as integrated?"
-    answer: "Sometimes, with cost, latency, duplicates, desynchronization, and closure failures, integrated, the risk usually decreases."
-  - question: "How much does conversion increase with CRM?"
-    answer: "It depends on the funnel, sector, offer, we do not set a magic figure, but seeing stages and funds, it usually aligns effort, which increases the rate, it does not guarantee 20 points, but it avoids silly leaks."
-  - question: "How is a waiting list managed in the CRM?"
-    answer: "Create a specific waiting list stage in the pipeline with a position field and automatic confirmation for the family. When a space becomes free, the system alerts the stage owner to advance the next request. Avoid managing the waiting list in a separate Excel: that's where \"who's been there longer\" conflicts arise."
-  - question: "When to add the Pro communication module to the CRM flow?"
-    answer: "When the volume of requests is high enough that the email alone causes families not to see stage change notifications, or when you need reading confirmation in place confirmation or down payment messages. Basic communication works for moderate volumes; Pro adds push and confirmation when the admission process warrants it."
-  - question: "What about sensitive data and GDPR?"
-    answer: "Legal basis criteria, deadlines, cleanliness, and consent, the software accompanies, does not replace advice, requires minimums, Edena, platform approach with access control, documentation, shared responsibility."
+    - question: "Is a CRM “stuck with APIs” to the platform just as integrated?"
+      answer: "Sometimes, with cost, latency, duplicates, desynchronization, and closure failures, integrated, the risk usually decreases."
+    - question: "How much does conversion increase with CRM?"
+      answer: "It depends on the funnel, sector, offer, we do not set a magic figure, but seeing stages and funds, it usually aligns effort, which increases the rate, it does not guarantee 20 points, but it avoids silly leaks."
+    - question: "How is a waiting list managed in the CRM?"
+      answer: 'Create a specific waiting list stage in the pipeline with a position field and automatic confirmation for the family. When a space becomes free, the system alerts the stage owner to advance the next request. Avoid managing the waiting list in a separate Excel: that''s where "who''s been there longer" conflicts arise.'
+    - question: "When to add the Pro communication module to the CRM flow?"
+      answer: "When the volume of requests is high enough that the email alone causes families not to see stage change notifications, or when you need reading confirmation in place confirmation or down payment messages. Basic communication works for moderate volumes; Pro adds push and confirmation when the admission process warrants it."
+    - question: "What about sensitive data and GDPR?"
+      answer: "Legal basis criteria, deadlines, cleanliness, and consent, the software accompanies, does not replace advice, requires minimums, Edena, platform approach with access control, documentation, shared responsibility."
 ---
 
 <strong>School CRM: How to Increase Enrollment and Convert More Applications</strong>

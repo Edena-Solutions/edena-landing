@@ -3,18 +3,18 @@ title: "Gestión documental digital: el futuro de la administración escolar"
 date: "2025-01-18"
 description: "Gobernanza, permisos y retención documental. Guía práctica para centros educativos en España (2026)."
 tags: ["documentos", "digital", "gestión", "educación"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1583521214690-73421a1829a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - gestion-documental-colegios-expediente-digital-2026
-  - expediente-academico-digital-estudiantes
+    - gestion-documental-colegios-expediente-digital-2026
+    - expediente-academico-digital-estudiantes
 faqs:
-  - question: "¿Digitalizar todo el archivo histórico?"
-    answer: "Priorizad curso actual y documentos activos; el histórico por fases."
-  - question: "¿Quién puede borrar documentos?"
-    answer: "Solo roles autorizados; log de eliminación para auditoría."
-  - question: "¿Firma digital válida?"
-    answer: "Consultad tipo de documento; muchas autorizaciones escolares admiten firma simple con trazabilidad."
+    - question: "¿Digitalizar todo el archivo histórico?"
+      answer: "Priorizad curso actual y documentos activos; el histórico por fases."
+    - question: "¿Quién puede borrar documentos?"
+      answer: "Solo roles autorizados; log de eliminación para auditoría."
+    - question: "¿Firma digital válida?"
+      answer: "Consultad tipo de documento; muchas autorizaciones escolares admiten firma simple con trazabilidad."
 ---
 
 <strong>Gestión documental digital: el futuro de la administración escolar</strong>

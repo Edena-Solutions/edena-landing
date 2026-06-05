@@ -7,17 +7,17 @@ tags:
     - "data"
     - "education"
     - "privacy"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1589935447067-5531094415d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - data-protection-digital-schools
+    - data-protection-digital-schools
 faqs:
-  - question: "Backup tested?"
-    answer: "Trial restoration at least annually; backup without verification is not enough."
-  - question: "Phishing staff?"
-    answer: "Short recurrent training; the most common vector in centers."
-  - question: "Mandatory double factor?"
-    answer: "Recommended in administration and direction."
+    - question: "Backup tested?"
+      answer: "Trial restoration at least annually; backup without verification is not enough."
+    - question: "Phishing staff?"
+      answer: "Short recurrent training; the most common vector in centers."
+    - question: "Mandatory double factor?"
+      answer: "Recommended in administration and direction."
 ---
 
 <strong>Data security in educational centers: Protecting the digital future</strong>

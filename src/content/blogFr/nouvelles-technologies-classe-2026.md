@@ -8,22 +8,21 @@ tags:
     - "innovation pédagogique"
     - "Éducation à l'IA"
     - "apprentissage adaptatif"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1630148198235-6bd561ba72a4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - methodologies-pedagogiques-innovantes
-  - innovation-pedagogique-technologie
-  - evaluation-numerique-educative
-  - espaces-educatifs-avenir-conception
+    - methodologies-pedagogiques-innovantes
+    - innovation-pedagogique-technologie
+    - evaluation-numerique-educative
+    - espaces-educatifs-avenir-conception
 faqs:
-  - question: "Écran interactif ou ordinateur portable ?"
-    answer: "Cela dépend du projet pédagogique ; Évitez d'acheter sans formation."
-  - question: "ROI en administration ?"
-    answer: "L’intégration de l’assiduité et des notes sur la même plateforme réduit la double entrée."
-  - question: "Durabilité?"
-    answer: "Un renouveau par cycles, pas par mode."
+    - question: "Écran interactif ou ordinateur portable ?"
+      answer: "Cela dépend du projet pédagogique ; Évitez d'acheter sans formation."
+    - question: "ROI en administration ?"
+      answer: "L’intégration de l’assiduité et des notes sur la même plateforme réduit la double entrée."
+    - question: "Durabilité?"
+      answer: "Un renouveau par cycles, pas par mode."
 ---
-
 
 <strong>Nouvelles technologies en classe 2026 : transformer l’expérience éducative</strong>
 

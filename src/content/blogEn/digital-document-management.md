@@ -7,18 +7,18 @@ tags:
     - "digital"
     - "management"
     - "education"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1583521214690-73421a1829a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - school-document-management-digital-records-2026
-  - digital-student-records
+    - school-document-management-digital-records-2026
+    - digital-student-records
 faqs:
-  - question: "Digitize the entire historical archive?"
-    answer: "Prioritize current course and active documents; the history by phases."
-  - question: "Who can delete documents?"
-    answer: "Authorized roles only; deletion log for audit."
-  - question: "Valid digital signature?"
-    answer: "Check document type; Many school authorizations allow a simple signature with traceability."
+    - question: "Digitize the entire historical archive?"
+      answer: "Prioritize current course and active documents; the history by phases."
+    - question: "Who can delete documents?"
+      answer: "Authorized roles only; deletion log for audit."
+    - question: "Valid digital signature?"
+      answer: "Check document type; Many school authorizations allow a simple signature with traceability."
 ---
 
 <strong>Digital document management: the future of school administration</strong>

@@ -7,17 +7,17 @@ tags:
     - "personalización"
     - "engagement"
     - "tecnología"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576633587217-5c9b4930956b?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalizazio-egiaztapen-zerrenda-2026
+    - digitalizazio-egiaztapen-zerrenda-2026
 faqs:
-  - question: "Non hasiko naiz digitalizazioa?"
-    answer: "Garbitu datu nagusiak, traza daitezkeen karguak eta familiaren kanal ofiziala ikasgelako tresnak zabaldu aurretik."
-  - question: "Hodeiko softwarea segurua al da adingabeentzat?"
-    answer: "Kontratu pertsonalizatua, enkriptatzea eta dokumentatutako azpiprozesadoreekin izan daiteke. Zentroak erantzukizuna izaten jarraitzen du."
-  - question: "Zenbat denbora eskaintzen dio zuzendaritzak proiektuari?"
-    answer: "Lehenengo hamabi asteetan astean 30-45 minutu nahikoa izaten dira mikrokudeaketarik gabe desblokeatzeko."
+    - question: "Non hasiko naiz digitalizazioa?"
+      answer: "Garbitu datu nagusiak, traza daitezkeen karguak eta familiaren kanal ofiziala ikasgelako tresnak zabaldu aurretik."
+    - question: "Hodeiko softwarea segurua al da adingabeentzat?"
+      answer: "Kontratu pertsonalizatua, enkriptatzea eta dokumentatutako azpiprozesadoreekin izan daiteke. Zentroak erantzukizuna izaten jarraitzen du."
+    - question: "Zenbat denbora eskaintzen dio zuzendaritzak proiektuari?"
+      answer: "Lehenengo hamabi asteetan astean 30-45 minutu nahikoa izaten dira mikrokudeaketarik gabe desblokeatzeko."
 ---
 
 <strong>Ikasleen esperientzia aro digitalean: ikaskuntza tradizionaletik haratago</strong>

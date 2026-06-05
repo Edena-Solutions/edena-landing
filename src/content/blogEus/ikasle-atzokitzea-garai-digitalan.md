@@ -7,17 +7,17 @@ tags:
     - "estudiantes"
     - "personalización"
     - "engagement"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalizazio-egiaztapen-zerrenda-2026
+    - digitalizazio-egiaztapen-zerrenda-2026
 faqs:
-  - question: "Atxikipena onarpenetan edo ikasgelan hasten da?"
-    answer: "Bietan: kurtsoan zehar kontratazioan eta administrazio-koherentzian (bildumak, komunikazioa) promesa argiak."
-  - question: "Zein seinale aurreikusten du beherakada bat?"
-    answer: "Behin eta berriz ez ordaintzeak, komunikazio-kexak eta eskolaz kanpoko jardueretan deskonpromisoak izan ohi dira transferentzia eskaeraren aurretik."
-  - question: "Nola neurtu atxikipen digitala?"
-    answer: "Ikastaro bakoitzeko berritze-tasa, hiruhileko familiaren NPS eta administratzaileen erantzun-denbora gorabeherak."
+    - question: "Atxikipena onarpenetan edo ikasgelan hasten da?"
+      answer: "Bietan: kurtsoan zehar kontratazioan eta administrazio-koherentzian (bildumak, komunikazioa) promesa argiak."
+    - question: "Zein seinale aurreikusten du beherakada bat?"
+      answer: "Behin eta berriz ez ordaintzeak, komunikazio-kexak eta eskolaz kanpoko jardueretan deskonpromisoak izan ohi dira transferentzia eskaeraren aurretik."
+    - question: "Nola neurtu atxikipen digitala?"
+      answer: "Ikastaro bakoitzeko berritze-tasa, hiruhileko familiaren NPS eta administratzaileen erantzun-denbora gorabeherak."
 ---
 
 <strong>Ikasleen atxikipena aro digitalean: funtzionatzen duten estrategiak</strong>

@@ -7,22 +7,21 @@ tags:
     - "programari gestió escoles"
     - "digitalització"
     - "gestió educativa"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677363463978-1aaeb823b2ac?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - comparativa-programari-gestio-escolar-2026
-  - checklist-software-escolar-director-2026
-  - millor-programari-gestio-escolar
-  - triar-programari-gestio-escolar
+    - comparativa-programari-gestio-escolar-2026
+    - checklist-software-escolar-director-2026
+    - millor-programari-gestio-escolar
+    - triar-programari-gestio-escolar
 faqs:
-  - question: "Un ERP escolar substitueix diversos sistemes?"
-    answer: "Sí. Un ERP escolar ben elegit pot reemplaçar fulls de càlcul, programari de facturació aïllat, eines de comunicació disperses i part de la gestió d'expedients. Lobjectiu és tenir un nucli unificat."
-  - question: "El programari de gestió per a escoles inclou facturació electrònica?"
-    answer: "Els ERP escolars moderns solen incloure o integrar facturació electrònica i Verifactu. Comproveu que el vostre proveïdor estigui preparat o en via d'adaptació abans de signar."
-  - question: "Quan triga la implantació d'un ERP escolar?"
-    answer: "Depèn del punt de partida i de labast. Un pilot amb facturació i famílies pot estar operatiu d'aquí a unes setmanes; una implantació completa amb migració de dades pot portar uns quants mesos. Planifica per fases."
+    - question: "Un ERP escolar substitueix diversos sistemes?"
+      answer: "Sí. Un ERP escolar ben elegit pot reemplaçar fulls de càlcul, programari de facturació aïllat, eines de comunicació disperses i part de la gestió d'expedients. Lobjectiu és tenir un nucli unificat."
+    - question: "El programari de gestió per a escoles inclou facturació electrònica?"
+      answer: "Els ERP escolars moderns solen incloure o integrar facturació electrònica i Verifactu. Comproveu que el vostre proveïdor estigui preparat o en via d'adaptació abans de signar."
+    - question: "Quan triga la implantació d'un ERP escolar?"
+      answer: "Depèn del punt de partida i de labast. Un pilot amb facturació i famílies pot estar operatiu d'aquí a unes setmanes; una implantació completa amb migració de dades pot portar uns quants mesos. Planifica per fases."
 ---
-
 
 <strong>ERP escolar: la guia completa per digitalitzar la gestió del teu centre educatiu</strong>
 

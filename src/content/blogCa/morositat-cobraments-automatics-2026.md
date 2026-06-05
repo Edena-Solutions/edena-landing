@@ -9,26 +9,25 @@ tags:
     - "facturació educativa"
     - "rebuts escolars"
     - "control de cobrament"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1635091238012-83fb7454e8bb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - facturacio-electronica-verifactu-educacio-2026
-  - kpi-director-escola-mensual-2026
-  - reduir-impagaments-facturacio-col-legis
-  - pagaments-en-linia-educacio
+    - facturacio-electronica-verifactu-educacio-2026
+    - kpi-director-escola-mensual-2026
+    - reduir-impagaments-facturacio-col-legis
+    - pagaments-en-linia-educacio
 faqs:
-  - question: "Quant puc abaixar la mora realistament amb automatització i processos correctes?"
-    answer: "Depèn de mix dingressos, perfils i política, però en capes estructurals, reduccions dun terç a la meitat de la cua baixa, en 6–12 mesos, amb mesura, no són infreqüents. No prometem miracles, prometem menys variació dolenta."
-  - question: "Afecta la facturació electrònica els recordatoris de famílies?"
-    answer: "Sí, indirectament: si l'emissió i el rebut viuen amb claredat, baixen disputes i baixa retreball. Assegureu-vos que el proveïdor no us deixi a mitges amb l'explicació als tutors."
-  - question: "Què faig amb incompliments reiterats?"
-    answer: "Les regles i la política interna, primer. El programari executa, no reemplaça el reglament de serveis, però sí que dóna base per actuar amb consistència i sense arbitrarietats percebudes."
-  - question: "He de connectar amb passarel·la de pagament o banc?"
-    answer: "Estratègia: minimitza caixes i duplicació de criteri. Com menys llocs, menys buits. La plataforma hauria de concentrar criteri i traces."
-  - question: "Quan té sentit escalar a gestió externa de cobraments?"
-    answer: "Quan la seqüència interna d'escalada està completa, s'ha ofert un pla de pagament per escrit i rebutjat. El llindar d'escalada és una decisió de política, no de programari: recorda'l amb el teu equip abans que passi el primer cas, documenta'l i aplica'l de manera consistent perquè les famílies experimentin un tracte just i predictible. La plataforma registra l?historial que fa aquesta decisió defensable."
+    - question: "Quant puc abaixar la mora realistament amb automatització i processos correctes?"
+      answer: "Depèn de mix dingressos, perfils i política, però en capes estructurals, reduccions dun terç a la meitat de la cua baixa, en 6–12 mesos, amb mesura, no són infreqüents. No prometem miracles, prometem menys variació dolenta."
+    - question: "Afecta la facturació electrònica els recordatoris de famílies?"
+      answer: "Sí, indirectament: si l'emissió i el rebut viuen amb claredat, baixen disputes i baixa retreball. Assegureu-vos que el proveïdor no us deixi a mitges amb l'explicació als tutors."
+    - question: "Què faig amb incompliments reiterats?"
+      answer: "Les regles i la política interna, primer. El programari executa, no reemplaça el reglament de serveis, però sí que dóna base per actuar amb consistència i sense arbitrarietats percebudes."
+    - question: "He de connectar amb passarel·la de pagament o banc?"
+      answer: "Estratègia: minimitza caixes i duplicació de criteri. Com menys llocs, menys buits. La plataforma hauria de concentrar criteri i traces."
+    - question: "Quan té sentit escalar a gestió externa de cobraments?"
+      answer: "Quan la seqüència interna d'escalada està completa, s'ha ofert un pla de pagament per escrit i rebutjat. El llindar d'escalada és una decisió de política, no de programari: recorda'l amb el teu equip abans que passi el primer cas, documenta'l i aplica'l de manera consistent perquè les famílies experimentin un tracte just i predictible. La plataforma registra l?historial que fa aquesta decisió defensable."
 ---
-
 
 <strong>Com reduir la morositat a escoles i guarderies amb cobraments automatitzats</strong>
 

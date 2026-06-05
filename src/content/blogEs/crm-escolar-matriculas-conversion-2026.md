@@ -3,32 +3,32 @@ title: "CRM escolar: cómo aumentar matrículas y convertir más solicitudes"
 date: "2026-03-24"
 description: "CRM escolar para convertir solicitudes en matrículas. Guía práctica para centros educativos en España (2026)."
 tags:
- [
- "CRM escolar",
- "matrículas online",
- "captación colegios",
- "leads educación",
- "formularios escolares",
- "inscripciones",
- ]
-author: "Equipo Edena"
+    [
+        "CRM escolar",
+        "matrículas online",
+        "captación colegios",
+        "leads educación",
+        "formularios escolares",
+        "inscripciones",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1730382624360-9cf5609c8364?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - matricula-online-centro-educativo-pasos-2026
-  - onboarding-digital-familias-matricula-online
-  - digitalizacion-retencion-alumnos
-  - retencion-estudiantes-era-digital
+    - matricula-online-centro-educativo-pasos-2026
+    - onboarding-digital-familias-matricula-online
+    - digitalizacion-retencion-alumnos
+    - retencion-estudiantes-era-digital
 faqs:
-  - question: "¿Un CRM “pegado con APIs” a la plataforma val igual que integrado?"
-    answer: "A veces, con coste, latencia, duplicados, desincronización, y fallos en cierre, integrado, suele bajar riesgo."
-  - question: "¿Cuánto sube la conversión con CRM?"
-    answer: "Depende de embudo, sector, oferta, no fijamos cifra mágica, pero ver etapas y fondos, suele alinear esfuerzo, lo cual sube tasa, no garantiza 20 puntos, pero evita fugas tontas."
-  - question: "¿Cómo se gestiona una lista de espera en el CRM?"
-    answer: "Crea una etapa específica de lista de espera en el pipeline con campo de posición y confirmación automática para la familia. Cuando quede libre una plaza, el sistema alerta al propietario de la etapa para avanzar la siguiente solicitud. Evita gestionar la lista de espera en un Excel separado: ahí es donde nacen los conflictos de \"quién llevaba más tiempo\"."
-  - question: "¿Cuándo añadir el módulo de comunicación Pro al flujo del CRM?"
-    answer: "Cuando el volumen de solicitudes sea suficientemente alto como para que el correo solo provoque que las familias no vean notificaciones de cambio de etapa, o cuando necesites confirmación de lectura en mensajes de confirmación de plaza o pago de señal. La comunicación básica funciona para volúmenes moderados; Pro añade push y confirmación cuando el proceso de admisión lo justifica."
-  - question: "¿Qué pasa con datos sensibles y GDPR?"
-    answer: "Criterio de base legal, plazos, limpieza, y consentimiento, el software acompaña, no reemplaza asesoría, exige mínimos, Edena, enfoque plataforma con control de accesos, documentación, responsabilidad compartida."
+    - question: "¿Un CRM “pegado con APIs” a la plataforma val igual que integrado?"
+      answer: "A veces, con coste, latencia, duplicados, desincronización, y fallos en cierre, integrado, suele bajar riesgo."
+    - question: "¿Cuánto sube la conversión con CRM?"
+      answer: "Depende de embudo, sector, oferta, no fijamos cifra mágica, pero ver etapas y fondos, suele alinear esfuerzo, lo cual sube tasa, no garantiza 20 puntos, pero evita fugas tontas."
+    - question: "¿Cómo se gestiona una lista de espera en el CRM?"
+      answer: 'Crea una etapa específica de lista de espera en el pipeline con campo de posición y confirmación automática para la familia. Cuando quede libre una plaza, el sistema alerta al propietario de la etapa para avanzar la siguiente solicitud. Evita gestionar la lista de espera en un Excel separado: ahí es donde nacen los conflictos de "quién llevaba más tiempo".'
+    - question: "¿Cuándo añadir el módulo de comunicación Pro al flujo del CRM?"
+      answer: "Cuando el volumen de solicitudes sea suficientemente alto como para que el correo solo provoque que las familias no vean notificaciones de cambio de etapa, o cuando necesites confirmación de lectura en mensajes de confirmación de plaza o pago de señal. La comunicación básica funciona para volúmenes moderados; Pro añade push y confirmación cuando el proceso de admisión lo justifica."
+    - question: "¿Qué pasa con datos sensibles y GDPR?"
+      answer: "Criterio de base legal, plazos, limpieza, y consentimiento, el software acompaña, no reemplaza asesoría, exige mínimos, Edena, enfoque plataforma con control de accesos, documentación, responsabilidad compartida."
 ---
 
 <strong>CRM escolar: cómo aumentar matrículas y convertir más solicitudes</strong>

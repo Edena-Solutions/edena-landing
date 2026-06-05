@@ -3,20 +3,20 @@ title: "Guardianes en la educación digital: El papel de las familias"
 date: "2025-03-01"
 description: "Papel de las familias como guardianes del uso digital del menor. Guía práctica para centros educativos en España (2026)."
 tags: ["familias", "guardianes", "educación", "digital"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1640622304233-7335e936f11b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - app-familias-colegios-ventajas-2026
-  - comunicacion-colegio-familias-plataforma-digital
-  - comunicacion-digital-centros-educativos
-  - comunicacion-familias-era-digital
+    - app-familias-colegios-ventajas-2026
+    - comunicacion-colegio-familias-plataforma-digital
+    - comunicacion-digital-centros-educativos
+    - comunicacion-familias-era-digital
 faqs:
-  - question: "¿Acuerdo de uso de dispositivos?"
-    answer: "Reglas claras por edad, firmado por familias al matricular."
-  - question: "¿Control parental en app del centro?"
-    answer: "El centro informa; el control en casa es responsabilidad familiar con guía del centro."
-  - question: "¿Menores de 14 años?"
-    answer: "Consentimiento parental para tratamientos de datos en plataformas."
+    - question: "¿Acuerdo de uso de dispositivos?"
+      answer: "Reglas claras por edad, firmado por familias al matricular."
+    - question: "¿Control parental en app del centro?"
+      answer: "El centro informa; el control en casa es responsabilidad familiar con guía del centro."
+    - question: "¿Menores de 14 años?"
+      answer: "Consentimiento parental para tratamientos de datos en plataformas."
 ---
 
 <strong>Guardianes en la educación digital: El papel de los padres en la era tecnológica</strong>

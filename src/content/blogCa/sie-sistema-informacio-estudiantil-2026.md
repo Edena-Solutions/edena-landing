@@ -7,22 +7,21 @@ tags:
     - "sistema d'informació estudiantil"
     - "gestió escolar"
     - "centres educatius"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
 relatedPosts:
-  - comparativa-programari-gestio-escolar-2026
-  - checklist-software-escolar-director-2026
-  - millor-programari-gestio-escolar
-  - triar-programari-gestio-escolar
+    - comparativa-programari-gestio-escolar-2026
+    - checklist-software-escolar-director-2026
+    - millor-programari-gestio-escolar
+    - triar-programari-gestio-escolar
 faqs:
-  - question: "Un SIS escolar és el mateix que un ERP educatiu?"
-    answer: "No exactament. Un SIS se centra en la informació estudiantil (expedients, assistència, comunicació). Un ERP escolar sol incloure a més facturació, recursos humans, inventari i altres mòduls. Moltes plataformes integren SIS i ERP en una sola solució."
-  - question: "El sistema dinformació estudiantil ha dincloure app per a famílies?"
-    answer: "És molt recomanable. Les famílies esperen consultar assistència, pagaments i comunicacions des del mòbil. Un SIS escolar amb portal o app per a famílies millora la satisfacció i redueix consultes a secretaria."
-  - question: "Com es migren les dades al nou SIS?"
-    answer: "La majoria de proveïdors ofereixen importació des d'Excel o sistemes previs. Exigeix ​​un pla per fases, validació de dades crítiques i un període de coexistència si cal."
+    - question: "Un SIS escolar és el mateix que un ERP educatiu?"
+      answer: "No exactament. Un SIS se centra en la informació estudiantil (expedients, assistència, comunicació). Un ERP escolar sol incloure a més facturació, recursos humans, inventari i altres mòduls. Moltes plataformes integren SIS i ERP en una sola solució."
+    - question: "El sistema dinformació estudiantil ha dincloure app per a famílies?"
+      answer: "És molt recomanable. Les famílies esperen consultar assistència, pagaments i comunicacions des del mòbil. Un SIS escolar amb portal o app per a famílies millora la satisfacció i redueix consultes a secretaria."
+    - question: "Com es migren les dades al nou SIS?"
+      answer: "La majoria de proveïdors ofereixen importació des d'Excel o sistemes previs. Exigeix ​​un pla per fases, validació de dades crítiques i un període de coexistència si cal."
 ---
-
 
 Què és un SIS (Sistema d'Informació Estudiantil) i per què el teu centre educatiu en necessita un el 2026
 

@@ -3,20 +3,21 @@ title: "Guide SEO pour les établissements scolaires : apparaître sur Google"
 date: "2026-02-12"
 description: "SEO pour établissements scolaires : comment apparaître quand les familles recherchent une école. Guide pratique pour les directions et équipes."
 tags: ["SEO établissements scolaires", "visibilité", "recrutement", "marketing"]
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1743769446613-baab1264496d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 faqs:
-  - question: "Le SEO d'un établissement met-il longtemps à produire un effet ?"
-    answer: "Oui. Les effets se voient souvent en 3 à 6 mois selon la concurrence et l'état du site. C'est un investissement à moyen terme, pas un effet immédiat comme la publicité."
-  - question: "Faut-il un blog ?"
-    answer: "Ce n'est pas obligatoire, mais un blog utile (choisir un établissement, pédagogie, etc.) aide sur les requêtes longues et la crédibilité. Vous pouvez commencer par quelques articles ciblés."
-  - question: "Comment rivaliser avec de plus gros acteurs ?"
-    answer: "Sur des requêtes très larges, c'est plus dur. En local (« école [votre zone] », « crèche [quartier] ») et sur des offres spécifiques, un site clair et une fiche Google soignée suffisent souvent."
-  - question: "Les réseaux influencent-ils le SEO ?"
-    answer: "Indirectement : ils ne classent pas le site, mais trafic et notoriété aident. Commencez par le site et la fiche Google ; les réseaux viennent en complément."
-  - question: "Faut-il une agence ?"
-    answer: "Cela dépend du temps interne. Beaucoup de tâches (pages, fiche, contenu de base) sont faisables en interne ; pour une stratégie avancée ou le netlinking, une agence spécialisée peut aider."
+    - question: "Le SEO d'un établissement met-il longtemps à produire un effet ?"
+      answer: "Oui. Les effets se voient souvent en 3 à 6 mois selon la concurrence et l'état du site. C'est un investissement à moyen terme, pas un effet immédiat comme la publicité."
+    - question: "Faut-il un blog ?"
+      answer: "Ce n'est pas obligatoire, mais un blog utile (choisir un établissement, pédagogie, etc.) aide sur les requêtes longues et la crédibilité. Vous pouvez commencer par quelques articles ciblés."
+    - question: "Comment rivaliser avec de plus gros acteurs ?"
+      answer: "Sur des requêtes très larges, c'est plus dur. En local (« école [votre zone] », « crèche [quartier] ») et sur des offres spécifiques, un site clair et une fiche Google soignée suffisent souvent."
+    - question: "Les réseaux influencent-ils le SEO ?"
+      answer: "Indirectement : ils ne classent pas le site, mais trafic et notoriété aident. Commencez par le site et la fiche Google ; les réseaux viennent en complément."
+    - question: "Faut-il une agence ?"
+      answer: "Cela dépend du temps interne. Beaucoup de tâches (pages, fiche, contenu de base) sont faisables en interne ; pour une stratégie avancée ou le netlinking, une agence spécialisée peut aider."
 ---
+
 <strong>Guide SEO pour les établissements scolaires : comment apparaître sur Google quand les familles cherchent une école</strong>
 <br>
 

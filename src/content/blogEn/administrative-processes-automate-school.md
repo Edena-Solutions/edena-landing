@@ -7,20 +7,20 @@ tags:
     - "school administrative management"
     - "processes"
     - "digitization"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop"
 relatedPosts:
-  - save-15-hours-school-admin-2026
-  - automation-school-absenteeism
-  - ai-school-administration-cases
-  - automated-administrative-tasks
+    - save-15-hours-school-admin-2026
+    - automation-school-absenteeism
+    - ai-school-administration-cases
+    - automated-administrative-tasks
 faqs:
-  - question: "Does automation in educational centers replace jobs?"
-    answer: "No. It frees up time for higher value tasks: caring for families, resolving incidents, improving processes. Automated school administrative management allows the team to focus on what matters."
-  - question: "How long does it take to implement automation in educational centers?"
-    answer: "It depends on the process. Billing and reminders can be operational in weeks. A complete automation of school administrative management can take several months. Plan in phases and measure results."
-  - question: "What process do I start to automate?"
-    answer: "Recurring charges and assistance tend to be the ones with the greatest immediate return in hours and errors avoided."
+    - question: "Does automation in educational centers replace jobs?"
+      answer: "No. It frees up time for higher value tasks: caring for families, resolving incidents, improving processes. Automated school administrative management allows the team to focus on what matters."
+    - question: "How long does it take to implement automation in educational centers?"
+      answer: "It depends on the process. Billing and reminders can be operational in weeks. A complete automation of school administrative management can take several months. Plan in phases and measure results."
+    - question: "What process do I start to automate?"
+      answer: "Recurring charges and assistance tend to be the ones with the greatest immediate return in hours and errors avoided."
 ---
 
 <strong>The 10 administrative processes that you should automate in your school</strong>

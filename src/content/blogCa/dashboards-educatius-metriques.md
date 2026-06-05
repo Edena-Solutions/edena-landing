@@ -7,26 +7,25 @@ tags:
     - "dades"
     - "direcció"
     - "indicadors"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1667850562258-b77dfa54c79d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpi-director-escola-mensual-2026
-  - dashboard-educatiu
-  - analitica-educativa-dashboards-escolars
-  - analitica-rendiment-academic
+    - kpi-director-escola-mensual-2026
+    - dashboard-educatiu
+    - analitica-educativa-dashboards-escolars
+    - analitica-rendiment-academic
 faqs:
-  - question: "Necessitem un BI a part o n'hi ha prou amb el programari de gestió?"
-    answer: "Molts programari de gestió escolar inclouen reportis i dashboards bàsics. Si cobreixen les teves necessitats de cobrament, retenció i assistència, pot ser suficient. Un BI a part té sentit quan necessites creuar moltes fonts o anàlisis molt personalitzades."
-  - question: "Qui ha de configurar el dashboard educatiu?"
-    answer: "L'ideal és que el configuri algú que conegui els processos (admin o adreça) amb suport del proveïdor si cal. Les mètriques han de respondre preguntes reals del centre, no al que el sistema ofereix per defecte."
-  - question: "Les mètriques acadèmiques i les financeres poden estar al mateix dashboard?"
-    answer: "Sí, en una vista de direcció. L'important és no barrejar gran nivell de detall operatiu (llista d'impagaments) amb indicadors estratègics (taxa de retenció) a la mateixa pantalla per a la mateixa persona."
-  - question: "Amb quina freqüència cal actualitzar un dashboard educatiu?"
-    answer: "Depèn de lindicador. Cobrament i alertes poden ser en temps real o diari; ocupació i retenció solen ser setmanals o mensuals. El més crític és que l'actualització sigui automàtica des del sistema."
-  - question: "Com evitem que l'equip ignori el dashboard?"
-    answer: "Vinculant-ne l'ús a rutines (reunió setmanal de direcció, revisió d'impagaments cada dilluns) i prenent decisions visibles a partir de les dades. Si ningú no actua, el dashboard educatiu perd sentit."
+    - question: "Necessitem un BI a part o n'hi ha prou amb el programari de gestió?"
+      answer: "Molts programari de gestió escolar inclouen reportis i dashboards bàsics. Si cobreixen les teves necessitats de cobrament, retenció i assistència, pot ser suficient. Un BI a part té sentit quan necessites creuar moltes fonts o anàlisis molt personalitzades."
+    - question: "Qui ha de configurar el dashboard educatiu?"
+      answer: "L'ideal és que el configuri algú que conegui els processos (admin o adreça) amb suport del proveïdor si cal. Les mètriques han de respondre preguntes reals del centre, no al que el sistema ofereix per defecte."
+    - question: "Les mètriques acadèmiques i les financeres poden estar al mateix dashboard?"
+      answer: "Sí, en una vista de direcció. L'important és no barrejar gran nivell de detall operatiu (llista d'impagaments) amb indicadors estratègics (taxa de retenció) a la mateixa pantalla per a la mateixa persona."
+    - question: "Amb quina freqüència cal actualitzar un dashboard educatiu?"
+      answer: "Depèn de lindicador. Cobrament i alertes poden ser en temps real o diari; ocupació i retenció solen ser setmanals o mensuals. El més crític és que l'actualització sigui automàtica des del sistema."
+    - question: "Com evitem que l'equip ignori el dashboard?"
+      answer: "Vinculant-ne l'ús a rutines (reunió setmanal de direcció, revisió d'impagaments cada dilluns) i prenent decisions visibles a partir de les dades. Si ningú no actua, el dashboard educatiu perd sentit."
 ---
-
 
 <strong>Com utilitzar dashboards educatius per millorar mètriques acadèmiques i financeres</strong>
 

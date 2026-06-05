@@ -7,19 +7,18 @@ tags:
     - "lideratge educatiu"
     - "transformació organitzacional"
     - "innovació"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1558932129-58b0867c4985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - llista-verificacio-digitalitzacio-2026
+    - llista-verificacio-digitalitzacio-2026
 faqs:
-  - question: "Quant invertir en ads?"
-    answer: "Primer tanca web, Google Business i CRM. Mesura el cost per matrícula tancada abans d'ampliar pressupost."
-  - question: "Com alinear màrqueting i secretaria?"
-    answer: "Mateixa informació de quotes i serveis a web, visita i contracte. Una sola font de veritat al ERP."
-  - question: "Què funciona millor per captar famílies a Espanya?"
-    answer: "SEO local, Google Business, Open Day amb formulari curt i seguiment CRM en 24-48 hores."
+    - question: "Quant invertir en ads?"
+      answer: "Primer tanca web, Google Business i CRM. Mesura el cost per matrícula tancada abans d'ampliar pressupost."
+    - question: "Com alinear màrqueting i secretaria?"
+      answer: "Mateixa informació de quotes i serveis a web, visita i contracte. Una sola font de veritat al ERP."
+    - question: "Què funciona millor per captar famílies a Espanya?"
+      answer: "SEO local, Google Business, Open Day amb formulari curt i seguiment CRM en 24-48 hores."
 ---
-
 
 <strong>Gestió del canvi organitzacional en centres educatius: Estratègies per a la transformació amb èxit</strong>
 

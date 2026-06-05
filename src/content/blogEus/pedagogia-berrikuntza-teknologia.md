@@ -7,17 +7,17 @@ tags:
     - "pedagogía"
     - "metodologías"
     - "aprendizaje"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1564514476902-542f8c30121e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalizazio-egiaztapen-zerrenda-2026
+    - digitalizazio-egiaztapen-zerrenda-2026
 faqs:
-  - question: "Nola lerrokatu teknologia LOMLOE-rekin?"
-    answer: "Lehenetsi funtsezko gaitasunetarako eta etengabeko ebaluaziorako denbora askatzen duten tresnak, ez tramankulu isolatuak."
-  - question: "Irakasleen prestakuntza: zenbat da nahikoa?"
-    answer: "Tresna bakoitzeko 60 minutuko saioak, grabatuak, etapa bakoitzeko erreferentzia batekin parekideen arteko zalantzak konpontzeko."
-  - question: "Digitalizazioak denbora pedagogikoa kentzen al du?"
-    answer: "Ongi eginda, merezi du: zerrendak eta eskuzko zirkularrak bikoiztu gutxiago ebaluazio eta tutoretzarako denbora gehiago dakar."
+    - question: "Nola lerrokatu teknologia LOMLOE-rekin?"
+      answer: "Lehenetsi funtsezko gaitasunetarako eta etengabeko ebaluaziorako denbora askatzen duten tresnak, ez tramankulu isolatuak."
+    - question: "Irakasleen prestakuntza: zenbat da nahikoa?"
+      answer: "Tresna bakoitzeko 60 minutuko saioak, grabatuak, etapa bakoitzeko erreferentzia batekin parekideen arteko zalantzak konpontzeko."
+    - question: "Digitalizazioak denbora pedagogikoa kentzen al du?"
+      answer: "Ongi eginda, merezi du: zerrendak eta eskuzko zirkularrak bikoiztu gutxiago ebaluazio eta tutoretzarako denbora gehiago dakar."
 ---
 
 <strong>Berrikuntza pedagogikoa teknologiarekin: Irakaskuntza eta ikaskuntza eraldatzen</strong>

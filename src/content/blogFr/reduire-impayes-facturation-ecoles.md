@@ -3,14 +3,15 @@ title: "Comment réduire les impayés et améliorer la facturation dans les éta
 date: "2026-03-03"
 description: "Facturation des écoles et gestion des paiements scolaires : stratégies pour réduire les impayés, automatiser les encaissements et améliorer la trésorerie."
 tags: ["facturation écoles", "gestion des paiements scolaires", "impayés", "encaissement"]
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1662502729255-4d3a58486d4e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJhdWRzdGVyfGVufDB8fDB8fHww"
 faqs:
-  - question: "La facturation des écoles doit-elle être conforme à la facturation électronique (ex. contexte espagnol / Verifactu) ?"
-    answer: "Selon le pays, la réglementation évolue. Les établissements doivent anticiper la facture électronique. Les paiements peuvent coexister : facture électronique et lien de paiement dans le même parcours."
-  - question: "Les paiements en ligne sont-ils sûrs ?"
-    answer: "Oui, avec une passerelle conforme au PCI-DSS et sans stockage des données carte sur vos serveurs. Le paiement en ligne intégré est sûr lorsque le prestataire respecte les normes."
+    - question: "La facturation des écoles doit-elle être conforme à la facturation électronique (ex. contexte espagnol / Verifactu) ?"
+      answer: "Selon le pays, la réglementation évolue. Les établissements doivent anticiper la facture électronique. Les paiements peuvent coexister : facture électronique et lien de paiement dans le même parcours."
+    - question: "Les paiements en ligne sont-ils sûrs ?"
+      answer: "Oui, avec une passerelle conforme au PCI-DSS et sans stockage des données carte sur vos serveurs. Le paiement en ligne intégré est sûr lorsque le prestataire respecte les normes."
 ---
+
 <strong>Comment réduire les impayés et améliorer la facturation dans les établissements scolaires</strong>
 
 <br>

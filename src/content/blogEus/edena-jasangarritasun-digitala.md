@@ -7,19 +7,19 @@ tags:
     - "digital"
     - "medio ambiente"
     - "educación"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1671829480432-9b0f10d869ef?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - erabiltzaile-esperientzia-hezkuntza-teknologia
-  - ikasle-esperientzia-garai-digitalan
-  - ikasleak-garai-digitalan
+    - erabiltzaile-esperientzia-hezkuntza-teknologia
+    - ikasle-esperientzia-garai-digitalan
+    - ikasleak-garai-digitalan
 faqs:
-  - question: "Zenbat paper kendu dezake eskola batek?"
-    answer: "Zirkularrak, baimenak eta aktak; Legez gorde behar dena jatorrizkoan edo kopia konpultsatuan."
-  - question: "Aurrezki ekonomiko neurgarriak?"
-    answer: "Bai inprentan eta orduetan; kalkulatu aurreko iraileko oinarri-lerroa."
-  - question: "Zero paperari familiaren eragozpenak?"
-    answer: "Eskain ezazu PDF deskargagarria eta idazkaritza-laguntza behar dutenentzat."
+    - question: "Zenbat paper kendu dezake eskola batek?"
+      answer: "Zirkularrak, baimenak eta aktak; Legez gorde behar dena jatorrizkoan edo kopia konpultsatuan."
+    - question: "Aurrezki ekonomiko neurgarriak?"
+      answer: "Bai inprentan eta orduetan; kalkulatu aurreko iraileko oinarri-lerroa."
+    - question: "Zero paperari familiaren eragozpenak?"
+      answer: "Eskain ezazu PDF deskargagarria eta idazkaritza-laguntza behar dutenentzat."
 ---
 
 <strong>Edena eta iraunkortasun digitala hezkuntza zentroetan</strong>

@@ -7,24 +7,24 @@ tags:
     - "families"
     - "channels"
     - "tools"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1170&auto=format&fit=crop"
 relatedPosts:
-  - school-family-app-benefits-heads-parents-2026
-  - school-family-communication-platform
-  - institutional-communication-families
-  - mobile-app-education
+    - school-family-app-benefits-heads-parents-2026
+    - school-family-communication-platform
+    - institutional-communication-families
+    - mobile-app-education
 faqs:
-  - question: "Is it better to have your own app or a web portal for families?"
-    answer: "It depends on the budget and the use. A responsive portal that works well on mobile may be enough; A native app can provide more visibility (icon, notifications) if families use it frequently."
-  - question: "Do push notifications replace email?"
-    answer: "Not necessarily. Email is still useful for long content and archiving. Push and SMS are best for short, urgent notices that require quick action."
-  - question: "How do we comply with data protection when sending mass messages?"
-    answer: "Use tools that allow you to manage consents and lists, do not share data for unauthorized commercial purposes, and unsubscribe anyone who requests it. The provider must act as data processor if it processes data on behalf of the center."
-  - question: "What do we do with parents' WhatsApp groups?"
-    answer: "It is not recommended to use them as an official channel: little control, risk to privacy and mixing of topics. Better to offer an official channel (portal, notifications) and leave WhatsApp for informal use if the center considers it appropriate, with clear rules."
-  - question: "Does digital communication in educational centers require a lot of maintenance?"
-    answer: "The initial implementation yes; Then, with templates and automations, maintenance can be low. It is advisable to review each course content and segmentation."
+    - question: "Is it better to have your own app or a web portal for families?"
+      answer: "It depends on the budget and the use. A responsive portal that works well on mobile may be enough; A native app can provide more visibility (icon, notifications) if families use it frequently."
+    - question: "Do push notifications replace email?"
+      answer: "Not necessarily. Email is still useful for long content and archiving. Push and SMS are best for short, urgent notices that require quick action."
+    - question: "How do we comply with data protection when sending mass messages?"
+      answer: "Use tools that allow you to manage consents and lists, do not share data for unauthorized commercial purposes, and unsubscribe anyone who requests it. The provider must act as data processor if it processes data on behalf of the center."
+    - question: "What do we do with parents' WhatsApp groups?"
+      answer: "It is not recommended to use them as an official channel: little control, risk to privacy and mixing of topics. Better to offer an official channel (portal, notifications) and leave WhatsApp for informal use if the center considers it appropriate, with clear rules."
+    - question: "Does digital communication in educational centers require a lot of maintenance?"
+      answer: "The initial implementation yes; Then, with templates and automations, maintenance can be low. It is advisable to review each course content and segmentation."
 ---
 
 <strong>Improving communication with families: digital tools beyond email</strong>
@@ -145,11 +145,11 @@ With consent and discretion, for coordination; It does not replace a traceable i
 
 <br>
 
-1) Digital communication in educational centers must include a channel that families can easily consult (portal/app).  
-2) Push or SMS notifications improve the reading of urgent notices and reminders.  
-3) Segmenting by stage, service or condition increases the relevance of the messages.  
-4) Templates and automation save time and unify criteria.  
-5) Define which channel to use for each type of message avoids noise and improves the response.
+1. Digital communication in educational centers must include a channel that families can easily consult (portal/app).
+2. Push or SMS notifications improve the reading of urgent notices and reminders.
+3. Segmenting by stage, service or condition increases the relevance of the messages.
+4. Templates and automation save time and unify criteria.
+5. Define which channel to use for each type of message avoids noise and improves the response.
 
 Do you want to review how to improve communication with the families at your center? Request a demo and we will see channels, segmentation and flows that best adapt to your reality.
 

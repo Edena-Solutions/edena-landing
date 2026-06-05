@@ -7,20 +7,19 @@ tags:
     - "digital"
     - "gestió"
     - "educació"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1583521214690-73421a1829a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - gestio-documental-col-legis-2026
-  - expedient-academic-digital-estudiants
+    - gestio-documental-col-legis-2026
+    - expedient-academic-digital-estudiants
 faqs:
-  - question: "¿Digitalitzar tot l'arxiu històric?"
-    answer: "Prioritzeu curs actual i documents actius; l'històric per fases."
-  - question: "Qui pot esborrar documents?"
-    answer: "Només rols autoritzats; log d'eliminació per a auditoria."
-  - question: "Signatura digital vàlida?"
-    answer: "Consulteu tipus de document; moltes autoritzacions escolars admeten signatura simple amb traçabilitat."
+    - question: "¿Digitalitzar tot l'arxiu històric?"
+      answer: "Prioritzeu curs actual i documents actius; l'històric per fases."
+    - question: "Qui pot esborrar documents?"
+      answer: "Només rols autoritzats; log d'eliminació per a auditoria."
+    - question: "Signatura digital vàlida?"
+      answer: "Consulteu tipus de document; moltes autoritzacions escolars admeten signatura simple amb traçabilitat."
 ---
-
 
 <strong>Gestió documental digital: el futur de ladministració escolar</strong>
 

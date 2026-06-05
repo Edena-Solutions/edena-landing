@@ -2,15 +2,22 @@
 title: "Les 10 processus administratifs à automatiser dans votre établissement"
 date: "2026-03-02"
 description: "Automatisation des établissements scolaires : dix processus de gestion administrative scolaire à fort impact lorsqu'on les numérise."
-tags: ["automatisation établissements scolaires", "gestion administrative scolaire", "processus", "numérisation"]
-author: "Équipe Edena"
+tags:
+    [
+        "automatisation établissements scolaires",
+        "gestion administrative scolaire",
+        "processus",
+        "numérisation",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop"
 faqs:
-  - question: "L'automatisation supprime-t-elle des emplois ?"
-    answer: "Non. Elle libère du temps pour l'accueil des familles, la résolution d'incidents, l'amélioration des processus. L'automatisation de la gestion administrative permet de se concentrer sur l'essentiel."
-  - question: "Combien de temps dure le déploiement ?"
-    answer: "Cela dépend des processus. Facturation et relances peuvent être opérationnelles en quelques semaines. Une automatisation complète peut s'étaler sur plusieurs mois. Avancez par phases et mesurez les effets."
+    - question: "L'automatisation supprime-t-elle des emplois ?"
+      answer: "Non. Elle libère du temps pour l'accueil des familles, la résolution d'incidents, l'amélioration des processus. L'automatisation de la gestion administrative permet de se concentrer sur l'essentiel."
+    - question: "Combien de temps dure le déploiement ?"
+      answer: "Cela dépend des processus. Facturation et relances peuvent être opérationnelles en quelques semaines. Une automatisation complète peut s'étaler sur plusieurs mois. Avancez par phases et mesurez les effets."
 ---
+
 <strong>Les 10 processus administratifs à automatiser dans votre établissement</strong>
 
 <br>

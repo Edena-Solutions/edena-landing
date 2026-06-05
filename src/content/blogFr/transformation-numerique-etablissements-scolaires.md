@@ -7,19 +7,18 @@ tags:
     - "changement organisationnel"
     - "direction"
     - "innovation"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-numerisation-2026
+    - checklist-numerisation-2026
 faqs:
-  - question: "Comment mesurer le succès du changement ?"
-    answer: "Heures d'administration hebdomadaires, taux d'erreur de facturation ou durée moyenne d'inscription d'une nouvelle famille."
-  - question: "Quel processus dois-je commencer à automatiser ?"
-    answer: "Les frais récurrents et l'assistance ont tendance à être ceux qui génèrent le plus grand retour immédiat en heures et en erreurs évitées."
-  - question: "Combien de temps dure un pilote raisonnable ?"
-    answer: "Entre 8 et 12 semaines, avec un cycle de facturation ou d'admission réel et des critères de réussite écrits."
+    - question: "Comment mesurer le succès du changement ?"
+      answer: "Heures d'administration hebdomadaires, taux d'erreur de facturation ou durée moyenne d'inscription d'une nouvelle famille."
+    - question: "Quel processus dois-je commencer à automatiser ?"
+      answer: "Les frais récurrents et l'assistance ont tendance à être ceux qui génèrent le plus grand retour immédiat en heures et en erreurs évitées."
+    - question: "Combien de temps dure un pilote raisonnable ?"
+      answer: "Entre 8 et 12 semaines, avec un cycle de facturation ou d'admission réel et des critères de réussite écrits."
 ---
-
 
 <strong>Transformation numérique dans les établissements scolaires : de la résistance au succès</strong>
 

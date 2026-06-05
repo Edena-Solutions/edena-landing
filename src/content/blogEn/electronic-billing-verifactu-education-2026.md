@@ -8,20 +8,20 @@ tags:
     - "regulatory compliance"
     - "automation"
     - "financial management"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1679922389535-7f4badadc07c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - school-arrears-automated-billing-2026
-  - head-teacher-monthly-kpis-2026
-  - reduce-arrears-billing-schools
-  - online-payments-education
+    - school-arrears-automated-billing-2026
+    - head-teacher-monthly-kpis-2026
+    - reduce-arrears-billing-schools
+    - online-payments-education
 faqs:
-  - question: "What is Verifactu and why is it crucial for educational centers?"
-    answer: "Verifactu is the official system of the Spanish Tax Agency for electronic invoicing management. This system allows the issuance, sending, reception and storage of electronic invoices securely and in accordance with Spanish tax regulations. For educational centers, integration with Verifactu is not optional; It is a legal requirement that guarantees compliance with all current tax regulations. The importance of Verifactu goes beyond simple regulatory compliance. This system provides:-"
-  - question: "How much late payment is 'normal' at a private school?"
-    answer: "It varies by socioeconomic profile and collection method, but many healthy centers move between 4% and 8% at 45 days. Above 10% it is advisable to review the calendar, direct debit and sequence of reminders before expanding the workforce."
-  - question: "Does Verifactu change how I charge families?"
-    answer: "Verifactu mainly affects the issuance and traceability of invoices before the AEAT, not the payment method itself. It does require your billing software to generate compliant records; It is advisable to integrate it with collections and conciliation."
+    - question: "What is Verifactu and why is it crucial for educational centers?"
+      answer: "Verifactu is the official system of the Spanish Tax Agency for electronic invoicing management. This system allows the issuance, sending, reception and storage of electronic invoices securely and in accordance with Spanish tax regulations. For educational centers, integration with Verifactu is not optional; It is a legal requirement that guarantees compliance with all current tax regulations. The importance of Verifactu goes beyond simple regulatory compliance. This system provides:-"
+    - question: "How much late payment is 'normal' at a private school?"
+      answer: "It varies by socioeconomic profile and collection method, but many healthy centers move between 4% and 8% at 45 days. Above 10% it is advisable to review the calendar, direct debit and sequence of reminders before expanding the workforce."
+    - question: "Does Verifactu change how I charge families?"
+      answer: "Verifactu mainly affects the issuance and traceability of invoices before the AEAT, not the payment method itself. It does require your billing software to generate compliant records; It is advisable to integrate it with collections and conciliation."
 ---
 
 <strong>Electronic Billing and Verifactu in Education 2026: Regulatory Compliance and Efficiency</strong>

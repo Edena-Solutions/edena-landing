@@ -9,26 +9,25 @@ tags:
     - "administrazio-zereginak murriztea"
     - "eskola denboraren kudeaketa"
     - "Edena"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - eskola-absentismoaren-automatizazioa
-  - ia-eskola-kudeaketa-kasu-praktikoak
-  - ikastetxe-administrazio-prozesu-automatizatu
-  - administrazio-lanen-automatizazioa
+    - eskola-absentismoaren-automatizazioa
+    - ia-eskola-kudeaketa-kasu-praktikoak
+    - ikastetxe-administrazio-prozesu-automatizatu
+    - administrazio-lanen-automatizazioa
 faqs:
-  - question: "15 ordu errealistak al dira 100 ikasle baino gutxiago dituen eskola txiki baterako?"
-    answer: "Bai, matxura aldatzen den arren. Zentro txikietan, denbora gehiago galtzen da eskuzko bilketa lanetan eta bakarkako komunikazioan. Ordainagiriaren automatizazioaren pilotu batek eta erregistro-inprimaki digital batek astean sei eta hamar ordu artean berreskura ditzakete bi hilabetetan, erabileraren bolumenaren eta diziplinaren arabera."
-  - question: "Modulu guztiak behar al ditut aurrezkiak ikusteko?"
-    answer: "Ez. Marruskadura gehien sortzen duen bloketik hasi: bilketak badira, fakturazio modulua. Erregistroa bada, inprimakiekin CRM. Komunikazioa bada, ebaluatu oinarrizkoa nahikoa den Pro kontratatu aurretik. Aurrezpena kanal paraleloa ixten denean agertzen da, ez moduluak metatzen direnean."
-  - question: "Zenbat denbora behar du taldeak aldaketara egokitzeko?"
-    answer: "Bi eta sei aste artean erabilera eta entrenamenduaren maiztasunaren arabera. Barne-buru izendatua eta eguneroko erabilerarako gida erraz bat duten taldeak beren kabuz hasten direnak baino askoz azkarrago moldatzen dira. Edena onboarding eta 24/7 laguntza barne hartzen ditu trantsizio horrekin laguntzeko."
-  - question: "Denbora aurrezteak langileak murriztea esan nahi du?"
-    answer: "Ez derrigorrez. Zentro gehienetan, berreskuratutako denbora familientzako kalitatezko arretara, hobekuntza proiektuetara edo kontrataziora bideratzen da. Eraginkortasuna ez da aitzakia langileak murrizteko: lan erabilgarriagoa eta ez hain errepikakorra egiteko argudioa da."
-  - question: "Nola konbentzituko dut zuzendaritza inbertsioa ordaintzen dela?"
-    answer: "Zure datuekin: erregistratu aldez aurretik bi asteko prozesu-denbora, kalkulatu idazkaritzaren orduko kostua eta kalkulatu itzulera hamabi hilabeteren buruan. Kasu gehienetan, murrizketa lehenetsiak bakarrik estaltzen du fakturazio-moduluaren kostua. Gehitu berreskuratutako denboraren balioa eta argumentua erraza da."
+    - question: "15 ordu errealistak al dira 100 ikasle baino gutxiago dituen eskola txiki baterako?"
+      answer: "Bai, matxura aldatzen den arren. Zentro txikietan, denbora gehiago galtzen da eskuzko bilketa lanetan eta bakarkako komunikazioan. Ordainagiriaren automatizazioaren pilotu batek eta erregistro-inprimaki digital batek astean sei eta hamar ordu artean berreskura ditzakete bi hilabetetan, erabileraren bolumenaren eta diziplinaren arabera."
+    - question: "Modulu guztiak behar al ditut aurrezkiak ikusteko?"
+      answer: "Ez. Marruskadura gehien sortzen duen bloketik hasi: bilketak badira, fakturazio modulua. Erregistroa bada, inprimakiekin CRM. Komunikazioa bada, ebaluatu oinarrizkoa nahikoa den Pro kontratatu aurretik. Aurrezpena kanal paraleloa ixten denean agertzen da, ez moduluak metatzen direnean."
+    - question: "Zenbat denbora behar du taldeak aldaketara egokitzeko?"
+      answer: "Bi eta sei aste artean erabilera eta entrenamenduaren maiztasunaren arabera. Barne-buru izendatua eta eguneroko erabilerarako gida erraz bat duten taldeak beren kabuz hasten direnak baino askoz azkarrago moldatzen dira. Edena onboarding eta 24/7 laguntza barne hartzen ditu trantsizio horrekin laguntzeko."
+    - question: "Denbora aurrezteak langileak murriztea esan nahi du?"
+      answer: "Ez derrigorrez. Zentro gehienetan, berreskuratutako denbora familientzako kalitatezko arretara, hobekuntza proiektuetara edo kontrataziora bideratzen da. Eraginkortasuna ez da aitzakia langileak murrizteko: lan erabilgarriagoa eta ez hain errepikakorra egiteko argudioa da."
+    - question: "Nola konbentzituko dut zuzendaritza inbertsioa ordaintzen dela?"
+      answer: "Zure datuekin: erregistratu aldez aurretik bi asteko prozesu-denbora, kalkulatu idazkaritzaren orduko kostua eta kalkulatu itzulera hamabi hilabeteren buruan. Kasu gehienetan, murrizketa lehenetsiak bakarrik estaltzen du fakturazio-moduluaren kostua. Gehitu berreskuratutako denboraren balioa eta argumentua erraza da."
 ---
-
 
 <strong>Nola aurreztu astean 15 ordu ikastetxeko administrazioan</strong>
 

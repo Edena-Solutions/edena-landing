@@ -3,20 +3,21 @@ title: "Comment intégrer les paiements en ligne dans les écoles et réduire le
 date: "2026-02-21"
 description: "Paiements en ligne dans l'éducation : passerelles, relances et bonnes pratiques pour réduire les impayés dans les établissements scolaires."
 tags: ["paiements en ligne éducation", "impayés", "facturation", "établissements scolaires"]
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1556740714-a8395b3bf30f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 faqs:
-  - question: "Les paiements en ligne en éducation sont-ils sécurisés ?"
-    answer: "Oui, si vous utilisez une passerelle conforme au PCI-DSS et ne stockez pas les données de carte. Le paiement s'effectue sur la page du prestataire ou avec tokenisation ; l'établissement ne manipule pas le numéro de carte."
-  - question: "Quel coût pour une passerelle pour établissements scolaires ?"
-    answer: "C'est en général un pourcentage par transaction, éventuellement complété d'un forfait mensuel. Comparez au coût actuel de la gestion manuelle des encaissements et à l'effet d'une baisse des impayés."
-  - question: "Peut-on continuer à proposer espèces ou chèque ?"
-    answer: "Oui. Les paiements en ligne en éducation peuvent coexister avec d'autres moyens ; l'objectif est que quiconque préfère payer en ligne puisse le faire sans friction."
-  - question: "Que faire si une famille dit avoir payé sans que cela n'apparaisse dans le système ?"
-    answer: "Avoir une procédure : vérifier sur la passerelle et en banque, demander un justificatif à la famille et mettre à jour le statut une fois l'opération confirmée. La conciliation périodique limite ces cas."
-  - question: "La facturation électronique (Verifactu) concerne-t-elle les paiements en ligne ?"
-    answer: "Ce sont des sujets distincts : la facturation électronique encadre le format et l'envoi des factures ; les paiements en ligne sont le mode d'encaissement. Ils peuvent coexister : facture électronique et lien de paiement dans le même parcours."
+    - question: "Les paiements en ligne en éducation sont-ils sécurisés ?"
+      answer: "Oui, si vous utilisez une passerelle conforme au PCI-DSS et ne stockez pas les données de carte. Le paiement s'effectue sur la page du prestataire ou avec tokenisation ; l'établissement ne manipule pas le numéro de carte."
+    - question: "Quel coût pour une passerelle pour établissements scolaires ?"
+      answer: "C'est en général un pourcentage par transaction, éventuellement complété d'un forfait mensuel. Comparez au coût actuel de la gestion manuelle des encaissements et à l'effet d'une baisse des impayés."
+    - question: "Peut-on continuer à proposer espèces ou chèque ?"
+      answer: "Oui. Les paiements en ligne en éducation peuvent coexister avec d'autres moyens ; l'objectif est que quiconque préfère payer en ligne puisse le faire sans friction."
+    - question: "Que faire si une famille dit avoir payé sans que cela n'apparaisse dans le système ?"
+      answer: "Avoir une procédure : vérifier sur la passerelle et en banque, demander un justificatif à la famille et mettre à jour le statut une fois l'opération confirmée. La conciliation périodique limite ces cas."
+    - question: "La facturation électronique (Verifactu) concerne-t-elle les paiements en ligne ?"
+      answer: "Ce sont des sujets distincts : la facturation électronique encadre le format et l'envoi des factures ; les paiements en ligne sont le mode d'encaissement. Ils peuvent coexister : facture électronique et lien de paiement dans le même parcours."
 ---
+
 <strong>Comment intégrer les paiements en ligne dans les écoles et réduire les impayés</strong>
 <br>
 

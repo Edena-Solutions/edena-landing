@@ -7,21 +7,21 @@ tags:
     - "digital marketing"
     - "family attraction"
     - "institutional communication"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - seo-educational-centers
-  - school-crm-enrollment-pipeline-2026
-  - online-enrolment-digitalize-school-step-by-step-2026
+    - seo-educational-centers
+    - school-crm-enrollment-pipeline-2026
+    - online-enrolment-digitalize-school-step-by-step-2026
 faqs:
-  - question: "How much should a medium-sized school invest in digital marketing?"
-    answer: "Much is solved with a well-made website, Google Business and CRM rather than with massive advertisements. Measures cost per closed registration."
-  - question: "Should I be on school comparison portals?"
-    answer: "Compare cost per tuition versus local SEO and referrals. Demand quality data from the lead to the portal."
-  - question: "Open Day only in person?"
-    answer: "Offer streaming or virtual visit to avoid losing leads who cannot attend on the fixed date."
-  - question: "How to align marketing with secretariat?"
-    answer: "Same information on fees and services on the website, visit and contract. A single source of truth in the ERP avoids broken promises."
+    - question: "How much should a medium-sized school invest in digital marketing?"
+      answer: "Much is solved with a well-made website, Google Business and CRM rather than with massive advertisements. Measures cost per closed registration."
+    - question: "Should I be on school comparison portals?"
+      answer: "Compare cost per tuition versus local SEO and referrals. Demand quality data from the lead to the portal."
+    - question: "Open Day only in person?"
+      answer: "Offer streaming or virtual visit to avoid losing leads who cannot attend on the fixed date."
+    - question: "How to align marketing with secretariat?"
+      answer: "Same information on fees and services on the website, visit and contract. A single source of truth in the ERP avoids broken promises."
 ---
 
 <strong>Digital educational marketing in Spain</strong>

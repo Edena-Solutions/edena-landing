@@ -7,24 +7,23 @@ tags:
     - "dashboard eskola"
     - "datuak"
     - "erabakiak hartzea"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpi-hileko-zuzendaria-2026
-  - hezkuntza-dashboarda
-  - hezkuntza-panel-metrikak
-  - analitika-errendimendu-akademikoa
+    - kpi-hileko-zuzendaria-2026
+    - hezkuntza-dashboarda
+    - hezkuntza-panel-metrikak
+    - analitika-errendimendu-akademikoa
 faqs:
-  - question: "Aparteko BI bat behar al dut hezkuntza-analisirako?"
-    answer: "Ez derrigorrez. Kudeaketa-software askok eskolako oinarrizko aginte-panelak barne hartzen ditu. Bilketa, asistentzia eta atxikipena estaltzen badituzte, nahikoa izan daiteke. Aparteko BI batek zentzua du iturri asko edo oso pertsonalizatutako analisiak gurutzatu behar dituzunean."
-  - question: "Nork konfiguratu behar du eskola dashboard?"
-    answer: "Prozesuak (administratzailea edo kudeaketa) ezagutzen dituen norbait hornitzailearen laguntzarekin. Hezkuntza analitikak zentroaren benetako galderei erantzun behar die, ez sistemak berez eskaintzen duenari."
-  - question: "Zenbat aldiz eguneratu behar dira hezkuntza-analisiak?"
-    answer: "Adierazlearen araberakoa da. Bilketa eta alertak denbora errealean edo egunero izan daitezke. Atxikipena astero edo hilero izaten da. Garrantzitsua da eskola dashboard sistematik automatikoki eguneratzen dela."
-  - question: "Zenbat aginte-panel behar ditut?"
-    answer: "Kudeaketarako hilero eragiketa bat; saihestu Excel bikoiztu."
+    - question: "Aparteko BI bat behar al dut hezkuntza-analisirako?"
+      answer: "Ez derrigorrez. Kudeaketa-software askok eskolako oinarrizko aginte-panelak barne hartzen ditu. Bilketa, asistentzia eta atxikipena estaltzen badituzte, nahikoa izan daiteke. Aparteko BI batek zentzua du iturri asko edo oso pertsonalizatutako analisiak gurutzatu behar dituzunean."
+    - question: "Nork konfiguratu behar du eskola dashboard?"
+      answer: "Prozesuak (administratzailea edo kudeaketa) ezagutzen dituen norbait hornitzailearen laguntzarekin. Hezkuntza analitikak zentroaren benetako galderei erantzun behar die, ez sistemak berez eskaintzen duenari."
+    - question: "Zenbat aldiz eguneratu behar dira hezkuntza-analisiak?"
+      answer: "Adierazlearen araberakoa da. Bilketa eta alertak denbora errealean edo egunero izan daitezke. Atxikipena astero edo hilero izaten da. Garrantzitsua da eskola dashboard sistematik automatikoki eguneratzen dela."
+    - question: "Zenbat aginte-panel behar ditut?"
+      answer: "Kudeaketarako hilero eragiketa bat; saihestu Excel bikoiztu."
 ---
-
 
 <strong>Datuak eta analitika hezkuntzan: nola hartu erabaki hobeak ikastetxeko aginte-panelekin</strong>
 

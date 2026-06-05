@@ -7,26 +7,25 @@ tags:
     - "établissements scolaires"
     - "sélection"
     - "numérisation"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop"
 relatedPosts:
-  - comparatif-logiciel-gestion-scolaire-espagne-2026
-  - choisir-logiciel-scolaire-checklist-2026
-  - choisir-logiciel-gestion-scolaire
-  - erp-scolaire-guide-numerisation
+    - comparatif-logiciel-gestion-scolaire-espagne-2026
+    - choisir-logiciel-scolaire-checklist-2026
+    - choisir-logiciel-gestion-scolaire
+    - erp-scolaire-guide-numerisation
 faqs:
-  - question: "Combien coûte la mise en œuvre d’un logiciel de gestion scolaire ?"
-    answer: "Cela dépend de la taille du centre et de son périmètre. À la licence s’ajoutent la formation, la migration des données et une éventuelle personnalisation. Comparez le coût total sur 3 ans."
-  - question: "Puis-je migrer les données du système actuel ?"
-    answer: "La plupart des fournisseurs proposent l'importation à partir d'Excel ou de systèmes antérieurs. Nécessite un plan de migration par étapes et une validation des données critiques."
-  - question: "Le logiciel de gestion scolaire comprend-il une application pour les familles ?"
-    answer: "Pas tout. Si la communication avec les familles est une priorité, consultez l'application ou le portail et les notifications (rappels de paiement, absences, circulaires)."
-  - question: "Qu’en est-il de la facturation électronique et de Verifactu ?"
-    answer: "En Espagne, la réglementation avance. Le meilleur logiciel de gestion scolaire pour les centres doit être préparé ou en cours d'adaptation ; Veuillez le vérifier avant de signer."
-  - question: "Un logiciel modulaire ou tout-en-un est-il approprié ?"
-    answer: "Cela dépend si vous disposez déjà d’outils que vous souhaitez entretenir (par exemple une plateforme académique). Un noyau unifié (facturation, familles, administration) simplifie souvent les opérations quotidiennes."
+    - question: "Combien coûte la mise en œuvre d’un logiciel de gestion scolaire ?"
+      answer: "Cela dépend de la taille du centre et de son périmètre. À la licence s’ajoutent la formation, la migration des données et une éventuelle personnalisation. Comparez le coût total sur 3 ans."
+    - question: "Puis-je migrer les données du système actuel ?"
+      answer: "La plupart des fournisseurs proposent l'importation à partir d'Excel ou de systèmes antérieurs. Nécessite un plan de migration par étapes et une validation des données critiques."
+    - question: "Le logiciel de gestion scolaire comprend-il une application pour les familles ?"
+      answer: "Pas tout. Si la communication avec les familles est une priorité, consultez l'application ou le portail et les notifications (rappels de paiement, absences, circulaires)."
+    - question: "Qu’en est-il de la facturation électronique et de Verifactu ?"
+      answer: "En Espagne, la réglementation avance. Le meilleur logiciel de gestion scolaire pour les centres doit être préparé ou en cours d'adaptation ; Veuillez le vérifier avant de signer."
+    - question: "Un logiciel modulaire ou tout-en-un est-il approprié ?"
+      answer: "Cela dépend si vous disposez déjà d’outils que vous souhaitez entretenir (par exemple une plateforme académique). Un noyau unifié (facturation, familles, administration) simplifie souvent les opérations quotidiennes."
 ---
-
 
 <strong>Comment choisir le meilleur logiciel de gestion scolaire pour votre établissement scolaire</strong>
 

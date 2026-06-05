@@ -8,22 +8,21 @@ tags:
     - "innovació educativa"
     - "IA educació"
     - "aprenentatge adaptatiu"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1630148198235-6bd561ba72a4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologies-pedagogiques-innovadores
-  - innovacio-pedagogica-tecnologia
-  - avaluacio-assessment-digital-educatiu
-  - espais-educatius-futur-disseny
+    - metodologies-pedagogiques-innovadores
+    - innovacio-pedagogica-tecnologia
+    - avaluacio-assessment-digital-educatiu
+    - espais-educatius-futur-disseny
 faqs:
-  - question: "Pantalla interactiva o portàtil?"
-    answer: "Depèn del projecte pedagògic; eviteu compra sense formació."
-  - question: "ROI a admin?"
-    answer: "Integrar assistència i qualificacions a la mateixa plataforma redueix doble entrada."
-  - question: "Sostenibilitat?"
-    answer: "Renovació per cicles, no pas per moda."
+    - question: "Pantalla interactiva o portàtil?"
+      answer: "Depèn del projecte pedagògic; eviteu compra sense formació."
+    - question: "ROI a admin?"
+      answer: "Integrar assistència i qualificacions a la mateixa plataforma redueix doble entrada."
+    - question: "Sostenibilitat?"
+      answer: "Renovació per cicles, no pas per moda."
 ---
-
 
 <strong>Noves Tecnologies a l'Aula 2026: Transformant l'Experiència Educativa</strong>
 

@@ -3,17 +3,17 @@ title: "Comunicación institucional con familias: Estrategias para la era digita
 date: "2025-03-10"
 description: "Descubre cómo desarrollar estrategias de comunicación institucional efectivas que fortalezcan la relación entre centros educativos y familias."
 tags: ["comunicación institucional", "estrategias", "familias", "relaciones"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-digitalizacion-2026
+    - checklist-digitalizacion-2026
 faqs:
-  - question: "¿Debo cerrar los grupos de WhatsApp del tutor?"
-    answer: "No necesariamente. Define qué va en app institucional (circulares, pagos, autorizaciones) y reserva WhatsApp para urgencias puntuales con criterio escrito."
-  - question: "¿Cómo alinear tono entre dirección y tutorías?"
-    answer: "Plantillas aprobadas, canal único para lo masivo y formación breve al claustro sobre qué no enviar por grupos informales."
-  - question: "¿Qué pasa con familias sin smartphone?"
-    answer: "Ofrece email y SMS como alternativa; nunca exijas solo app sin vía paralela documentada."
+    - question: "¿Debo cerrar los grupos de WhatsApp del tutor?"
+      answer: "No necesariamente. Define qué va en app institucional (circulares, pagos, autorizaciones) y reserva WhatsApp para urgencias puntuales con criterio escrito."
+    - question: "¿Cómo alinear tono entre dirección y tutorías?"
+      answer: "Plantillas aprobadas, canal único para lo masivo y formación breve al claustro sobre qué no enviar por grupos informales."
+    - question: "¿Qué pasa con familias sin smartphone?"
+      answer: "Ofrece email y SMS como alternativa; nunca exijas solo app sin vía paralela documentada."
 ---
 
 <strong>Comunicación institucional con familias: Estrategias para la era digital</strong>

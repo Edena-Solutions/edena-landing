@@ -9,26 +9,25 @@ tags:
     - "facturació escolar"
     - "plataforma escolar"
     - "automatització administració educativa"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - checklist-software-escolar-director-2026
-  - millor-programari-gestio-escolar
-  - triar-programari-gestio-escolar
-  - erp-escolar-guia-digitalitzacio
+    - checklist-software-escolar-director-2026
+    - millor-programari-gestio-escolar
+    - triar-programari-gestio-escolar
+    - erp-escolar-guia-digitalitzacio
 faqs:
-  - question: "Hi ha un “millor” programari de gestió escolar universal a Espanya?"
-    answer: "No. L'adequat és el que encaixa en els teus processos, dimensió, règim i prioritats de cobrament i admissió. La comparativa útil pesa cada eix, no noms de moda de la indústria."
-  - question: "He d'exigir Verifactu al contracte encara que l'obligació encara evolucioni?"
-    answer: "Exigeix ​​claredat: com tracta la plataforma la facturació electrònica, emissió, rebuts i rastreig, i quin acompanyament ofereix. L'ambigüitat costa a secretaria ia la direcció, no només a sistemes."
-  - question: "Pot substituir un CRM genèric al CRM escolar del proveïdor educatiu?"
-    answer: "De vegades, a costa de connectors, duplicar dades o perdre context. Si matrícules, cobrament i famílies viuen al mateix mòdul, la consistència i la traçabilitat solen ser majors, amb menys manteniment."
-  - question: "Quina finestra mínima de pilot justifica provar-se?"
-    answer: "Almenys vuit a dotze setmanes, amb càrrega de dades reals, un cicle de rebuts, una campanya d'admissió i criteri de tall acordat (per exemple, reduir tasques o impagaments) per decidir, no un “a veure què passa”."
-  - question: "Quin risc hi ha a triar el més barat a llicència base?"
-    answer: "Que paguis després amb hores, integracions, errors, frustració i possible remigració. Mira TCO, no pas el primer euro."
+    - question: "Hi ha un “millor” programari de gestió escolar universal a Espanya?"
+      answer: "No. L'adequat és el que encaixa en els teus processos, dimensió, règim i prioritats de cobrament i admissió. La comparativa útil pesa cada eix, no noms de moda de la indústria."
+    - question: "He d'exigir Verifactu al contracte encara que l'obligació encara evolucioni?"
+      answer: "Exigeix ​​claredat: com tracta la plataforma la facturació electrònica, emissió, rebuts i rastreig, i quin acompanyament ofereix. L'ambigüitat costa a secretaria ia la direcció, no només a sistemes."
+    - question: "Pot substituir un CRM genèric al CRM escolar del proveïdor educatiu?"
+      answer: "De vegades, a costa de connectors, duplicar dades o perdre context. Si matrícules, cobrament i famílies viuen al mateix mòdul, la consistència i la traçabilitat solen ser majors, amb menys manteniment."
+    - question: "Quina finestra mínima de pilot justifica provar-se?"
+      answer: "Almenys vuit a dotze setmanes, amb càrrega de dades reals, un cicle de rebuts, una campanya d'admissió i criteri de tall acordat (per exemple, reduir tasques o impagaments) per decidir, no un “a veure què passa”."
+    - question: "Quin risc hi ha a triar el més barat a llicència base?"
+      answer: "Que paguis després amb hores, integracions, errors, frustració i possible remigració. Mira TCO, no pas el primer euro."
 ---
-
 
 <strong>Millor programari de gestió escolar a Espanya: comparativa 2026</strong>
 

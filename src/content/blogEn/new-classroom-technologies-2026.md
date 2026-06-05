@@ -8,20 +8,20 @@ tags:
     - "educational innovation"
     - "AI education"
     - "adaptive learning"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1630148198235-6bd561ba72a4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - innovative-pedagogical-methodologies
-  - pedagogical-innovation-technology
-  - digital-assessment-evaluation-education
-  - future-educational-spaces-design
+    - innovative-pedagogical-methodologies
+    - pedagogical-innovation-technology
+    - digital-assessment-evaluation-education
+    - future-educational-spaces-design
 faqs:
-  - question: "Interactive screen or laptop?"
-    answer: "It depends on the pedagogical project; Avoid purchasing without training."
-  - question: "ROI in admin?"
-    answer: "Integrating attendance and grades into the same platform reduces double entry."
-  - question: "Sustainability?"
-    answer: "Renewal by cycles, not by fashion."
+    - question: "Interactive screen or laptop?"
+      answer: "It depends on the pedagogical project; Avoid purchasing without training."
+    - question: "ROI in admin?"
+      answer: "Integrating attendance and grades into the same platform reduces double entry."
+    - question: "Sustainability?"
+      answer: "Renewal by cycles, not by fashion."
 ---
 
 <strong>New Technologies in the Classroom 2026: Transforming the Educational Experience</strong>

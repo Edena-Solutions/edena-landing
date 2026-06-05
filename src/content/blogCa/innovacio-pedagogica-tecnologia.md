@@ -7,19 +7,18 @@ tags:
     - "pedagogia"
     - "metodologies"
     - "aprenentatge"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1564514476902-542f8c30121e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - llista-verificacio-digitalitzacio-2026
+    - llista-verificacio-digitalitzacio-2026
 faqs:
-  - question: "Com alinear tecnologia amb LOMLOE?"
-    answer: "Prioritza eines que alliberin temps per a competències clau i avaluació continuada, no gadgets aïllats."
-  - question: "Formació del claustre: quant n'hi ha prou?"
-    answer: "Sessions de 60 minuts per eina, enregistrades, amb referent per etapa que resolgui dubtes entre iguals."
-  - question: "La digitalització resta temps pedagògic?"
-    answer: "Ben feta, ho torna: menys duplicar llistats i circulars manuals significa més temps per a avaluació i tutoria."
+    - question: "Com alinear tecnologia amb LOMLOE?"
+      answer: "Prioritza eines que alliberin temps per a competències clau i avaluació continuada, no gadgets aïllats."
+    - question: "Formació del claustre: quant n'hi ha prou?"
+      answer: "Sessions de 60 minuts per eina, enregistrades, amb referent per etapa que resolgui dubtes entre iguals."
+    - question: "La digitalització resta temps pedagògic?"
+      answer: "Ben feta, ho torna: menys duplicar llistats i circulars manuals significa més temps per a avaluació i tutoria."
 ---
-
 
 <strong>Innovació pedagògica amb tecnologia: Transformant l'ensenyament i l'aprenentatge</strong>
 

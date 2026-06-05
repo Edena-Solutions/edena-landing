@@ -7,20 +7,20 @@ tags:
     - "administrative management"
     - "strategy"
     - "address"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1629721671030-a83edbb11211?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - head-teacher-monthly-kpis-2026
-  - educational-dashboards-metrics
-  - educational-analytics-school-dashboards
-  - academic-performance-analytics
+    - head-teacher-monthly-kpis-2026
+    - educational-dashboards-metrics
+    - educational-analytics-school-dashboards
+    - academic-performance-analytics
 faqs:
-  - question: "How many dashboards do I need?"
-    answer: "One monthly operation for management; avoid duplicating Excel."
-  - question: "One dashboard or several?"
-    answer: "One main for direction; Views filtered by role avoid duplicating Excel."
-  - question: "Real time update?"
-    answer: "Daily or weekly is enough for strategic decisions; real time only in collections operation."
+    - question: "How many dashboards do I need?"
+      answer: "One monthly operation for management; avoid duplicating Excel."
+    - question: "One dashboard or several?"
+      answer: "One main for direction; Views filtered by role avoid duplicating Excel."
+    - question: "Real time update?"
+      answer: "Daily or weekly is enough for strategic decisions; real time only in collections operation."
 ---
 
 <strong>Educational Dashboard: The control center for strategic management</strong>

@@ -8,22 +8,21 @@ tags:
     - "araudia betetzea"
     - "automatizazioa"
     - "finantza kudeaketa"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1679922389535-7f4badadc07c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - atzeratzea-murriztu-kobro-automatikoa-2026
-  - kpi-hileko-zuzendaria-2026
-  - fakturazio-zorrak-murriztu-ikastetxeetan
-  - hezkuntza-ordainketak-online
+    - atzeratzea-murriztu-kobro-automatikoa-2026
+    - kpi-hileko-zuzendaria-2026
+    - fakturazio-zorrak-murriztu-ikastetxeetan
+    - hezkuntza-ordainketak-online
 faqs:
-  - question: "Zer da Verifactu eta zergatik da funtsezkoa hezkuntza-zentroentzat?"
-    answer: "Verifactu Espainiako Zerga Agentziaren faktura elektronikoen kudeaketarako sistema ofiziala da. Sistema honek faktura elektronikoak jaulki, bidali, jaso eta gordetzeko aukera ematen du modu seguruan eta Espainiako zerga araudiaren arabera. Hezkuntza-zentroetarako, Verifactu-rekin integratzea ez da hautazkoa; Indarreko zerga araudi guztia betetzea bermatzen duen legezko betekizuna da. Verifactu-ren garrantzia araudia betetze hutsetik haratago doa. Sistema honek: -"
-  - question: "Zenbateko atzerapena da \"normala\" eskola pribatu batean?"
-    answer: "Profil sozioekonomikoaren eta bilketa metodoaren arabera aldatzen da, baina zentro osasuntsu asko %4 eta %8 artean mugitzen dira 45 egunetan. % 10etik gora egutegia, zordunketa eta abisuen sekuentzia berrikustea komeni da plantilla zabaldu aurretik."
-  - question: "Verifactu-k aldatzen al du familiei kobratzeko modua?"
-    answer: "Verifactu-k fakturen jaulkipenari eta trazabilitateari eragiten dio batez ere AEATri, ez ordainketa-metodoari berari. Zure fakturazio-softwarea bete beharreko erregistroak sortzeko eskatzen du; Bilketarekin eta kontziliazioarekin integratzea komeni da."
+    - question: "Zer da Verifactu eta zergatik da funtsezkoa hezkuntza-zentroentzat?"
+      answer: "Verifactu Espainiako Zerga Agentziaren faktura elektronikoen kudeaketarako sistema ofiziala da. Sistema honek faktura elektronikoak jaulki, bidali, jaso eta gordetzeko aukera ematen du modu seguruan eta Espainiako zerga araudiaren arabera. Hezkuntza-zentroetarako, Verifactu-rekin integratzea ez da hautazkoa; Indarreko zerga araudi guztia betetzea bermatzen duen legezko betekizuna da. Verifactu-ren garrantzia araudia betetze hutsetik haratago doa. Sistema honek: -"
+    - question: 'Zenbateko atzerapena da "normala" eskola pribatu batean?'
+      answer: "Profil sozioekonomikoaren eta bilketa metodoaren arabera aldatzen da, baina zentro osasuntsu asko %4 eta %8 artean mugitzen dira 45 egunetan. % 10etik gora egutegia, zordunketa eta abisuen sekuentzia berrikustea komeni da plantilla zabaldu aurretik."
+    - question: "Verifactu-k aldatzen al du familiei kobratzeko modua?"
+      answer: "Verifactu-k fakturen jaulkipenari eta trazabilitateari eragiten dio batez ere AEATri, ez ordainketa-metodoari berari. Zure fakturazio-softwarea bete beharreko erregistroak sortzeko eskatzen du; Bilketarekin eta kontziliazioarekin integratzea komeni da."
 ---
-
 
 <strong>Fakturazio Elektronikoa eta Verifactu Hezkuntzan 2026an: Araugintza betetzea eta eraginkortasuna</strong>
 

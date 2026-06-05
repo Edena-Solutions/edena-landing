@@ -7,17 +7,17 @@ tags:
     - "students"
     - "personalization"
     - "engagement"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalization-checklist-2026
+    - digitalization-checklist-2026
 faqs:
-  - question: "Does retention begin in admissions or in the classroom?"
-    answer: "In both: clear promises in recruitment and admin coherence (collections, communication) during the course."
-  - question: "What signal anticipates a decline?"
-    answer: "Repeated non-payments, communication complaints and disengagement in extracurricular activities usually precede the transfer request."
-  - question: "How to measure digital retention?"
-    answer: "Renewal rate per course, quarterly family NPS and admin response time to incidents."
+    - question: "Does retention begin in admissions or in the classroom?"
+      answer: "In both: clear promises in recruitment and admin coherence (collections, communication) during the course."
+    - question: "What signal anticipates a decline?"
+      answer: "Repeated non-payments, communication complaints and disengagement in extracurricular activities usually precede the transfer request."
+    - question: "How to measure digital retention?"
+      answer: "Renewal rate per course, quarterly family NPS and admin response time to incidents."
 ---
 
 <strong>Student retention in the digital age: Strategies that work</strong>

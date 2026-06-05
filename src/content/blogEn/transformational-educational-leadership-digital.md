@@ -7,19 +7,19 @@ tags:
     - "digital transformation"
     - "managerial powers"
     - "school management"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1601231808069-e6103868f686?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - organizational-change-management-education
-  - digitalization-checklist-2026
-  - head-teacher-monthly-kpis-2026
+    - organizational-change-management-education
+    - digitalization-checklist-2026
+    - head-teacher-monthly-kpis-2026
 faqs:
-  - question: "How much time should management dedicate to the project?"
-    answer: "30-45 minutes per week in the first twelve weeks: enough to unblock, not to micromanage."
-  - question: "What do I do if a department refuses?"
-    answer: "Listen to the specific obstacle, adjust formation or flow, and set the cutoff date from the previous method."
-  - question: "Do I need a full-time transformation manager?"
-    answer: "In medium-sized centers, an internal reference with a mandate from the director and support from the provider is enough."
+    - question: "How much time should management dedicate to the project?"
+      answer: "30-45 minutes per week in the first twelve weeks: enough to unblock, not to micromanage."
+    - question: "What do I do if a department refuses?"
+      answer: "Listen to the specific obstacle, adjust formation or flow, and set the cutoff date from the previous method."
+    - question: "Do I need a full-time transformation manager?"
+      answer: "In medium-sized centers, an internal reference with a mandate from the director and support from the provider is enough."
 ---
 
 <strong>Leadership in school digital projects</strong>

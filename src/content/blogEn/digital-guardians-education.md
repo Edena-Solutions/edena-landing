@@ -7,20 +7,20 @@ tags:
     - "guardians"
     - "education"
     - "digital"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1640622304233-7335e936f11b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - school-family-app-benefits-heads-parents-2026
-  - school-family-communication-platform
-  - digital-communication-schools
-  - institutional-communication-families
+    - school-family-app-benefits-heads-parents-2026
+    - school-family-communication-platform
+    - digital-communication-schools
+    - institutional-communication-families
 faqs:
-  - question: "Device usage agreement?"
-    answer: "Clear rules by age, signed by families upon registration."
-  - question: "Parental control in the center's app?"
-    answer: "The center reports; Control at home is the family responsibility with guidance from the center."
-  - question: "Under 14 years old?"
-    answer: "Parental consent for data processing on platforms."
+    - question: "Device usage agreement?"
+      answer: "Clear rules by age, signed by families upon registration."
+    - question: "Parental control in the center's app?"
+      answer: "The center reports; Control at home is the family responsibility with guidance from the center."
+    - question: "Under 14 years old?"
+      answer: "Parental consent for data processing on platforms."
 ---
 
 <strong>Guardians in digital education: The role of parents in the technological age</strong>

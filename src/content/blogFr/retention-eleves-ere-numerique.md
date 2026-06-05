@@ -7,19 +7,18 @@ tags:
     - "étudiants"
     - "personnalisation"
     - "fiançailles"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-numerisation-2026
+    - checklist-numerisation-2026
 faqs:
-  - question: "La rétention commence-t-elle dès l’admission ou en classe ?"
-    answer: "Dans les deux cas : des promesses claires en matière de recrutement et de cohérence administrative (collectes, communication) au cours du cursus."
-  - question: "Quel signal anticipe une baisse ?"
-    answer: "Les non-paiements répétés, les plaintes en matière de communication et le désengagement dans les activités extrascolaires précèdent généralement la demande de transfert."
-  - question: "Comment mesurer la rétention numérique ?"
-    answer: "Taux de renouvellement par cours, NPS familial trimestriel et temps de réponse administratif aux incidents."
+    - question: "La rétention commence-t-elle dès l’admission ou en classe ?"
+      answer: "Dans les deux cas : des promesses claires en matière de recrutement et de cohérence administrative (collectes, communication) au cours du cursus."
+    - question: "Quel signal anticipe une baisse ?"
+      answer: "Les non-paiements répétés, les plaintes en matière de communication et le désengagement dans les activités extrascolaires précèdent généralement la demande de transfert."
+    - question: "Comment mesurer la rétention numérique ?"
+      answer: "Taux de renouvellement par cours, NPS familial trimestriel et temps de réponse administratif aux incidents."
 ---
-
 
 <strong>La persévérance scolaire à l’ère du numérique : des stratégies efficaces</strong>
 

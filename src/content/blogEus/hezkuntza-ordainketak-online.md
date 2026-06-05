@@ -7,26 +7,25 @@ tags:
     - "lehenetsiak"
     - "fakturazioa"
     - "hezkuntza zentroak"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1556740714-a8395b3bf30f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - atzeratzea-murriztu-kobro-automatikoa-2026
-  - faktura-elektronikoa-verifactu-hezkuntza-2026
-  - kpi-hileko-zuzendaria-2026
-  - fakturazio-zorrak-murriztu-ikastetxeetan
+    - atzeratzea-murriztu-kobro-automatikoa-2026
+    - faktura-elektronikoa-verifactu-hezkuntza-2026
+    - kpi-hileko-zuzendaria-2026
+    - fakturazio-zorrak-murriztu-ikastetxeetan
 faqs:
-  - question: "Seguru al dira online ordainketak hezkuntzan?"
-    answer: "Bai, PCI-DSS bat datorren atebide bat erabiltzen baduzu eta txartelaren datuak gordetzen ez badituzu. Ordainketa hornitzailearen orrian edo tokenizazioarekin egiten da; Zentroak ez du txartelaren zenbakia kudeatzen."
-  - question: "Zer balio du hezkuntza zentroetarako atari batek?"
-    answer: "Normalean transakzio bakoitzeko ehuneko bat gehi hileroko kopuru finko posible bat izan ohi da. Eskuzko bilketak kudeatzeko egungo kostuarekin eta ordainketarik ez murriztearen eraginarekin alderatu."
-  - question: "Jarrai al dezakegu eskudirua edo txekearen ordainketa eskaintzen?"
-    answer: "Bai. Hezkuntzan lineako ordainketak beste metodo batzuekin batera bizi daitezke; Helburua da sarean ordaintzea nahiago duenak marruskadurarik gabe egin dezala."
-  - question: "Zer egin familia batek ordaindu duela esaten badu eta sisteman agertzen ez bada?"
-    answer: "Prozesu argia izan: pasabidean eta bankuan egiaztatu, familiari frogak eskatu eta egoera eguneratu baieztatzen denean. Aldizkako kontziliazioa kasu horiek murrizten ditu."
-  - question: "Faktura elektronikoak (Verifactu) eragina al du lineako ordainketetan?"
-    answer: "Gauza desberdinak dira: faktura elektronikoak fakturen formatua eta bidalketa arautzen ditu; Lineako ordainketak biltzeko bitartekoak dira. Elkarbizitza egin dezakete: faktura elektronikoa eta ordainketa-esteka fluxu berean."
+    - question: "Seguru al dira online ordainketak hezkuntzan?"
+      answer: "Bai, PCI-DSS bat datorren atebide bat erabiltzen baduzu eta txartelaren datuak gordetzen ez badituzu. Ordainketa hornitzailearen orrian edo tokenizazioarekin egiten da; Zentroak ez du txartelaren zenbakia kudeatzen."
+    - question: "Zer balio du hezkuntza zentroetarako atari batek?"
+      answer: "Normalean transakzio bakoitzeko ehuneko bat gehi hileroko kopuru finko posible bat izan ohi da. Eskuzko bilketak kudeatzeko egungo kostuarekin eta ordainketarik ez murriztearen eraginarekin alderatu."
+    - question: "Jarrai al dezakegu eskudirua edo txekearen ordainketa eskaintzen?"
+      answer: "Bai. Hezkuntzan lineako ordainketak beste metodo batzuekin batera bizi daitezke; Helburua da sarean ordaintzea nahiago duenak marruskadurarik gabe egin dezala."
+    - question: "Zer egin familia batek ordaindu duela esaten badu eta sisteman agertzen ez bada?"
+      answer: "Prozesu argia izan: pasabidean eta bankuan egiaztatu, familiari frogak eskatu eta egoera eguneratu baieztatzen denean. Aldizkako kontziliazioa kasu horiek murrizten ditu."
+    - question: "Faktura elektronikoak (Verifactu) eragina al du lineako ordainketetan?"
+      answer: "Gauza desberdinak dira: faktura elektronikoak fakturen formatua eta bidalketa arautzen ditu; Lineako ordainketak biltzeko bitartekoak dira. Elkarbizitza egin dezakete: faktura elektronikoa eta ordainketa-esteka fluxu berean."
 ---
-
 
 <strong>Nola integratu online ordainketak eskoletan eta lehenetsiak murriztu</strong>
 

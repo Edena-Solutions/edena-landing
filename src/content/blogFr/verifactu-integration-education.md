@@ -7,24 +7,23 @@ tags:
     - "conformité"
     - "règlements"
     - "facturation électronique"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-cfa08c2a758f?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - impayes-cobrures-automatises-ecoles-2026
-  - facturation-electronique-verifactu-education-2026
-  - kpi-mensuels-direction-ecole-2026
-  - reduire-impayes-facturation-ecoles
+    - impayes-cobrures-automatises-ecoles-2026
+    - facturation-electronique-verifactu-education-2026
+    - kpi-mensuels-direction-ecole-2026
+    - reduire-impayes-facturation-ecoles
 faqs:
-  - question: "Mon agence peut-elle émettre pour moi ?"
-    answer: "Oui, mais le centre doit avoir une traçabilité cohérente avec les familles et l'ERP."
-  - question: "Des factures simplifiées pour les familles ?"
-    answer: "Consultez des conseils selon le type de prestation et l'entité émettrice."
-  - question: "Quel est le retard de paiement « normal » dans une école privée ?"
-    answer: "Cela varie selon le profil socio-économique et le mode de collecte, mais de nombreux centres sains évoluent entre 4 % et 8 % à 45 jours. Au-dessus de 10%, il convient de revoir le calendrier, les prélèvements et la séquence de relance avant d'élargir les effectifs."
-  - question: "Verifactu change-t-il la façon dont je facture les familles ?"
-    answer: "Verifactu affecte principalement l'émission et la traçabilité des factures avant l'AEAT, et non le mode de paiement lui-même. Il nécessite que votre logiciel de facturation génère des enregistrements conformes ; Il est conseillé de l'intégrer aux recouvrements et à la conciliation."
+    - question: "Mon agence peut-elle émettre pour moi ?"
+      answer: "Oui, mais le centre doit avoir une traçabilité cohérente avec les familles et l'ERP."
+    - question: "Des factures simplifiées pour les familles ?"
+      answer: "Consultez des conseils selon le type de prestation et l'entité émettrice."
+    - question: "Quel est le retard de paiement « normal » dans une école privée ?"
+      answer: "Cela varie selon le profil socio-économique et le mode de collecte, mais de nombreux centres sains évoluent entre 4 % et 8 % à 45 jours. Au-dessus de 10%, il convient de revoir le calendrier, les prélèvements et la séquence de relance avant d'élargir les effectifs."
+    - question: "Verifactu change-t-il la façon dont je facture les familles ?"
+      answer: "Verifactu affecte principalement l'émission et la traçabilité des factures avant l'AEAT, et non le mode de paiement lui-même. Il nécessite que votre logiciel de facturation génère des enregistrements conformes ; Il est conseillé de l'intégrer aux recouvrements et à la conciliation."
 ---
-
 
 <strong>Verifactu dans l'éducation : la conformité réglementaire facilitée</strong>
 

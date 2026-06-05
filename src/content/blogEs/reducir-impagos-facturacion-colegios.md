@@ -3,24 +3,24 @@ title: "Cómo reducir los impagos y mejorar la facturación en centros educativo
 date: "2026-03-03"
 description: "Quick wins administrativos para reducir impagos sin cambiar de software. Guía práctica para centros educativos en España (2026)."
 tags: ["facturación colegios", "gestión de pagos escolares", "impagos", "cobro"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1662502729255-4d3a58486d4e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJhdWRzdGVyfGVufDB8fDB8fHww"
 relatedPosts:
-  - morosidad-colegios-cobros-automaticos-2026
-  - facturacion-electronica-verifactu-educacion-2026
-  - kpis-director-colegio-mensual-2026
-  - pagos-online-educacion
+    - morosidad-colegios-cobros-automaticos-2026
+    - facturacion-electronica-verifactu-educacion-2026
+    - kpis-director-colegio-mensual-2026
+    - pagos-online-educacion
 faqs:
-  - question: "¿La facturación en colegios debe incluir Verifactu?"
-    answer: "En España, la normativa avanza. Los centros deben estar preparados para facturación electrónica. La gestión de pagos escolares puede convivir con Verifactu: factura electrónica y enlace de pago en el mismo flujo."
-  - question: "¿Los pagos online en la gestión de pagos escolares son seguros?"
-    answer: "Sí, si usas una pasarela que cumple PCI-DSS y no almacenas datos de tarjeta. La facturación en colegios con pago online integrado es segura cuando el proveedor cumple normativa."
-  - question: "¿Cuánto morosidad es 'normal' en un colegio privado?"
-    answer: "Varía por perfil socioeconómico y método de cobro, pero muchos centros saludables se mueven entre el 4 % y el 8 % a 45 días. Por encima del 10 % conviene revisar calendario, domiciliación y secuencia de recordatorios antes de ampliar plantilla."
-  - question: "¿Verifactu cambia cómo cobro a las familias?"
-    answer: "Verifactu afecta sobre todo a la emisión y trazabilidad de facturas ante la AEAT, no al método de pago en sí. Sí obliga a que tu software de facturación genere registros conformes; conviene integrarlo con cobros y conciliación."
-  - question: "¿Puedo empezar solo con recordatorios sin domiciliación?"
-    answer: "Sí, pero el impacto suele ser menor. Combinad ambos para máximo efecto."
+    - question: "¿La facturación en colegios debe incluir Verifactu?"
+      answer: "En España, la normativa avanza. Los centros deben estar preparados para facturación electrónica. La gestión de pagos escolares puede convivir con Verifactu: factura electrónica y enlace de pago en el mismo flujo."
+    - question: "¿Los pagos online en la gestión de pagos escolares son seguros?"
+      answer: "Sí, si usas una pasarela que cumple PCI-DSS y no almacenas datos de tarjeta. La facturación en colegios con pago online integrado es segura cuando el proveedor cumple normativa."
+    - question: "¿Cuánto morosidad es 'normal' en un colegio privado?"
+      answer: "Varía por perfil socioeconómico y método de cobro, pero muchos centros saludables se mueven entre el 4 % y el 8 % a 45 días. Por encima del 10 % conviene revisar calendario, domiciliación y secuencia de recordatorios antes de ampliar plantilla."
+    - question: "¿Verifactu cambia cómo cobro a las familias?"
+      answer: "Verifactu afecta sobre todo a la emisión y trazabilidad de facturas ante la AEAT, no al método de pago en sí. Sí obliga a que tu software de facturación genere registros conformes; conviene integrarlo con cobros y conciliación."
+    - question: "¿Puedo empezar solo con recordatorios sin domiciliación?"
+      answer: "Sí, pero el impacto suele ser menor. Combinad ambos para máximo efecto."
 ---
 
 <strong>Cómo reducir los impagos y mejorar la facturación en centros educativos</strong>

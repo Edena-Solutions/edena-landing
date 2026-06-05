@@ -7,19 +7,19 @@ tags:
     - "digital"
     - "environment"
     - "education"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1671829480432-9b0f10d869ef?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - user-experience-educational-technology
-  - student-experience-digital-era
-  - students-digital-era
+    - user-experience-educational-technology
+    - student-experience-digital-era
+    - students-digital-era
 faqs:
-  - question: "How much paper can a school eliminate?"
-    answer: "Circulars, authorizations and minutes; Legally preserve what is required in the original or certified copy."
-  - question: "Measurable economic savings?"
-    answer: "Yes in printing and hours; calculate baseline from previous September."
-  - question: "Family objections to paper zero?"
-    answer: "Offer downloadable PDF and secretarial support for those who need it."
+    - question: "How much paper can a school eliminate?"
+      answer: "Circulars, authorizations and minutes; Legally preserve what is required in the original or certified copy."
+    - question: "Measurable economic savings?"
+      answer: "Yes in printing and hours; calculate baseline from previous September."
+    - question: "Family objections to paper zero?"
+      answer: "Offer downloadable PDF and secretarial support for those who need it."
 ---
 
 <strong>Edena and digital sustainability in educational centers</strong>

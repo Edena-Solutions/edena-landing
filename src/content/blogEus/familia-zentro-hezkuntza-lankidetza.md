@@ -7,17 +7,17 @@ tags:
     - "familias"
     - "comunidad"
     - "participación"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalizazio-egiaztapen-zerrenda-2026
+    - digitalizazio-egiaztapen-zerrenda-2026
 faqs:
-  - question: "Zenbat mezu masibo astean?"
-    answer: "Arau praktiko gisa, astean premiazkoak ez diren bi komunikazio baino gehiago, familiak ez gainditzeko."
-  - question: "Nola segmentatu audientzia?"
-    answer: "Etapa, ikastaro eta zerbitzuen arabera (jangela, garraioa). Saihestu dena zentro osora bidaltzea."
-  - question: "Aplikazioak tutorearen WhatsApp ordezkatzen al du?"
-    answer: "Ez du zertan. Aplikazioak instituzionala bideratzen du; WhatsApp idatzizko irizpideekin koordinazio zehatzerako utzi daiteke."
+    - question: "Zenbat mezu masibo astean?"
+      answer: "Arau praktiko gisa, astean premiazkoak ez diren bi komunikazio baino gehiago, familiak ez gainditzeko."
+    - question: "Nola segmentatu audientzia?"
+      answer: "Etapa, ikastaro eta zerbitzuen arabera (jangela, garraioa). Saihestu dena zentro osora bidaltzea."
+    - question: "Aplikazioak tutorearen WhatsApp ordezkatzen al du?"
+      answer: "Ez du zertan. Aplikazioak instituzionala bideratzen du; WhatsApp idatzizko irizpideekin koordinazio zehatzerako utzi daiteke."
 ---
 
 <strong>Familia-eskola lankidetza: komunitate bateratua eraikitzea</strong>

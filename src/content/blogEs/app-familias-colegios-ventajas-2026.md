@@ -3,32 +3,32 @@ title: "App para familias en colegios: ventajas reales para dirección y padres"
 date: "2026-04-05"
 description: "Ventajas operativas de app familiar vs canales dispersos. Guía práctica para centros educativos en España (2026)."
 tags:
- [
- "app familias colegio",
- "portal educativo",
- "comunicación escolar",
- "autogestión familias",
- "notificaciones push",
- "Edena",
- ]
-author: "Equipo Edena"
+    [
+        "app familias colegio",
+        "portal educativo",
+        "comunicación escolar",
+        "autogestión familias",
+        "notificaciones push",
+        "Edena",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579621970343-21c491b3f363?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - comunicacion-colegio-familias-plataforma-digital
-  - comunicacion-digital-centros-educativos
-  - comunicacion-familias-era-digital
-  - app-movil-educacion
+    - comunicacion-colegio-familias-plataforma-digital
+    - comunicacion-digital-centros-educativos
+    - comunicacion-familias-era-digital
+    - app-movil-educacion
 faqs:
-  - question: "¿La app sustituye la agenda en papel o las reuniones presenciales?"
-    answer: "No. La app organiza, avisa y registra; no reemplaza la entrevista de tutoría, la reunión de inicio de curso ni el acompañamiento cuando una familia necesita atención personalizada. Libera tiempo para esas interacciones al reducir la carga de mensajes repetitivos."
-  - question: "¿Qué pasa con familias que no tienen smartphone o tienen baja competencia digital?"
-    answer: "El portal web accede desde cualquier navegador sin descargar nada. Para familias con barreras digitales, define un protocolo de respaldo (llamada, nota, secretaría) y no asumas que \"todos tienen app\". La comunicación básica por email sigue siendo válida como canal de apoyo."
-  - question: "¿Las notificaciones push son solo para mensajes o también para recordatorios de pago?"
-    answer: "Con comunicación Pro, las notificaciones pueden configurarse para avisos de pago, recordatorios de documentación, circulares y mensajes de chat, según el criterio que defina el centro. El módulo de facturación aporta la lógica de cobro; Pro conecta el aviso al canal móvil con confirmación."
-  - question: "¿Cómo se gestiona la privacidad de los mensajes entre familias y el equipo?"
-    answer: "El chat de comunicación Pro es un canal cerrado del centro, no una red social. La privacidad, los permisos y el acceso a historiales de conversación deben definirse con tu DPO en el marco del GDPR: quién puede ver qué, durante cuánto tiempo y bajo qué base legal."
-  - question: "¿Se pueden gestionar las ausencias y las autorizaciones desde la app?"
-    answer: "Sí. La plataforma base incluye autogestión familiar para estos flujos habituales: notificación de ausencia, consulta del expediente del alumno, acceso a documentos y, si aplica, firma de autorizaciones según el flujo configurado con el equipo."
+    - question: "¿La app sustituye la agenda en papel o las reuniones presenciales?"
+      answer: "No. La app organiza, avisa y registra; no reemplaza la entrevista de tutoría, la reunión de inicio de curso ni el acompañamiento cuando una familia necesita atención personalizada. Libera tiempo para esas interacciones al reducir la carga de mensajes repetitivos."
+    - question: "¿Qué pasa con familias que no tienen smartphone o tienen baja competencia digital?"
+      answer: 'El portal web accede desde cualquier navegador sin descargar nada. Para familias con barreras digitales, define un protocolo de respaldo (llamada, nota, secretaría) y no asumas que "todos tienen app". La comunicación básica por email sigue siendo válida como canal de apoyo.'
+    - question: "¿Las notificaciones push son solo para mensajes o también para recordatorios de pago?"
+      answer: "Con comunicación Pro, las notificaciones pueden configurarse para avisos de pago, recordatorios de documentación, circulares y mensajes de chat, según el criterio que defina el centro. El módulo de facturación aporta la lógica de cobro; Pro conecta el aviso al canal móvil con confirmación."
+    - question: "¿Cómo se gestiona la privacidad de los mensajes entre familias y el equipo?"
+      answer: "El chat de comunicación Pro es un canal cerrado del centro, no una red social. La privacidad, los permisos y el acceso a historiales de conversación deben definirse con tu DPO en el marco del GDPR: quién puede ver qué, durante cuánto tiempo y bajo qué base legal."
+    - question: "¿Se pueden gestionar las ausencias y las autorizaciones desde la app?"
+      answer: "Sí. La plataforma base incluye autogestión familiar para estos flujos habituales: notificación de ausencia, consulta del expediente del alumno, acceso a documentos y, si aplica, firma de autorizaciones según el flujo configurado con el equipo."
 ---
 
 <strong>App para familias en colegios: ventajas reales para dirección y padres</strong>

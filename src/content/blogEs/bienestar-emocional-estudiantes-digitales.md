@@ -3,20 +3,20 @@ title: "Bienestar emocional de estudiantes en la era digital: Estrategias y herr
 date: "2025-08-30"
 description: "Bienestar emocional y uso equilibrado de pantallas. Guía práctica para centros educativos en España (2026)."
 tags: ["bienestar emocional", "salud mental", "era digital", "apoyo estudiantil"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1503891617560-5b8c2e28cbf6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologias-pedagogicas-innovadoras
-  - innovacion-pedagogica-tecnologia
-  - evaluacion-assessment-digital-educativo
-  - espacios-educativos-futuro-diseno
+    - metodologias-pedagogicas-innovadoras
+    - innovacion-pedagogica-tecnologia
+    - evaluacion-assessment-digital-educativo
+    - espacios-educativos-futuro-diseno
 faqs:
-  - question: "¿Limitar pantallas en el centro?"
-    answer: "Política clara por etapa; coherente con uso pedagógico, no solo prohibición."
-  - question: "¿Señales de alerta digital?"
-    answer: "Aislamiento, cyberbullying, sueño alterado; protocolo de derivación a orientación."
-  - question: "¿Formación familias?"
-    answer: "Sesiones breves sobre uso equilibrado y controles parentales."
+    - question: "¿Limitar pantallas en el centro?"
+      answer: "Política clara por etapa; coherente con uso pedagógico, no solo prohibición."
+    - question: "¿Señales de alerta digital?"
+      answer: "Aislamiento, cyberbullying, sueño alterado; protocolo de derivación a orientación."
+    - question: "¿Formación familias?"
+      answer: "Sesiones breves sobre uso equilibrado y controles parentales."
 ---
 
 <strong>Bienestar emocional de estudiantes en la era digital: Estrategias y herramientas</strong>

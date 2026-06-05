@@ -7,21 +7,20 @@ tags:
     - "transformació digital"
     - "competències directives"
     - "gestió escolar"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1601231808069-e6103868f686?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - gestio-canvi-organitzacional-educatiu
-  - llista-verificacio-digitalitzacio-2026
-  - kpi-director-escola-mensual-2026
+    - gestio-canvi-organitzacional-educatiu
+    - llista-verificacio-digitalitzacio-2026
+    - kpi-director-escola-mensual-2026
 faqs:
-  - question: "Quant de temps ha de dedicar la direcció al projecte?"
-    answer: "30-45 minuts setmanals a les primeres dotze setmanes: suficient per desbloquejar, no per microgestionar."
-  - question: "Què faig si un departament es nega?"
-    answer: "Escolta l'obstacle concret, ajusta formació o flux, i fixa la data de tall del mètode anterior."
-  - question: "Necessito un responsable de transformació a temps complet?"
-    answer: "En centres mitjans n'hi ha prou amb un referent intern amb mandat del director i suport del proveïdor."
+    - question: "Quant de temps ha de dedicar la direcció al projecte?"
+      answer: "30-45 minuts setmanals a les primeres dotze setmanes: suficient per desbloquejar, no per microgestionar."
+    - question: "Què faig si un departament es nega?"
+      answer: "Escolta l'obstacle concret, ajusta formació o flux, i fixa la data de tall del mètode anterior."
+    - question: "Necessito un responsable de transformació a temps complet?"
+      answer: "En centres mitjans n'hi ha prou amb un referent intern amb mandat del director i suport del proveïdor."
 ---
-
 
 <strong>Lideratge en projectes digitals escolars</strong>
 

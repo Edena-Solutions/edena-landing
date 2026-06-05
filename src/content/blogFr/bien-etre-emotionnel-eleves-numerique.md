@@ -7,22 +7,21 @@ tags:
     - "santé mentale"
     - "l'ère numérique"
     - "soutien aux étudiants"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1503891617560-5b8c2e28cbf6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - methodologies-pedagogiques-innovantes
-  - innovation-pedagogique-technologie
-  - evaluation-numerique-educative
-  - espaces-educatifs-avenir-conception
+    - methodologies-pedagogiques-innovantes
+    - innovation-pedagogique-technologie
+    - evaluation-numerique-educative
+    - espaces-educatifs-avenir-conception
 faqs:
-  - question: "Limiter les écrans au centre ?"
-    answer: "Politique claire par étape ; conforme à un usage pédagogique, et non seulement à un interdit."
-  - question: "Des panneaux d’avertissement numériques ?"
-    answer: "Isolement, cyberintimidation, sommeil perturbé ; protocole de référence pour l’orientation."
-  - question: "Création d'une famille ?"
-    answer: "Séances courtes sur l'utilisation équilibrée et le contrôle parental."
+    - question: "Limiter les écrans au centre ?"
+      answer: "Politique claire par étape ; conforme à un usage pédagogique, et non seulement à un interdit."
+    - question: "Des panneaux d’avertissement numériques ?"
+      answer: "Isolement, cyberintimidation, sommeil perturbé ; protocole de référence pour l’orientation."
+    - question: "Création d'une famille ?"
+      answer: "Séances courtes sur l'utilisation équilibrée et le contrôle parental."
 ---
-
 
 <strong>Le bien-être émotionnel des élèves à l'ère numérique : stratégies et outils</strong>
 

@@ -3,20 +3,20 @@ title: "Dashboard educativo: El centro de control para la gestión estratégica"
 date: "2025-02-25"
 description: "Dashboard como centro de control estratégico del centro. Guía práctica para centros educativos en España (2026)."
 tags: ["dashboard", "gestión administrativa", "estrategia", "dirección"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1629721671030-a83edbb11211?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpis-director-colegio-mensual-2026
-  - dashboards-educativos-metricas
-  - analitica-educativa-dashboards-escolares
-  - analitica-rendimiento-academico
+    - kpis-director-colegio-mensual-2026
+    - dashboards-educativos-metricas
+    - analitica-educativa-dashboards-escolares
+    - analitica-rendimiento-academico
 faqs:
-  - question: "¿Cuántos dashboards necesito?"
-    answer: "Uno operativo mensual para dirección; evitad duplicar Excel."
-  - question: "¿Un dashboard o varios?"
-    answer: "Uno principal para dirección; vistas filtradas por rol evitan duplicar Excel."
-  - question: "¿Actualización en tiempo real?"
-    answer: "Diaria o semanal basta para decisiones estratégicas; tiempo real solo en operación de cobros."
+    - question: "¿Cuántos dashboards necesito?"
+      answer: "Uno operativo mensual para dirección; evitad duplicar Excel."
+    - question: "¿Un dashboard o varios?"
+      answer: "Uno principal para dirección; vistas filtradas por rol evitan duplicar Excel."
+    - question: "¿Actualización en tiempo real?"
+      answer: "Diaria o semanal basta para decisiones estratégicas; tiempo real solo en operación de cobros."
 ---
 
 <strong>Dashboard educativo: El centro de control para la gestión estratégica</strong>

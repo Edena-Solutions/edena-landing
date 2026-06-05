@@ -8,22 +8,21 @@ tags:
     - "certification numérique"
     - "Plan DigEdu"
     - "personnel enseignant 2026"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1568828668638-b1b4014d91a2?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - methodologies-pedagogiques-innovantes
-  - innovation-pedagogique-technologie
-  - evaluation-numerique-educative
-  - espaces-educatifs-avenir-conception
+    - methodologies-pedagogiques-innovantes
+    - innovation-pedagogique-technologie
+    - evaluation-numerique-educative
+    - espaces-educatifs-avenir-conception
 faqs:
-  - question: "Qu’exige DigEdu du centre ?"
-    answer: "Environnements sûrs, formation des enseignants et accès équitable ; Consultez l'appel régional en cours."
-  - question: "Est-ce que ça remplace le certificat d’enseignement ?"
-    answer: "Non; Il est complété par des outils et du temps protégés."
-  - question: "Comment prioriser la formation ?"
-    answer: "Ce que vous utilisez chaque semaine (plateforme commune) avant les outils isolés."
+    - question: "Qu’exige DigEdu du centre ?"
+      answer: "Environnements sûrs, formation des enseignants et accès équitable ; Consultez l'appel régional en cours."
+    - question: "Est-ce que ça remplace le certificat d’enseignement ?"
+      answer: "Non; Il est complété par des outils et du temps protégés."
+    - question: "Comment prioriser la formation ?"
+      answer: "Ce que vous utilisez chaque semaine (plateforme commune) avant les outils isolés."
 ---
-
 
 <strong>Compétences numériques des enseignants en 2026 : plus de 661 000 enseignants certifiés</strong>
 

@@ -7,20 +7,20 @@ tags:
     - "assessment"
     - "educational technology"
     - "measurement learning"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - innovative-pedagogical-methodologies
-  - pedagogical-innovation-technology
-  - future-educational-spaces-design
-  - student-emotional-wellbeing-digital-era
+    - innovative-pedagogical-methodologies
+    - pedagogical-innovation-technology
+    - future-educational-spaces-design
+    - student-emotional-wellbeing-digital-era
 faqs:
-  - question: "100% digital evaluation?"
-    answer: "Possible with rubrics and portfolio; balance with in-person tests according to stage."
-  - question: "Traceability for inspection?"
-    answer: "File with evaluation history and visible LOMLOE criteria."
-  - question: "Less time correcting?"
-    answer: "Yes with formative self-correction and well-designed item banks."
+    - question: "100% digital evaluation?"
+      answer: "Possible with rubrics and portfolio; balance with in-person tests according to stage."
+    - question: "Traceability for inspection?"
+      answer: "File with evaluation history and visible LOMLOE criteria."
+    - question: "Less time correcting?"
+      answer: "Yes with formative self-correction and well-designed item banks."
 ---
 
 <strong>Evaluation and digital assessment in modern education: Tools and strategies</strong>

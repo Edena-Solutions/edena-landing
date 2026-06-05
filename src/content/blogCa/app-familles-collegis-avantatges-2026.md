@@ -9,26 +9,25 @@ tags:
     - "autogestió famílies"
     - "notificacions push"
     - "Edena"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579621970343-21c491b3f363?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - comunicacio-collegi-families-plataforma-digital
-  - comunicacio-digital-centres-educatius
-  - comunicacio-families-era-digital
-  - app-mobil-educacio
+    - comunicacio-collegi-families-plataforma-digital
+    - comunicacio-digital-centres-educatius
+    - comunicacio-families-era-digital
+    - app-mobil-educacio
 faqs:
-  - question: "¿L'app substitueix l'agenda en paper o les reunions presencials?"
-    answer: "No. L'app organitza, avisa i registra; no reemplaça l'entrevista de tutoria, la reunió d'inici de curs ni l'acompanyament quan una família necessita una atenció personalitzada. Allibereu temps per a aquestes interaccions en reduir la càrrega de missatges repetitius."
-  - question: "Què passa amb famílies que no tenen telèfon intel·ligent o tenen baixa competència digital?"
-    answer: "El portal web accedeix des de qualsevol navegador sense descarregar res. Per a famílies amb barreres digitals, defineix un protocol de suport (trucada, nota, secretaria) i no assumeixis que “tots tenen app”. La comunicació bàsica per email segueix sent vàlida com a canal de suport."
-  - question: "Les notificacions push són només per a missatges o també per a recordatoris de pagament?"
-    answer: "Amb comunicació Pro, les notificacions es poden configurar per a avisos de pagament, recordatoris de documentació, circulars i missatges de xat, segons el criteri que defineixi el centre. El mòdul de facturació aporta la lògica de cobrament; Pro connecta l´avís al canal mòbil amb confirmació."
-  - question: "Com es gestiona la privadesa dels missatges entre famílies i l'equip?"
-    answer: "El xat de comunicació Pro és una cadena tancada del centre, no una xarxa social. La privadesa, els permisos i l'accés a historials de conversa s'han de definir amb el teu DPO en el marc del GDPR: qui pot veure què, durant quant de temps i sota quina base legal."
-  - question: "Es poden gestionar les absències i autoritzacions des de l'app?"
-    answer: "Sí. La plataforma base inclou autogestió familiar per a aquests fluxos habituals: notificació d'absència, consulta de l'expedient de l'alumne, accés a documents i, si escau, signatura d'autoritzacions segons el flux configurat amb l'equip."
+    - question: "¿L'app substitueix l'agenda en paper o les reunions presencials?"
+      answer: "No. L'app organitza, avisa i registra; no reemplaça l'entrevista de tutoria, la reunió d'inici de curs ni l'acompanyament quan una família necessita una atenció personalitzada. Allibereu temps per a aquestes interaccions en reduir la càrrega de missatges repetitius."
+    - question: "Què passa amb famílies que no tenen telèfon intel·ligent o tenen baixa competència digital?"
+      answer: "El portal web accedeix des de qualsevol navegador sense descarregar res. Per a famílies amb barreres digitals, defineix un protocol de suport (trucada, nota, secretaria) i no assumeixis que “tots tenen app”. La comunicació bàsica per email segueix sent vàlida com a canal de suport."
+    - question: "Les notificacions push són només per a missatges o també per a recordatoris de pagament?"
+      answer: "Amb comunicació Pro, les notificacions es poden configurar per a avisos de pagament, recordatoris de documentació, circulars i missatges de xat, segons el criteri que defineixi el centre. El mòdul de facturació aporta la lògica de cobrament; Pro connecta l´avís al canal mòbil amb confirmació."
+    - question: "Com es gestiona la privadesa dels missatges entre famílies i l'equip?"
+      answer: "El xat de comunicació Pro és una cadena tancada del centre, no una xarxa social. La privadesa, els permisos i l'accés a historials de conversa s'han de definir amb el teu DPO en el marc del GDPR: qui pot veure què, durant quant de temps i sota quina base legal."
+    - question: "Es poden gestionar les absències i autoritzacions des de l'app?"
+      answer: "Sí. La plataforma base inclou autogestió familiar per a aquests fluxos habituals: notificació d'absència, consulta de l'expedient de l'alumne, accés a documents i, si escau, signatura d'autoritzacions segons el flux configurat amb l'equip."
 ---
-
 
 <strong>App per a famílies a escoles: avantatges reals per a direcció i pares</strong>
 

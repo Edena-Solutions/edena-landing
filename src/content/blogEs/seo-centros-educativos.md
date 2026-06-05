@@ -3,24 +3,24 @@ title: "Guía SEO para centros educativos: aparecer en Google"
 date: "2026-02-12"
 description: "SEO local para captar familias en Google. Guía práctica para centros educativos en España (2026)."
 tags: ["SEO centros educativos", "visibilidad", "captación", "marketing"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1743769446613-baab1264496d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - marketing-educativo-digital-estrategias
-  - liderazgo-educativo-transformacional-digital
-  - gestion-cambio-organizacional-educativo
-  - gestion-crisis-centros-educativos
+    - marketing-educativo-digital-estrategias
+    - liderazgo-educativo-transformacional-digital
+    - gestion-cambio-organizacional-educativo
+    - gestion-crisis-centros-educativos
 faqs:
-  - question: "¿El SEO para centros educativos tarda mucho en dar resultados?"
-    answer: "Sí. Los efectos suelen notarse en 3–6 meses según competencia y estado de la web. Es una inversión a medio plazo, no un efecto inmediato como los anuncios."
-  - question: "¿Necesito un blog para hacer SEO?"
-    answer: "No es obligatorio, pero un blog con artículos útiles (cómo elegir centro, metodología, etc.) ayuda a captar búsquedas largas y a mostrar autoridad. Puedes empezar con pocos artículos bien enfocados."
-  - question: "¿Cómo compito con centros más grandes?"
-    answer: "En búsquedas muy genéricas es más difícil. En búsquedas locales (\"colegio [tu zona]\", \"guardería [barrio]\") y por servicios específicos puedes posicionarte con una web clara y una ficha de Google bien trabajada."
-  - question: "¿Las redes sociales influyen en el SEO?"
-    answer: "Indirectamente: no rankean la web, pero el tráfico y la marca ayudan. Enfócate primero en la web y en la ficha de Google; las redes son complemento."
-  - question: "¿Debo contratar a una agencia para SEO para centros educativos?"
-    answer: "Depende del tiempo interno. Muchas tareas (estructura de páginas, ficha Google, contenido básico) las puede hacer el equipo con una guía; para estrategia avanzada o enlaces externos puede ser útil una agencia con experiencia en educación."
+    - question: "¿El SEO para centros educativos tarda mucho en dar resultados?"
+      answer: "Sí. Los efectos suelen notarse en 3–6 meses según competencia y estado de la web. Es una inversión a medio plazo, no un efecto inmediato como los anuncios."
+    - question: "¿Necesito un blog para hacer SEO?"
+      answer: "No es obligatorio, pero un blog con artículos útiles (cómo elegir centro, metodología, etc.) ayuda a captar búsquedas largas y a mostrar autoridad. Puedes empezar con pocos artículos bien enfocados."
+    - question: "¿Cómo compito con centros más grandes?"
+      answer: 'En búsquedas muy genéricas es más difícil. En búsquedas locales ("colegio [tu zona]", "guardería [barrio]") y por servicios específicos puedes posicionarte con una web clara y una ficha de Google bien trabajada.'
+    - question: "¿Las redes sociales influyen en el SEO?"
+      answer: "Indirectamente: no rankean la web, pero el tráfico y la marca ayudan. Enfócate primero en la web y en la ficha de Google; las redes son complemento."
+    - question: "¿Debo contratar a una agencia para SEO para centros educativos?"
+      answer: "Depende del tiempo interno. Muchas tareas (estructura de páginas, ficha Google, contenido básico) las puede hacer el equipo con una guía; para estrategia avanzada o enlaces externos puede ser útil una agencia con experiencia en educación."
 ---
 
 <strong>Guía SEO para centros educativos: cómo aparecer en Google cuando las familias buscan escuela</strong>

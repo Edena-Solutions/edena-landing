@@ -8,24 +8,23 @@ tags:
     - "eficiència"
     - "automatització"
     - "centres educatius"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1682144827510-bbe3cd636253?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - comparativa-programari-gestio-escolar-2026
-  - checklist-software-escolar-director-2026
-  - millor-programari-gestio-escolar
-  - triar-programari-gestio-escolar
+    - comparativa-programari-gestio-escolar-2026
+    - checklist-software-escolar-director-2026
+    - millor-programari-gestio-escolar
+    - triar-programari-gestio-escolar
 faqs:
-  - question: "Per on comença la direcció?"
-    answer: "Diagnòstic d'hores i dolor a secretaria, no catàleg de mòduls."
-  - question: "Consell escolar i digitalització?"
-    answer: "Comuniqueu fites i mètriques, no argot tècnic."
-  - question: "ERP o SIS: què necessito primer?"
-    answer: "Si el dolor principal és secretaria, cobraments i famílies, prioritzeu un ERP integral. Si només necessiteu notes i assistència a l'aula, amb un SIS pot ser suficient a curt termini, però acabareu duplicant dades."
-  - question: "Quan dura un pilot raonable?"
-    answer: "Entre 8 i 12 setmanes, amb un cicle de facturació o admissió real i criteris dèxit acordats abans de començar."
+    - question: "Per on comença la direcció?"
+      answer: "Diagnòstic d'hores i dolor a secretaria, no catàleg de mòduls."
+    - question: "Consell escolar i digitalització?"
+      answer: "Comuniqueu fites i mètriques, no argot tècnic."
+    - question: "ERP o SIS: què necessito primer?"
+      answer: "Si el dolor principal és secretaria, cobraments i famílies, prioritzeu un ERP integral. Si només necessiteu notes i assistència a l'aula, amb un SIS pot ser suficient a curt termini, però acabareu duplicant dades."
+    - question: "Quan dura un pilot raonable?"
+      answer: "Entre 8 i 12 setmanes, amb un cicle de facturació o admissió real i criteris dèxit acordats abans de començar."
 ---
-
 
 <strong>Gestió Administrativa Digital a Centres Educatius 2026: Eliminant el Paper, Maximitzant l'Eficiència</strong>
 

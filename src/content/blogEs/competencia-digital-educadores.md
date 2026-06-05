@@ -3,17 +3,17 @@ title: "Competencia digital para educadores: Preparando a los profesores del fut
 date: "2024-09-30"
 description: "Descubre las competencias digitales esenciales que los educadores necesitan para preparar a sus estudiantes para el mundo digital."
 tags: ["competencia digital", "formación docente", "tecnología", "educadores"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-digitalizacion-2026
+    - checklist-digitalizacion-2026
 faqs:
-  - question: "¿Cómo alinear tecnología con LOMLOE?"
-    answer: "Prioriza herramientas que liberen tiempo para competencias clave y evaluación continua, no gadgets aislados."
-  - question: "¿Formación del claustro: cuánto basta?"
-    answer: "Sesiones de 60 minutos por herramienta, grabadas, con referente por etapa que resuelva dudas entre iguales."
-  - question: "¿La digitalización resta tiempo pedagógico?"
-    answer: "Bien hecha, lo devuelve: menos duplicar listados y circulares manuales significa más tiempo para evaluación y tutoría."
+    - question: "¿Cómo alinear tecnología con LOMLOE?"
+      answer: "Prioriza herramientas que liberen tiempo para competencias clave y evaluación continua, no gadgets aislados."
+    - question: "¿Formación del claustro: cuánto basta?"
+      answer: "Sesiones de 60 minutos por herramienta, grabadas, con referente por etapa que resuelva dudas entre iguales."
+    - question: "¿La digitalización resta tiempo pedagógico?"
+      answer: "Bien hecha, lo devuelve: menos duplicar listados y circulares manuales significa más tiempo para evaluación y tutoría."
 ---
 
 <strong>Competencia digital para educadores: Preparando a los profesores del futuro</strong>

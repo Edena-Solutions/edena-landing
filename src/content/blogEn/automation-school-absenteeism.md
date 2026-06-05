@@ -7,24 +7,24 @@ tags:
     - "school truancy"
     - "attendance"
     - "educational centers"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
 relatedPosts:
-  - save-15-hours-school-admin-2026
-  - ai-school-administration-cases
-  - administrative-processes-automate-school
-  - automated-administrative-tasks
+    - save-15-hours-school-admin-2026
+    - ai-school-administration-cases
+    - administrative-processes-automate-school
+    - automated-administrative-tasks
 faqs:
-  - question: "Does the automation of school truancy replace the tutor or guidance?"
-    answer: "No. Automation provides data and warnings; interpretation, contact with the family and educational measures remain the responsibility of the team."
-  - question: "What threshold of faults is reasonable to send an alert?"
-    answer: "It depends on the stage and the regional regulations. As a reference, many centers notify after 3–5 unexcused absences in a month; The important thing is to be consistent and review the impact."
-  - question: "Can families view their attendance history?"
-    answer: "Yes. A portal or app where you can consult faults and justifications usually improves transparency and collaboration and reduces complaints."
-  - question: "How are data protection regulations complied with this data?"
-    answer: "Attendance is necessary information for the educational relationship. There must be a legal basis, clear information to families and security measures (restricted access, audited records). The software provider must comply with GDPR."
-  - question: "Is automation useful for absenteeism in vocational training or adults?"
-    answer: "Yes. The same scheme (centralized registration, alerts, reports) applies; You just have to adapt thresholds and communication channels to the profile of the students."
+    - question: "Does the automation of school truancy replace the tutor or guidance?"
+      answer: "No. Automation provides data and warnings; interpretation, contact with the family and educational measures remain the responsibility of the team."
+    - question: "What threshold of faults is reasonable to send an alert?"
+      answer: "It depends on the stage and the regional regulations. As a reference, many centers notify after 3–5 unexcused absences in a month; The important thing is to be consistent and review the impact."
+    - question: "Can families view their attendance history?"
+      answer: "Yes. A portal or app where you can consult faults and justifications usually improves transparency and collaboration and reduces complaints."
+    - question: "How are data protection regulations complied with this data?"
+      answer: "Attendance is necessary information for the educational relationship. There must be a legal basis, clear information to families and security measures (restricted access, audited records). The software provider must comply with GDPR."
+    - question: "Is automation useful for absenteeism in vocational training or adults?"
+      answer: "Yes. The same scheme (centralized registration, alerts, reports) applies; You just have to adapt thresholds and communication channels to the profile of the students."
 ---
 
 <strong>How automation reduces school absenteeism</strong>

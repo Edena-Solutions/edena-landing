@@ -9,26 +9,25 @@ tags:
     - "erosi eskola plataforma"
     - "eskolako software demoa"
     - "Edena"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1661732017132-28b644cbcf9c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
-  - onena-eskola-kudeaketa-softwarea
-  - eskola-kudeaketa-softwarea-aukeratzea
-  - erp-eskola-digitalizazio-gida
+    - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
+    - onena-eskola-kudeaketa-softwarea
+    - eskola-kudeaketa-softwarea-aukeratzea
+    - erp-eskola-digitalizazio-gida
 faqs:
-  - question: "Zenbat denbora behar du software aldaketa prozesu oso batek?"
-    answer: "Bi eta sei hilabete artean, datu-bolumenaren, zentroaren konplexutasunaren eta barne-taldearen erabilgarritasunaren arabera. Oinarrizko pilotu bat (datu nagusiak, lehen bilketa-zikloa, familiaren ataria) aktibo egon daiteke lau astetan, barne-kudeatzaile dedikatu bat badago eta hornitzaileak migrazio-plan bat zehaztuta badu."
-  - question: "Hobe da udan edo urtarrilean sistema aldatzea?"
-    answer: "Udak familien eta taldean eragina murrizten du, baina baliozkotze-denbora konprimitzen du matrikulazio eta bilketa datu errealekin. Urtarrila isilagoa da matrikulan baina kontabilitate itxierarekin bat dator. Erantzuna zure min handiena non dagoen araberakoa da: iraileko matrikula bada, udan aldatzen da; Fakturazioa bada, kontuan hartu hilabete lasai bateko datuekin egitea."
-  - question: "Datuen eramangarritasun-kontratu bat eskatu behar al dut?"
-    answer: "Bai, beti. Sinatu aurretik, ziurtatu zure datu guztiak (ikasleak, karguak, fitxategiak, dokumentuak) formatu irekian (CSV, JSON, Excel) edonoiz esporta ditzakezula. Hornitzaileak kontratuan hori jasotzen ez badu edo kostu gehigarri batekin baldintzatzen badu, bandera gorria da."
-  - question: "Zentzurik al du sistema bat ezartzeak matrikulazio gailurra baino lehen?"
-    answer: "Ez, egungo egoera hain larria ez bada edozer hobetuko den. Erabileraren lehen bi hilabeteetan, edozein sistemak bere potentzialaren azpitik funtzionatzen du: taldeak ikasten du, prozesuak doitzen dira, akatsak agertzen dira. Ahal baduzu, urtarrilean edo otsailean sistema aktibatu, fluxua finkatu eta iraileko erregistrora iritsi sistema dagoeneko martxan jarrita."
-  - question: "Zer gertatzen da hornitzaileak nire lan-fluxua hausten duten eguneraketak baditu?"
-    answer: "Eskatu kontratuan aldaketa etenen aldez aurretiko jakinarazpena (gutxienez bi aste), produkzioan eguneratu aurretik proba-ingurune bat eta eguneratze-oharren historia laguntza-atarian. Jakinarazpenik gabe eguneratzen den saltzailea arrisku operatiboa da."
+    - question: "Zenbat denbora behar du software aldaketa prozesu oso batek?"
+      answer: "Bi eta sei hilabete artean, datu-bolumenaren, zentroaren konplexutasunaren eta barne-taldearen erabilgarritasunaren arabera. Oinarrizko pilotu bat (datu nagusiak, lehen bilketa-zikloa, familiaren ataria) aktibo egon daiteke lau astetan, barne-kudeatzaile dedikatu bat badago eta hornitzaileak migrazio-plan bat zehaztuta badu."
+    - question: "Hobe da udan edo urtarrilean sistema aldatzea?"
+      answer: "Udak familien eta taldean eragina murrizten du, baina baliozkotze-denbora konprimitzen du matrikulazio eta bilketa datu errealekin. Urtarrila isilagoa da matrikulan baina kontabilitate itxierarekin bat dator. Erantzuna zure min handiena non dagoen araberakoa da: iraileko matrikula bada, udan aldatzen da; Fakturazioa bada, kontuan hartu hilabete lasai bateko datuekin egitea."
+    - question: "Datuen eramangarritasun-kontratu bat eskatu behar al dut?"
+      answer: "Bai, beti. Sinatu aurretik, ziurtatu zure datu guztiak (ikasleak, karguak, fitxategiak, dokumentuak) formatu irekian (CSV, JSON, Excel) edonoiz esporta ditzakezula. Hornitzaileak kontratuan hori jasotzen ez badu edo kostu gehigarri batekin baldintzatzen badu, bandera gorria da."
+    - question: "Zentzurik al du sistema bat ezartzeak matrikulazio gailurra baino lehen?"
+      answer: "Ez, egungo egoera hain larria ez bada edozer hobetuko den. Erabileraren lehen bi hilabeteetan, edozein sistemak bere potentzialaren azpitik funtzionatzen du: taldeak ikasten du, prozesuak doitzen dira, akatsak agertzen dira. Ahal baduzu, urtarrilean edo otsailean sistema aktibatu, fluxua finkatu eta iraileko erregistrora iritsi sistema dagoeneko martxan jarrita."
+    - question: "Zer gertatzen da hornitzaileak nire lan-fluxua hausten duten eguneraketak baditu?"
+      answer: "Eskatu kontratuan aldaketa etenen aldez aurretiko jakinarazpena (gutxienez bi aste), produkzioan eguneratu aurretik proba-ingurune bat eta eguneratze-oharren historia laguntza-atarian. Jakinarazpenik gabe eguneratzen den saltzailea arrisku operatiboa da."
 ---
-
 
 <strong>Nola aukeratu ikastetxeko softwarea akatsik egin gabe: zuzendarientzako kontrol-zerrenda</strong>
 

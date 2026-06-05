@@ -9,24 +9,24 @@ tags:
     - "child billing"
     - "school platform"
     - "Eden"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - school-management-software-comparison-spain-2026
-  - school-software-purchase-checklist-2026
-  - best-school-management-software
-  - choosing-school-management-software
+    - school-management-software-comparison-spain-2026
+    - school-software-purchase-checklist-2026
+    - best-school-management-software
+    - choosing-school-management-software
 faqs:
-  - question: "Is Verifactu already mandatory for nursery schools?"
-    answer: "The obligation and calendar are defined by the tax regulations and the implementation calendar; Consult with your tax advisor. What you should demand from the supplier is clarity about how it supports electronic billing, in what period, and what support it offers for the transition."
-  - question: "Can an ERP for children also manage students with special needs?"
-    answer: "The digital file can store specific information on adaptations, authorizations and protocols. The level of detail and structure of those logs depends on how you configure the system; See what customizable fields the provider offers for this profile before you commit."
-  - question: "How do you manage the transition from an old system without losing critical data?"
-    answer: "Require a phased migration plan from the provider: first master data (students, tutors, groups), then collection history, then documents. Validate with real data before closing the old system and plan a coexistence period. Without that plan, the risk of losing history of non-payments or contracts is real."
-  - question: "How long does it take for the platform to be operational?"
-    answer: "It depends on the volume of data, the complexity of the center and the level of customization. In centers with up to 150 places, a basic pilot can be active in four to six weeks with migration and training included, if an internal manager is dedicated."
-  - question: "Is the extracurricular module worth it if we have few activities?"
-    answer: "If the activities generate their own charges and have limited places, the module avoids email management and the parallel registration form circuit. If you only have one activity with free registration and no charge, evaluate if the cost of the module is worth it."
+    - question: "Is Verifactu already mandatory for nursery schools?"
+      answer: "The obligation and calendar are defined by the tax regulations and the implementation calendar; Consult with your tax advisor. What you should demand from the supplier is clarity about how it supports electronic billing, in what period, and what support it offers for the transition."
+    - question: "Can an ERP for children also manage students with special needs?"
+      answer: "The digital file can store specific information on adaptations, authorizations and protocols. The level of detail and structure of those logs depends on how you configure the system; See what customizable fields the provider offers for this profile before you commit."
+    - question: "How do you manage the transition from an old system without losing critical data?"
+      answer: "Require a phased migration plan from the provider: first master data (students, tutors, groups), then collection history, then documents. Validate with real data before closing the old system and plan a coexistence period. Without that plan, the risk of losing history of non-payments or contracts is real."
+    - question: "How long does it take for the platform to be operational?"
+      answer: "It depends on the volume of data, the complexity of the center and the level of customization. In centers with up to 150 places, a basic pilot can be active in four to six weeks with migration and training included, if an internal manager is dedicated."
+    - question: "Is the extracurricular module worth it if we have few activities?"
+      answer: "If the activities generate their own charges and have limited places, the module avoids email management and the parallel registration form circuit. If you only have one activity with free registration and no charge, evaluate if the cost of the module is worth it."
 ---
 
 <strong>What an ERP for nursery schools should have in 2026</strong>

@@ -7,22 +7,21 @@ tags:
     - "tuteurs"
     - "éducation"
     - "numérique"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1640622304233-7335e936f11b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - app-familles-ecole-avantages-2026
-  - communication-ecole-familles-plateforme-numerique
-  - communication-numerique-etablissements-scolaires
-  - communication-familles-ere-numerique
+    - app-familles-ecole-avantages-2026
+    - communication-ecole-familles-plateforme-numerique
+    - communication-numerique-etablissements-scolaires
+    - communication-familles-ere-numerique
 faqs:
-  - question: "Accord d'utilisation de l'appareil ?"
-    answer: "Un règlement clair par âge, signé par les familles lors de l'inscription."
-  - question: "Contrôle parental dans l'application du centre ?"
-    answer: "Le centre rapporte ; Le contrôle à la maison relève de la responsabilité de la famille, sous la direction du centre."
-  - question: "Moins de 14 ans ?"
-    answer: "Consentement parental pour le traitement des données sur les plateformes."
+    - question: "Accord d'utilisation de l'appareil ?"
+      answer: "Un règlement clair par âge, signé par les familles lors de l'inscription."
+    - question: "Contrôle parental dans l'application du centre ?"
+      answer: "Le centre rapporte ; Le contrôle à la maison relève de la responsabilité de la famille, sous la direction du centre."
+    - question: "Moins de 14 ans ?"
+      answer: "Consentement parental pour le traitement des données sur les plateformes."
 ---
-
 
 <strong>Gardiens de l’éducation numérique : le rôle des parents à l’ère technologique</strong>
 

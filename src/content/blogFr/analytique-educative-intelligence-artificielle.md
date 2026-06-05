@@ -7,22 +7,21 @@ tags:
     - "intelligence artificielle"
     - "données"
     - "décisions"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1739805591936-39f03383c9a9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - methodologies-pedagogiques-innovantes
-  - innovation-pedagogique-technologie
-  - evaluation-numerique-educative
-  - espaces-educatifs-avenir-conception
+    - methodologies-pedagogiques-innovantes
+    - innovation-pedagogique-technologie
+    - evaluation-numerique-educative
+    - espaces-educatifs-avenir-conception
 faqs:
-  - question: "L’IA prédit-elle le décrochage scolaire ?"
-    answer: "Vous pouvez signaler des tendances (absentéisme, mauvaises notes), mais la décision doit être humaine et avec des données protégées."
-  - question: "Ai-je besoin d’un data scientist ?"
-    answer: "Dans les centres de taille moyenne, les rapports ERP automatiques et les critères du responsable des études suffisent."
-  - question: "Est-ce compatible avec LOMLOE?"
-    answer: "Oui s’il soutient l’évaluation formative, pas s’il impose des étiquettes opaques aux étudiants."
+    - question: "L’IA prédit-elle le décrochage scolaire ?"
+      answer: "Vous pouvez signaler des tendances (absentéisme, mauvaises notes), mais la décision doit être humaine et avec des données protégées."
+    - question: "Ai-je besoin d’un data scientist ?"
+      answer: "Dans les centres de taille moyenne, les rapports ERP automatiques et les critères du responsable des études suffisent."
+    - question: "Est-ce compatible avec LOMLOE?"
+      answer: "Oui s’il soutient l’évaluation formative, pas s’il impose des étiquettes opaques aux étudiants."
 ---
-
 
 <strong>Analyse pédagogique et intelligence artificielle : des données qui transforment l'éducation</strong>
 

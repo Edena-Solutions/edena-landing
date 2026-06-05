@@ -7,26 +7,25 @@ tags:
     - "eskola uztekeria"
     - "asistentzia"
     - "hezkuntza zentroak"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
 relatedPosts:
-  - 15-ordu-admin-eskola-2026
-  - ia-eskola-kudeaketa-kasu-praktikoak
-  - ikastetxe-administrazio-prozesu-automatizatu
-  - administrazio-lanen-automatizazioa
+    - 15-ordu-admin-eskola-2026
+    - ia-eskola-kudeaketa-kasu-praktikoak
+    - ikastetxe-administrazio-prozesu-automatizatu
+    - administrazio-lanen-automatizazioa
 faqs:
-  - question: "Eskola uzteen automatizazioak tutorea edo orientazioa ordezkatzen al du?"
-    answer: "Ez. Automatizazioak datuak eta abisuak ematen ditu; interpretazioa, familiarekin harremana eta hezkuntza neurriak taldearen ardura izaten jarraitzen dute."
-  - question: "Zein akatsen atalase da arrazoizkoa alerta bat bidaltzeko?"
-    answer: "Etaparen eta foru araudiaren araberakoa da. Erreferentzia gisa, zentro askok hilabetean justifikatu gabeko 3-5 faltaren ondoren jakinarazten dute; Garrantzitsua da koherentea izatea eta eragina berrikustea."
-  - question: "Familiek ikus al dezakete parte-hartzearen historia?"
-    answer: "Bai. Akatsak eta justifikazioak kontsultatzeko atari edo aplikazio batek gardentasuna eta elkarlana hobetzen ditu normalean eta kexak murrizten ditu."
-  - question: "Nola betetzen dira datuak babesteko araudia datu horiekin?"
-    answer: "Asistentzia hezkuntza harremanetarako beharrezko informazioa da. Lege-oinarria, familiei informazio argia eta segurtasun-neurriak (sarbide mugatua, ikuskaturiko erregistroak) egon behar du. Software hornitzaileak GDPR bete behar du."
-  - question: "Automatizazioa baliagarria al da lanbide heziketan edo helduen absentismorako?"
-    answer: "Bai. Eskema bera aplikatzen da (erregistro zentralizatua, alertak, txostenak); Atalaseak eta komunikazio bideak ikasleen profilari egokitu besterik ez duzu egin behar."
+    - question: "Eskola uzteen automatizazioak tutorea edo orientazioa ordezkatzen al du?"
+      answer: "Ez. Automatizazioak datuak eta abisuak ematen ditu; interpretazioa, familiarekin harremana eta hezkuntza neurriak taldearen ardura izaten jarraitzen dute."
+    - question: "Zein akatsen atalase da arrazoizkoa alerta bat bidaltzeko?"
+      answer: "Etaparen eta foru araudiaren araberakoa da. Erreferentzia gisa, zentro askok hilabetean justifikatu gabeko 3-5 faltaren ondoren jakinarazten dute; Garrantzitsua da koherentea izatea eta eragina berrikustea."
+    - question: "Familiek ikus al dezakete parte-hartzearen historia?"
+      answer: "Bai. Akatsak eta justifikazioak kontsultatzeko atari edo aplikazio batek gardentasuna eta elkarlana hobetzen ditu normalean eta kexak murrizten ditu."
+    - question: "Nola betetzen dira datuak babesteko araudia datu horiekin?"
+      answer: "Asistentzia hezkuntza harremanetarako beharrezko informazioa da. Lege-oinarria, familiei informazio argia eta segurtasun-neurriak (sarbide mugatua, ikuskaturiko erregistroak) egon behar du. Software hornitzaileak GDPR bete behar du."
+    - question: "Automatizazioa baliagarria al da lanbide heziketan edo helduen absentismorako?"
+      answer: "Bai. Eskema bera aplikatzen da (erregistro zentralizatua, alertak, txostenak); Atalaseak eta komunikazio bideak ikasleen profilari egokitu besterik ez duzu egin behar."
 ---
-
 
 <strong>Automatizazioak nola murrizten duen eskola-absentismoa</strong>
 

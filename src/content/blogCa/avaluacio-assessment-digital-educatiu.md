@@ -7,22 +7,21 @@ tags:
     - "assessment"
     - "tecnologia educativa"
     - "mesurament aprenentatge"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologies-pedagogiques-innovadores
-  - innovacio-pedagogica-tecnologia
-  - espais-educatius-futur-disseny
-  - benestar-emocional-estudiants-digitals
+    - metodologies-pedagogiques-innovadores
+    - innovacio-pedagogica-tecnologia
+    - espais-educatius-futur-disseny
+    - benestar-emocional-estudiants-digitals
 faqs:
-  - question: "Avaluació 100% digital?"
-    answer: "Possible amb rúbriques i portfoli; equilibri amb proves presencials segons etapa."
-  - question: "Traçabilitat per a inspecció?"
-    answer: "Expedient amb historial davaluacions i criteris LOMLOE visibles."
-  - question: "Menys temps corregint?"
-    answer: "Sí, amb autocorrecció formativa i bancs d'ítems ben dissenyats."
+    - question: "Avaluació 100% digital?"
+      answer: "Possible amb rúbriques i portfoli; equilibri amb proves presencials segons etapa."
+    - question: "Traçabilitat per a inspecció?"
+      answer: "Expedient amb historial davaluacions i criteris LOMLOE visibles."
+    - question: "Menys temps corregint?"
+      answer: "Sí, amb autocorrecció formativa i bancs d'ítems ben dissenyats."
 ---
-
 
 <strong>Avaluació i assessment digital a l'educació moderna: Eines i estratègies</strong>
 

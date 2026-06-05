@@ -7,22 +7,22 @@ tags:
     - "compliance"
     - "regulations"
     - "electronic billing"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-cfa08c2a758f?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - school-arrears-automated-billing-2026
-  - electronic-billing-verifactu-education-2026
-  - head-teacher-monthly-kpis-2026
-  - reduce-arrears-billing-schools
+    - school-arrears-automated-billing-2026
+    - electronic-billing-verifactu-education-2026
+    - head-teacher-monthly-kpis-2026
+    - reduce-arrears-billing-schools
 faqs:
-  - question: "Can my agency issue for me?"
-    answer: "Yes, but the center must have consistent traceability with families and ERP."
-  - question: "Simplified bills for families?"
-    answer: "Consult advice according to type of service and issuing entity."
-  - question: "How much late payment is 'normal' at a private school?"
-    answer: "It varies by socioeconomic profile and collection method, but many healthy centers move between 4% and 8% at 45 days. Above 10% it is advisable to review the calendar, direct debit and sequence of reminders before expanding the workforce."
-  - question: "Does Verifactu change how I charge families?"
-    answer: "Verifactu mainly affects the issuance and traceability of invoices before the AEAT, not the payment method itself. It does require your billing software to generate compliant records; It is advisable to integrate it with collections and conciliation."
+    - question: "Can my agency issue for me?"
+      answer: "Yes, but the center must have consistent traceability with families and ERP."
+    - question: "Simplified bills for families?"
+      answer: "Consult advice according to type of service and issuing entity."
+    - question: "How much late payment is 'normal' at a private school?"
+      answer: "It varies by socioeconomic profile and collection method, but many healthy centers move between 4% and 8% at 45 days. Above 10% it is advisable to review the calendar, direct debit and sequence of reminders before expanding the workforce."
+    - question: "Does Verifactu change how I charge families?"
+      answer: "Verifactu mainly affects the issuance and traceability of invoices before the AEAT, not the payment method itself. It does require your billing software to generate compliant records; It is advisable to integrate it with collections and conciliation."
 ---
 
 <strong>Verifactu in education: Simplified regulatory compliance</strong>

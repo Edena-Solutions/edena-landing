@@ -7,22 +7,21 @@ tags:
     - "intel·ligència artificial"
     - "dades"
     - "decisions"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1739805591936-39f03383c9a9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologies-pedagogiques-innovadores
-  - innovacio-pedagogica-tecnologia
-  - avaluacio-assessment-digital-educatiu
-  - espais-educatius-futur-disseny
+    - metodologies-pedagogiques-innovadores
+    - innovacio-pedagogica-tecnologia
+    - avaluacio-assessment-digital-educatiu
+    - espais-educatius-futur-disseny
 faqs:
-  - question: "La IA prediu abandonament escolar?"
-    answer: "Pot assenyalar patrons (absentisme, notes baixes), però la decisió ha de ser humana i amb dades protegides."
-  - question: "Necessito científic de dades?"
-    answer: "A centres mitjans n'hi ha prou amb informes automàtics del ERP i criteri de direcció d'estudis."
-  - question: "És compatible amb LOMLOE?"
-    answer: "Sí si recolza avaluació formativa, no si imposa etiquetes opaques a lalumnat."
+    - question: "La IA prediu abandonament escolar?"
+      answer: "Pot assenyalar patrons (absentisme, notes baixes), però la decisió ha de ser humana i amb dades protegides."
+    - question: "Necessito científic de dades?"
+      answer: "A centres mitjans n'hi ha prou amb informes automàtics del ERP i criteri de direcció d'estudis."
+    - question: "És compatible amb LOMLOE?"
+      answer: "Sí si recolza avaluació formativa, no si imposa etiquetes opaques a lalumnat."
 ---
-
 
 <strong>Analítica educativa i intel·ligència artificial: Dades que transformen leducació</strong>
 

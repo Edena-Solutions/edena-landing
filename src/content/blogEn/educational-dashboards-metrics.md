@@ -7,24 +7,24 @@ tags:
     - "data"
     - "address"
     - "indicators"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1667850562258-b77dfa54c79d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - head-teacher-monthly-kpis-2026
-  - educational-dashboard
-  - educational-analytics-school-dashboards
-  - academic-performance-analytics
+    - head-teacher-monthly-kpis-2026
+    - educational-dashboard
+    - educational-analytics-school-dashboards
+    - academic-performance-analytics
 faqs:
-  - question: "Do we need a separate BI or is the management software enough?"
-    answer: "Many school management software includes basic reports and dashboards. If they cover your collection, retention and assistance needs, it may be enough. A separate BI makes sense when you need to cross-reference many sources or highly customized analyses."
-  - question: "Who should configure the educational dashboard?"
-    answer: "Ideally, it should be configured by someone who knows the processes (admin or management) with support from the provider if necessary. The metrics must answer real questions from the center, not what the system offers by default."
-  - question: "Can academic and financial metrics be on the same dashboard?"
-    answer: "Yes, in a direction view. The important thing is not to mix a high level of operational detail (default list) with strategic indicators (retention rate) on the same screen for the same person."
-  - question: "How often should an educational dashboard be updated?"
-    answer: "It depends on the indicator. Collection and alerts can be in real time or daily; Occupancy and retention are usually weekly or monthly. The critical thing is that the update is automatic from the system."
-  - question: "How do we prevent the team from ignoring the dashboard?"
-    answer: "Linking its use to routines (weekly management meeting, review of non-payments every Monday) and making visible decisions based on the data. If no one acts, the educational dashboard loses meaning."
+    - question: "Do we need a separate BI or is the management software enough?"
+      answer: "Many school management software includes basic reports and dashboards. If they cover your collection, retention and assistance needs, it may be enough. A separate BI makes sense when you need to cross-reference many sources or highly customized analyses."
+    - question: "Who should configure the educational dashboard?"
+      answer: "Ideally, it should be configured by someone who knows the processes (admin or management) with support from the provider if necessary. The metrics must answer real questions from the center, not what the system offers by default."
+    - question: "Can academic and financial metrics be on the same dashboard?"
+      answer: "Yes, in a direction view. The important thing is not to mix a high level of operational detail (default list) with strategic indicators (retention rate) on the same screen for the same person."
+    - question: "How often should an educational dashboard be updated?"
+      answer: "It depends on the indicator. Collection and alerts can be in real time or daily; Occupancy and retention are usually weekly or monthly. The critical thing is that the update is automatic from the system."
+    - question: "How do we prevent the team from ignoring the dashboard?"
+      answer: "Linking its use to routines (weekly management meeting, review of non-payments every Monday) and making visible decisions based on the data. If no one acts, the educational dashboard loses meaning."
 ---
 
 <strong>How to use educational dashboards to improve academic and financial metrics</strong>

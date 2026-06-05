@@ -3,28 +3,29 @@ title: "CRM scolaire : comment augmenter les inscriptions et convertir plus de d
 date: "2026-03-22"
 description: "Guide CRM scolaire 2026 : étapes du pipeline, sources de leads, formulaires et métriques pour convertir plus de demandes en inscriptions confirmées."
 tags:
- [
- "CRM scolaire",
- "pipeline inscriptions",
- "CRM admissions scolaires",
- "augmenter inscriptions",
- "gestion leads école",
- "Edena",
- ]
-author: "Équipe Edena"
+    [
+        "CRM scolaire",
+        "pipeline inscriptions",
+        "CRM admissions scolaires",
+        "augmenter inscriptions",
+        "gestion leads école",
+        "Edena",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1730382624360-9cf5609c8364?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 faqs:
-  - question: "En quoi un CRM scolaire diffère-t-il d'un CRM commercial générique ?"
-    answer: "Un CRM commercial générique est conçu pour des relations commerciales récurrentes. Un CRM scolaire doit gérer un cycle saisonnier, des exigences réglementaires sur les données (GDPR pour les mineurs), une intégration avec une facturation suivant des structures de trimestres, et une communication familiale professionnelle. Utiliser un CRM générique adapté avec des contournements est possible mais crée des frictions aux points d'intégration."
-  - question: "Quelle amélioration de conversion est réaliste après la mise en place d'un CRM ?"
-    answer: "Cela dépend de l'état du processus actuel. Les établissements sans pipeline qui passent à un CRM structuré voient généralement leur taux de demande à place confirmée s'améliorer de huit à quinze points de pourcentage lors de la première saison complète. Il n'y a pas de chiffre universel : mesurez votre base de référence d'abord."
-  - question: "Comment gérer une liste d'attente dans le CRM ?"
-    answer: "Créez une étape de liste d'attente spécifique dans le pipeline avec un champ de position et un accusé de réception automatique pour la famille. Quand une place se libère, le système peut alerter le responsable de l'étape pour faire avancer la prochaine demande. Évitez de gérer la liste d'attente dans un tableur séparé."
-  - question: "Le GDPR restreint-il ce que nous pouvons stocker dans un CRM scolaire ?"
-    answer: "Le GDPR exige une base légale pour le traitement des données personnelles, des durées de conservation appropriées et une procédure de réponse aux demandes de droits. Le CRM fournit des contrôles d'accès et des journaux d'audit ; la base légale, le calendrier de conservation et les procédures de droits sont définis par votre DPO. Assurez-vous que votre avis de confidentialité couvre les données des familles prospectives dès l'étape initiale."
-  - question: "Quand faut-il ajouter le module de communication Pro au flux CRM ?"
-    answer: "Quand le volume de demandes est suffisamment élevé pour que la communication uniquement par e-mail entraîne des familles qui ne voient pas les notifications critiques de changement d'étape, ou quand vous avez besoin d'accusés de lecture sur les messages de confirmation de place ou de paiement d'arrhes. La communication de base fonctionne pour les volumes modérés ; Pro ajoute les notifications push et les accusés de lecture quand le processus d'inscription le justifie."
+    - question: "En quoi un CRM scolaire diffère-t-il d'un CRM commercial générique ?"
+      answer: "Un CRM commercial générique est conçu pour des relations commerciales récurrentes. Un CRM scolaire doit gérer un cycle saisonnier, des exigences réglementaires sur les données (GDPR pour les mineurs), une intégration avec une facturation suivant des structures de trimestres, et une communication familiale professionnelle. Utiliser un CRM générique adapté avec des contournements est possible mais crée des frictions aux points d'intégration."
+    - question: "Quelle amélioration de conversion est réaliste après la mise en place d'un CRM ?"
+      answer: "Cela dépend de l'état du processus actuel. Les établissements sans pipeline qui passent à un CRM structuré voient généralement leur taux de demande à place confirmée s'améliorer de huit à quinze points de pourcentage lors de la première saison complète. Il n'y a pas de chiffre universel : mesurez votre base de référence d'abord."
+    - question: "Comment gérer une liste d'attente dans le CRM ?"
+      answer: "Créez une étape de liste d'attente spécifique dans le pipeline avec un champ de position et un accusé de réception automatique pour la famille. Quand une place se libère, le système peut alerter le responsable de l'étape pour faire avancer la prochaine demande. Évitez de gérer la liste d'attente dans un tableur séparé."
+    - question: "Le GDPR restreint-il ce que nous pouvons stocker dans un CRM scolaire ?"
+      answer: "Le GDPR exige une base légale pour le traitement des données personnelles, des durées de conservation appropriées et une procédure de réponse aux demandes de droits. Le CRM fournit des contrôles d'accès et des journaux d'audit ; la base légale, le calendrier de conservation et les procédures de droits sont définis par votre DPO. Assurez-vous que votre avis de confidentialité couvre les données des familles prospectives dès l'étape initiale."
+    - question: "Quand faut-il ajouter le module de communication Pro au flux CRM ?"
+      answer: "Quand le volume de demandes est suffisamment élevé pour que la communication uniquement par e-mail entraîne des familles qui ne voient pas les notifications critiques de changement d'étape, ou quand vous avez besoin d'accusés de lecture sur les messages de confirmation de place ou de paiement d'arrhes. La communication de base fonctionne pour les volumes modérés ; Pro ajoute les notifications push et les accusés de lecture quand le processus d'inscription le justifie."
 ---
+
 <strong>CRM scolaire : comment augmenter les inscriptions et convertir plus de demandes</strong>
 
 <br>

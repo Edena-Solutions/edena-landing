@@ -7,26 +7,25 @@ tags:
     - "centres educatius"
     - "selecció"
     - "digitalització"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop"
 relatedPosts:
-  - comparativa-programari-gestio-escolar-2026
-  - checklist-software-escolar-director-2026
-  - triar-programari-gestio-escolar
-  - erp-escolar-guia-digitalitzacio
+    - comparativa-programari-gestio-escolar-2026
+    - checklist-software-escolar-director-2026
+    - triar-programari-gestio-escolar
+    - erp-escolar-guia-digitalitzacio
 faqs:
-  - question: "Quan costa implantar un programari de gestió escolar?"
-    answer: "Depèn de la mida del centre i de l'abast. A més de la llicència, cal comptar formació, migració de dades i possible personalització. Compara cost total a 3 anys."
-  - question: "Puc migrar dades del sistema actual?"
-    answer: "La majoria de proveïdors ofereixen importació des d'Excel o sistemes previs. Exigeix ​​un pla de migració per fases i validació de dades crítiques."
-  - question: "El programari de gestió escolar inclou app per a famílies?"
-    answer: "No tothom. Si la comunicació amb famílies és prioritària, verifica app o portal i notificacions (recordatoris de pagament, absències, circulars)."
-  - question: "Què passa amb la facturació electrònica i Verifactu?"
-    answer: "A Espanya, la normativa avança. El millor programari de gestió escolar per a centres ha d'estar preparat o en adaptació; comprova-ho abans de signar."
-  - question: "Convé un programari modular o tot en un?"
-    answer: "Depèn de si ja tens eines que vols mantenir (per exemple, plataforma acadèmica). Un nucli unificat (facturació, famílies, administració) sol simplificar el dia a dia."
+    - question: "Quan costa implantar un programari de gestió escolar?"
+      answer: "Depèn de la mida del centre i de l'abast. A més de la llicència, cal comptar formació, migració de dades i possible personalització. Compara cost total a 3 anys."
+    - question: "Puc migrar dades del sistema actual?"
+      answer: "La majoria de proveïdors ofereixen importació des d'Excel o sistemes previs. Exigeix ​​un pla de migració per fases i validació de dades crítiques."
+    - question: "El programari de gestió escolar inclou app per a famílies?"
+      answer: "No tothom. Si la comunicació amb famílies és prioritària, verifica app o portal i notificacions (recordatoris de pagament, absències, circulars)."
+    - question: "Què passa amb la facturació electrònica i Verifactu?"
+      answer: "A Espanya, la normativa avança. El millor programari de gestió escolar per a centres ha d'estar preparat o en adaptació; comprova-ho abans de signar."
+    - question: "Convé un programari modular o tot en un?"
+      answer: "Depèn de si ja tens eines que vols mantenir (per exemple, plataforma acadèmica). Un nucli unificat (facturació, famílies, administració) sol simplificar el dia a dia."
 ---
-
 
 <strong>Com triar el millor programari de gestió escolar per al teu centre educatiu</strong>
 

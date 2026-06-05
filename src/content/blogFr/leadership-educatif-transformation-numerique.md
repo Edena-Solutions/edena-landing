@@ -7,21 +7,20 @@ tags:
     - "transformation numérique"
     - "pouvoirs de gestion"
     - "gestion de l'école"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1601231808069-e6103868f686?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - gestion-changement-organisationnel-educatif
-  - checklist-numerisation-2026
-  - kpi-mensuels-direction-ecole-2026
+    - gestion-changement-organisationnel-educatif
+    - checklist-numerisation-2026
+    - kpi-mensuels-direction-ecole-2026
 faqs:
-  - question: "Combien de temps la direction doit-elle consacrer au projet ?"
-    answer: "30 à 45 minutes par semaine pendant les douze premières semaines : de quoi débloquer, pas faire de microgestion."
-  - question: "Que faire si un département refuse ?"
-    answer: "Écoutez l'obstacle spécifique, ajustez la formation ou le débit et définissez la date limite à partir de la méthode précédente."
-  - question: "Ai-je besoin d’un responsable de transformation à temps plein ?"
-    answer: "Dans les centres de taille moyenne, une référence interne avec un mandat du directeur et un accompagnement du prestataire suffit."
+    - question: "Combien de temps la direction doit-elle consacrer au projet ?"
+      answer: "30 à 45 minutes par semaine pendant les douze premières semaines : de quoi débloquer, pas faire de microgestion."
+    - question: "Que faire si un département refuse ?"
+      answer: "Écoutez l'obstacle spécifique, ajustez la formation ou le débit et définissez la date limite à partir de la méthode précédente."
+    - question: "Ai-je besoin d’un responsable de transformation à temps plein ?"
+      answer: "Dans les centres de taille moyenne, une référence interne avec un mandat du directeur et un accompagnement du prestataire suffit."
 ---
-
 
 <strong>Leadership dans les projets numériques scolaires</strong>
 

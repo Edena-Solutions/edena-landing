@@ -7,20 +7,20 @@ tags:
     - "salud mental"
     - "era digital"
     - "apoyo estudiantil"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1503891617560-5b8c2e28cbf6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - pedagogia-metodologia-berragarriak
-  - pedagogia-berrikuntza-teknologia
-  - hezkuntzako-ebaluazio-digitala
-  - etorkizuneko-hezkuntza-espazioen-diseinua
+    - pedagogia-metodologia-berragarriak
+    - pedagogia-berrikuntza-teknologia
+    - hezkuntzako-ebaluazio-digitala
+    - etorkizuneko-hezkuntza-espazioen-diseinua
 faqs:
-  - question: "Zentroan pantailak mugatu?"
-    answer: "Politika argia etapaka; erabilera pedagogikoarekin bat datorrena, ez soilik debekuarekin."
-  - question: "Abisu seinale digitalak?"
-    answer: "Isolamendua, ziberbullyinga, lo nahastea; orientaziorako erreferentzia-protokoloa."
-  - question: "Familia eraketa?"
-    answer: "Erabilera orekatuari eta gurasoen kontrolari buruzko saio laburrak."
+    - question: "Zentroan pantailak mugatu?"
+      answer: "Politika argia etapaka; erabilera pedagogikoarekin bat datorrena, ez soilik debekuarekin."
+    - question: "Abisu seinale digitalak?"
+      answer: "Isolamendua, ziberbullyinga, lo nahastea; orientaziorako erreferentzia-protokoloa."
+    - question: "Familia eraketa?"
+      answer: "Erabilera orekatuari eta gurasoen kontrolari buruzko saio laburrak."
 ---
 
 <strong>Ikasleen ongizate emozionala aro digitalean: Estrategiak eta tresnak</strong>

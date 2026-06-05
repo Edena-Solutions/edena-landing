@@ -8,22 +8,21 @@ tags:
     - "transformació digital"
     - "tecnologia educativa"
     - "Espanya 2026"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologies-pedagogiques-innovadores
-  - innovacio-pedagogica-tecnologia
-  - avaluacio-assessment-digital-educatiu
-  - espais-educatius-futur-disseny
+    - metodologies-pedagogiques-innovadores
+    - innovacio-pedagogica-tecnologia
+    - avaluacio-assessment-digital-educatiu
+    - espais-educatius-futur-disseny
 faqs:
-  - question: "Què és el Pla DigEdu i per què és crucial el 2026?"
-    answer: "El Pla DigEdu és l‟estratègia governamental més important per a la digitalització del sistema educatiu espanyol, finançat pel Mecanisme de Recuperació i Resiliència de la UE. S'estructura en dos programes complementaris que transformen la infraestructura tecnològica i les competències digitals de tota la comunitat educativa. El programa #EcoDigEdu, amb 989 milions d'euros d'inversió, equipa els centres educatius amb la tecnologia necessària per a l'educació del futur. Per part seva, el programa #CompDigEdu, amb 301 milions d'euros, està formant i certificant centenars de milers de docents en competències digitals avançades. Aquesta inversió massiva no és només una modernització tecnològica; és un canvi de paradigma que està redefinint com entenem l'educació el 2026. Els centres que s'adapten ara a aquesta transformació s'estan posicionant com a líders del sector educatiu."
-  - question: "DigEdu obliga un programari concret?"
-    answer: "No; exigeix ​​criteris de seguretat i competència docent."
-  - question: "Ajudes públiques?"
-    answer: "Consulteu convocatòries autonòmiques; documenteu projecte i privadesa."
+    - question: "Què és el Pla DigEdu i per què és crucial el 2026?"
+      answer: "El Pla DigEdu és l‟estratègia governamental més important per a la digitalització del sistema educatiu espanyol, finançat pel Mecanisme de Recuperació i Resiliència de la UE. S'estructura en dos programes complementaris que transformen la infraestructura tecnològica i les competències digitals de tota la comunitat educativa. El programa #EcoDigEdu, amb 989 milions d'euros d'inversió, equipa els centres educatius amb la tecnologia necessària per a l'educació del futur. Per part seva, el programa #CompDigEdu, amb 301 milions d'euros, està formant i certificant centenars de milers de docents en competències digitals avançades. Aquesta inversió massiva no és només una modernització tecnològica; és un canvi de paradigma que està redefinint com entenem l'educació el 2026. Els centres que s'adapten ara a aquesta transformació s'estan posicionant com a líders del sector educatiu."
+    - question: "DigEdu obliga un programari concret?"
+      answer: "No; exigeix ​​criteris de seguretat i competència docent."
+    - question: "Ajudes públiques?"
+      answer: "Consulteu convocatòries autonòmiques; documenteu projecte i privadesa."
 ---
-
 
 <strong>Pla DigEdu 2026: La Transformació Digital que millora l'educació a Espanya</strong>
 

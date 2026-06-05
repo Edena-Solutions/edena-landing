@@ -7,17 +7,17 @@ tags:
     - "pedagogy"
     - "methodologies"
     - "learning"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1564514476902-542f8c30121e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalization-checklist-2026
+    - digitalization-checklist-2026
 faqs:
-  - question: "How to align technology with LOMLOE?"
-    answer: "Prioritize tools that free up time for key competencies and continuous assessment, not isolated gadgets."
-  - question: "Faculty training: how much is enough?"
-    answer: "60-minute sessions per tool, recorded, with a reference per stage to resolve doubts among peers."
-  - question: "Does digitalization take away pedagogical time?"
-    answer: "Done right, it pays off: less duplicating lists and manual circulars means more time for evaluation and mentoring."
+    - question: "How to align technology with LOMLOE?"
+      answer: "Prioritize tools that free up time for key competencies and continuous assessment, not isolated gadgets."
+    - question: "Faculty training: how much is enough?"
+      answer: "60-minute sessions per tool, recorded, with a reference per stage to resolve doubts among peers."
+    - question: "Does digitalization take away pedagogical time?"
+      answer: "Done right, it pays off: less duplicating lists and manual circulars means more time for evaluation and mentoring."
 ---
 
 <strong>Pedagogical innovation with technology: Transforming teaching and learning</strong>

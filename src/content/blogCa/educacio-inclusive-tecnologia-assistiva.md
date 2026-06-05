@@ -7,22 +7,21 @@ tags:
     - "tecnologia assistiva"
     - "accessibilitat"
     - "diversitat"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1550418290-a8d86ad674a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologies-pedagogiques-innovadores
-  - innovacio-pedagogica-tecnologia
-  - avaluacio-assessment-digital-educatiu
-  - espais-educatius-futur-disseny
+    - metodologies-pedagogiques-innovadores
+    - innovacio-pedagogica-tecnologia
+    - avaluacio-assessment-digital-educatiu
+    - espais-educatius-futur-disseny
 faqs:
-  - question: "Tecnologia asistiva a l'aula ordinària?"
-    answer: "Lectors, ampliadors, programari de predicció; integrats en pla individual si s'aplica."
-  - question: "Qui avalua necessitats?"
-    answer: "Orientació, PT i família; registre en expedient amb accés controlat."
-  - question: "Pressupost del centre?"
-    answer: "Prioritzeu adaptacions d'alt impacte baix cost abans que maquinari car sense formació."
+    - question: "Tecnologia asistiva a l'aula ordinària?"
+      answer: "Lectors, ampliadors, programari de predicció; integrats en pla individual si s'aplica."
+    - question: "Qui avalua necessitats?"
+      answer: "Orientació, PT i família; registre en expedient amb accés controlat."
+    - question: "Pressupost del centre?"
+      answer: "Prioritzeu adaptacions d'alt impacte baix cost abans que maquinari car sense formació."
 ---
-
 
 <strong>Educació inclusiva i tecnologia asistiva: Creant aules per a tothom</strong>
 

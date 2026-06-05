@@ -9,26 +9,25 @@ tags:
     - "hezkuntza-fakturazioa"
     - "eskolako ordainagiriak"
     - "bilketa kontrola"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1635091238012-83fb7454e8bb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - faktura-elektronikoa-verifactu-hezkuntza-2026
-  - kpi-hileko-zuzendaria-2026
-  - fakturazio-zorrak-murriztu-ikastetxeetan
-  - hezkuntza-ordainketak-online
+    - faktura-elektronikoa-verifactu-hezkuntza-2026
+    - kpi-hileko-zuzendaria-2026
+    - fakturazio-zorrak-murriztu-ikastetxeetan
+    - hezkuntza-ordainketak-online
 faqs:
-  - question: "Zenbat murriztu ditzaket errealistan atzerapenak automatizazio eta prozesu zuzenekin?"
-    answer: "Errenta nahasketaren, profilen eta politikaren araberakoa da, baina egitura-geruzetan, buztan baxuaren herenetik erdira murriztea, 6-12 hilabetetan, neurketarekin, ez da ohikoa. Ez dugu miraririk agintzen, aldakuntza txar gutxiago agintzen dugu."
-  - question: "Fakturazio elektronikoak eragina al du familiaren abisuetan?"
-    answer: "Bai, zeharka: jaulkipena eta ordainagiria argi bizi badira, gatazkak gutxitzen dira, eta birlanak gutxitzen dira. Ziurtatu hornitzaileak ez zaituela uzten tutoreei azalpenaren erdian."
-  - question: "Zer egin behar dut behin eta berriz ez betetzearekin?"
-    answer: "Arauak eta barne politika, lehenik. Softwarea exekutatzen da, ez du zerbitzuen araudia ordezkatzen, baina koherentziaz eta hautematen den arbitrariotasunik gabe jarduteko oinarria ematen du."
-  - question: "Ordainketa-pasabide edo banku batera konektatu behar al naiz?"
-    answer: "Estrategia: koadroak eta irizpideen bikoizketa minimizatzea. Zenbat eta leku gutxiago, orduan eta hutsune gutxiago. Plataformak irizpideak eta arrastoak kontzentratu behar ditu."
-  - question: "Noiz du zentzua kanpoko bilketen kudeaketara pasatzea?"
-    answer: "Barne eskalatze-sekuentzia amaitzen denean, idatzizko ordainketa-plan bat eskaini eta baztertu da. Eskalatzeko atalasea politika-erabaki bat da, ez software bat: adostu zure taldearekin lehen kasua gertatu baino lehen, dokumentatu eta koherentziaz aplikatu familiek tratamendu justu eta aurreikusgarria izan dezaten. Plataformak erabaki hori defendagarri egiten duen historia erregistratzen du."
+    - question: "Zenbat murriztu ditzaket errealistan atzerapenak automatizazio eta prozesu zuzenekin?"
+      answer: "Errenta nahasketaren, profilen eta politikaren araberakoa da, baina egitura-geruzetan, buztan baxuaren herenetik erdira murriztea, 6-12 hilabetetan, neurketarekin, ez da ohikoa. Ez dugu miraririk agintzen, aldakuntza txar gutxiago agintzen dugu."
+    - question: "Fakturazio elektronikoak eragina al du familiaren abisuetan?"
+      answer: "Bai, zeharka: jaulkipena eta ordainagiria argi bizi badira, gatazkak gutxitzen dira, eta birlanak gutxitzen dira. Ziurtatu hornitzaileak ez zaituela uzten tutoreei azalpenaren erdian."
+    - question: "Zer egin behar dut behin eta berriz ez betetzearekin?"
+      answer: "Arauak eta barne politika, lehenik. Softwarea exekutatzen da, ez du zerbitzuen araudia ordezkatzen, baina koherentziaz eta hautematen den arbitrariotasunik gabe jarduteko oinarria ematen du."
+    - question: "Ordainketa-pasabide edo banku batera konektatu behar al naiz?"
+      answer: "Estrategia: koadroak eta irizpideen bikoizketa minimizatzea. Zenbat eta leku gutxiago, orduan eta hutsune gutxiago. Plataformak irizpideak eta arrastoak kontzentratu behar ditu."
+    - question: "Noiz du zentzua kanpoko bilketen kudeaketara pasatzea?"
+      answer: "Barne eskalatze-sekuentzia amaitzen denean, idatzizko ordainketa-plan bat eskaini eta baztertu da. Eskalatzeko atalasea politika-erabaki bat da, ez software bat: adostu zure taldearekin lehen kasua gertatu baino lehen, dokumentatu eta koherentziaz aplikatu familiek tratamendu justu eta aurreikusgarria izan dezaten. Plataformak erabaki hori defendagarri egiten duen historia erregistratzen du."
 ---
-
 
 <strong>Nola murriztu berandutza ordainketak ikastetxeetan eta haurtzaindegietan bilketa automatizatuekin</strong>
 

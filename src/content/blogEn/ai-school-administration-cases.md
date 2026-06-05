@@ -7,24 +7,24 @@ tags:
     - "artificial intelligence"
     - "automation"
     - "administration"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1680783954745-3249be59e527?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - save-15-hours-school-admin-2026
-  - automation-school-absenteeism
-  - administrative-processes-automate-school
-  - automated-administrative-tasks
+    - save-15-hours-school-admin-2026
+    - automation-school-absenteeism
+    - administrative-processes-automate-school
+    - automated-administrative-tasks
 faqs:
-  - question: "Does AI in school management replace jobs?"
-    answer: "In typical cases (collection prioritization, hold alerts, automatic responses), AI assists and frees up time for higher-value tasks. The criteria and relationship with families remain in the hands of the team."
-  - question: "Do we need a lot of data to use AI?"
-    answer: "It depends on the case. For alert rules (default thresholds, non-payments) operational data is sufficient. For predictive models (risk of non-payment or cancellation) a history of at least one or two years is usually required."
-  - question: "What about data protection and AI?"
-    answer: "The data must be processed on a legal basis and with security measures. If the provider processes data to train models, the contract must regulate this and ensure that it is not used for unauthorized purposes. Transparency with families about data use is important."
-  - question: "Can we start without a technical department?"
-    answer: "Yes. Many AI solutions in school management come integrated into management software (alerts, prioritization, templates). The center does not have to build models; Yes, you must define objectives and monitor results."
-  - question: "How to choose an AI provider for school management?"
-    answer: "Consider that the solution is integrated with your management (enrollment, billing, communication), that it documents what it does with the data and that it allows human supervision. Ask for references from similar centers."
+    - question: "Does AI in school management replace jobs?"
+      answer: "In typical cases (collection prioritization, hold alerts, automatic responses), AI assists and frees up time for higher-value tasks. The criteria and relationship with families remain in the hands of the team."
+    - question: "Do we need a lot of data to use AI?"
+      answer: "It depends on the case. For alert rules (default thresholds, non-payments) operational data is sufficient. For predictive models (risk of non-payment or cancellation) a history of at least one or two years is usually required."
+    - question: "What about data protection and AI?"
+      answer: "The data must be processed on a legal basis and with security measures. If the provider processes data to train models, the contract must regulate this and ensure that it is not used for unauthorized purposes. Transparency with families about data use is important."
+    - question: "Can we start without a technical department?"
+      answer: "Yes. Many AI solutions in school management come integrated into management software (alerts, prioritization, templates). The center does not have to build models; Yes, you must define objectives and monitor results."
+    - question: "How to choose an AI provider for school management?"
+      answer: "Consider that the solution is integrated with your management (enrollment, billing, communication), that it documents what it does with the data and that it allows human supervision. Ask for references from similar centers."
 ---
 
 <strong>Artificial intelligence in school administration: real practical cases</strong>

@@ -7,24 +7,23 @@ tags:
     - "matrikula digitaleko ikasleak"
     - "onboarding familiak"
     - "digitalizazioa"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1680391380106-de9702ca6246?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
 relatedPosts:
-  - matrikula-online-urratsez-2026
-  - eskola-crm-matrikulak-bihurketak-2026
-  - ikasleen-atzokitze-digitalizazioa
-  - ikasle-atzokitzea-garai-digitalan
+    - matrikula-online-urratsez-2026
+    - eskola-crm-matrikulak-bihurketak-2026
+    - ikasleen-atzokitze-digitalizazioa
+    - ikasle-atzokitzea-garai-digitalan
 faqs:
-  - question: "Lineako eskola-matrikulazioa legez baliozkoa al da?"
-    answer: "Bai. Sinadura elektronikoak eta dokumentu digitalak presentziazko dokumentuen balio bera dute arauzko baldintzak betetzen direnean. Ikasleen matrikula digitala baliozkoa da prozesua ondo diseinatuta badago."
-  - question: "Familiek ikasleen matrikula digitala hartzen al dute?"
-    answer: "Bai, prozesua argia denean eta zentroak ondo komunikatzen duenean. Balioa eskaintzen duen familien onboarding digitalak (bidaia gutxiago, paper gutxiago) harrera ona du. Lineako eskola-inskripzioa aurkitzeko eta osatzeko erraza izan behar da."
-  - question: "Zer gertatzen da papera nahiago duten familiekin?"
-    answer: "Trantsizio batean bi aukerak eskain ditzakezu. Eskolan online matrikulazioa prozesu pertsonalekin batera egon daiteke. Familientzako onboarding digitalaren helburua digitala nahi duenak marruskadurarik gabe egin dezala da."
-  - question: "Noiz kobratu erreserba?"
-    answer: "Bisita baten ondoren edo onartutako proposamenaren ondoren, fluxu digital berean, behin betiko alta baino lehen."
+    - question: "Lineako eskola-matrikulazioa legez baliozkoa al da?"
+      answer: "Bai. Sinadura elektronikoak eta dokumentu digitalak presentziazko dokumentuen balio bera dute arauzko baldintzak betetzen direnean. Ikasleen matrikula digitala baliozkoa da prozesua ondo diseinatuta badago."
+    - question: "Familiek ikasleen matrikula digitala hartzen al dute?"
+      answer: "Bai, prozesua argia denean eta zentroak ondo komunikatzen duenean. Balioa eskaintzen duen familien onboarding digitalak (bidaia gutxiago, paper gutxiago) harrera ona du. Lineako eskola-inskripzioa aurkitzeko eta osatzeko erraza izan behar da."
+    - question: "Zer gertatzen da papera nahiago duten familiekin?"
+      answer: "Trantsizio batean bi aukerak eskain ditzakezu. Eskolan online matrikulazioa prozesu pertsonalekin batera egon daiteke. Familientzako onboarding digitalaren helburua digitala nahi duenak marruskadurarik gabe egin dezala da."
+    - question: "Noiz kobratu erreserba?"
+      answer: "Bisita baten ondoren edo onartutako proposamenaren ondoren, fluxu digital berean, behin betiko alta baino lehen."
 ---
-
 
 <strong>Onboarding familia digitalak: nola matrikulatu ikasleak paperik gabe</strong>
 

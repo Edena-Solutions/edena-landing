@@ -2,21 +2,30 @@
 title: "Comment économiser 15 heures par semaine en administration scolaire"
 date: "2026-04-12"
 description: "Automatisez la facturation, les inscriptions et les documents pour récupérer 15 heures chaque semaine. Guide pratique avec des métriques réelles."
-tags: ["économiser heures administration scolaire", "automatisation scolaire", "efficacité gestion éducative", "réduire tâches administratives", "gestion temps école", "Edena"]
-author: "Équipe Edena"
+tags:
+    [
+        "économiser heures administration scolaire",
+        "automatisation scolaire",
+        "efficacité gestion éducative",
+        "réduire tâches administratives",
+        "gestion temps école",
+        "Edena",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?q=80&w=1200&auto=format&fit=crop"
 faqs:
-  - question: "15 heures sont-elles réalistes pour un petit établissement de moins de 100 élèves ?"
-    answer: "Oui, bien que la répartition change. Dans les petits établissements, le temps se perd davantage dans les tâches manuelles de facturation et de communication individuelle. Un pilote d'automatisation des factures et un formulaire d'inscription numérique peut récupérer entre six et dix heures par semaine en deux mois, selon le volume et la discipline d'utilisation."
-  - question: "Ai-je besoin de tous les modules pour voir l'économie ?"
-    answer: "Non. Commencez par le bloc qui génère le plus de friction : si c'est la facturation, le module de facturation. Si c'est l'inscription, le CRM avec les formulaires. Si c'est la communication, évaluez si le module de base suffit avant de souscrire à Pro. L'économie apparaît quand le canal parallèle est fermé, pas quand les modules s'accumulent."
-  - question: "Combien de temps l'équipe met-elle à s'adapter ?"
-    answer: "Entre deux et six semaines selon la fréquence d'utilisation et la formation reçue. Les équipes avec un responsable interne désigné et un guide d'utilisation quotidien simple s'adaptent bien plus vite que celles qui démarrent seules. Edena inclut l'onboarding et un support 24h/7j pour accompagner cette transition."
-  - question: "Économiser du temps implique-t-il de réduire les effectifs ?"
-    answer: "Pas nécessairement. Dans la plupart des établissements, le temps récupéré est redirigé vers une relation de qualité avec les familles, des projets d'amélioration ou des activités d'inscription. L'efficacité n'est pas une justification pour réduire les effectifs : c'est un argument pour faire un travail plus utile et moins répétitif."
-  - question: "Comment convaincre la direction que l'investissement est rentable ?"
-    answer: "Avec vos propres données : enregistrez deux semaines de temps de processus avant le déploiement, estimez le coût horaire du secrétariat et calculez le retour sur douze mois. Dans la plupart des cas, la seule réduction des impayés couvre le coût du module de facturation. Ajoutez la valeur du temps récupéré et l'argument est simple."
+    - question: "15 heures sont-elles réalistes pour un petit établissement de moins de 100 élèves ?"
+      answer: "Oui, bien que la répartition change. Dans les petits établissements, le temps se perd davantage dans les tâches manuelles de facturation et de communication individuelle. Un pilote d'automatisation des factures et un formulaire d'inscription numérique peut récupérer entre six et dix heures par semaine en deux mois, selon le volume et la discipline d'utilisation."
+    - question: "Ai-je besoin de tous les modules pour voir l'économie ?"
+      answer: "Non. Commencez par le bloc qui génère le plus de friction : si c'est la facturation, le module de facturation. Si c'est l'inscription, le CRM avec les formulaires. Si c'est la communication, évaluez si le module de base suffit avant de souscrire à Pro. L'économie apparaît quand le canal parallèle est fermé, pas quand les modules s'accumulent."
+    - question: "Combien de temps l'équipe met-elle à s'adapter ?"
+      answer: "Entre deux et six semaines selon la fréquence d'utilisation et la formation reçue. Les équipes avec un responsable interne désigné et un guide d'utilisation quotidien simple s'adaptent bien plus vite que celles qui démarrent seules. Edena inclut l'onboarding et un support 24h/7j pour accompagner cette transition."
+    - question: "Économiser du temps implique-t-il de réduire les effectifs ?"
+      answer: "Pas nécessairement. Dans la plupart des établissements, le temps récupéré est redirigé vers une relation de qualité avec les familles, des projets d'amélioration ou des activités d'inscription. L'efficacité n'est pas une justification pour réduire les effectifs : c'est un argument pour faire un travail plus utile et moins répétitif."
+    - question: "Comment convaincre la direction que l'investissement est rentable ?"
+      answer: "Avec vos propres données : enregistrez deux semaines de temps de processus avant le déploiement, estimez le coût horaire du secrétariat et calculez le retour sur douze mois. Dans la plupart des cas, la seule réduction des impayés couvre le coût du module de facturation. Ajoutez la valeur du temps récupéré et l'argument est simple."
 ---
+
 <strong>Comment économiser 15 heures par semaine en administration scolaire</strong>
 
 <br>

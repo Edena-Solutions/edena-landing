@@ -3,17 +3,17 @@ title: "Cómo elegir el mejor software de gestión escolar"
 date: "2025-01-15"
 description: "Guía express de 5 pasos para acotar la búsqueda de software. Guía práctica para centros educativos en España (2026)."
 tags: ["software", "gestión", "educación", "selección"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-digitalizacion-2026
+    - checklist-digitalizacion-2026
 faqs:
-  - question: "¿Cuánto debe durar la fase de búsqueda?"
-    answer: "Una semana de acotación y dos a cuatro semanas de demos enfocadas bastan si tenéis criterios claros. Más de dos meses sin piloto suele indicar falta de decisión interna, no falta de oferta."
-  - question: "¿Puedo empezar solo por cobros?"
-    answer: "Sí, si el proveedor permite crecer por módulos sin re-migrar. Asegurad que expediente y familias llegarán al mismo dato maestro."
-  - question: "¿Qué hago si mi centro es concertado?"
-    answer: "Priorizad trazabilidad de cuotas, becas y comunicación con administración; el CRM comercial pesa menos que en privado puro, pero Verifactu y LOPDGDD aplican igual."
+    - question: "¿Cuánto debe durar la fase de búsqueda?"
+      answer: "Una semana de acotación y dos a cuatro semanas de demos enfocadas bastan si tenéis criterios claros. Más de dos meses sin piloto suele indicar falta de decisión interna, no falta de oferta."
+    - question: "¿Puedo empezar solo por cobros?"
+      answer: "Sí, si el proveedor permite crecer por módulos sin re-migrar. Asegurad que expediente y familias llegarán al mismo dato maestro."
+    - question: "¿Qué hago si mi centro es concertado?"
+      answer: "Priorizad trazabilidad de cuotas, becas y comunicación con administración; el CRM comercial pesa menos que en privado puro, pero Verifactu y LOPDGDD aplican igual."
 ---
 
 <strong>Cómo elegir el mejor software de gestión escolar</strong>

@@ -9,24 +9,24 @@ tags:
     - "buy school platform"
     - "school software demo"
     - "Eden"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1661732017132-28b644cbcf9c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - school-management-software-comparison-spain-2026
-  - best-school-management-software
-  - choosing-school-management-software
-  - erp-school-digitalization-guide
+    - school-management-software-comparison-spain-2026
+    - best-school-management-software
+    - choosing-school-management-software
+    - erp-school-digitalization-guide
 faqs:
-  - question: "How long does a complete software change process take?"
-    answer: "Between two and six months, depending on the volume of data, the complexity of the center and the availability of the internal team. A basic pilot (master data, first collection cycle, family portal) can be active in four weeks if there is a dedicated internal manager and the provider has a defined migration plan."
-  - question: "Is it better to change the system in summer or in January?"
-    answer: "Summer reduces the impact on families and team, but compresses the validation time with real enrollment and collection data in progress. January is quieter in registration but it coincides with the accounting close. The answer depends on where your biggest pain is: if it's September tuition, it changes in the summer; If it is billing, consider doing it with data from a quiet month."
-  - question: "Should I require a data portability contract?"
-    answer: "Yes, always. Before signing, confirm that you can export all your data (students, charges, files, documents) in open format (CSV, JSON, Excel) at any time. If the supplier does not include this in the contract or conditions it at an additional cost, it is a red flag."
-  - question: "Does it make sense to implement a system just before an enrollment peak?"
-    answer: "No, unless the current situation is so critical that anything will improve. The first two months of use, any system works below its potential: the team learns, processes are adjusted, errors appear. If you can, activate the system in January or February, consolidate the flow, and arrive at September registration with the system already in place."
-  - question: "What if the provider has updates that break my workflow?"
-    answer: "Require in the contract prior notification of disruptive changes (at least two weeks), a test environment before updating in production, and a history of update notes in the support portal. A vendor that updates without notice is an operational risk."
+    - question: "How long does a complete software change process take?"
+      answer: "Between two and six months, depending on the volume of data, the complexity of the center and the availability of the internal team. A basic pilot (master data, first collection cycle, family portal) can be active in four weeks if there is a dedicated internal manager and the provider has a defined migration plan."
+    - question: "Is it better to change the system in summer or in January?"
+      answer: "Summer reduces the impact on families and team, but compresses the validation time with real enrollment and collection data in progress. January is quieter in registration but it coincides with the accounting close. The answer depends on where your biggest pain is: if it's September tuition, it changes in the summer; If it is billing, consider doing it with data from a quiet month."
+    - question: "Should I require a data portability contract?"
+      answer: "Yes, always. Before signing, confirm that you can export all your data (students, charges, files, documents) in open format (CSV, JSON, Excel) at any time. If the supplier does not include this in the contract or conditions it at an additional cost, it is a red flag."
+    - question: "Does it make sense to implement a system just before an enrollment peak?"
+      answer: "No, unless the current situation is so critical that anything will improve. The first two months of use, any system works below its potential: the team learns, processes are adjusted, errors appear. If you can, activate the system in January or February, consolidate the flow, and arrive at September registration with the system already in place."
+    - question: "What if the provider has updates that break my workflow?"
+      answer: "Require in the contract prior notification of disruptive changes (at least two weeks), a test environment before updating in production, and a history of update notes in the support portal. A vendor that updates without notice is an operational risk."
 ---
 
 <strong>How to choose school software without making a mistake: checklist for directors</strong>

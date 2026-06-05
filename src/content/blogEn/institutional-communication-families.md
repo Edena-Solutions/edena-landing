@@ -7,17 +7,17 @@ tags:
     - "strategies"
     - "families"
     - "relations"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalization-checklist-2026
+    - digitalization-checklist-2026
 faqs:
-  - question: "Should I close the tutor's WhatsApp groups?"
-    answer: "Not necessarily. Defines what goes in the institutional app (circulars, payments, authorizations) and reserves WhatsApp for specific emergencies with written criteria."
-  - question: "How to align tone between direction and tutoring?"
-    answer: "Approved templates, single channel for the mass and brief training for faculty on what not to send through informal groups."
-  - question: "What happens to families without smartphones?"
-    answer: "Offers email and SMS as an alternative; Never demand only app without documented parallel path."
+    - question: "Should I close the tutor's WhatsApp groups?"
+      answer: "Not necessarily. Defines what goes in the institutional app (circulars, payments, authorizations) and reserves WhatsApp for specific emergencies with written criteria."
+    - question: "How to align tone between direction and tutoring?"
+      answer: "Approved templates, single channel for the mass and brief training for faculty on what not to send through informal groups."
+    - question: "What happens to families without smartphones?"
+      answer: "Offers email and SMS as an alternative; Never demand only app without documented parallel path."
 ---
 
 <strong>Institutional communication with families: Strategies for the digital era</strong>

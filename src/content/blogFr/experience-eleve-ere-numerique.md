@@ -7,19 +7,18 @@ tags:
     - "personnalisation"
     - "fiançailles"
     - "technologie"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576633587217-5c9b4930956b?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-numerisation-2026
+    - checklist-numerisation-2026
 faqs:
-  - question: "Par où commencer la numérisation ?"
-    answer: "Nettoyez les données de base, les frais traçables et le canal familial officiel avant d'étendre les outils de classe."
-  - question: "Les logiciels cloud sont-ils sans danger pour les mineurs ?"
-    answer: "Cela peut être avec un contrat personnalisé, un cryptage et des sous-traitants documentés. Le centre reste responsable."
-  - question: "Combien de temps la direction consacre-t-elle au projet ?"
-    answer: "30 à 45 minutes par semaine au cours des douze premières semaines suffisent généralement pour débloquer sans microgestion."
+    - question: "Par où commencer la numérisation ?"
+      answer: "Nettoyez les données de base, les frais traçables et le canal familial officiel avant d'étendre les outils de classe."
+    - question: "Les logiciels cloud sont-ils sans danger pour les mineurs ?"
+      answer: "Cela peut être avec un contrat personnalisé, un cryptage et des sous-traitants documentés. Le centre reste responsable."
+    - question: "Combien de temps la direction consacre-t-elle au projet ?"
+      answer: "30 à 45 minutes par semaine au cours des douze premières semaines suffisent généralement pour débloquer sans microgestion."
 ---
-
 
 <strong>L’expérience de l'élève à l’ère numérique : au-delà de l’apprentissage traditionnel</strong>
 

@@ -10,22 +10,22 @@ tags:
         "automatización",
         "centros educativos",
     ]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1682144827510-bbe3cd636253?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - comparativa-software-gestion-escolar-espana-2026
-  - elegir-software-escolar-checklist-directores-2026
-  - mejor-software-gestion-escolar
-  - elegir-software-gestion-escolar
+    - comparativa-software-gestion-escolar-espana-2026
+    - elegir-software-escolar-checklist-directores-2026
+    - mejor-software-gestion-escolar
+    - elegir-software-gestion-escolar
 faqs:
-  - question: "¿Por dónde empieza la dirección?"
-    answer: "Diagnóstico de horas y dolor en secretaría, no catálogo de módulos."
-  - question: "¿Consejo escolar y digitalización?"
-    answer: "Comunicad hitos y métricas, no jerga técnica."
-  - question: "¿ERP o SIS: qué necesito primero?"
-    answer: "Si el dolor principal es secretaría, cobros y familias, priorizad un ERP integral. Si solo necesitáis notas y asistencia en aula, un SIS puede bastar a corto plazo, pero acabaréis duplicando datos."
-  - question: "¿Cuánto dura un piloto razonable?"
-    answer: "Entre 8 y 12 semanas, con un ciclo de facturación o admisión real y criterios de éxito acordados antes de empezar."
+    - question: "¿Por dónde empieza la dirección?"
+      answer: "Diagnóstico de horas y dolor en secretaría, no catálogo de módulos."
+    - question: "¿Consejo escolar y digitalización?"
+      answer: "Comunicad hitos y métricas, no jerga técnica."
+    - question: "¿ERP o SIS: qué necesito primero?"
+      answer: "Si el dolor principal es secretaría, cobros y familias, priorizad un ERP integral. Si solo necesitáis notas y asistencia en aula, un SIS puede bastar a corto plazo, pero acabaréis duplicando datos."
+    - question: "¿Cuánto dura un piloto razonable?"
+      answer: "Entre 8 y 12 semanas, con un ciclo de facturación o admisión real y criterios de éxito acordados antes de empezar."
 ---
 
 <strong>Gestión Administrativa Digital en Centros Educativos 2026: Eliminando el Papel, Maximizando la Eficiencia</strong>

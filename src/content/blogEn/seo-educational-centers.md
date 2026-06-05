@@ -7,24 +7,24 @@ tags:
     - "visibility"
     - "catchment"
     - "marketing"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1743769446613-baab1264496d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digital-educational-marketing-strategies
-  - transformational-educational-leadership-digital
-  - organizational-change-management-education
-  - crisis-management-educational-centers
+    - digital-educational-marketing-strategies
+    - transformational-educational-leadership-digital
+    - organizational-change-management-education
+    - crisis-management-educational-centers
 faqs:
-  - question: "Does SEO for educational centers take a long time to produce results?"
-    answer: "Yes. The effects are usually noticeable in 3–6 months depending on the competition and the state of the website. It is a medium-term investment, not an immediate effect like advertisements."
-  - question: "Do I need a blog to do SEO?"
-    answer: "It is not mandatory, but a blog with useful articles (how to choose a center, methodology, etc.) helps capture long searches and show authority. You can start with a few well-focused articles."
-  - question: "How do I compete with larger centers?"
-    answer: "In very generic searches it is more difficult. In local searches (\"school [your area]\", \"daycare [neighborhood]\") and for specific services you can position yourself with a clear website and a well-worked Google listing."
-  - question: "Do social networks influence SEO?"
-    answer: "Indirectly: they do not rank the website, but the traffic and the brand help. Focus first on the website and the Google listing; networks are complement."
-  - question: "Should I hire an agency for SEO for educational centers?"
-    answer: "It depends on the internal time. Many tasks (page structure, Google tab, basic content) can be done by the team with a guide; For advanced strategy or external links, an agency with experience in education may be useful."
+    - question: "Does SEO for educational centers take a long time to produce results?"
+      answer: "Yes. The effects are usually noticeable in 3–6 months depending on the competition and the state of the website. It is a medium-term investment, not an immediate effect like advertisements."
+    - question: "Do I need a blog to do SEO?"
+      answer: "It is not mandatory, but a blog with useful articles (how to choose a center, methodology, etc.) helps capture long searches and show authority. You can start with a few well-focused articles."
+    - question: "How do I compete with larger centers?"
+      answer: 'In very generic searches it is more difficult. In local searches ("school [your area]", "daycare [neighborhood]") and for specific services you can position yourself with a clear website and a well-worked Google listing.'
+    - question: "Do social networks influence SEO?"
+      answer: "Indirectly: they do not rank the website, but the traffic and the brand help. Focus first on the website and the Google listing; networks are complement."
+    - question: "Should I hire an agency for SEO for educational centers?"
+      answer: "It depends on the internal time. Many tasks (page structure, Google tab, basic content) can be done by the team with a guide; For advanced strategy or external links, an agency with experience in education may be useful."
 ---
 
 <strong>SEO guide for educational centers: how to appear on Google when families search for a school</strong>

@@ -9,26 +9,25 @@ tags:
     - "analítica centre escolar"
     - "dashboard director"
     - "Edena"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1705300332068-5f55b46ef98e?q=80&w=726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - dashboard-educatiu
-  - dashboards-educatius-metriques
-  - analitica-educativa-dashboards-escolars
-  - analitica-rendiment-academic
+    - dashboard-educatiu
+    - dashboards-educatius-metriques
+    - analitica-educativa-dashboards-escolars
+    - analitica-rendiment-academic
 faqs:
-  - question: "Quants KPIs són massa per a un equip directiu d'un petit centre?"
-    answer: "Entre quatre i sis és el rang òptim per a un centre de menys de 200 alumnes. Més indicadors sense responsable i sense acció associada generen soroll, no senyal. Comença amb cobrament, matrícula i ocupació, i afegeix quan dominis aquests tres."
-  - question: "Quina freqüència és la correcta per revisar els KPIs?"
-    answer: "Els financers (cobrament, impagaments, reconciliació) al tancament mensual i amb alerta setmanal si hi ha llindars de risc. Els de matrícula i captació en obertura i tancament de període. Els de comunicació i famílies mensualment. No feu reunions de KPIs sense acció vinculada: és el camí més ràpid perquè l'equip deixi d'usar-los."
-  - question: "Els KPIs de Edena són configurables o són els que marca la plataforma?"
-    answer: "L'analítica de centre a la plataforma base inclou indicadors de cobraments, matrícula, places i famílies. El nivell de personalització depèn del mòdul contractat i de la configuració acordada a la implantació. Pregunta a la demo quins indicadors estan disponibles sense configuració addicional i quins requereixen treball extra."
-  - question: "Què diferencia un bon KPI duna vanity metric en educació?"
-    answer: "Un bon KPI dispara una acció si supera o baixa dun llindar: taxa de cobrament del 80% → activar segon avís automàtic. Una vanity metric mostra un número que no canvia la decisió: nombre total de missatges enviats aquest mes. Si la dada no mou cap agulla, no és un KPI, és un informe dactivitat."
-  - question: "Com evitar que el comitè mensual es converteixi en debat de definicions?"
-    answer: "Acorda per escrit, abans del primer comitè, la definició exacta de cada indicador: què inclou, què exclou, de quina font surt, amb quina periodicitat s'actualitza i qui n'és responsable. Amb aquest acord sobre la taula, el comitè comença a les accions. Sense ell, cada reunió obre el mateix debat."
+    - question: "Quants KPIs són massa per a un equip directiu d'un petit centre?"
+      answer: "Entre quatre i sis és el rang òptim per a un centre de menys de 200 alumnes. Més indicadors sense responsable i sense acció associada generen soroll, no senyal. Comença amb cobrament, matrícula i ocupació, i afegeix quan dominis aquests tres."
+    - question: "Quina freqüència és la correcta per revisar els KPIs?"
+      answer: "Els financers (cobrament, impagaments, reconciliació) al tancament mensual i amb alerta setmanal si hi ha llindars de risc. Els de matrícula i captació en obertura i tancament de període. Els de comunicació i famílies mensualment. No feu reunions de KPIs sense acció vinculada: és el camí més ràpid perquè l'equip deixi d'usar-los."
+    - question: "Els KPIs de Edena són configurables o són els que marca la plataforma?"
+      answer: "L'analítica de centre a la plataforma base inclou indicadors de cobraments, matrícula, places i famílies. El nivell de personalització depèn del mòdul contractat i de la configuració acordada a la implantació. Pregunta a la demo quins indicadors estan disponibles sense configuració addicional i quins requereixen treball extra."
+    - question: "Què diferencia un bon KPI duna vanity metric en educació?"
+      answer: "Un bon KPI dispara una acció si supera o baixa dun llindar: taxa de cobrament del 80% → activar segon avís automàtic. Una vanity metric mostra un número que no canvia la decisió: nombre total de missatges enviats aquest mes. Si la dada no mou cap agulla, no és un KPI, és un informe dactivitat."
+    - question: "Com evitar que el comitè mensual es converteixi en debat de definicions?"
+      answer: "Acorda per escrit, abans del primer comitè, la definició exacta de cada indicador: què inclou, què exclou, de quina font surt, amb quina periodicitat s'actualitza i qui n'és responsable. Amb aquest acord sobre la taula, el comitè comença a les accions. Sense ell, cada reunió obre el mateix debat."
 ---
-
 
 <strong>KPIs que tot director de col·legi hauria de mesurar cada mes</strong>
 

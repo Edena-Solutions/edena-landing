@@ -7,22 +7,21 @@ tags:
     - "évaluation"
     - "technologie éducative"
     - "apprentissage de la mesure"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - methodologies-pedagogiques-innovantes
-  - innovation-pedagogique-technologie
-  - espaces-educatifs-avenir-conception
-  - bien-etre-emotionnel-eleves-numerique
+    - methodologies-pedagogiques-innovantes
+    - innovation-pedagogique-technologie
+    - espaces-educatifs-avenir-conception
+    - bien-etre-emotionnel-eleves-numerique
 faqs:
-  - question: "Une évaluation 100% numérique ?"
-    answer: "Possible avec rubriques et portfolio ; équilibre avec des tests en personne selon le stade."
-  - question: "Traçabilité pour inspection ?"
-    answer: "Dossier avec historique d'évaluation et critères LOMLOE visibles."
-  - question: "Moins de temps pour corriger ?"
-    answer: "Oui avec une autocorrection formative et des banques d’items bien conçues."
+    - question: "Une évaluation 100% numérique ?"
+      answer: "Possible avec rubriques et portfolio ; équilibre avec des tests en personne selon le stade."
+    - question: "Traçabilité pour inspection ?"
+      answer: "Dossier avec historique d'évaluation et critères LOMLOE visibles."
+    - question: "Moins de temps pour corriger ?"
+      answer: "Oui avec une autocorrection formative et des banques d’items bien conçues."
 ---
-
 
 <strong>Évaluation et évaluation numériques dans l'éducation moderne : outils et stratégies</strong>
 

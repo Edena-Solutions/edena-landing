@@ -7,22 +7,22 @@ tags:
     - "software for schools"
     - "implementation"
     - "errors"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677269465314-d5d2247a0b0c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJvYm90fGVufDB8fDB8fHww"
 relatedPosts:
-  - school-management-software-comparison-spain-2026
-  - school-software-purchase-checklist-2026
-  - best-school-management-software
-  - choosing-school-management-software
+    - school-management-software-comparison-spain-2026
+    - school-software-purchase-checklist-2026
+    - best-school-management-software
+    - choosing-school-management-software
 faqs:
-  - question: "How long does it take to see results from educational digitalization?"
-    answer: "It depends on the process. Billing and reminders can show impact in weeks. A complete digitization in schools can take several months to stabilize. Measure in phases."
-  - question: "Should software for schools integrate everything?"
-    answer: "Not necessarily. A unified core (billing, families, files) usually simplifies. But if you already have tools that work, consider integrations before replacing everything."
-  - question: "ERP or SIS: what do I need first?"
-    answer: "If the main pain is secretarial, collections and families, prioritize a comprehensive ERP. If you only need notes and classroom assistance, a SIS may be enough in the short term, but you will end up duplicating data."
-  - question: "How long does a reasonable pilot last?"
-    answer: "Between 8 and 12 weeks, with an actual billing or admission cycle and success criteria agreed upon before starting."
+    - question: "How long does it take to see results from educational digitalization?"
+      answer: "It depends on the process. Billing and reminders can show impact in weeks. A complete digitization in schools can take several months to stabilize. Measure in phases."
+    - question: "Should software for schools integrate everything?"
+      answer: "Not necessarily. A unified core (billing, families, files) usually simplifies. But if you already have tools that work, consider integrations before replacing everything."
+    - question: "ERP or SIS: what do I need first?"
+      answer: "If the main pain is secretarial, collections and families, prioritize a comprehensive ERP. If you only need notes and classroom assistance, a SIS may be enough in the short term, but you will end up duplicating data."
+    - question: "How long does a reasonable pilot last?"
+      answer: "Between 8 and 12 weeks, with an actual billing or admission cycle and success criteria agreed upon before starting."
 ---
 
 <strong>Digitization in schools: 7 mistakes that schools make when implementing educational software</strong>

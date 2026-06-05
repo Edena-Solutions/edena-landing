@@ -2,25 +2,33 @@
 title: "Qué debe tener un ERP para escuelas infantiles en 2026"
 date: "2026-04-08"
 description: "Requisitos específicos de ERP para escuelas infantiles. Guía práctica para centros educativos en España (2026)."
-tags: ["ERP escuelas infantiles", "software guardería", "gestión educativa", "facturación infantil", "plataforma escolar", "Edena"]
-author: "Equipo Edena"
+tags:
+    [
+        "ERP escuelas infantiles",
+        "software guardería",
+        "gestión educativa",
+        "facturación infantil",
+        "plataforma escolar",
+        "Edena",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - comparativa-software-gestion-escolar-espana-2026
-  - elegir-software-escolar-checklist-directores-2026
-  - mejor-software-gestion-escolar
-  - elegir-software-gestion-escolar
+    - comparativa-software-gestion-escolar-espana-2026
+    - elegir-software-escolar-checklist-directores-2026
+    - mejor-software-gestion-escolar
+    - elegir-software-gestion-escolar
 faqs:
-  - question: "¿Verifactu es ya obligatorio para escuelas infantiles?"
-    answer: "La obligación y el calendario la define la normativa fiscal y el calendario de implantación; consulta con tu asesor fiscal. Lo que sí debes exigir al proveedor es claridad sobre cómo soporta la facturación electrónica, en qué plazo, y qué acompañamiento ofrece para la transición."
-  - question: "¿Puede un ERP para infantil gestionar también alumnos con necesidades especiales?"
-    answer: "El expediente digital puede almacenar información específica de adaptaciones, autorizaciones y protocolos. El nivel de detalle y la estructura de esos registros depende de cómo configures el sistema; consulta qué campos personalizables ofrece el proveedor para este perfil antes de comprometerte."
-  - question: "¿Cómo se gestiona la transición de un sistema antiguo sin perder datos críticos?"
-    answer: "Exige al proveedor un plan de migración por fases: primero datos maestros (alumnos, tutores, grupos), luego histórico de cobros, luego documentos. Valida con datos reales antes de cerrar el sistema anterior y planifica un periodo de coexistencia. Sin ese plan, el riesgo de perder histórico de impagos o contratos es real."
-  - question: "¿Cuánto tarda en estar operativa la plataforma?"
-    answer: "Depende del volumen de datos, la complejidad del centro y el nivel de personalización. En centros de hasta 150 plazas, un piloto básico puede estar activo en cuatro a seis semanas con migración y formación incluidas, si hay dedicación de un responsable interno."
-  - question: "¿Vale la pena el módulo de extraescolares si tenemos pocas actividades?"
-    answer: "Si las actividades generan cobros propios y tienen plazas limitadas, el módulo evita la gestión por email y el circuito paralelo de hoja de inscripción. Si solo tienes una actividad con inscripción libre y sin cobro, evalúa si el coste del módulo compensa."
+    - question: "¿Verifactu es ya obligatorio para escuelas infantiles?"
+      answer: "La obligación y el calendario la define la normativa fiscal y el calendario de implantación; consulta con tu asesor fiscal. Lo que sí debes exigir al proveedor es claridad sobre cómo soporta la facturación electrónica, en qué plazo, y qué acompañamiento ofrece para la transición."
+    - question: "¿Puede un ERP para infantil gestionar también alumnos con necesidades especiales?"
+      answer: "El expediente digital puede almacenar información específica de adaptaciones, autorizaciones y protocolos. El nivel de detalle y la estructura de esos registros depende de cómo configures el sistema; consulta qué campos personalizables ofrece el proveedor para este perfil antes de comprometerte."
+    - question: "¿Cómo se gestiona la transición de un sistema antiguo sin perder datos críticos?"
+      answer: "Exige al proveedor un plan de migración por fases: primero datos maestros (alumnos, tutores, grupos), luego histórico de cobros, luego documentos. Valida con datos reales antes de cerrar el sistema anterior y planifica un periodo de coexistencia. Sin ese plan, el riesgo de perder histórico de impagos o contratos es real."
+    - question: "¿Cuánto tarda en estar operativa la plataforma?"
+      answer: "Depende del volumen de datos, la complejidad del centro y el nivel de personalización. En centros de hasta 150 plazas, un piloto básico puede estar activo en cuatro a seis semanas con migración y formación incluidas, si hay dedicación de un responsable interno."
+    - question: "¿Vale la pena el módulo de extraescolares si tenemos pocas actividades?"
+      answer: "Si las actividades generan cobros propios y tienen plazas limitadas, el módulo evita la gestión por email y el circuito paralelo de hoja de inscripción. Si solo tienes una actividad con inscripción libre y sin cobro, evalúa si el coste del módulo compensa."
 ---
 
 <strong>Qué debe tener un ERP para escuelas infantiles en 2026</strong>

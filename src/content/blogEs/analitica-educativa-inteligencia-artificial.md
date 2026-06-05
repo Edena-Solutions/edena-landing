@@ -3,20 +3,20 @@ title: "Analítica educativa e inteligencia artificial: Datos que transforman la
 date: "2024-09-15"
 description: "IA aplicada a analítica de aprendizaje (ángulo pedagógico). Guía práctica para centros educativos en España (2026)."
 tags: ["analítica", "inteligencia artificial", "datos", "decisiones"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1739805591936-39f03383c9a9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologias-pedagogicas-innovadoras
-  - innovacion-pedagogica-tecnologia
-  - evaluacion-assessment-digital-educativo
-  - espacios-educativos-futuro-diseno
+    - metodologias-pedagogicas-innovadoras
+    - innovacion-pedagogica-tecnologia
+    - evaluacion-assessment-digital-educativo
+    - espacios-educativos-futuro-diseno
 faqs:
-  - question: "¿La IA predice abandono escolar?"
-    answer: "Puede señalar patrones (absentismo, bajas notas), pero la decisión debe ser humana y con datos protegidos."
-  - question: "¿Necesito científico de datos?"
-    answer: "En centros medianos basta con informes automáticos del ERP y criterio de jefatura de estudios."
-  - question: "¿Es compatible con LOMLOE?"
-    answer: "Sí si apoya evaluación formativa, no si impone etiquetas opacas al alumnado."
+    - question: "¿La IA predice abandono escolar?"
+      answer: "Puede señalar patrones (absentismo, bajas notas), pero la decisión debe ser humana y con datos protegidos."
+    - question: "¿Necesito científico de datos?"
+      answer: "En centros medianos basta con informes automáticos del ERP y criterio de jefatura de estudios."
+    - question: "¿Es compatible con LOMLOE?"
+      answer: "Sí si apoya evaluación formativa, no si impone etiquetas opacas al alumnado."
 ---
 
 <strong>Analítica educativa e inteligencia artificial: Datos que transforman la educación</strong>

@@ -8,20 +8,20 @@ tags:
     - "digital certification"
     - "DigEdu Plan"
     - "teaching staff 2026"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1568828668638-b1b4014d91a2?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - innovative-pedagogical-methodologies
-  - pedagogical-innovation-technology
-  - digital-assessment-evaluation-education
-  - future-educational-spaces-design
+    - innovative-pedagogical-methodologies
+    - pedagogical-innovation-technology
+    - digital-assessment-evaluation-education
+    - future-educational-spaces-design
 faqs:
-  - question: "What does DigEdu demand from the center?"
-    answer: "Safe environments, teacher training and equitable access; Consult the current regional call."
-  - question: "Does it replace the teaching certificate?"
-    answer: "No; It is complemented with tools and protected time."
-  - question: "How to prioritize training?"
-    answer: "What you use every week (common platform) before isolated tools."
+    - question: "What does DigEdu demand from the center?"
+      answer: "Safe environments, teacher training and equitable access; Consult the current regional call."
+    - question: "Does it replace the teaching certificate?"
+      answer: "No; It is complemented with tools and protected time."
+    - question: "How to prioritize training?"
+      answer: "What you use every week (common platform) before isolated tools."
 ---
 
 <strong>Digital Skills of Teachers in 2026: More than 661,000 Certified Teachers</strong>

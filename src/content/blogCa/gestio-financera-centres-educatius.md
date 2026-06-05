@@ -7,24 +7,23 @@ tags:
     - "gestió"
     - "educació"
     - "tecnologia"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80"
 relatedPosts:
-  - morositat-cobraments-automatics-2026
-  - facturacio-electronica-verifactu-educacio-2026
-  - kpi-director-escola-mensual-2026
-  - reduir-impagaments-facturacio-col-legis
+    - morositat-cobraments-automatics-2026
+    - facturacio-electronica-verifactu-educacio-2026
+    - kpi-director-escola-mensual-2026
+    - reduir-impagaments-facturacio-col-legis
 faqs:
-  - question: "Previsió de caixa per curs?"
-    answer: "Sí: ingressos per quotes menys morositat històrica i calendari de pagaments a proveïdors."
-  - question: "Reporting al propietari?"
-    answer: "Format fix mensual: ocupació, morositat, tresoreria, variació vs pressupost."
-  - question: "Quanta morositat és 'normal' en un col·legi privat?"
-    answer: "Varia per perfil socioeconòmic i mètode de cobrament, però molts centres saludables es mouen entre el 4% i el 8% a 45 dies. Per sobre del 10% cal revisar calendari, domiciliació i seqüència de recordatoris abans d'ampliar plantilla."
-  - question: "Verifactu canvia com cobrament a les famílies?"
-    answer: "Verifactu afecta sobretot l'emissió i la traçabilitat de factures davant l'AEAT, no el mètode de pagament en si. Sí que obliga que el teu programari de facturació generi registres conformes; convé integrar-lo amb cobraments i conciliació."
+    - question: "Previsió de caixa per curs?"
+      answer: "Sí: ingressos per quotes menys morositat històrica i calendari de pagaments a proveïdors."
+    - question: "Reporting al propietari?"
+      answer: "Format fix mensual: ocupació, morositat, tresoreria, variació vs pressupost."
+    - question: "Quanta morositat és 'normal' en un col·legi privat?"
+      answer: "Varia per perfil socioeconòmic i mètode de cobrament, però molts centres saludables es mouen entre el 4% i el 8% a 45 dies. Per sobre del 10% cal revisar calendari, domiciliació i seqüència de recordatoris abans d'ampliar plantilla."
+    - question: "Verifactu canvia com cobrament a les famílies?"
+      answer: "Verifactu afecta sobretot l'emissió i la traçabilitat de factures davant l'AEAT, no el mètode de pagament en si. Sí que obliga que el teu programari de facturació generi registres conformes; convé integrar-lo amb cobraments i conciliació."
 ---
-
 
 <strong>Gestió financera intel·ligent per a centres educatius</strong>
 

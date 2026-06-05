@@ -3,17 +3,17 @@ title: "Tendencias en tecnología educativa para 2025: El futuro del aprendizaje
 date: "2025-01-30"
 description: "Explora las tecnologías emergentes que están transformando la educación y cómo los centros educativos pueden prepararse para el futuro digital."
 tags: ["tecnología", "educación", "innovación", "tendencias"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-digitalizacion-2026
+    - checklist-digitalizacion-2026
 faqs:
-  - question: "¿Cómo alinear tecnología con LOMLOE?"
-    answer: "Prioriza herramientas que liberen tiempo para competencias clave y evaluación continua, no gadgets aislados."
-  - question: "¿Formación del claustro: cuánto basta?"
-    answer: "Sesiones de 60 minutos por herramienta, grabadas, con referente por etapa que resuelva dudas entre iguales."
-  - question: "¿La digitalización resta tiempo pedagógico?"
-    answer: "Bien hecha, lo devuelve: menos duplicar listados y circulares manuales significa más tiempo para evaluación y tutoría."
+    - question: "¿Cómo alinear tecnología con LOMLOE?"
+      answer: "Prioriza herramientas que liberen tiempo para competencias clave y evaluación continua, no gadgets aislados."
+    - question: "¿Formación del claustro: cuánto basta?"
+      answer: "Sesiones de 60 minutos por herramienta, grabadas, con referente por etapa que resuelva dudas entre iguales."
+    - question: "¿La digitalización resta tiempo pedagógico?"
+      answer: "Bien hecha, lo devuelve: menos duplicar listados y circulares manuales significa más tiempo para evaluación y tutoría."
 ---
 
 <strong>Tendencias en tecnología educativa para 2025: El futuro del aprendizaje</strong>

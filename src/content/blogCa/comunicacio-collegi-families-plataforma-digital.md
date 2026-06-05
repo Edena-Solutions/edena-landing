@@ -7,24 +7,23 @@ tags:
     - "app per a pares col·legi"
     - "plataforma digital"
     - "centres educatius"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1521424159246-e4a66f267e4b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - app-familles-collegis-avantatges-2026
-  - comunicacio-digital-centres-educatius
-  - comunicacio-families-era-digital
-  - app-mobil-educacio
+    - app-familles-collegis-avantatges-2026
+    - comunicacio-digital-centres-educatius
+    - comunicacio-families-era-digital
+    - app-mobil-educacio
 faqs:
-  - question: "Una app per a pares de col·legi substitueix a l'email?"
-    answer: "No necessàriament. El correu electrònic continua sent útil per a contingut llarg. Però una app per a pares de col·legi és millor per a avisos urgents, notificacions dassistència i recordatoris de pagament. L'ideal és tenir tots dos i fer-los servir segons el tipus de missatge."
-  - question: "Les famílies adopten l'app per a pares de col·legi?"
-    answer: "Sí, si el centre la presenta bé i ofereix valor (consulteu assistència, pagar, rebre avisos). La clau és que el primer contacte sigui útil; si només reben circulars llargues, l'adopció serà menor."
-  - question: "Com complir GDPR en la comunicació col·legi famílies?"
-    answer: "Usar eines que permetin gestionar consentiments, no compartir dades amb fins no autoritzats i donar de baixa a qui ho sol·liciti. El proveïdor ha dactuar com a encarregat del tractament si processa dades per compte del centre."
-  - question: "És legal fer servir WhatsApp amb famílies?"
-    answer: "Amb consentiment i criteri, per a coordinació; no substitueix canal institucional traçable."
+    - question: "Una app per a pares de col·legi substitueix a l'email?"
+      answer: "No necessàriament. El correu electrònic continua sent útil per a contingut llarg. Però una app per a pares de col·legi és millor per a avisos urgents, notificacions dassistència i recordatoris de pagament. L'ideal és tenir tots dos i fer-los servir segons el tipus de missatge."
+    - question: "Les famílies adopten l'app per a pares de col·legi?"
+      answer: "Sí, si el centre la presenta bé i ofereix valor (consulteu assistència, pagar, rebre avisos). La clau és que el primer contacte sigui útil; si només reben circulars llargues, l'adopció serà menor."
+    - question: "Com complir GDPR en la comunicació col·legi famílies?"
+      answer: "Usar eines que permetin gestionar consentiments, no compartir dades amb fins no autoritzats i donar de baixa a qui ho sol·liciti. El proveïdor ha dactuar com a encarregat del tractament si processa dades per compte del centre."
+    - question: "És legal fer servir WhatsApp amb famílies?"
+      answer: "Amb consentiment i criteri, per a coordinació; no substitueix canal institucional traçable."
 ---
-
 
 <strong>Com millorar la comunicació amb les famílies des d'una única plataforma digital</strong>
 

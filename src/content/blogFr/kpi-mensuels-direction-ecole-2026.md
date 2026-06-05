@@ -11,20 +11,21 @@ tags:
         "tableau de bord directeur",
         "Edena",
     ]
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1705300332068-5f55b46ef98e?q=80&w=726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 faqs:
-  - question: "Combien de KPIs est-ce trop pour une petite équipe de direction ?"
-    answer: "Entre quatre et six est la plage optimale pour un établissement de moins de 200 élèves. Plus d'indicateurs sans responsable et sans action associée génèrent du bruit, pas du signal. Commencez par la facturation, les inscriptions et l'occupation, et ajoutez-en quand vous maîtrisez ces trois-là."
-  - question: "Quelle est la bonne fréquence de révision des KPIs ?"
-    answer: "Les indicateurs financiers (facturation, impayés, clôture) lors de la clôture mensuelle et en alerte hebdomadaire en cas de seuils de risque. Les indicateurs d'inscription et de recrutement à l'ouverture et à la clôture de la période. Les indicateurs de communication et de familles mensuellement. Ne tenez pas de réunions KPIs sans action associée : c'est le chemin le plus rapide pour que l'équipe cesse de les utiliser."
-  - question: "L'analytique d'Edena est-elle configurable ou fixée par la plateforme ?"
-    answer: "L'analytique de l'établissement dans la plateforme de base comprend des indicateurs de facturation, d'inscription, de places et de familles. Le niveau de personnalisation dépend du module souscrit et de la configuration convenue lors de l'implémentation. Demandez lors de la démo quels indicateurs sont disponibles sans configuration supplémentaire."
-  - question: "Quelle est la différence entre un bon KPI et une vanity metric en éducation ?"
-    answer: "Un bon KPI déclenche une action quand il dépasse ou descend en dessous d'un seuil : taux de recouvrement à 78 % → activer le second rappel automatique. Une vanity metric montre un nombre qui ne change pas la décision : nombre total de messages envoyés ce mois. Si la donnée ne fait bouger aucun levier, ce n'est pas un KPI, c'est un rapport d'activité."
-  - question: "Comment éviter que le comité mensuel devienne un débat sur les définitions ?"
-    answer: "Convenez par écrit, avant le premier comité, de la définition exacte de chaque indicateur : ce qu'il inclut, ce qu'il exclut, de quelle source il provient, avec quelle périodicité il se met à jour et qui en est responsable. Avec cet accord sur la table, le comité commence sur les actions. Sans lui, chaque réunion rouvre le même débat."
+    - question: "Combien de KPIs est-ce trop pour une petite équipe de direction ?"
+      answer: "Entre quatre et six est la plage optimale pour un établissement de moins de 200 élèves. Plus d'indicateurs sans responsable et sans action associée génèrent du bruit, pas du signal. Commencez par la facturation, les inscriptions et l'occupation, et ajoutez-en quand vous maîtrisez ces trois-là."
+    - question: "Quelle est la bonne fréquence de révision des KPIs ?"
+      answer: "Les indicateurs financiers (facturation, impayés, clôture) lors de la clôture mensuelle et en alerte hebdomadaire en cas de seuils de risque. Les indicateurs d'inscription et de recrutement à l'ouverture et à la clôture de la période. Les indicateurs de communication et de familles mensuellement. Ne tenez pas de réunions KPIs sans action associée : c'est le chemin le plus rapide pour que l'équipe cesse de les utiliser."
+    - question: "L'analytique d'Edena est-elle configurable ou fixée par la plateforme ?"
+      answer: "L'analytique de l'établissement dans la plateforme de base comprend des indicateurs de facturation, d'inscription, de places et de familles. Le niveau de personnalisation dépend du module souscrit et de la configuration convenue lors de l'implémentation. Demandez lors de la démo quels indicateurs sont disponibles sans configuration supplémentaire."
+    - question: "Quelle est la différence entre un bon KPI et une vanity metric en éducation ?"
+      answer: "Un bon KPI déclenche une action quand il dépasse ou descend en dessous d'un seuil : taux de recouvrement à 78 % → activer le second rappel automatique. Une vanity metric montre un nombre qui ne change pas la décision : nombre total de messages envoyés ce mois. Si la donnée ne fait bouger aucun levier, ce n'est pas un KPI, c'est un rapport d'activité."
+    - question: "Comment éviter que le comité mensuel devienne un débat sur les définitions ?"
+      answer: "Convenez par écrit, avant le premier comité, de la définition exacte de chaque indicateur : ce qu'il inclut, ce qu'il exclut, de quelle source il provient, avec quelle périodicité il se met à jour et qui en est responsable. Avec cet accord sur la table, le comité commence sur les actions. Sans lui, chaque réunion rouvre le même débat."
 ---
+
 <strong>Indicateurs mensuels que tout directeur d'école devrait suivre</strong>
 
 <br>

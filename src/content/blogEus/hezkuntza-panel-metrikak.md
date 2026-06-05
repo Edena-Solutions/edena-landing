@@ -7,26 +7,25 @@ tags:
     - "datuak"
     - "helbidea"
     - "adierazleak"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1667850562258-b77dfa54c79d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpi-hileko-zuzendaria-2026
-  - hezkuntza-dashboarda
-  - analitika-hezkuntzako-ikastetxe-panelak
-  - analitika-errendimendu-akademikoa
+    - kpi-hileko-zuzendaria-2026
+    - hezkuntza-dashboarda
+    - analitika-hezkuntzako-ikastetxe-panelak
+    - analitika-errendimendu-akademikoa
 faqs:
-  - question: "Aparteko BI bat behar dugu ala kudeaketa softwarea nahikoa al da?"
-    answer: "Eskola kudeatzeko software askok oinarrizko txostenak eta aginte-panelak barne hartzen ditu. Zure bilketa, atxikipen eta laguntza beharrak estaltzen badituzte, nahikoa izan daiteke. Aparteko BI batek zentzua du iturri asko edo oso pertsonalizatutako analisiak gurutzatu behar dituzunean."
-  - question: "Nork konfiguratu behar du hezkuntza dashboard?"
-    answer: "Egokiena, prozesuak (administratzailea edo kudeaketa) ezagutzen dituen norbaitek konfiguratu beharko luke hornitzailearen laguntzarekin, behar izanez gero. Neurriek zentroko benetako galderei erantzun behar diete, ez sistemak lehenespenez eskaintzen duena."
-  - question: "Neurri akademikoak eta finantzarioak dashboard berean egon al daitezke?"
-    answer: "Bai, norabide ikuspegian. Garrantzitsua da ez nahastea xehetasun operatiboen maila altua (zerrenda lehenetsia) adierazle estrategikoekin (erretentzio-tasa) pantaila berean pertsona berarentzat."
-  - question: "Zenbat aldiz eguneratu behar da hezkuntza dashboard bat?"
-    answer: "Adierazlearen araberakoa da. Bilketa eta alertak denbora errealean edo egunero izan daitezke; Okupazioa eta atxikipena astero edo hilero izaten dira. Garrantzitsua da eguneratzea sistematik automatikoa dela."
-  - question: "Nola saihestuko dugu ordenagailuak dashboardri jaramonik ez egitea?"
-    answer: "Erabilera errutinekin lotzea (asteko kudeaketa bilera, astelehenero ordaintzen ez direnen berrikuspena) eta datuen arabera erabakiak ikusgai hartzea. Inork ez badu jarduten, dashboard hezitzaileak zentzua galtzen du."
+    - question: "Aparteko BI bat behar dugu ala kudeaketa softwarea nahikoa al da?"
+      answer: "Eskola kudeatzeko software askok oinarrizko txostenak eta aginte-panelak barne hartzen ditu. Zure bilketa, atxikipen eta laguntza beharrak estaltzen badituzte, nahikoa izan daiteke. Aparteko BI batek zentzua du iturri asko edo oso pertsonalizatutako analisiak gurutzatu behar dituzunean."
+    - question: "Nork konfiguratu behar du hezkuntza dashboard?"
+      answer: "Egokiena, prozesuak (administratzailea edo kudeaketa) ezagutzen dituen norbaitek konfiguratu beharko luke hornitzailearen laguntzarekin, behar izanez gero. Neurriek zentroko benetako galderei erantzun behar diete, ez sistemak lehenespenez eskaintzen duena."
+    - question: "Neurri akademikoak eta finantzarioak dashboard berean egon al daitezke?"
+      answer: "Bai, norabide ikuspegian. Garrantzitsua da ez nahastea xehetasun operatiboen maila altua (zerrenda lehenetsia) adierazle estrategikoekin (erretentzio-tasa) pantaila berean pertsona berarentzat."
+    - question: "Zenbat aldiz eguneratu behar da hezkuntza dashboard bat?"
+      answer: "Adierazlearen araberakoa da. Bilketa eta alertak denbora errealean edo egunero izan daitezke; Okupazioa eta atxikipena astero edo hilero izaten dira. Garrantzitsua da eguneratzea sistematik automatikoa dela."
+    - question: "Nola saihestuko dugu ordenagailuak dashboardri jaramonik ez egitea?"
+      answer: "Erabilera errutinekin lotzea (asteko kudeaketa bilera, astelehenero ordaintzen ez direnen berrikuspena) eta datuen arabera erabakiak ikusgai hartzea. Inork ez badu jarduten, dashboard hezitzaileak zentzua galtzen du."
 ---
-
 
 <strong>Nola erabili hezkuntza-arbelak neurri akademikoak eta finantzarioak hobetzeko</strong>
 

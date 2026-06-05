@@ -7,26 +7,25 @@ tags:
     - "visibilitat"
     - "captació"
     - "màrqueting"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1743769446613-baab1264496d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - marketing-educatiu-digital-estrategies
-  - lideratge-educatiu-transformacional-digital
-  - gestio-canvi-organitzacional-educatiu
-  - gestio-crisis-centres-educatius
+    - marketing-educatiu-digital-estrategies
+    - lideratge-educatiu-transformacional-digital
+    - gestio-canvi-organitzacional-educatiu
+    - gestio-crisis-centres-educatius
 faqs:
-  - question: "El SEO per a centres educatius triga molt a donar resultats?"
-    answer: "Sí. Els efectes solen notar-se en 3–6 mesos segons competència i estat de la web. És una inversió a mitjà termini, no un efecte immediat com els anuncis."
-  - question: "Necessito un bloc per fer SEO?"
-    answer: "No és obligatori, però un bloc amb articles útils (com triar centre, metodologia, etc.) ajuda a captar cerques llargues ia mostrar autoritat. Podeu començar amb pocs articles ben enfocats."
-  - question: "Com competeixo amb centres més grans?"
-    answer: "En cerques molt genèriques és més difícil. En cerques locals (\"col·legi [la teva zona]\", \"guarderia [barri]\") i per serveis específics pots posicionar-te amb una web clara i una fitxa de Google ben treballada."
-  - question: "Les xarxes socials influeixen en el SEO?"
-    answer: "Indirectament: no ranquegen la web, però el trànsit i la marca ajuden. Enfoca't primer a la web ia la fitxa de Google; les xarxes són complement."
-  - question: "He de contractar una agència per a SEO per a centres educatius?"
-    answer: "Depèn del temps intern. Moltes tasques (estructura de pàgines, fitxa Google, contingut bàsic) les pot fer lequip amb una guia; per a estratègia avançada o enllaços externs pot ser útil una agència amb experiència en educació."
+    - question: "El SEO per a centres educatius triga molt a donar resultats?"
+      answer: "Sí. Els efectes solen notar-se en 3–6 mesos segons competència i estat de la web. És una inversió a mitjà termini, no un efecte immediat com els anuncis."
+    - question: "Necessito un bloc per fer SEO?"
+      answer: "No és obligatori, però un bloc amb articles útils (com triar centre, metodologia, etc.) ajuda a captar cerques llargues ia mostrar autoritat. Podeu començar amb pocs articles ben enfocats."
+    - question: "Com competeixo amb centres més grans?"
+      answer: 'En cerques molt genèriques és més difícil. En cerques locals ("col·legi [la teva zona]", "guarderia [barri]") i per serveis específics pots posicionar-te amb una web clara i una fitxa de Google ben treballada.'
+    - question: "Les xarxes socials influeixen en el SEO?"
+      answer: "Indirectament: no ranquegen la web, però el trànsit i la marca ajuden. Enfoca't primer a la web ia la fitxa de Google; les xarxes són complement."
+    - question: "He de contractar una agència per a SEO per a centres educatius?"
+      answer: "Depèn del temps intern. Moltes tasques (estructura de pàgines, fitxa Google, contingut bàsic) les pot fer lequip amb una guia; per a estratègia avançada o enllaços externs pot ser útil una agència amb experiència en educació."
 ---
-
 
 <strong>Guia SEO per a centres educatius: com aparèixer a Google quan les famílies busquen escola</strong>
 

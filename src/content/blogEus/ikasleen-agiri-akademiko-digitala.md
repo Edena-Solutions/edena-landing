@@ -2,22 +2,21 @@
 title: "Nola zentralizatu ikasleen informazio guztia sistema bakarrean"
 date: "2026-03-09"
 description: "Irakasle/tutorearen espediente akademiko bateratuaren ikuspegia. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1769074257962-c297d5908fd5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2VudHJhbGl6ZWR8ZW58MHx8MHx8fDA%3D"
 relatedPosts:
-  - dokumentu-kudeaketa-eskola-2026
-  - zentro-agiri-kudeaketa-digitala
+    - dokumentu-kudeaketa-eskola-2026
+    - zentro-agiri-kudeaketa-digitala
 faqs:
-  - question: "Espediente akademiko digitalak betetzen al du GDPR?"
-    answer: "Bai, sistemak segurtasun neurriak baditu (sarbide mugatua, enkriptatzea, auditoria) eta hornitzaileak datu prozesadore gisa jokatzen badu. Datu sentikorrak dituzten ikasleak eskolan kudeatzeko, araudia bete behar da."
-  - question: "Nork sar dezake espediente akademiko digitala?"
-    answer: "Konfiguratutako baimenen araberakoa da. Ikaslearen idazkariak, zuzendaritzak eta irakasleek izan ohi dute sarbidea. Ikastetxeko ikasleen kudeaketak eginkizunen araberako profilei gutxieneko sarbide-printzipioa betetzea ahalbidetu behar du."
-  - question: "Ikus al dezakete familiek espediente akademiko digitala?"
-    answer: "Dagokion informazioa ikus dezakete (asistentzia, komunikazioak, sinatu duten dokumentazioa). Espediente digital osoa barnekoa izan ohi da. Familien atari batekin ikastetxeko ikasleen kudeaketak gardentasun kontrolatua ahalbidetzen du."
-  - question: "Artxibo historiko osoa digitalizatu?"
-    answer: "Uneko ikastaroa eta dokumentu aktiboei lehentasuna ematea; historia faseka."
+    - question: "Espediente akademiko digitalak betetzen al du GDPR?"
+      answer: "Bai, sistemak segurtasun neurriak baditu (sarbide mugatua, enkriptatzea, auditoria) eta hornitzaileak datu prozesadore gisa jokatzen badu. Datu sentikorrak dituzten ikasleak eskolan kudeatzeko, araudia bete behar da."
+    - question: "Nork sar dezake espediente akademiko digitala?"
+      answer: "Konfiguratutako baimenen araberakoa da. Ikaslearen idazkariak, zuzendaritzak eta irakasleek izan ohi dute sarbidea. Ikastetxeko ikasleen kudeaketak eginkizunen araberako profilei gutxieneko sarbide-printzipioa betetzea ahalbidetu behar du."
+    - question: "Ikus al dezakete familiek espediente akademiko digitala?"
+      answer: "Dagokion informazioa ikus dezakete (asistentzia, komunikazioak, sinatu duten dokumentazioa). Espediente digital osoa barnekoa izan ohi da. Familien atari batekin ikastetxeko ikasleen kudeaketak gardentasun kontrolatua ahalbidetzen du."
+    - question: "Artxibo historiko osoa digitalizatu?"
+      answer: "Uneko ikastaroa eta dokumentu aktiboei lehentasuna ematea; historia faseka."
 ---
-
 
 <strong>Nola zentralizatu ikasleen informazio guztia sistema bakarrean</strong>
 

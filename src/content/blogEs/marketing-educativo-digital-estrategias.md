@@ -2,22 +2,23 @@
 title: "Marketing educativo digital: Estrategias para atraer y retener familias en la era digital"
 date: "2025-09-08"
 description: "Marketing digital para colegios privados y concertados en España. Guía práctica para centros educativos en España (2026)."
-tags: ["marketing educativo", "marketing digital", "atracción familias", "comunicación institucional"]
-author: "Equipo Edena"
+tags:
+    ["marketing educativo", "marketing digital", "atracción familias", "comunicación institucional"]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - seo-centros-educativos
-  - crm-escolar-matriculas-conversion-2026
-  - matricula-online-centro-educativo-pasos-2026
+    - seo-centros-educativos
+    - crm-escolar-matriculas-conversion-2026
+    - matricula-online-centro-educativo-pasos-2026
 faqs:
-  - question: "¿Cuánto invertir en marketing digital un colegio mediano?"
-    answer: "Mucho se resuelve con web bien hecha, Google Business y CRM antes que con anuncios masivos. Mide coste por matrícula cerrada."
-  - question: "¿Debo estar en portales de comparación de colegios?"
-    answer: "Compara coste por matrícula frente a SEO local y referidos. Exige datos de calidad del lead al portal."
-  - question: "¿Open Day solo presencial?"
-    answer: "Ofrece streaming o visita virtual para no perder leads que no pueden acudir en la fecha fija."
-  - question: "¿Cómo alinear marketing con secretaría?"
-    answer: "Misma información de cuotas y servicios en web, visita y contrato. Una sola fuente de verdad en el ERP evita promesas incumplidas."
+    - question: "¿Cuánto invertir en marketing digital un colegio mediano?"
+      answer: "Mucho se resuelve con web bien hecha, Google Business y CRM antes que con anuncios masivos. Mide coste por matrícula cerrada."
+    - question: "¿Debo estar en portales de comparación de colegios?"
+      answer: "Compara coste por matrícula frente a SEO local y referidos. Exige datos de calidad del lead al portal."
+    - question: "¿Open Day solo presencial?"
+      answer: "Ofrece streaming o visita virtual para no perder leads que no pueden acudir en la fecha fija."
+    - question: "¿Cómo alinear marketing con secretaría?"
+      answer: "Misma información de cuotas y servicios en web, visita y contrato. Una sola fuente de verdad en el ERP evita promesas incumplidas."
 ---
 
 <strong>Marketing educativo digital en España</strong>

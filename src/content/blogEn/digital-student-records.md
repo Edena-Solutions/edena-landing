@@ -2,20 +2,20 @@
 title: "How to centralize all student information in a single system"
 date: "2026-03-09"
 description: "Teacher/tutor view of the unified academic record. Practical guide for educational centers in Spain (2026)."
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1769074257962-c297d5908fd5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2VudHJhbGl6ZWR8ZW58MHx8MHx8fDA%3D"
 relatedPosts:
-  - school-document-management-digital-records-2026
-  - digital-document-management
+    - school-document-management-digital-records-2026
+    - digital-document-management
 faqs:
-  - question: "Is the digital academic record GDPR compliant?"
-    answer: "Yes, if the system has security measures (restricted access, encryption, auditing) and the provider acts as data processor. Managing students at school with sensitive data requires regulatory compliance."
-  - question: "Who can access the digital academic record?"
-    answer: "It depends on the configured permissions. The student's secretary, management and teachers usually have access. Student management at school must allow profiles by role to comply with the principle of minimum access."
-  - question: "Can families view the digital academic record?"
-    answer: "They can see the information that corresponds to them (attendance, communications, documentation they have signed). The complete digital academic record is usually internal. Student management at school with a family portal allows controlled transparency."
-  - question: "Digitize the entire historical archive?"
-    answer: "Prioritize current course and active documents; the history by phases."
+    - question: "Is the digital academic record GDPR compliant?"
+      answer: "Yes, if the system has security measures (restricted access, encryption, auditing) and the provider acts as data processor. Managing students at school with sensitive data requires regulatory compliance."
+    - question: "Who can access the digital academic record?"
+      answer: "It depends on the configured permissions. The student's secretary, management and teachers usually have access. Student management at school must allow profiles by role to comply with the principle of minimum access."
+    - question: "Can families view the digital academic record?"
+      answer: "They can see the information that corresponds to them (attendance, communications, documentation they have signed). The complete digital academic record is usually internal. Student management at school with a family portal allows controlled transparency."
+    - question: "Digitize the entire historical archive?"
+      answer: "Prioritize current course and active documents; the history by phases."
 ---
 
 <strong>How to centralize all student information in a single system</strong>

@@ -3,22 +3,22 @@ title: "Digitalización en colegios: 7 errores que cometen los centros al implem
 date: "2026-03-05"
 description: "7 errores al implantar software y cómo evitarlos. Guía práctica para centros educativos en España (2026)."
 tags: ["digitalización educativa", "software para colegios", "implementación", "errores"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677269465314-d5d2247a0b0c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJvYm90fGVufDB8fDB8fHww"
 relatedPosts:
-  - comparativa-software-gestion-escolar-espana-2026
-  - elegir-software-escolar-checklist-directores-2026
-  - mejor-software-gestion-escolar
-  - elegir-software-gestion-escolar
+    - comparativa-software-gestion-escolar-espana-2026
+    - elegir-software-escolar-checklist-directores-2026
+    - mejor-software-gestion-escolar
+    - elegir-software-gestion-escolar
 faqs:
-  - question: "¿Cuánto tarda ver resultados de la digitalización educativa?"
-    answer: "Depende del proceso. Facturación y recordatorios pueden mostrar impacto en semanas. Una digitalización en colegios completa puede tardar varios meses en estabilizarse. Mide por fases."
-  - question: "¿El software para colegios debe integrar todo?"
-    answer: "No necesariamente. Un núcleo unificado (facturación, familias, expedientes) suele simplificar. Pero si ya tienes herramientas que funcionan, valora integraciones antes de sustituir todo."
-  - question: "¿ERP o SIS: qué necesito primero?"
-    answer: "Si el dolor principal es secretaría, cobros y familias, priorizad un ERP integral. Si solo necesitáis notas y asistencia en aula, un SIS puede bastar a corto plazo, pero acabaréis duplicando datos."
-  - question: "¿Cuánto dura un piloto razonable?"
-    answer: "Entre 8 y 12 semanas, con un ciclo de facturación o admisión real y criterios de éxito acordados antes de empezar."
+    - question: "¿Cuánto tarda ver resultados de la digitalización educativa?"
+      answer: "Depende del proceso. Facturación y recordatorios pueden mostrar impacto en semanas. Una digitalización en colegios completa puede tardar varios meses en estabilizarse. Mide por fases."
+    - question: "¿El software para colegios debe integrar todo?"
+      answer: "No necesariamente. Un núcleo unificado (facturación, familias, expedientes) suele simplificar. Pero si ya tienes herramientas que funcionan, valora integraciones antes de sustituir todo."
+    - question: "¿ERP o SIS: qué necesito primero?"
+      answer: "Si el dolor principal es secretaría, cobros y familias, priorizad un ERP integral. Si solo necesitáis notas y asistencia en aula, un SIS puede bastar a corto plazo, pero acabaréis duplicando datos."
+    - question: "¿Cuánto dura un piloto razonable?"
+      answer: "Entre 8 y 12 semanas, con un ciclo de facturación o admisión real y criterios de éxito acordados antes de empezar."
 ---
 
 <strong>Digitalización en colegios: 7 errores que cometen los centros al implementar software educativo</strong>

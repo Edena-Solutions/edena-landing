@@ -7,22 +7,21 @@ tags:
     - "ikastetxeko administrazio kudeaketa"
     - "prozesuak"
     - "digitalizazioa"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop"
 relatedPosts:
-  - 15-ordu-admin-eskola-2026
-  - eskola-absentismoaren-automatizazioa
-  - ia-eskola-kudeaketa-kasu-praktikoak
-  - administrazio-lanen-automatizazioa
+    - 15-ordu-admin-eskola-2026
+    - eskola-absentismoaren-automatizazioa
+    - ia-eskola-kudeaketa-kasu-praktikoak
+    - administrazio-lanen-automatizazioa
 faqs:
-  - question: "Hezkuntza-zentroetako automatizazioak lanpostuak ordezkatzen al ditu?"
-    answer: "Ez. Balio handiagoko zereginetarako denbora askatzen du: familiak zaintzea, gorabeherak konpontzea, prozesuak hobetzea. Ikastetxeko administrazio-kudeaketa automatizatuak taldeari garrantzia ematen diona bideratzen dio."
-  - question: "Zenbat denbora behar da hezkuntza zentroetan automatizazioa ezartzeko?"
-    answer: "Prozesuaren araberakoa da. Fakturazioa eta abisuak asteetan egon daitezke martxan. Ikastetxeko administrazio-kudeaketa erabat automatizatzeak hainbat hilabete behar izan ditzake. Planifikatu faseka eta neurtu emaitzak."
-  - question: "Zein prozesu hasten naiz automatizatzen?"
-    answer: "Aldizkako karguak eta laguntzak izan ohi dira orduetan berehalako etekin handiena dutenak eta akatsak saihesten direnak."
+    - question: "Hezkuntza-zentroetako automatizazioak lanpostuak ordezkatzen al ditu?"
+      answer: "Ez. Balio handiagoko zereginetarako denbora askatzen du: familiak zaintzea, gorabeherak konpontzea, prozesuak hobetzea. Ikastetxeko administrazio-kudeaketa automatizatuak taldeari garrantzia ematen diona bideratzen dio."
+    - question: "Zenbat denbora behar da hezkuntza zentroetan automatizazioa ezartzeko?"
+      answer: "Prozesuaren araberakoa da. Fakturazioa eta abisuak asteetan egon daitezke martxan. Ikastetxeko administrazio-kudeaketa erabat automatizatzeak hainbat hilabete behar izan ditzake. Planifikatu faseka eta neurtu emaitzak."
+    - question: "Zein prozesu hasten naiz automatizatzen?"
+      answer: "Aldizkako karguak eta laguntzak izan ohi dira orduetan berehalako etekin handiena dutenak eta akatsak saihesten direnak."
 ---
-
 
 <strong>Zure ikastetxean automatizatu behar dituzun 10 administrazio-prozesuak</strong>
 

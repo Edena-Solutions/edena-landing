@@ -9,24 +9,23 @@ tags:
     - "familia dokumentuak"
     - "GDPR zentroak"
     - "hezkuntza-hodeia"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576836165612-8bc9b07e7778?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - ikasleen-agiri-akademiko-digitala
-  - zentro-agiri-kudeaketa-digitala
+    - ikasleen-agiri-akademiko-digitala
+    - zentro-agiri-kudeaketa-digitala
 faqs:
-  - question: "Hodei modulua derrigorrezkoa al da fitxategi digitala edukitzeko?"
-    answer: "Ez. Oinarrizko plataformak fitxategi digital bat biltzen du datuekin, historiarekin eta organigramarekin. Hodei modulua fitxategien biltegiarekin, karpetekin eta ikusgarritasun handiarekin zabaltzen da. Ebaluatu zure taldearekin dokumentuen bolumena eta mota edukiz eta irizpidez hutsik dagoen modulu bat kontratatu aurretik."
-  - question: "Eskatu al diezaiekegu familiei dokumentuak paperean ekarri beharrean atarira igotzea?"
-    answer: "Bai, trantsizioarekin. Komunikazio argia, kargatzeko gida bat, gaitasun digital gutxi duten familientzako alternatiba eta dokumentua paperean iristen bada zer gertatzen den barne adostasuna eskatzen du. Ez da dekretu bat: laguntza behar duen prozesu aldaketa bat da."
-  - question: "Nola kudeatu GDPRk jada partekatu ezin duen dokumentu bat?"
-    answer: "Zure DPOaren irizpideekin: erretiratze logikoa edo fisikoa zehaztutako epean, ekintzaren erregistroarekin. Plataformak sarbidea eta kontrola errazten ditu, baina zer ezabatu eta noiz erabakitzen du zentroko datuen arduradunak, ez softwareak."
-  - question: "Zer gertatzen da dokumentuekin ikaslea erretiratu edo transferitzen denean?"
-    answer: "Zure politikaren eta aplikatu beharreko araudiaren araberakoa da: dokumentu batzuk fitxategiarekin batera mugitzen dira, beste batzuk legezko epean artxibatu eta gero suntsitu egiten dira. Definitu protokoloa lehen biktima gertatu baino lehen, ez ondoren."
-  - question: "Edena Hodei moduluak taldeko dokumentuak irakasteko ere balio al du?"
-    answer: "Karpetak eta ikusgarritasuna talde edo ikasleen arabera konfigura daitezke. Irakasle-taldearen barne-dokumentazioa egiteko, komeni da baimen-egitura bereizi bat zehaztea, zure irizpideekin, kontratatutako modulu euskarriak ematen dituen zure ezarpen-kidearekin kontsultatzea."
+    - question: "Hodei modulua derrigorrezkoa al da fitxategi digitala edukitzeko?"
+      answer: "Ez. Oinarrizko plataformak fitxategi digital bat biltzen du datuekin, historiarekin eta organigramarekin. Hodei modulua fitxategien biltegiarekin, karpetekin eta ikusgarritasun handiarekin zabaltzen da. Ebaluatu zure taldearekin dokumentuen bolumena eta mota edukiz eta irizpidez hutsik dagoen modulu bat kontratatu aurretik."
+    - question: "Eskatu al diezaiekegu familiei dokumentuak paperean ekarri beharrean atarira igotzea?"
+      answer: "Bai, trantsizioarekin. Komunikazio argia, kargatzeko gida bat, gaitasun digital gutxi duten familientzako alternatiba eta dokumentua paperean iristen bada zer gertatzen den barne adostasuna eskatzen du. Ez da dekretu bat: laguntza behar duen prozesu aldaketa bat da."
+    - question: "Nola kudeatu GDPRk jada partekatu ezin duen dokumentu bat?"
+      answer: "Zure DPOaren irizpideekin: erretiratze logikoa edo fisikoa zehaztutako epean, ekintzaren erregistroarekin. Plataformak sarbidea eta kontrola errazten ditu, baina zer ezabatu eta noiz erabakitzen du zentroko datuen arduradunak, ez softwareak."
+    - question: "Zer gertatzen da dokumentuekin ikaslea erretiratu edo transferitzen denean?"
+      answer: "Zure politikaren eta aplikatu beharreko araudiaren araberakoa da: dokumentu batzuk fitxategiarekin batera mugitzen dira, beste batzuk legezko epean artxibatu eta gero suntsitu egiten dira. Definitu protokoloa lehen biktima gertatu baino lehen, ez ondoren."
+    - question: "Edena Hodei moduluak taldeko dokumentuak irakasteko ere balio al du?"
+      answer: "Karpetak eta ikusgarritasuna talde edo ikasleen arabera konfigura daitezke. Irakasle-taldearen barne-dokumentazioa egiteko, komeni da baimen-egitura bereizi bat zehaztea, zure irizpideekin, kontratatutako modulu euskarriak ematen dituen zure ezarpen-kidearekin kontsultatzea."
 ---
-
 
 <strong>Dokumentuen kudeaketa ikastetxeetan: agur paperari eta fitxategi galduei</strong>
 
@@ -92,7 +91,7 @@ Oinarrizko plataformak fitxategi digitala (ikasleen datuak, historia, zentroko o
 
 <br>
 
-Iraila da dokumentuak gora egiten duen hilabetea: inskripzioak, kontratuak, baimenak, mediku ziurtagiriak, AMPA inprimakiak, NAN argazkiak. Sistema ordenatu batek gailur hori xurgatzen du aurreko faseetan karga progresiboarekin, lehen egunean idazkaritza kolapsatu beharrean. Onarpenean, CRM egoerak eta faseak dituen __G0__ eranskinaren faltagatik fitxategi bat linboan geratzea eragozten du, plataforman familiarentzako eta taldearentzako alerta batekin. Ikuskapenetan, trazabilitateak "nonbait egon beharko luke" ezabatzen du eta zer komunikatu den, noiz eta nori zehatz-mehatz erakusteko aukera ematen du.
+Iraila da dokumentuak gora egiten duen hilabetea: inskripzioak, kontratuak, baimenak, mediku ziurtagiriak, AMPA inprimakiak, NAN argazkiak. Sistema ordenatu batek gailur hori xurgatzen du aurreko faseetan karga progresiboarekin, lehen egunean idazkaritza kolapsatu beharrean. Onarpenean, CRM egoerak eta faseak dituen **G0** eranskinaren faltagatik fitxategi bat linboan geratzea eragozten du, plataforman familiarentzako eta taldearentzako alerta batekin. Ikuskapenetan, trazabilitateak "nonbait egon beharko luke" ezabatzen du eta zer komunikatu den, noiz eta nori zehatz-mehatz erakusteko aukera ematen du.
 
 <br>
 

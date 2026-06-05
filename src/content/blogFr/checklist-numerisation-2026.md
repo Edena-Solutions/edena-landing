@@ -3,20 +3,21 @@ title: "Checklist de numérisation 2026 pour votre établissement scolaire"
 date: "2026-02-24"
 description: "Checklist de numérisation des établissements scolaires 2026 : facturation, familles, données et processus pour moderniser votre structure."
 tags: ["numérisation établissements scolaires 2026", "checklist", "modernisation", "processus"]
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 faqs:
-  - question: "Cette checklist de numérisation 2026 s'applique-t-elle à tout type d'établissement ?"
-    answer: "Oui. Les blocs (facturation, familles, données, processus, visibilité) sont communs ; le détail s'adapte à la taille, au niveau d'enseignement et au cadre régional ou national."
-  - question: "Par où commencer si nous sommes très en retard ?"
-    answer: "Il est souvent prioritaire : la facturation électronique si elle est obligatoire, puis l'encaissement (paiement en ligne et relances) et la communication avec les familles. Les données et la conformité avancent en parallèle pour ne pas accumuler de retard juridique."
-  - question: "Faut-il un seul logiciel pour tout ?"
-    answer: "Ce n'est pas obligatoire, mais un socle unifié (facturation, familles, présence) limite les doublons et les erreurs. Les intégrations entre systèmes restent une option si vous conservez des outils existants."
-  - question: "Combien de temps pour parcourir la checklist ?"
-    answer: "Cela dépend du point de départ. Certains établissements règlent l'urgent en une année scolaire ; d'autres étalent sur deux années. L'important est d'avancer par blocs et de ne pas reporter l'aspect réglementaire à la fin."
-  - question: "Comment maintenir la checklist à jour ?"
-    answer: "La revoir une fois par an (par exemple en début d'année) et lors des changements réglementaires ou de fournisseurs. La numérisation des établissements en 2026 est un processus continu, pas un projet ponctuel."
+    - question: "Cette checklist de numérisation 2026 s'applique-t-elle à tout type d'établissement ?"
+      answer: "Oui. Les blocs (facturation, familles, données, processus, visibilité) sont communs ; le détail s'adapte à la taille, au niveau d'enseignement et au cadre régional ou national."
+    - question: "Par où commencer si nous sommes très en retard ?"
+      answer: "Il est souvent prioritaire : la facturation électronique si elle est obligatoire, puis l'encaissement (paiement en ligne et relances) et la communication avec les familles. Les données et la conformité avancent en parallèle pour ne pas accumuler de retard juridique."
+    - question: "Faut-il un seul logiciel pour tout ?"
+      answer: "Ce n'est pas obligatoire, mais un socle unifié (facturation, familles, présence) limite les doublons et les erreurs. Les intégrations entre systèmes restent une option si vous conservez des outils existants."
+    - question: "Combien de temps pour parcourir la checklist ?"
+      answer: "Cela dépend du point de départ. Certains établissements règlent l'urgent en une année scolaire ; d'autres étalent sur deux années. L'important est d'avancer par blocs et de ne pas reporter l'aspect réglementaire à la fin."
+    - question: "Comment maintenir la checklist à jour ?"
+      answer: "La revoir une fois par an (par exemple en début d'année) et lors des changements réglementaires ou de fournisseurs. La numérisation des établissements en 2026 est un processus continu, pas un projet ponctuel."
 ---
+
 <strong>Checklist de numérisation 2026 pour moderniser votre établissement scolaire</strong>
 <br>
 

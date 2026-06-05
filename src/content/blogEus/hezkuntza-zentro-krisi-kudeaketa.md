@@ -7,20 +7,20 @@ tags:
     - "protocolos"
     - "continuidad educativa"
     - "seguridad escolar"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1585829364536-ce348dd72ebc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - hezkuntza-zentro-seo
-  - hezkuntza-marketin-digital-estrategiak
-  - hezkuntza-lidertza-eraldaketa-digitala
-  - hezkuntza-antolakuntza-aldaketa-kudeaketa
+    - hezkuntza-zentro-seo
+    - hezkuntza-marketin-digital-estrategiak
+    - hezkuntza-lidertza-eraldaketa-digitala
+    - hezkuntza-antolakuntza-aldaketa-kudeaketa
 faqs:
-  - question: "Protokolo digitala krisian?"
-    answer: "Kanal bakarra, aurrez onartutako txantiloiak, zentrotik kanpoko kontaktu zerrenden babeskopia."
-  - question: "Hezkuntzaren jarraipena?"
-    answer: "Ordutegietara eta iragarkietara urrutiko sarbidea eraikina aldi baterako ixten bada."
-  - question: "Familiei komunikatu?"
-    answer: "Abiadura, egiaztatutako gertaerak, ahots instituzionala."
+    - question: "Protokolo digitala krisian?"
+      answer: "Kanal bakarra, aurrez onartutako txantiloiak, zentrotik kanpoko kontaktu zerrenden babeskopia."
+    - question: "Hezkuntzaren jarraipena?"
+      answer: "Ordutegietara eta iragarkietara urrutiko sarbidea eraikina aldi baterako ixten bada."
+    - question: "Familiei komunikatu?"
+      answer: "Abiadura, egiaztatutako gertaerak, ahots instituzionala."
 ---
 
 <strong>Krisiak kudeatzea hezkuntza-zentroetan: Jarraipenerako protokoloak eta estrategiak</strong>

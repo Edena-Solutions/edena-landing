@@ -7,19 +7,18 @@ tags:
     - "stratégies"
     - "familles"
     - "rapports"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-numerisation-2026
+    - checklist-numerisation-2026
 faqs:
-  - question: "Dois-je fermer les groupes WhatsApp du tuteur ?"
-    answer: "Pas nécessairement. Définit ce qui se passe dans l'application institutionnelle (circulaires, paiements, autorisations) et réserve WhatsApp à des urgences spécifiques avec des critères écrits."
-  - question: "Comment aligner le ton entre direction et tutorat ?"
-    answer: "Modèles approuvés, canal unique pour le grand public et brève formation des professeurs sur ce qu'il ne faut pas envoyer via des groupes informels."
-  - question: "Qu’arrive-t-il aux familles sans smartphone ?"
-    answer: "Propose le courrier électronique et les SMS comme alternative ; Ne demandez jamais uniquement une application sans chemin parallèle documenté."
+    - question: "Dois-je fermer les groupes WhatsApp du tuteur ?"
+      answer: "Pas nécessairement. Définit ce qui se passe dans l'application institutionnelle (circulaires, paiements, autorisations) et réserve WhatsApp à des urgences spécifiques avec des critères écrits."
+    - question: "Comment aligner le ton entre direction et tutorat ?"
+      answer: "Modèles approuvés, canal unique pour le grand public et brève formation des professeurs sur ce qu'il ne faut pas envoyer via des groupes informels."
+    - question: "Qu’arrive-t-il aux familles sans smartphone ?"
+      answer: "Propose le courrier électronique et les SMS comme alternative ; Ne demandez jamais uniquement une application sans chemin parallèle documenté."
 ---
-
 
 <strong>Communication institutionnelle avec les familles : stratégies à l'ère du numérique</strong>
 

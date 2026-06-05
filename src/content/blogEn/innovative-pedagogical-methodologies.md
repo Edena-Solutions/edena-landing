@@ -7,20 +7,20 @@ tags:
     - "educational innovation"
     - "active teaching"
     - "learning"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1611348586755-53860f7ae57a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - pedagogical-innovation-technology
-  - digital-assessment-evaluation-education
-  - future-educational-spaces-design
-  - student-emotional-wellbeing-digital-era
+    - pedagogical-innovation-technology
+    - digital-assessment-evaluation-education
+    - future-educational-spaces-design
+    - student-emotional-wellbeing-digital-era
 faqs:
-  - question: "Active methodology without further admin load?"
-    answer: "It requires planning; Digitizing lists frees up time for instructional design."
-  - question: "Internal training?"
-    answer: "Learning communities between departments, not just external course."
-  - question: "How to evaluate innovation?"
-    answer: "Key competency indicators, not just teacher satisfaction."
+    - question: "Active methodology without further admin load?"
+      answer: "It requires planning; Digitizing lists frees up time for instructional design."
+    - question: "Internal training?"
+      answer: "Learning communities between departments, not just external course."
+    - question: "How to evaluate innovation?"
+      answer: "Key competency indicators, not just teacher satisfaction."
 ---
 
 <strong>Innovative pedagogical methodologies: Transforming the teaching-learning process</strong>

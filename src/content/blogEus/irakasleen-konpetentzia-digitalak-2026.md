@@ -8,22 +8,21 @@ tags:
     - "ziurtagiri digitala"
     - "DigEdu plana"
     - "Irakasleen 2026"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1568828668638-b1b4014d91a2?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - pedagogia-metodologia-berragarriak
-  - pedagogia-berrikuntza-teknologia
-  - hezkuntzako-ebaluazio-digitala
-  - etorkizuneko-hezkuntza-espazioen-diseinua
+    - pedagogia-metodologia-berragarriak
+    - pedagogia-berrikuntza-teknologia
+    - hezkuntzako-ebaluazio-digitala
+    - etorkizuneko-hezkuntza-espazioen-diseinua
 faqs:
-  - question: "Zer eskatzen dio DigEdu zentroari?"
-    answer: "Ingurune seguruak, irakasleen prestakuntza eta bidezko sarbidea; Kontsultatu egungo eskualdeko deialdia."
-  - question: "Irakaskuntza-ziurtagiria ordezkatzen al du?"
-    answer: "Ez; Tresnekin eta babestutako denborarekin osatzen da."
-  - question: "Nola lehenetsi prestakuntza?"
-    answer: "Astero erabiltzen duzuna (plataforma komuna) tresna isolatuen aurretik."
+    - question: "Zer eskatzen dio DigEdu zentroari?"
+      answer: "Ingurune seguruak, irakasleen prestakuntza eta bidezko sarbidea; Kontsultatu egungo eskualdeko deialdia."
+    - question: "Irakaskuntza-ziurtagiria ordezkatzen al du?"
+      answer: "Ez; Tresnekin eta babestutako denborarekin osatzen da."
+    - question: "Nola lehenetsi prestakuntza?"
+      answer: "Astero erabiltzen duzuna (plataforma komuna) tresna isolatuen aurretik."
 ---
-
 
 <strong>Irakasleen gaitasun digitalak 2026an: 661.000 irakasle ziurtatu baino gehiago</strong>
 

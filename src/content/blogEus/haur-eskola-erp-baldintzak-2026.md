@@ -9,26 +9,25 @@ tags:
     - "haurren fakturazioa"
     - "eskola plataforma"
     - "Edena"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
-  - software-aukera-egiaztapen-2026
-  - onena-eskola-kudeaketa-softwarea
-  - eskola-kudeaketa-softwarea-aukeratzea
+    - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
+    - software-aukera-egiaztapen-2026
+    - onena-eskola-kudeaketa-softwarea
+    - eskola-kudeaketa-softwarea-aukeratzea
 faqs:
-  - question: "Verifactu derrigorrezkoa al da dagoeneko haur eskoletarako?"
-    answer: "Obligazioa eta egutegia zerga-araudiak eta ezarpen-egutegiak zehazten ditu; Kontsultatu zure zerga aholkulariarekin. Hornitzaileari eskatu behar diozuena argitasuna da fakturazio elektronikoa nola onartzen duen, zein epeetan eta trantsiziorako zer laguntza eskaintzen duen."
-  - question: "Haurrentzako ERP batek behar bereziak dituzten ikasleak ere kudeatu al ditzake?"
-    answer: "Fitxategi digitalak egokitzapen, baimen eta protokoloei buruzko informazio zehatza gorde dezake. Erregistro horien xehetasun-maila eta egitura sistema nola konfiguratzen duzun araberakoa da; Ikusi zer eremu pertsonalizagarri eskaintzen dituen hornitzaileak profil honetarako konpromisoa hartu aurretik."
-  - question: "Nola kudeatu sistema zahar batetik trantsizioa datu kritikoak galdu gabe?"
-    answer: "Eska ezazu mailakako migrazio-plan bat hornitzaileari: lehenik datu nagusiak (ikasleak, tutoreak, taldeak), ondoren bilketaren historia, gero dokumentuak. Sistema zaharra itxi aurretik datu errealekin baliozkotu eta elkarbizitza aldi bat planifikatu. Plan hori gabe, ez-ordainketen edo kontratuen historia galtzeko arriskua benetakoa da."
-  - question: "Zenbat denbora behar da plataformak martxan jartzeko?"
-    answer: "Datuen bolumenaren, zentroaren konplexutasunaren eta pertsonalizazio mailaren araberakoa da. Gehienez 150 plaza dituzten zentroetan, oinarrizko pilotu bat aktibo egon daiteke lau edo sei astetan migrazioa eta prestakuntza barne, barne kudeatzaile bat dedikatzen bada."
-  - question: "Merezi al du eskolaz kanpoko moduluak jarduera gutxi baditugu?"
-    answer: "Jarduerek beren karguak sortzen badituzte eta plaza mugatuak badituzte, moduluak posta elektronikoaren kudeaketa eta izen-emate formulario paraleloen zirkuitua saihesten ditu. Doako izen-ematearekin eta kargurik gabeko jarduera bakarra baduzu, ebaluatu moduluaren kostuak merezi duen."
+    - question: "Verifactu derrigorrezkoa al da dagoeneko haur eskoletarako?"
+      answer: "Obligazioa eta egutegia zerga-araudiak eta ezarpen-egutegiak zehazten ditu; Kontsultatu zure zerga aholkulariarekin. Hornitzaileari eskatu behar diozuena argitasuna da fakturazio elektronikoa nola onartzen duen, zein epeetan eta trantsiziorako zer laguntza eskaintzen duen."
+    - question: "Haurrentzako ERP batek behar bereziak dituzten ikasleak ere kudeatu al ditzake?"
+      answer: "Fitxategi digitalak egokitzapen, baimen eta protokoloei buruzko informazio zehatza gorde dezake. Erregistro horien xehetasun-maila eta egitura sistema nola konfiguratzen duzun araberakoa da; Ikusi zer eremu pertsonalizagarri eskaintzen dituen hornitzaileak profil honetarako konpromisoa hartu aurretik."
+    - question: "Nola kudeatu sistema zahar batetik trantsizioa datu kritikoak galdu gabe?"
+      answer: "Eska ezazu mailakako migrazio-plan bat hornitzaileari: lehenik datu nagusiak (ikasleak, tutoreak, taldeak), ondoren bilketaren historia, gero dokumentuak. Sistema zaharra itxi aurretik datu errealekin baliozkotu eta elkarbizitza aldi bat planifikatu. Plan hori gabe, ez-ordainketen edo kontratuen historia galtzeko arriskua benetakoa da."
+    - question: "Zenbat denbora behar da plataformak martxan jartzeko?"
+      answer: "Datuen bolumenaren, zentroaren konplexutasunaren eta pertsonalizazio mailaren araberakoa da. Gehienez 150 plaza dituzten zentroetan, oinarrizko pilotu bat aktibo egon daiteke lau edo sei astetan migrazioa eta prestakuntza barne, barne kudeatzaile bat dedikatzen bada."
+    - question: "Merezi al du eskolaz kanpoko moduluak jarduera gutxi baditugu?"
+      answer: "Jarduerek beren karguak sortzen badituzte eta plaza mugatuak badituzte, moduluak posta elektronikoaren kudeaketa eta izen-emate formulario paraleloen zirkuitua saihesten ditu. Doako izen-ematearekin eta kargurik gabeko jarduera bakarra baduzu, ebaluatu moduluaren kostuak merezi duen."
 ---
-
 
 <strong>Zer ERP izan beharko luke haur eskoletarako 2026an</strong>
 

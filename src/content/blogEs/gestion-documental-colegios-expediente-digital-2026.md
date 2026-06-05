@@ -3,30 +3,30 @@ title: "Gestión documental en colegios: adiós al papel y a los expedientes per
 date: "2026-04-01"
 description: "Pilar gestión documental y expediente digital. Guía práctica para centros educativos en España (2026)."
 tags:
- [
- "gestión documental escolar",
- "expediente digital",
- "papel colegios",
- "documentos familias",
- "GDPR centros",
- "nube educativa",
- ]
-author: "Equipo Edena"
+    [
+        "gestión documental escolar",
+        "expediente digital",
+        "papel colegios",
+        "documentos familias",
+        "GDPR centros",
+        "nube educativa",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576836165612-8bc9b07e7778?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - expediente-academico-digital-estudiantes
-  - gestion-documental-digital-centros
+    - expediente-academico-digital-estudiantes
+    - gestion-documental-digital-centros
 faqs:
-  - question: "¿El módulo Cloud es obligatorio para tener expediente digital?"
-    answer: "No. La plataforma base incluye expediente digital con datos, historial y organigrama. El módulo Cloud amplía con repositorio de ficheros, carpetas y visibilidad granular. Evalúa con tu equipo el volumen y tipo de documentos antes de contratar un módulo que quede vacío de contenido y criterio."
-  - question: "¿Podemos exigir a las familias que suban documentos al portal en lugar de traerlos en papel?"
-    answer: "Sí, con transición. Requiere comunicación clara, guía de carga, alternativa para familias con poca competencia digital, y acuerdo interno sobre qué pasa si el documento llega en papel. No es un decreto: es un cambio de proceso que necesita acompañamiento."
-  - question: "¿Cómo gestionar un documento que ya no se puede compartir por GDPR?"
-    answer: "Con el criterio de tu DPO: baja lógica o física en el plazo definido, con registro de la acción. La plataforma facilita el acceso y el control, pero la decisión de qué borrar y cuándo la toma el responsable del tratamiento del centro, no el software."
-  - question: "¿Qué pasa con los documentos cuando un alumno se da de baja o se traslada?"
-    answer: "Depende de tu política y la normativa aplicable: algunos documentos se trasladan con el expediente, otros se archivan por el periodo legal y luego se destruyen. Define el protocolo antes de que ocurra la primera baja, no después."
-  - question: "¿El módulo Cloud de Edena sirve también para documentos del equipo docente?"
-    answer: "Las carpetas y la visibilidad pueden configurarse por grupo o alumno. Para documentación interna del equipo docente conviene definir estructura de permisos separada, con criterio propio, consultando con tu interlocutor de implementación qué flujos soporta el módulo contratado."
+    - question: "¿El módulo Cloud es obligatorio para tener expediente digital?"
+      answer: "No. La plataforma base incluye expediente digital con datos, historial y organigrama. El módulo Cloud amplía con repositorio de ficheros, carpetas y visibilidad granular. Evalúa con tu equipo el volumen y tipo de documentos antes de contratar un módulo que quede vacío de contenido y criterio."
+    - question: "¿Podemos exigir a las familias que suban documentos al portal en lugar de traerlos en papel?"
+      answer: "Sí, con transición. Requiere comunicación clara, guía de carga, alternativa para familias con poca competencia digital, y acuerdo interno sobre qué pasa si el documento llega en papel. No es un decreto: es un cambio de proceso que necesita acompañamiento."
+    - question: "¿Cómo gestionar un documento que ya no se puede compartir por GDPR?"
+      answer: "Con el criterio de tu DPO: baja lógica o física en el plazo definido, con registro de la acción. La plataforma facilita el acceso y el control, pero la decisión de qué borrar y cuándo la toma el responsable del tratamiento del centro, no el software."
+    - question: "¿Qué pasa con los documentos cuando un alumno se da de baja o se traslada?"
+      answer: "Depende de tu política y la normativa aplicable: algunos documentos se trasladan con el expediente, otros se archivan por el periodo legal y luego se destruyen. Define el protocolo antes de que ocurra la primera baja, no después."
+    - question: "¿El módulo Cloud de Edena sirve también para documentos del equipo docente?"
+      answer: "Las carpetas y la visibilidad pueden configurarse por grupo o alumno. Para documentación interna del equipo docente conviene definir estructura de permisos separada, con criterio propio, consultando con tu interlocutor de implementación qué flujos soporta el módulo contratado."
 ---
 
 <strong>Gestión documental en colegios: adiós al papel y a los expedientes perdidos</strong>

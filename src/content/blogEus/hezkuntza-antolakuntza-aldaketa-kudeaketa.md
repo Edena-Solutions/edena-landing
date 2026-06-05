@@ -7,17 +7,17 @@ tags:
     - "liderazgo educativo"
     - "transformación organizacional"
     - "innovación"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1558932129-58b0867c4985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalizazio-egiaztapen-zerrenda-2026
+    - digitalizazio-egiaztapen-zerrenda-2026
 faqs:
-  - question: "Zenbat inbertitu iragarkietan?"
-    answer: "Lehenik eta behin, itxi webgunea, Google Business eta CRM. Neurtu matrikula itxi bakoitzeko kostua aurrekontua zabaldu aurretik."
-  - question: "Nola lerrokatu marketina eta idazkaritza?"
-    answer: "Webguneko kuotei eta zerbitzuei buruzko informazio bera, bisita eta kontratua. Egia iturri bakarra ERP-n."
-  - question: "Zer da ondoen familiak erakartzeko Espainian?"
-    answer: "Tokiko SEO, Google Business, Open Day inprimaki laburrekin eta CRM jarraipenarekin 24-48 ordutan."
+    - question: "Zenbat inbertitu iragarkietan?"
+      answer: "Lehenik eta behin, itxi webgunea, Google Business eta CRM. Neurtu matrikula itxi bakoitzeko kostua aurrekontua zabaldu aurretik."
+    - question: "Nola lerrokatu marketina eta idazkaritza?"
+      answer: "Webguneko kuotei eta zerbitzuei buruzko informazio bera, bisita eta kontratua. Egia iturri bakarra ERP-n."
+    - question: "Zer da ondoen familiak erakartzeko Espainian?"
+      answer: "Tokiko SEO, Google Business, Open Day inprimaki laburrekin eta CRM jarraipenarekin 24-48 ordutan."
 ---
 
 <strong>Hezkuntza-zentroetako antolaketa-aldaketaren kudeaketa: eraldaketa arrakastatsurako estrategiak</strong>

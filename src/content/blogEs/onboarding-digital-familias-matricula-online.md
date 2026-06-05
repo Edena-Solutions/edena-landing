@@ -9,22 +9,22 @@ tags:
         "onboarding familias",
         "digitalización",
     ]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1680391380106-de9702ca6246?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
 relatedPosts:
-  - matricula-online-centro-educativo-pasos-2026
-  - crm-escolar-matriculas-conversion-2026
-  - digitalizacion-retencion-alumnos
-  - retencion-estudiantes-era-digital
+    - matricula-online-centro-educativo-pasos-2026
+    - crm-escolar-matriculas-conversion-2026
+    - digitalizacion-retencion-alumnos
+    - retencion-estudiantes-era-digital
 faqs:
-  - question: "¿La matrícula online en colegio tiene validez legal?"
-    answer: "Sí. La firma electrónica y los documentos digitales tienen la misma validez que los presenciales cuando se cumplen los requisitos normativos. La inscripción digital de alumnos es válida si el proceso está bien diseñado."
-  - question: "¿Las familias adoptan la inscripción digital de alumnos?"
-    answer: "Sí, cuando el proceso es claro y el centro lo comunica bien. El onboarding digital de familias que ofrece valor (menos desplazamientos, menos papeleo) tiene buena adopción. La matrícula online en colegio debe ser fácil de encontrar y completar."
-  - question: "¿Qué pasa con las familias que prefieren papel?"
-    answer: "Puedes ofrecer ambas opciones durante una transición. La matrícula online en colegio puede convivir con procesos presenciales. El objetivo del onboarding digital de familias es que quien quiera digital pueda hacerlo sin fricción."
-  - question: "¿Cuándo cobrar la reserva?"
-    answer: "Tras visita o propuesta aceptada, en el mismo flujo digital, antes del alta definitiva."
+    - question: "¿La matrícula online en colegio tiene validez legal?"
+      answer: "Sí. La firma electrónica y los documentos digitales tienen la misma validez que los presenciales cuando se cumplen los requisitos normativos. La inscripción digital de alumnos es válida si el proceso está bien diseñado."
+    - question: "¿Las familias adoptan la inscripción digital de alumnos?"
+      answer: "Sí, cuando el proceso es claro y el centro lo comunica bien. El onboarding digital de familias que ofrece valor (menos desplazamientos, menos papeleo) tiene buena adopción. La matrícula online en colegio debe ser fácil de encontrar y completar."
+    - question: "¿Qué pasa con las familias que prefieren papel?"
+      answer: "Puedes ofrecer ambas opciones durante una transición. La matrícula online en colegio puede convivir con procesos presenciales. El objetivo del onboarding digital de familias es que quien quiera digital pueda hacerlo sin fricción."
+    - question: "¿Cuándo cobrar la reserva?"
+      answer: "Tras visita o propuesta aceptada, en el mismo flujo digital, antes del alta definitiva."
 ---
 
 <strong>Onboarding digital de familias: cómo matricular alumnos sin papeleo</strong>

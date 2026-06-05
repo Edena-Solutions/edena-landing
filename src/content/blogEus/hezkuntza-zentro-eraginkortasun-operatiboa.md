@@ -7,17 +7,17 @@ tags:
     - "operaciones"
     - "optimización"
     - "costos"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1458007683879-47560d7e33c3?q=80&w=1743&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalizazio-egiaztapen-zerrenda-2026
+    - digitalizazio-egiaztapen-zerrenda-2026
 faqs:
-  - question: "Nola neurtu aldaketaren arrakasta?"
-    answer: "Asteko administrazio-orduak, fakturazio-errore tasa edo batez besteko familia berrien erregistro-denbora."
-  - question: "Zein prozesu hasten naiz automatizatzen?"
-    answer: "Aldizkako karguak eta laguntzak izan ohi dira orduetan berehalako etekin handiena dutenak eta akatsak saihesten direnak."
-  - question: "Zenbat denbora irauten du zentzuzko pilotu batek?"
-    answer: "8 eta 12 aste artean, benetako fakturazio- edo onarpen-ziklo batekin eta idatzizko arrakasta-irizpideekin."
+    - question: "Nola neurtu aldaketaren arrakasta?"
+      answer: "Asteko administrazio-orduak, fakturazio-errore tasa edo batez besteko familia berrien erregistro-denbora."
+    - question: "Zein prozesu hasten naiz automatizatzen?"
+      answer: "Aldizkako karguak eta laguntzak izan ohi dira orduetan berehalako etekin handiena dutenak eta akatsak saihesten direnak."
+    - question: "Zenbat denbora irauten du zentzuzko pilotu batek?"
+      answer: "8 eta 12 aste artean, benetako fakturazio- edo onarpen-ziklo batekin eta idatzizko arrakasta-irizpideekin."
 ---
 
 <strong>Eraginkortasun operatiboa hezkuntza-zentroetan: Baliabideak optimizatzea teknologiarekin</strong>

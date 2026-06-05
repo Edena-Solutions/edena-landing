@@ -7,17 +7,17 @@ tags:
     - "cambio organizacional"
     - "liderazgo"
     - "innovación"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalizazio-egiaztapen-zerrenda-2026
+    - digitalizazio-egiaztapen-zerrenda-2026
 faqs:
-  - question: "Nola neurtu aldaketaren arrakasta?"
-    answer: "Asteko administrazio-orduak, fakturazio-errore tasa edo batez besteko familia berrien erregistro-denbora."
-  - question: "Zein prozesu hasten naiz automatizatzen?"
-    answer: "Aldizkako karguak eta laguntzak izan ohi dira orduetan berehalako etekin handiena dutenak eta akatsak saihesten direnak."
-  - question: "Zenbat denbora irauten du zentzuzko pilotu batek?"
-    answer: "8 eta 12 aste artean, benetako fakturazio- edo onarpen-ziklo batekin eta idatzizko arrakasta-irizpideekin."
+    - question: "Nola neurtu aldaketaren arrakasta?"
+      answer: "Asteko administrazio-orduak, fakturazio-errore tasa edo batez besteko familia berrien erregistro-denbora."
+    - question: "Zein prozesu hasten naiz automatizatzen?"
+      answer: "Aldizkako karguak eta laguntzak izan ohi dira orduetan berehalako etekin handiena dutenak eta akatsak saihesten direnak."
+    - question: "Zenbat denbora irauten du zentzuzko pilotu batek?"
+      answer: "8 eta 12 aste artean, benetako fakturazio- edo onarpen-ziklo batekin eta idatzizko arrakasta-irizpideekin."
 ---
 
 <strong>Eraldaketa digitala hezkuntza zentroetan: Erresistentziatik arrakastara</strong>

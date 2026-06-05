@@ -3,28 +3,29 @@ title: "Meilleur logiciel de gestion scolaire en Espagne : comparatif 2026"
 date: "2026-03-16"
 description: "Comparatif 2026 des logiciels scolaires en Espagne : critères d’achat, facturation, CRM, TCO, conformité et feuille de route."
 tags:
- [
- "logiciel gestion scolaire",
- "ERP éducatif",
- "facturation école",
- "CRM scolaire",
- "dématérialisation",
- "cours et collectes",
- ]
-author: "Équipe Edena"
+    [
+        "logiciel gestion scolaire",
+        "ERP éducatif",
+        "facturation école",
+        "CRM scolaire",
+        "dématérialisation",
+        "cours et collectes",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop"
 faqs:
-  - question: "Existe-t-il un “meilleur” universel ?"
-    answer: "Non. Tout est alignement de process, taille, modèle, priorités d’encaissement."
-  - question: "Verifactu : que demander ?"
-    answer: "Clarifier périmètre, accompagnement, preuve d’exploitation, pas de promesse."
-  - question: "Durée de pilote ?"
-    answer: "8–12 semaines, données réelles, un cycle, une campagne, critère de sortie."
-  - question: "Risque de licence basse ?"
-    answer: "Rattrapage en heures, intégration, re-migration. Utilisez TCO."
-  - question: "Comment évaluer si la plateforme est vraiment intégrée ou juste connectée via API ?"
-    answer: "Demandez à voir le flux complet d'une demande d'inscription jusqu'à la première facture dans la même interface, sans changement d'écran ni ressaisie de données. Si le commercial doit ouvrir un autre onglet ou vous dit \"cette partie est gérée par un partenaire\", vous avez votre réponse. Une vraie intégration signifie une identité de donnée unique : le même élève dans le dossier, la facturation, le CRM et le portail famille."
+    - question: "Existe-t-il un “meilleur” universel ?"
+      answer: "Non. Tout est alignement de process, taille, modèle, priorités d’encaissement."
+    - question: "Verifactu : que demander ?"
+      answer: "Clarifier périmètre, accompagnement, preuve d’exploitation, pas de promesse."
+    - question: "Durée de pilote ?"
+      answer: "8–12 semaines, données réelles, un cycle, une campagne, critère de sortie."
+    - question: "Risque de licence basse ?"
+      answer: "Rattrapage en heures, intégration, re-migration. Utilisez TCO."
+    - question: "Comment évaluer si la plateforme est vraiment intégrée ou juste connectée via API ?"
+      answer: 'Demandez à voir le flux complet d''une demande d''inscription jusqu''à la première facture dans la même interface, sans changement d''écran ni ressaisie de données. Si le commercial doit ouvrir un autre onglet ou vous dit "cette partie est gérée par un partenaire", vous avez votre réponse. Une vraie intégration signifie une identité de donnée unique : le même élève dans le dossier, la facturation, le CRM et le portail famille.'
 ---
+
 <strong>Meilleur logiciel de gestion scolaire en Espagne : comparatif 2026</strong>
 
 <br>

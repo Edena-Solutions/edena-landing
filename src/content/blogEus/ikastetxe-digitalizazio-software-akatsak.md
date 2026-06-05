@@ -7,24 +7,23 @@ tags:
     - "eskoletarako softwarea"
     - "ezarpena"
     - "akatsak"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677269465314-d5d2247a0b0c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJvYm90fGVufDB8fDB8fHww"
 relatedPosts:
-  - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
-  - software-aukera-egiaztapen-2026
-  - onena-eskola-kudeaketa-softwarea
-  - eskola-kudeaketa-softwarea-aukeratzea
+    - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
+    - software-aukera-egiaztapen-2026
+    - onena-eskola-kudeaketa-softwarea
+    - eskola-kudeaketa-softwarea-aukeratzea
 faqs:
-  - question: "Zenbat denbora behar da hezkuntza digitalizazioaren emaitzak ikusteko?"
-    answer: "Prozesuaren araberakoa da. Fakturazioek eta abisuak asteetan eragina izan dezakete. Eskoletan digitalizazio osoa egonkortzeko hilabete batzuk behar izan ditzake. Faseka neurtzea."
-  - question: "Ikastetxeentzako softwareak dena integratu behar al du?"
-    answer: "Ez derrigorrez. Nukleo bateratu batek (fakturazioa, familiak, fitxategiak) normalean errazten du. Baina dagoeneko funtzionatzen duten tresnak badituzu, kontuan hartu integrazioak dena ordezkatu aurretik."
-  - question: "ERP edo SIS: zer behar dut lehenik?"
-    answer: "Min nagusia idazkaritza, bildumak eta familiak badira, lehenetsi ERP integrala. Oharrak eta ikasgelako laguntza soilik behar badituzu, SIS nahikoa izan daiteke epe laburrean, baina azkenean datuak bikoiztu egingo dituzu."
-  - question: "Zenbat denbora irauten du zentzuzko pilotu batek?"
-    answer: "8 eta 12 aste artean, benetako fakturazio- edo onarpen-ziklo batekin eta hasi aurretik adostutako arrakasta-irizpideekin."
+    - question: "Zenbat denbora behar da hezkuntza digitalizazioaren emaitzak ikusteko?"
+      answer: "Prozesuaren araberakoa da. Fakturazioek eta abisuak asteetan eragina izan dezakete. Eskoletan digitalizazio osoa egonkortzeko hilabete batzuk behar izan ditzake. Faseka neurtzea."
+    - question: "Ikastetxeentzako softwareak dena integratu behar al du?"
+      answer: "Ez derrigorrez. Nukleo bateratu batek (fakturazioa, familiak, fitxategiak) normalean errazten du. Baina dagoeneko funtzionatzen duten tresnak badituzu, kontuan hartu integrazioak dena ordezkatu aurretik."
+    - question: "ERP edo SIS: zer behar dut lehenik?"
+      answer: "Min nagusia idazkaritza, bildumak eta familiak badira, lehenetsi ERP integrala. Oharrak eta ikasgelako laguntza soilik behar badituzu, SIS nahikoa izan daiteke epe laburrean, baina azkenean datuak bikoiztu egingo dituzu."
+    - question: "Zenbat denbora irauten du zentzuzko pilotu batek?"
+      answer: "8 eta 12 aste artean, benetako fakturazio- edo onarpen-ziklo batekin eta hasi aurretik adostutako arrakasta-irizpideekin."
 ---
-
 
 <strong>Digitalizazioa ikastetxeetan: hezkuntza-softwarea ezartzerakoan ikastetxeek egiten dituzten 7 akats</strong>
 

@@ -8,22 +8,21 @@ tags:
     - "conformité réglementaire"
     - "automation"
     - "gestion financière"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1679922389535-7f4badadc07c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - impayes-cobrures-automatises-ecoles-2026
-  - kpi-mensuels-direction-ecole-2026
-  - reduire-impayes-facturation-ecoles
-  - paiements-en-ligne-education
+    - impayes-cobrures-automatises-ecoles-2026
+    - kpi-mensuels-direction-ecole-2026
+    - reduire-impayes-facturation-ecoles
+    - paiements-en-ligne-education
 faqs:
-  - question: "Qu'est-ce que Verifactu et pourquoi est-il crucial pour les établissements scolaires ?"
-    answer: "Verifactu est le système officiel de l'Agence fiscale espagnole pour la gestion de la facturation électronique. Ce système permet l'émission, l'envoi, la réception et le stockage de factures électroniques en toute sécurité et conformément à la réglementation fiscale espagnole. Pour les établissements scolaires, l'intégration avec Verifactu n'est pas facultative ; Il s’agit d’une exigence légale qui garantit le respect de toutes les réglementations fiscales en vigueur. L’importance de Verifactu va au-delà de la simple conformité réglementaire. Ce système fournit : -"
-  - question: "Quel est le retard de paiement « normal » dans une école privée ?"
-    answer: "Cela varie selon le profil socio-économique et le mode de collecte, mais de nombreux centres sains évoluent entre 4 % et 8 % à 45 jours. Au-dessus de 10%, il convient de revoir le calendrier, les prélèvements et la séquence de relance avant d'élargir les effectifs."
-  - question: "Verifactu change-t-il la façon dont je facture les familles ?"
-    answer: "Verifactu affecte principalement l'émission et la traçabilité des factures avant l'AEAT, et non le mode de paiement lui-même. Il nécessite que votre logiciel de facturation génère des enregistrements conformes ; Il est conseillé de l'intégrer aux recouvrements et à la conciliation."
+    - question: "Qu'est-ce que Verifactu et pourquoi est-il crucial pour les établissements scolaires ?"
+      answer: "Verifactu est le système officiel de l'Agence fiscale espagnole pour la gestion de la facturation électronique. Ce système permet l'émission, l'envoi, la réception et le stockage de factures électroniques en toute sécurité et conformément à la réglementation fiscale espagnole. Pour les établissements scolaires, l'intégration avec Verifactu n'est pas facultative ; Il s’agit d’une exigence légale qui garantit le respect de toutes les réglementations fiscales en vigueur. L’importance de Verifactu va au-delà de la simple conformité réglementaire. Ce système fournit : -"
+    - question: "Quel est le retard de paiement « normal » dans une école privée ?"
+      answer: "Cela varie selon le profil socio-économique et le mode de collecte, mais de nombreux centres sains évoluent entre 4 % et 8 % à 45 jours. Au-dessus de 10%, il convient de revoir le calendrier, les prélèvements et la séquence de relance avant d'élargir les effectifs."
+    - question: "Verifactu change-t-il la façon dont je facture les familles ?"
+      answer: "Verifactu affecte principalement l'émission et la traçabilité des factures avant l'AEAT, et non le mode de paiement lui-même. Il nécessite que votre logiciel de facturation génère des enregistrements conformes ; Il est conseillé de l'intégrer aux recouvrements et à la conciliation."
 ---
-
 
 <strong>Facturation électronique et vérification dans l'éducation 2026 : conformité et efficacité réglementaires</strong>
 

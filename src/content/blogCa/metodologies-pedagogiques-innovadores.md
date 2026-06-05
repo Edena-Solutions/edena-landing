@@ -7,22 +7,21 @@ tags:
     - "innovació educativa"
     - "ensenyament actiu"
     - "aprenentatge"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1611348586755-53860f7ae57a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - innovacio-pedagogica-tecnologia
-  - avaluacio-assessment-digital-educatiu
-  - espais-educatius-futur-disseny
-  - benestar-emocional-estudiants-digitals
+    - innovacio-pedagogica-tecnologia
+    - avaluacio-assessment-digital-educatiu
+    - espais-educatius-futur-disseny
+    - benestar-emocional-estudiants-digitals
 faqs:
-  - question: "Metodologia activa sense més càrrega admin?"
-    answer: "Requereix planificació; digitalitzar llistats allibera temps per a disseny didàctic."
-  - question: "Formació interna?"
-    answer: "Comunitats daprenentatge entre departaments, no només curs extern."
-  - question: "Com avaluar innovació?"
-    answer: "Indicadors de competència clau, no només satisfacció del professorat."
+    - question: "Metodologia activa sense més càrrega admin?"
+      answer: "Requereix planificació; digitalitzar llistats allibera temps per a disseny didàctic."
+    - question: "Formació interna?"
+      answer: "Comunitats daprenentatge entre departaments, no només curs extern."
+    - question: "Com avaluar innovació?"
+      answer: "Indicadors de competència clau, no només satisfacció del professorat."
 ---
-
 
 <strong>Metodologies pedagògiques innovadores: Transformant el procés d'ensenyament-aprenentatge</strong>
 

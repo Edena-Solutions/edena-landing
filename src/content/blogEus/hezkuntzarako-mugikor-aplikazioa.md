@@ -7,20 +7,20 @@ tags:
     - "experiencia digital"
     - "acceso instantáneo"
     - "tecnología"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1584206863352-ce8b3a1c10e3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - guraso-app-ikastetxean-2026
-  - ikastetxe-familia-plataforma-digital-komunikazioa
-  - zentro-hezkuntzako-komunikazio-digitala
-  - familia-komunikazioa-garai-digitalan
+    - guraso-app-ikastetxean-2026
+    - ikastetxe-familia-plataforma-digital-komunikazioa
+    - zentro-hezkuntzako-komunikazio-digitala
+    - familia-komunikazioa-garai-digitalan
 faqs:
-  - question: "Legezkoa al da WhatsApp familiekin erabiltzea?"
-    answer: "Adostasunarekin eta diskrezioarekin, koordinaziorako; Ez du ordezkatzen traza daitekeen kanal instituzionala."
-  - question: "Familia guztientzat nahitaezko aplikazioa?"
-    answer: "Ezin dutenentzat alternatiba batekin gomendatua; Komunikazio berdina derrigorrezkoa da."
-  - question: "Push jakinarazpenak nahastu gabe?"
-    answer: "Bultzada larrialdiak; digestio erretiluan edo laburpen-mezu elektronikoan informatiboa."
+    - question: "Legezkoa al da WhatsApp familiekin erabiltzea?"
+      answer: "Adostasunarekin eta diskrezioarekin, koordinaziorako; Ez du ordezkatzen traza daitekeen kanal instituzionala."
+    - question: "Familia guztientzat nahitaezko aplikazioa?"
+      answer: "Ezin dutenentzat alternatiba batekin gomendatua; Komunikazio berdina derrigorrezkoa da."
+    - question: "Push jakinarazpenak nahastu gabe?"
+      answer: "Bultzada larrialdiak; digestio erretiluan edo laburpen-mezu elektronikoan informatiboa."
 ---
 
 <strong>Mugikorretarako aplikazioak hezkuntzan: esperientzia digitala zure poltsikoan</strong>

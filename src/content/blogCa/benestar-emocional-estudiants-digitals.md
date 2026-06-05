@@ -7,22 +7,21 @@ tags:
     - "salut mental"
     - "era digital"
     - "suport estudiantil"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1503891617560-5b8c2e28cbf6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologies-pedagogiques-innovadores
-  - innovacio-pedagogica-tecnologia
-  - avaluacio-assessment-digital-educatiu
-  - espais-educatius-futur-disseny
+    - metodologies-pedagogiques-innovadores
+    - innovacio-pedagogica-tecnologia
+    - avaluacio-assessment-digital-educatiu
+    - espais-educatius-futur-disseny
 faqs:
-  - question: "Limitar pantalles al centre?"
-    answer: "Política clara per etapa; coherent amb ús pedagògic, no només prohibició."
-  - question: "Senyals d'alerta digital?"
-    answer: "Aïllament, cyberbullying, somni alterat; protocol de derivació a orientació."
-  - question: "Formació famílies?"
-    answer: "Sessions breus sobre ús equilibrat i controls parentals."
+    - question: "Limitar pantalles al centre?"
+      answer: "Política clara per etapa; coherent amb ús pedagògic, no només prohibició."
+    - question: "Senyals d'alerta digital?"
+      answer: "Aïllament, cyberbullying, somni alterat; protocol de derivació a orientació."
+    - question: "Formació famílies?"
+      answer: "Sessions breus sobre ús equilibrat i controls parentals."
 ---
-
 
 <strong>Benestar emocional d'estudiants a l'era digital: Estratègies i eines</strong>
 

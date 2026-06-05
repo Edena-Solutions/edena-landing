@@ -7,22 +7,21 @@ tags:
     - "processos administratius"
     - "eficiència"
     - "educació"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - estalvi-15-hores-administracio-2026
-  - automatitzacio-absentisme-escolar
-  - ia-gestio-escolar-casos-practics
-  - processos-administratius-automatitzar-col-legi
+    - estalvi-15-hores-administracio-2026
+    - automatitzacio-absentisme-escolar
+    - ia-gestio-escolar-casos-practics
+    - processos-administratius-automatitzar-col-legi
 faqs:
-  - question: "Què NO automatitzar?"
-    answer: "Decisions disciplinàries, situacions familiars delicades, excepcions de beca."
-  - question: "Quan triga a veure's l'estalvi?"
-    answer: "Primeres 4-6 setmanes després de formació mínima per rol."
-  - question: "Risc d'errors massius?"
-    answer: "Sí si no proveu regles; comenceu amb un curs pilot."
+    - question: "Què NO automatitzar?"
+      answer: "Decisions disciplinàries, situacions familiars delicades, excepcions de beca."
+    - question: "Quan triga a veure's l'estalvi?"
+      answer: "Primeres 4-6 setmanes després de formació mínima per rol."
+    - question: "Risc d'errors massius?"
+      answer: "Sí si no proveu regles; comenceu amb un curs pilot."
 ---
-
 
 <strong>Automatització de tasques administratives: Allibera temps per a l'educació</strong>
 

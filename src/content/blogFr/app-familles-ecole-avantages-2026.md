@@ -3,28 +3,29 @@ title: "Application familles dans les écoles : avantages réels pour la directi
 date: "2026-04-05"
 description: "Portail, notifications push et gestion autonome : moins de charge pour le secrétariat, plus de clarté pour les familles, avec une plateforme unifiée."
 tags:
- [
- "application familles école",
- "portail éducatif",
- "communication scolaire",
- "gestion autonome familles",
- "notifications push école",
- "Edena",
- ]
-author: "Équipe Edena"
+    [
+        "application familles école",
+        "portail éducatif",
+        "communication scolaire",
+        "gestion autonome familles",
+        "notifications push école",
+        "Edena",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579621970343-21c491b3f363?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 faqs:
-  - question: "L'application remplace-t-elle l'agenda papier ou les réunions en présentiel ?"
-    answer: "Non. L'application organise, alerte et enregistre ; elle ne remplace pas l'entretien de tutorat, la réunion de début d'année ni l'accompagnement quand une famille a besoin d'une attention personnalisée. Elle libère du temps pour ces interactions en réduisant la charge des messages répétitifs."
-  - question: "Que faire avec les familles sans smartphone ou peu à l'aise avec le numérique ?"
-    answer: "Le portail web fonctionne depuis n'importe quel navigateur sans téléchargement. Pour les familles ayant des obstacles numériques, définissez un protocole de secours (appel téléphonique, courrier, accueil au secrétariat) et ne supposez pas que \"tout le monde a l'application\". La communication de base par e-mail reste valide comme canal de soutien."
-  - question: "Les notifications push servent-elles uniquement pour les messages ou aussi pour les rappels de paiement ?"
-    answer: "Avec la communication Pro, les notifications peuvent être configurées pour les alertes de paiement, les rappels de documents, les circulaires et les messages de chat, selon les critères définis par l'établissement. Le module de facturation fournit la logique de paiement ; Pro connecte l'alerte au canal mobile avec accusé de réception."
-  - question: "Comment la confidentialité des messages entre familles et équipe est-elle gérée ?"
-    answer: "Le chat de communication Pro est un canal fermé de l'établissement, pas un réseau social. Les règles de confidentialité, les droits d'accès et la durée de conservation des historiques de conversation doivent être définis avec votre DPO dans le cadre du GDPR : qui peut voir quoi, pendant combien de temps et sur quelle base légale."
-  - question: "Peut-on gérer les absences et les autorisations depuis l'application ?"
-    answer: "Oui. La plateforme de base comprend la gestion autonome des familles pour ces flux habituels : signalement d'absence, consultation du dossier de l'élève, accès aux documents et, si configuré, signature des autorisations selon le flux mis en place avec l'équipe."
+    - question: "L'application remplace-t-elle l'agenda papier ou les réunions en présentiel ?"
+      answer: "Non. L'application organise, alerte et enregistre ; elle ne remplace pas l'entretien de tutorat, la réunion de début d'année ni l'accompagnement quand une famille a besoin d'une attention personnalisée. Elle libère du temps pour ces interactions en réduisant la charge des messages répétitifs."
+    - question: "Que faire avec les familles sans smartphone ou peu à l'aise avec le numérique ?"
+      answer: 'Le portail web fonctionne depuis n''importe quel navigateur sans téléchargement. Pour les familles ayant des obstacles numériques, définissez un protocole de secours (appel téléphonique, courrier, accueil au secrétariat) et ne supposez pas que "tout le monde a l''application". La communication de base par e-mail reste valide comme canal de soutien.'
+    - question: "Les notifications push servent-elles uniquement pour les messages ou aussi pour les rappels de paiement ?"
+      answer: "Avec la communication Pro, les notifications peuvent être configurées pour les alertes de paiement, les rappels de documents, les circulaires et les messages de chat, selon les critères définis par l'établissement. Le module de facturation fournit la logique de paiement ; Pro connecte l'alerte au canal mobile avec accusé de réception."
+    - question: "Comment la confidentialité des messages entre familles et équipe est-elle gérée ?"
+      answer: "Le chat de communication Pro est un canal fermé de l'établissement, pas un réseau social. Les règles de confidentialité, les droits d'accès et la durée de conservation des historiques de conversation doivent être définis avec votre DPO dans le cadre du GDPR : qui peut voir quoi, pendant combien de temps et sur quelle base légale."
+    - question: "Peut-on gérer les absences et les autorisations depuis l'application ?"
+      answer: "Oui. La plateforme de base comprend la gestion autonome des familles pour ces flux habituels : signalement d'absence, consultation du dossier de l'élève, accès aux documents et, si configuré, signature des autorisations selon le flux mis en place avec l'équipe."
 ---
+
 <strong>Application familles dans les écoles : avantages réels pour la direction et les parents</strong>
 
 <br>

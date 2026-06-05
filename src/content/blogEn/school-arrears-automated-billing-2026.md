@@ -9,24 +9,24 @@ tags:
     - "educational billing"
     - "school receipts"
     - "collection control"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1635091238012-83fb7454e8bb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - electronic-billing-verifactu-education-2026
-  - head-teacher-monthly-kpis-2026
-  - reduce-arrears-billing-schools
-  - online-payments-education
+    - electronic-billing-verifactu-education-2026
+    - head-teacher-monthly-kpis-2026
+    - reduce-arrears-billing-schools
+    - online-payments-education
 faqs:
-  - question: "How much can I realistically lower arrears with automation and correct processes?"
-    answer: "It depends on income mix, profiles and policy, but in structural layers, reductions of a third to half of the low tail, in 6–12 months, with measurement, are not uncommon. We don't promise miracles, we promise less bad variation."
-  - question: "Does electronic billing affect family reminders?"
-    answer: "Yes, indirectly: if the issuance and receipt live clearly, disputes decrease, and re-work decreases. Make sure the provider doesn't leave you halfway through the explanation to the tutors."
-  - question: "What do I do with repeated non-compliance?"
-    answer: "The rules and internal politics, first. The software executes, it does not replace the service regulations, but it does provide a basis to act with consistency and without perceived arbitrariness."
-  - question: "Should I connect to a payment gateway or bank?"
-    answer: "Strategy: minimize boxes and duplication of criteria. The fewer places, the fewer gaps. The platform should concentrate criteria and traces."
-  - question: "When does it make sense to escalate to external collections management?"
-    answer: "When the internal escalation sequence is complete, a written payment plan has been offered and declined. The escalation threshold is a policy decision, not a software one: agree on it with your team before the first case occurs, document it, and apply it consistently so that families experience fair and predictable treatment. The platform records the history that makes that decision defensible."
+    - question: "How much can I realistically lower arrears with automation and correct processes?"
+      answer: "It depends on income mix, profiles and policy, but in structural layers, reductions of a third to half of the low tail, in 6–12 months, with measurement, are not uncommon. We don't promise miracles, we promise less bad variation."
+    - question: "Does electronic billing affect family reminders?"
+      answer: "Yes, indirectly: if the issuance and receipt live clearly, disputes decrease, and re-work decreases. Make sure the provider doesn't leave you halfway through the explanation to the tutors."
+    - question: "What do I do with repeated non-compliance?"
+      answer: "The rules and internal politics, first. The software executes, it does not replace the service regulations, but it does provide a basis to act with consistency and without perceived arbitrariness."
+    - question: "Should I connect to a payment gateway or bank?"
+      answer: "Strategy: minimize boxes and duplication of criteria. The fewer places, the fewer gaps. The platform should concentrate criteria and traces."
+    - question: "When does it make sense to escalate to external collections management?"
+      answer: "When the internal escalation sequence is complete, a written payment plan has been offered and declined. The escalation threshold is a policy decision, not a software one: agree on it with your team before the first case occurs, document it, and apply it consistently so that families experience fair and predictable treatment. The platform records the history that makes that decision defensible."
 ---
 
 <strong>How to reduce late payments in schools and daycare centers with automated collections</strong>

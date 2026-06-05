@@ -7,20 +7,20 @@ tags:
     - "mental health"
     - "digital age"
     - "student support"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1503891617560-5b8c2e28cbf6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - innovative-pedagogical-methodologies
-  - pedagogical-innovation-technology
-  - digital-assessment-evaluation-education
-  - future-educational-spaces-design
+    - innovative-pedagogical-methodologies
+    - pedagogical-innovation-technology
+    - digital-assessment-evaluation-education
+    - future-educational-spaces-design
 faqs:
-  - question: "Limit screens in the center?"
-    answer: "Clear policy by stage; consistent with pedagogical use, not just prohibition."
-  - question: "Digital warning signs?"
-    answer: "Isolation, cyberbullying, disturbed sleep; referral protocol for orientation."
-  - question: "Family formation?"
-    answer: "Short sessions on balanced use and parental controls."
+    - question: "Limit screens in the center?"
+      answer: "Clear policy by stage; consistent with pedagogical use, not just prohibition."
+    - question: "Digital warning signs?"
+      answer: "Isolation, cyberbullying, disturbed sleep; referral protocol for orientation."
+    - question: "Family formation?"
+      answer: "Short sessions on balanced use and parental controls."
 ---
 
 <strong>Emotional well-being of students in the digital age: Strategies and tools</strong>

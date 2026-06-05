@@ -7,20 +7,20 @@ tags:
     - "academic performance"
     - "personalization"
     - "education"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1599081593734-5e65dd7abfba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - head-teacher-monthly-kpis-2026
-  - educational-dashboard
-  - educational-dashboards-metrics
-  - educational-analytics-school-dashboards
+    - head-teacher-monthly-kpis-2026
+    - educational-dashboard
+    - educational-dashboards-metrics
+    - educational-analytics-school-dashboards
 faqs:
-  - question: "How often should you review performance data?"
-    answer: "Quarterly by department; monthly only early warning indicators."
-  - question: "Share rankings between teachers?"
-    answer: "With pedagogical criteria, do not publish rankings of students to families without context."
-  - question: "What to do with a lagging course?"
-    answer: "Tutorial intervention and resources, not just more exams."
+    - question: "How often should you review performance data?"
+      answer: "Quarterly by department; monthly only early warning indicators."
+    - question: "Share rankings between teachers?"
+      answer: "With pedagogical criteria, do not publish rankings of students to families without context."
+    - question: "What to do with a lagging course?"
+      answer: "Tutorial intervention and resources, not just more exams."
 ---
 
 <strong>Analytics of academic performance: Data to enhance learning</strong>

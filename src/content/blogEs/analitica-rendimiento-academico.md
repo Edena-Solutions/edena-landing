@@ -3,20 +3,20 @@ title: "Analítica del rendimiento académico: Datos para potenciar el aprendiza
 date: "2025-01-10"
 description: "Analítica de rendimiento académico en aula. Guía práctica para centros educativos en España (2026)."
 tags: ["analítica", "rendimiento académico", "personalización", "educación"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1599081593734-5e65dd7abfba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpis-director-colegio-mensual-2026
-  - dashboard-educativo
-  - dashboards-educativos-metricas
-  - analitica-educativa-dashboards-escolares
+    - kpis-director-colegio-mensual-2026
+    - dashboard-educativo
+    - dashboards-educativos-metricas
+    - analitica-educativa-dashboards-escolares
 faqs:
-  - question: "¿Cada cuánto revisar datos de rendimiento?"
-    answer: "Trimestralmente por departamento; mensualmente solo indicadores de alerta temprana."
-  - question: "¿Compartir rankings entre profesores?"
-    answer: "Con criterio pedagógico, no publicar rankings de alumnos a familias sin contexto."
-  - question: "¿Qué hacer con un curso rezagado?"
-    answer: "Intervención tutorial y recursos, no solo más exámenes."
+    - question: "¿Cada cuánto revisar datos de rendimiento?"
+      answer: "Trimestralmente por departamento; mensualmente solo indicadores de alerta temprana."
+    - question: "¿Compartir rankings entre profesores?"
+      answer: "Con criterio pedagógico, no publicar rankings de alumnos a familias sin contexto."
+    - question: "¿Qué hacer con un curso rezagado?"
+      answer: "Intervención tutorial y recursos, no solo más exámenes."
 ---
 
 <strong>Analítica del rendimiento académico: Datos para potenciar el aprendizaje</strong>

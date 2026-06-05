@@ -3,24 +3,24 @@ title: "Checklist de digitalización 2026 para tu centro educativo"
 date: "2026-02-24"
 description: "Roadmap 90 días de digitalización administrativa. Guía práctica para centros educativos en España (2026)."
 tags: ["digitalización centros educativos 2026", "checklist", "modernización", "procesos"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - ahorrar-15-horas-administracion-escolar-2026
-  - automatizacion-absentismo-escolar
-  - ia-gestion-escolar-casos-practicos
-  - procesos-administrativos-automatizar-colegio
+    - ahorrar-15-horas-administracion-escolar-2026
+    - automatizacion-absentismo-escolar
+    - ia-gestion-escolar-casos-practicos
+    - procesos-administrativos-automatizar-colegio
 faqs:
-  - question: "¿Este checklist de digitalización 2026 aplica a cualquier tipo de centro?"
-    answer: "Sí. Los bloques (facturación, familias, datos, procesos, visibilidad) son comunes; el detalle se adapta al tamaño, etapa educativa y normativa autonómica o nacional."
-  - question: "¿Por dónde empiezo si estoy muy atrasado?"
-    answer: "Suele ser prioritario: facturación electrónica si es obligatoria, y después cobro (pagos online y recordatorios) y comunicación con familias. Datos y cumplimiento van en paralelo para no acumular deuda legal."
-  - question: "¿Necesitamos un único software para todo?"
-    answer: "No es obligatorio, pero un núcleo unificado (facturación, familias, asistencia) reduce duplicación de datos y errores. Las integraciones entre sistemas son una alternativa si ya tienes herramientas que quieres mantener."
-  - question: "¿Cuánto tiempo lleva completar el checklist?"
-    answer: "Depende del punto de partida. Algunos centros resuelven lo crítico en un curso; otros distribuyen las acciones en dos cursos. Lo importante es avanzar por bloques y no dejar lo normativo para el final."
-  - question: "¿Cómo mantenemos el checklist al día?"
-    answer: "Revisar una vez al año (por ejemplo, inicio de curso) y ante cambios normativos o de proveedores. La digitalización de centros educativos 2026 es un proceso continuo, no un proyecto puntual."
+    - question: "¿Este checklist de digitalización 2026 aplica a cualquier tipo de centro?"
+      answer: "Sí. Los bloques (facturación, familias, datos, procesos, visibilidad) son comunes; el detalle se adapta al tamaño, etapa educativa y normativa autonómica o nacional."
+    - question: "¿Por dónde empiezo si estoy muy atrasado?"
+      answer: "Suele ser prioritario: facturación electrónica si es obligatoria, y después cobro (pagos online y recordatorios) y comunicación con familias. Datos y cumplimiento van en paralelo para no acumular deuda legal."
+    - question: "¿Necesitamos un único software para todo?"
+      answer: "No es obligatorio, pero un núcleo unificado (facturación, familias, asistencia) reduce duplicación de datos y errores. Las integraciones entre sistemas son una alternativa si ya tienes herramientas que quieres mantener."
+    - question: "¿Cuánto tiempo lleva completar el checklist?"
+      answer: "Depende del punto de partida. Algunos centros resuelven lo crítico en un curso; otros distribuyen las acciones en dos cursos. Lo importante es avanzar por bloques y no dejar lo normativo para el final."
+    - question: "¿Cómo mantenemos el checklist al día?"
+      answer: "Revisar una vez al año (por ejemplo, inicio de curso) y ante cambios normativos o de proveedores. La digitalización de centros educativos 2026 es un proceso continuo, no un proyecto puntual."
 ---
 
 <strong>Checklist de digitalización 2026 para modernizar tu centro educativo</strong>

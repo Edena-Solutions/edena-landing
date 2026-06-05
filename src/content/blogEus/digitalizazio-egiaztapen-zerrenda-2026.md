@@ -7,26 +7,25 @@ tags:
     - "kontrol-zerrenda"
     - "modernizazioa"
     - "prozesuak"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - 15-ordu-admin-eskola-2026
-  - eskola-absentismoaren-automatizazioa
-  - ia-eskola-kudeaketa-kasu-praktikoak
-  - ikastetxe-administrazio-prozesu-automatizatu
+    - 15-ordu-admin-eskola-2026
+    - eskola-absentismoaren-automatizazioa
+    - ia-eskola-kudeaketa-kasu-praktikoak
+    - ikastetxe-administrazio-prozesu-automatizatu
 faqs:
-  - question: "2026ko digitalizazio-zerrenda hau edozein zentro motari aplikatzen al da?"
-    answer: "Bai. Blokeak (fakturazioa, familiak, datuak, prozesuak, ikusgarritasuna) ohikoak dira; Xehetasuna neurrira, hezkuntza-etapa eta eskualdeko edo estatuko araudira egokitzen da."
-  - question: "Nondik hasiko naiz oso atzeratuta nago?"
-    answer: "Normalean lehentasuna izan ohi da: fakturazio elektronikoa derrigorrezkoa bada, eta gero kobratzea (online ordainketak eta abisuak) eta familiekin komunikazioa. Datuak eta betetzea paraleloki doaz legezko zorra ez pilatzeko."
-  - question: "Software bakarra behar al dugu guztietarako?"
-    answer: "Ez da derrigorrezkoa, baina nukleo bateratu batek (fakturazioa, familiak, asistentzia) datuen bikoizketa eta akatsak murrizten ditu. Sistemen arteko integrazioak alternatiba dira dagoeneko mantendu nahi dituzun tresnak badituzu."
-  - question: "Zenbat denbora behar da kontrol-zerrenda osatzeko?"
-    answer: "Abiapuntuaren araberakoa da. Zentro batzuek gai kritikoak konpontzen dituzte ikastaro batean; beste batzuek bi ikastarotan banatzen dituzte ekintzak. Garrantzitsua da blokeetan aurrera egitea eta araudia azkenerako ez uztea."
-  - question: "Nola mantentzen dugu kontrol-zerrenda eguneratuta?"
-    answer: "Urtean behin berrikusi (adibidez, ikastaroa hasi) eta araudi edo hornitzaileen aldaketak gertatuz gero. Hezkuntza-zentroen digitalizazioa 2026 etengabeko prozesu bat da, ez proiektu puntuala."
+    - question: "2026ko digitalizazio-zerrenda hau edozein zentro motari aplikatzen al da?"
+      answer: "Bai. Blokeak (fakturazioa, familiak, datuak, prozesuak, ikusgarritasuna) ohikoak dira; Xehetasuna neurrira, hezkuntza-etapa eta eskualdeko edo estatuko araudira egokitzen da."
+    - question: "Nondik hasiko naiz oso atzeratuta nago?"
+      answer: "Normalean lehentasuna izan ohi da: fakturazio elektronikoa derrigorrezkoa bada, eta gero kobratzea (online ordainketak eta abisuak) eta familiekin komunikazioa. Datuak eta betetzea paraleloki doaz legezko zorra ez pilatzeko."
+    - question: "Software bakarra behar al dugu guztietarako?"
+      answer: "Ez da derrigorrezkoa, baina nukleo bateratu batek (fakturazioa, familiak, asistentzia) datuen bikoizketa eta akatsak murrizten ditu. Sistemen arteko integrazioak alternatiba dira dagoeneko mantendu nahi dituzun tresnak badituzu."
+    - question: "Zenbat denbora behar da kontrol-zerrenda osatzeko?"
+      answer: "Abiapuntuaren araberakoa da. Zentro batzuek gai kritikoak konpontzen dituzte ikastaro batean; beste batzuek bi ikastarotan banatzen dituzte ekintzak. Garrantzitsua da blokeetan aurrera egitea eta araudia azkenerako ez uztea."
+    - question: "Nola mantentzen dugu kontrol-zerrenda eguneratuta?"
+      answer: "Urtean behin berrikusi (adibidez, ikastaroa hasi) eta araudi edo hornitzaileen aldaketak gertatuz gero. Hezkuntza-zentroen digitalizazioa 2026 etengabeko prozesu bat da, ez proiektu puntuala."
 ---
-
 
 <strong>Digitalizazio-zerrenda 2026 zure hezkuntza zentroa modernizatzeko</strong>
 

@@ -7,22 +7,21 @@ tags:
     - "innovation pédagogique"
     - "enseignement actif"
     - "apprentissage"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1611348586755-53860f7ae57a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - innovation-pedagogique-technologie
-  - evaluation-numerique-educative
-  - espaces-educatifs-avenir-conception
-  - bien-etre-emotionnel-eleves-numerique
+    - innovation-pedagogique-technologie
+    - evaluation-numerique-educative
+    - espaces-educatifs-avenir-conception
+    - bien-etre-emotionnel-eleves-numerique
 faqs:
-  - question: "Méthodologie active sans charge administrative supplémentaire ?"
-    answer: "Cela nécessite une planification ; La numérisation des listes libère du temps pour la conception pédagogique."
-  - question: "Une formation interne ?"
-    answer: "Des communautés d’apprentissage entre départements, pas seulement des cours externes."
-  - question: "Comment évaluer l’innovation ?"
-    answer: "Des indicateurs de compétence clés, pas seulement la satisfaction des enseignants."
+    - question: "Méthodologie active sans charge administrative supplémentaire ?"
+      answer: "Cela nécessite une planification ; La numérisation des listes libère du temps pour la conception pédagogique."
+    - question: "Une formation interne ?"
+      answer: "Des communautés d’apprentissage entre départements, pas seulement des cours externes."
+    - question: "Comment évaluer l’innovation ?"
+      answer: "Des indicateurs de compétence clés, pas seulement la satisfaction des enseignants."
 ---
-
 
 <strong>Méthodologies pédagogiques innovantes : transformer le processus d’enseignement-apprentissage</strong>
 

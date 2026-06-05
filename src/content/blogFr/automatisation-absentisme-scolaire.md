@@ -7,26 +7,25 @@ tags:
     - "école buissonnière"
     - "présence"
     - "établissements scolaires"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
 relatedPosts:
-  - economiser-15h-administration-scolaire-2026
-  - ia-gestion-scolaire-cas-pratiques
-  - processus-administratifs-automatiser-ecole
-  - automatisation-taches-administratives
+    - economiser-15h-administration-scolaire-2026
+    - ia-gestion-scolaire-cas-pratiques
+    - processus-administratifs-automatiser-ecole
+    - automatisation-taches-administratives
 faqs:
-  - question: "L’automatisation de l’absentéisme scolaire remplace-t-elle le tuteur ou l’orientation ?"
-    answer: "Non. L’automatisation fournit des données et des avertissements ; l'interprétation, le contact avec la famille et les mesures éducatives restent à la charge de l'équipe."
-  - question: "Quel seuil de pannes est raisonnable pour envoyer une alerte ?"
-    answer: "Cela dépend de la scène et des réglementations régionales. À titre de référence, de nombreux centres notifient après 3 à 5 absences non justifiées par mois ; L’important est d’être cohérent et d’en revoir l’impact."
-  - question: "Les familles peuvent-elles consulter leur historique de fréquentation ?"
-    answer: "Oui. Un portail ou une application où vous pouvez consulter les défauts et les justifications améliore généralement la transparence et la collaboration et réduit les plaintes."
-  - question: "Comment la réglementation sur la protection des données est-elle respectée pour ces données ?"
-    answer: "La fréquentation est une information nécessaire à la relation éducative. Il doit y avoir une base légale, une information claire des familles et des mesures de sécurité (accès restreint, dossiers vérifiés). Le fournisseur de logiciels doit se conformer au RGPD."
-  - question: "L’automatisation est-elle utile pour l’absentéisme en formation professionnelle ou chez les adultes ?"
-    answer: "Oui. Le même schéma (enregistrement centralisé, alertes, rapports) s'applique ; Il suffit d’adapter les seuils et les canaux de communication au profil des élèves."
+    - question: "L’automatisation de l’absentéisme scolaire remplace-t-elle le tuteur ou l’orientation ?"
+      answer: "Non. L’automatisation fournit des données et des avertissements ; l'interprétation, le contact avec la famille et les mesures éducatives restent à la charge de l'équipe."
+    - question: "Quel seuil de pannes est raisonnable pour envoyer une alerte ?"
+      answer: "Cela dépend de la scène et des réglementations régionales. À titre de référence, de nombreux centres notifient après 3 à 5 absences non justifiées par mois ; L’important est d’être cohérent et d’en revoir l’impact."
+    - question: "Les familles peuvent-elles consulter leur historique de fréquentation ?"
+      answer: "Oui. Un portail ou une application où vous pouvez consulter les défauts et les justifications améliore généralement la transparence et la collaboration et réduit les plaintes."
+    - question: "Comment la réglementation sur la protection des données est-elle respectée pour ces données ?"
+      answer: "La fréquentation est une information nécessaire à la relation éducative. Il doit y avoir une base légale, une information claire des familles et des mesures de sécurité (accès restreint, dossiers vérifiés). Le fournisseur de logiciels doit se conformer au RGPD."
+    - question: "L’automatisation est-elle utile pour l’absentéisme en formation professionnelle ou chez les adultes ?"
+      answer: "Oui. Le même schéma (enregistrement centralisé, alertes, rapports) s'applique ; Il suffit d’adapter les seuils et les canaux de communication au profil des élèves."
 ---
-
 
 <strong>Comment l'automatisation réduit l'absentéisme scolaire</strong>
 

@@ -7,26 +7,25 @@ tags:
     - "absentisme escolar"
     - "assistència"
     - "centres educatius"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
 relatedPosts:
-  - estalvi-15-hores-administracio-2026
-  - ia-gestio-escolar-casos-practics
-  - processos-administratius-automatitzar-col-legi
-  - automatitzacio-tasques-administratives
+    - estalvi-15-hores-administracio-2026
+    - ia-gestio-escolar-casos-practics
+    - processos-administratius-automatitzar-col-legi
+    - automatitzacio-tasques-administratives
 faqs:
-  - question: "L'automatització de l'absentisme escolar substitueix el tutor o orientació?"
-    answer: "No. L'automatització aporta dades i avisos; la interpretació, el contacte amb la família i les mesures educatives continuen sent responsabilitat de lequip."
-  - question: "Quin llindar de faltes és raonable per enviar una alerta?"
-    answer: "Depèn de l'etapa i de la normativa autonòmica. Com a referència, molts centres avisen després de 3–5 faltes injustificades en un mes; l'important és ser coherent i revisar-ne l'impacte."
-  - question: "Les famílies poden veure el vostre historial d'assistència?"
-    answer: "Sí. Un portal o app on consultar faltes i justificacions sol millorar transparència i col·laboració i redueix reclamacions."
-  - question: "Com es compleix la normativa de protecció de dades amb aquestes dades?"
-    answer: "L'assistència és dada necessària per a la relació educativa. Hi ha d'haver base legal, informació clara a les famílies i mesures de seguretat (accés restringit, registres auditats). El proveïdor del programari ha de complir GDPR."
-  - question: "Serveix l'automatització per a absentisme en formació professional o adults?"
-    answer: "Sí. El mateix esquema (registre centralitzat, alertes, informes) aplica; només cal adaptar llindars i canals de comunicació al perfil de lalumnat."
+    - question: "L'automatització de l'absentisme escolar substitueix el tutor o orientació?"
+      answer: "No. L'automatització aporta dades i avisos; la interpretació, el contacte amb la família i les mesures educatives continuen sent responsabilitat de lequip."
+    - question: "Quin llindar de faltes és raonable per enviar una alerta?"
+      answer: "Depèn de l'etapa i de la normativa autonòmica. Com a referència, molts centres avisen després de 3–5 faltes injustificades en un mes; l'important és ser coherent i revisar-ne l'impacte."
+    - question: "Les famílies poden veure el vostre historial d'assistència?"
+      answer: "Sí. Un portal o app on consultar faltes i justificacions sol millorar transparència i col·laboració i redueix reclamacions."
+    - question: "Com es compleix la normativa de protecció de dades amb aquestes dades?"
+      answer: "L'assistència és dada necessària per a la relació educativa. Hi ha d'haver base legal, informació clara a les famílies i mesures de seguretat (accés restringit, registres auditats). El proveïdor del programari ha de complir GDPR."
+    - question: "Serveix l'automatització per a absentisme en formació professional o adults?"
+      answer: "Sí. El mateix esquema (registre centralitzat, alertes, informes) aplica; només cal adaptar llindars i canals de comunicació al perfil de lalumnat."
 ---
-
 
 <strong>Com l'automatització redueix l'absentisme escolar</strong>
 

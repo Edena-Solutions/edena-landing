@@ -7,20 +7,19 @@ tags:
     - "numérique"
     - "gestion"
     - "éducation"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1583521214690-73421a1829a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - gestion-documentaire-ecoles-2026
-  - dossier-scolaire-numerique-eleves
+    - gestion-documentaire-ecoles-2026
+    - dossier-scolaire-numerique-eleves
 faqs:
-  - question: "Numériser l’intégralité des archives historiques ?"
-    answer: "Prioriser le cours en cours et les documents actifs ; l'histoire par phases."
-  - question: "Qui peut supprimer des documents ?"
-    answer: "Rôles autorisés uniquement ; journal de suppression pour audit."
-  - question: "Signature numérique valide ?"
-    answer: "Vérifiez le type de document ; De nombreuses autorisations scolaires permettent une simple signature avec traçabilité."
+    - question: "Numériser l’intégralité des archives historiques ?"
+      answer: "Prioriser le cours en cours et les documents actifs ; l'histoire par phases."
+    - question: "Qui peut supprimer des documents ?"
+      answer: "Rôles autorisés uniquement ; journal de suppression pour audit."
+    - question: "Signature numérique valide ?"
+      answer: "Vérifiez le type de document ; De nombreuses autorisations scolaires permettent une simple signature avec traçabilité."
 ---
-
 
 <strong>Gestion des documents numériques : l'avenir de l'administration scolaire</strong>
 

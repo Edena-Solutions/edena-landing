@@ -7,22 +7,21 @@ tags:
     - "guardians"
     - "educació"
     - "digital"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1640622304233-7335e936f11b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - app-familles-collegis-avantatges-2026
-  - comunicacio-collegi-families-plataforma-digital
-  - comunicacio-digital-centres-educatius
-  - comunicacio-families-era-digital
+    - app-familles-collegis-avantatges-2026
+    - comunicacio-collegi-families-plataforma-digital
+    - comunicacio-digital-centres-educatius
+    - comunicacio-families-era-digital
 faqs:
-  - question: "Acord dús de dispositius?"
-    answer: "Regles clares per edat, signat per famílies en matricular-se."
-  - question: "Control parental a app del centre?"
-    answer: "El centre informa; el control a casa és responsabilitat familiar amb guia del centre."
-  - question: "Menors de 14 anys?"
-    answer: "Consentiment parental per a tractaments de dades a plataformes."
+    - question: "Acord dús de dispositius?"
+      answer: "Regles clares per edat, signat per famílies en matricular-se."
+    - question: "Control parental a app del centre?"
+      answer: "El centre informa; el control a casa és responsabilitat familiar amb guia del centre."
+    - question: "Menors de 14 anys?"
+      answer: "Consentiment parental per a tractaments de dades a plataformes."
 ---
-
 
 <strong>Guardians a l'educació digital: El paper dels pares a l'era tecnològica</strong>
 

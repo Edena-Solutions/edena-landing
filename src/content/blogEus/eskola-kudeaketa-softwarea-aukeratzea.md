@@ -7,17 +7,17 @@ tags:
     - "gestión"
     - "educación"
     - "selección"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalizazio-egiaztapen-zerrenda-2026
+    - digitalizazio-egiaztapen-zerrenda-2026
 faqs:
-  - question: "Zenbat iraun behar du bilaketa-faseak?"
-    answer: "Irizpide argiak badituzue, astebete mugatzeko eta bi-lau asteko demo bideratuak nahikoa dira. Bi hilabete baino gehiago pilotu gabe erabaki barneko faltarengatia da, ez eskaintzaren faltagatik."
-  - question: "Kobrantzatik soilik hasi al daiteke?"
-    answer: "Bai, hornitzaileak modulu batekin hazi ahal badu berriz-migratu gabe. Ziurtatu expediente eta familiak datu-nagusi berdinera iritsiko direla."
-  - question: "Zer egin nire zentroa itunpekoa bada?"
-    answer: "Lehenetsi kuoten, beken eta administrazioarekiko komunikazioaren trazagarritasuna; CRM komertziala pisua du gutxiago pribatu hutsean baino, baina Verifactu eta LOPDGDD berdin aplikatzen dira."
+    - question: "Zenbat iraun behar du bilaketa-faseak?"
+      answer: "Irizpide argiak badituzue, astebete mugatzeko eta bi-lau asteko demo bideratuak nahikoa dira. Bi hilabete baino gehiago pilotu gabe erabaki barneko faltarengatia da, ez eskaintzaren faltagatik."
+    - question: "Kobrantzatik soilik hasi al daiteke?"
+      answer: "Bai, hornitzaileak modulu batekin hazi ahal badu berriz-migratu gabe. Ziurtatu expediente eta familiak datu-nagusi berdinera iritsiko direla."
+    - question: "Zer egin nire zentroa itunpekoa bada?"
+      answer: "Lehenetsi kuoten, beken eta administrazioarekiko komunikazioaren trazagarritasuna; CRM komertziala pisua du gutxiago pribatu hutsean baino, baina Verifactu eta LOPDGDD berdin aplikatzen dira."
 ---
 
 <strong>Nola aukeratu eskola-kudeaketarako software onena</strong>

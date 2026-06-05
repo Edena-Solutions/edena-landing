@@ -3,20 +3,20 @@ title: "Espacios educativos del futuro: Diseño e innovación para el aprendizaj
 date: "2025-08-25"
 description: "Diseño de espacios flexibles y DigEdu. Guía práctica para centros educativos en España (2026)."
 tags: ["espacios educativos", "diseño arquitectónico", "innovación", "aprendizaje flexible"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579388654549-1f4e8c79b5a4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologias-pedagogicas-innovadoras
-  - innovacion-pedagogica-tecnologia
-  - evaluacion-assessment-digital-educativo
-  - bienestar-emocional-estudiantes-digitales
+    - metodologias-pedagogicas-innovadoras
+    - innovacion-pedagogica-tecnologia
+    - evaluacion-assessment-digital-educativo
+    - bienestar-emocional-estudiantes-digitales
 faqs:
-  - question: "¿Flexibilidad requiere más tecnología?"
-    answer: "No necesariamente; sí conectividad estable y almacenamiento seguro de evidencias."
-  - question: "¿Cómo vincular espacio y LOMLOE?"
-    answer: "Competencias de aprender a aprender y autonomía en entornos variados."
-  - question: "¿Invertir en aulas sin digitalizar admin?"
-    answer: "El aula mejora; la percección global del centro sigue ligada a secretaría."
+    - question: "¿Flexibilidad requiere más tecnología?"
+      answer: "No necesariamente; sí conectividad estable y almacenamiento seguro de evidencias."
+    - question: "¿Cómo vincular espacio y LOMLOE?"
+      answer: "Competencias de aprender a aprender y autonomía en entornos variados."
+    - question: "¿Invertir en aulas sin digitalizar admin?"
+      answer: "El aula mejora; la percección global del centro sigue ligada a secretaría."
 ---
 
 <strong>Espacios educativos del futuro: Diseño e innovación para el aprendizaje moderno</strong>

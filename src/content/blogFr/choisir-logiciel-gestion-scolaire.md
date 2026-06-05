@@ -7,19 +7,18 @@ tags:
     - "gestion"
     - "éducation"
     - "sélection"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-numerisation-2026
+    - checklist-numerisation-2026
 faqs:
-  - question: "Combien de temps doit durer la phase de recherche ?"
-    answer: "Une semaine de planification et deux à quatre semaines de démonstrations ciblées suffisent si vous avez des critères clairs. Plus de deux mois sans projet pilote indiquent généralement un manque de décision interne et non un manque d'offre."
-  - question: "Puis-je commencer uniquement pour les collections ?"
-    answer: "Oui, si le fournisseur vous permet d'évoluer par modules sans migrer à nouveau. Assurez-vous que les fichiers et les familles atteindront les mêmes données de base."
-  - question: "Que dois-je faire si mon centre est agréé ?"
-    answer: "Prioriser la traçabilité des frais, des bourses et la communication avec l'administration ; Le CRM commercial pèse moins que le CRM privé pur, mais Verifactu et LOPDGDD appliquent la même chose."
+    - question: "Combien de temps doit durer la phase de recherche ?"
+      answer: "Une semaine de planification et deux à quatre semaines de démonstrations ciblées suffisent si vous avez des critères clairs. Plus de deux mois sans projet pilote indiquent généralement un manque de décision interne et non un manque d'offre."
+    - question: "Puis-je commencer uniquement pour les collections ?"
+      answer: "Oui, si le fournisseur vous permet d'évoluer par modules sans migrer à nouveau. Assurez-vous que les fichiers et les familles atteindront les mêmes données de base."
+    - question: "Que dois-je faire si mon centre est agréé ?"
+      answer: "Prioriser la traçabilité des frais, des bourses et la communication avec l'administration ; Le CRM commercial pèse moins que le CRM privé pur, mais Verifactu et LOPDGDD appliquent la même chose."
 ---
-
 
 <strong>Comment choisir le meilleur logiciel de gestion scolaire</strong>
 

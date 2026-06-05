@@ -3,20 +3,20 @@ title: "ERP escolar: la guía completa para digitalizar la gestión de tu centro
 date: "2026-02-28"
 description: "Qué es un ERP escolar y qué módulos debe incluir. Guía práctica para centros educativos en España (2026)."
 tags: ["ERP escolar", "software gestión colegios", "digitalización", "gestión educativa"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677363463978-1aaeb823b2ac?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - comparativa-software-gestion-escolar-espana-2026
-  - elegir-software-escolar-checklist-directores-2026
-  - mejor-software-gestion-escolar
-  - elegir-software-gestion-escolar
+    - comparativa-software-gestion-escolar-espana-2026
+    - elegir-software-escolar-checklist-directores-2026
+    - mejor-software-gestion-escolar
+    - elegir-software-gestion-escolar
 faqs:
-  - question: "¿Un ERP escolar sustituye a varios sistemas?"
-    answer: "Sí. Un ERP escolar bien elegido puede reemplazar hojas de cálculo, software de facturación aislado, herramientas de comunicación dispersas y parte de la gestión de expedientes. El objetivo es tener un núcleo unificado."
-  - question: "¿El software de gestión para colegios incluye facturación electrónica?"
-    answer: "Los ERP escolar modernos suelen incluir o integrar facturación electrónica y Verifactu. Comprueba que tu proveedor esté preparado o en vía de adaptación antes de firmar."
-  - question: "¿Cuánto tarda la implantación de un ERP escolar?"
-    answer: "Depende del punto de partida y del alcance. Un piloto con facturación y familias puede estar operativo en unas semanas; una implantación completa con migración de datos puede llevar varios meses. Planifica por fases."
+    - question: "¿Un ERP escolar sustituye a varios sistemas?"
+      answer: "Sí. Un ERP escolar bien elegido puede reemplazar hojas de cálculo, software de facturación aislado, herramientas de comunicación dispersas y parte de la gestión de expedientes. El objetivo es tener un núcleo unificado."
+    - question: "¿El software de gestión para colegios incluye facturación electrónica?"
+      answer: "Los ERP escolar modernos suelen incluir o integrar facturación electrónica y Verifactu. Comprueba que tu proveedor esté preparado o en vía de adaptación antes de firmar."
+    - question: "¿Cuánto tarda la implantación de un ERP escolar?"
+      answer: "Depende del punto de partida y del alcance. Un piloto con facturación y familias puede estar operativo en unas semanas; una implantación completa con migración de datos puede llevar varios meses. Planifica por fases."
 ---
 
 <strong>ERP escolar: la guía completa para digitalizar la gestión de tu centro educativo</strong>

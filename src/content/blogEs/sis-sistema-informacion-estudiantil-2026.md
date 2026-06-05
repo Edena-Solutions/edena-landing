@@ -3,20 +3,20 @@ title: "Qué es un SIS (Sistema de Información Estudiantil) y por qué tu centr
 date: "2026-02-27"
 description: "SIS vs ERP: cuándo basta un SIS y cuándo hace falta plataforma integral. Guía práctica para centros educativos en España (2026)."
 tags: ["SIS escolar", "sistema de información estudiantil", "gestión escolar", "centros educativos"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
 relatedPosts:
-  - comparativa-software-gestion-escolar-espana-2026
-  - elegir-software-escolar-checklist-directores-2026
-  - mejor-software-gestion-escolar
-  - elegir-software-gestion-escolar
+    - comparativa-software-gestion-escolar-espana-2026
+    - elegir-software-escolar-checklist-directores-2026
+    - mejor-software-gestion-escolar
+    - elegir-software-gestion-escolar
 faqs:
-  - question: "¿Un SIS escolar es lo mismo que un ERP educativo?"
-    answer: "No exactamente. Un SIS se centra en la información estudiantil (expedientes, asistencia, comunicación). Un ERP escolar suele incluir además facturación, recursos humanos, inventario y otros módulos. Muchas plataformas integran SIS y ERP en una sola solución."
-  - question: "¿El sistema de información estudiantil debe incluir app para familias?"
-    answer: "Es muy recomendable. Las familias esperan consultar asistencia, pagos y comunicaciones desde el móvil. Un SIS escolar con portal o app para familias mejora la satisfacción y reduce consultas a secretaría."
-  - question: "¿Cómo se migran los datos al nuevo SIS?"
-    answer: "La mayoría de proveedores ofrecen importación desde Excel o sistemas previos. Exige un plan por fases, validación de datos críticos y un periodo de coexistencia si hace falta."
+    - question: "¿Un SIS escolar es lo mismo que un ERP educativo?"
+      answer: "No exactamente. Un SIS se centra en la información estudiantil (expedientes, asistencia, comunicación). Un ERP escolar suele incluir además facturación, recursos humanos, inventario y otros módulos. Muchas plataformas integran SIS y ERP en una sola solución."
+    - question: "¿El sistema de información estudiantil debe incluir app para familias?"
+      answer: "Es muy recomendable. Las familias esperan consultar asistencia, pagos y comunicaciones desde el móvil. Un SIS escolar con portal o app para familias mejora la satisfacción y reduce consultas a secretaría."
+    - question: "¿Cómo se migran los datos al nuevo SIS?"
+      answer: "La mayoría de proveedores ofrecen importación desde Excel o sistemas previos. Exige un plan por fases, validación de datos críticos y un periodo de coexistencia si hace falta."
 ---
 
 Qué es un SIS (Sistema de Información Estudiantil) y por qué tu centro educativo necesita uno en 2026

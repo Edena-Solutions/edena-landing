@@ -9,24 +9,24 @@ tags:
     - "reduce administrative tasks"
     - "school time management"
     - "Eden"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - automation-school-absenteeism
-  - ai-school-administration-cases
-  - administrative-processes-automate-school
-  - automated-administrative-tasks
+    - automation-school-absenteeism
+    - ai-school-administration-cases
+    - administrative-processes-automate-school
+    - automated-administrative-tasks
 faqs:
-  - question: "Are 15 hours realistic for a small school with less than 100 students?"
-    answer: "Yes, although the breakdown changes. In small centers, time is wasted more on manual collection tasks and one-on-one communication. A pilot of receipt automation and a digital registration form can recover between six and ten hours per week in two months, depending on the volume and discipline of use."
-  - question: "Do I need all the modules to see the savings?"
-    answer: "No. Start with the block that generates the most friction: if it is the collections, the billing module. If it is the registration, the CRM with forms. If it is communication, evaluate if the basic one is sufficient before hiring Pro. The savings appear when the parallel channel is closed, not when modules are accumulated."
-  - question: "How long does it take the team to adapt to the change?"
-    answer: "Between two and six weeks depending on frequency of use and training. Teams that have a designated internal leader and a simple guide for everyday use adapt much faster than those that start on their own. Edena includes onboarding and 24/7 support to accompany that transition."
-  - question: "Does saving time mean reducing staff?"
-    answer: "Not necessarily. In most centers, the recovered time is redirected towards quality care for families, improvement projects or recruitment. Efficiency is not an excuse to reduce staff: it is an argument to do more useful and less repetitive work."
-  - question: "How do I convince management that the investment pays off?"
-    answer: "With your own data: record two weeks of process times beforehand, estimate the secretarial hourly cost and calculate the return after twelve months. In most cases, the default reduction alone covers the cost of the billing module. Add the value of the recovered time and the argument is simple."
+    - question: "Are 15 hours realistic for a small school with less than 100 students?"
+      answer: "Yes, although the breakdown changes. In small centers, time is wasted more on manual collection tasks and one-on-one communication. A pilot of receipt automation and a digital registration form can recover between six and ten hours per week in two months, depending on the volume and discipline of use."
+    - question: "Do I need all the modules to see the savings?"
+      answer: "No. Start with the block that generates the most friction: if it is the collections, the billing module. If it is the registration, the CRM with forms. If it is communication, evaluate if the basic one is sufficient before hiring Pro. The savings appear when the parallel channel is closed, not when modules are accumulated."
+    - question: "How long does it take the team to adapt to the change?"
+      answer: "Between two and six weeks depending on frequency of use and training. Teams that have a designated internal leader and a simple guide for everyday use adapt much faster than those that start on their own. Edena includes onboarding and 24/7 support to accompany that transition."
+    - question: "Does saving time mean reducing staff?"
+      answer: "Not necessarily. In most centers, the recovered time is redirected towards quality care for families, improvement projects or recruitment. Efficiency is not an excuse to reduce staff: it is an argument to do more useful and less repetitive work."
+    - question: "How do I convince management that the investment pays off?"
+      answer: "With your own data: record two weeks of process times beforehand, estimate the secretarial hourly cost and calculate the return after twelve months. In most cases, the default reduction alone covers the cost of the billing module. Add the value of the recovered time and the argument is simple."
 ---
 
 <strong>How to save 15 hours a week in school administration</strong>

@@ -3,20 +3,20 @@ title: "Apps móviles en educación: La experiencia digital en tu bolsillo"
 date: "2025-04-15"
 description: "Rol de la app móvil en la relación escuela-familia. Guía práctica para centros educativos en España (2026)."
 tags: ["apps móviles", "experiencia digital", "acceso instantáneo", "tecnología"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1584206863352-ce8b3a1c10e3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - app-familias-colegios-ventajas-2026
-  - comunicacion-colegio-familias-plataforma-digital
-  - comunicacion-digital-centros-educativos
-  - comunicacion-familias-era-digital
+    - app-familias-colegios-ventajas-2026
+    - comunicacion-colegio-familias-plataforma-digital
+    - comunicacion-digital-centros-educativos
+    - comunicacion-familias-era-digital
 faqs:
-  - question: "¿Es legal usar WhatsApp con familias?"
-    answer: "Con consentimiento y criterio, para coordinación; no sustituye canal institucional trazable."
-  - question: "¿App obligatoria para todas las familias?"
-    answer: "Recomendable con alternativa para quien no pueda; comunicación equitativa es obligatoria."
-  - question: "¿Notificaciones push sin saturar?"
-    answer: "Urgencias en push; informativo en bandeja digestiva o email resumen."
+    - question: "¿Es legal usar WhatsApp con familias?"
+      answer: "Con consentimiento y criterio, para coordinación; no sustituye canal institucional trazable."
+    - question: "¿App obligatoria para todas las familias?"
+      answer: "Recomendable con alternativa para quien no pueda; comunicación equitativa es obligatoria."
+    - question: "¿Notificaciones push sin saturar?"
+      answer: "Urgencias en push; informativo en bandeja digestiva o email resumen."
 ---
 
 <strong>Apps móviles en educación: La experiencia digital en tu bolsillo</strong>

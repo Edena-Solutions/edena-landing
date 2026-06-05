@@ -8,20 +8,20 @@ tags:
     - "digital transformation"
     - "educational technology"
     - "Spain 2026"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - innovative-pedagogical-methodologies
-  - pedagogical-innovation-technology
-  - digital-assessment-evaluation-education
-  - future-educational-spaces-design
+    - innovative-pedagogical-methodologies
+    - pedagogical-innovation-technology
+    - digital-assessment-evaluation-education
+    - future-educational-spaces-design
 faqs:
-  - question: "What is the DigEdu Plan and why is it crucial in 2026?"
-    answer: "The DigEdu Plan is the most important government strategy for the digitalization of the Spanish education system, funded by the EU Recovery and Resilience Mechanism. It is structured into two complementary programs that are transforming the technological infrastructure and digital skills of the entire educational community. The #EcoDigEdu program, with 989 million euros of investment, is equipping educational centers with the technology necessary for the education of the future. For its part, the #CompDigEdu program, with 301 million euros, is training and certifying hundreds of thousands of teachers in advanced digital skills. This massive investment is not just a technological modernization; It is a paradigm shift that is redefining how we understand education in 2026. The centers that now adapt to this transformation are positioning themselves as leaders in the education sector."
-  - question: "Does DigEdu require specific software?"
-    answer: "No; requires safety criteria and teaching competence."
-  - question: "Public aid?"
-    answer: "Consult regional calls; Document project and privacy."
+    - question: "What is the DigEdu Plan and why is it crucial in 2026?"
+      answer: "The DigEdu Plan is the most important government strategy for the digitalization of the Spanish education system, funded by the EU Recovery and Resilience Mechanism. It is structured into two complementary programs that are transforming the technological infrastructure and digital skills of the entire educational community. The #EcoDigEdu program, with 989 million euros of investment, is equipping educational centers with the technology necessary for the education of the future. For its part, the #CompDigEdu program, with 301 million euros, is training and certifying hundreds of thousands of teachers in advanced digital skills. This massive investment is not just a technological modernization; It is a paradigm shift that is redefining how we understand education in 2026. The centers that now adapt to this transformation are positioning themselves as leaders in the education sector."
+    - question: "Does DigEdu require specific software?"
+      answer: "No; requires safety criteria and teaching competence."
+    - question: "Public aid?"
+      answer: "Consult regional calls; Document project and privacy."
 ---
 
 <strong>DigEdu 2026 Plan: The Digital Transformation that Improves Education in Spain</strong>

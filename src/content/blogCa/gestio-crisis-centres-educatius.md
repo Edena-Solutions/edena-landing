@@ -7,22 +7,21 @@ tags:
     - "protocols"
     - "continuïtat educativa"
     - "seguretat escolar"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1585829364536-ce348dd72ebc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - seo-centres-educatius
-  - marketing-educatiu-digital-estrategies
-  - lideratge-educatiu-transformacional-digital
-  - gestio-canvi-organitzacional-educatiu
+    - seo-centres-educatius
+    - marketing-educatiu-digital-estrategies
+    - lideratge-educatiu-transformacional-digital
+    - gestio-canvi-organitzacional-educatiu
 faqs:
-  - question: "Protocol digital en crisi?"
-    answer: "Canal únic, plantilles preaprovades, backup de llistats de contacte fora del centre."
-  - question: "Continuïtat educativa?"
-    answer: "Accés remot a horaris i comunicats si ledifici tanca temporalment."
-  - question: "Comunicar famílies?"
-    answer: "Rapidesa, fets verificats, una veu institucional."
+    - question: "Protocol digital en crisi?"
+      answer: "Canal únic, plantilles preaprovades, backup de llistats de contacte fora del centre."
+    - question: "Continuïtat educativa?"
+      answer: "Accés remot a horaris i comunicats si ledifici tanca temporalment."
+    - question: "Comunicar famílies?"
+      answer: "Rapidesa, fets verificats, una veu institucional."
 ---
-
 
 <strong>Gestió de crisis en centres educatius: Protocols i estratègies per a la continuïtat</strong>
 

@@ -3,28 +3,29 @@ title: "Gestion documentaire dans les écoles : fini le papier et les dossiers p
 date: "2026-04-01"
 description: "Dossier numérique, dossiers cloud et droits par rôle : réduisez le risque et les heures avec une plateforme unifiée pour les établissements scolaires."
 tags:
- [
- "gestion documentaire scolaire",
- "dossier numérique",
- "papier école",
- "documents familles",
- "GDPR établissements",
- "cloud éducatif",
- ]
-author: "Équipe Edena"
+    [
+        "gestion documentaire scolaire",
+        "dossier numérique",
+        "papier école",
+        "documents familles",
+        "GDPR établissements",
+        "cloud éducatif",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576836165612-8bc9b07e7778?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 faqs:
-  - question: "Le module Cloud est-il obligatoire pour avoir un dossier numérique ?"
-    answer: "Non. La plateforme de base inclut le dossier numérique avec les données, l'historique et l'organigramme. Le module Cloud ajoute un référentiel de fichiers, des dossiers et une visibilité granulaire. Évaluez avec votre équipe le volume et le type de documents avant de souscrire à un module qui resterait vide de contenu et de discipline."
-  - question: "Peut-on demander aux familles de téléverser les documents sur le portail plutôt que de les apporter en papier ?"
-    answer: "Oui, avec une transition. Cela nécessite une communication claire, un guide de téléversement, une alternative pour les familles peu à l'aise avec le numérique, et un accord interne sur ce qui se passe si le document arrive en papier. Ce n'est pas un décret : c'est un changement de processus qui nécessite un accompagnement."
-  - question: "Comment gérer un document qui ne peut plus être partagé en raison du GDPR ?"
-    answer: "Selon les critères de votre DPO : suppression logique ou physique dans le délai défini, avec enregistrement de l'action. La plateforme facilite le contrôle d'accès, mais la décision de quoi supprimer et quand appartient au responsable du traitement de l'établissement, pas au logiciel."
-  - question: "Que se passe-t-il avec les documents quand un élève quitte ou est transféré ?"
-    answer: "Cela dépend de votre politique et de la réglementation applicable : certains documents suivent le dossier de l'élève, d'autres sont conservés pour la durée légale puis détruits. Définissez le protocole avant que le premier départ ne se produise, pas après."
-  - question: "Le module Cloud d'Edena convient-il aussi pour les documents internes de l'équipe enseignante ?"
-    answer: "Les dossiers et la visibilité peuvent être configurés par groupe ou élève. Pour la documentation interne de l'équipe enseignante, il convient de définir une structure de droits séparée avec ses propres critères, en vérifiant avec votre interlocuteur d'implémentation quels flux le module souscrit supporte."
+    - question: "Le module Cloud est-il obligatoire pour avoir un dossier numérique ?"
+      answer: "Non. La plateforme de base inclut le dossier numérique avec les données, l'historique et l'organigramme. Le module Cloud ajoute un référentiel de fichiers, des dossiers et une visibilité granulaire. Évaluez avec votre équipe le volume et le type de documents avant de souscrire à un module qui resterait vide de contenu et de discipline."
+    - question: "Peut-on demander aux familles de téléverser les documents sur le portail plutôt que de les apporter en papier ?"
+      answer: "Oui, avec une transition. Cela nécessite une communication claire, un guide de téléversement, une alternative pour les familles peu à l'aise avec le numérique, et un accord interne sur ce qui se passe si le document arrive en papier. Ce n'est pas un décret : c'est un changement de processus qui nécessite un accompagnement."
+    - question: "Comment gérer un document qui ne peut plus être partagé en raison du GDPR ?"
+      answer: "Selon les critères de votre DPO : suppression logique ou physique dans le délai défini, avec enregistrement de l'action. La plateforme facilite le contrôle d'accès, mais la décision de quoi supprimer et quand appartient au responsable du traitement de l'établissement, pas au logiciel."
+    - question: "Que se passe-t-il avec les documents quand un élève quitte ou est transféré ?"
+      answer: "Cela dépend de votre politique et de la réglementation applicable : certains documents suivent le dossier de l'élève, d'autres sont conservés pour la durée légale puis détruits. Définissez le protocole avant que le premier départ ne se produise, pas après."
+    - question: "Le module Cloud d'Edena convient-il aussi pour les documents internes de l'équipe enseignante ?"
+      answer: "Les dossiers et la visibilité peuvent être configurés par groupe ou élève. Pour la documentation interne de l'équipe enseignante, il convient de définir une structure de droits séparée avec ses propres critères, en vérifiant avec votre interlocuteur d'implémentation quels flux le module souscrit supporte."
 ---
+
 <strong>Gestion documentaire dans les écoles : fini le papier et les dossiers perdus</strong>
 
 <br>

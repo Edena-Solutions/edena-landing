@@ -3,17 +3,17 @@ title: "Eficiencia operativa en centros educativos: Optimizando recursos con tec
 date: "2024-11-15"
 description: "Descubre cómo la tecnología puede transformar las operaciones de los centros educativos, reduciendo costos y mejorando la calidad del servicio."
 tags: ["eficiencia", "operaciones", "optimización", "costos"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1458007683879-47560d7e33c3?q=80&w=1743&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-digitalizacion-2026
+    - checklist-digitalizacion-2026
 faqs:
-  - question: "¿Cómo medir el éxito del cambio?"
-    answer: "Horas admin semanales, tasa de error en facturación o tiempo medio de alta de familia nueva."
-  - question: "¿Por qué proceso empiezo a automatizar?"
-    answer: "Cobros recurrentes y asistencia suelen ser los de mayor retorno inmediato en horas y errores evitados."
-  - question: "¿Cuánto dura un piloto razonable?"
-    answer: "Entre 8 y 12 semanas, con un ciclo real de facturación o admisión y criterio de éxito escrito."
+    - question: "¿Cómo medir el éxito del cambio?"
+      answer: "Horas admin semanales, tasa de error en facturación o tiempo medio de alta de familia nueva."
+    - question: "¿Por qué proceso empiezo a automatizar?"
+      answer: "Cobros recurrentes y asistencia suelen ser los de mayor retorno inmediato en horas y errores evitados."
+    - question: "¿Cuánto dura un piloto razonable?"
+      answer: "Entre 8 y 12 semanas, con un ciclo real de facturación o admisión y criterio de éxito escrito."
 ---
 
 <strong>Eficiencia operativa en centros educativos: Optimizando recursos con tecnología</strong>

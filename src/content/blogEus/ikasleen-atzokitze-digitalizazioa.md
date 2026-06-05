@@ -7,26 +7,25 @@ tags:
     - "digitalizazioa"
     - "hezkuntza zentroak"
     - "administrazioa"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop"
 relatedPosts:
-  - matrikula-online-urratsez-2026
-  - eskola-crm-matrikulak-bihurketak-2026
-  - familia-digital-onboarding-matrikula-online
-  - ikasle-atzokitzea-garai-digitalan
+    - matrikula-online-urratsez-2026
+    - eskola-crm-matrikulak-bihurketak-2026
+    - familia-digital-onboarding-matrikula-online
+    - ikasle-atzokitzea-garai-digitalan
 faqs:
-  - question: "Eskola atxikipena akademikoaren edo administrazioaren menpe dago gehiago?"
-    answer: "Biak. Akademikoak eta klima erabakigarriak dira; baina administrazio esperientziak (ordainketak, dokumentazioa, komunikazioa) seriotasunaren pertzepzioan eta berritzeko erabakian eragiten du."
-  - question: "Zein eskoletako atxikipen-adierazle jarraitu behar ditut?"
-    answer: "Berritze-tasa etapaka, eratze-urtearen arabera eta, ahal bada, familia edo programa motaren arabera. Lehenetsitako gurutzeak eta arriskua detektatzeko laguntza."
-  - question: "Digitalizazioak okerrera egin dezake familiekin harremana?"
-    answer: "Hotz edo masiboki erabiltzen bada bakarrik. Ongi erabilita (mezu argiak, abisu lagungarriak, akats gutxiago), digitalizazioak pertzepzioa hobetzen du askotan."
-  - question: "Hezkuntza CRM behar al dut atxikipena lantzeko?"
-    answer: "Ez derrigorrez. Kudeaketa software ona familiekin, ordainketak eta alertak nahikoa izan daitezke. CRM batek ukipen-puntu eta salmenta/berritze ziklo konplexu asko daudenean laguntzen du."
-  - question: "Nola konbentzituko diot taldeari kudeaketak atxikipenean eragiten duela?"
-    answer: "Partekatu datuak: ez-ordainketekin edo administrazio-kexekin lotutako ezeztapenak, eta atxikipenaren bilakaera prozesuen aldaketen aurretik eta ondoren. Zenbakiek lehentasunak lerrokatzen laguntzen dute."
+    - question: "Eskola atxikipena akademikoaren edo administrazioaren menpe dago gehiago?"
+      answer: "Biak. Akademikoak eta klima erabakigarriak dira; baina administrazio esperientziak (ordainketak, dokumentazioa, komunikazioa) seriotasunaren pertzepzioan eta berritzeko erabakian eragiten du."
+    - question: "Zein eskoletako atxikipen-adierazle jarraitu behar ditut?"
+      answer: "Berritze-tasa etapaka, eratze-urtearen arabera eta, ahal bada, familia edo programa motaren arabera. Lehenetsitako gurutzeak eta arriskua detektatzeko laguntza."
+    - question: "Digitalizazioak okerrera egin dezake familiekin harremana?"
+      answer: "Hotz edo masiboki erabiltzen bada bakarrik. Ongi erabilita (mezu argiak, abisu lagungarriak, akats gutxiago), digitalizazioak pertzepzioa hobetzen du askotan."
+    - question: "Hezkuntza CRM behar al dut atxikipena lantzeko?"
+      answer: "Ez derrigorrez. Kudeaketa software ona familiekin, ordainketak eta alertak nahikoa izan daitezke. CRM batek ukipen-puntu eta salmenta/berritze ziklo konplexu asko daudenean laguntzen du."
+    - question: "Nola konbentzituko diot taldeari kudeaketak atxikipenean eragiten duela?"
+      answer: "Partekatu datuak: ez-ordainketekin edo administrazio-kexekin lotutako ezeztapenak, eta atxikipenaren bilakaera prozesuen aldaketen aurretik eta ondoren. Zenbakiek lehentasunak lerrokatzen laguntzen dute."
 ---
-
 
 <strong>Digitalizazio administratiboak ikasleen atxikipenean duen eragina</strong>
 
@@ -139,11 +138,11 @@ Bisita baten ondoren edo onartutako proposamenaren ondoren, fluxu digital berean
 
 <br>
 
-1) Administrazio esperientziak familien geratzeko edo irteteko erabakia eragiten du.
-2) Eskolaren atxikipena hobetzen da ordainketa, asistentzia eta gorabeheren araberako alerta goiztiarrekin.
-3) Komunikazio segmentatuek eta abisu erabilgarriak gaizki-ulertuak eta kaos sentimenduak murrizten dituzte.
-4) Etapa edo kohorteen araberako atxikipena neurtzeak ekintzak lehenesteko aukera ematen du.
-5) Erregistroa berritzeko prozesua berrikustea eta sinplifikatzea atxikipen zuzeneko palanka da.
+1. Administrazio esperientziak familien geratzeko edo irteteko erabakia eragiten du.
+2. Eskolaren atxikipena hobetzen da ordainketa, asistentzia eta gorabeheren araberako alerta goiztiarrekin.
+3. Komunikazio segmentatuek eta abisu erabilgarriak gaizki-ulertuak eta kaos sentimenduak murrizten dituzte.
+4. Etapa edo kohorteen araberako atxikipena neurtzeak ekintzak lehenesteko aukera ematen du.
+5. Erregistroa berritzeko prozesua berrikustea eta sinplifikatzea atxikipen zuzeneko palanka da.
 
 Ikusi nahi duzu nola hobetu zure zentroaren atxikipena datuekin eta prozesu digitalekin? Eskatu demo bat eta elkarrekin aztertuko ditugu adierazleak, familiekin komunikazioa eta berritze fluxuak.
 

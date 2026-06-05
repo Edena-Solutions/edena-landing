@@ -3,24 +3,24 @@ title: "Cómo elegir el mejor software de gestión escolar"
 date: "2026-02-03"
 description: "Errores frecuentes y criterios de decisión al elegir ERP. Guía práctica para centros educativos en España (2026)."
 tags: ["software gestión escolar", "centros educativos", "selección", "digitalización"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop"
 relatedPosts:
-  - comparativa-software-gestion-escolar-espana-2026
-  - elegir-software-escolar-checklist-directores-2026
-  - elegir-software-gestion-escolar
-  - erp-escolar-guia-digitalizacion
+    - comparativa-software-gestion-escolar-espana-2026
+    - elegir-software-escolar-checklist-directores-2026
+    - elegir-software-gestion-escolar
+    - erp-escolar-guia-digitalizacion
 faqs:
-  - question: "¿Cuánto cuesta implantar un software de gestión escolar?"
-    answer: "Depende del tamaño del centro y del alcance. Además de la licencia, hay que contar formación, migración de datos y posible personalización. Compara coste total a 3 años."
-  - question: "¿Puedo migrar datos del sistema actual?"
-    answer: "La mayoría de proveedores ofrecen importación desde Excel o sistemas previos. Exige un plan de migración por fases y validación de datos críticos."
-  - question: "¿El software de gestión escolar incluye app para familias?"
-    answer: "No todos. Si la comunicación con familias es prioritaria, verifica app o portal y notificaciones (recordatorios de pago, ausencias, circulares)."
-  - question: "¿Qué pasa con la facturación electrónica y Verifactu?"
-    answer: "En España, la normativa avanza. El mejor software de gestión escolar para centros debe estar preparado o en vía de adaptación; compruébalo antes de firmar."
-  - question: "¿Conviene un software modular o todo en uno?"
-    answer: "Depende de si ya tienes herramientas que quieres mantener (por ejemplo, plataforma académica). Un núcleo unificado (facturación, familias, administración) suele simplificar el día a día."
+    - question: "¿Cuánto cuesta implantar un software de gestión escolar?"
+      answer: "Depende del tamaño del centro y del alcance. Además de la licencia, hay que contar formación, migración de datos y posible personalización. Compara coste total a 3 años."
+    - question: "¿Puedo migrar datos del sistema actual?"
+      answer: "La mayoría de proveedores ofrecen importación desde Excel o sistemas previos. Exige un plan de migración por fases y validación de datos críticos."
+    - question: "¿El software de gestión escolar incluye app para familias?"
+      answer: "No todos. Si la comunicación con familias es prioritaria, verifica app o portal y notificaciones (recordatorios de pago, ausencias, circulares)."
+    - question: "¿Qué pasa con la facturación electrónica y Verifactu?"
+      answer: "En España, la normativa avanza. El mejor software de gestión escolar para centros debe estar preparado o en vía de adaptación; compruébalo antes de firmar."
+    - question: "¿Conviene un software modular o todo en uno?"
+      answer: "Depende de si ya tienes herramientas que quieres mantener (por ejemplo, plataforma académica). Un núcleo unificado (facturación, familias, administración) suele simplificar el día a día."
 ---
 
 <strong>Cómo elegir el mejor software de gestión escolar para tu centro educativo</strong>

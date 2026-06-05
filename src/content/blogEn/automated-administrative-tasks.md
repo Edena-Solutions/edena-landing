@@ -7,20 +7,20 @@ tags:
     - "administrative processes"
     - "efficiency"
     - "education"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - save-15-hours-school-admin-2026
-  - automation-school-absenteeism
-  - ai-school-administration-cases
-  - administrative-processes-automate-school
+    - save-15-hours-school-admin-2026
+    - automation-school-absenteeism
+    - ai-school-administration-cases
+    - administrative-processes-automate-school
 faqs:
-  - question: "What NOT to automate?"
-    answer: "Disciplinary decisions, delicate family situations, scholarship exceptions."
-  - question: "How long does it take to see the savings?"
-    answer: "First 4-6 weeks after minimum training per role."
-  - question: "Risk of massive errors?"
-    answer: "Yes if you don't try rules; Start with a pilot course."
+    - question: "What NOT to automate?"
+      answer: "Disciplinary decisions, delicate family situations, scholarship exceptions."
+    - question: "How long does it take to see the savings?"
+      answer: "First 4-6 weeks after minimum training per role."
+    - question: "Risk of massive errors?"
+      answer: "Yes if you don't try rules; Start with a pilot course."
 ---
 
 <strong>Automation of administrative tasks: Free up time for education</strong>

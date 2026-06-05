@@ -7,20 +7,20 @@ tags:
     - "diseño arquitectónico"
     - "innovación"
     - "aprendizaje flexible"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579388654549-1f4e8c79b5a4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - pedagogia-metodologia-berragarriak
-  - pedagogia-berrikuntza-teknologia
-  - hezkuntzako-ebaluazio-digitala
-  - ikasleen-ongizate-emozional-digitala
+    - pedagogia-metodologia-berragarriak
+    - pedagogia-berrikuntza-teknologia
+    - hezkuntzako-ebaluazio-digitala
+    - ikasleen-ongizate-emozional-digitala
 faqs:
-  - question: "Malgutasunak teknologia gehiago behar al du?"
-    answer: "Ez zertan; bai konektibitate egonkorra eta frogak gordetzeko modu seguruan."
-  - question: "Nola lotu espazioa eta LOMLOE?"
-    answer: "Ikasten ikasteko gaitasunak eta autonomia ingurune ezberdinetan."
-  - question: "Admin digitalizatu gabe ikasgeletan inbertitu?"
-    answer: "Ikasgela hobetzen da; Zentroaren pertzepzio orokorrak idazkaritzari lotuta jarraitzen du."
+    - question: "Malgutasunak teknologia gehiago behar al du?"
+      answer: "Ez zertan; bai konektibitate egonkorra eta frogak gordetzeko modu seguruan."
+    - question: "Nola lotu espazioa eta LOMLOE?"
+      answer: "Ikasten ikasteko gaitasunak eta autonomia ingurune ezberdinetan."
+    - question: "Admin digitalizatu gabe ikasgeletan inbertitu?"
+      answer: "Ikasgela hobetzen da; Zentroaren pertzepzio orokorrak idazkaritzari lotuta jarraitzen du."
 ---
 
 <strong>Etorkizuneko hezkuntza espazioak: ikaskuntza modernorako diseinua eta berrikuntza</strong>

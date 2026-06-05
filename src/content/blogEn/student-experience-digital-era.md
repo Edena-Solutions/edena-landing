@@ -7,19 +7,18 @@ tags:
     - "personalization"
     - "engagement"
     - "technology"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576633587217-5c9b4930956b?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalization-checklist-2026
+    - digitalization-checklist-2026
 faqs:
-  - question: "Where do I start digitization?"
-    answer: "Clean master data, traceable charges and official family channel before expanding classroom tools."
-  - question: "Is cloud software safe for minors?"
-    answer: "It can be with custom contract, encryption and documented subprocessors. The center remains responsible."
-  - question: "How much time does management dedicate to the project?"
-    answer: "30-45 minutes a week in the first twelve weeks is usually enough to unlock without micromanaging."
+    - question: "Where do I start digitization?"
+      answer: "Clean master data, traceable charges and official family channel before expanding classroom tools."
+    - question: "Is cloud software safe for minors?"
+      answer: "It can be with custom contract, encryption and documented subprocessors. The center remains responsible."
+    - question: "How much time does management dedicate to the project?"
+      answer: "30-45 minutes a week in the first twelve weeks is usually enough to unlock without micromanaging."
 ---
-
 
 <strong>Student experience in the digital age: Beyond traditional learning</strong>
 

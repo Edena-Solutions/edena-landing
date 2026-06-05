@@ -4,20 +4,20 @@ date: "2026-03-09"
 description: "Vista docente/tutor del expediente académico unificado. Guía práctica para centros educativos en España (2026)."
 tags:
     ["expediente académico digital", "gestión de estudiantes colegio", "SIS", "centros educativos"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1769074257962-c297d5908fd5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2VudHJhbGl6ZWR8ZW58MHx8MHx8fDA%3D"
 relatedPosts:
-  - gestion-documental-colegios-expediente-digital-2026
-  - gestion-documental-digital-centros
+    - gestion-documental-colegios-expediente-digital-2026
+    - gestion-documental-digital-centros
 faqs:
-  - question: "¿El expediente académico digital cumple con el GDPR?"
-    answer: "Sí, si el sistema tiene medidas de seguridad (acceso restringido, cifrado, auditoría) y el proveedor actúa como encargado del tratamiento. La gestión de estudiantes en colegio con datos sensibles exige cumplimiento normativo."
-  - question: "¿Quién puede acceder al expediente académico digital?"
-    answer: "Depende de los permisos configurados. Secretaría, dirección y profesores del alumno suelen tener acceso. La gestión de estudiantes en colegio debe permitir perfiles por rol para cumplir el principio de mínimo acceso."
-  - question: "¿Las familias pueden ver el expediente académico digital?"
-    answer: "Pueden ver la información que les corresponde (asistencia, comunicaciones, documentación que hayan firmado). El expediente académico digital completo suele ser interno. La gestión de estudiantes en colegio con portal para familias permite transparencia controlada."
-  - question: "¿Digitalizar todo el archivo histórico?"
-    answer: "Priorizad curso actual y documentos activos; el histórico por fases."
+    - question: "¿El expediente académico digital cumple con el GDPR?"
+      answer: "Sí, si el sistema tiene medidas de seguridad (acceso restringido, cifrado, auditoría) y el proveedor actúa como encargado del tratamiento. La gestión de estudiantes en colegio con datos sensibles exige cumplimiento normativo."
+    - question: "¿Quién puede acceder al expediente académico digital?"
+      answer: "Depende de los permisos configurados. Secretaría, dirección y profesores del alumno suelen tener acceso. La gestión de estudiantes en colegio debe permitir perfiles por rol para cumplir el principio de mínimo acceso."
+    - question: "¿Las familias pueden ver el expediente académico digital?"
+      answer: "Pueden ver la información que les corresponde (asistencia, comunicaciones, documentación que hayan firmado). El expediente académico digital completo suele ser interno. La gestión de estudiantes en colegio con portal para familias permite transparencia controlada."
+    - question: "¿Digitalizar todo el archivo histórico?"
+      answer: "Priorizad curso actual y documentos activos; el histórico por fases."
 ---
 
 <strong>Cómo centralizar toda la información del alumno en un único sistema</strong>

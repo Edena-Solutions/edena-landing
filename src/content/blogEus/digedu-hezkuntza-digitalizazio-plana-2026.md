@@ -8,22 +8,21 @@ tags:
     - "eraldaketa digitala"
     - "hezkuntza teknologia"
     - "Espainia 2026"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - pedagogia-metodologia-berragarriak
-  - pedagogia-berrikuntza-teknologia
-  - hezkuntzako-ebaluazio-digitala
-  - etorkizuneko-hezkuntza-espazioen-diseinua
+    - pedagogia-metodologia-berragarriak
+    - pedagogia-berrikuntza-teknologia
+    - hezkuntzako-ebaluazio-digitala
+    - etorkizuneko-hezkuntza-espazioen-diseinua
 faqs:
-  - question: "Zer da DigEdu plana eta zergatik da erabakigarria 2026an?"
-    answer: "DigEdu plana Espainiako hezkuntza sistema digitalizatzeko gobernu-estrategia garrantzitsuena da, EBko Susperraldi eta Erresilientzia Mekanismoak finantzatua. Hezkuntza komunitate osoaren azpiegitura teknologikoak eta gaitasun digitalak eraldatzen ari diren bi programa osagarritan egituratuta dago. #EcoDigEdu programa, 989 milioi euroko inbertsioarekin, hezkuntza zentroak etorkizuneko hezkuntzarako beharrezkoa den teknologiaz hornitzen ari da. Bere aldetik, #CompDigEdu programak, 301 milioi eurorekin, ehunka mila irakasle trebatzen eta ziurtatzen ari da gaitasun digital aurreratuan. Inbertsio masibo hau ez da modernizazio teknologiko bat soilik; 2026an hezkuntza nola ulertzen dugun birdefinitzen ari den paradigma aldaketa da. Gaur egun eraldaketa horretara egokitzen diren zentroak hezkuntza sektoreko lider gisa kokatzen ari dira."
-  - question: "DigEdu-k software zehatza behar al du?"
-    answer: "Ez; segurtasun irizpideak eta irakaskuntzarako gaitasuna eskatzen ditu."
-  - question: "Laguntza publikoak?"
-    answer: "Eskualdeko deialdiak kontsultatu; Dokumentu proiektua eta pribatutasuna."
+    - question: "Zer da DigEdu plana eta zergatik da erabakigarria 2026an?"
+      answer: "DigEdu plana Espainiako hezkuntza sistema digitalizatzeko gobernu-estrategia garrantzitsuena da, EBko Susperraldi eta Erresilientzia Mekanismoak finantzatua. Hezkuntza komunitate osoaren azpiegitura teknologikoak eta gaitasun digitalak eraldatzen ari diren bi programa osagarritan egituratuta dago. #EcoDigEdu programa, 989 milioi euroko inbertsioarekin, hezkuntza zentroak etorkizuneko hezkuntzarako beharrezkoa den teknologiaz hornitzen ari da. Bere aldetik, #CompDigEdu programak, 301 milioi eurorekin, ehunka mila irakasle trebatzen eta ziurtatzen ari da gaitasun digital aurreratuan. Inbertsio masibo hau ez da modernizazio teknologiko bat soilik; 2026an hezkuntza nola ulertzen dugun birdefinitzen ari den paradigma aldaketa da. Gaur egun eraldaketa horretara egokitzen diren zentroak hezkuntza sektoreko lider gisa kokatzen ari dira."
+    - question: "DigEdu-k software zehatza behar al du?"
+      answer: "Ez; segurtasun irizpideak eta irakaskuntzarako gaitasuna eskatzen ditu."
+    - question: "Laguntza publikoak?"
+      answer: "Eskualdeko deialdiak kontsultatu; Dokumentu proiektua eta pribatutasuna."
 ---
-
 
 <strong>DigEdu 2026 plana: Espainian hezkuntza hobetzen duen eraldaketa digitala</strong>
 

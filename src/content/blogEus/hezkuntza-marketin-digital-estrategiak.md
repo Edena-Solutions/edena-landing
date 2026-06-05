@@ -7,21 +7,21 @@ tags:
     - "marketin digitala"
     - "familien erakarpena"
     - "komunikazio instituzionala"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - hezkuntza-zentro-seo
-  - eskola-crm-matrikulak-bihurketak-2026
-  - matrikula-online-urratsez-2026
+    - hezkuntza-zentro-seo
+    - eskola-crm-matrikulak-bihurketak-2026
+    - matrikula-online-urratsez-2026
 faqs:
-  - question: "Zenbat inbertitu marketin digitalean eskola ertain batek?"
-    answer: "Asko konpontzen da web ona, Google Business eta CRM-rekin iragarki masiborik gabe. Neurtu irekitako matrikula bakoitzeko kostua."
-  - question: "Eskolen konparaketa-portaletan egon behar al naiz?"
-    answer: "Konparatu matrikula kostua SEO lokalaren eta erreferentziaren aldean. Eskatu portalari lead kalitatearen datuak."
-  - question: "Open Day soilik presentziala?"
-    answer: "Eskain streaming edo bisita birtual data finkoan ezin diren lead-ak galtzeko."
-  - question: "Nola lerrokatu marketina idazkaritzarekin?"
-    answer: "Kuoten eta zerbitzuen informazio bera webgunean, bisitan eta kontratuan. ERP-ko egia-iturri bakar batek bete gabeko promesak saihesten ditu."
+    - question: "Zenbat inbertitu marketin digitalean eskola ertain batek?"
+      answer: "Asko konpontzen da web ona, Google Business eta CRM-rekin iragarki masiborik gabe. Neurtu irekitako matrikula bakoitzeko kostua."
+    - question: "Eskolen konparaketa-portaletan egon behar al naiz?"
+      answer: "Konparatu matrikula kostua SEO lokalaren eta erreferentziaren aldean. Eskatu portalari lead kalitatearen datuak."
+    - question: "Open Day soilik presentziala?"
+      answer: "Eskain streaming edo bisita birtual data finkoan ezin diren lead-ak galtzeko."
+    - question: "Nola lerrokatu marketina idazkaritzarekin?"
+      answer: "Kuoten eta zerbitzuen informazio bera webgunean, bisitan eta kontratuan. ERP-ko egia-iturri bakar batek bete gabeko promesak saihesten ditu."
 ---
 
 <strong>Hezkuntza marketin digitala Espainian</strong>

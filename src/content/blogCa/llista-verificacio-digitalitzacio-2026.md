@@ -7,26 +7,25 @@ tags:
     - "checklist"
     - "modernització"
     - "processos"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - estalvi-15-hores-administracio-2026
-  - automatitzacio-absentisme-escolar
-  - ia-gestio-escolar-casos-practics
-  - processos-administratius-automatitzar-col-legi
+    - estalvi-15-hores-administracio-2026
+    - automatitzacio-absentisme-escolar
+    - ia-gestio-escolar-casos-practics
+    - processos-administratius-automatitzar-col-legi
 faqs:
-  - question: "Aquest checklist de digitalització 2026 s'aplica a qualsevol tipus de centre?"
-    answer: "Sí. Els blocs (facturació, famílies, dades, processos, visibilitat) són comuns; el detall s'adapta a la mida, l'etapa educativa i la normativa autonòmica o nacional."
-  - question: "Per on començo si estic molt endarrerit?"
-    answer: "Sol ser prioritari: facturació electrònica si és obligatòria, i després cobrament (pagaments en línia i recordatoris) i comunicació amb famílies. Dades i compliment van en paral·lel per no acumular deute legal."
-  - question: "Necessitem un únic programari per a tot?"
-    answer: "No és obligatori, però un nucli unificat (facturació, famílies, assistència) redueix la duplicació de dades i errors. Les integracions entre sistemes són una alternativa si ja tens eines que vols mantenir."
-  - question: "Quant de temps porta completar el checklist?"
-    answer: "Depèn del punt de partida. Alguns centres resolen el que és crític en un curs; altres distribueixen les accions en dos cursos. L'important és avançar per blocs i no deixar allò normatiu per al final."
-  - question: "Com mantenim el checklist al dia?"
-    answer: "Revisar una vegada a l'any (per exemple, inici de curs) i davant de canvis normatius o de proveïdors. La digitalització de centres educatius 2026 és un procés continu, no pas un projecte puntual."
+    - question: "Aquest checklist de digitalització 2026 s'aplica a qualsevol tipus de centre?"
+      answer: "Sí. Els blocs (facturació, famílies, dades, processos, visibilitat) són comuns; el detall s'adapta a la mida, l'etapa educativa i la normativa autonòmica o nacional."
+    - question: "Per on començo si estic molt endarrerit?"
+      answer: "Sol ser prioritari: facturació electrònica si és obligatòria, i després cobrament (pagaments en línia i recordatoris) i comunicació amb famílies. Dades i compliment van en paral·lel per no acumular deute legal."
+    - question: "Necessitem un únic programari per a tot?"
+      answer: "No és obligatori, però un nucli unificat (facturació, famílies, assistència) redueix la duplicació de dades i errors. Les integracions entre sistemes són una alternativa si ja tens eines que vols mantenir."
+    - question: "Quant de temps porta completar el checklist?"
+      answer: "Depèn del punt de partida. Alguns centres resolen el que és crític en un curs; altres distribueixen les accions en dos cursos. L'important és avançar per blocs i no deixar allò normatiu per al final."
+    - question: "Com mantenim el checklist al dia?"
+      answer: "Revisar una vegada a l'any (per exemple, inici de curs) i davant de canvis normatius o de proveïdors. La digitalització de centres educatius 2026 és un procés continu, no pas un projecte puntual."
 ---
-
 
 <strong>Checklist de digitalització 2026 per modernitzar el teu centre educatiu</strong>
 

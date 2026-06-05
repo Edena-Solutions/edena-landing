@@ -7,26 +7,25 @@ tags:
     - "famílies"
     - "canals"
     - "eines"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1170&auto=format&fit=crop"
 relatedPosts:
-  - app-familles-collegis-avantatges-2026
-  - comunicacio-collegi-families-plataforma-digital
-  - comunicacio-families-era-digital
-  - app-mobil-educacio
+    - app-familles-collegis-avantatges-2026
+    - comunicacio-collegi-families-plataforma-digital
+    - comunicacio-families-era-digital
+    - app-mobil-educacio
 faqs:
-  - question: "És millor una app pròpia o un portal web per a les famílies?"
-    answer: "Depèn del pressupost i de lús. Un portal responsive que funcioni bé en mòbil pot ser suficient; una app nativa pot donar més visibilitat (icona, notificacions) si les famílies la usen amb freqüència."
-  - question: "Les notificacions push substitueixen el correu electrònic?"
-    answer: "No necessàriament. El correu electrònic continua sent útil per a contingut llarg i per a arxiu. Push i SMS són millors per a avisos curts i urgents que requereixen acció ràpida."
-  - question: "Com complim la protecció de dades en enviar missatges massius?"
-    answer: "Usar eines que permetin gestionar consentiments i llistes, no compartir dades amb fins comercials no autoritzats, i donar de baixa a qui ho sol·liciti. El proveïdor ha dactuar com a encarregat del tractament si processa dades per compte del centre."
-  - question: "Què fem amb els grups de WhatsApp de pares?"
-    answer: "No és recomanable fer-los servir com a canal oficial: poc control, risc per a la privadesa i barreja de temes. Millor oferir un canal oficial (portal, notificacions) i deixar WhatsApp per a ús informal si el centre ho considera adequat, amb normes clares."
-  - question: "La comunicació digital en centres educatius requereix molt de manteniment?"
-    answer: "La implantació inicial sí; després, amb plantilles i automatitzacions, el manteniment pot ser baix. Convé revisar cada curs continguts i segmentacions."
+    - question: "És millor una app pròpia o un portal web per a les famílies?"
+      answer: "Depèn del pressupost i de lús. Un portal responsive que funcioni bé en mòbil pot ser suficient; una app nativa pot donar més visibilitat (icona, notificacions) si les famílies la usen amb freqüència."
+    - question: "Les notificacions push substitueixen el correu electrònic?"
+      answer: "No necessàriament. El correu electrònic continua sent útil per a contingut llarg i per a arxiu. Push i SMS són millors per a avisos curts i urgents que requereixen acció ràpida."
+    - question: "Com complim la protecció de dades en enviar missatges massius?"
+      answer: "Usar eines que permetin gestionar consentiments i llistes, no compartir dades amb fins comercials no autoritzats, i donar de baixa a qui ho sol·liciti. El proveïdor ha dactuar com a encarregat del tractament si processa dades per compte del centre."
+    - question: "Què fem amb els grups de WhatsApp de pares?"
+      answer: "No és recomanable fer-los servir com a canal oficial: poc control, risc per a la privadesa i barreja de temes. Millor oferir un canal oficial (portal, notificacions) i deixar WhatsApp per a ús informal si el centre ho considera adequat, amb normes clares."
+    - question: "La comunicació digital en centres educatius requereix molt de manteniment?"
+      answer: "La implantació inicial sí; després, amb plantilles i automatitzacions, el manteniment pot ser baix. Convé revisar cada curs continguts i segmentacions."
 ---
-
 
 <strong>Millorant la comunicació amb famílies: eines digitals més enllà de l'email</strong>
 
@@ -148,11 +147,11 @@ Amb consentiment i criteri, per a coordinació; no substitueix canal institucion
 
 <br>
 
-1) La comunicació digital a centres educatius ha d'incloure un canal que les famílies consultin amb facilitat (portal/app).  
-2) Notificacions push o SMS milloren la lectura d'avisos urgents i recordatoris.  
-3) Segmentar per etapa, servei o condició augmenta la rellevància dels missatges.  
-4) Plantilles i automatització estalvien temps i unifiquen criteris.  
-5) Definir quin canal utilitzar per a cada tipus de missatge evita soroll i millora la resposta.
+1. La comunicació digital a centres educatius ha d'incloure un canal que les famílies consultin amb facilitat (portal/app).
+2. Notificacions push o SMS milloren la lectura d'avisos urgents i recordatoris.
+3. Segmentar per etapa, servei o condició augmenta la rellevància dels missatges.
+4. Plantilles i automatització estalvien temps i unifiquen criteris.
+5. Definir quin canal utilitzar per a cada tipus de missatge evita soroll i millora la resposta.
 
 Vols revisar com millorar la comunicació amb les famílies del teu centre? Demana una demo i veiem canals, segmentació i fluxos que millor s'adapten a la teva realitat.
 

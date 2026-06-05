@@ -8,22 +8,21 @@ tags:
     - "transformation numérique"
     - "technologie éducative"
     - "Espagne 2026"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - methodologies-pedagogiques-innovantes
-  - innovation-pedagogique-technologie
-  - evaluation-numerique-educative
-  - espaces-educatifs-avenir-conception
+    - methodologies-pedagogiques-innovantes
+    - innovation-pedagogique-technologie
+    - evaluation-numerique-educative
+    - espaces-educatifs-avenir-conception
 faqs:
-  - question: "Qu’est-ce que le plan DigEdu et pourquoi est-il crucial en 2026 ?"
-    answer: "Le plan DigEdu est la stratégie gouvernementale la plus importante pour la numérisation du système éducatif espagnol, financée par le mécanisme de relance et de résilience de l'UE. Il est structuré en deux programmes complémentaires qui transforment l'infrastructure technologique et les compétences numériques de l'ensemble de la communauté éducative. Le programme #EcoDigEdu, doté de 989 millions d'euros d'investissement, équipe les établissements scolaires de la technologie nécessaire à l'éducation de demain. De son côté, le programme #CompDigEdu, doté de 301 millions d'euros, forme et certifie des centaines de milliers d'enseignants aux compétences numériques avancées. Cet investissement massif n’est pas seulement une modernisation technologique ; Il s’agit d’un changement de paradigme qui redéfinit notre compréhension de l’éducation en 2026. Les centres qui s’adaptent désormais à cette transformation se positionnent comme leaders du secteur de l’éducation."
-  - question: "DigEdu nécessite-t-il un logiciel spécifique ?"
-    answer: "Non; nécessite des critères de sécurité et des compétences pédagogiques."
-  - question: "Une aide publique ?"
-    answer: "Consulter les appels régionaux; Documenter le projet et la confidentialité."
+    - question: "Qu’est-ce que le plan DigEdu et pourquoi est-il crucial en 2026 ?"
+      answer: "Le plan DigEdu est la stratégie gouvernementale la plus importante pour la numérisation du système éducatif espagnol, financée par le mécanisme de relance et de résilience de l'UE. Il est structuré en deux programmes complémentaires qui transforment l'infrastructure technologique et les compétences numériques de l'ensemble de la communauté éducative. Le programme #EcoDigEdu, doté de 989 millions d'euros d'investissement, équipe les établissements scolaires de la technologie nécessaire à l'éducation de demain. De son côté, le programme #CompDigEdu, doté de 301 millions d'euros, forme et certifie des centaines de milliers d'enseignants aux compétences numériques avancées. Cet investissement massif n’est pas seulement une modernisation technologique ; Il s’agit d’un changement de paradigme qui redéfinit notre compréhension de l’éducation en 2026. Les centres qui s’adaptent désormais à cette transformation se positionnent comme leaders du secteur de l’éducation."
+    - question: "DigEdu nécessite-t-il un logiciel spécifique ?"
+      answer: "Non; nécessite des critères de sécurité et des compétences pédagogiques."
+    - question: "Une aide publique ?"
+      answer: "Consulter les appels régionaux; Documenter le projet et la confidentialité."
 ---
-
 
 <strong>Plan DigEdu 2026 : La transformation numérique qui améliore l'éducation en Espagne</strong>
 

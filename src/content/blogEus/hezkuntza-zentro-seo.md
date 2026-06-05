@@ -7,26 +7,25 @@ tags:
     - "ikusgarritasuna"
     - "harrapaketa"
     - "marketina"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1743769446613-baab1264496d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - hezkuntza-marketin-digital-estrategiak
-  - hezkuntza-lidertza-eraldaketa-digitala
-  - hezkuntza-antolakuntza-aldaketa-kudeaketa
-  - hezkuntza-zentro-krisi-kudeaketa
+    - hezkuntza-marketin-digital-estrategiak
+    - hezkuntza-lidertza-eraldaketa-digitala
+    - hezkuntza-antolakuntza-aldaketa-kudeaketa
+    - hezkuntza-zentro-krisi-kudeaketa
 faqs:
-  - question: "Hezkuntza-zentroetarako SEO denbora luzea behar da emaitzak lortzeko?"
-    answer: "Bai. Ondorioak 3-6 hilabetetan nabaritzen dira normalean lehiaketaren eta webgunearen egoeraren arabera. Epe ertaineko inbertsioa da, ez iragarkiak bezalako berehalako eragina."
-  - question: "Blog bat behar al dut SEO egiteko?"
-    answer: "Ez da derrigorrezkoa, baina artikulu erabilgarriak dituen blog batek (zentro bat nola aukeratu, metodologia, etab.) bilaketa luzeak jasotzen eta autoritatea erakusten laguntzen du. Ondo bideratutako artikulu batzuekin has zaitezke."
-  - question: "Nola lehiatuko naiz zentro handiekin?"
-    answer: "Oso bilaketa generikoetan zailagoa da. Tokiko bilaketetan (\"eskola [zure eremua]\", \"haurtzaindegia [auzoa]\") eta zerbitzu zehatzetarako webgune argi batekin eta Google-ren zerrenda ondo landuta egon zaitezke."
-  - question: "Sare sozialek eragina dute SEO-n?"
-    answer: "Zeharka: ez dute webgunea sailkatzen, baina trafikoak eta markak laguntzen dute. Zentratu lehenik webgunean eta Google-ren zerrendan; sareak osagarriak dira."
-  - question: "SEO agentzia bat kontratatu behar al dut hezkuntza zentroetarako?"
-    answer: "Barne denboraren araberakoa da. Zeregin asko (orriaren egitura, Google fitxa, oinarrizko edukia) taldeak gida batekin egin ditzake; Estrategia aurreratuetarako edo kanpoko esteketarako, hezkuntzan esperientzia duen agentzia bat erabilgarria izan daiteke."
+    - question: "Hezkuntza-zentroetarako SEO denbora luzea behar da emaitzak lortzeko?"
+      answer: "Bai. Ondorioak 3-6 hilabetetan nabaritzen dira normalean lehiaketaren eta webgunearen egoeraren arabera. Epe ertaineko inbertsioa da, ez iragarkiak bezalako berehalako eragina."
+    - question: "Blog bat behar al dut SEO egiteko?"
+      answer: "Ez da derrigorrezkoa, baina artikulu erabilgarriak dituen blog batek (zentro bat nola aukeratu, metodologia, etab.) bilaketa luzeak jasotzen eta autoritatea erakusten laguntzen du. Ondo bideratutako artikulu batzuekin has zaitezke."
+    - question: "Nola lehiatuko naiz zentro handiekin?"
+      answer: 'Oso bilaketa generikoetan zailagoa da. Tokiko bilaketetan ("eskola [zure eremua]", "haurtzaindegia [auzoa]") eta zerbitzu zehatzetarako webgune argi batekin eta Google-ren zerrenda ondo landuta egon zaitezke.'
+    - question: "Sare sozialek eragina dute SEO-n?"
+      answer: "Zeharka: ez dute webgunea sailkatzen, baina trafikoak eta markak laguntzen dute. Zentratu lehenik webgunean eta Google-ren zerrendan; sareak osagarriak dira."
+    - question: "SEO agentzia bat kontratatu behar al dut hezkuntza zentroetarako?"
+      answer: "Barne denboraren araberakoa da. Zeregin asko (orriaren egitura, Google fitxa, oinarrizko edukia) taldeak gida batekin egin ditzake; Estrategia aurreratuetarako edo kanpoko esteketarako, hezkuntzan esperientzia duen agentzia bat erabilgarria izan daiteke."
 ---
-
 
 <strong>SEO gida hezkuntza-zentroetarako: nola agertu Google-n familiek eskola bat bilatzen dutenean</strong>
 

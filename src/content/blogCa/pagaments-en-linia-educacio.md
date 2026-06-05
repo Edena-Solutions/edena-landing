@@ -7,26 +7,25 @@ tags:
     - "impagaments"
     - "facturació"
     - "centres educatius"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1556740714-a8395b3bf30f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - morositat-cobraments-automatics-2026
-  - facturacio-electronica-verifactu-educacio-2026
-  - kpi-director-escola-mensual-2026
-  - reduir-impagaments-facturacio-col-legis
+    - morositat-cobraments-automatics-2026
+    - facturacio-electronica-verifactu-educacio-2026
+    - kpi-director-escola-mensual-2026
+    - reduir-impagaments-facturacio-col-legis
 faqs:
-  - question: "Els pagaments en línia en educació són segurs?"
-    answer: "Sí, si utilitzes una passarel·la que compleix PCI-DSS i no emmagatzemes dades de targeta. El pagament es fa a la pàgina del proveïdor o amb tokenització; el centre no maneja el número de targeta."
-  - question: "Quin cost té una passarel·la per a centres educatius?"
-    answer: "Acostuma a ser un percentatge per transacció més un possible fix mensual. Compara amb el cost actual de gestionar cobraments manuals i amb limpacte de reduir impagaments."
-  - question: "Podem continuar oferint pagament en efectiu o taló?"
-    answer: "Sí. Els pagaments en línia en educació poden conviure amb altres mètodes; l'objectiu és que qui prefereixi pagar en línia ho pugui fer sense fricció."
-  - question: "Què fer si una família diu que ha pagat i no apareix al sistema?"
-    answer: "Tenir un procés clar: comprovar a la passarel·la i al banc, demanar justificant a la família i actualitzar l'estat quan es confirmi. La conciliació periòdica redueix aquests casos."
-  - question: "La facturació electrònica (Verifactu) afecta els pagaments en línia?"
-    answer: "Són coses diferents: la facturació electrònica regula el format i l'enviament de factures; els pagaments en línia són el mitjà de cobrament. Poden conviure: factura electrònica i enllaç de pagament al mateix flux."
+    - question: "Els pagaments en línia en educació són segurs?"
+      answer: "Sí, si utilitzes una passarel·la que compleix PCI-DSS i no emmagatzemes dades de targeta. El pagament es fa a la pàgina del proveïdor o amb tokenització; el centre no maneja el número de targeta."
+    - question: "Quin cost té una passarel·la per a centres educatius?"
+      answer: "Acostuma a ser un percentatge per transacció més un possible fix mensual. Compara amb el cost actual de gestionar cobraments manuals i amb limpacte de reduir impagaments."
+    - question: "Podem continuar oferint pagament en efectiu o taló?"
+      answer: "Sí. Els pagaments en línia en educació poden conviure amb altres mètodes; l'objectiu és que qui prefereixi pagar en línia ho pugui fer sense fricció."
+    - question: "Què fer si una família diu que ha pagat i no apareix al sistema?"
+      answer: "Tenir un procés clar: comprovar a la passarel·la i al banc, demanar justificant a la família i actualitzar l'estat quan es confirmi. La conciliació periòdica redueix aquests casos."
+    - question: "La facturació electrònica (Verifactu) afecta els pagaments en línia?"
+      answer: "Són coses diferents: la facturació electrònica regula el format i l'enviament de factures; els pagaments en línia són el mitjà de cobrament. Poden conviure: factura electrònica i enllaç de pagament al mateix flux."
 ---
-
 
 <strong>Com integrar pagaments online a escoles i reduir impagaments</strong>
 

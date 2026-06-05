@@ -8,22 +8,22 @@ tags:
     - "efficiency"
     - "automation"
     - "educational centers"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1682144827510-bbe3cd636253?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - school-management-software-comparison-spain-2026
-  - school-software-purchase-checklist-2026
-  - best-school-management-software
-  - choosing-school-management-software
+    - school-management-software-comparison-spain-2026
+    - school-software-purchase-checklist-2026
+    - best-school-management-software
+    - choosing-school-management-software
 faqs:
-  - question: "Where does the address begin?"
-    answer: "Diagnosis of hours and pain in the secretariat, not a catalog of modules."
-  - question: "School council and digitalization?"
-    answer: "Communicate milestones and metrics, not technical jargon."
-  - question: "ERP or SIS: what do I need first?"
-    answer: "If the main pain is secretarial, collections and families, prioritize a comprehensive ERP. If you only need notes and classroom assistance, a SIS may be enough in the short term, but you will end up duplicating data."
-  - question: "How long does a reasonable pilot last?"
-    answer: "Between 8 and 12 weeks, with an actual billing or admission cycle and success criteria agreed upon before starting."
+    - question: "Where does the address begin?"
+      answer: "Diagnosis of hours and pain in the secretariat, not a catalog of modules."
+    - question: "School council and digitalization?"
+      answer: "Communicate milestones and metrics, not technical jargon."
+    - question: "ERP or SIS: what do I need first?"
+      answer: "If the main pain is secretarial, collections and families, prioritize a comprehensive ERP. If you only need notes and classroom assistance, a SIS may be enough in the short term, but you will end up duplicating data."
+    - question: "How long does a reasonable pilot last?"
+      answer: "Between 8 and 12 weeks, with an actual billing or admission cycle and success criteria agreed upon before starting."
 ---
 
 <strong>Digital Administrative Management in Educational Centers 2026: Eliminating Paper, Maximizing Efficiency</strong>

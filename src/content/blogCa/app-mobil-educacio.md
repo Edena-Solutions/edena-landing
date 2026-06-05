@@ -7,22 +7,21 @@ tags:
     - "experiència digital"
     - "accés instantani"
     - "tecnologia"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1584206863352-ce8b3a1c10e3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - app-familles-collegis-avantatges-2026
-  - comunicacio-collegi-families-plataforma-digital
-  - comunicacio-digital-centres-educatius
-  - comunicacio-families-era-digital
+    - app-familles-collegis-avantatges-2026
+    - comunicacio-collegi-families-plataforma-digital
+    - comunicacio-digital-centres-educatius
+    - comunicacio-families-era-digital
 faqs:
-  - question: "És legal fer servir WhatsApp amb famílies?"
-    answer: "Amb consentiment i criteri, per a coordinació; no substitueix canal institucional traçable."
-  - question: "App obligatòria per a totes les famílies?"
-    answer: "Recomanable amb alternativa per a qui no pugui; comunicació equitativa és obligatòria."
-  - question: "Notificacions push sense saturar?"
-    answer: "Urgències en push; informatiu en safata digestiva o email resum."
+    - question: "És legal fer servir WhatsApp amb famílies?"
+      answer: "Amb consentiment i criteri, per a coordinació; no substitueix canal institucional traçable."
+    - question: "App obligatòria per a totes les famílies?"
+      answer: "Recomanable amb alternativa per a qui no pugui; comunicació equitativa és obligatòria."
+    - question: "Notificacions push sense saturar?"
+      answer: "Urgències en push; informatiu en safata digestiva o email resum."
 ---
-
 
 <strong>Apps mòbils en educació: L'experiència digital a la butxaca</strong>
 

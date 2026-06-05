@@ -7,24 +7,23 @@ tags:
     - "programari per a escoles"
     - "implementació"
     - "errors"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677269465314-d5d2247a0b0c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJvYm90fGVufDB8fDB8fHww"
 relatedPosts:
-  - comparativa-programari-gestio-escolar-2026
-  - checklist-software-escolar-director-2026
-  - millor-programari-gestio-escolar
-  - triar-programari-gestio-escolar
+    - comparativa-programari-gestio-escolar-2026
+    - checklist-software-escolar-director-2026
+    - millor-programari-gestio-escolar
+    - triar-programari-gestio-escolar
 faqs:
-  - question: "Quan triga veure resultats de la digitalització educativa?"
-    answer: "Depèn del procés. Facturació i recordatoris poden mostrar impacte a les setmanes. Una digitalització a col·legis completa pot trigar diversos mesos a estabilitzar-se. Mesura per fases."
-  - question: "El programari per a escoles ha d'integrar-ho tot?"
-    answer: "No necessàriament. Un nucli unificat (facturació, famílies, expedients) sol simplificar. Però si ja tens eines que funcionen, valora integracions abans de substituir-ho tot."
-  - question: "ERP o SIS: què necessito primer?"
-    answer: "Si el dolor principal és secretaria, cobraments i famílies, prioritzeu un ERP integral. Si només necessiteu notes i assistència a l'aula, amb un SIS pot ser suficient a curt termini, però acabareu duplicant dades."
-  - question: "Quan dura un pilot raonable?"
-    answer: "Entre 8 i 12 setmanes, amb un cicle de facturació o admissió real i criteris dèxit acordats abans de començar."
+    - question: "Quan triga veure resultats de la digitalització educativa?"
+      answer: "Depèn del procés. Facturació i recordatoris poden mostrar impacte a les setmanes. Una digitalització a col·legis completa pot trigar diversos mesos a estabilitzar-se. Mesura per fases."
+    - question: "El programari per a escoles ha d'integrar-ho tot?"
+      answer: "No necessàriament. Un nucli unificat (facturació, famílies, expedients) sol simplificar. Però si ja tens eines que funcionen, valora integracions abans de substituir-ho tot."
+    - question: "ERP o SIS: què necessito primer?"
+      answer: "Si el dolor principal és secretaria, cobraments i famílies, prioritzeu un ERP integral. Si només necessiteu notes i assistència a l'aula, amb un SIS pot ser suficient a curt termini, però acabareu duplicant dades."
+    - question: "Quan dura un pilot raonable?"
+      answer: "Entre 8 i 12 setmanes, amb un cicle de facturació o admissió real i criteris dèxit acordats abans de començar."
 ---
-
 
 <strong>Digitalització a col·legis: 7 errors que cometen els centres en implementar programari educatiu</strong>
 

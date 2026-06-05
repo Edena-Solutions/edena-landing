@@ -7,22 +7,22 @@ tags:
     - "digital registration students"
     - "onboarding families"
     - "digitization"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1680391380106-de9702ca6246?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
 relatedPosts:
-  - online-enrolment-digitalize-school-step-by-step-2026
-  - school-crm-enrollment-pipeline-2026
-  - digitalization-student-retention
-  - student-retention-digital-era
+    - online-enrolment-digitalize-school-step-by-step-2026
+    - school-crm-enrollment-pipeline-2026
+    - digitalization-student-retention
+    - student-retention-digital-era
 faqs:
-  - question: "Is online school registration legally valid?"
-    answer: "Yes. The electronic signature and digital documents have the same validity as in-person documents when regulatory requirements are met. Digital student registration is valid if the process is well designed."
-  - question: "Are families adopting digital student registration?"
-    answer: "Yes, when the process is clear and the center communicates it well. Digital onboarding of families that offers value (less travel, less paperwork) is well adopted. Online school registration should be easy to find and complete."
-  - question: "What about families who prefer paper?"
-    answer: "You can offer both options during a transition. Online enrollment at school can coexist with in-person processes. The objective of digital onboarding of families is that whoever wants digital can do so without friction."
-  - question: "When to charge the reservation?"
-    answer: "After a visit or accepted proposal, in the same digital flow, before final discharge."
+    - question: "Is online school registration legally valid?"
+      answer: "Yes. The electronic signature and digital documents have the same validity as in-person documents when regulatory requirements are met. Digital student registration is valid if the process is well designed."
+    - question: "Are families adopting digital student registration?"
+      answer: "Yes, when the process is clear and the center communicates it well. Digital onboarding of families that offers value (less travel, less paperwork) is well adopted. Online school registration should be easy to find and complete."
+    - question: "What about families who prefer paper?"
+      answer: "You can offer both options during a transition. Online enrollment at school can coexist with in-person processes. The objective of digital onboarding of families is that whoever wants digital can do so without friction."
+    - question: "When to charge the reservation?"
+      answer: "After a visit or accepted proposal, in the same digital flow, before final discharge."
 ---
 
 <strong>Digital onboarding of families: how to enroll students without paperwork</strong>

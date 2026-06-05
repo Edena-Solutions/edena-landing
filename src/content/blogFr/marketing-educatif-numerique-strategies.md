@@ -7,23 +7,22 @@ tags:
     - "marketing numérique"
     - "attraction familiale"
     - "communication institutionnelle"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - seo-etablissements-scolaires
-  - crm-scolaire-inscriptions-conversion-2026
-  - inscription-ligne-numerisation-ecole-pas-2026
+    - seo-etablissements-scolaires
+    - crm-scolaire-inscriptions-conversion-2026
+    - inscription-ligne-numerisation-ecole-pas-2026
 faqs:
-  - question: "Combien une école de taille moyenne devrait-elle investir dans le marketing numérique ?"
-    answer: "Beaucoup de choses sont résolues avec un site Web bien conçu, Google Business et CRM plutôt qu'avec des publicités massives. Coût des mesures par inscription clôturée."
-  - question: "Dois-je figurer sur les portails de comparaison d’écoles ?"
-    answer: "Comparez le coût par scolarité avec le référencement local et les références. Exigez des données de qualité du prospect au portail."
-  - question: "Journée portes ouvertes uniquement en personne ?"
-    answer: "Proposez du streaming ou de la visite virtuelle pour éviter de perdre des leads qui ne peuvent pas assister à la date fixée."
-  - question: "Comment aligner le marketing avec le secrétariat ?"
-    answer: "Mêmes informations sur les tarifs et prestations sur le site internet, la visite et le contrat. Une source unique de vérité dans l’ERP évite les promesses non tenues."
+    - question: "Combien une école de taille moyenne devrait-elle investir dans le marketing numérique ?"
+      answer: "Beaucoup de choses sont résolues avec un site Web bien conçu, Google Business et CRM plutôt qu'avec des publicités massives. Coût des mesures par inscription clôturée."
+    - question: "Dois-je figurer sur les portails de comparaison d’écoles ?"
+      answer: "Comparez le coût par scolarité avec le référencement local et les références. Exigez des données de qualité du prospect au portail."
+    - question: "Journée portes ouvertes uniquement en personne ?"
+      answer: "Proposez du streaming ou de la visite virtuelle pour éviter de perdre des leads qui ne peuvent pas assister à la date fixée."
+    - question: "Comment aligner le marketing avec le secrétariat ?"
+      answer: "Mêmes informations sur les tarifs et prestations sur le site internet, la visite et le contrat. Une source unique de vérité dans l’ERP évite les promesses non tenues."
 ---
-
 
 <strong>Marketing éducatif numérique en Espagne</strong>
 

@@ -3,28 +3,29 @@ title: "Comment choisir un logiciel scolaire sans se tromper : checklist pour di
 date: "2026-04-20"
 description: "Guide et checklist pour directeurs d'école : critères d'achat, modules essentiels, questions pour la démo et calcul du coût réel sur trois ans."
 tags:
- [
- "choisir logiciel scolaire",
- "checklist logiciel éducatif",
- "critères ERP scolaire",
- "acheter plateforme scolaire",
- "démo logiciel école",
- "Edena",
- ]
-author: "Équipe Edena"
+    [
+        "choisir logiciel scolaire",
+        "checklist logiciel éducatif",
+        "critères ERP scolaire",
+        "acheter plateforme scolaire",
+        "démo logiciel école",
+        "Edena",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1661732017132-28b644cbcf9c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 faqs:
-  - question: "Combien de temps prend un changement complet de logiciel ?"
-    answer: "Entre deux et six mois, selon le volume de données, la complexité de l'établissement et la disponibilité de l'équipe interne. Un pilote de base (données maîtresses, premier cycle de facturation, portail familles) peut être actif en quatre semaines si un responsable interne y est dédié et que le fournisseur dispose d'un plan de migration défini."
-  - question: "Vaut-il mieux changer de logiciel en été ou en janvier ?"
-    answer: "L'été réduit l'impact sur les familles et l'équipe, mais comprime le temps de validation avec des données réelles d'inscription et de facturation en cours. Janvier est plus calme pour les inscriptions mais coïncide avec la clôture comptable. La réponse dépend de où se situe votre plus grande douleur : si c'est les inscriptions de septembre, changez en été ; si c'est la facturation, envisagez de le faire avec les données d'un mois calme."
-  - question: "Dois-je exiger une clause de portabilité des données dans le contrat ?"
-    answer: "Oui, toujours. Avant de signer, confirmez que vous pouvez exporter toutes vos données (élèves, paiements, dossiers, documents) dans un format ouvert (CSV, JSON, Excel) à tout moment. Si le fournisseur ne l'inclut pas dans le contrat ou le conditionne à un coût supplémentaire, c'est un signal d'alarme."
-  - question: "Est-il judicieux d'implémenter un système juste avant un pic d'inscription ?"
-    answer: "Non, sauf si la situation actuelle est tellement critique que n'importe quoi représente une amélioration. Dans les deux premiers mois d'utilisation, tout système fonctionne en dessous de son potentiel : l'équipe apprend, les processus s'ajustent, les erreurs apparaissent. Si vous le pouvez, activez le système en janvier ou février, consolidez le flux, et arrivez aux inscriptions de septembre avec le système déjà bien rôdé."
-  - question: "Que se passe-t-il si le fournisseur effectue des mises à jour qui perturbent mon flux de travail ?"
-    answer: "Exigez dans le contrat un préavis pour les changements perturbateurs (au moins deux semaines), un environnement de test avant la mise à jour en production, et un historique des notes de mise à jour dans le portail support. Un fournisseur qui met à jour sans préavis est un risque opérationnel."
+    - question: "Combien de temps prend un changement complet de logiciel ?"
+      answer: "Entre deux et six mois, selon le volume de données, la complexité de l'établissement et la disponibilité de l'équipe interne. Un pilote de base (données maîtresses, premier cycle de facturation, portail familles) peut être actif en quatre semaines si un responsable interne y est dédié et que le fournisseur dispose d'un plan de migration défini."
+    - question: "Vaut-il mieux changer de logiciel en été ou en janvier ?"
+      answer: "L'été réduit l'impact sur les familles et l'équipe, mais comprime le temps de validation avec des données réelles d'inscription et de facturation en cours. Janvier est plus calme pour les inscriptions mais coïncide avec la clôture comptable. La réponse dépend de où se situe votre plus grande douleur : si c'est les inscriptions de septembre, changez en été ; si c'est la facturation, envisagez de le faire avec les données d'un mois calme."
+    - question: "Dois-je exiger une clause de portabilité des données dans le contrat ?"
+      answer: "Oui, toujours. Avant de signer, confirmez que vous pouvez exporter toutes vos données (élèves, paiements, dossiers, documents) dans un format ouvert (CSV, JSON, Excel) à tout moment. Si le fournisseur ne l'inclut pas dans le contrat ou le conditionne à un coût supplémentaire, c'est un signal d'alarme."
+    - question: "Est-il judicieux d'implémenter un système juste avant un pic d'inscription ?"
+      answer: "Non, sauf si la situation actuelle est tellement critique que n'importe quoi représente une amélioration. Dans les deux premiers mois d'utilisation, tout système fonctionne en dessous de son potentiel : l'équipe apprend, les processus s'ajustent, les erreurs apparaissent. Si vous le pouvez, activez le système en janvier ou février, consolidez le flux, et arrivez aux inscriptions de septembre avec le système déjà bien rôdé."
+    - question: "Que se passe-t-il si le fournisseur effectue des mises à jour qui perturbent mon flux de travail ?"
+      answer: "Exigez dans le contrat un préavis pour les changements perturbateurs (au moins deux semaines), un environnement de test avant la mise à jour en production, et un historique des notes de mise à jour dans le portail support. Un fournisseur qui met à jour sans préavis est un risque opérationnel."
 ---
+
 <strong>Comment choisir un logiciel scolaire sans se tromper : checklist pour directeurs</strong>
 
 <br>

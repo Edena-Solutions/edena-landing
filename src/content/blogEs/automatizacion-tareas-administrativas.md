@@ -3,20 +3,20 @@ title: "Automatización de tareas administrativas: Libera tiempo para la educaci
 date: "2025-07-15"
 description: "Automatización general de tareas admin repetitivas. Guía práctica para centros educativos en España (2026)."
 tags: ["automatización", "procesos administrativos", "eficiencia", "educación"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - ahorrar-15-horas-administracion-escolar-2026
-  - automatizacion-absentismo-escolar
-  - ia-gestion-escolar-casos-practicos
-  - procesos-administrativos-automatizar-colegio
+    - ahorrar-15-horas-administracion-escolar-2026
+    - automatizacion-absentismo-escolar
+    - ia-gestion-escolar-casos-practicos
+    - procesos-administrativos-automatizar-colegio
 faqs:
-  - question: "¿Qué NO automatizar?"
-    answer: "Decisiones disciplinarias, situaciones familiares delicadas, excepciones de beca."
-  - question: "¿Cuánto tarda en verse el ahorro?"
-    answer: "Primeras 4-6 semanas tras formación mínima por rol."
-  - question: "¿Riesgo de errores masivos?"
-    answer: "Sí si no probáis reglas; empezad con un curso piloto."
+    - question: "¿Qué NO automatizar?"
+      answer: "Decisiones disciplinarias, situaciones familiares delicadas, excepciones de beca."
+    - question: "¿Cuánto tarda en verse el ahorro?"
+      answer: "Primeras 4-6 semanas tras formación mínima por rol."
+    - question: "¿Riesgo de errores masivos?"
+      answer: "Sí si no probáis reglas; empezad con un curso piloto."
 ---
 
 <strong>Automatización de tareas administrativas: Libera tiempo para la educación</strong>

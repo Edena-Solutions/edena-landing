@@ -9,26 +9,25 @@ tags:
     - "formularis matrícula"
     - "CRM escolar"
     - "autogestió famílies"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - crm-escolar-matricules-2026
-  - incorporacio-digital-families-matricula-en-linia
-  - digitalitzacio-retencio-alumnes
-  - retencio-estudiants-era-digital
+    - crm-escolar-matricules-2026
+    - incorporacio-digital-families-matricula-en-linia
+    - digitalitzacio-retencio-alumnes
+    - retencio-estudiants-era-digital
 faqs:
-  - question: "Quant de temps porta configurar el procés de matrícula a Edena?"
-    answer: "Una configuració bàsica (formulari, etapes de pipeline, regla de pagament i confirmació automatitzada) pot estar llesta en una setmana si el disseny del procés ja està definit. Fluxos més complexos amb múltiples tipus de documents, automatitzacions d'etapa i comunicació Pro requereixen dues o tres setmanes. L'equip d'implementació acompanya la configuració dins del onboarding."
-  - question: "Com es pot mesurar que el procés digital està funcionant?"
-    answer: "Els indicadors més fiables són: taxa de compleció de sol·licituds (iniciades vs. enviades), temps des del primer contacte fins a plaça confirmada, i percentatge de trucades \"Veu rebre la meva sol·licitud?\" després del llançament. Si les taxes de compleció són baixes, el formulari és massa llarg o el primer pas massa exigent. Si el temps fins a confirmació no ha baixat, el coll d'ampolla està al procés intern de validació, no al formulari."
-  - question: "Necessito CRM i matrícula, o n'hi ha prou amb un formulari aïllat?"
-    answer: "Un formulari sense embut et torna a safates. El CRM aporta etapa, responsable, origen i mesurament. Sense això, no aprens a escalar ni prioritzar en comitè."
-  - question: "Què passa amb el GDPR?"
-    answer: "Has de fixar la base legal, la retenció, l'accés i els consentiments amb el teu DPO o assessor. El programari facilita accessos per rol, traces i portals, però no reemplaça el criteri legal del centre. Edena exposa criteri de producte, no assessoria jurídica."
-  - question: "Com encaixa el règim concertat o documentació addicional?"
-    answer: "Particiona: demana annexos a la fase oportuna, no “tot en un dilluns” que col·lapsa verificació. Anticipa pics, no carrega falsa de treball."
+    - question: "Quant de temps porta configurar el procés de matrícula a Edena?"
+      answer: "Una configuració bàsica (formulari, etapes de pipeline, regla de pagament i confirmació automatitzada) pot estar llesta en una setmana si el disseny del procés ja està definit. Fluxos més complexos amb múltiples tipus de documents, automatitzacions d'etapa i comunicació Pro requereixen dues o tres setmanes. L'equip d'implementació acompanya la configuració dins del onboarding."
+    - question: "Com es pot mesurar que el procés digital està funcionant?"
+      answer: 'Els indicadors més fiables són: taxa de compleció de sol·licituds (iniciades vs. enviades), temps des del primer contacte fins a plaça confirmada, i percentatge de trucades "Veu rebre la meva sol·licitud?" després del llançament. Si les taxes de compleció són baixes, el formulari és massa llarg o el primer pas massa exigent. Si el temps fins a confirmació no ha baixat, el coll d''ampolla està al procés intern de validació, no al formulari.'
+    - question: "Necessito CRM i matrícula, o n'hi ha prou amb un formulari aïllat?"
+      answer: "Un formulari sense embut et torna a safates. El CRM aporta etapa, responsable, origen i mesurament. Sense això, no aprens a escalar ni prioritzar en comitè."
+    - question: "Què passa amb el GDPR?"
+      answer: "Has de fixar la base legal, la retenció, l'accés i els consentiments amb el teu DPO o assessor. El programari facilita accessos per rol, traces i portals, però no reemplaça el criteri legal del centre. Edena exposa criteri de producte, no assessoria jurídica."
+    - question: "Com encaixa el règim concertat o documentació addicional?"
+      answer: "Particiona: demana annexos a la fase oportuna, no “tot en un dilluns” que col·lapsa verificació. Anticipa pics, no carrega falsa de treball."
 ---
-
 
 <strong>Com digitalitzar la matrícula en línia del teu centre educatiu pas a pas</strong>
 

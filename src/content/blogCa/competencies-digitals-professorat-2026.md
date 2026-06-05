@@ -8,22 +8,21 @@ tags:
     - "certificació digital"
     - "Pla DigEdu"
     - "professorat 2026"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1568828668638-b1b4014d91a2?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologies-pedagogiques-innovadores
-  - innovacio-pedagogica-tecnologia
-  - avaluacio-assessment-digital-educatiu
-  - espais-educatius-futur-disseny
+    - metodologies-pedagogiques-innovadores
+    - innovacio-pedagogica-tecnologia
+    - avaluacio-assessment-digital-educatiu
+    - espais-educatius-futur-disseny
 faqs:
-  - question: "Què exigeix ​​DigEdu al centre?"
-    answer: "Entorns segurs, formació docent i accés equitatiu; consulteu convocatòria autonòmica vigent."
-  - question: "Substitueix el certificat del professorat?"
-    answer: "No; es complementa amb eines i temps protegit."
-  - question: "Com prioritzar formació?"
-    answer: "El que feu servir cada setmana (plataforma comuna) abans que eines aïllades."
+    - question: "Què exigeix ​​DigEdu al centre?"
+      answer: "Entorns segurs, formació docent i accés equitatiu; consulteu convocatòria autonòmica vigent."
+    - question: "Substitueix el certificat del professorat?"
+      answer: "No; es complementa amb eines i temps protegit."
+    - question: "Com prioritzar formació?"
+      answer: "El que feu servir cada setmana (plataforma comuna) abans que eines aïllades."
 ---
-
 
 <strong>Competències Digitals del Professorat el 2026: Més de 661.000 Docents Certificats</strong>
 

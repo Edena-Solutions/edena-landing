@@ -3,20 +3,21 @@ title: "Intelligence artificielle dans l’administration scolaire"
 date: "2026-02-19"
 description: "IA et gestion scolaire : cas pratiques réels d’automatisation, de prédiction et d’aide à la décision dans les établissements."
 tags: ["IA gestion scolaire", "intelligence artificielle", "automatisation", "administration"]
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1680783954745-3249be59e527?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 faqs:
-  - question: "L’IA supprime-t-elle des emplois au secrétariat ?"
-    answer: "Dans les usages courants (priorisation des relances, alertes, réponses type), l’IA assiste et libère du temps pour des tâches à plus forte valeur. Le jugement et la relation aux familles restent du ressort des équipes."
-  - question: "Faut-il beaucoup de données ?"
-    answer: "Cela dépend. Des règles simples (seuils d’absences, impayés) s’appuient sur l’exploitation courante. Des modèles prédictifs demandent en général au moins un à deux ans d’historique."
-  - question: "Données personnelles et IA ?"
-    answer: "Le traitement doit reposer sur un fondement légal et des mesures de sécurité. Si le prestataire entraîne des modèles, le contrat doit l’encadrer. La transparence vis-à-vis des familles compte."
-  - question: "Peut-on commencer sans équipe technique ?"
-    answer: "Oui. Beaucoup de fonctions d’IA sont intégrées aux logiciels de gestion (alertes, priorisation, modèles). L’établissement n’a pas à construire ses propres modèles, mais doit fixer des objectifs et contrôler les résultats."
-  - question: "Comment choisir un fournisseur ?"
-    answer: "Vérifiez l’intégration à votre gestion (inscriptions, facturation, communication), la documentation sur le traitement des données et la possibilité de supervision humaine. Demandez des références d’établissements comparables."
+    - question: "L’IA supprime-t-elle des emplois au secrétariat ?"
+      answer: "Dans les usages courants (priorisation des relances, alertes, réponses type), l’IA assiste et libère du temps pour des tâches à plus forte valeur. Le jugement et la relation aux familles restent du ressort des équipes."
+    - question: "Faut-il beaucoup de données ?"
+      answer: "Cela dépend. Des règles simples (seuils d’absences, impayés) s’appuient sur l’exploitation courante. Des modèles prédictifs demandent en général au moins un à deux ans d’historique."
+    - question: "Données personnelles et IA ?"
+      answer: "Le traitement doit reposer sur un fondement légal et des mesures de sécurité. Si le prestataire entraîne des modèles, le contrat doit l’encadrer. La transparence vis-à-vis des familles compte."
+    - question: "Peut-on commencer sans équipe technique ?"
+      answer: "Oui. Beaucoup de fonctions d’IA sont intégrées aux logiciels de gestion (alertes, priorisation, modèles). L’établissement n’a pas à construire ses propres modèles, mais doit fixer des objectifs et contrôler les résultats."
+    - question: "Comment choisir un fournisseur ?"
+      answer: "Vérifiez l’intégration à votre gestion (inscriptions, facturation, communication), la documentation sur le traitement des données et la possibilité de supervision humaine. Demandez des références d’établissements comparables."
 ---
+
 <strong>Intelligence artificielle dans l’administration scolaire : cas pratiques réels</strong>
 <br>
 

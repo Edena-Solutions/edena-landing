@@ -7,22 +7,22 @@ tags:
     - "automatización"
     - "procesos"
     - "educación"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1679923906308-c26a0e2ca510?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - atzeratzea-murriztu-kobro-automatikoa-2026
-  - faktura-elektronikoa-verifactu-hezkuntza-2026
-  - kpi-hileko-zuzendaria-2026
-  - fakturazio-zorrak-murriztu-ikastetxeetan
+    - atzeratzea-murriztu-kobro-automatikoa-2026
+    - faktura-elektronikoa-verifactu-hezkuntza-2026
+    - kpi-hileko-zuzendaria-2026
+    - fakturazio-zorrak-murriztu-ikastetxeetan
 faqs:
-  - question: "1ean fakturatu ala emisioa banatu?"
-    answer: "Nahikoa aurrerapenadrekin eman domiziliatzerako; saihestu eskuzko gailurrak azken egunean."
-  - question: "Zuzentzaileak automatiza daitezke?"
-    answer: "Neurri batean; onarpen-fluxua definitu abonua eman baino lehen."
-  - question: "Zenbat morositate da 'normala' ikastetxe pribatu batean?"
-    answer: "Profil sozioekonomiko eta kobrantza-metodoaren araberakoa da, baina zentro osasuntsu askok %4-%8 bitartean mugitzen dira 45 egunera. %10 gainditzen bada, komeni da egutegia, domiziliatze eta oroigarri-sekuentzia berrikustea langileria zabaldu baino lehen."
-  - question: "Verifactuk familiei kobratzeko moduari eragiten dio?"
-    answer: "Verifactuk batez ere fakturen emisioa eta AEATarekiko trazagarritasunari eragiten dio, ez ordainketa-metodoari berari. Zure fakturazio-softwareak erregistro egokiak sortu behar ditu; komeni da kobrantzarekin eta bateratzea integratzea."
+    - question: "1ean fakturatu ala emisioa banatu?"
+      answer: "Nahikoa aurrerapenadrekin eman domiziliatzerako; saihestu eskuzko gailurrak azken egunean."
+    - question: "Zuzentzaileak automatiza daitezke?"
+      answer: "Neurri batean; onarpen-fluxua definitu abonua eman baino lehen."
+    - question: "Zenbat morositate da 'normala' ikastetxe pribatu batean?"
+      answer: "Profil sozioekonomiko eta kobrantza-metodoaren araberakoa da, baina zentro osasuntsu askok %4-%8 bitartean mugitzen dira 45 egunera. %10 gainditzen bada, komeni da egutegia, domiziliatze eta oroigarri-sekuentzia berrikustea langileria zabaldu baino lehen."
+    - question: "Verifactuk familiei kobratzeko moduari eragiten dio?"
+      answer: "Verifactuk batez ere fakturen emisioa eta AEATarekiko trazagarritasunari eragiten dio, ez ordainketa-metodoari berari. Zure fakturazio-softwareak erregistro egokiak sortu behar ditu; komeni da kobrantzarekin eta bateratzea integratzea."
 ---
 
 <strong>Eskola-fakturazioaren automatizazioa: barne-prozesuak optimizatzen</strong>

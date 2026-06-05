@@ -7,22 +7,22 @@ tags:
     - "app for school parents"
     - "digital platform"
     - "educational centers"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1521424159246-e4a66f267e4b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - school-family-app-benefits-heads-parents-2026
-  - digital-communication-schools
-  - institutional-communication-families
-  - mobile-app-education
+    - school-family-app-benefits-heads-parents-2026
+    - digital-communication-schools
+    - institutional-communication-families
+    - mobile-app-education
 faqs:
-  - question: "Does an app for school parents replace email?"
-    answer: "Not necessarily. Email is still useful for long content. But an app for school parents is best for urgent notices, attendance notifications, and payment reminders. The ideal is to have both and use them depending on the type of message."
-  - question: "Do families adopt the app for school parents?"
-    answer: "Yes, if the center presents it well and offers value (consult assistance, pay, receive notifications). The key is that the first contact is useful; If they only receive long circulars, adoption will be lower."
-  - question: "How to comply with GDPR in school-family communication?"
-    answer: "Use tools that allow you to manage consents, do not share data for unauthorized purposes and unsubscribe whoever requests it. The provider must act as data processor if it processes data on behalf of the center."
-  - question: "Is it legal to use WhatsApp with families?"
-    answer: "With consent and discretion, for coordination; It does not replace a traceable institutional channel."
+    - question: "Does an app for school parents replace email?"
+      answer: "Not necessarily. Email is still useful for long content. But an app for school parents is best for urgent notices, attendance notifications, and payment reminders. The ideal is to have both and use them depending on the type of message."
+    - question: "Do families adopt the app for school parents?"
+      answer: "Yes, if the center presents it well and offers value (consult assistance, pay, receive notifications). The key is that the first contact is useful; If they only receive long circulars, adoption will be lower."
+    - question: "How to comply with GDPR in school-family communication?"
+      answer: "Use tools that allow you to manage consents, do not share data for unauthorized purposes and unsubscribe whoever requests it. The provider must act as data processor if it processes data on behalf of the center."
+    - question: "Is it legal to use WhatsApp with families?"
+      answer: "With consent and discretion, for coordination; It does not replace a traceable institutional channel."
 ---
 
 <strong>How to improve communication with families from a single digital platform</strong>

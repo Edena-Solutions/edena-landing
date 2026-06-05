@@ -7,17 +7,17 @@ tags:
     - "datos"
     - "educación"
     - "privacidad"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1589935447067-5531094415d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - datuen-babes-eskola-digitala
+    - datuen-babes-eskola-digitala
 faqs:
-  - question: "Babeskopia probatua?"
-    answer: "Gutxienez urteko berreskuratze-proba; ez da nahikoa egiaztatu gabeko babeskopia."
-  - question: "Phishing pertsonalari?"
-    answer: "Prestakuntza labur errekurentea; zentroetan bektore ohikoena."
-  - question: "Faktore bikoitza beharrezkoa?"
-    answer: "Administrazio eta zuzendaritzarentzat gomendagarria."
+    - question: "Babeskopia probatua?"
+      answer: "Gutxienez urteko berreskuratze-proba; ez da nahikoa egiaztatu gabeko babeskopia."
+    - question: "Phishing pertsonalari?"
+      answer: "Prestakuntza labur errekurentea; zentroetan bektore ohikoena."
+    - question: "Faktore bikoitza beharrezkoa?"
+      answer: "Administrazio eta zuzendaritzarentzat gomendagarria."
 ---
 
 <strong>Datuen segurtasuna hezkuntza-zentroetan: etorkizun digitala babesten</strong>

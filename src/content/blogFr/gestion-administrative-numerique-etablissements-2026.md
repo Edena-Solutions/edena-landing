@@ -8,24 +8,23 @@ tags:
     - "efficacité"
     - "automation"
     - "établissements scolaires"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1682144827510-bbe3cd636253?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - comparatif-logiciel-gestion-scolaire-espagne-2026
-  - choisir-logiciel-scolaire-checklist-2026
-  - meilleur-logiciel-gestion-scolaire
-  - choisir-logiciel-gestion-scolaire
+    - comparatif-logiciel-gestion-scolaire-espagne-2026
+    - choisir-logiciel-scolaire-checklist-2026
+    - meilleur-logiciel-gestion-scolaire
+    - choisir-logiciel-gestion-scolaire
 faqs:
-  - question: "Où commence l’adresse ?"
-    answer: "Diagnostic des heures et des douleurs au secrétariat, pas un catalogue de modules."
-  - question: "Conseil d’école et digitalisation ?"
-    answer: "Communiquez les jalons et les mesures, pas le jargon technique."
-  - question: "ERP ou SIS : de quoi ai-je besoin en premier ?"
-    answer: "Si le principal problème concerne le secrétariat, les recouvrements et les familles, donnez la priorité à un ERP complet. Si vous n’avez besoin que de notes et d’aide en classe, un SIS peut suffire à court terme, mais vous finirez par dupliquer les données."
-  - question: "Combien de temps dure un pilote raisonnable ?"
-    answer: "Entre 8 et 12 semaines, avec un cycle de facturation ou d'admission réel et des critères de réussite convenus avant de commencer."
+    - question: "Où commence l’adresse ?"
+      answer: "Diagnostic des heures et des douleurs au secrétariat, pas un catalogue de modules."
+    - question: "Conseil d’école et digitalisation ?"
+      answer: "Communiquez les jalons et les mesures, pas le jargon technique."
+    - question: "ERP ou SIS : de quoi ai-je besoin en premier ?"
+      answer: "Si le principal problème concerne le secrétariat, les recouvrements et les familles, donnez la priorité à un ERP complet. Si vous n’avez besoin que de notes et d’aide en classe, un SIS peut suffire à court terme, mais vous finirez par dupliquer les données."
+    - question: "Combien de temps dure un pilote raisonnable ?"
+      answer: "Entre 8 et 12 semaines, avec un cycle de facturation ou d'admission réel et des critères de réussite convenus avant de commencer."
 ---
-
 
 <strong>Gestion administrative numérique dans les établissements scolaires 2026 : éliminer le papier, maximiser l'efficacité</strong>
 

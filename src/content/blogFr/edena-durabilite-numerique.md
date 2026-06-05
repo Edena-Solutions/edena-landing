@@ -7,21 +7,20 @@ tags:
     - "numérique"
     - "environnement"
     - "éducation"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1671829480432-9b0f10d869ef?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - experience-utilisateur-technologie-educative
-  - experience-eleve-ere-numerique
-  - eleves-ere-numerique
+    - experience-utilisateur-technologie-educative
+    - experience-eleve-ere-numerique
+    - eleves-ere-numerique
 faqs:
-  - question: "Quelle quantité de papier une école peut-elle éliminer ?"
-    answer: "Circulaires, autorisations et procès-verbaux ; Conserver légalement ce qui est requis dans l’original ou la copie certifiée."
-  - question: "Des économies économiques mesurables ?"
-    answer: "Oui en impression et en horaires ; calculer la référence à partir du mois de septembre précédent."
-  - question: "Des objections familiales au papier zéro ?"
-    answer: "Offrez un PDF téléchargeable et un support de secrétariat à ceux qui en ont besoin."
+    - question: "Quelle quantité de papier une école peut-elle éliminer ?"
+      answer: "Circulaires, autorisations et procès-verbaux ; Conserver légalement ce qui est requis dans l’original ou la copie certifiée."
+    - question: "Des économies économiques mesurables ?"
+      answer: "Oui en impression et en horaires ; calculer la référence à partir du mois de septembre précédent."
+    - question: "Des objections familiales au papier zéro ?"
+      answer: "Offrez un PDF téléchargeable et un support de secrétariat à ceux qui en ont besoin."
 ---
-
 
 <strong>Edena et la durabilité numérique dans les établissements scolaires</strong>
 

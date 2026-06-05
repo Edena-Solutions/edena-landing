@@ -7,19 +7,18 @@ tags:
     - "dades"
     - "educació"
     - "privadesa"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1589935447067-5531094415d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - proteccio-dades-escola-digital
+    - proteccio-dades-escola-digital
 faqs:
-  - question: "Còpia de seguretat provada?"
-    answer: "Restauració de prova almenys anual; no n'hi ha prou backup sense verificar."
-  - question: "Phishing al personal?"
-    answer: "Formació breu recurrent; el vector més comú a centres."
-  - question: "Doble factor obligatori?"
-    answer: "Recomanable en administració i direcció."
+    - question: "Còpia de seguretat provada?"
+      answer: "Restauració de prova almenys anual; no n'hi ha prou backup sense verificar."
+    - question: "Phishing al personal?"
+      answer: "Formació breu recurrent; el vector més comú a centres."
+    - question: "Doble factor obligatori?"
+      answer: "Recomanable en administració i direcció."
 ---
-
 
 <strong>Seguretat de dades en centres educatius: Protegint el futur digital</strong>
 

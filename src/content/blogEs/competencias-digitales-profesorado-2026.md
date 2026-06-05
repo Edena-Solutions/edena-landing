@@ -2,21 +2,28 @@
 title: "Competencias Digitales del Profesorado en 2026: Más de 661.000 Docentes Certificados"
 date: "2026-01-10"
 description: "Estado del profesorado certificado y Plan DigEdu 2026. Guía práctica para centros educativos en España (2026)."
-tags: ["competencias digitales", "formación docente", "certificación digital", "Plan DigEdu", "profesorado 2026"]
-author: "Equipo Edena"
+tags:
+    [
+        "competencias digitales",
+        "formación docente",
+        "certificación digital",
+        "Plan DigEdu",
+        "profesorado 2026",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1568828668638-b1b4014d91a2?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologias-pedagogicas-innovadoras
-  - innovacion-pedagogica-tecnologia
-  - evaluacion-assessment-digital-educativo
-  - espacios-educativos-futuro-diseno
+    - metodologias-pedagogicas-innovadoras
+    - innovacion-pedagogica-tecnologia
+    - evaluacion-assessment-digital-educativo
+    - espacios-educativos-futuro-diseno
 faqs:
-  - question: "¿Qué exige DigEdu al centro?"
-    answer: "Entornos seguros, formación docente y acceso equitativo; consultad convocatoria autonómica vigente."
-  - question: "¿Sustituye el certificado del profesorado?"
-    answer: "No; se complementa con herramientas y tiempo protegido."
-  - question: "¿Cómo priorizar formación?"
-    answer: "Lo que usáis cada semana (plataforma común) antes que herramientas aisladas."
+    - question: "¿Qué exige DigEdu al centro?"
+      answer: "Entornos seguros, formación docente y acceso equitativo; consultad convocatoria autonómica vigente."
+    - question: "¿Sustituye el certificado del profesorado?"
+      answer: "No; se complementa con herramientas y tiempo protegido."
+    - question: "¿Cómo priorizar formación?"
+      answer: "Lo que usáis cada semana (plataforma común) antes que herramientas aisladas."
 ---
 
 <strong>Competencias Digitales del Profesorado en 2026: Más de 661.000 Docentes Certificados</strong>

@@ -7,17 +7,17 @@ tags:
     - "educación"
     - "innovación"
     - "tendencias"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - digitalizazio-egiaztapen-zerrenda-2026
+    - digitalizazio-egiaztapen-zerrenda-2026
 faqs:
-  - question: "Nola lerrokatu teknologia LOMOErekin?"
-    answer: "Lehenetsi gaitasun nagusiak eta etengabeko ebaluazioa askatzen dituzten tresnak, ez tresna isolatuak."
-  - question: "Klaustroaren prestakuntza: zenbat nahikoa da?"
-    answer: "Tresna bakoitzeko 60 minutuko saioak, grabatuta, etapako erreferentziarekin, kideen artean zalantzak konpontzeko."
-  - question: "Digitalizazioak denbora pedagogikoa kentzen du?"
-    answer: "Ondo eginda, itzultzen du: zerrenda eta zirkular manualen bikoizketa gutxiagok ebaluaziorako eta tutoretzarako denbora gehiago esan nahi du."
+    - question: "Nola lerrokatu teknologia LOMOErekin?"
+      answer: "Lehenetsi gaitasun nagusiak eta etengabeko ebaluazioa askatzen dituzten tresnak, ez tresna isolatuak."
+    - question: "Klaustroaren prestakuntza: zenbat nahikoa da?"
+      answer: "Tresna bakoitzeko 60 minutuko saioak, grabatuta, etapako erreferentziarekin, kideen artean zalantzak konpontzeko."
+    - question: "Digitalizazioak denbora pedagogikoa kentzen du?"
+      answer: "Ondo eginda, itzultzen du: zerrenda eta zirkular manualen bikoizketa gutxiagok ebaluaziorako eta tutoretzarako denbora gehiago esan nahi du."
 ---
 
 <strong>Hezkuntza-teknologiako joerak 2025erako: ikaskuntzaren etorkizuna</strong>

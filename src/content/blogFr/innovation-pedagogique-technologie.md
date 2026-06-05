@@ -7,19 +7,18 @@ tags:
     - "pédagogie"
     - "méthodologies"
     - "apprentissage"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1564514476902-542f8c30121e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-numerisation-2026
+    - checklist-numerisation-2026
 faqs:
-  - question: "Comment aligner la technologie avec LOMLOE ?"
-    answer: "Donnez la priorité aux outils qui libèrent du temps pour les compétences clés et l’évaluation continue, et non aux gadgets isolés."
-  - question: "Formation des professeurs : combien est-ce suffisant ?"
-    answer: "Séances de 60 minutes par outil, enregistrées, avec une référence par étape pour résoudre les doutes entre pairs."
-  - question: "La numérisation enlève-t-elle du temps pédagogique ?"
-    answer: "Bien fait, cela s’avère payant : moins de duplication de listes et de circulaires manuelles signifie plus de temps pour l’évaluation et le mentorat."
+    - question: "Comment aligner la technologie avec LOMLOE ?"
+      answer: "Donnez la priorité aux outils qui libèrent du temps pour les compétences clés et l’évaluation continue, et non aux gadgets isolés."
+    - question: "Formation des professeurs : combien est-ce suffisant ?"
+      answer: "Séances de 60 minutes par outil, enregistrées, avec une référence par étape pour résoudre les doutes entre pairs."
+    - question: "La numérisation enlève-t-elle du temps pédagogique ?"
+      answer: "Bien fait, cela s’avère payant : moins de duplication de listes et de circulaires manuelles signifie plus de temps pour l’évaluation et le mentorat."
 ---
-
 
 <strong>Innovation pédagogique grâce à la technologie : transformer l’enseignement et l’apprentissage</strong>
 

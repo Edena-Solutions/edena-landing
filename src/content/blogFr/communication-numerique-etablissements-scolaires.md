@@ -3,20 +3,21 @@ title: "Communication avec les familles : des outils au-delà du courriel"
 date: "2026-02-17"
 description: "Communication numérique dans les établissements scolaires : canaux, segmentation et outils pour toucher efficacement les familles."
 tags: ["communication numérique établissements scolaires", "familles", "canaux", "outils"]
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1170&auto=format&fit=crop"
 faqs:
-  - question: "Faut-il plutôt une application qu'un site web pour les familles ?"
-    answer: "Cela dépend du budget et de l'usage. Un portail adapté au mobile suffit souvent ; une application native peut renforcer la visibilité (icône, notifications) si les familles l'utilisent souvent."
-  - question: "Les notifications push remplacent-elles le courriel ?"
-    answer: "Pas nécessairement. Le courriel reste adapté au contenu long et à l'archivage. Les notifications et SMS excellent pour les messages courts et urgents exigeant une action rapide."
-  - question: "Comment respecter la protection des données lors d'envois de masse ?"
-    answer: "Utiliser des outils qui gèrent consentements et listes, n'utilisent pas les données à des fins commerciales non autorisées, et permettent la désinscription. Le fournisseur est sous-traitant s'il traite des données pour le compte de l'établissement."
-  - question: "Que faire des groupes de messagerie de parents ?"
-    answer: "Il n'est pas recommandé d'en faire le canal officiel : peu de contrôle, risques pour la vie privée et mélange des sujets. Mieux vaut proposer un canal institutionnel (portail, notifications) et, si l'établissement l'accepte, laisser la messagerie informelle à la marge, avec des règles claires."
-  - question: "La communication numérique en établissement exige-t-elle beaucoup de maintenance ?"
-    answer: "Le lancement demande un effort de mise en place ; ensuite, modèles et automatisations réduisent l'entretien. Prévoyez une revue chaque année des contenus et des segments."
+    - question: "Faut-il plutôt une application qu'un site web pour les familles ?"
+      answer: "Cela dépend du budget et de l'usage. Un portail adapté au mobile suffit souvent ; une application native peut renforcer la visibilité (icône, notifications) si les familles l'utilisent souvent."
+    - question: "Les notifications push remplacent-elles le courriel ?"
+      answer: "Pas nécessairement. Le courriel reste adapté au contenu long et à l'archivage. Les notifications et SMS excellent pour les messages courts et urgents exigeant une action rapide."
+    - question: "Comment respecter la protection des données lors d'envois de masse ?"
+      answer: "Utiliser des outils qui gèrent consentements et listes, n'utilisent pas les données à des fins commerciales non autorisées, et permettent la désinscription. Le fournisseur est sous-traitant s'il traite des données pour le compte de l'établissement."
+    - question: "Que faire des groupes de messagerie de parents ?"
+      answer: "Il n'est pas recommandé d'en faire le canal officiel : peu de contrôle, risques pour la vie privée et mélange des sujets. Mieux vaut proposer un canal institutionnel (portail, notifications) et, si l'établissement l'accepte, laisser la messagerie informelle à la marge, avec des règles claires."
+    - question: "La communication numérique en établissement exige-t-elle beaucoup de maintenance ?"
+      answer: "Le lancement demande un effort de mise en place ; ensuite, modèles et automatisations réduisent l'entretien. Prévoyez une revue chaque année des contenus et des segments."
 ---
+
 <strong>Améliorer la communication avec les familles : des outils numériques au-delà du courriel</strong>
 <br>
 

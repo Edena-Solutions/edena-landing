@@ -7,19 +7,18 @@ tags:
     - "expérience"
     - "technologie"
     - "éducation"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-numerisation-2026
+    - checklist-numerisation-2026
 faqs:
-  - question: "Par où commencer la numérisation ?"
-    answer: "Nettoyez les données de base, les frais traçables et le canal familial officiel avant d'étendre les outils de classe."
-  - question: "Les logiciels cloud sont-ils sans danger pour les mineurs ?"
-    answer: "Cela peut être avec un contrat personnalisé, un cryptage et des sous-traitants documentés. Le centre reste responsable."
-  - question: "Combien de temps la direction consacre-t-elle au projet ?"
-    answer: "30 à 45 minutes par semaine au cours des douze premières semaines suffisent généralement pour débloquer sans microgestion."
+    - question: "Par où commencer la numérisation ?"
+      answer: "Nettoyez les données de base, les frais traçables et le canal familial officiel avant d'étendre les outils de classe."
+    - question: "Les logiciels cloud sont-ils sans danger pour les mineurs ?"
+      answer: "Cela peut être avec un contrat personnalisé, un cryptage et des sous-traitants documentés. Le centre reste responsable."
+    - question: "Combien de temps la direction consacre-t-elle au projet ?"
+      answer: "30 à 45 minutes par semaine au cours des douze premières semaines suffisent généralement pour débloquer sans microgestion."
 ---
-
 
 <strong>Expérience utilisateur : clé dans l’adoption des technologies éducatives</strong>
 

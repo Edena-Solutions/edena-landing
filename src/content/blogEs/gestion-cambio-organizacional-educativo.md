@@ -3,17 +3,17 @@ title: "Gestión del cambio organizacional en centros educativos: Estrategias pa
 date: "2025-08-15"
 description: "Aprende cómo gestionar efectivamente los procesos de cambio organizacional en centros educativos para asegurar transformaciones exitosas y sostenibles."
 tags: ["gestión del cambio", "liderazgo educativo", "transformación organizacional", "innovación"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1558932129-58b0867c4985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-digitalizacion-2026
+    - checklist-digitalizacion-2026
 faqs:
-  - question: "¿Cuánto invertir en ads?"
-    answer: "Primero cierra web, Google Business y CRM. Mide coste por matrícula cerrada antes de ampliar presupuesto."
-  - question: "¿Cómo alinear marketing y secretaría?"
-    answer: "Misma información de cuotas y servicios en web, visita y contrato. Una sola fuente de verdad en el ERP."
-  - question: "¿Qué funciona mejor para captar familias en España?"
-    answer: "SEO local, Google Business, Open Day con formulario corto y seguimiento CRM en 24-48 horas."
+    - question: "¿Cuánto invertir en ads?"
+      answer: "Primero cierra web, Google Business y CRM. Mide coste por matrícula cerrada antes de ampliar presupuesto."
+    - question: "¿Cómo alinear marketing y secretaría?"
+      answer: "Misma información de cuotas y servicios en web, visita y contrato. Una sola fuente de verdad en el ERP."
+    - question: "¿Qué funciona mejor para captar familias en España?"
+      answer: "SEO local, Google Business, Open Day con formulario corto y seguimiento CRM en 24-48 horas."
 ---
 
 <strong>Gestión del cambio organizacional en centros educativos: Estrategias para la transformación exitosa</strong>

@@ -8,24 +8,23 @@ tags:
     - "eraginkortasuna"
     - "automatizazioa"
     - "hezkuntza zentroak"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1682144827510-bbe3cd636253?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
-  - software-aukera-egiaztapen-2026
-  - onena-eskola-kudeaketa-softwarea
-  - eskola-kudeaketa-softwarea-aukeratzea
+    - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
+    - software-aukera-egiaztapen-2026
+    - onena-eskola-kudeaketa-softwarea
+    - eskola-kudeaketa-softwarea-aukeratzea
 faqs:
-  - question: "Non hasten da helbidea?"
-    answer: "Orduen eta minaren diagnostikoa idazkaritzan, ez moduluen katalogoa."
-  - question: "Eskola kontseilua eta digitalizazioa?"
-    answer: "Komunikatu mugarriak eta neurketak, ez jargoi teknikoak."
-  - question: "ERP edo SIS: zer behar dut lehenik?"
-    answer: "Min nagusia idazkaritza, bildumak eta familiak badira, lehenetsi ERP integrala. Oharrak eta ikasgelako laguntza soilik behar badituzu, SIS nahikoa izan daiteke epe laburrean, baina azkenean datuak bikoiztu egingo dituzu."
-  - question: "Zenbat denbora irauten du zentzuzko pilotu batek?"
-    answer: "8 eta 12 aste artean, benetako fakturazio- edo onarpen-ziklo batekin eta hasi aurretik adostutako arrakasta-irizpideekin."
+    - question: "Non hasten da helbidea?"
+      answer: "Orduen eta minaren diagnostikoa idazkaritzan, ez moduluen katalogoa."
+    - question: "Eskola kontseilua eta digitalizazioa?"
+      answer: "Komunikatu mugarriak eta neurketak, ez jargoi teknikoak."
+    - question: "ERP edo SIS: zer behar dut lehenik?"
+      answer: "Min nagusia idazkaritza, bildumak eta familiak badira, lehenetsi ERP integrala. Oharrak eta ikasgelako laguntza soilik behar badituzu, SIS nahikoa izan daiteke epe laburrean, baina azkenean datuak bikoiztu egingo dituzu."
+    - question: "Zenbat denbora irauten du zentzuzko pilotu batek?"
+      answer: "8 eta 12 aste artean, benetako fakturazio- edo onarpen-ziklo batekin eta hasi aurretik adostutako arrakasta-irizpideekin."
 ---
-
 
 <strong>Kudeaketa Digitala Hezkuntza Zentroetan 2026: Papera ezabatzea, eraginkortasuna maximizatzea</strong>
 

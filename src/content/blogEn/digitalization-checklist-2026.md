@@ -7,24 +7,24 @@ tags:
     - "checklist"
     - "modernization"
     - "processes"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - save-15-hours-school-admin-2026
-  - automation-school-absenteeism
-  - ai-school-administration-cases
-  - administrative-processes-automate-school
+    - save-15-hours-school-admin-2026
+    - automation-school-absenteeism
+    - ai-school-administration-cases
+    - administrative-processes-automate-school
 faqs:
-  - question: "Does this 2026 digitalization checklist apply to any type of center?"
-    answer: "Yes. The blocks (billing, families, data, processes, visibility) are common; The detail is adapted to the size, educational stage and regional or national regulations."
-  - question: "Where do I start if I'm too far behind?"
-    answer: "Usually a priority is: electronic billing if it is mandatory, and then collection (online payments and reminders) and communication with families. Data and compliance go in parallel to avoid accumulating legal debt."
-  - question: "Do we need a single software for everything?"
-    answer: "It is not mandatory, but a unified core (billing, families, attendance) reduces data duplication and errors. Integrations between systems are an alternative if you already have tools that you want to maintain."
-  - question: "How long does it take to complete the checklist?"
-    answer: "It depends on the starting point. Some centers resolve the critical issues in a course; others distribute the actions in two courses. The important thing is to move forward in blocks and not leave the regulations for last."
-  - question: "How do we keep the checklist up to date?"
-    answer: "Review once a year (for example, start of course) and in case of regulatory or supplier changes. The digitization of educational centers 2026 is a continuous process, not a one-time project."
+    - question: "Does this 2026 digitalization checklist apply to any type of center?"
+      answer: "Yes. The blocks (billing, families, data, processes, visibility) are common; The detail is adapted to the size, educational stage and regional or national regulations."
+    - question: "Where do I start if I'm too far behind?"
+      answer: "Usually a priority is: electronic billing if it is mandatory, and then collection (online payments and reminders) and communication with families. Data and compliance go in parallel to avoid accumulating legal debt."
+    - question: "Do we need a single software for everything?"
+      answer: "It is not mandatory, but a unified core (billing, families, attendance) reduces data duplication and errors. Integrations between systems are an alternative if you already have tools that you want to maintain."
+    - question: "How long does it take to complete the checklist?"
+      answer: "It depends on the starting point. Some centers resolve the critical issues in a course; others distribute the actions in two courses. The important thing is to move forward in blocks and not leave the regulations for last."
+    - question: "How do we keep the checklist up to date?"
+      answer: "Review once a year (for example, start of course) and in case of regulatory or supplier changes. The digitization of educational centers 2026 is a continuous process, not a one-time project."
 ---
 
 <strong>Digitalization checklist 2026 to modernize your educational center</strong>

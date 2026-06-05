@@ -7,24 +7,24 @@ tags:
     - "school payment management"
     - "defaults"
     - "collection"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1662502729255-4d3a58486d4e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJhdWRzdGVyfGVufDB8fDB8fHww"
 relatedPosts:
-  - school-arrears-automated-billing-2026
-  - electronic-billing-verifactu-education-2026
-  - head-teacher-monthly-kpis-2026
-  - online-payments-education
+    - school-arrears-automated-billing-2026
+    - electronic-billing-verifactu-education-2026
+    - head-teacher-monthly-kpis-2026
+    - online-payments-education
 faqs:
-  - question: "Should billing in schools include Verifactu?"
-    answer: "In Spain, the regulations are advancing. Centers must be prepared for electronic billing. School payment management can coexist with Verifactu: electronic invoice and payment link in the same flow."
-  - question: "Are online payments in school payment management secure?"
-    answer: "Yes, if you use a PCI-DSS compliant gateway and do not store card data. Billing in schools with integrated online payment is secure when the provider complies with regulations."
-  - question: "How much late payment is 'normal' at a private school?"
-    answer: "It varies by socioeconomic profile and collection method, but many healthy centers move between 4% and 8% at 45 days. Above 10% it is advisable to review the calendar, direct debit and sequence of reminders before expanding the workforce."
-  - question: "Does Verifactu change how I charge families?"
-    answer: "Verifactu mainly affects the issuance and traceability of invoices before the AEAT, not the payment method itself. It does require your billing software to generate compliant records; It is advisable to integrate it with collections and conciliation."
-  - question: "Can I start only with reminders without direct debit?"
-    answer: "Yes, but the impact is usually minor. Combine both for maximum effect."
+    - question: "Should billing in schools include Verifactu?"
+      answer: "In Spain, the regulations are advancing. Centers must be prepared for electronic billing. School payment management can coexist with Verifactu: electronic invoice and payment link in the same flow."
+    - question: "Are online payments in school payment management secure?"
+      answer: "Yes, if you use a PCI-DSS compliant gateway and do not store card data. Billing in schools with integrated online payment is secure when the provider complies with regulations."
+    - question: "How much late payment is 'normal' at a private school?"
+      answer: "It varies by socioeconomic profile and collection method, but many healthy centers move between 4% and 8% at 45 days. Above 10% it is advisable to review the calendar, direct debit and sequence of reminders before expanding the workforce."
+    - question: "Does Verifactu change how I charge families?"
+      answer: "Verifactu mainly affects the issuance and traceability of invoices before the AEAT, not the payment method itself. It does require your billing software to generate compliant records; It is advisable to integrate it with collections and conciliation."
+    - question: "Can I start only with reminders without direct debit?"
+      answer: "Yes, but the impact is usually minor. Combine both for maximum effect."
 ---
 
 <strong>How to reduce non-payments and improve billing in educational centers</strong>

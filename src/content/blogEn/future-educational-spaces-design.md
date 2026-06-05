@@ -7,20 +7,20 @@ tags:
     - "architectural design"
     - "innovation"
     - "flexible learning"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579388654549-1f4e8c79b5a4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - innovative-pedagogical-methodologies
-  - pedagogical-innovation-technology
-  - digital-assessment-evaluation-education
-  - student-emotional-wellbeing-digital-era
+    - innovative-pedagogical-methodologies
+    - pedagogical-innovation-technology
+    - digital-assessment-evaluation-education
+    - student-emotional-wellbeing-digital-era
 faqs:
-  - question: "Does flexibility require more technology?"
-    answer: "Not necessarily; yes stable connectivity and secure storage of evidence."
-  - question: "How to link space and LOMLOE?"
-    answer: "Competencies of learning to learn and autonomy in varied environments."
-  - question: "Invest in classrooms without digitizing admin?"
-    answer: "The classroom improves; The overall perception of the center remains linked to the secretariat."
+    - question: "Does flexibility require more technology?"
+      answer: "Not necessarily; yes stable connectivity and secure storage of evidence."
+    - question: "How to link space and LOMLOE?"
+      answer: "Competencies of learning to learn and autonomy in varied environments."
+    - question: "Invest in classrooms without digitizing admin?"
+      answer: "The classroom improves; The overall perception of the center remains linked to the secretariat."
 ---
 
 <strong>Educational spaces of the future: Design and innovation for modern learning</strong>

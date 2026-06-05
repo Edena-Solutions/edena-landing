@@ -8,22 +8,21 @@ tags:
     - "hezkuntza berrikuntza"
     - "AI hezkuntza"
     - "ikaskuntza egokitzailea"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1630148198235-6bd561ba72a4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - pedagogia-metodologia-berragarriak
-  - pedagogia-berrikuntza-teknologia
-  - hezkuntzako-ebaluazio-digitala
-  - etorkizuneko-hezkuntza-espazioen-diseinua
+    - pedagogia-metodologia-berragarriak
+    - pedagogia-berrikuntza-teknologia
+    - hezkuntzako-ebaluazio-digitala
+    - etorkizuneko-hezkuntza-espazioen-diseinua
 faqs:
-  - question: "Pantaila interaktiboa edo ordenagailu eramangarria?"
-    answer: "Proiektu pedagogikoaren araberakoa da; Saihestu prestakuntzarik gabe erostea."
-  - question: "ROI administrazioan?"
-    answer: "Asistentzia eta notak plataforma berean integratzeak sarrera bikoitza murrizten du."
-  - question: "Iraunkortasuna?"
-    answer: "Berritzea zikloka, ez modaren arabera."
+    - question: "Pantaila interaktiboa edo ordenagailu eramangarria?"
+      answer: "Proiektu pedagogikoaren araberakoa da; Saihestu prestakuntzarik gabe erostea."
+    - question: "ROI administrazioan?"
+      answer: "Asistentzia eta notak plataforma berean integratzeak sarrera bikoitza murrizten du."
+    - question: "Iraunkortasuna?"
+      answer: "Berritzea zikloka, ez modaren arabera."
 ---
-
 
 <strong>Teknologia berriak ikasgelan 2026: hezkuntza-esperientzia eraldatzen</strong>
 

@@ -7,22 +7,21 @@ tags:
     - "technologie d'assistance"
     - "accessibilité"
     - "diversité"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1550418290-a8d86ad674a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - methodologies-pedagogiques-innovantes
-  - innovation-pedagogique-technologie
-  - evaluation-numerique-educative
-  - espaces-educatifs-avenir-conception
+    - methodologies-pedagogiques-innovantes
+    - innovation-pedagogique-technologie
+    - evaluation-numerique-educative
+    - espaces-educatifs-avenir-conception
 faqs:
-  - question: "La technologie d'assistance dans la salle de classe ordinaire ?"
-    answer: "Lecteurs, agrandisseurs, logiciels de prédiction ; intégré au plan individuel le cas échéant."
-  - question: "Qui évalue les besoins ?"
-    answer: "Orientation, physiothérapie et famille ; enregistrement dans un fichier à accès contrôlé."
-  - question: "Budget du centre ?"
-    answer: "Donnez la priorité aux adaptations peu coûteuses et à fort impact par rapport au matériel coûteux et non formé."
+    - question: "La technologie d'assistance dans la salle de classe ordinaire ?"
+      answer: "Lecteurs, agrandisseurs, logiciels de prédiction ; intégré au plan individuel le cas échéant."
+    - question: "Qui évalue les besoins ?"
+      answer: "Orientation, physiothérapie et famille ; enregistrement dans un fichier à accès contrôlé."
+    - question: "Budget du centre ?"
+      answer: "Donnez la priorité aux adaptations peu coûteuses et à fort impact par rapport au matériel coûteux et non formé."
 ---
-
 
 <strong>Éducation inclusive et technologies d’assistance : créer des salles de classe pour tous</strong>
 

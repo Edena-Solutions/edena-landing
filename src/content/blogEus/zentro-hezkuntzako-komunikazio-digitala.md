@@ -7,26 +7,25 @@ tags:
     - "familiak"
     - "kanalak"
     - "tresnak"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1170&auto=format&fit=crop"
 relatedPosts:
-  - guraso-app-ikastetxean-2026
-  - ikastetxe-familia-plataforma-digital-komunikazioa
-  - familia-komunikazioa-garai-digitalan
-  - hezkuntzarako-mugikor-aplikazioa
+    - guraso-app-ikastetxean-2026
+    - ikastetxe-familia-plataforma-digital-komunikazioa
+    - familia-komunikazioa-garai-digitalan
+    - hezkuntzarako-mugikor-aplikazioa
 faqs:
-  - question: "Hobe al da zure aplikazioa edo familientzako web atari bat izatea?"
-    answer: "Aurrekontuaren eta erabileraren araberakoa da. Mugikorrean ondo funtzionatzen duen responsive portal bat nahikoa izan daiteke; Jatorrizko aplikazio batek ikusgarritasun handiagoa eman dezake (ikonoa, jakinarazpenak) familiek maiz erabiltzen badute."
-  - question: "Push jakinarazpenek posta elektronikoa ordezkatzen al dute?"
-    answer: "Ez derrigorrez. Posta elektronikoa erabilgarria da oraindik eduki luzerako eta artxibatzeko. Push eta SMSak dira egokienak ekintza azkarrak behar dituzten premiazko ohar laburrak egiteko."
-  - question: "Nola betetzen dugu datuen babesa mezu masiboak bidaltzean?"
-    answer: "Erabili baimenak eta zerrendak kudeatzeko aukera ematen duten tresnak, baimenik gabeko helburu komertzialetarako datuak ez partekatzea eta eskatzen duen edonori harpidetza kentzea. Hornitzaileak datu-prozesadore gisa jardun behar du datuak zentroaren izenean tratatzen baditu."
-  - question: "Zer egiten dugu WhatsApp guraso taldeekin?"
-    answer: "Ez da gomendagarria kanal ofizial gisa erabiltzea: kontrol gutxi, pribatutasunaren arriskua eta gaiak nahastea. Hobe kanal ofizial bat eskaintzea (ataria, jakinarazpenak) eta WhatsApp erabilera informalerako uztea zentroak egoki ikusten badu, arau argiekin."
-  - question: "Hezkuntza-zentroetako komunikazio digitalak mantentze-lan handia eskatzen al du?"
-    answer: "Hasierako ezarpena bai; Orduan, txantiloiekin eta automatizazioekin, mantentze-lanak txikiak izan daitezke. Ikastaro bakoitzaren edukia eta segmentazioa berrikustea komeni da."
+    - question: "Hobe al da zure aplikazioa edo familientzako web atari bat izatea?"
+      answer: "Aurrekontuaren eta erabileraren araberakoa da. Mugikorrean ondo funtzionatzen duen responsive portal bat nahikoa izan daiteke; Jatorrizko aplikazio batek ikusgarritasun handiagoa eman dezake (ikonoa, jakinarazpenak) familiek maiz erabiltzen badute."
+    - question: "Push jakinarazpenek posta elektronikoa ordezkatzen al dute?"
+      answer: "Ez derrigorrez. Posta elektronikoa erabilgarria da oraindik eduki luzerako eta artxibatzeko. Push eta SMSak dira egokienak ekintza azkarrak behar dituzten premiazko ohar laburrak egiteko."
+    - question: "Nola betetzen dugu datuen babesa mezu masiboak bidaltzean?"
+      answer: "Erabili baimenak eta zerrendak kudeatzeko aukera ematen duten tresnak, baimenik gabeko helburu komertzialetarako datuak ez partekatzea eta eskatzen duen edonori harpidetza kentzea. Hornitzaileak datu-prozesadore gisa jardun behar du datuak zentroaren izenean tratatzen baditu."
+    - question: "Zer egiten dugu WhatsApp guraso taldeekin?"
+      answer: "Ez da gomendagarria kanal ofizial gisa erabiltzea: kontrol gutxi, pribatutasunaren arriskua eta gaiak nahastea. Hobe kanal ofizial bat eskaintzea (ataria, jakinarazpenak) eta WhatsApp erabilera informalerako uztea zentroak egoki ikusten badu, arau argiekin."
+    - question: "Hezkuntza-zentroetako komunikazio digitalak mantentze-lan handia eskatzen al du?"
+      answer: "Hasierako ezarpena bai; Orduan, txantiloiekin eta automatizazioekin, mantentze-lanak txikiak izan daitezke. Ikastaro bakoitzaren edukia eta segmentazioa berrikustea komeni da."
 ---
-
 
 <strong>Familiekiko komunikazioa hobetzea: posta elektronikoz harago tresna digitalak</strong>
 
@@ -148,11 +147,11 @@ Adostasunarekin eta diskrezioarekin, koordinaziorako; Ez du ordezkatzen traza da
 
 <br>
 
-1) Hezkuntza-zentroetako komunikazio digitalak familiek erraz kontsultatu dezaketen kanal bat izan behar du (ataria/aplikazioa).
-2) Push edo SMS jakinarazpenek premiazko oharren eta abisuen irakurketa hobetzen dute.
-3) Etapa, zerbitzu edo baldintzaren arabera segmentatzeak mezuen garrantzia areagotzen du.
-4) Txantiloiak eta automatizazioak denbora aurrezten dute eta irizpideak bateratzen dituzte.
-5) Mezu mota bakoitzerako zein kanal erabili behar den zehaztu zarata saihesten du eta erantzuna hobetzen du.
+1. Hezkuntza-zentroetako komunikazio digitalak familiek erraz kontsultatu dezaketen kanal bat izan behar du (ataria/aplikazioa).
+2. Push edo SMS jakinarazpenek premiazko oharren eta abisuen irakurketa hobetzen dute.
+3. Etapa, zerbitzu edo baldintzaren arabera segmentatzeak mezuen garrantzia areagotzen du.
+4. Txantiloiak eta automatizazioak denbora aurrezten dute eta irizpideak bateratzen dituzte.
+5. Mezu mota bakoitzerako zein kanal erabili behar den zehaztu zarata saihesten du eta erantzuna hobetzen du.
 
 Zure zentroko familiekin komunikazioa nola hobetu berrikusi nahi duzu? Eskatu demo bat eta zure errealitatera hobekien egokitzen diren kanalak, segmentazioa eta fluxuak ikusiko ditugu.
 

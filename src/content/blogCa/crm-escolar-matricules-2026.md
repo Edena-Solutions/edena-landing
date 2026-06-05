@@ -9,26 +9,25 @@ tags:
     - "leads educació"
     - "formularis escolars"
     - "inscripcions"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1730382624360-9cf5609c8364?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - matricula-online-centre-pas-2026
-  - incorporacio-digital-families-matricula-en-linia
-  - digitalitzacio-retencio-alumnes
-  - retencio-estudiants-era-digital
+    - matricula-online-centre-pas-2026
+    - incorporacio-digital-families-matricula-en-linia
+    - digitalitzacio-retencio-alumnes
+    - retencio-estudiants-era-digital
 faqs:
-  - question: "Un CRM “enganxat amb APIs” a la plataforma és igual que integrat?"
-    answer: "De vegades, amb cost, latència, duplicats, desincronització, i errades en tancament, integrat, sol baixar risc."
-  - question: "Quant puja la conversió amb CRM?"
-    answer: "Depèn d'embut, sector, oferta, no fixem xifra màgica, però veure etapes i fons, sol alinear esforç, cosa que puja taxa, no garanteix 20 punts, però evita fugues ximples."
-  - question: "Com es gestiona una llista d'espera al CRM?"
-    answer: "Crea una etapa específica de llista d'espera al pipeline amb camp de posició i confirmació automàtica per a la família. Quan quedi lliure una plaça, el sistema alerta el propietari de l'etapa per avançar la sol·licitud següent. Evita gestionar la llista d'espera en un Excel separat: és on neixen els conflictes de \"qui feia més temps\"."
-  - question: "Quan afegir el mòdul de comunicació Pro al flux del CRM?"
-    answer: "Quan el volum de sol·licituds sigui prou alt perquè el correu només provoqui que les famílies no vegin notificacions de canvi d'etapa, o quan necessitis confirmació de lectura en missatges de confirmació de plaça o pagament de senyal. La comunicació bàsica funciona per a volums moderats; Pro afegeix push i confirmació quan el procés d'admissió ho justifica."
-  - question: "Què passa amb dades sensibles i GDPR?"
-    answer: "Criteri de base legal, terminis, neteja i consentiment, el programari acompanya, no reemplaça assessoria, exigeix ​​mínims, Edena, enfocament plataforma amb control d'accessos, documentació, responsabilitat compartida."
+    - question: "Un CRM “enganxat amb APIs” a la plataforma és igual que integrat?"
+      answer: "De vegades, amb cost, latència, duplicats, desincronització, i errades en tancament, integrat, sol baixar risc."
+    - question: "Quant puja la conversió amb CRM?"
+      answer: "Depèn d'embut, sector, oferta, no fixem xifra màgica, però veure etapes i fons, sol alinear esforç, cosa que puja taxa, no garanteix 20 punts, però evita fugues ximples."
+    - question: "Com es gestiona una llista d'espera al CRM?"
+      answer: 'Crea una etapa específica de llista d''espera al pipeline amb camp de posició i confirmació automàtica per a la família. Quan quedi lliure una plaça, el sistema alerta el propietari de l''etapa per avançar la sol·licitud següent. Evita gestionar la llista d''espera en un Excel separat: és on neixen els conflictes de "qui feia més temps".'
+    - question: "Quan afegir el mòdul de comunicació Pro al flux del CRM?"
+      answer: "Quan el volum de sol·licituds sigui prou alt perquè el correu només provoqui que les famílies no vegin notificacions de canvi d'etapa, o quan necessitis confirmació de lectura en missatges de confirmació de plaça o pagament de senyal. La comunicació bàsica funciona per a volums moderats; Pro afegeix push i confirmació quan el procés d'admissió ho justifica."
+    - question: "Què passa amb dades sensibles i GDPR?"
+      answer: "Criteri de base legal, terminis, neteja i consentiment, el programari acompanya, no reemplaça assessoria, exigeix ​​mínims, Edena, enfocament plataforma amb control d'accessos, documentació, responsabilitat compartida."
 ---
-
 
 <strong>CRM escolar: com augmentar matrícules i convertir més sol·licituds</strong>
 

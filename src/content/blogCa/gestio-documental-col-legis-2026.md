@@ -9,24 +9,23 @@ tags:
     - "documents famílies"
     - "GDPR centres"
     - "núvol educatiu"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576836165612-8bc9b07e7778?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - expedient-academic-digital-estudiants
-  - gestio-documental-digital-centres
+    - expedient-academic-digital-estudiants
+    - gestio-documental-digital-centres
 faqs:
-  - question: "El mòdul Cloud és obligatori per tenir expedient digital?"
-    answer: "No. La plataforma base inclou expedient digital amb dades, historial i organigrama. El mòdul Cloud amplia amb repositori de fitxers, carpetes i visibilitat granular. Avalua amb el teu equip el volum i el tipus de documents abans de contractar un mòdul que quedi buit de contingut i criteri."
-  - question: "Podem exigir a les famílies que pugin documents al portal en lloc de portar-los en paper?"
-    answer: "Sí, amb transició. Requereix comunicació clara, guia de càrrega, alternativa per a famílies amb poca competència digital i acord intern sobre què passa si el document arriba en paper. No és un decret: és un canvi de procés que necessita acompanyament."
-  - question: "Com gestionar un document que ja no es pot compartir per GDPR?"
-    answer: "Amb el criteri del teu DPO: baixa lògica o física en el termini definit, amb registre de lacció. La plataforma facilita l'accés i el control, però la decisió de què esborrar i quan la pren el responsable del tractament del centre, no pas el programari."
-  - question: "Què passa amb els documents quan un alumne es dóna de baixa o es trasllada?"
-    answer: "Depèn de la teva política i de la normativa aplicable: alguns documents es traslladen amb l'expedient, altres s'arxiven pel període legal i després es destrueixen. Defineix el protocol abans que passi la primera baixa, no després."
-  - question: "El mòdul Cloud de Edena serveix també per a documents de l'equip docent?"
-    answer: "Les carpetes i la visibilitat es poden configurar per grup o alumne. Per a documentació interna de l'equip docent convé definir estructura de permisos separada, amb criteri propi, consultant amb el vostre interlocutor d'implementació quins fluxos suporta el mòdul contractat."
+    - question: "El mòdul Cloud és obligatori per tenir expedient digital?"
+      answer: "No. La plataforma base inclou expedient digital amb dades, historial i organigrama. El mòdul Cloud amplia amb repositori de fitxers, carpetes i visibilitat granular. Avalua amb el teu equip el volum i el tipus de documents abans de contractar un mòdul que quedi buit de contingut i criteri."
+    - question: "Podem exigir a les famílies que pugin documents al portal en lloc de portar-los en paper?"
+      answer: "Sí, amb transició. Requereix comunicació clara, guia de càrrega, alternativa per a famílies amb poca competència digital i acord intern sobre què passa si el document arriba en paper. No és un decret: és un canvi de procés que necessita acompanyament."
+    - question: "Com gestionar un document que ja no es pot compartir per GDPR?"
+      answer: "Amb el criteri del teu DPO: baixa lògica o física en el termini definit, amb registre de lacció. La plataforma facilita l'accés i el control, però la decisió de què esborrar i quan la pren el responsable del tractament del centre, no pas el programari."
+    - question: "Què passa amb els documents quan un alumne es dóna de baixa o es trasllada?"
+      answer: "Depèn de la teva política i de la normativa aplicable: alguns documents es traslladen amb l'expedient, altres s'arxiven pel període legal i després es destrueixen. Defineix el protocol abans que passi la primera baixa, no després."
+    - question: "El mòdul Cloud de Edena serveix també per a documents de l'equip docent?"
+      answer: "Les carpetes i la visibilitat es poden configurar per grup o alumne. Per a documentació interna de l'equip docent convé definir estructura de permisos separada, amb criteri propi, consultant amb el vostre interlocutor d'implementació quins fluxos suporta el mòdul contractat."
 ---
-
 
 <strong>Gestió documental a col·legis: adéu al paper i als expedients perduts</strong>
 

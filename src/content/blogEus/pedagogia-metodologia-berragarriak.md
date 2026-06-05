@@ -7,20 +7,20 @@ tags:
     - "innovación educativa"
     - "enseñanza activa"
     - "aprendizaje"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1611348586755-53860f7ae57a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - pedagogia-berrikuntza-teknologia
-  - hezkuntzako-ebaluazio-digitala
-  - etorkizuneko-hezkuntza-espazioen-diseinua
-  - ikasleen-ongizate-emozional-digitala
+    - pedagogia-berrikuntza-teknologia
+    - hezkuntzako-ebaluazio-digitala
+    - etorkizuneko-hezkuntza-espazioen-diseinua
+    - ikasleen-ongizate-emozional-digitala
 faqs:
-  - question: "Metodologia aktiboa administratzaile kargatu gabe?"
-    answer: "Planifikazioa eskatzen du; Zerrendak digitalizatzeak diseinatzeko denbora askatzen du."
-  - question: "Barne prestakuntza?"
-    answer: "Sailen arteko ikas komunitateak, ez kanpoko ikastaroa bakarrik."
-  - question: "Nola ebaluatu berrikuntza?"
-    answer: "Gaitasun-adierazle nagusiak, ez bakarrik irakasleen gogobetetasuna."
+    - question: "Metodologia aktiboa administratzaile kargatu gabe?"
+      answer: "Planifikazioa eskatzen du; Zerrendak digitalizatzeak diseinatzeko denbora askatzen du."
+    - question: "Barne prestakuntza?"
+      answer: "Sailen arteko ikas komunitateak, ez kanpoko ikastaroa bakarrik."
+    - question: "Nola ebaluatu berrikuntza?"
+      answer: "Gaitasun-adierazle nagusiak, ez bakarrik irakasleen gogobetetasuna."
 ---
 
 <strong>Metodologia pedagogiko berritzaileak: Irakaskuntza-ikaskuntza prozesua eraldatzea</strong>

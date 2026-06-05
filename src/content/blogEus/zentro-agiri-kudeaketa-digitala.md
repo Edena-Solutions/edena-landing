@@ -7,18 +7,18 @@ tags:
     - "digital"
     - "gestión"
     - "educación"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1583521214690-73421a1829a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - dokumentu-kudeaketa-eskola-2026
-  - ikasleen-agiri-akademiko-digitala
+    - dokumentu-kudeaketa-eskola-2026
+    - ikasleen-agiri-akademiko-digitala
 faqs:
-  - question: "Historia-artxibo guztia digitalizatu?"
-    answer: "Lehenetsi uneko ikasturtea eta agiri aktiboak; historia faseka."
-  - question: "Nork ezabatu ditzake agiriak?"
-    answer: "Baimendutako rolak soilik; ezabaketa-erregistroa auditoretzarako."
-  - question: "Sinadura digitala balioduna da?"
-    answer: "Kontsultatu agiri-mota; eskola-baimenetako askok trazagarritasunarekin sinadura sinplea onartzen dute."
+    - question: "Historia-artxibo guztia digitalizatu?"
+      answer: "Lehenetsi uneko ikasturtea eta agiri aktiboak; historia faseka."
+    - question: "Nork ezabatu ditzake agiriak?"
+      answer: "Baimendutako rolak soilik; ezabaketa-erregistroa auditoretzarako."
+    - question: "Sinadura digitala balioduna da?"
+      answer: "Kontsultatu agiri-mota; eskola-baimenetako askok trazagarritasunarekin sinadura sinplea onartzen dute."
 ---
 
 <strong>Agiri-kudeaketa digitala: eskola-administrazioaren etorkizuna</strong>

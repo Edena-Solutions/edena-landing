@@ -9,26 +9,25 @@ tags:
     - "izena emateko formularioak"
     - "CRM eskola"
     - "familiaren autogestioa"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - eskola-crm-matrikulak-bihurketak-2026
-  - familia-digital-onboarding-matrikula-online
-  - ikasleen-atzokitze-digitalizazioa
-  - ikasle-atzokitzea-garai-digitalan
+    - eskola-crm-matrikulak-bihurketak-2026
+    - familia-digital-onboarding-matrikula-online
+    - ikasleen-atzokitze-digitalizazioa
+    - ikasle-atzokitzea-garai-digitalan
 faqs:
-  - question: "Zenbat denbora behar da Edena-n erregistratzeko prozesua konfiguratzeko?"
-    answer: "Oinarrizko konfigurazio bat (inprimakia, kanalizazio-etapak, ordainketa-araua eta berrespen automatizatua) aste batean prest egon daiteke prozesuaren diseinua dagoeneko definituta badago. Dokumentu mota anitz dituzten fluxu konplexuagoak, etapako automatizazioak eta Pro komunikazioa bi edo hiru aste behar dituzte. Inplementazio-taldea onboarding barruan doa konfigurazioarekin."
-  - question: "Nola neurtu prozesu digitala funtzionatzen ari dela?"
-    answer: "Adierazle fidagarrienak hauek dira: eskaera betetze-tasa (hasitakoa eta bidalitakoa), lehen kontaktutik berretsitako lekurainoko denbora eta deien ehunekoa \"jaso al duzu nire eskaera?\" martxan jarri ondoren. Osatzeko tasak baxuak badira, formularioa luzeegia da edo lehen urratsa zorrotzegia da. Berrespenerako denbora gutxitu ez bada, botila-lepoa barne baliozkotze prozesuan dago, ez formularioan."
-  - question: "CRM eta erregistroa behar ditut, ala nahikoa al da inprimaki isolatua?"
-    answer: "Inbuturik gabeko formulario batek erretiletara itzultzen zaitu. CRM etapa, arduraduna, jatorria eta neurketa eskaintzen ditu. Hori gabe, ez duzu batzorde gisa eskalatzen edo lehenesten."
-  - question: "Zer gertatzen da GDPR?"
-    answer: "Lege-oinarria, atxikipena, sarbidea eta baimenak ezarri behar dituzu zure DPO edo aholkulariarekin. Softwareak rolaren, arrastoen eta atarien araberako sarbidea errazten du, baina ez ditu zentroaren legezko irizpideak ordezkatzen. Edena produktuen irizpideak aurkezten ditu, ez aholkularitza juridikoa."
-  - question: "Nola egokitzen da hitzartutako erregimena edo dokumentazio osagarria?"
-    answer: "Banaketa: eskatu eranskinak dagokion fasean, ez egiaztapena kolapsatzen duen \"dena astelehen batean\". Aurreikusi gailurrak, ez lan karga faltsua."
+    - question: "Zenbat denbora behar da Edena-n erregistratzeko prozesua konfiguratzeko?"
+      answer: "Oinarrizko konfigurazio bat (inprimakia, kanalizazio-etapak, ordainketa-araua eta berrespen automatizatua) aste batean prest egon daiteke prozesuaren diseinua dagoeneko definituta badago. Dokumentu mota anitz dituzten fluxu konplexuagoak, etapako automatizazioak eta Pro komunikazioa bi edo hiru aste behar dituzte. Inplementazio-taldea onboarding barruan doa konfigurazioarekin."
+    - question: "Nola neurtu prozesu digitala funtzionatzen ari dela?"
+      answer: 'Adierazle fidagarrienak hauek dira: eskaera betetze-tasa (hasitakoa eta bidalitakoa), lehen kontaktutik berretsitako lekurainoko denbora eta deien ehunekoa "jaso al duzu nire eskaera?" martxan jarri ondoren. Osatzeko tasak baxuak badira, formularioa luzeegia da edo lehen urratsa zorrotzegia da. Berrespenerako denbora gutxitu ez bada, botila-lepoa barne baliozkotze prozesuan dago, ez formularioan.'
+    - question: "CRM eta erregistroa behar ditut, ala nahikoa al da inprimaki isolatua?"
+      answer: "Inbuturik gabeko formulario batek erretiletara itzultzen zaitu. CRM etapa, arduraduna, jatorria eta neurketa eskaintzen ditu. Hori gabe, ez duzu batzorde gisa eskalatzen edo lehenesten."
+    - question: "Zer gertatzen da GDPR?"
+      answer: "Lege-oinarria, atxikipena, sarbidea eta baimenak ezarri behar dituzu zure DPO edo aholkulariarekin. Softwareak rolaren, arrastoen eta atarien araberako sarbidea errazten du, baina ez ditu zentroaren legezko irizpideak ordezkatzen. Edena produktuen irizpideak aurkezten ditu, ez aholkularitza juridikoa."
+    - question: "Nola egokitzen da hitzartutako erregimena edo dokumentazio osagarria?"
+      answer: 'Banaketa: eskatu eranskinak dagokion fasean, ez egiaztapena kolapsatzen duen "dena astelehen batean". Aurreikusi gailurrak, ez lan karga faltsua.'
 ---
-
 
 <strong>Nola digitalizatu zure hezkuntza-zentroaren lineako erregistroa urratsez urrats</strong>
 

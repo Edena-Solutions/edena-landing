@@ -7,24 +7,24 @@ tags:
     - "defaults"
     - "billing"
     - "educational centers"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1556740714-a8395b3bf30f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - school-arrears-automated-billing-2026
-  - electronic-billing-verifactu-education-2026
-  - head-teacher-monthly-kpis-2026
-  - reduce-arrears-billing-schools
+    - school-arrears-automated-billing-2026
+    - electronic-billing-verifactu-education-2026
+    - head-teacher-monthly-kpis-2026
+    - reduce-arrears-billing-schools
 faqs:
-  - question: "Are online payments in education secure?"
-    answer: "Yes, if you use a PCI-DSS compliant gateway and do not store card data. Payment is made on the provider's page or with tokenization; The center does not manage the card number."
-  - question: "What does a gateway for educational centers cost?"
-    answer: "It is usually a percentage per transaction plus a possible monthly fixed amount. Compare with the current cost of managing manual collections and the impact of reducing non-payments."
-  - question: "Can we continue to offer cash or check payment?"
-    answer: "Yes. Online payments in education can coexist with other methods; The goal is that anyone who prefers to pay online can do so without friction."
-  - question: "What to do if a family says they have paid and it does not appear in the system?"
-    answer: "Have a clear process: check at the gateway and at the bank, ask the family for proof and update the status when confirmed. Periodic conciliation reduces these cases."
-  - question: "Does electronic invoicing (Verifactu) affect online payments?"
-    answer: "They are different things: electronic invoicing regulates the format and sending of invoices; Online payments are the means of collection. They can coexist: electronic invoice and payment link in the same flow."
+    - question: "Are online payments in education secure?"
+      answer: "Yes, if you use a PCI-DSS compliant gateway and do not store card data. Payment is made on the provider's page or with tokenization; The center does not manage the card number."
+    - question: "What does a gateway for educational centers cost?"
+      answer: "It is usually a percentage per transaction plus a possible monthly fixed amount. Compare with the current cost of managing manual collections and the impact of reducing non-payments."
+    - question: "Can we continue to offer cash or check payment?"
+      answer: "Yes. Online payments in education can coexist with other methods; The goal is that anyone who prefers to pay online can do so without friction."
+    - question: "What to do if a family says they have paid and it does not appear in the system?"
+      answer: "Have a clear process: check at the gateway and at the bank, ask the family for proof and update the status when confirmed. Periodic conciliation reduces these cases."
+    - question: "Does electronic invoicing (Verifactu) affect online payments?"
+      answer: "They are different things: electronic invoicing regulates the format and sending of invoices; Online payments are the means of collection. They can coexist: electronic invoice and payment link in the same flow."
 ---
 
 <strong>How to integrate online payments in schools and reduce defaults</strong>

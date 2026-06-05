@@ -3,17 +3,17 @@ title: "Transformación digital en centros educativos: De la resistencia al éxi
 date: "2024-12-15"
 description: "Descubre las estrategias clave para implementar exitosamente la transformación digital en centros educativos y superar los desafíos comunes."
 tags: ["transformación digital", "cambio organizacional", "liderazgo", "innovación"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-digitalizacion-2026
+    - checklist-digitalizacion-2026
 faqs:
-  - question: "¿Cómo medir el éxito del cambio?"
-    answer: "Horas admin semanales, tasa de error en facturación o tiempo medio de alta de familia nueva."
-  - question: "¿Por qué proceso empiezo a automatizar?"
-    answer: "Cobros recurrentes y asistencia suelen ser los de mayor retorno inmediato en horas y errores evitados."
-  - question: "¿Cuánto dura un piloto razonable?"
-    answer: "Entre 8 y 12 semanas, con un ciclo real de facturación o admisión y criterio de éxito escrito."
+    - question: "¿Cómo medir el éxito del cambio?"
+      answer: "Horas admin semanales, tasa de error en facturación o tiempo medio de alta de familia nueva."
+    - question: "¿Por qué proceso empiezo a automatizar?"
+      answer: "Cobros recurrentes y asistencia suelen ser los de mayor retorno inmediato en horas y errores evitados."
+    - question: "¿Cuánto dura un piloto razonable?"
+      answer: "Entre 8 y 12 semanas, con un ciclo real de facturación o admisión y criterio de éxito escrito."
 ---
 
 <strong>Transformación digital en centros educativos: De la resistencia al éxito</strong>
@@ -128,10 +128,10 @@ La escalabilidad es especialmente importante para centros que planean expandirse
 
 <br>
 
-- **Fase 1 :  Infraestructura y datos:** Maestros limpios antes de cualquier módulo.
-- **Fase 2 :  Cobros:** Primer dolor medible de secretaría y tesorería.
-- **Fase 3 :  Comunicación y expediente:** Portal familiar con trazabilidad.
-- **Fase 4 :  Captación y analítica:** CRM y dashboard cuando la base operativa es fiable.
+- **Fase 1 : Infraestructura y datos:** Maestros limpios antes de cualquier módulo.
+- **Fase 2 : Cobros:** Primer dolor medible de secretaría y tesorería.
+- **Fase 3 : Comunicación y expediente:** Portal familiar con trazabilidad.
+- **Fase 4 : Captación y analítica:** CRM y dashboard cuando la base operativa es fiable.
 
 Una métrica por fase; no saltes fase 1 si los datos están sucios.
 

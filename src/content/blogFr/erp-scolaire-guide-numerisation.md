@@ -3,16 +3,17 @@ title: "ERP scolaire : le guide complet pour numériser la gestion de votre éta
 date: "2026-02-28"
 description: "ERP scolaire et logiciel de gestion pour les écoles : guide pratique pour numériser la facturation, les familles, les dossiers et les processus administratifs."
 tags: ["ERP scolaire", "logiciel gestion écoles", "numérisation", "gestion éducative"]
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677363463978-1aaeb823b2ac?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 faqs:
-  - question: "Un ERP scolaire remplace-t-il plusieurs systèmes ?"
-    answer: "Oui. Un ERP scolaire bien choisi peut remplacer les tableurs, un logiciel de facturation isolé, des outils de communication éclatés et une partie de la gestion des dossiers. L’objectif est d’avoir un noyau unifié."
-  - question: "Le logiciel de gestion pour les écoles inclut-il la facturation électronique ?"
-    answer: "Les ERP scolaires modernes incluent ou intègrent en général la facturation électronique et Verifactu. Vérifiez que votre fournisseur est prêt ou en cours d’adaptation avant de signer."
-  - question: "Combien de temps prend le déploiement d’un ERP scolaire ?"
-    answer: "Cela dépend du point de départ et du périmètre. Un pilote facturation et familles peut être opérationnel en quelques semaines ; un déploiement complet avec migration des données peut prendre plusieurs mois. Planifiez par phases."
+    - question: "Un ERP scolaire remplace-t-il plusieurs systèmes ?"
+      answer: "Oui. Un ERP scolaire bien choisi peut remplacer les tableurs, un logiciel de facturation isolé, des outils de communication éclatés et une partie de la gestion des dossiers. L’objectif est d’avoir un noyau unifié."
+    - question: "Le logiciel de gestion pour les écoles inclut-il la facturation électronique ?"
+      answer: "Les ERP scolaires modernes incluent ou intègrent en général la facturation électronique et Verifactu. Vérifiez que votre fournisseur est prêt ou en cours d’adaptation avant de signer."
+    - question: "Combien de temps prend le déploiement d’un ERP scolaire ?"
+      answer: "Cela dépend du point de départ et du périmètre. Un pilote facturation et familles peut être opérationnel en quelques semaines ; un déploiement complet avec migration des données peut prendre plusieurs mois. Planifiez par phases."
 ---
+
 <strong>ERP scolaire : le guide complet pour numériser la gestion de votre établissement</strong>
 
 <br>

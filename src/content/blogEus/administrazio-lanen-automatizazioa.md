@@ -7,20 +7,20 @@ tags:
     - "procesos administrativos"
     - "eficiencia"
     - "educación"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - 15-ordu-admin-eskola-2026
-  - eskola-absentismoaren-automatizazioa
-  - ia-eskola-kudeaketa-kasu-praktikoak
-  - ikastetxe-administrazio-prozesu-automatizatu
+    - 15-ordu-admin-eskola-2026
+    - eskola-absentismoaren-automatizazioa
+    - ia-eskola-kudeaketa-kasu-praktikoak
+    - ikastetxe-administrazio-prozesu-automatizatu
 faqs:
-  - question: "Zer EZ automatizatu?"
-    answer: "Diziplina-erabakiak, familia-egoera delikatuak, bekaren salbuespenak."
-  - question: "Zenbat denbora behar da aurrezkiak ikusteko?"
-    answer: "Lehenengo 4-6 aste rol bakoitzeko gutxieneko prestakuntzaren ondoren."
-  - question: "Akats handiak izateko arriskua?"
-    answer: "Bai arauak probatzen ez badituzu; Hasi pilotu ikastaro batekin."
+    - question: "Zer EZ automatizatu?"
+      answer: "Diziplina-erabakiak, familia-egoera delikatuak, bekaren salbuespenak."
+    - question: "Zenbat denbora behar da aurrezkiak ikusteko?"
+      answer: "Lehenengo 4-6 aste rol bakoitzeko gutxieneko prestakuntzaren ondoren."
+    - question: "Akats handiak izateko arriskua?"
+      answer: "Bai arauak probatzen ez badituzu; Hasi pilotu ikastaro batekin."
 ---
 
 <strong>Administrazio-zereginen automatizazioa: hezkuntzarako denbora askatu</strong>

@@ -9,26 +9,25 @@ tags:
     - "facturació infantil"
     - "plataforma escolar"
     - "Edena"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - comparativa-programari-gestio-escolar-2026
-  - checklist-software-escolar-director-2026
-  - millor-programari-gestio-escolar
-  - triar-programari-gestio-escolar
+    - comparativa-programari-gestio-escolar-2026
+    - checklist-software-escolar-director-2026
+    - millor-programari-gestio-escolar
+    - triar-programari-gestio-escolar
 faqs:
-  - question: "Verifactu és ja obligatori per a escoles infantils?"
-    answer: "L‟obligació i el calendari la defineix la normativa fiscal i el calendari d‟implantació; consulta amb el teu assessor fiscal. El que sí que has d'exigir al proveïdor és claredat sobre com suporta la facturació electrònica, en quin termini, i quin acompanyament ofereix per a la transició."
-  - question: "Un ERP per a infantil pot gestionar també alumnes amb necessitats especials?"
-    answer: "L'expedient digital pot emmagatzemar informació específica d'adaptacions, autoritzacions i protocols. El nivell de detall i l'estructura d'aquests registres depèn de com configureu el sistema; consulta quins camps personalitzables ofereix el proveïdor per a aquest perfil abans de comprometre't."
-  - question: "Com es gestiona la transició d'un sistema antic sense perdre dades crítiques?"
-    answer: "Exigeix ​​al proveïdor un pla de migració per fases: primer dades mestres (alumnes, tutors, grups), després històric de cobraments, després documents. Valida amb dades reals abans de tancar el sistema anterior i planifica un període de coexistència. Sense aquest pla, el risc de perdre històric d?impagaments o contractes és real."
-  - question: "Quan triga a estar operativa la plataforma?"
-    answer: "Depèn del volum de dades, la complexitat del centre i el nivell de personalització. A centres de fins a 150 places, un pilot bàsic pot estar actiu en quatre a sis setmanes amb migració i formació incloses, si hi ha dedicació d'un responsable intern."
-  - question: "Val la pena el mòdul d'extraescolars si tenim poques activitats?"
-    answer: "Si les activitats generen cobraments propis i tenen places limitades, el mòdul evita la gestió per correu electrònic i el circuit paral·lel de full dinscripció. Si només tens una activitat amb inscripció lliure i sense cobrament, avalua si el cost del mòdul compensa."
+    - question: "Verifactu és ja obligatori per a escoles infantils?"
+      answer: "L‟obligació i el calendari la defineix la normativa fiscal i el calendari d‟implantació; consulta amb el teu assessor fiscal. El que sí que has d'exigir al proveïdor és claredat sobre com suporta la facturació electrònica, en quin termini, i quin acompanyament ofereix per a la transició."
+    - question: "Un ERP per a infantil pot gestionar també alumnes amb necessitats especials?"
+      answer: "L'expedient digital pot emmagatzemar informació específica d'adaptacions, autoritzacions i protocols. El nivell de detall i l'estructura d'aquests registres depèn de com configureu el sistema; consulta quins camps personalitzables ofereix el proveïdor per a aquest perfil abans de comprometre't."
+    - question: "Com es gestiona la transició d'un sistema antic sense perdre dades crítiques?"
+      answer: "Exigeix ​​al proveïdor un pla de migració per fases: primer dades mestres (alumnes, tutors, grups), després històric de cobraments, després documents. Valida amb dades reals abans de tancar el sistema anterior i planifica un període de coexistència. Sense aquest pla, el risc de perdre històric d?impagaments o contractes és real."
+    - question: "Quan triga a estar operativa la plataforma?"
+      answer: "Depèn del volum de dades, la complexitat del centre i el nivell de personalització. A centres de fins a 150 places, un pilot bàsic pot estar actiu en quatre a sis setmanes amb migració i formació incloses, si hi ha dedicació d'un responsable intern."
+    - question: "Val la pena el mòdul d'extraescolars si tenim poques activitats?"
+      answer: "Si les activitats generen cobraments propis i tenen places limitades, el mòdul evita la gestió per correu electrònic i el circuit paral·lel de full dinscripció. Si només tens una activitat amb inscripció lliure i sense cobrament, avalua si el cost del mòdul compensa."
 ---
-
 
 <strong>Què ha de tenir un ERP per a escoles infantils el 2026</strong>
 

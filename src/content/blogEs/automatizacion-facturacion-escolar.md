@@ -3,22 +3,22 @@ title: "Automatización de la facturación escolar: Optimiza tus procesos intern
 date: "2025-01-15"
 description: "Automatizar emisión de facturas y ciclos de cobro recurrentes. Guía práctica para centros educativos en España (2026)."
 tags: ["facturación", "automatización", "procesos", "educación"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1679923906308-c26a0e2ca510?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - morosidad-colegios-cobros-automaticos-2026
-  - facturacion-electronica-verifactu-educacion-2026
-  - kpis-director-colegio-mensual-2026
-  - reducir-impagos-facturacion-colegios
+    - morosidad-colegios-cobros-automaticos-2026
+    - facturacion-electronica-verifactu-educacion-2026
+    - kpis-director-colegio-mensual-2026
+    - reducir-impagos-facturacion-colegios
 faqs:
-  - question: "¿Facturar el día 1 o repartir emisión?"
-    answer: "Emitid con antelación suficiente para domiciliación; evitad picos manuales el último día."
-  - question: "¿Rectificativas automatizables?"
-    answer: "Parcialmente; definid flujo de aprobación antes de emitir abono."
-  - question: "¿Cuánto morosidad es 'normal' en un colegio privado?"
-    answer: "Varía por perfil socioeconómico y método de cobro, pero muchos centros saludables se mueven entre el 4 % y el 8 % a 45 días. Por encima del 10 % conviene revisar calendario, domiciliación y secuencia de recordatorios antes de ampliar plantilla."
-  - question: "¿Verifactu cambia cómo cobro a las familias?"
-    answer: "Verifactu afecta sobre todo a la emisión y trazabilidad de facturas ante la AEAT, no al método de pago en sí. Sí obliga a que tu software de facturación genere registros conformes; conviene integrarlo con cobros y conciliación."
+    - question: "¿Facturar el día 1 o repartir emisión?"
+      answer: "Emitid con antelación suficiente para domiciliación; evitad picos manuales el último día."
+    - question: "¿Rectificativas automatizables?"
+      answer: "Parcialmente; definid flujo de aprobación antes de emitir abono."
+    - question: "¿Cuánto morosidad es 'normal' en un colegio privado?"
+      answer: "Varía por perfil socioeconómico y método de cobro, pero muchos centros saludables se mueven entre el 4 % y el 8 % a 45 días. Por encima del 10 % conviene revisar calendario, domiciliación y secuencia de recordatorios antes de ampliar plantilla."
+    - question: "¿Verifactu cambia cómo cobro a las familias?"
+      answer: "Verifactu afecta sobre todo a la emisión y trazabilidad de facturas ante la AEAT, no al método de pago en sí. Sí obliga a que tu software de facturación genere registros conformes; conviene integrarlo con cobros y conciliación."
 ---
 
 <strong>Automatización de la facturación escolar: Optimiza tus procesos internos</strong>

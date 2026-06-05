@@ -9,26 +9,25 @@ tags:
     - "reduir tasques administratives"
     - "gestió temps col·legi"
     - "Edena"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - automatitzacio-absentisme-escolar
-  - ia-gestio-escolar-casos-practics
-  - processos-administratius-automatitzar-col-legi
-  - automatitzacio-tasques-administratives
+    - automatitzacio-absentisme-escolar
+    - ia-gestio-escolar-casos-practics
+    - processos-administratius-automatitzar-col-legi
+    - automatitzacio-tasques-administratives
 faqs:
-  - question: "Les 15 hores són reals per a un col·legi petit de menys de 100 alumnes?"
-    answer: "Sí, encara que el desglossament canvia. A centres petits, el temps es perd més en tasques manuals de cobrament i comunicació un per un. Un pilot d‟automatització de rebuts i un formulari de matrícula digital pot recuperar entre sis i deu hores setmanals en dos mesos, depenent del volum i la disciplina d‟ús."
-  - question: "Necessito tots els mòduls per veure lestalvi?"
-    answer: "No. Comença amb el bloc que genera més fricció: si són els cobraments, el mòdul de facturació. Si és la matrícula, el CRM amb formularis. Si és la comunicació, avalua si la bàsica és suficient abans de contractar Pro. L'estalvi apareix quan es tanca el canal paral·lel, no quan s'acumulen mòduls."
-  - question: "Quant de temps triga l'equip a adaptar-se al canvi?"
-    answer: "Entre dues i sis setmanes depenent de la freqüència dús i la formació. Els equips que tenen un responsable intern designat i una guia senzilla dús quotidià sadapten molt més ràpid que els que arrenquen sols. Edena inclou onboarding i suport 24/7 per acompanyar aquesta transició."
-  - question: "¿L'estalvi de temps implica reduir personal?"
-    answer: "No necessàriament. A la major part dels centres, el temps recuperat es redirigeix ​​cap a atenció de qualitat a famílies, projectes de millora o captació. L'eficiència no és excusa per reduir plantilla: és argument per fer una feina més útil i menys repetitiva."
-  - question: "Com convenço la direcció que la inversió compensa?"
-    answer: "Amb dades pròpies: registra dues setmanes de temps de procés abans, estima el cost hora de secretaria i calcula el retorn a dotze mesos. En la majoria dels casos, la reducció d'impagaments sola cobreix el cost del mòdul de facturació. Afegeix el valor del temps recuperat i l'argument és senzill."
+    - question: "Les 15 hores són reals per a un col·legi petit de menys de 100 alumnes?"
+      answer: "Sí, encara que el desglossament canvia. A centres petits, el temps es perd més en tasques manuals de cobrament i comunicació un per un. Un pilot d‟automatització de rebuts i un formulari de matrícula digital pot recuperar entre sis i deu hores setmanals en dos mesos, depenent del volum i la disciplina d‟ús."
+    - question: "Necessito tots els mòduls per veure lestalvi?"
+      answer: "No. Comença amb el bloc que genera més fricció: si són els cobraments, el mòdul de facturació. Si és la matrícula, el CRM amb formularis. Si és la comunicació, avalua si la bàsica és suficient abans de contractar Pro. L'estalvi apareix quan es tanca el canal paral·lel, no quan s'acumulen mòduls."
+    - question: "Quant de temps triga l'equip a adaptar-se al canvi?"
+      answer: "Entre dues i sis setmanes depenent de la freqüència dús i la formació. Els equips que tenen un responsable intern designat i una guia senzilla dús quotidià sadapten molt més ràpid que els que arrenquen sols. Edena inclou onboarding i suport 24/7 per acompanyar aquesta transició."
+    - question: "¿L'estalvi de temps implica reduir personal?"
+      answer: "No necessàriament. A la major part dels centres, el temps recuperat es redirigeix ​​cap a atenció de qualitat a famílies, projectes de millora o captació. L'eficiència no és excusa per reduir plantilla: és argument per fer una feina més útil i menys repetitiva."
+    - question: "Com convenço la direcció que la inversió compensa?"
+      answer: "Amb dades pròpies: registra dues setmanes de temps de procés abans, estima el cost hora de secretaria i calcula el retorn a dotze mesos. En la majoria dels casos, la reducció d'impagaments sola cobreix el cost del mòdul de facturació. Afegeix el valor del temps recuperat i l'argument és senzill."
 ---
-
 
 <strong>Com estalviar 15 hores setmanals en administració escolar</strong>
 

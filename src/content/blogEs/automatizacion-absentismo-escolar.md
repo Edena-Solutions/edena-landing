@@ -3,24 +3,24 @@ title: "Cómo la automatización reduce el absentismo escolar"
 date: "2026-02-10"
 description: "Automatizar asistencia y alertas para reducir absentismo. Guía práctica para centros educativos en España (2026)."
 tags: ["automatización", "absentismo escolar", "asistencia", "centros educativos"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
 relatedPosts:
-  - ahorrar-15-horas-administracion-escolar-2026
-  - ia-gestion-escolar-casos-practicos
-  - procesos-administrativos-automatizar-colegio
-  - automatizacion-tareas-administrativas
+    - ahorrar-15-horas-administracion-escolar-2026
+    - ia-gestion-escolar-casos-practicos
+    - procesos-administrativos-automatizar-colegio
+    - automatizacion-tareas-administrativas
 faqs:
-  - question: "¿La automatización del absentismo escolar sustituye al tutor o a orientación?"
-    answer: "No. La automatización aporta datos y avisos; la interpretación, el contacto con la familia y las medidas educativas siguen siendo responsabilidad del equipo."
-  - question: "¿Qué umbral de faltas es razonable para enviar una alerta?"
-    answer: "Depende de la etapa y la normativa autonómica. Como referencia, muchas centros avisan tras 3–5 faltas injustificadas en un mes; lo importante es ser coherente y revisar el impacto."
-  - question: "¿Las familias pueden ver su historial de asistencia?"
-    answer: "Sí. Un portal o app donde consultar faltas y justificaciones suele mejorar transparencia y colaboración y reduce reclamaciones."
-  - question: "¿Cómo se cumple la normativa de protección de datos con estos datos?"
-    answer: "La asistencia es dato necesario para la relación educativa. Debe haber base legal, información clara a las familias y medidas de seguridad (acceso restringido, registros auditados). El proveedor del software debe cumplir GDPR."
-  - question: "¿Sirve la automatización para absentismo en formación profesional o adultos?"
-    answer: "Sí. El mismo esquema (registro centralizado, alertas, informes) aplica; solo hay que adaptar umbrales y canales de comunicación al perfil del alumnado."
+    - question: "¿La automatización del absentismo escolar sustituye al tutor o a orientación?"
+      answer: "No. La automatización aporta datos y avisos; la interpretación, el contacto con la familia y las medidas educativas siguen siendo responsabilidad del equipo."
+    - question: "¿Qué umbral de faltas es razonable para enviar una alerta?"
+      answer: "Depende de la etapa y la normativa autonómica. Como referencia, muchas centros avisan tras 3–5 faltas injustificadas en un mes; lo importante es ser coherente y revisar el impacto."
+    - question: "¿Las familias pueden ver su historial de asistencia?"
+      answer: "Sí. Un portal o app donde consultar faltas y justificaciones suele mejorar transparencia y colaboración y reduce reclamaciones."
+    - question: "¿Cómo se cumple la normativa de protección de datos con estos datos?"
+      answer: "La asistencia es dato necesario para la relación educativa. Debe haber base legal, información clara a las familias y medidas de seguridad (acceso restringido, registros auditados). El proveedor del software debe cumplir GDPR."
+    - question: "¿Sirve la automatización para absentismo en formación profesional o adultos?"
+      answer: "Sí. El mismo esquema (registro centralizado, alertas, informes) aplica; solo hay que adaptar umbrales y canales de comunicación al perfil del alumnado."
 ---
 
 <strong>Cómo la automatización reduce el absentismo escolar</strong>

@@ -7,24 +7,23 @@ tags:
     - "automation"
     - "processus"
     - "éducation"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1679923906308-c26a0e2ca510?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - impayes-cobrures-automatises-ecoles-2026
-  - facturation-electronique-verifactu-education-2026
-  - kpi-mensuels-direction-ecole-2026
-  - reduire-impayes-facturation-ecoles
+    - impayes-cobrures-automatises-ecoles-2026
+    - facturation-electronique-verifactu-education-2026
+    - kpi-mensuels-direction-ecole-2026
+    - reduire-impayes-facturation-ecoles
 faqs:
-  - question: "Facturer le premier jour ou distribuer le problème ?"
-    answer: "Émission avec un préavis suffisant pour le prélèvement automatique ; évitez les pointes manuelles le dernier jour."
-  - question: "Des rectifications automatisées ?"
-    answer: "Partiellement; Définissez le flux d’approbation avant d’émettre un crédit."
-  - question: "Quel est le retard de paiement « normal » dans une école privée ?"
-    answer: "Cela varie selon le profil socio-économique et le mode de collecte, mais de nombreux centres sains évoluent entre 4 % et 8 % à 45 jours. Au-dessus de 10%, il convient de revoir le calendrier, les prélèvements et la séquence de relance avant d'élargir les effectifs."
-  - question: "Verifactu change-t-il la façon dont je facture les familles ?"
-    answer: "Verifactu affecte principalement l'émission et la traçabilité des factures avant l'AEAT, et non le mode de paiement lui-même. Il nécessite que votre logiciel de facturation génère des enregistrements conformes ; Il est conseillé de l'intégrer aux recouvrements et à la conciliation."
+    - question: "Facturer le premier jour ou distribuer le problème ?"
+      answer: "Émission avec un préavis suffisant pour le prélèvement automatique ; évitez les pointes manuelles le dernier jour."
+    - question: "Des rectifications automatisées ?"
+      answer: "Partiellement; Définissez le flux d’approbation avant d’émettre un crédit."
+    - question: "Quel est le retard de paiement « normal » dans une école privée ?"
+      answer: "Cela varie selon le profil socio-économique et le mode de collecte, mais de nombreux centres sains évoluent entre 4 % et 8 % à 45 jours. Au-dessus de 10%, il convient de revoir le calendrier, les prélèvements et la séquence de relance avant d'élargir les effectifs."
+    - question: "Verifactu change-t-il la façon dont je facture les familles ?"
+      answer: "Verifactu affecte principalement l'émission et la traçabilité des factures avant l'AEAT, et non le mode de paiement lui-même. Il nécessite que votre logiciel de facturation génère des enregistrements conformes ; Il est conseillé de l'intégrer aux recouvrements et à la conciliation."
 ---
-
 
 <strong>Automatisation de la facturation scolaire : optimisez vos processus internes</strong>
 

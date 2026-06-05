@@ -7,23 +7,22 @@ tags:
     - "GDPR"
     - "segurtasuna"
     - "kudeatzaileak"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1545175928-65a104e66691?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - hezkuntza-zentro-datuen-segurtasuna
+    - hezkuntza-zentro-datuen-segurtasuna
 faqs:
-  - question: "Nor da hezkuntza-zentro batean tratamenduaren arduraduna?"
-    answer: "Hau izan ohi da zentroaren titularra (zentroa zuzentzen duen pertsona juridikoa). Kudeatzaileek zure izenean jarduten dute; software hornitzaileak arduratzen dira."
-  - question: "Datuek EBko zerbitzarietan egon behar al dute?"
-    answer: "Ez da derrigorrezkoa kasu guztietan, baina GDPR betetzeko aukerarik errazena da. Hornitzaileak hirugarren herrialdeak erabiltzen baditu, bermeak egon behar dira (klausula estandarrak, egokitasun erabakiak)."
-  - question: "Zer egin datu-ihes bat badago?"
-    answer: "Kaltetutakoek duten arriskua ebaluatzea; Arriskurik egonez gero, 72 orduko epean kontrol-agintaritzari jakinarazi eta, hala badagokio, kaltetutako pertsonei jakinarazi. Idatzizko prozedura izateak erantzuna azkartzen du."
-  - question: "Familiek eska al dezakete seme-alaben datu guztiak ezabatzeko?"
-    answer: "Ezabatzeko eskubidea dute horiek gordetzea beharrezkoa ez denean (adibidez, zentroa utzi eta legezko atxikipen epea amaitu ondoren). Salbuespenak daude (betebehar legalak); Irizpideak eta epea dokumentatzea komeni da."
-  - question: "Datuen babesak eskola digitalean DPO bat behar al du?"
-    answer: "Ez beti. Derrigorrezkoa da erakunde publikoetan eta eskala handiko edo kategoria bereziko tratamenduetan. Zentro pribatu asko ez daude derrigortuta baina barneko pertsona bat izendatzen dute koordinatzeko; Praktika ona da."
+    - question: "Nor da hezkuntza-zentro batean tratamenduaren arduraduna?"
+      answer: "Hau izan ohi da zentroaren titularra (zentroa zuzentzen duen pertsona juridikoa). Kudeatzaileek zure izenean jarduten dute; software hornitzaileak arduratzen dira."
+    - question: "Datuek EBko zerbitzarietan egon behar al dute?"
+      answer: "Ez da derrigorrezkoa kasu guztietan, baina GDPR betetzeko aukerarik errazena da. Hornitzaileak hirugarren herrialdeak erabiltzen baditu, bermeak egon behar dira (klausula estandarrak, egokitasun erabakiak)."
+    - question: "Zer egin datu-ihes bat badago?"
+      answer: "Kaltetutakoek duten arriskua ebaluatzea; Arriskurik egonez gero, 72 orduko epean kontrol-agintaritzari jakinarazi eta, hala badagokio, kaltetutako pertsonei jakinarazi. Idatzizko prozedura izateak erantzuna azkartzen du."
+    - question: "Familiek eska al dezakete seme-alaben datu guztiak ezabatzeko?"
+      answer: "Ezabatzeko eskubidea dute horiek gordetzea beharrezkoa ez denean (adibidez, zentroa utzi eta legezko atxikipen epea amaitu ondoren). Salbuespenak daude (betebehar legalak); Irizpideak eta epea dokumentatzea komeni da."
+    - question: "Datuen babesak eskola digitalean DPO bat behar al du?"
+      answer: "Ez beti. Derrigorrezkoa da erakunde publikoetan eta eskala handiko edo kategoria bereziko tratamenduetan. Zentro pribatu asko ez daude derrigortuta baina barneko pertsona bat izendatzen dute koordinatzeko; Praktika ona da."
 ---
-
 
 <strong>Datuen babesa ikastetxeen kudeaketa digitalean: kudeatzaileentzako gida praktikoa</strong>
 

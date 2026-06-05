@@ -11,24 +11,24 @@ tags:
         "dashboard director",
         "Edena",
     ]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1705300332068-5f55b46ef98e?q=80&w=726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - dashboard-educativo
-  - dashboards-educativos-metricas
-  - analitica-educativa-dashboards-escolares
-  - analitica-rendimiento-academico
+    - dashboard-educativo
+    - dashboards-educativos-metricas
+    - analitica-educativa-dashboards-escolares
+    - analitica-rendimiento-academico
 faqs:
-  - question: "¿Cuántos KPIs son demasiados para un equipo directivo de un centro pequeño?"
-    answer: "Entre cuatro y seis es el rango óptimo para un centro de menos de 200 alumnos. Más indicadores sin responsable y sin acción asociada generan ruido, no señal. Empieza con cobro, matrícula y ocupación, y añade cuando domines esos tres."
-  - question: "¿Qué frecuencia es la correcta para revisar los KPIs?"
-    answer: "Los financieros (cobro, impagos, reconciliación) en el cierre mensual y con alerta semanal si hay umbrales de riesgo. Los de matrícula y captación en apertura y cierre de período. Los de comunicación y familias mensualmente. No hagas reuniones de KPIs sin acción vinculada: es el camino más rápido para que el equipo deje de usarlos."
-  - question: "¿Los KPIs de Edena son configurables o son los que marca la plataforma?"
-    answer: "La analítica de centro en la plataforma base incluye indicadores de cobros, matrícula, plazas y familias. El nivel de personalización depende del módulo contratado y de la configuración acordada en la implantación. Pregunta en la demo qué indicadores están disponibles sin configuración adicional y cuáles requieren trabajo extra."
-  - question: "¿Qué diferencia un buen KPI de una vanity metric en educación?"
-    answer: "Un buen KPI dispara una acción si supera o baja de un umbral: tasa de cobro del 80% → activar segundo aviso automático. Una vanity metric muestra un número que no cambia la decisión: número total de mensajes enviados este mes. Si el dato no mueve ninguna aguja, no es un KPI, es un informe de actividad."
-  - question: "¿Cómo evitar que el comité mensual se convierta en debate de definiciones?"
-    answer: "Acuerda por escrito, antes del primer comité, la definición exacta de cada indicador: qué incluye, qué excluye, de qué fuente sale, con qué periodicidad se actualiza y quién es responsable. Con ese acuerdo sobre la mesa, el comité empieza en las acciones. Sin él, cada reunión abre el mismo debate."
+    - question: "¿Cuántos KPIs son demasiados para un equipo directivo de un centro pequeño?"
+      answer: "Entre cuatro y seis es el rango óptimo para un centro de menos de 200 alumnos. Más indicadores sin responsable y sin acción asociada generan ruido, no señal. Empieza con cobro, matrícula y ocupación, y añade cuando domines esos tres."
+    - question: "¿Qué frecuencia es la correcta para revisar los KPIs?"
+      answer: "Los financieros (cobro, impagos, reconciliación) en el cierre mensual y con alerta semanal si hay umbrales de riesgo. Los de matrícula y captación en apertura y cierre de período. Los de comunicación y familias mensualmente. No hagas reuniones de KPIs sin acción vinculada: es el camino más rápido para que el equipo deje de usarlos."
+    - question: "¿Los KPIs de Edena son configurables o son los que marca la plataforma?"
+      answer: "La analítica de centro en la plataforma base incluye indicadores de cobros, matrícula, plazas y familias. El nivel de personalización depende del módulo contratado y de la configuración acordada en la implantación. Pregunta en la demo qué indicadores están disponibles sin configuración adicional y cuáles requieren trabajo extra."
+    - question: "¿Qué diferencia un buen KPI de una vanity metric en educación?"
+      answer: "Un buen KPI dispara una acción si supera o baja de un umbral: tasa de cobro del 80% → activar segundo aviso automático. Una vanity metric muestra un número que no cambia la decisión: número total de mensajes enviados este mes. Si el dato no mueve ninguna aguja, no es un KPI, es un informe de actividad."
+    - question: "¿Cómo evitar que el comité mensual se convierta en debate de definiciones?"
+      answer: "Acuerda por escrito, antes del primer comité, la definición exacta de cada indicador: qué incluye, qué excluye, de qué fuente sale, con qué periodicidad se actualiza y quién es responsable. Con ese acuerdo sobre la mesa, el comité empieza en las acciones. Sin él, cada reunión abre el mismo debate."
 ---
 
 <strong>KPIs que todo director de colegio debería medir cada mes</strong>

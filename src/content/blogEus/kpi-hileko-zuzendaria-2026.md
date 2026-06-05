@@ -9,24 +9,24 @@ tags:
     - "eskola-zentro analitika"
     - "zuzendari panela"
     - "Edena"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1705300332068-5f55b46ef98e?q=80&w=726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - hezkuntza-dashboarda
-  - hezkuntza-panel-metrikak
-  - analitika-hezkuntzako-ikastetxe-panelak
-  - analitika-errendimendu-akademikoa
+    - hezkuntza-dashboarda
+    - hezkuntza-panel-metrikak
+    - analitika-hezkuntzako-ikastetxe-panelak
+    - analitika-errendimendu-akademikoa
 faqs:
-  - question: "Zenbat KPI dira gehiegi 200 ikasle baino gutxiagoko zentro txiki bateko zuzendaritza-taldearentzat?"
-    answer: "Lau eta sei artean 200 ikasle baino gutxiagoko zentro batean range egokia da. Arduradunik eta ekintza loturarik gabeko adierazle gehienek zarata sortzen dute, ez seinalea. Hasi kobrantza, matrikulazioa eta okupazioarekin, eta gehitu hirurak menperatzen dituzunean."
-  - question: "Zein maiztasun da egokia KPIak berrikusteko?"
-    answer: "Finantzarioak (kobrantza, ordaindu gabeak, kontsolidazioa) hileko ixtean eta arrisku-atalaseak badaude astekoaldi alertarekin. Matrikulazio eta kapturakoak aldiaren irekieran eta ixtean. Komunikazioari eta familiei buruzko hilabetean. Ez egin KPI bilera ekintza loturarik gabe: taldeak erabilera uzteko bide azkarrena da."
-  - question: "Edernen KPIak konfiguragarriak al dira ala plataformak ezarritakoak dira?"
-    answer: "Plataforma-oinarrian zentroko analitikaak kobrantza, matrikulazioa, plazak eta familien adierazleak barne hartzen ditu. Pertsonalizazio-maila kontratatutako moduluaren eta inplementazioan hitzartutako konfigurazioaren araberakoa da. Galdetu demoan zer adierazle dauden konfigurazio gehigarririk gabe eta zeintzuk lan gehigarria eskatzen duten."
-  - question: "Zer bereizten du KPI on bat hezkuntzan vanity metric batetatik?"
-    answer: "KPI on batek atalasea gainditu edo jaistean ekintza aktibatzen du: %80ko kobrantza-tasa bigarren abisu automatikoa aktibatzea. Vanity metric batek erabakia aldatzen ez duen zenbakia erakusten du: hilabete honetan bidalitako mezu-kopurua osoa. Datuak aguja mugatzen ez badu, ez da KPI bat, jarduera-txostena baizik."
-  - question: "Nola saihestu hileko batzordea definizioen eztabaida bihurtzea?"
-    answer: "Adostu idatziz lehen batzorde aurretik adierazle bakoitzaren definizio zehatza: zer barne hartzen duen, zer baztertzen duen, zein iturritatik datorren, zein maiztasunarekin eguneratzen den eta nor den arduraduna. Akordio hori mahai gainean duela, batzordea ekintzetatik abiatzen da. Hori gabe, bilera bakoitzak eztabaida bera irekitzen du."
+    - question: "Zenbat KPI dira gehiegi 200 ikasle baino gutxiagoko zentro txiki bateko zuzendaritza-taldearentzat?"
+      answer: "Lau eta sei artean 200 ikasle baino gutxiagoko zentro batean range egokia da. Arduradunik eta ekintza loturarik gabeko adierazle gehienek zarata sortzen dute, ez seinalea. Hasi kobrantza, matrikulazioa eta okupazioarekin, eta gehitu hirurak menperatzen dituzunean."
+    - question: "Zein maiztasun da egokia KPIak berrikusteko?"
+      answer: "Finantzarioak (kobrantza, ordaindu gabeak, kontsolidazioa) hileko ixtean eta arrisku-atalaseak badaude astekoaldi alertarekin. Matrikulazio eta kapturakoak aldiaren irekieran eta ixtean. Komunikazioari eta familiei buruzko hilabetean. Ez egin KPI bilera ekintza loturarik gabe: taldeak erabilera uzteko bide azkarrena da."
+    - question: "Edernen KPIak konfiguragarriak al dira ala plataformak ezarritakoak dira?"
+      answer: "Plataforma-oinarrian zentroko analitikaak kobrantza, matrikulazioa, plazak eta familien adierazleak barne hartzen ditu. Pertsonalizazio-maila kontratatutako moduluaren eta inplementazioan hitzartutako konfigurazioaren araberakoa da. Galdetu demoan zer adierazle dauden konfigurazio gehigarririk gabe eta zeintzuk lan gehigarria eskatzen duten."
+    - question: "Zer bereizten du KPI on bat hezkuntzan vanity metric batetatik?"
+      answer: "KPI on batek atalasea gainditu edo jaistean ekintza aktibatzen du: %80ko kobrantza-tasa bigarren abisu automatikoa aktibatzea. Vanity metric batek erabakia aldatzen ez duen zenbakia erakusten du: hilabete honetan bidalitako mezu-kopurua osoa. Datuak aguja mugatzen ez badu, ez da KPI bat, jarduera-txostena baizik."
+    - question: "Nola saihestu hileko batzordea definizioen eztabaida bihurtzea?"
+      answer: "Adostu idatziz lehen batzorde aurretik adierazle bakoitzaren definizio zehatza: zer barne hartzen duen, zer baztertzen duen, zein iturritatik datorren, zein maiztasunarekin eguneratzen den eta nor den arduraduna. Akordio hori mahai gainean duela, batzordea ekintzetatik abiatzen da. Hori gabe, bilera bakoitzak eztabaida bera irekitzen du."
 ---
 
 <strong>Ikastetxe zuzendari guztiak hilero neurtu behar dituzten KPIak</strong>

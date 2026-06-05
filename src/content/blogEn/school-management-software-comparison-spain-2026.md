@@ -9,24 +9,24 @@ tags:
     - "school billing"
     - "school platform"
     - "educational administration automation"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - school-software-purchase-checklist-2026
-  - best-school-management-software
-  - choosing-school-management-software
-  - erp-school-digitalization-guide
+    - school-software-purchase-checklist-2026
+    - best-school-management-software
+    - choosing-school-management-software
+    - erp-school-digitalization-guide
 faqs:
-  - question: "Is there a “best” universal school management software in Spain?"
-    answer: "No. The appropriate one is the one that fits your processes, size, regime and collection and admission priorities. The useful comparison weighs each axle, not industry buzzwords."
-  - question: "Should I demand Verifactu in the contract even if the obligation is still evolving?"
-    answer: "Demand clarity: how the platform treats electronic billing, issuance, receipts and tracking, and what support it offers. Ambiguity costs the secretariat and management, not just systems."
-  - question: "Can a generic CRM replace the educational provider's school CRM?"
-    answer: "Sometimes at the cost of connectors, duplicating data or losing context. If registration, payment and families live in the module itself, consistency and traceability are usually greater, with less maintenance."
-  - question: "What minimum pilot window justifies testing?"
-    answer: "At least eight to twelve weeks, with actual data loading, a receipt cycle, an intake campaign, and agreed cut-off criteria (for example, reducing tasks or non-payments) to decide, not a “let's see what happens.”"
-  - question: "What risk is there in choosing the cheapest base license?"
-    answer: "That you pay later with hours, integrations, errors, frustration and possible re-migration. Look at TCO, not the first euro."
+    - question: "Is there a “best” universal school management software in Spain?"
+      answer: "No. The appropriate one is the one that fits your processes, size, regime and collection and admission priorities. The useful comparison weighs each axle, not industry buzzwords."
+    - question: "Should I demand Verifactu in the contract even if the obligation is still evolving?"
+      answer: "Demand clarity: how the platform treats electronic billing, issuance, receipts and tracking, and what support it offers. Ambiguity costs the secretariat and management, not just systems."
+    - question: "Can a generic CRM replace the educational provider's school CRM?"
+      answer: "Sometimes at the cost of connectors, duplicating data or losing context. If registration, payment and families live in the module itself, consistency and traceability are usually greater, with less maintenance."
+    - question: "What minimum pilot window justifies testing?"
+      answer: "At least eight to twelve weeks, with actual data loading, a receipt cycle, an intake campaign, and agreed cut-off criteria (for example, reducing tasks or non-payments) to decide, not a “let's see what happens.”"
+    - question: "What risk is there in choosing the cheapest base license?"
+      answer: "That you pay later with hours, integrations, errors, frustration and possible re-migration. Look at TCO, not the first euro."
 ---
 
 <strong>Best school management software in Spain: comparison 2026</strong>

@@ -9,26 +9,25 @@ tags:
     - "familiaren autogestioa"
     - "push jakinarazpenak"
     - "Edena"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579621970343-21c491b3f363?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - ikastetxe-familia-plataforma-digital-komunikazioa
-  - zentro-hezkuntzako-komunikazio-digitala
-  - familia-komunikazioa-garai-digitalan
-  - hezkuntzarako-mugikor-aplikazioa
+    - ikastetxe-familia-plataforma-digital-komunikazioa
+    - zentro-hezkuntzako-komunikazio-digitala
+    - familia-komunikazioa-garai-digitalan
+    - hezkuntzarako-mugikor-aplikazioa
 faqs:
-  - question: "Aplikazioak paperezko agenda edo bilera presentzialak ordezkatzen ditu?"
-    answer: "Ez. Aplikazioak antolatzen, jakinarazi eta erregistratzen du; Ez du ordezkatzen tutoretza-elkarrizketa, kurtso hasierako bilera edo familia batek arreta pertsonalizatua behar duenean laguntza. Askatu denbora elkarrekintza horietarako, mezu errepikakorren zama murriztuz."
-  - question: "Zer gertatzen da smartphonerik ez duten edo gaitasun digital baxua duten familiekin?"
-    answer: "Web atarira edozein arakatzailetik sartzen da ezer deskargatu gabe. Oztopo digitalak dituzten familientzat, definitu babeskopia-protokolo bat (deitu, ohar, idazkaria) eta ez ezazu suposatu \"denek aplikazio bat dutela\". Oinarrizko posta elektronikoko komunikazioak laguntza-kanal gisa balio du oraindik."
-  - question: "Push jakinarazpenak mezuetarako soilik al dira edo ordainketa-abisuetarako ere?"
-    answer: "Pro komunikazioarekin, jakinarazpenak konfiguratu daitezke ordainketa-abisuetarako, dokumentazio abisuetarako, zirkularretarako eta txat-mezuetarako, zentroak zehaztutako irizpideen arabera. Fakturazio moduluak bilketa logika ematen du; Pro-k oharra mugikorrerako kanalera konektatzen du berrespenarekin."
-  - question: "Nola kudeatzen da familien eta taldearen arteko mezuen pribatutasuna?"
-    answer: "Communication Chat Pro zentro itxiko kanal bat da, ez sare sozial bat. Pribatutasuna, baimenak eta elkarrizketa-historietarako sarbidea zure DPOarekin definitu behar dira GDPR-ren esparruan: nork ikus dezake zer, zenbat denboraz eta zein oinarri juridikorekin."
-  - question: "Aplikaziotik kudeatu al daitezke absentziak eta baimenak?"
-    answer: "Bai. Oinarrizko plataformak familia-autogestioa barne hartzen du ohiko fluxu hauetarako: absentziaren jakinarazpena, ikaslearen espedientearen kontsulta, dokumentuetarako sarbidea eta, hala badagokio, gailuarekin konfiguratutako fluxuaren araberako baimenak sinatzea."
+    - question: "Aplikazioak paperezko agenda edo bilera presentzialak ordezkatzen ditu?"
+      answer: "Ez. Aplikazioak antolatzen, jakinarazi eta erregistratzen du; Ez du ordezkatzen tutoretza-elkarrizketa, kurtso hasierako bilera edo familia batek arreta pertsonalizatua behar duenean laguntza. Askatu denbora elkarrekintza horietarako, mezu errepikakorren zama murriztuz."
+    - question: "Zer gertatzen da smartphonerik ez duten edo gaitasun digital baxua duten familiekin?"
+      answer: 'Web atarira edozein arakatzailetik sartzen da ezer deskargatu gabe. Oztopo digitalak dituzten familientzat, definitu babeskopia-protokolo bat (deitu, ohar, idazkaria) eta ez ezazu suposatu "denek aplikazio bat dutela". Oinarrizko posta elektronikoko komunikazioak laguntza-kanal gisa balio du oraindik.'
+    - question: "Push jakinarazpenak mezuetarako soilik al dira edo ordainketa-abisuetarako ere?"
+      answer: "Pro komunikazioarekin, jakinarazpenak konfiguratu daitezke ordainketa-abisuetarako, dokumentazio abisuetarako, zirkularretarako eta txat-mezuetarako, zentroak zehaztutako irizpideen arabera. Fakturazio moduluak bilketa logika ematen du; Pro-k oharra mugikorrerako kanalera konektatzen du berrespenarekin."
+    - question: "Nola kudeatzen da familien eta taldearen arteko mezuen pribatutasuna?"
+      answer: "Communication Chat Pro zentro itxiko kanal bat da, ez sare sozial bat. Pribatutasuna, baimenak eta elkarrizketa-historietarako sarbidea zure DPOarekin definitu behar dira GDPR-ren esparruan: nork ikus dezake zer, zenbat denboraz eta zein oinarri juridikorekin."
+    - question: "Aplikaziotik kudeatu al daitezke absentziak eta baimenak?"
+      answer: "Bai. Oinarrizko plataformak familia-autogestioa barne hartzen du ohiko fluxu hauetarako: absentziaren jakinarazpena, ikaslearen espedientearen kontsulta, dokumentuetarako sarbidea eta, hala badagokio, gailuarekin konfiguratutako fluxuaren araberako baimenak sinatzea."
 ---
-
 
 <strong>Ikastetxeetako familientzako aplikazioa: zuzendaritza eta gurasoentzako benetako abantailak</strong>
 

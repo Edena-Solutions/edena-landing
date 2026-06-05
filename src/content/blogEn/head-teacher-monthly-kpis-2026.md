@@ -9,24 +9,24 @@ tags:
     - "school center analytics"
     - "director dashboard"
     - "Eden"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1705300332068-5f55b46ef98e?q=80&w=726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - educational-dashboard
-  - educational-dashboards-metrics
-  - educational-analytics-school-dashboards
-  - academic-performance-analytics
+    - educational-dashboard
+    - educational-dashboards-metrics
+    - educational-analytics-school-dashboards
+    - academic-performance-analytics
 faqs:
-  - question: "How many KPIs are too many for a management team of a small center?"
-    answer: "Between four and six is ​​the optimal range for a center with fewer than 200 students. More indicators without a person responsible and without associated action generate noise, not signal. Start with charging, registration and occupancy, and add when you master those three."
-  - question: "What frequency is correct to review KPIs?"
-    answer: "The financial ones (collection, non-payments, reconciliation) at the monthly closing and with weekly alert if there are risk thresholds. Registration and recruitment at the opening and closing of the period. Communication and families monthly. Don't hold KPI meetings without linked action: it's the quickest way for the team to stop using them."
-  - question: "Are Edena's KPIs configurable or are they those set by the platform?"
-    answer: "Center analytics in the base platform include indicators of charges, enrollment, places and families. The level of customization depends on the contracted module and the configuration agreed upon during implementation. Ask in the demo which indicators are available without additional configuration and which require extra work."
-  - question: "What differentiates a good KPI from a vanity metric in education?"
-    answer: "A good KPI triggers an action if it exceeds or falls below a threshold: collection rate of 80% → activate second automatic warning. A vanity metric shows a number that doesn't change the decision: total number of messages sent this month. If the data does not move any needle, it is not a KPI, it is an activity report."
-  - question: "How to prevent the monthly committee from becoming a definition debate?"
-    answer: "Agree in writing, before the first committee, the exact definition of each indicator: what it includes, what it excludes, what source it comes from, how frequently it is updated and who is responsible. With that agreement on the table, the committee begins actions. Without it, every meeting opens the same debate."
+    - question: "How many KPIs are too many for a management team of a small center?"
+      answer: "Between four and six is ​​the optimal range for a center with fewer than 200 students. More indicators without a person responsible and without associated action generate noise, not signal. Start with charging, registration and occupancy, and add when you master those three."
+    - question: "What frequency is correct to review KPIs?"
+      answer: "The financial ones (collection, non-payments, reconciliation) at the monthly closing and with weekly alert if there are risk thresholds. Registration and recruitment at the opening and closing of the period. Communication and families monthly. Don't hold KPI meetings without linked action: it's the quickest way for the team to stop using them."
+    - question: "Are Edena's KPIs configurable or are they those set by the platform?"
+      answer: "Center analytics in the base platform include indicators of charges, enrollment, places and families. The level of customization depends on the contracted module and the configuration agreed upon during implementation. Ask in the demo which indicators are available without additional configuration and which require extra work."
+    - question: "What differentiates a good KPI from a vanity metric in education?"
+      answer: "A good KPI triggers an action if it exceeds or falls below a threshold: collection rate of 80% → activate second automatic warning. A vanity metric shows a number that doesn't change the decision: total number of messages sent this month. If the data does not move any needle, it is not a KPI, it is an activity report."
+    - question: "How to prevent the monthly committee from becoming a definition debate?"
+      answer: "Agree in writing, before the first committee, the exact definition of each indicator: what it includes, what it excludes, what source it comes from, how frequently it is updated and who is responsible. With that agreement on the table, the committee begins actions. Without it, every meeting opens the same debate."
 ---
 
 <strong>KPIs that every school principal should measure every month</strong>

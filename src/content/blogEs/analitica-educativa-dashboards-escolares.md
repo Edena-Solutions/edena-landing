@@ -3,22 +3,22 @@ title: "Datos y analítica en educación: cómo tomar mejores decisiones con das
 date: "2026-03-15"
 description: "Analítica operativa para decisiones de dirección. Guía práctica para centros educativos en España (2026)."
 tags: ["analítica educativa", "dashboard escolar", "datos", "toma de decisiones"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpis-director-colegio-mensual-2026
-  - dashboard-educativo
-  - dashboards-educativos-metricas
-  - analitica-rendimiento-academico
+    - kpis-director-colegio-mensual-2026
+    - dashboard-educativo
+    - dashboards-educativos-metricas
+    - analitica-rendimiento-academico
 faqs:
-  - question: "¿Necesito un BI aparte para la analítica educativa?"
-    answer: "No necesariamente. Muchos software de gestión incluyen dashboards escolares básicos. Si cubren cobro, asistencia y retención, puede ser suficiente. Un BI aparte tiene sentido cuando necesitas cruzar muchas fuentes o análisis muy personalizados."
-  - question: "¿Quién debe configurar el dashboard escolar?"
-    answer: "Alguien que conozca los procesos (admin o dirección) con apoyo del proveedor. La analítica educativa debe responder a preguntas reales del centro, no a lo que el sistema ofrece por defecto."
-  - question: "¿Con qué frecuencia debe actualizarse la analítica educativa?"
-    answer: "Depende del indicador. Cobro y alertas pueden ser en tiempo real o diario. Retención suele ser semanal o mensual. Lo crítico es que el dashboard escolar se actualice automáticamente desde el sistema."
-  - question: "¿Cuántos dashboards necesito?"
-    answer: "Uno operativo mensual para dirección; evitad duplicar Excel."
+    - question: "¿Necesito un BI aparte para la analítica educativa?"
+      answer: "No necesariamente. Muchos software de gestión incluyen dashboards escolares básicos. Si cubren cobro, asistencia y retención, puede ser suficiente. Un BI aparte tiene sentido cuando necesitas cruzar muchas fuentes o análisis muy personalizados."
+    - question: "¿Quién debe configurar el dashboard escolar?"
+      answer: "Alguien que conozca los procesos (admin o dirección) con apoyo del proveedor. La analítica educativa debe responder a preguntas reales del centro, no a lo que el sistema ofrece por defecto."
+    - question: "¿Con qué frecuencia debe actualizarse la analítica educativa?"
+      answer: "Depende del indicador. Cobro y alertas pueden ser en tiempo real o diario. Retención suele ser semanal o mensual. Lo crítico es que el dashboard escolar se actualice automáticamente desde el sistema."
+    - question: "¿Cuántos dashboards necesito?"
+      answer: "Uno operativo mensual para dirección; evitad duplicar Excel."
 ---
 
 <strong>Datos y analítica en educación: cómo tomar mejores decisiones con dashboards escolares</strong>

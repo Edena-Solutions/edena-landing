@@ -7,19 +7,18 @@ tags:
     - "gestió"
     - "educació"
     - "selecció"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - llista-verificacio-digitalitzacio-2026
+    - llista-verificacio-digitalitzacio-2026
 faqs:
-  - question: "Quant ha de durar la fase de cerca?"
-    answer: "Una setmana d'acotació i dues a quatre setmanes de donem enfocades són suficients si teniu criteris clars. Més de dos mesos sense pilot sol indicar manca de decisió interna, no manca oferta."
-  - question: "Puc començar només per cobraments?"
-    answer: "Sí, si el proveïdor permet créixer per mòduls sense remigrar. Assegureu que expedient i famílies arribaran a la mateixa dada mestre."
-  - question: "Què faig si el meu centre és concertat?"
-    answer: "Prioritzeu traçabilitat de quotes, beques i comunicació amb administració; el CRM comercial pesa menys que en privat pur, però Verifactu i LOPDGDD apliquen igual."
+    - question: "Quant ha de durar la fase de cerca?"
+      answer: "Una setmana d'acotació i dues a quatre setmanes de donem enfocades són suficients si teniu criteris clars. Més de dos mesos sense pilot sol indicar manca de decisió interna, no manca oferta."
+    - question: "Puc començar només per cobraments?"
+      answer: "Sí, si el proveïdor permet créixer per mòduls sense remigrar. Assegureu que expedient i famílies arribaran a la mateixa dada mestre."
+    - question: "Què faig si el meu centre és concertat?"
+      answer: "Prioritzeu traçabilitat de quotes, beques i comunicació amb administració; el CRM comercial pesa menys que en privat pur, però Verifactu i LOPDGDD apliquen igual."
 ---
-
 
 <strong>Com triar el millor programari de gestió escolar</strong>
 

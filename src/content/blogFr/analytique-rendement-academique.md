@@ -7,22 +7,21 @@ tags:
     - "performance académique"
     - "personnalisation"
     - "éducation"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1599081593734-5e65dd7abfba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpi-mensuels-direction-ecole-2026
-  - tableau-bord-educatif
-  - tableaux-bord-educatifs-metriques
-  - analytique-educative-tableaux-bord-scolaires
+    - kpi-mensuels-direction-ecole-2026
+    - tableau-bord-educatif
+    - tableaux-bord-educatifs-metriques
+    - analytique-educative-tableaux-bord-scolaires
 faqs:
-  - question: "À quelle fréquence devez-vous examiner les données de performances ?"
-    answer: "Trimestriel par département ; des indicateurs d'alerte précoce mensuels uniquement."
-  - question: "Partager les classements entre enseignants ?"
-    answer: "Avec des critères pédagogiques, ne publiez pas les classements des élèves aux familles sans contexte."
-  - question: "Que faire avec un cours en retard ?"
-    answer: "Intervention et ressources pédagogiques, pas seulement davantage d'examens."
+    - question: "À quelle fréquence devez-vous examiner les données de performances ?"
+      answer: "Trimestriel par département ; des indicateurs d'alerte précoce mensuels uniquement."
+    - question: "Partager les classements entre enseignants ?"
+      answer: "Avec des critères pédagogiques, ne publiez pas les classements des élèves aux familles sans contexte."
+    - question: "Que faire avec un cours en retard ?"
+      answer: "Intervention et ressources pédagogiques, pas seulement davantage d'examens."
 ---
-
 
 <strong>Analyse des performances académiques : des données pour améliorer l'apprentissage</strong>
 

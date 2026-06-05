@@ -3,22 +3,22 @@ title: "Gestión financiera inteligente para centros educativos"
 date: "2025-02-10"
 description: "Visión de dirección financiera: flujo de caja, reporting y tesorería. Guía práctica para centros educativos en España (2026)."
 tags: ["finanzas", "gestión", "educación", "tecnología"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80"
 relatedPosts:
-  - morosidad-colegios-cobros-automaticos-2026
-  - facturacion-electronica-verifactu-educacion-2026
-  - kpis-director-colegio-mensual-2026
-  - reducir-impagos-facturacion-colegios
+    - morosidad-colegios-cobros-automaticos-2026
+    - facturacion-electronica-verifactu-educacion-2026
+    - kpis-director-colegio-mensual-2026
+    - reducir-impagos-facturacion-colegios
 faqs:
-  - question: "¿Previsión de caja por curso?"
-    answer: "Sí: ingresos por cuotas menos morosidad histórica y calendario de pagos a proveedores."
-  - question: "¿Reporting al propietario?"
-    answer: "Formato fijo mensual: ocupación, morosidad, tesorería, variación vs presupuesto."
-  - question: "¿Cuánto morosidad es 'normal' en un colegio privado?"
-    answer: "Varía por perfil socioeconómico y método de cobro, pero muchos centros saludables se mueven entre el 4 % y el 8 % a 45 días. Por encima del 10 % conviene revisar calendario, domiciliación y secuencia de recordatorios antes de ampliar plantilla."
-  - question: "¿Verifactu cambia cómo cobro a las familias?"
-    answer: "Verifactu afecta sobre todo a la emisión y trazabilidad de facturas ante la AEAT, no al método de pago en sí. Sí obliga a que tu software de facturación genere registros conformes; conviene integrarlo con cobros y conciliación."
+    - question: "¿Previsión de caja por curso?"
+      answer: "Sí: ingresos por cuotas menos morosidad histórica y calendario de pagos a proveedores."
+    - question: "¿Reporting al propietario?"
+      answer: "Formato fijo mensual: ocupación, morosidad, tesorería, variación vs presupuesto."
+    - question: "¿Cuánto morosidad es 'normal' en un colegio privado?"
+      answer: "Varía por perfil socioeconómico y método de cobro, pero muchos centros saludables se mueven entre el 4 % y el 8 % a 45 días. Por encima del 10 % conviene revisar calendario, domiciliación y secuencia de recordatorios antes de ampliar plantilla."
+    - question: "¿Verifactu cambia cómo cobro a las familias?"
+      answer: "Verifactu afecta sobre todo a la emisión y trazabilidad de facturas ante la AEAT, no al método de pago en sí. Sí obliga a que tu software de facturación genere registros conformes; conviene integrarlo con cobros y conciliación."
 ---
 
 <strong>Gestión financiera inteligente para centros educativos</strong>
@@ -119,7 +119,7 @@ El director financiero puede ahora generar reportes completos en minutos en luga
 
 <br>
 
-La gestión financiera en centros educativos continuará evolucionando con nuevas tecnologías. La inteligencia artificial permitirá análisis más sofisticados y automatización de decisiones complejas. La 
+La gestión financiera en centros educativos continuará evolucionando con nuevas tecnologías. La inteligencia artificial permitirá análisis más sofisticados y automatización de decisiones complejas. La
 
 La integración con sistemas de pago emergentes, como las criptomonedas o los pagos móviles, proporcionará más opciones para las familias. Los centros educativos que adopten estas tecnologías estarán mejor posicionados para competir en un mercado cada vez más digital.
 

@@ -3,17 +3,17 @@ title: "Colaboración familias-centro educativo: Construyendo una comunidad unid
 date: "2024-10-30"
 description: "Descubre cómo la tecnología puede fortalecer la colaboración entre familias y centros educativos, creando una comunidad educativa más fuerte y efectiva."
 tags: ["colaboración", "familias", "comunidad", "participación"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - checklist-digitalizacion-2026
+    - checklist-digitalizacion-2026
 faqs:
-  - question: "¿Cuántos mensajes masivos por semana?"
-    answer: "Como regla práctica, no más de dos comunicaciones no urgentes por semana para no saturar familias."
-  - question: "¿Cómo segmentar audiencias?"
-    answer: "Por etapa, curso y servicios (comedor, transporte). Evita enviar todo a todo el centro."
-  - question: "¿Sustituye la app al WhatsApp del tutor?"
-    answer: "No tiene por qué. La app canaliza lo institucional; WhatsApp puede quedar para coordinación puntual con criterio escrito."
+    - question: "¿Cuántos mensajes masivos por semana?"
+      answer: "Como regla práctica, no más de dos comunicaciones no urgentes por semana para no saturar familias."
+    - question: "¿Cómo segmentar audiencias?"
+      answer: "Por etapa, curso y servicios (comedor, transporte). Evita enviar todo a todo el centro."
+    - question: "¿Sustituye la app al WhatsApp del tutor?"
+      answer: "No tiene por qué. La app canaliza lo institucional; WhatsApp puede quedar para coordinación puntual con criterio escrito."
 ---
 
 <strong>Colaboración familias-centro educativo: Construyendo una comunidad unida</strong>

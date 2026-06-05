@@ -7,22 +7,21 @@ tags:
     - "ikasleen informazio sistema"
     - "ikastetxeko zuzendaritza"
     - "hezkuntza zentroak"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
 relatedPosts:
-  - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
-  - software-aukera-egiaztapen-2026
-  - onena-eskola-kudeaketa-softwarea
-  - eskola-kudeaketa-softwarea-aukeratzea
+    - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
+    - software-aukera-egiaztapen-2026
+    - onena-eskola-kudeaketa-softwarea
+    - eskola-kudeaketa-softwarea-aukeratzea
 faqs:
-  - question: "Eskola SIS hezkuntza ERP berdina al da?"
-    answer: "Ez guztiz. A SIS ikasleen informazioan zentratzen da (espedienteak, asistentzia, komunikazioa). Eskola ERP normalean fakturazioa, giza baliabideak, inbentarioa eta beste modulu batzuk ere sartzen dira. Plataforma askok SIS eta ERP soluzio bakarrean integratzen dituzte."
-  - question: "Ikasleen informazio sistemak familientzako aplikazio bat sartu behar al du?"
-    answer: "Oso gomendagarria da. Familiek laguntza, ordainketak eta komunikazioak mugikorretik kontsultatzea espero dute. Familientzako atari edo aplikazio bat duen eskola SIS asebetetzea hobetzen du eta idazkariarekiko kontsultak murrizten ditu."
-  - question: "Nola migratzen dira datuak SIS berrira?"
-    answer: "Hornitzaile gehienek Excel edo aurreko sistemetatik inportatzea eskaintzen dute. Plangintza mailakatua, datu kritikoak baliozkotzea eta beharrezkoa bada elkarbizitza aldia eskatzen du."
+    - question: "Eskola SIS hezkuntza ERP berdina al da?"
+      answer: "Ez guztiz. A SIS ikasleen informazioan zentratzen da (espedienteak, asistentzia, komunikazioa). Eskola ERP normalean fakturazioa, giza baliabideak, inbentarioa eta beste modulu batzuk ere sartzen dira. Plataforma askok SIS eta ERP soluzio bakarrean integratzen dituzte."
+    - question: "Ikasleen informazio sistemak familientzako aplikazio bat sartu behar al du?"
+      answer: "Oso gomendagarria da. Familiek laguntza, ordainketak eta komunikazioak mugikorretik kontsultatzea espero dute. Familientzako atari edo aplikazio bat duen eskola SIS asebetetzea hobetzen du eta idazkariarekiko kontsultak murrizten ditu."
+    - question: "Nola migratzen dira datuak SIS berrira?"
+      answer: "Hornitzaile gehienek Excel edo aurreko sistemetatik inportatzea eskaintzen dute. Plangintza mailakatua, datu kritikoak baliozkotzea eta beharrezkoa bada elkarbizitza aldia eskatzen du."
 ---
-
 
 Zer da SIS (Ikasleentzako Informazio Sistema) eta zergatik behar du zure hezkuntza zentroak 2026an?
 

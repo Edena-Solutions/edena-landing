@@ -3,21 +3,21 @@ title: "Protección de datos en la gestión digital de escuelas"
 date: "2026-02-14"
 description: "Pilar GDPR/LOPDGDD para centros y menores. Guía práctica para centros educativos en España (2026)."
 tags: ["protección datos escuela digital", "GDPR", "seguridad", "directivos"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1545175928-65a104e66691?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - seguridad-datos-centros-educativos
+    - seguridad-datos-centros-educativos
 faqs:
-  - question: "¿Quién es el responsable del tratamiento en un centro educativo?"
-    answer: "Suele ser el titular del centro (entidad jurídica que dirige el centro). Los directivos actúan en su nombre; los proveedores de software son encargados."
-  - question: "¿Los datos deben estar en servidores de la UE?"
-    answer: "No es obligatorio en todos los casos, pero es la opción más sencilla para cumplir el GDPR. Si el proveedor usa países terceros, debe haber garantías (cláusulas tipo, decisiones de adecuación)."
-  - question: "¿Qué hacer si hay una fuga de datos?"
-    answer: "Evaluar el riesgo para los afectados; si hay riesgo, notificar a la autoridad de control en 72 horas y, si procede, informar a las personas afectadas. Tener un procedimiento escrito acelera la respuesta."
-  - question: "¿Las familias pueden pedir que borremos todos los datos de su hijo?"
-    answer: "Tienen derecho a la supresión cuando ya no sea necesario conservarlos (por ejemplo, tras dejar el centro y cumplido el plazo legal de conservación). Hay excepciones (obligaciones legales); conviene documentar el criterio y el plazo."
-  - question: "¿La protección de datos en la escuela digital exige un DPO?"
-    answer: "No siempre. Es obligatorio en organismos públicos y en tratamientos a gran escala o de categorías especiales. Muchos centros privados no están obligados pero designan un responsable interno para coordinar; es buena práctica."
+    - question: "¿Quién es el responsable del tratamiento en un centro educativo?"
+      answer: "Suele ser el titular del centro (entidad jurídica que dirige el centro). Los directivos actúan en su nombre; los proveedores de software son encargados."
+    - question: "¿Los datos deben estar en servidores de la UE?"
+      answer: "No es obligatorio en todos los casos, pero es la opción más sencilla para cumplir el GDPR. Si el proveedor usa países terceros, debe haber garantías (cláusulas tipo, decisiones de adecuación)."
+    - question: "¿Qué hacer si hay una fuga de datos?"
+      answer: "Evaluar el riesgo para los afectados; si hay riesgo, notificar a la autoridad de control en 72 horas y, si procede, informar a las personas afectadas. Tener un procedimiento escrito acelera la respuesta."
+    - question: "¿Las familias pueden pedir que borremos todos los datos de su hijo?"
+      answer: "Tienen derecho a la supresión cuando ya no sea necesario conservarlos (por ejemplo, tras dejar el centro y cumplido el plazo legal de conservación). Hay excepciones (obligaciones legales); conviene documentar el criterio y el plazo."
+    - question: "¿La protección de datos en la escuela digital exige un DPO?"
+      answer: "No siempre. Es obligatorio en organismos públicos y en tratamientos a gran escala o de categorías especiales. Muchos centros privados no están obligados pero designan un responsable interno para coordinar; es buena práctica."
 ---
 
 <strong>Protección de datos en la gestión digital de escuelas: guía práctica para directivos</strong>

@@ -7,22 +7,21 @@ tags:
     - "disseny arquitectònic"
     - "innovació"
     - "aprenentatge flexible"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579388654549-1f4e8c79b5a4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologies-pedagogiques-innovadores
-  - innovacio-pedagogica-tecnologia
-  - avaluacio-assessment-digital-educatiu
-  - benestar-emocional-estudiants-digitals
+    - metodologies-pedagogiques-innovadores
+    - innovacio-pedagogica-tecnologia
+    - avaluacio-assessment-digital-educatiu
+    - benestar-emocional-estudiants-digitals
 faqs:
-  - question: "Flexibilitat requereix més tecnologia?"
-    answer: "No necessàriament; sí, connectivitat estable i emmagatzematge segur d'evidències."
-  - question: "Com vincular espai i LOMLOE?"
-    answer: "Competències per aprendre a aprendre i autonomia en entorns variats."
-  - question: "Invertir en aules sense digitalitzar admin?"
-    answer: "L'aula millora; la percepció global del centre continua lligada a secretaria."
+    - question: "Flexibilitat requereix més tecnologia?"
+      answer: "No necessàriament; sí, connectivitat estable i emmagatzematge segur d'evidències."
+    - question: "Com vincular espai i LOMLOE?"
+      answer: "Competències per aprendre a aprendre i autonomia en entorns variats."
+    - question: "Invertir en aules sense digitalitzar admin?"
+      answer: "L'aula millora; la percepció global del centre continua lligada a secretaria."
 ---
-
 
 <strong>Espais educatius del futur: Disseny i innovació per a l'aprenentatge modern</strong>
 

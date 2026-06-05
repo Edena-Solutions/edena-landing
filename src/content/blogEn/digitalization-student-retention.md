@@ -7,24 +7,24 @@ tags:
     - "digitization"
     - "educational centers"
     - "administration"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop"
 relatedPosts:
-  - online-enrolment-digitalize-school-step-by-step-2026
-  - school-crm-enrollment-pipeline-2026
-  - digital-family-onboarding-online-enrollment
-  - student-retention-digital-era
+    - online-enrolment-digitalize-school-step-by-step-2026
+    - school-crm-enrollment-pipeline-2026
+    - digital-family-onboarding-online-enrollment
+    - student-retention-digital-era
 faqs:
-  - question: "Does school retention depend more on academics or administration?"
-    answer: "Both. Academics and climate are decisive; but administrative experience (payments, documentation, communication) influences the perception of seriousness and the decision to renew."
-  - question: "What school retention indicators should I follow?"
-    answer: "Renewal rate by stage, by year of incorporation and, if possible, by type of family or program. Crosses with defaults and assistance to detect risk."
-  - question: "Can digitalization worsen the relationship with families?"
-    answer: "Only if used cold or massively. Used well (clear messages, helpful reminders, fewer errors), digitization often improves perception."
-  - question: "Do I need an educational CRM to work on retention?"
-    answer: "Not necessarily. Good management software with families, payments and alerts may be enough. A CRM helps when there are many touch points and complex sales/renewal cycles."
-  - question: "How do I convince the team that management influences retention?"
-    answer: "Share data: cancellations associated with non-payments or administrative complaints, and evolution of retention before and after changes in processes. Numbers help align priorities."
+    - question: "Does school retention depend more on academics or administration?"
+      answer: "Both. Academics and climate are decisive; but administrative experience (payments, documentation, communication) influences the perception of seriousness and the decision to renew."
+    - question: "What school retention indicators should I follow?"
+      answer: "Renewal rate by stage, by year of incorporation and, if possible, by type of family or program. Crosses with defaults and assistance to detect risk."
+    - question: "Can digitalization worsen the relationship with families?"
+      answer: "Only if used cold or massively. Used well (clear messages, helpful reminders, fewer errors), digitization often improves perception."
+    - question: "Do I need an educational CRM to work on retention?"
+      answer: "Not necessarily. Good management software with families, payments and alerts may be enough. A CRM helps when there are many touch points and complex sales/renewal cycles."
+    - question: "How do I convince the team that management influences retention?"
+      answer: "Share data: cancellations associated with non-payments or administrative complaints, and evolution of retention before and after changes in processes. Numbers help align priorities."
 ---
 
 <strong>Impact of administrative digitalization on student retention</strong>
@@ -136,11 +136,11 @@ After a visit or accepted proposal, in the same digital flow, before final disch
 
 <strong>Summary in 5 key points:</strong><br>
 
-1) Administrative experience influences families' decision to stay or leave.  
-2) School retention improves with early alerts based on payments, attendance and incidents.  
-3) Segmented communication and useful reminders reduce misunderstandings and feelings of chaos.  
-4) Measuring retention by stage or cohort allows prioritizing actions.  
-5) Reviewing and simplifying the registration renewal process is a direct retention lever.
+1. Administrative experience influences families' decision to stay or leave.
+2. School retention improves with early alerts based on payments, attendance and incidents.
+3. Segmented communication and useful reminders reduce misunderstandings and feelings of chaos.
+4. Measuring retention by stage or cohort allows prioritizing actions.
+5. Reviewing and simplifying the registration renewal process is a direct retention lever.
 
 Do you want to see how to improve your center's retention with data and digital processes? Request a demo and we review together indicators, communication with families and renewal flows.
 

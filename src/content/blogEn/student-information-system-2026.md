@@ -7,20 +7,20 @@ tags:
     - "student information system"
     - "school management"
     - "educational centers"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
 relatedPosts:
-  - school-management-software-comparison-spain-2026
-  - school-software-purchase-checklist-2026
-  - best-school-management-software
-  - choosing-school-management-software
+    - school-management-software-comparison-spain-2026
+    - school-software-purchase-checklist-2026
+    - best-school-management-software
+    - choosing-school-management-software
 faqs:
-  - question: "Is a school SIS the same as an educational ERP?"
-    answer: "Not quite. A SIS focuses on student information (records, attendance, communication). A school ERP usually also includes billing, human resources, inventory and other modules. Many platforms integrate SIS and ERP into a single solution."
-  - question: "Should the student information system include an app for families?"
-    answer: "It is highly recommended. Families expect to consult assistance, payments and communications from their mobile. A school SIS with a portal or app for families improves satisfaction and reduces consultations with the secretary."
-  - question: "How is data migrated to the new SIS?"
-    answer: "Most providers offer importing from Excel or previous systems. It requires a phased plan, validation of critical data and a period of coexistence if necessary."
+    - question: "Is a school SIS the same as an educational ERP?"
+      answer: "Not quite. A SIS focuses on student information (records, attendance, communication). A school ERP usually also includes billing, human resources, inventory and other modules. Many platforms integrate SIS and ERP into a single solution."
+    - question: "Should the student information system include an app for families?"
+      answer: "It is highly recommended. Families expect to consult assistance, payments and communications from their mobile. A school SIS with a portal or app for families improves satisfaction and reduces consultations with the secretary."
+    - question: "How is data migrated to the new SIS?"
+      answer: "Most providers offer importing from Excel or previous systems. It requires a phased plan, validation of critical data and a period of coexistence if necessary."
 ---
 
 What is a SIS (Student Information System) and why your educational center needs one in 2026

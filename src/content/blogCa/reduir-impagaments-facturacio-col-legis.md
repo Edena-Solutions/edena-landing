@@ -7,26 +7,25 @@ tags:
     - "gestió de pagaments escolars"
     - "impagaments"
     - "cobrament"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1662502729255-4d3a58486d4e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJhdWRzdGVyfGVufDB8fDB8fHww"
 relatedPosts:
-  - morositat-cobraments-automatics-2026
-  - facturacio-electronica-verifactu-educacio-2026
-  - kpi-director-escola-mensual-2026
-  - pagaments-en-linia-educacio
+    - morositat-cobraments-automatics-2026
+    - facturacio-electronica-verifactu-educacio-2026
+    - kpi-director-escola-mensual-2026
+    - pagaments-en-linia-educacio
 faqs:
-  - question: "La facturació a col·legis ha d'incloure Verifactu?"
-    answer: "A Espanya, la normativa avança. Els centres han d'estar preparats per a la facturació electrònica. La gestió de pagaments escolars pot conviure amb Verifactu: factura electrònica i enllaç de pagament al mateix flux."
-  - question: "Els pagaments en línia en la gestió de pagaments escolars són segurs?"
-    answer: "Sí, si utilitzes una passarel·la que compleix PCI-DSS i no emmagatzemes dades de targeta. La facturació a escoles amb pagament en línia integrat és segura quan el proveïdor compleix normativa."
-  - question: "Quanta morositat és 'normal' en un col·legi privat?"
-    answer: "Varia per perfil socioeconòmic i mètode de cobrament, però molts centres saludables es mouen entre el 4% i el 8% a 45 dies. Per sobre del 10% cal revisar calendari, domiciliació i seqüència de recordatoris abans d'ampliar plantilla."
-  - question: "Verifactu canvia com cobrament a les famílies?"
-    answer: "Verifactu afecta sobretot l'emissió i la traçabilitat de factures davant l'AEAT, no el mètode de pagament en si. Sí que obliga que el teu programari de facturació generi registres conformes; convé integrar-lo amb cobraments i conciliació."
-  - question: "Puc començar només amb recordatoris sense domiciliació?"
-    answer: "Sí, però l?impacte sol ser menor. Combineu tots dos per a màxim efecte."
+    - question: "La facturació a col·legis ha d'incloure Verifactu?"
+      answer: "A Espanya, la normativa avança. Els centres han d'estar preparats per a la facturació electrònica. La gestió de pagaments escolars pot conviure amb Verifactu: factura electrònica i enllaç de pagament al mateix flux."
+    - question: "Els pagaments en línia en la gestió de pagaments escolars són segurs?"
+      answer: "Sí, si utilitzes una passarel·la que compleix PCI-DSS i no emmagatzemes dades de targeta. La facturació a escoles amb pagament en línia integrat és segura quan el proveïdor compleix normativa."
+    - question: "Quanta morositat és 'normal' en un col·legi privat?"
+      answer: "Varia per perfil socioeconòmic i mètode de cobrament, però molts centres saludables es mouen entre el 4% i el 8% a 45 dies. Per sobre del 10% cal revisar calendari, domiciliació i seqüència de recordatoris abans d'ampliar plantilla."
+    - question: "Verifactu canvia com cobrament a les famílies?"
+      answer: "Verifactu afecta sobretot l'emissió i la traçabilitat de factures davant l'AEAT, no el mètode de pagament en si. Sí que obliga que el teu programari de facturació generi registres conformes; convé integrar-lo amb cobraments i conciliació."
+    - question: "Puc començar només amb recordatoris sense domiciliació?"
+      answer: "Sí, però l?impacte sol ser menor. Combineu tots dos per a màxim efecte."
 ---
-
 
 <strong>Com reduir els impagaments i millorar la facturació a centres educatius</strong>
 

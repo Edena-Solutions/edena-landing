@@ -3,20 +3,20 @@ title: "Evaluación y assessment digital en la educación moderna: Herramientas 
 date: "2025-08-20"
 description: "Evaluación digital y competencias clave LOMLOE. Guía práctica para centros educativos en España (2026)."
 tags: ["evaluación digital", "assessment", "tecnología educativa", "medición aprendizaje"]
-author: "Equipo Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologias-pedagogicas-innovadoras
-  - innovacion-pedagogica-tecnologia
-  - espacios-educativos-futuro-diseno
-  - bienestar-emocional-estudiantes-digitales
+    - metodologias-pedagogicas-innovadoras
+    - innovacion-pedagogica-tecnologia
+    - espacios-educativos-futuro-diseno
+    - bienestar-emocional-estudiantes-digitales
 faqs:
-  - question: "¿Evaluación 100 % digital?"
-    answer: "Posible con rúbricas y portfolio; equilibrio con pruebas presenciales según etapa."
-  - question: "¿Trazabilidad para inspección?"
-    answer: "Expediente con historial de evaluaciones y criterios LOMLOE visibles."
-  - question: "¿Menos tiempo corrigiendo?"
-    answer: "Sí con autocorrección formativa y bancos de ítems bien diseñados."
+    - question: "¿Evaluación 100 % digital?"
+      answer: "Posible con rúbricas y portfolio; equilibrio con pruebas presenciales según etapa."
+    - question: "¿Trazabilidad para inspección?"
+      answer: "Expediente con historial de evaluaciones y criterios LOMLOE visibles."
+    - question: "¿Menos tiempo corrigiendo?"
+      answer: "Sí con autocorrección formativa y bancos de ítems bien diseñados."
 ---
 
 <strong>Evaluación y assessment digital en la educación moderna: Herramientas y estrategias</strong>

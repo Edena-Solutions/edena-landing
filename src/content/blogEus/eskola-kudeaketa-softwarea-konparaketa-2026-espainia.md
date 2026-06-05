@@ -9,26 +9,25 @@ tags:
     - "ikastetxeko fakturazioa"
     - "eskola plataforma"
     - "hezkuntza-administrazioaren automatizazioa"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - software-aukera-egiaztapen-2026
-  - onena-eskola-kudeaketa-softwarea
-  - eskola-kudeaketa-softwarea-aukeratzea
-  - erp-eskola-digitalizazio-gida
+    - software-aukera-egiaztapen-2026
+    - onena-eskola-kudeaketa-softwarea
+    - eskola-kudeaketa-softwarea-aukeratzea
+    - erp-eskola-digitalizazio-gida
 faqs:
-  - question: "Ba al dago Espainian eskola kudeatzeko software unibertsal “onena”?"
-    answer: "Ez. Egokia zure prozesu, tamaina, erregimen eta bilketa eta onarpen lehentasunetara egokitzen dena da. Konparaketa erabilgarriak ardatz bakoitza pisatzen du, ez industriako hitzak."
-  - question: "Verifactu eskatu behar al dut kontratuan, nahiz eta betebeharra oraindik eboluzionatzen ari den?"
-    answer: "Eskatu argitasuna: plataformak fakturazio elektronikoa, igorpena, ordainagiriak eta jarraipena nola tratatzen dituen, eta zer laguntza eskaintzen duen. Anbiguotasunak idazkaritza eta kudeaketa kostatzen ditu, ez soilik sistemei."
-  - question: "CRM generiko batek ordezkatu al dezake hezkuntza-hornitzailearen eskola CRM?"
-    answer: "Batzuetan konektoreen kostua, datuak bikoiztu edo testuingurua galtzea. Matrikula, ordainketa eta familiak moduluan bertan bizi badira, koherentzia eta trazabilitatea handiagoak izan ohi dira, mantentze gutxiagorekin."
-  - question: "Zein gutxieneko leiho pilotu justifikatzen du probak egitea?"
-    answer: "Gutxienez zortzi-hamabi aste, benetako datuak kargatzea, ordainagirien zikloa, sarrera-kanpaina bat eta adostutako mozketa-irizpideak (adibidez, zereginak murriztea edo ez-ordainketak) erabakitzeko, ez \"ikus dezagun zer gertatzen den\"."
-  - question: "Zer arrisku dago oinarrizko lizentzia merkeena aukeratzeak?"
-    answer: "Geroago ordaintzen duzula orduekin, integrazioekin, akatsekin, frustrazioarekin eta berriro migrazio posibleekin. Begira TCOri, ez lehen euroari."
+    - question: "Ba al dago Espainian eskola kudeatzeko software unibertsal “onena”?"
+      answer: "Ez. Egokia zure prozesu, tamaina, erregimen eta bilketa eta onarpen lehentasunetara egokitzen dena da. Konparaketa erabilgarriak ardatz bakoitza pisatzen du, ez industriako hitzak."
+    - question: "Verifactu eskatu behar al dut kontratuan, nahiz eta betebeharra oraindik eboluzionatzen ari den?"
+      answer: "Eskatu argitasuna: plataformak fakturazio elektronikoa, igorpena, ordainagiriak eta jarraipena nola tratatzen dituen, eta zer laguntza eskaintzen duen. Anbiguotasunak idazkaritza eta kudeaketa kostatzen ditu, ez soilik sistemei."
+    - question: "CRM generiko batek ordezkatu al dezake hezkuntza-hornitzailearen eskola CRM?"
+      answer: "Batzuetan konektoreen kostua, datuak bikoiztu edo testuingurua galtzea. Matrikula, ordainketa eta familiak moduluan bertan bizi badira, koherentzia eta trazabilitatea handiagoak izan ohi dira, mantentze gutxiagorekin."
+    - question: "Zein gutxieneko leiho pilotu justifikatzen du probak egitea?"
+      answer: 'Gutxienez zortzi-hamabi aste, benetako datuak kargatzea, ordainagirien zikloa, sarrera-kanpaina bat eta adostutako mozketa-irizpideak (adibidez, zereginak murriztea edo ez-ordainketak) erabakitzeko, ez "ikus dezagun zer gertatzen den".'
+    - question: "Zer arrisku dago oinarrizko lizentzia merkeena aukeratzeak?"
+      answer: "Geroago ordaintzen duzula orduekin, integrazioekin, akatsekin, frustrazioarekin eta berriro migrazio posibleekin. Begira TCOri, ez lehen euroari."
 ---
-
 
 <strong>Espainian ikastetxeak kudeatzeko software onena: 2026ko alderaketa</strong>
 

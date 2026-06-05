@@ -7,19 +7,18 @@ tags:
     - "estudiants"
     - "personalització"
     - "engagement"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - llista-verificacio-digitalitzacio-2026
+    - llista-verificacio-digitalitzacio-2026
 faqs:
-  - question: "La retenció comença en admissions o aula?"
-    answer: "En tots dos: promeses clares en captació i coherència admin (cobraments, comunicació) durant el curs."
-  - question: "Quin senyal anticipa una baixa?"
-    answer: "Impagaments reiterats, queixes de comunicació i desenganxament en activitats extraescolars solen precedir a la sol·licitud de trasllat."
-  - question: "Com mesurar retenció digital?"
-    answer: "Taxa de renovació per curs, NPS familiar trimestral i temps de resposta admin a incidències."
+    - question: "La retenció comença en admissions o aula?"
+      answer: "En tots dos: promeses clares en captació i coherència admin (cobraments, comunicació) durant el curs."
+    - question: "Quin senyal anticipa una baixa?"
+      answer: "Impagaments reiterats, queixes de comunicació i desenganxament en activitats extraescolars solen precedir a la sol·licitud de trasllat."
+    - question: "Com mesurar retenció digital?"
+      answer: "Taxa de renovació per curs, NPS familiar trimestral i temps de resposta admin a incidències."
 ---
-
 
 <strong>Retenció d'estudiants a l'era digital: Estratègies que funcionen</strong>
 

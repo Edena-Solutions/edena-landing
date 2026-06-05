@@ -7,22 +7,22 @@ tags:
     - "school dashboard"
     - "data"
     - "decision making"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - head-teacher-monthly-kpis-2026
-  - educational-dashboard
-  - educational-dashboards-metrics
-  - academic-performance-analytics
+    - head-teacher-monthly-kpis-2026
+    - educational-dashboard
+    - educational-dashboards-metrics
+    - academic-performance-analytics
 faqs:
-  - question: "Do I need a separate BI for educational analytics?"
-    answer: "Not necessarily. Many management software includes basic school dashboards. If they cover collection, attendance and retention, it may be enough. A separate BI makes sense when you need to cross-reference many sources or highly customized analyses."
-  - question: "Who should configure the school dashboard?"
-    answer: "Someone who knows the processes (admin or management) with support from the provider. Educational analytics must respond to real questions from the center, not what the system offers by default."
-  - question: "How often should educational analytics be updated?"
-    answer: "It depends on the indicator. Collection and alerts can be in real time or daily. Retention is usually weekly or monthly. The critical thing is that the school dashboard is automatically updated from the system."
-  - question: "How many dashboards do I need?"
-    answer: "One monthly operation for management; avoid duplicating Excel."
+    - question: "Do I need a separate BI for educational analytics?"
+      answer: "Not necessarily. Many management software includes basic school dashboards. If they cover collection, attendance and retention, it may be enough. A separate BI makes sense when you need to cross-reference many sources or highly customized analyses."
+    - question: "Who should configure the school dashboard?"
+      answer: "Someone who knows the processes (admin or management) with support from the provider. Educational analytics must respond to real questions from the center, not what the system offers by default."
+    - question: "How often should educational analytics be updated?"
+      answer: "It depends on the indicator. Collection and alerts can be in real time or daily. Retention is usually weekly or monthly. The critical thing is that the school dashboard is automatically updated from the system."
+    - question: "How many dashboards do I need?"
+      answer: "One monthly operation for management; avoid duplicating Excel."
 ---
 
 <strong>Data and analytics in education: how to make better decisions with school dashboards</strong>

@@ -7,22 +7,21 @@ tags:
     - "gestió administrativa"
     - "estratègia"
     - "direcció"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1629721671030-a83edbb11211?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpi-director-escola-mensual-2026
-  - dashboards-educatius-metriques
-  - analitica-educativa-dashboards-escolars
-  - analitica-rendiment-academic
+    - kpi-director-escola-mensual-2026
+    - dashboards-educatius-metriques
+    - analitica-educativa-dashboards-escolars
+    - analitica-rendiment-academic
 faqs:
-  - question: "Quants dashboards necessito?"
-    answer: "Un operatiu mensual per a adreça; eviteu duplicar l'Excel."
-  - question: "Un dashboard o diversos?"
-    answer: "Un principal per a direcció; vistes filtrades per rol eviten duplicar Excel."
-  - question: "Actualització en temps real?"
-    answer: "Diària o setmanal n'hi ha prou per a decisions estratègiques; temps real només en operació de cobraments."
+    - question: "Quants dashboards necessito?"
+      answer: "Un operatiu mensual per a adreça; eviteu duplicar l'Excel."
+    - question: "Un dashboard o diversos?"
+      answer: "Un principal per a direcció; vistes filtrades per rol eviten duplicar Excel."
+    - question: "Actualització en temps real?"
+      answer: "Diària o setmanal n'hi ha prou per a decisions estratègiques; temps real només en operació de cobraments."
 ---
-
 
 <strong>Dashboard educatiu: El centre de control per a la gestió estratègica</strong>
 

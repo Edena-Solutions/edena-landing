@@ -7,19 +7,18 @@ tags:
     - "experiència"
     - "tecnologia"
     - "educació"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - llista-verificacio-digitalitzacio-2026
+    - llista-verificacio-digitalitzacio-2026
 faqs:
-  - question: "Per on començo la digitalització?"
-    answer: "Dades mestres netes, cobraments traçables i canal familiar oficial abans d ampliar eines d aula."
-  - question: "El programari al núvol és segur per a menors?"
-    answer: "Pot ser-ho amb contracte d'encàrrec, xifratge i subprocessadors documentats. El centre continua sent responsable."
-  - question: "Quant de temps dedica la direcció al projecte?"
-    answer: "30-45 minuts setmanals en les primeres dotze setmanes solen ser suficients per desbloquejar sense microgestionar."
+    - question: "Per on començo la digitalització?"
+      answer: "Dades mestres netes, cobraments traçables i canal familiar oficial abans d ampliar eines d aula."
+    - question: "El programari al núvol és segur per a menors?"
+      answer: "Pot ser-ho amb contracte d'encàrrec, xifratge i subprocessadors documentats. El centre continua sent responsable."
+    - question: "Quant de temps dedica la direcció al projecte?"
+      answer: "30-45 minuts setmanals en les primeres dotze setmanes solen ser suficients per desbloquejar sense microgestionar."
 ---
-
 
 <strong>L'experiència d'usuari: clau en l'adopció de tecnologia educativa</strong>
 

@@ -3,32 +3,32 @@ title: "Cómo digitalizar la matrícula online de tu centro educativo paso a pas
 date: "2026-03-28"
 description: "Implementación paso a paso de matrícula online. Guía práctica para centros educativos en España (2026)."
 tags:
- [
- "matrícula online",
- "inscripción digital",
- "centro educativo",
- "formularios matrícula",
- "CRM escolar",
- "autogestión familias",
- ]
-author: "Equipo Edena"
+    [
+        "matrícula online",
+        "inscripción digital",
+        "centro educativo",
+        "formularios matrícula",
+        "CRM escolar",
+        "autogestión familias",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
-  - crm-escolar-matriculas-conversion-2026
-  - onboarding-digital-familias-matricula-online
-  - digitalizacion-retencion-alumnos
-  - retencion-estudiantes-era-digital
+    - crm-escolar-matriculas-conversion-2026
+    - onboarding-digital-familias-matricula-online
+    - digitalizacion-retencion-alumnos
+    - retencion-estudiantes-era-digital
 faqs:
-  - question: "¿Cuánto tiempo lleva configurar el proceso de matrícula en Edena?"
-    answer: "Una configuración básica (formulario, etapas de pipeline, regla de pago y confirmación automatizada) puede estar lista en una semana si el diseño del proceso ya está definido. Flujos más complejos con múltiples tipos de documento, automatizaciones de etapa y comunicación Pro requieren dos o tres semanas. El equipo de implementación acompaña la configuración dentro del onboarding."
-  - question: "¿Cómo medir que el proceso digital está funcionando?"
-    answer: "Los indicadores más fiables son: tasa de compleción de solicitudes (iniciadas vs. enviadas), tiempo desde el primer contacto hasta plaza confirmada, y porcentaje de llamadas \"¿recibisteis mi solicitud?\" tras el lanzamiento. Si las tasas de compleción son bajas, el formulario es demasiado largo o el primer paso demasiado exigente. Si el tiempo hasta confirmación no ha bajado, el cuello de botella está en el proceso interno de validación, no en el formulario."
-  - question: "¿Necesito CRM y matrícula, o basta con un formulario aislado?"
-    answer: "Un formulario sin embudo te devuelve a bandejas. El CRM aporta etapa, responsable, origen y medición. Sin eso, no aprendes a escalar ni a priorizar en comité."
-  - question: "¿Qué pasa con el GDPR?"
-    answer: "Debes fijar base legal, retención, acceso y consentimientos con tu DPO o asesor. El software facilita accesos por rol, trazas y portales, pero no reemplaza el criterio legal del centro. Edena expone criterio de producto, no asesoría jurídica."
-  - question: "¿Cómo encaja el régimen concertado o documentación adicional?"
-    answer: "Particiona: pide anexos en la fase oportuna, no “todo en un lunes” que colapsa verificación. Anticipa picos, no carga falsa de trabajo."
+    - question: "¿Cuánto tiempo lleva configurar el proceso de matrícula en Edena?"
+      answer: "Una configuración básica (formulario, etapas de pipeline, regla de pago y confirmación automatizada) puede estar lista en una semana si el diseño del proceso ya está definido. Flujos más complejos con múltiples tipos de documento, automatizaciones de etapa y comunicación Pro requieren dos o tres semanas. El equipo de implementación acompaña la configuración dentro del onboarding."
+    - question: "¿Cómo medir que el proceso digital está funcionando?"
+      answer: 'Los indicadores más fiables son: tasa de compleción de solicitudes (iniciadas vs. enviadas), tiempo desde el primer contacto hasta plaza confirmada, y porcentaje de llamadas "¿recibisteis mi solicitud?" tras el lanzamiento. Si las tasas de compleción son bajas, el formulario es demasiado largo o el primer paso demasiado exigente. Si el tiempo hasta confirmación no ha bajado, el cuello de botella está en el proceso interno de validación, no en el formulario.'
+    - question: "¿Necesito CRM y matrícula, o basta con un formulario aislado?"
+      answer: "Un formulario sin embudo te devuelve a bandejas. El CRM aporta etapa, responsable, origen y medición. Sin eso, no aprendes a escalar ni a priorizar en comité."
+    - question: "¿Qué pasa con el GDPR?"
+      answer: "Debes fijar base legal, retención, acceso y consentimientos con tu DPO o asesor. El software facilita accesos por rol, trazas y portales, pero no reemplaza el criterio legal del centro. Edena expone criterio de producto, no asesoría jurídica."
+    - question: "¿Cómo encaja el régimen concertado o documentación adicional?"
+      answer: "Particiona: pide anexos en la fase oportuna, no “todo en un lunes” que colapsa verificación. Anticipa picos, no carga falsa de trabajo."
 ---
 
 <strong>Cómo digitalizar la matrícula online de tu centro educativo paso a paso</strong>

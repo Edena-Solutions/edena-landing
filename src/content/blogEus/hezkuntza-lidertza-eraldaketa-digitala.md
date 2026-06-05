@@ -7,19 +7,19 @@ tags:
     - "transformación digital"
     - "competencias directivas"
     - "gestión escolar"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1601231808069-e6103868f686?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - hezkuntza-antolakuntza-aldaketa-kudeaketa
-  - digitalizazio-egiaztapen-zerrenda-2026
-  - kpi-hileko-zuzendaria-2026
+    - hezkuntza-antolakuntza-aldaketa-kudeaketa
+    - digitalizazio-egiaztapen-zerrenda-2026
+    - kpi-hileko-zuzendaria-2026
 faqs:
-  - question: "Zenbat denbora eskaini behar dio zuzendaritzak proiektuari?"
-    answer: "Astean 30-45 minutu lehenengo hamabi asteetan: nahikoa desblokeatzeko, ez mikrokudeatzeko."
-  - question: "Zer egin behar dut sail batek uko egiten badu?"
-    answer: "Entzun oztopo zehatza, egokitu eraketa edo fluxua eta ezarri aurreko metodoaren mozketa data."
-  - question: "Lanaldi osoko eraldaketa-kudeatzaile bat behar al dut?"
-    answer: "Zentro ertainetan, aski da zuzendariaren mandatua eta hornitzailearen laguntza duen barne erreferentzia bat."
+    - question: "Zenbat denbora eskaini behar dio zuzendaritzak proiektuari?"
+      answer: "Astean 30-45 minutu lehenengo hamabi asteetan: nahikoa desblokeatzeko, ez mikrokudeatzeko."
+    - question: "Zer egin behar dut sail batek uko egiten badu?"
+      answer: "Entzun oztopo zehatza, egokitu eraketa edo fluxua eta ezarri aurreko metodoaren mozketa data."
+    - question: "Lanaldi osoko eraldaketa-kudeatzaile bat behar al dut?"
+      answer: "Zentro ertainetan, aski da zuzendariaren mandatua eta hornitzailearen laguntza duen barne erreferentzia bat."
 ---
 
 <strong>Lidergoa ikastetxeko proiektu digitaletan</strong>

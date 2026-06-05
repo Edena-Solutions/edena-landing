@@ -7,26 +7,25 @@ tags:
     - "numérisation"
     - "établissements scolaires"
     - "administration"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop"
 relatedPosts:
-  - inscription-ligne-numerisation-ecole-pas-2026
-  - crm-scolaire-inscriptions-conversion-2026
-  - onboarding-numerique-familles-inscription-ligne
-  - retention-eleves-ere-numerique
+    - inscription-ligne-numerisation-ecole-pas-2026
+    - crm-scolaire-inscriptions-conversion-2026
+    - onboarding-numerique-familles-inscription-ligne
+    - retention-eleves-ere-numerique
 faqs:
-  - question: "La rétention scolaire dépend-elle davantage des universitaires ou de l’administration ?"
-    answer: "Les deux. Les universitaires et le climat sont décisifs ; mais l'expérience administrative (paiements, documentation, communication) influence la perception du sérieux et la décision de renouveler."
-  - question: "Quels indicateurs de rétention scolaire dois-je suivre ?"
-    answer: "Taux de renouvellement par étape, par année d'incorporation et, si possible, par type de famille ou de programme. Crosses avec défauts et assistance pour détecter les risques."
-  - question: "La numérisation peut-elle aggraver la relation avec les familles ?"
-    answer: "Uniquement si utilisé à froid ou massivement. Bien utilisée (messages clairs, rappels utiles, moins d’erreurs), la digitalisation améliore souvent la perception."
-  - question: "Ai-je besoin d’un CRM pédagogique pour travailler sur la rétention ?"
-    answer: "Pas nécessairement. Un bon logiciel de gestion avec familles, paiements et alertes peut suffire. Un CRM est utile lorsqu'il existe de nombreux points de contact et des cycles de vente/renouvellement complexes."
-  - question: "Comment convaincre l’équipe que le management influence la rétention ?"
-    answer: "Partager les données : annulations liées à des impayés ou à des réclamations administratives, et évolution de la conservation avant et après changements de processus. Les chiffres aident à aligner les priorités."
+    - question: "La rétention scolaire dépend-elle davantage des universitaires ou de l’administration ?"
+      answer: "Les deux. Les universitaires et le climat sont décisifs ; mais l'expérience administrative (paiements, documentation, communication) influence la perception du sérieux et la décision de renouveler."
+    - question: "Quels indicateurs de rétention scolaire dois-je suivre ?"
+      answer: "Taux de renouvellement par étape, par année d'incorporation et, si possible, par type de famille ou de programme. Crosses avec défauts et assistance pour détecter les risques."
+    - question: "La numérisation peut-elle aggraver la relation avec les familles ?"
+      answer: "Uniquement si utilisé à froid ou massivement. Bien utilisée (messages clairs, rappels utiles, moins d’erreurs), la digitalisation améliore souvent la perception."
+    - question: "Ai-je besoin d’un CRM pédagogique pour travailler sur la rétention ?"
+      answer: "Pas nécessairement. Un bon logiciel de gestion avec familles, paiements et alertes peut suffire. Un CRM est utile lorsqu'il existe de nombreux points de contact et des cycles de vente/renouvellement complexes."
+    - question: "Comment convaincre l’équipe que le management influence la rétention ?"
+      answer: "Partager les données : annulations liées à des impayés ou à des réclamations administratives, et évolution de la conservation avant et après changements de processus. Les chiffres aident à aligner les priorités."
 ---
-
 
 <strong>Impact de la digitalisation administrative sur la persévérance scolaire</strong>
 
@@ -139,11 +138,11 @@ Après visite ou proposition acceptée, dans le même flux numérique, avant l'i
 
 <br>
 
-1) L'expérience administrative influence la décision des familles de rester ou de partir.
-2) La rétention scolaire s'améliore grâce à des alertes précoces basées sur les paiements, l'assiduité et les incidents.
-3) Une communication segmentée et des rappels utiles réduisent les malentendus et les sentiments de chaos.
-4) Mesurer la rétention par étape ou par cohorte permet de prioriser les actions.
-5) Revoir et simplifier le processus de renouvellement des inscriptions est un levier direct de rétention.
+1. L'expérience administrative influence la décision des familles de rester ou de partir.
+2. La rétention scolaire s'améliore grâce à des alertes précoces basées sur les paiements, l'assiduité et les incidents.
+3. Une communication segmentée et des rappels utiles réduisent les malentendus et les sentiments de chaos.
+4. Mesurer la rétention par étape ou par cohorte permet de prioriser les actions.
+5. Revoir et simplifier le processus de renouvellement des inscriptions est un levier direct de rétention.
 
 Voulez-vous voir comment améliorer la rétention de votre centre avec les données et les processus numériques ? Demandez une démo et nous examinons ensemble les indicateurs, la communication avec les familles et les flux de renouvellement.
 

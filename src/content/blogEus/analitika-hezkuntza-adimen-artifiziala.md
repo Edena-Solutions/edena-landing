@@ -7,20 +7,20 @@ tags:
     - "inteligencia artificial"
     - "datos"
     - "decisiones"
-author: "Edena Taldea"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1739805591936-39f03383c9a9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - pedagogia-metodologia-berragarriak
-  - pedagogia-berrikuntza-teknologia
-  - hezkuntzako-ebaluazio-digitala
-  - etorkizuneko-hezkuntza-espazioen-diseinua
+    - pedagogia-metodologia-berragarriak
+    - pedagogia-berrikuntza-teknologia
+    - hezkuntzako-ebaluazio-digitala
+    - etorkizuneko-hezkuntza-espazioen-diseinua
 faqs:
-  - question: "AIk aurreikusten al du eskola uztea?"
-    answer: "Ereduak adierazi ditzakezu (absentismoa, nota baxuak), baina erabakiak gizatiarra izan behar du eta babestutako datuekin."
-  - question: "Datu-zientzialari bat behar al dut?"
-    answer: "Zentro ertainetan nahikoa da ERP-ren txosten automatikoak eta ikasketa-buruaren irizpideak."
-  - question: "LOMLOE-rekin bateragarria al da?"
-    answer: "Bai ebaluazio formatiboa onartzen badu, ez ikasleei etiketa opakuak ezartzen badie."
+    - question: "AIk aurreikusten al du eskola uztea?"
+      answer: "Ereduak adierazi ditzakezu (absentismoa, nota baxuak), baina erabakiak gizatiarra izan behar du eta babestutako datuekin."
+    - question: "Datu-zientzialari bat behar al dut?"
+      answer: "Zentro ertainetan nahikoa da ERP-ren txosten automatikoak eta ikasketa-buruaren irizpideak."
+    - question: "LOMLOE-rekin bateragarria al da?"
+      answer: "Bai ebaluazio formatiboa onartzen badu, ez ikasleei etiketa opakuak ezartzen badie."
 ---
 
 <strong>Hezkuntza analitika eta adimen artifiziala: hezkuntza eraldatzen duten datuak</strong>

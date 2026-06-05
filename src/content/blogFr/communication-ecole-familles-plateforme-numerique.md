@@ -9,16 +9,17 @@ tags:
         "plateforme numérique",
         "établissements scolaires",
     ]
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1521424159246-e4a66f267e4b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 faqs:
-  - question: "Une application parents remplace-t-elle le courriel ?"
-    answer: "Pas nécessairement. Le courriel reste adapté au contenu long. Une application parents convient mieux aux avis urgents, à la présence et aux rappels de paiement. L'idéal est de combiner les deux et de choisir le canal selon le type de message."
-  - question: "Les familles adoptent-elles l'application parents ?"
-    answer: "Oui, si l'établissement la présente clairement et apporte de la valeur (présence, paiement, avis). Le premier contact doit être utile ; de longues circulaires seules y réduisent l'adoption."
-  - question: "Comment respecter le GDPR dans la communication école–familles ?"
-    answer: "Utiliser des outils qui permettent de gérer les consentements, de ne pas réutiliser les données à des fins non autorisées et de désinscrire toute personne qui le demande. Le fournisseur doit agir en qualité de sous-traitant s'il traite des données pour le compte de l'établissement."
+    - question: "Une application parents remplace-t-elle le courriel ?"
+      answer: "Pas nécessairement. Le courriel reste adapté au contenu long. Une application parents convient mieux aux avis urgents, à la présence et aux rappels de paiement. L'idéal est de combiner les deux et de choisir le canal selon le type de message."
+    - question: "Les familles adoptent-elles l'application parents ?"
+      answer: "Oui, si l'établissement la présente clairement et apporte de la valeur (présence, paiement, avis). Le premier contact doit être utile ; de longues circulaires seules y réduisent l'adoption."
+    - question: "Comment respecter le GDPR dans la communication école–familles ?"
+      answer: "Utiliser des outils qui permettent de gérer les consentements, de ne pas réutiliser les données à des fins non autorisées et de désinscrire toute personne qui le demande. Le fournisseur doit agir en qualité de sous-traitant s'il traite des données pour le compte de l'établissement."
 ---
+
 <strong>Comment améliorer la communication avec les familles depuis une seule plateforme numérique</strong>
 
 <br>

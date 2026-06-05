@@ -8,22 +8,21 @@ tags:
     - "compliment normatiu"
     - "automatització"
     - "gestió financera"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1679922389535-7f4badadc07c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - morositat-cobraments-automatics-2026
-  - kpi-director-escola-mensual-2026
-  - reduir-impagaments-facturacio-col-legis
-  - pagaments-en-linia-educacio
+    - morositat-cobraments-automatics-2026
+    - kpi-director-escola-mensual-2026
+    - reduir-impagaments-facturacio-col-legis
+    - pagaments-en-linia-educacio
 faqs:
-  - question: "Què és Verifactu i per què és crucial per als centres educatius?"
-    answer: "Verifactu és el sistema oficial de l'Agència Tributària espanyola per a la gestió de facturació electrònica. Aquest sistema permet l'emissió, l'enviament, la recepció i l'emmagatzematge de factures electròniques de manera segura i conforme a la normativa fiscal espanyola. Pels centres educatius, la integració amb Verifactu no és opcional; és un requisit legal que garanteix el compliment de totes les normatives fiscals vigents. La importància de Verifactu va més enllà del simple compliment normatiu. Aquest sistema proporciona: -"
-  - question: "Quanta morositat és 'normal' en un col·legi privat?"
-    answer: "Varia per perfil socioeconòmic i mètode de cobrament, però molts centres saludables es mouen entre el 4% i el 8% a 45 dies. Per sobre del 10% cal revisar calendari, domiciliació i seqüència de recordatoris abans d'ampliar plantilla."
-  - question: "Verifactu canvia com cobrament a les famílies?"
-    answer: "Verifactu afecta sobretot l'emissió i la traçabilitat de factures davant l'AEAT, no el mètode de pagament en si. Sí que obliga que el teu programari de facturació generi registres conformes; convé integrar-lo amb cobraments i conciliació."
+    - question: "Què és Verifactu i per què és crucial per als centres educatius?"
+      answer: "Verifactu és el sistema oficial de l'Agència Tributària espanyola per a la gestió de facturació electrònica. Aquest sistema permet l'emissió, l'enviament, la recepció i l'emmagatzematge de factures electròniques de manera segura i conforme a la normativa fiscal espanyola. Pels centres educatius, la integració amb Verifactu no és opcional; és un requisit legal que garanteix el compliment de totes les normatives fiscals vigents. La importància de Verifactu va més enllà del simple compliment normatiu. Aquest sistema proporciona: -"
+    - question: "Quanta morositat és 'normal' en un col·legi privat?"
+      answer: "Varia per perfil socioeconòmic i mètode de cobrament, però molts centres saludables es mouen entre el 4% i el 8% a 45 dies. Per sobre del 10% cal revisar calendari, domiciliació i seqüència de recordatoris abans d'ampliar plantilla."
+    - question: "Verifactu canvia com cobrament a les famílies?"
+      answer: "Verifactu afecta sobretot l'emissió i la traçabilitat de factures davant l'AEAT, no el mètode de pagament en si. Sí que obliga que el teu programari de facturació generi registres conformes; convé integrar-lo amb cobraments i conciliació."
 ---
-
 
 <strong>Facturació Electrònica i Verifactu en Educació 2026: Compliment Normatiu i Eficiència</strong>
 

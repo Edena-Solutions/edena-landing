@@ -7,20 +7,20 @@ tags:
     - "digital experience"
     - "instant access"
     - "technology"
-author: "Edena Team"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1584206863352-ce8b3a1c10e3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - school-family-app-benefits-heads-parents-2026
-  - school-family-communication-platform
-  - digital-communication-schools
-  - institutional-communication-families
+    - school-family-app-benefits-heads-parents-2026
+    - school-family-communication-platform
+    - digital-communication-schools
+    - institutional-communication-families
 faqs:
-  - question: "Is it legal to use WhatsApp with families?"
-    answer: "With consent and discretion, for coordination; It does not replace a traceable institutional channel."
-  - question: "Mandatory app for all families?"
-    answer: "Recommended with an alternative for those who cannot; Equal communication is mandatory."
-  - question: "Push notifications without cluttering?"
-    answer: "Push emergencies; informative in digestive tray or summary email."
+    - question: "Is it legal to use WhatsApp with families?"
+      answer: "With consent and discretion, for coordination; It does not replace a traceable institutional channel."
+    - question: "Mandatory app for all families?"
+      answer: "Recommended with an alternative for those who cannot; Equal communication is mandatory."
+    - question: "Push notifications without cluttering?"
+      answer: "Push emergencies; informative in digestive tray or summary email."
 ---
 
 <strong>Mobile apps in education: The digital experience in your pocket</strong>

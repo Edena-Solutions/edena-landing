@@ -7,22 +7,21 @@ tags:
     - "rendiment acadèmic"
     - "personalització"
     - "educació"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1599081593734-5e65dd7abfba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - kpi-director-escola-mensual-2026
-  - dashboard-educatiu
-  - dashboards-educatius-metriques
-  - analitica-educativa-dashboards-escolars
+    - kpi-director-escola-mensual-2026
+    - dashboard-educatiu
+    - dashboards-educatius-metriques
+    - analitica-educativa-dashboards-escolars
 faqs:
-  - question: "Cada quant revisar dades de rendiment?"
-    answer: "Trimestralment per departament; mensualment només indicadors d'alerta primerenca."
-  - question: "Compartir rànquings entre professors?"
-    answer: "Amb criteri pedagògic, no publiqueu rànquings d'alumnes a famílies sense context."
-  - question: "Què fer amb un curs endarrerit?"
-    answer: "Intervenció tutorial i recursos, no només més exàmens."
+    - question: "Cada quant revisar dades de rendiment?"
+      answer: "Trimestralment per departament; mensualment només indicadors d'alerta primerenca."
+    - question: "Compartir rànquings entre professors?"
+      answer: "Amb criteri pedagògic, no publiqueu rànquings d'alumnes a famílies sense context."
+    - question: "Què fer amb un curs endarrerit?"
+      answer: "Intervenció tutorial i recursos, no només més exàmens."
 ---
-
 
 <strong>Analítica del rendiment acadèmic: Dades per potenciar laprenentatge</strong>
 

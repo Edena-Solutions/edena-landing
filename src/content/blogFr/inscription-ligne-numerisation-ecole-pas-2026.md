@@ -3,28 +3,29 @@ title: "Comment digitaliser l'inscription en ligne de votre école étape par é
 date: "2026-03-28"
 description: "Guide pas à pas pour digitaliser les inscriptions scolaires : formulaires numériques, pipeline CRM, paiement et documents dans un flux unifié."
 tags:
- [
- "inscription en ligne école",
- "formulaires numériques école",
- "CRM inscription scolaire",
- "portail famille inscription",
- "digitaliser admissions",
- "Edena",
- ]
-author: "Équipe Edena"
+    [
+        "inscription en ligne école",
+        "formulaires numériques école",
+        "CRM inscription scolaire",
+        "portail famille inscription",
+        "digitaliser admissions",
+        "Edena",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop"
 faqs:
-  - question: "Un formulaire seul peut-il remplacer un CRM pour la gestion des inscriptions ?"
-    answer: "Non. Un formulaire sans CRM envoie les soumissions dans une boîte mail et vous gérez à nouveau le processus par e-mail. Le CRM donne à chaque demande une étape, un responsable, une source enregistrée et un taux de conversion mesurable. Sans cela, vous ne pouvez pas voir où les demandes stagnent ni quel canal de captation vaut l'investissement."
-  - question: "Le processus d'inscription numérique est-il conforme au GDPR ?"
-    answer: "La plateforme fournit un accès par rôle, des journaux d'audit et une visibilité contrôlée des données. La base légale du traitement des données familiales, les durées de conservation et la procédure de réponse aux droits sont définis par votre DPO, pas par le logiciel. Assurez-vous que votre politique de confidentialité couvre le processus de captation numérique avant le lancement."
-  - question: "Que faire avec les demandes de familles ayant un accès numérique limité ?"
-    answer: "Définissez un canal de soutien avant le lancement : un appel téléphonique ou une session d'aide en présentiel où l'administration complète le formulaire au nom de la famille, en saisissant les données dans le même CRM. Ainsi, toutes les demandes, quel que soit le canal d'entrée, sont dans le même pipeline avec des données cohérentes."
-  - question: "Combien de temps faut-il pour configurer le processus d'inscription dans Edena ?"
-    answer: "Une configuration de base (formulaire, étapes de pipeline, règle de paiement et confirmation automatisée) peut être mise en place en une semaine si la conception du processus est déjà définie. Des flux plus complexes avec plusieurs types de documents, des automatisations d'étapes et la communication Pro prennent deux à trois semaines. L'équipe d'implémentation accompagne la configuration dans le cadre de l'onboarding."
-  - question: "Quelle métrique utiliser pour juger si le processus numérique fonctionne ?"
-    answer: "Les indicateurs les plus fiables sont : le taux de complétion des demandes (soumissions démarrées vs. soumises), le délai de la première prise de contact à la place confirmée, et le pourcentage d'appels \"avez-vous reçu mon dossier ?\" après le lancement. Si les taux de complétion sont faibles, le formulaire est trop long ou la première étape trop exigeante."
+    - question: "Un formulaire seul peut-il remplacer un CRM pour la gestion des inscriptions ?"
+      answer: "Non. Un formulaire sans CRM envoie les soumissions dans une boîte mail et vous gérez à nouveau le processus par e-mail. Le CRM donne à chaque demande une étape, un responsable, une source enregistrée et un taux de conversion mesurable. Sans cela, vous ne pouvez pas voir où les demandes stagnent ni quel canal de captation vaut l'investissement."
+    - question: "Le processus d'inscription numérique est-il conforme au GDPR ?"
+      answer: "La plateforme fournit un accès par rôle, des journaux d'audit et une visibilité contrôlée des données. La base légale du traitement des données familiales, les durées de conservation et la procédure de réponse aux droits sont définis par votre DPO, pas par le logiciel. Assurez-vous que votre politique de confidentialité couvre le processus de captation numérique avant le lancement."
+    - question: "Que faire avec les demandes de familles ayant un accès numérique limité ?"
+      answer: "Définissez un canal de soutien avant le lancement : un appel téléphonique ou une session d'aide en présentiel où l'administration complète le formulaire au nom de la famille, en saisissant les données dans le même CRM. Ainsi, toutes les demandes, quel que soit le canal d'entrée, sont dans le même pipeline avec des données cohérentes."
+    - question: "Combien de temps faut-il pour configurer le processus d'inscription dans Edena ?"
+      answer: "Une configuration de base (formulaire, étapes de pipeline, règle de paiement et confirmation automatisée) peut être mise en place en une semaine si la conception du processus est déjà définie. Des flux plus complexes avec plusieurs types de documents, des automatisations d'étapes et la communication Pro prennent deux à trois semaines. L'équipe d'implémentation accompagne la configuration dans le cadre de l'onboarding."
+    - question: "Quelle métrique utiliser pour juger si le processus numérique fonctionne ?"
+      answer: 'Les indicateurs les plus fiables sont : le taux de complétion des demandes (soumissions démarrées vs. soumises), le délai de la première prise de contact à la place confirmée, et le pourcentage d''appels "avez-vous reçu mon dossier ?" après le lancement. Si les taux de complétion sont faibles, le formulaire est trop long ou la première étape trop exigeante.'
 ---
+
 <strong>Comment digitaliser l'inscription en ligne de votre école étape par étape</strong>
 
 <br>

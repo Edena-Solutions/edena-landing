@@ -7,19 +7,18 @@ tags:
     - "famílies"
     - "comunitat"
     - "participació"
-author: "Equip Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - llista-verificacio-digitalitzacio-2026
+    - llista-verificacio-digitalitzacio-2026
 faqs:
-  - question: "Quants missatges massius per setmana?"
-    answer: "Com a regla pràctica, no més de dues comunicacions no urgents per setmana per no saturar famílies."
-  - question: "Com segmentar audiències?"
-    answer: "Per etapa, curs i serveis (menjador, transport). Evita enviar-ho tot a tot el centre."
-  - question: "Substitueix l'app al WhatsApp del tutor?"
-    answer: "No té perquè. L'app canalitza el que és institucional; WhatsApp pot quedar per a coordinació puntual amb criteri escrit."
+    - question: "Quants missatges massius per setmana?"
+      answer: "Com a regla pràctica, no més de dues comunicacions no urgents per setmana per no saturar famílies."
+    - question: "Com segmentar audiències?"
+      answer: "Per etapa, curs i serveis (menjador, transport). Evita enviar-ho tot a tot el centre."
+    - question: "Substitueix l'app al WhatsApp del tutor?"
+      answer: "No té perquè. L'app canalitza el que és institucional; WhatsApp pot quedar per a coordinació puntual amb criteri escrit."
 ---
-
 
 <strong>Col·laboració famílies-centre educatiu: Construint una comunitat unida</strong>
 

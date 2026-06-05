@@ -7,24 +7,23 @@ tags:
     - "gestion"
     - "éducation"
     - "technologie"
-author: "Équipe Edena"
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80"
 relatedPosts:
-  - impayes-cobrures-automatises-ecoles-2026
-  - facturation-electronique-verifactu-education-2026
-  - kpi-mensuels-direction-ecole-2026
-  - reduire-impayes-facturation-ecoles
+    - impayes-cobrures-automatises-ecoles-2026
+    - facturation-electronique-verifactu-education-2026
+    - kpi-mensuels-direction-ecole-2026
+    - reduire-impayes-facturation-ecoles
 faqs:
-  - question: "Prévisions de trésorerie par cours ?"
-    answer: "Oui : revenus provenant des honoraires moins les impayés historiques et le calendrier de paiement aux fournisseurs."
-  - question: "Faire rapport au propriétaire ?"
-    answer: "Format mensuel fixe : occupation, impayés, trésorerie, variation vs budget."
-  - question: "Quel est le retard de paiement « normal » dans une école privée ?"
-    answer: "Cela varie selon le profil socio-économique et le mode de collecte, mais de nombreux centres sains évoluent entre 4 % et 8 % à 45 jours. Au-dessus de 10%, il convient de revoir le calendrier, les prélèvements et la séquence de relance avant d'élargir les effectifs."
-  - question: "Verifactu change-t-il la façon dont je facture les familles ?"
-    answer: "Verifactu affecte principalement l'émission et la traçabilité des factures avant l'AEAT, et non le mode de paiement lui-même. Il nécessite que votre logiciel de facturation génère des enregistrements conformes ; Il est conseillé de l'intégrer aux recouvrements et à la conciliation."
+    - question: "Prévisions de trésorerie par cours ?"
+      answer: "Oui : revenus provenant des honoraires moins les impayés historiques et le calendrier de paiement aux fournisseurs."
+    - question: "Faire rapport au propriétaire ?"
+      answer: "Format mensuel fixe : occupation, impayés, trésorerie, variation vs budget."
+    - question: "Quel est le retard de paiement « normal » dans une école privée ?"
+      answer: "Cela varie selon le profil socio-économique et le mode de collecte, mais de nombreux centres sains évoluent entre 4 % et 8 % à 45 jours. Au-dessus de 10%, il convient de revoir le calendrier, les prélèvements et la séquence de relance avant d'élargir les effectifs."
+    - question: "Verifactu change-t-il la façon dont je facture les familles ?"
+      answer: "Verifactu affecte principalement l'émission et la traçabilité des factures avant l'AEAT, et non le mode de paiement lui-même. Il nécessite que votre logiciel de facturation génère des enregistrements conformes ; Il est conseillé de l'intégrer aux recouvrements et à la conciliation."
 ---
-
 
 <strong>Gestion financière intelligente pour les établissements scolaires</strong>
 

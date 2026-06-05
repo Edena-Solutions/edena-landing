@@ -2,21 +2,28 @@
 title: "Plan DigEdu 2026: transformación digital en la educación en España"
 date: "2026-01-08"
 description: "Plan DigEdu: qué implica para la gestión del centro. Guía práctica para centros educativos en España (2026)."
-tags: ["Plan DigEdu", "digitalización educativa", "transformación digital", "tecnología educativa", "España 2026"]
-author: "Equipo Edena"
+tags:
+    [
+        "Plan DigEdu",
+        "digitalización educativa",
+        "transformación digital",
+        "tecnología educativa",
+        "España 2026",
+    ]
+author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
-  - metodologias-pedagogicas-innovadoras
-  - innovacion-pedagogica-tecnologia
-  - evaluacion-assessment-digital-educativo
-  - espacios-educativos-futuro-diseno
+    - metodologias-pedagogicas-innovadoras
+    - innovacion-pedagogica-tecnologia
+    - evaluacion-assessment-digital-educativo
+    - espacios-educativos-futuro-diseno
 faqs:
-  - question: "¿Qué es el Plan DigEdu y por qué es crucial en 2026?"
-    answer: "El Plan DigEdu es la estrategia gubernamental más importante para la digitalización del sistema educativo español, financiado por el Mecanismo de Recuperación y Resiliencia de la UE. Se estructura en dos programas complementarios que están transformando la infraestructura tecnológica y las competencias digitales de toda la comunidad educativa. El programa #EcoDigEdu, con 989 millones de euros de inversión, está equipando los centros educativos con la tecnología necesaria para la educación del futuro. Por su parte, el programa #CompDigEdu, con 301 millones de euros, está formando y certificando a cientos de miles de docentes en competencias digitales avanzadas. Esta inversión masiva no es solo una modernización tecnológica; es un cambio de paradigma que está redefiniendo cómo entendemos la educación en el 2026. Los centros que se adaptan ahora a esta transformación están posicionándose como líderes del sector educativo."
-  - question: "¿DigEdu obliga a un software concreto?"
-    answer: "No; exige criterios de seguridad y competencia docente."
-  - question: "¿Ayudas públicas?"
-    answer: "Consultad convocatorias autonómicas; documentad proyecto y privacidad."
+    - question: "¿Qué es el Plan DigEdu y por qué es crucial en 2026?"
+      answer: "El Plan DigEdu es la estrategia gubernamental más importante para la digitalización del sistema educativo español, financiado por el Mecanismo de Recuperación y Resiliencia de la UE. Se estructura en dos programas complementarios que están transformando la infraestructura tecnológica y las competencias digitales de toda la comunidad educativa. El programa #EcoDigEdu, con 989 millones de euros de inversión, está equipando los centros educativos con la tecnología necesaria para la educación del futuro. Por su parte, el programa #CompDigEdu, con 301 millones de euros, está formando y certificando a cientos de miles de docentes en competencias digitales avanzadas. Esta inversión masiva no es solo una modernización tecnológica; es un cambio de paradigma que está redefiniendo cómo entendemos la educación en el 2026. Los centros que se adaptan ahora a esta transformación están posicionándose como líderes del sector educativo."
+    - question: "¿DigEdu obliga a un software concreto?"
+      answer: "No; exige criterios de seguridad y competencia docente."
+    - question: "¿Ayudas públicas?"
+      answer: "Consultad convocatorias autonómicas; documentad proyecto y privacidad."
 ---
 
 <strong>Plan DigEdu 2026: La Transformación Digital que Mejora la Educación en España</strong>
