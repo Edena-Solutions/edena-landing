@@ -185,13 +185,17 @@ function getSmallFeaturePosition(index: number): { gridRow: string; gridColumn: 
     return { gridRow: "6", gridColumn: `${index - 33}` };
 }
 
-const WALL_FADE_MASK: CSSProperties = {
+const WALL_FADE_MASK_DESKTOP: CSSProperties = {
     maskImage: [
         "linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%)",
         "linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%)",
     ].join(", "),
     WebkitMaskComposite: "destination-in",
     maskComposite: "intersect",
+};
+
+const WALL_FADE_MASK_MOBILE: CSSProperties = {
+    maskImage: "linear-gradient(to bottom, transparent 0%, black 8%, black 92%, transparent 100%)",
 };
 
 function MobileFeatureChip({
@@ -227,11 +231,11 @@ function WallOfFeaturesMobile({
     translatePath: (path: string) => string;
 }) {
     return (
-        <div className="w-full overflow-hidden px-4 lg:hidden">
-            <div className="mx-auto max-w-md">
+        <div className="w-full min-w-0 overflow-hidden px-4 lg:hidden">
+            <div className="mx-auto w-full max-w-md min-w-0">
                 <div
                     className="grid grid-cols-4 gap-px bg-zinc-200 dark:bg-zinc-800"
-                    style={WALL_FADE_MASK}
+                    style={WALL_FADE_MASK_MOBILE}
                 >
                     {mainFeatureConfig.map((feature) => (
                         <MobileFeatureChip
@@ -261,7 +265,7 @@ export default function WallOfFeatures({ t, lang }: Props) {
     const { wallOfFeatures } = t;
 
     return (
-        <GSAPSection className="flex flex-col gap-10 items-center w-full">
+        <GSAPSection className="flex flex-col gap-10 items-center min-w-0 w-full max-w-full overflow-hidden">
             <div className="flex flex-col gap-4 text-center max-w-xl mx-auto px-4">
                 <h2 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent">
                     {wallOfFeatures.title}
@@ -281,7 +285,7 @@ export default function WallOfFeatures({ t, lang }: Props) {
                         background: "#e4e4e7",
                         maxWidth: "1400px",
                         margin: "0 auto",
-                        ...WALL_FADE_MASK,
+                        ...WALL_FADE_MASK_DESKTOP,
                     }}
                 >
                     {mainFeatureConfig.map((feature) => {
