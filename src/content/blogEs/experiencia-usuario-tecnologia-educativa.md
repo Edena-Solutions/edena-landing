@@ -5,13 +5,22 @@ description: "Descubre por qué la experiencia de usuario es fundamental para el
 tags: ["UX", "experiencia", "tecnología", "educación"]
 author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - checklist-digitalizacion-2026
+faqs:
+  - question: "¿Por dónde empiezo la digitalización?"
+    answer: "Datos maestros limpios, cobros trazables y canal familiar oficial antes de ampliar herramientas de aula."
+  - question: "¿El software en la nube es seguro para menores?"
+    answer: "Puede serlo con contrato de encargo, cifrado y subprocesadores documentados. El centro sigue siendo responsable."
+  - question: "¿Cuánto tiempo dedica la dirección al proyecto?"
+    answer: "30-45 minutos semanales en las primeras doce semanas suelen bastar para desbloquear sin microgestionar."
 ---
 
 <strong>La experiencia de usuario: clave en la adopción de tecnología educativa</strong>
 
 <br>
 
-La tecnología educativa ha avanzado significativamente en los últimos años, pero el éxito de cualquier solución no depende únicamente de sus funcionalidades técnicas. La experiencia de usuario (UX) es el factor determinante que decide si una tecnología será adoptada y utilizada efectivamente por la comunidad educativa. Un software con excelentes funcionalidades pero una mala experiencia de usuario está condenado al fracaso.
+La tecnología educativa ha avanzado significativamente en los últimos añte, pero el éxito de cualquier solución no depende únicamente de sus funcionalidades técnicas. La experiencia de usuario (UX) es el factor determinante que decide si una tecnología será adoptada y utilizada efectivamente por la comunidad educativa. Un software con excelentes funcionalidades pero una mala experiencia de usuario está condenado al fracaso.
 
 <br>
 
@@ -77,8 +86,45 @@ La experiencia de usuario en tecnología educativa continuará evolucionando con
 
 <br>
 
+<strong>UX que importa en secretaría y familias</strong>
+
+<br>
+
+- Formularios cortos
+- **Menos clics:** emitir recibo
+- Estado visible de deuda
+- Búsqueda rápida de alumno. Si secretaría sufre, el proyecto se sabotea
+
+<br>
+
+<strong>Prueba de usabilidad</strong>
+
+<br>
+
+Pide a una familia piloto completar matrícula y pago sin ayuda. Si tarda más de 15 minutos, simplifica.
+
+<br>
+
+<strong>Aplicación en tu centro</strong>
+
+<br>
+
+En la práctica, la tesorería del centro mejora cuando facturación, cobros y conciliación comparten la misma fuente de datos. Evita exportar a Excel para conciliar: cada exportación es una oportunidad de error y de retraso en la respuesta a familias.
+
+<br>
+
+<strong>Caso práctico (España)</strong>
+
+<br>
+
+Un centro de 280 familias automatizó asistencia, recordatorios de pago y boletines. La secretaría recuperó 14 horas semanales para atención presencial.
+
+<br>
+
 <strong>Conclusión</strong>
 
 <br>
 
 La experiencia de usuario es el factor crítico que determina el éxito o fracaso de la tecnología educativa. Los centros que priorizan la UX en sus decisiones tecnológicas verán mayor adopción, satisfacción, y resultados positivos.
+
+<br>

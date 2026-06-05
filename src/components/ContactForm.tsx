@@ -78,7 +78,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
 
     if (status === "success") {
         return (
-            <div className="max-w-xl mx-auto rounded bg-secondary p-6 text-center space-y-2">
+            <div className="rounded bg-secondary p-6 text-center space-y-2">
                 <p className="font-semibold text-lg">{ct.successTitle}</p>
                 <p className="text-muted-foreground text-sm">{ct.successDescription}</p>
             </div>
@@ -86,7 +86,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
     }
 
     return (
-        <form onSubmit={handleSubmit} className="space-y-2 max-w-xl mx-auto">
+        <form onSubmit={handleSubmit} className="space-y-2">
             <div className="space-y-1.5">
                 <Label htmlFor="name">{ct.nameLabel}</Label>
                 <Input
@@ -143,7 +143,11 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                 <p className="text-sm text-destructive">{ct.errorDescription}</p>
             )}
 
-            <Button type="submit" className="w-full" disabled={status === "submitting"}>
+            <Button
+                type="submit"
+                className="w-full mt-2 sm:w-fit"
+                disabled={status === "submitting"}
+            >
                 {status === "submitting" ? ct.submitting : ct.submit}
             </Button>
         </form>

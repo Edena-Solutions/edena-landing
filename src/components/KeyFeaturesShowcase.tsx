@@ -5,8 +5,8 @@ import dashboard from "@/assets/img/screenshots/finance/invoice_analytics.png";
 import dashboardDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
 import finance from "@/assets/img/screenshots/finance/billing_cycle.png";
 import financeDark from "@/assets/img/screenshots/finance/dark/billing_cycle.png";
-import assignmentScoreCard from "@/assets/img/screenshots/assignment/assignment_score_card.png";
-import assignmentScoreCardDark from "@/assets/img/screenshots/assignment/dark/assignment_score_card.png";
+import assignmentScoreCard from "@/assets/img/screenshots/students/student_evaluation.png";
+import assignmentScoreCardDark from "@/assets/img/screenshots/students/dark/student_evaluation.png";
 import crmHero from "@/assets/img/screenshots/crm/crm_hero.png";
 import crmHeroDark from "@/assets/img/screenshots/crm/dark/crm_hero.png";
 import crmForm from "@/assets/img/screenshots/crm/crm_form.png";
@@ -43,10 +43,7 @@ function TabItem({
     shortDescription: string;
 }) {
     return (
-        <div
-            data-tab-item
-            className="rounded overflow-hidden bg-background cursor-pointer flex flex-col"
-        >
+        <div data-tab-item className="rounded overflow-hidden bg-card cursor-pointer flex flex-col">
             <button
                 onClick={onClick}
                 className={cn(
@@ -54,7 +51,7 @@ function TabItem({
                     isActive ? "pb-2" : "pb-3",
                 )}
             >
-                <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-muted flex items-center justify-center">
+                <div className="flex-shrink-0 w-8 h-8 rounded bg-background flex items-center justify-center">
                     <Icon size={20} />
                 </div>
                 <span
@@ -93,6 +90,9 @@ function screenshotSrc(f: FeatureScreenshot, isDark: boolean) {
     if (isDark && f.imgDark) return f.imgDark.src;
     return f.img.src;
 }
+
+const screenshotShadowClass =
+    "shadow-[0_14px_48px_rgba(0,0,0,0.14)] dark:shadow-[0_14px_48px_rgba(0,0,0,0.55)]";
 
 export default function KeyFeaturesShowcase({ t }: Props) {
     const translations =
@@ -184,11 +184,13 @@ export default function KeyFeaturesShowcase({ t }: Props) {
         <GSAPSection className="w-full overflow-hidden">
             <div className="flex flex-col gap-8">
                 <div className="flex flex-col gap-4 text-center max-w-xl mx-auto px-4">
-                    <h2 className="text-xl font-bold">{title}</h2>
+                    <h2 className="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto">
+                        {title}
+                    </h2>
                     <p className="text-sm text-muted-foreground">{description}</p>
                 </div>
 
-                <div className="lg:hidden flex flex-col gap-4 p-4 bg-card">
+                <div className="lg:hidden flex flex-col gap-4 p-4">
                     <div className="w-full flex justify-center overflow-hidden">
                         <div className="w-full max-w-[400px] h-[200px] flex items-center justify-center">
                             {features[active].useAppAnimation ? (
@@ -197,7 +199,10 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                                 <img
                                     src={screenshotSrc(features[active], isDarkMode) ?? ""}
                                     alt={getImageAltText(features[active].img)}
-                                    className="max-w-full max-h-full w-auto h-auto mt-15 object-contain object-center rounded"
+                                    className={cn(
+                                        "max-w-full max-h-full w-auto h-auto mt-15 object-contain object-center rounded",
+                                        screenshotShadowClass,
+                                    )}
                                 />
                             )}
                         </div>
@@ -216,7 +221,7 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                                         key={i}
                                         onClick={() => handleTab(i)}
                                         className={cn(
-                                            "flex items-center gap-2 px-4 py-2.5 rounded-sm whitespace-nowrap transition-all shrink-0 bg-background",
+                                            "flex items-center gap-2 px-4 py-2.5 rounded-sm whitespace-nowrap transition-all shrink-0 bg-card",
                                             isActive && "text-foreground",
                                         )}
                                     >
@@ -230,7 +235,7 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                         </div>
                     </div>
 
-                    <div className="flex-1 min-w-0 rounded-sm px-4 py-3 bg-background">
+                    <div className="flex-1 min-w-0 rounded-sm px-4 py-3 bg-card">
                         <p className="text-sm leading-relaxed text-muted-foreground">
                             {features[active].description}
                         </p>
@@ -238,7 +243,7 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                 </div>
                 <div
                     ref={containerRef}
-                    className="hidden lg:flex bg-card relative w-full min-w-0 min-h-[400px] md:min-h-[500px] lg:min-h-[560px] flex-row justify-end items-center"
+                    className="hidden lg:flex relative w-full min-w-0 min-h-[400px] md:min-h-[500px] lg:min-h-[560px] flex-row justify-end items-center"
                 >
                     <div
                         ref={imgRef}
@@ -248,17 +253,18 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                         )}
                     >
                         {features[active].useAppAnimation ? (
-                            <AppAnimation className="h-full w-auto max-w-full -translate-x-30" />
+                            <AppAnimation className="h-full w-auto max-w-full -translate-x-30 -translate-y-20" />
                         ) : (
                             <div
                                 className={cn(
-                                    "max-h-full w-fit max-w-full mx-auto rounded overflow-hidden",
+                                    "max-h-full w-fit max-w-full mx-auto rounded",
+                                    screenshotShadowClass,
                                 )}
                             >
                                 <img
                                     src={screenshotSrc(features[active], isDarkMode) ?? ""}
                                     alt={getImageAltText(features[active].img)}
-                                    className="block max-h-[min(100%,420px)] md:max-h-[min(100%,520px)] lg:max-h-[min(100%,660px)] w-auto max-w-full h-auto object-contain object-center dark:shadow-[0_14px_48px_rgba(0,0,0,0.55)] shadow-[0_14px_48px_rgba(0,0,0,0.14)]"
+                                    className="block max-h-[min(100%,420px)] md:max-h-[min(100%,520px)] lg:max-h-[min(100%,660px)] w-auto max-w-full h-auto object-contain object-center rounded"
                                 />
                             </div>
                         )}
@@ -275,7 +281,7 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                                             "w-9 h-9 rounded flex items-center justify-center transition-all cursor-pointer",
                                             active === 0
                                                 ? "bg-muted cursor-not-allowed"
-                                                : "bg-background hover:bg-muted text-foreground",
+                                                : "bg-card hover:bg-muted text-foreground",
                                         )}
                                         aria-label="Anterior"
                                     >
@@ -288,7 +294,7 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                                             "w-9 h-9 rounded flex items-center justify-center transition-all cursor-pointer",
                                             active === features.length - 1
                                                 ? "bg-muted cursor-not-allowed"
-                                                : "bg-background hover:bg-muted text-foreground",
+                                                : "bg-card hover:bg-muted text-foreground",
                                         )}
                                         aria-label="Siguiente"
                                     >

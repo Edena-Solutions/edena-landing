@@ -1,27 +1,40 @@
 ---
-title: "Hezkuntza-teknologian joerak 2025erako: ikaskuntzaren etorkizuna"
+title: "Hezkuntza-teknologiako joerak 2025erako: ikaskuntzaren etorkizuna"
 date: "2025-01-30"
-description: "Arakatu hezkuntza eraldatzen ari diren teknologia berriak eta nola prestatu hezkuntza-zentroak etorkizun digitalerako."
-tags: ["teknologia", "hezkuntza", "berrikuntza", "joerak"]
-author: "Edena taldea"
+description: "Hezkuntza eraldatzen ari diren teknologia berriak aztertu eta hezkuntza-zentroek etorkizun digitalerako nola prestatu daitezkeen."
+tags:
+    - "tecnología"
+    - "educación"
+    - "innovación"
+    - "tendencias"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - digitalizazio-egiaztapen-zerrenda-2026
+faqs:
+  - question: "Nola lerrokatu teknologia LOMOErekin?"
+    answer: "Lehenetsi gaitasun nagusiak eta etengabeko ebaluazioa askatzen dituzten tresnak, ez tresna isolatuak."
+  - question: "Klaustroaren prestakuntza: zenbat nahikoa da?"
+    answer: "Tresna bakoitzeko 60 minutuko saioak, grabatuta, etapako erreferentziarekin, kideen artean zalantzak konpontzeko."
+  - question: "Digitalizazioak denbora pedagogikoa kentzen du?"
+    answer: "Ondo eginda, itzultzen du: zerrenda eta zirkular manualen bikoizketa gutxiagok ebaluaziorako eta tutoretzarako denbora gehiago esan nahi du."
 ---
 
-<strong>Hezkuntza-teknologian joerak 2025erako: ikaskuntzaren etorkizuna</strong>
+<strong>Hezkuntza-teknologiako joerak 2025erako: ikaskuntzaren etorkizuna</strong>
 
 <br>
 
-Hezkuntza-teknologiaren ikuspegia aurretik ikusi gabeko abiaduran eboluzionatzen ari da. Duela urte batzuk zientzia-fikzioa zirudiena, gaur egun errealitatea da eta funtsezki eraldatzen ari da irakasten eta ikasten dugun modua. Ikasleei esperientzia onena eskaini eta lehiakor mantendu nahi dituzten hezkuntza-zentroek joera berri horiei arreta jarri eta estrategikoki adopzionatzeko prest egon behar dute.
+Hezkuntza-teknologiaren panorama aurreko aurretik baino abiadurarik gabeko abiaduran ebolutzen ari da. Duela urte batzuk zientzia-fikzioa zirudiena gaur egungo errealitatea da, irakasten eta ikasten dugun moduaz funtsezki aldatzen. Lehiakorra eta beren ikasleei esperientzia onena ematen jarraitu nahi duten hezkuntza-zentroek joera berritzaile hauei erreparatu eta estrategikoki adoptatzen prestatu behar dute.
 
 <br>
 
-<strong>Pertsonalizatutako adimen artifiziala</strong>
+<strong>Adimen artificial pertsonalizatua</strong>
 
 <br>
 
-Adimen artifizialak aurretik ezinezkoa zen moduan iraultzen du hezkuntza pertsonalizatua. AA sistemek ikasle bakoitzaren aurrerapena denbora errealean aztertu, indarguneak eta ahulguneak identifikatu eta eduki heztzekoa bere behar indibidualen arabera egokitu dezakete.
+Adimen artifizialak hezkuntza pertsonalizatua lehen ezinezkoa zen moduetan aldatzen ari da. AA sistemek ikasle bakoitzaren aurrerapena denbora errealean aztertu, haien indarguneak eta ahultasunak identifikatu eta hezkuntza-edukia beren banakako beharretara espezifikoki egokitu ditzakete.
 
-Pertsonalizazio horrek ariketen zailtasuna doituta ezartzeaz harago doa. AA sistemek ikaskuntza-ereduak, estilo-lehentasunak eta ikasle bakoitzarentzako ikaskuntza-unerik onenak detektatu ditzakete. Adibidez, ikasle batek goizean eduki bisualez hobeto ikasten badu, sistema automatikoki programatu dezake ezaugarri horiek aprobetxatzen dituzten ikasgaiak.
+Pertsonalizazio honek ariketarako zailtasuna soilik egokitzea gainditzen du. AA sistemek ikaskuntza-ereduak, estilo-hobespenak eta ikasle bakoitzarentzako uneko momentu optimoak hauteman ditzakete. Esaterako, ikasle batek goizez eduki bisualekin hobeki ikasten badu, sistemak ezaugarri hauetaz baliatzeko saioak automatikoki programatu ditzake.
 
 <br>
 
@@ -29,29 +42,29 @@ Pertsonalizazio horrek ariketen zailtasuna doituta ezartzeaz harago doa. AA sist
 
 <br>
 
-Errealitate birtuala (EB) eta areagotua (EA) ikasleek eduki heztzekoarekin nola elkarreragiten duten eraldatzen ari dira. Teknologia horiek murgiltze-esperientziak ahalbidetzen dituzte ikaskuntza erakargarriago eta gogoangarriago egiteko.
+Errealitate birtuala (EB) eta areagotua (EA) ikasleek hezkuntza-edukiarekin nola harremanetan diren eraldatzen ari dira. Teknologia hauek ikaskuntza erakargarriagoa eta gogoangarriagoa egiten duten murgiltze-esperientziak ahalbidetzen dituzte.
 
-Erromako historia liburuan irakurtzearen ordez, ikasleek antzinako hiriko kaleetan "ibili" daitezke. Anatomia liburuan ikertzearen ordez, gorputza 3Dn esploratu dezakete. Murgiltze-esperientzia horiek ez dute informazioaren atxikipena hobetzen soilik; ikaskuntzarako jakin-mina eta grina ere pizten dute.
-
-<br>
-
-<strong>Teknologiarekin proiektuetan oinarritutako ikaskuntza</strong>
+Erromako historiari buruz irakurri beharrean, ikasleek antzinako hiriaren kaleetan "ibili" ditzakete. Anatomia liburu batean aztertu beharrean, giza gorputza 3D-an arakatu dezakete. Murgiltze-esperientzia horiek ez dute soilik informazioaren atxikipena hobetzen; ikaskuntzarekiko jakin-mina eta grina ere pizten dituzte.
 
 <br>
 
-Proiektuetan oinarritutako ikaskuntza denbora errealeko lankidetza, baliabide globalak eta emaitza eraginkorrago aurkezteko teknologia berriek indartzen dute. Ikasleek mundu errealeko arazoak simulatzen dituzten proiektu konplexuetan lan egin dezakete, lan-merkatuan aurkituko dituzten tresna profesionalekin.
-
-Lankidetza-plataformek munduko leku desberdinetako ikasleek elkarrekin proiektuetan lan egiten, gaitasun interkulturalak eta komunikazio globala garatzen laguntzen diete. Proiektu horien emaitzak errealitate birtuala, bideo murgiltzaileak edo aurkezpen interaktiboak erabiliz aurkez daitezke.
+<strong>Proiektuen bidezko ikaskuntza teknologiarekin</strong>
 
 <br>
 
-<strong>Gamifikazioa eta ikaskuntza jostagarria</strong>
+Proiektuen bidezko ikaskuntza denbora errealeko lankidetza, baliabide globaletarako sarbide eta emaitzak eragin handiagoarekin aurkezteko aukera ematen duten teknologia berriek potentziatu egiten dute. Ikasleek lan-merkatuari prestatzen dituzten tresna profesionalak erabiliz, mundu errealeko arazoak simulatzen dituzten proiektu konplexuetan lan egin ditzakete.
+
+Lankidetza-plataformek munduko eremu desberdinetatik ikasleek elkarrekin proiektuetan lan egin dezatela ahalbidetzen dute, kultura arteko gaitasunak eta komunikazio globala garatuz. Proiektu horien emaitzak errealitate birtuala, bideo murgiltzaileak edo aurkezpen interaktiboak erabiliz aurkeztu daitezke.
 
 <br>
 
-Gamifikazioa puntu eta domina sinpletatik harago eboluzionatzen ari da. Sistem modernoek jokoaren mekanika sofistikatuak erabiltzen dituzte ikaskuntza-esperientzia benetan erakargarriak sortzeko. Ikasleek "misio" heztzekoak egin, ezagutza zehatzak behar dituzten "enigmak" ebatzi eta helburu komunak lortzeko "taldeetan" kolabora ditzakete.
+<strong>Gamifikazioa eta jolasaren bidezko ikaskuntza</strong>
 
-Gamifikazioa ere erabiltzen ari da lidergoa, talde-lana eta arazoen ebazpena bezalako gaitasun bigunak garatzeko. Joko serioak (serious games) kontzeptu konplexuak modu dibertigarri eta gogoangarrian irakasteko diseinatzen dira espresuki.
+<br>
+
+Gamifikazioak puntu eta domina sinpleetatik haratago ebolutzen ari da. Sistema modernoek ikaskuntza-esperientzia benetako erakargarriak sortzen dituzten joko-mekanismo sofistikatuak erabiltzen dituzte. Ikasleek hezkuntza "misioak" bete, ezagutza espezifikoak behar dituzten "enigmak" konpondu eta helburu komunak lortzeko "taldeetan" kolabora ditzakete.
+
+Gamifikazioa lidergo, talde-lana eta arazo-konponketa bezalako trebetasun bigunak garatzeko ere erabiltzen ari da. Kontzeptu konplexuak modu dibertigarri eta gogoangarrian irakasteko espresuki diseinaturiko joko seriosak sortzen ari dira.
 
 <br>
 
@@ -59,29 +72,29 @@ Gamifikazioa ere erabiltzen ari da lidergoa, talde-lana eta arazoen ebazpena bez
 
 <br>
 
-Gauzen Interneta gelak adimendun bihurtzen ari da, ikasleen beharretara automatikoki egokitzen direnak. Sentsoreek ikaskuntzarako tenperatura, argiztapena eta zarata-maila optimoak detektatu eta ingurunea automatikoki doitu ditzakete.
+Gauzen Internetak ikasleen beharretara automatikoki egokitzen diren gela adimentsuak sortzen ari da. Sentsoreak ikaskuntzan optimoak diren tenperatura, argia eta zarata-mailak hauteman ditzakete, ingurua automatikoki egokituz.
 
-IoT gailuak ere erabiltzen ari dira asistencia monitorizatzeko, hezkuntza-baliabideak kudeatzeko eta espazio eta materialen erabilerari buruzko feedback denbora errealean emateko. Informazio hori zentroaren kudeaketa optimizatzeko eta hezkuntza-esperientzia hobetzeko erabil daiteke.
-
-<br>
-
-<strong>Blockchain kredentzial eta ziurtagirietarako</strong>
+IoT gailuak bertaratzea kontrolatzeko, hezkuntza-baliabideak kudeatzeko eta espazio eta materialen erabilerari buruzko feedback denbora errealean emateko ere erabiltzen ari dira. Informazio hori zentroaren kudeaketa optimizatzeko eta hezkuntza-esperientzia hobetzeko erabil daiteke.
 
 <br>
 
-Blockchain teknologiak kredentzial heztzekoak jaulkitzeko, egiaztatzeko eta partekatzeko modua iraultzen ari da. Blockchaineko ziurtagiri digitalak aldaezinak dira, berehalako egiaztatu daitezke eta faltsutu ezin dira.
-
-Teknologia hori bereziki baliotsua da hezkuntza jarraitua eta mikrokredentzialentzat. Ikasleek erakunde eta ikastaro desberdinetako ziurtagiriak metatu ditzakete, beren gaitasun eta ezagutzak gardentasunez islatzen dituen portfolio digital egiaztagarri bat sortuz.
+<strong>Blockchain kredentzialen eta ziurtagirientzat</strong>
 
 <br>
 
-<strong>Ikaskuntzaren analitika aurreratua</strong>
+Blockchain teknologiak hezkuntza-kredentialak nola eman, egiaztatu eta partekatzen diren aldatzen ari da. Blockchaineko ziurtagiri digitalak aldaezinak, berehalakoan egiaztaerraztasunak eta faltsutu ezin direnak dira.
+
+Teknologia hau bereziki baliotsua da etengabeko hezkuntzan eta mikro-kredentzialen kasuan. Ikasleek erakunde eta ikastaro desberdinetan ziurtagiriak metatu ditzakete, beren gaitasun eta ezagutzak modu gardenean islatzen duen portfolio digital egiaztagarri bat sortuz.
 
 <br>
 
-Ikaskuntzaren analitika prozesu heztzekoari buruzko ikuspegi sakonagoak emateko eboluzionatzen ari da. Sistem modernoek ez dute soilik errendimendu akademikoa aztertzen; ongizate emozionala, parte-hartze soziala eta gaitasun bigunen garapena bezalako faktoreak ere bai.
+<strong>Ikaskuntza-analitika aurreratua</strong>
 
-Informazio hori beranduegi baino lehen arriskuko ikasleak identifikatzeko, esku-hartze heztzekoak pertsonalizatzeko eta irakasteko metodo desberdinen eraginkortasuna ebaluatzeko erabil daiteke. Irakasleek laguntza gehigarria behar duten ikasleei buruzko alerta proaktiboak jaso ditzakete.
+<br>
+
+Ikaskuntza-analitikak hezkuntza-prozesuari buruzko ikuspegi sakonagoak emateko ebolutzen ari da. Sistema modernoek ez soilik errendimendu akademikoa aztertu ditzakete, baita ongizate emozionala, gizarte-parte-hartzea eta trebetasun biginen garapena ere.
+
+Informazio hori arriskuan dauden ikasleak denbara handiegieran identifikatzeko, hezkuntza-esku-hartzeak pertsonalizatzeko eta irakaskuntza-metodo desberdinenen eraginkortasuna ebaluatzeko erabil daiteke. Irakasleek laguntza gehigarria behar duten ikasleeiei buruzko alerta proaktiboak jaso ditzakete.
 
 <br>
 
@@ -89,9 +102,9 @@ Informazio hori beranduegi baino lehen arriskuko ikasleak identifikatzeko, esku-
 
 <br>
 
-Pandemiak hezkuntza hibrido ereduen adopzioa azkartu zuen, eta joera hori eboluzionatzen jarraituko du. Hezkuntza-zentroek presentzialaren eta birtualaren onena konbinatzen duten ereduak garatzen ari dira, kalitatea sakrifikatu gabe malgutasun handiagoa ahalbidetuz.
+Pandemiaren ondorioz hezkuntza hibridoaren adopzioa bizkortu zen, eta joera hau ebolutzen jarraituko du. Hezkuntza-zentroek hezkuntza presentzial eta birtualeko onena konbinatzen duten ereduak garatzen ari dira, kalitatea sacrifikatu gabe malgutasun gehiago ahalbidetuz.
 
-Bideodei aurreratuak, lankidetza-plataformak eta ebaluazio urrutiko tresnak kokapen fisikoaren arabera ikaskuntza-esperientzia aberatsak ahalbidetzen dituzte. Ikasleek edonondik klaseetan parte har dezakete, elkarreriketa pertsonala eta lankidetza mantenduz.
+Bideo-konferentzia aurreratuko teknologiek, lankidetza-plataformek eta urruneko ebaluazio-tresnek kokapen fisikoa edozein dela ere esperientzia hezkuntzaile aberatsak posible egiten dituzte. Ikasleek edonondik klaseetara part hartu dezakete, elkarreragin pertsonala eta lankidetza mantenduz.
 
 <br>
 
@@ -99,39 +112,54 @@ Bideodei aurreratuak, lankidetza-plataformak eta ebaluazio urrutiko tresnak koka
 
 <br>
 
-Hezkuntza-teknologia ere erabiltzen ari da jasangarritasuna eta ingurumen-kontzientzia bultzatzeko. Hezkuntza-zentroek adimen handiko energia-kudeaketa-sistemak inplementatzen dituzte, kontsumo txikiko gailuak erabiltzen dituzte eta ikasleei teknologia berdeei buruz irakasten diete.
+Hezkuntza-teknologia jasangarritasuna eta ingurumen kontzientzia bultzatzeko ere erabiltzen ari da. Hezkuntza-zentroek energia-kudeaketa sistema adimentsuak ezartzen, kontsumitzen gutxiko gailuak erabiltzen eta ikasleei teknologia berdeei buruz irakasten ari dira.
 
-Hezkuntza-proiektuek jasangarritasun-gaiak barneratzen dituzte, teknologia erabiliz ingurumen-inpaktua monitorizatzeko eta arazo ekologikoen konponbide berriak garatzeko. Integrazio horrek ikasleak etorkizuneko ingurumen-erronketarako prestatzen ditu.
-
-<br>
-
-<strong>Irisgarritasun unibertsala</strong>
+Hezkuntza-proiektuak jasangarritasun gaiak integratzen ari dira, teknologia ingurumen-eraginaren kontrolatzeko eta arazo ekologikoetarako irtenbide berritzaileak garatzeko erabiliz. Integrazioak ikasleek etorkizuneko ingurumen-erronketarako prestatzen ditu.
 
 <br>
 
-Teknologiak hezkuntza irisgarriagoa egiten ari da behar eta gaitasun desberdineko ikasleentzat. Azpititulu automatikoak, pantaila-irakurle aurreratuak eta interfaze moldagarriak bezalako irisgarritasun-tresnek ikasle gehiagori esperientzia heztzekoan guztiz parte hartzeko aukera ematen diete.
-
-Adimen artifiziala eduki heztzekoa automatikoki ikaskuntza-estilo eta behar kognitibo desberdinetara egokitzeko erabiltzen ari da. Pertsonalizazio horrek inork atzera geratzea saihesten du.
+<strong>Unibertsalaren irisgarritasuna</strong>
 
 <br>
 
-<strong>Hezitzaileen eginkizuna digitalen aroan</strong>
+Teknologiak behar eta gaitasun desberdineko ikasleentzako hezkuntza irisgarriagoa egiten ari da. Azpititulu automatikoak, pantaila-irakurle aurreratuak eta interfaze moldagarriak bezalako irisgarritasun-tresnak ikasle gehiagori hezkuntza-esperientzian parte-hartze osoa ahalbidetzen ari zaie.
+
+Adimen artifiziala ikaskuntza-estilo eta behar kognitibo desberdinei automatikoki egokitzen den hezkuntza-edukia sortzeko erabiltzen ari da. Pertsonalizazio honek ikasle bakar bat atzean ez gelditzea bermatzen du.
 
 <br>
 
-Aurrerapen teknologiko guzti horien gainean, hezitzaileen eginkizuna funtsezkoa izaten jarraitzen du. Teknologia tresna indartsua da, baina irakasleek giza-konexioak sortzen dituzte, ikaskuntzarako grina pizten dute eta ikasleen garapen pertsonala gidatzen dute.
-
-Etorkizuneko hezitzaileek gaitasun berriak garatu beharko dituzte: gaitasun digitala, teknologia eraginkortasunez integratzeko gaitasuna eta ikasleei mundu digitalean modu kritikoan nabigatzen irakasteko trebetasuna. Prestakuntza etengabea beharrezkoa izango da teknologia berriekin eguneratuta mantentzeko.
+<strong>Hezitzaileen rola garai digitalean</strong>
 
 <br>
 
-<strong>Etorkizunerako prestakuntza</strong>
+Aurrerapen teknologiko guztien arreta ez galdu, hezitzaileen rola funtsezkotzat jarraitzen da. Teknologia tresna indartsua da, baina irakasleek giza konexioak sortzen, ikaskuntzarekiko grina pizten eta ikasleen garapen pertsonala gidatzen dituzte.
+
+Etorkizuneko hezitzaileek trebetasun berriak garatu behar dituzte: gaitasun digitala, teknologia modu eraginkorrean integratzeko ahalmena eta ikasleei mundu digitalean modu kritikoan nabigatzen irakatsi. Etengabeko prestakuntza teknologia berriekin eguneratzeko ezinbestekoa izango da.
 
 <br>
 
-Etorkizunerako prest nahi diren hezkuntza-zentroek teknologiarekiko ikuspegi estrategikoa adopzionatu behar dute. Honek azpiegitura digitalan inbertsioa, langileen prestakuntza eta teknologiaren erabilera arduratsua gidatzen duten politikak garatzea barne hartzen du.
+<strong>2026ko irizpidea</strong>
 
-Teknologiaren adopzioa zentroaren helburu heztzekoekin lerrokatuta egon behar da, alderantziz ez. Teknologia hezkuntza hobetzeko bitartekotzat ikusi behar da, helburu gisa ez.
+<br>
+
+Aplikazio isolatuen aurretik plataforma integrala lehenetsi. AA giza berrikuspenarekin. Verifactu eta LOPDGDD administrazio stack-aren zati gisa, geroagoko adabaki gisa ez.
+
+<br>
+
+<strong>Saihestu</strong>
+
+<br>
+
+- **Idazkaritzan kasu-erabiltzailerik gabeko proiektuak:** Ordu ikusgarririk murrizten ez duen teknologia.
+- **Enkargo-datarik gabeko doako tresnak:** LOPDGDD arriskua adingabeen datuekin sinaturiko DPArik gabe.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+280 familiako zentro batek bertaratzea, ordainketa-oroigarriak eta buletinak automatizatu zituen. Idazkaritzak 14 ordu astean berreskuratu zituen arreta presentzialerako.
 
 <br>
 
@@ -139,6 +167,18 @@ Teknologiaren adopzioa zentroaren helburu heztzekoekin lerrokatuta egon behar da
 
 <br>
 
-2025erako hezkuntza-teknologian joerek funtsezki eraldatuko dute ikaskuntza-esperientzia. Teknologia horiek estrategikoki adopzionatzen dituzten hezkuntza-zentroek hezkuntza kalitatezkoa eskaintzeko eta ikasleak etorkizunerako prestatzeko hobeto kokatuko dira.
+2025erako hezkuntza-teknologiako joerak ikaskuntza-esperientzia funtsezki eraldatzeko agindua ematen dute. Teknologia hauek estrategikoki adoptatzen dituzten hezkuntza-zentroek hezkuntza kalitatezkoa eskaintzeko eta beren ikasleei etorkizunerako prestatzeko hobeto kokatuta egongo dira.
 
-Prest zaude zure hezkuntza-zentroa etorkizun digitalerako prestatzeko? Ezagutu nola lagun dezakeen Edena teknologia aurreratuenak inplementatzen eta ikaskuntza-esperientzia benetan eraldatzailea sortzen.
+Prest zaude zure hezkuntza-zentroa etorkizun digitalerako prestatzeko? Ezagutu nola lagun zaitzakeen Edenak teknologia aurreratuenak inplementatzen eta hezkuntza-esperientzia benetako eraldatzailea sortzen.
+
+<br>
+
+<strong>Ondorioa</strong>
+
+<br>
+
+Las tendencias en tecnología educativa para 2025 prometen transformar fundamentalmente la experiencia de aprendizaje. Los centros educativos que adopten estas tecnologías de manera estratégica estarán mejor posicionados para proporcionar una educación de calidad y preparar a sus estudiantes para el futuro.
+
+¿Estás listo para preparar tu centro educativo para el futuro digital? Descubre cómo Edena puede ayudarte a implementar las tecnologías más avanzadas y crear una experiencia educativa verdaderamente transformadora.
+
+<br>

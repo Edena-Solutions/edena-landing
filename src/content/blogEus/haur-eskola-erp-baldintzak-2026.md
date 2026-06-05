@@ -1,93 +1,120 @@
 ---
-title: "Zer eduki behar du haur hezkuntzako ERPak 2026an"
+title: "Zer ERP izan beharko luke haur eskoletarako 2026an"
 date: "2026-04-08"
-description: "Plazak, familiak, fakturak, dokumentuak eta app: erosketa-irizpideak eta benetako moduluak 2026an haur hezkuntza-plataforma egoki bat hautatzeko."
-tags: ["ERP haur hezkuntza", "software haurreskola", "hezkuntza kudeaketa", "fakturazio infantila", "eskola plataforma", "Edena"]
-author: "Edena taldea"
+description: "ERP-ren baldintza espezifikoak haur eskoletarako. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+tags:
+    - "ERP haur-eskolak"
+    - "haurtzaindegiko softwarea"
+    - "hezkuntza kudeaketa"
+    - "haurren fakturazioa"
+    - "eskola plataforma"
+    - "Edena"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop"
+relatedPosts:
+  - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
+  - software-aukera-egiaztapen-2026
+  - onena-eskola-kudeaketa-softwarea
+  - eskola-kudeaketa-softwarea-aukeratzea
+faqs:
+  - question: "Verifactu derrigorrezkoa al da dagoeneko haur eskoletarako?"
+    answer: "Obligazioa eta egutegia zerga-araudiak eta ezarpen-egutegiak zehazten ditu; Kontsultatu zure zerga aholkulariarekin. Hornitzaileari eskatu behar diozuena argitasuna da fakturazio elektronikoa nola onartzen duen, zein epeetan eta trantsiziorako zer laguntza eskaintzen duen."
+  - question: "Haurrentzako ERP batek behar bereziak dituzten ikasleak ere kudeatu al ditzake?"
+    answer: "Fitxategi digitalak egokitzapen, baimen eta protokoloei buruzko informazio zehatza gorde dezake. Erregistro horien xehetasun-maila eta egitura sistema nola konfiguratzen duzun araberakoa da; Ikusi zer eremu pertsonalizagarri eskaintzen dituen hornitzaileak profil honetarako konpromisoa hartu aurretik."
+  - question: "Nola kudeatu sistema zahar batetik trantsizioa datu kritikoak galdu gabe?"
+    answer: "Eska ezazu mailakako migrazio-plan bat hornitzaileari: lehenik datu nagusiak (ikasleak, tutoreak, taldeak), ondoren bilketaren historia, gero dokumentuak. Sistema zaharra itxi aurretik datu errealekin baliozkotu eta elkarbizitza aldi bat planifikatu. Plan hori gabe, ez-ordainketen edo kontratuen historia galtzeko arriskua benetakoa da."
+  - question: "Zenbat denbora behar da plataformak martxan jartzeko?"
+    answer: "Datuen bolumenaren, zentroaren konplexutasunaren eta pertsonalizazio mailaren araberakoa da. Gehienez 150 plaza dituzten zentroetan, oinarrizko pilotu bat aktibo egon daiteke lau edo sei astetan migrazioa eta prestakuntza barne, barne kudeatzaile bat dedikatzen bada."
+  - question: "Merezi al du eskolaz kanpoko moduluak jarduera gutxi baditugu?"
+    answer: "Jarduerek beren karguak sortzen badituzte eta plaza mugatuak badituzte, moduluak posta elektronikoaren kudeaketa eta izen-emate formulario paraleloen zirkuitua saihesten ditu. Doako izen-ematearekin eta kargurik gabeko jarduera bakarra baduzu, ebaluatu moduluaren kostuak merezi duen."
 ---
 
-<strong>Zer eduki behar du haur hezkuntzako ERPak 2026an</strong>
+
+<strong>Zer ERP izan beharko luke haur eskoletarako 2026an</strong>
 
 <br>
 
-Haur eskola edo haurreskola batek behar oso bereziak ditu: ordainketa hilabetekako edo hiruhilabetekako zikloak, itxaron-zerrenda luzedun plaza mugatuak, maiztasun handiko familia-harremana, eta baimenduen, alergien eta protokoloen trazabilitatea eskatzen duen araudi-karga. "Haur hezkuntzako ERP" hori, funtsean, zuzendaritzak, administrazioak eta tutoreek kalkulu-orriak, mezu elektronikoak eta karpetak dituzten artxibategien menpeko ez egon gaitezen eguneroko jarduna sostengatzen duen tresna da. 2026an, galdera ez da "digitalizatu ala ez" baizik "nola hautatu plataforma egokiena kobrantza, familiak, dokumentuak eta matrikulazioa estaltzen dituena burokrazia gehiago sortu gabe". Edenak, kontratatutako moduluen arabera, eskaintzen du: espediente digitala, organigrama, familia eta taldearentzako ataria eta aplikazioa, oinarrizko komunikazioa, onboarding-a, familia-autogestioa eta analitika duen oinarri-plataforma; fakturazio elektronikoa Verifacturekin, ordainagiriak eta ezordaintzeen analisia; CRM matrikula-eskaerak, pipeline eta inprimakiekin; eskolaz kanpoko jarduerak; automatizazioa; denda; eta hodei-dokumentazioa, denak argitaratutako katalogoaren arabera.
+Haur-eskolak edo haurtzaindegi batek oso behar zehatzak ditu: hileroko edo hiruhileko ordainketa-zikloak, itxaron-zerrenda luzeko plaza mugatuak, familiekin oso maiztasun handiko harremana, eta baimenetan, alergietan eta protokoloetan trazabilitatea eskatzen duen zama erregulatzailea. "ERP haur eskoletarako" da, funtsean, kalkulu-orrien, posta elektronikoen eta karpetadun armairuen arabera kudeaketa, administrazio eta tutorerik gabe eguneroko bizitza horri eusten dion tresna. 2026an, kontua ez da jada "digitalizatu ala ez", baizik eta "nola aukeratu bilketa, familiak, dokumentuak eta gordailuak biltzen dituen plataforma burokrazia gehiago sortu gabe". Edenak, kontratatutako moduluen arabera, oinarrizko plataforma bat eskaintzen du, fitxategi digitala, organigrama, ataria eta familia eta taldeentzako aplikazioa, oinarrizko komunikazioa, onboarding, familiaren autogestioa eta analitika; fakturazio elektronikoa Verifacturekin, ordainagiriak eta ez-ordainketen azterketa; CRM erregistro-eskaerekin, kanalizazioarekin eta inprimakiekin; eskolaz kanpokoak; automatizazioa; denda; eta hodeiko dokumentazioa, dena katalogo publikoaren arabera, gaitasunik asmatu gabe.
 
 <br>
 
-<strong>Haur hezkuntzaren behar bereziak sistema generiko askok ikusten ez dituztenak</strong>
+<strong>Sistema generiko askok baztertzen dituzten haurren behar espezifikoak</strong>
 
 <br>
 
-Haur eskoletan fakturazio-zikloak lehen mailako ikastetxeenak ez bezalakoak dira: hilabeteko kuota finkoak, zerbitzu osagarriak (jangela, goizeko harrera, jarduerak), batzuetan asistentzia-egunen arabera aldakortasuna, eta zentroko edo administrazio publikoaren irizpidearen arabera diru-laguntzak. Birsartzeko logika, integratutako ezordainketa-kudeaketa eta epemuga-jakinarazpen segmentaturik gabeko sistema generiko batek prozesu horiek eskuzko lan bihurtzen ditu. Itxaron-zerrenda beste elementu kritikoa da: egoerak, jatorriak eta hautagai-segimendua duen captazio pipeline-rik gabe, plazak sekretaritzako Excel eta erregistrorik gabeko deiekin kudeatzen dira, eta horrek "gehiago itxaroten egon zeuden" familiekin gatazkak sortzen ditu.
+Haur eskoletako fakturazio-zikloak ez dira Lehen Hezkuntzakoen berdinak: hileroko kuota finkoak, zerbitzu osagarriak (jangela, goiztiarrak, jarduerak), asistentzia egunen araberako aldakortasuna kasu batzuetan, eta hobariak daude zentroaren edo administrazio publikoaren irizpideen arabera. Errepikapen-logikarik gabeko sistema generiko batek, kudeaketa lehenetsi integraturik gabe eta behar den jakinarazpen segmentaturik gabe prozesu hauek eskuzko lan bihurtzen ditu. Itxaron-zerrenda beste elementu kritiko bat da: hautagaien egoera, jatorria eta jarraipena dituen kontratazio biderik ez badago, lekuak Excel idazkaritzaz kudeatzen dira eta erregistrorik gabeko deiak, eta horrek gatazkak sortzen ditu "itxaroten egon diren familiekin".
 
 <br>
 
-<strong>Baldintza ezinbestekoak: ezin falta dena</strong>
+<strong>Baldintza gogorrak: falta ezin dena</strong>
 
 <br>
 
-- Familia-errealitatearekin lerrokatutako egutegidun kobrantza errepikakorra, ordainagiri trazagarriekin, ikasle bakoitzeko historiala eta morositate-analitika.
-- Iristen den komunikazioa: oinarrizkoa mezu-bolumena txikia bada, push eta baieztapendun Pro maiztasunak eta mezu-garrantziak justifikatzen dutenean.
-- Kapazitate-mugadun plaza eta eskolaz kanpoko kudeaketa kobrantzekin lotuta, paper informalean hirugarren zirkuitu bat ez sortzeko.
-- Baimenduekin, osasun-datuekin, nortasun-argazkiekin eta ikusgaitasun kontrolatudun onartze-dokumentuekin espediente digitala.
-- CRM itxaron-zerrenda edo sarrera-bide ugari badituzu, sasoi bakoitzean orri berrietan embroia berridatzi ez dezazun.
-- Zuzendaritzak eta administrazioak adostutako analitika, definizio berdinekin, hilabeteko batzordea datuekin, ez inpresioekin, ixteko.
+- Aldizkako bilketa, familien errealitatera egokitutako egutegiarekin, ordainagiri trazagarriekin, ikasle bakoitzeko historiarekin eta berandutze analisiarekin.
+- Heltzen den komunikazioa: oinarrizko mezuen bolumena baxua bada, Pro push eta berrespena mezuaren maiztasunak eta garrantziak justifikatzen dutenean.
+- Edukiera mugak eta loturiko kargak dituzten plazak eta eskolaz kanpoko jardueren kudeaketa, paperean hirugarren zirkuitu informal bat ez sortzeko.
+- Fitxa digitala baimenak, osasun-datuak, NAN-argazkiak eta ikuspen kontrolatua duten onarpen-agiriak.
+- CRM itxaron-zerrenda edo hainbat sarrera bide badituzu, denboraldi bakoitzean inbutua fitxa berrietan berridatzi ez dadin.
+- Zuzendaritzak eta administrazioak adosten duten analisia, definizio berdinekin, hileroko batzordea datuekin ixteko, ez inpresioekin.
 
 <br>
 
-<strong>Zer galdetu demostratzean, zure datuekin eta ez jostailu-datuekin</strong>
+<strong>Zer eskatu demoan, zure datuekin eta ez jostailuekin</strong>
 
 <br>
 
-Eskatu plaza-eskaeratik lehen kobratzera eta erreketa-baimena kargatzera arteko fluxu osoa egiteko. Laurogeita hamar minututan hiru puntu horien arteko trazabilitatea eskuzko datu berridazketarik gabe ikusten ez baduzu, sistema ez dago integratua. Eskatu ere ezordainketa bat nola kudeatzen den ikusteko: zenbat klik epemuga-faktura dituzten familiak ikusteko, azken oharra noiz bidali zen eta uneko egoera zein den. Demo horretako hogeita hamar segundoko fluxu horrek katalogo-aurkezpen bi orduk baino gehiago agertzen du.
+Leku-eskaera batetik lehen ordainketara eta bilketa-baimenaren kargara arte fluxu osoa igarotzeko eskatzen dizu. Laurogeita hamar minututan hiru puntu horien arteko trazabilitatea ikusten ez baduzu datuak eskuz berriro idatzi gabe, sistema ez dago integratuta. Galdetu ere ez-ordainketa bat nola kudeatzen den ikusteko: zenbat klik dauden ikusteko zein familiek dituzten fakturak atzeratuta, noiz egin den azken jakinarazpena eta zein den egungo egoera. Demoaren hogeita hamar segundoko fluxu horrek bi ordu baino gehiagoko katalogoaren aurkezpena erakusten du.
 
 <br>
 
-<strong>Hiru urteko TCO: ez utzi lizentzia-prezioari soilik gidatzen</strong>
+<strong>TCO hiru urtetan: ez utzi lizentziaren prezioak bakarrik</strong>
 
 <br>
 
-Ikasle edo plaza bakoitzeko prezioa lehen geruza soilik da. Gehitu: aurreko sistemaren datuen migrazio-kostua, prestakuntza-orduak (taldearen, ez soilik "norbait bakarrik ikasi zuena"), trantsizioan sistema zaharra paraleloan mantentzeko kostua, orain kendu edo konektatu beharko diren hirugarrenen integrazioak, eta bi urtean sistema eskalatu ezean berriz migratzeko arriskua. Merke dirudien baina fakturaziorako hirugarren bat eta familientzat beste bat behartzen zaitu ERPak, modulu-preziotzarekin integratuta dagoena baino garestiagoa amaitzen du.
+Ikasle bakoitzeko edo plaza bakoitzeko prezioa lehen geruza baino ez da. Gehitu: sistema zaharreko datuak migratzearen kostua, prestakuntza-orduak (taldearena, ez bakarrik "bakarrik ikasi zuen norbaitena"), trantsizio garaian sistema zaharra paraleloan mantentzearen kostua, orain bota edo konektatu beharko dituzun kanpoko aplikazioekin integrazio posibleak, eta sistema eskalatzen ez bada bi urtean berriro migratzeko arriskua. Merkea dirudien ERP baina fakturatzeko hirugarren batengana behartzen zaituena eta familientzako beste bat prezio modularra duen integratua baino gehiago kostatzen da.
 
 <br>
 
-<strong>Maiz egiten diren galderak</strong>
+<strong>Ohiko akatsak haur eskoletan</strong>
 
 <br>
 
-<strong>Verifactu haur hezkuntzako zentroetan derrigorrezkoa al da jada?</strong>
-<br>
-
-Betebeharra eta egutegiak zerga-arautegiaren eta ezarpen-egutegiaren bidez definitzen dira; kontsultatu zure zerga-aholkulariarekin. Hornitzaileari argi eskatu behar diozu nola onartzen duen fakturazio elektronikoa, zein epetan, eta trantsizioa laguntzeko zer laguntza eskaintzen duen.
-
-<br>
-
-<strong>Haur hezkuntzako ERP batek behar bereziak dituzten ikasleak kudea al ditzake?</strong>
-<br>
-
-Espediente digitalak egokitzapenen, baimenduen eta protokoloen inguruko informazio espezifikoa gordetzen du. Xehetasun-maila eta erregistroen egitura nola konfiguratzen duzunaren araberakoa da; hornitzaileak profil honetarako zer eremu pertsonalizagarri eskaintzen dituen galdetu konpromisoa hartu aurretik.
+- Aukeratu oinarrizko prezioaren arabera migrazioaren eta prestakuntzaren kostu osoa kalkulatu gabe.
+- Kontratatu Pro komunikazio modulua eta ez ezarri txantiloiak, kudeatzaileak edo maiztasun irizpideak: kanala diziplinaz hutsik geratzen da.
+- Prozesu-kudeatzailerik gabe: sistemak ez du lekuen politika edo jantokiko irizpideak ezartzen; zuk definitzen dituzun arauak bakarrik exekutatzen ditu.
+- Lehen egunean funtzionalitate guztiekin hasi aldez aurretik piloturik gabe, taldea aldaketaz eta teknologiaz saturatu aldi berean.
 
 <br>
 
-<strong>Nola kudeatu datu kritikoak galdu gabe sistema zaharretik trantsizioa?</strong>
-<br>
-
-Hornitzaileak faze bidezko migrazio-plan bat eskaini dezala exijitu: lehenik datu nagusiak (ikasleak, tutoreak, taldeak), gero kobrantza-historikoa, gero dokumentuak. Baliozkotu datu errealekin sistema zaharra itxi aurretik eta koexistentzia-aldia planifikatu. Plan hori gabe, ezordainketa-historikoa edo kontratu sinatuak galtzeko arriskua erreala da.
+<strong>Haurraren ERP eskakizun espezifikoak</strong>
 
 <br>
 
-<strong>Zenbat denbora behar da plataforma martxan jartzeko?</strong>
+- **Karratuak eta ratioak:** Ikasgelen okupazioaren kontrola eta araudia betetzea.
+- **Menuak eta alergiak:** Erregistroetan eta familiekin eguneroko komunikazioan integratua.
+- **Bilketa-baimenak:** Pertsona baimenduak paperik gabe egunera daitezke harreran.
+- **Eguneko fakturazioa:** Egun erdia, jangela, goiztiarrek tarifa ezberdinekin.
+- **Eguneroko komunikazioa:** Janari, siesta edo gertaeren txostenak trazabilitatearekin.
+
 <br>
 
-Datu-bolumenaren, zentroko konplexutasunaren eta pertsonalizazio-mailaren araberakoa da. 150 plazaraino dituzten zentroetan, pilotu oinarrizkoa migrazioaren eta prestakuntzaren barne lau eta sei asteen artean aktibo egon daiteke, barne-arduradun batek dedikazioa badu.
+<strong>Testuingurua Espainian: zer eskatzen duen ERP ikastetxe batek 2026an</strong>
 
 <br>
 
-<strong>Eskolaz kanpoko modulua merezi al du jarduera gutxi baditugu?</strong>
+Kalifikazio eta asistentziaz harago, Espainian ikastetxeak kudeatzeko softwareak fakturazioa (Verifactu prestaketa barne), familiaren ataria edo aplikazioa, GDPR eta LOPDGDD azpian dauden datu txikiak dituen fitxategia eta komunikazioen trazabilitatea izan behar ditu. SIS isolatu bat erostea benetako mina idazkaritzan, bilketan eta familietan dagoenean normalean hiru tresnen arteko datuak bikoizten amaitzen da.
+
+Haur eskoletan lekuak, ratioak, menuak eta alergiak pisatzen dituzte; akademietan, bonusetan, denboraldietan eta areto anitzetan; ikastetxe pribatuetan, kuota ezberdinduak, barne-bekak eta kontratazio komertziala. Hizkuntz akademietan lan egiten duen ERP bat eskasa izan daiteke haur, NEAE edo jangelako ratioak eguneko fakturazioarekin kudeatzen badituzu.
+
+Hiru urteko TCO ebaluatzen du: lizentzia, migrazioa, prestakuntza, barne koordinazio orduak eta zubi-integrazioen kostua. Eskatu demo bat zure datu errealekin (bost familia, ordainagirien ziklo bat) erabaki aurretik. Hasieran merkeagoa dirudien softwarea garestitu daiteke CRM, fakturazioa edo komunikazioa bereizita gehitzera behartzen bazaitu.
+
 <br>
 
-Jarduerek kobrantza propioak sortu eta plaza mugatuak badituzte, moduluak mezu elektronikoen bitartezko kudeaketa eta paper-inskripzio zirkuitu paralelia ekiditen ditu. Kobrantza eta inskripzio libre gabeko jarduera bakarra baduzu, moduluaren kostuak konpentsatzen duen ebaluatu.
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Gironako 85 plazako haur-eskola batek hiru hornitzaile ebaluatu zituen kontrol-zerrenda berarekin: matrikula, menuak, fakturazioa eta familiaren aplikazioa. Datu errealekin 10 asteko pilotuak agerian utzi zuen bakarrak itxi zuela aplikazio-matrikula-ordainketa zikloa Excel gabe. Aldaketak 40 orduko migrazioa kostatu zien, baina hiru tresnetan bikoiztutako datuak ezabatu zituzten.
 
 <br>
 
@@ -95,4 +122,6 @@ Jarduerek kobrantza propioak sortu eta plaza mugatuak badituzte, moduluak mezu e
 
 <br>
 
-2026an haur hezkuntzarako ERP bat ez da teknologia-kapritxoa: irizpide eta aztarnekin lan egiten duen talde baten eta astelehen bakoitzean hiru iturri ezberdinetan errealitatea berreraikitzen duenaren arteko aldea da. Aukeratu TCO-rekin, demostratu zure datuekin eta lerrokatutako batzordearekin. Edenan gaur benetan erabiliko dituzun moduluekin hasi zaitezke eta bolumenak justifikatzen duenean gehitu, 24/7 laguntzarekin eta katalogo-harridurik gabe. Eskatu saio bat eta fluxu osoa ikusi zure plazak, kobrantza-zikloa eta komunikazioa erabiliz.
+2026ko haur eskoletarako ERP ez da kapritxo teknologikoa: irizpide eta arrastoekin lan egiten duen talde baten eta astelehenero errealitatea hiru iturri ezberdinetatik berreraikitzen duenaren arteko aldea da. Aukeratu TCOrekin, demoa zure datuekin eta lerrokaturiko batzordearekin. Edena-n benetan elikatuko dituzun moduluekin hasi eta bolumenak justifikatzen duenean gehi dezakezu, 24/7 laguntzarekin eta katalogoko sorpresarik gabe. Eskatu saio bat eta ikusi fluxu osoa zure lekuekin, bilketa-zikloarekin eta zure komunikazioarekin.
+
+<br>

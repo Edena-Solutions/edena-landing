@@ -1,124 +1,180 @@
 ---
-title: "Analitika hezkuntzailea eta adimen artifiziala: hezkuntza eraldatzen duten datuak"
+title: "Hezkuntza analitika eta adimen artifiziala: hezkuntza eraldatzen duten datuak"
 date: "2024-09-15"
-description: "Ezagutu nola analitika hezkuntzaileak eta adimen artifizialak erabakiak hartzeko modua iraultzen duten hezkuntza-zentroetan."
-tags: ["analitika", "adimen artifiziala", "datuak", "erabakiak"]
-author: "Edena taldea"
+description: "Ikaskuntzaren analitikari aplikatutako IA (angelu pedagogikoa). Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+tags:
+    - "analítica"
+    - "inteligencia artificial"
+    - "datos"
+    - "decisiones"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1739805591936-39f03383c9a9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - pedagogia-metodologia-berragarriak
+  - pedagogia-berrikuntza-teknologia
+  - hezkuntzako-ebaluazio-digitala
+  - etorkizuneko-hezkuntza-espazioen-diseinua
+faqs:
+  - question: "AIk aurreikusten al du eskola uztea?"
+    answer: "Ereduak adierazi ditzakezu (absentismoa, nota baxuak), baina erabakiak gizatiarra izan behar du eta babestutako datuekin."
+  - question: "Datu-zientzialari bat behar al dut?"
+    answer: "Zentro ertainetan nahikoa da ERP-ren txosten automatikoak eta ikasketa-buruaren irizpideak."
+  - question: "LOMLOE-rekin bateragarria al da?"
+    answer: "Bai ebaluazio formatiboa onartzen badu, ez ikasleei etiketa opakuak ezartzen badie."
 ---
 
-<strong>Analitika hezkuntzailea eta adimen artifiziala: hezkuntza eraldatzen duten datuak</strong>
+<strong>Hezkuntza analitika eta adimen artifiziala: hezkuntza eraldatzen duten datuak</strong>
 
 <br>
 
-Analitika hezkuntzailea eta adimen artifiziala funtsezki eraldatzen ari dira hezkuntza-zentroek erabakiak nola hartzen dituzten, ikaskuntza nola pertsonalizatzen duten eta eragiketak nola optimizatzen dituzten. Datuak ez dira jada biltegiratutako informazio soilik; baliozko ikuspegiak dira etengabeko hobekuntza eta hezkuntza-berrikuntza gidatu ditzaketenak.
+Hezkuntza analitika eta adimen artifiziala funtsean eraldatzen ari dira eskolak erabakiak hartzen, ikaskuntza pertsonalizatzen eta beren eragiketak optimizatzen dituzten modua. Datuak jada ez dira gordetako informazioa soilik; Etengabeko hobekuntza eta hezkuntza-berrikuntza bideratu ditzaketen ikuspegi baliotsuak dira.
 
 <br>
 
-<strong>Big datatik adimen hezkuntzaileraino</strong>
+<strong>Big datatik hezkuntza adimenera</strong>
 
 <br>
 
-Hezkuntza-zentroek datu kopuru handia sortzen dute egunero: kalifikazioak, bertaratzea, jokabidea, baliabideen erabilera, familien komunikazioa, eta askoz gehiago. Analitika hezkuntzaileak datu horiek ekintzaile bihurtzen dituen informazio bihurtzen ditu, hezkuntzaren kalitatea hobetu dezakeena.
+Ikastetxeek datu kopuru izugarriak sortzen dituzte egunero: kalifikazioak, asistentzia, portaera, baliabideen erabilera, familiekin komunikazioa eta askoz gehiago. Hezkuntza-analitikak datu hauek hezkuntzaren kalitatea hobetu dezakeen informazio ekigarri bihurtzen ditu.
 
-Adimen artifizialak analitika hori urrats bat haratago eramaten du, ereduak identifikatzeko, emaitzak iragartzeko eta erabaki konplexuak automatizatzeko algoritmo aurreratuak erabiliz. Elkarrekin, teknologia horiek datuetan oinarritutako hezkuntzaren paradigma berri bat sortzen ari dira.
-
-<br>
-
-<strong>Ikaskuntzaren pertsonalizazioa AA-rekin</strong>
+Adimen artifizialak analisi hau urrats bat gehiago ematen du, algoritmo aurreratuak erabiliz ereduak identifikatzeko, emaitzak aurreikusteko eta erabaki konplexuak automatizatzeko. Elkarrekin, teknologia hauek datuetan oinarritutako hezkuntzaren paradigma berri bat sortzen ari dira.
 
 <br>
 
-Adimen artifizialak ikaskuntzaren pertsonalizazioa iraultzen ari da lehen ezinezkoa zen moduetan. AA-ko algoritmoek ikasle bakoitzaren ikaskuntza-jokabidea denbora errealean aztertu dezakete, eredu bereziak identifikatu eta eduki hezkuntzailea haien beharretara egokituz.
-
-AA-ko sistemek ikasle batek kontzeptu jakin batekin borrokan dagoenean hauteman dezakete eta baliabide gehigarriak automatikoki eman. Eduki batzuk noiz aurkeztu kognitibo-egoera kontuan hartuta optimizatu dezakete. Jarduera batzuk ikaslearen interesekin eta ikaskuntza-estiloekin bat datozen gomendatu ditzakete.
+<strong>Ikaskuntza pertsonalizatzea AIarekin</strong>
 
 <br>
 
-<strong>Utziaren iragarpena eta prebentzioa</strong>
+Adimen artifiziala ikaskuntzaren pertsonalizazioa lehen ezinezkoa zen modura aldatzen ari da. AI algoritmoek ikasle bakoitzaren ikaskuntza-portaera denbora errealean azter dezakete, eredu bereziak identifikatuz eta hezkuntza-edukiak beren beharretara egokituz.
+
+AI sistemek ikasle bat kontzeptu zehatz batekin borrokan dagoenean detektatu dezakete eta automatikoki baliabide gehigarriak eskaintzen dituzte. Ikaslearen egoera kognitiboaren arabera zenbait eduki aurkezteko une egokiena identifikatu dezakete. Eta norberaren interesekin eta ikasteko estiloekin bat datozen jarduerak iradoki ditzakete.
 
 <br>
 
-Analitika hezkuntzailearen erabilera baliotsuetako bat da utzi-arriskuan dauden ikasleak goiz identifikatzea. AA-ko algoritmoek hainbat faktor aztertu ditzakete: errendimendu akademikoa, bertaratzea, jardueretan parte-hartzea, jokabidea eta faktore sozioekonomikoak.
-
-Arriskuan dagoen ikasle bat hautematen denean, sistema pertsonalizatutako esku-hartzeak automatikoki aktiba ditzake. Horien artean aholkularien harreman proaktiboak, tutoretza gehigarria edo ikasketa-planaren doikuntzak egon daitezke. Goizko esku-hartzeak askotan utzia saihestu dezake.
+<strong>Uztearen aurreikuspena eta prebentzioa</strong>
 
 <br>
 
-<strong>Hezkuntza-baliabideen optimizazioa</strong>
+Hezkuntza analitikaren erabilerarik baliotsuenetako bat ikasketak uzteko arriskuan dauden ikasleak goiz identifikatzea da. AI algoritmoek hainbat faktore azter ditzakete: errendimendu akademikoa, asistentzia, jardueren partaidetza, portaera eta faktore sozioekonomikoak.
+
+Ikasle bat arriskuan dagoela hautematen denean, sistemak automatikoki aktiba ditzake esku-hartze pertsonalizatuak. Horien artean aholkularien kontaktu proaktiboak, tutoretza osagarrien eskaintzak edo curriculumaren egokitzapenak izan daitezke. Esku-hartze goiztiarrak uztea saihestu dezake kasu askotan.
 
 <br>
 
-Analitika hezkuntzaileak zentroei baliabide mugatuen erabilera optimizatzen lagun diezaieke. Sistemek gelak, ekipoak eta pertsonalaren erabileraren ereduak aztertu ditzakete hobekuntza-aukerak identifikatzeko.
-
-Algoritmoek ordutegi optimoak iradoki ditzakete espazioen erabilera maximizatzeko eta gatazkak minimizatzeko. Zein hezkuntza-baliabide diren eraginkorragoak ikasle mota desberdinentzat identifikatu ditzakete. Joera historikoetan oinarrituta baliabide-behar etorkorrak iragarri ditzakete.
+<strong>Hezkuntza baliabideen optimizazioa</strong>
 
 <br>
 
-<strong>Ebaluazioa eta feedback adimentsua</strong>
+Hezkuntza analitikak ikastetxeei beren baliabide mugatuen erabilera optimizatzen lagun diezaieke. Sistemek ikasgela, ekipamendu eta langileen erabilera-ereduak azter ditzakete hobetzeko aukerak identifikatzeko.
+
+Algoritmoek espazioaren erabilera maximizatzen duten eta gatazkak minimizatzen dituzten ordutegi optimoak iradoki ditzakete. Ikasle mota ezberdinentzat zein hezkuntza-baliabide diren eraginkorrenak identifikatu ditzakete. Eta joera historikoetan oinarrituta etorkizuneko baliabide beharrak aurreikusten lagun dezakete.
 
 <br>
 
-AA-k ebaluazio hezkuntzailea eraldatzen ari da, feedback xehiago eta pertsonalizatuagoa emanez. Sistemek ez soilik erantzun zuzenak aztertu ditzakete, baita ikaslearen pentsamendu-prozesua ere.
-
-Algoritmoek akats ohikoen ereduak identifikatu eta esku-hartze espezifikoak iradoki ditzakete. Ulermen-mailara egokitzen den berehalako feedbacka eman dezakete. Denboran zehar aurrerapena jarraitu ditzakete joerak eta hobekuntza-eremuak identifikatzeko.
+<strong>Ebaluazio eta feedback adimentsua</strong>
 
 <br>
 
-<strong>Sentimenduen analisia eta ongizatea</strong>
+AI hezkuntza-ebaluazioa eraldatzen ari da, iritzi zehatzagoak eta pertsonalizatuagoak eskaintzen. Sistemek erantzun zuzenak ez ezik, ikaslearen pentsamendu prozesua ere azter ditzakete.
+
+Algoritmoek errore arruntetan ereduak identifikatu ditzakete eta esku-hartze zehatzak iradoki ditzakete. Ikaslearen ulermen mailara egokitzen den berehalako iritzia eman dezakete. Eta denboran zehar egindako aurrerapenaren jarraipena egin dezakete joerak eta hobetzeko arloak identifikatzeko.
 
 <br>
 
-Analitika hezkuntzaileak datu akademiko tradizionalen haratago joan daiteke, ikasleen ongizate emozional eta soziala barne hartzeko. Sistemek komunikazio-ereduak, jarduera sozialetan parte-hartzea eta ongizate-adierzaleak aztertu ditzakete.
-
-Algoritmoek osasun mental edo sozialean arazoak adieraz ditzaketen jokabide-aldaketak hauteman ditzakete. Laguntza gehigarria edo esku-hartze espezifikoak behar ditzaketen ikasleak identifikatu ditzakete. Informazio hori ingurune hezkuntzaile osasuntsuago eta lagungarriagoa sortzeko funtsezkoa izan daiteke.
+<strong>Sentimenduen eta ongizatearen analisia</strong>
 
 <br>
 
-<strong>Irakaskuntzaren hobekuntza datuekin</strong>
+Hezkuntza-analisiak datu akademiko tradizionalen harago joan daitezke ikasleen ongizate emozionala eta soziala barne hartzeko. Sistemek komunikazio ereduak, gizarte-jardueretan parte hartzea eta ongizatearen beste adierazle batzuk azter ditzakete.
+
+Algoritmoek osasun mental edo sozialeko arazoak adieraz ditzaketen portaeran aldaketak hauteman ditzakete. Laguntza osagarrien edo esku-hartze zehatzen onura izan dezaketen ikasleak identifikatu ditzakete. Informazio hori funtsezkoa izan daiteke hezkuntza-ingurune osasuntsuagoa eta solidarioagoa sortzeko.
 
 <br>
 
-Irakasleek ere analitika hezkuntzailearen onurak jasotzen dituzte. Sistemek irakaskuntza-metodo, material eta estrategia pedagogikoen eraginkortasunari buruzko ikuspegiak eman ditzakete.
-
-Datuek zein ikuspegik diren eraginkorragoak ikasle edo irakasgai mota desberdinentzat erakutsi ditzakete. Irakasleek prestakuntza gehigarria behar duten eremuak identifikatu ditzakete. Irakaskuntza-estrategien eraginari buruzko feedbacka eman dezakete.
+<strong>Irakaskuntza datuekin hobetzea</strong>
 
 <br>
 
-<strong>Familiekin harreman proaktiboa</strong>
+Irakasleek ere etekina egiten dute hezkuntza-analitikak. Sistemek irakaskuntza-metodo, material eta estrategia pedagogiko desberdinen eraginkortasunari buruzko ikuspegia eman dezakete.
+
+Datuek ikasle edo irakasgai mota ezberdinetarako zein planteamendu diren eraginkorrenak erakutsi dezakete. Irakasleek prestakuntza osagarriaren onura izan dezaketen arloak identifikatu ditzakete. Eta irakaskuntza estrategia ezberdinen eraginari buruzko iritzia eman dezakete.
 
 <br>
 
-AA-k familien komunikazioa nabarmen hobetu dezake, informazio garrantzitsua eta egokia emanez. Sistemek komunikazio-ereduak aztertu ditzakete famili desberdinetara iristeko modurik onenak identifikatzeko.
-
-Algoritmoek famili bakoitzaren behar espezifikoetan oinarritutako komunikazio pertsonalizatuak bidali ditzakete. Eduki mota batzuk noiz bidali optimoa den identifikatu ditzakete. Behar denean baliabide edo laguntza gehigarria iradoki dezakete.
+<strong>Familiekin komunikazio proaktiboa</strong>
 
 <br>
 
-<strong>Analisi iragarlea estrategia-planifikaziorako</strong>
+AI-ak nabarmen hobe dezake familiekin komunikazioa, informazio garrantzitsua eta puntuala emanez. Sistemek komunikazio-ereduak azter ditzakete, familia ezberdinetara iristeko modurik onenak identifikatzeko.
+
+Algoritmoek komunikazio pertsonalizatuak bidal ditzakete familia bakoitzaren behar zehatzen arabera. Informazio mota jakin batzuk bidaltzeko une egokiena identifikatu dezakete. Eta baliabide edo laguntza osagarriak iradoki ditzakete behar denean.
 
 <br>
 
-Analitika hezkuntzaileak zentroei etorkizunerako estrategikoki planifikatzen lagun diezaieke. Sistemek joera historikoak aztertu ditzakete baliabide, pertsonal eta programen behar etorkorrak iragartzeko.
-
-Algoritmoek ikastaro edo programen eskariaren ereduak identifikatu ditzakete. Ikasle-demografiaren aldaketak iragarri ditzakete. Zentroko ekimen edo aldaketen eragin potentziala ebaluatzeko lagun dezakete.
+<strong>Plangintza estrategikorako aurreikuspen-analisia</strong>
 
 <br>
 
-<strong>Etika eta pribatutasuna analitika hezkuntzailean</strong>
+Hezkuntza analitikak ikastetxeei etorkizuna estrategikoki planifikatzen lagun diezaieke. Sistemek joera historikoak azter ditzakete baliabideen, langileen eta programen etorkizuneko beharrak aurreikusteko.
+
+Algoritmoek zenbait ikastaro edo programaren eskaeraren ereduak identifikatu ditzakete. Ikasleen demografian aldaketak iragar ditzakete. Eta zentroan ekimen edo aldaketa ezberdinek izan dezaketen eragina ebaluatzen lagun dezakete.
 
 <br>
 
-Analitika hezkuntzailearen boterearekin batera dator etikoki eta arduraz erabiltzeko erantzukizuna. Zentroek datuak gardentasunez biltzen eta erabiltzen direla ziurtatu behar dute, baimen egokiarekin.
-
-Ikasleen eta familien pribatutasuna babestea funtsezkoa da. Sistemek segurtasun-neurri sendoak inplementatu eta datuen babes-arauak bete behar dituzte. Zentroek gardentasunez adierazi behar dute zein datu biltzen diren eta nola erabiltzen diren.
+<strong>Etika eta pribatutasuna hezkuntza-analisian</strong>
 
 <br>
 
-<strong>Ondorioak</strong>
+Hezkuntza analitikaren ahalmenarekin etikoki eta arduraz erabiltzeko ardura dator. Zentroek ziurtatu behar dute datuak bildu eta gardentasunez erabiltzen direla, dagokion baimenarekin.
+
+Ezinbestekoa da ikasleen eta haien familien pribatutasuna babestea. Sistemek segurtasun neurri sendoak ezarri behar dituzte eta datuak babesteko araudia bete behar dute. Zentroek gardenak izan behar dute zer datu biltzen diren eta nola erabiltzen diren.
 
 <br>
 
-Analitika hezkuntzailea eta adimen artifiziala sakonean eta esanguratsuan eraldatzen ari dira hezkuntza. Teknologia horiek adoptatzen dituzten zentroak hobeto kokatuta daude hezkuntza kalitatezkoa, pertsonalizatua eta eraginkorra eskaintzeko.
+<strong>AI eskola testuinguruarekin</strong>
 
-Prest zaude zure hezkuntza-zentroan datuen boterea aprobetxatzeko? Ezagutu nola lagun diezakeen Edena analitika hezkuntzailearen irtenbideak inplementatzen, erabakiak hartzeko eta hezkuntza-esperientzia hobetzeko modua eraldatzeko.
+<br>
+
+Laguntzaile generikoek ez dakite zure araudia. ERP-n integratutako AI-ak berandututako ordainketak ohartarazi ditzake, gorabeherak sailkatu edo zirkular zirriborroak idatzi ditzake, beti ere giza berrikuspenarekin eta kontratutik kanpo datuak esportatu gabe.
+
+<br>
+
+<strong>Zer saihestu</strong>
+
+<br>
+
+- **Adingabeei buruzko erabaki automatizatuak:** Giza gainbegiratzerik edo epaiketarik gabe.
+- **Datu pertsonalak tresna publikoetan:** Esportatu zerrendak AI generikora kontratutik kanpo.
+- **Oinarri historikorik gabeko iragarpena:** AI-k agintzen du datu garbirik gabe ERP-n.
+
+<br>
+
+<strong>Testuingurua Espainian: LOMLOE, funtsezko gaitasunak eta DigEdu</strong>
+
+<br>
+
+LOMLOE-k hezkuntza-proiektuaren erdigunean jartzen ditu funtsezko gaitasunak eta etengabeko ebaluazioa. DigEdu Planak gaitasun digitalaren irakaskuntza, ingurune teknologiko seguruak eta ikasgeletan gailuen banaketa sustatzen ditu. Irakasleek zenbat eta denbora gehiago galdu administrazio-lan bikoiztuetan (paperean dauden zatiak, Excel-en zerrendak, bide ezberdinetako zirkularrak), orduan eta gutxiago falta da laguntza eta ebaluazio formatiborako.
+
+Kudeaketa digitalizatzeak ez du pedagogia ordezkatzen: ordu errealak askatzen ditu tutoretzan, sailen koordinazioan eta banakako jarraipenean. Lau komunikazio tresna ezberdin erabiltzen dituen fakultateak familiekin koherentzia eta barne koherentzia galtzen du ebaluazio eta jarraipen irizpideetan.
+
+2026an, Espainiako zentroetarako erabilgarria den hezkuntza-teknologiak ikasgela eta administrazioa lotzen ditu: erregistroek, komunikazioak, asistentzia eta analitikek datu-iturri bera partekatzen dute. Berrikuntza pedagogiko iraunkorrak LOMLOE onartzen du administrazio-zuzendaritzak irailean eta hiruhileko amaieran fakultateko orduak lapurtzeari uzten dionean.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Institutu bat lau komunikazio tresnetatik plataforma integratu batera pasatu zen. Fakultateak tutore bakoitzeko astean batez beste 2 ordu berreskuratu zituen administrazio-jarraipen-lanetan, saileko bileretan eta ebaluazio formatiboan berriro inbertituta.
+
+<br>
+
+<strong>Ondorioa</strong>
+
+<br>
+
+Hezkuntza analitika eta adimen artifiziala hezkuntza era sakon eta esanguratsuan eraldatzen ari dira. Teknologia hauek hartzen dituzten zentroak hobeto kokatuta daude kalitatezko hezkuntza, pertsonalizatua eta eraginkorra emateko.
+
+Prest al zaude zure hezkuntza zentroan datuen indarra aprobetxatzeko? Ezagutu Edena-k erabakiak hartzeko modua eraldatzen duten eta hezkuntza-esperientzia hobetzen duten hezkuntza-analisi-soluzioak ezartzen nola lagun zaitzakeen.
+
+<br>

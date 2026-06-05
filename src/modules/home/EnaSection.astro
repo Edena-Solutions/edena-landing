@@ -1,0 +1,207 @@
+---
+import { Image } from "astro:assets";
+import GSAPSection from "@/components/ui/gsap-section";
+import BookDemoButton from "@/components/BookDemoButton.astro";
+import aiLogo from "@/assets/img/logos/ai.png";
+import type { Translation } from "@/i18n";
+import { CheckIcon, GlobeIcon } from "lucide-react";
+import ComplianceBadgeIcons from "@/components/icons/ComplianceBadgeIcons.astro";
+import Link from "@/components/ui/link";
+import { Button } from "@/components/ui/button";
+
+interface Props {
+    t: Translation;
+}
+
+const { t } = Astro.props;
+const { enaSection } = t;
+
+const cards = [
+    { key: "agent" as const, accent: "from-emerald-500/20 to-transparent" },
+    { key: "automate" as const, accent: "from-teal-500/20 to-transparent" },
+    { key: "organization" as const, accent: "from-lime-500/20 to-transparent" },
+];
+
+const trustBadges = ["gdpr", "soc2", "iso27001", "hipaa"] as const;
+---
+
+<GSAPSection client:load className="w-full px-4">
+    <div class="mx-auto max-w-7xl">
+        <div
+            class="overflow-hidden rounded-t-xl rounded-b bg-black dark:bg-zinc-900 px-6 py-14 text-white md:px-12 md:py-20"
+        >
+            <!-- Header -->
+            <div
+                class="mx-auto mb-14 flex max-w-2xl flex-col items-center gap-5 text-center md:mb-16"
+            >
+                <div class="relative flex h-24 w-24 items-center justify-center">
+                    <div
+                        class="pointer-events-none absolute inset-0 scale-[2] rounded-full bg-[radial-gradient(circle,rgba(34,197,94,0.4)_0%,rgba(20,184,166,0.15)_45%,transparent_72%)] blur-2xl"
+                        aria-hidden="true"
+                    >
+                    </div>
+                    <div
+                        class="pointer-events-none absolute -left-3 top-1/2 h-14 w-14 -translate-y-1/2 rounded-full bg-lime-400/30 blur-2xl"
+                        aria-hidden="true"
+                    >
+                    </div>
+                    <div
+                        class="pointer-events-none absolute -right-3 top-1/2 h-14 w-14 -translate-y-1/2 rounded-full bg-teal-400/30 blur-2xl"
+                        aria-hidden="true"
+                    >
+                    </div>
+                    <div
+                        class="pointer-events-none absolute inset-3 rounded-full bg-emerald-500/25 blur-xl"
+                        aria-hidden="true"
+                    >
+                    </div>
+                    <Image src={aiLogo} alt={enaSection.badge} class="relative z-10 h-24 w-24" />
+                </div>
+                <h2
+                    class="text-2xl font-bold leading-tight sm:text-4xl md:text-[2.75rem] bg-gradient-to-r from-white to-white/40 bg-clip-text text-transparent max-w-xs sm:max-w-md"
+                >
+                    {enaSection.title}
+                </h2>
+                <p class="text-sm leading-relaxed text-white/85 max-w-xl mx-auto">
+                    {enaSection.description}
+                </p>
+                <div class="flex gap-2 items-center justify-center">
+                    <BookDemoButton t={t} className="bg-zinc-900 dark:bg-black text-white" />
+                    <Link href="https://app.edena.es/register-organization">
+                        <Button variant="white">{t.registerButton}</Button>
+                    </Link>
+                </div>
+            </div>
+
+            <!-- Feature cards -->
+            <div class="mb-4 grid gap-4 md:grid-cols-3">
+                {
+                    cards.map(({ key, accent }) => {
+                        const card = enaSection.cards[key];
+                        return (
+                            <div class="flex flex-col gap-4 rounded p-5 md:p-6 bg-zinc-900 dark:bg-black">
+                                <div class="flex flex-col gap-2">
+                                    <p class="text-[10px] font-semibold uppercase tracking-widest text-white">
+                                        {card.label}
+                                    </p>
+                                    <h3 class="text-base font-semibold leading-snug text-white md:text-lg">
+                                        {card.title}
+                                    </h3>
+                                </div>
+                                <div class="mt-auto overflow-hidden rounded p-4 bg-black dark:bg-zinc-900">
+                                    <div class="flex flex-col gap-3">
+                                        <div class="flex justify-end">
+                                            <div class="max-w-[85%] rounded bg-zinc-800 px-3 py-2 text-left text-xs leading-relaxed text-zinc-300">
+                                                {card.prompt}
+                                            </div>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <Image
+                                                src={aiLogo}
+                                                alt=""
+                                                class="mt-0.5 h-5 w-5 shrink-0"
+                                                aria-hidden="true"
+                                            />
+                                            <div class="max-w-[90%] rounded bg-white px-3 py-2 text-left text-xs leading-relaxed text-black">
+                                                {card.response}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        );
+                    })
+                }
+            </div>
+
+            <!-- Highlight -->
+            <div
+                class="mb-14 grid gap-8 overflow-hidden rounded bg-zinc-900 dark:bg-black p-6 md:mb-16 md:grid-cols-2 md:items-center md:p-10"
+            >
+                <div class="flex flex-col gap-4">
+                    <p class="text-[10px] font-semibold uppercase tracking-widest text-white">
+                        {enaSection.highlight.replaces}
+                    </p>
+                    <h3 class="text-xl font-bold leading-tight sm:text-2xl max-w-md">
+                        {enaSection.highlight.title}
+                    </h3>
+                    <p class="text-sm leading-relaxed text-zinc-400">
+                        {enaSection.highlight.description}
+                    </p>
+                    <div class="flex flex-col gap-4">
+                        <div class="flex gap-2">
+                            <BookDemoButton t={t} variant="secondary" />
+                            <Link href="https://app.edena.es/register-organization">
+                                <Button>{t.registerButtonExtended}</Button>
+                            </Link>
+                        </div>
+                        <div>
+                            <p class="text-[8px] text-muted-foreground uppercase tracking-wider">
+                                {t.noCreditCardRequired}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="relative overflow-hidden rounded bg-zinc-900 dark:bg-black p-5 md:p-6"
+                    aria-hidden="true"
+                >
+                    <div class="pointer-events-none absolute inset-0 bg-black dark:bg-zinc-900">
+                    </div>
+                    <div class="relative flex flex-col gap-3">
+                        {
+                            enaSection.highlight.tasks.map((task) => (
+                                <div class="flex items-center gap-3 rounded bg-zinc-900/80 px-4 py-3">
+                                    <CheckIcon className="h-4 w-4" />
+                                    <span class="text-sm text-zinc-300">{task}</span>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trust & compliance -->
+            <div
+                class="flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between lg:gap-12"
+            >
+                <div
+                    class="flex max-w-md flex-col gap-6 items-center mx-auto sm:mx-0 sm:items-start"
+                >
+                    <div class="flex flex-col leading-tight">
+                        <span
+                            class="text-2xl font-bold bg-gradient-to-r from-white to-white/40 bg-clip-text text-transparent sm:text-3xl"
+                        >
+                            {enaSection.trust.titleBold}
+                        </span>
+                    </div>
+                    <p class="text-sm leading-relaxed text-white/85 text-center sm:text-left">
+                        {enaSection.trust.description}
+                    </p>
+                    <div
+                        class="flex items-center gap-2 text-[10px] font-medium uppercase tracking-widest text-white"
+                    >
+                        <GlobeIcon className="h-4 w-4 shrink-0" />
+                        <span>{enaSection.trust.support}</span>
+                    </div>
+                </div>
+
+                <div
+                    class="grid grid-cols-2 gap-y-8 sm:grid-cols-4 lg:grid-cols-4 lg:divide-x lg:divide-zinc-800"
+                >
+                    {
+                        trustBadges.map((badgeId) => (
+                            <div class="flex flex-col items-center gap-4 px-4 lg:px-8">
+                                <ComplianceBadgeIcons id={badgeId} />
+                                <span class="text-center text-[10px] uppercase tracking-widest text-white">
+                                    {enaSection.trust.badges[badgeId]}
+                                </span>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</GSAPSection>

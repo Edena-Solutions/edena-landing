@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import Icon from "@/components/ui/icon";
 import { intlLocaleForLang } from "@/lib/intl-locale";
 import { cn } from "@/lib/utils";
+import TopGlow from "@/components/TopGlow";
 
 const BASE_PRICE_PER_CHILD = 1.0;
 const MIN_MONTHLY = 44;
@@ -269,11 +270,14 @@ export function PricingCalculator({
         </Card>
         {allModulesSelected && (
           <div
-            className="rounded-lg bg-gradient-primary p-4 text-sm text-primary animate-in fade-in slide-in-from-top-2 duration-300"
+            className="relative overflow-hidden rounded-lg bg-card border border-border p-4 text-sm animate-in fade-in slide-in-from-top-2 duration-300"
             role="status"
           >
-            <p className="font-medium">{t.packCompleteMessage}</p>
-            <p className="mt-1">{t.packCompleteDescription}</p>
+            <TopGlow />
+            <div className="relative z-10">
+              <p className="font-medium">{t.packCompleteMessage}</p>
+              <p className="mt-1 text-muted-foreground">{t.packCompleteDescription}</p>
+            </div>
           </div>
         )}
       </div>

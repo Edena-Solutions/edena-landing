@@ -3,7 +3,7 @@ import gsap from "gsap";
 import appHero from "@/assets/img/screenshots/app/app_hero.png";
 import appCalendar from "@/assets/img/screenshots/app/app_calendar.png";
 import appStudents from "@/assets/img/screenshots/app/app_students.png";
-import appChat from "@/assets/img/screenshots/app/app_chat.png";
+import appChat from "@/assets/img/screenshots/app/shop_main.png";
 import appExtracurricular from "@/assets/img/screenshots/app/app_extracurricular.png";
 import { cn } from "@/lib/utils";
 
@@ -49,14 +49,12 @@ export default function AppAnimation({ className }: { className?: string }) {
                     rightOuterRef.current,
                 ],
                 {
-                    x: (i) =>
-                        [X_LEFT_OUTER, X_LEFT_INNER, X_RIGHT_INNER, X_RIGHT_OUTER][i],
-                    scale: (i) =>
-                        [SCALE_OUTER, SCALE_INNER, SCALE_INNER, SCALE_OUTER][i],
+                    x: (i) => [X_LEFT_OUTER, X_LEFT_INNER, X_RIGHT_INNER, X_RIGHT_OUTER][i],
+                    scale: (i) => [SCALE_OUTER, SCALE_INNER, SCALE_INNER, SCALE_OUTER][i],
                     duration: 1.4,
                     ease: "sine.inOut",
                 },
-                0
+                0,
             )
                 .to({}, { duration: 1.2 })
                 .to(
@@ -67,7 +65,7 @@ export default function AppAnimation({ className }: { className?: string }) {
                         duration: 1.4,
                         ease: "sine.inOut",
                     },
-                    "-=0.1"
+                    "-=0.1",
                 )
                 .to({}, { duration: 0.8 });
         }, containerRef);
@@ -75,7 +73,7 @@ export default function AppAnimation({ className }: { className?: string }) {
     }, []);
 
     const cardClass =
-        "absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-xl object-cover aspect-[9/19] overflow-hidden";
+        "absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded object-cover aspect-[9/19] overflow-hidden";
 
     return (
         <div
@@ -83,58 +81,50 @@ export default function AppAnimation({ className }: { className?: string }) {
             className={cn(
                 "relative w-full min-w-[300px] max-w-[300px] mx-auto h-[300px] md:h-[680px] -mt-10",
                 "scale-[0.52] origin-center sm:scale-100",
-                className
+                className,
             )}
         >
             <div className="absolute inset-0 flex items-center justify-center">
-                <div
-                    ref={leftOuterRef}
-                    className={`${cardClass} w-[48%] z-[1]`}
-                >
+                <div ref={leftOuterRef} className={`${cardClass} w-[48%] z-[1]`}>
                     <img
                         src={typeof appCalendar === "string" ? appCalendar : appCalendar.src}
                         alt=""
-                        className="w-full h-full object-cover rounded-xl"
+                        className="w-full h-full object-cover rounded"
                     />
                 </div>
-                <div
-                    ref={leftInnerRef}
-                    className={`${cardClass} w-[52%] z-[2]`}
-                >
+                <div ref={leftInnerRef} className={`${cardClass} w-[52%] z-[2]`}>
                     <img
-                        src={typeof appExtracurricular === "string" ? appExtracurricular : appExtracurricular.src}
+                        src={
+                            typeof appExtracurricular === "string"
+                                ? appExtracurricular
+                                : appExtracurricular.src
+                        }
                         alt=""
-                        className="w-full h-full object-cover rounded-xl"
+                        className="w-full h-full object-cover rounded"
                     />
                 </div>
-                <div
-                    ref={rightInnerRef}
-                    className={`${cardClass} w-[52%] z-[2]`}
-                >
+                <div ref={rightInnerRef} className={`${cardClass} w-[52%] z-[2]`}>
                     <img
                         src={typeof appStudents === "string" ? appStudents : appStudents.src}
                         alt=""
-                        className="w-full h-full object-cover rounded-xl"
+                        className="w-full h-full object-cover rounded"
                     />
                 </div>
-                <div
-                    ref={rightOuterRef}
-                    className={`${cardClass} w-[48%] z-[1]`}
-                >
+                <div ref={rightOuterRef} className={`${cardClass} w-[48%] z-[1]`}>
                     <img
                         src={typeof appChat === "string" ? appChat : appChat.src}
                         alt=""
-                        className="w-full h-full object-cover rounded-xl"
+                        className="w-full h-full object-cover rounded"
                     />
                 </div>
                 <div
                     ref={mainRef}
-                    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[3] w-[54%] rounded-xl overflow-hidden"
+                    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[3] w-[54%] rounded overflow-hidden"
                 >
                     <img
                         src={typeof appHero === "string" ? appHero : appHero.src}
                         alt=""
-                        className="w-full h-full object-cover aspect-[9/19] rounded-xl"
+                        className="w-full h-full object-cover aspect-[9/19] rounded"
                     />
                 </div>
             </div>

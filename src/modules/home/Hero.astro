@@ -4,37 +4,60 @@ import { getLanguageFromURL, useTranslatedPath } from "@/i18n";
 
 import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import BookDemoButton from "@/components/BookDemoButton.astro";
 import AppAnimation from "@/components/AppAnimation";
 import Link from "@/components/ui/link";
 import GSAPSection from "@/components/ui/gsap-section";
+import TopGlow from "@/components/TopGlow.astro";
 import ThemedImage from "@/components/ThemedImage.astro";
+import IntegrationsLogosStack from "@/components/IntegrationsLogosStack.astro";
+import TrustedBySection from "@/modules/home/TrustedBySection.astro";
 import heroImage from "@/assets/img/screenshots/shared/hero.png";
 import heroImageDark from "@/assets/img/screenshots/shared/dark/hero.png";
-import assignmentEvaluation from "@/assets/img/screenshots/assignment/evaluation_cycle.png";
-import assignmentEvaluationDark from "@/assets/img/screenshots/assignment/dark/evaluation_cycle.png";
+import BookDemoButton from "@/components/BookDemoButton.astro";
 
 interface Props {
     t: Translation;
 }
 
 const { t } = Astro.props;
+const { integrationsSection } = t;
 const lang = getLanguageFromURL(Astro.url.pathname);
 const translatePath = useTranslatedPath(lang);
 const appUrl = translatePath("/app");
 ---
 
-<GSAPSection client:load className="grid gap-4" animationType="opacity">
+<GSAPSection
+    client:load
+    className="grid min-w-0 w-full max-w-full gap-4 overflow-hidden"
+    animationType="opacity"
+>
     <Card
-        className="flex flex-col items-center justify-start text-center h-110 sm:h-160 overflow-hidden bg-card gap-4"
+        className="flex flex-col items-center justify-start text-center h-110 sm:h-160 overflow-hidden bg-background gap-4"
     >
         <CardHeader>
-            <h1 class="text-xl font-bold max-w-2xl">{t.hero.mainTitle}</h1>
+            <h1
+                class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
+            >
+                {t.hero.mainTitle}
+            </h1>
         </CardHeader>
         <CardContent>
             <p class="text-muted-foreground max-w-150">
                 {t.hero.mainDescription}
             </p>
+            <div class="hidden md:flex flex-col gap-4 items-center justify-center mt-8">
+                <div class="flex gap-2 items-center justify-center">
+                    <BookDemoButton t={t} variant="secondary" />
+                    <Link href="https://app.edena.es/register-organization">
+                        <Button>{t.registerButtonExtended}</Button>
+                    </Link>
+                </div>
+                <div>
+                    <p class="text-[8px] text-muted-foreground uppercase tracking-wider">
+                        {t.noCreditCardRequired}
+                    </p>
+                </div>
+            </div>
         </CardContent>
         <CardFooter>
             <ThemedImage
@@ -49,13 +72,14 @@ const appUrl = translatePath("/app");
 
     <div class="grid gap-4 px-4 text-sm sm:grid-cols-2 w-full">
         <Card
-            className="flex flex-col items-center gap-6 rounded text-center overflow-visible bg-gradient-primary h-100 md:h-130 overflow-hidden"
+            className="relative text-white flex flex-col items-center gap-6 rounded text-center overflow-hidden bg-card h-100 md:h-130"
         >
-            <CardHeader className="flex flex-col items-center gap-4">
+            <TopGlow />
+            <CardHeader className="relative z-10 flex flex-col items-center gap-4">
                 <h3 class="text-xl font-bold">{t.hero.mobileTitle}</h3>
                 <p class="max-w-md">{t.hero.mobileDescription}</p>
             </CardHeader>
-            <CardFooter className="flex flex-col gap-4 items-center">
+            <CardFooter className="relative z-10 flex flex-col gap-4 items-center">
                 <Link href={appUrl} className="relative z-10">
                     <Button variant="white">
                         {t.knowMore}
@@ -69,21 +93,19 @@ const appUrl = translatePath("/app");
         </Card>
 
         <Card
-            className="flex flex-col items-center gap-6 rounded bg-card text-center overflow-visible h-100 md:h-130 overflow-hidden"
+            className="flex flex-col items-center gap-16 rounded bg-card text-center overflow-hidden h-130"
         >
-            <CardHeader className="flex flex-col items-center gap-4">
-                <h3 class="text-xl font-bold">{t.hero.orgTitle}</h3>
-                <p class="max-w-md text-muted-foreground">{t.hero.orgDescription}</p>
+            <CardHeader className="flex flex-col items-center gap-4 pb-0">
+                <h3 class="text-xl font-bold">{integrationsSection.title}</h3>
+                <p class="max-w-md text-sm text-muted-foreground leading-relaxed">
+                    {integrationsSection.description}
+                </p>
             </CardHeader>
-            <CardFooter className="flex flex-col gap-4 items-center">
-                <BookDemoButton t={t} />
-                <ThemedImage
-                    src={assignmentEvaluation}
-                    darkImage={assignmentEvaluationDark}
-                    alt={t.altText.emailInvoice || t.altText.heroImage}
-                    className="w-full xl:w-4/5 mx-auto object-contain rounded"
-                />
+            <CardFooter className="flex flex-col gap-4 items-center w-full pb-8 pt-2">
+                <IntegrationsLogosStack t={t} class="scale-90 sm:scale-100" />
             </CardFooter>
         </Card>
     </div>
+
+    <TrustedBySection t={t} />
 </GSAPSection>

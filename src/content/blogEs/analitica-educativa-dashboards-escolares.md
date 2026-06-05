@@ -1,15 +1,35 @@
 ---
 title: "Datos y analítica en educación: cómo tomar mejores decisiones con dashboards escolares"
 date: "2026-03-15"
-description: "Analítica educativa y dashboard escolar: indicadores clave, cómo implementarlos y tomar decisiones basadas en datos en tu centro."
+description: "Analítica operativa para decisiones de dirección. Guía práctica para centros educativos en España (2026)."
 tags: ["analítica educativa", "dashboard escolar", "datos", "toma de decisiones"]
 author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - kpis-director-colegio-mensual-2026
+  - dashboard-educativo
+  - dashboards-educativos-metricas
+  - analitica-rendimiento-academico
+faqs:
+  - question: "¿Necesito un BI aparte para la analítica educativa?"
+    answer: "No necesariamente. Muchos software de gestión incluyen dashboards escolares básicos. Si cubren cobro, asistencia y retención, puede ser suficiente. Un BI aparte tiene sentido cuando necesitas cruzar muchas fuentes o análisis muy personalizados."
+  - question: "¿Quién debe configurar el dashboard escolar?"
+    answer: "Alguien que conozca los procesos (admin o dirección) con apoyo del proveedor. La analítica educativa debe responder a preguntas reales del centro, no a lo que el sistema ofrece por defecto."
+  - question: "¿Con qué frecuencia debe actualizarse la analítica educativa?"
+    answer: "Depende del indicador. Cobro y alertas pueden ser en tiempo real o diario. Retención suele ser semanal o mensual. Lo crítico es que el dashboard escolar se actualice automáticamente desde el sistema."
+  - question: "¿Cuántos dashboards necesito?"
+    answer: "Uno operativo mensual para dirección; evitad duplicar Excel."
 ---
 
 <strong>Datos y analítica en educación: cómo tomar mejores decisiones con dashboards escolares</strong>
 
 <br>
+
+<strong>Ángulo: analítica operativa</strong>
+
+<br>
+
+Decisiones semanales de secretaría y dirección.
 
 La analítica educativa y el dashboard escolar permiten tomar decisiones basadas en datos en lugar de intuición. Tasas de cobro, asistencia, retención y satisfacción de familias pueden visualizarse en un dashboard escolar que dirección y secretaría consultan para priorizar acciones. Este artículo explica cómo implementar analítica educativa con dashboards escolares y qué indicadores priorizar.
 
@@ -77,28 +97,58 @@ Define qué preguntas debe responder la analítica educativa (¿qué priorizar e
 
 <br>
 
-<strong>Preguntas frecuentes</strong>
+<strong>¿Cuántos dashboards necesito?</strong>
 
 <br>
 
-<strong>¿Necesito un BI aparte para la analítica educativa?</strong>
-<br>
-
-No necesariamente. Muchos software de gestión incluyen dashboards escolares básicos. Si cubren cobro, asistencia y retención, puede ser suficiente. Un BI aparte tiene sentido cuando necesitas cruzar muchas fuentes o análisis muy personalizados.
+Uno operativo mensual para dirección; evita duplicar Excel.
 
 <br>
 
-<strong>¿Quién debe configurar el dashboard escolar?</strong>
-<br>
-
-Alguien que conozca los procesos (admin o dirección) con apoyo del proveedor. La analítica educativa debe responder a preguntas reales del centro, no a lo que el sistema ofrece por defecto.
+<strong>Dashboards que sí usa la dirección</strong>
 
 <br>
 
-<strong>¿Con qué frecuencia debe actualizarse la analítica educativa?</strong>
+Un dashboard útil tiene menos de diez indicadores, actualización automática desde el ERP y umbrales rojo/verde acordados. Evita pantallas con 40 gráficos que nadie abre después del primer mes.
+
 <br>
 
-Depende del indicador. Cobro y alertas pueden ser en tiempo real o diario. Retención suele ser semanal o mensual. Lo crítico es que el dashboard escolar se actualice automáticamente desde el sistema.
+<strong>Fuentes de datos</strong>
+
+<br>
+
+- **Facturación:** Morosidad, antigüedad de deuda y tasa de cobro; debe alimentarse del módulo de cobros del ERP, no de Excel manual.
+- **Expediente:** Absentismo, incidencias y seguimiento por alumno; misma fuente que usa secretaría a diario.
+- **CRM:** Conversión solicitud-matrícula, pipeline y tiempo en cada etapa.
+- **RRHH:** Solo si está integrado al ERP; si un KPI requiere exportar Excel, dejará de revisarse en comité.
+
+<br>
+
+<strong>Cadencia de revisión</strong>
+
+<br>
+
+Día 3 de cada mes, 30 minutos: caja, morosidad, ocupación, pipeline admisión, absentismo por curso. Una acción concreta por KPI en rojo.
+
+<br>
+
+<strong>Contexto en España: datos para dirección, no solo para inspección</strong>
+
+<br>
+
+Un director que revisa cada mes ocupación, morosidad, absentismo y conversión de solicitudes toma decisiones antes de que el problema aparezca en la tesorería. Los dashboards deben usar los mismos datos que facturación y secretaría, no duplicar Excel con criterios distintos según quién prepare el informe.
+
+En grupos de colegios, consolidar por centro evita cierres manuales el día 5 de cada mes. El error más frecuente es comprar analítica aparte del ERP: acabas con dos fuentes de verdad y reuniones de tres horas para reconciliar cifras. Un cuadro de mando operativo con ocho indicadores bien definidos y umbrales rojo/verde basta para la mayoría de centros medianos.
+
+La analítica educativa en España no es solo cumplir informes de inspección: es anticipar morosidad, detectar cursos con absentismo anómalo y medir si la captación convierte. Si el dashboard no está en la reunión mensual de dirección con una acción acordada por KPI en rojo, no existe operativamente.
+
+<br>
+
+<strong>Caso práctico (España)</strong>
+
+<br>
+
+Un director de colegio concertado revisa el día 3 de cada mes cuatro KPIs: ocupación, morosidad >30 días, absentismo del mes anterior y solicitudes abiertas. Cuando la morosidad supera el 8 %, activa campaña de domiciliación; cuando el absentismo de un curso supera el 12 %, convoca a jefatura de estudios. Decisiones en 30 minutos, no en reuniones de tres horas.
 
 <br>
 
@@ -109,3 +159,5 @@ Depende del indicador. Cobro y alertas pueden ser en tiempo real o diario. Reten
 La analítica educativa con dashboards escolares permite tomar decisiones basadas en datos. Prioriza indicadores de cobro, asistencia y retención. Configura un dashboard escolar que se actualice automáticamente y úsalo en reuniones de dirección. Los datos bien usados transforman la gestión del centro.
 
 ¿Quieres implementar analítica educativa en tu centro? Solicita una demo y revisamos indicadores, dashboards escolares y datos disponibles sin compromiso.
+
+<br>

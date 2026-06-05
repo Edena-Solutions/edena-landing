@@ -5,8 +5,14 @@ description: "Analytique éducative et tableau de bord scolaire : indicateurs cl
 tags: ["analytique éducative", "tableau de bord scolaire", "données", "prise de décision"]
 author: "Équipe Edena"
 cover: "https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+faqs:
+  - question: "Faut-il un outil BI distinct pour l'analytique ?"
+    answer: "Pas nécessairement. De nombreux logiciels de gestion proposent déjà des tableaux de bord. S'ils couvrent recouvrement, présence et rétention, cela suffit souvent. Un BI dédié a du sens quand beaucoup de sources doivent être croisées ou pour des analyses très spécifiques."
+  - question: "Qui doit paramétrer le tableau de bord ?"
+    answer: "Quelqu'un qui connaît les processus (administration ou direction), avec l'appui de l'éditeur. L'analytique doit répondre aux vraies questions de l'établissement, pas seulement au paramétrage par défaut."
+  - question: "À quelle fréquence mettre à jour l'analytique ?"
+    answer: "Cela dépend de l'indicateur. Recouvrement et alertes : temps réel ou quotidien. Rétention : plutôt hebdo ou mensuel. L'essentiel : que le tableau se mette à jour automatiquement depuis le système."
 ---
-
 <strong>Données et analytique en éducation : de meilleures décisions grâce aux tableaux de bord scolaires</strong>
 
 <br>
@@ -76,36 +82,3 @@ Définissez quelles questions l'analytique éducative doit trancher (quoi priori
 - Ne rien déduire des chiffres. Un tableau que personne ne consulte n'apporte rien.
 
 <br>
-
-<strong>Questions fréquentes</strong>
-
-<br>
-
-<strong>Faut-il un outil BI distinct pour l'analytique ?</strong>
-<br>
-
-Pas nécessairement. De nombreux logiciels de gestion proposent déjà des tableaux de bord. S'ils couvrent recouvrement, présence et rétention, cela suffit souvent. Un BI dédié a du sens quand beaucoup de sources doivent être croisées ou pour des analyses très spécifiques.
-
-<br>
-
-<strong>Qui doit paramétrer le tableau de bord ?</strong>
-<br>
-
-Quelqu'un qui connaît les processus (administration ou direction), avec l'appui de l'éditeur. L'analytique doit répondre aux vraies questions de l'établissement, pas seulement au paramétrage par défaut.
-
-<br>
-
-<strong>À quelle fréquence mettre à jour l'analytique ?</strong>
-<br>
-
-Cela dépend de l'indicateur. Recouvrement et alertes : temps réel ou quotidien. Rétention : plutôt hebdo ou mensuel. L'essentiel : que le tableau se mette à jour automatiquement depuis le système.
-
-<br>
-
-<strong>Conclusion</strong>
-
-<br>
-
-L'analytique éducative avec tableaux de bord scolaires permet des décisions fondées sur les données. Priorisez recouvrement, assiduité et rétention. Configurez un tableau actualisé automatiquement et servez-vous-en en réunions de direction. Des données bien exploitées transforment le pilotage de l'établissement.
-
-Vous voulez mettre en place l'analytique dans votre structure ? Demandez une démonstration : nous passons en revue indicateurs, tableaux de bord et données disponibles, sans engagement.

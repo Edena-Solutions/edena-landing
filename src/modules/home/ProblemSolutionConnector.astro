@@ -1,0 +1,230 @@
+---
+import { Image } from "astro:assets";
+import favicon from "@/assets/img/logos/logo-small.svg";
+import type { Translation } from "@/i18n";
+
+interface Props {
+    t: Translation;
+}
+
+const { t } = Astro.props;
+
+// Each branch flows down to the logo at (500, 86), then continues below it.
+const leftPath = "M 167 0 L 167 48 Q 167 56 175 56 L 488 56 Q 500 56 500 68 L 500 86";
+const rightPath = "M 833 0 L 833 48 Q 833 56 825 56 L 512 56 Q 500 56 500 68 L 500 86";
+const centerPath = "M 500 0 L 500 86";
+const downPath = "M 500 106 L 500 172";
+---
+
+<div
+    class="problem-connector relative mx-auto -mt-4 -mb-10 flex w-full max-w-5xl flex-col items-center px-6"
+>
+    <!-- Desktop: three lines from each problem card → logo → WallOfFeatures -->
+    <div class="relative hidden h-[172px] w-full md:block" aria-hidden="true">
+        <svg
+            class="connector-svg absolute inset-0 h-full w-full text-primary/35 dark:text-primary/30"
+            viewBox="0 0 1000 172"
+            fill="none"
+            preserveAspectRatio="none"
+        >
+            <g class="connector-base">
+                <path
+                    d={leftPath}
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+                <path
+                    d={centerPath}
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+                <path
+                    d={rightPath}
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+                <path
+                    d={downPath}
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+            </g>
+
+            <g class="connector-flash-group">
+                <path
+                    class="connector-flash connector-flash--to-logo"
+                    pathLength="100"
+                    d={leftPath}
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+                <path
+                    class="connector-flash connector-flash--to-logo"
+                    pathLength="100"
+                    d={rightPath}
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+                <path
+                    class="connector-flash connector-flash--to-logo"
+                    pathLength="100"
+                    d={centerPath}
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+                <path
+                    class="connector-flash connector-flash--from-logo"
+                    pathLength="100"
+                    d={downPath}
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+            </g>
+        </svg>
+
+        <div
+            class="absolute left-1/2 top-[110px] z-10 -translate-x-1/2 -translate-y-1/2 rounded bg-background p-2"
+        >
+            <Image src={favicon} alt={t.altText.conclusionLogo} class="h-12 w-12 dark:invert" />
+        </div>
+    </div>
+
+    <!-- Mobile: vertical line → logo → vertical line -->
+    <div class="flex flex-col items-center md:hidden">
+        <div
+            class="connector-mobile-line connector-mobile-line--in h-10 w-px bg-primary/35 dark:bg-primary/30"
+            aria-hidden="true"
+        >
+        </div>
+        <div class="rounded bg-background p-2">
+            <Image src={favicon} alt={t.altText.conclusionLogo} class="h-12 w-12 dark:invert" />
+        </div>
+        <div
+            class="connector-mobile-line connector-mobile-line--out h-14 w-px bg-primary/35 dark:bg-primary/30"
+            aria-hidden="true"
+        >
+        </div>
+    </div>
+</div>
+
+<style>
+    @keyframes connector-to-logo {
+        0% {
+            stroke-dashoffset: 100;
+            opacity: 0;
+        }
+        8% {
+            opacity: 1;
+        }
+        42% {
+            stroke-dashoffset: 0;
+            opacity: 1;
+        }
+        52% {
+            opacity: 0;
+        }
+        100% {
+            stroke-dashoffset: 0;
+            opacity: 0;
+        }
+    }
+
+    @keyframes connector-from-logo {
+        0%,
+        38% {
+            stroke-dashoffset: 100;
+            opacity: 0;
+        }
+        48% {
+            opacity: 1;
+        }
+        88% {
+            stroke-dashoffset: 0;
+            opacity: 1;
+        }
+        100% {
+            stroke-dashoffset: 0;
+            opacity: 0;
+        }
+    }
+
+    @keyframes connector-mobile-in {
+        0% {
+            transform: scaleY(0.15);
+            transform-origin: top;
+            opacity: 0.35;
+        }
+        40% {
+            transform: scaleY(1);
+            opacity: 1;
+        }
+        100% {
+            transform: scaleY(1);
+            opacity: 0.35;
+        }
+    }
+
+    @keyframes connector-mobile-out {
+        0%,
+        35% {
+            transform: scaleY(0.15);
+            transform-origin: top;
+            opacity: 0;
+        }
+        55% {
+            transform: scaleY(1);
+            opacity: 1;
+        }
+        100% {
+            transform: scaleY(1);
+            opacity: 0.35;
+        }
+    }
+
+    .connector-flash {
+        fill: none;
+        stroke: rgb(34 197 94);
+        stroke-dasharray: 14 86;
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+
+    .connector-flash-group {
+        filter: drop-shadow(0 0 5px rgba(34, 197, 94, 0.4));
+    }
+
+    .connector-flash--to-logo {
+        animation: connector-to-logo 2.8s ease-in-out infinite;
+    }
+
+    .connector-flash--from-logo {
+        animation: connector-from-logo 2.8s ease-in-out infinite;
+    }
+
+    .connector-mobile-line--in {
+        background: linear-gradient(to bottom, transparent, rgb(34 197 94), transparent);
+        animation: connector-mobile-in 2.8s ease-in-out infinite;
+    }
+
+    .connector-mobile-line--out {
+        background: linear-gradient(to bottom, transparent, rgb(34 197 94), transparent);
+        animation: connector-mobile-out 2.8s ease-in-out infinite;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .connector-flash {
+            display: none;
+        }
+
+        .connector-mobile-line {
+            animation: none;
+            opacity: 1;
+            transform: none;
+            background: unset;
+        }
+    }
+</style>

@@ -8,34 +8,75 @@ const { lang = "es" } = Astro.props;
 const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://edena.es/#organization",
     name: "Edena",
+    legalName: "Edena Software S.L.",
     url: "https://edena.es",
-    logo: "https://edena.es/assets/img/logo.png",
+    logo: {
+        "@type": "ImageObject",
+        url: "https://edena.es/assets/img/logo.png",
+        width: "200",
+        height: "60",
+    },
     description:
         lang === "es"
-            ? "Sistema avanzado de gestión escolar que simplifica tareas administrativas, mejora la comunicación con familias y optimiza los resultados educativos."
+            ? "Edena es el ERP de gestión escolar para colegios, academias, escuelas infantiles y grupos educativos. Automatiza facturación, asistencia, comunicación familiar y matrículas en una sola plataforma. Certificado Verifactu AEAT."
             : lang === "fr"
-              ? "Système avancé de gestion scolaire qui simplifie les tâches administratives, améliore la communication avec les familles et optimise les résultats éducatifs."
-              : "Advanced school management system that simplifies administrative tasks, improves family communication and optimizes educational outcomes.",
-    inLanguage:
-        lang === "es"
-            ? "es-ES"
-            : lang === "fr"
-              ? "fr-FR"
+              ? "Edena est l'ERP de gestion scolaire pour écoles, académies, crèches et groupes éducatifs. Automatise la facturation, les présences, la communication familiale et les inscriptions sur une seule plateforme."
               : lang === "ca"
-                ? "ca-ES"
-                : lang === "eus"
-                  ? "eu"
-                  : "en-US",
+                ? "Edena és l'ERP de gestió escolar per a col·legis, acadèmies, escoles infantils i grups educatius. Automatitza la facturació, l'assistència, la comunicació familiar i les matrícules en una sola plataforma."
+                : "Edena is the school management ERP for schools, academies, nurseries and educational groups. Automates billing, attendance, family communication and enrolments in one platform.",
+    foundingDate: "2022",
+    address: {
+        "@type": "PostalAddress",
+        addressLocality: "Barcelona",
+        addressRegion: "Cataluña",
+        addressCountry: "ES",
+    },
+    areaServed: ["ES", "FR"],
+    inLanguage: ["es-ES", "ca-ES", "eu", "en-US", "fr-FR"],
+    knowsAbout: [
+        "School management software",
+        "ERP educativo",
+        "Software gestión escolar",
+        "Gestión de escuelas infantiles",
+        "Software para academias",
+        "Facturación escolar",
+        "Verifactu facturación electrónica",
+        "Portal de familias",
+        "CRM escolar",
+        "Control de asistencia escolar",
+        "Expedientes digitales alumnos",
+        "Gestión multi-centro educativo",
+        "Student information system",
+        "Family communication platform for schools",
+        "Automated school billing SEPA",
+    ],
+    makesOffer: {
+        "@type": "Offer",
+        itemOffered: {
+            "@type": "SoftwareApplication",
+            "@id": "https://edena.es/#software",
+            name: "Edena",
+            applicationCategory: "EducationalApplication",
+        },
+        price: "44",
+        priceCurrency: "EUR",
+        description:
+            lang === "es"
+                ? "Desde 44€/mes. Precio por alumno, sin cuota de alta ni permanencia."
+                : "From €44/month. Per-student pricing, no setup fee, no long-term contract.",
+    },
+    contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "customer service",
+        email: "hola@edena.es",
+        availableLanguage: ["Spanish", "Catalan", "English", "French", "Basque"],
+    },
     sameAs: [
         "https://apps.apple.com/app/edena",
         "https://play.google.com/store/apps/details?id=com.edena",
     ],
-    contactPoint: {
-        "@type": "ContactPoint",
-        contactType: "customer service",
-        availableLanguage: ["Spanish", "English"],
-    },
 };
 ---
 

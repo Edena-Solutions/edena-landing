@@ -18,7 +18,6 @@ import invoiceDetailDark from "@/assets/img/screenshots/invoice/dark/invoice_det
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
-import { ogFromAsset } from "@/lib/og-image";
 
 export function getStaticPaths() {
     return languages.map((lang) => ({
@@ -74,11 +73,7 @@ const features = [
 ---
 
 <Layout
-    content={{
-        title: t.meta.financeTitle,
-        description: t.meta.financeDescription,
-        ...ogFromAsset(heroImage, Astro.site),
-    }}
+    content={{ title: t.meta.financeTitle, description: t.meta.financeDescription }}
     lang={lang}
 >
     <GSAPSection client:load className="grid gap-16" animationType="opacity">

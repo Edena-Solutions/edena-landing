@@ -1,147 +1,209 @@
 ---
-title: "Nola integratu ordainketa onlineak eskoletan eta murriztu ordainketarik gabekoak"
+title: "Nola integratu online ordainketak eskoletan eta lehenetsiak murriztu"
 date: "2026-02-21"
-description: "Hezkuntzako ordainketa onlineak: pasarelak, abisuak eta praktika onak hezkuntza-zentroetan ordainketarik gabekoak murrizteko."
-tags: ["hezkuntzako ordainketa onlineak", "ordainketarik gabekoak", "fakturazioa", "hezkuntza-zentroak"]
-author: "Edena taldea"
+description: "Pasabideak, SEPA zordunketa eta lineako ordainketa moduak zentroetan. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+tags:
+    - "lineako ordainketen hezkuntza"
+    - "lehenetsiak"
+    - "fakturazioa"
+    - "hezkuntza zentroak"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1556740714-a8395b3bf30f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - atzeratzea-murriztu-kobro-automatikoa-2026
+  - faktura-elektronikoa-verifactu-hezkuntza-2026
+  - kpi-hileko-zuzendaria-2026
+  - fakturazio-zorrak-murriztu-ikastetxeetan
+faqs:
+  - question: "Seguru al dira online ordainketak hezkuntzan?"
+    answer: "Bai, PCI-DSS bat datorren atebide bat erabiltzen baduzu eta txartelaren datuak gordetzen ez badituzu. Ordainketa hornitzailearen orrian edo tokenizazioarekin egiten da; Zentroak ez du txartelaren zenbakia kudeatzen."
+  - question: "Zer balio du hezkuntza zentroetarako atari batek?"
+    answer: "Normalean transakzio bakoitzeko ehuneko bat gehi hileroko kopuru finko posible bat izan ohi da. Eskuzko bilketak kudeatzeko egungo kostuarekin eta ordainketarik ez murriztearen eraginarekin alderatu."
+  - question: "Jarrai al dezakegu eskudirua edo txekearen ordainketa eskaintzen?"
+    answer: "Bai. Hezkuntzan lineako ordainketak beste metodo batzuekin batera bizi daitezke; Helburua da sarean ordaintzea nahiago duenak marruskadurarik gabe egin dezala."
+  - question: "Zer egin familia batek ordaindu duela esaten badu eta sisteman agertzen ez bada?"
+    answer: "Prozesu argia izan: pasabidean eta bankuan egiaztatu, familiari frogak eskatu eta egoera eguneratu baieztatzen denean. Aldizkako kontziliazioa kasu horiek murrizten ditu."
+  - question: "Faktura elektronikoak (Verifactu) eragina al du lineako ordainketetan?"
+    answer: "Gauza desberdinak dira: faktura elektronikoak fakturen formatua eta bidalketa arautzen ditu; Lineako ordainketak biltzeko bitartekoak dira. Elkarbizitza egin dezakete: faktura elektronikoa eta ordainketa-esteka fluxu berean."
 ---
 
-<strong>Nola integratu ordainketa onlineak eskoletan eta murriztu ordainketarik gabekoak</strong>
-<br>
 
-Ordainketa onlineak eskaintzen dituzten zentroek maiz ordainketarik gabeko gutxiago eta idazkaritzan eskuzko kobrantzan denbora gutxiago erregistratzen dute. Ordainketa-pasarela bat integratzea eta abisu automatikoak familien esperientzia sinple batekin konbinatzea likidezia eta eraginkortasunerako palanka zuzena da. Gida honek urratsak, praktika onak eta saihestu beharreko akatsak laburbiltzen ditu.
+<strong>Nola integratu online ordainketak eskoletan eta lehenetsiak murriztu</strong>
 
 <br>
 
-<strong>Zergatik hobetzen duten kobrantza hezkuntzako ordainketa onlineek</strong>
-<br>
-
-Familia askok etxetik txartelarekin edo zordunketarekin ordaindu nahi dute, idazkaritza igaro edo ordainagiak gogoratu gabe. Hezkuntzako ordainketa onlineek marruskadura murrizten dute: ordainagi posta elektroniko edo portaletik iristen da, estekak klik batean ordaintzen uzten du eta zentroak baieztapena eta kontsolidazioa sistema berean jasotzen ditu. Marruskadura gutxiagoek maiz ordainketarik gabeko gutxiago esan nahi du.
+<strong>Artikulu honen angelua: ateak eta metodoak</strong>
 
 <br>
 
-<strong>Ordainketarik gabekoetan eta lan-kargan eragina</strong>
-<br>
+Hemen ez gara berandu ordaintzeko politikaz ari, kobratzeko moduaz baizik: SEPA, txartela, adiskidetzea eta familiaren ordainketa esperientzia.
 
-Hezkuntzako ordainketa onlineak inplementatu dituzten zentroek ordainagi iraungituen eta abisu-deien jaitsiera nabarmena erregistratzen dute. Idazkaritzak kobrantza kudeatzeko denbora gutxiago eta balio handiagoko zereginetan gehiago dedikatzen du. Kobrantza-epeak laburtzen direnean likidezia hobetzen da.
-
-<br>
-
-<strong>Nola integratu hezkuntzako ordainketa onlineak</strong>
-<br>
+Lineako ordainketak eskaintzen dituzten zentroek eskuzko bilketetan ez-ordainketa gutxiago eta idazkaritza-denbora gutxiago erregistratu ohi dituzte. Ordainketa pasabide bat integratzea eta abisu automatikoak familientzako esperientzia sinple batekin konbinatzea likidezia eta eraginkortasunaren palanka zuzena da. Gida honek pausoak, praktika onak eta saihestu beharreko akatsak laburbiltzen ditu.
 
 <br>
 
-<strong>1. Pasarela eta ordainketa-modua aukeratzea</strong>
-<br>
-
-Txartelarekin ordainketa (eta kasuan kasuko Bizum edo tokiko beste metodo batzuk) ahalbidetzen duen eta zure kudeaketa-softwarearekin integratzen den pasarela bat behar duzu. Ordainketa errepikakorretarako (hilabetekariak), egiaztatu pasarela edo bankuak aurretiko baimenarekin karga errepikakorrak onartzen dituen. Hezkuntzako ordainketa onlineak hobeto funtzionatzen du fluxua zentro eta familiarentzat bera denean (esteka bat, egoera argi).
+<strong>Zergatik hezkuntzan online ordainketak hobetzen dute bilketa</strong>
 
 <br>
 
-<strong>2. Fakturazioa eta kobrantza lotzea</strong>
+Familia askok nahiago dute txartel bidez edo etxetik ordaintzea, idazkaritzara joan edo ordainagiriak gogoratu gabe. Hezkuntzan lineako ordainketak marruskadura murrizten du: ordainagiria posta elektronikoz edo atarian iristen da, estekak klik bakarrean ordaintzeko aukera ematen du eta zentroak sistema berean jasotzen du baieztapena eta kontziliazioa. Marruskadura gutxiago, normalean, ordainketa gutxiago berandu bihurtzen da.
+
 <br>
 
-Kudeaketa-softwareak ordainagi edo faktura sortu eta ordainketa-esteka bidali behar du (posta elektroniko edo familien portaletik). Ordainketa ondoren sistemak egoera eguneratu behar du (ordainduta, zain) eta kasuan kasuko kontsolidazioa erregistratu. Hezkuntzako ordainketa onlineek arrastrea behar dute bikoizketak eta gatazkak saihesteko.
+<strong>Lehenetsietan eta lan-kargan eragina</strong>
+
+<br>
+
+Hezkuntzan lineako ordainketak ezarri dituzten zentroek atzerapen handiko ordainagirien eta abisu-deien jaitsiera nabarmena jakinarazi dute. Idazkariak denbora gutxiago ematen du bildumak kudeatzen eta denbora gehiago zeregin baliotsuetan. Likidezia hobetzen da bilketa denbora laburragoa denean.
+
+<br>
+
+<strong>Nola integratu online ordainketak hezkuntzan</strong>
+
+<br>
+
+<strong>1. Aukeratu atebidea eta ordainketa-metodoa</strong>
+
+<br>
+
+Txartelaren ordainketa ahalbidetzen duen atebide bat behar duzu (eta, hala badagokio, bizum edo tokiko beste metodo batzuk) eta zure kudeaketa softwarearekin integratzen dena. Ordainketa errepikakorrak (hilabeteko ordainketak), ebaluatu atebideak edo bankuak aldez aurretiko baimenarekin komisio errepikakorrak onartzen dituen. Hezkuntzan lineako ordainketak hobekien funtzionatzen du fluxua zentroarentzat eta familiarentzat berdina denean (esteka bat, egoera argi bat).
+
+<br>
+
+<strong>2. Lotu fakturazioa eta bilketa</strong>
+
+<br>
+
+Kudeaketa softwareak ordainagiria edo faktura sortzeko eta ordainketa-esteka bidaltzeko gai izan behar du (posta elektronikoz edo familiaren ataritik). Ordainketa egin ondoren, sistemak egoera eguneratu behar du (ordaindua, pendiente) eta, hala badagokio, kontziliazioa erregistratu beharko du. Hezkuntzako lineako ordainketak trazabilitatea behar du bikoiztasunak eta gatazkak saihesteko.
 
 <br>
 
 <strong>3. Abisu automatikoak</strong>
-<br>
-
-Konfiguratu bidalketa automatikoak epemuga aurretik eta ondoren (adibidez, 3 eta 7 egunetan). Abisuan ordainketa-esteka sartzeak kobrantza-probabilitatea handitzen du. Hezkuntzako ordainketa onlineak indartzen dira familiak abisu erabilgarriak jasotzen dituztenean eta urrats gehigarririk gabe ordain dezaketenean.
 
 <br>
 
-<strong>4. Familien portala</strong>
-<br>
-
-Familiak portalean sartu eta zain dauden ordainagiak ikusi eta klik batean ordain ditzaketenean, posta elektronikoaren mendekotasuna murrizten da eta ikusgarritasuna hobetzen da. Hezkuntzako ordainketa onlineak irabazten du portaleak historiala eta uneko egoera erakusten dituenean.
+Konfiguratu bidalketa automatikoak iraungi aurretik eta iraungi ondoren (adibidez, 3 eta 7 egun igaro ondoren). Ordainketa-esteka abisuan sartzeak biltzeko probabilitatea handitzen du. Hezkuntzako lineako ordainketak indartu egiten dira familiek abisu lagungarriak jasotzen dituztenean eta urrats gehigarririk gabe ordain dezaketenean.
 
 <br>
 
-<strong>5. Kontsolidazioa eta txostenak</strong>
-<br>
-
-Zentroak jasotako ordainketak banku edo pasarelan mugimenduekin kontsolidatu behar ditu. Aldi, familia edo kontzeptuko kobrantza-txostenek zuzendaritza eta administrazioari likidezia jarraitzen eta ordainketarik gabekoetan jarduteko laguntzen diote.
+<strong>4. Familien Ataria</strong>
 
 <br>
 
-<strong>Praktika-kasuak: hezkuntzako ordainketa onlineak</strong>
-<br>
-
-800 ikasleko ikastetxe batek diru eta ordainagi nagusitik ordainketa online eta abisu automatikoetara pasa zen; lehen ikasturtean 30 eguneko ordainketarik gabekoa %40 murriztu eta idazkaritzan kobrantzan asteko 8 ordu inguru aurreztu zituen. Prestakuntza profesionaleko zentro batek pasarela kudeaketa-softwarearekin integratu eta txartelarekin ordainketa zatitua eskaini zuen; familien zatikatzea aukeratzen duten kopurua handitu eta ikasturtearen lehen hilabeteetan ordainketarik gabekoak murriztu ziren.
+Familiek atari batean saioa hasi eta zain dauden ordainagiriak ikusi eta klik batekin ordaintzen badute, posta elektronikoaren konfiantza murriztuko da eta ikusgarritasuna hobetzen da. Hezkuntzan lineako ordainketak irabazten ditu atariak historia eta egoera eguneratua erakusten duenean.
 
 <br>
 
-<strong>Hezkuntzako ordainketa onlineak inplementatzean ohiko akatsak</strong>
-<br>
-
-- Abisuetan ordainketa-esteka ez sartzea (familiak nola ordaindu bilatu behar).
-- Familieek erabiltzen dituzten hainbat metodo (txartela, Bizum, zordunketa) eskaintzea soilik.
-- Banku edo pasarelarekin ordainketak kontsolidatu gabe desadostasun ebatzi gabe uztea.
-- Aldaketari buruz familiak informatu gabe (kanala, segurtasuna, epeak) eta konfiantza gutxitzea.
-- Pasarela kudeaketa-softwarearekin deskonektatuta uztea eta lana eskuz bikoiztea.
+<strong>5. Adiskidetzea eta txostena</strong>
 
 <br>
 
-<strong>Ekintza-zerrenda: hezkuntzako ordainketa onlineak</strong>
-<br>
-
-1. Definitu eskaini nahi dituzun metodoak (txartela, zordunketa, Bizum edo besteak) eta zure kudeaketarekin bateragarritasuna.
-2. Integratu pasarela fakturazio-softwarearekin ordainketa-esteka automatikoki sortu eta bidaltzeko.
-3. Konfiguratu gutxienez epemuga aurretiko abisu bat eta epemugaz gaindituta bat edo bi ordainketa-estekarekin.
-4. Gaitu familien portalean ordainagien ikuspegia eta klik bateko ordainketa.
-5. Ezarri banku/pasarela eta kobrantzak arteko kontsolidazio periodikoa (asteko edo hilabetekoa).
-6. Komunikatu familiiei kanal berria, segurtasuna eta gertakarietan norekin harremanetan jarri.
-7. Ikasturte bakoitzean berrikusi kobrantza-tasak eta ordainketarik gabekoak kudeatzeko dedikatutako denbora abisuak eta mezuak doitzeko.
+Zentroak gai izan behar du jasotako ordainketak bankuko edo pasabideko eragiketekin bateratzeko. Bilketa-txostenek aldiaren, familiaren edo kontzeptuaren arabera kudeaketari eta administrazioari laguntzen diote likidezia kontrolatzen eta ordainketarik egin ezean jarduten.
 
 <br>
 
-<strong>Maiz egindako galderak</strong>
-<br>
+<strong>Kasu praktikoak: online ordainketak hezkuntzan</strong>
 
 <br>
-<strong>Hezkuntzako ordainketa onlineak seguruak al dira?</strong>
-<br>
 
-Bai, PCI-DSS betetzen duen pasarela bat erabiltzen baduzu eta txartel-daturik gordetzen ez baduzu. Ordainketa hornitzailearen orrian edo tokenizazioarekin egiten da; zentroak ez du txartel-zenbakirik kudeatzen.
+800 ikasle dituen eskola bat gehienbat eskudirutan eta txekeen ordainketatik abisu automatikoekin lineako ordainketetara igaro zen; Lehenengo ikastaroan 30 eguneko berankortasuna %40 murriztu zuten eta bilketan idazkaritza-denbora astean 8 ordu inguru. Lanbide Heziketako zentro batek atebidea bere kudeaketa-softwarearekin integratu zuen eta txartelaren bidez zatika ordaintzeko aukera eskaintzen zuen; Banatzea aukeratzen duten familien kopuruak gora egin zuen eta lehenetsiak gutxitu egin ziren ikastaroaren lehen hilabeteetan.
 
 <br>
-<strong>Zer kostu du pasarela batek hezkuntza-zentroetan?</strong>
-<br>
-Maiz transakzioko ehuneko bat eta hileko kuota finko posible bat. Konparatu eskuzko kobrantza kudeatzeko uneko kostuarekin eta ordainketarik gabekoak murriztearen eraginarekin.
+
+<strong>Ohiko akatsak hezkuntzan lineako ordainketak ezartzean</strong>
 
 <br>
-<strong>Diru-kontu edo ordainagi ordainketa eskaini al ditzakegu oraindik?</strong>
-<br>
 
-Bai. Hezkuntzako ordainketa onlineak beste metodoekin batera bizi daitezke; helburua da online ordaindu nahi duenak marruskadurarik gabe egin dezakeela.
-
-<br>
-<strong>Zer egin familia batek ordaindu duela dioenean eta sistemean ez badago?</strong>
-<br>
-Prozesu argia eduki: egiaztatu pasarelan eta bankuan, eskatu familia frogagiria eta egoera eguneratu baieztatzean. Kontsolidazio periodikoak kasu horiek murrizten ditu.
+- Ez sartu ordainketa-esteka abisuetan (familiek nola ordaindu jakin behar dute).
+- Ordainketa modu bakarra eskaini familiek hainbat erabiltzen dituztenean (txartela, bizuma, zordunketa).
+- Bankuarekin edo pasabidearekin ordainketak ez bateratzea eta konpondu gabeko desadostasunak izatea.
+- Familiei aldaketaren berri ez ematea (kanala, segurtasuna, epeak) eta mesfidantza sortzea.
+- Utzi atebidea kudeaketa softwaretik deskonektatuta eta eskuzko lana bikoiztu.
 
 <br>
-<strong>Fakturazio elektronikoak (Verifactu) ordainketa onlineak eragiten al ditu?</strong>
+
+<strong>Egiteko kontrol-zerrenda: lineako ordainketak hezkuntzan</strong>
+
 <br>
-Gauza desberdinak dira: fakturazio elektronikoak fakturaren formatua eta bidalketa arautzen ditu; ordainketa onlineak kobrantza-bidea dira. Batera bizi daitezke: faktura elektronikoa eta ordainketa-esteka fluxu berean.
+
+1. Zehaztu zer metodo eskaini nahi dituzun (txartela, zordunketa zuzena, bizuma edo beste batzuk) eta egiaztatu zure kudeaketarekin bateragarritasuna.
+2. Integratu atebidea fakturazio softwarearekin, ordainketa-esteka automatikoki sortu eta bidal dadin.
+3. Ezarri gutxienez abisu bat iraungi baino lehen eta bat edo bi iraungi ondoren ordainketa estekarekin.
+4. Gaitu ordainagiriak ikusteko eta klik bakarreko ordainketa familiaren atarian.
+5. Ezartzea aldizkako bateratze-prozesu bat (astero edo hilero) kobrantza eta banku/pasabidearen artean.
+6. Familiei jakinarazi kanal berria, segurtasuna eta norekin harremanetan jarri gorabeheraren kasuan.
+7. Berrikusi ikastaro bakoitzaren bilketa-tasak eta ez-ordainketak kudeatzen emandako denbora abisuak eta mezuak doitzeko.
+
+<br>
+
+<strong>Ordainketa moduak Espainiako zentroetan</strong>
+
+<br>
+
+- **SEPA Zuzeneko Zordunketa:** Kuota errepikakorretarako hobesten da; aldez aurretik jakinaraztea eta itzulketen kudeaketa argia eskatzen du.
+- **Txartela:** Ordainketa puntualak (materiala, jarduerak, leku erreserba).
+- **Transferentzia:** Baliozkoa ERP automatikoki uztartzen bada; Saihestu checkout piko orduetan.
+- **Saihestu:** Bilketa eskudirutan soilik harreran kanal nagusi gisa; botila-lepoak eta diru-akatsak sortzen ditu.
+
+<br>
+
+<strong>Laburpena 5 puntu nagusitan:</strong>
+
+<br>
+
+1. Hezkuntzan lineako ordainketak marruskadura murrizten dute eta berandutza ordainketak murrizten dituzte.
+2. Atebidea esteken eta egoera eguneratzeen fakturazioarekin integratuta egon behar du.
+3. Ordainketa esteka duten abisu automatikoek bilketa tasa handitzen dute.
+4. Familiek fakturak ikusi eta ordaintzeko atari batek esperientzia eta ikusgarritasuna hobetzen ditu.
+5. Aldizkako adiskidetzeak eta familiei komunikazio argiak akatsak eta mesfidantza saihesten dituzte.
+
+Lineako ordainketak zure zentroan nola integratu eta ez-ordainketak murrizten ikusi nahi duzu? Eskatu demo bat eta atea, abisuak eta fluxua berrikusten ditugu familiekin.
+
+<br>
+
+<strong>Espainian metodoak</strong>
+
+<br>
+
+- **SEPA Zuzeneko Zordunketa:** Aldizkako kuotak jakinarazpen argiarekin eta itzulketen kudeaketarekin.
+- **Txartela:** Ordainketa puntualak (materiala, erreserba, jarduerak).
+- **Transferentzia:** Baliozkoa da ERP automatikoki bankuarekin bateratzen bada.
+- **Saihestu checkout piko orduetan:** Botilak eta kutxazain akatsak harreran.
+
+<br>
+
+<strong>Familia esperientzia</strong>
+
+<br>
+
+Zorraren egoera, historia eta ordainagirien deskarga dituen ataria. Dei gutxiago idazkariari.
+
+<br>
+
+<strong>Testuingurua Espainian: fakturazioa eta kobraketa zentro pribatuetan eta diruz lagundutakoetan</strong>
+
+<br>
+
+Ikastetxe pribatuetan, haur eskoletan eta diruz lagundutako zentroetan, kuoten, jantokiaren, garraioaren eta eskolaz kanpoko jardueren fakturazioa familien jarraipena izan behar da eta, gero eta gehiago, Verifactu eta AEAT-ren eskakizunekin bat etorrita. SEPA zuzeneko zordunketa Espainian hobetsitako metodoa izaten jarraitzen du, baina, berez, ez ditu ordainketa berandugarriak murrizten: abisu automatikoekin, familiaren atarian ikusgai dauden zor-adierazpenekin eta ERP-n integratuta dauden banku-adiskidetzearekin konbinatu behar da.
+
+Zentro askok iraungitze-egutegi argigabeekin funtzionatzen dute, gaizki dokumentatutako salbuespenekin (bekak, anai-arrebentzat deskontuak) eta banku, Excel eta PDF ordainagirien artean gastuak eskuz bateratzen dituzten idazkaritzak. Eszenatoki honek gatazkak sortzen ditu familiekin, ordu galduak eta berankortasun-zifrak, zuzendaritzak batzordean datu fidagarriekin azaldu ezin dituenak.
+
+350 familiako zentroak kobrantza zentralizatzen duena, ordainketarik ezaren politika idatziz zehazten duena eta abisuak mailakatuak automatizatzen dituenak, normalean, berankortasuna ehuneko 2 eta 4 puntu artean murrizten du lehen urte osoan. Gakoa ez da zuzeneko zordunketa botoia, jaulkipenaren, komunikazioaren eta ez-ordainketen azterketaren arteko koherentzia baizik.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Valentzian 320 familia dituen eskola pribatu batek %11ko kuota ordaindu gabe zituen mugaegunetik 45 egun igaro ondoren. Egutegi bakarra, SEPA zordunketa aldez aurretik jakinarazpenarekin, hiru abisu automatiko (D+3, D+10, D+20) eta ikastaroka panel lehenetsia zehaztu ondoren, kopurua %6,5era jaitsi da bi ikastarotan. Idazkaritza astean 6 ordu eskaintzetik bilketa deialdietara 2 ordu salbuespenen kudeaketara igaro zen.
 
 <br>
 
 <strong>Ondorioa</strong>
+
 <br>
 
-Hezkuntzako ordainketa onlineak integratzeak ordainketarik gabekoak eta administrazio-karga murrizten ditu pasarela integratua, ordainketa-estekadun abisuak eta familien portala konbinatzen direnean. Fluxu argian, kontolidazioan eta familien komunikazioan inbertitzeak likidezia eta taldearen denboran itzulketa zuzena du.
+Lineako ordainketak hezkuntzan integratzeak ez-ordainketak eta administrazio-zama murrizten ditu atebide integratua, abisuak ordainketa-esteka eta familien ataria konbinatzean. Fluxu argian, kontziliazioan eta familiekin komunikazioan inbertitzeak itzulera zuzena du likidezian eta talde denboran.
 
-<strong>5 puntu gakoen laburpena:</strong>
-
-1. Hezkuntzako ordainketa onlineek marruskadura murrizten dute eta maiz ordainketarik gabekoa jaisten dute.
-2. Pasarela fakturazioarekin integratuta egon behar da estekak eta egoera-eguneraketarako.
-3. Abisu automatikoek ordainketa-estekarekin kobrantza-tasa handitzen dute.
-4. Familieek ordainagiak ikusi eta ordain dezaketen portal batek esperientzia eta ikusgarritasuna hobetzen ditu.
-5. Kontsolidazio periodikoa eta komunikazio argia familiekin akatsak eta konfiantza-gabeziak saihesten ditu.
-
-Nahi duzu zure zentroan ordainketa onlineak integratu eta ordainketarik gabekoak murriztu? Eskatu demo bat eta pasarela, abisuak eta familien fluxua azter ditzakegu.
+<br>

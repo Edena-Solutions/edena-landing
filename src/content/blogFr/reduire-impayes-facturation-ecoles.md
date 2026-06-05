@@ -5,8 +5,12 @@ description: "Facturation des écoles et gestion des paiements scolaires : strat
 tags: ["facturation écoles", "gestion des paiements scolaires", "impayés", "encaissement"]
 author: "Équipe Edena"
 cover: "https://images.unsplash.com/photo-1662502729255-4d3a58486d4e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJhdWRzdGVyfGVufDB8fDB8fHww"
+faqs:
+  - question: "La facturation des écoles doit-elle être conforme à la facturation électronique (ex. contexte espagnol / Verifactu) ?"
+    answer: "Selon le pays, la réglementation évolue. Les établissements doivent anticiper la facture électronique. Les paiements peuvent coexister : facture électronique et lien de paiement dans le même parcours."
+  - question: "Les paiements en ligne sont-ils sûrs ?"
+    answer: "Oui, avec une passerelle conforme au PCI-DSS et sans stockage des données carte sur vos serveurs. Le paiement en ligne intégré est sûr lorsque le prestataire respecte les normes."
 ---
-
 <strong>Comment réduire les impayés et améliorer la facturation dans les établissements scolaires</strong>
 
 <br>
@@ -77,28 +81,3 @@ Mettre à jour le statut des factures dès l'encaissement (passerelle ou banque)
 - Manquer de visibilité sur les factures encore ouvertes.
 
 <br>
-
-<strong>Questions fréquentes</strong>
-
-<br>
-
-<strong>La facturation des écoles doit-elle être conforme à la facturation électronique (ex. contexte espagnol / Verifactu) ?</strong>
-<br>
-
-Selon le pays, la réglementation évolue. Les établissements doivent anticiper la facture électronique. Les paiements peuvent coexister : facture électronique et lien de paiement dans le même parcours.
-
-<br>
-
-<strong>Les paiements en ligne sont-ils sûrs ?</strong>
-<br>
-
-Oui, avec une passerelle conforme au PCI-DSS et sans stockage des données carte sur vos serveurs. Le paiement en ligne intégré est sûr lorsque le prestataire respecte les normes.
-
-<br>
-
-<strong>Conclusion</strong>
-<br>
-
-Renforcer la facturation et la gestion des paiements scolaires par relances, paiement en ligne et clarté de processus réduit les impayés et améliore la trésorerie. Investissez dans un outil qui automatise envoi, relances et encaissement.
-
-Vous souhaitez réduire l'impayé dans votre établissement ? Demandez une démonstration : facturation, relances et paiement en ligne, sans engagement.

@@ -1,17 +1,26 @@
 ---
 title: "Innovación pedagógica con tecnología: Transformando la enseñanza y el aprendizaje"
 date: "2024-10-15"
-description: "Explora cómo la tecnología está revolucionando las metodologías pedagógicas y creando experiencias de aprendizaje más efectivas y atractivas."
+description: "Explora cómo la tecnología está cambiando las metodologías pedagógicas y creando experiencias de aprendizaje más efectivas y atractivas."
 tags: ["innovación", "pedagogía", "metodologías", "aprendizaje"]
 author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1564514476902-542f8c30121e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - checklist-digitalizacion-2026
+faqs:
+  - question: "¿Cómo alinear tecnología con LOMLOE?"
+    answer: "Prioriza herramientas que liberen tiempo para competencias clave y evaluación continua, no gadgets aislados."
+  - question: "¿Formación del claustro: cuánto basta?"
+    answer: "Sesiones de 60 minutos por herramienta, grabadas, con referente por etapa que resuelva dudas entre iguales."
+  - question: "¿La digitalización resta tiempo pedagógico?"
+    answer: "Bien hecha, lo devuelve: menos duplicar listados y circulares manuales significa más tiempo para evaluación y tutoría."
 ---
 
 <strong>Innovación pedagógica con tecnología: Transformando la enseñanza y el aprendizaje</strong>
 
 <br>
 
-La innovación pedagógica con tecnología no se trata simplemente de usar dispositivos digitales en el aula; se trata de transformar fundamentalmente cómo enseñamos y cómo aprenden los estudiantes. La tecnología ofrece oportunidades sin precedentes para crear experiencias de aprendizaje más personalizadas, interactivas, y efectivas que respondan a las necesidades de los estudiantes del siglo XXI.
+La innovación pedagógica con tecnología no se trata simplemente de usar dispositivos digitales en el aula; se trata de transformar fundamentalmente cómo enseñamos y cómo aprenden los estudiantes. La tecnología ofrece oportunidades sin precedentes para crear experiencias de aprendizaje más personalizadas, interactivas, y efectivas que respondan a las necesidades de los estudiantes del
 
 <br>
 
@@ -95,11 +104,11 @@ Los profesores pueden utilizar herramientas de evaluación que les permitan rast
 
 <br>
 
-<strong>Desarrollo de competencias del siglo XXI</strong>
+<strong>Desarrollo de competencias del 2026</strong>
 
 <br>
 
-La innovación pedagógica con tecnología se enfoca en desarrollar las competencias que los estudiantes necesitan para el siglo XXI: pensamiento crítico, creatividad, colaboración, comunicación, y competencia digital.
+La innovación pedagógica con tecnología se enfoca en desarrollar las competencias que los estudiantes necesitan para el 2026: pensamiento crítico, creatividad, colaboración, comunicación, y competencia digital.
 
 Los proyectos tecnológicos pueden ayudar a los estudiantes a desarrollar estas competencias de manera integrada. Los estudiantes pueden trabajar en proyectos que requieran investigación, análisis, creatividad, y presentación de resultados. La tecnología proporciona las herramientas necesarias para desarrollar estas competencias de manera efectiva.
 
@@ -115,10 +124,36 @@ Los centros educativos deben proporcionar formación en pedagogía digital, herr
 
 <br>
 
+<strong>Innovación sostenible</strong>
+
+<br>
+
+Metodologías activas necesitan tiempo docente. Si la gestión admin roba horas al claustro, la innovación se queda en piloto. Integrar expediente, cobros y comunicación libera tiempo para acompañamiento.
+
+<br>
+
+<strong>LOMLOE</strong>
+
+<br>
+
+Competencias clave y evaluación continua requieren seguimiento, no solo contenidos digitales.
+
+<br>
+
+<strong>Caso práctico (España)</strong>
+
+<br>
+
+Un centro de 280 familias automatizó asistencia, recordatorios de pago y boletines. La secretaría recuperó 14 horas semanales para atención presencial.
+
+<br>
+
 <strong>Conclusión</strong>
 
 <br>
 
 La innovación pedagógica con tecnología no es una opción, sino una necesidad para preparar a los estudiantes para el futuro. Los centros educativos que adoptan enfoques pedagógicos innovadores están creando experiencias de aprendizaje más efectivas, atractivas, y relevantes.
 
-¿Estás listo para transformar la pedagogía en tu centro educativo? Descubre cómo Edena puede ayudarte a implementar metodologías innovadoras que potencien el aprendizaje de tus estudiantes y los preparen para los desafíos del siglo XXI.
+¿Estás listo para transformar la pedagogía en tu centro educativo? Descubre cómo Edena puede ayudarte a implementar metodologías innovadoras que potencien el aprendizaje de tus estudiantes y los preparen para los desafíte del
+
+<br>

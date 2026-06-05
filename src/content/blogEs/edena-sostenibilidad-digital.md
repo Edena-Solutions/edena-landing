@@ -1,10 +1,21 @@
 ---
 title: "Edena y la sostenibilidad digital en centros educativos"
 date: "2025-07-20"
-description: "Descubre cómo Edena contribuye a la sostenibilidad ambiental y económica de los centros educativos."
+description: "Sostenibilidad y reducción de papel en gestión escolar. Guía práctica para centros educativos en España (2026)."
 tags: ["sostenibilidad", "digital", "medio ambiente", "educación"]
 author: "Equipo Edena"
 cover: "https://plus.unsplash.com/premium_photo-1671829480432-9b0f10d869ef?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - experiencia-usuario-tecnologia-educativa
+  - experiencia-estudiante-era-digital
+  - estudiantes-era-digital
+faqs:
+  - question: "¿Cuánto papel puede eliminar un colegio?"
+    answer: "Circulares, autorizaciones y actas; conservad legalmente lo exigido en original o copia certificada."
+  - question: "¿Ahorro económico medible?"
+    answer: "Sí en impresión y horas; calculad línea base de septiembre anterior."
+  - question: "¿Objeciones familias al papel cero?"
+    answer: "Ofreced PDF descargable y soporte en secretaría para quien lo necesite."
 ---
 
 <strong>Edena y la sostenibilidad digital en centros educativos</strong>
@@ -105,6 +116,26 @@ Los centros educativos pueden utilizar Edena para gestionar proyectos de sosteni
 
 <br>
 
+<strong>Contexto en España</strong>
+
+<br>
+
+Los centros educativos españoles combinan exigencia normativa creciente (LOPDGDD, Verifactu, LOMLOE, DigEdu) con equipos administrativos pequeñte y familias que esperan experiencia digital similar a la banca o al comercio online. Cualquier mejora de experiencia digital (familias, profesorado o alumnado) debe apoyarse en procesos de gestión coherentes, no en apps aisladas que duplican datos.
+
+La fragmentación es el enemigo: CRM en un sitio, facturación en otro, comunicación en WhatsApp y expediente en carpetas compartidas. Ese modelo agota a secretaría, confunde a las familias y deja a dirección sin visibilidad unificada. Prioriza un tronco común (expediente, cobro, comunicación) antes de sumar módulos de moda.
+
+En 2026, el estándar en centros privados y concertados que crecen con solvencia es plataforma integrada, piloto medido en 8-12 semanas y KPI acordado antes de firmar. La tecnología educativa española madura cuando deja de ser proyecto de IT y pasa a ser hábito operativo de dirección y administración.
+
+<br>
+
+<strong>Caso práctico (España)</strong>
+
+<br>
+
+Un colegio que midió tiempo por proceso descubrió que el 40 % de las horas admin se iban en duplicar datos entre email, Excel y ERP parcial. Priorizar integración redujo errores de facturación y quejas de familias.
+
+<br>
+
 <strong>Conclusión</strong>
 
 <br>
@@ -112,3 +143,5 @@ Los centros educativos pueden utilizar Edena para gestionar proyectos de sosteni
 La sostenibilidad digital no es solo una tendencia, sino una necesidad fundamental para el futuro de la educación. Los centros educativos que adoptan tecnologías como Edena no solo reducen su impacto ambiental y mejoran su eficiencia económica, sino que también educan a las futuras generaciones sobre la importancia de la sostenibilidad.
 
 ¿Estás listo para hacer que tu centro educativo sea más sostenible? Descubre cómo Edena puede ayudarte a reducir tu impacto ambiental mientras mejoras la eficiencia y la calidad de la educación que proporcionas.
+
+<br>

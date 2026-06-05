@@ -6,13 +6,13 @@ import BlogPostList from "@/components/BlogPostList.tsx";
 import { blogCollectionForLang } from "@/lib/blog-collection";
 
 export async function getStaticPaths() {
-    return [
-        { params: { lang: "es" }, props: { lang: "es" } },
-        { params: { lang: "en" }, props: { lang: "en" } },
-        { params: { lang: "ca" }, props: { lang: "ca" } },
-        { params: { lang: "eus" }, props: { lang: "eus" } },
-        { params: { lang: "fr" }, props: { lang: "fr" } },
-    ];
+ return [
+ { params: { lang: "es" }, props: { lang: "es" } },
+ { params: { lang: "en" }, props: { lang: "en" } },
+ { params: { lang: "ca" }, props: { lang: "ca" } },
+ { params: { lang: "eus" }, props: { lang: "eus" } },
+ { params: { lang: "fr" }, props: { lang: "fr" } },
+ ];
 }
 
 const { lang } = Astro.props;
@@ -22,16 +22,21 @@ const sortedPosts = posts.sort((a, b) => b.data.date.localeCompare(a.data.date))
 ---
 
 <Layout
-    content={{
-        title: `${t.navigation.blog} | Edena`,
-        description: `${t.navigation.blog} — Edena.`,
-    }}
-    lang={lang}
+ content={{
+ title: `${t.navigation.blog} | Edena`,
+ description: `${t.navigation.blog}, Edena.`,
+ }}
+ lang={lang}
 >
-    <section class="px-4">
-        <h1 class="text-center max-w-2xl mx-auto pt-10 pb-8 text-xl font-bold">
-            {t.navigation.blog}
-        </h1>
-        <BlogPostList client:load posts={sortedPosts} lang={lang} />
-    </section>
+ <section class="px-4 pt-10 flex flex-col gap-10">
+ <div class="flex flex-col gap-4 items-center">
+ <h1
+ class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
+ >
+ {t.navigation.blog}
+ </h1>
+ <p class="text-muted-foreground max-w-150 text-center mx-auto">{t.blog.description}</p>
+ </div>
+ <BlogPostList client:load posts={sortedPosts} lang={lang} />
+ </section>
 </Layout>

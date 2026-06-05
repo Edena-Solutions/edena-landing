@@ -1,13 +1,10 @@
 User-agent: *
 Allow: /
 
-# Block development and testing paths
+# Block build artifacts and internal paths
 Disallow: /_astro/
 Disallow: /api/
 Disallow: /.well-known/
-
-# Block development files
-Disallow: /*.json
 Disallow: /src/
 Disallow: /node_modules/
 Disallow: /.git/
@@ -17,5 +14,43 @@ Disallow: /404
 Disallow: /500
 Disallow: /error
 
-# Sitemap location
+# AI crawlers, explicitly welcome for indexing
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude)
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Google (Gemini / AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Meta
+User-agent: FacebookBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap
 Sitemap: https://edena.es/sitemap.xml
+
+# LLM-friendly summary of this site
+# See: https://edena.es/llms.txt

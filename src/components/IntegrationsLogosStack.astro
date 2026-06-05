@@ -1,0 +1,83 @@
+---
+import type { Translation } from "@/i18n";
+
+interface Props {
+    t: Translation;
+    class?: string;
+}
+
+const { t, class: className = "" } = Astro.props;
+const { integrationsSection } = t;
+
+type ImageItem = { src: string; alt: string; imageClass?: string };
+
+const integrationLogos: ImageItem[] = [
+    {
+        src: "https://sinapsis.agency/uploads/images/2026/01/696c9f0aa8cff_c0ca1cb7.png",
+        alt: integrationsSection.logos.whatsapp,
+    },
+    {
+        src: "https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg",
+        alt: integrationsSection.logos.slack,
+    },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg",
+        alt: integrationsSection.logos.gmail,
+    },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Calendar_icon_%282020%29.svg",
+        alt: integrationsSection.logos.googleCalendar,
+    },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Google_Classroom_Logo.svg/960px-Google_Classroom_Logo.svg.png",
+        alt: integrationsSection.logos.salesforce,
+    },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg/960px-Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg.png?_=20251003204701",
+        alt: integrationsSection.logos.outlook,
+    },
+    {
+        src: "https://veevart.my.site.com/support/servlet/rtaImage?eid=ka0Vs000000c3bB&feoid=00Nf200000E0J7s&refid=0EMVs000001gMQA",
+        alt: integrationsSection.logos.outlookCalendar,
+    },
+];
+
+const logosWithLayout = integrationLogos.map((logo, index) => {
+    const center = (integrationLogos.length - 1) / 2;
+    const distance = index - center;
+    const absDistance = Math.abs(distance);
+
+    return {
+        ...logo,
+        diameter: Math.round(80 - absDistance * 10),
+        imageSize: Math.max(18, Math.round(32 - absDistance * 2.5)),
+        zIndex: 20 - Math.round(absDistance),
+        offsetX: Math.round(distance * 54),
+    };
+});
+---
+
+<div
+    class:list={["relative w-full h-[5.75rem] max-w-xl mx-auto", className]}
+    aria-label={integrationsSection.description}
+>
+    {
+        logosWithLayout.map((logo) => (
+            <div
+                class="absolute top-1/2 left-1/2 rounded bg-card flex items-center justify-center shadow-[0_8px_24px_rgba(0,0,0,0.14)] dark:shadow-[0_8px_24px_rgba(0,0,0,0.5)]"
+                style={`width: ${logo.diameter}px; height: ${logo.diameter}px; z-index: ${logo.zIndex}; transform: translate(calc(-50% + ${logo.offsetX}px), -50%);`}
+            >
+                <img
+                    src={logo.src}
+                    alt={logo.alt}
+                    width={logo.imageSize}
+                    height={logo.imageSize}
+                    loading="lazy"
+                    decoding="async"
+                    class={`object-contain ${logo.imageClass ?? ""}`}
+                    style={`width: ${logo.imageSize}px; height: ${logo.imageSize}px;`}
+                />
+            </div>
+        ))
+    }
+</div>

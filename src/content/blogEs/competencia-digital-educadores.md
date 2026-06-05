@@ -5,6 +5,15 @@ description: "Descubre las competencias digitales esenciales que los educadores 
 tags: ["competencia digital", "formación docente", "tecnología", "educadores"]
 author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - checklist-digitalizacion-2026
+faqs:
+  - question: "¿Cómo alinear tecnología con LOMLOE?"
+    answer: "Prioriza herramientas que liberen tiempo para competencias clave y evaluación continua, no gadgets aislados."
+  - question: "¿Formación del claustro: cuánto basta?"
+    answer: "Sesiones de 60 minutos por herramienta, grabadas, con referente por etapa que resuelva dudas entre iguales."
+  - question: "¿La digitalización resta tiempo pedagógico?"
+    answer: "Bien hecha, lo devuelve: menos duplicar listados y circulares manuales significa más tiempo para evaluación y tutoría."
 ---
 
 <strong>Competencia digital para educadores: Preparando a los profesores del futuro</strong>
@@ -71,7 +80,7 @@ Los profesores deben saber usar plataformas de comunicación para mantener infor
 
 Los educadores deben desarrollar su propio pensamiento crítico sobre la tecnología y ser capaces de enseñar a sus estudiantes a navegar críticamente en el mundo digital. Esto incluye la capacidad de evaluar la calidad y credibilidad de la información en línea.
 
-Los profesores deben entender los sesgos algorítmicos, la desinformación, y los desafíos éticos de la tecnología digital. Deben ser capaces de enseñar a sus estudiantes a ser consumidores críticos y creadores responsables de contenido digital.
+Los profesores deben entender los sesgos algorítmicos, la desinformación, y los desafíte éticos de la tecnología digital. Deben ser capaces de enseñar a sus estudiantes a ser consumidores críticos y creadores responsables de contenido digital.
 
 <br>
 
@@ -115,10 +124,38 @@ Los profesores deben ser capaces de enseñar a sus estudiantes sobre seguridad d
 
 <br>
 
+<strong>Formación breve recurrente</strong>
+
+<br>
+
+- **Sesiones de 60 minutos:** Una herramienta conectada al ERP por trimestre, no cursos anuales largos.
+- **Grabaciones para sustitutos:** Acceso on-demand a procedimientos frecuentes.
+- **Referente por etapa:** Persona de contacto entre claustro y administración para dudas operativas.
+
+<br>
+
+<strong>Competencia real</strong>
+
+<br>
+
+Usar entornos digitales para evaluación, tutoría y comunicación con familias con criterio pedagógico.
+
+<br>
+
+<strong>Caso práctico (España)</strong>
+
+<br>
+
+Un centro de 280 familias automatizó asistencia, recordatorios de pago y boletines. La secretaría recuperó 14 horas semanales para atención presencial.
+
+<br>
+
 <strong>Conclusión</strong>
 
 <br>
 
-La competencia digital es fundamental para los educadores del siglo XXI. No es una opción, sino una necesidad para preparar a los estudiantes para el mundo digital en el que vivirán y trabajarán. Los centros educativos que invierten en el desarrollo de competencias digitales de sus profesores están invirtiendo en el futuro de sus estudiantes.
+La competencia digital es fundamental para los educadores del 2026. No es una opción, sino una necesidad para preparar a los estudiantes para el mundo digital en el que vivirán y trabajarán. Los centros educativos que invierten en el desarrollo de competencias digitales de sus profesores están invirtiendo en el futuro de sus estudiantes.
 
 ¿Estás listo para desarrollar las competencias digitales de tu equipo educativo? Descubre cómo Edena puede ayudarte a implementar programas de formación que preparen a tus profesores para liderar la transformación digital en educación.
+
+<br>

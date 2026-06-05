@@ -6,6 +6,11 @@ import Conclusion from "@/modules/home/Conclusion.astro";
 import MarketStats from "@/modules/home/MarketStats.astro";
 import KeyFeaturesShowcase from "@/components/KeyFeaturesShowcase";
 import Features from "@/components/Features";
+import WallOfFeatures from "@/components/WallOfFeatures";
+import ProblemSection from "@/modules/home/ProblemSection.astro";
+import ProblemSolutionConnector from "@/modules/home/ProblemSolutionConnector.astro";
+import IntegrationsSection from "@/modules/home/IntegrationsSection.astro";
+import EnaSection from "@/modules/home/EnaSection.astro";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 
 export function getStaticPaths() {
@@ -72,8 +77,12 @@ const features = [
             reviewCount: "500",
         }}
     />
-    <section class="grid gap-16 w-full overflow-x-hidden">
+    <section class="grid min-w-0 w-full max-w-full gap-16 overflow-x-hidden">
         <Hero t={t} />
+        <ProblemSection t={t} />
+        <ProblemSolutionConnector t={t} />
+        <WallOfFeatures client:only="react" t={t} lang={lang} />
+        <EnaSection t={t} />
         <MarketStats t={t} />
         <KeyFeaturesShowcase client:load t={t} />
         <Features client:load t={t} features={features} />

@@ -1,68 +1,89 @@
 ---
-title: "Nola aukeratu eskola-softwarea akatsik egin gabe: egiaztapen-zerrenda zuzendarientzat"
+title: "Nola aukeratu ikastetxeko softwarea akatsik egin gabe: zuzendarientzako kontrol-zerrenda"
 date: "2026-04-20"
-description: "Erosketa-gida eta egiaztapen-zerrenda eskola-zuzendarientzat: moduluen irizpideak, demo galderak eta benetako kostua kalkulatzea."
+description: "Zuzendarientzako erosketa-zerrenda: demoa, TCO eta batzordea. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
-    [
-        "eskola softwarea aukeratu",
-        "egiaztapen-zerrenda hezkuntza",
-        "ERP eskola irizpideak",
-        "eskola plataforma erosi",
-        "demo eskola softwarea",
-        "Edena",
-    ]
-author: "Edena taldea"
+    - "aukeratu eskolako softwarea"
+    - "hezkuntza-softwarearen kontrol-zerrenda"
+    - "ERP ikastetxeko irizpideak"
+    - "erosi eskola plataforma"
+    - "eskolako software demoa"
+    - "Edena"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1661732017132-28b644cbcf9c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
+  - onena-eskola-kudeaketa-softwarea
+  - eskola-kudeaketa-softwarea-aukeratzea
+  - erp-eskola-digitalizazio-gida
+faqs:
+  - question: "Zenbat denbora behar du software aldaketa prozesu oso batek?"
+    answer: "Bi eta sei hilabete artean, datu-bolumenaren, zentroaren konplexutasunaren eta barne-taldearen erabilgarritasunaren arabera. Oinarrizko pilotu bat (datu nagusiak, lehen bilketa-zikloa, familiaren ataria) aktibo egon daiteke lau astetan, barne-kudeatzaile dedikatu bat badago eta hornitzaileak migrazio-plan bat zehaztuta badu."
+  - question: "Hobe da udan edo urtarrilean sistema aldatzea?"
+    answer: "Udak familien eta taldean eragina murrizten du, baina baliozkotze-denbora konprimitzen du matrikulazio eta bilketa datu errealekin. Urtarrila isilagoa da matrikulan baina kontabilitate itxierarekin bat dator. Erantzuna zure min handiena non dagoen araberakoa da: iraileko matrikula bada, udan aldatzen da; Fakturazioa bada, kontuan hartu hilabete lasai bateko datuekin egitea."
+  - question: "Datuen eramangarritasun-kontratu bat eskatu behar al dut?"
+    answer: "Bai, beti. Sinatu aurretik, ziurtatu zure datu guztiak (ikasleak, karguak, fitxategiak, dokumentuak) formatu irekian (CSV, JSON, Excel) edonoiz esporta ditzakezula. Hornitzaileak kontratuan hori jasotzen ez badu edo kostu gehigarri batekin baldintzatzen badu, bandera gorria da."
+  - question: "Zentzurik al du sistema bat ezartzeak matrikulazio gailurra baino lehen?"
+    answer: "Ez, egungo egoera hain larria ez bada edozer hobetuko den. Erabileraren lehen bi hilabeteetan, edozein sistemak bere potentzialaren azpitik funtzionatzen du: taldeak ikasten du, prozesuak doitzen dira, akatsak agertzen dira. Ahal baduzu, urtarrilean edo otsailean sistema aktibatu, fluxua finkatu eta iraileko erregistrora iritsi sistema dagoeneko martxan jarrita."
+  - question: "Zer gertatzen da hornitzaileak nire lan-fluxua hausten duten eguneraketak baditu?"
+    answer: "Eskatu kontratuan aldaketa etenen aldez aurretiko jakinarazpena (gutxienez bi aste), produkzioan eguneratu aurretik proba-ingurune bat eta eguneratze-oharren historia laguntza-atarian. Jakinarazpenik gabe eguneratzen den saltzailea arrisku operatiboa da."
 ---
 
-<strong>Nola aukeratu eskola-softwarea akatsik egin gabe: egiaztapen-zerrenda zuzendarientzat</strong>
+
+<strong>Nola aukeratu ikastetxeko softwarea akatsik egin gabe: zuzendarientzako kontrol-zerrenda</strong>
 
 <br>
 
-Zure zentroko kudeaketa-softwarea aukeratzea itzultzerik garestieneko erabakietako bat da: ez lizentziari buruzko prezioan, baizik denboragatik, datuegatik eta sisteman egokitu ez eta berriz hasi behar denean sortzen diren hausturetan. 2026an, Espainiako merkatuak aukera sendoak ditu, baina inork erabiliko ez dituen moduluak saltzen dituzten, existitzen ez diren integrazioak agintzen dituzten eta sinatuarte migrazio-kostua ezkutatzen duten irtenbideak ere bai. Sendabidea ebaluazio-prozesu zintzo bat da, irizpide propioekin —ez hornitzailearenekin—, zure datu errealekin egindako demo bat, eta hiru urteko kostu-kalkulua konpromisoa hartu aurretik. Egiaztapen-zerrenda honek prozesu horretarako markoa ematen dizu.
+Zure zentrorako kudeaketa softwarea aukeratzea da hartu beharreko erabakirik garestienetako bat: ez lizentziaren prezioan, baizik eta denboran, datuetan eta etenetan sistema egokitzen ez denean eta berriro hasi behar duzunean. 2026an, Espainiako merkatuak aukera sendoak ditu, baina baita inork erabiliko ez dituen moduluak saltzen dituzten soluzioak ere, existitzen ez diren integrazioak agintzen dituztenak eta migrazio kostua sinadura arte ezkutatzen dutenak. Antidotoa ebaluazio prozesu zintzoa da, zure irizpideekin (ez saltzailearenak), zure datu errealekin demo bat eta konpromisoa hartu baino lehen hiru urteko kostu osoaren kalkulua. Zuzendarientzako kontrol-zerrenda honek prozesu horren esparrua ematen dizu.
 
 <br>
 
-<strong>Bilatu aurretik: definitu zure benetako arazoa</strong>
+<strong>Bilatu aurretik: zehaztu zure benetako arazoa</strong>
 
 <br>
 
-Zentro gehienek "eskola-software onena" bilatzen hasten dira beren arazo nagusia definitu gabe. Emaitza aurkezpenetan trebeena den hornitzaileak irabazten duen katalogo-ebaluazioa da, ez egokiena. Hasi zure administrazio-taldearen bost marruskadura maizentzako zerrenda eginez: ezordainketak eta eskuzko kontabilitate-itxiera? Irailean paper-matrikulazioarekin piko-kudeaketa? Erregistrorik gabeko WhatsApp bidezko komunikazioa? Hiru tresnatara banatutako espediente galduak? Inbentario hori zure erosketa-irizpidea da. Ebaluatzen ari zaren softwarea bost marruskadura horietako gutxienez hiru zuzenean, gaur eskuragarri dauden moduluekin, konpontzen ez badu, ez da zure zentrorako egokia.
+Ikastetxe gehienak "eskola-software onena" bilatzen hasten dira euren arazo nagusia zein den zehaztu gabe. Emaitza katalogoaren ebaluazioa da, non aurkezpenean trebeena den saltzaileak irabazten duen, ez egokiena. Hasteko, zure zuzendaritza-taldeak jasaten dituen bost marruskadurak zerrendatzen: ez-ordainketak eta eskuzko bateratzea? Irailean matrikulaziorik altuena paperaren kudeaketarekin? WhatsApp-ren komunikazioa erregistratu gabe? Fitxategiak galdu edo hiru tresnetan banatuta? Inbentario hori zure erosketa irizpidea da. Ebaluatzen ari zaren softwareak bost marruskadura horietatik hiru gutxienez zuzenean konpontzen ez baditu, gaur egun eskuragarri dauden moduluak izanik, ez da zure zentrorako egokia.
 
 <br>
 
-<strong>Moduluen egiaztapen-zerrenda: ezinbestekoa vs. geroago gehitu dezakezuna</strong>
+<strong>Moduluaren kontrol-zerrenda: funtsezkoak eta gero gehi dezakezuna</strong>
 
 <br>
 
-**Edozein zentroan ezinbestekoak:**
-
-- Ikasle-datuekin, tutoreekin, historiarekin eta taldeekin espediente digital bateratua.
-- Ordainagiri, domiziliazioa, kobrantza-historia eta ezordainketa-kudeaketa duen kobrantza errepikakorra.
-- Oinarrizko autokudaketadun familia-ataria edo aplikazioa (espedientea, ordainketak, oinarrizko komunikazioa).
-- Onboarding eta dokumentatutako laguntza: ezin duzu zure tresna erabiltzeko teknikari bakarraren menpeko egon.
-
-**Zentroan arabera baloratu:**
-
-- Itxaron-zerrenda edo captazio-kanpaina aktiboak badituzu, eskakizun-pipeline, inprimaki eta egoeradun CRM.
-- Mezu-bolumenak eta garrantziak justifikatzen badu, push eta irakurketa-baieztatudun Pro komunikazioa.
-- Dokumentu-bolumena altua bada edo araudi-auditoriak eskatzen badu, Cloud dokumentazio-modulua.
-- Eskolaz kanpoko jarduerak eta denda, plaza eta kobrantza propioak dituzten jarduerak kudeatzen badituzu.
-- Prozedura errepikakorretako eskuzko lana murriztu nahi baduzu, ataza eta jakinarazpen automatizazioa.
+<strong>Ezinbestekoa edozein zentrotan:</strong>
 
 <br>
 
-<strong>Demostratzeko galderak: hornitzaileak beti ekimenez erakusten ez dituenak</strong>
+- Fitxategi digital bateratua ikasleen datuekin, tutoreekin, historiarekin eta taldeekin.
+- Fakturazio errepikakorra ordainagiriekin, zordunketarekin, kobrantza historiarekin eta ordainketarik ezaren kudeaketarekin.
+- Oinarrizko autogestioa duten familientzako ataria edo aplikazioa (espedienterako sarbidea, ordainketak, oinarrizko komunikazioa).
+- Onboarding eta laguntza dokumentatua: ezin zara teknikari bakar batengandik egon zure tresna erabiltzeko.
 
 <br>
 
-- Nire datuekin, ez demo-datuekin, plaza-eskaeraren hasieratik lehen fakturara arteko fluxu osoa ikus al dezaket?
-- Ezordainketa bat nola kudeatzen da: zenbat klik, zein ekintza automatiko eta nola erregistratzen da?
-- Nola esportatzen ditut nire datu guztiak bi urtetan hornitzailea aldatzea erabakitzen badut?
-- Bidali faktura batean akats bat badago, zenbaketa puskatu gabe nola zuzentzen da?
-- Non dago faze bidezko migrazio-plan zehatza: datu nagusiak, historikoa, dokumentuak?
-- Zenbat erabiltzaile simultaneo jasaten ditu gaurko laguntzak? Erantzuna 24/7 al da edo bulegoko orduetan bakarrik?
-- Zein modulu daude oinarrizko prezioan sartuta eta zeintzuek dute kostu osagarria?
+<strong>Zentroaren araberako tasa:</strong>
+
+<br>
+
+- CRM eskaeren, inprimakien eta egoeraren kanalizazioarekin, itxaron zerrenda edo kontratazio kanpaina aktiboa baduzu.
+- Pro komunikazioa push eta read baieztapenarekin, mezuen bolumenak eta kritikotasunak hori justifikatzen badute.
+- Hodeiko dokumentazio modulua, dokumentuaren bolumena handia bada edo zure araudiak auditoria bat eskatzen badu.
+- Eskolaz kanpoko jarduerak eta dendak, jarduerak zure leku eta karguekin kudeatzen badituzu.
+- Zereginen eta jakinarazpenen automatizazioa, prozesu errepikakorretan eskuzko lana murriztu nahi baduzu.
+
+<br>
+
+<strong>Demorako galderak: hornitzaileak beti bere ekimenez erakusten ez duena</strong>
+
+<br>
+
+- Ikus al dezaket nire datuekin leku-eskaera batetik lehen ordainketara arteko fluxu osoa, ez demo-datuekin?
+- Nola kudeatzen da ez-ordainketa bat: zenbat klik, zer ekintza automatiko eta nola erregistratzen da?
+- Nola esportatzen dira nire datuak bi urtean hornitzailez aldatzea erabakitzen badut?
+- Zer gertatzen da dagoeneko bidalitako ordainagiri batean akats bat badago: nola zuzendu zenbaketa hautsi gabe?
+- Non dago migrazio-plan zehatza faseka: datu nagusiak, historia, dokumentuak?
+- Zenbat erabiltzaile ditu aldibereko laguntzak gaur egun? Erantzuna 24/7 ala bulego orduetan al da?
+- Zein modulu sartzen dira oinarrizko prezioan eta zeinek kostu gehigarria daukate?
 
 <br>
 
@@ -70,20 +91,28 @@ Zentro gehienek "eskola-software onena" bilatzen hasten dira beren arazo nagusia
 
 <br>
 
-Ikasle bakoitzeko hilabeteko lizentziari prezioa soilik lehen geruza da. Gehitu: migrazioa (kanpo edo barne teknikari orduak, datuen baliozkotzea, sistema-koexistentzia), prestakuntza (hasierako onboardinga soilik ez, talde-inkorporazio berri bakoitzaren kostua), integrazioak (nominak, kanpo-kontabilitatea edo hirugarrenen aplikazioekin konektatu behar baduzu), oinarrizko prezioan sartuta ez dauden eta bigarren urtean beharko dituzun moduluak, eta sistemak eskalatu ezean berriz migratzeko arriskua. Gehienetan, bi kanpo-integrazioak behartzen dituen sistema itxuraz merkeagoa da modulu-preziotzarekin integratua baino garestiagoa.
+Ikasle bakoitzeko hileko lizentziaren prezioa lehen geruza besterik ez da. Ahatea:
+
+- Migrazio kostua: kanpoko edo barneko teknikarien orduak, datuak baliozkotzea, sistemen elkarbizitza.
+- Prestakuntza: hasierako onboarding ez ezik, taldekide berri bakoitzaren entrenamenduaren kostua baizik.
+- Integrazioak: nominak, kanpoko kontabilitate edo hirugarrenen aplikazioekin konektatu behar baduzu.
+- Bigarren urtean beharko dituzun oinarrizko prezioan sartuta ez dauden moduluak.
+- Berriz migratzeko arriskua: sistema eskalatzen ez bada edo hornitzaileak negozio eredua aldatzen badu.
+
+Kasu gehienetan, kanpoko bi integrazio behar dituen itxuraz merkeagoa den sistema batek prezio modularreko integratua baino garestiagoa izaten amaitzen du. Eskatu hornitzaileari hiru urteko proiekzioa osagai horiekin guztiekin, ez bakarrik hileko tarifarekin.
 
 <br>
 
-<strong>Hornitzaile baten alarma-seinaleak</strong>
+<strong>Hornitzaile batean abisu seinaleak</strong>
 
 <br>
 
-- Ezin du funtzionaltasuna zure datuekin lehen saioan frogatu.
-- Migrazio-plana "ezarpenean konpondu" dokumenturik gabe da.
-- Irteera-kontratuak ez du zehazten nola berreskuratzen dituzun zure datuak formatu irekian.
-- Laguntza bulegoko orduetan bakarrik da 24/7 erabiltzen den zerbitzu batentzat.
-- "Guztia barne" prezioak "zure oinarrizko planean aktibo ez dauden" moduluak ezkutatzen ditu.
-- Ezin dute zure profileko zentroetako egiaztatu daitezkeen erreferentziak erakutsi.
+- Ezin duzu zure datuekin funtzionalitatea frogatu lehen saioan.
+- Migrazio plana "inplementazioan konpontzen dugu" dokumenturik gabe.
+- Irteera-kontratuak ez du zehazten nola berreskuratu zure datuak formatu irekian.
+- Laguntza bulegoko orduetan baino ez da 24/7 erabiltzen den zerbitzu baterako
+- "Guztiak barne" prezioak "zure oinarrizko planean aktibo ez dauden" moduluak ezkutatzen ditu.
+- Ezin dizute erakutsi zurearen antzeko profilak dituzten zentroen erreferentzia egiaztagarriak.
 
 <br>
 
@@ -91,49 +120,63 @@ Ikasle bakoitzeko hilabeteko lizentziari prezioa soilik lehen geruza da. Gehitu:
 
 <br>
 
-1. astea: marruskaduren inbentarioa eta irizpide propioak. 2. astea: hiru hornitzaileko zerrenda laburra, lehen demo katalogoarekin. 3. astea: bi finalisten demo sakona benetako datuekin. 4. astea: TCO kalkulua, kontratu-berrikuspena (datuen eramangarritasuna, irteera-klausulak, laguntza) eta erabakia. Pilotua: hasi marruskadura handieneko prozesutik, neurtu laurogeita hamar egunetan eta gero hedatu. Ez erosi zazpi modulu lehen hiru hilabeteetan bi baino ezin badituzu ondo aktibatu.
+1. astea: marruskadura-inbentarioa eta irizpide propioak. 2. astea: hiru hornitzaileen zerrenda, lehen demoa katalogoarekin. 3. astea: demo sakona bi finalisten datu propioekin. 4. astea: TCOaren kalkulua, kontratuaren berrikuspena (datuen eramangarritasuna, irteera klausulak, laguntza) eta erabakia. Pilotua: marruskadura-prozesu handienarekin hasten da, laurogeita hamar egunez neurtzen du eta gero zabaltzen da. Ez erosi zazpi modulu lehenengo hiru hilabeteetan bi ondo aktibatu ahal badituzu: software hutsa ez da inbertsio bat, kostu bat da.
 
 <br>
 
-<strong>Maiz egiten diren galderak</strong>
+<strong>Erosketa-batzordearen kontrol-zerrenda zenbakitua</strong>
 
 <br>
 
-<strong>Zenbat denbora behar du software-aldaketa prozesu osoak?</strong>
-<br>
-
-Bi eta sei hilabete artean, datu-bolumenaren, zentroko konplexutasunaren eta barne-taldearen eskuragarritasunaren arabera. Pilotu oinarrizkoa (datu nagusiak, lehen kobrantza-zikloa, familia-ataria) lau astetan aktibo egon daiteke barne-arduradun dedikatu bat eta plataformak migrazio-plan definitua badu.
-
-<br>
-
-<strong>Hobea al da udan edo urtarrilean sistema aldatzea?</strong>
-<br>
-
-Udak familientzako eta taldearen inpaktua murrizten du, baina datu errealekin balidazio-denbora mugatzen du martxan dauden matrikulazioa eta kobrantzekin. Urtarrila lasaiagoa da matrikulazioarentzat baina urteko kontabilitate-itxierarekin bat dator. Erantzuna zure mina handiena non dagoen araberakoa da: iraileko matrikulazioa bada, aldatu udan; fakturazioaren bada, hilabete lasai batekin egitea baloratu.
+1. **Definitu hiru min neurtu:** Inbentario-prozesuak ordu edo eurotan (bilketak, erregistroa, komunikazioa). Hasierako metrikarik gabe ez dago pilotuaren arrakastarako irizpiderik.
+2. ** Zerrenda ezinbestekoak: ** Bildumak, fitxategia, familiaren ataria eta erabiltzaile-rolak. Gainerakoa desiragarria da, lehen fasea ez blokeatzea.
+3. **Eskatu demo bat datu errealekin:** Fikziozko bost familia eta egiaztagirien ziklo osoa, ez soilik pantailen katalogo bat.
+4. **Kalkulatu 36 hilabeteko TCO ikasle bakoitzeko:** Lizentzia, migrazioa, prestakuntza, integrazioak eta barne koordinazio orduak.
+5. **Pilota 8-12 aste idatzizko mozte-irizpideekin:** Zer KPI bete behar den jarraitzeko (delinkuentzia, administrazio-orduak, bihurketa).
+6. **Balioztatu datuak eta euskarria abian jartzeko kontratua irailean:** Berretsi DPA, SLA eta erantzuna matrikulazio unean.
+7. **Migrazio-plana eta barne-kudeatzailea adostu:** Kudeaketa-agindua duen pertsona bat, ez kanpoko IT soilik.
 
 <br>
 
-<strong>Datu-eramangarritasun klausula bat exijitu behar al dut kontratuarekin?</strong>
-<br>
-
-Bai, beti. Sinatu aurretik, baieztatu edozein unetan zure datu guztiak (ikasleak, kobrantzak, espedienteak, dokumentuak) formatu irekian (CSV, JSON, Excel) esporta ditzakezula. Hornitzaileak kontratuaren barnean ez badu edo kostu osagarria baldintzatzen badu, alarma-seinale da.
+<strong>Demo Scorecard (0-5 irizpide bakoitzeko)</strong>
 
 <br>
 
-<strong>Zentzuzkoa al da matrikulazio-piko baten aurrean sistema bat ezartzea?</strong>
+- **Fakturazioa eta ordainketa berandu (0-5):** Aldizkako ordainagiriak jaulki, ordainketak bateratu eta zorraren zahartzea erakutsi Excel gabe? Oroigarri mailakatuak eta kredituen trazabilitatea onartzen al du?
+- **Familien ataria (0-5):** Familiak egoera egiaztatzen du, irteerak baimentzen eta ordaintzen ditu idazkaritzara deitu gabe? Ba al dago irakurketa agiririk ohar kritikoetan?
+- **CRM eta sarrera (0-5):** Etapa, berun jatorria eta jarraipena 48 ordutan dituen kanalizazioa? Erreserba lehen ordainketarekin lotzen duzu?
+- **Fitxategia (0-5):** Ikasleen datuak, tutoreak, NEAE eta rolaren arabera baimenak dituzten dokumentu zentralizatuak?
+- **Automatizazioa (0-5):** Oroigarriak, onboarding eta lan errepikakorrak egiteko arauak ibilbide-orriak eskuz biderkatu gabe?
+- **Segurtasuna eta LOPDGDD (0-5):** Kontratu pertsonalizatua, rolak, sarbide-erregistroa eta azpiprozesadoreak dokumentatuta?
+- **Laguntza eta ezarpena (0-5):** Faseko migrazio plana, prestakuntza eta laguntza ordu kritikoetan (iraila)?
+- **mozteko erregela:** 28/35 puntu baino gutxiago batu: baztertu edo eskatu 8-12 asteko bigarren pilotua datu errealekin sinatu aurretik.
+
 <br>
 
-Ez, egungo egoera hain kritikoagatik ez bada edozein hobekuntza. Erabiltzeko lehen bi hilabeteetan edozein sistema bere potentzialaren azpian funtzionatzen du: taldea ikasten da, prozesuak doitzen dira eta arazoak agertzen dira. Ahal baduzu, aktibatu sistema urtarril edo otsailean, fluxua sendo ezarri, eta iraileko matrikulaziora sistemarik sistema jada rodatua izanez iritsi.
+<strong>Testuingurua Espainian: zer eskatzen duen ERP ikastetxe batek 2026an</strong>
 
 <br>
 
-<strong>Zer gertatzen da hornitzaileak nire lan-fluxua puskatzen dituzten eguneratzeak egiten baditu?</strong>
+Kalifikazio eta asistentziaz harago, Espainian ikastetxeak kudeatzeko softwareak fakturazioa (Verifactu prestaketa barne), familiaren ataria edo aplikazioa, GDPR eta LOPDGDD azpian dauden datu txikiak dituen fitxategia eta komunikazioen trazabilitatea izan behar ditu. SIS isolatu bat erostea benetako mina idazkaritzan, bilketan eta familietan dagoenean normalean hiru tresnen arteko datuak bikoizten amaitzen da.
+
+Haur eskoletan lekuak, ratioak, menuak eta alergiak pisatzen dituzte; akademietan, bonusetan, denboraldietan eta areto anitzetan; ikastetxe pribatuetan, kuota ezberdinduak, barne-bekak eta kontratazio komertziala. Hizkuntz akademietan lan egiten duen ERP bat eskasa izan daiteke haur, NEAE edo jangelako ratioak eguneko fakturazioarekin kudeatzen badituzu.
+
+Hiru urteko TCO ebaluatzen du: lizentzia, migrazioa, prestakuntza, barne koordinazio orduak eta zubi-integrazioen kostua. Eskatu demo bat zure datu errealekin (bost familia, ordainagirien ziklo bat) erabaki aurretik. Hasieran merkeagoa dirudien softwarea garestitu daiteke CRM, fakturazioa edo komunikazioa bereizita gehitzera behartzen bazaitu.
+
 <br>
 
-Kontratuak klausula hauek eskatzen ditu: aldaketa disruptiboen aurretiazko jakinarazpena (gutxienez bi aste), produkzioan eguneratu aurretiko proba-ingurunea, eta laguntza-atarian eguneratze-oharren historia. Jakinarazpenik gabe eguneratzen duen hornitzailea eragiketa-arrisku bat da.
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Gironako 85 plazako haur-eskola batek hiru hornitzaile ebaluatu zituen kontrol-zerrenda berarekin: matrikula, menuak, fakturazioa eta familiaren aplikazioa. Datu errealekin 10 asteko pilotuak agerian utzi zuen bakarrak itxi zuela aplikazio-matrikula-ordainketa zikloa Excel gabe. Aldaketak 40 orduko migrazioa kostatu zien, baina hiru tresnetan bikoiztutako datuak ezabatu zituzten.
 
 <br>
 
 <strong>Ondorioa</strong>
 
-<strong>Zure zentroko softwarea ongi hautatzea ez da produktu-fitxak konparatzea: zure arazoa definitzea, demo bat zure datuekin egitea, kostu errealak kalkulatzea eta kontratua irakurtzea da. Edena espedientea, kobrantza, matrikula, komunikazioa, dokumentuak eta analitika zentroko benetako beharren arabera aktibatu daitezkeen moduluekin zentralizatzen duen plataforma da, 24/7 laguntzarekin eta aldaketa-prozesuaren laguntzarekin. Eskatu demo bat, zure bost marruskadura nagusiak ekarri eta laurogeita hamar minututan egokitzen den jakingo duzu.</strong>
+<br>
+
+Zure zentrorako softwarea ondo aukeratzea ez da produktuen fitxak alderatzea: zure arazoa zehaztea, zure datuekin demoa egitea, benetako kostua kalkulatzea eta kontratua irakurtzea baizik. Edena fitxategia, bilketa, erregistroa, komunikazioa, dokumentuak eta analitika zentralizatzen dituen plataforma da, zentroaren benetako beharraren arabera aktiba daitezkeen moduluekin, 24/7 laguntza eta aldaketa prozesuan akonpainamendua. Eskatu demo bat, ekarri zure bost marruskadura nagusiak eta laurogeita hamar minuturen buruan jakingo duzu egokitzen den ala ez.
+
+<br>

@@ -1,0 +1,126 @@
+# Edena: ERP de Gestión Escolar
+
+> Edena es una plataforma SaaS de gestión integral para centros educativos: colegios, escuelas infantiles, academias y grupos educativos. Automatiza facturación, asistencia, comunicación familiar y matrículas en una sola plataforma. Centros ya ahorran más de 15 horas semanales.
+
+Edena Software S.L. (Barcelona, España) · https://edena.es
+
+---
+
+## ¿Qué es Edena?
+
+Edena es un ERP (Enterprise Resource Planning) educativo diseñado específicamente para centros escolares en España y Europa. Reemplaza las herramientas dispersas (WhatsApp, Excel, ERPs anticuados) con una plataforma unificada que cubre todas las necesidades operativas de un centro educativo.
+
+**Público objetivo:**
+- Directores y equipos de administración de centros educativos
+- Escuelas infantiles (0-3 años)
+- Colegios (Primaria, ESO, Bachillerato)
+- Academias (idiomas, danza, música, deporte, artes marciales)
+- Grupos y redes de centros educativos multi-sede
+
+---
+
+## Funcionalidades principales
+
+### Facturación automática (Verifactu certificado)
+Genera facturas electrónicas certificadas por la AEAT (Agencia Tributaria española), domiciliaciones SEPA, control de impagos y recordatorios automáticos. Cumple la normativa Verifactu. Reduce la carga financiera administrativa un 40%.
+
+### App móvil gratuita para familias (Edena Kids)
+Aplicación gratuita para iOS y Android. Notificaciones push en tiempo real, fotos seguras, notas académicas, facturas, mensajería directa con el centro y firma digital de documentos.
+
+### Portal de familias
+Acceso en tiempo real a notas, asistencia, facturas y comunicaciones. Incorporación de familias digitalizada que reduce el tiempo de onboarding un 75%.
+
+### Expedientes digitales y gestión de alumnos
+Centraliza todos los datos académicos: historial, asistencia, calificaciones, documentación, alergias y necesidades especiales. Accesible 24/7 para el equipo y las familias.
+
+### CRM escolar
+Pipeline visual para convertir consultas en matrículas. Formularios personalizables, seguimiento de leads y métricas de conversión. Aumenta la conversión de matrículas hasta un 35%.
+
+### Control de asistencia
+Registro digital automático con alertas a familias en tiempo real. Informes de absentismo y seguimiento por alumno, grupo o curso.
+
+### Tareas y evaluaciones
+Ciclos de evaluación configurables (trimestres, cuatrimestres), calificaciones con medias ponderadas, rúbricas y generación automática de boletines en PDF.
+
+### Panel de control (Dashboard)
+Métricas en tiempo real de asistencia, finanzas, matrículas y comunicaciones. Alertas automáticas y reportes exportables.
+
+### IA educativa integrada (Ena)
+Agente de inteligencia artificial que automatiza procesos administrativos, genera facturas, redacta comunicados y responde preguntas del equipo sobre el reglamento o los datos del centro.
+
+### Gestión multi-centro
+Panel unificado para redes de centros educativos. Facturación centralizada, reporting consolidado y operativa consistente en toda la red.
+
+---
+
+## Precios
+
+- **Plan Esencial**: desde 44€/mes (1,00€/alumno)
+- **Plan Gestión Pro**: desde 44€/mes (1,40€/alumno)
+- **Plan Completo**: 1,90€/alumno + 10€/mes (tienda online)
+- Sin cuota de alta · Sin permanencia · Sin costes ocultos
+- Prueba gratuita de 30 días · Onboarding incluido
+
+---
+
+## Cumplimiento normativo y seguridad
+
+- **Verifactu AEAT**: Facturación electrónica certificada por la Agencia Tributaria española
+- **GDPR / LOPDGDD**: Cumplimiento total con normativa europea y española de protección de datos
+- **SOC 2 Type II**: Controles y procesos diseñados conforme al marco SOC 2 Tipo II
+- **ISO 27001**: Sistema de Gestión de la Seguridad de la Información (SGSI) alineado con ISO/IEC 27001
+- **HIPAA**: Cumplimiento de las salvaguardas técnicas, administrativas y físicas (45 CFR Part 164)
+- Cifrado en tránsito (TLS/HTTPS) y en reposo
+- Servidores en el Espacio Económico Europeo (EEE)
+
+---
+
+## Diferenciadores clave vs. competencia
+
+- Único con certificación Verifactu AEAT integrada nativamente
+- Precio transparente por alumno (no por centro ni por usuario)
+- Onboarding en 2 semanas con migración de datos incluida
+- IA educativa integrada (Ena) con contexto específico del centro
+- App móvil gratuita para familias (sin coste adicional)
+- Multi-idioma: español, catalán, euskera, francés, inglés
+
+---
+
+## Idiomas disponibles
+
+- Español (es): https://edena.es
+- Inglés (en): https://edena.es/en/
+- Catalán (ca): https://edena.es/ca/
+- Euskera (eu): https://edena.es/eus/
+- Francés (fr): https://edena.es/fr/
+
+---
+
+## URLs principales
+
+- Página principal: https://edena.es
+- Solicitar demo gratuita: https://edena.es/demo
+- Precios: https://edena.es/pricing
+- Para escuelas infantiles: https://edena.es/es/nurseries/
+- Para colegios: https://edena.es/es/schools/
+- Para academias: https://edena.es/es/academies/
+- Para grupos educativos: https://edena.es/es/groups/
+- Suite financiera y facturación: https://edena.es/finance/
+- CRM escolar: https://edena.es/crm/
+- App móvil Edena Kids: https://edena.es/app/
+- Portal de familias: https://edena.es/guardians/
+- Panel de control: https://edena.es/dashboard/
+- Gestión de alumnos: https://edena.es/students/
+- Tareas y evaluaciones: https://edena.es/assignment/
+- Blog educativo: https://edena.es/blog/
+- Preguntas frecuentes: https://edena.es/faqs/
+- Contacto: https://edena.es/es/contact/
+
+---
+
+## Contacto
+
+- Web: https://edena.es
+- Email: hola@edena.es
+- Privacidad: privacidad@edena.es
+- Empresa: Edena Software S.L., Barcelona, España

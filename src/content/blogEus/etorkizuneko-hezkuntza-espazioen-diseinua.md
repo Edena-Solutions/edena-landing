@@ -1,57 +1,73 @@
 ---
-title: "Etorkizuneko hezkuntza-espazioak: ikaskuntza modernorako diseinua eta berrikuntza"
+title: "Etorkizuneko hezkuntza espazioak: ikaskuntza modernorako diseinua eta berrikuntza"
 date: "2025-08-25"
-description: "Arakatu nola eraldatzen ari den hezkuntza-espazioen diseinu berritzaileak ikaskuntza-esperientzia eta ingurune eraginkorrago eta erakargarriagoak sortzen."
-tags: ["hezkuntza-espazioak", "arkitektura-diseinua", "berrikuntza", "malgua ikaskuntza"]
-author: "Edena taldea"
+description: "Espazio malguak eta DigEdu diseinua. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+tags:
+    - "espacios educativos"
+    - "diseño arquitectónico"
+    - "innovación"
+    - "aprendizaje flexible"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1579388654549-1f4e8c79b5a4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - pedagogia-metodologia-berragarriak
+  - pedagogia-berrikuntza-teknologia
+  - hezkuntzako-ebaluazio-digitala
+  - ikasleen-ongizate-emozional-digitala
+faqs:
+  - question: "Malgutasunak teknologia gehiago behar al du?"
+    answer: "Ez zertan; bai konektibitate egonkorra eta frogak gordetzeko modu seguruan."
+  - question: "Nola lotu espazioa eta LOMLOE?"
+    answer: "Ikasten ikasteko gaitasunak eta autonomia ingurune ezberdinetan."
+  - question: "Admin digitalizatu gabe ikasgeletan inbertitu?"
+    answer: "Ikasgela hobetzen da; Zentroaren pertzepzio orokorrak idazkaritzari lotuta jarraitzen du."
 ---
 
-<strong>Etorkizuneko hezkuntza-espazioak: ikaskuntza modernorako diseinua eta berrikuntza</strong>
+<strong>Etorkizuneko hezkuntza espazioak: ikaskuntza modernorako diseinua eta berrikuntza</strong>
 
 <br>
 
-Ikaskuntza gertatzen den espazio fisikoak eragin sakona eta askotan gutxietsia du hezkuntzaren eraginkortasunean. Aurrez aurreko irakaskuntza eta ikaskuntza pasiboa babesteko diseinatutako gelak, lankidetza, sormena eta ikaskuntza aktiboa nabarmentzen duten metodologia pedagogiko modernoak babesteko berrimajinatu ari dira. Etorkizuneko hezkuntza-espazioek funtzionalitate oinarrizkoaren haratago doaz ikaskuntza-prozesua azkartu edo galarazi dezakeen ingurune fisikoa osagai integrala aitortuz sortzen diren inguruneak inspiratzen, motibatzen eta ikaskuntza mota desberdinak errazten dituztenak.
+Ikaskuntza gertatzen den espazio fisikoek eragin handia eta askotan gutxietsia dute hezkuntza-eraginkortasunean. Ikasgela tradizionalak, irakaskuntza frontalerako eta ikaskuntza pasiborako diseinatuta, birsortzen ari dira lankidetza, sormena eta ikaskuntza aktiboa azpimarratzen duten metodologia pedagogiko modernoei laguntzeko. Etorkizuneko hezkuntza-espazioak oinarrizko funtzionaltasunetik haratago doaz hainbat ikaskuntza-modu inspiratu, motibatu eta erraztuko dituzten inguruneak sortzeko, ingurune fisikoa ikasleen garapena bizkortu edo galarazi dezakeen hezkuntza-prozesuaren osagai oso bat dela aintzat hartuta.
 
 <br>
 
-<strong>Hezkuntza-diseinuaren eboluzioa</strong>
+<strong>Hezkuntza-diseinuaren bilakaera</strong>
 
 <br>
 
-Hezkuntza-espazioen diseinua dramatikoki eboluzionatu da ilaratan antolatutako gelatik malgu eta moldakor diren inguruneetara, ikaskuntza-jarduera desberdinetarako berrantola daitezkeenak. Eraldaketa horrek ingurune fisikoek jokabidea, kognizioa eta ikasleen ongizatea nola eragiten dituzten ulermen sofistikatuagoa islatzen du.
+Hezkuntza-espazioen diseinuak izugarri eboluzionatu du ohiko ilaratako ikasgeletatik, ikaskuntza-jarduera desberdinetarako birkonfigura daitezkeen ingurune malgu eta moldagarrietara. Eraldaketa honek ingurune fisikoek ikasleen portaeran, kognizioan eta ongizatean nola eragiten duten ulertzeko sofistikatuagoa islatzen du.
 
-Erabiltzailean zentratutako diseinu-printzipioek hezkuntza-espazioen sorrera gidatzen dute orain ikasle, hezitzaile eta administrazio-langile anitzeko beharrak kontuan hartuz. Ikuspegi horiek erabiltzaile amaierakoak diseinu-prozesuan inplikatzen dituzte, sortzen diren espazioek benetan barruan gertatuko diren jarduerak benetan laguntzen dituztela bermatuz.
+Erabiltzailean zentratutako diseinu-printzipioek hezkuntza-espazioen sorrera bideratzen dute orain, ikasleen, hezitzaileen eta administrazio-langileen beharrizan anitzak kontuan hartuta. Planteamendu hauek azken erabiltzaileak diseinu prozesuan inplikatzen dituzte, ondoriozko espazioek haien barruan egingo diren jarduerei benetan onartzen dietela bermatuz.
 
-Hezkuntza-neurozientziak ingurunearen elementu desberdinei buruzko ikuspegi baliotsuak eman ditu — argiztapena, kolorea, tenperatura, akustika eta antolaketa espaziala — kontzentrazioa, memoria eta prozesamendu kognitiboan duten eragina. Aurkikuntza horiek ikaskuntza eraginkorrerako baldintzak optimizatzen dituzten diseinu-erabakiak informatzen dituzte.
-
-<br>
-
-<strong>Malgu eta moldakor espazioa</strong>
+Hezkuntza-neurozientziek ikuspegi baliotsuak eman dituzte inguruneko elementu ezberdinek (argia, kolorea, tenperatura, akustika eta espazio-diseinua) nola eragiten duten kontzentrazioan, memorian eta prozesamendu kognitiboan. Aurkikuntza hauek ikaskuntza eraginkorra izateko baldintzak optimizatzen dituzten diseinu-erabakien berri ematen ari dira.
 
 <br>
 
-Hezkuntza-espazio modernoek malgutasuna lehenesten dute, talde-tamaina, ikaskuntza-estilo eta jarduera pedagogiko desberdinetara azkar egokitu ahal izateko. Altzaera mugikorreko altzariak, horma mugikorrak eta moldakor teknologia espazio bakarra eguneko zehar hainbat helburutarako eralda daitekeela ahalbidetzen dute.
-
-Gela modularrek osagai estandarrak erabiltzen dituzte konfigurazio infinituetan berrantola daitezkeenak, hitzaldi-gela tradizionalenetatik talde txikietako lan-eremuetara, ikaskuntza-geltokietara eta aurkezpen-espazioetara. Modularitate horrek hezitzaileek ingurune fisikoa beren helburu pedagogiko espezifikoetara egokitzea ahalbidetzen du.
-
-Espazio anitz-funtzionalek hezkuntza-instalazioen erabilera maximizatzen dute hainbat helburu betetzen dituztenean. Liburutegi bat aurkezpen-espazio bihur daiteke, laborategia arte-gela gisa erabil daiteke, eta pasilloak ikaskuntza informal-eremu bihur daitezke. Eraginkortasun hori espazio edo aurrekontu murriztuko zentroentzat bereziki baliotsua da.
-
-Espazio adimentsuen teknologiak inguruneak jarduera motaren arabera automatikoki egokitzeko ahalbidetzen ditu. Sentsoreek argiztapena, tenperatura eta ikus-entzunezko konfigurazioa ikasten ari den jarduera-motaren arabera doitu ditzakete, esku-hartze eskuzkorik gabe ikaskuntzarako baldintzak optimizatuz.
+<strong>Malgutasuna eta espaziorako moldagarritasuna</strong>
 
 <br>
 
-<strong>Ikaskuntza-eremu anitz</strong>
+Hezkuntza-espazio modernoek malgutasuna lehenesten dute, talde-tamaina, ikas-estilo eta jarduera pedagogiko desberdinak egokitzeko birkonfigurazio azkarra ahalbidetuz. Altzari mugikorrak, horma mugikorrak eta teknologia moldagarriak espazio bakar bat egun osoan zehar helburu anitzetarako eraldatzea ahalbidetzen dute.
+
+Ikasgela modularrek konfigurazio infinituetan berrantolatu daitezkeen osagai estandarizatuak erabiltzen dituzte, ohiko konferentzia-espazioetatik talde txikiko lan-eremuetara, banakako ikasteko geltokietara eta aurkezpen-espazioetara. Modularitate horri esker, hezitzaileek ingurune fisikoa beren helburu pedagogiko zehatzetara egoki dezakete.
+
+Funtzio anitzeko espazioek hezkuntza-instalazioak ahalik eta gehien aprobetxatzen dituzte, hainbat helburu betez. Liburutegi bat aurkezpen gune bihur daiteke, laborategi bat arte-ikasgela gisa balio dezake eta korridoreak ikasteko gune informal bihur daitezke. Eraginkortasun hori bereziki baliotsua da espazio edo aurrekontu mugak dituzten zentroentzat.
+
+Espazio adimendunaren teknologiek inguruneak jarduera ezberdinetara automatikoki egokitzeko aukera ematen dute. Sentsoreek argia, tenperatura eta ikus-entzunezko ezarpenak doi ditzakete gertatzen ari den jarduera motaren arabera, ikasteko baldintzak optimizatuz, eskuzko esku-hartzea behar izan gabe.
 
 <br>
 
-Etorkizuneko hezkuntza-espazioek ikaskuntza eta jarduera mota desberdinetarako diseinatutako eremu anitz barne hartzen dituzte. Ikaskuntza aktiboko espazioek talde-eztabaida, lankidetza-lana eta jarduera praktikoak errazten dituzte ikasleen mugimendua eta elkarreragina sustatzen duten konfigurazioekin.
+<strong>Ikasketa eremu dibertsifikatuak</strong>
 
-Isilpeko ikaskuntza-eremuek ikaskuntza indibiduala, hausnarketa sakona eta kontzentratutako lana babesten dituzte. Espazio horiek soinua xurgatzen duten materialak, pertsonalizatutako argiztapena eta kontzentraziorako distrakzioak minimizatzen dituen diseinua erabiltzen dituzte.
+<br>
 
-Makerspace-ak eta berrikuntza-laborategiek ikasleei sorkuntza praktikoa, esperimentazioa eta prototipoak egiteko tresnak ematen dizkiete. Espazio horiek normalean 3D inprimagailuak, fabrikazio digital-tresnak, robotika-geltokiak eta ingeniaritza eta arte-proiektuetarako espazioak barne hartzen dituzte.
+Etorkizuneko hezkuntza-espazioek hainbat gune biltzen dituzte ikaskuntza eta jarduera mota ezberdinetarako diseinatutakoak. Ikaskuntza-espazio aktiboek talde eztabaida, lankidetza-lana eta jarduera praktikoak errazten dituzte ikasleen mugimendua eta elkarrekintza sustatzen duten konfigurazioekin.
 
-Erlaxazio eta ongizate-eremuek atsedena eta berritzea ikaskuntza-prozesuan funtsezkoa dela aitortzen dute. Espazio horiek atseden erosoak, barne-lorategiak, meditazio-espazioa eta jarduera fisiko arinarentzako eremuak barne hartu ditzakete.
+Ikasteko gune lasaiak banakako azterketarako, hausnarketa sakonerako eta lan bideraturako aterpeak eskaintzen ditu. Espazio hauek soinua xurgatzen duten materialak, argiztapen pertsonalizatua eta distrazioak gutxitzen dituen diseinua erabiltzen dute, kontzentraziorako ingurune ezin hobeak sortzeko.
+
+Makerspaces eta berrikuntza laborategiek sorkuntza, esperimentazioa eta prototipoak egiteko tresnak hornitzen dituzte ikasleak. Espazio hauek normalean 3D inprimagailuak, fabrikazio digitaleko tresnak, robotika estazioak eta ingeniaritza eta arte proiektuetarako espazioak barne hartzen dituzte.
+
+Erlaxazio- eta ongizate-eremuek atsedenaren eta gaztetzearen garrantzia aitortzen dute ikaskuntza-prozesuan. Espazio hauek eserleku erosoak, barruko lorategiak, meditazio guneak eta jarduera fisiko arina egiteko guneak izan ditzakete.
 
 <br>
 
@@ -59,27 +75,27 @@ Erlaxazio eta ongizate-eremuek atsedena eta berritzea ikaskuntza-prozesuan funts
 
 <br>
 
-Hezkuntza-espazioetan teknologia-integrazioa ez da soilik gailuak gehitzea; arkitekturan eta espazioaren funtzionalitatean modu ukiturik gabe integratutako inguruneak diseinatzea da. Idazmahaiko gainazal digitalak, pantaila interaktiboak eta proiekzio-sistemak eduki dinamikoa aurkezteko eta ikasleen lankidetzarako aukerak sortzen dituzte.
+Hezkuntza-espazioetan integrazio teknologikoa gailuak gehitzeaz haratago doa; teknologia espazioaren arkitekturan eta funtzionalitatean ezin hobeto integratuta dagoen inguruneak diseinatzea dakar. Idazkera digitaleko gainazalek, pantaila interaktiboek eta proiekzio-sistemek edukia dinamikoa aurkezteko eta ikasleen lankidetzarako aukerak sortzen dituzte.
 
-Gela adimentsuen kudeaketa-sistemek argiztapena, tenperatura, audioa eta aurkezpen-teknologia kontrol zentralizatua ahalbidetzen dute, hezitzaileek jarduera desberdinetarako baldintza ambientalak azkar optimiza ditzaten. Sistema horiek ikasgai edo jarduera mota espezifikoen aurretik ezarritako konfigurazioak gordetzen dituzte.
+Ikasgela kudeatzeko sistema adimendunek argiaren, tenperaturaren, audioaren eta aurkezpenen teknologiaren kontrol zentralizatua ahalbidetzen dute, hezitzaileei jarduera ezberdinetarako ingurune-baldintzak azkar optimizatzeko aukera emanez. Sistema hauek aurrez ezarritako ezarpenak gorde ditzakete ikasgai edo jarduera mota zehatzetarako.
 
-Konektibitate azpiegitura sendoak ikasle eta hezitzaileek edozein tokitatik baliabide digitalak atzitzeko aukera ematen du. Horrek sare inalambriko azkarrak, karga-geltoki orokorrak eta lankidetza digitalerako tresnetarako sarbidea barne hartzen du.
+Konektibitate-azpiegitura sendoak bermatzen du ikasleek eta hezitzaileek baliabide digitalak eskura ditzaketela hezkuntza-espazioko edozein lekutatik. Horrek abiadura handiko haririk gabeko sareak, nonahiko karga-guneak eta lankidetza-tresna digitaletarako sarbidea ditu.
 
-Errealitate birtual eta areagotuko inguruneak hezkuntza-espazio aurreratuetan agertzen hasi dira ingurune tradizionaletan ezinezkoa litzatekeen ikaskuntza murgiltzaileko esperientziak eskaintzeko. Espazio horiek segurtasuna, ekipamendu-konfigurazioa eta erabiltzaileen fluxua kontuan hartze bereziak behar dituzte.
-
-<br>
-
-<strong>Iraunkortasuna eta diseinu berdea</strong>
+Errealitate birtuala eta areagotuko inguruneak hezkuntza-espazio aurreratuetan agertzen hasi dira, ingurune tradizionaletan posible ez liratekeen murgiltze-esperientzietarako aukerak eskainiz. Espazio hauek segurtasunari, ekipoen konfigurazioari eta erabiltzaileen fluxuari buruzko gogoeta bereziak behar dituzte.
 
 <br>
 
-Iraunkorrak diren hezkuntza-espazioek ez soilik ingurumen-inpaktua murrizten dute, baita ingurumen-printzipioak ekintzan erakusten dituzten hezkuntza-tresna gisa ere jokatzen dute. Energia berriztagarriko sistemak, euri-lorategiak, teilatu berdeak eta uraren birziklapen-sistemak ikaskuntza ingurumenezko laborategi bizidun bihurtzen dira.
+<strong>Jasangarritasuna eta diseinu berdea</strong>
 
-Eraikuntza-material iraunkorrek airearen barne-kalitatean laguntzen dute eta ikasle eta langileentzat ingurune osasuntsuagoak sortzen dituzte. Emisio baxuko materialak, produktu birziklatuak eta baliabide berriztagarriak esposizioa murrizten dute kaltegarriak diren kimikoetara eraikitze arduratsuaren praktika erakutsiz.
+<br>
 
-Diseinu biofilikoak naturaren elementuak barne-espazioetan txertatzen ditu, landareak, argi naturala, material naturalak eta naturaren ikuspegia barne. Ikerketek erakusten dute elementu horiek estresa murriztu, kontzentrazioa hobetu eta ongizate orokorra handitu dezaketela.
+Hezkuntza-espazio jasangarriek ingurumen-inpaktua murrizteaz gain, iraunkortasun-printzipioak martxan erakusten dituzten hezkuntza-tresna gisa ere balio dute. Energia berriztagarrien sistemak, euri lorategiak, teilatu berdeak eta ura birziklatzeko sistemak ingurumen-ikaskuntzarako laborategi bizi bihurtzen dira.
 
-Ingurumen-monitorizazio-sistemek ikasle eta hezitzaileek airearen kalitatea, energia-kontsumoa eta uraren kontserbazioa denbora errealean jarraitu ditzakete. Datu horiek ikastaroan iraunkortasun eta baliabide-kudeaketarako ikaskuntza-tresna gisa integratu daitezke.
+Eraikuntza-material jasangarriek barruko airearen kalitatea laguntzen dute eta ingurune osasuntsuagoak sortzen dituzte ikasle eta langileentzat. Isuri gutxiko materialek, birziklatutako produktuek eta baliabide berriztagarriek produktu kimiko kaltegarrien esposizioa murrizten dute, eraikuntzako praktika arduratsuak erakusten dituzten bitartean.
+
+Diseinu biofilikoak elementu naturalak barne hartzen ditu barne espazioetan, landareak, argi naturala, material naturalak eta naturaren ikuspegiak barne. Ikerketek erakusten dute elementu hauek estresa gutxitu, kontzentrazioa hobetu eta ongizate orokorra areagotu dezaketela.
+
+Ingurumena monitorizatzeko sistemak ikasleei eta hezitzaileek airearen kalitatea, energia-kontsumoa eta uraren kontserbazioa bezalako neurriak denbora errealean jarrai ditzakete. Datu hauek curriculumean txerta daitezke iraunkortasunari eta baliabideen kudeaketari buruzko ikasteko tresna gisa.
 
 <br>
 
@@ -87,27 +103,27 @@ Ingurumen-monitorizazio-sistemek ikasle eta hezitzaileek airearen kalitatea, ene
 
 <br>
 
-Ikuspegi pedagogiko desberdinek eraginkorrak izateko espazio-konfigurazio espezifikoak behar dituzte. Proiektuetan oinarritutako ikaskuntza-espazioek lankidetza-lan-eremuak, proiektu-materialen biltegiratzea eta ikasleen prototipo eta aurkezpenak onartzen dituzten aurkezpen-espazioak behar dituzte.
+Ikuspegi pedagogiko ezberdinek konfigurazio espazial zehatzak behar dituzte eraginkorrak izateko. Proiektuetan oinarritutako ikaskuntza-espazioek lankidetzarako lan-eremuak, proiektuko materialak biltegiratzea eta ikasleen prototipoak eta aurkezpenak jasotzeko espazioak behar dituzte.
 
-STEAM-gelek zientzia, teknologia, ingeniaritza, arte eta matematiketarako malgutasuna behar dute. Espazio horiek normalean lan-tekniko-geltokiak, esperimentu seguruen eremuak, arte-sorkuntza-espazioa eta ereduketa eta simulaziorako teknologia barne hartzen dituzte.
+STEAM ikasgelek malgutasuna behar dute jarduera zientifiko, teknologiko, ingeniaritza, artistiko eta matematikoetarako. Espazio hauek normalean lan-estazio teknikoak, esperimentu-eremu seguruak, sorkuntza artistikorako espazioak eta modelizazio eta simulaziorako teknologia izaten dituzte.
 
-Arazoetan oinarritutako ikaskuntza-espazioek talde-eztabaldi intentsiboa eta ikerketa-baliabideetarako sarbidea errazten dute. Ingurune horiek aulkien zirkuluko konfigurazioa, idazmahaiko horma ugari eta ikerketa digital eta fisikorako sarbide azkarra barne hartu ditzakete.
+Arazoetan oinarritutako ikaskuntza-espazioek talde eztabaida intentsiboa eta ikerketa baliabideetarako sarbidea errazten dute. Ingurune hauek zirkulu eserlekuen konfigurazioak, idazteko horma ugariak eta ikerketa-baliabide digital eta fisikoetarako sarbide azkarra izan ditzakete.
 
-Gela irauliak ikaskuntza indibidualaren konfigurazioetatik talde-lankidetza-inguruneetara azkar eralda daitezkeen espazioak behar ditu, edukia kontsumitzea zein ikasleen sorkuntza onartzen duen teknologiarekin.
-
-<br>
-
-<strong>Diseinu espazialean osasuna eta ongizatea</strong>
+Iraultzen diren ikasgelek banakako lan-ezarpenetatik talde lankidetza-inguruneetara azkar eraldatzeko espazioak behar dituzte, edukien kontsumoa zein ikasleen sorkuntza onartzen duen teknologiarekin.
 
 <br>
 
-Hezkuntza-espazioen diseinuak okupatzaileen osasun fisiko eta mentalean duen eragina gero eta gehiago kontuan hartzen du. Barne-airearen kalitatea aireztapen aurreratuko sistemak, airea garbitzen duten landareak eta emisio baxuko eraikuntza-materialen bidez kudeatzen da, ikaskuntzarako ingurune osasuntsuagoak sortuz.
+<strong>Ongizatea eta osasuna espazio-diseinuan</strong>
 
-Argi naturala zirkadiano erritmo naturalak babesten eta neke bisuala murrizten duen kalitatezko argia emateko optimizatzen da. Argiztapen artifizialaren sistemek argi naturala osatzen dute kolore-tenperatura doigarriarekin jarduera eta eguneko ordutegi desberdinetara egokitu daitekeena.
+<br>
 
-Diseinu akustikoak distrakzio sonorroak minimizatzen ditu komunikazio argia mantenduz. Horrek soinua xurgatzen duten materialak, oihartzunak saihesten dituen diseinua eta audioa uniformeki banatzen duen soinu-sistema barne hartzen ditu, soinu-kutsadurarik sortu gabe.
+Hezkuntza-espazioen diseinuak gero eta gehiago hartzen du kontuan okupatzaileen osasun fisikoan eta psikikoan duen eragina. Barruko airearen kalitatea aireztapen sistema aurreratuen, airea arazteko landareen eta emisio baxuko eraikuntza-materialen bidez kudeatzen da, ikaskuntza-ingurune osasuntsuagoak sortzen dituztenak.
 
-Mugimendu eta jarduera fisikorako espazioek mugimenduaren garrantzia ikaskuntza eta ongizatean aitortzen dute. Idazmahaiko altuera, aulkien ordez ariketa-pilota, luzaketa-eremuak eta mugimendu aktiboko atseden espazioak barne hartu ditzakete.
+Argi naturala optimizatuta dago erritmo zirkadiano naturalak onartzen dituen kalitatezko argia eskaintzeko eta begien nekea murrizteko. Argiztapen artifizialaren sistemak argi naturala osatzen dute, kolore-tenperatura erregulagarriekin, eguneko jarduera eta ordu ezberdinetara egokitu daitezkeenak.
+
+Diseinu akustikoak soinu-distrakzioak minimizatzen ditu komunikazio argia ahalbidetzen duen bitartean. Soinua xurgatzeko materialak, oihartzunak saihesten dituen diseinua eta soinu-kutsadurarik sortu gabe audioa modu uniformean banatzen duten soinu-sistemak barne hartzen ditu.
+
+Mugimendu eta jarduera fisikoko espazioek mugimenduaren garrantzia aitortzen dute ikaskuntzarako eta ongizaterako. Hauen artean zutik dauden mahaiak, ariketa pilotak eserleku alternatibo gisa, luzatze-eremuak eta mugimendu aktiborako atsedenetarako espazioak izan daitezke.
 
 <br>
 
@@ -115,60 +131,82 @@ Mugimendu eta jarduera fisikorako espazioek mugimenduaren garrantzia ikaskuntza 
 
 <br>
 
-Etorkizuneko hezkuntza-espazioak irisgarritasun unibertsalaren printzipioekin diseinatzen ari dira, gaitasun fisiko edo kognitiboak kontuan hartu gabe ikasle guztiek ikaskuntza-jardueretan modu osotan parte har dezaten bermatuz. Oinarrizko irisgarritasun-arauen betetzearen haratago doaz benetan inklusiboak diren inguruneak sortzeko.
+Etorkizuneko hezkuntza-espazioak irisgarritasun unibertsalaren printzipioekin diseinatuta daude, ikasle guztiek, beren gaitasun fisikoak edo kognitiboak edozein izanda ere, ikaskuntza-jardueretan guztiz parte har dezaten. Hau irisgarritasun-arauak oinarrizko betetzetik harago doa, ingurune benetan inklusiboak sortzeko.
 
-Diseinu inklusiboaren elementuek espazioetan nabigatzeko modu anitz, orientaziorako gainazal ukituak, ikusmen-behar desberdinak onartzen dituen argiztapena eta entzumen-gaitasun anitzak laguntzen duen akustika barne hartzen ditu. Espazioek neurodibertsitate desberdinetako ikasleen beharrak ere kontuan hartzen dituzte.
+Diseinu barneko elementuek espazioak nabigatzeko modu anitz, orientaziorako ukimenezko gainazalak, ikusmen-behar desberdinetara egokitzen den argiztapena eta entzumen-gaitasun anitzak dituzten ikasleei laguntzen dien akustika dira. Espazioek desberdintasun neurodibergenteak dituzten ikasleen beharrak ere kontuan hartzen dituzte.
 
-Aulkien konfigurazioaren malgutasunak gorputz mota eta ikaskuntza-lehentasun desberdinak onartzen ditu. Horrek mugitzen hobeto ikasten duten ikasleentzat, postura-laguntza gehigarria behar dutenentzat edo laguntza-gailuentzat espazioa behar dutenentzat aukerak barne hartzen ditu.
+Eserlekuak konfiguratzeko malgutasuna gorputz mota eta ikaskuntza-hobespen ezberdinetara egokitzen da. Honek mugitzen diren bitartean ondoen ikasten duten ikasleentzako aukerak barne hartzen ditu, jarrera-laguntza osagarria behar duten edo laguntza-ekipamendurako lekua behar dutenentzat.
 
-Lasai eta sentsazio-murrizketa-espazioek estimulazio ambientalak gainezka senti daitezken ikasleentzat babesa ematen dute. Espazio horiek ikasle guztiei behar sentsorial eta emozionalak autoerregulatzeko laguntzen diete.
-
-<br>
-
-<strong>Planifikazioa eta diseinu parte-hartzailea</strong>
+Espazio lasaiak eta sentsorialak murrizten dituztenek aterpea eskaintzen diete ingurumen-estimulazioaz gainezka senti daitezkeen ikasleei. Espazio hauek ikasle guztiei beren behar sentsorial eta emozionalak autoerregulatzen laguntzen diete.
 
 <br>
 
-Hezkuntza-espazio eraginkorrak garatzeko planifikazio-prozesuek erabiltzaile guztiak inplikatu behar ditu: ikasleak, hezitzaileak, administrazio-langileak, familiak eta zabalagoa den komunitatea. Diseinu parte-hartzaileko ikuspegiek sortzen diren espazioek benetan erabiliko dituztenen beharrak asetzen dituztela bermatzen dute.
-
-Diseinu tailer lankidetzaileek interes-taldeak elkartzen dituzte kontzeptu espazialak imajinatzeko, planifikatzeko eta findeitzeko. Prozesu horiek kartoizko ereduketa, diseinu digital-softwarea eta erabiltzaile-esperientziaren mapaketa-jarduerak erabil ditzakete aukera espazialak bisualizatzeko.
-
-Prototipoak eta proiektu pilotuak diseinu-kontzeptuak inbertsio handiagoak egin aurretik probatzeko aukera ematen dute. Espazio behin-behinekoak konfigurazio, altzari eta teknologia desberdinak esperimentatzeko ezar daitezke, erabaki azkenekoetarako datu baliotsuak emanez.
-
-Feedback-ilo etenguruak espazioak erabilera errealean eta aldatzen ari diren beharretan oinarrituta eboluzionatzen direla bermatzen dute. Feedback biltzeko sistema erregularrek ingurune hezkuntzaileetan doikuntza eta hobekuntza jarraitua ahalbidetzen dute.
+<strong>Plangintza eta diseinu parte-hartzailea</strong>
 
 <br>
 
-<strong>Ekonomia eta inplementazio-kontuan hartzeak</strong>
+Hezkuntza-espazio eraginkorrak garatzeko, erabiltzaile guztiek parte hartuko duten plangintza-prozesuak behar dira: ikasleak, hezitzaileak, administrazioko langileak, familiak eta komunitate zabala. Diseinu parte-hartzaileen ikuspegiek bermatzen dute sortzen diren espazioek benetan betetzen dituztela erabiliko dituztenen beharrak.
+
+Diseinu kolaboratiboko tailerrek interes-taldeak biltzen dituzte kontzeptu espazialak imajinatzeko, planifikatzeko eta fintzeko. Prozesu hauek kartoiaren modelizazioa, diseinu digitalaren softwarea eta erabiltzailearen esperientzia mapatzeko jarduerak bezalako tresnak erabil ditzakete aukera espazialak ikusteko.
+
+Prototipoek eta proiektu pilotuek diseinu-kontzeptuak probatu daitezke inbertsio handiagoak baino lehen. Aldi baterako espazioak konfigurazio, altzari eta teknologia ezberdinekin esperimentatzeko konfiguratu daitezke, azken diseinu-erabakietarako datu baliotsuak emanez.
+
+Etengabeko feedback-begizkeek espazioak benetako erabileran eta beharrizan aldakorren arabera eboluzionatzen dutela bermatzen dute. Ohiko iritziak biltzeko sistemak hezkuntza-inguruneetan etengabeko egokitzapenak eta hobekuntzak ahalbidetzen ditu.
 
 <br>
 
-Hezkuntza-espazio berritzaileak sortzeak kostu hasierako zein eragiketako kontuan hartze zainduak behar ditu. Diseinu eraginkorreko ikuspegiek aurrekontu mugatuekin hezkuntza-balio handiena ematen duten elementuak lehenesten dituzte.
-
-Faseetan inplementatzeko estrategiek hezkuntza-zentroei espazioak denboran zehar gradualki hobetzea ahalbidetzen die, kostuak banatuz eta esperientzia goiztiarretatik ikasten utziz. Proiektu pilotuek balioa erakutsi eta inbertsio handiagoak informatu ditzakete.
-
-Komunitateko erakundeek, tokiko enpresek eta hezkuntza-mailako erakundeekin elkarlanak espazio hobekuntza-proiektuetarako baliabide gehigarriak eman ditzakete. Lankidetza horiek finantzaketa, trebetasun teknikoa eta ikasleentzat mundu errealeko ikaskuntza-aukera barne hartu ditzakete.
-
-Espazio hobekuntzetan inbertsioaren itzulketaren ebaluazioak onurak ulergarriak eta ulergaitzak barne hartzen ditu, hala nola ikasleen errendimendu hobea, langileen iraunkortasun txikiagoa, familien asebetetze handiagoa eta ondasunaren balio hobea.
+<strong>Ekonomia- eta gauzatze-gogoetak</strong>
 
 <br>
 
-<strong>Hezkuntza-espazioen etorkizuna</strong>
+Hezkuntza-espazio berritzaileak sortzeak hasierako eta operazioko kostuak arretaz kontuan hartzea eskatzen du. Diseinu eraginkorreko ikuspegiek emaitza eragingarriak lor ditzakete aurrekontu mugatuekin, hezkuntza-balio handiena ematen duten elementuak lehenetsiz.
+
+Mailakako ezarpen estrategiei esker, hezkuntza-zentroek espazioak pixkanaka hobetzen dituzte denboran zehar, kostuak banatuz eta hasierako esperientzietatik ikasteko aukera emanez. Proiektu pilotuek balioa erakutsi dezakete eta inbertsio handiagoen berri eman dezakete.
+
+Komunitate-erakundeekin, tokiko enpresekin eta goi-mailako hezkuntza-erakundeekin lankidetzak baliabide osagarriak eskain ditzakete espazioa hobetzeko proiektuetarako. Lankidetza hauek finantzaketa, esperientzia teknikoa eta ikasleentzako mundu errealeko ikasteko aukerak izan ditzakete.
+
+Hobekuntza espazialetan egindako inbertsioaren itzulkinaren ebaluazioak onura ukigarriak eta ukiezinak hartzen ditu kontuan, besteak beste, ikasleen lorpena hobetzea, langileen txandaketa murriztea, familiaren gogobetetasuna areagotzea eta jabetzaren balioa hobetzea.
 
 <br>
 
-Hezkuntza-espazioek teknologia berri, aldatzen ari diren metodologia pedagogikoak eta ingurune fisikoek ikaskuntzan duten eraginaren ulermen sakonagoari erantzuten jarraituko dute eboluzionatzen. Errealitate areagotua, adimen artifiziala eta Gauzen Interneta espazio moldakor eta adimentsu berrietarako aukera berriak sortuko dituzte.
-
-Espazio hibridoek esperientzia fisiko eta digitalak modu ukiturik gabe integratzen dituzte, ikaskuntza kokapen fisiko tradizionalen haratago hedatzen utziz. Ingurune horiek ikasleak mundu mailako adituekin, baliabideekin eta bestela eskuraezinak izango liratekeen esperientziekin konektatu ditzakete.
-
-Espazioaren pertsonalizazioa ikasle bakoitzaren ikaskuntza-lehentasun indibidualak onartzeko garatu daiteke, ikaslearen preferentziei eta ikaskuntza-beharrei buruzko datuetan oinarrituta automatikoki egokitzen diren espazioekin.
+<strong>Hezkuntza espazioen etorkizuna</strong>
 
 <br>
 
-<strong>Ondorioak</strong>
+Hezkuntza-espazioek eboluzionatzen jarraituko dute teknologia berriei erantzunez, metodologia pedagogikoen aldaketak eta ingurune fisikoek ikaskuntzan nola eragiten duten ulertzeko. Sortzen ari diren teknologiek, hala nola, errealitate areagotua, adimen artifiziala eta Gauzen Interneta aukera berriak sortuko dituzte espazio moldagarri eta adimentsuetarako.
+
+Esperientzia fisikoak eta digitalak ezin hobeto integratzen dituzten espazio hibridoak ohiko bihur daitezke, ohiko kokapen fisikoetatik haratago hedatzen den ikaskuntza ahalbidetuz. Ingurune hauek ikasleak mundu mailako adituekin, baliabideekin eta esperientziekin konekta ditzakete bestela eskuraezinak izango liratekeenekin.
+
+Pertsonalizazio espaziala garatu daiteke ikaskuntza-hobespen indibidualak egokitzeko, eta espazioak automatikoki egokituko dira erabiltzaile jakin batzuei beren ikaskuntza-hobespenei eta beharrei buruzko datuetan oinarrituta.
 
 <br>
 
-Etorkizuneko hezkuntza-espazioek ikaskuntza-inguruneak nola ulertzen ditugun funtsezko eboluzioa islatzen dute. Espazio horiek funtzionalitate oinarrizkoaren haratago doaz ikaskuntza-prozesua aktiboki laguntzen, inspiratzen eta hobetzen duten tresna pedagogiko aktibo bihurtzeko.
+<strong>Testuingurua Espainian: LOMLOE, funtsezko gaitasunak eta DigEdu</strong>
 
-Prest dago zure hezkuntza-zentroa XXI. mendeko ikaskuntzarako espazio fisikoak eraldatzeko? Ezagutu nola lagun diezakeen Edena espazio-berrikuntzak planifikatzen eta inplementatzen, zure hezkuntza-komunitentzat ikaskuntza-ingurune eraginkorrago eta erakargarriagoak sortzeko.
+<br>
+
+LOMLOE-k hezkuntza-proiektuaren erdigunean jartzen ditu funtsezko gaitasunak eta etengabeko ebaluazioa. DigEdu Planak gaitasun digitalaren irakaskuntza, ingurune teknologiko seguruak eta ikasgeletan gailuen banaketa sustatzen ditu. Irakasleek zenbat eta denbora gehiago galdu administrazio-lan bikoiztuetan (paperean dauden zatiak, Excel-en zerrendak, bide ezberdinetako zirkularrak), orduan eta gutxiago falta da laguntza eta ebaluazio formatiborako.
+
+Kudeaketa digitalizatzeak ez du pedagogia ordezkatzen: ordu errealak askatzen ditu tutoretzan, sailen koordinazioan eta banakako jarraipenean. Lau komunikazio tresna ezberdin erabiltzen dituen fakultateak familiekin koherentzia eta barne koherentzia galtzen du ebaluazio eta jarraipen irizpideetan.
+
+2026an, Espainiako zentroetarako erabilgarria den hezkuntza-teknologiak ikasgela eta administrazioa lotzen ditu: erregistroek, komunikazioak, asistentzia eta analitikek datu-iturri bera partekatzen dute. Berrikuntza pedagogiko iraunkorrak LOMLOE onartzen du administrazio-zuzendaritzak irailean eta hiruhileko amaieran fakultateko orduak lapurtzeari uzten dionean.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Institutu bat lau komunikazio tresnetatik plataforma integratu batera pasatu zen. Fakultateak tutore bakoitzeko astean batez beste 2 ordu berreskuratu zituen administrazio-jarraipen-lanetan, saileko bileretan eta ebaluazio formatiboan berriro inbertituta.
+
+<br>
+
+<strong>Ondorioa</strong>
+
+<br>
+
+Etorkizuneko hezkuntza-espazioek oinarrizko bilakaera bat adierazten dute ikas-inguruneei buruz pentsatzeko moduan. Espazio hauek oinarrizko funtzionaltasunetik haratago doaz hezkuntza-prozesua lagundu, inspiratu eta hobetzen duten tresna pedagogiko aktibo bilakatzeko.
+
+Prest al dago zure hezkuntza zentroa 2026an ikasteko espazio fisikoak eraldatzeko? Ezagutu Edena-k nola lagun zaitzakeen zure hezkuntza-komunitatearentzat ikaskuntza-ingurune eraginkorragoak eta bizigarriagoak sortzen dituzten berrikuntza espazialak planifikatzen eta ezartzen.
+
+<br>

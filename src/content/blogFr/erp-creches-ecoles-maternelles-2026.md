@@ -5,8 +5,18 @@ description: "Places, familles, facturation, documents et app : critères d'acha
 tags: ["ERP crèche maternelle", "logiciel gestion crèche", "gestion petite enfance", "facturation crèche", "plateforme scolaire", "Edena"]
 author: "Équipe Edena"
 cover: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop"
+faqs:
+  - question: "Verifactu est-il déjà obligatoire pour les crèches et maternelles ?"
+    answer: "L'obligation et le calendrier sont définis par la réglementation fiscale et le calendrier de déploiement ; consultez votre expert-comptable. Ce que vous devez exiger du fournisseur, c'est une clarté sur la façon dont il prend en charge la facturation électronique, dans quel délai et quel accompagnement il propose pour la transition."
+  - question: "Un ERP pour la petite enfance peut-il gérer des enfants ayant des besoins particuliers ?"
+    answer: "Le dossier numérique peut stocker des informations spécifiques sur les adaptations, les autorisations et les protocoles. Le niveau de détail et la structure de ces enregistrements dépendent de la configuration du système ; vérifiez quels champs personnalisables le fournisseur propose pour ce profil avant de vous engager."
+  - question: "Comment gérer la transition depuis un ancien système sans perdre les données critiques ?"
+    answer: "Exigez du fournisseur un plan de migration en phases : d'abord les données maîtresses (enfants, familles, groupes), puis l'historique de facturation, puis les documents. Validez avec des données réelles avant de fermer l'ancien système et planifiez une période de coexistence. Sans ce plan, le risque de perdre l'historique des impayés ou des contrats signés est réel."
+  - question: "Combien de temps faut-il pour que la plateforme soit opérationnelle ?"
+    answer: "Cela dépend du volume de données, de la complexité de l'établissement et du niveau de personnalisation. Dans des établissements jusqu'à 150 places, un pilote de base peut être actif en quatre à six semaines avec migration et formation comprises, si un responsable interne y est dédié."
+  - question: "Le module périscolaire vaut-il la peine si nous avons peu d'activités ?"
+    answer: "Si les activités génèrent leurs propres cotisations et ont des places limitées, le module évite la gestion par e-mail et le circuit parallèle de feuille d'inscription. Si vous n'avez qu'une activité à inscription libre et sans paiement, évaluez si le coût du module est justifié."
 ---
-
 <strong>ERP pour crèches et écoles maternelles : ce qu'il faut en 2026</strong>
 
 <br>
@@ -51,48 +61,3 @@ Demandez à parcourir le flux complet depuis une demande de place jusqu'au premi
 Le prix par enfant ou par place n'est que la première couche. Ajoutez : le coût de migration des données du système précédent, les heures de formation (pour toute l'équipe, pas seulement "quelqu'un qui a appris seul"), le coût de maintenir l'ancien système en parallèle pendant la transition, les éventuelles intégrations avec des applications tierces que vous devrez maintenant abandonner ou connecter, et le risque de re-migrer dans deux ans si le système ne monte pas en charge. Un ERP qui paraît bon marché mais vous oblige à un tiers pour la facturation et un autre pour les familles finit par coûter plus cher qu'une solution intégrée avec une tarification modulaire.
 
 <br>
-
-<strong>Questions fréquentes</strong>
-
-<br>
-
-<strong>Verifactu est-il déjà obligatoire pour les crèches et maternelles ?</strong>
-<br>
-
-L'obligation et le calendrier sont définis par la réglementation fiscale et le calendrier de déploiement ; consultez votre expert-comptable. Ce que vous devez exiger du fournisseur, c'est une clarté sur la façon dont il prend en charge la facturation électronique, dans quel délai et quel accompagnement il propose pour la transition.
-
-<br>
-
-<strong>Un ERP pour la petite enfance peut-il gérer des enfants ayant des besoins particuliers ?</strong>
-<br>
-
-Le dossier numérique peut stocker des informations spécifiques sur les adaptations, les autorisations et les protocoles. Le niveau de détail et la structure de ces enregistrements dépendent de la configuration du système ; vérifiez quels champs personnalisables le fournisseur propose pour ce profil avant de vous engager.
-
-<br>
-
-<strong>Comment gérer la transition depuis un ancien système sans perdre les données critiques ?</strong>
-<br>
-
-Exigez du fournisseur un plan de migration en phases : d'abord les données maîtresses (enfants, familles, groupes), puis l'historique de facturation, puis les documents. Validez avec des données réelles avant de fermer l'ancien système et planifiez une période de coexistence. Sans ce plan, le risque de perdre l'historique des impayés ou des contrats signés est réel.
-
-<br>
-
-<strong>Combien de temps faut-il pour que la plateforme soit opérationnelle ?</strong>
-<br>
-
-Cela dépend du volume de données, de la complexité de l'établissement et du niveau de personnalisation. Dans des établissements jusqu'à 150 places, un pilote de base peut être actif en quatre à six semaines avec migration et formation comprises, si un responsable interne y est dédié.
-
-<br>
-
-<strong>Le module périscolaire vaut-il la peine si nous avons peu d'activités ?</strong>
-<br>
-
-Si les activités génèrent leurs propres cotisations et ont des places limitées, le module évite la gestion par e-mail et le circuit parallèle de feuille d'inscription. Si vous n'avez qu'une activité à inscription libre et sans paiement, évaluez si le coût du module est justifié.
-
-<br>
-
-<strong>Conclusion</strong>
-
-<br>
-
-Un ERP pour crèches et maternelles en 2026 n'est pas un caprice technologique : c'est la différence entre une équipe qui travaille avec des critères et des traces, et une qui reconstruit la réalité chaque lundi depuis trois sources différentes. Choisissez avec le TCO, une démo avec vos données et un comité aligné. Chez Edena, vous pouvez commencer avec les modules que vous utiliserez réellement dès le premier jour et en ajouter quand le volume le justifie, avec un support 24h/7j et sans surprises dans le catalogue. Demandez une session et voyez le flux complet avec vos places, votre cycle de facturation et votre communication.

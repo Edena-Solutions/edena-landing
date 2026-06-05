@@ -1,25 +1,39 @@
 ---
 title: "Gestión documental en colegios: adiós al papel y a los expedientes perdidos"
 date: "2026-04-01"
-description: "Expediente digital, carpetas en la nube, permisos y trazas: reduce riesgo y horas con una plataforma unificada para centros educativos."
+description: "Pilar gestión documental y expediente digital. Guía práctica para centros educativos en España (2026)."
 tags:
-    [
-        "gestión documental escolar",
-        "expediente digital",
-        "papel colegios",
-        "documentos familias",
-        "RGPD centros",
-        "nube educativa",
-    ]
+ [
+ "gestión documental escolar",
+ "expediente digital",
+ "papel colegios",
+ "documentos familias",
+ "GDPR centros",
+ "nube educativa",
+ ]
 author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1576836165612-8bc9b07e7778?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - expediente-academico-digital-estudiantes
+  - gestion-documental-digital-centros
+faqs:
+  - question: "¿El módulo Cloud es obligatorio para tener expediente digital?"
+    answer: "No. La plataforma base incluye expediente digital con datos, historial y organigrama. El módulo Cloud amplía con repositorio de ficheros, carpetas y visibilidad granular. Evalúa con tu equipo el volumen y tipo de documentos antes de contratar un módulo que quede vacío de contenido y criterio."
+  - question: "¿Podemos exigir a las familias que suban documentos al portal en lugar de traerlos en papel?"
+    answer: "Sí, con transición. Requiere comunicación clara, guía de carga, alternativa para familias con poca competencia digital, y acuerdo interno sobre qué pasa si el documento llega en papel. No es un decreto: es un cambio de proceso que necesita acompañamiento."
+  - question: "¿Cómo gestionar un documento que ya no se puede compartir por GDPR?"
+    answer: "Con el criterio de tu DPO: baja lógica o física en el plazo definido, con registro de la acción. La plataforma facilita el acceso y el control, pero la decisión de qué borrar y cuándo la toma el responsable del tratamiento del centro, no el software."
+  - question: "¿Qué pasa con los documentos cuando un alumno se da de baja o se traslada?"
+    answer: "Depende de tu política y la normativa aplicable: algunos documentos se trasladan con el expediente, otros se archivan por el periodo legal y luego se destruyen. Define el protocolo antes de que ocurra la primera baja, no después."
+  - question: "¿El módulo Cloud de Edena sirve también para documentos del equipo docente?"
+    answer: "Las carpetas y la visibilidad pueden configurarse por grupo o alumno. Para documentación interna del equipo docente conviene definir estructura de permisos separada, con criterio propio, consultando con tu interlocutor de implementación qué flujos soporta el módulo contratado."
 ---
 
 <strong>Gestión documental en colegios: adiós al papel y a los expedientes perdidos</strong>
 
 <br>
 
-Un expediente extraviado no es un inconveniente menor: implica riesgo legal, retraso en comités, quejas y docenas de horas de secretaría rastreando "quién tenía el último correo." En 2026, la gestión documental en colegios, guarderías y academias no consiste en escanear y guardar: exige permisos claros, trazas de lectura cuando procede, visibilidad por curso, grupo o alumno, un ciclo definido de baja o archivo, y alineación con el RGPD. Esta última parte —base legal, retención, acceso, destrucción— la define tu DPO o asesor; el software facilita estructura y controles de acceso, no reemplaza el criterio normativo. Edena incluye, en la plataforma base, el expediente digital y organigrama del centro. Con el módulo Cloud, añade documentación en la nube, carpetas y visibilidad por grupo o alumno, tal como describe el catálogo público de módulos. Nada de inventar funcionalidades: el valor está en conectar expediente, familias, facturación y captación en un único criterio de dato, sin cajas de WeTransfer ni versiones "v4_final_definitiva" en el correo.
+Un expediente extraviado no es un inconveniente menor: implica riesgo legal, retraso en comités, quejas y docenas de horas de secretaría rastreando "quién tenía el último correo." En 2026, la gestión documental en colegios, guarderías y academias no consiste en escanear y guardar: exige permisos claros, trazas de lectura cuando procede, visibilidad por curso, grupo o alumno, un ciclo definido de baja o archivo, y alineación con el GDPR. Esta última parte (base legal, retención, acceso, destrucción) la define tu DPO o asesor; el software facilita estructura y controles de acceso, no reemplaza el criterio normativo. Edena incluye, en la plataforma base, el expediente digital y organigrama del centro. Con el módulo Cloud, añade documentación en la nube, carpetas y visibilidad por grupo o alumno, tal como describe el catálogo público de módulos. Nada de inventar funcionalidades: el valor está en conectar expediente, familias, facturación y captación en un único criterio de dato, sin cajas de WeTransfer ni versiones "v4_final_definitiva" en el correo.
 
 <br>
 
@@ -39,11 +53,11 @@ El esquema mínimo incluye categorías coherentes: admisión (formulario, contra
 
 <br>
 
-<strong>RGPD aplicado al expediente: qué no es el software</strong>
+<strong>GDPR aplicado al expediente: qué no es el software</strong>
 
 <br>
 
-La plataforma aporta herramientas: acceso por rol, registro de auditoría, cifrado, carpetas con visibilidad controlada. Pero la base legal del tratamiento, el periodo de retención definido por ley o política del centro, el procedimiento de respuesta a derechos de acceso o supresión, y la evaluación de impacto si aplica: eso lo determina tu equipo legal o DPO. Exigir que un proveedor "garantice el RGPD" sin esa cadena interna es confundir producto con asesoría. Edena da criterio de producto, no asesoría jurídica.
+La plataforma aporta herramientas: acceso por rol, registro de auditoría, cifrado, carpetas con visibilidad controlada. Pero la base legal del tratamiento, el periodo de retención definido por ley o política del centro, el procedimiento de respuesta a derechos de acceso o supresión, y la evaluación de impacto si aplica: eso lo determina tu equipo legal o DPO. Exigir que un proveedor "garantice el GDPR" sin esa cadena interna es confundir producto con asesoría. Edena da criterio de producto, no asesoría jurídica.
 
 <br>
 
@@ -83,42 +97,54 @@ Septiembre es el mes donde la carga documental se dispara: altas, contratos, aut
 
 <br>
 
-<strong>Preguntas frecuentes</strong>
+<strong>¿Digitalizar todo el archivo histórico?</strong>
 
 <br>
 
-<strong>¿El módulo Cloud es obligatorio para tener expediente digital?</strong>
-<br>
-
-No. La plataforma base incluye expediente digital con datos, historial y organigrama. El módulo Cloud amplía con repositorio de ficheros, carpetas y visibilidad granular. Evalúa con tu equipo el volumen y tipo de documentos antes de contratar un módulo que quede vacío de contenido y criterio.
+Prioriza curso actual y documentos activos; el histórico por fases.
 
 <br>
 
-<strong>¿Podemos exigir a las familias que suban documentos al portal en lugar de traerlos en papel?</strong>
-<br>
-
-Sí, con transición. Requiere comunicación clara, guía de carga, alternativa para familias con poca competencia digital, y acuerdo interno sobre qué pasa si el documento llega en papel. No es un decreto: es un cambio de proceso que necesita acompañamiento.
+<strong>Tipos de documento por rol</strong>
 
 <br>
 
-<strong>¿Cómo gestionar un documento que ya no se puede compartir por RGPD?</strong>
-<br>
-
-Con el criterio de tu DPO: baja lógica o física en el plazo definido, con registro de la acción. La plataforma facilita el acceso y el control, pero la decisión de qué borrar y cuándo la toma el responsable del tratamiento del centro, no el software.
-
-<br>
-
-<strong>¿Qué pasa con los documentos cuando un alumno se da de baja o se traslada?</strong>
-<br>
-
-Depende de tu política y la normativa aplicable: algunos documentos se trasladan con el expediente, otros se archivan por el periodo legal y luego se destruyen. Define el protocolo antes de que ocurra la primera baja, no después.
+- **Administración:** Contratos, facturas, domiciliaciones, altas y bajas.
+- **Tutoría:** Seguimiento académico, autorizaciones de viaje e incidencias.
+- **Enfermería:** Alergias, medicación y protocolos de salud.
+- **Dirección:** Actas, protocolos internos e informes de cierre.
+- **Principio:** Cada rol ve solo lo necesario (mínimo privilegio) con registro de acceso.
 
 <br>
 
-<strong>¿El módulo Cloud de Edena sirve también para documentos del equipo docente?</strong>
+<strong>Retención legal</strong>
+
 <br>
 
-Las carpetas y la visibilidad pueden configurarse por grupo o alumno. Para documentación interna del equipo docente conviene definir estructura de permisos separada, con criterio propio, consultando con tu interlocutor de implementación qué flujos soporta el módulo contratado.
+- **Consultar con asesoría** plazos por tipo: académico, laboral, fiscal.
+- **Bloqueo de borrado** en documentos sujetos a conservación obligatoria.
+- **Registro de acceso** ante inspección, reclamación o auditoría interna.
+- **Migración por fases:** Prioriza curso actual; el histórico en papel puede digitalizarse después.
+
+<br>
+
+<strong>Contexto en España: expediente y documentación de alumnos</strong>
+
+<br>
+
+Autorizaciones de imagen, alergias, NEAE, autorizaciones de recogida y contratos de servicios deben estar accesibles por rol (tutor, enfermería, administración) con registro de acceso. La LOPDGDD exige especial diligencia con menores: no basta digitalizar PDFs en una carpeta compartida sin permisos ni trazabilidad.
+
+Un expediente digital bien diseñado evita carpetas en recepción, acelera respuestas a familias e inspección, y reduce el riesgo de que datos de salud o situaciones sensibles circulen por email sin control. Cada rol debe ver solo lo necesario (mínimo privilegio), con bloqueo de borrado en documentos críticos y registro de quién accedió y cuándo.
+
+Consulta con asesoría los plazos de retención por tipo (académico, laboral, fiscal). El sistema debe permitir bloqueo de borrado y exportación auditada ante reclamación o inspección. Digitalizar el archivo histórico completo el primer mes suele ser un error: prioriza curso actual y documentos activos, y migra el histórico por fases.
+
+<br>
+
+<strong>Caso práctico (España)</strong>
+
+<br>
+
+Un colegio privado digitalizó autorizaciones y partes de incidencias. Tiempo medio de localizar un documento de un alumno: de 12 minutos (carpeta física) a 20 segundos (busqueda en expediente). En una inspección documental respondieron en el mismo día.
 
 <br>
 
@@ -127,3 +153,5 @@ Las carpetas y la visibilidad pueden configurarse por grupo o alumno. Para docum
 <br>
 
 Gestionar la documentación en un colegio o centro es poner límite a la improvisación: trazar expediente, carga, lectura y cierre con criterio legal y herramienta que acompañe. Edena unifica plataforma base, Cloud si aplica, CRM y facturación bajo la misma identidad de dato, con comunicación, analítica y soporte 24/7. Pide una demo y revisa expediente, nube y reducción de riesgo con tus datos reales, hoy.
+
+<br>

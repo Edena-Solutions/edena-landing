@@ -1,61 +1,88 @@
 ---
-title: "Nola aukeratu eskola-kudeaketarako software onena"
+title: "Nola aukeratu eskola kudeatzeko software onena"
 date: "2026-02-03"
-description: "Zuzendarientzako gida praktikoa: irizpideak, saihestu beharreko akatsak eta eskola-kudeaketarako software onena aukeratzeko zerrenda."
-tags: ["eskola-kudeaketarako softwarea", "hezkuntza-zentroak", "hautaketa", "digitalizazioa"]
-author: "Edena taldea"
+description: "ERP aukeratzerakoan ohiko akatsak eta erabaki-irizpideak. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+tags:
+    - "eskola kudeatzeko softwarea"
+    - "hezkuntza zentroak"
+    - "hautaketa"
+    - "digitalizazioa"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop"
+relatedPosts:
+  - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
+  - software-aukera-egiaztapen-2026
+  - eskola-kudeaketa-softwarea-aukeratzea
+  - erp-eskola-digitalizazio-gida
+faqs:
+  - question: "Zenbat balio du ikastetxeak kudeatzeko softwarea ezartzeak?"
+    answer: "Zentroaren tamainaren eta esparruaren araberakoa da. Lizentziaz gain, prestakuntza, datuen migrazioa eta pertsonalizazio posiblea daude. Konparatu kostu osoa 3 urtean."
+  - question: "Migra al ditzaket datuak egungo sistematik?"
+    answer: "Hornitzaile gehienek Excel edo aurreko sistemetatik inportatzea eskaintzen dute. Fasekako migrazio-plana eta datu kritikoak baliozkotzea eskatzen du."
+  - question: "Eskola kudeatzeko softwareak familientzako aplikaziorik barne hartzen du?"
+    answer: "Guztiak ez. Familiekiko komunikazioa lehentasunezkoa bada, egiaztatu aplikazioa edo ataria eta jakinarazpenak (ordainketen abisuak, bajak, zirkularrak)."
+  - question: "Zer gertatzen da fakturazio elektronikoa eta Verifactu?"
+    answer: "Espainian, araudia aurrera doa. Ikastetxeetarako ikastetxeen kudeaketa-software onena prestatuta edo egokitzapen-prozesuan egon behar da; Mesedez, egiaztatu sinatu aurretik."
+  - question: "Egokia al da software modularra edo bakarrean?"
+    answer: "Dagoeneko mantendu nahi dituzun tresnak (adibidez, plataforma akademikoa) badituzuen araberakoa da. Nukleo bateratu batek (fakturazioa, familiak, administrazioa) eguneroko eragiketak errazten ditu askotan."
 ---
 
-<strong>Nola aukeratu eskola-kudeaketarako software onena zure hezkuntza-zentrorako</strong>
+
+<strong>Nola aukeratu eskola kudeatzeko software onena zure hezkuntza zentrorako</strong>
 
 <br>
 
-Eskola-kudeaketarako software onena aukeratzeak aldea markatzen du zentro batek orduak galtzen dituen zeregin errepikakorretan eta garrantzitsuena denean zentratzen duen artean: ikasleak eta familiak. Zuzendariek eta administrazio-taldeek eskaintza oso desberdinei aurre egiten diote; asmatzeko irizpidea eta metodoa behar dira.
+<strong>Angelua: erabaki akatsak</strong>
 
 <br>
 
-<strong>Zergatik garrantzitsua den eskola-kudeaketarako softwarearen hautaketa</strong>
+Saihestu modan edo hasierako prezioan oinarrituta erostea. Merkatuaren alderaketa <a href="/eus/blog/eskola-kudeaketa-softwarea-konparaketa-2026-espainia">Software konparaketa 2026</a>n.
+
+Ikastetxeen kudeaketa-software onena aukeratzeak egiten du aldea zeregin errepikakorretan orduak alferrik galtzen dituen ikastetxe baten eta baliabideak garrantzia duen horretan zentratzen dituenaren artean: ikasleak eta familiak. Zuzendariek eta zuzendaritza taldeek oso eskaintza ezberdinei aurre egiten diete; Ongi ateratzeak epaiketa eta metodoa eskatzen du.
 
 <br>
 
-Hezkuntza-zentro ertain batek matrikulazioak, fakturazioa, familien komunikazioa, absentismoa eta dokumentazioa kudeatzen ditu. Eskola-kudeaketarako software onena gabe, karga hori kalkulu-orrietan, postan eta paperetan erortzen da, akats eta atzerapen etengabekin.
+<strong>Zergatik garrantzitsua da eskola kudeatzeko softwarea aukeratzeak</strong>
 
 <br>
 
-<strong>Ondo erabaki ezaren kostu ezkutua</strong>
+Batez besteko hezkuntza-zentro batek matrikula, fakturazioa, familiekin komunikazioa, absentismoa eta dokumentazioa kudeatzen ditu. Eskola kudeatzeko software onik gabe, zama hori kalkulu-orrietan, mezu elektronikoetan eta paperetan erortzen da, etengabeko akats eta atzerapenekin.
 
 <br>
 
-Tresna desegokia aukeratzeak alferreko prestakuntza, taldearen erresistentzia eta, kasu askotan, urte gutxiren buruan bigarren migrazio bat esan nahi du. Eskola-kudeaketarako software onena ez da merkeena edo garestiena: zure prozesuetara egokitzen dena eta zurekin hazten dena da.
+<strong>Ondo ez erabakitzearen ezkutuko kostua</strong>
 
 <br>
 
-<strong>Eskola-kudeaketarako software onena ebaluatzeko irizpideak</strong>
+Tresna desegokia aukeratzeak prestakuntza alferrik galtzea, langileen erresistentzia eta, kasu askotan, urte gutxiren buruan bigarren migrazioa dakar. Eskola kudeatzeko softwarerik onena ez da merkeena edo garestiena: zure prozesuetara egokitzen eta zurekin eskalatzen dena da.
 
 <br>
 
-<strong>1. Prozesuen estaldura</strong>
+<strong>Ikastetxeko kudeaketa-software onena ebaluatzeko irizpideak</strong>
 
 <br>
 
-Egiaztatu modu natiboan estaltzen duela: fakturazioa eta kobrantzak, familien komunikazioa (ez soilik posta elektronikoa), asistencia-kontrola, agiri akademikoak eta, kasuan kasuko, Verifactu edo indarrean dagoen araudiarekin integrazioa. Askotariko konponbide generikoak saihestu, asko parxe behar dituztenak.
+<strong>1. Prozesuaren estaldura</strong>
 
 <br>
 
-<strong>2. Erabilgarritasuna eta adopzioa</strong>
+Egiaztatu berez hartzen dituela: fakturazioa eta kobrantza, familiekin komunikazioa (ez soilik posta elektronikoa), asistentzia kontrola, espediente akademikoak eta, hala badagokio, Verifactu edo indarrean dagoen beste araudiarekin integratzea. Saihestu adabaki asko behar dituzten soluzio generikoak.
 
 <br>
 
-Eskola-kudeaketarako software onena idazkaritza, zuzendaritza eta zati batean familien erabilgarria izan behar da. Eskatu demoak datu errealekin eta baloratu taldea laguntzaren menpe egon gabe lan egin dezakeen.
+<strong>2. Erabilgarritasuna eta hartzea</strong>
 
 <br>
 
-<strong>3. Eskalagarritasuna eta eboluzioa</strong>
+Ikastetxeen kudeaketarako softwarerik onena idazkariak, zuzendaritzak eta, neurri batean, familiek erabili behar dute. Eskatu demoak datu errealekin eta ebaluatu taldeak horrekin lan egin dezakeen etengabe laguntzaren menpe egon gabe.
 
 <br>
 
-Ebaluatu soluzioak zurekin hazten den: ikasle gehiago, etapa gehiago, zerbitzu berriak (jantokia, ibilbideak, jarduerak). Berrikusi roadmap-a eta eguneraketen maiztasuna.
+<strong>3. Eskalagarritasuna eta bilakaera</strong>
+
+<br>
+
+Ebaluatu irtenbidea zurekin batera hazten den: ikasle gehiago, etapa gehiago, zerbitzu berriak (jangela, ibilbideak, jarduerak). Berrikusi bide-orria eta eguneraketen maiztasuna.
 
 <br>
 
@@ -63,80 +90,95 @@ Ebaluatu soluzioak zurekin hazten den: ikasle gehiago, etapa gehiago, zerbitzu b
 
 <br>
 
-Hezkuntzan datuen babesa derrigorrezkoa da. Eskatu bermea ostatuari, zifratzeari, sarbideari eta araudi-betetzeari buruz (RGPD, LOPD). Eskola-kudeaketarako software onenak segurtasun-neurriak dokumentatzen ditu.
+Hezkuntzan, datuen babesa derrigorrezkoa da. Ostalaritza, enkriptatze, sarbidea eta araudiak (GDPR, LOPD) betetzeko bermeak eskatzen ditu. Eskola kudeatzeko softwarerik onenak bere segurtasun neurriak dokumentatu beharko lituzke.
 
 <br>
 
-<strong>Praktika-kasuak: beste zentroek zer lehentasunduten duten</strong>
+<strong>Kasu praktikoak: beste zentroek zer lehenesten duten</strong>
 
 <br>
 
-800 ikasleko ikastetxe kontzertatu batek ordainketa errepikakorra eta ordainketa-abisuak lehentasundu zituen; lehen urtean ordainketarik gabekoak murriztea inbertsioa justifikatu zuen. Prestakuntza profesionaleko zentro batek ikuskaritzarako txostenak eta dokumentazioaren arrastrea balioetsi zituen. Kasu bietan erabakia benetako lepo-botila errealeak mapatatu ondoren hartu zen, ez soilik "eguneratuta egon nahi dugulako".
+800 ikasle dituen itunpeko ikastetxe batek fakturazio errepikakorrak eta ordainketa abisuak lehenetsi zituen; hutsegiteen murrizketak inbertsioa justifikatu zuen lehen urtean. Lanbide Heziketako zentro batek ikuskapen-txostenak sortzea eta dokumentazioaren trazabilitatea baloratu zituen. Bi kasuetan erabakia benetako botila-lepoak mapatu ostean hartu da (ez bakarrik “jarraitu nahi dugu”).
 
 <br>
 
-<strong>Eskola-kudeaketarako softwarea aukeratzean ohiko akatsak</strong>
+<strong>Ohiko akatsak eskola kudeatzeko softwarea aukeratzerakoan</strong>
 
 <br>
 
-- Prezioaren arabera soilik erabakitzea denbora osoaren kostua (prestakuntza, integrazioak) balioetsi gabe.
-- Idazkaritza eta administrazioa ebaluazioan sartu gabe.
-- Datuen babesean "dena balio du" suposatzea baldintzak berrikusi gabe.
-- Fakturazio elektronikoa edo uneko araudia kontuan hartzen ez duen produktua aukeratzea.
-- Datuen migrazioa edo sistema zaharrekin elkarbizitza-aldia planifikatu gabe.
+- Prezioaren arabera soilik erabaki kostu osoa (denbora, prestakuntza, integrazioak) baloratu gabe.
+- Ez sartu idazkaritza eta administrazioa ebaluazioan.
+- Baldintzak berrikusi gabe datuen babesean "edozerk balio duela".
+- Aukeratu fakturazio elektronikoa edo indarrean dagoen araudia barne hartzen ez duen produktu bat.
+- Aurreko sistemarekin datuen migrazioa edo bizikidetza-aldia ez planifikatzea.
 
 <br>
 
-<strong>Ekintza-zerrenda: eskola-kudeaketarako software onena aukeratzeko</strong>
+<strong>Ikastetxeen kudeaketa software onena aukeratzeko kontrol-zerrenda</strong>
 
 <br>
 
 1. Zerrendatu gaur denbora eta kexa gehien sortzen dituzten 5 prozesuak.
-2. Definitu nork erabili behar duen sistema (idazkaritza, zuzendaritza, familiak) eta zein maiztasunekin.
-3. Eskatu erakustaldiak zure zentroaren datu anonimoekin.
-4. Egiaztatu bankuarekin, ordainketa-pasarelekin eta, kasuan kasuko, Verifactu-rekin integrazioa.
-5. Berrikusi segurtasun-klausulak, datuen egoitza eta laguntza.
-6. Eskatu antzeko tamaina eta profil duten zentroen erreferentziak.
-7. Planifikatu faseak: pilotua, migrazioa eta 6–12 hilabeteko emaitzen neurketa.
+2. Sistema nork erabili behar duen zehazten du (idazkaria, zuzendaritza, familiak) eta zenbat aldiz.
+3. Eskatu erakustaldiak datu anonimoekin zure zentrotik.
+4. Egiaztatu integrazioa bankuarekin, ordainketa-pasabideekin eta, hala badagokio, Verifactu.
+5. Berrikusi segurtasun, datuen egoitza eta laguntza klausulak.
+6. Eskatu tamaina eta profil antzeko zentroei erreferentziak.
+7. Planaren faseak: pilotua, migrazioa eta emaitzen neurketa 6-12 hilabetetan zehar.
 
 <br>
 
-<strong>Maiz egindako galderak</strong>
+<strong>Laburpena 5 puntu nagusitan:</strong>
 
 <br>
 
-<strong>Zenbat kostatzen da eskola-kudeaketarako software bat inplementatzea?</strong>
-<br>
+1. Egun gehien huts egiten duten prozesuak lehenetsi (fakturazioa, komunikazioa, absentismoa).
+2. Ikastetxeko kudeaketa-software onena idazkariak eta zuzendaritzak erabili behar dute.
+3. Dokumentatutako segurtasuna eta araudia betetzea eskatzen du.
+4. Sartu migrazioa, prestakuntza eta erreferentziak zure ebaluazioan.
+5. Planifikatu faseka eta berrikusi emaitzak 6-12 hilabetetan.
 
-Zentroaren tamaina eta esparruaren arabera. Lizentziaz gain, prestakuntza, datuen migrazioa eta pertsonalizazio posiblea kontuan hartu behar dira. Konparatu 3 urteko kostu osoa.
-
-<br>
-
-<strong>Datuak sistema zaharretik migratu al ditzakegu?</strong>
-<br>
-
-Hornitzaile gehienek Excel edo aurreko sistematik inportazioa eskaintzen dute. Eskatu fasetan migrazio-plana eta datu kritikoen balidazioa.
+Ikastetxeko kudeaketa softwarea zure ikastetxeko prozesuekin nola molda daitekeen ikusi nahi duzu? Eskatu demo pertsonalizatu bat eta fakturazioa, familiak eta administrazioa elkarrekin aztertuko ditugu konpromisorik gabe.
 
 <br>
 
-<strong>Eskola-kudeaketarako softwareak familien aplikazioa barne hartzen al du?</strong>
-<br>
-
-Ez guztiek. Familien komunikazioa lehentasuna bada, egiaztatu aplikazio edo portala eta jakinarazpenak (ordainketa-abisuak, absentziak, zirkularrak).
+<strong>Erabaki arrunten akatsak</strong>
 
 <br>
 
-<strong>Zer gertatzen da fakturazio elektronikoarekin eta Verifactu-rekin?</strong>
+- **Erosi hasierako prezioaren arabera:** Ez ikusi 36 hilabeteko TCO eta barne koordinazio orduak.
+- **Aukeratu modaren arabera:** Idazkaritzak irailean erabiliko ez dituen katalogo funtzioak.
+- **Pilotu gabe:** Sinadura globala benetako bilketa edo erregistro-ziklo baten aurretik.
+- **Erreferentziak alde batera utzi:** Ezarpena eta laguntza baliozkotzen dituen antzeko zentrorik ez.
+- **Ez baliozkotu benetako demoa:** Eskaera-matrikula-ordainketa datu sinesgarriekin frogatuta itxi behar da.
+
 <br>
 
-Espainian araudia aurreratzen ari da. Hezkuntza-zentroetarako eskola-kudeaketarako software onena prest egon edo egokitzeko bidean egon behar da; sinatu aurretik egiaztatu.
+<strong>Irizpide sinplea</strong>
 
 <br>
 
-<strong>Modular softwarea ala guztia-batean?</strong>
+Ez baduzu eskaera-matrikula-ordainketa demoan ixten datu errealekin, baztertu edo eskatu bigarren pilotu bat.
+
 <br>
 
-Dagoeneko mantendu nahi dituzun tresnak dituzun arabera (adibidez, akademiko plataforma). Fakturazio, familiak eta administrazioa bateratzen dituen nukleo batek maiz eguneroko errutina sinplifikatzen du.
+<strong>Testuingurua Espainian: zer eskatzen duen ERP ikastetxe batek 2026an</strong>
+
+<br>
+
+Kalifikazio eta asistentziaz harago, Espainian ikastetxeak kudeatzeko softwareak fakturazioa (Verifactu prestaketa barne), familiaren ataria edo aplikazioa, GDPR eta LOPDGDD azpian dauden datu txikiak dituen fitxategia eta komunikazioen trazabilitatea izan behar ditu. SIS isolatu bat erostea benetako mina idazkaritzan, bilketan eta familietan dagoenean normalean hiru tresnen arteko datuak bikoizten amaitzen da.
+
+Haur eskoletan lekuak, ratioak, menuak eta alergiak pisatzen dituzte; akademietan, bonusetan, denboraldietan eta areto anitzetan; ikastetxe pribatuetan, kuota ezberdinduak, barne-bekak eta kontratazio komertziala. Hizkuntz akademietan lan egiten duen ERP bat eskasa izan daiteke haur, NEAE edo jangelako ratioak eguneko fakturazioarekin kudeatzen badituzu.
+
+Hiru urteko TCO ebaluatzen du: lizentzia, migrazioa, prestakuntza, barne koordinazio orduak eta zubi-integrazioen kostua. Eskatu demo bat zure datu errealekin (bost familia, ordainagirien ziklo bat) erabaki aurretik. Hasieran merkeagoa dirudien softwarea garestitu daiteke CRM, fakturazioa edo komunikazioa bereizita gehitzera behartzen bazaitu.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Gironako 85 plazako haur-eskola batek hiru hornitzaile ebaluatu zituen kontrol-zerrenda berarekin: matrikula, menuak, fakturazioa eta familiaren aplikazioa. Datu errealekin 10 asteko pilotuak agerian utzi zuen bakarrak itxi zuela aplikazio-matrikula-ordainketa zikloa Excel gabe. Aldaketak 40 orduko migrazioa kostatu zien, baina hiru tresnetan bikoiztutako datuak ezabatu zituzten.
 
 <br>
 
@@ -144,13 +186,6 @@ Dagoeneko mantendu nahi dituzun tresnak dituzun arabera (adibidez, akademiko pla
 
 <br>
 
-Eskola-kudeaketarako software onena aukeratzea erabaki estrategikoa da: administrazio-karga murrizten du, familien komunikazioa hobetzen du eta kobrantza eta absentismoan ikusmena ematen du. Inbertitu behar errealetan definitzen, datu errealekin probatzen eta talde osoa lerrokatzen aurretik. Prozesu ordenatuak arriskuak murrizten eta arrakasta-probabilitatea handitzen du.
+Ikastetxeen kudeaketa-software onena aukeratzea erabaki estrategikoa da: karga administratiboa murrizten du, familiekin komunikazioa hobetzen du eta bilketa eta absentismoaren ikusgarritasuna ematen du. Inbertitu denbora behar errealak definitzeko, datu errealekin probak egiteko eta talde osoa lerrokatzeko konpromisoa hartu aurretik. Prozesu ordenatu batek arriskuak murrizten ditu eta arrakasta izateko aukerak areagotzen ditu.
 
-<strong>5 puntu gakoen laburpena:</strong>  
-1) Lehentasundu gaur gehien huts egiten duten prozesuak (fakturazioa, komunikazioa, absentismoa).  
-2) Eskola-kudeaketarako software onena idazkaritza eta zuzendaritzarentzat erabilgarria izan behar da.  
-3) Eskatu segurtasuna eta araudi-betetzea dokumentatuta.  
-4) Sartu migrazioa, prestakuntza eta erreferentziak ebaluazioan.  
-5) Planifikatu fasetan eta berrikusi 6–12 hilabeteko emaitzak.
-
-Nahi duzu eskola-kudeaketarako software bat zure zentroaren prozesuekin nola egokitzen den ikusi? Eskatu demo pertsonalizatua eta fakturazioa, familiak eta administrazioa konpromisorik gabe azter ditzakegu.
+<br>

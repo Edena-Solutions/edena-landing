@@ -1,18 +1,23 @@
 export default {
-    bookDemo: "Sol·licita una demo",
+    bookDemo: "Agendar demo",
+    loginButton: "Iniciar sessió",
+    registerButton: "Prova-ho gratis",
+    registerButtonExtended: "Prova gratis 60 dies",
+    noCreditCardRequired: "Sense targeta de crèdit | Cancel·la gratis quan vulguis",
     downloadTheApp: "Descarrega l'app gratuïta",
     knowMore: "Saber més",
     meta: {
-        homeTitle: "Programa de gestió escolar per a centres educatius | Edena",
+        homeTitle:
+            "Programari de Gestió Escolar | ERP per a Col·legis, Acadèmies i Escoles Infantils | Edena",
         homeDescription:
-            "Deixa de perdre hores en administració. Edena automatitza la facturació, l'assistència i la comunicació amb les famílies en una sola plataforma. Redueix costos un 40% i augmenta la satisfacció familiar un 60%. Demo gratuïta.",
+            "Edena centralitza facturació, assistència, expedients i comunicació familiar en una sola plataforma. Centres ja estalvien 15 h/setmana. Sense permanència. Demo gratis.",
         pricingTitle:
-            "Preus del programari de gestió escolar | Des de 44 €/mes | Sense compromís | Edena",
+            "Preus Programari Gestió Escolar | Des de 44€/mes, Sense Permanència, Sense Lletra Petita | Edena",
         pricingDescription:
-            "Preu per alumne que s'adapta al teu centre. Sense quota d'alta, sense permanència, sense costos ocults. Des de 44 €/mes amb expedient digital, assistència i portal familiar. Prova gratuïta de 30 dies.",
-        faqsTitle: "Preguntes freqüents sobre gestió escolar | Edena",
+            "Pagament per alumne, sense quota d'alta ni permanència. Des de 44€/mes amb expedient digital, assistència i portal familiar. Afegeix només els mòduls que necessites. Prova gratis 30 dies.",
+        faqsTitle: "Preguntes Freqüents sobre Edena | Programari de Gestió Escolar",
         faqsDescription:
-            "Respostes clares sobre funcionalitats, preus, implementació, compliment Verifactu i seguretat de dades. Tot el que necessites saber abans de triar Edena per al teu centre.",
+            "Resol els teus dubtes sobre preus, funcionalitats, migració de dades, Verifactu i seguretat. Tot el que necessites saber abans de triar Edena per al teu centre.",
         dashboardTitle: "Panell de control escolar | Analítica en temps real | Edena",
         dashboardDescription:
             "Assistència, finances, matrícules i comunicacions en un sol panell actualitzat a l'instant. Detecta problemes abans que passin i pren decisions amb dades sempre vigents.",
@@ -22,25 +27,26 @@ export default {
         appTitle: "App mòbil per a col·legis | Comunicació famílies-centre | Edena Kids",
         appDescription:
             "App gratuïta per a famílies i professors a iOS i Android. Notificacions push, fotos segures, signatura digital de documents, notes i factures en un sol lloc.",
-        demoTitle: "Demo gratuïta de programari de gestió escolar | Edena",
+        demoTitle:
+            "Demo Gratuïta Sense Compromís | Veu Edena en Directe | Programari Gestió Escolar",
         demoDescription:
-            "Veure Edena en directe amb una demo personalitzada per al teu centre. Et mostrem exactament com encaixa en el teu dia a dia, sense compromís i sense pressió. Reserva en menys de 2 minuts.",
+            "Reserva una demo personalitzada per al teu centre en menys de 2 minuts. Sense compromís ni pressió. Et mostrem exactament com Edena encaixa en la gestió del teu dia a dia.",
         financeTitle:
-            "Programa de facturació escolar | Automatització financera per a centres | Edena",
+            "Programari de Facturació Escolar | Cobraments Automàtics i Verifactu Certificat | Edena",
         financeDescription:
-            "Automatitza factures, domiciliacions SEPA i seguiment de cobraments. Facturació electrònica certificada Verifactu, recordatoris automàtics d'impagament i informes financers complets.",
+            "Facturació automàtica, domiciliacions SEPA i control d'impagaments en temps real. Certificat Verifactu AEAT. Redueix la càrrega financera del teu equip administratiu un 40%.",
         guardiansTitle: "Portal de famílies per a col·legis | Comunicació centre-família | Edena",
         guardiansDescription:
             "Dóna a les famílies accés en temps real a notes, assistència, factures i novetats del centre. Missatgeria segura i signatura digital de documents. Incorporació de famílies en minuts.",
         familiesTitle: "Portal per a famílies | App gratuïta, facturació i botiga escolar | Edena",
         familiesDescription:
             "Tot l'escolar en una app gratuïta: notes, factures, missatges, fotos i la botiga del centre. Gestiona diversos fills des d'un sol compte, en qualsevol dispositiu.",
-        centersTitle: "Plataforma de gestió per a centres educatius | Edena",
+        centersTitle: "Plataforma Integral per a Centres Educatius | ERP Educatiu | Edena",
         centersDescription:
-            "Plataforma integral per a col·legis i escoles infantils: facturació automàtica, comunicació familiar, CRM, assistència digital i expedients. Redueix costos administratius fins a un 40%.",
-        crmTitle: "CRM escolar | Gestiona matrícules i captura famílies | Edena",
+            "ERP complet per a centres educatius: facturació automàtica, CRM de matrícules, comunicació familiar, assistència digital i expedients. Redueix costos administratius fins a un 40%.",
+        crmTitle: "CRM Escolar | Converteix Consultes en Matrícules | Edena",
         crmDescription:
-            "Fes el seguiment de cada sol·licitud des del primer contacte fins a la matrícula signada. Pipeline visual, formularis web i historial complet. Augmenta les conversions fins a un 35%.",
+            "Captura leads des de la teva web, gestiona cada sol·licitud en un pipeline visual i no perdis mai una oportunitat de matriculació. Formularis personalitzables i seguiment complet. +35% de conversió.",
         assignmentTitle: "Programa d'avaluacions escolars | Tasques i qualificacions | Edena",
         assignmentDescription:
             "Planifica tasques, configura cicles d'avaluació i genera butlletins automàticament. Les famílies veuen les notes en temps real. El teu equip docent redueix la càrrega de correcció un 40%.",
@@ -53,44 +59,46 @@ export default {
         cookiesTitle: "Política de galetes | Programa de gestió escolar Edena",
         cookiesDescription:
             "Comprend com Edena utilitza galetes per millorar la teva experiència amb la nostra plataforma de gestió escolar. Aprèn sobre tipus de galetes, ús i les teves opcions de privacitat.",
-        nurseryTitle: "Programa de gestió d'escoles infantils | Comunicació i facturació | Edena",
+        nurseryTitle:
+            "Programari per a Escoles Infantils | App Famílies, Fotos i Facturació Automàtica | Edena",
         nurseryDescription:
-            "Programa per a escoles infantils: app per a famílies, fotos diàries, facturació automàtica i expedients digitals. Redueix la càrrega administrativa un 40% des del primer dia.",
-        schoolsTitle: "Programa de gestió escolar per a col·legis | ERP educatiu | Edena",
+            "Dissenyat per a escoles infantils: comunicació diària amb famílies, fotos segures, facturació automàtica i expedients digitals. Redueix la càrrega administrativa un 40% des del primer dia.",
+        schoolsTitle: "Programari de Gestió per a Col·legis | ERP Educatiu Complet | Edena",
         schoolsDescription:
-            "ERP per a col·legis: expedients, notes, assistència, facturació automàtica i comunicació familiar en una sola plataforma. Per a primària, ESO i batxillerat.",
-        academiesTitle: "Programa per a acadèmies | Gestió, facturació i CRM | Edena",
+            "ERP per a col·legis de primària, ESO i batxillerat: expedients, notes, assistència, facturació Verifactu i comunicació familiar. Tot en una sola plataforma integrada.",
+        academiesTitle:
+            "Programari per a Acadèmies | Cobraments Automàtics, CRM i Gestió Integral | Edena",
         academiesDescription:
-            "Gestiona la teva acadèmia amb facturació automàtica, CRM de captació, control d'assistència i app per a famílies. Per a acadèmies d'idiomes, dansa, música i esport.",
-        groupsTitle: "Programa de gestió multi-centre | Grups i xarxes educatives | Edena",
+            "Gestiona la teva acadèmia amb cobraments automàtics, CRM de captació, control d'assistència i app gratuïta per a famílies. Per a acadèmies d'idiomes, dansa, música i esport.",
+        groupsTitle: "Gestió Multi-Centre per a Grups Educatius | ERP Educatiu | Edena",
         groupsDescription:
-            "Plataforma multi-centre per a grups educatius: panell unificat, facturació centralitzada i reporting consolidat en temps real. Gestiona tota la teva xarxa educativa des d'un sol lloc.",
+            "Gestiona tota la teva xarxa de centres des d'un únic panell: facturació centralitzada, reporting consolidat i operativa consistent a cada centre. Escala sense afegir càrrega administrativa.",
         contactTitle: "Contacte | Edena - Programa de gestió escolar",
         contactDescription:
             "Tens alguna pregunta sobre Edena? Posa't en contacte amb el nostre equip. Som aquí per ajudar-te a trobar la millor solució per al teu centre educatiu.",
     },
     hero: {
-        mainTitle: "Gestiona el teu centre sense la paperassa de sempre",
+        mainTitle: "L'ERP escolar que elimina el papeleo i automatitza els cobraments",
         mainDescription:
-            "Una sola plataforma per a facturació, expedients, assistència i comunicació amb les famílies. Els centres redueixen tasques administratives un 40% i milloren la satisfacció familiar un 60%. Prova gratuïta.",
+            "Facturació automàtica, expedients digitals, assistència i comunicació familiar en una sola plataforma. Els centres estalvien més de 15 hores setmanals i augmenten la satisfacció familiar un 60%. Sense permanència.",
         mobileTitle: "Connecta amb cada família, sense esforç extra",
         mobileDescription:
             "Notificacions push, fotos segures i actualitzacions en temps real, tot a l'app gratuïta d'Edena. Les famílies es mantenen informades sense feina extra per al teu equip.",
-        orgTitle: "Sense paper en 30 dies, garantit",
+        orgTitle: "Sense paper en 30 dies, amb la migració inclosa",
         orgDescription:
-            "Redueix els costos operatius un 25% amb el sistema de gestió escolar totalment digital d'Edena. Gestió documental automàtica, incorporació de famílies a l'instant i zero processos manuals des del primer dia.",
+            "Redueix els costos operatius un 25% amb el sistema de gestió escolar totalment digital d'Edena. Migració de dades, incorporació de famílies i formació de l'equip, tot a càrrec nostre.",
         verifactuCertified: "Certificat AEAT Verifactu",
     },
     setup: {
-        title: "Funcionant en dies, no en mesos",
+        title: "En marxa en 2 setmanes, amb el teu equip d'onboarding inclòs",
         description:
-            "La majoria de centres estan operatius amb Edena en només 2 setmanes. El nostre equip d'onboarding gestiona la migració de dades, la formació del personal i tota la configuració. El teu equip només ha de començar.",
+            "Migració de dades, formació del personal i configuració completa a càrrec nostre. La majoria de centres estan operatius amb Edena en només 2 setmanes, sense interrompre la seva activitat diària.",
         onboardingDescription:
             "Redueix el temps d'incorporació de famílies un 75% amb el nostre sistema automatitzat. Les famílies reben una invitació segura, signen digitalment i estan llestes en minuts, no en dies.",
         operationsDescription:
             "Visibilitat total sobre assistència, finances i comunicacions amb informes automàtics i panells personalitzables. Pren decisions més ràpides i encertades cada dia.",
         bookADemoCTA:
-            "Descobreix exactament com Edena encaixa al teu centre. Sol·licita una demo gratuïta sense cap compromís.",
+            "Reserva una demo gratis i descobreix exactament com Edena encaixa al teu centre. Sense compromís.",
     },
     cookieConsent: {
         title: "Galetes i analítica",
@@ -181,14 +189,14 @@ export default {
         messageMinLength: "El missatge ha de tenir almenys 10 caràcters",
     },
     conclusion: {
-        title: "El teu centre. Menys administració. Millors resultats.",
+        title: "Menys administració. Més matrícules. Més famílies satisfetes.",
         description:
-            "Uneix-te als centres que ja estalvien més de 15 hores setmanals amb Edena. Redueix costos administratius un 40%, augmenta la satisfacció familiar un 60% i gestiona estudiants, facturació i comunicació en una sola plataforma segura i intuïtiva.",
+            "Uneix-te als centres que ja estalvien més de 15 hores setmanals amb Edena. Redueix costos administratius un 40%, augmenta la satisfacció familiar un 60% i gestiona alumnes, cobraments i comunicació en una sola plataforma segura.",
     },
     bento: {
-        title: "Una plataforma. Totes les necessitats del teu centre.",
+        title: "Una plataforma. Tot el que necessita el teu centre.",
         description:
-            "Facturació, comunicació familiar, app mòbil, expedients d'alumnes i molt més: tot connectat en una sola plataforma dissenyada per com funcionen realment els centres educatius.",
+            "Facturació, comunicació familiar, app mòbil, expedients d'alumnes i molt més: tot connectat en una sola plataforma dissenyada per al dia a dia real dels centres educatius.",
         chat: {
             title: "Comunicació escolar",
             description:
@@ -223,9 +231,9 @@ export default {
         },
     },
     features: {
-        title: "Funcionalitats que transformen la gestió escolar",
+        title: "Tot el que necessites per gestionar el teu centre sense complicacions",
         description:
-            "Obtén el màxim rendiment del teu sistema de gestió escolar amb la plataforma integral d'Edena.",
+            "De la matrícula al butlletí, de l'assistència al cobrament: Edena centralitza tota l'operativa del teu centre en una sola plataforma intuïtiva.",
         digitalRecords: {
             title: "Expedients digitals",
             tagline: "Gestiona tota la informació estudiantil de forma segura i organitzada.",
@@ -557,7 +565,7 @@ export default {
             dataSecurity: {
                 title: "Seguretat de dades",
                 tagline:
-                    "Protecció avançada de dades amb xifratge, compliment RGPD i còpies de seguretat automàtiques.",
+                    "Protecció avançada de dades amb xifratge, compliment GDPR i còpies de seguretat automàtiques.",
             },
         },
         reportingTools: {
@@ -574,7 +582,7 @@ export default {
         },
         keyFeaturesTabsTitle: "Les 6 claus de la nostra plataforma",
         keyFeaturesTabsDescription:
-            "Descobreix les funcionalitats més potents que t'ajudaran a gestionar i escalar la teva organització educativa.",
+            "Les funcionalitats que més temps estalvien als equips de direcció i administració de centres educatius.",
         keyFeaturesTabsGoToFeature: "Anar a la funcionalitat",
         keyFeaturesTabs: [
             {
@@ -608,6 +616,126 @@ export default {
                     "Crea formularis de preinscripció i captació sense programar. Arrossega components, defineix camps i opcions, i publica en minuts. Text curt, correu, telèfon, desplegables, caselles i més.",
             },
         ],
+    },
+    enaSection: {
+        badge: "Ena",
+        title: "Ena treballa on treballa el teu centre educatiu",
+        description:
+            "Ena és l'agent d'intel·ligència artificial d'Edena. Automatitza processos, genera factures, crea conceptes i respon les preguntes de tota la teva organització escolar.",
+        cards: {
+            agent: {
+                label: "@Ena Agent",
+                title: "Utilitza @Ena com a assistent intel·ligent disponible 24/7.",
+                prompt: "Quants alumnes nous tenim aquest mes?",
+                response:
+                    "Aquest mes s'han matriculat 12 alumnes nous. Vols veure el desglossament per curs?",
+            },
+            automate: {
+                label: "Automatització",
+                title: "Automatitza factures, conceptes i tasques administratives repetitives.",
+                prompt: "Genera les factures de març per a totes les famílies.",
+                response: "He preparat 847 factures llestes per revisar i enviar. Les envio ara?",
+            },
+            organization: {
+                label: "Tota l'organització",
+                title: "Respon a direcció, administració, docents i famílies.",
+                prompt: "Quin és el protocol d'absentisme del centre?",
+                response:
+                    "Et resumeixo el protocol i els passos segons el vostre reglament intern. El comparteixo amb l'equip?",
+            },
+        },
+        highlight: {
+            title: "Automatitza el que més temps consumeix al teu equip",
+            replaces: "Missatges, assistència i recursos humans",
+            description:
+                "Ena redacta comunicats, passa llista i gestiona processos de RRHH directament a Edena. Menys tasques repetitives, més temps per a l'educació.",
+            tasks: [
+                "Comunicat a famílies sobre l'excursió enviat",
+                "Assistència del grup 3rA registrada automàticament",
+                "Sol·licitud de baixa del professorat tramitada a RRHH",
+            ],
+        },
+        trust: {
+            titleBold: "Seguretat enterprise",
+            titleMuted: "de sèrie",
+            description: "Seguretat integrada i IA amb més privacitat que un xatbot genèric",
+            support: "Suport 24/7",
+            badges: {
+                soc2: "SOC 2 TYPE II",
+                iso27001: "ISO 27001",
+                gdpr: "GDPR",
+                hipaa: "HIPAA",
+            },
+        },
+    },
+    wallOfFeatures: {
+        title: "Tot el que necessita el teu centre, sense eines extra",
+        description:
+            "Des d'expedients digitals fins a facturació automàtica amb Verifactu, Edena centralitza tota la gestió perquè el teu equip es centri en el que importa: l'educació.",
+        main: {
+            students: {
+                name: "Gestió d'Alumnes",
+                description: "Expedients digitals, assistència i seguiment acadèmic complet",
+            },
+            guardians: {
+                name: "Portal Familiar",
+                description: "App gratuïta per a famílies amb notes, factures i missatgeria",
+            },
+            ai: {
+                name: "Ena",
+                description: "Intel·ligència artificial aplicada a la gestió educativa",
+            },
+            finance: {
+                name: "Suite Financera",
+                description: "Facturació automàtica, cobraments i Verifactu certificat",
+            },
+        },
+        items: {
+            attendance: "Assistència",
+            grades: "Qualificacions",
+            reportCards: "Butlletins",
+            crm: "CRM Matrícules",
+            tasks: "Tasques",
+            communication: "Comunicació",
+            messaging: "Missatgeria",
+            notifications: "Notificacions",
+            digitalSignature: "Signatura Digital",
+            billing: "Facturació",
+            payments: "Pagaments",
+            directDebit: "Domiciliacions",
+            reports: "Informes",
+            verifactu: "Verifactu",
+            controlPanel: "Panell de Control",
+            analytics: "Analytics",
+            calendar: "Calendari",
+            schedules: "Horaris",
+            groups: "Grups",
+            multiCenter: "Multi-centre",
+            documents: "Documents",
+            files: "Arxius",
+            securePhotos: "Fotos Segures",
+            health: "Salut",
+            authorizations: "Autoritzacions",
+            permissions: "Permisos",
+            teacherPortal: "Portal Docent",
+            assessments: "Avaluacions",
+            rubrics: "Rúbriques",
+            goals: "Objectius",
+            gdpr: "GDPR",
+            api: "API",
+            support: "Suport 24/7",
+            onboarding: "Onboarding",
+            import: "Importació",
+            export: "Exportació",
+            familyApp: "App Famílies",
+            pushAlerts: "Alertes Push",
+            multiDevice: "Multi-dispositiu",
+            roles: "Rols",
+            history: "Historial",
+            schoolShop: "Botiga Escolar",
+            languages: "Idiomes",
+            allergies: "Al·lèrgies",
+        },
     },
     carousel: {
         title: "Descobreix el poder de la gestió escolar intel·ligent",
@@ -655,9 +783,9 @@ export default {
         },
     },
     pricing: {
-        title: "Preus senzills i transparents per a cada centre",
+        title: "Preus clars, sense lletra petita",
         description:
-            "Preu per alumne que creix amb el teu centre. Sense quota d'alta, sense permanència, sense costos ocults. Comença només amb els mòduls que necessites.",
+            "Pagament per alumne que creix amb el teu centre. Sense quota d'alta, sense permanència, sense costos ocults. Comença només amb els mòduls que necessites, des de 44€/mes.",
         mostPopular: "Més popular",
         viewPlans: "Plans",
         viewCalculator: "Calculadora",
@@ -908,7 +1036,7 @@ export default {
     faqs: {
         title: "Preguntes freqüents sobre Edena",
         description:
-            "Respostes clares sobre funcionalitats, preus, implementació, Verifactu, seguretat de dades i com Edena transforma la gestió del teu centre educatiu.",
+            "Resol els teus dubtes sobre funcionalitats, preus, implementació, Verifactu i seguretat de dades. Tot el que necessites saber per prendre la millor decisió per al teu centre.",
         guardians: {
             title: "Preguntes freqüents sobre Edena per a famílies i tutors",
             description:
@@ -955,7 +1083,7 @@ export default {
             "La invitació es fa mitjançant correu electrònic amb un enllaç segur per completar el registre i establir les seves credencials.",
         guardian_data_privacy: "Com es protegeix la privacitat de les dades dels tutors?",
         guardian_data_privacy_answer:
-            "Totes les dades estan xifrades i compleixen la normativa RGPD. Només el personal autoritzat pot accedir a la informació dels tutors.",
+            "Totes les dades estan xifrades i compleixen la normativa GDPR. Només el personal autoritzat pot accedir a la informació dels tutors.",
         guardian_multiple_children: "Pot un tutor gestionar diversos fills des d'un sol compte?",
         guardian_multiple_children_answer:
             "Sí, un tutor pot gestionar la informació i activitats de tots els seus fills des d'un únic perfil.",
@@ -1144,7 +1272,7 @@ export default {
             "Sí, assigna cada lead a un membre de l'equip per distribuir la feina i assegurar un seguiment personalitzat de cada família interessada.",
         crm_data_security: "Com es protegeixen les dades del CRM?",
         crm_data_security_answer:
-            "Totes les dades estan xifrades i compleixen la normativa RGPD. Només el personal autoritzat pot accedir a la informació de les sol·licituds.",
+            "Totes les dades estan xifrades i compleixen la normativa GDPR. Només el personal autoritzat pot accedir a la informació de les sol·licituds.",
         students: {
             title: "Preguntes freqüents sobre gestió d'estudiants a Edena",
             description:
@@ -1167,7 +1295,7 @@ export default {
             "Sí, pots crear, inscriure i gestionar activitats des del panell d'estudiants.",
         students_data_privacy: "Com es protegeix la privacitat de les dades dels estudiants?",
         students_data_privacy_answer:
-            "Totes les dades compleixen la normativa RGPD i estan protegides mitjançant xifratge avançat.",
+            "Totes les dades compleixen la normativa GDPR i estan protegides mitjançant xifratge avançat.",
         students_support_services: "Quins serveis de suport ofereix Edena als estudiants?",
         students_support_services_answer:
             "Inclou seguiment acadèmic, orientació i suport personalitzat per a cada estudiant.",
@@ -1208,7 +1336,7 @@ export default {
             "Sí, des d'un únic compte pots gestionar la informació, facturació i comunicació de tots els teus fills, independentment del centre educatiu al qual assisteixin.",
         families_data_security: "Com es protegeixen les dades de la meva família?",
         families_data_security_answer:
-            "Totes les dades estan protegides amb xifratge avançat i compleixen la normativa RGPD. Només el personal autoritzat del centre i tu podeu accedir a la informació dels teus fills.",
+            "Totes les dades estan protegides amb xifratge avançat i compleixen la normativa GDPR. Només el personal autoritzat del centre i tu podeu accedir a la informació dels teus fills.",
         families_support: "Quin suport tinc disponible com a família?",
         families_support_answer:
             "Pots contactar amb el nostre equip de suport a través de xat, correu o des de l'app mòbil. També disposes d'una secció d'ajuda amb guies i tutorials per resoldre dubtes comuns.",
@@ -1257,7 +1385,7 @@ export default {
             "Edena centralitza tota la informació estudiantil: expedients acadèmics, assistència, qualificacions, comunicació amb famílies, facturació i documents. Tot accessible des d'un únic sistema.",
         centers_data_security: "Com garanteix Edena la seguretat de les dades?",
         centers_data_security_answer:
-            "Edena utilitza xifratge avançat, compleix la normativa RGPD, fa còpies de seguretat automàtiques i manté controls d'accés estrictes per garantir la màxima seguretat de les dades del centre i les famílies.",
+            "Edena utilitza xifratge avançat, compleix la normativa GDPR, fa còpies de seguretat automàtiques i manté controls d'accés estrictes per garantir la màxima seguretat de les dades del centre i les famílies.",
         centers_integration_options: "Es pot integrar amb altres sistemes?",
         centers_integration_options_answer:
             "Sí, Edena permet integracions amb sistemes de comptabilitat, plataformes de comunicació externes i altres programaris educatius mitjançant APIs i exportació de dades en formats estàndard.",
@@ -1273,15 +1401,17 @@ export default {
     },
     privacyPolicy: {
         title: "Política de privacitat",
-        content: `Última actualització: 17 d'abril de 2026<br>
+        content: `Última actualització: 2 de juny de 2026<br>
 <br>
 1. INTRODUCCIÓ I OBJECTE<br>
-A Edena ens comprometem a protegir la privacitat de tots els usuaris de la nostra plataforma i a ser completament transparents sobre com tractem les dades personals. Aquesta Política de privacitat descriu les pràctiques de tractament de dades d'Edena Software S.L. en relació amb l'ús de la plataforma Edena i d'aquest lloc web, de conformitat amb el Reglament (UE) 2016/679 (RGPD), la Llei orgànica 3/2018, de 5 de desembre, de Protecció de Dades Personals i garantia dels drets digitals (LOPDGDD), i la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i de Comerç Electrònic (LSSI).<br>
+A Edena ens comprometem a protegir la privacitat de tots els usuaris de la nostra plataforma i a ser completament transparents sobre com tractem les dades personals. Aquesta Política de privacitat descriu les pràctiques de tractament de dades d'Edena Software S.L. en relació amb l'ús de la plataforma Edena i d'aquest lloc web, de conformitat amb el Reglament (UE) 2016/679 (GDPR), la Llei orgànica 3/2018, de 5 de desembre, de Protecció de Dades Personals i garantia dels drets digitals (LOPDGDD), i la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i de Comerç Electrònic (LSSI).<br>
 <br>
 Edena és una plataforma de gestió educativa integral dissenyada per a centres educatius (col·legis, escoles bressol, acadèmies i grups educatius). En tant que plataforma que gestiona dades de menors d'edat, alumnes i famílies, apliquem les màximes garanties de privacitat i seguretat.<br>
 <br>
 2. RESPONSABLE DEL TRACTAMENT<br>
 Raó social: Edena Software S.L.<br>
+CIF/NIF: B27627462<br>
+DUNS: 373964745<br>
 Domicili: Barcelona, Espanya<br>
 Correu electrònic: privacidad@edena.es<br>
 Lloc web: www.edena.es<br>
@@ -1313,20 +1443,20 @@ Dades: dades de navegació, adreça IP (anonimitzada), pàgines visitades, durad
 Finalitat: anàlisi de l'ús del lloc web, millora de l'experiència d'usuari i atenció a sol·licituds d'informació.<br>
 <br>
 5. FINALITATS DEL TRACTAMENT I BASE JURÍDICA<br>
-a) Gestió del contracte i prestació del servei — Base: execució d'un contracte (art. 6.1.b RGPD).<br>
-b) Gestió acadèmica i expedients d'alumnes — Base: execució d'un contracte / interès legítim del centre (art. 6.1.b i 6.1.f RGPD).<br>
-c) Comunicació entre el centre i les famílies — Base: execució d'un contracte / interès legítim (art. 6.1.b i 6.1.f RGPD).<br>
-d) Facturació i gestió de pagaments — Base: execució d'un contracte / obligació legal (art. 6.1.b i 6.1.c RGPD).<br>
-e) Enviament de comunicacions comercials sobre Edena — Base: consentiment (art. 6.1.a RGPD). Es pot revocar en qualsevol moment.<br>
-f) Compliment d'obligacions legals fiscals, laborals i mercantils — Base: obligació legal (art. 6.1.c RGPD).<br>
-g) Millora de la plataforma i anàlisi estadística anonimitzada — Base: interès legítim (art. 6.1.f RGPD).<br>
+a) Gestió del contracte i prestació del servei. Base: execució d'un contracte (art. 6.1.b GDPR).<br>
+b) Gestió acadèmica i expedients d'alumnes. Base: execució d'un contracte / interès legítim del centre (art. 6.1.b i 6.1.f GDPR).<br>
+c) Comunicació entre el centre i les famílies. Base: execució d'un contracte / interès legítim (art. 6.1.b i 6.1.f GDPR).<br>
+d) Facturació i gestió de pagaments. Base: execució d'un contracte / obligació legal (art. 6.1.b i 6.1.c GDPR).<br>
+e) Enviament de comunicacions comercials sobre Edena. Base: consentiment (art. 6.1.a GDPR). Es pot revocar en qualsevol moment.<br>
+f) Compliment d'obligacions legals fiscals, laborals i mercantils. Base: obligació legal (art. 6.1.c GDPR).<br>
+g) Millora de la plataforma i anàlisi estadística anonimitzada. Base: interès legítim (art. 6.1.f GDPR).<br>
 <br>
 6. TRACTAMENT ESPECIAL: DADES DE MENORS D'EDAT<br>
-Edena és plenament conscient de l'especial sensibilitat que implica el tractament de dades personals de menors. En compliment de l'article 8 del RGPD i de l'article 7 de la LOPDGDD:<br>
+Edena és plenament conscient de l'especial sensibilitat que implica el tractament de dades personals de menors. En compliment de l'article 8 del GDPR i de l'article 7 de la LOPDGDD:<br>
 <br>
 - Els centres educatius, en qualitat de responsables del tractament de les dades dels seus alumnes, són els qui recapten el consentiment dels pares o tutors legals per al tractament de dades de menors de 14 anys.<br>
 - Edena actua com a encarregat del tractament respecte a les dades d'alumnes introduïdes pel centre educatiu, seguint les instruccions d'aquest.<br>
-- Les dades de salut i altres categories especials de dades d'alumnes (art. 9 RGPD) només es tracten quan el centre les introdueix expressament i existeix una base jurídica específica (consentiment explícit o necessitat per a la prestació del servei educatiu).<br>
+- Les dades de salut i altres categories especials de dades d'alumnes (art. 9 GDPR) només es tracten quan el centre les introdueix expressament i existeix una base jurídica específica (consentiment explícit o necessitat per a la prestació del servei educatiu).<br>
 - Edena no utilitza les dades de menors per a cap finalitat diferent de les estrictament educatives i de gestió del centre.<br>
 <br>
 7. CONSERVACIÓ DE LES DADES<br>
@@ -1343,18 +1473,18 @@ Transcorreguts aquests terminis, les dades seran eliminades o anonimitzades de f
 8. DESTINATARIS I ENCARREGATS DEL TRACTAMENT<br>
 Edena no ven ni cedeix dades personals a tercers amb finalitats comercials. Les dades únicament poden ser comunicades a:<br>
 <br>
-- Proveïdors tecnològics i d'infraestructura cloud (hosting, bases de dades) que actuen com a encarregats del tractament sota contractes que compleixen el RGPD.<br>
+- Proveïdors tecnològics i d'infraestructura cloud (hosting, bases de dades) que actuen com a encarregats del tractament sota contractes que compleixen el GDPR.<br>
 - Proveïdors de serveis de pagament certificats (PCI DSS) per a la gestió de cobraments i facturació.<br>
 - Proveïdors d'anàlisi i monitorització del servei, sempre de forma anonimitzada o agregada.<br>
 - Autoritats i organismes públics, exclusivament en compliment d'obligacions legals.<br>
 <br>
-Tots els nostres proveïdors estan sotmesos a acords de confidencialitat i contractes d'encàrrec del tractament que garanteixen el compliment del RGPD.<br>
+Tots els nostres proveïdors estan sotmesos a acords de confidencialitat i contractes d'encàrrec del tractament que garanteixen el compliment del GDPR.<br>
 <br>
 9. TRANSFERÈNCIES INTERNACIONALS DE DADES<br>
-Amb caràcter general, les dades s'allotgen en servidors ubicats a l'Espai Econòmic Europeu (EEE). En els casos excepcionals en què sigui necessària una transferència internacional fora de l'EEE, Edena garanteix que s'adopten les salvaguardes adequades previstes al RGPD, com les clàusules contractuals tipus aprovades per la Comissió Europea o l'existència d'una decisió d'adequació.<br>
+Amb caràcter general, les dades s'allotgen en servidors ubicats a l'Espai Econòmic Europeu (EEE). En els casos excepcionals en què sigui necessària una transferència internacional fora de l'EEE, Edena garanteix que s'adopten les salvaguardes adequades previstes al GDPR, com les clàusules contractuals tipus aprovades per la Comissió Europea o l'existència d'una decisió d'adequació.<br>
 <br>
 10. DRETS DELS INTERESSATS<br>
-D'acord amb el RGPD i la LOPDGDD, els usuaris poden exercir els drets següents:<br>
+D'acord amb el GDPR i la LOPDGDD, els usuaris poden exercir els drets següents:<br>
 <br>
 - Dret d'accés: conèixer quines dades personals tractem sobre vostè.<br>
 - Dret de rectificació: corregir dades inexactes o incompletes.<br>
@@ -1367,9 +1497,9 @@ D'acord amb el RGPD i la LOPDGDD, els usuaris poden exercir els drets següents:
 <br>
 Per exercir qualsevol d'aquests drets, envieu una sol·licitud a privacidad@edena.es indicant el vostre nom, cognoms i una còpia del vostre document d'identitat. Respondrem en el termini màxim d'un mes.<br>
 <br>
-Si considereu que els vostres drets no han estat atesos adequadament, teniu dret a presentar una reclamació davant l'Agència Espanyola de Protecció de Dades (AEPD) — www.aepd.es.<br>
+Si considereu que els vostres drets no han estat atesos adequadament, teniu dret a presentar una reclamació davant l'Agència Espanyola de Protecció de Dades (AEPD): www.aepd.es.<br>
 <br>
-11. MESURES DE SEGURETAT<br>
+11. MESURES DE SEGURETAT I ESTÀNDARDS DE COMPLIMENT<br>
 Edena implementa mesures tècniques i organitzatives apropiades per garantir un nivell de seguretat adequat al risc, incloent-hi:<br>
 <br>
 - Xifratge de dades en trànsit (TLS/HTTPS) i en repòs.<br>
@@ -1381,6 +1511,15 @@ Edena implementa mesures tècniques i organitzatives apropiades per garantir un 
 - Avaluacions d'impacte (DPIA) per a tractaments d'alt risc.<br>
 <br>
 En cas que es produeixi una bretxa de seguretat que afecti drets i llibertats dels interessats, Edena notificarà l'autoritat de control en el termini de 72 hores i, quan sigui necessari, informarà els propis afectats.<br>
+<br>
+Quan la bretxa afecti Informació de Salut Protegida (PHI) en el marc de la HIPAA, Edena seguirà addicionalment els procediments de notificació de bretxes exigits per aquesta normativa (HIPAA Breach Notification Rule, 45 CFR §§ 164.400–414).<br>
+<br>
+Edena compleix els estàndards de seguretat següents i ha implementat els controls corresponents:<br>
+<br>
+- SOC 2 Tipus II (AICPA): els controls i processos d'Edena estan dissenyats d'acord amb el marc SOC 2 Tipus II (seguretat, disponibilitat, confidencialitat, integritat del processament i privacitat). La documentació dels nostres controls està disponible sota NDA per a clients que ho sol·licitin a privacidad@edena.es.<br>
+- ISO/IEC 27001: Edena implementa un Sistema de Gestió de Seguretat de la Informació (SGSI) alineat amb els requisits de la norma ISO/IEC 27001, amb processos documentats subjectes a millora contínua.<br>
+- HIPAA (Health Insurance Portability and Accountability Act, EUA): Edena implementa les salvaguardes tècniques, administratives i físiques (45 CFR Part 164) requerides per la HIPAA per a la protecció de la Informació de Salut Protegida (PHI). Les dades de salut dels alumnes (al·lèrgies, necessitats educatives especials i altres condicions mèdiques) es tracten amb els màxims estàndards de seguretat, de conformitat amb la HIPAA i l'article 9 del GDPR.<br>
+- GDPR/LOPDGDD: compliment íntegre del Reglament (UE) 2016/679 i la Llei orgànica 3/2018. Les bases jurídiques, els drets dels interessats i les mesures de seguretat es descriuen detalladament en aquesta Política de privacitat.<br>
 <br>
 12. EXACTITUD I VERACITAT DE LES DADES<br>
 L'usuari es compromet a proporcionar dades verídiques, exactes i actualitzades. Edena no serà responsable dels perjudicis que poguessin derivar-se de l'ús de dades inexactes o falses facilitades per l'usuari. Si les dades varien, l'usuari haurà de comunicar-ho com més aviat possible a privacidad@edena.es.<br>
@@ -1395,14 +1534,23 @@ Correu electrònic: privacidad@edena.es<br>
 Per a reclamacions davant l'autoritat de control competent:<br>
 Agència Espanyola de Protecció de Dades (AEPD)<br>
 C/ Jorge Juan, 6, 28001 Madrid<br>
-www.aepd.es`,
+www.aepd.es<br>
+<br>
+15. HIPAA: BUSINESS ASSOCIATE AGREEMENT (BAA)<br>
+Quan Edena processa, per compte d'un centre educatiu, Informació de Salut Protegida (PHI) de persones subjectes a la Health Insurance Portability and Accountability Act (HIPAA) dels Estats Units, Edena actuarà com a Business Associate en el sentit de 45 CFR § 160.103.<br>
+<br>
+En aquests casos, el centre educatiu (com a entitat coberta o Business Associate principal) haurà de subscriure un Business Associate Agreement (BAA) amb Edena de conformitat amb els requisits de 45 CFR § 164.504(e) abans d'iniciar qualsevol tractament de PHI a la Plataforma.<br>
+<br>
+Per sol·licitar la signatura d'un BAA, poseu-vos en contacte amb: privacitat@edena.es, especificant la naturalesa de les dades de salut a tractar i l'abast del servei requerit.<br>
+<br>
+Les dades de salut dels alumnes tractades sota la legislació espanyola (al·lèrgies, necessitats educatives especials o altres condicions mèdiques) constitueixen dades de categoria especial en virtut de l'article 9 del GDPR, i el seu tractament es basa en el consentiment explícit de l'interessat o del seu representant legal, o en la necessitat d'aquest tractament per a la prestació dels serveis educatius, amb les màximes garanties de seguretat tècnica i organitzativa.`,
     },
     termsOfService: {
         title: "Termes i condicions d'ús",
-        content: `Última actualització: 17 d'abril de 2026<br>
+        content: `Última actualització: 2 de juny de 2026<br>
 <br>
 1. OBJECTE I ACCEPTACIÓ<br>
-Aquests Termes i Condicions d'ús (d'ara endavant, "els Termes") regulen l'accés i l'ús de la plataforma Edena (d'ara endavant, "la Plataforma"), propietat d'Edena Software S.L. (d'ara endavant, "Edena"). En registrar-se, accedir o utilitzar la Plataforma, l'usuari o el centre educatiu (d'ara endavant, "el Client") accepta quedar vinculat per aquests Termes en la versió vigent en cada moment.<br>
+Aquests Termes i Condicions d'ús (d'ara endavant, "els Termes") regulen l'accés i l'ús de la plataforma Edena (d'ara endavant, "la Plataforma"), propietat d'Edena Software S.L. (CIF: B27627462; DUNS: 373964745) (d'ara endavant, "Edena"). En registrar-se, accedir o utilitzar la Plataforma, l'usuari o el centre educatiu (d'ara endavant, "el Client") accepta quedar vinculat per aquests Termes en la versió vigent en cada moment.<br>
 <br>
 Si l'usuari actua en nom d'un centre educatiu o organització, declara tenir autoritat suficient per acceptar aquests Termes en nom d'aquesta entitat.<br>
 <br>
@@ -1466,7 +1614,7 @@ Edena es compromet a:<br>
 - Notificar al Client qualsevol incident de seguretat que pugui afectar les seves dades, dins del termini establert per la normativa aplicable.<br>
 <br>
 7. TRACTAMENT DE DADES PERSONALS<br>
-En el marc de la prestació del servei, el Client actua com a responsable del tractament de les dades personals d'alumnes, famílies i personal que introdueix a la Plataforma. Edena actua com a encarregat del tractament d'aquestes dades, en virtut del Contracte d'Encàrrec del Tractament (CET) que s'integra en aquests Termes i que compleix els requisits de l'article 28 del RGPD.<br>
+En el marc de la prestació del servei, el Client actua com a responsable del tractament de les dades personals d'alumnes, famílies i personal que introdueix a la Plataforma. Edena actua com a encarregat del tractament d'aquestes dades, en virtut del Contracte d'Encàrrec del Tractament (CET) que s'integra en aquests Termes i que compleix els requisits de l'article 28 del GDPR.<br>
 <br>
 El tractament de dades derivat de l'ús d'aquest lloc web i de la relació comercial amb Edena es regeix per la Política de privacitat disponible a www.edena.es/privacitat.<br>
 <br>
@@ -1516,17 +1664,30 @@ Si alguna clàusula d'aquests Termes fos declarada nul·la o inaplicable, les re
 14. CONTACTE<br>
 Per a qualsevol consulta relacionada amb aquests Termes i Condicions:<br>
 Correu electrònic: privacidad@edena.es<br>
-Lloc web: www.edena.es`,
+Lloc web: www.edena.es<br>
+<br>
+15. ESTÀNDARDS DE SEGURETAT I BUSINESS ASSOCIATE AGREEMENT (BAA) HIPAA<br>
+<br>
+15.1 Estàndards i marcs de seguretat aplicats<br>
+Edena compleix els estàndards i marcs de seguretat següents:<br>
+- SOC 2 Tipus II (AICPA): els controls d'Edena estan dissenyats d'acord amb el marc SOC 2 Tipus II. Documentació disponible sota NDA a sol·licitud.<br>
+- ISO/IEC 27001: Edena implementa un SGSI alineat amb els requisits de la norma ISO/IEC 27001.<br>
+- HIPAA: implementació de les salvaguardes tècniques, administratives i físiques requerides per 45 CFR Part 164 per al tractament d'Informació de Salut Protegida (PHI).<br>
+- GDPR/LOPDGDD: compliment íntegre de la normativa europea i espanyola de protecció de dades, detallada a la Política de privacitat d'Edena (www.edena.es/privacitat).<br>
+<br>
+15.2 Business Associate Agreement (BAA), HIPAA<br>
+Quan el Client sigui una entitat coberta o Business Associate en virtut de 45 CFR § 160.103 i pretengui tractar Informació de Salut Protegida (PHI) de ciutadans nord-americans a la Plataforma, Edena actuarà com a Business Associate. En aquests casos, el Client haurà de subscriure un Business Associate Agreement (BAA) amb Edena de conformitat amb 45 CFR § 164.504(e) abans de tractar qualsevol PHI a la Plataforma.<br>
+Per sol·licitar la signatura d'un BAA, el Client ha de posar-se en contacte amb privacitat@edena.es especificant la naturalesa de les dades de salut i l'abast del servei. Edena respondrà en un termini màxim de 5 dies hàbils.`,
     },
     cookiePolicy: {
         title: "Política de galetes",
-        content: `Última actualització: 17 d'abril de 2026<br>
+        content: `Última actualització: 2 de juny de 2026<br>
 <br>
 1. QUÈ SÓN LES GALETES (COOKIES)?<br>
 Les galetes (cookies) són petits fitxers de text que els llocs web emmagatzemen al dispositiu de l'usuari (ordinador, tauleta, telèfon intel·ligent) quan els visita. Permeten al lloc recordar les preferències de l'usuari, analitzar el comportament de navegació, millorar l'experiència d'ús i, en determinats casos, mostrar publicitat personalitzada.<br>
 <br>
 2. QUI ÉS EL RESPONSABLE DE L'ÚS DE GALETES EN AQUEST LLOC?<br>
-El responsable del lloc web www.edena.es i de l'ús de galetes és Edena Software S.L. Per a qualsevol consulta relacionada amb aquesta política, podeu contactar-nos a privacidad@edena.es.<br>
+El responsable del lloc web www.edena.es i de l'ús de galetes és Edena Software S.L. (CIF: B27627462) Per a qualsevol consulta relacionada amb aquesta política, podeu contactar-nos a privacidad@edena.es.<br>
 <br>
 3. TIPUS DE GALETES QUE UTILITZEM<br>
 En funció de la seva finalitat, les galetes que podeu trobar al nostre lloc web es classifiquen de la manera següent:<br>
@@ -1554,13 +1715,13 @@ Cadascun d'aquests proveïdors té les seves pròpies polítiques de privacitat 
 4. TAULA DE GALETES UTILITZADES<br>
 A continuació es detallen les principals galetes utilitzades en aquest lloc:<br>
 <br>
-- _ga / _gid: Google Analytics — anàlisi d'ús — durada: fins a 2 anys.<br>
-- _gat: Google Analytics — control de freqüència de sol·licituds — durada: 1 minut.<br>
-- edena_session: sessió d'usuari — autenticació — durada: sessió.<br>
-- edena_lang: preferència d'idioma — personalització — durada: 1 any.<br>
-- edena_theme: preferència de tema visual — personalització — durada: 1 any.<br>
-- cookie_consent: registre del consentiment de galetes — necessària — durada: 1 any.<br>
-- _hjid: Hotjar — identificació d'usuari per a l'anàlisi de comportament — durada: 1 any.<br>
+- _ga / _gid: Google Analytics (anàlisi d'ús; durada: fins a 2 anys).<br>
+- _gat: Google Analytics (control de freqüència de sol·licituds; durada: 1 minut).<br>
+- edena_session: sessió d'usuari (autenticació; durada: sessió).<br>
+- edena_lang: preferència d'idioma (personalització; durada: 1 any).<br>
+- edena_theme: preferència de tema visual (personalització; durada: 1 any).<br>
+- cookie_consent: registre del consentiment de galetes (necessària; durada: 1 any).<br>
+- _hjid: Hotjar (identificació d'usuari per a l'anàlisi de comportament; durada: 1 any).<br>
 <br>
 5. COM PUC GESTIONAR O DESACTIVAR LES GALETES?<br>
 L'usuari pot, en qualsevol moment, acceptar, rebutjar o retirar el seu consentiment a l'ús de galetes a través del panell de preferències de galetes disponible al nostre lloc web (botó "Gestionar galetes" al peu de pàgina).<br>
@@ -1581,7 +1742,7 @@ Les galetes estrictament necessàries no requereixen consentiment previ i s'inst
 Podeu revocar o modificar el vostre consentiment en qualsevol moment accedint al panell de preferències de galetes disponible al peu de pàgina del nostre lloc web.<br>
 <br>
 7. TRANSFERÈNCIES INTERNACIONALS<br>
-Alguns proveïdors de galetes de tercers (com Google) poden tractar dades en servidors ubicats fora de l'Espai Econòmic Europeu (EEE). En aquests casos, aquests proveïdors es regeixen per mecanismes de transferència adequats d'acord amb el RGPD (clàusules contractuals tipus, decisions d'adequació, etc.).<br>
+Alguns proveïdors de galetes de tercers (com Google) poden tractar dades en servidors ubicats fora de l'Espai Econòmic Europeu (EEE). En aquests casos, aquests proveïdors es regeixen per mecanismes de transferència adequats d'acord amb el GDPR (clàusules contractuals tipus, decisions d'adequació, etc.).<br>
 <br>
 8. ACTUALITZACIONS D'AQUESTA POLÍTICA<br>
 Edena podrà actualitzar aquesta Política de galetes per adaptar-la a canvis legislatius, noves funcionalitats del lloc o canvis en els serveis de tercers utilitzats. La data d'última actualització al principi d'aquest document reflecteix sempre la versió vigent. Us recomanem revisar-la periòdicament.<br>
@@ -1616,7 +1777,7 @@ Per a més informació sobre les galetes i la seva gestió, podeu consultar la g
     dashboard: {
         mainTitle: "Cada mètrica del teu centre, actualitzada en temps real",
         mainDescription:
-            "Assistència, finances, matrícules i comunicacions en un sol panell. Detecta problemes abans que creixin i pren millors decisions amb dades sempre actualitzades.",
+            "Assistència, cobraments, matrícules i comunicacions en un únic panell actualitzat a l'instant. Detecta problemes abans que creixin i pren millors decisions amb dades sempre al dia.",
         quickActionsTitle: "Accions ràpides",
         quickActionsDescription:
             "Accedeix a les tasques més comunes a l'instant. Genera factures, gestiona esdeveniments del calendari, envia invitacions i gestiona operacions diàries amb un sol clic.",
@@ -1654,9 +1815,9 @@ Per a més informació sobre les galetes i la seva gestió, podeu consultar la g
             "Seguiment visual de qualificacions per estudiant, assignatura o grup. Mitjanes ponderades, rúbriques i càlculs automàtics per a butlletins.",
     },
     students: {
-        mainTitle: "Gestió d'alumnes que estalvia hores al teu equip cada setmana",
+        mainTitle: "Expedients, assistència i cobraments. Tot en un sol lloc.",
         mainDescription:
-            "Centralitza tota la informació dels teus estudiants des de la matrícula. Expedients digitals, assistència automàtica, qualificacions i facturació en un sol lloc. Redueix tasques administratives un 40%.",
+            "Centralitza tota la informació dels teus alumnes des de la matriculació. Expedients digitals, assistència automàtica, qualificacions i facturació integrats. Redueix tasques administratives un 40%.",
         studentDetailTitle: "Expedients digitals",
         studentDetailDescription:
             "Gestiona expedients, historial acadèmic i comunicació amb famílies. Plataforma unificada que optimitza la gestió administrativa i millora l'experiència educativa.",
@@ -1708,12 +1869,12 @@ Per a més informació sobre les galetes i la seva gestió, podeu consultar la g
         billingCycleTitle: "Cicles de facturació",
         billingCycleDescription:
             "Configura cicles de cobrament recurrents per a matrícules, activitats i serveis. Els cobraments surten a temps, sempre, sense intervenció manual.",
-        mainTitle: "Deixa de perseguir pagaments. Cobra puntualment, sempre.",
+        mainTitle: "Cobra puntualment, sempre. Sense perseguir ningú.",
         mainDescription:
-            "Facturació automàtica, domiciliacions SEPA i seguiment de cobraments en temps real. Edena gestiona la part econòmica perquè el teu equip es centre en l'educació. Certificat Verifactu.",
+            "Facturació automàtica, domiciliacions SEPA i seguiment de cobraments en temps real. Certificat Verifactu AEAT. El teu equip deixa de perdre temps en gestió financera manual.",
     },
     guardians: {
-        mainTitle: "Famílies sempre informades, sense esforç addicional",
+        mainTitle: "Les famílies sempre informades, sense esforç addicional per al teu equip",
         mainDescription:
             "Notes en temps real, alertes d'assistència, documents digitals i pagament de factures en un sol portal. Redueix el temps d'incorporació un 75% i augmenta la satisfacció familiar un 60%.",
         onboardingTitle: "Incorporació de famílies",
@@ -1736,7 +1897,7 @@ Per a més informació sobre les galetes i la seva gestió, podeu consultar la g
         signatureSave: "Desar",
     },
     families: {
-        mainTitle: "Tot l'escolar, en una app gratuïta per a les famílies",
+        mainTitle: "Tot l'escolar, en l'app gratuïta que les famílies realment usen",
         mainDescription:
             "App gratuïta per a totes les famílies. Notes, factures, missatges, fotos i la botiga del centre, accessibles des de qualsevol dispositiu, 24/7.",
         mobileAppTitle: "App mòbil gratuïta",
@@ -1758,7 +1919,7 @@ Per a més informació sobre les galetes i la seva gestió, podeu consultar la g
     nurseries: {
         mainTitle: "La plataforma que necessita la teva escola infantil, sense complicacions",
         mainDescription:
-            "Comunicació diària amb famílies, fotos segures, facturació automàtica i expedients digitals. Dissenyat per al ritme real de les escoles infantils.",
+            "Comunicació diària amb famílies, fotos segures, facturació automàtica i expedients digitals. Dissenyat per al ritme real de les escoles infantils. En marxa en 2 setmanes.",
         communicationTitle: "Famílies sempre al dia",
         communicationDescription:
             "Comparteix fotos, actualitzacions diàries, menús i activitats amb els pares a l'instant des de l'app. Més tranquil·litat per a ells, menys trucades per a tu.",
@@ -1784,7 +1945,7 @@ Per a més informació sobre les galetes i la seva gestió, podeu consultar la g
     schools: {
         mainTitle: "L'ERP que el teu col·legi necessitava des de fa temps",
         mainDescription:
-            "Gestió completa per a centres de primària, secundària i batxillerat: expedients, notes, assistència, facturació i comunicació amb famílies. Tot en un sol sistema.",
+            "Gestió completa per a primària, secundària i batxillerat: expedients, notes, assistència, facturació Verifactu i comunicació amb famílies. Tot en un sol sistema.",
         communicationTitle: "Comunicació centralitzada amb famílies",
         communicationDescription:
             "Missatgeria segura, alertes d'assistència i novetats del centre en una sola app. Sense WhatsApp, sense circulars en paper, sense missatges perduts.",
@@ -1807,7 +1968,7 @@ Per a més informació sobre les galetes i la seva gestió, podeu consultar la g
     academies: {
         mainTitle: "Gestiona la teva acadèmia sense la paperassa de sempre",
         mainDescription:
-            "Facturació automàtica, control d'assistència, CRM de captació i comunicació amb famílies. Allibera la teva acadèmia dla paperassa per centrar-te a ensenyar.",
+            "Cobraments automàtics, control d'assistència, CRM de captació i comunicació amb famílies. Allibera la teva acadèmia del treball manual per centrar-te a ensenyar.",
         communicationTitle: "Capta més alumnes amb el CRM integrat",
         communicationDescription:
             "Gestiona cada consulta, fes el seguiment de cada lead en un pipeline visual i converteix més interessats en alumnes matriculats. La teva llista d'espera, sempre organitzada.",
@@ -1827,7 +1988,7 @@ Per a més informació sobre les galetes i la seva gestió, podeu consultar la g
     groups: {
         mainTitle: "Una sola plataforma per a tota la teva xarxa de centres",
         mainDescription:
-            "Gestiona tota la teva xarxa d'escoles infantils o col·legis des d'un únic panell centralitzat. Visibilitat total, operativa consistent i estalvi de costos a cada centre.",
+            "Gestiona tota la teva xarxa de centres des d'un únic panell centralitzat. Visibilitat total, operativa consistent i facturació centralitzada. Escala sense multiplicar la càrrega administrativa.",
         communicationTitle: "Dashboard unificat multi-centre",
         communicationDescription:
             "Mètriques en temps real de tots els teus centres en una sola vista. Compara rendiment, assistència i situació financera de tota la xarxa a l'instant.",
@@ -1850,7 +2011,7 @@ Per a més informació sobre les galetes i la seva gestió, podeu consultar la g
     centers: {
         mainTitle: "El sistema operatiu complet per al teu centre educatiu",
         mainDescription:
-            "Comunicació, facturació, CRM, expedients i automatització, tot en una sola plataforma. Redueix costos administratius un 40% i allibera el teu equip de tasques repetitives.",
+            "Comunicació, facturació, CRM de matrícules, expedients i automatització en una sola plataforma. Redueix costos administratius un 40% i allibera el teu equip de tasques repetitives.",
         communicationTitle: "Comunicació centralitzada",
         communicationDescription:
             "Gestiona tota la comunicació amb famílies, professors i personal des d'un únic panell. Missatgeria segura, notificacions i actualitzacions en temps real.",
@@ -1867,10 +2028,54 @@ Per a més informació sobre les galetes i la seva gestió, podeu consultar la g
         financialAutomationDescription:
             "Genera factures automàticament, gestiona cobraments recurrents i obtén anàlisis financers en temps real. Redueix la càrrega administrativa i millora el flux de caixa.",
     },
-    erpStats: {
-        title: "Com ajudem a créixer els nostres clients",
+    trustedBySection: {
+        title: "Amb la confiança de",
+    },
+    problemSection: {
+        title: "El teu centre continua usant eines que no parlen entre si?",
         description:
-            "Descobreix com les nostres estratègies personalitzades ajuden col·legis i escoles infantils a estalviar temps, augmentar matrícules i millorar la satisfacció de les famílies.",
+            "La majoria de centres perden 3 hores diàries saltant entre WhatsApp, Excel, el correu i un ERP antic. Edena ho uneix tot en una sola plataforma amb IA educativa integrada.",
+        mobileSummary:
+            "WhatsApp, calendaris, videotrucades, IAs genèriques, Excel i ERPs desconnectats: el teu equip perd hores cada dia canviant entre eines que no comparteixen dades.",
+        cards: {
+            tools: {
+                title: "Massa eines",
+                highlight: "73% dels equips",
+                description: "salten entre més de 6 aplicacions diferents cada dia",
+                items: ["WhatsApp", "Google Calendar", "Google Meet", "Microsoft Teams"],
+            },
+            ai: {
+                title: "IAs sense context escolar",
+                highlight: "96% de les IAs generals",
+                description: "no coneixen la normativa ni els processos del teu centre",
+                items: ["ChatGPT", "Claude", "Gemini", "Copilot"],
+            },
+            finance: {
+                title: "Comptabilitat dispersa",
+                highlight: "68% dels centres",
+                description: "continuen exportant dades manualment a Excel i programes externs",
+                items: ["Microsoft Excel", "Sage", "QuickBooks", "Xero"],
+            },
+        },
+    },
+    integrationsSection: {
+        title: "Integracions",
+        description:
+            "Ens integrem amb els programes que ja fas servir, com WhatsApp, Gmail, calendaris o Slack, perquè el teu equip continuï treballant com sempre, sense migracions ni canvis de rutina. Edena es connecta amb les teves eines i centralitza la informació en un sol lloc.",
+        logos: {
+            googleCalendar: "Google Calendar",
+            outlookCalendar: "Outlook Calendar",
+            whatsapp: "WhatsApp",
+            salesforce: "Salesforce",
+            slack: "Slack",
+            gmail: "Gmail",
+            outlook: "Outlook",
+        },
+    },
+    erpStats: {
+        title: "Resultats reals de centres que ja usen Edena",
+        description:
+            "Dades agregades de col·legis, acadèmies i escoles infantils que han digitalitzat la seva gestió amb Edena.",
         cases: [
             {
                 stat: "+100%",
@@ -1900,14 +2105,18 @@ Per a més informació sobre les galetes i la seva gestió, podeu consultar la g
                 stat: "-40%",
                 description:
                     "De reducció en impagaments i retards gràcies a la facturació i cobrament automatitzat.",
-                bg: "highlight",
+                bg: "dark",
             },
         ],
     },
     blog: {
-        ctaTitle: "A punt per transformar la gestió del teu centre?",
+        description:
+            "Guies, casos pràctics i novetats sobre gestió escolar, digitalització educativa i producte Edena.",
+        faqTitle: "Preguntes freqüents",
+        relatedTitle: "Articles relacionats",
+        ctaTitle: "Uneix-te als centres que ja treballen sense papeleo",
         ctaDescription:
-            "Milers de centres usen Edena per estalviar més de 15 hores setmanals en tasques administratives. Veure com funciona amb una demo gratuïta i sense compromís adaptada al teu centre.",
+            "Centres usen Edena per estalviar més de 15 hores setmanals en tasques administratives. Veu com funciona amb una demo gratuïta adaptada al teu tipus de centre.",
     },
     altText: {
         logo: "Logotip d'Edena - Programa de gestió escolar",

@@ -1,120 +1,177 @@
 ---
-title: "Zer da SIS (ikasleen informazio-sistema) eta zergatik behar duen zure hezkuntza-zentroak bat 2026an"
+title: "Zer da SIS (Ikasleentzako Informazio Sistema) eta zergatik behar du zure hezkuntza zentroak 2026an?"
 date: "2026-02-27"
-description: "Ezagutu zer den eskolako SIS, nola zentralizatzen duen ikasleen informazio-sistemak datuak eta nola hobetzen duen zure hezkuntza-zentroaren kudeaketa 2026an."
-tags: ["eskolako SIS", "ikasleen informazio-sistema", "eskola-kudeaketa", "hezkuntza-zentroak"]
-author: "Edena taldea"
+description: "SIS vs ERP: SIS nahikoa denean eta plataforma integral bat behar denean. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+tags:
+    - "SIS eskola"
+    - "ikasleen informazio sistema"
+    - "ikastetxeko zuzendaritza"
+    - "hezkuntza zentroak"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
+relatedPosts:
+  - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
+  - software-aukera-egiaztapen-2026
+  - onena-eskola-kudeaketa-softwarea
+  - eskola-kudeaketa-softwarea-aukeratzea
+faqs:
+  - question: "Eskola SIS hezkuntza ERP berdina al da?"
+    answer: "Ez guztiz. A SIS ikasleen informazioan zentratzen da (espedienteak, asistentzia, komunikazioa). Eskola ERP normalean fakturazioa, giza baliabideak, inbentarioa eta beste modulu batzuk ere sartzen dira. Plataforma askok SIS eta ERP soluzio bakarrean integratzen dituzte."
+  - question: "Ikasleen informazio sistemak familientzako aplikazio bat sartu behar al du?"
+    answer: "Oso gomendagarria da. Familiek laguntza, ordainketak eta komunikazioak mugikorretik kontsultatzea espero dute. Familientzako atari edo aplikazio bat duen eskola SIS asebetetzea hobetzen du eta idazkariarekiko kontsultak murrizten ditu."
+  - question: "Nola migratzen dira datuak SIS berrira?"
+    answer: "Hornitzaile gehienek Excel edo aurreko sistemetatik inportatzea eskaintzen dute. Plangintza mailakatua, datu kritikoak baliozkotzea eta beharrezkoa bada elkarbizitza aldia eskatzen du."
 ---
 
-<strong>Zer da SIS (ikasleen informazio-sistema) eta zergatik behar duen zure hezkuntza-zentroak bat 2026an</strong>
+
+Zer da SIS (Ikasleentzako Informazio Sistema) eta zergatik behar du zure hezkuntza zentroak 2026an?
 
 <br>
 
-Eskolako SIS edo ikasleen informazio-sistema edozein hezkuntza-zentro modernoaren bizkarrezur digitala da. 2026an, oraindik agiriak paperean edo banatutako kalkulu-orrietan kudeatzen dituzten zentroek denbora galtzen dute, akatsak egiten dituzte eta famili eta irakasleei esperientzia eskasa eskaintzen diete. Artikulu honek zer den ikasleen informazio-sistema, zer funtzio estaltzen dituen eta zergatik behar duen zure zentroak azaltzen du.
+<br>
+
+<strong>Angelua: SIS vs ERP</strong>
 
 <br>
 
-<strong>Zer den eskolako SIS: definizioa eta esparrua</strong>
+SIS ikasgelarako; ERP idazkaritza eta familiak lepoa direnean.
+
+Eskola SIS, edo ikasleen informazio sistema, edozein hezkuntza zentro modernoren ardatz digitala da. 2026an, oraindik ere erregistroak paperean edo sakabanatuta dauden kalkulu-orrietan kudeatzen dituzten ikastetxeek denbora galtzen dute, akatsak egiten dituzte eta esperientzia eskasa eskaintzen diete familiei eta irakasleei. Artikulu honek ikasleen informazio sistema zer den, zer funtzio betetzen dituen eta zure eskolak zergatik behar duen azaltzen du.
 
 <br>
 
-Ikasleen informazio-sistema (SIS) plataforma bat da ikasleen informazio akademiko, administratibo eta kontaktu guztia leku bakarrean zentralizatzen duena. Matrikulazio-datuak, asistencia, kalifikazioak, agiriak, familien komunikazioa eta dokumentazioa sistema berean bizi dira, idazkaritza, zuzendaritza, irakasle eta familien zati baterako eskuragarri. Eskolako SISek bikoizketak ezabatzen ditu, akatsak murrizten ditu eta datu errealetan oinarritutako erabakiak hartzea ahalbidetzen du.
+<strong>Zer da eskola SIS: definizioa eta irismena</strong>
 
 <br>
 
-<strong>Zergatik behar duen zure zentroak ikasleen informazio-sistema bat 2026an</strong>
+Ikasleen informazio sistema (SIS) ikasleen informazio akademikoa, administratiboa eta harremanetarako informazio guztia leku bakarrean zentralizatzen duen plataforma da. Matrikularen datuak, asistentzia, kalifikazioak, aktak, familiekin komunikazioak eta dokumentazioa sistema berean bizi dira, idazkariak, zuzendaritzak, irakasleek eta, neurri batean, familiek eskura ditzakete. Ikastetxe batek SIS bikoiztuak ezabatzen ditu, akatsak murrizten ditu eta erabakiak datu errealetan oinarrituta hartzeko aukera ematen du.
 
 <br>
 
-Hezkuntza-arauemaileak, datu-babesa eta familien itxaronak arrastre, segurtasuna eta abiadura eskatzen dituzte. Eskolako SIS batek RGPD betetzea ahalbidetzen du, ikuskatzaileentzako txostenak sortzea, familiekin modu ordenatuan komunikatzea eta bestela ikusi gabeko ereduak (absentismoa, errendimendua, utzikeria-arriskua) detektatzea. Ikasleen informazio-sistema integratua erabiltzen duten zentroek administrazio-orduak aurrezten eta familien satisfakzioa hobetzen dutela diote.
+<strong>Zergatik zure eskolak ikasleen informazio sistema bat behar du 2026an</strong>
 
 <br>
 
-<strong>Eskolako SISaren gako-funtzioak</strong>
+Hezkuntza araudiak, datuen babesak eta familiaren itxaropenek trazabilitatea, segurtasuna eta abiadura eskatzen dute. SIS ikastetxe batek GDPR betetzea, ikuskatzeko txostenak sortzea, familiekin modu ordenatuan komunikatzea eta bestela oharkabean pasako liratekeen ereduak (absentismoa, errendimendua, erretiratzeko arriskua) antzematea ahalbidetzen du. Dagoeneko ikasleen informazio sistema integratua erabiltzen duten zentroek administrazio-orduetan aurrezten dutela eta familiaren gogobetetasuna hobetzen dute.
 
 <br>
 
-<strong>1. Agiri akademiko digitalak</strong>
+<strong>Eskola baten funtsezko funtzioak SIS</strong>
 
 <br>
 
-Ikasle bakoitzak agiri bakarra du historial akademikoarekin, dokumentazioarekin, oharrak eta komunikazioekin. Ikasleen informazio-sistemak informazio hori puntu bakarretik kontsultatu eta eguneratzea ahalbidetzen du, karpetak edo posta elektronikoa bilatu gabe.
+<strong>1. Espediente akademiko digitalak</strong>
 
 <br>
 
-<strong>2. Asistencia-kontrola</strong>
-<br>
-
-Faltak, justifikazioak eta abisu automatikoak erregistratzea. Ondo konfiguratutako eskolako SIS batek absentismo-atarikoak gainditzen direnean familiak abisatu eta orientazio eta ikuskaritzarako txostenak sortu ditzake.
+Ikasle bakoitzak historial akademikoa, dokumentazioa, behaketak eta komunikazioak dituen espediente bakarra du. Ikasleen informazio sistemak informazio hori puntu bakar batetik kontsultatu eta eguneratzeko aukera ematen du, karpeta edo posta elektronikoetan bilatu gabe.
 
 <br>
 
-<strong>3. Familien komunikazioa</strong>
-<br>
-
-Jakinarazpenak, zirkularrak eta mezu segmentatuak plataforma beretik. Familiak informazio garrantzitsua (asistencia, ordainketak, gertakariak) eskuratzen dute soilik posta elektronikoa edo WhatsApp taldeak menpe egon gabe.
+<strong>2. Asistentzia kontrola</strong>
 
 <br>
 
-<strong>4. Fakturazio eta kobrantzarekin integrazioa</strong>
-<br>
-
-Ikasleen informazio-sistema fakturazioarekin integratzen denean, matrikulazio- eta zerbitzu-datuak automatikoki fakturaziora pasatzen dira, akatsak eta atzerapenak murriztuz.
+Hutsen erregistroa, justifikazioak eta alerta automatikoak. Ondo konfiguratuta dagoen eskola SIS familiei abisua eman diezaieke absentismoaren atalaseak gainditzen direnean eta txostenak sor ditzake orientaziorako eta ikuskatzeko.
 
 <br>
 
-<strong>5. Txostenak eta analitika</strong>
-<br>
-
-Asistencia-tasak, taldeko errendimendua, atxikipena eta beste adierzale batzuk dituen paneleak, zuzendaritzari erabaki informatuak hartzen laguntzeko.
+<strong>3. Familiekin komunikazioa</strong>
 
 <br>
 
-<strong>Nola aukeratu egokia den eskolako SIS bat</strong>
-<br>
-
-Ebaluatu ikasleen informazio-sistemak zuretzat garrantzitsuenak diren prozesuak estaltzen dituela: agiriak, asistencia, komunikazioa eta, kasuan kasuko, fakturazioa. Egiaztatu erabilgarritasuna (idazkaritza eta irakasleek marruskadurarik gabe adopzionatzea), segurtasuna (ostalari, zifratzea, RGPD) eta eskalagarritasuna. Zure zentroarekin hazten ez den edo asko parxe behar duen eskolako SIS bat azkenean zama bihurtzen da.
+Plataforma bereko jakinarazpenak, zirkularrak eta segmentatutako mezuak. Familiek informazio garrantzitsua eskuratzen dute (asistentzia, ordainketak, ekitaldiak) posta elektronikoaren edo WhatsApp taldeen menpe egon gabe.
 
 <br>
 
-<strong>Ikasleen informazio-sistema inplementatzean ohiko akatsak</strong>
-<br>
-
-- Idazkaritza eta irakasleak ebaluazioan inplikatu gabe eskolako SIS bat aukeratzea.
-- Datuen migrazioa edo prestakuntza-aldia planifikatu gabe.
-- Familien komunikazio integratuaren garrantzia gutxiestea.
-- Dagoeneko erabiltzen dituzun fakturazio eta beste sistemekin integrazioa ez ikusia egitea.
+<strong>4. Fakturazioarekin eta kobrantzarekin integratzea</strong>
 
 <br>
 
-<strong>Maiz egindako galderak</strong>
-<br>
-
-<strong>Eskolako SIS bat eta ERP heztzekoa gauza bera al dira?</strong>
-<br>
-
-Ez zehatz-mehatz. SISak ikasleen informazioan zentratzen da (agiriak, asistencia, komunikazioa). Eskolako ERPak fakturazioa, giza baliabideak, inbentarioa eta beste modulu batzuk barne hartzen ditu maiz. Plataforma askok SIS eta ERP soluzio bakarrean integratzen dituzte.
+Ikasleen informazio-sistema fakturazioarekin integratuta dagoenean, matrikulazio- eta zerbitzu-datuak automatikoki fakturatzera pasatzen dira, akatsak eta atzerapenak murriztuz.
 
 <br>
 
-<strong>Ikasleen informazio-sistemak familien aplikazioa barne hartu behar al du?</strong>
-<br>
-
-Oso gomendagarria da. Familiak asistencia, ordainketak eta komunikazioak mugikorretik kontsultatzeko itxaron dute. Familien portal edo aplikazioa duen eskolako SIS batek satisfakzioa hobetzen eta idazkaritzara kontsultak murrizten ditu.
+<strong>5. Txostenak eta analisiak</strong>
 
 <br>
 
-<strong>Nola migratzen dira datuak SIS berrira?</strong>
+Asistentzia-tasak, taldekako errendimendua, atxikipena eta kudeaketari buruzko erabakiak hartzen laguntzen duten beste adierazle batzuekin.
+
 <br>
 
-Hornitzaile gehienek Excel edo aurreko sistematik inportazioa eskaintzen dute. Eskatu fasetan plan bat, datu kritikoen balidazioa eta behar izanez giro elkarbizitza-aldia.
+<strong>Nola aukeratu eskola egokia SIS</strong>
+
+<br>
+
+Kontuan izan ikasleen informazio sistemak gehien axola zaizkizun prozesuak hartzen dituela: erregistroak, asistentzia, komunikazioa eta, hala badagokio, fakturazioa. Egiaztatu erabilgarritasuna (idazkaritzak eta irakasleek marruskadurarik gabe hartzen dutela), segurtasuna (ostalaritza, enkriptatzea, GDPR) eta eskalagarritasuna. Zure zentroarekin hazten ez den edo adabaki asko behar dituen eskola SIS erantzukizuna izaten amaitzen da.
+
+<br>
+
+<strong>Ohiko akatsak ikasleen informazio sistema ezartzerakoan</strong>
+
+<br>
+
+- Ikastetxe bat SIS aukeratu, idazkaria eta irakasleak ebaluazioan parte hartu gabe.
+- Datuen migrazioa edo prestakuntza-aldia ez planifikatzea.
+- Familiekiko komunikazio integratuaren garrantzia gutxiestea.
+- Ez ikusi integrazioa fakturazioarekin eta dagoeneko erabiltzen dituzun beste sistemekin.
+
+<br>
+
+<strong>Noiz da nahikoa SIS?</strong>
+
+<br>
+
+Zentro txikia minarekin soilik notetan eta ikasgelako asistentziarekin, kuota konplexurik edo familiaren ataririk gabe. SIS-k oinarrizko kalifikazioak, ordutegiak eta txostenak biltzen ditu.
+
+<br>
+
+<strong>Noiz behar duzu ERP</strong>
+
+<br>
+
+Idazkaritza asea, ordainketa berandu handia, sarrera komertziala, fakturatzeko hainbat zerbitzu edo Verifactu eskakizuna. Bertan SIS labur geratzen da eta datuak bikoizten dituzu.
+
+<br>
+
+<strong>Motz geratu zaren seinale</strong>
+
+<br>
+
+- **Excel paraleloa bildumetarako:** SIS-k ez du diruzaintza estaltzen; hilero datuak bikoizten dituzu.
+- **WhatsApp instituzionala:** Trazabilitatea edo betetzerik gabe LOPDGDD komunikazio masiboan.
+- **Goi mailako bikoitza familia-ikaslea:** Sinkronizaziorik gabeko bi sistemak fakturazio akatsak sortzen dituzte.
+- **Hileroko eskuzko txostenak:** Helbidea Excel-era esportatu da SIS ez duelako KPI funtzionatzen.
+
+<br>
+
+<strong>Testuingurua Espainian: zer eskatzen duen ERP ikastetxe batek 2026an</strong>
+
+<br>
+
+Kalifikazio eta asistentziaz harago, Espainian ikastetxeak kudeatzeko softwareak fakturazioa (Verifactu prestaketa barne), familiaren ataria edo aplikazioa, GDPR eta LOPDGDD azpian dauden datu txikiak dituen fitxategia eta komunikazioen trazabilitatea izan behar ditu. SIS isolatu bat erostea benetako mina idazkaritzan, bilketan eta familietan dagoenean normalean hiru tresnen arteko datuak bikoizten amaitzen da.
+
+Haur eskoletan lekuak, ratioak, menuak eta alergiak pisatzen dituzte; akademietan, bonusetan, denboraldietan eta areto anitzetan; ikastetxe pribatuetan, kuota ezberdinduak, barne-bekak eta kontratazio komertziala. Hizkuntz akademietan lan egiten duen ERP bat eskasa izan daiteke haur, NEAE edo jangelako ratioak eguneko fakturazioarekin kudeatzen badituzu.
+
+Hiru urteko TCO ebaluatzen du: lizentzia, migrazioa, prestakuntza, barne koordinazio orduak eta zubi-integrazioen kostua. Eskatu demo bat zure datu errealekin (bost familia, ordainagirien ziklo bat) erabaki aurretik. Hasieran merkeagoa dirudien softwarea garestitu daiteke CRM, fakturazioa edo komunikazioa bereizita gehitzera behartzen bazaitu.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Gironako 85 plazako haur-eskola batek hiru hornitzaile ebaluatu zituen kontrol-zerrenda berarekin: matrikula, menuak, fakturazioa eta familiaren aplikazioa. Datu errealekin 10 asteko pilotuak agerian utzi zuen bakarrak itxi zuela aplikazio-matrikula-ordainketa zikloa Excel gabe. Aldaketak 40 orduko migrazioa kostatu zien, baina hiru tresnetan bikoiztutako datuak ezabatu zituzten.
 
 <br>
 
 <strong>Ondorioa</strong>
+
 <br>
 
-Ikasleen informazio-sistema (SIS) batek ikasleen informazioa zentralizatzen du, familien komunikazioa hobetzen du eta zuzendaritzari ikusmena ematen dio. 2026an, eraginkortasunez funtzionatu eta araudia bete nahi duen edozein zentrotresna esentzial da. Inbertitu zure prozesuetara egokitzen den eta zurekin hazten den eskolako SIS batean.
+Ikasleen informazio sistemak (SIS) ikasleen informazioa zentralizatzen du, familiekin komunikazioa hobetzen du eta kudeaketari ikusgarritasuna ematen dio. 2026an ezinbesteko tresna da eraginkortasunez funtzionatu eta araudia bete nahi duen edozein zentrorentzat. Inbertitu zure prozesuetara eta zurekin eskalatzen den eskola SIS.
 
-Nahi duzu ikasleen informazio-sistema batek nola eralda dezakeen zure zentroaren kudeaketa ikusi? Eskatu demo bat eta agiriak, asistencia eta familien komunikazioa konpromisorik gabe azter ditzakegu.
+Ikusi nahi al duzu ikasleen informazio sistema batek zure zentroaren kudeaketa nola eraldatu dezakeen? Eskatu demo bat eta fitxategiak, asistentzia eta familiekin komunikazioa berrikusten ditugu konpromisorik gabe.
+
+<br>

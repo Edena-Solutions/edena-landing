@@ -1,148 +1,187 @@
 ---
-title: "Eskola kudeaketarako software onena Espainian: 2026ko konparaketa"
+title: "Espainian ikastetxeak kudeatzeko software onena: 2026ko alderaketa"
 date: "2026-03-16"
-description: "2026an eskola plataformen konparaketa: erosketa irizpide, fakturazioa, eskola CRM, kashflow eta TCOa hiru urtetan."
-tags: ["eskola kudeaketa softwarea", "ERP hezkuntza", "fakturazioa ikastetxean", "eskola CRM", "guraso komunikazioa", "dokumentu digitala"]
-author: "Edena taldea"
+description: "Espainiako ERP ikastetxearen merkatu eta erosketa irizpideak alderatu. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+tags:
+    - "eskola kudeatzeko softwarea"
+    - "konparatiboa ERP hezkuntza"
+    - "ikastetxeen digitalizazioa"
+    - "ikastetxeko fakturazioa"
+    - "eskola plataforma"
+    - "hezkuntza-administrazioaren automatizazioa"
+author: "Edena Taldea"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop"
+relatedPosts:
+  - software-aukera-egiaztapen-2026
+  - onena-eskola-kudeaketa-softwarea
+  - eskola-kudeaketa-softwarea-aukeratzea
+  - erp-eskola-digitalizazio-gida
+faqs:
+  - question: "Ba al dago Espainian eskola kudeatzeko software unibertsal “onena”?"
+    answer: "Ez. Egokia zure prozesu, tamaina, erregimen eta bilketa eta onarpen lehentasunetara egokitzen dena da. Konparaketa erabilgarriak ardatz bakoitza pisatzen du, ez industriako hitzak."
+  - question: "Verifactu eskatu behar al dut kontratuan, nahiz eta betebeharra oraindik eboluzionatzen ari den?"
+    answer: "Eskatu argitasuna: plataformak fakturazio elektronikoa, igorpena, ordainagiriak eta jarraipena nola tratatzen dituen, eta zer laguntza eskaintzen duen. Anbiguotasunak idazkaritza eta kudeaketa kostatzen ditu, ez soilik sistemei."
+  - question: "CRM generiko batek ordezkatu al dezake hezkuntza-hornitzailearen eskola CRM?"
+    answer: "Batzuetan konektoreen kostua, datuak bikoiztu edo testuingurua galtzea. Matrikula, ordainketa eta familiak moduluan bertan bizi badira, koherentzia eta trazabilitatea handiagoak izan ohi dira, mantentze gutxiagorekin."
+  - question: "Zein gutxieneko leiho pilotu justifikatzen du probak egitea?"
+    answer: "Gutxienez zortzi-hamabi aste, benetako datuak kargatzea, ordainagirien zikloa, sarrera-kanpaina bat eta adostutako mozketa-irizpideak (adibidez, zereginak murriztea edo ez-ordainketak) erabakitzeko, ez \"ikus dezagun zer gertatzen den\"."
+  - question: "Zer arrisku dago oinarrizko lizentzia merkeena aukeratzeak?"
+    answer: "Geroago ordaintzen duzula orduekin, integrazioekin, akatsekin, frustrazioarekin eta berriro migrazio posibleekin. Begira TCOri, ez lehen euroari."
 ---
 
-<strong>Eskola kudeaketarako software onena Espainian: 2026ko konparaketa</strong>
+
+<strong>Espainian ikastetxeak kudeatzeko software onena: 2026ko alderaketa</strong>
 
 <br>
 
-Eskolaren edo haur eskolaren zuzendaritzak "software onena" aukeratzean, erosketaren azken zeregina ez da antolatuta egotea, baizik eta kashflow, betearazpena eta familien esperientzia zaintzea, administrazio talde mehatxatu batean. 2026an, lanak postontzietan, Excel-en eta paperean biltzen dituenak ordaintzen du ordu, akats eta zorratan. Artikulu honek 2026ko hezkuntza plataformen irakurketarako egitura ematen du: fakturazio elektronikoa, Verifactu inguruneko prestutasuna, guraso portala, CRM eskolarkoa, formularioak, analitika, automatizazioa, dokumentuak hodeian eta automazioarekin lotutako aurrezki errealak. Aukeraketa zuzena administrazio karga murrizteko, familien fideltasunerako zabaltzen da.
+Espainian eskola kudeatzeko software onena aukeratzea jada ez da “ordena izatea” kontua eta eskudiruari, betetzeari eta familiaren esperientziari buruzko erabakia bihurtzen da. Zentroak matrikula egiteko lehiatzen dira, gero eta arau-eskakizun gero eta handiagoak egiten dituzte eta gero eta errentagarriagoak diren administrazio-taldeei laguntzen diete. 2026an, oraindik zereginak erretiluetan, Excel eta paperetan banatzen dituztenek ordutan, akatsetan eta ez ordaintzeko arriskuan ordaintzen dute. Konparaketa honetan erosteko irizpideak, benetako ñabardurak eta merkatua irakurtzeko modu erraz bat ematen dizkizugu “modularitate” hutsa saltzen utzi gabe. Kontua ez da demo batean zer distira egiten duen, laurogeita hamar egunen buruan funtzionatzen jarraitzen duena baizik, lerrokaturiko idazkaritza batekin, zenbakiekin eta familiekin bide argiekin helbidea. Zure helburua zentroa kokatzea, zama murriztea eta finantzak babestea bada, ikastetxeko software egokiak erregistroak, bildumak, komunikazioa eta, beharrezkoa denean, eskuratze kanala kontzentratzen ditu, moduluen arteko marruskadurarik gabe.
 
 <br>
 
-<strong>Zergatik ez dago taula sinple bat "checklist" batera</strong>
+<strong>Zergatik 2026an "konparazioa" ez da kontrol-laukien taula</strong>
 
 <br>
 
-Duela urte batzuk nahikoa zen presentzia digitalizatzea edo mezu zabal bat bidaltzea. Gaur, eskola kudeaketako plataforma sinesgarri batek gutxienez biltzen ditu: ikasle agiri digitala, guraso portala edo app-a, fakturazioa aztarna duena, oinarrizko analitika operatiboa, eta RGPD-ra hurbiltzen den segurtasun testuingurua. Fakturazio elektronikoa eta ekoizpenaren jarraipen fidagarria, eskolaren eta haur hezkuntzaren aldetik, gero eta premiazkoak dira. Matrikulazio online-a eta inskripzio eskaeren pipelinea, merkataritza bihurtu dira. ERP edo plataforma nagusian CRM, formularioak eta jatorri kanala ez badaude, inork Excel-en berreraikitzen du errealitatea, eta kostua zentroan itzulten da.
+Duela bost urte nahikoa zen laguntza digitalizatzea edo mezu elektroniko masiboa bidaltzea. Gaur egun, hezkuntza kudeatzeko software zentzuzkoak, gutxienez, familientzako fitxategi, atari edo aplikazio digital bat artikulatzen du, fakturazioa trazabilitatearekin, oinarrizko analisi operatiboekin eta segurtasun irizpideekin gutxieneko GDPRrekin bat datozenak. Gehitu fakturazio elektronikorako progresioa eta aztarna fidagarri bat uzteko eskakizuna: ikastetxe eta haurtzaindegi askok ezin dute erdi landutako mendekotasun edo integrazio “kola” arriskuan jarri. Gainera, lineako erregistroa eta aplikazioen jarraipena (matrikularen kanalizazioa) jada ez dira luxu bat: erreaktibo komertziala dira. Ikastetxeko ERP edo plataformako tresnak ez badu ikastetxerik CRM, inprimakiak eta beraren jatorria jasotzen, taldeko norbaitek errealitatea eskuz birkonposatzen du eta kostua zentrora itzultzen da.
 
 <br>
 
-<strong>Merkearen mapa: kategoria desberdinak, antzeko arazoak</strong>
+<strong>Kategorien mapa: Benetan konparatzen dena</strong>
 
 <br>
 
-"Guztia batean" plataformak ikastetxe eta haur eskolei begira daude, fakturazio, komunikazio, eta, maila batera iritsita, kanpoko jarduerak, automatizazioa edo dokumentu hodeia, helburua zorrak murriztea, agiriak biltzea, eta zuzendaritza ikusgarri egitea. Eskola pisu handikoak, notak eta aula, kashflow, CRM edo gogorarazle ahulekin: pedagokian gogorra da, baina bulegoak maiz mantentzen ditu prozesu bikoitzak. Maila bakoitzeko bertsio bertikalak, haur eskolekin alderatuta, ordainketa zikloak optimizatzen ditu. Modulu desberdinak biltzen dituen konposizioak, konektore askorekin, kostu osoa aurreikusi behar du, ez pantaila bakoitzeko lehen prezioa. Konparaketa seriotsuak, eskaera biltzetik diru jasotzerainoko kate osoa puntuatzen du.
+Praktikan, antzeko arazoak sakontasun desberdinarekin konpontzen dituzten etiketa ezberdinekin egokitzen diren hornitzaileak ikusiko dituzu:
+
+- Ikastetxeei eta haurtzaindegiei zuzendutako “All in-one” plataformak, fakturazioarekin, komunikazio moduluekin eta, goragoko paketeetan, datuak ateratzea edo automatizatzea. Lehenetsiak murriztea, fitxategiak zentralizatzea eta zentroaren ikuspegia ematea bilatzen dute.
+- Sistema akademiko sendoak ebaluazioan eta ikasgelan, ahulagoak karga errepikakorrean, CRM eta abisuak: eskakizun pedagogiko handiak dituzten zentroetan lan egiten dute, baina askotan administrazio-arloak Excel-ekin prozesu bikoiztuak edo zubiak onartzen ditu.
+- Software bertikala etapaka: haurrentzako versus FP edo akademiak. Bakoitzak ordainketa zikloak, tutoretza ratioak eta familiekin komunikatzeko maiztasuna optimizatzen ditu. Profil batean arrakastaz gertatzen dena ez da beti beste batera eskalatzen fluxuen doikuntzarik gabe.
+- Konektoreak gehitzea eskatzen duten soluzio modularrak: kostu osoa (lizentzia, ezarpena, barneko langileak) eta berreskuratu beharreko denbora kalkulatzea komeni da, ez pantaila isolatu bakoitzeko prezioa.
+
+Konparazio serio batean, ez duzu puntuatzen "notak dituen ala ez" bakarrik: kate osoa puntuatzen duzu, interesdun baten erregistrotik hasi eta bildumara arte, dokumentu eta komunikazio kritikoen bidez.
 
 <br>
 
-<strong>2026ko irizpideak: komeni den ponderazioa</strong>
+<strong>2026 irizpideak: erosketa batzordean pisu gehien duena</strong>
 
 <br>
 
-1) <strong>Fakturazioa, kobratzea, aztarnak</strong> — PDF-a baino gehiago, arau eguneratuarekin batera sortzea, ordainagi historikoa, atzerapen analitikoa, Verifactu euskarri.  
-2) <strong>Familien esperientzia</strong> — App-a, push-a, irakurriaren baieztapena, mezu zatituak, zarata gutxiago.  
-3) <strong>CRM eskolarkoa, formularioak, lead jatorriak</strong> — Etapa, arduradunak, jarraipenak, galdu gabeko aukerak.  
-4) <strong>Agiria eta dokumentuak</strong> — Karpetak, talde bakoitzeko edo ikasle bakoitzeko ikusgaitasuna, plazen kontrola, bilaketak txikiago.  
-5) <strong>Operazio egunerokoa: presentzia, zereginak, notak</strong> — Alerta familietara, fokua.  
-6) <strong>Segurtasuna, sarrerak, jarraikortasuna</strong> — Zifratzea, rolak, babeskopia, xatentzako baimenak.  
-7) <strong>Automatizazioa</strong> — Onboarding, arauak, gogorarazle, esku langilerik gabe berriz.
+1. **Fakturazioa, kobraketa eta trazabilitatea**: PDF bat sortzeaz gain, zentroak unean uneko zerga-eskakizunekin bat etorriz igortzea eskatzen du, historiadun ordainagiriak, berankortasunaren analisia eta, hala badagokio, Verifactu behar bezala prestatzea. Sistema sendo batek auziak murrizten ditu, familiak argitzen ditu eta kontziliazioa errazten du.
+2. **Familiaren esperientzia eta kontaktuen maiztasuna**: atari batek, aplikazio batek, jakinarazpenak eta jaso izanaren berrespena saihesten dute profil berdinen atzetik. Komunikazio segmentuak zarata hiltzen du.
+3. **CRM eskola, inprimakiak eta iturri nagusiak**: erregistroak atzemateko eta bihurtzeko kanalizazioa, egoerak, kudeatzaileak eta abisuak behar dira. Saltzailearen Excel aukerak kostatzen ditu.
+4. **Fitxategia eta dokumentuak**: Karpetak, talde edo ikasleen ikusgarritasuna, lekuen kontrola eta zereginen itxiera. Bilaketa gutxiago, elkarren errua gutxiago.
+5. **Eguneroko eragiketak: asistentzia, zereginak, ebaluazioa**: Ez da apaingarri bat: txostenak, familiei abisuak eta zentroaren ikuspegia baldintzatzen ditu.
+6. **Segurtasuna, sarbidea eta jarraitutasuna**: Ebidentzien enkriptatzea, rolen sarbidea, babeskopia eta irakurketa arrastoak, batez ere txatekin eta dokumentu sentikorrekin.
+7. **Automatizazioa eta onboarding** arauak: ondo diseinatuta, zeregin ikusezinak murrizten ditu: jarraipenak, abisuak, berrespenak, langileak biderkatu gabe.
 
-Zentro pribatubatean kobro errepikatua aurreneko da; hizkuntza akademian, online matrikula eta ordu taula. Irizpide bakoitza, zure minari begira.
-
-<br>
-
-<strong>Akats ohikoak aukeran</strong>
+Irizpide bakoitzak pisu ezberdina izan dezake: itunpeko ikastetxe batek behin eta berriz kobratzeari ezartzen dio lehentasuna; hizkuntza akademia bat, online izen-ematea eta txandak. Konparazio zintzoak zure minari markak jartzen dizkio, ez saltzailearen marketin-zerrendan.
 
 <br>
 
-- Demo-eko datu jostariekin fioa, bost ordainketa errealen eredu gabe, zor ziklo batean.  
-- Idazkaritza ebaluaziotik kanpo uztea.  
-- Lizentzia baino migrazio, prestakuntza, sistema zaharrearekin bateraezina ahaztea.  
-- Leadak edo kobroak hodeiko taula batez lotzen dituen soluzioa.  
-- "Roadmap" lausoa aitzakia gisa, kontreferentziarik gabe, antzeko zentroetan.
-
-Arazo hori saihesten dutenek aurrezten dituzte astean hamarkaka ordu, eta murriz egiten dute gatazka eta daturik hedapen anitzeko arriskua.
+<strong>Ohiko akatsak eskaintzak alderatzean</strong>
 
 <br>
 
-<strong>Kontu anitzik adibide, anonimo</strong>
+- Konfiatu jostailuen datuekin demo batean, zure benetako bost ordainagiri eta ziklo lehenetsi bat modelatu gabe.
+- Proba fasean idazkariari jaramonik egin, erritmoari eutsiko diotenean.
+- Lizentziaren prezioa baloratu eta migrazioaren, prestakuntzaren, koordinazio-orduen eta ondare-sistemaren bizikidetzaren kostua ahaztu.
+- Google Sheets-ekin "zubi" egitera behartzen zaituen pila bat aukeratzea, arriskua betikotuz.
+- Onartu “etorkizuneko bide-orri” lauso bat bide-orri baten ordez eta antzeko tamainako zentroen erreferentzia zehatzak.
+
+Hori saihesten duen zentro batek, orokorrean, dozenaka ordu aurrezten ditu hiruhilekoan eta erreklamazioekiko eta datu-ihesekiko esposizioa murrizten du tresnen erabilera desberdina dela eta.
 
 <br>
 
-Hamar hamar leku inguruko haur eskolan, atzeratze tasa %9en gainean egon ziren hilabeteak: gogorarazle, eskaera, familia garaiz ez diren mezu. Ordainketa batera lotzean agiri bakarrera, gurasoak segmentatzean, zifrak orekatzen hasi ziren, eta bulegoko bi lagunek astean erdi foku berria erdietsi, matrikulazioan. Bigarren hezkuntzako pribatu batek pipeline ikusgaitasuna nahi zuen, CRM gabe, etapa planilgabetan. Embudo, formulario eta jatorri egituratzean, bisitetatik matrikularatzea hobetu zen, jarraipen erregistratuz. Campus anitzeko akademia batean, analitika uniformearen beharra: ez zen soilik panel polit bat, iturri bakarra, KPI, data eta esportaziorako definizio bera.
+<strong>Benetako kasuak, izenik gabe: Espainian zuzendaritza taldeek lehenesten dutena</strong>
 
 <br>
 
-<strong>Jabeen mailako galderak</strong>
+Metropoliko 140 plazako haurtzaindegi batek %9tik gorako berankortasun tasa izan zuen hamabost hilabetez, ahanzturagatik, errepikapenik ezagatik eta familiei zuzendutako mezu desegokiengatik. Oroigarriak bateratu zituen, bildumak fitxategi bakar batekin konektatu eta berandu ordainketak dituzten familiak segmentatu zituen. Sei hilabeteren buruan, tasa maila jasangarrietara jaitsi eta bi idazkaritzako teknikari asteko ia kreditu erdia askatu zuten, eta onarpenera birbideratu zuten. DBH eta Batxilergoko ikastetxe pribatu batek matrikulazioaren eta ixteko kanalizazioaren ikusgarritasuna behar zuen: CRM integraturik gabe, taldeak fitxa ezberdinetan errepikatu zituen egoerak. Inbutua, inprimakiak eta jatorria egituratu ondoren, itxiera bisiten eta matrikularen ratioa hobetu zen, batez ere jarraipenak erregistratzean. Hainbat kokapen zituen akademia bat analitika eta irizpideen uniformetasuna bilatzen ari zen. Arazoa konpondu zuena ez zen dashboard “polita” bat izan, egia iturri bat baizik: KPIs bera, definizio berdinak, data berdinak, esportazio kontraesankorrik gabe.
 
 <br>
 
-Nola iragazten da ordainketa huts bat lehen abisutik banku sinkronizaziora? Nola osa da agiri digitala, ikastaro, talde edo ikasle bakoitzean ikusgai? Nola bertsionatzen dira gai sentikorrak, eta non irakurri da? Ze dago CRMean: etapa, zereginak, formulario, kanal bikoitzak, jarraipen? Nola dago pro komunikazioa, irakurriaren baieztapena, zabalpen kritikoekin lotuta? Ze automatizazio daude gaur, ez bihar? Kanpoko jarduerak, denda, stock, albaranak, bigarren kasa gabe? SLA, epe, eredu onartuak, erreferentziak, antzeko tamainako zentroetako?
-
-Aho bidezko bihurtzen ari dena, idatziz jaso. Ezer ez du idazkariaren irailean eusten.
+<strong>Hornitzaileak nola irakurri: jabearen galderak</strong>
 
 <br>
 
-<strong>Zenbakiak: TCO, ez sol bat haur bakoitzeko</strong>
+- Nola islatzen da ez ordainketa produktuan, jakinarazpenetik kontziliaziora arte?
+- Nola osatu eta ikuskatzen da fitxategi digital bat, ikastaro, talde edo ikasleen arabera ikusgai dagoena?
+- Nola sortzen, bertsionatu eta kokatzen dira dokumentu sentikorrak, eta nork irakurtzen du zer?
+- Zer barne hartzen du CRMk: kanalizazioa, zereginak, kanal anitzeko jatorria, inprimaki pertsonalizagarriak, jarraipenak?
+- Nola lotuta dago Pro komunikazioa (txata, push, berrespena) iragarki edo zirkular kritikoekin?
+- Zer automatismo daude gaur egun, ez agintzen: onboarding, arauak, abisuak, baieztapenak?
+- Nola onartzen dira datuak ateratzea, esportatzea eta, hala badagokio, lineako denda, stocka eta albaranak, beste kutxarik gabe?
+- Zein SLA, ezarpen-denborak, migrazioa, onartutako formatuak eta benetako laguntza?
+- Erreferentziak zure tamainako, erregimeneko (kontzertua, pribatua) eta familia-kargako zentroetan?
+
+Lortu erantzunak idatziz. Hitzezkoak ez du idazkaritza onartzen irailaren erdialdean.
 
 <br>
 
-Egituratu bederatzi hileko edo urtebiko horizonte bat gutxienez hiru: lizentzia, benetan erabiliko duzun moduluak, prestakuntza, koordinazio orduak, aukera kostu eskuzko lanagatik, birmigratzea arrisku. Hiru urtez kalkulatutako aurrezpena, ikasle, campus eta zerbitzu gehiagoren garrantzia. Fakturazio edo CRM kanpoko hirugarren bati behar dioten plataformak, dirudien baino garestiagoak. Azken alderaketak, euroa haur bakoitzeko, baina kobro fidagarritasun, matrikula abiadura, aurreztutako ordu, esperientzia kalitatea, eta iraunkortasun.
-
-Edenan, moduluen arabera, argi adierazitako eskaintza dugu: plataforma basea, fakturazioa, pro komunikazioa, CRM, kanpoko jarduerak, automatizazioa, denda, dokumentu hodeia, 24/7 euskarria, haur hezkuntzatik ikastetxeetaraino eta formaziora.
+<strong>Konparatu zenbakiak: TCO, ez "ikasleen prezioa Excel errenkadan"</strong>
 
 <br>
 
-<strong>2026n irabazlea zer egiten duen</strong>
+Egin gutxienez hiru urteko horizontea: lizentzia, erabiliko dituzun moduluak, ezarpena, prestakuntza, koordinazio orduak, esku artean dituzun zereginak egiten jarraitzeko aukera kostua eta berriro migratzeko arriskua. Gehitu eskalagarritasun irizpideak: lekuak, jarduerak, etorkizuneko egoitza, zerbitzu gehiago. Gaur egun merkean dirudien eskola ERP edo plataforma bat, bilketarako hirugarren bat gehitzea eskatzen badu edo CRM, garestitzen da. Azken konparazioa hauxe da: ikasle bakoitzeko euro, bai, baina baita bilketaren fidagarritasuna, onarpenaren abiadura, aurreztutako orduak eta esperientziaren kalitatea ere, horrek geratzeko erabakian eta ospean eragiten du. Fakturazioan, sarreran edo komunikazioan aurreztutako orduak gutxi gorabehera neurtzen dituzten zentroek normalean datuekin justifikatzen dute inbertsioa eta ez bilera batean norabidearen intuizioarekin.
 
 <br>
 
-- Lehen mailan agiri, kobro, komunikazio, sistema gutxi, arrisku gutxi.  
-- zuzendariak eta bulegoa fidatzen diren analitika, definizio finkoak.  
-- Interes: CRM, formulario, etapa, jarraipen.  
-- Arau, automatizazio, kanpoko jarduerak, denda, hodei dokumentala, taula laguntzailerik gabe.  
-- Konfiantza, euskarri erreal, migratze plana.
+<strong>Laburpena: 2026an irtenbide bat "irabazle" bihurtzen duena</strong>
 
 <br>
 
-<strong>Ohiko galderak</strong>
+- Estalkiak, maleta batean, fitxategia, bilketa eta komunikazioa (kutxa gutxiago, datu-isurketa gutxiago, birlanketa gutxiago).
+- Analitikoki frogatzea zuzendaritzak eta administrazioak sortzen dutela, definizio finkoekin, ez lau fitxa ezberdinekin.
+- Harrapaketa onartzen du: CRM, inprimakiak, pipeline, jarraipenak, inprobisaziorik gabe.
+- Arauekin, automatizazioekin, jarduera-erauzketarekin, biltegiarekin eta hodeiko dokumentazioarekin haztea onartzen du, taula laguntzaileak biderkatu gabe.
+- Konfiantza, laguntza eta migrazio irizpideak betetzen ditu, ez diapositibako promesak.
+
+Horixe da hain zuzen Edenan eskaintza argi batean laburbiltzen dugun plataforma mota, moduluka, ikastetxeetan, haurtzaindegietan, akademietan eta prestakuntzan arreta jarriz, administrazioa, fakturazioa, CRM eta komunikazioa irizpide bakarrean kontzentratzeko: eskalan funtzionatzen badu, ez pilotu batean bakarrik. Erabakitzeko gertu bazaude, eskatu bira bat zure zenbakiekin: ziurgabetasuna non desegiten den ikusiko duzu.
 
 <br>
 
-<strong>Ba ote dago software absolutu ona Espainian?</strong>
-<br>
-
-Ez. Prozesu, tamaina, iturburu eta lehentasunen arabera, bat edo bestea.
+<strong>Hiru urteko TCO: nola alderatu eskaintzak unitate berean</strong>
 
 <br>
 
-<strong>Behar dut Verifactu aurreikuspen kontratuan?</strong>
-<br>
-
-Bai, argitasuna: fakturazioa, ekoizpena, ordainketa, jarraipena, eta hornitzailearen bidea.
+Urteko lizentzia, ezarpena, prestakuntza, barne koordinazio orduak eta zubi-integrazioak mantentzeko kostua gehitzen ditu. Guztira ikasle aktiboen artean banatu: urtean 18.000 euro ordaintzen dituen baina 600 administrazio-ordu aurrezten dituen 400 familiako zentro batek urtean 15.000 euro berreskuratzen ditu. Era berean, alderatu matrikulazio-denbora, ordainketa-puntuak eta aplikazioen bihurketa-tasa.
 
 <br>
 
-<strong>Ordezkatzen al du CRM orokorrek CRM eskola integratua?</strong>
-<br>
-
-Batzuetan, konektoreen kostuarekin, datu bikoitzearekin, kontxutu galduarekin. Produkuan, koherentzia handiagoa.
+<strong>Kontzertatua vs pribatua: ñabardurak erosketan</strong>
 
 <br>
 
-<strong>Piloto epea zenbat?</strong>
-<br>
-
-8–12 aste, datu erreal, fakturazio ziklo bat, sarrera kanpaina bat, eta aurretik adostutako mozketa mahaia.
-
-<br>
-
-<strong>Lizentzia merkeen arriskua?</strong>
-<br>
-
-Geroago ordu, integrazio, frustrazio, birmigratze. TCO, ez lehen euroa.
+- **Kontzertatua:** Kuoten, beken, administrazio publikoarekiko komunikazioa eta laguntzekin kontziliazioa lehenesten ditu.
+- **Pribatua:** Gehitu harrapaketa komertziala, CRM, kanalizazio-analisiak eta tasak zerbitzuaren arabera bereiztea.
+- **Zeharkako bietan:** Verifactu, LOPDGDD eta adingabeen datuekin familiaren ataria.
+- **Saihestu:** ERP akademientzat soilik diseinatuta dago haurren eta NEAE ratioak kudeatzen badituzu.
 
 <br>
 
-<strong>Conclusión</strong>
+<strong>Testuingurua Espainian: zer eskatzen duen ERP ikastetxe batek 2026an</strong>
 
 <br>
 
-Eskolaren euskarri digitala, kobroa eta eskaera, funtsezko aukerak 2026an. Izan metodo: mahaigaineratu bost min, eskatu zure errealitatearekin demoa, finkatu metrika pilotua ixteko, eta erabaki zifratzailea, ez intziñoa. Edenan: demo bat eskatu, zentroa automatizatu gaur, eta begiratu nola biltzen dugun plataforma basea, fakturazioa, CRM eskolarra, komunikazioa, automatizazioa, kanpokoa, denda, dokumentu hodeia, euskarri 24/7, zentroa eraginkorrago, matrikulatio gehiagorekin.
+Kalifikazio eta asistentziaz harago, Espainian ikastetxeak kudeatzeko softwareak fakturazioa (Verifactu prestaketa barne), familiaren ataria edo aplikazioa, GDPR eta LOPDGDD azpian dauden datu txikiak dituen fitxategia eta komunikazioen trazabilitatea izan behar ditu. SIS isolatu bat erostea benetako mina idazkaritzan, bilketan eta familietan dagoenean normalean hiru tresnen arteko datuak bikoizten amaitzen da.
 
+Haur eskoletan lekuak, ratioak, menuak eta alergiak pisatzen dituzte; akademietan, bonusetan, denboraldietan eta areto anitzetan; ikastetxe pribatuetan, kuota ezberdinduak, barne-bekak eta kontratazio komertziala. Hizkuntz akademietan lan egiten duen ERP bat eskasa izan daiteke haur, NEAE edo jangelako ratioak eguneko fakturazioarekin kudeatzen badituzu.
+
+Hiru urteko TCO ebaluatzen du: lizentzia, migrazioa, prestakuntza, barne koordinazio orduak eta zubi-integrazioen kostua. Eskatu demo bat zure datu errealekin (bost familia, ordainagirien ziklo bat) erabaki aurretik. Hasieran merkeagoa dirudien softwarea garestitu daiteke CRM, fakturazioa edo komunikazioa bereizita gehitzera behartzen bazaitu.
+
+<br>
+
+<strong>Kasu praktikoa (Espainia)</strong>
+
+<br>
+
+Gironako 85 plazako haur-eskola batek hiru hornitzaile ebaluatu zituen kontrol-zerrenda berarekin: matrikula, menuak, fakturazioa eta familiaren aplikazioa. Datu errealekin 10 asteko pilotuak agerian utzi zuen bakarrak itxi zuela aplikazio-matrikula-ordainketa zikloa Excel gabe. Aldaketak 40 orduko migrazioa kostatu zien, baina hiru tresnetan bikoiztutako datuak ezabatu zituzten.
+
+<br>
+
+<strong>Ondorioa</strong>
+
+<br>
+
+2026an Espainiako ikastetxeen kudeaketa software onena alderatzea administrazioaren, bilketaren eta hazkundearen ardatza erabakitzea da. Juizio onak ezustekoak saihesten ditu, familiak lerrokatzen ditu eta kudeaketari buruzko zifrak ematen ditu. Hartu denbora pixka bat zure egungo marruskadura handienetako bospasei modelatzeko, eskatu hornitzaileei erakustaldiak benetako fluxuekin eta zehaztu zein metrikarekin itxiko duzun pilotua. Horrela, erosketa etekina duen inbertsio bihurtzen da, ez apustu bat. Aplikatuta ikusi nahi baduzu, ezagutu saio gidatu batean Edena fitxategia, fakturazioa, eskola CRM, komunikazioa, automatizazioa eta, hala badagokio, jarduerak, biltegiratzea eta dokumentazioa hodeian ateratzea nola biltzen dituen, 24/7 laguntzarekin: eskatu demo bat, automatizatu zentroa gaur eta bat egin gurekin berrikustera nola moldatuko litzatekeen zure betegarri eta negozio-bide-orrian, arreta jarri gabe.
+
+<br>

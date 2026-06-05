@@ -1,10 +1,22 @@
 ---
 title: "Analítica educativa e inteligencia artificial: Datos que transforman la educación"
 date: "2024-09-15"
-description: "Descubre cómo la analítica educativa y la inteligencia artificial están revolucionando la toma de decisiones en centros educativos."
+description: "IA aplicada a analítica de aprendizaje (ángulo pedagógico). Guía práctica para centros educativos en España (2026)."
 tags: ["analítica", "inteligencia artificial", "datos", "decisiones"]
 author: "Equipo Edena"
 cover: "https://images.unsplash.com/photo-1739805591936-39f03383c9a9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+relatedPosts:
+  - metodologias-pedagogicas-innovadoras
+  - innovacion-pedagogica-tecnologia
+  - evaluacion-assessment-digital-educativo
+  - espacios-educativos-futuro-diseno
+faqs:
+  - question: "¿La IA predice abandono escolar?"
+    answer: "Puede señalar patrones (absentismo, bajas notas), pero la decisión debe ser humana y con datos protegidos."
+  - question: "¿Necesito científico de datos?"
+    answer: "En centros medianos basta con informes automáticos del ERP y criterio de jefatura de estudios."
+  - question: "¿Es compatible con LOMLOE?"
+    answer: "Sí si apoya evaluación formativa, no si impone etiquetas opacas al alumnado."
 ---
 
 <strong>Analítica educativa e inteligencia artificial: Datos que transforman la educación</strong>
@@ -29,7 +41,7 @@ La inteligencia artificial toma esta analítica un paso más allá, utilizando a
 
 <br>
 
-La inteligencia artificial está revolucionando la personalización del aprendizaje de maneras que antes eran imposibles. Los algoritmos de IA pueden analizar el comportamiento de aprendizaje de cada estudiante en tiempo real, identificando patrones únicos y adaptando el contenido educativo específicamente a sus necesidades.
+La inteligencia artificial está cambiando la personalización del aprendizaje de maneras que antes eran imposibles. Los algoritmos de IA pueden analizar el comportamiento de aprendizaje de cada estudiante en tiempo real, identificando patrones únicos y adaptando el contenido educativo específicamente a sus necesidades.
 
 Los sistemas de IA pueden detectar cuando un estudiante está luchando con un concepto específico y proporcionar recursos adicionales automáticamente. Pueden identificar el momento óptimo para presentar ciertos contenidos basándose en el estado cognitivo del estudiante. Y pueden sugerir actividades que se alineen con los intereses y estilos de aprendizaje individuales.
 
@@ -115,6 +127,44 @@ Es fundamental proteger la privacidad de los estudiantes y sus familias. Los sis
 
 <br>
 
+<strong>IA con contexto escolar</strong>
+
+<br>
+
+Asistentes genéricos no conocen tu reglamento. La IA integrada en el ERP puede alertar morosidad, clasificar incidencias o redactar borradores de circulares, siempre con revisión humana y sin exportar datos fuera del contrato.
+
+<br>
+
+<strong>Qué evitar</strong>
+
+<br>
+
+- **Decisiones automatizadas sobre menores:** Sin supervisión humana ni registro de criterio.
+- **Datos personales en herramientas públicas:** Exportar listados a IA genérica fuera del contrato.
+- **Predicción sin base histórica:** Promesas de IA sin datos limpios en el ERP.
+
+<br>
+
+<strong>Contexto en España: LOMLOE, competencias clave y DigEdu</strong>
+
+<br>
+
+La LOMLOE sitúa las competencias clave y la evaluación continua en el centro del proyecto educativo. El Plan DigEdu impulsa competencia digital docente, entornos tecnológicos seguros y distribución de dispositivos en aulas. Cuanto más tiempo pierde el profesorado en tareas administrativas duplicadas (partes en papel, listados en Excel, circulares por canales distintos), menos queda para acompañamiento y evaluación formativa.
+
+Digitalizar gestión no sustituye la pedagogía: libera horas reales en tutoría, coordinación de departamento y seguimiento individual. Un claustro que usa cuatro herramientas de comunicación distintas pierde coherencia con las familias y coherencia interna en criterios de evaluación y seguimiento.
+
+En 2026, la tecnología educativa útil para centros españoles conecta aula y administración: expediente, comunicación, asistencia y analítica comparten la misma fuente de datos. La innovación pedagógica sostenible apoya la LOMLOE cuando la gestión admin deja de robar horas al claustro en septiembre y en cierre de trimestre.
+
+<br>
+
+<strong>Caso práctico (España)</strong>
+
+<br>
+
+Un instituto bajó de cuatro herramientas de comunicación a una plataforma integrada. El claustro recuperó en media 2 horas semanales por tutor en tareas de seguimiento administrativo, reinvertidas en reuniones de departamento y evaluación formativa.
+
+<br>
+
 <strong>Conclusión</strong>
 
 <br>
@@ -122,3 +172,5 @@ Es fundamental proteger la privacidad de los estudiantes y sus familias. Los sis
 La analítica educativa y la inteligencia artificial están transformando la educación de maneras profundas y significativas. Los centros que adoptan estas tecnologías están mejor posicionados para proporcionar educación de calidad, personalizada, y efectiva.
 
 ¿Estás listo para aprovechar el poder de los datos en tu centro educativo? Descubre cómo Edena puede ayudarte a implementar soluciones de analítica educativa que transformen la forma en que tomas decisiones y mejoras la experiencia educativa.
+
+<br>

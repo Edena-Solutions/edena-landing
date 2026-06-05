@@ -1,18 +1,22 @@
 export default {
-    bookDemo: "Demandez une démo",
+    bookDemo: "Réserver une démo",
+    loginButton: "Se connecter",
+    registerButton: "Essayer gratuitement",
+    registerButtonExtended: "Essai gratuit 60 jours",
+    noCreditCardRequired: "Sans carte bancaire | Annulez gratuitement quand vous voulez",
     downloadTheApp: "Téléchargez l’app gratuite",
     knowMore: "En savoir plus",
     meta: {
-        homeTitle: "Logiciel de gestion scolaire pour établissements | Edena",
+        homeTitle: "Logiciel de Gestion Scolaire | ERP pour Écoles, Académies et Crèches | Edena",
         homeDescription:
-            "Ne perdez plus des heures en administration. Edena automatise la facturation, les présences et la communication avec les familles sur une seule plateforme. Réduisez les coûts de 40 % et augmentez la satisfaction des familles de 60 %. Démo gratuite.",
+            "Edena centralise facturation, présences, dossiers et communication familiale sur une seule plateforme. Établissements économisent déjà 15 h/semaine. Sans engagement. Démo gratuite.",
         pricingTitle:
-            "Tarifs logiciel de gestion scolaire | À partir de 44 €/mois | Sans engagement | Edena",
+            "Tarifs Logiciel Gestion Scolaire | À partir de 44 €/mois, Sans Engagement, Sans Mauvaises Surprises | Edena",
         pricingDescription:
-            "Tarif par élève qui s’adapte à votre établissement. Pas de frais d’installation, pas d’engagement, pas de coûts cachés. À partir de 44 €/mois avec dossier numérique, présences et portail familles. Essai gratuit 30 jours.",
-        faqsTitle: "Questions fréquentes sur la gestion scolaire | Edena",
+            "Paiement par élève, sans frais d’ouverture ni engagement. À partir de 44 €/mois avec dossier numérique, présences et portail familles. Ajoutez uniquement les modules dont vous avez besoin. Essai gratuit 30 jours.",
+        faqsTitle: "Questions Fréquentes sur Edena | Logiciel de Gestion Scolaire",
         faqsDescription:
-            "Des réponses claires sur les fonctionnalités, les tarifs, le déploiement, la conformité Verifactu et la sécurité des données. Tout ce qu’il faut savoir avant de choisir Edena pour votre établissement.",
+            "Trouvez les réponses à vos questions sur les tarifs, les fonctionnalités, la migration des données, Verifactu et la sécurité. Tout ce qu’il faut savoir avant de choisir Edena pour votre établissement.",
         dashboardTitle: "Tableau de bord scolaire | Analytique en temps réel | Edena",
         dashboardDescription:
             "Présences, finances, inscriptions et communications sur un seul tableau de bord mis à jour en temps réel. Détectez les problèmes avant qu’ils n’éclatent et décidez sur la base de données toujours à jour.",
@@ -22,25 +26,26 @@ export default {
         appTitle: "Application mobile pour écoles | Communication école-familles | Edena Kids",
         appDescription:
             "Application gratuite pour familles et enseignants sur iOS et Android. Notifications push, photos sécurisées, signature électronique de documents, notes et factures au même endroit.",
-        demoTitle: "Démo gratuite du logiciel de gestion scolaire | Edena",
+        demoTitle:
+            "Démo Gratuite Sans Engagement | Découvrez Edena en Direct | Logiciel Gestion Scolaire",
         demoDescription:
-            "Découvrez Edena en direct avec une démo personnalisée pour votre établissement. Nous vous montrons précisément comment elle s’intègre à votre quotidien, sans engagement ni pression. Réservez en moins de 2 minutes.",
+            "Réservez une démo personnalisée pour votre établissement en moins de 2 minutes. Sans engagement ni pression. Nous vous montrons exactement comment Edena s’intègre à votre gestion du quotidien.",
         financeTitle:
-            "Logiciel de facturation scolaire | Automatisation financière pour établissements | Edena",
+            "Logiciel de Facturation Scolaire | Encaissements Automatiques et Verifactu Certifié | Edena",
         financeDescription:
-            "Automatisez les factures, les prélèvements SEPA et le suivi des encaissements. Facturation électronique certifiée Verifactu, relances automatiques en cas d’impayé et rapports financiers complets.",
+            "Facturation automatique, prélèvements SEPA et suivi des impayés en temps réel. Certifié Verifactu AEAT. Réduisez la charge financière de votre équipe administratif de 40 %.",
         guardiansTitle: "Portail familles pour écoles | Communication école-famille | Edena",
         guardiansDescription:
             "Offrez aux familles un accès en temps réel aux notes, présences, factures et actualités de l’établissement. Messagerie sécurisée et signature électronique de documents. Intégration des familles en quelques minutes.",
         familiesTitle: "Portail familles | App gratuite, facturation et boutique scolaire | Edena",
         familiesDescription:
             "Tout le quotidien scolaire dans une app gratuite : notes, factures, messages, photos et boutique de l’établissement. Gérez plusieurs enfants depuis un seul compte, sur n’importe quel appareil.",
-        centersTitle: "Plateforme de gestion pour établissements scolaires | Edena",
+        centersTitle: "Plateforme Intégrale pour Établissements Scolaires | ERP Éducatif | Edena",
         centersDescription:
-            "Plateforme tout-en-un pour écoles et crèches : facturation automatique, communication familiale, CRM, présences numériques et dossiers élèves. Réduisez les coûts administratifs jusqu’à 40 %.",
-        crmTitle: "CRM scolaire | Gérez les inscriptions et attirez les familles | Edena",
+            "ERP complet pour établissements scolaires : facturation automatique, CRM d’inscriptions, communication familiale, présences numériques et dossiers. Réduisez les coûts administratifs jusqu’à 40 %.",
+        crmTitle: "CRM Scolaire | Convertissez les Demandes en Inscriptions | Edena",
         crmDescription:
-            "Suivez chaque demande du premier contact jusqu’à l’inscription signée. Pipeline visuel, formulaires web et historique complet. Augmentez les conversions jusqu’à 35 %.",
+            "Capturez des leads depuis votre site, gérez chaque demande dans un pipeline visuel et ne manquez aucune opportunité d’inscription. Formulaires personnalisables et suivi complet. +35 % de conversion.",
         assignmentTitle: "Logiciel d’évaluations scolaires | Devoirs et notes | Edena",
         assignmentDescription:
             "Planifiez les devoirs, configurez les cycles d’évaluation et générez les bulletins automatiquement. Les familles voient les notes en temps réel. Votre équipe pédagogique réduit la charge de correction de 40 %.",
@@ -54,44 +59,45 @@ export default {
         cookiesDescription:
             "Découvrez comment Edena utilise les cookies pour améliorer votre expérience sur notre plateforme de gestion scolaire. Types de cookies, usage et vos choix en matière de confidentialité.",
         nurseryTitle:
-            "Logiciel pour crèches et écoles maternelles | Communication et facturation | Edena",
+            "Logiciel pour Crèches et Maternelles | App Familles, Photos et Facturation Automatique | Edena",
         nurseryDescription:
-            "Logiciel pour la petite enfance : app familles, photos du quotidien, facturation automatique et dossiers numériques. Réduisez la charge administrative de 40 % dès le premier jour.",
-        schoolsTitle: "Logiciel de gestion scolaire pour écoles | ERP éducatif | Edena",
+            "Conçu pour les crèches et maternelles : communication quotidienne avec les familles, photos sécurisées, facturation automatique et dossiers numériques. Réduisez la charge administrative de 40 % dès le premier jour.",
+        schoolsTitle: "Logiciel de Gestion pour Écoles | ERP Éducatif Complet | Edena",
         schoolsDescription:
-            "ERP pour écoles : dossiers, notes, présences, facturation automatique et communication familiale sur une seule plateforme. Pour l’école primaire, le collège et le lycée.",
-        academiesTitle: "Logiciel pour centres et académies | Gestion, facturation et CRM | Edena",
+            "ERP pour écoles primaires, collèges et lycées : dossiers, notes, présences, facturation Verifactu et communication familiale. Tout sur une seule plateforme intégrée.",
+        academiesTitle:
+            "Logiciel pour Académies et Centres | Encaissements Automatiques, CRM et Gestion Intégrale | Edena",
         academiesDescription:
-            "Gérez votre structure avec facturation automatique, CRM d’acquisition, suivi des présences et app pour les familles. Pour les cours de langues, danse, musique et sport.",
-        groupsTitle: "Logiciel multi-sites | Groupes et réseaux d’établissements | Edena",
+            "Gérez votre académie avec encaissements automatiques, CRM de recrutement, suivi des présences et app gratuite pour les familles. Pour les académies de langues, danse, musique et sport.",
+        groupsTitle: "Gestion Multi-Sites pour Groupes Éducatifs | ERP Éducatif | Edena",
         groupsDescription:
-            "Plateforme multi-établissements : tableau de bord unifié, facturation centralisée et reporting consolidé en temps réel. Pilotez tout votre réseau depuis un seul endroit.",
+            "Gérez tout votre réseau d'établissements depuis un seul tableau de bord : facturation centralisée, reporting consolidé et fonctionnement homogène sur chaque site. Développez-vous sans alourdir la charge administrative.",
         contactTitle: "Contact | Edena - Logiciel de gestion scolaire",
         contactDescription:
             "Une question sur Edena ? Contactez notre équipe. Nous sommes là pour vous aider à trouver la meilleure solution pour votre établissement.",
     },
     hero: {
-        mainTitle: "Pilotez votre établissement sans la paperasse habituelle",
+        mainTitle: "L'ERP scolaire qui supprime la paperasse et automatise les encaissements",
         mainDescription:
-            "Une seule plateforme pour la facturation, les dossiers, les présences et la communication avec les familles. Les établissements réduisent les tâches administratives de 40 % et améliorent la satisfaction des familles de 60 %. Essayez gratuitement.",
+            "Facturation automatique, dossiers numériques, présences et communication familiale sur une seule plateforme. Les établissements économisent plus de 15 heures par semaine et augmentent la satisfaction des familles de 60 %. Sans engagement.",
         mobileTitle: "Restez proches de chaque famille, sans effort supplémentaire",
         mobileDescription:
             "Notifications push, photos sécurisées et mises à jour en temps réel, le tout dans l’app gratuite Edena. Les familles restent informées sans charge supplémentaire pour votre équipe.",
-        orgTitle: "Zéro papier en 30 jours, garanti",
+        orgTitle: "Zéro papier en 30 jours, migration incluse",
         orgDescription:
-            "Réduisez les coûts opérationnels de 25 % avec le système de gestion scolaire entièrement numérique Edena. Gestion documentaire automatisée, intégration instantanée des familles et aucun processus manuel dès le premier jour.",
+            "Réduisez les coûts opérationnels de 25 % avec le système de gestion scolaire entièrement numérique d'Edena. Migration des données, intégration des familles et formation de l'équipe, tout pris en charge par nos soins.",
         verifactuCertified: "Certifié AEAT Verifactu",
     },
     setup: {
-        title: "Opérationnel en jours, pas en mois",
+        title: "Opérationnel en 2 semaines, avec votre équipe d'onboarding incluse",
         description:
-            "La plupart des établissements sont en service avec Edena en seulement 2 semaines. Notre équipe d’onboarding gère la migration des données, la formation du personnel et toute la configuration. Votre équipe n’a plus qu’à démarrer.",
+            "Migration des données, formation du personnel et configuration complète pris en charge par nos soins. La plupart des établissements sont opérationnels avec Edena en seulement 2 semaines, sans interrompre leur activité quotidienne.",
         onboardingDescription:
             "Réduisez de 75 % le temps d’intégration des familles grâce à notre système automatisé. Les familles reçoivent une invitation sécurisée, signent numériquement et sont prêtes en minutes, pas en jours.",
         operationsDescription:
             "Visibilité totale sur les présences, les finances et les communications grâce à des rapports automatiques et des tableaux de bord personnalisables. Prenez des décisions plus rapides et plus pertinentes chaque jour.",
         bookADemoCTA:
-            "Découvrez précisément comment Edena s’adapte à votre établissement. Demandez une démo gratuite sans aucun engagement.",
+            "Réservez une démo gratuite et découvrez exactement comment Edena s’intègre à votre établissement. Sans engagement.",
     },
     cookieConsent: {
         title: "Cookies et analytique",
@@ -183,14 +189,14 @@ export default {
         messageMinLength: "Le message doit contenir au moins 10 caractères",
     },
     conclusion: {
-        title: "Votre établissement. Moins d’administration. De meilleurs résultats.",
+        title: "Moins d’administration. Plus d’inscriptions. Plus de familles satisfaites.",
         description:
-            "Rejoignez les établissements qui économisent déjà plus de 15 heures par semaine avec Edena. Réduisez les coûts administratifs de 40 %, augmentez la satisfaction des familles de 60 % et gérez élèves, facturation et communication sur une seule plateforme sécurisée et intuitive.",
+            "Rejoignez les établissements qui économisent déjà plus de 15 heures par semaine avec Edena. Réduisez les coûts administratifs de 40 %, augmentez la satisfaction des familles de 60 % et gérez élèves, encaissements et communication sur une seule plateforme sécurisée.",
     },
     bento: {
-        title: "Une plateforme. Tous les besoins de votre établissement.",
+        title: "Une plateforme. Tout ce dont votre établissement a besoin.",
         description:
-            "Facturation, communication familiale, app mobile, dossiers élèves et bien plus : le tout relié sur une seule plateforme conçue pour le fonctionnement réel des établissements scolaires.",
+            "Facturation, communication familiale, app mobile, dossiers élèves et bien plus : tout connecté sur une seule plateforme conçue pour le quotidien réel des établissements scolaires.",
         chat: {
             title: "Communication scolaire",
             description:
@@ -225,9 +231,9 @@ export default {
         },
     },
     features: {
-        title: "Des fonctionnalités qui transforment la gestion scolaire",
+        title: "Tout ce qu'il vous faut pour gérer votre établissement sans complications",
         description:
-            "Tirez le meilleur parti de votre système de gestion scolaire avec la plateforme tout-en-un Edena.",
+            "De l'inscription au bulletin, des présences à l'encaissement : Edena centralise toute l'activité de votre établissement sur une seule plateforme intuitive.",
         digitalRecords: {
             title: "Dossiers numériques",
             tagline:
@@ -563,7 +569,7 @@ export default {
             dataSecurity: {
                 title: "Sécurité des données",
                 tagline:
-                    "Protection avancée avec chiffrement, conformité RGPD et sauvegardes automatiques.",
+                    "Protection avancée avec chiffrement, conformité GDPR et sauvegardes automatiques.",
             },
         },
         reportingTools: {
@@ -581,7 +587,7 @@ export default {
         },
         keyFeaturesTabsTitle: "Les 6 piliers de notre plateforme",
         keyFeaturesTabsDescription:
-            "Découvrez les fonctionnalités les plus puissantes pour piloter et faire grandir votre organisation éducative.",
+            "Les fonctionnalités qui font le plus gagner du temps aux équipes de direction et d'administration des établissements scolaires.",
         keyFeaturesTabsGoToFeature: "Aller à la fonctionnalité",
         keyFeaturesTabs: [
             {
@@ -615,6 +621,129 @@ export default {
                     "Créez des formulaires de préinscription et d’acquisition sans coder. Glissez-déposez des composants, définissez champs et options, et publiez en quelques minutes. Texte court, e-mail, téléphone, listes, cases à cocher et plus.",
             },
         ],
+    },
+    enaSection: {
+        badge: "Ena",
+        title: "Ena travaille là où travaille votre établissement",
+        description:
+            "Ena est l'agent d'intelligence artificielle d'Edena. Il automatise les processus, génère les factures, crée les concepts de facturation et répond aux questions de toute votre organisation scolaire.",
+        cards: {
+            agent: {
+                label: "@Ena Agent",
+                title: "Utilisez @Ena comme assistant intelligent disponible 24h/24.",
+                prompt: "Combien de nouveaux élèves avons-nous ce mois-ci ?",
+                response:
+                    "12 nouveaux élèves inscrits ce mois-ci. Souhaitez-vous le détail par niveau ?",
+            },
+            automate: {
+                label: "Automatisation",
+                title: "Automatisez factures, concepts et tâches administratives répétitives.",
+                prompt: "Génère les factures de mars pour toutes les familles.",
+                response:
+                    "J'ai préparé 847 factures prêtes à être vérifiées et envoyées. Les envoyer maintenant ?",
+            },
+            organization: {
+                label: "Toute l'organisation",
+                title: "Répond à la direction, l'administration, les enseignants et les familles.",
+                prompt: "Quel est le protocole d'absentéisme de l'établissement ?",
+                response:
+                    "Voici un résumé du protocole et des étapes selon votre règlement intérieur. Le partager avec l'équipe ?",
+            },
+        },
+        highlight: {
+            title: "Automatisez ce qui prend le plus de temps à votre équipe",
+            replaces: "Messages, présences et ressources humaines",
+            description:
+                "Ena rédige les communications, prend les présences et gère les processus RH directement dans Edena. Moins de tâches répétitives, plus de temps pour l'éducation.",
+            tasks: [
+                "Communication aux familles sur la sortie scolaire envoyée",
+                "Présences de la classe 3eA enregistrées automatiquement",
+                "Demande de congé du personnel traitée en RH",
+            ],
+        },
+        trust: {
+            titleBold: "Sécurité enterprise",
+            titleMuted: "incluse",
+            description:
+                "Sécurité intégrée et IA plus respectueuse de la vie privée qu'un chatbot générique",
+            support: "Support 24/7",
+            badges: {
+                soc2: "SOC 2 TYPE II",
+                iso27001: "ISO 27001",
+                gdpr: "GDPR",
+                hipaa: "HIPAA",
+            },
+        },
+    },
+    wallOfFeatures: {
+        title: "Tout ce dont votre établissement a besoin, sans outils supplémentaires",
+        description:
+            "Des dossiers numériques à la facturation automatique avec Verifactu, Edena centralise toute la gestion pour que votre équipe se concentre sur ce qui compte : l'éducation.",
+        main: {
+            students: {
+                name: "Gestion des Élèves",
+                description: "Dossiers numériques, présence et suivi académique complet",
+            },
+            guardians: {
+                name: "Portail Familial",
+                description:
+                    "Application gratuite pour les familles avec notes, factures et messagerie",
+            },
+            ai: {
+                name: "Ena",
+                description: "Intelligence artificielle appliquée à la gestion éducative",
+            },
+            finance: {
+                name: "Suite Financière",
+                description: "Facturation automatique, encaissements et Verifactu certifié",
+            },
+        },
+        items: {
+            attendance: "Présence",
+            grades: "Notes",
+            reportCards: "Bulletins",
+            crm: "CRM Inscriptions",
+            tasks: "Devoirs",
+            communication: "Communication",
+            messaging: "Messagerie",
+            notifications: "Notifications",
+            digitalSignature: "Signature Numérique",
+            billing: "Facturation",
+            payments: "Paiements",
+            directDebit: "Prélèvements",
+            reports: "Rapports",
+            verifactu: "Verifactu",
+            controlPanel: "Panneau de Contrôle",
+            analytics: "Analytics",
+            calendar: "Calendrier",
+            schedules: "Emplois du Temps",
+            groups: "Groupes",
+            multiCenter: "Multi-établissement",
+            documents: "Documents",
+            files: "Fichiers",
+            securePhotos: "Photos Sécurisées",
+            health: "Santé",
+            authorizations: "Autorisations",
+            permissions: "Permissions",
+            teacherPortal: "Portail Enseignant",
+            assessments: "Évaluations",
+            rubrics: "Grilles",
+            goals: "Objectifs",
+            gdpr: "GDPR",
+            api: "API",
+            support: "Support 24/7",
+            onboarding: "Onboarding",
+            import: "Import",
+            export: "Export",
+            familyApp: "App Familles",
+            pushAlerts: "Alertes Push",
+            multiDevice: "Multi-appareil",
+            roles: "Rôles",
+            history: "Historique",
+            schoolShop: "Boutique Scolaire",
+            languages: "Langues",
+            allergies: "Allergies",
+        },
     },
     carousel: {
         title: "Découvrez la puissance d’une gestion scolaire intelligente",
@@ -662,9 +791,9 @@ export default {
         },
     },
     pricing: {
-        title: "Des tarifs simples et transparents pour chaque établissement",
+        title: "Des tarifs clairs, sans mauvaises surprises",
         description:
-            "Tarif par élève qui évolue avec votre établissement. Pas de frais d’installation, pas d’engagement, pas de coûts cachés. Commencez avec les modules dont vous avez besoin.",
+            "Paiement par élève qui évolue avec votre établissement. Sans frais d’ouverture, sans engagement, sans coûts cachés. Démarrez uniquement avec les modules dont vous avez besoin, à partir de 44 €/mois.",
         mostPopular: "Le plus populaire",
         viewPlans: "Offres",
         viewCalculator: "Simulateur",
@@ -915,7 +1044,7 @@ export default {
     faqs: {
         title: "Questions fréquentes sur Edena",
         description:
-            "Des réponses claires sur les fonctionnalités, les tarifs, le déploiement, Verifactu, la sécurité des données et la façon dont Edena transforme la gestion de votre établissement.",
+            "Trouvez les réponses à vos questions sur les fonctionnalités, les tarifs, l'implémentation, Verifactu et la sécurité des données. Tout ce qu'il vous faut pour prendre la meilleure décision pour votre établissement.",
         guardians: {
             title: "FAQ Edena pour les familles et tuteurs",
             description:
@@ -964,7 +1093,7 @@ export default {
         guardian_data_privacy:
             "Comment la confidentialité des données des tuteurs est-elle protégée ?",
         guardian_data_privacy_answer:
-            "Toutes les données sont chiffrées et conformes au RGPD. Seul le personnel autorisé peut accéder aux informations des tuteurs.",
+            "Toutes les données sont chiffrées et conformes au GDPR. Seul le personnel autorisé peut accéder aux informations des tuteurs.",
         guardian_multiple_children:
             "Un tuteur peut-il gérer plusieurs enfants depuis un seul compte ?",
         guardian_multiple_children_answer:
@@ -1159,7 +1288,7 @@ export default {
             "Oui, attribuez chaque lead à un membre de l’équipe pour répartir le travail et personnaliser le suivi.",
         crm_data_security: "Comment les données du CRM sont-elles protégées ?",
         crm_data_security_answer:
-            "Données chiffrées et conformes au RGPD. Seul le personnel autorisé accède aux demandes.",
+            "Données chiffrées et conformes au GDPR. Seul le personnel autorisé accède aux demandes.",
         students: {
             title: "FAQ sur la gestion des élèves dans Edena",
             description:
@@ -1183,7 +1312,7 @@ export default {
             "Oui, création, inscription et gestion des activités depuis le panneau élèves.",
         students_data_privacy: "Comment la vie privée des données des élèves est-elle protégée ?",
         students_data_privacy_answer:
-            "Toutes les données sont conformes au RGPD et protégées par un chiffrement avancé.",
+            "Toutes les données sont conformes au GDPR et protégées par un chiffrement avancé.",
         students_support_services:
             "Quels services d’accompagnement Edena propose-t-elle aux élèves ?",
         students_support_services_answer:
@@ -1225,7 +1354,7 @@ export default {
             "Oui, un seul compte pour les informations, la facturation et la communication de tous vos enfants, quel que soit l’établissement.",
         families_data_security: "Comment les données de ma famille sont-elles protégées ?",
         families_data_security_answer:
-            "Chiffrement avancé et conformité RGPD. Seuls le personnel autorisé de l’établissement et vous accédez aux informations sur vos enfants.",
+            "Chiffrement avancé et conformité GDPR. Seuls le personnel autorisé de l’établissement et vous accédez aux informations sur vos enfants.",
         families_support: "Quelle assistance en tant que famille ?",
         families_support_answer:
             "Contactez notre équipe par chat, e-mail ou depuis l’app. Une section d’aide avec guides et tutoriels est aussi disponible.",
@@ -1274,7 +1403,7 @@ export default {
             "Edena centralise dossiers scolaires, présences, notes, communication familiale, facturation et documents dans un seul système.",
         centers_data_security: "Comment Edena garantit-elle la sécurité des données ?",
         centers_data_security_answer:
-            "Chiffrement avancé, conformité RGPD, sauvegardes automatiques et contrôles d’accès stricts pour les données de l’établissement et des familles.",
+            "Chiffrement avancé, conformité GDPR, sauvegardes automatiques et contrôles d’accès stricts pour les données de l’établissement et des familles.",
         centers_integration_options: "Peut-on s’intégrer à d’autres systèmes ?",
         centers_integration_options_answer:
             "Oui : comptabilité, plateformes de communication externes et autres logiciels éducatifs via API et export de données standard.",
@@ -1290,15 +1419,17 @@ export default {
     },
     privacyPolicy: {
         title: "Politique de confidentialité",
-        content: `Dernière mise à jour : 17 avril 2026<br>
+        content: `Dernière mise à jour : 2 juin 2026<br>
 <br>
 1. INTRODUCTION ET OBJET<br>
-Chez Edena, nous nous engageons à protéger la vie privée de tous les utilisateurs de notre plateforme et à être entièrement transparents sur la façon dont nous traitons les données personnelles. La présente Politique de confidentialité décrit les pratiques de traitement des données d'Edena Software S.L. en lien avec l'utilisation de la plateforme Edena et de ce site web, conformément au règlement (UE) 2016/679 (RGPD), à la loi organique espagnole 3/2018 du 5 décembre relative à la protection des données personnelles et à la garantie des droits numériques (LOPDGDD), ainsi qu'à la loi espagnole 34/2002 du 11 juillet sur les services de la société de l'information et le commerce électronique (LSSI).<br>
+Chez Edena, nous nous engageons à protéger la vie privée de tous les utilisateurs de notre plateforme et à être entièrement transparents sur la façon dont nous traitons les données personnelles. La présente Politique de confidentialité décrit les pratiques de traitement des données d'Edena Software S.L. en lien avec l'utilisation de la plateforme Edena et de ce site web, conformément au règlement (UE) 2016/679 (GDPR), à la loi organique espagnole 3/2018 du 5 décembre relative à la protection des données personnelles et à la garantie des droits numériques (LOPDGDD), ainsi qu'à la loi espagnole 34/2002 du 11 juillet sur les services de la société de l'information et le commerce électronique (LSSI).<br>
 <br>
 Edena est une plateforme de gestion éducative intégrée conçue pour les établissements scolaires (écoles, crèches, centres de formation et groupes scolaires). En tant que plateforme traitant des données de mineurs, d'élèves et de familles, nous appliquons les plus hautes garanties en matière de confidentialité et de sécurité.<br>
 <br>
 2. RESPONSABLE DU TRAITEMENT<br>
 Raison sociale : Edena Software S.L.<br>
+Numéro d'identification (CIF/NIF) : B27627462<br>
+DUNS : 373964745<br>
 Adresse : Barcelone, Espagne<br>
 Courriel : privacidad@edena.es<br>
 Site web : www.edena.es<br>
@@ -1330,20 +1461,20 @@ Données : données de navigation, adresse IP (anonymisée), pages visitées, du
 Finalité : analyse de l'utilisation du site web, amélioration de l'expérience utilisateur et traitement des demandes d'information.<br>
 <br>
 5. FINALITÉS DU TRAITEMENT ET BASE JURIDIQUE<br>
-a) Gestion du contrat et fourniture du service — Base : exécution d'un contrat (art. 6.1.b RGPD).<br>
-b) Gestion scolaire et dossiers des élèves — Base : exécution d'un contrat / intérêt légitime (art. 6.1.b et 6.1.f RGPD).<br>
-c) Communication entre l'établissement et les familles — Base : exécution d'un contrat / intérêt légitime (art. 6.1.b et 6.1.f RGPD).<br>
-d) Facturation et gestion des paiements — Base : exécution d'un contrat / obligation légale (art. 6.1.b et 6.1.c RGPD).<br>
-e) Envoi de communications commerciales sur Edena — Base : consentement (art. 6.1.a RGPD). Le consentement peut être retiré à tout moment.<br>
-f) Respect des obligations légales fiscales, sociales et commerciales — Base : obligation légale (art. 6.1.c RGPD).<br>
-g) Amélioration de la plateforme et analyse statistique anonymisée — Base : intérêt légitime (art. 6.1.f RGPD).<br>
+a) Gestion du contrat et fourniture du service. Base : exécution d'un contrat (art. 6.1.b GDPR).<br>
+b) Gestion scolaire et dossiers des élèves. Base : exécution d'un contrat / intérêt légitime (art. 6.1.b et 6.1.f GDPR).<br>
+c) Communication entre l'établissement et les familles. Base : exécution d'un contrat / intérêt légitime (art. 6.1.b et 6.1.f GDPR).<br>
+d) Facturation et gestion des paiements. Base : exécution d'un contrat / obligation légale (art. 6.1.b et 6.1.c GDPR).<br>
+e) Envoi de communications commerciales sur Edena. Base : consentement (art. 6.1.a GDPR). Le consentement peut être retiré à tout moment.<br>
+f) Respect des obligations légales fiscales, sociales et commerciales. Base : obligation légale (art. 6.1.c GDPR).<br>
+g) Amélioration de la plateforme et analyse statistique anonymisée. Base : intérêt légitime (art. 6.1.f GDPR).<br>
 <br>
 6. TRAITEMENT PARTICULIER : DONNÉES DES MINEURS<br>
-Edena est pleinement conscient de la sensibilité particulière du traitement des données personnelles des mineurs. Conformément à l'article 8 du RGPD et à l'article 7 de la LOPDGDD :<br>
+Edena est pleinement conscient de la sensibilité particulière du traitement des données personnelles des mineurs. Conformément à l'article 8 du GDPR et à l'article 7 de la LOPDGDD :<br>
 <br>
 - Les établissements scolaires, en qualité de responsables du traitement des données de leurs élèves, sont chargés d'obtenir le consentement des parents ou tuteurs légaux pour le traitement des données des enfants de moins de 14 ans.<br>
 - Edena agit en tant que sous-traitant à l'égard des données des élèves saisies par l'établissement scolaire, conformément aux instructions de celui-ci.<br>
-- Les données de santé et autres catégories particulières de données des élèves (art. 9 RGPD) ne sont traitées que lorsque l'établissement les saisit expressément et qu'il existe une base juridique spécifique (consentement explicite ou nécessité pour la prestation du service éducatif).<br>
+- Les données de santé et autres catégories particulières de données des élèves (art. 9 GDPR) ne sont traitées que lorsque l'établissement les saisit expressément et qu'il existe une base juridique spécifique (consentement explicite ou nécessité pour la prestation du service éducatif).<br>
 - Edena n'utilise pas les données des mineurs à d'autres fins que celles strictement éducatives et de gestion de l'établissement.<br>
 <br>
 7. CONSERVATION DES DONNÉES<br>
@@ -1360,18 +1491,18 @@ Les données sont conservées pendant la durée strictement nécessaire à la fi
 8. DESTINATAIRES ET SOUS-TRAITANTS<br>
 Edena ne vend ni ne cède de données personnelles à des tiers à des fins commerciales. Les données ne peuvent être communiquées qu'à :<br>
 <br>
-- Des prestataires technologiques et d'infrastructure cloud (hébergement, bases de données) agissant en tant que sous-traitants dans le cadre de contrats conformes au RGPD.<br>
+- Des prestataires technologiques et d'infrastructure cloud (hébergement, bases de données) agissant en tant que sous-traitants dans le cadre de contrats conformes au GDPR.<br>
 - Des prestataires de services de paiement certifiés (PCI DSS) pour la gestion des encaissements et de la facturation.<br>
 - Des prestataires d'analyse et de surveillance du service, toujours de manière anonymisée ou agrégée.<br>
 - Des autorités et organismes publics, exclusivement pour respecter des obligations légales.<br>
 <br>
-Tous nos prestataires sont soumis à des accords de confidentialité et à des contrats de sous-traitance garantissant la conformité au RGPD.<br>
+Tous nos prestataires sont soumis à des accords de confidentialité et à des contrats de sous-traitance garantissant la conformité au GDPR.<br>
 <br>
 9. TRANSFERTS INTERNATIONAUX DE DONNÉES<br>
-En règle générale, les données sont hébergées sur des serveurs situés dans l'Espace économique européen (EEE). Dans les cas exceptionnels où un transfert international hors EEE est nécessaire, Edena s'assure que des garanties appropriées prévues par le RGPD sont mises en place, telles que les clauses contractuelles types approuvées par la Commission européenne ou l'existence d'une décision d'adéquation.<br>
+En règle générale, les données sont hébergées sur des serveurs situés dans l'Espace économique européen (EEE). Dans les cas exceptionnels où un transfert international hors EEE est nécessaire, Edena s'assure que des garanties appropriées prévues par le GDPR sont mises en place, telles que les clauses contractuelles types approuvées par la Commission européenne ou l'existence d'une décision d'adéquation.<br>
 <br>
 10. DROITS DES PERSONNES CONCERNÉES<br>
-Conformément au RGPD et à la LOPDGDD, les utilisateurs peuvent exercer les droits suivants :<br>
+Conformément au GDPR et à la LOPDGDD, les utilisateurs peuvent exercer les droits suivants :<br>
 <br>
 - Droit d'accès : connaître les données personnelles que nous traitons vous concernant.<br>
 - Droit de rectification : corriger des données inexactes ou incomplètes.<br>
@@ -1384,9 +1515,9 @@ Conformément au RGPD et à la LOPDGDD, les utilisateurs peuvent exercer les dro
 <br>
 Pour exercer l'un de ces droits, envoyez une demande à privacidad@edena.es en indiquant votre nom, prénom et une copie de votre pièce d'identité. Nous répondrons dans un délai maximal d'un mois.<br>
 <br>
-Si vous estimez que vos droits n'ont pas été correctement respectés, vous avez le droit d'introduire une réclamation auprès de l'Agence espagnole de protection des données (AEPD) — www.aepd.es.<br>
+Si vous estimez que vos droits n'ont pas été correctement respectés, vous avez le droit d'introduire une réclamation auprès de l'Agence espagnole de protection des données (AEPD): www.aepd.es.<br>
 <br>
-11. MESURES DE SÉCURITÉ<br>
+11. MESURES DE SÉCURITÉ ET STANDARDS DE CONFORMITÉ<br>
 Edena met en oeuvre des mesures techniques et organisationnelles appropriées pour garantir un niveau de sécurité adapté au risque, notamment :<br>
 <br>
 - Chiffrement des données en transit (TLS/HTTPS) et au repos.<br>
@@ -1398,6 +1529,15 @@ Edena met en oeuvre des mesures techniques et organisationnelles appropriées po
 - Analyses d'impact relatives à la protection des données (AIPD) pour les traitements à haut risque.<br>
 <br>
 En cas de violation de données affectant les droits et libertés des personnes concernées, Edena notifiera l'autorité de contrôle dans un délai de 72 heures et, si nécessaire, informera les personnes concernées.<br>
+<br>
+En cas de violation affectant des Informations de Santé Protégées (PHI) dans le cadre de la réglementation HIPAA, Edena suivra également les procédures de notification prévues par la HIPAA Breach Notification Rule (45 CFR §§ 164.400–414).<br>
+<br>
+Edena se conforme aux standards de sécurité suivants et a mis en place les contrôles correspondants :<br>
+<br>
+- SOC 2 Type II (AICPA) : les contrôles et processus d'Edena sont conçus conformément au cadre SOC 2 Type II (sécurité, disponibilité, confidentialité, intégrité du traitement et vie privée). La documentation de nos contrôles est disponible sous NDA pour les clients qui en font la demande à confidentialite@edena.es.<br>
+- ISO/IEC 27001 : Edena met en œuvre un Système de Management de la Sécurité de l'Information (SMSI) aligné sur les exigences de la norme ISO/IEC 27001, avec des processus documentés soumis à amélioration continue.<br>
+- HIPAA (Health Insurance Portability and Accountability Act, États-Unis) : Edena met en œuvre les mesures de protection techniques, administratives et physiques (45 CFR Part 164) requises par HIPAA pour la protection des Informations de Santé Protégées (PHI). Les données de santé des élèves (allergies, besoins éducatifs particuliers et autres conditions médicales) sont traitées avec les plus hauts standards de sécurité, conformément à HIPAA et à l'article 9 du RGPD.<br>
+- RGPD/LOPDGDD : conformité intégrale au Règlement (UE) 2016/679. Les bases juridiques, les droits des personnes concernées et les mesures de sécurité sont décrits en détail dans la présente Politique de confidentialité.<br>
 <br>
 12. EXACTITUDE ET VÉRACITÉ DES DONNÉES<br>
 L'utilisateur s'engage à fournir des données véridiques, exactes et à jour. Edena ne saurait être tenu responsable des préjudices résultant de l'utilisation de données inexactes ou fausses fournies par l'utilisateur. En cas de modification des données, l'utilisateur doit en informer Edena dans les meilleurs délais à l'adresse privacidad@edena.es.<br>
@@ -1412,14 +1552,23 @@ Courriel : privacidad@edena.es<br>
 Pour toute réclamation auprès de l'autorité de contrôle compétente :<br>
 Agence espagnole de protection des données (AEPD)<br>
 C/ Jorge Juan, 6, 28001 Madrid<br>
-www.aepd.es`,
+www.aepd.es<br>
+<br>
+15. HIPAA (ACCORD DE SOUS-TRAITANT (BUSINESS ASSOCIATE AGREEMENT) BAA)<br>
+Lorsqu'Edena traite, pour le compte d'un établissement éducatif, des Informations de Santé Protégées (Protected Health Information, PHI) de personnes soumises à la Health Insurance Portability and Accountability Act (HIPAA) des États-Unis, Edena agit en qualité de Business Associate au sens du 45 CFR § 160.103.<br>
+<br>
+Dans ce cas, l'établissement éducatif (en qualité d'entité couverte (covered entity) ou de Business Associate principal) doit conclure avec Edena un Business Associate Agreement (BAA) conforme aux exigences du 45 CFR § 164.504(e) avant d'initier tout traitement de PHI sur la Plateforme.<br>
+<br>
+Pour demander la signature d'un BAA, contactez : confidentialite@edena.es, en précisant la nature des données de santé à traiter et le périmètre du service requis.<br>
+<br>
+Les données de santé des élèves traitées dans le cadre du droit espagnol et européen (allergies, besoins éducatifs particuliers ou autres conditions médicales) constituent des données de catégorie particulière au sens de l'article 9 du RGPD. Leur traitement est fondé sur le consentement explicite de la personne concernée ou de son représentant légal, ou sur la nécessité de ce traitement pour la prestation du service éducatif, avec les plus hautes garanties de sécurité technique et organisationnelle.`,
     },
     termsOfService: {
         title: "Conditions générales d'utilisation",
-        content: `Dernière mise à jour : 17 avril 2026<br>
+        content: `Dernière mise à jour : 2 juin 2026<br>
 <br>
 1. OBJET ET ACCEPTATION<br>
-Les présentes Conditions générales d'utilisation (ci-après, "les Conditions") régissent l'accès et l'utilisation de la plateforme Edena (ci-après, "la Plateforme"), propriété d'Edena Software S.L. (ci-après, "Edena"). En s'inscrivant, en accédant à la Plateforme ou en l'utilisant, l'utilisateur ou l'établissement scolaire (ci-après, "le Client") accepte d'être lié par les présentes Conditions dans leur version en vigueur.<br>
+Les présentes Conditions générales d'utilisation (ci-après, "les Conditions") régissent l'accès et l'utilisation de la plateforme Edena (ci-après, "la Plateforme"), propriété d'Edena Software S.L. (numéro d'identification CIF : B27627462 ; DUNS : 373964745) (ci-après, "Edena"). En s'inscrivant, en accédant à la Plateforme ou en l'utilisant, l'utilisateur ou l'établissement scolaire (ci-après, "le Client") accepte d'être lié par les présentes Conditions dans leur version en vigueur.<br>
 <br>
 Si l'utilisateur agit au nom d'un établissement scolaire ou d'une organisation, il déclare disposer de l'autorité suffisante pour accepter les présentes Conditions au nom de ladite entité.<br>
 <br>
@@ -1483,7 +1632,7 @@ Edena s'engage à :<br>
 - Notifier au Client tout incident de sécurité susceptible d'affecter ses données, dans le délai prévu par la réglementation applicable.<br>
 <br>
 7. TRAITEMENT DES DONNÉES PERSONNELLES<br>
-Dans le cadre de la prestation du service, le Client agit en tant que responsable du traitement des données personnelles des élèves, des familles et du personnel qu'il saisit dans la Plateforme. Edena agit en tant que sous-traitant de ces données, en vertu du Contrat de sous-traitance (DPA) intégré aux présentes Conditions, conforme aux exigences de l'article 28 du RGPD.<br>
+Dans le cadre de la prestation du service, le Client agit en tant que responsable du traitement des données personnelles des élèves, des familles et du personnel qu'il saisit dans la Plateforme. Edena agit en tant que sous-traitant de ces données, en vertu du Contrat de sous-traitance (DPA) intégré aux présentes Conditions, conforme aux exigences de l'article 28 du GDPR.<br>
 <br>
 Le traitement des données découlant de l'utilisation de ce site web et de la relation commerciale avec Edena est régi par la Politique de confidentialité disponible sur www.edena.es/confidentialite.<br>
 <br>
@@ -1533,17 +1682,30 @@ Si une clause des présentes Conditions était déclarée nulle ou inapplicable,
 14. CONTACT<br>
 Pour toute question relative aux présentes Conditions générales :<br>
 Courriel : privacidad@edena.es<br>
-Site web : www.edena.es`,
+Site web : www.edena.es<br>
+<br>
+15. STANDARDS DE SÉCURITÉ ET ACCORD DE SOUS-TRAITANT HIPAA (BAA)<br>
+<br>
+15.1 Standards et référentiels de sécurité appliqués<br>
+Edena se conforme aux standards et référentiels de sécurité suivants :<br>
+- SOC 2 Type II (AICPA) : les contrôles d'Edena sont conçus conformément au cadre SOC 2 Type II. Documentation disponible sous NDA sur demande.<br>
+- ISO/IEC 27001 : Edena met en œuvre un SMSI aligné sur les exigences de la norme ISO/IEC 27001.<br>
+- HIPAA : mise en œuvre des mesures de protection techniques, administratives et physiques requises par le 45 CFR Part 164 pour le traitement des PHI.<br>
+- RGPD/LOPDGDD : conformité intégrale à la réglementation européenne et espagnole, détaillée dans la Politique de confidentialité d'Edena (www.edena.es/confidentialite).<br>
+<br>
+15.2 Business Associate Agreement (BAA), HIPAA<br>
+Lorsque le Client est une entité couverte ou un Business Associate au sens du 45 CFR § 160.103 et envisage de traiter des Informations de Santé Protégées (PHI) de citoyens américains sur la Plateforme, Edena agira en qualité de Business Associate. Dans ce cas, le Client doit conclure avec Edena un Business Associate Agreement (BAA) conforme au 45 CFR § 164.504(e) avant tout traitement de PHI.<br>
+Pour demander la signature d'un BAA, le Client doit contacter confidentialite@edena.es en précisant la nature des données de santé et le périmètre du service. Edena répondra dans un délai maximum de 5 jours ouvrés.`,
     },
     cookiePolicy: {
         title: "Politique relative aux cookies",
-        content: `Dernière mise à jour : 17 avril 2026<br>
+        content: `Dernière mise à jour : 2 juin 2026<br>
 <br>
 1. QU'EST-CE QU'UN COOKIE ?<br>
 Les cookies sont de petits fichiers texte que les sites web stockent sur l'appareil de l'utilisateur (ordinateur, tablette, smartphone) lorsqu'il les visite. Ils permettent au site de mémoriser les préférences de l'utilisateur, d'analyser le comportement de navigation, d'améliorer l'expérience d'utilisation et, dans certains cas, d'afficher de la publicité personnalisée.<br>
 <br>
 2. QUI EST RESPONSABLE DE L'UTILISATION DES COOKIES SUR CE SITE ?<br>
-Le responsable du site web www.edena.es et de l'utilisation des cookies est Edena Software S.L. Pour toute question relative à la présente politique, vous pouvez nous contacter à privacidad@edena.es.<br>
+Le responsable du site web www.edena.es et de l'utilisation des cookies est Edena Software S.L. (numéro CIF : B27627462). Pour toute question relative à la présente politique, vous pouvez nous contacter à privacidad@edena.es.<br>
 <br>
 3. TYPES DE COOKIES QUE NOUS UTILISONS<br>
 En fonction de leur finalité, les cookies que vous pouvez rencontrer sur notre site web se classifient comme suit :<br>
@@ -1571,13 +1733,13 @@ Chacun de ces fournisseurs dispose de ses propres politiques de confidentialité
 4. TABLEAU DES COOKIES UTILISÉS<br>
 Voici le détail des principaux cookies utilisés sur ce site :<br>
 <br>
-- _ga / _gid : Google Analytics — analyse d'utilisation — durée : jusqu'à 2 ans.<br>
-- _gat : Google Analytics — contrôle de la fréquence des requêtes — durée : 1 minute.<br>
-- edena_session : session utilisateur — authentification — durée : session.<br>
-- edena_lang : préférence de langue — personnalisation — durée : 1 an.<br>
-- edena_theme : préférence de thème visuel — personnalisation — durée : 1 an.<br>
-- cookie_consent : enregistrement du consentement aux cookies — nécessaire — durée : 1 an.<br>
-- _hjid : Hotjar — identification de l'utilisateur pour l'analyse comportementale — durée : 1 an.<br>
+- _ga / _gid : Google Analytics (analyse d'utilisation; durée : jusqu'à 2 ans).<br>
+- _gat : Google Analytics (contrôle de la fréquence des requêtes; durée : 1 minute).<br>
+- edena_session : session utilisateur (authentification; durée : session).<br>
+- edena_lang : préférence de langue (personnalisation; durée : 1 an).<br>
+- edena_theme : préférence de thème visuel (personnalisation; durée : 1 an).<br>
+- cookie_consent : enregistrement du consentement aux cookies (nécessaire; durée : 1 an).<br>
+- _hjid : Hotjar (identification de l'utilisateur pour l'analyse comportementale; durée : 1 an).<br>
 <br>
 5. COMMENT GÉRER OU DÉSACTIVER LES COOKIES ?<br>
 L'utilisateur peut, à tout moment, accepter, refuser ou retirer son consentement à l'utilisation des cookies via le panneau de préférences de cookies disponible sur notre site web (bouton "Gérer les cookies" dans le pied de page).<br>
@@ -1598,7 +1760,7 @@ Les cookies strictement nécessaires ne requièrent pas de consentement préalab
 Vous pouvez révoquer ou modifier votre consentement à tout moment en accédant au panneau de préférences de cookies disponible dans le pied de page de notre site web.<br>
 <br>
 7. TRANSFERTS INTERNATIONAUX<br>
-Certains fournisseurs de cookies tiers (comme Google) peuvent traiter des données sur des serveurs situés en dehors de l'Espace économique européen (EEE). Dans ces cas, ces fournisseurs sont soumis à des mécanismes de transfert appropriés conformes au RGPD (clauses contractuelles types, décisions d'adéquation, etc.).<br>
+Certains fournisseurs de cookies tiers (comme Google) peuvent traiter des données sur des serveurs situés en dehors de l'Espace économique européen (EEE). Dans ces cas, ces fournisseurs sont soumis à des mécanismes de transfert appropriés conformes au GDPR (clauses contractuelles types, décisions d'adéquation, etc.).<br>
 <br>
 8. MISES À JOUR DE LA PRÉSENTE POLITIQUE<br>
 Edena peut mettre à jour la présente Politique de cookies pour l'adapter aux évolutions législatives, aux nouvelles fonctionnalités du site ou aux changements dans les services tiers utilisés. La date de dernière mise à jour figurant au début de ce document reflète toujours la version en vigueur. Nous vous recommandons de la consulter régulièrement.<br>
@@ -1633,7 +1795,7 @@ Pour plus d'informations sur les cookies et leur gestion, vous pouvez consulter 
     dashboard: {
         mainTitle: "Chaque indicateur de votre établissement, en temps réel",
         mainDescription:
-            "Présences, finances, inscriptions et communications sur un seul tableau de bord. Détectez les problèmes avant qu’ils ne grossissent et décidez sur des données toujours à jour.",
+            "Présences, encaissements, inscriptions et communications sur un seul tableau de bord mis à jour en temps réel. Détectez les problèmes avant qu’ils ne s’aggravent et prenez de meilleures décisions avec des données toujours à jour.",
         quickActionsTitle: "Actions rapides",
         quickActionsDescription:
             "Accédez instantanément aux tâches courantes : factures, événements du calendrier, invitations et opérations du quotidien en un clic.",
@@ -1670,9 +1832,9 @@ Pour plus d'informations sur les cookies et leur gestion, vous pouvez consulter 
             "Suivi visuel des notes par élève, matière ou groupe. Moyennes pondérées, grilles et calculs automatiques pour les bulletins.",
     },
     students: {
-        mainTitle: "Gestion des élèves qui fait gagner des heures à votre équipe chaque semaine",
+        mainTitle: "Dossiers, présences et encaissements. Tout au même endroit.",
         mainDescription:
-            "Centralisez toutes les informations depuis l’inscription. Dossiers numériques, présences automatisées, notes et facturation au même endroit. Réduisez les tâches administratives de 40 %.",
+            "Centralisez toutes les informations de vos élèves dès l’inscription. Dossiers numériques, présences automatiques, notes et facturation intégrés. Réduisez les tâches administratives de 40 %.",
         studentDetailTitle: "Dossiers numériques",
         studentDetailDescription:
             "Gérez dossiers, parcours scolaire et communication avec les familles. Une plateforme unifiée qui optimise l’administration et améliore l’expérience éducative.",
@@ -1723,12 +1885,12 @@ Pour plus d'informations sur les cookies et leur gestion, vous pouvez consulter 
         billingCycleTitle: "Cycles de facturation",
         billingCycleDescription:
             "Configurez des cycles d’encaissement récurrents pour inscriptions, activités et services. Des encaissements à l’heure, sans intervention manuelle.",
-        mainTitle: "Finie la relance permanente. Encaissez à l’heure, toujours.",
+        mainTitle: "Encaissez à l’heure, toujours. Sans courir après personne.",
         mainDescription:
-            "Facturation automatique, prélèvements SEPA et suivi des encaissements en temps réel. Edena gère la partie financière pour que votre équipe se concentre sur l’éducation. Certifié Verifactu.",
+            "Facturation automatique, prélèvements SEPA et suivi des encaissements en temps réel. Certifié Verifactu AEAT. Votre équipe cesse de perdre du temps sur la gestion financière manuelle.",
     },
     guardians: {
-        mainTitle: "Des familles toujours informées, sans effort supplémentaire",
+        mainTitle: "Les familles toujours informées, sans effort supplémentaire pour votre équipe",
         mainDescription:
             "Notes en temps réel, alertes de présence, documents numériques et paiement des factures sur un seul portail. Réduisez de 75 % le temps d’intégration et augmentez de 60 % la satisfaction des familles.",
         onboardingTitle: "Intégration des familles",
@@ -1750,7 +1912,7 @@ Pour plus d'informations sur les cookies et leur gestion, vous pouvez consulter 
         signatureSave: "Enregistrer",
     },
     families: {
-        mainTitle: "Tout le scolaire dans une app gratuite pour les familles",
+        mainTitle: "Tout le scolaire dans l'app gratuite que les familles utilisent vraiment",
         mainDescription:
             "App gratuite pour toutes les familles. Notes, factures, messages, photos et boutique de l’établissement, accessibles sur tout appareil, 24h/24.",
         mobileAppTitle: "Application mobile gratuite",
@@ -1772,7 +1934,7 @@ Pour plus d'informations sur les cookies et leur gestion, vous pouvez consulter 
     nurseries: {
         mainTitle: "La plateforme qu’il vous faut pour la petite enfance, sans complexité",
         mainDescription:
-            "Communication quotidienne avec les familles, photos sécurisées, facturation automatique et dossiers numériques. Conçu pour le rythme réel des structures petite enfance.",
+            "Communication quotidienne avec les familles, photos sécurisées, facturation automatique et dossiers numériques. Conçu pour le rythme réel des crèches et maternelles. Opérationnel en 2 semaines.",
         communicationTitle: "Des familles toujours informées",
         communicationDescription:
             "Partagez photos, nouvelles du jour, menus et activités avec les parents instantanément depuis l’app. Plus de sérénité pour eux, moins d’appels pour vous.",
@@ -1798,7 +1960,7 @@ Pour plus d'informations sur les cookies et leur gestion, vous pouvez consulter 
     schools: {
         mainTitle: "L’ERP que votre école attendait depuis longtemps",
         mainDescription:
-            "Gestion complète pour le primaire, le collège et le lycée : dossiers, notes, présences, facturation et communication familiale. Tout dans un seul système.",
+            "Gestion complète pour le primaire, le collège et le lycée : dossiers, notes, présences, facturation Verifactu et communication avec les familles. Tout sur un seul système.",
         communicationTitle: "Communication centralisée avec les familles",
         communicationDescription:
             "Messagerie sécurisée, alertes de présence et actualités de l’établissement dans une seule app. Fini le chaos des groupes de messagerie et des circulaires papier.",
@@ -1821,7 +1983,7 @@ Pour plus d'informations sur les cookies et leur gestion, vous pouvez consulter 
     academies: {
         mainTitle: "Gérez votre centre de cours sans la paperasse habituelle",
         mainDescription:
-            "Facturation automatique, suivi des présences, CRM d’acquisition et communication avec les familles. Libérez du temps pour enseigner.",
+            "Encaissements automatiques, suivi des présences, CRM de recrutement et communication avec les familles. Libérez votre académie du travail manuel pour vous concentrer sur l’enseignement.",
         communicationTitle: "Attirez plus d’élèves avec le CRM intégré",
         communicationDescription:
             "Pilotez chaque demande et chaque lead dans un pipeline visuel et convertissez plus de prospects en inscriptions. Votre liste d’attente, toujours organisée.",
@@ -1841,7 +2003,7 @@ Pour plus d'informations sur les cookies et leur gestion, vous pouvez consulter 
     groups: {
         mainTitle: "Une seule plateforme pour tout votre réseau d’établissements",
         mainDescription:
-            "Pilotez tout votre réseau de crèches ou d’écoles depuis un tableau de bord centralisé. Visibilité totale, processus homogènes et économies sur chaque site.",
+            "Gérez tout votre réseau d’établissements depuis un seul tableau de bord centralisé. Visibilité totale, fonctionnement homogène et facturation centralisée. Développez-vous sans multiplier la charge administrative.",
         communicationTitle: "Tableau de bord multi-sites unifié",
         communicationDescription:
             "Métriques en temps réel de tous vos établissements en une vue. Comparez performance, présences et santé financière du réseau instantanément.",
@@ -1864,7 +2026,7 @@ Pour plus d'informations sur les cookies et leur gestion, vous pouvez consulter 
     centers: {
         mainTitle: "Le système d’exploitation complet de votre établissement scolaire",
         mainDescription:
-            "Communication, facturation, CRM, dossiers et automatisation sur une seule plateforme. Réduisez les coûts administratifs de 40 % et libérez votre équipe des tâches répétitives.",
+            "Communication, facturation, CRM d'inscriptions, dossiers et automatisation sur une seule plateforme. Réduisez les coûts administratifs de 40 % et libérez votre équipe des tâches répétitives.",
         communicationTitle: "Communication centralisée",
         communicationDescription:
             "Gérez tous les échanges avec familles, enseignants et personnel depuis un seul panneau. Messagerie sécurisée, notifications et mises à jour en temps réel.",
@@ -1881,10 +2043,56 @@ Pour plus d'informations sur les cookies et leur gestion, vous pouvez consulter 
         financialAutomationDescription:
             "Générez les factures automatiquement, gérez les prélèvements récurrents et obtenez une analytique financière en temps réel. Réduisez la charge administrative et améliorez la trésorerie.",
     },
-    erpStats: {
-        title: "Comment nous aidons nos clients à grandir",
+    trustedBySection: {
+        title: "Ils nous font confiance",
+    },
+    problemSection: {
+        title: "Votre établissement utilise encore des outils qui ne se parlent pas ?",
         description:
-            "Découvrez comment nos approches sur mesure aident écoles et crèches à gagner du temps, augmenter les inscriptions et améliorer la satisfaction des familles.",
+            "La plupart des établissements perdent 3 heures par jour à jongler entre WhatsApp, Excel, les e-mails et un ERP vieillissant. Edena regroupe tout sur une seule plateforme avec une IA éducative intégrée.",
+        mobileSummary:
+            "WhatsApp, calendriers, visioconférences, IA génériques, Excel et ERP déconnectés : votre équipe perd des heures chaque jour à changer d'outil sans jamais partager les données.",
+        cards: {
+            tools: {
+                title: "Trop d'outils",
+                highlight: "73% des équipes",
+                description: "passent d'une application à l'autre, plus de 6 par jour",
+                items: ["WhatsApp", "Google Calendar", "Google Meet", "Microsoft Teams"],
+            },
+            ai: {
+                title: "Des IA sans contexte scolaire",
+                highlight: "96% des IA généralistes",
+                description:
+                    "ne connaissent ni la réglementation ni les processus de votre établissement",
+                items: ["ChatGPT", "Claude", "Gemini", "Copilot"],
+            },
+            finance: {
+                title: "Comptabilité dispersée",
+                highlight: "68% des établissements",
+                description:
+                    "exportent encore manuellement leurs données vers Excel et des logiciels externes",
+                items: ["Microsoft Excel", "Sage", "QuickBooks", "Xero"],
+            },
+        },
+    },
+    integrationsSection: {
+        title: "Intégrations",
+        description:
+            "Nous nous intégrons aux outils que vous utilisez déjà, comme WhatsApp, Gmail, les calendriers ou Slack, pour que votre équipe continue à travailler comme avant, sans migration ni changement de routine. Edena se connecte à votre écosystème et centralise l'information en un seul endroit.",
+        logos: {
+            googleCalendar: "Google Calendar",
+            outlookCalendar: "Outlook Calendar",
+            whatsapp: "WhatsApp",
+            salesforce: "Salesforce",
+            slack: "Slack",
+            gmail: "Gmail",
+            outlook: "Outlook",
+        },
+    },
+    erpStats: {
+        title: "Résultats réels des établissements qui utilisent déjà Edena",
+        description:
+            "Données agrégées d'écoles, d'académies et de crèches qui ont numérisé leur gestion avec Edena.",
         cases: [
             {
                 stat: "+100%",
@@ -1914,14 +2122,18 @@ Pour plus d'informations sur les cookies et leur gestion, vous pouvez consulter 
                 stat: "-40%",
                 description:
                     "de réduction des impayés et retards grâce à la facturation et l’encaissement automatisés.",
-                bg: "highlight",
+                bg: "dark",
             },
         ],
     },
     blog: {
-        ctaTitle: "Prêt à transformer la gestion de votre établissement ?",
+        description:
+            "Guides, cas pratiques et actualités sur la gestion scolaire, la digitalisation des établissements et le produit Edena.",
+        faqTitle: "Questions fréquentes",
+        relatedTitle: "Articles connexes",
+        ctaTitle: "Rejoignez les établissements qui travaillent déjà sans paperasse",
         ctaDescription:
-            "Des milliers d’établissements utilisent Edena pour économiser plus de 15 heures par semaine sur l’administration. Découvrez comment ça marche avec une démo gratuite et sans engagement adaptée à votre structure.",
+            "Établissements utilisent Edena pour économiser plus de 15 heures par semaine sur les tâches administratives. Découvrez comment ça fonctionne avec une démo gratuite adaptée à votre type d’établissement.",
     },
     altText: {
         logo: "Logo Edena - Logiciel de gestion scolaire",
