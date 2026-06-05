@@ -128,7 +128,19 @@ const trustBadges = ["gdpr", "soc2", "iso27001", "hipaa"] as const;
                     <p class="text-sm leading-relaxed text-zinc-400">
                         {enaSection.highlight.description}
                     </p>
-                    <BookDemoButton t={t} variant="white" className="w-fit" />
+                    <div class="flex flex-col gap-4">
+                        <div class="flex gap-2">
+                            <BookDemoButton t={t} variant="secondary" />
+                            <Link href="https://stg.edena.es/register-organization">
+                                <Button>{t.registerButtonExtended}</Button>
+                            </Link>
+                        </div>
+                        <div>
+                            <p class="text-[8px] text-muted-foreground uppercase tracking-wider">
+                                {t.noCreditCardRequired}
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
                 <div
