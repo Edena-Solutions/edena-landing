@@ -304,10 +304,10 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     <Link href={`/${lang}/demo`}>
                         <Button variant="link">{t.bookDemo}</Button>
                     </Link>
-                    <Link href="https://stg.edena.es/login">
+                    <Link href="https://app.edena.es/login">
                         <Button variant="secondary">{t.loginButton}</Button>
                     </Link>
-                    <Link href="https://stg.edena.es/register-organization">
+                    <Link href="https://app.edena.es/register-organization">
                         <Button>{t.registerButton}</Button>
                     </Link>
                     <LanguageSwitcher currentLang={lang} />
