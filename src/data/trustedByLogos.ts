@@ -21,10 +21,6 @@ export const trustedByLogos: TrustedByLogo[] = [
         alt: "Escola Pia",
     },
     {
-        src: "https://gimbebe.es/wp-content/uploads/2021/01/Gimbebe_logo-e1611524450974.png",
-        alt: "Gimbebé",
-    },
-    {
         src: "https://www.techbarcelona.com/wp-content/uploads/logo-tech-bcn-black.png",
         alt: "Tech Barcelona",
     },
