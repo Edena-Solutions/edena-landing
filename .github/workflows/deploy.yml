@@ -19,7 +19,7 @@ jobs:
               uses: withastro/action@v3
               with:
                   path: .
-                  package-manager: pnpm@latest
+                  package-manager: pnpm@10.15.0
               env:
                   PUBLIC_FORMSPREE_URL: ${{ vars.PUBLIC_FORMSPREE_URL }}
 
