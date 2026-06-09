@@ -22,7 +22,7 @@ const downPath = "M 500 106 L 500 172";
     <!-- Desktop: three lines from each problem card → logo → WallOfFeatures -->
     <div class="relative hidden h-[172px] w-full md:block" aria-hidden="true">
         <svg
-            class="connector-svg absolute inset-0 h-full w-full text-primary/35 dark:text-primary/30"
+            class="connector-svg absolute inset-0 h-full w-full"
             viewBox="0 0 1000 172"
             fill="none"
             preserveAspectRatio="none"
@@ -95,23 +95,33 @@ const downPath = "M 500 106 L 500 172";
 
     <!-- Mobile: vertical line → logo → vertical line -->
     <div class="flex flex-col items-center md:hidden">
-        <div
-            class="connector-mobile-line connector-mobile-line--in h-10 w-px bg-primary/35 dark:bg-primary/30"
-            aria-hidden="true"
-        >
+        <div class="connector-mobile-line connector-mobile-line--in h-10 w-px" aria-hidden="true">
         </div>
         <div class="rounded bg-background p-2">
             <Image src={favicon} alt={t.altText.conclusionLogo} class="h-12 w-12 dark:invert" />
         </div>
-        <div
-            class="connector-mobile-line connector-mobile-line--out h-14 w-px bg-primary/35 dark:bg-primary/30"
-            aria-hidden="true"
-        >
+        <div class="connector-mobile-line connector-mobile-line--out h-14 w-px" aria-hidden="true">
         </div>
     </div>
 </div>
 
 <style>
+    .problem-connector {
+        --connector-line: color-mix(in hsl, hsl(var(--primary)) 35%, hsl(var(--background)));
+    }
+
+    :global(.dark) .problem-connector {
+        --connector-line: color-mix(in hsl, hsl(var(--primary)) 30%, hsl(var(--background)));
+    }
+
+    .connector-svg {
+        color: var(--connector-line);
+    }
+
+    .connector-mobile-line {
+        background-color: var(--connector-line);
+    }
+
     @keyframes connector-to-logo {
         0% {
             stroke-dashoffset: 100;
@@ -224,7 +234,7 @@ const downPath = "M 500 106 L 500 172";
             animation: none;
             opacity: 1;
             transform: none;
-            background: unset;
+            background: var(--connector-line);
         }
     }
 </style>
