@@ -3,7 +3,7 @@ export default {
     loginButton: "Iniciar sesión",
     registerButton: "Probar gratis",
     registerButtonExtended: "Prueba gratis 60 días",
-    noCreditCardRequired: "Sin tarjeta de crédito | Cancela gratis cuando quieras",
+    noCreditCardRequired: "Sin tarjeta de crédito | Cancela cuando quieras",
     downloadTheApp: "Descarga la app gratuita",
     knowMore: "Saber más",
     meta: {

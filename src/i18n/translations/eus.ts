@@ -3,7 +3,7 @@ export default {
     loginButton: "Saioa hasi",
     registerButton: "Probatu doakoa",
     registerButtonExtended: "Proba doan 60 egun",
-    noCreditCardRequired: "Kreditu-txartelik gabe | Bertan behera utzi doan nahi duzunean",
+    noCreditCardRequired: "Kreditu-txartelik gabe | Bertan behera utzi nahi duzunean",
     downloadTheApp: "Deskargatu doako aplikazioa",
     knowMore: "Gehiago jakin",
     meta: {

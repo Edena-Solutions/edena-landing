@@ -3,7 +3,7 @@ export default {
     loginButton: "Se connecter",
     registerButton: "Essayer gratuitement",
     registerButtonExtended: "Essai gratuit 60 jours",
-    noCreditCardRequired: "Sans carte bancaire | Annulez gratuitement quand vous voulez",
+    noCreditCardRequired: "Sans carte bancaire | Annulez quand vous voulez",
     downloadTheApp: "Téléchargez l’app gratuite",
     knowMore: "En savoir plus",
     meta: {
