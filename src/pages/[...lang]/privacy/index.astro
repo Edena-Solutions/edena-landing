@@ -1,6 +1,7 @@
 ---
 import { translations, languages } from "@/i18n/index.ts";
 
+import LegalContent from "@/components/LegalContent.astro";
 import Layout from "@/layouts/main.astro";
 
 export function getStaticPaths() {
@@ -20,8 +21,6 @@ const t = translations[lang as keyof typeof translations];
 >
     <section class="max-w-3xl mx-auto py-10 px-4">
         <h1 class="text-xl font-bold mb-8">{t.privacyPolicy.title}</h1>
-        <div class="space-y-6 text-base leading-relaxed">
-            {t.privacyPolicy.content.split("<br>").map((p: string) => <p>{p}</p>)}
-        </div>
+        <LegalContent content={t.privacyPolicy.content} />
     </section>
 </Layout>
