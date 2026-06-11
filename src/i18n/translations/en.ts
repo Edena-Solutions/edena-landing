@@ -85,6 +85,7 @@ export default {
         orgDescription:
             "Reduce operational costs by 25% with Edena's fully digital school management system. Data migration, family onboarding, and staff training, all handled by us.",
         verifactuCertified: "AEAT Verifactu Certified",
+        appScreens: ["Schedule", "Posts", "Wall", "Classes", "Shop"],
     },
     setup: {
         title: "Up and Running in 2 Weeks, with a Dedicated Onboarding Team",

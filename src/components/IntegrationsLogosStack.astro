@@ -42,30 +42,48 @@ const integrationLogos: ImageItem[] = [
     },
 ];
 
+// Uniform visual size every chip normalizes to once a hover starts, so the
+// initial graduated diameters no longer influence the dock scaling.
+const REFERENCE_DIAMETER = 58;
+
+const center = (integrationLogos.length - 1) / 2;
+
 const logosWithLayout = integrationLogos.map((logo, index) => {
-    const center = (integrationLogos.length - 1) / 2;
     const distance = index - center;
     const absDistance = Math.abs(distance);
+    const diameter = Math.round(80 - absDistance * 10);
 
     return {
         ...logo,
-        diameter: Math.round(80 - absDistance * 10),
+        diameter,
         imageSize: Math.max(18, Math.round(32 - absDistance * 2.5)),
         zIndex: 20 - Math.round(absDistance),
         offsetX: Math.round(distance * 54),
+        // Scale that brings this chip to the common reference size on hover.
+        norm: Number((REFERENCE_DIAMETER / diameter).toFixed(3)),
     };
 });
+
+// On hover the whole dock shifts up one step (10px): the hovered chip reaches
+// one step above the largest initial size, and sizes step down with distance.
+const STEP = 10;
+const minDiameter = Math.round(80 - center * 10);
+const toFactor = (px: number) => Number((px / REFERENCE_DIAMETER).toFixed(3));
+const maxFactor = toFactor(80 + STEP); // hovered chip: one step bigger than initial max
+const stepFactor = toFactor(STEP); // size lost per unit of distance
+const minFactor = toFactor(minDiameter + STEP); // floor: second smallest initial size
 ---
 
 <div
-    class:list={["relative w-full h-[5.75rem] max-w-xl mx-auto", className]}
+    class:list={["logo-stack relative w-full h-[5.75rem] max-w-xl mx-auto", className]}
+    style={`--min-factor: ${minFactor}; --max-factor: ${maxFactor}; --step-factor: ${stepFactor};`}
     aria-label={integrationsSection.description}
 >
     {
-        logosWithLayout.map((logo) => (
+        logosWithLayout.map((logo, index) => (
             <div
-                class="absolute top-1/2 left-1/2 rounded bg-card flex items-center justify-center shadow-[0_8px_24px_rgba(0,0,0,0.14)] dark:shadow-[0_8px_24px_rgba(0,0,0,0.5)]"
-                style={`width: ${logo.diameter}px; height: ${logo.diameter}px; z-index: ${logo.zIndex}; transform: translate(calc(-50% + ${logo.offsetX}px), -50%);`}
+                class="logo-chip absolute top-1/2 left-1/2 rounded bg-card flex items-center justify-center shadow-[0_8px_24px_rgba(0,0,0,0.14)] dark:shadow-[0_8px_24px_rgba(0,0,0,0.5)]"
+                style={`width: ${logo.diameter}px; height: ${logo.diameter}px; --i: ${index}; --z: ${logo.zIndex}; --tx: ${logo.offsetX}px; --norm: ${logo.norm}; transform: translate(calc(-50% + var(--tx)), -50%) scale(var(--s, 1));`}
             >
                 <img
                     src={logo.src}
@@ -80,4 +98,99 @@ const logosWithLayout = integrationLogos.map((logo, index) => {
             </div>
         ))
     }
+    <span class="logo-label" aria-hidden="true">
+        <span class="logo-label-text text-xs font-medium text-muted-foreground"
+        ></span>
+    </span>
 </div>
+
+<style>
+    .logo-chip {
+        cursor: pointer;
+        z-index: var(--z);
+        transition:
+            transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+            box-shadow 0.3s ease;
+    }
+
+    /* When a chip is hovered, the stack gets [data-active] + --active (its index).
+       Each chip then scales based on its distance to the active one, like a dock. */
+    .logo-stack[data-active] .logo-chip {
+        --d: max(calc(var(--i) - var(--active)), calc(var(--active) - var(--i)));
+        /* Normalize to the reference size first, then apply the dock factor so
+           every chip starts from the same size regardless of its initial one.
+           The lower bound matches the smallest initial chip. */
+        --s: calc(var(--norm) * max(var(--min-factor), calc(var(--max-factor) - var(--step-factor) * var(--d))));
+        z-index: calc(30 - var(--d));
+    }
+
+    .logo-stack[data-active] .logo-chip:hover {
+        z-index: 50;
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+    }
+
+    :global(.dark) .logo-stack[data-active] .logo-chip:hover {
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Name of the hovered chip. The outer span only handles horizontal
+       placement (no transition, so it jumps instantly under the active chip);
+       the inner span slides up from below and fades in. */
+    .logo-label {
+        position: absolute;
+        left: 50%;
+        top: calc(100% + 0.5rem);
+        white-space: nowrap;
+        pointer-events: none;
+        transform: translateX(calc(-50% + var(--label-x, 0px)));
+    }
+
+    .logo-label-text {
+        display: inline-block;
+        opacity: 0;
+        transform: translateY(-0.75rem);
+        transition:
+            transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+            opacity 0.25s ease;
+    }
+
+    .logo-stack[data-active] .logo-label-text {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .logo-chip,
+        .logo-label-text {
+            transition: none;
+        }
+    }
+</style>
+
+<script>
+    function initStack(stack: HTMLElement) {
+        const chips = stack.querySelectorAll<HTMLElement>(".logo-chip");
+        const label = stack.querySelector<HTMLElement>(".logo-label-text");
+        chips.forEach((chip, index) => {
+            chip.addEventListener("pointerenter", () => {
+                stack.style.setProperty("--active", String(index));
+                stack.style.setProperty(
+                    "--label-x",
+                    chip.style.getPropertyValue("--tx"),
+                );
+                stack.setAttribute("data-active", "");
+                if (label) {
+                    const alt = chip.querySelector("img")?.alt ?? "";
+                    label.textContent = alt;
+                }
+            });
+        });
+        stack.addEventListener("pointerleave", () => {
+            stack.removeAttribute("data-active");
+        });
+    }
+
+    document
+        .querySelectorAll<HTMLElement>(".logo-stack")
+        .forEach(initStack);
+</script>

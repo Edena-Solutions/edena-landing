@@ -87,6 +87,7 @@ export default {
         orgDescription:
             "Reduce los costes operativos un 25% con el sistema de gestión escolar totalmente digital de Edena. Migración de datos, incorporación de familias y formación del equipo, todo a cargo nuestro.",
         verifactuCertified: "Certificado AEAT Verifactu",
+        appScreens: ["Horarios", "Publicaciones", "Muro", "Clases", "Tienda"],
     },
     setup: {
         title: "En marcha en 2 semanas, con tu equipo de onboarding incluido",

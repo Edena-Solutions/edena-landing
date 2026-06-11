@@ -9,6 +9,7 @@ function NavigationMenu({
     className,
     children,
     viewport = true,
+    delayDuration = 0,
     ...props
 }: React.ComponentProps<typeof NavigationMenuPrimitive.Root> & {
     viewport?: boolean;
@@ -17,6 +18,7 @@ function NavigationMenu({
         <NavigationMenuPrimitive.Root
             data-slot="navigation-menu"
             data-viewport={viewport}
+            delayDuration={delayDuration}
             className={cn(
                 "group/navigation-menu relative flex max-w-max flex-1 items-center justify-center",
                 className,
@@ -65,12 +67,29 @@ const navigationMenuTriggerStyle = cva(
 function NavigationMenuTrigger({
     className,
     children,
+    onClick,
+    onPointerDown,
     ...props
 }: React.ComponentProps<typeof NavigationMenuPrimitive.Trigger>) {
+    const preventClickOpenRef = React.useRef(false);
+
     return (
         <NavigationMenuPrimitive.Trigger
             data-slot="navigation-menu-trigger"
             className={cn(navigationMenuTriggerStyle(), "group cursor-pointer", className)}
+            onPointerDown={(event) => {
+                preventClickOpenRef.current =
+                    event.pointerType === "mouse" &&
+                    window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+                onPointerDown?.(event);
+            }}
+            onClick={(event) => {
+                if (preventClickOpenRef.current) {
+                    event.preventDefault();
+                    preventClickOpenRef.current = false;
+                }
+                onClick?.(event);
+            }}
             {...props}
         >
             {children}{" "}
@@ -108,7 +127,7 @@ function NavigationMenuViewport({
             <NavigationMenuPrimitive.Viewport
                 data-slot="navigation-menu-viewport"
                 className={cn(
-                    "origin-top-center bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 relative mt-1.5 h-[var(--radix-navigation-menu-viewport-height)] w-full overflow-hidden rounded shadow md:w-[var(--radix-navigation-menu-viewport-width)]",
+                    "origin-top-center bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 relative mt-1.5 h-[var(--radix-navigation-menu-viewport-height)] w-full overflow-hidden rounded shadow md:w-[var(--radix-navigation-menu-viewport-width)] duration-200",
                     className,
                 )}
                 {...props}

@@ -89,6 +89,7 @@ export default {
         orgDescription:
             "Murriztu kostu operatiboak %25 Edenaren eskola-kudeaketa sistema erabat digitalarekin. Datuen migrazioa, familien txertatzea eta taldearen prestakuntza, gure kontura.",
         verifactuCertified: "AEAT Verifactu ziurtagiria",
+        appScreens: ["Ordutegiak", "Argitalpenak", "Horma", "Klaseak", "Denda"],
     },
     setup: {
         title: "Martxan 2 astetan, onboarding taldea barne",

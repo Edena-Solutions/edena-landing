@@ -5,6 +5,9 @@ import react from '@astrojs/react';
 
 export default defineConfig({
     site: 'https://edena.es',
+    server: {
+        open: true,
+    },
     redirects: {
         '/demo': '/es/demo',
         '/demo/': '/es/demo/',

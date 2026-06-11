@@ -41,11 +41,11 @@ interface Props {
     lang: string;
 }
 
-const Logo = ({ lang }: { lang: string }) => {
+const Logo = ({ lang, className }: { lang: string; className?: string }) => {
     const t = translations[lang as keyof typeof translations];
     const url = lang === "es" ? "/" : `/${lang}/`;
     return (
-        <a href={url}>
+        <a href={url} className={cn("block shrink-0", className)}>
             <img src={logo.src} alt={t.altText.logo} className="h-5 w-auto dark:invert" />
         </a>
     );
@@ -225,12 +225,12 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
 
     return (
         <header className={cn("w-full bg-background fixed h-15 flex items-center z-50", className)}>
-            <div className="container mx-auto px-4 flex h-fit items-center justify-between gap-4">
-                <div className="flex min-w-0 items-center gap-4">
-                    <Logo lang={lang} />
+            <div className="container mx-auto px-4 flex h-fit items-center">
+                <div className="flex min-w-0 items-center gap-3 xl:gap-4">
+                    <Logo lang={lang} className="lg:hidden xl:block" />
 
                     <div className="hidden lg:flex relative overflow-visible">
-                        <NavigationMenu className="justify-start">
+                        <NavigationMenu className="flex-none justify-start">
                             <NavigationMenuList className="justify-start">
                                 <NavigationMenuItem>
                                     <NavigationMenuTrigger>
@@ -290,7 +290,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     </div>
                 </div>
 
-                <div className="flex items-center gap-4 lg:hidden">
+                <div className="flex items-center gap-4 lg:hidden ml-auto">
                     <Link href={`/${lang}/demo`} className="sm:hidden">
                         <Button className="w-full" size="sm">
                             {t.bookDemo}
@@ -300,7 +300,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     <MenuButton isOpen={isMobileMenuOpen} onClick={toggleMobileMenu} />
                 </div>
 
-                <div className="hidden lg:flex items-center gap-2 shrink-0">
+                <div className="hidden lg:flex shrink-0 items-center gap-2 ml-auto pl-8 xl:pl-6">
                     <Link href={`/${lang}/demo`}>
                         <Button variant="link">{t.bookDemo}</Button>
                     </Link>
