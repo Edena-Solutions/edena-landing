@@ -87,6 +87,7 @@ export default {
         orgDescription:
             "Réduisez les coûts opérationnels de 25 % avec le système de gestion scolaire entièrement numérique d'Edena. Migration des données, intégration des familles et formation de l'équipe, tout pris en charge par nos soins.",
         verifactuCertified: "Certifié AEAT Verifactu",
+        appScreens: ["Horaires", "Publications", "Mur", "Classes", "Boutique"],
     },
     setup: {
         title: "Opérationnel en 2 semaines, avec votre équipe d'onboarding incluse",

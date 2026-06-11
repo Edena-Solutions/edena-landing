@@ -88,6 +88,7 @@ export default {
         orgDescription:
             "Redueix els costos operatius un 25% amb el sistema de gestió escolar totalment digital d'Edena. Migració de dades, incorporació de famílies i formació de l'equip, tot a càrrec nostre.",
         verifactuCertified: "Certificat AEAT Verifactu",
+        appScreens: ["Horaris", "Publicacions", "Mur", "Classes", "Botiga"],
     },
     setup: {
         title: "En marxa en 2 setmanes, amb el teu equip d'onboarding inclòs",
