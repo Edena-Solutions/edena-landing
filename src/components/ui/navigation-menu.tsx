@@ -67,12 +67,29 @@ const navigationMenuTriggerStyle = cva(
 function NavigationMenuTrigger({
     className,
     children,
+    onClick,
+    onPointerDown,
     ...props
 }: React.ComponentProps<typeof NavigationMenuPrimitive.Trigger>) {
+    const preventClickOpenRef = React.useRef(false);
+
     return (
         <NavigationMenuPrimitive.Trigger
             data-slot="navigation-menu-trigger"
             className={cn(navigationMenuTriggerStyle(), "group cursor-pointer", className)}
+            onPointerDown={(event) => {
+                preventClickOpenRef.current =
+                    event.pointerType === "mouse" &&
+                    window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+                onPointerDown?.(event);
+            }}
+            onClick={(event) => {
+                if (preventClickOpenRef.current) {
+                    event.preventDefault();
+                    preventClickOpenRef.current = false;
+                }
+                onClick?.(event);
+            }}
             {...props}
         >
             {children}{" "}
