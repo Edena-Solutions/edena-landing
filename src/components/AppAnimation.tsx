@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import appHero from "@/assets/img/screenshots/app/app_hero.png";
 import appCalendar from "@/assets/img/screenshots/app/app_calendar.png";
 import appStudents from "@/assets/img/screenshots/app/app_students.png";
@@ -38,8 +38,27 @@ const MIN_WIDTH = Math.min(...cards.map((card) => card.width));
 const STEP_WIDTH = 3; // visual width lost per unit of distance from the hovered card
 const LIFT = 22; // how much the hovered card rises vertically
 
-function getCardStyle(index: number, hovered: number | null) {
-    const x = (index - CENTER) * STEP;
+// Width of the outermost cards in the 300px coordinate space — they define the
+// fan's horizontal footprint (footprint = 4 * step + OUTER_CARD_WIDTH).
+const OUTER_CARD_WIDTH = (MIN_WIDTH / 100) * CONTAINER_WIDTH;
+const STEP_MIN = 40; // tightest spacing before we start scaling the whole fan down
+const FIT_SAFETY = 0.96; // leave a little breathing room on the sides
+const TITLE_FONT_PX = 16; // on-screen size of the hover title, kept constant at any scale
+
+// Fit the fan to the available width by first packing the cards closer (smaller
+// step, so they stay large) and only scaling the whole stack down once the cards
+// are already as tight as STEP_MIN.
+function getFanLayout(availWidth: number) {
+    const safeWidth = availWidth > 0 ? availWidth * FIT_SAFETY : 4 * STEP + OUTER_CARD_WIDTH;
+    const stepFit = (safeWidth - OUTER_CARD_WIDTH) / 4;
+    const step = Math.max(STEP_MIN, Math.min(STEP, stepFit));
+    const footprint = 4 * step + OUTER_CARD_WIDTH;
+    const scale = footprint > safeWidth ? safeWidth / footprint : 1;
+    return { step, scale };
+}
+
+function getCardStyle(index: number, hovered: number | null, step: number) {
+    const x = (index - CENTER) * step;
 
     // No hover: the original fan layout.
     if (hovered === null) {
@@ -79,29 +98,80 @@ export default function AppAnimation({
 }: Props) {
     const [hovered, setHovered] = useState<number | null>(null);
 
+    // Measure the width actually available to the fan so it can pack its cards
+    // closer / scale down only on narrow sections. The immediate parent often
+    // shrink-wraps to the stack's min-width, so we measure the nearest ancestor
+    // that actually bounds the fan (the closest one that clips overflow, e.g. the
+    // Card), falling back to the viewport.
+    const stackRef = useRef<HTMLDivElement>(null);
+    const [availWidth, setAvailWidth] = useState(0);
+    const [isCompact, setIsCompact] = useState(false);
+    useLayoutEffect(() => {
+        const node = stackRef.current;
+        if (!node) return;
+        const findBound = (): HTMLElement | null => {
+            let el = node.parentElement;
+            while (el) {
+                if (getComputedStyle(el).overflowX !== "visible") return el;
+                el = el.parentElement;
+            }
+            return null;
+        };
+        const measure = () => {
+            const bound = findBound();
+            setAvailWidth(bound ? bound.clientWidth : window.innerWidth);
+            setIsCompact(window.innerWidth < 768);
+        };
+        measure();
+        const observer = new ResizeObserver(measure);
+        observer.observe(node);
+        const bound = findBound();
+        if (bound) observer.observe(bound);
+        window.addEventListener("resize", measure);
+        return () => {
+            observer.disconnect();
+            window.removeEventListener("resize", measure);
+        };
+    }, []);
+    const { step, scale: fit } = getFanLayout(availWidth);
+
+    // On compact viewports the taller cards would ride up over the "Saber más"
+    // button, so push the whole fan down to keep the button's row clear.
+    const hasButton = Boolean(knowMoreLabel && knowMoreHref);
+    const fanOffsetY = hasButton && isCompact ? 56 : 0;
+
     // Translated screen names when provided, otherwise the hardcoded fallback.
     const titleFor = (index: number) => screenTitles?.[index] ?? cards[index].alt;
 
     const stack = (
         <div
+            ref={stackRef}
             className={cn(
                 "relative w-full min-w-[300px] max-w-[300px] mx-auto h-[300px] md:h-[680px] -mt-10",
-                "scale-[0.52] origin-center sm:scale-100",
                 className,
             )}
             onPointerLeave={() => setHovered(null)}
         >
-            <div className="absolute inset-0">
+            <div
+                className="absolute inset-0"
+                style={{
+                    transform: `translateY(${fanOffsetY}px) scale(${fit})`,
+                    transformOrigin: "center",
+                }}
+            >
                 {hovered !== null &&
                     (() => {
-                        const hoveredX = (hovered - CENTER) * STEP;
+                        const hoveredX = (hovered - CENTER) * step;
                         const cardHeight = (HOVER_WIDTH / 100) * CONTAINER_WIDTH * CARD_ASPECT;
                         const titleY = -(cardHeight / 2) - 16 - LIFT;
                         return (
                             <div
-                                className="pointer-events-none absolute left-1/2 top-1/2 z-[60] whitespace-nowrap text-base font-semibold text-white"
+                                className="pointer-events-none absolute left-1/2 top-1/2 z-[60] whitespace-nowrap font-semibold text-white"
                                 style={{
                                     transform: `translate(-50%, -50%) translateX(${hoveredX}px) translateY(${titleY}px)`,
+                                    // Counter the stack scale so the title stays a
+                                    // constant, readable on-screen size on mobile.
+                                    fontSize: `${TITLE_FONT_PX / fit}px`,
                                 }}
                             >
                                 {titleFor(hovered)}
@@ -109,7 +179,7 @@ export default function AppAnimation({
                         );
                     })()}
                 {cards.map((card, index) => {
-                    const { x, y, scale, z } = getCardStyle(index, hovered);
+                    const { x, y, scale, z } = getCardStyle(index, hovered, step);
                     return (
                         <div
                             key={index}
