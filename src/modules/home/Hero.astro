@@ -45,7 +45,7 @@ const appUrl = translatePath("/app");
             <p class="text-muted-foreground max-w-150">
                 {t.hero.mainDescription}
             </p>
-            <div class="hidden md:flex flex-col gap-4 items-center justify-center mt-8">
+            <div class="hidden sm:flex flex-col gap-4 items-center justify-center mt-8">
                 <div class="flex gap-2 items-center justify-center">
                     <BookDemoButton t={t} variant="secondary" />
                     <Link href="https://app.edena.es/register-organization">
@@ -65,7 +65,7 @@ const appUrl = translatePath("/app");
                 darkImage={heroImageDark}
                 alt={t.altText.heroImage}
                 loading="eager"
-                className="w-full sm:w-2/3 mx-auto object-contain rounded origin-center transition-transform duration-500 ease-out hover:-translate-y-3 hover:scale-[1.07]"
+                className="w-full sm:w-11/12 min-[960px]:w-3/4 lg:w-2/3 mx-auto object-contain rounded origin-center transition-transform duration-500 ease-out hover:-translate-y-3 hover:scale-[1.07]"
             />
         </CardFooter>
     </Card>
