@@ -45,7 +45,7 @@ const appUrl = translatePath("/app");
             <p class="text-muted-foreground max-w-150">
                 {t.hero.mainDescription}
             </p>
-            <div class="hidden md:flex flex-col gap-4 items-center justify-center mt-8">
+            <div class="hidden sm:flex flex-col gap-4 items-center justify-center mt-8">
                 <div class="flex gap-2 items-center justify-center">
                     <BookDemoButton t={t} variant="secondary" />
                     <Link href="https://app.edena.es/register-organization">
@@ -65,21 +65,21 @@ const appUrl = translatePath("/app");
                 darkImage={heroImageDark}
                 alt={t.altText.heroImage}
                 loading="eager"
-                className="w-full sm:w-2/3 mx-auto object-contain rounded origin-center transition-transform duration-500 ease-out hover:-translate-y-3 hover:scale-[1.07]"
+                className="w-full sm:w-11/12 min-[960px]:w-3/4 lg:w-2/3 mx-auto object-contain rounded origin-center transition-transform duration-500 ease-out hover:-translate-y-3 hover:scale-[1.07]"
             />
         </CardFooter>
     </Card>
 
-    <div class="grid gap-4 px-4 text-sm sm:grid-cols-2 w-full">
+    <div class="grid w-full grid-cols-1 gap-4 px-0 sm:px-4 text-sm min-[960px]:grid-cols-2">
         <Card
-            className="relative text-white flex flex-col items-center gap-6 rounded text-center overflow-hidden bg-card h-100 md:h-130"
+            className="relative text-white flex flex-col items-center gap-6 rounded text-center overflow-hidden bg-card h-130"
         >
             <TopGlow />
             <CardHeader className="relative z-10 flex flex-col items-center gap-4">
                 <h3 class="text-xl font-bold">{t.hero.mobileTitle}</h3>
                 <p class="max-w-md">{t.hero.mobileDescription}</p>
             </CardHeader>
-            <CardFooter className="relative z-10 flex flex-col gap-4 items-center">
+            <CardFooter className="relative z-10 flex flex-col gap-4 items-center px-0 sm:px-8">
                 <AppAnimation
                     client:only="react"
                     knowMoreLabel={t.knowMore}
@@ -99,7 +99,7 @@ const appUrl = translatePath("/app");
                     {integrationsSection.description}
                 </p>
             </CardHeader>
-            <CardFooter className="flex flex-col gap-4 items-center w-full pb-8 pt-2">
+            <CardFooter className="flex flex-col gap-4 items-center w-full pb-8 pt-2 px-0 sm:px-8">
                 <IntegrationsLogosStack t={t} class="scale-90 sm:scale-100" />
             </CardFooter>
         </Card>

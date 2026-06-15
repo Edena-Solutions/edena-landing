@@ -95,7 +95,7 @@ const logosWithLayout = mobileLogos.map((logo, index) => {
         diameter: Math.round(80 - absDistance * 10),
         imageSize: Math.max(18, Math.round(32 - absDistance * 2.5)),
         zIndex: 20 - Math.round(absDistance),
-        offsetX: Math.round(distance * 30),
+        offsetX: Math.round(distance * 42),
     };
 });
 ---
@@ -118,7 +118,7 @@ const logosWithLayout = mobileLogos.map((logo, index) => {
                 {problemSection.mobileSummary}
             </p>
             <div
-                class="relative w-full h-[10rem] max-w-[16.5rem] sm:max-w-lg mx-auto overflow-hidden"
+                class="relative w-full h-[10rem] max-w-[20rem] sm:max-w-lg mx-auto overflow-hidden"
                 aria-label={problemSection.mobileSummary}
             >
                 {
