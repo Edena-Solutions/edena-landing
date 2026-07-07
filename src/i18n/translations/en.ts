@@ -2,7 +2,7 @@ export default {
     bookDemo: "Book a demo",
     loginButton: "Log in",
     registerButton: "Try for free",
-    registerButtonExtended: "60-day free trial",
+    registerButtonExtended: "30-day free trial",
     noCreditCardRequired: "No credit card required | Cancel anytime",
     downloadTheApp: "Download Free App",
     knowMore: "Know More",

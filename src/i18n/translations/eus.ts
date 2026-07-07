@@ -2,7 +2,7 @@ export default {
     bookDemo: "Demo",
     loginButton: "Saioa hasi",
     registerButton: "Probatu doakoa",
-    registerButtonExtended: "Proba doan 60 egun",
+    registerButtonExtended: "Proba doan 30 egun",
     noCreditCardRequired: "Kreditu-txartelik gabe | Bertan behera utzi nahi duzunean",
     downloadTheApp: "Deskargatu doako aplikazioa",
     knowMore: "Gehiago jakin",

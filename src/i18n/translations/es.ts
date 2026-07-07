@@ -2,7 +2,7 @@ export default {
     bookDemo: "Reservar demo",
     loginButton: "Iniciar sesión",
     registerButton: "Probar gratis",
-    registerButtonExtended: "Prueba gratis 60 días",
+    registerButtonExtended: "Prueba gratis 30 días",
     noCreditCardRequired: "Sin tarjeta de crédito | Cancela cuando quieras",
     downloadTheApp: "Descarga la app gratuita",
     knowMore: "Saber más",
