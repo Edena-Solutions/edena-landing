@@ -1,11 +1,8 @@
 ---
 import { Image } from "astro:assets";
-import iso27001 from "@/assets/img/certifications/iso-27001.png";
-import soc2 from "@/assets/img/certifications/soc2.svg";
 import gdpr from "@/assets/img/certifications/gdpr.svg";
-import hipaa from "@/assets/img/certifications/hipaa.svg";
 
-export type ComplianceBadgeId = "soc2" | "iso27001" | "gdpr" | "hipaa";
+export type ComplianceBadgeId = "gdpr";
 
 interface Props {
     id: ComplianceBadgeId;
@@ -15,18 +12,14 @@ interface Props {
 const { id, class: className = "h-14 w-auto max-h-14 object-contain" } = Astro.props;
 
 const svgAssets = {
-    soc2,
     gdpr,
-    hipaa,
 } as const;
 ---
 
 {
-    id === "iso27001" ? (
-        <Image src={iso27001} alt="" class={className} aria-hidden="true" />
-    ) : (
-        <img
-            src={svgAssets[id].src}
+    (
+        <Image
+            src={svgAssets[id]}
             alt=""
             class={className}
             aria-hidden="true"
