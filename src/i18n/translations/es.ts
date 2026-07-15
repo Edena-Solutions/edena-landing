@@ -662,10 +662,7 @@ export default {
             description: "Seguridad integrada e IA con más privacidad que un chatbot genérico",
             support: "Soporte 24/7",
             badges: {
-                soc2: "SOC 2 TYPE II",
-                iso27001: "ISO 27001",
                 gdpr: "GDPR",
-                hipaa: "HIPAA",
             },
         },
     },
@@ -1402,151 +1399,72 @@ export default {
     },
     privacyPolicy: {
         title: "Política de Privacidad",
-        content: `Última actualización: 2 de junio de 2026<br>
+        content: `Última actualización: 15 de julio de 2026<br>
 <br>
 1. INTRODUCCIÓN Y OBJETO<br>
-En Edena nos comprometemos a proteger la privacidad de todos los usuarios de nuestra plataforma y a ser completamente transparentes sobre cómo tratamos los datos personales. Esta Política de Privacidad describe las prácticas de tratamiento de datos de Edena Software S.L. en relación con el uso de la plataforma Edena y este sitio web, de conformidad con el Reglamento (UE) 2016/679 (GDPR), la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD), y la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI).<br>
+En Edena nos comprometemos a proteger la privacidad de todos los usuarios y a ser completamente transparentes sobre cómo tratamos los datos personales. Esta Política de Privacidad describe las prácticas de tratamiento de datos de Edena Software S.L. en relación con el uso de nuestra plataforma educativa y este sitio web, de conformidad con el Reglamento (UE) 2016/679 (RGPD), la Ley Orgánica 3/2018, de 5 de diciembre (LOPDGDD), y la Ley 34/2002, de 11 de julio (LSSI).<br>
 <br>
-Edena es una plataforma de gestión educativa integral diseñada para centros educativos (colegios, escuelas infantiles, academias y grupos educativos). En tanto que plataforma que gestiona datos de menores de edad, alumnos y familias, aplicamos las máximas garantías de privacidad y seguridad.<br>
+Edena es una plataforma de gestión educativa integral diseñada para centros educativos. Como plataforma que procesa datos en el ámbito escolar, aplicamos estrictas garantías de privacidad y seguridad.<br>
 <br>
 2. RESPONSABLE DEL TRATAMIENTO<br>
 Razón social: Edena Software S.L.<br>
 CIF/NIF: B27627462<br>
-DUNS: 373964745<br>
 Domicilio: Barcelona, España<br>
 Correo electrónico: privacidad@edena.es<br>
 Sitio web: www.edena.es<br>
 <br>
 3. DELEGADO DE PROTECCIÓN DE DATOS (DPD)<br>
-Edena ha designado un Delegado de Protección de Datos (DPD) responsable de supervisar el cumplimiento de la normativa en materia de protección de datos. Puede contactar con nuestro DPD en cualquier momento a través del correo: privacidad@edena.es<br>
+Edena ha designado un Delegado de Protección de Datos para supervisar el cumplimiento de la normativa. Puede contactar con nuestro DPD en cualquier momento a través del correo: dpo@edena.es.<br>
 <br>
-4. USUARIOS DE LA PLATAFORMA Y DATOS TRATADOS<br>
-Edena presta servicios a distintas categorías de usuarios, cada una con un tratamiento de datos específico:<br>
+4. USUARIOS Y DATOS TRATADOS<br>
+Edena trata datos en dos entornos diferenciados:<br>
 <br>
-4.1 Administradores y personal del centro educativo<br>
-Datos: nombre y apellidos, DNI/NIE, cargo, correo electrónico corporativo, número de teléfono, datos de acceso y registro de actividad en la plataforma.<br>
-Finalidad: gestión de la relación contractual con el centro, acceso y administración de la plataforma, comunicación operativa y soporte técnico.<br>
+A. Usuarios de la Web y Leads (Edena como Responsable)<br>
+Datos: nombre, correo electrónico, teléfono, nombre del centro educativo y datos de navegación (IP anonimizada).<br>
+Finalidad: atender solicitudes de información, gestionar el envío de demostraciones del software y analizar el uso de la web.<br>
 <br>
-4.2 Profesores y tutores académicos<br>
-Datos: nombre y apellidos, correo electrónico, datos de acceso, asignaturas o grupos asignados, calificaciones introducidas y comunicaciones con familias.<br>
-Finalidad: prestación del servicio educativo, comunicación con familias, gestión de calificaciones y control de asistencia.<br>
+B. Usuarios de la Plataforma ERP (Edena como Encargado del Tratamiento)<br>
+Para los datos introducidos por los centros educativos (administradores, profesores, familias y alumnos), el centro educativo es el Responsable del Tratamiento y Edena actúa estrictamente como Encargado del Tratamiento, siguiendo las instrucciones del centro mediante un contrato firmado a tal efecto (art. 28 RGPD).<br>
+Datos gestionados internamente: datos identificativos, académicos, de comunicación, facturación del centro y datos de salud esenciales (alergias o necesidades especiales) introducidos bajo la responsabilidad del centro escolar.<br>
 <br>
-4.3 Familias y tutores legales<br>
-Datos: nombre y apellidos, correo electrónico, número de teléfono, relación con el alumno, datos de pago (gestionados a través de proveedores certificados PCI DSS), historial de comunicaciones y documentación adjunta.<br>
-Finalidad: comunicación centro-familia, gestión de pagos y facturación, acceso al expediente del alumno y seguimiento educativo.<br>
+5. FINALIDADES Y BASE JURÍDICA<br>
+- Atención de solicitudes y demos: ejecución de medidas precontractuales (art. 6.1.b RGPD).<br>
+- Envío de comunicaciones comerciales: consentimiento expreso del usuario (art. 6.1.a RGPD), revocable en cualquier momento.<br>
+- Prestación del servicio ERP: ejecución del contrato con el centro educativo (art. 6.1.b RGPD).<br>
+- Mejora de la plataforma: interés legítimo en optimizar la seguridad y herramientas del software (art. 6.1.f RGPD).<br>
 <br>
-4.4 Alumnos<br>
-Datos: nombre y apellidos, fecha de nacimiento, fotografía (opcional, con consentimiento expreso), datos académicos (calificaciones, asistencia, evolución), y datos de salud relevantes (alergias, necesidades educativas especiales) cuando sean aportados expresamente por el centro o la familia.<br>
-Finalidad: gestión académica y del expediente del alumno, comunicación educativa y seguimiento del progreso escolar.<br>
-<br>
-4.5 Visitantes del sitio web<br>
-Datos: datos de navegación, dirección IP (anonimizada), páginas visitadas, duración de la sesión y datos de formularios de contacto o solicitud de demo (nombre, correo electrónico, nombre del centro, mensaje).<br>
-Finalidad: análisis del uso del sitio web, mejora de la experiencia del usuario y atención a solicitudes de información.<br>
-<br>
-5. FINALIDADES DEL TRATAMIENTO Y BASE JURÍDICA<br>
-a) Gestión del contrato y prestación del servicio. Base: ejecución de un contrato (art. 6.1.b GDPR).<br>
-b) Gestión académica y expedientes de alumnos. Base: ejecución de un contrato / interés legítimo del centro (art. 6.1.b y 6.1.f GDPR).<br>
-c) Comunicación entre el centro y las familias. Base: ejecución de un contrato / interés legítimo (art. 6.1.b y 6.1.f GDPR).<br>
-d) Facturación y gestión de pagos. Base: ejecución de un contrato / obligación legal (art. 6.1.b y 6.1.c GDPR).<br>
-e) Envío de comunicaciones comerciales sobre Edena. Base: consentimiento (art. 6.1.a GDPR). Puede revocarse en cualquier momento.<br>
-f) Cumplimiento de obligaciones legales fiscales, laborales y mercantiles. Base: obligación legal (art. 6.1.c GDPR).<br>
-g) Mejora de la plataforma y análisis estadístico anonimizado. Base: interés legítimo (art. 6.1.f GDPR).<br>
-<br>
-6. TRATAMIENTO ESPECIAL: DATOS DE MENORES DE EDAD<br>
-Edena es plenamente consciente de la especial sensibilidad que implica el tratamiento de datos personales de menores. En cumplimiento del artículo 8 del GDPR y del artículo 7 de la LOPDGDD:<br>
-<br>
-- Los centros educativos, en calidad de responsables del tratamiento respecto a los datos de sus alumnos, son quienes recaban el consentimiento de los padres o tutores legales para el tratamiento de datos de menores de 14 años.<br>
-- Edena actúa como encargado del tratamiento respecto a los datos de alumnos introducidos por el centro educativo, bajo las instrucciones de este.<br>
-- Los datos de salud y otras categorías especiales de datos de alumnos (art. 9 GDPR) solo se tratan cuando el centro los introduce expresamente y existe una base jurídica específica (consentimiento explícito o necesidad para la prestación del servicio educativo).<br>
-- Edena no utiliza los datos de menores para ninguna finalidad distinta a las estrictamente educativas y de gestión del centro.<br>
+6. TRATAMIENTO DE DATOS DE MENORES DE EDAD<br>
+En cumplimiento del artículo 8 del RGPD y del artículo 7 de la LOPDGDD, los centros educativos, en calidad de Responsables del Tratamiento, son quienes recaban el consentimiento de los padres o tutores legales para el tratamiento de los datos de menores de 14 años antes de introducirlos en la plataforma. Edena no utiliza jamás los datos de los menores para ninguna finalidad ajena a la estricta gestión educativa del centro cliente.<br>
 <br>
 7. CONSERVACIÓN DE LOS DATOS<br>
-Los datos se conservarán durante el tiempo estrictamente necesario para la finalidad para la que fueron recabados y, en todo caso, durante los plazos legalmente establecidos:<br>
+- Datos de solicitudes/contacto: se conservarán durante el tiempo necesario para atender la petición y, si no hay contratación, se eliminarán en un plazo máximo de 24 meses.<br>
+- Datos contractuales de clientes: se conservarán durante la vigencia del contrato y, tras su finalización, durante los plazos legales de prescripción de responsabilidades (6 años por normativa mercantil/fiscal).<br>
+- Datos de navegación/logs: máximo 12 meses.<br>
 <br>
-- Datos de contratos y facturación: 6 años (obligación fiscal y mercantil).<br>
-- Datos de comunicaciones comerciales: hasta la revocación del consentimiento.<br>
-- Expedientes de alumnos: mientras dure la relación con el centro y, tras la baja, durante el plazo de prescripción de posibles responsabilidades (máximo 5 años).<br>
-- Logs de acceso y actividad en la plataforma: máximo 12 meses.<br>
-- Datos de visitantes del sitio web: según la política de cookies aplicable.<br>
+8. DESTINATARIOS Y TRANSFERENCIAS<br>
+Edena no vende ni cede datos personales a terceros. Los datos solo se comunican a:<br>
+- Proveedores de infraestructura cloud y almacenamiento de datos que actúan como encargados del tratamiento bajo contratos estrictos que cumplen el RGPD.<br>
+- Pasarelas de pago certificadas (PCI-DSS) para la gestión de cobros en la plataforma.<br>
+- Autoridades públicas cuando exista una obligación legal.<br>
 <br>
-Transcurridos estos plazos, los datos serán eliminados o anonimizados de forma irreversible.<br>
+Toda nuestra infraestructura principal y los servidores de almacenamiento están ubicados dentro del Espacio Económico Europeo (EEE).<br>
 <br>
-8. DESTINATARIOS Y ENCARGADOS DEL TRATAMIENTO<br>
-Edena no vende ni cede datos personales a terceros con fines comerciales. Los datos únicamente pueden ser comunicados a:<br>
+9. DERECHOS DE LOS INTERESADOS<br>
+Los usuarios pueden ejercer sus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad enviando un correo electrónico a dpo@edena.es, acreditando debidamente su identidad. Si considera que sus derechos no han sido atendidos, puede reclamar ante la Agencia Española de Protección de Datos (www.aepd.es).<br>
 <br>
-- Proveedores tecnológicos y de infraestructura cloud (hosting, bases de datos) que actúan como encargados del tratamiento bajo contratos que cumplen con el GDPR.<br>
-- Proveedores de servicios de pago certificados (PCI DSS) para la gestión de cobros y facturación.<br>
-- Proveedores de análisis y monitorización del servicio, siempre de forma anonimizada o agregada.<br>
-- Autoridades y organismos públicos, exclusivamente en cumplimiento de obligaciones legales.<br>
+10. MEDIDAS DE SEGURIDAD Y ESTÁNDARES<br>
+Edena aplica medidas técnicas y organizativas para garantizar la seguridad de la información:<br>
+- Cifrado de datos en tránsito mediante protocolos SSL/TLS (HTTPS) y datos cifrados en reposo.<br>
+- Control de acceso restringido basado en roles (mínimo privilegio).<br>
+- Copias de seguridad periódicas y sistemas de recuperación de datos.<br>
+- Infraestructura certificada: nuestra plataforma se aloja en centros de datos de proveedores de primer nivel cuya infraestructura cuenta con certificaciones internacionales de seguridad como ISO/IEC 27001 y auditorías SOC 2, garantizando los máximos estándares de disponibilidad y protección física de la información.<br>
 <br>
-Todos nuestros proveedores están sometidos a acuerdos de confidencialidad y contratos de encargo del tratamiento que garantizan el cumplimiento del GDPR.<br>
-<br>
-9. TRANSFERENCIAS INTERNACIONALES DE DATOS<br>
-Con carácter general, los datos se alojan en servidores ubicados en el Espacio Económico Europeo (EEE). En los casos excepcionales en que sea necesaria una transferencia internacional fuera del EEE, Edena garantiza que se adoptan las salvaguardas adecuadas previstas en el GDPR, como las cláusulas contractuales tipo aprobadas por la Comisión Europea o la existencia de una decisión de adecuación.<br>
-<br>
-10. DERECHOS DE LOS INTERESADOS<br>
-De acuerdo con el GDPR y la LOPDGDD, los usuarios pueden ejercer los siguientes derechos:<br>
-<br>
-- Derecho de acceso: conocer qué datos personales tratamos sobre usted.<br>
-- Derecho de rectificación: corregir datos inexactos o incompletos.<br>
-- Derecho de supresión ("derecho al olvido"): solicitar la eliminación de sus datos cuando ya no sean necesarios para el fin para el que fueron recabados.<br>
-- Derecho de oposición: oponerse al tratamiento de sus datos en determinadas circunstancias.<br>
-- Derecho de limitación del tratamiento: solicitar la restricción del tratamiento en ciertos supuestos previstos por la normativa.<br>
-- Derecho de portabilidad: recibir sus datos en un formato estructurado, de uso común y lectura mecánica.<br>
-- Derecho a retirar el consentimiento: en cualquier momento, sin que ello afecte a la licitud del tratamiento previo a su retirada.<br>
-- Derecho a no ser objeto de decisiones automatizadas con efectos jurídicos significativos.<br>
-<br>
-Para ejercer cualquiera de estos derechos, envíe una solicitud a privacidad@edena.es indicando su nombre, apellidos y una copia de su documento de identidad. Responderemos en el plazo máximo de un mes.<br>
-<br>
-Si considera que sus derechos no han sido atendidos adecuadamente, tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD): www.aepd.es.<br>
-<br>
-11. MEDIDAS DE SEGURIDAD Y ESTÁNDARES DE CUMPLIMIENTO<br>
-Edena implementa medidas técnicas y organizativas apropiadas para garantizar un nivel de seguridad adecuado al riesgo, incluyendo:<br>
-<br>
-- Cifrado de datos en tránsito (TLS/HTTPS) y en reposo.<br>
-- Control de acceso basado en roles y principio de mínimo privilegio.<br>
-- Autenticación segura y gestión de sesiones.<br>
-- Monitorización continua y detección de incidentes de seguridad.<br>
-- Copias de seguridad periódicas y planes de recuperación ante desastres.<br>
-- Formación periódica del equipo en protección de datos y ciberseguridad.<br>
-- Evaluaciones de impacto (DPIA) para tratamientos de alto riesgo.<br>
-<br>
-En caso de producirse una brecha de seguridad que afecte a derechos y libertades de los interesados, Edena notificará a la autoridad de control en el plazo de 72 horas y, cuando sea necesario, informará a los propios afectados. Cuando la brecha afecte a Información Sanitaria Protegida (PHI) en el marco de la normativa HIPAA, Edena seguirá adicionalmente los procedimientos de notificación de brechas exigidos por dicha normativa (HIPAA Breach Notification Rule, 45 CFR §§ 164.400–414).<br>
-<br>
-Edena cumple con los siguientes estándares de seguridad y ha implementado los controles correspondientes:<br>
-<br>
-- SOC 2 Tipo II (AICPA): los controles y procesos de Edena están diseñados conforme al marco SOC 2 Tipo II (seguridad, disponibilidad, confidencialidad, integridad del procesamiento y privacidad). Podemos facilitar documentación de nuestros controles bajo acuerdo de confidencialidad (NDA) a clientes que lo soliciten a privacidad@edena.es.<br>
-- ISO/IEC 27001: Edena implementa un Sistema de Gestión de la Seguridad de la Información (SGSI) alineado con los requisitos de la norma ISO/IEC 27001, con procesos documentados, evaluados y sometidos a mejora continua.<br>
-- HIPAA (Health Insurance Portability and Accountability Act, EE.UU.): Edena cumple con las salvaguardas técnicas, administrativas y físicas (45 CFR Part 164) requeridas por HIPAA para la protección de la Información Sanitaria Protegida (PHI). Los datos de salud de alumnos (alergias, necesidades educativas especiales y otras condiciones médicas) se tratan con los máximos estándares de seguridad, conforme a los principios de HIPAA y al artículo 9 del GDPR.<br>
-- GDPR/LOPDGDD: cumplimiento íntegro del Reglamento (UE) 2016/679 y de la Ley Orgánica 3/2018. Bases jurídicas, derechos de los interesados y medidas de seguridad se describen en detalle en las secciones de esta Política de Privacidad.<br>
-<br>
-12. EXACTITUD Y VERACIDAD DE LOS DATOS<br>
-El usuario se compromete a proporcionar datos verídicos, exactos y actualizados. Edena no será responsable de los perjuicios que pudieran derivarse del uso de datos inexactos o falsos facilitados por el usuario. Si los datos varían, el usuario deberá comunicarlo a la mayor brevedad posible a privacidad@edena.es.<br>
-<br>
-13. MODIFICACIONES DE ESTA POLÍTICA<br>
-Edena podrá actualizar esta Política de Privacidad para adaptarla a cambios legislativos, resoluciones de autoridades de control o modificaciones en la plataforma. Cuando los cambios sean sustanciales, se notificará a los usuarios por correo electrónico o mediante aviso destacado en la plataforma. La fecha de "última actualización" al inicio de este documento refleja siempre la versión vigente.<br>
-<br>
-14. CONTACTO Y RECLAMACIONES<br>
-Para cualquier consulta, solicitud o reclamación relacionada con el tratamiento de sus datos personales, puede contactar con nuestro Delegado de Protección de Datos:<br>
-Correo electrónico: privacidad@edena.es<br>
-<br>
-Para reclamaciones ante la autoridad de control competente:<br>
-Agencia Española de Protección de Datos (AEPD)<br>
-C/ Jorge Juan, 6, 28001 Madrid<br>
-www.aepd.es<br>
-<br>
-15. HIPAA: ACUERDO DE ENCARGADO DE TRATAMIENTO (BUSINESS ASSOCIATE AGREEMENT)<br>
-Cuando Edena procese, por cuenta de un centro educativo, Información Sanitaria Protegida (Protected Health Information, PHI) de personas sujetas a la Health Insurance Portability and Accountability Act (HIPAA) de Estados Unidos, Edena actuará como Business Associate en el sentido del 45 CFR § 160.103.<br>
-<br>
-En tal supuesto, el centro educativo (en calidad de entidad cubierta (covered entity) o Business Associate principal) deberá formalizar con Edena un Business Associate Agreement (BAA) conforme a los requisitos del 45 CFR § 164.504(e) antes de iniciar cualquier tratamiento de PHI en la Plataforma.<br>
-<br>
-Para solicitar la firma de un BAA, contacte con: privacidad@edena.es, indicando la naturaleza de los datos de salud a tratar y el alcance del servicio requerido.<br>
-<br>
-Los datos de salud de alumnos tratados en el contexto de la normativa española (alergias, necesidades educativas especiales u otras condiciones médicas) son datos de categoría especial conforme al artículo 9 del GDPR, y su tratamiento se ampara en el consentimiento explícito del titular o de su representante legal, o en la necesidad de dicho tratamiento para la prestación del servicio educativo, con las máximas garantías de seguridad técnica y organizativa.`,
+11. MODIFICACIONES<br>
+Podremos actualizar esta Política de Privacidad para adaptarla a novedades legislativas o cambios en el software. La fecha de "última actualización" reflejará siempre la versión vigente.`,
     },
     termsOfService: {
         title: "Términos y Condiciones de Uso",
-        content: `Última actualización: 2 de junio de 2026<br>
+        content: `Última actualización: 15 de julio de 2026<br>
 <br>
 1. OBJETO Y ACEPTACIÓN<br>
 Estos Términos y Condiciones de Uso (en adelante, "los Términos") regulan el acceso y uso de la plataforma Edena (en adelante, "la Plataforma"), propiedad de Edena Software S.L. (CIF: B27627462; DUNS: 373964745) (en adelante, "Edena"). Al registrarse, acceder o utilizar la Plataforma, el usuario o el centro educativo (en adelante, "el Cliente") acepta quedar vinculado por estos Términos en su versión vigente.<br>
@@ -1665,18 +1583,10 @@ Para cualquier consulta relacionada con estos Términos y Condiciones:<br>
 Correo electrónico: privacidad@edena.es<br>
 Sitio web: www.edena.es<br>
 <br>
-15. ESTÁNDARES DE SEGURIDAD Y ACUERDO DE ENCARGADO DE TRATAMIENTO HIPAA (BAA)<br>
+15. ESTÁNDARES DE SEGURIDAD<br>
 <br>
-15.1 Estándares y marcos de seguridad aplicados<br>
-Edena cumple con los siguientes estándares y marcos de seguridad, que acreditan el nivel de protección de los datos del Cliente:<br>
-- SOC 2 Tipo II (AICPA): los controles y procesos de Edena están diseñados conforme al marco SOC 2 Tipo II. Documentación de controles disponible bajo NDA a solicitud del Cliente en privacidad@edena.es.<br>
-- ISO/IEC 27001: Edena implementa un Sistema de Gestión de la Seguridad de la Información (SGSI) alineado con los requisitos de la norma ISO/IEC 27001.<br>
-- HIPAA: Edena cumple con las salvaguardas técnicas, administrativas y físicas del 45 CFR Part 164 para el tratamiento de Información Sanitaria Protegida (PHI).<br>
-- GDPR/LOPDGDD: cumplimiento íntegro de la normativa europea y española de protección de datos, detallado en la Política de Privacidad de Edena (www.edena.es/privacidad).<br>
-<br>
-15.2 Business Associate Agreement (BAA), HIPAA<br>
-Cuando el Cliente sea una entidad cubierta (covered entity) o un Business Associate según el 45 CFR § 160.103, y vaya a tratar en la Plataforma Información Sanitaria Protegida (PHI) de ciudadanos de Estados Unidos, Edena actuará como Business Associate. En tal supuesto, es obligatorio que el Cliente formalice con Edena un Business Associate Agreement (BAA) conforme al 45 CFR § 164.504(e) antes de iniciar el tratamiento de PHI en la Plataforma.<br>
-Para solicitar la firma de un BAA, el Cliente debe dirigirse a privacidad@edena.es indicando la naturaleza de los datos de salud a tratar y el alcance del servicio. Edena responderá en un plazo máximo de 5 días hábiles.`,
+Edena aplica medidas técnicas y organizativas apropiadas para proteger los datos del Cliente, incluyendo cifrado de datos en tránsito y en reposo, control de acceso basado en roles y copias de seguridad periódicas.<br>
+La Plataforma se aloja en centros de datos de proveedores de infraestructura de primer nivel, cuya infraestructura cuenta con certificaciones internacionales de seguridad como ISO/IEC 27001 y auditorías SOC 2. El cumplimiento del RGPD y de la LOPDGDD se detalla en la Política de Privacidad de Edena.`,
     },
     cookiePolicy: {
         title: "Política de Cookies",

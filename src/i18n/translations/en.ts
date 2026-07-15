@@ -650,10 +650,7 @@ export default {
             description: "Out-of-the-box security & AI that's even more private than ChatGPT",
             support: "24/7 Support",
             badges: {
-                soc2: "SOC 2 TYPE II",
-                iso27001: "ISO 27001",
                 gdpr: "GDPR",
-                hipaa: "HIPAA",
             },
         },
     },
@@ -1380,7 +1377,7 @@ export default {
     },
     termsOfService: {
         title: "Terms and Conditions of Use",
-        content: `Last updated: 2 June 2026<br>
+        content: `Last updated: 15 July 2026<br>
 <br>
 1. PURPOSE AND ACCEPTANCE<br>
 These Terms and Conditions of Use (hereinafter, "the Terms") govern access to and use of the Edena platform (hereinafter, "the Platform"), owned by Edena Software S.L. (Company registration / CIF: B27627462; DUNS: 373964745) (hereinafter, "Edena"). By registering, accessing or using the Platform, the user or educational institution (hereinafter, "the Client") agrees to be bound by these Terms as currently in force.<br>
@@ -1499,18 +1496,10 @@ For any query related to these Terms and Conditions:<br>
 Email: privacidad@edena.es<br>
 Website: www.edena.es<br>
 <br>
-15. SECURITY STANDARDS AND HIPAA BUSINESS ASSOCIATE AGREEMENT (BAA)<br>
+15. SECURITY STANDARDS<br>
 <br>
-15.1 Security standards and frameworks applied<br>
-Edena complies with the following security standards and frameworks:<br>
-- SOC 2 Type II (AICPA): Edena's controls and processes are designed in accordance with the SOC 2 Type II framework. Documentation available under NDA on request.<br>
-- ISO/IEC 27001: Edena implements an ISMS aligned with ISO/IEC 27001 requirements.<br>
-- HIPAA: implementation of technical, administrative and physical safeguards required by 45 CFR Part 164 for the processing of Protected Health Information (PHI).<br>
-- GDPR: full compliance with Regulation (EU) 2016/679, detailed in Edena's Privacy Policy (www.edena.es/privacy).<br>
-<br>
-15.2 Business Associate Agreement (BAA), HIPAA<br>
-Where the Client is a covered entity or Business Associate as defined in 45 CFR § 160.103 and intends to process Protected Health Information (PHI) of US citizens on the Platform, Edena will act as Business Associate. In such cases, the Client must enter into a Business Associate Agreement (BAA) with Edena in accordance with 45 CFR § 164.504(e) before processing any PHI on the Platform.<br>
-To request a BAA, the Client should contact privacy@edena.es specifying the nature of the health data and the scope of the service. Edena will respond within a maximum of 5 business days.`,
+Edena applies appropriate technical and organisational measures to protect the Client's data, including encryption of data in transit and at rest, role-based access control and regular backups.<br>
+The Platform is hosted in data centres operated by leading infrastructure providers whose infrastructure holds internationally recognised security certifications such as ISO/IEC 27001 and SOC 2 audits. Compliance with the GDPR is detailed in Edena's Privacy Policy.`,
     },
     crm: {
         mainTitle: "Turn Every Enrollment Inquiry Into a New Family",
@@ -1864,149 +1853,68 @@ To request a BAA, the Client should contact privacy@edena.es specifying the natu
     },
     privacyPolicy: {
         title: "Privacy Policy",
-        content: `Last updated: 2 June 2026<br>
+        content: `Last updated: 15 July 2026<br>
 <br>
 1. INTRODUCTION AND PURPOSE<br>
-At Edena, we are committed to protecting the privacy of all users of our platform and to being fully transparent about how we process personal data. This Privacy Policy describes the data processing practices of Edena Software S.L. in connection with the use of the Edena platform and this website, in compliance with Regulation (EU) 2016/679 (GDPR), Organic Law 3/2018 of 5 December on the Protection of Personal Data and Guarantee of Digital Rights (LOPDGDD), and Law 34/2002 of 11 July on Information Society Services and Electronic Commerce (LSSI).<br>
+At Edena we are committed to protecting the privacy of all users and to being fully transparent about how we process personal data. This Privacy Policy describes the data processing practices of Edena Software S.L. in relation to the use of our educational platform and this website, in accordance with Regulation (EU) 2016/679 (GDPR), Spanish Organic Law 3/2018 of 5 December (LOPDGDD), and Spanish Law 34/2002 of 11 July (LSSI).<br>
 <br>
-Edena is a comprehensive educational management platform designed for educational institutions (schools, nurseries, academies, and school groups). As a platform that handles data of minors, students, and families, we apply the highest standards of privacy and security.<br>
+Edena is a comprehensive school management platform designed for educational institutions. As a platform that processes data in the school environment, we apply strict privacy and security safeguards.<br>
 <br>
 2. DATA CONTROLLER<br>
 Company name: Edena Software S.L.<br>
-Company registration number (CIF/NIF): B27627462<br>
-DUNS: 373964745<br>
-Address: Barcelona, Spain<br>
+Tax ID (CIF/NIF): B27627462<br>
+Registered address: Barcelona, Spain<br>
 Email: privacidad@edena.es<br>
 Website: www.edena.es<br>
 <br>
 3. DATA PROTECTION OFFICER (DPO)<br>
-Edena has appointed a Data Protection Officer (DPO) responsible for overseeing compliance with data protection regulations. You may contact our DPO at any time at: privacidad@edena.es<br>
+Edena has appointed a Data Protection Officer to oversee compliance with data protection regulations. You may contact our DPO at any time at: dpo@edena.es.<br>
 <br>
-4. PLATFORM USERS AND DATA PROCESSED<br>
-Edena provides services to different categories of users, each with specific data processing:<br>
+4. USERS AND DATA PROCESSED<br>
+Edena processes data in two distinct environments:<br>
 <br>
-4.1 Administrators and school staff<br>
-Data: full name, national ID, role/position, corporate email, phone number, login credentials, and activity logs on the platform.<br>
-Purpose: management of the contractual relationship with the institution, platform access and administration, operational communication, and technical support.<br>
+A. Website users and leads (Edena as Controller)<br>
+Data: name, email address, phone number, name of the educational institution and browsing data (anonymised IP).<br>
+Purpose: responding to information requests, managing software demo requests and analysing website usage.<br>
 <br>
-4.2 Teachers and academic tutors<br>
-Data: full name, email address, login credentials, assigned subjects or groups, grades entered, and communications with families.<br>
-Purpose: delivery of educational services, communication with families, grade management, and attendance tracking.<br>
+B. ERP platform users (Edena as Processor)<br>
+For data entered by educational institutions (administrators, teachers, families and students), the educational institution is the Data Controller and Edena acts strictly as Data Processor, following the institution's instructions under a contract signed for that purpose (Art. 28 GDPR).<br>
+Data managed internally: identification, academic, communication and billing data of the institution, and essential health data (allergies or special needs) entered under the responsibility of the school.<br>
 <br>
-4.3 Families and legal guardians<br>
-Data: full name, email address, phone number, relationship to the student, payment data (handled by PCI DSS-certified providers), communication history, and attached documentation.<br>
-Purpose: school-family communication, payment and billing management, access to student records, and educational follow-up.<br>
+5. PURPOSES AND LEGAL BASIS<br>
+- Handling requests and demos: performance of pre-contractual measures (Art. 6.1.b GDPR).<br>
+- Sending commercial communications: express consent of the user (Art. 6.1.a GDPR), revocable at any time.<br>
+- Provision of the ERP service: performance of the contract with the educational institution (Art. 6.1.b GDPR).<br>
+- Platform improvement: legitimate interest in optimising the security and tools of the software (Art. 6.1.f GDPR).<br>
 <br>
-4.4 Students<br>
-Data: full name, date of birth, photograph (optional, with explicit consent), academic data (grades, attendance, progress), and relevant health data (allergies, special educational needs) when explicitly provided by the school or family.<br>
-Purpose: academic and student record management, educational communication, and monitoring of school progress.<br>
-<br>
-4.5 Website visitors<br>
-Data: browsing data, IP address (anonymised), pages visited, session duration, and data from contact or demo request forms (name, email, school name, message).<br>
-Purpose: website usage analysis, improvement of user experience, and handling of information requests.<br>
-<br>
-5. PURPOSES OF PROCESSING AND LEGAL BASIS<br>
-a) Contract management and service delivery. Basis: performance of a contract (Art. 6.1.b GDPR).<br>
-b) Academic management and student records. Basis: performance of a contract / legitimate interest (Art. 6.1.b and 6.1.f GDPR).<br>
-c) Communication between school and families. Basis: performance of a contract / legitimate interest (Art. 6.1.b and 6.1.f GDPR).<br>
-d) Billing and payment management. Basis: performance of a contract / legal obligation (Art. 6.1.b and 6.1.c GDPR).<br>
-e) Sending commercial communications about Edena. Basis: consent (Art. 6.1.a GDPR). Consent may be withdrawn at any time.<br>
-f) Compliance with tax, employment, and commercial legal obligations. Basis: legal obligation (Art. 6.1.c GDPR).<br>
-g) Platform improvement and anonymised statistical analysis. Basis: legitimate interest (Art. 6.1.f GDPR).<br>
-<br>
-6. SPECIAL PROCESSING: DATA OF MINORS<br>
-Edena is fully aware of the particular sensitivity involved in processing personal data of minors. In accordance with Article 8 of the GDPR and Article 7 of the LOPDGDD:<br>
-<br>
-- Educational institutions, as data controllers for their students' data, are responsible for obtaining the consent of parents or legal guardians for the processing of data of children under 14.<br>
-- Edena acts as data processor with respect to student data entered by the educational institution, following its instructions.<br>
-- Health data and other special categories of student data (Art. 9 GDPR) are only processed when the institution explicitly enters them and a specific legal basis exists (explicit consent or necessity for the educational service).<br>
-- Edena does not use minors' data for any purpose other than strictly educational and school management purposes.<br>
+6. PROCESSING OF MINORS' DATA<br>
+In compliance with Article 8 of the GDPR and Article 7 of the LOPDGDD, educational institutions, as Data Controllers, are responsible for obtaining the consent of parents or legal guardians for the processing of data of children under 14 before entering it into the platform. Edena never uses minors' data for any purpose other than the strict educational management of the client institution.<br>
 <br>
 7. DATA RETENTION<br>
-Data will be kept for the time strictly necessary for the purpose for which it was collected and, in any case, for the periods required by law:<br>
+- Request/contact data: retained for as long as necessary to handle the request and, if no contract is entered into, deleted within a maximum of 24 months.<br>
+- Client contractual data: retained for the duration of the contract and, after termination, for the statutory limitation periods (6 years under commercial/tax law).<br>
+- Browsing data/logs: maximum 12 months.<br>
 <br>
-- Contract and billing data: 6 years (tax and commercial obligations).<br>
-- Commercial communication data: until consent is withdrawn.<br>
-- Student records: for the duration of the relationship with the institution and, after leaving, for the limitation period for potential liability (up to 5 years).<br>
-- Platform access and activity logs: maximum 12 months.<br>
-- Website visitor data: in accordance with the applicable cookie policy.<br>
+8. RECIPIENTS AND TRANSFERS<br>
+Edena does not sell or disclose personal data to third parties. Data is only shared with:<br>
+- Cloud infrastructure and data storage providers acting as data processors under strict GDPR-compliant contracts.<br>
+- Certified payment gateways (PCI-DSS) for payment management on the platform.<br>
+- Public authorities where there is a legal obligation.<br>
 <br>
-After these periods, data will be deleted or irreversibly anonymised.<br>
+All of our main infrastructure and storage servers are located within the European Economic Area (EEA).<br>
 <br>
-8. RECIPIENTS AND DATA PROCESSORS<br>
-Edena does not sell or transfer personal data to third parties for commercial purposes. Data may only be disclosed to:<br>
+9. DATA SUBJECT RIGHTS<br>
+Users may exercise their rights of access, rectification, erasure, objection, restriction and portability by sending an email to dpo@edena.es, duly proving their identity. If you believe your rights have not been properly addressed, you may lodge a complaint with the Spanish Data Protection Agency (www.aepd.es).<br>
 <br>
-- Technology and cloud infrastructure providers (hosting, databases) acting as data processors under GDPR-compliant agreements.<br>
-- Certified payment service providers (PCI DSS) for billing and payment management.<br>
-- Service analysis and monitoring providers, always on an anonymised or aggregated basis.<br>
-- Public authorities and bodies, exclusively to fulfil legal obligations.<br>
+10. SECURITY MEASURES AND STANDARDS<br>
+Edena applies technical and organisational measures to guarantee the security of information:<br>
+- Encryption of data in transit via SSL/TLS (HTTPS) protocols and data encrypted at rest.<br>
+- Restricted role-based access control (least privilege).<br>
+- Regular backups and data recovery systems.<br>
+- Certified infrastructure: our platform is hosted in data centres of leading providers whose infrastructure holds internationally recognised security certifications such as ISO/IEC 27001 and SOC 2 audits, guaranteeing the highest standards of availability and physical protection of information.<br>
 <br>
-All our providers are subject to confidentiality agreements and data processing contracts that ensure GDPR compliance.<br>
-<br>
-9. INTERNATIONAL DATA TRANSFERS<br>
-As a general rule, data is hosted on servers located in the European Economic Area (EEA). In the exceptional cases where an international transfer outside the EEA is necessary, Edena ensures that appropriate safeguards under the GDPR are in place, such as standard contractual clauses approved by the European Commission or the existence of an adequacy decision.<br>
-<br>
-10. DATA SUBJECTS' RIGHTS<br>
-In accordance with the GDPR and LOPDGDD, users may exercise the following rights:<br>
-<br>
-- Right of access: to know what personal data we process about you.<br>
-- Right of rectification: to correct inaccurate or incomplete data.<br>
-- Right of erasure ("right to be forgotten"): to request deletion of your data when it is no longer necessary for the purpose for which it was collected.<br>
-- Right to object: to object to the processing of your data in certain circumstances.<br>
-- Right to restriction of processing: to request that processing be limited in certain cases provided for by law.<br>
-- Right to data portability: to receive your data in a structured, commonly used, and machine-readable format.<br>
-- Right to withdraw consent: at any time, without affecting the lawfulness of processing prior to withdrawal.<br>
-- Right not to be subject to automated decisions with significant legal effects.<br>
-<br>
-To exercise any of these rights, send a request to privacidad@edena.es stating your name, surname, and a copy of your identity document. We will respond within a maximum of one month.<br>
-<br>
-If you consider that your rights have not been properly addressed, you have the right to lodge a complaint with the Spanish Data Protection Agency (AEPD): www.aepd.es.<br>
-<br>
-11. SECURITY MEASURES AND COMPLIANCE STANDARDS<br>
-Edena implements appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including:<br>
-<br>
-- Encryption of data in transit (TLS/HTTPS) and at rest.<br>
-- Role-based access control and least-privilege principle.<br>
-- Secure authentication and session management.<br>
-- Continuous monitoring and security incident detection.<br>
-- Regular backups and disaster recovery plans.<br>
-- Regular staff training on data protection and cybersecurity.<br>
-- Data Protection Impact Assessments (DPIAs) for high-risk processing activities.<br>
-<br>
-In the event of a security breach affecting the rights and freedoms of data subjects, Edena will notify the supervisory authority within 72 hours and, where necessary, will inform the affected individuals.<br>
-<br>
-When a breach affects Protected Health Information (PHI) under HIPAA, Edena will additionally follow the breach notification procedures required by the HIPAA Breach Notification Rule (45 CFR §§ 164.400–414).<br>
-<br>
-Edena complies with the following security standards and has implemented the corresponding controls:<br>
-<br>
-- SOC 2 Type II (AICPA): Edena's controls and processes are designed in accordance with the SOC 2 Type II framework (security, availability, confidentiality, processing integrity and privacy). Documentation of our controls is available under NDA to clients who request it at privacy@edena.es.<br>
-- ISO/IEC 27001: Edena implements an Information Security Management System (ISMS) aligned with the requirements of ISO/IEC 27001, with documented processes subject to continuous improvement.<br>
-- HIPAA (Health Insurance Portability and Accountability Act, USA): Edena implements the technical, administrative and physical safeguards (45 CFR Part 164) required by HIPAA for the protection of Protected Health Information (PHI). Student health data (including allergies, special educational needs and other medical conditions) are processed to the highest security standards, in accordance with both HIPAA and Article 9 of the GDPR.<br>
-- GDPR/UK GDPR: full compliance with Regulation (EU) 2016/679. Legal bases, data subject rights and security measures are described in detail throughout this Privacy Policy.<br>
-<br>
-12. ACCURACY AND TRUTHFULNESS OF DATA<br>
-Users undertake to provide truthful, accurate, and up-to-date data. Edena shall not be liable for any harm arising from the use of inaccurate or false data provided by the user. If the data changes, the user must notify us as soon as possible at privacidad@edena.es.<br>
-<br>
-13. CHANGES TO THIS POLICY<br>
-Edena may update this Privacy Policy to reflect legislative changes, supervisory authority decisions, or platform updates. When changes are substantial, users will be notified by email or through a prominent notice on the platform. The "last updated" date at the top of this document always reflects the current version.<br>
-<br>
-14. CONTACT AND COMPLAINTS<br>
-For any queries, requests, or complaints related to the processing of your personal data, please contact our Data Protection Officer:<br>
-Email: privacidad@edena.es<br>
-<br>
-To lodge a complaint with the competent supervisory authority:<br>
-Spanish Data Protection Agency (AEPD)<br>
-C/ Jorge Juan, 6, 28001 Madrid<br>
-www.aepd.es<br>
-<br>
-15. HIPAA: BUSINESS ASSOCIATE AGREEMENT (BAA)<br>
-Where Edena processes Protected Health Information (PHI), as defined under the Health Insurance Portability and Accountability Act (HIPAA), on behalf of an educational centre, Edena acts as a Business Associate within the meaning of 45 CFR § 160.103.<br>
-<br>
-In such cases, the educational centre (whether acting as a covered entity or primary Business Associate) must enter into a Business Associate Agreement (BAA) with Edena in accordance with 45 CFR § 164.504(e) before initiating any processing of PHI on the Platform.<br>
-<br>
-To request a BAA, contact: privacy@edena.es, specifying the nature of the health data to be processed and the scope of the service required.<br>
-<br>
-Student health data processed under European law (allergies, special educational needs and other medical conditions) constitutes special category data under Article 9 of the GDPR. Its processing is based on the explicit consent of the data subject or their legal representative, or on the necessity of such processing for the provision of educational services, with the highest technical and organisational security safeguards in place.`,
+11. CHANGES TO THIS POLICY<br>
+We may update this Privacy Policy to adapt it to legislative changes or changes to the software. The "last updated" date will always reflect the current version.`,
     },
     cookiePolicy: {
         title: "Cookie Policy",

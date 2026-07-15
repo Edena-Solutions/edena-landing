@@ -662,10 +662,7 @@ export default {
             description: "Seguretat integrada i IA amb més privacitat que un xatbot genèric",
             support: "Suport 24/7",
             badges: {
-                soc2: "SOC 2 TYPE II",
-                iso27001: "ISO 27001",
                 gdpr: "GDPR",
-                hipaa: "HIPAA",
             },
         },
     },
@@ -1402,153 +1399,72 @@ export default {
     },
     privacyPolicy: {
         title: "Política de privacitat",
-        content: `Última actualització: 2 de juny de 2026<br>
+        content: `Última actualització: 15 de juliol de 2026<br>
 <br>
 1. INTRODUCCIÓ I OBJECTE<br>
-A Edena ens comprometem a protegir la privacitat de tots els usuaris de la nostra plataforma i a ser completament transparents sobre com tractem les dades personals. Aquesta Política de privacitat descriu les pràctiques de tractament de dades d'Edena Software S.L. en relació amb l'ús de la plataforma Edena i d'aquest lloc web, de conformitat amb el Reglament (UE) 2016/679 (GDPR), la Llei orgànica 3/2018, de 5 de desembre, de Protecció de Dades Personals i garantia dels drets digitals (LOPDGDD), i la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i de Comerç Electrònic (LSSI).<br>
+A Edena ens comprometem a protegir la privacitat de tots els usuaris i a ser completament transparents sobre com tractem les dades personals. Aquesta Política de privacitat descriu les pràctiques de tractament de dades d'Edena Software S.L. en relació amb l'ús de la nostra plataforma educativa i aquest lloc web, de conformitat amb el Reglament (UE) 2016/679 (RGPD), la Llei orgànica 3/2018, de 5 de desembre (LOPDGDD), i la Llei 34/2002, d'11 de juliol (LSSI).<br>
 <br>
-Edena és una plataforma de gestió educativa integral dissenyada per a centres educatius (col·legis, escoles bressol, acadèmies i grups educatius). En tant que plataforma que gestiona dades de menors d'edat, alumnes i famílies, apliquem les màximes garanties de privacitat i seguretat.<br>
+Edena és una plataforma de gestió educativa integral dissenyada per a centres educatius. Com a plataforma que processa dades en l'àmbit escolar, apliquem estrictes garanties de privacitat i seguretat.<br>
 <br>
 2. RESPONSABLE DEL TRACTAMENT<br>
 Raó social: Edena Software S.L.<br>
 CIF/NIF: B27627462<br>
-DUNS: 373964745<br>
 Domicili: Barcelona, Espanya<br>
 Correu electrònic: privacidad@edena.es<br>
 Lloc web: www.edena.es<br>
 <br>
 3. DELEGAT DE PROTECCIÓ DE DADES (DPD)<br>
-Edena ha designat un Delegat de Protecció de Dades (DPD) responsable de supervisar el compliment de la normativa en matèria de protecció de dades. Podeu contactar amb el nostre DPD en qualsevol moment a: privacidad@edena.es<br>
+Edena ha designat un delegat de protecció de dades per supervisar el compliment de la normativa. Podeu contactar amb el nostre DPD en qualsevol moment a través del correu: dpo@edena.es.<br>
 <br>
-4. USUARIS DE LA PLATAFORMA I DADES TRACTADES<br>
-Edena presta serveis a diferents categories d'usuaris, cadascuna amb un tractament de dades específic:<br>
+4. USUARIS I DADES TRACTADES<br>
+Edena tracta dades en dos entorns diferenciats:<br>
 <br>
-4.1 Administradors i personal del centre educatiu<br>
-Dades: nom i cognoms, DNI/NIE, càrrec, correu electrònic corporatiu, número de telèfon, dades d'accés i registre d'activitat a la plataforma.<br>
-Finalitat: gestió de la relació contractual amb el centre, accés i administració de la plataforma, comunicació operativa i suport tècnic.<br>
+A. Usuaris del web i leads (Edena com a responsable)<br>
+Dades: nom, correu electrònic, telèfon, nom del centre educatiu i dades de navegació (IP anonimitzada).<br>
+Finalitat: atendre sol·licituds d'informació, gestionar l'enviament de demostracions del programari i analitzar l'ús del web.<br>
 <br>
-4.2 Professors i tutors acadèmics<br>
-Dades: nom i cognoms, correu electrònic, dades d'accés, assignatures o grups assignats, qualificacions introduïdes i comunicacions amb les famílies.<br>
-Finalitat: prestació del servei educatiu, comunicació amb les famílies, gestió de qualificacions i control d'assistència.<br>
+B. Usuaris de la plataforma ERP (Edena com a encarregat del tractament)<br>
+Per a les dades introduïdes pels centres educatius (administradors, professors, famílies i alumnes), el centre educatiu és el responsable del tractament i Edena actua estrictament com a encarregat del tractament, seguint les instruccions del centre mitjançant un contracte signat a aquest efecte (art. 28 RGPD).<br>
+Dades gestionades internament: dades identificatives, acadèmiques, de comunicació, facturació del centre i dades de salut essencials (al·lèrgies o necessitats especials) introduïdes sota la responsabilitat del centre escolar.<br>
 <br>
-4.3 Famílies i tutors legals<br>
-Dades: nom i cognoms, correu electrònic, número de telèfon, relació amb l'alumne, dades de pagament (gestionades a través de proveïdors certificats PCI DSS), historial de comunicacions i documentació adjunta.<br>
-Finalitat: comunicació centre-família, gestió de pagaments i facturació, accés a l'expedient de l'alumne i seguiment educatiu.<br>
+5. FINALITATS I BASE JURÍDICA<br>
+- Atenció de sol·licituds i demos: execució de mesures precontractuals (art. 6.1.b RGPD).<br>
+- Enviament de comunicacions comercials: consentiment exprés de l'usuari (art. 6.1.a RGPD), revocable en qualsevol moment.<br>
+- Prestació del servei ERP: execució del contracte amb el centre educatiu (art. 6.1.b RGPD).<br>
+- Millora de la plataforma: interès legítim a optimitzar la seguretat i les eines del programari (art. 6.1.f RGPD).<br>
 <br>
-4.4 Alumnes<br>
-Dades: nom i cognoms, data de naixement, fotografia (opcional, amb consentiment exprés), dades acadèmiques (qualificacions, assistència, evolució) i dades de salut rellevants (al·lèrgies, necessitats educatives especials) quan siguin aportades expressament pel centre o la família.<br>
-Finalitat: gestió acadèmica i de l'expedient de l'alumne, comunicació educativa i seguiment del progrés escolar.<br>
-<br>
-4.5 Visitants del lloc web<br>
-Dades: dades de navegació, adreça IP (anonimitzada), pàgines visitades, durada de la sessió i dades de formularis de contacte o sol·licitud de demo (nom, correu electrònic, nom del centre, missatge).<br>
-Finalitat: anàlisi de l'ús del lloc web, millora de l'experiència d'usuari i atenció a sol·licituds d'informació.<br>
-<br>
-5. FINALITATS DEL TRACTAMENT I BASE JURÍDICA<br>
-a) Gestió del contracte i prestació del servei. Base: execució d'un contracte (art. 6.1.b GDPR).<br>
-b) Gestió acadèmica i expedients d'alumnes. Base: execució d'un contracte / interès legítim del centre (art. 6.1.b i 6.1.f GDPR).<br>
-c) Comunicació entre el centre i les famílies. Base: execució d'un contracte / interès legítim (art. 6.1.b i 6.1.f GDPR).<br>
-d) Facturació i gestió de pagaments. Base: execució d'un contracte / obligació legal (art. 6.1.b i 6.1.c GDPR).<br>
-e) Enviament de comunicacions comercials sobre Edena. Base: consentiment (art. 6.1.a GDPR). Es pot revocar en qualsevol moment.<br>
-f) Compliment d'obligacions legals fiscals, laborals i mercantils. Base: obligació legal (art. 6.1.c GDPR).<br>
-g) Millora de la plataforma i anàlisi estadística anonimitzada. Base: interès legítim (art. 6.1.f GDPR).<br>
-<br>
-6. TRACTAMENT ESPECIAL: DADES DE MENORS D'EDAT<br>
-Edena és plenament conscient de l'especial sensibilitat que implica el tractament de dades personals de menors. En compliment de l'article 8 del GDPR i de l'article 7 de la LOPDGDD:<br>
-<br>
-- Els centres educatius, en qualitat de responsables del tractament de les dades dels seus alumnes, són els qui recapten el consentiment dels pares o tutors legals per al tractament de dades de menors de 14 anys.<br>
-- Edena actua com a encarregat del tractament respecte a les dades d'alumnes introduïdes pel centre educatiu, seguint les instruccions d'aquest.<br>
-- Les dades de salut i altres categories especials de dades d'alumnes (art. 9 GDPR) només es tracten quan el centre les introdueix expressament i existeix una base jurídica específica (consentiment explícit o necessitat per a la prestació del servei educatiu).<br>
-- Edena no utilitza les dades de menors per a cap finalitat diferent de les estrictament educatives i de gestió del centre.<br>
+6. TRACTAMENT DE DADES DE MENORS D'EDAT<br>
+En compliment de l'article 8 del RGPD i de l'article 7 de la LOPDGDD, els centres educatius, en qualitat de responsables del tractament, són els qui recapten el consentiment dels pares o tutors legals per al tractament de les dades de menors de 14 anys abans d'introduir-les a la plataforma. Edena no utilitza mai les dades dels menors per a cap finalitat aliena a l'estricta gestió educativa del centre client.<br>
 <br>
 7. CONSERVACIÓ DE LES DADES<br>
-Les dades es conservaran durant el temps estrictament necessari per a la finalitat per a la qual van ser recaptades i, en tot cas, durant els terminis legalment establerts:<br>
+- Dades de sol·licituds/contacte: es conservaran durant el temps necessari per atendre la petició i, si no hi ha contractació, s'eliminaran en un termini màxim de 24 mesos.<br>
+- Dades contractuals de clients: es conservaran durant la vigència del contracte i, després de la seva finalització, durant els terminis legals de prescripció de responsabilitats (6 anys per normativa mercantil/fiscal).<br>
+- Dades de navegació/logs: màxim 12 mesos.<br>
 <br>
-- Dades de contractes i facturació: 6 anys (obligació fiscal i mercantil).<br>
-- Dades de comunicacions comercials: fins a la revocació del consentiment.<br>
-- Expedients d'alumnes: mentre duri la relació amb el centre i, després de la baixa, durant el termini de prescripció de possibles responsabilitats (màxim 5 anys).<br>
-- Logs d'accés i activitat a la plataforma: màxim 12 mesos.<br>
-- Dades de visitants del lloc web: d'acord amb la política de cookies aplicable.<br>
+8. DESTINATARIS I TRANSFERÈNCIES<br>
+Edena no ven ni cedeix dades personals a tercers. Les dades només es comuniquen a:<br>
+- Proveïdors d'infraestructura cloud i emmagatzematge de dades que actuen com a encarregats del tractament sota contractes estrictes que compleixen el RGPD.<br>
+- Passarel·les de pagament certificades (PCI-DSS) per a la gestió de cobraments a la plataforma.<br>
+- Autoritats públiques quan hi hagi una obligació legal.<br>
 <br>
-Transcorreguts aquests terminis, les dades seran eliminades o anonimitzades de forma irreversible.<br>
+Tota la nostra infraestructura principal i els servidors d'emmagatzematge estan ubicats dins de l'Espai Econòmic Europeu (EEE).<br>
 <br>
-8. DESTINATARIS I ENCARREGATS DEL TRACTAMENT<br>
-Edena no ven ni cedeix dades personals a tercers amb finalitats comercials. Les dades únicament poden ser comunicades a:<br>
+9. DRETS DELS INTERESSATS<br>
+Els usuaris poden exercir els seus drets d'accés, rectificació, supressió, oposició, limitació i portabilitat enviant un correu electrònic a dpo@edena.es, acreditant degudament la seva identitat. Si considereu que els vostres drets no han estat atesos, podeu reclamar davant l'Agència Espanyola de Protecció de Dades (www.aepd.es).<br>
 <br>
-- Proveïdors tecnològics i d'infraestructura cloud (hosting, bases de dades) que actuen com a encarregats del tractament sota contractes que compleixen el GDPR.<br>
-- Proveïdors de serveis de pagament certificats (PCI DSS) per a la gestió de cobraments i facturació.<br>
-- Proveïdors d'anàlisi i monitorització del servei, sempre de forma anonimitzada o agregada.<br>
-- Autoritats i organismes públics, exclusivament en compliment d'obligacions legals.<br>
+10. MESURES DE SEGURETAT I ESTÀNDARDS<br>
+Edena aplica mesures tècniques i organitzatives per garantir la seguretat de la informació:<br>
+- Xifratge de dades en trànsit mitjançant protocols SSL/TLS (HTTPS) i dades xifrades en repòs.<br>
+- Control d'accés restringit basat en rols (mínim privilegi).<br>
+- Còpies de seguretat periòdiques i sistemes de recuperació de dades.<br>
+- Infraestructura certificada: la nostra plataforma s'allotja en centres de dades de proveïdors de primer nivell, la infraestructura dels quals compta amb certificacions internacionals de seguretat com ISO/IEC 27001 i auditories SOC 2, garantint els màxims estàndards de disponibilitat i protecció física de la informació.<br>
 <br>
-Tots els nostres proveïdors estan sotmesos a acords de confidencialitat i contractes d'encàrrec del tractament que garanteixen el compliment del GDPR.<br>
-<br>
-9. TRANSFERÈNCIES INTERNACIONALS DE DADES<br>
-Amb caràcter general, les dades s'allotgen en servidors ubicats a l'Espai Econòmic Europeu (EEE). En els casos excepcionals en què sigui necessària una transferència internacional fora de l'EEE, Edena garanteix que s'adopten les salvaguardes adequades previstes al GDPR, com les clàusules contractuals tipus aprovades per la Comissió Europea o l'existència d'una decisió d'adequació.<br>
-<br>
-10. DRETS DELS INTERESSATS<br>
-D'acord amb el GDPR i la LOPDGDD, els usuaris poden exercir els drets següents:<br>
-<br>
-- Dret d'accés: conèixer quines dades personals tractem sobre vostè.<br>
-- Dret de rectificació: corregir dades inexactes o incompletes.<br>
-- Dret de supressió ("dret a l'oblit"): sol·licitar l'eliminació de les seves dades quan ja no siguin necessàries per a la finalitat per a la qual van ser recaptades.<br>
-- Dret d'oposició: oposar-se al tractament de les seves dades en determinades circumstàncies.<br>
-- Dret de limitació del tractament: sol·licitar la restricció del tractament en certs supòsits previstos per la normativa.<br>
-- Dret de portabilitat: rebre les seves dades en un format estructurat, d'ús comú i lectura mecànica.<br>
-- Dret a retirar el consentiment: en qualsevol moment, sense que això afecti la licitud del tractament previ a la seva retirada.<br>
-- Dret a no ser objecte de decisions automatitzades amb efectes jurídics significatius.<br>
-<br>
-Per exercir qualsevol d'aquests drets, envieu una sol·licitud a privacidad@edena.es indicant el vostre nom, cognoms i una còpia del vostre document d'identitat. Respondrem en el termini màxim d'un mes.<br>
-<br>
-Si considereu que els vostres drets no han estat atesos adequadament, teniu dret a presentar una reclamació davant l'Agència Espanyola de Protecció de Dades (AEPD): www.aepd.es.<br>
-<br>
-11. MESURES DE SEGURETAT I ESTÀNDARDS DE COMPLIMENT<br>
-Edena implementa mesures tècniques i organitzatives apropiades per garantir un nivell de seguretat adequat al risc, incloent-hi:<br>
-<br>
-- Xifratge de dades en trànsit (TLS/HTTPS) i en repòs.<br>
-- Control d'accés basat en rols i principi de mínim privilegi.<br>
-- Autenticació segura i gestió de sessions.<br>
-- Monitoratge continu i detecció d'incidents de seguretat.<br>
-- Còpies de seguretat periòdiques i plans de recuperació davant desastres.<br>
-- Formació periòdica de l'equip en protecció de dades i ciberseguretat.<br>
-- Avaluacions d'impacte (DPIA) per a tractaments d'alt risc.<br>
-<br>
-En cas que es produeixi una bretxa de seguretat que afecti drets i llibertats dels interessats, Edena notificarà l'autoritat de control en el termini de 72 hores i, quan sigui necessari, informarà els propis afectats.<br>
-<br>
-Quan la bretxa afecti Informació de Salut Protegida (PHI) en el marc de la HIPAA, Edena seguirà addicionalment els procediments de notificació de bretxes exigits per aquesta normativa (HIPAA Breach Notification Rule, 45 CFR §§ 164.400–414).<br>
-<br>
-Edena compleix els estàndards de seguretat següents i ha implementat els controls corresponents:<br>
-<br>
-- SOC 2 Tipus II (AICPA): els controls i processos d'Edena estan dissenyats d'acord amb el marc SOC 2 Tipus II (seguretat, disponibilitat, confidencialitat, integritat del processament i privacitat). La documentació dels nostres controls està disponible sota NDA per a clients que ho sol·licitin a privacidad@edena.es.<br>
-- ISO/IEC 27001: Edena implementa un Sistema de Gestió de Seguretat de la Informació (SGSI) alineat amb els requisits de la norma ISO/IEC 27001, amb processos documentats subjectes a millora contínua.<br>
-- HIPAA (Health Insurance Portability and Accountability Act, EUA): Edena implementa les salvaguardes tècniques, administratives i físiques (45 CFR Part 164) requerides per la HIPAA per a la protecció de la Informació de Salut Protegida (PHI). Les dades de salut dels alumnes (al·lèrgies, necessitats educatives especials i altres condicions mèdiques) es tracten amb els màxims estàndards de seguretat, de conformitat amb la HIPAA i l'article 9 del GDPR.<br>
-- GDPR/LOPDGDD: compliment íntegre del Reglament (UE) 2016/679 i la Llei orgànica 3/2018. Les bases jurídiques, els drets dels interessats i les mesures de seguretat es descriuen detalladament en aquesta Política de privacitat.<br>
-<br>
-12. EXACTITUD I VERACITAT DE LES DADES<br>
-L'usuari es compromet a proporcionar dades verídiques, exactes i actualitzades. Edena no serà responsable dels perjudicis que poguessin derivar-se de l'ús de dades inexactes o falses facilitades per l'usuari. Si les dades varien, l'usuari haurà de comunicar-ho com més aviat possible a privacidad@edena.es.<br>
-<br>
-13. MODIFICACIONS D'AQUESTA POLÍTICA<br>
-Edena podrà actualitzar aquesta Política de privacitat per adaptar-la a canvis legislatius, resolucions d'autoritats de control o modificacions a la plataforma. Quan els canvis siguin substancials, es notificarà als usuaris per correu electrònic o mitjançant un avís destacat a la plataforma. La data d'última actualització al principi d'aquest document reflecteix sempre la versió vigent.<br>
-<br>
-14. CONTACTE I RECLAMACIONS<br>
-Per a qualsevol consulta, sol·licitud o reclamació relacionada amb el tractament de les seves dades personals, podeu contactar amb el nostre Delegat de Protecció de Dades:<br>
-Correu electrònic: privacidad@edena.es<br>
-<br>
-Per a reclamacions davant l'autoritat de control competent:<br>
-Agència Espanyola de Protecció de Dades (AEPD)<br>
-C/ Jorge Juan, 6, 28001 Madrid<br>
-www.aepd.es<br>
-<br>
-15. HIPAA: BUSINESS ASSOCIATE AGREEMENT (BAA)<br>
-Quan Edena processa, per compte d'un centre educatiu, Informació de Salut Protegida (PHI) de persones subjectes a la Health Insurance Portability and Accountability Act (HIPAA) dels Estats Units, Edena actuarà com a Business Associate en el sentit de 45 CFR § 160.103.<br>
-<br>
-En aquests casos, el centre educatiu (com a entitat coberta o Business Associate principal) haurà de subscriure un Business Associate Agreement (BAA) amb Edena de conformitat amb els requisits de 45 CFR § 164.504(e) abans d'iniciar qualsevol tractament de PHI a la Plataforma.<br>
-<br>
-Per sol·licitar la signatura d'un BAA, poseu-vos en contacte amb: privacitat@edena.es, especificant la naturalesa de les dades de salut a tractar i l'abast del servei requerit.<br>
-<br>
-Les dades de salut dels alumnes tractades sota la legislació espanyola (al·lèrgies, necessitats educatives especials o altres condicions mèdiques) constitueixen dades de categoria especial en virtut de l'article 9 del GDPR, i el seu tractament es basa en el consentiment explícit de l'interessat o del seu representant legal, o en la necessitat d'aquest tractament per a la prestació dels serveis educatius, amb les màximes garanties de seguretat tècnica i organitzativa.`,
+11. MODIFICACIONS<br>
+Podrem actualitzar aquesta Política de privacitat per adaptar-la a novetats legislatives o canvis en el programari. La data de "última actualització" reflectirà sempre la versió vigent.`,
     },
     termsOfService: {
         title: "Termes i condicions d'ús",
-        content: `Última actualització: 2 de juny de 2026<br>
+        content: `Última actualització: 15 de juliol de 2026<br>
 <br>
 1. OBJECTE I ACCEPTACIÓ<br>
 Aquests Termes i Condicions d'ús (d'ara endavant, "els Termes") regulen l'accés i l'ús de la plataforma Edena (d'ara endavant, "la Plataforma"), propietat d'Edena Software S.L. (CIF: B27627462; DUNS: 373964745) (d'ara endavant, "Edena"). En registrar-se, accedir o utilitzar la Plataforma, l'usuari o el centre educatiu (d'ara endavant, "el Client") accepta quedar vinculat per aquests Termes en la versió vigent en cada moment.<br>
@@ -1667,18 +1583,10 @@ Per a qualsevol consulta relacionada amb aquests Termes i Condicions:<br>
 Correu electrònic: privacidad@edena.es<br>
 Lloc web: www.edena.es<br>
 <br>
-15. ESTÀNDARDS DE SEGURETAT I BUSINESS ASSOCIATE AGREEMENT (BAA) HIPAA<br>
+15. ESTÀNDARDS DE SEGURETAT<br>
 <br>
-15.1 Estàndards i marcs de seguretat aplicats<br>
-Edena compleix els estàndards i marcs de seguretat següents:<br>
-- SOC 2 Tipus II (AICPA): els controls d'Edena estan dissenyats d'acord amb el marc SOC 2 Tipus II. Documentació disponible sota NDA a sol·licitud.<br>
-- ISO/IEC 27001: Edena implementa un SGSI alineat amb els requisits de la norma ISO/IEC 27001.<br>
-- HIPAA: implementació de les salvaguardes tècniques, administratives i físiques requerides per 45 CFR Part 164 per al tractament d'Informació de Salut Protegida (PHI).<br>
-- GDPR/LOPDGDD: compliment íntegre de la normativa europea i espanyola de protecció de dades, detallada a la Política de privacitat d'Edena (www.edena.es/privacitat).<br>
-<br>
-15.2 Business Associate Agreement (BAA), HIPAA<br>
-Quan el Client sigui una entitat coberta o Business Associate en virtut de 45 CFR § 160.103 i pretengui tractar Informació de Salut Protegida (PHI) de ciutadans nord-americans a la Plataforma, Edena actuarà com a Business Associate. En aquests casos, el Client haurà de subscriure un Business Associate Agreement (BAA) amb Edena de conformitat amb 45 CFR § 164.504(e) abans de tractar qualsevol PHI a la Plataforma.<br>
-Per sol·licitar la signatura d'un BAA, el Client ha de posar-se en contacte amb privacitat@edena.es especificant la naturalesa de les dades de salut i l'abast del servei. Edena respondrà en un termini màxim de 5 dies hàbils.`,
+Edena aplica mesures tècniques i organitzatives apropiades per protegir les dades del Client, incloent-hi el xifratge de dades en trànsit i en repòs, el control d'accés basat en rols i còpies de seguretat periòdiques.<br>
+La Plataforma s'allotja en centres de dades de proveïdors d'infraestructura de primer nivell, la infraestructura dels quals compta amb certificacions internacionals de seguretat com ISO/IEC 27001 i auditories SOC 2. El compliment del RGPD i de la LOPDGDD es detalla a la Política de privacitat d'Edena.`,
     },
     cookiePolicy: {
         title: "Política de galetes",

@@ -663,10 +663,7 @@ export default {
             description: "Integratutako segurtasuna eta IA, chatbot generiko bat baino pribatuagoa",
             support: "24/7 laguntza",
             badges: {
-                soc2: "SOC 2 TYPE II",
-                iso27001: "ISO 27001",
                 gdpr: "GDPR",
-                hipaa: "HIPAA",
             },
         },
     },
@@ -1402,152 +1399,72 @@ export default {
     },
     privacyPolicy: {
         title: "Pribatutasun-politika",
-        content: `Azken eguneraketa: 2026ko ekainaren 2a<br>
+        content: `Azken eguneraketa: 2026ko uztailaren 15a<br>
 <br>
 1. SARRERA ETA XEDEA<br>
-Edenan gure plataformako erabiltzaile guztien pribatutasuna babesteko eta datu pertsonalak nola tratatzen ditugun guztiz garden izateko konpromisoa hartzen dugu. Pribatutasun-politika honek Edena Software S.L.-ren datu-tratamendu praktikak deskribatzen ditu Edena plataformaren eta webgune honen erabilerari dagokionez, (EB) 2016/679 Erregelamenduarekin (DBEB), abenduaren 5eko 3/2018 Lege Organikoarekin (LOPDGDD) eta uztailaren 11ko 34/2002 Legearekin (LSSI) bat etorriz.<br>
+Edenan konpromisoa hartzen dugu erabiltzaile guztien pribatutasuna babesteko eta datu pertsonalak nola tratatzen ditugun erabat gardenak izateko. Pribatutasun-politika honek Edena Software S.L.-ren datu-tratamenduaren jardunbideak deskribatzen ditu, gure hezkuntza-plataformaren eta webgune honen erabilerari dagokienez, honako hauekin bat etorriz: (EB) 2016/679 Erregelamendua (RGPD), abenduaren 5eko 3/2018 Lege Organikoa (LOPDGDD) eta uztailaren 11ko 34/2002 Legea (LSSI).<br>
 <br>
-Edena hezkuntza-zentroetarako (ikastetxe, haur-eskola, akademia eta hezkuntza-taldeetarako) diseinatutako kudeaketa-plataforma integrala da. Adingabeen, ikasleen eta familien datuak kudeatzen dituen plataforma gisa, pribatutasun eta segurtasun berme onenak aplikatzen ditugu.<br>
+Edena hezkuntza-kudeaketarako plataforma integral bat da, ikastetxeentzat diseinatua. Eskola-eremuko datuak prozesatzen dituen plataforma gisa, pribatutasun- eta segurtasun-berme zorrotzak aplikatzen ditugu.<br>
 <br>
 2. TRATAMENDUAREN ARDURADUNA<br>
-Sozietate-izena: Edena Software S.L.<br>
-IFK/NAN: B27627462<br>
-DUNS: 373964745<br>
+Sozietatearen izena: Edena Software S.L.<br>
+IFK/NIF: B27627462<br>
 Helbidea: Bartzelona, Espainia<br>
 Posta elektronikoa: privacidad@edena.es<br>
 Webgunea: www.edena.es<br>
 <br>
-3. DATU-BABESEKO ORDEZKARIA (DBO)<br>
-Edenak Datu-babeseko Ordezkaria (DBO) izendatu du, datu-babeseko araudiaren betetzea gainbegiratzeko arduraduna. Gure DBOarekin edozein unetan harremanetan jar zaitezke helbide honetan: privacidad@edena.es<br>
+3. DATUAK BABESTEKO ORDEZKARIA (DBO)<br>
+Edenak Datuak Babesteko Ordezkari bat izendatu du araudiaren betetzea gainbegiratzeko. Gure DBOrekin harremanetan jar zaitezke edozein unetan, helbide honen bidez: dpo@edena.es.<br>
 <br>
-4. PLATAFORMAKO ERABILTZAILEAK ETA TRATATUTAKO DATUAK<br>
-Edenak erabiltzaile-kategoria ezberdinei zerbitzuak eskaintzen dizkie, bakoitzak datu-tratamendu espezifikoa duelarik:<br>
+4. ERABILTZAILEAK ETA TRATATUTAKO DATUAK<br>
+Edenak bi ingurune bereizitan tratatzen ditu datuak:<br>
 <br>
-4.1 Hezkuntza-zentroko administratzaileak eta langileak<br>
-Datuak: izen-abizenak, NAN/AIZ, kargua, posta elektroniko korporatiboa, telefono-zenbakia, sarbide-datuak eta plataformako jardueraren erregistroa.<br>
-Xedea: zentroarekin kontratu-harremanaren kudeaketa, plataformaren sarbidea eta administrazioa, komunikazio operatiboa eta laguntza teknikoa.<br>
+A. Webguneko erabiltzaileak eta lead-ak (Edena arduradun gisa)<br>
+Datuak: izena, posta elektronikoa, telefonoa, ikastetxearen izena eta nabigazio-datuak (IP anonimizatua).<br>
+Helburua: informazio-eskaerak erantzutea, softwarearen demoen bidalketa kudeatzea eta webgunearen erabilera aztertzea.<br>
 <br>
-4.2 Irakasleak eta tutorea akademikoak<br>
-Datuak: izen-abizenak, posta elektronikoa, sarbide-datuak, esleitutako irakasgaiak edo taldeak, sartutako kalifikazioak eta familiekin komunikazioak.<br>
-Xedea: hezkuntza-zerbitzuaren eskaintza, familiekin komunikazioa, kalifikazioen kudeaketa eta asistentziaren kontrola.<br>
+B. ERP plataformako erabiltzaileak (Edena tratamenduaren eragile gisa)<br>
+Ikastetxeek sartutako datuei dagokienez (administratzaileak, irakasleak, familiak eta ikasleak), ikastetxea da tratamenduaren arduraduna, eta Edenak tratamenduaren eragile gisa soilik jarduten du, zentroaren jarraibideei jarraituz, horretarako sinatutako kontratu baten bidez (RGPDren 28. art.).<br>
+Barnean kudeatutako datuak: identifikazio-datuak, datu akademikoak, komunikaziokoak, zentroaren fakturaziokoak eta funtsezko osasun-datuak (alergiak edo behar bereziak), ikastetxearen erantzukizunpean sartuak.<br>
 <br>
-4.3 Familiak eta legezko tutoreak<br>
-Datuak: izen-abizenak, posta elektronikoa, telefono-zenbakia, ikasleekin harremana, ordainketa-datuak (PCI DSS ziurtatutako hornitzaileen bidez kudeatuak), komunikazio-historia eta dokumentu erantsiak.<br>
-Xedea: zentro-familia komunikazioa, ordainketa eta fakturazio-kudeaketa, ikaslearen espedientera sarbidea eta hezkuntza-jarraipena.<br>
+5. HELBURUAK ETA OINARRI JURIDIKOA<br>
+- Eskaerak eta demoak erantzutea: kontratu aurreko neurrien exekuzioa (RGPDren 6.1.b art.).<br>
+- Merkataritza-komunikazioak bidaltzea: erabiltzailearen berariazko baimena (RGPDren 6.1.a art.), edozein unetan ezezta daitekeena.<br>
+- ERP zerbitzua ematea: ikastetxearekiko kontratuaren exekuzioa (RGPDren 6.1.b art.).<br>
+- Plataforma hobetzea: softwarearen segurtasuna eta tresnak optimizatzeko interes legitimoa (RGPDren 6.1.f art.).<br>
 <br>
-4.4 Ikasleak<br>
-Datuak: izen-abizenak, jaiotze-data, argazkia (aukerakoa, berariazko adostasunarekin), datu akademikoak (kalifikazioak, asistentzia, bilakaera) eta osasun-datu garrantzitsuak (alergiak, hezkuntza-premia bereziak) zentroak edo familiak berariaz ematen dituztenean.<br>
-Xedea: ikaslearen kudeaketa akademikoa eta espedientea, hezkuntza-komunikazioa eta ikasleen aurrerapenaren jarraipena.<br>
+6. ADINGABEEN DATUEN TRATAMENDUA<br>
+RGPDren 8. artikulua eta LOPDGDDren 7. artikulua betez, ikastetxeek, tratamenduaren arduradun gisa, gurasoen edo legezko tutoreen baimena biltzen dute 14 urtetik beherakoen datuak tratatzeko, plataforman sartu aurretik. Edenak ez ditu inoiz adingabeen datuak erabiltzen bezero den zentroaren hezkuntza-kudeaketa hutsetik kanpoko inolako helburutarako.<br>
 <br>
-4.5 Webguneko bisitariak<br>
-Datuak: nabigazioko datuak, IP helbidea (anonimizatua), bisitatutako orriak, saioaren iraupena eta kontaktu edo demo-eskaerako formularioen datuak (izena, posta elektronikoa, zentroaren izena, mezua).<br>
-Xedea: webgunearen erabileraren analisia, erabiltzailearen esperientziaren hobekuntza eta informazio-eskaerak artatzea.<br>
+7. DATUEN KONTSERBAZIOA<br>
+- Eskaeren/kontaktuen datuak: eskaera erantzuteko behar den denboran gordeko dira eta, kontrataziorik ez badago, gehienez 24 hilabeteko epean ezabatuko dira.<br>
+- Bezeroen kontratu-datuak: kontratuak irauten duen bitartean gordeko dira eta, amaitu ondoren, erantzukizunen preskripziorako legezko epeetan (6 urte, merkataritza-/zerga-araudiaren arabera).<br>
+- Nabigazio-datuak/logak: gehienez 12 hilabete.<br>
 <br>
-5. TRATAMENDUAREN XEDEAK ETA OINARRI JURIDIKOA<br>
-a) Kontratuaren kudeaketa eta zerbitzuaren eskaintza. Oinarria: kontratuaren betearazpena (6.1.b art. DBEB).<br>
-b) Kudeaketa akademikoa eta ikasleen espedienteak. Oinarria: kontratuaren betearazpena / zentroko interes legitimoa (6.1.b eta 6.1.f art. DBEB).<br>
-c) Zentroa eta familien arteko komunikazioa. Oinarria: kontratuaren betearazpena / interes legitimoa (6.1.b eta 6.1.f art. DBEB).<br>
-d) Fakturaketa eta ordainketen kudeaketa. Oinarria: kontratuaren betearazpena / betebehar legala (6.1.b eta 6.1.c art. DBEB).<br>
-e) Edenari buruzko komunikazio komertzialen bidalketa. Oinarria: adostasuna (6.1.a art. DBEB). Edozein unetan erreboka daiteke.<br>
-f) Zerga, lan eta merkataritza-betebehar legalen betetzea. Oinarria: betebehar legala (6.1.c art. DBEB).<br>
-g) Plataformaren hobekuntza eta analisi estatistiko anonimizatua. Oinarria: interes legitimoa (6.1.f art. DBEB).<br>
+8. HARTZAILEAK ETA TRANSFERENTZIAK<br>
+Edenak ez ditu datu pertsonalak saltzen, ezta hirugarrenei lagatzen ere. Datuak honako hauei soilik komunikatzen zaizkie:<br>
+- Cloud azpiegitura eta datu-biltegiratzeko hornitzaileei, tratamenduaren eragile gisa jarduten dutenei, RGPDa betetzen duten kontratu zorrotzen pean.<br>
+- Ordainketa-pasabide ziurtatuei (PCI-DSS), plataformako kobrantzak kudeatzeko.<br>
+- Agintari publikoei, legezko betebeharra dagoenean.<br>
 <br>
-6. TRATAMENDU BEREZIA: ADINGABEEN DATUAK<br>
-Edena guztiz jabetzen da adingabeen datu pertsonalen tratamenduak berekin dakartzan berezitasunez. DBEBren 8. artikuluaren eta LOPDGDDren 7. artikuluaren arabera:<br>
+Gure azpiegitura nagusi guztia eta biltegiratze-zerbitzariak Europako Esparru Ekonomikoaren (EEE) barruan daude.<br>
 <br>
-- Hezkuntza-zentroak, beren ikasleen datuen tratamenduaren arduradunak izanik, dira 14 urtetik beherako adingabeen datuen tratamendurako gurasoei edo legezko tutoreei adostasuna eskatzeaz arduratu behar direnak.<br>
-- Edena hezkuntza-zentroak sartutako ikasleen datuen tratamendu-enkargatu gisa jarduten du, zentroaren argibideen arabera.<br>
-- Osasun-datuak eta ikasleen datu-kategoria bereziak (9. art. DBEB) soilik tratatzen dira zentroak berariaz sartzen dituenean eta oinarri juridiko espezifiko bat dagoenean (adostasun esplizitua edo hezkuntza-zerbitzua eskaintzeko beharra).<br>
-- Edenak ez ditu adingabeen datuak zentroko kudeaketa eta hezkuntza-xedeetatik haratagoko xedeetarako erabiltzen.<br>
+9. INTERESDUNEN ESKUBIDEAK<br>
+Erabiltzaileek datuetara sartzeko, zuzentzeko, ezabatzeko, aurka egiteko, mugatzeko eta eramangarritasunerako eskubideak balia ditzakete, dpo@edena.es helbidera mezu elektroniko bat bidaliz eta beren nortasuna behar bezala egiaztatuz. Zure eskubideak behar bezala erantzun ez direla uste baduzu, erreklamazioa aurkez dezakezu Datuak Babesteko Espainiako Agentzian (www.aepd.es).<br>
 <br>
-7. DATUEN GORDETZEA<br>
-Datuak bildu zireneko xederako beharrezkoa den denbora tartean gordeko dira eta, nolanahi ere, legez ezarritako epeetan zehar:<br>
+10. SEGURTASUN-NEURRIAK ETA ESTANDARRAK<br>
+Edenak neurri tekniko eta antolakuntzakoak aplikatzen ditu informazioaren segurtasuna bermatzeko:<br>
+- Datuen zifratzea bidean, SSL/TLS (HTTPS) protokoloen bidez, eta datuak zifratuta atsedenean.<br>
+- Roletan oinarritutako sarbide-kontrol murriztua (pribilegio minimoa).<br>
+- Aldizkako segurtasun-kopiak eta datuak berreskuratzeko sistemak.<br>
+- Azpiegitura ziurtatua: gure plataforma lehen mailako hornitzaileen datu-zentroetan ostatatzen da, eta hornitzaile horien azpiegiturak nazioarteko segurtasun-ziurtagiriak ditu, hala nola ISO/IEC 27001 eta SOC 2 auditoretzak, informazioaren erabilgarritasun eta babes fisikorako estandar gorenak bermatuz.<br>
 <br>
-- Kontratu eta fakturazio-datuak: 6 urte (zerga eta merkataritza-betebeharra).<br>
-- Komunikazio komertzialeko datuak: adostasuna errebokatu arte.<br>
-- Ikasleen espedienteak: zentroarekin harremana irauten duen bitartean eta, bajaren ondoren, erantzukizun posibleen preskripzio-epean zehar (gehienez 5 urte).<br>
-- Plataformako sarbide eta jarduera-erregistroak: gehienez 12 hilabete.<br>
-- Webguneko bisitarien datuak: aplikagarria den cookie-politikaren arabera.<br>
-<br>
-Epe hauek igaro ondoren, datuak era itzulezinean ezabatu edo anonimizatu egingo dira.<br>
-<br>
-8. HARTZAILEAK ETA TRATAMENDU-ENKARGATU​AK<br>
-Edenak ez ditu datu pertsonalak saltzen edo xede komertzialekin hirugarrenei lagaten. Datuak soilik honako hauei komunikatu ahal zaizkie:<br>
-<br>
-- DBEB betetzen duten kontratuen pean tratamendu-enkargatu gisa jarduten duten teknologia eta cloud azpiegitura hornitzaileak (hosting, datu-baseak).<br>
-- Kobrantzak eta fakturazio-kudeaketa egiteko ziurtatutako ordainketa-zerbitzu hornitzaileak (PCI DSS).<br>
-- Zerbitzu-analisi eta monitorizazio hornitzaileak, beti modu anonimizatu edo agregatuan.<br>
-- Agintaritza eta erakunde publikoak, soilik lege-betebeharrak betetzeko.<br>
-<br>
-Gure hornitzaile guztiak DBEBren betetzea bermatzen duten konfidentzialtasun-hitzarmenen eta tratamendu-enkarguen kontratuen mende daude.<br>
-<br>
-9. NAZIOARTEKO DATU-TRANSFERENTZIAK<br>
-Oro har, datuak Europako Ekonomia Eremuan (EEE) kokatutako zerbitzarietan gordetzen dira. EEEtik kanpoko nazioarteko transferentzia bat beharrezkoa den salbuespenezko kasuetan, Edenak DBEBn aurreikusitako babes-neurri egokiak hartzen direla bermatzen du, hala nola Europako Batzordeak onartutako kontratu-klausula estandarrak edo egokitasun-erabaki baten existentzia.<br>
-<br>
-10. INTERESDUNEN ESKUBIDEAK<br>
-DBEB eta LOPDGDDren arabera, erabiltzaileek eskubide hauek erabil ditzakete:<br>
-<br>
-- Sarbide-eskubidea: zuretzat tratatzen ditugun datu pertsonalak jakiteko.<br>
-- Zuzenketa-eskubidea: datu okerrak edo osatugabeak zuzentzeko.<br>
-- Ezabatze-eskubidea ("ahazteko eskubidea"): zure datuak ezabatzea eskatzeko, bildu ziren xederako beharrezkoak ez direnean.<br>
-- Aurkaritza-eskubidea: zure datuen tratamenduaren aurka egiteko zenbait kasutan.<br>
-- Tratamenduaren mugaketa-eskubidea: araudiak aurreikusitako zenbait kasutan tratamendua mugatzea eskatzeko.<br>
-- Eramangarritasun-eskubidea: zure datuak egitura-formatuan, erabilera arrunteko eta mekanikoki irakurgarrian jasotzeko.<br>
-- Adostasuna erretiratzeko eskubidea: edozein unetan, aurreko tratamenduaren zilegitasuna eragotzi gabe.<br>
-- Eragin juridiko esanguratsua duten erabaki automatizatuen xede ez izateko eskubidea.<br>
-<br>
-Eskubide hauetako edozein erabiltzeko, bidali eskaera bat privacidad@edena.es helbidera zure izen-abizenak eta nortasun-agiriaren kopia adieraziz. Hilabete gehieneko epean erantzungo dugu.<br>
-<br>
-Zure eskubideak behar bezala ez direla bete uste baduzu, Espainiako Datu-babeseko Agentzian (AEPD) erreklamazio bat aurkeztu dezakezu, www.aepd.es.<br>
-<br>
-11. SEGURTASUN-NEURRIAK ETA BETETZE-ESTANDARRAK<br>
-Edenak neurri tekniko eta antolaketa-neurri egokiak ezartzen ditu arriskuaren araberako segurtasun-maila egokia bermatzeko, besteak beste:<br>
-<br>
-- Transito bidezko (TLS/HTTPS) eta gordetako datuen zifratzea.<br>
-- Roletan oinarritutako sarbide-kontrola eta gutxieneko pribilegioaren printzipioa.<br>
-- Autentifikazio segurua eta saio-kudeaketa.<br>
-- Etengabeko monitorizazioa eta segurtasun-intzidentziaren detekzioa.<br>
-- Aldizkako babeskopiak eta hondamendi aurreko berreskuratze-planak.<br>
-- Taldearen aldizkako prestakuntza datu-babeserako eta zibersegurtasunerako.<br>
-- Arrisku handiko tratamenduentzako inpaktu-ebaluazioak (DPIA).<br>
-<br>
-Interesdunen eskubide eta askatasunak eragiten dituen segurtasun-arauhauste bat gertatuz gero, Edenak 72 orduko epean jakinaraziko dio kontrol-agintaritzari eta, beharrezkoa bada, kaltetutakoei ere jakinaraziko die.<br>
-<br>
-Osasun-informazio Babestua (PHI) eragiten duen arau-hauste batek HIPAA araudiaren mende dagoenean, Edenak gainera HIPAA arau-hauste jakinarazpen prozedurak jarraituko ditu (45 CFR §§ 164.400–414).<br>
-<br>
-Edenak segurtasun-estandar hauek betetzen ditu eta dagokion kontrolak ezarri ditu:<br>
-<br>
-- SOC 2 Type II (AICPA): Edenaren kontrolak eta prozesuak SOC 2 Type II markoaren arabera diseinatuta daude (segurtasuna, erabilgarritasuna, konfidentzialtasuna, prozesatzeko osotasuna eta pribatutasuna). Kontrolen dokumentazioa NDA baten pean eskuragarri dago eskatzen duten bezeroei privacidad@edena.es helbidean.<br>
-- ISO/IEC 27001: Edenak ISO/IEC 27001 araudiaren eskakizunekin lerrokatutako Informazio-segurtasunaren kudeaketa-sistema (ISKS) ezartzen du, etengabeko hobekuntzapeko prozesu dokumentatuekin.<br>
-- HIPAA (45 CFR Part 164 neurri tekniko, administratibo eta fisikoak PHIrako), GDPR/LOPDGDD (betetze osoa).<br>
-<br>
-12. DATUEN ZEHAZTASUNA ETA EGIAZKOTASUNA<br>
-Erabiltzaileak egiazkoak, zehatzak eta eguneratutako datuak emateko konpromisoa hartzen du. Edena ez da erabiltzaileak emandako datu zehaztugabe edo faltsuen erabileratik eratorri litezkeen kalteen erantzule izango. Datuak aldatzen badira, erabiltzaileak ahalik azkarren jakinarazi beharko du privacidad@edena.es helbidera.<br>
-<br>
-13. POLITIKA HONEN ALDAKETAK<br>
-Edenak Pribatutasun-politika hau eguneratu ahal izango du lege-aldaketetara, kontrol-agintarien ebazpenetara edo plataformako aldaketetara egokitzeko. Aldaketak nabarmenak direnean, erabiltzaileei posta elektronikoaren bidez edo plataformako ohartarazpen nabarmen baten bidez jakinaraziko zaie. Dokumentu honen hasieran agertzen den azken eguneraketa-data beti indarreko bertsioa islatzen du.<br>
-<br>
-14. HARREMANA ETA ERREKLAMAZIOAK<br>
-Zure datu pertsonalen tratamenduari buruzko edozein kontsulta, eskaera edo erreklamaziorengatik, gure Datu-babeseko Ordezkariarengana jar zaitezke:<br>
-Posta elektronikoa: privacidad@edena.es<br>
-<br>
-Kontrol-agintaritza eskudunaren aurrean erreklamazioak egiteko:<br>
-Espainiako Datu-babeseko Agentzia (AEPD)<br>
-C/ Jorge Juan, 6, 28001 Madrid<br>
-www.aepd.es<br>
-<br>
-15. HIPAA: NEGOZIO-LAGUNTZAILEAREN HITZARMENA (BAA)<br>
-Edenak HIPAA araudiaren (45 CFR § 160.103) mende dagoen Osasun-informazio Babestua (PHI) hezkuntza-zentro baten izenean tratatzen duenean, Edena Negozio-Laguntzaile gisa jarduten du.<br>
-<br>
-Hezkuntza-zentroak Plataforman PHI tratatu aurretik Edenarekin Negozio-Laguntzailearen Hitzarmena (BAA) sinatu behar du (45 CFR § 164.504(e)).<br>
-<br>
-BAA eskatzeko: privacidad@edena.es, osasun-datuen izaera eta zerbitzu-esparrua zehaztuz.<br>
-<br>
-Espainiako/EBko legedipean (alergiak, hezkuntza-premia bereziak) ikasleen osasun-datuak GDPRren 9. artikuluaren arabera kategoria berezietako datuak dira eta adostasun esplizituan edo hezkuntza-zerbitzuaren beharrean oinarrituta tratatzen dira.`,
+11. ALDAKETAK<br>
+Pribatutasun-politika hau eguneratu ahal izango dugu, legegintza-berrikuntzetara edo softwarearen aldaketetara egokitzeko. "Azken eguneraketa" datak beti islatuko du indarrean dagoen bertsioa.`,
     },
     termsOfService: {
         title: "Erabileraren baldintzak",
-        content: `Azken eguneraketa: 2026ko ekainaren 2a<br>
+        content: `Azken eguneraketa: 2026ko uztailaren 15a<br>
 <br>
 1. XEDEA ETA ONARTZEA<br>
 Erabilera Baldintza hauek (hemendik aurrera, "Baldintzak") Edena plataformara (hemendik aurrera, "Plataforma") sarbidea eta haren erabilera arautzen dituzte; plataforma Edena Software S.L. (IFK: B27627462; DUNS: 373964745)-ren (hemendik aurrera, "Edena") jabetzakoa da. Plataforman erregistratzean, hara sartzerakoan edo erabiltzean, erabiltzaileak edo hezkuntza-zentroak (hemendik aurrera, "Bezeroa") indarreko Baldintzak onartzea onartzen du.<br>
@@ -1666,16 +1583,10 @@ Baldintza eta Kondizio hauei buruzko edozein kontsultarengatik:<br>
 Posta elektronikoa: privacidad@edena.es<br>
 Webgunea: www.edena.es<br>
 <br>
-15. SEGURTASUN-ESTANDARRAK ETA HIPAA NEGOZIO-LAGUNTZAILEAREN HITZARMENA (BAA)<br>
-15.1 Aplikatutako segurtasun-estandarrak eta esparruak<br>
-Edenak ondorengo segurtasun-estandarrak eta esparruak betetzen ditu:<br>
-- SOC 2 Type II (AICPA): Edenaren kontrolak SOC 2 Type II markoaren arabera diseinatuta daude. Dokumentazioa NDA baten pean eskuragarri eskaeraren arabera.<br>
-- ISO/IEC 27001: Edenak ISO/IEC 27001 araudiaren eskakizunekin lerrokatutako ISKS bat ezartzen du.<br>
-- HIPAA: 45 CFR Part 164 PHIrako babes-neurri tekniko, administratibo eta fisikoak.<br>
-- GDPR/LOPDGDD: Edenaren Pribatutasun-politikan xehatutako betetze osoa.<br>
+15. SEGURTASUN-ESTANDARRAK<br>
 <br>
-15.2 BAA (HIPAA):<br>
-Bezeroa PHI tratatzen duen estaldutako entitate edo Negozio-Laguntzaile bat denean (45 CFR § 160.103) Plataforman, tratamendua hasi aurretik BAA (45 CFR § 164.504(e)) sinatu behar da. Kontaktua: privacidad@edena.es. Erantzuna 5 egun balioduneko epean.`,
+Edenak neurri tekniko eta antolakuntzako egokiak aplikatzen ditu Bezeroaren datuak babesteko, besteak beste, datuen zifratzea bidean eta atsedenean, roletan oinarritutako sarbide-kontrola eta aldizkako segurtasun-kopiak.<br>
+Plataforma lehen mailako azpiegitura-hornitzaileen datu-zentroetan ostatatzen da, eta hornitzaile horien azpiegiturak nazioarteko segurtasun-ziurtagiriak ditu, hala nola ISO/IEC 27001 eta SOC 2 auditoretzak. RGPD eta LOPDGDD araudien betetzea Edenaren Pribatutasun-politikan zehazten da.`,
     },
     cookiePolicy: {
         title: "Cookie-politika",
