@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import gdpr from "@/assets/img/certifications/gdpr.svg";
 
 export type ComplianceBadgeId = "gdpr";
@@ -18,9 +17,9 @@ const svgAssets = {
 
 {
     (
-        <Image
-            src={svgAssets[id]}
-            alt=""
+        <img
+            src={svgAssets[id].src}
+            alt="gdpr badge"
             class={className}
             aria-hidden="true"
             loading="lazy"
