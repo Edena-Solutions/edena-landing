@@ -97,6 +97,7 @@ export async function GET() {
         { segment: "privacy/", priority: "0.5", changefreq: "yearly" },
         { segment: "terms/", priority: "0.5", changefreq: "yearly" },
         { segment: "cookies/", priority: "0.5", changefreq: "yearly" },
+        { segment: "data-processing/", priority: "0.5", changefreq: "yearly" },
     ];
 
     const buildLocaleStaticUrls = (
@@ -319,6 +320,13 @@ export async function GET() {
             hreflangLinks: buildHreflang("cookies/"),
         },
         {
+            path: "/data-processing/",
+            priority: "0.5",
+            changefreq: "yearly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("data-processing/"),
+        },
+        {
             path: "/es/",
             priority: "0.9",
             changefreq: "weekly",
@@ -446,6 +454,13 @@ export async function GET() {
             changefreq: "yearly",
             lastmod: currentDate,
             hreflangLinks: buildHreflang("cookies/"),
+        },
+        {
+            path: "/es/data-processing/",
+            priority: "0.5",
+            changefreq: "yearly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("data-processing/"),
         },
         {
             path: "/en/",
@@ -603,6 +618,13 @@ export async function GET() {
             changefreq: "yearly",
             lastmod: currentDate,
             hreflangLinks: buildHreflang("cookies/"),
+        },
+        {
+            path: "/en/data-processing/",
+            priority: "0.5",
+            changefreq: "yearly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("data-processing/"),
         },
     ];
 

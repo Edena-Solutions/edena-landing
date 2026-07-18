@@ -58,6 +58,9 @@ export default {
         cookiesTitle: "Política de Cookies | Software de Gestión Escolar Edena",
         cookiesDescription:
             "Entiende cómo Edena usa cookies para mejorar tu experiencia con nuestra plataforma de gestión escolar. Aprende sobre tipos de cookies, uso y tus opciones de privacidad.",
+        dpaTitle: "Acuerdo de Tratamiento de Datos | Software de Gestión Escolar Edena",
+        dpaDescription:
+            "Acuerdo de encargo de tratamiento conforme al art. 28 del RGPD entre Edena y los centros educativos: instrucciones, seguridad, subencargados, asistencia y derechos de los interesados.",
         nurseryTitle:
             "Software para Escuelas Infantiles | App Familias, Fotos y Facturación Automática | Edena",
         nurseryDescription:
@@ -118,6 +121,7 @@ export default {
         privacyPolicy: "Política de Privacidad",
         termsOfService: "Términos de Servicio",
         cookiePolicy: "Política de Cookies",
+        dpa: "Acuerdo de Tratamiento de Datos",
         description:
             "Edena es la plataforma de gestión escolar que elimina el papeleo, automatiza la facturación y mantiene a las familias informadas para que tu equipo pueda centrarse en lo que importa: la educación.",
         allRightsReserved: "Todos los derechos reservados.",
@@ -1590,78 +1594,111 @@ La Plataforma se aloja en centros de datos de proveedores de infraestructura de 
     },
     cookiePolicy: {
         title: "Política de Cookies",
-        content: `Última actualización: 2 de junio de 2026<br>
+        content: `Última actualización: 18 de julio de 2026<br>
 <br>
 1. ¿QUÉ SON LAS COOKIES?<br>
-Las cookies son pequeños archivos de texto que los sitios web almacenan en el dispositivo del usuario (ordenador, tablet, smartphone) cuando este los visita. Permiten al sitio recordar las preferencias del usuario, analizar el comportamiento de navegación, mejorar la experiencia de uso y, en ciertos casos, mostrar publicidad personalizada.<br>
+Las cookies son pequeños archivos de texto que los sitios web almacenan en el dispositivo del usuario (ordenador, tablet, smartphone) cuando este los visita. Junto a las cookies existen tecnologías similares, como el almacenamiento local del navegador (localStorage), que utilizamos con las mismas finalidades y a las que también se aplica esta política.<br>
 <br>
-2. ¿QUIÉN ES EL RESPONSABLE DEL USO DE COOKIES EN ESTE SITIO?<br>
-El responsable del sitio web www.edena.es y del uso de cookies es Edena Software S.L. (CIF: B27627462). Para cualquier consulta relacionada con esta política, puede contactar con nosotros en privacidad@edena.es.<br>
+2. RESPONSABLE Y ÁMBITO DE APLICACIÓN<br>
+El responsable del uso de cookies es Edena Software S.L. (CIF: B27627462). Para cualquier consulta relacionada con esta política, puede contactar con nosotros en privacidad@edena.es.<br>
 <br>
-3. TIPOS DE COOKIES QUE UTILIZAMOS<br>
-En función de su finalidad, las cookies que puede encontrar en nuestro sitio web se clasifican de la siguiente manera:<br>
+Esta política cubre todos los servicios de Edena:<br>
+- El sitio web www.edena.es.<br>
+- La aplicación web de la plataforma (app.edena.es).<br>
+- La aplicación móvil Edena Kids (iOS y Android).<br>
 <br>
-3.1 Cookies técnicas o estrictamente necesarias<br>
-Son imprescindibles para el correcto funcionamiento del sitio web. Permiten al usuario navegar y utilizar las diferentes funcionalidades, como iniciar sesión, recordar preferencias de idioma o mantener la sesión activa. Sin estas cookies, algunos servicios pueden no funcionar correctamente. No requieren el consentimiento del usuario.<br>
+3. COOKIES EN EL SITIO WEB (www.edena.es)<br>
+3.1 Almacenamiento técnico (necesario)<br>
+- edena-cookie-consent: registro de su decisión sobre las cookies (almacenamiento local; se conserva hasta que borre los datos de navegación). No requiere consentimiento.<br>
 <br>
-3.2 Cookies de preferencias o personalización<br>
-Permiten recordar información para que el usuario acceda al servicio con determinadas características que diferencian su experiencia de la de otros usuarios, como el idioma, la región o el tema visual preferido.<br>
+3.2 Cookies de análisis o medición (solo con su consentimiento)<br>
+Utilizamos Google Analytics 4 y Google Tag Manager para medir el tráfico y mejorar la web. Estas cookies solo se activan si acepta la analítica en el banner de cookies:<br>
+- _ga y _ga_*: Google Analytics (distinción de usuarios y sesiones; duración: hasta 2 años).<br>
+No utilizamos cookies de publicidad ni de perfilado publicitario: esa categoría permanece siempre desactivada.<br>
 <br>
-3.3 Cookies de análisis o medición<br>
-Permiten al responsable del sitio web llevar el seguimiento y análisis del comportamiento de los usuarios. La información recogida se utiliza para medir la actividad del sitio web y elaborar estadísticas de navegación con el fin de mejorar la experiencia del usuario y los contenidos ofrecidos. En ningún caso se utiliza esta información con fines publicitarios individualizados.<br>
+4. ALMACENAMIENTO EN LA PLATAFORMA (app.edena.es)<br>
+La aplicación web de Edena utiliza únicamente almacenamiento técnico, imprescindible para el funcionamiento del servicio:<br>
+- Sesión de autenticación: credenciales gestionadas por nuestro proveedor de identidad para mantener su sesión iniciada de forma segura.<br>
+- Preferencias de uso: idioma, tema visual y organización activa.<br>
+- edena_cookie_consent: registro de su decisión sobre las cookies.<br>
+Actualmente la plataforma no utiliza cookies de analítica ni de publicidad. Si en el futuro se incorporara analítica, solo se activaría con su consentimiento previo a través del banner de la propia plataforma.<br>
 <br>
-3.4 Cookies de marketing o publicidad comportamental<br>
-Permiten gestionar los espacios publicitarios del sitio web con base en el perfil de navegación del usuario. Recuerdan visitas al sitio y rastrean el comportamiento de navegación para mostrar anuncios relevantes en otros sitios web.<br>
+5. APLICACIÓN MÓVIL EDENA KIDS<br>
+La aplicación móvil no utiliza cookies. Únicamente guarda en el almacenamiento local del dispositivo los datos técnicos imprescindibles para su funcionamiento (sesión de usuario y preferencias), que se eliminan al cerrar sesión o desinstalar la aplicación.<br>
 <br>
-3.5 Cookies de terceros<br>
-Son cookies instaladas por servicios externos que aparecen en nuestras páginas. Los principales terceros que pueden instalar cookies al visitar nuestro sitio son:<br>
-- Google Analytics (análisis de uso y estadísticas de tráfico)<br>
-- Google Tag Manager (gestión de etiquetas de seguimiento)<br>
-- Hotjar (mapas de calor y análisis de comportamiento)<br>
-- Intercom o similar (soporte al cliente y chat)<br>
-Cada uno de estos proveedores tiene sus propias políticas de privacidad y cookies. Te recomendamos consultarlas directamente en sus sitios web.<br>
+6. ¿CÓMO PUEDO GESTIONAR O DESACTIVAR LAS COOKIES?<br>
+En su primera visita al sitio web y a la plataforma le mostramos un banner donde puede aceptar o rechazar las cookies no esenciales. Su elección queda registrada y puede cambiarla en cualquier momento borrando los datos de navegación, lo que hará que el aviso vuelva a mostrarse.<br>
 <br>
-4. TABLA DE COOKIES UTILIZADAS<br>
-A continuación se detallan las principales cookies utilizadas en este sitio:<br>
-<br>
-- _ga / _gid: Google Analytics (análisis de uso; duración: hasta 2 años).<br>
-- _gat: Google Analytics (control de frecuencia de solicitudes; duración: 1 minuto).<br>
-- edena_session: sesión de usuario (autenticación; duración: sesión).<br>
-- edena_lang: preferencia de idioma (personalización; duración: 1 año).<br>
-- edena_theme: preferencia de tema visual (personalización; duración: 1 año).<br>
-- cookie_consent: registro del consentimiento de cookies (necesaria; duración: 1 año).<br>
-- _hjid: Hotjar (identificación de usuario para análisis de comportamiento; duración: 1 año).<br>
-<br>
-5. ¿CÓMO PUEDO GESTIONAR O DESACTIVAR LAS COOKIES?<br>
-El usuario puede, en cualquier momento, aceptar, rechazar o retirar su consentimiento al uso de cookies a través del panel de preferencias de cookies disponible en nuestro sitio web (botón "Gestionar cookies" en el pie de página).<br>
-<br>
-Además, la mayoría de los navegadores permiten controlar las cookies a través de su configuración. A continuación encontrará instrucciones para los navegadores más comunes:<br>
+Además, la mayoría de los navegadores permiten controlar las cookies a través de su configuración:<br>
 - Google Chrome: Configuración > Privacidad y seguridad > Cookies y otros datos de sitios.<br>
 - Mozilla Firefox: Opciones > Privacidad y seguridad > Cookies y datos del sitio.<br>
 - Safari: Preferencias > Privacidad > Gestionar datos de sitios web.<br>
 - Microsoft Edge: Configuración > Privacidad, búsqueda y servicios > Cookies.<br>
-<br>
-Tenga en cuenta que desactivar determinadas cookies puede afectar al correcto funcionamiento del sitio web o impedir el acceso a algunas funcionalidades.<br>
-<br>
-6. CONSENTIMIENTO<br>
-En su primera visita a nuestro sitio web, le mostramos un banner informativo donde puede aceptar, rechazar o configurar el uso de cookies no estrictamente necesarias. Su elección queda registrada y respetada en visitas posteriores.<br>
-<br>
-Las cookies estrictamente necesarias no requieren consentimiento previo y se instalan automáticamente al acceder al sitio. El resto de cookies (análisis, marketing, preferencias) solo se activan si usted da su consentimiento expreso.<br>
-<br>
-Puede revocar o modificar su consentimiento en cualquier momento accediendo al panel de preferencias de cookies disponible en el pie de página de nuestro sitio web.<br>
+Tenga en cuenta que desactivar el almacenamiento técnico puede impedir el funcionamiento de partes del servicio.<br>
 <br>
 7. TRANSFERENCIAS INTERNACIONALES<br>
-Algunos de los proveedores de cookies de terceros (como Google) pueden tratar datos en servidores ubicados fuera del Espacio Económico Europeo (EEE). En estos casos, dichos proveedores se rigen por mecanismos de transferencia adecuados conforme al GDPR (cláusulas contractuales tipo, decisiones de adecuación, etc.).<br>
+Google (Analytics y Tag Manager) puede tratar datos en servidores ubicados fuera del Espacio Económico Europeo (EEE). En estos casos, la transferencia se ampara en mecanismos válidos conforme al RGPD, como las Cláusulas Contractuales Tipo de la Comisión Europea o decisiones de adecuación.<br>
 <br>
 8. ACTUALIZACIONES DE ESTA POLÍTICA<br>
-Edena podrá actualizar esta Política de Cookies para adaptarla a cambios legislativos, nuevas funcionalidades del sitio o cambios en los servicios de terceros utilizados. La fecha de "última actualización" al inicio de este documento refleja siempre la versión vigente. Te recomendamos revisarla periódicamente.<br>
+Edena podrá actualizar esta Política de Cookies para adaptarla a cambios legislativos, del servicio o de los proveedores utilizados. La fecha de "última actualización" refleja siempre la versión vigente. Cuando el cambio sea relevante, volveremos a solicitar su consentimiento.<br>
 <br>
 9. MÁS INFORMACIÓN<br>
-Para cualquier consulta sobre el uso de cookies en nuestro sitio web, puede contactar con nosotros en:<br>
-Correo electrónico: privacidad@edena.es<br>
-Sitio web: www.edena.es<br>
+Para cualquier consulta sobre el uso de cookies puede escribirnos a privacidad@edena.es. Para más información sobre cookies y su gestión, puede consultar la guía de la Agencia Española de Protección de Datos (AEPD) en www.aepd.es.`,
+    },
+    dataProcessingAgreement: {
+        title: "Acuerdo de Tratamiento de Datos",
+        content: `Última actualización: 18 de julio de 2026<br>
 <br>
-Para más información sobre cookies y su gestión, puede consultar la guía publicada por la Agencia Española de Protección de Datos (AEPD) en www.aepd.es.`,
+1. OBJETO Y NATURALEZA DEL ACUERDO<br>
+Este Acuerdo de Tratamiento de Datos (en adelante, "el Acuerdo") regula el tratamiento de datos personales que Edena Software S.L. (CIF: B27627462; en adelante, "Edena") realiza por cuenta de la organización cliente en el marco de la prestación del servicio, conforme al artículo 28 del Reglamento (UE) 2016/679 (RGPD). El Acuerdo forma parte integrante de los Términos y Condiciones del servicio.<br>
+<br>
+A efectos de este Acuerdo, la organización cliente (el centro educativo) es la Responsable del Tratamiento y Edena actúa como Encargado del Tratamiento.<br>
+<br>
+2. NATURALEZA, FINALIDAD Y DURACIÓN DEL TRATAMIENTO<br>
+Edena tratará los datos personales facilitados o generados por el responsable únicamente para prestar los servicios de la plataforma (gestión de personas y expedientes, facturación, comunicaciones y funcionalidades asociadas), durante la vigencia de la relación contractual.<br>
+<br>
+3. INTERESADOS Y CATEGORÍAS DE DATOS<br>
+- Interesados: alumnos, familias y tutores, personal del centro y demás usuarios que el responsable gestiona en la plataforma.<br>
+- Categorías de datos: identificativos y de contacto, académicos, de facturación y, en su caso, datos de salud esenciales (alergias o necesidades especiales) introducidos bajo la responsabilidad del centro.<br>
+<br>
+4. INSTRUCCIONES DEL RESPONSABLE<br>
+Edena tratará los datos siguiendo exclusivamente las instrucciones documentadas del responsable, incluida la configuración y el uso que este hace de la plataforma, salvo que una norma de la Unión Europea o de un Estado miembro le obligue a otra cosa; en tal caso, Edena informará al responsable antes del tratamiento, salvo que dicha norma lo prohíba.<br>
+<br>
+5. CONFIDENCIALIDAD<br>
+Edena garantiza que las personas autorizadas para tratar los datos personales se han comprometido a respetar la confidencialidad o están sujetas a una obligación legal de confidencialidad.<br>
+<br>
+6. SEGURIDAD DEL TRATAMIENTO<br>
+Edena aplica medidas técnicas y organizativas apropiadas conforme al artículo 32 del RGPD, incluyendo cifrado de datos en tránsito y en reposo, control de acceso basado en roles (mínimo privilegio), aislamiento de datos entre organizaciones, copias de seguridad periódicas y registro de actividad.<br>
+<br>
+7. SUBENCARGADOS<br>
+El responsable autoriza a Edena a recurrir a los siguientes subencargados, que ofrecen garantías adecuadas de cumplimiento del RGPD:<br>
+- Supabase — base de datos y autenticación.<br>
+- Cloudflare R2 — almacenamiento de archivos.<br>
+- Google Cloud — alojamiento de la aplicación.<br>
+- Resend — envío de correos transaccionales.<br>
+Edena informará al responsable de cualquier cambio previsto en esta lista, dándole la posibilidad de oponerse.<br>
+<br>
+8. ASISTENCIA AL RESPONSABLE<br>
+Edena asistirá al responsable, teniendo en cuenta la naturaleza del tratamiento, para responder a las solicitudes de ejercicio de derechos de los interesados (acceso, rectificación, supresión, oposición, limitación y portabilidad), así como para cumplir las obligaciones de seguridad, notificación de violaciones de seguridad y evaluaciones de impacto.<br>
+La plataforma incorpora herramientas para exportar y anonimizar los datos de un interesado, permitiendo al responsable atender los derechos de acceso, portabilidad y supresión.<br>
+<br>
+9. DATOS DE MENORES DE EDAD<br>
+Corresponde al responsable, en su condición de centro educativo, recabar los consentimientos de los padres o tutores legales que resulten necesarios antes de introducir datos de menores en la plataforma. Edena no utiliza los datos de menores para ninguna finalidad distinta de la prestación del servicio al responsable.<br>
+<br>
+10. NOTIFICACIÓN DE VIOLACIONES DE SEGURIDAD<br>
+Edena notificará al responsable sin dilación indebida tras tener conocimiento de una violación de la seguridad de los datos personales, aportando la información relevante disponible para que el responsable pueda cumplir sus obligaciones de notificación ante la autoridad de control y los interesados.<br>
+<br>
+11. SUPRESIÓN O DEVOLUCIÓN DE LOS DATOS<br>
+Finalizada la prestación del servicio, Edena suprimirá o devolverá al responsable, a su elección, los datos personales y las copias existentes, salvo que deba conservarlos por obligación legal (por ejemplo, registros de facturación con obligaciones fiscales), en cuyo caso permanecerán bloqueados durante los plazos legales.<br>
+<br>
+12. AUDITORÍA<br>
+Edena pondrá a disposición del responsable la información necesaria para demostrar el cumplimiento de las obligaciones del artículo 28 del RGPD y permitirá y contribuirá a la realización de auditorías razonables, incluidas inspecciones, conforme a un procedimiento acordado entre las partes.<br>
+<br>
+13. TRANSFERENCIAS INTERNACIONALES<br>
+Cuando un subencargado trate datos fuera del Espacio Económico Europeo (EEE), Edena garantizará la existencia de mecanismos válidos de transferencia conforme al RGPD, como las Cláusulas Contractuales Tipo de la Comisión Europea o decisiones de adecuación.<br>
+<br>
+14. CONTACTO<br>
+Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privacidad@edena.es.`,
     },
     crm: {
         mainTitle: "Convierte cada consulta en una nueva matriculación",
