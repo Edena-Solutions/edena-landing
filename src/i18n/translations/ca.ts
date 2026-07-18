@@ -59,6 +59,9 @@ export default {
         cookiesTitle: "Política de galetes | Programa de gestió escolar Edena",
         cookiesDescription:
             "Comprend com Edena utilitza galetes per millorar la teva experiència amb la nostra plataforma de gestió escolar. Aprèn sobre tipus de galetes, ús i les teves opcions de privacitat.",
+        dpaTitle: "Acord de tractament de dades | Programa de gestió escolar Edena",
+        dpaDescription:
+            "Acord d'encàrrec de tractament conforme a l'art. 28 del RGPD entre Edena i els centres educatius: instruccions, seguretat, subencarregats, assistència i drets dels interessats.",
         nurseryTitle:
             "Programari per a Escoles Infantils | App Famílies, Fotos i Facturació Automàtica | Edena",
         nurseryDescription:
@@ -119,6 +122,7 @@ export default {
         privacyPolicy: "Política de privacitat",
         termsOfService: "Termes del servei",
         cookiePolicy: "Política de galetes",
+        dpa: "Acord de tractament de dades",
         description:
             "Edena és la plataforma de gestió escolar que elimina la paperassa, automatitza la facturació i manté les famílies informades perquè el teu equip es pugui centrar en allò que importa: l'educació.",
         allRightsReserved: "Tots els drets reservats.",
@@ -1590,78 +1594,111 @@ La Plataforma s'allotja en centres de dades de proveïdors d'infraestructura de 
     },
     cookiePolicy: {
         title: "Política de galetes",
-        content: `Última actualització: 2 de juny de 2026<br>
+        content: `Darrera actualització: 18 de juliol de 2026<br>
 <br>
-1. QUÈ SÓN LES GALETES (COOKIES)?<br>
-Les galetes (cookies) són petits fitxers de text que els llocs web emmagatzemen al dispositiu de l'usuari (ordinador, tauleta, telèfon intel·ligent) quan els visita. Permeten al lloc recordar les preferències de l'usuari, analitzar el comportament de navegació, millorar l'experiència d'ús i, en determinats casos, mostrar publicitat personalitzada.<br>
+1. QUÈ SÓN LES GALETES?<br>
+Les galetes (cookies) són petits fitxers de text que els llocs web emmagatzemen al dispositiu de l'usuari (ordinador, tauleta, telèfon intel·ligent) quan els visita. Juntament amb les galetes hi ha tecnologies similars, com l'emmagatzematge local del navegador (localStorage), que fem servir amb les mateixes finalitats i a les quals també s'aplica aquesta política.<br>
 <br>
-2. QUI ÉS EL RESPONSABLE DE L'ÚS DE GALETES EN AQUEST LLOC?<br>
-El responsable del lloc web www.edena.es i de l'ús de galetes és Edena Software S.L. (CIF: B27627462) Per a qualsevol consulta relacionada amb aquesta política, podeu contactar-nos a privacidad@edena.es.<br>
+2. RESPONSABLE I ÀMBIT D'APLICACIÓ<br>
+El responsable de l'ús de galetes és Edena Software S.L. (CIF: B27627462). Per a qualsevol consulta relacionada amb aquesta política, pots contactar amb nosaltres a privacidad@edena.es.<br>
 <br>
-3. TIPUS DE GALETES QUE UTILITZEM<br>
-En funció de la seva finalitat, les galetes que podeu trobar al nostre lloc web es classifiquen de la manera següent:<br>
+Aquesta política cobreix tots els serveis d'Edena:<br>
+- El lloc web www.edena.es.<br>
+- L'aplicació web de la plataforma (app.edena.es).<br>
+- L'aplicació mòbil Edena Kids (iOS i Android).<br>
 <br>
-3.1 Galetes tècniques o estrictament necessàries<br>
-Són imprescindibles per al correcte funcionament del lloc web. Permeten a l'usuari navegar i utilitzar les diferents funcionalitats, com iniciar sessió, recordar preferències d'idioma o mantenir la sessió activa. Sense aquestes galetes, alguns serveis poden no funcionar correctament. No requereixen el consentiment de l'usuari.<br>
+3. GALETES AL LLOC WEB (www.edena.es)<br>
+3.1 Emmagatzematge tècnic (necessari)<br>
+- edena-cookie-consent: registre de la teva decisió sobre les galetes (emmagatzematge local; es conserva fins que esborris les dades de navegació). No requereix consentiment.<br>
 <br>
-3.2 Galetes de preferències o personalització<br>
-Permeten recordar informació perquè l'usuari accedeixi al servei amb determinades característiques que diferencien la seva experiència de la d'altres usuaris, com l'idioma, la regió o el tema visual preferit.<br>
+3.2 Galetes d'anàlisi o mesurament (només amb el teu consentiment)<br>
+Fem servir Google Analytics 4 i Google Tag Manager per mesurar el trànsit i millorar el web. Aquestes galetes només s'activen si acceptes l'analítica al bàner de galetes:<br>
+- _ga i _ga_*: Google Analytics (distinció d'usuaris i sessions; durada: fins a 2 anys).<br>
+No fem servir galetes de publicitat ni de perfilat publicitari: aquesta categoria roman sempre desactivada.<br>
 <br>
-3.3 Galetes d'anàlisi o mesura<br>
-Permeten al responsable del lloc web fer el seguiment i l'anàlisi del comportament dels usuaris. La informació recollida s'utilitza per mesurar l'activitat del lloc web i elaborar estadístiques de navegació amb la finalitat de millorar l'experiència de l'usuari i els continguts oferts. En cap cas s'utilitza aquesta informació amb fins publicitaris individualitzats.<br>
+4. EMMAGATZEMATGE A LA PLATAFORMA (app.edena.es)<br>
+L'aplicació web d'Edena utilitza únicament emmagatzematge tècnic, imprescindible per al funcionament del servei:<br>
+- Sessió d'autenticació: credencials gestionades pel nostre proveïdor d'identitat per mantenir la teva sessió iniciada de manera segura.<br>
+- Preferències d'ús: idioma, tema visual i organització activa.<br>
+- edena_cookie_consent: registre de la teva decisió sobre les galetes.<br>
+Actualment la plataforma no fa servir galetes d'analítica ni de publicitat. Si en el futur s'hi incorporés analítica, només s'activaria amb el teu consentiment previ a través del bàner de la mateixa plataforma.<br>
 <br>
-3.4 Galetes de màrqueting o publicitat comportamental<br>
-Permeten gestionar els espais publicitaris del lloc web basant-se en el perfil de navegació de l'usuari. Recorden visites al lloc i rastregen el comportament de navegació per mostrar anuncis rellevants en altres llocs web.<br>
+5. APLICACIÓ MÒBIL EDENA KIDS<br>
+L'aplicació mòbil no fa servir galetes. Únicament desa a l'emmagatzematge local del dispositiu les dades tècniques imprescindibles per al seu funcionament (sessió d'usuari i preferències), que s'eliminen en tancar la sessió o desinstal·lar l'aplicació.<br>
 <br>
-3.5 Galetes de tercers<br>
-Són galetes instal·lades per serveis externs que apareixen a les nostres pàgines. Els principals tercers que poden instal·lar galetes en visitar el nostre lloc són:<br>
-- Google Analytics (anàlisi d'ús i estadístiques de trànsit)<br>
-- Google Tag Manager (gestió d'etiquetes de seguiment)<br>
-- Hotjar (mapes de calor i anàlisi de comportament)<br>
-- Intercom o similar (suport al client i xat)<br>
-Cadascun d'aquests proveïdors té les seves pròpies polítiques de privacitat i galetes. Us recomanem consultar-les directament als seus llocs web.<br>
+6. COM PUC GESTIONAR O DESACTIVAR LES GALETES?<br>
+En la teva primera visita al lloc web i a la plataforma et mostrem un bàner on pots acceptar o rebutjar les galetes no essencials. La teva elecció queda registrada i pots canviar-la en qualsevol moment esborrant les dades de navegació, cosa que farà que l'avís es torni a mostrar.<br>
 <br>
-4. TAULA DE GALETES UTILITZADES<br>
-A continuació es detallen les principals galetes utilitzades en aquest lloc:<br>
-<br>
-- _ga / _gid: Google Analytics (anàlisi d'ús; durada: fins a 2 anys).<br>
-- _gat: Google Analytics (control de freqüència de sol·licituds; durada: 1 minut).<br>
-- edena_session: sessió d'usuari (autenticació; durada: sessió).<br>
-- edena_lang: preferència d'idioma (personalització; durada: 1 any).<br>
-- edena_theme: preferència de tema visual (personalització; durada: 1 any).<br>
-- cookie_consent: registre del consentiment de galetes (necessària; durada: 1 any).<br>
-- _hjid: Hotjar (identificació d'usuari per a l'anàlisi de comportament; durada: 1 any).<br>
-<br>
-5. COM PUC GESTIONAR O DESACTIVAR LES GALETES?<br>
-L'usuari pot, en qualsevol moment, acceptar, rebutjar o retirar el seu consentiment a l'ús de galetes a través del panell de preferències de galetes disponible al nostre lloc web (botó "Gestionar galetes" al peu de pàgina).<br>
-<br>
-A més, la majoria de navegadors permeten controlar les galetes a través de la seva configuració. A continuació trobareu instruccions per als navegadors més habituals:<br>
-- Google Chrome: Configuració > Privadesa i seguretat > Galetes i altres dades de llocs.<br>
-- Mozilla Firefox: Opcions > Privadesa i seguretat > Galetes i dades del lloc.<br>
-- Safari: Preferències > Privadesa > Gestionar les dades del lloc web.<br>
+A més, la majoria dels navegadors permeten controlar les galetes a través de la seva configuració:<br>
+- Google Chrome: Configuració > Privadesa i seguretat > Galetes i altres dades dels llocs.<br>
+- Mozilla Firefox: Opcions > Privadesa i seguretat > Galetes i dades dels llocs.<br>
+- Safari: Preferències > Privadesa > Gestiona les dades dels llocs web.<br>
 - Microsoft Edge: Configuració > Privadesa, cerca i serveis > Galetes.<br>
-<br>
-Tingueu en compte que desactivar determinades galetes pot afectar el correcte funcionament del lloc web o impedir l'accés a algunes funcionalitats.<br>
-<br>
-6. CONSENTIMENT<br>
-En la primera visita al nostre lloc web, us mostrem un bàner informatiu on podeu acceptar, rebutjar o configurar l'ús de galetes no estrictament necessàries. La vostra elecció queda registrada i respectada en visites posteriors.<br>
-<br>
-Les galetes estrictament necessàries no requereixen consentiment previ i s'instal·len automàticament en accedir al lloc. La resta de galetes (anàlisi, màrqueting, preferències) només s'activen si doneu el vostre consentiment exprés.<br>
-<br>
-Podeu revocar o modificar el vostre consentiment en qualsevol moment accedint al panell de preferències de galetes disponible al peu de pàgina del nostre lloc web.<br>
+Tingues en compte que desactivar l'emmagatzematge tècnic pot impedir el funcionament de parts del servei.<br>
 <br>
 7. TRANSFERÈNCIES INTERNACIONALS<br>
-Alguns proveïdors de galetes de tercers (com Google) poden tractar dades en servidors ubicats fora de l'Espai Econòmic Europeu (EEE). En aquests casos, aquests proveïdors es regeixen per mecanismes de transferència adequats d'acord amb el GDPR (clàusules contractuals tipus, decisions d'adequació, etc.).<br>
+Google (Analytics i Tag Manager) pot tractar dades en servidors situats fora de l'Espai Econòmic Europeu (EEE). En aquests casos, la transferència s'empara en mecanismes vàlids conformes al RGPD, com les Clàusules Contractuals Tipus de la Comissió Europea o decisions d'adequació.<br>
 <br>
 8. ACTUALITZACIONS D'AQUESTA POLÍTICA<br>
-Edena podrà actualitzar aquesta Política de galetes per adaptar-la a canvis legislatius, noves funcionalitats del lloc o canvis en els serveis de tercers utilitzats. La data d'última actualització al principi d'aquest document reflecteix sempre la versió vigent. Us recomanem revisar-la periòdicament.<br>
+Edena podrà actualitzar aquesta Política de galetes per adaptar-la a canvis legislatius, del servei o dels proveïdors utilitzats. La data de "darrera actualització" reflecteix sempre la versió vigent. Quan el canvi sigui rellevant, tornarem a demanar el teu consentiment.<br>
 <br>
 9. MÉS INFORMACIÓ<br>
-Per a qualsevol consulta sobre l'ús de galetes al nostre lloc web, podeu contactar-nos a:<br>
-Correu electrònic: privacidad@edena.es<br>
-Lloc web: www.edena.es<br>
+Per a qualsevol consulta sobre l'ús de galetes pots escriure'ns a privacidad@edena.es. Per a més informació sobre les galetes i la seva gestió, pots consultar la guia de l'Agència Espanyola de Protecció de Dades (AEPD) a www.aepd.es.`,
+    },
+    dataProcessingAgreement: {
+        title: "Acord de tractament de dades",
+        content: `Darrera actualització: 18 de juliol de 2026<br>
 <br>
-Per a més informació sobre les galetes i la seva gestió, podeu consultar la guia publicada per l'Agència Espanyola de Protecció de Dades (AEPD) a www.aepd.es.`,
+1. OBJECTE I NATURALESA DE L'ACORD<br>
+Aquest Acord de tractament de dades (d'ara endavant, "l'Acord") regula el tractament de dades personals que Edena Software S.L. (CIF: B27627462; d'ara endavant, "Edena") duu a terme per compte de l'organització client en el marc de la prestació del servei, conforme a l'article 28 del Reglament (UE) 2016/679 (RGPD). L'Acord forma part integrant dels Termes i condicions del servei.<br>
+<br>
+A l'efecte d'aquest Acord, l'organització client (el centre educatiu) és la Responsable del tractament i Edena actua com a Encarregada del tractament.<br>
+<br>
+2. NATURALESA, FINALITAT I DURADA DEL TRACTAMENT<br>
+Edena tractarà les dades personals facilitades o generades pel responsable únicament per prestar els serveis de la plataforma (gestió de persones i expedients, facturació, comunicacions i funcionalitats associades), durant la vigència de la relació contractual.<br>
+<br>
+3. INTERESSATS I CATEGORIES DE DADES<br>
+- Interessats: alumnes, famílies i tutors, personal del centre i altres usuaris que el responsable gestiona a la plataforma.<br>
+- Categories de dades: identificatives i de contacte, acadèmiques, de facturació i, si escau, dades de salut essencials (al·lèrgies o necessitats especials) introduïdes sota la responsabilitat del centre.<br>
+<br>
+4. INSTRUCCIONS DEL RESPONSABLE<br>
+Edena tractarà les dades seguint exclusivament les instruccions documentades del responsable, inclosa la configuració i l'ús que aquest fa de la plataforma, llevat que una norma de la Unió Europea o d'un Estat membre l'obligui a una altra cosa; en aquest cas, Edena informarà el responsable abans del tractament, llevat que aquesta norma ho prohibeixi.<br>
+<br>
+5. CONFIDENCIALITAT<br>
+Edena garanteix que les persones autoritzades per tractar les dades personals s'han compromès a respectar la confidencialitat o estan subjectes a una obligació legal de confidencialitat.<br>
+<br>
+6. SEGURETAT DEL TRACTAMENT<br>
+Edena aplica mesures tècniques i organitzatives apropiades conformes a l'article 32 del RGPD, incloent-hi xifratge de dades en trànsit i en repòs, control d'accés basat en rols (mínim privilegi), aïllament de dades entre organitzacions, còpies de seguretat periòdiques i registre d'activitat.<br>
+<br>
+7. SUBENCARREGATS<br>
+El responsable autoritza Edena a recórrer als subencarregats següents, que ofereixen garanties adequades de compliment del RGPD:<br>
+- Supabase — base de dades i autenticació.<br>
+- Cloudflare R2 — emmagatzematge de fitxers.<br>
+- Google Cloud — allotjament de l'aplicació.<br>
+- Resend — enviament de correus transaccionals.<br>
+Edena informarà el responsable de qualsevol canvi previst en aquesta llista, donant-li la possibilitat d'oposar-s'hi.<br>
+<br>
+8. ASSISTÈNCIA AL RESPONSABLE<br>
+Edena assistirà el responsable, tenint en compte la naturalesa del tractament, per respondre a les sol·licituds d'exercici de drets dels interessats (accés, rectificació, supressió, oposició, limitació i portabilitat), així com per complir les obligacions de seguretat, notificació de violacions de seguretat i avaluacions d'impacte.<br>
+La plataforma incorpora eines per exportar i anonimitzar les dades d'un interessat, permetent al responsable atendre els drets d'accés, portabilitat i supressió.<br>
+<br>
+9. DADES DE MENORS D'EDAT<br>
+Correspon al responsable, en la seva condició de centre educatiu, obtenir els consentiments dels pares o tutors legals que siguin necessaris abans d'introduir dades de menors a la plataforma. Edena no utilitza les dades de menors per a cap finalitat diferent de la prestació del servei al responsable.<br>
+<br>
+10. NOTIFICACIÓ DE VIOLACIONS DE SEGURETAT<br>
+Edena notificarà al responsable sense dilació indeguda després de tenir coneixement d'una violació de la seguretat de les dades personals, aportant la informació rellevant disponible perquè el responsable pugui complir les seves obligacions de notificació davant l'autoritat de control i els interessats.<br>
+<br>
+11. SUPRESSIÓ O DEVOLUCIÓ DE LES DADES<br>
+Finalitzada la prestació del servei, Edena suprimirà o retornarà al responsable, a la seva elecció, les dades personals i les còpies existents, llevat que les hagi de conservar per obligació legal (per exemple, registres de facturació amb obligacions fiscals), cas en què romandran bloquejades durant els terminis legals.<br>
+<br>
+12. AUDITORIA<br>
+Edena posarà a disposició del responsable la informació necessària per demostrar el compliment de les obligacions de l'article 28 del RGPD i permetrà i contribuirà a la realització d'auditories raonables, incloses inspeccions, conforme a un procediment acordat entre les parts.<br>
+<br>
+13. TRANSFERÈNCIES INTERNACIONALS<br>
+Quan un subencarregat tracti dades fora de l'Espai Econòmic Europeu (EEE), Edena garantirà l'existència de mecanismes vàlids de transferència conformes al RGPD, com les Clàusules Contractuals Tipus de la Comissió Europea o decisions d'adequació.<br>
+<br>
+14. CONTACTE<br>
+Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privacidad@edena.es.`,
     },
     crm: {
         mainTitle: "Converteix cada consulta en una matrícula nova",

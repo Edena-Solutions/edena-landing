@@ -60,6 +60,9 @@ export default {
         cookiesTitle: "Cookie-politika | Edena eskola-kudeaketa softwarea",
         cookiesDescription:
             "Ulertu nola erabiltzen dituen Edenak cookieak gure eskola-kudeaketa plataformarekin esperientzia hobetzeko. Ikasi cookie motak, erabilera eta zure pribatutasun-aukerak.",
+        dpaTitle: "Datuen tratamendu-hitzarmena | Edena eskola-kudeaketa softwarea",
+        dpaDescription:
+            "DBEOren 28. artikuluaren araberako tratamendu-hitzarmena Edenaren eta ikastetxeen artean: jarraibideak, segurtasuna, azpieragileak, laguntza eta interesdunen eskubideak.",
         nurseryTitle:
             "Haur-Eskoletarako Softwarea | Familien Aplikazioa, Argazkiak eta Fakturazio Automatikoa | Edena",
         nurseryDescription:
@@ -120,6 +123,7 @@ export default {
         privacyPolicy: "Pribatutasun-politika",
         termsOfService: "Zerbitzu-baldintzak",
         cookiePolicy: "Cookie-politika",
+        dpa: "Datuen tratamendu-hitzarmena",
         description:
             "Edena eskola-kudeaketa plataforma da paper-lana kentzen duena, fakturazioa automatizatzen duena eta familiak informatuta mantentzen dituena, zure taldeak garrantzizkoenean zentratu ahal izan dezan: hezkuntzan.",
         allRightsReserved: "Eskubide guztiak erreserbatuak.",
@@ -1590,78 +1594,111 @@ Plataforma lehen mailako azpiegitura-hornitzaileen datu-zentroetan ostatatzen da
     },
     cookiePolicy: {
         title: "Cookie-politika",
-        content: `Azken eguneraketa: 2026ko ekainaren 2a<br>
+        content: `Azken eguneratzea: 2026ko uztailaren 18a<br>
 <br>
 1. ZER DIRA COOKIEAK?<br>
-Cookieak (edo galletak) webguneek erabiltzailearen gailuan (ordenagailua, tableta, mugikorra) gordetzen dituzten testu-fitxategi txikiak dira, erabiltzaileak webguneak bisitatzen dituenean. Webguneari erabiltzailearen hobespenak gogoratzeko, nabigazio-portaera aztertzeko, erabilera-esperientzia hobetzeko eta, zenbait kasutan, iragarkiak pertsonalizatzeko aukera ematen diote.<br>
+Cookieak testu-fitxategi txikiak dira, webguneek erabiltzailearen gailuan (ordenagailua, tableta, telefonoa) gordetzen dituztenak, hura bisitatzen duenean. Cookieekin batera antzeko teknologiak daude, hala nola nabigatzailearen tokiko biltegiratzea (localStorage); helburu berberekin erabiltzen ditugu eta politika hau haiei ere aplikatzen zaie.<br>
 <br>
-2. NOR DA COOKIE HAUEN ARDURADUNA?<br>
-www.edena.es webgunearen eta cookieen erabileraren arduraduna Edena Software S.L. (IFK: B27627462) da. Politika honi buruzko edozein galderarentzat, jar zaitezke harremanetan privacidad@edena.es helbidean.<br>
+2. ARDURADUNA ETA APLIKAZIO-EREMUA<br>
+Cookieen erabileraren arduraduna Edena Software S.L. da (IFK: B27627462). Politika honi buruzko edozein kontsultarako, jar zaitez gurekin harremanetan privacidad@edena.es helbidean.<br>
 <br>
-3. ERABILTZEN DITUGUN COOKIE MOTAK<br>
-Haien helburuaren arabera, gure webgunean aurkitu ditzakezun cookieak honela sailkatzen dira:<br>
+Politika honek Edenaren zerbitzu guztiak hartzen ditu barnean:<br>
+- www.edena.es webgunea.<br>
+- Plataformaren web-aplikazioa (app.edena.es).<br>
+- Edena Kids aplikazio mugikorra (iOS eta Android).<br>
 <br>
-3.1 Cookie teknikoak edo ezinbesteko cookieak<br>
-Webgunearen funtzionamendu egokia bermatzeko ezinbestekoak dira. Erabiltzaileari nabigatzeko eta hainbat funtzionalitate erabiltzeko aukera ematen diote, hala nola saioa hastea, hizkuntza-hobespenak gogoratzea edo saioa aktibo mantentzea. Cookie hauek gabe, zenbait zerbitzu ez litezke behar bezala funtzionatu. Ez dute erabiltzailearen adostasunik behar.<br>
+3. COOKIEAK WEBGUNEAN (www.edena.es)<br>
+3.1 Biltegiratze teknikoa (beharrezkoa)<br>
+- edena-cookie-consent: cookieei buruzko zure erabakiaren erregistroa (tokiko biltegiratzea; nabigazio-datuak ezabatu arte gordetzen da). Ez du baimenik behar.<br>
 <br>
-3.2 Hobespen edo pertsonalizazio cookieak<br>
-Erabiltzaileak beste erabiltzaileeengandik bereizten dituzten ezaugarri batzuekin zerbitzu atzitu dezan informazioa gogoratzeko aukera ematen dute, hala nola hizkuntza, eskualdea edo nahiago duten itxura bisual aukeratua.<br>
+3.2 Analisi- edo neurketa-cookieak (zure baimenarekin soilik)<br>
+Google Analytics 4 eta Google Tag Manager erabiltzen ditugu trafikoa neurtzeko eta webgunea hobetzeko. Cookie horiek soilik aktibatzen dira cookie-bannerrean analitika onartzen baduzu:<br>
+- _ga eta _ga_*: Google Analytics (erabiltzaileak eta saioak bereiztea; iraupena: 2 urte arte).<br>
+Ez dugu publizitate-cookierik ez publizitate-profilik erabiltzen: kategoria hori beti desaktibatuta dago.<br>
 <br>
-3.3 Analisi edo neurketa cookieak<br>
-Webgunearen arduradunak erabiltzaileen portaeraren jarraipena eta analisia egitea ahalbidetzen dute. Bildutako informazioa webgunearen jardueraren neurketa eta nabigazio-estatistiken ekoizpenerako erabiltzen da, erabiltzaile-esperientzia eta eskainitako edukiak hobetzeko. Informazio hau ez da inoiz banakako publizitate-helburuetarako erabiltzen.<br>
+4. BILTEGIRATZEA PLATAFORMAN (app.edena.es)<br>
+Edenaren web-aplikazioak biltegiratze teknikoa soilik erabiltzen du, zerbitzuaren funtzionamendurako ezinbestekoa:<br>
+- Autentifikazio-saioa: gure identitate-hornitzaileak kudeatutako kredentzialak, zure saioa modu seguruan irekita mantentzeko.<br>
+- Erabilera-hobespenak: hizkuntza, itxura bisuala eta erakunde aktiboa.<br>
+- edena_cookie_consent: cookieei buruzko zure erabakiaren erregistroa.<br>
+Gaur egun plataformak ez du analitika- edo publizitate-cookierik erabiltzen. Etorkizunean analitika gehituko balitz, zure aldez aurreko baimenarekin soilik aktibatuko litzateke, plataformaren beraren bannerraren bidez.<br>
 <br>
-3.4 Marketing edo jokabide-publizitate cookieak<br>
-Erabiltzailearen nabigazio-profilean oinarrituta webguneko iragarki-espazioak kudeatzeko aukera ematen dute. Webguneko bisitaldiak gogoratzen dituzte eta nabigazio-portaera jarraitzen dute beste webguneetan iragarki garrantzitsuak erakusteko.<br>
+5. EDENA KIDS APLIKAZIO MUGIKORRA<br>
+Aplikazio mugikorrak ez du cookierik erabiltzen. Gailuaren tokiko biltegiratzean funtzionamendurako ezinbestekoak diren datu teknikoak soilik gordetzen ditu (erabiltzailearen saioa eta hobespenak), eta horiek ezabatu egiten dira saioa ixtean edo aplikazioa desinstalatzean.<br>
 <br>
-3.5 Hirugarrenen cookieak<br>
-Gure orrietan agertzen diren kanpoko zerbitzuek instalatutako cookieak dira. Gure webgunea bisitatzean cookieak instala ditzaketen hornitzaile nagusiak hauek dira:<br>
-- Google Analytics (erabilera-analisia eta trafiko-estatistikak)<br>
-- Google Tag Manager (jarraipen-etiketen kudeaketa)<br>
-- Hotjar (bero-mapak eta portaera-analisia)<br>
-- Intercom edo antzekoa (bezero-laguntza eta txata)<br>
-Hornitzaile horietako bakoitzak bere pribatutasun- eta cookie-politika ditu. Haien webguneetan zuzenean kontsultatzea gomendatzen dizugu.<br>
+6. NOLA KUDEATU EDO DESAKTIBA DITZAKET COOKIEAK?<br>
+Webgunera eta plataformara egiten duzun lehen bisitan banner bat erakusten dizugu, funtsezkoak ez diren cookieak onartu edo baztertu ahal izateko. Zure aukera erregistratuta geratzen da, eta edonoiz alda dezakezu nabigazio-datuak ezabatuta; horrela, oharra berriro agertuko da.<br>
 <br>
-4. ERABILTZEN DIREN COOKIEEN TAULA<br>
-Hona hemen webgune honetan erabiltzen diren cookie nagusien zehaztapenak:<br>
-<br>
-- _ga / _gid: Google Analytics (erabilera-analisia; iraupena: 2 urte arte).<br>
-- _gat: Google Analytics (eskaera-maiztasunaren kontrola; iraupena: 1 minutu).<br>
-- edena_session: erabiltzaile-saioa (autentifikazioa; iraupena: saioa).<br>
-- edena_lang: hizkuntza-hobespenera (pertsonalizazioa; iraupena: 1 urte).<br>
-- edena_theme: itxura bisualaren hobespenera (pertsonalizazioa; iraupena: 1 urte).<br>
-- cookie_consent: cookie-adostasunaren erregistroa (beharrezkoa; iraupena: 1 urte).<br>
-- _hjid: Hotjar (erabiltzailearen identifikazioa portaera-analisirako; iraupena: 1 urte).<br>
-<br>
-5. NOLA KUDEATU EDO DESGAITU DITZAKET COOKIEAK?<br>
-Erabiltzaileak, edozein unetan, cookieen erabilpenari bere adostasuna eman, ukatu edo erretiratu dezake gure webgunean eskuragarri dagoen cookie-hobespen-panelaren bidez (orri-oinean "Cookieak kudeatu" botoia).<br>
-<br>
-Gainera, nabigatzaile gehienek cookieak konfigurazioen bidez kontrolatzeko aukera ematen dute. Hona hemen nabigatzaile ohikoenetarako argibideak:<br>
-- Google Chrome: Ezarpenak > Pribatutasuna eta segurtasuna > Cookieak eta beste gune-datu batzuk.<br>
-- Mozilla Firefox: Aukerak > Pribatutasuna eta segurtasuna > Cookieak eta gunearen datuak.<br>
-- Safari: Hobespenak > Pribatutasuna > Webgunearen datuak kudeatu.<br>
+Gainera, nabigatzaile gehienek cookieak beren ezarpenen bidez kontrolatzea ahalbidetzen dute:<br>
+- Google Chrome: Ezarpenak > Pribatutasuna eta segurtasuna > Cookieak eta guneetako beste datu batzuk.<br>
+- Mozilla Firefox: Aukerak > Pribatutasuna eta segurtasuna > Cookieak eta guneetako datuak.<br>
+- Safari: Hobespenak > Pribatutasuna > Kudeatu webguneetako datuak.<br>
 - Microsoft Edge: Ezarpenak > Pribatutasuna, bilaketa eta zerbitzuak > Cookieak.<br>
-<br>
-Kontuan hartu zenbait cookie desgaitzeak webgunearen funtzionamendu egokia eragin dezakeela edo funtzionalitate batzuetarako sarbidea galaraz dezakeela.<br>
-<br>
-6. ADOSTASUNA<br>
-Gure webgunera egiten duzun lehen bisitan, informazio-banner bat erakusten dizugu, non cookie ez-beharrezkoen erabilera onartu, ukatu edo konfiguratu dezakezun. Zure aukera erregistratzen da eta hurrengo bisitetan errespetatzen da.<br>
-<br>
-Cookie tekniko beharrezkoak ez dute aurretiazko adostasunik behar eta automatikoki instalatzen dira gunera sartzerakoan. Gainerako cookieak (analisia, marketina, hobespenak) soilik aktibatzen dira zure berariazko adostasuna ematen baduzu.<br>
-<br>
-Zure adostasuna edozein unetan erretiratu edo aldatu dezakezu gure webgunearen orri-oinean eskuragarri dagoen cookie-hobespen-panelera sartuz.<br>
+Kontuan izan biltegiratze teknikoa desaktibatzeak zerbitzuaren zenbait atal funtzionatzea eragotz dezakeela.<br>
 <br>
 7. NAZIOARTEKO TRANSFERENTZIAK<br>
-Hirugarrenen cookie-hornitzaile batzuek (Googlek bezala) Europako Ekonomia Eremutik (EEE) kanpo kokatutako zerbitzarietan datuak prozesatu ditzakete. Kasu horietan, hornitzaile horiek DBEBren arabera transferentzia-mekanismo egokiak aplikatzen dituzte (kontratu-klausula estandarrak, egokitasun-erabakiak, etab.).<br>
+Googlek (Analytics eta Tag Manager) datuak Europako Esparru Ekonomikotik (EEE) kanpoko zerbitzarietan trata ditzake. Kasu horietan, transferentzia DBEOren araberako mekanismo baliodunetan oinarritzen da, hala nola Europako Batzordearen kontratu-klausula estandarretan edo egokitasun-erabakietan.<br>
 <br>
-8. POLITIKA HONEN EGUNERAKETAK<br>
-Edenak Cookie Politika hau eguneratu ahal izango du lege-aldaketetara, webgunearen funtzionalitate berrietara edo erabiltzen diren hirugarrenen zerbitzuen aldaketetara egokitzeko. Dokumentu honen hasieran agertzen den azken eguneraketa-data beti indarreko bertsioa islatzen du. Aldizka berrikustea gomendatzen dizugu.<br>
+8. POLITIKA HONEN EGUNERATZEAK<br>
+Edenak cookie-politika hau egunera dezake, legeen, zerbitzuaren edo erabilitako hornitzaileen aldaketetara egokitzeko. "Azken eguneratzea" datak beti islatzen du indarrean dagoen bertsioa. Aldaketa garrantzitsua denean, berriro eskatuko dizugu baimena.<br>
 <br>
 9. INFORMAZIO GEHIAGO<br>
-Gure webgunean cookieen erabilerari buruzko edozein galderarentzat, jar zaitezke harremanetan:<br>
-Posta elektronikoa: privacidad@edena.es<br>
-Webgunea: www.edena.es<br>
+Cookieen erabilerari buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es helbidera. Cookieei eta haien kudeaketari buruzko informazio gehiago nahi izanez gero, Datuak Babesteko Espainiako Agentziaren (AEPD) gida kontsulta dezakezu www.aepd.es webgunean.`,
+    },
+    dataProcessingAgreement: {
+        title: "Datuen tratamendu-hitzarmena",
+        content: `Azken eguneratzea: 2026ko uztailaren 18a<br>
 <br>
-Cookieei eta haien kudeaketari buruzko informazio gehiago lortzeko, Espainiako Datu-babeseko Agentziak (AEPD) www.aepd.es helbidean argitaratutako gida kontsultatu dezakezu.`,
+1. HITZARMENAREN XEDEA ETA IZAERA<br>
+Datuen tratamendu-hitzarmen honek (aurrerantzean, "Hitzarmena") Edena Software S.L.-k (IFK: B27627462; aurrerantzean, "Edena") bezero-erakundearen kontura zerbitzua ematean egiten duen datu pertsonalen tratamendua arautzen du, (EB) 2016/679 Erregelamenduaren (DBEO) 28. artikuluaren arabera. Hitzarmena zerbitzuaren Erabileraren baldintzen zati da.<br>
+<br>
+Hitzarmen honen ondorioetarako, bezero-erakundea (ikastetxea) Tratamenduaren arduraduna da, eta Edenak Tratamendu-eragile gisa jarduten du.<br>
+<br>
+2. TRATAMENDUAREN IZAERA, HELBURUA ETA IRAUPENA<br>
+Edenak arduradunak emandako edo sortutako datu pertsonalak plataformaren zerbitzuak emateko soilik tratatuko ditu (pertsonen eta espedienteen kudeaketa, fakturazioa, komunikazioak eta lotutako funtzionalitateak), kontratu-harremanak dirauen bitartean.<br>
+<br>
+3. INTERESDUNAK ETA DATU-KATEGORIAK<br>
+- Interesdunak: ikasleak, familiak eta tutoreak, ikastetxeko langileak eta arduradunak plataforman kudeatzen dituen gainerako erabiltzaileak.<br>
+- Datu-kategoriak: identifikazio- eta kontaktu-datuak, datu akademikoak, fakturazio-datuak eta, hala badagokio, funtsezko osasun-datuak (alergiak edo behar bereziak), ikastetxearen ardurapean sartuak.<br>
+<br>
+4. ARDURADUNAREN JARRAIBIDEAK<br>
+Edenak datuak arduradunaren jarraibide dokumentatuei jarraituz soilik tratatuko ditu, plataformaren konfigurazioa eta erabilera barne, salbu eta Europar Batasuneko edo estatu kide bateko arau batek beste zerbait egitera behartzen badu; kasu horretan, Edenak arduradunari jakinaraziko dio tratamenduaren aurretik, arau horrek debekatzen ez badu.<br>
+<br>
+5. KONFIDENTZIALTASUNA<br>
+Edenak bermatzen du datu pertsonalak tratatzeko baimena duten pertsonek konfidentzialtasuna errespetatzeko konpromisoa hartu dutela edo konfidentzialtasun-betebehar legal baten mende daudela.<br>
+<br>
+6. TRATAMENDUAREN SEGURTASUNA<br>
+Edenak neurri tekniko eta antolakuntzako egokiak aplikatzen ditu DBEOren 32. artikuluaren arabera, besteak beste: datuen zifratzea bidean eta atsedenean, rol-etan oinarritutako sarbide-kontrola (pribilegio minimoa), erakundeen arteko datu-isolamendua, aldizkako segurtasun-kopiak eta jarduera-erregistroa.<br>
+<br>
+7. AZPIERAGILEAK<br>
+Arduradunak baimena ematen dio Edenari azpieragile hauek erabiltzeko, DBEO betetzeko berme egokiak eskaintzen baitituzte:<br>
+- Supabase — datu-basea eta autentifikazioa.<br>
+- Cloudflare R2 — fitxategien biltegiratzea.<br>
+- Google Cloud — aplikazioaren ostatatzea.<br>
+- Resend — mezu transakzionalen bidalketa.<br>
+Edenak zerrenda honetan aurreikusitako edozein aldaketaren berri emango dio arduradunari, aurka egiteko aukera emanez.<br>
+<br>
+8. ARDURADUNARI LAGUNTZA<br>
+Edenak arduradunari lagunduko dio, tratamenduaren izaera kontuan hartuta, interesdunen eskubideak baliatzeko eskaerei erantzuteko (sarbidea, zuzenketa, ezabaketa, aurka egitea, mugatzea eta eramangarritasuna), baita segurtasun-betebeharrak, segurtasun-urraketen jakinarazpenak eta inpaktu-ebaluazioak betetzeko ere.<br>
+Plataformak interesdun baten datuak esportatzeko eta anonimizatzeko tresnak ditu, arduradunak sarbide-, eramangarritasun- eta ezabaketa-eskubideak bete ahal izan ditzan.<br>
+<br>
+9. ADINGABEEN DATUAK<br>
+Arduradunari dagokio, ikastetxe den aldetik, gurasoen edo legezko tutoreen beharrezko baimenak lortzea, adingabeen datuak plataforman sartu aurretik. Edenak ez ditu adingabeen datuak erabiltzen arduradunari zerbitzua emateaz bestelako helburuetarako.<br>
+<br>
+10. SEGURTASUN-URRAKETEN JAKINARAZPENA<br>
+Edenak arduradunari jakinaraziko dio, bidegabeko atzerapenik gabe, datu pertsonalen segurtasun-urraketa baten berri izan ondoren, eskuragarri dagoen informazio garrantzitsua emanez, arduradunak kontrol-agintaritzaren eta interesdunen aurrean dituen jakinarazpen-betebeharrak bete ahal izan ditzan.<br>
+<br>
+11. DATUAK EZABATZEA EDO ITZULTZEA<br>
+Zerbitzua amaitutakoan, Edenak datu pertsonalak eta dauden kopiak ezabatu edo arduradunari itzuliko dizkio, honek aukeratutakoaren arabera, salbu eta legezko betebehar batengatik gorde behar baditu (adibidez, zerga-betebeharrak dituzten fakturazio-erregistroak); kasu horretan, blokeatuta geratuko dira legezko epeetan zehar.<br>
+<br>
+12. AUDITORETZA<br>
+Edenak arduradunaren eskura jarriko du DBEOren 28. artikuluko betebeharrak betetzen dituela frogatzeko beharrezko informazioa, eta arrazoizko auditoretzak egitea ahalbidetu eta lagunduko du, ikuskapenak barne, alderdien artean adostutako prozedura baten arabera.<br>
+<br>
+13. NAZIOARTEKO TRANSFERENTZIAK<br>
+Azpieragile batek datuak Europako Esparru Ekonomikotik (EEE) kanpo tratatzen dituenean, Edenak DBEOren araberako transferentzia-mekanismo baliodunak daudela bermatuko du, hala nola Europako Batzordearen kontratu-klausula estandarrak edo egokitasun-erabakiak.<br>
+<br>
+14. KONTAKTUA<br>
+Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es helbidera.`,
     },
     crm: {
         mainTitle: "Bihurtu kontsulta bakoitza matrikulazio berri batean",
