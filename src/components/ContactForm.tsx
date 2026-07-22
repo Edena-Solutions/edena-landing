@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { z } from "zod";
+import gsap from "gsap";
 import { School, Baby, Network, GraduationCap, Handshake, Mail, MapPin, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Card } from "@/components/ui/card";
@@ -72,6 +73,31 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
     const [phoneValid, setPhoneValid] = useState(true);
     const [errors, setErrors] = useState<Partial<Record<keyof typeof initialData, string>>>({});
     const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+    const formRef = useRef<HTMLFormElement>(null);
+
+    const prefersReducedMotion = () =>
+        window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    /** Animate the profile-dependent fields in whenever the profile changes */
+    useEffect(() => {
+        const form = formRef.current;
+        if (!form || prefersReducedMotion()) return;
+        const ctx = gsap.context(() => {
+            gsap.fromTo(
+                "[data-profile-anim]",
+                { autoAlpha: 0, y: 14 },
+                {
+                    autoAlpha: 1,
+                    y: 0,
+                    duration: 0.4,
+                    stagger: 0.06,
+                    ease: "power3.out",
+                    clearProps: "all",
+                },
+            );
+        }, form);
+        return () => ctx.revert();
+    }, [profile]);
 
     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>,
@@ -90,8 +116,25 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
     };
 
     const handleProfileChange = (next: Profile) => {
-        setProfile(next);
-        setErrors({});
+        if (next === profile) return;
+        const targets = formRef.current?.querySelectorAll("[data-profile-anim]");
+        if (!targets?.length || prefersReducedMotion()) {
+            setProfile(next);
+            setErrors({});
+            return;
+        }
+        gsap.killTweensOf(targets);
+        gsap.to(targets, {
+            autoAlpha: 0,
+            y: 6,
+            duration: 0.15,
+            stagger: 0.02,
+            ease: "power2.in",
+            onComplete: () => {
+                setProfile(next);
+                setErrors({});
+            },
+        });
     };
 
     const handleSubmit = async (e: React.FormEvent) => {
@@ -272,8 +315,8 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                         <p className="text-sm text-muted-foreground">{ct.successDescription}</p>
                     </div>
                 ) : (
-                    <form onSubmit={handleSubmit} className="space-y-2">
-                        <div className="flex gap-2">
+                    <form ref={formRef} onSubmit={handleSubmit} className="space-y-2">
+                        <div className="flex gap-2" data-profile-anim>
                             <div
                                 className={cn("flex w-fit p-3 rounded", profileIconColors[profile])}
                             >
@@ -346,7 +389,10 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                         {/* Profile-specific fields */}
                         {profile === "school" && (
                             <>
-                                <div className="grid gap-2 sm:grid-cols-[2fr_1fr]">
+                                <div
+                                    className="grid gap-2 sm:grid-cols-[2fr_1fr]"
+                                    data-profile-anim
+                                >
                                     <div className="space-y-1.5">
                                         <Label htmlFor="centerName">{pf.school.centerLabel}</Label>
                                         <Input
@@ -374,7 +420,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                                         />
                                     </div>
                                 </div>
-                                <div className="space-y-1.5">
+                                <div className="space-y-1.5" data-profile-anim>
                                     <Label>{pf.school.stagesLabel}</Label>
                                     <div className="flex flex-wrap gap-x-5 gap-y-2 pt-1">
                                         {stageKeys.map((stage) => (
@@ -396,7 +442,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
 
                         {profile === "nursery" && (
                             <>
-                                <div className="space-y-1.5">
+                                <div className="space-y-1.5" data-profile-anim>
                                     <Label htmlFor="centerName">{pf.nursery.centerLabel}</Label>
                                     <Input
                                         id="centerName"
@@ -411,7 +457,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                                         </p>
                                     )}
                                 </div>
-                                <div className="grid gap-2 sm:grid-cols-2">
+                                <div className="grid gap-2 sm:grid-cols-2" data-profile-anim>
                                     <div className="space-y-1.5">
                                         <Label htmlFor="children">{pf.nursery.childrenLabel}</Label>
                                         <Input
@@ -442,7 +488,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
 
                         {profile === "group" && (
                             <>
-                                <div className="space-y-1.5">
+                                <div className="space-y-1.5" data-profile-anim>
                                     <Label htmlFor="centerName">{pf.group.centerLabel}</Label>
                                     <Input
                                         id="centerName"
@@ -457,7 +503,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                                         </p>
                                     )}
                                 </div>
-                                <div className="grid gap-2 sm:grid-cols-2">
+                                <div className="grid gap-2 sm:grid-cols-2" data-profile-anim>
                                     <div className="space-y-1.5">
                                         <Label htmlFor="centers">{pf.group.centersLabel}</Label>
                                         <Input
@@ -486,7 +532,10 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
 
                         {profile === "academy" && (
                             <>
-                                <div className="grid gap-2 sm:grid-cols-[2fr_1fr]">
+                                <div
+                                    className="grid gap-2 sm:grid-cols-[2fr_1fr]"
+                                    data-profile-anim
+                                >
                                     <div className="space-y-1.5">
                                         <Label htmlFor="centerName">{pf.academy.centerLabel}</Label>
                                         <Input
@@ -514,7 +563,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                                         />
                                     </div>
                                 </div>
-                                <div className="space-y-1.5">
+                                <div className="space-y-1.5" data-profile-anim>
                                     <Label htmlFor="teachingType">{pf.academy.typeLabel}</Label>
                                     <Input
                                         id="teachingType"
@@ -529,7 +578,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
 
                         {profile === "partner" && (
                             <>
-                                <div className="space-y-1.5">
+                                <div className="space-y-1.5" data-profile-anim>
                                     <Label htmlFor="centerName">{pf.partner.centerLabel}</Label>
                                     <Input
                                         id="centerName"
@@ -544,7 +593,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                                         </p>
                                     )}
                                 </div>
-                                <div className="space-y-1.5">
+                                <div className="space-y-1.5" data-profile-anim>
                                     <Label htmlFor="phone">{ct.phoneLabel}</Label>
                                     <PhoneInput
                                         name="phone"
@@ -558,7 +607,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                                         }
                                     />
                                 </div>
-                                <div className="space-y-1.5">
+                                <div className="space-y-1.5" data-profile-anim>
                                     <Label htmlFor="website">{pf.partner.websiteLabel}</Label>
                                     <Input
                                         id="website"

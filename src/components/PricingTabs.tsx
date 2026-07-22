@@ -492,7 +492,10 @@ export function PricingTabs({ t, lang }: PricingTabsProps) {
                                     ))}
                                 </TabsList>
                             </Tabs>
-                            <div className="space-y-5">
+                            <div
+                                key={comparePlan}
+                                className="space-y-5 motion-safe:animate-in motion-safe:fade-in-0 motion-safe:slide-in-from-bottom-3 motion-safe:duration-700 motion-safe:ease-out"
+                            >
                                 {planFeatureSections.map((sec) => {
                                     const id = sectionModuleId(sec) ?? "";
                                     const meta = MODULE_META[id];
