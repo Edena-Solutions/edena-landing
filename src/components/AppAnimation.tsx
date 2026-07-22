@@ -166,12 +166,11 @@ export default function AppAnimation({
                         const titleY = -(cardHeight / 2) - 16 - LIFT;
                         return (
                             <div
-                                className="pointer-events-none absolute left-1/2 top-1/2 z-[60] whitespace-nowrap font-semibold text-white"
+                                className="pointer-events-none absolute left-1/2 top-1/2 z-[60] whitespace-nowrap font-semibold text-white uppercase tracking-widest text-[10px]"
                                 style={{
                                     transform: `translate(-50%, -50%) translateX(${hoveredX}px) translateY(${titleY}px)`,
                                     // Counter the stack scale so the title stays a
                                     // constant, readable on-screen size on mobile.
-                                    fontSize: `${TITLE_FONT_PX / fit}px`,
                                 }}
                             >
                                 {titleFor(hovered)}

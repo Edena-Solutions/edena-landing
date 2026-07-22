@@ -1,6 +1,6 @@
 export default {
     bookDemo: "Reservar demo",
-    loginButton: "Iniciar sesión",
+    loginButton: "Acceder",
     registerButton: "Probar gratis",
     registerButtonExtended: "Prueba gratis 30 días",
     noCreditCardRequired: "Sin tarjeta de crédito | Cancela cuando quieras",
@@ -172,15 +172,13 @@ export default {
     contact: {
         title: "¿Hablamos?",
         description: "Cuéntanos en qué podemos ayudarte y te responderemos lo antes posible.",
-        namePlaceholder: "Nombre",
-        nameLabel: "Nombre",
-        emailLabel: "Email",
+        namePlaceholder: "Nombre y apellidos",
+        nameLabel: "Nombre y apellidos",
+        emailLabel: "Correo electrónico",
         emailPlaceholder: "tu@email.com",
-        centerLabel: "Nombre del centro",
-        centerPlaceholder: "Colegio, academia, escuela infantil...",
-        messageLabel: "Mensaje",
-        messagePlaceholder: "¿En qué podemos ayudarte?",
-        submit: "Enviar mensaje",
+        messageLabel: "¿En qué podemos ayudarte?",
+        messagePlaceholder: "Cuéntanos más sobre tu centro y tus necesidades...",
+        submit: "Enviar Mensaje",
         submitting: "Enviando...",
         successTitle: "¡Mensaje enviado!",
         successDescription: "Hemos recibido tu mensaje. Te responderemos en breve.",
@@ -191,6 +189,83 @@ export default {
         emailInvalid: "Introduce un email válido",
         messageRequired: "El mensaje es obligatorio",
         messageMinLength: "El mensaje debe tener al menos 10 caracteres",
+        requiredField: "Este campo es obligatorio",
+        infoTitle: "Información de contacto",
+        infoSubtitle: "Selecciona tu perfil para continuar:",
+        emailContactLabel: "Email",
+        locationLabel: "Ubicación",
+        locationValue: "Barcelona, España",
+        profiles: {
+            school: "Colegio",
+            nursery: "Escuela Infantil",
+            group: "Grupo Educativo",
+            academy: "Academia",
+            partner: "Partnership",
+        },
+        profileDescriptions: {
+            school: "Infantil, primaria, ESO, bachillerato y FP.",
+            nursery: "Centros de 0 a 3 años.",
+            group: "Varios centros bajo una misma gestión.",
+            academy: "Idiomas, refuerzo, música, danza y más.",
+            partner: "Empresas y organizaciones que quieren colaborar con Edena.",
+        },
+        phoneLabel: "Teléfono (opcional)",
+        phonePlaceholder: "+34 600 000 000",
+        countryLabel: "País",
+        countryPlaceholder: "Selecciona un país",
+        countryRequired: "El país es obligatorio",
+        websiteLabel: "Web del centro (opcional)",
+        websitePlaceholder: "https://www.tucentro.com",
+        productInterestLabel: "Me interesa este producto (opcional)",
+        productInterestPlaceholder: "Selecciona una opción",
+        phoneInvalid: "Número de teléfono no válido para {country}",
+        searchPlaceholder: "Buscar",
+        noOptions: "No hay opciones disponibles",
+        productOptions: {
+            platform: "Plataforma completa",
+            communication: "Comunicación",
+            extracurricular: "Extraescolares",
+            tracking: "Seguimiento",
+            workflows: "Workflows",
+            shop: "Tienda",
+            payments: "Pagos internos",
+            ena: "Ena (IA)",
+            other: "Otro",
+        },
+        profileFields: {
+            school: {
+                centerLabel: "Nombre del colegio (opcional)",
+                studentsLabel: "Nº de alumnos (opcional)",
+                stagesLabel: "Etapas educativas (opcional)",
+                stages: {
+                    infantil: "Infantil",
+                    primaria: "Primaria",
+                    eso: "ESO",
+                    bachillerato: "Bachillerato",
+                    fp: "FP",
+                },
+            },
+            nursery: {
+                centerLabel: "Nombre de la escuela (opcional)",
+                childrenLabel: "Nº de niños (opcional)",
+                classroomsLabel: "Nº de aulas (opcional)",
+            },
+            group: {
+                centerLabel: "Nombre del grupo (opcional)",
+                centersLabel: "Nº de centros (opcional)",
+                studentsLabel: "Nº total de alumnos (opcional)",
+            },
+            academy: {
+                centerLabel: "Nombre de la academia (opcional)",
+                studentsLabel: "Nº de alumnos (opcional)",
+                typeLabel: "Tipo de enseñanza (opcional)",
+                typePlaceholder: "Idiomas, refuerzo, música...",
+            },
+            partner: {
+                centerLabel: "Nombre de la empresa (opcional)",
+                websiteLabel: "Web de la empresa (opcional)",
+            },
+        },
     },
     conclusion: {
         title: "Menos administración. Más matrículas. Más familias satisfechas.",
@@ -801,6 +876,14 @@ export default {
             billingDescription:
                 "Facturación electrónica automatizada, compatible con Verifactu, generación de recibos y control de impagos.",
             billingHint: "+0,20€ por niño",
+            crmToggle: "CRM escolar",
+            crmDescription:
+                "Solicitudes de matriculación, pipeline y seguimiento de leads, con formularios de captación personalizables y origen multicanal.",
+            crmHint: "+0,10€ por niño",
+            trackingToggle: "Seguimiento",
+            trackingDescription:
+                "Registro horario del equipo, agenda diaria compartida, tareas internas, guardias y sustituciones.",
+            trackingHint: "+0,10€ por niño",
             extracurricularToggle: "Extraescolares",
             extracurricularDescription:
                 "Gestión y autogestión de actividades: solicitudes online, control de plazas y cobros vinculados.",
@@ -857,25 +940,11 @@ export default {
                 ],
             },
             {
-                title: "Asistencia y notas",
+                title: "Ena",
                 items: [
                     {
-                        moduleId: "attendanceGrades",
-                        label: "Control de asistencia digital, registros y alertas a familias",
-                    },
-                    {
-                        moduleId: "attendanceGrades",
-                        label: "Calificaciones, tareas y ciclos de evaluación",
-                    },
-                ],
-            },
-            {
-                title: "Facturación",
-                items: [
-                    { moduleId: "billing", label: "Facturación electrónica (Verifactu)" },
-                    {
-                        moduleId: "billing",
-                        label: "Recibos, control de impagos y analíticas financieras avanzadas",
+                        moduleId: "ena",
+                        label: "Ena, la IA de Edena: asistente inteligente con tokens mensuales incluidos",
                     },
                 ],
             },
@@ -889,19 +958,6 @@ export default {
                     {
                         moduleId: "communicationPro",
                         label: "Comunicación segmentada por grupo o aula",
-                    },
-                ],
-            },
-            {
-                title: "CRM escolar",
-                items: [
-                    {
-                        moduleId: "crm",
-                        label: "Solicitudes de matriculación, pipeline y seguimiento de leads",
-                    },
-                    {
-                        moduleId: "crm",
-                        label: "Formularios de captación personalizables y origen multicanal",
                     },
                 ],
             },
@@ -929,7 +985,43 @@ export default {
                 ],
             },
             {
-                title: "Tienda online",
+                title: "Seguimiento",
+                items: [
+                    {
+                        moduleId: "tracking",
+                        label: "Registro horario del equipo y agenda diaria compartida",
+                    },
+                    {
+                        moduleId: "tracking",
+                        label: "Tareas internas, guardias y sustituciones",
+                    },
+                ],
+            },
+            {
+                title: "CRM escolar",
+                items: [
+                    {
+                        moduleId: "crm",
+                        label: "Solicitudes de matriculación, pipeline y seguimiento de leads",
+                    },
+                    {
+                        moduleId: "crm",
+                        label: "Formularios de captación personalizables y origen multicanal",
+                    },
+                ],
+            },
+            {
+                title: "Facturación",
+                items: [
+                    { moduleId: "billing", label: "Facturación electrónica (Verifactu)" },
+                    {
+                        moduleId: "billing",
+                        label: "Recibos, control de impagos y analíticas financieras avanzadas",
+                    },
+                ],
+            },
+            {
+                title: "Tienda",
                 items: [
                     {
                         moduleId: "onlineStore",
@@ -957,7 +1049,7 @@ export default {
                 description: "Desde 44€ al mes",
                 pricePerChild: "1,00€ por niño",
                 from: "Desde 44€ al mes",
-                featureIncludedIds: ["platformBase", "attendanceGrades"],
+                featureIncludedIds: ["platformBase", "ena"],
             },
             managementPro: {
                 name: "Gestión Pro",
@@ -966,11 +1058,11 @@ export default {
                 from: "Desde 44€ al mes",
                 featureIncludedIds: [
                     "platformBase",
-                    "attendanceGrades",
-                    "billing",
+                    "ena",
                     "communicationPro",
-                    "crm",
                     "extracurricular",
+                    "automation",
+                    "tracking",
                 ],
             },
             complete: {
@@ -980,12 +1072,13 @@ export default {
                 from: "Desde 44€ al mes",
                 featureIncludedIds: [
                     "platformBase",
-                    "attendanceGrades",
-                    "billing",
+                    "ena",
                     "communicationPro",
-                    "crm",
                     "extracurricular",
                     "automation",
+                    "tracking",
+                    "crm",
+                    "billing",
                     "onlineStore",
                     "cloud",
                 ],
@@ -2097,5 +2190,633 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
         evaluationCycle: "Configuración de ciclos de evaluación en Edena",
         assignmentScoreCard: "Boletín y seguimiento de calificaciones en Edena",
         conclusionLogo: "Logo de Edena - Transforma la gestión de tu centro educativo",
+    },
+    productModules: {
+        extracurricular: {
+            metaTitle:
+                "Software de Gestión de Extraescolares | Inscripciones y Cobros Online | Edena",
+            metaDescription:
+                "Gestiona las actividades extraescolares de principio a fin: inscripciones online, control de plazas, listas de asistencia y cobros automáticos. Menos papeleo y más actividades llenas.",
+            navTitle: "Extraescolares",
+            navDescription:
+                "Gestiona inscripciones, plazas y cobros de actividades extraescolares en un solo lugar, sin hojas de cálculo.",
+            mainTitle: "Llena tus extraescolares y olvídate del papeleo",
+            mainDescription:
+                "Publica actividades, abre inscripciones online, controla las plazas y cobra automáticamente a cada familia. Todo integrado con la facturación del centro y visible desde la app.",
+            heroLeftTitle: "Inscripciones en minutos",
+            heroLeftDescription:
+                "Las familias se apuntan desde la app en pocos toques y tú ves las plazas ocupadas en tiempo real.",
+            heroRightTitle: "Actividades siempre a la vista",
+            heroRightDescription:
+                "Horarios, monitores y grupos organizados y accesibles para familias y equipo.",
+            featuresTitle: "Todo lo que necesitas para gestionar tus actividades",
+            featuresDescription:
+                "Desde la inscripción hasta el cobro, Edena automatiza cada paso de tus extraescolares.",
+            features: [
+                {
+                    title: "Inscripciones online",
+                    description:
+                        "Abre inscripciones con un clic y deja que las familias se apunten desde la app, sin formularios en papel.",
+                },
+                {
+                    title: "Control de plazas",
+                    description:
+                        "Define el aforo de cada actividad y evita sobreinscripciones con listas de espera automáticas.",
+                },
+                {
+                    title: "Cobros automáticos",
+                    description:
+                        "Cobra cada actividad junto a la cuota mensual o por separado, con la facturación integrada del centro.",
+                },
+                {
+                    title: "Listas de asistencia",
+                    description:
+                        "Pasa lista de cada sesión desde el móvil y mantén informadas a las familias en tiempo real.",
+                },
+                {
+                    title: "Horarios y grupos",
+                    description:
+                        "Organiza monitores, horarios y grupos evitando solapamientos en la agenda del centro.",
+                },
+                {
+                    title: "Informes de ocupación",
+                    description:
+                        "Consulta qué actividades funcionan mejor y decide tu oferta con datos reales.",
+                },
+            ],
+            sectionTitle: "Del papel a un flujo totalmente digital",
+            sectionDescription:
+                "Centraliza la gestión de extraescolares y elimina las hojas de cálculo, los cobros manuales y las listas en papel.",
+            section1Title: "Inscripción desde la app",
+            section1Description:
+                "Las familias descubren, comparan y se inscriben en actividades desde el móvil, con confirmación y pago inmediatos.",
+            section2Title: "Agenda coordinada",
+            section2Description:
+                "Cada actividad queda reflejada en el calendario del centro, con monitores, aulas y horarios sin conflictos.",
+            altHero: "Pantalla de actividades extraescolares en la app de Edena",
+            altSection1: "Inscripción a extraescolares desde la app de Edena",
+            altSection2: "Calendario de actividades extraescolares en Edena",
+            faqTitle: "Preguntas frecuentes sobre la gestión de extraescolares",
+            faqDescription:
+                "Resolvemos las dudas más habituales sobre inscripciones, cobros y organización de actividades extraescolares.",
+            faqs: [
+                {
+                    question: "¿Las familias pueden inscribirse solas desde la app?",
+                    answer: "Sí. Publicas la actividad y las familias se inscriben desde la app de Edena en pocos toques, con confirmación y pago automáticos.",
+                },
+                {
+                    question: "¿Puedo limitar las plazas de cada actividad?",
+                    answer: "Puedes definir el aforo máximo de cada actividad. Cuando se llena, Edena cierra las inscripciones y activa una lista de espera automática.",
+                },
+                {
+                    question: "¿Cómo se cobran las extraescolares?",
+                    answer: "Los cobros se integran con la facturación del centro: puedes incluirlos en la cuota mensual o facturarlos por separado, con domiciliación SEPA.",
+                },
+                {
+                    question: "¿Puedo pasar lista de asistencia en cada sesión?",
+                    answer: "Sí, los monitores pasan lista desde el móvil y las familias reciben la información de asistencia en tiempo real.",
+                },
+                {
+                    question: "¿Puedo saber qué actividades tienen más demanda?",
+                    answer: "Edena genera informes de ocupación e ingresos por actividad para que planifiques tu oferta con datos objetivos.",
+                },
+            ],
+        },
+        tracking: {
+            metaTitle:
+                "Control Horario y Agenda Diaria para Centros Educativos | Time Tracking | Edena",
+            metaDescription:
+                "Registro horario del personal, agenda diaria del centro y seguimiento interno de tareas en una sola herramienta. Cumple la normativa laboral y organiza el día a día sin esfuerzo.",
+            navTitle: "Seguimiento",
+            navDescription:
+                "Control horario del personal, agenda diaria y seguimiento interno de tareas, todo conectado.",
+            mainTitle: "El día a día de tu centro, bajo control",
+            mainDescription:
+                "Registro horario del equipo, agenda diaria compartida y seguimiento interno de tareas en una sola plataforma. Cumple la normativa laboral y coordina a tu equipo sin cadenas de correos.",
+            heroLeftTitle: "Fichaje sin fricción",
+            heroLeftDescription:
+                "Tu equipo ficha desde el móvil o la web en un toque y tú tienes los registros listos para la inspección.",
+            heroRightTitle: "Agenda diaria compartida",
+            heroRightDescription:
+                "Reuniones, guardias y eventos del centro visibles para todo el equipo en tiempo real.",
+            featuresTitle: "Coordina a tu equipo y cumple la normativa",
+            featuresDescription:
+                "Control horario, agenda y tareas internas conectados para que nada se pierda por el camino.",
+            features: [
+                {
+                    title: "Registro horario",
+                    description:
+                        "Tu equipo ficha entrada y salida desde cualquier dispositivo. Cumple la normativa de control horario sin hojas de fichaje.",
+                },
+                {
+                    title: "Agenda diaria",
+                    description:
+                        "Comparte guardias, reuniones y eventos en una agenda común y evita solapamientos.",
+                },
+                {
+                    title: "Seguimiento de tareas",
+                    description:
+                        "Asigna tareas internas, define responsables y sigue su estado hasta completarlas.",
+                },
+                {
+                    title: "Guardias y sustituciones",
+                    description:
+                        "Organiza guardias y cubre bajas en minutos con visibilidad total del equipo disponible.",
+                },
+                {
+                    title: "Informes de horas",
+                    description:
+                        "Exporta las horas trabajadas por empleado y periodo para nóminas e inspecciones.",
+                },
+                {
+                    title: "Alertas y recordatorios",
+                    description:
+                        "Recibe avisos automáticos de tareas pendientes, fichajes olvidados y eventos próximos.",
+                },
+            ],
+            sectionTitle: "Del caos de correos a un centro coordinado",
+            sectionDescription:
+                "Reúne fichajes, agenda y tareas internas en un único lugar y libera a tu equipo de la gestión manual.",
+            section1Title: "Control horario conforme a la ley",
+            section1Description:
+                "Registro de jornada fiable y exportable, listo para cualquier inspección de trabajo.",
+            section2Title: "Todo el equipo en la misma página",
+            section2Description:
+                "La agenda diaria y las tareas internas mantienen a dirección, administración y docentes sincronizados.",
+            altHero: "Agenda diaria y control horario del centro en Edena",
+            altSection1: "Registro de jornada y fichaje del personal en Edena",
+            altSection2: "Agenda compartida del equipo educativo en Edena",
+            faqTitle: "Preguntas frecuentes sobre control horario y agenda",
+            faqDescription:
+                "Resolvemos tus dudas sobre el registro horario, la agenda diaria y el seguimiento interno de tareas.",
+            faqs: [
+                {
+                    question: "¿El control horario cumple la normativa laboral?",
+                    answer: "Sí. Edena registra la jornada de cada empleado de forma fiable y te permite exportar los registros para cualquier inspección de trabajo.",
+                },
+                {
+                    question: "¿Desde dónde puede fichar el personal?",
+                    answer: "El equipo puede fichar entrada y salida desde el móvil o el navegador, sin necesidad de hojas de fichaje ni terminales adicionales.",
+                },
+                {
+                    question: "¿Puedo organizar guardias y sustituciones?",
+                    answer: "Puedes planificar guardias, ver quién está disponible y cubrir bajas en minutos desde la agenda compartida.",
+                },
+                {
+                    question: "¿Cómo funciona el seguimiento de tareas internas?",
+                    answer: "Asignas tareas a responsables, defines fechas y sigues su estado hasta completarlas, con recordatorios automáticos.",
+                },
+                {
+                    question: "¿Puedo exportar las horas trabajadas?",
+                    answer: "Sí, puedes exportar las horas por empleado y periodo para la gestión de nóminas y el cumplimiento normativo.",
+                },
+            ],
+        },
+        workflows: {
+            metaTitle: "Automatización de Procesos para Centros Educativos | Workflows | Edena",
+            metaDescription:
+                "Automatiza las tareas repetitivas de tu centro: recordatorios, comunicados, cobros y flujos de matrícula. Diseña workflows sin programar y ahorra horas cada semana.",
+            navTitle: "Workflows",
+            navDescription:
+                "Automatiza tareas repetitivas con flujos de trabajo visuales, sin escribir una línea de código.",
+            mainTitle: "Automatiza lo repetitivo y recupera tu tiempo",
+            mainDescription:
+                "Diseña flujos de trabajo que envían comunicados, generan facturas, asignan tareas y avisan a tu equipo automáticamente. Sin programar y sin depender de nadie.",
+            heroLeftTitle: "Sin código, sin límites",
+            heroLeftDescription:
+                "Crea automatizaciones arrastrando bloques. Define el disparador y deja que Edena haga el resto.",
+            heroRightTitle: "Disparadores inteligentes",
+            heroRightDescription:
+                "Cada evento del centro puede desencadenar acciones automáticas: matrículas, pagos, ausencias y mucho más.",
+            featuresTitle: "Tu centro trabajando en piloto automático",
+            featuresDescription:
+                "Convierte los procesos manuales en flujos automáticos que se ejecutan solos, día y noche.",
+            features: [
+                {
+                    title: "Editor visual",
+                    description:
+                        "Diseña flujos arrastrando bloques. Define disparadores, condiciones y acciones sin escribir código.",
+                },
+                {
+                    title: "Disparadores automáticos",
+                    description:
+                        "Lanza acciones cuando ocurre algo: nueva matrícula, impago, falta de asistencia o una fecha señalada.",
+                },
+                {
+                    title: "Comunicados automáticos",
+                    description:
+                        "Envía emails y notificaciones a familias y equipo en el momento justo, sin intervención manual.",
+                },
+                {
+                    title: "Facturación programada",
+                    description:
+                        "Genera y envía facturas de forma recurrente según las reglas que definas.",
+                },
+                {
+                    title: "Asignación de tareas",
+                    description:
+                        "Crea y asigna tareas al equipo automáticamente cuando se cumplen ciertas condiciones.",
+                },
+                {
+                    title: "Plantillas listas",
+                    description:
+                        "Empieza con plantillas de flujos habituales en centros educativos y adáptalas a tu caso.",
+                },
+            ],
+            sectionTitle: "Reglas que trabajan por ti",
+            sectionDescription:
+                "Define qué ocurre y cuándo. Edena ejecuta cada paso sin que tengas que acordarte de nada.",
+            section1Title: "Flujos que se ejecutan solos",
+            section1Description:
+                "Configura el disparador una vez y Edena lanza cada acción en el momento exacto, sin supervisión.",
+            section2Title: "Menos errores, más consistencia",
+            section2Description:
+                "Cada proceso se ejecuta igual siempre, eliminando olvidos y errores humanos.",
+            altHero: "Editor de flujos de trabajo y automatizaciones en Edena",
+            altSection1: "Automatización de procesos con reglas y disparadores en Edena",
+            altSection2: "Panel de automatizaciones del centro educativo en Edena",
+            faqTitle: "Preguntas frecuentes sobre automatización y workflows",
+            faqDescription:
+                "Resolvemos tus dudas sobre cómo automatizar procesos y crear flujos de trabajo en tu centro.",
+            faqs: [
+                {
+                    question: "¿Necesito saber programar para crear workflows?",
+                    answer: "No. Los flujos se diseñan con un editor visual: arrastras bloques, defines el disparador y las acciones, y listo.",
+                },
+                {
+                    question: "¿Qué puedo automatizar con Edena?",
+                    answer: "Comunicados a familias, generación de facturas, asignación de tareas, recordatorios y flujos de matrícula, entre otros procesos.",
+                },
+                {
+                    question: "¿Qué es un disparador?",
+                    answer: "Es el evento que inicia el flujo: una nueva matrícula, un impago, una falta de asistencia o una fecha concreta, por ejemplo.",
+                },
+                {
+                    question: "¿Puedo empezar con plantillas?",
+                    answer: "Sí, Edena incluye plantillas de flujos habituales en centros educativos que puedes usar tal cual o adaptar.",
+                },
+                {
+                    question: "¿Los flujos se ejecutan solos?",
+                    answer: "Una vez configurados, se ejecutan automáticamente cuando se cumple el disparador, sin que tengas que intervenir.",
+                },
+            ],
+        },
+        shop: {
+            metaTitle: "Tienda Online para Colegios | Uniformes, Material y Servicios | Edena Shop",
+            metaDescription:
+                "Vende uniformes, material escolar, comedor y actividades desde una tienda online integrada en tu centro. Cobros automáticos y stock controlado, sin comisiones ocultas.",
+            navTitle: "Tienda",
+            navDescription:
+                "La tienda online de tu centro: uniformes, material y servicios con cobro integrado.",
+            mainTitle: "La tienda de tu centro, integrada y sin comisiones ocultas",
+            mainDescription:
+                "Vende uniformes, material, comedor y servicios extra desde la app que ya usan las familias. Cobros automáticos, stock actualizado y toda la facturación en un solo sitio.",
+            heroLeftTitle: "Compra en dos toques",
+            heroLeftDescription:
+                "Las familias compran desde la app con los datos de pago que ya tienen configurados.",
+            heroRightTitle: "Catálogo siempre al día",
+            heroRightDescription:
+                "Gestiona productos, precios y stock desde el panel y publícalos al instante.",
+            featuresTitle: "Todo lo que necesita la tienda de tu centro",
+            featuresDescription:
+                "Desde el catálogo hasta el cobro, Edena convierte la venta en el centro en un proceso 100% digital.",
+            features: [
+                {
+                    title: "Catálogo propio",
+                    description:
+                        "Crea tu catálogo de productos y servicios con fotos, variantes y precios en minutos.",
+                },
+                {
+                    title: "Cobro integrado",
+                    description:
+                        "Cada compra se cobra con los métodos de pago del centro y aparece en la facturación.",
+                },
+                {
+                    title: "Control de stock",
+                    description:
+                        "Controla las existencias por producto y evita vender lo que no tienes.",
+                },
+                {
+                    title: "Variantes y tallas",
+                    description:
+                        "Gestiona tallas, colores y variantes de uniformes y material sin complicarte.",
+                },
+                {
+                    title: "Compra desde la app",
+                    description:
+                        "Las familias compran desde la app de Edena, sin registros ni pasarelas externas.",
+                },
+                {
+                    title: "Informes de ventas",
+                    description:
+                        "Consulta qué se vende y cuánto ingresas para ajustar tu catálogo.",
+                },
+            ],
+            sectionTitle: "Del pedido en papel a la tienda digital",
+            sectionDescription:
+                "Digitaliza la venta de uniformes, material y servicios y olvida los sobres y las listas manuales.",
+            section1Title: "Ficha de producto completa",
+            section1Description:
+                "Fotos, descripción, variantes y stock: cada producto se presenta como en una tienda profesional.",
+            section2Title: "Pago inmediato y seguro",
+            section2Description:
+                "Las familias pagan al instante con sus métodos habituales y reciben el recibo en la app.",
+            altHero: "Tienda online del centro en la app de Edena",
+            altSection1: "Ficha de producto de la tienda escolar de Edena",
+            altSection2: "Proceso de compra y pago en la tienda de Edena",
+            faqTitle: "Preguntas frecuentes sobre la tienda online",
+            faqDescription:
+                "Resolvemos tus dudas sobre cómo vender uniformes, material y servicios desde Edena.",
+            faqs: [
+                {
+                    question: "¿Qué puedo vender en la tienda?",
+                    answer: "Uniformes, material escolar, servicios como comedor o actividades y cualquier producto o servicio que ofrezca tu centro.",
+                },
+                {
+                    question: "¿Cómo pagan las familias?",
+                    answer: "Compran desde la app con los métodos de pago que ya tienen configurados, y cada compra se integra en la facturación del centro.",
+                },
+                {
+                    question: "¿Edena cobra comisiones por venta?",
+                    answer: "La tienda está integrada en tu plataforma sin comisiones ocultas por venta; solo se aplican las comisiones de la pasarela de pago que uses.",
+                },
+                {
+                    question: "¿Puedo controlar el stock?",
+                    answer: "Sí, defines existencias por producto y variante, y Edena evita vender lo que no está disponible.",
+                },
+                {
+                    question: "¿Puedo gestionar tallas y variantes?",
+                    answer: "Puedes crear variantes de tallas, colores y modelos para uniformes y material, cada una con su propio stock.",
+                },
+            ],
+        },
+        communication: {
+            metaTitle: "Comunicación Escolar Familia-Centro | Mensajería y Circulares | Edena",
+            metaDescription:
+                "Mensajería segura, circulares con confirmación de lectura, notificaciones push y muro del centro en una sola app. Comunica con las familias al instante y asegúrate de que todos reciben la información.",
+            navTitle: "Comunicación",
+            navDescription:
+                "Mensajería, circulares y notificaciones push para llegar a todas las familias al instante.",
+            mainTitle: "Comunica con las familias sin perder ningún mensaje",
+            mainDescription:
+                "Mensajería segura, circulares con confirmación de lectura, notificaciones push y muro del centro. Una sola app para que la información llegue a todas las familias, siempre.",
+            heroLeftTitle: "Mensajes que sí llegan",
+            heroLeftDescription:
+                "Notificaciones push y confirmación de lectura para asegurarte de que la información no se pierde.",
+            heroRightTitle: "Conversaciones seguras",
+            heroRightDescription:
+                "Chat directo entre centro y familias, sin compartir números de teléfono personales.",
+            featuresTitle: "Una sola voz para todo el centro",
+            featuresDescription:
+                "Sustituye las agendas de papel, los grupos de WhatsApp y los correos dispersos por un canal único y profesional.",
+            features: [
+                {
+                    title: "Mensajería segura",
+                    description:
+                        "Chatea con familias y equipo desde un entorno seguro, sin dar tu número personal.",
+                },
+                {
+                    title: "Circulares y comunicados",
+                    description:
+                        "Envía comunicados masivos con confirmación de lectura y segmentación por grupos.",
+                },
+                {
+                    title: "Notificaciones push",
+                    description:
+                        "Las familias reciben avisos al instante en el móvil, sin depender del correo.",
+                },
+                {
+                    title: "Muro del centro",
+                    description:
+                        "Publica novedades, fotos y eventos en un muro que las familias siguen desde la app.",
+                },
+                {
+                    title: "Traducción automática",
+                    description:
+                        "Llega a familias de cualquier idioma con la traducción integrada de los mensajes.",
+                },
+                {
+                    title: "Historial completo",
+                    description:
+                        "Guarda todas las comunicaciones y consúltalas cuando las necesites.",
+                },
+            ],
+            sectionTitle: "Del grupo de WhatsApp a la comunicación profesional",
+            sectionDescription:
+                "Centraliza toda la comunicación del centro en un canal seguro, ordenado y con trazabilidad.",
+            section1Title: "Chat directo y ordenado",
+            section1Description:
+                "Cada conversación queda organizada por familia y alumno, sin buscar entre grupos ni notas.",
+            section2Title: "Comunicados con seguimiento",
+            section2Description:
+                "Envía circulares y comprueba quién las ha leído para no dejar a nadie sin la información importante.",
+            altHero: "Chat de comunicación entre centro y familias en la app de Edena",
+            altSection1: "Mensajería directa familia-centro en Edena",
+            altSection2: "Envío de circulares y comunicados con seguimiento en Edena",
+            faqTitle: "Preguntas frecuentes sobre comunicación escolar",
+            faqDescription:
+                "Resolvemos tus dudas sobre mensajería, circulares y notificaciones con las familias.",
+            faqs: [
+                {
+                    question: "¿La mensajería es segura?",
+                    answer: "Sí. La comunicación se produce en un entorno seguro y cifrado, sin necesidad de compartir números de teléfono personales.",
+                },
+                {
+                    question: "¿Puedo saber si las familias han leído un comunicado?",
+                    answer: "Las circulares incluyen confirmación de lectura, así sabes exactamente quién ha recibido y leído la información.",
+                },
+                {
+                    question: "¿Puedo enviar mensajes a grupos concretos?",
+                    answer: "Puedes segmentar los envíos por clase, curso, actividad o cualquier grupo que definas en tu centro.",
+                },
+                {
+                    question: "¿Funciona con familias de otros idiomas?",
+                    answer: "Sí, la traducción automática permite que cada familia reciba los mensajes en su idioma.",
+                },
+                {
+                    question: "¿Sustituye a los grupos de WhatsApp?",
+                    answer: "Sí. Edena centraliza toda la comunicación en un canal profesional, ordenado y con historial, sin la dispersión de los grupos de mensajería.",
+                },
+            ],
+        },
+        internalPayments: {
+            metaTitle: "Monedero Escolar y Pagos Internos | Saldos y Cobros del Centro | Edena",
+            metaDescription:
+                "Gestiona el monedero interno de las familias: recargas, saldos y cobros de comedor, excursiones y servicios. Pagos rápidos sin efectivo y control total de cada movimiento.",
+            navTitle: "Pagos Internos",
+            navDescription:
+                "Monedero escolar con saldos y recargas para cobrar comedor, excursiones y servicios sin efectivo.",
+            mainTitle: "Adiós al efectivo en el centro",
+            mainDescription:
+                "Un monedero interno para cada familia con el que pagar comedor, excursiones y servicios en segundos. Recargas online, saldos en tiempo real y control total de cada movimiento.",
+            heroLeftTitle: "Pagos sin efectivo",
+            heroLeftDescription:
+                "Cobra excursiones, comedor y servicios desde el saldo de cada familia, sin sobres ni monedas.",
+            heroRightTitle: "Saldo siempre visible",
+            heroRightDescription:
+                "Cada familia consulta su saldo y sus movimientos desde la app, con recargas en un toque.",
+            featuresTitle: "El dinero del centro, siempre cuadrado",
+            featuresDescription:
+                "Elimina el efectivo, los sobres y los cuadres manuales con un monedero interno integrado en la facturación.",
+            features: [
+                {
+                    title: "Monedero por familia",
+                    description:
+                        "Cada familia dispone de un saldo interno para pagar los servicios del centro al instante.",
+                },
+                {
+                    title: "Recargas online",
+                    description:
+                        "Las familias recargan su monedero desde la app con tarjeta o domiciliación.",
+                },
+                {
+                    title: "Cobros rápidos",
+                    description:
+                        "Cobra comedor, excursiones y servicios descontando del saldo, sin manejar efectivo.",
+                },
+                {
+                    title: "Movimientos en tiempo real",
+                    description:
+                        "Cada ingreso y gasto queda registrado y visible para familias y administración.",
+                },
+                {
+                    title: "Avisos de saldo bajo",
+                    description:
+                        "Edena avisa automáticamente cuando el saldo baja para que nunca falte.",
+                },
+                {
+                    title: "Conciliación automática",
+                    description:
+                        "Todos los pagos internos cuadran con la facturación del centro sin cuadres manuales.",
+                },
+            ],
+            sectionTitle: "Del sobre con monedas al pago digital",
+            sectionDescription:
+                "Digitaliza los pequeños cobros del día a día y elimina el efectivo de las aulas.",
+            section1Title: "Recarga y gasta en segundos",
+            section1Description:
+                "Las familias recargan y pagan desde la app; el saldo se actualiza al instante.",
+            section2Title: "Cada euro, controlado",
+            section2Description:
+                "Consulta ingresos, gastos y saldos por familia y servicio con informes automáticos.",
+            altHero: "Monedero interno y saldo familiar en la app de Edena",
+            altSection1: "Recarga de saldo y pagos internos en Edena",
+            altSection2: "Informe de movimientos y saldos internos en Edena",
+            faqTitle: "Preguntas frecuentes sobre pagos internos",
+            faqDescription:
+                "Resolvemos tus dudas sobre el monedero interno, las recargas y los cobros de servicios del centro.",
+            faqs: [
+                {
+                    question: "¿Qué es el monedero interno?",
+                    answer: "Es un saldo por familia dentro de Edena con el que pagar servicios del centro como comedor, excursiones o material, sin usar efectivo.",
+                },
+                {
+                    question: "¿Cómo recargan las familias su saldo?",
+                    answer: "Recargan desde la app con tarjeta o domiciliación, y el saldo queda disponible al instante.",
+                },
+                {
+                    question: "¿Puedo ver los movimientos de cada familia?",
+                    answer: "Sí, cada ingreso y gasto queda registrado y es visible tanto para la familia como para la administración del centro.",
+                },
+                {
+                    question: "¿Los pagos internos cuadran con la facturación?",
+                    answer: "Todos los movimientos se concilian automáticamente con la facturación del centro, sin cuadres manuales.",
+                },
+                {
+                    question: "¿Avisa cuando el saldo es bajo?",
+                    answer: "Sí, Edena envía avisos automáticos cuando el saldo de una familia baja, para que pueda recargar a tiempo.",
+                },
+            ],
+        },
+        ena: {
+            metaTitle:
+                "Ena, la Inteligencia Artificial de tu Centro Educativo | Asistente IA | Edena",
+            metaDescription:
+                "Ena es el agente de IA de Edena: automatiza facturas, redacta comunicados, pasa lista y responde a toda tu organización. Inteligencia artificial educativa con seguridad enterprise.",
+            navTitle: "Ena",
+            navDescription:
+                "El agente de inteligencia artificial que automatiza procesos y responde a todo tu centro 24/7.",
+            mainTitle: "Ena, la inteligencia artificial que trabaja por tu centro",
+            mainDescription:
+                "Ena automatiza procesos, genera facturas, redacta comunicados y responde las preguntas de dirección, administración, docentes y familias. IA educativa con seguridad enterprise, disponible 24/7.",
+            heroLeftTitle: "Tu asistente 24/7",
+            heroLeftDescription:
+                "Pregunta a @Ena lo que necesites sobre tu centro y obtén respuestas al instante, a cualquier hora.",
+            heroRightTitle: "Automatización con IA",
+            heroRightDescription:
+                "Ena prepara facturas, pasa lista y tramita procesos administrativos por ti.",
+            featuresTitle: "Menos tareas repetitivas, más tiempo para educar",
+            featuresDescription:
+                "Ena se encarga de lo que consume el tiempo de tu equipo para que puedan centrarse en lo que importa.",
+            features: [
+                {
+                    title: "Asistente inteligente",
+                    description:
+                        "Usa @Ena como asistente disponible 24/7 para resolver dudas de toda la organización.",
+                },
+                {
+                    title: "Automatización con IA",
+                    description:
+                        "Ena genera facturas, crea conceptos y completa tareas administrativas repetitivas por ti.",
+                },
+                {
+                    title: "Respuestas al instante",
+                    description:
+                        "Responde a dirección, administración, docentes y familias con la información del centro.",
+                },
+                {
+                    title: "Comunicados automáticos",
+                    description:
+                        "Ena redacta y envía comunicados a las familias siguiendo el tono de tu centro.",
+                },
+                {
+                    title: "Gestión de RRHH",
+                    description:
+                        "Tramita solicitudes de RRHH, bajas y permisos directamente en Edena.",
+                },
+                {
+                    title: "Seguridad enterprise",
+                    description:
+                        "IA con más privacidad que un chatbot genérico: tus datos siempre protegidos y bajo tu control.",
+                },
+            ],
+            sectionTitle: "Automatiza lo que más tiempo consume a tu equipo",
+            sectionDescription:
+                "Ena redacta comunicados, pasa lista y gestiona procesos de RRHH directamente en Edena.",
+            section1Title: "Ena trabaja donde trabaja tu centro",
+            section1Description:
+                "Comunicados, asistencia y recursos humanos gestionados por Ena directamente dentro de Edena.",
+            section2Title: "Seguridad enterprise de serie",
+            section2Description:
+                "Seguridad integrada e IA con más privacidad que un chatbot genérico, con soporte 24/7.",
+            altHero: "Ena, el agente de inteligencia artificial de Edena",
+            altSection1: "Ena automatizando tareas administrativas en Edena",
+            altSection2: "Seguridad y privacidad de la IA de Edena",
+            faqTitle: "Preguntas frecuentes sobre Ena, la IA de Edena",
+            faqDescription:
+                "Resolvemos tus dudas sobre qué puede hacer Ena y cómo protege los datos de tu centro.",
+            faqs: [
+                {
+                    question: "¿Qué es Ena?",
+                    answer: "Ena es el agente de inteligencia artificial de Edena. Automatiza procesos, genera facturas, redacta comunicados y responde preguntas de toda tu organización.",
+                },
+                {
+                    question: "¿Quién puede usar Ena?",
+                    answer: "Dirección, administración, docentes y familias pueden interactuar con Ena según los permisos que defina el centro.",
+                },
+                {
+                    question: "¿Qué tareas puede automatizar Ena?",
+                    answer: "Genera facturas, crea conceptos, redacta y envía comunicados, pasa lista y tramita procesos de RRHH, entre otras tareas repetitivas.",
+                },
+                {
+                    question: "¿Es seguro usar Ena con los datos del centro?",
+                    answer: "Sí. Ena ofrece seguridad enterprise integrada y más privacidad que un chatbot genérico: tus datos permanecen protegidos y bajo tu control.",
+                },
+                {
+                    question: "¿Ena está disponible en cualquier momento?",
+                    answer: "Sí, Ena funciona 24/7 y responde al instante dentro de Edena, con soporte disponible cuando lo necesites.",
+                },
+            ],
+        },
     },
 };

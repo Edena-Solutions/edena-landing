@@ -1,0 +1,111 @@
+---
+import { translations, languages } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+import Hero from "@/components/Hero.astro";
+import Section from "@/components/Section.astro";
+import GSAPSection from "@/components/ui/gsap-section";
+import Features from "@/components/Features";
+import ProductFAQs from "@/components/ProductFAQs.astro";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import { ogFromAsset } from "@/lib/og-image";
+import billingInfo from "@/assets/img/screenshots/finance/billing_info.png";
+import billingInfoDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
+import invoiceAnalytics from "@/assets/img/screenshots/finance/invoice_analytics.png";
+import invoiceAnalyticsDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
+import heroImage from "@/assets/img/screenshots/finance/billing_cycle.png";
+import heroImageDark from "@/assets/img/screenshots/finance/dark/billing_cycle.png";
+
+export function getStaticPaths() {
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+const m = t.productModules.internalPayments;
+
+const icons = ["Wallet", "CreditCard", "Zap", "Activity", "Bell", "FileBarChart"];
+const features = m.features.map((f, i) => ({
+    icon: icons[i],
+    title: f.title,
+    description: f.description,
+    navigateTo: `/${lang}/internal-payments`,
+}));
+---
+
+<Layout
+    content={{
+        title: m.metaTitle,
+        description: m.metaDescription,
+        ...ogFromAsset(billingInfo, Astro.site),
+    }}
+    lang={lang}
+>
+    <GSAPSection client:load className="grid gap-16" animationType="opacity">
+        <Hero
+            t={t}
+            heroImage={heroImage}
+            heroImageDark={heroImageDark}
+            showBookDemoInHero={true}
+            mainTitle={m.mainTitle}
+            mainDescription={m.mainDescription}
+            leftCard={{
+                title: m.heroLeftTitle,
+                description: m.heroLeftDescription,
+                showButton: true,
+            }}
+            rightCard={{
+                title: m.heroRightTitle,
+                description: m.heroRightDescription,
+                image: billingInfo,
+                imageDark: billingInfoDark,
+                imageClass: "w-full mx-auto object-contain md:h-100",
+                altText: m.altHero,
+            }}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={m.featuresTitle}
+            description={m.featuresDescription}
+        />
+        <Section
+            t={t}
+            sectionTitle={m.sectionTitle}
+            sectionDescription={m.sectionDescription}
+            leftCard={{
+                title: m.section1Title,
+                description: m.section1Description,
+                altText: m.altSection1,
+            }}
+            rightCard={{
+                title: m.section2Title,
+                description: m.section2Description,
+                image: invoiceAnalytics,
+                imageDark: invoiceAnalyticsDark,
+                imageClass: "w-full mx-auto object-contain md:h-100",
+                altText: m.altSection2,
+            }}
+        >
+            <img
+                slot="leftCardVisual"
+                src="/gifs/payment-success.gif"
+                alt={m.altSection1}
+                class="mx-auto md:mt-8 h-40 w-40 object-contain grayscale md:h-48 md:w-48"
+            />
+        </Section>
+        <ProductFAQs t={t} title={m.faqTitle} description={m.faqDescription} faqs={m.faqs} />
+    </GSAPSection>
+    <SoftwareApplicationSchema
+        slot="structured-data"
+        name="Edena - Pagos Internos"
+        description={m.metaDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/internal-payments`}
+        lang={lang}
+    />
+</Layout>

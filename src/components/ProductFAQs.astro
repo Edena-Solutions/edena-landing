@@ -1,17 +1,21 @@
 ---
-import { getCollection } from "astro:content";
 import FAQAccordion from "@/components/FAQAccordion";
 import GSAPSection from "@/components/ui/gsap-section";
 import type { Translation } from "@/i18n";
 
-interface Props {
-    t: Translation;
+interface FAQItem {
+    question: string;
+    answer: string;
 }
 
-const { t } = Astro.props;
+interface Props {
+    t: Translation;
+    title: string;
+    description: string;
+    faqs: FAQItem[];
+}
 
-const faqsCollection = await getCollection("faqs");
-const guardianFaqs = faqsCollection.find((entry) => entry.id === "faqsGuardian.md");
+const { t, title, description, faqs } = Astro.props;
 ---
 
 <GSAPSection client:load className="grid gap-16 px-4">
@@ -19,9 +23,11 @@ const guardianFaqs = faqsCollection.find((entry) => entry.id === "faqsGuardian.m
         <h2
             class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
         >
-            {t.faqs.guardians.title}
+            {title}
         </h2>
-        <p class="max-w-xl text-muted-foreground">{t.faqs.guardians.description}</p>
+        <p class="max-w-xl text-muted-foreground">
+            {description}
+        </p>
     </div>
-    <FAQAccordion faqs={guardianFaqs?.data.faqs || []} t={t} client:load />
+    <FAQAccordion faqs={faqs} t={t} client:load />
 </GSAPSection>

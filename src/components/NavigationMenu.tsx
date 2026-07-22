@@ -3,16 +3,21 @@ import type { LucideIcon } from "lucide-react";
 import {
     Baby,
     BookOpenText,
+    Clock,
     GraduationCap,
     HeartHandshake,
     Landmark,
     LayoutDashboard,
     LayoutGrid,
+    MessagesSquare,
+    Sparkles,
     School,
     Shapes,
     SquareUser,
-    Users,
+    Store,
+    Wallet,
     WalletCards,
+    Zap,
 } from "lucide-react";
 import {
     NavigationMenu,
@@ -24,6 +29,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import logo from "@/assets/img/logos/logo.png";
+import aiLogo from "@/assets/img/logos/ai.png";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { translations } from "@/i18n/index.ts";
 import { Button } from "./ui/button";
@@ -33,8 +39,31 @@ interface MenuItem {
     title: string;
     href: string;
     description: string;
-    icon: LucideIcon;
+    icon?: LucideIcon;
+    iconImage?: { src: string };
+    iconColor?: string;
 }
+
+const MenuItemIcon = ({
+    icon: Icon,
+    iconImage,
+}: {
+    icon?: LucideIcon;
+    iconImage?: { src: string };
+}) => {
+    if (iconImage) {
+        return <img src={iconImage.src} alt="" aria-hidden="true" className="size-5" />;
+    }
+
+    if (!Icon) return null;
+
+    return <Icon size={20} className="text-current" />;
+};
+
+const iconBoxBase =
+    "flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center transition-colors";
+const iconBoxDefault =
+    "bg-muted text-foreground group-hover:bg-background group-hover:text-foreground group-focus-within:bg-primary group-focus-within:text-primary-foreground";
 
 interface Props {
     className?: string;
@@ -78,13 +107,17 @@ const ListItem = ({
     title,
     href,
     children,
-    icon: Icon,
+    icon,
+    iconImage,
+    iconColor,
 }: {
     className?: string;
     title: string;
     href: string;
     children: React.ReactNode;
-    icon: LucideIcon;
+    icon?: LucideIcon;
+    iconImage?: { src: string };
+    iconColor?: string;
 }) => {
     return (
         <li>
@@ -96,8 +129,8 @@ const ListItem = ({
                     )}
                     href={href}
                 >
-                    <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-muted flex items-center justify-center text-foreground transition-colors group-hover:bg-background group-hover:text-primary-foreground group-focus-within:bg-primary group-focus-within:text-primary-foreground">
-                        <Icon size={20} />
+                    <div className={cn(iconBoxBase, iconColor ?? iconBoxDefault)}>
+                        <MenuItemIcon icon={icon} iconImage={iconImage} />
                     </div>
                     <div className="min-w-0 flex-1 space-y-1">
                         <div className="text-[10px] font-semibold uppercase tracking-widest">
@@ -114,15 +147,14 @@ const ListItem = ({
 };
 
 const MobileMenuItemLink = ({ item }: { item: MenuItem }) => {
-    const Icon = item.icon;
     return (
         <li>
             <a
                 href={item.href}
                 className="group flex flex-row items-start gap-3 rounded-md px-2 py-2.5 -mx-2 text-foreground no-underline transition-colors hover:bg-muted focus-visible:bg-muted"
             >
-                <div className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-muted flex items-center justify-center text-foreground transition-colors group-hover:bg-primary group-hover:text-primary-foreground group-focus-within:bg-primary group-focus-within:text-primary-foreground">
-                    <Icon size={20} />
+                <div className={cn("mt-0.5", iconBoxBase, item.iconColor ?? iconBoxDefault)}>
+                    <MenuItemIcon icon={item.icon} iconImage={item.iconImage} />
                 </div>
                 <div className="min-w-0 flex-1 space-y-1">
                     <div className="text-[10px] font-semibold uppercase tracking-widest">
@@ -141,7 +173,84 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const t = translations[lang as keyof typeof translations];
 
+    const pm = t.productModules;
+
     const products: MenuItem[] = [
+        {
+            title: t.navigation.crm,
+            href: `/${lang}/crm`,
+            description: t.navigation.crmDescription,
+            icon: SquareUser,
+            iconColor: "bg-blue-100 text-blue-600 dark:bg-blue-500/15 dark:text-blue-400",
+        },
+        {
+            title: t.navigation.app,
+            href: `/${lang}/app`,
+            description: t.navigation.appDescription,
+            icon: Shapes,
+            iconColor: "bg-rose-100 text-rose-600 dark:bg-rose-500/15 dark:text-rose-400",
+        },
+        {
+            title: t.navigation.finance,
+            href: `/${lang}/finance`,
+            description: t.navigation.financeDescription,
+            icon: WalletCards,
+            iconColor:
+                "bg-emerald-100 text-emerald-600 dark:bg-emerald-500/15 dark:text-emerald-400",
+        },
+        {
+            title: pm.extracurricular.navTitle,
+            href: `/${lang}/extracurricular`,
+            description: pm.extracurricular.navDescription,
+            icon: Sparkles,
+            iconColor: "bg-amber-100 text-amber-600 dark:bg-amber-500/15 dark:text-amber-400",
+        },
+        {
+            title: pm.communication.navTitle,
+            href: `/${lang}/communication`,
+            description: pm.communication.navDescription,
+            icon: MessagesSquare,
+            iconColor: "bg-sky-100 text-sky-600 dark:bg-sky-500/15 dark:text-sky-400",
+        },
+        {
+            title: pm.internalPayments.navTitle,
+            href: `/${lang}/internal-payments`,
+            description: pm.internalPayments.navDescription,
+            icon: Wallet,
+            iconColor: "bg-violet-100 text-violet-600 dark:bg-violet-500/15 dark:text-violet-400",
+        },
+        {
+            title: pm.shop.navTitle,
+            href: `/${lang}/shop`,
+            description: pm.shop.navDescription,
+            icon: Store,
+            iconColor:
+                "bg-fuchsia-100 text-fuchsia-600 dark:bg-fuchsia-500/15 dark:text-fuchsia-400",
+        },
+        {
+            title: pm.tracking.navTitle,
+            href: `/${lang}/tracking`,
+            description: pm.tracking.navDescription,
+            icon: Clock,
+            iconColor: "bg-teal-100 text-teal-600 dark:bg-teal-500/15 dark:text-teal-400",
+        },
+        {
+            title: pm.workflows.navTitle,
+            href: `/${lang}/workflows`,
+            description: pm.workflows.navDescription,
+            icon: Zap,
+            iconColor: "bg-indigo-100 text-indigo-600 dark:bg-indigo-500/15 dark:text-indigo-400",
+        },
+        {
+            title: pm.ena.navTitle,
+            href: `/${lang}/ena`,
+            description: pm.ena.navDescription,
+            iconImage: aiLogo,
+            iconColor: "bg-muted text-black dark:text-white",
+        },
+    ];
+
+    const segments: MenuItem[] = [
         {
             title: t.navigation.students,
             href: `/${lang}/students`,
@@ -155,38 +264,11 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
             icon: LayoutDashboard,
         },
         {
-            title: t.navigation.finance,
-            href: `/${lang}/finance`,
-            description: t.navigation.financeDescription,
-            icon: WalletCards,
-        },
-        {
-            title: t.navigation.crm,
-            href: `/${lang}/crm`,
-            description: t.navigation.crmDescription,
-            icon: SquareUser,
-        },
-        {
-            title: t.navigation.guardians,
-            href: `/${lang}/guardians`,
-            description: t.navigation.guardiansDescription,
-            icon: Users,
-        },
-        {
             title: t.navigation.assignment,
             href: `/${lang}/assignment`,
             description: t.navigation.assignmentDescription,
             icon: BookOpenText,
         },
-        {
-            title: t.navigation.app,
-            href: `/${lang}/app`,
-            description: t.navigation.appDescription,
-            icon: Shapes,
-        },
-    ];
-
-    const segments: MenuItem[] = [
         {
             title: t.navigation.nurseries,
             href: `/${lang}/nurseries`,
@@ -233,7 +315,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                         <NavigationMenu className="flex-none justify-start">
                             <NavigationMenuList className="justify-start">
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="font-medium">
                                         {t.navigation.products}
                                     </NavigationMenuTrigger>
                                     <NavigationMenuContent>
@@ -244,6 +326,8 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                                     title={item.title}
                                                     href={item.href}
                                                     icon={item.icon}
+                                                    iconImage={item.iconImage}
+                                                    iconColor={item.iconColor}
                                                 >
                                                     {item.description}
                                                 </ListItem>
@@ -252,7 +336,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     </NavigationMenuContent>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="font-medium">
                                         {t.navigation.functionalities}
                                     </NavigationMenuTrigger>
                                     <NavigationMenuContent>
@@ -272,17 +356,16 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
                                     <Link href={`/${lang}/pricing`}>
-                                        <Button variant="ghost">{t.navigation.pricing}</Button>
+                                        <Button variant="ghost" className="font-medium">
+                                            {t.navigation.pricing}
+                                        </Button>
                                     </Link>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
                                     <Link href={`/${lang}/contact`}>
-                                        <Button variant="ghost">{t.navigation.contact}</Button>
-                                    </Link>
-                                </NavigationMenuItem>
-                                <NavigationMenuItem>
-                                    <Link href={`/${lang}/blog`}>
-                                        <Button variant="ghost">{t.navigation.blog}</Button>
+                                        <Button variant="ghost" className="font-medium">
+                                            {t.navigation.contact}
+                                        </Button>
                                     </Link>
                                 </NavigationMenuItem>
                             </NavigationMenuList>
@@ -302,7 +385,9 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
 
                 <div className="hidden lg:flex shrink-0 items-center gap-2 ml-auto pl-8 xl:pl-6">
                     <Link href={`/${lang}/demo`}>
-                        <Button variant="link">{t.bookDemo}</Button>
+                        <Button variant="link" className="font-medium">
+                            {t.bookDemo}
+                        </Button>
                     </Link>
                     <Link href="https://app.edena.es/login">
                         <Button variant="secondary">{t.loginButton}</Button>
@@ -356,14 +441,6 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                         className="block py-2 text-sm hover:text-primary"
                                     >
                                         {t.navigation.contact}
-                                    </a>
-                                </div>
-                                <div>
-                                    <a
-                                        href={`/${lang}/blog`}
-                                        className="block py-2 text-sm hover:text-primary"
-                                    >
-                                        {t.navigation.blog}
                                     </a>
                                 </div>
                             </div>

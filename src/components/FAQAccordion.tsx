@@ -33,7 +33,7 @@ export default function FAQAccordion({ faqs, t, className }: FAQAccordionProps) 
                 {faqs.map((faq, index) => {
                     return (
                         <AccordionItem key={`item-${index}`} value={`item-${index}`}>
-                            <AccordionTrigger className="text-left font-medium cursor-pointer">
+                            <AccordionTrigger className="text-left cursor-pointer">
                                 {getFaqString(t.faqs, faq.question)}
                             </AccordionTrigger>
                             <AccordionContent>

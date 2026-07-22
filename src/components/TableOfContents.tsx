@@ -158,18 +158,18 @@ export default function TableOfContents({
                                 onClick={() => scrollToHeading(heading.id)}
                                 className={`text-left w-full px-2 py-1 text-sm rounded transition-colors cursor-pointer ${
                                     activeId === heading.id
-                                        ? "text-primary bg-primary/10 font-medium"
+                                        ? "text-primary bg-primary/10"
                                         : "text-muted-foreground hover:text-accent-foreground"
                                 } ${
                                     heading.level === 2
-                                        ? "font-medium"
+                                        ? ""
                                         : heading.level === 3
-                                        ? "ml-3"
-                                        : heading.level === 4
-                                        ? "ml-6"
-                                        : heading.level === 5
-                                        ? "ml-9"
-                                        : "ml-12"
+                                          ? "ml-3"
+                                          : heading.level === 4
+                                            ? "ml-6"
+                                            : heading.level === 5
+                                              ? "ml-9"
+                                              : "ml-12"
                                 }`}
                             >
                                 {heading.text}

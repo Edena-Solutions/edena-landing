@@ -56,7 +56,7 @@ function TabItem({
                 </div>
                 <span
                     className={cn(
-                        "text-[10px] font-medium truncate flex-1 uppercase tracking-widest",
+                        "text-[10px] truncate flex-1 uppercase tracking-widest",
                         isActive && "text-foreground",
                     )}
                 >
@@ -226,7 +226,7 @@ export default function KeyFeaturesShowcase({ t }: Props) {
                                         )}
                                     >
                                         <Icon size={18} />
-                                        <span className="text-[10px] font-medium uppercase tracking-widest">
+                                        <span className="text-[10px] uppercase tracking-widest">
                                             {f.title}
                                         </span>
                                     </button>

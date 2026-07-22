@@ -11,6 +11,19 @@ export default defineConfig({
     redirects: {
         '/demo': '/es/demo',
         '/demo/': '/es/demo/',
+        // /guardians (Portal de Familias) was merged into /families
+        '/guardians': '/families',
+        '/guardians/': '/families/',
+        '/es/guardians': '/es/families',
+        '/es/guardians/': '/es/families/',
+        '/en/guardians': '/en/families',
+        '/en/guardians/': '/en/families/',
+        '/ca/guardians': '/ca/families',
+        '/ca/guardians/': '/ca/families/',
+        '/eus/guardians': '/eus/families',
+        '/eus/guardians/': '/eus/families/',
+        '/fr/guardians': '/fr/families',
+        '/fr/guardians/': '/fr/families/',
     },
     i18n: {
         defaultLocale: 'es',

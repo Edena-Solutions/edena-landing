@@ -60,7 +60,7 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
             title: t.carousel.parentCommunication.title,
             tagline: t.carousel.parentCommunication.tagline,
             icon: <MessageCircle size={50} />,
-            navigateTo: `/${lang}/guardians`,
+            navigateTo: `/${lang}/families`,
         },
         {
             title: t.carousel.studentAttendance.title,
@@ -207,9 +207,7 @@ const Features = ({ t, lang }: { t: Translation; lang: string }) => {
                             >
                                 <div className="h-[450px] relative overflow-hidden">
                                     <div className="absolute inset-0 p-4 sm:p-8 flex flex-col justify-start">
-                                        <div className="text-xs font-medium mb-1">
-                                            {feature.title}
-                                        </div>
+                                        <div className="text-xs mb-1">{feature.title}</div>
                                         <h3 className="font-bold mb-2">{feature.tagline}</h3>
                                     </div>
                                     <div className="absolute w-30 h-30 text-primary-foreground rounded top-50 left-1/2 transform -translate-x-1/2 transform flex items-center justify-center bg-primary">

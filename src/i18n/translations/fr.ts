@@ -1,6 +1,6 @@
 export default {
     bookDemo: "Réserver une démo",
-    loginButton: "Se connecter",
+    loginButton: "Accéder",
     registerButton: "Essayer gratuitement",
     registerButtonExtended: "Essai gratuit 30 jours",
     noCreditCardRequired: "Sans carte bancaire | Annulez quand vous voulez",
@@ -173,15 +173,13 @@ export default {
         title: "On discute ?",
         description:
             "Dites-nous comment nous pouvons vous aider et nous vous répondrons dès que possible.",
-        namePlaceholder: "Nom",
-        nameLabel: "Nom",
+        namePlaceholder: "Nom et prénom",
+        nameLabel: "Nom et prénom",
         emailLabel: "E-mail",
         emailPlaceholder: "vous@email.com",
-        centerLabel: "Nom de l’établissement",
-        centerPlaceholder: "École, centre, crèche...",
-        messageLabel: "Message",
-        messagePlaceholder: "Comment pouvons-nous vous aider ?",
-        submit: "Envoyer le message",
+        messageLabel: "Comment pouvons-nous vous aider ?",
+        messagePlaceholder: "Parlez-nous de votre établissement et de vos besoins...",
+        submit: "Envoyer le Message",
         submitting: "Envoi en cours...",
         successTitle: "Message envoyé !",
         successDescription: "Nous avons bien reçu votre message. Nous vous répondrons sous peu.",
@@ -192,6 +190,83 @@ export default {
         emailInvalid: "Veuillez saisir une adresse e-mail valide",
         messageRequired: "Le message est obligatoire",
         messageMinLength: "Le message doit contenir au moins 10 caractères",
+        requiredField: "Ce champ est obligatoire",
+        infoTitle: "Informations de contact",
+        infoSubtitle: "Sélectionnez votre profil pour continuer :",
+        emailContactLabel: "E-mail",
+        locationLabel: "Localisation",
+        locationValue: "Barcelona, Espagne",
+        profiles: {
+            school: "École",
+            nursery: "Crèche",
+            group: "Groupe Éducatif",
+            academy: "Académie",
+            partner: "Partenariat",
+        },
+        profileDescriptions: {
+            school: "De la maternelle au lycée et au professionnel.",
+            nursery: "Accueil 0–3 ans.",
+            group: "Plusieurs établissements sous une même gestion.",
+            academy: "Langues, soutien, musique, danse et plus.",
+            partner: "Entreprises et organisations souhaitant collaborer avec Edena.",
+        },
+        phoneLabel: "Téléphone (facultatif)",
+        phonePlaceholder: "+34 600 000 000",
+        countryLabel: "Pays",
+        countryPlaceholder: "Sélectionnez un pays",
+        countryRequired: "Le pays est obligatoire",
+        websiteLabel: "Site web de l’établissement (facultatif)",
+        websitePlaceholder: "https://www.votre-etablissement.fr",
+        productInterestLabel: "Ce produit m’intéresse (facultatif)",
+        productInterestPlaceholder: "Sélectionnez une option",
+        phoneInvalid: "Numéro de téléphone invalide pour {country}",
+        searchPlaceholder: "Rechercher",
+        noOptions: "Aucune option disponible",
+        productOptions: {
+            platform: "Plateforme complète",
+            communication: "Communication",
+            extracurricular: "Activités périscolaires",
+            tracking: "Suivi",
+            workflows: "Workflows",
+            shop: "Boutique",
+            payments: "Paiements internes",
+            ena: "Ena (IA)",
+            other: "Autre",
+        },
+        profileFields: {
+            school: {
+                centerLabel: "Nom de l’école (facultatif)",
+                studentsLabel: "Nombre d’élèves (facultatif)",
+                stagesLabel: "Niveaux d’enseignement (facultatif)",
+                stages: {
+                    infantil: "Maternelle",
+                    primaria: "Primaire",
+                    eso: "Collège",
+                    bachillerato: "Lycée",
+                    fp: "Formation professionnelle",
+                },
+            },
+            nursery: {
+                centerLabel: "Nom de la crèche (facultatif)",
+                childrenLabel: "Nombre d’enfants (facultatif)",
+                classroomsLabel: "Nombre de salles (facultatif)",
+            },
+            group: {
+                centerLabel: "Nom du groupe (facultatif)",
+                centersLabel: "Nombre d’établissements (facultatif)",
+                studentsLabel: "Nombre total d’élèves (facultatif)",
+            },
+            academy: {
+                centerLabel: "Nom de l’académie (facultatif)",
+                studentsLabel: "Nombre d’élèves (facultatif)",
+                typeLabel: "Type d’enseignement (facultatif)",
+                typePlaceholder: "Langues, soutien scolaire, musique...",
+            },
+            partner: {
+                centerLabel: "Nom de l’entreprise (facultatif)",
+                websiteLabel: "Site web de l’entreprise (facultatif)",
+            },
+        },
     },
     conclusion: {
         title: "Moins d’administration. Plus d’inscriptions. Plus de familles satisfaites.",
@@ -809,6 +884,14 @@ export default {
             billingDescription:
                 "Facturation électronique automatisée, compatible Verifactu, génération d’avis de paiement et suivi des impayés.",
             billingHint: "+0,20 € par enfant",
+            crmToggle: "CRM scolaire",
+            crmDescription:
+                "Demandes d’inscription, pipeline et suivi des leads, avec formulaires d’acquisition personnalisables et origine multicanal.",
+            crmHint: "+0,10 € par enfant",
+            trackingToggle: "Tracking",
+            trackingDescription:
+                "Pointage de l’équipe, agenda quotidien partagé, tâches internes, permanences et remplacements.",
+            trackingHint: "+0,10 € par enfant",
             extracurricularToggle: "Activités périscolaires",
             extracurricularDescription:
                 "Gestion et self-service des activités : demandes en ligne, contrôle des places et paiements liés.",
@@ -865,25 +948,11 @@ export default {
                 ],
             },
             {
-                title: "Présences et notes",
+                title: "Ena",
                 items: [
                     {
-                        moduleId: "attendanceGrades",
-                        label: "Suivi numérique des présences, registres et alertes aux familles",
-                    },
-                    {
-                        moduleId: "attendanceGrades",
-                        label: "Notes, devoirs et cycles d’évaluation",
-                    },
-                ],
-            },
-            {
-                title: "Facturation",
-                items: [
-                    { moduleId: "billing", label: "Facturation électronique (Verifactu)" },
-                    {
-                        moduleId: "billing",
-                        label: "Avis de paiement, suivi des impayés et analytique financière avancée",
+                        moduleId: "ena",
+                        label: "Ena, l’IA d’Edena : assistant intelligent avec tokens mensuels inclus",
                     },
                 ],
             },
@@ -897,19 +966,6 @@ export default {
                     {
                         moduleId: "communicationPro",
                         label: "Communication segmentée par groupe ou classe",
-                    },
-                ],
-            },
-            {
-                title: "CRM scolaire",
-                items: [
-                    {
-                        moduleId: "crm",
-                        label: "Demandes d’inscription, pipeline et suivi des leads",
-                    },
-                    {
-                        moduleId: "crm",
-                        label: "Formulaires d’acquisition personnalisables et origine multicanal",
                     },
                 ],
             },
@@ -937,7 +993,43 @@ export default {
                 ],
             },
             {
-                title: "Boutique en ligne",
+                title: "Tracking",
+                items: [
+                    {
+                        moduleId: "tracking",
+                        label: "Pointage de l’équipe et agenda quotidien partagé",
+                    },
+                    {
+                        moduleId: "tracking",
+                        label: "Tâches internes, permanences et remplacements",
+                    },
+                ],
+            },
+            {
+                title: "CRM scolaire",
+                items: [
+                    {
+                        moduleId: "crm",
+                        label: "Demandes d’inscription, pipeline et suivi des leads",
+                    },
+                    {
+                        moduleId: "crm",
+                        label: "Formulaires d’acquisition personnalisables et origine multicanal",
+                    },
+                ],
+            },
+            {
+                title: "Facturation",
+                items: [
+                    { moduleId: "billing", label: "Facturation électronique (Verifactu)" },
+                    {
+                        moduleId: "billing",
+                        label: "Avis de paiement, suivi des impayés et analytique financière avancée",
+                    },
+                ],
+            },
+            {
+                title: "Boutique",
                 items: [
                     {
                         moduleId: "onlineStore",
@@ -965,7 +1057,7 @@ export default {
                 description: "À partir de 44 € par mois",
                 pricePerChild: "1,00 € par enfant",
                 from: "À partir de 44 € par mois",
-                featureIncludedIds: ["platformBase", "attendanceGrades"],
+                featureIncludedIds: ["platformBase", "ena"],
             },
             managementPro: {
                 name: "Gestion Pro",
@@ -974,11 +1066,11 @@ export default {
                 from: "À partir de 44 € par mois",
                 featureIncludedIds: [
                     "platformBase",
-                    "attendanceGrades",
-                    "billing",
+                    "ena",
                     "communicationPro",
-                    "crm",
                     "extracurricular",
+                    "automation",
+                    "tracking",
                 ],
             },
             complete: {
@@ -988,12 +1080,13 @@ export default {
                 from: "À partir de 44 € par mois",
                 featureIncludedIds: [
                     "platformBase",
-                    "attendanceGrades",
-                    "billing",
+                    "ena",
                     "communicationPro",
-                    "crm",
                     "extracurricular",
                     "automation",
+                    "tracking",
+                    "crm",
+                    "billing",
                     "onlineStore",
                     "cloud",
                 ],
@@ -2112,5 +2205,636 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         evaluationCycle: "Configuration des cycles d’évaluation dans Edena",
         assignmentScoreCard: "Bulletin et suivi des notes dans Edena",
         conclusionLogo: "Logo Edena - Transformez la gestion de votre établissement scolaire",
+    },
+    productModules: {
+        extracurricular: {
+            metaTitle:
+                "Logiciel de Gestion des Activités Périscolaires | Inscriptions et Paiements en Ligne | Edena",
+            metaDescription:
+                "Gérez les activités périscolaires de bout en bout : inscriptions en ligne, contrôle des places, listes de présence et paiements automatiques. Moins de paperasse et plus d'activités complètes.",
+            navTitle: "Périscolaire",
+            navDescription:
+                "Gérez inscriptions, places et paiements des activités périscolaires au même endroit, sans tableurs.",
+            mainTitle: "Remplissez vos activités périscolaires et oubliez la paperasse",
+            mainDescription:
+                "Publiez des activités, ouvrez les inscriptions en ligne, contrôlez les places et facturez automatiquement chaque famille. Le tout intégré à la facturation de l'établissement et visible depuis l'app.",
+            heroLeftTitle: "Inscriptions en quelques minutes",
+            heroLeftDescription:
+                "Les familles s'inscrivent depuis l'app en quelques touches et vous voyez les places occupées en temps réel.",
+            heroRightTitle: "Des activités toujours en vue",
+            heroRightDescription:
+                "Horaires, moniteurs et groupes organisés et accessibles pour les familles et l'équipe.",
+            featuresTitle: "Tout ce qu'il faut pour gérer vos activités",
+            featuresDescription:
+                "De l'inscription au paiement, Edena automatise chaque étape de vos activités périscolaires.",
+            features: [
+                {
+                    title: "Inscriptions en ligne",
+                    description:
+                        "Ouvrez les inscriptions d'un clic et laissez les familles s'inscrire depuis l'app, sans formulaires papier.",
+                },
+                {
+                    title: "Contrôle des places",
+                    description:
+                        "Définissez la capacité de chaque activité et évitez les surinscriptions avec des listes d'attente automatiques.",
+                },
+                {
+                    title: "Paiements automatiques",
+                    description:
+                        "Facturez chaque activité avec la cotisation mensuelle ou séparément, avec la facturation intégrée de l'établissement.",
+                },
+                {
+                    title: "Listes de présence",
+                    description:
+                        "Faites l'appel de chaque séance depuis le mobile et informez les familles en temps réel.",
+                },
+                {
+                    title: "Horaires et groupes",
+                    description:
+                        "Organisez moniteurs, horaires et groupes en évitant les chevauchements dans l'agenda de l'établissement.",
+                },
+                {
+                    title: "Rapports d'occupation",
+                    description:
+                        "Voyez quelles activités fonctionnent le mieux et décidez de votre offre avec des données réelles.",
+                },
+            ],
+            sectionTitle: "Du papier à un flux entièrement numérique",
+            sectionDescription:
+                "Centralisez la gestion du périscolaire et supprimez les tableurs, les paiements manuels et les listes papier.",
+            section1Title: "Inscription depuis l'app",
+            section1Description:
+                "Les familles découvrent, comparent et s'inscrivent aux activités depuis le mobile, avec confirmation et paiement immédiats.",
+            section2Title: "Un agenda coordonné",
+            section2Description:
+                "Chaque activité apparaît dans le calendrier de l'établissement, avec moniteurs, salles et horaires sans conflits.",
+            altHero: "Écran des activités périscolaires dans l'app Edena",
+            altSection1: "Inscription aux activités périscolaires depuis l'app Edena",
+            altSection2: "Calendrier des activités périscolaires dans Edena",
+            faqTitle: "Questions fréquentes sur la gestion du périscolaire",
+            faqDescription:
+                "Nous répondons aux questions les plus courantes sur les inscriptions, les paiements et l'organisation des activités périscolaires.",
+            faqs: [
+                {
+                    question: "Les familles peuvent-elles s'inscrire elles-mêmes depuis l'app ?",
+                    answer: "Oui. Vous publiez l'activité et les familles s'inscrivent depuis l'app Edena en quelques touches, avec confirmation et paiement automatiques.",
+                },
+                {
+                    question: "Puis-je limiter les places de chaque activité ?",
+                    answer: "Vous pouvez définir la capacité maximale de chaque activité. Lorsqu'elle est pleine, Edena ferme les inscriptions et active une liste d'attente automatique.",
+                },
+                {
+                    question: "Comment les activités périscolaires sont-elles facturées ?",
+                    answer: "Les paiements s'intègrent à la facturation de l'établissement : vous pouvez les inclure dans la cotisation mensuelle ou les facturer séparément, avec prélèvement SEPA.",
+                },
+                {
+                    question: "Puis-je faire l'appel à chaque séance ?",
+                    answer: "Oui, les moniteurs font l'appel depuis le mobile et les familles reçoivent l'information de présence en temps réel.",
+                },
+                {
+                    question: "Puis-je savoir quelles activités sont les plus demandées ?",
+                    answer: "Edena génère des rapports d'occupation et de revenus par activité pour que vous planifiiez votre offre avec des données objectives.",
+                },
+            ],
+        },
+        tracking: {
+            metaTitle:
+                "Suivi du Temps et Agenda Quotidien pour Établissements Scolaires | Time Tracking | Edena",
+            metaDescription:
+                "Suivi du temps du personnel, agenda quotidien de l'établissement et suivi interne des tâches dans un seul outil. Respectez la réglementation du travail et organisez le quotidien sans effort.",
+            navTitle: "Tracking",
+            navDescription:
+                "Suivi du temps du personnel, agenda quotidien et suivi interne des tâches, le tout connecté.",
+            mainTitle: "Le quotidien de votre établissement, sous contrôle",
+            mainDescription:
+                "Suivi du temps de l'équipe, agenda quotidien partagé et suivi interne des tâches dans une seule plateforme. Respectez la réglementation du travail et coordonnez votre équipe sans chaînes d'e-mails.",
+            heroLeftTitle: "Pointage sans friction",
+            heroLeftDescription:
+                "Votre équipe pointe depuis le mobile ou le web en une touche et vous avez les relevés prêts pour l'inspection.",
+            heroRightTitle: "Agenda quotidien partagé",
+            heroRightDescription:
+                "Réunions, permanences et événements de l'établissement visibles par toute l'équipe en temps réel.",
+            featuresTitle: "Coordonnez votre équipe et respectez la réglementation",
+            featuresDescription:
+                "Suivi du temps, agenda et tâches internes connectés pour que rien ne se perde en chemin.",
+            features: [
+                {
+                    title: "Suivi du temps",
+                    description:
+                        "Votre équipe pointe l'entrée et la sortie depuis n'importe quel appareil. Respectez la réglementation sans feuilles de pointage.",
+                },
+                {
+                    title: "Agenda quotidien",
+                    description:
+                        "Partagez permanences, réunions et événements dans un agenda commun et évitez les chevauchements.",
+                },
+                {
+                    title: "Suivi des tâches",
+                    description:
+                        "Assignez des tâches internes, définissez les responsables et suivez leur état jusqu'à leur achèvement.",
+                },
+                {
+                    title: "Permanences et remplacements",
+                    description:
+                        "Organisez les permanences et couvrez les absences en quelques minutes avec une visibilité totale de l'équipe disponible.",
+                },
+                {
+                    title: "Rapports d'heures",
+                    description:
+                        "Exportez les heures travaillées par employé et période pour la paie et les inspections.",
+                },
+                {
+                    title: "Alertes et rappels",
+                    description:
+                        "Recevez des alertes automatiques pour les tâches en attente, les pointages oubliés et les événements à venir.",
+                },
+            ],
+            sectionTitle: "Du chaos des e-mails à un établissement coordonné",
+            sectionDescription:
+                "Réunissez pointages, agenda et tâches internes au même endroit et libérez votre équipe de la gestion manuelle.",
+            section1Title: "Suivi du temps conforme à la loi",
+            section1Description:
+                "Relevé de temps de travail fiable et exportable, prêt pour toute inspection du travail.",
+            section2Title: "Toute l'équipe sur la même page",
+            section2Description:
+                "L'agenda quotidien et les tâches internes maintiennent direction, administration et enseignants synchronisés.",
+            altHero: "Agenda quotidien et suivi du temps de l'établissement dans Edena",
+            altSection1: "Relevé de temps de travail et pointage du personnel dans Edena",
+            altSection2: "Agenda partagé de l'équipe éducative dans Edena",
+            faqTitle: "Questions fréquentes sur le suivi du temps et l'agenda",
+            faqDescription:
+                "Nous répondons à vos questions sur le suivi du temps, l'agenda quotidien et le suivi interne des tâches.",
+            faqs: [
+                {
+                    question: "Le suivi du temps respecte-t-il la réglementation du travail ?",
+                    answer: "Oui. Edena enregistre le temps de travail de chaque employé de manière fiable et vous permet d'exporter les relevés pour toute inspection du travail.",
+                },
+                {
+                    question: "D'où le personnel peut-il pointer ?",
+                    answer: "L'équipe peut pointer l'entrée et la sortie depuis le mobile ou le navigateur, sans feuilles de pointage ni terminaux supplémentaires.",
+                },
+                {
+                    question: "Puis-je organiser permanences et remplacements ?",
+                    answer: "Vous pouvez planifier les permanences, voir qui est disponible et couvrir les absences en quelques minutes depuis l'agenda partagé.",
+                },
+                {
+                    question: "Comment fonctionne le suivi des tâches internes ?",
+                    answer: "Vous assignez des tâches à des responsables, définissez des dates et suivez leur état jusqu'à leur achèvement, avec des rappels automatiques.",
+                },
+                {
+                    question: "Puis-je exporter les heures travaillées ?",
+                    answer: "Oui, vous pouvez exporter les heures par employé et période pour la gestion de la paie et la conformité réglementaire.",
+                },
+            ],
+        },
+        workflows: {
+            metaTitle:
+                "Automatisation des Processus pour Établissements Scolaires | Workflows | Edena",
+            metaDescription:
+                "Automatisez les tâches répétitives de votre établissement : rappels, communications, paiements et parcours d'inscription. Concevez des workflows sans coder et gagnez des heures chaque semaine.",
+            navTitle: "Workflows",
+            navDescription:
+                "Automatisez les tâches répétitives avec des workflows visuels, sans écrire une seule ligne de code.",
+            mainTitle: "Automatisez le répétitif et récupérez votre temps",
+            mainDescription:
+                "Concevez des workflows qui envoient des communications, génèrent des factures, assignent des tâches et alertent votre équipe automatiquement. Sans coder et sans dépendre de personne.",
+            heroLeftTitle: "Sans code, sans limites",
+            heroLeftDescription:
+                "Créez des automatisations en glissant des blocs. Définissez le déclencheur et laissez Edena faire le reste.",
+            heroRightTitle: "Déclencheurs intelligents",
+            heroRightDescription:
+                "Chaque événement de l'établissement peut déclencher des actions automatiques : inscriptions, paiements, absences et bien plus.",
+            featuresTitle: "Votre établissement en pilote automatique",
+            featuresDescription:
+                "Transformez les processus manuels en flux automatiques qui s'exécutent seuls, jour et nuit.",
+            features: [
+                {
+                    title: "Éditeur visuel",
+                    description:
+                        "Concevez des flux en glissant des blocs. Définissez déclencheurs, conditions et actions sans coder.",
+                },
+                {
+                    title: "Déclencheurs automatiques",
+                    description:
+                        "Lancez des actions quand quelque chose se produit : nouvelle inscription, impayé, absence ou date clé.",
+                },
+                {
+                    title: "Communications automatiques",
+                    description:
+                        "Envoyez e-mails et notifications aux familles et à l'équipe au bon moment, sans intervention manuelle.",
+                },
+                {
+                    title: "Facturation programmée",
+                    description:
+                        "Générez et envoyez des factures de manière récurrente selon les règles que vous définissez.",
+                },
+                {
+                    title: "Assignation de tâches",
+                    description:
+                        "Créez et assignez des tâches à l'équipe automatiquement lorsque certaines conditions sont remplies.",
+                },
+                {
+                    title: "Modèles prêts à l'emploi",
+                    description:
+                        "Commencez avec des modèles de flux courants dans les établissements scolaires et adaptez-les à votre cas.",
+                },
+            ],
+            sectionTitle: "Des règles qui travaillent pour vous",
+            sectionDescription:
+                "Définissez quoi et quand. Edena exécute chaque étape sans que vous ayez à vous en souvenir.",
+            section1Title: "Des flux qui s'exécutent seuls",
+            section1Description:
+                "Configurez le déclencheur une fois et Edena lance chaque action au moment exact, sans supervision.",
+            section2Title: "Moins d'erreurs, plus de cohérence",
+            section2Description:
+                "Chaque processus s'exécute toujours de la même façon, éliminant oublis et erreurs humaines.",
+            altHero: "Éditeur de workflows et d'automatisations dans Edena",
+            altSection1: "Automatisation des processus avec règles et déclencheurs dans Edena",
+            altSection2: "Tableau des automatisations de l'établissement dans Edena",
+            faqTitle: "Questions fréquentes sur l'automatisation et les workflows",
+            faqDescription:
+                "Nous répondons à vos questions sur l'automatisation des processus et la création de workflows dans votre établissement.",
+            faqs: [
+                {
+                    question: "Dois-je savoir coder pour créer des workflows ?",
+                    answer: "Non. Les flux se conçoivent avec un éditeur visuel : vous glissez des blocs, définissez le déclencheur et les actions, et c'est prêt.",
+                },
+                {
+                    question: "Que puis-je automatiser avec Edena ?",
+                    answer: "Communications aux familles, génération de factures, assignation de tâches, rappels et parcours d'inscription, entre autres processus.",
+                },
+                {
+                    question: "Qu'est-ce qu'un déclencheur ?",
+                    answer: "C'est l'événement qui démarre le flux : une nouvelle inscription, un impayé, une absence ou une date précise, par exemple.",
+                },
+                {
+                    question: "Puis-je commencer avec des modèles ?",
+                    answer: "Oui, Edena inclut des modèles de flux courants dans les établissements scolaires que vous pouvez utiliser tels quels ou adapter.",
+                },
+                {
+                    question: "Les flux s'exécutent-ils seuls ?",
+                    answer: "Une fois configurés, ils s'exécutent automatiquement lorsque le déclencheur est rempli, sans que vous ayez à intervenir.",
+                },
+            ],
+        },
+        shop: {
+            metaTitle:
+                "Boutique en Ligne pour Écoles | Uniformes, Fournitures et Services | Edena Shop",
+            metaDescription:
+                "Vendez uniformes, fournitures scolaires, cantine et activités depuis une boutique en ligne intégrée à votre établissement. Paiements automatiques et stock contrôlé, sans frais cachés.",
+            navTitle: "Shop",
+            navDescription:
+                "La boutique en ligne de votre établissement : uniformes, fournitures et services avec paiement intégré.",
+            mainTitle: "La boutique de votre établissement, intégrée et sans frais cachés",
+            mainDescription:
+                "Vendez uniformes, fournitures, cantine et services supplémentaires depuis l'app que les familles utilisent déjà. Paiements automatiques, stock à jour et toute la facturation au même endroit.",
+            heroLeftTitle: "Achetez en deux touches",
+            heroLeftDescription:
+                "Les familles achètent depuis l'app avec les données de paiement qu'elles ont déjà configurées.",
+            heroRightTitle: "Un catalogue toujours à jour",
+            heroRightDescription:
+                "Gérez produits, prix et stock depuis le tableau de bord et publiez-les instantanément.",
+            featuresTitle: "Tout ce dont a besoin la boutique de votre établissement",
+            featuresDescription:
+                "Du catalogue au paiement, Edena transforme la vente dans l'établissement en un processus 100% numérique.",
+            features: [
+                {
+                    title: "Votre propre catalogue",
+                    description:
+                        "Créez votre catalogue de produits et services avec photos, variantes et prix en quelques minutes.",
+                },
+                {
+                    title: "Paiement intégré",
+                    description:
+                        "Chaque achat est facturé avec les moyens de paiement de l'établissement et apparaît dans la facturation.",
+                },
+                {
+                    title: "Contrôle du stock",
+                    description:
+                        "Contrôlez les stocks par produit et évitez de vendre ce que vous n'avez pas.",
+                },
+                {
+                    title: "Variantes et tailles",
+                    description:
+                        "Gérez tailles, couleurs et variantes d'uniformes et de fournitures sans complications.",
+                },
+                {
+                    title: "Achat depuis l'app",
+                    description:
+                        "Les familles achètent depuis l'app Edena, sans inscriptions ni passerelles externes.",
+                },
+                {
+                    title: "Rapports de ventes",
+                    description:
+                        "Voyez ce qui se vend et combien vous gagnez pour ajuster votre catalogue.",
+                },
+            ],
+            sectionTitle: "De la commande papier à la boutique numérique",
+            sectionDescription:
+                "Numérisez la vente d'uniformes, de fournitures et de services et oubliez les enveloppes et les listes manuelles.",
+            section1Title: "Une fiche produit complète",
+            section1Description:
+                "Photos, description, variantes et stock : chaque produit est présenté comme dans une boutique professionnelle.",
+            section2Title: "Paiement immédiat et sécurisé",
+            section2Description:
+                "Les familles paient instantanément avec leurs moyens habituels et reçoivent le reçu dans l'app.",
+            altHero: "Boutique en ligne de l'établissement dans l'app Edena",
+            altSection1: "Fiche produit de la boutique scolaire Edena",
+            altSection2: "Processus d'achat et de paiement dans la boutique Edena",
+            faqTitle: "Questions fréquentes sur la boutique en ligne",
+            faqDescription:
+                "Nous répondons à vos questions sur la vente d'uniformes, de fournitures et de services depuis Edena.",
+            faqs: [
+                {
+                    question: "Que puis-je vendre dans la boutique ?",
+                    answer: "Uniformes, fournitures scolaires, services comme la cantine ou les activités, et tout produit ou service proposé par votre établissement.",
+                },
+                {
+                    question: "Comment les familles paient-elles ?",
+                    answer: "Elles achètent depuis l'app avec les moyens de paiement déjà configurés, et chaque achat est intégré à la facturation de l'établissement.",
+                },
+                {
+                    question: "Edena prélève-t-elle des commissions par vente ?",
+                    answer: "La boutique est intégrée à votre plateforme sans commissions cachées par vente ; seuls les frais de la passerelle de paiement que vous utilisez s'appliquent.",
+                },
+                {
+                    question: "Puis-je contrôler le stock ?",
+                    answer: "Oui, vous définissez les stocks par produit et variante, et Edena empêche de vendre ce qui n'est pas disponible.",
+                },
+                {
+                    question: "Puis-je gérer tailles et variantes ?",
+                    answer: "Vous pouvez créer des variantes de tailles, couleurs et modèles pour les uniformes et fournitures, chacune avec son propre stock.",
+                },
+            ],
+        },
+        communication: {
+            metaTitle: "Communication École-Famille | Messagerie et Circulaires | Edena",
+            metaDescription:
+                "Messagerie sécurisée, circulaires avec accusé de lecture, notifications push et mur de l'établissement dans une seule app. Communiquez avec les familles instantanément et assurez-vous que tous reçoivent l'information.",
+            navTitle: "Communication",
+            navDescription:
+                "Messagerie, circulaires et notifications push pour joindre toutes les familles instantanément.",
+            mainTitle: "Communiquez avec les familles sans perdre aucun message",
+            mainDescription:
+                "Messagerie sécurisée, circulaires avec accusé de lecture, notifications push et mur de l'établissement. Une seule app pour que l'information parvienne à toutes les familles, toujours.",
+            heroLeftTitle: "Des messages qui arrivent vraiment",
+            heroLeftDescription:
+                "Notifications push et accusés de lecture pour vous assurer que l'information ne se perd pas.",
+            heroRightTitle: "Des conversations sécurisées",
+            heroRightDescription:
+                "Chat direct entre l'établissement et les familles, sans partager de numéros de téléphone personnels.",
+            featuresTitle: "Une seule voix pour tout l'établissement",
+            featuresDescription:
+                "Remplacez les cahiers de liaison papier, les groupes WhatsApp et les e-mails dispersés par un canal unique et professionnel.",
+            features: [
+                {
+                    title: "Messagerie sécurisée",
+                    description:
+                        "Discutez avec familles et équipe dans un environnement sécurisé, sans donner votre numéro personnel.",
+                },
+                {
+                    title: "Circulaires et communications",
+                    description:
+                        "Envoyez des communications de masse avec accusé de lecture et segmentation par groupe.",
+                },
+                {
+                    title: "Notifications push",
+                    description:
+                        "Les familles reçoivent des alertes instantanées sur mobile, sans dépendre de l'e-mail.",
+                },
+                {
+                    title: "Mur de l'établissement",
+                    description:
+                        "Publiez actualités, photos et événements sur un mur que les familles suivent depuis l'app.",
+                },
+                {
+                    title: "Traduction automatique",
+                    description:
+                        "Joignez les familles de toute langue grâce à la traduction intégrée des messages.",
+                },
+                {
+                    title: "Historique complet",
+                    description:
+                        "Conservez toutes les communications et consultez-les quand vous en avez besoin.",
+                },
+            ],
+            sectionTitle: "Du groupe WhatsApp à la communication professionnelle",
+            sectionDescription:
+                "Centralisez toute la communication de l'établissement dans un canal sécurisé, ordonné et traçable.",
+            section1Title: "Chat direct et organisé",
+            section1Description:
+                "Chaque conversation est organisée par famille et élève, sans chercher parmi les groupes ni les notes.",
+            section2Title: "Communications avec suivi",
+            section2Description:
+                "Envoyez des circulaires et vérifiez qui les a lues pour ne laisser personne sans l'information importante.",
+            altHero: "Chat de communication entre l'établissement et les familles dans l'app Edena",
+            altSection1: "Messagerie directe famille-établissement dans Edena",
+            altSection2: "Envoi de circulaires et communications avec suivi dans Edena",
+            faqTitle: "Questions fréquentes sur la communication scolaire",
+            faqDescription:
+                "Nous répondons à vos questions sur la messagerie, les circulaires et les notifications avec les familles.",
+            faqs: [
+                {
+                    question: "La messagerie est-elle sécurisée ?",
+                    answer: "Oui. La communication se déroule dans un environnement sécurisé et chiffré, sans besoin de partager de numéros de téléphone personnels.",
+                },
+                {
+                    question: "Puis-je savoir si les familles ont lu une communication ?",
+                    answer: "Les circulaires incluent des accusés de lecture, vous savez donc exactement qui a reçu et lu l'information.",
+                },
+                {
+                    question: "Puis-je envoyer des messages à des groupes précis ?",
+                    answer: "Vous pouvez segmenter les envois par classe, niveau, activité ou tout groupe que vous définissez dans votre établissement.",
+                },
+                {
+                    question: "Cela fonctionne-t-il avec des familles d'autres langues ?",
+                    answer: "Oui, la traduction automatique permet à chaque famille de recevoir les messages dans sa propre langue.",
+                },
+                {
+                    question: "Cela remplace-t-il les groupes WhatsApp ?",
+                    answer: "Oui. Edena centralise toute la communication dans un canal professionnel, ordonné et avec historique, sans la dispersion des groupes de messagerie.",
+                },
+            ],
+        },
+        internalPayments: {
+            metaTitle:
+                "Porte-Monnaie Scolaire et Paiements Internes | Soldes et Encaissements | Edena",
+            metaDescription:
+                "Gérez le porte-monnaie interne des familles : recharges, soldes et encaissements de cantine, sorties et services. Paiements rapides sans espèces et contrôle total de chaque mouvement.",
+            navTitle: "Paiements Internes",
+            navDescription:
+                "Porte-monnaie scolaire avec soldes et recharges pour encaisser cantine, sorties et services sans espèces.",
+            mainTitle: "Adieu les espèces dans l'établissement",
+            mainDescription:
+                "Un porte-monnaie interne pour chaque famille pour payer cantine, sorties et services en quelques secondes. Recharges en ligne, soldes en temps réel et contrôle total de chaque mouvement.",
+            heroLeftTitle: "Paiements sans espèces",
+            heroLeftDescription:
+                "Encaissez sorties, cantine et services depuis le solde de chaque famille, sans enveloppes ni pièces.",
+            heroRightTitle: "Solde toujours visible",
+            heroRightDescription:
+                "Chaque famille consulte son solde et ses mouvements depuis l'app, avec recharges en une touche.",
+            featuresTitle: "L'argent de l'établissement, toujours équilibré",
+            featuresDescription:
+                "Éliminez les espèces, les enveloppes et les rapprochements manuels avec un porte-monnaie interne intégré à la facturation.",
+            features: [
+                {
+                    title: "Porte-monnaie par famille",
+                    description:
+                        "Chaque famille dispose d'un solde interne pour payer les services de l'établissement instantanément.",
+                },
+                {
+                    title: "Recharges en ligne",
+                    description:
+                        "Les familles rechargent leur porte-monnaie depuis l'app par carte ou prélèvement.",
+                },
+                {
+                    title: "Encaissements rapides",
+                    description:
+                        "Encaissez cantine, sorties et services en déduisant du solde, sans manipuler d'espèces.",
+                },
+                {
+                    title: "Mouvements en temps réel",
+                    description:
+                        "Chaque crédit et dépense est enregistré et visible pour les familles et l'administration.",
+                },
+                {
+                    title: "Alertes de solde bas",
+                    description:
+                        "Edena avertit automatiquement lorsque le solde baisse pour que rien ne manque.",
+                },
+                {
+                    title: "Rapprochement automatique",
+                    description:
+                        "Tous les paiements internes correspondent à la facturation de l'établissement sans rapprochements manuels.",
+                },
+            ],
+            sectionTitle: "De l'enveloppe de pièces au paiement numérique",
+            sectionDescription:
+                "Numérisez les petits encaissements du quotidien et supprimez les espèces des classes.",
+            section1Title: "Rechargez et dépensez en quelques secondes",
+            section1Description:
+                "Les familles rechargent et paient depuis l'app ; le solde se met à jour instantanément.",
+            section2Title: "Chaque euro, sous contrôle",
+            section2Description:
+                "Consultez revenus, dépenses et soldes par famille et service avec des rapports automatiques.",
+            altHero: "Porte-monnaie interne et solde familial dans l'app Edena",
+            altSection1: "Recharge de solde et paiements internes dans Edena",
+            altSection2: "Rapport des mouvements et soldes internes dans Edena",
+            faqTitle: "Questions fréquentes sur les paiements internes",
+            faqDescription:
+                "Nous répondons à vos questions sur le porte-monnaie interne, les recharges et les encaissements de services de l'établissement.",
+            faqs: [
+                {
+                    question: "Qu'est-ce que le porte-monnaie interne ?",
+                    answer: "C'est un solde par famille au sein d'Edena pour payer des services de l'établissement comme la cantine, les sorties ou les fournitures, sans espèces.",
+                },
+                {
+                    question: "Comment les familles rechargent-elles leur solde ?",
+                    answer: "Elles rechargent depuis l'app par carte ou prélèvement, et le solde est disponible instantanément.",
+                },
+                {
+                    question: "Puis-je voir les mouvements de chaque famille ?",
+                    answer: "Oui, chaque crédit et dépense est enregistré et visible tant pour la famille que pour l'administration de l'établissement.",
+                },
+                {
+                    question: "Les paiements internes correspondent-ils à la facturation ?",
+                    answer: "Tous les mouvements sont rapprochés automatiquement de la facturation de l'établissement, sans rapprochements manuels.",
+                },
+                {
+                    question: "Avertit-il quand le solde est bas ?",
+                    answer: "Oui, Edena envoie des alertes automatiques lorsque le solde d'une famille baisse, pour qu'elle puisse recharger à temps.",
+                },
+            ],
+        },
+        ena: {
+            metaTitle:
+                "Ena, l'Intelligence Artificielle de votre Établissement | Assistant IA | Edena",
+            metaDescription:
+                "Ena est l'agent IA d'Edena : il automatise les factures, rédige les communications, fait l'appel et répond à toute votre organisation. Intelligence artificielle éducative avec sécurité entreprise.",
+            navTitle: "Ena",
+            navDescription:
+                "L'agent d'intelligence artificielle qui automatise les processus et répond à tout votre établissement 24/7.",
+            mainTitle: "Ena, l'intelligence artificielle qui travaille pour votre établissement",
+            mainDescription:
+                "Ena automatise les processus, génère les factures, rédige les communications et répond aux questions de la direction, de l'administration, des enseignants et des familles. IA éducative avec sécurité entreprise, disponible 24/7.",
+            heroLeftTitle: "Votre assistant 24/7",
+            heroLeftDescription:
+                "Demandez à @Ena ce dont vous avez besoin sur votre établissement et obtenez des réponses instantanées, à toute heure.",
+            heroRightTitle: "Automatisation avec l'IA",
+            heroRightDescription:
+                "Ena prépare les factures, fait l'appel et traite les processus administratifs pour vous.",
+            featuresTitle: "Moins de tâches répétitives, plus de temps pour enseigner",
+            featuresDescription:
+                "Ena prend en charge ce qui consomme le temps de votre équipe pour qu'elle se concentre sur l'essentiel.",
+            features: [
+                {
+                    title: "Assistant intelligent",
+                    description:
+                        "Utilisez @Ena comme assistant disponible 24/7 pour résoudre les questions de toute l'organisation.",
+                },
+                {
+                    title: "Automatisation avec l'IA",
+                    description:
+                        "Ena génère des factures, crée des concepts et accomplit des tâches administratives répétitives pour vous.",
+                },
+                {
+                    title: "Réponses instantanées",
+                    description:
+                        "Il répond à la direction, à l'administration, aux enseignants et aux familles avec les informations de l'établissement.",
+                },
+                {
+                    title: "Communications automatiques",
+                    description:
+                        "Ena rédige et envoie des communications aux familles en suivant le ton de votre établissement.",
+                },
+                {
+                    title: "Gestion des RH",
+                    description:
+                        "Il traite les demandes RH, les congés et les autorisations directement dans Edena.",
+                },
+                {
+                    title: "Sécurité entreprise",
+                    description:
+                        "Une IA plus respectueuse de la vie privée qu'un chatbot générique : vos données toujours protégées et sous votre contrôle.",
+                },
+            ],
+            sectionTitle: "Automatisez ce qui consomme le plus de temps à votre équipe",
+            sectionDescription:
+                "Ena rédige les communications, fait l'appel et gère les processus RH directement dans Edena.",
+            section1Title: "Ena travaille là où travaille votre établissement",
+            section1Description:
+                "Communications, présence et ressources humaines gérées par Ena directement au sein d'Edena.",
+            section2Title: "Sécurité entreprise de série",
+            section2Description:
+                "Sécurité intégrée et IA plus respectueuse de la vie privée qu'un chatbot générique, avec support 24/7.",
+            altHero: "Ena, l'agent d'intelligence artificielle d'Edena",
+            altSection1: "Ena automatisant les tâches administratives dans Edena",
+            altSection2: "Sécurité et confidentialité de l'IA d'Edena",
+            faqTitle: "Questions fréquentes sur Ena, l'IA d'Edena",
+            faqDescription:
+                "Nous répondons à vos questions sur ce que peut faire Ena et comment elle protège les données de votre établissement.",
+            faqs: [
+                {
+                    question: "Qu'est-ce qu'Ena ?",
+                    answer: "Ena est l'agent d'intelligence artificielle d'Edena. Elle automatise les processus, génère des factures, rédige des communications et répond aux questions de toute votre organisation.",
+                },
+                {
+                    question: "Qui peut utiliser Ena ?",
+                    answer: "La direction, l'administration, les enseignants et les familles peuvent interagir avec Ena selon les autorisations définies par l'établissement.",
+                },
+                {
+                    question: "Quelles tâches Ena peut-elle automatiser ?",
+                    answer: "Elle génère des factures, crée des concepts, rédige et envoie des communications, fait l'appel et traite les processus RH, entre autres tâches répétitives.",
+                },
+                {
+                    question: "Est-il sûr d'utiliser Ena avec les données de l'établissement ?",
+                    answer: "Oui. Ena offre une sécurité entreprise intégrée et plus de confidentialité qu'un chatbot générique : vos données restent protégées et sous votre contrôle.",
+                },
+                {
+                    question: "Ena est-elle disponible à tout moment ?",
+                    answer: "Oui, Ena fonctionne 24/7 et répond instantanément dans Edena, avec un support disponible quand vous en avez besoin.",
+                },
+            ],
+        },
     },
 };

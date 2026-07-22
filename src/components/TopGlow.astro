@@ -3,15 +3,16 @@ import { topGlowHeightClass, topGlowMaskClass } from "@/constants/top-glow-backg
 
 interface Props {
     class?: string;
+    heightClass?: string;
 }
 
-const { class: className = "" } = Astro.props;
+const { class: className = "", heightClass = topGlowHeightClass } = Astro.props;
 ---
 
 <div
     class:list={[
         "pointer-events-none absolute inset-x-0 top-0 z-0 bg-gradient-primary",
-        topGlowHeightClass,
+        heightClass,
         topGlowMaskClass,
         className,
     ]}

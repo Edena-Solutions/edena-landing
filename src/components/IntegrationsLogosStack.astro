@@ -99,8 +99,7 @@ const minFactor = toFactor(minDiameter + STEP); // floor: second smallest initia
         ))
     }
     <span class="logo-label" aria-hidden="true">
-        <span class="logo-label-text text-xs font-medium text-muted-foreground"
-        ></span>
+        <span class="logo-label-text text-xs text-muted-foreground"></span>
     </span>
 </div>
 
@@ -120,7 +119,10 @@ const minFactor = toFactor(minDiameter + STEP); // floor: second smallest initia
         /* Normalize to the reference size first, then apply the dock factor so
            every chip starts from the same size regardless of its initial one.
            The lower bound matches the smallest initial chip. */
-        --s: calc(var(--norm) * max(var(--min-factor), calc(var(--max-factor) - var(--step-factor) * var(--d))));
+        --s: calc(
+            var(--norm) *
+                max(var(--min-factor), calc(var(--max-factor) - var(--step-factor) * var(--d)))
+        );
         z-index: calc(30 - var(--d));
     }
 
@@ -174,10 +176,7 @@ const minFactor = toFactor(minDiameter + STEP); // floor: second smallest initia
         chips.forEach((chip, index) => {
             chip.addEventListener("pointerenter", () => {
                 stack.style.setProperty("--active", String(index));
-                stack.style.setProperty(
-                    "--label-x",
-                    chip.style.getPropertyValue("--tx"),
-                );
+                stack.style.setProperty("--label-x", chip.style.getPropertyValue("--tx"));
                 stack.setAttribute("data-active", "");
                 if (label) {
                     const alt = chip.querySelector("img")?.alt ?? "";
@@ -190,7 +189,5 @@ const minFactor = toFactor(minDiameter + STEP); // floor: second smallest initia
         });
     }
 
-    document
-        .querySelectorAll<HTMLElement>(".logo-stack")
-        .forEach(initStack);
+    document.querySelectorAll<HTMLElement>(".logo-stack").forEach(initStack);
 </script>

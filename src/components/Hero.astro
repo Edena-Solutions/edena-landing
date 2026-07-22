@@ -35,8 +35,8 @@ interface Props {
     mainTitle: string;
     mainDescription: string;
     showBookDemoInHero?: boolean;
-    leftCard: HeroCard;
-    rightCard: HeroCard;
+    leftCard?: HeroCard;
+    rightCard?: HeroCard;
     heroImageClass?: string;
     heroImageAspectRatio?: string;
 }
@@ -56,6 +56,7 @@ const {
 } = Astro.props;
 
 const hasHeroSlot = Astro.slots.has("heroVisual");
+const hasRightCardSlot = Astro.slots.has("rightCardVisual");
 ---
 
 <div class="grid gap-4">
@@ -125,106 +126,114 @@ const hasHeroSlot = Astro.slots.has("heroVisual");
         </CardFooter>
     </Card>
 
-    <div class="grid sm:grid-cols-2 gap-4 px-4">
-        <Card
-            className="relative text-white flex rounded flex-col gap-4 items-center justify-center text-center overflow-hidden bg-card"
-        >
-            <TopGlow />
-            <CardHeader className="relative z-10">
-                <h2 class="text-xl font-bold max-w-100">{leftCard.title}</h2>
-            </CardHeader>
-            <CardContent className="relative z-10 flex flex-col gap-6 items-center pb-0">
-                <p class="max-w-100">
-                    {leftCard.description}
-                </p>
-            </CardContent>
-            {
-                leftCard.showButton && (
-                    <CardFooter className="relative z-10 flex gap-4 mt-4">
-                        <BookDemoButton t={t} variant="white" />
-                    </CardFooter>
-                )
-            }
-        </Card>
-
-        <Card
-            className={`flex rounded flex-col items-center text-center overflow-hidden bg-card ${rightCard.cardClass || "h-80 md:h-110"} gap-4`}
-        >
-            {
-                rightCard.title && (
-                    <CardHeader className="pb-2">
-                        <h2 class="text-xl font-bold">{rightCard.title}</h2>
+    {
+        leftCard && rightCard && (
+            <div class="grid sm:grid-cols-2 gap-4 px-4">
+                <Card
+                    className="relative text-white flex rounded flex-col gap-4 items-center justify-center text-center overflow-hidden bg-card"
+                >
+                    <TopGlow />
+                    <CardHeader className="relative z-10">
+                        <h2 class="text-xl font-bold max-w-100">{leftCard.title}</h2>
                     </CardHeader>
-                )
-            }
-            <CardContent
-                className={`flex flex-col gap-4 items-center ${rightCard.image || rightCard.imageDark || rightCard.lottie || rightCard.downloadAppButtons ? "pb-0" : ""}`}
-            >
-                <p class="text-muted-foreground max-w-100">
-                    {rightCard.description}
-                </p>
-            </CardContent>
-            {
-                rightCard.downloadAppButtons ? (
-                    <CardFooter className="flex flex-row gap-3 items-center w-full justify-center mt-4">
-                        {rightCard.downloadAppButtons.iosUrl && (
-                            <a
-                                href={rightCard.downloadAppButtons.iosUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="inline-block"
-                            >
-                                <img
-                                    src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1288569600"
-                                    alt={t.altText.appStoreBadge}
-                                    class="h-9 w-auto"
+                    <CardContent className="relative z-10 flex flex-col gap-6 items-center pb-0">
+                        <p class="max-w-100">
+                            {leftCard.description}
+                        </p>
+                    </CardContent>
+                    {
+                        leftCard.showButton && (
+                            <CardFooter className="relative z-10 flex gap-4 mt-4">
+                                <BookDemoButton t={t} variant="white" />
+                            </CardFooter>
+                        )
+                    }
+                </Card>
+
+                <Card
+                    className={`flex rounded flex-col items-center text-center overflow-hidden bg-card ${rightCard.cardClass || "h-80 md:h-110"} gap-4`}
+                >
+                    {
+                        rightCard.title && (
+                            <CardHeader className="pb-2">
+                                <h2 class="text-xl font-bold">{rightCard.title}</h2>
+                            </CardHeader>
+                        )
+                    }
+                    <CardContent
+                        className={`flex flex-col gap-4 items-center ${rightCard.image || rightCard.imageDark || rightCard.lottie || rightCard.downloadAppButtons || hasRightCardSlot ? "pb-0" : ""}`}
+                    >
+                        <p class="text-muted-foreground max-w-100">
+                            {rightCard.description}
+                        </p>
+                    </CardContent>
+                    {
+                        rightCard.downloadAppButtons ? (
+                            <CardFooter className="flex flex-row gap-3 items-center w-full justify-center mt-4">
+                                {rightCard.downloadAppButtons.iosUrl && (
+                                    <a
+                                        href={rightCard.downloadAppButtons.iosUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="inline-block"
+                                    >
+                                        <img
+                                            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1288569600"
+                                            alt={t.altText.appStoreBadge}
+                                            class="h-9 w-auto"
+                                        />
+                                    </a>
+                                )}
+                                {rightCard.downloadAppButtons.androidUrl && (
+                                    <a
+                                        href={rightCard.downloadAppButtons.androidUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="inline-block"
+                                    >
+                                        <img
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/960px-Google_Play_Store_badge_EN.svg.png"
+                                            alt={t.altText.googlePlayBadge}
+                                            class="h-9 w-auto"
+                                        />
+                                    </a>
+                                )}
+                            </CardFooter>
+                        ) : hasRightCardSlot ? (
+                            <CardFooter>
+                                <slot name="rightCardVisual" />
+                            </CardFooter>
+                        ) : rightCard.lottie ? (
+                            <CardFooter>
+                                <LottiePlayer
+                                    client:only="react"
+                                    animationData={rightCard.lottie}
+                                    className={rightCard.imageClass || "w-full mx-auto object-contain"}
                                 />
-                            </a>
-                        )}
-                        {rightCard.downloadAppButtons.androidUrl && (
-                            <a
-                                href={rightCard.downloadAppButtons.androidUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="inline-block"
-                            >
-                                <img
-                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/960px-Google_Play_Store_badge_EN.svg.png"
-                                    alt={t.altText.googlePlayBadge}
-                                    class="h-9 w-auto"
-                                />
-                            </a>
-                        )}
-                    </CardFooter>
-                ) : rightCard.lottie ? (
-                    <CardFooter>
-                        <LottiePlayer
-                            client:only="react"
-                            animationData={rightCard.lottie}
-                            className={rightCard.imageClass || "w-full mx-auto object-contain"}
-                        />
-                    </CardFooter>
-                ) : rightCard.image ? (
-                    <CardFooter>
-                        {rightCard.imageDark ? (
-                            <ThemedImage
-                                src={rightCard.image}
-                                darkImage={rightCard.imageDark}
-                                alt={rightCard.altText || rightCard.title || t.altText.heroImage}
-                                loading="eager"
-                                className={`${rightCard.imageClass ?? "w-full xl:w-4/5 mx-auto object-contain"} rounded`.trim()}
-                            />
-                        ) : (
-                            <Image
-                                src={rightCard.image}
-                                alt={rightCard.altText || rightCard.title || t.altText.heroImage}
-                                loading="eager"
-                                class={rightCard.imageClass || "w-full mx-auto object-contain"}
-                            />
-                        )}
-                    </CardFooter>
-                ) : null
-            }
-        </Card>
-    </div>
+                            </CardFooter>
+                        ) : rightCard.image ? (
+                            <CardFooter>
+                                {rightCard.imageDark ? (
+                                    <ThemedImage
+                                        src={rightCard.image}
+                                        darkImage={rightCard.imageDark}
+                                        alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                        loading="eager"
+                                        className={`${rightCard.imageClass ?? "w-full xl:w-4/5 mx-auto object-contain"} rounded`.trim()}
+                                    />
+                                ) : (
+                                    <Image
+                                        src={rightCard.image}
+                                        alt={rightCard.altText || rightCard.title || t.altText.heroImage}
+                                        loading="eager"
+                                        class={rightCard.imageClass || "w-full mx-auto object-contain"}
+                                    />
+                                )}
+                            </CardFooter>
+                        ) : null
+                    }
+                </Card>
+            </div>
+        )
+    }
 </div>

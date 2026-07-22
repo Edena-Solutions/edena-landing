@@ -1,0 +1,70 @@
+---
+import { translations, languages } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+import Hero from "@/components/Hero.astro";
+import GSAPSection from "@/components/ui/gsap-section";
+import Features from "@/components/Features";
+import ProductFAQs from "@/components/ProductFAQs.astro";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import EnaSection from "@/modules/home/EnaSection.astro";
+import { ogFromAsset } from "@/lib/og-image";
+import enaImage from "@/assets/img/screenshots/shared/hero_ena.png";
+import enaImageDark from "@/assets/img/screenshots/shared/dark/hero_ena.png";
+
+export function getStaticPaths() {
+    return languages.map((lang) => ({
+        params: { lang },
+        props: { lang },
+    }));
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+const m = t.productModules.ena;
+
+const icons = ["Sparkles", "Zap", "MessageCircle", "Mail", "Users", "ShieldCheck"];
+const features = m.features.map((f, i) => ({
+    icon: icons[i],
+    title: f.title,
+    description: f.description,
+    navigateTo: `/${lang}/ena`,
+}));
+---
+
+<Layout
+    content={{
+        title: m.metaTitle,
+        description: m.metaDescription,
+        ...ogFromAsset(enaImage, Astro.site),
+    }}
+    lang={lang}
+>
+    <GSAPSection client:load className="grid gap-16" animationType="opacity">
+        <Hero
+            t={t}
+            heroImage={enaImage}
+            heroImageDark={enaImageDark}
+            showBookDemoInHero={true}
+            mainTitle={m.mainTitle}
+            mainDescription={m.mainDescription}
+        />
+        <Features
+            client:load
+            t={t}
+            features={features}
+            title={m.featuresTitle}
+            description={m.featuresDescription}
+        />
+        <EnaSection t={t} />
+        <ProductFAQs t={t} title={m.faqTitle} description={m.faqDescription} faqs={m.faqs} />
+    </GSAPSection>
+    <SoftwareApplicationSchema
+        slot="structured-data"
+        name="Ena - IA de Edena"
+        description={m.metaDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/ena`}
+        lang={lang}
+    />
+</Layout>

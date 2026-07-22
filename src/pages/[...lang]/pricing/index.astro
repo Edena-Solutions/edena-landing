@@ -7,6 +7,7 @@ import { PricingTabs } from "@/components/PricingTabs";
 import { getCollection } from "astro:content";
 import { ogFromAsset } from "@/lib/og-image";
 import pricingOgImage from "@/assets/img/screenshots/finance/billing_cycle.png";
+import Conclusion from "@/modules/home/Conclusion.astro";
 
 export function getStaticPaths() {
     return languages.map((lang) => ({
@@ -49,8 +50,9 @@ const offers = pricingPlans
         category="Software de Gestión Escolar"
         lang={lang}
     />
-    <section class="grid gap-10 px-4 w-full max-w-7xl mx-auto">
+    <section class="grid gap-10 px-4 w-full mx-auto">
         <Hero t={t} />
         <PricingTabs client:load t={t} lang={lang} />
+        <Conclusion lang={lang} />
     </section>
 </Layout>
