@@ -263,8 +263,8 @@ export default {
                 typePlaceholder: "Langues, soutien scolaire, musique...",
             },
             partner: {
-                centerLabel: "Nom de l’entreprise (facultatif)",
-                websiteLabel: "Site web de l’entreprise (facultatif)",
+                centerLabel: "Nom de l’entreprise",
+                websiteLabel: "Site web de l’entreprise",
             },
         },
     },

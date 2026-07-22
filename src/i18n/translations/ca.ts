@@ -263,8 +263,8 @@ export default {
                 typePlaceholder: "Idiomes, reforç, música...",
             },
             partner: {
-                centerLabel: "Nom de l'empresa (opcional)",
-                websiteLabel: "Web de l'empresa (opcional)",
+                centerLabel: "Nom de l'empresa",
+                websiteLabel: "Web de l'empresa",
             },
         },
     },

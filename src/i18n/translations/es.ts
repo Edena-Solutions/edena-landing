@@ -262,8 +262,8 @@ export default {
                 typePlaceholder: "Idiomas, refuerzo, música...",
             },
             partner: {
-                centerLabel: "Nombre de la empresa (opcional)",
-                websiteLabel: "Web de la empresa (opcional)",
+                centerLabel: "Nombre de la empresa",
+                websiteLabel: "Web de la empresa",
             },
         },
     },

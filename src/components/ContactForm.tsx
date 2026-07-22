@@ -164,7 +164,11 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
     const SelectedProfileIcon = profileIcons[profile];
 
     const isFormValid =
-        schema.safeParse(formData).success && (profile !== "partner" || phoneValid);
+        schema.safeParse(formData).success &&
+        (profile !== "partner" ||
+            (phoneValid &&
+                formData.centerName.trim() !== "" &&
+                formData.website.trim() !== ""));
 
     return (
         <div className="grid overflow-hidden rounded bg-background md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">

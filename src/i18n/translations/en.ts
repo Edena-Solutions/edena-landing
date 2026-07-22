@@ -255,8 +255,8 @@ export default {
                 typePlaceholder: "Languages, tutoring, music...",
             },
             partner: {
-                centerLabel: "Company name (optional)",
-                websiteLabel: "Company website (optional)",
+                centerLabel: "Company name",
+                websiteLabel: "Company website",
             },
         },
     },

@@ -264,8 +264,8 @@ export default {
                 typePlaceholder: "Hizkuntzak, errefortzua, musika...",
             },
             partner: {
-                centerLabel: "Enpresaren izena (aukerakoa)",
-                websiteLabel: "Enpresaren webgunea (aukerakoa)",
+                centerLabel: "Enpresaren izena",
+                websiteLabel: "Enpresaren webgunea",
             },
         },
     },
