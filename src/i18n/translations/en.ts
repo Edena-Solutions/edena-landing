@@ -23,7 +23,7 @@ export default {
         studentsTitle: "Student Management Software | Records, Attendance & Grades | Edena",
         studentsDescription:
             "Digital student records, automated attendance tracking, grade management, and report card generation in one platform. Reduce administrative workload by 40% from day one.",
-        appTitle: "School Mobile App | Family Communication App | Edena Kids",
+        appTitle: "School Mobile App | Family Communication App | Edena",
         appDescription:
             "Free app for families and teachers on iOS and Android. Real-time push notifications, secure photo sharing, digital document signing, grades, and invoices in one place.",
         demoTitle: "Free No-Obligation Demo | See Edena Live | School Management Software",
@@ -140,7 +140,7 @@ export default {
         finance: "Financial Suite",
         financeDescription:
             "Automated financial management system for billing, payments, budgets, and financial reporting.",
-        app: "Edena Kids",
+        app: "Edena",
         appDescription:
             "Mobile application designed for families, students, and teachers to access school information on the go.",
         crm: "School CRM",
@@ -1492,7 +1492,7 @@ Edena is a comprehensive SaaS (Software as a Service) educational management pla
 - Attendance tracking and assessment cycles.<br>
 - Automated billing and payment management.<br>
 - Family portal and two-way school communication.<br>
-- Mobile application (Edena Kids) for families, students, and teachers.<br>
+- Mobile application (Edena) for families, students, and teachers.<br>
 - School CRM for enrolment management and lead capture.<br>
 - Real-time analytics and reporting dashboard.<br>
 - Task management and grade report generation.<br>
@@ -2055,7 +2055,7 @@ The party responsible for the use of cookies is Edena Software S.L. (Tax ID: B27
 This policy covers all Edena services:<br>
 - The website www.edena.es.<br>
 - The platform web application (app.edena.es).<br>
-- The Edena Kids mobile application (iOS and Android).<br>
+- The Edena mobile application (iOS and Android).<br>
 <br>
 3. COOKIES ON THE WEBSITE (www.edena.es)<br>
 3.1 Technical storage (necessary)<br>
@@ -2073,7 +2073,7 @@ The Edena web application only uses technical storage, essential for the service
 - edena_cookie_consent: record of your cookie decision.<br>
 The platform currently uses no analytics or advertising cookies. If analytics were added in the future, it would only be activated with your prior consent through the platform's own banner.<br>
 <br>
-5. EDENA KIDS MOBILE APP<br>
+5. EDENA MOBILE APP<br>
 The mobile application does not use cookies. It only keeps in the device's local storage the technical data essential for it to work (user session and preferences), which is removed when you sign out or uninstall the application.<br>
 <br>
 6. HOW CAN I MANAGE OR DISABLE COOKIES?<br>

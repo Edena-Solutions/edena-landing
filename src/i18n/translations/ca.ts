@@ -24,7 +24,7 @@ export default {
         studentsTitle: "Programa de gestió d'alumnes | Expedients, assistència i notes | Edena",
         studentsDescription:
             "Expedients digitals, assistència automàtica, qualificacions i generació de butlletins en una sola plataforma. Redueix la càrrega administrativa un 40% des del primer dia.",
-        appTitle: "App mòbil per a col·legis | Comunicació famílies-centre | Edena Kids",
+        appTitle: "App mòbil per a col·legis | Comunicació famílies-centre | Edena",
         appDescription:
             "App gratuïta per a famílies i professors a iOS i Android. Notificacions push, fotos segures, signatura digital de documents, notes i factures en un sol lloc.",
         demoTitle:
@@ -148,7 +148,7 @@ export default {
         finance: "Suite financera",
         financeDescription:
             "Sistema automatitzat de gestió financera per a facturació, pagaments, pressupostos i informes financers.",
-        app: "Edena Kids",
+        app: "Edena",
         appDescription:
             "Aplicació mòbil dissenyada per a famílies, estudiants i professors per accedir a la informació escolar des de qualsevol lloc.",
         crm: "CRM escolar",
@@ -1604,7 +1604,7 @@ Edena és una plataforma SaaS (Software as a Service) de gestió educativa integ
 - Control d'assistència i cicles d'avaluació.<br>
 - Facturació automatitzada i gestió de pagaments.<br>
 - Portal de famílies i comunicació escolar bidireccional.<br>
-- Aplicació mòbil (Edena Kids) per a famílies, alumnes i professors.<br>
+- Aplicació mòbil (Edena) per a famílies, alumnes i professors.<br>
 - CRM escolar per a la gestió de matrícules i captació de leads.<br>
 - Panell d'anàlisi i reporting en temps real.<br>
 - Gestió de tasques i butlletins de qualificacions.<br>
@@ -1727,7 +1727,7 @@ El responsable de l'ús de galetes és Edena Software S.L. (CIF: B27627462). Per
 Aquesta política cobreix tots els serveis d'Edena:<br>
 - El lloc web www.edena.es.<br>
 - L'aplicació web de la plataforma (app.edena.es).<br>
-- L'aplicació mòbil Edena Kids (iOS i Android).<br>
+- L'aplicació mòbil Edena (iOS i Android).<br>
 <br>
 3. GALETES AL LLOC WEB (www.edena.es)<br>
 3.1 Emmagatzematge tècnic (necessari)<br>
@@ -1745,7 +1745,7 @@ L'aplicació web d'Edena utilitza únicament emmagatzematge tècnic, imprescindi
 - edena_cookie_consent: registre de la teva decisió sobre les galetes.<br>
 Actualment la plataforma no fa servir galetes d'analítica ni de publicitat. Si en el futur s'hi incorporés analítica, només s'activaria amb el teu consentiment previ a través del bàner de la mateixa plataforma.<br>
 <br>
-5. APLICACIÓ MÒBIL EDENA KIDS<br>
+5. APLICACIÓ MÒBIL EDENA<br>
 L'aplicació mòbil no fa servir galetes. Únicament desa a l'emmagatzematge local del dispositiu les dades tècniques imprescindibles per al seu funcionament (sessió d'usuari i preferències), que s'eliminen en tancar la sessió o desinstal·lar l'aplicació.<br>
 <br>
 6. COM PUC GESTIONAR O DESACTIVAR LES GALETES?<br>

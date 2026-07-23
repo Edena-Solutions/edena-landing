@@ -24,8 +24,7 @@ export default {
         studentsTitle: "Ikasle-kudeaketa softwarea | Agiriak, asistentzia eta notak | Edena",
         studentsDescription:
             "Agiri digitalak, asistentzia automatikoa, kalifikazioak eta boletinen sorrerak plataforma bakarrean. %40 murriztu administrazio-karga lehen egunetik.",
-        appTitle:
-            "Ikastetxeetarako mugikorreko aplikazioa | Familia-zentro komunikazioa | Edena Kids",
+        appTitle: "Ikastetxeetarako mugikorreko aplikazioa | Familia-zentro komunikazioa | Edena",
         appDescription:
             "Doako aplikazioa familia eta irakasleentzat iOS eta Android-en. Push jakinarazpenak, argazki seguruak, agiri digitalen sinadura, notak eta fakturak leku bakarrean.",
         demoTitle:
@@ -149,7 +148,7 @@ export default {
         finance: "Finantza-suitea",
         financeDescription:
             "Fakturazioa, ordainketak, aurrekontuak eta txosten finantzarioetarako finantza-kudeaketa sistema automatizatua.",
-        app: "Edena Kids",
+        app: "Edena",
         appDescription:
             "Familia, ikasle eta irakasleentzat diseinatutako mugikorreko aplikazioa eskolako informaziora edonondik sartzeko.",
         crm: "Eskola CRM",
@@ -1604,7 +1603,7 @@ Edena hezkuntza-kudeaketarako SaaS (Software as a Service) plataforma integrala 
 - Asistentziaren kontrola eta ebaluazio-zikloak.<br>
 - Fakturazio automatizatua eta ordainketen kudeaketa.<br>
 - Familien ataria eta bi norabideko eskola-komunikazioa.<br>
-- Aplikazio mugikorra (Edena Kids) familientzat, ikasleentzat eta irakasleentzat.<br>
+- Aplikazio mugikorra (Edena) familientzat, ikasleentzat eta irakasleentzat.<br>
 - Eskola-CRM matrikula-kudeaketarako eta lead-kapturarako.<br>
 - Analisi eta reporting panel erreala.<br>
 - Zereginen kudeaketa eta kalifikazio-boletinen sorkuntza.<br>
@@ -1727,7 +1726,7 @@ Cookieen erabileraren arduraduna Edena Software S.L. da (IFK: B27627462). Politi
 Politika honek Edenaren zerbitzu guztiak hartzen ditu barnean:<br>
 - www.edena.es webgunea.<br>
 - Plataformaren web-aplikazioa (app.edena.es).<br>
-- Edena Kids aplikazio mugikorra (iOS eta Android).<br>
+- Edena aplikazio mugikorra (iOS eta Android).<br>
 <br>
 3. COOKIEAK WEBGUNEAN (www.edena.es)<br>
 3.1 Biltegiratze teknikoa (beharrezkoa)<br>
@@ -1745,7 +1744,7 @@ Edenaren web-aplikazioak biltegiratze teknikoa soilik erabiltzen du, zerbitzuare
 - edena_cookie_consent: cookieei buruzko zure erabakiaren erregistroa.<br>
 Gaur egun plataformak ez du analitika- edo publizitate-cookierik erabiltzen. Etorkizunean analitika gehituko balitz, zure aldez aurreko baimenarekin soilik aktibatuko litzateke, plataformaren beraren bannerraren bidez.<br>
 <br>
-5. EDENA KIDS APLIKAZIO MUGIKORRA<br>
+5. EDENA APLIKAZIO MUGIKORRA<br>
 Aplikazio mugikorrak ez du cookierik erabiltzen. Gailuaren tokiko biltegiratzean funtzionamendurako ezinbestekoak diren datu teknikoak soilik gordetzen ditu (erabiltzailearen saioa eta hobespenak), eta horiek ezabatu egiten dira saioa ixtean edo aplikazioa desinstalatzean.<br>
 <br>
 6. NOLA KUDEATU EDO DESAKTIBA DITZAKET COOKIEAK?<br>

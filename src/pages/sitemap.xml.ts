@@ -170,7 +170,7 @@ export async function GET() {
             changefreq: "monthly",
             lastmod: currentDate,
             hreflangLinks: buildHreflang("app/"),
-            images: [{ loc: `${base}/assets/img/app-hero.png`, title: "Edena Kids Mobile App" }],
+            images: [{ loc: `${base}/assets/img/app-hero.png`, title: "Edena Mobile App" }],
         },
         {
             path: "/dashboard/",
