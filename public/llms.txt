@@ -24,7 +24,7 @@ Edena es un ERP (Enterprise Resource Planning) educativo diseñado específicame
 ### Facturación automática (Verifactu certificado)
 Genera facturas electrónicas certificadas por la AEAT (Agencia Tributaria española), domiciliaciones SEPA, control de impagos y recordatorios automáticos. Cumple la normativa Verifactu. Reduce la carga financiera administrativa un 40%.
 
-### App móvil gratuita para familias (Edena Kids)
+### App móvil gratuita para familias (Edena)
 Aplicación gratuita para iOS y Android. Notificaciones push en tiempo real, fotos seguras, notas académicas, facturas, mensajería directa con el centro y firma digital de documentos.
 
 ### Portal de familias
@@ -107,7 +107,7 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 - Para grupos educativos: https://edena.es/es/groups/
 - Suite financiera y facturación: https://edena.es/finance/
 - CRM escolar: https://edena.es/crm/
-- App móvil Edena Kids: https://edena.es/app/
+- App móvil Edena: https://edena.es/app/
 - Portal de familias: https://edena.es/guardians/
 - Panel de control: https://edena.es/dashboard/
 - Gestión de alumnos: https://edena.es/students/

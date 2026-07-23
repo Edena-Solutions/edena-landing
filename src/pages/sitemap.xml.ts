@@ -104,6 +104,7 @@ export async function GET() {
         { segment: "terms/", priority: "0.5", changefreq: "yearly" },
         { segment: "cookies/", priority: "0.5", changefreq: "yearly" },
         { segment: "data-processing/", priority: "0.5", changefreq: "yearly" },
+        { segment: "delete-account/", priority: "0.5", changefreq: "yearly" },
     ];
 
     const buildLocaleStaticUrls = (
@@ -169,7 +170,7 @@ export async function GET() {
             changefreq: "monthly",
             lastmod: currentDate,
             hreflangLinks: buildHreflang("app/"),
-            images: [{ loc: `${base}/assets/img/app-hero.png`, title: "Edena Kids Mobile App" }],
+            images: [{ loc: `${base}/assets/img/app-hero.png`, title: "Edena Mobile App" }],
         },
         {
             path: "/dashboard/",
@@ -369,6 +370,13 @@ export async function GET() {
             hreflangLinks: buildHreflang("data-processing/"),
         },
         {
+            path: "/delete-account/",
+            priority: "0.5",
+            changefreq: "yearly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("delete-account/"),
+        },
+        {
             path: "/es/",
             priority: "0.9",
             changefreq: "weekly",
@@ -545,6 +553,13 @@ export async function GET() {
             changefreq: "yearly",
             lastmod: currentDate,
             hreflangLinks: buildHreflang("data-processing/"),
+        },
+        {
+            path: "/es/delete-account/",
+            priority: "0.5",
+            changefreq: "yearly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("delete-account/"),
         },
         {
             path: "/en/",
@@ -751,6 +766,13 @@ export async function GET() {
             changefreq: "yearly",
             lastmod: currentDate,
             hreflangLinks: buildHreflang("data-processing/"),
+        },
+        {
+            path: "/en/delete-account/",
+            priority: "0.5",
+            changefreq: "yearly",
+            lastmod: currentDate,
+            hreflangLinks: buildHreflang("delete-account/"),
         },
     ];
 
