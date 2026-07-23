@@ -143,7 +143,7 @@ export default {
         finance: "Finantza-suitea",
         financeDescription:
             "Fakturazioa, ordainketak, aurrekontuak eta txosten finantzarioetarako finantza-kudeaketa sistema automatizatua.",
-        app: "Edena",
+        app: "Edena App",
         appDescription:
             "Familia, ikasle eta irakasleentzat diseinatutako mugikorreko aplikazioa eskolako informaziora edonondik sartzeko.",
         crm: "Eskola CRM",

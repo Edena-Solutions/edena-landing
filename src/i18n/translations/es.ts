@@ -142,7 +142,7 @@ export default {
         finance: "Suite Financiera",
         financeDescription:
             "Sistema automatizado de gestión financiera para facturación, pagos, presupuestos e informes financieros.",
-        app: "Edena",
+        app: "Edena App",
         appDescription:
             "Aplicación móvil diseñada para familias, estudiantes y profesores para acceder a la información escolar desde cualquier lugar.",
         crm: "CRM Escolar",

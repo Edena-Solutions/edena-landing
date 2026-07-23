@@ -137,7 +137,7 @@ export default {
         finance: "Financial Suite",
         financeDescription:
             "Automated financial management system for billing, payments, budgets, and financial reporting.",
-        app: "Edena",
+        app: "Edena App",
         appDescription:
             "Mobile application designed for families, students, and teachers to access school information on the go.",
         crm: "School CRM",
