@@ -33,7 +33,7 @@ faqs:
 
 <br>
 
-Flux de caixa, previsió per curs, reporting per a propietari. KPIs a <a href="/ca/blog/kpis-director-col·legi-mensual-2026">KPIs director mensual</a>.
+Flux de caixa, previsió per curs, reporting per a propietari. KPIs a <a href="/ca/blog/kpi-director-escola-mensual-2026">KPIs director mensual</a>.
 
 La gestió financera en centres educatius ha evolucionat significativament en els darrers anys. Dels tradicionals llibres de comptabilitat en paper i fulls de càlcul bàsics, hem passat a sistemes integrats que no només automatitzen processos, sinó que també proporcionen insights valuosos per a la presa de decisions estratègiques. Aquesta transformació digital permet als centres educatius optimitzar els seus recursos, millorar la transparència i garantir la seva sostenibilitat financera.
 

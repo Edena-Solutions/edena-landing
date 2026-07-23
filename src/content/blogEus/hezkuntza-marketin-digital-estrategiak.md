@@ -166,6 +166,6 @@ Bilboko eskola pribatu batek Google Business fitxa, Open Day landing-a eta CRM f
 
 <br>
 
-Espainiako hezkuntza marketina funtzionatzen du harrapaketa lokala, Open Day eta eskola CRM neurgarria den zirkuitu batean biltzen direnean. Hurrengo urratsa zure abiapuntua neurtzea, arrakasta-metrika bat hitzartzea eta fluxua benetako datuekin probatzea da. Zure zentroan nola egokitzen den ikusi nahi baduzu, <a href="/eus/contacto">eskatu Edenaren demo bat</a>.
+Espainiako hezkuntza marketina funtzionatzen du harrapaketa lokala, Open Day eta eskola CRM neurgarria den zirkuitu batean biltzen direnean. Hurrengo urratsa zure abiapuntua neurtzea, arrakasta-metrika bat hitzartzea eta fluxua benetako datuekin probatzea da. Zure zentroan nola egokitzen den ikusi nahi baduzu, <a href="/eus/contact">eskatu Edenaren demo bat</a>.
 
 <br>

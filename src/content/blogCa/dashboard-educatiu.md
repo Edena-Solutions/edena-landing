@@ -31,7 +31,7 @@ faqs:
 
 <br>
 
-Centre de control per a direcció. KPIs base a <a href="/ca/blog/kpis-director-col·legi-mensual-2026">KPIs mensuals</a>.
+Centre de control per a direcció. KPIs base a <a href="/ca/blog/kpi-director-escola-mensual-2026">KPIs mensuals</a>.
 
 A l'era de la informació, els centres educatius necessiten eines de gestió que proporcionin visibilitat total sobre totes les operacions. Els dashboards educatius estan emergint com el centre de control estratègic que permet a directors i administradors prendre decisions informades basant-se en dades reals i actualitzades. Aquesta tecnologia està transformant la gestió educativa, proporcionant el control i la visibilitat necessaris per optimitzar tots els aspectes del centre.
 

@@ -166,6 +166,6 @@ Une école privée de Bilbao a optimisé son profil Google Business, son atterri
 
 <br>
 
-Le marketing éducatif en Espagne fonctionne lorsque le recrutement local, les journées portes ouvertes et le CRM scolaire forment un circuit mesurable. L'étape suivante consiste à mesurer votre point de départ, à convenir d'une mesure de réussite et à tester le flux avec des données réelles. Si vous voulez voir comment il s'intègre dans votre centre, <a href="/es/contacto">solicita una demo de Edena</a>.
+Le marketing éducatif en Espagne fonctionne lorsque le recrutement local, les journées portes ouvertes et le CRM scolaire forment un circuit mesurable. L'étape suivante consiste à mesurer votre point de départ, à convenir d'une mesure de réussite et à tester le flux avec des données réelles. Si vous voulez voir comment il s'intègre dans votre centre, <a href="/fr/contact">solicita una demo de Edena</a>.
 
 <br>

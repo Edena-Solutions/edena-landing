@@ -50,7 +50,7 @@ faqs:
 - **Serie bikoiztuak:** Errefusak eta birlanketak sortzen ditu; zerbitzu mota bakoitzeko serie bat definitzen du bidalketa masiboa baino lehen.
 - **Kreditu-trazagarritasunik gabeko fakturak:** Ordainketa partzialak jatorrizko ordainagiriarekin lotu behar dira.
 - **Beranduko zuzenketak:** Idazkaritza orduak kontsumitzen ditu eta familiaren kexak sortzen ditu.
-- **Eskuzko adiskidetze bankua-ERP:** Lanak bikoiztu eta benetako berankortasunak ezkutatzen ditu hilabete amaierara arte. Testuinguru gehiago <a href="/eus/blog/delinquency-colegios-cobros-automaticos-2026">delinkuentzia eta bilketa automatizatu</a>n.
+- **Eskuzko adiskidetze bankua-ERP:** Lanak bikoiztu eta benetako berankortasunak ezkutatzen ditu hilabete amaierara arte. Testuinguru gehiago <a href="/eus/blog/fakturazio-zorrak-murriztu-ikastetxeetan">delinkuentzia eta bilketa automatizatu</a>n.
 
 <br>
 

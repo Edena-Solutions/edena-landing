@@ -33,7 +33,7 @@ faqs:
 
 <br>
 
-Implementació tècnica a <a href="/ca/blog/matricula-online-centre-educatiu-passos-2026">matrícula en línia pas a pas</a>.
+Implementació tècnica a <a href="/ca/blog/matricula-online-centre-pas-2026">matrícula en línia pas a pas</a>.
 
 La matrícula en línia a l'escola i la inscripció digital d'alumnes transformen l'experiència de les famílies i redueixen càrrega a secretaria. Formularis digitals, documentació en línia, signatura electrònica i confirmació automàtica eliminen cues, papers i errors. Aquest article explica com implementar el onboarding digital de famílies amb matrícula online a l'escola i inscripció digital d'alumnes.
 

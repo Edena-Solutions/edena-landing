@@ -50,7 +50,7 @@ Dir "som un centre digital" sense tres resultats concrets al primer mes genera c
 
 <br>
 
-Secretaria (operació diària), un referent d'etapa, admissions si captes activament, IT o proveïdor extern si n'hi ha. Reunió quinzenal de 30 minuts, acta amb decisions, no només informes. Veure <a href="/ca/blog/gestion-canvi-organitzacional-educatiu">pla de canvi 90 dies</a> per encaixar calendari d'implantació.
+Secretaria (operació diària), un referent d'etapa, admissions si captes activament, IT o proveïdor extern si n'hi ha. Reunió quinzenal de 30 minuts, acta amb decisions, no només informes. Veure <a href="/ca/blog/gestio-canvi-organitzacional-educatiu">pla de canvi 90 dies</a> per encaixar calendari d'implantació.
 
 <br>
 
@@ -174,6 +174,6 @@ Un col·legi privat de 420 famílies va nomenar comitè digital quinzenal i va p
 
 <br>
 
-Un projecte digital escolar avança quan la direcció tradueix visió en mètriques, comitè petit i formació per rol. El pas següent és mesurar el teu punt de partida, acordar una mètrica d'èxit i provar el flux amb dades reals. Si vols veure com encaixa al teu centre, <a href="/ca/contacto">sol·licita una demo de Edena</a>.
+Un projecte digital escolar avança quan la direcció tradueix visió en mètriques, comitè petit i formació per rol. El pas següent és mesurar el teu punt de partida, acordar una mètrica d'èxit i provar el flux amb dades reals. Si vols veure com encaixa al teu centre, <a href="/ca/contact">sol·licita una demo de Edena</a>.
 
 <br>

@@ -39,7 +39,7 @@ faqs:
 - **Text clar en rebuts** amb desglossament de conceptes i data de càrrec.
 - **Tres recordatoris esglaonats** (D+3, D+10, D+20) només a morosos.
 - **Panel setmanal de deute per curs** per a direcció, no només tancament mensual.
-- **Política escrita d'impagament** amb criteris d'escalada i fraccionament. Estratègia completa a <a href="/ca/blog/morositat-col·legis-cobraments-automatics-2026">morositat i cobraments automatitzats</a>.
+- **Política escrita d'impagament** amb criteris d'escalada i fraccionament. Estratègia completa a <a href="/ca/blog/morositat-cobraments-automatics-2026">morositat i cobraments automatitzats</a>.
 
 <br>
 

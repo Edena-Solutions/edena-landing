@@ -50,7 +50,7 @@ Saying "we are a digital center" without three concrete results in the first mon
 
 <br>
 
-Secretariat (daily operation), a stage reference, admissions if you actively recruit, IT or external provider if it exists. Biweekly 30 minute meeting, minutes with decisions, not just reports. See <a href="/en/blog/management-change-organizational-educational">90-day change plan</a> to fit the implementation schedule.
+Secretariat (daily operation), a stage reference, admissions if you actively recruit, IT or external provider if it exists. Biweekly 30 minute meeting, minutes with decisions, not just reports. See <a href="/en/blog/organizational-change-management-education">90-day change plan</a> to fit the implementation schedule.
 
 <br>
 

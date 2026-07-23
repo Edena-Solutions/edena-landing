@@ -104,7 +104,7 @@ Director o gerent (pressupost i prioritat), responsable de secretaria (ús diari
 
 <br>
 
-Aquesta guia express et deixa preparats per avaluar proveïdors. Per a comitè de compra, scorecard de demo i TCO detallat, feu servir la <a href="/ca/blog/elegir-software-escolar-checklist-directores-2026">checklist per a directors 2026</a> i la <a href="/ca/blog/comparativa-software-gestion-escola2>.
+Aquesta guia express et deixa preparats per avaluar proveïdors. Per a comitè de compra, scorecard de demo i TCO detallat, feu servir la <a href="/ca/blog/checklist-software-escolar-director-2026">checklist per a directors 2026</a> i la <a href="/ca/blog/comparativa-programari-gestio-escolar-2026">comparativa de mercat</a>.
 
 <br>
 
@@ -177,6 +177,6 @@ Un centre de 280 famílies va automatitzar assistència, recordatoris de pagamen
 
 <br>
 
-La millora sostenible comença per mesurar, acordar responsables i revisar cada mes. El pas següent és mesurar el teu punt de partida, acordar una mètrica d'èxit i provar el flux amb dades reals. Si vols veure com encaixa al teu centre, <a href="/ca/contacto">sol·licita una demo de Edena</a>.
+La millora sostenible comença per mesurar, acordar responsables i revisar cada mes. El pas següent és mesurar el teu punt de partida, acordar una mètrica d'èxit i provar el flux amb dades reals. Si vols veure com encaixa al teu centre, <a href="/ca/contact">sol·licita una demo de Edena</a>.
 
 <br>

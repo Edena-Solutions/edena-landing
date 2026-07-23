@@ -163,6 +163,6 @@ Un colegio privado en Bilbao optimizó ficha de Google Business, landing de Open
 
 <br>
 
-El marketing educativo en España funciona cuando captación local, Open Day y CRM escolar forman un circuito medible. El siguiente paso es medir tu punto de partida, acordar una métrica de éxito y probar el flujo con datos reales. Si quieres ver cómo encaja en tu centro, <a href="/es/contacto">solicita una demo de Edena</a>.
+El marketing educativo en España funciona cuando captación local, Open Day y CRM escolar forman un circuito medible. El siguiente paso es medir tu punto de partida, acordar una métrica de éxito y probar el flujo con datos reales. Si quieres ver cómo encaja en tu centro, <a href="/contact">solicita una demo de Edena</a>.
 
 <br>

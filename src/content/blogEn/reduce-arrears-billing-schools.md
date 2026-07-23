@@ -39,7 +39,7 @@ faqs:
 - **Clear text on receipts** with a breakdown of items and charge date.
 - **Three staggered reminders** (D+3, D+10, D+20) only for defaulters.
 - **Weekly debt panel by course** for direction, not just monthly closing.
-- **Written non-payment policy** with escalation and fractionation criteria. Complete strategy in <a href="/en/blog/delinquency-colegios-cobros-automaticos-2026">delinquency and automated collections</a>.
+- **Written non-payment policy** with escalation and fractionation criteria. Complete strategy in <a href="/en/blog/school-arrears-automated-billing-2026">delinquency and automated collections</a>.
 
 <br>
 

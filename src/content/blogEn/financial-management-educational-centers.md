@@ -33,7 +33,7 @@ faqs:
 
 <br>
 
-Cash flow, forecast by course, reporting for owner. KPIs in <a href="/en/blog/kpis-director-colegio-monthly-2026">Monthly director KPIs</a>.
+Cash flow, forecast by course, reporting for owner. KPIs in <a href="/en/blog/head-teacher-monthly-kpis-2026">Monthly director KPIs</a>.
 
 Financial management in educational centers has evolved significantly in recent years. From traditional paper ledgers and basic spreadsheets, we have moved to integrated systems that not only automate processes, but also provide valuable insights for strategic decision making. This digital transformation is allowing educational centers to optimize their resources, improve transparency and guarantee their financial sustainability.
 

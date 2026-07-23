@@ -177,6 +177,6 @@ Un centre de 280 familles automatisé la fréquentation, les rappels de paiement
 
 <br>
 
-L'amélioration durable commence par mesurer, convenir des responsables et réviser chaque mois. L'étape suivante consiste à mesurer votre point de départ, à convenir d'une mesure de réussite et à tester le flux avec des données réelles. Si vous voulez voir comment il s'intègre dans votre centre, <a href="/es/contacto">solicita una demo de Edena</a>.
+L'amélioration durable commence par mesurer, convenir des responsables et réviser chaque mois. L'étape suivante consiste à mesurer votre point de départ, à convenir d'une mesure de réussite et à tester le flux avec des données réelles. Si vous voulez voir comment il s'intègre dans votre centre, <a href="/fr/contact">solicita una demo de Edena</a>.
 
 <br>

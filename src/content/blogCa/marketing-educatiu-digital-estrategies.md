@@ -76,7 +76,7 @@ QR a l'entrada, llista d'assistents automàtica, etiqueta d'origen (web, referit
 
 <br>
 
-Origen, curs, data de contacte, estat, propera acció i motiu de pèrdua si no matricula. Sense motiu codificat no aprens quin canal funciona. Integració amb <a href="/ca/blog/crm-escolar-matriculas-conversion-2026">CRM escolar i conversió</a> evita Excel paral·lel i discussions sobre "quantes sol·licituds reals hi va haver".
+Origen, curs, data de contacte, estat, propera acció i motiu de pèrdua si no matricula. Sense motiu codificat no aprens quin canal funciona. Integració amb <a href="/ca/blog/crm-escolar-matricules-2026">CRM escolar i conversió</a> evita Excel paral·lel i discussions sobre "quantes sol·licituds reals hi va haver".
 
 <br>
 
@@ -166,6 +166,6 @@ Un col·legi privat a Bilbao va optimitzar fitxa de Google Business, landing de 
 
 <br>
 
-El màrqueting educatiu a Espanya funciona quan captació local, Open Day i CRM escolar formen un circuit mesurable. El pas següent és mesurar el teu punt de partida, acordar una mètrica d'èxit i provar el flux amb dades reals. Si vols veure com encaixa al teu centre, <a href="/ca/contacto">sol·licita una demo de Edena</a>.
+El màrqueting educatiu a Espanya funciona quan captació local, Open Day i CRM escolar formen un circuit mesurable. El pas següent és mesurar el teu punt de partida, acordar una mètrica d'èxit i provar el flux amb dades reals. Si vols veure com encaixa al teu centre, <a href="/ca/contact">sol·licita una demo de Edena</a>.
 
 <br>

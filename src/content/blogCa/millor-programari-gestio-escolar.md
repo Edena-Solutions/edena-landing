@@ -35,7 +35,7 @@ faqs:
 
 <br>
 
-Evita comprar per moda o preu inicial. Comparativa de mercat a <a href="/ca/blog/comparativa-software-gestion-escolar-espana-2026">comparativa software 2026</a>.
+Evita comprar per moda o preu inicial. Comparativa de mercat a <a href="/ca/blog/comparativa-programari-gestio-escolar-2026">comparativa software 2026</a>.
 
 L'elecció del millor programari de gestió escolar marca la diferència entre un centre que perd hores en tasques repetitives i un que concentra recursos en allò que importa: alumnes i famílies. Directors i equips d'administració s'enfronten amb ofertes molt diferents; encertar requereix criteri i mètode.
 

@@ -50,7 +50,7 @@ The year 2026 marks a turning point in the financial management of Spanish educa
 - **Duplicate series:** Generates rejections and rework; defines a series per service type before mass sending.
 - **Invoices without credit traceability:** Partial credits must be linked to the original receipt.
 - **Late rectifications:** Consumes secretarial hours and generates family complaints.
-- **Manual bank-ERP reconciliation:** Duplicates work and hides real delinquencies until the end of the month. More context in <a href="/en/blog/delinquency-colegios-cobros-automaticos-2026">delinquency and automated collections</a>.
+- **Manual bank-ERP reconciliation:** Duplicates work and hides real delinquencies until the end of the month. More context in <a href="/en/blog/school-arrears-automated-billing-2026">delinquency and automated collections</a>.
 
 <br>
 

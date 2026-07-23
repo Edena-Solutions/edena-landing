@@ -171,6 +171,6 @@ Un colegio privado de 420 familias nombró comité digital quincenal y publicó 
 
 <br>
 
-Un proyecto digital escolar avanza cuando la dirección traduce visión en métricas, comité pequeño y formación por rol. El siguiente paso es medir tu punto de partida, acordar una métrica de éxito y probar el flujo con datos reales. Si quieres ver cómo encaja en tu centro, <a href="/es/contacto">solicita una demo de Edena</a>.
+Un proyecto digital escolar avanza cuando la dirección traduce visión en métricas, comité pequeño y formación por rol. El siguiente paso es medir tu punto de partida, acordar una métrica de éxito y probar el flujo con datos reales. Si quieres ver cómo encaja en tu centro, <a href="/contact">solicita una demo de Edena</a>.
 
 <br>

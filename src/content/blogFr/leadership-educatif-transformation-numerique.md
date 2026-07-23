@@ -174,6 +174,6 @@ Une école privée comptant 420 familles a nommé un comité numérique bihebdom
 
 <br>
 
-Un projet numérique scolaire avance lorsque la direction traduit la vision en mesures, en petits comités et en formation aux rôles. L'étape suivante consiste à mesurer votre point de départ, à convenir d'une mesure de réussite et à tester le flux avec des données réelles. Si vous voulez voir comment il s'intègre dans votre centre, <a href="/es/contacto">solicita una demo de Edena</a>.
+Un projet numérique scolaire avance lorsque la direction traduit la vision en mesures, en petits comités et en formation aux rôles. L'étape suivante consiste à mesurer votre point de départ, à convenir d'une mesure de réussite et à tester le flux avec des données réelles. Si vous voulez voir comment il s'intègre dans votre centre, <a href="/fr/contact">solicita una demo de Edena</a>.
 
 <br>

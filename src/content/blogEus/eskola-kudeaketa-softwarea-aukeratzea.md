@@ -177,6 +177,6 @@ Pilotuan astean 30 minutuko bilera bat irailako surpresak saihesten ditu.
 
 <br>
 
-Hobekuntza iraunkorra neurtu, arduradunak adostu eta hilero berrikustean hasten da. Hurrengo urratsa zure abiapuntua neurtzea, arrakasta-neurri bat adostea eta benetako datuekin fluxua probatzea da. Zure zentroan nola egokitzen den ikusi nahi baduzu, <a href="/eus/kontaktua">eskatu Edenaren demo bat</a>.
+Hobekuntza iraunkorra neurtu, arduradunak adostu eta hilero berrikustean hasten da. Hurrengo urratsa zure abiapuntua neurtzea, arrakasta-neurri bat adostea eta benetako datuekin fluxua probatzea da. Zure zentroan nola egokitzen den ikusi nahi baduzu, <a href="/eus/contact">eskatu Edenaren demo bat</a>.
 
 <br>

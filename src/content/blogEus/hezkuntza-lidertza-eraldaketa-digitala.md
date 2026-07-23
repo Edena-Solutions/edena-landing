@@ -174,6 +174,6 @@ Ospe digitala koherentziaz eraikitzen da: webgunean agintzen duzunak (kuotak, ze
 
 <br>
 
-Ikastetxeko proiektu digital batek aurrera egiten du zuzendaritzak ikuspegia metrika, batzorde txiki eta rol prestakuntza bihurtzen duenean. Hurrengo urratsa zure abiapuntua neurtzea da, arrakasta-neurri bat adostea eta fluxua datu errealekin probatzea. Zure zentroan nola egokitzen den ikusi nahi baduzu, <a href="/es/contacto">eskatu demo bat Edena</a>.
+Ikastetxeko proiektu digital batek aurrera egiten du zuzendaritzak ikuspegia metrika, batzorde txiki eta rol prestakuntza bihurtzen duenean. Hurrengo urratsa zure abiapuntua neurtzea da, arrakasta-neurri bat adostea eta fluxua datu errealekin probatzea. Zure zentroan nola egokitzen den ikusi nahi baduzu, <a href="/eus/contact">eskatu demo bat Edena</a>.
 
 <br>

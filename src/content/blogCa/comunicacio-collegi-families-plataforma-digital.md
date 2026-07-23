@@ -33,7 +33,7 @@ faqs:
 
 <br>
 
-Centralitzar circulars, incidències i autoritzacions. Pilar: <a href="/ca/blog/app-famílies-col·legis-avantatges-2026">app famílies 2026</a>.
+Centralitzar circulars, incidències i autoritzacions. Pilar: <a href="/ca/blog/app-familles-collegis-avantatges-2026">app famílies 2026</a>.
 
 La comunicació col·legi famílies dispersa en emails, grups de WhatsApp i papers genera caos, malentesos i una mala experiència. Una app per a pares o portal digital unifica els canals: notificacions dassistència, circulars, recordatoris de pagament i missatges personalitzats des dun sol lloc. Aquest article explica com millorar la comunicació amb les famílies usant una plataforma digital i què ha d'incloure una app per a pares de col·legi.
 

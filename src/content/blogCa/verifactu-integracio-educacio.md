@@ -137,7 +137,7 @@ Verifactu afecta com emets i registres factures, no el mètode de cobrament. El 
 
 <br>
 
-Confirmeu amb assessoria el calendari de la vostra entitat titular i demaneu al proveïdor full de ruta. Guia completa a <a href="/ca/blog/facturacion-electronica-verifactu-educacion-2026">Verifactu educació 2026</a>.
+Confirmeu amb assessoria el calendari de la vostra entitat titular i demaneu al proveïdor full de ruta. Guia completa a <a href="/ca/blog/facturacio-electronica-verifactu-educacio-2026">Verifactu educació 2026</a>.
 
 <br>
 

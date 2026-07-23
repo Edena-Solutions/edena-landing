@@ -33,7 +33,7 @@ faqs:
 
 <br>
 
-Cicles recurrents, plantilles, rectificatives i enllaç amb Verifactu. Normativa a <a href="/ca/blog/facturacion-electronica-verifactu-educacion-2026">Verifactu educació 2026</a>.
+Cicles recurrents, plantilles, rectificatives i enllaç amb Verifactu. Normativa a <a href="/ca/blog/facturacio-electronica-verifactu-educacio-2026">Verifactu educació 2026</a>.
 
 La gestió interna de la facturació és un dels processos més complexos i propensos a errors a qualsevol centre educatiu. Des de la configuració de tarifes fins al seguiment de pagaments, cada pas del procés es pot convertir en un coll d'ampolla que consumeix temps valuós del personal administratiu. L'automatització d'aquests processos interns està transformant la manera com els centres educatius gestionen la facturació, alliberant recursos per a activitats més estratègiques.
 

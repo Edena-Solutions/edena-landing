@@ -50,7 +50,7 @@ L'any 2026 marca un punt d'inflexió a la gestió financera dels centres educati
 - **Sèries duplicades:** Genera rebutjos i reprocés; defineix una sèrie per tipus de servei abans de l'enviament massiu.
 - **Factures sense traçabilitat d'abonament:** Els abonaments parcials han de quedar vinculats al rebut original.
 - **Rectificatives fora de termini:** Consumeix hores de secretaria i genera reclamacions familiars.
-- **Conciliació manual banc-ERP:** Duplica feina i oculta morositat real fins a tancament de mes. Més context a <a href="/ca/blog/morositat-col·legis-cobraments-automatics-2026">morositat i cobraments automatitzats</a>.
+- **Conciliació manual banc-ERP:** Duplica feina i oculta morositat real fins a tancament de mes. Més context a <a href="/ca/blog/morositat-cobraments-automatics-2026">morositat i cobraments automatitzats</a>.
 
 <br>
 
