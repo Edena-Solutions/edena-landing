@@ -81,7 +81,7 @@ export default {
         mainTitle:
             "El programari de gestió escolar que elimina la paperassa i automatitza els cobraments",
         mainDescription:
-            "Facturació automàtica, expedients digitals, assistència i comunicació familiar en una sola plataforma. Els centres estalvien més de 37 hores setmanals i augmenten la satisfacció familiar un 60%. Sense permanència.",
+            "Edena és el programari de gestió escolar que centralitza facturació amb Verifactu, expedients digitals, assistència i comunicació amb famílies en una sola plataforma. Els centres estalvien més de 37 hores setmanals. Sense permanència.",
         mobileTitle: "Connecta amb cada família, sense esforç extra",
         mobileDescription:
             "Notificacions push, fotos segures i actualitzacions en temps real, tot a l'app gratuïta d'Edena. Les famílies es mantenen informades sense feina extra per al teu equip.",
@@ -1820,7 +1820,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
     crm: {
         mainTitle: "Converteix cada consulta en una matrícula nova",
         mainDescription:
-            "Captura leads des de la teva web, gestiona cada sol·licitud en un pipeline visual i no perdis mai el fil d'una oportunitat. Els centres augmenten la conversió de matrícules fins a un 35%.",
+            "El CRM educatiu d'Edena gestiona admissions i matrícules: captura sol·licituds des de la teva web, pipeline visual i seguiment de cada família. Els centres augmenten la conversió de matrícules fins a un 35%.",
         requestsTitle: "Gestió de sol·licituds",
         requestsDescription:
             "Llista centralitzada de totes les sol·licituds amb filtres, cerca i assignació de responsables. Seguiment de l'origen, estat i data de cada lead per no perdre cap oportunitat.",
@@ -1934,7 +1934,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             "Configura cicles de cobrament recurrents per a matrícules, activitats i serveis. Els cobraments surten a temps, sempre, sense intervenció manual.",
         mainTitle: "Facturació escolar que cobra puntualment, sense perseguir ningú",
         mainDescription:
-            "Facturació automàtica, domiciliacions SEPA i seguiment de cobraments en temps real. Certificat Verifactu AEAT. El teu equip deixa de perdre temps en gestió financera manual.",
+            "La suite financera d'Edena automatitza la facturació escolar amb certificat Verifactu AEAT: rebuts, domiciliacions SEPA i seguiment de cobraments en temps real, sense gestió manual.",
     },
     guardians: {
         mainTitle: "Les famílies sempre informades, sense esforç addicional per al teu equip",
@@ -1982,14 +1982,14 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
     nurseries: {
         mainTitle: "El programari per a escoles infantils i llars d'infants, sense complicacions",
         mainDescription:
-            "Comunicació diària amb famílies, fotos segures, facturació automàtica i expedients digitals. Dissenyat per al ritme real de les escoles infantils. En marxa en 2 setmanes.",
+            "Edena és el programa de gestió per a escoles infantils i llars d'infants: agenda digital, comunicació diària amb famílies, fotos segures i facturació automàtica. En marxa en 2 setmanes.",
         communicationTitle: "Famílies sempre al dia",
         communicationDescription:
             "Comparteix fotos, actualitzacions diàries, menús i activitats amb els pares a l'instant des de l'app. Més tranquil·litat per a ells, menys trucades per a tu.",
         automationTitle: "Cobraments que es gestionen sols",
         automationDescription:
             "Configura els cicles de facturació una vegada i Edena cobra automàticament cada mes. Gestiona domiciliacions i controla impagaments sense feina manual.",
-        integratedManagementTitle: "Tot el teu centre en un sol lloc",
+        integratedManagementTitle: "Què inclou Edena per a la teva escola infantil?",
         integratedManagementDescription:
             "Expedients, assistència, comunicació i facturació integrats en una plataforma pensada específicament per a escoles infantils.",
         realTimeCommunicationTitle: "El dia a dia de la teva escola infantil, en temps real",
@@ -2008,14 +2008,14 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
     schools: {
         mainTitle: "Programari de gestió per a col·legis, de la matrícula al butlletí",
         mainDescription:
-            "Gestió completa per a primària, secundària i batxillerat: expedients, notes, assistència, facturació Verifactu i comunicació amb famílies. Tot en un sol sistema.",
+            "Edena és el programari de gestió per a col·legis d'infantil a batxillerat i FP: expedients, notes, assistència, facturació amb Verifactu i comunicació amb famílies en un sol sistema.",
         communicationTitle: "Comunicació centralitzada amb famílies",
         communicationDescription:
             "Missatgeria segura, alertes d'assistència i novetats del centre en una sola app. Sense WhatsApp, sense circulars en paper, sense missatges perduts.",
         automationTitle: "Butlletins i qualificacions automàtics",
         automationDescription:
             "Els professors registren les notes i el sistema genera els butlletins automàticament. Les famílies els reben en temps real a través de l'app.",
-        integratedManagementTitle: "Gestió acadèmica i administrativa en un clic",
+        integratedManagementTitle: "Què inclou Edena per al teu col·legi?",
         integratedManagementDescription:
             "Des de la matrícula fins a la graduació, Edena centralitza tota la informació acadèmica i redueix significativament la càrrega del personal administratiu.",
         realTimeCommunicationTitle: "Visibilitat acadèmica en temps real per a tothom",
@@ -2031,14 +2031,14 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
     academies: {
         mainTitle: "Gestiona la teva acadèmia sense la paperassa de sempre",
         mainDescription:
-            "Cobraments automàtics, control d'assistència, CRM de captació i comunicació amb famílies. Allibera la teva acadèmia del treball manual per centrar-te a ensenyar.",
+            "Edena és el programari de gestió per a acadèmies: cobraments automàtics, control d'assistència, CRM de captació i comunicació amb famílies. Menys treball manual, més temps per ensenyar.",
         communicationTitle: "Capta més alumnes amb el CRM integrat",
         communicationDescription:
             "Gestiona cada consulta, fes el seguiment de cada lead en un pipeline visual i converteix més interessats en alumnes matriculats. La teva llista d'espera, sempre organitzada.",
         automationTitle: "Facturació automàtica per a les teves tarifes",
         automationDescription:
             "Configura mensualitats, trimestres o tarifes per activitat i Edena factura i cobra automàticament. Sense recordatoris manuals ni perseguir pagaments.",
-        integratedManagementTitle: "Control total de la teva acadèmia",
+        integratedManagementTitle: "Què inclou Edena per a la teva acadèmia?",
         integratedManagementDescription:
             "Assistència, cobraments, comunicació amb alumnes i famílies, i gestió de places per activitat: tot integrat perquè no se t'escapi res.",
         realTimeCommunicationTitle: "Alumnes i famílies sempre informats",
@@ -2051,14 +2051,14 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
     groups: {
         mainTitle: "Una sola plataforma per a tota la teva xarxa de centres",
         mainDescription:
-            "Gestiona tota la teva xarxa de centres des d'un únic panell centralitzat. Visibilitat total, operativa consistent i facturació centralitzada. Escala sense multiplicar la càrrega administrativa.",
+            "Edena és la plataforma de gestió multi-centre per a grups educatius: visibilitat total, operativa consistent i facturació centralitzada en un únic panell. Escala sense multiplicar la càrrega administrativa.",
         communicationTitle: "Dashboard unificat multi-centre",
         communicationDescription:
             "Mètriques en temps real de tots els teus centres en una sola vista. Compara rendiment, assistència i situació financera de tota la xarxa a l'instant.",
         automationTitle: "Facturació centralitzada per a tota la xarxa",
         automationDescription:
             "Unifica la gestió econòmica de tots els teus centres. Tarifes, facturació i cobraments gestionats de forma central amb visibilitat individual per centre.",
-        integratedManagementTitle: "Operativa consistent a cada centre",
+        integratedManagementTitle: "Què inclou Edena per al teu grup educatiu?",
         integratedManagementDescription:
             "Mateixos processos, mateixos estàndards i mateixa experiència per a les famílies a tota la xarxa. Escala sense multiplicar la càrrega administrativa.",
         realTimeCommunicationTitle: "Comunicació unificada amb totes les famílies",
@@ -2621,7 +2621,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
                 "Missatgeria, circulars i notificacions push per arribar a totes les famílies a l'instant.",
             mainTitle: "Comunica't amb les famílies sense perdre cap missatge",
             mainDescription:
-                "Missatgeria segura, circulars amb confirmació de lectura, notificacions push i mur del centre. Una sola app perquè la informació arribi a totes les famílies, sempre.",
+                "El mòdul de comunicació escolar d'Edena reuneix missatgeria segura, circulars amb confirmació de lectura, notificacions push i mur del centre en una sola app. La informació arriba a totes les famílies, sempre.",
             heroLeftTitle: "Missatges que sí que arriben",
             heroLeftDescription:
                 "Notificacions push i confirmació de lectura per assegurar-te que la informació no es perd.",

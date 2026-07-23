@@ -80,7 +80,7 @@ export default {
     hero: {
         mainTitle: "El software de gestión escolar que elimina el papeleo y automatiza los cobros",
         mainDescription:
-            "Facturación automática, expedientes digitales, asistencia y comunicación familiar en una sola plataforma. Los centros ahorran más de 37 horas semanales y aumentan la satisfacción familiar un 60%. Sin permanencia.",
+            "Edena es el software de gestión escolar que centraliza facturación con Verifactu, expedientes digitales, asistencia y comunicación con familias en una sola plataforma. Los centros ahorran más de 37 horas semanales. Sin permanencia.",
         mobileTitle: "Conecta con cada familia, sin esfuerzo extra",
         mobileDescription:
             "Notificaciones push, fotos seguras y actualizaciones en tiempo real, todo en la app gratuita de Edena. Las familias se mantienen informadas sin trabajo extra para tu equipo.",
@@ -1820,7 +1820,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
     crm: {
         mainTitle: "Convierte cada consulta en una nueva matriculación",
         mainDescription:
-            "Captura leads desde tu web, gestiona cada solicitud en un pipeline visual y nunca pierdas la pista de una oportunidad. Los centros aumentan la conversión de matrículas hasta un 35%.",
+            "El CRM educativo de Edena gestiona admisiones y matrículas: captura solicitudes desde tu web, pipeline visual y seguimiento de cada familia. Los centros aumentan la conversión de matrículas hasta un 35%.",
         requestsTitle: "Gestión de solicitudes",
         requestsDescription:
             "Lista centralizada de todas las solicitudes con filtros, búsqueda y asignación de responsables. Seguimiento del origen, estado y fecha de cada lead para no perder ninguna oportunidad.",
@@ -1934,7 +1934,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             "Configura ciclos de cobro recurrentes para matrículas, actividades y servicios. Los cobros salen en plazo, siempre, sin intervención manual.",
         mainTitle: "Facturación escolar que cobra puntualmente, sin perseguir a nadie",
         mainDescription:
-            "Facturación automática, domiciliaciones SEPA y seguimiento de cobros en tiempo real. Certificado Verifactu AEAT. Tu equipo deja de perder tiempo en gestión financiera manual.",
+            "La suite financiera de Edena automatiza la facturación escolar con certificado Verifactu AEAT: recibos, domiciliaciones SEPA y seguimiento de cobros en tiempo real, sin gestión manual.",
     },
     guardians: {
         mainTitle: "Las familias siempre informadas, sin esfuerzo adicional para tu equipo",
@@ -1982,14 +1982,14 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
     nurseries: {
         mainTitle: "El software para escuelas infantiles y guarderías, sin complicaciones",
         mainDescription:
-            "Comunicación diaria con familias, fotos seguras, facturación automática y expedientes digitales. Diseñado para el ritmo real de las escuelas infantiles. En marcha en 2 semanas.",
+            "Edena es el programa de gestión para escuelas infantiles y guarderías: agenda digital, comunicación diaria con familias, fotos seguras y facturación automática. En marcha en 2 semanas.",
         communicationTitle: "Familias siempre al día",
         communicationDescription:
             "Comparte fotos, actualizaciones diarias, menús y actividades con los padres al instante desde la app. Más tranquilidad para ellos, menos llamadas para ti.",
         automationTitle: "Cobros que se gestionan solos",
         automationDescription:
             "Configura los ciclos de facturación una vez y Edena cobra automáticamente cada mes. Gestiona domiciliaciones y controla impagos sin trabajo manual.",
-        integratedManagementTitle: "Todo tu centro en un solo lugar",
+        integratedManagementTitle: "¿Qué incluye Edena para tu escuela infantil?",
         integratedManagementDescription:
             "Expedientes, asistencia, comunicación y facturación integrados en una plataforma pensada específicamente para escuelas infantiles.",
         realTimeCommunicationTitle: "El día a día de tu escuela infantil, en tiempo real",
@@ -2008,14 +2008,14 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
     schools: {
         mainTitle: "Software de gestión para colegios, de la matrícula al boletín",
         mainDescription:
-            "Gestión completa para primaria, secundaria y bachillerato: expedientes, notas, asistencia, facturación Verifactu y comunicación con familias. Todo en un solo sistema.",
+            "Edena es el software de gestión para colegios de infantil a bachillerato y FP: expedientes, notas, asistencia, facturación con Verifactu y comunicación con familias en un solo sistema.",
         communicationTitle: "Comunicación centralizada con familias",
         communicationDescription:
             "Mensajería segura, alertas de asistencia y novedades del centro en una sola app. Sin WhatsApp, sin circulares en papel, sin mensajes perdidos.",
         automationTitle: "Boletines y calificaciones automáticos",
         automationDescription:
             "Los profesores registran las notas y el sistema genera los boletines automáticamente. Las familias los reciben en tiempo real a través de la app.",
-        integratedManagementTitle: "Gestión académica y administrativa en un clic",
+        integratedManagementTitle: "¿Qué incluye Edena para tu colegio?",
         integratedManagementDescription:
             "Desde la matrícula hasta la graduación, Edena centraliza toda la información académica y reduce significativamente la carga del personal administrativo.",
         realTimeCommunicationTitle: "Visibilidad académica en tiempo real para todos",
@@ -2031,14 +2031,14 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
     academies: {
         mainTitle: "Gestiona tu academia sin el papeleo de siempre",
         mainDescription:
-            "Cobros automáticos, control de asistencia, CRM de captación y comunicación con familias. Libera a tu academia del trabajo manual para centrarte en enseñar.",
+            "Edena es el software de gestión para academias: cobros automáticos, control de asistencia, CRM de captación y comunicación con familias. Menos trabajo manual, más tiempo para enseñar.",
         communicationTitle: "Capta más alumnos con el CRM integrado",
         communicationDescription:
             "Gestiona cada consulta, lleva el seguimiento de cada lead en un pipeline visual y convierte más interesados en alumnos matriculados. Tu lista de espera, siempre organizada.",
         automationTitle: "Facturación automática para tus tarifas",
         automationDescription:
             "Configura mensualidades, trimestres o tarifas por actividad y Edena factura y cobra automáticamente. Sin recordatorios manuales ni perseguir pagos.",
-        integratedManagementTitle: "Control total de tu academia",
+        integratedManagementTitle: "¿Qué incluye Edena para tu academia?",
         integratedManagementDescription:
             "Asistencia, cobros, comunicación con alumnos y familias, y gestión de plazas por actividad: todo integrado para que no se te escape nada.",
         realTimeCommunicationTitle: "Alumnos y familias siempre informados",
@@ -2051,14 +2051,14 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
     groups: {
         mainTitle: "Una sola plataforma para toda tu red de centros",
         mainDescription:
-            "Gestiona toda tu red de centros desde un único panel centralizado. Visibilidad total, operativa consistente y facturación centralizada. Escala sin multiplicar la carga administrativa.",
+            "Edena es la plataforma de gestión multi-centro para grupos educativos: visibilidad total, operativa consistente y facturación centralizada en un único panel. Escala sin multiplicar la carga administrativa.",
         communicationTitle: "Dashboard unificado multi-centro",
         communicationDescription:
             "Métricas en tiempo real de todos tus centros en una sola vista. Compara rendimiento, asistencia y situación financiera de toda la red al instante.",
         automationTitle: "Facturación centralizada para toda la red",
         automationDescription:
             "Unifica la gestión económica de todos tus centros. Tarifas, facturación y cobros gestionados de forma central con visibilidad individual por centro.",
-        integratedManagementTitle: "Operativa consistente en cada centro",
+        integratedManagementTitle: "¿Qué incluye Edena para tu grupo educativo?",
         integratedManagementDescription:
             "Mismos procesos, mismos estándares y misma experiencia para las familias en toda la red. Escala sin multiplicar la carga administrativa.",
         realTimeCommunicationTitle: "Comunicación unificada con todas las familias",
@@ -2621,7 +2621,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
                 "Mensajería, circulares y notificaciones push para llegar a todas las familias al instante.",
             mainTitle: "Comunica con las familias sin perder ningún mensaje",
             mainDescription:
-                "Mensajería segura, circulares con confirmación de lectura, notificaciones push y muro del centro. Una sola app para que la información llegue a todas las familias, siempre.",
+                "El módulo de comunicación escolar de Edena reúne mensajería segura, circulares con confirmación de lectura, notificaciones push y muro del centro en una sola app. La información llega a todas las familias, siempre.",
             heroLeftTitle: "Mensajes que sí llegan",
             heroLeftDescription:
                 "Notificaciones push y confirmación de lectura para asegurarte de que la información no se pierde.",

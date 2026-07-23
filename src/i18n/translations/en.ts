@@ -80,7 +80,7 @@ export default {
     hero: {
         mainTitle: "The School Management Software That Eliminates Paperwork and Automates Billing",
         mainDescription:
-            "Automated billing, digital records, attendance, and family communication in one platform. Schools save over 37 hours per week and increase family satisfaction by 60%. No long-term contract.",
+            "Edena is the school management software that centralises Verifactu billing, digital records, attendance and family communication in one platform. Schools save over 37 hours per week. No long-term contract.",
         mobileTitle: "Stay Connected to Every Family, Effortlessly",
         mobileDescription:
             "Push notifications, secure photo sharing, and real-time updates, all in the free Edena app. Families stay engaged without extra work from your team.",
@@ -1602,7 +1602,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
     crm: {
         mainTitle: "Turn Every Enrollment Inquiry Into a New Family",
         mainDescription:
-            "Capture leads from your website, track every inquiry through a visual pipeline, and never lose a prospect again. Schools increase enrollment conversions by up to 35%.",
+            "Edena's educational CRM manages admissions and enrolments: capture enquiries from your website, visual pipeline and follow-up for every family. Schools increase enrolment conversion by up to 35%.",
         requestsTitle: "Request management",
         requestsDescription:
             "Centralized list of all requests with filters, search and responsible assignment. Track origin, status and date of each lead so you never miss an opportunity.",
@@ -1711,7 +1711,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             "Set up recurring billing cycles for tuition, activities, and services. Payments go out on time, every time, without manual intervention.",
         mainTitle: "School Billing That Gets Paid On Time, Without Chasing Anyone",
         mainDescription:
-            "Automated invoicing, SEPA direct debits, and real-time payment tracking. Verifactu-certified by the Spanish Tax Authority. Your team stops wasting time on manual financial admin.",
+            "Edena's finance suite automates school billing with AEAT Verifactu certification: receipts, SEPA direct debits and real-time payment tracking, with no manual admin.",
     },
     guardians: {
         mainTitle: "Families Always in the Loop, With No Extra Effort From Your Team",
@@ -1759,14 +1759,14 @@ The Platform is hosted in data centres operated by leading infrastructure provid
     nurseries: {
         mainTitle: "The Nursery and Daycare Software That Keeps It Simple",
         mainDescription:
-            "Daily family communication, secure photos, automated billing, and digital records. Designed for the real pace of nurseries and infant schools. Up and running in 2 weeks.",
+            "Edena is the management software for nurseries and daycare centres: digital daily diary, family communication, secure photos and automated billing. Up and running in 2 weeks.",
         communicationTitle: "Families Always in the Loop",
         communicationDescription:
             "Share photos, daily updates, meals, and activities with parents instantly from the app. More reassurance for them, fewer calls for you.",
         automationTitle: "Payments That Handle Themselves",
         automationDescription:
             "Set up your billing cycles once and Edena collects automatically every month. Manage direct debits and track late fees with zero manual effort.",
-        integratedManagementTitle: "Your Entire Nursery in One Place",
+        integratedManagementTitle: "What does Edena include for your nursery?",
         integratedManagementDescription:
             "Records, attendance, communication, and billing integrated in one platform designed specifically for nurseries and infant schools.",
         realTimeCommunicationTitle: "Day-by-Day Moment Updates",
@@ -1785,14 +1785,14 @@ The Platform is hosted in data centres operated by leading infrastructure provid
     schools: {
         mainTitle: "School Management Software, From Enrolment to Report Card",
         mainDescription:
-            "Complete management for primary, secondary, and sixth form: student records, grades, attendance, Verifactu billing, and family communication. All in one system.",
+            "Edena is the management software for schools from primary to sixth form: student records, grades, attendance, Verifactu billing and family communication in one system.",
         communicationTitle: "Centralised Family Communication",
         communicationDescription:
             "Secure messaging, attendance alerts, and school news in one app. No WhatsApp groups, no paper circulars, no missed messages.",
         automationTitle: "Automated Report Cards and Grades",
         automationDescription:
             "Teachers record grades and the system generates report cards automatically. Families receive them in real time through the app.",
-        integratedManagementTitle: "Academic and Admin Management in One Click",
+        integratedManagementTitle: "What does Edena include for your school?",
         integratedManagementDescription:
             "From enrolment to graduation, Edena centralises all academic data and significantly reduces your administrative team's workload.",
         realTimeCommunicationTitle: "Real-Time Academic Visibility for Everyone",
@@ -1808,14 +1808,14 @@ The Platform is hosted in data centres operated by leading infrastructure provid
     academies: {
         mainTitle: "Run Your Academy Without the Paperwork",
         mainDescription:
-            "Automated billing, attendance tracking, student acquisition CRM, and family communication. Free your academy from manual work so you can focus on teaching.",
+            "Edena is the management software for academies: automated billing, attendance tracking, student acquisition CRM and family communication. Less manual work, more time to teach.",
         communicationTitle: "Capture More Students with the Built-In CRM",
         communicationDescription:
             "Manage every enquiry, track each lead through a visual pipeline, and convert more prospects into enrolled students. Your waiting list, always organised.",
         automationTitle: "Automated Billing for Every Fee Structure",
         automationDescription:
             "Set monthly, quarterly, or per-activity rates and Edena invoices and collects automatically. No more chasing payments or sending reminders manually.",
-        integratedManagementTitle: "Full Control of Your Academy",
+        integratedManagementTitle: "What does Edena include for your academy?",
         integratedManagementDescription:
             "Attendance, payments, family communication, and place management per activity, all integrated so nothing falls through the cracks.",
         realTimeCommunicationTitle: "Students and Families Always Informed",
@@ -1828,14 +1828,14 @@ The Platform is hosted in data centres operated by leading infrastructure provid
     groups: {
         mainTitle: "One Platform for Your Entire School Network",
         mainDescription:
-            "Manage your entire school network from one centralised dashboard. Full visibility, consistent operations, and centralised billing across every campus. Scale without adding admin overhead.",
+            "Edena is the multi-campus management platform for school groups: full visibility, consistent operations and centralised billing in one dashboard. Scale without adding admin overhead.",
         communicationTitle: "Unified Multi-Campus Dashboard",
         communicationDescription:
             "Real-time metrics from every campus in one view. Compare performance, attendance, and financial health across your entire group instantly.",
         automationTitle: "Centralised Billing Across the Whole Network",
         automationDescription:
             "Unify the financial management of all campuses. Fees, invoicing, and collections managed centrally with individual visibility per location.",
-        integratedManagementTitle: "Operational Consistency Across Every Campus",
+        integratedManagementTitle: "What does Edena include for your school group?",
         integratedManagementDescription:
             "Same processes, same standards, same family experience across every campus. Scale your network without multiplying administrative overhead.",
         realTimeCommunicationTitle: "Unified Communication Across All Families",
@@ -2594,7 +2594,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
                 "Messaging, announcements and push notifications to reach every family instantly.",
             mainTitle: "Communicate with families without losing a single message",
             mainDescription:
-                "Secure messaging, announcements with read receipts, push notifications and a school wall. One app so the information reaches every family, always.",
+                "Edena's school communication module brings together secure messaging, announcements with read receipts, push notifications and the school wall in one app. Information reaches every family, always.",
             heroLeftTitle: "Messages that actually arrive",
             heroLeftDescription:
                 "Push notifications and read receipts to make sure the information doesn't get lost.",

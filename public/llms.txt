@@ -1,6 +1,6 @@
 # Edena: ERP de Gestión Escolar
 
-> Edena es una plataforma SaaS de gestión integral para centros educativos: colegios, escuelas infantiles, guarderías, academias y grupos educativos. Automatiza facturación con Verifactu, asistencia, comunicación con familias y matrículas en una sola plataforma. Los centros ahorran más de 15 horas semanales en tareas administrativas.
+> Edena es una plataforma SaaS de gestión integral para centros educativos: colegios, escuelas infantiles, guarderías, academias y grupos educativos. Automatiza facturación con Verifactu, asistencia, comunicación con familias y matrículas en una sola plataforma. Los centros ahorran más de 37 horas semanales en tareas administrativas.
 
 Edena Software S.L. (Barcelona, España) · https://edena.es
 
@@ -76,7 +76,7 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 
 ## Resultados (datos agregados de centros Edena)
 
-- 15 horas semanales ahorradas en tareas administrativas
+- 37 horas semanales ahorradas en tareas administrativas
 - +35% de conversión de matrículas con el CRM y los formularios digitales
 - −75% de tiempo de incorporación de familias con el onboarding digital
 - 98% de familias satisfechas tras digitalizar la gestión y la comunicación
@@ -99,9 +99,7 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 
 - **Verifactu AEAT**: Facturación electrónica certificada por la Agencia Tributaria española
 - **GDPR / LOPDGDD**: Cumplimiento total con normativa europea y española de protección de datos
-- **SOC 2 Type II**: Controles y procesos diseñados conforme al marco SOC 2 Tipo II
-- **ISO 27001**: Sistema de Gestión de la Seguridad de la Información (SGSI) alineado con ISO/IEC 27001
-- **HIPAA**: Cumplimiento de las salvaguardas técnicas, administrativas y físicas (45 CFR Part 164)
+- **Infraestructura**: alojada en centros de datos de proveedores cuya infraestructura cuenta con certificaciones ISO/IEC 27001 y auditorías SOC 2
 - Cifrado en tránsito (TLS/HTTPS) y en reposo
 - Servidores en el Espacio Económico Europeo (EEE)
 - Acuerdo de encargo de tratamiento (art. 28 RGPD) disponible en https://edena.es/data-processing/

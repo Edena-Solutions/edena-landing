@@ -81,7 +81,7 @@ export default {
         mainTitle:
             "Paper-lana kendu eta kobrantzak automatizatzen dituen eskola-kudeaketa softwarea",
         mainDescription:
-            "Fakturazio automatikoa, agiri digitalak, asistentzia eta familien komunikazioa plataforma bakarrean. Zentroek astero 37 ordu baino gehiago aurrezten dituzte eta familien asebetetzea %60 handitzen dute. Iraunkortasunik gabe.",
+            "Edena eskola-kudeaketa softwarea da: fakturazioa (Verifactu), agiri digitalak, asistentzia eta familien komunikazioa plataforma bakarrean zentralizatzen ditu. Zentroek astero 37 ordu baino gehiago aurrezten dituzte. Iraunkortasunik gabe.",
         mobileTitle: "Konektatu familia bakoitzarekin, esfortzu gehigarririk gabe",
         mobileDescription:
             "Push jakinarazpenak, argazki seguruak eta denbora errealeko eguneraketak, guztia Edena doako aplikazioan. Familiak informatuta mantentzen dira zure taldearentzat lan gehigarririk gabe.",
@@ -1819,7 +1819,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
     crm: {
         mainTitle: "Bihurtu kontsulta bakoitza matrikulazio berri batean",
         mainDescription:
-            "Harrapatu lead-ak zure webetik, kudeatu eskaera bakoitza ikusizko pipeline batean eta ez galdu aukera bat ere. Zentroek %35 arte handitzen dute matrikulazio-bihurkortasuna.",
+            "Edenaren hezkuntza CRMak onarpenak eta matrikulazioak kudeatzen ditu: jaso eskaerak zure webetik, pipeline bisuala eta familia bakoitzaren jarraipena. Zentroek %35 arte handitzen dute matrikulazio-bihurkortasuna.",
         requestsTitle: "Eskaeren kudeaketa",
         requestsDescription:
             "Eskaera guztien zerrenda zentralizatua iragazkiekin, bilaketarekin eta arduradunen esleipenarekin. Lead bakoitzaren jatorria, egoera eta dataren jarraipena aukera bat ere galdu gabe.",
@@ -1931,7 +1931,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             "Konfiguratu kobrantza-ziklo errepikatuak matrikula, jarduera eta zerbitzuetarako. Kobrantzak beti epean, eskuzko esku-hartzerik gabe.",
         mainTitle: "Eskola-fakturazioa puntualki kobratzen duena, inor pertsegitu gabe",
         mainDescription:
-            "Fakturazio automatikoa, SEPA zordunketak eta denbora errealeko kobrantzen jarraipena. Verifactu AEAT ziurtagiria. Zure taldea finantza-kudeaketa eskuzko lanean denbora galtzeari uzten zaio.",
+            "Edenaren finantza-suiteak eskola-fakturazioa automatizatzen du Verifactu AEAT ziurtagiriarekin: ordainagiriak, SEPA zordunketak eta kobrantzen jarraipena denbora errealean, eskuzko kudeaketarik gabe.",
     },
     guardians: {
         mainTitle: "Familiak beti informatuta, zure taldearentzat esfortzu gehigarririk gabe",
@@ -1979,14 +1979,14 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
     nurseries: {
         mainTitle: "Haur-eskola eta haurtzaindegietarako softwarea, konplikaziorik gabe",
         mainDescription:
-            "Eguneroko komunikazioa familiekin, argazki seguruak, fakturazio automatikoa eta agiri digitalak. Haur-eskoletako erritmo errealerako diseinatua. Martxan 2 astetan.",
+            "Edena haur-eskola eta haurtzaindegietarako kudeaketa-programa da: agenda digitala, familiekiko eguneroko komunikazioa, argazki seguruak eta fakturazio automatikoa. Martxan 2 astetan.",
         communicationTitle: "Familiak beti egunean",
         communicationDescription:
             "Partekatu argazkiak, eguneroko eguneraketak, menuak eta jarduerak gurasoekin aplikaziotik berehala. Lasaiago haientzat, dei gutxiago zuretzat.",
         automationTitle: "Kobrantzak berez kudeatzen direnak",
         automationDescription:
             "Behin konfiguratu fakturazio-zikloak eta Edenak hilero automatikoki kobratzen du. Kudeatu zordunketak eta kontrolatu ordainketa-atzerapenak eskulanik gabe.",
-        integratedManagementTitle: "Zure zentroa leku bakarrean",
+        integratedManagementTitle: "Zer eskaintzen du Edenak zure haur-eskolarako?",
         integratedManagementDescription:
             "Agiriak, asistentzia, komunikazioa eta fakturazioa plataforma bakarrean integratuta, haur-eskoletarako espezifikoki pentsatua.",
         realTimeCommunicationTitle: "Zure haur-eskolaren egunerokoa, denbora errealean",
@@ -2005,14 +2005,14 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
     schools: {
         mainTitle: "Ikastetxeetarako kudeaketa-softwarea, matrikulatik boletinera",
         mainDescription:
-            "Lehen hezkuntza, DBH eta batxilergoko zentroetarako kudeaketa osoa: agiriak, notak, asistentzia, Verifactu fakturazio eta familien komunikazioa. Guztia sistema bakarrean.",
+            "Edena ikastetxeetarako kudeaketa-softwarea da, haur-hezkuntzatik batxilergora: agiriak, notak, asistentzia, Verifactu fakturazioa eta familien komunikazioa sistema bakarrean.",
         communicationTitle: "Familien komunikazio zentralizatua",
         communicationDescription:
             "Mezularitza segurua, asistentzia-abisuak eta zentroaren berriak aplikazio bakarrean. WhatsAppik gabe, paper-zirkularrik gabe, galdu gabeko mezurik gabe.",
         automationTitle: "Boletin eta kalifikazio automatikoak",
         automationDescription:
             "Irakasleek notak erregistratzen dituzte eta sistemak boletinak automatikoki sortzen ditu. Familiek denbora errealean jasotzen dituzte aplikazioaren bidez.",
-        integratedManagementTitle: "Kudeaketa akademiko eta administratiboa klik batean",
+        integratedManagementTitle: "Zer eskaintzen du Edenak zure ikastetxerako?",
         integratedManagementDescription:
             "Matrikulaziotik graduaziora, Edenak informazio akademiko guztia zentralizatzen du eta administrazio-langileen karga nabarmen murrizten du.",
         realTimeCommunicationTitle: "Ikusgarritasun akademiko denbora errealean guztientzat",
@@ -2028,14 +2028,14 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
     academies: {
         mainTitle: "Kudeatu zure akademia betiko paper-lanik gabe",
         mainDescription:
-            "Kobrantza automatikoak, asistentzia-kontrola, erakarpen CRM eta familien komunikazioa. Askatu zure akademia lan eskuzkotik irakasteari zentratu ahal izateko.",
+            "Edena akademientzako kudeaketa-softwarea da: kobrantza automatikoak, asistentzia-kontrola, erakarpen CRMa eta familien komunikazioa. Eskuzko lan gutxiago, irakasteko denbora gehiago.",
         communicationTitle: "Erakarri ikasle gehiago integratutako CRM-arekin",
         communicationDescription:
             "Kudeatu kontsulta bakoitza, jarraitu lead bakoitza ikusizko pipeline batean eta bihurtu interesatu gehiago matrikulatutako ikasleetan. Zure itxaron-zerrenda, beti antolatuta.",
         automationTitle: "Zure tarifetarako fakturazio automatikoa",
         automationDescription:
             "Konfiguratu hilean ordainketak, hiruhilekoak edo jarduera bakoitzeko tarifak eta Edenak automatikoki fakturatzen eta kobratzen du. Eskuzko gogorarazlerik edo ordainketak bilatzerik gabe.",
-        integratedManagementTitle: "Zure akademiaren kontrol osoa",
+        integratedManagementTitle: "Zer eskaintzen du Edenak zure akademiarako?",
         integratedManagementDescription:
             "Asistentzia, kobrantzak, ikasle eta familien komunikazioa eta jarduera bakoitzeko plazen kudeaketa: guztia integratuta ezer ihes ez dadin.",
         realTimeCommunicationTitle: "Ikasle eta familiak beti informatuta",
@@ -2048,14 +2048,14 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
     groups: {
         mainTitle: "Plataforma bakarra zure zentro-sare osoarentzat",
         mainDescription:
-            "Kudeatu zentro-sare osoa panel zentralizatu bakarretik. Ikusgarritasun osoa, eragiketa koherentea eta fakturazio zentralizatua. Eskalatu administrazio-karga biderkatu gabe.",
+            "Edena hezkuntza-taldeentzako multi-zentro kudeaketa-plataforma da: ikusgarritasun osoa, eragiketa koherentea eta fakturazio zentralizatua panel bakarrean. Eskalatu administrazio-karga biderkatu gabe.",
         communicationTitle: "Multi-zentro panel bateratua",
         communicationDescription:
             "Zure zentro guztien metrikak ikuspegi bakarrean denbora errealean. Konparatu errendimendua, asistentzia eta sare osoaren egoera finantzarioa une berean.",
         automationTitle: "Sare osoarentzat fakturazio zentralizatua",
         automationDescription:
             "Bateratu zure zentro guztien kudeaketa ekonomikoa. Tarifak, fakturazioa eta kobrantzak modu zentralizatuan kudeatuta, zentro bakoitzeko ikusgarritasun indibidualekin.",
-        integratedManagementTitle: "Eragiketa koherente zentro bakoitzean",
+        integratedManagementTitle: "Zer eskaintzen du Edenak zure hezkuntza-talderako?",
         integratedManagementDescription:
             "Prozesu berak, estandar berak eta familientzako esperientzia bera sare osoan. Eskalatu administrazio-karga biderkatu gabe.",
         realTimeCommunicationTitle: "Familia guztiekin komunikazio bateratua",
@@ -2618,7 +2618,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
                 "Mezularitza, zirkularrak eta push jakinarazpenak familia guztietara berehala iristeko.",
             mainTitle: "Komunikatu familiekin mezurik galdu gabe",
             mainDescription:
-                "Mezularitza segurua, irakurtze-baieztapena duten zirkularrak, push jakinarazpenak eta zentroaren horma. Aplikazio bakarra informazioa familia guztietara iristeko, beti.",
+                "Edenaren eskola-komunikazio moduluak mezularitza segurua, irakurtze-baieztapena duten zirkularrak, push jakinarazpenak eta zentroaren horma biltzen ditu aplikazio bakarrean. Informazioa familia guztietara iristen da, beti.",
             heroLeftTitle: "Iristen diren mezuak",
             heroLeftDescription:
                 "Push jakinarazpenak eta irakurtze-baieztapena informazioa gal ez dadin ziurtatzeko.",

@@ -33,3 +33,32 @@ jobs:
             - name: Deploy to GitHub Pages
               id: deployment
               uses: actions/deploy-pages@v4
+            # Notify Bing/IndexNow so AI search engines (ChatGPT Search uses
+            # Bing's index) re-crawl the site right after each deploy. The URL
+            # list is derived from the live sitemap, so new pages are always
+            # included without touching this workflow (IndexNow accepts up to
+            # 10,000 URLs per POST).
+            - name: Ping IndexNow
+              run: |
+                  sleep 30 # let the Pages CDN start serving the fresh deploy
+                  urls=$(curl -sf https://edena.es/sitemap.xml \
+                    | grep -o '<loc>[^<]*</loc>' \
+                    | sed 's/<[^>]*>//g')
+                  count=$(printf '%s\n' "$urls" | grep -c . || true)
+                  if [ "$count" -eq 0 ]; then
+                    echo "No URLs extracted from sitemap; skipping IndexNow ping."
+                    exit 0
+                  fi
+                  echo "Submitting $count URLs to IndexNow"
+                  payload=$(printf '%s\n' "$urls" | python3 -c '
+                  import json, sys
+                  urls = [l.strip() for l in sys.stdin if l.strip()]
+                  print(json.dumps({
+                      "host": "edena.es",
+                      "key": "d4578fb7d8724392bcadcb12d3fbe367",
+                      "keyLocation": "https://edena.es/d4578fb7d8724392bcadcb12d3fbe367.txt",
+                      "urlList": urls,
+                  }))')
+                  curl -s -X POST "https://api.indexnow.org/indexnow" \
+                    -H "Content-Type: application/json; charset=utf-8" \
+                    -d "$payload" -w "\nIndexNow HTTP %{http_code}\n"
