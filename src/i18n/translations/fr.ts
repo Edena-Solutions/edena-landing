@@ -22,7 +22,7 @@ export default {
         studentsTitle: "Logiciel de gestion des élèves | Dossiers, présences et notes | Edena",
         studentsDescription:
             "Dossiers numériques, présences automatisées, notes et bulletins sur une seule plateforme. Réduisez la charge administrative de 40 % dès le premier jour.",
-        appTitle: "Edena Kids | App pour Familles et Enseignants · Edena",
+        appTitle: "App pour Familles et Enseignants | iOS et Android · Edena",
         appDescription:
             "Application gratuite pour familles et enseignants sur iOS et Android. Notifications push, photos sécurisées, signature électronique de documents, notes et factures au même endroit.",
         demoTitle: "Réservez une Démo Gratuite | Logiciel de Gestion Scolaire · Edena",
@@ -49,6 +49,9 @@ export default {
         privacyTitle: "Politique de confidentialité | Logiciel de gestion scolaire Edena",
         privacyDescription:
             "Découvrez comment Edena protège les données de votre établissement et respecte les standards de confidentialité. Notre politique complète garantit la sécurité des informations des élèves, des familles et de l’institution.",
+        deleteAccountTitle: "Supprimer le compte et les données | Edena",
+        deleteAccountDescription:
+            "Comment demander la suppression de votre compte et de vos données personnelles sur Edena, avec ou sans accès à l'application.",
         termsTitle: "Conditions d’utilisation | Logiciel de gestion scolaire Edena",
         termsDescription:
             "Consultez les conditions d’utilisation d’Edena pour notre plateforme de gestion scolaire. Comprenez nos engagements, les responsabilités des utilisateurs et les règles d’usage.",
@@ -118,6 +121,7 @@ export default {
         termsOfService: "Conditions d’utilisation",
         cookiePolicy: "Politique de cookies",
         dpa: "Accord de traitement des données",
+        deleteAccount: "Supprimer le compte",
         description:
             "Edena est la plateforme de gestion scolaire qui supprime la paperasse, automatise la facturation et garde les familles informées, pour que votre équipe se concentre sur l’essentiel : l’éducation.",
         allRightsReserved: "Tous droits réservés.",
@@ -139,7 +143,7 @@ export default {
         finance: "Suite financière",
         financeDescription:
             "Système automatisé de gestion financière pour facturation, paiements, budgets et rapports.",
-        app: "Edena Kids",
+        app: "Edena",
         appDescription:
             "Application mobile conçue pour les familles, les élèves et les enseignants afin d’accéder aux informations scolaires partout.",
         crm: "CRM scolaire",
@@ -1573,6 +1577,31 @@ Edena applique des mesures techniques et organisationnelles pour garantir la sé
 11. MODIFICATIONS<br>
 Nous pourrons mettre à jour la présente Politique de confidentialité afin de l'adapter aux évolutions législatives ou aux modifications du logiciel. La date de « dernière mise à jour » reflétera toujours la version en vigueur.`,
     },
+    deleteAccount: {
+        title: "Supprimer votre compte et vos données",
+        content: `Dernière mise à jour : 23 juillet 2026<br>
+<br>
+Ce processus s'applique aux comptes utilisateurs de l'application Edena et de la plateforme web Edena, aussi bien pour les familles que pour le personnel enseignant et administratif des établissements.<br>
+<br>
+1. SUPPRESSION DEPUIS L'APPLICATION<br>
+Si vous avez accès à votre compte, vous pouvez demander la suppression directement depuis l'application Edena : accédez à votre profil, ouvrez le menu des options du compte et sélectionnez « Supprimer le compte ». La demande est enregistrée immédiatement.<br>
+<br>
+2. SUPPRESSION SANS ACCÈS À L'APPLICATION<br>
+Si vous n'avez plus accès à votre compte ou à l'application (appareil perdu, application désinstallée, identifiants oubliés, etc.), vous pouvez demander la suppression en envoyant un courriel à dpo@edena.es en indiquant le nom, l'adresse e-mail ou le numéro de téléphone associé à votre compte. Nous vérifierons votre identité avant de traiter la demande.<br>
+<br>
+3. QUELLES DONNÉES SONT SUPPRIMÉES<br>
+Une fois la demande confirmée, nous supprimons vos données d'identification et de contact (nom, e-mail, téléphone, photo de profil), votre historique de communications sur la plateforme, ainsi que les registres de suivi et d'activité associés à votre profil utilisateur.<br>
+<br>
+4. DONNÉES QUE NOUS POUVONS CONSERVER<br>
+Lorsque le compte appartient à un établissement client d'Edena, certaines informations de facturation sont conservées de manière isolée et avec un accès restreint pendant le délai légal de prescription des responsabilités (6 ans selon la réglementation commerciale et fiscale), comme expliqué dans notre Politique de confidentialité. Toutes les autres données personnelles sont supprimées ou anonymisées de façon permanente.<br>
+<br>
+5. DÉLAI DE RÉPONSE<br>
+Dès réception de votre demande, votre compte est désactivé immédiatement. Nous traitons la suppression définitive des données dans un délai maximal d'un mois, conformément à l'article 12.3 du RGPD.<br>
+<br>
+6. PLUS D'INFORMATIONS<br>
+Pour plus de détails sur la manière dont nous traitons vos données personnelles, consultez notre Politique de confidentialité. Si vous estimez que votre demande n'a pas été traitée correctement, vous pouvez introduire une réclamation auprès de l'Agence espagnole de protection des données (www.aepd.es).`,
+        cta: "Demander la suppression de mon compte",
+    },
     termsOfService: {
         title: "Conditions générales d'utilisation",
         content: `Dernière mise à jour : 15 juillet 2026<br>
@@ -1589,7 +1618,7 @@ Edena est une plateforme SaaS (Software as a Service) de gestion éducative int�
 - Suivi des présences et cycles d'évaluation.<br>
 - Facturation automatisée et gestion des paiements.<br>
 - Portail familles et communication scolaire bidirectionnelle.<br>
-- Application mobile (Edena Kids) pour les familles, les élèves et les enseignants.<br>
+- Application mobile (Edena) pour les familles, les élèves et les enseignants.<br>
 - CRM scolaire pour la gestion des inscriptions et la capture de leads.<br>
 - Tableau de bord d'analyse et de reporting en temps réel.<br>
 - Gestion des devoirs et bulletins de notes.<br>
@@ -1712,7 +1741,7 @@ Le responsable de l'utilisation des cookies est Edena Software S.L. (CIF : B2762
 Cette politique couvre tous les services d'Edena :<br>
 - Le site web www.edena.es.<br>
 - L'application web de la plateforme (app.edena.es).<br>
-- L'application mobile Edena Kids (iOS et Android).<br>
+- L'application mobile Edena (iOS et Android).<br>
 <br>
 3. COOKIES SUR LE SITE WEB (www.edena.es)<br>
 3.1 Stockage technique (nécessaire)<br>
@@ -1730,7 +1759,7 @@ L'application web d'Edena utilise uniquement un stockage technique, indispensabl
 - edena_cookie_consent : enregistrement de votre décision concernant les cookies.<br>
 Actuellement, la plateforme n'utilise aucun cookie d'analyse ni de publicité. Si une solution d'analyse était ajoutée à l'avenir, elle ne serait activée qu'avec votre consentement préalable via le bandeau de la plateforme elle-même.<br>
 <br>
-5. APPLICATION MOBILE EDENA KIDS<br>
+5. APPLICATION MOBILE EDENA<br>
 L'application mobile n'utilise pas de cookies. Elle conserve uniquement dans le stockage local de l'appareil les données techniques indispensables à son fonctionnement (session utilisateur et préférences), qui sont supprimées lors de la déconnexion ou de la désinstallation de l'application.<br>
 <br>
 6. COMMENT GÉRER OU DÉSACTIVER LES COOKIES ?<br>

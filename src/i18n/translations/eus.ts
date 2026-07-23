@@ -22,7 +22,7 @@ export default {
         studentsTitle: "Ikasle-kudeaketa softwarea | Agiriak, asistentzia eta notak | Edena",
         studentsDescription:
             "Agiri digitalak, asistentzia automatikoa, kalifikazioak eta boletinen sorrerak plataforma bakarrean. %40 murriztu administrazio-karga lehen egunetik.",
-        appTitle: "Edena Kids | Familia eta Irakasleentzako Aplikazioa · Edena",
+        appTitle: "Familia eta Irakasleentzako Aplikazioa | iOS eta Android · Edena",
         appDescription:
             "Doako aplikazioa familia eta irakasleentzat iOS eta Android-en. Push jakinarazpenak, argazki seguruak, agiri digitalen sinadura, notak eta fakturak leku bakarrean.",
         demoTitle: "Erreserbatu Doako Demoa | Eskola Kudeaketa Softwarea · Edena",
@@ -49,6 +49,9 @@ export default {
         privacyTitle: "Pribatutasun-politika | Edena eskola-kudeaketa softwarea",
         privacyDescription:
             "Ikusi nola babesten dituen Edenak zure zentroaren datuak eta nola mantentzen dituen pribatutasun-estandarrak. Gure pribatutasun-politika integralak ikasle, familien eta erakundearen informazioaren segurtasuna bermatzen du.",
+        deleteAccountTitle: "Kontua eta datuak ezabatu | Edena",
+        deleteAccountDescription:
+            "Nola eskatu zure kontua eta datu pertsonalak ezabatzea Edenan, aplikaziora sarbidearekin edo gabe.",
         termsTitle: "Zerbitzu-baldintzak | Edena eskola-kudeaketa softwarea",
         termsDescription:
             "Berrikusi Edena eskola-kudeaketa plataformarako zerbitzu-baldintzak. Ulertu gure zerbitzu-hitzarmenak, erabiltzailearen erantzukizunak eta plataformaren erabilerarako gidalerroak.",
@@ -118,6 +121,7 @@ export default {
         termsOfService: "Zerbitzu-baldintzak",
         cookiePolicy: "Cookie-politika",
         dpa: "Datuen tratamendu-hitzarmena",
+        deleteAccount: "Kontua ezabatu",
         description:
             "Edena eskola-kudeaketa plataforma da paper-lana kentzen duena, fakturazioa automatizatzen duena eta familiak informatuta mantentzen dituena, zure taldeak garrantzizkoenean zentratu ahal izan dezan: hezkuntzan.",
         allRightsReserved: "Eskubide guztiak erreserbatuak.",
@@ -139,7 +143,7 @@ export default {
         finance: "Finantza-suitea",
         financeDescription:
             "Fakturazioa, ordainketak, aurrekontuak eta txosten finantzarioetarako finantza-kudeaketa sistema automatizatua.",
-        app: "Edena Kids",
+        app: "Edena",
         appDescription:
             "Familia, ikasle eta irakasleentzat diseinatutako mugikorreko aplikazioa eskolako informaziora edonondik sartzeko.",
         crm: "Eskola CRM",
@@ -1553,6 +1557,31 @@ Edenak neurri tekniko eta antolakuntzakoak aplikatzen ditu informazioaren segurt
 11. ALDAKETAK<br>
 Pribatutasun-politika hau eguneratu ahal izango dugu, legegintza-berrikuntzetara edo softwarearen aldaketetara egokitzeko. "Azken eguneraketa" datak beti islatuko du indarrean dagoen bertsioa.`,
     },
+    deleteAccount: {
+        title: "Ezabatu zure kontua eta datuak",
+        content: `Azken eguneraketa: 2026ko uztailaren 23a<br>
+<br>
+Prozesu hau Edena aplikazioko eta Edena web plataformako erabiltzaile-kontuei aplikatzen zaie, familiei zein irakasleei eta ikastetxeetako langileei.<br>
+<br>
+1. APLIKAZIOTIK EZABATZEA<br>
+Zure kontura sarbidea baduzu, ezabatzea zuzenean eska dezakezu Edena aplikaziotik: sartu zure profilera, ireki kontuaren aukeren menua eta hautatu "Kontua ezabatu". Eskaera berehala geratzen da erregistratuta.<br>
+<br>
+2. APLIKAZIORA SARBIDERIK GABE EZABATZEA<br>
+Zure kontura edo aplikaziora sarbiderik ez baduzu (gailua galdu duzu, aplikazioa desinstalatu duzu, kredentzialak ez dituzu gogoratzen, etab.), ezabatzea eska dezakezu dpo@edena.es helbidera mezu bat bidaliz, zure kontuari lotutako izena, helbide elektronikoa edo telefono-zenbakia adieraziz. Zure nortasuna egiaztatuko dugu eskaera prozesatu aurretik.<br>
+<br>
+3. ZEIN DATU EZABATZEN DIREN<br>
+Eskaera baieztatu ondoren, zure identifikazio- eta kontaktu-datuak ezabatzen ditugu (izena, helbide elektronikoa, telefonoa, profil-argazkia), plataforman izandako komunikazio-historiala eta zure erabiltzaile-profilari lotutako jarraipen- eta jarduera-erregistroak.<br>
+<br>
+4. GORDE DITZAKEGUN DATUAK<br>
+Kontua Edenaren bezero den ikastetxe bati badagokio, fakturazio-informazio jakin bat isolatuta eta sarbide mugatuarekin gordeko da erantzukizunen preskripziorako legezko epean (6 urte, merkataritza- eta zerga-araudiaren arabera), gure Pribatutasun Politikan azaltzen den bezala. Gainerako datu pertsonalak betiko ezabatu edo anonimizatuko dira.<br>
+<br>
+5. ERANTZUTEKO EPEA<br>
+Zure eskaera jaso bezain laster, zure kontua berehala desaktibatzen da. Datuen behin betiko ezabapena gehienez hilabeteko epean prozesatzen dugu, RGPDren 12.3 artikuluaren arabera.<br>
+<br>
+6. INFORMAZIO GEHIAGO<br>
+Zure datu pertsonalak nola tratatzen ditugun buruzko informazio gehiago nahi izanez gero, kontsultatu gure Pribatutasun Politika. Zure eskaera behar bezala erantzun ez dela uste baduzu, erreklamazioa aurkez dezakezu Datuak Babesteko Espainiako Agentzian (www.aepd.es).`,
+        cta: "Nire kontua ezabatzea eskatu",
+    },
     termsOfService: {
         title: "Erabileraren baldintzak",
         content: `Azken eguneraketa: 2026ko uztailaren 15a<br>
@@ -1569,7 +1598,7 @@ Edena hezkuntza-kudeaketarako SaaS (Software as a Service) plataforma integrala 
 - Asistentziaren kontrola eta ebaluazio-zikloak.<br>
 - Fakturazio automatizatua eta ordainketen kudeaketa.<br>
 - Familien ataria eta bi norabideko eskola-komunikazioa.<br>
-- Aplikazio mugikorra (Edena Kids) familientzat, ikasleentzat eta irakasleentzat.<br>
+- Aplikazio mugikorra (Edena) familientzat, ikasleentzat eta irakasleentzat.<br>
 - Eskola-CRM matrikula-kudeaketarako eta lead-kapturarako.<br>
 - Analisi eta reporting panel erreala.<br>
 - Zereginen kudeaketa eta kalifikazio-boletinen sorkuntza.<br>
@@ -1692,7 +1721,7 @@ Cookieen erabileraren arduraduna Edena Software S.L. da (IFK: B27627462). Politi
 Politika honek Edenaren zerbitzu guztiak hartzen ditu barnean:<br>
 - www.edena.es webgunea.<br>
 - Plataformaren web-aplikazioa (app.edena.es).<br>
-- Edena Kids aplikazio mugikorra (iOS eta Android).<br>
+- Edena aplikazio mugikorra (iOS eta Android).<br>
 <br>
 3. COOKIEAK WEBGUNEAN (www.edena.es)<br>
 3.1 Biltegiratze teknikoa (beharrezkoa)<br>
@@ -1710,7 +1739,7 @@ Edenaren web-aplikazioak biltegiratze teknikoa soilik erabiltzen du, zerbitzuare
 - edena_cookie_consent: cookieei buruzko zure erabakiaren erregistroa.<br>
 Gaur egun plataformak ez du analitika- edo publizitate-cookierik erabiltzen. Etorkizunean analitika gehituko balitz, zure aldez aurreko baimenarekin soilik aktibatuko litzateke, plataformaren beraren bannerraren bidez.<br>
 <br>
-5. EDENA KIDS APLIKAZIO MUGIKORRA<br>
+5. EDENA APLIKAZIO MUGIKORRA<br>
 Aplikazio mugikorrak ez du cookierik erabiltzen. Gailuaren tokiko biltegiratzean funtzionamendurako ezinbestekoak diren datu teknikoak soilik gordetzen ditu (erabiltzailearen saioa eta hobespenak), eta horiek ezabatu egiten dira saioa ixtean edo aplikazioa desinstalatzean.<br>
 <br>
 6. NOLA KUDEATU EDO DESAKTIBA DITZAKET COOKIEAK?<br>

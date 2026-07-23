@@ -1,6 +1,6 @@
 # Edena: ERP de Gestión Escolar
 
-> Edena es una plataforma SaaS de gestión integral para centros educativos: colegios, escuelas infantiles, academias y grupos educativos. Automatiza facturación, asistencia, comunicación familiar y matrículas en una sola plataforma. Centros ya ahorran más de 15 horas semanales.
+> Edena es una plataforma SaaS de gestión integral para centros educativos: colegios, escuelas infantiles, guarderías, academias y grupos educativos. Automatiza facturación con Verifactu, asistencia, comunicación con familias y matrículas en una sola plataforma. Los centros ahorran más de 15 horas semanales en tareas administrativas.
 
 Edena Software S.L. (Barcelona, España) · https://edena.es
 
@@ -8,13 +8,13 @@ Edena Software S.L. (Barcelona, España) · https://edena.es
 
 ## ¿Qué es Edena?
 
-Edena es un ERP (Enterprise Resource Planning) educativo diseñado específicamente para centros escolares en España y Europa. Reemplaza las herramientas dispersas (WhatsApp, Excel, ERPs anticuados) con una plataforma unificada que cubre todas las necesidades operativas de un centro educativo.
+Edena es un ERP (Enterprise Resource Planning) educativo diseñado específicamente para centros escolares en España y Europa. Reemplaza las herramientas dispersas (WhatsApp, Excel, ERPs anticuados) con una plataforma unificada que cubre todas las necesidades operativas de un centro educativo: gestión académica, gestión económica, comunicación y automatización.
 
 **Público objetivo:**
 - Directores y equipos de administración de centros educativos
-- Escuelas infantiles (0-3 años)
-- Colegios (Primaria, ESO, Bachillerato)
-- Academias (idiomas, danza, música, deporte, artes marciales)
+- Escuelas infantiles y guarderías (0-3 años)
+- Colegios (Infantil, Primaria, ESO, Bachillerato y FP)
+- Academias (idiomas, refuerzo, danza, música, deporte, artes marciales)
 - Grupos y redes de centros educativos multi-sede
 
 ---
@@ -22,19 +22,25 @@ Edena es un ERP (Enterprise Resource Planning) educativo diseñado específicame
 ## Funcionalidades principales
 
 ### Facturación automática (Verifactu certificado)
-Genera facturas electrónicas certificadas por la AEAT (Agencia Tributaria española), domiciliaciones SEPA, control de impagos y recordatorios automáticos. Cumple la normativa Verifactu. Reduce la carga financiera administrativa un 40%.
+Genera facturas electrónicas certificadas por la AEAT (Agencia Tributaria española), domiciliaciones SEPA, control de impagos y recordatorios automáticos. Cumple la normativa Verifactu (Real Decreto 1007/2023), obligatoria para emisores de facturas en España desde 2027 (1 de enero de 2027 para entidades sujetas al Impuesto de Sociedades; 1 de julio de 2027 para el resto). Reduce los impagos y retrasos un 40%.
 
-### App móvil gratuita para familias (Edena Kids)
+### App móvil gratuita para familias
 Aplicación gratuita para iOS y Android. Notificaciones push en tiempo real, fotos seguras, notas académicas, facturas, mensajería directa con el centro y firma digital de documentos.
 
 ### Portal de familias
 Acceso en tiempo real a notas, asistencia, facturas y comunicaciones. Incorporación de familias digitalizada que reduce el tiempo de onboarding un 75%.
 
-### Expedientes digitales y gestión de alumnos
-Centraliza todos los datos académicos: historial, asistencia, calificaciones, documentación, alergias y necesidades especiales. Accesible 24/7 para el equipo y las familias.
+### Comunicación escolar
+Mensajería segura centro-familias sin compartir teléfonos personales, circulares con confirmación de lectura, notificaciones push, muro del centro, traducción automática de mensajes y comunicación segmentada por grupo o aula. Sustituye los grupos de WhatsApp y las agendas de papel.
 
-### CRM escolar
-Pipeline visual para convertir consultas en matrículas. Formularios personalizables, seguimiento de leads y métricas de conversión. Aumenta la conversión de matrículas hasta un 35%.
+### Agenda digital para escuelas infantiles
+Comidas, siestas, fotos y actividades de cada niño registradas en segundos y visibles para cada familia al instante. La agenda digital que sustituye la libreta de papel.
+
+### Expedientes digitales y gestión de alumnos
+Centraliza todos los datos académicos: historial, asistencia, calificaciones, documentación, alergias y necesidades especiales. Seguimiento escolar completo, accesible 24/7 para el equipo y las familias.
+
+### CRM escolar y de admisiones
+Pipeline visual para convertir consultas en matrículas. Formularios de captación personalizables, seguimiento de leads, origen multicanal y métricas de conversión. Aumenta la conversión de matrículas un 35%.
 
 ### Control de asistencia
 Registro digital automático con alertas a familias en tiempo real. Informes de absentismo y seguimiento por alumno, grupo o curso.
@@ -42,14 +48,39 @@ Registro digital automático con alertas a familias en tiempo real. Informes de 
 ### Tareas y evaluaciones
 Ciclos de evaluación configurables (trimestres, cuatrimestres), calificaciones con medias ponderadas, rúbricas y generación automática de boletines en PDF.
 
+### Extraescolares
+Inscripciones online desde la app, control de plazas con listas de espera automáticas, listas de asistencia por sesión y cobros integrados con la facturación del centro.
+
+### Pagos internos (monedero escolar)
+Monedero digital por familia para pagar comedor, excursiones y servicios sin efectivo. Recargas online, saldos en tiempo real, avisos de saldo bajo y conciliación automática con la facturación.
+
+### Tienda online del centro
+Venta de uniformes, material y servicios desde la app, con variantes y tallas, control de stock, cobro integrado e informes de ventas. Sin comisiones ocultas por venta.
+
+### Control horario y seguimiento interno
+Registro de jornada del personal conforme a la normativa laboral, agenda diaria compartida, tareas internas, guardias y sustituciones, e informes de horas exportables.
+
+### Automatizaciones (Workflows)
+Editor visual de flujos de trabajo sin programar: comunicados automáticos, facturación programada, asignación de tareas y disparadores por eventos (nueva matrícula, impago, ausencia).
+
 ### Panel de control (Dashboard)
 Métricas en tiempo real de asistencia, finanzas, matrículas y comunicaciones. Alertas automáticas y reportes exportables.
 
 ### IA educativa integrada (Ena)
-Agente de inteligencia artificial que automatiza procesos administrativos, genera facturas, redacta comunicados y responde preguntas del equipo sobre el reglamento o los datos del centro.
+Agente de inteligencia artificial que automatiza procesos administrativos, genera facturas, redacta comunicados, pasa lista y responde preguntas del equipo sobre el reglamento o los datos del centro. Disponible 24/7 con seguridad enterprise.
 
 ### Gestión multi-centro
 Panel unificado para redes de centros educativos. Facturación centralizada, reporting consolidado y operativa consistente en toda la red.
+
+---
+
+## Resultados (datos agregados de centros Edena)
+
+- 15 horas semanales ahorradas en tareas administrativas
+- +35% de conversión de matrículas con el CRM y los formularios digitales
+- −75% de tiempo de incorporación de familias con el onboarding digital
+- 98% de familias satisfechas tras digitalizar la gestión y la comunicación
+- −40% de impagos y retrasos con la facturación y el cobro automatizados
 
 ---
 
@@ -60,6 +91,7 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 - **Plan Completo**: 1,90€/alumno + 10€/mes (tienda online)
 - Sin cuota de alta · Sin permanencia · Sin costes ocultos
 - Prueba gratuita de 30 días · Onboarding incluido
+- En marcha en 2 semanas, con migración de datos y formación incluidas
 
 ---
 
@@ -72,16 +104,18 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 - **HIPAA**: Cumplimiento de las salvaguardas técnicas, administrativas y físicas (45 CFR Part 164)
 - Cifrado en tránsito (TLS/HTTPS) y en reposo
 - Servidores en el Espacio Económico Europeo (EEE)
+- Acuerdo de encargo de tratamiento (art. 28 RGPD) disponible en https://edena.es/data-processing/
 
 ---
 
 ## Diferenciadores clave vs. competencia
 
-- Único con certificación Verifactu AEAT integrada nativamente
-- Precio transparente por alumno (no por centro ni por usuario)
+- Certificación Verifactu AEAT integrada nativamente
+- Precio público y transparente por alumno (sin "solicitar presupuesto")
 - Onboarding en 2 semanas con migración de datos incluida
 - IA educativa integrada (Ena) con contexto específico del centro
 - App móvil gratuita para familias (sin coste adicional)
+- Módulos activables por separado: pagas solo lo que usas
 - Multi-idioma: español, catalán, euskera, francés, inglés
 
 ---
@@ -98,23 +132,30 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 
 ## URLs principales
 
-- Página principal: https://edena.es
-- Solicitar demo gratuita: https://edena.es/demo
-- Precios: https://edena.es/pricing
-- Para escuelas infantiles: https://edena.es/es/nurseries/
-- Para colegios: https://edena.es/es/schools/
-- Para academias: https://edena.es/es/academies/
-- Para grupos educativos: https://edena.es/es/groups/
-- Suite financiera y facturación: https://edena.es/finance/
-- CRM escolar: https://edena.es/crm/
-- App móvil Edena Kids: https://edena.es/app/
-- Portal de familias: https://edena.es/guardians/
-- Panel de control: https://edena.es/dashboard/
+- Página principal: https://edena.es/
+- Solicitar demo gratuita: https://edena.es/demo/
+- Precios: https://edena.es/pricing/
+- Para escuelas infantiles y guarderías: https://edena.es/nurseries/
+- Para colegios: https://edena.es/schools/
+- Para academias: https://edena.es/academies/
+- Para grupos educativos: https://edena.es/groups/
+- Facturación escolar y Verifactu: https://edena.es/finance/
+- CRM escolar y admisiones: https://edena.es/crm/
+- Comunicación con familias: https://edena.es/communication/
+- App móvil: https://edena.es/app/
+- Portal de familias: https://edena.es/families/
 - Gestión de alumnos: https://edena.es/students/
 - Tareas y evaluaciones: https://edena.es/assignment/
+- Panel de control: https://edena.es/dashboard/
+- Extraescolares: https://edena.es/extracurricular/
+- Pagos internos (monedero escolar): https://edena.es/internal-payments/
+- Tienda online del centro: https://edena.es/shop/
+- Control horario y seguimiento interno: https://edena.es/tracking/
+- Automatizaciones (workflows): https://edena.es/workflows/
+- Ena, IA educativa: https://edena.es/ena/
 - Blog educativo: https://edena.es/blog/
 - Preguntas frecuentes: https://edena.es/faqs/
-- Contacto: https://edena.es/es/contact/
+- Contacto: https://edena.es/contact/
 
 ---
 
