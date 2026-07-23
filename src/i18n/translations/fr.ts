@@ -52,6 +52,9 @@ export default {
         privacyTitle: "Politique de confidentialité | Logiciel de gestion scolaire Edena",
         privacyDescription:
             "Découvrez comment Edena protège les données de votre établissement et respecte les standards de confidentialité. Notre politique complète garantit la sécurité des informations des élèves, des familles et de l’institution.",
+        deleteAccountTitle: "Supprimer le compte et les données | Edena",
+        deleteAccountDescription:
+            "Comment demander la suppression de votre compte et de vos données personnelles sur Edena, avec ou sans accès à l'application.",
         termsTitle: "Conditions d’utilisation | Logiciel de gestion scolaire Edena",
         termsDescription:
             "Consultez les conditions d’utilisation d’Edena pour notre plateforme de gestion scolaire. Comprenez nos engagements, les responsabilités des utilisateurs et les règles d’usage.",
@@ -122,6 +125,7 @@ export default {
         termsOfService: "Conditions d’utilisation",
         cookiePolicy: "Politique de cookies",
         dpa: "Accord de traitement des données",
+        deleteAccount: "Supprimer le compte",
         description:
             "Edena est la plateforme de gestion scolaire qui supprime la paperasse, automatise la facturation et garde les familles informées, pour que votre équipe se concentre sur l’essentiel : l’éducation.",
         allRightsReserved: "Tous droits réservés.",
@@ -1576,6 +1580,31 @@ Edena applique des mesures techniques et organisationnelles pour garantir la sé
 <br>
 11. MODIFICATIONS<br>
 Nous pourrons mettre à jour la présente Politique de confidentialité afin de l'adapter aux évolutions législatives ou aux modifications du logiciel. La date de « dernière mise à jour » reflétera toujours la version en vigueur.`,
+    },
+    deleteAccount: {
+        title: "Supprimer votre compte et vos données",
+        content: `Dernière mise à jour : 23 juillet 2026<br>
+<br>
+Ce processus s'applique aux comptes utilisateurs de l'application Edena et de la plateforme web Edena, aussi bien pour les familles que pour le personnel enseignant et administratif des établissements.<br>
+<br>
+1. SUPPRESSION DEPUIS L'APPLICATION<br>
+Si vous avez accès à votre compte, vous pouvez demander la suppression directement depuis l'application Edena : accédez à votre profil, ouvrez le menu des options du compte et sélectionnez « Supprimer le compte ». La demande est enregistrée immédiatement.<br>
+<br>
+2. SUPPRESSION SANS ACCÈS À L'APPLICATION<br>
+Si vous n'avez plus accès à votre compte ou à l'application (appareil perdu, application désinstallée, identifiants oubliés, etc.), vous pouvez demander la suppression en envoyant un courriel à dpo@edena.es en indiquant le nom, l'adresse e-mail ou le numéro de téléphone associé à votre compte. Nous vérifierons votre identité avant de traiter la demande.<br>
+<br>
+3. QUELLES DONNÉES SONT SUPPRIMÉES<br>
+Une fois la demande confirmée, nous supprimons vos données d'identification et de contact (nom, e-mail, téléphone, photo de profil), votre historique de communications sur la plateforme, ainsi que les registres de suivi et d'activité associés à votre profil utilisateur.<br>
+<br>
+4. DONNÉES QUE NOUS POUVONS CONSERVER<br>
+Lorsque le compte appartient à un établissement client d'Edena, certaines informations de facturation sont conservées de manière isolée et avec un accès restreint pendant le délai légal de prescription des responsabilités (6 ans selon la réglementation commerciale et fiscale), comme expliqué dans notre Politique de confidentialité. Toutes les autres données personnelles sont supprimées ou anonymisées de façon permanente.<br>
+<br>
+5. DÉLAI DE RÉPONSE<br>
+Dès réception de votre demande, votre compte est désactivé immédiatement. Nous traitons la suppression définitive des données dans un délai maximal d'un mois, conformément à l'article 12.3 du RGPD.<br>
+<br>
+6. PLUS D'INFORMATIONS<br>
+Pour plus de détails sur la manière dont nous traitons vos données personnelles, consultez notre Politique de confidentialité. Si vous estimez que votre demande n'a pas été traitée correctement, vous pouvez introduire une réclamation auprès de l'Agence espagnole de protection des données (www.aepd.es).`,
+        cta: "Demander la suppression de mon compte",
     },
     termsOfService: {
         title: "Conditions générales d'utilisation",

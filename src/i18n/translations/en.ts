@@ -50,6 +50,9 @@ export default {
         privacyTitle: "Privacy Policy | Edena School Management Software",
         privacyDescription:
             "Learn how Edena protects your school's data and maintains privacy standards. Our comprehensive privacy policy ensures the security of student, family, and institutional information.",
+        deleteAccountTitle: "Delete account and data | Edena",
+        deleteAccountDescription:
+            "How to request deletion of your account and personal data in Edena, with or without access to the app.",
         termsTitle: "Terms of Service | Edena School Management Software",
         termsDescription:
             "Review Edena's terms of service for our school management platform. Understand our service agreements, user responsibilities, and platform usage guidelines.",
@@ -115,6 +118,7 @@ export default {
         termsOfService: "Terms of Service",
         cookiePolicy: "Cookie Policy",
         dpa: "Data Processing Agreement",
+        deleteAccount: "Delete account",
         description:
             "Edena is the school management platform that eliminates paperwork, automates billing, and keeps families engaged, so your team can focus on what actually matters: education.",
         allRightsReserved: "All rights reserved.",
@@ -2012,6 +2016,31 @@ Edena applies technical and organisational measures to guarantee the security of
 <br>
 11. CHANGES TO THIS POLICY<br>
 We may update this Privacy Policy to adapt it to legislative changes or changes to the software. The "last updated" date will always reflect the current version.`,
+    },
+    deleteAccount: {
+        title: "Delete your account and data",
+        content: `Last updated: 23 July 2026<br>
+<br>
+This process applies to user accounts on the Edena app and the Edena web platform, for families, teaching staff and school personnel alike.<br>
+<br>
+1. DELETION FROM THE APP<br>
+If you have access to your account, you can request deletion directly from the Edena app: open your profile, go to the account options menu and select "Delete account". Your request is recorded immediately.<br>
+<br>
+2. DELETION WITHOUT ACCESS TO THE APP<br>
+If you no longer have access to your account or the app (lost device, uninstalled app, forgotten credentials, etc.), you can request deletion by emailing dpo@edena.es with the name, email address or phone number associated with your account. We will verify your identity before processing the request.<br>
+<br>
+3. WHAT DATA IS DELETED<br>
+Once the request is confirmed, we delete your identification and contact data (name, email, phone number, profile picture), your communication history within the platform, and the tracking and activity records linked to your user profile.<br>
+<br>
+4. DATA WE MAY RETAIN<br>
+When the account belongs to a school that is an Edena client, certain billing information is kept in isolation, with restricted access, for the statutory limitation period (6 years under commercial and tax law), as explained in our Privacy Policy. All other personal data is deleted or permanently anonymised.<br>
+<br>
+5. RESPONSE TIME<br>
+Upon receiving your request, your account is deactivated immediately. We process the permanent deletion of the data within a maximum of one month, in accordance with Article 12.3 of the GDPR.<br>
+<br>
+6. MORE INFORMATION<br>
+For more details on how we handle your personal data, see our Privacy Policy. If you believe your request has not been properly addressed, you may lodge a complaint with the Spanish Data Protection Agency (www.aepd.es).`,
+        cta: "Request deletion of my account",
     },
     cookiePolicy: {
         title: "Cookie Policy",

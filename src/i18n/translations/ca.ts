@@ -53,6 +53,9 @@ export default {
         privacyTitle: "Política de privacitat | Programa de gestió escolar Edena",
         privacyDescription:
             "Descobreix com Edena protegeix les dades del teu centre i manté estàndards de privacitat. La nostra política de privacitat integral garanteix la seguretat de la informació estudiantil, familiar i institucional.",
+        deleteAccountTitle: "Eliminar compte i dades | Edena",
+        deleteAccountDescription:
+            "Com sol·licitar l'eliminació del teu compte i les teves dades personals a Edena, amb o sense accés a l'aplicació.",
         termsTitle: "Termes del servei | Programa de gestió escolar Edena",
         termsDescription:
             "Revisa els termes del servei d'Edena per a la nostra plataforma de gestió escolar. Comprend els nostres acords de servei, responsabilitats de l'usuari i pautes d'ús de la plataforma.",
@@ -123,6 +126,7 @@ export default {
         termsOfService: "Termes del servei",
         cookiePolicy: "Política de galetes",
         dpa: "Acord de tractament de dades",
+        deleteAccount: "Eliminar compte",
         description:
             "Edena és la plataforma de gestió escolar que elimina la paperassa, automatitza la facturació i manté les famílies informades perquè el teu equip es pugui centrar en allò que importa: l'educació.",
         allRightsReserved: "Tots els drets reservats.",
@@ -1558,6 +1562,31 @@ Edena aplica mesures tècniques i organitzatives per garantir la seguretat de la
 <br>
 11. MODIFICACIONS<br>
 Podrem actualitzar aquesta Política de privacitat per adaptar-la a novetats legislatives o canvis en el programari. La data de "última actualització" reflectirà sempre la versió vigent.`,
+    },
+    deleteAccount: {
+        title: "Eliminar el teu compte i les teves dades",
+        content: `Última actualització: 23 de juliol de 2026<br>
+<br>
+Aquest procés s'aplica als comptes d'usuari de l'aplicació Edena i de la plataforma web Edena, tant per a famílies com per a professorat i personal dels centres educatius.<br>
+<br>
+1. ELIMINACIÓ DES DE L'APLICACIÓ<br>
+Si tens accés al teu compte, pots sol·licitar l'eliminació directament des de l'app Edena: entra al teu perfil, obre el menú d'opcions del compte i selecciona "Eliminar compte". La sol·licitud queda registrada de manera immediata.<br>
+<br>
+2. ELIMINACIÓ SENSE ACCÉS A L'APLICACIÓ<br>
+Si ja no tens accés al teu compte o a l'aplicació (dispositiu perdut, l'has desinstal·lat, no recordes les credencials, etc.), pots sol·licitar l'eliminació enviant un correu electrònic a dpo@edena.es indicant el nom, correu electrònic o número de telèfon associat al teu compte. Verificarem la teva identitat abans de processar la sol·licitud.<br>
+<br>
+3. QUINES DADES S'ELIMINEN<br>
+Un cop confirmada la sol·licitud, eliminem les teves dades identificatives i de contacte (nom, correu electrònic, telèfon, foto de perfil), el teu historial de comunicacions dins de la plataforma i els registres de seguiment i activitat associats al teu perfil d'usuari.<br>
+<br>
+4. DADES QUE PODEM CONSERVAR<br>
+Quan el compte pertany a un centre educatiu client d'Edena, determinada informació de facturació es conserva de forma aïllada i amb accés restringit durant el termini legal de prescripció de responsabilitats (6 anys, segons la normativa mercantil i fiscal), tal com s'explica a la nostra Política de Privacitat. La resta de dades personals s'eliminen o s'anonimitzen de manera permanent.<br>
+<br>
+5. TERMINI DE RESPOSTA<br>
+En rebre la teva sol·licitud, el teu compte es desactiva de manera immediata. Processem l'eliminació definitiva de les dades en un termini màxim d'un mes, d'acord amb l'article 12.3 del RGPD.<br>
+<br>
+6. MÉS INFORMACIÓ<br>
+Per a més detalls sobre com tractem les teves dades personals, consulta la nostra Política de Privacitat. Si consideres que la teva sol·licitud no ha estat atesa correctament, pots reclamar davant l'Agència Espanyola de Protecció de Dades (www.aepd.es).`,
+        cta: "Sol·licitar l'eliminació del meu compte",
     },
     termsOfService: {
         title: "Termes i condicions d'ús",
