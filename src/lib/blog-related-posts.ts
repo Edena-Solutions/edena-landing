@@ -1,3 +1,5 @@
+import { localePath } from "@/i18n/utils";
+
 /** Headings used for the related-articles block in blog markdown bodies */
 const RELATED_HEADING =
     /Artículos relacionados|Related articles|Articles connexes|Artículos relacionats/i;
@@ -77,7 +79,7 @@ export function resolveRelatedPosts(
             const title = titleBySlug.get(slug);
             if (!title) return null;
             return {
-                href: `/${lang}/blog/${slug}`,
+                href: localePath(lang, `/blog/${slug}`),
                 title,
             };
         })

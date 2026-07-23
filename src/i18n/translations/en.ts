@@ -7,13 +7,12 @@ export default {
     downloadTheApp: "Download Free App",
     knowMore: "Know More",
     meta: {
-        homeTitle: "School Management Software | ERP for Schools, Academies & Nurseries | Edena",
+        homeTitle: "School Management Software | Educational ERP · Edena",
         homeDescription:
-            "Edena centralises billing, attendance, student records, and family communication in one platform. Schools already save 15 h/week. No long-term contract. Free demo.",
-        pricingTitle:
-            "School Management Software Pricing | From €44/month, No Contract, No Hidden Fees | Edena",
+            "The school management software that centralises billing, attendance, student records and family communication. No long-term contract. Free demo.",
+        pricingTitle: "Pricing | School Management Software from €44/month · Edena",
         pricingDescription:
-            "Per-child pricing with no setup fee and no long-term contract. From €44/month with digital records, attendance, and family portal. Add only the modules you need. 30-day free trial.",
+            "Per-student pricing, no setup fee, no long-term contract. From €44/month with digital records, attendance and family portal. 30-day free trial.",
         faqsTitle: "Frequently Asked Questions about Edena | School Management Software",
         faqsDescription:
             "Get answers about pricing, features, data migration, Verifactu, and security. Everything you need to know before choosing Edena for your school.",
@@ -23,19 +22,19 @@ export default {
         studentsTitle: "Student Management Software | Records, Attendance & Grades | Edena",
         studentsDescription:
             "Digital student records, automated attendance tracking, grade management, and report card generation in one platform. Reduce administrative workload by 40% from day one.",
-        appTitle: "School Mobile App | Family Communication App | Edena Kids",
+        appTitle: "Edena Kids | App for Families & Teachers · Edena",
         appDescription:
             "Free app for families and teachers on iOS and Android. Real-time push notifications, secure photo sharing, digital document signing, grades, and invoices in one place.",
-        demoTitle: "Free No-Obligation Demo | See Edena Live | School Management Software",
+        demoTitle: "Book a Free Demo | School Management Software · Edena",
         demoDescription:
             "Book a personalised demo for your school in under 2 minutes. No commitment, no pressure. We'll show you exactly how Edena fits into your day-to-day management.",
-        financeTitle: "School Billing Software | Automated Invoicing & Verifactu-Certified | Edena",
+        financeTitle: "School Billing Software | Verifactu & SEPA · Edena",
         financeDescription:
-            "Automated invoicing, SEPA direct debits, and real-time payment tracking. Verifactu-certified (Spain's official e-invoicing system). Cut your admin team's financial workload by 40%.",
+            "Automated, Verifactu-certified school billing: receipts, SEPA direct debits and real-time arrears tracking. Your team stops chasing payments.",
         guardiansTitle: "Family Portal for Schools | Parent Communication Hub | Edena",
         guardiansDescription:
             "Give families real-time access to grades, attendance, invoices, and school news. Secure two-way messaging and digital document signing. Families onboard in minutes.",
-        familiesTitle: "Family Portal | Free App, Digital Billing & School Store | Edena",
+        familiesTitle: "Family Portal | Grades, Invoices & Payments · Edena",
         familiesDescription:
             "Everything school-related in one free app: grades, invoices, messages, photos, and the school store. Manage multiple children from a single account, on any device.",
         centersTitle: "All-in-One Platform for Educational Centres | Educational ERP | Edena",
@@ -43,10 +42,10 @@ export default {
             "Complete ERP for educational centres: automated billing, enrollment CRM, family communication, digital attendance, and student records. Reduce admin costs by up to 40%.",
         crmTitle: "School CRM | Turn Enquiries Into Enrolments | Edena",
         crmDescription:
-            "Capture leads from your website, manage every enquiry in a visual pipeline, and never miss an enrolment opportunity. Customisable forms and full activity tracking. +35% conversion.",
-        assignmentTitle: "Assignment & Evaluation Software for Schools | Edena",
+            "Educational CRM for admissions and enrolments: capture enquiries from your website, manage every family in a visual pipeline and never miss an opportunity.",
+        assignmentTitle: "Assessments & Automatic Report Cards · Edena",
         assignmentDescription:
-            "Plan assignments, configure grading cycles, and auto-generate report cards. Families see grades in real time. Teaching teams save 40% of their grading workload.",
+            "Frictionless academic management: plan assignments, configure grading cycles and auto-generate report cards. Families see grades in real time.",
         privacyTitle: "Privacy Policy | Edena School Management Software",
         privacyDescription:
             "Learn how Edena protects your school's data and maintains privacy standards. Our comprehensive privacy policy ensures the security of student, family, and institutional information.",
@@ -59,18 +58,16 @@ export default {
         dpaTitle: "Data Processing Agreement | Edena School Management Software",
         dpaDescription:
             "Data processing agreement under Art. 28 GDPR between Edena and educational centers: instructions, security, sub-processors, assistance and data subject rights.",
-        nurseryTitle:
-            "Nursery Management Software | Family App, Photos & Automated Billing | Edena",
+        nurseryTitle: "Nursery & Daycare Management Software | Edena",
         nurseryDescription:
-            "Built for nurseries and infant schools: daily family communication, secure photos, automated billing, and digital records. Cut admin time by 40% from day one.",
-        schoolsTitle: "Management Software for Schools | Complete Educational ERP | Edena",
+            "Digital daily diary, family communication, secure photos and automated billing. The management software built for nurseries and daycare centres.",
+        schoolsTitle: "Management Software for Schools | ERP & Billing · Edena",
         schoolsDescription:
-            "ERP for primary, secondary, and sixth form: student records, grades, attendance, Verifactu billing, and family communication. Everything in one integrated platform.",
-        academiesTitle:
-            "Academy Management Software | Automated Billing, CRM & Full Management | Edena",
+            "Management software for schools from primary to sixth form: student records, grades, attendance, Verifactu billing and family communication in one platform.",
+        academiesTitle: "Academy Management Software | Billing & CRM · Edena",
         academiesDescription:
             "Manage your academy with automated billing, student acquisition CRM, attendance tracking, and a free family app. For language, dance, music, and sports academies.",
-        groupsTitle: "Multi-Campus Management for School Groups | Educational ERP | Edena",
+        groupsTitle: "Multi-Campus Management for School Groups · Edena",
         groupsDescription:
             "Manage your entire school network from a single dashboard: centralised billing, consolidated reporting, and consistent operations at every campus. Scale without adding admin overhead.",
         contactTitle: "Contact | Edena - School Management Software",
@@ -78,9 +75,9 @@ export default {
             "Have a question about Edena? Get in touch with our team. We're here to help you find the best solution for your school.",
     },
     hero: {
-        mainTitle: "The School ERP That Eliminates Paperwork and Automates Billing",
+        mainTitle: "The School Management Software That Eliminates Paperwork and Automates Billing",
         mainDescription:
-            "Automated billing, digital records, attendance, and family communication in one platform. Schools save over 15 hours per week and increase family satisfaction by 60%. No long-term contract.",
+            "Automated billing, digital records, attendance, and family communication in one platform. Schools save over 37 hours per week and increase family satisfaction by 60%. No long-term contract.",
         mobileTitle: "Stay Connected to Every Family, Effortlessly",
         mobileDescription:
             "Push notifications, secure photo sharing, and real-time updates, all in the free Edena app. Families stay engaged without extra work from your team.",
@@ -263,7 +260,7 @@ export default {
     conclusion: {
         title: "Less Admin. More Enrolments. Happier Families.",
         description:
-            "Join the 500+ schools already saving over 15 hours a week with Edena. Cut admin costs by 40%, boost family satisfaction by 60%, and manage students, billing, and communication in one secure platform.",
+            "Join the 500+ schools already saving over 37 hours a week with Edena. Cut admin costs by 40%, boost family satisfaction by 60%, and manage students, billing, and communication in one secure platform.",
     },
     bento: {
         title: "One Platform. Everything Your School Needs.",
@@ -1470,7 +1467,7 @@ export default {
             "We offer email and chat support during business hours for all plans, and priority 24/7 support for Professional and Enterprise plans, with a dedicated success advisor on the Enterprise plan.",
         centers_cost_savings: "How much can my center save with Edena?",
         centers_cost_savings_answer:
-            "Centers using Edena report reductions of up to 40% in administrative costs, 75% less time on family onboarding and savings of more than 15 hours per week on routine tasks.",
+            "Centers using Edena report reductions of up to 40% in administrative costs, 75% less time on family onboarding and savings of more than 37 hours per week on routine tasks.",
     },
     termsOfService: {
         title: "Terms and Conditions of Use",
@@ -1708,7 +1705,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
         billingCycleTitle: "Billing Cycles",
         billingCycleDescription:
             "Set up recurring billing cycles for tuition, activities, and services. Payments go out on time, every time, without manual intervention.",
-        mainTitle: "Get Paid On Time. Every Time. Without Chasing Anyone.",
+        mainTitle: "School Billing That Gets Paid On Time, Without Chasing Anyone",
         mainDescription:
             "Automated invoicing, SEPA direct debits, and real-time payment tracking. Verifactu-certified by the Spanish Tax Authority. Your team stops wasting time on manual financial admin.",
     },
@@ -1756,7 +1753,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             "Purchase uniforms, school supplies, additional services such as cafeteria or extracurricular activities directly from the platform. Easy management of all your purchases.",
     },
     nurseries: {
-        mainTitle: "The Management Platform Your Nursery Actually Needs",
+        mainTitle: "The Nursery and Daycare Software That Keeps It Simple",
         mainDescription:
             "Daily family communication, secure photos, automated billing, and digital records. Designed for the real pace of nurseries and infant schools. Up and running in 2 weeks.",
         communicationTitle: "Families Always in the Loop",
@@ -1777,12 +1774,12 @@ The Platform is hosted in data centres operated by leading infrastructure provid
         childrenManagementTitle: "Every Child's Day, Fully Tracked",
         childrenManagementDescription:
             "Attendance, meals, nap times, incidents, and developmental notes recorded per child. Complete digital records available to staff and visible to families in real time.",
-        dailyLifeSectionTitle: "Daily Life at Your Nursery, Fully Connected",
+        dailyLifeSectionTitle: "Your Nursery's Digital Daily Diary, Fully Connected",
         dailyLifeSectionDescription:
-            "From the moment children arrive to when they go home, every update shared with parents and every record stored digitally.",
+            "Meals, naps, photos and activities logged in seconds and visible to every family instantly. The digital diary that replaces the paper notebook and the spreadsheets.",
     },
     schools: {
-        mainTitle: "The ERP Your School Has Been Waiting For",
+        mainTitle: "School Management Software, From Enrolment to Report Card",
         mainDescription:
             "Complete management for primary, secondary, and sixth form: student records, grades, attendance, Verifactu billing, and family communication. All in one system.",
         communicationTitle: "Centralised Family Communication",
@@ -1917,25 +1914,25 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             "Aggregated data from schools, academies, and nurseries that have digitalised their management with Edena.",
         cases: [
             {
-                stat: "+100%",
+                stat: "37 h",
                 description:
-                    "Reduction in administrative tasks thanks to automation of key processes.",
+                    "Saved every week on administrative tasks thanks to automation of key processes.",
                 bg: "dark",
             },
             {
-                stat: "+195%",
+                stat: "+35%",
                 description:
-                    "Increase in enrollment conversion with digital forms and online onboarding.",
+                    "Increase in enrolment conversion with the CRM, digital forms and online onboarding.",
                 bg: "light",
             },
             {
-                stat: "+150%",
+                stat: "-75%",
                 description:
-                    "Increase in qualified leads through digital acquisition and automated follow-up.",
+                    "Reduction in family onboarding time with digital onboarding and e-signatures.",
                 bg: "light",
             },
             {
-                stat: "+98%",
+                stat: "98%",
                 description:
                     "Family satisfaction after digitizing management and communication at the center.",
                 bg: "light",
@@ -2163,10 +2160,49 @@ For any questions related to this Agreement you can write to us at privacidad@ed
         assignmentScoreCard: "Score card and grade tracking in Edena",
         conclusionLogo: "Edena Logo - Transform your school management",
     },
+    verifactuSection: {
+        title: "Verifactu for schools, solved from day one",
+        description:
+            "From 2027, anyone issuing invoices in Spain must use verifiable invoicing software under Royal Decree 1007/2023. Edena already issues AEAT-certified Verifactu invoices: your school complies without changing its routine.",
+        faqs: [
+            {
+                question: "What is Verifactu?",
+                answer: "Verifactu is the Spanish Tax Agency (AEAT) system that regulates how invoicing software must generate, record and store invoices. Its legal basis is Royal Decree 1007/2023 and Order HAC/1177/2024.",
+            },
+            {
+                question: "When does Verifactu become mandatory for schools?",
+                answer: "Entities subject to Spanish corporate tax must comply from 1 January 2027, and all other invoice issuers from 1 July 2027. Adapting early avoids last-minute rushes and penalties.",
+            },
+            {
+                question: "What if my current invoicing software doesn't comply with Verifactu?",
+                answer: "Invoicing with non-compliant software can lead to penalties. With Edena there's nothing extra to do: every invoice is generated Verifactu-certified.",
+            },
+        ],
+    },
+    demoPage: {
+        heroTitle: "See Edena in action with data from a school like yours",
+        heroDescription:
+            "A 15-minute demo tailored to your type of school: primary or secondary school, nursery, academy or school group. No commitment, no pressure.",
+        faqTitle: "What other schools ask",
+        faqs: [
+            {
+                question: "How much does Edena cost?",
+                answer: "From €44/month, priced per student, with no long-term contract. You can work out your exact price on the pricing page.",
+            },
+            {
+                question: "How long does it take to get started?",
+                answer: "Most schools are up and running in 2 weeks, with data migration, staff training and family onboarding included.",
+            },
+            {
+                question: "What if we already use another platform?",
+                answer: "We migrate your data from your current system without disrupting your school's day-to-day.",
+            },
+        ],
+        pricingLinkLabel: "See pricing and calculate your case",
+    },
     productModules: {
         extracurricular: {
-            metaTitle:
-                "Extracurricular Activities Management Software | Online Enrolment & Payments | Edena",
+            metaTitle: "Extracurricular Activities | Enrolment & Payments · Edena",
             metaDescription:
                 "Manage extracurricular activities end to end: online enrolment, capacity control, attendance lists and automatic payments. Less paperwork and more full activities.",
             navTitle: "Extracurriculars",
@@ -2255,7 +2291,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             ],
         },
         tracking: {
-            metaTitle: "Time Tracking & Daily Agenda for Schools | Staff Clock-in | Edena",
+            metaTitle: "Time Tracking & Internal Coordination for Schools · Edena",
             metaDescription:
                 "Staff time tracking, shared daily agenda and internal task follow-up in a single tool. Meet labour regulations and organise your day to day effortlessly.",
             navTitle: "Tracking",
@@ -2344,7 +2380,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             ],
         },
         workflows: {
-            metaTitle: "Process Automation for Schools | Workflows | Edena",
+            metaTitle: "Administrative Automation for Schools | Workflows · Edena",
             metaDescription:
                 "Automate your school's repetitive tasks: reminders, announcements, payments and enrolment flows. Design workflows with no code and save hours every week.",
             navTitle: "Workflows",
@@ -2433,7 +2469,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             ],
         },
         shop: {
-            metaTitle: "Online Shop for Schools | Uniforms, Supplies & Services | Edena Shop",
+            metaTitle: "Online Shop for Schools | Uniforms & Supplies · Edena",
             metaDescription:
                 "Sell uniforms, school supplies, meals and activities from an online shop integrated into your school. Automatic payments and controlled stock, with no hidden fees.",
             navTitle: "Shop",
@@ -2521,7 +2557,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             ],
         },
         communication: {
-            metaTitle: "School-Family Communication | Messaging & Announcements | Edena",
+            metaTitle: "School Communication | Messaging & Announcements · Edena",
             metaDescription:
                 "Secure messaging, announcements with read receipts, push notifications and a school wall in a single app. Reach families instantly and make sure everyone gets the information.",
             navTitle: "Communication",
@@ -2609,7 +2645,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             ],
         },
         internalPayments: {
-            metaTitle: "School Wallet & Internal Payments | Balances & School Charges | Edena",
+            metaTitle: "School Wallet | Canteen & Trip Payments · Edena",
             metaDescription:
                 "Manage each family's internal wallet: top-ups, balances and charges for meals, trips and services. Fast cashless payments and full control of every movement.",
             navTitle: "Internal Payments",
@@ -2698,7 +2734,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             ],
         },
         ena: {
-            metaTitle: "Ena, the Artificial Intelligence for Your School | AI Assistant | Edena",
+            metaTitle: "Ena | AI for Your School's Management · Edena",
             metaDescription:
                 "Ena is Edena's AI agent: it automates invoices, drafts announcements, takes attendance and answers your whole organisation. Educational AI with enterprise security.",
             navTitle: "Ena",

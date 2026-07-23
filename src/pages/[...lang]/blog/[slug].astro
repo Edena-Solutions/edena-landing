@@ -30,6 +30,13 @@ export async function getStaticPaths() {
     const postsFr = await getCollection("blogFr");
     const postsEus = await getCollection("blogEus");
 
+    // Spanish posts also build at the unprefixed root (/blog/<slug>), which is
+    // the canonical URL declared in <link rel="canonical"> and the sitemap.
+    const pathsEsRoot = postsEs.map((post) => ({
+        params: { lang: undefined, slug: post.slug },
+        props: { lang: "es", slug: post.slug },
+    }));
+
     const pathsEs = postsEs.map((post) => ({
         params: { lang: "es", slug: post.slug },
         props: { lang: "es", slug: post.slug },
@@ -55,7 +62,7 @@ export async function getStaticPaths() {
         props: { lang: "fr", slug: post.slug },
     }));
 
-    return [...pathsEs, ...pathsEn, ...pathsCa, ...pathsEus, ...pathsFr];
+    return [...pathsEsRoot, ...pathsEs, ...pathsEn, ...pathsCa, ...pathsEus, ...pathsFr];
 }
 
 const { lang, slug } = Astro.props;
@@ -75,9 +82,11 @@ const useRelatedLayout = relatedPosts.length > 0;
 
 const { Content } = await post.render();
 
-const postUrl = `https://edena.es/${lang}/blog/${slug}`;
-const blogUrl = `https://edena.es/${lang}/blog`;
-const homeUrl = `https://edena.es/${lang === "es" ? "" : `${lang}/`}`;
+// Canonical URLs: Spanish lives unprefixed at the root.
+const langPrefix = lang === "es" ? "" : `${lang}/`;
+const postUrl = `https://edena.es/${langPrefix}blog/${slug}`;
+const blogUrl = `https://edena.es/${langPrefix}blog`;
+const homeUrl = `https://edena.es/${langPrefix}`;
 
 const publishedDate = new Date(post.data.date).toISOString();
 const ogMeta = post.data.cover
@@ -96,7 +105,7 @@ const ogMeta = post.data.cover
     lang={lang}
 >
     <div class="max-w-7xl mx-auto py-6 px-4">
-        <Link href={`/${lang}/blog/`} className="text-sm flex items-center gap-2">
+        <Link href={`/${langPrefix}blog/`} className="text-sm flex items-center gap-2">
             <ChevronLeft className="w-4 h-4" />
             {t.navigation.blog}
         </Link>

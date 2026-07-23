@@ -1,5 +1,5 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
 import Hero from "@/components/Hero.astro";
 import Section from "@/components/Section.astro";
@@ -7,6 +7,7 @@ import GSAPSection from "@/components/ui/gsap-section";
 import Features from "@/components/Features";
 import ProductFAQs from "@/components/ProductFAQs.astro";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import ShopAppAnimation from "@/components/ShopAppAnimation";
 import { ogFromAsset } from "@/lib/og-image";
 import shopMain from "@/assets/img/screenshots/app/shop_main.png";
@@ -15,10 +16,7 @@ import heroImage from "@/assets/img/screenshots/shop/shop_hero.png";
 import heroImageDark from "@/assets/img/screenshots/shop/dark/shop_hero.png";
 
 export function getStaticPaths() {
-    return languages.map((lang) => ({
-        params: { lang },
-        props: { lang },
-    }));
+    return localeStaticPaths();
 }
 
 const { lang } = Astro.props;
@@ -26,11 +24,13 @@ const t = translations[lang as keyof typeof translations];
 const m = t.productModules.shop;
 
 const icons = ["Store", "CreditCard", "Package", "Shapes", "Smartphone", "BarChart2"];
+// Related pages per feature card (avoids 6x self-links).
+const featureLinks = ["/families", "/finance", "/dashboard", "/families", "/app", "/dashboard"];
 const features = m.features.map((f, i) => ({
     icon: icons[i],
     title: f.title,
     description: f.description,
-    navigateTo: `/${lang}/shop`,
+    navigateTo: localePath(lang, featureLinks[i] ?? "/demo"),
 }));
 ---
 
@@ -106,4 +106,5 @@ const features = m.features.map((f, i) => ({
         url={`https://edena.es/${lang}/shop`}
         lang={lang}
     />
+    <FAQPageSchema slot="structured-data" faqs={m.faqs} translations={{}} lang={lang} />
 </Layout>

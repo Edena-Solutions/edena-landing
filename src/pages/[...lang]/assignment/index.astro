@@ -1,5 +1,5 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
 import Section from "@/components/Section.astro";
 import Hero from "@/components/Hero.astro";
@@ -20,10 +20,7 @@ import { getCollection } from "astro:content";
 import { ogFromAsset } from "@/lib/og-image";
 
 export function getStaticPaths() {
-    return languages.map((lang) => ({
-        params: { lang },
-        props: { lang },
-    }));
+    return localeStaticPaths();
 }
 
 const { lang } = Astro.props;
@@ -37,37 +34,37 @@ const features = [
         icon: "Calendar",
         title: t.features.assignmentFeatures.scheduleManagement.title,
         description: t.features.assignmentFeatures.scheduleManagement.tagline,
-        navigateTo: `/${lang}/assignment`,
+        navigateTo: localePath(lang, "/students"),
     },
     {
         icon: "RotateCcw",
         title: t.features.assignmentFeatures.evaluationCycles.title,
         description: t.features.assignmentFeatures.evaluationCycles.tagline,
-        navigateTo: `/${lang}/assignment`,
+        navigateTo: localePath(lang, "/dashboard"),
     },
     {
         icon: "BarChart3",
         title: t.features.assignmentFeatures.gradeManagement.title,
         description: t.features.assignmentFeatures.gradeManagement.tagline,
-        navigateTo: `/${lang}/assignment`,
+        navigateTo: localePath(lang, "/students"),
     },
     {
         icon: "FileCheck",
         title: t.features.assignmentFeatures.automatedReports.title,
         description: t.features.assignmentFeatures.automatedReports.tagline,
-        navigateTo: `/${lang}/assignment`,
+        navigateTo: localePath(lang, "/families"),
     },
     {
         icon: "Users",
         title: t.features.assignmentFeatures.familyVisibility.title,
         description: t.features.assignmentFeatures.familyVisibility.tagline,
-        navigateTo: `/${lang}/assignment`,
+        navigateTo: localePath(lang, "/app"),
     },
     {
         icon: "Link",
         title: t.features.assignmentFeatures.integration.title,
         description: t.features.assignmentFeatures.integration.tagline,
-        navigateTo: `/${lang}/assignment`,
+        navigateTo: localePath(lang, "/communication"),
     },
 ];
 ---

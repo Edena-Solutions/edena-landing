@@ -7,14 +7,12 @@ export default {
     downloadTheApp: "Descarrega l'app gratuïta",
     knowMore: "Saber més",
     meta: {
-        homeTitle:
-            "Programari de Gestió Escolar | ERP per a Col·legis, Acadèmies i Escoles Infantils | Edena",
+        homeTitle: "Programari de Gestió Escolar | ERP Educatiu · Edena",
         homeDescription:
-            "Edena centralitza facturació, assistència, expedients i comunicació familiar en una sola plataforma. Centres ja estalvien 15 h/setmana. Sense permanència. Demo gratis.",
-        pricingTitle:
-            "Preus Programari Gestió Escolar | Des de 44€/mes, Sense Permanència, Sense Lletra Petita | Edena",
+            "El programari de gestió escolar que centralitza facturació amb Verifactu, assistència, expedients i comunicació amb famílies. Sense permanència. Demo gratis.",
+        pricingTitle: "Preus | Programari de Gestió Escolar des de 44 €/mes · Edena",
         pricingDescription:
-            "Pagament per alumne, sense quota d'alta ni permanència. Des de 44€/mes amb expedient digital, assistència i portal familiar. Afegeix només els mòduls que necessites. Prova gratis 30 dies.",
+            "Pagament per alumne, sense quota d'alta ni permanència. Des de 44 €/mes amb expedient digital, assistència i portal de famílies. Prova gratis 30 dies.",
         faqsTitle: "Preguntes Freqüents sobre Edena | Programari de Gestió Escolar",
         faqsDescription:
             "Resol els teus dubtes sobre preus, funcionalitats, migració de dades, Verifactu i seguretat. Tot el que necessites saber abans de triar Edena per al teu centre.",
@@ -24,21 +22,19 @@ export default {
         studentsTitle: "Programa de gestió d'alumnes | Expedients, assistència i notes | Edena",
         studentsDescription:
             "Expedients digitals, assistència automàtica, qualificacions i generació de butlletins en una sola plataforma. Redueix la càrrega administrativa un 40% des del primer dia.",
-        appTitle: "App mòbil per a col·legis | Comunicació famílies-centre | Edena Kids",
+        appTitle: "Edena Kids | App per a Famílies i Professors · Edena",
         appDescription:
             "App gratuïta per a famílies i professors a iOS i Android. Notificacions push, fotos segures, signatura digital de documents, notes i factures en un sol lloc.",
-        demoTitle:
-            "Demo Gratuïta Sense Compromís | Veu Edena en Directe | Programari Gestió Escolar",
+        demoTitle: "Reserva una Demo Gratis | Programari de Gestió Escolar · Edena",
         demoDescription:
             "Reserva una demo personalitzada per al teu centre en menys de 2 minuts. Sense compromís ni pressió. Et mostrem exactament com Edena encaixa en la gestió del teu dia a dia.",
-        financeTitle:
-            "Programari de Facturació Escolar | Cobraments Automàtics i Verifactu Certificat | Edena",
+        financeTitle: "Facturació Escolar amb Verifactu | Cobraments SEPA · Edena",
         financeDescription:
-            "Facturació automàtica, domiciliacions SEPA i control d'impagaments en temps real. Certificat Verifactu AEAT. Redueix la càrrega financera del teu equip administratiu un 40%.",
+            "Facturació escolar automàtica certificada Verifactu: rebuts, domiciliacions SEPA i control d'impagaments en temps real. El teu equip deixa de perseguir cobraments.",
         guardiansTitle: "Portal de famílies per a col·legis | Comunicació centre-família | Edena",
         guardiansDescription:
             "Dóna a les famílies accés en temps real a notes, assistència, factures i novetats del centre. Missatgeria segura i signatura digital de documents. Incorporació de famílies en minuts.",
-        familiesTitle: "Portal per a famílies | App gratuïta, facturació i botiga escolar | Edena",
+        familiesTitle: "Portal de Famílies | Notes, Factures i Pagaments · Edena",
         familiesDescription:
             "Tot l'escolar en una app gratuïta: notes, factures, missatges, fotos i la botiga del centre. Gestiona diversos fills des d'un sol compte, en qualsevol dispositiu.",
         centersTitle: "Plataforma Integral per a Centres Educatius | ERP Educatiu | Edena",
@@ -46,10 +42,10 @@ export default {
             "ERP complet per a centres educatius: facturació automàtica, CRM de matrícules, comunicació familiar, assistència digital i expedients. Redueix costos administratius fins a un 40%.",
         crmTitle: "CRM Escolar | Converteix Consultes en Matrícules | Edena",
         crmDescription:
-            "Captura leads des de la teva web, gestiona cada sol·licitud en un pipeline visual i no perdis mai una oportunitat de matriculació. Formularis personalitzables i seguiment complet. +35% de conversió.",
-        assignmentTitle: "Programa d'avaluacions escolars | Tasques i qualificacions | Edena",
+            "CRM educatiu per a admissions i matrícules: captura sol·licituds des de la teva web, gestiona cada família en un pipeline visual i no perdis cap oportunitat.",
+        assignmentTitle: "Avaluacions i Butlletins Automàtics | Gestió Acadèmica · Edena",
         assignmentDescription:
-            "Planifica tasques, configura cicles d'avaluació i genera butlletins automàticament. Les famílies veuen les notes en temps real. El teu equip docent redueix la càrrega de correcció un 40%.",
+            "Gestió acadèmica sense fricció: planifica tasques, configura cicles d'avaluació i genera butlletins automàticament. Les famílies veuen les notes en temps real.",
         privacyTitle: "Política de privacitat | Programa de gestió escolar Edena",
         privacyDescription:
             "Descobreix com Edena protegeix les dades del teu centre i manté estàndards de privacitat. La nostra política de privacitat integral garanteix la seguretat de la informació estudiantil, familiar i institucional.",
@@ -62,18 +58,16 @@ export default {
         dpaTitle: "Acord de tractament de dades | Programa de gestió escolar Edena",
         dpaDescription:
             "Acord d'encàrrec de tractament conforme a l'art. 28 del RGPD entre Edena i els centres educatius: instruccions, seguretat, subencarregats, assistència i drets dels interessats.",
-        nurseryTitle:
-            "Programari per a Escoles Infantils | App Famílies, Fotos i Facturació Automàtica | Edena",
+        nurseryTitle: "Programari per a Escoles Infantils i Llars d'Infants | Edena",
         nurseryDescription:
-            "Dissenyat per a escoles infantils: comunicació diària amb famílies, fotos segures, facturació automàtica i expedients digitals. Redueix la càrrega administrativa un 40% des del primer dia.",
-        schoolsTitle: "Programari de Gestió per a Col·legis | ERP Educatiu Complet | Edena",
+            "Agenda digital, comunicació diària amb famílies, fotos segures i facturació automàtica amb Verifactu. El programa de gestió per a escoles infantils i llars d'infants.",
+        schoolsTitle: "Programari per a Col·legis | Gestió i Verifactu · Edena",
         schoolsDescription:
-            "ERP per a col·legis de primària, ESO i batxillerat: expedients, notes, assistència, facturació Verifactu i comunicació familiar. Tot en una sola plataforma integrada.",
-        academiesTitle:
-            "Programari per a Acadèmies | Cobraments Automàtics, CRM i Gestió Integral | Edena",
+            "Programari de gestió per a col·legis d'infantil a batxillerat i FP: expedients, notes, assistència, facturació amb Verifactu i comunicació amb famílies.",
+        academiesTitle: "Programari per a Acadèmies | Cobraments i CRM · Edena",
         academiesDescription:
             "Gestiona la teva acadèmia amb cobraments automàtics, CRM de captació, control d'assistència i app gratuïta per a famílies. Per a acadèmies d'idiomes, dansa, música i esport.",
-        groupsTitle: "Gestió Multi-Centre per a Grups Educatius | ERP Educatiu | Edena",
+        groupsTitle: "Gestió Multi-Centre per a Grups Educatius · Edena",
         groupsDescription:
             "Gestiona tota la teva xarxa de centres des d'un únic panell: facturació centralitzada, reporting consolidat i operativa consistent a cada centre. Escala sense afegir càrrega administrativa.",
         contactTitle: "Contacte | Edena - Programa de gestió escolar",
@@ -81,9 +75,10 @@ export default {
             "Tens alguna pregunta sobre Edena? Posa't en contacte amb el nostre equip. Som aquí per ajudar-te a trobar la millor solució per al teu centre educatiu.",
     },
     hero: {
-        mainTitle: "L'ERP escolar que elimina el papeleo i automatitza els cobraments",
+        mainTitle:
+            "El programari de gestió escolar que elimina la paperassa i automatitza els cobraments",
         mainDescription:
-            "Facturació automàtica, expedients digitals, assistència i comunicació familiar en una sola plataforma. Els centres estalvien més de 15 hores setmanals i augmenten la satisfacció familiar un 60%. Sense permanència.",
+            "Facturació automàtica, expedients digitals, assistència i comunicació familiar en una sola plataforma. Els centres estalvien més de 37 hores setmanals i augmenten la satisfacció familiar un 60%. Sense permanència.",
         mobileTitle: "Connecta amb cada família, sense esforç extra",
         mobileDescription:
             "Notificacions push, fotos segures i actualitzacions en temps real, tot a l'app gratuïta d'Edena. Les famílies es mantenen informades sense feina extra per al teu equip.",
@@ -271,7 +266,7 @@ export default {
     conclusion: {
         title: "Menys administració. Més matrícules. Més famílies satisfetes.",
         description:
-            "Uneix-te als centres que ja estalvien més de 15 hores setmanals amb Edena. Redueix costos administratius un 40%, augmenta la satisfacció familiar un 60% i gestiona alumnes, cobraments i comunicació en una sola plataforma segura.",
+            "Uneix-te als centres que ja estalvien més de 37 hores setmanals amb Edena. Redueix costos administratius un 40%, augmenta la satisfacció familiar un 60% i gestiona alumnes, cobraments i comunicació en una sola plataforma segura.",
     },
     bento: {
         title: "Una plataforma. Tot el que necessita el teu centre.",
@@ -1492,7 +1487,7 @@ export default {
             "Oferim suport per correu i xat en horari laboral per a tots els plans, i suport prioritari 24/7 per als plans Professional i Empresarial, amb un assessor d'èxit dedicat al pla Empresarial.",
         centers_cost_savings: "Quant pot estalviar el meu centre amb Edena?",
         centers_cost_savings_answer:
-            "Els centres que usen Edena informen reduccions de fins a un 40% en costos administratius, un 75% menys de temps en incorporació de famílies i estalvi de més de 15 hores setmanals en tasques rutinàries.",
+            "Els centres que usen Edena informen reduccions de fins a un 40% en costos administratius, un 75% menys de temps en incorporació de famílies i estalvi de més de 37 hores setmanals en tasques rutinàries.",
     },
     privacyPolicy: {
         title: "Política de privacitat",
@@ -1908,7 +1903,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         billingCycleTitle: "Cicles de facturació",
         billingCycleDescription:
             "Configura cicles de cobrament recurrents per a matrícules, activitats i serveis. Els cobraments surten a temps, sempre, sense intervenció manual.",
-        mainTitle: "Cobra puntualment, sempre. Sense perseguir ningú.",
+        mainTitle: "Facturació escolar que cobra puntualment, sense perseguir ningú",
         mainDescription:
             "Facturació automàtica, domiciliacions SEPA i seguiment de cobraments en temps real. Certificat Verifactu AEAT. El teu equip deixa de perdre temps en gestió financera manual.",
     },
@@ -1956,7 +1951,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             "Compra uniformes, material escolar, serveis addicionals com menjador o activitats extraescolars directament des de la plataforma. Gestió senzilla de totes les teves compres.",
     },
     nurseries: {
-        mainTitle: "La plataforma que necessita la teva escola infantil, sense complicacions",
+        mainTitle: "El programari per a escoles infantils i llars d'infants, sense complicacions",
         mainDescription:
             "Comunicació diària amb famílies, fotos segures, facturació automàtica i expedients digitals. Dissenyat per al ritme real de les escoles infantils. En marxa en 2 setmanes.",
         communicationTitle: "Famílies sempre al dia",
@@ -1977,12 +1972,12 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         childrenManagementTitle: "El dia de cada nen, registrat al detall",
         childrenManagementDescription:
             "Assistència, menjars, migdiades, incidències i notes de desenvolupament registrades per alumne. Expedients digitals complets accessibles per al personal i visibles per a les famílies en temps real.",
-        dailyLifeSectionTitle: "El dia a dia de la teva escola infantil, tot connectat",
+        dailyLifeSectionTitle: "L'agenda digital de la teva escola infantil, tot connectat",
         dailyLifeSectionDescription:
-            "Des que arriben els nens fins que se'n van; cada moment compartit amb les famílies i cada registre guardat digitalment.",
+            "Àpats, migdiades, fotos i activitats registrades en segons i visibles per a cada família a l'instant. L'agenda digital que substitueix la llibreta de paper i els fulls de càlcul.",
     },
     schools: {
-        mainTitle: "L'ERP que el teu col·legi necessitava des de fa temps",
+        mainTitle: "Programari de gestió per a col·legis, de la matrícula al butlletí",
         mainDescription:
             "Gestió completa per a primària, secundària i batxillerat: expedients, notes, assistència, facturació Verifactu i comunicació amb famílies. Tot en un sol sistema.",
         communicationTitle: "Comunicació centralitzada amb famílies",
@@ -2117,25 +2112,25 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             "Dades agregades de col·legis, acadèmies i escoles infantils que han digitalitzat la seva gestió amb Edena.",
         cases: [
             {
-                stat: "+100%",
+                stat: "37 h",
                 description:
-                    "De reducció en tasques administratives gràcies a l'automatització de processos clau.",
+                    "Estalviades cada setmana en tasques administratives gràcies a l'automatització de processos clau.",
                 bg: "dark",
             },
             {
-                stat: "+195%",
+                stat: "+35%",
                 description:
-                    "D'increment en la conversió de matrícules amb formularis digitals i onboarding en línia.",
+                    "De conversió de matrícules amb el CRM, els formularis digitals i l'onboarding en línia.",
                 bg: "light",
             },
             {
-                stat: "+150%",
+                stat: "-75%",
                 description:
-                    "D'augment en leads qualificats gràcies a la captació digital i el seguiment automatitzat.",
+                    "De temps d'incorporació de famílies amb l'onboarding digital i la signatura electrònica.",
                 bg: "light",
             },
             {
-                stat: "+98%",
+                stat: "98%",
                 description:
                     "De satisfacció de famílies després de digitalitzar la gestió i la comunicació del centre.",
                 bg: "light",
@@ -2155,7 +2150,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         relatedTitle: "Articles relacionats",
         ctaTitle: "Uneix-te als centres que ja treballen sense papeleo",
         ctaDescription:
-            "Centres usen Edena per estalviar més de 15 hores setmanals en tasques administratives. Veu com funciona amb una demo gratuïta adaptada al teu tipus de centre.",
+            "Centres usen Edena per estalviar més de 37 hores setmanals en tasques administratives. Veu com funciona amb una demo gratuïta adaptada al teu tipus de centre.",
     },
     altText: {
         logo: "Logotip d'Edena - Programa de gestió escolar",
@@ -2190,10 +2185,50 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         assignmentScoreCard: "Butlletí i seguiment de qualificacions a Edena",
         conclusionLogo: "Logotip d'Edena - Transforma la gestió del teu centre educatiu",
     },
+    verifactuSection: {
+        title: "Verifactu per a centres educatius, resolt des d'avui",
+        description:
+            "Des del 2027, qui emet factures a Espanya haurà de fer-ho amb un programari de facturació verificable conforme al Reial Decret 1007/2023. Edena ja genera factures certificades Verifactu davant l'AEAT: el teu centre compleix la normativa sense canviar la seva rutina.",
+        faqs: [
+            {
+                question: "Què és Verifactu?",
+                answer: "Verifactu és el sistema de l'Agència Tributària (AEAT) que regula com els programes informàtics han de generar, registrar i conservar les factures. La seva base legal són el Reial Decret 1007/2023 i l'Ordre HAC/1177/2024.",
+            },
+            {
+                question: "Quan és obligatori Verifactu per a un centre educatiu?",
+                answer: "Les entitats que tributen per l'Impost de Societats hauran de complir-lo des de l'1 de gener de 2027, i la resta d'emissors de factures des de l'1 de juliol de 2027. Adaptar-se amb antelació evita presses i sancions.",
+            },
+            {
+                question:
+                    "Què passa si el meu programa de facturació actual no compleix Verifactu?",
+                answer: "Facturar amb un programari no adaptat pot comportar sancions. Amb Edena no has de fer res extra: cada factura es genera ja certificada conforme a Verifactu.",
+            },
+        ],
+    },
+    demoPage: {
+        heroTitle: "Mira Edena funcionant amb les dades d'un centre com el teu",
+        heroDescription:
+            "Demo de 15 minuts adaptada al teu tipus de centre: col·legi, escola infantil, acadèmia o grup educatiu. Sense compromís i sense pressió.",
+        faqTitle: "El que pregunten altres centres",
+        faqs: [
+            {
+                question: "Quant costa Edena?",
+                answer: "Des de 44 €/mes, amb pagament per alumne i sense permanència. Pots calcular el teu preu exacte a la pàgina de preus.",
+            },
+            {
+                question: "Quant es triga a començar?",
+                answer: "La majoria de centres estan operatius en 2 setmanes, amb migració de dades, formació de l'equip i incorporació de famílies incloses.",
+            },
+            {
+                question: "I si ja fem servir una altra plataforma?",
+                answer: "Ens encarreguem de migrar les teves dades des del teu sistema actual sense interrompre l'activitat del centre.",
+            },
+        ],
+        pricingLinkLabel: "Veure preus i calcular el teu cas",
+    },
     productModules: {
         extracurricular: {
-            metaTitle:
-                "Programari de Gestió d'Extraescolars | Inscripcions i Cobraments en Línia | Edena",
+            metaTitle: "Gestió d'Extraescolars | Inscripcions i Cobraments · Edena",
             metaDescription:
                 "Gestiona les activitats extraescolars de principi a fi: inscripcions en línia, control de places, llistes d'assistència i cobraments automàtics. Menys paperassa i més activitats plenes.",
             navTitle: "Extraescolars",
@@ -2282,8 +2317,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         tracking: {
-            metaTitle:
-                "Control Horari i Agenda Diària per a Centres Educatius | Time Tracking | Edena",
+            metaTitle: "Control Horari i Seguiment Intern per a Centres · Edena",
             metaDescription:
                 "Registre horari del personal, agenda diària del centre i seguiment intern de tasques en una sola eina. Compleix la normativa laboral i organitza el dia a dia sense esforç.",
             navTitle: "Seguiment",
@@ -2372,7 +2406,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         workflows: {
-            metaTitle: "Automatització de Processos per a Centres Educatius | Workflows | Edena",
+            metaTitle: "Automatització Administrativa per a Centres Educatius · Edena",
             metaDescription:
                 "Automatitza les tasques repetitives del teu centre: recordatoris, comunicats, cobraments i fluxos de matrícula. Dissenya workflows sense programar i estalvia hores cada setmana.",
             navTitle: "Workflows",
@@ -2461,7 +2495,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         shop: {
-            metaTitle: "Botiga en Línia per a Escoles | Uniformes, Material i Serveis | Edena Shop",
+            metaTitle: "Botiga en Línia per a Col·legis | Uniformes i Material · Edena",
             metaDescription:
                 "Ven uniformes, material escolar, menjador i activitats des d'una botiga en línia integrada al teu centre. Cobraments automàtics i estoc controlat, sense comissions ocultes.",
             navTitle: "Botiga",
@@ -2550,7 +2584,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         communication: {
-            metaTitle: "Comunicació Escolar Família-Centre | Missatgeria i Circulars | Edena",
+            metaTitle: "Comunicació Escolar | Missatgeria i Circulars · Edena",
             metaDescription:
                 "Missatgeria segura, circulars amb confirmació de lectura, notificacions push i mur del centre en una sola app. Comunica't amb les famílies a l'instant i assegura't que tothom rep la informació.",
             navTitle: "Comunicació",
@@ -2638,8 +2672,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         internalPayments: {
-            metaTitle:
-                "Moneder Escolar i Pagaments Interns | Saldos i Cobraments del Centre | Edena",
+            metaTitle: "Moneder Escolar | Pagaments de Menjador i Sortides · Edena",
             metaDescription:
                 "Gestiona el moneder intern de les famílies: recàrregues, saldos i cobraments de menjador, excursions i serveis. Pagaments ràpids sense efectiu i control total de cada moviment.",
             navTitle: "Pagaments Interns",
@@ -2728,8 +2761,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         ena: {
-            metaTitle:
-                "Ena, la Intel·ligència Artificial del teu Centre Educatiu | Assistent IA | Edena",
+            metaTitle: "Ena | IA per a la Gestió del teu Centre Educatiu · Edena",
             metaDescription:
                 "Ena és l'agent d'IA d'Edena: automatitza factures, redacta comunicats, passa llista i respon tota la teva organització. Intel·ligència artificial educativa amb seguretat enterprise.",
             navTitle: "Ena",

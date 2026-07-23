@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { languages } from "@/i18n/index.ts";
+import { languages, localePath } from "@/i18n/index.ts";
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -60,7 +60,7 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
     }, []);
 
     const createLanguageUrl = (lang: string) => {
-        return `/${lang}${pathWithoutLang}`;
+        return localePath(lang, pathWithoutLang);
     };
 
     const [isClient, setIsClient] = useState(false);
@@ -76,7 +76,7 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                     {languages.map((lang) => (
                         <a
                             key={lang}
-                            href={`/${lang}${currentPath || "/"}`}
+                            href={localePath(lang, currentPath || "/")}
                             className={`inline-flex items-center gap-1.5 px-3 py-1 rounded text-sm font-medium ${
                                 currentLang === lang
                                     ? "bg-black text-white"

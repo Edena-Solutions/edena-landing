@@ -16,7 +16,7 @@ import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareAppli
 const lang = "es";
 const t = translations[lang];
 
-const getPath = (path: string) => `/${lang}/${path}`;
+const getPath = (path: string) => `/${path}`;
 
 const features = [
     {
@@ -41,7 +41,7 @@ const features = [
         icon: "Users",
         title: t.features.familyPortal.title,
         description: t.features.familyPortal.tagline,
-        navigateTo: getPath("guardians"),
+        navigateTo: getPath("families"),
     },
     {
         icon: "UserCheck",
@@ -65,12 +65,8 @@ const features = [
         description={t.meta.homeDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}
-        url="https://edena.es/en/"
+        url="https://edena.es/"
         lang={lang}
-        aggregateRating={{
-            ratingValue: "4.8",
-            reviewCount: "500",
-        }}
     />
     <section class="grid min-w-0 w-full max-w-full gap-16 overflow-x-hidden">
         <Hero t={t} />

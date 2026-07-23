@@ -31,7 +31,7 @@ import { cn } from "@/lib/utils";
 import logo from "@/assets/img/logos/logo.png";
 import aiLogo from "@/assets/img/logos/ai.png";
 import LanguageSwitcher from "./LanguageSwitcher";
-import { translations } from "@/i18n/index.ts";
+import { translations, localePath } from "@/i18n/index.ts";
 import { Button } from "./ui/button";
 import Link from "./ui/link";
 
@@ -174,25 +174,27 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
     const t = translations[lang as keyof typeof translations];
 
     const pm = t.productModules;
+    // Canonical locale paths: Spanish lives unprefixed at the root.
+    const p = (path: string) => localePath(lang, path);
 
     const products: MenuItem[] = [
         {
             title: t.navigation.crm,
-            href: `/${lang}/crm`,
+            href: p("/crm"),
             description: t.navigation.crmDescription,
             icon: SquareUser,
             iconColor: "bg-blue-100 text-blue-600 dark:bg-blue-500/15 dark:text-blue-400",
         },
         {
             title: t.navigation.app,
-            href: `/${lang}/app`,
+            href: p("/app"),
             description: t.navigation.appDescription,
             icon: Shapes,
             iconColor: "bg-rose-100 text-rose-600 dark:bg-rose-500/15 dark:text-rose-400",
         },
         {
             title: t.navigation.finance,
-            href: `/${lang}/finance`,
+            href: p("/finance"),
             description: t.navigation.financeDescription,
             icon: WalletCards,
             iconColor:
@@ -200,28 +202,28 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
         },
         {
             title: pm.extracurricular.navTitle,
-            href: `/${lang}/extracurricular`,
+            href: p("/extracurricular"),
             description: pm.extracurricular.navDescription,
             icon: Sparkles,
             iconColor: "bg-amber-100 text-amber-600 dark:bg-amber-500/15 dark:text-amber-400",
         },
         {
             title: pm.communication.navTitle,
-            href: `/${lang}/communication`,
+            href: p("/communication"),
             description: pm.communication.navDescription,
             icon: MessagesSquare,
             iconColor: "bg-sky-100 text-sky-600 dark:bg-sky-500/15 dark:text-sky-400",
         },
         {
             title: pm.internalPayments.navTitle,
-            href: `/${lang}/internal-payments`,
+            href: p("/internal-payments"),
             description: pm.internalPayments.navDescription,
             icon: Wallet,
             iconColor: "bg-violet-100 text-violet-600 dark:bg-violet-500/15 dark:text-violet-400",
         },
         {
             title: pm.shop.navTitle,
-            href: `/${lang}/shop`,
+            href: p("/shop"),
             description: pm.shop.navDescription,
             icon: Store,
             iconColor:
@@ -229,21 +231,21 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
         },
         {
             title: pm.tracking.navTitle,
-            href: `/${lang}/tracking`,
+            href: p("/tracking"),
             description: pm.tracking.navDescription,
             icon: Clock,
             iconColor: "bg-teal-100 text-teal-600 dark:bg-teal-500/15 dark:text-teal-400",
         },
         {
             title: pm.workflows.navTitle,
-            href: `/${lang}/workflows`,
+            href: p("/workflows"),
             description: pm.workflows.navDescription,
             icon: Zap,
             iconColor: "bg-indigo-100 text-indigo-600 dark:bg-indigo-500/15 dark:text-indigo-400",
         },
         {
             title: pm.ena.navTitle,
-            href: `/${lang}/ena`,
+            href: p("/ena"),
             description: pm.ena.navDescription,
             iconImage: aiLogo,
             iconColor: "bg-muted text-black dark:text-white",
@@ -253,49 +255,49 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
     const segments: MenuItem[] = [
         {
             title: t.navigation.students,
-            href: `/${lang}/students`,
+            href: p("/students"),
             description: t.navigation.studentsDescription,
             icon: GraduationCap,
         },
         {
             title: t.navigation.dashboard,
-            href: `/${lang}/dashboard`,
+            href: p("/dashboard"),
             description: t.navigation.dashboardDescription,
             icon: LayoutDashboard,
         },
         {
             title: t.navigation.assignment,
-            href: `/${lang}/assignment`,
+            href: p("/assignment"),
             description: t.navigation.assignmentDescription,
             icon: BookOpenText,
         },
         {
             title: t.navigation.nurseries,
-            href: `/${lang}/nurseries`,
+            href: p("/nurseries"),
             description: t.navigation.nurseriesDescription,
             icon: Baby,
         },
         {
             title: t.navigation.schools,
-            href: `/${lang}/schools`,
+            href: p("/schools"),
             description: t.navigation.schoolsDescription,
             icon: School,
         },
         {
             title: t.navigation.academies,
-            href: `/${lang}/academies`,
+            href: p("/academies"),
             description: t.navigation.academiesDescription,
             icon: Landmark,
         },
         {
             title: t.navigation.groups,
-            href: `/${lang}/groups`,
+            href: p("/groups"),
             description: t.navigation.groupsDescription,
             icon: LayoutGrid,
         },
         {
             title: t.navigation.forFamilies,
-            href: `/${lang}/families`,
+            href: p("/families"),
             description: t.features.appFeatures.tagline,
             icon: HeartHandshake,
         },
@@ -355,14 +357,14 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     </NavigationMenuContent>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
-                                    <Link href={`/${lang}/pricing`}>
+                                    <Link href={p("/pricing")}>
                                         <Button variant="ghost" className="font-medium">
                                             {t.navigation.pricing}
                                         </Button>
                                     </Link>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
-                                    <Link href={`/${lang}/contact`}>
+                                    <Link href={p("/contact")}>
                                         <Button variant="ghost" className="font-medium">
                                             {t.navigation.contact}
                                         </Button>
@@ -374,7 +376,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                 </div>
 
                 <div className="flex items-center gap-4 lg:hidden ml-auto">
-                    <Link href={`/${lang}/demo`} className="sm:hidden">
+                    <Link href={p("/demo")} className="sm:hidden">
                         <Button className="w-full" size="sm">
                             {t.bookDemo}
                         </Button>
@@ -384,7 +386,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                 </div>
 
                 <div className="hidden lg:flex shrink-0 items-center gap-2 ml-auto pl-8 xl:pl-6">
-                    <Link href={`/${lang}/demo`}>
+                    <Link href={p("/demo")}>
                         <Button variant="link" className="font-medium">
                             {t.bookDemo}
                         </Button>
@@ -429,7 +431,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             <div>
                                 <div>
                                     <a
-                                        href={`/${lang}/pricing`}
+                                        href={p("/pricing")}
                                         className="block py-2 text-sm hover:text-primary"
                                     >
                                         {t.navigation.pricing}
@@ -437,7 +439,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                 </div>
                                 <div>
                                     <a
-                                        href={`/${lang}/contact`}
+                                        href={p("/contact")}
                                         className="block py-2 text-sm hover:text-primary"
                                     >
                                         {t.navigation.contact}

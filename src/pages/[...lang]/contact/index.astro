@@ -1,15 +1,12 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations, localeStaticPaths } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
 import { ContactForm } from "@/components/ContactForm";
 import TopGlow from "@/components/TopGlow.astro";
 import Conclusion from "@/modules/home/Conclusion.astro";
 
 export function getStaticPaths() {
-    return languages.map((lang) => ({
-        params: { lang },
-        props: { lang },
-    }));
+    return localeStaticPaths();
 }
 
 const { lang } = Astro.props;

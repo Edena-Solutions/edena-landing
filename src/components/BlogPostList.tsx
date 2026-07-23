@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { localePath } from "@/i18n/index.ts";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -97,7 +98,7 @@ export const BlogPostList: React.FC<BlogPostListProps> = ({ posts, lang }) => {
                         className="overflow-hidden rounded bg-card p-4 group animate-fadeIn"
                         style={{ animationDelay: `${(idx % POSTS_PER_PAGE) * 40}ms` }}
                     >
-                        <a href={`/${lang}/blog/${post.slug}`} className="block">
+                        <a href={localePath(lang, `/blog/${post.slug}`)} className="block">
                             {post.data.cover && (
                                 <div className="overflow-hidden rounded relative h-80">
                                     {post.data.tags && post.data.tags.length > 0 && (

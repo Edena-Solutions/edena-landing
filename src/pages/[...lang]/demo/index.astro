@@ -1,29 +1,54 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
+import ProductFAQs from "@/components/ProductFAQs.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import Link from "@/components/ui/link";
+import { Button } from "@/components/ui/button";
 
 export function getStaticPaths() {
-    return languages.map((lang) => ({
-        params: { lang },
-        props: { lang },
-    }));
+    return localeStaticPaths();
 }
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const d = t.demoPage;
 
 const calendlyUrl = "https://calendly.com/edena-software/1h-meeting";
+const pricingUrl = localePath(lang, "/pricing");
 ---
 
 <Layout content={{ title: t.meta.demoTitle, description: t.meta.demoDescription }} lang={lang}>
-    <div
-        id="calendly-inline-demo"
-        class="calendly-inline-widget"
-        data-url={calendlyUrl}
-        style="min-width:320px;height:700px;"
-    >
-    </div>
+    <section class="grid gap-10 px-4">
+        <div class="text-center flex flex-col gap-4 items-center pt-10 max-w-2xl mx-auto">
+            <h1
+                class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent text-center"
+            >
+                {d.heroTitle}
+            </h1>
+            <p class="text-muted-foreground max-w-150">{d.heroDescription}</p>
+            <p class="text-[10px] text-muted-foreground uppercase tracking-wider">
+                {t.hero.verifactuCertified} | {t.noCreditCardRequired}
+            </p>
+        </div>
+
+        <div
+            id="calendly-inline-demo"
+            class="calendly-inline-widget"
+            data-url={calendlyUrl}
+            style="min-width:320px;height:700px;"
+        >
+        </div>
+
+        <ProductFAQs t={t} title={d.faqTitle} description="" faqs={d.faqs} />
+        <div class="text-center pb-10">
+            <Link href={pricingUrl}>
+                <Button variant="secondary">{d.pricingLinkLabel}</Button>
+            </Link>
+        </div>
+    </section>
+    <FAQPageSchema slot="structured-data" faqs={d.faqs} translations={{}} lang={lang} />
     <script is:inline>
         document.addEventListener("astro:page-load", () => {
             const parent = document.getElementById("calendly-inline-demo");

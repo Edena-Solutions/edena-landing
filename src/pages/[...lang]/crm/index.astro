@@ -1,5 +1,5 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
 import Hero from "@/components/Hero.astro";
 import Section from "@/components/Section.astro";
@@ -18,10 +18,7 @@ import { getCollection } from "astro:content";
 import { ogFromAsset } from "@/lib/og-image";
 
 export function getStaticPaths() {
-    return languages.map((lang) => ({
-        params: { lang },
-        props: { lang },
-    }));
+    return localeStaticPaths();
 }
 
 const { lang } = Astro.props;
@@ -35,37 +32,37 @@ const features = [
         icon: "GitBranch",
         title: t.features.crmFeatures.pipeline.title,
         description: t.features.crmFeatures.pipeline.tagline,
-        navigateTo: `/${lang}/crm`,
+        navigateTo: localePath(lang, "/demo"),
     },
     {
         icon: "FileEdit",
         title: t.features.crmFeatures.forms.title,
         description: t.features.crmFeatures.forms.tagline,
-        navigateTo: `/${lang}/crm`,
+        navigateTo: localePath(lang, "/workflows"),
     },
     {
         icon: "Activity",
         title: t.features.crmFeatures.activity.title,
         description: t.features.crmFeatures.activity.tagline,
-        navigateTo: `/${lang}/crm`,
+        navigateTo: localePath(lang, "/dashboard"),
     },
     {
         icon: "UserPlus",
         title: t.features.crmFeatures.assignment.title,
         description: t.features.crmFeatures.assignment.tagline,
-        navigateTo: `/${lang}/crm`,
+        navigateTo: localePath(lang, "/tracking"),
     },
     {
         icon: "Globe",
         title: t.features.crmFeatures.origin.title,
         description: t.features.crmFeatures.origin.tagline,
-        navigateTo: `/${lang}/crm`,
+        navigateTo: localePath(lang, "/communication"),
     },
     {
         icon: "BarChart2",
         title: t.features.crmFeatures.reports.title,
         description: t.features.crmFeatures.reports.tagline,
-        navigateTo: `/${lang}/crm`,
+        navigateTo: localePath(lang, "/dashboard"),
     },
 ];
 ---

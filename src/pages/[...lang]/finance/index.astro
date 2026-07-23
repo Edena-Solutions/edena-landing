@@ -1,11 +1,12 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
 import Section from "@/components/Section.astro";
 import Hero from "@/components/Hero.astro";
 import GSAPSection from "@/components/ui/gsap-section";
 import FAQs from "@/modules/finance/FAQs.astro";
+import ProductFAQs from "@/components/ProductFAQs.astro";
 import Features from "@/components/Features";
 import heroImage from "@/assets/img/screenshots/finance/billing_info.png";
 import heroImageDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
@@ -20,10 +21,7 @@ import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
 
 export function getStaticPaths() {
-    return languages.map((lang) => ({
-        params: { lang },
-        props: { lang },
-    }));
+    return localeStaticPaths();
 }
 
 const { lang } = Astro.props;
@@ -37,37 +35,37 @@ const features = [
         icon: "Receipt",
         title: t.features.financeFeatures.automatedBilling.title,
         description: t.features.financeFeatures.automatedBilling.tagline,
-        navigateTo: `/${lang}/finance`,
+        navigateTo: localePath(lang, "/workflows"),
     },
     {
         icon: "CreditCard",
         title: t.features.financeFeatures.paymentProcessing.title,
         description: t.features.financeFeatures.paymentProcessing.tagline,
-        navigateTo: `/${lang}/finance`,
+        navigateTo: localePath(lang, "/internal-payments"),
     },
     {
         icon: "PieChart",
         title: t.features.financeFeatures.budgetManagement.title,
         description: t.features.financeFeatures.budgetManagement.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: localePath(lang, "/dashboard"),
     },
     {
         icon: "GraduationCap",
         title: t.features.financeFeatures.scholarshipManagement.title,
         description: t.features.financeFeatures.scholarshipManagement.tagline,
-        navigateTo: `/${lang}/students`,
+        navigateTo: localePath(lang, "/students"),
     },
     {
         icon: "FileBarChart",
         title: t.features.financeFeatures.financialReporting.title,
         description: t.features.financeFeatures.financialReporting.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: localePath(lang, "/dashboard"),
     },
     {
         icon: "Calculator",
         title: t.features.financeFeatures.costAnalysis.title,
         description: t.features.financeFeatures.costAnalysis.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: localePath(lang, "/dashboard"),
     },
 ];
 ---
@@ -123,6 +121,12 @@ const features = [
                 altText: t.altText.emailInvoice,
             }}
         />
+        <ProductFAQs
+            t={t}
+            title={t.verifactuSection.title}
+            description={t.verifactuSection.description}
+            faqs={t.verifactuSection.faqs}
+        />
         <FAQs t={t} />
     </GSAPSection>
     <SoftwareApplicationSchema
@@ -135,10 +139,12 @@ const features = [
         lang={lang}
     />
     {
+        /* Single FAQPage block per page: collection FAQs + literal Verifactu FAQs
+           (FAQPage.astro falls back to the literal string when a key is missing). */
         financeFaqs?.data.faqs && (
             <FAQPageSchema
                 slot="structured-data"
-                faqs={financeFaqs.data.faqs}
+                faqs={[...financeFaqs.data.faqs, ...t.verifactuSection.faqs]}
                 translations={t.faqs}
                 lang={lang}
             />

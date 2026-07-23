@@ -7,14 +7,12 @@ export default {
     downloadTheApp: "Descarga la app gratuita",
     knowMore: "Saber más",
     meta: {
-        homeTitle:
-            "Software de Gestión Escolar | ERP para Colegios, Academias y Escuelas Infantiles | Edena",
+        homeTitle: "Software de Gestión Escolar | ERP Educativo · Edena",
         homeDescription:
-            "Edena centraliza facturación, asistencia, expedientes y comunicación familiar en una sola plataforma. Centros ya ahorran 15 h/semana. Sin permanencia. Demo gratis.",
-        pricingTitle:
-            "Precios Software Gestión Escolar | Desde 44€/mes, Sin Permanencia, Sin Letra Pequeña | Edena",
+            "El software de gestión escolar que centraliza facturación con Verifactu, asistencia, expedientes y comunicación con familias. Sin permanencia. Demo gratis.",
+        pricingTitle: "Precios | Software de Gestión Escolar desde 44 €/mes · Edena",
         pricingDescription:
-            "Pago por alumno, sin cuota de alta ni permanencia. Desde 44€/mes con expediente digital, asistencia y portal familiar. Añade solo los módulos que necesitas. Prueba gratis 30 días.",
+            "Pago por alumno, sin cuota de alta ni permanencia. Desde 44 €/mes con expediente digital, asistencia y portal de familias. Prueba gratis 30 días.",
         faqsTitle: "Preguntas Frecuentes sobre Edena | Software de Gestión Escolar",
         faqsDescription:
             "Resuelve tus dudas sobre precios, funcionalidades, migración de datos, Verifactu y seguridad. Todo lo que necesitas saber antes de elegir Edena para tu centro.",
@@ -24,20 +22,19 @@ export default {
         studentsTitle: "Software de Gestión de Alumnos | Expedientes, Asistencia y Notas | Edena",
         studentsDescription:
             "Expedientes digitales, asistencia automática, calificaciones y generación de boletines en una sola plataforma. Reduce la carga administrativa un 40% desde el primer día.",
-        appTitle: "App Móvil para Colegios | Comunicación Familias-Centro | Edena Kids",
+        appTitle: "Edena Kids | App para Familias y Profesores · Edena",
         appDescription:
             "App gratuita para familias y profesores en iOS y Android. Notificaciones push, fotos seguras, firma digital de documentos, notas y facturas en un solo lugar.",
-        demoTitle: "Demo Gratuita Sin Compromiso | Ve Edena en Directo | Software Gestión Escolar",
+        demoTitle: "Reserva una Demo Gratis | Software de Gestión Escolar · Edena",
         demoDescription:
             "Reserva una demo personalizada para tu centro en menos de 2 minutos. Sin compromiso ni presión. Te mostramos exactamente cómo Edena encaja en tu gestión del día a día.",
-        financeTitle:
-            "Software de Facturación Escolar | Cobros Automáticos y Verifactu Certificado | Edena",
+        financeTitle: "Facturación Escolar con Verifactu | Cobros SEPA · Edena",
         financeDescription:
-            "Facturación automática, domiciliaciones SEPA y control de impagos en tiempo real. Certificado Verifactu AEAT. Reduce la carga financiera de tu equipo administrativo un 40%.",
+            "Facturación escolar automática certificada Verifactu: recibos, domiciliaciones SEPA y control de impagos en tiempo real. Tu equipo deja de perseguir cobros.",
         guardiansTitle: "Portal de Familias para Colegios | Comunicación Centro-Familia | Edena",
         guardiansDescription:
             "Da a las familias acceso en tiempo real a notas, asistencia, facturas y novedades del centro. Mensajería segura y firma digital de documentos. Incorporación de familias en minutos.",
-        familiesTitle: "Portal para Familias | App Gratuita, Facturación y Tienda Escolar | Edena",
+        familiesTitle: "Portal de Familias | Notas, Facturas y Pagos · Edena",
         familiesDescription:
             "Todo lo escolar en una app gratuita: notas, facturas, mensajes, fotos y la tienda del centro. Gestiona varios hijos desde una sola cuenta, en cualquier dispositivo.",
         centersTitle: "Plataforma Integral para Centros Educativos | ERP Educativo | Edena",
@@ -45,10 +42,10 @@ export default {
             "ERP completo para centros educativos: facturación automática, CRM de matrículas, comunicación familiar, asistencia digital y expedientes. Reduce costes administrativos hasta un 40%.",
         crmTitle: "CRM Escolar | Convierte Consultas en Matrículas | Edena",
         crmDescription:
-            "Captura leads desde tu web, gestiona cada solicitud en un pipeline visual y nunca pierdas una oportunidad de matriculación. Formularios personalizables y seguimiento completo. +35% de conversión.",
-        assignmentTitle: "Software de Evaluaciones Escolares | Tareas y Calificaciones | Edena",
+            "CRM educativo para admisiones y matrículas: captura solicitudes desde tu web, gestiona cada familia en un pipeline visual y no pierdas ninguna oportunidad.",
+        assignmentTitle: "Evaluaciones y Boletines Automáticos | Gestión Académica · Edena",
         assignmentDescription:
-            "Planifica tareas, configura ciclos de evaluación y genera boletines automáticamente. Las familias ven las notas en tiempo real. Tu equipo docente reduce la carga de corrección un 40%.",
+            "Gestión académica sin fricción: planifica tareas, configura ciclos de evaluación y genera boletines automáticamente. Las familias ven las notas en tiempo real.",
         privacyTitle: "Política de Privacidad | Software de Gestión Escolar Edena",
         privacyDescription:
             "Aprende cómo Edena protege los datos de tu centro y mantiene estándares de privacidad. Nuestra política de privacidad integral garantiza la seguridad de la información estudiantil, familiar e institucional.",
@@ -61,18 +58,16 @@ export default {
         dpaTitle: "Acuerdo de Tratamiento de Datos | Software de Gestión Escolar Edena",
         dpaDescription:
             "Acuerdo de encargo de tratamiento conforme al art. 28 del RGPD entre Edena y los centros educativos: instrucciones, seguridad, subencargados, asistencia y derechos de los interesados.",
-        nurseryTitle:
-            "Software para Escuelas Infantiles | App Familias, Fotos y Facturación Automática | Edena",
+        nurseryTitle: "Software para Escuelas Infantiles y Guarderías | Edena",
         nurseryDescription:
-            "Diseñado para escuelas infantiles: comunicación diaria con familias, fotos seguras, facturación automática y expedientes digitales. Reduce la carga administrativa un 40% desde el primer día.",
-        schoolsTitle: "Software de Gestión para Colegios | ERP Educativo Completo | Edena",
+            "Agenda digital, comunicación diaria con familias, fotos seguras y facturación automática con Verifactu. El programa de gestión para escuelas infantiles y guarderías.",
+        schoolsTitle: "Software para Colegios | Gestión Académica y Verifactu · Edena",
         schoolsDescription:
-            "ERP para colegios de primaria, ESO y bachillerato: expedientes, notas, asistencia, facturación Verifactu y comunicación familiar. Todo en una sola plataforma integrada.",
-        academiesTitle:
-            "Software para Academias | Cobros Automáticos, CRM y Gestión Integral | Edena",
+            "Software de gestión para colegios de infantil a bachillerato y FP: expedientes, notas, asistencia, facturación con Verifactu y comunicación con familias.",
+        academiesTitle: "Software para Academias | Cobros Automáticos y CRM · Edena",
         academiesDescription:
             "Gestiona tu academia con cobros automáticos, CRM de captación, control de asistencia y app gratuita para familias. Para academias de idiomas, danza, música y deporte.",
-        groupsTitle: "Gestión Multi-Centro para Grupos Educativos | ERP Educativo | Edena",
+        groupsTitle: "Gestión Multi-Centro para Grupos Educativos · Edena",
         groupsDescription:
             "Gestiona toda tu red de centros desde un único panel: facturación centralizada, reporting consolidado y operativa consistente en cada centro. Escala sin añadir carga administrativa.",
         contactTitle: "Contacto | Edena - Software de Gestión Escolar",
@@ -80,9 +75,9 @@ export default {
             "¿Tienes alguna pregunta sobre Edena? Ponte en contacto con nuestro equipo. Estamos aquí para ayudarte a encontrar la mejor solución para tu centro educativo.",
     },
     hero: {
-        mainTitle: "El ERP escolar que elimina el papeleo y automatiza los cobros",
+        mainTitle: "El software de gestión escolar que elimina el papeleo y automatiza los cobros",
         mainDescription:
-            "Facturación automática, expedientes digitales, asistencia y comunicación familiar en una sola plataforma. Los centros ahorran más de 15 horas semanales y aumentan la satisfacción familiar un 60%. Sin permanencia.",
+            "Facturación automática, expedientes digitales, asistencia y comunicación familiar en una sola plataforma. Los centros ahorran más de 37 horas semanales y aumentan la satisfacción familiar un 60%. Sin permanencia.",
         mobileTitle: "Conecta con cada familia, sin esfuerzo extra",
         mobileDescription:
             "Notificaciones push, fotos seguras y actualizaciones en tiempo real, todo en la app gratuita de Edena. Las familias se mantienen informadas sin trabajo extra para tu equipo.",
@@ -270,7 +265,7 @@ export default {
     conclusion: {
         title: "Menos administración. Más matrículas. Más familias satisfechas.",
         description:
-            "Únete a los centros que ya ahorran más de 15 horas semanales con Edena. Reduce costes administrativos un 40%, aumenta la satisfacción familiar un 60% y gestiona alumnos, cobros y comunicación en una sola plataforma segura.",
+            "Únete a los centros que ya ahorran más de 37 horas semanales con Edena. Reduce costes administrativos un 40%, aumenta la satisfacción familiar un 60% y gestiona alumnos, cobros y comunicación en una sola plataforma segura.",
     },
     bento: {
         title: "Una plataforma. Todo lo que necesita tu centro.",
@@ -1492,7 +1487,7 @@ export default {
             "Ofrecemos soporte por email y chat en horario laboral para todos los planes, y soporte prioritario 24/7 para planes Profesional y Empresarial, con un asesor de éxito dedicado en el plan Empresarial.",
         centers_cost_savings: "¿Cuánto puede ahorrar mi centro con Edena?",
         centers_cost_savings_answer:
-            "Los centros que usan Edena reportan reducciones de hasta 40% en costes administrativos, 75% menos tiempo en incorporación de familias y ahorro de más de 15 horas semanales en tareas rutinarias.",
+            "Los centros que usan Edena reportan reducciones de hasta 40% en costes administrativos, 75% menos tiempo en incorporación de familias y ahorro de más de 37 horas semanales en tareas rutinarias.",
     },
     privacyPolicy: {
         title: "Política de Privacidad",
@@ -1856,7 +1851,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
     students: {
         mainTitle: "Expedientes, asistencia y cobros. Todo en un solo lugar.",
         mainDescription:
-            "Centraliza toda la información de tus alumnos desde la matriculación. Expedientes digitales, asistencia automática, calificaciones y facturación integrados. Reduce tareas administrativas un 40%.",
+            "Centraliza la información y el seguimiento escolar de cada alumno desde la matriculación. Expedientes digitales, asistencia automática, calificaciones y facturación integrados.",
         studentDetailTitle: "Expedientes digitales",
         studentDetailDescription:
             "Gestiona expedientes, historial académico y comunicación con familias. Plataforma unificada que optimiza la gestión administrativa y mejora la experiencia educativa.",
@@ -1908,7 +1903,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
         billingCycleTitle: "Ciclos de facturación",
         billingCycleDescription:
             "Configura ciclos de cobro recurrentes para matrículas, actividades y servicios. Los cobros salen en plazo, siempre, sin intervención manual.",
-        mainTitle: "Cobra puntualmente, siempre. Sin perseguir a nadie.",
+        mainTitle: "Facturación escolar que cobra puntualmente, sin perseguir a nadie",
         mainDescription:
             "Facturación automática, domiciliaciones SEPA y seguimiento de cobros en tiempo real. Certificado Verifactu AEAT. Tu equipo deja de perder tiempo en gestión financiera manual.",
     },
@@ -1956,7 +1951,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             "Compra uniformes, material escolar, servicios adicionales como comedor o actividades extraescolares directamente desde la plataforma. Gestión sencilla de todas tus compras.",
     },
     nurseries: {
-        mainTitle: "La plataforma que necesita tu escuela infantil, sin complicaciones",
+        mainTitle: "El software para escuelas infantiles y guarderías, sin complicaciones",
         mainDescription:
             "Comunicación diaria con familias, fotos seguras, facturación automática y expedientes digitales. Diseñado para el ritmo real de las escuelas infantiles. En marcha en 2 semanas.",
         communicationTitle: "Familias siempre al día",
@@ -1977,12 +1972,12 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
         childrenManagementTitle: "El día de cada niño, registrado al detalle",
         childrenManagementDescription:
             "Asistencia, comidas, siestas, incidencias y notas de desarrollo registradas por alumno. Expedientes digitales completos accesibles para el personal y visibles para las familias en tiempo real.",
-        dailyLifeSectionTitle: "El día a día de tu escuela infantil, todo conectado",
+        dailyLifeSectionTitle: "La agenda digital de tu escuela infantil, todo conectado",
         dailyLifeSectionDescription:
-            "Desde que llegan los niños hasta que se van; cada momento compartido con las familias y cada registro guardado digitalmente.",
+            "Comidas, siestas, fotos y actividades registradas en segundos y visibles para cada familia al instante. La agenda digital que sustituye la libreta de papel y las hojas de cálculo.",
     },
     schools: {
-        mainTitle: "El ERP que tu colegio necesitaba desde hace tiempo",
+        mainTitle: "Software de gestión para colegios, de la matrícula al boletín",
         mainDescription:
             "Gestión completa para primaria, secundaria y bachillerato: expedientes, notas, asistencia, facturación Verifactu y comunicación con familias. Todo en un solo sistema.",
         communicationTitle: "Comunicación centralizada con familias",
@@ -2117,25 +2112,25 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             "Datos agregados de colegios, academias y escuelas infantiles que han digitalizado su gestión con Edena.",
         cases: [
             {
-                stat: "+100%",
+                stat: "37 h",
                 description:
-                    "De reducción en tareas administrativas gracias a la automatización de procesos clave.",
+                    "Ahorradas cada semana en tareas administrativas gracias a la automatización de procesos clave.",
                 bg: "dark",
             },
             {
-                stat: "+195%",
+                stat: "+35%",
                 description:
-                    "De incremento en la conversión de matrículas con formularios digitales y onboarding online.",
+                    "De conversión de matrículas con el CRM, los formularios digitales y el onboarding online.",
                 bg: "light",
             },
             {
-                stat: "+150%",
+                stat: "-75%",
                 description:
-                    "De aumento en leads cualificados gracias a la captación digital y seguimiento automatizado.",
+                    "De tiempo de incorporación de familias con el onboarding digital y la firma electrónica.",
                 bg: "light",
             },
             {
-                stat: "+98%",
+                stat: "98%",
                 description:
                     "De satisfacción de familias tras digitalizar la gestión y la comunicación del centro.",
                 bg: "light",
@@ -2155,7 +2150,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
         relatedTitle: "Artículos relacionados",
         ctaTitle: "Únete a los centros que ya trabajan sin papeleo",
         ctaDescription:
-            "Centros usan Edena para ahorrar más de 15 horas semanales en tareas administrativas. Ve cómo funciona con una demo gratuita adaptada a tu tipo de centro.",
+            "Centros usan Edena para ahorrar más de 37 horas semanales en tareas administrativas. Ve cómo funciona con una demo gratuita adaptada a tu tipo de centro.",
     },
     altText: {
         logo: "Logo de Edena - Software de Gestión Escolar",
@@ -2191,10 +2186,49 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
         assignmentScoreCard: "Boletín y seguimiento de calificaciones en Edena",
         conclusionLogo: "Logo de Edena - Transforma la gestión de tu centro educativo",
     },
+    verifactuSection: {
+        title: "Verifactu para centros educativos, resuelto desde hoy",
+        description:
+            "Desde 2027, quien emite facturas en España deberá hacerlo con un software de facturación verificable conforme al Real Decreto 1007/2023. Edena ya genera facturas certificadas Verifactu ante la AEAT: tu centro cumple la normativa sin cambiar su rutina.",
+        faqs: [
+            {
+                question: "¿Qué es Verifactu?",
+                answer: "Verifactu es el sistema de la Agencia Tributaria (AEAT) que regula cómo los programas informáticos deben generar, registrar y conservar las facturas. Su base legal son el Real Decreto 1007/2023 y la Orden HAC/1177/2024.",
+            },
+            {
+                question: "¿Cuándo es obligatorio Verifactu para un centro educativo?",
+                answer: "Las entidades que tributan por el Impuesto de Sociedades deberán cumplirlo desde el 1 de enero de 2027, y el resto de emisores de facturas desde el 1 de julio de 2027. Adaptarse con antelación evita prisas y sanciones.",
+            },
+            {
+                question: "¿Qué pasa si mi programa de facturación actual no cumple Verifactu?",
+                answer: "Facturar con un software no adaptado puede conllevar sanciones. Con Edena no tienes que hacer nada extra: cada factura se genera ya certificada conforme a Verifactu.",
+            },
+        ],
+    },
+    demoPage: {
+        heroTitle: "Ve Edena funcionando con los datos de un centro como el tuyo",
+        heroDescription:
+            "Demo de 15 minutos adaptada a tu tipo de centro: colegio, escuela infantil, academia o grupo educativo. Sin compromiso y sin presión.",
+        faqTitle: "Lo que preguntan otros centros",
+        faqs: [
+            {
+                question: "¿Cuánto cuesta Edena?",
+                answer: "Desde 44 €/mes, con pago por alumno y sin permanencia. Puedes calcular tu precio exacto en la página de precios.",
+            },
+            {
+                question: "¿Cuánto se tarda en empezar?",
+                answer: "La mayoría de centros están operativos en 2 semanas, con migración de datos, formación del equipo e incorporación de familias incluidas.",
+            },
+            {
+                question: "¿Y si ya usamos otra plataforma?",
+                answer: "Nos encargamos de migrar tus datos desde tu sistema actual sin interrumpir la actividad del centro.",
+            },
+        ],
+        pricingLinkLabel: "Ver precios y calcular tu caso",
+    },
     productModules: {
         extracurricular: {
-            metaTitle:
-                "Software de Gestión de Extraescolares | Inscripciones y Cobros Online | Edena",
+            metaTitle: "Gestión de Extraescolares | Inscripciones y Cobros · Edena",
             metaDescription:
                 "Gestiona las actividades extraescolares de principio a fin: inscripciones online, control de plazas, listas de asistencia y cobros automáticos. Menos papeleo y más actividades llenas.",
             navTitle: "Extraescolares",
@@ -2283,8 +2317,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             ],
         },
         tracking: {
-            metaTitle:
-                "Control Horario y Agenda Diaria para Centros Educativos | Time Tracking | Edena",
+            metaTitle: "Control Horario y Seguimiento Interno para Centros · Edena",
             metaDescription:
                 "Registro horario del personal, agenda diaria del centro y seguimiento interno de tareas en una sola herramienta. Cumple la normativa laboral y organiza el día a día sin esfuerzo.",
             navTitle: "Seguimiento",
@@ -2373,7 +2406,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             ],
         },
         workflows: {
-            metaTitle: "Automatización de Procesos para Centros Educativos | Workflows | Edena",
+            metaTitle: "Automatización Administrativa para Centros Educativos · Edena",
             metaDescription:
                 "Automatiza las tareas repetitivas de tu centro: recordatorios, comunicados, cobros y flujos de matrícula. Diseña workflows sin programar y ahorra horas cada semana.",
             navTitle: "Workflows",
@@ -2462,7 +2495,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             ],
         },
         shop: {
-            metaTitle: "Tienda Online para Colegios | Uniformes, Material y Servicios | Edena Shop",
+            metaTitle: "Tienda Online para Colegios | Uniformes y Material · Edena",
             metaDescription:
                 "Vende uniformes, material escolar, comedor y actividades desde una tienda online integrada en tu centro. Cobros automáticos y stock controlado, sin comisiones ocultas.",
             navTitle: "Tienda",
@@ -2551,7 +2584,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             ],
         },
         communication: {
-            metaTitle: "Comunicación Escolar Familia-Centro | Mensajería y Circulares | Edena",
+            metaTitle: "Comunicación Escolar | Mensajería y Circulares · Edena",
             metaDescription:
                 "Mensajería segura, circulares con confirmación de lectura, notificaciones push y muro del centro en una sola app. Comunica con las familias al instante y asegúrate de que todos reciben la información.",
             navTitle: "Comunicación",
@@ -2640,7 +2673,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             ],
         },
         internalPayments: {
-            metaTitle: "Monedero Escolar y Pagos Internos | Saldos y Cobros del Centro | Edena",
+            metaTitle: "Monedero Escolar | Pagos de Comedor y Excursiones · Edena",
             metaDescription:
                 "Gestiona el monedero interno de las familias: recargas, saldos y cobros de comedor, excursiones y servicios. Pagos rápidos sin efectivo y control total de cada movimiento.",
             navTitle: "Pagos Internos",
@@ -2729,8 +2762,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             ],
         },
         ena: {
-            metaTitle:
-                "Ena, la Inteligencia Artificial de tu Centro Educativo | Asistente IA | Edena",
+            metaTitle: "Ena | IA para la Gestión de tu Centro Educativo · Edena",
             metaDescription:
                 "Ena es el agente de IA de Edena: automatiza facturas, redacta comunicados, pasa lista y responde a toda tu organización. Inteligencia artificial educativa con seguridad enterprise.",
             navTitle: "Ena",

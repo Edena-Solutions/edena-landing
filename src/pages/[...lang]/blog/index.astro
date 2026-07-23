@@ -7,6 +7,8 @@ import { blogCollectionForLang } from "@/lib/blog-collection";
 
 export async function getStaticPaths() {
  return [
+ // Unprefixed root route: the canonical Spanish URL (/blog/).
+ { params: { lang: undefined }, props: { lang: "es" } },
  { params: { lang: "es" }, props: { lang: "es" } },
  { params: { lang: "en" }, props: { lang: "en" } },
  { params: { lang: "ca" }, props: { lang: "ca" } },

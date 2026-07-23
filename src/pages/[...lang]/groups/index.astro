@@ -1,5 +1,5 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
 import Hero from "@/components/Hero.astro";
@@ -20,10 +20,7 @@ import { getCollection } from "astro:content";
 import { ogFromAsset } from "@/lib/og-image";
 
 export function getStaticPaths() {
-    return languages.map((lang) => ({
-        params: { lang },
-        props: { lang },
-    }));
+    return localeStaticPaths();
 }
 
 const { lang } = Astro.props;
@@ -37,37 +34,37 @@ const features = [
         icon: "Layers",
         title: t.features.centersFeatures.analyticsDashboard.title,
         description: t.features.centersFeatures.analyticsDashboard.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: localePath(lang, "/dashboard"),
     },
     {
         icon: "CreditCard",
         title: t.features.centersFeatures.automatedBilling.title,
         description: t.features.centersFeatures.automatedBilling.tagline,
-        navigateTo: `/${lang}/finance`,
+        navigateTo: localePath(lang, "/finance"),
     },
     {
         icon: "Zap",
         title: t.features.centersFeatures.processAutomation.title,
         description: t.features.centersFeatures.processAutomation.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: localePath(lang, "/workflows"),
     },
     {
         icon: "MessageCircle",
         title: t.features.centersFeatures.communicationHub.title,
         description: t.features.centersFeatures.communicationHub.tagline,
-        navigateTo: `/${lang}/app`,
+        navigateTo: localePath(lang, "/communication"),
     },
     {
         icon: "Users",
         title: t.features.centersFeatures.studentManagement.title,
         description: t.features.centersFeatures.studentManagement.tagline,
-        navigateTo: `/${lang}/students`,
+        navigateTo: localePath(lang, "/students"),
     },
     {
         icon: "Shield",
         title: t.features.centersFeatures.dataSecurity.title,
         description: t.features.centersFeatures.dataSecurity.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: localePath(lang, "/data-processing"),
     },
 ];
 ---

@@ -38,7 +38,7 @@ interface SoftwareSchema {
     operatingSystem: string[];
     url: string;
     inLanguage: string;
-    offers: {
+    offers?: {
         "@type": string;
         price: string;
         priceCurrency: string;
@@ -51,6 +51,9 @@ interface SoftwareSchema {
     };
 }
 
+// Spanish pages live unprefixed at the root; /es/ is a canonicalised duplicate.
+const canonicalUrl = url.replace("https://edena.es/es/", "https://edena.es/");
+
 const softwareSchema: SoftwareSchema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
@@ -58,7 +61,7 @@ const softwareSchema: SoftwareSchema = {
     description: description,
     applicationCategory: applicationCategory,
     operatingSystem: operatingSystem,
-    url: url,
+    url: canonicalUrl,
     inLanguage:
         lang === "es"
             ? "es-ES"
@@ -69,18 +72,17 @@ const softwareSchema: SoftwareSchema = {
                 : lang === "eus"
                   ? "eu"
                   : "en-US",
-    offers: offers
-        ? {
-              "@type": "Offer",
-              price: offers.price || "0",
-              priceCurrency: offers.priceCurrency || "EUR",
-          }
-        : {
-              "@type": "Offer",
-              price: "0",
-              priceCurrency: "EUR",
-          },
 };
+
+// Only declare an offer when the page provides real pricing data; a default
+// "price: 0" would claim the software is free on every page.
+if (offers?.price) {
+    softwareSchema.offers = {
+        "@type": "Offer",
+        price: offers.price,
+        priceCurrency: offers.priceCurrency || "EUR",
+    };
+}
 
 if (screenshot) {
     softwareSchema.screenshot = screenshot;

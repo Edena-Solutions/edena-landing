@@ -1,5 +1,5 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
 import Hero from "@/components/Hero.astro";
@@ -20,10 +20,7 @@ import { getCollection } from "astro:content";
 import { ogFromAsset } from "@/lib/og-image";
 
 export function getStaticPaths() {
-    return languages.map((lang) => ({
-        params: { lang },
-        props: { lang },
-    }));
+    return localeStaticPaths();
 }
 
 const { lang } = Astro.props;
@@ -37,37 +34,37 @@ const features = [
         icon: "BarChart3",
         title: t.features.dashboardFeatures.realTimeAnalytics.title,
         description: t.features.dashboardFeatures.realTimeAnalytics.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: localePath(lang, "/groups"),
     },
     {
         icon: "TrendingUp",
         title: t.features.dashboardFeatures.performanceInsights.title,
         description: t.features.dashboardFeatures.performanceInsights.tagline,
-        navigateTo: `/${lang}/students`,
+        navigateTo: localePath(lang, "/students"),
     },
     {
         icon: "Settings",
         title: t.features.dashboardFeatures.resourceOptimization.title,
         description: t.features.dashboardFeatures.resourceOptimization.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: localePath(lang, "/tracking"),
     },
     {
         icon: "MessageCircle",
         title: t.features.dashboardFeatures.communicationHub.title,
         description: t.features.dashboardFeatures.communicationHub.tagline,
-        navigateTo: `/${lang}/app`,
+        navigateTo: localePath(lang, "/communication"),
     },
     {
         icon: "Shield",
         title: t.features.dashboardFeatures.complianceTracking.title,
         description: t.features.dashboardFeatures.complianceTracking.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: localePath(lang, "/data-processing"),
     },
     {
         icon: "FileText",
         title: t.features.dashboardFeatures.customReports.title,
         description: t.features.dashboardFeatures.customReports.tagline,
-        navigateTo: `/${lang}/dashboard`,
+        navigateTo: localePath(lang, "/finance"),
     },
 ];
 ---

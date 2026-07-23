@@ -1,5 +1,5 @@
 ---
-import { translations, languages } from "@/i18n/index.ts";
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
 import Hero from "@/components/Hero.astro";
@@ -20,10 +20,7 @@ import { getCollection } from "astro:content";
 import { ogFromAsset } from "@/lib/og-image";
 
 export function getStaticPaths() {
-    return languages.map((lang) => ({
-        params: { lang },
-        props: { lang },
-    }));
+    return localeStaticPaths();
 }
 
 const { lang } = Astro.props;
@@ -37,37 +34,37 @@ const features = [
         icon: "GraduationCap",
         title: t.features.studentFeatures.digitalRecords.title,
         description: t.features.studentFeatures.digitalRecords.tagline,
-        navigateTo: `/${lang}/students`,
+        navigateTo: localePath(lang, "/students"),
     },
     {
         icon: "ClipboardList",
         title: t.features.studentFeatures.attendanceTracking.title,
         description: t.features.studentFeatures.attendanceTracking.tagline,
-        navigateTo: `/${lang}/students`,
+        navigateTo: localePath(lang, "/students"),
     },
     {
         icon: "BookOpen",
         title: t.features.assignmentFeatures.gradeManagement.title,
         description: t.features.assignmentFeatures.gradeManagement.tagline,
-        navigateTo: `/${lang}/assignment`,
+        navigateTo: localePath(lang, "/assignment"),
     },
     {
         icon: "FileText",
         title: t.features.assignmentFeatures.automatedReports.title,
         description: t.features.assignmentFeatures.automatedReports.tagline,
-        navigateTo: `/${lang}/assignment`,
+        navigateTo: localePath(lang, "/assignment"),
     },
     {
         icon: "CreditCard",
         title: t.features.centersFeatures.automatedBilling.title,
         description: t.features.centersFeatures.automatedBilling.tagline,
-        navigateTo: `/${lang}/finance`,
+        navigateTo: localePath(lang, "/finance"),
     },
     {
         icon: "MessageCircle",
         title: t.features.centersFeatures.communicationHub.title,
         description: t.features.centersFeatures.communicationHub.tagline,
-        navigateTo: `/${lang}/app`,
+        navigateTo: localePath(lang, "/communication"),
     },
 ];
 ---

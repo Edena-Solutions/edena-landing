@@ -9,32 +9,18 @@ export default defineConfig({
         open: true,
     },
     redirects: {
-        '/demo': '/es/demo',
-        '/demo/': '/es/demo/',
-        // /guardians (Portal de Familias) was merged into /families
+        // /guardians (Portal de Familias) was merged into /families.
+        // One entry per path: trailing-slash duplicates collide in the router.
         '/guardians': '/families',
-        '/guardians/': '/families/',
         '/es/guardians': '/es/families',
-        '/es/guardians/': '/es/families/',
         '/en/guardians': '/en/families',
-        '/en/guardians/': '/en/families/',
         '/ca/guardians': '/ca/families',
-        '/ca/guardians/': '/ca/families/',
         '/eus/guardians': '/eus/families',
-        '/eus/guardians/': '/eus/families/',
         '/fr/guardians': '/fr/families',
-        '/fr/guardians/': '/fr/families/',
     },
-    i18n: {
-        defaultLocale: 'es',
-        locales: ['es', 'en'],
-        routing: {
-            prefixDefaultLocale: false
-        },
-        fallback: {
-            en: 'es'
-        }
-    },
+    // NOTE: Astro's built-in i18n routing was removed on purpose. Locales are
+    // fully hand-rolled via [...lang] routes + literal locale dirs; the old
+    // i18n block only generated stray fallback pages like /en/es/.
     vite: {
         plugins: [tailwindcss()],
         ssr: {
