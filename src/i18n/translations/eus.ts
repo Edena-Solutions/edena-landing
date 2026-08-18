@@ -1499,7 +1499,7 @@ export default {
     },
     privacyPolicy: {
         title: "Pribatutasun-politika",
-        content: `Azken eguneraketa: 2026ko uztailaren 15a<br>
+        content: `Azken eguneraketa: 2026ko abuztuaren 18a<br>
 <br>
 1. SARRERA ETA XEDEA<br>
 Edenan konpromisoa hartzen dugu erabiltzaile guztien pribatutasuna babesteko eta datu pertsonalak nola tratatzen ditugun erabat gardenak izateko. Pribatutasun-politika honek Edena Software S.L.-ren datu-tratamenduaren jardunbideak deskribatzen ditu, gure hezkuntza-plataformaren eta webgune honen erabilerari dagokienez, honako hauekin bat etorriz: (EB) 2016/679 Erregelamendua (RGPD), abenduaren 5eko 3/2018 Lege Organikoa (LOPDGDD) eta uztailaren 11ko 34/2002 Legea (LSSI).<br>
@@ -1547,7 +1547,7 @@ Edenak ez ditu datu pertsonalak saltzen, ezta hirugarrenei lagatzen ere. Datuak 
 - Ordainketa-pasabide ziurtatuei (PCI-DSS), plataformako kobrantzak kudeatzeko.<br>
 - Agintari publikoei, legezko betebeharra dagoenean.<br>
 <br>
-Gure azpiegitura nagusi guztia eta biltegiratze-zerbitzariak Europako Esparru Ekonomikoaren (EEE) barruan daude.<br>
+Datu-basea, aplikazioaren ostatatzea eta hezkuntza-zentroen datuak tratatzen dituzten adimen artifizialeko hornitzaileak Europar Batasunean daude. Posta elektronikoko, push jakinarazpenetako eta ordainketetako zenbait hornitzaile Estatu Batuetan daude kokatuta; transferentzia horiek Europako Batzordearen Kontratu Klausula Tipoetan edo EB-AEB Datuen Pribatutasunerako Esparruan oinarritzen dira, Datuen Tratamendurako Akordioan zehazten den bezala.<br>
 <br>
 9. INTERESDUNEN ESKUBIDEAK<br>
 Erabiltzaileek datuetara sartzeko, zuzentzeko, ezabatzeko, aurka egiteko, mugatzeko eta eramangarritasunerako eskubideak balia ditzakete, dpo@edena.es helbidera mezu elektroniko bat bidaliz eta beren nortasuna behar bezala egiaztatuz. Zure eskubideak behar bezala erantzun ez direla uste baduzu, erreklamazioa aurkez dezakezu Datuak Babesteko Espainiako Agentzian (www.aepd.es).<br>
@@ -1589,7 +1589,7 @@ Zure datu pertsonalak nola tratatzen ditugun buruzko informazio gehiago nahi iza
     },
     termsOfService: {
         title: "Erabileraren baldintzak",
-        content: `Azken eguneraketa: 2026ko uztailaren 15a<br>
+        content: `Azken eguneraketa: 2026ko abuztuaren 18a<br>
 <br>
 1. XEDEA ETA ONARTZEA<br>
 Erabilera Baldintza hauek (hemendik aurrera, "Baldintzak") Edena plataformara (hemendik aurrera, "Plataforma") sarbidea eta haren erabilera arautzen dituzte; plataforma Edena Software S.L. (IFK: B27627462; DUNS: 373964745)-ren (hemendik aurrera, "Edena") jabetzakoa da. Plataforman erregistratzean, hara sartzerakoan edo erabiltzean, erabiltzaileak edo hezkuntza-zentroak (hemendik aurrera, "Bezeroa") indarreko Baldintzak onartzea onartzen du.<br>
@@ -1658,7 +1658,7 @@ Edena konpromisoa hartzen du:<br>
 7. DATU PERTSONALEN TRATAMENDUA<br>
 Zerbitzuaren prestazioaren esparruan, Bezeroa Plataforman sartzen dituen ikasleen, familien eta langilearen datu pertsonalen tratamenduaren arduradun gisa jarduten du. Edena datu horien tratamendu-enkargatu gisa jarduten du, Baldintza hauetan integratutako Tratamendu-Enkargu Kontratuaren (TEK) arabera, DBEBren 28. artikuluaren eskakizunak betetzen dituena.<br>
 <br>
-Webgune honen erabileratik eta Edenarekin merkataritza-harremanetatik eratorritako datuen tratamendua www.edena.es/pribatutasuna helbidean eskuragarri dagoen Pribatutasun-politikak arautzen du.<br>
+Webgune honen erabileratik eta Edenarekin merkataritza-harremanetatik eratorritako datuen tratamendua www.edena.es/eus/privacy helbidean eskuragarri dagoen Pribatutasun-politikak arautzen du.<br>
 <br>
 8. JABETZA INTELEKTUAL ETA INDUSTRIALA<br>
 Plataformaren, bere softwarearen, diseinuaren, logotipoen, marken, izen komertzialaren, iturri-kodearen, dokumentazioaren eta edukien gaineko jabetza intelektual eta industrial eskubide guztiak Edena Software S.L.-renak edo bere lizentziatzaileeenak dira.<br>
@@ -1768,7 +1768,7 @@ Cookieen erabilerari buruzko edozein kontsultarako, idatz iezaguzu privacidad@ed
     },
     dataProcessingAgreement: {
         title: "Datuen tratamendu-hitzarmena",
-        content: `Azken eguneratzea: 2026ko uztailaren 18a<br>
+        content: `Azken eguneratzea: 2026ko abuztuaren 18a<br>
 <br>
 1. HITZARMENAREN XEDEA ETA IZAERA<br>
 Datuen tratamendu-hitzarmen honek (aurrerantzean, "Hitzarmena") Edena Software S.L.-k (IFK: B27627462; aurrerantzean, "Edena") bezero-erakundearen kontura zerbitzua ematean egiten duen datu pertsonalen tratamendua arautzen du, (EB) 2016/679 Erregelamenduaren (DBEO) 28. artikuluaren arabera. Hitzarmena zerbitzuaren Erabileraren baldintzen zati da.<br>
@@ -1792,12 +1792,35 @@ Edenak bermatzen du datu pertsonalak tratatzeko baimena duten pertsonek konfiden
 Edenak neurri tekniko eta antolakuntzako egokiak aplikatzen ditu DBEOren 32. artikuluaren arabera, besteak beste: datuen zifratzea bidean eta atsedenean, rol-etan oinarritutako sarbide-kontrola (pribilegio minimoa), erakundeen arteko datu-isolamendua, aldizkako segurtasun-kopiak eta jarduera-erregistroa.<br>
 <br>
 7. AZPIERAGILEAK<br>
-Arduradunak baimena ematen dio Edenari azpieragile hauek erabiltzeko, DBEO betetzeko berme egokiak eskaintzen baitituzte:<br>
-- Supabase — datu-basea eta autentifikazioa.<br>
-- Cloudflare R2 — fitxategien biltegiratzea.<br>
-- Google Cloud — aplikazioaren ostatatzea.<br>
-- Resend — mezu transakzionalen bidalketa.<br>
-Edenak zerrenda honetan aurreikusitako edozein aldaketaren berri emango dio arduradunari, aurka egiteko aukera emanez.<br>
+Arduradunak baimena ematen dio Edenari jarraian zerrendatzen diren azpieragileak erabiltzeko. Guztiak Akordio honetakoen baliokideak diren datu-babeserako betebeharrak ezartzen dizkien kontratu batez lotuta daude, eta Edenak arduradunaren aurrean erantzuten du haien jardunaz.<br>
+<br>
+7.1 Azpiegitura<br>
+- Supabase — datu-basea eta autentifikazioa. Alemania (AWS eu-central-1, Frankfurt).<br>
+- Google Cloud (Cloud Run) — aplikazioaren ostatatzea. Belgika (europe-west1).<br>
+- Cloudflare R2 — fitxategien eta dokumentuen biltegiratzea. Konfiguratutako kokapena Mendebaldeko Europan; ikus 13. atala.<br>
+- Upstash — bigarren mailako zereginen ilara eta cachea. Belgika (europe-west1).<br>
+<br>
+7.2 Komunikazioak<br>
+- Resend — mezu transakzionalen bidalketa (fakturak, gonbidapenak eta oharrak). Estatu Batuak.<br>
+- Expo — push jakinarazpenak gailu mugikorretara bidaltzea. Estatu Batuak. Gailuaren identifikatzailea eta jakinarazpenaren testua jasotzen ditu.<br>
+<br>
+7.3 Ordainketak<br>
+- Stripe — kobrantzen eta helbideratzeen kudeaketa. Irlanda eta Estatu Batuak.<br>
+<br>
+7.4 Adimen artifiziala<br>
+- Scaleway — hizkuntza-ereduak. Frantzia (Paris). Erakundearen datuak trata ditzakeen proveedor bakarra da, eta bere baldintzek datu horiekin entrenatzea baztertzen dute.<br>
+- Mistral AI — erakundearen egituraren izenen itzulpena. Frantzia.<br>
+- Groq — aurreko funtzioaren ordezkoa. Estatu Batuak. Erakunde-mailen izenak baino ez ditu jasotzen (adibidez "Etapa", "Maila" edo "Taldea"), inoiz ez datu pertsonalak.<br>
+<br>
+Edenak ez du beste adimen artifizialeko hornitzailerik erabiltzen. Murrizketa hori kodean bertan dago inplementatuta eta ez dago ingurunearen konfigurazioaren mende, beraz ezin da zabaldu softwarearen aldaketa berrikusi bat gabe.<br>
+<br>
+7.5 Arduradunak berak konektatutako zerbitzuak<br>
+Arduradunak kanpoko zerbitzu bat borondatez konektatzen duenean (adibidez Google Calendar edo Microsoft), harekin sinkronizatzen diren datuak plataformatik ateratzen dira arduradunaren beraren aginduz eta hark kontrolatzen duen kontu batera. Zerbitzu horiek ez dira Edenaren azpieragileak, eta haien tratamendua arduradunaren eta hornitzaile horren arteko harremanak arautzen du.<br>
+<br>
+7.6 Araudiak eskatutako komunikazioak<br>
+Arduradunak VeriFactu sistemaren araberako fakturazioa aktibatuta duenean, plataformak fakturazio-erregistroak bidaltzen dizkio Zerga Administrazioko Estatu Agentziari, fakturaren hartzailearen datu identifikatzaileak eta fiskalak barne. Komunikazio horrek arduradunaren beraren lege-betebehar bat betetzen du; beraz, Zerga Agentzia ez da Edenaren azpieragile, arauak aurreikusitako hartzailea baizik.<br>
+<br>
+Edenak zerrenda honetan aurreikusitako edozein aldaketa jakinaraziko dio arduradunari gutxienez 30 eguneko aurrerapenaz, aurka egiteko aukera emanez. Arduradunak arrazoituta aurka egiten badu eta aukera arrazoizkorik ez badago, kontratua penalizaziorik gabe suntsiarazi ahal izango du.<br>
 <br>
 8. ARDURADUNARI LAGUNTZA<br>
 Edenak arduradunari lagunduko dio, tratamenduaren izaera kontuan hartuta, interesdunen eskubideak baliatzeko eskaerei erantzuteko (sarbidea, zuzenketa, ezabaketa, aurka egitea, mugatzea eta eramangarritasuna), baita segurtasun-betebeharrak, segurtasun-urraketen jakinarazpenak eta inpaktu-ebaluazioak betetzeko ere.<br>
@@ -1816,7 +1839,13 @@ Zerbitzua amaitutakoan, Edenak datu pertsonalak eta dauden kopiak ezabatu edo ar
 Edenak arduradunaren eskura jarriko du DBEOren 28. artikuluko betebeharrak betetzen dituela frogatzeko beharrezko informazioa, eta arrazoizko auditoretzak egitea ahalbidetu eta lagunduko du, ikuskapenak barne, alderdien artean adostutako prozedura baten arabera.<br>
 <br>
 13. NAZIOARTEKO TRANSFERENTZIAK<br>
-Azpieragile batek datuak Europako Esparru Ekonomikotik (EEE) kanpo tratatzen dituenean, Edenak DBEOren araberako transferentzia-mekanismo baliodunak daudela bermatuko du, hala nola Europako Batzordearen kontratu-klausula estandarrak edo egokitasun-erabakiak.<br>
+Datu-basea, aplikazioaren ostatatzea, bigarren mailako zereginen ilara eta erakundearen datuak trata ditzaketen adimen artifizialeko hornitzaileak (7.4 atala) Europar Batasunean daude.<br>
+<br>
+Estatu Batuetan kokatuta daudenak — 7. atalean identifikatuta (Resend, Expo, Stripe eta Groq) — nazioarteko datu-transferentzia bat dakarte. Transferentzia horiek Europako Batzordeak onartutako Kontratu Klausula Tipoetan oinarritzen dira edo, hornitzailea ziurtatuta dagoenean, EB-AEB Datuen Pribatutasunerako Esparruan, transferentziaren inpaktu-ebaluazioaren ondoren beharrezkoak diren neurri osagarriekin batera.<br>
+<br>
+Fitxategien biltegiratzea (Cloudflare R2) Mendebaldeko Europako kokapenarekin dago konfiguratuta. Kokapen-lehentasun bat denez eta ez jurisdikzio-murrizketa lotesle bat, eta hornitzailea Estatu Batuetako entitate bat denez, harreman hori aurreko paragrafoan adierazitako berme berberetan oinarritzen da.<br>
+<br>
+Azpieragile batek datuak tratatzen dituen kokapena aldatuko balu, Edenak arduradunari jakinaraziko dio 7. atalean aurreikusitakoaren arabera.<br>
 <br>
 14. KONTAKTUA<br>
 Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es helbidera.`,
