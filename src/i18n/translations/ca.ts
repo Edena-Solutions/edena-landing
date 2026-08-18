@@ -1495,7 +1495,7 @@ export default {
     },
     privacyPolicy: {
         title: "Política de privacitat",
-        content: `Última actualització: 15 de juliol de 2026<br>
+        content: `Última actualització: 18 d'agost de 2026<br>
 <br>
 1. INTRODUCCIÓ I OBJECTE<br>
 A Edena ens comprometem a protegir la privacitat de tots els usuaris i a ser completament transparents sobre com tractem les dades personals. Aquesta Política de privacitat descriu les pràctiques de tractament de dades d'Edena Software S.L. en relació amb l'ús de la nostra plataforma educativa i aquest lloc web, de conformitat amb el Reglament (UE) 2016/679 (RGPD), la Llei orgànica 3/2018, de 5 de desembre (LOPDGDD), i la Llei 34/2002, d'11 de juliol (LSSI).<br>
@@ -1543,7 +1543,7 @@ Edena no ven ni cedeix dades personals a tercers. Les dades només es comuniquen
 - Passarel·les de pagament certificades (PCI-DSS) per a la gestió de cobraments a la plataforma.<br>
 - Autoritats públiques quan hi hagi una obligació legal.<br>
 <br>
-Tota la nostra infraestructura principal i els servidors d'emmagatzematge estan ubicats dins de l'Espai Econòmic Europeu (EEE).<br>
+La base de dades, l'allotjament de l'aplicació i els proveïdors d'intel·ligència artificial que tracten dades dels centres educatius es troben a la Unió Europea. Determinats proveïdors de correu electrònic, notificacions push i pagaments estan radicats als Estats Units; aquestes transferències s'emparen en les Clàusules Contractuals Tipus de la Comissió Europea o en el Marc de Privadesa de Dades UE-EUA, tal com es detalla a l'Acord de Tractament de Dades.<br>
 <br>
 9. DRETS DELS INTERESSATS<br>
 Els usuaris poden exercir els seus drets d'accés, rectificació, supressió, oposició, limitació i portabilitat enviant un correu electrònic a dpo@edena.es, acreditant degudament la seva identitat. Si considereu que els vostres drets no han estat atesos, podeu reclamar davant l'Agència Espanyola de Protecció de Dades (www.aepd.es).<br>
@@ -1585,7 +1585,7 @@ Per a més detalls sobre com tractem les teves dades personals, consulta la nost
     },
     termsOfService: {
         title: "Termes i condicions d'ús",
-        content: `Última actualització: 15 de juliol de 2026<br>
+        content: `Última actualització: 18 d'agost de 2026<br>
 <br>
 1. OBJECTE I ACCEPTACIÓ<br>
 Aquests Termes i Condicions d'ús (d'ara endavant, "els Termes") regulen l'accés i l'ús de la plataforma Edena (d'ara endavant, "la Plataforma"), propietat d'Edena Software S.L. (CIF: B27627462; DUNS: 373964745) (d'ara endavant, "Edena"). En registrar-se, accedir o utilitzar la Plataforma, l'usuari o el centre educatiu (d'ara endavant, "el Client") accepta quedar vinculat per aquests Termes en la versió vigent en cada moment.<br>
@@ -1654,7 +1654,7 @@ Edena es compromet a:<br>
 7. TRACTAMENT DE DADES PERSONALS<br>
 En el marc de la prestació del servei, el Client actua com a responsable del tractament de les dades personals d'alumnes, famílies i personal que introdueix a la Plataforma. Edena actua com a encarregat del tractament d'aquestes dades, en virtut del Contracte d'Encàrrec del Tractament (CET) que s'integra en aquests Termes i que compleix els requisits de l'article 28 del GDPR.<br>
 <br>
-El tractament de dades derivat de l'ús d'aquest lloc web i de la relació comercial amb Edena es regeix per la Política de privacitat disponible a www.edena.es/privacitat.<br>
+El tractament de dades derivat de l'ús d'aquest lloc web i de la relació comercial amb Edena es regeix per la Política de privacitat disponible a www.edena.es/ca/privacy.<br>
 <br>
 8. PROPIETAT INTEL·LECTUAL I INDUSTRIAL<br>
 Tots els drets de propietat intel·lectual i industrial sobre la Plataforma, el seu programari, disseny, logotips, marques, nom comercial, codi font, documentació i continguts pertanyen a Edena Software S.L. o als seus llicenciants.<br>
@@ -1764,7 +1764,7 @@ Per a qualsevol consulta sobre l'ús de galetes pots escriure'ns a privacidad@ed
     },
     dataProcessingAgreement: {
         title: "Acord de tractament de dades",
-        content: `Darrera actualització: 18 de juliol de 2026<br>
+        content: `Darrera actualització: 18 d'agost de 2026<br>
 <br>
 1. OBJECTE I NATURALESA DE L'ACORD<br>
 Aquest Acord de tractament de dades (d'ara endavant, "l'Acord") regula el tractament de dades personals que Edena Software S.L. (CIF: B27627462; d'ara endavant, "Edena") duu a terme per compte de l'organització client en el marc de la prestació del servei, conforme a l'article 28 del Reglament (UE) 2016/679 (RGPD). L'Acord forma part integrant dels Termes i condicions del servei.<br>
@@ -1788,12 +1788,35 @@ Edena garanteix que les persones autoritzades per tractar les dades personals s'
 Edena aplica mesures tècniques i organitzatives apropiades conformes a l'article 32 del RGPD, incloent-hi xifratge de dades en trànsit i en repòs, control d'accés basat en rols (mínim privilegi), aïllament de dades entre organitzacions, còpies de seguretat periòdiques i registre d'activitat.<br>
 <br>
 7. SUBENCARREGATS<br>
-El responsable autoritza Edena a recórrer als subencarregats següents, que ofereixen garanties adequades de compliment del RGPD:<br>
-- Supabase — base de dades i autenticació.<br>
-- Cloudflare R2 — emmagatzematge de fitxers.<br>
-- Google Cloud — allotjament de l'aplicació.<br>
-- Resend — enviament de correus transaccionals.<br>
-Edena informarà el responsable de qualsevol canvi previst en aquesta llista, donant-li la possibilitat d'oposar-s'hi.<br>
+El responsable autoritza Edena a recórrer als subencarregats que s'enumeren a continuació. Tots ells estan vinculats per un contracte que els imposa obligacions de protecció de dades equivalents a les d'aquest Acord, i Edena respon davant del responsable de la seva actuació.<br>
+<br>
+7.1 Infraestructura<br>
+- Supabase — base de dades i autenticació. Alemanya (AWS eu-central-1, Frankfurt).<br>
+- Google Cloud (Cloud Run) — allotjament de l'aplicació. Bèlgica (europe-west1).<br>
+- Cloudflare R2 — emmagatzematge de fitxers i documents. Ubicació configurada a Europa Occidental; vegeu l'apartat 13.<br>
+- Upstash — cua de tasques en segon pla i memòria cau. Bèlgica (europe-west1).<br>
+<br>
+7.2 Comunicacions<br>
+- Resend — enviament de correu transaccional (factures, invitacions i avisos). Estats Units.<br>
+- Expo — lliurament de notificacions push als dispositius mòbils. Estats Units. Rep l'identificador del dispositiu i el text de la notificació.<br>
+<br>
+7.3 Pagaments<br>
+- Stripe — tramitació de cobraments i domiciliacions. Irlanda i Estats Units.<br>
+<br>
+7.4 Intel·ligència artificial<br>
+- Scaleway — models de llenguatge. França (París). És l'únic proveïdor que pot tractar dades de l'organització, i les seves condicions exclouen l'entrenament amb aquestes dades.<br>
+- Mistral AI — traducció dels noms de l'estructura organitzativa. França.<br>
+- Groq — respatller de la funció anterior. Estats Units. Rep únicament noms de nivells organitzatius (per exemple "Etapa", "Curs" o "Grup"), mai dades personals.<br>
+<br>
+Edena no utilitza cap altre proveïdor d'intel·ligència artificial. Aquesta restricció està implementada en el codi mateix i no depèn de la configuració de l'entorn, de manera que no es pot ampliar sense una modificació revisada del programari.<br>
+<br>
+7.5 Serveis connectats pel mateix responsable<br>
+Quan el responsable connecta voluntàriament un servei extern (per exemple Google Calendar o Microsoft), les dades que se sincronitzen amb ell surten de la plataforma per instrucció del mateix responsable i cap a un compte que aquest controla. Aquests serveis no són subencarregats d'Edena, i el seu tractament es regeix per la relació entre el responsable i aquell proveïdor.<br>
+<br>
+7.6 Comunicacions exigides per la normativa<br>
+Quan el responsable té activada la facturació conforme al sistema VeriFactu, la plataforma tramet a l'Agència Estatal d'Administració Tributària els registres de facturació, que inclouen les dades identificatives i fiscals del destinatari de la factura. Aquesta comunicació dona compliment a una obligació legal del mateix responsable, per la qual cosa l'Agència Tributària no actua com a subencarregat d'Edena, sinó com a destinatari previst per la norma.<br>
+<br>
+Edena comunicarà al responsable qualsevol canvi previst en aquesta llista amb una antelació mínima de 30 dies, donant-li la possibilitat d'oposar-s'hi. Si el responsable s'hi oposés de manera motivada i no fos possible una alternativa raonable, podrà resoldre el contracte sense penalització.<br>
 <br>
 8. ASSISTÈNCIA AL RESPONSABLE<br>
 Edena assistirà el responsable, tenint en compte la naturalesa del tractament, per respondre a les sol·licituds d'exercici de drets dels interessats (accés, rectificació, supressió, oposició, limitació i portabilitat), així com per complir les obligacions de seguretat, notificació de violacions de seguretat i avaluacions d'impacte.<br>
@@ -1812,7 +1835,13 @@ Finalitzada la prestació del servei, Edena suprimirà o retornarà al responsab
 Edena posarà a disposició del responsable la informació necessària per demostrar el compliment de les obligacions de l'article 28 del RGPD i permetrà i contribuirà a la realització d'auditories raonables, incloses inspeccions, conforme a un procediment acordat entre les parts.<br>
 <br>
 13. TRANSFERÈNCIES INTERNACIONALS<br>
-Quan un subencarregat tracti dades fora de l'Espai Econòmic Europeu (EEE), Edena garantirà l'existència de mecanismes vàlids de transferència conformes al RGPD, com les Clàusules Contractuals Tipus de la Comissió Europea o decisions d'adequació.<br>
+La base de dades, l'allotjament de l'aplicació, la cua de tasques en segon pla i els proveïdors d'intel·ligència artificial que poden tractar dades de l'organització (apartat 7.4) es troben a la Unió Europea.<br>
+<br>
+Els subencarregats identificats a l'apartat 7 com a radicats als Estats Units (Resend, Expo, Stripe i Groq) impliquen una transferència internacional de dades. Aquestes transferències s'emparen en les Clàusules Contractuals Tipus aprovades per la Comissió Europea o, quan el proveïdor estigui certificat, en el Marc de Privadesa de Dades UE-EUA, juntament amb les mesures complementàries que resultin necessàries després de la corresponent avaluació d'impacte de la transferència.<br>
+<br>
+L'emmagatzematge de fitxers (Cloudflare R2) està configurat amb ubicació a Europa Occidental. En tractar-se d'una preferència d'ubicació i no d'una restricció jurisdiccional vinculant, i sent el proveïdor una entitat estatunidenca, aquesta relació s'empara en les mateixes garanties assenyalades al paràgraf anterior.<br>
+<br>
+Si un subencarregat modifiqués la ubicació des de la qual tracta les dades, Edena ho comunicarà al responsable conforme al que preveu l'apartat 7.<br>
 <br>
 14. CONTACTE<br>
 Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privacidad@edena.es.`,

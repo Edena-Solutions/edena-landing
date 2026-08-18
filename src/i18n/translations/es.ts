@@ -1495,7 +1495,7 @@ export default {
     },
     privacyPolicy: {
         title: "Política de Privacidad",
-        content: `Última actualización: 15 de julio de 2026<br>
+        content: `Última actualización: 18 de agosto de 2026<br>
 <br>
 1. INTRODUCCIÓN Y OBJETO<br>
 En Edena nos comprometemos a proteger la privacidad de todos los usuarios y a ser completamente transparentes sobre cómo tratamos los datos personales. Esta Política de Privacidad describe las prácticas de tratamiento de datos de Edena Software S.L. en relación con el uso de nuestra plataforma educativa y este sitio web, de conformidad con el Reglamento (UE) 2016/679 (RGPD), la Ley Orgánica 3/2018, de 5 de diciembre (LOPDGDD), y la Ley 34/2002, de 11 de julio (LSSI).<br>
@@ -1543,7 +1543,7 @@ Edena no vende ni cede datos personales a terceros. Los datos solo se comunican 
 - Pasarelas de pago certificadas (PCI-DSS) para la gestión de cobros en la plataforma.<br>
 - Autoridades públicas cuando exista una obligación legal.<br>
 <br>
-Toda nuestra infraestructura principal y los servidores de almacenamiento están ubicados dentro del Espacio Económico Europeo (EEE).<br>
+La base de datos, el alojamiento de la aplicación y los proveedores de inteligencia artificial que tratan datos de los centros educativos se encuentran en la Unión Europea. Determinados proveedores de correo electrónico, notificaciones push y pagos están radicados en Estados Unidos; dichas transferencias se amparan en las Cláusulas Contractuales Tipo de la Comisión Europea o en el Marco de Privacidad de Datos UE-EE. UU., según se detalla en el Acuerdo de Tratamiento de Datos.<br>
 <br>
 9. DERECHOS DE LOS INTERESADOS<br>
 Los usuarios pueden ejercer sus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad enviando un correo electrónico a dpo@edena.es, acreditando debidamente su identidad. Si considera que sus derechos no han sido atendidos, puede reclamar ante la Agencia Española de Protección de Datos (www.aepd.es).<br>
@@ -1585,7 +1585,7 @@ Para más detalles sobre cómo tratamos tus datos personales, consulta nuestra P
     },
     termsOfService: {
         title: "Términos y Condiciones de Uso",
-        content: `Última actualización: 15 de julio de 2026<br>
+        content: `Última actualización: 18 de agosto de 2026<br>
 <br>
 1. OBJETO Y ACEPTACIÓN<br>
 Estos Términos y Condiciones de Uso (en adelante, "los Términos") regulan el acceso y uso de la plataforma Edena (en adelante, "la Plataforma"), propiedad de Edena Software S.L. (CIF: B27627462; DUNS: 373964745) (en adelante, "Edena"). Al registrarse, acceder o utilizar la Plataforma, el usuario o el centro educativo (en adelante, "el Cliente") acepta quedar vinculado por estos Términos en su versión vigente.<br>
@@ -1618,7 +1618,7 @@ Edena se reserva el derecho de suspender o cancelar cuentas en caso de uso indeb
 <br>
 4. CONTRATACIÓN, PLANES Y PAGOS<br>
 4.1 Planes de servicio<br>
-Edena ofrece diferentes planes de suscripción en función del tipo y tamaño del centro educativo. Los detalles, precios y condiciones de cada plan están disponibles en www.edena.es/es/pricing.<br>
+Edena ofrece diferentes planes de suscripción en función del tipo y tamaño del centro educativo. Los detalles, precios y condiciones de cada plan están disponibles en www.edena.es/pricing.<br>
 <br>
 4.2 Periodo de prueba<br>
 Edena podrá ofrecer periodos de prueba gratuita. Al finalizar el periodo de prueba, el servicio se mantendrá activo únicamente si se formaliza la contratación de un plan de pago.<br>
@@ -1654,7 +1654,7 @@ Edena se compromete a:<br>
 7. TRATAMIENTO DE DATOS PERSONALES<br>
 En el marco de la prestación del servicio, el Cliente actúa como responsable del tratamiento de los datos personales de alumnos, familias y personal que introduce en la Plataforma. Edena actúa como encargado del tratamiento de dichos datos, en virtud del Contrato de Encargo del Tratamiento (CET) que se integra en estos Términos y que cumple los requisitos del artículo 28 del GDPR.<br>
 <br>
-El tratamiento de datos derivado del uso de este sitio web y de la relación comercial con Edena se rige por la Política de Privacidad disponible en www.edena.es/privacidad.<br>
+El tratamiento de datos derivado del uso de este sitio web y de la relación comercial con Edena se rige por la Política de Privacidad disponible en www.edena.es/privacy.<br>
 <br>
 8. PROPIEDAD INTELECTUAL E INDUSTRIAL<br>
 Todos los derechos de propiedad intelectual e industrial sobre la Plataforma, su software, diseño, logotipos, marcas, nombre comercial, código fuente, documentación y contenidos pertenecen a Edena Software S.L. o a sus licenciantes.<br>
@@ -1764,7 +1764,7 @@ Para cualquier consulta sobre el uso de cookies puede escribirnos a privacidad@e
     },
     dataProcessingAgreement: {
         title: "Acuerdo de Tratamiento de Datos",
-        content: `Última actualización: 18 de julio de 2026<br>
+        content: `Última actualización: 18 de agosto de 2026<br>
 <br>
 1. OBJETO Y NATURALEZA DEL ACUERDO<br>
 Este Acuerdo de Tratamiento de Datos (en adelante, "el Acuerdo") regula el tratamiento de datos personales que Edena Software S.L. (CIF: B27627462; en adelante, "Edena") realiza por cuenta de la organización cliente en el marco de la prestación del servicio, conforme al artículo 28 del Reglamento (UE) 2016/679 (RGPD). El Acuerdo forma parte integrante de los Términos y Condiciones del servicio.<br>
@@ -1788,12 +1788,35 @@ Edena garantiza que las personas autorizadas para tratar los datos personales se
 Edena aplica medidas técnicas y organizativas apropiadas conforme al artículo 32 del RGPD, incluyendo cifrado de datos en tránsito y en reposo, control de acceso basado en roles (mínimo privilegio), aislamiento de datos entre organizaciones, copias de seguridad periódicas y registro de actividad.<br>
 <br>
 7. SUBENCARGADOS<br>
-El responsable autoriza a Edena a recurrir a los siguientes subencargados, que ofrecen garantías adecuadas de cumplimiento del RGPD:<br>
-- Supabase — base de datos y autenticación.<br>
-- Cloudflare R2 — almacenamiento de archivos.<br>
-- Google Cloud — alojamiento de la aplicación.<br>
-- Resend — envío de correos transaccionales.<br>
-Edena informará al responsable de cualquier cambio previsto en esta lista, dándole la posibilidad de oponerse.<br>
+El responsable autoriza a Edena a recurrir a los subencargados enumerados a continuación. Todos ellos están vinculados por un contrato que les impone obligaciones de protección de datos equivalentes a las de este Acuerdo, y Edena responde frente al responsable de su actuación.<br>
+<br>
+7.1 Infraestructura<br>
+- Supabase — base de datos y autenticación. Alemania (AWS eu-central-1, Fráncfort).<br>
+- Google Cloud (Cloud Run) — alojamiento de la aplicación. Bélgica (europe-west1).<br>
+- Cloudflare R2 — almacenamiento de archivos y documentos. Ubicación configurada en Europa Occidental; véase el apartado 13.<br>
+- Upstash — cola de tareas en segundo plano y caché. Bélgica (europe-west1).<br>
+<br>
+7.2 Comunicaciones<br>
+- Resend — envío de correo transaccional (facturas, invitaciones y avisos). Estados Unidos.<br>
+- Expo — entrega de notificaciones push a los dispositivos móviles. Estados Unidos. Recibe el identificador del dispositivo y el texto de la notificación.<br>
+<br>
+7.3 Pagos<br>
+- Stripe — tramitación de cobros y domiciliaciones. Irlanda y Estados Unidos.<br>
+<br>
+7.4 Inteligencia artificial<br>
+- Scaleway — modelos de lenguaje. Francia (París). Es el único proveedor que puede tratar datos de la organización, y sus condiciones excluyen el entrenamiento con dichos datos.<br>
+- Mistral AI — traducción de los nombres de la estructura organizativa. Francia.<br>
+- Groq — respaldo de la función anterior. Estados Unidos. Recibe únicamente nombres de niveles organizativos (por ejemplo "Etapa", "Curso" o "Grupo"), nunca datos personales.<br>
+<br>
+Edena no utiliza ningún otro proveedor de inteligencia artificial. Esta restricción está implementada en el propio código y no depende de la configuración del entorno, de modo que no puede ampliarse sin una modificación revisada del software.<br>
+<br>
+7.5 Servicios conectados por el propio responsable<br>
+Cuando el responsable conecta voluntariamente un servicio externo (por ejemplo Google Calendar o Microsoft), los datos que se sincronizan con él salen de la plataforma por instrucción del propio responsable y hacia una cuenta que este controla. Dichos servicios no son subencargados de Edena, y su tratamiento se rige por la relación entre el responsable y ese proveedor.<br>
+<br>
+7.6 Comunicaciones exigidas por la normativa<br>
+Cuando el responsable tiene activada la facturación conforme al sistema VeriFactu, la plataforma remite a la Agencia Estatal de Administración Tributaria los registros de facturación, que incluyen los datos identificativos y fiscales del destinatario de la factura. Esta comunicación da cumplimiento a una obligación legal del propio responsable, por lo que la Agencia Tributaria no actúa como subencargado de Edena, sino como destinatario previsto por la norma.<br>
+<br>
+Edena comunicará al responsable cualquier cambio previsto en esta lista con una antelación mínima de 30 días, dándole la posibilidad de oponerse. Si el responsable se opusiera de forma motivada y no fuera posible una alternativa razonable, podrá resolver el contrato sin penalización.<br>
 <br>
 8. ASISTENCIA AL RESPONSABLE<br>
 Edena asistirá al responsable, teniendo en cuenta la naturaleza del tratamiento, para responder a las solicitudes de ejercicio de derechos de los interesados (acceso, rectificación, supresión, oposición, limitación y portabilidad), así como para cumplir las obligaciones de seguridad, notificación de violaciones de seguridad y evaluaciones de impacto.<br>
@@ -1812,7 +1835,13 @@ Finalizada la prestación del servicio, Edena suprimirá o devolverá al respons
 Edena pondrá a disposición del responsable la información necesaria para demostrar el cumplimiento de las obligaciones del artículo 28 del RGPD y permitirá y contribuirá a la realización de auditorías razonables, incluidas inspecciones, conforme a un procedimiento acordado entre las partes.<br>
 <br>
 13. TRANSFERENCIAS INTERNACIONALES<br>
-Cuando un subencargado trate datos fuera del Espacio Económico Europeo (EEE), Edena garantizará la existencia de mecanismos válidos de transferencia conforme al RGPD, como las Cláusulas Contractuales Tipo de la Comisión Europea o decisiones de adecuación.<br>
+La base de datos, el alojamiento de la aplicación, la cola de tareas en segundo plano y los proveedores de inteligencia artificial que pueden tratar datos de la organización (apartado 7.4) se encuentran en la Unión Europea.<br>
+<br>
+Los subencargados identificados en el apartado 7 como radicados en Estados Unidos (Resend, Expo, Stripe y Groq) implican una transferencia internacional de datos. Dichas transferencias se amparan en las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea o, cuando el proveedor esté certificado, en el Marco de Privacidad de Datos UE-EE. UU., junto con las medidas complementarias que resulten necesarias tras la correspondiente evaluación de impacto de la transferencia.<br>
+<br>
+El almacenamiento de archivos (Cloudflare R2) está configurado con ubicación en Europa Occidental. Al tratarse de una preferencia de ubicación y no de una restricción jurisdiccional vinculante, y siendo el proveedor una entidad estadounidense, esta relación se ampara en las mismas garantías señaladas en el párrafo anterior.<br>
+<br>
+Si un subencargado modificara la ubicación desde la que trata los datos, Edena lo comunicará al responsable conforme a lo previsto en el apartado 7.<br>
 <br>
 14. CONTACTO<br>
 Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privacidad@edena.es.`,

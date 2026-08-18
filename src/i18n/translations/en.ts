@@ -1475,7 +1475,7 @@ export default {
     },
     termsOfService: {
         title: "Terms and Conditions of Use",
-        content: `Last updated: 15 July 2026<br>
+        content: `Last updated: 18 August 2026<br>
 <br>
 1. PURPOSE AND ACCEPTANCE<br>
 These Terms and Conditions of Use (hereinafter, "the Terms") govern access to and use of the Edena platform (hereinafter, "the Platform"), owned by Edena Software S.L. (Company registration / CIF: B27627462; DUNS: 373964745) (hereinafter, "Edena"). By registering, accessing or using the Platform, the user or educational institution (hereinafter, "the Client") agrees to be bound by these Terms as currently in force.<br>
@@ -1544,7 +1544,7 @@ Edena undertakes to:<br>
 7. PERSONAL DATA PROCESSING<br>
 In the context of service delivery, the Client acts as data controller for the personal data of students, families, and staff entered into the Platform. Edena acts as data processor for such data, under the Data Processing Agreement (DPA) incorporated into these Terms, which complies with the requirements of Article 28 of the GDPR.<br>
 <br>
-The processing of data arising from the use of this website and the commercial relationship with Edena is governed by the Privacy Policy available at www.edena.es/privacy.<br>
+The processing of data arising from the use of this website and the commercial relationship with Edena is governed by the Privacy Policy available at www.edena.es/en/privacy.<br>
 <br>
 8. INTELLECTUAL AND INDUSTRIAL PROPERTY<br>
 All intellectual and industrial property rights over the Platform, its software, design, logos, trademarks, trade name, source code, documentation, and content belong to Edena Software S.L. or its licensors.<br>
@@ -1951,7 +1951,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
     },
     privacyPolicy: {
         title: "Privacy Policy",
-        content: `Last updated: 15 July 2026<br>
+        content: `Last updated: 18 August 2026<br>
 <br>
 1. INTRODUCTION AND PURPOSE<br>
 At Edena we are committed to protecting the privacy of all users and to being fully transparent about how we process personal data. This Privacy Policy describes the data processing practices of Edena Software S.L. in relation to the use of our educational platform and this website, in accordance with Regulation (EU) 2016/679 (GDPR), Spanish Organic Law 3/2018 of 5 December (LOPDGDD), and Spanish Law 34/2002 of 11 July (LSSI).<br>
@@ -1999,7 +1999,7 @@ Edena does not sell or disclose personal data to third parties. Data is only sha
 - Certified payment gateways (PCI-DSS) for payment management on the platform.<br>
 - Public authorities where there is a legal obligation.<br>
 <br>
-All of our main infrastructure and storage servers are located within the European Economic Area (EEA).<br>
+The database, application hosting and the artificial intelligence providers that process educational centres' data are located in the European Union. Certain email, push notification and payment providers are based in the United States; those transfers rely on the European Commission's Standard Contractual Clauses or on the EU-US Data Privacy Framework, as detailed in the Data Processing Agreement.<br>
 <br>
 9. DATA SUBJECT RIGHTS<br>
 Users may exercise their rights of access, rectification, erasure, objection, restriction and portability by sending an email to dpo@edena.es, duly proving their identity. If you believe your rights have not been properly addressed, you may lodge a complaint with the Spanish Data Protection Agency (www.aepd.es).<br>
@@ -2094,7 +2094,7 @@ For any questions about the use of cookies you can write to us at privacidad@ede
     },
     dataProcessingAgreement: {
         title: "Data Processing Agreement",
-        content: `Last updated: July 18, 2026<br>
+        content: `Last updated: August 18, 2026<br>
 <br>
 1. PURPOSE AND NATURE OF THE AGREEMENT<br>
 This Data Processing Agreement (the "Agreement") governs the processing of personal data that Edena Software S.L. (Tax ID: B27627462; "Edena") carries out on behalf of the client organization in the context of providing the service, in accordance with Article 28 of Regulation (EU) 2016/679 (GDPR). The Agreement forms an integral part of the service's Terms and Conditions.<br>
@@ -2118,12 +2118,35 @@ Edena guarantees that the persons authorized to process the personal data have c
 Edena applies appropriate technical and organizational measures in accordance with Article 32 of the GDPR, including encryption of data in transit and at rest, role-based access control (least privilege), data isolation between organizations, periodic backups and activity logging.<br>
 <br>
 7. SUB-PROCESSORS<br>
-The controller authorizes Edena to engage the following sub-processors, which offer adequate GDPR compliance guarantees:<br>
-- Supabase — database and authentication.<br>
-- Cloudflare R2 — file storage.<br>
-- Google Cloud — application hosting.<br>
-- Resend — transactional email delivery.<br>
-Edena will inform the controller of any intended changes to this list, giving the controller the opportunity to object.<br>
+The controller authorizes Edena to engage the sub-processors listed below. All of them are bound by a contract imposing data protection obligations equivalent to those in this Agreement, and Edena remains liable to the controller for their performance.<br>
+<br>
+7.1 Infrastructure<br>
+- Supabase — database and authentication. Germany (AWS eu-central-1, Frankfurt).<br>
+- Google Cloud (Cloud Run) — application hosting. Belgium (europe-west1).<br>
+- Cloudflare R2 — file and document storage. Configured location Western Europe; see section 13.<br>
+- Upstash — background job queue and cache. Belgium (europe-west1).<br>
+<br>
+7.2 Communications<br>
+- Resend — transactional email delivery (invoices, invitations and notices). United States.<br>
+- Expo — push notification delivery to mobile devices. United States. Receives the device identifier and the notification text.<br>
+<br>
+7.3 Payments<br>
+- Stripe — payment and direct debit processing. Ireland and United States.<br>
+<br>
+7.4 Artificial intelligence<br>
+- Scaleway — language models. France (Paris). The only provider that may process organization data, and its terms exclude training on that data.<br>
+- Mistral AI — translation of organizational structure names. France.<br>
+- Groq — fallback for the above. United States. Receives organizational level names only (for example "Stage", "Year" or "Group"), never personal data.<br>
+<br>
+Edena uses no other artificial intelligence provider. This restriction is implemented in the code itself and does not depend on environment configuration, so it cannot be widened without a reviewed change to the software.<br>
+<br>
+7.5 Services connected by the controller<br>
+Where the controller voluntarily connects an external service (for example Google Calendar or Microsoft), the data synchronized with it leaves the platform on the controller's own instruction and into an account the controller operates. Such services are not Edena sub-processors, and their processing is governed by the relationship between the controller and that provider.<br>
+<br>
+7.6 Communications required by law<br>
+Where the controller has invoicing under the VeriFactu system enabled, the platform submits invoicing records to the Spanish Tax Agency (Agencia Estatal de Administración Tributaria), including the identifying and tax details of the invoice recipient. This communication discharges a legal obligation of the controller itself, so the Tax Agency does not act as an Edena sub-processor but as a recipient provided for by law.<br>
+<br>
+Edena will notify the controller of any intended change to this list at least 30 days in advance, giving the controller the opportunity to object. Where the controller objects on reasoned grounds and no reasonable alternative is available, it may terminate the contract without penalty.<br>
 <br>
 8. ASSISTANCE TO THE CONTROLLER<br>
 Edena will assist the controller, taking into account the nature of the processing, in responding to requests to exercise data subject rights (access, rectification, erasure, objection, restriction and portability), as well as in complying with security obligations, notification of data breaches and impact assessments.<br>
@@ -2142,7 +2165,13 @@ Upon termination of the service, Edena will delete or return to the controller, 
 Edena will make available to the controller the information necessary to demonstrate compliance with the obligations of Article 28 of the GDPR and will allow and contribute to reasonable audits, including inspections, in accordance with a procedure agreed between the parties.<br>
 <br>
 13. INTERNATIONAL TRANSFERS<br>
-Where a sub-processor processes data outside the European Economic Area (EEA), Edena will ensure the existence of valid transfer mechanisms under the GDPR, such as the European Commission's Standard Contractual Clauses or adequacy decisions.<br>
+The database, application hosting, the background job queue and the artificial intelligence providers that may process organization data (section 7.4) are located in the European Union.<br>
+<br>
+The sub-processors identified in section 7 as being based in the United States (Resend, Expo, Stripe and Groq) involve an international transfer of data. Those transfers rely on the Standard Contractual Clauses approved by the European Commission or, where the provider is certified, on the EU-US Data Privacy Framework, together with any supplementary measures required following the corresponding transfer impact assessment.<br>
+<br>
+File storage (Cloudflare R2) is configured with a Western Europe location. As this is a placement preference rather than a binding jurisdictional restriction, and as the provider is a United States entity, this relationship relies on the same safeguards set out in the preceding paragraph.<br>
+<br>
+Should a sub-processor change the location from which it processes data, Edena will notify the controller as provided in section 7.<br>
 <br>
 14. CONTACT<br>
 For any questions related to this Agreement you can write to us at privacidad@edena.es.`,
