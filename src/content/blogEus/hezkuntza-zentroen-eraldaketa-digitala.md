@@ -1,6 +1,7 @@
 ---
 title: "Eraldaketa digitala hezkuntza zentroetan: Erresistentziatik arrakastara"
 date: "2024-12-15"
+translationKey: "transformacion-digital-centros-educativos"
 description: "Ezagutu hezkuntza-zentroetan eraldaketa digitala arrakastaz ezartzeko eta ohiko erronkak gainditzeko funtsezko estrategiak."
 tags:
     - "transformación digital"

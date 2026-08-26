@@ -1,6 +1,7 @@
 ---
 title: "Hezitzaileentzako gaitasun digitala: Etorkizuneko irakasleak prestatzen"
 date: "2024-09-30"
+translationKey: "competencia-digital-educadores"
 description: "Ezagutu hezitzaileek beren ikasleak mundu digitalerako prestatzeko ezinbesteko gaitasun digitalak."
 tags:
     - "competencia digital"

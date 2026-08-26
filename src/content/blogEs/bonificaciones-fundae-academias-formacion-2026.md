@@ -1,6 +1,7 @@
 ---
 title: "Bonificaciones FUNDAE: cómo gestionarlas en academias de formación"
 date: "2026-05-06"
+translationKey: "bonificaciones-fundae-academias-formacion-2026"
 description: "Qué es la formación bonificada FUNDAE, qué requisitos de documentación exige y cómo gestionarla en academias sin perder bonificación en 2026."
 tags:
     [

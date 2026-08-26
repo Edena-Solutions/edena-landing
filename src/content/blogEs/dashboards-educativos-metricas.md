@@ -1,6 +1,7 @@
 ---
 title: "Dashboards educativos para mejorar métricas académicas y financieras"
 date: "2026-02-27"
+translationKey: "dashboards-educativos-metricas"
 description: "Diseño de dashboards académicos y financieros. Guía práctica para centros educativos en España (2026)."
 tags: ["dashboard educativo métricas", "datos", "dirección", "indicadores"]
 author: "ENA by Edena"

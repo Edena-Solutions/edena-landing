@@ -1,6 +1,7 @@
 ---
 title: "Apps mòbils en educació: L'experiència digital a la butxaca"
 date: "2025-04-15"
+translationKey: "app-movil-educacion"
 description: "Rol de l'app mòbil a la relació escola-família. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "apps mòbils"

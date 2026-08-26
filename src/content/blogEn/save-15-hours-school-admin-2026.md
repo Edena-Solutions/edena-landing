@@ -1,6 +1,7 @@
 ---
 title: "How to save 15 hours a week on school administration"
 date: "2026-04-12"
+translationKey: "ahorrar-15-horas-administracion-escolar-2026"
 description: "Breakdown of recoverable hours by admin process. Practical guide for educational centers in Spain (2026)."
 tags:
     - "save hours school administration"

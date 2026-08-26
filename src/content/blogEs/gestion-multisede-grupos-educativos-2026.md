@@ -1,6 +1,7 @@
 ---
 title: "Gestión multisede: cómo dirigir varios centros con un solo sistema"
 date: "2026-06-06"
+translationKey: "gestion-multisede-grupos-educativos-2026"
 description: "Cómo gestionar grupos educativos y centros multisede con datos consolidados, criterios comunes y autonomía por sede, sin multiplicar el caos en 2026."
 tags:
     [

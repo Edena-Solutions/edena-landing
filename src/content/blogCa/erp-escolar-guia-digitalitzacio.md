@@ -1,6 +1,7 @@
 ---
 title: "ERP escolar: la guia completa per digitalitzar la gestió del teu centre educatiu"
 date: "2026-02-28"
+translationKey: "erp-escolar-guia-digitalizacion"
 description: "Què és un ERP escolar i quins mòduls hi ha d'incloure. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "ERP escolar"

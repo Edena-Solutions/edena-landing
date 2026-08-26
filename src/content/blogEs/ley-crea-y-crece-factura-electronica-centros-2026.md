@@ -1,6 +1,7 @@
 ---
 title: "Ley Crea y Crece: factura electrónica B2B para centros y academias"
 date: "2026-04-22"
+translationKey: "ley-crea-y-crece-factura-electronica-centros-2026"
 description: "Qué implica la factura electrónica obligatoria entre empresas para colegios y academias en España y cómo prepararse en 2026."
 tags:
     [
@@ -17,7 +18,7 @@ relatedPosts:
     - facturacion-electronica-verifactu-educacion-2026
     - verifactu-integracion-educacion
     - automatizacion-facturacion-escolar
-    - integracion-erp-gestoria-contabilidad
+    - integracion-erp-gestoria-contabilidad-2026
 faqs:
     - question: "¿La Ley Crea y Crece obliga a facturar electrónicamente a las familias?"
       answer: "No. La obligación de factura electrónica de la Ley Crea y Crece es para operaciones entre empresas y autónomos (B2B). La relación con las familias se rige por la normativa de facturación general y, en su caso, por Verifactu. Lo que cambia es cómo facturas a otras empresas: proveedores, empresas que contratan formación, comedores externalizados o servicios entre sedes."

@@ -1,6 +1,7 @@
 ---
 title: "Onboarding digital de familias: cómo matricular alumnos sin papeleo"
 date: "2026-03-11"
+translationKey: "onboarding-digital-familias-matricula-online"
 description: "Experiencia de la familia en el primer mes tras la matrícula. Guía práctica para centros educativos en España (2026)."
 tags:
     [

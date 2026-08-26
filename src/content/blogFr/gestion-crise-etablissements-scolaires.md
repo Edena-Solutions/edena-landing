@@ -1,6 +1,7 @@
 ---
 title: "Gestion de crise dans les établissements scolaires : protocoles et stratégies de continuité"
 date: "2025-08-01"
+translationKey: "gestion-crisis-centros-educativos"
 description: "Protocoles de crise et de continuité dans les centres espagnols. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "gestion de crise"

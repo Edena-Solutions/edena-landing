@@ -1,6 +1,7 @@
 ---
 title: "Ebaluazioa eta assessment digitala hezkuntza modernoan: tresnak eta estrategiak"
 date: "2025-08-20"
+translationKey: "evaluacion-assessment-digital-educativo"
 description: "Ebaluazio digitala eta funtsezko gaitasunak LOMLOE. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "evaluación digital"

@@ -1,6 +1,7 @@
 ---
 title: "Innovació pedagògica amb tecnologia: Transformant l'ensenyament i l'aprenentatge"
 date: "2024-10-15"
+translationKey: "innovacion-pedagogica-tecnologia"
 description: "Explora com la tecnologia està canviant les metodologies pedagògiques i creant experiències daprenentatge més efectives i atractives."
 tags:
     - "innovació"

@@ -1,6 +1,7 @@
 ---
 title: "Competència digital per a educadors: Preparant els professors del futur"
 date: "2024-09-30"
+translationKey: "competencia-digital-educadores"
 description: "Descobreix les competències digitals essencials que els educadors necessiten per preparar els estudiants per al món digital."
 tags:
     - "competència digital"

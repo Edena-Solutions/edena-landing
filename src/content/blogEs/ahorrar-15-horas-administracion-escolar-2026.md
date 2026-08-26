@@ -1,6 +1,7 @@
 ---
 title: "Cómo ahorrar 15 horas semanales en administración escolar"
 date: "2026-04-12"
+translationKey: "ahorrar-15-horas-administracion-escolar-2026"
 description: "Desglose de horas recuperables por proceso admin. Guía práctica para centros educativos en España (2026)."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "Zure ikastetxean automatizatu behar dituzun 10 administrazio-prozesuak"
 date: "2026-03-02"
+translationKey: "procesos-administrativos-automatizar-colegio"
 description: "Automatizatzeko 10 prozesuko lehentasunezko zerrenda. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "automatizazioa hezkuntza-zentroetan"

@@ -1,6 +1,7 @@
 ---
 title: "Innovación pedagógica con tecnología: Transformando la enseñanza y el aprendizaje"
 date: "2024-10-15"
+translationKey: "innovacion-pedagogica-tecnologia"
 description: "Explora cómo la tecnología está cambiando las metodologías pedagógicas y creando experiencias de aprendizaje más efectivas y atractivas."
 tags: ["innovación", "pedagogía", "metodologías", "aprendizaje"]
 author: "ENA by Edena"

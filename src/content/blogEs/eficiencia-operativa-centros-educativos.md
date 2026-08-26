@@ -1,6 +1,7 @@
 ---
 title: "Eficiencia operativa en centros educativos: Optimizando recursos con tecnología"
 date: "2024-11-15"
+translationKey: "eficiencia-operativa-centros-educativos"
 description: "Descubre cómo la tecnología puede transformar las operaciones de los centros educativos, reduciendo costos y mejorando la calidad del servicio."
 tags: ["eficiencia", "operaciones", "optimización", "costos"]
 author: "ENA by Edena"

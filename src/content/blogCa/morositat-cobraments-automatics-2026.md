@@ -1,6 +1,7 @@
 ---
 title: "Com reduir la morositat a escoles i guarderies amb cobraments automatitzats"
 date: "2026-03-20"
+translationKey: "morosidad-colegios-cobros-automaticos-2026"
 description: "Estratègia integral per baixar morositat amb cobraments recurrents i traçabilitat. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "morositat col·legis"

@@ -1,6 +1,7 @@
 ---
 title: "Communication avec les familles : des outils au-delà du courriel"
 date: "2026-02-17"
+translationKey: "comunicacion-digital-centros-educativos"
 description: "Communication numérique dans les établissements scolaires : canaux, segmentation et outils pour toucher efficacement les familles."
 tags: ["communication numérique établissements scolaires", "familles", "canaux", "outils"]
 author: "ENA by Edena"

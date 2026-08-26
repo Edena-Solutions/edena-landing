@@ -1,6 +1,7 @@
 ---
 title: "Hezkuntza-dashboarda: kudeaketa estrategikorako kontrol-zentroa"
 date: "2025-02-25"
+translationKey: "dashboard-educativo"
 description: "Dashboard estrategikoa zentroko kontrol-zentro gisa. Hezkuntza-zentroentzako gida praktikoa Espainian (2026)."
 tags:
     - "dashboard"

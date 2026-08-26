@@ -1,6 +1,7 @@
 ---
 title: "Metodologia pedagogiko berritzaileak: Irakaskuntza-ikaskuntza prozesua eraldatzea"
 date: "2025-08-10"
+translationKey: "metodologias-pedagogicas-innovadoras"
 description: "LOMLOE-rekin bat datozen metodologia aktiboak. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "metodologías pedagógicas"

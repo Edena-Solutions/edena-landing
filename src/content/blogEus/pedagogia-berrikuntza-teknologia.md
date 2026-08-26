@@ -1,6 +1,7 @@
 ---
 title: "Berrikuntza pedagogikoa teknologiarekin: Irakaskuntza eta ikaskuntza eraldatzen"
 date: "2024-10-15"
+translationKey: "innovacion-pedagogica-tecnologia"
 description: "Aztertu nola teknologia metodologia pedagogikoak aldatzen ari den eta ikaskuntza-esperientzia eraginkorragoak eta erakargarriagoak sortzen."
 tags:
     - "innovación"

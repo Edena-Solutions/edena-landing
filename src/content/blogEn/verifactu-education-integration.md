@@ -1,6 +1,7 @@
 ---
 title: "Verifactu in Education: Regulatory Compliance Made Easy"
 date: "2025-07-25"
+translationKey: "verifactu-integracion-educacion"
 description: "Introduction to Verifactu for centers (satellite of the regulatory pillar). Practical guide for educational centers in Spain (2026)."
 tags:
     - "verifactu"

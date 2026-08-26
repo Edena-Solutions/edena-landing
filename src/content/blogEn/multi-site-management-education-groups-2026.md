@@ -1,6 +1,7 @@
 ---
 title: "Multi-Site Management: How to Run Several Centers with a Single System"
 date: "2026-06-06"
+translationKey: "gestion-multisede-grupos-educativos-2026"
 description: "How to manage education groups and multi-site centers with consolidated data, common criteria, and per-site autonomy, without multiplying the chaos in 2026."
 tags:
     - "multi-site management"

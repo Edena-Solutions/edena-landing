@@ -1,6 +1,7 @@
 ---
 title: "SEO guide for educational centers: appear on Google"
 date: "2026-02-12"
+translationKey: "seo-centros-educativos"
 description: "Local SEO to attract families on Google. Practical guide for educational centers in Spain (2026)."
 tags:
     - "SEO educational centers"

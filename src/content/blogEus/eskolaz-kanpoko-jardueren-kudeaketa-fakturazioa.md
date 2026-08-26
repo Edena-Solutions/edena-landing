@@ -1,6 +1,7 @@
 ---
 title: "Eskolaz kanpoko jardueren kudeaketa: izen-emateak eta fakturazioa"
 date: "2026-05-23"
+translationKey: "gestion-extraescolares-inscripciones-facturacion"
 description: "Nola kudeatu ikastetxe baten eskolaz kanpokoak kaosik gabe: lineako izen-emateak, plazak, itxaron-zerrendak eta jarduera bakoitzaren fakturazioa 2026an."
 tags:
     [

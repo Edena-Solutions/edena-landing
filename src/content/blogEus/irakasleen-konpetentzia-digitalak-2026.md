@@ -1,6 +1,7 @@
 ---
 title: "Irakasleen gaitasun digitalak 2026an: 661.000 irakasle ziurtatu baino gehiago"
 date: "2026-01-10"
+translationKey: "competencias-digitales-profesorado-2026"
 description: "Irakasle egiaztatuen egoera eta DigEdu 2026. Plana. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "gaitasun digitalak"

@@ -1,6 +1,7 @@
 ---
 title: "Comment centraliser toute l’information de l’élève dans un seul système"
 date: "2026-03-09"
+translationKey: "expediente-academico-digital-estudiantes"
 description: "Dossier scolaire numérique et gestion des élèves à l’école : centralisez les données, améliorez la traçabilité et facilitez le travail des enseignants et du secrétariat."
 tags: ["dossier scolaire numérique", "gestion élèves école", "SIS", "établissements scolaires"]
 author: "ENA by Edena"

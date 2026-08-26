@@ -1,6 +1,7 @@
 ---
 title: "Institutional communication with families: Strategies for the digital age"
 date: "2025-03-10"
+translationKey: "comunicacion-familias-era-digital"
 description: "Discover how to develop effective institutional communication strategies that strengthen the relationship between educational centers and families."
 tags:
     - "institutional communication"

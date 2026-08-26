@@ -1,6 +1,7 @@
 ---
 title: "Enquêtes de satisfaction et NPS dans les écoles : mesurer avant de perdre des familles"
 date: "2026-06-13"
+translationKey: "encuestas-satisfaccion-nps-familias-2026"
 description: "Comment mesurer la satisfaction des familles avec des enquêtes et le NPS dans les écoles et académies pour fidéliser les élèves et s'améliorer avant qu'ils ne partent, en 2026."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "Experiència de l'estudiant a l'era digital: Més enllà de l'aprenentatge tradicional"
 date: "2024-09-01"
+translationKey: "experiencia-estudiante-era-digital"
 description: "Descobreix com crear experiències estudiantils excepcionals que combinin tecnologia, personalització i connexió humana."
 tags:
     - "experiència estudiant"

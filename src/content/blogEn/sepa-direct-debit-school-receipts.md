@@ -1,6 +1,7 @@
 ---
 title: "SEPA Direct Debit in Schools: Error-Free Receipt Collection"
 date: "2026-04-29"
+translationKey: "remesas-sepa-domiciliacion-recibos-colegios"
 description: "How SEPA batches work in schools and nurseries, which errors cause returns, and how to automate direct debit of receipts in 2026."
 tags:
     - "SEPA direct debit schools"

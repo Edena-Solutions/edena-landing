@@ -1,6 +1,7 @@
 ---
 title: "Les élèves à l’ère du numérique : des natifs technologiques"
 date: "2025-03-05"
+translationKey: "estudiantes-era-digital"
 description: "Découvrez comment les élèves d'aujourd'hui interagissent avec la technologie et comment les écoles peuvent tirer parti de cette réalité."
 tags:
     - "étudiants"

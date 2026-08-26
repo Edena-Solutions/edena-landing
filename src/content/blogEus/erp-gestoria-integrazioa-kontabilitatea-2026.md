@@ -1,6 +1,7 @@
 ---
 title: "Eskola ERPa gestoriarekin integratzea: kontabilitatea lan bikoitzik gabe"
 date: "2026-06-25"
+translationKey: "integracion-erp-gestoria-contabilidad-2026"
 description: "Nola konektatu zentroaren ERPa gestoriarekin lan kontable bikoitza ekiditeko, akatsak murrizteko eta hilabetea estresik gabe ixteko 2026an."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "Retenció d'estudiants a l'era digital: Estratègies que funcionen"
 date: "2024-11-28"
+translationKey: "retencion-estudiantes-era-digital"
 description: "Descobreix com pot ajudar la tecnologia a millorar la retenció d'estudiants i crear experiències educatives més atractives i personalitzades."
 tags:
     - "retenció"

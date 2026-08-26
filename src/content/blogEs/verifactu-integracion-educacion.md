@@ -1,6 +1,7 @@
 ---
 title: "Verifactu en la educación: Cumplimiento normativo simplificado"
 date: "2025-07-25"
+translationKey: "verifactu-integracion-educacion"
 description: "Introducción a Verifactu para centros (satélite del pilar normativo). Guía práctica para centros educativos en España (2026)."
 tags: ["verifactu", "cumplimiento", "normativa", "facturación electrónica"]
 author: "ENA by Edena"

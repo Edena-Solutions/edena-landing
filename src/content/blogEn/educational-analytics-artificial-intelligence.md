@@ -1,6 +1,7 @@
 ---
 title: "Educational analytics and artificial intelligence: Data that transforms education"
 date: "2024-09-15"
+translationKey: "analitica-educativa-inteligencia-artificial"
 description: "AI applied to learning analytics (pedagogical angle). Practical guide for educational centers in Spain (2026)."
 tags:
     - "analytics"

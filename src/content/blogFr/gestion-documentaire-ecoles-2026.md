@@ -1,6 +1,7 @@
 ---
 title: "Gestion documentaire dans les écoles : fini le papier et les dossiers perdus"
 date: "2026-04-01"
+translationKey: "gestion-documental-colegios-expediente-digital-2026"
 description: "Dossier numérique, dossiers cloud et droits par rôle : réduisez le risque et les heures avec une plateforme unifiée pour les établissements scolaires."
 tags:
     [

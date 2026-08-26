@@ -1,6 +1,7 @@
 ---
 title: "Management Software for Tutoring Academies and Extracurriculars"
 date: "2026-05-13"
+translationKey: "software-gestion-academias-refuerzo-2026"
 description: "What software a tutoring and extracurricular academy needs: schedules, attendance, block billing, and family communication in 2026."
 tags:
     - "tutoring academy software"

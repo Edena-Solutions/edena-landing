@@ -1,6 +1,7 @@
 ---
 title: "Fakturazio Elektronikoa eta Verifactu Hezkuntzan 2026an: Araugintza betetzea eta eraginkortasuna"
 date: "2026-01-15"
+translationKey: "facturacion-electronica-verifactu-educacion-2026"
 description: "Zutabe gida Verifactu 2026: egutegia, betebeharrak eta akatsak AEAT. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "fakturazio elektronikoa"

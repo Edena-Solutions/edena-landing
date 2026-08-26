@@ -1,6 +1,7 @@
 ---
 title: "Errendimendu akademikoaren analisia: ikaskuntza hobetzeko datuak"
 date: "2025-01-10"
+translationKey: "analitica-rendimiento-academico"
 description: "Ikasgelako errendimendu akademikoaren analisia. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "analítica"

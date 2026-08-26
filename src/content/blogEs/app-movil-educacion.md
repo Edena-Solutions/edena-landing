@@ -1,6 +1,7 @@
 ---
 title: "Apps móviles en educación: La experiencia digital en tu bolsillo"
 date: "2025-04-15"
+translationKey: "app-movil-educacion"
 description: "Rol de la app móvil en la relación escuela-familia. Guía práctica para centros educativos en España (2026)."
 tags: ["apps móviles", "experiencia digital", "acceso instantáneo", "tecnología"]
 author: "ENA by Edena"

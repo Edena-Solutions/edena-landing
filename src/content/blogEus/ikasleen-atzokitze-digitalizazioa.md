@@ -1,6 +1,7 @@
 ---
 title: "Digitalizazioak ikasleen atxikipenean duen eragina"
 date: "2026-02-07"
+translationKey: "digitalizacion-retencion-alumnos"
 description: "Atxikipena hobetzen eta murrizketa murrizten duten administrazio-prozesuak. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "eskola atxikipena"

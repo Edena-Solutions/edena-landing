@@ -1,6 +1,7 @@
 ---
 title: "Cómo reducir la morosidad en colegios y guarderías con cobros automatizados"
 date: "2026-03-20"
+translationKey: "morosidad-colegios-cobros-automaticos-2026"
 description: "Estrategia integral para bajar morosidad con cobros recurrentes y trazabilidad. Guía práctica para centros educativos en España (2026)."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "Automatizazioak nola murrizten duen eskola-absentismoa"
 date: "2026-02-10"
+translationKey: "automatizacion-absentismo-escolar"
 description: "Automatizatu asistentzia eta alertak, absentismoa murrizteko. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "automatizazioa"

@@ -1,6 +1,7 @@
 ---
 title: "KPIs que tot director de col·legi hauria de mesurar cada mes"
 date: "2026-04-16"
+translationKey: "kpis-director-colegio-mensual-2026"
 description: "KPIs mensuals imprescindibles per a direcció. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "KPIs director col·legi"

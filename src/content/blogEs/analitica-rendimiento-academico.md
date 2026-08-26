@@ -1,6 +1,7 @@
 ---
 title: "Analítica del rendimiento académico: Datos para potenciar el aprendizaje"
 date: "2025-01-10"
+translationKey: "analitica-rendimiento-academico"
 description: "Analítica de rendimiento académico en aula. Guía práctica para centros educativos en España (2026)."
 tags: ["analítica", "rendimiento académico", "personalización", "educación"]
 author: "ENA by Edena"

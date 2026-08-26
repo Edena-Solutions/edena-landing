@@ -1,6 +1,7 @@
 ---
 title: "School billing automation: Optimize your internal processes"
 date: "2025-01-15"
+translationKey: "automatizacion-facturacion-escolar"
 description: "Automate invoice issuance and recurring collection cycles. Practical guide for educational centers in Spain (2026)."
 tags:
     - "billing"

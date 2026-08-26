@@ -1,6 +1,7 @@
 ---
 title: "Family-school collaboration: Building a united community"
 date: "2024-10-30"
+translationKey: "colaboracion-familias-centro-educativo"
 description: "Discover how technology can strengthen collaboration between families and educational centers, creating a stronger and more effective educational community."
 tags:
     - "collaboration"

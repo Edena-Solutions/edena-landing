@@ -1,6 +1,7 @@
 ---
 title: "Dokumentuen kudeaketa ikastetxeetan: agur paperari eta fitxategi galduei"
 date: "2026-04-01"
+translationKey: "gestion-documental-colegios-expediente-digital-2026"
 description: "Dokumentuen kudeaketa eta fitxategi digitalaren zutabea. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "ikastetxeko dokumentuen kudeaketa"

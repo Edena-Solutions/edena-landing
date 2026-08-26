@@ -1,6 +1,7 @@
 ---
 title: "Expérience utilisateur : clé dans l’adoption des technologies éducatives"
 date: "2025-01-20"
+translationKey: "experiencia-usuario-tecnologia-educativa"
 description: "Découvrez pourquoi l'expérience utilisateur est essentielle au succès de la technologie éducative et comment concevoir des solutions que les utilisateurs souhaitent réellement utiliser."
 tags:
     - "UX"

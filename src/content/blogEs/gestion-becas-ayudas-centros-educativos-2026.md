@@ -1,6 +1,7 @@
 ---
 title: "Gestión de becas y ayudas en centros: del caos de papeles al control total"
 date: "2026-06-10"
+translationKey: "gestion-becas-ayudas-centros-educativos-2026"
 description: "Cómo gestionar becas y ayudas en colegios y academias: solicitudes, documentación, descuentos y justificación, sin perder plazos ni cuadres en 2026."
 tags:
     [

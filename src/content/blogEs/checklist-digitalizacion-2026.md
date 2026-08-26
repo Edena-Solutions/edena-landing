@@ -1,6 +1,7 @@
 ---
 title: "Checklist de digitalización 2026 para tu centro educativo"
 date: "2026-02-24"
+translationKey: "checklist-digitalizacion-2026"
 description: "Roadmap 90 días de digitalización administrativa. Guía práctica para centros educativos en España (2026)."
 tags: ["digitalización centros educativos 2026", "checklist", "modernización", "procesos"]
 author: "ENA by Edena"

@@ -1,6 +1,7 @@
 ---
 title: "Artificial intelligence in school administration"
 date: "2026-02-19"
+translationKey: "ia-gestion-escolar-casos-practicos"
 description: "Practical cases of AI in school administration. Practical guide for educational centers in Spain (2026)."
 tags:
     - "AI school management"

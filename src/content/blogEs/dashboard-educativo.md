@@ -1,6 +1,7 @@
 ---
 title: "Dashboard educativo: El centro de control para la gestión estratégica"
 date: "2025-02-25"
+translationKey: "dashboard-educativo"
 description: "Dashboard como centro de control estratégico del centro. Guía práctica para centros educativos en España (2026)."
 tags: ["dashboard", "gestión administrativa", "estrategia", "dirección"]
 author: "ENA by Edena"

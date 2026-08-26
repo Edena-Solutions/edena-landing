@@ -1,6 +1,7 @@
 ---
 title: "Com centralitzar tota la informació de l'alumne en un únic sistema"
 date: "2026-03-09"
+translationKey: "expediente-academico-digital-estudiantes"
 description: "Vista docent/tutor de lexpedient acadèmic unificat. Guia pràctica per a centres educatius a Espanya (2026)."
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1769074257962-c297d5908fd5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2VudHJhbGl6ZWR8ZW58MHx8MHx8fDA%3D"

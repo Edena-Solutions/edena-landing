@@ -1,6 +1,7 @@
 ---
 title: "Paiements Bizum et TPE dans les écoles : encaisser à l'instant en 2026"
 date: "2026-05-30"
+translationKey: "pagos-bizum-tpv-colegios-2026"
 description: "Comment intégrer Bizum et TPE dans l'encaissement des écoles et académies pour encaisser à l'instant, réduire les impayés et rapprocher sans effort en 2026."
 tags:
     [

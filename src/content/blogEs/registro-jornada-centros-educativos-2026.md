@@ -1,6 +1,7 @@
 ---
 title: "Registro de jornada en centros educativos: obligaciones y cómo cumplir en 2026"
 date: "2026-07-19"
+translationKey: "registro-jornada-centros-educativos-2026"
 description: "Qué exige el registro de jornada a colegios, escuelas infantiles y academias en 2026: normativa, sanciones, docentes y cómo llevar el control horario sin hojas de fichaje."
 tags:
     [

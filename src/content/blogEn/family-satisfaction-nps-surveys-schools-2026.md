@@ -1,6 +1,7 @@
 ---
 title: "Satisfaction Surveys and NPS in Schools: Measure Before Losing Families"
 date: "2026-06-13"
+translationKey: "encuestas-satisfaccion-nps-familias-2026"
 description: "How to measure family satisfaction with surveys and NPS in schools and academies to retain students and improve before they leave, in 2026."
 tags:
     - "family satisfaction surveys"

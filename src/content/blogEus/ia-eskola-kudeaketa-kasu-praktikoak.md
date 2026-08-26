@@ -1,6 +1,7 @@
 ---
 title: "Adimen artifiziala ikastetxeko administrazioan"
 date: "2026-02-19"
+translationKey: "ia-gestion-escolar-casos-practicos"
 description: "AIren kasu praktikoak ikastetxeko administrazioan. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "AI ikastetxearen kudeaketa"

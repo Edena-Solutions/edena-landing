@@ -1,6 +1,7 @@
 ---
 title: "Nola aukeratu softwarea haur-eskola edo haurtzaindegi baterako 2026an"
 date: "2026-07-08"
+translationKey: "elegir-software-escuela-infantil-guarderia-2026"
 description: "Gida praktikoa zure haur-eskola edo haurtzaindegirako kudeaketa-softwarea aukeratzeko 2026an: agenda digitala, familiekiko komunikazioa, fakturazioa eta zer galdetu sinatu aurretik."
 tags:
     [

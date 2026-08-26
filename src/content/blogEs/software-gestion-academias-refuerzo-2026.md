@@ -1,6 +1,7 @@
 ---
 title: "Software de gestión para academias de refuerzo y extraescolares"
 date: "2026-05-13"
+translationKey: "software-gestion-academias-refuerzo-2026"
 description: "Qué necesita un software para academias de refuerzo escolar y extraescolares: horarios, asistencia, cobros por bloques y comunicación con familias en 2026."
 tags:
     [

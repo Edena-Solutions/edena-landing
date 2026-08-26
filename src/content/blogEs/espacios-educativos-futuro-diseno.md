@@ -1,6 +1,7 @@
 ---
 title: "Espacios educativos del futuro: Diseño e innovación para el aprendizaje moderno"
 date: "2025-08-25"
+translationKey: "espacios-educativos-futuro-diseno"
 description: "Diseño de espacios flexibles y DigEdu. Guía práctica para centros educativos en España (2026)."
 tags: ["espacios educativos", "diseño arquitectónico", "innovación", "aprendizaje flexible"]
 author: "ENA by Edena"

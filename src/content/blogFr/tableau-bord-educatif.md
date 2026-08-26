@@ -1,6 +1,7 @@
 ---
 title: "Tableau de bord pédagogique : le centre de contrôle pour la gestion stratégique"
 date: "2025-02-25"
+translationKey: "dashboard-educativo"
 description: "Tableau de bord comme centre de contrôle stratégique du centre. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "tableau de bord"

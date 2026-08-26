@@ -1,6 +1,7 @@
 ---
 title: "Seguridad de datos en centros educativos: Protegiendo el futuro digital"
 date: "2025-01-25"
+translationKey: "seguridad-datos-centros-educativos"
 description: "Medidas técnicas y organizativas de ciberseguridad. Guía práctica para centros educativos en España (2026)."
 tags: ["seguridad", "datos", "educación", "privacidad"]
 author: "ENA by Edena"

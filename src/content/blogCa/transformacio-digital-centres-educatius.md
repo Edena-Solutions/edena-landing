@@ -1,6 +1,7 @@
 ---
 title: "Transformació digital a centres educatius: De la resistència a l'èxit"
 date: "2024-12-15"
+translationKey: "transformacion-digital-centros-educativos"
 description: "Descobreix les estratègies clau per implementar amb èxit la transformació digital en centres educatius i superar els desafiaments comuns."
 tags:
     - "transformació digital"

@@ -1,6 +1,7 @@
 ---
 title: "Accessibilitat web en centres educatius: què exigeix l'EAA el 2026"
 date: "2026-06-17"
+translationKey: "accesibilidad-web-eaa-centros-educativos-2026"
 description: "Què implica la Llei Europea d'Accessibilitat (EAA) per a webs i apps de col·legis i acadèmies, i com complir sense refer-ho tot el 2026."
 tags:
     [

@@ -2227,6 +2227,9 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         ctaTitle: "Rejoignez les établissements qui travaillent déjà sans paperasse",
         ctaDescription:
             "Établissements utilisent Edena pour économiser plus de 37 heures par semaine sur les tâches administratives. Découvrez comment ça fonctionne avec une démo gratuite adaptée à votre type d’établissement.",
+        aiDisclaimer:
+            "Ce contenu a été généré par Ena, l'agent d'intelligence artificielle d'Edena. Il peut contenir des erreurs ou des inexactitudes et ne constitue pas un conseil juridique, fiscal ou professionnel. Edena ne garantit ni l'exactitude, ni l'exhaustivité, ni l'actualité des informations. Consultez les sources officielles et, le cas échéant, un professionnel qualifié avant toute décision.",
+        unsplashCredit: "L'image de couverture provient d'{source}.",
     },
     altText: {
         logo: "Logo Edena - Logiciel de gestion scolaire",

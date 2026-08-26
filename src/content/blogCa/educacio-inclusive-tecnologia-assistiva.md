@@ -1,6 +1,7 @@
 ---
 title: "Educació inclusiva i tecnologia asistiva: Creant aules per a tothom"
 date: "2025-08-05"
+translationKey: "educacion-inclusiva-tecnologia-asistiva"
 description: "Inclusió i tecnologia asistiva a l'aula ordinària. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "educació inclusiva"

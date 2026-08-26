@@ -1,6 +1,7 @@
 ---
 title: "La persévérance scolaire à l’ère du numérique : des stratégies efficaces"
 date: "2024-11-28"
+translationKey: "retencion-estudiantes-era-digital"
 description: "Découvrez comment la technologie peut contribuer à améliorer la rétention des élèves et à créer des expériences éducatives plus engageantes et personnalisées."
 tags:
     - "rétention"

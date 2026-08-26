@@ -1,6 +1,7 @@
 ---
 title: "Lanaldi-erregistroa hezkuntza-zentroetan: betebeharrak eta nola bete 2026an"
 date: "2026-07-19"
+translationKey: "registro-jornada-centros-educativos-2026"
 description: "Zer eskatzen dien lanaldi-erregistroak ikastetxe, haur-eskola eta akademiei 2026an: araudia, zigorrak, irakasleak eta nola eraman ordutegi-kontrola fitxaje-orririk gabe."
 tags:
     [

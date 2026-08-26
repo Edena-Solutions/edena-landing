@@ -1,6 +1,7 @@
 ---
 title: "Gestion du changement organisationnel dans les établissements scolaires : stratégies pour une transformation réussie"
 date: "2025-08-15"
+translationKey: "gestion-cambio-organizacional-educativo"
 description: "Apprenez à gérer efficacement les processus de changement organisationnel dans les établissements scolaires pour garantir des transformations réussies et durables."
 tags:
     - "gestion du changement"

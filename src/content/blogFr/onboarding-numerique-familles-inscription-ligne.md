@@ -1,6 +1,7 @@
 ---
 title: "Onboarding numérique des familles : inscrire les élèves sans paperasse"
 date: "2026-03-11"
+translationKey: "onboarding-digital-familias-matricula-online"
 description: "Inscription en ligne en établissement scolaire et inscription numérique des élèves : guide pour mettre en place l'onboarding numérique des familles et supprimer la paperasse."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "FUNDAE hobariak: nola kudeatu prestakuntza akademietan"
 date: "2026-05-06"
+translationKey: "bonificaciones-fundae-academias-formacion-2026"
 description: "Zer den FUNDAE prestakuntza bonifikatua, zer dokumentazio baldintza eskatzen dituen eta nola kudeatu akademietan hobaria galdu gabe 2026an."
 tags:
     [

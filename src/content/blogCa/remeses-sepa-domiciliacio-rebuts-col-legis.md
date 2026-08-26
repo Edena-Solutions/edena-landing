@@ -1,6 +1,7 @@
 ---
 title: "Remeses SEPA en col·legis: domiciliació de rebuts sense errors"
 date: "2026-04-29"
+translationKey: "remesas-sepa-domiciliacion-recibos-colegios"
 description: "Com funcionen les remeses SEPA en col·legis i llars d'infants, quins errors generen devolucions i com automatitzar la domiciliació de rebuts el 2026."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "ERP for Language Academies: What You Need in 2026"
 date: "2026-05-09"
+translationKey: "erp-academias-idiomas-2026"
 description: "What functions a language academy ERP needs: groups, levels, multi-site, recurring billing, and recruitment. 2026 guide for Spain."
 tags:
     - "language academy ERP"

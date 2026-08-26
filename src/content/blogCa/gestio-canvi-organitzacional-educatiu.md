@@ -1,6 +1,7 @@
 ---
 title: "Gestió del canvi organitzacional en centres educatius: Estratègies per a la transformació amb èxit"
 date: "2025-08-15"
+translationKey: "gestion-cambio-organizacional-educativo"
 description: "Aprèn com gestionar efectivament els processos de canvi organitzacional a centres educatius per assegurar transformacions reeixides i sostenibles."
 tags:
     - "gestió del canvi"

@@ -1,6 +1,7 @@
 ---
 title: "Gestion des documents numériques : l'avenir de l'administration scolaire"
 date: "2025-01-18"
+translationKey: "gestion-documental-digital-centros"
 description: "Gouvernance, permis et conservation des documents. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "documents"

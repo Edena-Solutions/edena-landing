@@ -1,6 +1,7 @@
 ---
 title: "Students in the digital age: Technological natives"
 date: "2025-03-05"
+translationKey: "estudiantes-era-digital"
 description: "Discover how today's students interact with technology and how schools can take advantage of this reality."
 tags:
     - "students"

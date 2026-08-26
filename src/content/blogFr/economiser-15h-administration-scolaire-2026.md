@@ -1,6 +1,7 @@
 ---
 title: "Comment économiser 15 heures par semaine en administration scolaire"
 date: "2026-04-12"
+translationKey: "ahorrar-15-horas-administracion-escolar-2026"
 description: "Automatisez la facturation, les inscriptions et les documents pour récupérer 15 heures chaque semaine. Guide pratique avec des métriques réelles."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "Gestió multiseu: com dirigir diversos centres amb un sol sistema"
 date: "2026-06-06"
+translationKey: "gestion-multisede-grupos-educativos-2026"
 description: "Com gestionar grups educatius i centres multiseu amb dades consolidades, criteris comuns i autonomia per seu, sense multiplicar el caos el 2026."
 tags:
     [

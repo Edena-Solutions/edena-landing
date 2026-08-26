@@ -1,6 +1,7 @@
 ---
 title: "Méthodologies pédagogiques innovantes : transformer le processus d’enseignement-apprentissage"
 date: "2025-08-10"
+translationKey: "metodologias-pedagogicas-innovadoras"
 description: "Méthodologies actives alignées sur LOMLOE. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "méthodologies pédagogiques"

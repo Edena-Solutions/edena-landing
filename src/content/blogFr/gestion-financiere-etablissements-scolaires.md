@@ -1,6 +1,7 @@
 ---
 title: "Gestion financière intelligente pour les établissements scolaires"
 date: "2025-02-10"
+translationKey: "gestion-financiera-centros-educativos"
 description: "Vision de la gestion financière : trésorerie, reporting et trésorerie. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "finance"

@@ -1,6 +1,7 @@
 ---
 title: "Mugikorretarako aplikazioak hezkuntzan: esperientzia digitala zure poltsikoan"
 date: "2025-04-15"
+translationKey: "app-movil-educacion"
 description: "Mugikorretarako aplikazioaren papera eskola-familia harremanean. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "apps móviles"

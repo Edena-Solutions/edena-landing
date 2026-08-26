@@ -1,6 +1,7 @@
 ---
 title: "Analítica del rendiment acadèmic: Dades per potenciar laprenentatge"
 date: "2025-01-10"
+translationKey: "analitica-rendimiento-academico"
 description: "Analítica de rendiment acadèmic a l'aula. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "analítica"

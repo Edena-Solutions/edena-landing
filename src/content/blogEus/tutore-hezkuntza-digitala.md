@@ -1,6 +1,7 @@
 ---
 title: "Zaindariak hezkuntza digitalean: familien rola"
 date: "2025-03-01"
+translationKey: "guardianes-educacion-digital"
 description: "Familiek adingabeen erabilera digitalaren tutore gisa duten eginkizuna. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "familias"

@@ -1,6 +1,7 @@
 ---
 title: "Management of organizational change in educational centers: Strategies for successful transformation"
 date: "2025-08-15"
+translationKey: "gestion-cambio-organizacional-educativo"
 description: "Learn how to effectively manage organizational change processes in educational centers to ensure successful and sustainable transformations."
 tags:
     - "change management"

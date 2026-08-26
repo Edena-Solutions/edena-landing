@@ -1,6 +1,7 @@
 ---
 title: "Document management in schools: goodbye to paper and lost files"
 date: "2026-04-01"
+translationKey: "gestion-documental-colegios-expediente-digital-2026"
 description: "Document management and digital file pillar. Practical guide for educational centers in Spain (2026)."
 tags:
     - "school document management"

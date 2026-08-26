@@ -1,6 +1,7 @@
 ---
 title: "Guardians a l'educació digital: El paper de les famílies"
 date: "2025-03-01"
+translationKey: "guardianes-educacion-digital"
 description: "Paper de les famílies com a guardians de lús digital del menor. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "famílies"

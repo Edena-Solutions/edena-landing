@@ -1,6 +1,7 @@
 ---
 title: "Crea y Crece Law: B2B E-Invoicing for Schools and Academies"
 date: "2026-04-22"
+translationKey: "ley-crea-y-crece-factura-electronica-centros-2026"
 description: "What mandatory business-to-business e-invoicing means for schools and academies in Spain and how to prepare in 2026."
 tags:
     - "Crea y Crece law"
@@ -15,7 +16,7 @@ relatedPosts:
     - electronic-billing-verifactu-education-2026
     - verifactu-education-integration
     - automated-school-billing
-    - erp-accounting-firm-integration
+    - erp-accountant-integration-schools-2026
 faqs:
     - question: "Does the Crea y Crece Law require e-invoicing families?"
       answer: "No. The e-invoicing obligation of the Crea y Crece Law applies to operations between companies and self-employed professionals (B2B). The relationship with families is governed by general invoicing rules and, where applicable, by Verifactu. What changes is how you invoice other businesses: suppliers, companies that contract training, outsourced canteens, or services between sites."

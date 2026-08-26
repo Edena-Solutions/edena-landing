@@ -1,6 +1,7 @@
 ---
 title: "Crisis management in educational centers: Protocols and strategies for continuity"
 date: "2025-08-01"
+translationKey: "gestion-crisis-centros-educativos"
 description: "Crisis and continuity protocols in Spanish centers. Practical guide for educational centers in Spain (2026)."
 tags:
     - "crisis management"

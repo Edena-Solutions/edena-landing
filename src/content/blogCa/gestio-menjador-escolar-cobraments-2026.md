@@ -1,6 +1,7 @@
 ---
 title: "Gestió del menjador escolar: altes, baixes i cobraments automatitzats"
 date: "2026-05-20"
+translationKey: "gestion-comedor-escolar-cobros-2026"
 description: "Com gestionar el menjador escolar sense Excel: altes i baixes diàries, dies solts, al·lèrgens i cobraments automàtics en col·legis i llars d'infants el 2026."
 tags:
     [

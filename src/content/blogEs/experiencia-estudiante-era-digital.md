@@ -1,6 +1,7 @@
 ---
 title: "Experiencia del estudiante en la era digital: Más allá del aprendizaje tradicional"
 date: "2024-09-01"
+translationKey: "experiencia-estudiante-era-digital"
 description: "Descubre cómo crear experiencias estudiantiles excepcionales que combinen tecnología, personalización y conexión humana."
 tags: ["experiencia estudiante", "personalización", "engagement", "tecnología"]
 author: "ENA by Edena"

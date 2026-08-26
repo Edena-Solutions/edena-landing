@@ -1,6 +1,7 @@
 ---
 title: "L'experiència d'usuari: clau en l'adopció de tecnologia educativa"
 date: "2025-01-20"
+translationKey: "experiencia-usuario-tecnologia-educativa"
 description: "Descobreix per què lexperiència dusuari és fonamental per a lèxit de la tecnologia educativa i com dissenyar solucions que els usuaris realment vulguin utilitzar."
 tags:
     - "UX"

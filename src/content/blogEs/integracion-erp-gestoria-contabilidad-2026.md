@@ -1,6 +1,7 @@
 ---
 title: "Integración del ERP escolar con la gestoría: contabilidad sin doble trabajo"
 date: "2026-06-25"
+translationKey: "integracion-erp-gestoria-contabilidad-2026"
 description: "Cómo conectar el ERP del centro con la gestoría para evitar el doble trabajo contable, reducir errores y cerrar el mes sin estrés en 2026."
 tags:
     [

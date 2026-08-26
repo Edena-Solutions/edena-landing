@@ -1,6 +1,7 @@
 ---
 title: "Compétence numérique pour les éducateurs : préparer les enseignants de demain"
 date: "2024-09-30"
+translationKey: "competencia-digital-educadores"
 description: "Découvrez les compétences numériques essentielles dont les enseignants ont besoin pour préparer leurs élèves au monde numérique."
 tags:
     - "compétence numérique"

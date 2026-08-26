@@ -1,6 +1,7 @@
 ---
 title: "Guia SEO per a centres educatius: aparèixer a Google"
 date: "2026-02-12"
+translationKey: "seo-centros-educativos"
 description: "SEO local per captar famílies a Google. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "SEO centres educatius"

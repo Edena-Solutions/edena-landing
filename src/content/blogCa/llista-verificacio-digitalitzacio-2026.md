@@ -1,6 +1,7 @@
 ---
 title: "Checklist de digitalització 2026 pel teu centre educatiu"
 date: "2026-02-24"
+translationKey: "checklist-digitalizacion-2026"
 description: "Roadmap 90 dies de digitalització administrativa. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "digitalització centres educatius 2026"

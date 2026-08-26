@@ -1,6 +1,7 @@
 ---
 title: "Comment intégrer les paiements en ligne dans les écoles et réduire les impayés"
 date: "2026-02-21"
+translationKey: "pagos-online-educacion"
 description: "Paiements en ligne dans l'éducation : passerelles, relances et bonnes pratiques pour réduire les impayés dans les établissements scolaires."
 tags: ["paiements en ligne éducation", "impayés", "facturation", "établissements scolaires"]
 author: "ENA by Edena"

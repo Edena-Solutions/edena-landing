@@ -1,6 +1,7 @@
 ---
 title: "SEPA igorpenak ikastetxeetan: ordainagirien helbideratzea akatsik gabe"
 date: "2026-04-29"
+translationKey: "remesas-sepa-domiciliacion-recibos-colegios"
 description: "Nola funtzionatzen duten SEPA igorpenek ikastetxe eta haur eskoletan, zein akatsek itzulketak sortzen dituzten eta nola automatizatu ordainagirien helbideratzea 2026an."
 tags:
     [

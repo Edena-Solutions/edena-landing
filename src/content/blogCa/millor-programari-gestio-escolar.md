@@ -1,6 +1,7 @@
 ---
 title: "Com triar el millor programari de gestió escolar"
 date: "2026-02-03"
+translationKey: "mejor-software-gestion-escolar"
 description: "Errors freqüents i criteris de decisió en triar ERP. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "programari gestió escolar"

@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import TopGlow from "@/components/TopGlow.astro";
 import { homeBreadcrumbName } from "@/lib/breadcrumb";
 import { blogCollectionForLang } from "@/lib/blog-collection";
+import { blogAlternatesFor } from "@/lib/blog-translations";
 import { ogFromAsset } from "@/lib/og-image";
 import defaultBlogOg from "@/assets/img/screenshots/shared/hero.png";
 import Conclusion from "@/modules/home/Conclusion.astro";
@@ -88,6 +89,11 @@ const postUrl = `https://edena.es/${langPrefix}blog/${slug}`;
 const blogUrl = `https://edena.es/${langPrefix}blog`;
 const homeUrl = `https://edena.es/${langPrefix}`;
 
+const alternates = await blogAlternatesFor(lang, slug);
+const coverIsUnsplash = Boolean(post.data.cover?.includes("unsplash.com"));
+const [unsplashCreditBefore, unsplashCreditAfter] =
+    t.blog.unsplashCredit.split("{source}");
+
 const publishedDate = new Date(post.data.date).toISOString();
 const ogMeta = post.data.cover
     ? { ogImage: post.data.cover, ogImageWidth: "1200", ogImageHeight: "630" }
@@ -103,6 +109,7 @@ const ogMeta = post.data.cover
         articlePublishedTime: publishedDate,
     }}
     lang={lang}
+    alternates={alternates}
 >
     <div class="max-w-7xl mx-auto py-6 px-4">
         <Link href={`/${langPrefix}blog/`} className="text-sm flex items-center gap-2">
@@ -168,6 +175,26 @@ const ogMeta = post.data.cover
                         </section>
                     )
                 }
+                <p class="mt-8 text-xs leading-relaxed text-muted-foreground">
+                    {t.blog.aiDisclaimer}
+                    {
+                        coverIsUnsplash && (
+                            <>
+                                {" "}
+                                {unsplashCreditBefore}
+                                <a
+                                    href="https://unsplash.com"
+                                    class="underline underline-offset-2 hover:text-foreground"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
+                                    Unsplash
+                                </a>
+                                {unsplashCreditAfter}
+                            </>
+                        )
+                    }
+                </p>
                 <div class="mt-8">
                     <Conclusion lang={lang} isSimplified={true} />
                 </div>

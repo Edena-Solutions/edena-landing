@@ -1,6 +1,7 @@
 ---
 title: "Eskola jantokiaren kudeaketa: alta, baja eta kobro automatizatuak"
 date: "2026-05-20"
+translationKey: "gestion-comedor-escolar-cobros-2026"
 description: "Nola kudeatu eskola jantokia Excel gabe: eguneroko alta eta bajak, egun solteak, alergenoak eta kobro automatikoak ikastetxe eta haur eskoletan 2026an."
 tags:
     [

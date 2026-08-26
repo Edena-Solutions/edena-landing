@@ -1,6 +1,7 @@
 ---
 title: "Espaces éducatifs du futur : conception et innovation pour un apprentissage moderne"
 date: "2025-08-25"
+translationKey: "espacios-educativos-futuro-diseno"
 description: "Conception d'espaces flexibles et DigEdu. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "espaces éducatifs"

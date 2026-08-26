@@ -1,6 +1,7 @@
 ---
 title: "Impacto de la digitalización en la retención de alumnos"
 date: "2026-02-07"
+translationKey: "digitalizacion-retencion-alumnos"
 description: "Procesos admin que mejoran retención y reducen bajas. Guía práctica para centros educativos en España (2026)."
 tags: ["retención escolar", "digitalización", "centros educativos", "administración"]
 author: "ENA by Edena"

@@ -1,6 +1,7 @@
 ---
 title: "Gestion des bourses et aides dans les établissements : du chaos papier au contrôle total"
 date: "2026-06-10"
+translationKey: "gestion-becas-ayudas-centros-educativos-2026"
 description: "Comment gérer les bourses et aides dans les écoles et académies : demandes, documentation, remises et justification, sans perdre de délais ni d'équilibres en 2026."
 tags:
     [

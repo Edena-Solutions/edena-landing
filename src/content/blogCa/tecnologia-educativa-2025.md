@@ -1,6 +1,7 @@
 ---
 title: "Tendències en tecnologia educativa per al 2025: El futur de l'aprenentatge"
 date: "2025-01-30"
+translationKey: "tecnologia-educativa-2025"
 description: "Explora les tecnologies emergents que estan transformant l'educació i com els centres educatius es poden preparar per al futur digital."
 tags:
     - "tecnologia"

@@ -1,6 +1,7 @@
 ---
 title: "Lideratge educatiu transformacional a l'era digital: Competències i estratègies"
 date: "2025-09-15"
+translationKey: "liderazgo-educativo-transformacional-digital"
 description: "Lideratge de direcció en projectes digitals escolars. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "lideratge educatiu"

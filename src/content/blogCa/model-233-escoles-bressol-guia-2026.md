@@ -1,6 +1,7 @@
 ---
 title: "Model 233 per a llars d'infants i escoles bressol: guia pràctica"
 date: "2026-07-14"
+translationKey: "modelo-233-guarderias-guia-2026"
 description: "Què és el model 233, quines llars d'infants i escoles bressol l'han de presentar, quines dades exigeix l'AEAT i com preparar la declaració de gener sense tornar boig el teu equip."
 tags:
     [

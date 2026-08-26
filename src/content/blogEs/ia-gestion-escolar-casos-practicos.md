@@ -1,6 +1,7 @@
 ---
 title: "Inteligencia artificial en la administración escolar"
 date: "2026-02-19"
+translationKey: "ia-gestion-escolar-casos-practicos"
 description: "Casos prácticos de IA en administración escolar. Guía práctica para centros educativos en España (2026)."
 tags: ["IA gestión escolar", "inteligencia artificial", "automatización", "administración"]
 author: "ENA by Edena"

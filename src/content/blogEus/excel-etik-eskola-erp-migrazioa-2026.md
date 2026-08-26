@@ -1,6 +1,7 @@
 ---
 title: "Excel-etik eskola ERP batera migratzea: datuak galdu gabeko gida"
 date: "2026-05-27"
+translationKey: "migrar-excel-erp-escolar-2026"
 description: "Nola migratu Excel-etik eskola ERP batera urratsez urrats, datu kritikoak galdu gabe edo zentroaren kudeaketa gelditu gabe, 2026an."
 tags:
     [

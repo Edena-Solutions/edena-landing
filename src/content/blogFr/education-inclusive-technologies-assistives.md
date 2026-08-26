@@ -1,6 +1,7 @@
 ---
 title: "Éducation inclusive et technologies d’assistance : créer des salles de classe pour tous"
 date: "2025-08-05"
+translationKey: "educacion-inclusiva-tecnologia-asistiva"
 description: "Inclusion et technologies d'assistance dans la classe ordinaire. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "éducation inclusive"

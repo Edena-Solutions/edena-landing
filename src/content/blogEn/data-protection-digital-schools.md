@@ -1,6 +1,7 @@
 ---
 title: "Data protection in the digital management of schools"
 date: "2026-02-14"
+translationKey: "proteccion-datos-escuela-digital"
 description: "GDPR/LOPDGDD pillar for centers and minors. Practical guide for educational centers in Spain (2026)."
 tags:
     - "data protection digital school"

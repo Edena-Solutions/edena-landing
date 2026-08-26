@@ -1,6 +1,7 @@
 ---
 title: "Gestió de beques i ajuts en centres: del caos de papers al control total"
 date: "2026-06-10"
+translationKey: "gestion-becas-ayudas-centros-educativos-2026"
 description: "Com gestionar beques i ajuts en col·legis i acadèmies: sol·licituds, documentació, descomptes i justificació, sense perdre terminis ni quadres el 2026."
 tags:
     [

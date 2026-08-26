@@ -1,6 +1,7 @@
 ---
 title: "Verifactu dans l'éducation : la conformité réglementaire facilitée"
 date: "2025-07-25"
+translationKey: "verifactu-integracion-educacion"
 description: "Introduction à Verifactu pour les centres (satellite du pilier réglementaire). Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "vérification"

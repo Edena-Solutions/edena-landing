@@ -1,6 +1,7 @@
 ---
 title: "Communication institutionnelle avec les familles : stratégies à l'ère du numérique"
 date: "2025-03-10"
+translationKey: "comunicacion-familias-era-digital"
 description: "Découvrez comment développer des stratégies de communication institutionnelles efficaces qui renforcent la relation entre les établissements scolaires et les familles."
 tags:
     - "communication institutionnelle"

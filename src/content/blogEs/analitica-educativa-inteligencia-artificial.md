@@ -1,6 +1,7 @@
 ---
 title: "Analítica educativa e inteligencia artificial: Datos que transforman la educación"
 date: "2024-09-15"
+translationKey: "analitica-educativa-inteligencia-artificial"
 description: "IA aplicada a analítica de aprendizaje (ángulo pedagógico). Guía práctica para centros educativos en España (2026)."
 tags: ["analítica", "inteligencia artificial", "datos", "decisiones"]
 author: "ENA by Edena"

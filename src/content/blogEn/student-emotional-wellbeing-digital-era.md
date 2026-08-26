@@ -1,6 +1,7 @@
 ---
 title: "Emotional well-being of students in the digital age: Strategies and tools"
 date: "2025-08-30"
+translationKey: "bienestar-emocional-estudiantes-digitales"
 description: "Emotional well-being and balanced use of screens. Practical guide for educational centers in Spain (2026)."
 tags:
     - "emotional well-being"

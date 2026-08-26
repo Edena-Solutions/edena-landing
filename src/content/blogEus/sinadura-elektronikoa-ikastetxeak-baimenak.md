@@ -1,6 +1,7 @@
 ---
 title: "Sinadura elektronikoa ikastetxeetan: baimenak eta matrikulak paperik gabe"
 date: "2026-05-16"
+translationKey: "firma-electronica-colegios-autorizaciones"
 description: "Nola erabili sinadura elektronikoa ikastetxeetan baimen, matrikula eta baimenetarako, baliotasunarekin eta trazabilitatearekin, 2026an."
 tags:
     [

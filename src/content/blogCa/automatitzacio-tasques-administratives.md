@@ -1,6 +1,7 @@
 ---
 title: "Automatització de tasques administratives: Allibera temps per a l'educació"
 date: "2025-07-15"
+translationKey: "automatizacion-tareas-administrativas"
 description: "Automatització general de tasques admin repetitives. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "automatització"

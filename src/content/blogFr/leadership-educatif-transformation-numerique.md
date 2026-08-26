@@ -1,6 +1,7 @@
 ---
 title: "Leadership éducatif transformationnel à l’ère numérique : compétences et stratégies"
 date: "2025-09-15"
+translationKey: "liderazgo-educativo-transformacional-digital"
 description: "Leadership de gestion dans les projets numériques scolaires. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "leadership pédagogique"

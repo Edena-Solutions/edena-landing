@@ -1,6 +1,7 @@
 ---
 title: "Automatic Enrollment Renewal: How to Streamline Re-enrollment in 2026"
 date: "2026-06-21"
+translationKey: "renovacion-automatica-matricula-2026"
 description: "How to automate enrollment renewal in schools and academies to reduce withdrawals, save management work, and deliver a frictionless experience in 2026."
 tags:
     - "enrollment renewal"

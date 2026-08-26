@@ -1,6 +1,7 @@
 ---
 title: "Gardiens de l’éducation numérique : le rôle des familles"
 date: "2025-03-01"
+translationKey: "guardianes-educacion-digital"
 description: "Rôle des familles en tant que gardiennes des usages numériques des mineurs. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "familles"

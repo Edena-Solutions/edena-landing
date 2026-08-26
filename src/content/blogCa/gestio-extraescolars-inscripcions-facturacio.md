@@ -1,6 +1,7 @@
 ---
 title: "Gestió d'activitats extraescolars: inscripcions i facturació"
 date: "2026-05-23"
+translationKey: "gestion-extraescolares-inscripciones-facturacion"
 description: "Com gestionar les extraescolars d'un col·legi sense caos: inscripcions en línia, places, llistes d'espera i facturació de cada activitat el 2026."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "LOPIVI dans les établissements : coordinateur de bien-être et gestion numérique"
 date: "2026-04-25"
+translationKey: "lopivi-coordinador-bienestar-centros-2026"
 description: "Ce que la LOPIVI exige des écoles et académies, le rôle du coordinateur de bien-être et comment le soutenir avec des outils numériques en 2026."
 tags:
     [

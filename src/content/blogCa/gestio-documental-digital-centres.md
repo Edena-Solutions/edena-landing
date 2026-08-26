@@ -1,6 +1,7 @@
 ---
 title: "Gestió documental digital: el futur de ladministració escolar"
 date: "2025-01-18"
+translationKey: "gestion-documental-digital-centros"
 description: "Governança, permisos i retenció documental. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "documents"

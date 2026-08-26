@@ -1,6 +1,7 @@
 ---
 title: "Gestión documental digital: el futuro de la administración escolar"
 date: "2025-01-18"
+translationKey: "gestion-documental-digital-centros"
 description: "Gobernanza, permisos y retención documental. Guía práctica para centros educativos en España (2026)."
 tags: ["documentos", "digital", "gestión", "educación"]
 author: "ENA by Edena"

@@ -1,6 +1,7 @@
 ---
 title: "Gestión documental en colegios: adiós al papel y a los expedientes perdidos"
 date: "2026-04-01"
+translationKey: "gestion-documental-colegios-expediente-digital-2026"
 description: "Pilar gestión documental y expediente digital. Guía práctica para centros educativos en España (2026)."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "Impacte de la digitalització a la retenció d'alumnes"
 date: "2026-02-07"
+translationKey: "digitalizacion-retencion-alumnos"
 description: "Processos admin que milloren retenció i redueixen baixes. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "retenció escolar"

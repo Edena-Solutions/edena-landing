@@ -1,6 +1,7 @@
 ---
 title: "Prélèvements SEPA dans les écoles : encaissement des reçus sans erreurs"
 date: "2026-04-29"
+translationKey: "remesas-sepa-domiciliacion-recibos-colegios"
 description: "Comment fonctionnent les remises SEPA dans les écoles et crèches, quelles erreurs provoquent des rejets et comment automatiser le prélèvement des reçus en 2026."
 tags:
     [

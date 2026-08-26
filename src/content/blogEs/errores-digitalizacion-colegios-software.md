@@ -1,6 +1,7 @@
 ---
 title: "Digitalización en colegios: 7 errores que cometen los centros al implementar software educativo"
 date: "2026-03-05"
+translationKey: "errores-digitalizacion-colegios-software"
 description: "7 errores al implantar software y cómo evitarlos. Guía práctica para centros educativos en España (2026)."
 tags: ["digitalización educativa", "software para colegios", "implementación", "errores"]
 author: "ENA by Edena"

@@ -1,6 +1,7 @@
 ---
 title: "Automatic Bank Reconciliation in Educational Centers"
 date: "2026-05-02"
+translationKey: "conciliacion-bancaria-automatica-centros-educativos"
 description: "What bank reconciliation is, why it consumes so many hours in schools, and how to automate it to close the month without mismatches in 2026."
 tags:
     - "bank reconciliation schools"

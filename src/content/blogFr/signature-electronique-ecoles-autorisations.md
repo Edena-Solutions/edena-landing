@@ -1,6 +1,7 @@
 ---
 title: "Signature électronique dans les écoles : autorisations et inscriptions sans papier"
 date: "2026-05-16"
+translationKey: "firma-electronica-colegios-autorizaciones"
 description: "Comment utiliser la signature électronique dans les écoles pour les autorisations, inscriptions et consentements, avec validité et traçabilité, en 2026."
 tags:
     [

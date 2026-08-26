@@ -1,6 +1,7 @@
 ---
 title: "Sécurité des données dans les établissements scolaires : protéger l'avenir numérique"
 date: "2025-01-25"
+translationKey: "seguridad-datos-centros-educativos"
 description: "Mesures techniques et organisationnelles de cybersécurité. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "sécurité"

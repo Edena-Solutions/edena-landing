@@ -1,6 +1,7 @@
 ---
 title: "ERP pour académies de langues : ce qu'il vous faut en 2026"
 date: "2026-05-09"
+translationKey: "erp-academias-idiomas-2026"
 description: "Quelles fonctions un ERP pour académie de langues nécessite : groupes, niveaux, multisite, facturation récurrente et captation. Guide 2026 pour l'Espagne."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "Tendencias en tecnología educativa para 2025: El futuro del aprendizaje"
 date: "2025-01-30"
+translationKey: "tecnologia-educativa-2025"
 description: "Explora las tecnologías emergentes que están transformando la educación y cómo los centros educativos pueden prepararse para el futuro digital."
 tags: ["tecnología", "educación", "innovación", "tendencias"]
 author: "ENA by Edena"

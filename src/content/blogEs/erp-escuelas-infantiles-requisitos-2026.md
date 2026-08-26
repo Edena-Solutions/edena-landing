@@ -1,6 +1,7 @@
 ---
 title: "Qué debe tener un ERP para escuelas infantiles en 2026"
 date: "2026-04-08"
+translationKey: "erp-escuelas-infantiles-requisitos-2026"
 description: "Requisitos específicos de ERP para escuelas infantiles. Guía práctica para centros educativos en España (2026)."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "Comment choisir un logiciel pour une crèche ou une école maternelle en 2026"
 date: "2026-07-08"
+translationKey: "elegir-software-escuela-infantil-guarderia-2026"
 description: "Guide pratique pour choisir le logiciel de gestion de votre crèche ou maternelle en 2026 : agenda numérique, communication avec les familles, facturation et quoi demander avant de signer."
 tags:
     [

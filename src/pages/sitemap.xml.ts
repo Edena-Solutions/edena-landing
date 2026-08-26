@@ -1,4 +1,5 @@
 import { getCollection } from "astro:content";
+import { alternatesForKey, buildBlogTranslationIndex } from "@/lib/blog-translations";
 
 export async function GET() {
     const base = "https://edena.es";
@@ -189,155 +190,54 @@ export async function GET() {
         })),
     ]);
 
-    const blogEsUrls: SitemapUrl[] = blogEsPosts.map((post) => {
-        const postDate = post.data.date.split("T")[0];
-        const images: Array<{ loc: string; title?: string }> = [];
+    const translationIndex = await buildBlogTranslationIndex();
 
-        if (post.data.cover) {
-            const imageUrl = post.data.cover.startsWith("http")
-                ? post.data.cover
-                : `${base}${post.data.cover.startsWith("/") ? "" : "/"}${post.data.cover}`;
-            images.push({
-                loc: imageUrl,
-                title: post.data.title,
-            });
-        }
+    /**
+     * One entry per blog post. Alternates come from the article's translation
+     * group, so the five language versions point at each other; a post without
+     * a group falls back to declaring only itself.
+     */
+    const blogUrlsFor = (
+        posts: Array<{
+            slug: string;
+            data: { date: string; title: string; cover?: string; translationKey?: string };
+        }>,
+        prefix: string,
+        ownHreflang: string,
+    ): SitemapUrl[] =>
+        posts.map((post) => {
+            const images: Array<{ loc: string; title?: string }> = [];
 
-        return {
-            path: `/blog/${post.slug}/`,
-            priority: "0.7",
-            changefreq: "monthly",
-            lastmod: postDate,
-            hreflangLinks: [
-                { hreflang: "x-default", href: `${base}/blog/${post.slug}/` },
-                { hreflang: "es", href: `${base}/es/blog/${post.slug}/` },
-            ],
-            images: images.length > 0 ? images : undefined,
-        };
-    });
+            if (post.data.cover) {
+                const imageUrl = post.data.cover.startsWith("http")
+                    ? post.data.cover
+                    : `${base}${post.data.cover.startsWith("/") ? "" : "/"}${post.data.cover}`;
+                images.push({ loc: imageUrl, title: post.data.title });
+            }
 
-    const blogEsUrlsWithPrefix: SitemapUrl[] = blogEsPosts.map((post) => {
-        const postDate = post.data.date.split("T")[0];
-        const images: Array<{ loc: string; title?: string }> = [];
+            const groupAlternates = post.data.translationKey
+                ? alternatesForKey(translationIndex, post.data.translationKey)
+                : [];
 
-        if (post.data.cover) {
-            const imageUrl = post.data.cover.startsWith("http")
-                ? post.data.cover
-                : `${base}${post.data.cover.startsWith("/") ? "" : "/"}${post.data.cover}`;
-            images.push({
-                loc: imageUrl,
-                title: post.data.title,
-            });
-        }
+            return {
+                path: `${prefix}blog/${post.slug}/`,
+                priority: "0.7",
+                changefreq: "monthly",
+                lastmod: post.data.date.split("T")[0],
+                hreflangLinks:
+                    groupAlternates.length > 0
+                        ? groupAlternates
+                        : [{ hreflang: ownHreflang, href: `${base}${prefix}blog/${post.slug}/` }],
+                images: images.length > 0 ? images : undefined,
+            };
+        });
 
-        return {
-            path: `/es/blog/${post.slug}/`,
-            priority: "0.7",
-            changefreq: "monthly",
-            lastmod: postDate,
-            hreflangLinks: [
-                { hreflang: "x-default", href: `${base}/blog/${post.slug}/` },
-                { hreflang: "es", href: `${base}/es/blog/${post.slug}/` },
-            ],
-            images: images.length > 0 ? images : undefined,
-        };
-    });
-
-    const blogEnUrls: SitemapUrl[] = blogEnPosts.map((post) => {
-        const postDate = post.data.date.split("T")[0];
-        const images: Array<{ loc: string; title?: string }> = [];
-
-        if (post.data.cover) {
-            const imageUrl = post.data.cover.startsWith("http")
-                ? post.data.cover
-                : `${base}${post.data.cover.startsWith("/") ? "" : "/"}${post.data.cover}`;
-            images.push({
-                loc: imageUrl,
-                title: post.data.title,
-            });
-        }
-
-        return {
-            path: `/en/blog/${post.slug}/`,
-            priority: "0.7",
-            changefreq: "monthly",
-            lastmod: postDate,
-            hreflangLinks: [{ hreflang: "en", href: `${base}/en/blog/${post.slug}/` }],
-            images: images.length > 0 ? images : undefined,
-        };
-    });
-
-    const blogCaUrls: SitemapUrl[] = blogCaPosts.map((post) => {
-        const postDate = post.data.date.split("T")[0];
-        const images: Array<{ loc: string; title?: string }> = [];
-
-        if (post.data.cover) {
-            const imageUrl = post.data.cover.startsWith("http")
-                ? post.data.cover
-                : `${base}${post.data.cover.startsWith("/") ? "" : "/"}${post.data.cover}`;
-            images.push({
-                loc: imageUrl,
-                title: post.data.title,
-            });
-        }
-
-        return {
-            path: `/ca/blog/${post.slug}/`,
-            priority: "0.7",
-            changefreq: "monthly",
-            lastmod: postDate,
-            hreflangLinks: [{ hreflang: "ca", href: `${base}/ca/blog/${post.slug}/` }],
-            images: images.length > 0 ? images : undefined,
-        };
-    });
-
-    const blogEusUrls: SitemapUrl[] = blogEusPosts.map((post) => {
-        const postDate = post.data.date.split("T")[0];
-        const images: Array<{ loc: string; title?: string }> = [];
-
-        if (post.data.cover) {
-            const imageUrl = post.data.cover.startsWith("http")
-                ? post.data.cover
-                : `${base}${post.data.cover.startsWith("/") ? "" : "/"}${post.data.cover}`;
-            images.push({
-                loc: imageUrl,
-                title: post.data.title,
-            });
-        }
-
-        return {
-            path: `/eus/blog/${post.slug}/`,
-            priority: "0.7",
-            changefreq: "monthly",
-            lastmod: postDate,
-            hreflangLinks: [{ hreflang: "eu", href: `${base}/eus/blog/${post.slug}/` }],
-            images: images.length > 0 ? images : undefined,
-        };
-    });
-
-    const blogFrUrls: SitemapUrl[] = blogFrPosts.map((post) => {
-        const postDate = post.data.date.split("T")[0];
-        const images: Array<{ loc: string; title?: string }> = [];
-
-        if (post.data.cover) {
-            const imageUrl = post.data.cover.startsWith("http")
-                ? post.data.cover
-                : `${base}${post.data.cover.startsWith("/") ? "" : "/"}${post.data.cover}`;
-            images.push({
-                loc: imageUrl,
-                title: post.data.title,
-            });
-        }
-
-        return {
-            path: `/fr/blog/${post.slug}/`,
-            priority: "0.7",
-            changefreq: "monthly",
-            lastmod: postDate,
-            hreflangLinks: [{ hreflang: "fr", href: `${base}/fr/blog/${post.slug}/` }],
-            images: images.length > 0 ? images : undefined,
-        };
-    });
+    const blogEsUrls = blogUrlsFor(blogEsPosts, "/", "es");
+    const blogEsUrlsWithPrefix = blogUrlsFor(blogEsPosts, "/es/", "es");
+    const blogEnUrls = blogUrlsFor(blogEnPosts, "/en/", "en");
+    const blogCaUrls = blogUrlsFor(blogCaPosts, "/ca/", "ca");
+    const blogEusUrls = blogUrlsFor(blogEusPosts, "/eus/", "eu");
+    const blogFrUrls = blogUrlsFor(blogFrPosts, "/fr/", "fr");
 
     const allUrls = [
         ...staticUrls,

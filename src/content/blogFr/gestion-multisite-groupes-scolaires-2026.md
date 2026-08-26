@@ -1,6 +1,7 @@
 ---
 title: "Gestion multisite : comment diriger plusieurs établissements avec un seul système"
 date: "2026-06-06"
+translationKey: "gestion-multisede-grupos-educativos-2026"
 description: "Comment gérer des groupes scolaires et des établissements multisites avec des données consolidées, des critères communs et une autonomie par site, sans multiplier le chaos en 2026."
 tags:
     [

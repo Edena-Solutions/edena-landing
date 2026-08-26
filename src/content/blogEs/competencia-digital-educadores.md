@@ -1,6 +1,7 @@
 ---
 title: "Competencia digital para educadores: Preparando a los profesores del futuro"
 date: "2024-09-30"
+translationKey: "competencia-digital-educadores"
 description: "Descubre las competencias digitales esenciales que los educadores necesitan para preparar a sus estudiantes para el mundo digital."
 tags: ["competencia digital", "formación docente", "tecnología", "educadores"]
 author: "ENA by Edena"

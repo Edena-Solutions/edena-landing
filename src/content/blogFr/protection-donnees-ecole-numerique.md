@@ -1,6 +1,7 @@
 ---
 title: "Protection des données dans la gestion numérique des écoles"
 date: "2026-02-14"
+translationKey: "proteccion-datos-escuela-digital"
 description: "Guide pratique de la protection des données à l'école numérique pour les directions : GDPR, responsabilités et bonnes pratiques."
 tags: ["protection données école numérique", "GDPR", "sécurité", "direction"]
 author: "ENA by Edena"

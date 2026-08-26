@@ -1,6 +1,7 @@
 ---
 title: "Edena y la sostenibilidad digital en centros educativos"
 date: "2025-07-20"
+translationKey: "edena-sostenibilidad-digital"
 description: "Sostenibilidad y reducción de papel en gestión escolar. Guía práctica para centros educativos en España (2026)."
 tags: ["sostenibilidad", "digital", "medio ambiente", "educación"]
 author: "ENA by Edena"

@@ -1,6 +1,7 @@
 ---
 title: "Inclusive education and assistive technology: Creating classrooms for all"
 date: "2025-08-05"
+translationKey: "educacion-inclusiva-tecnologia-asistiva"
 description: "Inclusion and assistive technology in the ordinary classroom. Practical guide for educational centers in Spain (2026)."
 tags:
     - "inclusive education"

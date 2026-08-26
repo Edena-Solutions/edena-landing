@@ -1,6 +1,7 @@
 ---
 title: "Verifactu a l'educació: Compliment normatiu simplificat"
 date: "2025-07-25"
+translationKey: "verifactu-integracion-educacion"
 description: "Introducció a Verifactu per a centres (satèl·lit del pilar normatiu). Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "verifactu"

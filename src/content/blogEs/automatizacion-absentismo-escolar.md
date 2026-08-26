@@ -1,6 +1,7 @@
 ---
 title: "Cómo la automatización reduce el absentismo escolar"
 date: "2026-02-10"
+translationKey: "automatizacion-absentismo-escolar"
 description: "Automatizar asistencia y alertas para reducir absentismo. Guía práctica para centros educativos en España (2026)."
 tags: ["automatización", "absentismo escolar", "asistencia", "centros educativos"]
 author: "ENA by Edena"

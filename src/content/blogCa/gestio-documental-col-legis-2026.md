@@ -1,6 +1,7 @@
 ---
 title: "Gestió documental a col·legis: adéu al paper i als expedients perduts"
 date: "2026-04-01"
+translationKey: "gestion-documental-colegios-expediente-digital-2026"
 description: "Pilar gestió documental i expedient digital. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "gestió documental escolar"

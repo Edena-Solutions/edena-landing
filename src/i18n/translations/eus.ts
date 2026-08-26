@@ -2207,6 +2207,9 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         ctaTitle: "Batu paper-lanik gabe lan egiten duten zentroekin",
         ctaDescription:
             "Zentrok erabiltzen dute Edena administrazio-lanetan astero 37 ordu baino gehiago aurrezteko. Ikusi nola funtzionatzen duen zure zentro-motara egokitutako demo doakoarekin.",
+        aiDisclaimer:
+            "Eduki hau Enak sortu du, Edenaren adimen artifizialeko agenteak. Akatsak edo zehaztugabetasunak izan ditzake eta ez da aholkularitza juridiko, fiskal edo profesionala. Edenak ez du bermaten informazioaren zehaztasuna, osotasuna ez indarraldia. Kontsultatu iturri ofizialak eta, dagokionean, profesional kualifikatu bat edozein erabaki hartu aurretik.",
+        unsplashCredit: "Azaleko irudia {source}-etik dator.",
     },
     altText: {
         logo: "Edena logotipoa - Eskola-kudeaketa softwarea",

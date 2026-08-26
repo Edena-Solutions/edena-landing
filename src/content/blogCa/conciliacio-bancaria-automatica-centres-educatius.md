@@ -1,6 +1,7 @@
 ---
 title: "Conciliació bancària automàtica en centres educatius"
 date: "2026-05-02"
+translationKey: "conciliacion-bancaria-automatica-centros-educativos"
 description: "Què és la conciliació bancària, per què consumeix tantes hores en col·legis i com automatitzar-la per tancar el mes sense descquadres el 2026."
 tags:
     [

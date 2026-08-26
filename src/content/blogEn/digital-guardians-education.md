@@ -1,6 +1,7 @@
 ---
 title: "Guardians in digital education: The role of families"
 date: "2025-03-01"
+translationKey: "guardianes-educacion-digital"
 description: "Role of families as guardians of minors' digital use. Practical guide for educational centers in Spain (2026)."
 tags:
     - "families"

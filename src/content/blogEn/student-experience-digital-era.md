@@ -1,6 +1,7 @@
 ---
 title: "Student experience in the digital age: Beyond traditional learning"
 date: "2024-09-01"
+translationKey: "experiencia-estudiante-era-digital"
 description: "Discover how to create exceptional student experiences that combine technology, personalization and human connection."
 tags:
     - "student experience"

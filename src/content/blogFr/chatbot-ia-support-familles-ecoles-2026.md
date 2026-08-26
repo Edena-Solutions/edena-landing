@@ -1,6 +1,7 @@
 ---
 title: "Chatbot IA pour les familles : support 24/7 dans les écoles et académies en 2026"
 date: "2026-06-29"
+translationKey: "chatbot-ia-atencion-familias-colegios-2026"
 description: "Comment un chatbot IA peut traiter les questions fréquentes des familles 24/7, soulager le secrétariat et améliorer l'expérience sans perdre le contact humain en 2026."
 tags:
     [

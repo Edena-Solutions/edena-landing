@@ -1,6 +1,7 @@
 ---
 title: "Analyse pédagogique et intelligence artificielle : des données qui transforment l'éducation"
 date: "2024-09-15"
+translationKey: "analitica-educativa-inteligencia-artificial"
 description: "IA appliquée à l’analyse de l’apprentissage (angle pédagogique). Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "analytique"

@@ -1,6 +1,7 @@
 ---
 title: "Ikastetxeetako familientzako aplikazioa: zuzendaritza eta gurasoentzako benetako abantailak"
 date: "2026-04-05"
+translationKey: "app-familias-colegios-ventajas-2026"
 description: "Familia-aplikazio baten abantaila operatiboak kanal sakabanatuen aldean. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "eskolako familien aplikazioa"

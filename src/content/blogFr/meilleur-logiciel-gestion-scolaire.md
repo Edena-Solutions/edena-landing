@@ -1,6 +1,7 @@
 ---
 title: "Comment choisir le meilleur logiciel de gestion scolaire"
 date: "2026-02-03"
+translationKey: "mejor-software-gestion-escolar"
 description: "Erreurs courantes et critères de décision lors du choix d’un ERP. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "logiciel de gestion scolaire"

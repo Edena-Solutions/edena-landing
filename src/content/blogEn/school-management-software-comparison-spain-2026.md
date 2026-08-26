@@ -1,6 +1,7 @@
 ---
 title: "Best school management software in Spain: comparison 2026"
 date: "2026-03-16"
+translationKey: "comparativa-software-gestion-escolar-espana-2026"
 description: "Compare market and purchasing criteria for school ERP in Spain. Practical guide for educational centers in Spain (2026)."
 tags:
     - "school management software"

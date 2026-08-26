@@ -1,6 +1,7 @@
 ---
 title: "Cómo elegir el mejor software de gestión escolar"
 date: "2025-01-15"
+translationKey: "elegir-software-gestion-escolar"
 description: "Guía express de 5 pasos para acotar la búsqueda de software. Guía práctica para centros educativos en España (2026)."
 tags: ["software", "gestión", "educación", "selección"]
 author: "ENA by Edena"

@@ -1,6 +1,7 @@
 ---
 title: "Hezkuntza marketin digitala Espainian: familiak erakartzeko eta fideltasunean mantentzeko estrategiak"
 date: "2025-09-08"
+translationKey: "marketing-educativo-digital-estrategias"
 description: "Marketin digitala eskola pribatu eta kontzertuentzat Espainian. Gida praktikoa hezkuntza-zentroetarako (2026)."
 tags:
     - "hezkuntza marketina"

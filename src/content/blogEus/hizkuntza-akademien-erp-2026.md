@@ -1,6 +1,7 @@
 ---
 title: "Hizkuntza akademientzako ERPa: zer behar duzun 2026an"
 date: "2026-05-09"
+translationKey: "erp-academias-idiomas-2026"
 description: "Hizkuntza akademia baten ERPak zer funtzio behar dituen: taldeak, mailak, kokaleku anitzak, fakturazio errekurrentea eta erakartzea. 2026ko gida Espainiarako."
 tags:
     [

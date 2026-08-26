@@ -2209,6 +2209,9 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
         ctaTitle: "Únete a los centros que ya trabajan sin papeleo",
         ctaDescription:
             "Centros usan Edena para ahorrar más de 37 horas semanales en tareas administrativas. Ve cómo funciona con una demo gratuita adaptada a tu tipo de centro.",
+        aiDisclaimer:
+            "Este contenido ha sido generado por Ena, el agente de inteligencia artificial de Edena. Puede contener errores o inexactitudes y no constituye asesoramiento legal, fiscal ni profesional. Edena no garantiza la exactitud, integridad ni vigencia de la información. Consulte las fuentes oficiales y, en su caso, a un profesional cualificado antes de adoptar cualquier decisión.",
+        unsplashCredit: "La imagen de portada procede de {source}.",
     },
     altText: {
         logo: "Logo de Edena - Software de Gestión Escolar",

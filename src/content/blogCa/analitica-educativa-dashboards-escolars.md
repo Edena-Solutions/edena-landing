@@ -1,6 +1,7 @@
 ---
 title: "Dades i analítica en educació: com prendre millors decisions amb dashboards escolars"
 date: "2026-03-15"
+translationKey: "analitica-educativa-dashboards-escolares"
 description: "Analítica operativa per a decisions de direcció. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "analítica educativa"

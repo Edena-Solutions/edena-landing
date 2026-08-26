@@ -1,6 +1,7 @@
 ---
 title: "Los 10 procesos administrativos que deberías automatizar en tu colegio"
 date: "2026-03-02"
+translationKey: "procesos-administrativos-automatizar-colegio"
 description: "Lista priorizada de 10 procesos a automatizar. Guía práctica para centros educativos en España (2026)."
 tags:
     [

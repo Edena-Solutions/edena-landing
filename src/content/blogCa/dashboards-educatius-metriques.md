@@ -1,6 +1,7 @@
 ---
 title: "Dashboards educatius per millorar mètriques acadèmiques i financeres"
 date: "2026-02-27"
+translationKey: "dashboards-educativos-metricas"
 description: "Disseny de dashboards acadèmics i financers. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "dashboard educatiu mètriques"

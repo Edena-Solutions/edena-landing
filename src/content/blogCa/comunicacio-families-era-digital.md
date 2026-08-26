@@ -1,6 +1,7 @@
 ---
 title: "Comunicació institucional amb famílies: Estratègies per a l'era digital"
 date: "2025-03-10"
+translationKey: "comunicacion-familias-era-digital"
 description: "Descobreix com desenvolupar estratègies de comunicació institucional efectives que enforteixin la relació entre centres educatius i famílies."
 tags:
     - "comunicació institucional"

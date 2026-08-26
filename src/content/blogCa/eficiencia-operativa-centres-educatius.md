@@ -1,6 +1,7 @@
 ---
 title: "Eficiència operativa en centres educatius: Optimitzant recursos amb tecnologia"
 date: "2024-11-15"
+translationKey: "eficiencia-operativa-centros-educativos"
 description: "Descobriu com la tecnologia pot transformar les operacions dels centres educatius, reduint costos i millorant la qualitat del servei."
 tags:
     - "eficiència"

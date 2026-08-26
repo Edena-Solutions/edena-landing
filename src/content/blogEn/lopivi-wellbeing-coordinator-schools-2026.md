@@ -1,6 +1,7 @@
 ---
 title: "LOPIVI in Schools: Wellbeing Coordinator and Digital Management"
 date: "2026-04-25"
+translationKey: "lopivi-coordinador-bienestar-centros-2026"
 description: "What LOPIVI requires from schools and academies, the role of the wellbeing coordinator, and how to support it with digital tools in 2026."
 tags:
     - "LOPIVI"

@@ -1,6 +1,7 @@
 ---
 title: "Beken eta laguntzen kudeaketa zentroetan: paper kaosetik kontrol osora"
 date: "2026-06-10"
+translationKey: "gestion-becas-ayudas-centros-educativos-2026"
 description: "Nola kudeatu bekak eta laguntzak ikastetxe eta akademietan: eskaerak, dokumentazioa, deskontuak eta justifikazioa, epeak edo koadratzeak galdu gabe 2026an."
 tags:
     [

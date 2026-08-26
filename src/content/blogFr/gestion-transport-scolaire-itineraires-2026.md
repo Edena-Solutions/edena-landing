@@ -1,6 +1,7 @@
 ---
 title: "Gestion du transport scolaire : itinéraires, contrôle et facturation sans paperasse"
 date: "2026-06-03"
+translationKey: "gestion-transporte-escolar-rutas-2026"
 description: "Comment numériser le transport scolaire : itinéraires, listes d'arrêts, contrôle de montée et descente et facturation automatisée, avec sérénité pour les familles en 2026."
 tags:
     [

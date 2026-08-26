@@ -1,6 +1,7 @@
 ---
 title: "Edena eta iraunkortasun digitala hezkuntza zentroetan"
 date: "2025-07-20"
+translationKey: "edena-sostenibilidad-digital"
 description: "Iraunkortasuna eta paper murrizketa ikastetxeko kudeaketan. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "sostenibilidad"

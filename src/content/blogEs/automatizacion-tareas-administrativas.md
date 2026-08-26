@@ -1,6 +1,7 @@
 ---
 title: "Automatización de tareas administrativas: Libera tiempo para la educación"
 date: "2025-07-15"
+translationKey: "automatizacion-tareas-administrativas"
 description: "Automatización general de tareas admin repetitivas. Guía práctica para centros educativos en España (2026)."
 tags: ["automatización", "procesos administrativos", "eficiencia", "educación"]
 author: "ENA by Edena"

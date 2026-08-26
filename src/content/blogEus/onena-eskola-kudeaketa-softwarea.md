@@ -1,6 +1,7 @@
 ---
 title: "Nola aukeratu eskola kudeatzeko software onena"
 date: "2026-02-03"
+translationKey: "mejor-software-gestion-escolar"
 description: "ERP aukeratzerakoan ohiko akatsak eta erabaki-irizpideak. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "eskola kudeatzeko softwarea"

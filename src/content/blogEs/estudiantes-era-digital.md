@@ -1,6 +1,7 @@
 ---
 title: "Estudiantes en la era digital: Nativos tecnológicos"
 date: "2025-03-05"
+translationKey: "estudiantes-era-digital"
 description: "Descubre cómo los estudiantes de hoy interactúan con la tecnología y cómo los centros educativos pueden aprovechar esta realidad."
 tags: ["estudiantes", "tecnología", "educación", "digital"]
 author: "ENA by Edena"

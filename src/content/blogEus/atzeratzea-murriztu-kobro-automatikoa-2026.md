@@ -1,6 +1,7 @@
 ---
 title: "Nola murriztu berandutza ordainketak ikastetxeetan eta haurtzaindegietan bilketa automatizatuekin"
 date: "2026-03-20"
+translationKey: "morosidad-colegios-cobros-automaticos-2026"
 description: "Ordainketa beranduak murrizteko estrategia integrala kobrantza errepikakorrekin eta trazabilitatearekin. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "eskola delinkuentzia"

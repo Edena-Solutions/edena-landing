@@ -1,6 +1,7 @@
 ---
 title: "Guia Verifactu 2027 per a centres educatius: terminis, obligacions i com preparar-se"
 date: "2026-07-23"
+translationKey: "guia-verifactu-2027-centros-educativos"
 description: "Guia pràctica de Verifactu per a col·legis, escoles infantils i acadèmies: què exigeix el RD 1007/2023, els terminis definitius del 2027, sancions i checklist per arribar a temps."
 tags:
     [

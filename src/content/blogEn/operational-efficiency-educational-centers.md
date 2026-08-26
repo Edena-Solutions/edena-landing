@@ -1,6 +1,7 @@
 ---
 title: "Operational efficiency in educational centers: Optimizing resources with technology"
 date: "2024-11-15"
+translationKey: "eficiencia-operativa-centros-educativos"
 description: "Discover how technology can transform the operations of educational centers, reducing costs and improving the quality of service."
 tags:
     - "efficiency"

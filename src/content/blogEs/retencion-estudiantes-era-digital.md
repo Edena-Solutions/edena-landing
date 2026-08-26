@@ -1,6 +1,7 @@
 ---
 title: "Retención de estudiantes en la era digital: Estrategias que funcionan"
 date: "2024-11-28"
+translationKey: "retencion-estudiantes-era-digital"
 description: "Descubre cómo la tecnología puede ayudar a mejorar la retención de estudiantes y crear experiencias educativas más atractivas y personalizadas."
 tags: ["retención", "estudiantes", "personalización", "engagement"]
 author: "ENA by Edena"

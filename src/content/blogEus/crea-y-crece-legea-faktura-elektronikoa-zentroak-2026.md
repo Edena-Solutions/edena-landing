@@ -1,6 +1,7 @@
 ---
 title: "Crea y Crece legea: B2B faktura elektronikoa zentro eta akademientzat"
 date: "2026-04-22"
+translationKey: "ley-crea-y-crece-factura-electronica-centros-2026"
 description: "Enpresen arteko nahitaezko faktura elektronikoak ikastetxe eta akademientzat zer dakarren Espainian eta nola prestatu 2026an."
 tags:
     [
@@ -17,7 +18,7 @@ relatedPosts:
     - faktura-elektronikoa-verifactu-hezkuntza-2026
     - verifactu-hezkuntza-integrazioa
     - eskola-fakturazio-automatizazioa
-    - erp-aholkularitza-kontabilitate-integrazioa
+    - erp-gestoria-integrazioa-kontabilitatea-2026
 faqs:
     - question: "Crea y Crece legeak familiei elektronikoki fakturatzera behartzen al du?"
       answer: "Ez. Crea y Crece legearen faktura elektronikoaren betebeharra enpresen eta autonomoen arteko eragiketetarako da (B2B). Familiekiko harremana fakturazio arau orokorrak eta, hala badagokio, Verifactuk arautzen dute. Aldatzen dena beste enpresei nola fakturatzen diezun da: hornitzaileak, prestakuntza kontratatzen duten enpresak, kanporatutako jantokiak edo egoitzen arteko zerbitzuak."

@@ -1,6 +1,7 @@
 ---
 title: "Web Accessibility in Educational Centers: What the EAA Requires in 2026"
 date: "2026-06-17"
+translationKey: "accesibilidad-web-eaa-centros-educativos-2026"
 description: "What the European Accessibility Act (EAA) means for school and academy websites and apps, and how to comply without rebuilding everything in 2026."
 tags:
     - "web accessibility"

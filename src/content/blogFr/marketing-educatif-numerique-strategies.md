@@ -1,6 +1,7 @@
 ---
 title: "Marketing éducatif numérique : stratégies pour attirer et fidéliser les familles à l'ère numérique"
 date: "2025-09-08"
+translationKey: "marketing-educativo-digital-estrategias"
 description: "Marketing numérique pour les écoles privées et à charte en Espagne. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "marketing éducatif"

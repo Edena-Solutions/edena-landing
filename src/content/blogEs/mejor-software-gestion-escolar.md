@@ -1,6 +1,7 @@
 ---
 title: "Cómo elegir el mejor software de gestión escolar"
 date: "2026-02-03"
+translationKey: "mejor-software-gestion-escolar"
 description: "Errores frecuentes y criterios de decisión al elegir ERP. Guía práctica para centros educativos en España (2026)."
 tags: ["software gestión escolar", "centros educativos", "selección", "digitalización"]
 author: "ENA by Edena"

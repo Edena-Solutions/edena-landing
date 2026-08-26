@@ -1,6 +1,7 @@
 ---
 title: "Digital document management: the future of school administration"
 date: "2025-01-18"
+translationKey: "gestion-documental-digital-centros"
 description: "Governance, permits and document retention. Practical guide for educational centers in Spain (2026)."
 tags:
     - "documents"

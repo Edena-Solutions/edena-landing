@@ -1,6 +1,7 @@
 ---
 title: "Registre de jornada en centres educatius: obligacions i com complir el 2026"
 date: "2026-07-19"
+translationKey: "registro-jornada-centros-educativos-2026"
 description: "Què exigeix el registre de jornada a col·legis, escoles infantils i acadèmies el 2026: normativa, sancions, docents i com portar el control horari sense fulls de fitxatge."
 tags:
     [

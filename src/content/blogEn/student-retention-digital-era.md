@@ -1,6 +1,7 @@
 ---
 title: "Student Retention in the Digital Age: Strategies that Work"
 date: "2024-11-28"
+translationKey: "retencion-estudiantes-era-digital"
 description: "Discover how technology can help improve student retention and create more engaging and personalized educational experiences."
 tags:
     - "retention"

@@ -1,6 +1,7 @@
 ---
 title: "Impact of digitalization on student retention"
 date: "2026-02-07"
+translationKey: "digitalizacion-retencion-alumnos"
 description: "Admin processes that improve retention and reduce churn. Practical guide for educational centers in Spain (2026)."
 tags:
     - "school retention"

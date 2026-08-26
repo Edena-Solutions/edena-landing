@@ -1,6 +1,7 @@
 ---
 title: "Communication with families: tools beyond email"
 date: "2026-02-17"
+translationKey: "comunicacion-digital-centros-educativos"
 description: "Digital channels beyond mass email. Practical guide for educational centers in Spain (2026)."
 tags:
     - "digital communication educational centers"

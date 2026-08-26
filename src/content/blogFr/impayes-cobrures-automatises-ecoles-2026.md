@@ -1,6 +1,7 @@
 ---
 title: "Comment réduire les impayés dans les écoles et crèches avec la facturation automatisée"
 date: "2026-03-20"
+translationKey: "morosidad-colegios-cobros-automaticos-2026"
 description: "Stratégie pour réduire les impayés : rappels segmentés, récurrence, facturation et analyse des retards dans une seule plateforme éducative."
 tags:
     [

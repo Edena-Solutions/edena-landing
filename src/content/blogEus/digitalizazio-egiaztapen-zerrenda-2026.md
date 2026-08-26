@@ -1,6 +1,7 @@
 ---
 title: "Digitalizazio-zerrenda 2026 zure hezkuntza-zentrorako"
 date: "2026-02-24"
+translationKey: "checklist-digitalizacion-2026"
 description: "Digitalizazio administratiboaren 90 eguneko bide orria. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "digitalizazioa hezkuntza zentroak 2026"

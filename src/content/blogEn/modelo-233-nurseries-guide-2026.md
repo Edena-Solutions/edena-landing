@@ -1,6 +1,7 @@
 ---
 title: "Modelo 233 for nurseries in Spain: a practical guide"
 date: "2026-07-14"
+translationKey: "modelo-233-guarderias-guia-2026"
 description: "What Spain's Modelo 233 is, which nurseries must file it, what data the tax agency requires and how to prepare January's declaration without driving your team crazy."
 tags:
     [

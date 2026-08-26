@@ -1,6 +1,7 @@
 ---
 title: "FUNDAE Subsidies: How to Manage Them in Training Academies"
 date: "2026-05-06"
+translationKey: "bonificaciones-fundae-academias-formacion-2026"
 description: "What FUNDAE subsidized training is, what documentation requirements it demands, and how to manage it in academies without losing the subsidy in 2026."
 tags:
     - "FUNDAE subsidies"

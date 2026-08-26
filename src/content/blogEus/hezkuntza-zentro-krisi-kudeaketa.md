@@ -1,6 +1,7 @@
 ---
 title: "Krisiak kudeatzea hezkuntza-zentroetan: Jarraipenerako protokoloak eta estrategiak"
 date: "2025-08-01"
+translationKey: "gestion-crisis-centros-educativos"
 description: "Espainiako zentroetan krisi eta jarraitasun protokoloak. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "gestión de crisis"

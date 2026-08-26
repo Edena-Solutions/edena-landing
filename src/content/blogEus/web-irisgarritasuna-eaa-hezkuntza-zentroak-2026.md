@@ -1,6 +1,7 @@
 ---
 title: "Web irisgarritasuna hezkuntza zentroetan: zer eskatzen du EAAk 2026an"
 date: "2026-06-17"
+translationKey: "accesibilidad-web-eaa-centros-educativos-2026"
 description: "Zer dakar Irisgarritasunari buruzko Europako Legeak (EAA) ikastetxe eta akademien web eta aplikazioetarako, eta nola bete dena berregin gabe 2026an."
 tags:
     [

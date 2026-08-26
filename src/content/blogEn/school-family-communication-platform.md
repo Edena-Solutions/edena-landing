@@ -1,6 +1,7 @@
 ---
 title: "How to improve communication with families from a single digital platform"
 date: "2026-03-01"
+translationKey: "comunicacion-colegio-familias-plataforma-digital"
 description: "Centralize communication on a single platform. Practical guide for educational centers in Spain (2026)."
 tags:
     - "communication school families"

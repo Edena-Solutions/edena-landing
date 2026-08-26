@@ -1,6 +1,7 @@
 ---
 title: "Gestión del comedor escolar: altas, bajas y cobros automatizados"
 date: "2026-05-20"
+translationKey: "gestion-comedor-escolar-cobros-2026"
 description: "Cómo gestionar el comedor escolar sin Excel: altas y bajas diarias, días sueltos, alérgenos y cobros automáticos en colegios y guarderías en 2026."
 tags:
     [

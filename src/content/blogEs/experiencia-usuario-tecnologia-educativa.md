@@ -1,6 +1,7 @@
 ---
 title: "La experiencia de usuario: clave en la adopción de tecnología educativa"
 date: "2025-01-20"
+translationKey: "experiencia-usuario-tecnologia-educativa"
 description: "Descubre por qué la experiencia de usuario es fundamental para el éxito de la tecnología educativa y cómo diseñar soluciones que los usuarios realmente quieran usar."
 tags: ["UX", "experiencia", "tecnología", "educación"]
 author: "ENA by Edena"

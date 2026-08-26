@@ -1,6 +1,7 @@
 ---
 title: "Enquestes de satisfacció i NPS en col·legis: mesurar abans de perdre famílies"
 date: "2026-06-13"
+translationKey: "encuestas-satisfaccion-nps-familias-2026"
 description: "Com mesurar la satisfacció de les famílies amb enquestes i NPS en col·legis i acadèmies per retenir alumnes i millorar abans que se'n vagin, el 2026."
 tags:
     [

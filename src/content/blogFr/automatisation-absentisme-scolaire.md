@@ -1,6 +1,7 @@
 ---
 title: "Comment l'automatisation réduit l'absentéisme scolaire"
 date: "2026-02-10"
+translationKey: "automatizacion-absentismo-escolar"
 description: "Automatisez les présences et les alertes pour réduire l’absentéisme. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "automation"

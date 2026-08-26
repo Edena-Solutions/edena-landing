@@ -1,6 +1,7 @@
 ---
 title: "Tableaux de bord pédagogiques pour améliorer les indicateurs académiques et financiers"
 date: "2026-02-27"
+translationKey: "dashboards-educativos-metricas"
 description: "Tableau de bord pédagogique et indicateurs : comment utiliser les données pour améliorer les résultats scolaires et la trésorerie de votre établissement."
 tags: ["tableau de bord pédagogique indicateurs", "données", "direction", "KPI"]
 author: "ENA by Edena"

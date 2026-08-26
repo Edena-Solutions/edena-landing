@@ -1,6 +1,7 @@
 ---
 title: "Digital Administrative Management in Educational Centers 2026: Eliminating Paper, Maximizing Efficiency"
 date: "2026-01-22"
+translationKey: "gestion-administrativa-digital-centros-2026"
 description: "Holistic management vision on digitization admin. Practical guide for educational centers in Spain (2026)."
 tags:
     - "administrative management"

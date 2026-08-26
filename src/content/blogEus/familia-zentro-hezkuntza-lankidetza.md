@@ -1,6 +1,7 @@
 ---
 title: "Familia-eskola lankidetza: komunitate bateratua eraikitzea"
 date: "2024-10-30"
+translationKey: "colaboracion-familias-centro-educativo"
 description: "Ezagutu nola indartu dezakeen teknologiak familien eta hezkuntza-zentroen arteko elkarlana, hezkuntza komunitate sendoagoa eta eraginkorragoa sortuz."
 tags:
     - "colaboración"

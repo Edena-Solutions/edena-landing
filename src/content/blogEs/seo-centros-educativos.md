@@ -1,6 +1,7 @@
 ---
 title: "Guía SEO para centros educativos: aparecer en Google"
 date: "2026-02-12"
+translationKey: "seo-centros-educativos"
 description: "SEO local para captar familias en Google. Guía práctica para centros educativos en España (2026)."
 tags: ["SEO centros educativos", "visibilidad", "captación", "marketing"]
 author: "ENA by Edena"

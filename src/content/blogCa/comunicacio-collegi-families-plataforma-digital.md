@@ -1,6 +1,7 @@
 ---
 title: "Com millorar la comunicació amb les famílies des d'una única plataforma digital"
 date: "2026-03-01"
+translationKey: "comunicacion-colegio-familias-plataforma-digital"
 description: "Centralitzar comunicació en una plataforma única. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "comunicació col·legi famílies"

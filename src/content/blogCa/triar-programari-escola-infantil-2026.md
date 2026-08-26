@@ -1,6 +1,7 @@
 ---
 title: "Com triar programari per a una escola infantil o llar d'infants el 2026"
 date: "2026-07-08"
+translationKey: "elegir-software-escuela-infantil-guarderia-2026"
 description: "Guia pràctica per triar el programari de gestió de la teva escola infantil o llar d'infants el 2026: agenda digital, comunicació amb famílies, facturació i què preguntar abans de signar."
 tags:
     [

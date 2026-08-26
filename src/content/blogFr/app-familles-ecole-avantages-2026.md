@@ -1,6 +1,7 @@
 ---
 title: "Application familles dans les écoles : avantages réels pour la direction et les parents"
 date: "2026-04-05"
+translationKey: "app-familias-colegios-ventajas-2026"
 description: "Portail, notifications push et gestion autonome : moins de charge pour le secrétariat, plus de clarté pour les familles, avec une plateforme unifiée."
 tags:
     [

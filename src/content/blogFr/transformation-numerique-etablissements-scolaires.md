@@ -1,6 +1,7 @@
 ---
 title: "Transformation numérique dans les établissements scolaires : de la résistance au succès"
 date: "2024-12-15"
+translationKey: "transformacion-digital-centros-educativos"
 description: "Découvrez les stratégies clés pour mettre en œuvre avec succès la transformation numérique dans les établissements scolaires et surmonter les défis courants."
 tags:
     - "transformation numérique"

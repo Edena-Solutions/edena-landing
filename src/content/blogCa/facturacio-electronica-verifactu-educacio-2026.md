@@ -1,6 +1,7 @@
 ---
 title: "Facturació Electrònica i Verifactu en Educació 2026: Compliment Normatiu i Eficiència"
 date: "2026-01-15"
+translationKey: "facturacion-electronica-verifactu-educacion-2026"
 description: "Guia pilar Verifactu 2026: calendari, obligacions i errors AEAT. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "facturació electrònica"

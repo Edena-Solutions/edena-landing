@@ -1,6 +1,7 @@
 ---
 title: "ERP pour crèches et écoles maternelles : ce qu'il faut en 2026"
 date: "2026-04-08"
+translationKey: "erp-escuelas-infantiles-requisitos-2026"
 description: "Places, familles, facturation, documents et app : critères d'achat et modules réels pour choisir la bonne plateforme de gestion en 2026."
 tags:
     [

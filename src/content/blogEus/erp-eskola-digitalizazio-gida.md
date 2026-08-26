@@ -1,6 +1,7 @@
 ---
 title: "Eskola ERP: zure hezkuntza zentroaren kudeaketa digitalizatzeko gida osoa"
 date: "2026-02-28"
+translationKey: "erp-escolar-guia-digitalizacion"
 description: "Zer den eskola ERP eta zer modulu sartu behar dituen. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "ERP eskola"

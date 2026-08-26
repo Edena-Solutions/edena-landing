@@ -1,6 +1,7 @@
 ---
 title: "Renovació automàtica de matrícula: com agilitzar la reinscripció el 2026"
 date: "2026-06-21"
+translationKey: "renovacion-automatica-matricula-2026"
 description: "Com automatitzar la renovació de matrícula en col·legis i acadèmies per reduir baixes, estalviar gestió i oferir una experiència sense fricció el 2026."
 tags:
     [

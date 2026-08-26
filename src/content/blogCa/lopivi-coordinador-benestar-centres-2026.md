@@ -1,6 +1,7 @@
 ---
 title: "LOPIVI en centres educatius: coordinador de benestar i gestió digital"
 date: "2026-04-25"
+translationKey: "lopivi-coordinador-bienestar-centros-2026"
 description: "Què exigeix la LOPIVI a col·legis i acadèmies, el paper del coordinador de benestar i com donar-li suport amb eines digitals el 2026."
 tags:
     [

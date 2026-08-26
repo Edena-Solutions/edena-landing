@@ -1,6 +1,7 @@
 ---
 title: "App per a famílies a escoles: avantatges reals per a direcció i pares"
 date: "2026-04-05"
+translationKey: "app-familias-colegios-ventajas-2026"
 description: "Avantatges operatius d'app familiar vs canals dispersos. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "app famílies escola"

@@ -1,6 +1,7 @@
 ---
 title: "Administrazio-zereginen automatizazioa: hezkuntzarako denbora askatu"
 date: "2025-07-15"
+translationKey: "automatizacion-tareas-administrativas"
 description: "Errepikatzen diren administrazio-zereginen automatizazio orokorra. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "automatización"

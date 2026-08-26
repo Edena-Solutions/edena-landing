@@ -1,6 +1,7 @@
 ---
 title: "Bizum and Card Payments in Schools: Instant Collection in 2026"
 date: "2026-05-30"
+translationKey: "pagos-bizum-tpv-colegios-2026"
 description: "How to integrate Bizum and card payments in school and academy collection to charge instantly, reduce arrears, and reconcile effortlessly in 2026."
 tags:
     - "Bizum payments schools"

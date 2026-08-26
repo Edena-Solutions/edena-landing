@@ -1,6 +1,7 @@
 ---
 title: "Onboarding digital de famílies: com matricular alumnes sense paperassa"
 date: "2026-03-11"
+translationKey: "onboarding-digital-familias-matricula-online"
 description: "Experiència de la família al primer mes després de la matrícula. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "matrícula online col·legi"

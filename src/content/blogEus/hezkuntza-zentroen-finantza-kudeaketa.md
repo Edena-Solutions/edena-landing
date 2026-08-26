@@ -1,6 +1,7 @@
 ---
 title: "Finantza-kudeaketa adimentsua hezkuntza-zentroetarako"
 date: "2025-02-10"
+translationKey: "gestion-financiera-centros-educativos"
 description: "Zuzendaritzarako finantza-ikuspegia: diru-fluxua, txostena eta diruzaintza. Hezkuntza-zentroentzako gida praktikoa Espainian (2026)."
 tags:
     - "finanzas"

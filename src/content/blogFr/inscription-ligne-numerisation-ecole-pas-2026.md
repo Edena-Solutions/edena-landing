@@ -1,6 +1,7 @@
 ---
 title: "Comment digitaliser l'inscription en ligne de votre école étape par étape"
 date: "2026-03-28"
+translationKey: "matricula-online-centro-educativo-pasos-2026"
 description: "Guide pas à pas pour digitaliser les inscriptions scolaires : formulaires numériques, pipeline CRM, paiement et documents dans un flux unifié."
 tags:
     [

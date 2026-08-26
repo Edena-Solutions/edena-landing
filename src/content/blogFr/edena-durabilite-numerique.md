@@ -1,6 +1,7 @@
 ---
 title: "Edena et la durabilité numérique dans les établissements scolaires"
 date: "2025-07-20"
+translationKey: "edena-sostenibilidad-digital"
 description: "Durabilité et réduction du papier dans la gestion scolaire. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "durabilité"

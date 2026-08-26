@@ -1,6 +1,7 @@
 ---
 title: "ERP para academias de idiomas: qué necesitas en 2026"
 date: "2026-05-09"
+translationKey: "erp-academias-idiomas-2026"
 description: "Qué funciones necesita un ERP para academias de idiomas: grupos, niveles, multisede, facturación recurrente y captación. Guía 2026 para España."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "Protecció de dades a la gestió digital d'escoles"
 date: "2026-02-14"
+translationKey: "proteccion-datos-escuela-digital"
 description: "Pilar GDPR/LOPDGDD per a centres i menors. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "protecció dades escola digital"

@@ -1,6 +1,7 @@
 ---
 title: "Les 10 processus administratifs à automatiser dans votre établissement"
 date: "2026-03-02"
+translationKey: "procesos-administrativos-automatizar-colegio"
 description: "Automatisation des établissements scolaires : dix processus de gestion administrative scolaire à fort impact lorsqu'on les numérise."
 tags:
     [

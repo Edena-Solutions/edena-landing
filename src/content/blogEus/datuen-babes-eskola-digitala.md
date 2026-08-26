@@ -1,6 +1,7 @@
 ---
 title: "Datuen babesa ikastetxeen kudeaketa digitalean"
 date: "2026-02-14"
+translationKey: "proteccion-datos-escuela-digital"
 description: "Zentro eta adingabeentzako GDPR/LOPDGDD zutabea. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "Datuak babesteko eskola digitala"

@@ -1,6 +1,7 @@
 ---
 title: "Verifactu Hezkuntzan: Erraz betetzea araudia"
 date: "2025-07-25"
+translationKey: "verifactu-integracion-educacion"
 description: "Zentroetarako Verifactu-ren sarrera (araudi-zutabearen satelitea). Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "verifactu"

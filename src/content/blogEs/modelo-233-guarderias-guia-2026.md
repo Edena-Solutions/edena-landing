@@ -1,6 +1,7 @@
 ---
 title: "Modelo 233 para guarderías y escuelas infantiles: guía práctica"
 date: "2026-07-14"
+translationKey: "modelo-233-guarderias-guia-2026"
 description: "Qué es el modelo 233, qué guarderías y escuelas infantiles deben presentarlo, qué datos exige la AEAT y cómo preparar la declaración de enero sin volver loco a tu equipo."
 tags:
     [

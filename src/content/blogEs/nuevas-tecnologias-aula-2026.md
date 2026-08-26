@@ -1,6 +1,7 @@
 ---
 title: "Nuevas Tecnologías en el Aula 2026: Transformando la Experiencia Educativa"
 date: "2026-01-29"
+translationKey: "nuevas-tecnologias-aula-2026"
 description: "Tecnologías de aula con foco en competencias y admin liberada. Guía práctica para centros educativos en España (2026)."
 tags:
     [

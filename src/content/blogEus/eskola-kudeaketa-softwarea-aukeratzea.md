@@ -1,6 +1,7 @@
 ---
 title: "Nola aukeratu eskola-kudeaketarako software onena"
 date: "2025-01-15"
+translationKey: "elegir-software-gestion-escolar"
 description: "5 urratseko gida laburra bilaketa mugatzeko. Hezkuntza-zentroentzako gida praktikoa Espainian (2026)."
 tags:
     - "software"

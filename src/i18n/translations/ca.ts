@@ -2209,6 +2209,9 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         ctaTitle: "Uneix-te als centres que ja treballen sense papeleo",
         ctaDescription:
             "Centres usen Edena per estalviar més de 37 hores setmanals en tasques administratives. Veu com funciona amb una demo gratuïta adaptada al teu tipus de centre.",
+        aiDisclaimer:
+            "Aquest contingut ha estat generat per Ena, l'agent d'intel·ligència artificial d'Edena. Pot contenir errors o inexactituds i no constitueix assessorament legal, fiscal ni professional. Edena no garanteix l'exactitud, la integritat ni la vigència de la informació. Consulteu les fonts oficials i, si escau, un professional qualificat abans d'adoptar qualsevol decisió.",
+        unsplashCredit: "La imatge de portada procedeix de {source}.",
     },
     altText: {
         logo: "Logotip d'Edena - Programa de gestió escolar",

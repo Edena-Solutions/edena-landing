@@ -1,6 +1,7 @@
 ---
 title: "Colaboración familias-centro educativo: Construyendo una comunidad unida"
 date: "2024-10-30"
+translationKey: "colaboracion-familias-centro-educativo"
 description: "Descubre cómo la tecnología puede fortalecer la colaboración entre familias y centros educativos, creando una comunidad educativa más fuerte y efectiva."
 tags: ["colaboración", "familias", "comunidad", "participación"]
 author: "ENA by Edena"

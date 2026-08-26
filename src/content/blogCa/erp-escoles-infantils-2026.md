@@ -1,6 +1,7 @@
 ---
 title: "Què ha de tenir un ERP per a escoles infantils el 2026"
 date: "2026-04-08"
+translationKey: "erp-escuelas-infantiles-requisitos-2026"
 description: "Requisits específics de ERP per a escoles infantils. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "ERP escoles infantils"

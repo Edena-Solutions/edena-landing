@@ -1,6 +1,7 @@
 ---
 title: "Evaluación y assessment digital en la educación moderna: Herramientas y estrategias"
 date: "2025-08-20"
+translationKey: "evaluacion-assessment-digital-educativo"
 description: "Evaluación digital y competencias clave LOMLOE. Guía práctica para centros educativos en España (2026)."
 tags: ["evaluación digital", "assessment", "tecnología educativa", "medición aprendizaje"]
 author: "ENA by Edena"

@@ -1,6 +1,7 @@
 ---
 title: "Intelligence artificielle dans l’administration scolaire"
 date: "2026-02-19"
+translationKey: "ia-gestion-escolar-casos-practicos"
 description: "IA et gestion scolaire : cas pratiques réels d’automatisation, de prédiction et d’aide à la décision dans les établissements."
 tags: ["IA gestion scolaire", "intelligence artificielle", "automatisation", "administration"]
 author: "ENA by Edena"

@@ -1,6 +1,7 @@
 ---
 title: "Automatisation de la facturation scolaire : optimisez vos processus internes"
 date: "2025-01-15"
+translationKey: "automatizacion-facturacion-escolar"
 description: "Automatisez l’émission des factures et les cycles de recouvrement récurrents. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "facturation"

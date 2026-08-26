@@ -1,6 +1,7 @@
 ---
 title: "Competencias Digitales del Profesorado en 2026: Más de 661.000 Docentes Certificados"
 date: "2026-01-10"
+translationKey: "competencias-digitales-profesorado-2026"
 description: "Estado del profesorado certificado y Plan DigEdu 2026. Guía práctica para centros educativos en España (2026)."
 tags:
     [

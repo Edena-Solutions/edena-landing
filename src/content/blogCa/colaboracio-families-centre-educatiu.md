@@ -1,6 +1,7 @@
 ---
 title: "Col·laboració famílies-centre educatiu: Construint una comunitat unida"
 date: "2024-10-30"
+translationKey: "colaboracion-familias-centro-educativo"
 description: "Descobriu com la tecnologia pot enfortir la col·laboració entre famílies i centres educatius, creant una comunitat educativa més forta i efectiva."
 tags:
     - "col·laboració"

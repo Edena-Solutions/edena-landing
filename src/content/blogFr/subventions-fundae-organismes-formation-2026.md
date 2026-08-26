@@ -1,6 +1,7 @@
 ---
 title: "Subventions FUNDAE : comment les gérer dans les organismes de formation"
 date: "2026-05-06"
+translationKey: "bonificaciones-fundae-academias-formacion-2026"
 description: "Ce qu'est la formation financée FUNDAE, quelles exigences documentaires elle impose et comment la gérer dans les académies sans perdre le financement en 2026."
 tags:
     [

@@ -1,6 +1,7 @@
 ---
 title: "LOPIVI hezkuntza zentroetan: ongizate koordinatzailea eta kudeaketa digitala"
 date: "2026-04-25"
+translationKey: "lopivi-coordinador-bienestar-centros-2026"
 description: "LOPIVIk ikastetxe eta akademiei zer eskatzen dien, ongizate koordinatzailearen papera eta nola lagundu tresna digitalekin 2026an."
 tags:
     [

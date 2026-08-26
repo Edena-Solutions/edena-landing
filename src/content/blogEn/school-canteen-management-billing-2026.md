@@ -1,6 +1,7 @@
 ---
 title: "School Canteen Management: Automated Sign-ups, Cancellations, and Billing"
 date: "2026-05-20"
+translationKey: "gestion-comedor-escolar-cobros-2026"
 description: "How to manage the school canteen without Excel: daily sign-ups and cancellations, one-off days, allergens, and automatic billing in schools and nurseries in 2026."
 tags:
     - "school canteen management"

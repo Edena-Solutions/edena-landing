@@ -1,6 +1,7 @@
 ---
 title: "How to choose the best school management software"
 date: "2026-02-03"
+translationKey: "mejor-software-gestion-escolar"
 description: "Common errors and decision criteria when choosing ERP. Practical guide for educational centers in Spain (2026)."
 tags:
     - "school management software"

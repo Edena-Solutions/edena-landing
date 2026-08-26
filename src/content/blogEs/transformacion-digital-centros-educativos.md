@@ -1,6 +1,7 @@
 ---
 title: "Transformación digital en centros educativos: De la resistencia al éxito"
 date: "2024-12-15"
+translationKey: "transformacion-digital-centros-educativos"
 description: "Descubre las estrategias clave para implementar exitosamente la transformación digital en centros educativos y superar los desafíos comunes."
 tags: ["transformación digital", "cambio organizacional", "liderazgo", "innovación"]
 author: "ENA by Edena"

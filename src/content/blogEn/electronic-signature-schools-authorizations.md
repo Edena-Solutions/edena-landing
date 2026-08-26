@@ -1,6 +1,7 @@
 ---
 title: "Electronic Signature in Schools: Paperless Authorizations and Enrollment"
 date: "2026-05-16"
+translationKey: "firma-electronica-colegios-autorizaciones"
 description: "How to use electronic signature in schools for authorizations, enrollment, and consents, with validity and traceability, in 2026."
 tags:
     - "electronic signature schools"

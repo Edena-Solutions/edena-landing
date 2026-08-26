@@ -2,10 +2,10 @@ import { localePath } from "@/i18n/utils";
 
 /** Headings used for the related-articles block in blog markdown bodies */
 const RELATED_HEADING =
-    /Artículos relacionados|Related articles|Articles connexes|Artículos relacionats/i;
+    /Artículos relacionados|Related articles|Articles connexes|Articles relacionats|Artikulu erlazionatuak/i;
 
 const RELATED_SECTION =
-    /<strong>(?:Artículos relacionados|Related articles|Articles connexes|Artículos relacionats)<\/strong>[\s\S]*?(?=\n\n<strong>(?:Conclusión|Conclusion|Conclusió)|$)/i;
+    /<strong>(?:Artículos relacionados|Related articles|Articles connexes|Articles relacionats|Artikulu erlazionatuak)<\/strong>[\s\S]*?(?=\n\n<strong>(?:Conclusión|Conclusion|Conclusió|Ondorioa)|$)/i;
 
 const LINK_IN_SECTION = /<a href="[^"]*\/blog\/([^"]+)">[^<]*<\/a>/gi;
 
@@ -47,7 +47,7 @@ export function relatedSlugsForPost(
 }
 
 const CONCLUSION_HEADING =
-    /<strong>(?:Conclusión|Conclusion|Conclusió)<\/strong>/i;
+    /<strong>(?:Conclusión|Conclusion|Conclusió|Ondorioa)<\/strong>/i;
 
 /** Split body so related-articles block can sit before the conclusion section */
 export function splitBeforeConclusion(body: string): {

@@ -1,6 +1,7 @@
 ---
 title: "Ikasleak aro digitalean: natibo teknologikoak"
 date: "2025-03-05"
+translationKey: "estudiantes-era-digital"
 description: "Ezagutu gaur egungo ikasleek teknologiarekin nola erlazionatzen duten eta nola aprobetxa dezaketen eskolak errealitate honetaz."
 tags:
     - "estudiantes"

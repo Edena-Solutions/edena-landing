@@ -1,6 +1,7 @@
 ---
 title: "Educational Dashboard: The control center for strategic management"
 date: "2025-02-25"
+translationKey: "dashboard-educativo"
 description: "Dashboard as a strategic control center of the center. Practical guide for educational centers in Spain (2026)."
 tags:
     - "dashboard"

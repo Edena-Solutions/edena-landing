@@ -1,6 +1,7 @@
 ---
 title: "Applications mobiles dans l'éducation : l'expérience numérique dans votre poche"
 date: "2025-04-15"
+translationKey: "app-movil-educacion"
 description: "Rôle de l'application mobile dans la relation école-famille. Guide pratique pour les établissements scolaires en Espagne (2026)."
 tags:
     - "applications mobiles"

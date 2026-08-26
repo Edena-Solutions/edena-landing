@@ -1,6 +1,7 @@
 ---
 title: "Guide SEO pour les établissements scolaires : apparaître sur Google"
 date: "2026-02-12"
+translationKey: "seo-centros-educativos"
 description: "SEO pour établissements scolaires : comment apparaître quand les familles recherchent une école. Guide pratique pour les directions et équipes."
 tags: ["SEO établissements scolaires", "visibilité", "recrutement", "marketing"]
 author: "ENA by Edena"

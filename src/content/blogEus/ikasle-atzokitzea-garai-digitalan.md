@@ -1,6 +1,7 @@
 ---
 title: "Ikasleen atxikipena aro digitalean: funtzionatzen duten estrategiak"
 date: "2024-11-28"
+translationKey: "retencion-estudiantes-era-digital"
 description: "Ezagutu nola lagun dezakeen teknologiak ikasleen atxikipena hobetzen eta hezkuntza-esperientzia erakargarri eta pertsonalizatuagoak sortzen."
 tags:
     - "retención"

@@ -1,6 +1,7 @@
 ---
 title: "Ikasleen esperientzia aro digitalean: ikaskuntza tradizionaletik haratago"
 date: "2024-09-01"
+translationKey: "experiencia-estudiante-era-digital"
 description: "Ezagutu teknologia, pertsonalizazioa eta giza konexioa uztartzen dituzten ikasleen esperientzia paregabeak nola sortu."
 tags:
     - "experiencia estudiante"

@@ -1,6 +1,7 @@
 ---
 title: "Pagos con Bizum y TPV en colegios: cobrar al instante en 2026"
 date: "2026-05-30"
+translationKey: "pagos-bizum-tpv-colegios-2026"
 description: "Cómo integrar Bizum y TPV en el cobro de colegios y academias para cobrar al instante, reducir impagos y conciliar sin esfuerzo en 2026."
 tags:
     [

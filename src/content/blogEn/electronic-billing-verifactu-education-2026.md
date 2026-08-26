@@ -1,6 +1,7 @@
 ---
 title: "Electronic Billing and Verifactu in Education 2026: Regulatory Compliance and Efficiency"
 date: "2026-01-15"
+translationKey: "facturacion-electronica-verifactu-educacion-2026"
 description: "Verifactu 2026 pillar guide: calendar, obligations and AEAT errors. Practical guide for educational centers in Spain (2026)."
 tags:
     - "electronic billing"

@@ -1,6 +1,7 @@
 ---
 title: "Banku adostzapen automatikoa hezkuntza zentroetan"
 date: "2026-05-02"
+translationKey: "conciliacion-bancaria-automatica-centros-educativos"
 description: "Zer den banku adostzapena, zergatik kontsumitzen dituen hainbeste ordu ikastetxeetan eta nola automatizatu hilabetea deskoadrerik gabe ixteko 2026an."
 tags:
     [

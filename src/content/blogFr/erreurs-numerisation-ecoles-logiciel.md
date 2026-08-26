@@ -1,6 +1,7 @@
 ---
 title: "Numérisation dans les écoles : 7 erreurs que commettent les établissements en déployant un logiciel éducatif"
 date: "2026-03-05"
+translationKey: "errores-digitalizacion-colegios-software"
 description: "Numérisation éducative et logiciel pour les écoles : les 7 erreurs les plus fréquentes lors de la mise en œuvre technologique et comment les éviter."
 tags: ["numérisation éducative", "logiciel pour écoles", "mise en œuvre", "erreurs"]
 author: "ENA by Edena"

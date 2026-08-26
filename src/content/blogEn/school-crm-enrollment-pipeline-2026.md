@@ -1,6 +1,7 @@
 ---
 title: "School CRM: How to Increase Enrollment and Convert More Applications"
 date: "2026-03-24"
+translationKey: "crm-escolar-matriculas-conversion-2026"
 description: "School CRM to convert applications into enrollments. Practical guide for educational centers in Spain (2026)."
 tags:
     - "School CRM"

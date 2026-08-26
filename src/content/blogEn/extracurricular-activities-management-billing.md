@@ -1,6 +1,7 @@
 ---
 title: "Extracurricular Activities Management: Enrollment and Billing"
 date: "2026-05-23"
+translationKey: "gestion-extraescolares-inscripciones-facturacion"
 description: "How to manage a school's extracurriculars without chaos: online enrollment, places, waiting lists, and billing for each activity in 2026."
 tags:
     - "extracurricular management"

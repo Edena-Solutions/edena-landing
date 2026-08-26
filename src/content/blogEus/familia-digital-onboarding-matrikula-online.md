@@ -1,6 +1,7 @@
 ---
 title: "Onboarding familia digitalak: nola matrikulatu ikasleak paperik gabe"
 date: "2026-03-11"
+translationKey: "onboarding-digital-familias-matricula-online"
 description: "Familia esperientzia matrikulatu ondorengo lehen hilabetean. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "online eskolan izena ematea"

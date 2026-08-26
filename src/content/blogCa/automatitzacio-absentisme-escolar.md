@@ -1,6 +1,7 @@
 ---
 title: "Com l'automatització redueix l'absentisme escolar"
 date: "2026-02-10"
+translationKey: "automatizacion-absentismo-escolar"
 description: "Automatitzar assistència i alertes per reduir absentisme. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "automatització"

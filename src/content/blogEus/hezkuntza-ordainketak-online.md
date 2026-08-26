@@ -1,6 +1,7 @@
 ---
 title: "Nola integratu online ordainketak eskoletan eta lehenetsiak murriztu"
 date: "2026-02-21"
+translationKey: "pagos-online-educacion"
 description: "Pasabideak, SEPA zordunketa eta lineako ordainketa moduak zentroetan. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "lineako ordainketen hezkuntza"

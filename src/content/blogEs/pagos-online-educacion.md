@@ -1,6 +1,7 @@
 ---
 title: "Cómo integrar pagos online en escuelas y reducir impagos"
 date: "2026-02-21"
+translationKey: "pagos-online-educacion"
 description: "Pasarelas, domiciliación SEPA y métodos de pago online en centros. Guía práctica para centros educativos en España (2026)."
 tags: ["pagos online educación", "impagos", "facturación", "centros educativos"]
 author: "ENA by Edena"

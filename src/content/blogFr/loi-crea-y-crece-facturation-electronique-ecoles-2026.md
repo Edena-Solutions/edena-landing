@@ -1,6 +1,7 @@
 ---
 title: "Loi Crea y Crece : facturation électronique B2B pour écoles et académies"
 date: "2026-04-22"
+translationKey: "ley-crea-y-crece-factura-electronica-centros-2026"
 description: "Ce qu'implique la facturation électronique obligatoire entre entreprises pour les écoles et académies en Espagne et comment se préparer en 2026."
 tags:
     [
@@ -17,7 +18,7 @@ relatedPosts:
     - facturation-electronique-verifactu-education-2026
     - verifactu-integration-education
     - automatisation-facturation-scolaire
-    - integration-erp-cabinet-comptable
+    - integration-erp-cabinet-comptable-2026
 faqs:
     - question: "La loi Crea y Crece oblige-t-elle à facturer les familles électroniquement ?"
       answer: "Non. L'obligation de facturation électronique de la loi Crea y Crece concerne les opérations entre entreprises et indépendants (B2B). La relation avec les familles est régie par la réglementation générale de facturation et, le cas échéant, par Verifactu. Ce qui change, c'est la façon dont vous facturez d'autres entreprises : fournisseurs, entreprises qui contractent des formations, cantines externalisées ou services entre sites."

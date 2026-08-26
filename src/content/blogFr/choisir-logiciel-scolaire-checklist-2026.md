@@ -1,6 +1,7 @@
 ---
 title: "Comment choisir un logiciel scolaire sans se tromper : checklist pour directeurs"
 date: "2026-04-20"
+translationKey: "elegir-software-escolar-checklist-directores-2026"
 description: "Guide et checklist pour directeurs d'école : critères d'achat, modules essentiels, questions pour la démo et calcul du coût réel sur trois ans."
 tags:
     [

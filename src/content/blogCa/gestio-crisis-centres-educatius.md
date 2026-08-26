@@ -1,6 +1,7 @@
 ---
 title: "Gestió de crisis en centres educatius: Protocols i estratègies per a la continuïtat"
 date: "2025-08-01"
+translationKey: "gestion-crisis-centros-educativos"
 description: "Protocols de crisi i continuïtat a centres espanyols. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "gestió de crisis"

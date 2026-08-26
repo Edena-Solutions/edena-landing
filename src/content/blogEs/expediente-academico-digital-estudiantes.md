@@ -1,6 +1,7 @@
 ---
 title: "Cómo centralizar toda la información del alumno en un único sistema"
 date: "2026-03-09"
+translationKey: "expediente-academico-digital-estudiantes"
 description: "Vista docente/tutor del expediente académico unificado. Guía práctica para centros educativos en España (2026)."
 tags:
     ["expediente académico digital", "gestión de estudiantes colegio", "SIS", "centros educativos"]

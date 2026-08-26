@@ -1,6 +1,7 @@
 ---
 title: "Datuak eta analitika hezkuntzan: nola hartu erabaki hobeak ikastetxeko aginte-panelekin"
 date: "2026-03-15"
+translationKey: "analitica-educativa-dashboards-escolares"
 description: "Analitika operatiboa kudeaketa-erabakietarako. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
 tags:
     - "hezkuntza-analitika"

@@ -1,6 +1,7 @@
 ---
 title: "Guardianes en la educación digital: El papel de las familias"
 date: "2025-03-01"
+translationKey: "guardianes-educacion-digital"
 description: "Papel de las familias como guardianes del uso digital del menor. Guía práctica para centros educativos en España (2026)."
 tags: ["familias", "guardianes", "educación", "digital"]
 author: "ENA by Edena"

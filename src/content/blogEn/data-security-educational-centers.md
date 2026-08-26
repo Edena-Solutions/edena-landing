@@ -1,6 +1,7 @@
 ---
 title: "Data security in educational centers: Protecting the digital future"
 date: "2025-01-25"
+translationKey: "seguridad-datos-centros-educativos"
 description: "Technical and organizational cybersecurity measures. Practical guide for educational centers in Spain (2026)."
 tags:
     - "security"

@@ -40,6 +40,9 @@ const blogFaqSchema = z.array(
 const blogPostSchema = z.object({
     title: z.string(),
     date: z.string(),
+    // Shared across the five language versions of the same article so the
+    // build can emit cross-language hreflang. Value is the Spanish slug.
+    translationKey: z.string().optional(),
     description: z.string(),
     tags: z.array(z.string()).optional(),
     author: z.string().optional(),

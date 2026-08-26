@@ -1,6 +1,7 @@
 ---
 title: "Com triar el millor programari de gestió escolar"
 date: "2025-01-15"
+translationKey: "elegir-software-gestion-escolar"
 description: "Guia express de 5 passos per fitar la cerca de programari. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "programari"

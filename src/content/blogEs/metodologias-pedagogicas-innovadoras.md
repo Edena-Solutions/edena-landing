@@ -1,6 +1,7 @@
 ---
 title: "Metodologías pedagógicas innovadoras: Transformando el proceso de enseñanza-aprendizaje"
 date: "2025-08-10"
+translationKey: "metodologias-pedagogicas-innovadoras"
 description: "Metodologías activas alineadas con LOMLOE. Guía práctica para centros educativos en España (2026)."
 tags: ["metodologías pedagógicas", "innovación educativa", "enseñanza activa", "aprendizaje"]
 author: "ENA by Edena"

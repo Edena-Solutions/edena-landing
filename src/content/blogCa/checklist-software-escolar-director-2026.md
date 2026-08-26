@@ -1,6 +1,7 @@
 ---
 title: "Com triar programari escolar sense equivocar-te: checklist per a directors"
 date: "2026-04-20"
+translationKey: "elegir-software-escolar-checklist-directores-2026"
 description: "Checklist de compra per a directors: demo, TCO i comitè. Guia pràctica per a centres educatius a Espanya (2026)."
 tags:
     - "triar programari escolar"

@@ -1,6 +1,7 @@
 ---
 title: "Gestion des activités périscolaires : inscriptions et facturation"
 date: "2026-05-23"
+translationKey: "gestion-extraescolares-inscripciones-facturacion"
 description: "Comment gérer le périscolaire d'une école sans chaos : inscriptions en ligne, places, listes d'attente et facturation de chaque activité en 2026."
 tags:
     [

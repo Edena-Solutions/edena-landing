@@ -1,6 +1,7 @@
 ---
 title: "L’expérience de l'élève à l’ère numérique : au-delà de l’apprentissage traditionnel"
 date: "2024-09-01"
+translationKey: "experiencia-estudiante-era-digital"
 description: "Découvrez comment créer des expériences étudiantes exceptionnelles alliant technologie, personnalisation et connexion humaine."
 tags:
     - "expérience étudiante"

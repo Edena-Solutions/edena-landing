@@ -1,6 +1,7 @@
 ---
 title: "Digital educational marketing: Strategies to attract and retain families in the digital age"
 date: "2025-09-08"
+translationKey: "marketing-educativo-digital-estrategias"
 description: "Digital marketing for private and charter schools in Spain. Practical guide for educational centers in Spain (2026)."
 tags:
     - "educational marketing"

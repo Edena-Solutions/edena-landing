@@ -1,6 +1,7 @@
 ---
 title: "Llei Crea i Creix: factura electrònica B2B per a centres i acadèmies"
 date: "2026-04-22"
+translationKey: "ley-crea-y-crece-factura-electronica-centros-2026"
 description: "Què implica la factura electrònica obligatòria entre empreses per a col·legis i acadèmies a Espanya i com preparar-se el 2026."
 tags:
     [
@@ -17,7 +18,7 @@ relatedPosts:
     - facturacio-electronica-verifactu-educacio-2026
     - verifactu-integracio-educacio
     - automatitzacio-facturacio-escolar
-    - integracio-erp-gestoria-comptabilitat
+    - integracio-erp-gestoria-comptabilitat-2026
 faqs:
     - question: "La Llei Crea i Creix obliga a facturar electrònicament a les famílies?"
       answer: "No. L'obligació de factura electrònica de la Llei Crea i Creix és per a operacions entre empreses i autònoms (B2B). La relació amb les famílies es regeix per la normativa de facturació general i, si escau, per Verifactu. El que canvia és com factures a altres empreses: proveïdors, empreses que contracten formació, menjadors externalitzats o serveis entre seus."
