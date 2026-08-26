@@ -406,7 +406,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
                         }`}
                     >
-                        <div className="container px-4 py-4 space-y-4 max-h-[calc(100vh-3.75rem)] overflow-y-auto">
+                        <div className="container px-4 pt-4 space-y-4 max-h-[calc(100vh-3.75rem)] overflow-y-auto pb-10">
                             <div className="space-y-1">
                                 <div className="text-[10px] font-semibold uppercase tracking-widest">
                                     {t.navigation.products}

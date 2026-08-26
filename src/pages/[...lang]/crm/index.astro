@@ -16,6 +16,7 @@ import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareAppli
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
 import { ogFromAsset } from "@/lib/og-image";
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/constants/app-stores";
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -92,8 +93,8 @@ const features = [
                 title: t.crm.heroRightCardTitle,
                 description: t.crm.heroRightCardDescription,
                 downloadAppButtons: {
-                    androidUrl: "https://play.google.com/store/apps/details?id=com.edena.crm",
-                    iosUrl: "https://apps.apple.com/app/id1555555555",
+                    iosUrl: APP_STORE_URL,
+                    androidUrl: GOOGLE_PLAY_URL,
                 },
                 cardClass: "justify-center items-center gap-4",
             }}
