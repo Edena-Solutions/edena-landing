@@ -87,13 +87,14 @@ const features = [
                 title: t.app.androidIosTitle,
                 description: t.app.androidIosDescription,
                 downloadAppButtons: {
-                    iosUrl: "https://apps.apple.com/app/edena",
-                    androidUrl: "https://play.google.com/store/apps/details?id=com.edena",
+                    iosUrl: "https://apps.apple.com/es/app/edena/id6784446492",
+                    androidUrl:
+                        "https://play.google.com/store/apps/details?id=com.edena.app&utm_source=emea_Med",
                 },
                 cardClass: "h-60 justify-center items-center gap-4",
             }}
         >
-            <AppAnimation slot="heroVisual" client:only="react" />
+            <AppAnimation slot="heroVisual" client:only="react" className="mt-10 md:mt-0" />
         </Hero>
         <Features
             client:load
