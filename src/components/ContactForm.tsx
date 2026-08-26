@@ -209,12 +209,10 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
     const isFormValid =
         schema.safeParse(formData).success &&
         (profile !== "partner" ||
-            (phoneValid &&
-                formData.centerName.trim() !== "" &&
-                formData.website.trim() !== ""));
+            (phoneValid && formData.centerName.trim() !== "" && formData.website.trim() !== ""));
 
     return (
-        <div className="grid overflow-hidden rounded bg-background md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+        <div className="grid overflow-hidden rounded bg-card md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
             {/* Left panel */}
             <div className="relative flex flex-col gap-6 p-6 md:pr-3">
                 <div className="relative z-10 flex flex-col gap-1">
@@ -244,7 +242,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                                     role="radio"
                                     aria-checked={selected}
                                     tabIndex={0}
-                                    className="relative rounded flex flex-col gap-2 p-4 h-full"
+                                    className="relative rounded flex flex-col gap-2 p-4 h-full bg-background"
                                     onKeyDown={(e) => {
                                         if (e.key === "Enter" || e.key === " ") {
                                             e.preventDefault();
@@ -283,7 +281,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
 
                 <div className="relative z-10 mt-auto flex flex-col gap-4 border-t border-primary/20 pt-6">
                     <div className="flex items-center gap-2">
-                        <span className="flex size-10 shrink-0 items-center justify-center rounded bg-secondary">
+                        <span className="flex size-10 shrink-0 items-center justify-center rounded bg-background">
                             <Mail className="size-5" />
                         </span>
                         <div className="text-sm">
@@ -294,7 +292,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                         </div>
                     </div>
                     <div className="flex items-center gap-2">
-                        <span className="flex size-10 shrink-0 items-center justify-center rounded bg-secondary">
+                        <span className="flex size-10 shrink-0 items-center justify-center rounded bg-background">
                             <MapPin className="size-5" />
                         </span>
                         <div className="text-sm">

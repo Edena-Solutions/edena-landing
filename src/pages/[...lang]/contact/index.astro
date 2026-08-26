@@ -18,13 +18,14 @@ const t = translations[lang as keyof typeof translations];
     lang={lang}
 >
     <section class="relative grid gap-10 px-4 pt-10 md:p-10">
-        <TopGlow heightClass="h-[50vh] min-h-[250px] max-h-[300px]" />
         <div class="relative z-10 w-full max-w-7xl mx-auto flex flex-col gap-8">
             <div class="text-center flex flex-col gap-2 items-center mx-auto">
-                <h1 class="text-xl sm:text-xl font-bold text-white max-w-lg sm:max-w-2xl">
+                <h1
+                    class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
+                >
                     {t.contact.title}
                 </h1>
-                <p class="text-white text-sm">{t.contact.description}</p>
+                <p class="text-muted-foreground max-w-150">{t.contact.description}</p>
             </div>
             <ContactForm client:load lang={lang} formspreeUrl={"https://formspree.io/f/mykbqoeq"} />
             <Conclusion lang={lang} isSimplified={true} />
