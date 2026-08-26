@@ -4,6 +4,7 @@ import { Image } from "astro:assets";
 import logo from "@/assets/img/logos/logo.png";
 import { translations, localePath } from "@/i18n/index.ts";
 import LanguageSwitcher from "./LanguageSwitcher";
+import DownloadAppButtons from "./DownloadAppButtons.astro";
 interface LinkGroup {
     title: string;
     links: {
@@ -105,6 +106,8 @@ const currentYear = new Date().getFullYear();
                 <p class="text-muted-foreground mb-6 text-sm">
                     {t.footer.description}
                 </p>
+                <p class="uppercase tracking-widest text-[10px] mb-3">{t.downloadTheApp}</p>
+                <DownloadAppButtons t={t} className="justify-center md:justify-start" />
             </div>
         </div>
 
@@ -117,9 +120,7 @@ const currentYear = new Date().getFullYear();
                 <a href={p("/blog/")} class="text-sm text-muted-foreground hover:text-primary"
                     >{t.navigation.blog}</a
                 >
-                <a
-                    href={p("/pricing")}
-                    class="text-sm text-muted-foreground hover:text-primary"
+                <a href={p("/pricing")} class="text-sm text-muted-foreground hover:text-primary"
                     >{t.navigation.pricing}</a
                 >
                 <a href={p("/faqs")} class="text-sm text-muted-foreground hover:text-primary"

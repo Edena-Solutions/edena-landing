@@ -14,6 +14,7 @@ import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
 import { ogFromAsset } from "@/lib/og-image";
 import appHero from "@/assets/img/screenshots/app/app_hero.png";
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/constants/app-stores";
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -87,9 +88,8 @@ const features = [
                 title: t.app.androidIosTitle,
                 description: t.app.androidIosDescription,
                 downloadAppButtons: {
-                    iosUrl: "https://apps.apple.com/es/app/edena/id6784446492",
-                    androidUrl:
-                        "https://play.google.com/store/apps/details?id=com.edena.app&utm_source=emea_Med",
+                    iosUrl: APP_STORE_URL,
+                    androidUrl: GOOGLE_PLAY_URL,
                 },
                 cardClass: "h-60 justify-center items-center gap-4",
             }}
