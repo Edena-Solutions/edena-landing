@@ -5,6 +5,7 @@ export default {
     registerButtonExtended: "30-day free trial",
     noCreditCardRequired: "No credit card required | Cancel anytime",
     downloadTheApp: "Download Free App",
+    changeWebsiteLanguage: "Select language",
     knowMore: "Know More",
     meta: {
         homeTitle: "School Management Software | Educational ERP · Edena",

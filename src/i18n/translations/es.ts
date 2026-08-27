@@ -5,6 +5,7 @@ export default {
     registerButtonExtended: "Prueba gratis 30 días",
     noCreditCardRequired: "Sin tarjeta de crédito | Cancela cuando quieras",
     downloadTheApp: "Descarga la app gratuita",
+    changeWebsiteLanguage: "Seleccionar idioma",
     knowMore: "Saber más",
     meta: {
         homeTitle: "Software de Gestión Escolar | ERP Educativo · Edena",

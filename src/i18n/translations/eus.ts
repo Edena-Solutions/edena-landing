@@ -5,6 +5,7 @@ export default {
     registerButtonExtended: "Proba doan 30 egun",
     noCreditCardRequired: "Kreditu-txartelik gabe | Bertan behera utzi nahi duzunean",
     downloadTheApp: "Deskargatu doako aplikazioa",
+    changeWebsiteLanguage: "Hautatu hizkuntza",
     knowMore: "Gehiago jakin",
     meta: {
         homeTitle: "Eskola Kudeaketa Softwarea | Hezkuntza ERPa · Edena",

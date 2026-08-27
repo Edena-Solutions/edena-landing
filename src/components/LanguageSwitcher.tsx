@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { languages, localePath } from "@/i18n/index.ts";
+import { cn } from "@/lib/utils";
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -12,6 +13,7 @@ import { Check } from "lucide-react";
 interface LanguageSwitcherProps {
     currentLang: string;
     currentPath?: string;
+    className?: string;
 }
 
 const languageNames: Record<string, { code: string; name: string; flag: string }> = {
@@ -45,7 +47,11 @@ function LangFlag({ src }: { src: string }) {
     );
 }
 
-export default function LanguageSwitcher({ currentLang, currentPath }: LanguageSwitcherProps) {
+export default function LanguageSwitcher({
+    currentLang,
+    currentPath,
+    className,
+}: LanguageSwitcherProps) {
     const [pathWithoutLang, setPathWithoutLang] = useState<string>("/");
 
     useEffect(() => {
@@ -72,15 +78,15 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
     if (!isClient) {
         return (
             <>
-                <div className="flex gap-2 md:hidden">
+                <div className={cn("flex flex-wrap justify-center gap-2 lg:hidden", className)}>
                     {languages.map((lang) => (
                         <a
                             key={lang}
                             href={localePath(lang, currentPath || "/")}
                             className={`inline-flex items-center gap-1.5 px-3 py-1 rounded text-sm font-medium ${
                                 currentLang === lang
-                                    ? "bg-black text-white"
-                                    : "bg-card text-black hover:bg-card/80"
+                                    ? "bg-primary text-primary-foreground"
+                                    : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
                             }`}
                         >
                             <LangFlag src={languageNames[lang].flag} />
@@ -88,7 +94,7 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                         </a>
                     ))}
                 </div>
-                <div className="hidden md:block">
+                <div className={cn("hidden lg:block", className)}>
                     <Button variant="secondary" className="gap-2">
                         <LangFlag src={languageNames[currentLang].flag} />
                         {languageNames[currentLang]?.code || currentLang}
@@ -100,15 +106,15 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
 
     return (
         <>
-            <div className="flex gap-2 md:hidden">
+            <div className={cn("flex flex-wrap justify-center gap-2 lg:hidden", className)}>
                 {languages.map((lang) => (
                     <a
                         key={lang}
                         href={createLanguageUrl(lang)}
                         className={`inline-flex items-center gap-1.5 px-3 py-1 rounded text-sm font-medium ${
                             currentLang === lang
-                                ? "bg-black text-white"
-                                : "bg-gray-100 text-black hover:bg-gray-200"
+                                ? "bg-primary text-primary-foreground"
+                                : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
                         }`}
                     >
                         <LangFlag src={languageNames[lang].flag} />
@@ -116,7 +122,7 @@ export default function LanguageSwitcher({ currentLang, currentPath }: LanguageS
                     </a>
                 ))}
             </div>
-            <div className="hidden md:block">
+            <div className={cn("hidden lg:block", className)}>
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
                         <Button variant="secondary" className="gap-2">

@@ -457,7 +457,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     <nav
                         id="mobile-nav-menu"
                         className={cn(
-                            "h-full bg-background origin-top transition-transform duration-300 ease-in-out will-change-transform",
+                            "h-full bg-background origin-top transition-transform duration-400 ease-in-out will-change-transform",
                             isMobileMenuOpen ? "translate-y-0" : "-translate-y-full",
                         )}
                     >
@@ -504,7 +504,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             >
                                 {t.navigation.faqs}
                             </a>
-                            <div className="flex flex-col gap-2 py-4">
+                            <div className="flex flex-col gap-2 py-2">
                                 <Link
                                     href="https://app.edena.es/login"
                                     className="block w-full hover:no-underline"
@@ -522,8 +522,14 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             </div>
                             <DownloadAppIcons
                                 lang={lang}
-                                className="flex flex-col justify-center items-center mt-10"
+                                className="flex flex-col justify-center items-center py-4"
                             />
+                            <div className="flex flex-col items-center py-4">
+                                <p className="uppercase tracking-widest text-[10px] mb-4 text-muted-foreground">
+                                    {t.changeWebsiteLanguage}
+                                </p>
+                                <LanguageSwitcher currentLang={lang} />
+                            </div>
                         </div>
                     </nav>
                 </div>
