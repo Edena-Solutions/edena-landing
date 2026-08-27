@@ -504,22 +504,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             >
                                 {t.navigation.faqs}
                             </a>
-                            <div className="flex flex-col gap-2 py-2">
-                                <Link
-                                    href="https://app.edena.es/register-organization"
-                                    className="block w-full hover:no-underline"
-                                >
-                                    <Button className="w-full">{t.registerButton}</Button>
-                                </Link>
-                                <Link
-                                    href="https://app.edena.es/login"
-                                    className="block w-full hover:no-underline"
-                                >
-                                    <Button variant="secondary" className="w-full">
-                                        {t.loginButton}
-                                    </Button>
-                                </Link>
-                            </div>
+
                             <DownloadAppIcons
                                 lang={lang}
                                 className="flex flex-col justify-center items-center py-4"
@@ -529,6 +514,29 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     {t.changeWebsiteLanguage}
                                 </p>
                                 <LanguageSwitcher currentLang={lang} />
+                            </div>
+                            <div className="flex flex-col gap-2 py-4">
+                                <Link href={p("/demo")}>
+                                    <Button variant="secondary" className="w-full">
+                                        {t.bookDemo}
+                                    </Button>
+                                </Link>
+                                <div className="flex gap-2">
+                                    <Link
+                                        href="https://app.edena.es/login"
+                                        className="block w-full hover:no-underline"
+                                    >
+                                        <Button variant="secondary" className="w-full">
+                                            {t.loginButton}
+                                        </Button>
+                                    </Link>
+                                    <Link
+                                        href="https://app.edena.es/register-organization"
+                                        className="block w-full hover:no-underline"
+                                    >
+                                        <Button className="w-full">{t.registerButton}</Button>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </nav>
