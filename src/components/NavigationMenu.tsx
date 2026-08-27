@@ -506,18 +506,18 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                             </a>
                             <div className="flex flex-col gap-2 py-2">
                                 <Link
+                                    href="https://app.edena.es/register-organization"
+                                    className="block w-full hover:no-underline"
+                                >
+                                    <Button className="w-full">{t.registerButton}</Button>
+                                </Link>
+                                <Link
                                     href="https://app.edena.es/login"
                                     className="block w-full hover:no-underline"
                                 >
                                     <Button variant="secondary" className="w-full">
                                         {t.loginButton}
                                     </Button>
-                                </Link>
-                                <Link
-                                    href="https://app.edena.es/register-organization"
-                                    className="block w-full hover:no-underline"
-                                >
-                                    <Button className="w-full">{t.registerButton}</Button>
                                 </Link>
                             </div>
                             <DownloadAppIcons
