@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type { LucideIcon } from "lucide-react";
 import {
     Baby,
@@ -27,6 +27,12 @@ import {
     NavigationMenuList,
     NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion";
 import { cn } from "@/lib/utils";
 import logo from "@/assets/img/logos/logo.png";
 import aiLogo from "@/assets/img/logos/ai.png";
@@ -34,6 +40,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import { translations, localePath } from "@/i18n/index.ts";
 import { Button } from "./ui/button";
 import Link from "./ui/link";
+import DownloadAppIcons from "./DownloadAppIcons";
 
 interface MenuItem {
     title: string;
@@ -82,8 +89,11 @@ const Logo = ({ lang, className }: { lang: string; className?: string }) => {
 
 const MenuButton = ({ isOpen, onClick }: { isOpen: boolean; onClick: () => void }) => (
     <button
+        type="button"
         className="lg:hidden flex flex-col justify-center items-center w-10 h-10 space-y-1.5 focus:outline-none"
         onClick={onClick}
+        aria-expanded={isOpen}
+        aria-controls="mobile-nav-menu"
         aria-label={isOpen ? "Close menu" : "Open menu"}
     >
         <span
@@ -169,8 +179,32 @@ const MobileMenuItemLink = ({ item }: { item: MenuItem }) => {
     );
 };
 
+const MobileMenuSection = ({
+    value,
+    title,
+    items,
+}: {
+    value: string;
+    title: string;
+    items: MenuItem[];
+}) => (
+    <AccordionItem value={value} className="border-0">
+        <AccordionTrigger className="py-2 text-sm font-medium hover:no-underline hover:text-primary">
+            {title}
+        </AccordionTrigger>
+        <AccordionContent className="pb-2">
+            <ul>
+                {items.map((item) => (
+                    <MobileMenuItemLink key={item.title} item={item} />
+                ))}
+            </ul>
+        </AccordionContent>
+    </AccordionItem>
+);
+
 const MainNavigationMenu = ({ lang, className }: Props) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [openMobileSection, setOpenMobileSection] = useState("");
     const t = translations[lang as keyof typeof translations];
 
     const pm = t.productModules;
@@ -304,8 +338,20 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
     ];
 
     const toggleMobileMenu = () => {
-        setIsMobileMenuOpen(!isMobileMenuOpen);
+        setIsMobileMenuOpen((open) => {
+            if (open) setOpenMobileSection("");
+            return !open;
+        });
     };
+
+    useEffect(() => {
+        if (!isMobileMenuOpen) return;
+        const previousOverflow = document.body.style.overflow;
+        document.body.style.overflow = "hidden";
+        return () => {
+            document.body.style.overflow = previousOverflow;
+        };
+    }, [isMobileMenuOpen]);
 
     return (
         <header className={cn("w-full bg-background fixed h-15 flex items-center z-50", className)}>
@@ -400,55 +446,87 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                     <LanguageSwitcher currentLang={lang} />
                 </div>
 
-                {isMobileMenuOpen && (
-                    <div
-                        className={`lg:hidden fixed inset-x-0 top-15 z-50 bg-background border-b transition-transform duration-300 ease-in-out transform ${
-                            isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
-                        }`}
+                <div
+                    className={cn(
+                        "lg:hidden fixed inset-x-0 top-15 bottom-0 z-40 overflow-hidden",
+                        isMobileMenuOpen ? "pointer-events-auto" : "pointer-events-none",
+                    )}
+                    aria-hidden={!isMobileMenuOpen}
+                    inert={!isMobileMenuOpen}
+                >
+                    <nav
+                        id="mobile-nav-menu"
+                        className={cn(
+                            "h-full bg-background origin-top transition-transform duration-300 ease-in-out will-change-transform",
+                            isMobileMenuOpen ? "translate-y-0" : "-translate-y-full",
+                        )}
                     >
-                        <div className="container px-4 pt-4 space-y-4 max-h-[calc(100vh-3.75rem)] overflow-y-auto pb-10">
-                            <div className="space-y-1">
-                                <div className="text-[10px] font-semibold uppercase tracking-widest">
-                                    {t.navigation.products}
-                                </div>
-                                <ul>
-                                    {products.map((item) => (
-                                        <MobileMenuItemLink key={item.title} item={item} />
-                                    ))}
-                                </ul>
+                        <div className="container h-full overflow-y-auto px-4 pt-2 pb-[max(2.5rem,env(safe-area-inset-bottom))] mx-auto">
+                            <Accordion
+                                type="single"
+                                collapsible
+                                value={openMobileSection}
+                                onValueChange={setOpenMobileSection}
+                                className="w-full"
+                            >
+                                <MobileMenuSection
+                                    value="products"
+                                    title={t.navigation.products}
+                                    items={products}
+                                />
+                                <MobileMenuSection
+                                    value="functionalities"
+                                    title={t.navigation.functionalities}
+                                    items={segments}
+                                />
+                            </Accordion>
+                            <a
+                                href={p("/pricing")}
+                                className="block py-2 text-sm font-medium hover:text-primary"
+                            >
+                                {t.navigation.pricing}
+                            </a>
+                            <a
+                                href={p("/contact")}
+                                className="block py-2 text-sm font-medium hover:text-primary"
+                            >
+                                {t.navigation.contact}
+                            </a>
+                            <a
+                                href={p("/blog/")}
+                                className="block py-2 text-sm font-medium hover:text-primary"
+                            >
+                                {t.navigation.blog}
+                            </a>
+                            <a
+                                href={p("/faqs")}
+                                className="block py-2 text-sm font-medium hover:text-primary"
+                            >
+                                {t.navigation.faqs}
+                            </a>
+                            <div className="flex flex-col gap-2 py-4">
+                                <Link
+                                    href="https://app.edena.es/login"
+                                    className="block w-full hover:no-underline"
+                                >
+                                    <Button variant="secondary" className="w-full">
+                                        {t.loginButton}
+                                    </Button>
+                                </Link>
+                                <Link
+                                    href="https://app.edena.es/register-organization"
+                                    className="block w-full hover:no-underline"
+                                >
+                                    <Button className="w-full">{t.registerButton}</Button>
+                                </Link>
                             </div>
-
-                            <div className="space-y-1">
-                                <div className="text-[10px] font-semibold uppercase tracking-widest">
-                                    {t.navigation.functionalities}
-                                </div>
-                                <ul>
-                                    {segments.map((item) => (
-                                        <MobileMenuItemLink key={item.title} item={item} />
-                                    ))}
-                                </ul>
-                            </div>
-                            <div>
-                                <div>
-                                    <a
-                                        href={p("/pricing")}
-                                        className="block py-2 text-sm hover:text-primary"
-                                    >
-                                        {t.navigation.pricing}
-                                    </a>
-                                </div>
-                                <div>
-                                    <a
-                                        href={p("/contact")}
-                                        className="block py-2 text-sm hover:text-primary"
-                                    >
-                                        {t.navigation.contact}
-                                    </a>
-                                </div>
-                            </div>
+                            <DownloadAppIcons
+                                lang={lang}
+                                className="flex flex-col justify-center items-center mt-10"
+                            />
                         </div>
-                    </div>
-                )}
+                    </nav>
+                </div>
             </div>
         </header>
     );
