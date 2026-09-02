@@ -3,16 +3,19 @@ import type { Translation } from "@/i18n";
 
 interface Props {
     t: Translation;
+    /** Defaults to the generic pricing headline; the audience pages pass their own. */
+    title?: string;
+    description?: string;
 }
 
-const { t } = Astro.props;
+const { t, title = t.pricing.title, description = t.pricing.description } = Astro.props;
 ---
 
 <div class="text-center flex flex-col gap-6 items-center max-w-2xl mx-auto pt-10">
     <h1
         class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
     >
-        {t.pricing.title}
+        {title}
     </h1>
-    <p class="text-muted-foreground max-w-150">{t.pricing.description}</p>
+    <p class="text-muted-foreground max-w-150">{description}</p>
 </div>

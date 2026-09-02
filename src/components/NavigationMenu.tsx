@@ -337,6 +337,23 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
         },
     ];
 
+    const pricingAudiences: MenuItem[] = [
+        {
+            title: t.navigation.pricingAcademies,
+            href: p("/pricing/academies"),
+            description: t.navigation.pricingAcademiesDescription,
+            icon: Landmark,
+            iconColor: "bg-amber-100 text-amber-600 dark:bg-amber-500/15 dark:text-amber-400",
+        },
+        {
+            title: t.navigation.pricingCenters,
+            href: p("/pricing/centers"),
+            description: t.navigation.pricingCentersDescription,
+            icon: School,
+            iconColor: "bg-sky-100 text-sky-600 dark:bg-sky-500/15 dark:text-sky-400",
+        },
+    ];
+
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen((open) => {
             if (open) setOpenMobileSection("");
@@ -403,11 +420,24 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     </NavigationMenuContent>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
-                                    <Link href={p("/pricing")}>
-                                        <Button variant="ghost" className="font-medium">
-                                            {t.navigation.pricing}
-                                        </Button>
-                                    </Link>
+                                    <NavigationMenuTrigger className="font-medium">
+                                        {t.navigation.pricing}
+                                    </NavigationMenuTrigger>
+                                    <NavigationMenuContent>
+                                        <ul className="grid w-[400px] gap-2 p-2 lg:w-[500px] grid-cols-2">
+                                            {pricingAudiences.map((item) => (
+                                                <ListItem
+                                                    key={item.title}
+                                                    title={item.title}
+                                                    href={item.href}
+                                                    icon={item.icon}
+                                                    iconColor={item.iconColor}
+                                                >
+                                                    {item.description}
+                                                </ListItem>
+                                            ))}
+                                        </ul>
+                                    </NavigationMenuContent>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
                                     <Link href={p("/contact")}>
@@ -479,13 +509,12 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     title={t.navigation.functionalities}
                                     items={segments}
                                 />
+                                <MobileMenuSection
+                                    value="pricing"
+                                    title={t.navigation.pricing}
+                                    items={pricingAudiences}
+                                />
                             </Accordion>
-                            <a
-                                href={p("/pricing")}
-                                className="block py-2 text-sm font-medium hover:text-primary"
-                            >
-                                {t.navigation.pricing}
-                            </a>
                             <a
                                 href={p("/contact")}
                                 className="block py-2 text-sm font-medium hover:text-primary"

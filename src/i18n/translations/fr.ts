@@ -11,6 +11,12 @@ export default {
         homeTitle: "Logiciel de Gestion Scolaire | ERP Éducatif · Edena",
         homeDescription:
             "Le logiciel de gestion scolaire qui centralise facturation, présences, dossiers et communication avec les familles. Sans engagement. Démo gratuite.",
+        pricingAcademiesTitle: "Tarifs pour Académies | Packs dès 1,20 € par élève · Edena",
+        pricingAcademiesDescription:
+            "Packs tout compris pour académies : communication, automatisation, finances ou tout inclus. Prix par élève, sans frais d'ouverture ni engagement. Essai gratuit 30 jours.",
+        pricingCentersTitle: "Tarifs pour Établissements Scolaires | Dès 44 €/mois · Edena",
+        pricingCentersDescription:
+            "Plateforme modulaire pour écoles, crèches et groupes scolaires dès 44 € par mois. Activez uniquement les modules dont vous avez besoin et payez par élève.",
         pricingTitle: "Tarifs | Logiciel de Gestion Scolaire dès 44 €/mois · Edena",
         pricingDescription:
             "Paiement par élève, sans frais d’ouverture ni engagement. À partir de 44 €/mois avec dossier numérique, présences et portail familles. Essai gratuit 30 jours.",
@@ -154,6 +160,12 @@ export default {
         assignmentDescription:
             "Planifiez les devoirs, les cycles d’évaluation et le suivi des notes. Bulletins automatiques et visibilité pour les familles.",
         pricing: "Tarifs",
+        pricingAcademies: "Académies",
+        pricingAcademiesDescription:
+            "Packs tout compris au prix par élève pour les académies de langues, musique, danse ou soutien scolaire.",
+        pricingCenters: "Établissements",
+        pricingCentersDescription:
+            "Plateforme modulaire dès 44 € par mois pour écoles, crèches et groupes scolaires.",
         contact: "Contactez-nous",
         faqs: "FAQ",
         blog: "Blog",
@@ -875,6 +887,129 @@ export default {
         mostPopular: "Le plus populaire",
         viewPlans: "Offres",
         viewCalculator: "Simulateur",
+        fromLabel: "À partir de",
+        perStudent: "par élève et par mois",
+        startNow: "M'inscrire maintenant gratuitement",
+        hub: {
+            title: "Des tarifs pensés pour votre type d'établissement",
+            description:
+                "Choisissez le point de départ qui vous correspond : des packs tout compris pour les académies ou une plateforme modulaire pour les établissements scolaires. Dans les deux cas, vous payez par élève, sans frais d'ouverture ni engagement.",
+            academies: {
+                badge: "Académies",
+                title: "Packs pour académies",
+                description:
+                    "Langues, musique, danse, soutien scolaire ou sport. Choisissez le pack qui règle votre priorité et lancez-vous dès aujourd'hui.",
+                features: [
+                    "Quatre packs tout compris, sans petites lignes",
+                    "Ena, l'IA d'Edena, incluse dans tous les packs",
+                    "Mise en route en quelques minutes, sans engagement",
+                ],
+                cta: "Voir les packs",
+            },
+            centers: {
+                badge: "Établissements scolaires",
+                title: "Plateforme modulaire",
+                description:
+                    "Écoles, crèches et groupes scolaires. Vous démarrez avec la plateforme de base et activez les modules dont votre établissement a besoin.",
+                priceNote: "par mois et par établissement",
+                features: [
+                    "Dix modules à activer quand vous en avez besoin",
+                    "Migration des données et onboarding inclus",
+                    "Remises au volume et multi-établissements",
+                ],
+                cta: "Voir les offres et modules",
+            },
+        },
+        packs: {
+            title: "Packs pour académies",
+            description:
+                "Quatre packs tout compris au prix par élève. Choisissez celui qui règle votre priorité du moment et changez quand vous voulez : sans frais d'ouverture ni engagement.",
+            minNote: "Facturation minimale de 44 € par mois",
+            includes: "Ce qui est inclus",
+            bestFor: "Idéal si",
+            items: {
+                communication: {
+                    name: "Pack Communication",
+                    tagline:
+                        "Gardez les familles informées sans appels ni groupes WhatsApp, et pilotez le quotidien de votre équipe.",
+                    bestFor: "votre équipe perd des heures à répondre aux messages et aux avis.",
+                },
+                automation: {
+                    name: "Pack Automatisation",
+                    tagline:
+                        "Laissez les tâches répétitives se faire toutes seules et démultipliez votre équipe avec Ena.",
+                    bestFor:
+                        "vous répétez chaque semaine les mêmes inscriptions, avis et relances.",
+                },
+                finance: {
+                    name: "Pack Finances",
+                    tagline:
+                        "Encaissez à temps, facturez sans erreur et transformez plus de demandes en inscriptions.",
+                    bestFor: "vous courez après les paiements et perdez des inscriptions en route.",
+                },
+                complete: {
+                    name: "Pack Académie 360",
+                    tagline:
+                        "Tout Edena dans un seul pack, tous les modules activés et l'allocation Ena la plus large.",
+                    bestFor: "vous voulez digitaliser toute l'académie d'un coup.",
+                },
+            },
+            notes: [
+                {
+                    title: "Sans engagement",
+                    description:
+                        "Vous changez de pack, montez en gamme ou résiliez quand vous voulez.",
+                },
+                {
+                    title: "Mise en route et migration incluses",
+                    description:
+                        "Nous migrons vos données et formons votre équipe sans frais supplémentaires.",
+                },
+                {
+                    title: "Remise au volume",
+                    description: "À partir de 300 élèves, nous ajustons le prix par élève.",
+                },
+            ],
+        },
+        centers: {
+            title: "Un tarif qui s'adapte à votre établissement",
+            description:
+                "Vous démarrez avec la plateforme de base et n'activez que les modules dont votre établissement a besoin. Vous payez par élève, sans frais d'ouverture ni engagement, et le tarif suit votre croissance.",
+            fromNote: "par mois et par établissement",
+            priceCaption: "Plateforme de base, application familles et support inclus",
+            priceBullets: [
+                "Paiement par élève : l'offre grandit avec vous",
+                "Sans frais d'ouverture ni engagement",
+                "Migration des données et formation incluses",
+                "Remises au volume et pour les groupes scolaires",
+            ],
+            howTitle: "Comment votre tarif est calculé",
+            howDescription:
+                "Trois variables et aucune surprise. Nous le finalisons avec vous en 20 minutes de démo, avec les chiffres réels de votre établissement.",
+            steps: [
+                {
+                    title: "La plateforme de base",
+                    description:
+                        "Dossiers élèves, application familles, communication et support 24/7. C'est le point de départ de tous les établissements.",
+                },
+                {
+                    title: "Les modules dont vous avez besoin",
+                    description:
+                        "Activez la facturation, le CRM, les activités périscolaires ou l'automatisation quand vous en avez besoin. Et désactivez-les s'ils ne servent plus.",
+                },
+                {
+                    title: "Votre nombre d'élèves",
+                    description:
+                        "Vous payez par élève inscrit, avec un minimum de 44 € par mois et des remises au-delà d'un certain volume.",
+                },
+            ],
+            modulesTitle: "Tous les modules d'Edena",
+            modulesDescription:
+                "Dix modules qui s'articulent entre eux. Activez ceux dont vous avez besoin aujourd'hui et ajoutez les autres quand votre établissement le demandera.",
+            ctaTitle: "Combien cela coûterait-il chez vous ?",
+            ctaDescription:
+                "Dites-nous combien d'élèves vous avez et ce dont vous avez besoin. Nous vous donnons un tarif ferme pendant la démo, sans engagement.",
+        },
         calculator: {
             title: "Sélectionnez les modules dont vous avez besoin",
             subtitle:

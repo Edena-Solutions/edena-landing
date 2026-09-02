@@ -11,6 +11,12 @@ export default {
         homeTitle: "Eskola Kudeaketa Softwarea | Hezkuntza ERPa · Edena",
         homeDescription:
             "Fakturazioa (Verifactu), asistentzia, agiriak eta familien komunikazioa zentralizatzen dituen eskola-kudeaketa softwarea. Iraunkortasunik gabe. Demo doakoa.",
+        pricingAcademiesTitle: "Akademientzako Prezioak | Packak 1,20 €-tik ikasleko · Edena",
+        pricingAcademiesDescription:
+            "Akademientzako pack itxiak: komunikazioa, automatizazioa, finantzak edo dena barne. Prezioa ikasleko, alta kuotarik eta iraunkortasunik gabe. 30 eguneko doako proba.",
+        pricingCentersTitle: "Ikastetxeentzako Prezioak | 44 €/hiletik · Edena",
+        pricingCentersDescription:
+            "Plataforma modularra ikastetxe, haur eskola eta talde hezitzaileentzat, hilean 44 €-tik. Aktibatu behar dituzun moduluak soilik eta ordaindu ikasleko.",
         pricingTitle: "Prezioak | Eskola Kudeaketa Softwarea 44 €/hiletik · Edena",
         pricingDescription:
             "Ikasleko ordainketa, alta-kuotarik eta iraunkortasunik gabe. 44 €/hiletik agiri digitalarekin, asistentziarekin eta familien atariarekin. 30 eguneko proba doakoa.",
@@ -154,6 +160,12 @@ export default {
         assignmentDescription:
             "Planifikatu zereginak, ebaluazio-zikloak eta kalifikazioen jarraipena. Boletin automatikoak eta familien ikusgarritasuna.",
         pricing: "Prezioak",
+        pricingAcademies: "Akademiak",
+        pricingAcademiesDescription:
+            "Pack itxiak ikasleko prezioarekin: hizkuntza, musika, dantza edo errefortzu akademientzat.",
+        pricingCenters: "Ikastetxeentzat",
+        pricingCentersDescription:
+            "Plataforma modularra hilean 44 €-tik ikastetxe, haur eskola eta taldeentzat.",
         contact: "Jarri gurekin harremanetan",
         faqs: "Galdera ohikoak",
         blog: "Bloga",
@@ -867,6 +879,127 @@ export default {
         mostPopular: "Popularrena",
         viewPlans: "Planak",
         viewCalculator: "Kalkulagailua",
+        fromLabel: "Gutxienez",
+        perStudent: "ikasleko hilean",
+        startNow: "Erregistratu orain gratis",
+        hub: {
+            title: "Zure zentro motara egokitutako prezioak",
+            description:
+                "Aukeratu zuri dagokizun abiapuntua: pack itxiak akademientzat edo plataforma modularra ikastetxeentzat. Bi kasuetan ikasleko ordaintzen duzu, alta kuotarik eta iraunkortasunik gabe.",
+            academies: {
+                badge: "Akademiak",
+                title: "Akademientzako packak",
+                description:
+                    "Hizkuntzak, musika, dantza, errefortzua edo kirola. Aukeratu zure lehentasuna konpontzen duen packa eta hasi gaur bertan.",
+                features: [
+                    "Lau pack itxi, letra txikirik gabe",
+                    "Ena, Edenaren IA, guztietan barne",
+                    "Alta minutu gutxitan eta iraunkortasunik gabe",
+                ],
+                cta: "Ikusi packak",
+            },
+            centers: {
+                badge: "Ikastetxeak",
+                title: "Plataforma modularra",
+                description:
+                    "Ikastetxeak, haur eskolak eta talde hezitzaileak. Oinarrizko plataformarekin hasten zara eta zure zentroak behar dituen moduluak aktibatzen dituzu.",
+                priceNote: "hilean zentro bakoitzeko",
+                features: [
+                    "Hamar modulu, behar dituzunean aktibatzeko",
+                    "Datuen migrazioa eta onboardinga barne",
+                    "Bolumen eta zentro anitzeko deskontuak",
+                ],
+                cta: "Ikusi planak eta moduluak",
+            },
+        },
+        packs: {
+            title: "Akademientzako packak",
+            description:
+                "Lau pack itxi, ikasleko prezioarekin. Aukeratu gaurko lehentasuna konpontzen duena eta aldatu behar duzunean: alta kuotarik eta iraunkortasunik gabe.",
+            minNote: "Gutxieneko fakturazioa: 44 € hilean",
+            includes: "Zer barne hartzen duen",
+            bestFor: "Egokia bada",
+            items: {
+                communication: {
+                    name: "Komunikazio Packa",
+                    tagline:
+                        "Mantendu familiak egunean deirik eta WhatsApp talderik gabe, eta kontrolatu zure taldearen eguneroko lana.",
+                    bestFor: "zure taldeak orduak galtzen ditu mezu eta abisu solteei erantzuten.",
+                },
+                automation: {
+                    name: "Automatizazio Packa",
+                    tagline:
+                        "Utzi lan errepikakorrak bere kabuz egiten eta biderkatu zure taldearen ahalmena Enarekin.",
+                    bestFor: "astero alta, abisu eta jarraipen berak errepikatzen dituzu.",
+                },
+                finance: {
+                    name: "Finantza Packa",
+                    tagline:
+                        "Kobratu garaiz, fakturatu akatsik gabe eta bihurtu kontsulta gehiago matrikula.",
+                    bestFor: "ordainketen atzetik zabiltza eta matrikulak galtzen dituzu bidean.",
+                },
+                complete: {
+                    name: "Akademia 360 Packa",
+                    tagline:
+                        "Edena osoa pack bakarrean, modulu guztiak aktibatuta eta Enaren esleipen handienarekin.",
+                    bestFor: "akademia osoa batera digitalizatu nahi duzu.",
+                },
+            },
+            notes: [
+                {
+                    title: "Iraunkortasunik gabe",
+                    description: "Packa aldatu, handitu edo baja eman nahi duzunean.",
+                },
+                {
+                    title: "Alta eta migrazioa barne",
+                    description:
+                        "Zure datuak migratzen ditugu eta zure taldea prestatzen dugu kostu gehigarririk gabe.",
+                },
+                {
+                    title: "Bolumen deskontua",
+                    description: "300 ikasletik aurrera ikasleko prezioa doitzen dugu.",
+                },
+            ],
+        },
+        centers: {
+            title: "Zure zentrora egokitzen den prezioa",
+            description:
+                "Oinarrizko plataformarekin hasten zara eta zure zentroak behar dituen moduluak soilik aktibatzen dituzu. Ikasleko ordaintzen duzu, alta kuotarik eta iraunkortasunik gabe, eta prezioa hazi ahala doitzen da.",
+            fromNote: "hilean zentro bakoitzeko",
+            priceCaption: "Oinarrizko plataforma, familientzako app-a eta laguntza barne",
+            priceBullets: [
+                "Ordainketa ikasleko: zu hazi, plana hazi",
+                "Alta kuotarik eta iraunkortasunik gabe",
+                "Datuen migrazioa eta prestakuntza barne",
+                "Bolumen eta zentro taldeentzako deskontuak",
+            ],
+            howTitle: "Nola kalkulatzen den zure prezioa",
+            howDescription:
+                "Hiru aldagai eta ezustekorik ez. Demoan zurekin ixten dugu 20 minutuan, zure zentroaren datu errealekin.",
+            steps: [
+                {
+                    title: "Oinarrizko plataforma",
+                    description:
+                        "Espedienteak, familientzako app-a, komunikazioa eta 24/7 laguntza. Zentro guztien abiapuntua da.",
+                },
+                {
+                    title: "Behar dituzun moduluak",
+                    description:
+                        "Aktibatu fakturazioa, CRMa, eskolaz kanpokoak edo automatizazioa behar duzunean. Eta desaktibatu egokitzen ez badira.",
+                },
+                {
+                    title: "Ikasle kopurua",
+                    description:
+                        "Matrikulatutako ikasleko ordaintzen duzu, hilean gutxienez 44 € eta bolumen jakin batetik aurrera deskontuekin.",
+                },
+            ],
+            modulesTitle: "Edenaren modulu guztiak",
+            modulesDescription:
+                "Elkarrekin ondo uztartzen diren hamar modulu. Aktibatu gaur behar dituzunak eta gehitu gainerakoak zure zentroak eskatzen duenean.",
+            ctaTitle: "Zenbat kostatuko litzateke zure zentroan?",
+            ctaDescription:
+                "Esaguzu zenbat ikasle dituzuen eta zer behar duzuen. Demo berean prezio itxia emango dizugu, konpromisorik gabe.",
+        },
         calculator: {
             title: "Hautatu behar dituzun moduluak",
             subtitle:

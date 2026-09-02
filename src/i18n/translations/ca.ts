@@ -11,6 +11,12 @@ export default {
         homeTitle: "Programari de Gestió Escolar | ERP Educatiu · Edena",
         homeDescription:
             "El programari de gestió escolar que centralitza facturació amb Verifactu, assistència, expedients i comunicació amb famílies. Sense permanència. Demo gratis.",
+        pricingAcademiesTitle: "Preus per a Acadèmies | Packs des d'1,20 € per alumne · Edena",
+        pricingAcademiesDescription:
+            "Packs tancats per a acadèmies: comunicació, automatització, finances o tot inclòs. Preu per alumne, sense quota d'alta ni permanència. Prova gratuïta de 30 dies.",
+        pricingCentersTitle: "Preus per a Centres Educatius | Des de 44 €/mes · Edena",
+        pricingCentersDescription:
+            "Plataforma modular per a escoles, escoles bressol i grups educatius des de 44 € al mes. Activa només els mòduls que necessites i paga per alumne.",
         pricingTitle: "Preus | Programari de Gestió Escolar des de 44 €/mes · Edena",
         pricingDescription:
             "Pagament per alumne, sense quota d'alta ni permanència. Des de 44 €/mes amb expedient digital, assistència i portal de famílies. Prova gratis 30 dies.",
@@ -154,6 +160,12 @@ export default {
         assignmentDescription:
             "Planifica tasques, cicles d'avaluació i seguiment de qualificacions. Butlletins automàtics i visibilitat per a les famílies.",
         pricing: "Preus",
+        pricingAcademies: "Acadèmies",
+        pricingAcademiesDescription:
+            "Packs tancats amb preu per alumne per a acadèmies d'idiomes, música, dansa o reforç.",
+        pricingCenters: "Centres Educatius",
+        pricingCentersDescription:
+            "Plataforma modular des de 44 € al mes per a escoles, escoles bressol i grups.",
         contact: "Contacta'ns",
         faqs: "Preguntes freqüents",
         blog: "Blog",
@@ -866,6 +878,126 @@ export default {
         mostPopular: "Més popular",
         viewPlans: "Plans",
         viewCalculator: "Calculadora",
+        fromLabel: "Des de",
+        perStudent: "per alumne al mes",
+        startNow: "Registrar-me ja gratis",
+        hub: {
+            title: "Preus pensats per al teu tipus de centre",
+            description:
+                "Tria el punt de partida que t'encaixa: packs tancats per a acadèmies o una plataforma modular per a centres educatius. En tots dos casos pagues per alumne, sense quota d'alta ni permanència.",
+            academies: {
+                badge: "Acadèmies",
+                title: "Packs per a acadèmies",
+                description:
+                    "Idiomes, música, dansa, reforç o esport. Tria el pack que resol la teva prioritat i comença a fer-lo servir avui mateix.",
+                features: [
+                    "Quatre packs tancats, sense lletra petita",
+                    "L'Ena, la IA d'Edena, inclosa en tots",
+                    "Alta en minuts i sense permanència",
+                ],
+                cta: "Veure packs",
+            },
+            centers: {
+                badge: "Centres educatius",
+                title: "Plataforma modular",
+                description:
+                    "Escoles, escoles bressol i grups educatius. Comences amb la plataforma base i actives els mòduls que el teu centre necessita.",
+                priceNote: "al mes per centre",
+                features: [
+                    "Deu mòduls que actives quan els necessites",
+                    "Migració de dades i onboarding inclosos",
+                    "Descomptes per volum i multicentre",
+                ],
+                cta: "Veure plans i mòduls",
+            },
+        },
+        packs: {
+            title: "Packs per a acadèmies",
+            description:
+                "Quatre packs tancats amb preu per alumne. Tria el que resol la teva prioritat d'avui i canvia quan ho necessitis: sense quota d'alta i sense permanència.",
+            minNote: "Facturació mínima de 44 € al mes",
+            includes: "Què inclou",
+            bestFor: "Ideal si",
+            items: {
+                communication: {
+                    name: "Pack Comunicació",
+                    tagline:
+                        "Mantén les famílies al dia sense trucades ni grups de WhatsApp, i controla el dia a dia del teu equip.",
+                    bestFor: "el teu equip perd hores responent avisos i missatges solts.",
+                },
+                automation: {
+                    name: "Pack Automatització",
+                    tagline:
+                        "Deixa que les tasques repetitives es facin soles i multiplica la capacitat del teu equip amb l'Ena.",
+                    bestFor: "repeteixes cada setmana les mateixes altes, avisos i seguiments.",
+                },
+                finance: {
+                    name: "Pack Finances",
+                    tagline:
+                        "Cobra a temps, factura sense errors i converteix més consultes en matrícules.",
+                    bestFor: "persegueixes pagaments i perds matrícules pel camí.",
+                },
+                complete: {
+                    name: "Pack Acadèmia 360",
+                    tagline:
+                        "Tot Edena en un sol pack, amb tots els mòduls actius i la màxima assignació d'Ena.",
+                    bestFor: "vols digitalitzar tota l'acadèmia de cop.",
+                },
+            },
+            notes: [
+                {
+                    title: "Sense permanència",
+                    description: "Canvies de pack, puges o et dones de baixa quan vulguis.",
+                },
+                {
+                    title: "Alta i migració incloses",
+                    description: "Migrem les teves dades i formem el teu equip sense cost afegit.",
+                },
+                {
+                    title: "Descompte per volum",
+                    description: "A partir de 300 alumnes ajustem el preu per alumne.",
+                },
+            ],
+        },
+        centers: {
+            title: "Un preu que s'adapta al teu centre",
+            description:
+                "Comences amb la plataforma base i actives només els mòduls que el teu centre necessita. Pagues per alumne, sense quota d'alta ni permanència, i el preu s'ajusta a mesura que creixes.",
+            fromNote: "al mes per centre",
+            priceCaption: "Plataforma base, app per a famílies i suport inclosos",
+            priceBullets: [
+                "Pagament per alumne: creixes tu, creix el pla",
+                "Sense quota d'alta ni permanència",
+                "Migració de dades i formació incloses",
+                "Descomptes per volum i per a grups de centres",
+            ],
+            howTitle: "Com es calcula el teu preu",
+            howDescription:
+                "Tres variables i cap sorpresa. A la demo el tanquem amb tu en 20 minuts amb les dades reals del teu centre.",
+            steps: [
+                {
+                    title: "La plataforma base",
+                    description:
+                        "Expedients, app per a famílies, comunicació i suport 24/7. És el punt de partida de tots els centres.",
+                },
+                {
+                    title: "Els mòduls que necessitis",
+                    description:
+                        "Activa facturació, CRM, extraescolars o automatització quan et calgui. I desactiva'ls si deixen d'encaixar.",
+                },
+                {
+                    title: "El nombre d'alumnes",
+                    description:
+                        "Pagues per alumne matriculat, amb un mínim de 44 € al mes i descomptes a partir de cert volum.",
+                },
+            ],
+            modulesTitle: "Tots els mòduls d'Edena",
+            modulesDescription:
+                "Deu mòduls que encaixen entre si. Activa els que necessites avui i afegeix la resta quan el teu centre ho demani.",
+            ctaTitle: "Quant costaria al teu centre?",
+            ctaDescription:
+                "Explica'ns quants alumnes teniu i què necessiteu. Et donem el preu tancat a la mateixa demo, sense compromís.",
+        },
         calculator: {
             title: "Selecciona els mòduls que necessites",
             subtitle:

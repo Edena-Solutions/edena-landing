@@ -1,0 +1,95 @@
+---
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import Icon from "@/components/ui/icon";
+import { MIN_MONTHLY, PACKS, formatPrice } from "@/constants/pricing";
+import type { Translation } from "@/i18n";
+
+interface Props {
+    t: Translation;
+    lang: string;
+    academiesUrl: string;
+    centersUrl: string;
+}
+
+const { t, lang, academiesUrl, centersUrl } = Astro.props;
+const hub = t.pricing.hub;
+
+const cheapestPack = Math.min(...PACKS.map((pack) => pack.pricePerStudent));
+
+const cards = [
+    {
+        ...hub.academies,
+        icon: "Landmark",
+        iconColor: "bg-amber-100 text-amber-600 dark:bg-amber-500/15 dark:text-amber-400",
+        price: formatPrice(cheapestPack, lang),
+        priceNote: t.pricing.perStudent,
+        href: academiesUrl,
+    },
+    {
+        ...hub.centers,
+        icon: "School",
+        iconColor: "bg-sky-100 text-sky-600 dark:bg-sky-500/15 dark:text-sky-400",
+        price: formatPrice(MIN_MONTHLY, lang, 0),
+        href: centersUrl,
+    },
+];
+---
+
+<div class="grid gap-4 px-4 sm:grid-cols-2 max-w-5xl w-full mx-auto">
+    {
+        cards.map((card) => (
+            <Card className="flex h-full flex-col gap-6 rounded bg-card p-8">
+                <div class="flex items-center gap-3">
+                    <span
+                        class:list={[
+                            "flex size-8 flex-shrink-0 items-center justify-center rounded-lg",
+                            card.iconColor,
+                        ]}
+                        aria-hidden="true"
+                    >
+                        <Icon name={card.icon} size={18} />
+                    </span>
+                    <Badge variant="secondary" className="text-[10px] tracking-widest uppercase">
+                        {card.badge}
+                    </Badge>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <h2 class="text-xl font-bold">{card.title}</h2>
+                    <p class="text-sm text-muted-foreground">{card.description}</p>
+                </div>
+
+                <div class="flex flex-col gap-1">
+                    <p class="text-3xl font-bold">
+                        <span class="text-base font-normal text-muted-foreground">
+                            {t.pricing.fromLabel}
+                        </span>{" "}
+                        {card.price}
+                    </p>
+                    <p class="text-[10px] tracking-widest uppercase text-muted-foreground">
+                        {card.priceNote}
+                    </p>
+                </div>
+
+                <ul class="m-0 list-none space-y-2 p-0">
+                    {card.features.map((feature) => (
+                        <li class="flex items-start gap-2">
+                            <Icon
+                                name="Check"
+                                size={14}
+                                className="mt-0.5 flex-shrink-0 text-muted-foreground"
+                            />
+                            <span class="text-sm leading-snug">{feature}</span>
+                        </li>
+                    ))}
+                </ul>
+
+                <a href={card.href} class="mt-auto block hover:no-underline">
+                    <Button className="w-full">{card.cta}</Button>
+                </a>
+            </Card>
+        ))
+    }
+</div>

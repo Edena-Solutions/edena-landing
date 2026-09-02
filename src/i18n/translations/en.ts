@@ -11,6 +11,12 @@ export default {
         homeTitle: "School Management Software | Educational ERP · Edena",
         homeDescription:
             "The school management software that centralises billing, attendance, student records and family communication. No long-term contract. Free demo.",
+        pricingAcademiesTitle: "Pricing for Academies | Packs from €1.20 per student · Edena",
+        pricingAcademiesDescription:
+            "All-in packs for academies: communication, automation, finance or everything included. Priced per student, no setup fee, no lock-in. 30-day free trial.",
+        pricingCentersTitle: "Pricing for Education Centres | From €44/month · Edena",
+        pricingCentersDescription:
+            "Modular platform for schools, nurseries and education groups from €44 a month. Switch on only the modules you need and pay per student.",
         pricingTitle: "Pricing | School Management Software from €44/month · Edena",
         pricingDescription:
             "Per-student pricing, no setup fee, no long-term contract. From €44/month with digital records, attendance and family portal. 30-day free trial.",
@@ -148,6 +154,12 @@ export default {
         assignmentDescription:
             "Plan assignments, evaluation cycles and grade tracking. Automated report cards and family visibility.",
         pricing: "Pricing",
+        pricingAcademies: "Academies",
+        pricingAcademiesDescription:
+            "All-in packs priced per student for language, music, dance and tutoring academies.",
+        pricingCenters: "Education Centres",
+        pricingCentersDescription:
+            "Modular platform from €44 a month for schools, nurseries and education groups.",
         contact: "Contact Us",
         faqs: "FAQs",
         blog: "Blog",
@@ -854,6 +866,126 @@ export default {
         mostPopular: "Most Popular",
         viewPlans: "Plans",
         viewCalculator: "Calculator",
+        fromLabel: "From",
+        perStudent: "per student / month",
+        startNow: "Sign up now for free",
+        hub: {
+            title: "Pricing built around your type of centre",
+            description:
+                "Pick the starting point that fits you: all-in packs for academies, or a modular platform for education centres. Either way you pay per student, with no setup fee and no lock-in.",
+            academies: {
+                badge: "Academies",
+                title: "Packs for academies",
+                description:
+                    "Languages, music, dance, tutoring or sport. Pick the pack that solves your priority and start using it today.",
+                features: [
+                    "Four all-in packs, no small print",
+                    "Ena, Edena's AI, included in every pack",
+                    "Set up in minutes, cancel any time",
+                ],
+                cta: "See packs",
+            },
+            centers: {
+                badge: "Education centres",
+                title: "Modular platform",
+                description:
+                    "Schools, nurseries and education groups. Start with the base platform and switch on the modules your centre needs.",
+                priceNote: "a month per centre",
+                features: [
+                    "Ten modules you activate when you need them",
+                    "Data migration and onboarding included",
+                    "Volume and multi-centre discounts",
+                ],
+                cta: "See plans and modules",
+            },
+        },
+        packs: {
+            title: "Packs for academies",
+            description:
+                "Four all-in packs priced per student. Pick the one that solves today's priority and change whenever you need to: no setup fee, no lock-in.",
+            minNote: "Minimum billing of €44 a month",
+            includes: "What's included",
+            bestFor: "Best if",
+            items: {
+                communication: {
+                    name: "Communication Pack",
+                    tagline:
+                        "Keep families up to date without calls or WhatsApp groups, and keep your team's day under control.",
+                    bestFor: "your team loses hours answering scattered messages and notices.",
+                },
+                automation: {
+                    name: "Automation Pack",
+                    tagline:
+                        "Let repetitive work run itself and multiply your team's capacity with Ena.",
+                    bestFor: "you repeat the same enrolments, notices and follow-ups every week.",
+                },
+                finance: {
+                    name: "Finance Pack",
+                    tagline:
+                        "Get paid on time, invoice without errors and turn more enquiries into enrolments.",
+                    bestFor: "you chase payments and lose enrolments along the way.",
+                },
+                complete: {
+                    name: "Academy 360 Pack",
+                    tagline:
+                        "All of Edena in a single pack, with every module switched on and the largest Ena allowance.",
+                    bestFor: "you want to digitise the whole academy in one go.",
+                },
+            },
+            notes: [
+                {
+                    title: "No lock-in",
+                    description: "Change pack, scale up or cancel whenever you want.",
+                },
+                {
+                    title: "Setup and migration included",
+                    description: "We migrate your data and train your team at no extra cost.",
+                },
+                {
+                    title: "Volume discount",
+                    description: "From 300 students we adjust the price per student.",
+                },
+            ],
+        },
+        centers: {
+            title: "Pricing that adapts to your centre",
+            description:
+                "Start with the base platform and switch on only the modules your centre needs. You pay per student, with no setup fee and no lock-in, and the price scales as you grow.",
+            fromNote: "a month per centre",
+            priceCaption: "Base platform, family app and support included",
+            priceBullets: [
+                "Pay per student: the plan grows as you do",
+                "No setup fee, no lock-in",
+                "Data migration and training included",
+                "Volume and education-group discounts",
+            ],
+            howTitle: "How your price is worked out",
+            howDescription:
+                "Three variables and no surprises. We close it with you in a 20-minute demo using your centre's real numbers.",
+            steps: [
+                {
+                    title: "The base platform",
+                    description:
+                        "Student records, family app, communication and 24/7 support. It is where every centre starts.",
+                },
+                {
+                    title: "The modules you need",
+                    description:
+                        "Switch on billing, CRM, extracurriculars or automation when you need them, and off again if they stop fitting.",
+                },
+                {
+                    title: "Your number of students",
+                    description:
+                        "You pay per enrolled student, with a €44 monthly minimum and discounts above a certain volume.",
+                },
+            ],
+            modulesTitle: "Every Edena module",
+            modulesDescription:
+                "Ten modules that work together. Turn on what you need today and add the rest when your centre asks for it.",
+            ctaTitle: "What would it cost at your centre?",
+            ctaDescription:
+                "Tell us how many students you have and what you need. We give you a firm price in the same demo, with no commitment.",
+        },
         calculator: {
             title: "Select the modules you need",
             subtitle:

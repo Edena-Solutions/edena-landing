@@ -95,6 +95,8 @@ export async function GET() {
         { segment: "internal-payments/", priority: "0.9", changefreq: "monthly" },
         { segment: "ena/", priority: "0.9", changefreq: "monthly" },
         { segment: "pricing/", priority: "0.9", changefreq: "monthly" },
+        { segment: "pricing/academies/", priority: "0.9", changefreq: "monthly" },
+        { segment: "pricing/centers/", priority: "0.9", changefreq: "monthly" },
         { segment: "demo/", priority: "1.0", changefreq: "monthly" },
         { segment: "faqs/", priority: "0.8", changefreq: "monthly" },
         { segment: "families/", priority: "0.9", changefreq: "monthly" },

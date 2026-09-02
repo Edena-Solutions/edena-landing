@@ -1,0 +1,70 @@
+---
+import { translations, localeStaticPaths, localePath, localizedDemoPath } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+import Hero from "@/modules/pricing/Hero.astro";
+import CentersPricing from "@/modules/pricing/CentersPricing.astro";
+import ProductSchema from "@/components/StructuredData/Product.astro";
+import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
+import { MIN_MONTHLY } from "@/constants/pricing";
+import { homeBreadcrumbName } from "@/lib/breadcrumb";
+import { ogFromAsset } from "@/lib/og-image";
+import pricingOgImage from "@/assets/img/screenshots/finance/billing_cycle.png";
+import Conclusion from "@/modules/home/Conclusion.astro";
+
+export function getStaticPaths() {
+    return localeStaticPaths();
+}
+
+const REGISTER_URL = "https://app.edena.es/register-organization";
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+const base = "https://edena.es";
+const pageUrl = `${base}${localePath(lang, "/pricing/centers")}`;
+
+/** Modular plans start at the monthly billing floor. */
+const offers = [
+    {
+        price: String(MIN_MONTHLY),
+        priceCurrency: "EUR",
+        availability: "https://schema.org/InStock",
+        url: pageUrl,
+    },
+];
+
+const breadcrumbs = [
+    { name: homeBreadcrumbName(lang), url: `${base}${localePath(lang, "/")}` },
+    { name: t.navigation.pricing, url: `${base}${localePath(lang, "/pricing")}` },
+    { name: t.navigation.pricingCenters, url: pageUrl },
+];
+---
+
+<Layout
+    content={{
+        title: t.meta.pricingCentersTitle,
+        description: t.meta.pricingCentersDescription,
+        ...ogFromAsset(pricingOgImage, Astro.site),
+    }}
+    lang={lang}
+>
+    <Fragment slot="structured-data">
+        <ProductSchema
+            name="Edena - Plataforma para centros educativos"
+            description={t.meta.pricingCentersDescription}
+            offers={offers}
+            category="Software de Gestión Escolar"
+            lang={lang}
+        />
+        <BreadcrumbListSchema items={breadcrumbs} lang={lang} />
+    </Fragment>
+    <section class="grid gap-16 px-4 w-full mx-auto">
+        <Hero t={t} title={t.pricing.centers.title} description={t.pricing.centers.description} />
+        <CentersPricing
+            t={t}
+            lang={lang}
+            demoUrl={localizedDemoPath(lang)}
+            registerUrl={REGISTER_URL}
+        />
+        <Conclusion lang={lang} />
+    </section>
+</Layout>

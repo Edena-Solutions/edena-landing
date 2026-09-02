@@ -11,6 +11,12 @@ export default {
         homeTitle: "Software de Gestión Escolar | ERP Educativo · Edena",
         homeDescription:
             "El software de gestión escolar que centraliza facturación con Verifactu, asistencia, expedientes y comunicación con familias. Sin permanencia. Demo gratis.",
+        pricingAcademiesTitle: "Precios para Academias | Packs desde 1,20 € por alumno · Edena",
+        pricingAcademiesDescription:
+            "Packs cerrados para academias: comunicación, automatización, finanzas o todo incluido. Precio por alumno, sin cuota de alta ni permanencia. Prueba gratis 30 días.",
+        pricingCentersTitle: "Precios para Centros Educativos | Desde 44 €/mes · Edena",
+        pricingCentersDescription:
+            "Plataforma modular para colegios, escuelas infantiles y grupos educativos desde 44 € al mes. Activa solo los módulos que necesitas y paga por alumno.",
         pricingTitle: "Precios | Software de Gestión Escolar desde 44 €/mes · Edena",
         pricingDescription:
             "Pago por alumno, sin cuota de alta ni permanencia. Desde 44 €/mes con expediente digital, asistencia y portal de familias. Prueba gratis 30 días.",
@@ -153,6 +159,12 @@ export default {
         assignmentDescription:
             "Planifica tareas, ciclos de evaluación y seguimiento de calificaciones. Boletines automáticos y visibilidad para familias.",
         pricing: "Precios",
+        pricingAcademies: "Academias",
+        pricingAcademiesDescription:
+            "Packs cerrados con precio por alumno para academias de idiomas, música, danza o refuerzo.",
+        pricingCenters: "Centros educativos",
+        pricingCentersDescription:
+            "Plataforma modular desde 44 € al mes para colegios, escuelas infantiles y grupos.",
         contact: "Contáctanos",
         faqs: "FAQs",
         blog: "Blog",
@@ -866,6 +878,126 @@ export default {
         mostPopular: "Más popular",
         viewPlans: "Planes",
         viewCalculator: "Calculadora",
+        fromLabel: "Desde",
+        perStudent: "por alumno al mes",
+        startNow: "Registrarme ya gratis",
+        hub: {
+            title: "Precios pensados para tu tipo de centro",
+            description:
+                "Elige el punto de partida que encaja contigo: packs cerrados para academias o una plataforma modular para centros educativos. En ambos casos pagas por alumno, sin cuota de alta ni permanencia.",
+            academies: {
+                badge: "Academias",
+                title: "Packs para academias",
+                description:
+                    "Idiomas, música, danza, refuerzo o deporte. Elige el pack que resuelve tu prioridad y empieza a usarlo hoy mismo.",
+                features: [
+                    "Cuatro packs cerrados, sin letra pequeña",
+                    "Ena, la IA de Edena, incluida en todos",
+                    "Alta en minutos y sin permanencia",
+                ],
+                cta: "Ver packs",
+            },
+            centers: {
+                badge: "Centros educativos",
+                title: "Plataforma modular",
+                description:
+                    "Colegios, escuelas infantiles y grupos educativos. Empiezas con la plataforma base y activas los módulos que tu centro necesita.",
+                priceNote: "al mes por centro",
+                features: [
+                    "Diez módulos que activas cuando los necesitas",
+                    "Migración de datos y onboarding incluidos",
+                    "Descuentos por volumen y multi-centro",
+                ],
+                cta: "Ver planes y módulos",
+            },
+        },
+        packs: {
+            title: "Packs para academias",
+            description:
+                "Cuatro packs cerrados con precio por alumno. Elige el que resuelve tu prioridad de hoy y cambia cuando lo necesites: sin cuota de alta y sin permanencia.",
+            minNote: "Facturación mínima de 44 € al mes",
+            includes: "Qué incluye",
+            bestFor: "Ideal si",
+            items: {
+                communication: {
+                    name: "Pack Comunicación",
+                    tagline:
+                        "Mantén a las familias al día sin llamadas ni grupos de WhatsApp, y controla el día a día de tu equipo.",
+                    bestFor: "tu equipo pierde horas respondiendo avisos y mensajes sueltos.",
+                },
+                automation: {
+                    name: "Pack Automatización",
+                    tagline:
+                        "Deja que las tareas repetitivas se hagan solas y multiplica la capacidad de tu equipo con Ena.",
+                    bestFor: "repites cada semana las mismas altas, avisos y seguimientos.",
+                },
+                finance: {
+                    name: "Pack Finanzas",
+                    tagline:
+                        "Cobra a tiempo, factura sin errores y convierte más consultas en matrículas.",
+                    bestFor: "persigues pagos y pierdes matrículas por el camino.",
+                },
+                complete: {
+                    name: "Pack Academia 360",
+                    tagline:
+                        "Todo Edena en un único pack, con todos los módulos activos y la mayor asignación de Ena.",
+                    bestFor: "quieres digitalizar la academia entera de una vez.",
+                },
+            },
+            notes: [
+                {
+                    title: "Sin permanencia",
+                    description: "Cambias de pack, subes o te das de baja cuando quieras.",
+                },
+                {
+                    title: "Alta y migración incluidas",
+                    description: "Migramos tus datos y formamos a tu equipo sin coste añadido.",
+                },
+                {
+                    title: "Descuento por volumen",
+                    description: "A partir de 300 alumnos ajustamos el precio por alumno.",
+                },
+            ],
+        },
+        centers: {
+            title: "Un precio que se adapta a tu centro",
+            description:
+                "Empiezas con la plataforma base y activas solo los módulos que tu centro necesita. Pagas por alumno, sin cuota de alta ni permanencia, y el precio se ajusta a medida que creces.",
+            fromNote: "al mes por centro",
+            priceCaption: "Plataforma base, app para familias y soporte incluidos",
+            priceBullets: [
+                "Pago por alumno: creces tú, crece el plan",
+                "Sin cuota de alta ni permanencia",
+                "Migración de datos y formación incluidas",
+                "Descuentos por volumen y para grupos de centros",
+            ],
+            howTitle: "Cómo se calcula tu precio",
+            howDescription:
+                "Tres variables y ninguna sorpresa. En la demo lo cerramos contigo en 20 minutos con los datos reales de tu centro.",
+            steps: [
+                {
+                    title: "La plataforma base",
+                    description:
+                        "Expedientes, app para familias, comunicación y soporte 24/7. Es el punto de partida de todos los centros.",
+                },
+                {
+                    title: "Los módulos que necesites",
+                    description:
+                        "Activa facturación, CRM, extraescolares o automatización cuando te haga falta. Y desactívalos si dejan de encajar.",
+                },
+                {
+                    title: "El número de alumnos",
+                    description:
+                        "Pagas por alumno matriculado, con un mínimo de 44 € al mes y descuentos a partir de cierto volumen.",
+                },
+            ],
+            modulesTitle: "Todos los módulos de Edena",
+            modulesDescription:
+                "Diez módulos que encajan entre sí. Activa los que necesitas hoy y añade el resto cuando tu centro lo pida.",
+            ctaTitle: "¿Cuánto costaría en tu centro?",
+            ctaDescription:
+                "Cuéntanos cuántos alumnos tenéis y qué necesitáis. Te damos el precio cerrado en la misma demo, sin compromiso.",
+        },
         calculator: {
             title: "Selecciona los módulos que necesitas",
             subtitle:
