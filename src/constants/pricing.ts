@@ -301,6 +301,15 @@ export function formatPrice(value: number, lang: string, fractionDigits = 2): st
     }).format(value);
 }
 
+/**
+ * Like `formatPrice`, but a whole amount drops its decimals: "36 €", not "36,00 €". Used for the
+ * "from …" headlines, where trailing zeros add noise to a figure meant to be read at a glance.
+ * Keeps the cents when there are any, so 67,50 € still reads correctly.
+ */
+export function formatPriceTrim(value: number, lang: string): string {
+    return formatPrice(value, lang, Number.isInteger(value) ? 0 : 2);
+}
+
 export function annualPrice(value: number): number {
     return Math.round(value * (1 - ANNUAL_DISCOUNT) * 100) / 100;
 }
