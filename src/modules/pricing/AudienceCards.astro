@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
-import { CENTER_PACKS, PACKS, floorFor, formatPrice } from "@/constants/pricing";
+import { CENTER_PACKS, PACKS, floorFor, formatPrice, formatPriceTrim } from "@/constants/pricing";
 import type { Translation } from "@/i18n";
 
 interface Props {
@@ -34,7 +34,7 @@ const cards = [
         ...hub.centers,
         icon: "School",
         iconColor: "bg-sky-100 text-sky-600 dark:bg-sky-500/15 dark:text-sky-400",
-        price: formatPrice(floorFor(centersHeadline.pricePerStudent, "centers"), lang, 2),
+        price: formatPriceTrim(floorFor(centersHeadline.pricePerStudent, "centers"), lang),
         href: centersUrl,
     },
 ];
