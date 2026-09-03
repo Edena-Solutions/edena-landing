@@ -1,4 +1,8 @@
 ---
+import { CENTER_PACKS, PACKS, floorFor } from "@/constants/pricing";
+
+/** Cheapest recommended entry across both catalogues — what "from …" may honestly claim. */
+const cheapestEntry = Math.min(...[...PACKS, ...CENTER_PACKS].map((pack) => pack.pricePerStudent));
 interface Props {
     lang?: string;
 }
@@ -60,12 +64,12 @@ const organizationSchema = {
             name: "Edena",
             applicationCategory: "EducationalApplication",
         },
-        price: "44",
+        price: String(floorFor(cheapestEntry, "academies")),
         priceCurrency: "EUR",
         description:
             lang === "es"
-                ? "Desde 44€/mes. Precio por alumno, sin cuota de alta ni permanencia."
-                : "From €44/month. Per-student pricing, no setup fee, no long-term contract.",
+                ? "Desde 60 €/mes. Precio por alumno, sin cuota de alta ni permanencia."
+                : "From €60/month. Per-student pricing, no setup fee, no long-term contract.",
     },
     contactPoint: {
         "@type": "ContactPoint",

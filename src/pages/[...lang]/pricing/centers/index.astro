@@ -5,7 +5,7 @@ import Hero from "@/modules/pricing/Hero.astro";
 import CentersPricing from "@/modules/pricing/CentersPricing.astro";
 import ProductSchema from "@/components/StructuredData/Product.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
-import { MIN_MONTHLY } from "@/constants/pricing";
+import { CENTER_PACKS, floorFor } from "@/constants/pricing";
 import { homeBreadcrumbName } from "@/lib/breadcrumb";
 import { ogFromAsset } from "@/lib/og-image";
 import pricingOgImage from "@/assets/img/screenshots/finance/billing_cycle.png";
@@ -25,7 +25,7 @@ const pageUrl = `${base}${localePath(lang, "/pricing/centers")}`;
 /** Modular plans start at the monthly billing floor. */
 const offers = [
     {
-        price: String(MIN_MONTHLY),
+        price: String(floorFor(CENTER_PACKS[0].pricePerStudent, "centers")),
         priceCurrency: "EUR",
         availability: "https://schema.org/InStock",
         url: pageUrl,

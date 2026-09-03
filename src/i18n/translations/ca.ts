@@ -14,12 +14,12 @@ export default {
         pricingAcademiesTitle: "Preus per a Acadèmies | Packs des d'1,20 € per alumne · Edena",
         pricingAcademiesDescription:
             "Packs tancats per a acadèmies: comunicació, automatització, finances o tot inclòs. Preu per alumne, sense quota d'alta ni permanència. Prova gratuïta de 30 dies.",
-        pricingCentersTitle: "Preus per a Centres Educatius | Des de 44 €/mes · Edena",
+        pricingCentersTitle: "Preus per a Centres Educatius | Des de 36 €/mes · Edena",
         pricingCentersDescription:
-            "Plataforma modular per a escoles, escoles bressol i grups educatius des de 44 € al mes. Activa només els mòduls que necessites i paga per alumne.",
-        pricingTitle: "Preus | Programari de Gestió Escolar des de 44 €/mes · Edena",
+            "Plataforma modular per a escoles, escoles bressol i grups educatius des de 36 € al mes. Activa només els mòduls que necessites i paga per alumne.",
+        pricingTitle: "Preus | Programari de Gestió Escolar des de 36 €/mes · Edena",
         pricingDescription:
-            "Pagament per alumne, sense quota d'alta ni permanència. Des de 44 €/mes amb expedient digital, assistència i portal de famílies. Prova gratis 30 dies.",
+            "Pagament per alumne, sense quota d'alta ni permanència. Des de 36 €/mes amb expedient digital, assistència i portal de famílies. Prova gratis 30 dies.",
         faqsTitle: "Preguntes Freqüents sobre Edena | Programari de Gestió Escolar",
         faqsDescription:
             "Resol els teus dubtes sobre preus, funcionalitats, migració de dades, Verifactu i seguretat. Tot el que necessites saber abans de triar Edena per al teu centre.",
@@ -162,10 +162,10 @@ export default {
         pricing: "Preus",
         pricingAcademies: "Acadèmies",
         pricingAcademiesDescription:
-            "Packs tancats amb preu per alumne per a acadèmies d'idiomes, música, dansa o reforç.",
+            "Idiomes, música, dansa, reforç i més.",
         pricingCenters: "Centres Educatius",
         pricingCentersDescription:
-            "Plataforma modular des de 44 € al mes per a escoles, escoles bressol i grups.",
+            "Escoles, escoles bressol i grups educatius.",
         contact: "Contacta'ns",
         faqs: "Preguntes freqüents",
         blog: "Blog",
@@ -751,7 +751,7 @@ export default {
             titleBold: "Seguretat enterprise",
             titleMuted: "de sèrie",
             description: "Seguretat integrada i IA amb més privacitat que un xatbot genèric",
-            support: "Suport 24/7",
+            support: "Suport per correu i xat",
             badges: {
                 gdpr: "GDPR",
             },
@@ -812,7 +812,7 @@ export default {
             goals: "Objectius",
             gdpr: "GDPR",
             api: "API",
-            support: "Suport 24/7",
+            support: "Suport per correu i xat",
             onboarding: "Onboarding",
             import: "Importació",
             export: "Exportació",
@@ -874,10 +874,8 @@ export default {
     pricing: {
         title: "Preus clars, sense lletra petita",
         description:
-            "Pagament per alumne que creix amb el teu centre. Sense quota d'alta, sense permanència, sense costos ocults. Comença només amb els mòduls que necessites, des de 44€/mes.",
+            "Pagament per alumne que creix amb el teu centre. Sense quota d'alta, sense permanència, sense costos ocults. Comença només amb els mòduls que necessites, des de 36 €/mes.",
         mostPopular: "Més popular",
-        viewPlans: "Plans",
-        viewCalculator: "Calculadora",
         fromLabel: "Des de",
         perStudent: "per alumne al mes",
         startNow: "Registrar-me ja gratis",
@@ -891,7 +889,7 @@ export default {
                 description:
                     "Idiomes, música, dansa, reforç o esport. Tria el pack que resol la teva prioritat i comença a fer-lo servir avui mateix.",
                 features: [
-                    "Quatre packs tancats, sense lletra petita",
+                    "Tres packs tancats, sense lletra petita",
                     "L'Ena, la IA d'Edena, inclosa en tots",
                     "Alta en minuts i sense permanència",
                 ],
@@ -914,8 +912,8 @@ export default {
         packs: {
             title: "Packs per a acadèmies",
             description:
-                "Quatre packs tancats amb preu per alumne. Tria el que resol la teva prioritat d'avui i canvia quan ho necessitis: sense quota d'alta i sense permanència.",
-            minNote: "Facturació mínima de 44 € al mes",
+                "Tres packs tancats amb preu per alumne. Tria el que resol la teva prioritat d'avui i canvia quan ho necessitis: sense quota d'alta i sense permanència.",
+            minNote: "Facturació mínima de {n} € al mes",
             includes: "Què inclou",
             bestFor: "Ideal si",
             items: {
@@ -924,12 +922,6 @@ export default {
                     tagline:
                         "Mantén les famílies al dia sense trucades ni grups de WhatsApp, i controla el dia a dia del teu equip.",
                     bestFor: "el teu equip perd hores responent avisos i missatges solts.",
-                },
-                automation: {
-                    name: "Pack Automatització",
-                    tagline:
-                        "Deixa que les tasques repetitives es facin soles i multiplica la capacitat del teu equip amb l'Ena.",
-                    bestFor: "repeteixes cada setmana les mateixes altes, avisos i seguiments.",
                 },
                 finance: {
                     name: "Pack Finances",
@@ -940,8 +932,8 @@ export default {
                 complete: {
                     name: "Pack Acadèmia 360",
                     tagline:
-                        "Tot Edena en un sol pack, amb tots els mòduls actius i la màxima assignació d'Ena.",
-                    bestFor: "vols digitalitzar tota l'acadèmia de cop.",
+                        "Tot Edena en un pack: les tasques repetitives es fan soles amb Ena.",
+                    bestFor: "vols digitalitzar-ho tot i deixar de repetir tasques cada setmana.",
                 },
             },
             notes: [
@@ -955,14 +947,14 @@ export default {
                 },
                 {
                     title: "Descompte per volum",
-                    description: "A partir de 300 alumnes ajustem el preu per alumne.",
+                    description: "Com més alumnes, menys pagues per cadascun.",
                 },
             ],
         },
         centers: {
             title: "Un preu que s'adapta al teu centre",
             description:
-                "Comences amb la plataforma base i actives només els mòduls que el teu centre necessita. Pagues per alumne, sense quota d'alta ni permanència, i el preu s'ajusta a mesura que creixes.",
+                "Comences amb la plataforma base i actives només els mòduls que el teu centre necessita. Pagues per alumne, sense quota d'alta ni permanència, i el preu s'ajusta a la mida del teu centre.",
             fromNote: "al mes per centre",
             priceCaption: "Plataforma base, app per a famílies i suport inclosos",
             priceBullets: [
@@ -978,7 +970,7 @@ export default {
                 {
                     title: "La plataforma base",
                     description:
-                        "Expedients, app per a famílies, comunicació i suport 24/7. És el punt de partida de tots els centres.",
+                        "Expedients, app per a famílies, comunicació i suport per correu i xat. És el punt de partida de tots els centres.",
                 },
                 {
                     title: "Els mòduls que necessitis",
@@ -988,7 +980,7 @@ export default {
                 {
                     title: "El nombre d'alumnes",
                     description:
-                        "Pagues per alumne matriculat, amb un mínim de 44 € al mes i descomptes a partir de cert volum.",
+                        "Pagues per alumne matriculat, amb un mínim de 30 alumnes i descomptes automàtics per volum.",
                 },
             ],
             modulesTitle: "Tots els mòduls d'Edena",
@@ -998,56 +990,13 @@ export default {
             ctaDescription:
                 "Explica'ns quants alumnes teniu i què necessiteu. Et donem el preu tancat a la mateixa demo, sense compromís.",
         },
+        /** Billing-cadence toggle labels, the only part of the old calculator still rendered
+         * (by PricingPacks). The per-module hints it used to carry described a tariff that no
+         * longer exists. */
         calculator: {
-            title: "Selecciona els mòduls que necessites",
-            subtitle:
-                "Ajusta el nombre de nens i els mòduls que necessites. El preu s'actualitza a l'instant.",
-            childrenLabel: "Nombre de nens",
-            childrenHint: "Des de 44 € al mes",
-            billingToggle: "Facturació",
-            billingDescription:
-                "Facturació electrònica automatitzada, compatible amb Verifactu, generació de rebuts i control d'impagaments.",
-            billingHint: "+0,20 € per nen",
-            crmToggle: "CRM escolar",
-            crmDescription:
-                "Sol·licituds de matrícula, pipeline i seguiment de leads, amb formularis de captació personalitzables i origen multicanal.",
-            crmHint: "+0,10 € per nen",
-            trackingToggle: "Seguiment",
-            trackingDescription:
-                "Registre horari de l'equip, agenda diària compartida, tasques internes, guàrdies i substitucions.",
-            trackingHint: "+0,10 € per nen",
-            extracurricularToggle: "Extraescolars",
-            extracurricularDescription:
-                "Gestió i autogestió d'activitats: sol·licituds en línia, control de places i cobraments vinculats.",
-            extracurricularHint: "+0,10 € per nen",
-            communicationProToggle: "Comunicació Pro",
-            communicationProDescription:
-                "Xat en temps real, notificacions push, confirmació de lectura i comunicació segmentada per grup o aula.",
-            communicationProHint: "+0,10 € per nen",
-            automationToggle: "Automatització",
-            automationDescription:
-                "Regles personalitzades, fluxos de treball automàtics i processos intel·ligents de gestió d'alumnes i onboarding.",
-            automationHint: "+0,25 € per nen",
-            onlineStoreToggle: "Botiga en línia",
-            onlineStoreDescription:
-                "Venda de productes i serveis, albarans i factures automàtics, control d'estoc i històric per alumne. Preu fix mensual, no depèn del nombre de nens.",
-            onlineStoreHint: "10 €/mes",
-            cloudToggle: "Cloud",
-            cloudDescription:
-                "Espai al núvol per emmagatzemar documents. Crea carpetes i gestiona la visibilitat per grup o alumne.",
-            cloudHint: "+0,25 € per nen",
-            packCompleteMessage: "Et convé el Pack Complet",
-            packCompleteDescription:
-                "Tots els mòduls inclosos: 1,90 €/nen + 10 €/mes (botiga en línia).",
             monthly: "Mensual",
             annual: "Anual",
-            annualDiscount: "-15%",
-            annualSavings: "Estalvi anual",
-            totalMonthly: "Total mensual",
-            perChild: "Per nen",
-            totalAnnual: "Total anual",
-            volumeBadge: "Descompte per volum disponible",
-            cta: "Sol·licitar demo",
+            annualDiscount: "2 mesos gratis",
         },
         planFeatureSections: [
             {
@@ -1067,7 +1016,7 @@ export default {
                     },
                     {
                         moduleId: "platformBase",
-                        label: "Analítiques bàsiques del centre i suport 24/7",
+                        label: "Analítiques bàsiques del centre i suport per correu i xat",
                     },
                 ],
             },
@@ -1157,7 +1106,7 @@ export default {
                 items: [
                     {
                         moduleId: "onlineStore",
-                        label: "Venda de productes i serveis (+10 €/mes fix)",
+                        label: "Venda de productes i serveis a les famílies",
                     },
                     {
                         moduleId: "onlineStore",
@@ -1175,90 +1124,6 @@ export default {
                 ],
             },
         ],
-        recommended: {
-            essential: {
-                name: "Essencial",
-                description: "Des de 44 € al mes",
-                pricePerChild: "1,00 € per nen",
-                from: "Des de 44 € al mes",
-                featureIncludedIds: ["platformBase", "ena"],
-            },
-            managementPro: {
-                name: "Gestió Pro",
-                description: "Des de 44 € al mes",
-                pricePerChild: "1,40 € per nen",
-                from: "Des de 44 € al mes",
-                featureIncludedIds: [
-                    "platformBase",
-                    "ena",
-                    "communicationPro",
-                    "extracurricular",
-                    "automation",
-                    "tracking",
-                ],
-            },
-            complete: {
-                name: "Complet",
-                description: "Tots els mòduls: 1,90 €/nen + 10 €/mes botiga.",
-                pricePerChild: "1,90 €/nen + 10 €/mes",
-                from: "Des de 44 € al mes",
-                featureIncludedIds: [
-                    "platformBase",
-                    "ena",
-                    "communicationPro",
-                    "extracurricular",
-                    "automation",
-                    "tracking",
-                    "crm",
-                    "billing",
-                    "onlineStore",
-                    "cloud",
-                ],
-            },
-            cta: "Sol·licitar demo",
-            orCalculate: "O calcula el teu preu",
-        },
-        plans: {
-            basic: {
-                name: "Bàsic",
-                description: "/mes per centre",
-                features: {
-                    students: "Fins a 100 estudiants",
-                    attendance: "Gestió d'assistència digital",
-                    payment: "Administració de pagaments automàtica",
-                    portal: "Portal intuïtiu per a famílies",
-                    app: "Aplicació mòbil inclosa",
-                    support: "Suport 24/7 per correu i xat",
-                },
-                button: "Començar ara",
-            },
-            professional: {
-                name: "Professional",
-                description: "/mes per centre",
-                features: {
-                    students: "Fins a 500 estudiants",
-                    basic: "Totes les funcions del pla Bàsic",
-                    academic: "Gestió acadèmica completa",
-                    communication: "Comunicació avançada amb famílies",
-                    app: "Funcions premium a l'app mòbil",
-                    support: "Suport prioritari 24/7",
-                },
-                button: "Començar ara",
-            },
-            enterprise: {
-                name: "Empresarial",
-                description: "Personalitzat per al teu centre",
-                features: {
-                    students: "Estudiants il·limitats",
-                    professional: "Totes les funcions del pla Professional",
-                    integration: "Integració amb sistemes existents",
-                    reports: "Informes i analítiques personalitzades",
-                    multicampus: "Gestió multi-seu centralitzada",
-                    advisor: "Assessor d'èxit dedicat",
-                },
-                button: "Sol·licitar demo",
-            },
-        },
     },
     faqs: {
         title: "Preguntes freqüents sobre Edena",
@@ -2407,7 +2272,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         faqs: [
             {
                 question: "Quant costa Edena?",
-                answer: "Des de 44 €/mes, amb pagament per alumne i sense permanència. Pots calcular el teu preu exacte a la pàgina de preus.",
+                answer: "Des de 36 €/mes, amb pagament per alumne i sense permanència. Hi ha una facturació mínima de 36 € al mes i el preu per alumne baixa automàticament per volum.",
             },
             {
                 question: "Quant es triga a començar?",

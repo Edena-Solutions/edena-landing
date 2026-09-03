@@ -120,7 +120,7 @@ export function PricingPacks({ t, lang, demoUrl, registerUrl }: PricingPacksProp
                 </div>
             </div>
 
-            <div className="grid w-full gap-4 md:grid-cols-2">
+            <div className="grid w-full gap-4 md:grid-cols-3">
                 {PACKS.map((pack) => {
                     const data = packsT.items[pack.id];
                     const monthly = formatPrice(pack.pricePerStudent, lang);
@@ -128,7 +128,10 @@ export function PricingPacks({ t, lang, demoUrl, registerUrl }: PricingPacksProp
                     return (
                         <Card
                             key={pack.id}
-                            className="relative flex h-fit flex-col rounded bg-card"
+                            // `h-full`, not `h-fit`: grid cells already stretch to the tallest
+                            // card, and only a full-height card gives `mt-auto` on the footer the
+                            // slack it needs to pin the buttons to the bottom of every card.
+                            className="relative flex h-full flex-col rounded bg-card"
                         >
                             {pack.isPopular && (
                                 <div className="absolute top-0 right-0 flex items-center gap-1 rounded-tr-sm rounded-bl bg-primary px-4 py-1 text-sm text-primary-foreground">
