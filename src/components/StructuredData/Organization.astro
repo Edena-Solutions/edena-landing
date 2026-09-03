@@ -1,4 +1,18 @@
 ---
+import { CENTER_PACKS, PACKS, floorFor } from "@/constants/pricing";
+
+/** Cheapest recommended entry across both catalogues — what "from …" may honestly claim. */
+const cheapestEntry = Math.min(...[...PACKS, ...CENTER_PACKS].map((pack) => pack.pricePerStudent));
+const entryPrice = floorFor(cheapestEntry, "academies");
+
+/** Same sentence in every locale, with the entry price injected so it cannot drift from `price`. */
+const OFFER_DESCRIPTION = {
+    es: `Desde ${entryPrice} €/mes. Precio por alumno, sin cuota de alta ni permanencia.`,
+    ca: `Des de ${entryPrice} €/mes. Preu per alumne, sense quota d'alta ni permanència.`,
+    en: `From €${entryPrice}/month. Per-student pricing, no setup fee, no long-term contract.`,
+    eus: `${entryPrice} €/hiletik. Ikasleko prezioa, alta-kuotarik eta iraunkortasunik gabe.`,
+    fr: `Dès ${entryPrice} €/mois. Prix par élève, sans frais d'ouverture ni engagement.`,
+} as const;
 interface Props {
     lang?: string;
 }
@@ -60,12 +74,13 @@ const organizationSchema = {
             name: "Edena",
             applicationCategory: "EducationalApplication",
         },
-        price: "44",
+        price: String(entryPrice),
         priceCurrency: "EUR",
-        description:
-            lang === "es"
-                ? "Desde 44€/mes. Precio por alumno, sin cuota de alta ni permanencia."
-                : "From €44/month. Per-student pricing, no setup fee, no long-term contract.",
+        // Injected from the catalogue rather than written out: this object already carries the
+        // figure in `price`, and a hand-typed one drifts out of step with it the first time a
+        // floor moves. All five locales are covered — the previous two-branch ternary served
+        // English to Catalan, Basque and French.
+        description: OFFER_DESCRIPTION[lang as keyof typeof OFFER_DESCRIPTION ] ?? OFFER_DESCRIPTION.en,
     },
     contactPoint: {
         "@type": "ContactPoint",

@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
 import GSAPSection from "@/components/ui/gsap-section";
 import { PricingModules } from "@/components/PricingModules";
-import { MIN_MONTHLY, formatPrice } from "@/constants/pricing";
+import { CENTER_PACKS, floorFor, formatPrice } from "@/constants/pricing";
 import type { PlanFeatureSection } from "@/constants/pricing";
 import type { Translation } from "@/i18n";
 
@@ -20,7 +20,12 @@ const { t, lang, demoUrl, registerUrl } = Astro.props;
 const c = t.pricing.centers;
 const sections = (t.pricing as { planFeatureSections?: PlanFeatureSection[] })
     .planFeatureSections ?? [];
-const fromPrice = formatPrice(MIN_MONTHLY, lang, 0);
+// The "from" figure is the floor of the entry package (30 students x 1,20 EUR = 36), which is the
+// lowest anyone can actually pay and matches the academies floor, so both audiences enter at the
+// same number. `priceCaption` has to keep describing *this* package: point it at a richer one and
+// the figure and its own caption end up describing different things.
+const headlinePack = CENTER_PACKS[0];
+const fromPrice = formatPrice(floorFor(headlinePack.pricePerStudent, "centers"), lang, 2);
 ---
 
 <div class="flex flex-col gap-16 w-full">

@@ -4,7 +4,7 @@ import Layout from "@/layouts/main.astro";
 import Hero from "@/modules/pricing/Hero.astro";
 import AudienceCards from "@/modules/pricing/AudienceCards.astro";
 import ProductSchema from "@/components/StructuredData/Product.astro";
-import { MIN_MONTHLY } from "@/constants/pricing";
+import { CENTER_PACKS, PACKS, floorFor } from "@/constants/pricing";
 import { ogFromAsset } from "@/lib/og-image";
 import pricingOgImage from "@/assets/img/screenshots/finance/billing_cycle.png";
 import Conclusion from "@/modules/home/Conclusion.astro";
@@ -21,7 +21,7 @@ const pricingUrl =
 /** Entry price for the whole catalogue: the monthly billing floor. */
 const offers = [
     {
-        price: String(MIN_MONTHLY),
+        price: String(floorFor(Math.min(...[...PACKS, ...CENTER_PACKS].map((p) => p.pricePerStudent)), "academies")),
         priceCurrency: "EUR",
         availability: "https://schema.org/InStock",
         url: pricingUrl,

@@ -14,12 +14,12 @@ export default {
         pricingAcademiesTitle: "Pricing for Academies | Packs from €1.20 per student · Edena",
         pricingAcademiesDescription:
             "All-in packs for academies: communication, automation, finance or everything included. Priced per student, no setup fee, no lock-in. 30-day free trial.",
-        pricingCentersTitle: "Pricing for Education Centres | From €44/month · Edena",
+        pricingCentersTitle: "Pricing for Education Centres | From €36/month · Edena",
         pricingCentersDescription:
-            "Modular platform for schools, nurseries and education groups from €44 a month. Switch on only the modules you need and pay per student.",
-        pricingTitle: "Pricing | School Management Software from €44/month · Edena",
+            "Modular platform for schools, nurseries and education groups from €36 a month. Switch on only the modules you need and pay per student.",
+        pricingTitle: "Pricing | School Management Software from €36/month · Edena",
         pricingDescription:
-            "Per-student pricing, no setup fee, no long-term contract. From €44/month with digital records, attendance and family portal. 30-day free trial.",
+            "Per-student pricing, no setup fee, no long-term contract. From €36/month with digital records, attendance and family portal. 30-day free trial.",
         faqsTitle: "Frequently Asked Questions about Edena | School Management Software",
         faqsDescription:
             "Get answers about pricing, features, data migration, Verifactu, and security. Everything you need to know before choosing Edena for your school.",
@@ -156,10 +156,10 @@ export default {
         pricing: "Pricing",
         pricingAcademies: "Academies",
         pricingAcademiesDescription:
-            "All-in packs priced per student for language, music, dance and tutoring academies.",
+            "Languages, music, dance, tutoring and more.",
         pricingCenters: "Education Centres",
         pricingCentersDescription:
-            "Modular platform from €44 a month for schools, nurseries and education groups.",
+            "Schools, nurseries and education groups.",
         contact: "Contact Us",
         faqs: "FAQs",
         blog: "Blog",
@@ -741,7 +741,7 @@ export default {
             titleBold: "Enterprise-grade",
             titleMuted: "everything",
             description: "Out-of-the-box security & AI that's even more private than ChatGPT",
-            support: "24/7 Support",
+            support: "Email and chat support",
             badges: {
                 gdpr: "GDPR",
             },
@@ -802,7 +802,7 @@ export default {
             goals: "Goals",
             gdpr: "GDPR",
             api: "API",
-            support: "24/7 Support",
+            support: "Email and chat support",
             onboarding: "Onboarding",
             import: "Import",
             export: "Export",
@@ -862,10 +862,8 @@ export default {
     pricing: {
         title: "Clear Pricing, No Small Print",
         description:
-            "Per-child pricing that grows with your school. No setup fee, no long-term contract, no hidden costs. Start with just the modules you need, from €44/month.",
+            "Per-child pricing that grows with your school. No setup fee, no long-term contract, no hidden costs. Start with just the modules you need, from €36/month.",
         mostPopular: "Most Popular",
-        viewPlans: "Plans",
-        viewCalculator: "Calculator",
         fromLabel: "From",
         perStudent: "per student / month",
         startNow: "Sign up now for free",
@@ -879,7 +877,7 @@ export default {
                 description:
                     "Languages, music, dance, tutoring or sport. Pick the pack that solves your priority and start using it today.",
                 features: [
-                    "Four all-in packs, no small print",
+                    "Three all-in packs, no small print",
                     "Ena, Edena's AI, included in every pack",
                     "Set up in minutes, cancel any time",
                 ],
@@ -902,8 +900,8 @@ export default {
         packs: {
             title: "Packs for academies",
             description:
-                "Four all-in packs priced per student. Pick the one that solves today's priority and change whenever you need to: no setup fee, no lock-in.",
-            minNote: "Minimum billing of €44 a month",
+                "Three all-in packs priced per student. Pick the one that solves today's priority and change whenever you need to: no setup fee, no lock-in.",
+            minNote: "Minimum billing of €{n} a month",
             includes: "What's included",
             bestFor: "Best if",
             items: {
@@ -912,12 +910,6 @@ export default {
                     tagline:
                         "Keep families up to date without calls or WhatsApp groups, and keep your team's day under control.",
                     bestFor: "your team loses hours answering scattered messages and notices.",
-                },
-                automation: {
-                    name: "Automation Pack",
-                    tagline:
-                        "Let repetitive work run itself and multiply your team's capacity with Ena.",
-                    bestFor: "you repeat the same enrolments, notices and follow-ups every week.",
                 },
                 finance: {
                     name: "Finance Pack",
@@ -928,8 +920,8 @@ export default {
                 complete: {
                     name: "Academy 360 Pack",
                     tagline:
-                        "All of Edena in a single pack, with every module switched on and the largest Ena allowance.",
-                    bestFor: "you want to digitise the whole academy in one go.",
+                        "All of Edena in one pack: the repetitive work runs itself with Ena.",
+                    bestFor: "you want to digitise everything and stop repeating the same tasks every week.",
                 },
             },
             notes: [
@@ -943,14 +935,14 @@ export default {
                 },
                 {
                     title: "Volume discount",
-                    description: "From 300 students we adjust the price per student.",
+                    description: "The more students, the less you pay for each one.",
                 },
             ],
         },
         centers: {
             title: "Pricing that adapts to your centre",
             description:
-                "Start with the base platform and switch on only the modules your centre needs. You pay per student, with no setup fee and no lock-in, and the price scales as you grow.",
+                "Start with the base platform and switch on only the modules your centre needs. You pay per student, with no setup fee and no lock-in, and the price adjusts to the size of your centre.",
             fromNote: "a month per centre",
             priceCaption: "Base platform, family app and support included",
             priceBullets: [
@@ -966,7 +958,7 @@ export default {
                 {
                     title: "The base platform",
                     description:
-                        "Student records, family app, communication and 24/7 support. It is where every centre starts.",
+                        "Student records, family app, communication and email & chat support. It is where every centre starts.",
                 },
                 {
                     title: "The modules you need",
@@ -976,7 +968,7 @@ export default {
                 {
                     title: "Your number of students",
                     description:
-                        "You pay per enrolled student, with a €44 monthly minimum and discounts above a certain volume.",
+                        "You pay per enrolled student, with a 30-student minimum and automatic volume discounts.",
                 },
             ],
             modulesTitle: "Every Edena module",
@@ -986,56 +978,13 @@ export default {
             ctaDescription:
                 "Tell us how many students you have and what you need. We give you a firm price in the same demo, with no commitment.",
         },
+        /** Billing-cadence toggle labels, the only part of the old calculator still rendered
+         * (by PricingPacks). The per-module hints it used to carry described a tariff that no
+         * longer exists. */
         calculator: {
-            title: "Select the modules you need",
-            subtitle:
-                "Adjust the number of children and the modules you need. Price updates in real time.",
-            childrenLabel: "Number of children",
-            childrenHint: "From €44 per month",
-            billingToggle: "Billing",
-            billingDescription:
-                "Automated electronic billing, Verifactu compatible, receipt generation and payment monitoring.",
-            billingHint: "+€0.20 per child",
-            crmToggle: "School CRM",
-            crmDescription:
-                "Enrollment requests, pipeline and lead tracking, with customizable capture forms and multi-channel origin.",
-            crmHint: "+€0.10 per child",
-            trackingToggle: "Tracking",
-            trackingDescription:
-                "Staff time tracking, shared daily agenda, internal tasks, duty shifts and substitutions.",
-            trackingHint: "+€0.10 per child",
-            extracurricularToggle: "After-school",
-            extracurricularDescription:
-                "Activity management and self-service: online requests, place availability and linked payments.",
-            extracurricularHint: "+€0.10 per child",
-            communicationProToggle: "Communication Pro",
-            communicationProDescription:
-                "Real-time chat, push notifications, read receipts and segmented communication by group or class.",
-            communicationProHint: "+€0.10 per child",
-            automationToggle: "Automation",
-            automationDescription:
-                "Custom rules, automatic workflows and smart student management and onboarding processes.",
-            automationHint: "+€0.25 per child",
-            onlineStoreToggle: "Online Store",
-            onlineStoreDescription:
-                "Product and service sales, automatic delivery notes and invoices, stock control and history per student. Fixed monthly price, not per child.",
-            onlineStoreHint: "€10/month",
-            cloudToggle: "Cloud",
-            cloudDescription:
-                "Cloud storage for documents. Create folders and manage visibility by group or student.",
-            cloudHint: "+€0.25 per child",
-            packCompleteMessage: "The Complete Pack is best for you",
-            packCompleteDescription:
-                "All modules included: €1.90/child + €10/month (online store).",
             monthly: "Monthly",
             annual: "Annual",
-            annualDiscount: "-15%",
-            annualSavings: "Annual savings",
-            totalMonthly: "Total monthly",
-            perChild: "Per child",
-            totalAnnual: "Total annual",
-            volumeBadge: "Volume discount available",
-            cta: "Request demo",
+            annualDiscount: "2 months free",
         },
         planFeatureSections: [
             {
@@ -1055,7 +1004,7 @@ export default {
                     },
                     {
                         moduleId: "platformBase",
-                        label: "Basic centre analytics & 24/7 email & chat support",
+                        label: "Basic centre analytics & email & chat support",
                     },
                 ],
             },
@@ -1139,7 +1088,7 @@ export default {
                 items: [
                     {
                         moduleId: "onlineStore",
-                        label: "Product & service sales (+€10/month fixed)",
+                        label: "Product & service sales to families",
                     },
                     {
                         moduleId: "onlineStore",
@@ -1157,90 +1106,6 @@ export default {
                 ],
             },
         ],
-        recommended: {
-            essential: {
-                name: "Essential",
-                description: "From €44 per month",
-                pricePerChild: "€1.00 per child",
-                from: "From €44 per month",
-                featureIncludedIds: ["platformBase", "ena"],
-            },
-            managementPro: {
-                name: "Management Pro",
-                description: "From €44 per month",
-                pricePerChild: "€1.40 per child",
-                from: "From €44 per month",
-                featureIncludedIds: [
-                    "platformBase",
-                    "ena",
-                    "communicationPro",
-                    "extracurricular",
-                    "automation",
-                    "tracking",
-                ],
-            },
-            complete: {
-                name: "Complete",
-                description: "All modules: €1.90/child + €10/month store.",
-                pricePerChild: "€1.90/child + €10/month",
-                from: "From €44 per month",
-                featureIncludedIds: [
-                    "platformBase",
-                    "ena",
-                    "communicationPro",
-                    "extracurricular",
-                    "automation",
-                    "tracking",
-                    "crm",
-                    "billing",
-                    "onlineStore",
-                    "cloud",
-                ],
-            },
-            cta: "Request demo",
-            orCalculate: "Or calculate your price",
-        },
-        plans: {
-            basic: {
-                name: "Essential",
-                description: "/month per institution",
-                features: {
-                    students: "Up to 100 students",
-                    attendance: "Digital attendance tracking",
-                    payment: "Automated payment processing",
-                    portal: "Intuitive parent portal",
-                    app: "Mobile app included",
-                    support: "Business hours support (24/7)",
-                },
-                button: "Start Now",
-            },
-            professional: {
-                name: "Professional",
-                description: "/month per institution",
-                features: {
-                    students: "Up to 500 students",
-                    basic: "All Essential features included",
-                    academic: "Advanced academic management",
-                    communication: "Enhanced family communication",
-                    app: "Premium mobile features",
-                    support: "24/7 Priority support",
-                },
-                button: "Get Started",
-            },
-            enterprise: {
-                name: "Enterprise",
-                description: "Custom Solution",
-                features: {
-                    students: "Unlimited students",
-                    professional: "All Professional features included",
-                    integration: "Custom system integrations",
-                    reports: "Advanced analytics & reporting",
-                    multicampus: "Multi-campus management",
-                    advisor: "Dedicated success manager",
-                },
-                button: "Request Demo",
-            },
-        },
     },
     faqs: {
         title: "Frequently Asked Questions About Edena",
@@ -2381,7 +2246,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
         faqs: [
             {
                 question: "How much does Edena cost?",
-                answer: "From €44/month, priced per student, with no long-term contract. You can work out your exact price on the pricing page.",
+                answer: "From €36/month, priced per student, with no long-term contract. There is a minimum billing of €36 a month, and the per-student price drops automatically with volume.",
             },
             {
                 question: "How long does it take to get started?",
