@@ -105,14 +105,16 @@ export function PricingPacks({ t, lang, demoUrl, registerUrl }: PricingPacksProp
                 ))}
             </ul>
 
-            <div className="flex items-center gap-3">
-                <span className="uppercase tracking-widest text-[10px]">{calcT.monthly}</span>
+            <div className="grid w-full grid-cols-[1fr_auto_1fr] items-center gap-3">
+                <span className="justify-self-end uppercase tracking-widest text-[10px]">
+                    {calcT.monthly}
+                </span>
                 <Switch checked={isAnnual} onCheckedChange={setIsAnnual} />
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-1.5 justify-self-start">
                     <span className="uppercase tracking-widest text-[10px]">{calcT.annual}</span>
                     <Badge
                         variant="secondary"
-                        className={cn("text-xs", !isAnnual && "invisible")}
+                        className={cn("whitespace-nowrap text-xs", !isAnnual && "invisible")}
                         aria-hidden={!isAnnual}
                     >
                         {calcT.annualDiscount}
