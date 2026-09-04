@@ -925,6 +925,11 @@ export default {
             minNote: "Facturation minimale de {n} € par mois",
             includes: "Ce qui est inclus",
             bestFor: "Idéal si",
+            comparisonTitle: "Ce que chaque module inclut",
+            comparisonDescription:
+                "Chaque pack active un ensemble de modules. Voici ce qu'ils font, et dans quel pack ils figurent.",
+            moduleColumn: "Module",
+            packsColumn: "Packs",
             items: {
                 communication: {
                     name: "Pack Communication",

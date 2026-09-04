@@ -917,6 +917,11 @@ export default {
             minNote: "Gutxieneko fakturazioa: {n} € hilean",
             includes: "Zer barne hartzen duen",
             bestFor: "Egokia bada",
+            comparisonTitle: "Modulu bakoitzak zer barne hartzen duen",
+            comparisonDescription:
+                "Pack bakoitzak modulu multzo bat aktibatzen du. Hemen ikusiko duzu bakoitzak zer egiten duen eta zein packetan dagoen.",
+            moduleColumn: "Modulua",
+            packsColumn: "Packak",
             items: {
                 communication: {
                     name: "Komunikazio Packa",

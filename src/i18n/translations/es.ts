@@ -916,6 +916,11 @@ export default {
             minNote: "Facturación mínima de {n} € al mes",
             includes: "Qué incluye",
             bestFor: "Ideal si",
+            comparisonTitle: "Qué incluye cada módulo",
+            comparisonDescription:
+                "Cada pack activa un conjunto de módulos. Aquí ves qué hace cada uno y en qué pack entra.",
+            moduleColumn: "Módulo",
+            packsColumn: "Packs",
             items: {
                 communication: {
                     name: "Pack Comunicación",

@@ -61,11 +61,7 @@ export const VOLUME_BANDS = {
 export type Audience = keyof typeof BILLING_FLOOR;
 
 /** Monthly total for a headcount, with the volume bands and the audience's floor applied. */
-export function monthlyFor(
-    pricePerStudent: number,
-    students: number,
-    audience: Audience,
-): number {
+export function monthlyFor(pricePerStudent: number, students: number, audience: Audience): number {
     const floor = BILLING_FLOOR[audience];
     const billable = floor.unit === "students" ? Math.max(students, floor.value) : students;
 
@@ -209,16 +205,7 @@ export const PACKS: Pack<AcademyPackId>[] = [
         id: "finance",
         pricePerStudent: 0.9,
         enaTokens: "500K",
-        modules: [
-            "platformBase",
-            "ena",
-            "cloud",
-            "communicationPro",
-            "tracking",
-            "crm",
-            "billing",
-            "onlineStore",
-        ],
+        modules: ["platformBase", "ena", "cloud", "crm", "billing", "onlineStore"],
         isPopular: true,
     },
     {

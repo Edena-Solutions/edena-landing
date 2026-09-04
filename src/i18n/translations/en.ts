@@ -904,6 +904,11 @@ export default {
             minNote: "Minimum billing of €{n} a month",
             includes: "What's included",
             bestFor: "Best if",
+            comparisonTitle: "What each module includes",
+            comparisonDescription:
+                "Each pack switches on a set of modules. Here is what they do, and which pack they sit in.",
+            moduleColumn: "Module",
+            packsColumn: "Packs",
             items: {
                 communication: {
                     name: "Communication Pack",

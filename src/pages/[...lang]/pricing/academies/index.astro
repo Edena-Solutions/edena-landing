@@ -4,6 +4,8 @@ import { translations, localeStaticPaths, localePath, localizedDemoPath } from "
 import Layout from "@/layouts/main.astro";
 import Hero from "@/modules/pricing/Hero.astro";
 import { PricingPacks } from "@/components/PricingPacks";
+import { AcademyModulesTable } from "@/components/AcademyModulesTable";
+import GSAPSection from "@/components/ui/gsap-section";
 import ProductSchema from "@/components/StructuredData/Product.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
 import { PACKS } from "@/constants/pricing";
@@ -56,7 +58,7 @@ const breadcrumbs = [
         />
         <BreadcrumbListSchema items={breadcrumbs} lang={lang} />
     </Fragment>
-    <section class="grid gap-10 px-4 w-full mx-auto">
+    <section class="grid gap-16 px-4 w-full mx-auto">
         <Hero t={t} title={t.pricing.packs.title} description={t.pricing.packs.description} />
         <p class="text-center text-[10px] tracking-widest uppercase text-muted-foreground">
             {t.pricing.packs.minNote.replace("{n}", String(BILLING_FLOOR.academies.value))}
@@ -68,6 +70,21 @@ const breadcrumbs = [
             demoUrl={localizedDemoPath(lang)}
             registerUrl={REGISTER_URL}
         />
+        <GSAPSection client:load className="flex flex-col gap-10 w-full">
+            <div class="flex flex-col gap-4 text-center">
+                <h2
+                    class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
+                >
+                    {t.pricing.packs.comparisonTitle}
+                </h2>
+                <p class="text-muted-foreground max-w-2xl mx-auto">
+                    {t.pricing.packs.comparisonDescription}
+                </p>
+            </div>
+            <div class="mx-auto w-full max-w-5xl">
+                <AcademyModulesTable t={t} />
+            </div>
+        </GSAPSection>
         <Conclusion lang={lang} />
     </section>
 </Layout>
