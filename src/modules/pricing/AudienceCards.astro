@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
-import { MIN_MONTHLY, PACKS, formatPrice } from "@/constants/pricing";
+import { CENTER_PACKS, PACKS, floorFor, formatPrice, formatPriceTrim } from "@/constants/pricing";
 import type { Translation } from "@/i18n";
 
 interface Props {
@@ -18,6 +18,9 @@ const hub = t.pricing.hub;
 
 const cheapestPack = Math.min(...PACKS.map((pack) => pack.pricePerStudent));
 
+// Entry package, so this card quotes the same figure as the centres page it links to.
+const centersHeadline = CENTER_PACKS[0];
+
 const cards = [
     {
         ...hub.academies,
@@ -31,7 +34,7 @@ const cards = [
         ...hub.centers,
         icon: "School",
         iconColor: "bg-sky-100 text-sky-600 dark:bg-sky-500/15 dark:text-sky-400",
-        price: formatPrice(MIN_MONTHLY, lang, 0),
+        price: formatPriceTrim(floorFor(centersHeadline.pricePerStudent, "centers"), lang),
         href: centersUrl,
     },
 ];

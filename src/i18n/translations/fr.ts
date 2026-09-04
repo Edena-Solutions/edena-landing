@@ -14,12 +14,12 @@ export default {
         pricingAcademiesTitle: "Tarifs pour Académies | Packs dès 1,20 € par élève · Edena",
         pricingAcademiesDescription:
             "Packs tout compris pour académies : communication, automatisation, finances ou tout inclus. Prix par élève, sans frais d'ouverture ni engagement. Essai gratuit 30 jours.",
-        pricingCentersTitle: "Tarifs pour Établissements Scolaires | Dès 44 €/mois · Edena",
+        pricingCentersTitle: "Tarifs pour Établissements Scolaires | Dès 36 €/mois · Edena",
         pricingCentersDescription:
-            "Plateforme modulaire pour écoles, crèches et groupes scolaires dès 44 € par mois. Activez uniquement les modules dont vous avez besoin et payez par élève.",
-        pricingTitle: "Tarifs | Logiciel de Gestion Scolaire dès 44 €/mois · Edena",
+            "Plateforme modulaire pour écoles, crèches et groupes scolaires dès 36 € par mois. Activez uniquement les modules dont vous avez besoin et payez par élève.",
+        pricingTitle: "Tarifs | Logiciel de Gestion Scolaire dès 36 €/mois · Edena",
         pricingDescription:
-            "Paiement par élève, sans frais d’ouverture ni engagement. À partir de 44 €/mois avec dossier numérique, présences et portail familles. Essai gratuit 30 jours.",
+            "Paiement par élève, sans frais d’ouverture ni engagement. À partir de 36 €/mois avec dossier numérique, présences et portail familles. Essai gratuit 30 jours.",
         faqsTitle: "Questions Fréquentes sur Edena | Logiciel de Gestion Scolaire",
         faqsDescription:
             "Trouvez les réponses à vos questions sur les tarifs, les fonctionnalités, la migration des données, Verifactu et la sécurité. Tout ce qu’il faut savoir avant de choisir Edena pour votre établissement.",
@@ -162,10 +162,10 @@ export default {
         pricing: "Tarifs",
         pricingAcademies: "Académies",
         pricingAcademiesDescription:
-            "Packs tout compris au prix par élève pour les académies de langues, musique, danse ou soutien scolaire.",
+            "Langues, musique, danse, soutien scolaire et plus.",
         pricingCenters: "Établissements",
         pricingCentersDescription:
-            "Plateforme modulaire dès 44 € par mois pour écoles, crèches et groupes scolaires.",
+            "Écoles, crèches et groupes scolaires.",
         contact: "Contactez-nous",
         faqs: "FAQ",
         blog: "Blog",
@@ -759,7 +759,7 @@ export default {
             titleMuted: "incluse",
             description:
                 "Sécurité intégrée et IA plus respectueuse de la vie privée qu'un chatbot générique",
-            support: "Support 24/7",
+            support: "Support par e-mail et chat",
             badges: {
                 gdpr: "GDPR",
             },
@@ -821,7 +821,7 @@ export default {
             goals: "Objectifs",
             gdpr: "GDPR",
             api: "API",
-            support: "Support 24/7",
+            support: "Support par e-mail et chat",
             onboarding: "Onboarding",
             import: "Import",
             export: "Export",
@@ -883,10 +883,8 @@ export default {
     pricing: {
         title: "Des tarifs clairs, sans mauvaises surprises",
         description:
-            "Paiement par élève qui évolue avec votre établissement. Sans frais d’ouverture, sans engagement, sans coûts cachés. Démarrez uniquement avec les modules dont vous avez besoin, à partir de 44 €/mois.",
+            "Paiement par élève qui évolue avec votre établissement. Sans frais d’ouverture, sans engagement, sans coûts cachés. Démarrez uniquement avec les modules dont vous avez besoin, à partir de 36 €/mois.",
         mostPopular: "Le plus populaire",
-        viewPlans: "Offres",
-        viewCalculator: "Simulateur",
         fromLabel: "À partir de",
         perStudent: "par élève et par mois",
         startNow: "M'inscrire maintenant gratuitement",
@@ -900,7 +898,7 @@ export default {
                 description:
                     "Langues, musique, danse, soutien scolaire ou sport. Choisissez le pack qui règle votre priorité et lancez-vous dès aujourd'hui.",
                 features: [
-                    "Quatre packs tout compris, sans petites lignes",
+                    "Trois packs tout compris, sans petites lignes",
                     "Ena, l'IA d'Edena, incluse dans tous les packs",
                     "Mise en route en quelques minutes, sans engagement",
                 ],
@@ -923,8 +921,8 @@ export default {
         packs: {
             title: "Packs pour académies",
             description:
-                "Quatre packs tout compris au prix par élève. Choisissez celui qui règle votre priorité du moment et changez quand vous voulez : sans frais d'ouverture ni engagement.",
-            minNote: "Facturation minimale de 44 € par mois",
+                "Trois packs tout compris au prix par élève. Choisissez celui qui règle votre priorité du moment et changez quand vous voulez : sans frais d'ouverture ni engagement.",
+            minNote: "Facturation minimale de {n} € par mois",
             includes: "Ce qui est inclus",
             bestFor: "Idéal si",
             items: {
@@ -933,13 +931,6 @@ export default {
                     tagline:
                         "Gardez les familles informées sans appels ni groupes WhatsApp, et pilotez le quotidien de votre équipe.",
                     bestFor: "votre équipe perd des heures à répondre aux messages et aux avis.",
-                },
-                automation: {
-                    name: "Pack Automatisation",
-                    tagline:
-                        "Laissez les tâches répétitives se faire toutes seules et démultipliez votre équipe avec Ena.",
-                    bestFor:
-                        "vous répétez chaque semaine les mêmes inscriptions, avis et relances.",
                 },
                 finance: {
                     name: "Pack Finances",
@@ -950,8 +941,8 @@ export default {
                 complete: {
                     name: "Pack Académie 360",
                     tagline:
-                        "Tout Edena dans un seul pack, tous les modules activés et l'allocation Ena la plus large.",
-                    bestFor: "vous voulez digitaliser toute l'académie d'un coup.",
+                        "Tout Edena dans un pack : les tâches répétitives se font toutes seules avec Ena.",
+                    bestFor: "vous voulez tout digitaliser et cesser de répéter les mêmes tâches chaque semaine.",
                 },
             },
             notes: [
@@ -967,14 +958,14 @@ export default {
                 },
                 {
                     title: "Remise au volume",
-                    description: "À partir de 300 élèves, nous ajustons le prix par élève.",
+                    description: "Plus vous avez d'élèves, moins vous payez par élève.",
                 },
             ],
         },
         centers: {
             title: "Un tarif qui s'adapte à votre établissement",
             description:
-                "Vous démarrez avec la plateforme de base et n'activez que les modules dont votre établissement a besoin. Vous payez par élève, sans frais d'ouverture ni engagement, et le tarif suit votre croissance.",
+                "Vous démarrez avec la plateforme de base et n'activez que les modules dont votre établissement a besoin. Vous payez par élève, sans frais d'ouverture ni engagement, et le tarif s'ajuste à la taille de votre établissement.",
             fromNote: "par mois et par établissement",
             priceCaption: "Plateforme de base, application familles et support inclus",
             priceBullets: [
@@ -990,7 +981,7 @@ export default {
                 {
                     title: "La plateforme de base",
                     description:
-                        "Dossiers élèves, application familles, communication et support 24/7. C'est le point de départ de tous les établissements.",
+                        "Dossiers élèves, application familles, communication et support par e-mail et chat. C'est le point de départ de tous les établissements.",
                 },
                 {
                     title: "Les modules dont vous avez besoin",
@@ -1000,7 +991,7 @@ export default {
                 {
                     title: "Votre nombre d'élèves",
                     description:
-                        "Vous payez par élève inscrit, avec un minimum de 44 € par mois et des remises au-delà d'un certain volume.",
+                        "Vous payez par élève inscrit, avec un minimum de 30 élèves et des remises automatiques selon le volume.",
                 },
             ],
             modulesTitle: "Tous les modules d'Edena",
@@ -1010,56 +1001,13 @@ export default {
             ctaDescription:
                 "Dites-nous combien d'élèves vous avez et ce dont vous avez besoin. Nous vous donnons un tarif ferme pendant la démo, sans engagement.",
         },
+        /** Billing-cadence toggle labels, the only part of the old calculator still rendered
+         * (by PricingPacks). The per-module hints it used to carry described a tariff that no
+         * longer exists. */
         calculator: {
-            title: "Sélectionnez les modules dont vous avez besoin",
-            subtitle:
-                "Ajustez le nombre d’enfants et les modules. Le prix se met à jour instantanément.",
-            childrenLabel: "Nombre d’enfants",
-            childrenHint: "À partir de 44 € par mois",
-            billingToggle: "Facturation",
-            billingDescription:
-                "Facturation électronique automatisée, compatible Verifactu, génération d’avis de paiement et suivi des impayés.",
-            billingHint: "+0,20 € par enfant",
-            crmToggle: "CRM scolaire",
-            crmDescription:
-                "Demandes d’inscription, pipeline et suivi des leads, avec formulaires d’acquisition personnalisables et origine multicanal.",
-            crmHint: "+0,10 € par enfant",
-            trackingToggle: "Tracking",
-            trackingDescription:
-                "Pointage de l’équipe, agenda quotidien partagé, tâches internes, permanences et remplacements.",
-            trackingHint: "+0,10 € par enfant",
-            extracurricularToggle: "Activités périscolaires",
-            extracurricularDescription:
-                "Gestion et self-service des activités : demandes en ligne, contrôle des places et paiements liés.",
-            extracurricularHint: "+0,10 € par enfant",
-            communicationProToggle: "Communication Pro",
-            communicationProDescription:
-                "Chat en temps réel, notifications push, accusé de lecture et communication segmentée par groupe ou classe.",
-            communicationProHint: "+0,10 € par enfant",
-            automationToggle: "Automatisation",
-            automationDescription:
-                "Règles personnalisées, workflows automatiques et processus intelligents de gestion des élèves et d’onboarding.",
-            automationHint: "+0,25 € par enfant",
-            onlineStoreToggle: "Boutique en ligne",
-            onlineStoreDescription:
-                "Vente de produits et services, bons de livraison et factures automatiques, gestion des stocks et historique par élève. Prix mensuel fixe, indépendant du nombre d’enfants.",
-            onlineStoreHint: "10 €/mois",
-            cloudToggle: "Cloud",
-            cloudDescription:
-                "Espace cloud pour stocker des documents. Créez des dossiers et gérez la visibilité par groupe ou élève.",
-            cloudHint: "+0,25 € par enfant",
-            packCompleteMessage: "Le pack complet vous correspond",
-            packCompleteDescription:
-                "Tous les modules inclus : 1,90 €/enfant + 10 €/mois (boutique en ligne).",
             monthly: "Mensuel",
             annual: "Annuel",
-            annualDiscount: "-15 %",
-            annualSavings: "Économie annuelle",
-            totalMonthly: "Total mensuel",
-            perChild: "Par enfant",
-            totalAnnual: "Total annuel",
-            volumeBadge: "Remise volume disponible",
-            cta: "Demander une démo",
+            annualDiscount: "2 mois offerts",
         },
         planFeatureSections: [
             {
@@ -1079,7 +1027,7 @@ export default {
                     },
                     {
                         moduleId: "platformBase",
-                        label: "Analytique de base de l’établissement et support 24h/24 et 7j/7",
+                        label: "Analytique de base de l’établissement et support par e-mail et chat",
                     },
                 ],
             },
@@ -1169,7 +1117,7 @@ export default {
                 items: [
                     {
                         moduleId: "onlineStore",
-                        label: "Vente de produits et services (+10 €/mois fixe)",
+                        label: "Vente de produits et services aux familles",
                     },
                     {
                         moduleId: "onlineStore",
@@ -1187,90 +1135,6 @@ export default {
                 ],
             },
         ],
-        recommended: {
-            essential: {
-                name: "Essentiel",
-                description: "À partir de 44 € par mois",
-                pricePerChild: "1,00 € par enfant",
-                from: "À partir de 44 € par mois",
-                featureIncludedIds: ["platformBase", "ena"],
-            },
-            managementPro: {
-                name: "Gestion Pro",
-                description: "À partir de 44 € par mois",
-                pricePerChild: "1,40 € par enfant",
-                from: "À partir de 44 € par mois",
-                featureIncludedIds: [
-                    "platformBase",
-                    "ena",
-                    "communicationPro",
-                    "extracurricular",
-                    "automation",
-                    "tracking",
-                ],
-            },
-            complete: {
-                name: "Complet",
-                description: "Tous les modules : 1,90 €/enfant + 10 €/mois boutique.",
-                pricePerChild: "1,90 €/enfant + 10 €/mois",
-                from: "À partir de 44 € par mois",
-                featureIncludedIds: [
-                    "platformBase",
-                    "ena",
-                    "communicationPro",
-                    "extracurricular",
-                    "automation",
-                    "tracking",
-                    "crm",
-                    "billing",
-                    "onlineStore",
-                    "cloud",
-                ],
-            },
-            cta: "Demander une démo",
-            orCalculate: "Ou calculez votre prix",
-        },
-        plans: {
-            basic: {
-                name: "Basique",
-                description: "/mois par établissement",
-                features: {
-                    students: "Jusqu’à 100 élèves",
-                    attendance: "Gestion numérique des présences",
-                    payment: "Traitement automatisé des paiements",
-                    portal: "Portail familles intuitif",
-                    app: "Application mobile incluse",
-                    support: "Support 24h/24 par e-mail et chat",
-                },
-                button: "Commencer",
-            },
-            professional: {
-                name: "Professionnel",
-                description: "/mois par établissement",
-                features: {
-                    students: "Jusqu’à 500 élèves",
-                    basic: "Toutes les fonctions du plan Basique",
-                    academic: "Gestion académique complète",
-                    communication: "Communication avancée avec les familles",
-                    app: "Fonctions premium sur l’app mobile",
-                    support: "Support prioritaire 24h/24",
-                },
-                button: "Commencer",
-            },
-            enterprise: {
-                name: "Entreprise",
-                description: "Sur mesure pour votre établissement",
-                features: {
-                    students: "Élèves illimités",
-                    professional: "Toutes les fonctions du plan Professionnel",
-                    integration: "Intégration avec vos systèmes existants",
-                    reports: "Rapports et analytique personnalisés",
-                    multicampus: "Gestion multi-sites centralisée",
-                    advisor: "Conseiller succès dédié",
-                },
-                button: "Demander une démo",
-            },
-        },
     },
     faqs: {
         title: "Questions fréquentes sur Edena",
@@ -2427,7 +2291,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         faqs: [
             {
                 question: "Combien coûte Edena ?",
-                answer: "À partir de 44 €/mois, avec paiement par élève et sans engagement. Calculez votre prix exact sur la page des tarifs.",
+                answer: "À partir de 36 €/mois, avec paiement par élève et sans engagement. Il y a une facturation minimale de 36 € par mois, et le prix par élève baisse automatiquement selon le volume.",
             },
             {
                 question: "Combien de temps faut-il pour démarrer ?",

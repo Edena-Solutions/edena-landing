@@ -1,4 +1,5 @@
 ---
+import { BILLING_FLOOR } from "@/constants/pricing";
 import { translations, localeStaticPaths, localePath, localizedDemoPath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
 import Hero from "@/modules/pricing/Hero.astro";
@@ -58,7 +59,7 @@ const breadcrumbs = [
     <section class="grid gap-10 px-4 w-full mx-auto">
         <Hero t={t} title={t.pricing.packs.title} description={t.pricing.packs.description} />
         <p class="text-center text-[10px] tracking-widest uppercase text-muted-foreground">
-            {t.pricing.packs.minNote}
+            {t.pricing.packs.minNote.replace("{n}", String(BILLING_FLOOR.academies.value))}
         </p>
         <PricingPacks
             client:load

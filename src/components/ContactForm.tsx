@@ -28,7 +28,7 @@ const profileIcons = {
     partner: Handshake,
 } as const;
 
-/** Colors follow the module cards in PricingCalculator.tsx */
+/** Colors follow the module cards in PricingModules.tsx */
 const profileIconColors: Record<Profile, string> = {
     school: "bg-sky-100 text-sky-600 dark:bg-sky-500/15 dark:text-sky-400",
     nursery: "bg-amber-100 text-amber-600 dark:bg-amber-500/15 dark:text-amber-400",
