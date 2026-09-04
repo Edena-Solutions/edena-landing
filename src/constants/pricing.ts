@@ -45,6 +45,11 @@ export const MODULE_IDS: ModuleId[] = [
     "onlineStore",
 ];
 
+/** Academy packs omit extracurriculars: that module is for schools. */
+export const ACADEMY_MODULE_IDS: ModuleId[] = MODULE_IDS.filter(
+    (id) => id !== "extracurricular",
+);
+
 export interface ModuleMeta {
     icon?: LucideIcon;
     iconImage?: { src: string };
@@ -124,7 +129,7 @@ export const PACKS: Pack[] = [
         id: "automation",
         pricePerStudent: 1.4,
         enaTokens: "2M",
-        modules: ["platformBase", "ena", "cloud", "automation", "tracking"],
+        modules: ["platformBase", "ena", "cloud", "automation", "crm"],
     },
     {
         id: "finance",
@@ -137,7 +142,7 @@ export const PACKS: Pack[] = [
         id: "complete",
         pricePerStudent: 2.2,
         enaTokens: "5M",
-        modules: MODULE_IDS,
+        modules: ACADEMY_MODULE_IDS,
     },
 ];
 
