@@ -1498,7 +1498,7 @@ export default {
     },
     privacyPolicy: {
         title: "Política de privacitat",
-        content: `Última actualització: 18 d'agost de 2026<br>
+        content: `Última actualització: 10 de setembre de 2026<br>
 <br>
 1. INTRODUCCIÓ I OBJECTE<br>
 A Edena ens comprometem a protegir la privacitat de tots els usuaris i a ser completament transparents sobre com tractem les dades personals. Aquesta Política de privacitat descriu les pràctiques de tractament de dades d'Edena Software S.L. en relació amb l'ús de la nostra plataforma educativa i aquest lloc web, de conformitat amb el Reglament (UE) 2016/679 (RGPD), la Llei orgànica 3/2018, de 5 de desembre (LOPDGDD), i la Llei 34/2002, d'11 de juliol (LSSI).<br>
@@ -1531,6 +1531,8 @@ Dades gestionades internament: dades identificatives, acadèmiques, de comunicac
 - Enviament de comunicacions comercials: consentiment exprés de l'usuari (art. 6.1.a RGPD), revocable en qualsevol moment.<br>
 - Prestació del servei ERP: execució del contracte amb el centre educatiu (art. 6.1.b RGPD).<br>
 - Millora de la plataforma: interès legítim a optimitzar la seguretat i les eines del programari (art. 6.1.f RGPD).<br>
+- Analítica d'ús de la plataforma i gravació de sessió: consentiment de l'usuari (art. 6.1.a RGPD), revocable en qualsevol moment des del bàner de la plataforma.<br>
+- Diagnòstic d'errors i estabilitat del servei: interès legítim a mantenir el servei segur i operatiu (art. 6.1.f RGPD).<br>
 <br>
 6. TRACTAMENT DE DADES DE MENORS D'EDAT<br>
 En compliment de l'article 8 del RGPD i de l'article 7 de la LOPDGDD, els centres educatius, en qualitat de responsables del tractament, són els qui recapten el consentiment dels pares o tutors legals per al tractament de les dades de menors de 14 anys abans d'introduir-les a la plataforma. Edena no utilitza mai les dades dels menors per a cap finalitat aliena a l'estricta gestió educativa del centre client.<br>
@@ -1544,9 +1546,10 @@ En compliment de l'article 8 del RGPD i de l'article 7 de la LOPDGDD, els centre
 Edena no ven ni cedeix dades personals a tercers. Les dades només es comuniquen a:<br>
 - Proveïdors d'infraestructura cloud i emmagatzematge de dades que actuen com a encarregats del tractament sota contractes estrictes que compleixen el RGPD.<br>
 - Passarel·les de pagament certificades (PCI-DSS) per a la gestió de cobraments a la plataforma.<br>
+- Proveïdors d'analítica d'ús i de diagnòstic tècnic, que ens permeten mesurar com s'utilitza el servei i detectar errors. L'analítica de la plataforma només s'activa amb el consentiment previ de l'usuari i es pot rebutjar o revocar en qualsevol moment; el diagnòstic d'errors es fa a la Unió Europea i està configurat per no recollir adreces IP ni identitats d'usuari. El detall d'aquests proveïdors figura a l'Acord de Tractament de Dades.<br>
 - Autoritats públiques quan hi hagi una obligació legal.<br>
 <br>
-La base de dades, l'allotjament de l'aplicació i els proveïdors d'intel·ligència artificial que tracten dades dels centres educatius es troben a la Unió Europea. Determinats proveïdors de correu electrònic, notificacions push i pagaments estan radicats als Estats Units; aquestes transferències s'emparen en les Clàusules Contractuals Tipus de la Comissió Europea o en el Marc de Privadesa de Dades UE-EUA, tal com es detalla a l'Acord de Tractament de Dades.<br>
+La base de dades, l'allotjament de l'aplicació, el diagnòstic d'errors i els proveïdors d'intel·ligència artificial que tracten dades dels centres educatius es troben a la Unió Europea. Determinats proveïdors de correu electrònic, notificacions push, pagaments i analítica d'ús estan radicats als Estats Units; aquestes transferències s'emparen en les Clàusules Contractuals Tipus de la Comissió Europea o en el Marc de Privadesa de Dades UE-EUA, tal com es detalla a l'Acord de Tractament de Dades.<br>
 <br>
 9. DRETS DELS INTERESSATS<br>
 Els usuaris poden exercir els seus drets d'accés, rectificació, supressió, oposició, limitació i portabilitat enviant un correu electrònic a dpo@edena.es, acreditant degudament la seva identitat. Si considereu que els vostres drets no han estat atesos, podeu reclamar davant l'Agència Espanyola de Protecció de Dades (www.aepd.es).<br>
@@ -1714,7 +1717,7 @@ La Plataforma s'allotja en centres de dades de proveïdors d'infraestructura de 
     },
     cookiePolicy: {
         title: "Política de galetes",
-        content: `Darrera actualització: 18 de juliol de 2026<br>
+        content: `Darrera actualització: 10 de setembre de 2026<br>
 <br>
 1. QUÈ SÓN LES GALETES?<br>
 Les galetes (cookies) són petits fitxers de text que els llocs web emmagatzemen al dispositiu de l'usuari (ordinador, tauleta, telèfon intel·ligent) quan els visita. Juntament amb les galetes hi ha tecnologies similars, com l'emmagatzematge local del navegador (localStorage), que fem servir amb les mateixes finalitats i a les quals també s'aplica aquesta política.<br>
@@ -1737,14 +1740,24 @@ Fem servir Google Analytics 4 i Google Tag Manager per mesurar el trànsit i mil
 No fem servir galetes de publicitat ni de perfilat publicitari: aquesta categoria roman sempre desactivada.<br>
 <br>
 4. EMMAGATZEMATGE A LA PLATAFORMA (app.edena.es)<br>
-L'aplicació web d'Edena utilitza únicament emmagatzematge tècnic, imprescindible per al funcionament del servei:<br>
+4.1 Emmagatzematge tècnic (necessari)<br>
+Imprescindible per al funcionament del servei; no requereix consentiment:<br>
 - Sessió d'autenticació: credencials gestionades pel nostre proveïdor d'identitat per mantenir la teva sessió iniciada de manera segura.<br>
 - Preferències d'ús: idioma, tema visual i organització activa.<br>
 - edena_cookie_consent: registre de la teva decisió sobre les galetes.<br>
-Actualment la plataforma no fa servir galetes d'analítica ni de publicitat. Si en el futur s'hi incorporés analítica, només s'activaria amb el teu consentiment previ a través del bàner de la mateixa plataforma.<br>
+- Diagnòstic d'errors (Sentry): dades tècniques necessàries per detectar fallades i mantenir la seguretat i l'estabilitat del servei. Està configurat per no recollir la teva adreça IP, la teva identitat d'usuari ni les galetes de sessió; rep la traça tècnica de l'error, la ruta on s'ha produït i les accions prèvies. No es fa servir per analitzar el teu comportament ni per a publicitat, i es tracta per interès legítim (art. 6.1.f RGPD).<br>
+<br>
+4.2 Analítica de producte i gravació de sessió (només amb el teu consentiment)<br>
+Fem servir Amplitude per entendre com s'utilitza la plataforma i millorar-la. Només s'activa si acceptes l'analítica al bàner de la mateixa plataforma: si la rebutges, no s'hi instal·la res ni s'hi envia cap dada. Pots retirar el consentiment en qualsevol moment i la recollida s'aturarà immediatament, gravació de sessió inclosa.<br>
+- AMP_* i emmagatzematge local d'Amplitude: identificador de dispositiu i de sessió (durada: fins a 1 any).<br>
+Amb el teu consentiment, Amplitude rep les pàgines visitades dins la plataforma, les interaccions amb botons i enllaços, les accions de producte que hi fas (per exemple, emetre una factura), el teu identificador intern d'usuari, el teu rol i l'identificador de la teva organització, així com dades tècniques del dispositiu i del navegador.<br>
+Gravació de sessió: per diagnosticar problemes d'ús registrem una reconstrucció de la navegació. Està configurada al nivell d'emmascarament més restrictiu disponible: s'oculten tots els textos de la pantalla i es bloquegen imatges, vídeos i fotografies de perfil, de manera que la reproducció mostra l'estructura de la pàgina i els clics, no el contingut.<br>
+<br>
+No fem servir galetes de publicitat ni de perfilat publicitari a la plataforma: aquesta categoria roman sempre desactivada.<br>
 <br>
 5. APLICACIÓ MÒBIL EDENA<br>
-L'aplicació mòbil no fa servir galetes. Únicament desa a l'emmagatzematge local del dispositiu les dades tècniques imprescindibles per al seu funcionament (sessió d'usuari i preferències), que s'eliminen en tancar la sessió o desinstal·lar l'aplicació.<br>
+L'aplicació mòbil no fa servir galetes ni analítica de producte: no incorpora Amplitude ni gravació de sessió. Desa a l'emmagatzematge local del dispositiu les dades tècniques imprescindibles per al seu funcionament (sessió d'usuari i preferències), que s'eliminen en tancar la sessió o desinstal·lar l'aplicació.<br>
+L'aplicació sí que incorpora Sentry per al diagnòstic d'errors, amb la mateixa configuració restrictiva descrita a l'apartat 4.1: no es recullen l'adreça IP ni la identitat de l'usuari, i les dades es tracten a la Unió Europea.<br>
 <br>
 6. COM PUC GESTIONAR O DESACTIVAR LES GALETES?<br>
 En la teva primera visita al lloc web i a la plataforma et mostrem un bàner on pots acceptar o rebutjar les galetes no essencials. La teva elecció queda registrada i pots canviar-la en qualsevol moment esborrant les dades de navegació, cosa que farà que l'avís es torni a mostrar.<br>
@@ -1757,7 +1770,8 @@ A més, la majoria dels navegadors permeten controlar les galetes a través de l
 Tingues en compte que desactivar l'emmagatzematge tècnic pot impedir el funcionament de parts del servei.<br>
 <br>
 7. TRANSFERÈNCIES INTERNACIONALS<br>
-Google (Analytics i Tag Manager) pot tractar dades en servidors situats fora de l'Espai Econòmic Europeu (EEE). En aquests casos, la transferència s'empara en mecanismes vàlids conformes al RGPD, com les Clàusules Contractuals Tipus de la Comissió Europea o decisions d'adequació.<br>
+Google (Analytics i Tag Manager, al lloc web) i Amplitude (analítica i gravació de sessió de la plataforma) tracten dades en servidors situats fora de l'Espai Econòmic Europeu, als Estats Units. En aquests casos, la transferència s'empara en mecanismes vàlids conformes al RGPD, com les Clàusules Contractuals Tipus de la Comissió Europea o el Marc de Privadesa de Dades UE-EUA. Si rebutges l'analítica, no es produeix cap d'aquestes transferències.<br>
+Sentry, utilitzat per al diagnòstic d'errors, tracta les dades a la seva regió europea (Alemanya), per la qual cosa no implica una transferència internacional.<br>
 <br>
 8. ACTUALITZACIONS D'AQUESTA POLÍTICA<br>
 Edena podrà actualitzar aquesta Política de galetes per adaptar-la a canvis legislatius, del servei o dels proveïdors utilitzats. La data de "darrera actualització" reflecteix sempre la versió vigent. Quan el canvi sigui rellevant, tornarem a demanar el teu consentiment.<br>
@@ -1767,7 +1781,7 @@ Per a qualsevol consulta sobre l'ús de galetes pots escriure'ns a privacidad@ed
     },
     dataProcessingAgreement: {
         title: "Acord de tractament de dades",
-        content: `Darrera actualització: 18 d'agost de 2026<br>
+        content: `Darrera actualització: 10 de setembre de 2026<br>
 <br>
 1. OBJECTE I NATURALESA DE L'ACORD<br>
 Aquest Acord de tractament de dades (d'ara endavant, "l'Acord") regula el tractament de dades personals que Edena Software S.L. (CIF: B27627462; d'ara endavant, "Edena") duu a terme per compte de l'organització client en el marc de la prestació del servei, conforme a l'article 28 del Reglament (UE) 2016/679 (RGPD). L'Acord forma part integrant dels Termes i condicions del servei.<br>
@@ -1813,10 +1827,15 @@ El responsable autoritza Edena a recórrer als subencarregats que s'enumeren a c
 <br>
 Edena no utilitza cap altre proveïdor d'intel·ligència artificial. Aquesta restricció està implementada en el codi mateix i no depèn de la configuració de l'entorn, de manera que no es pot ampliar sense una modificació revisada del programari.<br>
 <br>
-7.5 Serveis connectats pel mateix responsable<br>
+7.5 Analítica de producte i diagnòstic tècnic<br>
+- Sentry — diagnòstic d'errors i de rendiment de la plataforma web, de l'API i de l'aplicació mòbil. Regió europea (Alemanya). Configurat per no recollir adreces IP, identitats d'usuari, galetes ni el contingut de les peticions: rep la traça tècnica de l'error, la ruta o pantalla on s'ha produït i els identificadors interns associats. És l'únic proveïdor d'aquest grup que opera sense consentiment de l'usuari, per ser necessari per a la seguretat i l'estabilitat del servei.<br>
+- Amplitude — analítica d'ús i gravació de sessió de la plataforma web (app.edena.es). Estats Units. Només s'activa amb el consentiment previ de l'usuari a través del bàner de la plataforma; si aquest el rebutja o el revoca, Amplitude no rep cap dada. Rep identificadors interns d'usuari i d'organització, el rol, les pàgines i accions de producte realitzades i dades tècniques del dispositiu. La gravació de sessió està configurada al nivell d'emmascarament més restrictiu disponible, ocultant tots els textos de la pantalla i bloquejant imatges, vídeos i fotografies.<br>
+L'aplicació mòbil no incorpora analítica de producte ni gravació de sessió.<br>
+<br>
+7.6 Serveis connectats pel mateix responsable<br>
 Quan el responsable connecta voluntàriament un servei extern (per exemple Google Calendar o Microsoft), les dades que se sincronitzen amb ell surten de la plataforma per instrucció del mateix responsable i cap a un compte que aquest controla. Aquests serveis no són subencarregats d'Edena, i el seu tractament es regeix per la relació entre el responsable i aquell proveïdor.<br>
 <br>
-7.6 Comunicacions exigides per la normativa<br>
+7.7 Comunicacions exigides per la normativa<br>
 Quan el responsable té activada la facturació conforme al sistema VeriFactu, la plataforma tramet a l'Agència Estatal d'Administració Tributària els registres de facturació, que inclouen les dades identificatives i fiscals del destinatari de la factura. Aquesta comunicació dona compliment a una obligació legal del mateix responsable, per la qual cosa l'Agència Tributària no actua com a subencarregat d'Edena, sinó com a destinatari previst per la norma.<br>
 <br>
 Edena comunicarà al responsable qualsevol canvi previst en aquesta llista amb una antelació mínima de 30 dies, donant-li la possibilitat d'oposar-s'hi. Si el responsable s'hi oposés de manera motivada i no fos possible una alternativa raonable, podrà resoldre el contracte sense penalització.<br>
@@ -1840,7 +1859,9 @@ Edena posarà a disposició del responsable la informació necessària per demos
 13. TRANSFERÈNCIES INTERNACIONALS<br>
 La base de dades, l'allotjament de l'aplicació, la cua de tasques en segon pla i els proveïdors d'intel·ligència artificial que poden tractar dades de l'organització (apartat 7.4) es troben a la Unió Europea.<br>
 <br>
-Els subencarregats identificats a l'apartat 7 com a radicats als Estats Units (Resend, Expo, Stripe i Groq) impliquen una transferència internacional de dades. Aquestes transferències s'emparen en les Clàusules Contractuals Tipus aprovades per la Comissió Europea o, quan el proveïdor estigui certificat, en el Marc de Privadesa de Dades UE-EUA, juntament amb les mesures complementàries que resultin necessàries després de la corresponent avaluació d'impacte de la transferència.<br>
+El diagnòstic d'errors (Sentry) es fa a la regió europea del proveïdor (Alemanya), per la qual cosa no implica una transferència internacional.<br>
+<br>
+Els subencarregats identificats a l'apartat 7 com a radicats als Estats Units (Resend, Expo, Stripe, Groq i Amplitude) impliquen una transferència internacional de dades. Aquestes transferències s'emparen en les Clàusules Contractuals Tipus aprovades per la Comissió Europea o, quan el proveïdor estigui certificat, en el Marc de Privadesa de Dades UE-EUA, juntament amb les mesures complementàries que resultin necessàries després de la corresponent avaluació d'impacte de la transferència.<br>
 <br>
 L'emmagatzematge de fitxers (Cloudflare R2) està configurat amb ubicació a Europa Occidental. En tractar-se d'una preferència d'ubicació i no d'una restricció jurisdiccional vinculant, i sent el proveïdor una entitat estatunidenca, aquesta relació s'empara en les mateixes garanties assenyalades al paràgraf anterior.<br>
 <br>

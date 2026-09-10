@@ -1519,7 +1519,7 @@ export default {
     },
     privacyPolicy: {
         title: "Politique de confidentialité",
-        content: `Dernière mise à jour : 18 août 2026<br>
+        content: `Dernière mise à jour : 10 septembre 2026<br>
 <br>
 1. INTRODUCTION ET OBJET<br>
 Chez Edena, nous nous engageons à protéger la vie privée de tous les utilisateurs et à être totalement transparents sur la manière dont nous traitons les données personnelles. La présente Politique de confidentialité décrit les pratiques de traitement des données d'Edena Software S.L. dans le cadre de l'utilisation de notre plateforme éducative et de ce site web, conformément au Règlement (UE) 2016/679 (RGPD), à la loi organique espagnole 3/2018 du 5 décembre (LOPDGDD) et à la loi espagnole 34/2002 du 11 juillet (LSSI).<br>
@@ -1552,6 +1552,8 @@ Données gérées en interne : données d'identification, académiques, de commu
 - Envoi de communications commerciales : consentement exprès de l'utilisateur (art. 6.1.a RGPD), révocable à tout moment.<br>
 - Fourniture du service ERP : exécution du contrat avec l'établissement éducatif (art. 6.1.b RGPD).<br>
 - Amélioration de la plateforme : intérêt légitime à optimiser la sécurité et les outils du logiciel (art. 6.1.f RGPD).<br>
+- Analyse de l'utilisation de la plateforme et enregistrement de session : consentement de l'utilisateur (art. 6.1.a RGPD), révocable à tout moment depuis le bandeau de la plateforme.<br>
+- Diagnostic des erreurs et stabilité du service : intérêt légitime à maintenir le service sûr et opérationnel (art. 6.1.f RGPD).<br>
 <br>
 6. TRAITEMENT DES DONNÉES DES MINEURS<br>
 Conformément à l'article 8 du RGPD et à l'article 7 de la LOPDGDD, les établissements éducatifs, en qualité de responsables du traitement, recueillent le consentement des parents ou tuteurs légaux pour le traitement des données des mineurs de moins de 14 ans avant de les saisir dans la plateforme. Edena n'utilise jamais les données des mineurs à des fins autres que la stricte gestion éducative de l'établissement client.<br>
@@ -1565,9 +1567,10 @@ Conformément à l'article 8 du RGPD et à l'article 7 de la LOPDGDD, les établ
 Edena ne vend ni ne cède de données personnelles à des tiers. Les données ne sont communiquées qu'à :<br>
 - Des fournisseurs d'infrastructure cloud et de stockage de données agissant en qualité de sous-traitants dans le cadre de contrats stricts conformes au RGPD.<br>
 - Des passerelles de paiement certifiées (PCI-DSS) pour la gestion des encaissements sur la plateforme.<br>
+- Des fournisseurs d'analyse d'utilisation et de diagnostic technique, qui nous permettent de mesurer la manière dont le service est utilisé et de détecter les erreurs. L'analyse de la plateforme n'est activée qu'avec le consentement préalable de l'utilisateur et peut être refusée ou révoquée à tout moment ; le diagnostic des erreurs est réalisé dans l'Union européenne et configuré pour ne collecter ni adresses IP ni identités d'utilisateur. Le détail de ces fournisseurs figure dans l'Accord de traitement des données.<br>
 - Des autorités publiques lorsqu'il existe une obligation légale.<br>
 <br>
-La base de données, l'hébergement de l'application et les fournisseurs d'intelligence artificielle qui traitent les données des établissements sont situés dans l'Union européenne. Certains fournisseurs de messagerie, de notifications push et de paiement sont établis aux États-Unis ; ces transferts s'appuient sur les Clauses Contractuelles Types de la Commission européenne ou sur le cadre de protection des données UE-États-Unis, comme détaillé dans l'Accord de traitement des données.<br>
+La base de données, l'hébergement de l'application, le diagnostic des erreurs et les fournisseurs d'intelligence artificielle qui traitent les données des établissements sont situés dans l'Union européenne. Certains fournisseurs de messagerie, de notifications push, de paiement et d'analyse d'utilisation sont établis aux États-Unis ; ces transferts s'appuient sur les Clauses Contractuelles Types de la Commission européenne ou sur le cadre de protection des données UE-États-Unis, comme détaillé dans l'Accord de traitement des données.<br>
 <br>
 9. DROITS DES PERSONNES CONCERNÉES<br>
 Les utilisateurs peuvent exercer leurs droits d'accès, de rectification, d'effacement, d'opposition, de limitation et de portabilité en envoyant un courriel à dpo@edena.es, en justifiant dûment de leur identité. Si vous estimez que vos droits n'ont pas été respectés, vous pouvez introduire une réclamation auprès de l'Agence espagnole de protection des données (www.aepd.es).<br>
@@ -1735,7 +1738,7 @@ La Plateforme est hébergée dans des centres de données de fournisseurs d'infr
     },
     cookiePolicy: {
         title: "Politique relative aux cookies",
-        content: `Dernière mise à jour : 18 juillet 2026<br>
+        content: `Dernière mise à jour : 10 septembre 2026<br>
 <br>
 1. QUE SONT LES COOKIES ?<br>
 Les cookies sont de petits fichiers texte que les sites web stockent sur l'appareil de l'utilisateur (ordinateur, tablette, smartphone) lors de sa visite. Aux côtés des cookies existent des technologies similaires, comme le stockage local du navigateur (localStorage), que nous utilisons aux mêmes fins et auxquelles cette politique s'applique également.<br>
@@ -1758,14 +1761,24 @@ Nous utilisons Google Analytics 4 et Google Tag Manager pour mesurer le trafic e
 Nous n'utilisons pas de cookies publicitaires ni de profilage publicitaire : cette catégorie reste toujours désactivée.<br>
 <br>
 4. STOCKAGE DANS LA PLATEFORME (app.edena.es)<br>
-L'application web d'Edena utilise uniquement un stockage technique, indispensable au fonctionnement du service :<br>
+4.1 Stockage technique (nécessaire)<br>
+Indispensable au fonctionnement du service ; ne requiert pas de consentement :<br>
 - Session d'authentification : identifiants gérés par notre fournisseur d'identité pour maintenir votre session ouverte en toute sécurité.<br>
 - Préférences d'utilisation : langue, thème visuel et organisation active.<br>
 - edena_cookie_consent : enregistrement de votre décision concernant les cookies.<br>
-Actuellement, la plateforme n'utilise aucun cookie d'analyse ni de publicité. Si une solution d'analyse était ajoutée à l'avenir, elle ne serait activée qu'avec votre consentement préalable via le bandeau de la plateforme elle-même.<br>
+- Diagnostic des erreurs (Sentry) : données techniques nécessaires pour détecter les défaillances et maintenir la sécurité et la stabilité du service. Il est configuré pour ne pas collecter votre adresse IP, votre identité d'utilisateur ni les cookies de session ; il reçoit la trace technique de l'erreur, la route où elle s'est produite et les actions précédentes. Il n'est pas utilisé pour analyser votre comportement ni à des fins publicitaires, et il est traité sur la base de l'intérêt légitime (art. 6.1.f RGPD).<br>
+<br>
+4.2 Analyse produit et enregistrement de session (uniquement avec votre consentement)<br>
+Nous utilisons Amplitude pour comprendre comment la plateforme est utilisée et l'améliorer. Il n'est activé que si vous acceptez l'analyse dans le bandeau de la plateforme elle-même : si vous la refusez, rien n'est installé et aucune donnée n'est envoyée. Vous pouvez retirer votre consentement à tout moment et la collecte s'arrête immédiatement, enregistrement de session compris.<br>
+- AMP_* et stockage local d'Amplitude : identifiant d'appareil et de session (durée : jusqu'à 1 an).<br>
+Avec votre consentement, Amplitude reçoit les pages visitées au sein de la plateforme, les interactions avec les boutons et les liens, les actions produit que vous réalisez (par exemple, émettre une facture), votre identifiant interne d'utilisateur, votre rôle et l'identifiant de votre organisation, ainsi que des données techniques sur votre appareil et votre navigateur.<br>
+Enregistrement de session : pour diagnostiquer les problèmes d'utilisation, nous enregistrons une reconstitution de la navigation. Il est configuré au niveau de masquage le plus restrictif disponible : tous les textes affichés à l'écran sont masqués et les images, vidéos et photos de profil sont bloquées, de sorte que la relecture montre la structure de la page et les clics, et non le contenu.<br>
+<br>
+Nous n'utilisons aucun cookie publicitaire ni de profilage publicitaire sur la plateforme : cette catégorie reste toujours désactivée.<br>
 <br>
 5. APPLICATION MOBILE EDENA<br>
-L'application mobile n'utilise pas de cookies. Elle conserve uniquement dans le stockage local de l'appareil les données techniques indispensables à son fonctionnement (session utilisateur et préférences), qui sont supprimées lors de la déconnexion ou de la désinstallation de l'application.<br>
+L'application mobile n'utilise ni cookies ni analyse produit : elle n'intègre ni Amplitude ni l'enregistrement de session. Elle conserve dans le stockage local de l'appareil les données techniques indispensables à son fonctionnement (session utilisateur et préférences), qui sont supprimées lors de la déconnexion ou de la désinstallation de l'application.<br>
+L'application intègre en revanche Sentry pour le diagnostic des erreurs, avec la même configuration restrictive décrite à la section 4.1 : ni l'adresse IP ni l'identité de l'utilisateur ne sont collectées, et les données sont traitées dans l'Union européenne.<br>
 <br>
 6. COMMENT GÉRER OU DÉSACTIVER LES COOKIES ?<br>
 Lors de votre première visite sur le site web et sur la plateforme, nous affichons un bandeau vous permettant d'accepter ou de refuser les cookies non essentiels. Votre choix est enregistré et vous pouvez le modifier à tout moment en effaçant vos données de navigation, ce qui fera réapparaître l'avis.<br>
@@ -1778,7 +1791,8 @@ De plus, la plupart des navigateurs permettent de contrôler les cookies via leu
 Veuillez noter que la désactivation du stockage technique peut empêcher le fonctionnement de certaines parties du service.<br>
 <br>
 7. TRANSFERTS INTERNATIONAUX<br>
-Google (Analytics et Tag Manager) peut traiter des données sur des serveurs situés en dehors de l'Espace économique européen (EEE). Dans ces cas, le transfert repose sur des mécanismes valides conformes au RGPD, tels que les clauses contractuelles types de la Commission européenne ou des décisions d'adéquation.<br>
+Google (Analytics et Tag Manager, sur le site web) et Amplitude (analyse et enregistrement de session de la plateforme) traitent des données sur des serveurs situés en dehors de l'Espace économique européen, aux États-Unis. Dans ces cas, le transfert repose sur des mécanismes valides conformes au RGPD, tels que les clauses contractuelles types de la Commission européenne ou le cadre de protection des données UE-États-Unis. Si vous refusez l'analyse, aucun de ces transferts n'a lieu.<br>
+Sentry, utilisé pour le diagnostic des erreurs, traite les données dans sa région européenne (Allemagne) ; il n'implique donc pas de transfert international.<br>
 <br>
 8. MISES À JOUR DE CETTE POLITIQUE<br>
 Edena pourra mettre à jour cette politique relative aux cookies pour l'adapter aux évolutions législatives, du service ou des prestataires utilisés. La date de « dernière mise à jour » reflète toujours la version en vigueur. En cas de changement important, nous vous demanderons à nouveau votre consentement.<br>
@@ -1788,7 +1802,7 @@ Pour toute question concernant l'utilisation des cookies, vous pouvez nous écri
     },
     dataProcessingAgreement: {
         title: "Accord de traitement des données",
-        content: `Dernière mise à jour : 18 août 2026<br>
+        content: `Dernière mise à jour : 10 septembre 2026<br>
 <br>
 1. OBJET ET NATURE DE L'ACCORD<br>
 Le présent Accord de traitement des données (ci-après « l'Accord ») régit le traitement des données personnelles qu'Edena Software S.L. (CIF : B27627462 ; ci-après « Edena ») effectue pour le compte de l'organisation cliente dans le cadre de la prestation du service, conformément à l'article 28 du Règlement (UE) 2016/679 (RGPD). L'Accord fait partie intégrante des Conditions générales du service.<br>
@@ -1834,10 +1848,15 @@ Le responsable autorise Edena à recourir aux sous-traitants ultérieurs énumé
 <br>
 Edena n'utilise aucun autre fournisseur d'intelligence artificielle. Cette restriction est implémentée dans le code lui-même et ne dépend pas de la configuration de l'environnement ; elle ne peut donc être élargie sans une modification revue du logiciel.<br>
 <br>
-7.5 Services connectés par le responsable lui-même<br>
+7.5 Analyse produit et diagnostic technique<br>
+- Sentry — diagnostic des erreurs et des performances de la plateforme web, de l'API et de l'application mobile. Région européenne (Allemagne). Configuré pour ne collecter ni adresses IP, ni identités d'utilisateur, ni cookies, ni le contenu des requêtes : il reçoit la trace technique de l'erreur, la route ou l'écran où elle s'est produite et les identifiants internes associés. C'est le seul fournisseur de ce groupe qui fonctionne sans le consentement de l'utilisateur, car il est nécessaire à la sécurité et à la stabilité du service.<br>
+- Amplitude — analyse d'utilisation et enregistrement de session de la plateforme web (app.edena.es). États-Unis. Il n'est activé qu'avec le consentement préalable de l'utilisateur via le bandeau de la plateforme ; si celui-ci le refuse ou le révoque, Amplitude ne reçoit aucune donnée. Il reçoit les identifiants internes d'utilisateur et d'organisation, le rôle, les pages et les actions produit réalisées ainsi que des données techniques sur l'appareil. L'enregistrement de session est configuré au niveau de masquage le plus restrictif disponible, masquant tous les textes affichés à l'écran et bloquant les images, vidéos et photographies.<br>
+L'application mobile n'intègre ni analyse produit ni enregistrement de session.<br>
+<br>
+7.6 Services connectés par le responsable lui-même<br>
 Lorsque le responsable connecte volontairement un service externe (par exemple Google Calendar ou Microsoft), les données synchronisées avec celui-ci quittent la plateforme sur instruction du responsable lui-même et vers un compte qu'il contrôle. Ces services ne sont pas des sous-traitants ultérieurs d'Edena, et leur traitement est régi par la relation entre le responsable et ce fournisseur.<br>
 <br>
-7.6 Communications exigées par la réglementation<br>
+7.7 Communications exigées par la réglementation<br>
 Lorsque le responsable a activé la facturation conforme au système VeriFactu, la plateforme transmet à l'Agence fiscale espagnole (Agencia Estatal de Administración Tributaria) les registres de facturation, qui incluent les données d'identification et fiscales du destinataire de la facture. Cette communication satisfait à une obligation légale du responsable lui-même ; l'Agence fiscale n'agit donc pas comme sous-traitant ultérieur d'Edena, mais comme destinataire prévu par la loi.<br>
 <br>
 Edena informera le responsable de tout changement prévu dans cette liste avec un préavis d'au moins 30 jours, en lui donnant la possibilité de s'y opposer. Si le responsable s'y oppose de manière motivée et qu'aucune alternative raisonnable n'est possible, il pourra résilier le contrat sans pénalité.<br>
@@ -1861,7 +1880,9 @@ Edena mettra à la disposition du responsable les informations nécessaires pour
 13. TRANSFERTS INTERNATIONAUX<br>
 La base de données, l'hébergement de l'application, la file de tâches en arrière-plan et les fournisseurs d'intelligence artificielle susceptibles de traiter les données de l'organisation (section 7.4) sont situés dans l'Union européenne.<br>
 <br>
-Les sous-traitants ultérieurs identifiés à la section 7 comme établis aux États-Unis (Resend, Expo, Stripe et Groq) impliquent un transfert international de données. Ces transferts s'appuient sur les Clauses Contractuelles Types approuvées par la Commission européenne ou, lorsque le fournisseur est certifié, sur le cadre de protection des données UE-États-Unis, ainsi que sur les mesures complémentaires nécessaires à l'issue de l'analyse d'impact du transfert correspondante.<br>
+Le diagnostic des erreurs (Sentry) est réalisé dans la région européenne du fournisseur (Allemagne) ; il n'implique donc pas de transfert international.<br>
+<br>
+Les sous-traitants ultérieurs identifiés à la section 7 comme établis aux États-Unis (Resend, Expo, Stripe, Groq et Amplitude) impliquent un transfert international de données. Ces transferts s'appuient sur les Clauses Contractuelles Types approuvées par la Commission européenne ou, lorsque le fournisseur est certifié, sur le cadre de protection des données UE-États-Unis, ainsi que sur les mesures complémentaires nécessaires à l'issue de l'analyse d'impact du transfert correspondante.<br>
 <br>
 Le stockage de fichiers (Cloudflare R2) est configuré avec un emplacement en Europe de l'Ouest. S'agissant d'une préférence d'emplacement et non d'une restriction juridictionnelle contraignante, et le fournisseur étant une entité américaine, cette relation s'appuie sur les mêmes garanties que celles indiquées au paragraphe précédent.<br>
 <br>

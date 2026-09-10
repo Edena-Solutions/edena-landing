@@ -1498,7 +1498,7 @@ export default {
     },
     privacyPolicy: {
         title: "Pribatutasun-politika",
-        content: `Azken eguneraketa: 2026ko abuztuaren 18a<br>
+        content: `Azken eguneraketa: 2026ko irailaren 10a<br>
 <br>
 1. SARRERA ETA XEDEA<br>
 Edenan konpromisoa hartzen dugu erabiltzaile guztien pribatutasuna babesteko eta datu pertsonalak nola tratatzen ditugun erabat gardenak izateko. Pribatutasun-politika honek Edena Software S.L.-ren datu-tratamenduaren jardunbideak deskribatzen ditu, gure hezkuntza-plataformaren eta webgune honen erabilerari dagokienez, honako hauekin bat etorriz: (EB) 2016/679 Erregelamendua (RGPD), abenduaren 5eko 3/2018 Lege Organikoa (LOPDGDD) eta uztailaren 11ko 34/2002 Legea (LSSI).<br>
@@ -1531,6 +1531,8 @@ Barnean kudeatutako datuak: identifikazio-datuak, datu akademikoak, komunikaziok
 - Merkataritza-komunikazioak bidaltzea: erabiltzailearen berariazko baimena (RGPDren 6.1.a art.), edozein unetan ezezta daitekeena.<br>
 - ERP zerbitzua ematea: ikastetxearekiko kontratuaren exekuzioa (RGPDren 6.1.b art.).<br>
 - Plataforma hobetzea: softwarearen segurtasuna eta tresnak optimizatzeko interes legitimoa (RGPDren 6.1.f art.).<br>
+- Plataformaren erabilera-analitika eta saio-grabaketa: erabiltzailearen baimena (RGPDren 6.1.a art.), edozein unetan errebokagarria plataformaren bannerretik.<br>
+- Erroreen diagnostikoa eta zerbitzuaren egonkortasuna: zerbitzua seguru eta martxan mantentzeko interes legitimoa (RGPDren 6.1.f art.).<br>
 <br>
 6. ADINGABEEN DATUEN TRATAMENDUA<br>
 RGPDren 8. artikulua eta LOPDGDDren 7. artikulua betez, ikastetxeek, tratamenduaren arduradun gisa, gurasoen edo legezko tutoreen baimena biltzen dute 14 urtetik beherakoen datuak tratatzeko, plataforman sartu aurretik. Edenak ez ditu inoiz adingabeen datuak erabiltzen bezero den zentroaren hezkuntza-kudeaketa hutsetik kanpoko inolako helburutarako.<br>
@@ -1544,9 +1546,10 @@ RGPDren 8. artikulua eta LOPDGDDren 7. artikulua betez, ikastetxeek, tratamendua
 Edenak ez ditu datu pertsonalak saltzen, ezta hirugarrenei lagatzen ere. Datuak honako hauei soilik komunikatzen zaizkie:<br>
 - Cloud azpiegitura eta datu-biltegiratzeko hornitzaileei, tratamenduaren eragile gisa jarduten dutenei, RGPDa betetzen duten kontratu zorrotzen pean.<br>
 - Ordainketa-pasabide ziurtatuei (PCI-DSS), plataformako kobrantzak kudeatzeko.<br>
+- Erabilera-analitikako eta diagnostiko teknikoko hornitzaileei, zerbitzua nola erabiltzen den neurtzeko eta erroreak antzemateko aukera ematen digutenei. Plataformaren analitika erabiltzailearen aldez aurreko baimenarekin soilik aktibatzen da eta edozein unetan ezetsi edo errebokatu daiteke; erroreen diagnostikoa Europar Batasunean egiten da eta IP helbiderik edo erabiltzaile-identitaterik ez biltzeko konfiguratuta dago. Hornitzaile horien xehetasuna Datuen Tratamendurako Akordioan ageri da.<br>
 - Agintari publikoei, legezko betebeharra dagoenean.<br>
 <br>
-Datu-basea, aplikazioaren ostatatzea eta hezkuntza-zentroen datuak tratatzen dituzten adimen artifizialeko hornitzaileak Europar Batasunean daude. Posta elektronikoko, push jakinarazpenetako eta ordainketetako zenbait hornitzaile Estatu Batuetan daude kokatuta; transferentzia horiek Europako Batzordearen Kontratu Klausula Tipoetan edo EB-AEB Datuen Pribatutasunerako Esparruan oinarritzen dira, Datuen Tratamendurako Akordioan zehazten den bezala.<br>
+Datu-basea, aplikazioaren ostatatzea, erroreen diagnostikoa eta hezkuntza-zentroen datuak tratatzen dituzten adimen artifizialeko hornitzaileak Europar Batasunean daude. Posta elektronikoko, push jakinarazpenetako, ordainketetako eta erabilera-analitikako zenbait hornitzaile Estatu Batuetan daude kokatuta; transferentzia horiek Europako Batzordearen Kontratu Klausula Tipoetan edo EB-AEB Datuen Pribatutasunerako Esparruan oinarritzen dira, Datuen Tratamendurako Akordioan zehazten den bezala.<br>
 <br>
 9. INTERESDUNEN ESKUBIDEAK<br>
 Erabiltzaileek datuetara sartzeko, zuzentzeko, ezabatzeko, aurka egiteko, mugatzeko eta eramangarritasunerako eskubideak balia ditzakete, dpo@edena.es helbidera mezu elektroniko bat bidaliz eta beren nortasuna behar bezala egiaztatuz. Zure eskubideak behar bezala erantzun ez direla uste baduzu, erreklamazioa aurkez dezakezu Datuak Babesteko Espainiako Agentzian (www.aepd.es).<br>
@@ -1714,7 +1717,7 @@ Plataforma lehen mailako azpiegitura-hornitzaileen datu-zentroetan ostatatzen da
     },
     cookiePolicy: {
         title: "Cookie-politika",
-        content: `Azken eguneratzea: 2026ko uztailaren 18a<br>
+        content: `Azken eguneratzea: 2026ko irailaren 10a<br>
 <br>
 1. ZER DIRA COOKIEAK?<br>
 Cookieak testu-fitxategi txikiak dira, webguneek erabiltzailearen gailuan (ordenagailua, tableta, telefonoa) gordetzen dituztenak, hura bisitatzen duenean. Cookieekin batera antzeko teknologiak daude, hala nola nabigatzailearen tokiko biltegiratzea (localStorage); helburu berberekin erabiltzen ditugu eta politika hau haiei ere aplikatzen zaie.<br>
@@ -1737,14 +1740,24 @@ Google Analytics 4 eta Google Tag Manager erabiltzen ditugu trafikoa neurtzeko e
 Ez dugu publizitate-cookierik ez publizitate-profilik erabiltzen: kategoria hori beti desaktibatuta dago.<br>
 <br>
 4. BILTEGIRATZEA PLATAFORMAN (app.edena.es)<br>
-Edenaren web-aplikazioak biltegiratze teknikoa soilik erabiltzen du, zerbitzuaren funtzionamendurako ezinbestekoa:<br>
+4.1 Biltegiratze teknikoa (beharrezkoa)<br>
+Zerbitzuaren funtzionamendurako ezinbestekoa; ez du baimenik behar:<br>
 - Autentifikazio-saioa: gure identitate-hornitzaileak kudeatutako kredentzialak, zure saioa modu seguruan irekita mantentzeko.<br>
 - Erabilera-hobespenak: hizkuntza, itxura bisuala eta erakunde aktiboa.<br>
 - edena_cookie_consent: cookieei buruzko zure erabakiaren erregistroa.<br>
-Gaur egun plataformak ez du analitika- edo publizitate-cookierik erabiltzen. Etorkizunean analitika gehituko balitz, zure aldez aurreko baimenarekin soilik aktibatuko litzateke, plataformaren beraren bannerraren bidez.<br>
+- Erroreen diagnostikoa (Sentry): akatsak antzemateko eta zerbitzuaren segurtasuna eta egonkortasuna mantentzeko beharrezkoak diren datu teknikoak. Zure IP helbidea, zure erabiltzaile-identitatea eta saio-cookieak ez biltzeko konfiguratuta dago; errorearen aztarna teknikoa, gertatu den ibilbidea eta aurreko ekintzak jasotzen ditu. Ez da erabiltzen zure jokabidea aztertzeko ez publizitaterako, eta interes legitimoaren arabera tratatzen da (DBEOren 6.1.f art.).<br>
+<br>
+4.2 Produktuaren analitika eta saio-grabaketa (zure baimenarekin soilik)<br>
+Amplitude erabiltzen dugu plataforma nola erabiltzen den ulertzeko eta hobetzeko. Plataformaren beraren bannerrean analitika onartzen baduzu soilik aktibatzen da: ezezten baduzu, ez da ezer instalatzen ez daturik bidaltzen. Baimena edozein unetan ken dezakezu eta bilketa berehala gelditzen da, saio-grabaketa barne.<br>
+- AMP_* eta Amplituderen tokiko biltegiratzea: gailu- eta saio-identifikatzailea (iraupena: urtebete arte).<br>
+Zure baimenarekin, Amplitudek plataforman bisitatutako orriak, botoi eta esteken interakzioak, egiten dituzun produktu-ekintzak (adibidez, faktura bat egitea), zure barne erabiltzaile-identifikatzailea, zure rola eta zure erakundearen identifikatzailea jasotzen ditu, baita gailuaren eta nabigatzailearen datu teknikoak ere.<br>
+Saio-grabaketa: erabilera-arazoak diagnostikatzeko, nabigazioaren berreraikuntza bat erregistratzen dugu. Eskuragarri dagoen maskaratze-maila murriztaileenean konfiguratuta dago: pantailako testu guztiak ezkutatzen dira eta irudiak, bideoak eta profil-argazkiak blokeatzen dira; hala, erreprodukzioak orriaren egitura eta klikak erakusten ditu, ez edukia.<br>
+<br>
+Ez dugu publizitate- edo publizitate-profilatze-cookierik erabiltzen plataforman: kategoria hori beti desaktibatuta dago.<br>
 <br>
 5. EDENA APLIKAZIO MUGIKORRA<br>
-Aplikazio mugikorrak ez du cookierik erabiltzen. Gailuaren tokiko biltegiratzean funtzionamendurako ezinbestekoak diren datu teknikoak soilik gordetzen ditu (erabiltzailearen saioa eta hobespenak), eta horiek ezabatu egiten dira saioa ixtean edo aplikazioa desinstalatzean.<br>
+Aplikazio mugikorrak ez du cookierik ez produktu-analitikarik erabiltzen: ez du Amplitude ez saio-grabaketarik. Gailuaren tokiko biltegiratzean funtzionamendurako ezinbestekoak diren datu teknikoak gordetzen ditu (erabiltzailearen saioa eta hobespenak), eta horiek ezabatu egiten dira saioa ixtean edo aplikazioa desinstalatzean.<br>
+Aplikazioak Sentry bai duela erroreen diagnostikorako, 4.1 atalean deskribatutako konfigurazio murriztaile berarekin: ez dira IP helbidea ez erabiltzailearen identitatea biltzen, eta datuak Europar Batasunean tratatzen dira.<br>
 <br>
 6. NOLA KUDEATU EDO DESAKTIBA DITZAKET COOKIEAK?<br>
 Webgunera eta plataformara egiten duzun lehen bisitan banner bat erakusten dizugu, funtsezkoak ez diren cookieak onartu edo baztertu ahal izateko. Zure aukera erregistratuta geratzen da, eta edonoiz alda dezakezu nabigazio-datuak ezabatuta; horrela, oharra berriro agertuko da.<br>
@@ -1757,7 +1770,8 @@ Gainera, nabigatzaile gehienek cookieak beren ezarpenen bidez kontrolatzea ahalb
 Kontuan izan biltegiratze teknikoa desaktibatzeak zerbitzuaren zenbait atal funtzionatzea eragotz dezakeela.<br>
 <br>
 7. NAZIOARTEKO TRANSFERENTZIAK<br>
-Googlek (Analytics eta Tag Manager) datuak Europako Esparru Ekonomikotik (EEE) kanpoko zerbitzarietan trata ditzake. Kasu horietan, transferentzia DBEOren araberako mekanismo baliodunetan oinarritzen da, hala nola Europako Batzordearen kontratu-klausula estandarretan edo egokitasun-erabakietan.<br>
+Googlek (Analytics eta Tag Manager, webgunean) eta Amplitudek (plataformaren analitika eta saio-grabaketa) datuak Europako Esparru Ekonomikotik kanpoko zerbitzarietan tratatzen dituzte, Estatu Batuetan. Kasu horietan, transferentzia DBEOren araberako mekanismo baliodunetan oinarritzen da, hala nola Europako Batzordearen kontratu-klausula estandarretan edo EB-AEB Datuen Pribatutasunerako Esparruan. Analitika ezezten baduzu, transferentzia horietako bat ere ez da gertatzen.<br>
+Sentryk, erroreen diagnostikorako erabiltzen denak, datuak bere Europako eskualdean (Alemania) tratatzen ditu; beraz, ez dakar nazioarteko transferentziarik.<br>
 <br>
 8. POLITIKA HONEN EGUNERATZEAK<br>
 Edenak cookie-politika hau egunera dezake, legeen, zerbitzuaren edo erabilitako hornitzaileen aldaketetara egokitzeko. "Azken eguneratzea" datak beti islatzen du indarrean dagoen bertsioa. Aldaketa garrantzitsua denean, berriro eskatuko dizugu baimena.<br>
@@ -1767,7 +1781,7 @@ Cookieen erabilerari buruzko edozein kontsultarako, idatz iezaguzu privacidad@ed
     },
     dataProcessingAgreement: {
         title: "Datuen tratamendu-hitzarmena",
-        content: `Azken eguneratzea: 2026ko abuztuaren 18a<br>
+        content: `Azken eguneratzea: 2026ko irailaren 10a<br>
 <br>
 1. HITZARMENAREN XEDEA ETA IZAERA<br>
 Datuen tratamendu-hitzarmen honek (aurrerantzean, "Hitzarmena") Edena Software S.L.-k (IFK: B27627462; aurrerantzean, "Edena") bezero-erakundearen kontura zerbitzua ematean egiten duen datu pertsonalen tratamendua arautzen du, (EB) 2016/679 Erregelamenduaren (DBEO) 28. artikuluaren arabera. Hitzarmena zerbitzuaren Erabileraren baldintzen zati da.<br>
@@ -1813,10 +1827,15 @@ Arduradunak baimena ematen dio Edenari jarraian zerrendatzen diren azpieragileak
 <br>
 Edenak ez du beste adimen artifizialeko hornitzailerik erabiltzen. Murrizketa hori kodean bertan dago inplementatuta eta ez dago ingurunearen konfigurazioaren mende, beraz ezin da zabaldu softwarearen aldaketa berrikusi bat gabe.<br>
 <br>
-7.5 Arduradunak berak konektatutako zerbitzuak<br>
+7.5 Produktuaren analitika eta diagnostiko teknikoa<br>
+- Sentry — web-plataformaren, APIaren eta aplikazio mugikorraren erroreen eta errendimenduaren diagnostikoa. Europako eskualdea (Alemania). IP helbiderik, erabiltzaile-identitaterik, cookierik eta eskaeren edukirik ez biltzeko konfiguratuta: errorearen aztarna teknikoa, gertatu den ibilbidea edo pantaila eta lotutako barne-identifikatzaileak jasotzen ditu. Talde honetako erabiltzailearen baimenik gabe funtzionatzen duen hornitzaile bakarra da, zerbitzuaren segurtasunerako eta egonkortasunerako beharrezkoa delako.<br>
+- Amplitude — web-plataformaren (app.edena.es) erabilera-analitika eta saio-grabaketa. Estatu Batuak. Erabiltzailearen aldez aurreko baimenarekin soilik aktibatzen da, plataformaren bannerraren bidez; erabiltzaileak ezesten edo errebokatzen badu, Amplitudek ez du daturik jasotzen. Erabiltzailearen eta erakundearen barne-identifikatzaileak, rola, bisitatutako orriak eta egindako produktu-ekintzak eta gailuaren datu teknikoak jasotzen ditu. Saio-grabaketa eskuragarri dagoen maskaratze-maila murriztaileenean konfiguratuta dago, pantailako testu guztiak ezkutatuz eta irudiak, bideoak eta argazkiak blokeatuz.<br>
+Aplikazio mugikorrak ez du produktu-analitikarik ez saio-grabaketarik.<br>
+<br>
+7.6 Arduradunak berak konektatutako zerbitzuak<br>
 Arduradunak kanpoko zerbitzu bat borondatez konektatzen duenean (adibidez Google Calendar edo Microsoft), harekin sinkronizatzen diren datuak plataformatik ateratzen dira arduradunaren beraren aginduz eta hark kontrolatzen duen kontu batera. Zerbitzu horiek ez dira Edenaren azpieragileak, eta haien tratamendua arduradunaren eta hornitzaile horren arteko harremanak arautzen du.<br>
 <br>
-7.6 Araudiak eskatutako komunikazioak<br>
+7.7 Araudiak eskatutako komunikazioak<br>
 Arduradunak VeriFactu sistemaren araberako fakturazioa aktibatuta duenean, plataformak fakturazio-erregistroak bidaltzen dizkio Zerga Administrazioko Estatu Agentziari, fakturaren hartzailearen datu identifikatzaileak eta fiskalak barne. Komunikazio horrek arduradunaren beraren lege-betebehar bat betetzen du; beraz, Zerga Agentzia ez da Edenaren azpieragile, arauak aurreikusitako hartzailea baizik.<br>
 <br>
 Edenak zerrenda honetan aurreikusitako edozein aldaketa jakinaraziko dio arduradunari gutxienez 30 eguneko aurrerapenaz, aurka egiteko aukera emanez. Arduradunak arrazoituta aurka egiten badu eta aukera arrazoizkorik ez badago, kontratua penalizaziorik gabe suntsiarazi ahal izango du.<br>
@@ -1840,7 +1859,9 @@ Edenak arduradunaren eskura jarriko du DBEOren 28. artikuluko betebeharrak betet
 13. NAZIOARTEKO TRANSFERENTZIAK<br>
 Datu-basea, aplikazioaren ostatatzea, bigarren mailako zereginen ilara eta erakundearen datuak trata ditzaketen adimen artifizialeko hornitzaileak (7.4 atala) Europar Batasunean daude.<br>
 <br>
-Estatu Batuetan kokatuta daudenak — 7. atalean identifikatuta (Resend, Expo, Stripe eta Groq) — nazioarteko datu-transferentzia bat dakarte. Transferentzia horiek Europako Batzordeak onartutako Kontratu Klausula Tipoetan oinarritzen dira edo, hornitzailea ziurtatuta dagoenean, EB-AEB Datuen Pribatutasunerako Esparruan, transferentziaren inpaktu-ebaluazioaren ondoren beharrezkoak diren neurri osagarriekin batera.<br>
+Erroreen diagnostikoa (Sentry) hornitzailearen Europako eskualdean (Alemania) egiten da; beraz, ez dakar nazioarteko transferentziarik.<br>
+<br>
+Estatu Batuetan kokatuta daudenak — 7. atalean identifikatuta (Resend, Expo, Stripe, Groq eta Amplitude) — nazioarteko datu-transferentzia bat dakarte. Transferentzia horiek Europako Batzordeak onartutako Kontratu Klausula Tipoetan oinarritzen dira edo, hornitzailea ziurtatuta dagoenean, EB-AEB Datuen Pribatutasunerako Esparruan, transferentziaren inpaktu-ebaluazioaren ondoren beharrezkoak diren neurri osagarriekin batera.<br>
 <br>
 Fitxategien biltegiratzea (Cloudflare R2) Mendebaldeko Europako kokapenarekin dago konfiguratuta. Kokapen-lehentasun bat denez eta ez jurisdikzio-murrizketa lotesle bat, eta hornitzailea Estatu Batuetako entitate bat denez, harreman hori aurreko paragrafoan adierazitako berme berberetan oinarritzen da.<br>
 <br>
