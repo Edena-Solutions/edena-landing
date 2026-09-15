@@ -11,9 +11,9 @@ export default {
         homeTitle: "Eskola Kudeaketa Softwarea | Hezkuntza ERPa · Edena",
         homeDescription:
             "Fakturazioa (Verifactu), asistentzia, agiriak eta familien komunikazioa zentralizatzen dituen eskola-kudeaketa softwarea. Iraunkortasunik gabe. Demo doakoa.",
-        pricingAcademiesTitle: "Akademientzako Prezioak | Packak 1,20 €-tik ikasleko · Edena",
+        pricingAcademiesTitle: "Akademientzako Prezioak | Packak 0,60 €-tik ikasleko · Edena",
         pricingAcademiesDescription:
-            "Akademientzako pack itxiak: komunikazioa, automatizazioa, finantzak edo dena barne. Prezioa ikasleko, alta kuotarik eta iraunkortasunik gabe. 30 eguneko doako proba.",
+            "Akademientzako pack itxiak: komunikazioa, finantzak edo dena barne. Prezioa ikasleko, alta kuotarik eta iraunkortasunik gabe. 30 eguneko doako proba.",
         pricingCentersTitle: "Ikastetxeentzako Prezioak | 36 €/hiletik · Edena",
         pricingCentersDescription:
             "Plataforma modularra ikastetxe, haur eskola eta talde hezitzaileentzat, hilean 36 €-tik. Aktibatu behar dituzun moduluak soilik eta ordaindu ikasleko.",
@@ -1636,7 +1636,7 @@ Kuotak adostutako aldizkakotasunarekin (hilero edo urtero) fakturatuko dira. Ord
 Edenak prezioak aldatzeko eskubidea gordetzen du, aldaketak gutxienez 30 eguneko aurrerapenarekin jakinaraziz. Bezeroak prezio berriak onartzen ez baditu, kontratua penaltarik gabe ebaz dezake indarrean sartu aurretik.<br>
 <br>
 4.5 Berritzea eta baja hartzea<br>
-Kontratuak automatikoki berritzen dira, Bezeroak bere planak eskatzen duen gutxieneko aurrerapenarekin baja jakinarazten ez badu. Ordaindutako kuotak ez dira itzulgarriak, aplikagarria den araudiak edo planaren baldintza espezifikoek berariaz aurreikusitako kasuetan izan ezik.<br>
+Kontratuak automatikoki berritzen dira, Bezeroak bere planak eskatzen duen gutxieneko aurrerapenarekin baja jakinarazten ez badu. Ordaindutako kuotak ez dira itzulgarriak, aplikagarria den araudiak edo planaren baldintza espezifikoek berariaz aurreikusitako kasuetan, izan ezik.<br>
 <br>
 5. BEZEROAREN BETEBEHARRAK<br>
 Bezeroa konpromisoa hartzen du:<br>

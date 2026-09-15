@@ -11,9 +11,9 @@ export default {
         homeTitle: "School Management Software | Educational ERP · Edena",
         homeDescription:
             "The school management software that centralises billing, attendance, student records and family communication. No long-term contract. Free demo.",
-        pricingAcademiesTitle: "Pricing for Academies | Packs from €1.20 per student · Edena",
+        pricingAcademiesTitle: "Pricing for Academies | Packs from €0.60 per student · Edena",
         pricingAcademiesDescription:
-            "All-in packs for academies: communication, automation, finance or everything included. Priced per student, no setup fee, no lock-in. 30-day free trial.",
+            "All-in packs for academies: communication, finance or everything included. Priced per student, no setup fee, no lock-in. 30-day free trial.",
         pricingCentersTitle: "Pricing for Education Centres | From €36/month · Edena",
         pricingCentersDescription:
             "Modular platform for schools, nurseries and education groups from €36 a month. Switch on only the modules you need and pay per student.",

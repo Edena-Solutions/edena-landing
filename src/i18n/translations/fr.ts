@@ -11,9 +11,9 @@ export default {
         homeTitle: "Logiciel de Gestion Scolaire | ERP Éducatif · Edena",
         homeDescription:
             "Le logiciel de gestion scolaire qui centralise facturation, présences, dossiers et communication avec les familles. Sans engagement. Démo gratuite.",
-        pricingAcademiesTitle: "Tarifs pour Académies | Packs dès 1,20 € par élève · Edena",
+        pricingAcademiesTitle: "Tarifs pour Académies | Packs dès 0,60 € par élève · Edena",
         pricingAcademiesDescription:
-            "Packs tout compris pour académies : communication, automatisation, finances ou tout inclus. Prix par élève, sans frais d'ouverture ni engagement. Essai gratuit 30 jours.",
+            "Packs tout compris pour académies : communication, finances ou tout inclus. Prix par élève, sans frais d'ouverture ni engagement. Essai gratuit 30 jours.",
         pricingCentersTitle: "Tarifs pour Établissements Scolaires | Dès 36 €/mois · Edena",
         pricingCentersDescription:
             "Plateforme modulaire pour écoles, crèches et groupes scolaires dès 36 € par mois. Activez uniquement les modules dont vous avez besoin et payez par élève.",

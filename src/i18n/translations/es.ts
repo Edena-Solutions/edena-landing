@@ -11,9 +11,9 @@ export default {
         homeTitle: "Software de Gestión Escolar | ERP Educativo · Edena",
         homeDescription:
             "El software de gestión escolar que centraliza facturación con Verifactu, asistencia, expedientes y comunicación con familias. Sin permanencia. Demo gratis.",
-        pricingAcademiesTitle: "Precios para Academias | Packs desde 1,20 € por alumno · Edena",
+        pricingAcademiesTitle: "Precios para Academias | Packs desde 0,60 € por alumno · Edena",
         pricingAcademiesDescription:
-            "Packs cerrados para academias: comunicación, automatización, finanzas o todo incluido. Precio por alumno, sin cuota de alta ni permanencia. Prueba gratis 30 días.",
+            "Packs cerrados para academias: comunicación, finanzas o todo incluido. Precio por alumno, sin cuota de alta ni permanencia. Prueba gratis 30 días.",
         pricingCentersTitle: "Precios para Centros Educativos | Desde 36 €/mes · Edena",
         pricingCentersDescription:
             "Plataforma modular para colegios, escuelas infantiles y grupos educativos desde 36 € al mes. Activa solo los módulos que necesitas y paga por alumno.",

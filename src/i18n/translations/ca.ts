@@ -11,9 +11,9 @@ export default {
         homeTitle: "Programari de Gestió Escolar | ERP Educatiu · Edena",
         homeDescription:
             "El programari de gestió escolar que centralitza facturació amb Verifactu, assistència, expedients i comunicació amb famílies. Sense permanència. Demo gratis.",
-        pricingAcademiesTitle: "Preus per a Acadèmies | Packs des d'1,20 € per alumne · Edena",
+        pricingAcademiesTitle: "Preus per a Acadèmies | Packs des de 0,60 € per alumne · Edena",
         pricingAcademiesDescription:
-            "Packs tancats per a acadèmies: comunicació, automatització, finances o tot inclòs. Preu per alumne, sense quota d'alta ni permanència. Prova gratuïta de 30 dies.",
+            "Packs tancats per a acadèmies: comunicació, finances o tot inclòs. Preu per alumne, sense quota d'alta ni permanència. Prova gratuïta de 30 dies.",
         pricingCentersTitle: "Preus per a Centres Educatius | Des de 36 €/mes · Edena",
         pricingCentersDescription:
             "Plataforma modular per a escoles, escoles bressol i grups educatius des de 36 € al mes. Activa només els mòduls que necessites i paga per alumne.",
