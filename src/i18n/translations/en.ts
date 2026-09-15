@@ -11,9 +11,9 @@ export default {
         homeTitle: "School Management Software | Educational ERP · Edena",
         homeDescription:
             "The school management software that centralises billing, attendance, student records and family communication. No long-term contract. Free demo.",
-        pricingAcademiesTitle: "Pricing for Academies | Packs from €1.20 per student · Edena",
+        pricingAcademiesTitle: "Pricing for Academies | Packs from €0.60 per student · Edena",
         pricingAcademiesDescription:
-            "All-in packs for academies: communication, automation, finance or everything included. Priced per student, no setup fee, no lock-in. 30-day free trial.",
+            "All-in packs for academies: communication, finance or everything included. Priced per student, no setup fee, no lock-in. 30-day free trial.",
         pricingCentersTitle: "Pricing for Education Centres | From €36/month · Edena",
         pricingCentersDescription:
             "Modular platform for schools, nurseries and education groups from €36 a month. Switch on only the modules you need and pay per student.",
@@ -942,6 +942,11 @@ export default {
                     title: "Volume discount",
                     description: "The more students, the less you pay for each one.",
                 },
+                {
+                    title: "60-day guarantee",
+                    description:
+                        "Not convinced within 60 days of your first payment? We refund what you paid.",
+                },
             ],
         },
         centers: {
@@ -955,6 +960,7 @@ export default {
                 "No setup fee, no lock-in",
                 "Data migration and training included",
                 "Volume and education-group discounts",
+                "60-day guarantee: not convinced, full refund",
             ],
             howTitle: "How your price is worked out",
             howDescription:
@@ -1523,7 +1529,10 @@ Fees will be billed with the agreed frequency (monthly or annually). Payment mus
 Edena reserves the right to modify prices, providing at least 30 days notice. If the Client does not accept the new prices, they may terminate the contract without penalty before the changes come into effect.<br>
 <br>
 4.5 Renewal and cancellation<br>
-Contracts renew automatically unless the Client notifies cancellation with the minimum advance notice required by their plan. Fees paid are non-refundable, except as expressly provided by applicable law or the specific plan conditions.<br>
+Contracts renew automatically unless the Client notifies cancellation with the minimum advance notice required by their plan. Fees paid are non-refundable, except as expressly provided by applicable law or the specific plan conditions, or under the guarantee set out in section 4.6.<br>
+<br>
+4.6 60-day satisfaction guarantee<br>
+When the Client subscribes to a paid plan for the first time, they may cancel and request a full refund of the fees paid within 60 calendar days of the date of the first payment, without having to give a reason. Requests must be made in writing to hola@edena.es or via WhatsApp at +34 674 670 365. Edena will issue the refund within 14 days of the request, using the same payment method. This guarantee applies once per Client and centre. After cancellation, the Client may export their data as provided in these Terms for termination of the contract.<br>
 <br>
 5. CLIENT OBLIGATIONS<br>
 The Client undertakes to:<br>
@@ -2281,6 +2290,10 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             {
                 question: "What if we already use another platform?",
                 answer: "We migrate your data from your current system without disrupting your school's day-to-day.",
+            },
+            {
+                question: "What if we pay and Edena isn't right for us?",
+                answer: "You're covered by a 60-day guarantee from your first payment: if Edena isn't right for you, just message us and we'll refund everything you've paid. And there's no lock-in.",
             },
         ],
         pricingLinkLabel: "See pricing and calculate your case",

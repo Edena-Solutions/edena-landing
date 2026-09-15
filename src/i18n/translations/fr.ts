@@ -11,9 +11,9 @@ export default {
         homeTitle: "Logiciel de Gestion Scolaire | ERP Éducatif · Edena",
         homeDescription:
             "Le logiciel de gestion scolaire qui centralise facturation, présences, dossiers et communication avec les familles. Sans engagement. Démo gratuite.",
-        pricingAcademiesTitle: "Tarifs pour Académies | Packs dès 1,20 € par élève · Edena",
+        pricingAcademiesTitle: "Tarifs pour Académies | Packs dès 0,60 € par élève · Edena",
         pricingAcademiesDescription:
-            "Packs tout compris pour académies : communication, automatisation, finances ou tout inclus. Prix par élève, sans frais d'ouverture ni engagement. Essai gratuit 30 jours.",
+            "Packs tout compris pour académies : communication, finances ou tout inclus. Prix par élève, sans frais d'ouverture ni engagement. Essai gratuit 30 jours.",
         pricingCentersTitle: "Tarifs pour Établissements Scolaires | Dès 36 €/mois · Edena",
         pricingCentersDescription:
             "Plateforme modulaire pour écoles, crèches et groupes scolaires dès 36 € par mois. Activez uniquement les modules dont vous avez besoin et payez par élève.",
@@ -965,6 +965,11 @@ export default {
                     title: "Remise au volume",
                     description: "Plus vous avez d'élèves, moins vous payez par élève.",
                 },
+                {
+                    title: "Garantie 60 jours",
+                    description:
+                        "Pas convaincu dans les 60 jours suivant votre premier paiement ? Nous vous remboursons.",
+                },
             ],
         },
         centers: {
@@ -978,6 +983,7 @@ export default {
                 "Sans frais d'ouverture ni engagement",
                 "Migration des données et formation incluses",
                 "Remises au volume et pour les groupes scolaires",
+                "Garantie 60 jours : pas convaincu, remboursé",
             ],
             howTitle: "Comment votre tarif est calculé",
             howDescription:
@@ -1657,7 +1663,10 @@ Les frais sont facturés selon la périodicité convenue (mensuelle ou annuelle)
 Edena se réserve le droit de modifier ses tarifs, en notifiant les changements au moins 30 jours à l'avance. Si le Client n'accepte pas les nouveaux tarifs, il peut résilier le contrat sans pénalité avant leur entrée en vigueur.<br>
 <br>
 4.5 Renouvellement et résiliation<br>
-Les contrats se renouvellent automatiquement sauf si le Client notifie sa résiliation avec le préavis minimum requis par son offre. Les frais versés ne sont pas remboursables, sauf cas expressément prévus par la réglementation applicable ou les conditions spécifiques de l'offre.<br>
+Les contrats se renouvellent automatiquement sauf si le Client notifie sa résiliation avec le préavis minimum requis par son offre. Les frais versés ne sont pas remboursables, sauf cas expressément prévus par la réglementation applicable ou les conditions spécifiques de l'offre, ou au titre de la garantie prévue à l'article 4.6.<br>
+<br>
+4.6 Garantie de satisfaction de 60 jours<br>
+Lorsque le Client souscrit pour la première fois une offre payante, il peut résilier et demander le remboursement intégral des frais versés dans les 60 jours calendaires suivant la date du premier paiement, sans avoir à justifier sa décision. La demande doit être adressée par écrit à hola@edena.es ou par WhatsApp au +34 674 670 365. Edena procède au remboursement dans un délai maximal de 14 jours à compter de la demande, par le même moyen de paiement. Cette garantie s'applique une seule fois par Client et par établissement. Après la résiliation, le Client peut exporter ses données dans les conditions prévues par les présentes Conditions en cas de résiliation du contrat.<br>
 <br>
 5. OBLIGATIONS DU CLIENT<br>
 Le Client s'engage à :<br>
@@ -2326,6 +2335,10 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             {
                 question: "Et si nous utilisons déjà une autre plateforme ?",
                 answer: "Nous migrons vos données depuis votre système actuel sans interrompre l'activité de l'établissement.",
+            },
+            {
+                question: "Et si nous payons et qu'Edena ne nous convient pas ?",
+                answer: "Vous bénéficiez d'une garantie de 60 jours à compter de votre premier paiement : si Edena ne vous convient pas, écrivez-nous et nous vous remboursons l'intégralité des sommes versées. Et il n'y a aucun engagement.",
             },
         ],
         pricingLinkLabel: "Voir les tarifs et calculer votre cas",
