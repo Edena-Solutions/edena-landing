@@ -1,7 +1,17 @@
 import { useEffect, useRef, useState } from "react";
 import { z } from "zod";
 import gsap from "gsap";
-import { School, Baby, Network, GraduationCap, Handshake, Mail, MapPin, Check } from "lucide-react";
+import {
+    School,
+    Baby,
+    Network,
+    GraduationCap,
+    Handshake,
+    Mail,
+    MapPin,
+    Check,
+    MessageCircle,
+} from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -12,6 +22,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { PhoneInput } from "@/components/ui/phone-input";
 import { CountrySelect, countries } from "@/components/ui/country-select";
 import { translations } from "@/i18n/index.ts";
+import { WHATSAPP_DISPLAY, WHATSAPP_URL } from "@/constants/contact";
 
 interface Props {
     lang: string;
@@ -291,6 +302,22 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                             <p className="text-muted-foreground">{CONTACT_EMAIL}</p>
                         </div>
                     </div>
+                    <a
+                        href={WHATSAPP_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-2"
+                    >
+                        <span className="flex size-10 shrink-0 items-center justify-center rounded bg-background">
+                            <MessageCircle className="size-5" />
+                        </span>
+                        <div className="text-sm">
+                            <p className="text-[10px] uppercase tracking-widest">WhatsApp</p>
+                            <p className="text-muted-foreground group-hover:text-primary transition-colors">
+                                {WHATSAPP_DISPLAY}
+                            </p>
+                        </div>
+                    </a>
                     <div className="flex items-center gap-2">
                         <span className="flex size-10 shrink-0 items-center justify-center rounded bg-background">
                             <MapPin className="size-5" />
