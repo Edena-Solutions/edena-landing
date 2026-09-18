@@ -206,7 +206,6 @@ export const PACKS: Pack<AcademyPackId>[] = [
         pricePerStudent: 0.9,
         enaTokens: "500K",
         modules: ["platformBase", "ena", "cloud", "crm", "billing", "onlineStore"],
-        isPopular: true,
     },
     {
         id: "complete",
@@ -230,6 +229,7 @@ export const PACKS: Pack<AcademyPackId>[] = [
             "onlineStore",
             "automation",
         ],
+        isPopular: true,
     },
 ];
 
