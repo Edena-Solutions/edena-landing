@@ -224,16 +224,11 @@ export default {
         },
         phoneLabel: "Telèfon (opcional)",
         phonePlaceholder: "+34 600 000 000",
-        countryLabel: "País",
-        countryPlaceholder: "Selecciona un país",
-        countryRequired: "El país és obligatori",
         websiteLabel: "Web del centre (opcional)",
         websitePlaceholder: "https://www.elteucentre.com",
         productInterestLabel: "M'interessa aquest producte (opcional)",
         productInterestPlaceholder: "Selecciona una opció",
         phoneInvalid: "Número de telèfon no vàlid per a {country}",
-        searchPlaceholder: "Cerca",
-        noOptions: "No hi ha opcions disponibles",
         productOptions: {
             platform: "Plataforma completa",
             communication: "Comunicació",
@@ -954,11 +949,6 @@ export default {
                     title: "Descompte per volum",
                     description: "Com més alumnes, menys pagues per cadascun.",
                 },
-                {
-                    title: "Garantia de 60 dies",
-                    description:
-                        "Si en els 60 dies següents al primer pagament no et convenç, et retornem el que has pagat.",
-                },
             ],
         },
         centers: {
@@ -972,7 +962,6 @@ export default {
                 "Sense quota d'alta ni permanència",
                 "Migració de dades i formació incloses",
                 "Descomptes per volum i per a grups de centres",
-                "Garantia de 60 dies: si no et convenç, et retornem el que has pagat",
             ],
             howTitle: "Com es calcula el teu preu",
             howDescription:
@@ -1642,10 +1631,7 @@ Les quotes es facturaran amb la periodicitat acordada (mensual o anual). El paga
 Edena es reserva el dret de modificar els preus, notificant els canvis amb almenys 30 dies d'antelació. Si el Client no accepta els nous preus, podrà resoldre el contracte sense penalització abans de la seva entrada en vigor.<br>
 <br>
 4.5 Renovació i cancel·lació<br>
-Els contractes es renoven automàticament llevat que el Client notifiqui la baixa amb l'antelació mínima establerta en el seu pla. Les quotes abonades no són reemborsables, llevat dels casos expressament previstos per la normativa aplicable o en les condicions específiques del pla, o en la garantia prevista a l'apartat 4.6.<br>
-<br>
-4.6 Garantia de satisfacció de 60 dies<br>
-Quan el Client contracti per primera vegada un pla de pagament, podrà sol·licitar la baixa i el reemborsament íntegre de les quotes abonades durant els 60 dies naturals següents a la data del primer pagament, sense necessitat de justificar-ne el motiu. La sol·licitud s'haurà de fer per escrit a hola@edena.es o per WhatsApp al +34 674 670 365. Edena efectuarà el reemborsament en un termini màxim de 14 dies des de la sol·licitud, pel mateix mitjà de pagament utilitzat. Aquesta garantia s'aplica una única vegada per Client i centre. Després de la baixa, el Client podrà exportar les seves dades d'acord amb el que preveuen aquests Termes per a la resolució del contracte.<br>
+Els contractes es renoven automàticament llevat que el Client notifiqui la baixa amb l'antelació mínima establerta en el seu pla. Les quotes abonades no són reemborsables, llevat dels casos expressament previstos per la normativa aplicable o en les condicions específiques del pla.<br>
 <br>
 5. OBLIGACIONS DEL CLIENT<br>
 El Client es compromet a:<br>
@@ -2316,10 +2302,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             {
                 question: "I si ja fem servir una altra plataforma?",
                 answer: "Ens encarreguem de migrar les teves dades des del teu sistema actual sense interrompre l'activitat del centre.",
-            },
-            {
-                question: "I si paguem i Edena no ens convenç?",
-                answer: "Tens una garantia de 60 dies des del primer pagament: si Edena no et convenç, ens escrius i et retornem íntegrament el que hagis pagat. A més, no hi ha permanència.",
             },
         ],
         pricingLinkLabel: "Veure preus i calcular el teu cas",

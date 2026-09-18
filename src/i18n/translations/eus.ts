@@ -224,16 +224,11 @@ export default {
         },
         phoneLabel: "Telefonoa (aukerakoa)",
         phonePlaceholder: "+34 600 000 000",
-        countryLabel: "Herrialdea",
-        countryPlaceholder: "Aukeratu herrialde bat",
-        countryRequired: "Herrialdea derrigorrezkoa da",
         websiteLabel: "Zentroaren webgunea (aukerakoa)",
         websitePlaceholder: "https://www.zurezentroa.eus",
         productInterestLabel: "Produktu hau interesatzen zait (aukerakoa)",
         productInterestPlaceholder: "Aukeratu aukera bat",
         phoneInvalid: "Telefono-zenbaki baliogabea: {country}",
-        searchPlaceholder: "Bilatu",
-        noOptions: "Ez dago aukerarik",
         productOptions: {
             platform: "Plataforma osoa",
             communication: "Komunikazioa",
@@ -956,11 +951,6 @@ export default {
                     title: "Bolumen deskontua",
                     description: "Zenbat eta ikasle gehiago, orduan eta gutxiago ordainduko duzu bakoitzeko.",
                 },
-                {
-                    title: "60 eguneko bermea",
-                    description:
-                        "Lehen ordainketatik 60 egunera ez bazaitu konbentzitzen, ordaindutakoa itzultzen dizugu.",
-                },
             ],
         },
         centers: {
@@ -974,7 +964,6 @@ export default {
                 "Alta kuotarik eta iraunkortasunik gabe",
                 "Datuen migrazioa eta prestakuntza barne",
                 "Bolumen eta zentro taldeentzako deskontuak",
-                "60 eguneko bermea: konbentzitzen ez bazaitu, ordaindutakoa itzultzen dizugu",
             ],
             howTitle: "Nola kalkulatzen den zure prezioa",
             howDescription:
@@ -1642,10 +1631,7 @@ Kuotak adostutako aldizkakotasunarekin (hilero edo urtero) fakturatuko dira. Ord
 Edenak prezioak aldatzeko eskubidea gordetzen du, aldaketak gutxienez 30 eguneko aurrerapenarekin jakinaraziz. Bezeroak prezio berriak onartzen ez baditu, kontratua penaltarik gabe ebaz dezake indarrean sartu aurretik.<br>
 <br>
 4.5 Berritzea eta baja hartzea<br>
-Kontratuak automatikoki berritzen dira, Bezeroak bere planak eskatzen duen gutxieneko aurrerapenarekin baja jakinarazten ez badu. Ordaindutako kuotak ez dira itzulgarriak, aplikagarria den araudiak edo planaren baldintza espezifikoek berariaz aurreikusitako kasuetan, edo 4.6 ataleko bermean, izan ezik.<br>
-<br>
-4.6 60 eguneko gogobetetze-bermea<br>
-Bezeroak ordainpeko plan bat lehen aldiz kontratatzen duenean, baja eskatu eta ordaindutako kuoten itzulketa osoa eskatu ahal izango du lehen ordainketaren datatik hurrengo 60 egun naturaletan, arrazoirik eman beharrik gabe. Eskaera idatziz egin beharko da hola@edena.es helbidera edo WhatsApp bidez +34 674 670 365 zenbakira. Edenak eskaeratik gehienez 14 eguneko epean itzuliko du zenbatekoa, erabilitako ordainketa-bide beraren bidez. Berme hau behin bakarrik aplikatzen da Bezero eta zentro bakoitzeko. Baja eman ondoren, Bezeroak bere datuak esportatu ahal izango ditu, kontratua amaitzeko Baldintza hauetan aurreikusitakoaren arabera.<br>
+Kontratuak automatikoki berritzen dira, Bezeroak bere planak eskatzen duen gutxieneko aurrerapenarekin baja jakinarazten ez badu. Ordaindutako kuotak ez dira itzulgarriak, aplikagarria den araudiak edo planaren baldintza espezifikoek berariaz aurreikusitako kasuetan, izan ezik.<br>
 <br>
 5. BEZEROAREN BETEBEHARRAK<br>
 Bezeroa konpromisoa hartzen du:<br>
@@ -2315,10 +2301,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             {
                 question: "Eta dagoeneko beste plataforma bat erabiltzen badugu?",
                 answer: "Zure datuak egungo sistematik migratzeaz arduratzen gara, zentroaren jarduera eten gabe.",
-            },
-            {
-                question: "Eta ordaindu eta Edenak konbentzitzen ez bagaitu?",
-                answer: "Lehen ordainketatik 60 eguneko bermea duzu: Edenak konbentzitzen ez bazaitu, idatzi iezaguzu eta ordaindutako guztia itzuliko dizugu. Gainera, ez dago iraunkortasunik.",
             },
         ],
         pricingLinkLabel: "Ikusi prezioak eta kalkulatu zure kasua",

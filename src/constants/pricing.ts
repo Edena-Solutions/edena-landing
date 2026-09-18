@@ -27,7 +27,7 @@ export const ANNUAL_DISCOUNT = 1 / 6;
  * per-student logic instead of converging on a single euro figure.
  *
  * Academies use a **monthly euro** minimum, because their page does publish closed packs and a
- * single stated figure has to be true for all four of them. A headcount minimum produces four
+ * single stated figure has to be true for all three of them. A headcount minimum produces three
  * different floors (one per pack), so "minimum billing of X EUR" would be exact for
  * the cheapest pack and understate the rest. The figure matches the centres floor (30 x 1,20 EUR)
  * so both audiences enter at the same price. The trade-off is that below it the packs cost the

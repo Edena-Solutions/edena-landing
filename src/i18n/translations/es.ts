@@ -223,16 +223,11 @@ export default {
         },
         phoneLabel: "Teléfono (opcional)",
         phonePlaceholder: "+34 600 000 000",
-        countryLabel: "País",
-        countryPlaceholder: "Selecciona un país",
-        countryRequired: "El país es obligatorio",
         websiteLabel: "Web del centro (opcional)",
         websitePlaceholder: "https://www.tucentro.com",
         productInterestLabel: "Me interesa este producto (opcional)",
         productInterestPlaceholder: "Selecciona una opción",
         phoneInvalid: "Número de teléfono no válido para {country}",
-        searchPlaceholder: "Buscar",
-        noOptions: "No hay opciones disponibles",
         productOptions: {
             platform: "Plataforma completa",
             communication: "Comunicación",
@@ -954,11 +949,6 @@ export default {
                     title: "Descuento por volumen",
                     description: "Cuantos más alumnos, menos pagas por cada uno.",
                 },
-                {
-                    title: "Garantía de 60 días",
-                    description:
-                        "Si en los 60 días siguientes a tu primer pago no te convence, te devolvemos lo pagado.",
-                },
             ],
         },
         centers: {
@@ -972,7 +962,6 @@ export default {
                 "Sin cuota de alta ni permanencia",
                 "Migración de datos y formación incluidas",
                 "Descuentos por volumen y para grupos de centros",
-                "Garantía de 60 días: si no te convence, te devolvemos lo pagado",
             ],
             howTitle: "Cómo se calcula tu precio",
             howDescription:
@@ -1642,10 +1631,7 @@ Las cuotas se facturarán con la periodicidad acordada (mensual o anual). El pag
 Edena se reserva el derecho de modificar los precios, notificando los cambios con al menos 30 días de antelación. Si el Cliente no acepta los nuevos precios, podrá resolver el contrato sin penalización antes de su entrada en vigor.<br>
 <br>
 4.5 Renovación y cancelación<br>
-Los contratos se renuevan automáticamente salvo que el Cliente notifique la baja con la antelación mínima establecida en su plan. Las cuotas abonadas no son reembolsables, salvo en los casos expresamente previstos por la normativa aplicable o en las condiciones específicas del plan, o en la garantía prevista en el apartado 4.6.<br>
-<br>
-4.6 Garantía de satisfacción de 60 días<br>
-Cuando el Cliente contrate por primera vez un plan de pago, podrá solicitar la baja y el reembolso íntegro de las cuotas abonadas durante los 60 días naturales siguientes a la fecha del primer pago, sin necesidad de justificar el motivo. La solicitud deberá realizarse por escrito a hola@edena.es o por WhatsApp al +34 674 670 365. Edena efectuará el reembolso en un plazo máximo de 14 días desde la solicitud, por el mismo medio de pago utilizado. Esta garantía se aplica una única vez por Cliente y centro. Tras la baja, el Cliente podrá exportar sus datos conforme a lo previsto en estos Términos para la resolución del contrato.<br>
+Los contratos se renuevan automáticamente salvo que el Cliente notifique la baja con la antelación mínima establecida en su plan. Las cuotas abonadas no son reembolsables, salvo en los casos expresamente previstos por la normativa aplicable o en las condiciones específicas del plan.<br>
 <br>
 5. OBLIGACIONES DEL CLIENTE<br>
 El Cliente se compromete a:<br>
@@ -2316,10 +2302,6 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             {
                 question: "¿Y si ya usamos otra plataforma?",
                 answer: "Nos encargamos de migrar tus datos desde tu sistema actual sin interrumpir la actividad del centro.",
-            },
-            {
-                question: "¿Y si pagamos y Edena no nos convence?",
-                answer: "Tienes una garantía de 60 días desde tu primer pago: si Edena no te convence, nos escribes y te devolvemos íntegramente lo que hayas pagado. Además, no hay permanencia.",
             },
         ],
         pricingLinkLabel: "Ver precios y calcular tu caso",

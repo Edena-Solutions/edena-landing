@@ -88,7 +88,7 @@ export function PricingPacks({ t, lang, demoUrl, registerUrl }: PricingPacksProp
 
     return (
         <div className="w-full max-w-5xl mx-auto flex flex-col items-center gap-8 px-0 sm:px-4">
-            <ul className="m-0 grid w-full list-none gap-4 p-0 sm:grid-cols-2 lg:grid-cols-4">
+            <ul className="m-0 grid w-full list-none gap-4 p-0 sm:grid-cols-3">
                 {packsT.notes.map((note) => (
                     <li key={note.title} className="flex items-start gap-2.5">
                         <span
