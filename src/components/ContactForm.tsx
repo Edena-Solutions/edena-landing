@@ -20,7 +20,6 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
 import { PhoneInput } from "@/components/ui/phone-input";
-import { CountrySelect, countries } from "@/components/ui/country-select";
 import { translations } from "@/i18n/index.ts";
 import { WHATSAPP_DISPLAY, WHATSAPP_URL } from "@/constants/contact";
 
@@ -59,7 +58,6 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
     const schema = z.object({
         name: z.string().min(1, ct.nameRequired),
         email: z.string().min(1, ct.emailRequired).email(ct.emailInvalid),
-        country: z.string().min(1, ct.countryRequired),
         message: z.string().min(1, ct.messageRequired).min(10, ct.messageMinLength),
     });
 
@@ -67,7 +65,6 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
         name: "",
         email: "",
         phone: "",
-        country: "ES",
         website: "",
         centerName: "",
         students: "",
@@ -170,7 +167,6 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
             profile: ct.profiles[profile],
             name: formData.name,
             email: formData.email,
-            country: countries.find((c) => c.code === formData.country)?.name ?? formData.country,
             centerName: formData.centerName,
             message: formData.message,
         };
@@ -372,43 +368,20 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                             )}
                         </div>
 
-                        <div className="grid gap-2 sm:grid-cols-[2fr_1fr]">
-                            <div className="space-y-1.5">
-                                <Label htmlFor="email">{ct.emailLabel}</Label>
-                                <Input
-                                    id="email"
-                                    name="email"
-                                    type="email"
-                                    placeholder={ct.emailPlaceholder}
-                                    value={formData.email}
-                                    onChange={handleChange}
-                                    aria-invalid={!!errors.email}
-                                />
-                                {errors.email && (
-                                    <p className="text-xs text-destructive">{errors.email}</p>
-                                )}
-                            </div>
-                            <div className="space-y-1.5">
-                                <Label>{ct.countryLabel}</Label>
-                                <CountrySelect
-                                    value={formData.country}
-                                    onValueChange={(code) => {
-                                        setFormData((prev) => ({ ...prev, country: code }));
-                                        if (errors.country) {
-                                            setErrors((prev) => ({
-                                                ...prev,
-                                                country: undefined,
-                                            }));
-                                        }
-                                    }}
-                                    placeholder={ct.countryPlaceholder}
-                                    searchPlaceholder={ct.searchPlaceholder}
-                                    emptyMessage={ct.noOptions}
-                                />
-                                {errors.country && (
-                                    <p className="text-xs text-destructive">{errors.country}</p>
-                                )}
-                            </div>
+                        <div className="space-y-1.5">
+                            <Label htmlFor="email">{ct.emailLabel}</Label>
+                            <Input
+                                id="email"
+                                name="email"
+                                type="email"
+                                placeholder={ct.emailPlaceholder}
+                                value={formData.email}
+                                onChange={handleChange}
+                                aria-invalid={!!errors.email}
+                            />
+                            {errors.email && (
+                                <p className="text-xs text-destructive">{errors.email}</p>
+                            )}
                         </div>
 
                         {/* Profile-specific fields */}
