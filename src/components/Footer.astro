@@ -5,7 +5,6 @@ import logo from "@/assets/img/logos/logo.png";
 import { translations, localePath } from "@/i18n/index.ts";
 import LanguageSwitcher from "./LanguageSwitcher";
 import DownloadAppButtons from "./DownloadAppButtons.astro";
-import { WHATSAPP_DISPLAY, WHATSAPP_URL } from "@/constants/contact";
 interface LinkGroup {
     title: string;
     links: {
@@ -104,17 +103,9 @@ const currentYear = new Date().getFullYear();
                 <a href={p("/")} class="inline-block mb-2">
                     <Image src={logo} alt={t.altText.logo} class="h-6 w-auto dark:invert" />
                 </a>
-                <p class="text-muted-foreground mb-3 text-sm">
+                <p class="text-muted-foreground mb-6 text-sm">
                     {t.footer.description}
                 </p>
-                <a
-                    href={WHATSAPP_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-block mb-6 text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                    WhatsApp: {WHATSAPP_DISPLAY}
-                </a>
                 <p class="uppercase tracking-widest text-[10px] mb-3">{t.downloadTheApp}</p>
                 <DownloadAppButtons t={t} className="justify-center md:justify-start" />
             </div>
