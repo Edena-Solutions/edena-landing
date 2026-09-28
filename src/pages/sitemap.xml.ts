@@ -110,6 +110,7 @@ export async function GET() {
         { segment: "cookies/", priority: "0.5", changefreq: "yearly" },
         { segment: "data-processing/", priority: "0.5", changefreq: "yearly" },
         { segment: "delete-account/", priority: "0.5", changefreq: "yearly" },
+        { segment: "verifactu/", priority: "0.5", changefreq: "yearly" },
     ];
 
     // Root (canonical Spanish) URLs.

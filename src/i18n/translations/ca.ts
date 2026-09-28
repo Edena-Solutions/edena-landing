@@ -68,6 +68,9 @@ export default {
         dpaTitle: "Acord de tractament de dades | Programa de gestió escolar Edena",
         dpaDescription:
             "Acord d'encàrrec de tractament conforme a l'art. 28 del RGPD entre Edena i els centres educatius: instruccions, seguretat, subencarregats, assistència i drets dels interessats.",
+        verifactuTitle: "Declaració responsable VERI*FACTU | Edena",
+        verifactuDescription:
+            "Declaració responsable d'Edena Software S.L. com a productora del sistema de facturació Edena: compliment del Reial Decret 1007/2023 (VERI*FACTU) i l'Ordre HAC/1177/2024.",
         nurseryTitle: "Programari per a Escoles Infantils i Llars d'Infants | Edena",
         nurseryDescription:
             "Agenda digital, comunicació diària amb famílies, fotos segures i facturació automàtica amb Verifactu. El programa de gestió per a escoles infantils i llars d'infants.",
@@ -129,6 +132,7 @@ export default {
         cookiePolicy: "Política de galetes",
         dpa: "Acord de tractament de dades",
         deleteAccount: "Eliminar compte",
+        verifactu: "Declaració VERI*FACTU",
         description:
             "Edena és la plataforma de gestió escolar que elimina la paperassa, automatitza la facturació i manté les famílies informades perquè el teu equip es pugui centrar en allò que importa: l'educació.",
         allRightsReserved: "Tots els drets reservats.",
@@ -2264,6 +2268,22 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         evaluationCycle: "Configuració de cicles d'avaluació a Edena",
         assignmentScoreCard: "Butlletí i seguiment de qualificacions a Edena",
         conclusionLogo: "Logotip d'Edena - Transforma la gestió del teu centre educatiu",
+    },
+    verifactuDeclarationPage: {
+        title: "Declaració responsable del sistema de facturació",
+        intro:
+            "Edena Software S.L., com a productora del sistema informàtic de facturació Edena, declara sota la seva responsabilitat que el sistema compleix el Reglament aprovat pel Reial Decret 1007/2023 (VERI*FACTU) i l'Ordre HAC/1177/2024.",
+        aeatNote:
+            "L'Agència Tributària no certifica ni homologa programes de facturació: cada productor acredita que el seu sistema compleix mitjançant aquesta declaració responsable. La mateixa declaració està disponible dins de l'aplicació.",
+        languageNote:
+            "La declaració es reprodueix en castellà, la llengua en què es va subscriure.",
+        currentVersion: "Versió vigent",
+        signed: "Subscrita a {place} el {date}",
+        downloadPdf: "Descarregar PDF",
+        historyTitle: "Historial de versions",
+        historyVersion: "Versió",
+        historyDate: "Data de subscripció",
+        historyDocument: "Document",
     },
     verifactuSection: {
         title: "Verifactu per a centres educatius, resolt des d'avui",

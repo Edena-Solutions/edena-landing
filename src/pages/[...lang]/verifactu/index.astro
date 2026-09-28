@@ -1,0 +1,112 @@
+---
+import { translations, localeStaticPaths } from "@/i18n/index.ts";
+
+import Layout from "@/layouts/main.astro";
+import { buttonVariants } from "@/components/ui/button";
+import { formatLongDate } from "@/lib/intl-locale";
+import { cn } from "@/lib/utils";
+import {
+    currentVerifactuDeclaration as current,
+    verifactuDeclarations,
+    type VerifactuDeclarationItem,
+} from "@/data/verifactuDeclarations";
+
+export function getStaticPaths() {
+    return localeStaticPaths();
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+const d = t.verifactuDeclarationPage;
+
+const formatDate = (iso: string) => formatLongDate(lang, iso);
+const signed = d.signed
+    .replace("{place}", current.signedAt)
+    .replace("{date}", formatDate(current.signedOn));
+
+// The declaration is signed in Spanish and reproduced as-is on every locale.
+const sections: Array<{ title: string; items: VerifactuDeclarationItem[] }> = [
+    { title: "1. Declaración responsable", items: current.items },
+    { title: "2. Anexo: información adicional", items: current.annex },
+];
+---
+
+<Layout content={{ title: t.meta.verifactuTitle, description: t.meta.verifactuDescription }} lang={lang}>
+    <section class="max-w-3xl mx-auto py-10 px-4">
+        <h1 class="text-xl font-bold mb-8">{d.title}</h1>
+
+        <div class="space-y-4 text-base leading-relaxed">
+            <p>{d.intro}</p>
+            <p>{d.aeatNote}</p>
+            {d.languageNote && <p class="text-muted-foreground">{d.languageNote}</p>}
+        </div>
+
+        <div class="mt-8 rounded-lg bg-muted p-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+                <p class="font-semibold">
+                    {d.currentVersion}: Edena {current.version}
+                </p>
+                <p class="text-sm text-muted-foreground">{signed}</p>
+            </div>
+            <a
+                href={current.pdfPath}
+                download
+                class={cn(buttonVariants({ variant: "default" }), "shrink-0")}
+            >
+                {d.downloadPdf}
+            </a>
+        </div>
+
+        <article lang="es" class="mt-10 space-y-10">
+            {
+                sections.map((section) => (
+                    <section>
+                        <h2 class="text-lg font-bold mb-4">{section.title}</h2>
+                        <dl class="space-y-5">
+                            {section.items.map((item) => (
+                                <div>
+                                    <dt class="font-semibold">
+                                        {item.id}) {item.label}
+                                    </dt>
+                                    <dd class="mt-1 space-y-2 leading-relaxed">
+                                        {item.value.map((paragraph) => (
+                                            <p>{paragraph}</p>
+                                        ))}
+                                    </dd>
+                                </div>
+                            ))}
+                        </dl>
+                    </section>
+                ))
+            }
+        </article>
+
+        <section class="mt-12">
+            <h2 class="text-lg font-bold mb-4">{d.historyTitle}</h2>
+            <table class="w-full text-left text-sm">
+                <thead class="text-muted-foreground">
+                    <tr>
+                        <th class="py-2 pr-4 font-medium">{d.historyVersion}</th>
+                        <th class="py-2 pr-4 font-medium">{d.historyDate}</th>
+                        <th class="py-2 font-medium">{d.historyDocument}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        verifactuDeclarations.map((declaration) => (
+                            <tr class="border-t border-border">
+                                <td class="py-2 pr-4">{declaration.version}</td>
+                                <td class="py-2 pr-4">{formatDate(declaration.signedOn)}</td>
+                                <td class="py-2">
+                                    <a href={declaration.pdfPath} download class="underline">
+                                        PDF
+                                    </a>
+                                </td>
+                            </tr>
+                        ))
+                    }
+                </tbody>
+            </table>
+        </section>
+    </section>
+</Layout>

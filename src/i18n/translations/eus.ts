@@ -68,6 +68,9 @@ export default {
         dpaTitle: "Datuen tratamendu-hitzarmena | Edena eskola-kudeaketa softwarea",
         dpaDescription:
             "DBEOren 28. artikuluaren araberako tratamendu-hitzarmena Edenaren eta ikastetxeen artean: jarraibideak, segurtasuna, azpieragileak, laguntza eta interesdunen eskubideak.",
+        verifactuTitle: "VERI*FACTU erantzukizunpeko adierazpena | Edena",
+        verifactuDescription:
+            "Edena Software S.L.-ren erantzukizunpeko adierazpena, Edena fakturazio-sistemaren ekoizle gisa: 1007/2023 Errege Dekretua (VERI*FACTU) eta HAC/1177/2024 Agindua betetzea.",
         nurseryTitle: "Haur-eskola eta Haurtzaindegietarako Softwarea | Edena",
         nurseryDescription:
             "Agenda digitala, familiekiko eguneroko komunikazioa, argazki seguruak eta fakturazio automatikoa (Verifactu). Haur-eskola eta haurtzaindegietarako kudeaketa-programa.",
@@ -129,6 +132,7 @@ export default {
         cookiePolicy: "Cookie-politika",
         dpa: "Datuen tratamendu-hitzarmena",
         deleteAccount: "Kontua ezabatu",
+        verifactu: "VERI*FACTU adierazpena",
         description:
             "Edena eskola-kudeaketa plataforma da paper-lana kentzen duena, fakturazioa automatizatzen duena eta familiak informatuta mantentzen dituena, zure taldeak garrantzizkoenean zentratu ahal izan dezan: hezkuntzan.",
         allRightsReserved: "Eskubide guztiak erreserbatuak.",
@@ -2263,6 +2267,21 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         evaluationCycle: "Ebaluazio-zikloen konfigurazioa Edenan",
         assignmentScoreCard: "Boletina eta kalifikazioen jarraipena Edenan",
         conclusionLogo: "Edena logotipoa - Eraldatu zure hezkuntza-zentroaren kudeaketa",
+    },
+    verifactuDeclarationPage: {
+        title: "Fakturazio-sistemaren erantzukizunpeko adierazpena",
+        intro:
+            "Edena Software S.L.-k, Edena fakturazio-sistema informatikoaren ekoizle gisa, bere erantzukizunpean adierazten du sistemak betetzen dituela 1007/2023 Errege Dekretuak onartutako Erregelamendua (VERI*FACTU) eta HAC/1177/2024 Agindua.",
+        aeatNote:
+            "Zerga Agentziak (AEAT) ez ditu fakturazio-programak ziurtatzen ezta homologatzen ere: ekoizle bakoitzak erantzukizunpeko adierazpen honen bidez egiaztatzen du bere sistemak araudia betetzen duela. Adierazpen bera aplikazioaren barruan ere eskuragarri dago.",
+        languageNote: "Adierazpena gaztelaniaz jasotzen da, sinatu zen hizkuntzan.",
+        currentVersion: "Indarreko bertsioa",
+        signed: "{place}n sinatua, {date}",
+        downloadPdf: "PDFa deskargatu",
+        historyTitle: "Bertsioen historia",
+        historyVersion: "Bertsioa",
+        historyDate: "Sinadura-data",
+        historyDocument: "Dokumentua",
     },
     verifactuSection: {
         title: "Verifactu hezkuntza-zentroetarako, gaurtik konponduta",

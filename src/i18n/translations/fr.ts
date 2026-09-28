@@ -68,6 +68,9 @@ export default {
         dpaTitle: "Accord de traitement des données | Logiciel de gestion scolaire Edena",
         dpaDescription:
             "Accord de sous-traitance conforme à l'art. 28 du RGPD entre Edena et les établissements scolaires : instructions, sécurité, sous-traitants ultérieurs, assistance et droits des personnes concernées.",
+        verifactuTitle: "Déclaration responsable VERI*FACTU | Edena",
+        verifactuDescription:
+            "Déclaration responsable d'Edena Software S.L. en tant qu'éditeur du système de facturation Edena : conformité au décret royal 1007/2023 (VERI*FACTU) et à l'arrêté HAC/1177/2024.",
         nurseryTitle: "Logiciel pour Crèches et Écoles Maternelles | Edena",
         nurseryDescription:
             "Agenda numérique, communication quotidienne avec les familles, photos sécurisées et facturation automatique. Le logiciel de gestion conçu pour les crèches et maternelles.",
@@ -129,6 +132,7 @@ export default {
         cookiePolicy: "Politique de cookies",
         dpa: "Accord de traitement des données",
         deleteAccount: "Supprimer le compte",
+        verifactu: "Déclaration VERI*FACTU",
         description:
             "Edena est la plateforme de gestion scolaire qui supprime la paperasse, automatise la facturation et garde les familles informées, pour que votre équipe se concentre sur l’essentiel : l’éducation.",
         allRightsReserved: "Tous droits réservés.",
@@ -2283,6 +2287,22 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         evaluationCycle: "Configuration des cycles d’évaluation dans Edena",
         assignmentScoreCard: "Bulletin et suivi des notes dans Edena",
         conclusionLogo: "Logo Edena - Transformez la gestion de votre établissement scolaire",
+    },
+    verifactuDeclarationPage: {
+        title: "Déclaration responsable du système de facturation",
+        intro:
+            "Edena Software S.L., en tant qu'éditeur du système informatique de facturation Edena, déclare sous sa responsabilité que le système est conforme au règlement approuvé par le décret royal 1007/2023 (VERI*FACTU) et à l'arrêté HAC/1177/2024.",
+        aeatNote:
+            "L'Agence fiscale espagnole (AEAT) ne certifie ni n'homologue les logiciels de facturation : chaque éditeur atteste la conformité de son système par cette déclaration responsable (declaración responsable). La même déclaration est disponible dans l'application.",
+        languageNote:
+            "La déclaration est reproduite en espagnol, langue dans laquelle elle a été signée.",
+        currentVersion: "Version en vigueur",
+        signed: "Signée à {place} le {date}",
+        downloadPdf: "Télécharger le PDF",
+        historyTitle: "Historique des versions",
+        historyVersion: "Version",
+        historyDate: "Date de signature",
+        historyDocument: "Document",
     },
     verifactuSection: {
         title: "Verifactu pour les établissements scolaires, résolu dès aujourd'hui",

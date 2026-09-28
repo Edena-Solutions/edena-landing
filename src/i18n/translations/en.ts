@@ -68,6 +68,9 @@ export default {
         dpaTitle: "Data Processing Agreement | Edena School Management Software",
         dpaDescription:
             "Data processing agreement under Art. 28 GDPR between Edena and educational centers: instructions, security, sub-processors, assistance and data subject rights.",
+        verifactuTitle: "VERI*FACTU responsible declaration | Edena",
+        verifactuDescription:
+            "Responsible declaration by Edena Software S.L. as producer of the Edena invoicing system: compliance with Royal Decree 1007/2023 (VERI*FACTU) and Order HAC/1177/2024.",
         nurseryTitle: "Nursery & Daycare Management Software | Edena",
         nurseryDescription:
             "Digital daily diary, family communication, secure photos and automated billing. The management software built for nurseries and daycare centres.",
@@ -123,6 +126,7 @@ export default {
         cookiePolicy: "Cookie Policy",
         dpa: "Data Processing Agreement",
         deleteAccount: "Delete account",
+        verifactu: "VERI*FACTU declaration",
         description:
             "Edena is the school management platform that eliminates paperwork, automates billing, and keeps families engaged, so your team can focus on what actually matters: education.",
         allRightsReserved: "All rights reserved.",
@@ -2239,6 +2243,22 @@ For any questions related to this Agreement you can write to us at privacidad@ed
         evaluationCycle: "Evaluation cycles configuration in Edena",
         assignmentScoreCard: "Score card and grade tracking in Edena",
         conclusionLogo: "Edena Logo - Transform your school management",
+    },
+    verifactuDeclarationPage: {
+        title: "Responsible declaration of the invoicing system",
+        intro:
+            "Edena Software S.L., as producer of the Edena invoicing system, declares under its own responsibility that the system complies with the Regulation approved by Royal Decree 1007/2023 (VERI*FACTU) and Order HAC/1177/2024.",
+        aeatNote:
+            "The Spanish Tax Agency (AEAT) does not certify or approve invoicing software: each producer attests that its system complies through this responsible declaration (declaración responsable). The same declaration is available inside the application.",
+        languageNote:
+            "The declaration is reproduced in Spanish, the language in which it was signed.",
+        currentVersion: "Current version",
+        signed: "Signed in {place} on {date}",
+        downloadPdf: "Download PDF",
+        historyTitle: "Version history",
+        historyVersion: "Version",
+        historyDate: "Signed on",
+        historyDocument: "Document",
     },
     verifactuSection: {
         title: "Verifactu for schools, solved from day one",
