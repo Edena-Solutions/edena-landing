@@ -1518,7 +1518,7 @@ export default {
     },
     privacyPolicy: {
         title: "Politique de confidentialité",
-        content: `Dernière mise à jour : 10 septembre 2026<br>
+        content: `Dernière mise à jour : 28 septembre 2026<br>
 <br>
 1. INTRODUCTION ET OBJET<br>
 Chez Edena, nous nous engageons à protéger la vie privée de tous les utilisateurs et à être totalement transparents sur la manière dont nous traitons les données personnelles. La présente Politique de confidentialité décrit les pratiques de traitement des données d'Edena Software S.L. dans le cadre de l'utilisation de notre plateforme éducative et de ce site web, conformément au Règlement (UE) 2016/679 (RGPD), à la loi organique espagnole 3/2018 du 5 décembre (LOPDGDD) et à la loi espagnole 34/2002 du 11 juillet (LSSI).<br>
@@ -1528,7 +1528,7 @@ Edena est une plateforme de gestion scolaire complète conçue pour les établis
 2. RESPONSABLE DU TRAITEMENT<br>
 Raison sociale : Edena Software S.L.<br>
 CIF/NIF : B27627462<br>
-Siège : Barcelone, Espagne<br>
+Siège : Avenida Josep Tarradellas 103, portal 4, planta 4, pta. 2, 08029 Barcelona, Espagne<br>
 Courriel : privacidad@edena.es<br>
 Site web : www.edena.es<br>
 <br>

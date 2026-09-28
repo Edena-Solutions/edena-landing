@@ -1953,7 +1953,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
     },
     privacyPolicy: {
         title: "Privacy Policy",
-        content: `Last updated: 10 September 2026<br>
+        content: `Last updated: 28 September 2026<br>
 <br>
 1. INTRODUCTION AND PURPOSE<br>
 At Edena we are committed to protecting the privacy of all users and to being fully transparent about how we process personal data. This Privacy Policy describes the data processing practices of Edena Software S.L. in relation to the use of our educational platform and this website, in accordance with Regulation (EU) 2016/679 (GDPR), Spanish Organic Law 3/2018 of 5 December (LOPDGDD), and Spanish Law 34/2002 of 11 July (LSSI).<br>
@@ -1963,7 +1963,7 @@ Edena is a comprehensive school management platform designed for educational ins
 2. DATA CONTROLLER<br>
 Company name: Edena Software S.L.<br>
 Tax ID (CIF/NIF): B27627462<br>
-Registered address: Barcelona, Spain<br>
+Registered address: Avenida Josep Tarradellas 103, portal 4, planta 4, pta. 2, 08029 Barcelona, Spain<br>
 Email: privacidad@edena.es<br>
 Website: www.edena.es<br>
 <br>

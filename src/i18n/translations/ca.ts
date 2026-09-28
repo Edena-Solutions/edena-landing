@@ -1497,7 +1497,7 @@ export default {
     },
     privacyPolicy: {
         title: "Política de privacitat",
-        content: `Última actualització: 10 de setembre de 2026<br>
+        content: `Última actualització: 28 de setembre de 2026<br>
 <br>
 1. INTRODUCCIÓ I OBJECTE<br>
 A Edena ens comprometem a protegir la privacitat de tots els usuaris i a ser completament transparents sobre com tractem les dades personals. Aquesta Política de privacitat descriu les pràctiques de tractament de dades d'Edena Software S.L. en relació amb l'ús de la nostra plataforma educativa i aquest lloc web, de conformitat amb el Reglament (UE) 2016/679 (RGPD), la Llei orgànica 3/2018, de 5 de desembre (LOPDGDD), i la Llei 34/2002, d'11 de juliol (LSSI).<br>
@@ -1507,7 +1507,7 @@ Edena és una plataforma de gestió educativa integral dissenyada per a centres 
 2. RESPONSABLE DEL TRACTAMENT<br>
 Raó social: Edena Software S.L.<br>
 CIF/NIF: B27627462<br>
-Domicili: Barcelona, Espanya<br>
+Domicili: Avenida Josep Tarradellas 103, portal 4, planta 4, pta. 2, 08029 Barcelona, Espanya<br>
 Correu electrònic: privacidad@edena.es<br>
 Lloc web: www.edena.es<br>
 <br>
