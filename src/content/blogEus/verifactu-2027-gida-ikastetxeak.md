@@ -16,7 +16,6 @@ author: "ENA by Edena"
 cover: "https://cdn.nubeico.es/img/blog/1003/2025/8/cambiar-facturacion-a-verifactu-zci.jpg"
 relatedPosts:
     - faktura-elektronikoa-verifactu-hezkuntza-2026
-    - verifactu-hezkuntza-integrazioa
     - banku-adostzapen-automatikoa-hezkuntza-zentroak
     - atzeratzea-murriztu-kobro-automatikoa-2026
 faqs:
@@ -29,7 +28,7 @@ faqs:
     - question: "Zer zigor daude egokitu gabeko software batekin fakturatzeagatik?"
       answer: "Zerga Lege Orokorrak baldintzak betetzen ez dituen fakturazio-softwarea erabiltzea 50.000 eurora arteko isunekin tipifikatzen du ekitaldiko, eta askoz zigor handiagoekin programa horiek egiten edo merkaturatzen dituenarentzat. Isunaz harago, sistema ez-egiaztagarri batekin fakturatzeak errekerimenduen aurrean uzten du zentroa eta bere fakturazioari balioa kentzen dio edozein egiaztapenetan."
     - question: "Zer egin behar du zentro batek Verifactu betetzeko?"
-      answer: "Funtsean gauza bakarra: software egokitu batekin fakturatu. Zure egungo programa ez bada ziurtatuko, epea baino lehen migratu behar da, eta ikasturte erdian egitea ideia txarra da: zentzuzkoena aldaketa 2026-2027 ikasturte hasierarako planifikatzea da. Zure kudeaketa-plataformak jada Verifactu ziurtatutako fakturak egiten baditu, ez duzu besterik egin behar: betetzea seriean dator faktura bakoitzarekin."
+      answer: "Funtsean gauza bakarra: software egokitu batekin fakturatu. Zure egungo programa ez bada egokituko, epea baino lehen migratu behar da, eta ikasturte erdian egitea ideia txarra da: zentzuzkoena aldaketa 2026-2027 ikasturte hasierarako planifikatzea da. Zure kudeaketa-plataforma jada Verifactu-ra egokituta badago eta fabrikatzaileak erantzukizunpeko adierazpena argitaratu badu, nahikoa da zure ziurtagiri elektronikoa konfiguratzea: betetzea seriean dator faktura bakoitzarekin."
 ---
 
 <strong>Verifactu 2027 gida hezkuntza-zentroentzat: epeak, betebeharrak eta nola prestatu</strong>
@@ -64,7 +63,7 @@ Zure zentroaren data zehatza bere forma juridikoaren eta zerga-erregimenaren ara
 
 <br>
 
-Zentroak egiten duen guztiari: pribatuko eskolaritate-kuotak, jangela, eskolaz kanpokoak, kanpamentuak, material- eta uniforme-salmenta, familientzako zerbitzuak. Zentrotik ateratzen den edozein faktura edo faktura sinplifikatu sistema egokitu batetik sortu behar da. Horregatik komeni da argazki osoa begiratzea: gaur kuotak programa batetik fakturatzen badituzu, jangela beste batetik eta denda aparteko tiketekin, Verifactuk arazoa hiruz biderkatzen du. Araua aitzakia ona da <a href="/eus/finance">eskola-fakturazio guztia sistema ziurtatu bakarrean</a> bateratzeko, hiru egokitu beharrean.
+Zentroak egiten duen guztiari: pribatuko eskolaritate-kuotak, jangela, eskolaz kanpokoak, kanpamentuak, material- eta uniforme-salmenta, familientzako zerbitzuak. Zentrotik ateratzen den edozein faktura edo faktura sinplifikatu sistema egokitu batetik sortu behar da. Horregatik komeni da argazki osoa begiratzea: gaur kuotak programa batetik fakturatzen badituzu, jangela beste batetik eta denda aparteko tiketekin, Verifactuk arazoa hiruz biderkatzen du. Araua aitzakia ona da <a href="/eus/finance">eskola-fakturazio guztia sistema egokitu bakarrean</a> bateratzeko, hiru egokitu beharrean.
 
 <br>
 
@@ -72,7 +71,7 @@ Zentroak egiten duen guztiari: pribatuko eskolaritate-kuotak, jangela, eskolaz k
 
 <br>
 
-Egokitu gabeko fakturazio-softwarea erabiltzea zerga-arau-hauste gisa tipifikatzen da, 50.000 eurora arteko isunekin ekitaldiko, eta AEATek detektatzeko mekanismo zuzena izango du: erregistroek eta QRak berehalakoa egiten dute egiaztatzea faktura bat sistema egiaztagarri batetik datorren. Arrisku ekonomikoari operatiboa gehitzen zaio: 2026ko abenduan zure programa ez dela ziurtatuko jakiteak esan nahi du datuak, tarifak eta zordunketak migratzea ikasturtea martxan dela. Verifacturen zigorrik garestiena ez da isuna izango, inprobisatutako migrazioa baizik.
+Egokitu gabeko fakturazio-softwarea erabiltzea zerga-arau-hauste gisa tipifikatzen da, 50.000 eurora arteko isunekin ekitaldiko, eta AEATek detektatzeko mekanismo zuzena izango du: erregistroek eta QRak berehalakoa egiten dute egiaztatzea faktura bat sistema egiaztagarri batetik datorren. Arrisku ekonomikoari operatiboa gehitzen zaio: 2026ko abenduan zure programa ez dela egokituko jakiteak esan nahi du datuak, tarifak eta zordunketak migratzea ikasturtea martxan dela. Verifacturen zigorrik garestiena ez da isuna izango, inprobisatutako migrazioa baizik.
 
 <br>
 
@@ -81,7 +80,7 @@ Egokitu gabeko fakturazio-softwarea erabiltzea zerga-arau-hauste gisa tipifikatz
 <br>
 
 - Baieztatu zure aholkularitzarekin zure zentroari aplikatzen zaion data (2027ko urtarrila edo uztaila).
-- Galdetu idatziz zure egungo hornitzaileari bere softwarea ziurtatuko den eta noiz.
+- Eskatu zure egungo hornitzaileari bere Verifactu erantzukizunpeko adierazpena edo, oraindik ez badu, noiz argitaratuko duen. AEATk ez ditu programak ziurtatzen: adierazpen hori da arauak eskatzen duen bermea.
 - Inbentariatu fakturatzen duzun guztia: kuotak, jangela, eskolaz kanpokoak, denda, zerbitzuak.
 - Migratu behar baduzu, planifikatu 2026ko udarako, inoiz ez ikasturte erdian.
 - Aprobetxatu aldaketa automatizatzeko: SEPA zordunketak, ordainketen kontrola eta adostzapena.
@@ -93,7 +92,7 @@ Egokitu gabeko fakturazio-softwarea erabiltzea zerga-arau-hauste gisa tipifikatz
 
 <br>
 
-Edenak Verifactu ziurtatutako fakturak egiten ditu AEATen aurrean zentroaren kudeaketa-plataformatik bertatik: kuota, jangela, eskolaz kanpoko edo dendako ordainagiri bakoitza jada bere erregistro egiaztagarriarekin ateratzen da, konfigurazio gehigarririk eta aparteko modulurik gabe. Edena erabiltzen duen zentro batentzat, 2027ko indarrean sartzeak ez du inolako ekintzarik eskatzen: betetzea seriean dator faktura bakoitzarekin, SEPA zordunketekin eta ordainketen kontrolarekin batera. Eta beste programa batetik bazatoz, datuen migrazioa Edenaren taldeak egiten du, <a href="/eus/pricing">ikasleko prezio publikoarekin eta iraunkortasunik gabe</a>.
+Edenak Verifactu-ren arabera fakturatzen du zentroaren kudeaketa-plataformatik bertatik: kuota, jangela, eskolaz kanpoko edo dendako ordainagiri bakoitza jada bere erregistro egiaztagarriarekin ateratzen da, AEATri automatikoki bidaltzen zaiona, aparteko modulurik gabe, eta fabrikatzaile gisa dugun <a href="/eus/verifactu">erantzukizunpeko adierazpena</a> publikoa da. Edena erabiltzen duen zentro batentzat, 2027ko indarrean sartzeak bere ziurtagiri elektronikoa behin konfiguratzea baino ez du eskatzen: betetzea seriean dator faktura bakoitzarekin, SEPA zordunketekin eta ordainketen kontrolarekin batera. Eta beste programa batetik bazatoz, datuen migrazioa Edenaren taldeak egiten du, <a href="/eus/pricing">ikasleko prezio publikoarekin eta iraunkortasunik gabe</a>.
 
 <br>
 
@@ -109,7 +108,7 @@ Verifactu ez dator bakarrik: Crea y Crece legearen enpresen arteko faktura elekt
 
 <br>
 
-Sozietate mugatu gisa eratutako akademia batek hileroko kuotak programa lokal zahar batekin fakturatzen zituen, eta fabrikatzaileak ez zuen Verifacturako egokitzapena baieztatzen. Itxaron beharrean, migrazioa uztailerako planifikatu zuen: udan ikasleak, tarifak eta zordunketak faktura ziurtatuak jada egiten zituen plataforma batera eraman zituen, eta ikasturtea modu egiaztagarrian fakturatzen hasi zuen, ordainagiriak hilero bakarrik bideratzen zirela. 2027ko urtarrilaren 1a iristen denean, bere zeregin bakarra hau izango da: bat ere ez. Lasai egindako aldaketak presaka eta isunarekin egitea aurreztu zion.
+Sozietate mugatu gisa eratutako akademia batek hileroko kuotak programa lokal zahar batekin fakturatzen zituen, eta fabrikatzaileak ez zuen Verifacturako egokitzapena baieztatzen. Itxaron beharrean, migrazioa uztailerako planifikatu zuen: udan ikasleak, tarifak eta zordunketak Verifactu-ra jada egokituta zegoen plataforma batera eraman zituen, eta ikasturtea modu egiaztagarrian fakturatzen hasi zuen, ordainagiriak hilero bakarrik bideratzen zirela. 2027ko urtarrilaren 1a iristen denean, bere zeregin bakarra hau izango da: bat ere ez. Lasai egindako aldaketak presaka eta isunarekin egitea aurreztu zion.
 
 <br>
 

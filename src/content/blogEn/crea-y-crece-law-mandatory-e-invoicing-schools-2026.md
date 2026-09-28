@@ -14,7 +14,7 @@ author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
     - electronic-billing-verifactu-education-2026
-    - verifactu-education-integration
+    - verifactu-2027-guide-schools
     - automated-school-billing
     - erp-accountant-integration-schools-2026
 faqs:

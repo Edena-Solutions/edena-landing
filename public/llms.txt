@@ -21,8 +21,8 @@ Edena es un ERP (Enterprise Resource Planning) educativo diseñado específicame
 
 ## Funcionalidades principales
 
-### Facturación automática (Verifactu certificado)
-Genera facturas electrónicas certificadas por la AEAT (Agencia Tributaria española), domiciliaciones SEPA, control de impagos y recordatorios automáticos. Cumple la normativa Verifactu (Real Decreto 1007/2023), obligatoria para emisores de facturas en España desde 2027 (1 de enero de 2027 para entidades sujetas al Impuesto de Sociedades; 1 de julio de 2027 para el resto). Reduce los impagos y retrasos un 40%.
+### Facturación automática (adaptada a Verifactu)
+Genera las facturas del centro con su registro Verifactu, que remite automáticamente a la AEAT (Agencia Tributaria española), además de domiciliaciones SEPA, control de impagos y recordatorios automáticos. Cumple la normativa Verifactu (Real Decreto 1007/2023), obligatoria para emisores de facturas en España desde 2027 (1 de enero de 2027 para entidades sujetas al Impuesto de Sociedades; 1 de julio de 2027 para el resto). Reduce los impagos y retrasos un 40%.
 
 ### App móvil gratuita para familias
 Aplicación gratuita para iOS y Android. Notificaciones push en tiempo real, fotos seguras, notas académicas, facturas, mensajería directa con el centro y firma digital de documentos.
@@ -97,7 +97,7 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 
 ## Cumplimiento normativo y seguridad
 
-- **Verifactu AEAT**: Facturación electrónica certificada por la Agencia Tributaria española
+- **Verifactu AEAT**: sistema de facturación adaptado a Verifactu. La AEAT no certifica programas; el cumplimiento se acredita con la declaración responsable del productor, publicada en https://edena.es/verifactu/
 - **GDPR / LOPDGDD**: Cumplimiento total con normativa europea y española de protección de datos
 - **Infraestructura**: alojada en centros de datos de proveedores cuya infraestructura cuenta con certificaciones ISO/IEC 27001 y auditorías SOC 2
 - Cifrado en tránsito (TLS/HTTPS) y en reposo
@@ -108,7 +108,7 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 
 ## Diferenciadores clave vs. competencia
 
-- Certificación Verifactu AEAT integrada nativamente
+- Verifactu integrado de forma nativa en la facturación
 - Precio público y transparente por alumno (sin "solicitar presupuesto")
 - Onboarding en 2 semanas con migración de datos incluida
 - IA educativa integrada (Ena) con contexto específico del centro
@@ -138,6 +138,7 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 - Para academias: https://edena.es/academies/
 - Para grupos educativos: https://edena.es/groups/
 - Facturación escolar y Verifactu: https://edena.es/finance/
+- Declaración responsable Verifactu: https://edena.es/verifactu/
 - CRM escolar y admisiones: https://edena.es/crm/
 - Comunicación con familias: https://edena.es/communication/
 - App móvil: https://edena.es/app/

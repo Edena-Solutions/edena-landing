@@ -18,7 +18,7 @@ relatedPosts:
     - paiements-en-ligne-education
 faqs:
     - question: "Qu'est-ce que Verifactu et pourquoi est-il crucial pour les établissements scolaires ?"
-      answer: "Verifactu est le système officiel de l'Agence fiscale espagnole pour la gestion de la facturation électronique. Ce système permet l'émission, l'envoi, la réception et le stockage de factures électroniques en toute sécurité et conformément à la réglementation fiscale espagnole. Pour les établissements scolaires, l'intégration avec Verifactu n'est pas facultative ; Il s’agit d’une exigence légale qui garantit le respect de toutes les réglementations fiscales en vigueur. L’importance de Verifactu va au-delà de la simple conformité réglementaire. Ce système fournit : -"
+      answer: "Verifactu est le système de l'Agence fiscale espagnole par lequel les logiciels de facturation génèrent un enregistrement de chaque facture et le transmettent automatiquement à l'AEAT (décret royal 1007/2023 et arrêté HAC/1177/2024). Ce n'est pas un système de facturation électronique entre entreprises : il encadre la manière dont chaque facture est générée et enregistrée, y compris celles que l'établissement émet aux familles. Pour un établissement qui facture avec un logiciel, utiliser un logiciel adapté sera obligatoire à partir de 2027."
     - question: "Quel est le retard de paiement « normal » dans une école privée ?"
       answer: "Cela varie selon le profil socio-économique et le mode de collecte, mais de nombreux centres sains évoluent entre 4 % et 8 % à 45 jours. Au-dessus de 10%, il convient de revoir le calendrier, les prélèvements et la séquence de relance avant d'élargir les effectifs."
     - question: "Verifactu change-t-il la façon dont je facture les familles ?"

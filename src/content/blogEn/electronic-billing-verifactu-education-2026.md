@@ -18,7 +18,7 @@ relatedPosts:
     - online-payments-education
 faqs:
     - question: "What is Verifactu and why is it crucial for educational centers?"
-      answer: "Verifactu is the official system of the Spanish Tax Agency for electronic invoicing management. This system allows the issuance, sending, reception and storage of electronic invoices securely and in accordance with Spanish tax regulations. For educational centers, integration with Verifactu is not optional; It is a legal requirement that guarantees compliance with all current tax regulations. The importance of Verifactu goes beyond simple regulatory compliance. This system provides:-"
+      answer: "Verifactu is the Spanish Tax Agency system under which invoicing software generates a record of every invoice and sends it to the AEAT automatically (Royal Decree 1007/2023 and Order HAC/1177/2024). It is not a business-to-business e-invoicing system: it governs how every invoice is generated and recorded, including those a school issues to families. For a school that invoices with software, using adapted software will be mandatory from 2027."
     - question: "How much late payment is 'normal' at a private school?"
       answer: "It varies by socioeconomic profile and collection method, but many healthy centers move between 4% and 8% at 45 days. Above 10% it is advisable to review the calendar, direct debit and sequence of reminders before expanding the workforce."
     - question: "Does Verifactu change how I charge families?"

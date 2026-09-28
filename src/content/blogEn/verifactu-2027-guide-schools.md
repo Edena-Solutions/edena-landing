@@ -16,7 +16,6 @@ author: "ENA by Edena"
 cover: "https://cdn.nubeico.es/img/blog/1003/2025/8/cambiar-facturacion-a-verifactu-zci.jpg"
 relatedPosts:
     - electronic-billing-verifactu-education-2026
-    - verifactu-education-integration
     - automatic-bank-reconciliation-educational-centers
     - school-arrears-automated-billing-2026
 faqs:
@@ -29,7 +28,7 @@ faqs:
     - question: "What are the penalties for invoicing with non-adapted software?"
       answer: "Spain's General Tax Law classifies the use of invoicing software that fails the requirements as an infringement with fines of up to 50,000 euros per tax year, and far larger penalties for those who make or sell such programmes. Beyond the fine, invoicing with a non-verifiable system exposes the centre to requirements and weakens its invoicing in any audit."
     - question: "What does a school have to do to comply with Verifactu?"
-      answer: "Essentially one thing: invoice with adapted software. If your current programme will not be certified, you must migrate before the deadline — and doing it mid-school-year is a bad idea: the sensible plan is to switch at the start of the 2026-2027 school year. If your management platform already issues Verifactu-certified invoices, there is nothing else to do: compliance ships with every invoice."
+      answer: "Essentially one thing: invoice with adapted software. If your current programme will not be adapted, you must migrate before the deadline — and doing it mid-school-year is a bad idea: the sensible plan is to switch at the start of the 2026-2027 school year. If your management platform is already Verifactu-ready and its maker has published its responsible declaration, all you need is to set up your electronic certificate: compliance ships with every invoice."
 ---
 
 <strong>Verifactu 2027 guide for schools: deadlines, obligations and how to prepare</strong>
@@ -64,7 +63,7 @@ Your centre's exact date depends on its legal form and tax regime: confirm it wi
 
 <br>
 
-All of it: tuition fees in private education, canteen, after-school activities, camps, sales of materials and uniforms, services to families. Any invoice or simplified invoice leaving the centre must come from an adapted system. That is why it pays to look at the whole picture: if today you invoice fees from one programme, the canteen from another and the shop with separate tickets, Verifactu multiplies the problem by three. The rule is a good excuse to unify all <a href="/en/finance">school billing in a single certified system</a>, instead of adapting three.
+All of it: tuition fees in private education, canteen, after-school activities, camps, sales of materials and uniforms, services to families. Any invoice or simplified invoice leaving the centre must come from an adapted system. That is why it pays to look at the whole picture: if today you invoice fees from one programme, the canteen from another and the shop with separate tickets, Verifactu multiplies the problem by three. The rule is a good excuse to unify all <a href="/en/finance">school billing in a single adapted system</a>, instead of adapting three.
 
 <br>
 
@@ -72,7 +71,7 @@ All of it: tuition fees in private education, canteen, after-school activities, 
 
 <br>
 
-Using non-adapted invoicing software is classified as a tax infringement with fines of up to 50,000 euros per year, and the AEAT will have a direct mechanism to detect it: the records and the QR make it immediate to check whether an invoice comes from a verifiable system. On top of the financial risk comes the operational one: discovering in December 2026 that your programme will not be certified means migrating data, fees and direct debits with the school year in full swing. Verifactu's most expensive penalty will not be the fine, but the improvised migration.
+Using non-adapted invoicing software is classified as a tax infringement with fines of up to 50,000 euros per year, and the AEAT will have a direct mechanism to detect it: the records and the QR make it immediate to check whether an invoice comes from a verifiable system. On top of the financial risk comes the operational one: discovering in December 2026 that your programme will not be adapted means migrating data, fees and direct debits with the school year in full swing. Verifactu's most expensive penalty will not be the fine, but the improvised migration.
 
 <br>
 
@@ -81,7 +80,7 @@ Using non-adapted invoicing software is classified as a tax infringement with fi
 <br>
 
 - Confirm with your adviser which date applies to your centre (January or July 2027).
-- Ask your current provider in writing whether their software will be certified, and when.
+- Ask your current provider for its Verifactu responsible declaration (declaración responsable) or, if it does not have one yet, the date it will publish it. The AEAT does not certify software: that declaration is the guarantee the rules require.
 - Inventory everything you invoice: fees, canteen, after-school activities, shop, services.
 - If you must migrate, plan it for the summer of 2026, never mid-year.
 - Use the change to automate: SEPA direct debits, arrears tracking and reconciliation.
@@ -93,7 +92,7 @@ Using non-adapted invoicing software is classified as a tax infringement with fi
 
 <br>
 
-Edena issues Verifactu-certified invoices to the AEAT from the centre's own management platform: every fee, canteen, after-school or shop receipt already leaves with its verifiable record, with no extra configuration or separate modules. For a centre using Edena, the 2027 entry into force requires no action at all: compliance ships with every invoice, together with SEPA direct debits and arrears tracking. And if you are coming from another programme, the Edena team handles the migration, with <a href="/en/pricing">public per-student pricing and no lock-in</a>.
+Edena invoices under Verifactu from the centre's own management platform: every fee, canteen, after-school or shop receipt already leaves with its verifiable record, sent to the AEAT automatically, with no separate modules, and our <a href="/en/verifactu">responsible declaration as the producer</a> is public. For a centre using Edena, the 2027 entry into force only requires setting up its electronic certificate once: compliance ships with every invoice, together with SEPA direct debits and arrears tracking. And if you are coming from another programme, the Edena team handles the migration, with <a href="/en/pricing">public per-student pricing and no lock-in</a>.
 
 <br>
 
@@ -109,7 +108,7 @@ Verifactu does not arrive alone: it is part of a wave that includes mandatory B2
 
 <br>
 
-An academy incorporated as a limited company invoiced its monthly fees with an old local programme whose maker would not confirm Verifactu adaptation. Instead of waiting, it planned the migration for July: over the summer it moved students, fees and direct debits to a platform that already issued certified invoices, and started the school year invoicing verifiably, with receipts collecting themselves every month. When 1 January 2027 arrives, its only pending task will be none: the change made calmly saved making it in a hurry, with a fine attached.
+An academy incorporated as a limited company invoiced its monthly fees with an old local programme whose maker would not confirm Verifactu adaptation. Instead of waiting, it planned the migration for July: over the summer it moved students, fees and direct debits to a platform that was already Verifactu-ready, and started the school year invoicing verifiably, with receipts collecting themselves every month. When 1 January 2027 arrives, its only pending task will be none: the change made calmly saved making it in a hurry, with a fine attached.
 
 <br>
 

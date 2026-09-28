@@ -16,7 +16,7 @@ author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
     - faktura-elektronikoa-verifactu-hezkuntza-2026
-    - verifactu-hezkuntza-integrazioa
+    - verifactu-2027-gida-ikastetxeak
     - eskola-fakturazio-automatizazioa
     - erp-gestoria-integrazioa-kontabilitatea-2026
 faqs:

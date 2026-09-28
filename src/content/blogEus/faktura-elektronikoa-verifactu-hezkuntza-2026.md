@@ -18,7 +18,7 @@ relatedPosts:
     - hezkuntza-ordainketak-online
 faqs:
     - question: "Zer da Verifactu eta zergatik da funtsezkoa hezkuntza-zentroentzat?"
-      answer: "Verifactu Espainiako Zerga Agentziaren faktura elektronikoen kudeaketarako sistema ofiziala da. Sistema honek faktura elektronikoak jaulki, bidali, jaso eta gordetzeko aukera ematen du modu seguruan eta Espainiako zerga araudiaren arabera. Hezkuntza-zentroetarako, Verifactu-rekin integratzea ez da hautazkoa; Indarreko zerga araudi guztia betetzea bermatzen duen legezko betekizuna da. Verifactu-ren garrantzia araudia betetze hutsetik haratago doa. Sistema honek: -"
+      answer: "Verifactu Zerga Agentziaren sistema da: fakturazio-programek faktura bakoitzaren erregistro bat sortzen dute eta automatikoki bidaltzen diote AEATri (1007/2023 Errege Dekretua eta HAC/1177/2024 Agindua). Ez da enpresen arteko faktura elektronikoaren sistema bat: faktura bakoitza nola sortzen eta erregistratzen den arautzen du, baita zentroak familiei egiten dizkienak ere. Softwarearekin fakturatzen duen ikastetxe batentzat, programa egokitu bat erabiltzea derrigorrezkoa izango da 2027tik aurrera."
     - question: 'Zenbateko atzerapena da "normala" eskola pribatu batean?'
       answer: "Profil sozioekonomikoaren eta bilketa metodoaren arabera aldatzen da, baina zentro osasuntsu asko %4 eta %8 artean mugitzen dira 45 egunetan. % 10etik gora egutegia, zordunketa eta abisuen sekuentzia berrikustea komeni da plantilla zabaldu aurretik."
     - question: "Verifactu-k aldatzen al du familiei kobratzeko modua?"

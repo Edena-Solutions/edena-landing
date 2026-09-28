@@ -102,7 +102,7 @@ Ez fidatu argitaratzen ez diren eta "aurrekontua eskatzera" behartzen duten prez
 
 <br>
 
-Edenak lau zutabeak plataforma bakarrean betetzen ditu: familiek denbora errealean ikusten duten agenda digitala, irakurtze-baieztapena duen <a href="/eus/communication">familiekiko komunikazioa</a>, Verifactu ziurtatutako fakturazio automatikoa eta haur bakoitzaren espediente osoak. Prezioa publikoa da, ikasleko eta iraunkortasunik gabe, eta martxan jartzea —migrazioa barne— Edenaren taldeak egiten du 2 aste ingurutan. Zentro bakoitza desberdina da, eta beraz ebaluatzeko modurik onena zurea bezalako kasu batekin funtzionatzen ikustea da.
+Edenak lau zutabeak plataforma bakarrean betetzen ditu: familiek denbora errealean ikusten duten agenda digitala, irakurtze-baieztapena duen <a href="/eus/communication">familiekiko komunikazioa</a>, Verifactu-ra egokitutako fakturazio automatikoa eta haur bakoitzaren espediente osoak. Prezioa publikoa da, ikasleko eta iraunkortasunik gabe, eta martxan jartzea —migrazioa barne— Edenaren taldeak egiten du 2 aste ingurutan. Zentro bakoitza desberdina da, eta beraz ebaluatzeko modurik onena zurea bezalako kasu batekin funtzionatzen ikustea da.
 
 <br>
 

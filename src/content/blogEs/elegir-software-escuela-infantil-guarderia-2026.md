@@ -102,7 +102,7 @@ Desconfía de los precios que no se publican y exigen "solicitar presupuesto", d
 
 <br>
 
-Edena nació cubriendo los cuatro pilares en una sola plataforma: agenda digital que las familias ven en tiempo real, <a href="/communication">comunicación con las familias</a> con confirmación de lectura, facturación automática certificada Verifactu y expedientes completos de cada niño. El precio es público, por alumno y sin permanencia, y la puesta en marcha —migración incluida— la hace el equipo de Edena en unas 2 semanas. Cada centro es distinto, así que la mejor forma de evaluarlo es verlo funcionando con un caso como el tuyo.
+Edena nació cubriendo los cuatro pilares en una sola plataforma: agenda digital que las familias ven en tiempo real, <a href="/communication">comunicación con las familias</a> con confirmación de lectura, facturación automática adaptada a Verifactu y expedientes completos de cada niño. El precio es público, por alumno y sin permanencia, y la puesta en marcha —migración incluida— la hace el equipo de Edena en unas 2 semanas. Cada centro es distinto, así que la mejor forma de evaluarlo es verlo funcionando con un caso como el tuyo.
 
 <br>
 
