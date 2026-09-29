@@ -16,7 +16,6 @@ author: "ENA by Edena"
 cover: "https://cdn.nubeico.es/img/blog/1003/2025/8/cambiar-facturacion-a-verifactu-zci.jpg"
 relatedPosts:
     - facturacion-electronica-verifactu-educacion-2026
-    - verifactu-integracion-educacion
     - conciliacion-bancaria-automatica-centros-educativos
     - morosidad-colegios-cobros-automaticos-2026
 faqs:
@@ -29,7 +28,7 @@ faqs:
     - question: "¿Qué sanciones hay por facturar con un software no adaptado?"
       answer: "La Ley General Tributaria tipifica el uso de software de facturación que no cumpla los requisitos con multas de hasta 50.000 euros por ejercicio, y sanciones mucho mayores para quien fabrica o comercializa esos programas. Más allá de la multa, facturar con un sistema no verificable expone al centro a requerimientos y resta validez a su facturación ante cualquier comprobación."
     - question: "¿Qué tiene que hacer un centro para cumplir Verifactu?"
-      answer: "Esencialmente una cosa: facturar con un software adaptado. Si tu programa actual no va a certificarse, toca migrar antes del plazo, y hacerlo a mitad de curso escolar es mala idea: lo razonable es planificar el cambio para el inicio de curso 2026-2027. Si tu plataforma de gestión ya emite facturas certificadas Verifactu, no tienes que hacer nada más: el cumplimiento viene de serie con cada factura."
+      answer: "Esencialmente una cosa: facturar con un software adaptado. Si tu programa actual no va a adaptarse, toca migrar antes del plazo, y hacerlo a mitad de curso escolar es mala idea: lo razonable es planificar el cambio para el inicio de curso 2026-2027. Si tu plataforma de gestión ya está adaptada a Verifactu y su fabricante ha publicado la declaración responsable, basta con configurar tu certificado electrónico: el cumplimiento viene de serie con cada factura."
 ---
 
 <strong>Guía Verifactu 2027 para centros educativos: plazos, obligaciones y cómo prepararse</strong>
@@ -64,7 +63,7 @@ La fecha exacta de tu centro depende de su forma jurídica y régimen fiscal: co
 
 <br>
 
-A toda la que emite el centro: cuotas de escolaridad en la privada, comedor, extraescolares, campamentos, venta de material y uniformes, servicios a familias. Cualquier factura o factura simplificada que salga del centro debe generarse desde un sistema adaptado. Por eso conviene mirar la foto completa: si hoy facturas las cuotas desde un programa, el comedor desde otro y la tienda con tickets aparte, Verifactu multiplica el problema por tres. La norma es una buena excusa para unificar toda la <a href="/finance">facturación escolar en un solo sistema certificado</a>, en lugar de adaptar tres.
+A toda la que emite el centro: cuotas de escolaridad en la privada, comedor, extraescolares, campamentos, venta de material y uniformes, servicios a familias. Cualquier factura o factura simplificada que salga del centro debe generarse desde un sistema adaptado. Por eso conviene mirar la foto completa: si hoy facturas las cuotas desde un programa, el comedor desde otro y la tienda con tickets aparte, Verifactu multiplica el problema por tres. La norma es una buena excusa para unificar toda la <a href="/finance">facturación escolar en un solo sistema adaptado</a>, en lugar de adaptar tres.
 
 <br>
 
@@ -72,7 +71,7 @@ A toda la que emite el centro: cuotas de escolaridad en la privada, comedor, ext
 
 <br>
 
-El uso de software de facturación no adaptado se tipifica como infracción tributaria con multas de hasta 50.000 euros por ejercicio, y la AEAT dispondrá de un mecanismo directo para detectarlo: los registros y el QR hacen inmediato comprobar si una factura procede de un sistema verificable. Al riesgo económico se suma el operativo: descubrir en diciembre de 2026 que tu programa no se certificará significa migrar datos, tarifas y domiciliaciones con el curso en marcha. La sanción más cara de Verifactu no será la multa, sino la migración improvisada.
+El uso de software de facturación no adaptado se tipifica como infracción tributaria con multas de hasta 50.000 euros por ejercicio, y la AEAT dispondrá de un mecanismo directo para detectarlo: los registros y el QR hacen inmediato comprobar si una factura procede de un sistema verificable. Al riesgo económico se suma el operativo: descubrir en diciembre de 2026 que tu programa no se adaptará significa migrar datos, tarifas y domiciliaciones con el curso en marcha. La sanción más cara de Verifactu no será la multa, sino la migración improvisada.
 
 <br>
 
@@ -81,7 +80,7 @@ El uso de software de facturación no adaptado se tipifica como infracción trib
 <br>
 
 - Confirma con tu asesoría la fecha que aplica a tu centro (enero o julio de 2027).
-- Pregunta por escrito a tu proveedor actual si su software se certificará y cuándo.
+- Pide a tu proveedor actual su declaración responsable de Verifactu o, si aún no la tiene, la fecha en que la publicará. La AEAT no certifica programas: esa declaración es la garantía que exige la norma.
 - Inventaría todo lo que facturas: cuotas, comedor, extraescolares, tienda, servicios.
 - Si tienes que migrar, planifícalo para el verano de 2026, nunca a mitad de curso.
 - Aprovecha el cambio para automatizar: domiciliaciones SEPA, control de impagos y conciliación.
@@ -93,7 +92,7 @@ El uso de software de facturación no adaptado se tipifica como infracción trib
 
 <br>
 
-Edena emite facturas certificadas Verifactu ante la AEAT desde la propia plataforma de gestión del centro: cada recibo de cuota, comedor, extraescolar o tienda sale ya con su registro verificable, sin configuración adicional ni módulos aparte. Para un centro que usa Edena, la entrada en vigor de 2027 no requiere ninguna acción: el cumplimiento viene de serie con cada factura, junto con las domiciliaciones SEPA y el control de impagos. Y si vienes de otro programa, la migración de datos la hace el equipo de Edena, con el <a href="/pricing">precio público por alumno y sin permanencia</a>.
+Edena factura conforme a Verifactu desde la propia plataforma de gestión del centro: cada recibo de cuota, comedor, extraescolar o tienda sale ya con su registro verificable, que se remite a la AEAT automáticamente, sin módulos aparte, y nuestra <a href="/verifactu">declaración responsable como fabricante</a> es pública. Para un centro que usa Edena, la entrada en vigor de 2027 solo requiere configurar una vez su certificado electrónico: el cumplimiento viene de serie con cada factura, junto con las domiciliaciones SEPA y el control de impagos. Y si vienes de otro programa, la migración de datos la hace el equipo de Edena, con el <a href="/pricing">precio público por alumno y sin permanencia</a>.
 
 <br>
 
@@ -109,7 +108,7 @@ Verifactu no llega solo: forma parte de una ola que incluye la factura electrón
 
 <br>
 
-Una academia constituida como sociedad limitada facturaba las mensualidades con un programa local antiguo cuyo fabricante no confirmaba la adaptación a Verifactu. En lugar de esperar, planificó la migración para julio: en verano trasladó alumnos, tarifas y domiciliaciones a una plataforma que ya emitía facturas certificadas, y arrancó el curso facturando de forma verificable, con los recibos girándose solos cada mes. Cuando llegue el 1 de enero de 2027, su única tarea pendiente será ninguna: el cambio que hizo con calma le ahorró hacerlo con prisa y multa.
+Una academia constituida como sociedad limitada facturaba las mensualidades con un programa local antiguo cuyo fabricante no confirmaba la adaptación a Verifactu. En lugar de esperar, planificó la migración para julio: en verano trasladó alumnos, tarifas y domiciliaciones a una plataforma ya adaptada a Verifactu, y arrancó el curso facturando de forma verificable, con los recibos girándose solos cada mes. Cuando llegue el 1 de enero de 2027, su única tarea pendiente será ninguna: el cambio que hizo con calma le ahorró hacerlo con prisa y multa.
 
 <br>
 

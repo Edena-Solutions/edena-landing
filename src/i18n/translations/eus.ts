@@ -37,7 +37,7 @@ export default {
             "Erreserbatu zure zentrorako demo pertsonalizatua 2 minutu baino gutxiagoan. Konpromisorik eta presiorik gabe. Zehazki erakusten dizugu nola egokitzen den Edena zure eguneroko kudeaketara.",
         financeTitle: "Eskola Fakturazioa Verifactu-rekin | SEPA Kobrantzak · Edena",
         financeDescription:
-            "Eskola-fakturazio automatikoa, Verifactu ziurtatua: ordainagiriak, SEPA zordunketak eta ordainketen kontrola denbora errealean. Zure taldeak kobrantzak pertsegitzeari utziko dio.",
+            "Eskola-fakturazio automatikoa, Verifactu-ra egokitua: ordainagiriak, SEPA zordunketak eta ordainketen kontrola denbora errealean. Zure taldeak kobrantzak pertsegitzeari utziko dio.",
         guardiansTitle: "Ikastetxeetarako familien ataria | Zentro-familia komunikazioa | Edena",
         guardiansDescription:
             "Eman familiei denbora errealean notak, asistentzia, fakturak eta zentroaren berriak ikusteko. Mezularitza segurua eta agiri digitalen sinadura. Familien txertatzea minututan.",
@@ -68,6 +68,9 @@ export default {
         dpaTitle: "Datuen tratamendu-hitzarmena | Edena eskola-kudeaketa softwarea",
         dpaDescription:
             "DBEOren 28. artikuluaren araberako tratamendu-hitzarmena Edenaren eta ikastetxeen artean: jarraibideak, segurtasuna, azpieragileak, laguntza eta interesdunen eskubideak.",
+        verifactuTitle: "VERI*FACTU erantzukizunpeko adierazpena | Edena",
+        verifactuDescription:
+            "Edena Software S.L.-ren erantzukizunpeko adierazpena, Edena fakturazio-sistemaren ekoizle gisa: 1007/2023 Errege Dekretua (VERI*FACTU) eta HAC/1177/2024 Agindua betetzea.",
         nurseryTitle: "Haur-eskola eta Haurtzaindegietarako Softwarea | Edena",
         nurseryDescription:
             "Agenda digitala, familiekiko eguneroko komunikazioa, argazki seguruak eta fakturazio automatikoa (Verifactu). Haur-eskola eta haurtzaindegietarako kudeaketa-programa.",
@@ -95,7 +98,7 @@ export default {
         orgTitle: "Paperik gabe 30 egunetan, migrazioa barne",
         orgDescription:
             "Murriztu kostu operatiboak %25 Edenaren eskola-kudeaketa sistema erabat digitalarekin. Datuen migrazioa, familien txertatzea eta taldearen prestakuntza, gure kontura.",
-        verifactuCertified: "AEAT Verifactu ziurtagiria",
+        verifactuReady: "Verifactu-ra egokitua (AEAT)",
         appScreens: ["Ordutegiak", "Argitalpenak", "Horma", "Klaseak", "Denda"],
     },
     setup: {
@@ -129,6 +132,7 @@ export default {
         cookiePolicy: "Cookie-politika",
         dpa: "Datuen tratamendu-hitzarmena",
         deleteAccount: "Kontua ezabatu",
+        verifactu: "VERI*FACTU adierazpena",
         description:
             "Edena eskola-kudeaketa plataforma da paper-lana kentzen duena, fakturazioa automatizatzen duena eta familiak informatuta mantentzen dituena, zure taldeak garrantzizkoenean zentratu ahal izan dezan: hezkuntzan.",
         allRightsReserved: "Eskubide guztiak erreserbatuak.",
@@ -772,7 +776,7 @@ export default {
             },
             finance: {
                 name: "Finantza Suitea",
-                description: "Fakturazio automatikoa, kobrantzak eta Verifactu ziurtatua",
+                description: "Fakturazio automatikoa, kobrantzak eta Verifactu",
             },
         },
         items: {
@@ -1141,7 +1145,7 @@ export default {
             "Edenak automatikoki bidaltzen ditu familien posta pertsonalizatuak urratsez urratzeko argibideekin, agiri digitalen sinadura, profilen sorrera eta kontuaren konfigurazioa barne, ongietorri-prozesu osoa sinplifikatuz.",
         verifactu: "Zer da Verifactu?",
         verifactu_answer:
-            "Verifactu Zerga Agentziaren (AEAT) fakturazio elektronikorako sistema ofiziala da. Edena ziurtatuta dago AEATren Verifactu plataformaren bidez faktura elektronikoak sortu eta bidaltzeko, araudi espainiarra betetzen dela bermatuz.",
+            "Verifactu Zerga Agentziaren (AEAT) sistema da: fakturazio-programek jaulkitzen duten faktura bakoitzaren erregistro bat bidaltzen diote automatikoki AEATri (1007/2023 Errege Dekretua eta HAC/1177/2024 Agindua). Edena Verifactu-ra egokituta dago: erregistro horiek sortu eta kateatzen ditu, AEATri bidaltzen dizkio eta faktura bakoitzean QR kode fiskala jartzen du. AEATk ez ditu programak ziurtatzen: betetzea fabrikatzailearen erantzukizunpeko adierazpenaren bidez egiaztatzen da, edena.es/eus/verifactu helbidean kontsulta dezakezuna.",
         parent_dashboard: "Zer egin dezakete familiak beren kontrol-panelean?",
         parent_dashboard_answer:
             "Familiek panel oso bat dute seme-alaben informazioa kudeatzeko, fakturak kontsultatu eta ordaintzeko, eskolaz kanpoko jardueretan izena emateko eta zentroarekin zuzenean komunikatzeko.",
@@ -1236,7 +1240,7 @@ export default {
             "Txat, posta eta ezagutza-base espezializatua dituzu edozein zalantza finantzario argitzeko.",
         finance_verifactu_integration: "Edena Verifactu-rekin integratuta dago?",
         finance_verifactu_integration_answer:
-            "Bai, Edena Zerga Agentziaren Verifactu sistemarekin guztiz integratuta dago, araudi espainiarraren arabera faktura elektronikoak jaulkitzea eta kudeatzea ahalbidetuz.",
+            "Bai. Edenak jaulkitzen duzun faktura bakoitzaren Verifactu erregistroa sortzen du eta automatikoki bidaltzen dio AEATri, fakturan QR kode fiskala duela. Fabrikatzaile gisa dugun erantzukizunpeko adierazpena edena.es/eus/verifactu helbidean argitaratuta dago.",
         app: {
             title: "Familia eta zentroentzako Edena mugikor-aplikazioari buruzko galdera ohikoak",
             description:
@@ -1493,7 +1497,7 @@ export default {
     },
     privacyPolicy: {
         title: "Pribatutasun-politika",
-        content: `Azken eguneraketa: 2026ko irailaren 10a<br>
+        content: `Azken eguneraketa: 2026ko irailaren 28a<br>
 <br>
 1. SARRERA ETA XEDEA<br>
 Edenan konpromisoa hartzen dugu erabiltzaile guztien pribatutasuna babesteko eta datu pertsonalak nola tratatzen ditugun erabat gardenak izateko. Pribatutasun-politika honek Edena Software S.L.-ren datu-tratamenduaren jardunbideak deskribatzen ditu, gure hezkuntza-plataformaren eta webgune honen erabilerari dagokienez, honako hauekin bat etorriz: (EB) 2016/679 Erregelamendua (RGPD), abenduaren 5eko 3/2018 Lege Organikoa (LOPDGDD) eta uztailaren 11ko 34/2002 Legea (LSSI).<br>
@@ -1503,7 +1507,7 @@ Edena hezkuntza-kudeaketarako plataforma integral bat da, ikastetxeentzat disein
 2. TRATAMENDUAREN ARDURADUNA<br>
 Sozietatearen izena: Edena Software S.L.<br>
 IFK/NIF: B27627462<br>
-Helbidea: Bartzelona, Espainia<br>
+Helbidea: Avenida Josep Tarradellas 103, portal 4, planta 4, pta. 2, 08029 Barcelona, Espainia<br>
 Posta elektronikoa: privacidad@edena.es<br>
 Webgunea: www.edena.es<br>
 <br>
@@ -1968,7 +1972,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             "Automatizatu fakturak sortzea, kobrantza-zikloak eta ordainketen jarraipena erroreak kentzeko eta zure administrazio-taldea askatzeko.",
         paperlessBillingTitle: "Paperik gabeko fakturazioa",
         paperlessBillingDescription:
-            "Sortu eta bidali Verifactu ziurtatutako faktura elektronikoak automatikoki. Faktura legez baliozkoak, jarraigarriak eta familien aldera berehala entregatuak.",
+            "Sortu eta bidali Verifactu-ra egokitutako fakturak automatikoki. Faktura legez baliozkoak, jarraigarriak eta familien aldera berehala entregatuak.",
         analyticsTitle: "Finantza-analitika",
         analyticsDescription:
             "Denbora errealeko panelak diru-sarrera, gastu eta kobrantza-egoeraren txostenekin. Lortu behar duzun ikusgarritasun finantzarioa konfiantzaz erabakiak hartzeko.",
@@ -1980,7 +1984,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             "Konfiguratu kobrantza-ziklo errepikatuak matrikula, jarduera eta zerbitzuetarako. Kobrantzak beti epean, eskuzko esku-hartzerik gabe.",
         mainTitle: "Eskola-fakturazioa puntualki kobratzen duena, inor pertsegitu gabe",
         mainDescription:
-            "Edenaren finantza-suiteak eskola-fakturazioa automatizatzen du Verifactu AEAT ziurtagiriarekin: ordainagiriak, SEPA zordunketak eta kobrantzen jarraipena denbora errealean, eskuzko kudeaketarik gabe.",
+            "Edenaren finantza-suiteak Verifactu-ra egokitutako eskola-fakturazioa automatizatzen du: ordainagiriak, SEPA zordunketak eta kobrantzen jarraipena denbora errealean, eskuzko kudeaketarik gabe.",
     },
     guardians: {
         mainTitle: "Familiak beti informatuta, zure taldearentzat esfortzu gehigarririk gabe",
@@ -2043,7 +2047,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             "Langileak argazkiak, otorduak, siesta eta jarduerak zuzenean partekatzen ditu aplikaziotik. Gurasoek berehala eta modu seguruan jasotzen dute mugikorrean.",
         financialAutomationTitle: "Administrazio-kargarik gabeko fakturazioa",
         financialAutomationDescription:
-            "Behin konfiguratu tarifak eta Edenak hilero fakturazioa eta kobrantza automatizatzen ditu. Verifactu ziurtagiria araudi fiskala betetzeko.",
+            "Behin konfiguratu tarifak eta Edenak hilero fakturazioa eta kobrantza automatizatzen ditu. Verifactu-ra egokitua araudi fiskala betetzeko.",
         childrenManagementTitle: "Haur bakoitzaren eguna, xehetasunez erregistratua",
         childrenManagementDescription:
             "Asistentzia, otorduak, siesta, gertakariak eta garapen-oharrak ikasleko erregistratuta. Agiri digital osoak langileentzat eskuragarri eta familien aldera denbora errealean ikusgarri.",
@@ -2264,10 +2268,25 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         assignmentScoreCard: "Boletina eta kalifikazioen jarraipena Edenan",
         conclusionLogo: "Edena logotipoa - Eraldatu zure hezkuntza-zentroaren kudeaketa",
     },
+    verifactuDeclarationPage: {
+        title: "Fakturazio-sistemaren erantzukizunpeko adierazpena",
+        intro:
+            "Edena Software S.L.-k, Edena fakturazio-sistema informatikoaren ekoizle gisa, bere erantzukizunpean adierazten du sistemak betetzen dituela 1007/2023 Errege Dekretuak onartutako Erregelamendua (VERI*FACTU) eta HAC/1177/2024 Agindua.",
+        aeatNote:
+            "Zerga Agentziak (AEAT) ez ditu fakturazio-programak ziurtatzen ezta homologatzen ere: ekoizle bakoitzak erantzukizunpeko adierazpen honen bidez egiaztatzen du bere sistemak araudia betetzen duela. Adierazpen bera aplikazioaren barruan ere eskuragarri dago.",
+        languageNote: "Adierazpena gaztelaniaz jasotzen da, sinatu zen hizkuntzan.",
+        currentVersion: "Indarreko bertsioa",
+        signed: "{place}n sinatua, {date}",
+        downloadPdf: "PDFa deskargatu",
+        historyTitle: "Bertsioen historia",
+        historyVersion: "Bertsioa",
+        historyDate: "Sinadura-data",
+        historyDocument: "Dokumentua",
+    },
     verifactuSection: {
         title: "Verifactu hezkuntza-zentroetarako, gaurtik konponduta",
         description:
-            "2027tik aurrera, Espainian fakturak egiten dituenak fakturazio-software egiaztagarri batekin egin beharko du, 1007/2023 Errege Dekretuaren arabera. Edenak dagoeneko AEATren aurrean ziurtatutako Verifactu fakturak sortzen ditu: zure zentroak araudia betetzen du bere errutina aldatu gabe.",
+            "2027tik aurrera, Espainian fakturak egiten dituenak fakturazio-software egiaztagarri batekin egin beharko du, 1007/2023 Errege Dekretuaren arabera. Edena Verifactu-ra egokituta dago: faktura bakoitzaren erregistroa sortzen du eta automatikoki bidaltzen dio AEATri; beraz, zure zentroak araudia betetzen du bere errutina aldatu gabe.",
         faqs: [
             {
                 question: "Zer da Verifactu?",
@@ -2280,7 +2299,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             {
                 question:
                     "Zer gertatzen da nire egungo fakturazio-programak Verifactu betetzen ez badu?",
-                answer: "Egokitu gabeko software batekin fakturatzeak zigorrak ekar ditzake. Edenarekin ez duzu ezer gehigarririk egin behar: faktura bakoitza Verifactu-ren arabera ziurtatuta sortzen da.",
+                answer: "Egokitu gabeko software batekin fakturatzeak zigorrak ekar ditzake. Edenarekin, zure ziurtagiri elektronikoa konfiguratu ondoren, faktura bakoitzak bere Verifactu erregistroa sortzen du eta automatikoki bidaltzen zaio AEATri.",
             },
         ],
     },

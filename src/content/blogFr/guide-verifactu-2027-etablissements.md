@@ -16,7 +16,6 @@ author: "ENA by Edena"
 cover: "https://cdn.nubeico.es/img/blog/1003/2025/8/cambiar-facturacion-a-verifactu-zci.jpg"
 relatedPosts:
     - facturation-electronique-verifactu-education-2026
-    - verifactu-integration-education
     - rapprochement-bancaire-automatique-etablissements
     - reduire-impayes-facturation-ecoles
 faqs:
@@ -29,7 +28,7 @@ faqs:
     - question: "Quelles sanctions en cas de facturation avec un logiciel non adapté ?"
       answer: "La loi générale fiscale espagnole qualifie l'usage d'un logiciel de facturation non conforme d'infraction passible d'amendes jusqu'à 50 000 euros par exercice, avec des sanctions bien plus lourdes pour qui fabrique ou commercialise ces logiciels. Au-delà de l'amende, facturer avec un système non vérifiable expose l'établissement à des demandes de l'administration et fragilise sa facturation en cas de contrôle."
     - question: "Que doit faire un établissement pour être conforme à Verifactu ?"
-      answer: "Essentiellement une chose : facturer avec un logiciel adapté. Si votre logiciel actuel ne sera pas certifié, il faut migrer avant l'échéance — et le faire en pleine année scolaire est une mauvaise idée : le raisonnable est de planifier le changement pour la rentrée 2026-2027. Si votre plateforme de gestion émet déjà des factures certifiées Verifactu, il n'y a rien d'autre à faire : la conformité est fournie avec chaque facture."
+      answer: "Essentiellement une chose : facturer avec un logiciel adapté. Si votre logiciel actuel ne sera pas adapté, il faut migrer avant l'échéance — et le faire en pleine année scolaire est une mauvaise idée : le raisonnable est de planifier le changement pour la rentrée 2026-2027. Si votre plateforme de gestion est déjà adaptée à Verifactu et que son éditeur a publié sa déclaration responsable, il suffit de configurer votre certificat électronique : la conformité est fournie avec chaque facture."
 ---
 
 <strong>Guide Verifactu 2027 pour les établissements scolaires : délais, obligations et préparation</strong>
@@ -64,7 +63,7 @@ La date exacte de votre établissement dépend de sa forme juridique et de son r
 
 <br>
 
-Toute celle qu'émet l'établissement : frais de scolarité dans le privé, cantine, activités périscolaires, séjours, vente de matériel et d'uniformes, services aux familles. Toute facture ou facture simplifiée sortant de l'établissement doit provenir d'un système adapté. D'où l'intérêt de regarder l'ensemble : si aujourd'hui vous facturez les frais depuis un logiciel, la cantine depuis un autre et la boutique avec des tickets à part, Verifactu multiplie le problème par trois. La norme est une bonne occasion d'unifier toute la <a href="/fr/finance">facturation scolaire dans un seul système certifié</a>, plutôt que d'en adapter trois.
+Toute celle qu'émet l'établissement : frais de scolarité dans le privé, cantine, activités périscolaires, séjours, vente de matériel et d'uniformes, services aux familles. Toute facture ou facture simplifiée sortant de l'établissement doit provenir d'un système adapté. D'où l'intérêt de regarder l'ensemble : si aujourd'hui vous facturez les frais depuis un logiciel, la cantine depuis un autre et la boutique avec des tickets à part, Verifactu multiplie le problème par trois. La norme est une bonne occasion d'unifier toute la <a href="/fr/finance">facturation scolaire dans un seul système adapté</a>, plutôt que d'en adapter trois.
 
 <br>
 
@@ -72,7 +71,7 @@ Toute celle qu'émet l'établissement : frais de scolarité dans le privé, cant
 
 <br>
 
-L'usage d'un logiciel de facturation non adapté est qualifié d'infraction fiscale avec des amendes jusqu'à 50 000 euros par exercice, et l'AEAT disposera d'un mécanisme direct pour le détecter : les enregistrements et le QR rendent immédiate la vérification qu'une facture provient d'un système vérifiable. Au risque financier s'ajoute le risque opérationnel : découvrir en décembre 2026 que votre logiciel ne sera pas certifié signifie migrer données, tarifs et prélèvements en pleine année scolaire. La sanction la plus chère de Verifactu ne sera pas l'amende, mais la migration improvisée.
+L'usage d'un logiciel de facturation non adapté est qualifié d'infraction fiscale avec des amendes jusqu'à 50 000 euros par exercice, et l'AEAT disposera d'un mécanisme direct pour le détecter : les enregistrements et le QR rendent immédiate la vérification qu'une facture provient d'un système vérifiable. Au risque financier s'ajoute le risque opérationnel : découvrir en décembre 2026 que votre logiciel ne sera pas adapté signifie migrer données, tarifs et prélèvements en pleine année scolaire. La sanction la plus chère de Verifactu ne sera pas l'amende, mais la migration improvisée.
 
 <br>
 
@@ -81,7 +80,7 @@ L'usage d'un logiciel de facturation non adapté est qualifié d'infraction fisc
 <br>
 
 - Confirmez avec votre cabinet la date applicable à votre établissement (janvier ou juillet 2027).
-- Demandez par écrit à votre prestataire actuel si son logiciel sera certifié, et quand.
+- Demandez à votre prestataire actuel sa déclaration responsable Verifactu ou, s'il ne l'a pas encore, la date à laquelle il la publiera. L'AEAT ne certifie pas les logiciels : cette déclaration est la garantie exigée par la norme.
 - Inventoriez tout ce que vous facturez : frais, cantine, périscolaire, boutique, services.
 - Si vous devez migrer, planifiez-le pour l'été 2026, jamais en cours d'année.
 - Profitez du changement pour automatiser : prélèvements SEPA, suivi des impayés et rapprochement.
@@ -93,7 +92,7 @@ L'usage d'un logiciel de facturation non adapté est qualifié d'infraction fisc
 
 <br>
 
-Edena émet des factures certifiées Verifactu auprès de l'AEAT depuis la plateforme de gestion même de l'établissement : chaque reçu de frais, cantine, périscolaire ou boutique sort déjà avec son enregistrement vérifiable, sans configuration supplémentaire ni module à part. Pour un établissement qui utilise Edena, l'entrée en vigueur de 2027 n'exige aucune action : la conformité est fournie avec chaque facture, avec les prélèvements SEPA et le suivi des impayés. Et si vous venez d'un autre logiciel, l'équipe d'Edena se charge de la migration, avec un <a href="/fr/pricing">prix public par élève et sans engagement</a>.
+Edena facture conformément à Verifactu depuis la plateforme de gestion même de l'établissement : chaque reçu de frais, cantine, périscolaire ou boutique sort déjà avec son enregistrement vérifiable, transmis automatiquement à l'AEAT, sans module à part, et notre <a href="/fr/verifactu">déclaration responsable d'éditeur</a> est publique. Pour un établissement qui utilise Edena, l'entrée en vigueur de 2027 exige seulement de configurer une fois son certificat électronique : la conformité est fournie avec chaque facture, avec les prélèvements SEPA et le suivi des impayés. Et si vous venez d'un autre logiciel, l'équipe d'Edena se charge de la migration, avec un <a href="/fr/pricing">prix public par élève et sans engagement</a>.
 
 <br>
 
@@ -109,7 +108,7 @@ Verifactu n'arrive pas seul : il s'inscrit dans une vague qui inclut la facture 
 
 <br>
 
-Une académie constituée en société à responsabilité limitée facturait ses mensualités avec un vieux logiciel local dont l'éditeur ne confirmait pas l'adaptation à Verifactu. Au lieu d'attendre, elle a planifié la migration pour juillet : pendant l'été, elle a transféré élèves, tarifs et prélèvements vers une plateforme émettant déjà des factures certifiées, et a démarré l'année scolaire en facturant de façon vérifiable, avec des reçus qui s'encaissent seuls chaque mois. Quand arrivera le 1er janvier 2027, sa seule tâche restante sera : aucune. Le changement fait posément lui a épargné de le faire dans l'urgence, amende comprise.
+Une académie constituée en société à responsabilité limitée facturait ses mensualités avec un vieux logiciel local dont l'éditeur ne confirmait pas l'adaptation à Verifactu. Au lieu d'attendre, elle a planifié la migration pour juillet : pendant l'été, elle a transféré élèves, tarifs et prélèvements vers une plateforme déjà adaptée à Verifactu, et a démarré l'année scolaire en facturant de façon vérifiable, avec des reçus qui s'encaissent seuls chaque mois. Quand arrivera le 1er janvier 2027, sa seule tâche restante sera : aucune. Le changement fait posément lui a épargné de le faire dans l'urgence, amende comprise.
 
 <br>
 

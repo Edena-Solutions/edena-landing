@@ -37,7 +37,7 @@ export default {
             "Book a personalised demo for your school in under 2 minutes. No commitment, no pressure. We'll show you exactly how Edena fits into your day-to-day management.",
         financeTitle: "School Billing Software | Verifactu & SEPA · Edena",
         financeDescription:
-            "Automated, Verifactu-certified school billing: receipts, SEPA direct debits and real-time arrears tracking. Your team stops chasing payments.",
+            "Automated, Verifactu-ready school billing: receipts, SEPA direct debits and real-time arrears tracking. Your team stops chasing payments.",
         guardiansTitle: "Family Portal for Schools | Parent Communication Hub | Edena",
         guardiansDescription:
             "Give families real-time access to grades, attendance, invoices, and school news. Secure two-way messaging and digital document signing. Families onboard in minutes.",
@@ -68,6 +68,9 @@ export default {
         dpaTitle: "Data Processing Agreement | Edena School Management Software",
         dpaDescription:
             "Data processing agreement under Art. 28 GDPR between Edena and educational centers: instructions, security, sub-processors, assistance and data subject rights.",
+        verifactuTitle: "VERI*FACTU responsible declaration | Edena",
+        verifactuDescription:
+            "Responsible declaration by Edena Software S.L. as producer of the Edena invoicing system: compliance with Royal Decree 1007/2023 (VERI*FACTU) and Order HAC/1177/2024.",
         nurseryTitle: "Nursery & Daycare Management Software | Edena",
         nurseryDescription:
             "Digital daily diary, family communication, secure photos and automated billing. The management software built for nurseries and daycare centres.",
@@ -94,7 +97,7 @@ export default {
         orgTitle: "Paperless in 30 Days, Migration Included",
         orgDescription:
             "Reduce operational costs by 25% with Edena's fully digital school management system. Data migration, family onboarding, and staff training, all handled by us.",
-        verifactuCertified: "AEAT Verifactu Certified",
+        verifactuReady: "Verifactu-ready (AEAT)",
         appScreens: ["Schedule", "Posts", "Wall", "Classes", "Shop"],
     },
     setup: {
@@ -123,6 +126,7 @@ export default {
         cookiePolicy: "Cookie Policy",
         dpa: "Data Processing Agreement",
         deleteAccount: "Delete account",
+        verifactu: "VERI*FACTU declaration",
         description:
             "Edena is the school management platform that eliminates paperwork, automates billing, and keeps families engaged, so your team can focus on what actually matters: education.",
         allRightsReserved: "All rights reserved.",
@@ -761,7 +765,7 @@ export default {
             },
             finance: {
                 name: "Finance Suite",
-                description: "Automated billing, collections, and certified Verifactu",
+                description: "Automated billing, collections, and Verifactu",
             },
         },
         items: {
@@ -1121,7 +1125,7 @@ export default {
             "Edena automatically sends personalized emails with step-by-step instructions for families, including digital document signing, profile creation, and account setup, simplifying the entire welcome process.",
         verifactu: "What is Verifactu?",
         verifactu_answer:
-            "Verifactu is the official system of the Spanish Tax Agency (AEAT) for electronic invoicing. Edena is certified to generate and send electronic invoices through the AEAT's Verifactu platform, ensuring compliance with Spanish regulations.",
+            "Verifactu is the Spanish Tax Agency (AEAT) system under which invoicing software automatically sends the AEAT a record of every invoice it issues (Royal Decree 1007/2023 and Order HAC/1177/2024). Edena is Verifactu-ready: it generates and chains those records, sends them to the AEAT and prints the tax QR code on every invoice. The AEAT does not certify software: compliance is attested by the producer's responsible declaration (declaración responsable), available at edena.es/en/verifactu.",
         parent_dashboard: "What can families do in their dashboard?",
         parent_dashboard_answer:
             "Families have access to a comprehensive dashboard where they can manage their children's information, view and pay invoices, register for extracurricular activities, and communicate directly with the school.",
@@ -1216,7 +1220,7 @@ export default {
             "You have access to specialized support via chat, email, and a knowledge base for any financial questions.",
         finance_verifactu_integration: "Is Edena integrated with Verifactu?",
         finance_verifactu_integration_answer:
-            "Yes, Edena is fully integrated with the Spanish Tax Agency's Verifactu system, enabling compliant electronic invoice issuance and management.",
+            "Yes. Edena generates the Verifactu record of every invoice you issue and sends it to the AEAT automatically, with the tax QR code on the invoice. Our responsible declaration as the software producer is published at edena.es/en/verifactu.",
         app: {
             title: "Frequently Asked Questions about the Edena Mobile App for Families and Schools",
             description:
@@ -1697,7 +1701,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             "Automate invoice generation, billing cycles, and payment tracking to eliminate errors and free up your administrative team.",
         paperlessBillingTitle: "Paperless Billing",
         paperlessBillingDescription:
-            "Generate and send Verifactu-certified electronic invoices automatically. Digital invoices that are legally compliant, trackable, and delivered to families instantly.",
+            "Generate and send Verifactu-ready invoices automatically. Digital invoices that are legally compliant, trackable, and delivered to families instantly.",
         analyticsTitle: "Financial Analytics",
         analyticsDescription:
             "Real-time dashboards with income, expense, and payment tracking reports. Get the financial visibility you need to make confident decisions for your school.",
@@ -1709,7 +1713,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             "Set up recurring billing cycles for tuition, activities, and services. Payments go out on time, every time, without manual intervention.",
         mainTitle: "School Billing That Gets Paid On Time, Without Chasing Anyone",
         mainDescription:
-            "Edena's finance suite automates school billing with AEAT Verifactu certification: receipts, SEPA direct debits and real-time payment tracking, with no manual admin.",
+            "Edena's finance suite automates Verifactu-ready school billing: receipts, SEPA direct debits and real-time payment tracking, with no manual admin.",
     },
     guardians: {
         mainTitle: "Families Always in the Loop, With No Extra Effort From Your Team",
@@ -1772,7 +1776,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             "Staff share photos, meals, nap times, and activities from the app. Parents receive them instantly and securely on their phones.",
         financialAutomationTitle: "Billing Without the Admin Burden",
         financialAutomationDescription:
-            "Configure your fee structures once and Edena automates invoicing and collection every month. Verifactu-certified for full fiscal compliance.",
+            "Configure your fee structures once and Edena automates invoicing and collection every month. Verifactu-ready for full fiscal compliance.",
         childrenManagementTitle: "Every Child's Day, Fully Tracked",
         childrenManagementDescription:
             "Attendance, meals, nap times, incidents, and developmental notes recorded per child. Complete digital records available to staff and visible to families in real time.",
@@ -1949,7 +1953,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
     },
     privacyPolicy: {
         title: "Privacy Policy",
-        content: `Last updated: 10 September 2026<br>
+        content: `Last updated: 28 September 2026<br>
 <br>
 1. INTRODUCTION AND PURPOSE<br>
 At Edena we are committed to protecting the privacy of all users and to being fully transparent about how we process personal data. This Privacy Policy describes the data processing practices of Edena Software S.L. in relation to the use of our educational platform and this website, in accordance with Regulation (EU) 2016/679 (GDPR), Spanish Organic Law 3/2018 of 5 December (LOPDGDD), and Spanish Law 34/2002 of 11 July (LSSI).<br>
@@ -1959,7 +1963,7 @@ Edena is a comprehensive school management platform designed for educational ins
 2. DATA CONTROLLER<br>
 Company name: Edena Software S.L.<br>
 Tax ID (CIF/NIF): B27627462<br>
-Registered address: Barcelona, Spain<br>
+Registered address: Avenida Josep Tarradellas 103, portal 4, planta 4, pta. 2, 08029 Barcelona, Spain<br>
 Email: privacidad@edena.es<br>
 Website: www.edena.es<br>
 <br>
@@ -2240,10 +2244,26 @@ For any questions related to this Agreement you can write to us at privacidad@ed
         assignmentScoreCard: "Score card and grade tracking in Edena",
         conclusionLogo: "Edena Logo - Transform your school management",
     },
+    verifactuDeclarationPage: {
+        title: "Responsible declaration of the invoicing system",
+        intro:
+            "Edena Software S.L., as producer of the Edena invoicing system, declares under its own responsibility that the system complies with the Regulation approved by Royal Decree 1007/2023 (VERI*FACTU) and Order HAC/1177/2024.",
+        aeatNote:
+            "The Spanish Tax Agency (AEAT) does not certify or approve invoicing software: each producer attests that its system complies through this responsible declaration (declaración responsable). The same declaration is available inside the application.",
+        languageNote:
+            "The declaration is reproduced in Spanish, the language in which it was signed.",
+        currentVersion: "Current version",
+        signed: "Signed in {place} on {date}",
+        downloadPdf: "Download PDF",
+        historyTitle: "Version history",
+        historyVersion: "Version",
+        historyDate: "Signed on",
+        historyDocument: "Document",
+    },
     verifactuSection: {
         title: "Verifactu for schools, solved from day one",
         description:
-            "From 2027, anyone issuing invoices in Spain must use verifiable invoicing software under Royal Decree 1007/2023. Edena already issues AEAT-certified Verifactu invoices: your school complies without changing its routine.",
+            "From 2027, anyone issuing invoices in Spain must use verifiable invoicing software under Royal Decree 1007/2023. Edena is Verifactu-ready: it generates the record of every invoice and sends it to the AEAT automatically, so your school complies without changing its routine.",
         faqs: [
             {
                 question: "What is Verifactu?",
@@ -2255,7 +2275,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             },
             {
                 question: "What if my current invoicing software doesn't comply with Verifactu?",
-                answer: "Invoicing with non-compliant software can lead to penalties. With Edena there's nothing extra to do: every invoice is generated Verifactu-certified.",
+                answer: "Invoicing with non-compliant software can lead to penalties. With Edena, once your electronic certificate is set up, every invoice generates its Verifactu record and is sent to the AEAT automatically.",
             },
         ],
     },

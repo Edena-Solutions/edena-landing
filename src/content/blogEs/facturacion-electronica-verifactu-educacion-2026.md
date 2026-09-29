@@ -20,7 +20,7 @@ relatedPosts:
     - pagos-online-educacion
 faqs:
     - question: "¿Qué es Verifactu y por qué es crucial para los centros educativos?"
-      answer: "Verifactu es el sistema oficial de la Agencia Tributaria española para la gestión de facturación electrónica. Este sistema permite la emisión, envío, recepción y almacenamiento de facturas electrónicas de forma segura y conforme a la normativa fiscal española. Para los centros educativos, la integración con Verifactu no es opcional; es un requisito legal que garantiza el cumplimiento con todas las normativas fiscales vigentes. La importancia de Verifactu va más allá del simple cumplimiento normativo. Este sistema proporciona: -"
+      answer: "Verifactu es el sistema de la Agencia Tributaria por el que los programas de facturación generan un registro de cada factura y lo remiten automáticamente a la AEAT (Real Decreto 1007/2023 y Orden HAC/1177/2024). No es un sistema de factura electrónica entre empresas: afecta a cómo se genera y registra cada factura, también las que el centro emite a las familias. Para un centro educativo que factura con software, usar un programa adaptado será obligatorio desde 2027."
     - question: "¿Cuánto morosidad es 'normal' en un colegio privado?"
       answer: "Varía por perfil socioeconómico y método de cobro, pero muchos centros saludables se mueven entre el 4 % y el 8 % a 45 días. Por encima del 10 % conviene revisar calendario, domiciliación y secuencia de recordatorios antes de ampliar plantilla."
     - question: "¿Verifactu cambia cómo cobro a las familias?"

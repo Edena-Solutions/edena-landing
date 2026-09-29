@@ -37,7 +37,7 @@ export default {
             "Réservez une démo personnalisée pour votre établissement en moins de 2 minutes. Sans engagement ni pression. Nous vous montrons exactement comment Edena s’intègre à votre gestion du quotidien.",
         financeTitle: "Facturation Scolaire | Verifactu et SEPA · Edena",
         financeDescription:
-            "Facturation scolaire automatique certifiée Verifactu : reçus, prélèvements SEPA et suivi des impayés en temps réel. Votre équipe cesse de courir après les paiements.",
+            "Facturation scolaire automatique adaptée à Verifactu : reçus, prélèvements SEPA et suivi des impayés en temps réel. Votre équipe cesse de courir après les paiements.",
         guardiansTitle: "Portail familles pour écoles | Communication école-famille | Edena",
         guardiansDescription:
             "Offrez aux familles un accès en temps réel aux notes, présences, factures et actualités de l’établissement. Messagerie sécurisée et signature électronique de documents. Intégration des familles en quelques minutes.",
@@ -68,6 +68,9 @@ export default {
         dpaTitle: "Accord de traitement des données | Logiciel de gestion scolaire Edena",
         dpaDescription:
             "Accord de sous-traitance conforme à l'art. 28 du RGPD entre Edena et les établissements scolaires : instructions, sécurité, sous-traitants ultérieurs, assistance et droits des personnes concernées.",
+        verifactuTitle: "Déclaration responsable VERI*FACTU | Edena",
+        verifactuDescription:
+            "Déclaration responsable d'Edena Software S.L. en tant qu'éditeur du système de facturation Edena : conformité au décret royal 1007/2023 (VERI*FACTU) et à l'arrêté HAC/1177/2024.",
         nurseryTitle: "Logiciel pour Crèches et Écoles Maternelles | Edena",
         nurseryDescription:
             "Agenda numérique, communication quotidienne avec les familles, photos sécurisées et facturation automatique. Le logiciel de gestion conçu pour les crèches et maternelles.",
@@ -95,7 +98,7 @@ export default {
         orgTitle: "Zéro papier en 30 jours, migration incluse",
         orgDescription:
             "Réduisez les coûts opérationnels de 25 % avec le système de gestion scolaire entièrement numérique d'Edena. Migration des données, intégration des familles et formation de l'équipe, tout pris en charge par nos soins.",
-        verifactuCertified: "Certifié AEAT Verifactu",
+        verifactuReady: "Adapté à Verifactu (AEAT)",
         appScreens: ["Horaires", "Publications", "Mur", "Classes", "Boutique"],
     },
     setup: {
@@ -129,6 +132,7 @@ export default {
         cookiePolicy: "Politique de cookies",
         dpa: "Accord de traitement des données",
         deleteAccount: "Supprimer le compte",
+        verifactu: "Déclaration VERI*FACTU",
         description:
             "Edena est la plateforme de gestion scolaire qui supprime la paperasse, automatise la facturation et garde les familles informées, pour que votre équipe se concentre sur l’essentiel : l’éducation.",
         allRightsReserved: "Tous droits réservés.",
@@ -780,7 +784,7 @@ export default {
             },
             finance: {
                 name: "Suite Financière",
-                description: "Facturation automatique, encaissements et Verifactu certifié",
+                description: "Facturation automatique, encaissements et Verifactu",
             },
         },
         items: {
@@ -1150,7 +1154,7 @@ export default {
             "Edena envoie automatiquement des e-mails personnalisés avec des instructions étape par étape aux familles, incluant la signature électronique de documents, la création de profils et la configuration du compte, pour simplifier tout le processus d’accueil.",
         verifactu: "Qu’est-ce que Verifactu ?",
         verifactu_answer:
-            "Verifactu est le système officiel de l’Agence fiscale espagnole (AEAT) pour la facturation électronique. Edena est certifié pour générer et envoyer des factures électroniques via la plateforme Verifactu de l’AEAT, garantissant la conformité à la réglementation espagnole.",
+            "Verifactu est le système de l’Agence fiscale espagnole (AEAT) par lequel les logiciels de facturation transmettent automatiquement à l’AEAT un enregistrement de chaque facture émise (décret royal 1007/2023 et arrêté HAC/1177/2024). Edena est adaptée à Verifactu : elle génère et chaîne ces enregistrements, les transmet à l’AEAT et imprime le code QR fiscal sur chaque facture. L’AEAT ne certifie pas les logiciels : la conformité est attestée par la déclaration responsable (declaración responsable) de l’éditeur, disponible sur edena.es/fr/verifactu.",
         parent_dashboard: "Que peuvent faire les familles dans leur espace ?",
         parent_dashboard_answer:
             "Les familles disposent d’un espace complet pour gérer les informations sur leurs enfants, consulter et payer les factures, s’inscrire aux activités périscolaires et communiquer directement avec l’établissement.",
@@ -1254,7 +1258,7 @@ export default {
             "Une assistance spécialisée par chat, e-mail et une base de connaissances pour toute question financière.",
         finance_verifactu_integration: "Edena est-elle intégrée à Verifactu ?",
         finance_verifactu_integration_answer:
-            "Oui, Edena est entièrement intégrée au système Verifactu de l’AEAT, permettant l’émission et la gestion de factures électroniques conformes à la réglementation espagnole.",
+            "Oui. Edena génère l’enregistrement Verifactu de chaque facture émise et le transmet automatiquement à l’AEAT, avec le code QR fiscal sur la facture. Notre déclaration responsable d’éditeur est publiée sur edena.es/fr/verifactu.",
         app: {
             title: "FAQ sur l’app mobile Edena pour les familles et les établissements",
             description:
@@ -1514,7 +1518,7 @@ export default {
     },
     privacyPolicy: {
         title: "Politique de confidentialité",
-        content: `Dernière mise à jour : 10 septembre 2026<br>
+        content: `Dernière mise à jour : 28 septembre 2026<br>
 <br>
 1. INTRODUCTION ET OBJET<br>
 Chez Edena, nous nous engageons à protéger la vie privée de tous les utilisateurs et à être totalement transparents sur la manière dont nous traitons les données personnelles. La présente Politique de confidentialité décrit les pratiques de traitement des données d'Edena Software S.L. dans le cadre de l'utilisation de notre plateforme éducative et de ce site web, conformément au Règlement (UE) 2016/679 (RGPD), à la loi organique espagnole 3/2018 du 5 décembre (LOPDGDD) et à la loi espagnole 34/2002 du 11 juillet (LSSI).<br>
@@ -1524,7 +1528,7 @@ Edena est une plateforme de gestion scolaire complète conçue pour les établis
 2. RESPONSABLE DU TRAITEMENT<br>
 Raison sociale : Edena Software S.L.<br>
 CIF/NIF : B27627462<br>
-Siège : Barcelone, Espagne<br>
+Siège : Avenida Josep Tarradellas 103, portal 4, planta 4, pta. 2, 08029 Barcelona, Espagne<br>
 Courriel : privacidad@edena.es<br>
 Site web : www.edena.es<br>
 <br>
@@ -1989,7 +1993,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             "Automatisez la génération des factures, les cycles d’encaissement et le suivi des paiements pour réduire les erreurs et libérer votre équipe administrative.",
         paperlessBillingTitle: "Facturation sans papier",
         paperlessBillingDescription:
-            "Générez et envoyez automatiquement des factures électroniques certifiées Verifactu. Factures juridiquement valides, traçables et livrées aux familles instantanément.",
+            "Générez et envoyez automatiquement des factures adaptées à Verifactu. Factures juridiquement valides, traçables et livrées aux familles instantanément.",
         analyticsTitle: "Analytique financière",
         analyticsDescription:
             "Tableaux de bord en temps réel avec revenus, dépenses et état des encaissements. La visibilité financière pour décider sereinement.",
@@ -2001,7 +2005,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             "Configurez des cycles d’encaissement récurrents pour inscriptions, activités et services. Des encaissements à l’heure, sans intervention manuelle.",
         mainTitle: "La facturation scolaire encaissée à l’heure, sans courir après personne",
         mainDescription:
-            "La suite financière d'Edena automatise la facturation scolaire avec certification Verifactu AEAT : reçus, prélèvements SEPA et suivi des encaissements en temps réel, sans gestion manuelle.",
+            "La suite financière d'Edena automatise la facturation scolaire adaptée à Verifactu : reçus, prélèvements SEPA et suivi des encaissements en temps réel, sans gestion manuelle.",
     },
     guardians: {
         mainTitle: "Les familles toujours informées, sans effort supplémentaire pour votre équipe",
@@ -2063,7 +2067,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             "Le personnel partage photos, repas, siestes et activités depuis l’app. Les parents reçoivent tout instantanément et en sécurité sur leur mobile.",
         financialAutomationTitle: "Facturation sans charge administrative",
         financialAutomationDescription:
-            "Définissez les tarifs une fois : Edena automatise facturation et encaissement chaque mois. Certifié Verifactu pour la conformité fiscale.",
+            "Définissez les tarifs une fois : Edena automatise facturation et encaissement chaque mois. Adapté à Verifactu pour la conformité fiscale.",
         childrenManagementTitle: "La journée de chaque enfant, enregistrée en détail",
         childrenManagementDescription:
             "Présences, repas, siestes, incidents et notes de développement par élève. Dossiers numériques complets pour le personnel, visibles pour les familles en temps réel.",
@@ -2284,10 +2288,26 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         assignmentScoreCard: "Bulletin et suivi des notes dans Edena",
         conclusionLogo: "Logo Edena - Transformez la gestion de votre établissement scolaire",
     },
+    verifactuDeclarationPage: {
+        title: "Déclaration responsable du système de facturation",
+        intro:
+            "Edena Software S.L., en tant qu'éditeur du système informatique de facturation Edena, déclare sous sa responsabilité que le système est conforme au règlement approuvé par le décret royal 1007/2023 (VERI*FACTU) et à l'arrêté HAC/1177/2024.",
+        aeatNote:
+            "L'Agence fiscale espagnole (AEAT) ne certifie ni n'homologue les logiciels de facturation : chaque éditeur atteste la conformité de son système par cette déclaration responsable (declaración responsable). La même déclaration est disponible dans l'application.",
+        languageNote:
+            "La déclaration est reproduite en espagnol, langue dans laquelle elle a été signée.",
+        currentVersion: "Version en vigueur",
+        signed: "Signée à {place} le {date}",
+        downloadPdf: "Télécharger le PDF",
+        historyTitle: "Historique des versions",
+        historyVersion: "Version",
+        historyDate: "Date de signature",
+        historyDocument: "Document",
+    },
     verifactuSection: {
         title: "Verifactu pour les établissements scolaires, résolu dès aujourd'hui",
         description:
-            "À partir de 2027, toute entité qui émet des factures en Espagne devra utiliser un logiciel de facturation vérifiable conforme au décret royal 1007/2023. Edena émet déjà des factures certifiées Verifactu auprès de l'AEAT : votre établissement est conforme sans changer sa routine.",
+            "À partir de 2027, toute entité qui émet des factures en Espagne devra utiliser un logiciel de facturation vérifiable conforme au décret royal 1007/2023. Edena est adaptée à Verifactu : elle génère l'enregistrement de chaque facture et le transmet automatiquement à l'AEAT, et votre établissement est conforme sans changer sa routine.",
         faqs: [
             {
                 question: "Qu'est-ce que Verifactu ?",
@@ -2300,7 +2320,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             {
                 question:
                     "Que se passe-t-il si mon logiciel de facturation actuel n'est pas conforme à Verifactu ?",
-                answer: "Facturer avec un logiciel non conforme peut entraîner des sanctions. Avec Edena, rien à faire de plus : chaque facture est générée déjà certifiée Verifactu.",
+                answer: "Facturer avec un logiciel non conforme peut entraîner des sanctions. Avec Edena, une fois votre certificat électronique configuré, chaque facture génère son enregistrement Verifactu et est transmise automatiquement à l'AEAT.",
             },
         ],
     },

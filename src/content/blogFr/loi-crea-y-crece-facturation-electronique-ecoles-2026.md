@@ -16,7 +16,7 @@ author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
     - facturation-electronique-verifactu-education-2026
-    - verifactu-integration-education
+    - guide-verifactu-2027-etablissements
     - automatisation-facturation-scolaire
     - integration-erp-cabinet-comptable-2026
 faqs:
