@@ -84,7 +84,7 @@ En una acadèmia petita o mitjana, cada sol·licitud d'informació és valuosa, 
 
 <br>
 
-Edena, segons els mòduls contractats, ofereix gestió de grups i activitats, control d'assistència, facturació electrònica amb Verifactu per a quotes i bons, CRM amb sol·licituds i formularis, comunicació amb famílies i documentació en línia. No és un producte exclusiu de reforç, però cobreix just el que una acadèmia d'aquest tipus necessita: horaris i grups flexibles, assistència àgil, cobraments per modalitat i comunicació traçable, tot en una sola plataforma amb suport per correu i xat. La flexibilitat continua sent teva; la feina manual deixa de ser-ho.
+Edena, segons els mòduls contractats, ofereix gestió de grups i activitats, control d'assistència, facturació electrònica amb Verifactu per a quotes i bons, CRM amb sol·licituds i formularis, comunicació amb famílies i documentació en línia. No és un producte exclusiu de reforç, però cobreix just el que una acadèmia d'aquest tipus necessita: horaris i grups flexibles, assistència àgil, cobraments per modalitat i comunicació traçable, tot en una sola plataforma amb suport 24/7. La flexibilitat continua sent teva; la feina manual deixa de ser-ho.
 
 <br>
 

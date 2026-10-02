@@ -84,7 +84,7 @@ La fortalesa de moltes acadèmies d'idiomes és combinar alumnes particulars amb
 
 <br>
 
-Edena, segons els mòduls contractats, ofereix plataforma base amb expedient, portal i app per a alumnes i equip, gestió de grups, comunicació, autogestió i analítica; CRM amb sol·licituds, pipeline i formularis per a la captació contínua; facturació electrònica amb Verifactu, quotes i anàlisi d'impagaments; i documentació en línia. No és un producte "exclusiu d'idiomes", però cobreix just el que una acadèmia d'idiomes necessita: rotació de grups, matrícula contínua, facturació recurrent i multiseu en una sola plataforma, amb suport per correu i xat.
+Edena, segons els mòduls contractats, ofereix plataforma base amb expedient, portal i app per a alumnes i equip, gestió de grups, comunicació, autogestió i analítica; CRM amb sol·licituds, pipeline i formularis per a la captació contínua; facturació electrònica amb Verifactu, quotes i anàlisi d'impagaments; i documentació en línia. No és un producte "exclusiu d'idiomes", però cobreix just el que una acadèmia d'idiomes necessita: rotació de grups, matrícula contínua, facturació recurrent i multiseu en una sola plataforma, amb suport 24/7.
 
 <br>
 

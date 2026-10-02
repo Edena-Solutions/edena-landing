@@ -84,7 +84,7 @@ Hizkuntza akademia askoren indarra partikularrak enpresentzako prestakuntzarekin
 
 <br>
 
-Edenak, kontratatutako moduluen arabera, oinarrizko plataforma eskaintzen du espediente, atari eta app-arekin ikasle eta taldearentzat, taldeen kudeaketa, komunikazioa, autokudeaketa eta analitika; CRM eskaerekin, pipeline-arekin eta formularioekin erakartze etengaberako; faktura elektronikoa Verifacturekin, kuotak eta ez-ordaintzeen azterketa; eta lineako dokumentazioa. Ez da "hizkuntzetarako esklusiboa" den produktu bat, baina hizkuntza akademia batek behar duena estaltzen du: taldeen errotazioa, matrikula etengabea, fakturazio errekurrentea eta kokaleku anitzak plataforma bakar batean, posta eta txat bidezko laguntzarekin.
+Edenak, kontratatutako moduluen arabera, oinarrizko plataforma eskaintzen du espediente, atari eta app-arekin ikasle eta taldearentzat, taldeen kudeaketa, komunikazioa, autokudeaketa eta analitika; CRM eskaerekin, pipeline-arekin eta formularioekin erakartze etengaberako; faktura elektronikoa Verifacturekin, kuotak eta ez-ordaintzeen azterketa; eta lineako dokumentazioa. Ez da "hizkuntzetarako esklusiboa" den produktu bat, baina hizkuntza akademia batek behar duena estaltzen du: taldeen errotazioa, matrikula etengabea, fakturazio errekurrentea eta kokaleku anitzak plataforma bakar batean, 24/7 euskarriarekin.
 
 <br>
 

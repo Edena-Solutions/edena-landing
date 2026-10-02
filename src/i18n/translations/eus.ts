@@ -1169,7 +1169,7 @@ export default {
             "Panelak denbora errealeko metrikak eskaintzen ditu asistentzia, izen-emateak, egoera finantzarioa, bidalitako komunikazioak eta zentroaren errendimendu orokorrari buruz, datuetan oinarritutako erabakiak hartzeko lagunduz.",
         support_type: "Zer motatako laguntza teknikoa eskaintzen du Edenak?",
         support_type_answer:
-            "Zentro guztiek lan-ordutegian posta eta txat bidezko laguntza dute, prezioan barne.",
+            "Zentro guztiek 24/7 laguntza dute posta eta txat bidez, prezioan barne.",
         platform_customization: "Plataforma zentroaren nortasunarekin pertsonaliza daiteke?",
         platform_customization_answer:
             "Bai, logoa, kolore korporatiboak, komunikazio-txantiloiak eta familien aldera bidaltzen diren mezu automatikoak pertsonaliza ditzakezu zure zentroaren nortasuna islatzeko.",
@@ -1490,7 +1490,7 @@ export default {
             "Zentro gehienak 2 astean daude martxan. Gure taldeak datuen migrazioa, konfigurazioa eta langileen prestakuntza kudeatzen ditu, aldaketa erraza izan dadin.",
         centers_support_levels: "Zer laguntza-maila eskaintzen ditu Edenak?",
         centers_support_levels_answer:
-            "Zentro guztiek laguntza bera dute: posta eta txata lan-ordutegian, prezioan barne. Gainera, gure taldeak datuen migrazioa eta hasierako prestakuntza kudeatzen ditu.",
+            "Zentro guztiek laguntza bera dute: 24/7 posta eta txat bidez, prezioan barne. Gainera, gure taldeak datuen migrazioa eta hasierako prestakuntza kudeatzen ditu.",
         centers_cost_savings: "Zenbat aurrez dezake nire zentroak Edenarekin?",
         centers_cost_savings_answer:
             "Edena erabiltzen duten zentroek administrazio-kostuetan %40 arte murrizketak, familien txertatze-denboran %75 gutxiago eta astero 37 ordutik gorako aurrezpena lan errepikatuetan jakinarazten dute.",
@@ -2916,7 +2916,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
                 "Komunikatuak, bertaratzea eta giza baliabideak Enak zuzenean Edena barruan kudeatuta.",
             section2Title: "Segurtasun profesionala seriez",
             section2Description:
-                "Segurtasun integratua eta chatbot generiko batek baino pribatutasun handiagoa duen IA.",
+                "Segurtasun integratua eta chatbot generiko batek baino pribatutasun handiagoa duen IA, 24/7 laguntzarekin.",
             altHero: "Ena, Edenaren adimen artifizialeko agentea",
             altSection1: "Ena ataza administratiboak automatizatzen Edenan",
             altSection2: "Edenaren IAren segurtasuna eta pribatutasuna",

@@ -1149,7 +1149,7 @@ export default {
             "The dashboard offers real-time metrics on attendance, enrollments, financial status, communications sent, and overall institution performance, helping you make data-driven decisions.",
         support_type: "What type of technical support does Edena offer?",
         support_type_answer:
-            "Every school gets email and chat support during business hours, included in the price.",
+            "Every school gets 24/7 email and chat support, included in the price.",
         platform_customization: "Can the platform be customized with my school's branding?",
         platform_customization_answer:
             "Yes, you can customize visual elements such as logo, corporate colors, communication templates, and automatic messages sent to families to reflect your institution's identity.",
@@ -1470,7 +1470,7 @@ export default {
             "Most centers complete implementation in 2 weeks. Our onboarding team manages data migration, configuration and staff training for a smooth transition.",
         centers_support_levels: "What support levels does Edena offer?",
         centers_support_levels_answer:
-            "Every school gets the same support: email and chat during business hours, included in the price. Our team also handles data migration and initial training.",
+            "Every school gets the same support: 24/7 by email and chat, included in the price. Our team also handles data migration and initial training.",
         centers_cost_savings: "How much can my center save with Edena?",
         centers_cost_savings_answer:
             "Centers using Edena report reductions of up to 40% in administrative costs, 75% less time on family onboarding and savings of more than 37 hours per week on routine tasks.",
@@ -2891,7 +2891,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
                 "Announcements, attendance and human resources handled by Ena directly within Edena.",
             section2Title: "Enterprise security as standard",
             section2Description:
-                "Built-in security and AI with more privacy than a generic chatbot.",
+                "Built-in security and AI with more privacy than a generic chatbot, with 24/7 support.",
             altHero: "Ena, Edena's artificial intelligence agent",
             altSection1: "Ena automating administrative tasks in Edena",
             altSection2: "Security and privacy of Edena's AI",

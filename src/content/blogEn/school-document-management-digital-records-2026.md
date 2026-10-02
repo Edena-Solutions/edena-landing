@@ -64,7 +64,7 @@ The platform provides tools: role access, audit trail, encryption, folders with 
 
 <br>
 
-The base platform includes digital file (student data, history, center organization chart), portal and app for families and team, basic communication, onboarding, family self-management, center analytics and email and chat support. If you hire the Cloud module, you add cloud documentation, folders and visibility by group or student. When combined with CRM and billing, the same student identity accompanies the tutor from the initial application to the receipts, authorization documents and, if applicable, extracurricular activities, without the secretary having to rewrite the name three times in three different systems.
+The base platform includes digital file (student data, history, center organization chart), portal and app for families and team, basic communication, onboarding, family self-management, center analytics and 24/7 support. If you hire the Cloud module, you add cloud documentation, folders and visibility by group or student. When combined with CRM and billing, the same student identity accompanies the tutor from the initial application to the receipts, authorization documents and, if applicable, extracurricular activities, without the secretary having to rewrite the name three times in three different systems.
 
 <br>
 
@@ -147,6 +147,6 @@ A private school digitized authorizations and incident reports. Average time to 
 
 <strong>Conclusion</strong><br>
 
-Managing documentation in a school or center means putting limits on improvisation: drawing up files, uploading, reading and closing with legal criteria and accompanying tools. Edena unifies base platform, Cloud if applicable, CRM and billing under the same data identity, with communication, analytics and email and chat support. Request a demo and review file, cloud and risk reduction with your real data, today.
+Managing documentation in a school or center means putting limits on improvisation: drawing up files, uploading, reading and closing with legal criteria and accompanying tools. Edena unifies base platform, Cloud if applicable, CRM and billing under the same data identity, with communication, analytics and 24/7 support. Request a demo and review file, cloud and risk reduction with your real data, today.
 
 <br>

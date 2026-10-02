@@ -84,7 +84,7 @@ Akademia txiki edo ertain batean, informazio eskaera bakoitza baliotsua da, eta 
 
 <br>
 
-Edenak, kontratatutako moduluen arabera, taldeen eta jardueren kudeaketa, bertaratze kontrola, faktura elektronikoa Verifacturekin kuota eta bonuetarako, CRM eskaerekin eta formularioekin, familiekiko komunikazioa eta lineako dokumentazioa eskaintzen ditu. Ez da laguntzarako produktu esklusibo bat, baina mota honetako akademia batek behar duena estaltzen du: ordutegi eta talde malguak, bertaratze arina, modalitatearen araberako kobroak eta komunikazio trazagarria, dena plataforma bakar batean posta eta txat bidezko laguntzarekin. Malgutasuna zurea izaten jarraitzen du; eskuzko lana izateari uzten dio.
+Edenak, kontratatutako moduluen arabera, taldeen eta jardueren kudeaketa, bertaratze kontrola, faktura elektronikoa Verifacturekin kuota eta bonuetarako, CRM eskaerekin eta formularioekin, familiekiko komunikazioa eta lineako dokumentazioa eskaintzen ditu. Ez da laguntzarako produktu esklusibo bat, baina mota honetako akademia batek behar duena estaltzen du: ordutegi eta talde malguak, bertaratze arina, modalitatearen araberako kobroak eta komunikazio trazagarria, dena plataforma bakar batean 24/7 euskarriarekin. Malgutasuna zurea izaten jarraitzen du; eskuzko lana izateari uzten dio.
 
 <br>
 

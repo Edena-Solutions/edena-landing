@@ -84,7 +84,7 @@ With heterogeneous families, segmentation kills the “cartel to all” effect t
 - Communication that allows reminders and segments, and reading confirmation when applicable, to reduce the genuine “I didn't find out”, not the one that is an excuse.
 - Non-payment analysis: age, amount, month-by-month comparison, with filters, to feed the management meeting, not a motivational screenshot.
 - Possibility of adding rules or automations (workflows) for onboarding, reminders or tasks, without multiplying route sheets by hand.
-- Support and migration: the arrears do not go down on day 1, but the chaos cannot add to an unresolved malfunction.
+- 24/7 support and migration: the arrears do not go down on day 1, but the chaos cannot add to an unresolved malfunction.
 
 This connects with Edena's proposal: billing module with late payment analysis, base platform, communication (Pro if you need strong notifications and segments), and automation for specific cases, without selling modules that the center is not going to feed with data and clear policy.
 
@@ -161,6 +161,6 @@ A private school with 320 families in Valencia had 11% unpaid fees 45 days after
 
 <br>
 
-Reducing late payments in schools and daycares with automated collections means aligning the calendar, messages, statuses, analytics and human judgment, not installing a reminder. The right tool, like Edena, supports billing, filing, communication, analytics and, if you need it, automation, to reduce load, friction and variation, with email and chat support. If you want to see it with your figures, request a demo, discover how Edena can help you lower low tasks and raise high traces, and automate the control of non-payments today; Your team deserves to focus on families and criteria, not on chasing receipts that the system was able to clearly advance.
+Reducing late payments in schools and daycares with automated collections means aligning the calendar, messages, statuses, analytics and human judgment, not installing a reminder. The right tool, like Edena, supports billing, filing, communication, analytics and, if you need it, automation, to reduce load, friction and variation, with 24/7 support. If you want to see it with your figures, request a demo, discover how Edena can help you lower low tasks and raise high traces, and automate the control of non-payments today; Your team deserves to focus on families and criteria, not on chasing receipts that the system was able to clearly advance.
 
 <br>

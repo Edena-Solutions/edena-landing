@@ -195,6 +195,6 @@ Erregistroa digitalizatzeak familia berri baten inskripzio administratiboa bost 
 
 <br>
 
-Matrikulazioa handitzeak eta aplikazioak bihurtzeak, eskola CRMrekin, jatorria, etapak, zereginak, mezua eta itxiera egituratzea eskatzen du, fitxategiaren oinarri berdinean eta, hala badagokio, fakturazioa, jauzirik gabe. Edena, CRM, inprimakiak, fakturazioa, komunikazioa, automatizazioarekin, arretarekin hazteko aukera ematen du, ez kaosarekin, eta posta eta txat bidezko laguntzarekin, onarpena ez dadin inoiz ilunpean bizi. Eskatu demo bat, ezagutu kanalizazioa, ezabatu orri paraleloak eta ekarri zure batzordera galderak dituzten zifrak, ez ontasuna.
+Matrikulazioa handitzeak eta aplikazioak bihurtzeak, eskola CRMrekin, jatorria, etapak, zereginak, mezua eta itxiera egituratzea eskatzen du, fitxategiaren oinarri berdinean eta, hala badagokio, fakturazioa, jauzirik gabe. Edena, CRM, inprimakiak, fakturazioa, komunikazioa, automatizazioarekin, arretarekin hazteko aukera ematen du, ez kaosarekin, eta 24/7 laguntzarekin, onarpena ez dadin inoiz ilunpean bizi. Eskatu demo bat, ezagutu kanalizazioa, ezabatu orri paraleloak eta ekarri zure batzordera galderak dituzten zifrak, ez ontasuna.
 
 <br>

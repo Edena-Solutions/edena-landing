@@ -64,7 +64,7 @@ Plataformak tresnak eskaintzen ditu: rolen sarbidea, auditoretza pista, enkripta
 
 <br>
 
-Oinarrizko plataformak fitxategi digitala (ikasleen datuak, historia, zentroko organigrama), familientzako eta taldeentzako ataria eta aplikazioa, oinarrizko komunikazioa, onboarding, familiaren autogestioa, zentroaren analitika eta posta eta txat bidezko laguntza ditu. Hodei modulua kontratatzen baduzu, hodeiko dokumentazioa, karpetak eta ikusgarritasuna gehitzen dituzu talde edo ikasleen arabera. CRM eta fakturazioarekin konbinatuta, ikaslearen nortasun berbera doa tutoreari hasierako eskabidetik ordainagiriak, baimen-agiriak eta, hala badagokio, eskolaz kanpoko jardueretara arte, idazkariak izena hiru aldiz berridatzi gabe hiru sistema ezberdinetan.
+Oinarrizko plataformak fitxategi digitala (ikasleen datuak, historia, zentroko organigrama), familientzako eta taldeentzako ataria eta aplikazioa, oinarrizko komunikazioa, onboarding, familiaren autogestioa, zentroaren analitika eta 24/7 laguntza ditu. Hodei modulua kontratatzen baduzu, hodeiko dokumentazioa, karpetak eta ikusgarritasuna gehitzen dituzu talde edo ikasleen arabera. CRM eta fakturazioarekin konbinatuta, ikaslearen nortasun berbera doa tutoreari hasierako eskabidetik ordainagiriak, baimen-agiriak eta, hala badagokio, eskolaz kanpoko jardueretara arte, idazkariak izena hiru aldiz berridatzi gabe hiru sistema ezberdinetan.
 
 <br>
 
@@ -151,6 +151,6 @@ Eskola pribatu batek baimenak eta gertaeren txostenak digitalizatu zituen. Ikasl
 
 <br>
 
-Ikastetxe edo zentro batean dokumentazioa kudeatzea inprobisazioari mugak jartzea esan nahi du: fitxategiak egin, igo, irakurri eta ixtea legezko irizpideekin eta horrekin batera tresnarekin. Edena oinarrizko plataforma, Hodeia hala badagokio, CRM eta fakturazioa datu-identitate berarekin bateratzen ditu, komunikazioa, analisia eta posta eta txat bidezko laguntzarekin. Eskatu demo eta berrikuspen fitxategia, hodeia eta arriskua murriztea zure datu errealekin gaur.
+Ikastetxe edo zentro batean dokumentazioa kudeatzea inprobisazioari mugak jartzea esan nahi du: fitxategiak egin, igo, irakurri eta ixtea legezko irizpideekin eta horrekin batera tresnarekin. Edena oinarrizko plataforma, Hodeia hala badagokio, CRM eta fakturazioa datu-identitate berarekin bateratzen ditu, komunikazioa, analisia eta 24/7 laguntzarekin. Eskatu demo eta berrikuspen fitxategia, hodeia eta arriskua murriztea zure datu errealekin gaur.
 
 <br>

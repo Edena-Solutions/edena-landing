@@ -84,7 +84,7 @@ Dans une académie petite ou moyenne, chaque demande d'information est précieus
 
 <br>
 
-Edena offre, selon les modules souscrits, la gestion des groupes et activités, le contrôle de présence, la facturation électronique avec Verifactu pour cotisations et forfaits, un CRM avec demandes et formulaires, la communication avec les familles et la documentation en ligne. Ce n'est pas un produit exclusivement de soutien, mais il couvre exactement ce dont une académie de ce type a besoin : horaires et groupes flexibles, présence agile, encaissements par formule et communication traçable, le tout sur une seule plateforme avec support par e-mail et chat. La flexibilité reste la vôtre ; le travail manuel cesse de l'être.
+Edena offre, selon les modules souscrits, la gestion des groupes et activités, le contrôle de présence, la facturation électronique avec Verifactu pour cotisations et forfaits, un CRM avec demandes et formulaires, la communication avec les familles et la documentation en ligne. Ce n'est pas un produit exclusivement de soutien, mais il couvre exactement ce dont une académie de ce type a besoin : horaires et groupes flexibles, présence agile, encaissements par formule et communication traçable, le tout sur une seule plateforme avec support 24/7. La flexibilité reste la vôtre ; le travail manuel cesse de l'être.
 
 <br>
 

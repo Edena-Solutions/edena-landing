@@ -122,6 +122,6 @@ Gironako 85 plazako haur-eskola batek hiru hornitzaile ebaluatu zituen kontrol-z
 
 <br>
 
-2026ko haur eskoletarako ERP ez da kapritxo teknologikoa: irizpide eta arrastoekin lan egiten duen talde baten eta astelehenero errealitatea hiru iturri ezberdinetatik berreraikitzen duenaren arteko aldea da. Aukeratu TCOrekin, demoa zure datuekin eta lerrokaturiko batzordearekin. Edena-n benetan elikatuko dituzun moduluekin hasi eta bolumenak justifikatzen duenean gehi dezakezu, posta eta txat bidezko laguntzarekin eta katalogoko sorpresarik gabe. Eskatu saio bat eta ikusi fluxu osoa zure lekuekin, bilketa-zikloarekin eta zure komunikazioarekin.
+2026ko haur eskoletarako ERP ez da kapritxo teknologikoa: irizpide eta arrastoekin lan egiten duen talde baten eta astelehenero errealitatea hiru iturri ezberdinetatik berreraikitzen duenaren arteko aldea da. Aukeratu TCOrekin, demoa zure datuekin eta lerrokaturiko batzordearekin. Edena-n benetan elikatuko dituzun moduluekin hasi eta bolumenak justifikatzen duenean gehi dezakezu, 24/7 laguntzarekin eta katalogoko sorpresarik gabe. Eskatu saio bat eta ikusi fluxu osoa zure lekuekin, bilketa-zikloarekin eta zure komunikazioarekin.
 
 <br>

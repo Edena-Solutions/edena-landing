@@ -84,7 +84,7 @@ En una academia pequeña o mediana, cada solicitud de información es valiosa, y
 
 <br>
 
-Edena, según los módulos contratados, ofrece gestión de grupos y actividades, control de asistencia, facturación electrónica con Verifactu para cuotas y bonos, CRM con solicitudes y formularios, comunicación con familias y documentación en línea. No es un producto exclusivo de refuerzo, pero cubre justo lo que una academia de este tipo necesita: horarios y grupos flexibles, asistencia ágil, cobros por modalidad y comunicación trazable, todo en una sola plataforma con soporte por email y chat. La flexibilidad sigue siendo tuya; el trabajo manual deja de serlo.
+Edena, según los módulos contratados, ofrece gestión de grupos y actividades, control de asistencia, facturación electrónica con Verifactu para cuotas y bonos, CRM con solicitudes y formularios, comunicación con familias y documentación en línea. No es un producto exclusivo de refuerzo, pero cubre justo lo que una academia de este tipo necesita: horarios y grupos flexibles, asistencia ágil, cobros por modalidad y comunicación trazable, todo en una sola plataforma con soporte 24/7. La flexibilidad sigue siendo tuya; el trabajo manual deja de serlo.
 
 <br>
 

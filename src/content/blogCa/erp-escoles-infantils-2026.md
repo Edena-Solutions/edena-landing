@@ -122,6 +122,6 @@ Una escola bressol de 85 places a Girona va avaluar tres proveïdors amb el mate
 
 <br>
 
-Un ERP per a escoles infantils el 2026 no és un caprici tecnològic: és la diferència entre un equip que treballa amb criteri i traces, i un que reconstrueix la realitat cada dilluns des de tres fonts diferents. Tria amb TCO, demo amb les teves dades i comitè alineat. A Edena pots començar amb els mòduls que alimentaràs de debò i afegir quan el volum ho justifiqui, amb suport per correu i xat i sense sorpreses de catàleg. Demana una sessió i veu el flux complet amb les places, el cicle de cobrament i la comunicació.
+Un ERP per a escoles infantils el 2026 no és un caprici tecnològic: és la diferència entre un equip que treballa amb criteri i traces, i un que reconstrueix la realitat cada dilluns des de tres fonts diferents. Tria amb TCO, demo amb les teves dades i comitè alineat. A Edena pots començar amb els mòduls que alimentaràs de debò i afegir quan el volum ho justifiqui, amb suport 24/7 i sense sorpreses de catàleg. Demana una sessió i veu el flux complet amb les places, el cicle de cobrament i la comunicació.
 
 <br>

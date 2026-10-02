@@ -82,7 +82,7 @@ The strength of many language academies is combining individual students with co
 
 <br>
 
-Edena, depending on the contracted modules, offers a base platform with record, portal, and app for students and staff, group management, communication, self-management, and analytics; a CRM with applications, pipeline, and forms for continuous recruitment; electronic billing with Verifactu, fees, and arrears analysis; and online documentation. It is not an "exclusively language" product, but it covers exactly what a language academy needs: group rotation, continuous enrollment, recurring billing, and multi-site in a single platform, with email and chat support.
+Edena, depending on the contracted modules, offers a base platform with record, portal, and app for students and staff, group management, communication, self-management, and analytics; a CRM with applications, pipeline, and forms for continuous recruitment; electronic billing with Verifactu, fees, and arrears analysis; and online documentation. It is not an "exclusively language" product, but it covers exactly what a language academy needs: group rotation, continuous enrollment, recurring billing, and multi-site in a single platform, with 24/7 support.
 
 <br>
 

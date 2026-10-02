@@ -177,6 +177,6 @@ Gironako 85 plazako haur-eskola batek hiru hornitzaile ebaluatu zituen kontrol-z
 
 <br>
 
-Zure zentrorako softwarea ondo aukeratzea ez da produktuen fitxak alderatzea: zure arazoa zehaztea, zure datuekin demoa egitea, benetako kostua kalkulatzea eta kontratua irakurtzea baizik. Edena fitxategia, bilketa, erregistroa, komunikazioa, dokumentuak eta analitika zentralizatzen dituen plataforma da, zentroaren benetako beharraren arabera aktiba daitezkeen moduluekin, posta eta txat bidezko laguntza eta aldaketa prozesuan akonpainamendua. Eskatu demo bat, ekarri zure bost marruskadura nagusiak eta laurogeita hamar minuturen buruan jakingo duzu egokitzen den ala ez.
+Zure zentrorako softwarea ondo aukeratzea ez da produktuen fitxak alderatzea: zure arazoa zehaztea, zure datuekin demoa egitea, benetako kostua kalkulatzea eta kontratua irakurtzea baizik. Edena fitxategia, bilketa, erregistroa, komunikazioa, dokumentuak eta analitika zentralizatzen dituen plataforma da, zentroaren benetako beharraren arabera aktiba daitezkeen moduluekin, 24/7 laguntza eta aldaketa prozesuan akonpainamendua. Eskatu demo bat, ekarri zure bost marruskadura nagusiak eta laurogeita hamar minuturen buruan jakingo duzu egokitzen den ala ez.
 
 <br>

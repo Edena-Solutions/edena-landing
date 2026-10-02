@@ -195,6 +195,6 @@ Una acadèmia d'idiomes amb 420 alumnes actius va implementar formulari web, CRM
 
 <br>
 
-Augmentar matrícules i convertir sol·licituds, amb CRM escolar, exigeix ​​estructurar orígens, etapes, tasques, missatge i tancament, a la mateixa base que l'expedient i, quan toca, la facturació, sense salts. Edena, amb CRM, formularis, facturació, comunicació, automatització, et permet créixer amb focus, no amb caos, i suport per correu i xat, perquè admissió mai visqui a les fosques. Demana una demo, descobreix el pipeline, elimina fulles paral·leles, i porta al teu comitè xifres que aguanten preguntes, no bonisme.
+Augmentar matrícules i convertir sol·licituds, amb CRM escolar, exigeix ​​estructurar orígens, etapes, tasques, missatge i tancament, a la mateixa base que l'expedient i, quan toca, la facturació, sense salts. Edena, amb CRM, formularis, facturació, comunicació, automatització, et permet créixer amb focus, no amb caos, i suport 24/7, perquè admissió mai visqui a les fosques. Demana una demo, descobreix el pipeline, elimina fulles paral·leles, i porta al teu comitè xifres que aguanten preguntes, no bonisme.
 
 <br>

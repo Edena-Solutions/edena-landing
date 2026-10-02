@@ -1167,7 +1167,7 @@ export default {
             "El panell ofereix mètriques en temps real sobre assistència, inscripcions, estat financer, comunicacions enviades i rendiment general del centre, ajudant a prendre decisions basades en dades.",
         support_type: "Quin tipus de suport tècnic ofereix Edena?",
         support_type_answer:
-            "Tots els centres tenen suport per correu i xat en horari laboral, inclòs en el preu.",
+            "Tots els centres tenen suport 24/7 per correu i xat, inclòs en el preu.",
         platform_customization: "Es pot personalitzar la plataforma amb la identitat del centre?",
         platform_customization_answer:
             "Sí, pots personalitzar elements visuals com el logotip, colors corporatius, plantilles de comunicació i missatges automàtics que s'envien a les famílies per reflectir la identitat del teu centre.",
@@ -1490,7 +1490,7 @@ export default {
             "La majoria de centres estan en marxa en 2 setmanes. El nostre equip s'encarrega de la migració de dades, la configuració i la formació del personal perquè el canvi sigui senzill.",
         centers_support_levels: "Quins nivells de suport ofereix Edena?",
         centers_support_levels_answer:
-            "Tots els centres tenen el mateix suport: correu i xat en horari laboral, inclòs en el preu. A més, el nostre equip s'encarrega de la migració de dades i la formació inicial.",
+            "Tots els centres tenen el mateix suport: 24/7 per correu i xat, inclòs en el preu. A més, el nostre equip s'encarrega de la migració de dades i la formació inicial.",
         centers_cost_savings: "Quant pot estalviar el meu centre amb Edena?",
         centers_cost_savings_answer:
             "Els centres que usen Edena informen reduccions de fins a un 40% en costos administratius, un 75% menys de temps en incorporació de famílies i estalvi de més de 37 hores setmanals en tasques rutinàries.",
@@ -2919,7 +2919,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
                 "Comunicats, assistència i recursos humans gestionats per Ena directament dins d'Edena.",
             section2Title: "Seguretat professional de sèrie",
             section2Description:
-                "Seguretat integrada i IA amb més privacitat que un chatbot genèric.",
+                "Seguretat integrada i IA amb més privacitat que un chatbot genèric, amb suport 24/7.",
             altHero: "Ena, l'agent d'intel·ligència artificial d'Edena",
             altSection1: "Ena automatitzant tasques administratives a Edena",
             altSection2: "Seguretat i privacitat de la IA d'Edena",
