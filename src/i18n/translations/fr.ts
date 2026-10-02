@@ -8,6 +8,7 @@ export default {
     changeWebsiteLanguage: "Choisir la langue",
     appearance: "Apparence",
     theme: { light: "Passer en mode clair", dark: "Passer en mode sombre" },
+    whatsapp: { cta: "Parlons-en", label: "Parlons-en sur WhatsApp" },
     knowMore: "En savoir plus",
     meta: {
         homeTitle: "Logiciel de Gestion Scolaire | ERP Éducatif · Edena",

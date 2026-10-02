@@ -8,6 +8,7 @@ export default {
     changeWebsiteLanguage: "Select language",
     appearance: "Appearance",
     theme: { light: "Switch to light mode", dark: "Switch to dark mode" },
+    whatsapp: { cta: "Let's talk", label: "Let's talk on WhatsApp" },
     knowMore: "Know More",
     meta: {
         homeTitle: "School Management Software | Educational ERP · Edena",

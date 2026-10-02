@@ -8,6 +8,7 @@ export default {
     changeWebsiteLanguage: "Hautatu hizkuntza",
     appearance: "Itxura",
     theme: { light: "Aldatu modu argira", dark: "Aldatu modu ilunera" },
+    whatsapp: { cta: "Hitz egin dezagun", label: "Hitz egin dezagun WhatsApp bidez" },
     knowMore: "Gehiago jakin",
     meta: {
         homeTitle: "Eskola Kudeaketa Softwarea | Hezkuntza ERPa · Edena",
