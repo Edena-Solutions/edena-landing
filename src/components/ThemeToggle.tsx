@@ -32,6 +32,14 @@ export function ThemeToggle({ className }: { className?: string }) {
         setMounted(true);
         setTheme(initial);
         applyTheme(initial);
+
+        // The nav renders one toggle per breakpoint; keep them all in sync.
+        const root = document.documentElement;
+        const observer = new MutationObserver(() => {
+            setTheme(root.classList.contains("dark") ? "dark" : "light");
+        });
+        observer.observe(root, { attributes: true, attributeFilter: ["class"] });
+        return () => observer.disconnect();
     }, []);
 
     const handleClick = () => {
@@ -43,14 +51,7 @@ export function ThemeToggle({ className }: { className?: string }) {
 
     if (!mounted) {
         return (
-            <div
-                className={cn(
-                    "fixed z-[100] size-11 rounded bg-secondary border border-border",
-                    "bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-[max(1.5rem,env(safe-area-inset-right))]",
-                    className,
-                )}
-                aria-hidden
-            />
+            <div className={cn("size-9 shrink-0 rounded bg-secondary", className)} aria-hidden />
         );
     }
 
@@ -65,12 +66,7 @@ export function ThemeToggle({ className }: { className?: string }) {
             onClick={handleClick}
             aria-label={label}
             title={label}
-            className={cn(
-                "fixed z-[100] size-11 rounded",
-                "bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-[max(1.5rem,env(safe-area-inset-right))]",
-                "bg-card shadow-[0_14px_48px_rgba(0,0,0,0.14)] dark:shadow-[0_14px_48px_rgba(0,0,0,0.55)]",
-                className,
-            )}
+            className={cn("shrink-0", className)}
         >
             <span className="relative inline-flex size-5 items-center justify-center">
                 <Sun

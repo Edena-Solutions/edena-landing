@@ -2,7 +2,6 @@
 import "@/styles/global.css";
 import MainNavigationMenu from "@/components/NavigationMenu";
 import Footer from "@/components/Footer.astro";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { ClientRouter } from "astro:transitions";
 import OrganizationSchema from "@/components/StructuredData/Organization.astro";
 import CookieConsentBanner from "@/components/CookieConsentBanner";
@@ -275,7 +274,6 @@ const defaultImageAlt =
  <slot />
  </main>
  <Footer lang={lang} />
- <ThemeToggle client:load />
  <CookieConsentBanner client:load lang={lang} t={t} />
  </body>
 </html>

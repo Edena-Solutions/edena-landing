@@ -37,6 +37,7 @@ import { cn } from "@/lib/utils";
 import logo from "@/assets/img/logos/logo.png";
 import aiLogo from "@/assets/img/logos/ai.png";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { ThemeToggle } from "./ThemeToggle";
 import { translations, localePath } from "@/i18n/index.ts";
 import { Button } from "./ui/button";
 import Link from "./ui/link";
@@ -474,6 +475,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                         <Button>{t.registerButton}</Button>
                     </Link>
                     <LanguageSwitcher currentLang={lang} />
+                    <ThemeToggle />
                 </div>
 
                 <div
@@ -543,6 +545,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     {t.changeWebsiteLanguage}
                                 </p>
                                 <LanguageSwitcher currentLang={lang} />
+                                <ThemeToggle className="mt-4" />
                             </div>
                             <div className="flex flex-col gap-2 py-4">
                                 <Link href={p("/demo")}>
