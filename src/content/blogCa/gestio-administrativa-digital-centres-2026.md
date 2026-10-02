@@ -421,7 +421,7 @@ La gestió administrativa digital ha de garantir la màxima seguretat i complime
 
 :
 
-- Xifratge d'extrem a extrem
+- Xifratge de les dades en trànsit i en repòs
 - Emmagatzematge segur al núvol
 - Còpies de seguretat automàtiques
 - Control d'accés basat en rols

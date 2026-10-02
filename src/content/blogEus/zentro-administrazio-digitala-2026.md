@@ -421,7 +421,7 @@ Administrazio-kudeaketa digitalak segurtasunik handiena eta araudia betetzea ber
 
 :
 
-- Mutur-muturreko enkriptatzea
+- Datuen enkriptatzea igorpenean eta biltegiratzean
 - Hodeiko biltegiratze segurua
 - Babeskopia automatikoak
 - Rolen araberako sarbide-kontrola

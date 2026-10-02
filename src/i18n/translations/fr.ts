@@ -46,13 +46,13 @@ export default {
             "Tout le quotidien scolaire dans une app gratuite : notes, factures, messages, photos et boutique de l’établissement. Gérez plusieurs enfants depuis un seul compte, sur n’importe quel appareil.",
         centersTitle: "Plateforme Intégrale pour Établissements Scolaires | ERP Éducatif | Edena",
         centersDescription:
-            "ERP complet pour établissements scolaires : facturation automatique, CRM d’inscriptions, communication familiale, présences numériques et dossiers. Réduisez les coûts administratifs jusqu’à 40 %.",
+            "Logiciel de gestion complet pour établissements scolaires : facturation automatique, CRM d’inscriptions, communication familiale, présences numériques et dossiers. Réduisez les coûts administratifs jusqu’à 40 %.",
         crmTitle: "CRM Scolaire | Convertissez les Demandes en Inscriptions | Edena",
         crmDescription:
-            "CRM éducatif pour admissions et inscriptions : capturez les demandes depuis votre site, gérez chaque famille dans un pipeline visuel et ne manquez aucune opportunité.",
+            "CRM éducatif pour admissions et inscriptions : recevez les demandes depuis votre site, suivez chaque famille sur un tableau visuel par étapes et ne manquez aucune opportunité.",
         assignmentTitle: "Évaluations et Bulletins Automatiques | Gestion Académique · Edena",
         assignmentDescription:
-            "Gestion académique sans friction : planifiez les devoirs, configurez les cycles d’évaluation et générez les bulletins automatiquement. Les familles voient les notes en temps réel.",
+            "Gestion académique simplifiée : planifiez les devoirs, configurez les cycles d’évaluation et générez les bulletins automatiquement. Les familles voient les notes en temps réel.",
         privacyTitle: "Politique de confidentialité | Logiciel de gestion scolaire Edena",
         privacyDescription:
             "Découvrez comment Edena protège les données de votre établissement et respecte les standards de confidentialité. Notre politique complète garantit la sécurité des informations des élèves, des familles et de l’institution.",
@@ -82,7 +82,7 @@ export default {
             "Gérez votre académie avec encaissements automatiques, CRM de recrutement, suivi des présences et app gratuite pour les familles. Pour les académies de langues, danse, musique et sport.",
         groupsTitle: "Gestion Multi-Sites pour Groupes Éducatifs · Edena",
         groupsDescription:
-            "Gérez tout votre réseau d'établissements depuis un seul tableau de bord : facturation centralisée, reporting consolidé et fonctionnement homogène sur chaque site. Développez-vous sans alourdir la charge administrative.",
+            "Gérez tout votre réseau d'établissements depuis un seul tableau de bord : facturation centralisée, rapports consolidés et fonctionnement homogène sur chaque site. Développez-vous sans alourdir la charge administrative.",
         contactTitle: "Contact | Edena - Logiciel de gestion scolaire",
         contactDescription:
             "Une question sur Edena ? Contactez notre équipe. Nous sommes là pour vous aider à trouver la meilleure solution pour votre établissement.",
@@ -102,7 +102,7 @@ export default {
         appScreens: ["Horaires", "Publications", "Mur", "Classes", "Boutique"],
     },
     setup: {
-        title: "Opérationnel en 2 semaines, avec votre équipe d'onboarding incluse",
+        title: "Opérationnel en 2 semaines, avec une équipe qui vous accompagne à chaque étape",
         description:
             "Migration des données, formation du personnel et configuration complète pris en charge par nos soins. La plupart des établissements sont opérationnels avec Edena en seulement 2 semaines, sans interrompre leur activité quotidienne.",
         onboardingDescription:
@@ -151,7 +151,7 @@ export default {
         dashboard: "Tableau d’analyse",
         dashboardDescription:
             "Indicateurs et métriques en temps réel pour visualiser la performance de votre établissement et décider sur la base des données.",
-        finance: "Suite financière",
+        finance: "Facturation et Paiements",
         financeDescription:
             "Système automatisé de gestion financière pour facturation, paiements, budgets et rapports.",
         app: "Edena App",
@@ -159,7 +159,7 @@ export default {
             "Application mobile conçue pour les familles, les élèves et les enseignants afin d’accéder aux informations scolaires partout.",
         crm: "CRM scolaire",
         crmDescription:
-            "Gérez les demandes d’inscription, capturez des leads et transformez les demandes en nouvelles familles grâce au pipeline visuel et aux formulaires personnalisables.",
+            "Gérez les demandes d’inscription, recueillez les coordonnées des familles intéressées et transformez les demandes en nouvelles familles grâce à un tableau visuel par étapes et à des formulaires personnalisables.",
         assignment: "Devoirs et évaluations",
         assignmentDescription:
             "Planifiez les devoirs, les cycles d’évaluation et le suivi des notes. Bulletins automatiques et visibilité pour les familles.",
@@ -178,7 +178,7 @@ export default {
             "Logiciel pensé pour la petite enfance : communication avec les familles, photos du quotidien et gestion simple au jour le jour.",
         schools: "Pour les écoles",
         schoolsDescription:
-            "ERP complet pour les écoles du primaire au lycée : élèves, notes, présences et facturation au même endroit.",
+            "Logiciel de gestion complet pour les écoles du primaire au lycée : élèves, notes, présences et facturation au même endroit.",
         academies: "Pour les académies et centres",
         academiesDescription:
             "Gestion, recrutement d’élèves et facturation automatique pour les cours de langues, danse, musique et autres disciplines.",
@@ -239,7 +239,7 @@ export default {
             communication: "Communication",
             extracurricular: "Activités périscolaires",
             tracking: "Suivi",
-            workflows: "Workflows",
+            workflows: "Automatisations",
             shop: "Boutique",
             payments: "Paiements internes",
             ena: "Ena (IA)",
@@ -432,7 +432,7 @@ export default {
             evaluationCycles: {
                 title: "Cycles d’évaluation",
                 tagline:
-                    "Configurez trimestres, quadrimestres ou périodes personnalisées. Gestion centralisée des cycles avec agrégation automatique des notes.",
+                    "Configurez trimestres, quadrimestres ou périodes personnalisées. Gestion centralisée des cycles avec calcul automatique des notes de chaque période.",
             },
             gradeManagement: {
                 title: "Gestion des notes",
@@ -493,16 +493,16 @@ export default {
         crmFeatures: {
             title: "CRM scolaire intégré",
             tagline:
-                "Gérez les demandes, capturez des leads et transformez les prospects en nouvelles familles grâce au pipeline visuel et aux formulaires personnalisables.",
+                "Gérez les demandes, recueillez les coordonnées des familles intéressées et transformez-les en nouvelles familles grâce à un tableau visuel par étapes et à des formulaires personnalisables.",
             pipeline: {
-                title: "Pipeline de conversion",
+                title: "Suivi par étapes",
                 tagline:
                     "Visualisez et pilotez le parcours de chaque demande du premier contact jusqu’à l’inscription.",
             },
             forms: {
                 title: "Formulaires personnalisables",
                 tagline:
-                    "Créez des formulaires d’acquisition adaptés à votre établissement et capturez des leads depuis votre site.",
+                    "Créez des formulaires d’acquisition adaptés à votre établissement et recevez les demandes depuis votre site.",
             },
             activity: {
                 title: "Suivi d’activité",
@@ -511,7 +511,7 @@ export default {
             },
             assignment: {
                 title: "Attribution des responsables",
-                tagline: "Attribuez chaque lead à un membre de l’équipe et optimisez le suivi.",
+                tagline: "Attribuez chaque demande à un membre de l’équipe pour qu’aucune famille ne reste sans réponse.",
             },
             origin: {
                 title: "Origine multicanal",
@@ -519,7 +519,7 @@ export default {
                     "Enregistrez l’origine de chaque demande : web, téléphone, e-mail ou formulaire.",
             },
             reports: {
-                title: "Rapports de conversion",
+                title: "Rapports sur les inscriptions",
                 tagline:
                     "Métriques d’acquisition et de conversion pour optimiser votre stratégie commerciale.",
             },
@@ -527,7 +527,7 @@ export default {
         financeFeatures: {
             title: "Gestion financière éducative complète",
             tagline:
-                "ERP financier spécialisé pour les établissements scolaires avec automatisation de la facturation, comptabilité et contrôle budgétaire.",
+                "Gestion financière pensée pour les établissements scolaires : facturation automatique, comptabilité et contrôle budgétaire.",
             automatedBilling: {
                 title: "Facturation automatisée intelligente",
                 tagline:
@@ -556,7 +556,7 @@ export default {
             costAnalysis: {
                 title: "Analyse des coûts par élève",
                 tagline:
-                    "Calculez les coûts réels par élève, la rentabilité des services et le ROI pédagogique avec des métriques financières avancées.",
+                    "Calculez le coût réel par élève et la rentabilité de chaque service avec des rapports financiers détaillés.",
             },
         },
         appFeatures: {
@@ -591,7 +591,7 @@ export default {
             secureMessaging: {
                 title: "Messagerie sécurisée chiffrée",
                 tagline:
-                    "Communication privée entre familles, enseignants et administration avec chiffrement de bout en bout et droits granulaires.",
+                    "Communication privée entre familles, enseignants et administration, avec chiffrement et droits selon le profil de chaque utilisateur.",
             },
         },
         familiesFeatures: {
@@ -661,7 +661,7 @@ export default {
             dataSecurity: {
                 title: "Sécurité des données",
                 tagline:
-                    "Protection avancée avec chiffrement, conformité GDPR et sauvegardes automatiques.",
+                    "Protection avancée avec chiffrement, conformité RGPD et sauvegardes automatiques.",
             },
         },
         reportingTools: {
@@ -705,7 +705,7 @@ export default {
             {
                 title: "CRM scolaire",
                 description:
-                    "Gérez les demandes d’inscription, capturez des leads et transformez les prospects en nouvelles familles. Pipeline visuel à étapes personnalisables, attribution des responsables et suivi d’activité en temps réel.",
+                    "Gérez les demandes d’inscription, recueillez les coordonnées des familles intéressées et transformez-les en nouvelles familles. Tableau visuel à étapes personnalisables, attribution des responsables et suivi d’activité en temps réel.",
             },
             {
                 title: "Formulaires dynamiques",
@@ -754,13 +754,13 @@ export default {
             ],
         },
         trust: {
-            titleBold: "Sécurité enterprise",
+            titleBold: "Sécurité professionnelle",
             titleMuted: "incluse",
             description:
                 "Sécurité intégrée et IA plus respectueuse de la vie privée qu'un chatbot générique",
             support: "Support par e-mail et chat",
             badges: {
-                gdpr: "GDPR",
+                gdpr: "RGPD",
             },
         },
     },
@@ -783,7 +783,7 @@ export default {
                 description: "Intelligence artificielle appliquée à la gestion éducative",
             },
             finance: {
-                name: "Suite Financière",
+                name: "Facturation et Paiements",
                 description: "Facturation automatique, encaissements et Verifactu",
             },
         },
@@ -803,7 +803,7 @@ export default {
             reports: "Rapports",
             verifactu: "Verifactu",
             controlPanel: "Panneau de Contrôle",
-            analytics: "Analytics",
+            analytics: "Statistiques",
             calendar: "Calendrier",
             schedules: "Emplois du Temps",
             groups: "Groupes",
@@ -818,10 +818,10 @@ export default {
             assessments: "Évaluations",
             rubrics: "Grilles",
             goals: "Objectifs",
-            gdpr: "GDPR",
+            gdpr: "RGPD",
             api: "API",
             support: "Support par e-mail et chat",
-            onboarding: "Onboarding",
+            onboarding: "Mise en route",
             import: "Import",
             export: "Export",
             familyApp: "App Familles",
@@ -911,7 +911,7 @@ export default {
                 priceNote: "par mois et par établissement",
                 features: [
                     "Dix modules à activer quand vous en avez besoin",
-                    "Migration des données et onboarding inclus",
+                    "Migration des données et mise en route incluses",
                     "Remises au volume et multi-établissements",
                 ],
                 cta: "Voir les offres et modules",
@@ -980,7 +980,7 @@ export default {
             ],
             howTitle: "Comment votre tarif est calculé",
             howDescription:
-                "Trois variables et aucune surprise. Nous le finalisons avec vous en 20 minutes de démo, avec les chiffres réels de votre établissement.",
+                "Trois variables et aucune surprise. Nous le finalisons avec vous en 15 minutes de démo, avec les chiffres réels de votre établissement.",
             steps: [
                 {
                     title: "La plateforme de base",
@@ -1027,7 +1027,7 @@ export default {
                     },
                     {
                         moduleId: "platformBase",
-                        label: "Communication de base, onboarding et self-service familles",
+                        label: "Communication de base, inscription des familles et gestion autonome par les familles",
                     },
                     {
                         moduleId: "platformBase",
@@ -1040,7 +1040,7 @@ export default {
                 items: [
                     {
                         moduleId: "ena",
-                        label: "Ena, l’IA d’Edena : assistant intelligent avec tokens mensuels inclus",
+                        label: "Ena, l’IA d’Edena : assistant intelligent avec utilisation mensuelle incluse",
                     },
                 ],
             },
@@ -1049,7 +1049,7 @@ export default {
                 items: [
                     {
                         moduleId: "communicationPro",
-                        label: "Chat temps réel, push et accusé de lecture",
+                        label: "Chat en temps réel, notifications push et accusé de lecture",
                     },
                     {
                         moduleId: "communicationPro",
@@ -1072,7 +1072,7 @@ export default {
                 items: [
                     {
                         moduleId: "automation",
-                        label: "Règles, workflows et onboarding automatisé",
+                        label: "Règles, flux de travail et inscriptions automatisées",
                     },
                     {
                         moduleId: "automation",
@@ -1098,7 +1098,7 @@ export default {
                 items: [
                     {
                         moduleId: "crm",
-                        label: "Demandes d’inscription, pipeline et suivi des leads",
+                        label: "Demandes d’inscription et suivi de chaque famille par étapes",
                     },
                     {
                         moduleId: "crm",
@@ -1178,7 +1178,7 @@ export default {
             "Le tableau de bord affiche des métriques en temps réel sur les présences, les inscriptions, la situation financière, les communications envoyées et la performance globale de l’établissement, pour décider sur la base des données.",
         support_type: "Quel type d’assistance technique Edena propose-t-elle ?",
         support_type_answer:
-            "Nous proposons plusieurs niveaux d’assistance selon l’offre souscrite, dont l’aide par e-mail et chat aux heures ouvrées, et une assistance prioritaire 24h/24 pour les offres Professionnel et Entreprise.",
+            "Tous les établissements bénéficient d’une assistance 24/7 par e-mail et chat, incluse dans le prix.",
         platform_customization:
             "Peut-on personnaliser la plateforme avec l’identité de l’établissement ?",
         platform_customization_answer:
@@ -1192,7 +1192,7 @@ export default {
         guardian_data_privacy:
             "Comment la confidentialité des données des tuteurs est-elle protégée ?",
         guardian_data_privacy_answer:
-            "Toutes les données sont chiffrées et conformes au GDPR. Seul le personnel autorisé peut accéder aux informations des tuteurs.",
+            "Toutes les données sont chiffrées et conformes au RGPD. Seul le personnel autorisé peut accéder aux informations des tuteurs.",
         guardian_multiple_children:
             "Un tuteur peut-il gérer plusieurs enfants depuis un seul compte ?",
         guardian_multiple_children_answer:
@@ -1238,7 +1238,7 @@ export default {
         finance_refunds: "Peut-on gérer des remboursements ?",
         finance_refunds_answer:
             "Oui, vous pouvez traiter remboursements et avoirs directement depuis le panneau d’administration Edena.",
-        finance_reporting_tools: "Quels outils de reporting financier Edena propose-t-elle ?",
+        finance_reporting_tools: "Quels rapports financiers Edena propose-t-elle ?",
         finance_reporting_tools_answer:
             "Des rapports détaillés sur revenus, dépenses, soldes et prévisions pour une gestion financière efficace.",
         finance_data_security: "Comment les informations financières sont-elles protégées ?",
@@ -1275,7 +1275,7 @@ export default {
             "Les parents reçoivent une invitation avec les instructions pour créer leur compte et accéder à l’app en toute sécurité.",
         app_security: "L’app Edena est-elle sécurisée ?",
         app_security_answer:
-            "Oui, l’app utilise le chiffrement de bout en bout et une authentification sécurisée pour protéger toutes les données.",
+            "Oui. Les données sont chiffrées pendant leur transfert et leur stockage, et l’accès exige une authentification sécurisée.",
         app_multiplatform: "L’app fonctionne-t-elle sur tous les appareils ?",
         app_multiplatform_answer:
             "L’app est compatible iOS et Android et s’adapte aux téléphones et tablettes.",
@@ -1339,7 +1339,7 @@ export default {
             "Événements, incidents, facturation et communications internes.",
         dashboard_mobile_access: "Puis-je accéder au tableau de bord depuis le mobile ?",
         dashboard_mobile_access_answer:
-            "Le tableau de bord est responsive et accessible depuis mobile et tablette.",
+            "Oui, le tableau de bord s’adapte à tous les écrans et s’utilise depuis un mobile ou une tablette.",
         dashboard_data_export: "Peut-on exporter les données du tableau de bord ?",
         dashboard_data_export_answer:
             "Export possible vers des formats compatibles Excel et autres systèmes.",
@@ -1359,35 +1359,35 @@ export default {
         crm: {
             title: "FAQ sur le CRM scolaire Edena",
             description:
-                "Réponses sur la gestion des demandes, formulaires d’acquisition, pipeline de conversion et suivi des leads. Transformez plus de demandes en inscriptions.",
+                "Réponses sur la gestion des demandes, les formulaires d’inscription et le suivi de chaque famille par étapes. Transformez plus de demandes en inscriptions.",
         },
         crm_requests_management: "Comment gérer les demandes d’inscription ?",
         crm_requests_management_answer:
-            "Le CRM centralise toutes les demandes avec filtres, recherche et attribution de responsables. Vous voyez origine, statut, date et responsable de chaque lead.",
+            "Le CRM centralise toutes les demandes avec filtres, recherche et attribution de responsables. Vous voyez origine, statut, date et responsable de chaque demande.",
         crm_forms_customization: "Puis-je personnaliser les formulaires d’acquisition ?",
         crm_forms_customization_answer:
             "Oui, l’éditeur visuel permet des champs texte, e-mail, téléphone, listes et cases. Glissez-déposez et adaptez aux besoins de votre établissement.",
-        crm_pipeline_stages: "Quelles étapes pour le pipeline de conversion ?",
+        crm_pipeline_stages: "Par quelles étapes passe chaque demande ?",
         crm_pipeline_stages_answer:
             "Nouveau, Contacté, Qualifié, Proposition, Négociation, Gagné. Changez le statut en un clic ; l’historique d’activité s’enregistre automatiquement.",
         crm_activity_tracking: "L’historique d’activité de chaque demande est-il enregistré ?",
         crm_activity_tracking_answer:
-            "Oui, chaque changement de statut, contact ou action est horodaté pour un suivi complet du parcours de chaque lead.",
+            "Oui, chaque changement de statut, contact ou action est horodaté pour un suivi complet du parcours de chaque demande.",
         crm_integration_website: "Puis-je intégrer les formulaires sur mon site ?",
         crm_integration_website_answer:
-            "Les formulaires génèrent des liens à intégrer sur votre site, pages d’atterrissage ou campagnes e-mail pour capter des leads directement dans le CRM.",
+            "Les formulaires génèrent des liens à placer sur votre site ou dans vos e-mails pour que les demandes arrivent directement dans le CRM.",
         crm_multiple_origins: "Puis-je enregistrer l’origine de chaque demande ?",
         crm_multiple_origins_answer:
             "Oui : web, téléphone, e-mail, visite ou formulaire, pour optimiser vos canaux d’acquisition.",
-        crm_reports: "Des rapports de conversion sont-ils disponibles ?",
+        crm_reports: "Des rapports sur les inscriptions sont-ils disponibles ?",
         crm_reports_answer:
-            "Le CRM propose métriques d’acquisition, conversion par étape et performance par responsable.",
+            "Le CRM vous montre combien de demandes arrivent, combien avancent à chaque étape et les résultats de chaque responsable, pour savoir ce qui fonctionne le mieux.",
         crm_team_assignment: "Puis-je attribuer un responsable à chaque demande ?",
         crm_team_assignment_answer:
-            "Oui, attribuez chaque lead à un membre de l’équipe pour répartir le travail et personnaliser le suivi.",
+            "Oui, attribuez chaque demande à un membre de l’équipe pour répartir le travail et personnaliser le suivi.",
         crm_data_security: "Comment les données du CRM sont-elles protégées ?",
         crm_data_security_answer:
-            "Données chiffrées et conformes au GDPR. Seul le personnel autorisé accède aux demandes.",
+            "Données chiffrées et conformes au RGPD. Seul le personnel autorisé accède aux demandes.",
         students: {
             title: "FAQ sur la gestion des élèves dans Edena",
             description:
@@ -1411,7 +1411,7 @@ export default {
             "Oui, création, inscription et gestion des activités depuis le panneau élèves.",
         students_data_privacy: "Comment la vie privée des données des élèves est-elle protégée ?",
         students_data_privacy_answer:
-            "Toutes les données sont conformes au GDPR et protégées par un chiffrement avancé.",
+            "Toutes les données sont conformes au RGPD et protégées par un chiffrement avancé.",
         students_support_services:
             "Quels services d’accompagnement Edena propose-t-elle aux élèves ?",
         students_support_services_answer:
@@ -1453,7 +1453,7 @@ export default {
             "Oui, un seul compte pour les informations, la facturation et la communication de tous vos enfants, quel que soit l’établissement.",
         families_data_security: "Comment les données de ma famille sont-elles protégées ?",
         families_data_security_answer:
-            "Chiffrement avancé et conformité GDPR. Seuls le personnel autorisé de l’établissement et vous accédez aux informations sur vos enfants.",
+            "Chiffrement avancé et conformité RGPD. Seuls le personnel autorisé de l’établissement et vous accédez aux informations sur vos enfants.",
         families_support: "Quelle assistance en tant que famille ?",
         families_support_answer:
             "Contactez notre équipe par chat, e-mail ou depuis l’app. Une section d’aide avec guides et tutoriels est aussi disponible.",
@@ -1483,7 +1483,7 @@ export default {
         groups: {
             title: "FAQ pour les réseaux d’établissements",
             description:
-                "Gestion multi-sites, tableau de bord centralisé et montée en charge pour les groupes et réseaux.",
+                "Gestion multi-sites, tableau de bord centralisé et croissance pour les groupes et réseaux.",
         },
         centers_communication_tools: "Quels outils de communication Edena propose-t-elle ?",
         centers_communication_tools_answer:
@@ -1502,16 +1502,16 @@ export default {
             "Edena centralise dossiers scolaires, présences, notes, communication familiale, facturation et documents dans un seul système.",
         centers_data_security: "Comment Edena garantit-elle la sécurité des données ?",
         centers_data_security_answer:
-            "Chiffrement avancé, conformité GDPR, sauvegardes automatiques et contrôles d’accès stricts pour les données de l’établissement et des familles.",
+            "Chiffrement avancé, conformité RGPD, sauvegardes automatiques et contrôles d’accès stricts pour les données de l’établissement et des familles.",
         centers_integration_options: "Peut-on s’intégrer à d’autres systèmes ?",
         centers_integration_options_answer:
             "Oui : comptabilité, plateformes de communication externes et autres logiciels éducatifs via API et export de données standard.",
         centers_setup_time: "Combien de temps prend le déploiement ?",
         centers_setup_time_answer:
-            "La plupart des établissements terminent en 2 semaines. Notre équipe d’onboarding gère migration des données, configuration et formation pour une transition fluide.",
+            "La plupart des établissements terminent en 2 semaines. Notre équipe gère migration des données, configuration et formation pour une transition fluide.",
         centers_support_levels: "Quels niveaux d’assistance Edena propose-t-elle ?",
         centers_support_levels_answer:
-            "E-mail et chat aux heures ouvrées pour toutes les offres ; assistance prioritaire 24h/24 pour Professionnel et Entreprise, avec conseiller succès dédié sur l’offre Entreprise.",
+            "Tous les établissements ont la même assistance : 24/7 par e-mail et chat, incluse dans le prix. Notre équipe prend aussi en charge la migration des données et la formation initiale.",
         centers_cost_savings: "Combien mon établissement peut-il économiser avec Edena ?",
         centers_cost_savings_answer:
             "Les établissements utilisant Edena rapportent jusqu’à 40 % de réduction des coûts administratifs, 75 % de temps en moins pour intégrer les familles et plus de 37 heures hebdomadaires économisées sur les tâches répétitives.",
@@ -1893,22 +1893,22 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
     crm: {
         mainTitle: "Transformez chaque demande en une nouvelle inscription",
         mainDescription:
-            "Le CRM éducatif d'Edena gère admissions et inscriptions : capture des demandes depuis votre site, pipeline visuel et suivi de chaque famille. Les établissements augmentent la conversion des inscriptions jusqu'à 35 %.",
+            "Le CRM éducatif d'Edena gère admissions et inscriptions : réception des demandes depuis votre site, tableau visuel par étapes et suivi de chaque famille. Les établissements transforment jusqu'à 35 % de demandes en plus en inscriptions.",
         requestsTitle: "Gestion des demandes",
         requestsDescription:
-            "Liste centralisée avec filtres, recherche et attribution de responsables. Suivi de l’origine, du statut et de la date de chaque lead.",
+            "Liste centralisée avec filtres, recherche et attribution de responsables. Suivi de l’origine, du statut et de la date de chaque demande.",
         formTitle: "Formulaires personnalisables",
         formDescription:
-            "Créez des formulaires de préinscription et d’acquisition avec champs sur mesure. Glissez-déposez, définissez les options et activez les formulaires sur votre site ou landing pages.",
-        pipelineTitle: "Pipeline de conversion",
+            "Créez des formulaires de préinscription et d’acquisition avec champs sur mesure. Glissez-déposez, définissez les options et publiez-les sur votre site ou dans vos campagnes.",
+        pipelineTitle: "Suivi par étapes",
         pipelineDescription:
             "Visualisez le parcours : Nouveau, Contacté, Qualifié, Proposition, Négociation, Gagné. Changez le statut en un clic et conservez l’historique d’activité complet.",
         heroRightCardTitle: "Chaque demande, une famille prête à s’inscrire",
         heroRightCardDescription:
-            "Chaque lead est une famille potentielle. Demandez une démo et découvrez comment le CRM Edena vous aide à pourvoir les places sans rien laisser passer.",
+            "Chaque demande est une famille qui pourrait s’inscrire. Demandez une démo et découvrez comment le CRM Edena vous aide à pourvoir les places sans rien laisser passer.",
         formsAndPipelineTitle: "Formulaires et suivi",
         formsAndPipelineDescription:
-            "Capturez des leads avec des formulaires personnalisables et gérez tout le parcours jusqu’à l’inscription depuis un seul panneau.",
+            "Recevez les demandes avec des formulaires personnalisables et suivez chacune jusqu’à l’inscription depuis un seul écran.",
     },
     dashboard: {
         mainTitle: "Chaque indicateur de votre établissement, en temps réel",
@@ -1944,7 +1944,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             "Configurez trimestres ou périodes personnalisées. Visualisez notes, moyennes et progression en temps réel.",
         cyclesTitle: "Cycles d’évaluation",
         cyclesDescription:
-            "Gérez trimestres, quadrimestres ou périodes personnalisées. Configuration centralisée avec agrégation automatique des notes par cycle.",
+            "Gérez trimestres, quadrimestres ou périodes personnalisées. Configuration centralisée avec calcul automatique des notes par période.",
         scoresTitle: "Bulletins et progression",
         scoresDescription:
             "Suivi visuel des notes par élève, matière ou groupe. Moyennes pondérées, grilles et calculs automatiques pour les bulletins.",
@@ -2005,7 +2005,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             "Configurez des cycles d’encaissement récurrents pour inscriptions, activités et services. Des encaissements à l’heure, sans intervention manuelle.",
         mainTitle: "La facturation scolaire encaissée à l’heure, sans courir après personne",
         mainDescription:
-            "La suite financière d'Edena automatise la facturation scolaire adaptée à Verifactu : reçus, prélèvements SEPA et suivi des encaissements en temps réel, sans gestion manuelle.",
+            "Edena automatise la facturation scolaire adaptée à Verifactu : reçus, prélèvements SEPA et suivi des encaissements en temps réel, sans gestion manuelle.",
     },
     guardians: {
         mainTitle: "Les familles toujours informées, sans effort supplémentaire pour votre équipe",
@@ -2104,7 +2104,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             "Edena est le logiciel de gestion pour académies : encaissements automatiques, suivi des présences, CRM de recrutement et communication avec les familles. Moins de travail manuel, plus de temps pour enseigner.",
         communicationTitle: "Attirez plus d’élèves avec le CRM intégré",
         communicationDescription:
-            "Pilotez chaque demande et chaque lead dans un pipeline visuel et convertissez plus de prospects en inscriptions. Votre liste d’attente, toujours organisée.",
+            "Pilotez chaque demande sur un tableau visuel par étapes et transformez plus de familles intéressées en inscriptions. Votre liste d’attente, toujours organisée.",
         automationTitle: "Facturation automatique selon vos tarifs",
         automationDescription:
             "Mensualités, trimestres ou tarifs par activité : Edena facture et encaisse automatiquement. Plus de relances manuelles.",
@@ -2134,7 +2134,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         realTimeCommunicationTitle: "Communication unifiée avec toutes les familles",
         realTimeCommunicationDescription:
             "Centralisez la communication du réseau tout en préservant l’identité de chaque établissement. Messages globaux ou par site en un clic.",
-        financialAutomationTitle: "Reporting financier consolidé",
+        financialAutomationTitle: "Rapports financiers consolidés",
         financialAutomationDescription:
             "Revenus, taux d’occupation et impayés de tout le réseau en temps réel. Décidez stratégiquement avec les données de tous vos sites.",
         networkSectionTitle: "Grandissez sans multiplier la charge administrative",
@@ -2142,7 +2142,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             "Passez de deux à vingt établissements sans complexité opérationnelle. Une plateforme qui garde chaque site aligné.",
     },
     centers: {
-        mainTitle: "Le système d’exploitation complet de votre établissement scolaire",
+        mainTitle: "Tout ce dont votre établissement a besoin, sur une seule plateforme",
         mainDescription:
             "Communication, facturation, CRM d'inscriptions, dossiers et automatisation sur une seule plateforme. Réduisez les coûts administratifs de 40 % et libérez votre équipe des tâches répétitives.",
         communicationTitle: "Communication centralisée",
@@ -2167,9 +2167,9 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
     problemSection: {
         title: "Votre établissement utilise encore des outils qui ne se parlent pas ?",
         description:
-            "La plupart des établissements perdent 3 heures par jour à jongler entre WhatsApp, Excel, les e-mails et un ERP vieillissant. Edena regroupe tout sur une seule plateforme avec une IA éducative intégrée.",
+            "La plupart des établissements perdent 3 heures par jour à jongler entre WhatsApp, Excel, les e-mails et un vieux logiciel de gestion. Edena regroupe tout sur une seule plateforme avec une IA éducative intégrée.",
         mobileSummary:
-            "WhatsApp, calendriers, visioconférences, IA génériques, Excel et ERP déconnectés : votre équipe perd des heures chaque jour à changer d'outil sans jamais partager les données.",
+            "WhatsApp, calendriers, visioconférences, IA génériques, Excel et logiciels de gestion déconnectés : votre équipe perd des heures chaque jour à changer d'outil sans jamais partager les données.",
         cards: {
             tools: {
                 title: "Trop d'outils",
@@ -2221,13 +2221,13 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             {
                 stat: "+35%",
                 description:
-                    "d’augmentation de la conversion des inscriptions avec le CRM, les formulaires numériques et l’onboarding en ligne.",
+                    "d’augmentation des demandes transformées en inscriptions grâce au CRM, aux formulaires numériques et à l’inscription en ligne.",
                 bg: "light",
             },
             {
                 stat: "-75%",
                 description:
-                    "de réduction du temps d’intégration des familles avec l’onboarding numérique et la signature électronique.",
+                    "de réduction du temps d’intégration des familles grâce à l’inscription numérique et à la signature électronique.",
                 bg: "light",
             },
             {
@@ -2266,7 +2266,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         dashboardHero: "Tableau de bord scolaire Edena avec métriques et analytique en temps réel",
         studentsHero: "Système d’information élèves Edena avec gestion des dossiers scolaires",
         guardiansHero: "Portail familles Edena pour la communication et le suivi scolaire",
-        financeHero: "Suite financière Edena avec facturation automatique et gestion des paiements",
+        financeHero: "Facturation et paiements dans Edena : facturation automatique et gestion des paiements",
         billingCycle: "Cycle de facturation automatisé Edena pour établissements scolaires",
         invoiceAnalytics: "Analytique financière et rapports de facturation dans Edena",
         emailInvoice: "Facturation électronique sans papier dans Edena",
@@ -2280,7 +2280,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         notifications: "Système de notifications en temps réel Edena",
         calendar: "Calendrier scolaire intégré dans Edena",
         crmHero: "CRM scolaire Edena pour demandes et acquisition de familles",
-        crmList: "Liste de demandes et leads dans le CRM scolaire Edena",
+        crmList: "Liste des demandes des familles dans le CRM scolaire Edena",
         crmForm: "Éditeur de formulaires personnalisables du CRM Edena",
         assignmentSchedule: "Planification des devoirs dans Edena",
         assignmentEvaluation: "Gestion des évaluations et des notes dans Edena",
@@ -2445,7 +2445,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             mainTitle: "Le quotidien de votre établissement, sous contrôle",
             mainDescription:
                 "Suivi du temps de l'équipe, agenda quotidien partagé et suivi interne des tâches dans une seule plateforme. Respectez la réglementation du travail et coordonnez votre équipe sans chaînes d'e-mails.",
-            heroLeftTitle: "Pointage sans friction",
+            heroLeftTitle: "Pointage en un geste",
             heroLeftDescription:
                 "Votre équipe pointe depuis le mobile ou le web en une touche et vous avez les relevés prêts pour l'inspection.",
             heroRightTitle: "Agenda quotidien partagé",
@@ -2527,14 +2527,14 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         workflows: {
             metaTitle: "Automatisation Administrative pour Établissements Scolaires · Edena",
             metaDescription:
-                "Automatisez les tâches répétitives de votre établissement : rappels, communications, paiements et parcours d'inscription. Concevez des workflows sans coder et gagnez des heures chaque semaine.",
-            navTitle: "Workflows",
+                "Automatisez les tâches répétitives de votre établissement : rappels, communications, paiements et parcours d'inscription. Créez des automatisations sans coder et gagnez des heures chaque semaine.",
+            navTitle: "Automatisations",
             navDescription:
                 "Automatisez les tâches répétitives avec des workflows visuels, sans écrire une seule ligne de code.",
             mainTitle: "Automatisez le répétitif et récupérez votre temps",
             mainDescription:
                 "Concevez des workflows qui envoient des communications, génèrent des factures, assignent des tâches et alertent votre équipe automatiquement. Sans coder et sans dépendre de personne.",
-            heroLeftTitle: "Sans code, sans limites",
+            heroLeftTitle: "Sans coder, sans limites",
             heroLeftDescription:
                 "Créez des automatisations en glissant des blocs. Définissez le déclencheur et laissez Edena faire le reste.",
             heroRightTitle: "Déclencheurs intelligents",
@@ -2587,12 +2587,12 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             altHero: "Éditeur de workflows et d'automatisations dans Edena",
             altSection1: "Automatisation des processus avec règles et déclencheurs dans Edena",
             altSection2: "Tableau des automatisations de l'établissement dans Edena",
-            faqTitle: "Questions fréquentes sur l'automatisation et les workflows",
+            faqTitle: "Questions fréquentes sur les automatisations",
             faqDescription:
                 "Nous répondons à vos questions sur l'automatisation des processus et la création de workflows dans votre établissement.",
             faqs: [
                 {
-                    question: "Dois-je savoir coder pour créer des workflows ?",
+                    question: "Dois-je savoir coder pour créer des automatisations ?",
                     answer: "Non. Les flux se conçoivent avec un éditeur visuel : vous glissez des blocs, définissez le déclencheur et les actions, et c'est prêt.",
                 },
                 {

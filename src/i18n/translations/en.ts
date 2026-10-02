@@ -46,13 +46,13 @@ export default {
             "Everything school-related in one free app: grades, invoices, messages, photos, and the school store. Manage multiple children from a single account, on any device.",
         centersTitle: "All-in-One Platform for Educational Centres | Educational ERP | Edena",
         centersDescription:
-            "Complete ERP for educational centres: automated billing, enrollment CRM, family communication, digital attendance, and student records. Reduce admin costs by up to 40%.",
+            "Complete management system for educational centres: automated billing, enrollment CRM, family communication, digital attendance, and student records. Reduce admin costs by up to 40%.",
         crmTitle: "School CRM | Turn Enquiries Into Enrolments | Edena",
         crmDescription:
             "Educational CRM for admissions and enrolments: capture enquiries from your website, manage every family in a visual pipeline and never miss an opportunity.",
         assignmentTitle: "Assessments & Automatic Report Cards · Edena",
         assignmentDescription:
-            "Frictionless academic management: plan assignments, configure grading cycles and auto-generate report cards. Families see grades in real time.",
+            "Hassle-free academic management: plan assignments, configure grading cycles and auto-generate report cards. Families see grades in real time.",
         privacyTitle: "Privacy Policy | Edena School Management Software",
         privacyDescription:
             "Learn how Edena protects your school's data and maintains privacy standards. Our comprehensive privacy policy ensures the security of student, family, and institutional information.",
@@ -145,7 +145,7 @@ export default {
         dashboard: "Analytics Dashboard",
         dashboardDescription:
             "Real-time insights and metrics to visualize your educational institution's performance and make data-driven decisions.",
-        finance: "Financial Suite",
+        finance: "Billing & Payments",
         financeDescription:
             "Automated financial management system for billing, payments, budgets, and financial reporting.",
         app: "Edena App",
@@ -172,7 +172,7 @@ export default {
             "Purpose-built for nurseries and infant schools: family communication, daily photo updates, and effortless daily management.",
         schools: "For Schools",
         schoolsDescription:
-            "Complete ERP for primary through sixth form: students, grades, attendance, and billing in one place.",
+            "Complete management system for schools, from primary through sixth form: students, grades, attendance, and billing in one place.",
         academies: "For Academies",
         academiesDescription:
             "Management, student acquisition CRM, and automated billing for language, dance, music, and sports academies.",
@@ -276,7 +276,7 @@ export default {
     conclusion: {
         title: "Less Admin. More Enrolments. Happier Families.",
         description:
-            "Join the 500+ schools already saving over 37 hours a week with Edena. Cut admin costs by 40%, boost family satisfaction by 60%, and manage students, billing, and communication in one secure platform.",
+            "Join the schools already saving over 37 hours a week with Edena. Cut admin costs by 40%, boost family satisfaction by 60%, and manage students, billing, and communication in one secure platform.",
     },
     bento: {
         title: "One Platform. Everything Your School Needs.",
@@ -420,7 +420,7 @@ export default {
             evaluationCycles: {
                 title: "Evaluation Cycles",
                 tagline:
-                    "Configure trimesters, quarters or custom periods. Centralized cycle management with automatic grade aggregation.",
+                    "Configure trimesters, quarters or custom periods. Centralized cycle management with automatic grade calculation.",
             },
             gradeManagement: {
                 title: "Grade Management",
@@ -512,7 +512,7 @@ export default {
         financeFeatures: {
             title: "Comprehensive Educational Financial Management",
             tagline:
-                "Specialized ERP financial system for educational institutions with billing automation, accounting, and budget control integration.",
+                "Financial management built for schools: automated billing, accounting and budget control.",
             automatedBilling: {
                 title: "Intelligent Automated Billing",
                 tagline:
@@ -576,7 +576,7 @@ export default {
             secureMessaging: {
                 title: "Encrypted Secure Messaging",
                 tagline:
-                    "Private communication between families, teachers, and administration with end-to-end encryption and granular permission management.",
+                    "Private communication between families, teachers and administration, with encryption and permissions based on each user's role.",
             },
         },
         familiesFeatures: {
@@ -764,7 +764,7 @@ export default {
                 description: "Artificial intelligence applied to educational management",
             },
             finance: {
-                name: "Finance Suite",
+                name: "Billing & Payments",
                 description: "Automated billing, collections, and Verifactu",
             },
         },
@@ -957,7 +957,7 @@ export default {
             ],
             howTitle: "How your price is worked out",
             howDescription:
-                "Three variables and no surprises. We close it with you in a 20-minute demo using your centre's real numbers.",
+                "Three variables and no surprises. We close it with you in a 15-minute demo using your centre's real numbers.",
             steps: [
                 {
                     title: "The base platform",
@@ -1017,7 +1017,7 @@ export default {
                 items: [
                     {
                         moduleId: "ena",
-                        label: "Ena, Edena's AI: smart assistant with monthly tokens included",
+                        label: "Ena, Edena's AI: smart assistant with monthly usage included",
                     },
                 ],
             },
@@ -1149,7 +1149,7 @@ export default {
             "The dashboard offers real-time metrics on attendance, enrollments, financial status, communications sent, and overall institution performance, helping you make data-driven decisions.",
         support_type: "What type of technical support does Edena offer?",
         support_type_answer:
-            "We offer various support levels based on your subscription plan, including email and chat assistance during business hours, and 24/7 priority support for Professional and Enterprise plans.",
+            "Every school gets 24/7 email and chat support, included in the price.",
         platform_customization: "Can the platform be customized with my school's branding?",
         platform_customization_answer:
             "Yes, you can customize visual elements such as logo, corporate colors, communication templates, and automatic messages sent to families to reflect your institution's identity.",
@@ -1237,7 +1237,7 @@ export default {
             "Parents receive an invitation with instructions to create their account and securely access the app.",
         app_security: "Is the Edena app secure?",
         app_security_answer:
-            "Yes, the app uses end-to-end encryption and secure authentication to protect all data.",
+            "Yes. Data is encrypted in transit and at rest, and access requires secure authentication.",
         app_multiplatform: "Does the app work on all devices?",
         app_multiplatform_answer:
             "The app is compatible with iOS and Android, and adapts to both phones and tablets.",
@@ -1301,7 +1301,7 @@ export default {
             "It manages notifications for events, incidents, billing, and internal communications.",
         dashboard_mobile_access: "Can I access the dashboard from my mobile?",
         dashboard_mobile_access_answer:
-            "The dashboard is responsive and accessible from any mobile device or tablet.",
+            "Yes, the dashboard adapts to any screen, so you can use it on a phone or tablet.",
         dashboard_data_export: "Can I export dashboard data?",
         dashboard_data_export_answer:
             "You can export data and reports in formats compatible with Excel and other systems.",
@@ -1470,7 +1470,7 @@ export default {
             "Most centers complete implementation in 2 weeks. Our onboarding team manages data migration, configuration and staff training for a smooth transition.",
         centers_support_levels: "What support levels does Edena offer?",
         centers_support_levels_answer:
-            "We offer email and chat support during business hours for all plans, and priority 24/7 support for Professional and Enterprise plans, with a dedicated success advisor on the Enterprise plan.",
+            "Every school gets the same support: 24/7 by email and chat, included in the price. Our team also handles data migration and initial training.",
         centers_cost_savings: "How much can my center save with Edena?",
         centers_cost_savings_answer:
             "Centers using Edena report reductions of up to 40% in administrative costs, 75% less time on family onboarding and savings of more than 37 hours per week on routine tasks.",
@@ -1655,7 +1655,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             "Configure trimesters or custom periods. Visualize grades, averages and progress in real time.",
         cyclesTitle: "Evaluation Cycles",
         cyclesDescription:
-            "Manage trimesters, quarters or custom evaluation periods. Centralized configuration with automatic grade aggregation for each cycle.",
+            "Manage trimesters, quarters or custom evaluation periods. Centralized configuration with automatic grade calculation for each period.",
         scoresTitle: "Score Cards & Progress",
         scoresDescription:
             "Visual grade tracking by student, subject or group. Weighted averages, rubrics and automated calculations for report cards.",
@@ -1713,7 +1713,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             "Set up recurring billing cycles for tuition, activities, and services. Payments go out on time, every time, without manual intervention.",
         mainTitle: "School Billing That Gets Paid On Time, Without Chasing Anyone",
         mainDescription:
-            "Edena's finance suite automates Verifactu-ready school billing: receipts, SEPA direct debits and real-time payment tracking, with no manual admin.",
+            "Edena automates Verifactu-ready school billing: receipts, SEPA direct debits and real-time payment tracking, with no manual admin.",
     },
     guardians: {
         mainTitle: "Families Always in the Loop, With No Extra Effort From Your Team",
@@ -1851,7 +1851,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             "Grow from two centres to twenty without adding admin complexity. One platform that keeps every campus aligned.",
     },
     centers: {
-        mainTitle: "The Complete Operating System for Your School",
+        mainTitle: "Everything Your School Needs, in One Platform",
         mainDescription:
             "Communication, billing, enrollment CRM, student records, and automation in one platform. Reduce admin costs by 40% and free your team from repetitive tasks.",
         communicationTitle: "Centralized Communication",
@@ -1876,9 +1876,9 @@ The Platform is hosted in data centres operated by leading infrastructure provid
     problemSection: {
         title: "Is Your School Still Running on Tools That Don't Talk to Each Other?",
         description:
-            "Most schools waste 3 hours a day switching between WhatsApp, Excel, email, and a legacy ERP. Edena brings everything together in one platform with built-in educational AI.",
+            "Most schools waste 3 hours a day switching between WhatsApp, Excel, email, and an outdated management system. Edena brings everything together in one platform with built-in educational AI.",
         mobileSummary:
-            "WhatsApp, calendars, video calls, generic AIs, Excel, and disconnected ERPs: your team loses hours every day switching between tools that don't share data.",
+            "WhatsApp, calendars, video calls, generic AIs, Excel, and disconnected management systems: your team loses hours every day switching between tools that don't share data.",
         cards: {
             tools: {
                 title: "Too many tools",
@@ -2206,7 +2206,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
         relatedTitle: "Related articles",
         ctaTitle: "Join the Schools Already Working Without Paperwork",
         ctaDescription:
-            "Schools use Edena to save 15+ hours a week on admin tasks. See how it works with a free demo tailored to your type of school.",
+            "Schools use Edena to save more than 37 hours a week on admin tasks. See how it works with a free demo tailored to your type of school.",
         aiDisclaimer:
             "This content was generated by Ena, Edena's artificial intelligence agent. It may contain errors or inaccuracies and does not constitute legal, tax or professional advice. Edena does not warrant the accuracy, completeness or currency of the information. Consult official sources and, where appropriate, a qualified professional before taking any decision.",
         unsplashCredit: "The cover image is from {source}.",
@@ -2222,7 +2222,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
         dashboardHero: "Edena school dashboard with real-time metrics and analytics",
         studentsHero: "Edena student information system with academic records management",
         guardiansHero: "Edena family portal for communication and academic tracking",
-        financeHero: "Edena financial suite with automated billing and payment management",
+        financeHero: "Billing and payments in Edena: automated billing and payment management",
         billingCycle: "Automated billing cycle in Edena for educational centers",
         invoiceAnalytics: "Financial analytics and billing reports in Edena",
         emailInvoice: "Paperless electronic invoicing in Edena",
@@ -2400,7 +2400,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             mainTitle: "Your school's day to day, under control",
             mainDescription:
                 "Staff time tracking, a shared daily agenda and internal task follow-up in one platform. Meet labour regulations and coordinate your team without endless email chains.",
-            heroLeftTitle: "Frictionless clock-in",
+            heroLeftTitle: "One-tap clock-in",
             heroLeftDescription:
                 "Your team clocks in from mobile or web in one tap while you keep the records ready for inspection.",
             heroRightTitle: "Shared daily agenda",
