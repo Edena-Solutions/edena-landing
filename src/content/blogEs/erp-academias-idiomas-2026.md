@@ -84,7 +84,7 @@ La fortaleza de muchas academias de idiomas es combinar alumnos particulares con
 
 <br>
 
-Edena, según los módulos contratados, ofrece plataforma base con expediente, portal y app para alumnos y equipo, gestión de grupos, comunicación, autogestión y analítica; CRM con solicitudes, pipeline y formularios para la captación continua; facturación electrónica con Verifactu, cuotas y análisis de impagos; y documentación en línea. No es un producto "exclusivo de idiomas", pero cubre justo lo que una academia de idiomas necesita: rotación de grupos, matrícula continua, facturación recurrente y multisede en una sola plataforma, con soporte 24/7.
+Edena, según los módulos contratados, ofrece plataforma base con expediente, portal y app para alumnos y equipo, gestión de grupos, comunicación, autogestión y analítica; CRM con solicitudes, pipeline y formularios para la captación continua; facturación electrónica con Verifactu, cuotas y análisis de impagos; y documentación en línea. No es un producto "exclusivo de idiomas", pero cubre justo lo que una academia de idiomas necesita: rotación de grupos, matrícula continua, facturación recurrente y multisede en una sola plataforma, con soporte por email y chat.
 
 <br>
 

@@ -417,7 +417,7 @@ Digital administrative management must guarantee maximum security and regulatory
 
 :
 
-- End-to-end encryption
+- Encryption of data in transit and at rest
 - Secure cloud storage
 - Automatic backups
 - Role-based access control

@@ -25,7 +25,7 @@ faqs:
     - question: "¿Necesito todos los módulos para ver el ahorro?"
       answer: "No. Empieza con el bloque que genera más fricción: si son los cobros, el módulo de facturación. Si es la matrícula, el CRM con formularios. Si es la comunicación, evalúa si la básica es suficiente antes de contratar Pro. El ahorro aparece cuando se cierra el canal paralelo, no cuando se acumulan módulos."
     - question: "¿Cuánto tiempo tarda el equipo en adaptarse al cambio?"
-      answer: "Entre dos y seis semanas dependiendo de la frecuencia de uso y la formación. Los equipos que tienen un responsable interno designado y una guía sencilla de uso cotidiano se adaptan mucho más rápido que los que arrancan solos. Edena incluye onboarding y soporte 24/7 para acompañar esa transición."
+      answer: "Entre dos y seis semanas dependiendo de la frecuencia de uso y la formación. Los equipos que tienen un responsable interno designado y una guía sencilla de uso cotidiano se adaptan mucho más rápido que los que arrancan solos. Edena incluye onboarding y soporte por email y chat para acompañar esa transición."
     - question: "¿El ahorro de tiempo implica reducir personal?"
       answer: "No necesariamente. En la mayor parte de los centros, el tiempo recuperado se redirige hacia atención de calidad a familias, proyectos de mejora o captación. La eficiencia no es excusa para reducir plantilla: es argumento para hacer un trabajo más útil y menos repetitivo."
     - question: "¿Cómo convenzo a la dirección de que la inversión compensa?"

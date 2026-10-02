@@ -36,7 +36,7 @@ faqs:
 
 <br>
 
-Una app y un portal no son un adorno de imagen: son el canal donde fechas, pagos, avisos y documentos conviven con trazas. Cuando todo se gestiona por correo suelto o papel, secretaría repite las mismas explicaciones y la dirección pierde visibilidad sobre qué mensaje llegó, qué cuota vence o qué anexo falta. En Edena, la plataforma base incluye portal web y app móvil para familias y equipo, comunicación básica, onboarding y autogestión familiar, analítica del centro y soporte 24/7. El módulo de comunicación Pro, si se contrata, añade chat en tiempo real, notificaciones push, confirmación de lectura y comunicación segmentada por grupo o aula. Todo según el catálogo publicado: nada inventado. El beneficio real no es tecnológico, es de negocio: una sola identidad de datos conecta al tutor desde el interés inicial hasta el recibo, el expediente y los documentos, sin reconstruirlo en cinco cajas distintas.
+Una app y un portal no son un adorno de imagen: son el canal donde fechas, pagos, avisos y documentos conviven con trazas. Cuando todo se gestiona por correo suelto o papel, secretaría repite las mismas explicaciones y la dirección pierde visibilidad sobre qué mensaje llegó, qué cuota vence o qué anexo falta. En Edena, la plataforma base incluye portal web y app móvil para familias y equipo, comunicación básica, onboarding y autogestión familiar, analítica del centro y soporte por email y chat. El módulo de comunicación Pro, si se contrata, añade chat en tiempo real, notificaciones push, confirmación de lectura y comunicación segmentada por grupo o aula. Todo según el catálogo publicado: nada inventado. El beneficio real no es tecnológico, es de negocio: una sola identidad de datos conecta al tutor desde el interés inicial hasta el recibo, el expediente y los documentos, sin reconstruirlo en cinco cajas distintas.
 
 <br>
 
@@ -119,6 +119,6 @@ Un colegio de Primaria en Madrid unificó circulares, incidencias y autorizacion
 
 <br>
 
-Una app y un portal sólidos no sustituyen la relación humana: la preparan. Reducen la fricción de lo rutinario para que el equipo tenga capacidad de atender lo que importa. Con Edena, el portal, la app, la facturación, el expediente, el CRM y la documentación comparten criterio de datos, con Pro cuando la carga lo justifica y soporte 24/7 siempre. Pide una demo, pon carga real y mide a noventa días con un indicador fijo: tu equipo merece trabajar con señal, no con ruido.
+Una app y un portal sólidos no sustituyen la relación humana: la preparan. Reducen la fricción de lo rutinario para que el equipo tenga capacidad de atender lo que importa. Con Edena, el portal, la app, la facturación, el expediente, el CRM y la documentación comparten criterio de datos, con Pro cuando la carga lo justifica y soporte por email y chat siempre. Pide una demo, pon carga real y mide a noventa días con un indicador fijo: tu equipo merece trabajar con señal, no con ruido.
 
 <br>

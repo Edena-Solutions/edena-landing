@@ -88,7 +88,7 @@ Con familias heterogéneas, la segmentación mata el efecto de “cartel a todos
 - Comunicación que permita recordatorios y segmentos, y confirmación de lectura cuando aplica, para bajar el “no me enteré” genuino, no el que es excusa.
 - Analítica de impagos: antigüedad, importe, comparativa mes a mes, con filtros, para alimentar la reunión de dirección, no un pantallazo motivacional.
 - Posibilidad de añadir reglas o automatizaciones (workflows) para onboarding, recordatorios o tareas, sin multiplicar hojas de ruta a mano.
-- Soporte 24/7 y migración: la mora no baja en el día 1, pero el caos tampoco puede sumarse a un malfuncionamiento no resuelto.
+- Soporte y migración: la mora no baja en el día 1, pero el caos tampoco puede sumarse a un malfuncionamiento no resuelto.
 
 Esto conecta con la propuesta de Edena: módulo de facturación con análisis de morosidad, plataforma base, comunicación (Pro si necesitas notificaciones y segmentos fuertes), y automatización para casos concretos, sin vender módulos que el centro no va a alimentar con datos y política clara.
 
@@ -167,6 +167,6 @@ Un colegio privado de 320 familias en Valencia tenía un 11 % de cuotas impagada
 
 <br>
 
-Reducir la morosidad en colegios y guarderías con cobros automatizados es alinear calendario, mensajes, estados, analítica y criterio humano, no es instalar un recordatorio. La herramienta adecuada, como Edena, apoya a facturación, expediente, comunicación, analítica y, si lo necesitas, automatización, para bajar carga, fricción y variación, con soporte 24/7. Si quieres verlo con tus cifras, solicita una demo, descubre cómo Edena puede ayudarte a bajar tareas bajas y subir trazas altas, y automatiza hoy el control de impagos; tu equipo merece centrarse en familias y criterio, no en perseguir recibos que el sistema pudo adelantar con claridad.
+Reducir la morosidad en colegios y guarderías con cobros automatizados es alinear calendario, mensajes, estados, analítica y criterio humano, no es instalar un recordatorio. La herramienta adecuada, como Edena, apoya a facturación, expediente, comunicación, analítica y, si lo necesitas, automatización, para bajar carga, fricción y variación, con soporte por email y chat. Si quieres verlo con tus cifras, solicita una demo, descubre cómo Edena puede ayudarte a bajar tareas bajas y subir trazas altas, y automatiza hoy el control de impagos; tu equipo merece centrarse en familias y criterio, no en perseguir recibos que el sistema pudo adelantar con claridad.
 
 <br>

@@ -980,7 +980,7 @@ export default {
             ],
             howTitle: "Comment votre tarif est calculé",
             howDescription:
-                "Trois variables et aucune surprise. Nous le finalisons avec vous en 20 minutes de démo, avec les chiffres réels de votre établissement.",
+                "Trois variables et aucune surprise. Nous le finalisons avec vous en 15 minutes de démo, avec les chiffres réels de votre établissement.",
             steps: [
                 {
                     title: "La plateforme de base",
@@ -1178,7 +1178,7 @@ export default {
             "Le tableau de bord affiche des métriques en temps réel sur les présences, les inscriptions, la situation financière, les communications envoyées et la performance globale de l’établissement, pour décider sur la base des données.",
         support_type: "Quel type d’assistance technique Edena propose-t-elle ?",
         support_type_answer:
-            "Nous proposons plusieurs niveaux d’assistance selon l’offre souscrite, dont l’aide par e-mail et chat aux heures ouvrées, et une assistance prioritaire 24h/24 pour les offres Professionnel et Entreprise.",
+            "Tous les établissements bénéficient d’une assistance par e-mail et chat aux heures ouvrées, incluse dans le prix.",
         platform_customization:
             "Peut-on personnaliser la plateforme avec l’identité de l’établissement ?",
         platform_customization_answer:
@@ -1275,7 +1275,7 @@ export default {
             "Les parents reçoivent une invitation avec les instructions pour créer leur compte et accéder à l’app en toute sécurité.",
         app_security: "L’app Edena est-elle sécurisée ?",
         app_security_answer:
-            "Oui, l’app utilise le chiffrement de bout en bout et une authentification sécurisée pour protéger toutes les données.",
+            "Oui. Les données sont chiffrées pendant leur transfert et leur stockage, et l’accès exige une authentification sécurisée.",
         app_multiplatform: "L’app fonctionne-t-elle sur tous les appareils ?",
         app_multiplatform_answer:
             "L’app est compatible iOS et Android et s’adapte aux téléphones et tablettes.",
@@ -1511,7 +1511,7 @@ export default {
             "La plupart des établissements terminent en 2 semaines. Notre équipe gère migration des données, configuration et formation pour une transition fluide.",
         centers_support_levels: "Quels niveaux d’assistance Edena propose-t-elle ?",
         centers_support_levels_answer:
-            "E-mail et chat aux heures ouvrées pour toutes les offres ; assistance prioritaire 24h/24 pour Professionnel et Entreprise, avec conseiller succès dédié sur l’offre Entreprise.",
+            "Tous les établissements ont la même assistance : e-mail et chat aux heures ouvrées, incluse dans le prix. Notre équipe prend aussi en charge la migration des données et la formation initiale.",
         centers_cost_savings: "Combien mon établissement peut-il économiser avec Edena ?",
         centers_cost_savings_answer:
             "Les établissements utilisant Edena rapportent jusqu’à 40 % de réduction des coûts administratifs, 75 % de temps en moins pour intégrer les familles et plus de 37 heures hebdomadaires économisées sur les tâches répétitives.",
@@ -2939,7 +2939,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                 "Communications, présence et ressources humaines gérées par Ena directement au sein d'Edena.",
             section2Title: "Sécurité entreprise de série",
             section2Description:
-                "Sécurité intégrée et IA plus respectueuse de la vie privée qu'un chatbot générique, avec support 24/7.",
+                "Sécurité intégrée et IA plus respectueuse de la vie privée qu'un chatbot générique.",
             altHero: "Ena, l'agent d'intelligence artificielle d'Edena",
             altSection1: "Ena automatisant les tâches administratives dans Edena",
             altSection2: "Sécurité et confidentialité de l'IA d'Edena",

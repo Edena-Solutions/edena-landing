@@ -34,7 +34,7 @@ faqs:
 
 <br>
 
-Aplikazio bat eta atari bat ez dira irudien apainketa: datak, ordainketak, oharrak eta dokumentuak aztarnekin elkarbizitzen dituen kanala dira. Dena posta solte edo paper bidez kudeatzen denean, idazkaritzak azalpen berberak errepikatzen ditu eta zuzendaritzak ikusgarritasuna galtzen du zer mezu iritsi den, zer kuota duen edo zer eranskin falta den. Edena-n, oinarrizko plataformak familientzako eta taldeentzako web ataria eta mugikorreko aplikazioa, oinarrizko komunikazioa, onboarding eta familiaren autogestioa, zentroen analisiak eta 24/7 laguntza barne hartzen ditu. Pro komunikazio moduluak, kontratatuta badago, denbora errealeko txata, push jakinarazpenak, irakurketaren berrespena eta komunikazio segmentatua gehitzen ditu taldeka edo ikasgelaka. Dena argitaratutako katalogoaren arabera: ezer asmatua. Benetako etekina ez da teknologikoa, negozioa da: datu-identitate bakar batek lotzen du tutorea hasierako interesetik ordainagiria, espedientea eta dokumentuetara, bost kutxa ezberdinetan berreraiki gabe.
+Aplikazio bat eta atari bat ez dira irudien apainketa: datak, ordainketak, oharrak eta dokumentuak aztarnekin elkarbizitzen dituen kanala dira. Dena posta solte edo paper bidez kudeatzen denean, idazkaritzak azalpen berberak errepikatzen ditu eta zuzendaritzak ikusgarritasuna galtzen du zer mezu iritsi den, zer kuota duen edo zer eranskin falta den. Edena-n, oinarrizko plataformak familientzako eta taldeentzako web ataria eta mugikorreko aplikazioa, oinarrizko komunikazioa, onboarding eta familiaren autogestioa, zentroen analisiak eta posta eta txat bidezko laguntza barne hartzen ditu. Pro komunikazio moduluak, kontratatuta badago, denbora errealeko txata, push jakinarazpenak, irakurketaren berrespena eta komunikazio segmentatua gehitzen ditu taldeka edo ikasgelaka. Dena argitaratutako katalogoaren arabera: ezer asmatua. Benetako etekina ez da teknologikoa, negozioa da: datu-identitate bakar batek lotzen du tutorea hasierako interesetik ordainagiria, espedientea eta dokumentuetara, bost kutxa ezberdinetan berreraiki gabe.
 
 <br>
 
@@ -117,6 +117,6 @@ Madrilgo Lehen Hezkuntzako ikastetxe batek zirkularrak, gorabeherak eta baimenak
 
 <br>
 
-Aplikazio eta atari sendo batek ez dute giza harremana ordezkatzen: prestatzen dute. Errutinaren marruskadura murrizten dute, taldeak garrantzia duenari erantzuteko gaitasuna izan dezan. Edena-rekin, ataria, aplikazioa, fakturazioa, fitxategia, CRM eta dokumentazioa partekatzen datuak irizpideak, Pro-rekin kargak justifikatzen duenean eta beti 24/7 laguntza. Eskatu demo bat, jarri benetako karga eta neurtu laurogeita hamar egun adierazle finko batekin: zure ekipoak seinalearekin lan egitea merezi du, ez zaratarekin.
+Aplikazio eta atari sendo batek ez dute giza harremana ordezkatzen: prestatzen dute. Errutinaren marruskadura murrizten dute, taldeak garrantzia duenari erantzuteko gaitasuna izan dezan. Edena-rekin, ataria, aplikazioa, fakturazioa, fitxategia, CRM eta dokumentazioa partekatzen datuak irizpideak, Pro-rekin kargak justifikatzen duenean eta beti posta eta txat bidezko laguntza. Eskatu demo bat, jarri benetako karga eta neurtu laurogeita hamar egun adierazle finko batekin: zure ekipoak seinalearekin lan egitea merezi du, ez zaratarekin.
 
 <br>

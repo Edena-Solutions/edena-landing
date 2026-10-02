@@ -23,7 +23,7 @@ faqs:
     - question: "Necessito tots els mòduls per veure lestalvi?"
       answer: "No. Comença amb el bloc que genera més fricció: si són els cobraments, el mòdul de facturació. Si és la matrícula, el CRM amb formularis. Si és la comunicació, avalua si la bàsica és suficient abans de contractar Pro. L'estalvi apareix quan es tanca el canal paral·lel, no quan s'acumulen mòduls."
     - question: "Quant de temps triga l'equip a adaptar-se al canvi?"
-      answer: "Entre dues i sis setmanes depenent de la freqüència dús i la formació. Els equips que tenen un responsable intern designat i una guia senzilla dús quotidià sadapten molt més ràpid que els que arrenquen sols. Edena inclou onboarding i suport 24/7 per acompanyar aquesta transició."
+      answer: "Entre dues i sis setmanes depenent de la freqüència dús i la formació. Els equips que tenen un responsable intern designat i una guia senzilla dús quotidià sadapten molt més ràpid que els que arrenquen sols. Edena inclou onboarding i suport per correu i xat per acompanyar aquesta transició."
     - question: "¿L'estalvi de temps implica reduir personal?"
       answer: "No necessàriament. A la major part dels centres, el temps recuperat es redirigeix ​​cap a atenció de qualitat a famílies, projectes de millora o captació. L'eficiència no és excusa per reduir plantilla: és argument per fer una feina més útil i menys repetitiva."
     - question: "Com convenço la direcció que la inversió compensa?"

@@ -117,7 +117,7 @@ Tout par écrit. L’oral ne tient pas la rentrée.
 
 Licence, modules, mise en service, heures internes, coût d’opportunité, risque de re-migrer, croissance. Un logiciel d’apparence bon marché qui ajoute un prestataire pour caisse ou CRM s’alourdit. Décidez en euros par élève, fiabilité de recouvrement, vitesse d’inscription, heures gagnées, expérience.
 
-Edena exprime cela de façon modulaire, pour écoles, crèches, académies, formation : base, facturation, communication Pro, CRM, extras, automatisation, boutique, espace documentaire, support 24/7, pour piloter, réduire l’arriéré, traiter l’inscription, sans disperser l’outillage.
+Edena exprime cela de façon modulaire, pour écoles, crèches, académies, formation : base, facturation, communication Pro, CRM, extras, automatisation, boutique, espace documentaire, support par e-mail et chat, pour piloter, réduire l’arriéré, traiter l’inscription, sans disperser l’outillage.
 
 <br>
 

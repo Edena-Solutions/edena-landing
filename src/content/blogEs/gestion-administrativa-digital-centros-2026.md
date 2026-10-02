@@ -423,7 +423,7 @@ La gestión administrativa digital debe garantizar la máxima seguridad y cumpli
 
 :
 
-- Cifrado de extremo a extremo
+- Cifrado de los datos en tránsito y en reposo
 - Almacenamiento seguro en la nube
 - Copias de seguridad automáticas
 - Control de acceso basado en roles

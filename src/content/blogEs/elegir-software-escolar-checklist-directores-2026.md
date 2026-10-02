@@ -179,6 +179,6 @@ Una escuela infantil de 85 plazas en Girona evaluó tres proveedores con el mism
 
 <br>
 
-Elegir bien el software de tu centro no es comparar fichas de producto: es definir tu problema, hacer la demo con tus datos, calcular el coste real y leer el contrato. Edena es la plataforma que centraliza expediente, cobro, matrícula, comunicación, documentos y analítica con módulos activables según la necesidad real del centro, soporte 24/7 y acompañamiento en el proceso de cambio. Pide una demo, trae tus cinco roces principales y en noventa minutos sabrás si encaja.
+Elegir bien el software de tu centro no es comparar fichas de producto: es definir tu problema, hacer la demo con tus datos, calcular el coste real y leer el contrato. Edena es la plataforma que centraliza expediente, cobro, matrícula, comunicación, documentos y analítica con módulos activables según la necesidad real del centro, soporte por email y chat y acompañamiento en el proceso de cambio. Pide una demo, trae tus cinco roces principales y en noventa minutos sabrás si encaja.
 
 <br>

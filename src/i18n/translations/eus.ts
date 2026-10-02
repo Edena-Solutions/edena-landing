@@ -971,7 +971,7 @@ export default {
             ],
             howTitle: "Nola kalkulatzen den zure prezioa",
             howDescription:
-                "Hiru aldagai eta ezustekorik ez. Erakustaldian zurekin ixten dugu 20 minutuan, zure zentroaren datu errealekin.",
+                "Hiru aldagai eta ezustekorik ez. Erakustaldian zurekin ixten dugu 15 minutuan, zure zentroaren datu errealekin.",
             steps: [
                 {
                     title: "Oinarrizko plataforma",
@@ -1169,7 +1169,7 @@ export default {
             "Panelak denbora errealeko metrikak eskaintzen ditu asistentzia, izen-emateak, egoera finantzarioa, bidalitako komunikazioak eta zentroaren errendimendu orokorrari buruz, datuetan oinarritutako erabakiak hartzeko lagunduz.",
         support_type: "Zer motatako laguntza teknikoa eskaintzen du Edenak?",
         support_type_answer:
-            "Kontratatutako planaren arabera laguntza-maila desberdinak eskaintzen ditugu, lan-ordutegian posta eta txatez laguntza barne, eta Profesional eta Enpresarial planentzat 24/7 lehentasuneko laguntza.",
+            "Zentro guztiek lan-ordutegian posta eta txat bidezko laguntza dute, prezioan barne.",
         platform_customization: "Plataforma zentroaren nortasunarekin pertsonaliza daiteke?",
         platform_customization_answer:
             "Bai, logoa, kolore korporatiboak, komunikazio-txantiloiak eta familien aldera bidaltzen diren mezu automatikoak pertsonaliza ditzakezu zure zentroaren nortasuna islatzeko.",
@@ -1257,7 +1257,7 @@ export default {
             "Gurasoek gonbidapena jasotzen dute beren kontua sortu eta aplikaziora modu seguruan sartzeko argibideekin.",
         app_security: "Edena aplikazioa segurua da?",
         app_security_answer:
-            "Bai, aplikazioak muturretik muturrera enkriptatzea eta autentifikazio segurua erabiltzen ditu datu guztiak babesteko.",
+            "Bai. Informazioa enkriptatuta bidaltzen eta gordetzen da, eta autentifikazio seguruarekin soilik sar daiteke.",
         app_multiplatform: "Aplikazioa gailu guztietan funtzionatzen du?",
         app_multiplatform_answer:
             "Aplikazioa iOS eta Android-ekin bateragarria da, eta mugikor eta tabletetara egokitzen da.",
@@ -1490,7 +1490,7 @@ export default {
             "Zentro gehienak 2 astean daude martxan. Gure taldeak datuen migrazioa, konfigurazioa eta langileen prestakuntza kudeatzen ditu, aldaketa erraza izan dadin.",
         centers_support_levels: "Zer laguntza-maila eskaintzen ditu Edenak?",
         centers_support_levels_answer:
-            "Plan guztientzat lan-ordutegian posta eta txatez laguntza eskaintzen dugu, eta Profesional eta Enpresarial planentzat 24/7 lehentasuneko laguntza, Enpresarial planean arrakastarako aholkulari esklusibo batekin.",
+            "Zentro guztiek laguntza bera dute: posta eta txata lan-ordutegian, prezioan barne. Gainera, gure taldeak datuen migrazioa eta hasierako prestakuntza kudeatzen ditu.",
         centers_cost_savings: "Zenbat aurrez dezake nire zentroak Edenarekin?",
         centers_cost_savings_answer:
             "Edena erabiltzen duten zentroek administrazio-kostuetan %40 arte murrizketak, familien txertatze-denboran %75 gutxiago eta astero 37 ordutik gorako aurrezpena lan errepikatuetan jakinarazten dute.",
@@ -2916,7 +2916,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
                 "Komunikatuak, bertaratzea eta giza baliabideak Enak zuzenean Edena barruan kudeatuta.",
             section2Title: "Segurtasun profesionala seriez",
             section2Description:
-                "Segurtasun integratua eta chatbot generiko batek baino pribatutasun handiagoa duen IA, 24/7 laguntzarekin.",
+                "Segurtasun integratua eta chatbot generiko batek baino pribatutasun handiagoa duen IA.",
             altHero: "Ena, Edenaren adimen artifizialeko agentea",
             altSection1: "Ena ataza administratiboak automatizatzen Edenan",
             altSection2: "Edenaren IAren segurtasuna eta pribatutasuna",

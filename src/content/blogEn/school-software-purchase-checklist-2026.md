@@ -173,6 +173,6 @@ An 85-place nursery school in Girona evaluated three providers with the same che
 
 <br>
 
-Choosing the software for your center well is not about comparing product sheets: it is about defining your problem, doing the demo with your data, calculating the real cost and reading the contract. Edena is the platform that centralizes file, collection, registration, communication, documents and analytics with modules that can be activated according to the real need of the center, 24/7 support and accompaniment in the change process. Request a demo, bring your five main frictions and in ninety minutes you will know if it fits.
+Choosing the software for your center well is not about comparing product sheets: it is about defining your problem, doing the demo with your data, calculating the real cost and reading the contract. Edena is the platform that centralizes file, collection, registration, communication, documents and analytics with modules that can be activated according to the real need of the center, email and chat support and accompaniment in the change process. Request a demo, bring your five main frictions and in ninety minutes you will know if it fits.
 
 <br>

@@ -969,7 +969,7 @@ export default {
             ],
             howTitle: "Com es calcula el teu preu",
             howDescription:
-                "Tres variables i cap sorpresa. A la demostració el tanquem amb tu en 20 minuts amb les dades reals del teu centre.",
+                "Tres variables i cap sorpresa. A la demostració el tanquem amb tu en 15 minuts amb les dades reals del teu centre.",
             steps: [
                 {
                     title: "La plataforma base",
@@ -1167,7 +1167,7 @@ export default {
             "El panell ofereix mètriques en temps real sobre assistència, inscripcions, estat financer, comunicacions enviades i rendiment general del centre, ajudant a prendre decisions basades en dades.",
         support_type: "Quin tipus de suport tècnic ofereix Edena?",
         support_type_answer:
-            "Oferim diversos nivells de suport segons el pla contractat, incloent assistència per correu electrònic i xat en horari laboral, i suport prioritari 24/7 per als plans Professional i Empresarial.",
+            "Tots els centres tenen suport per correu i xat en horari laboral, inclòs en el preu.",
         platform_customization: "Es pot personalitzar la plataforma amb la identitat del centre?",
         platform_customization_answer:
             "Sí, pots personalitzar elements visuals com el logotip, colors corporatius, plantilles de comunicació i missatges automàtics que s'envien a les famílies per reflectir la identitat del teu centre.",
@@ -1257,7 +1257,7 @@ export default {
             "Els pares reben una invitació amb instruccions per crear el seu compte i accedir a l'app de forma segura.",
         app_security: "És segura l'app d'Edena?",
         app_security_answer:
-            "Sí, l'app utilitza xifratge extrem a extrem i autenticació segura per protegir totes les dades.",
+            "Sí. La informació viatja i es desa xifrada, i només s'hi accedeix amb autenticació segura.",
         app_multiplatform: "L'app funciona en tots els dispositius?",
         app_multiplatform_answer:
             "L'app és compatible amb iOS i Android, i s'adapta a mòbils i tauletes.",
@@ -1490,7 +1490,7 @@ export default {
             "La majoria de centres estan en marxa en 2 setmanes. El nostre equip s'encarrega de la migració de dades, la configuració i la formació del personal perquè el canvi sigui senzill.",
         centers_support_levels: "Quins nivells de suport ofereix Edena?",
         centers_support_levels_answer:
-            "Oferim suport per correu i xat en horari laboral per a tots els plans, i suport prioritari 24/7 per als plans Professional i Empresarial, amb un assessor d'èxit dedicat al pla Empresarial.",
+            "Tots els centres tenen el mateix suport: correu i xat en horari laboral, inclòs en el preu. A més, el nostre equip s'encarrega de la migració de dades i la formació inicial.",
         centers_cost_savings: "Quant pot estalviar el meu centre amb Edena?",
         centers_cost_savings_answer:
             "Els centres que usen Edena informen reduccions de fins a un 40% en costos administratius, un 75% menys de temps en incorporació de famílies i estalvi de més de 37 hores setmanals en tasques rutinàries.",
@@ -2919,7 +2919,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
                 "Comunicats, assistència i recursos humans gestionats per Ena directament dins d'Edena.",
             section2Title: "Seguretat professional de sèrie",
             section2Description:
-                "Seguretat integrada i IA amb més privacitat que un chatbot genèric, amb suport 24/7.",
+                "Seguretat integrada i IA amb més privacitat que un chatbot genèric.",
             altHero: "Ena, l'agent d'intel·ligència artificial d'Edena",
             altSection1: "Ena automatitzant tasques administratives a Edena",
             altSection2: "Seguretat i privacitat de la IA d'Edena",

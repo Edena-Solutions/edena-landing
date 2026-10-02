@@ -82,7 +82,7 @@ In a small or medium academy, every information request is valuable, and many ar
 
 <br>
 
-Edena, depending on the contracted modules, offers group and activity management, attendance control, electronic billing with Verifactu for fees and bundles, a CRM with applications and forms, family communication, and online documentation. It is not an exclusively tutoring product, but it covers exactly what an academy of this type needs: flexible schedules and groups, agile attendance, billing by plan, and traceable communication, all in a single platform with 24/7 support. Flexibility stays yours; manual work stops being.
+Edena, depending on the contracted modules, offers group and activity management, attendance control, electronic billing with Verifactu for fees and bundles, a CRM with applications and forms, family communication, and online documentation. It is not an exclusively tutoring product, but it covers exactly what an academy of this type needs: flexible schedules and groups, agile attendance, billing by plan, and traceable communication, all in a single platform with email and chat support. Flexibility stays yours; manual work stops being.
 
 <br>
 

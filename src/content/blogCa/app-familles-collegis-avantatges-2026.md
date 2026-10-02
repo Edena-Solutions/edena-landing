@@ -34,7 +34,7 @@ faqs:
 
 <br>
 
-Una app i un portal no són un adorn d'imatge: són el canal on dates, pagaments, avisos i documents conviuen amb traces. Quan tot es gestiona per correu solt o paper, secretaria repeteix les mateixes explicacions i l'adreça perd visibilitat sobre quin missatge va arribar, quina quota venç o quin annex hi falta. A Edena, la plataforma base inclou portal web i app mòbil per a famílies i equip, comunicació bàsica, onboarding i autogestió familiar, analítica del centre i suport 24/7. El mòdul de comunicació Pro, si es contracta, afegeix xat en temps real, notificacions push, confirmació de lectura i comunicació segmentada per grup o aula. Tot segons el catàleg publicat: gens inventat. El benefici real no és tecnològic, és de negoci: una sola identitat de dades connecta el tutor des de l'interès inicial fins al rebut, l'expedient i els documents, sense reconstruir-lo en cinc caixes diferents.
+Una app i un portal no són un adorn d'imatge: són el canal on dates, pagaments, avisos i documents conviuen amb traces. Quan tot es gestiona per correu solt o paper, secretaria repeteix les mateixes explicacions i l'adreça perd visibilitat sobre quin missatge va arribar, quina quota venç o quin annex hi falta. A Edena, la plataforma base inclou portal web i app mòbil per a famílies i equip, comunicació bàsica, onboarding i autogestió familiar, analítica del centre i suport per correu i xat. El mòdul de comunicació Pro, si es contracta, afegeix xat en temps real, notificacions push, confirmació de lectura i comunicació segmentada per grup o aula. Tot segons el catàleg publicat: gens inventat. El benefici real no és tecnològic, és de negoci: una sola identitat de dades connecta el tutor des de l'interès inicial fins al rebut, l'expedient i els documents, sense reconstruir-lo en cinc caixes diferents.
 
 <br>
 
@@ -117,6 +117,6 @@ Un col·legi de Primària a Madrid va unificar circulars, incidències i autorit
 
 <br>
 
-Una app i un portal sòlids no substitueixen la relació humana: la preparen. Redueixen la fricció del que és rutinari perquè l'equip tingui capacitat d'atendre el que importa. Amb Edena, el portal, l'app, la facturació, l'expedient, el CRM i la documentació comparteixen criteri de dades, amb Pro quan la càrrega ho justifica i suport 24/7 sempre. Demana una demo, posa càrrega real i fa noranta dies amb un indicador fix: el teu equip mereix treballar amb senyal, no amb soroll.
+Una app i un portal sòlids no substitueixen la relació humana: la preparen. Redueixen la fricció del que és rutinari perquè l'equip tingui capacitat d'atendre el que importa. Amb Edena, el portal, l'app, la facturació, l'expedient, el CRM i la documentació comparteixen criteri de dades, amb Pro quan la càrrega ho justifica i suport per correu i xat sempre. Demana una demo, posa càrrega real i fa noranta dies amb un indicador fix: el teu equip mereix treballar amb senyal, no amb soroll.
 
 <br>

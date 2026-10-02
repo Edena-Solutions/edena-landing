@@ -120,6 +120,6 @@ An 85-place nursery school in Girona evaluated three providers with the same che
 
 <br>
 
-An ERP for nursery schools in 2026 is not a technological whim: it is the difference between a team that works with criteria and traces, and one that reconstructs reality every Monday from three different sources. Choose with TCO, demo with your data and aligned committee. In Edena you can start with the modules that you are really going to power and add when the volume justifies it, with 24/7 support and no catalog surprises. Request a session and see the complete flow with your places, your collection cycle and your communication.
+An ERP for nursery schools in 2026 is not a technological whim: it is the difference between a team that works with criteria and traces, and one that reconstructs reality every Monday from three different sources. Choose with TCO, demo with your data and aligned committee. In Edena you can start with the modules that you are really going to power and add when the volume justifies it, with email and chat support and no catalog surprises. Request a session and see the complete flow with your places, your collection cycle and your communication.
 
 <br>

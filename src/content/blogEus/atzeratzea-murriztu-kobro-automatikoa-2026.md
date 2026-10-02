@@ -86,7 +86,7 @@ Familia heterogeneoekin, segmentazioak kexak sortzen dituen "kartela guztientzak
 - Oroigarriak eta segmentuak eta, hala badagokio, irakurketa berrespena ahalbidetzen duen komunikazioa, benetako “Ez nuen enteratu” murrizteko, ez aitzakia dena.
 - Ordainketarik gabeko azterketa: adina, zenbatekoa, hilabetez hileko konparaketa, iragazkiekin, zuzendaritza bilera elikatzeko, ez motibazio pantaila-argazkia.
 - onboarding, abisuak edo zereginetarako arauak edo automatizazioak (workflow) gehitzeko aukera, ibilbide-orriak eskuz biderkatu gabe.
-- 24/7 laguntza eta migrazioa: atzerapenak ez dira jaisten 1 egunean, baina kaosa ezin da konpondu gabeko matxura gehitu.
+- Laguntza eta migrazioa: atzerapenak ez dira jaisten 1 egunean, baina kaosa ezin da konpondu gabeko matxura gehitu.
 
 Honek Edena proposamenarekin lotzen du: fakturazio modulua ordainketa beranduen azterketarekin, oinarrizko plataforma, komunikazioa (Pro jakinarazpen eta segmentu sendoak behar badituzu), eta kasu zehatzetarako automatizazioa, zentroak datuekin eta politika argiekin elikatuko ez dituen moduluak saldu gabe.
 
@@ -165,6 +165,6 @@ Valentzian 320 familia dituen eskola pribatu batek %11ko kuota ordaindu gabe zit
 
 <br>
 
-Bilketa automatizatuekin ikastetxeetan eta haurtzaindegietan berandutza-ordainketak murrizteak egutegia, mezuak, egoerak, analisiak eta giza iritzia lerrokatzea esan nahi du, abisurik ez instalatzea. Tresna egokiak, Edena bezalakoak, fakturazioa, fitxategia, komunikazioa, analitika eta, behar izanez gero, automatizazioa onartzen ditu, karga, marruskadura eta aldakuntza murrizteko, 24/7 laguntzarekin. Zure zifrekin ikusi nahi baduzu, eskatu demo bat, deskubritu Edena-k nola lagun zaitzakeen zeregin baxuak murrizten eta aztarna handiak kargatzen, eta gaur egun ordainketarik gabeko kontrola automatizatzen; Zure taldeak merezi du familietan eta irizpideetan zentratzea, ez sistemak argi eta garbi aurreratu ahal izan zituen ordainagirien atzetik.
+Bilketa automatizatuekin ikastetxeetan eta haurtzaindegietan berandutza-ordainketak murrizteak egutegia, mezuak, egoerak, analisiak eta giza iritzia lerrokatzea esan nahi du, abisurik ez instalatzea. Tresna egokiak, Edena bezalakoak, fakturazioa, fitxategia, komunikazioa, analitika eta, behar izanez gero, automatizazioa onartzen ditu, karga, marruskadura eta aldakuntza murrizteko, posta eta txat bidezko laguntzarekin. Zure zifrekin ikusi nahi baduzu, eskatu demo bat, deskubritu Edena-k nola lagun zaitzakeen zeregin baxuak murrizten eta aztarna handiak kargatzen, eta gaur egun ordainketarik gabeko kontrola automatizatzen; Zure taldeak merezi du familietan eta irizpideetan zentratzea, ez sistemak argi eta garbi aurreratu ahal izan zituen ordainagirien atzetik.
 
 <br>

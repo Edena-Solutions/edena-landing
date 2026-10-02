@@ -197,6 +197,6 @@ Una academia de idiomas con 420 alumnos activos implementó formulario web, CRM 
 
 <br>
 
-Aumentar matrículas y convertir solicitudes, con CRM escolar, exige estructurar orígenes, etapas, tareas, mensaje y cierre, en la misma base que el expediente y, cuando toca, la facturación, sin saltos. Edena, con CRM, formularios, facturación, comunicación, automatización, te permite crecer con foco, no con caos, y soporte 24/7, para que admisión nunca viva a oscuras. Pide una demo, descubre el pipeline, elimina hojas paralelas, y trae a tu comité cifras que aguantan preguntas, no buenismo.
+Aumentar matrículas y convertir solicitudes, con CRM escolar, exige estructurar orígenes, etapas, tareas, mensaje y cierre, en la misma base que el expediente y, cuando toca, la facturación, sin saltos. Edena, con CRM, formularios, facturación, comunicación, automatización, te permite crecer con foco, no con caos, y soporte por email y chat, para que admisión nunca viva a oscuras. Pide una demo, descubre el pipeline, elimina hojas paralelas, y trae a tu comité cifras que aguantan preguntas, no buenismo.
 
 <br>

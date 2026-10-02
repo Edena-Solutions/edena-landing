@@ -34,7 +34,7 @@ faqs:
 
 <br>
 
-An app and a portal are not an image decoration: they are the channel where dates, payments, notices and documents coexist with traces. When everything is managed by loose mail or paper, the secretariat repeats the same explanations and the management loses visibility about what message arrived, what fee is due or what annex is missing. In Edena, the base platform includes web portal and mobile app for families and team, basic communication, onboarding and family self-management, center analytics and 24/7 support. The Pro communication module, if contracted, adds real-time chat, push notifications, reading confirmation and segmented communication by group or classroom. Everything according to the published catalog: nothing invented. The real benefit is not technological, it is business: a single data identity connects the guardian from the initial interest to the receipt, the file and the documents, without reconstructing it in five different boxes.
+An app and a portal are not an image decoration: they are the channel where dates, payments, notices and documents coexist with traces. When everything is managed by loose mail or paper, the secretariat repeats the same explanations and the management loses visibility about what message arrived, what fee is due or what annex is missing. In Edena, the base platform includes web portal and mobile app for families and team, basic communication, onboarding and family self-management, center analytics and email and chat support. The Pro communication module, if contracted, adds real-time chat, push notifications, reading confirmation and segmented communication by group or classroom. Everything according to the published catalog: nothing invented. The real benefit is not technological, it is business: a single data identity connects the guardian from the initial interest to the receipt, the file and the documents, without reconstructing it in five different boxes.
 
 <br>
 
@@ -115,6 +115,6 @@ A Primary school in Madrid unified circulars, incidents and authorizations in a 
 
 <br>
 
-A solid app and portal do not replace the human relationship: they prepare it. They reduce the friction of routine so that the team has the capacity to attend to what matters. With Edena, the portal, the app, billing, the file, the CRM and the documentation share data criteria, with Pro when the load justifies it and always 24/7 support. Request a demo, put a real load and measure ninety days with a fixed indicator: your equipment deserves to work with signal, not with noise.
+A solid app and portal do not replace the human relationship: they prepare it. They reduce the friction of routine so that the team has the capacity to attend to what matters. With Edena, the portal, the app, billing, the file, the CRM and the documentation share data criteria, with Pro when the load justifies it and always email and chat support. Request a demo, put a real load and measure ninety days with a fixed indicator: your equipment deserves to work with signal, not with noise.
 
 <br>

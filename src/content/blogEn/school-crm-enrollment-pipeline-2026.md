@@ -191,6 +191,6 @@ A language academy with 420 active students implemented a web form, CRM with sta
 
 <br>
 
-Increasing enrollment and converting requests, with school CRM, requires structuring origins, stages, tasks, message and closure, on the same basis as the file and, when necessary, billing, without jumps. Edena, with CRM, forms, billing, communication, automation, allows you to grow with focus, not with chaos, and 24/7 support, so that admission never lives in the dark. Request a demo, discover the pipeline, eliminate parallel sheets, and bring to your committee figures that bear questions, not goodism.
+Increasing enrollment and converting requests, with school CRM, requires structuring origins, stages, tasks, message and closure, on the same basis as the file and, when necessary, billing, without jumps. Edena, with CRM, forms, billing, communication, automation, allows you to grow with focus, not with chaos, and email and chat support, so that admission never lives in the dark. Request a demo, discover the pipeline, eliminate parallel sheets, and bring to your committee figures that bear questions, not goodism.
 
 <br>

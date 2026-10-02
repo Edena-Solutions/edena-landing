@@ -66,7 +66,7 @@ La plataforma aporta herramientas: acceso por rol, registro de auditoría, cifra
 
 <br>
 
-La plataforma base incluye expediente digital (datos del alumno, historial, organigrama del centro), portal y app para familias y equipo, comunicación básica, onboarding, autogestión familiar, analítica de centro y soporte 24/7. Si contratas el módulo Cloud, añades documentación en la nube, carpetas y visibilidad por grupo o alumno. Al combinar con CRM y facturación, la misma identidad del alumno acompaña al tutor desde la solicitud inicial hasta los recibos, documentos de autorización y, si aplica, las actividades extrascolares, sin que secretaría reescriba el nombre tres veces en tres sistemas distintos.
+La plataforma base incluye expediente digital (datos del alumno, historial, organigrama del centro), portal y app para familias y equipo, comunicación básica, onboarding, autogestión familiar, analítica de centro y soporte por email y chat. Si contratas el módulo Cloud, añades documentación en la nube, carpetas y visibilidad por grupo o alumno. Al combinar con CRM y facturación, la misma identidad del alumno acompaña al tutor desde la solicitud inicial hasta los recibos, documentos de autorización y, si aplica, las actividades extrascolares, sin que secretaría reescriba el nombre tres veces en tres sistemas distintos.
 
 <br>
 
@@ -153,6 +153,6 @@ Un colegio privado digitalizó autorizaciones y partes de incidencias. Tiempo me
 
 <br>
 
-Gestionar la documentación en un colegio o centro es poner límite a la improvisación: trazar expediente, carga, lectura y cierre con criterio legal y herramienta que acompañe. Edena unifica plataforma base, Cloud si aplica, CRM y facturación bajo la misma identidad de dato, con comunicación, analítica y soporte 24/7. Pide una demo y revisa expediente, nube y reducción de riesgo con tus datos reales, hoy.
+Gestionar la documentación en un colegio o centro es poner límite a la improvisación: trazar expediente, carga, lectura y cierre con criterio legal y herramienta que acompañe. Edena unifica plataforma base, Cloud si aplica, CRM y facturación bajo la misma identidad de dato, con comunicación, analítica y soporte por email y chat. Pide una demo y revisa expediente, nube y reducción de riesgo con tus datos reales, hoy.
 
 <br>

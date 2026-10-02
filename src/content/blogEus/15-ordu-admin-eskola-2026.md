@@ -23,7 +23,7 @@ faqs:
     - question: "Modulu guztiak behar al ditut aurrezkiak ikusteko?"
       answer: "Ez. Marruskadura gehien sortzen duen bloketik hasi: bilketak badira, fakturazio modulua. Erregistroa bada, inprimakiekin CRM. Komunikazioa bada, ebaluatu oinarrizkoa nahikoa den Pro kontratatu aurretik. Aurrezpena kanal paraleloa ixten denean agertzen da, ez moduluak metatzen direnean."
     - question: "Zenbat denbora behar du taldeak aldaketara egokitzeko?"
-      answer: "Bi eta sei aste artean erabilera eta entrenamenduaren maiztasunaren arabera. Barne-buru izendatua eta eguneroko erabilerarako gida erraz bat duten taldeak beren kabuz hasten direnak baino askoz azkarrago moldatzen dira. Edena onboarding eta 24/7 laguntza barne hartzen ditu trantsizio horrekin laguntzeko."
+      answer: "Bi eta sei aste artean erabilera eta entrenamenduaren maiztasunaren arabera. Barne-buru izendatua eta eguneroko erabilerarako gida erraz bat duten taldeak beren kabuz hasten direnak baino askoz azkarrago moldatzen dira. Edena onboarding eta posta eta txat bidezko laguntza barne hartzen ditu trantsizio horrekin laguntzeko."
     - question: "Denbora aurrezteak langileak murriztea esan nahi du?"
       answer: "Ez derrigorrez. Zentro gehienetan, berreskuratutako denbora familientzako kalitatezko arretara, hobekuntza proiektuetara edo kontrataziora bideratzen da. Eraginkortasuna ez da aitzakia langileak murrizteko: lan erabilgarriagoa eta ez hain errepikakorra egiteko argudioa da."
     - question: "Nola konbentzituko dut zuzendaritza inbertsioa ordaintzen dela?"

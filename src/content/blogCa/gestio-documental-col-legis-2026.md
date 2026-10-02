@@ -64,7 +64,7 @@ La plataforma aporta eines: accés per rol, registre d'auditoria, xifratge, carp
 
 <br>
 
-La plataforma base inclou expedient digital (dades de l'alumne, historial, organigrama del centre), portal i app per a famílies i equip, comunicació bàsica, onboarding, autogestió familiar, analítica de centre i suport 24/7. Si contractes el mòdul Cloud, afegeixes documentació al núvol, carpetes i visibilitat per grup o alumne. En combinar amb CRM i facturació, la mateixa identitat de l'alumne acompanya el tutor des de la sol·licitud inicial fins als rebuts, documents d'autorització i, si escau, les activitats extrascolars, sense que secretaria reescrigui el nom tres vegades en tres sistemes diferents.
+La plataforma base inclou expedient digital (dades de l'alumne, historial, organigrama del centre), portal i app per a famílies i equip, comunicació bàsica, onboarding, autogestió familiar, analítica de centre i suport per correu i xat. Si contractes el mòdul Cloud, afegeixes documentació al núvol, carpetes i visibilitat per grup o alumne. En combinar amb CRM i facturació, la mateixa identitat de l'alumne acompanya el tutor des de la sol·licitud inicial fins als rebuts, documents d'autorització i, si escau, les activitats extrascolars, sense que secretaria reescrigui el nom tres vegades en tres sistemes diferents.
 
 <br>
 
@@ -151,6 +151,6 @@ Un col·legi privat va digitalitzar autoritzacions i comunicats d'incidències. 
 
 <br>
 
-Gestionar la documentació a un col·legi o centre és posar límit a la improvisació: traçar expedient, càrrega, lectura i tancament amb criteri legal i eina que acompanyi. Edena unifica plataforma base, Cloud si s'aplica, CRM i facturació sota la mateixa identitat de dada, amb comunicació, analítica i suport 24/7. Demana una demo i revisa expedient, núvol i reducció de risc amb les teves dades reals, avui.
+Gestionar la documentació a un col·legi o centre és posar límit a la improvisació: traçar expedient, càrrega, lectura i tancament amb criteri legal i eina que acompanyi. Edena unifica plataforma base, Cloud si s'aplica, CRM i facturació sota la mateixa identitat de dada, amb comunicació, analítica i suport per correu i xat. Demana una demo i revisa expedient, núvol i reducció de risc amb les teves dades reals, avui.
 
 <br>

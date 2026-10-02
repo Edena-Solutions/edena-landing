@@ -421,7 +421,7 @@ La gestion administrative numérique doit garantir une sécurité maximale et un
 
 :
 
-- Chiffrement de bout en bout
+- Chiffrement des données en transit et au repos
 - Stockage cloud sécurisé
 - Sauvegardes automatiques
 - Contrôle d'accès basé sur les rôles
