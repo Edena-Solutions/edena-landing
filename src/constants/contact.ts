@@ -5,4 +5,4 @@ export const WHATSAPP_NUMBERS = [
 ] as const;
 
 /** The line behind the floating "Let's talk" button. */
-export const WHATSAPP_CHAT = WHATSAPP_NUMBERS[1];
+export const WHATSAPP_CHAT = WHATSAPP_NUMBERS[0];
