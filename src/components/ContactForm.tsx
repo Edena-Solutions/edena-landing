@@ -8,7 +8,6 @@ import {
     GraduationCap,
     Handshake,
     Mail,
-    MapPin,
     Check,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -298,7 +297,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                             <p className="text-muted-foreground">{CONTACT_EMAIL}</p>
                         </div>
                     </div>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-start gap-2">
                         <span className="flex size-10 shrink-0 items-center justify-center rounded bg-background">
                             <WhatsAppLogo className="size-5 text-foreground" />
                         </span>
@@ -315,17 +314,6 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                                     {number.display}
                                 </a>
                             ))}
-                        </div>
-                    </div>
-                    <div className="flex items-center gap-2">
-                        <span className="flex size-10 shrink-0 items-center justify-center rounded bg-background">
-                            <MapPin className="size-5" />
-                        </span>
-                        <div className="text-sm">
-                            <p className="text-[10px] uppercase tracking-widest">
-                                {ct.locationLabel}
-                            </p>
-                            <p className="text-muted-foreground">{ct.locationValue}</p>
                         </div>
                     </div>
                 </div>
