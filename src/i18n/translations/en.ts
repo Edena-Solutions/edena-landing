@@ -6,6 +6,8 @@ export default {
     noCreditCardRequired: "No credit card required | Cancel anytime",
     downloadTheApp: "Download Free App",
     changeWebsiteLanguage: "Select language",
+    appearance: "Appearance",
+    theme: { light: "Switch to light mode", dark: "Switch to dark mode" },
     knowMore: "Know More",
     meta: {
         homeTitle: "School Management Software | Educational ERP · Edena",

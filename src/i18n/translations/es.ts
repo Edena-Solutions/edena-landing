@@ -6,6 +6,8 @@ export default {
     noCreditCardRequired: "Sin tarjeta de crédito | Cancela cuando quieras",
     downloadTheApp: "Descarga la app gratuita",
     changeWebsiteLanguage: "Seleccionar idioma",
+    appearance: "Apariencia",
+    theme: { light: "Cambiar a modo claro", dark: "Cambiar a modo oscuro" },
     knowMore: "Saber más",
     meta: {
         homeTitle: "Software de Gestión Escolar | ERP Educativo · Edena",

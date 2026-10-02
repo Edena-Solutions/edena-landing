@@ -6,6 +6,8 @@ export default {
     noCreditCardRequired: "Kreditu-txartelik gabe | Bertan behera utzi nahi duzunean",
     downloadTheApp: "Deskargatu doako aplikazioa",
     changeWebsiteLanguage: "Hautatu hizkuntza",
+    appearance: "Itxura",
+    theme: { light: "Aldatu modu argira", dark: "Aldatu modu ilunera" },
     knowMore: "Gehiago jakin",
     meta: {
         homeTitle: "Eskola Kudeaketa Softwarea | Hezkuntza ERPa · Edena",

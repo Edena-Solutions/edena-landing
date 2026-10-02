@@ -475,7 +475,7 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                         <Button>{t.registerButton}</Button>
                     </Link>
                     <LanguageSwitcher currentLang={lang} />
-                    <ThemeToggle />
+                    <ThemeToggle labels={t.theme} />
                 </div>
 
                 <div
@@ -545,7 +545,13 @@ const MainNavigationMenu = ({ lang, className }: Props) => {
                                     {t.changeWebsiteLanguage}
                                 </p>
                                 <LanguageSwitcher currentLang={lang} />
-                                <ThemeToggle className="mt-4" />
+                            </div>
+                            <div className="flex items-center justify-between gap-3 rounded bg-secondary py-1.5 pl-4 pr-1.5">
+                                <span className="text-sm font-medium">{t.appearance}</span>
+                                <ThemeToggle
+                                    labels={t.theme}
+                                    className="bg-background hover:bg-background/80"
+                                />
                             </div>
                             <div className="flex flex-col gap-2 py-4">
                                 <Link href={p("/demo")}>

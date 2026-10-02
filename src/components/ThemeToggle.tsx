@@ -23,7 +23,13 @@ function applyTheme(theme: "light" | "dark") {
     if (meta) meta.setAttribute("content", theme === "dark" ? "#0a0a0a" : "#ffffff");
 }
 
-export function ThemeToggle({ className }: { className?: string }) {
+export function ThemeToggle({
+    labels,
+    className,
+}: {
+    labels: { light: string; dark: string };
+    className?: string;
+}) {
     const [mounted, setMounted] = React.useState(false);
     const [theme, setTheme] = React.useState<"light" | "dark">("light");
 
@@ -56,7 +62,7 @@ export function ThemeToggle({ className }: { className?: string }) {
     }
 
     const isDark = theme === "dark";
-    const label = isDark ? "Switch to light mode" : "Switch to dark mode";
+    const label = isDark ? labels.light : labels.dark;
 
     return (
         <Button

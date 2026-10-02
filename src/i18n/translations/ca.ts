@@ -6,6 +6,8 @@ export default {
     noCreditCardRequired: "Sense targeta de crèdit | Cancel·la quan vulguis",
     downloadTheApp: "Descarrega l'app gratuïta",
     changeWebsiteLanguage: "Seleccionar idioma",
+    appearance: "Aparença",
+    theme: { light: "Canviar a mode clar", dark: "Canviar a mode fosc" },
     knowMore: "Saber més",
     meta: {
         homeTitle: "Programari de Gestió Escolar | ERP Educatiu · Edena",
