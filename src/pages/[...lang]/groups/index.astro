@@ -2,18 +2,16 @@
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
-import Hero from "@/components/Hero.astro";
-import Section from "@/components/Section.astro";
-import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from "@/modules/groups/FAQs.astro";
-import Features from "@/components/Features";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductHero from "@/modules/product/ProductHero.astro";
+import ProductSplit from "@/modules/product/ProductSplit.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import GroupsScenes from "@/modules/product/scenes/GroupsScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import heroImage from "@/assets/img/screenshots/shared/organization.png";
-import heroImageDark from "@/assets/img/screenshots/shared/dark/organization.png";
-import reportingImage from "@/assets/img/screenshots/finance/billing_info.png";
-import reportingImageDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
-import sharedOrg from "@/assets/img/screenshots/shared/hero.png";
-import sharedOrgDark from "@/assets/img/screenshots/shared/dark/hero.png";
-import chatAnimation from "@/assets/animations/chat.json";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -25,6 +23,9 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const base = productSceneLabels(t);
+const labels = { ...base, gr: t.groupsScenes };
+const locale = intlLocaleForLang(lang);
 
 const faqsCollection = await getCollection("faqs");
 const groupsFaqs = faqsCollection.find((entry) => entry.id === "faqsGroups.md");
@@ -76,59 +77,38 @@ const features = [
         ...ogFromAsset(heroImage, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
-    <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero
-            t={t}
-            heroImage={heroImage}
-            heroImageDark={heroImageDark}
-            showBookDemoInHero={true}
-            mainTitle={t.groups.mainTitle}
-            mainDescription={t.groups.mainDescription}
-            leftCard={{
-                title: t.groups.communicationTitle,
-                description: t.groups.communicationDescription,
-                showButton: true,
-            }}
-            rightCard={{
-                title: t.groups.automationTitle,
-                description: t.groups.automationDescription,
-                image: sharedOrg,
-                imageDark: sharedOrgDark,
-                altText: t.altText.organization,
-            }}
-        />
-        <Features
-            client:load
-            t={t}
-            features={features}
-            title={t.groups.integratedManagementTitle}
-            description={t.groups.integratedManagementDescription}
-        />
-        <Section
-            t={t}
-            sectionTitle={t.groups.networkSectionTitle}
-            sectionDescription={t.groups.networkSectionDescription}
-            leftCard={{
-                title: t.groups.realTimeCommunicationTitle,
-                description: t.groups.realTimeCommunicationDescription,
-                lottie: chatAnimation,
-                imageClass: "w-1/3 mx-auto",
-                cardClass: "md:h-120 overflow-hidden h-100",
-                altText: t.altText.notifications,
-            }}
-            rightCard={{
-                title: t.groups.financialAutomationTitle,
-                description: t.groups.financialAutomationDescription,
-                image: reportingImage,
-                imageDark: reportingImageDark,
-                imageClass: "w-full mx-auto",
-                cardClass: "h-80 md:h-120 overflow-hidden",
-                altText: t.altText.invoiceAnalytics,
-            }}
-        />
-        <FAQs t={t} />
-    </GSAPSection>
+    <HomeMotion />
+    <ProductHero t={t} title={t.groups.mainTitle} description={t.groups.mainDescription} bleed>
+        <GroupsScenes slot="visual" client:visible scene="network" labels={labels} locale={locale} />
+    </ProductHero>
+    <ProductSplit
+        t={t}
+        left={{ title: t.groups.communicationTitle, description: t.groups.communicationDescription, cta: true, bleed: true }}
+        right={{ title: t.groups.automationTitle, description: t.groups.automationDescription, bleed: true }}
+    >
+        <GroupsScenes slot="left" client:visible scene="compare" labels={labels} locale={locale} />
+        <GroupsScenes slot="right" client:visible scene="billing" labels={labels} locale={locale} />
+    </ProductSplit>
+    <FeatureGrid t={t} features={features} title={t.groups.integratedManagementTitle} description={t.groups.integratedManagementDescription} />
+    <ProductSplit
+        t={t}
+        title={t.groups.networkSectionTitle}
+        description={t.groups.networkSectionDescription}
+        left={{ title: t.groups.realTimeCommunicationTitle, description: t.groups.realTimeCommunicationDescription, bleed: true }}
+        right={{ title: t.groups.financialAutomationTitle, description: t.groups.financialAutomationDescription, bleed: true }}
+    >
+        <GroupsScenes slot="left" client:visible scene="broadcast" labels={labels} locale={locale} />
+        <GroupsScenes slot="right" client:visible scene="report" labels={labels} locale={locale} />
+    </ProductSplit>
+    <ProductFaqs
+        t={t}
+        title={t.faqs.groups?.title ?? t.faqs.title}
+        description={t.faqs.groups?.description ?? t.faqs.description}
+        faqs={groupsFaqs?.data.faqs ?? []}
+    />
+    <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
         name="Edena - Gestión para Grupos Educativos"

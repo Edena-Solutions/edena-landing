@@ -38,26 +38,28 @@ const times = ["09:41", "09:42", "09:44"];
         data-expand-ground
     >
         <div
-            class="absolute left-1/2 top-[-20rem] h-[40rem] w-[60rem] -translate-x-1/2 animate-ds-aurora rounded-full opacity-40 blur-3xl"
-            style="background: radial-gradient(closest-side at 35% 50%, rgb(34 211 238 / 0.55), transparent), radial-gradient(closest-side at 65% 50%, rgb(163 230 53 / 0.45), transparent)"
+            class="ds-ena-stage-aurora absolute left-1/2 -translate-x-1/2 animate-ds-aurora rounded-full blur-3xl"
+            aria-hidden="true"
         >
         </div>
     </div>
 
     <div class="ds-container ds-section px-5 sm:px-8 lg:px-12">
-        <div class="mx-auto flex max-w-3xl flex-col items-center gap-6 text-center" data-reveal-group>
-            <div class="relative size-36" data-reveal="scale">
-                <div
-                    class="absolute inset-[-40%] animate-ds-angle rounded-full opacity-80 blur-2xl"
-                    style="background: conic-gradient(from var(--ds-angle), #22d3ee, #22c55e, #bef264, #14b8a6, #22d3ee)"
-                >
+        <div class="mx-auto flex max-w-3xl flex-col items-center gap-8 text-center sm:gap-10" data-reveal-group>
+            <div class="overflow-visible py-8 sm:py-10 md:py-12" data-reveal="scale">
+                <div class="relative mx-auto size-36 sm:size-[9.5rem]">
+                    <div
+                        class="absolute inset-[-40%] animate-ds-angle rounded-full opacity-80 blur-2xl"
+                        style="background: conic-gradient(from var(--ds-angle), #22d3ee, #22c55e, #bef264, #14b8a6, #22d3ee)"
+                    >
+                    </div>
+                    <EnaClover
+                        size={9}
+                        alive
+                        alt={enaSection.badge}
+                        className="relative z-10 mx-auto drop-shadow-[0_12px_24px_rgb(34_197_94_/_0.35)]"
+                    />
                 </div>
-                <EnaClover
-                    size={9}
-                    alive
-                    alt={enaSection.badge}
-                    className="relative drop-shadow-[0_12px_24px_rgb(34_197_94_/_0.35)]"
-                />
             </div>
             <h2 class="type-display-2 text-gradient-ink max-w-xl pb-1" data-reveal>{enaSection.title}</h2>
             <p class="type-lead max-w-2xl text-ink-2" data-reveal>{enaSection.description}</p>

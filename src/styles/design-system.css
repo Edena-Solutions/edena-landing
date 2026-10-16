@@ -1707,6 +1707,17 @@ html.dark [data-ena] .material-glass {
         inset 0 0 0 1px rgb(0 0 0 / 0.08);
 }
 
+/* Soft aurora behind the Ena stage — large, lifted toward the section top. */
+[data-ena] .ds-ena-stage-aurora {
+    top: clamp(-40rem, -34vw, -26rem);
+    width: clamp(44rem, 95vw, 88rem);
+    height: clamp(48rem, 72vw, 64rem);
+    opacity: 0.62;
+    background:
+        radial-gradient(farthest-side at 35% 48%, rgb(34 211 238 / 0.72), transparent 72%),
+        radial-gradient(farthest-side at 65% 48%, rgb(163 230 53 / 0.62), transparent 72%);
+}
+
 @media (prefers-reduced-motion: reduce) {
     .ds-nav #mobile-nav-menu {
         transition: opacity 200ms ease;

@@ -2,18 +2,18 @@
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
-import Hero from "@/components/Hero.astro";
-import Section from "@/components/Section.astro";
-import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from "@/modules/dashboard/FAQs.astro";
-import Features from "@/components/Features";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductHero from "@/modules/product/ProductHero.astro";
+import ProductSplit from "@/modules/product/ProductSplit.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import DashboardScenes from "@/modules/product/scenes/DashboardScenes";
+import TrackingScenes from "@/modules/product/scenes/TrackingScenes";
+import CommunicationScenes from "@/modules/product/scenes/CommunicationScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import heroImage from "@/assets/img/screenshots/finance/invoice_analytics.png";
-import heroImageDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
-import quickActions from "@/assets/img/screenshots/dashboard/dashboard_quickactions.png";
-import quickActionsDark from "@/assets/img/screenshots/dashboard/dark/dashboard_quickactions.png";
-import notificationAnimation from "@/assets/animations/notification.json";
-import calendar from "@/assets/img/screenshots/dashboard/dashboard_calendar.png";
-import calendarDark from "@/assets/img/screenshots/dashboard/dark/dashboard_calendar.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -25,6 +25,11 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const base = productSceneLabels(t);
+const labels = { ...base, db: t.dashboardScenes };
+const trackingLabels = { ...base, tr: t.trackingScenes };
+const communicationLabels = { ...base, c: t.communicationScenes };
+const locale = intlLocaleForLang(lang);
 
 const faqsCollection = await getCollection("faqs");
 const dashboardFaqs = faqsCollection.find((entry) => entry.id === "faqsDashboard.md");
@@ -76,60 +81,38 @@ const features = [
         ...ogFromAsset(heroImage, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
-    <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero
-            t={t}
-            heroImage={heroImage}
-            heroImageDark={heroImageDark}
-            showBookDemoInHero={true}
-            mainTitle={t.dashboard.mainTitle}
-            mainDescription={t.dashboard.mainDescription}
-            leftCard={{
-                title: t.dashboard.notificationsTitle,
-                description: t.dashboard.notificationsDescription,
-                showButton: true,
-            }}
-            rightCard={{
-                title: t.dashboard.quickActionsTitle,
-                description: t.dashboard.quickActionsDescription,
-                image: quickActions,
-                imageDark: quickActionsDark,
-                imageClass: "object-cover md:w-1/3 mx-auto",
-                cardClass: "h-110",
-                altText: t.altText.quickActions,
-            }}
-        />
-        <Features
-            client:load
-            t={t}
-            features={features}
-            title={t.features.dashboardFeatures.title}
-            description={t.features.dashboardFeatures.tagline}
-        />
-        <Section
-            t={t}
-            sectionTitle={t.dashboard.notificationsAndCalendarTitle}
-            sectionDescription={t.dashboard.notificationsAndCalendarDescription}
-            leftCard={{
-                title: t.dashboard.calendarTitle,
-                description: t.dashboard.calendarDescription,
-                image: calendar,
-                imageDark: calendarDark,
-                altText: t.altText.calendar,
-                cardClass: "md:h-90",
-            }}
-            rightCard={{
-                title: t.dashboard.realTimeNotificationsExtendedTitle,
-                description: t.dashboard.realTimeNotificationsExtendedDescription,
-                lottie: notificationAnimation,
-                imageClass: "w-full md:w-2/3 mx-auto",
-                cardClass: "h-90",
-                altText: t.altText.notifications,
-            }}
-        />
-        <FAQs t={t} />
-    </GSAPSection>
+    <HomeMotion />
+    <ProductHero t={t} title={t.dashboard.mainTitle} description={t.dashboard.mainDescription} bleed>
+        <DashboardScenes slot="visual" client:visible scene="overview" labels={labels} locale={locale} />
+    </ProductHero>
+    <ProductSplit
+        t={t}
+        left={{ title: t.dashboard.notificationsTitle, description: t.dashboard.notificationsDescription, cta: true, bleed: true }}
+        right={{ title: t.dashboard.quickActionsTitle, description: t.dashboard.quickActionsDescription, bleed: true }}
+    >
+        <DashboardScenes slot="left" client:visible scene="alerts" labels={labels} locale={locale} />
+        <DashboardScenes slot="right" client:visible scene="quick" labels={labels} locale={locale} />
+    </ProductSplit>
+    <FeatureGrid t={t} features={features} title={t.features.dashboardFeatures.title} description={t.features.dashboardFeatures.tagline} />
+    <ProductSplit
+        t={t}
+        title={t.dashboard.notificationsAndCalendarTitle}
+        description={t.dashboard.notificationsAndCalendarDescription}
+        left={{ title: t.dashboard.calendarTitle, description: t.dashboard.calendarDescription, bleed: true }}
+        right={{ title: t.dashboard.realTimeNotificationsExtendedTitle, description: t.dashboard.realTimeNotificationsExtendedDescription, bleed: true }}
+    >
+        <TrackingScenes slot="left" client:visible scene="week" labels={trackingLabels} locale={locale} />
+        <CommunicationScenes slot="right" client:visible scene="delivered" labels={communicationLabels} locale={locale} />
+    </ProductSplit>
+    <ProductFaqs
+        t={t}
+        title={t.faqs.dashboard?.title ?? t.faqs.title}
+        description={t.faqs.dashboard?.description ?? t.faqs.description}
+        faqs={dashboardFaqs?.data.faqs ?? []}
+    />
+    <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
         name="Edena - Panel de Control Escolar"

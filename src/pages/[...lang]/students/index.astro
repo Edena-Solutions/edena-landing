@@ -1,19 +1,16 @@
 ---
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
-import Section from "@/components/Section.astro";
-import Hero from "@/components/Hero.astro";
-import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from "@/modules/students/FAQs.astro";
-import Features from "@/components/Features";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductHero from "@/modules/product/ProductHero.astro";
+import ProductSplit from "@/modules/product/ProductSplit.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import StudentsScenes from "@/modules/product/scenes/StudentsScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import studentDetail from "@/assets/img/screenshots/students/student_detail.png";
-import studentDetailDark from "@/assets/img/screenshots/students/dark/student_detail.png";
-import educationLevel from "@/assets/img/screenshots/students/student_classroom.png";
-import educationLevelDark from "@/assets/img/screenshots/students/dark/student_classroom.png";
-import organization from "@/assets/img/screenshots/shared/organization.png";
-import organizationDark from "@/assets/img/screenshots/shared/dark/organization.png";
-import studentEvaluation from "@/assets/img/screenshots/students/student_evaluation.png";
-import studentEvaluationDark from "@/assets/img/screenshots/students/dark/student_evaluation.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -23,6 +20,9 @@ export function getStaticPaths() {
 }
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const base = productSceneLabels(t);
+const labels = { ...base, st: t.studentsScenes };
+const locale = intlLocaleForLang(lang);
 
 const faqsCollection = await getCollection("faqs");
 const studentsFaqs = faqsCollection.find((entry) => entry.id === "faqsStudents.md");
@@ -74,56 +74,38 @@ const features = [
         ...ogFromAsset(studentDetail, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
-    <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero
-            t={t}
-            heroImage={studentDetail}
-            heroImageDark={studentDetailDark}
-            mainTitle={t.students.mainTitle}
-            mainDescription={t.students.mainDescription}
-            showBookDemoInHero={true}
-            leftCard={{
-                title: t.students.studentInvoicingTitle,
-                description: t.students.studentInvoicingDescription,
-                showButton: true,
-            }}
-            rightCard={{
-                title: t.students.studentDetailTitle,
-                description: t.students.studentDetailDescription,
-                image: studentEvaluation,
-                imageDark: studentEvaluationDark,
-                altText: t.altText.studentDetail,
-            }}
-        />
-        <Features
-            client:load
-            t={t}
-            features={features}
-            title={t.features.studentFeatures.title}
-            description={t.features.studentFeatures.tagline}
-        />
-        <Section
-            t={t}
-            sectionTitle={t.students.organizationTitle}
-            sectionDescription={t.students.organizationDescription}
-            leftCard={{
-                title: t.students.classroomsTitle,
-                description: t.students.classroomsDescription,
-                image: organization,
-                imageDark: organizationDark,
-                altText: t.altText.organization,
-            }}
-            rightCard={{
-                title: t.students.classroomsDetailsTitle,
-                description: t.students.classroomsDetailsDescription,
-                image: educationLevel,
-                imageDark: educationLevelDark,
-                altText: t.altText.studentClassroom,
-            }}
-        />
-        <FAQs t={t} />
-    </GSAPSection>
+    <HomeMotion />
+    <ProductHero t={t} title={t.students.mainTitle} description={t.students.mainDescription} bleed>
+        <StudentsScenes slot="visual" client:visible scene="record" labels={labels} locale={locale} />
+    </ProductHero>
+    <ProductSplit
+        t={t}
+        left={{ title: t.students.studentInvoicingTitle, description: t.students.studentInvoicingDescription, cta: true, bleed: true }}
+        right={{ title: t.students.studentDetailTitle, description: t.students.studentDetailDescription, bleed: true }}
+    >
+        <StudentsScenes slot="left" client:visible scene="billing" labels={labels} locale={locale} />
+        <StudentsScenes slot="right" client:visible scene="grades" labels={labels} locale={locale} />
+    </ProductSplit>
+    <FeatureGrid t={t} features={features} title={t.features.studentFeatures.title} description={t.features.studentFeatures.tagline} />
+    <ProductSplit
+        t={t}
+        title={t.students.organizationTitle}
+        description={t.students.organizationDescription}
+        left={{ title: t.students.classroomsTitle, description: t.students.classroomsDescription, bleed: true }}
+        right={{ title: t.students.classroomsDetailsTitle, description: t.students.classroomsDetailsDescription, bleed: true }}
+    >
+        <StudentsScenes slot="left" client:visible scene="structure" labels={labels} locale={locale} />
+        <StudentsScenes slot="right" client:visible scene="classroom" labels={labels} locale={locale} />
+    </ProductSplit>
+    <ProductFaqs
+        t={t}
+        title={t.faqs.students?.title ?? t.faqs.title}
+        description={t.faqs.students?.description ?? t.faqs.description}
+        faqs={studentsFaqs?.data.faqs ?? []}
+    />
+    <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
         name="Edena - Sistema de Información Estudiantil"
