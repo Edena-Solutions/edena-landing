@@ -1,78 +1,92 @@
 ---
-import { Card, CardHeader } from "@/components/ui/card";
-import GSAPSection from "@/components/ui/gsap-section";
-import AnimatedCounter from "@/components/AnimatedCounter";
-import TopGlow from "@/components/TopGlow.astro";
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import type { Translation } from "@/i18n";
+
+/*
+ * Results, set the way Apple sets a number: large, tight, and counted up once on arrival (the real
+ * figure is what the markup carries; the count is only motion). The headline figure gets activity
+ * rings in Edena's greens.
+ */
+interface Props {
+    t: Translation;
+}
+
 const { t } = Astro.props;
-const cases: Array<{ stat: string; description: string; bg: string }> = t.erpStats.cases.slice(
-    0,
-    5,
-);
-const bgClass = (bg: string) => {
-    if (bg === "dark") return "invert";
-    if (bg === "light") return "bg-card";
-    return "bg-card";
-};
-const cardBgClass = (bg: string) => {
-    if (bg === "highlight") {
-        return "relative overflow-hidden bg-card";
-    }
-    return "";
-};
-const cardProps = [
-    { area: "main", extra: "p-8 flex flex-col sm:justify-end" },
-    { area: "stat1", extra: "flex flex-col items-start sm:justify-end p-8" },
-    { area: "highlight1", extra: "flex flex-col items-start sm:justify-end p-8" },
-    { area: "stat2", extra: "flex flex-col items-start sm:justify-end p-8" },
-    { area: "stat3", extra: "flex flex-col items-start sm:justify-end p-8" },
+const { erpStats } = t;
+const [lead, ...rest] = erpStats.cases.slice(0, 5);
+
+/** Three rings, outermost first: radius on a 120 box, and how far each closes. */
+const rings = [
+    { r: 52, to: 8, color: "#a3e635" },
+    { r: 39, to: 22, color: "#22c55e" },
+    { r: 26, to: 36, color: "#14b8a6" },
 ];
 ---
 
-<GSAPSection client:load className="flex flex-col gap-16 items-center">
-    <div class="flex flex-col gap-4 text-center px-4 max-w-2xl">
-        <h2
-            class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
-        >
-            {t.erpStats.title}
-        </h2>
-        <p class="text-muted-foreground max-w-2xl mx-auto">{t.erpStats.description}</p>
-    </div>
-    <div
-        class="grid w-full max-w-7xl gap-4 px-4
-      grid-cols-2
-      lg:[grid-template-areas:'main_main_stat1''highlight1_stat2_stat3']
-      lg:[grid-template-columns:2fr_1.2fr_1.2fr]
-      lg:[grid-template-rows:1.2fr_1fr]
-      lg:grid-cols-3
-      lg:auto-rows-fr"
-    >
-        {
-            cases.map((c: { stat: string; description: string; bg: string }, i: number) => (
-                <Card
-                    className={
-                        bgClass(c.bg) +
-                        ` rounded ${cardProps[i].extra} ` +
-                        (i === 0 ? "col-span-2 " : "") +
-                        `lg:[grid-area:${cardProps[i].area}] ` +
-                        cardBgClass(c.bg)
+<section class="ds-section">
+    <div class="ds-container">
+        <SectionHeader title={erpStats.title} description={erpStats.description} />
+
+        <div class="mt-14 grid grid-cols-2 gap-4 lg:grid-cols-4" data-reveal-group>
+            <article
+                class="ds-tile col-span-2 flex min-h-[22rem] flex-col justify-between gap-10 p-8 sm:p-10 lg:row-span-2"
+                data-reveal="scale"
+            >
+                <svg viewBox="0 0 120 120" class="size-36 -rotate-90 sm:size-44" aria-hidden="true">
+                    {
+                        rings.map((ring, index) => (
+                            <g>
+                                <circle cx="60" cy="60" r={ring.r} fill="none" stroke={ring.color} stroke-opacity="0.18" stroke-width="10" />
+                                <circle
+                                    class="stat-ring"
+                                    cx="60"
+                                    cy="60"
+                                    r={ring.r}
+                                    fill="none"
+                                    stroke={ring.color}
+                                    stroke-width="10"
+                                    stroke-linecap="round"
+                                    pathLength="100"
+                                    style={`--to:${ring.to};--i:${index}`}
+                                />
+                            </g>
+                        ))
                     }
-                >
-                    {c.bg === "highlight" && <TopGlow />}
-                    <CardHeader
-                        className={`p-0 pb-4 ${c.bg === "highlight" ? "relative z-10" : ""}`}
-                    >
-                        <AnimatedCounter
-                            value={c.stat}
-                            duration={2500}
-                            className="text-4xl sm:text-5xl font-bold"
-                            client:load
-                        />
-                    </CardHeader>
-                    <div class={`text-sm ${c.bg === "highlight" ? "relative z-10" : ""}`}>
-                        {c.description}
-                    </div>
-                </Card>
-            ))
-        }
+                </svg>
+                <div>
+                    <p class="type-stat text-gradient-brand" data-count>{lead.stat}</p>
+                    <p class="mt-4 max-w-sm type-body text-ink-2">{lead.description}</p>
+                </div>
+            </article>
+
+            {
+                rest.map((item) => (
+                    <article class="ds-tile flex min-h-[13rem] flex-col justify-between gap-6 p-6 sm:p-7" data-reveal="scale">
+                        <p
+                            class="text-[2.6rem] font-semibold leading-none tracking-[-0.045em] text-ink sm:text-[3.25rem]"
+                            data-count
+                        >
+                            {item.stat}
+                        </p>
+                        <p class="type-callout text-ink-2">{item.description}</p>
+                    </article>
+                ))
+            }
+        </div>
     </div>
-</GSAPSection>
+</section>
+
+<style>
+    .stat-ring {
+        stroke-dasharray: 100;
+        stroke-dashoffset: var(--to);
+        transition: stroke-dashoffset 1.8s var(--ease-out-expo);
+        transition-delay: calc(var(--i) * 150ms + 250ms);
+    }
+
+    @media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+        :global([data-reveal]:not([data-revealed])) .stat-ring {
+            stroke-dashoffset: 100;
+        }
+    }
+</style>

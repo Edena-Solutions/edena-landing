@@ -8,12 +8,14 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
-import { Check } from "lucide-react";
+import { Check, Globe } from "lucide-react";
 
 interface LanguageSwitcherProps {
     currentLang: string;
     currentPath?: string;
     className?: string;
+    /** Desktop icon trigger (e.g. `ds-nav-icon-btn` in premium nav). */
+    iconButtonClassName?: string;
 }
 
 const languageNames: Record<string, { code: string; name: string; flag: string }> = {
@@ -51,6 +53,7 @@ export default function LanguageSwitcher({
     currentLang,
     currentPath,
     className,
+    iconButtonClassName,
 }: LanguageSwitcherProps) {
     const [pathWithoutLang, setPathWithoutLang] = useState<string>("/");
 
@@ -83,21 +86,24 @@ export default function LanguageSwitcher({
                         <a
                             key={lang}
                             href={localePath(lang, currentPath || "/")}
-                            className={`inline-flex items-center gap-1.5 px-3 py-1 rounded text-sm font-medium ${
+                            className={`inline-flex items-center px-3.5 py-1.5 rounded-full text-sm font-medium ${
                                 currentLang === lang
-                                    ? "bg-primary text-primary-foreground"
-                                    : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
+                                    ? "bg-ink text-canvas"
+                                    : "bg-fill-2 text-ink hover:bg-fill"
                             }`}
                         >
-                            <LangFlag src={languageNames[lang].flag} />
-                            {languageNames[lang].code}
+                            {languageNames[lang].name}
                         </a>
                     ))}
                 </div>
                 <div className={cn("hidden lg:block", className)}>
-                    <Button variant="secondary" className="gap-2">
-                        <LangFlag src={languageNames[currentLang].flag} />
-                        {languageNames[currentLang]?.code || currentLang}
+                    <Button
+                        variant="secondary"
+                        size="icon"
+                        className={cn("rounded-full", iconButtonClassName)}
+                        aria-label={languageNames[currentLang]?.name || currentLang}
+                    >
+                        <Globe className="size-4" aria-hidden />
                     </Button>
                 </div>
             </>
@@ -111,23 +117,26 @@ export default function LanguageSwitcher({
                     <a
                         key={lang}
                         href={createLanguageUrl(lang)}
-                        className={`inline-flex items-center gap-1.5 px-3 py-1 rounded text-sm font-medium ${
+                        className={`inline-flex items-center px-3.5 py-1.5 rounded-full text-sm font-medium ${
                             currentLang === lang
-                                ? "bg-primary text-primary-foreground"
-                                : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
+                                ? "bg-ink text-canvas"
+                                : "bg-fill-2 text-ink hover:bg-fill"
                         }`}
                     >
-                        <LangFlag src={languageNames[lang].flag} />
-                        {languageNames[lang].code}
+                        {languageNames[lang].name}
                     </a>
                 ))}
             </div>
             <div className={cn("hidden lg:block", className)}>
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
-                        <Button variant="secondary" className="gap-2">
-                            <LangFlag src={languageNames[currentLang].flag} />
-                            {languageNames[currentLang]?.code || currentLang}
+                        <Button
+                            variant="secondary"
+                            size="icon"
+                            className={cn("rounded-full", iconButtonClassName)}
+                            aria-label={languageNames[currentLang]?.name || currentLang}
+                        >
+                            <Globe className="size-4" aria-hidden />
                         </Button>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent align="start" className="w-fit">

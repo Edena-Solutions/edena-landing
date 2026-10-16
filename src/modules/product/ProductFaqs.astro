@@ -1,0 +1,28 @@
+---
+import FAQAccordion from "@/components/FAQAccordion";
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import type { Translation } from "@/i18n";
+
+interface FAQItem {
+    question: string;
+    answer: string;
+}
+
+interface Props {
+    t: Translation;
+    title: string;
+    description: string;
+    faqs: FAQItem[];
+}
+
+const { t, title, description, faqs } = Astro.props;
+---
+
+<section class="ds-section">
+    <div class="ds-container">
+        <SectionHeader title={title} description={description} />
+        <div class="mx-auto mt-10 max-w-3xl sm:mt-14" data-reveal>
+            <FAQAccordion faqs={faqs} t={t} client:load className="ds-faq" />
+        </div>
+    </div>
+</section>

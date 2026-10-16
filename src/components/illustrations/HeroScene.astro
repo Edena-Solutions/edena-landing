@@ -1,0 +1,241 @@
+---
+import type { Translation } from "@/i18n";
+import { intlLocaleForLang } from "@/lib/intl-locale";
+import HeroApp from "@/components/illustrations/HeroApp";
+
+/*
+ * The hero's illustration (see `HeroApp`): three panes of glass in depth — a student's record
+ * coming to life in front, enrolments and the control panel turned towards it behind — and glass
+ * widgets over the edges. Wide, a 75 × 38 em artboard; under 640px (a phone) its own composition on
+ * a 36 × 38.5 em one, the panes stacked rather than side by side, so nothing is cropped.
+ * Decorative: the copy around it says what it shows.
+ *
+ * `client:load`: it is above the fold, and the record plays as the page opens. The scroll settle
+ * (`data-settle`) is on a wrapper here, outside the island, so GSAP never touches React's markup.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+}
+
+const { t, lang } = Astro.props;
+const items = t.wallOfFeatures.items;
+---
+
+<div class="ds-art hero-scene">
+    <div class="ds-artboard" aria-hidden="true">
+        <div class="absolute inset-0" data-settle>
+            <HeroApp
+                client:load
+                locale={intlLocaleForLang(lang)}
+                labels={{
+                    scene: {
+                        ui: t.homeScenes,
+                        controlPanel: items.controlPanel,
+                        billing: items.billing,
+                        assessments: items.assessments,
+                        crm: items.crm,
+                        forms: t.features.keyFeaturesTabs[5].title,
+                        communication: items.communication,
+                        verifactu: items.verifactu,
+                        reportCards: items.reportCards,
+                        crmStat: t.erpStats.cases[1].stat,
+                    },
+                    attendance: items.attendance,
+                    prompt: t.enaSection.cards.agent.prompt,
+                    response: t.enaSection.cards.agent.response,
+                }}
+            />
+        </div>
+    </div>
+</div>
+
+<style is:global>
+    .hero-scene .hero-ring {
+        stroke-dasharray: 100;
+        stroke-dashoffset: var(--to);
+    }
+
+    .hero-scene > .ds-artboard {
+        height: 38em;
+    }
+
+    /* Every element stands at `--x --y` (board em) at scale `--s`: its own em is `--s` board em,
+       so its place is divided by it. */
+    .hero-scene .hero-placed {
+        position: absolute;
+        font-size: calc(var(--s) * 1em);
+        left: calc(var(--x) / var(--s) * 1em);
+        top: calc(var(--y) / var(--s) * 1em);
+    }
+
+    .hero-scene .hero-widget {
+        width: calc(var(--w) * 1em);
+    }
+
+    .hero-scene .hero-narrow-only {
+        display: none;
+    }
+
+    /* Until the island is live, its record is its finished frame: keep it out of sight so it
+       never shows before it plays from the start. */
+    @media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+        .hero-scene .hero-content:not([data-live]) {
+            opacity: 0;
+        }
+    }
+
+    /* Behind: turned a little towards the front pane, hinged on their outer edges, and a step
+       quieter than it — their content, not the pane: an opacity on the pane would cut its glass off
+       from what lies behind it (a backdrop root), and the panes behind would show through. */
+    .hero-scene .hero-back > .ds-glass + * {
+        opacity: 0.72;
+    }
+
+    .hero-scene .hero-back--left {
+        --rest: perspective(110em) rotateY(16deg);
+        --slide: 5em;
+        transform-origin: 0% 50%;
+        transform: var(--rest);
+    }
+
+    .hero-scene .hero-back--right {
+        --rest: perspective(110em) rotateY(-16deg);
+        --slide: -5em;
+        transform-origin: 100% 50%;
+        transform: var(--rest);
+    }
+
+    /* The front pane floats a little higher off the page than the rest. */
+    .hero-scene .hero-front-glass {
+        box-shadow:
+            inset 0 1px 0 rgb(255 255 255 / 0.95),
+            inset 0 0 0 1px rgb(255 255 255 / 0.55),
+            0 0 0 1px rgb(0 0 0 / 0.05),
+            0 2.4em 5em -2em rgb(0 0 0 / 0.22),
+            0 0.6em 1.4em -0.8em rgb(0 0 0 / 0.12);
+    }
+
+    .dark .hero-scene .hero-front-glass {
+        box-shadow:
+            inset 0 1px 0 rgb(255 255 255 / 0.18),
+            inset 0 0 0 1px rgb(255 255 255 / 0.1),
+            0 2.4em 5em -2em rgb(0 0 0 / 0.6);
+    }
+
+    /* A phone: a narrower board, the front pane across it, and the two behind it stacked above it
+       — straight, smaller, quieter the further back — like a pile of cards. */
+    @container (max-width: 639px) {
+        .hero-scene > .ds-artboard {
+            --ds-art-width: 36;
+            height: 38.5em;
+        }
+
+        .hero-scene .hero-widget {
+            width: calc(var(--mw) * 1em);
+        }
+
+        .hero-scene .hero-placed {
+            font-size: calc(var(--ms) * 1em);
+            left: calc(var(--mx) / var(--ms) * 1em);
+            top: calc(var(--my) / var(--ms) * 1em);
+        }
+
+        .hero-scene .hero-wide-only {
+            display: none;
+        }
+
+        .hero-scene .hero-narrow-only {
+            display: block;
+        }
+
+        .hero-scene .hero-back--left,
+        .hero-scene .hero-back--right {
+            --rest: translate3d(0, 0, 0);
+            --slide: 0em;
+            --rise: 2.4em;
+        }
+
+        .hero-scene .hero-back--left > .ds-glass + * {
+            opacity: 0.55;
+        }
+
+        .hero-scene .hero-back--right > .ds-glass + * {
+            opacity: 0.8;
+        }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        /* The front pane comes forward out of the depth; the two behind it slide out from under
+           it; then the widgets settle over the edges, one by one. Long expo-outs, no overshoot.
+           The pane itself only moves: an opacity or a filter on it would cut its glass off from
+           what lies behind (a backdrop root), so the glass fades in on its own. */
+        .hero-scene .hero-front {
+            animation: hero-front 1.6s var(--ease-out-expo) 0.1s both;
+        }
+
+        .hero-scene .hero-front-glass {
+            animation: hero-fade 1.2s var(--ease-out-expo) 0.1s both;
+        }
+
+        .hero-scene .hero-back {
+            animation: hero-back 1.8s var(--ease-out-expo) 0.55s both;
+        }
+
+        .hero-scene .hero-back > * {
+            animation: hero-fade 1.4s var(--ease-out-expo) 0.55s both;
+        }
+
+        .hero-scene .hero-widget {
+            animation: hero-assemble 1.4s var(--ease-out-expo) both;
+            animation-delay: calc(1.3s + var(--i) * 160ms);
+        }
+
+        .hero-scene .hero-ring {
+            animation: hero-ring 1.8s var(--ease-out-expo) both;
+            animation-delay: calc(1.9s + var(--k) * 150ms);
+        }
+
+        .hero-scene .hero-caret {
+            animation: hero-caret 1s steps(1) 5;
+        }
+    }
+
+    @keyframes hero-front {
+        from {
+            transform: translateY(1.2em) scale(0.95);
+        }
+    }
+
+    @keyframes hero-fade {
+        from {
+            opacity: 0;
+        }
+    }
+
+    @keyframes hero-back {
+        from {
+            transform: var(--rest) translate3d(var(--slide), var(--rise, 0em), -4em);
+        }
+    }
+
+    @keyframes hero-assemble {
+        from {
+            opacity: 0;
+            transform: translate3d(var(--fx), var(--fy), 0) scale(0.94);
+            filter: blur(6px);
+        }
+    }
+
+    @keyframes hero-ring {
+        from {
+            stroke-dashoffset: 100;
+        }
+    }
+
+    @keyframes hero-caret {
+        50% {
+            opacity: 0;
+        }
+    }
+</style>

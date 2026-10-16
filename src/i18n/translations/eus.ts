@@ -10,6 +10,48 @@ export default {
     theme: { light: "Aldatu modu argira", dark: "Aldatu modu ilunera" },
     whatsapp: { cta: "Hitz egin dezagun", label: "Hitz egin dezagun WhatsApp bidez" },
     knowMore: "Gehiago jakin",
+    /** Controls of the self-playing product demos on the home page (WCAG 2.2.2). */
+    homeWizard: {
+        label: "Produktuaren erakustaldia",
+        play: "Erreproduzitu",
+        pause: "Pausatu",
+        speed: "Abiadura",
+    },
+    /** Interface labels inside the home page's drawings of the product (decorative, aria-hidden). */
+    homeScenes: {
+        present: "Bertan",
+        absent: "Kanpoan",
+        totalStudents: "Ikasleak guztira",
+        rate: "Tasa",
+        shopByMonth: "Dendako erosketak hilabeteka",
+        concepts: "Kontzeptuak",
+        toInvoice: "fakturatzeko zain",
+        invoiced: "Fakturatuta",
+        invoiceAction: "Fakturatu",
+        pending: "Zain",
+        invoicedBadge: "Fakturatuta",
+        pendingShort: "zain",
+        createReportCard: "Buletina sortu",
+        stages: ["Berria", "Kontaktatua", "Kualifikatua", "Proposamena", "Negoziazioa", "Irabazia"],
+        activity: "Jarduera",
+        components: "Osagaiak",
+        fieldTypes: ["Testu laburra", "Emaila", "Telefonoa", "Zenbakia", "Goitibeherakoa", "Testu luzea", "Kontrol-laukia"],
+        saveForm: "Gorde formularioa",
+        welcomeBack: "Ongi etorri berriro!",
+        appSections: ["Komunikazioa", "Zentroaren kudeaketa", "Agenda", "Finantzak"],
+        appTiles: ["Argitalpena sortu", "Ekitaldia sortu", "Fitxatu", "Klaseak", "Eguneko txostenak", "Egutegia", "Fakturak", "Albaranak"],
+        studentTabs: ["Informazio orokorra", "Asistentzia", "Fakturazioa", "Ebaluazioak"],
+        takeAttendance: "Asistentzia hartu",
+        active: "Aktiboa",
+        presentOne: "Bertan",
+        academicInfo: "Informazio akademikoa",
+        academicFields: ["Hezkuntza maila", "Ikasturtea", "Gela"],
+        academicLevel: "Haur Hezkuntza",
+        tutor: "Tutorea",
+        mother: "Ama",
+        comments: "Iruzkinak",
+        studentComment: "Lucía laktosarekiko intolerantea da.",
+    },
     meta: {
         homeTitle: "Eskola Kudeaketa Softwarea | Hezkuntza ERPa · Edena",
         homeDescription:
@@ -143,6 +185,9 @@ export default {
     navigation: {
         products: "Produktuak",
         functionalities: "Funtzionalitateak",
+        navPlatform: "Plataforma",
+        navModules: "Moduluak",
+        navForWhom: "Norentzat",
         forCenter: "Zentrorako",
         forFamilies: "Familientzat",
         students: "Ikasle-kudeaketa",
@@ -170,9 +215,13 @@ export default {
         pricingAcademies: "Akademiak",
         pricingAcademiesDescription:
             "Hizkuntzak, musika, dantza, errefortzua eta gehiago.",
+        pricingAcademiesPrice: "0,60 €-tik",
+        pricingAcademiesUnit: "ikasleko",
         pricingCenters: "Ikastetxeentzat",
         pricingCentersDescription:
             "Ikastetxeak, haur eskolak eta talde hezitzaileak.",
+        pricingCentersPrice: "36 €-tik",
+        pricingCentersUnit: "hilean",
         contact: "Jarri gurekin harremanetan",
         faqs: "Galdera ohikoak",
         blog: "Bloga",
@@ -2171,9 +2220,10 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
                 highlight: "Zentroen %68",
                 description:
                     "oraindik eskuz esportatzen dituzte datuak Excelera eta kanpoko programetara",
-                items: ["Microsoft Excel", "Sage", "QuickBooks", "Xero"],
+                items: ["Microsoft Excel", "Sage", "Holded", "SAP"],
             },
         },
+        floatingExtras: ["Slack", "Gmail", "Zoom", "Notion", "Dropbox", "Asana", "Trello", "Outlook"],
     },
     integrationsSection: {
         title: "Integrazioak",
@@ -2865,6 +2915,8 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             metaDescription:
                 "Ena Edenaren IA agentea da: fakturak automatizatzen ditu, komunikatuak idazten ditu, zerrenda pasatzen du eta zure erakunde osoari erantzuten dio. Hezkuntza-adimen artifiziala segurtasun profesionalarekin.",
             navTitle: "Ena",
+            navEyebrow: "Adimen artifiziala",
+            navCta: "Ezagutu Ena",
             navDescription:
                 "Prozesuak automatizatzen dituen eta zure zentro osoari 24/7 erantzuten dion adimen artifizialeko agentea.",
             mainTitle: "Ena, zure zentroaren alde lan egiten duen adimen artifiziala",

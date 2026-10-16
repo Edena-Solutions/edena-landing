@@ -1,0 +1,28 @@
+---
+import type { Translation } from "@/i18n";
+import AppTileScene from "@/components/illustrations/AppTileScene";
+
+/*
+ * The families' app tile's drawing (see `AppTileScene`). The phone is drawn larger than the
+ * artboard on purpose: the tile crops it at the bottom, as if it were rising out of the card.
+ */
+interface Props {
+    t: Translation;
+}
+
+const { t } = Astro.props;
+const items = t.wallOfFeatures.items;
+---
+
+<div class="ds-art mx-auto w-full" style="--ds-art-width: 28">
+    <div class="ds-artboard" style="height: 20em" aria-hidden="true">
+        <AppTileScene
+            ui={t.homeScenes}
+            notifications={{
+                securePhotos: items.securePhotos,
+                pushAlerts: items.pushAlerts,
+                communication: items.communication,
+            }}
+        />
+    </div>
+</div>

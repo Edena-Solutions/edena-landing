@@ -1,0 +1,79 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+import Button from "@/components/ds/Button.astro";
+import ThemedImage from "@/components/ThemedImage.astro";
+import type { Translation } from "@/i18n";
+import { getLanguageFromURL, localizedDemoPath } from "@/i18n";
+
+/*
+ * A product page's opening, the same gesture as the home hero: the promise, the two ways in, then
+ * the product drawn large in a tile. The headline rises on load — it is above the fold.
+ */
+interface Props {
+    t: Translation;
+    title: string;
+    description: string;
+    image?: ImageMetadata;
+    imageDark?: ImageMetadata;
+    imageAlt?: string;
+}
+
+const { t, title, description, image, imageDark, imageAlt } = Astro.props;
+const lang = getLanguageFromURL(Astro.url.pathname);
+const hasVisual = Astro.slots.has("visual");
+---
+
+<section class="relative isolate -mt-15 overflow-x-clip pt-15">
+    <div class="ds-container flex flex-col items-center pt-14 text-center sm:pt-24">
+        <h1 class="ds-intro type-display-1 max-w-5xl pb-2 text-gradient-ink" style="--intro-i: 0">
+            {title}
+        </h1>
+        <p class="ds-intro type-lead mt-6 max-w-2xl text-ink-2" style="--intro-i: 1">
+            {description}
+        </p>
+        <div
+            class="ds-intro mt-9 flex w-full flex-col items-stretch gap-3 sm:w-auto sm:flex-row sm:items-center"
+            style="--intro-i: 2"
+        >
+            <Button href="https://app.edena.es/register-organization" size="lg">
+                {t.registerButtonExtended}
+            </Button>
+            <Button href={localizedDemoPath(lang)} variant="secondary" size="lg">
+                {t.bookDemo}
+            </Button>
+        </div>
+        <p class="ds-intro mt-4 type-footnote text-ink-3" style="--intro-i: 3">
+            {t.noCreditCardRequired}
+        </p>
+    </div>
+
+    {
+        (hasVisual || image) && (
+            <div class="ds-container mt-12 sm:mt-16" data-reveal="rise">
+                <div class="ds-tile overflow-hidden">
+                    <div class="px-3 pt-3 sm:px-8 sm:pt-8 md:px-12 md:pt-10">
+                        {hasVisual ? (
+                            <slot name="visual" />
+                        ) : image && imageDark ? (
+                            <ThemedImage
+                                src={image}
+                                darkImage={imageDark}
+                                alt={imageAlt || title}
+                                loading="eager"
+                                className="w-full rounded-t-[1.1rem]"
+                            />
+                        ) : image ? (
+                            <Image
+                                src={image}
+                                alt={imageAlt || title}
+                                loading="eager"
+                                class="w-full rounded-t-[1.1rem]"
+                            />
+                        ) : null}
+                    </div>
+                </div>
+            </div>
+        )
+    }
+</section>

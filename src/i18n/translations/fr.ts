@@ -10,6 +10,48 @@ export default {
     theme: { light: "Passer en mode clair", dark: "Passer en mode sombre" },
     whatsapp: { cta: "Parlons-en", label: "Parlons-en sur WhatsApp" },
     knowMore: "En savoir plus",
+    /** Controls of the self-playing product demos on the home page (WCAG 2.2.2). */
+    homeWizard: {
+        label: "Démonstration du produit",
+        play: "Lecture",
+        pause: "Pause",
+        speed: "Vitesse",
+    },
+    /** Interface labels inside the home page's drawings of the product (decorative, aria-hidden). */
+    homeScenes: {
+        present: "Présents",
+        absent: "Absents",
+        totalStudents: "Total élèves",
+        rate: "Taux",
+        shopByMonth: "Achats boutique par mois",
+        concepts: "Concepts",
+        toInvoice: "à facturer",
+        invoiced: "Facturé",
+        invoiceAction: "Facturer",
+        pending: "En attente",
+        invoicedBadge: "Facturée",
+        pendingShort: "en attente",
+        createReportCard: "Créer le bulletin",
+        stages: ["Nouveau", "Contacté", "Qualifié", "Proposition", "Négociation", "Gagné"],
+        activity: "Activité",
+        components: "Composants",
+        fieldTypes: ["Texte court", "E-mail", "Téléphone", "Nombre", "Liste déroulante", "Texte long", "Case à cocher"],
+        saveForm: "Enregistrer le formulaire",
+        welcomeBack: "Bon retour !",
+        appSections: ["Communication", "Gestion de l'établissement", "Agenda", "Finances"],
+        appTiles: ["Créer une publication", "Créer un événement", "Pointer", "Classes", "Rapports quotidiens", "Calendrier", "Factures", "Bons de livraison"],
+        studentTabs: ["Informations générales", "Présence", "Facturation", "Évaluations"],
+        takeAttendance: "Faire l'appel",
+        active: "Actif",
+        presentOne: "Présente",
+        academicInfo: "Informations scolaires",
+        academicFields: ["Niveau", "Classe", "Salle"],
+        academicLevel: "Maternelle",
+        tutor: "Tuteur",
+        mother: "Mère",
+        comments: "Commentaires",
+        studentComment: "Lucía est intolérante au lactose.",
+    },
     meta: {
         homeTitle: "Logiciel de Gestion Scolaire | ERP Éducatif · Edena",
         homeDescription:
@@ -143,6 +185,9 @@ export default {
     navigation: {
         products: "Produits",
         functionalities: "Fonctionnalités",
+        navPlatform: "Plateforme",
+        navModules: "Modules",
+        navForWhom: "Pour qui",
         forCenter: "Pour l’établissement",
         forFamilies: "Pour les familles",
         students: "Gestion des élèves",
@@ -170,9 +215,13 @@ export default {
         pricingAcademies: "Académies",
         pricingAcademiesDescription:
             "Langues, musique, danse, soutien scolaire et plus.",
+        pricingAcademiesPrice: "Dès 0,60 €",
+        pricingAcademiesUnit: "par élève",
         pricingCenters: "Établissements",
         pricingCentersDescription:
             "Écoles, crèches et groupes scolaires.",
+        pricingCentersPrice: "Dès 36 €",
+        pricingCentersUnit: "par mois",
         contact: "Contactez-nous",
         faqs: "FAQ",
         blog: "Blog",
@@ -2192,9 +2241,10 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                 highlight: "68% des établissements",
                 description:
                     "exportent encore manuellement leurs données vers Excel et des logiciels externes",
-                items: ["Microsoft Excel", "Sage", "QuickBooks", "Xero"],
+                items: ["Microsoft Excel", "Sage", "Holded", "SAP"],
             },
         },
+        floatingExtras: ["Slack", "Gmail", "Zoom", "Notion", "Dropbox", "Asana", "Trello", "Outlook"],
     },
     integrationsSection: {
         title: "Intégrations",
@@ -2888,6 +2938,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             metaDescription:
                 "Ena est l'agent IA d'Edena : il automatise les factures, rédige les communications, fait l'appel et répond à toute votre organisation. Intelligence artificielle éducative avec sécurité entreprise.",
             navTitle: "Ena",
+            navEyebrow: "Intelligence artificielle",
+            navCta: "Découvrir Ena",
             navDescription:
                 "L'agent d'intelligence artificielle qui automatise les processus et répond à tout votre établissement 24/7.",
             mainTitle: "Ena, l'intelligence artificielle qui travaille pour votre établissement",

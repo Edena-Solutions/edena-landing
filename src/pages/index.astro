@@ -1,16 +1,15 @@
 ---
 import { translations } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
 import Hero from "@/modules/home/Hero.astro";
-import Conclusion from "@/modules/home/Conclusion.astro";
-import MarketStats from "@/modules/home/MarketStats.astro";
-import KeyFeaturesShowcase from "@/components/KeyFeaturesShowcase";
-import Features from "@/components/Features";
-import WallOfFeatures from "@/components/WallOfFeatures";
 import ProblemSection from "@/modules/home/ProblemSection.astro";
-import ProblemSolutionConnector from "@/modules/home/ProblemSolutionConnector.astro";
-import IntegrationsSection from "@/modules/home/IntegrationsSection.astro";
-import EnaSection from "@/modules/home/EnaSection.astro";
+import WallOfFeatures from "@/modules/home/WallOfFeatures.astro";
+import EnaShowcase from "@/modules/home/EnaShowcase.astro";
+import MarketStats from "@/modules/home/MarketStats.astro";
+import KeyFeatures from "@/modules/home/KeyFeatures.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 
 const lang = "es";
@@ -56,7 +55,7 @@ const features = [
 ];
 ---
 
-<Layout content={{ title: t.meta.homeTitle, description: t.meta.homeDescription }} lang={lang}>
+<Layout content={{ title: t.meta.homeTitle, description: t.meta.homeDescription }} lang={lang} design="premium">
     <SoftwareApplicationSchema
         slot="structured-data"
         name="Edena"
@@ -66,15 +65,13 @@ const features = [
         url="https://edena.es/"
         lang={lang}
     />
-    <section class="grid min-w-0 w-full max-w-full gap-16 overflow-x-hidden">
-        <Hero t={t} />
-        <ProblemSection t={t} />
-        <ProblemSolutionConnector t={t} />
-        <WallOfFeatures client:only="react" t={t} lang={lang} />
-        <EnaSection t={t} />
-        <MarketStats t={t} />
-        <KeyFeaturesShowcase client:load t={t} />
-        <Features client:load t={t} features={features} />
-        <Conclusion lang={lang} />
-    </section>
+    <HomeMotion />
+    <Hero t={t} />
+    <ProblemSection t={t} />
+    <WallOfFeatures t={t} lang={lang} />
+    <EnaShowcase t={t} />
+    <MarketStats t={t} />
+    <KeyFeatures t={t} lang={lang} />
+    <FeatureGrid t={t} features={features} />
+    <ClosingCta lang={lang} />
 </Layout>

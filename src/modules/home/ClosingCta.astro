@@ -1,0 +1,128 @@
+---
+import { CalendarCheck, CircleCheck, MessageCircle, Receipt } from "lucide-react";
+import Button from "@/components/ds/Button.astro";
+import { translations } from "@/i18n/index.ts";
+import { localizedDemoPath } from "@/i18n";
+import { intlLocaleForLang } from "@/lib/intl-locale";
+import { money, percent } from "@/components/wizard/scene-kit";
+
+/*
+ * The last word, on Edena's own ground: a deep green lit by the brand's three greens drifting under
+ * grain, the app icon, the promise, and the day's work as three glass cards rising from the edge —
+ * the invoices paid, the class present, a family answered. The home page's version of
+ * `Conclusion.astro`, which the other pages keep.
+ */
+interface Props {
+    lang: string;
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+const items = t.wallOfFeatures.items;
+const locale = intlLocaleForLang(lang);
+---
+
+<section class="ds-section pt-0 pb-12 sm:pb-16">
+    <div class="ds-container">
+        <div
+            class="dark ds-grain relative isolate overflow-hidden rounded-tile px-6 pt-16 text-center text-ink sm:px-12 sm:pt-24"
+            style="background: radial-gradient(120% 110% at 50% 0%, #0f3d27 0%, #062416 55%, #020b06 100%)"
+            data-reveal="scale"
+        >
+            <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10">
+                <div
+                    class="absolute left-[-10%] top-[-30%] h-[36rem] w-[36rem] animate-ds-aurora rounded-full opacity-35 blur-3xl"
+                    style="background: radial-gradient(closest-side, #4ade80, transparent)"
+                >
+                </div>
+                <div
+                    class="absolute right-[-12%] top-[10%] h-[34rem] w-[34rem] animate-ds-aurora rounded-full opacity-45 blur-3xl"
+                    style="background: radial-gradient(closest-side, #14b8a6, transparent); animation-delay: -9s"
+                >
+                </div>
+                <div
+                    class="absolute bottom-[-30%] left-[30%] h-[30rem] w-[40rem] animate-ds-aurora rounded-full opacity-40 blur-3xl"
+                    style="background: radial-gradient(closest-side, #22c55e, transparent); animation-delay: -16s"
+                >
+                </div>
+            </div>
+
+            <div class="mx-auto flex max-w-3xl flex-col items-center gap-6" data-reveal-group>
+                <span class="ds-app-icon size-16 bg-white" data-reveal="scale">
+                    <svg viewBox="0 0 30 29" class="size-8 text-[#1d1d1f]" role="img" aria-label={t.altText.conclusionLogo}>
+                        <path
+                            fill="currentColor"
+                            d="M26.9688 0C28.2809 0.000118162 29.3447 1.05184 29.3447 2.34863V26.6514C29.3447 27.9482 28.2809 28.9999 26.9688 29H2.37598C1.06375 28.9999 0 27.9482 0 26.6514V2.34863C0 1.0518 1.06375 5.61543e-05 2.37598 0H26.9688ZM4.79199 13.668C4.76544 13.9611 4.75196 14.2585 4.75195 14.5586C4.75195 20.0053 9.22002 24.4208 14.7314 24.4209C20.243 24.4209 24.7109 20.0054 24.7109 14.5586C24.7109 14.2225 24.6944 13.8899 24.6611 13.5625L4.79199 13.668ZM14.7314 4.69629C10.369 4.6964 6.6604 7.46288 5.30371 11.3174L24.124 11.2178C22.7389 7.41532 19.0563 4.69629 14.7314 4.69629Z"
+                        ></path>
+                    </svg>
+                </span>
+                <h2 class="type-display-2 text-white" data-reveal>{t.conclusion.title}</h2>
+                <p class="type-lead max-w-2xl text-white/75" data-reveal>{t.conclusion.description}</p>
+                <div class="mt-2 flex flex-col gap-3 sm:flex-row" data-reveal>
+                    <Button href="https://app.edena.es/register-organization" variant="white" size="lg">
+                        {t.registerButton}
+                    </Button>
+                    <Button href={localizedDemoPath(lang)} variant="glass" size="lg">{t.bookDemo}</Button>
+                </div>
+            </div>
+
+            <div class="relative mx-auto mt-16 h-[15rem] max-w-3xl sm:mt-20 sm:h-[17rem]" aria-hidden="true" data-reveal-group>
+                <div class="absolute bottom-[-3rem] left-0 w-[14rem] -rotate-6 sm:w-[15.5rem]" data-parallax="-30">
+                    <div class="rounded-[1.4rem] p-5 text-left material-glass" data-reveal="rise">
+                        <span class="flex items-center gap-3">
+                            <span class="ds-app-icon size-9 bg-sys-green"><Receipt className="size-4" /></span>
+                            <span class="type-footnote font-semibold text-white">{items.billing}</span>
+                        </span>
+                        <span class="mt-5 flex items-center justify-between">
+                            <span class="text-2xl font-semibold tracking-[-0.03em] tabular-nums text-white">{money(locale, 48250)}</span>
+                            <CircleCheck className="size-5 text-[#30d158]" />
+                        </span>
+                        <span class="mt-4 block h-1.5 overflow-hidden rounded-full bg-white/15">
+                            <span class="block h-full w-full rounded-full" style="background: var(--ds-brand-gradient)"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="absolute bottom-[-3rem] right-0 w-[14rem] rotate-6 sm:w-[15.5rem]" data-parallax="-50">
+                    <div class="rounded-[1.4rem] p-5 text-left material-glass" data-reveal="rise">
+                        <span class="flex items-center gap-3">
+                            <span class="ds-app-icon size-9 bg-sys-orange"><CalendarCheck className="size-4" /></span>
+                            <span class="type-footnote font-semibold text-white">{items.attendance}</span>
+                        </span>
+                        <span class="mt-5 flex items-end justify-between">
+                            <span class="text-2xl font-semibold tracking-[-0.03em] tabular-nums text-white">{percent(locale, 98.2, 1)}</span>
+                            <span class="flex h-8 items-end gap-1">
+                                {[0.7, 0.9, 0.8, 1, 0.85].map((h) => (
+                                    <span class="w-2 rounded-sm bg-white/70" style={`height:${h * 100}%`} />
+                                ))}
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="absolute bottom-[-2rem] left-1/2 w-[16rem] -translate-x-1/2 sm:w-[19rem]" data-parallax="-80">
+                    <div class="rounded-[1.5rem] bg-[#0b2117] p-5 text-left ring-1 ring-white/12 elev-4" data-reveal="rise">
+                        <span class="flex items-center gap-3">
+                            <span class="ds-app-icon size-9 bg-sys-blue"><MessageCircle className="size-4" /></span>
+                            <span class="type-footnote font-semibold text-white">{items.communication}</span>
+                            <span class="ml-auto type-caption tabular-nums text-white/60">9:41</span>
+                        </span>
+                        <span class="mt-5 flex items-start gap-3">
+                            <span
+                                class="size-9 shrink-0 rounded-full"
+                                style="background: linear-gradient(135deg, hsl(30 90% 66%), hsl(350 80% 58%))"
+                            ></span>
+                            <span class="flex flex-1 flex-col gap-2 rounded-2xl rounded-tl-md bg-white/10 p-3">
+                                <span class="block h-2 w-4/5 rounded-full bg-white/60"></span>
+                                <span class="block h-2 w-3/5 rounded-full bg-white/35"></span>
+                            </span>
+                        </span>
+                        <span class="mt-3 grid grid-cols-3 gap-1.5">
+                            <span class="h-12 rounded-lg" style="background: linear-gradient(160deg, #ffd29d, #ff8a65)"></span>
+                            <span class="h-12 rounded-lg" style="background: linear-gradient(160deg, #9be7ff, #4a90e2)"></span>
+                            <span class="h-12 rounded-lg" style="background: linear-gradient(160deg, #b9f6ca, #2ecc71)"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

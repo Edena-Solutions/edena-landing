@@ -1,0 +1,10 @@
+---
+/*
+ * Loads the design system's motion (`scripts/ds-motion.ts`) once for the page. Bundled and deduped
+ * by Astro; it wires itself to `astro:page-load`, so client-side navigations re-run it.
+ */
+---
+
+<script>
+    import "@/scripts/ds-motion";
+</script>
