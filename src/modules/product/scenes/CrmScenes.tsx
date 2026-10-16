@@ -17,11 +17,12 @@ import {
     type LucideIcon,
 } from "lucide-react";
 
-import { CONTENT, GlassOrbs } from "@/components/wizard/glass-stage";
+import { CONTENT } from "@/components/wizard/glass-stage";
 import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
 import { At, Avatar, Chip, Line, Pop, countIn, easeInOut, easeOut, on, shortDate, span, typed } from "@/components/wizard/scene-kit";
 import { Badge, DrawnCheck, KEY_FEATURE_SCENES, Ripple, Title } from "@/modules/home/KeyFeaturesScenes";
 import { cn } from "@/lib/utils";
+import { ActionButton, Caret, DUO, DUO_PANE_RIGHT, DUO_PHONE_LEFT, Fresh, Lights, Pane, between } from "./kit";
 import type { ProductSceneLabels } from "./labels";
 
 /*
@@ -29,7 +30,8 @@ import type { ProductSceneLabels } from "./labels";
  *
  *   pipeline   (hero) the enquiries as a board by stage: one arrives, two move on, one is won
  *   requests   the list of enquiries: responsibles assigned, a stage moves on, a new one lands
- *   enquiry    a family fills in the school's public form on its phone; it lands as an enquiry
+ *   enquiry    a family fills in the school's public form on its phone; behind it, in the school's
+ *              enquiries, it lands on top as a new one
  *   editor     the form's editor: an option written, the field made required, the form saved
  *   stages     an enquiry's record, its pipeline filling to "won" (the home's CRM scene)
  *
@@ -415,53 +417,82 @@ function RequestsScene({ t, labels, locale }: Props) {
 /* enquiry · the public form, on a family's phone                                                 */
 /* ---------------------------------------------------------------------------------------------- */
 
-const PHONE = { x: 2.5, y: 1.2, w: 12.6, h: 25.5 };
-const CARD = { x: 17.4, y: 8.6, w: 12.6 };
 const FILL_AT = [500, 1150, 1450, 2350];
 const OPEN = { at: 1450, pick: 1950, close: 2150 };
-const PRESS_AT = 3050;
-const SENT_AT = 3250;
-const FLIGHT = { at: 3350, duration: 650 };
-const LAND_AT = FLIGHT.at + FLIGHT.duration;
+const SEND = { press: 3050, sent: 3250, landed: 3550 };
+/** The school's enquiries, newest first; the family's lands on top. */
+const INBOX = [
+    { id: "alvaro", stage: 4 },
+    { id: "rocio", stage: 2 },
+    { id: "felipe", stage: 1 },
+    { id: "tomas", stage: 3 },
+    { id: "natalia", stage: 2 },
+];
 
-function EnquiryScene({ t, labels, locale }: Props) {
+function EnquiryScene({ t, labels }: Props) {
     const { ui, p } = labels;
     const name = typed("Lucía García", t, FILL_AT[0], 45);
     const age = typed("7", t, FILL_AT[1], 60);
     const email = typed("maria@correo.es", t, FILL_AT[3], 38);
-    const open = t >= OPEN.at && t < OPEN.close;
+    const open = between(t, OPEN.at, OPEN.close);
     const picked = on(t, OPEN.close);
     const highlight = on(t, OPEN.pick) ? 1 : 0;
-    const pressed = t >= PRESS_AT && t < SENT_AT;
-    const sent = on(t, SENT_AT);
     const focus = name.typing ? 0 : age.typing ? 1 : open ? 2 : email.typing ? 3 : -1;
-    const flight = easeInOut(span(t, FLIGHT.at, FLIGHT.duration));
-    const from = { x: PHONE.x + PHONE.w / 2, y: 21.2 };
-    const to = { x: CARD.x + 1.6, y: CARD.y + 2.4 };
-    const dot = {
-        x: from.x + (to.x - from.x) * flight,
-        y: from.y + (to.y - from.y) * flight - Math.sin(Math.PI * flight) * 5,
-    };
-
+    const landed = on(t, SEND.landed);
+    const rows = landed ? [{ id: "lucia", stage: 0 }, ...INBOX] : INBOX;
     const values = [name.text, age.text, picked ? p.formOptions[1] : "", email.text];
 
     return (
         <>
-            <GlassOrbs
-                orbs={[
-                    { x: -2, y: 4, size: 14, color: "#a3e635" },
-                    { x: 18, y: 2, size: 15, color: "#14b8a6" },
-                    { x: 9, y: 15, size: 13, color: "#22c55e" },
-                ]}
-            />
-            <At {...PHONE} className="ds-glass overflow-hidden" style={{ ["--glass-radius" as string]: "1.9em" }}>
-                <div className="flex h-full flex-col gap-[0.75em] px-[0.9em] pt-[0.8em]">
+            <Lights />
+
+            {/* The school's enquiries: the family's lands on top, new. */}
+            <Pane box={DUO_PANE_RIGHT} clear="left">
+                <span className="flex items-center justify-between gap-[0.5em]">
+                    <span className="flex items-center gap-[0.4em]">
+                        <span className="text-[0.62em] font-semibold">{p.requests}</span>
+                        <span className="rounded-full bg-fill-2 px-[0.5em] text-[0.4em] font-semibold tabular-nums text-ink-2">{rows.length}</span>
+                    </span>
+                    <span className="flex items-center gap-[0.3em] text-ink-3">
+                        <span className="size-[0.4em] rounded-full bg-green-500" />
+                        <Globe className="size-[0.55em]" />
+                    </span>
+                </span>
+                {/* Placed, not flowed: when the new one lands the others slide down to make room. */}
+                <span className="relative block" style={{ height: `${(INBOX.length + 1) * 2.2}em` }}>
+                    {rows.map((row, index) => {
+                        const lead = LEADS[row.id];
+                        const isNew = row.id === "lucia";
+                        return (
+                            <span key={row.id} className="absolute inset-x-0 transition-[top] duration-700 ease-spring" style={{ top: `${index * 2.2}em` }}>
+                                <Pop
+                                    show={isNew ? landed : on(t, 200 + index * 80)}
+                                    from={isNew ? "down" : "up"}
+                                    className="relative flex h-[2.2em] items-center gap-[0.5em] border-b border-hairline px-[0.25em]"
+                                >
+                                    {isNew && <Fresh t={t} at={SEND.landed} />}
+                                    <Avatar initials={lead.initials} hue={lead.hue} size={1.25} />
+                                    <span className="flex min-w-0 flex-1 flex-col gap-[0.2em]">
+                                        <span className="truncate text-[0.46em] font-medium">{lead.name}</span>
+                                        {isNew && <span className="truncate text-[0.36em] text-ink-3">{p.formName} · {p.formOptions[1]}</span>}
+                                    </span>
+                                    <StageTag stages={ui.stages} stage={row.stage} />
+                                </Pop>
+                            </span>
+                        );
+                    })}
+                </span>
+            </Pane>
+
+            {/* The family fills in the school's public form on its phone. */}
+            <At {...DUO_PHONE_LEFT} className="ds-glass overflow-hidden" style={{ ["--glass-radius" as string]: "1.8em" }}>
+                <div className="flex h-full flex-col gap-[0.7em] px-[0.85em] pt-[0.8em]">
                     <span className="mx-auto flex h-[1.15em] w-[72%] items-center justify-center gap-[0.35em] rounded-full bg-fill text-ink-3">
                         <Lock className="size-[0.48em]" />
                         <Line w={4.6} className="h-[0.24em]" />
                     </span>
-                    <span className="mt-[0.3em] flex flex-col gap-[0.4em]">
-                        <span className="text-[0.82em] font-semibold tracking-[-0.01em]">{p.formName}</span>
+                    <span className="mt-[0.2em] flex flex-col gap-[0.4em]">
+                        <span className="text-[0.8em] font-semibold tracking-[-0.01em]">{p.formName}</span>
                         <Line w={7.5} className="h-[0.26em] opacity-70" />
                     </span>
                     {p.formFields.map((field, index) => (
@@ -471,20 +502,20 @@ function EnquiryScene({ t, labels, locale }: Props) {
                             </span>
                             <span
                                 className={cn(
-                                    "flex h-[1.65em] items-center rounded-[0.5em] bg-surface/80 px-[0.55em] ring-1 ring-hairline transition-shadow duration-300",
+                                    "flex h-[1.6em] items-center rounded-[0.5em] bg-surface/80 px-[0.55em] ring-1 ring-hairline transition-shadow duration-300",
                                     focus === index && "ring-[0.12em] ring-brand/60",
                                 )}
                             >
-                                <span className="truncate text-[0.52em]">
+                                <span className="truncate text-[0.5em]">
                                     {values[index]}
-                                    {focus === index && index !== 2 && <span className="ml-[0.08em] inline-block h-[1em] w-[0.1em] translate-y-[0.15em] bg-brand" />}
+                                    <Caret show={focus === index && index !== 2} />
                                 </span>
                                 {index === 2 && <ChevronDown className="ml-auto size-[0.6em] text-ink-3" />}
                             </span>
                             {index === 2 && (
                                 <span
                                     className={cn(
-                                        "absolute inset-x-0 top-[2.45em] z-30 flex flex-col rounded-[0.6em] p-[0.25em] material-thick elev-4 ring-1 ring-hairline transition-[opacity,translate,scale] duration-300 ease-spring",
+                                        "absolute inset-x-0 top-[2.4em] z-30 flex flex-col rounded-[0.6em] p-[0.25em] material-thick elev-4 ring-1 ring-hairline transition-[opacity,translate,scale] duration-300 ease-spring",
                                         open ? "translate-y-0 scale-100 opacity-100" : "pointer-events-none -translate-y-[0.4em] scale-95 opacity-0",
                                     )}
                                 >
@@ -501,55 +532,10 @@ function EnquiryScene({ t, labels, locale }: Props) {
                             )}
                         </span>
                     ))}
-                    <span
-                        className={cn(
-                            "relative mt-[0.4em] grid h-[1.9em] place-items-center rounded-full text-white transition-[background-color,scale] duration-500",
-                            sent ? "bg-green-500" : "bg-ink text-canvas",
-                            pressed && "scale-95",
-                        )}
-                    >
-                        <span className={cn("[grid-area:1/1] text-[0.56em] font-semibold transition-opacity duration-300", sent && "opacity-0")}>{p.send}</span>
-                        <span className={cn("[grid-area:1/1] flex items-center gap-[0.35em] transition-opacity duration-300", !sent && "opacity-0")}>
-                            <span className="size-[0.85em]">
-                                <DrawnCheck p={span(t, SENT_AT + 100, 450)} className="size-full" />
-                            </span>
-                            <span className="text-[0.52em] font-semibold">{p.sent}</span>
-                        </span>
+                    <span className="mt-[0.3em]">
+                        <ActionButton t={t} press={SEND.press} done={SEND.sent} label={p.send} doneLabel={p.sent} />
                     </span>
                 </div>
-            </At>
-
-            {flight > 0 && flight < 1 && (
-                <At x={dot.x} y={dot.y} className="pointer-events-none z-40">
-                    <span className="absolute -left-[0.7em] -top-[0.7em] size-[1.4em] rounded-full bg-brand/35 blur-[0.3em]" />
-                    <span className="absolute -left-[0.25em] -top-[0.25em] size-[0.5em] rounded-full bg-white shadow-[0_0_0.5em_rgb(34_197_94/0.9)]" />
-                </At>
-            )}
-
-            <At x={CARD.x} y={CARD.y} w={CARD.w}>
-                <Pop show={on(t, LAND_AT)} from="scale" className="relative flex flex-col gap-[0.8em] rounded-[1.1em] p-[1em] ds-glass">
-                    <span className="flex items-center justify-between">
-                        <span className={SECTION}>{p.newRequest}</span>
-                        <StageTag stages={ui.stages} stage={0} />
-                    </span>
-                    <span className="flex items-center gap-[0.55em]">
-                        <span className="relative">
-                            <Avatar initials="LG" hue={25} size={2.1} />
-                            <Ripple p={span(t, LAND_AT, 900)} className="text-brand" />
-                        </span>
-                        <span className="flex min-w-0 flex-col gap-[0.35em]">
-                            <span className="truncate text-[0.7em] font-semibold">Lucía García</span>
-                            <span className="flex items-center gap-[0.3em] text-ink-3">
-                                <Globe className="size-[0.5em]" />
-                                <span className="truncate text-[0.46em]">{p.formName}</span>
-                            </span>
-                        </span>
-                    </span>
-                    <span className="flex items-center justify-between border-t border-hairline pt-[0.6em]">
-                        <span className="text-[0.46em] text-ink-2">{p.formOptions[1]}</span>
-                        <span className="text-[0.46em] tabular-nums text-ink-3">{shortDate(locale, new Date(2026, 5, 4))}</span>
-                    </span>
-                </Pop>
             </At>
         </>
     );
@@ -720,7 +706,7 @@ const { Scene: StagesScene, duration: STAGES_DURATION } = KEY_FEATURE_SCENES[3];
 const SCENES = {
     pipeline: { Scene: PipelineScene, duration: 5000 },
     requests: { Scene: RequestsScene, duration: 4800 },
-    enquiry: { Scene: EnquiryScene, duration: 4800, board: { cols: 32, rows: 26 }, k: 0.72 },
+    enquiry: { Scene: EnquiryScene, duration: 4800, ...DUO },
     editor: { Scene: EditorScene, duration: 4400 },
     stages: { Scene: StagesScene, duration: STAGES_DURATION },
 } satisfies Record<string, SceneSpec<ProductSceneLabels>>;

@@ -7,15 +7,13 @@ import ClosingCta from "@/modules/home/ClosingCta.astro";
 import ProductHero from "@/modules/product/ProductHero.astro";
 import ProductSplit from "@/modules/product/ProductSplit.astro";
 import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import ExtracurricularScenes from "@/modules/product/scenes/ExtracurricularScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { ogFromAsset } from "@/lib/og-image";
 import heroImage from "@/assets/img/screenshots/extracurricular/extracurricular_hero.png";
-import heroImageDark from "@/assets/img/screenshots/extracurricular/dark/extracurricular_hero.png";
-import calendarImage from "@/assets/img/screenshots/app/app_calendar.png";
-import rightCardImage from "@/assets/img/screenshots/extracurricular/extracurricular_detail.png";
-import rightCardImageDark from "@/assets/img/screenshots/extracurricular/dark/extracurricular_detail.png";
-import appImage from "@/assets/img/screenshots/app/app_extracurricular.png";
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -23,6 +21,8 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const labels = { ...productSceneLabels(t), x: t.extracurricularScenes };
+const locale = intlLocaleForLang(lang);
 const m = t.productModules.extracurricular;
 
 const icons = [
@@ -52,47 +52,28 @@ const features = m.features.map((f, i) => ({
     design="premium"
 >
     <HomeMotion />
-    <ProductHero
-        t={t}
-        title={m.mainTitle}
-        description={m.mainDescription}
-        image={heroImage}
-        imageDark={heroImageDark}
-        imageAlt={m.altHero}
-    />
+    <ProductHero t={t} title={m.mainTitle} description={m.mainDescription} bleed>
+        <ExtracurricularScenes slot="visual" client:visible scene="catalog" labels={labels} locale={locale} />
+    </ProductHero>
     <ProductSplit
         t={t}
-        left={{
-            title: m.heroLeftTitle,
-            description: m.heroLeftDescription,
-            cta: true,
-        }}
-        right={{
-            title: m.heroRightTitle,
-            description: m.heroRightDescription,
-            image: rightCardImage,
-            imageDark: rightCardImageDark,
-            alt: m.altHero,
-        }}
-    />
+        left={{ title: m.heroLeftTitle, description: m.heroLeftDescription, cta: true, bleed: true }}
+        right={{ title: m.heroRightTitle, description: m.heroRightDescription, bleed: true }}
+    >
+        <ExtracurricularScenes slot="left" client:visible scene="browse" labels={labels} locale={locale} />
+        <ExtracurricularScenes slot="right" client:visible scene="detail" labels={labels} locale={locale} />
+    </ProductSplit>
     <FeatureGrid t={t} features={features} title={m.featuresTitle} description={m.featuresDescription} />
     <ProductSplit
         t={t}
         title={m.sectionTitle}
         description={m.sectionDescription}
-        left={{
-            title: m.section1Title,
-            description: m.section1Description,
-            image: appImage,
-            alt: m.altSection1,
-        }}
-        right={{
-            title: m.section2Title,
-            description: m.section2Description,
-            image: calendarImage,
-            alt: m.altSection2,
-        }}
-    />
+        left={{ title: m.section1Title, description: m.section1Description, bleed: true }}
+        right={{ title: m.section2Title, description: m.section2Description, bleed: true }}
+    >
+        <ExtracurricularScenes slot="left" client:visible scene="enrol" labels={labels} locale={locale} />
+        <ExtracurricularScenes slot="right" client:visible scene="agenda" labels={labels} locale={locale} />
+    </ProductSplit>
     <ProductFaqs t={t} title={m.faqTitle} description={m.faqDescription} faqs={m.faqs} />
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema

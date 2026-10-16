@@ -24,7 +24,7 @@ import {
     type LucideIcon,
 } from "lucide-react";
 
-import { EnaClover, PhoneFrame, PhoneHome } from "@/components/wizard/app-frame";
+import { EnaClover, PhoneFrame, PhoneHome, PhoneNotification } from "@/components/wizard/app-frame";
 import { CONTENT } from "@/components/wizard/glass-stage";
 import {
     At,
@@ -953,14 +953,8 @@ function AppScene({ t, labels }: SceneProps) {
                 w={PHONE.w}
                 h={PHONE.h}
                 overlay={
-                    <Pop show={on(t, ARRIVE_AT) && !opened} from="down" className="flex items-center gap-[0.4em] rounded-[0.8em] p-[0.45em] material-thick elev-2 ring-1 ring-hairline">
-                        <span className="ds-app-icon size-[1.3em] bg-white">
-                            <EnaClover size={0.8} />
-                        </span>
-                        <span className="flex min-w-0 flex-col gap-[0.25em]">
-                            <span className="text-[0.4em] font-semibold leading-none">Edena</span>
-                            <span className="ds-bar h-[0.22em] w-[4.2em]" />
-                        </span>
+                    <Pop show={on(t, ARRIVE_AT) && !opened} from="down">
+                        <PhoneNotification title={labels.communication} />
                     </Pop>
                 }
             >

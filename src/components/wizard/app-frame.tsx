@@ -20,7 +20,7 @@ import {
 import enaLogo from "@/assets/img/logos/ena.png";
 import wordmark from "@/assets/img/logos/logo.png";
 import { cn } from "@/lib/utils";
-import { At } from "./scene-kit";
+import { At, Line } from "./scene-kit";
 
 /*
  * The families' app, drawn: the phone with the app's header and tab bar, and its home as the app
@@ -96,6 +96,48 @@ export function EnaClover({
     );
 }
 
+/**
+ * Edena's app icon (`logos/logo-small.svg`): the mark in black on white, as a phone's home screen
+ * and its notifications show it. `size` is its width in em.
+ */
+export function AppIcon({ size, className }: { size: number; className?: string }) {
+    return (
+        <span
+            className={cn("relative inline-flex shrink-0 overflow-hidden bg-white dark:ring-1 dark:ring-white/25", className)}
+            style={{ width: `${size}em`, height: `${size}em`, borderRadius: `${size * 0.1}em` }}
+        >
+            <LogoMark className="absolute inset-0 size-full text-neutral-950" />
+        </span>
+    );
+}
+
+/**
+ * A notification from Edena, as the phone shows it: the app's icon, its name, a title and either a
+ * line of text or a skeleton for it.
+ */
+export function PhoneNotification({
+    title,
+    body,
+    className,
+    style,
+}: {
+    title: string;
+    body?: string;
+    className?: string;
+    style?: CSSProperties;
+}) {
+    return (
+        <div className={cn("flex items-center gap-[0.5em] rounded-[0.95em] p-[0.5em] material-thick elev-3 ring-1 ring-hairline", className)} style={style}>
+            <AppIcon size={1.5} />
+            <span className="flex min-w-0 flex-1 flex-col gap-[0.25em]">
+                <span className="text-[0.3em] font-semibold uppercase leading-none tracking-[0.1em] text-ink-3">Edena</span>
+                <span className="truncate text-[0.44em] font-semibold leading-tight">{title}</span>
+                {body ? <span className="truncate text-[0.4em] leading-tight text-ink-2">{body}</span> : <Line w={4.6} className="h-[0.22em] opacity-70" />}
+            </span>
+        </div>
+    );
+}
+
 /** The app's section title: small, bold, upper case, tracked. */
 export function Label({
     children,
@@ -134,6 +176,7 @@ export function PhoneFrame({
     h,
     tab = 0,
     cart = false,
+    cartCount,
     children,
     overlay,
     className,
@@ -145,6 +188,8 @@ export function PhoneFrame({
     /** The tab bar's entry in hand: 0 home, 1 backpack, 2 Ena, 3 messages, 4 profile. */
     tab?: number;
     cart?: boolean;
+    /** Items in the cart, on a badge over its icon (with `cart`). */
+    cartCount?: number;
     children?: ReactNode;
     /** Drawn over the whole screen, above the header: a notification arriving. */
     overlay?: ReactNode;
@@ -165,7 +210,19 @@ export function PhoneFrame({
                     <Menu className="size-[0.7em]" />
                     <img src={wordmarkSrc} alt="" className="h-[0.62em] w-auto dark:invert" />
                     <span className="flex items-center gap-[0.35em]">
-                        {cart && <ShoppingCart className="size-[0.65em]" />}
+                        {cart && (
+                            <span className="relative">
+                                <ShoppingCart className="size-[0.65em]" />
+                                {!!cartCount && (
+                                    <span
+                                        key={cartCount}
+                                        className="absolute -right-[0.3em] -top-[0.3em] flex size-[0.6em] animate-[ds-pop_400ms_var(--ease-spring-bounce)] items-center justify-center rounded-full bg-red-500 text-white"
+                                    >
+                                        <span className="text-[0.4em] font-bold tabular-nums leading-none">{cartCount}</span>
+                                    </span>
+                                )}
+                            </span>
+                        )}
                         <span className="relative">
                             <Bell className="size-[0.65em] fill-current" />
                             <span className="absolute -right-[0.1em] -top-[0.1em] size-[0.3em] rounded-full bg-red-500" />

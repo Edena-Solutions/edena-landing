@@ -1,9 +1,6 @@
-import { Bell, ImageIcon, MessageCircle, type LucideIcon } from "lucide-react";
-
-import { PhoneFrame, PhoneHome } from "@/components/wizard/app-frame";
+import { PhoneFrame, PhoneHome, PhoneNotification } from "@/components/wizard/app-frame";
 import { GlassOrbs } from "@/components/wizard/glass-stage";
 import type { Translation } from "@/i18n";
-import { cn } from "@/lib/utils";
 
 /*
  * The families' app rising from the foot of its tile, open on its home as the app opens (the
@@ -19,10 +16,11 @@ interface Props {
 }
 
 export default function AppTileScene({ ui, notifications }: Props) {
-    const banners: { icon: LucideIcon; tone: string; label: string; x: number; y: number; delay: string }[] = [
-        { icon: ImageIcon, tone: "bg-sys-pink", label: notifications.securePhotos, x: 0.4, y: 3.8, delay: "0s" },
-        { icon: Bell, tone: "bg-sys-orange", label: notifications.pushAlerts, x: 15.2, y: 8.4, delay: "-3s" },
-        { icon: MessageCircle, tone: "bg-sys-blue", label: notifications.communication, x: 1.2, y: 12.6, delay: "-6s" },
+    // Edena's own notifications, as the phone shows them: the app's icon, never a feature's.
+    const banners: { label: string; x: number; y: number; delay: string }[] = [
+        { label: notifications.securePhotos, x: 0.2, y: 3.8, delay: "0s" },
+        { label: notifications.pushAlerts, x: 14.9, y: 8.4, delay: "-3s" },
+        { label: notifications.communication, x: 0.9, y: 12.6, delay: "-6s" },
     ];
 
     return (
@@ -45,29 +43,15 @@ export default function AppTileScene({ ui, notifications }: Props) {
                     </PhoneFrame>
                 </div>
             </div>
-            {banners.map((banner, index) => {
-                const Icon = banner.icon;
-                return (
-                    <div key={banner.label} className="absolute" style={{ left: `${banner.x}em`, top: `${banner.y}em`, width: "12em" }}>
-                        <div data-reveal="scale" style={{ ["--reveal-i" as string]: index + 1 }}>
-                            <div
-                                className="flex animate-ds-float items-center gap-[0.6em] rounded-[1.1em] p-[0.6em] material-thick elev-3 ring-1 ring-hairline"
-                                style={{ animationDelay: banner.delay }}
-                            >
-                                <span className={cn("ds-app-icon size-[2em]", banner.tone)}>
-                                    <Icon className="size-[1em]" />
-                                </span>
-                                <span className="flex min-w-0 flex-col gap-[0.35em]">
-                                    <span className="truncate font-semibold leading-none" style={{ fontSize: "0.66em" }}>
-                                        {banner.label}
-                                    </span>
-                                    <span className="ds-bar w-[6em] opacity-70" />
-                                </span>
-                            </div>
+            {banners.map((banner, index) => (
+                <div key={banner.label} className="absolute" style={{ left: `${banner.x}em`, top: `${banner.y}em`, width: "12.5em" }}>
+                    <div data-reveal="scale" style={{ ["--reveal-i" as string]: index + 1 }}>
+                        <div className="animate-ds-float" style={{ animationDelay: banner.delay }}>
+                            <PhoneNotification title={banner.label} />
                         </div>
                     </div>
-                );
-            })}
+                </div>
+            ))}
         </>
     );
 }

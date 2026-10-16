@@ -7,14 +7,13 @@ import ClosingCta from "@/modules/home/ClosingCta.astro";
 import ProductHero from "@/modules/product/ProductHero.astro";
 import ProductSplit from "@/modules/product/ProductSplit.astro";
 import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import ShopScenes from "@/modules/product/scenes/ShopScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
-import ShopAppAnimation from "@/components/ShopAppAnimation";
 import { ogFromAsset } from "@/lib/og-image";
 import shopMain from "@/assets/img/screenshots/app/shop_main.png";
-import shopItem from "@/assets/img/screenshots/app/shop_item.png";
-import heroImage from "@/assets/img/screenshots/shop/shop_hero.png";
-import heroImageDark from "@/assets/img/screenshots/shop/dark/shop_hero.png";
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -22,6 +21,8 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const labels = { ...productSceneLabels(t), s: t.shopScenes };
+const locale = intlLocaleForLang(lang);
 const m = t.productModules.shop;
 
 const icons = ["Store", "CreditCard", "Package", "Shapes", "Smartphone", "BarChart2"];
@@ -44,47 +45,27 @@ const features = m.features.map((f, i) => ({
     design="premium"
 >
     <HomeMotion />
-    <ProductHero t={t} title={m.mainTitle} description={m.mainDescription} imageAlt={m.altHero}>
-        <ShopAppAnimation slot="visual" client:only="react" />
+    <ProductHero t={t} title={m.mainTitle} description={m.mainDescription} bleed>
+        <ShopScenes slot="visual" client:visible scene="trio" labels={labels} locale={locale} />
     </ProductHero>
     <ProductSplit
         t={t}
-        left={{
-            title: m.heroLeftTitle,
-            description: m.heroLeftDescription,
-            cta: true,
-        }}
-        right={{
-            title: m.heroRightTitle,
-            description: m.heroRightDescription,
-            image: heroImage,
-            imageDark: heroImageDark,
-            alt: m.altHero,
-        }}
-    />
+        left={{ title: m.heroLeftTitle, description: m.heroLeftDescription, cta: true, bleed: true }}
+        right={{ title: m.heroRightTitle, description: m.heroRightDescription, bleed: true }}
+    >
+        <ShopScenes slot="left" client:visible scene="quick" labels={labels} locale={locale} />
+        <ShopScenes slot="right" client:visible scene="admin" labels={labels} locale={locale} />
+    </ProductSplit>
     <FeatureGrid t={t} features={features} title={m.featuresTitle} description={m.featuresDescription} />
     <ProductSplit
         t={t}
         title={m.sectionTitle}
         description={m.sectionDescription}
-        left={{
-            title: m.section1Title,
-            description: m.section1Description,
-            image: shopItem,
-            alt: m.altSection1,
-        }}
-        right={{
-            title: m.section2Title,
-            description: m.section2Description,
-            alt: m.altSection2,
-        }}
+        left={{ title: m.section1Title, description: m.section1Description, bleed: true }}
+        right={{ title: m.section2Title, description: m.section2Description, bleed: true }}
     >
-        <img
-            slot="right"
-            src="/gifs/payment-success.gif"
-            alt={m.altSection2}
-            class="mx-auto h-40 w-40 object-contain grayscale md:h-48 md:w-48"
-        />
+        <ShopScenes slot="left" client:visible scene="product" labels={labels} locale={locale} />
+        <ShopScenes slot="right" client:visible scene="checkout" labels={labels} locale={locale} />
     </ProductSplit>
     <ProductFaqs t={t} title={m.faqTitle} description={m.faqDescription} faqs={m.faqs} />
     <ClosingCta lang={lang} />

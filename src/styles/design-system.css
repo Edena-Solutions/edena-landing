@@ -1719,7 +1719,9 @@ html.dark [data-ena] .material-glass {
     }
 
     .ds-nav-group [data-slot="accordion-content"][data-state="open"],
-    .ds-nav-group [data-slot="accordion-content"][data-state="closed"] {
+    .ds-nav-group [data-slot="accordion-content"][data-state="closed"],
+    .ds-faq-panel [data-slot="accordion-content"][data-state="open"],
+    .ds-faq-panel [data-slot="accordion-content"][data-state="closed"] {
         animation: none;
     }
 
@@ -1778,35 +1780,104 @@ html.dark [data-ena] .material-glass {
     background-color: var(--ds-fill-2);
 }
 
-/* FAQs on a premium page: hairline rows, no underline, the chevron is the only motion. */
-.ds-faq [data-slot="accordion-item"] {
-    border-color: var(--ds-hairline);
+/*
+ * FAQs (product pages): avern-landing's grouped panel — one raised surface, hairline rows inset
+ * from the question, fill on hover and a deeper fill on press. Chevron is the only accent motion.
+ */
+.ds-faq-panel {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: var(--radius-card);
+    background-color: var(--ds-canvas-2);
+    box-shadow: inset 0 0 0 1px var(--ds-hairline);
 }
 
-.ds-faq [data-slot="accordion-trigger"] {
-    padding-block: 1.2rem;
+.ds-faq-panel [data-slot="accordion-item"] {
+    position: relative;
+    border: none;
+}
+
+.ds-faq-panel [data-slot="accordion-item"]:not(:first-child)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 1.5rem;
+    height: 1px;
+    background: var(--ds-hairline);
+    pointer-events: none;
+}
+
+.ds-faq-panel [data-slot="accordion-trigger"] {
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0;
     font-size: 1.0625rem;
-    line-height: 1.4rem;
-    letter-spacing: -0.016em;
-    font-weight: 600;
+    line-height: 1.35rem;
+    letter-spacing: -0.018em;
+    font-weight: 500;
     color: var(--ds-ink);
+    transition:
+        background-color 240ms var(--ease-fluid),
+        color 240ms var(--ease-fluid);
 }
 
-.ds-faq [data-slot="accordion-trigger"]:hover {
+.ds-faq-panel [data-slot="accordion-trigger"]:hover,
+.ds-faq-panel [data-slot="accordion-trigger"]:focus-visible {
+    background-color: var(--ds-fill-2);
     color: var(--ds-ink);
     text-decoration: none;
 }
 
-.ds-faq [data-slot="accordion-trigger"] svg {
+.ds-faq-panel [data-slot="accordion-trigger"]:active {
+    background-color: color-mix(in srgb, var(--ds-fill) 82%, var(--ds-ink-3));
+    transition-duration: 80ms;
+}
+
+.ds-faq-panel [data-slot="accordion-trigger"]:focus-visible {
+    outline: none;
+    box-shadow: inset 0 0 0 3px color-mix(in srgb, var(--ds-focus) 45%, transparent);
+}
+
+.ds-faq-panel [data-slot="accordion-trigger"] svg {
     color: var(--ds-ink-3);
     transition: rotate 400ms var(--ease-spring);
 }
 
-.ds-faq [data-slot="accordion-content"] {
+.ds-faq-panel [data-slot="accordion-content"][data-state="open"] {
+    animation: accordion-down 420ms var(--ease-spring);
+}
+
+.ds-faq-panel [data-slot="accordion-content"][data-state="closed"] {
+    animation: accordion-up 280ms var(--ease-fluid);
+}
+
+.ds-faq-panel .ds-faq-answer {
+    padding: 0 1.5rem 1.25rem;
     color: var(--ds-ink-2);
     font-size: 0.9375rem;
-    line-height: 1.55rem;
+    line-height: 1.6;
     letter-spacing: -0.005em;
+    text-wrap: pretty;
+}
+
+.ds-faq-panel .ds-faq-answer :where(p, ul, ol) {
+    margin: 0;
+}
+
+.ds-faq-panel .ds-faq-answer :where(p + p, p + ul, p + ol, ul + p, ol + p) {
+    margin-top: 0.75rem;
+}
+
+.ds-faq-panel .ds-faq-answer a {
+    color: var(--ds-ink);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.ds-faq-panel .ds-faq-answer a:hover {
+    color: var(--ds-ink-2);
 }
 
 /* Components sit in Tailwind's `components` layer, so a utility on the same element wins. */
@@ -2592,5 +2663,12 @@ html.dark [data-ena] .material-glass {
 @media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
     .ds-scene__content:not([data-live]) {
         opacity: 0;
+    }
+}
+
+/* A badge or a count arriving: from nothing, past its size, back. */
+@keyframes ds-pop {
+    from {
+        scale: 0;
     }
 }

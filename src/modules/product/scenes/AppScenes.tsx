@@ -1,12 +1,14 @@
-import type { CSSProperties, ReactNode } from "react";
-import { CheckCheck, ChevronLeft, FileText, Heart, ImageIcon, MessageCircle, Send, type LucideIcon } from "lucide-react";
+import type { ReactNode } from "react";
+import { CheckCheck, ChevronLeft, Heart, ImagePlus, Send, Star } from "lucide-react";
 
-import { PhoneFrame, PhoneHome } from "@/components/wizard/app-frame";
-import { GlassOrbs } from "@/components/wizard/glass-stage";
+import appStoreIcon from "@/assets/img/logos/apple-small.png";
+import playStoreIcon from "@/assets/img/logos/google-small.png";
+import { AppIcon, PhoneFrame, PhoneHome, PhoneNotification } from "@/components/wizard/app-frame";
 import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
-import { At, Avatar, Glyph, Line, Pop, easeOut, on, span, type Tone } from "@/components/wizard/scene-kit";
+import { At, Avatar, Line, Pop, easeInOut, easeOut, number, on, percent, span } from "@/components/wizard/scene-kit";
 import { KEY_FEATURE_SCENES, Ripple } from "@/modules/home/KeyFeaturesScenes";
 import { cn } from "@/lib/utils";
+import { ActionButton, DUO, DUO_PANE_LEFT, DUO_PHONE_RIGHT, Fresh, Lights, ORBS, Pane, Photo, between } from "./kit";
 import type { ProductSceneLabels } from "./labels";
 
 /*
@@ -15,9 +17,12 @@ import type { ProductSceneLabels } from "./labels";
  *
  *   trio     (hero) three phones in depth — the students, the home, the timetable — and the
  *            day's notifications arriving on the one in front
- *   chat     a conversation with a family: a message, an answer typed and sent, read
- *   album    a class album filling with photos; one opened, and liked
+ *   chat     the school writes from the web; the family reads it on the phone and answers; the
+ *            school sees it read and answered
+ *   album    the school uploads a trip's photos and publishes them; the family gets them and
+ *            likes one; the school sees the like
  *   updates  a post written on the desktop lands on a family's phone (the home's app scene)
+ *   stores   Edena on the App Store and on Google Play, side by side: got, downloaded, open
  *
  * Each is a pure function of `t`; `Infinity` is its finished frame.
  */
@@ -40,54 +45,18 @@ function BackPhone({ x, y, scale, children }: { x: number; y: number; scale: num
     );
 }
 
-/** A photo, drawn: a soft ground and a white silhouette — a face, or a landscape. */
-function Photo({ hue, kind = "face", className, style }: { hue: number; kind?: "face" | "scene"; className?: string; style?: CSSProperties }) {
-    return (
-        <span
-            className={cn("relative block overflow-hidden", className)}
-            style={{ background: `linear-gradient(150deg, hsl(${hue} 80% 82%), hsl(${hue + 30} 70% 64%))`, ...style }}
-        >
-            <svg viewBox="0 0 40 40" preserveAspectRatio="xMidYMax slice" className="absolute inset-0 size-full">
-                {kind === "face" ? (
-                    <>
-                        <circle cx="20" cy="17" r="7.5" fill="white" fillOpacity="0.75" />
-                        <path d="M5 42c1.6-9 7.4-13.5 15-13.5S33.4 33 35 42z" fill="white" fillOpacity="0.75" />
-                    </>
-                ) : (
-                    <>
-                        <circle cx="29" cy="12" r="4.5" fill="white" fillOpacity="0.8" />
-                        <path d="M-2 42 13 22l8 9 6-6 15 17z" fill="white" fillOpacity="0.7" />
-                    </>
-                )}
-            </svg>
-        </span>
-    );
-}
-
 /* ---------------------------------------------------------------------------------------------- */
 /* trio · three phones                                                                            */
 /* ---------------------------------------------------------------------------------------------- */
 
 const STUDENTS = ["Gerard", "Sofía", "Emma", "Lucas", "Hugo", "Mateo", "Lucía", "Leo", "Daniel", "Juan", "María", "Miguel"];
-const NOTIFICATIONS: { at: number; icon: LucideIcon; tone: Tone; key: "notifPhotos" | "notifMessage" | "newInvoice" }[] = [
-    { at: 900, icon: ImageIcon, tone: "pink", key: "notifPhotos" },
-    { at: 1900, icon: MessageCircle, tone: "blue", key: "notifMessage" },
-    { at: 2900, icon: FileText, tone: "orange", key: "newInvoice" },
+const NOTIFICATIONS: { at: number; key: "notifPhotos" | "notifMessage" | "newInvoice" }[] = [
+    { at: 900, key: "notifPhotos" },
+    { at: 1900, key: "notifMessage" },
+    { at: 2900, key: "newInvoice" },
 ];
 const BACK = 0.88;
 const EVENT_AT = 1600;
-
-function Notification({ icon, tone, title, className, style }: { icon: LucideIcon; tone: Tone; title: string; className?: string; style?: CSSProperties }) {
-    return (
-        <div className={cn("flex items-center gap-[0.45em] rounded-[0.9em] p-[0.5em] material-thick elev-3 ring-1 ring-hairline", className)} style={style}>
-            <Glyph icon={icon} tone={tone} size={1.5} />
-            <span className="flex min-w-0 flex-col gap-[0.3em]">
-                <span className="truncate text-[0.44em] font-semibold">{title}</span>
-                <Line w={4.5} className="h-[0.22em] opacity-70" />
-            </span>
-        </div>
-    );
-}
 
 function TrioScene({ t, labels, locale }: Props) {
     const { ui, p } = labels;
@@ -97,7 +66,7 @@ function TrioScene({ t, labels, locale }: Props) {
 
     return (
         <>
-            <GlassOrbs
+            <Lights
                 orbs={[
                     { x: 3, y: 5, size: 16, color: "#a3e635" },
                     { x: 15, y: 13, size: 18, color: "#22c55e" },
@@ -190,10 +159,8 @@ function TrioScene({ t, labels, locale }: Props) {
                             {NOTIFICATIONS.map((note) => {
                                 const index = arrived.indexOf(note);
                                 return (
-                                    <Notification
+                                    <PhoneNotification
                                         key={note.key}
-                                        icon={note.icon}
-                                        tone={note.tone}
                                         title={p[note.key]}
                                         className="absolute inset-x-0 origin-bottom transition-[translate,opacity,scale] duration-700 ease-spring"
                                         style={{
@@ -216,105 +183,147 @@ function TrioScene({ t, labels, locale }: Props) {
 }
 
 /* ---------------------------------------------------------------------------------------------- */
-/* chat · a conversation with a family                                                            */
+/* chat · the school writes, the family answers                                                   */
 /* ---------------------------------------------------------------------------------------------- */
 
-const CHAT_PHONE = { x: 3, y: 1.2 };
-const READ_CARD = { x: 17.6, y: 10.2, w: 12 };
-const OUT_AT = 500;
-const TYPING = { at: 1300, until: 2300 };
-const IN_AT = 2300;
-const READ_AT = 3000;
-const SECOND_AT = 3600;
-
-function Bubble({ mine, lines, time, read, show }: { mine: boolean; lines: number[]; time: string; read?: boolean; show: boolean }) {
+/** A message: skeleton lines in a bubble. `mine` is the side of whoever is looking. */
+function Bubble({ mine, lines, time, children }: { mine: boolean; lines: number[]; time: string; children?: ReactNode }) {
     return (
-        <Pop
-            show={show}
-            from={mine ? "down" : "up"}
+        <span
             className={cn(
-                "flex max-w-[78%] flex-col gap-[0.35em] rounded-[0.8em] px-[0.6em] py-[0.55em]",
+                "flex max-w-[82%] flex-col gap-[0.35em] rounded-[0.8em] px-[0.6em] py-[0.55em]",
                 mine ? "self-end rounded-br-[0.25em] bg-violet-500 text-white" : "self-start rounded-bl-[0.25em] bg-surface elev-1 ring-1 ring-hairline",
             )}
         >
             {lines.map((w, index) => (
                 <Line key={index} w={w} className={cn("h-[0.26em]", mine ? "bg-white/70" : "")} />
             ))}
-            <span className={cn("flex items-center gap-[0.2em] self-end", mine ? "text-white/80" : "text-ink-3")}>
+            <span className={cn("flex items-center gap-[0.25em] self-end", mine ? "text-white/80" : "text-ink-3")}>
                 <span className="text-[0.32em] tabular-nums">{time}</span>
-                {mine && <CheckCheck className={cn("size-[0.5em] transition-colors duration-500", read ? "text-sky-200" : "")} />}
+                {children}
             </span>
-        </Pop>
+        </span>
     );
 }
 
+/** A message being written: its lines grow as `p` goes from 0 to 1. */
+function Draft({ p, lines }: { p: number; lines: number[] }) {
+    const total = lines.reduce((sum, w) => sum + w, 0);
+    let left = p * total;
+    return (
+        <span className="flex flex-col gap-[0.3em]">
+            {lines.map((w, index) => {
+                const shown = Math.max(0, Math.min(w, left));
+                left -= w;
+                return <Line key={index} w={shown} className="h-[0.24em]" />;
+            })}
+        </span>
+    );
+}
+
+const OUT = [7.4, 8.2, 5.2];
+const REPLY = [6.6, 7.2, 4];
+const CHAT = { write: 300, send: 1150, notify: 1550, open: 2250, read: 2450, reply: 2700, replied: 3550, seen: 3850 };
+
 function ChatScene({ t, labels }: Props) {
     const { p } = labels;
-    const typing = t >= TYPING.at && t < TYPING.until;
-    const read = on(t, READ_AT);
+    const writing = span(t, CHAT.write, CHAT.send - CHAT.write - 150);
+    const replying = span(t, CHAT.reply, CHAT.replied - CHAT.reply - 150);
+    const read = on(t, CHAT.read);
 
     return (
         <>
-            <GlassOrbs
-                orbs={[
-                    { x: -2, y: 5, size: 14, color: "#a3e635" },
-                    { x: 19, y: 3, size: 15, color: "#14b8a6" },
-                    { x: 8, y: 15, size: 13, color: "#22c55e" },
-                ]}
-            />
-            <PhoneFrame {...CHAT_PHONE} w={PHONE.w} h={PHONE.h} tab={3}>
-                <div className="flex h-full flex-col">
-                    <span className="flex items-center gap-[0.4em] border-b border-hairline px-[0.5em] pb-[0.5em] pt-[0.2em]">
-                        <ChevronLeft className="size-[0.6em] text-ink-2" />
-                        <Avatar initials="PB" hue={200} size={1.5} />
-                        <span className="flex min-w-0 flex-col gap-[0.25em]">
-                            <span className="truncate text-[0.38em] font-bold uppercase tracking-[0.06em]">Pol Brigneti</span>
-                            <span className="w-fit rounded-full bg-green-100 px-[0.5em] py-[0.1em] text-green-700 dark:bg-green-500/15 dark:text-green-400">
-                                <span className="text-[0.3em] font-semibold">{p.chatTag}</span>
-                            </span>
-                        </span>
-                    </span>
-                    <div className="flex flex-1 flex-col gap-[0.5em] bg-fill/50 px-[0.5em] py-[0.6em]">
-                        <Bubble mine show={on(t, OUT_AT)} lines={[6.2, 6.8, 4.4]} time="16:36" read={read} />
-                        <Pop
-                            show={typing}
-                            className={cn("flex w-fit items-center gap-[0.2em] self-start rounded-[0.8em] rounded-bl-[0.25em] bg-surface px-[0.6em] py-[0.55em] elev-1", !typing && "absolute")}
-                        >
-                            {[0, 1, 2].map((dot) => (
-                                <span
-                                    key={dot}
-                                    className="size-[0.32em] rounded-full bg-ink-3"
-                                    style={{ transform: `translateY(${Math.sin((t - TYPING.at) / 140 - dot * 0.9) * 0.12}em)` }}
-                                />
-                            ))}
-                        </Pop>
-                        <Bubble mine={false} show={on(t, IN_AT)} lines={[6.6, 7, 5.6, 3.2]} time="16:38" />
-                        <Bubble mine={false} show={on(t, SECOND_AT)} lines={[4.2]} time="16:38" />
-                    </div>
-                    <span className="flex items-center gap-[0.35em] px-[0.5em] py-[0.45em]">
-                        <span className="flex h-[1.3em] flex-1 items-center rounded-[0.45em] bg-fill px-[0.5em]">
-                            <Line w={4.5} className="h-[0.22em]" />
-                        </span>
-                        <span className="flex size-[1.3em] items-center justify-center rounded-[0.45em] bg-fill">
-                            <Send className="size-[0.55em] text-ink-2" />
-                        </span>
-                    </span>
-                </div>
-            </PhoneFrame>
+            <Lights />
 
-            <At x={READ_CARD.x} y={READ_CARD.y} w={READ_CARD.w}>
-                <Pop show={read} from="scale" className="flex items-center gap-[0.6em] rounded-[1.1em] p-[0.9em] ds-glass">
-                    <span className="relative">
-                        <Avatar initials="PB" hue={200} size={2} />
-                        <Ripple p={span(t, READ_AT, 900)} className="text-brand" />
-                    </span>
-                    <span className="flex min-w-0 flex-col gap-[0.35em]">
-                        <span className="truncate text-[0.6em] font-semibold">Pol Brigneti</span>
-                        <span className="flex items-center gap-[0.3em] text-sky-600 dark:text-sky-400">
-                            <CheckCheck className="size-[0.6em]" />
-                            <span className="text-[0.46em] font-medium">{p.read} · 16:37</span>
+            {/* The school, on the web. */}
+            <Pane box={DUO_PANE_LEFT} clear="right">
+                <span className="flex items-center gap-[0.5em]">
+                    <Avatar initials="PB" hue={200} size={1.7} />
+                    <span className="flex min-w-0 flex-col gap-[0.3em]">
+                        <span className="truncate text-[0.56em] font-semibold">Pol Brigneti</span>
+                        <span className="w-fit rounded-full bg-green-100 px-[0.5em] py-[0.1em] text-green-700 dark:bg-green-500/15 dark:text-green-400">
+                            <span className="text-[0.36em] font-semibold">{p.chatTag}</span>
                         </span>
                     </span>
+                </span>
+                <span className="flex h-[10.4em] flex-col gap-[0.5em] rounded-[0.8em] bg-fill/60 p-[0.6em]">
+                    <Pop show={on(t, CHAT.send)} from="down" className="flex flex-col">
+                        <Bubble mine lines={OUT} time="16:36">
+                            <CheckCheck className={cn("size-[0.55em] transition-colors duration-500", read ? "text-sky-200" : "")} />
+                        </Bubble>
+                    </Pop>
+                    <Pop show={read} className="-mt-[0.25em] self-end">
+                        <span className="text-[0.34em] font-medium text-sky-600 dark:text-sky-400">{p.read} · 16:37</span>
+                    </Pop>
+                    <Pop show={on(t, CHAT.seen)} className="relative flex flex-col">
+                        <Bubble mine={false} lines={REPLY} time="16:38" />
+                        <Fresh t={t} at={CHAT.seen} className="rounded-[0.8em]" />
+                    </Pop>
+                </span>
+                <span className="flex items-center gap-[0.4em]">
+                    <span className="flex min-h-[1.6em] flex-1 items-center rounded-[0.55em] bg-fill px-[0.6em] py-[0.35em]">
+                        {on(t, CHAT.send) ? <Line w={4.4} className="h-[0.24em] opacity-50" /> : <Draft p={writing} lines={OUT.map((w) => w * 0.9)} />}
+                    </span>
+                    <span
+                        className={cn(
+                            "flex size-[1.6em] items-center justify-center rounded-[0.55em] bg-violet-500 text-white transition-[scale] duration-200",
+                            between(t, CHAT.send - 180, CHAT.send) && "scale-90",
+                        )}
+                    >
+                        <Send className="size-[0.7em]" />
+                    </span>
+                </span>
+            </Pane>
+
+            {/* The family, on the phone. */}
+            <At {...DUO_PHONE_RIGHT}>
+                <Pop show={on(t, 120)} from="up" className="size-full">
+                    <PhoneFrame
+                        x={0}
+                        y={0}
+                        w={DUO_PHONE_RIGHT.w}
+                        h={DUO_PHONE_RIGHT.h}
+                        tab={3}
+                        overlay={
+                            <Pop show={between(t, CHAT.notify, CHAT.open)} from="down">
+                                <PhoneNotification title="Laura Torres" />
+                            </Pop>
+                        }
+                    >
+                        <div className="flex h-full flex-col">
+                            <span className="flex items-center gap-[0.4em] border-b border-hairline px-[0.5em] pb-[0.5em] pt-[0.2em]">
+                                <ChevronLeft className="size-[0.6em] text-ink-2" />
+                                <Avatar initials="LT" hue={330} size={1.5} />
+                                <span className="flex min-w-0 flex-col gap-[0.25em]">
+                                    <span className="truncate text-[0.42em] font-semibold">Laura Torres</span>
+                                    <span className="truncate text-[0.34em] text-ink-3">I-3 A</span>
+                                </span>
+                            </span>
+                            <div className="flex flex-1 flex-col gap-[0.5em] bg-fill/50 px-[0.5em] py-[0.6em]">
+                                <Pop show={on(t, CHAT.open)} from="up" className="flex flex-col">
+                                    <Bubble mine={false} lines={OUT.map((w) => w * 0.85)} time="16:36" />
+                                </Pop>
+                                <Pop show={on(t, CHAT.replied)} from="down" className="flex flex-col">
+                                    <Bubble mine lines={REPLY.map((w) => w * 0.85)} time="16:38">
+                                        <CheckCheck className="size-[0.55em]" />
+                                    </Bubble>
+                                </Pop>
+                            </div>
+                            <span className="flex items-center gap-[0.35em] px-[0.5em] py-[0.45em]">
+                                <span className="flex min-h-[1.3em] flex-1 items-center rounded-[0.45em] bg-fill px-[0.5em] py-[0.3em]">
+                                    {on(t, CHAT.replied) || !on(t, CHAT.reply) ? <Line w={3.6} className="h-[0.22em] opacity-50" /> : <Draft p={replying} lines={REPLY.map((w) => w * 0.7)} />}
+                                </span>
+                                <span
+                                    className={cn(
+                                        "flex size-[1.3em] items-center justify-center rounded-[0.45em] bg-fill transition-[scale] duration-200",
+                                        between(t, CHAT.replied - 180, CHAT.replied) && "scale-90",
+                                    )}
+                                >
+                                    <Send className="size-[0.55em] text-ink-2" />
+                                </span>
+                            </span>
+                        </div>
+                    </PhoneFrame>
                 </Pop>
             </At>
         </>
@@ -322,106 +331,320 @@ function ChatScene({ t, labels }: Props) {
 }
 
 /* ---------------------------------------------------------------------------------------------- */
-/* album · a class album                                                                          */
+/* album · the school publishes, the family likes                                                 */
 /* ---------------------------------------------------------------------------------------------- */
 
-const ALBUM_PHONE = { x: 3, y: 1.2 };
-const ALBUM_CARD = { x: 17.6, y: 8.8, w: 12 };
-const PHOTOS = 12;
-const PHOTO_AT = (index: number) => 400 + index * 110;
-const OPEN = { index: 4, at: 2300, until: 3900 };
-const LIKE_AT = 3000;
+const UPLOADS = 6;
+const UPLOAD_AT = (index: number) => 300 + index * 210;
+const UPLOAD_MS = 520;
+const ALBUM = { publish: 1950, published: 2250, notify: 2500, open: 3150, like: 3900, liked: 4200 };
+const hueOf = (index: number) => (index * 47 + 90) % 360;
 
 function AlbumScene({ t, labels }: Props) {
     const { p } = labels;
-    const shown = Array.from({ length: PHOTOS }, (_, index) => on(t, PHOTO_AT(index))).filter(Boolean).length;
-    const opened = t >= OPEN.at && t < OPEN.until;
-    const liked = on(t, LIKE_AT);
-    const tileW = (PHONE.w - 0.7 - 0.4) / 3;
+    const uploaded = Array.from({ length: UPLOADS }, (_, index) => on(t, UPLOAD_AT(index) + UPLOAD_MS)).filter(Boolean).length;
+    const tileW = (DUO_PHONE_RIGHT.w - 0.7 - 0.4) / 3;
 
     return (
         <>
-            <GlassOrbs
-                orbs={[
-                    { x: -2, y: 4, size: 14, color: "#a3e635" },
-                    { x: 19, y: 2, size: 15, color: "#14b8a6" },
-                    { x: 9, y: 15, size: 13, color: "#22c55e" },
-                ]}
-            />
-            <PhoneFrame {...ALBUM_PHONE} w={PHONE.w} h={PHONE.h} tab={1}>
-                <div className="relative h-full">
-                    <span className="absolute inset-x-[0.35em] top-[0.2em] flex items-center gap-[0.4em]">
-                        <Avatar initials="H" hue={35} size={1.35} />
-                        <span className="flex min-w-0 flex-col gap-[0.2em]">
-                            <span className="truncate text-[0.42em] font-semibold">{p.albumName}</span>
-                            <span className="text-[0.32em] tabular-nums text-ink-3">
-                                {shown} {p.photos}
-                            </span>
-                        </span>
-                    </span>
-                    {Array.from({ length: PHOTOS }, (_, index) => (
-                        <At key={index} x={0.35 + (index % 3) * (tileW + 0.2)} y={2.1 + Math.floor(index / 3) * (tileW + 0.2)} w={tileW} h={tileW}>
-                            <Pop show={on(t, PHOTO_AT(index))} from="scale" className="size-full">
-                                <span className="relative block size-full">
-                                    <Photo hue={(index * 37 + 90) % 360} kind={index % 3 === 1 ? "face" : "scene"} className="size-full rounded-[0.3em]" />
-                                    {index === OPEN.index && (
-                                        <Heart
-                                            className={cn(
-                                                "absolute bottom-[0.25em] right-[0.25em] size-[0.6em] fill-white text-white drop-shadow transition-[opacity,scale] duration-500 ease-spring-bounce",
-                                                on(t, OPEN.until) ? "scale-100 opacity-100" : "scale-0 opacity-0",
-                                            )}
-                                        />
-                                    )}
-                                </span>
-                            </Pop>
-                        </At>
-                    ))}
-                    {/* One photo opened over the album. */}
-                    <div
-                        className={cn(
-                            "absolute inset-0 z-20 flex flex-col bg-black/85 transition-[opacity,scale] duration-500 ease-spring",
-                            opened ? "scale-100 opacity-100" : "pointer-events-none scale-90 opacity-0",
-                        )}
-                    >
-                        <Photo hue={(OPEN.index * 37 + 90) % 360} kind="scene" className="mt-[2.5em] aspect-square w-full" />
-                        <span className="flex items-center gap-[0.4em] px-[0.6em] pt-[0.7em]">
-                            <span className="relative">
-                                <Heart
-                                    className={cn(
-                                        "size-[0.9em] transition-[color,scale,fill] duration-500 ease-spring-bounce",
-                                        liked ? "scale-110 fill-sys-pink text-sys-pink" : "text-white",
-                                    )}
-                                />
-                                <Ripple p={span(t, LIKE_AT, 800)} className="text-sys-pink" />
-                            </span>
-                            <span className="text-[0.4em] tabular-nums text-white/80">{liked ? 24 : 23}</span>
-                        </span>
-                    </div>
-                </div>
-            </PhoneFrame>
+            <Lights orbs={ORBS.warm} />
 
-            <At x={ALBUM_CARD.x} y={ALBUM_CARD.y} w={ALBUM_CARD.w}>
-                <Pop show={on(t, 1300)} from="scale" className="flex flex-col gap-[0.7em] rounded-[1.1em] p-[0.9em] ds-glass">
-                    <span className="flex items-center gap-[0.5em]">
-                        <Glyph icon={ImageIcon} tone="pink" size={1.7} />
-                        <span className="flex min-w-0 flex-col gap-[0.3em]">
-                            <span className="truncate text-[0.56em] font-semibold">{p.albumName}</span>
-                            <span className="text-[0.44em] tabular-nums text-ink-2">
-                                {Math.round(PHOTOS * easeOut(span(t, 1300, 1400)))} {p.photos}
-                            </span>
+            {/* The school uploads the trip's photos and publishes them. */}
+            <Pane box={DUO_PANE_LEFT} clear="right">
+                <span className="flex items-center justify-between gap-[0.6em]">
+                    <span className="flex min-w-0 flex-col gap-[0.3em]">
+                        <span className="truncate text-[0.6em] font-semibold">{p.albumName}</span>
+                        <span className="text-[0.4em] tabular-nums text-ink-3">
+                            {uploaded} {p.photos}
                         </span>
                     </span>
-                    <span className="flex items-center border-t border-hairline pt-[0.6em]">
-                        {[210, 25, 140, 300].map((hue, index) => (
-                            <Pop key={hue} show={on(t, 1800 + index * 120)} from="scale" className={cn(index > 0 && "-ml-[0.45em]")}>
-                                <Avatar initials={["MG", "JP", "AL", "SR"][index]} hue={hue} size={1.4} className="ring-2 ring-surface" />
-                            </Pop>
-                        ))}
-                        <span className="ml-[0.5em] text-[0.44em] tabular-nums text-ink-2">+21</span>
-                        <Heart className={cn("ml-auto size-[0.75em] transition-[color,fill] duration-500", liked ? "fill-sys-pink text-sys-pink" : "text-ink-3")} />
+                    <span className="w-[5.6em] shrink-0">
+                        <ActionButton t={t} press={ALBUM.publish - 200} done={ALBUM.published} label={p.publish} doneLabel={p.published} />
                     </span>
+                </span>
+                <span className="grid grid-cols-3 gap-[0.4em]">
+                    {Array.from({ length: UPLOADS }, (_, index) => {
+                        const progress = span(t, UPLOAD_AT(index), UPLOAD_MS);
+                        return (
+                            <span key={index} className="relative aspect-square overflow-hidden rounded-[0.55em] border border-dashed border-hairline-strong bg-fill/60">
+                                <ImagePlus className={cn("absolute left-1/2 top-1/2 size-[0.9em] -translate-x-1/2 -translate-y-1/2 text-ink-3 transition-opacity duration-300", progress > 0 && "opacity-0")} />
+                                <Photo
+                                    hue={hueOf(index)}
+                                    kind={index % 3 === 1 ? "face" : "scene"}
+                                    className="absolute inset-0 transition-[opacity,scale] duration-500"
+                                    style={{ opacity: easeOut(progress), scale: `${0.94 + 0.06 * easeOut(progress)}` }}
+                                />
+                                {progress > 0 && progress < 1 && (
+                                    <svg viewBox="0 0 24 24" className="absolute left-1/2 top-1/2 size-[1.4em] -translate-x-1/2 -translate-y-1/2 -rotate-90">
+                                        <circle cx="12" cy="12" r="9" fill="none" stroke="white" strokeOpacity="0.45" strokeWidth="3" />
+                                        <circle cx="12" cy="12" r="9" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" pathLength={100} strokeDasharray="100" strokeDashoffset={100 - progress * 100} />
+                                    </svg>
+                                )}
+                            </span>
+                        );
+                    })}
+                </span>
+                <Pop show={on(t, ALBUM.liked)} className="relative flex items-center gap-[0.45em] rounded-[0.6em] bg-fill/70 px-[0.6em] py-[0.45em]">
+                    <Fresh t={t} at={ALBUM.liked} className="rounded-[0.6em]" />
+                    <Avatar initials="MG" hue={330} size={1.2} />
+                    <span className="truncate text-[0.44em] text-ink-2">
+                        <b className="font-semibold text-ink">María García</b>
+                    </span>
+                    <Heart className="ml-auto size-[0.7em] fill-sys-pink text-sys-pink" />
+                </Pop>
+            </Pane>
+
+            {/* The family gets them. */}
+            <At {...DUO_PHONE_RIGHT}>
+                <Pop show={on(t, 120)} from="up" className="size-full">
+                    <PhoneFrame
+                        x={0}
+                        y={0}
+                        w={DUO_PHONE_RIGHT.w}
+                        h={DUO_PHONE_RIGHT.h}
+                        tab={1}
+                        overlay={
+                            <Pop show={between(t, ALBUM.notify, ALBUM.open)} from="down">
+                                <PhoneNotification title={p.notifPhotos} body={p.albumName} />
+                            </Pop>
+                        }
+                    >
+                        <div className={cn("relative h-full transition-opacity duration-500", on(t, ALBUM.open) ? "opacity-100" : "opacity-0")}>
+                            <span className="absolute inset-x-[0.35em] top-[0.2em] flex items-center gap-[0.4em]">
+                                <Avatar initials="LT" hue={330} size={1.35} />
+                                <span className="flex min-w-0 flex-col gap-[0.2em]">
+                                    <span className="truncate text-[0.42em] font-semibold">{p.albumName}</span>
+                                    <span className="text-[0.32em] tabular-nums text-ink-3">
+                                        {UPLOADS} {p.photos}
+                                    </span>
+                                </span>
+                            </span>
+                            {Array.from({ length: UPLOADS }, (_, index) => (
+                                <At key={index} x={0.35 + (index % 3) * (tileW + 0.2)} y={2.1 + Math.floor(index / 3) * (tileW + 0.2)} w={tileW} h={tileW}>
+                                    <Pop show={on(t, ALBUM.open + index * 70)} from="scale" className="relative size-full">
+                                        <Photo hue={hueOf(index)} kind={index % 3 === 1 ? "face" : "scene"} className="size-full rounded-[0.3em]" />
+                                    </Pop>
+                                </At>
+                            ))}
+                            <span className="absolute inset-x-[0.35em] flex items-center gap-[0.45em]" style={{ top: `${2.4 + 2 * (tileW + 0.2)}em` }}>
+                                <span className="relative">
+                                    <Heart
+                                        className={cn(
+                                            "size-[0.85em] transition-[color,scale,fill] duration-500 ease-spring-bounce",
+                                            on(t, ALBUM.like) ? "scale-110 fill-sys-pink text-sys-pink" : "text-ink-2",
+                                        )}
+                                    />
+                                    <Ripple p={span(t, ALBUM.like, 800)} className="text-sys-pink" />
+                                </span>
+                                <Line w={3.4} className="h-[0.22em]" />
+                            </span>
+                        </div>
+                    </PhoneFrame>
                 </Pop>
             </At>
+        </>
+    );
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+/* stores · on the App Store and on Google Play                                                   */
+/* ---------------------------------------------------------------------------------------------- */
+
+const srcOf = (image: string | { src: string }) => (typeof image === "string" ? image : image.src);
+/** Both phones the same size, at the same height; their sections line up across them. */
+const STORE_PHONE = { y: 1.2, w: 12.8, h: 25.4 };
+const STORE_X = { ios: 2.3, android: 16.9 };
+/** Each store's own gesture: the App Store's pill turns into a ring that fills; Google Play's
+    button into a bar. They start half a second apart, so the eye goes from one to the other. */
+const IOS = { press: 900, from: 1100, to: 2500 };
+const ANDROID = { press: 1400, from: 1600, to: 3000 };
+const TILE_COLORS = ["#6366f1", "#0ea5e9", "#22c55e", "#fb923c", "#14b8a6", "#3b82f6"];
+const ROW = { header: "h-[1.2em]", app: "h-[3.4em]", info: "h-[3em]", shots: "h-[7.6em]" };
+
+/** A store's screenshot of the app, in miniature: its home, a conversation, an album. */
+function MiniScreen({ kind }: { kind: number }) {
+    return (
+        <span className="flex h-full flex-col gap-[0.2em] overflow-hidden rounded-[0.45em] bg-surface p-[0.3em] elev-1 ring-1 ring-hairline">
+            <span className="mx-auto mb-[0.1em] h-[0.18em] w-[40%] rounded-full bg-fill-2" />
+            {kind === 0 && (
+                <span className="grid flex-1 grid-cols-2 gap-[0.15em]">
+                    {TILE_COLORS.map((color) => (
+                        <span key={color} className="rounded-[0.15em]" style={{ background: color }} />
+                    ))}
+                </span>
+            )}
+            {kind === 1 && (
+                <span className="flex flex-1 flex-col gap-[0.2em] pt-[0.2em]">
+                    <span className="h-[0.7em] w-[70%] self-end rounded-[0.25em] bg-violet-500" />
+                    <span className="h-[0.9em] w-[75%] rounded-[0.25em] bg-fill-2" />
+                    <span className="h-[0.5em] w-[50%] self-end rounded-[0.25em] bg-violet-500" />
+                    <span className="h-[0.7em] w-[60%] rounded-[0.25em] bg-fill-2" />
+                </span>
+            )}
+            {kind === 2 && (
+                <span className="grid flex-1 grid-cols-2 gap-[0.15em]">
+                    {[200, 30, 140, 320, 90, 260].map((hue) => (
+                        <span key={hue} className="rounded-[0.15em]" style={{ background: `linear-gradient(150deg, hsl(${hue} 80% 82%), hsl(${hue + 30} 70% 64%))` }} />
+                    ))}
+                </span>
+            )}
+        </span>
+    );
+}
+
+function Stars() {
+    return (
+        <span className="flex gap-[0.08em] text-amber-400">
+            {[0, 1, 2, 3, 4].map((index) => (
+                <Star key={index} className="size-[0.48em] fill-current" />
+            ))}
+        </span>
+    );
+}
+
+/** A store's listing: its header, the app, a row of its own (`info`), the screenshots, prose. */
+function Listing({ x, t, at, store, icon, info, shots }: { x: number; t: number; at: number; store: string; icon: ReactNode; info: ReactNode; shots: number[] }) {
+    return (
+        <At x={x} y={STORE_PHONE.y} w={STORE_PHONE.w} h={STORE_PHONE.h}>
+            <Pop show={on(t, at)} from="up" className="size-full">
+                <div className="ds-glass flex size-full flex-col gap-[0.85em] overflow-hidden px-[0.85em] pt-[0.85em]" style={{ ["--glass-radius" as string]: "1.9em" }}>
+                    <span className={cn("flex items-center gap-[0.4em]", ROW.header)}>
+                        {icon}
+                        <span className="text-[0.5em] font-semibold">{store}</span>
+                    </span>
+                    {info}
+                    <span className={cn("grid grid-cols-3 gap-[0.4em]", ROW.shots)}>
+                        {shots.map((kind, index) => (
+                            <Pop key={kind} show={on(t, at + 300 + index * 110)} from="up" className="h-full">
+                                <MiniScreen kind={kind} />
+                            </Pop>
+                        ))}
+                    </span>
+                    <span className="flex flex-col gap-[0.4em]">
+                        <Line w={10} className="h-[0.26em]" />
+                        <Line w={8.4} className="h-[0.26em]" />
+                    </span>
+                </div>
+            </Pop>
+        </At>
+    );
+}
+
+function StoresScene({ t, labels, locale }: Props) {
+    const { p } = labels;
+    const ios = { pressed: between(t, IOS.press, IOS.from), loading: between(t, IOS.from, IOS.to), done: on(t, IOS.to), p: easeInOut(span(t, IOS.from, IOS.to - IOS.from)) };
+    const android = { pressed: between(t, ANDROID.press, ANDROID.from), loading: between(t, ANDROID.from, ANDROID.to), done: on(t, ANDROID.to), p: easeInOut(span(t, ANDROID.from, ANDROID.to - ANDROID.from)) };
+    const rating = (
+        <span className="flex items-center gap-[0.35em]">
+            <span className="text-[0.6em] font-semibold tabular-nums">{number(locale, 4.8, 1)}</span>
+            <Stars />
+            <span className="truncate text-[0.38em] text-ink-3">
+                {number(locale, 150)} {p.ratings}
+            </span>
+        </span>
+    );
+
+    return (
+        <>
+            <Lights orbs={ORBS.sky} />
+
+            <Listing
+                x={STORE_X.ios}
+                t={t}
+                at={0}
+                store="App Store"
+                icon={<img src={srcOf(appStoreIcon)} alt="" className="size-[1.15em] rounded-[0.28em]" />}
+                shots={[0, 1, 2]}
+                info={
+                    <>
+                        <span className={cn("flex items-center gap-[0.6em]", ROW.app)}>
+                            <span className="relative">
+                                <AppIcon size={3.3} />
+                                <Ripple p={span(t, IOS.to, 900)} className="rounded-[0.33em] text-sky-500" />
+                            </span>
+                            <span className="flex min-w-0 flex-1 flex-col gap-[0.3em]">
+                                <span className="text-[0.8em] font-semibold tracking-[-0.01em]">Edena</span>
+                                <span className="truncate text-[0.42em] text-ink-2">{p.category}</span>
+                                {/* Get → a ring that fills → Open. */}
+                                <span className="mt-[0.1em] grid h-[1.35em] w-[3.6em] place-items-start">
+                                    <span
+                                        className={cn(
+                                            "[grid-area:1/1] grid h-full place-items-center rounded-full bg-sky-500 text-white transition-[width,opacity,scale] duration-300 ease-spring",
+                                            ios.loading ? "w-[1.35em] opacity-0" : "w-full opacity-100",
+                                            ios.pressed && "scale-90",
+                                        )}
+                                    >
+                                        <span className="text-[0.5em] font-semibold">{ios.done ? p.open : p.get}</span>
+                                    </span>
+                                    <svg viewBox="0 0 24 24" className={cn("[grid-area:1/1] size-[1.35em] -rotate-90 transition-opacity duration-300", ios.loading ? "opacity-100" : "opacity-0")}>
+                                        <circle cx="12" cy="12" r="10" fill="none" stroke="var(--ds-fill-2)" strokeWidth="2.4" />
+                                        <circle cx="12" cy="12" r="10" fill="none" stroke="#0ea5e9" strokeWidth="2.4" strokeLinecap="round" pathLength={100} strokeDasharray="100" strokeDashoffset={100 - ios.p * 100} />
+                                        <rect x="9" y="9" width="6" height="6" rx="1.2" fill="#0ea5e9" />
+                                    </svg>
+                                </span>
+                            </span>
+                        </span>
+                        {/* The App Store's strip: rating, age, category. */}
+                        <span className={cn("grid grid-cols-3 items-center border-y border-hairline", ROW.info)}>
+                            {[
+                                [number(locale, 4.8, 1), <Stars key="stars" />],
+                                ["4+", <span key="age" className="text-[0.36em] text-ink-3">{p.age}</span>],
+                                [p.category, <span key="rank" className="text-[0.36em] text-ink-3">#12</span>],
+                            ].map(([value, sub], index) => (
+                                <span key={index} className={cn("flex min-w-0 flex-col items-center gap-[0.3em]", index > 0 && "border-l border-hairline")}>
+                                    <span className="max-w-full truncate text-[0.52em] font-semibold tabular-nums">{value}</span>
+                                    {sub}
+                                </span>
+                            ))}
+                        </span>
+                    </>
+                }
+            />
+
+            <Listing
+                x={STORE_X.android}
+                t={t}
+                at={150}
+                store="Google Play"
+                icon={<img src={srcOf(playStoreIcon)} alt="" className="size-[1.15em]" />}
+                shots={[2, 0, 1]}
+                info={
+                    <>
+                        <span className={cn("flex items-center gap-[0.6em]", ROW.app)}>
+                            <span className="relative">
+                                <AppIcon size={3.3} />
+                                <Ripple p={span(t, ANDROID.to, 900)} className="rounded-[0.33em] text-green-500" />
+                            </span>
+                            <span className="flex min-w-0 flex-1 flex-col gap-[0.3em]">
+                                <span className="text-[0.8em] font-semibold tracking-[-0.01em]">Edena</span>
+                                <span className="truncate text-[0.42em] font-medium text-green-700 dark:text-green-400">Edena Organization</span>
+                                {rating}
+                            </span>
+                        </span>
+                        {/* Install → a bar that fills → Open. */}
+                        <span className={cn("grid items-center", ROW.info)}>
+                            <span
+                                className={cn(
+                                    "[grid-area:1/1] grid h-[1.7em] place-items-center rounded-full bg-green-700 text-white transition-[opacity,scale] duration-300 ease-spring dark:bg-green-600",
+                                    android.loading ? "opacity-0" : "opacity-100",
+                                    android.pressed && "scale-[0.97]",
+                                )}
+                            >
+                                <span className="text-[0.5em] font-semibold">{android.done ? p.open : p.install}</span>
+                            </span>
+                            <span className={cn("[grid-area:1/1] flex flex-col justify-center gap-[0.35em] transition-opacity duration-300", android.loading ? "opacity-100" : "opacity-0")}>
+                                <span className="flex justify-between text-ink-2">
+                                    <span className="text-[0.4em]">{percent(locale, android.p * 100, 0)}</span>
+                                    <span className="text-[0.4em] tabular-nums">{number(locale, 24 * android.p, 1)} MB</span>
+                                </span>
+                                <span className="h-[0.28em] overflow-hidden rounded-full bg-fill-2">
+                                    <span className="block h-full origin-left rounded-full bg-green-600" style={{ transform: `scaleX(${android.p})` }} />
+                                </span>
+                            </span>
+                        </span>
+                    </>
+                }
+            />
         </>
     );
 }
@@ -432,9 +655,10 @@ const { Scene: UpdatesScene, duration: UPDATES_DURATION } = KEY_FEATURE_SCENES[5
 
 const SCENES = {
     trio: { Scene: TrioScene, duration: 4400, board: { cols: 40, rows: 27 }, k: 0.6 },
-    chat: { Scene: ChatScene, duration: 4600, board: { cols: 32, rows: 26 }, k: 0.72 },
-    album: { Scene: AlbumScene, duration: 4400, board: { cols: 32, rows: 26 }, k: 0.72 },
+    chat: { Scene: ChatScene, duration: 4600, ...DUO },
+    album: { Scene: AlbumScene, duration: 4800, ...DUO },
     updates: { Scene: UpdatesScene, duration: UPDATES_DURATION },
+    stores: { Scene: StoresScene, duration: 3800, board: { cols: 32, rows: 26 }, k: 0.64 },
 } satisfies Record<string, SceneSpec<ProductSceneLabels>>;
 
 export type AppSceneKey = keyof typeof SCENES;

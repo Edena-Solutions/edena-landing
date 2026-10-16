@@ -1,6 +1,5 @@
 import {
     ArrowLeftRight,
-    Bell,
     CreditCard,
     FileText,
     History,
@@ -14,12 +13,13 @@ import {
 
 import type { ReactNode } from "react";
 
-import { PhoneFrame, wordmarkSrc } from "@/components/wizard/app-frame";
-import { CONTENT, GlassOrbs } from "@/components/wizard/glass-stage";
+import { PhoneFrame, PhoneNotification, wordmarkSrc } from "@/components/wizard/app-frame";
+import { CONTENT } from "@/components/wizard/glass-stage";
 import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
-import { At, Chip, Glyph, Line, Pop, capitalize, clamp01, easeInOut, easeOut, money, monthName, on, percent, shortDate, span } from "@/components/wizard/scene-kit";
+import { At, Chip, Line, Pop, capitalize, clamp01, easeInOut, easeOut, money, monthName, on, percent, shortDate, span } from "@/components/wizard/scene-kit";
 import { DrawnCheck, KEY_FEATURE_SCENES, Ripple, Title } from "@/modules/home/KeyFeaturesScenes";
 import { cn } from "@/lib/utils";
+import { ActionButton, Caps, DUO, DUO_PANE_RIGHT, DUO_PHONE_LEFT, Fresh, Lights, Pane, Pill, SettlePill, between } from "./kit";
 import type { ProductSceneLabels } from "./labels";
 
 /*
@@ -28,7 +28,8 @@ import type { ProductSceneLabels } from "./labels";
  *
  *   breakdown  (hero) the month's billing: invoices drawn up, the totals by way of payment filling
  *              in, then everything sent to the families
- *   pay        an invoice reaches a family's phone and is paid there; the school sees it come in
+ *   pay        an invoice reaches a family's phone and is paid there; on the school's collections
+ *              behind it, that family's row settles and the month's total grows
  *   cycle      the billing cycle settling family by family, sealed by Verifactu (the home's scene)
  *   analytics  what was billed, what was collected, month by month
  *   invoice    an invoice composed — its Verifactu QR drawn — and on its way: registered, sent, paid
@@ -241,122 +242,97 @@ function BreakdownScene({ t, labels, locale }: Props) {
 /* pay · on the family's phone                                                                    */
 /* ---------------------------------------------------------------------------------------------- */
 
-const PAY_PHONE = { x: 3, y: 1.2, w: 12.4, h: 25.4 };
-const RECEIPT = { x: 17.6, y: 9.2, w: 12 };
-const NOTIFY_AT = 400;
-const OPEN_AT = 1500;
-const PAY_AT = 2900;
-const PAID_AT = 3500;
-const PAY_FLIGHT = { at: 3650, duration: 600 };
-const RECEIVED_AT = PAY_FLIGHT.at + PAY_FLIGHT.duration;
 const INVOICE_LINES = [161.5, 50, 520];
 const INVOICE_TOTAL = INVOICE_LINES.reduce((sum, amount) => sum + amount, 0);
+const PAY = { notify: 400, open: 1450, press: 2750, busy: 2950, paid: 3500, settled: 3800 };
+/** The month's collections, as the school sees them; María García's is the one paid on the phone. */
+const COLLECTIONS = [
+    { name: "María García", amount: INVOICE_TOTAL, paidAt: PAY.settled },
+    { name: "Pedro Castro", amount: 731.46, paidAt: 0 },
+    { name: "Ane Etxeberria", amount: 439.11, paidAt: -1 },
+    { name: "Marc Puig", amount: 744.95, paidAt: 0 },
+    { name: "Mónica Delgado", amount: 621.07, paidAt: -1 },
+];
+const COLLECTED = 2096.48;
 
 function PayScene({ t, labels, locale }: Props) {
-    const { p } = labels;
-    const notified = t >= NOTIFY_AT && t < OPEN_AT;
-    const opened = on(t, OPEN_AT);
-    const paying = t >= PAY_AT && t < PAID_AT;
-    const paid = on(t, PAID_AT);
-    const flight = easeInOut(span(t, PAY_FLIGHT.at, PAY_FLIGHT.duration));
-    const from = { x: PAY_PHONE.x + PAY_PHONE.w / 2, y: 19.6 };
-    const to = { x: RECEIPT.x + 1.5, y: RECEIPT.y + 2.6 };
-    const dot = { x: from.x + (to.x - from.x) * flight, y: from.y + (to.y - from.y) * flight - Math.sin(Math.PI * flight) * 5 };
+    const { ui, p } = labels;
+    const opened = on(t, PAY.open);
+    const collected = COLLECTED + INVOICE_TOTAL * easeOut(span(t, PAY.settled, 900));
 
     return (
         <>
-            <GlassOrbs
-                orbs={[
-                    { x: -2, y: 5, size: 14, color: "#a3e635" },
-                    { x: 19, y: 3, size: 15, color: "#14b8a6" },
-                    { x: 8, y: 15, size: 13, color: "#22c55e" },
-                ]}
-            />
-            <PhoneFrame
-                {...PAY_PHONE}
-                tab={1}
-                overlay={
-                    <div
-                        className={cn(
-                            "flex items-center gap-[0.45em] rounded-[0.9em] p-[0.5em] material-thick elev-3 ring-1 ring-hairline transition-[opacity,translate] duration-500 ease-spring",
-                            notified ? "translate-y-0 opacity-100" : "-translate-y-[2.5em] opacity-0",
-                        )}
-                    >
-                        <Glyph icon={FileText} tone="orange" size={1.5} />
-                        <span className="flex min-w-0 flex-col gap-[0.25em]">
-                            <span className="truncate text-[0.46em] font-semibold">{p.newInvoice}</span>
-                            <span className="truncate text-[0.42em] tabular-nums text-ink-2">{money(locale, INVOICE_TOTAL, 2)}</span>
-                        </span>
-                    </div>
-                }
-            >
-                <div className="flex h-full flex-col gap-[0.7em] px-[0.75em] pt-[0.4em]">
-                    <Pop show={opened} from="blur" className="flex flex-col gap-[0.35em]">
-                        <span className={FIELD_LABEL}>{p.invoiceMeta[2]}</span>
-                        <span className="text-[0.5em] font-semibold tabular-nums">#F-202606-1278</span>
+            <Lights />
+
+            {/* The school's collections: the one paid on the phone settles here. */}
+            <Pane box={DUO_PANE_RIGHT} clear="left">
+                <span className="flex items-end justify-between gap-[0.6em]">
+                    <span className="flex min-w-0 flex-col gap-[0.35em]">
+                        <Caps>{p.collectionsReport}</Caps>
+                        <span className="text-[1em] font-semibold tabular-nums tracking-[-0.02em]">{money(locale, collected, 2)}</span>
+                    </span>
+                    <Pop show={on(t, PAY.settled + 300)} from="scale">
+                        <Chip icon={TrendingUp} className="bg-brand-soft text-brand-ink">
+                            +{money(locale, INVOICE_TOTAL, 2)}
+                        </Chip>
                     </Pop>
-                    <Pop show={on(t, OPEN_AT + 120)} from="blur" className="flex flex-col items-center gap-[0.3em] rounded-[0.8em] py-[0.8em] ds-glass-inner">
-                        <span className={FIELD_LABEL}>{p.total}</span>
-                        <span className="text-[1.3em] font-semibold tabular-nums tracking-[-0.03em]">{money(locale, INVOICE_TOTAL, 2)}</span>
-                        <span className="text-[0.42em] text-ink-3">{shortDate(locale, new Date(2026, 5, 5))}</span>
-                    </Pop>
-                    {p.invoiceLines.map((line, index) => (
-                        <Pop key={line} show={on(t, OPEN_AT + 240 + index * 110)} className="flex items-center justify-between border-b border-hairline pb-[0.45em]">
-                            <span className="truncate text-[0.46em] text-ink-2">{line}</span>
-                            <span className="text-[0.46em] font-medium tabular-nums">{money(locale, INVOICE_LINES[index], 2)}</span>
+                </span>
+                <span className="flex flex-col">
+                    {COLLECTIONS.map((row, index) => (
+                        <Pop key={row.name} show={on(t, 200 + index * 80)} from="up" className="relative flex h-[2.05em] items-center gap-[0.5em] border-b border-hairline px-[0.25em]">
+                            {index === 0 && <Fresh t={t} at={PAY.settled} />}
+                            <span className="w-[6.6em] truncate">
+                                <span className="text-[0.48em] font-medium">{row.name}</span>
+                            </span>
+                            <span className="text-[0.46em] tabular-nums text-ink-2">{money(locale, row.amount, 2)}</span>
+                            <span className="ml-auto">
+                                {row.paidAt < 0 ? (
+                                    <Pill tone="yellow">{ui.pending}</Pill>
+                                ) : (
+                                    <SettlePill t={row.paidAt === 0 ? Number.POSITIVE_INFINITY : t} at={row.paidAt} from={ui.pending} to={p.paid} />
+                                )}
+                            </span>
                         </Pop>
                     ))}
-                    <Pop show={on(t, OPEN_AT + 600)} className="mt-[0.3em]">
-                        <span
-                            className={cn(
-                                "grid h-[1.9em] place-items-center rounded-full transition-[background-color,scale] duration-500",
-                                paid ? "bg-green-500 text-white" : "bg-ink text-canvas",
-                                paying && "scale-95",
-                            )}
-                        >
-                            <span className={cn("[grid-area:1/1] text-[0.54em] font-semibold transition-opacity duration-300", (paying || paid) && "opacity-0")}>
-                                {p.payNow}
-                            </span>
-                            {/* A ring that turns while the payment goes through. */}
-                            <svg
-                                viewBox="0 0 24 24"
-                                className={cn("[grid-area:1/1] size-[0.9em] transition-opacity duration-200", paying ? "opacity-100" : "opacity-0")}
-                                style={{ transform: `rotate(${clamp01((t - PAY_AT) / 600) * 540}deg)` }}
-                            >
-                                <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" strokeWidth="3" strokeDasharray="40 60" strokeLinecap="round" />
-                            </svg>
-                            <span className={cn("[grid-area:1/1] flex items-center gap-[0.35em] transition-opacity duration-300", !paid && "opacity-0")}>
-                                <span className="size-[0.85em]">
-                                    <DrawnCheck p={span(t, PAID_AT + 100, 450)} className="size-full" />
-                                </span>
-                                <span className="text-[0.52em] font-semibold">{p.paid}</span>
-                            </span>
-                        </span>
-                    </Pop>
-                </div>
-            </PhoneFrame>
+                </span>
+            </Pane>
 
-            {flight > 0 && flight < 1 && (
-                <At x={dot.x} y={dot.y} className="pointer-events-none z-40">
-                    <span className="absolute -left-[0.7em] -top-[0.7em] size-[1.4em] rounded-full bg-brand/35 blur-[0.3em]" />
-                    <span className="absolute -left-[0.25em] -top-[0.25em] size-[0.5em] rounded-full bg-white shadow-[0_0_0.5em_rgb(34_197_94/0.9)]" />
-                </At>
-            )}
-
-            <At x={RECEIPT.x} y={RECEIPT.y} w={RECEIPT.w}>
-                <Pop show={on(t, RECEIVED_AT)} from="scale" className="flex flex-col gap-[0.75em] rounded-[1.1em] p-[1em] ds-glass">
-                    <span className="flex items-center justify-between">
-                        <span className={SECTION}>{p.paymentReceived}</span>
-                        <span className="relative">
-                            <Glyph icon={Bell} tone="green" size={1.3} />
-                            <Ripple p={span(t, RECEIVED_AT, 900)} className="rounded-[0.4em] text-brand" />
-                        </span>
-                    </span>
-                    <span className="text-[1.15em] font-semibold tabular-nums tracking-[-0.03em]">{money(locale, INVOICE_TOTAL * easeOut(span(t, RECEIVED_AT, 900)), 2)}</span>
-                    <span className="flex items-center justify-between border-t border-hairline pt-[0.6em]">
-                        <span className="truncate text-[0.46em] text-ink-2">María García López</span>
-                        <CreditCard className="size-[0.6em] text-ink-3" />
-                    </span>
+            {/* The family's phone: the invoice arrives, and is paid. */}
+            <At {...DUO_PHONE_LEFT}>
+                <Pop show={on(t, 100)} from="up" className="size-full">
+                    <PhoneFrame
+                        x={0}
+                        y={0}
+                        w={DUO_PHONE_LEFT.w}
+                        h={DUO_PHONE_LEFT.h}
+                        tab={1}
+                        overlay={
+                            <Pop show={between(t, PAY.notify, PAY.open)} from="down">
+                                <PhoneNotification title={p.newInvoice} body={money(locale, INVOICE_TOTAL, 2)} />
+                            </Pop>
+                        }
+                    >
+                        <div className={cn("flex h-full flex-col gap-[0.7em] px-[0.75em] pt-[0.4em] transition-opacity duration-500", opened ? "opacity-100" : "opacity-0")}>
+                            <span className="flex flex-col gap-[0.35em]">
+                                <Caps tone="text-ink-3">{p.invoiceMeta[2]}</Caps>
+                                <span className="text-[0.5em] font-semibold tabular-nums">#F-202606-1278</span>
+                            </span>
+                            <Pop show={opened} from="up" className="flex flex-col items-center gap-[0.3em] rounded-[0.8em] py-[0.8em] ds-glass-inner">
+                                <Caps tone="text-ink-3">{p.total}</Caps>
+                                <span className="text-[1.3em] font-semibold tabular-nums tracking-[-0.03em]">{money(locale, INVOICE_TOTAL, 2)}</span>
+                                <span className="text-[0.42em] text-ink-3">{shortDate(locale, new Date(2026, 5, 5))}</span>
+                            </Pop>
+                            {p.invoiceLines.map((line, index) => (
+                                <Pop key={line} show={on(t, PAY.open + 120 + index * 110)} className="flex items-center justify-between border-b border-hairline pb-[0.45em]">
+                                    <span className="truncate text-[0.46em] text-ink-2">{line}</span>
+                                    <span className="text-[0.46em] font-medium tabular-nums">{money(locale, INVOICE_LINES[index], 2)}</span>
+                                </Pop>
+                            ))}
+                            <Pop show={on(t, PAY.open + 500)} className="mt-[0.3em]">
+                                <ActionButton t={t} press={PAY.press} busy={PAY.busy} done={PAY.paid} label={p.payNow} doneLabel={p.paid} />
+                            </Pop>
+                        </div>
+                    </PhoneFrame>
                 </Pop>
             </At>
         </>
@@ -640,7 +616,7 @@ const { Scene: CycleScene, duration: CYCLE_DURATION } = KEY_FEATURE_SCENES[1];
 
 const SCENES = {
     breakdown: { Scene: BreakdownScene, duration: 4800 },
-    pay: { Scene: PayScene, duration: 5000, board: { cols: 32, rows: 26 }, k: 0.72 },
+    pay: { Scene: PayScene, duration: 5000, ...DUO },
     cycle: { Scene: CycleScene, duration: CYCLE_DURATION },
     analytics: { Scene: AnalyticsScene, duration: 4400 },
     invoice: { Scene: InvoiceScene, duration: 4800 },

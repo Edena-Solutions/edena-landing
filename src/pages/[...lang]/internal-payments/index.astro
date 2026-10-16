@@ -7,15 +7,13 @@ import ClosingCta from "@/modules/home/ClosingCta.astro";
 import ProductHero from "@/modules/product/ProductHero.astro";
 import ProductSplit from "@/modules/product/ProductSplit.astro";
 import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import WalletScenes from "@/modules/product/scenes/WalletScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { ogFromAsset } from "@/lib/og-image";
 import billingInfo from "@/assets/img/screenshots/finance/billing_info.png";
-import billingInfoDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
-import invoiceAnalytics from "@/assets/img/screenshots/finance/invoice_analytics.png";
-import invoiceAnalyticsDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
-import heroImage from "@/assets/img/screenshots/finance/billing_cycle.png";
-import heroImageDark from "@/assets/img/screenshots/finance/dark/billing_cycle.png";
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -23,6 +21,8 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const labels = { ...productSceneLabels(t), w: t.walletScenes };
+const locale = intlLocaleForLang(lang);
 const m = t.productModules.internalPayments;
 
 const icons = ["Wallet", "CreditCard", "Zap", "Activity", "Bell", "FileBarChart"];
@@ -45,53 +45,27 @@ const features = m.features.map((f, i) => ({
     design="premium"
 >
     <HomeMotion />
-    <ProductHero
-        t={t}
-        title={m.mainTitle}
-        description={m.mainDescription}
-        image={heroImage}
-        imageDark={heroImageDark}
-        imageAlt={m.altHero}
-    />
+    <ProductHero t={t} title={m.mainTitle} description={m.mainDescription} bleed>
+        <WalletScenes slot="visual" client:visible scene="wallets" labels={labels} locale={locale} />
+    </ProductHero>
     <ProductSplit
         t={t}
-        left={{
-            title: m.heroLeftTitle,
-            description: m.heroLeftDescription,
-            cta: true,
-        }}
-        right={{
-            title: m.heroRightTitle,
-            description: m.heroRightDescription,
-            image: billingInfo,
-            imageDark: billingInfoDark,
-            alt: m.altHero,
-        }}
-    />
+        left={{ title: m.heroLeftTitle, description: m.heroLeftDescription, cta: true, bleed: true }}
+        right={{ title: m.heroRightTitle, description: m.heroRightDescription, bleed: true }}
+    >
+        <WalletScenes slot="left" client:visible scene="charge" labels={labels} locale={locale} />
+        <WalletScenes slot="right" client:visible scene="balance" labels={labels} locale={locale} />
+    </ProductSplit>
     <FeatureGrid t={t} features={features} title={m.featuresTitle} description={m.featuresDescription} />
     <ProductSplit
         t={t}
         title={m.sectionTitle}
         description={m.sectionDescription}
-        left={{
-            title: m.section1Title,
-            description: m.section1Description,
-            alt: m.altSection1,
-        }}
-        right={{
-            title: m.section2Title,
-            description: m.section2Description,
-            image: invoiceAnalytics,
-            imageDark: invoiceAnalyticsDark,
-            alt: m.altSection2,
-        }}
+        left={{ title: m.section1Title, description: m.section1Description, bleed: true }}
+        right={{ title: m.section2Title, description: m.section2Description, bleed: true }}
     >
-        <img
-            slot="left"
-            src="/gifs/payment-success.gif"
-            alt={m.altSection1}
-            class="mx-auto h-40 w-40 object-contain grayscale md:h-48 md:w-48"
-        />
+        <WalletScenes slot="left" client:visible scene="spend" labels={labels} locale={locale} />
+        <WalletScenes slot="right" client:visible scene="report" labels={labels} locale={locale} />
     </ProductSplit>
     <ProductFaqs t={t} title={m.faqTitle} description={m.faqDescription} faqs={m.faqs} />
     <ClosingCta lang={lang} />
