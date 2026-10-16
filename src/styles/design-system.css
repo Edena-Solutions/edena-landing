@@ -559,7 +559,7 @@
     }
 
     .ds-section {
-        padding-block: clamp(4.5rem, 2.5rem + 6vw, 9rem);
+        padding-block: clamp(2.25rem, 1.25rem + 3vw, 4.5rem);
     }
 
     /*
@@ -2547,5 +2547,50 @@ html.dark [data-ena] .material-glass {
     100% {
         scale: 1 1;
         translate: 0 0;
+    }
+}
+
+/*
+ * A product scene on its tile (`ScenePlayer`): the board centred, as wide as the tile allows up to
+ * `--scene-max`, from a margin at the top down past the tile's foot, which cuts it. `--scene-k` is
+ * the stage's height past that margin, as a fraction of the board's width — how much of the board
+ * shows. The tile clips; the stage does not, so the lights behind the glass spill softly.
+ */
+.ds-scene {
+    container-type: inline-size;
+    width: 100%;
+}
+
+.ds-scene__stage {
+    --scene-top: 1.5rem;
+    --b: min(100cqw - 1.5rem, var(--scene-max, 56rem));
+    position: relative;
+    height: calc(var(--scene-top) + var(--scene-k, 0.6) * var(--b));
+}
+
+@container (min-width: 40rem) {
+    .ds-scene__stage {
+        --scene-top: 2.5rem;
+        --b: min(100cqw - 5rem, var(--scene-max, 56rem));
+    }
+}
+
+.ds-scene__board {
+    position: absolute;
+    left: 50%;
+    top: var(--scene-top);
+    width: var(--b);
+    translate: -50% 0;
+    container-type: inline-size;
+}
+
+.ds-scene__content {
+    position: absolute;
+    inset: 0;
+}
+
+@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+    .ds-scene__content:not([data-live]) {
+        opacity: 0;
     }
 }

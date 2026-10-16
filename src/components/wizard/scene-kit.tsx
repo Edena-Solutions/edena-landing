@@ -268,7 +268,9 @@ export function Pop({
         <div
             className={cn(
                 "transition-[opacity,translate,scale,filter] duration-700 ease-spring motion-reduce:transition-none",
-                show ? "translate-y-0 scale-100 opacity-100 blur-0" : hidden,
+                // At rest no filter at all (not `blur(0)`): a filter on an ancestor would cut the
+                // glass inside it off from what lies behind.
+                show ? "translate-y-0 scale-100 opacity-100 blur-none" : hidden,
                 className,
             )}
             style={style}

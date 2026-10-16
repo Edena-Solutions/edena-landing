@@ -101,7 +101,7 @@ export function Title({ children, aside }: { children: ReactNode; aside?: ReactN
     );
 }
 
-function Badge({ children, className, style }: { children: ReactNode; className?: string; style?: CSSProperties }) {
+export function Badge({ children, className, style }: { children: ReactNode; className?: string; style?: CSSProperties }) {
     return (
         <span
             className={cn("inline-flex items-center whitespace-nowrap rounded-full px-[0.6em] py-[0.2em] text-[0.48em] font-semibold", className)}
@@ -143,7 +143,7 @@ export function Ripple({ p, className }: { p: number; className?: string }) {
 }
 
 /** A sheen that crosses a surface once, from `at`, as it is first lit. */
-function Sheen({ t, at, duration = 1100 }: { t: number; at: number; duration?: number }) {
+export function Sheen({ t, at, duration = 1100 }: { t: number; at: number; duration?: number }) {
     const p = span(t, at, duration);
     if (p <= 0 || p >= 1) return null;
     return (
@@ -157,8 +157,8 @@ function Sheen({ t, at, duration = 1100 }: { t: number; at: number; duration?: n
     );
 }
 
-const PENDING = "bg-yellow-100 text-yellow-800 dark:bg-yellow-500/15 dark:text-yellow-300";
-const DONE = "bg-green-100 text-green-700 dark:bg-green-500/15 dark:text-green-400";
+export const PENDING = "bg-yellow-100 text-yellow-800 dark:bg-yellow-500/15 dark:text-yellow-300";
+export const DONE = "bg-green-100 text-green-700 dark:bg-green-500/15 dark:text-green-400";
 
 /* ---------------------------------------------------------------------------------------------- */
 /* 1 · Panel de control avanzado                                                                  */

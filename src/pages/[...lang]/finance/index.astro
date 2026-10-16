@@ -1,24 +1,23 @@
 ---
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
-
+import { getCollection } from "astro:content";
 import Layout from "@/layouts/main.astro";
-import Section from "@/components/Section.astro";
-import Hero from "@/components/Hero.astro";
-import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from "@/modules/finance/FAQs.astro";
-import ProductFAQs from "@/components/ProductFAQs.astro";
-import Features from "@/components/Features";
-import heroImage from "@/assets/img/screenshots/finance/billing_info.png";
-import heroImageDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
-import billingCycle from "@/assets/img/screenshots/finance/billing_cycle.png";
-import billingCycleDark from "@/assets/img/screenshots/finance/dark/billing_cycle.png";
-import invoiceAnalytics from "@/assets/img/screenshots/finance/invoice_analytics.png";
-import invoiceDetail from "@/assets/img/screenshots/invoice/invoice_detail.png";
-import invoiceAnalyticsDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
-import invoiceDetailDark from "@/assets/img/screenshots/invoice/dark/invoice_detail.png";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductHero from "@/modules/product/ProductHero.astro";
+import ProductSplit from "@/modules/product/ProductSplit.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import FinanceScenes from "@/modules/product/scenes/FinanceScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
-import { getCollection } from "astro:content";
+import { intlLocaleForLang } from "@/lib/intl-locale";
+
+/*
+ * Billing's page, in the home's design: its screens drawn and brought to life rather than
+ * screenshotted (`scenes/FinanceScenes.tsx`), each playing once as it comes into view.
+ */
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -26,6 +25,8 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const labels = productSceneLabels(t);
+const locale = intlLocaleForLang(lang);
 
 const faqsCollection = await getCollection("faqs");
 const financeFaqs = faqsCollection.find((entry) => entry.id === "faqsFinance.md");
@@ -70,65 +71,65 @@ const features = [
 ];
 ---
 
-<Layout
-    content={{ title: t.meta.financeTitle, description: t.meta.financeDescription }}
-    lang={lang}
->
-    <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero
-            t={t}
-            heroImage={heroImage}
-            heroImageDark={heroImageDark}
-            mainTitle={t.finance.mainTitle}
-            mainDescription={t.finance.mainDescription}
-            showBookDemoInHero={true}
-            leftCard={{
-                title: t.finance.fastBillingTitle,
-                description: t.finance.fastBillingDescription,
-                showButton: true,
-            }}
-            rightCard={{
-                title: t.finance.billingCycleTitle,
-                description: t.finance.billingCycleDescription,
-                image: billingCycle,
-                imageDark: billingCycleDark,
-                altText: t.altText.billingCycle,
-            }}
-        />
-        <Features
-            client:load
-            t={t}
-            features={features}
-            title={t.features.financeFeatures.title}
-            description={t.features.financeFeatures.tagline}
-        />
-        <Section
-            t={t}
-            sectionTitle={t.finance.automationTitle}
-            sectionDescription={t.finance.automationDescription}
-            leftCard={{
-                title: t.finance.analyticsTitle,
-                description: t.finance.analyticsDescription,
-                image: invoiceAnalytics,
-                imageDark: invoiceAnalyticsDark,
-                altText: t.altText.invoiceAnalytics,
-            }}
-            rightCard={{
-                title: t.finance.paperlessBillingTitle,
-                description: t.finance.paperlessBillingDescription,
-                image: invoiceDetail,
-                imageDark: invoiceDetailDark,
-                altText: t.altText.emailInvoice,
-            }}
-        />
-        <ProductFAQs
-            t={t}
-            title={t.verifactuSection.title}
-            description={t.verifactuSection.description}
-            faqs={t.verifactuSection.faqs}
-        />
-        <FAQs t={t} />
-    </GSAPSection>
+<Layout content={{ title: t.meta.financeTitle, description: t.meta.financeDescription }} lang={lang} design="premium">
+    <HomeMotion />
+    <ProductHero t={t} title={t.finance.mainTitle} description={t.finance.mainDescription} bleed>
+        <FinanceScenes slot="visual" client:visible scene="breakdown" labels={labels} locale={locale} />
+    </ProductHero>
+    <ProductSplit
+        t={t}
+        left={{
+            title: t.finance.fastBillingTitle,
+            description: t.finance.fastBillingDescription,
+            cta: true,
+            bleed: true,
+        }}
+        right={{
+            title: t.finance.billingCycleTitle,
+            description: t.finance.billingCycleDescription,
+            bleed: true,
+        }}
+    >
+        <FinanceScenes slot="left" client:visible scene="pay" labels={labels} locale={locale} />
+        <FinanceScenes slot="right" client:visible scene="cycle" labels={labels} locale={locale} />
+    </ProductSplit>
+    <FeatureGrid
+        t={t}
+        features={features}
+        title={t.features.financeFeatures.title}
+        description={t.features.financeFeatures.tagline}
+    />
+    <ProductSplit
+        t={t}
+        title={t.finance.automationTitle}
+        description={t.finance.automationDescription}
+        left={{
+            title: t.finance.analyticsTitle,
+            description: t.finance.analyticsDescription,
+            bleed: true,
+        }}
+        right={{
+            title: t.finance.paperlessBillingTitle,
+            description: t.finance.paperlessBillingDescription,
+            bleed: true,
+        }}
+    >
+        <FinanceScenes slot="left" client:visible scene="analytics" labels={labels} locale={locale} />
+        <FinanceScenes slot="right" client:visible scene="invoice" labels={labels} locale={locale} />
+    </ProductSplit>
+    <ProductFaqs
+        t={t}
+        title={t.verifactuSection.title}
+        description={t.verifactuSection.description}
+        faqs={t.verifactuSection.faqs}
+    />
+    <ProductFaqs
+        t={t}
+        title={t.faqs.finance?.title ?? t.faqs.title}
+        description={t.faqs.finance?.description ?? t.faqs.description}
+        faqs={financeFaqs?.data.faqs ?? []}
+    />
+    <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
         name="Edena - Suite Financiera"
