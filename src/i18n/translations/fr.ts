@@ -107,6 +107,10 @@ export default {
         published: "Publié",
         age: "Âge",
     },
+    legalPage: {
+        onThisPage: "Sur cette page",
+        otherDocuments: "Autres documents juridiques",
+    },
     pricingPage: {
         included: "Inclus",
         notIncluded: "Non inclus",

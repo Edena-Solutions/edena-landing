@@ -1,0 +1,355 @@
+---
+import { BadgeCheck, ChevronRight, Cookie, FileText, Handshake, ShieldCheck, UserX } from "lucide-react";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import type { Translation } from "@/i18n";
+import { localePath } from "@/i18n/index.ts";
+
+/*
+ * A legal page, in the home's design but at the pace of reading: the title and its date set over
+ * the text column; the sections indexed in a column of their own that stays in view (the one being
+ * read lit), folded into a disclosure on a phone; the text at a reading measure; and the other legal
+ * documents at the foot, one tap away.
+ *
+ * The body is the slot; `toc` lists its sections (`id`s on the elements they point to).
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+    title: string;
+    updated?: string;
+    toc: { id: string; number?: string; title: string }[];
+    /** Which document this is, so it is left out of the list at the foot. */
+    current: "privacy" | "terms" | "cookies" | "dpa" | "delete" | "verifactu";
+}
+
+const { t, lang, title, updated, toc, current } = Astro.props;
+const f = t.footer;
+const documents = [
+    { key: "privacy", title: f.privacyPolicy, href: localePath(lang, "/privacy"), icon: ShieldCheck, tone: "bg-sys-blue" },
+    { key: "terms", title: f.termsOfService, href: localePath(lang, "/terms"), icon: FileText, tone: "bg-sys-indigo" },
+    { key: "cookies", title: f.cookiePolicy, href: localePath(lang, "/cookies"), icon: Cookie, tone: "bg-sys-orange" },
+    { key: "dpa", title: f.dpa, href: localePath(lang, "/data-processing"), icon: Handshake, tone: "bg-sys-teal" },
+    { key: "delete", title: f.deleteAccount, href: localePath(lang, "/delete-account"), icon: UserX, tone: "bg-sys-red" },
+    { key: "verifactu", title: f.verifactu, href: localePath(lang, "/verifactu"), icon: BadgeCheck, tone: "bg-sys-green" },
+].filter((doc) => doc.key !== current);
+---
+
+<HomeMotion />
+<div class="relative isolate -mt-15 pt-15">
+    <div class="ds-container pb-20 pt-14 sm:pb-28 sm:pt-20">
+        <div class="legal-grid">
+            <!-- The title, over the text column. -->
+            <header class="legal-main mb-12 flex flex-col gap-4 sm:mb-16">
+                <p class="ds-intro type-callout font-semibold text-brand-ink" style="--intro-i: 0">{f.legal}</p>
+                <h1 class="ds-intro type-display-2 max-w-3xl pb-1 text-gradient-ink" style="--intro-i: 0">{title}</h1>
+                {updated && <p class="ds-intro type-footnote text-ink-3" style="--intro-i: 1">{updated}</p>}
+                <div class="ds-intro empty:hidden" style="--intro-i: 2"><slot name="actions" /></div>
+            </header>
+
+            <!-- The index: a column that stays in view on a wide screen. -->
+            {
+                toc.length > 0 && (
+                    <nav class="legal-aside hidden lg:block" aria-label={t.legalPage.onThisPage}>
+                        <div class="sticky top-24 flex max-h-[calc(100vh-8rem)] flex-col gap-3 overflow-y-auto pb-4">
+                            <p class="type-footnote font-semibold text-ink-3">{t.legalPage.onThisPage}</p>
+                            <ol class="m-0 flex list-none flex-col gap-0.5 p-0" data-legal-toc>
+                                {toc.map((item) => (
+                                    <li>
+                                        <a href={`#${item.id}`} class="legal-toc-link">
+                                            {item.number && <span class="w-5 shrink-0 tabular-nums text-ink-3">{item.number}</span>}
+                                            <span>{item.title}</span>
+                                        </a>
+                                    </li>
+                                ))}
+                            </ol>
+                        </div>
+                    </nav>
+                )
+            }
+
+            <div class="legal-main min-w-0">
+                <!-- The index on a phone: folded away until asked for. -->
+                {
+                    toc.length > 0 && (
+                        <details class="legal-details mb-12 rounded-[1.25rem] bg-canvas-2 lg:hidden">
+                            <summary class="flex cursor-pointer list-none items-center justify-between px-5 py-4 type-callout font-semibold text-ink">
+                                {t.legalPage.onThisPage}
+                                <ChevronRight className="legal-details-chevron size-4 text-ink-3" />
+                            </summary>
+                            <ol class="m-0 flex list-none flex-col gap-0.5 px-3 pb-4 pt-0">
+                                {toc.map((item) => (
+                                    <li>
+                                        <a href={`#${item.id}`} class="legal-toc-link">
+                                            {item.number && <span class="w-5 shrink-0 tabular-nums text-ink-3">{item.number}</span>}
+                                            <span>{item.title}</span>
+                                        </a>
+                                    </li>
+                                ))}
+                            </ol>
+                        </details>
+                    )
+                }
+                <slot />
+            </div>
+        </div>
+    </div>
+
+    <!-- The other legal documents. -->
+    <section class="ds-container pb-24 sm:pb-32">
+        <h2 class="type-title-2 text-ink">{t.legalPage.otherDocuments}</h2>
+        <ul class="m-0 mt-6 grid list-none gap-3 p-0 sm:grid-cols-2 lg:grid-cols-5" data-reveal-group>
+            {
+                documents.map((doc) => {
+                    const Icon = doc.icon;
+                    return (
+                        <li data-reveal>
+                            <a href={doc.href} class="ds-tile ds-tile--link flex h-full items-center gap-3.5 p-4 lg:flex-col lg:items-start lg:gap-5 lg:p-5">
+                                <span class:list={["ds-app-icon size-10", doc.tone]}>
+                                    <Icon className="size-5" />
+                                </span>
+                                <span class="flex-1 type-callout font-semibold text-ink">{doc.title}</span>
+                                <ChevronRight className="size-4 shrink-0 text-ink-3 lg:hidden" />
+                            </a>
+                        </li>
+                    );
+                })
+            }
+        </ul>
+    </section>
+</div>
+
+<script>
+    // The index lights the section being read: the last one whose top has passed a line a quarter
+    // of the way down the screen.
+    function watchLegalToc() {
+        const links = [...document.querySelectorAll<HTMLAnchorElement>("[data-legal-toc] a")];
+        if (!links.length) return;
+        const targets = links.map((link) => document.getElementById(link.hash.slice(1))).filter((el): el is HTMLElement => !!el);
+        let frame = 0;
+        const update = () => {
+            frame = 0;
+            const line = window.innerHeight * 0.25;
+            let current = targets[0];
+            for (const target of targets) {
+                if (target.getBoundingClientRect().top <= line) current = target;
+            }
+            links.forEach((link) => link.toggleAttribute("aria-current", link.hash === `#${current?.id}`));
+        };
+        const onScroll = () => {
+            if (!frame) frame = requestAnimationFrame(update);
+        };
+        update();
+        window.addEventListener("scroll", onScroll, { passive: true });
+        document.addEventListener("astro:before-swap", () => window.removeEventListener("scroll", onScroll), { once: true });
+    }
+    document.addEventListener("astro:page-load", watchLegalToc);
+</script>
+
+<style>
+    .legal-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    @media (min-width: 64rem) {
+        .legal-grid {
+            grid-template-columns: 15rem minmax(0, 44rem);
+            column-gap: 5rem;
+            justify-content: center;
+        }
+
+        .legal-main {
+            grid-column: 2;
+        }
+
+        .legal-aside {
+            grid-column: 1;
+            grid-row: 2;
+        }
+    }
+
+    .legal-grid :global(.legal-toc-link) {
+        display: flex;
+        gap: 0.5rem;
+        border-radius: 0.75rem;
+        padding: 0.45rem 0.75rem;
+        font-size: 0.875rem;
+        line-height: 1.35;
+        color: var(--ds-ink-2);
+        transition:
+            background-color 200ms var(--ease-fluid),
+            color 200ms var(--ease-fluid);
+    }
+
+    .legal-grid :global(.legal-toc-link:hover) {
+        background-color: var(--ds-fill-2);
+        color: var(--ds-ink);
+    }
+
+    .legal-grid :global(.legal-toc-link[aria-current]) {
+        background-color: var(--ds-fill-2);
+        color: var(--ds-ink);
+        font-weight: 600;
+    }
+
+    .legal-details summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .legal-details[open] :global(.legal-details-chevron) {
+        rotate: 90deg;
+    }
+
+    .legal-grid :global(.legal-details-chevron) {
+        transition: rotate 300ms var(--ease-spring);
+    }
+</style>
+
+<style is:global>
+    /* Reading type for the legal documents: a measure of ~70 characters, generous leading, and
+       headings that index rather than shout. Every legal page's body sets in it. */
+    .legal-prose {
+        font-size: 1.0625rem;
+        line-height: 1.7;
+        color: var(--ds-ink);
+    }
+
+    .legal-prose p + p,
+    .legal-prose p + ul,
+    .legal-prose ul + p,
+    .legal-prose dl + p,
+    .legal-prose p + dl {
+        margin-top: 1.1rem;
+    }
+
+    .legal-prose .legal-intro p {
+        color: var(--ds-ink-2);
+        font-size: 1.1875rem;
+        line-height: 1.6;
+    }
+
+    .legal-prose .legal-intro + .legal-section {
+        margin-top: 3.5rem;
+    }
+
+    .legal-prose .legal-section {
+        scroll-margin-top: 6.5rem;
+    }
+
+    .legal-prose .legal-section + .legal-section {
+        margin-top: 3.25rem;
+        padding-top: 3.25rem;
+        border-top: 1px solid var(--ds-hairline);
+    }
+
+    .legal-prose h2 {
+        display: flex;
+        align-items: baseline;
+        gap: 0.85rem;
+        margin-bottom: 1.25rem;
+        font-size: 1.5rem;
+        line-height: 1.25;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: var(--ds-ink);
+    }
+
+    .legal-prose .legal-number {
+        display: inline-flex;
+        min-width: 2rem;
+        height: 2rem;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-0.1rem);
+        border-radius: 0.65rem;
+        background-color: var(--ds-fill-2);
+        color: var(--ds-ink-2);
+        font-size: 0.875rem;
+        font-weight: 600;
+        letter-spacing: 0;
+        font-variant-numeric: tabular-nums;
+    }
+
+    .legal-prose h3 {
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        font-size: 1.0625rem;
+        font-weight: 600;
+        color: var(--ds-ink);
+    }
+
+    .legal-prose ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .legal-prose li {
+        position: relative;
+        padding-left: 1.4rem;
+    }
+
+    .legal-prose li::before {
+        content: "";
+        position: absolute;
+        left: 0.25rem;
+        top: 0.72em;
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 999px;
+        background: var(--ds-brand-gradient);
+    }
+
+    /* The facts about the company: a sheet of label and value. */
+    .legal-prose dl {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1.25rem;
+        background-color: var(--ds-canvas-2);
+        padding: 0.5rem 1.25rem;
+    }
+
+    .legal-prose dl > div {
+        display: grid;
+        gap: 0.15rem 1.5rem;
+        padding-block: 0.85rem;
+    }
+
+    .legal-prose dl > div + div {
+        border-top: 1px solid var(--ds-hairline);
+    }
+
+    @media (min-width: 40rem) {
+        .legal-prose dl > div {
+            grid-template-columns: 11rem minmax(0, 1fr);
+        }
+    }
+
+    .legal-prose dt {
+        font-size: 0.9375rem;
+        color: var(--ds-ink-2);
+    }
+
+    .legal-prose dd {
+        margin: 0;
+        font-weight: 500;
+    }
+
+    .legal-prose a {
+        color: var(--ds-brand-ink);
+        font-weight: 500;
+        text-decoration: underline;
+        text-decoration-color: color-mix(in srgb, var(--ds-brand-ink) 35%, transparent);
+        text-underline-offset: 0.2em;
+        transition: text-decoration-color 200ms var(--ease-fluid);
+        overflow-wrap: anywhere;
+    }
+
+    .legal-prose a:hover {
+        text-decoration-color: currentColor;
+    }
+</style>

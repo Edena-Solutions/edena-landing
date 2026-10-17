@@ -57,49 +57,49 @@ const moduleIds = MODULE_IDS.filter((id): id is ModuleId => included.has(id) && 
             }
         </ul>
 
+        <!--
+            From sm up: a table, laid out as a grid so its header can be one row — a single bar that,
+            once it sticks under the nav, rounds and frosts over the rows scrolling beneath it.
+        -->
         <div class="ds-tile mt-14 hidden px-8 pb-6 sm:block" data-reveal="rise">
-            <table class="w-full border-collapse text-left">
-                <caption class="sr-only">{packsT.comparisonTitle}</caption>
-                <thead>
-                    <tr>
-                        <th scope="col" class="compare-head pl-2 align-bottom sm:pl-0">
+            <div role="table" aria-label={packsT.comparisonTitle} class="compare">
+                <div class="compare-sentinel" aria-hidden="true"></div>
+                <div role="rowgroup" class="compare-head" data-compare-head>
+                    <div role="row" class="compare-row compare-head-row">
+                        <span role="columnheader" class="self-end pl-4">
                             <span class="type-footnote font-semibold text-ink-3">{packsT.moduleColumn}</span>
-                        </th>
+                        </span>
                         {
                             PACKS.map((pack) => (
-                                <th scope="col" class="compare-head w-[22%] px-1 text-center align-bottom sm:w-[18%]">
-                                    <span class="block text-[0.75rem] font-semibold leading-tight text-ink sm:text-[0.9375rem]">
-                                        {packsT.items[pack.id].name}
-                                    </span>
-                                    <span class="mt-1 block text-[0.6875rem] tabular-nums text-ink-3 sm:text-[0.8125rem]">
-                                        {formatPrice(pack.pricePerStudent, lang)}
-                                    </span>
-                                </th>
+                                <span role="columnheader" class="px-1 text-center">
+                                    <span class="block text-[0.9375rem] font-semibold leading-tight text-ink">{packsT.items[pack.id].name}</span>
+                                    <span class="mt-1 block text-[0.8125rem] tabular-nums text-ink-3">{formatPrice(pack.pricePerStudent, lang)}</span>
+                                </span>
                             ))
                         }
-                    </tr>
-                </thead>
-                <tbody>
+                    </div>
+                </div>
+                <div role="rowgroup">
                     {
                         moduleIds.map((moduleId) => {
                             const section = byId[moduleId];
                             return (
-                                <tr class="border-t border-hairline">
-                                    <th scope="row" class="py-5 pl-2 pr-3 align-top font-normal sm:py-6 sm:pl-0 sm:pr-8">
+                                <div role="row" class="compare-row border-t border-hairline first:border-t-0">
+                                    <span role="rowheader" class="py-6 pr-8 pl-4">
                                         <span class="flex items-center gap-3">
-                                            <ModuleIcon moduleId={moduleId} className="size-8 sm:size-9" />
+                                            <ModuleIcon moduleId={moduleId} className="size-9" />
                                             <span class="type-callout font-semibold text-ink">{section.title}</span>
                                         </span>
-                                        <ul class="m-0 mt-3 flex list-none flex-col gap-1.5 p-0 sm:pl-12">
+                                        <ul class="m-0 mt-3 flex list-none flex-col gap-1.5 p-0 pl-12">
                                             {section.items.map((item) => (
                                                 <li class="type-footnote text-ink-2">{item.label}</li>
                                             ))}
                                         </ul>
-                                    </th>
+                                    </span>
                                     {PACKS.map((pack) => {
                                         const has = pack.modules.includes(moduleId);
                                         return (
-                                            <td class="px-1 py-5 text-center align-top sm:py-6">
+                                            <span role="cell" class="px-1 py-6 text-center">
                                                 <span class="sr-only">{has ? t.pricingPage.included : t.pricingPage.notIncluded}</span>
                                                 {has ? (
                                                     <span class="mx-auto flex size-6 items-center justify-center rounded-full bg-brand text-white" aria-hidden="true">
@@ -110,28 +110,104 @@ const moduleIds = MODULE_IDS.filter((id): id is ModuleId => included.has(id) && 
                                                         <Minus className="size-4" />
                                                     </span>
                                                 )}
-                                            </td>
+                                            </span>
                                         );
                                     })}
-                                </tr>
+                                </div>
                             );
                         })
                     }
-                </tbody>
-            </table>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
+<script>
+    // The header knows when it has stuck: a hairline sentinel sits just above it, and once that has
+    // scrolled up under the nav, the header is pinned. CSS does the rest (`[data-stuck]`).
+    function watchCompareHeads() {
+        document.querySelectorAll<HTMLElement>("[data-compare-head]").forEach((head) => {
+            const sentinel = head.previousElementSibling;
+            if (!sentinel) return;
+            const top = parseFloat(getComputedStyle(head).top) || 0;
+            const observer = new IntersectionObserver(
+                ([entry]) => head.toggleAttribute("data-stuck", !entry.isIntersecting && entry.boundingClientRect.top < top),
+                { rootMargin: `-${Math.ceil(top) + 1}px 0px 0px 0px` },
+            );
+            observer.observe(sentinel);
+            document.addEventListener("astro:before-swap", () => observer.disconnect(), { once: true });
+        });
+    }
+    document.addEventListener("astro:page-load", watchCompareHeads);
+</script>
+
 <style>
-    /* The packs' header stays under the nav while the rows scroll past it. */
+    .compare-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) repeat(3, 18%);
+        align-items: start;
+    }
+
+    .compare-sentinel {
+        height: 1px;
+    }
+
+    /* The packs' header: in place, a row with a hairline under it. Pinned under the nav, the same
+       row rounds into a frosted bar that floats over the rows passing beneath. */
     .compare-head {
         position: sticky;
-        top: 3.75rem;
-        z-index: 1;
+        top: 4.25rem;
+        z-index: 2;
+        margin-inline: -0.5rem;
+        padding-inline: 0.5rem;
+        transition:
+            background-color 300ms var(--ease-fluid),
+            box-shadow 300ms var(--ease-fluid),
+            border-radius 300ms var(--ease-fluid);
+    }
+
+    /* In place, a hairline under the header, as long as the rows' own. */
+    .compare-head::after {
+        content: "";
+        position: absolute;
+        inset-inline: 0.5rem;
+        bottom: 0;
+        height: 1px;
+        background-color: var(--ds-hairline);
+        transition: opacity 300ms var(--ease-fluid);
+    }
+
+    .compare-head[data-stuck]::after {
+        opacity: 0;
+    }
+
+    .compare-head-row {
+        align-items: end;
         padding-top: 1.75rem;
         padding-bottom: 1rem;
-        background-color: var(--ds-canvas-2);
-        box-shadow: inset 0 -1px 0 var(--ds-hairline);
+        transition: padding 300ms var(--ease-fluid);
+    }
+
+    .compare-head[data-stuck] {
+        border-radius: 1.25rem;
+        background-color: color-mix(in srgb, var(--ds-surface) 78%, transparent);
+        -webkit-backdrop-filter: blur(24px) saturate(180%);
+        backdrop-filter: blur(24px) saturate(180%);
+        box-shadow:
+            inset 0 0 0 1px var(--ds-hairline),
+            0 12px 32px -14px rgb(0 0 0 / 0.28);
+    }
+
+    .compare-head[data-stuck] .compare-head-row {
+        padding-top: 0.875rem;
+        padding-bottom: 0.875rem;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .compare-head,
+        .compare-head-row {
+            transition: none;
+        }
     }
 </style>

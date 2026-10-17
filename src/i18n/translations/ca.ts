@@ -107,6 +107,10 @@ export default {
         published: "Publicat",
         age: "Edat",
     },
+    legalPage: {
+        onThisPage: "En aquesta pàgina",
+        otherDocuments: "Altres documents legals",
+    },
     pricingPage: {
         included: "Inclòs",
         notIncluded: "No inclòs",

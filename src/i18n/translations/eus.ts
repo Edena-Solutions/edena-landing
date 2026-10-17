@@ -107,6 +107,10 @@ export default {
         published: "Argitaratuta",
         age: "Adina",
     },
+    legalPage: {
+        onThisPage: "Orri honetan",
+        otherDocuments: "Beste lege-dokumentu batzuk",
+    },
     pricingPage: {
         included: "Barne",
         notIncluded: "Ez dago barne",
