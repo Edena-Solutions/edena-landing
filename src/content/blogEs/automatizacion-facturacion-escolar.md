@@ -2,7 +2,7 @@
 title: "Automatización de la facturación escolar: Optimiza tus procesos internos"
 date: "2025-01-15"
 translationKey: "automatizacion-facturacion-escolar"
-description: "Automatizar emisión de facturas y ciclos de cobro recurrentes. Guía práctica para centros educativos en España (2026)."
+description: "La gestión interna de la facturación es uno de los procesos más complejos y propensos a errores en cualquier centro educativo."
 tags: ["facturación", "automatización", "procesos", "educación"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1679923906308-c26a0e2ca510?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

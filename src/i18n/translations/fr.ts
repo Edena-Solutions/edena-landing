@@ -117,6 +117,7 @@ export default {
         allArticles: "Tous les articles",
         loadMore: "Charger plus",
         onThisArticle: "Dans cet article",
+        title: "Guides et actualités de la gestion scolaire",
     },
     faqsPage: {
         searchPlaceholder: "Rechercher une question",
@@ -531,7 +532,7 @@ export default {
     meta: {
         homeTitle: "Logiciel de Gestion Scolaire | ERP Éducatif · Edena",
         homeDescription:
-            "Le logiciel de gestion scolaire qui centralise facturation, présences, dossiers et communication avec les familles. Sans engagement. Démo gratuite.",
+            "Logiciel de gestion scolaire avec facturation Verifactu, présences, dossiers, CRM d'inscriptions et appli pour les familles. Sans engagement, démo gratuite.",
         pricingAcademiesTitle: "Tarifs pour Académies | Packs dès 0,60 € par élève · Edena",
         pricingAcademiesDescription:
             "Packs tout compris pour académies : communication, finances ou tout inclus. Prix par élève, sans frais d'ouverture ni engagement. Essai gratuit 30 jours.",
@@ -541,21 +542,21 @@ export default {
         pricingTitle: "Tarifs | Logiciel de Gestion Scolaire dès 36 €/mois · Edena",
         pricingDescription:
             "Paiement par élève, sans frais d’ouverture ni engagement. À partir de 36 €/mois avec dossier numérique, présences et portail familles. Essai gratuit 30 jours.",
-        faqsTitle: "Questions Fréquentes sur Edena | Logiciel de Gestion Scolaire",
+        faqsTitle: "Questions Fréquentes sur Edena | Gestion Scolaire",
         faqsDescription:
             "Trouvez les réponses à vos questions sur les tarifs, les fonctionnalités, la migration des données, Verifactu et la sécurité. Tout ce qu’il faut savoir avant de choisir Edena pour votre établissement.",
         dashboardTitle: "Tableau de bord scolaire | Analytique en temps réel | Edena",
         dashboardDescription:
-            "Présences, finances, inscriptions et communications sur un seul tableau de bord mis à jour en temps réel. Détectez les problèmes avant qu’ils n’éclatent et décidez sur la base de données toujours à jour.",
-        studentsTitle: "Logiciel de gestion des élèves | Dossiers, présences et notes | Edena",
+            "Présences, encaissements, inscriptions et communications dans un tableau de bord scolaire mis à jour en temps réel. Repérez les problèmes tôt et décidez.",
+        studentsTitle: "Logiciel de Gestion des Élèves | Dossiers et Notes · Edena",
         studentsDescription:
-            "Dossiers numériques, présences automatisées, notes et bulletins sur une seule plateforme. Réduisez la charge administrative de 40 % dès le premier jour.",
+            "Dossiers numériques, suivi des présences, notes et bulletins automatiques dans un seul logiciel de gestion des élèves. Moins de paperasse dès le premier jour.",
         appTitle: "App pour Familles et Enseignants | iOS et Android · Edena",
         appDescription:
-            "Application gratuite pour familles et enseignants sur iOS et Android. Notifications push, photos sécurisées, signature électronique de documents, notes et factures au même endroit.",
-        demoTitle: "Réservez une Démo Gratuite | Logiciel de Gestion Scolaire · Edena",
+            "Appli scolaire gratuite pour familles et enseignants sur iOS et Android : notifications, photos sécurisées, signature de documents, notes et factures.",
+        demoTitle: "Démo Gratuite du Logiciel de Gestion Scolaire · Edena",
         demoDescription:
-            "Réservez une démo personnalisée pour votre établissement en moins de 2 minutes. Sans engagement ni pression. Nous vous montrons exactement comment Edena s’intègre à votre gestion du quotidien.",
+            "Réservez en 2 minutes une démo de 15 minutes adaptée à votre école, crèche, académie ou groupe scolaire. Sans engagement et sans pression.",
         financeTitle: "Facturation Scolaire | Verifactu et SEPA · Edena",
         financeDescription:
             "Facturation scolaire automatique adaptée à Verifactu : reçus, prélèvements SEPA et suivi des impayés en temps réel. Votre équipe cesse de courir après les paiements.",
@@ -564,55 +565,57 @@ export default {
             "Offrez aux familles un accès en temps réel aux notes, présences, factures et actualités de l’établissement. Messagerie sécurisée et signature électronique de documents. Intégration des familles en quelques minutes.",
         familiesTitle: "Portail Familles | Notes, Factures et Paiements · Edena",
         familiesDescription:
-            "Tout le quotidien scolaire dans une app gratuite : notes, factures, messages, photos et boutique de l’établissement. Gérez plusieurs enfants depuis un seul compte, sur n’importe quel appareil.",
+            "Toute la vie scolaire dans une appli gratuite : notes, factures, messages, photos et boutique de l'établissement. Plusieurs enfants sur un seul compte.",
         centersTitle: "Plateforme Intégrale pour Établissements Scolaires | ERP Éducatif | Edena",
         centersDescription:
             "Logiciel de gestion complet pour établissements scolaires : facturation automatique, CRM d’inscriptions, communication familiale, présences numériques et dossiers. Réduisez les coûts administratifs jusqu’à 40 %.",
         crmTitle: "CRM Scolaire | Convertissez les Demandes en Inscriptions | Edena",
         crmDescription:
-            "CRM éducatif pour admissions et inscriptions : recevez les demandes depuis votre site, suivez chaque famille sur un tableau visuel par étapes et ne manquez aucune opportunité.",
-        assignmentTitle: "Évaluations et Bulletins Automatiques | Gestion Académique · Edena",
+            "CRM scolaire pour les admissions : recevez les demandes depuis votre site, suivez chaque famille par étapes et transformez plus de demandes en inscriptions.",
+        assignmentTitle: "Évaluations et Bulletins de Notes Automatiques · Edena",
         assignmentDescription:
-            "Gestion académique simplifiée : planifiez les devoirs, configurez les cycles d’évaluation et générez les bulletins automatiquement. Les familles voient les notes en temps réel.",
+            "Planifiez les devoirs, configurez les périodes d'évaluation et générez les bulletins automatiquement. Les familles voient les notes en temps réel.",
         privacyTitle: "Politique de confidentialité | Logiciel de gestion scolaire Edena",
         privacyDescription:
-            "Découvrez comment Edena protège les données de votre établissement et respecte les standards de confidentialité. Notre politique complète garantit la sécurité des informations des élèves, des familles et de l’institution.",
+            "Comment Edena protège les données des élèves, des familles et des établissements : ce que nous traitons, pourquoi, combien de temps et vos droits.",
         deleteAccountTitle: "Supprimer le compte et les données | Edena",
         deleteAccountDescription:
             "Comment demander la suppression de votre compte et de vos données personnelles sur Edena, avec ou sans accès à l'application.",
         termsTitle: "Conditions d’utilisation | Logiciel de gestion scolaire Edena",
         termsDescription:
-            "Consultez les conditions d’utilisation d’Edena pour notre plateforme de gestion scolaire. Comprenez nos engagements, les responsabilités des utilisateurs et les règles d’usage.",
+            "Conditions d'utilisation d'Edena, la plateforme de gestion scolaire : souscription, offres et paiements, obligations des parties, données et assistance.",
         cookiesTitle: "Politique relative aux cookies | Logiciel de gestion scolaire Edena",
         cookiesDescription:
-            "Découvrez comment Edena utilise les cookies pour améliorer votre expérience sur notre plateforme de gestion scolaire. Types de cookies, usage et vos choix en matière de confidentialité.",
-        dpaTitle: "Accord de traitement des données | Logiciel de gestion scolaire Edena",
+            "Quels cookies utilise le site d'Edena, à quoi ils servent, combien de temps ils durent et comment les accepter, les refuser ou modifier votre choix.",
+        dpaTitle: "Accord de Traitement des Données (RGPD) | Edena",
         dpaDescription:
-            "Accord de sous-traitance conforme à l'art. 28 du RGPD entre Edena et les établissements scolaires : instructions, sécurité, sous-traitants ultérieurs, assistance et droits des personnes concernées.",
+            "Accord de sous-traitance selon l'art. 28 du RGPD entre Edena et les établissements : instructions, sécurité, sous-traitants et droits des personnes.",
         verifactuTitle: "Déclaration responsable VERI*FACTU | Edena",
         verifactuDescription:
-            "Déclaration responsable d'Edena Software S.L. en tant qu'éditeur du système de facturation Edena : conformité au décret royal 1007/2023 (VERI*FACTU) et à l'arrêté HAC/1177/2024.",
+            "Déclaration responsable d'Edena Software S.L. sur son système de facturation : conformité au Décret royal 1007/2023 (VERI*FACTU) et à l'Arrêté HAC/1177/2024.",
         nurseryTitle: "Logiciel pour Crèches et Écoles Maternelles | Edena",
         nurseryDescription:
-            "Agenda numérique, communication quotidienne avec les familles, photos sécurisées et facturation automatique. Le logiciel de gestion conçu pour les crèches et maternelles.",
-        schoolsTitle: "Logiciel pour Écoles | Gestion et Facturation · Edena",
+            "Logiciel de gestion pour crèches et écoles maternelles : agenda numérique, communication quotidienne avec les familles, photos sécurisées et facturation.",
+        schoolsTitle: "Logiciel pour Écoles | Gestion Scolaire et Verifactu · Edena",
         schoolsDescription:
             "Logiciel de gestion pour écoles, de la maternelle au lycée : dossiers, notes, présences, facturation et communication avec les familles sur une seule plateforme.",
         academiesTitle: "Logiciel pour Académies | Encaissements et CRM · Edena",
         academiesDescription:
-            "Gérez votre académie avec encaissements automatiques, CRM de recrutement, suivi des présences et app gratuite pour les familles. Pour les académies de langues, danse, musique et sport.",
+            "Logiciel pour académies de langues, musique, danse et sport : paiements automatiques, CRM de prospection, suivi des présences et appli pour les familles.",
         groupsTitle: "Gestion Multi-Sites pour Groupes Éducatifs · Edena",
         groupsDescription:
-            "Gérez tout votre réseau d'établissements depuis un seul tableau de bord : facturation centralisée, rapports consolidés et fonctionnement homogène sur chaque site. Développez-vous sans alourdir la charge administrative.",
+            "Pilotez tout votre réseau d'établissements depuis un seul tableau de bord : facturation centralisée, rapports consolidés et mêmes processus partout.",
         contactTitle: "Contact | Edena - Logiciel de gestion scolaire",
         contactDescription:
-            "Une question sur Edena ? Contactez notre équipe. Nous sommes là pour vous aider à trouver la meilleure solution pour votre établissement.",
+            "Parlez à l'équipe Edena de notre logiciel de gestion scolaire : tarifs, Verifactu, migration des données ou démo pour votre établissement.",
+        blogTitle: "Blog Gestion Scolaire | Guides pour Établissements · Edena",
+        blogDescription: "Guides pratiques sur la gestion scolaire, Verifactu, les paiements, les inscriptions, la communication avec les familles et l'IA pour écoles et académies.",
     },
     hero: {
         mainTitle:
             "Le logiciel de gestion scolaire qui supprime la paperasse et automatise les encaissements",
         mainDescription:
-            "Edena est le logiciel de gestion scolaire qui centralise facturation, dossiers numériques, présences et communication avec les familles sur une seule plateforme. Les établissements économisent plus de 37 heures par semaine. Sans engagement.",
+            "Logiciel de gestion scolaire avec facturation Verifactu, dossiers, présences et communication avec les familles. Plus de 37 heures gagnées par semaine, sans engagement.",
         mobileTitle: "Restez proches de chaque famille, sans effort supplémentaire",
         mobileDescription:
             "Notifications push, photos sécurisées et mises à jour en temps réel, le tout dans l’app gratuite Edena. Les familles restent informées sans charge supplémentaire pour votre équipe.",
@@ -811,7 +814,7 @@ export default {
     conclusion: {
         title: "Moins d’administration. Plus d’inscriptions. Plus de familles satisfaites.",
         description:
-            "Rejoignez les établissements qui économisent déjà plus de 37 heures par semaine avec Edena. Réduisez les coûts administratifs de 40 %, augmentez la satisfaction des familles de 60 % et gérez élèves, encaissements et communication sur une seule plateforme sécurisée.",
+            "Rejoignez les établissements qui économisent déjà plus de 37 heures par semaine avec Edena : 40 % d'impayés en moins, 35 % de demandes en plus converties en inscriptions et des familles informées depuis une seule appli.",
     },
     bento: {
         title: "Une plateforme. Tout ce dont votre établissement a besoin.",
@@ -857,27 +860,27 @@ export default {
         digitalRecords: {
             title: "Dossiers numériques",
             tagline:
-                "Gérez toutes les informations sur les élèves de façon sécurisée et structurée.",
+                "L'historique, les présences et les documents de chaque élève, sécurisés et toujours à portée de main.",
         },
         mobileApp: {
             title: "Application mobile",
-            tagline: "Accédez à toutes les fonctions depuis n’importe quel appareil mobile.",
+            tagline: "Avis, messages, photos et paiements dans une appli gratuite pour familles et enseignants.",
         },
         documentManagement: {
-            title: "Gestion documentaire",
-            tagline: "Organisez et gérez numériquement tous les documents de l’établissement.",
+            title: "Tableau de bord",
+            tagline: "Présences, encaissements et inscriptions de votre établissement en temps réel, sur un seul tableau de bord.",
         },
         familyPortal: {
             title: "Portail familles",
-            tagline: "Offrez aux familles un accès complet aux informations sur leurs enfants.",
+            tagline: "Les familles consultent les notes, reçus et actualités de leurs enfants depuis n'importe quel appareil.",
         },
         staffManagement: {
-            title: "Gestion du personnel",
-            tagline: "Gérez efficacement les équipes pédagogiques et administratives.",
+            title: "Groupes scolaires",
+            tagline: "Gérez plusieurs établissements depuis une seule plateforme, avec des rapports sur tout le réseau.",
         },
         calendarIntegration: {
-            title: "Intégration calendrier",
-            tagline: "Synchronisez événements et activités avec des calendriers externes.",
+            title: "Devoirs et évaluations",
+            tagline: "Planifiez les devoirs, saisissez les notes et générez les bulletins automatiquement.",
         },
         guardianFeatures: {
             title: "Pour les familles et tuteurs",
@@ -914,38 +917,38 @@ export default {
             },
         },
         studentFeatures: {
-            title: "Système intégral de gestion des élèves",
+            title: "Tout ce qu'il faut pour gérer vos élèves",
             tagline:
-                "Outils avancés de gestion pédagogique qui optimisent la réussite des élèves et simplifient les processus administratifs de l’établissement.",
+                "Dossiers, présences, notes et suivi connectés entre eux, pour que direction, professeurs principaux et familles travaillent avec les mêmes données.",
             digitalRecords: {
                 title: "Dossiers scolaires numériques",
                 tagline:
                     "Centralisez parcours scolaire, notes et certifications dans un système sécurisé accessible 24h/24.",
             },
             attendanceTracking: {
-                title: "Suivi intelligent des présences",
+                title: "Suivi des présences",
                 tagline:
-                    "Automatisez l’enregistrement des présences avec des rapports en temps réel et des alertes automatiques pour les familles.",
+                    "Faites l'appel depuis le téléphone, prévenez les familles de chaque absence et consultez les rapports de présence en temps réel.",
             },
             gradeManagement: {
-                title: "Gestion avancée des notes",
+                title: "Notes et bulletins",
                 tagline:
-                    "Système d’évaluation complet avec suivi de la progression et génération automatique des bulletins.",
+                    "Saisissez les notes par évaluation, suivez la progression de chaque élève et générez les bulletins automatiquement.",
             },
             scheduleOptimization: {
-                title: "Optimisation des emplois du temps",
+                title: "Emplois du temps et salles",
                 tagline:
-                    "Gérez les plannings, l’affectation des salles et les ressources pédagogiques avec une efficacité maximale.",
+                    "Organisez emplois du temps, attribution des salles et ressources de l'établissement sans chevauchements entre groupes.",
             },
             behaviorTracking: {
-                title: "Suivi comportemental personnalisé",
+                title: "Incidents et suivi personnel",
                 tagline:
-                    "Enregistrez incidents, réussites et développement personnel avec des outils d’analyse comportementale avancés.",
+                    "Consignez incidents, réussites et observations de chaque élève pour que l'équipe éducative ait un suivi complet.",
             },
             academicReports: {
                 title: "Rapports scolaires automatisés",
                 tagline:
-                    "Générez des rapports détaillés sur la performance des élèves et des indicateurs pédagogiques pour décider sur la base des données.",
+                    "Rapports de résultats par élève, groupe ou matière, prêts pour le conseil de classe, la direction ou les familles.",
             },
         },
         assignmentFeatures: {
@@ -984,7 +987,7 @@ export default {
             },
         },
         dashboardFeatures: {
-            title: "Tableau de bord pédagogique avancé",
+            title: "Un tableau de bord pour piloter tout l'établissement",
             tagline:
                 "Tableau de bord intelligent avec analytique en temps réel pour la gestion globale des établissements et les décisions stratégiques.",
             realTimeAnalytics: {
@@ -995,33 +998,33 @@ export default {
             performanceInsights: {
                 title: "Indicateurs de performance scolaire",
                 tagline:
-                    "Obtenez des analyses prédictives de la réussite des élèves et des recommandations basées sur l’IA appliquée à l’éducation.",
+                    "Suivez l'évolution scolaire par niveau, groupe ou élève et repérez tôt qui a besoin de soutien.",
             },
             resourceOptimization: {
-                title: "Optimisation des ressources pédagogiques",
+                title: "Salles et ressources",
                 tagline:
-                    "Gérez salles, équipements et personnel avec des algorithmes d’optimisation pour maximiser l’efficacité opérationnelle.",
+                    "Consultez l'occupation des salles, du matériel et du personnel pour répartir les ressources là où elles manquent.",
             },
             communicationHub: {
                 title: "Hub de communication intégré",
                 tagline:
-                    "Centralisez notifications, messagerie et communications institutionnelles avec des outils multicanal.",
+                    "Notifications, messages et communiqués de l'établissement centralisés et mesurés depuis le même tableau de bord.",
             },
             complianceTracking: {
-                title: "Suivi de conformité réglementaire",
+                title: "Échéances et obligations",
                 tagline:
-                    "Automatisez le contrôle des règles éducatives, certifications et audits avec des alertes de conformité.",
+                    "Suivez certifications, échéances et obligations de l'établissement avec des alertes avant qu'elles n'expirent.",
             },
             customReports: {
-                title: "Rapports personnalisés avancés",
+                title: "Rapports sur mesure",
                 tagline:
                     "Créez des rapports exécutifs sur mesure avec visualisation des données et export automatisé pour les parties prenantes.",
             },
         },
         crmFeatures: {
-            title: "CRM scolaire intégré",
+            title: "Tout votre processus d'admission dans un seul CRM",
             tagline:
-                "Gérez les demandes, recueillez les coordonnées des familles intéressées et transformez-les en nouvelles familles grâce à un tableau visuel par étapes et à des formulaires personnalisables.",
+                "Recevez les demandes d'inscription, conservez les données de chaque famille intéressée et accompagnez-la du premier contact à l'inscription avec un tableau par étapes et des formulaires sur mesure.",
             pipeline: {
                 title: "Suivi par étapes",
                 tagline:
@@ -1053,13 +1056,13 @@ export default {
             },
         },
         financeFeatures: {
-            title: "Gestion financière éducative complète",
+            title: "Toute la gestion financière de l'établissement au même endroit",
             tagline:
-                "Gestion financière pensée pour les établissements scolaires : facturation automatique, comptabilité et contrôle budgétaire.",
+                "Facturation Verifactu, encaissements, bourses et contrôle du budget pensés pour les écoles, crèches et académies.",
             automatedBilling: {
-                title: "Facturation automatisée intelligente",
+                title: "Facturation automatique avec Verifactu",
                 tagline:
-                    "Générez automatiquement les factures d’inscription, services pédagogiques et cotisations avec intégration Verifactu et normes fiscales.",
+                    "Générez automatiquement les factures d'inscription, de frais et de services et envoyez leur registre Verifactu à l'administration fiscale sans étape manuelle.",
             },
             paymentProcessing: {
                 title: "Traitement des paiements multicanal",
@@ -1067,19 +1070,19 @@ export default {
                     "Acceptez paiements en ligne, virements et prélèvements SEPA avec rapprochement automatique et suivi des impayés.",
             },
             budgetManagement: {
-                title: "Gestion budgétaire avancée",
+                title: "Contrôle du budget",
                 tagline:
-                    "Contrôlez budgets par service, investissements pédagogiques et dépenses courantes avec des projections financières automatisées.",
+                    "Suivez budgets et dépenses par service et comparez-les aux prévisions pour anticiper tout écart.",
             },
             scholarshipManagement: {
                 title: "Gestion des bourses et aides",
                 tagline:
-                    "Gérez bourses, remises familiales et aides avec des critères d’éligibilité automatisés.",
+                    "Appliquez bourses, réductions familiales et aides à chaque facture selon vos critères, sans calcul manuel.",
             },
             financialReporting: {
                 title: "Rapports financiers réglementaires",
                 tagline:
-                    "Produisez états financiers, déclarations fiscales et rapports d’audit avec conformité automatisée.",
+                    "Rapports de recettes, d'encaissements et d'impayés prêts à partager avec la direction, votre comptable ou un auditeur.",
             },
             costAnalysis: {
                 title: "Analyse des coûts par élève",
@@ -1088,13 +1091,13 @@ export default {
             },
         },
         appFeatures: {
-            title: "Application mobile éducative multiplateforme",
+            title: "L'appli scolaire pour les familles, les élèves et les enseignants",
             tagline:
-                "Application native iOS et Android pour familles, élèves et enseignants avec mode hors ligne et notifications push intelligentes.",
+                "Une seule appli pour iOS et Android, avec un profil pour chaque utilisateur, des notifications et un accès aux informations même hors connexion.",
             mobileNotifications: {
                 title: "Notifications push personnalisées",
                 tagline:
-                    "Recevez des alertes instantanées sur présences, notes et événements, segmentées par profil utilisateur.",
+                    "Alertes instantanées sur les présences, les événements, les messages et les actualités, ciblées selon le profil de chacun.",
             },
             offlineAccess: {
                 title: "Accès hors ligne et synchronisation",
@@ -1104,7 +1107,7 @@ export default {
             parentPortal: {
                 title: "Portail mobile pour les familles",
                 tagline:
-                    "Accès complet aux dossiers scolaires, échanges avec les enseignants et gestion des autorisations depuis le mobile.",
+                    "Présences, messages avec les enseignants, autorisations et documents de chaque enfant, toujours à portée de main.",
             },
             teacherTools: {
                 title: "Outils mobiles pour enseignants",
@@ -1164,17 +1167,17 @@ export default {
             communicationHub: {
                 title: "Hub de communication",
                 tagline:
-                    "Gérez toute la communication avec familles, enseignants et personnel depuis un seul tableau de bord centralisé.",
+                    "Messages, circulaires et avis avec les familles, les enseignants et le personnel depuis un seul tableau de bord, avec accusé de lecture.",
             },
             automatedBilling: {
                 title: "Facturation automatisée",
                 tagline:
-                    "Générez et envoyez les factures automatiquement. Réduisez les erreurs et gagnez du temps sur la gestion financière.",
+                    "Reçus et factures générés et envoyés chaque mois sans intervention, avec prélèvement SEPA et Verifactu.",
             },
             processAutomation: {
                 title: "Automatisation des processus",
                 tagline:
-                    "Automatisez les tâches répétitives comme les inscriptions, les présences et la génération de rapports.",
+                    "Automatisez les tâches répétitives comme les inscriptions, les rappels de paiement, les alertes d'absence ou les rapports réguliers.",
             },
             analyticsDashboard: {
                 title: "Tableau de bord analytique",
@@ -1184,7 +1187,7 @@ export default {
             studentManagement: {
                 title: "Gestion des élèves",
                 tagline:
-                    "Gérez dossiers, présences, notes et toutes les informations élèves de façon centralisée.",
+                    "Dossiers, présences et toutes les informations de chaque élève, centralisés et toujours à jour.",
             },
             dataSecurity: {
                 title: "Sécurité des données",
@@ -1213,32 +1216,32 @@ export default {
             {
                 title: "Gestion intégrale via l’app",
                 description:
-                    "Centralisez toutes les opérations de votre établissement sur une seule plateforme numérique. Optimisez les processus, réduisez les erreurs et gagnez du temps en reliant administration, enseignants et familles.",
+                    "Administration, enseignants et familles sur la même plateforme, avec moins de tâches éparpillées entre des outils qui ne se parlent pas.",
             },
             {
                 title: "Tableau de bord avancé",
                 description:
-                    "Visualisez en temps réel les indicateurs clés de votre établissement. Décidez en toute confiance avec des tableaux de bord personnalisables, des alertes automatiques et des rapports intelligents.",
+                    "Les indicateurs de l'établissement en temps réel, avec alertes et rapports, pour décider avec des données plutôt qu'avec des tableurs.",
             },
             {
                 title: "Gestion financière",
                 description:
-                    "Automatisez facturation, encaissement et suivi des paiements avec un système conçu pour les écoles et centres. Réduisez les impayés, améliorez la transparence et offrez aux familles un paiement fluide et sécurisé.",
+                    "Facturation, encaissements et suivi des paiements pour écoles et académies, avec moins d'impayés et un paiement plus clair pour les familles.",
             },
             {
                 title: "Devoirs et évaluations",
                 description:
-                    "Planifiez les devoirs, gérez les cycles d’évaluation et suivez les notes au même endroit. Bulletins automatiques, visibilité pour les familles et 40 % de charge de correction en moins pour vos enseignants.",
+                    "Devoirs, évaluations et bulletins au même endroit. Les familles voient les notes et les enseignants corrigent moins.",
             },
             {
                 title: "CRM scolaire",
                 description:
-                    "Gérez les demandes d’inscription, recueillez les coordonnées des familles intéressées et transformez-les en nouvelles familles. Tableau visuel à étapes personnalisables, attribution des responsables et suivi d’activité en temps réel.",
+                    "Les demandes d'inscription sur un tableau par étapes, chacune avec un responsable, jusqu'à en faire un élève.",
             },
             {
                 title: "Formulaires dynamiques",
                 description:
-                    "Créez des formulaires de préinscription et d’acquisition sans coder. Glissez-déposez des composants, définissez champs et options, et publiez en quelques minutes. Texte court, e-mail, téléphone, listes, cases à cocher et plus.",
+                    "Formulaires de préinscription sans coder : glissez les champs, publiez en quelques minutes et les demandes arrivent dans le CRM.",
             },
         ],
     },
@@ -1897,7 +1900,7 @@ export default {
             "Oui, l’éditeur visuel permet des champs texte, e-mail, téléphone, listes et cases. Glissez-déposez et adaptez aux besoins de votre établissement.",
         crm_pipeline_stages: "Par quelles étapes passe chaque demande ?",
         crm_pipeline_stages_answer:
-            "Nouveau, Contacté, Qualifié, Proposition, Négociation, Gagné. Changez le statut en un clic ; l’historique d’activité s’enregistre automatiquement.",
+            "Le parcours de départ est Nouveau, Contacté, Qualifié, Proposition, Négociation et Gagné. Changez le statut en un clic ; l’historique d’activité s’enregistre automatiquement.",
         crm_activity_tracking: "L’historique d’activité de chaque demande est-il enregistré ?",
         crm_activity_tracking_answer:
             "Oui, chaque changement de statut, contact ou action est horodaté pour un suivi complet du parcours de chaque demande.",
@@ -1941,26 +1944,26 @@ export default {
         students_data_privacy_answer:
             "Toutes les données sont conformes au RGPD et protégées par un chiffrement avancé.",
         students_support_services:
-            "Quels services d’accompagnement Edena propose-t-elle aux élèves ?",
+            "Les notes et les bulletins viennent-ils du dossier de l’élève ?",
         students_support_services_answer:
-            "Suivi scolaire, orientation et accompagnement personnalisé pour chaque élève.",
+            "Oui. Les notes sont saisies par évaluation dans le dossier et les bulletins sont générés automatiquement à partir de ces notes.",
         students_mobile_access: "Les élèves peuvent-ils accéder à la plateforme depuis le mobile ?",
         students_mobile_access_answer:
             "Oui, la plateforme est accessible depuis mobile et tablette.",
         students_performance_monitoring: "Comment la performance scolaire est-elle suivie ?",
         students_performance_monitoring_answer:
             "Le système génère rapports et alertes automatiques sur la progression et la performance de chaque élève.",
-        students_support_options: "Quelles options d’assistance pour les élèves ?",
+        students_support_options: "Puis-je consigner des incidents sur la fiche de l’élève ?",
         students_support_options_answer:
-            "Les élèves accèdent à une assistance technique et pédagogique depuis la plateforme et l’app.",
+            "Oui. Les professeurs principaux et la direction consignent incidents, réussites et observations dans le même dossier, avec les présences et les notes.",
         families: {
             title: "FAQ Edena pour les familles",
             description:
                 "Toutes vos questions sur l’utilisation d’Edena en tant que famille : app mobile, facturation, boutique en ligne et communication avec l’établissement.",
         },
-        families_mobile_app: "Comment fonctionne l’app mobile pour les familles ?",
+        families_mobile_app: "Puis-je signer les autorisations depuis le téléphone ?",
         families_mobile_app_answer:
-            "L’app Edena permet d’accéder à toute l’information scolaire depuis le smartphone : notifications en temps réel, photos des enfants, factures, signature de documents et contact direct avec l’établissement.",
+            "Oui. Les autorisations et les documents de l’établissement se signent dans l’appli, sans les imprimer ni les déposer au secrétariat.",
         families_billing_access: "Comment consulter et payer mes factures ?",
         families_billing_access_answer:
             "Depuis votre portail famille : toutes les factures, historique des paiements, téléchargement des reçus et paiement en ligne sécurisé, 24h/24 depuis n’importe quel appareil.",
@@ -1985,9 +1988,9 @@ export default {
         families_support: "Quelle assistance en tant que famille ?",
         families_support_answer:
             "Contactez notre équipe par chat, e-mail ou depuis l’app. Une section d’aide avec guides et tutoriels est aussi disponible.",
-        families_app_features: "Quelles fonctionnalités dans l’app mobile ?",
+        families_app_features: "L’appli pour les familles est-elle gratuite ?",
         families_app_features_answer:
-            "Notifications push, photos et albums, messagerie avec le centre, factures, signature électronique, calendrier des événements et suivi scolaire de vos enfants.",
+            "Oui. Elle est gratuite sur iOS et Android. Téléchargez-la sur l’App Store ou Google Play et connectez-vous avec le profil que l’établissement vous remet.",
         centers: {
             title: "FAQ Edena pour les établissements scolaires",
             description:
@@ -2043,6 +2046,18 @@ export default {
         centers_cost_savings: "Combien mon établissement peut-il économiser avec Edena ?",
         centers_cost_savings_answer:
             "Les établissements utilisant Edena rapportent jusqu’à 40 % de réduction des coûts administratifs, 75 % de temps en moins pour intégrer les familles et plus de 37 heures hebdomadaires économisées sur les tâches répétitives.",
+        crm_custom_stages: "Puis-je adapter les étapes à mon processus d’admission ?",
+        crm_custom_stages_answer: "Oui. Les étapes de départ s’adaptent au processus de votre établissement : vous pouvez les renommer ou les ajuster. Le changement de statut reste un clic et chaque mouvement reste dans l’historique.",
+        crm_after_won: "Que se passe-t-il quand une demande passe à Gagné ?",
+        crm_after_won_answer: "Les données de la famille sont prêtes pour finaliser l’inscription de l’élève. Avec le module Automatisation, vous pouvez faire créer l’inscription automatiquement dès que la demande est confirmée.",
+        crm_plan: "Quelle offre inclut le CRM scolaire ?",
+        crm_plan_answer: "Pour les établissements scolaires, c’est un module que vous activez sur la plateforme de base. Pour les académies, il est inclus dans le Pack Finances et le Pack Académie 360.",
+        assignment_grade_calculation: "Comment la note de chaque période est-elle calculée ?",
+        assignment_grade_calculation_answer: "Vous définissez moyennes pondérées et grilles d’évaluation selon la façon dont votre établissement note. Edena calcule la note de chaque période et l’ajoute au bulletin, sans tableur.",
+        assignment_who_enters_grades: "Qui saisit les notes ?",
+        assignment_who_enters_grades_answer: "Les enseignants saisissent les notes de leurs matières et de leurs groupes, et la coordination consulte l’ensemble avant de générer les bulletins.",
+        assignment_report_cards_app: "Où les familles consultent-elles le bulletin ?",
+        assignment_report_cards_app_answer: "Une fois publié, la famille le consulte dans l’appli et sur le portail, sans e-mail ni papier. Vous décidez du niveau de détail affiché.",
     },
     privacyPolicy: {
         title: "Politique de confidentialité",
@@ -2421,22 +2436,22 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
     crm: {
         mainTitle: "Transformez chaque demande en une nouvelle inscription",
         mainDescription:
-            "Le CRM éducatif d'Edena gère admissions et inscriptions : réception des demandes depuis votre site, tableau visuel par étapes et suivi de chaque famille. Les établissements transforment jusqu'à 35 % de demandes en plus en inscriptions.",
+            "Le CRM éducatif d'Edena organise votre processus d'admission : recevez les demandes depuis votre site, suivez chaque famille sur un tableau par étapes et attribuez des responsables. Les établissements transforment jusqu'à 35 % de demandes en plus en inscriptions.",
         requestsTitle: "Gestion des demandes",
         requestsDescription:
             "Liste centralisée avec filtres, recherche et attribution de responsables. Suivi de l’origine, du statut et de la date de chaque demande.",
-        formTitle: "Formulaires personnalisables",
+        formTitle: "Formulaires de préinscription sur votre site",
         formDescription:
             "Créez des formulaires de préinscription et d’acquisition avec champs sur mesure. Glissez-déposez, définissez les options et publiez-les sur votre site ou dans vos campagnes.",
-        pipelineTitle: "Suivi par étapes",
+        pipelineTitle: "Chaque famille à son étape",
         pipelineDescription:
             "Visualisez le parcours : Nouveau, Contacté, Qualifié, Proposition, Négociation, Gagné. Changez le statut en un clic et conservez l’historique d’activité complet.",
         heroRightCardTitle: "Chaque demande, une famille prête à s’inscrire",
         heroRightCardDescription:
             "Chaque demande est une famille qui pourrait s’inscrire. Demandez une démo et découvrez comment le CRM Edena vous aide à pourvoir les places sans rien laisser passer.",
-        formsAndPipelineTitle: "Formulaires et suivi",
+        formsAndPipelineTitle: "De la première demande à l'inscription",
         formsAndPipelineDescription:
-            "Recevez les demandes avec des formulaires personnalisables et suivez chacune jusqu’à l’inscription depuis un seul écran.",
+            "Des formulaires de préinscription sur votre site et un tableau par étapes pour qu'aucune famille ne reste sans réponse.",
     },
     dashboard: {
         mainTitle: "Chaque indicateur de votre établissement, en temps réel",
@@ -2446,16 +2461,16 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         quickActionsDescription:
             "Accédez instantanément aux tâches courantes : factures, événements du calendrier, invitations et opérations du quotidien en un clic.",
         notificationsTitle: "Notifications instantanées",
-        notificationsDescription: "Alertes en temps réel pour garder votre établissement informé.",
+        notificationsDescription: "Des alertes immédiates quand quelque chose demande votre attention : impayés, absences, nouvelles demandes ou événements à venir.",
         calendarDescription:
             "Gérez plannings, événements et dates clés efficacement. Notifiez les événements importants à toute la communauté éducative.",
         calendarTitle: "Calendrier scolaire",
         realTimeNotificationsExtendedTitle: "Notifications en temps réel",
         realTimeNotificationsExtendedDescription:
-            "Un système de notifications qui connecte toute la communauté : alertes et mises à jour instantanées sur les événements et activités importants.",
+            "Chaque membre de la communauté éducative reçoit instantanément les alertes qui le concernent : événements, changements d'horaire, absences ou communiqués.",
         notificationsAndCalendarTitle: "Communication intégrée",
         notificationsAndCalendarDescription:
-            "Notifications et calendrier réunis pour une gestion scolaire efficace.",
+            "Calendrier scolaire et notifications connectés : chaque événement programmé arrive aux bonnes personnes, sans envoyer les avis un par un.",
     },
     assignment: {
         mainTitle: "Bulletins automatiques. 40 % de charge en moins pour vos enseignants.",
@@ -2467,10 +2482,10 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         evaluationTitle: "Gestion des évaluations",
         evaluationDescription:
             "Enregistrez les notes, configurez les cycles d’évaluation et générez les bulletins automatiquement. Intégré aux dossiers pour une visibilité pédagogique complète.",
-        cyclesAndScoresTitle: "Cycles d’évaluation et notes",
+        cyclesAndScoresTitle: "Du carnet de notes au bulletin, sans étape manuelle",
         cyclesAndScoresDescription:
-            "Configurez trimestres ou périodes personnalisées. Visualisez notes, moyennes et progression en temps réel.",
-        cyclesTitle: "Cycles d’évaluation",
+            "Configurez les périodes une fois et Edena calcule les moyennes, génère les bulletins et les publie pour les familles.",
+        cyclesTitle: "Des périodes sur mesure",
         cyclesDescription:
             "Gérez trimestres, quadrimestres ou périodes personnalisées. Configuration centralisée avec calcul automatique des notes par période.",
         scoresTitle: "Bulletins et progression",
@@ -2478,20 +2493,20 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             "Suivi visuel des notes par élève, matière ou groupe. Moyennes pondérées, grilles et calculs automatiques pour les bulletins.",
     },
     students: {
-        mainTitle: "Dossiers, présences et encaissements. Tout au même endroit.",
+        mainTitle: "Gestion des élèves : dossiers, présences et notes au même endroit",
         mainDescription:
             "Centralisez toutes les informations de vos élèves dès l’inscription. Dossiers numériques, présences automatiques, notes et facturation intégrés. Réduisez les tâches administratives de 40 %.",
         studentDetailTitle: "Dossiers numériques",
         studentDetailDescription:
-            "Gérez dossiers, parcours scolaire et communication avec les familles. Une plateforme unifiée qui optimise l’administration et améliore l’expérience éducative.",
+            "Données personnelles, parcours scolaire, présences, documents et contacts de la famille dans un dossier numérique unique, toujours à jour.",
         studentInvoicingTitle: "Facturation par élève",
         studentInvoicingDescription:
-            "Facturation automatique et suivi personnalisé pour chaque élève.",
-        organizationTitle: "Organisation",
-        organizationDescription: "Gérez services, personnel et ressources depuis un seul panneau.",
+            "Les frais, services et reçus de chaque élève liés à son dossier, avec l'état des paiements toujours visible.",
+        organizationTitle: "Organisation de l'établissement",
+        organizationDescription: "Services, personnel, salles et ressources organisés depuis un seul tableau de bord, avec chaque élève dans son groupe et sa salle.",
         classroomsTitle: "Gestion des salles",
         classroomsDescription:
-            "Optimisez espaces, ressources et emplois du temps pour maximiser l’efficacité et réduire les coûts. Infrastructure adaptée aux besoins pédagogiques.",
+            "Organisez salles, espaces et emplois du temps pour mieux exploiter chaque salle et éviter les conflits de réservation entre groupes.",
         classroomsDetailsTitle: "Pilotage des espaces",
         classroomsDetailsDescription:
             "Gérez salles, équipements et affectations avec précision. Les élèves voient leurs salles et équipements attribués.",
@@ -2502,15 +2517,15 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             "Gratuite pour toutes les familles sur iOS et Android. Notifications en temps réel, photos sécurisées, notes, factures et messagerie directe. Tout le quotidien scolaire au même endroit.",
         androidIosTitle: "App Android et iOS",
         androidIosDescription:
-            "Disponible sur toutes les plateformes. Téléchargez maintenant et restez connectés.",
-        parentsConnectedTitle: "Restez proches des familles",
+            "Gratuite sur l'App Store et Google Play. Familles, élèves et enseignants se connectent avec leur propre profil et voient ce qui les concerne.",
+        parentsConnectedTitle: "Des familles toujours informées",
         parentsConnectedDescription:
-            "Gardez les familles informées avec des mises à jour instantanées.",
+            "Alertes de présence, circulaires, photos et messages arrivent sur le téléphone instantanément, sans dépendre des e-mails ni des groupes WhatsApp.",
         uploadPicturesTitle: "Partagez les moments",
-        uploadPicturesDescription: "Envoyez photos et vidéos aux familles en toute sécurité.",
+        uploadPicturesDescription: "Les photos et vidéos du quotidien, envoyées en toute sécurité et classées en albums par élève.",
         uploadPicturesAndVideosTitle: "Mises à jour en temps réel",
         uploadPicturesAndVideosDescription:
-            "Des mises à jour en temps réel pour rester connectés aux familles.",
+            "Chaque publication, avis ou changement arrive instantanément aux familles concernées, selon le groupe de leur enfant.",
         communicateAndGetAlbumsTitle: "Communication et albums",
         communicateAndGetAlbumsDescription:
             "Échanges directs et albums photos pour chaque élève. Messages et photos aux familles, simplement et en sécurité.",
@@ -2561,12 +2576,12 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         mainTitle: "Tout le scolaire dans l'app gratuite que les familles utilisent vraiment",
         mainDescription:
             "App gratuite pour toutes les familles. Notes, factures, messages, photos et boutique de l’établissement, accessibles sur tout appareil, 24h/24.",
-        mobileAppTitle: "Application mobile gratuite",
+        mobileAppTitle: "Toute la vie scolaire dans la poche",
         mobileAppDescription:
-            "Toute l’info scolaire sur votre smartphone. Notifications instantanées, photos, messages et plus encore.",
-        digitalBillingTitle: "Facturation numérique",
+            "Les notes, les présences, les messages et les photos de vos enfants dans une seule appli, avec une alerte dès qu'il se passe quelque chose d'important.",
+        digitalBillingTitle: "Reçus et paiements sans papier",
         digitalBillingDescription:
-            "Consultez et payez vos factures en ligne en toute sécurité. Historique complet, reçus numériques et paiements récurrents depuis votre portail.",
+            "Consultez chaque reçu, payez en ligne en toute sécurité et gardez l'historique de vos paiements à portée de main, sans appeler le secrétariat.",
         communicationAndStoreTitle: "Communication et boutique intégrées",
         communicationAndStoreDescription:
             "Contact direct avec l’établissement et services additionnels au même endroit.",
@@ -2580,7 +2595,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
     nurseries: {
         mainTitle: "Le logiciel pour crèches et maternelles, sans complexité",
         mainDescription:
-            "Edena est le logiciel de gestion pour crèches et maternelles : agenda numérique, communication quotidienne avec les familles, photos sécurisées et facturation automatique. Opérationnel en 2 semaines.",
+            "Logiciel pour crèches et maternelles : agenda numérique, photos sécurisées et nouvelles quotidiennes pour les familles. Opérationnel en 2 semaines.",
         communicationTitle: "Des familles toujours informées",
         communicationDescription:
             "Partagez photos, nouvelles du jour, menus et activités avec les parents instantanément depuis l’app. Plus de sérénité pour eux, moins d’appels pour vous.",
@@ -2606,7 +2621,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
     schools: {
         mainTitle: "Le logiciel de gestion pour écoles, de l’inscription au bulletin",
         mainDescription:
-            "Edena est le logiciel de gestion pour écoles, de la maternelle au lycée : dossiers, notes, présences, facturation Verifactu et communication avec les familles sur un seul système.",
+            "Logiciel pour les écoles, de la maternelle au lycée : dossiers, notes, présences, Verifactu et communication avec les familles, sur un seul système.",
         communicationTitle: "Communication centralisée avec les familles",
         communicationDescription:
             "Messagerie sécurisée, alertes de présence et actualités de l’établissement dans une seule app. Fini le chaos des groupes de messagerie et des circulaires papier.",
@@ -2645,11 +2660,13 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         financialAutomationTitle: "Facturation adaptée aux centres de cours",
         financialAutomationDescription:
             "Tarifs par activité, forfaits, remises familiales et paiements partiels gérés automatiquement. Export comptable en un clic.",
+        dailyLifeSectionTitle: "Pensé pour le quotidien d'une académie",
+        dailyLifeSectionDescription: "Horaires qui changent, groupes par niveau et tarifs par activité : Edena prévient chaque famille et facture chaque cours sans travail manuel.",
     },
     groups: {
         mainTitle: "Une seule plateforme pour tout votre réseau d’établissements",
         mainDescription:
-            "Edena est la plateforme de gestion multi-sites pour groupes éducatifs : visibilité totale, fonctionnement homogène et facturation centralisée sur un seul tableau de bord. Développez-vous sans multiplier la charge administrative.",
+            "Une plateforme pour tout le réseau : la même façon de travailler sur chaque site et la facturation centralisée sur un seul tableau de bord.",
         communicationTitle: "Tableau de bord multi-sites unifié",
         communicationDescription:
             "Métriques en temps réel de tous vos établissements en une vue. Comparez performance, présences et santé financière du réseau instantanément.",
@@ -2725,7 +2742,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
     integrationsSection: {
         title: "Intégrations",
         description:
-            "Nous nous intégrons aux outils que vous utilisez déjà, comme WhatsApp, Gmail, les calendriers ou Slack, pour que votre équipe continue à travailler comme avant, sans migration ni changement de routine. Edena se connecte à votre écosystème et centralise l'information en un seul endroit.",
+            "Edena se connecte aux outils que votre équipe utilise déjà, comme WhatsApp, Gmail, Outlook, les agendas ou Slack, et réunit toute l'information au même endroit sans changer vos habitudes.",
         logos: {
             googleCalendar: "Google Calendar",
             outlookCalendar: "Outlook Calendar",
@@ -2871,14 +2888,42 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                 question: "Et si nous utilisons déjà une autre plateforme ?",
                 answer: "Nous migrons vos données depuis votre système actuel sans interrompre l'activité de l'établissement.",
             },
+            {
+                question: "La démo engage-t-elle à souscrire ?",
+                answer: "Non. Elle dure 15 minutes, sans engagement et sans carte. Si cela convient, l'essai est de 30 jours.",
+            },
+            {
+                question: "Convient-elle à mon type d'établissement ?",
+                answer: "Oui. Nous la préparons pour une école, une crèche, une académie ou un groupe, avec un cas proche du vôtre.",
+            },
+            {
+                question: "Vais-je voir comment fonctionne Verifactu ?",
+                answer: "Oui. La facturation d'Edena génère le registre Verifactu et l'envoie à l'administration fiscale. Dans la démo, vous le voyez avec un exemple.",
+            },
+            {
+                question: "L'appli des familles est-elle payante ?",
+                answer: "Non. Elle est gratuite sur iOS et Android. Les familles se connectent avec le profil que l'établissement leur remet.",
+            },
+            {
+                question: "Qui devrait participer à l'appel ?",
+                answer: "La personne qui gère l'administration : direction, secrétariat, ou celle qui suit les paiements et la communication avec les familles.",
+            },
+            {
+                question: "Dois-je préparer quelque chose ?",
+                answer: "Non. Si vous le souhaitez, un reçu, un groupe ou une annonce réels suffisent pour le voir avec des données proches des vôtres.",
+            },
+            {
+                question: "Que se passe-t-il après la démo ?",
+                answer: "Si cela vous convient, vous activez l'essai de 30 jours quand vous voulez. L'inscription ne demande ni carte ni engagement.",
+            },
         ],
         pricingLinkLabel: "Voir les tarifs et calculer votre cas",
     },
     productModules: {
         extracurricular: {
-            metaTitle: "Gestion des Activités Périscolaires | Inscriptions et Paiements · Edena",
+            metaTitle: "Activités Périscolaires | Inscriptions et Paiements · Edena",
             metaDescription:
-                "Gérez les activités périscolaires de bout en bout : inscriptions en ligne, contrôle des places, listes de présence et paiements automatiques. Moins de paperasse et plus d'activités complètes.",
+                "Gérez les activités périscolaires de votre établissement : inscriptions en ligne, gestion des places, listes de présence et paiements automatiques.",
             navTitle: "Périscolaire",
             navDescription:
                 "Gérez inscriptions, places et paiements des activités périscolaires au même endroit, sans tableurs.",
@@ -2962,12 +3007,32 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     question: "Puis-je savoir quelles activités sont les plus demandées ?",
                     answer: "Edena génère des rapports d'occupation et de revenus par activité pour que vous planifiiez votre offre avec des données objectives.",
                 },
+                {
+                    question: "Comment organiser horaires, animateurs et salles ?",
+                    answer: "Chaque activité a ses horaires, ses animateurs et ses groupes, et apparaît dans le calendrier de l'établissement. Vous repérez ainsi les conflits de salles et de personnel avant d'ouvrir les inscriptions.",
+                },
+                {
+                    question: "Les familles voient-elles l'offre d'activités dans l'appli ?",
+                    answer: "Oui. Dans l'appli Edena, elles découvrent les activités, comparent horaires et tarifs, s'inscrivent et reçoivent la confirmation immédiatement, sans formulaire papier.",
+                },
+                {
+                    question: "Puis-je définir des âges et des conditions pour chaque activité ?",
+                    answer: "Oui. Chaque activité a sa tranche d'âge, son animateur, ses créneaux hebdomadaires et son poste de facturation, et les familles envoient leur demande d'inscription en ligne.",
+                },
+                {
+                    question: "Les paiements des activités périscolaires apparaissent-ils dans la facturation ?",
+                    answer: "Oui. Chaque inscription est liée à son poste de facturation : les activités sont facturées et rapprochées avec les autres reçus de l'établissement, sans tableur à part.",
+                },
+                {
+                    question: "Comment souscrire le module d'activités périscolaires ?",
+                    answer: "C'est un module que vous activez sur la plateforme de base d'Edena quand vous en avez besoin. Vous payez par élève, sans frais d'inscription ni engagement, et vous pouvez le désactiver à tout moment.",
+                },
             ],
         },
         tracking: {
             metaTitle: "Suivi du Temps et Coordination Interne pour Écoles · Edena",
             metaDescription:
-                "Suivi du temps du personnel, agenda quotidien de l'établissement et suivi interne des tâches dans un seul outil. Respectez la réglementation du travail et organisez le quotidien sans effort.",
+                "Pointage du personnel, agenda quotidien et tâches internes de l'établissement dans un seul outil. Respectez la réglementation sans feuilles de pointage.",
             navTitle: "Tracking",
             navDescription:
                 "Suivi du temps du personnel, agenda quotidien et suivi interne des tâches, le tout connecté.",
@@ -3051,12 +3116,32 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     question: "Puis-je exporter les heures travaillées ?",
                     answer: "Oui, vous pouvez exporter les heures par employé et période pour la gestion de la paie et la conformité réglementaire.",
                 },
+                {
+                    question: "Qu'est-ce que l'agenda quotidien partagé ?",
+                    answer: "Un calendrier commun où la direction, l'administration et les enseignants voient permanences, réunions et événements de l'établissement en temps réel, pour éviter les chevauchements et les avis de dernière minute.",
+                },
+                {
+                    question: "Que se passe-t-il si quelqu'un oublie de pointer ?",
+                    answer: "Edena envoie des alertes automatiques pour les pointages oubliés, les tâches en attente et les événements à venir, pour que les registres restent complets sans courir après personne.",
+                },
+                {
+                    question: "Est-ce aussi adapté au personnel non enseignant ?",
+                    answer: "Oui. Toute l'équipe de l'établissement, enseignants, administration, animateurs ou personnel de service, peut pointer et consulter l'agenda depuis son téléphone ou son navigateur.",
+                },
+                {
+                    question: "Comment cela aide-t-il lors d'un contrôle de l'inspection du travail ?",
+                    answer: "Le registre du temps de travail est conservé de manière fiable et vous pouvez l'exporter par salarié et par période à tout moment, prêt à être présenté à l'inspection du travail.",
+                },
+                {
+                    question: "Quelle offre inclut le module Tracking ?",
+                    answer: "Pour les établissements scolaires, c'est un module que vous activez sur la plateforme de base. Pour les académies, il est inclus dans le Pack Communication et le Pack Académie 360.",
+                },
             ],
         },
         workflows: {
-            metaTitle: "Automatisation Administrative pour Établissements Scolaires · Edena",
+            metaTitle: "Automatisation pour Établissements Scolaires · Edena",
             metaDescription:
-                "Automatisez les tâches répétitives de votre établissement : rappels, communications, paiements et parcours d'inscription. Créez des automatisations sans coder et gagnez des heures chaque semaine.",
+                "Automatisez rappels, communiqués, paiements et parcours d'inscription avec un éditeur visuel, sans coder. Gagnez des heures chaque semaine.",
             navTitle: "Automatisations",
             navDescription:
                 "Automatisez les tâches répétitives avec des workflows visuels, sans écrire une seule ligne de code.",
@@ -3140,12 +3225,32 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     question: "Les flux s'exécutent-ils seuls ?",
                     answer: "Une fois configurés, ils s'exécutent automatiquement lorsque le déclencheur est rempli, sans que vous ayez à intervenir.",
                 },
+                {
+                    question: "Quelles sont les automatisations les plus courantes dans un établissement ?",
+                    answer: "Relancer une facture impayée, prévenir la famille en cas d'absence, inscrire l'élève dès que l'inscription est confirmée ou générer chaque mois les factures récurrentes.",
+                },
+                {
+                    question: "Puis-je ajouter des conditions à un parcours ?",
+                    answer: "Oui. En plus du déclencheur, vous définissez des conditions pour que chaque action ne s'exécute que lorsqu'elles sont remplies, par exemple uniquement pour un niveau ou un groupe.",
+                },
+                {
+                    question: "Les automatisations peuvent-elles envoyer des communiqués aux familles ?",
+                    answer: "Oui. Elles envoient e-mails et notifications aux familles et à l'équipe au bon moment, avec le message que vous définissez, sans que personne ait à y penser.",
+                },
+                {
+                    question: "Quelle différence entre les automatisations et Ena ?",
+                    answer: "Les automatisations exécutent des règles fixes que vous définissez : quand il se passe quelque chose, une action suit. Ena est l'agent d'IA à qui vous demandez des tâches avec vos propres mots. Ils travaillent sur les mêmes données et se complètent.",
+                },
+                {
+                    question: "Quelle offre inclut les automatisations ?",
+                    answer: "Pour les établissements scolaires, Automatisation est un module que vous activez sur la plateforme de base. Pour les académies, il est inclus dans le Pack Académie 360.",
+                },
             ],
         },
         shop: {
             metaTitle: "Boutique en Ligne pour Écoles | Uniformes et Fournitures · Edena",
             metaDescription:
-                "Vendez uniformes, fournitures scolaires, cantine et activités depuis une boutique en ligne intégrée à votre établissement. Paiements automatiques et stock contrôlé, sans frais cachés.",
+                "Vendez uniformes, fournitures et services depuis une boutique en ligne intégrée à l'appli de votre établissement. Paiements automatiques, sans frais cachés.",
             navTitle: "Shop",
             navDescription:
                 "La boutique en ligne de votre établissement : uniformes, fournitures et services avec paiement intégré.",
@@ -3229,12 +3334,32 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     question: "Puis-je gérer tailles et variantes ?",
                     answer: "Vous pouvez créer des variantes de tailles, couleurs et modèles pour les uniformes et fournitures, chacune avec son propre stock.",
                 },
+                {
+                    question: "Des bons de livraison et des factures sont-ils créés pour chaque achat ?",
+                    answer: "Oui. Chaque commande génère son bon de livraison et sa facture, et elle est enregistrée dans l'historique d'achats de l'élève pour être consultée à tout moment.",
+                },
+                {
+                    question: "Puis-je vendre des services comme la cantine ou les sorties ?",
+                    answer: "Oui. En plus des produits, vous pouvez vendre des services comme la cantine, les sorties ou les activités et les encaisser avec les mêmes moyens de paiement que le reste.",
+                },
+                {
+                    question: "Les familles doivent-elles s'inscrire sur un autre site ?",
+                    answer: "Non. Elles achètent depuis l'appli Edena qu'elles utilisent déjà, avec leur compte et leurs moyens de paiement, sans nouvelle inscription ni paiement externe.",
+                },
+                {
+                    question: "Puis-je savoir quels produits se vendent le mieux ?",
+                    answer: "Oui. Les rapports de ventes montrent ce qui se vend et ce que rapporte chaque produit, pour ajuster le catalogue et les achats de stock avec des données réelles.",
+                },
+                {
+                    question: "Quelle offre inclut la boutique ?",
+                    answer: "Pour les établissements scolaires, Boutique est un module que vous activez sur la plateforme de base. Pour les académies, elle est incluse dans le Pack Finances et le Pack Académie 360.",
+                },
             ],
         },
         communication: {
             metaTitle: "Communication Scolaire | Messagerie et Circulaires · Edena",
             metaDescription:
-                "Messagerie sécurisée, circulaires avec accusé de lecture, notifications push et mur de l'établissement dans une seule app. Communiquez avec les familles instantanément et assurez-vous que tous reçoivent l'information.",
+                "Messagerie sécurisée, circulaires avec accusé de lecture, notifications et mur de l'établissement dans une seule appli. Chaque famille reçoit chaque message.",
             navTitle: "Communication",
             navDescription:
                 "Messagerie, circulaires et notifications push pour joindre toutes les familles instantanément.",
@@ -3318,12 +3443,32 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     question: "Cela remplace-t-il les groupes WhatsApp ?",
                     answer: "Oui. Edena centralise toute la communication dans un canal professionnel, ordonné et avec historique, sans la dispersion des groupes de messagerie.",
                 },
+                {
+                    question: "Les familles reçoivent-elles les avis même sans ouvrir l'appli ?",
+                    answer: "Oui. Chaque message ou circulaire arrive sous forme de notification sur le téléphone : cela ne dépend pas de l'ouverture de l'appli ni de la consultation des e-mails.",
+                },
+                {
+                    question: "Dois-je partager mon numéro de téléphone personnel ?",
+                    answer: "Non. La messagerie entre l'établissement et les familles fonctionne dans Edena, sans partager les numéros personnels des enseignants ni des familles.",
+                },
+                {
+                    question: "Puis-je publier des actualités et des photos pour tout l'établissement ?",
+                    answer: "Oui. Sur le mur de l'établissement, vous publiez actualités, photos et événements pour tout l'établissement ou pour un groupe, et les familles les suivent dans l'appli.",
+                },
+                {
+                    question: "Reste-t-il une trace de toutes les communications ?",
+                    answer: "Oui. Conversations et communiqués sont conservés avec leur historique, classés par famille et par élève, pour être consultés dès que nécessaire.",
+                },
+                {
+                    question: "Que comprend la plateforme de base et qu'ajoute le module Communication ?",
+                    answer: "La plateforme de base comprend la communication de base et l'inscription des familles. Le module Communication ajoute la messagerie en temps réel, les notifications avec accusé de lecture et les envois par groupe ou par classe.",
+                },
             ],
         },
         internalPayments: {
             metaTitle: "Porte-Monnaie Scolaire | Cantine et Sorties · Edena",
             metaDescription:
-                "Gérez le porte-monnaie interne des familles : recharges, soldes et encaissements de cantine, sorties et services. Paiements rapides sans espèces et contrôle total de chaque mouvement.",
+                "Un porte-monnaie scolaire pour chaque famille : rechargements en ligne, soldes en temps réel et paiements de cantine, sorties et services. Fini les espèces.",
             navTitle: "Paiements Internes",
             navDescription:
                 "Porte-monnaie scolaire avec soldes et recharges pour encaisser cantine, sorties et services sans espèces.",
@@ -3407,12 +3552,32 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     question: "Avertit-il quand le solde est bas ?",
                     answer: "Oui, Edena envoie des alertes automatiques lorsque le solde d'une famille baisse, pour qu'elle puisse recharger à temps.",
                 },
+                {
+                    question: "À quoi peut servir le solde du porte-monnaie ?",
+                    answer: "Aux paiements du quotidien : cantine, sorties, fournitures ou services ponctuels. Ils sont débités du solde, sans manipuler d'espèces.",
+                },
+                {
+                    question: "Faut-il apporter de l'argent liquide à l'école ?",
+                    answer: "Non. Le porte-monnaie remplace les enveloppes et les pièces : les familles rechargent en ligne et les paiements sont débités du solde, personne ne manipule d'espèces en classe.",
+                },
+                {
+                    question: "Comment payer une sortie avec le porte-monnaie ?",
+                    answer: "Vous créez le paiement de la sortie et il est débité du solde de chaque famille participante. La famille voit le débit instantanément dans l'appli, avec son libellé.",
+                },
+                {
+                    question: "Puis-je obtenir des rapports de recettes par service ?",
+                    answer: "Oui. Edena génère des rapports automatiques de recettes, de dépenses et de soldes par famille et par service, pour équilibrer les comptes sans travail manuel.",
+                },
+                {
+                    question: "Recharger le porte-monnaie est-il sécurisé ?",
+                    answer: "Oui. Les rechargements se font dans l'appli par carte ou prélèvement, avec les mêmes systèmes de paiement sécurisés que les autres encaissements, et chaque mouvement est enregistré.",
+                },
             ],
         },
         ena: {
             metaTitle: "Ena | IA pour la Gestion de votre Établissement · Edena",
             metaDescription:
-                "Ena est l'agent IA d'Edena : il automatise les factures, rédige les communications, fait l'appel et répond à toute votre organisation. Intelligence artificielle éducative avec sécurité entreprise.",
+                "Ena, l'IA d'Edena : génère les factures, rédige les communiqués, fait l'appel et répond à toute votre organisation. L'intelligence artificielle pour l'école.",
             navTitle: "Ena",
             navEyebrow: "Intelligence artificielle",
             navCta: "Découvrir Ena",
@@ -3497,6 +3662,26 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                 {
                     question: "Ena est-elle disponible à tout moment ?",
                     answer: "Oui, Ena fonctionne 24/7 et répond instantanément dans Edena, avec un support disponible quand vous en avez besoin.",
+                },
+                {
+                    question: "En quoi Ena diffère-t-elle de ChatGPT ou d'autres IA généralistes ?",
+                    answer: "Ena travaille dans Edena avec les informations de votre établissement et peut réaliser des tâches dans la plateforme, comme générer des factures, faire l'appel ou envoyer des communiqués. Une IA généraliste ne connaît ni vos données ni vos processus.",
+                },
+                {
+                    question: "Puis-je vérifier ce que fait Ena avant l'envoi ?",
+                    answer: "Oui. Pour des tâches comme la facturation, Ena prépare le travail, par exemple les factures du mois, et vous demande de confirmer avant de l'envoyer aux familles.",
+                },
+                {
+                    question: "Ena peut-elle rédiger et envoyer des communiqués ?",
+                    answer: "Oui. Ena rédige des communiqués aux familles dans le ton de votre établissement, comme l'annonce d'une sortie, et les envoie quand vous le lui demandez.",
+                },
+                {
+                    question: "Ena peut-elle répondre aux questions sur les protocoles de l'établissement ?",
+                    answer: "Oui. Elle résume les protocoles et règlements internes, comme celui sur l'absentéisme, et vous propose de les partager avec l'équipe pour que tous travaillent avec la même information.",
+                },
+                {
+                    question: "Ena est-elle incluse dans mon offre ?",
+                    answer: "Oui. Toutes les offres Edena incluent Ena avec un volume d'utilisation mensuel, plus important dans les offres les plus complètes.",
                 },
             ],
         },

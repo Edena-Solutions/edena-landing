@@ -14,4 +14,10 @@ faqs:
       answer: "assignment_report_generation_answer"
     - question: "assignment_support_options"
       answer: "assignment_support_options_answer"
+    - question: "assignment_grade_calculation"
+      answer: "assignment_grade_calculation_answer"
+    - question: "assignment_who_enters_grades"
+      answer: "assignment_who_enters_grades_answer"
+    - question: "assignment_report_cards_app"
+      answer: "assignment_report_cards_app_answer"
 ---

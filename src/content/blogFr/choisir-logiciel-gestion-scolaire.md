@@ -2,7 +2,7 @@
 title: "Comment choisir le meilleur logiciel de gestion scolaire"
 date: "2025-01-15"
 translationKey: "elegir-software-gestion-escolar"
-description: "Guide express en 5 étapes pour affiner votre recherche de logiciels. Guide pratique pour les établissements scolaires en Espagne (2026)."
+description: "Si votre centre distribue toujours des données entre Excel, e-mail et un outil partiel, ce guide vous aide à affiner votre recherche à une semaine."
 tags:
     - "logiciel"
     - "gestion"

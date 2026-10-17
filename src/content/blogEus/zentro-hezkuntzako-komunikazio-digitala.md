@@ -2,7 +2,7 @@
 title: "Familiekiko komunikazioa: posta elektronikoz haragoko tresnak"
 date: "2026-02-17"
 translationKey: "comunicacion-digital-centros-educativos"
-description: "Posta elektroniko masibotik haratagoko kanal digitalak. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Posta elektronikoa erabilgarria da oraindik, baina ez da nahikoa familiekin komunikazio guztietarako: zirkularrek, ordainketa-abisuak."
 tags:
     - "komunikazio digitaleko hezkuntza zentroak"
     - "familiak"

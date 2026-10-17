@@ -18,4 +18,10 @@ faqs:
       answer: "crm_team_assignment_answer"
     - question: "crm_data_security"
       answer: "crm_data_security_answer"
+    - question: "crm_custom_stages"
+      answer: "crm_custom_stages_answer"
+    - question: "crm_after_won"
+      answer: "crm_after_won_answer"
+    - question: "crm_plan"
+      answer: "crm_plan_answer"
 ---

@@ -2,7 +2,7 @@
 title: "The 10 administrative processes that you should automate in your school"
 date: "2026-03-02"
 translationKey: "procesos-administrativos-automatizar-colegio"
-description: "Prioritized list of 10 processes to automate. Practical guide for educational centers in Spain (2026)."
+description: "Automation in educational centers is not a luxury; It is a necessity to free up secretarial and management time."
 tags:
     - "automation in educational centers"
     - "school administrative management"

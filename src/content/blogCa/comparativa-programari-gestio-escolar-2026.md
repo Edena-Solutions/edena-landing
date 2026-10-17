@@ -2,7 +2,7 @@
 title: "Millor programari de gestió escolar a Espanya: comparativa 2026"
 date: "2026-03-16"
 translationKey: "comparativa-software-gestion-escolar-espana-2026"
-description: "Comparar mercat i criteris de compra de ERP escolar a Espanya. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "Escollir el millor programari de gestió escolar a Espanya deixa de ser una qüestió de “tenir ordre” i passa a ser una decisió de caixa."
 tags:
     - "programari gestió escolar"
     - "comparativa ERP educatiu"

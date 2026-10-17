@@ -2,7 +2,7 @@
 title: "Digital evaluation and assessment in modern education: Tools and strategies"
 date: "2025-08-20"
 translationKey: "evaluacion-assessment-digital-educativo"
-description: "Digital assessment and LOMLOE key competencies. Practical guide for educational centers in Spain (2026)."
+description: "Educational assessment is undergoing a digital revolution that is fundamentally transforming how we measure, analyze and use student learning data."
 tags:
     - "digital evaluation"
     - "assessment"

@@ -2,7 +2,7 @@
 title: "Etorkizuneko hezkuntza espazioak: ikaskuntza modernorako diseinua eta berrikuntza"
 date: "2025-08-25"
 translationKey: "espacios-educativos-futuro-diseno"
-description: "Espazio malguak eta DigEdu diseinua. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Ikaskuntza gertatzen den espazio fisikoek eragin handia eta askotan gutxietsia dute hezkuntza-eraginkortasunean."
 tags:
     - "espacios educativos"
     - "diseño arquitectónico"

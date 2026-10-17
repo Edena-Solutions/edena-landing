@@ -2,7 +2,7 @@
 title: "Eskola-fakturazioaren automatizazioa: barne-prozesuak optimizatzen"
 date: "2025-01-15"
 translationKey: "automatizacion-facturacion-escolar"
-description: "Faktura-emisioa eta kobrantza-ziklo erregularrak automatizatzea. Hezkuntza-zentroentzako gida praktikoa Espainian (2026)."
+description: "Hezkuntza-zentroek fakturazio-mota anitz kudeatzen dituzte: matrikulak, hileko kuotak, jarduera estrakurrrikularrak, zerbitzu osagarriak eta gehiago."
 tags:
     - "facturación"
     - "automatización"

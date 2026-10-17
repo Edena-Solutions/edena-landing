@@ -2,7 +2,7 @@
 title: "Zer da SIS (Ikasleentzako Informazio Sistema) eta zergatik behar du zure hezkuntza zentroak 2026an?"
 date: "2026-02-27"
 translationKey: "sis-sistema-informacion-estudiantil-2026"
-description: "SIS vs ERP: SIS nahikoa denean eta plataforma integral bat behar denean. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Hezkuntza araudiak, datuen babesak eta familiaren itxaropenek trazabilitatea, segurtasuna eta abiadura eskatzen dute."
 tags:
     - "SIS eskola"
     - "ikasleen informazio sistema"

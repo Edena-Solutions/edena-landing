@@ -2,7 +2,7 @@
 title: "Educación inclusiva y tecnología asistiva: Creando aulas para todos"
 date: "2025-08-05"
 translationKey: "educacion-inclusiva-tecnologia-asistiva"
-description: "Inclusión y tecnología asistiva en aula ordinaria. Guía práctica para centros educativos en España (2026)."
+description: "La educación inclusiva representa uno de los mayores desafíte y oportunidades en el panorama educativo contemporáneo."
 tags: ["educación inclusiva", "tecnología asistiva", "accesibilidad", "diversidad"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1550418290-a8d86ad674a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

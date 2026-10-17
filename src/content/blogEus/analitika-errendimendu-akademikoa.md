@@ -2,7 +2,7 @@
 title: "Errendimendu akademikoaren analisia: ikaskuntza hobetzeko datuak"
 date: "2025-01-10"
 translationKey: "analitica-rendimiento-academico"
-description: "Ikasgelako errendimendu akademikoaren analisia. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Datuen analisiari esker, ereduak identifikatzea, beharrak aurreikustea eta hezkuntza-esperientzia pertsonalizatzea posible da ikasle bakoitzaren potentziala maximizatzeko."
 tags:
     - "analítica"
     - "rendimiento académico"

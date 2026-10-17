@@ -2,7 +2,7 @@
 title: "Com reduir els impagaments i millorar la facturació a centres educatius"
 date: "2026-03-03"
 translationKey: "reducir-impagos-facturacion-colegios"
-description: "Quick wins administratius per reduir impagaments sense canviar de programari. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "Rebuts amb el concepte i la data de càrrec clars, recordatoris només a qui deu i un panell setmanal de deute per curs."
 tags:
     - "facturació col·legis"
     - "gestió de pagaments escolars"

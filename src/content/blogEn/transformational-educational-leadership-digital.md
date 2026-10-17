@@ -2,7 +2,7 @@
 title: "Transformational educational leadership in the digital era: Competencies and strategies"
 date: "2025-09-15"
 translationKey: "liderazgo-educativo-transformacional-digital"
-description: "Management leadership in school digital projects. Practical guide for educational centers in Spain (2026)."
+description: "Saying \"we are a digital center\" without three concrete results in the first month generates cynicism."
 tags:
     - "educational leadership"
     - "digital transformation"

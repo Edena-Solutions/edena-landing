@@ -2,7 +2,7 @@
 title: "Data and analytics in education: how to make better decisions with school dashboards"
 date: "2026-03-15"
 translationKey: "analitica-educativa-dashboards-escolares"
-description: "Operational analytics for management decisions. Practical guide for educational centers in Spain (2026)."
+description: "Educational analytics and the school dashboard allow you to make decisions based on data instead of intuition."
 tags:
     - "educational analytics"
     - "school dashboard"

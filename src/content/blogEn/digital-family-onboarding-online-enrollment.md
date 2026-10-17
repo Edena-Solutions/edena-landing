@@ -2,7 +2,7 @@
 title: "Digital onboarding of families: how to enroll students without paperwork"
 date: "2026-03-11"
 translationKey: "onboarding-digital-familias-matricula-online"
-description: "Family experience in the first month after enrollment. Practical guide for educational centers in Spain (2026)."
+description: "Online registration at school and digital registration of students transform the experience of families and reduce the burden on the secretariat."
 tags:
     - "online school registration"
     - "digital registration students"

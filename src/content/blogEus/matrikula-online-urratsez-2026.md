@@ -2,7 +2,7 @@
 title: "Nola digitalizatu zure hezkuntza-zentroaren lineako erregistroa urratsez urrats"
 date: "2026-03-28"
 translationKey: "matricula-online-centro-educativo-pasos-2026"
-description: "Lineako erregistroaren ezarpena urratsez urrats. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Erregistroa lineako fluxu batera pasatzea ez da PDF bat sarera igotzea: irizpideak, arduradunak, epeak eta mezuak berrantolatzea baizik."
 tags:
     - "lineako izen-ematea"
     - "erregistro digitala"

@@ -2,7 +2,7 @@
 title: "Hezkuntza-arbelak neurri akademikoak eta finantzarioak hobetzeko"
 date: "2026-02-27"
 translationKey: "dashboards-educativos-metricas"
-description: "Arbel akademiko eta finantzarioen diseinua. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Hezkuntza dashboard-k kudeaketa-adierazleak ikuspegi bakarrean biltzen ditu: bilketa, atxikipena, asistentzia, okupazioa eta, hala badagokio, emaitza akademikoak."
 tags:
     - "dashboard hezkuntza-neurriak"
     - "datuak"

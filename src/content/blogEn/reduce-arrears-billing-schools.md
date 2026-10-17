@@ -2,7 +2,7 @@
 title: "How to reduce non-payments and improve billing in educational centers"
 date: "2026-03-03"
 translationKey: "reducir-impagos-facturacion-colegios"
-description: "Quick administrative wins to reduce defaults without changing software. Practical guide for educational centers in Spain (2026)."
+description: "Receipts that spell out each item and the charge date, reminders only for those who owe, and a weekly debt panel by year group."
 tags:
     - "school billing"
     - "school payment management"

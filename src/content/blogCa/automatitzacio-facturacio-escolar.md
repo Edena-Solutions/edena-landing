@@ -2,7 +2,7 @@
 title: "Automatització de la facturació escolar: Optimitza els teus processos interns"
 date: "2025-01-15"
 translationKey: "automatizacion-facturacion-escolar"
-description: "Automatitzar emissió de factures i cicles de cobrament recurrents. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "La gestió interna de la facturació és un dels processos més complexos i propensos a errors a qualsevol centre educatiu."
 tags:
     - "facturació"
     - "automatització"

@@ -2,7 +2,7 @@
 title: "Hezkuntza inklusiboa eta laguntza-teknologia: guztientzako ikasgelak sortzea"
 date: "2025-08-05"
 translationKey: "educacion-inclusiva-tecnologia-asistiva"
-description: "Inklusioa eta laguntza-teknologia ikasgela arruntean. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Behar eta gaitasun anitzak dituzten ikasleen integrazio eraginkorrak metodologietatik haratago doazen ikuspegi berritzaileak eskatzen ditu."
 tags:
     - "educación inclusiva"
     - "tecnología asistiva"

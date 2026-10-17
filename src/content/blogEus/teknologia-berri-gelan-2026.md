@@ -2,7 +2,7 @@
 title: "Teknologia berriak ikasgelan 2026: hezkuntza-esperientzia eraldatzen"
 date: "2026-01-29"
 translationKey: "nuevas-tecnologias-aula-2026"
-description: "Ikasgelako teknologiak konpetentzietan eta administratzaile librean arreta jarrita. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "urtea aurretik eta ondoren markatzen ari da gaztelaniazko geletan nola irakasten eta ikasten dugun."
 tags:
     - "hezkuntza teknologia"
     - "ikasgela digitala"

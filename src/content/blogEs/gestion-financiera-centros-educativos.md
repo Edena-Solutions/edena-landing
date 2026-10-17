@@ -2,7 +2,7 @@
 title: "Gestión financiera inteligente para centros educativos"
 date: "2025-02-10"
 translationKey: "gestion-financiera-centros-educativos"
-description: "Visión de dirección financiera: flujo de caja, reporting y tesorería. Guía práctica para centros educativos en España (2026)."
+description: "Los centros pasan de los libros y las hojas de cálculo a sistemas que automatizan la gestión financiera y ayudan a decidir con datos."
 tags: ["finanzas", "gestión", "educación", "tecnología"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80"

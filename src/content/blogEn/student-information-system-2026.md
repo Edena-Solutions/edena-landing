@@ -2,7 +2,7 @@
 title: "What is a SIS (Student Information System) and why your educational center needs one in 2026"
 date: "2026-02-27"
 translationKey: "sis-sistema-informacion-estudiantil-2026"
-description: "SIS vs ERP: when an SIS is enough and when a comprehensive platform is needed. Practical guide for educational centers in Spain (2026)."
+description: "A school SIS, or student information system, is the digital backbone of any modern educational center."
 tags:
     - "school SIS"
     - "student information system"

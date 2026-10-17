@@ -2,7 +2,7 @@
 title: "How to integrate online payments in schools and reduce defaults"
 date: "2026-02-21"
 translationKey: "pagos-online-educacion"
-description: "Gateways, SEPA direct debit and online payment methods in centres. Practical guide for educational centers in Spain (2026)."
+description: "Here we are not talking about late payment policy but about how to collect: SEPA, card, reconciliation and family payment experience."
 tags:
     - "online payments education"
     - "defaults"

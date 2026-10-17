@@ -2,7 +2,7 @@
 title: "Nola hobetu familiekin komunikazioa plataforma digital bakar batetik"
 date: "2026-03-01"
 translationKey: "comunicacion-colegio-familias-plataforma-digital"
-description: "Komunikazioa plataforma bakarrean zentralizatzea. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Mezu elektronikoetan, WhatsApp taldeetan eta paperetan sakabanatutako eskola-familia komunikazioak kaosa, gaizki-ulertuak eta esperientzia txarra sortzen ditu."
 tags:
     - "komunikazio eskolako familiak"
     - "eskolako gurasoentzako aplikazioa"

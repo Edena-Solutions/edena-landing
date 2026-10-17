@@ -1,7 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
 
-import { Button } from "@/components/ui/button";
-import { Link } from "@/components/ui/link";
 import type { Translation } from "@/i18n";
 
 const STORAGE_KEY = "edena-cookie-consent";
@@ -72,31 +70,27 @@ export default function CookieConsentBanner({ lang, t }: Props) {
             role="dialog"
             aria-labelledby="cookie-consent-title"
             aria-describedby="cookie-consent-desc"
-            className="fixed bottom-0 left-0 right-0 z-[100] bg-background/95 p-4 shadow-lg backdrop-blur-sm supports-[backdrop-filter]:bg-background/80 md:p-5"
+            className="fixed inset-x-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-[100] mx-auto w-auto max-w-md rounded-card p-5 material-thick elev-3 ring-1 ring-hairline sm:right-6 sm:left-auto sm:mx-0"
         >
-            <div className="container mx-auto flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-                <div className="text-sm text-muted-foreground">
-                    <p
-                        id="cookie-consent-title"
-                        className="mb-1 font-semibold text-foreground uppercase text-[10px] tracking-wider"
-                    >
-                        {copy.title}
-                    </p>
-                    <p id="cookie-consent-desc" className="text-xs">
-                        {copy.description}
-                    </p>
-                    <Link href={policyHref} variant="link" className="inline-block text-xs">
-                        {copy.policy}
-                    </Link>
-                </div>
-                <div className="flex shrink-0 flex-col gap-2 sm:flex-row sm:justify-end">
-                    <Button type="button" variant="white" onClick={reject}>
-                        {copy.reject}
-                    </Button>
-                    <Button type="button" onClick={accept}>
-                        {copy.accept}
-                    </Button>
-                </div>
+            <p id="cookie-consent-title" className="type-callout font-semibold text-ink">
+                {copy.title}
+            </p>
+            <p id="cookie-consent-desc" className="mt-1.5 type-footnote text-ink-2">
+                {copy.description}
+            </p>
+            <a
+                href={policyHref}
+                className="mt-2 inline-block type-footnote text-ink underline decoration-hairline-strong underline-offset-[0.2em] transition-colors duration-200 hover:text-ink-2"
+            >
+                {copy.policy}
+            </a>
+            <div className="mt-4 flex flex-col gap-2 sm:flex-row">
+                <button type="button" className="ds-btn ds-btn--secondary flex-1" onClick={reject}>
+                    {copy.reject}
+                </button>
+                <button type="button" className="ds-btn ds-btn--primary flex-1" onClick={accept}>
+                    {copy.accept}
+                </button>
             </div>
         </div>
     );

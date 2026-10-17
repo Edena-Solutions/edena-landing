@@ -2,7 +2,7 @@
 title: "Gestió financera intel·ligent per a centres educatius"
 date: "2025-02-10"
 translationKey: "gestion-financiera-centros-educativos"
-description: "Visió de direcció financera: flux de caixa, reporting i tresoreria. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "La gestió financera en centres educatius ha evolucionat significativament en els darrers anys."
 tags:
     - "finances"
     - "gestió"

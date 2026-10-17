@@ -2,7 +2,7 @@
 title: "CRM eskola: matrikulazioa nola handitu eta aplikazio gehiago bihurtu"
 date: "2026-03-24"
 translationKey: "crm-escolar-matriculas-conversion-2026"
-description: "CRM ikastetxea eskaerak matrikula bihurtzeko. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Bilduma gero kobratu eta zerbitzua ematen duen sistematik kanpo bizi denean, datuak bikoiztu egiten dira, jatorria galtzen da eta zuzendaritzak berandu ikusten ditu zifrak."
 tags:
     - "CRM eskola"
     - "online inskripzioak"

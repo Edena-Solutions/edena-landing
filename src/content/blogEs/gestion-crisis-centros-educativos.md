@@ -2,7 +2,7 @@
 title: "Gestión de crisis en centros educativos: Protocolos y estrategias para la continuidad"
 date: "2025-08-01"
 translationKey: "gestion-crisis-centros-educativos"
-description: "Protocolos de crisis y continuidad en centros españoles. Guía práctica para centros educativos en España (2026)."
+description: "En el entorno educativo actual, los centros deben estar preparados para enfrentar crisis imprevistas que pueden interrumpir las actividades académicas y poner en riesgo la seguridad de estudiantes y personal."
 tags: ["gestión de crisis", "protocolos", "continuidad educativa", "seguridad escolar"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1585829364536-ce348dd72ebc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

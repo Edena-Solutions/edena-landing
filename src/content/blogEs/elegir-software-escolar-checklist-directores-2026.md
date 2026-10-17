@@ -2,7 +2,7 @@
 title: "Cómo elegir software escolar sin equivocarte: checklist para directores"
 date: "2026-04-20"
 translationKey: "elegir-software-escolar-checklist-directores-2026"
-description: "Checklist de compra para directores: demo, TCO y comité. Guía práctica para centros educativos en España (2026)."
+description: "Elegir el software de gestión de tu centro es una de las decisiones más costosas de revertir: no en precio de licencia, sino en tiempo."
 tags:
     [
         "elegir software escolar",

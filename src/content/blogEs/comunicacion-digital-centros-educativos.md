@@ -2,7 +2,7 @@
 title: "Comunicación con familias: herramientas más allá del email"
 date: "2026-02-17"
 translationKey: "comunicacion-digital-centros-educativos"
-description: "Canales digitales más allá del email masivo. Guía práctica para centros educativos en España (2026)."
+description: "El email sigue siendo útil, pero no basta para toda la comunicación con familias: circulares, recordatorios de pago, ausencias o avisos urgentes requieren canales que las familias consulten a diario."
 tags: ["comunicación digital centros educativos", "familias", "canales", "herramientas"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1170&auto=format&fit=crop"

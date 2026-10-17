@@ -39,14 +39,14 @@ const searchText = (post: (typeof posts)[number]) => foldText(`${post.data.title
 
 <Layout
     content={{
-        title: `${t.navigation.blog} | Edena`,
-        description: `${t.navigation.blog}, Edena.`,
+        title: t.meta.blogTitle,
+        description: t.meta.blogDescription,
     }}
     lang={lang}
     design="premium"
 >
     <HomeMotion />
-    <PageHero title={t.navigation.blog} description={t.blog.description}>
+    <PageHero eyebrow={t.navigation.blog} title={t.blogPage.title} description={t.blog.description}>
         <div class="ds-intro mt-10 w-full max-w-xl" style="--intro-i: 2">
             <SearchField placeholder={t.blogPage.searchPlaceholder} clearLabel={t.blogPage.clearSearch} />
         </div>

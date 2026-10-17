@@ -2,7 +2,7 @@
 title: "Com integrar pagaments online a escoles i reduir impagaments"
 date: "2026-02-21"
 translationKey: "pagos-online-educacion"
-description: "Passarel·les, domiciliació SEPA i mètodes de pagament online a centres. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "Aquí no parlem de política de morositat sinó de com cobrar: SEPA, targeta, conciliació i experiència de pagament familiar."
 tags:
     - "pagaments online educació"
     - "impagaments"

@@ -2,7 +2,7 @@
 title: "Facturation électronique et vérification dans l'éducation 2026 : conformité et efficacité réglementaires"
 date: "2026-01-15"
 translationKey: "facturacion-electronica-verifactu-educacion-2026"
-description: "Guide des piliers Verifactu 2026 : calendrier, obligations et erreurs AEAT. Guide pratique pour les établissements scolaires en Espagne (2026)."
+description: "L’année 2026 marque un tournant dans la gestion financière des établissements scolaires espagnols."
 tags:
     - "facturation électronique"
     - "Vérification"

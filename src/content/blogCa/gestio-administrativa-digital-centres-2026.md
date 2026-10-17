@@ -2,7 +2,7 @@
 title: "Gestió Administrativa Digital a Centres Educatius 2026: Eliminant el Paper, Maximitzant l'Eficiència"
 date: "2026-01-22"
 translationKey: "gestion-administrativa-digital-centros-2026"
-description: "Visió holística de direcció sobre digitalització admin. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "L'any 2026 és testimoni d'una transformació radical en la gestió administrativa dels centres educatius espanyols."
 tags:
     - "gestió administrativa"
     - "digitalització"

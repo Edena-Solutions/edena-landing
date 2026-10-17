@@ -2,7 +2,7 @@
 title: "Protección de datos en la gestión digital de escuelas"
 date: "2026-02-14"
 translationKey: "proteccion-datos-escuela-digital"
-description: "Pilar GDPR/LOPDGDD para centros y menores. Guía práctica para centros educativos en España (2026)."
+description: "La gestión digital de un centro educativo implica tratar datos de alumnos, familias y personal."
 tags: ["protección datos escuela digital", "GDPR", "seguridad", "directivos"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1545175928-65a104e66691?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

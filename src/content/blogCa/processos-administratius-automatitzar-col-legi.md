@@ -2,7 +2,7 @@
 title: "Els 10 processos administratius que hauries d'automatitzar a la teva escola"
 date: "2026-03-02"
 translationKey: "procesos-administrativos-automatizar-colegio"
-description: "Llista prioritzada de 10 processos a automatitzar. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "L'automatització a centres educatius no és un luxe; és una necessitat per alliberar temps de secretaria i direcció."
 tags:
     - "automatització en centres educatius"
     - "gestió administrativa escolar"

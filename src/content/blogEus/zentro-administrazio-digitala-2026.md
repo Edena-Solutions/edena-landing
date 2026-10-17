@@ -2,7 +2,7 @@
 title: "Kudeaketa Digitala Hezkuntza Zentroetan 2026: Papera ezabatzea, eraginkortasuna maximizatzea"
 date: "2026-01-22"
 translationKey: "gestion-administrativa-digital-centros-2026"
-description: "Kudeaketa holistikoaren ikuspegia digitalizazioaren admin. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Prozesu administratiboak erabat digitalizatu dituzten zentroek ezohiko emaitzak ematen ari dira: administrazio-kostuak %40 murriztea."
 tags:
     - "kudeaketa administratiboa"
     - "digitalizazioa"

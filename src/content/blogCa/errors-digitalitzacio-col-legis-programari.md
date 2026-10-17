@@ -2,7 +2,7 @@
 title: "Digitalització a col·legis: 7 errors que cometen els centres en implementar programari educatiu"
 date: "2026-03-05"
 translationKey: "errores-digitalizacion-colegios-software"
-description: "7 errors en implantar programari i com evitar-los. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "La digitalització educativa avança, però molts centres cometen errors que retarden resultats, generen resistència o desaprofiten inversió."
 tags:
     - "digitalització educativa"
     - "programari per a escoles"

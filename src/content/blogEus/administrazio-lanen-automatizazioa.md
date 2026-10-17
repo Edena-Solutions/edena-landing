@@ -2,7 +2,7 @@
 title: "Administrazio-zereginen automatizazioa: hezkuntzarako denbora askatu"
 date: "2025-07-15"
 translationKey: "automatizacion-tareas-administrativas"
-description: "Errepikatzen diren administrazio-zereginen automatizazio orokorra. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Hezkuntza-zentroek etengabeko erronka bat dute: administrazio-beharrak orekatzea kalitatezko hezkuntza eskaintzeko helburu nagusiarekin."
 tags:
     - "automatización"
     - "procesos administrativos"

@@ -2,7 +2,7 @@
 title: "CRM escolar: com augmentar matrícules i convertir més sol·licituds"
 date: "2026-03-24"
 translationKey: "crm-escolar-matriculas-conversion-2026"
-description: "CRM escolar per convertir sol·licituds en matrícules. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "Un CRM escolar no és un “extra de comercial” per a centres que volen semblar moderns: és l'antídot contra la matrícula que es refreda a la safata."
 tags:
     - "CRM escolar"
     - "matrícules en línia"

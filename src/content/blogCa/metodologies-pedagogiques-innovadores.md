@@ -2,7 +2,7 @@
 title: "Metodologies pedagògiques innovadores: Transformant el procés d'ensenyament-aprenentatge"
 date: "2025-08-10"
 translationKey: "metodologias-pedagogicas-innovadoras"
-description: "Metodologies actives alineades amb LOMLOE. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "El panorama educatiu experimenta una transformació fonamental en els seus enfocaments pedagògics."
 tags:
     - "metodologies pedagògiques"
     - "innovació educativa"

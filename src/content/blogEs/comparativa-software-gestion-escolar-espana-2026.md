@@ -2,7 +2,7 @@
 title: "Mejor software de gestión escolar en España: comparativa 2026"
 date: "2026-03-16"
 translationKey: "comparativa-software-gestion-escolar-espana-2026"
-description: "Comparar mercado y criterios de compra de ERP escolar en España. Guía práctica para centros educativos en España (2026)."
+description: "Elegir el mejor software de gestión escolar en España deja de ser una cuestión de “tener orden” y pasa a ser una decisión de caja, cumplimiento y experiencia de las familias."
 tags:
     [
         "software gestión escolar",

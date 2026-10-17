@@ -2,7 +2,7 @@
 title: "Intelligent financial management for educational centers"
 date: "2025-02-10"
 translationKey: "gestion-financiera-centros-educativos"
-description: "Financial management vision: cash flow, reporting and treasury. Practical guide for educational centers in Spain (2026)."
+description: "From traditional paper ledgers and basic spreadsheets, we have moved to integrated systems that not only automate processes."
 tags:
     - "finance"
     - "management"

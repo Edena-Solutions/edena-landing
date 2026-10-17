@@ -2,7 +2,7 @@
 title: "Ikastetxe zuzendari guztiak hilero neurtu behar dituzten KPIak"
 date: "2026-04-16"
 translationKey: "kpis-director-colegio-mensual-2026"
-description: "Zuzendaritzarentzako hileko ezinbesteko KPIak. 2026ko gida praktikoa Espainiako hezkuntza-zentroetarako."
+description: "Ikastetxe, haur-eskola edo akademia zuzendari batek adierazlerik gabe inpresioekin lan egiten du."
 tags:
     - "KPI ikastetxe zuzendaria"
     - "eskola-kudeaketa adierazleak"

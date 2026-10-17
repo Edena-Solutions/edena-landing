@@ -2,7 +2,7 @@
 title: "Ikasleen ongizate emozionala aro digitalean: Estrategiak eta tresnak"
 date: "2025-08-30"
 translationKey: "bienestar-emocional-estudiantes-digitales"
-description: "Ongizate emozionala eta pantailen erabilera orekatua. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Aldaketa teknologiko bizkorrek, presio akademiko areagotuek, etengabeko konektibitateak eta belaunaldi digitalen erronka sozial bereziek erronka berriak sortu dituzte ikasleen osasun mentalerako."
 tags:
     - "bienestar emocional"
     - "salud mental"

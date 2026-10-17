@@ -2,7 +2,7 @@
 title: "Évaluation et évaluation numériques dans l'éducation moderne : outils et stratégies"
 date: "2025-08-20"
 translationKey: "evaluacion-assessment-digital-educativo"
-description: "Bilan numérique et compétences clés LOMLOE. Guide pratique pour les établissements scolaires en Espagne (2026)."
+description: "L’évaluation pédagogique connaît une révolution numérique qui transforme fondamentalement la façon dont nous mesurons, analysons et utilisons les données d’apprentissage des élèves."
 tags:
     - "évaluation numérique"
     - "évaluation"

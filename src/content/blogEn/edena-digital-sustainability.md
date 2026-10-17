@@ -2,7 +2,7 @@
 title: "Edena and digital sustainability in educational centers"
 date: "2025-07-20"
 translationKey: "edena-sostenibilidad-digital"
-description: "Sustainability and paper reduction in school management. Practical guide for educational centers in Spain (2026)."
+description: "In a world increasingly aware of the importance of sustainability, educational centers have a special responsibility."
 tags:
     - "sustainability"
     - "digital"

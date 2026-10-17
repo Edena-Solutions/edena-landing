@@ -2,7 +2,7 @@
 title: "Evaluación y assessment digital en la educación moderna: Herramientas y estrategias"
 date: "2025-08-20"
 translationKey: "evaluacion-assessment-digital-educativo"
-description: "Evaluación digital y competencias clave LOMLOE. Guía práctica para centros educativos en España (2026)."
+description: "La evaluación educativa está experimentando una revolución digital que está transformando fundamentalmente cómo medimos, analizamos y utilizamos los datos del aprendizaje estudiantil."
 tags: ["evaluación digital", "assessment", "tecnología educativa", "medición aprendizaje"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

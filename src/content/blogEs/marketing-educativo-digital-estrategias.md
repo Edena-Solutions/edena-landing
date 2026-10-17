@@ -2,7 +2,7 @@
 title: "Marketing educativo digital: Estrategias para atraer y retener familias en la era digital"
 date: "2025-09-08"
 translationKey: "marketing-educativo-digital-estrategias"
-description: "Marketing digital para colegios privados y concertados en España. Guía práctica para centros educativos en España (2026)."
+description: "Si diriges un colegio privado o concertado de 150 a 800 familias, probablemente inviertes en web, Open Day o redes y aun así no ves el retorno en matrículas."
 tags:
     ["marketing educativo", "marketing digital", "atracción familias", "comunicación institucional"]
 author: "ENA by Edena"

@@ -2,7 +2,7 @@
 title: "Educational spaces of the future: Design and innovation for modern learning"
 date: "2025-08-25"
 translationKey: "espacios-educativos-futuro-diseno"
-description: "Design of flexible spaces and DigEdu. Practical guide for educational centers in Spain (2026)."
+description: "The physical spaces where learning occurs have a profound and often underestimated impact on educational effectiveness."
 tags:
     - "educational spaces"
     - "architectural design"

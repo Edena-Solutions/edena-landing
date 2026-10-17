@@ -2,7 +2,7 @@
 title: "Digital Skills of Teachers in 2026: More than 661,000 Certified Teachers"
 date: "2026-01-10"
 translationKey: "competencias-digitales-profesorado-2026"
-description: "Status of certified teachers and DigEdu 2026 Plan. Practical guide for educational centers in Spain (2026)."
+description: "The Digital Teaching Competence Reference Framework, updated in 2022 and aligned with the European #DigCompEdu framework."
 tags:
     - "digital skills"
     - "teacher training"

@@ -2,7 +2,7 @@
 title: "School ERP: the complete guide to digitize the management of your educational center"
 date: "2026-02-28"
 translationKey: "erp-escolar-guia-digitalizacion"
-description: "What is a school ERP and what modules it should include. Practical guide for educational centers in Spain (2026)."
+description: "A school ERP integrates the administrative, financial and academic management of an educational center into a single platform."
 tags:
     - "School ERP"
     - "school management software"

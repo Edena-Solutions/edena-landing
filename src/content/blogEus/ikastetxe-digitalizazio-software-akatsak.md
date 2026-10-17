@@ -2,7 +2,7 @@
 title: "Digitalizazioa ikastetxeetan: hezkuntza-softwarea ezartzerakoan ikastetxeek egiten dituzten 7 akats"
 date: "2026-03-05"
 translationKey: "errores-digitalizacion-colegios-software"
-description: "7 akatsak softwarea ezartzerakoan eta nola saihestu. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Hezkuntza digitalizazioa aurrera doa, baina zentro askok emaitzak atzeratzen dituzten akatsak egiten dituzte, erresistentzia sortzen dute edo inbertsioa xahutzen dute."
 tags:
     - "hezkuntzaren digitalizazioa"
     - "eskoletarako softwarea"

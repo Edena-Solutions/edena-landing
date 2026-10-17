@@ -2,7 +2,7 @@
 title: "How to choose school software without making a mistake: checklist for directors"
 date: "2026-04-20"
 translationKey: "elegir-software-escolar-checklist-directores-2026"
-description: "Purchasing checklist for directors: demo, TCO and committee. Practical guide for educational centers in Spain (2026)."
+description: "Choosing the management software for your center is one of the most expensive decisions to make: not in license price, but in time."
 tags:
     - "choose school software"
     - "educational software checklist"

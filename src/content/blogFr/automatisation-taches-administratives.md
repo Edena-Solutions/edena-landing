@@ -2,7 +2,7 @@
 title: "Automatisation des tâches administratives : libérer du temps pour l'éducation"
 date: "2025-07-15"
 translationKey: "automatizacion-tareas-administrativas"
-description: "Automatisation générale des tâches administratives répétitives. Guide pratique pour les établissements scolaires en Espagne (2026)."
+description: "Les établissements scolaires sont confrontés à un défi constant : concilier les besoins administratifs avec l'objectif principal de fournir une éducation de qualité."
 tags:
     - "automation"
     - "démarches administratives"

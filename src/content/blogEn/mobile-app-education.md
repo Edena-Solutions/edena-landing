@@ -2,7 +2,7 @@
 title: "Mobile apps in education: The digital experience in your pocket"
 date: "2025-04-15"
 translationKey: "app-movil-educacion"
-description: "Role of the mobile app in the school-family relationship. Practical guide for educational centers in Spain (2026)."
+description: "Mobile apps are changing the way families interact with schools, providing instant access to school information and services from anywhere and at any time."
 tags:
     - "mobile apps"
     - "digital experience"

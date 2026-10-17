@@ -2,7 +2,7 @@
 title: "Guia SEO per a centres educatius: aparèixer a Google"
 date: "2026-02-12"
 translationKey: "seo-centros-educativos"
-description: "SEO local per captar famílies a Google. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "Les cerques del tipus \"col·legi privat [ciutat]\", \"guarderia bilingüe [zona]\" o \"millor centre [etapa] a prop de [àrea]\" reflecteixen intenció d'elecció."
 tags:
     - "SEO centres educatius"
     - "visibilitat"
