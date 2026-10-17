@@ -76,12 +76,18 @@ function renderTextBlock(block: string): string {
     return parts.join("\n");
 }
 
+/**
+ * A heading on its own: `<strong>Title</strong>`, sometimes with the `<br>` that follows it on its
+ * line, and in a few posts with the closing tag missing (which would embolden the rest of the post).
+ */
+const SECTION_TITLE = /^<strong>([^<]+?)(?:<\/strong>)?(?:\s*<br\s*\/?>)*$/i;
+
 function isSectionTitleBlock(block: string): boolean {
-    return /^<strong>[^<]+<\/strong>$/i.test(block.trim());
+    return SECTION_TITLE.test(block.trim());
 }
 
 function renderSectionTitle(block: string): string {
-    const title = block.match(/^<strong>([^<]+)<\/strong>$/i)?.[1] ?? block;
+    const title = block.trim().match(SECTION_TITLE)?.[1] ?? block;
     return `<h2 class="blog-section-heading">${title}</h2>`;
 }
 
@@ -93,7 +99,8 @@ function renderBlock(block: string): string {
     const trimmed = block.trim();
     if (!trimmed) return "";
 
-    if (isHtmlBlock(trimmed)) {
+    // A paragraph that merely opens in bold ("<strong>Actions :</strong> …") is still a paragraph.
+    if (isHtmlBlock(trimmed) && !(/^<(strong|em|a)\b/i.test(trimmed) && !SECTION_TITLE.test(trimmed))) {
         return trimmed;
     }
 

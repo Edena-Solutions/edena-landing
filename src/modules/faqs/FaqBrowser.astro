@@ -1,0 +1,315 @@
+---
+import { LayoutDashboard, Receipt, Rocket, ShieldCheck, Smartphone } from "lucide-react";
+import FaqPanel from "@/components/ds/FaqPanel.astro";
+import type { Translation } from "@/i18n";
+
+/*
+ * Every question, by topic: the topics in a column that stays in view (the one being read lit), as
+ * a row of chips on a phone; each topic a heading with its icon over one panel of questions. The
+ * search field in the hero (`data-search-input`) narrows them as you type, topics and counts with
+ * it. A link to a question (`#q-…`) opens it.
+ */
+interface Props {
+    t: Translation;
+    faqs: { question: string; answer: string }[];
+}
+
+const { t, faqs } = Astro.props;
+const f = t.faqsPage;
+const text = (key: string) => {
+    const value = (t.faqs as Record<string, unknown>)[key];
+    return typeof value === "string" ? value : key;
+};
+
+const TOPICS = [
+    {
+        id: "start",
+        title: f.groupStart,
+        icon: Rocket,
+        tone: "bg-sys-blue",
+        keys: ["centers_setup_time", "centers_cost_savings", "support_type", "platform_customization", "multiple_centers"],
+    },
+    {
+        id: "billing",
+        title: f.groupBilling,
+        icon: Receipt,
+        tone: "bg-sys-orange",
+        keys: ["verifactu", "finance_verifactu_integration", "billing_management", "finance_automated_billing", "finance_payment_methods", "finance_late_payments"],
+    },
+    {
+        id: "families",
+        title: f.groupFamilies,
+        icon: Smartphone,
+        tone: "bg-sys-green",
+        keys: ["mobile_app_features", "app_multiplatform", "parent_onboarding", "parent_dashboard", "guardian_multiple_children", "sending_photos", "extracurricular_activities"],
+    },
+    {
+        id: "management",
+        title: f.groupManagement,
+        icon: LayoutDashboard,
+        tone: "bg-sys-indigo",
+        keys: ["students_enrollment_process", "center_dashboard", "dashboard_real_time_data", "dashboard_user_roles"],
+    },
+    {
+        id: "security",
+        title: f.groupSecurity,
+        icon: ShieldCheck,
+        tone: "bg-sys-teal",
+        keys: ["app_security", "students_data_privacy"],
+    },
+];
+
+// A question no topic names still shows, under the first.
+const placed = new Set(TOPICS.flatMap((topic) => topic.keys));
+const topics = TOPICS.map((topic, index) => {
+    const keys = [...topic.keys.filter((key) => faqs.some((faq) => faq.question === key))];
+    if (index === 0) keys.push(...faqs.map((faq) => faq.question).filter((key) => !placed.has(key)));
+    const items = keys.map((key) => {
+        const faq = faqs.find((entry) => entry.question === key)!;
+        return { id: `q-${key.replaceAll("_", "-")}`, question: text(faq.question), answer: text(faq.answer) };
+    });
+    return { ...topic, items };
+}).filter((topic) => topic.items.length > 0);
+---
+
+<section class="ds-section pt-10 sm:pt-14" data-faq-browser>
+    <div class="ds-container">
+        <div class="faq-grid">
+            <nav class="hidden lg:block" aria-label={f.topics}>
+                <div class="sticky top-24 flex flex-col gap-3">
+                    <p class="type-footnote font-semibold text-ink-3">{f.topics}</p>
+                    <ol class="m-0 flex list-none flex-col gap-0.5 p-0" data-faq-toc>
+                        {
+                            topics.map((topic) => {
+                                const Icon = topic.icon;
+                                return (
+                                    <li data-topic={topic.id}>
+                                        <a href={`#${topic.id}`} class="faq-topic">
+                                            <span class:list={["ds-app-icon size-7 rounded-[0.5rem]", topic.tone]}>
+                                                <Icon className="size-3.5" />
+                                            </span>
+                                            <span class="flex-1">{topic.title}</span>
+                                            <span class="tabular-nums text-ink-3" data-topic-count>
+                                                {topic.items.length}
+                                            </span>
+                                        </a>
+                                    </li>
+                                );
+                            })
+                        }
+                    </ol>
+                </div>
+            </nav>
+
+            <div class="min-w-0">
+                <!-- On a phone, the topics as a row of chips that scrolls sideways. -->
+                <ul class="faq-chips">
+                    {
+                        topics.map((topic) => {
+                            const Icon = topic.icon;
+                            return (
+                                <li data-topic={topic.id}>
+                                    <a href={`#${topic.id}`} class="faq-chip">
+                                        <span class:list={["ds-app-icon size-6 rounded-[0.45rem]", topic.tone]}>
+                                            <Icon className="size-3" />
+                                        </span>
+                                        {topic.title}
+                                    </a>
+                                </li>
+                            );
+                        })
+                    }
+                </ul>
+
+                {
+                    topics.map((topic) => {
+                        const Icon = topic.icon;
+                        return (
+                            <section id={topic.id} class="faq-group" data-faq-group data-reveal>
+                                <h2 class="flex items-center gap-3 type-title-2 font-semibold text-ink">
+                                    <span class:list={["ds-app-icon size-9", topic.tone]}>
+                                        <Icon className="size-[1.125rem]" />
+                                    </span>
+                                    {topic.title}
+                                </h2>
+                                <FaqPanel items={topic.items} name={`faq-${topic.id}`} class="mt-5" />
+                            </section>
+                        );
+                    })
+                }
+
+                <p class="faq-empty type-body text-ink-2" data-faq-empty data-template={f.noResults} hidden></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    import { foldText, matchesQuery } from "@/lib/search-text";
+
+    function setupFaqBrowser() {
+        const root = document.querySelector<HTMLElement>("[data-faq-browser]");
+        if (!root) return;
+        const input = document.querySelector<HTMLInputElement>("[data-search-input]");
+        const clear = document.querySelector<HTMLButtonElement>("[data-search-clear]");
+        const empty = root.querySelector<HTMLElement>("[data-faq-empty]");
+        const groups = [...root.querySelectorAll<HTMLElement>("[data-faq-group]")];
+        const items = [...root.querySelectorAll<HTMLDetailsElement>("[data-faq-item]")].map((el) => ({
+            el,
+            text: foldText(el.textContent ?? ""),
+        }));
+
+        // Narrow the questions as the query is typed; topics with nothing left step aside.
+        const apply = () => {
+            const query = input?.value.trim() ?? "";
+            if (clear) clear.hidden = !query;
+            items.forEach(({ el, text }) => (el.hidden = !!query && !matchesQuery(text, query)));
+            let shown = 0;
+            groups.forEach((group) => {
+                const count = group.querySelectorAll("[data-faq-item]:not([hidden])").length;
+                group.hidden = count === 0;
+                shown += count;
+                root.querySelectorAll<HTMLElement>(`[data-topic="${group.id}"]`).forEach((entry) => {
+                    entry.hidden = count === 0;
+                    const counter = entry.querySelector("[data-topic-count]");
+                    if (counter) counter.textContent = String(count);
+                });
+            });
+            if (empty) {
+                empty.hidden = shown > 0;
+                empty.textContent = (empty.dataset.template ?? "").replace("{query}", query);
+            }
+            update();
+        };
+        input?.addEventListener("input", apply);
+        clear?.addEventListener("click", () => {
+            if (!input) return;
+            input.value = "";
+            apply();
+            input.focus();
+        });
+
+        // The topic being read, lit in the index: the last one whose top has passed a quarter down.
+        const links = [...root.querySelectorAll<HTMLAnchorElement>("[data-faq-toc] a")];
+        let frame = 0;
+        function update() {
+            frame = 0;
+            const line = window.innerHeight * 0.25;
+            const visible = groups.filter((group) => !group.hidden);
+            let current = visible[0];
+            for (const group of visible) if (group.getBoundingClientRect().top <= line) current = group;
+            links.forEach((link) => link.toggleAttribute("aria-current", link.hash === `#${current?.id}`));
+        }
+        const onScroll = () => {
+            if (!frame) frame = requestAnimationFrame(update);
+        };
+        update();
+        window.addEventListener("scroll", onScroll, { passive: true });
+        document.addEventListener("astro:before-swap", () => window.removeEventListener("scroll", onScroll), { once: true });
+
+        // A link to one question opens it.
+        const target = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null;
+        if (target instanceof HTMLDetailsElement) {
+            target.open = true;
+            target.scrollIntoView({ block: "center" });
+        }
+    }
+    document.addEventListener("astro:page-load", setupFaqBrowser);
+</script>
+
+<style>
+    .faq-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    @media (min-width: 64rem) {
+        .faq-grid {
+            grid-template-columns: 15rem minmax(0, 46rem);
+            column-gap: 5rem;
+            justify-content: center;
+        }
+    }
+
+    .faq-group {
+        scroll-margin-top: 6rem;
+    }
+
+    .faq-group[hidden] {
+        display: none;
+    }
+
+    .faq-group ~ .faq-group {
+        margin-top: 3.5rem;
+    }
+
+    .faq-topic {
+        display: flex;
+        align-items: center;
+        gap: 0.65rem;
+        border-radius: 0.75rem;
+        padding: 0.4rem 0.6rem 0.4rem 0.45rem;
+        font-size: 0.875rem;
+        line-height: 1.3;
+        color: var(--ds-ink-2);
+        transition:
+            background-color 200ms var(--ease-fluid),
+            color 200ms var(--ease-fluid);
+    }
+
+    .faq-topic:hover,
+    .faq-topic[aria-current] {
+        background-color: var(--ds-fill-2);
+        color: var(--ds-ink);
+    }
+
+    .faq-topic[aria-current] {
+        font-weight: 600;
+    }
+
+    li[hidden] {
+        display: none;
+    }
+
+    .faq-chips {
+        display: flex;
+        gap: 0.5rem;
+        margin: 0 calc(-1 * var(--ds-gutter)) 2.5rem;
+        padding: 0 var(--ds-gutter) 0.25rem;
+        overflow-x: auto;
+        list-style: none;
+        scrollbar-width: none;
+    }
+
+    .faq-chips::-webkit-scrollbar {
+        display: none;
+    }
+
+    @media (min-width: 64rem) {
+        .faq-chips {
+            display: none;
+        }
+    }
+
+    .faq-chip {
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 999px;
+        background-color: var(--ds-canvas-2);
+        box-shadow: inset 0 0 0 1px var(--ds-hairline);
+        padding: 0.3rem 0.9rem 0.3rem 0.3rem;
+        font-size: 0.875rem;
+        font-weight: 600;
+        white-space: nowrap;
+        color: var(--ds-ink);
+    }
+
+    .faq-empty {
+        border-radius: var(--radius-card);
+        background-color: var(--ds-canvas-2);
+        padding: 2rem 1.5rem;
+        text-align: center;
+    }
+</style>

@@ -1,0 +1,100 @@
+---
+import { ChevronRight } from "lucide-react";
+import { localePath } from "@/i18n/index.ts";
+import type { Translation } from "@/i18n";
+import { formatLongDate } from "@/lib/intl-locale";
+import { coverAt, coverSrcset, readingMinutes } from "@/lib/blog-article";
+
+/*
+ * A post as the blog lists it: the cover, then when and how long, the title and its first lines.
+ * `featured` is the newest post's wide tile — the photo on one side, the title at display size on
+ * the other — that opens the blog.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+    post: { slug: string; body: string; data: { title: string; description: string; date: string; cover?: string } };
+    featured?: boolean;
+}
+
+const { t, lang, post, featured = false } = Astro.props;
+const href = localePath(lang, `/blog/${post.slug}`);
+const meta = `${formatLongDate(lang, post.data.date)} · ${t.blogPage.readingTime.replace("{n}", String(readingMinutes(post.body)))}`;
+const cover = post.data.cover;
+---
+
+{
+    featured ? (
+        <a href={href} class="ds-tile ds-tile--link group grid lg:grid-cols-[1.3fr_1fr]">
+            <div class="blog-cover aspect-[16/10] lg:aspect-auto lg:min-h-[25rem]">
+                {cover && (
+                    <img
+                        src={coverAt(cover, 1200)}
+                        srcset={coverSrcset(cover, [640, 960, 1400])}
+                        sizes="(min-width: 64rem) 42rem, 100vw"
+                        alt=""
+                        fetchpriority="high"
+                        decoding="async"
+                    />
+                )}
+            </div>
+            <div class="flex flex-col justify-center gap-4 p-7 sm:p-10">
+                <p class="type-callout font-semibold text-brand-ink">{t.blogPage.latest}</p>
+                <h2 class="type-title-1 text-balance font-semibold text-ink">{post.data.title}</h2>
+                <p class="type-body line-clamp-3 text-ink-2">{post.data.description}</p>
+                <p class="type-footnote text-ink-3">{meta}</p>
+                <span class="ds-link mt-1 type-callout">
+                    {t.blogPage.readArticle}
+                    <ChevronRight />
+                </span>
+            </div>
+        </a>
+    ) : (
+        <a href={href} class="ds-tile ds-tile--link group flex h-full flex-col">
+            <div class="blog-cover aspect-[16/10]">
+                {cover && (
+                    <img
+                        src={coverAt(cover, 800)}
+                        srcset={coverSrcset(cover, [480, 800, 1200])}
+                        sizes="(min-width: 64rem) 24rem, (min-width: 40rem) 50vw, 100vw"
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
+                    />
+                )}
+            </div>
+            <div class="flex flex-1 flex-col gap-2.5 p-6">
+                <p class="type-footnote text-ink-3">{meta}</p>
+                <h3 class="type-title-3 line-clamp-3 text-balance font-semibold text-ink">{post.data.title}</h3>
+                <p class="type-footnote line-clamp-2 text-ink-2">{post.data.description}</p>
+            </div>
+        </a>
+    )
+}
+
+<style>
+    .blog-cover {
+        position: relative;
+        overflow: hidden;
+        background-color: var(--ds-fill-2);
+    }
+
+    .blog-cover img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: scale 900ms var(--ease-spring);
+    }
+
+    .group:hover .blog-cover img {
+        scale: 1.04;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .blog-cover img {
+            transition: none;
+        }
+    }
+</style>

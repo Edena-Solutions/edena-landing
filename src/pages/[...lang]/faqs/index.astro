@@ -1,12 +1,19 @@
 ---
-import { translations, localeStaticPaths } from "@/i18n/index.ts";
-
-import Layout from "@/layouts/main.astro";
-import FAQs from "@/modules/faqs/FAQs.astro";
-import Hero from "@/modules/faqs/Hero.astro";
-import GSAPSection from "@/components/ui/gsap-section";
-import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getEntry } from "astro:content";
+import { translations, localeStaticPaths } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import PageHero from "@/modules/product/PageHero.astro";
+import SearchField from "@/components/ds/SearchField.astro";
+import FaqBrowser from "@/modules/faqs/FaqBrowser.astro";
+import StillQuestions from "@/modules/faqs/StillQuestions.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+
+/*
+ * The questions people ask before they choose Edena, in the home's design: a search field under the
+ * title, the questions by topic, and a way to ask ours when the answer is not here.
+ */
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -16,21 +23,22 @@ const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 
 const faqEntry = await getEntry("faqs", "faqspage");
+const faqs = faqEntry?.data.faqs ?? [];
 ---
 
-<Layout content={{ title: t.meta.faqsTitle, description: t.meta.faqsDescription }} lang={lang}>
-    <GSAPSection client:load className="grid gap-16 px-4" animationType="opacity">
-        <Hero t={t} />
-        <FAQs t={t} />
-    </GSAPSection>
+<Layout content={{ title: t.meta.faqsTitle, description: t.meta.faqsDescription }} lang={lang} design="premium">
+    <HomeMotion />
+    <PageHero eyebrow={t.navigation.faqs} title={t.faqs.title} description={t.faqs.description}>
+        <div class="ds-intro mt-10 w-full max-w-xl" style="--intro-i: 2">
+            <SearchField placeholder={t.faqsPage.searchPlaceholder} clearLabel={t.faqsPage.clearSearch} />
+        </div>
+    </PageHero>
+    <FaqBrowser t={t} faqs={faqs} />
+    <StillQuestions t={t} lang={lang} />
+    <ClosingCta lang={lang} />
 </Layout>
 {
-    faqEntry?.data.faqs && (
-        <FAQPageSchema
-            slot="structured-data"
-            faqs={faqEntry.data.faqs}
-            translations={t.faqs}
-            lang={lang}
-        />
+    faqs.length > 0 && (
+        <FAQPageSchema slot="structured-data" faqs={faqs} translations={t.faqs} lang={lang} />
     )
 }
