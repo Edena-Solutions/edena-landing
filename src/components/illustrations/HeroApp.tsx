@@ -4,7 +4,7 @@ import { EnaClover } from "@/components/wizard/app-frame";
 import { GlassOrbs, GlassPane, SceneContent, STAGE, type Orb } from "@/components/wizard/glass-stage";
 import { percent } from "@/components/wizard/scene-kit";
 import { KEY_FEATURE_SCENES, type KeyFeatureLabels } from "@/modules/home/KeyFeaturesScenes";
-import { STUDENT_DURATION, StudentScene } from "@/modules/home/StudentScene";
+import { STUDENT_DURATION, STUDENT_NARROW, StudentScene, StudentSceneNarrow } from "@/modules/home/StudentScene";
 import { cn } from "@/lib/utils";
 
 /*
@@ -12,13 +12,14 @@ import { cn } from "@/lib/utils";
  * windows. In front, a student's record comes to life on load (her month fills in, a note is
  * written, attendance is taken and today lands); behind it, turned towards it, enrolments and the
  * control panel rest at their finished frames — the front pane's frost hides what lies behind it,
- * so the depth reads without a filter. Two glass widgets settle over the edges, and faint lights
- * drift behind it all.
+ * so the depth reads without a filter. Two glass widgets settle over the edges, clear of the foot
+ * of the tile that cuts the front pane, and faint lights drift behind it all.
  *
  * Two compositions, chosen by the artboard's width (CSS in `HeroScene.astro`): wide, the panes
- * side by side on a 75 × 38 em board; narrow (a phone), the front pane fills the width and the two
- * behind it stack above it, like a pile of cards, on a 36 × 38.5 em board. Each element carries both
- * placements as custom properties (`--x --y --s` wide, `--mx --my --ms` narrow), in board em.
+ * side by side on a 75 × 38 em board, each element placed by custom properties (`--x --y --s`, in
+ * board em); narrow (a phone), one tall pane on a board of its own — the record laid out in a single
+ * column (`StudentSceneNarrow`) at a size a phone can read, nothing behind it but the lights. The
+ * same clock plays both.
  *
  * One focal point, long expo-out entrances over small distances, no overshoot. The record plays once
  * (under six seconds) and holds. Its markup is the finished frame, for a crawler and for a reader
@@ -41,9 +42,9 @@ const ORBS: Orb[] = [
     { x: 50, y: 1, size: 24, color: "#14b8a6" },
 ];
 const NARROW_ORBS: Orb[] = [
-    { x: -3, y: 1, size: 17, color: "#a3e635" },
-    { x: 13, y: 17, size: 19, color: "#22c55e" },
-    { x: 21, y: -1, size: 16, color: "#14b8a6" },
+    { x: -4, y: -2, size: 12, color: "#a3e635" },
+    { x: 6, y: 12, size: 13, color: "#22c55e" },
+    { x: 10, y: -3, size: 11, color: "#14b8a6" },
 ];
 
 export interface HeroAppLabels {
@@ -62,40 +63,32 @@ const RINGS = [
 /** Where an element stands, in board em, and at what scale: `[x, y, scale]`. */
 type Place = [number, number, number];
 
-/** Both placements as custom properties; `.hero-placed` reads the one for the board's width. */
-function placed(wide: Place, narrow?: Place): CSSProperties {
-    const [mx, my, ms] = narrow ?? wide;
-    return { "--x": wide[0], "--y": wide[1], "--s": wide[2], "--mx": mx, "--my": my, "--ms": ms } as CSSProperties;
+/** The placement as custom properties, which `.hero-placed` reads. */
+function placed([x, y, scale]: Place): CSSProperties {
+    return { "--x": x, "--y": y, "--s": scale } as CSSProperties;
 }
 
-/** A pane: the scenes' board (33 × 23.6 of its own em), placed and scaled. */
-function Pane({ wide, narrow, className, children }: { wide: Place; narrow: Place; className: string; children: ReactNode }) {
+/** A pane: the scenes' board (33 × 23.6 of its own em), placed and scaled. Wide only. */
+function Pane({ at, className, children }: { at: Place; className: string; children: ReactNode }) {
     return (
-        <div className={cn("hero-placed", className)} style={{ ...placed(wide, narrow), width: `${STAGE.cols}em`, height: `${STAGE.rows}em` }}>
+        <div className={cn("hero-placed hero-wide-only", className)} style={{ ...placed(at), width: `${STAGE.cols}em`, height: `${STAGE.rows}em` }}>
             {children}
         </div>
     );
 }
 
-/**
- * A widget, `w` × `h` of its own em (`narrowW` wide on a phone); without a `narrow` placement it is
- * left out on a phone.
- */
+/** A widget, `w` × `h` of its own em, over the panes' edges. Wide only. */
 function Widget({
-    wide,
-    narrow,
+    at,
     w,
-    narrowW = w,
     h,
     i,
     from,
     className,
     children,
 }: {
-    wide: Place;
-    narrow?: Place;
+    at: Place;
     w: number;
-    narrowW?: number;
     h?: number;
     i: number;
     from: [number, number];
@@ -104,12 +97,11 @@ function Widget({
 }) {
     return (
         <div
-            className={cn("hero-placed hero-widget ds-glass p-[1em]", !narrow && "hero-wide-only", className)}
+            className={cn("hero-placed hero-widget hero-wide-only ds-glass p-[1em]", className)}
             style={
                 {
-                    ...placed(wide, narrow),
+                    ...placed(at),
                     "--w": w,
-                    "--mw": narrowW,
                     height: h === undefined ? undefined : `${h}em`,
                     "--i": i,
                     "--fx": `${from[0]}em`,
@@ -124,6 +116,7 @@ function Widget({
 
 const BACK = 1.02;
 const FRONT = 1.5;
+const { glass: GLASS_N, content: CONTENT_N } = STUDENT_NARROW;
 
 export default function HeroApp({ labels, locale }: { labels: HeroAppLabels; locale: string }) {
     const { scene } = labels;
@@ -156,21 +149,21 @@ export default function HeroApp({ labels, locale }: { labels: HeroAppLabels; loc
             <GlassOrbs orbs={ORBS} className="hero-wide-only" />
             <GlassOrbs orbs={NARROW_ORBS} className="hero-narrow-only" />
 
-            {/* Behind, turned towards the front pane: they show only past its sides (on a phone, above it). */}
-            <Pane wide={[1.5, 7.5, BACK]} narrow={[4.14, 0.9, 0.84]} className="hero-back hero-back--left">
+            {/* Behind, turned towards the front pane: they show only past its sides. */}
+            <Pane at={[1.5, 7.5, BACK]} className="hero-back hero-back--left">
                 <GlassPane orbs={false} />
                 <SceneContent>
                     <Enrolments t={Number.POSITIVE_INFINITY} labels={scene} locale={locale} />
                 </SceneContent>
             </Pane>
-            <Pane wide={[75 - 1.5 - STAGE.cols * BACK, 7.5, BACK]} narrow={[2.82, 3.1, 0.92]} className="hero-back hero-back--right">
+            <Pane at={[75 - 1.5 - STAGE.cols * BACK, 7.5, BACK]} className="hero-back hero-back--right">
                 <GlassPane orbs={false} />
                 <SceneContent>
                     <Dashboard t={Number.POSITIVE_INFINITY} labels={scene} locale={locale} />
                 </SceneContent>
             </Pane>
 
-            <Pane wide={[(75 - STAGE.cols * FRONT) / 2, 1.2, FRONT]} narrow={[1.5, 5.6, 1]} className="hero-front">
+            <Pane at={[(75 - STAGE.cols * FRONT) / 2, 1.2, FRONT]} className="hero-front">
                 <GlassPane orbs={false} className="hero-front-glass" />
                 <div className="hero-content" data-live={live ? "" : undefined}>
                     <SceneContent>
@@ -179,7 +172,26 @@ export default function HeroApp({ labels, locale }: { labels: HeroAppLabels; loc
                 </div>
             </Pane>
 
-            <Widget wide={[0.9, 26.4, 1]} narrow={[1.5, 27.2, 1]} w={14} narrowW={18} i={0} from={[-2, 1.5]} className="flex flex-col gap-[0.75em]">
+            {/* A phone: the record alone, in one column, on a tall pane. */}
+            <div
+                className="hero-front hero-narrow-only absolute left-0 top-0"
+                style={{ width: `${STUDENT_NARROW.board.cols}em`, height: `${STUDENT_NARROW.board.rows}em` }}
+            >
+                <div
+                    className="hero-front-glass ds-glass absolute"
+                    style={{ left: `${GLASS_N.x}em`, top: `${GLASS_N.y}em`, width: `${GLASS_N.w}em`, height: `${GLASS_N.h}em` }}
+                />
+                <div className="hero-content" data-live={live ? "" : undefined}>
+                    <div
+                        className="absolute overflow-hidden"
+                        style={{ left: `${CONTENT_N.x}em`, top: `${CONTENT_N.y}em`, width: `${CONTENT_N.w}em`, height: `${CONTENT_N.h}em` }}
+                    >
+                        <StudentSceneNarrow t={t} ui={scene.ui} locale={locale} />
+                    </div>
+                </div>
+            </div>
+
+            <Widget at={[0.9, 19, 1]} w={14} i={0} from={[-2, 1.5]} className="flex flex-col gap-[0.75em]">
                 <span className="flex items-center gap-[0.5em]">
                     <EnaClover size={1.6} alive delay="-3s" />
                     <span className="text-[0.82em] font-semibold">Ena</span>
@@ -197,7 +209,7 @@ export default function HeroApp({ labels, locale }: { labels: HeroAppLabels; loc
                 </span>
             </Widget>
 
-            <Widget wide={[61.8, 2.4, 1]} narrow={[36 - 1.5 - 12.8, 28.4, 1]} w={12.8} h={7.6} i={1} from={[2, -1.5]} className="flex items-center gap-[0.8em]">
+            <Widget at={[61.8, 2.4, 1]} w={12.8} h={7.6} i={1} from={[2, -1.5]} className="flex items-center gap-[0.8em]">
                 <svg viewBox="0 0 100 100" className="size-[4.2em] shrink-0 -rotate-90">
                     {RINGS.map((ring, index) => (
                         <g key={ring.r}>

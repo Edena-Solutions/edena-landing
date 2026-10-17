@@ -11,7 +11,8 @@ import { DrawnCheck, Ripple, Title } from "./KeyFeaturesScenes";
  * a note about her is written; then attendance is taken and today lands, present.
  *
  * Written in the content box's coordinates (30.2 × 20.6 em, `glass-stage.tsx`). A pure function
- * of `t`; `Infinity` is its finished frame.
+ * of `t`; `Infinity` is its finished frame. `StudentSceneNarrow` is the same record and the same
+ * story laid out for a phone: one column on a tall pane of its own (`STUDENT_NARROW`).
  */
 
 const LEFT = { x: 0, w: 19.6 };
@@ -55,11 +56,110 @@ function Portrait() {
     );
 }
 
+/** Where the story is at `t`: the button pressed, the note so far, the month's rate. */
+function frame(t: number, ui: Translation["homeScenes"]) {
+    return {
+        pressed: t >= PRESS_AT && t < PRESS_AT + 220,
+        comment: typed(ui.studentComment, t, COMMENT_AT, 32),
+        rate: 94.7 * easeOut(span(t, FILL_AT, 1500)) + 0.3 * easeOut(span(t, MARK_AT, 500)),
+    };
+}
+
+/** "Take attendance": it dips and rings when pressed. */
+function TakeAttendance({ t, label, pressed }: { t: number; label: string; pressed: boolean }) {
+    return (
+        <Pop show={on(t, 420)} from="scale">
+            <span
+                className={cn(
+                    "flex h-[1.7em] items-center rounded-full bg-ink px-[0.9em] text-canvas transition-[scale,box-shadow] duration-300",
+                    pressed && "scale-95 shadow-[0_0_0_0.3em_rgb(34_197_94/0.3)]",
+                )}
+            >
+                <span className="whitespace-nowrap text-[0.5em] font-semibold">{label}</span>
+            </span>
+        </Pop>
+    );
+}
+
+/** Active, and — once attendance is taken — present, its tick drawing itself. */
+function StatusBadges({ t, ui }: { t: number; ui: Translation["homeScenes"] }) {
+    return (
+        <>
+            <Pop show={on(t, 560)} from="scale" className="h-full">
+                <span className="flex h-full items-center rounded-full bg-green-100 px-[0.6em] text-green-700 dark:bg-green-500/15 dark:text-green-400">
+                    <span className="text-[0.48em] font-semibold">{ui.active}</span>
+                </span>
+            </Pop>
+            <Pop show={on(t, MARK_AT + 150)} from="scale" className="h-full">
+                <span className="flex h-full items-center gap-[0.25em] rounded-full bg-sky-100 pl-[0.25em] pr-[0.6em] text-sky-700 dark:bg-sky-500/15 dark:text-sky-300">
+                    <span className="size-[0.75em]">
+                        <DrawnCheck p={span(t, MARK_AT + 250, 450)} className="size-full" />
+                    </span>
+                    <span className="text-[0.48em] font-semibold">{ui.presentOne}</span>
+                </span>
+            </Pop>
+        </>
+    );
+}
+
+function NameAndBirthday({ t, locale }: { t: number; locale: string }) {
+    return (
+        <Pop show={on(t, 640)} className="flex flex-col gap-[0.45em]">
+            <span className="truncate text-[0.62em] font-bold uppercase tracking-[0.06em]">Lucía García López</span>
+            <span className="flex items-center gap-[0.35em] text-ink-2">
+                <Cake className="size-[0.62em]" />
+                <span className="text-[0.5em] tabular-nums">{shortDate(locale, new Date(2018, 5, 2))}</span>
+            </span>
+        </Pop>
+    );
+}
+
+/** The note, typed as the scene plays. */
+function Note({ t, comment }: { t: number; comment: ReturnType<typeof typed> }) {
+    return (
+        <Pop show={on(t, COMMENT_AT - 250)} className="flex h-full flex-col justify-center gap-[0.5em] rounded-[0.6em] bg-fill px-[0.8em]">
+            <span className="text-[0.56em] leading-none">
+                {comment.text}
+                {comment.typing && <span className="ml-[0.1em] inline-block h-[1em] w-[0.1em] translate-y-[0.15em] bg-brand" />}
+            </span>
+            <span className="flex items-center gap-[0.35em] text-ink-3">
+                <Clock className="size-[0.5em]" />
+                <Line w={4.2} className="h-[0.24em]" />
+            </span>
+        </Pop>
+    );
+}
+
+/** The month, day by day, `cols` to a row from `x`, `y`; today lands when attendance is taken. */
+function Month({ t, x, y, cols, step, rowStep }: { t: number; x: number; y: number; cols: number; step: number; rowStep: number }) {
+    return (
+        <>
+            {Array.from({ length: DAYS }, (_, index) => {
+                const today = index === DAYS - 1;
+                const at = today ? MARK_AT : FILL_AT + index * PER_DAY;
+                return (
+                    <At key={index} x={x + (index % cols) * step} y={y + Math.floor(index / cols) * rowStep} w={0.95} h={0.95}>
+                        <span className="relative block size-full rounded-full bg-fill-2">
+                            <Pop
+                                show={on(t, at)}
+                                from="scale"
+                                className={cn(
+                                    "absolute inset-0 rounded-full",
+                                    index === ABSENT ? "bg-orange-400/80" : "bg-green-500/60",
+                                    today && "bg-green-500 shadow-[0_0_0_0.2em_rgb(34_197_94/0.18)]",
+                                )}
+                            />
+                            {today && <Ripple p={span(t, MARK_AT, 900)} className="text-green-500" />}
+                        </span>
+                    </At>
+                );
+            })}
+        </>
+    );
+}
+
 export function StudentScene({ t, ui, locale }: Props) {
-    const pressed = t >= PRESS_AT && t < PRESS_AT + 220;
-    const marked = on(t, MARK_AT);
-    const comment = typed(ui.studentComment, t, COMMENT_AT, 32);
-    const rate = 94.7 * easeOut(span(t, FILL_AT, 1500)) + 0.3 * easeOut(span(t, MARK_AT, 500));
+    const { pressed, comment, rate } = frame(t, ui);
 
     return (
         <>
@@ -73,16 +173,7 @@ export function StudentScene({ t, ui, locale }: Props) {
                                 </span>
                             </Pop>
                         ))}
-                        <Pop show={on(t, 420)} from="scale">
-                            <span
-                                className={cn(
-                                    "flex h-[1.7em] items-center rounded-full bg-ink px-[0.9em] text-canvas transition-[scale,box-shadow] duration-300",
-                                    pressed && "scale-95 shadow-[0_0_0_0.3em_rgb(34_197_94/0.3)]",
-                                )}
-                            >
-                                <span className="whitespace-nowrap text-[0.5em] font-semibold">{ui.takeAttendance}</span>
-                            </span>
-                        </Pop>
+                        <TakeAttendance t={t} label={ui.takeAttendance} pressed={pressed} />
                     </>
                 }
             >
@@ -118,28 +209,10 @@ export function StudentScene({ t, ui, locale }: Props) {
                 </Pop>
             </At>
             <At x={5.5} y={5.5} w={13.4} h={1.15} className="flex items-center gap-[0.35em]">
-                <Pop show={on(t, 560)} from="scale" className="h-full">
-                    <span className="flex h-full items-center rounded-full bg-green-100 px-[0.6em] text-green-700 dark:bg-green-500/15 dark:text-green-400">
-                        <span className="text-[0.48em] font-semibold">{ui.active}</span>
-                    </span>
-                </Pop>
-                <Pop show={on(t, MARK_AT + 150)} from="scale" className="h-full">
-                    <span className="flex h-full items-center gap-[0.25em] rounded-full bg-sky-100 pl-[0.25em] pr-[0.6em] text-sky-700 dark:bg-sky-500/15 dark:text-sky-300">
-                        <span className="size-[0.75em]">
-                            <DrawnCheck p={span(t, MARK_AT + 250, 450)} className="size-full" />
-                        </span>
-                        <span className="text-[0.48em] font-semibold">{ui.presentOne}</span>
-                    </span>
-                </Pop>
+                <StatusBadges t={t} ui={ui} />
             </At>
             <At x={5.5} y={6.95} w={13.4}>
-                <Pop show={on(t, 640)} className="flex flex-col gap-[0.45em]">
-                    <span className="truncate text-[0.62em] font-bold uppercase tracking-[0.06em]">Lucía García López</span>
-                    <span className="flex items-center gap-[0.35em] text-ink-2">
-                        <Cake className="size-[0.62em]" />
-                        <span className="text-[0.5em] tabular-nums">{shortDate(locale, new Date(2018, 5, 2))}</span>
-                    </span>
-                </Pop>
+                <NameAndBirthday t={t} locale={locale} />
             </At>
 
             {/* Where she is: level, year, classroom. */}
@@ -165,16 +238,7 @@ export function StudentScene({ t, ui, locale }: Props) {
                 </span>
             </At>
             <At x={0.9} y={17.65} w={17.8} h={2.3}>
-                <Pop show={on(t, COMMENT_AT - 250)} className="flex h-full flex-col justify-center gap-[0.5em] rounded-[0.6em] bg-fill px-[0.8em]">
-                    <span className="text-[0.56em] leading-none">
-                        {comment.text}
-                        {comment.typing && <span className="ml-[0.1em] inline-block h-[1em] w-[0.1em] translate-y-[0.15em] bg-brand" />}
-                    </span>
-                    <span className="flex items-center gap-[0.35em] text-ink-3">
-                        <Clock className="size-[0.5em]" />
-                        <Line w={4.2} className="h-[0.24em]" />
-                    </span>
-                </Pop>
+                <Note t={t} comment={comment} />
             </At>
 
             {/* Her tutor. */}
@@ -200,26 +264,99 @@ export function StudentScene({ t, ui, locale }: Props) {
             <At x={21.1} y={11.3} w={8.2}>
                 <span className="block text-[1.25em] font-light leading-none tabular-nums tracking-[-0.03em]">{percent(locale, rate, 1)}</span>
             </At>
-            {Array.from({ length: DAYS }, (_, index) => {
-                const today = index === DAYS - 1;
-                const at = today ? MARK_AT : FILL_AT + index * PER_DAY;
-                return (
-                    <At key={index} x={21.35 + (index % 5) * 1.62} y={13.9 + Math.floor(index / 5) * 1.5} w={0.95} h={0.95}>
-                        <span className="relative block size-full rounded-full bg-fill-2">
-                            <Pop
-                                show={on(t, at)}
-                                from="scale"
-                                className={cn(
-                                    "absolute inset-0 rounded-full",
-                                    index === ABSENT ? "bg-orange-400/80" : "bg-green-500/60",
-                                    today && "bg-green-500 shadow-[0_0_0_0.2em_rgb(34_197_94/0.18)]",
-                                )}
-                            />
-                            {today && <Ripple p={span(t, MARK_AT, 900)} className="text-green-500" />}
+            <Month t={t} x={21.35} y={13.9} cols={5} step={1.62} rowStep={1.5} />
+        </>
+    );
+}
+
+/**
+ * The record on a phone: a tall pane of its own, one column, so it reads at a phone's width — her
+ * name, her record, her month with the button that takes today's attendance, and the note. Board
+ * and content in em, as `glass-stage.tsx` draws them; the hero's tile cuts it below the note.
+ */
+export const STUDENT_NARROW = {
+    board: { cols: 18.4, rows: 26.3 },
+    glass: { x: 0.5, y: 0.5, w: 17.4, h: 25.3 },
+    content: { x: 1.4, y: 1.5, w: 15.6, h: 23.4 },
+};
+
+const N = STUDENT_NARROW.content.w;
+
+export function StudentSceneNarrow({ t, ui, locale }: Props) {
+    const { pressed, comment, rate } = frame(t, ui);
+
+    return (
+        <>
+            <At x={0} y={0} w={N} h={1.9} className="flex items-center gap-[0.6em]">
+                <span className="flex size-[1.5em] shrink-0 items-center justify-center rounded-[0.45em] ds-glass-inner">
+                    <ArrowLeft className="size-[0.68em] text-ink-2" />
+                </span>
+                <span className="truncate text-[0.95em] font-semibold tracking-[-0.02em]">Lucía García López</span>
+                <span className="ml-auto flex items-center gap-[0.45em]">
+                    {TOOLS.slice(0, 2).map((Icon, index) => (
+                        <Pop key={index} show={on(t, 160 + index * 60)} from="scale">
+                            <span className="flex size-[1.55em] items-center justify-center rounded-[0.45em] ds-glass-inner">
+                                <Icon className="size-[0.7em] text-ink-2" />
+                            </span>
+                        </Pop>
+                    ))}
+                </span>
+            </At>
+
+            <At x={0} y={2.45} w={N} h={1.55}>
+                <Pop show={on(t, 120)} from="blur" className="flex h-full w-fit max-w-full items-center rounded-full bg-fill p-[0.15em]">
+                    {ui.studentTabs.slice(0, 3).map((tab, index) => (
+                        <span
+                            key={tab}
+                            className={cn(
+                                "flex h-full min-w-0 items-center rounded-full px-[0.65em]",
+                                index === 0 ? "bg-surface text-ink elev-1" : "text-ink-3",
+                            )}
+                        >
+                            <span className="truncate text-[0.46em] font-medium">{tab}</span>
                         </span>
-                    </At>
-                );
-            })}
+                    ))}
+                </Pop>
+            </At>
+
+            {/* Her record. */}
+            <Card x={0} y={4.6} w={N} h={5.6} show={on(t, 200)} />
+            <At x={0.9} y={5.5} w={3.8} h={3.8}>
+                <Pop show={on(t, 420)} from="scale" className="size-full">
+                    <Portrait />
+                </Pop>
+            </At>
+            <At x={5.5} y={5.5} w={9.2} h={1.15} className="flex items-center gap-[0.35em]">
+                <StatusBadges t={t} ui={ui} />
+            </At>
+            <At x={5.5} y={6.95} w={9.2}>
+                <NameAndBirthday t={t} locale={locale} />
+            </At>
+
+            {/* Her month, and the button that takes today's attendance. */}
+            <Card x={0} y={10.8} w={N} h={6.9} show={on(t, 300)} />
+            <At x={0.9} y={11.45} w={7}>
+                <span className={SECTION}>{ui.studentTabs[1]}</span>
+            </At>
+            <At x={0.9} y={12.45} w={7}>
+                <span className="block text-[1.25em] font-light leading-none tabular-nums tracking-[-0.03em]">{percent(locale, rate, 1)}</span>
+            </At>
+            <At x={0.9} y={11.35} w={N - 1.8} h={1.7} className="flex justify-end">
+                <TakeAttendance t={t} label={ui.takeAttendance} pressed={pressed} />
+            </At>
+            <Month t={t} x={0.93} y={14.35} cols={10} step={1.42} rowStep={1.4} />
+
+            {/* The note. */}
+            <Card x={0} y={18.3} w={N} h={5} show={on(t, 400)} />
+            <At x={0.9} y={18.95} w={N - 1.8} className="flex items-center justify-between">
+                <span className={SECTION}>{ui.comments}</span>
+                <span className="flex size-[1.2em] items-center justify-center rounded-[0.35em] bg-fill">
+                    <Plus className="size-[0.6em] text-ink-2" />
+                </span>
+            </At>
+            <At x={0.9} y={20.35} w={N - 1.8} h={2.3}>
+                <Note t={t} comment={comment} />
+            </At>
         </>
     );
 }

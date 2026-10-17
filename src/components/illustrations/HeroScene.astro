@@ -6,9 +6,9 @@ import HeroApp from "@/components/illustrations/HeroApp";
 /*
  * The hero's illustration (see `HeroApp`): three panes of glass in depth — a student's record
  * coming to life in front, enrolments and the control panel turned towards it behind — and glass
- * widgets over the edges. Wide, a 75 × 38 em artboard; under 640px (a phone) its own composition on
- * a 36 × 38.5 em one, the panes stacked rather than side by side, so nothing is cropped.
- * Decorative: the copy around it says what it shows.
+ * widgets over the edges, on a 75 × 38 em artboard. Under 640px (a phone) its own composition: the
+ * record alone, in one column, on an 18.4 × 26.3 em board (`STUDENT_NARROW`), so it reads at a
+ * phone's width. Decorative: the copy around it says what it shows.
  *
  * `client:load`: it is above the fold, and the record plays as the page opens. The scroll settle
  * (`data-settle`) is on a wrapper here, outside the island, so GSAP never touches React's markup.
@@ -123,22 +123,11 @@ const items = t.wallOfFeatures.items;
             0 2.4em 5em -2em rgb(0 0 0 / 0.6);
     }
 
-    /* A phone: a narrower board, the front pane across it, and the two behind it stacked above it
-       — straight, smaller, quieter the further back — like a pile of cards. */
+    /* A phone: the record alone, on the board of its tall pane. */
     @container (max-width: 639px) {
         .hero-scene > .ds-artboard {
-            --ds-art-width: 36;
-            height: 38.5em;
-        }
-
-        .hero-scene .hero-widget {
-            width: calc(var(--mw) * 1em);
-        }
-
-        .hero-scene .hero-placed {
-            font-size: calc(var(--ms) * 1em);
-            left: calc(var(--mx) / var(--ms) * 1em);
-            top: calc(var(--my) / var(--ms) * 1em);
+            --ds-art-width: 18.4;
+            height: 26.3em;
         }
 
         .hero-scene .hero-wide-only {
@@ -147,21 +136,6 @@ const items = t.wallOfFeatures.items;
 
         .hero-scene .hero-narrow-only {
             display: block;
-        }
-
-        .hero-scene .hero-back--left,
-        .hero-scene .hero-back--right {
-            --rest: translate3d(0, 0, 0);
-            --slide: 0em;
-            --rise: 2.4em;
-        }
-
-        .hero-scene .hero-back--left > .ds-glass + * {
-            opacity: 0.55;
-        }
-
-        .hero-scene .hero-back--right > .ds-glass + * {
-            opacity: 0.8;
         }
     }
 
@@ -215,7 +189,7 @@ const items = t.wallOfFeatures.items;
 
     @keyframes hero-back {
         from {
-            transform: var(--rest) translate3d(var(--slide), var(--rise, 0em), -4em);
+            transform: var(--rest) translate3d(var(--slide), 0, -4em);
         }
     }
 
