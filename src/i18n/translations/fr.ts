@@ -612,10 +612,9 @@ export default {
         blogDescription: "Guides pratiques sur la gestion scolaire, Verifactu, les paiements, les inscriptions, la communication avec les familles et l'IA pour écoles et académies.",
     },
     hero: {
-        mainTitle:
-            "Le logiciel de gestion scolaire qui supprime la paperasse et automatise les encaissements",
+        mainTitle: "Le logiciel de gestion scolaire pour les encaissements, les dossiers et les familles",
         mainDescription:
-            "Logiciel de gestion scolaire avec facturation Verifactu, dossiers, présences et communication avec les familles. Plus de 37 heures gagnées par semaine, sans engagement.",
+            "Facturation Verifactu et présences, dans un seul système. Plus de 37 heures gagnées par semaine, sans engagement.",
         mobileTitle: "Restez proches de chaque famille, sans effort supplémentaire",
         mobileDescription:
             "Notifications push, photos sécurisées et mises à jour en temps réel, le tout dans l’app gratuite Edena. Les familles restent informées sans charge supplémentaire pour votre équipe.",

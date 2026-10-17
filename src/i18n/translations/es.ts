@@ -612,9 +612,9 @@ export default {
         blogDescription: "Guías prácticas sobre gestión escolar, Verifactu, cobros, matrículas, comunicación con familias e IA para colegios, escuelas infantiles y academias.",
     },
     hero: {
-        mainTitle: "El software de gestión escolar que elimina el papeleo y automatiza los cobros",
+        mainTitle: "El software de gestión escolar para cobros, expedientes y familias",
         mainDescription:
-            "Software de gestión escolar con facturación Verifactu, expedientes, asistencia y comunicación con familias. Más de 37 horas ahorradas cada semana, sin permanencia.",
+            "Facturación Verifactu y asistencia, en un solo sistema. Más de 37 horas ahorradas cada semana, sin permanencia.",
         mobileTitle: "Conecta con cada familia, sin esfuerzo extra",
         mobileDescription:
             "Notificaciones al móvil, fotos seguras y actualizaciones en tiempo real, todo en la app gratuita de Edena. Las familias se mantienen informadas sin trabajo extra para tu equipo.",

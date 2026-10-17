@@ -612,9 +612,9 @@ export default {
         blogDescription: "Practical guides on school management, Verifactu, payments, admissions, family communication and AI for schools, nurseries and academies.",
     },
     hero: {
-        mainTitle: "The School Management Software That Eliminates Paperwork and Automates Billing",
+        mainTitle: "School management software for billing, student records and families",
         mainDescription:
-            "School management software with Verifactu billing, student records, attendance and family communication. Over 37 hours saved each week, with no long-term contract.",
+            "Verifactu billing and attendance, in one system. Over 37 hours saved each week, with no long-term contract.",
         mobileTitle: "Stay Connected to Every Family, Effortlessly",
         mobileDescription:
             "Push notifications, secure photo sharing, and real-time updates, all in the free Edena app. Families stay engaged without extra work from your team.",

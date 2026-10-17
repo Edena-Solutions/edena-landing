@@ -612,10 +612,9 @@ export default {
         blogDescription: "Guies pràctiques sobre gestió escolar, Verifactu, cobraments, matrícules, comunicació amb famílies i IA per a col·legis, escoles bressol i acadèmies.",
     },
     hero: {
-        mainTitle:
-            "El programari de gestió escolar que elimina la paperassa i automatitza els cobraments",
+        mainTitle: "El programari de gestió escolar per a cobraments, expedients i famílies",
         mainDescription:
-            "Programari de gestió escolar amb facturació Verifactu, expedients, assistència i comunicació amb famílies. Més de 37 hores estalviades cada setmana, sense permanència.",
+            "Facturació Verifactu i assistència, en un sol sistema. Més de 37 hores estalviades cada setmana, sense permanència.",
         mobileTitle: "Connecta amb cada família, sense esforç extra",
         mobileDescription:
             "Notificacions al mòbil, fotos segures i actualitzacions en temps real, tot a l'app gratuïta d'Edena. Les famílies es mantenen informades sense feina extra per al teu equip.",

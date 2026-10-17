@@ -612,10 +612,9 @@ export default {
         blogDescription: "Gida praktikoak eskola-kudeaketari, Verifactuari, kobrantzei, matrikulei, familiekiko komunikazioari eta IAri buruz ikastetxe eta akademientzat.",
     },
     hero: {
-        mainTitle:
-            "Paper-lana kendu eta kobrantzak automatizatzen dituen eskola-kudeaketa softwarea",
+        mainTitle: "Eskola-kudeaketako softwarea kobrantzetarako, agirietarako eta familientzat",
         mainDescription:
-            "Eskola-kudeaketako softwarea: Verifactu fakturazioa, agiriak, asistentzia eta familien komunikazioa. Astean 37 ordu baino gehiago aurreztuta, iraunkortasunik gabe.",
+            "Verifactu fakturazioa eta asistentzia, sistema bakarrean. Astean 37 ordu baino gehiago aurreztuta, iraunkortasunik gabe.",
         mobileTitle: "Konektatu familia bakoitzarekin, esfortzu gehigarririk gabe",
         mobileDescription:
             "Mugikorreko jakinarazpenak, argazki seguruak eta denbora errealeko eguneraketak, guztia Edena doako aplikazioan. Familiak informatuta mantentzen dira zure taldearentzat lan gehigarririk gabe.",

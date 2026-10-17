@@ -27,7 +27,11 @@ const translatePath = useTranslatedPath(lang);
 <section class="relative isolate -mt-15 overflow-x-clip pt-15">
     <div class="ds-container flex flex-col items-center pt-14 text-center">
         <h1 class="ds-intro type-display-3 max-w-3xl pb-2 text-gradient-ink" style="--intro-i: 0">
-            {t.hero.mainTitle}
+            {
+                t.hero.mainTitle.split("\n").map((line) => (
+                    <span class="block">{line}</span>
+                ))
+            }
         </h1>
         <p class="ds-intro type-body mt-5 max-w-2xl text-ink-2" style="--intro-i: 1">
             {t.hero.mainDescription}
