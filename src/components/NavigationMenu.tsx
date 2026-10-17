@@ -89,7 +89,9 @@ const MenuItemIcon = ({
     iconImage?: { src: string };
 }) => {
     if (iconImage) {
-        return <img src={iconImage.src} alt="" aria-hidden="true" className="size-5 object-contain" />;
+        return (
+            <img src={iconImage.src} alt="" aria-hidden="true" className="size-5 object-contain" />
+        );
     }
 
     if (!Icon) return null;
@@ -148,7 +150,11 @@ const Logo = ({ lang, className }: { lang: string; className?: string }) => {
     const url = lang === "es" ? "/" : `/${lang}/`;
     return (
         <a href={url} className={cn("block shrink-0", className)}>
-            <img src={logo.src} alt={t.altText.logo} className="ds-nav-logo h-5 w-auto dark:invert" />
+            <img
+                src={logo.src}
+                alt={t.altText.logo}
+                className="ds-nav-logo h-5 w-auto dark:invert"
+            />
         </a>
     );
 };
@@ -172,8 +178,9 @@ const MenuButton = ({
                 aria-controls="mobile-nav-menu"
                 aria-label={isOpen ? "Close menu" : "Open menu"}
             >
-                <span className={cn(isOpen && "translate-y-[3.25px] rotate-45")} />
-                <span className={cn(isOpen && "-translate-y-[3.25px] -rotate-45")} />
+                <span />
+                <span />
+                <span />
             </button>
         );
     }
@@ -187,9 +194,24 @@ const MenuButton = ({
             aria-controls="mobile-nav-menu"
             aria-label={isOpen ? "Close menu" : "Open menu"}
         >
-            <span className={cn("block w-6 h-0.5 bg-foreground transition-all", isOpen && "rotate-45 translate-y-2")} />
-            <span className={cn("block w-6 h-0.5 bg-foreground transition-all", isOpen && "opacity-0")} />
-            <span className={cn("block w-6 h-0.5 bg-foreground transition-all", isOpen && "-rotate-45 -translate-y-2")} />
+            <span
+                className={cn(
+                    "block w-6 h-0.5 bg-foreground transition-all",
+                    isOpen && "rotate-45 translate-y-2",
+                )}
+            />
+            <span
+                className={cn(
+                    "block w-6 h-0.5 bg-foreground transition-all",
+                    isOpen && "opacity-0",
+                )}
+            />
+            <span
+                className={cn(
+                    "block w-6 h-0.5 bg-foreground transition-all",
+                    isOpen && "-rotate-45 -translate-y-2",
+                )}
+            />
         </button>
     );
 };
@@ -265,7 +287,9 @@ const ListItem = ({
                                     <span className="ds-nav-item-price">
                                         <span className="ds-nav-item-price-value">{price}</span>
                                         {priceHint && (
-                                            <span className="ds-nav-item-price-unit">{priceHint}</span>
+                                            <span className="ds-nav-item-price-unit">
+                                                {priceHint}
+                                            </span>
                                         )}
                                         <ChevronRight
                                             className="ds-nav-item-chevron"
@@ -394,13 +418,7 @@ const MobileMenuItemLink = ({ item, premium }: { item: MenuItem; premium?: boole
     );
 };
 
-const NavColumn = ({
-    label,
-    items,
-}: {
-    label?: string;
-    items: MenuItem[];
-}) => (
+const NavColumn = ({ label, items }: { label?: string; items: MenuItem[] }) => (
     <section className="ds-nav-col" aria-label={label}>
         {label && (
             <p className="ds-nav-col-label" aria-hidden="true">
@@ -775,6 +793,7 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
         <header
             ref={headerRef}
             className={cn("w-full bg-background fixed h-15 flex items-center z-50", className)}
+            data-menu-open={isMobileMenuOpen ? "" : undefined}
         >
             <div className="container mx-auto px-4 flex h-fit items-center">
                 <div className="flex min-w-0 items-center gap-3 xl:gap-4">
@@ -917,7 +936,10 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
                             <a href={p("/demo")} className="ds-nav-text-link">
                                 {t.bookDemo}
                             </a>
-                            <a href="https://app.edena.es/login" className="ds-btn ds-btn--secondary">
+                            <a
+                                href="https://app.edena.es/login"
+                                className="ds-btn ds-btn--secondary"
+                            >
                                 {t.loginButton}
                             </a>
                             <a
@@ -1014,25 +1036,30 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
                                         </a>
                                     </div>
 
-                                    <div className="ds-nav-group">
-                                        <p className="ds-nav-group-label ds-nav-group-label--center">
-                                            {t.changeWebsiteLanguage}
-                                        </p>
-                                        <LanguageSwitcher currentLang={lang} className="px-2 pb-2" />
-                                        <div className="ds-nav-setting">
-                                            <span className="type-callout text-ink">{t.appearance}</span>
-                                            <ThemeToggle
-                                                labels={t.theme}
-                                                className="rounded-full"
-                                            />
-                                        </div>
-                                    </div>
-
                                     <DownloadAppIcons
                                         lang={lang}
                                         quiet
                                         className="flex flex-col items-center py-3"
                                     />
+
+                                    <div className="ds-nav-group">
+                                        <p className="ds-nav-group-label ds-nav-group-label--center">
+                                            {t.changeWebsiteLanguage}
+                                        </p>
+                                        <LanguageSwitcher
+                                            currentLang={lang}
+                                            className="px-2 pb-2"
+                                        />
+                                        <div className="ds-nav-setting">
+                                            <span className="type-callout text-ink">
+                                                {t.appearance}
+                                            </span>
+                                            <ThemeToggle
+                                                labels={t.theme}
+                                                className="ds-nav-icon-btn rounded-full"
+                                            />
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="ds-nav-sheet-foot">
                                     <div className="flex gap-2">

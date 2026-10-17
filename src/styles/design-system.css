@@ -639,9 +639,23 @@
 
 /*
  * While the bar crosses Ena, it takes the opposite tone of the page: dark over the black stage,
- * light over the white one. The open sheet keeps the page's own tokens.
+ * light over the white one — and so does everything in it, the sheet opened from it included. The
+ * shadcn tokens go with the design system's, for the controls drawn with them (language, theme).
  */
 .ds-nav.ds-nav--invert {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 18%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 64%;
+    --accent: 0 0% 18%;
+    --accent-foreground: 0 0% 98%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 0 0% 83%;
     --ds-canvas: #000000;
     --ds-canvas-2: #101012;
     --ds-surface: #1c1c1e;
@@ -656,6 +670,19 @@
 }
 
 .dark .ds-nav.ds-nav--invert {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 4%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 94%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 9%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 4%;
     --ds-canvas: #ffffff;
     --ds-canvas-2: #f5f5f7;
     --ds-surface: #ffffff;
@@ -668,31 +695,15 @@
     --ds-fill-2: rgb(120 120 128 / 0.07);
 }
 
-.ds-nav.ds-nav--invert #mobile-nav-menu {
-    --ds-canvas: #ffffff;
-    --ds-canvas-2: #f5f5f7;
-    --ds-surface: #ffffff;
-    --ds-ink: #1d1d1f;
-    --ds-ink-2: #6e6e73;
-    --ds-ink-3: #86868b;
-    --ds-hairline: rgb(0 0 0 / 0.08);
-    --ds-hairline-strong: rgb(0 0 0 / 0.14);
-    --ds-fill: rgb(120 120 128 / 0.12);
-    --ds-fill-2: rgb(120 120 128 / 0.07);
-    color: var(--ds-ink);
-}
-
-.dark .ds-nav.ds-nav--invert #mobile-nav-menu {
-    --ds-canvas: #000000;
-    --ds-canvas-2: #101012;
-    --ds-surface: #1c1c1e;
-    --ds-ink: #f5f5f7;
-    --ds-ink-2: #a1a1a6;
-    --ds-ink-3: #6e6e73;
-    --ds-hairline: rgb(255 255 255 / 0.1);
-    --ds-hairline-strong: rgb(255 255 255 / 0.18);
-    --ds-fill: rgb(120 120 128 / 0.28);
-    --ds-fill-2: rgb(120 120 128 / 0.16);
+/*
+ * Over Ena the bar is the stage's own colour, so where its material ends must not show: a hard
+ * edge, with the stage's glow blurred and saturated above it and sharp below, reads as a border.
+ * It fades out instead, a little past the bar. Not while the sheet is open: the sheet meets it.
+ */
+.ds-nav.ds-nav--invert:not([data-menu-open])::before {
+    bottom: -1.25rem;
+    -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 2.25rem), transparent);
+    mask-image: linear-gradient(to bottom, #000 calc(100% - 2.25rem), transparent);
 }
 
 .ds-nav .ds-nav-logo {
@@ -1462,16 +1473,20 @@
 }
 
 /*
+ * The sheet is the bar's own material carried down the screen — the same tint, blur and saturation,
+ * so bar and sheet read as one pane — and what sits on it is opaque: the groups, the buttons.
  * Tailwind's `-translate-y-*` utilities write the `translate` property, not `transform`.
  * Open settles on the spring; close takes the same path, a little quicker.
  */
 .ds-nav #mobile-nav-menu {
     display: flex;
     flex-direction: column;
-    background-color: color-mix(in srgb, var(--ds-canvas) 92%, transparent);
-    -webkit-backdrop-filter: blur(40px) saturate(180%);
-    backdrop-filter: blur(40px) saturate(180%);
-    transition: translate 460ms var(--ease-spring);
+    background-color: color-mix(in srgb, var(--ds-canvas) 72%, transparent);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    backdrop-filter: blur(20px) saturate(180%);
+    transition:
+        translate 460ms var(--ease-spring),
+        background-color 400ms var(--ease-fluid);
 }
 
 .ds-nav #mobile-nav-menu.ds-nav-sheet-hidden {
@@ -1490,15 +1505,13 @@
     overscroll-behavior: contain;
 }
 
+/* On the sheet's material, a hairline where the list scrolls away above it. */
 .ds-nav-sheet-foot {
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
     gap: 0.5rem;
     padding: 0.85rem 1rem max(1.1rem, env(safe-area-inset-bottom));
-    background-color: color-mix(in srgb, var(--ds-canvas) 88%, transparent);
-    -webkit-backdrop-filter: blur(24px) saturate(180%);
-    backdrop-filter: blur(24px) saturate(180%);
     box-shadow: inset 0 1px 0 var(--ds-hairline);
 }
 
@@ -1654,6 +1667,7 @@
     box-shadow: inset 0 1px 0 var(--ds-hairline);
 }
 
+/* Three lines; open, the outer two meet in a cross on the spring and the middle one draws away. */
 .ds-nav-burger span {
     display: block;
     width: 1.15rem;
@@ -1662,8 +1676,26 @@
     background-color: var(--ds-ink);
     transform-origin: center;
     transition:
-        transform 400ms var(--ease-spring),
+        translate 400ms var(--ease-spring),
+        rotate 400ms var(--ease-spring),
+        scale 300ms var(--ease-fluid),
+        opacity 200ms var(--ease-fluid),
         background-color 400ms var(--ease-fluid);
+}
+
+.ds-nav-burger[aria-expanded="true"] span:nth-child(1) {
+    translate: 0 6.5px;
+    rotate: 45deg;
+}
+
+.ds-nav-burger[aria-expanded="true"] span:nth-child(2) {
+    scale: 0 1;
+    opacity: 0;
+}
+
+.ds-nav-burger[aria-expanded="true"] span:nth-child(3) {
+    translate: 0 -6.5px;
+    rotate: -45deg;
 }
 
 /*
