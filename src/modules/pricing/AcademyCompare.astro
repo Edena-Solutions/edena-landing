@@ -1,0 +1,137 @@
+---
+import { Check, Minus } from "lucide-react";
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import { ModuleIcon } from "@/modules/pricing/ModuleIcon";
+import { MODULE_IDS, PACKS, formatPrice, moduleSectionsById, type ModuleId, type PlanFeatureSection } from "@/constants/pricing";
+import type { Translation } from "@/i18n";
+
+/*
+ * What each academy module does and which packs carry it: one row per module, its features under
+ * its name, a tick in each pack's column, the packs' header held under the nav while the rows scroll
+ * past. On a phone three columns of pack names do not fit, so each module lists the packs that
+ * carry it instead. No JavaScript.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+}
+
+const { t, lang } = Astro.props;
+const packsT = t.pricing.packs;
+const byId = moduleSectionsById((t.pricing as { planFeatureSections?: PlanFeatureSection[] }).planFeatureSections ?? []);
+const included = new Set(PACKS.flatMap((pack) => pack.modules));
+const moduleIds = MODULE_IDS.filter((id): id is ModuleId => included.has(id) && !!byId[id]);
+---
+
+<section class="ds-section">
+    <div class="ds-container">
+        <SectionHeader title={packsT.comparisonTitle} description={packsT.comparisonDescription} />
+
+        <!-- A phone: one card per module, the packs that carry it underneath. -->
+        <ul class="m-0 mt-12 flex list-none flex-col gap-3 p-0 sm:hidden" data-reveal-group>
+            {
+                moduleIds.map((moduleId) => {
+                    const section = byId[moduleId];
+                    return (
+                        <li class="ds-tile flex flex-col gap-4 p-6" data-reveal>
+                            <span class="flex items-center gap-3">
+                                <ModuleIcon moduleId={moduleId} className="size-9" />
+                                <span class="type-callout font-semibold text-ink">{section.title}</span>
+                            </span>
+                            <ul class="m-0 flex list-none flex-col gap-1.5 p-0">
+                                {section.items.map((item) => (
+                                    <li class="type-footnote text-ink-2">{item.label}</li>
+                                ))}
+                            </ul>
+                            <span class="flex flex-wrap gap-1.5 border-t border-hairline pt-4">
+                                {PACKS.filter((pack) => pack.modules.includes(moduleId)).map((pack) => (
+                                    <span class="flex items-center gap-1 rounded-full bg-brand-soft py-1 pl-1.5 pr-2.5 text-[0.75rem] font-semibold text-brand-ink">
+                                        <Check className="size-3.5" strokeWidth={3} />
+                                        {packsT.items[pack.id].name}
+                                    </span>
+                                ))}
+                            </span>
+                        </li>
+                    );
+                })
+            }
+        </ul>
+
+        <div class="ds-tile mt-14 hidden px-8 pb-6 sm:block" data-reveal="rise">
+            <table class="w-full border-collapse text-left">
+                <caption class="sr-only">{packsT.comparisonTitle}</caption>
+                <thead>
+                    <tr>
+                        <th scope="col" class="compare-head pl-2 align-bottom sm:pl-0">
+                            <span class="type-footnote font-semibold text-ink-3">{packsT.moduleColumn}</span>
+                        </th>
+                        {
+                            PACKS.map((pack) => (
+                                <th scope="col" class="compare-head w-[22%] px-1 text-center align-bottom sm:w-[18%]">
+                                    <span class="block text-[0.75rem] font-semibold leading-tight text-ink sm:text-[0.9375rem]">
+                                        {packsT.items[pack.id].name}
+                                    </span>
+                                    <span class="mt-1 block text-[0.6875rem] tabular-nums text-ink-3 sm:text-[0.8125rem]">
+                                        {formatPrice(pack.pricePerStudent, lang)}
+                                    </span>
+                                </th>
+                            ))
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        moduleIds.map((moduleId) => {
+                            const section = byId[moduleId];
+                            return (
+                                <tr class="border-t border-hairline">
+                                    <th scope="row" class="py-5 pl-2 pr-3 align-top font-normal sm:py-6 sm:pl-0 sm:pr-8">
+                                        <span class="flex items-center gap-3">
+                                            <ModuleIcon moduleId={moduleId} className="size-8 sm:size-9" />
+                                            <span class="type-callout font-semibold text-ink">{section.title}</span>
+                                        </span>
+                                        <ul class="m-0 mt-3 flex list-none flex-col gap-1.5 p-0 sm:pl-12">
+                                            {section.items.map((item) => (
+                                                <li class="type-footnote text-ink-2">{item.label}</li>
+                                            ))}
+                                        </ul>
+                                    </th>
+                                    {PACKS.map((pack) => {
+                                        const has = pack.modules.includes(moduleId);
+                                        return (
+                                            <td class="px-1 py-5 text-center align-top sm:py-6">
+                                                <span class="sr-only">{has ? t.pricingPage.included : t.pricingPage.notIncluded}</span>
+                                                {has ? (
+                                                    <span class="mx-auto flex size-6 items-center justify-center rounded-full bg-brand text-white" aria-hidden="true">
+                                                        <Check className="size-3.5" strokeWidth={3} />
+                                                    </span>
+                                                ) : (
+                                                    <span class="mx-auto flex size-6 items-center justify-center text-ink-3/60" aria-hidden="true">
+                                                        <Minus className="size-4" />
+                                                    </span>
+                                                )}
+                                            </td>
+                                        );
+                                    })}
+                                </tr>
+                            );
+                        })
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* The packs' header stays under the nav while the rows scroll past it. */
+    .compare-head {
+        position: sticky;
+        top: 3.75rem;
+        z-index: 1;
+        padding-top: 1.75rem;
+        padding-bottom: 1rem;
+        background-color: var(--ds-canvas-2);
+        box-shadow: inset 0 -1px 0 var(--ds-hairline);
+    }
+</style>

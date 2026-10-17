@@ -1,18 +1,23 @@
 ---
-import { BILLING_FLOOR } from "@/constants/pricing";
+import { BILLING_FLOOR, PACKS, moduleSectionsById, type PlanFeatureSection } from "@/constants/pricing";
 import { translations, localeStaticPaths, localePath, localizedDemoPath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
-import Hero from "@/modules/pricing/Hero.astro";
-import { PricingPacks } from "@/components/PricingPacks";
-import { AcademyModulesTable } from "@/components/AcademyModulesTable";
-import GSAPSection from "@/components/ui/gsap-section";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import PageHero from "@/modules/product/PageHero.astro";
+import AcademyPacks from "@/modules/pricing/AcademyPacks";
+import AcademyCompare from "@/modules/pricing/AcademyCompare.astro";
+import PricingNotes from "@/modules/pricing/PricingNotes.astro";
 import ProductSchema from "@/components/StructuredData/Product.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
-import { PACKS } from "@/constants/pricing";
 import { homeBreadcrumbName } from "@/lib/breadcrumb";
 import { ogFromAsset } from "@/lib/og-image";
 import pricingOgImage from "@/assets/img/screenshots/finance/billing_cycle.png";
-import Conclusion from "@/modules/home/Conclusion.astro";
+
+/*
+ * Academy pricing, in the home's design: the three packs under a monthly/annual switch, what every
+ * plan includes, and a table of what each module does and which packs carry it.
+ */
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -24,6 +29,7 @@ const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 const base = "https://edena.es";
 const pageUrl = `${base}${localePath(lang, "/pricing/academies")}`;
+const sections = moduleSectionsById((t.pricing as { planFeatureSections?: PlanFeatureSection[] }).planFeatureSections ?? []);
 
 /** One offer per pack, priced per enrolled student. */
 const offers = PACKS.map((pack) => ({
@@ -38,6 +44,21 @@ const breadcrumbs = [
     { name: t.navigation.pricing, url: `${base}${localePath(lang, "/pricing")}` },
     { name: t.navigation.pricingAcademies, url: pageUrl },
 ];
+
+const copy = {
+    items: t.pricing.packs.items,
+    includes: t.pricing.packs.includes,
+    bestFor: t.pricing.packs.bestFor,
+    perStudent: t.pricing.perStudent,
+    mostPopular: t.pricing.mostPopular,
+    monthly: t.pricing.calculator.monthly,
+    annual: t.pricing.calculator.annual,
+    annualDiscount: t.pricing.calculator.annualDiscount,
+    bookDemo: t.bookDemo,
+    startNow: t.pricing.startNow,
+    modules: Object.fromEntries(Object.entries(sections).map(([id, section]) => [id, section.title])),
+    tokens: t.pricingPage.tokensPerMonth,
+};
 ---
 
 <Layout
@@ -47,6 +68,7 @@ const breadcrumbs = [
         ...ogFromAsset(pricingOgImage, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
     <Fragment slot="structured-data">
         <ProductSchema
@@ -58,33 +80,27 @@ const breadcrumbs = [
         />
         <BreadcrumbListSchema items={breadcrumbs} lang={lang} />
     </Fragment>
-    <section class="grid gap-16 px-4 w-full mx-auto">
-        <Hero t={t} title={t.pricing.packs.title} description={t.pricing.packs.description} />
-        <p class="text-center text-[10px] tracking-widest uppercase text-muted-foreground">
+    <HomeMotion />
+    <PageHero
+        eyebrow={t.navigation.pricing}
+        eyebrowHref={localePath(lang, "/pricing")}
+        title={t.pricing.packs.title}
+        description={t.pricing.packs.description}
+    >
+        <p class="ds-intro mt-4 type-footnote text-ink-3" style="--intro-i: 2">
             {t.pricing.packs.minNote.replace("{n}", String(BILLING_FLOOR.academies.value))}
         </p>
-        <PricingPacks
-            client:load
-            t={t}
-            lang={lang}
-            demoUrl={localizedDemoPath(lang)}
-            registerUrl={REGISTER_URL}
-        />
-        <GSAPSection client:load className="flex flex-col gap-10 w-full">
-            <div class="flex flex-col gap-4 text-center">
-                <h2
-                    class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
-                >
-                    {t.pricing.packs.comparisonTitle}
-                </h2>
-                <p class="text-muted-foreground max-w-2xl mx-auto">
-                    {t.pricing.packs.comparisonDescription}
-                </p>
+    </PageHero>
+    <section class="ds-section pt-12 sm:pt-16">
+        <div class="ds-container flex flex-col gap-4">
+            <div data-reveal="rise">
+                <AcademyPacks client:load copy={copy} lang={lang} demoUrl={localizedDemoPath(lang)} registerUrl={REGISTER_URL} />
             </div>
-            <div class="mx-auto w-full max-w-5xl">
-                <AcademyModulesTable t={t} />
+            <div class="mt-6">
+                <PricingNotes t={t} />
             </div>
-        </GSAPSection>
-        <Conclusion lang={lang} />
+        </div>
     </section>
+    <AcademyCompare t={t} lang={lang} />
+    <ClosingCta lang={lang} />
 </Layout>

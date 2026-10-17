@@ -1,13 +1,20 @@
 ---
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
-import Hero from "@/modules/pricing/Hero.astro";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import PageHero from "@/modules/product/PageHero.astro";
 import AudienceCards from "@/modules/pricing/AudienceCards.astro";
+import PricingNotes from "@/modules/pricing/PricingNotes.astro";
 import ProductSchema from "@/components/StructuredData/Product.astro";
 import { CENTER_PACKS, PACKS, floorFor } from "@/constants/pricing";
 import { ogFromAsset } from "@/lib/og-image";
 import pricingOgImage from "@/assets/img/screenshots/finance/billing_cycle.png";
-import Conclusion from "@/modules/home/Conclusion.astro";
+
+/*
+ * The pricing hub, in the home's design: two ways in — packs for academies, a modular platform for
+ * centres — each with the price it starts at, and what every plan comes with underneath.
+ */
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -36,6 +43,7 @@ const offers = [
         ...ogFromAsset(pricingOgImage, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
     <ProductSchema
         slot="structured-data"
@@ -45,14 +53,18 @@ const offers = [
         category="Software de Gestión Escolar"
         lang={lang}
     />
-    <section class="grid gap-10 px-4 w-full mx-auto">
-        <Hero t={t} title={t.pricing.hub.title} description={t.pricing.hub.description} />
-        <AudienceCards
-            t={t}
-            lang={lang}
-            academiesUrl={localePath(lang, "/pricing/academies")}
-            centersUrl={localePath(lang, "/pricing/centers")}
-        />
-        <Conclusion lang={lang} />
+    <HomeMotion />
+    <PageHero eyebrow={t.navigation.pricing} title={t.pricing.hub.title} description={t.pricing.hub.description} />
+    <section class="ds-section pt-12 sm:pt-16">
+        <div class="ds-container flex flex-col gap-4">
+            <AudienceCards
+                t={t}
+                lang={lang}
+                academiesUrl={localePath(lang, "/pricing/academies")}
+                centersUrl={localePath(lang, "/pricing/centers")}
+            />
+            <PricingNotes t={t} />
+        </div>
     </section>
+    <ClosingCta lang={lang} />
 </Layout>

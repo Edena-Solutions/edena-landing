@@ -107,6 +107,11 @@ export default {
         published: "Publicat",
         age: "Edat",
     },
+    pricingPage: {
+        included: "Inclòs",
+        notIncluded: "No inclòs",
+        tokensPerMonth: "{n} tokens/mes",
+    },
     groupsScenes: {
         network: "Xarxa de centres",
         centresCount: "{n} centres",

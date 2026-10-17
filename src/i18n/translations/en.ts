@@ -107,6 +107,11 @@ export default {
         published: "Published",
         age: "Age",
     },
+    pricingPage: {
+        included: "Included",
+        notIncluded: "Not included",
+        tokensPerMonth: "{n} tokens/mo",
+    },
     groupsScenes: {
         network: "School network",
         centresCount: "{n} schools",

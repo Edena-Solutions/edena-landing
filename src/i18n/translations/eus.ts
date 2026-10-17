@@ -107,6 +107,11 @@ export default {
         published: "Argitaratuta",
         age: "Adina",
     },
+    pricingPage: {
+        included: "Barne",
+        notIncluded: "Ez dago barne",
+        tokensPerMonth: "{n} token/hilean",
+    },
     groupsScenes: {
         network: "Ikastetxe sarea",
         centresCount: "{n} ikastetxe",

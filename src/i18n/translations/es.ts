@@ -107,6 +107,11 @@ export default {
         published: "Publicado",
         age: "Edad",
     },
+    pricingPage: {
+        included: "Incluido",
+        notIncluded: "No incluido",
+        tokensPerMonth: "{n} tokens/mes",
+    },
     groupsScenes: {
         network: "Red de centros",
         centresCount: "{n} centros",
