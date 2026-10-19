@@ -796,7 +796,7 @@ export default {
     hero: {
         mainTitle: "Administra, factura i parla amb les famílies des del mateix lloc",
         mainDescription:
-            "Secretaria matricula, passa llista i cobra amb Verifactu. Els centres que ja fan servir Edena estalvien més de 37 hores cada setmana.",
+            "A secretaria es matricula, es passa llista i es cobra amb Verifactu. Els centres que ja fan servir Edena estalvien més de 37 hores cada setmana.",
         demoNote: "15 minuts, amb un centre com el teu.",
         pathsLabel: "Segons el centre",
         mobileTitle: "L'avís arriba al mòbil de la família",

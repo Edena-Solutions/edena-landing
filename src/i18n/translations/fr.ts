@@ -797,7 +797,7 @@ export default {
     hero: {
         mainTitle: "Administrez, facturez et écrivez aux familles depuis le même endroit",
         mainDescription:
-            "Le secrétariat inscrit, fait l'appel et encaisse avec Verifactu. Les établissements déjà sur Edena gagnent plus de 37 heures par semaine.",
+            "Au secrétariat, on inscrit, on fait l'appel et on encaisse avec Verifactu. Les établissements déjà sur Edena gagnent plus de 37 heures par semaine.",
         demoNote: "15 minutes, sur un établissement comme le vôtre.",
         pathsLabel: "Selon l'établissement",
         mobileTitle: "L'avis arrive sur le téléphone de la famille",

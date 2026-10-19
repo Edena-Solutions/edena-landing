@@ -814,7 +814,7 @@ export default {
     hero: {
         mainTitle: "Administratu, fakturatu eta hitz egin familiekin leku beretik",
         mainDescription:
-            "Idazkaritzak matrikulatu, zerrenda pasa eta Verifacturekin kobratzen du. Edena erabiltzen duten zentroek astean 37 ordu baino gehiago aurrezten dituzte.",
+            "Idazkaritzan matrikulatzen da, zerrenda pasatzen da eta Verifacturekin kobratzen da. Edena erabiltzen duten zentroek astean 37 ordu baino gehiago aurrezten dituzte.",
         demoNote: "15 minutu, zurea bezalako zentro batekin.",
         pathsLabel: "Zure zentroaren arabera",
         mobileTitle: "Abisua familiaren mugikorrera iristen da",

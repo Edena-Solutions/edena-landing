@@ -798,7 +798,7 @@ export default {
     hero: {
         mainTitle: "Run the office, bill and reach families from the same place",
         mainDescription:
-            "The office enrols, takes the register and collects with Verifactu. Schools already on Edena save more than 37 hours a week.",
+            "In the office they enrol, take the register and collect with Verifactu. Schools already on Edena save more than 37 hours a week.",
         demoNote: "15 minutes, on a school like yours.",
         pathsLabel: "For your school",
         mobileTitle: "The notice reaches the family's phone",
