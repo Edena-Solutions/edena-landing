@@ -5,8 +5,9 @@ import type { Translation } from "@/i18n";
 
 /*
  * The problem, then the turn. Three tiles say what a school juggles today, each with its stat set
- * large; below them every one of those tools floats loose, and as the page scrolls they fly into
- * Edena — the transition into "everything your school needs" that used to be a line diagram.
+ * large; below them every one of those tools floats loose around Edena, inside its faint orbits,
+ * and as the page scrolls they are drawn in — circling, then falling into the mark, nearest first
+ * — while a ring around Edena fills with what it has taken in.
  */
 interface Props {
     t: Translation;
@@ -18,7 +19,10 @@ const { problemSection } = t;
 type Logo = { src: string; alt: string; invert?: boolean };
 
 const toolLogos: Logo[] = [
-    { src: "https://sinapsis.agency/uploads/images/2026/01/696c9f0aa8cff_c0ca1cb7.png", alt: problemSection.cards.tools.items[0] },
+    {
+        src: "https://sinapsis.agency/uploads/images/2026/01/696c9f0aa8cff_c0ca1cb7.png",
+        alt: problemSection.cards.tools.items[0],
+    },
     {
         src: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Calendar_icon_%282020%29.svg",
         alt: problemSection.cards.tools.items[1],
@@ -33,8 +37,15 @@ const toolLogos: Logo[] = [
     },
 ];
 const aiLogos: Logo[] = [
-    { src: "https://cdn.worldvectorlogo.com/logos/openai-2.svg", alt: problemSection.cards.ai.items[0], invert: true },
-    { src: "https://cdn.worldvectorlogo.com/logos/claude-logo.svg", alt: problemSection.cards.ai.items[1] },
+    {
+        src: "https://cdn.worldvectorlogo.com/logos/openai-2.svg",
+        alt: problemSection.cards.ai.items[0],
+        invert: true,
+    },
+    {
+        src: "https://cdn.worldvectorlogo.com/logos/claude-logo.svg",
+        alt: problemSection.cards.ai.items[1],
+    },
     {
         src: "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.40.0/icons/gemini-color.svg",
         alt: problemSection.cards.ai.items[2],
@@ -50,8 +61,14 @@ const financeLogos: Logo[] = [
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Microsoft_Office_Excel_%282019%E2%80%932025%29.svg/3840px-Microsoft_Office_Excel_%282019%E2%80%932025%29.svg.png",
         alt: problemSection.cards.finance.items[0],
     },
-    { src: "https://www.neobis.es/wp-content/uploads/2025/04/Sage_Logo.png", alt: problemSection.cards.finance.items[1] },
-    { src: "https://davizgonzalez.com/wp-content/uploads/2024/11/holded-logo.webp", alt: problemSection.cards.finance.items[2] },
+    {
+        src: "https://www.neobis.es/wp-content/uploads/2025/04/Sage_Logo.png",
+        alt: problemSection.cards.finance.items[1],
+    },
+    {
+        src: "https://davizgonzalez.com/wp-content/uploads/2024/11/holded-logo.webp",
+        alt: problemSection.cards.finance.items[2],
+    },
     {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/330px-SAP_2011_logo.svg.png",
         alt: problemSection.cards.finance.items[3],
@@ -60,13 +77,22 @@ const financeLogos: Logo[] = [
 
 /** More SaaS brands in the converge scene only — the tiles above stay at four each. */
 const extraSaasLogos: Logo[] = [
-    { src: "https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg", alt: problemSection.floatingExtras[0] },
-    { src: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg", alt: problemSection.floatingExtras[1] },
+    {
+        src: "https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg",
+        alt: problemSection.floatingExtras[0],
+    },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg",
+        alt: problemSection.floatingExtras[1],
+    },
     {
         src: "https://upload.wikimedia.org/wikipedia/commons/1/11/Zoom_Logo_2022.svg",
         alt: problemSection.floatingExtras[2],
     },
-    { src: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg", alt: problemSection.floatingExtras[3] },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+        alt: problemSection.floatingExtras[3],
+    },
     {
         src: "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg",
         alt: problemSection.floatingExtras[4],
@@ -75,7 +101,10 @@ const extraSaasLogos: Logo[] = [
         src: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Asana_logo.svg",
         alt: problemSection.floatingExtras[5],
     },
-    { src: "https://cdn.worldvectorlogo.com/logos/trello.svg", alt: problemSection.floatingExtras[6] },
+    {
+        src: "https://cdn.worldvectorlogo.com/logos/trello.svg",
+        alt: problemSection.floatingExtras[6],
+    },
     {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg/960px-Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg.png",
         alt: problemSection.floatingExtras[7],
@@ -111,17 +140,19 @@ const scatter = [
     { x: 58, y: 86, r: 12, s: 0.86 },
     { x: 15, y: 48, r: -5, s: 0.76 },
     { x: 48, y: 14, r: 7, s: 0.82 },
-    { x: 52, y: 62, r: -9, s: 0.7 },
+    { x: 58, y: 70, r: -9, s: 0.7 },
     { x: 84, y: 52, r: 11, s: 0.88 },
     { x: 20, y: 90, r: 4, s: 0.72 },
     { x: 62, y: 28, r: -11, s: 0.78 },
     { x: 86, y: 82, r: 8, s: 0.66 },
     { x: 44, y: 36, r: -7, s: 0.9 },
 ];
-const floating = [...toolLogos, ...aiLogos, ...financeLogos, ...extraSaasLogos].map((logo, index) => ({
-    ...logo,
-    ...scatter[index],
-}));
+const floating = [...toolLogos, ...aiLogos, ...financeLogos, ...extraSaasLogos].map(
+    (logo, index) => ({
+        ...logo,
+        ...scatter[index],
+    }),
+);
 const tilts = [-8, 5, -4, 9];
 ---
 
@@ -134,115 +165,144 @@ const tilts = [-8, 5, -4, 9];
         />
 
         <div class="ds-rail-frame mt-14">
-        <div class="ds-rail ds-scroll-fade flex gap-3 md:grid md:grid-cols-3 md:gap-4" data-reveal-group>
-            {
-                cards.map((card) => (
-                    <article class="ds-tile flex flex-col gap-8 p-7 sm:p-8" data-reveal="scale">
-                        <div class="flex items-center pl-2">
-                            {card.logos.map((logo, index) => (
-                                <span
-                                    class="-ml-2 flex size-12 items-center justify-center rounded-[0.85rem] bg-surface elev-2 ring-1 ring-hairline"
-                                    style={`rotate:${tilts[index]}deg`}
-                                >
-                                    <img
-                                        src={logo.src}
-                                        alt={logo.alt}
-                                        width="28"
-                                        height="28"
-                                        loading="lazy"
-                                        decoding="async"
-                                        class:list={["size-7 object-contain", logo.invert && "dark:invert"]}
-                                    />
-                                </span>
-                            ))}
-                        </div>
-                        <div class="flex flex-col gap-3">
-                            <h3 class="type-callout font-semibold text-ink">{card.title}</h3>
-                            {card.stat && (
-                                <p class="text-[3.25rem] font-semibold leading-none tracking-[-0.045em] text-ink">
-                                    {card.stat}
+            <div
+                class="ds-rail ds-scroll-fade flex gap-3 md:grid md:grid-cols-3 md:gap-4"
+                data-reveal-group
+            >
+                {
+                    cards.map((card) => (
+                        <article class="ds-tile flex flex-col gap-8 p-7 sm:p-8" data-reveal="scale">
+                            <div class="flex items-center pl-2">
+                                {card.logos.map((logo, index) => (
+                                    <span
+                                        class="-ml-2 flex size-12 items-center justify-center rounded-[0.85rem] bg-surface elev-2 ring-1 ring-hairline"
+                                        style={`rotate:${tilts[index]}deg`}
+                                    >
+                                        <img
+                                            src={logo.src}
+                                            alt={logo.alt}
+                                            width="28"
+                                            height="28"
+                                            loading="lazy"
+                                            decoding="async"
+                                            class:list={[
+                                                "size-7 object-contain",
+                                                logo.invert && "dark:invert",
+                                            ]}
+                                        />
+                                    </span>
+                                ))}
+                            </div>
+                            <div class="flex flex-col gap-3">
+                                <h3 class="type-callout font-semibold text-ink">{card.title}</h3>
+                                {card.stat && (
+                                    <p class="text-[3.25rem] font-semibold leading-none tracking-[-0.045em] text-ink">
+                                        {card.stat}
+                                    </p>
+                                )}
+                                <p class="type-callout text-ink-2">
+                                    {card.rest && (
+                                        <strong class="font-semibold text-ink">{card.rest}</strong>
+                                    )}{" "}
+                                    {card.description}
                                 </p>
-                            )}
-                            <p class="type-callout text-ink-2">
-                                {card.rest && <strong class="font-semibold text-ink">{card.rest}</strong>}{" "}
-                                {card.description}
-                            </p>
-                        </div>
-                    </article>
-                ))
-            }
-        </div>
+                            </div>
+                        </article>
+                    ))
+                }
+            </div>
         </div>
     </div>
 
     <div class="ds-converge-track mt-10" data-converge>
-    <div
-        class="ds-converge-stage mx-auto h-[28rem] w-full max-w-[92rem] sm:h-[38rem] lg:h-[44rem]"
-        aria-hidden="true"
-    >
-        <svg class="ds-converge-threads" data-converge-threads preserveAspectRatio="none">
-            <defs>
-                <linearGradient id="ds-converge-thread-grad" gradientUnits="userSpaceOnUse">
-                    <stop offset="0%" stop-color="currentColor" stop-opacity="0.12"></stop>
-                    <stop offset="72%" stop-color="currentColor" stop-opacity="0.28"></stop>
-                    <stop offset="100%" stop-color="#22c55e" stop-opacity="0.55"></stop>
-                </linearGradient>
-            </defs>
-            {floating.map(() => (
-                <line class="ds-converge-thread" data-converge-thread stroke="url(#ds-converge-thread-grad)"></line>
-            ))}
-        </svg>
-        {
-            floating.map((logo, index) => (
-                <div
-                    class="absolute z-[2] -translate-x-1/2 -translate-y-1/2"
-                    style={`left:${logo.x}%;top:${logo.y}%;transform:rotate(${logo.r}deg) scale(${logo.s})`}
-                    data-converge-item
-                >
-                    <span
-                        class:list={[
-                            "flex size-14 animate-ds-float items-center justify-center rounded-[1rem] bg-surface elev-3 ring-1 ring-hairline sm:size-16 sm:rounded-[1.15rem] lg:size-[4.5rem]",
-                            logo.s < 0.8 && "opacity-80 blur-[0.5px]",
-                        ]}
-                        style={`animation-delay:${-index * 0.8}s`}
+        <div
+            class="mt-30 ds-converge-stage mx-auto h-[28rem] w-full max-w-[92rem] sm:h-[38rem] lg:h-[44rem]"
+            aria-hidden="true"
+        >
+            <!-- Edena's pull: faint orbits that tighten and fade as the tools are drawn in. -->
+            <div class="ds-converge-orbits" data-converge-orbits>
+                <span style="--o: 0.5"></span>
+                <span style="--o: 0.84"></span>
+                <span style="--o: 1.22"></span>
+            </div>
+            {
+                floating.map((logo, index) => (
+                    <div
+                        class="ds-converge-item absolute z-[2] -translate-x-1/2 -translate-y-1/2"
+                        style={`left:${logo.x}%;top:${logo.y}%;transform:rotate(${logo.r}deg) scale(${logo.s})`}
+                        data-converge-item
+                        data-r={logo.r}
+                        data-s={logo.s}
                     >
-                        <img
-                            src={logo.src}
-                            alt=""
-                            width="40"
-                            height="40"
-                            loading="lazy"
-                            decoding="async"
-                            class:list={["size-8 object-contain sm:size-9 lg:size-10", logo.invert && "dark:invert"]}
-                        />
+                        <span
+                            class:list={[
+                                "flex size-14 animate-ds-float items-center justify-center rounded-[1rem] bg-surface elev-3 ring-1 ring-hairline sm:size-16 sm:rounded-[1.15rem] lg:size-[4.5rem]",
+                                logo.s < 0.8 && "opacity-75",
+                            ]}
+                            style={`animation-delay:${-index * 0.8}s`}
+                        >
+                            <img
+                                src={logo.src}
+                                alt=""
+                                width="40"
+                                height="40"
+                                loading="lazy"
+                                decoding="async"
+                                class:list={[
+                                    "size-8 object-contain sm:size-9 lg:size-10",
+                                    logo.invert && "dark:invert",
+                                ]}
+                            />
+                        </span>
+                    </div>
+                ))
+            }
+            <div class="absolute z-[3] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                <div
+                    class="absolute inset-[-90%] rounded-full opacity-0 blur-3xl"
+                    style="background: var(--ds-brand-gradient)"
+                    data-converge-glow
+                >
+                </div>
+                <span
+                    data-converge-bloom
+                    class="pointer-events-none absolute left-1/2 top-1/2 size-24 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-0 ring-2 ring-[#22c55e]/40 sm:size-28 lg:size-32"
+                ></span>
+                <!-- Edena: the mark itself, ringed by how much of the school it has taken in. -->
+                <div
+                    class="ds-converge-core relative size-24 sm:size-28 lg:size-32"
+                    data-converge-core
+                >
+                    <svg class="ds-converge-progress" viewBox="0 0 100 100" aria-hidden="true">
+                        <defs>
+                            <linearGradient
+                                id="ds-converge-progress-grad"
+                                x1="0"
+                                y1="0"
+                                x2="1"
+                                y2="1"
+                            >
+                                <stop offset="0" stop-color="#9AE600"></stop>
+                                <stop offset="1" stop-color="#00D492"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="50" cy="50" r="49" class="ds-converge-progress-track"></circle>
+                        <circle
+                            cx="50"
+                            cy="50"
+                            r="49"
+                            pathLength="100"
+                            class="ds-converge-progress-fill"
+                            stroke="url(#ds-converge-progress-grad)"
+                            data-converge-progress></circle>
+                    </svg>
+                    <span class="relative block size-full rounded-full bg-surface elev-4">
+                        <svg viewBox={LOGO_VIEWBOX} class="block size-full text-ink">
+                            <path fill="currentColor" fill-rule="evenodd" d={LOGO_PATH}></path>
+                        </svg>
                     </span>
                 </div>
-            ))
-        }
-        <div class="absolute z-[3] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-            <div
-                class="absolute inset-[-80%] rounded-full opacity-0 blur-3xl"
-                style="background: var(--ds-brand-gradient)"
-                data-converge-glow
-            >
-            </div>
-            <span
-                data-converge-bloom
-                class="pointer-events-none absolute left-1/2 top-1/2 size-24 -translate-x-1/2 -translate-y-1/2 rounded-[1.6rem] opacity-0 ring-2 ring-hairline-strong sm:size-28 sm:rounded-[1.85rem] lg:size-32 lg:rounded-[2rem]"
-            ></span>
-            <div
-                class="relative flex size-24 items-center justify-center rounded-[1.6rem] bg-surface elev-4 ring-1 ring-hairline sm:size-28 sm:rounded-[1.85rem] lg:size-32 lg:rounded-[2rem]"
-                data-converge-core
-            >
-                <svg viewBox={LOGO_VIEWBOX} class="size-14 text-ink sm:size-16 lg:size-[4.5rem]">
-                    <path
-                        fill="currentColor"
-                        fill-rule="evenodd"
-                    d={LOGO_PATH}
-                    ></path>
-                </svg>
             </div>
         </div>
-    </div>
     </div>
 </section>

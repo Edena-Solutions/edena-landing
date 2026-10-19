@@ -153,148 +153,109 @@ function initScrub(): () => void {
             const core = track.querySelector<HTMLElement>("[data-converge-core]");
             const glow = track.querySelector<HTMLElement>("[data-converge-glow]");
             const bloom = track.querySelector<HTMLElement>("[data-converge-bloom]");
+            const orbits = track.querySelector<HTMLElement>("[data-converge-orbits]");
+            const progress = track.querySelector<SVGCircleElement>("[data-converge-progress]");
             const items = Array.from(track.querySelectorAll<HTMLElement>("[data-converge-item]"));
-            const threads = Array.from(track.querySelectorAll<SVGLineElement>("[data-converge-thread]"));
-            const threadsSvg = track.querySelector<SVGSVGElement>("[data-converge-threads]");
             if (!core) return;
 
-            const center = () => ({
-                cx: stage.offsetWidth / 2,
-                cy: stage.offsetHeight / 2,
-            });
-
-            const threadLength = (item: HTMLElement) => {
-                const { cx, cy } = center();
-                return Math.hypot(cx - item.offsetLeft, cy - item.offsetTop) || 1;
+            // Each tool in polar terms around Edena (the stage's centre), from layout positions —
+            // items are centred on their `left`/`top`, so a refresh mid-scrub measures the same.
+            // `p` is how far it has been drawn in, 0 to 1.
+            const bodies = items.map((el) => ({
+                el,
+                r0: 0,
+                a0: 0,
+                tilt: Number(el.dataset.r ?? 0),
+                depth: Number(el.dataset.s ?? 1),
+                p: 0,
+                set: {
+                    x: gsap.quickSetter(el, "x", "px") as (value: number) => void,
+                    y: gsap.quickSetter(el, "y", "px") as (value: number) => void,
+                    rotation: gsap.quickSetter(el, "rotation", "deg") as (value: number) => void,
+                    scale: gsap.quickSetter(el, "scale") as (value: number) => void,
+                    opacity: gsap.quickSetter(el, "opacity") as (value: number) => void,
+                },
+            }));
+            const measure = () => {
+                const cx = stage.offsetWidth / 2;
+                const cy = stage.offsetHeight / 2;
+                bodies.forEach((body) => {
+                    const dx = body.el.offsetLeft - cx;
+                    const dy = body.el.offsetTop - cy;
+                    body.r0 = Math.hypot(dx, dy);
+                    body.a0 = Math.atan2(dy, dx);
+                });
             };
 
-            const syncThreadGradient = () => {
-                if (!threadsSvg) return;
-                const { cx, cy } = center();
-                const grad = threadsSvg.querySelector("#ds-converge-thread-grad");
-                if (!grad) return;
-                grad.setAttribute("x1", String(cx));
-                grad.setAttribute("y1", String(cy));
-                grad.setAttribute("x2", String(cx));
-                grad.setAttribute("y2", "0");
+            // How far each tool turns around Edena on its way in, in radians: a slow drift at first,
+            // most of the turn spent close in, where it falls fastest — a vortex, not a carousel.
+            const SWIRL = 0.95;
+            const smooth = (from: number, to: number, v: number) => {
+                const t = Math.min(1, Math.max(0, (v - from) / (to - from)));
+                return t * t * (3 - 2 * t);
+            };
+            const render = (body: (typeof bodies)[number]) => {
+                const { p, r0, a0 } = body;
+                const pull = p * p * p;
+                const r = r0 * (1 - pull);
+                const a = a0 + SWIRL * (0.3 * p + 0.7 * pull);
+                body.set.x(r * Math.cos(a) - r0 * Math.cos(a0));
+                body.set.y(r * Math.sin(a) - r0 * Math.sin(a0));
+                body.set.rotation(body.tilt * (1 - smooth(0, 0.8, p)));
+                body.set.scale(body.depth * (1 - 0.7 * smooth(0.45, 1, p)));
+                body.set.opacity(1 - smooth(0.72, 1, p));
             };
 
-            // The distance from each item to the core at the stage's centre, from layout positions
-            // (each item is centred on its `left`/`top`), so a refresh mid-scrub, with the items
-            // already part way in, measures the same thing.
-            const delta = (item: HTMLElement, axis: "x" | "y") =>
-                axis === "x"
-                    ? stage.offsetWidth / 2 - item.offsetLeft
-                    : stage.offsetHeight / 2 - item.offsetTop;
+            measure();
+            // Centred by the CSS `translate` property; GSAP's transform composes after it.
+            bodies.forEach((body) => gsap.set(body.el, { x: 0, y: 0, rotation: body.tilt, scale: body.depth }));
 
+            // Nearest first: the pull reaches the close ones before the far ones.
+            const order = [...bodies].sort((a, b) => a.r0 - b.r0);
+            const lead = 0.15;
             const inbound = 1;
-            const stagger = 0.055;
-            const settle = 0.2 + inbound + Math.max(items.length - 1, 0) * stagger;
+            const stagger = 0.05;
+            const absorbed = (index: number) => lead + index * stagger + inbound * 0.9;
+            const done = absorbed(order.length - 1) + inbound * 0.1;
 
-            // Sticky keeps Edena on the viewport centre. The extra track height is the only
-            // scroll the timeline may use, so the last app is in before the scene is allowed to leave.
+            // Sticky keeps Edena on the viewport centre; the extra track height is the scroll the
+            // tools spend coming in. A scrub with a second of catch-up: the scene glides after the
+            // wheel instead of ticking with it.
             const timeline = gsap.timeline({
+                defaults: { ease: "none" },
                 scrollTrigger: {
                     trigger: track,
                     start: () => `top+=${stage.offsetHeight / 2} center`,
                     end: () => `+=${Math.max(track.offsetHeight - stage.offsetHeight, 0)}`,
-                    scrub: true,
+                    scrub: 1,
                     invalidateOnRefresh: true,
-                    onRefresh: syncThreadGradient,
+                    onRefresh: () => {
+                        measure();
+                        bodies.forEach(render);
+                    },
                 },
             });
+
+            timeline.to({}, { duration: lead });
+            order.forEach((body, index) => {
+                timeline.to(body, { p: 1, duration: inbound, onUpdate: () => render(body) }, lead + index * stagger);
+            });
+            if (orbits) {
+                timeline.fromTo(orbits, { scale: 1, opacity: 1 }, { scale: 0.55, opacity: 0, ease: "power1.in", duration: done - lead }, lead);
+            }
+            if (progress) {
+                timeline.fromTo(progress, { strokeDashoffset: 100 }, { strokeDashoffset: 0, duration: done - absorbed(0) }, absorbed(0));
+            }
+            timeline.fromTo(core, { scale: 0.86 }, { scale: 1, ease: "power2.out", duration: done - lead }, lead);
+            timeline.to(core, { scale: 1.05, ease: "power2.out", duration: 0.18 }, done);
+            timeline.to(core, { scale: 1, ease: "power2.inOut", duration: 0.3 }, done + 0.18);
+            if (glow) {
+                // A hint of light behind Edena once it holds everything, not a floodlight.
+                timeline.fromTo(glow, { opacity: 0, scale: 0.7 }, { opacity: 0.34, scale: 1.15, ease: "power2.out", duration: 0.6, immediateRender: false }, done - 0.3);
+            }
             if (bloom) {
                 gsap.set(bloom, { xPercent: -50, yPercent: -50, transformOrigin: "50% 50%" });
-            }
-
-            syncThreadGradient();
-            items.forEach((item, index) => {
-                const line = threads[index];
-                if (!line) return;
-                const { cx, cy } = center();
-                const len = threadLength(item);
-                gsap.set(line, {
-                    attr: { x1: item.offsetLeft, y1: item.offsetTop, x2: cx, y2: cy },
-                    strokeDasharray: len,
-                    strokeDashoffset: len * 0.06,
-                    opacity: 0,
-                });
-            });
-
-            timeline.to({}, { duration: 0.2 });
-            threads.forEach((line, index) => {
-                timeline.to(line, { opacity: 0.3, duration: 0.16, ease: "power1.out" }, 0.04 + index * 0.012);
-            });
-            items.forEach((item, index) => {
-                const at = 0.2 + index * stagger;
-                const line = threads[index];
-
-                timeline.to(
-                    item,
-                    {
-                        x: () => delta(item, "x"),
-                        y: () => delta(item, "y"),
-                        rotate: 0,
-                        scale: 0.3,
-                        opacity: 0,
-                        filter: "blur(6px)",
-                        ease: "power2.in",
-                        duration: inbound,
-                    },
-                    at,
-                );
-
-                if (!line) return;
-
-                timeline.fromTo(
-                    line,
-                    {
-                        opacity: 0.34,
-                        strokeDashoffset: () => threadLength(item) * 0.06,
-                        attr: {
-                            x1: () => item.offsetLeft,
-                            y1: () => item.offsetTop,
-                            x2: () => center().cx,
-                            y2: () => center().cy,
-                        },
-                    },
-                    {
-                        opacity: 0,
-                        strokeDashoffset: () => threadLength(item),
-                        attr: {
-                            x1: () => center().cx,
-                            y1: () => center().cy,
-                            x2: () => center().cx,
-                            y2: () => center().cy,
-                        },
-                        ease: "power2.in",
-                        duration: inbound,
-                    },
-                    at - 0.04,
-                );
-            });
-            timeline.fromTo(
-                core,
-                { scale: 0.9 },
-                { scale: 1, ease: "power2.out", duration: 0.55 },
-                settle - 0.35,
-            );
-            if (glow) {
-                timeline.fromTo(
-                    glow,
-                    { opacity: 0, scale: 0.7 },
-                    // A hint of light behind Edena, not a floodlight.
-                    { opacity: 0.32, scale: 1.18, ease: "power2.out", duration: 0.65 },
-                    settle - 0.4,
-                );
-            }
-            if (bloom) {
-                timeline.fromTo(
-                    bloom,
-                    { scale: 1, opacity: 0.4 },
-                    { scale: 2.15, opacity: 0, ease: "power2.out", duration: 0.7 },
-                    settle - 0.05,
-                );
+                timeline.fromTo(bloom, { scale: 1, opacity: 0.6 }, { scale: 2.2, opacity: 0, ease: "power2.out", duration: 0.7, immediateRender: false }, done);
             }
             timeline.to({}, { duration: 0.55 });
         });
