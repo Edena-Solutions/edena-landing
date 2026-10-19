@@ -2959,7 +2959,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             {
                 stat: "37 h",
                 description:
-                    "Ahorradas cada semana en tareas administrativas gracias a la automatización de procesos clave.",
+                    "En Gimbebe, ahorradas cada semana en tareas de secretaría.",
                 bg: "dark",
             },
             {

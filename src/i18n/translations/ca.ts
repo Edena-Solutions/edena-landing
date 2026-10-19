@@ -2953,7 +2953,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             {
                 stat: "37 h",
                 description:
-                    "Estalviades cada setmana en tasques administratives gràcies a l'automatització de processos clau.",
+                    "A Gimbebe, estalviades cada setmana en tasques de secretaria.",
                 bg: "dark",
             },
             {

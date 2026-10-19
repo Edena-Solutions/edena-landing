@@ -1,5 +1,6 @@
 ---
 import SectionHeader from "@/components/ds/SectionHeader.astro";
+import gimbebeLogo from "@/assets/img/logos/gimbebe.png";
 import type { Translation } from "@/i18n";
 
 /*
@@ -67,7 +68,16 @@ const rings = [
                     }
                 </svg>
                 <p class="stat-lead-value type-stat text-gradient-brand" data-count>{lead.stat}</p>
-                <p class="stat-lead-desc type-body text-ink-2">{lead.description}</p>
+                <div class="stat-lead-desc">
+                    <img
+                        src={gimbebeLogo.src}
+                        alt="Gimbebe"
+                        width={gimbebeLogo.width}
+                        height={gimbebeLogo.height}
+                        class="mb-3 h-7 w-auto"
+                    />
+                    <p class="type-body text-ink-2">{lead.description}</p>
+                </div>
             </article>
 
             <div class="stat-list col-span-2 sm:contents">

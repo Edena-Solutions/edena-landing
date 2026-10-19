@@ -29,7 +29,9 @@ import { competitorCopy } from "@/lib/compare";
 /*
  * Where Edena wins, as a bento: the first argument on the stage the comparison heroes used to open
  * on — a dark tile lit from above, Edena's green on one side and a cool white on the other — and
- * the other two as ordinary tiles beside it. Each opens on an app icon for its subject and closes
+ * the other two as ordinary tiles. On a tablet the lead stands tall on the left with the other two
+ * stacked beside it; on desktop the lead runs across the top, its argument beside its proof, and
+ * the other two sit underneath. Each opens on an app icon for its subject and closes
  * on its proof — the criterion of the table it rests on — so every claim points at the evidence
  * further down. Every tile gives that proof the same way: a row per side, with its mark, its name
  * and what the mark amounts to.
@@ -388,6 +390,59 @@ const wins = rival.wins.map((win, index) => {
             background-color: #10251a;
             -webkit-backdrop-filter: none;
             backdrop-filter: none;
+        }
+    }
+
+    /*
+     * Desktop: the lead across the top. Its argument stays on the left, the comparison sits on
+     * the right, and the other two tiles share the row underneath.
+     */
+    @media (min-width: 64rem) {
+        .wins {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .win.win--lead {
+            grid-column: 1 / -1;
+            grid-row: auto;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(18rem, 28rem);
+            column-gap: clamp(2.5rem, 4vw, 4.5rem);
+            align-items: center;
+            justify-items: start;
+            text-align: left;
+        }
+
+        .win.win--lead:not(:has(.win-proof)) {
+            grid-template-columns: minmax(0, 1fr);
+        }
+
+        .win--lead .win-badge {
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        .win--lead .win-title {
+            grid-column: 1;
+            grid-row: 2;
+            margin-top: 1.5rem;
+            text-align: left;
+        }
+
+        .win--lead .win-body {
+            grid-column: 1;
+            grid-row: 3;
+            margin-bottom: 0;
+            text-align: left;
+        }
+
+        .win--lead .win-proof {
+            grid-column: 2;
+            grid-row: 1 / span 3;
+            justify-self: stretch;
+            align-self: center;
+            width: 100%;
+            margin-top: 0;
         }
     }
 </style>

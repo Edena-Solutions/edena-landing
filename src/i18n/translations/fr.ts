@@ -2980,7 +2980,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             {
                 stat: "37 h",
                 description:
-                    "économisées chaque semaine sur les tâches administratives grâce à l’automatisation des processus clés.",
+                    "à Gimbebe, économisées chaque semaine sur le travail du secrétariat.",
                 bg: "dark",
             },
             {

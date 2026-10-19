@@ -2973,7 +2973,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             {
                 stat: "37 h",
                 description:
-                    "Astero aurreztuta administrazio-lanetan, prozesu gakoen automatizazioari esker.",
+                    "Gimbeben, astero aurreztuta idazkaritzako lanetan.",
                 bg: "dark",
             },
             {

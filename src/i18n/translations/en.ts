@@ -2685,7 +2685,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             {
                 stat: "37 h",
                 description:
-                    "Saved every week on administrative tasks thanks to automation of key processes.",
+                    "At Gimbebe, saved every week on office work.",
                 bg: "dark",
             },
             {
