@@ -4,6 +4,7 @@ date: "2025-07-20"
 translationKey: "edena-sostenibilidad-digital"
 description: "En un mundo cada vez más consciente de la importancia de la sostenibilidad, los centros educativos tienen una responsabilidad especial."
 tags: ["sostenibilidad", "digital", "medio ambiente", "educación"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1671829480432-9b0f10d869ef?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

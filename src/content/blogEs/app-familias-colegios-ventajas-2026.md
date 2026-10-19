@@ -13,6 +13,7 @@ tags:
         "notificaciones push",
         "Edena",
     ]
+topics: ["communication"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579621970343-21c491b3f363?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

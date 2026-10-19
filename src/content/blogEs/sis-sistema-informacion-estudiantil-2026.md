@@ -5,6 +5,7 @@ date: "2026-02-27"
 translationKey: "sis-sistema-informacion-estudiantil-2026"
 description: "Un SIS escolar, o sistema de información estudiantil, es la columna vertebral digital de cualquier centro educativo moderno."
 tags: ["SIS escolar", "sistema de información estudiantil", "gestión escolar", "centros educativos"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
 relatedPosts:

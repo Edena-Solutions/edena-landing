@@ -11,6 +11,7 @@ tags:
         "onboarding familias",
         "digitalización",
     ]
+topics: ["admissions", "communication"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1680391380106-de9702ca6246?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
 relatedPosts:

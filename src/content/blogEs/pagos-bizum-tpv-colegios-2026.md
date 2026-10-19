@@ -13,6 +13,7 @@ tags:
         "reducir impagos colegio",
         "Edena",
     ]
+topics: ["billing"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:

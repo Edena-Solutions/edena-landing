@@ -5,6 +5,7 @@ date: "2025-07-15"
 translationKey: "automatizacion-tareas-administrativas"
 description: "Los centros equilibran a diario la carga administrativa con su tarea educativa. Qué tareas automatizar primero para liberar tiempo del equipo."
 tags: ["automatización", "procesos administrativos", "eficiencia", "educación"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

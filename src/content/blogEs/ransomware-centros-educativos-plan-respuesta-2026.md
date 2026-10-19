@@ -5,6 +5,7 @@ date: "2026-08-10"
 translationKey: "ransomware-centros-educativos-plan-respuesta-2026"
 description: "Qué hacer en las primeras 72 horas de un ciberataque al centro: plazos de notificación NIS2 y RGPD, a quién llamar y qué decir a las familias."
 tags: ["ciberseguridad", "ransomware", "NIS2", "protección de datos", "gestión de crisis"]
+topics: ["data-protection"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1634224143538-ce0221abf732?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

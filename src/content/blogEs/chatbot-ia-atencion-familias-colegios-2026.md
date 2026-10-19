@@ -13,6 +13,7 @@ tags:
         "comunicación con familias",
         "Edena",
     ]
+topics: ["ai", "communication"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:

@@ -1,4 +1,5 @@
 import { defineCollection, z } from "astro:content";
+import { BLOG_TOPICS } from "../data/blogTopics";
 
 const pricingCollection = defineCollection({
     type: "content",
@@ -48,6 +49,9 @@ const blogPostSchema = z.object({
     translationKey: z.string().optional(),
     description: z.string(),
     tags: z.array(z.string()).optional(),
+    // One to three of the blog's topics (`src/data/blogTopics.ts`), set on the Spanish original;
+    // translations inherit them through `translationKey`.
+    topics: z.array(z.enum(BLOG_TOPICS)).optional(),
     author: z.string().optional(),
     cover: z.string().optional(),
     faqs: blogFaqSchema.optional(),

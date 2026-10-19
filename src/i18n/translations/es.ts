@@ -182,6 +182,24 @@ export default {
         onThisArticle: "En este artículo",
         title: "Guías y novedades de gestión escolar",
     },
+    /** The blog's topics: pills on each post and the filter on the blog (`src/data/blogTopics.ts`). */
+    blogTopics: {
+        label: "Temas",
+        filterLabel: "Filtrar por tema",
+        all: "Todos",
+        names: {
+            billing: "Facturación y cobros",
+            communication: "Comunicación con familias",
+            admissions: "Matrícula y captación",
+            management: "Gestión del centro",
+            regulation: "Normativa",
+            ai: "Inteligencia artificial",
+            "data-protection": "Protección de datos",
+            nurseries: "Escuelas infantiles",
+            academies: "Academias",
+            teaching: "Pedagogía e innovación",
+        },
+    },
     faqsPage: {
         searchPlaceholder: "Busca una pregunta",
         clearSearch: "Borrar búsqueda",

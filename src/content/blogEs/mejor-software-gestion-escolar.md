@@ -4,6 +4,7 @@ date: "2026-02-03"
 translationKey: "mejor-software-gestion-escolar"
 description: "Cómo elegir el software de gestión de tu centro: criterios, errores frecuentes, cinco pasos antes de pedir demos y un checklist para decidir con datos."
 tags: ["software gestión escolar", "centros educativos", "selección", "digitalización"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&auto=format&fit=crop"
 relatedPosts:

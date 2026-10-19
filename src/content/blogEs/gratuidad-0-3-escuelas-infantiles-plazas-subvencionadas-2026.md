@@ -5,6 +5,7 @@ date: "2026-08-05"
 translationKey: "gratuidad-0-3-escuelas-infantiles-plazas-subvencionadas-2026"
 description: "Cómo cambia la facturación de una escuela infantil cuando conviven plaza subvencionada, servicios complementarios y cuota privada con la gratuidad 0-3."
 tags: ["escuelas infantiles", "gratuidad 0-3", "subvenciones", "facturación", "guarderías"]
+topics: ["nurseries", "billing"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1634757439914-23b8acb9d411?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

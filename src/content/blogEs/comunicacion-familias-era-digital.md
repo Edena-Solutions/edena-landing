@@ -5,6 +5,7 @@ date: "2025-03-10"
 translationKey: "comunicacion-familias-era-digital"
 description: "Descubre cómo desarrollar estrategias de comunicación institucional efectivas que fortalezcan la relación entre centros educativos y familias."
 tags: ["comunicación institucional", "estrategias", "familias", "relaciones"]
+topics: ["communication"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

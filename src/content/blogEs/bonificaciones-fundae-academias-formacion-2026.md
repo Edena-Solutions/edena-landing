@@ -13,6 +13,7 @@ tags:
         "facturación formación",
         "Edena",
     ]
+topics: ["academies", "billing"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:

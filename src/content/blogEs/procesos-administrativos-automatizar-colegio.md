@@ -11,6 +11,7 @@ tags:
         "procesos",
         "digitalización",
     ]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?q=80&w=1035&auto=format&fit=crop"
 relatedPosts:

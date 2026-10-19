@@ -5,6 +5,7 @@ date: "2025-08-15"
 translationKey: "gestion-cambio-organizacional-educativo"
 description: "Aprende cómo gestionar efectivamente los procesos de cambio organizacional en centros educativos para asegurar transformaciones exitosas y sostenibles."
 tags: ["gestión del cambio", "liderazgo educativo", "transformación organizacional", "innovación"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1558932129-58b0867c4985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

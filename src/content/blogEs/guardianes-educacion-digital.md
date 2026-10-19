@@ -4,6 +4,7 @@ date: "2025-03-01"
 translationKey: "guardianes-educacion-digital"
 description: "En la era digital, el papel de los padres como guardianes de la educación de sus hijos ha evolucionado significativamente."
 tags: ["familias", "guardianes", "educación", "digital"]
+topics: ["communication"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1640622304233-7335e936f11b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

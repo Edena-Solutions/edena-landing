@@ -1,0 +1,83 @@
+---
+import {
+    Baby,
+    Landmark,
+    LayoutDashboard,
+    Lightbulb,
+    MessageCircle,
+    Receipt,
+    Scale,
+    ShieldCheck,
+    Sparkles,
+    UserPlus,
+} from "lucide-react";
+import { BLOG_TOPIC_COLORS, type BlogTopic } from "@/data/blogTopics";
+
+/*
+ * A blog topic as a `.ds-pill`. With `href` it is a link (a post's topics, each leading to the blog
+ * filtered by it); with `button` it is a toggle for the blog's filter (`aria-pressed`, the topic in
+ * `data-topic`); otherwise a plain label, as inside a card, which is a link already. `size="sm"` is
+ * the card's quiet label, without the icon.
+ */
+interface Props {
+    topic?: BlogTopic;
+    label: string;
+    href?: string;
+    button?: boolean;
+    pressed?: boolean;
+    count?: number;
+    size?: "sm" | "md";
+}
+
+const { topic, label, href, button = false, pressed = false, count, size = "md" } = Astro.props;
+
+const ICONS = {
+    billing: Receipt,
+    communication: MessageCircle,
+    admissions: UserPlus,
+    management: LayoutDashboard,
+    regulation: Scale,
+    ai: Sparkles,
+    "data-protection": ShieldCheck,
+    nurseries: Baby,
+    academies: Landmark,
+    teaching: Lightbulb,
+} satisfies Record<BlogTopic, unknown>;
+
+const Icon = topic && size === "md" ? ICONS[topic] : null;
+const color = topic ? BLOG_TOPIC_COLORS[topic] : undefined;
+const classes = ["ds-pill", size === "sm" && "ds-pill--sm", color && "ds-pill--tone"];
+const style = color ? `--pill: ${color}` : undefined;
+---
+
+{
+    href ? (
+        <a href={href} class:list={classes} style={style}>
+            {Icon && (
+                <span class="ds-pill-icon" aria-hidden="true">
+                    <Icon />
+                </span>
+            )}
+            {label}
+        </a>
+    ) : button ? (
+        <button
+            type="button"
+            class:list={classes}
+            style={style}
+            aria-pressed={pressed ? "true" : "false"}
+            data-topic={topic ?? ""}
+            data-label={label}
+        >
+            {Icon && (
+                <span class="ds-pill-icon" aria-hidden="true">
+                    <Icon />
+                </span>
+            )}
+            {label}
+            {count !== undefined && <span class="ds-pill-count">{count}</span>}
+        </button>
+    ) : (
+        <span class:list={classes} style={style}>{label}</span>
+    )
+}

@@ -5,6 +5,7 @@ date: "2025-08-10"
 translationKey: "metodologias-pedagogicas-innovadoras"
 description: "Qué metodologías pedagógicas innovadoras están complementando a la enseñanza tradicional y cómo empezar a aplicarlas en el aula de tu centro."
 tags: ["metodologías pedagógicas", "innovación educativa", "enseñanza activa", "aprendizaje"]
+topics: ["teaching"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1611348586755-53860f7ae57a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

@@ -5,6 +5,7 @@ date: "2026-08-12"
 translationKey: "cambiar-software-escolar-interoperabilidad-portabilidad-datos-2026"
 description: "Qué preguntar por escrito antes de firmar con un proveedor de gestión escolar: qué exportas, en qué formato, qué integra y qué pasa con tus datos."
 tags: ["interoperabilidad", "portabilidad de datos", "API", "migración", "elección de software"]
+topics: ["management", "data-protection"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1682145189653-bb0b79db3415?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

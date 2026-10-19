@@ -13,6 +13,7 @@ tags:
         "plataforma escolar",
         "automatización administración educativa",
     ]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:

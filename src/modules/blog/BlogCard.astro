@@ -4,9 +4,12 @@ import { localePath } from "@/i18n/index.ts";
 import type { Translation } from "@/i18n";
 import { formatLongDate } from "@/lib/intl-locale";
 import { coverAt, coverSrcset, readingMinutes } from "@/lib/blog-article";
+import type { TopicLabel } from "@/lib/blog-topics";
+import TopicPill from "@/components/ds/TopicPill.astro";
 
 /*
- * A post as the blog lists it: the cover, then when and how long, the title and its first lines.
+ * A post as the blog lists it: the cover, then when and how long, the title and its first lines,
+ * and at its foot the topics it belongs to, as quiet labels (the card is the link).
  * `featured` is the newest post's wide tile — the photo on one side, the title at display size on
  * the other — that opens the blog.
  */
@@ -15,9 +18,10 @@ interface Props {
     lang: string;
     post: { slug: string; body: string; data: { title: string; description: string; date: string; cover?: string } };
     featured?: boolean;
+    topics?: TopicLabel[];
 }
 
-const { t, lang, post, featured = false } = Astro.props;
+const { t, lang, post, featured = false, topics = [] } = Astro.props;
 const href = localePath(lang, `/blog/${post.slug}`);
 const meta = `${formatLongDate(lang, post.data.date)} | ${t.blogPage.readingTime.replace("{n}", String(readingMinutes(post.body)))}`;
 const cover = post.data.cover;
@@ -43,6 +47,15 @@ const cover = post.data.cover;
                 <h2 class="type-title-1 text-balance font-semibold text-ink">{post.data.title}</h2>
                 <p class="type-body line-clamp-3 text-ink-2">{post.data.description}</p>
                 <p class="type-footnote text-ink-3">{meta}</p>
+                {topics.length > 0 && (
+                    <ul class="blog-topics" aria-label={t.blogTopics.label}>
+                        {topics.map((topic) => (
+                            <li>
+                                <TopicPill topic={topic.id} label={topic.label} size="sm" />
+                            </li>
+                        ))}
+                    </ul>
+                )}
                 <span class="ds-link mt-1 type-callout">
                     {t.blogPage.readArticle}
                     <ChevronRight />
@@ -67,12 +80,30 @@ const cover = post.data.cover;
                 <p class="type-footnote text-ink-3">{meta}</p>
                 <h3 class="type-title-3 line-clamp-3 text-balance font-semibold text-ink">{post.data.title}</h3>
                 <p class="type-footnote line-clamp-2 text-ink-2">{post.data.description}</p>
+                {topics.length > 0 && (
+                    <ul class="blog-topics mt-auto pt-2" aria-label={t.blogTopics.label}>
+                        {topics.map((topic) => (
+                            <li>
+                                <TopicPill topic={topic.id} label={topic.label} size="sm" />
+                            </li>
+                        ))}
+                    </ul>
+                )}
             </div>
         </a>
     )
 }
 
 <style>
+    .blog-topics {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.375rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
     .blog-cover {
         position: relative;
         overflow: hidden;

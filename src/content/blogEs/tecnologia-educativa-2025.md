@@ -5,6 +5,7 @@ date: "2025-01-30"
 translationKey: "tecnologia-educativa-2025"
 description: "Explora las tecnologías emergentes que están transformando la educación y cómo los centros educativos pueden prepararse para el futuro digital."
 tags: ["tecnología", "educación", "innovación", "tendencias"]
+topics: ["teaching"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

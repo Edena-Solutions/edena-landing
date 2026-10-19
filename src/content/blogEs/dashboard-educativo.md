@@ -5,6 +5,7 @@ date: "2025-02-25"
 translationKey: "dashboard-educativo"
 description: "En la era de la información, los centros educativos necesitan herramientas de gestión que proporcionen visibilidad total sobre todas sus operaciones."
 tags: ["dashboard", "gestión administrativa", "estrategia", "dirección"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1629721671030-a83edbb11211?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

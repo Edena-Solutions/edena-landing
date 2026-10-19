@@ -5,6 +5,7 @@ date: "2026-03-05"
 translationKey: "errores-digitalizacion-colegios-software"
 description: "La digitalización educativa avanza, pero muchos centros cometen errores que retrasan resultados, generan resistencia o desperdician inversión."
 tags: ["digitalización educativa", "software para colegios", "implementación", "errores"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677269465314-d5d2247a0b0c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJvYm90fGVufDB8fDB8fHww"
 relatedPosts:

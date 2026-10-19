@@ -7,9 +7,11 @@ interface Props {
     cover?: string;
     url: string;
     lang?: string;
+    /** The blog topics the article belongs to, by name. */
+    sections?: string[];
 }
 
-const { title, description, date, author = "Edena Team", cover, url, lang = "es" } = Astro.props;
+const { title, description, date, author = "Edena Team", cover, url, lang = "es", sections = [] } = Astro.props;
 
 interface ArticleSchema {
     "@context": string;
@@ -39,6 +41,7 @@ interface ArticleSchema {
         "@type": string;
         url: string;
     };
+    articleSection?: string[];
 }
 
 const articleSchema: ArticleSchema = {
@@ -81,6 +84,9 @@ if (cover) {
         "@type": "ImageObject",
         url: cover.startsWith("http") ? cover : `https://edena.es${cover}`,
     };
+}
+if (sections.length > 0) {
+    articleSchema.articleSection = sections;
 }
 ---
 

@@ -5,6 +5,7 @@ date: "2025-01-10"
 translationKey: "analitica-rendimiento-academico"
 description: "La analítica educativa está cambiando la forma en que los centros gestionan el aprendizaje y el desarrollo de los estudiantes."
 tags: ["analítica", "rendimiento académico", "personalización", "educación"]
+topics: ["teaching", "management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1599081593734-5e65dd7abfba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

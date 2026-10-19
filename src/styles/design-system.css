@@ -2274,6 +2274,172 @@ html.dark [data-ena] .material-glass {
             0 6px 16px -6px rgb(0 0 0 / 0.25);
     }
 
+    /*
+     * A pill: a topic or a filter as a short rounded label, the FAQ topic chips' shape. At rest a
+     * quiet fill on a hairline; as a link or a button it deepens under the pointer and gives under
+     * the finger; chosen (`aria-pressed`, `aria-current`) it turns ink, like the language choice in
+     * the menu. A topic (`.ds-pill--tone`, `--pill`) takes its colour the way the home hero's
+     * centre pills do: the label and icon are the colour, the fill is that colour at low opacity,
+     * and the chosen one keeps the colour with a stronger fill and a ring. An icon sits at its
+     * start, a count after the label. `--sm` is the label inside a card: smaller, never a control.
+     */
+    .ds-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-shrink: 0;
+        min-height: 2.25rem;
+        padding: 0.3rem 0.95rem;
+        border-radius: 999px;
+        background-color: var(--ds-canvas-2);
+        box-shadow: inset 0 0 0 1px var(--ds-hairline);
+        color: var(--ds-ink);
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        letter-spacing: -0.006em;
+        font-weight: 600;
+        white-space: nowrap;
+        text-decoration: none;
+        transition:
+            background-color 240ms var(--ease-fluid),
+            color 240ms var(--ease-fluid),
+            box-shadow 240ms var(--ease-fluid),
+            scale 400ms var(--ease-spring);
+    }
+
+    .ds-pill:has(> .ds-pill-icon) {
+        padding-left: 0.3rem;
+    }
+
+    .ds-pill-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 1.625rem;
+        height: 1.625rem;
+        border-radius: 999px;
+        color: #ffffff;
+        box-shadow:
+            inset 0 1px 0 rgb(255 255 255 / 0.25),
+            0 1px 2px rgb(0 0 0 / 0.08);
+    }
+
+    .ds-pill-icon svg {
+        width: 0.8125rem;
+        height: 0.8125rem;
+    }
+
+    .ds-pill-count {
+        font-weight: 500;
+        font-variant-numeric: tabular-nums;
+        color: var(--ds-ink-3);
+        transition: color 240ms var(--ease-fluid);
+    }
+
+    :is(a, button).ds-pill {
+        cursor: pointer;
+    }
+
+    :is(a, button).ds-pill:hover {
+        background-color: var(--ds-fill-2);
+    }
+
+    :is(a, button).ds-pill:active {
+        scale: 0.96;
+        transition-duration: 80ms;
+    }
+
+    .ds-pill:is([aria-pressed="true"], [aria-current]) {
+        background-color: var(--ds-ink);
+        box-shadow: inset 0 0 0 1px var(--ds-ink);
+        color: var(--ds-canvas);
+    }
+
+    .ds-pill:is([aria-pressed="true"], [aria-current]) .ds-pill-count {
+        color: color-mix(in srgb, var(--ds-canvas) 65%, transparent);
+    }
+
+    .ds-pill:focus-visible {
+        outline: 2px solid var(--ds-focus);
+        outline-offset: 3px;
+    }
+
+    .ds-pill--sm {
+        gap: 0.375rem;
+        min-height: 1.5rem;
+        padding: 0.125rem 0.625rem;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        letter-spacing: 0;
+        font-weight: 500;
+        color: var(--ds-ink-2);
+    }
+
+    /* A topic's own colour: the text is the colour, the fill is the colour nearly clear. */
+    .ds-pill--tone {
+        background-color: color-mix(in srgb, var(--pill) 14%, transparent);
+        box-shadow: none;
+        color: var(--pill);
+    }
+
+    .ds-pill--tone:has(> .ds-pill-icon) {
+        gap: 0.4rem;
+        padding-left: 0.7rem;
+    }
+
+    .ds-pill--tone .ds-pill-icon {
+        width: 1rem;
+        height: 1rem;
+        background: none;
+        box-shadow: none;
+        color: inherit;
+    }
+
+    .ds-pill--tone .ds-pill-icon svg {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .ds-pill--tone .ds-pill-count {
+        color: color-mix(in srgb, var(--pill) 62%, transparent);
+    }
+
+    :is(a, button).ds-pill--tone:hover {
+        background-color: color-mix(in srgb, var(--pill) 24%, transparent);
+    }
+
+    .ds-pill--tone:is([aria-pressed="true"], [aria-current]),
+    :is(a, button).ds-pill--tone:is([aria-pressed="true"], [aria-current]):hover {
+        background-color: color-mix(in srgb, var(--pill) 24%, transparent);
+        box-shadow: inset 0 0 0 1.5px var(--pill);
+        color: var(--pill);
+    }
+
+    .ds-pill--tone:is([aria-pressed="true"], [aria-current]) .ds-pill-count {
+        color: color-mix(in srgb, var(--pill) 72%, transparent);
+    }
+
+    @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+        .ds-pill--tone {
+            background-color: var(--ds-canvas);
+            box-shadow: inset 0 0 0 1.5px var(--pill);
+        }
+
+        :is(a, button).ds-pill--tone:hover,
+        .ds-pill--tone:is([aria-pressed="true"], [aria-current]),
+        :is(a, button).ds-pill--tone:is([aria-pressed="true"], [aria-current]):hover {
+            background-color: var(--ds-canvas);
+            box-shadow: inset 0 0 0 1.5px var(--pill);
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .ds-pill {
+            transition: none;
+        }
+    }
+
     /* Film grain over large gradients, so they do not band. */
     .ds-grain::after {
         content: "";

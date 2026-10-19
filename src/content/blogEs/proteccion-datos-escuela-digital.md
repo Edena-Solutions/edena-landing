@@ -4,6 +4,7 @@ date: "2026-02-14"
 translationKey: "proteccion-datos-escuela-digital"
 description: "Qué responsabilidades, riesgos y medidas implica tratar datos de alumnos, familias y personal en la gestión digital de un centro educativo."
 tags: ["protección datos escuela digital", "GDPR", "seguridad", "directivos"]
+topics: ["data-protection"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1545175928-65a104e66691?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

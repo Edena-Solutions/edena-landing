@@ -5,6 +5,7 @@ date: "2025-08-25"
 translationKey: "espacios-educativos-futuro-diseno"
 description: "Los espacios físicos donde ocurre el aprendizaje tienen un impacto profundo y frecuentemente subestimado en la efectividad educativa."
 tags: ["espacios educativos", "diseño arquitectónico", "innovación", "aprendizaje flexible"]
+topics: ["teaching"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1579388654549-1f4e8c79b5a4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

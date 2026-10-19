@@ -13,6 +13,7 @@ tags:
         "cobros academia",
         "Edena",
     ]
+topics: ["academies", "management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:

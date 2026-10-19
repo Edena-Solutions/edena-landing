@@ -13,6 +13,7 @@ tags:
         "feedback centro educativo",
         "Edena",
     ]
+topics: ["communication", "admissions"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

@@ -5,6 +5,7 @@ date: "2024-10-15"
 translationKey: "innovacion-pedagogica-tecnologia"
 description: "Explora cómo la tecnología está cambiando las metodologías pedagógicas y creando experiencias de aprendizaje más efectivas y atractivas."
 tags: ["innovación", "pedagogía", "metodologías", "aprendizaje"]
+topics: ["teaching"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1564514476902-542f8c30121e?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

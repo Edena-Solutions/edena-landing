@@ -181,6 +181,24 @@ export default {
         onThisArticle: "Dans cet article",
         title: "Guides et actualités de la gestion scolaire",
     },
+    /** The blog's topics: pills on each post and the filter on the blog (`src/data/blogTopics.ts`). */
+    blogTopics: {
+        label: "Thèmes",
+        filterLabel: "Filtrer par thème",
+        all: "Tous",
+        names: {
+            billing: "Facturation et encaissements",
+            communication: "Communication avec les familles",
+            admissions: "Inscriptions et recrutement",
+            management: "Gestion de l'établissement",
+            regulation: "Réglementation",
+            ai: "Intelligence artificielle",
+            "data-protection": "Protection des données",
+            nurseries: "Crèches",
+            academies: "Académies",
+            teaching: "Pédagogie et innovation",
+        },
+    },
     faqsPage: {
         searchPlaceholder: "Rechercher une question",
         clearSearch: "Effacer la recherche",

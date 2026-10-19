@@ -13,6 +13,7 @@ tags:
         "extraescolares colegio",
         "Edena",
     ]
+topics: ["management", "billing"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:

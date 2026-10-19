@@ -13,6 +13,7 @@ tags:
         "dirección red de centros",
         "Edena",
     ]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1577412647305-991150c7d163?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:

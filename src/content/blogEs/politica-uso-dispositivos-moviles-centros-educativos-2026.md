@@ -5,6 +5,7 @@ date: "2026-08-14"
 translationKey: "politica-uso-dispositivos-moviles-centros-educativos-2026"
 description: "La Ley de Protección de Menores en Entornos Digitales obligará a regular los dispositivos. Qué debe incluir la política y cómo comunicarla a las familias."
 tags: ["dispositivos móviles", "protección de menores", "normativa", "convivencia", "consentimiento"]
+topics: ["regulation", "data-protection"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?q=80&w=820&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

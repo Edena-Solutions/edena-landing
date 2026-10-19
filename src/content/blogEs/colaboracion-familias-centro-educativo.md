@@ -5,6 +5,7 @@ date: "2024-10-30"
 translationKey: "colaboracion-familias-centro-educativo"
 description: "Descubre cómo la tecnología puede fortalecer la colaboración entre familias y centros educativos, creando una comunidad educativa más fuerte y efectiva."
 tags: ["colaboración", "familias", "comunidad", "participación"]
+topics: ["communication"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

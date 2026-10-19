@@ -4,6 +4,7 @@ date: "2026-02-10"
 translationKey: "automatizacion-absentismo-escolar"
 description: "El absentismo escolar no se resuelve solo con normativa: requiere registro fiable, detección temprana y comunicación ágil con las familias."
 tags: ["automatización", "absentismo escolar", "asistencia", "centros educativos"]
+topics: ["management", "communication"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"
 relatedPosts:

@@ -4,6 +4,7 @@ date: "2026-02-17"
 translationKey: "comunicacion-digital-centros-educativos"
 description: "El email no basta para hablar con las familias: circulares, recordatorios de pago, ausencias y avisos urgentes necesitan canales que consulten a diario."
 tags: ["comunicación digital centros educativos", "familias", "canales", "herramientas"]
+topics: ["communication"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1170&auto=format&fit=crop"
 relatedPosts:

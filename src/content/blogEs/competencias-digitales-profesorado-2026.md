@@ -12,6 +12,7 @@ tags:
         "Plan DigEdu",
         "profesorado 2026",
     ]
+topics: ["teaching"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1568828668638-b1b4014d91a2?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

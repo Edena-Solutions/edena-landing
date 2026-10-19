@@ -186,6 +186,24 @@ export default {
         onThisArticle: "Artikulu honetan",
         title: "Eskola-kudeaketari buruzko gidak eta berriak",
     },
+    /** The blog's topics: pills on each post and the filter on the blog (`src/data/blogTopics.ts`). */
+    blogTopics: {
+        label: "Gaiak",
+        filterLabel: "Iragazi gaiaren arabera",
+        all: "Guztiak",
+        names: {
+            billing: "Fakturazioa eta kobrantzak",
+            communication: "Familiekiko komunikazioa",
+            admissions: "Matrikula eta erakarpena",
+            management: "Zentroaren kudeaketa",
+            regulation: "Araudia",
+            ai: "Adimen artifiziala",
+            "data-protection": "Datuen babesa",
+            nurseries: "Haur-eskolak",
+            academies: "Akademiak",
+            teaching: "Pedagogia eta berrikuntza",
+        },
+    },
     faqsPage: {
         searchPlaceholder: "Bilatu galdera bat",
         clearSearch: "Garbitu bilaketa",

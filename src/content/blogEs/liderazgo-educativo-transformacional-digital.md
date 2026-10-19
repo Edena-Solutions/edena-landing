@@ -6,6 +6,7 @@ translationKey: "liderazgo-educativo-transformacional-digital"
 description: "La digitalización falla cuando dirección anuncia el cambio sin traducirlo en menos horas de administración, menos morosidad o mejor respuesta a familias."
 tags:
     ["liderazgo educativo", "transformación digital", "competencias directivas", "gestión escolar"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1601231808069-e6103868f686?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

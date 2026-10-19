@@ -5,6 +5,7 @@ date: "2024-09-30"
 translationKey: "competencia-digital-educadores"
 description: "Descubre las competencias digitales esenciales que los educadores necesitan para preparar a sus estudiantes para el mundo digital."
 tags: ["competencia digital", "formación docente", "tecnología", "educadores"]
+topics: ["teaching"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

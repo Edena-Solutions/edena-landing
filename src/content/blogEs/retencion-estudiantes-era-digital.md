@@ -5,6 +5,7 @@ date: "2024-11-28"
 translationKey: "retencion-estudiantes-era-digital"
 description: "Descubre cómo la tecnología puede ayudar a mejorar la retención de estudiantes y crear experiencias educativas más atractivas y personalizadas."
 tags: ["retención", "estudiantes", "personalización", "engagement"]
+topics: ["admissions"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

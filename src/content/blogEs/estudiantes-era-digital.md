@@ -4,6 +4,7 @@ date: "2025-03-05"
 translationKey: "estudiantes-era-digital"
 description: "Descubre cómo los estudiantes de hoy interactúan con la tecnología y cómo los centros educativos pueden aprovechar esta realidad."
 tags: ["estudiantes", "tecnología", "educación", "digital"]
+topics: ["teaching"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1604933834413-4cbe62737214?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

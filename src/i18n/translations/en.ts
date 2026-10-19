@@ -174,6 +174,24 @@ export default {
         onThisArticle: "In this article",
         title: "Guides and news on school management",
     },
+    /** The blog's topics: pills on each post and the filter on the blog (`src/data/blogTopics.ts`). */
+    blogTopics: {
+        label: "Topics",
+        filterLabel: "Filter by topic",
+        all: "All",
+        names: {
+            billing: "Billing and payments",
+            communication: "Family communication",
+            admissions: "Enrolment and admissions",
+            management: "School management",
+            regulation: "Regulations",
+            ai: "Artificial intelligence",
+            "data-protection": "Data protection",
+            nurseries: "Nurseries",
+            academies: "Academies",
+            teaching: "Teaching and innovation",
+        },
+    },
     faqsPage: {
         searchPlaceholder: "Search the questions",
         clearSearch: "Clear search",

@@ -5,6 +5,7 @@ date: "2026-03-15"
 translationKey: "analitica-educativa-dashboards-escolares"
 description: "Cómo usar la analítica educativa y un dashboard escolar para que secretaría y dirección tomen decisiones semanales con datos y no por intuición."
 tags: ["analítica educativa", "dashboard escolar", "datos", "toma de decisiones"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

@@ -6,6 +6,7 @@ translationKey: "expediente-academico-digital-estudiantes"
 description: "Expedientes repartidos en carpetas, hojas de cálculo y correos generan errores y retrasos. Cómo centralizar toda la información del alumno en un sistema."
 tags:
     ["expediente académico digital", "gestión de estudiantes colegio", "SIS", "centros educativos"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1769074257962-c297d5908fd5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2VudHJhbGl6ZWR8ZW58MHx8MHx8fDA%3D"
 relatedPosts:

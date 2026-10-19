@@ -13,6 +13,7 @@ tags:
         "facturación escolar",
         "Edena",
     ]
+topics: ["billing", "regulation"]
 author: "ENA by Edena"
 cover: "https://cdn.nubeico.es/img/blog/1003/2025/8/cambiar-facturacion-a-verifactu-zci.jpg"
 relatedPosts:

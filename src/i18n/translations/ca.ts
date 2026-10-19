@@ -182,6 +182,24 @@ export default {
         onThisArticle: "En aquest article",
         title: "Guies i novetats de gestió escolar",
     },
+    /** The blog's topics: pills on each post and the filter on the blog (`src/data/blogTopics.ts`). */
+    blogTopics: {
+        label: "Temes",
+        filterLabel: "Filtra per tema",
+        all: "Tots",
+        names: {
+            billing: "Facturació i cobraments",
+            communication: "Comunicació amb famílies",
+            admissions: "Matrícula i captació",
+            management: "Gestió del centre",
+            regulation: "Normativa",
+            ai: "Intel·ligència artificial",
+            "data-protection": "Protecció de dades",
+            nurseries: "Escoles infantils",
+            academies: "Acadèmies",
+            teaching: "Pedagogia i innovació",
+        },
+    },
     faqsPage: {
         searchPlaceholder: "Cerca una pregunta",
         clearSearch: "Esborra la cerca",

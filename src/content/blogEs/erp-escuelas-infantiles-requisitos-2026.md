@@ -12,6 +12,7 @@ tags:
         "plataforma escolar",
         "Edena",
     ]
+topics: ["nurseries", "management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:

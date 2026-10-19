@@ -4,6 +4,7 @@ date: "2026-02-12"
 translationKey: "seo-centros-educativos"
 description: "Las búsquedas del tipo \"colegio privado [ciudad]\", \"guardería bilingüe [zona]\" o \"mejor centro [etapa] cerca de [área]\" reflejan intención de elección."
 tags: ["SEO centros educativos", "visibilidad", "captación", "marketing"]
+topics: ["admissions"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1743769446613-baab1264496d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

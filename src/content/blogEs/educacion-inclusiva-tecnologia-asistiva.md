@@ -5,6 +5,7 @@ date: "2025-08-05"
 translationKey: "educacion-inclusiva-tecnologia-asistiva"
 description: "Cómo la tecnología asistiva ayuda a integrar a alumnos con necesidades y capacidades diversas, con enfoques que van más allá de la clase tradicional."
 tags: ["educación inclusiva", "tecnología asistiva", "accesibilidad", "diversidad"]
+topics: ["teaching"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1550418290-a8d86ad674a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

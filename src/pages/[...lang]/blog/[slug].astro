@@ -7,6 +7,7 @@ import { translations, localePath } from "@/i18n/index.ts";
 import ArticleSchema from "@/components/StructuredData/Article.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
 import FaqPanel from "@/components/ds/FaqPanel.astro";
+import TopicPill from "@/components/ds/TopicPill.astro";
 import { LogoMark } from "@/components/wizard/app-frame";
 import enaLogo from "@/assets/img/logos/ena.png";
 import HomeMotion from "@/modules/home/HomeMotion.astro";
@@ -24,6 +25,7 @@ import {
     type ArticleHeading,
 } from "@/lib/blog-article";
 import { relatedSlugsForPost, splitBeforeConclusion } from "@/lib/blog-related-posts";
+import { topicHref, topicLabels, topicsFor } from "@/lib/blog-topics";
 
 /*
  * A post, in the home's design and at the pace of reading: the title, its line and its byline
@@ -113,6 +115,8 @@ const blogUrl = `https://edena.es/${langPrefix}blog`;
 const homeUrl = `https://edena.es/${langPrefix}`;
 
 const alternates = await blogAlternatesFor(lang, slug);
+// Its topics, each a way into the blog filtered by it.
+const topics = topicLabels(t, await topicsFor(post));
 const coverIsUnsplash = Boolean(post.data.cover?.includes("unsplash.com"));
 const [unsplashCreditBefore, unsplashCreditAfter] = t.blog.unsplashCredit.split("{source}");
 
@@ -180,6 +184,21 @@ const byEna = /^ena\b/i.test(author);
                         </span>
                     </span>
                 </div>
+                {
+                    topics.length > 0 && (
+                        <ul
+                            class="ds-intro mt-7 flex list-none flex-wrap justify-center gap-2 p-0"
+                            style="--intro-i: 2"
+                            aria-label={t.blogTopics.label}
+                        >
+                            {topics.map((topic) => (
+                                <li>
+                                    <TopicPill topic={topic.id} label={topic.label} href={topicHref(lang, topic.id)} />
+                                </li>
+                            ))}
+                        </ul>
+                    )
+                }
             </div>
         </header>
 
@@ -294,6 +313,7 @@ const byEna = /^ena\b/i.test(author);
         cover={post.data.cover}
         url={postUrl}
         lang={lang}
+        sections={topics.map((topic) => topic.label)}
     />
     <BreadcrumbListSchema
         slot="structured-data"

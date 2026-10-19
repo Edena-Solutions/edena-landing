@@ -5,6 +5,7 @@ date: "2025-01-20"
 translationKey: "experiencia-usuario-tecnologia-educativa"
 description: "Por qué la experiencia de usuario decide si la tecnología educativa se adopta, y cómo elegir herramientas que el equipo y las familias quieran usar."
 tags: ["UX", "experiencia", "tecnología", "educación"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

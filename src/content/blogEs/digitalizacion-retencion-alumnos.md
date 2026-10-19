@@ -4,6 +4,7 @@ date: "2026-02-07"
 translationKey: "digitalizacion-retencion-alumnos"
 description: "La experiencia administrativa y la comunicación con las familias influyen en que renueven la matrícula o busquen otro centro. Cómo cuidarlas."
 tags: ["retención escolar", "digitalización", "centros educativos", "administración"]
+topics: ["admissions"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop"
 relatedPosts:

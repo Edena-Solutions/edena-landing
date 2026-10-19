@@ -5,6 +5,7 @@ date: "2026-02-27"
 translationKey: "dashboards-educativos-metricas"
 description: "Un dashboard educativo concentra en una sola vista indicadores clave de gestión: cobro, retención, asistencia, ocupación y, si aplica, resultados académicos."
 tags: ["dashboard educativo métricas", "datos", "dirección", "indicadores"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1667850562258-b77dfa54c79d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

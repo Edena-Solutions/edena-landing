@@ -5,6 +5,7 @@ date: "2024-12-15"
 translationKey: "transformacion-digital-centros-educativos"
 description: "Descubre las estrategias clave para implementar exitosamente la transformación digital en centros educativos y superar los desafíos comunes."
 tags: ["transformación digital", "cambio organizacional", "liderazgo", "innovación"]
+topics: ["management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:

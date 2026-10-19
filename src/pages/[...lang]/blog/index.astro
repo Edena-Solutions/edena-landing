@@ -6,14 +6,19 @@ import HomeMotion from "@/modules/home/HomeMotion.astro";
 import ClosingCta from "@/modules/home/ClosingCta.astro";
 import PageHero from "@/modules/product/PageHero.astro";
 import SearchField from "@/components/ds/SearchField.astro";
+import TopicPill from "@/components/ds/TopicPill.astro";
 import BlogCard from "@/modules/blog/BlogCard.astro";
 import { blogCollectionForLang } from "@/lib/blog-collection";
 import { foldText } from "@/lib/search-text";
+import { topicLabels, topicsFor } from "@/lib/blog-topics";
+import { BLOG_TOPICS, TOPIC_PARAM } from "@/data/blogTopics";
 
 /*
- * The blog, in the home's design: a search field under the title, the newest post as a wide tile,
- * then every other post in a grid of cards, a dozen at a time. All of them are in the page (hidden
- * past the first dozen), so search reaches every post and crawlers every link.
+ * The blog, in the home's design: a search field under the title and the topics as a row of pills,
+ * the newest post as a wide tile, then every other post in a grid of cards, a dozen at a time. All
+ * of them are in the page (hidden past the first dozen), so search and the topic filter reach every
+ * post and crawlers every link. The chosen topic is kept in the address (`?topic=`), so a post's
+ * topic pill can link straight to it and a filtered blog can be shared.
  */
 
 export async function getStaticPaths() {
@@ -36,8 +41,23 @@ const posts = (await getCollection(blogCollectionForLang(lang))).sort((a, b) =>
     b.data.date.localeCompare(a.data.date),
 );
 const [latest, ...rest] = posts;
+const topicsBySlug = new Map(
+    await Promise.all(posts.map(async (post) => [post.slug, topicLabels(t, await topicsFor(post))] as const)),
+);
+const topicsOf = (post: (typeof posts)[number]) => topicsBySlug.get(post.slug) ?? [];
 const searchText = (post: (typeof posts)[number]) =>
-    foldText(`${post.data.title} ${post.data.description} ${(post.data.tags ?? []).join(" ")}`);
+    foldText(
+        `${post.data.title} ${post.data.description} ${(post.data.tags ?? []).join(" ")} ${topicsOf(post)
+            .map((topic) => topic.label)
+            .join(" ")}`,
+    );
+const topicIds = (post: (typeof posts)[number]) => topicsOf(post).map((topic) => topic.id).join(" ");
+// Only the topics this language's posts use, in the list's order, with how many posts each has.
+const filters = BLOG_TOPICS.map((id) => ({
+    id,
+    label: t.blogTopics.names[id],
+    count: posts.filter((post) => topicsOf(post).some((topic) => topic.id === id)).length,
+})).filter((filter) => filter.count > 0);
 ---
 
 <Layout
@@ -56,6 +76,28 @@ const searchText = (post: (typeof posts)[number]) =>
                 clearLabel={t.blogPage.clearSearch}
             />
         </div>
+        {
+            filters.length > 0 && (
+                <div class="ds-intro mt-6 w-full max-w-4xl" style="--intro-i: 3">
+                    <ul
+                        class="blog-filter ds-scroll-fade"
+                        data-fade="end"
+                        aria-label={t.blogTopics.filterLabel}
+                        data-blog-filter
+                        data-param={TOPIC_PARAM}
+                    >
+                        <li>
+                            <TopicPill button pressed label={t.blogTopics.all} count={posts.length} />
+                        </li>
+                        {filters.map((filter) => (
+                            <li>
+                                <TopicPill button topic={filter.id} label={filter.label} count={filter.count} />
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )
+        }
     </PageHero>
 
     <section class="ds-section pt-10 sm:pt-14" data-blog-index data-page={PAGE}>
@@ -63,7 +105,7 @@ const searchText = (post: (typeof posts)[number]) =>
             {
                 latest && (
                     <div data-blog-latest data-reveal="rise">
-                        <BlogCard t={t} lang={lang} post={latest} featured />
+                        <BlogCard t={t} lang={lang} post={latest} topics={topicsOf(latest)} featured />
                     </div>
                 )
             }
@@ -84,9 +126,10 @@ const searchText = (post: (typeof posts)[number]) =>
                             data-blog-item
                             data-latest
                             data-search={searchText(latest)}
+                            data-topics={topicIds(latest)}
                             hidden
                         >
-                            <BlogCard t={t} lang={lang} post={latest} />
+                            <BlogCard t={t} lang={lang} post={latest} topics={topicsOf(latest)} />
                         </li>
                     )
                 }
@@ -96,10 +139,11 @@ const searchText = (post: (typeof posts)[number]) =>
                             class="blog-item"
                             data-blog-item
                             data-search={searchText(post)}
+                            data-topics={topicIds(post)}
                             style={`--i: ${index % PAGE}`}
                             hidden={index >= PAGE}
                         >
-                            <BlogCard t={t} lang={lang} post={post} />
+                            <BlogCard t={t} lang={lang} post={post} topics={topicsOf(post)} />
                         </li>
                     ))
                 }
@@ -138,24 +182,37 @@ const searchText = (post: (typeof posts)[number]) =>
         const page = Number(root.dataset.page) || 12;
         const input = document.querySelector<HTMLInputElement>("[data-search-input]");
         const clear = document.querySelector<HTMLButtonElement>("[data-search-clear]");
+        const filter = document.querySelector<HTMLElement>("[data-blog-filter]");
+        const param = filter?.dataset.param ?? "topic";
+        const pills = [...(filter?.querySelectorAll<HTMLButtonElement>("button[data-topic]") ?? [])];
         const latest = root.querySelector<HTMLElement>("[data-blog-latest]");
         const heading = root.querySelector<HTMLElement>("[data-blog-heading]");
+        const headingText = heading?.textContent ?? "";
         const empty = root.querySelector<HTMLElement>("[data-blog-empty]");
         const more = root.querySelector<HTMLButtonElement>("[data-blog-more]");
         const items = [...root.querySelectorAll<HTMLElement>("[data-blog-item]")];
         const listed = items.filter((item) => !item.hasAttribute("data-latest"));
         let shown = page;
 
-        // Browsing: the newest post on its own tile, then a dozen more at a time. Searching: every
-        // post that matches, the newest included, in the grid.
+        // The topic in the address, if it is one this blog has.
+        const requested = new URLSearchParams(location.search).get(param) ?? "";
+        let topic = pills.some((pill) => pill.dataset.topic === requested) ? requested : "";
+
+        const hasTopic = (item: HTMLElement) => (item.dataset.topics ?? "").split(" ").includes(topic);
+
+        // Browsing: the newest post on its own tile, then a dozen more at a time. Searching or
+        // filtering by topic: every post that matches both, the newest included, in the grid.
         const apply = () => {
             const query = input?.value.trim() ?? "";
+            const narrowed = !!query || !!topic;
             if (clear) clear.hidden = !query;
-            if (latest) latest.hidden = !!query;
+            if (latest) latest.hidden = narrowed;
+            pills.forEach((pill) => pill.setAttribute("aria-pressed", String(pill.dataset.topic === topic)));
             let matches = 0;
-            if (query) {
+            if (narrowed) {
                 items.forEach((item) => {
-                    const hit = matchesQuery(item.dataset.search ?? "", query);
+                    const hit =
+                        (!query || matchesQuery(item.dataset.search ?? "", query)) && (!topic || hasTopic(item));
                     item.hidden = !hit;
                     if (hit) item.style.setProperty("--i", String(Math.min(matches++, 11)));
                 });
@@ -167,14 +224,33 @@ const searchText = (post: (typeof posts)[number]) =>
                 });
                 matches = listed.length;
             }
-            if (more) more.hidden = !!query || shown >= listed.length;
-            if (heading) heading.hidden = !!query && matches === 0;
+            if (more) more.hidden = narrowed || shown >= listed.length;
+            if (heading) {
+                heading.hidden = narrowed && matches === 0;
+                const active = pills.find((pill) => pill.dataset.topic === topic && topic);
+                heading.textContent = active?.dataset.label ?? headingText;
+            }
             if (empty) {
-                empty.hidden = !query || matches > 0;
+                empty.hidden = !narrowed || matches > 0;
                 empty.textContent = (empty.dataset.template ?? "").replace("{query}", query);
             }
         };
 
+        // A topic replaces the address's, so the filtered blog can be shared and survives a reload.
+        const remember = () => {
+            const url = new URL(location.href);
+            if (topic) url.searchParams.set(param, topic);
+            else url.searchParams.delete(param);
+            history.replaceState(history.state, "", url);
+        };
+
+        pills.forEach((pill) =>
+            pill.addEventListener("click", () => {
+                topic = pill.dataset.topic ?? "";
+                remember();
+                apply();
+            }),
+        );
         input?.addEventListener("input", apply);
         clear?.addEventListener("click", () => {
             if (!input) return;
@@ -186,6 +262,7 @@ const searchText = (post: (typeof posts)[number]) =>
             shown += page;
             apply();
         });
+        if (topic) apply();
     }
     document.addEventListener("astro:page-load", setupBlogIndex);
 </script>
@@ -210,6 +287,35 @@ const searchText = (post: (typeof posts)[number]) =>
     /* Searching, the newest post's tile steps aside and the grid moves up under the field. */
     [data-blog-latest][hidden] + [data-blog-heading] {
         margin-top: 0;
+    }
+
+    /*
+     * The topics under the search field: centred and wrapping on a wide screen; on a phone a single
+     * row that scrolls sideways from edge to edge, fading where there is more (`.ds-scroll-fade`).
+     */
+    .blog-filter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    @media (max-width: 47.999rem) {
+        .blog-filter {
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            margin-inline: calc(-1 * var(--ds-gutter, 1rem));
+            padding: 0.25rem var(--ds-gutter, 1rem);
+            overflow-x: auto;
+            scrollbar-width: none;
+        }
+
+        .blog-filter::-webkit-scrollbar {
+            display: none;
+        }
     }
 
     .blog-empty {
