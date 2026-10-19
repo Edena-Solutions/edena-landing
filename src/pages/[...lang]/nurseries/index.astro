@@ -90,13 +90,13 @@ const features = [
         <AppScenes slot="left" client:visible scene="album" labels={base} locale={locale} />
         <FinanceScenes slot="right" client:visible scene="cycle" labels={base} locale={locale} />
     </ProductSplit>
-    <FeatureGrid t={t} features={features} title={t.nurseries.integratedManagementTitle} description={t.nurseries.integratedManagementDescription} />
+    <FeatureGrid t={t} features={features} title={t.nurseries.integratedManagementTitle} description={t.nurseries.integratedManagementDescription} actions />
     <ProductSplit
         t={t}
         title={t.nurseries.dailyLifeSectionTitle}
         description={t.nurseries.dailyLifeSectionDescription}
-        left={{ title: t.nurseries.realTimeCommunicationTitle, description: t.nurseries.realTimeCommunicationDescription, bleed: true }}
-        right={{ title: t.nurseries.childrenManagementTitle, description: t.nurseries.childrenManagementDescription, bleed: true }}
+        left={{ title: t.nurseries.realTimeCommunicationTitle, description: t.nurseries.realTimeCommunicationDescription, bleed: true, cta: "demo" }}
+        right={{ title: t.nurseries.childrenManagementTitle, description: t.nurseries.childrenManagementDescription, bleed: true, cta: "trial" }}
     >
         <NurseriesScenes slot="left" client:visible scene="feed" labels={labels} locale={locale} />
         <NurseriesScenes slot="right" client:visible scene="child" labels={labels} locale={locale} />
@@ -110,7 +110,7 @@ const features = [
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena - Software para Guarderías"
+        name={t.schema.nurseries}
         description={t.meta.nurseryDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}

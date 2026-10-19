@@ -88,13 +88,13 @@ const features = [
         <GroupsScenes slot="left" client:visible scene="compare" labels={labels} locale={locale} />
         <GroupsScenes slot="right" client:visible scene="billing" labels={labels} locale={locale} />
     </ProductSplit>
-    <FeatureGrid t={t} features={features} title={t.groups.integratedManagementTitle} description={t.groups.integratedManagementDescription} />
+    <FeatureGrid t={t} features={features} title={t.groups.integratedManagementTitle} description={t.groups.integratedManagementDescription} actions />
     <ProductSplit
         t={t}
         title={t.groups.networkSectionTitle}
         description={t.groups.networkSectionDescription}
-        left={{ title: t.groups.realTimeCommunicationTitle, description: t.groups.realTimeCommunicationDescription, bleed: true }}
-        right={{ title: t.groups.financialAutomationTitle, description: t.groups.financialAutomationDescription, bleed: true }}
+        left={{ title: t.groups.realTimeCommunicationTitle, description: t.groups.realTimeCommunicationDescription, bleed: true, cta: "demo" }}
+        right={{ title: t.groups.financialAutomationTitle, description: t.groups.financialAutomationDescription, bleed: true, cta: "trial" }}
     >
         <GroupsScenes slot="left" client:visible scene="broadcast" labels={labels} locale={locale} />
         <GroupsScenes slot="right" client:visible scene="report" labels={labels} locale={locale} />
@@ -108,7 +108,7 @@ const features = [
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena - Gestión para Grupos Educativos"
+        name={t.schema.groups}
         description={t.meta.groupsDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}

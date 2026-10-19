@@ -9,13 +9,13 @@ import { COMPARE_ROWS, EDENA_SCORE, scoreOf, type Competitor } from "@/data/comp
 import { comparePath, competitorCopy, formatCount, formatScore } from "@/lib/compare";
 
 /*
- * A comparison's opening, on the same stage as the index: the title ("Edena vs …") and the line
- * that sums it up, then the two app icons face to face, each inside the ring of its score. Under
- * each, what it is and one line of fact, then the way to try Edena. The scoring rule sits at the
- * foot, with the way down to the detail.
+ * A comparison's opening, on the same stage as the index: "Edena vs …" as the query, then the
+ * scene a buyer can picture, then the line that sums it up. The two app icons face each other,
+ * each inside the ring of its score. Under each, what it is and one line of fact, then the way
+ * to try Edena. The scoring rule sits at the foot, with the way down to the detail.
  *
- * The marks are drawn for the eye (`aria-hidden`); the heading carries "Edena vs …" in words and
- * the scores are said once, in full, for screen readers.
+ * The marks are drawn for the eye (`aria-hidden`). "Edena vs …" stays in words above the scene,
+ * and the scores are said once, in full, for screen readers.
  */
 interface Props {
     t: Translation;
@@ -46,10 +46,13 @@ const rivalSub = `${rival.owner} · ${c.centers.replace("{n}", formatCount(compe
             </a>
 
             <div class="mx-auto mt-9 flex max-w-3xl flex-col items-center gap-5 sm:mt-12">
-                <h1 class="ds-intro type-display-2 text-gradient-ink pb-1" style="--intro-i: 1">
+                <p class="ds-intro type-callout font-semibold text-brand-ink" style="--intro-i: 1">
                     Edena vs {competitor.name}
+                </p>
+                <h1 class="ds-intro type-display-3 text-gradient-ink pb-1" style="--intro-i: 2">
+                    {rival.headline}
                 </h1>
-                <p class="ds-intro type-lead max-w-2xl text-ink-2" style="--intro-i: 2">
+                <p class="ds-intro type-lead max-w-2xl text-ink-2" style="--intro-i: 3">
                     {rival.lead}
                 </p>
             </div>
@@ -80,7 +83,7 @@ const rivalSub = `${rival.owner} · ${c.centers.replace("{n}", formatCount(compe
                 </span>
             </div>
 
-            <div class="fo ds-intro mt-5" style="--intro-i: 3">
+            <div class="fo ds-intro mt-5" style="--intro-i: 4">
                 <p class="max-w-[17rem]">
                     <span class="fo-tagline">{c.edenaTagline}</span>
                     <span class="fo-sub">{c.edenaMeta}</span>
@@ -94,17 +97,15 @@ const rivalSub = `${rival.owner} · ${c.centers.replace("{n}", formatCount(compe
 
             <div
                 class="ds-intro mt-8 flex flex-col justify-center gap-3 sm:flex-row"
-                style="--intro-i: 4"
+                style="--intro-i: 5"
             >
-                <Button href="https://app.edena.es/register-organization" size="lg">
+                <Button href={localizedDemoPath(lang)} size="lg">{t.bookDemo}</Button>
+                <Button href="https://app.edena.es/register-organization" variant="secondary" size="lg">
                     {t.registerButtonExtended}
                 </Button>
-                <Button href={localizedDemoPath(lang)} variant="secondary" size="lg"
-                    >{t.bookDemo}</Button
-                >
             </div>
 
-            <p class="ds-intro hero-foot" style="--intro-i: 5">
+            <p class="ds-intro hero-foot" style="--intro-i: 6">
                 <span class="sr-only">{scoreSr}</span>
                 <span>{c.scoreCaption.replace("{n}", String(total))}</span>
                 <a href="#head-to-head" class="hero-foot-link">

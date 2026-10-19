@@ -25,7 +25,11 @@ const calendlyUrl = "https://calendly.com/edena-software/1h-meeting";
 const pricingUrl = localePath(lang, "/pricing");
 ---
 
-<Layout content={{ title: t.meta.demoTitle, description: t.meta.demoDescription }} lang={lang} design="premium">
+<Layout
+    content={{ title: t.meta.demoTitle, description: t.meta.demoDescription }}
+    lang={lang}
+    design="premium"
+>
     <HomeMotion />
     <PageHero title={d.heroTitle} description={d.heroDescription}>
         <p class="ds-intro mt-5 type-footnote text-ink-3" style="--intro-i: 2">

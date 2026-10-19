@@ -1,0 +1,27 @@
+---
+import Button from "@/components/ds/Button.astro";
+import type { Translation } from "@/i18n";
+import { getLanguageFromURL, localizedDemoPath } from "@/i18n";
+
+/*
+ * The two ways in, where a product page has gone a stretch without them. Same order as the hero:
+ * book a demo, or start the trial.
+ */
+interface Props {
+    t: Translation;
+    class?: string;
+}
+
+const { t, class: className } = Astro.props;
+const lang = getLanguageFromURL(Astro.url.pathname);
+---
+
+<div class:list={["flex flex-col items-center gap-4 text-center", className]} data-reveal>
+    <div class="flex w-full flex-col items-stretch gap-3 sm:w-auto sm:flex-row sm:items-center">
+        <Button href={localizedDemoPath(lang)} size="lg">{t.bookDemo}</Button>
+        <Button href="https://app.edena.es/register-organization" variant="secondary" size="lg">
+            {t.registerButtonExtended}
+        </Button>
+    </div>
+    <p class="type-footnote text-ink-3">{t.noCreditCardRequired}</p>
+</div>

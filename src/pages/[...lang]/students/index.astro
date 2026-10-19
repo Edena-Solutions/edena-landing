@@ -49,7 +49,7 @@ const features = [
         icon: "Calendar",
         title: t.features.studentFeatures.scheduleOptimization.title,
         description: t.features.studentFeatures.scheduleOptimization.tagline,
-        navigateTo: localePath(lang, "/tracking"),
+        navigateTo: `${localePath(lang, "/students")}#aulas`,
     },
     {
         icon: "TrendingUp",
@@ -86,13 +86,14 @@ const features = [
         <StudentsScenes slot="left" client:visible scene="billing" labels={labels} locale={locale} />
         <StudentsScenes slot="right" client:visible scene="grades" labels={labels} locale={locale} />
     </ProductSplit>
-    <FeatureGrid t={t} features={features} title={t.features.studentFeatures.title} description={t.features.studentFeatures.tagline} />
+    <FeatureGrid t={t} features={features} title={t.features.studentFeatures.title} description={t.features.studentFeatures.tagline} actions />
     <ProductSplit
         t={t}
+        id="aulas"
         title={t.students.organizationTitle}
         description={t.students.organizationDescription}
-        left={{ title: t.students.classroomsTitle, description: t.students.classroomsDescription, bleed: true }}
-        right={{ title: t.students.classroomsDetailsTitle, description: t.students.classroomsDetailsDescription, bleed: true }}
+        left={{ title: t.students.classroomsTitle, description: t.students.classroomsDescription, bleed: true, cta: "demo" }}
+        right={{ title: t.students.classroomsDetailsTitle, description: t.students.classroomsDetailsDescription, bleed: true, cta: "trial" }}
     >
         <StudentsScenes slot="left" client:visible scene="structure" labels={labels} locale={locale} />
         <StudentsScenes slot="right" client:visible scene="classroom" labels={labels} locale={locale} />
@@ -106,7 +107,7 @@ const features = [
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena - Sistema de Información Estudiantil"
+        name={t.schema.students}
         description={t.meta.studentsDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}

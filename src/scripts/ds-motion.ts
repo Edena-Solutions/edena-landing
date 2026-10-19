@@ -334,18 +334,20 @@ function initScrub(): () => void {
                 ground.style.borderRadius = `${40 * (1 - p)}px`;
             };
 
-            const tick = (_time: number, deltaMs: number) => {
+            const tick = (_time: number, _deltaMs: number) => {
                 if (!dirty && Math.abs(target - current) < 0.001) return;
                 dirty = false;
                 if (!watching && Math.abs(target - current) < 0.001) return;
                 const vh = window.visualViewport?.height ?? window.innerHeight;
                 const bar = document.querySelector("header")?.getBoundingClientRect().height ?? 60;
-                // The bar inverts when the section top passes under it. Full bleed just before that,
-                // so the colour change lands on an edge-to-edge ground. The same span runs backwards
-                // when scrolling up: it leaves full width as the bar changes back.
-                const start = vh * 0.78;
-                const end = bar + Math.min(72, vh * 0.08);
-                const next = (start - root.getBoundingClientRect().top) / Math.max(1, start - end);
+                const top = root.getBoundingClientRect().top;
+                // The bar inverts when the section top passes under it. Width tracks the scroll,
+                // not a trailing ease, and it reaches the edges while the section is still below
+                // the bar — so the colour change lands on a ground that is already full width.
+                // Scrolling back up, it stays full until the bar has changed back, then narrows.
+                const start = vh * 0.7;
+                const end = bar + Math.min(220, vh * 0.24);
+                const next = (start - top) / Math.max(1, start - end);
                 target = Math.min(1, Math.max(0, next));
                 if (!primed) {
                     current = target;
@@ -356,9 +358,7 @@ function initScrub(): () => void {
                     // without its animations.
                     return;
                 } else {
-                    const dt = Math.max(0, deltaMs) / 1000;
-                    current += (target - current) * (1 - Math.exp(-dt / 0.18));
-                    if (Math.abs(target - current) < 0.001) current = target;
+                    current = target;
                 }
                 apply(current);
             };

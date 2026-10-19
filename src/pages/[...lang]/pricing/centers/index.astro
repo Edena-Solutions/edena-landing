@@ -48,10 +48,10 @@ const breadcrumbs = [
 >
     <Fragment slot="structured-data">
         <ProductSchema
-            name="Edena - Plataforma para centros educativos"
+            name={t.schema.pricingCenters}
             description={t.meta.pricingCentersDescription}
             offers={offers}
-            category="Software de Gestión Escolar"
+            category={t.schema.categorySchools}
             lang={lang}
         />
         <BreadcrumbListSchema items={breadcrumbs} lang={lang} />

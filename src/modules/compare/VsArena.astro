@@ -1,7 +1,7 @@
 ---
 /*
  * The stage the comparison pages open on: the product hero's light tile, with Ena's cyan in the
- * top-left corner and lime in the bottom-right. The face-off it hosts is a three-column grid — Edena, the
+ * top-left corner and, on desktop, lime in the bottom-right. The face-off it hosts is a three-column grid — Edena, the
  * "VS" disc, the other — repeated row after row (marks, names, taglines) with the same columns, so
  * each name sits under its mark whatever its length. The classes are global to the stage so both
  * heroes share them.
@@ -22,7 +22,8 @@ const { class: className } = Astro.props;
     /*
      * Ena's two colours, a little of each: cyan in the top-left corner, lime in the bottom-right.
      * The layer bleeds past the tile so the blur is clipped by the card, not before it — otherwise
-     * the lime fades out short of the corner.
+     * the lime fades out short of the corner. On a phone the lime sits on top of the buttons, so
+     * it only paints from desktop up.
      */
     .vs-aurora {
         position: absolute;
@@ -31,14 +32,28 @@ const { class: className } = Astro.props;
         opacity: 0.95;
         filter: blur(18px);
         pointer-events: none;
-        background:
-            radial-gradient(ellipse 26rem 16rem at 3rem 2.25rem, rgb(34 211 238 / 0.62), transparent 72%),
-            radial-gradient(
-                ellipse 32rem 18rem at calc(100% - 4rem) calc(100% - 4rem),
-                rgb(163 230 53 / 0.85) 0%,
-                rgb(163 230 53 / 0.4) 32%,
-                transparent 68%
-            );
+        background: radial-gradient(
+            ellipse 26rem 16rem at 3rem 2.25rem,
+            rgb(34 211 238 / 0.62),
+            transparent 72%
+        );
+    }
+
+    @media (min-width: 64rem) {
+        .vs-aurora {
+            background:
+                radial-gradient(
+                    ellipse 26rem 16rem at 3rem 2.25rem,
+                    rgb(34 211 238 / 0.62),
+                    transparent 72%
+                ),
+                radial-gradient(
+                    ellipse 32rem 18rem at calc(100% - 4rem) calc(100% - 4rem),
+                    rgb(163 230 53 / 0.85) 0%,
+                    rgb(163 230 53 / 0.4) 32%,
+                    transparent 68%
+                );
+        }
     }
 
     @media (prefers-reduced-motion: reduce) {

@@ -87,13 +87,13 @@ const features = [
         <AssignmentScenes slot="left" client:visible scene="planner" labels={labels} locale={locale} />
         <AssignmentScenes slot="right" client:visible scene="grades" labels={labels} locale={locale} />
     </ProductSplit>
-    <FeatureGrid t={t} features={features} title={t.features.assignmentFeatures.title} description={t.features.assignmentFeatures.tagline} />
+    <FeatureGrid t={t} features={features} title={t.features.assignmentFeatures.title} description={t.features.assignmentFeatures.tagline} actions />
     <ProductSplit
         t={t}
         title={t.assignment.cyclesAndScoresTitle}
         description={t.assignment.cyclesAndScoresDescription}
-        left={{ title: t.assignment.cyclesTitle, description: t.assignment.cyclesDescription, bleed: true }}
-        right={{ title: t.assignment.scoresTitle, description: t.assignment.scoresDescription, bleed: true }}
+        left={{ title: t.assignment.cyclesTitle, description: t.assignment.cyclesDescription, bleed: true, cta: "demo" }}
+        right={{ title: t.assignment.scoresTitle, description: t.assignment.scoresDescription, bleed: true, cta: "trial" }}
     >
         <AssignmentScenes slot="left" client:visible scene="cycles" labels={labels} locale={locale} />
         <AssignmentScenes slot="right" client:visible scene="progress" labels={labels} locale={locale} />
@@ -107,7 +107,7 @@ const features = [
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena - Assignment & Evaluation Management"
+        name={t.schema.assignment}
         description={t.meta.assignmentDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}

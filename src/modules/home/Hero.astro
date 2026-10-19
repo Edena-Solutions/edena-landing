@@ -1,5 +1,5 @@
 ---
-import { ChevronRight } from "lucide-react";
+import { Baby, ChevronRight, Landmark, School } from "lucide-react";
 import type { Translation } from "@/i18n";
 import { getLanguageFromURL, localizedDemoPath, useTranslatedPath } from "@/i18n";
 import Button from "@/components/ds/Button.astro";
@@ -26,30 +26,54 @@ const translatePath = useTranslatedPath(lang);
 
 <section class="relative isolate -mt-15 overflow-x-clip pt-15">
     <div class="ds-container flex flex-col items-center pt-14 text-center">
-        <h1 class="ds-intro type-display-3 max-w-3xl pb-2 text-gradient-ink" style="--intro-i: 0">
+        <p class="ds-intro mb-4 type-callout font-semibold text-brand-ink" style="--intro-i: 0">
+            {t.hero.verifactuReady}
+        </p>
+        <h1 class="ds-intro type-display-3 max-w-3xl pb-2 text-gradient-ink" style="--intro-i: 1">
             {
                 t.hero.mainTitle.split("\n").map((line) => (
                     <span class="block">{line}</span>
                 ))
             }
         </h1>
-        <p class="ds-intro type-body mt-5 max-w-2xl text-ink-2" style="--intro-i: 1">
+        <p class="ds-intro type-body mt-5 max-w-2xl text-ink-2" style="--intro-i: 2">
             {t.hero.mainDescription}
         </p>
         <div
             class="ds-intro mt-9 flex w-full flex-col items-stretch gap-3 sm:w-auto sm:flex-row sm:items-center"
-            style="--intro-i: 2"
+            style="--intro-i: 3"
         >
-            <Button href="https://app.edena.es/register-organization" size="lg">
-                {t.registerButtonExtended}
-            </Button>
-            <Button href={localizedDemoPath(lang)} variant="secondary" size="lg">
+            <Button href={localizedDemoPath(lang)} size="lg">
                 {t.bookDemo}
             </Button>
+            <Button href="https://app.edena.es/register-organization" variant="secondary" size="lg">
+                {t.registerButtonExtended}
+            </Button>
         </div>
-        <p class="ds-intro mt-4 type-footnote text-ink-3" style="--intro-i: 3">
+        <p class="ds-intro mt-4 type-footnote text-ink-3" style="--intro-i: 4">
+            {t.hero.demoNote}
+        </p>
+        <p class="ds-intro type-footnote text-ink-3" style="--intro-i: 4">
             {t.noCreditCardRequired}
         </p>
+        <nav
+            class="ds-intro mt-8 hidden flex-wrap items-center justify-center gap-2 md:flex"
+            aria-label={t.hero.pathsLabel}
+            style="--intro-i: 5"
+        >
+            <a class="hero-path type-callout" style="--path: var(--ds-sys-blue)" href={translatePath("/schools")}>
+                <School aria-hidden="true" />
+                {t.navigation.schools}
+            </a>
+            <a class="hero-path type-callout" style="--path: var(--ds-sys-pink)" href={translatePath("/nurseries")}>
+                <Baby aria-hidden="true" />
+                {t.navigation.nurseries}
+            </a>
+            <a class="hero-path type-callout" style="--path: var(--ds-sys-orange)" href={translatePath("/academies")}>
+                <Landmark aria-hidden="true" />
+                {t.navigation.academies}
+            </a>
+        </nav>
     </div>
 
     <!-- On a phone the illustration takes its own, narrower composition, and shows whole. -->
@@ -67,7 +91,7 @@ const translatePath = useTranslatedPath(lang);
                 <h3 class="type-title-1 max-w-md text-ink">{t.hero.mobileTitle}</h3>
                 <p class="type-callout max-w-md text-ink-2">{t.hero.mobileDescription}</p>
                 <a href={translatePath("/app")} class="ds-link type-callout mt-1">
-                    {t.knowMore}<ChevronRight aria-hidden="true" />
+                    {t.features.mobileApp.cta}<ChevronRight aria-hidden="true" />
                 </a>
             </div>
             <div class="mt-auto">
@@ -88,6 +112,35 @@ const translatePath = useTranslatedPath(lang);
 </section>
 
 <style>
+    /* A tinted pill for each kind of centre. The colour is the fill, at a little opacity. */
+    .hero-path {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        min-height: 2.25rem;
+        padding: 0.3rem 0.9rem 0.3rem 0.7rem;
+        border-radius: 999px;
+        background: color-mix(in srgb, var(--path) 14%, transparent);
+        color: var(--path);
+        font-weight: 500;
+        transition: background-color 240ms var(--ease-fluid);
+    }
+
+    .hero-path svg {
+        width: 1rem;
+        height: 1rem;
+        flex-shrink: 0;
+    }
+
+    .hero-path:hover {
+        background: color-mix(in srgb, var(--path) 24%, transparent);
+    }
+
+    .hero-path:focus-visible {
+        outline: 2px solid var(--ds-focus);
+        outline-offset: 3px;
+    }
+
     /* The board as wide as the tile allows less its margins, from a margin at the top down past the
        tile's foot, which cuts the front pane: wide, about where its cards end (34 of the board's
        38 em); on a phone (under 45rem of tile, so the board stays under 40rem), the record's tall

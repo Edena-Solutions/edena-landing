@@ -109,6 +109,7 @@ const features = [
         features={features}
         title={t.features.appFeatures.title}
         description={t.features.appFeatures.tagline}
+        actions
     />
     <ProductSplit
         t={t}
@@ -118,11 +119,13 @@ const features = [
             title: t.app.communicateAndGetAlbumsTitle,
             description: t.app.communicateAndGetAlbumsDescription,
             bleed: true,
+            cta: "demo",
         }}
         right={{
             title: t.app.uploadPicturesAndVideosTitle,
             description: t.app.uploadPicturesAndVideosDescription,
             bleed: true,
+            cta: "trial",
         }}
     >
         <AppScenes slot="left" client:visible scene="album" labels={labels} locale={locale} />
@@ -137,7 +140,7 @@ const features = [
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena"
+        name={t.schema.app}
         description={t.meta.appDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["iOS", "Android", "Web"]}

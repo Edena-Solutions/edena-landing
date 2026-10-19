@@ -57,11 +57,11 @@ const columns = [
             }
         </ul>
 
+        <div class="ds-tile mt-10 px-3 pt-1 pb-2 sm:mt-12 sm:px-8 sm:pb-6" data-reveal="rise">
         <div
-            class="h2h mt-10 sm:mt-12"
+            class="h2h"
             role="table"
             aria-label={`${c.tableTitle}: Edena vs ${competitor.name}`}
-            data-reveal="rise"
         >
             <div class="h2h-sentinel" aria-hidden="true"></div>
             <div role="rowgroup" class="h2h-head" data-h2h-head>
@@ -122,6 +122,7 @@ const columns = [
                     </div>
                 ))
             }
+        </div>
         </div>
     </div>
 </section>
@@ -211,7 +212,8 @@ const columns = [
         }
     }
 
-    /* The header: the two names and their totals. */
+    /* The header: in place, a row with a hairline under it. Pinned under the nav, the same row
+       rounds into a frosted bar that floats over the rows passing beneath — the packs table. */
     .h2h-sentinel {
         height: 1px;
     }
@@ -220,14 +222,31 @@ const columns = [
         position: sticky;
         top: 4.25rem;
         z-index: 2;
+        margin-inline: -0.5rem;
+        padding-inline: 0.5rem;
         transition:
             background-color 300ms var(--ease-fluid),
-            box-shadow 300ms var(--ease-fluid);
-        border-radius: 1.25rem;
+            box-shadow 300ms var(--ease-fluid),
+            border-radius 300ms var(--ease-fluid);
+    }
+
+    .h2h-head::after {
+        content: "";
+        position: absolute;
+        inset-inline: 0.5rem;
+        bottom: 0;
+        height: 1px;
+        background-color: var(--ds-hairline);
+        transition: opacity 300ms var(--ease-fluid);
+    }
+
+    .h2h-head[data-stuck]::after {
+        opacity: 0;
     }
 
     .h2h-head[data-stuck] {
-        background-color: color-mix(in srgb, var(--ds-surface) 80%, transparent);
+        border-radius: 1.25rem;
+        background-color: color-mix(in srgb, var(--ds-surface) 78%, transparent);
         -webkit-backdrop-filter: blur(24px) saturate(180%);
         backdrop-filter: blur(24px) saturate(180%);
         box-shadow:
@@ -236,13 +255,15 @@ const columns = [
     }
 
     .h2h-head-row {
-        align-items: center;
-        padding-block: 1.1rem;
+        align-items: end;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
         transition: padding 300ms var(--ease-fluid);
     }
 
     .h2h-head[data-stuck] .h2h-head-row {
-        padding-block: 0.75rem;
+        padding-top: 0.875rem;
+        padding-bottom: 0.875rem;
     }
 
     .h2h-corner {

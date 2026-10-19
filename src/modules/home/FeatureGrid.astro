@@ -3,6 +3,7 @@ import { ChevronRight } from "lucide-react";
 import Icon from "@/components/ui/icon";
 import SectionHeader from "@/components/ds/SectionHeader.astro";
 import RailPager from "@/components/ds/RailPager.astro";
+import ProductActions from "@/modules/product/ProductActions.astro";
 import type { Translation } from "@/i18n";
 
 /*
@@ -12,12 +13,15 @@ import type { Translation } from "@/i18n";
  */
 interface Props {
     t: Translation;
-    features: { icon: string; title: string; description: string; navigateTo: string }[];
+    features: { icon: string; title: string; description: string; navigateTo: string; cta?: string }[];
     title?: string;
     description?: string;
+    /** Demo and trial under the tiles. The home page leaves this off; its close already asks. */
+    actions?: boolean;
 }
 
-const { t, features, title = t.features.title, description = t.features.description } = Astro.props;
+const { t, features, title = t.features.title, description = t.features.description, actions = false } =
+    Astro.props;
 const tones = ["bg-sys-blue", "bg-sys-pink", "bg-sys-orange", "bg-sys-green", "bg-sys-indigo", "bg-sys-teal"];
 ---
 
@@ -37,7 +41,7 @@ const tones = ["bg-sys-blue", "bg-sys-pink", "bg-sys-orange", "bg-sys-green", "b
                             <h3 class="mt-4 type-title-3 text-ink">{feature.title}</h3>
                             <p class="type-callout text-ink-2">{feature.description}</p>
                             <span class="ds-link mt-auto pt-3 type-callout">
-                                {t.knowMore}
+                                {feature.cta ?? t.knowMore}
                                 <ChevronRight aria-hidden="true" />
                             </span>
                         </a>
@@ -47,5 +51,6 @@ const tones = ["bg-sys-blue", "bg-sys-pink", "bg-sys-orange", "bg-sys-green", "b
         </div>
         </div>
         <RailPager previous={t.rail.previous} next={t.rail.next} />
+        {actions && <ProductActions t={t} class="mt-14" />}
     </div>
 </section>

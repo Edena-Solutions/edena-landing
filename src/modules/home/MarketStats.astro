@@ -28,17 +28,28 @@ const rings = [
 ];
 ---
 
-<section class="ds-section">
+<section class="ds-section mt-20">
     <div class="ds-container">
         <SectionHeader title={erpStats.title} description={erpStats.description} />
 
-        <div class="mt-10 grid grid-cols-2 gap-3 sm:mt-14 sm:gap-4 lg:grid-cols-4" data-reveal-group>
+        <div
+            class="mt-10 grid grid-cols-2 gap-3 sm:mt-14 sm:gap-4 lg:grid-cols-4"
+            data-reveal-group
+        >
             <article class="ds-tile stat-lead col-span-2 lg:row-span-2" data-reveal="scale">
                 <svg viewBox="0 0 120 120" class="stat-lead-rings -rotate-90" aria-hidden="true">
                     {
                         rings.map((ring, index) => (
                             <g>
-                                <circle cx="60" cy="60" r={ring.r} fill="none" stroke={ring.color} stroke-opacity="0.18" stroke-width="10" />
+                                <circle
+                                    cx="60"
+                                    cy="60"
+                                    r={ring.r}
+                                    fill="none"
+                                    stroke={ring.color}
+                                    stroke-opacity="0.18"
+                                    stroke-width="10"
+                                />
                                 <circle
                                     class="stat-ring"
                                     cx="60"
@@ -63,7 +74,10 @@ const rings = [
                 {
                     rest.map((item) => (
                         <article class="ds-tile stat-row" data-reveal="scale">
-                            <p class="stat-row-value font-semibold leading-none tracking-[-0.045em] text-ink" data-count>
+                            <p
+                                class="stat-row-value font-semibold leading-none tracking-[-0.045em] text-ink"
+                                data-count
+                            >
                                 {item.stat}
                             </p>
                             <p class="stat-row-desc text-ink-2">{item.description}</p>

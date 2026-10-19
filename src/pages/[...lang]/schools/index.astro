@@ -93,13 +93,13 @@ const features = [
         <CommunicationScenes slot="left" client:visible scene="channels" labels={communicationLabels} locale={locale} />
         <AssignmentScenes slot="right" client:visible scene="gradebook" labels={assignmentLabels} locale={locale} />
     </ProductSplit>
-    <FeatureGrid t={t} features={features} title={t.schools.integratedManagementTitle} description={t.schools.integratedManagementDescription} />
+    <FeatureGrid t={t} features={features} title={t.schools.integratedManagementTitle} description={t.schools.integratedManagementDescription} actions />
     <ProductSplit
         t={t}
         title={t.schools.familyAndBillingSectionTitle}
         description={t.schools.familyAndBillingSectionDescription}
-        left={{ title: t.schools.realTimeCommunicationTitle, description: t.schools.realTimeCommunicationDescription, bleed: true }}
-        right={{ title: t.schools.financialAutomationTitle, description: t.schools.financialAutomationDescription, bleed: true }}
+        left={{ title: t.schools.realTimeCommunicationTitle, description: t.schools.realTimeCommunicationDescription, bleed: true, cta: "demo" }}
+        right={{ title: t.schools.financialAutomationTitle, description: t.schools.financialAutomationDescription, bleed: true, cta: "trial" }}
     >
         <SchoolsScenes slot="left" client:visible scene="family" labels={labels} locale={locale} />
         <FinanceScenes slot="right" client:visible scene="breakdown" labels={base} locale={locale} />
@@ -113,7 +113,7 @@ const features = [
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena - Software para Colegios"
+        name={t.schema.schools}
         description={t.meta.schoolsDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}

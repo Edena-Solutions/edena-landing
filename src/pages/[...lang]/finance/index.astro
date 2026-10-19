@@ -98,6 +98,7 @@ const features = [
         features={features}
         title={t.features.financeFeatures.title}
         description={t.features.financeFeatures.tagline}
+        actions
     />
     <ProductSplit
         t={t}
@@ -107,11 +108,13 @@ const features = [
             title: t.finance.analyticsTitle,
             description: t.finance.analyticsDescription,
             bleed: true,
+            cta: "demo",
         }}
         right={{
             title: t.finance.paperlessBillingTitle,
             description: t.finance.paperlessBillingDescription,
             bleed: true,
+            cta: "trial",
         }}
     >
         <FinanceScenes slot="left" client:visible scene="analytics" labels={labels} locale={locale} />
@@ -132,7 +135,7 @@ const features = [
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena - Suite Financiera"
+        name={t.schema.finance}
         description={t.meta.financeDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}

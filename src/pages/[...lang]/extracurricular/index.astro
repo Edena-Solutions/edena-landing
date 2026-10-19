@@ -60,13 +60,13 @@ const features = m.features.map((f, i) => ({
         <ExtracurricularScenes slot="left" client:visible scene="browse" labels={labels} locale={locale} />
         <ExtracurricularScenes slot="right" client:visible scene="detail" labels={labels} locale={locale} />
     </ProductSplit>
-    <FeatureGrid t={t} features={features} title={m.featuresTitle} description={m.featuresDescription} />
+    <FeatureGrid t={t} features={features} title={m.featuresTitle} description={m.featuresDescription} actions />
     <ProductSplit
         t={t}
         title={m.sectionTitle}
         description={m.sectionDescription}
-        left={{ title: m.section1Title, description: m.section1Description, bleed: true }}
-        right={{ title: m.section2Title, description: m.section2Description, bleed: true }}
+        left={{ title: m.section1Title, description: m.section1Description, bleed: true, cta: "demo" }}
+        right={{ title: m.section2Title, description: m.section2Description, bleed: true, cta: "trial" }}
     >
         <ExtracurricularScenes slot="left" client:visible scene="enrol" labels={labels} locale={locale} />
         <ExtracurricularScenes slot="right" client:visible scene="agenda" labels={labels} locale={locale} />
@@ -75,7 +75,7 @@ const features = m.features.map((f, i) => ({
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena - Extraescolares"
+        name={t.schema.extracurricular}
         description={m.metaDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}

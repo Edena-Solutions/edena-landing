@@ -67,7 +67,7 @@ Editor visual de flujos de trabajo sin programar: comunicados automáticos, fact
 Métricas en tiempo real de asistencia, finanzas, matrículas y comunicaciones. Alertas automáticas y reportes exportables.
 
 ### IA educativa integrada (Ena)
-Agente de inteligencia artificial que automatiza procesos administrativos, genera facturas, redacta comunicados, pasa lista y responde preguntas del equipo sobre el reglamento o los datos del centro. Disponible 24/7 con seguridad enterprise.
+Ena es la inteligencia artificial de Edena. Prepara facturas, comunicados y listas dentro del centro. Alguien del equipo los revisa antes de enviarlos, y responde al equipo a cualquier hora.
 
 ### Gestión multi-centro
 Panel unificado para redes de centros educativos. Facturación centralizada, reporting consolidado y operativa consistente en toda la red.
@@ -86,12 +86,15 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 
 ## Precios
 
-- **Plan Esencial**: desde 44€/mes (1,00€/alumno)
-- **Plan Gestión Pro**: desde 44€/mes (1,40€/alumno)
-- **Plan Completo**: 1,90€/alumno + 10€/mes (tienda online)
-- Sin cuota de alta · Sin permanencia · Sin costes ocultos
-- Prueba gratuita de 30 días · Onboarding incluido
-- En marcha en 2 semanas, con migración de datos y formación incluidas
+- **Academias**
+  - Pack Comunicación: 0,60 € por alumno
+  - Pack Finanzas: 0,90 € por alumno
+  - Pack Academia 360: 1,00 € por alumno
+  - Facturación mínima: 36 € al mes
+- **Centros** (colegios, escuelas infantiles y grupos): desde 36 € al mes. Pago por alumno, con un mínimo de 30 alumnos. El precio cerrado se da en la demostración.
+- Sin cuota de alta · Sin permanencia
+- Prueba gratuita de 30 días · Migración y formación incluidas
+- En marcha en 2 semanas
 
 ---
 
@@ -109,7 +112,7 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 ## Diferenciadores clave vs. competencia
 
 - Verifactu integrado de forma nativa en la facturación
-- Precio público y transparente por alumno (sin "solicitar presupuesto")
+- Precio público: academias desde 0,60 € por alumno, centros desde 36 € al mes
 - Onboarding en 2 semanas con migración de datos incluida
 - IA educativa integrada (Ena) con contexto específico del centro
 - App móvil gratuita para familias (sin coste adicional)

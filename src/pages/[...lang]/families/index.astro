@@ -91,13 +91,13 @@ const features = [
         <AppScenes slot="left" client:visible scene="stores" labels={labels} locale={locale} />
         <FinanceScenes slot="right" client:visible scene="pay" labels={labels} locale={locale} />
     </ProductSplit>
-    <FeatureGrid t={t} features={features} title={t.features.familiesFeatures.title} description={t.features.familiesFeatures.tagline} />
+    <FeatureGrid t={t} features={features} title={t.features.familiesFeatures.title} description={t.features.familiesFeatures.tagline} actions />
     <ProductSplit
         t={t}
         title={t.families.communicationAndStoreTitle}
         description={t.families.communicationAndStoreDescription}
-        left={{ title: t.families.appFeaturesTitle, description: t.families.appFeaturesDescription, bleed: true }}
-        right={{ title: t.families.onlineStoreTitle, description: t.families.onlineStoreDescription, bleed: true }}
+        left={{ title: t.families.appFeaturesTitle, description: t.families.appFeaturesDescription, bleed: true, cta: "demo" }}
+        right={{ title: t.families.onlineStoreTitle, description: t.families.onlineStoreDescription, bleed: true, cta: "trial" }}
     >
         <AppScenes slot="left" client:visible scene="album" labels={labels} locale={locale} />
         <ShopScenes slot="right" client:visible scene="quick" labels={shopLabels} locale={locale} />
@@ -111,7 +111,7 @@ const features = [
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena - Portal para Familias"
+        name={t.schema.families}
         description={t.meta.familiesDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}

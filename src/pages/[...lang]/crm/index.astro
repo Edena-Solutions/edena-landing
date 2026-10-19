@@ -105,6 +105,7 @@ const features = [
         features={features}
         title={t.features.crmFeatures.title}
         description={t.features.crmFeatures.tagline}
+        actions
     />
     <ProductSplit
         t={t}
@@ -114,11 +115,13 @@ const features = [
             title: t.crm.formTitle,
             description: t.crm.formDescription,
             bleed: true,
+            cta: "demo",
         }}
         right={{
             title: t.crm.pipelineTitle,
             description: t.crm.pipelineDescription,
             bleed: true,
+            cta: "trial",
         }}
     >
         <CrmScenes slot="left" client:visible scene="editor" labels={labels} locale={locale} />
@@ -133,7 +136,7 @@ const features = [
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena - CRM Escolar"
+        name={t.schema.crm}
         description={t.meta.crmDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}

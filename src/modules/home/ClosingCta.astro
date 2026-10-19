@@ -73,10 +73,10 @@ const BARS = [0.42, 0.5, 0.46, 0.62, 0.74, 1];
                 <h2 class="type-display-2 text-white" data-reveal>{t.conclusion.title}</h2>
                 <p class="type-lead max-w-2xl text-white/75" data-reveal>{t.conclusion.description}</p>
                 <div class="mt-2 flex flex-col gap-3 sm:flex-row" data-reveal>
-                    <Button href="https://app.edena.es/register-organization" variant="white" size="lg">
-                        {t.registerButton}
+                    <Button href={localizedDemoPath(lang)} variant="white" size="lg">{t.bookDemo}</Button>
+                    <Button href="https://app.edena.es/register-organization" variant="glass" size="lg">
+                        {t.registerButtonExtended}
                     </Button>
-                    <Button href={localizedDemoPath(lang)} variant="glass" size="lg">{t.bookDemo}</Button>
                 </div>
             </div>
 

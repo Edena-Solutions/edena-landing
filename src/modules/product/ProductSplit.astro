@@ -18,7 +18,8 @@ interface Card {
     image?: ImageMetadata;
     imageDark?: ImageMetadata;
     alt?: string;
-    cta?: boolean;
+    /** `true` and `"demo"` book a demo. `"trial"` starts the free trial. */
+    cta?: boolean | "demo" | "trial";
     bleed?: boolean;
 }
 
@@ -26,11 +27,12 @@ interface Props {
     t: Translation;
     title?: string;
     description?: string;
+    id?: string;
     left: Card;
     right: Card;
 }
 
-const { t, title, description, left, right } = Astro.props;
+const { t, title, description, id, left, right } = Astro.props;
 const lang = getLanguageFromURL(Astro.url.pathname);
 const hasLeft = Astro.slots.has("left");
 const hasRight = Astro.slots.has("right");
@@ -55,7 +57,7 @@ const leftVisual = visual(left, hasLeft);
 const rightVisual = visual(right, hasRight);
 ---
 
-<section class="ds-section">
+<section class="ds-section" id={id}>
     <div class="ds-container">
         {title && <SectionHeader title={title} description={description} />}
 
@@ -68,13 +70,20 @@ const rightVisual = visual(right, hasRight);
                     <h3 class="type-title-1 max-w-md text-ink">{left.title}</h3>
                     <p class="type-callout max-w-md text-ink-2">{left.description}</p>
                     {
-                        left.cta && (
-                            <div class="mt-3">
-                                <Button href={localizedDemoPath(lang)} variant="secondary">
-                                    {t.bookDemo}
-                                </Button>
-                            </div>
-                        )
+                        left.cta &&
+                            (left.cta === "trial" ? (
+                                <div class="mt-3">
+                                    <Button href="https://app.edena.es/register-organization">
+                                        {t.registerButtonExtended}
+                                    </Button>
+                                </div>
+                            ) : (
+                                <div class="mt-3">
+                                    <Button href={localizedDemoPath(lang)} variant="secondary">
+                                        {t.bookDemo}
+                                    </Button>
+                                </div>
+                            ))
                     }
                 </div>
                 {
@@ -108,13 +117,20 @@ const rightVisual = visual(right, hasRight);
                     <h3 class="type-title-1 max-w-md text-ink">{right.title}</h3>
                     <p class="type-callout max-w-md text-ink-2">{right.description}</p>
                     {
-                        right.cta && (
-                            <div class="mt-3">
-                                <Button href={localizedDemoPath(lang)} variant="secondary">
-                                    {t.bookDemo}
-                                </Button>
-                            </div>
-                        )
+                        right.cta &&
+                            (right.cta === "trial" ? (
+                                <div class="mt-3">
+                                    <Button href="https://app.edena.es/register-organization">
+                                        {t.registerButtonExtended}
+                                    </Button>
+                                </div>
+                            ) : (
+                                <div class="mt-3">
+                                    <Button href={localizedDemoPath(lang)} variant="secondary">
+                                        {t.bookDemo}
+                                    </Button>
+                                </div>
+                            ))
                     }
                 </div>
                 {

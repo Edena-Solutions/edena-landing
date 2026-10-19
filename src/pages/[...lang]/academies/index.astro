@@ -89,13 +89,13 @@ const features = [
         <CrmScenes slot="left" client:visible scene="pipeline" labels={base} locale={locale} />
         <AcademiesScenes slot="right" client:visible scene="rates" labels={labels} locale={locale} />
     </ProductSplit>
-    <FeatureGrid t={t} features={features} title={t.academies.integratedManagementTitle} description={t.academies.integratedManagementDescription} />
+    <FeatureGrid t={t} features={features} title={t.academies.integratedManagementTitle} description={t.academies.integratedManagementDescription} actions />
     <ProductSplit
         t={t}
         title={t.academies.dailyLifeSectionTitle}
         description={t.academies.dailyLifeSectionDescription}
-        left={{ title: t.academies.realTimeCommunicationTitle, description: t.academies.realTimeCommunicationDescription, bleed: true }}
-        right={{ title: t.academies.financialAutomationTitle, description: t.academies.financialAutomationDescription, bleed: true }}
+        left={{ title: t.academies.realTimeCommunicationTitle, description: t.academies.realTimeCommunicationDescription, bleed: true, cta: "demo" }}
+        right={{ title: t.academies.financialAutomationTitle, description: t.academies.financialAutomationDescription, bleed: true, cta: "trial" }}
     >
         <AcademiesScenes slot="left" client:visible scene="notices" labels={labels} locale={locale} />
         <AcademiesScenes slot="right" client:visible scene="bundle" labels={labels} locale={locale} />
@@ -109,7 +109,7 @@ const features = [
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena - Software para Academias"
+        name={t.schema.academies}
         description={t.meta.academiesDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}

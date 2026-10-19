@@ -9,8 +9,9 @@ import { comparePath } from "@/lib/compare";
 
 /*
  * The comparisons' index opens on the same stage: Edena in its ring, and across the disc every
- * other mark at once, walking a slow circle and staying upright. The heading is the section title
- * (`hub.eyebrow`); the line under it is the description, and the circle leads into each comparison.
+ * other mark at once, walking a slow circle and staying upright. The label is the section
+ * (`hub.eyebrow`); the heading is the scene (`hub.title`); the line under it is the description,
+ * and the circle leads into each comparison.
  */
 interface Props {
     t: Translation;
@@ -27,10 +28,13 @@ const tile = "calc(var(--ring) * 0.58)";
     <div class="ds-container pt-3 sm:pt-6">
         <VsArena class="px-4 pt-9 pb-8 text-center sm:px-12 sm:pt-12 sm:pb-12">
             <div class="mx-auto flex max-w-3xl flex-col items-center gap-5">
-                <h1 class="ds-intro type-display-2 text-gradient-ink pb-1" style="--intro-i: 0">
+                <p class="ds-intro type-callout font-semibold text-brand-ink" style="--intro-i: 0">
                     {hub.eyebrow}
+                </p>
+                <h1 class="ds-intro type-display-3 text-gradient-ink pb-1" style="--intro-i: 1">
+                    {hub.title}
                 </h1>
-                <p class="ds-intro type-lead max-w-2xl text-ink-2" style="--intro-i: 1">
+                <p class="ds-intro type-lead max-w-2xl text-ink-2" style="--intro-i: 2">
                     {hub.description}
                 </p>
             </div>
@@ -63,11 +67,11 @@ const tile = "calc(var(--ring) * 0.58)";
                 </span>
             </div>
 
-            <div class="ds-intro mt-9 flex flex-col justify-center gap-3 sm:flex-row" style="--intro-i: 2">
-                <Button href="https://app.edena.es/register-organization" size="lg">
+            <div class="ds-intro mt-9 flex flex-col justify-center gap-3 sm:flex-row" style="--intro-i: 3">
+                <Button href={localizedDemoPath(lang)} size="lg">{t.bookDemo}</Button>
+                <Button href="https://app.edena.es/register-organization" variant="secondary" size="lg">
                     {t.registerButtonExtended}
                 </Button>
-                <Button href={localizedDemoPath(lang)} variant="secondary" size="lg">{t.bookDemo}</Button>
             </div>
         </VsArena>
     </div>

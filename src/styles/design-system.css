@@ -71,6 +71,14 @@
     --ds-fade-end: 2rem;
 }
 
+/* From `md` a rail is a grid. The mask would clip the hover shadow of the last row. */
+@media (min-width: 48rem) {
+    .ds-rail.ds-scroll-fade {
+        -webkit-mask-image: none;
+        mask-image: none;
+    }
+}
+
 @theme inline {
     --color-canvas: var(--ds-canvas);
     --color-canvas-2: var(--ds-canvas-2);

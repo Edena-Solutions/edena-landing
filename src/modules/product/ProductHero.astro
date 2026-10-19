@@ -4,7 +4,7 @@ import { Image } from "astro:assets";
 import Button from "@/components/ds/Button.astro";
 import ThemedImage from "@/components/ThemedImage.astro";
 import type { Translation } from "@/i18n";
-import { getLanguageFromURL, localizedDemoPath } from "@/i18n";
+import { getLanguageFromURL, localizedDemoPath, useTranslatedPath } from "@/i18n";
 
 /*
  * A product page's opening, the same gesture as the home hero: the promise, the two ways in, then
@@ -25,6 +25,7 @@ interface Props {
 
 const { t, title, description, image, imageDark, imageAlt, bleed = false } = Astro.props;
 const lang = getLanguageFromURL(Astro.url.pathname);
+const translatePath = useTranslatedPath(lang);
 const hasVisual = Astro.slots.has("visual");
 ---
 
@@ -40,15 +41,22 @@ const hasVisual = Astro.slots.has("visual");
             class="ds-intro mt-9 flex w-full flex-col items-stretch gap-3 sm:w-auto sm:flex-row sm:items-center"
             style="--intro-i: 2"
         >
-            <Button href="https://app.edena.es/register-organization" size="lg">
-                {t.registerButtonExtended}
-            </Button>
-            <Button href={localizedDemoPath(lang)} variant="secondary" size="lg">
+            <Button href={localizedDemoPath(lang)} size="lg">
                 {t.bookDemo}
+            </Button>
+            <Button href="https://app.edena.es/register-organization" variant="secondary" size="lg">
+                {t.registerButtonExtended}
             </Button>
         </div>
         <p class="ds-intro mt-4 type-footnote text-ink-3" style="--intro-i: 3">
+            {t.hero.demoNote}
+        </p>
+        <p class="ds-intro type-footnote text-ink-3" style="--intro-i: 3">
             {t.noCreditCardRequired}
+        </p>
+        <p class="ds-intro type-footnote text-ink-3" style="--intro-i: 3">
+            {t.modulePriceNote}{" "}
+            <a class="ds-link" href={translatePath("/pricing")}>{t.modulePriceLink}</a>
         </p>
     </div>
 

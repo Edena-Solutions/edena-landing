@@ -92,13 +92,13 @@ const features = [
         <DashboardScenes slot="left" client:visible scene="alerts" labels={labels} locale={locale} />
         <DashboardScenes slot="right" client:visible scene="quick" labels={labels} locale={locale} />
     </ProductSplit>
-    <FeatureGrid t={t} features={features} title={t.features.dashboardFeatures.title} description={t.features.dashboardFeatures.tagline} />
+    <FeatureGrid t={t} features={features} title={t.features.dashboardFeatures.title} description={t.features.dashboardFeatures.tagline} actions />
     <ProductSplit
         t={t}
         title={t.dashboard.notificationsAndCalendarTitle}
         description={t.dashboard.notificationsAndCalendarDescription}
-        left={{ title: t.dashboard.calendarTitle, description: t.dashboard.calendarDescription, bleed: true }}
-        right={{ title: t.dashboard.realTimeNotificationsExtendedTitle, description: t.dashboard.realTimeNotificationsExtendedDescription, bleed: true }}
+        left={{ title: t.dashboard.calendarTitle, description: t.dashboard.calendarDescription, bleed: true, cta: "demo" }}
+        right={{ title: t.dashboard.realTimeNotificationsExtendedTitle, description: t.dashboard.realTimeNotificationsExtendedDescription, bleed: true, cta: "trial" }}
     >
         <TrackingScenes slot="left" client:visible scene="week" labels={trackingLabels} locale={locale} />
         <CommunicationScenes slot="right" client:visible scene="delivered" labels={communicationLabels} locale={locale} />
@@ -112,7 +112,7 @@ const features = [
     <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
-        name="Edena - Panel de Control Escolar"
+        name={t.schema.dashboard}
         description={t.meta.dashboardDescription}
         applicationCategory="EducationalApplication"
         operatingSystem={["Web", "iOS", "Android"]}

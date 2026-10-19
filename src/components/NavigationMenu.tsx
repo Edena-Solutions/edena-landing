@@ -973,8 +973,11 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
                 <div className="hidden lg:flex shrink-0 items-center gap-2 ml-auto pl-8 xl:pl-6">
                     {premium ? (
                         <>
-                            <a href={p("/demo")} className="ds-nav-text-link">
-                                {t.bookDemo}
+                            <a
+                                href="https://app.edena.es/register-organization"
+                                className="ds-nav-text-link"
+                            >
+                                {t.registerButton}
                             </a>
                             <a
                                 href="https://app.edena.es/login"
@@ -982,11 +985,8 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
                             >
                                 {t.loginButton}
                             </a>
-                            <a
-                                href="https://app.edena.es/register-organization"
-                                className="ds-btn ds-btn--primary"
-                            >
-                                {t.registerButton}
+                            <a href={p("/demo")} className="ds-btn ds-btn--primary">
+                                {t.bookDemo}
                             </a>
                         </>
                     ) : (
