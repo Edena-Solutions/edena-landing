@@ -2,7 +2,14 @@
 import { Check, Minus } from "lucide-react";
 import SectionHeader from "@/components/ds/SectionHeader.astro";
 import { ModuleIcon } from "@/modules/pricing/ModuleIcon";
-import { MODULE_IDS, PACKS, formatPrice, moduleSectionsById, type ModuleId, type PlanFeatureSection } from "@/constants/pricing";
+import {
+    MODULE_IDS,
+    PACKS,
+    formatPrice,
+    moduleSectionsById,
+    type ModuleId,
+    type PlanFeatureSection,
+} from "@/constants/pricing";
 import type { Translation } from "@/i18n";
 
 /*
@@ -18,7 +25,9 @@ interface Props {
 
 const { t, lang } = Astro.props;
 const packsT = t.pricing.packs;
-const byId = moduleSectionsById((t.pricing as { planFeatureSections?: PlanFeatureSection[] }).planFeatureSections ?? []);
+const byId = moduleSectionsById(
+    (t.pricing as { planFeatureSections?: PlanFeatureSection[] }).planFeatureSections ?? [],
+);
 const included = new Set(PACKS.flatMap((pack) => pack.modules));
 const moduleIds = MODULE_IDS.filter((id): id is ModuleId => included.has(id) && !!byId[id]);
 ---
@@ -35,8 +44,13 @@ const moduleIds = MODULE_IDS.filter((id): id is ModuleId => included.has(id) && 
                     return (
                         <li class="ds-tile flex flex-col gap-4 p-6" data-reveal>
                             <span class="flex items-center gap-3">
-                                <ModuleIcon moduleId={moduleId} className="size-9" />
-                                <span class="type-callout font-semibold text-ink">{section.title}</span>
+                                <ModuleIcon
+                                    moduleId={moduleId}
+                                    className="size-9 rounded-[0.5rem]"
+                                />
+                                <span class="type-callout font-semibold text-ink">
+                                    {section.title}
+                                </span>
                             </span>
                             <ul class="m-0 flex list-none flex-col gap-1.5 p-0">
                                 {section.items.map((item) => (
@@ -44,12 +58,14 @@ const moduleIds = MODULE_IDS.filter((id): id is ModuleId => included.has(id) && 
                                 ))}
                             </ul>
                             <span class="flex flex-wrap gap-1.5 border-t border-hairline pt-4">
-                                {PACKS.filter((pack) => pack.modules.includes(moduleId)).map((pack) => (
-                                    <span class="flex items-center gap-1 rounded-full bg-brand-soft py-1 pl-1.5 pr-2.5 text-[0.75rem] font-semibold text-brand-ink">
-                                        <Check className="size-3.5" strokeWidth={3} />
-                                        {packsT.items[pack.id].name}
-                                    </span>
-                                ))}
+                                {PACKS.filter((pack) => pack.modules.includes(moduleId)).map(
+                                    (pack) => (
+                                        <span class="flex items-center gap-1 rounded-full bg-brand-soft py-1 pl-1.5 pr-2.5 text-[0.75rem] font-semibold text-brand-ink">
+                                            <Check className="size-3.5" strokeWidth={3} />
+                                            {packsT.items[pack.id].name}
+                                        </span>
+                                    ),
+                                )}
                             </span>
                         </li>
                     );
@@ -67,13 +83,19 @@ const moduleIds = MODULE_IDS.filter((id): id is ModuleId => included.has(id) && 
                 <div role="rowgroup" class="compare-head" data-compare-head>
                     <div role="row" class="compare-row compare-head-row">
                         <span role="columnheader" class="self-end pl-4">
-                            <span class="type-footnote font-semibold text-ink-3">{packsT.moduleColumn}</span>
+                            <span class="type-footnote font-semibold text-ink-3"
+                                >{packsT.moduleColumn}</span
+                            >
                         </span>
                         {
                             PACKS.map((pack) => (
                                 <span role="columnheader" class="px-1 text-center">
-                                    <span class="block text-[0.9375rem] font-semibold leading-tight text-ink">{packsT.items[pack.id].name}</span>
-                                    <span class="mt-1 block text-[0.8125rem] tabular-nums text-ink-3">{formatPrice(pack.pricePerStudent, lang)}</span>
+                                    <span class="block text-[0.9375rem] font-semibold leading-tight text-ink">
+                                        {packsT.items[pack.id].name}
+                                    </span>
+                                    <span class="mt-1 block text-[0.8125rem] tabular-nums text-ink-3">
+                                        {formatPrice(pack.pricePerStudent, lang)}
+                                    </span>
                                 </span>
                             ))
                         }
@@ -84,15 +106,25 @@ const moduleIds = MODULE_IDS.filter((id): id is ModuleId => included.has(id) && 
                         moduleIds.map((moduleId) => {
                             const section = byId[moduleId];
                             return (
-                                <div role="row" class="compare-row border-t border-hairline first:border-t-0">
+                                <div
+                                    role="row"
+                                    class="compare-row border-t border-hairline first:border-t-0"
+                                >
                                     <span role="rowheader" class="py-6 pr-8 pl-4">
                                         <span class="flex items-center gap-3">
-                                            <ModuleIcon moduleId={moduleId} className="size-9" />
-                                            <span class="type-callout font-semibold text-ink">{section.title}</span>
+                                            <ModuleIcon
+                                                moduleId={moduleId}
+                                                className="size-9 rounded-[0.5rem]"
+                                            />
+                                            <span class="type-callout font-semibold text-ink">
+                                                {section.title}
+                                            </span>
                                         </span>
                                         <ul class="m-0 mt-3 flex list-none flex-col gap-1.5 p-0 pl-12">
                                             {section.items.map((item) => (
-                                                <li class="type-footnote text-ink-2">{item.label}</li>
+                                                <li class="type-footnote text-ink-2">
+                                                    {item.label}
+                                                </li>
                                             ))}
                                         </ul>
                                     </span>
@@ -100,13 +132,26 @@ const moduleIds = MODULE_IDS.filter((id): id is ModuleId => included.has(id) && 
                                         const has = pack.modules.includes(moduleId);
                                         return (
                                             <span role="cell" class="px-1 py-6 text-center">
-                                                <span class="sr-only">{has ? t.pricingPage.included : t.pricingPage.notIncluded}</span>
+                                                <span class="sr-only">
+                                                    {has
+                                                        ? t.pricingPage.included
+                                                        : t.pricingPage.notIncluded}
+                                                </span>
                                                 {has ? (
-                                                    <span class="mx-auto flex size-6 items-center justify-center rounded-full bg-brand text-white" aria-hidden="true">
-                                                        <Check className="size-3.5" strokeWidth={3} />
+                                                    <span
+                                                        class="mx-auto flex size-6 items-center justify-center rounded-full bg-brand text-white"
+                                                        aria-hidden="true"
+                                                    >
+                                                        <Check
+                                                            className="size-3.5"
+                                                            strokeWidth={3}
+                                                        />
                                                     </span>
                                                 ) : (
-                                                    <span class="mx-auto flex size-6 items-center justify-center text-ink-3/60" aria-hidden="true">
+                                                    <span
+                                                        class="mx-auto flex size-6 items-center justify-center text-ink-3/60"
+                                                        aria-hidden="true"
+                                                    >
                                                         <Minus className="size-4" />
                                                     </span>
                                                 )}
@@ -132,11 +177,17 @@ const moduleIds = MODULE_IDS.filter((id): id is ModuleId => included.has(id) && 
             if (!sentinel) return;
             const top = parseFloat(getComputedStyle(head).top) || 0;
             const observer = new IntersectionObserver(
-                ([entry]) => head.toggleAttribute("data-stuck", !entry.isIntersecting && entry.boundingClientRect.top < top),
+                ([entry]) =>
+                    head.toggleAttribute(
+                        "data-stuck",
+                        !entry.isIntersecting && entry.boundingClientRect.top < top,
+                    ),
                 { rootMargin: `-${Math.ceil(top) + 1}px 0px 0px 0px` },
             );
             observer.observe(sentinel);
-            document.addEventListener("astro:before-swap", () => observer.disconnect(), { once: true });
+            document.addEventListener("astro:before-swap", () => observer.disconnect(), {
+                once: true,
+            });
         });
     }
     document.addEventListener("astro:page-load", watchCompareHeads);
