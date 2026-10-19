@@ -2366,6 +2366,29 @@ html.dark [data-ena] .material-glass {
     }
 }
 
+/*
+ * Over Ena the button takes the opposite tone of the page, like the bar: light on the black
+ * stage, dark on the white one. It flips from its own place at the foot of the screen, which
+ * meets the section before the bar does.
+ */
+.ds-whatsapp.ds-whatsapp--invert {
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    background-color: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+    box-shadow: 0 14px 48px rgb(0 0 0 / 0.28);
+}
+
+.ds-whatsapp.ds-whatsapp--invert:hover {
+    background-color: hsl(var(--primary) / 0.9);
+}
+
+.dark .ds-whatsapp.ds-whatsapp--invert {
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    box-shadow: 0 14px 48px rgb(0 0 0 / 0.14);
+}
+
 /* Above the fold the hero rises on load, before any observer could see it. */
 @media (prefers-reduced-motion: no-preference) {
     .ds-intro {

@@ -300,16 +300,20 @@ function initScrub(): () => void {
             const tick = (_time: number, deltaMs: number) => {
                 if (!watching && Math.abs(target - current) < 0.001) return;
                 const vh = window.visualViewport?.height ?? window.innerHeight;
-                const start = vh * 0.85;
-                const end = vh * 0.2;
-                const next = (start - root.getBoundingClientRect().top) / (start - end);
+                const bar = document.querySelector("header")?.getBoundingClientRect().height ?? 60;
+                // The bar inverts when the section top passes under it. Full bleed just before that,
+                // so the colour change lands on an edge-to-edge ground. The same span runs backwards
+                // when scrolling up: it leaves full width as the bar changes back.
+                const start = vh * 0.78;
+                const end = bar + Math.min(72, vh * 0.08);
+                const next = (start - root.getBoundingClientRect().top) / Math.max(1, start - end);
                 target = Math.min(1, Math.max(0, next));
                 if (!primed) {
                     current = target;
                     primed = true;
                 } else {
                     const dt = Math.max(0, deltaMs) / 1000;
-                    current += (target - current) * (1 - Math.exp(-dt / 0.6));
+                    current += (target - current) * (1 - Math.exp(-dt / 0.18));
                     if (Math.abs(target - current) < 0.001) current = target;
                 }
                 apply(current);
@@ -379,9 +383,42 @@ function initScrollFades(): () => void {
     return () => cleanups.forEach((cleanup) => cleanup());
 }
 
+function initWhatsAppInvert(): () => void {
+    const button = document.querySelector<HTMLElement>(".ds-whatsapp");
+    if (!button || !document.querySelector("[data-ena]")) return () => {};
+
+    // The button sits at the foot of the screen, so it meets Ena before the bar does. It flips
+    // when its own centre crosses the section, not when the bar does.
+    let frame = 0;
+    const update = () => {
+        frame = 0;
+        const rect = button.getBoundingClientRect();
+        const mid = (rect.top + rect.bottom) / 2;
+        const over = Array.from(document.querySelectorAll<HTMLElement>("[data-ena]")).some((section) => {
+            const bounds = section.getBoundingClientRect();
+            return mid > bounds.top && mid < bounds.bottom;
+        });
+        button.classList.toggle("ds-whatsapp--invert", over);
+    };
+    const onScroll = () => {
+        if (frame) return;
+        frame = requestAnimationFrame(update);
+    };
+
+    update();
+    window.addEventListener("scroll", onScroll, { passive: true, capture: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+        cancelAnimationFrame(frame);
+        window.removeEventListener("scroll", onScroll, true);
+        window.removeEventListener("resize", onScroll);
+        button.classList.remove("ds-whatsapp--invert");
+    };
+}
+
 function init() {
     teardown?.();
-    const cleanups = [initReveal(), initCountUp(), initScrub(), initScrollFades()];
+    const cleanups = [initReveal(), initCountUp(), initScrub(), initScrollFades(), initWhatsAppInvert()];
     teardown = () => {
         cleanups.forEach((cleanup) => cleanup());
         teardown = null;

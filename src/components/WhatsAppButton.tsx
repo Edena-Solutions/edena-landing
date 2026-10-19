@@ -24,7 +24,7 @@ export function WhatsAppButton({
                 "fixed z-40 h-11 gap-0 overflow-hidden rounded-full px-3.5 font-medium",
                 "bottom-[max(1.5rem,env(safe-area-inset-bottom))] right-[max(1.5rem,env(safe-area-inset-right))]",
                 "bg-primary hover:bg-primary/90 shadow-[0_14px_48px_rgba(0,0,0,0.14)] dark:shadow-[0_14px_48px_rgba(0,0,0,0.55)]",
-                "active:scale-[0.97] transition-[color,box-shadow,transform] duration-200",
+                "active:scale-[0.97] transition-[color,background-color,box-shadow,transform] duration-200",
                 className,
             )}
         >

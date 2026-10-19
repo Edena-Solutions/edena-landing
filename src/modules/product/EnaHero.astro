@@ -25,7 +25,11 @@ const cards = t.enaSection.cards;
 const ena = t.enaScenes;
 const tasks = t.enaSection.highlight.tasks;
 const locale = intlLocaleForLang(lang);
-const number = (value: number, digits = 0) => new Intl.NumberFormat(locale, { minimumFractionDigits: digits, maximumFractionDigits: digits }).format(value);
+const number = (value: number, digits = 0) =>
+    new Intl.NumberFormat(locale, {
+        minimumFractionDigits: digits,
+        maximumFractionDigits: digits,
+    }).format(value);
 
 type Result =
     | { kind: "stat"; icon: typeof Check; value: string; tone: string }
@@ -44,12 +48,50 @@ interface Conversation {
 }
 
 const conversations: Conversation[] = [
-    { who: ["MG", 330], q: cards.agent.prompt, a: cards.agent.response, result: { kind: "stat", icon: UserPlus, value: "+12", tone: "sky" }, slot: "tl" },
-    { who: ["LT", 25], q: ena.askQuestion, a: ena.askAnswer, result: { kind: "pills", items: ena.allergens }, slot: "tr" },
-    { who: ["AD", 200], q: cards.automate.prompt, a: cards.automate.response, result: { kind: "stat", icon: Receipt, value: number(847), tone: "green" }, slot: "br" },
-    { who: ["JP", 140], q: cards.organization.prompt, a: cards.organization.response, result: { kind: "team" }, slot: "bl" },
-    { who: ["SR", 280], q: ena.taskPrompt, a: ena.taskDone, result: { kind: "done", text: tasks[1] }, slot: "t", far: true },
-    { who: ["DR", 160], q: ena.summaryPrompt, a: ena.summaryAnswer, result: { kind: "stat", icon: Users, value: `${number(96.4, 1)} %`, tone: "lime" }, slot: "b", far: true },
+    {
+        who: ["MG", 330],
+        q: cards.agent.prompt,
+        a: cards.agent.response,
+        result: { kind: "stat", icon: UserPlus, value: "+12", tone: "sky" },
+        slot: "tl",
+    },
+    {
+        who: ["LT", 25],
+        q: ena.askQuestion,
+        a: ena.askAnswer,
+        result: { kind: "pills", items: ena.allergens },
+        slot: "tr",
+    },
+    {
+        who: ["AD", 200],
+        q: cards.automate.prompt,
+        a: cards.automate.response,
+        result: { kind: "stat", icon: Receipt, value: number(847), tone: "green" },
+        slot: "br",
+    },
+    {
+        who: ["JP", 140],
+        q: cards.organization.prompt,
+        a: cards.organization.response,
+        result: { kind: "team" },
+        slot: "bl",
+    },
+    {
+        who: ["SR", 280],
+        q: ena.taskPrompt,
+        a: ena.taskDone,
+        result: { kind: "done", text: tasks[1] },
+        slot: "t",
+        far: true,
+    },
+    {
+        who: ["DR", 160],
+        q: ena.summaryPrompt,
+        a: ena.summaryAnswer,
+        result: { kind: "stat", icon: Users, value: `${number(96.4, 1)} %`, tone: "lime" },
+        slot: "b",
+        far: true,
+    },
 ];
 ---
 
@@ -60,73 +102,85 @@ const conversations: Conversation[] = [
 
     <!-- Ena, alive, with her light turning behind her. -->
     <div class="ena-hero__ena">
-        <span class="ena-hero__halo"></span>
         <EnaClover size={1} alive className="ena-hero__clover" />
     </div>
 
     {
         conversations.map((conversation, index) => (
             <div
-                class:list={["ena-hero__chat", `ena-hero__chat--${conversation.slot}`, conversation.far && "ena-hero__chat--far"]}
+                class:list={[
+                    "ena-hero__chat",
+                    `ena-hero__chat--${conversation.slot}`,
+                    conversation.far && "ena-hero__chat--far",
+                ]}
                 style={`--i: ${index}`}
             >
                 <div class="ena-hero__q">
                     <span class="ena-hero__q-text">{conversation.q}</span>
-                    <Avatar initials={conversation.who[0]} hue={conversation.who[1]} size={1.6} className="ena-hero__who" />
+                    <Avatar
+                        initials={conversation.who[0]}
+                        hue={conversation.who[1]}
+                        size={1.6}
+                        className="ena-hero__who"
+                    />
                 </div>
                 <div class="ena-hero__answer">
                     <EnaClover size={1.9} className="ena-hero__mini" />
                     <div class="ena-hero__a-wrap">
                         <span class="ena-hero__dots">
-                            <i></i>
-                            <i></i>
-                            <i></i>
+                            <i />
+                            <i />
+                            <i />
                         </span>
                         <div class="ena-hero__a">
                             <span class="ena-hero__a-text">{conversation.a}</span>
-                            {
-                                conversation.result.kind === "stat" && (
-                                    <span class:list={["ena-hero__result", `ena-hero__result--${conversation.result.tone}`]}>
-                                        <conversation.result.icon className="ena-hero__icon" />
-                                        <b>{conversation.result.value}</b>
-                                        <Check className="ena-hero__tick" />
+                            {conversation.result.kind === "stat" && (
+                                <span
+                                    class:list={[
+                                        "ena-hero__result",
+                                        `ena-hero__result--${conversation.result.tone}`,
+                                    ]}
+                                >
+                                    <conversation.result.icon className="ena-hero__icon" />
+                                    <b>{conversation.result.value}</b>
+                                    <Check className="ena-hero__tick" />
+                                </span>
+                            )}
+                            {conversation.result.kind === "done" && (
+                                <span class="ena-hero__result ena-hero__result--green">
+                                    <Check className="ena-hero__icon" />
+                                    <span class="ena-hero__result-text">
+                                        {conversation.result.text}
                                     </span>
-                                )
-                            }
-                            {
-                                conversation.result.kind === "done" && (
-                                    <span class="ena-hero__result ena-hero__result--green">
-                                        <Check className="ena-hero__icon" />
-                                        <span class="ena-hero__result-text">{conversation.result.text}</span>
-                                    </span>
-                                )
-                            }
-                            {
-                                conversation.result.kind === "pills" && (
-                                    <span class="ena-hero__pills">
-                                        {conversation.result.items.map((item) => (
-                                            <span class="ena-hero__pill">{item}</span>
+                                </span>
+                            )}
+                            {conversation.result.kind === "pills" && (
+                                <span class="ena-hero__pills">
+                                    {conversation.result.items.map((item) => (
+                                        <span class="ena-hero__pill">{item}</span>
+                                    ))}
+                                </span>
+                            )}
+                            {conversation.result.kind === "team" && (
+                                <span class="ena-hero__result ena-hero__result--sky">
+                                    <span class="ena-hero__team">
+                                        {[
+                                            ["AM", 200],
+                                            ["JL", 30],
+                                            ["MR", 130],
+                                            ["SP", 300],
+                                        ].map(([initials, hue]) => (
+                                            <Avatar
+                                                initials={initials as string}
+                                                hue={hue as number}
+                                                size={1.25}
+                                                className="ena-hero__team-face"
+                                            />
                                         ))}
                                     </span>
-                                )
-                            }
-                            {
-                                conversation.result.kind === "team" && (
-                                    <span class="ena-hero__result ena-hero__result--sky">
-                                        <span class="ena-hero__team">
-                                            {[
-                                                ["AM", 200],
-                                                ["JL", 30],
-                                                ["MR", 130],
-                                                ["SP", 300],
-                                            ].map(([initials, hue]) => (
-                                                <Avatar initials={initials as string} hue={hue as number} size={1.25} className="ena-hero__team-face" />
-                                            ))}
-                                        </span>
-                                        <Check className="ena-hero__tick" />
-                                    </span>
-                                )
-                            }
+                                    <Check className="ena-hero__tick" />
+                                </span>
+                            )}
                         </div>
                     </div>
                 </div>
@@ -199,7 +253,14 @@ const conversations: Conversation[] = [
         position: absolute;
         inset: -45%;
         border-radius: 50%;
-        background: conic-gradient(from var(--ds-angle, 0deg), #22d3ee, #22c55e, #bef264, #14b8a6, #22d3ee);
+        background: conic-gradient(
+            from var(--ds-angle, 0deg),
+            #22d3ee,
+            #22c55e,
+            #bef264,
+            #14b8a6,
+            #22d3ee
+        );
         filter: blur(3.5rem);
         opacity: 0.3;
     }
