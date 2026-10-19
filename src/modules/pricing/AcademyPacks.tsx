@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Sparkles } from "lucide-react";
 
 import { PACKS, annualPrice, formatPrice, type AcademyPackId } from "@/constants/pricing";
 import { ModuleIcon } from "@/modules/pricing/ModuleIcon";
@@ -8,8 +7,8 @@ import { cn } from "@/lib/utils";
 /*
  * The academy packs, side by side, with the billing cadence above them: a segmented control whose
  * thumb slides between monthly and annual. Changing it swaps every price in place — the new figure
- * rises in, the monthly one stays struck through beside it. The popular pack stands forward, ringed
- * in the brand's gradient.
+ * rises in, the monthly one stays struck through beside it. The popular pack stands forward on a
+ * quiet wash of the brand's light — no coloured stroke.
  *
  * It takes only the words it shows (not the whole dictionary), so the island stays small.
  */
@@ -119,28 +118,34 @@ export default function AcademyPacks({ copy, lang, demoUrl, registerUrl }: Props
                     return (
                         <article
                             key={pack.id}
-                            className={cn(
-                                "relative flex flex-col rounded-tile",
-                                // The popular pack: a hairline of the brand's gradient round a raised card.
-                                popular ? "p-[1.5px] elev-3" : "",
-                            )}
-                            style={popular ? { background: "var(--ds-brand-gradient)" } : undefined}
+                            className={cn("relative flex flex-col", popular && "isolate")}
                         >
+                            {/*
+                                Light behind the card, not a border around it: a wide, soft bloom of
+                                the brand's greens, the way a product sits in Apple's photography.
+                            */}
+                            {popular && (
+                                <div
+                                    aria-hidden
+                                    className="pointer-events-none absolute -inset-x-6 -inset-y-8 -z-10 blur-3xl"
+                                    style={{
+                                        background:
+                                            "radial-gradient(ellipse 75% 65% at 50% 42%, rgb(163 230 53 / 0.55), rgb(34 197 94 / 0.22) 46%, rgb(20 184 166 / 0.08) 68%, transparent 78%)",
+                                    }}
+                                />
+                            )}
                             <div
                                 className={cn(
-                                    "flex h-full flex-col rounded-[calc(var(--radius-tile)-1.5px)] p-7 sm:p-8",
-                                    popular ? "bg-surface" : "bg-canvas-2",
+                                    "flex h-full flex-col rounded-tile p-7 sm:p-8",
+                                    popular ? "bg-surface ring-1 ring-hairline elev-3" : "bg-canvas-2",
                                 )}
                             >
-                                {/* The badge sits on the card's top edge, centred on the gradient ring. */}
                                 {popular && (
-                                    <span
-                                        className="absolute left-1/2 top-0 flex -translate-x-1/2 -translate-y-1/2 items-center gap-1 rounded-full px-3 py-1 text-[0.75rem] font-semibold whitespace-nowrap text-black elev-2"
-                                        style={{ background: "var(--ds-brand-gradient)" }}
-                                    >
-                                        <Sparkles className="size-3.5" />
-                                        {copy.mostPopular}
-                                    </span>
+                                    <p className="mb-5">
+                                        <span className="rounded-full bg-brand-soft px-2.5 py-1 text-[0.6875rem] font-semibold tracking-[0.01em] text-brand-ink">
+                                            {copy.mostPopular}
+                                        </span>
+                                    </p>
                                 )}
                                 <h3 className="type-title-2 text-ink">{data.name}</h3>
                                 <p className="mt-3 type-callout text-ink-2">{data.tagline}</p>
