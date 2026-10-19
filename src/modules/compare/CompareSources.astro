@@ -1,0 +1,52 @@
+---
+import type { Translation } from "@/i18n";
+import { COMPARE_REVIEWED_ON } from "@/data/competitors";
+import { formatLongDate } from "@/lib/intl-locale";
+
+/*
+ * The small print a comparison owes its reader: how it was made and when, what a dash does and does
+ * not mean, where to send a correction, the sources themselves, and whose marks these are.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+    sources: { label: string; url: string }[];
+}
+
+const { t, lang, sources } = Astro.props;
+const c = t.comparePage;
+const EMAIL = "hola@edena.es";
+const [fixBefore, fixAfter] = c.sourcesFix.split("{email}");
+---
+
+<section class="ds-section pt-0">
+    <div class="ds-container">
+        <div class="mx-auto max-w-3xl border-t border-hairline pt-8" data-reveal>
+            <h2 class="type-title-3 text-ink">{c.sourcesTitle}</h2>
+            <p class="type-footnote mt-3 text-ink-2">
+                {c.sourcesBody.replace("{date}", formatLongDate(lang, COMPARE_REVIEWED_ON))}
+            </p>
+            <p class="type-footnote mt-2 text-ink-2">
+                {fixBefore}<a href={`mailto:${EMAIL}`} class="ds-link">{EMAIL}</a>{fixAfter}
+            </p>
+            <p class="type-caption mt-6 text-ink-3">{c.sourcesLabel}</p>
+            <ul class="m-0 mt-2 flex list-none flex-wrap gap-x-4 gap-y-1.5 p-0">
+                {
+                    sources.map((source) => (
+                        <li>
+                            <a
+                                href={source.url}
+                                target="_blank"
+                                rel="nofollow noopener noreferrer"
+                                class="type-footnote text-ink-2 underline decoration-hairline-strong underline-offset-[0.2em] hover:text-ink"
+                            >
+                                {source.label}
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
+            <p class="type-caption mt-6 text-ink-3">{c.trademarks}</p>
+        </div>
+    </div>
+</section>

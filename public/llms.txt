@@ -155,6 +155,7 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 - Blog educativo: https://edena.es/blog/
 - Preguntas frecuentes: https://edena.es/faqs/
 - Contacto: https://edena.es/contact/
+- Comparativas (Edena frente a TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia y Dinantia): https://edena.es/compare/
 
 ---
 

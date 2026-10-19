@@ -1,0 +1,73 @@
+---
+import logoSmall from "@/assets/img/logos/logo-small.svg";
+import type { Competitor } from "@/data/competitors";
+
+/*
+ * A brand as an app icon: the iOS squircle in white, a top light and a contact shadow, Edena's
+ * small logo or the other brand's mark centred on it. White in both themes, as an app icon is, so
+ * every mark keeps its colours (and the white some of them carry inside). `size` is any CSS length;
+ * the corner and the shadow scale with it.
+ */
+interface Props {
+    /** The competitor whose mark it shows; Edena's icon when absent. */
+    competitor?: Pick<Competitor, "name" | "logo">;
+    size?: string;
+    /** Decorative by default: the name is always written next to it. */
+    alt?: string;
+    class?: string;
+}
+
+const { competitor, size = "3rem", alt = "", class: className } = Astro.props;
+---
+
+<span class:list={["brand-tile", !competitor && "brand-tile--edena", className]} style={`--tile: ${size}`}>
+    {
+        competitor ? (
+            <img src={competitor.logo.src} alt={alt} class="brand-mark" loading="lazy" decoding="async" />
+        ) : (
+            <img src={logoSmall.src} alt={alt} class="brand-mark brand-logo" decoding="async" />
+        )
+    }
+</span>
+
+<style>
+    .brand-tile {
+        position: relative;
+        display: inline-grid;
+        width: var(--tile);
+        height: var(--tile);
+        flex-shrink: 0;
+        place-items: center;
+        overflow: hidden;
+        border-radius: 22.5%;
+        background-color: #ffffff;
+        box-shadow:
+            inset 0 0 0 1px rgb(0 0 0 / 0.06),
+            0 1px 2px rgb(0 0 0 / 0.08),
+            0 calc(var(--tile) * 0.12) calc(var(--tile) * 0.3) calc(var(--tile) * -0.1) rgb(0 0 0 / 0.28);
+    }
+
+    /* The edge light, over the mark: the tile reads as a surface, not a sticker. */
+    .brand-tile::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        pointer-events: none;
+        box-shadow:
+            inset 0 1px 0 rgb(255 255 255 / 0.9),
+            inset 0 -1px 0 rgb(0 0 0 / 0.05);
+    }
+
+    .brand-mark {
+        width: 66%;
+        height: 66%;
+        object-fit: contain;
+    }
+
+    /* Edena's small logo is already a full circle, so it sits a little larger than a glyph. */
+    .brand-logo {
+        width: 78%;
+        height: 78%;
+    }
+</style>

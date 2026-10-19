@@ -17,6 +17,8 @@ export default {
         pause: "Pausar",
         speed: "Velocidad",
     },
+    /** Arrows under a row that scrolls sideways on a phone. */
+    rail: { previous: "Ver anteriores", next: "Ver siguientes" },
     /** Interface labels inside the home page's drawings of the product (decorative, aria-hidden). */
     homeScenes: {
         present: "Presentes",
@@ -815,6 +817,9 @@ export default {
         resources: "Recursos",
     },
     navigation: {
+        compare: "Comparativas",
+        compareAll: "Todas las comparativas",
+        compareAllDescription: "Edena frente a 7 alternativas, punto por punto.",
         products: "Productos",
         functionalities: "Funcionalidades",
         navPlatform: "Plataforma",
@@ -3841,6 +3846,571 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
                     answer: "Sí. Todos los planes de Edena incluyen Ena con un uso mensual incluido, que es mayor en los planes más completos.",
                 },
             ],
+        },
+    },
+    comparePage: {
+        breadcrumb: "Comparativas",
+        backToAll: "Todas las comparativas",
+        heroEyebrow: "Comparativa",
+        centers: "+{n} centros",
+        scoreCaption: "Puntos sobre {n} criterios clave. Incluido suma 1; parcial, 0,5.",
+        scoreLink: "Ver el detalle",
+        edenaTagline: "Gestión escolar todo en uno",
+        edenaMeta: "Desde 36 €/mes · 30 días gratis",
+        scoreSr: "Puntuación: Edena {a} de {n}; {name} {b} de {n}.",
+        morePrevious: "Ver anteriores",
+        moreNext: "Ver siguientes",
+        verdictTitle: "Dónde gana Edena",
+        verdictDescription: "Tres diferencias que tu equipo nota desde el primer mes.",
+        tableTitle: "Cara a cara",
+        tableDescription:
+            "Los 17 criterios que deciden la compra de un software escolar, con lo que ofrece cada uno según su información pública.",
+        criterion: "Criterio",
+        status: {
+            yes: "Incluido",
+            partial: "Parcial",
+            none: "No incluido o sin información pública",
+        },
+        groups: {
+            comms: "Comunicación",
+            platform: "Gestión del centro",
+            money: "Dinero",
+            growth: "Admisiones y equipo",
+            terms: "Condiciones",
+        },
+        rows: {
+            comms: "Comunicación con las familias",
+            app: "App para familias",
+            attendance: "Control de asistencia",
+            records: "Expediente y gestión del centro",
+            grades: "Evaluación, notas y boletines",
+            segments: "Para escuelas infantiles, colegios y academias",
+            lms: "Aula virtual y contenidos",
+            payments: "Cobros a las familias",
+            billing: "Facturación (facturas y remesas)",
+            verifactu: "Declaración VERI*FACTU publicada",
+            store: "Tienda online",
+            crm: "CRM de admisiones",
+            ai: "Inteligencia artificial integrada",
+            staffTime: "Control horario del personal",
+            price: "Precio publicado en la web",
+            trial: "Prueba o demo",
+            migration: "Migración y puesta en marcha",
+        },
+        edenaNotes: {
+            comms: "Mensajes, circulares y confirmación de lectura",
+            app: "Gratis en iOS y Android",
+            attendance: "Pase de lista y ausencias",
+            records: "Expediente, grupos, horarios y secretaría",
+            grades: "Notas, boletines y cuaderno del profesorado",
+            segments: "Escuelas infantiles, colegios, academias y grupos",
+            lms: "Tareas, notas y boletines; sin contenidos editoriales",
+            payments: "Cobros online y en la app",
+            billing: "Facturas, remesas SEPA e impagos",
+            verifactu: "Pública y firmada, versión a versión",
+            store: "Tienda del centro y monedero escolar",
+            crm: "Formularios web, embudo y conversión",
+            ai: "Ena, un agente que ejecuta tareas",
+            staffTime: "Registro de jornada desde el móvil",
+            price: "Desde 36 €/mes",
+            trial: "30 días, sin tarjeta",
+            migration: "En marcha en 2 semanas",
+        },
+        switchTitle: "Cambiar a Edena es más fácil de lo que parece",
+        switchDescription: "Nos encargamos de todo y tu equipo sigue con su día a día.",
+        switchStat: "2",
+        switchUnit: "semanas",
+        switchCaption: "para que la mayoría de centros estén en marcha",
+        switchSteps: [
+            {
+                title: "Migramos tus datos",
+                body: "Alumnos, familias, grupos y cuotas, desde {name}, desde Excel o desde donde estén. Sin coste.",
+            },
+            {
+                title: "Formamos a tu equipo",
+                body: "Secretaría, dirección y profesorado aprenden con sus propios datos, y nos tienen por chat cuando lo necesitan.",
+            },
+            {
+                title: "Sin ataduras",
+                body: "Sin cuota de alta ni permanencia. Pagas por alumno y te quedas porque quieres.",
+            },
+        ],
+        faqTitle: "Preguntas frecuentes",
+        faqDescription: "Lo que más nos preguntan los centros que vienen de {name}.",
+        moreTitle: "Más comparativas",
+        moreDescription: "Edena frente al resto de plataformas del mercado.",
+        sourcesTitle: "Cómo hemos hecho esta comparativa",
+        sourcesBody:
+            "Con la información pública de cada proveedor (web oficial, fichas de producto y prensa sectorial), revisada el {date}. «No incluido o sin información pública» significa que no aparece en esas fuentes, no que no exista. Las cifras de centros son las que publica cada proveedor.",
+        sourcesFix: "¿Ves un dato desactualizado? Escríbenos a {email} y lo corregimos.",
+        sourcesLabel: "Fuentes consultadas",
+        trademarks:
+            "Las marcas citadas pertenecen a sus respectivos titulares, que no están asociados con Edena ni patrocinan esta comparativa.",
+        hub: {
+            metaTitle: "Edena vs alternativas: comparativa de software escolar · Edena",
+            metaDescription:
+                "Edena frente a TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia y Dinantia: 17 criterios comparados con fuentes públicas. Descubre dónde marca la diferencia.",
+            eyebrow: "Comparativas",
+            title: "Edena frente a TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia y Dinantia",
+            description:
+                "Ponemos Edena frente a las siete plataformas con las que más se compara en escuelas infantiles, colegios y academias. 17 criterios, fuentes públicas y fecha de revisión. Sin letra pequeña.",
+            cardsTitle: "Elige el cara a cara",
+            cardsDescription:
+                "Cada comparativa, con su marcador, las diferencias que importan y sus fuentes.",
+            cardCta: "Ver comparativa",
+            missingTitle: "¿Falta tu plataforma?",
+            missingBody:
+                "Cuéntanos qué usas hoy y te enseñamos la comparación con tus datos en una demo de 15 minutos.",
+            missingCta: "Pedir una demo",
+            matrixTitle: "Todos contra todos",
+            matrixDescription:
+                "Las ocho plataformas y los 17 criterios en una sola tabla. Cada marca lleva su detalle al pasar el cursor.",
+            total: "Puntuación",
+            statRivals: "alternativas comparadas",
+            statCriteria: "criterios clave",
+            statSources: "fuentes públicas",
+        },
+        competitors: {
+            tokapp: {
+                tagline: "App de comunicación y cobros",
+                owner: "TokApp Online S.L. · Vigo",
+                metaTitle: "Edena vs TokApp: comparativa punto por punto · Edena",
+                metaDescription:
+                    "Edena frente a TokApp: comunicación, facturación con VERI*FACTU, remesas SEPA, CRM de admisiones, precio y prueba gratis. 17 criterios, con fuentes.",
+                lead: "TokApp conecta el centro con las familias: mensajes, asistencia, cobros, tienda y Tok.IA. Edena también, y además lleva el expediente, las facturas con VERI*FACTU, las remesas SEPA y las admisiones en la misma plataforma.",
+                wins: [
+                    {
+                        title: "Un sistema, no dos",
+                        body: "TokApp se integra con tu software de gestión: es la capa de comunicación, cobros y tienda. En Edena, la comunicación, el expediente, la facturación y las matrículas viven en la misma plataforma. Sin sincronizaciones ni doble trabajo.",
+                    },
+                    {
+                        title: "Cobrar no es facturar",
+                        body: "TokApp publica gestión de cobros y una tienda en la app. Emitir facturas con VERI*FACTU, girar remesas SEPA y perseguir impagos no aparece en su información pública. En Edena va en el mismo flujo, cada mes.",
+                    },
+                    {
+                        title: "El precio, a la vista",
+                        body: "En Edena sabes lo que pagas antes de hablar con nadie: desde 36 € al mes, 30 días gratis y sin permanencia.",
+                    },
+                ],
+                notes: {
+                    comms: "Mensajes con validez legal y confirmación de lectura",
+                    app: "Gratuita, para familias y profesorado; también con la marca del centro",
+                    attendance: "Control de asistencia",
+                    records: "Asistencia, actividades y grupos; la gestión del centro se integra por API",
+                    segments: "Colegios, escuelas infantiles, academias, universidades y AMPA",
+                    payments: "Gestión de cobros y pagos de actividades",
+                    store: "Tienda integrada: libros y material escolar",
+                    ai: "Tok.IA: chatbot, traducción y lectura en voz alta",
+                    price: "Bajo demo",
+                    trial: "Demo gratuita con su equipo",
+                },
+                faqs: [
+                    {
+                        question: "¿Qué diferencia hay entre Edena y TokApp?",
+                        answer: "TokApp es una plataforma de comunicación, cobros y tienda, con asistencia y Tok.IA, que se integra con el software de gestión del centro. Edena es el software de gestión completo: expediente, facturación con VERI*FACTU, remesas SEPA, CRM de admisiones, control horario y comunicación con las familias, en una sola plataforma.",
+                    },
+                    {
+                        question: "¿Puedo pasar de TokApp a Edena a mitad de curso?",
+                        answer: "Sí. Importamos alumnos, familias y grupos, configuramos la facturación y damos de alta a las familias en la app. La mayoría de centros están operativos en dos semanas, sin interrumpir el día a día.",
+                    },
+                    {
+                        question: "¿Edena también envía mensajes con confirmación de lectura?",
+                        answer: "Sí. Circulares y mensajes con confirmación de lectura, notificaciones push y traducción automática, sin compartir teléfonos personales.",
+                    },
+                    {
+                        question: "TokApp ya cobra y tiene tienda. ¿Qué añade Edena?",
+                        answer: "Las dos tienen cobros a las familias y tienda. Edena añade la facturación: facturas con VERI*FACTU, remesas SEPA e impagos, en el mismo sitio que el expediente y las matrículas. Eso no aparece en la información pública de TokApp.",
+                    },
+                    {
+                        question: "¿Edena tiene inteligencia artificial, como Tok.IA?",
+                        answer: "Sí. Tok.IA traduce, lee mensajes en voz alta y responde con un chatbot. Ena, la IA de Edena, hace ese tipo de tareas y además ejecuta trabajo del centro: prepara facturas, redacta comunicados y pasa lista. Tú revisas y confirmas.",
+                    },
+                    {
+                        question: "Si dejo TokApp, ¿tengo que seguir pagando otro programa de gestión?",
+                        answer: "No. TokApp se integra con el software de gestión que ya tengas. Edena es ese software: expediente, cobros, facturación, admisiones y familias. La migración de alumnos, familias y grupos está incluida.",
+                    },
+                ],
+            },
+            clickedu: {
+                tagline: "Plataforma de gestión académica para colegios",
+                owner: "Sanoma Learning",
+                metaTitle: "Edena vs Clickedu: comparativa punto por punto · Edena",
+                metaDescription:
+                    "Edena frente a Clickedu: gestión académica, facturación, CRM de admisiones, IA, precio y prueba gratis. 17 criterios comparados con fuentes públicas.",
+                lead: "Clickedu es una plataforma académica sólida para colegios. Edena va más allá del aula: capta matrículas con su CRM, automatiza la facturación y funciona igual en escuelas infantiles, colegios y academias, con precio público.",
+                wins: [
+                    {
+                        title: "Captar alumnos, no solo gestionarlos",
+                        body: "Con la natalidad a la baja, cada matrícula cuenta. El CRM de Edena recoge solicitudes desde tu web, las ordena por etapas y mide la conversión. Clickedu publica preinscripción y matriculación; un CRM de captación con embudo no aparece en su información pública.",
+                    },
+                    {
+                        title: "Una IA que trabaja",
+                        body: "Ena prepara las facturas del mes, redacta comunicados y pasa lista cuando se lo pides. Tú revisas y confirmas. Clickedu no detalla funciones de IA en su web.",
+                    },
+                    {
+                        title: "Sabes el precio hoy",
+                        body: "Clickedu funciona con demo y presupuesto. Edena publica su precio, desde 36 € al mes, y te deja probarla 30 días sin tarjeta.",
+                    },
+                ],
+                notes: {
+                    comms: "Mensajería con las familias",
+                    app: "Notas, asistencia, recibos y mensajería",
+                    attendance: "Control de asistencia",
+                    records: "Gestión académica, económica y comunicación",
+                    segments: "Colegios, de Infantil a FP",
+                    grades: "Notas, evaluaciones y boletines",
+                    lms: "Se integra con Microsoft 365, Google y libros digitales",
+                    payments: "Recibos y TPV virtual",
+                    billing: "Recibos",
+                    verifactu: "Declaración enlazada en su web",
+                    store: "E-commerce de comedor, extraescolares y transporte",
+                    crm: "Preinscripción y matriculación",
+                    price: "Bajo demo",
+                    trial: "Demo comercial",
+                    migration: "Servicio de acompañamiento («Embarque»)",
+                },
+                faqs: [
+                    {
+                        question: "¿Qué diferencia hay entre Edena y Clickedu?",
+                        answer: "Los dos cubren la gestión académica, la comunicación, la asistencia, los cobros y el e-commerce de servicios. Edena incluye además un CRM de admisiones con embudo, una IA que ejecuta tareas (Ena) y el control horario del personal, y publica su precio, con 30 días de prueba gratis.",
+                    },
+                    {
+                        question: "¿Puedo migrar mis datos de Clickedu a Edena?",
+                        answer: "Sí. Migramos alumnos, familias, grupos y datos de facturación, y formamos a tu equipo. La migración está incluida en el precio.",
+                    },
+                    {
+                        question: "¿Edena cumple con VERI*FACTU?",
+                        answer: "Sí. Edena publica su declaración responsable VERI*FACTU, con cada versión firmada y descargable en edena.es/verifactu. Clickedu también publica Verifactu, como módulo de contabilidad y recibos.",
+                    },
+                    {
+                        question: "Clickedu ya tiene notas y e-commerce. ¿En qué os separáis?",
+                        answer: "En la gestión académica, la asistencia, los cobros y la tienda de servicios estáis cerca. La diferencia está en el CRM de admisiones con embudo, en Ena (una IA que ejecuta tareas) y en el control horario del personal. Y en que Edena publica el precio.",
+                    },
+                    {
+                        question: "¿Edena sirve para escuelas infantiles y academias, o solo para colegios?",
+                        answer: "Para las tres, y para grupos de centros, con la misma plataforma. Clickedu está publicada para colegios, de Infantil a FP.",
+                    },
+                    {
+                        question: "¿Puedo probar Edena sin pedir una demo?",
+                        answer: "Sí. 30 días gratis, sin tarjeta y sin permanencia. El precio está en la web, desde 36 € al mes. Clickedu trabaja con demo y presupuesto.",
+                    },
+                ],
+            },
+            livekid: {
+                tagline: "App de gestión para escuelas infantiles",
+                owner: "LiveKid · Cracovia y Barcelona",
+                metaTitle: "Edena vs LiveKid: comparativa punto por punto · Edena",
+                metaDescription:
+                    "Edena frente a LiveKid para escuelas infantiles: agenda digital, facturación con VERI*FACTU, CRM de admisiones, IA y precio. 17 criterios, con fuentes.",
+                lead: "LiveKid está pensado para escuelas infantiles. Edena cubre la etapa 0-3 con agenda digital y facturación, y sigue contigo si mañana abres un colegio, una academia o un segundo centro.",
+                wins: [
+                    {
+                        title: "Crece sin cambiar de software",
+                        body: "Edena sirve igual a una escuela infantil, a un colegio, a una academia o a un grupo de centros. Tu software no se queda pequeño cuando creces.",
+                    },
+                    {
+                        title: "VERI*FACTU, por escrito",
+                        body: "Edena publica su declaración responsable VERI*FACTU, firmada versión a versión. En la información pública de LiveKid no la hemos encontrado.",
+                    },
+                    {
+                        title: "Admisiones con CRM de verdad",
+                        body: "Formularios en tu web, embudo por etapas, responsables y conversión. Llenar las plazas de 0-3 es una venta, y Edena te da las herramientas para cerrarla.",
+                    },
+                ],
+                notes: {
+                    comms: "Agenda diaria y mensajes a las familias",
+                    app: "Agenda diaria, fotos y pagos",
+                    attendance: "Llegada, salida y ausencias de cada niño",
+                    records: "Gestión y comunicación de escuelas infantiles",
+                    segments: "Solo escuelas infantiles",
+                    payments: "Pago en la app",
+                    billing: "Facturación automática",
+                    crm: "Gestión de matrículas",
+                    staffTime: "Horarios y fichaje del personal",
+                    ai: "Asistente que redacta mensajes, actividades y galerías",
+                    price: "Tarifa mensual por centro",
+                    trial: "Cuenta de prueba gratuita",
+                    migration: "Implementación gratuita",
+                },
+                faqs: [
+                    {
+                        question: "¿Edena tiene agenda digital para escuelas infantiles?",
+                        answer: "Sí. Comidas, siestas, fotos y actividades de cada niño se registran en segundos y cada familia las ve al instante en la app gratuita.",
+                    },
+                    {
+                        question: "¿Qué diferencia hay entre Edena y LiveKid?",
+                        answer: "LiveKid está especializado en escuelas infantiles. Edena cubre esa etapa y también colegios, academias y grupos, con facturación VERI*FACTU, remesas SEPA, CRM de admisiones, automatizaciones e IA en la misma plataforma.",
+                    },
+                    {
+                        question: "¿Cuánto cuesta Edena para una escuela infantil?",
+                        answer: "Desde 36 € al mes, pagando por alumno, sin cuota de alta ni permanencia. Puedes probarla 30 días gratis, sin tarjeta. LiveKid publica una tarifa mensual por centro y una cuenta de prueba.",
+                    },
+                    {
+                        question: "LiveKid ya factura y tiene IA. ¿Cuál es la diferencia?",
+                        answer: "LiveKid factura, cobra en la app y tiene un asistente que redacta mensajes y actividades. Edena hace eso en la etapa 0-3 y, además, publica su declaración VERI*FACTU y sigue sirviendo si el centro crece a colegio, academia o grupo.",
+                    },
+                    {
+                        question: "¿Edena controla el horario del personal, como LiveKid?",
+                        answer: "Sí. El equipo ficha desde el móvil y el centro tiene el registro de jornada. En LiveKid también está publicado el fichaje y los horarios del personal.",
+                    },
+                    {
+                        question: "Si mañana abro un colegio, ¿tengo que cambiar de software?",
+                        answer: "Con Edena, no. La misma plataforma cubre la escuela infantil, el colegio, la academia y un grupo de centros. LiveKid está publicada para escuelas infantiles.",
+                    },
+                ],
+            },
+            educamos: {
+                tagline: "Plataforma educativa del grupo SM",
+                owner: "Grupo SM",
+                metaTitle: "Edena vs SM Educamos: comparativa punto por punto · Edena",
+                metaDescription:
+                    "Edena frente a SM Educamos: gestión, facturación con VERI*FACTU, CRM de admisiones, IA, precio y puesta en marcha. 17 criterios, con fuentes públicas.",
+                lead: "Educamos nace de una editorial y brilla en el aula virtual con contenidos de SM. Edena nace de la gestión: cobra, factura, capta matrículas y automatiza la secretaría, sin atarte a ninguna editorial.",
+                wins: [
+                    {
+                        title: "Sin atarte a una editorial",
+                        body: "Edena no vende libros ni contenidos. Eliges los materiales que quieras para el aula y Edena se ocupa del resto: gestión, cobros y familias.",
+                    },
+                    {
+                        title: "VERI*FACTU, por escrito",
+                        body: "Educamos factura, cobra y tiene tienda. Edena publica además su declaración VERI*FACTU, firmada versión a versión, en el mismo flujo que las remesas y los impagos.",
+                    },
+                    {
+                        title: "En marcha en dos semanas",
+                        body: "Migración, configuración y formación a cargo nuestro, con precio público y sin permanencia.",
+                    },
+                ],
+                notes: {
+                    comms: "Mensajes a las familias",
+                    app: "Notas, pagos, documentos y mensajes",
+                    attendance: "Asistencia, retrasos e incidencias",
+                    records: "Gestión, comunicación y aula virtual",
+                    grades: "Calificaciones y boletines",
+                    segments: "Colegios",
+                    lms: "Aula virtual con contenidos de SM",
+                    payments: "Pagos online",
+                    billing: "Recibos, becas y modelos 182 y 233",
+                    store: "Tienda virtual para pedidos de las familias",
+                    crm: "Procesos de admisión y matriculación",
+                    price: "Bajo demo",
+                    trial: "Demo comercial",
+                },
+                faqs: [
+                    {
+                        question: "¿Qué diferencia hay entre Edena y SM Educamos?",
+                        answer: "Educamos combina gestión y un aula virtual con contenidos de SM. Edena se centra en la gestión del centro: facturación con VERI*FACTU, remesas SEPA, CRM de admisiones, control horario, automatizaciones, IA y comunicación con las familias, sin depender de una editorial.",
+                    },
+                    {
+                        question: "¿Puedo usar Edena con los libros digitales de mi editorial?",
+                        answer: "Sí. Edena no impone contenidos: tu centro sigue usando los materiales y plataformas de aula que prefiera, y Edena gestiona el resto.",
+                    },
+                    {
+                        question: "¿Cuánto se tarda en pasar de Educamos a Edena?",
+                        answer: "La mayoría de centros están operativos en dos semanas. Migramos los datos, configuramos la facturación y formamos al equipo, sin coste añadido.",
+                    },
+                    {
+                        question: "Educamos ya factura y tiene tienda. ¿Por qué mirar Edena?",
+                        answer: "Educamos publica facturación, tienda virtual, asistencia y boletines, con contenidos de SM en el aula. Edena no te ata a una editorial, publica el precio y la declaración VERI*FACTU, y el CRM de admisiones va conectado al expediente y al recibo.",
+                    },
+                    {
+                        question: "¿Edena tiene notas y boletines?",
+                        answer: "Sí. Tareas, notas y boletines, sin contenidos de editorial. El aula virtual con los materiales de SM es el punto fuerte de Educamos; en Edena eliges los materiales que ya usas.",
+                    },
+                    {
+                        question: "¿Hay permanencia o cuota de alta?",
+                        answer: "No. Pagas por alumno, desde 36 € al mes, y puedes probar 30 días sin tarjeta. Educamos trabaja con demo y presupuesto.",
+                    },
+                ],
+            },
+            alexia: {
+                tagline: "Suite de gestión escolar de Educaria",
+                owner: "Educaria",
+                metaTitle: "Edena vs Alexia: comparativa punto por punto · Edena",
+                metaDescription:
+                    "Edena frente a Alexia (Educaria): facturación, CRM de admisiones, IA, automatizaciones, precio y prueba gratis. 17 criterios comparados con fuentes públicas.",
+                lead: "Alexia es una suite veterana y muy completa para colegios. Edena juega a otra velocidad: precio público, 30 días de prueba, CRM de admisiones propio y en marcha en dos semanas.",
+                wins: [
+                    {
+                        title: "Admisiones dentro, no al lado",
+                        body: "Alexia publica preinscripción y matrícula, y conecta la captación con un CRM externo. En Edena el CRM de admisiones va dentro: la solicitud se convierte en alumno, familia y recibo sin exportar nada.",
+                    },
+                    {
+                        title: "Precio a la vista, prueba sin compromiso",
+                        body: "Desde 36 € al mes, 30 días gratis sin tarjeta y sin permanencia. Sin esperar un presupuesto.",
+                    },
+                    {
+                        title: "Para cualquier tipo de centro",
+                        body: "Escuelas infantiles, colegios, academias y grupos con la misma plataforma, más control horario del personal y monedero escolar.",
+                    },
+                ],
+                notes: {
+                    comms: "Autorizaciones y avisos a las familias",
+                    app: "Horarios, notas, recibos y autorizaciones",
+                    attendance: "Pasar lista desde la app del aula",
+                    records: "Gestión académica, económica y administrativa",
+                    grades: "Cuaderno del profesorado, rúbricas y boletines",
+                    segments: "Colegios y grupos educativos",
+                    lms: "Entorno de aprendizaje basado en Moodle, con contenidos digitales",
+                    payments: "Cobros",
+                    billing: "Cobros y facturación",
+                    verifactu: "Verifactu, SEPA y modelos fiscales",
+                    store: "Tienda online",
+                    crm: "Preinscripción y matrícula; la captación, con CRM externo",
+                    staffTime: "Cita el registro horario entre las obligaciones que cubre",
+                    ai: "AlexIA: valida datos y sugiere acciones",
+                    price: "Bajo demo",
+                    trial: "Demo comercial",
+                },
+                faqs: [
+                    {
+                        question: "¿Qué diferencia hay entre Edena y Alexia?",
+                        answer: "Las dos cubren la gestión académica y económica del centro y tienen asistente de IA. Edena incluye además CRM de admisiones propio, control horario del personal, automatizaciones sin código y monedero escolar, publica su precio y ofrece 30 días de prueba gratis.",
+                    },
+                    {
+                        question: "¿Puedo migrar de Alexia a Edena?",
+                        answer: "Sí. Migramos alumnos, familias, grupos y datos de facturación, configuramos tus cuotas y formamos a tu equipo. Está incluido en el precio.",
+                    },
+                    {
+                        question: "¿Edena sirve para grupos de varios colegios?",
+                        answer: "Sí. Gestionas toda la red desde un panel, con facturación centralizada, informes consolidados y los mismos procesos en cada centro. Alexia también está publicada para colegios y grupos.",
+                    },
+                    {
+                        question: "Alexia ya tiene Verifactu e IA. ¿Qué cambia?",
+                        answer: "Las dos facturan con Verifactu, tienen tienda, notas y un asistente de IA. Alexia publica preinscripción y conecta la captación con un CRM externo. En Edena el CRM de admisiones va dentro, el precio está en la web y puedes probarla 30 días sin tarjeta.",
+                    },
+                    {
+                        question: "¿Puedo probar Edena antes de migrar desde Alexia?",
+                        answer: "Sí. 30 días gratis, sin tarjeta y sin permanencia. Si te quedas, migramos alumnos, familias, grupos y facturación. Está incluido en el precio.",
+                    },
+                    {
+                        question: "¿Edena tiene cuaderno de notas?",
+                        answer: "Sí. Notas, boletines y cuaderno del profesorado. No incluye contenidos editoriales: el aula se apoya en los materiales que el centro ya use. Alexia publica un entorno de aprendizaje basado en Moodle.",
+                    },
+                ],
+            },
+            esemtia: {
+                tagline: "Plataforma de gestión educativa de Edebé",
+                owner: "Grupo Edebé",
+                metaTitle: "Edena vs Esemtia: comparativa punto por punto · Edena",
+                metaDescription:
+                    "Edena frente a Esemtia (Edebé): facturación, CRM de admisiones integrado, IA, automatizaciones, precio y prueba gratis. 17 criterios, con fuentes públicas.",
+                lead: "Esemtia cubre Infantil, colegios y FP con un fuerte foco académico y LOMLOE. Edena pone el foco en lo que más tiempo cuesta: cobrar, captar matrículas y comunicarte con las familias, con IA y automatizaciones de serie.",
+                wins: [
+                    {
+                        title: "CRM propio, sin conectores",
+                        body: "Esemtia se integra con Zoho CRM. Edena trae el CRM de admisiones dentro: formularios, embudo y conversión, conectados con el expediente y la facturación.",
+                    },
+                    {
+                        title: "Ena, la IA que hace el trabajo",
+                        body: "Genera facturas, redacta comunicados y pasa lista cuando se lo pides. Tú revisas y confirmas.",
+                    },
+                    {
+                        title: "Pruébala hoy, no tras una demo",
+                        body: "Edena publica su precio y te deja probarla 30 días gratis, sin tarjeta y sin permanencia.",
+                    },
+                ],
+                notes: {
+                    comms: "Comunicación con familias y alumnado",
+                    app: "Apps para familias y alumnado",
+                    attendance: "Asistencia, absentismo y justificación de faltas",
+                    records: "Administración, gestión académica y comunicación",
+                    grades: "Cuaderno de evaluación, competencias y boletines",
+                    segments: "Infantil, colegios y FP",
+                    lms: "Moodle propio, con contenidos de Edebé u otras fuentes",
+                    payments: "Pagos online",
+                    billing: "Facturación y pagos online",
+                    store: "Venta en línea de uniformes, libros y artículos",
+                    crm: "Mediante integración con Zoho CRM",
+                    price: "Bajo demo",
+                    trial: "Demo comercial",
+                },
+                faqs: [
+                    {
+                        question: "¿Qué diferencia hay entre Edena y Esemtia?",
+                        answer: "Esemtia está muy orientada a la gestión académica, la evaluación competencial y la FP. Edena se centra en la gestión del centro: facturación con VERI*FACTU, remesas SEPA, CRM de admisiones integrado, control horario, automatizaciones, tienda online e IA, con precio público y prueba gratis.",
+                    },
+                    {
+                        question: "¿Puedo migrar de Esemtia a Edena?",
+                        answer: "Sí. Migramos tus datos, configuramos la facturación y formamos al equipo. La mayoría de centros están operativos en dos semanas.",
+                    },
+                    {
+                        question: "¿Edena tiene app para familias y alumnos?",
+                        answer: "Sí. Una app gratuita para iOS y Android con mensajes, notas, facturas, autorizaciones y la tienda del centro. Esemtia publica apps para familias y alumnado, y para el aula.",
+                    },
+                    {
+                        question: "Esemtia cubre la evaluación y la FP. ¿Edena también?",
+                        answer: "Esemtia está muy orientada a la evaluación competencial, al Moodle propio y a la FP. Edena tiene notas y boletines, y el aula virtual sin contenidos de editorial. Donde se separan es la gestión: CRM de admisiones dentro de la plataforma, IA que ejecuta tareas y precio público.",
+                    },
+                    {
+                        question: "¿El CRM de Edena sustituye a Zoho?",
+                        answer: "Esemtia publica la captación mediante Zoho CRM. En Edena el CRM va dentro: formularios en tu web, embudo y conversión, conectados con el expediente y la facturación, sin un conector aparte.",
+                    },
+                    {
+                        question: "¿Puedo probar Edena sin esperar una demo?",
+                        answer: "Sí. 30 días gratis, sin tarjeta y sin permanencia, desde 36 € al mes. Esemtia trabaja con demo y presupuesto.",
+                    },
+                ],
+            },
+            dinantia: {
+                tagline: "Comunicación, admisiones y tienda",
+                owner: "Grupo LiveKid · desde 2022",
+                metaTitle: "Edena vs Dinantia: comparativa punto por punto · Edena",
+                metaDescription:
+                    "Edena frente a Dinantia: comunicación con familias, gestión del centro, facturación con VERI*FACTU, CRM de admisiones y precio. 17 criterios, con fuentes.",
+                lead: "Dinantia cubre la comunicación con las familias, el CRM de admisiones y la tienda. Edena también, y además lleva el expediente, las facturas con VERI*FACTU y las remesas en la misma plataforma.",
+                wins: [
+                    {
+                        title: "Comunicar es solo el principio",
+                        body: "Avisos y confirmaciones de lectura también están en Edena. Dinantia suma asistencia, agenda y horarios. El expediente y la facturación conectados viven en Edena, sin otra herramienta.",
+                    },
+                    {
+                        title: "El dinero, resuelto",
+                        body: "Dinantia cobra desde la app y tiene tienda. Emitir facturas con VERI*FACTU, girar remesas SEPA y controlar impagos no aparece en su información pública. En Edena va en el mismo flujo.",
+                    },
+                    {
+                        title: "Una herramienta menos que pagar",
+                        body: "Si hoy pagas una app de comunicación y un programa de gestión por separado, Edena sustituye a los dos, desde 36 € al mes.",
+                    },
+                ],
+                notes: {
+                    comms: "Mensajes, muro y circulares",
+                    app: "Con la marca del centro",
+                    attendance: "Pase de lista y seguimiento",
+                    records: "Asistencia, horarios y agenda infantil",
+                    segments: "Colegios, institutos, conservatorios y agenda de infantil",
+                    payments: "Cobros desde la app",
+                    store: "Tienda: productos, eventos y suscripciones",
+                    crm: "Formularios, embudo, conversión y automatizaciones",
+                    staffTime: "Control de presencia del personal",
+                    trial: "30 días",
+                },
+                faqs: [
+                    {
+                        question: "¿Qué diferencia hay entre Edena y Dinantia?",
+                        answer: "Dinantia cubre la comunicación con las familias, la asistencia, el CRM de admisiones y la tienda. Edena reúne esa comunicación con el expediente, la facturación con VERI*FACTU, las remesas SEPA y una IA en la misma plataforma, con el CRM conectado al alumno y al recibo.",
+                    },
+                    {
+                        question: "¿Edena tiene autorizaciones con firma digital?",
+                        answer: "Sí. Las familias firman autorizaciones y documentos desde la app y el centro ve al instante quién ha firmado.",
+                    },
+                    {
+                        question: "¿Puedo probar Edena antes de cambiar?",
+                        answer: "Sí. 30 días gratis, sin tarjeta y sin permanencia. Y si decides cambiar, migramos tus datos sin coste. Dinantia también publica 30 días de prueba.",
+                    },
+                    {
+                        question: "Dinantia ya tiene CRM y tienda. ¿Qué no cubre?",
+                        answer: "Dinantia publica comunicación, asistencia, CRM de admisiones, tienda y control de presencia. La facturación con VERI*FACTU y las remesas SEPA no aparecen en su información pública. En Edena el CRM queda conectado al alumno y al recibo.",
+                    },
+                    {
+                        question: "¿Edena tiene pase de lista y control horario?",
+                        answer: "Sí. Pase de lista y ausencias del alumnado, y registro de jornada del personal desde el móvil. Dinantia también publica pase de lista y control de presencia del personal.",
+                    },
+                    {
+                        question: "¿Puedo pasar de Dinantia a Edena a mitad de curso?",
+                        answer: "Sí. Importamos alumnos, familias y grupos, configuramos la facturación y damos de alta a las familias en la app. La mayoría de centros están operativos en dos semanas.",
+                    },
+                ],
+            },
         },
     },
 };

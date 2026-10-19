@@ -11,6 +11,7 @@ import {
     LayoutDashboard,
     LayoutGrid,
     MessagesSquare,
+    Scale,
     Sparkles,
     School,
     Shapes,
@@ -43,6 +44,8 @@ import { translations, localePath } from "@/i18n/index.ts";
 import { Button } from "./ui/button";
 import Link from "./ui/link";
 import DownloadAppIcons from "./DownloadAppIcons";
+import { COMPETITORS } from "@/data/competitors";
+import { comparePath } from "@/lib/compare";
 
 type Tone = "blue" | "green" | "orange" | "pink" | "purple" | "teal" | "indigo" | "red" | "mint";
 
@@ -74,6 +77,8 @@ interface MenuItem {
     price?: string;
     priceHint?: string;
     eyebrow?: string;
+    /** `iconImage` is a brand's mark, drawn on a white app-icon tile rather than a tinted one. */
+    tile?: boolean;
 }
 
 interface MenuGroup {
@@ -103,10 +108,23 @@ const ItemGlyph = ({
     item,
     layout = "row",
 }: {
-    item: Pick<MenuItem, "icon" | "iconImage" | "tone" | "featured">;
+    item: Pick<MenuItem, "icon" | "iconImage" | "tone" | "featured" | "tile">;
     layout?: ItemLayout;
 }) => {
     const size = layout === "featured" ? "size-14" : layout === "choice" ? "size-12" : "size-10";
+
+    if (item.iconImage && item.tile) {
+        return (
+            <span className={cn("ds-app-icon bg-white", size)}>
+                <img
+                    src={item.iconImage.src}
+                    alt=""
+                    aria-hidden="true"
+                    className="size-[62%] object-contain"
+                />
+            </span>
+        );
+    }
 
     if (item.iconImage && (item.featured || layout === "featured")) {
         return (
@@ -689,6 +707,28 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
         },
     ];
 
+    // Edena against each competitor, listed in the mobile menu only: on a wide screen the
+    // comparisons live in the footer, so the desktop bar keeps to the product.
+    const comparisons: MenuItem[] = [
+        {
+            title: t.navigation.compareAll,
+            href: comparePath(lang),
+            description: t.navigation.compareAllDescription,
+            icon: Scale,
+            iconColor:
+                "bg-emerald-100 text-emerald-600 dark:bg-emerald-500/15 dark:text-emerald-400",
+            tone: "mint",
+        },
+        ...COMPETITORS.map((competitor) => ({
+            title: `vs ${competitor.name}`,
+            href: comparePath(lang, competitor),
+            description: t.comparePage.competitors[competitor.id].tagline,
+            iconImage: competitor.logo,
+            iconColor: "bg-white",
+            tile: true,
+        })),
+    ];
+
     const featuredProduct = premium ? products.find((item) => item.featured) : undefined;
     const gridProducts = premium ? products.filter((item) => !item.featured) : products;
     const platformProducts = products.filter((item) => item.group === "platform");
@@ -1024,6 +1064,12 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
                                                 items={pricingAudiences}
                                                 premium
                                             />
+                                            <MobileMenuSection
+                                                value="compare"
+                                                title={t.navigation.compare}
+                                                items={comparisons}
+                                                premium
+                                            />
                                         </Accordion>
                                         <a href={p("/contact")} className="ds-nav-plain">
                                             {t.navigation.contact}
@@ -1101,6 +1147,11 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
                                         value="pricing"
                                         title={t.navigation.pricing}
                                         items={pricingAudiences}
+                                    />
+                                    <MobileMenuSection
+                                        value="compare"
+                                        title={t.navigation.compare}
+                                        items={comparisons}
                                     />
                                 </Accordion>
                                 <a

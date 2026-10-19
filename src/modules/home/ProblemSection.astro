@@ -1,6 +1,7 @@
 ---
 import { LOGO_PATH, LOGO_VIEWBOX } from "@/lib/brand";
 import SectionHeader from "@/components/ds/SectionHeader.astro";
+import RailPager from "@/components/ds/RailPager.astro";
 import type { Translation } from "@/i18n";
 
 /*
@@ -167,6 +168,8 @@ const tilts = [-8, 5, -4, 9];
         <div class="ds-rail-frame mt-14">
             <div
                 class="ds-rail ds-scroll-fade flex gap-3 md:grid md:grid-cols-3 md:gap-4"
+                data-rail
+                data-fade="end"
                 data-reveal-group
             >
                 {
@@ -212,6 +215,7 @@ const tilts = [-8, 5, -4, 9];
                 }
             </div>
         </div>
+        <RailPager previous={t.rail.previous} next={t.rail.next} />
     </div>
 
     <div class="ds-converge-track mt-10" data-converge>

@@ -4,14 +4,16 @@ import { cn } from "@/lib/utils";
 import { translations, localePath, languages } from "@/i18n/index.ts";
 import { localizedDemoPath } from "@/i18n";
 import DownloadAppButtons from "./DownloadAppButtons.astro";
+import { COMPETITORS } from "@/data/competitors";
+import { comparePath } from "@/lib/compare";
 
 /*
  * The site's foot, in the premium pages' manner — Apple's directory, set on Edena's ground: the
- * brand and the app's store badges on the left, every page in four columns beside it, then a
+ * brand and the app's store badges on the left, every page in five columns beside it, then a
  * hairline and the small print with the language. Under it all, the wordmark at the width of the
  * page, barely there, cut by the foot of the screen.
  *
- * On a phone the four columns become one panel of disclosures, the FAQ panel's look and motion
+ * On a phone the five columns become one panel of disclosures, the FAQ panel's look and motion
  * (`scripts/disclosure.ts`): the directory is long, and a reader at the foot of a page is usually
  * looking for one thing.
  */
@@ -74,6 +76,17 @@ const groups: LinkGroup[] = [
         ],
     },
     {
+        id: "compare",
+        title: t.navigation.compare,
+        links: [
+            ...COMPETITORS.map((competitor) => ({
+                title: `vs ${competitor.name}`,
+                href: comparePath(lang, competitor),
+            })),
+            { title: t.navigation.compareAll, href: comparePath(lang) },
+        ],
+    },
+    {
         id: "legal",
         title: t.footer.legal,
         links: [
@@ -126,7 +139,7 @@ const currentYear = new Date().getFullYear();
                 </div>
             </div>
 
-            <!-- Every page, in four columns; on a phone, one panel of disclosures. -->
+            <!-- Every page, in five columns; on a phone, one panel of disclosures. -->
             <nav class="footer-directory" aria-label="Edena" data-footer-directory>
                 {
                     groups.map((group) => (
@@ -190,7 +203,7 @@ const currentYear = new Date().getFullYear();
         setDisclosure,
     } from "@/scripts/disclosure";
 
-    // One panel of disclosures on a phone, four open columns from a tablet up. The markup ships
+    // One panel of disclosures on a phone, open columns from a tablet up. The markup ships
     // them open, so without scripting every link is there.
     const wide = window.matchMedia("(min-width: 48rem)");
     const parts = (details: HTMLDetailsElement) => ({
@@ -262,10 +275,18 @@ const currentYear = new Date().getFullYear();
         display: grid;
     }
 
+    /* Three columns on a tablet (the fourth and fifth wrap under), all five once they fit. */
     @media (min-width: 48rem) {
         .footer-directory {
-            grid-template-columns: repeat(4, minmax(0, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 2.5rem 2rem;
+        }
+    }
+
+    @media (min-width: 64rem) {
+        .footer-directory {
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+            gap: 1.5rem;
         }
     }
 

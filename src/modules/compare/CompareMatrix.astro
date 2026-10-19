@@ -1,0 +1,235 @@
+---
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import BrandTile from "@/modules/compare/BrandTile.astro";
+import type { Translation } from "@/i18n";
+import {
+    COMPARE_GROUPS,
+    COMPETITORS,
+    EDENA_STATUS,
+    type CompareRowId,
+    type CompareStatus,
+} from "@/data/competitors";
+import { comparePath, competitorCopy } from "@/lib/compare";
+
+/*
+ * Everyone against everyone, without a sideways scroll: each criterion, then the logos of the
+ * platforms that meet it. A full logo is included; a faded one is partial. Anything absent is not
+ * included, or has no public information. The words travel with the logo for screen readers, and
+ * the name rises above it on hover, the same pill as the home wall.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+}
+
+const { t, lang } = Astro.props;
+const c = t.comparePage;
+const label = (status: CompareStatus) => c.status[status];
+const notes = new Map(COMPETITORS.map((competitor) => [competitor.id, competitorCopy(c, competitor).notes]));
+
+const present = (row: CompareRowId) =>
+    COMPETITORS.filter((competitor) => competitor.status[row] !== "none").map((competitor) => ({
+        competitor,
+        status: competitor.status[row],
+        note: notes.get(competitor.id)?.[row],
+    }));
+---
+
+<section class="ds-section">
+    <div class="ds-container">
+        <SectionHeader title={c.hub.matrixTitle} description={c.hub.matrixDescription} />
+
+        <ul class="m-0 mx-auto mt-8 flex max-w-3xl list-none flex-wrap justify-center gap-x-5 gap-y-2 p-0" data-reveal>
+            <li class="flex items-center gap-2 type-footnote text-ink-2">
+                <span class="fit-sample" aria-hidden="true"></span>
+                {label("yes")}
+            </li>
+            <li class="flex items-center gap-2 type-footnote text-ink-2">
+                <span class="fit-sample fit-sample--partial" aria-hidden="true"></span>
+                {label("partial")}
+            </li>
+        </ul>
+
+        <div class="fit mt-10 sm:mt-12" data-reveal="rise">
+            {
+                COMPARE_GROUPS.map((group) => (
+                    <div class="fit-group">
+                        <p class="fit-group-label">{c.groups[group.id]}</p>
+                        <ul class="m-0 list-none p-0">
+                            {group.rows.map((row) => {
+                                const edena = EDENA_STATUS[row];
+                                return (
+                                    <li class="fit-row">
+                                        <p class="fit-criterion">{c.rows[row]}</p>
+                                        <ul class="fit-logos">
+                                            {edena !== "none" && (
+                                                <li>
+                                                    <span class="fit-logo">
+                                                        <span class:list={["fit-mark", edena === "partial" && "is-partial"]}>
+                                                            <BrandTile size="2.25rem" />
+                                                        </span>
+                                                        <span class="fit-label" aria-hidden="true">Edena</span>
+                                                        <span class="sr-only">
+                                                            Edena, {label(edena)}
+                                                            {c.edenaNotes[row] ? `. ${c.edenaNotes[row]}` : ""}
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                            )}
+                                            {present(row).map(({ competitor, status, note }) => (
+                                                <li>
+                                                    <a href={comparePath(lang, competitor)} class="fit-logo">
+                                                        <span class:list={["fit-mark", status === "partial" && "is-partial"]}>
+                                                            <BrandTile competitor={competitor} size="2.25rem" alt="" />
+                                                        </span>
+                                                        <span class="fit-label" aria-hidden="true">{competitor.name}</span>
+                                                        <span class="sr-only">
+                                                            {competitor.name}, {label(status)}
+                                                            {note ? `. ${note}` : ""}
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </li>
+                                );
+                            })}
+                        </ul>
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+</section>
+
+<style>
+    .fit-sample {
+        width: 1.125rem;
+        height: 1.125rem;
+        flex-shrink: 0;
+        border-radius: 22.5%;
+        background-color: var(--ds-ink);
+    }
+
+    .fit-sample--partial {
+        opacity: 0.4;
+    }
+
+    .fit-group-label {
+        margin: 0;
+        padding: 2rem 0 0.6rem;
+        font-size: 0.6875rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ds-ink-3);
+    }
+
+    .fit-group:first-child .fit-group-label {
+        padding-top: 0.25rem;
+    }
+
+    .fit-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0.7rem;
+        align-items: center;
+        padding-block: 0.95rem;
+        border-top: 1px solid var(--ds-hairline);
+    }
+
+    @media (min-width: 40rem) {
+        .fit-row {
+            grid-template-columns: minmax(14rem, 22rem) minmax(0, 1fr);
+            gap: 1rem 2rem;
+            padding-block: 1.05rem;
+        }
+    }
+
+    .fit-criterion {
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.35rem;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: var(--ds-ink);
+        text-wrap: pretty;
+    }
+
+    .fit-logos {
+        display: flex;
+        min-width: 0;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.45rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .fit-logo {
+        position: relative;
+        display: inline-flex;
+        border-radius: 22.5%;
+        color: inherit;
+    }
+
+    .fit-mark {
+        display: inline-flex;
+        transition:
+            opacity 200ms var(--ease-fluid),
+            transform 200ms var(--ease-fluid);
+    }
+
+    .fit-mark.is-partial {
+        opacity: 0.4;
+    }
+
+    .fit-logo:hover,
+    .fit-logo:focus-visible {
+        z-index: 2;
+    }
+
+    .fit-logo:hover .fit-mark,
+    .fit-logo:focus-visible .fit-mark {
+        transform: translateY(-2px);
+    }
+
+    .fit-logo:hover .fit-mark.is-partial,
+    .fit-logo:focus-visible .fit-mark.is-partial {
+        opacity: 0.72;
+    }
+
+    /* The name, rising into place above the logo. Same pill as the home wall. */
+    .fit-label {
+        position: absolute;
+        bottom: calc(100% + 0.45rem);
+        left: 50%;
+        z-index: 3;
+        translate: -50% 0.35rem;
+        white-space: nowrap;
+        border-radius: 999px;
+        padding: 0.3rem 0.7rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        line-height: 1rem;
+        color: var(--ds-canvas);
+        background: var(--ds-ink);
+        opacity: 0;
+        pointer-events: none;
+        transition:
+            opacity 200ms var(--ease-fluid),
+            translate 500ms var(--ease-spring);
+    }
+
+    .fit-logo:hover .fit-label,
+    .fit-logo:focus-visible .fit-label {
+        opacity: 1;
+        translate: -50% 0;
+    }
+
+    a.fit-logo:focus-visible {
+        outline: 2px solid var(--ds-focus);
+        outline-offset: 3px;
+    }
+</style>

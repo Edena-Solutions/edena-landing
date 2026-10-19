@@ -1,0 +1,54 @@
+---
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import HubHero from "@/modules/compare/HubHero.astro";
+import CompareCards from "@/modules/compare/CompareCards.astro";
+import CompareMatrix from "@/modules/compare/CompareMatrix.astro";
+import CompareSources from "@/modules/compare/CompareSources.astro";
+import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
+import { COMPETITORS } from "@/data/competitors";
+import { comparePath } from "@/lib/compare";
+import { homeBreadcrumbName } from "@/lib/breadcrumb";
+
+/*
+ * The comparisons' index: Edena against every competitor in turn, a card per comparison, then all
+ * of them in one table, and the sources behind it.
+ */
+
+export function getStaticPaths() {
+    return localeStaticPaths();
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+const c = t.comparePage;
+const base = "https://edena.es";
+const breadcrumbs = [
+    { name: homeBreadcrumbName(lang), url: `${base}${localePath(lang, "/")}` },
+    { name: c.breadcrumb, url: `${base}${comparePath(lang)}` },
+];
+const sources = [
+    ...new Map(
+        COMPETITORS.flatMap((competitor) => competitor.sources).map((source) => [source.url, source]),
+    ).values(),
+];
+---
+
+<Layout content={{ title: c.hub.metaTitle, description: c.hub.metaDescription }} lang={lang} design="premium">
+    <BreadcrumbListSchema slot="structured-data" items={breadcrumbs} lang={lang} />
+    <HomeMotion />
+    <HubHero t={t} lang={lang} />
+    <CompareCards
+        t={t}
+        lang={lang}
+        competitors={COMPETITORS}
+        title={c.hub.cardsTitle}
+        description={c.hub.cardsDescription}
+        index
+    />
+    <CompareMatrix t={t} lang={lang} />
+    <CompareSources t={t} lang={lang} sources={sources} />
+    <ClosingCta lang={lang} />
+</Layout>

@@ -2,6 +2,7 @@
 import { ChevronRight } from "lucide-react";
 import Icon from "@/components/ui/icon";
 import SectionHeader from "@/components/ds/SectionHeader.astro";
+import RailPager from "@/components/ds/RailPager.astro";
 import type { Translation } from "@/i18n";
 
 /*
@@ -25,7 +26,7 @@ const tones = ["bg-sys-blue", "bg-sys-pink", "bg-sys-orange", "bg-sys-green", "b
         <SectionHeader title={title} description={description} />
 
         <div class="ds-rail-frame mt-14">
-        <div class="ds-rail ds-scroll-fade flex gap-3 md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-3" data-reveal-group>
+        <div class="ds-rail ds-scroll-fade flex gap-3 md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-3" data-rail data-fade="end" data-reveal-group>
             {
                 features.map((feature, index) => (
                     <div data-reveal="scale">
@@ -45,5 +46,6 @@ const tones = ["bg-sys-blue", "bg-sys-pink", "bg-sys-orange", "bg-sys-green", "b
             }
         </div>
         </div>
+        <RailPager previous={t.rail.previous} next={t.rail.next} />
     </div>
 </section>

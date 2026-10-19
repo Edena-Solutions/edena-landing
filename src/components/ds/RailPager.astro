@@ -1,0 +1,91 @@
+---
+import { ChevronLeft, ChevronRight } from "lucide-react";
+
+/*
+ * The two arrows under a phone rail. The rail is the `[data-rail]` in the previous sibling.
+ * From `md` the rail is a grid, so the arrows go away.
+ */
+interface Props {
+    previous: string;
+    next: string;
+}
+
+const { previous, next } = Astro.props;
+---
+
+<div class="rail-pager" data-rail-pager>
+    <button type="button" class="ds-paddle" data-rail-prev aria-label={previous} disabled>
+        <ChevronLeft aria-hidden="true" />
+    </button>
+    <button type="button" class="ds-paddle" data-rail-next aria-label={next}>
+        <ChevronRight aria-hidden="true" />
+    </button>
+</div>
+
+<script>
+    // Pages the rail by as many whole cards as fit, and greys an arrow out at either end.
+    function setupRailPagers() {
+        document.querySelectorAll<HTMLElement>("[data-rail-pager]:not([data-ready])").forEach((pager) => {
+            pager.dataset.ready = "";
+            const rail = pager.previousElementSibling?.querySelector<HTMLElement>("[data-rail]");
+            const prev = pager.querySelector<HTMLButtonElement>("[data-rail-prev]");
+            const next = pager.querySelector<HTMLButtonElement>("[data-rail-next]");
+            if (!rail || !prev || !next) return;
+
+            const page = () => {
+                const card = rail.firstElementChild as HTMLElement | null;
+                const style = getComputedStyle(rail);
+                const gap = parseFloat(style.columnGap) || 0;
+                const step = (card?.getBoundingClientRect().width ?? 0) + gap;
+                const visible =
+                    rail.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+                return step > 0 ? Math.max(1, Math.floor((visible + gap) / step)) * step : visible;
+            };
+            const go = (direction: number) =>
+                rail.scrollBy({
+                    left: direction * page(),
+                    behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+                });
+
+            let frame = 0;
+            const sync = () => {
+                frame = 0;
+                const end = rail.scrollWidth - rail.clientWidth - 2;
+                prev.disabled = rail.scrollLeft <= 2;
+                next.disabled = end <= 2 || rail.scrollLeft >= end;
+            };
+            const schedule = () => {
+                if (!frame) frame = requestAnimationFrame(sync);
+            };
+
+            prev.addEventListener("click", () => go(-1));
+            next.addEventListener("click", () => go(1));
+            rail.addEventListener("scroll", schedule, { passive: true });
+            window.addEventListener("resize", schedule);
+            document.addEventListener(
+                "astro:before-swap",
+                () => window.removeEventListener("resize", schedule),
+                { once: true },
+            );
+            sync();
+        });
+    }
+
+    document.addEventListener("astro:page-load", setupRailPagers);
+    setupRailPagers();
+</script>
+
+<style>
+    .rail-pager {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.5rem;
+        margin-top: 1.5rem;
+    }
+
+    @media (min-width: 48rem) {
+        .rail-pager {
+            display: none;
+        }
+    }
+</style>

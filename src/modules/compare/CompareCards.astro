@@ -1,0 +1,485 @@
+---
+import { ArrowRight, ChevronLeft, ChevronRight, Plus } from "lucide-react";
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import BrandTile from "@/modules/compare/BrandTile.astro";
+import { localizedDemoPath, type Translation } from "@/i18n";
+import { EDENA_SCORE, scoreOf, type Competitor } from "@/data/competitors";
+import { comparePath, competitorCopy, formatScore } from "@/lib/compare";
+
+/*
+ * A card per comparison: the two app icons face to face, the other's name, what it is, and
+ * the score as a tug of war — one bar split in proportion to the two totals. On hover the card
+ * only deepens a shade and the icons lean apart; it does not lift, and the arrow stays put.
+ *
+ * The hub lays the cards out as its index, a grid ending on a card for the platform not compared
+ * yet. A comparison page closes with the others as a gallery, Apple's: a row that runs off the
+ * right edge of the page, snaps card by card, and pages with two arrows under it.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+    competitors: Competitor[];
+    title: string;
+    description: string;
+    /** The hub's index: a grid, ending on the card for a platform not listed. */
+    index?: boolean;
+    /** A link to the hub beside the gallery's arrows. */
+    allHref?: string;
+}
+
+const { t, lang, competitors, title, description, index = false, allHref } = Astro.props;
+const c = t.comparePage;
+---
+
+<section class="ds-section overflow-x-clip" data-cc-gallery={index ? undefined : ""}>
+    <div class="ds-container">
+        <SectionHeader title={title} description={description} align={index ? "center" : "start"} />
+    </div>
+
+    <ul
+        class:list={[
+            "list-none p-0",
+            index
+                ? "ds-container cc-grid mt-10 sm:mt-14"
+                : "cc-rail ds-scroll-fade mt-10 sm:mt-12",
+        ]}
+        data-cc-rail={index ? undefined : ""}
+        data-fade={index ? undefined : "end"}
+        data-reveal-group
+    >
+        {
+            competitors.map((competitor) => {
+                const rival = competitorCopy(c, competitor);
+                const rivalScore = scoreOf(competitor.status);
+                return (
+                    <li class="flex" data-reveal="scale">
+                        <a href={comparePath(lang, competitor)} class="cc ds-tile">
+                            <span class="cc-icons" aria-hidden="true">
+                                <span class="cc-icon cc-icon--edena">
+                                    <BrandTile size="3.25rem" />
+                                </span>
+                                <span class="cc-vs">vs</span>
+                                <span class="cc-icon cc-icon--rival">
+                                    <BrandTile competitor={competitor} size="3.25rem" />
+                                </span>
+                            </span>
+
+                            <span class="cc-title">{competitor.name}</span>
+                            <span class="cc-tagline">{rival.tagline}</span>
+
+                            <span class="cc-meter" aria-hidden="true">
+                                <span class="cc-meter-bar">
+                                    <span
+                                        class="cc-meter-edena"
+                                        style={`flex-grow: ${EDENA_SCORE}`}
+                                    />
+                                    <span
+                                        class="cc-meter-rival"
+                                        style={`flex-grow: ${rivalScore}`}
+                                    />
+                                </span>
+                                <span class="cc-meter-labels">
+                                    <span>
+                                        Edena{" "}
+                                        <b class="text-brand-ink">
+                                            {formatScore(EDENA_SCORE, lang)}
+                                        </b>
+                                    </span>
+                                    <span>
+                                        <b>{formatScore(rivalScore, lang)}</b> {competitor.name}
+                                    </span>
+                                </span>
+                            </span>
+
+                            <span class="cc-foot">
+                                <span>{c.hub.cardCta}</span>
+                                <span class="cc-arrow">
+                                    <ArrowRight aria-hidden="true" />
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                );
+            })
+        }
+        {
+            index && (
+                <li class="flex" data-reveal="scale">
+                    <a href={localizedDemoPath(lang)} class="cc cc--missing ds-tile">
+                        <span class="cc-icons" aria-hidden="true">
+                            <span class="cc-icon cc-icon--edena">
+                                <BrandTile size="3.25rem" />
+                            </span>
+                            <span class="cc-vs">vs</span>
+                            <span class="cc-icon cc-icon--rival cc-icon--unknown">?</span>
+                        </span>
+                        <span class="cc-title">{c.hub.missingTitle}</span>
+                        <span class="cc-tagline">{c.hub.missingBody}</span>
+                        <span class="cc-foot">
+                            <span>{c.hub.missingCta}</span>
+                            <span class="cc-arrow">
+                                <Plus aria-hidden="true" />
+                            </span>
+                        </span>
+                    </a>
+                </li>
+            )
+        }
+    </ul>
+
+    {
+        !index && (
+            <div class="ds-container mt-6 flex items-center justify-between gap-4">
+                {allHref ? (
+                    <a href={allHref} class="ds-link type-callout">
+                        {c.backToAll}
+                        <ChevronRight aria-hidden="true" />
+                    </a>
+                ) : (
+                    <span />
+                )}
+                <span class="cc-paddles flex gap-2">
+                    <button
+                        type="button"
+                        class="ds-paddle"
+                        data-cc-prev
+                        aria-label={c.morePrevious}
+                        disabled
+                    >
+                        <ChevronLeft aria-hidden="true" />
+                    </button>
+                    <button type="button" class="ds-paddle" data-cc-next aria-label={c.moreNext}>
+                        <ChevronRight aria-hidden="true" />
+                    </button>
+                </span>
+            </div>
+        )
+    }
+</section>
+
+<script>
+    // The gallery's arrows page it by as many whole cards as fit, and grey out at either end.
+    function setupGalleries() {
+        document
+            .querySelectorAll<HTMLElement>("[data-cc-gallery]:not([data-ready])")
+            .forEach((gallery) => {
+                gallery.dataset.ready = "";
+                const rail = gallery.querySelector<HTMLElement>("[data-cc-rail]");
+                const prev = gallery.querySelector<HTMLButtonElement>("[data-cc-prev]");
+                const next = gallery.querySelector<HTMLButtonElement>("[data-cc-next]");
+                if (!rail || !prev || !next) return;
+
+                const page = () => {
+                    const card = rail.firstElementChild as HTMLElement | null;
+                    const style = getComputedStyle(rail);
+                    const gap = parseFloat(style.columnGap) || 0;
+                    const step = (card?.getBoundingClientRect().width ?? 0) + gap;
+                    const visible =
+                        rail.clientWidth -
+                        parseFloat(style.paddingLeft) -
+                        parseFloat(style.paddingRight);
+                    return step > 0
+                        ? Math.max(1, Math.floor((visible + gap) / step)) * step
+                        : visible;
+                };
+                const go = (direction: number) =>
+                    rail.scrollBy({
+                        left: direction * page(),
+                        behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+                            ? "auto"
+                            : "smooth",
+                    });
+
+                let frame = 0;
+                const sync = () => {
+                    frame = 0;
+                    const end = rail.scrollWidth - rail.clientWidth - 2;
+                    prev.disabled = rail.scrollLeft <= 2;
+                    next.disabled = rail.scrollLeft >= end;
+                };
+                const schedule = () => {
+                    if (!frame) frame = requestAnimationFrame(sync);
+                };
+
+                prev.addEventListener("click", () => go(-1));
+                next.addEventListener("click", () => go(1));
+                rail.addEventListener("scroll", schedule, { passive: true });
+                window.addEventListener("resize", schedule);
+                document.addEventListener(
+                    "astro:before-swap",
+                    () => window.removeEventListener("resize", schedule),
+                    { once: true },
+                );
+                sync();
+            });
+    }
+    document.addEventListener("astro:page-load", setupGalleries);
+</script>
+
+<style>
+    /* The hub's index. */
+    .cc-grid {
+        display: grid;
+        gap: 0.75rem;
+    }
+
+    @media (min-width: 40rem) {
+        .cc-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1rem;
+        }
+    }
+
+    @media (min-width: 64rem) {
+        .cc-grid {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+    }
+
+    /* On the hub the card's face sits in the middle: icons, name and what it is. */
+    .cc-grid .cc-icons {
+        justify-content: center;
+    }
+
+    .cc-grid .cc-title,
+    .cc-grid .cc-tagline {
+        text-align: center;
+    }
+
+    /*
+     * The gallery: as wide as the page, its first card lined up with the column above and the row
+     * running off the right edge. `--edge` is the column's margin, so scrolling snaps to it.
+     */
+    .cc-rail {
+        --g: clamp(1rem, 4vw, 2rem);
+        --edge: calc((100% - min(100% - 2 * var(--g), 75rem)) / 2);
+        display: flex;
+        gap: 1rem;
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+        padding-inline: var(--edge);
+        padding-block: 0.75rem 1.5rem;
+        scroll-padding-inline: var(--edge);
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+    }
+
+    .cc-rail::-webkit-scrollbar {
+        display: none;
+    }
+
+    .cc-rail > li {
+        flex: 0 0 min(21rem, 82%);
+        scroll-snap-align: start;
+    }
+
+    /* On a phone the card in view is centred, and the ones beside it melt off at the edges. */
+    @media (max-width: 47.99rem) {
+        .cc-rail {
+            padding-inline: 4.75rem;
+            scroll-padding-inline: 4.75rem;
+        }
+
+        .cc-rail > li {
+            flex-basis: 100%;
+            scroll-snap-align: center;
+        }
+    }
+
+    /* A card. */
+    .cc {
+        display: flex;
+        width: 100%;
+        min-height: 21rem;
+        flex-direction: column;
+        padding: 1.6rem;
+        transition:
+            background-color 300ms var(--ease-fluid),
+            box-shadow 300ms var(--ease-fluid),
+            transform 730ms var(--ease-spring);
+    }
+
+    .cc:active {
+        transform: scale(0.99);
+        transition-duration: 120ms;
+    }
+
+    .cc:focus-visible {
+        outline: 2px solid var(--ds-focus);
+        outline-offset: 4px;
+    }
+
+    @media (min-width: 40rem) {
+        .cc {
+            padding: 1.85rem;
+        }
+    }
+
+    .cc-icons {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+    }
+
+    .cc-icon {
+        display: inline-flex;
+        transition:
+            transform 730ms var(--ease-spring),
+            rotate 730ms var(--ease-spring);
+    }
+
+    .cc-vs {
+        font-size: 0.6875rem;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--ds-ink-3);
+    }
+
+    /* The unknown contender: an empty tile, outlined. */
+    .cc-icon--unknown {
+        width: 3.25rem;
+        height: 3.25rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: 22.5%;
+        font-size: 1.375rem;
+        font-weight: 800;
+        color: var(--ds-ink-3);
+        box-shadow: inset 0 0 0 1.5px var(--ds-hairline-strong);
+    }
+
+    .cc-title {
+        margin-top: 1.45rem;
+        font-size: clamp(1.5rem, 1.28rem + 0.7vw, 1.875rem);
+        font-weight: 700;
+        line-height: 1.12;
+        letter-spacing: -0.028em;
+        color: var(--ds-ink);
+        text-wrap: balance;
+    }
+
+    .cc-tagline {
+        margin-top: 0.5rem;
+        font-size: 0.9375rem;
+        line-height: 1.4rem;
+        color: var(--ds-ink-2);
+        text-wrap: pretty;
+    }
+
+    /* The score as a tug of war. */
+    .cc-meter {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: auto;
+        padding-top: 1.75rem;
+    }
+
+    .cc-meter-bar {
+        display: flex;
+        height: 0.4rem;
+        gap: 3px;
+    }
+
+    .cc-meter-bar > span {
+        flex-basis: 0;
+        border-radius: 999px;
+    }
+
+    .cc-meter-edena {
+        background-image: var(--ds-brand-gradient);
+    }
+
+    .cc-meter-rival {
+        background-color: var(--ds-ink-3);
+        opacity: 0.55;
+    }
+
+    .cc-meter-labels {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        font-size: 0.75rem;
+        color: var(--ds-ink-3);
+    }
+
+    .cc-meter-labels b {
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+        color: var(--ds-ink-2);
+    }
+
+    .cc-meter-labels b.text-brand-ink {
+        color: var(--ds-brand-ink);
+    }
+
+    .cc-foot {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-top: 1.25rem;
+        padding-top: 1rem;
+        border-top: 1px solid var(--ds-hairline);
+        font-size: 0.9375rem;
+        font-weight: 600;
+        color: var(--ds-ink);
+    }
+
+    .cc--missing .cc-foot {
+        margin-top: auto;
+    }
+
+    .cc-arrow {
+        display: inline-grid;
+        width: 2.25rem;
+        height: 2.25rem;
+        flex-shrink: 0;
+        place-items: center;
+        border-radius: 999px;
+        color: var(--ds-ink);
+        background-color: var(--ds-surface);
+        box-shadow: inset 0 0 0 1px var(--ds-hairline);
+    }
+
+    .cc-arrow :global(svg) {
+        width: 1.05rem;
+        height: 1.05rem;
+    }
+
+    .cc--missing {
+        background-color: transparent;
+        box-shadow: inset 0 0 0 1.5px var(--ds-hairline-strong);
+    }
+
+    /* On hover the card deepens a shade and the two lean apart. Pointer devices only. */
+    @media (hover: hover) {
+        .cc:hover {
+            background-color: color-mix(in srgb, var(--ds-canvas-2) 94%, var(--ds-ink));
+            box-shadow: var(--ds-shadow-1);
+        }
+
+        .cc--missing:hover {
+            background-color: var(--ds-canvas-2);
+            box-shadow: inset 0 0 0 1.5px var(--ds-hairline-strong);
+        }
+
+        .cc:hover .cc-icon--edena {
+            transform: translateX(-0.2rem);
+            rotate: -6deg;
+        }
+
+        .cc:hover .cc-icon--rival {
+            transform: translateX(0.2rem);
+            rotate: 6deg;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .cc,
+        .cc-icon {
+            transition: none;
+        }
+    }
+</style>

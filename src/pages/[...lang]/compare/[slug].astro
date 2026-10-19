@@ -1,0 +1,75 @@
+---
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import CompareHero from "@/modules/compare/CompareHero.astro";
+import CompareVerdict from "@/modules/compare/CompareVerdict.astro";
+import CompareTable from "@/modules/compare/CompareTable.astro";
+import CompareSwitch from "@/modules/compare/CompareSwitch.astro";
+import CompareCards from "@/modules/compare/CompareCards.astro";
+import CompareSources from "@/modules/compare/CompareSources.astro";
+import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+import { COMPETITORS, competitorBySlug } from "@/data/competitors";
+import { comparePath, competitorCopy } from "@/lib/compare";
+import { homeBreadcrumbName } from "@/lib/breadcrumb";
+
+/*
+ * Edena against one competitor, in the home's design: the face-off and its scoreboard, where Edena
+ * wins, every criterion head to head, what switching takes, the questions people coming from it
+ * ask, the other comparisons, and the sources.
+ */
+
+export function getStaticPaths() {
+    return localeStaticPaths().flatMap(({ params, props }) =>
+        COMPETITORS.map((competitor) => ({
+            params: { ...params, slug: competitor.slug },
+            props: { ...props, slug: competitor.slug },
+        })),
+    );
+}
+
+const { lang, slug } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+const c = t.comparePage;
+const competitor = competitorBySlug(slug)!;
+const rival = competitorCopy(c, competitor);
+const others = COMPETITORS.filter((other) => other.id !== competitor.id);
+
+const base = "https://edena.es";
+const breadcrumbs = [
+    { name: homeBreadcrumbName(lang), url: `${base}${localePath(lang, "/")}` },
+    { name: c.breadcrumb, url: `${base}${comparePath(lang)}` },
+    { name: `Edena vs ${competitor.name}`, url: `${base}${comparePath(lang, competitor)}` },
+];
+---
+
+<Layout content={{ title: rival.metaTitle, description: rival.metaDescription }} lang={lang} design="premium">
+    <Fragment slot="structured-data">
+        <BreadcrumbListSchema items={breadcrumbs} lang={lang} />
+        <FAQPageSchema faqs={rival.faqs} translations={{}} lang={lang} />
+    </Fragment>
+    <HomeMotion />
+    <CompareHero t={t} lang={lang} competitor={competitor} />
+    <CompareVerdict t={t} competitor={competitor} />
+    <CompareTable t={t} lang={lang} competitor={competitor} />
+    <CompareSwitch t={t} lang={lang} from={competitor.name} />
+    <ProductFaqs
+        t={t}
+        title={c.faqTitle}
+        description={c.faqDescription.replace("{name}", competitor.name)}
+        faqs={rival.faqs}
+    />
+    <CompareCards
+        t={t}
+        lang={lang}
+        competitors={others}
+        title={c.moreTitle}
+        description={c.moreDescription}
+        allHref={comparePath(lang)}
+    />
+    <CompareSources t={t} lang={lang} sources={competitor.sources} />
+    <ClosingCta lang={lang} />
+</Layout>

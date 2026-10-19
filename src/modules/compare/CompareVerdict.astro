@@ -1,0 +1,393 @@
+---
+import {
+    BookOpen,
+    GraduationCap,
+    ClipboardCheck,
+    Clock,
+    CreditCard,
+    Gift,
+    Layers,
+    LockOpen,
+    MessagesSquare,
+    Receipt,
+    Rocket,
+    School,
+    ShieldCheck,
+    Smartphone,
+    Sparkles,
+    Store,
+    Tag,
+    UserPlus,
+} from "lucide-react";
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import BrandTile from "@/modules/compare/BrandTile.astro";
+import StatusMark from "@/modules/compare/StatusMark.astro";
+import type { Translation } from "@/i18n";
+import { EDENA_STATUS, type Competitor, type WinTopic } from "@/data/competitors";
+import { competitorCopy } from "@/lib/compare";
+
+/*
+ * Where Edena wins, as a bento: the first argument on the stage the comparison heroes used to open
+ * on — a dark tile lit from above, Edena's green on one side and a cool white on the other — and
+ * the other two as ordinary tiles beside it. Each opens on an app icon for its subject and closes
+ * on its proof — the criterion of the table it rests on — so every claim points at the evidence
+ * further down. Every tile gives that proof the same way: a row per side, with its mark, its name
+ * and what the mark amounts to.
+ */
+interface Props {
+    t: Translation;
+    competitor: Competitor;
+}
+
+const { t, competitor } = Astro.props;
+const c = t.comparePage;
+const rival = competitorCopy(c, competitor);
+
+const TOPICS: Record<WinTopic, { icon: typeof Layers; tone: string }> = {
+    comms: { icon: MessagesSquare, tone: "bg-sys-blue" },
+    app: { icon: Smartphone, tone: "bg-sys-blue" },
+    attendance: { icon: ClipboardCheck, tone: "bg-sys-mint" },
+    records: { icon: Layers, tone: "bg-sys-blue" },
+    grades: { icon: GraduationCap, tone: "bg-sys-indigo" },
+    segments: { icon: School, tone: "bg-sys-orange" },
+    lms: { icon: BookOpen, tone: "bg-sys-indigo" },
+    payments: { icon: CreditCard, tone: "bg-sys-green" },
+    billing: { icon: Receipt, tone: "bg-sys-green" },
+    verifactu: { icon: ShieldCheck, tone: "bg-sys-teal" },
+    store: { icon: Store, tone: "bg-sys-pink" },
+    crm: { icon: UserPlus, tone: "bg-sys-indigo" },
+    ai: { icon: Sparkles, tone: "bg-sys-purple" },
+    staffTime: { icon: Clock, tone: "bg-sys-mint" },
+    price: { icon: Tag, tone: "bg-sys-orange" },
+    trial: { icon: Gift, tone: "bg-sys-pink" },
+    migration: { icon: Rocket, tone: "bg-sys-mint" },
+    publisher: { icon: LockOpen, tone: "bg-sys-red" },
+};
+
+const wins = rival.wins.map((win, index) => {
+    const topic = competitor.wins[index];
+    const row = topic === "publisher" ? undefined : topic;
+    return { ...win, ...TOPICS[topic], row, lead: index === 0 };
+});
+---
+
+<section class="ds-section">
+    <div class="ds-container">
+        <SectionHeader title={c.verdictTitle} description={c.verdictDescription} />
+
+        <div class="wins mt-10 sm:mt-14" data-reveal-group>
+            {
+                wins.map((win) => {
+                    const Icon = win.icon;
+                    return (
+                        <article
+                            class:list={["win", win.lead ? "win--lead dark ds-grain text-ink" : "ds-tile"]}
+                            data-reveal="scale"
+                        >
+                            {
+                                win.lead && (
+                                    <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10">
+                                        <div class="win-light win-light--edena" />
+                                        <div class="win-light win-light--rival" />
+                                        <div class="win-aurora animate-ds-aurora" />
+                                        <div class="win-floor" />
+                                    </div>
+                                )
+                            }
+                            <span class:list={["ds-app-icon win-badge", win.tone]} aria-hidden="true">
+                                <Icon strokeWidth={2.25} />
+                            </span>
+                            <h3 class="win-title">{win.title}</h3>
+                            <p class="win-body">{win.body}</p>
+
+                            {win.row && (
+                                <div class="win-proof win-proof--detail">
+                                    <span class="win-proof-label">{c.rows[win.row]}</span>
+                                    <ul class="win-proof-rows">
+                                        <li>
+                                            <BrandTile size="2.25rem" />
+                                            <span class="win-proof-who">
+                                                Edena
+                                                <span>{c.edenaNotes[win.row]}</span>
+                                            </span>
+                                            <StatusMark
+                                                status={EDENA_STATUS[win.row]}
+                                                label={c.status[EDENA_STATUS[win.row]]}
+                                            />
+                                        </li>
+                                        <li>
+                                            <BrandTile competitor={competitor} size="2.25rem" />
+                                            <span class="win-proof-who">
+                                                {competitor.name}
+                                                <span>
+                                                    {rival.notes[win.row] ??
+                                                        c.status[competitor.status[win.row]]}
+                                                </span>
+                                            </span>
+                                            <StatusMark
+                                                status={competitor.status[win.row]}
+                                                label={c.status[competitor.status[win.row]]}
+                                            />
+                                        </li>
+                                    </ul>
+                                </div>
+                            )}
+                        </article>
+                    );
+                })
+            }
+        </div>
+    </div>
+</section>
+
+<style>
+    /* One column on a phone; from a tablet, the lead tall on the left and two stacked beside it. */
+    .wins {
+        display: grid;
+        gap: 0.75rem;
+    }
+
+    @media (min-width: 48rem) {
+        .wins {
+            grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+            gap: 1rem;
+        }
+
+        .win--lead {
+            grid-row: span 2;
+        }
+    }
+
+    .win {
+        position: relative;
+        isolation: isolate;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: var(--radius-tile);
+        padding: 1.75rem;
+    }
+
+    @media (min-width: 40rem) {
+        .win {
+            padding: 2.25rem;
+        }
+    }
+
+    /* The comparison stage: dark, lit from above, grain over it. */
+    .win--lead {
+        background: radial-gradient(150% 120% at 50% -10%, #0f2c1c 0%, #05120b 50%, #010302 100%);
+        box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.06);
+    }
+
+    .win-light {
+        position: absolute;
+        top: -10%;
+        width: 70%;
+        height: 85%;
+    }
+
+    .win-light--edena {
+        left: -8%;
+        background: radial-gradient(50% 60% at 50% 0%, rgb(74 222 128 / 0.26), transparent 75%);
+    }
+
+    .win-light--rival {
+        right: -8%;
+        background: radial-gradient(50% 60% at 50% 0%, rgb(226 232 240 / 0.09), transparent 75%);
+    }
+
+    .win-aurora {
+        position: absolute;
+        left: -8%;
+        top: -6%;
+        width: 18rem;
+        height: 18rem;
+        border-radius: 999px;
+        opacity: 0.28;
+        filter: blur(48px);
+        background: radial-gradient(closest-side, #22c55e, transparent);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .win-aurora {
+            animation: none;
+        }
+    }
+
+    .win-floor {
+        position: absolute;
+        left: 50%;
+        top: 38%;
+        width: 140%;
+        height: 9rem;
+        translate: -50% 0;
+        background: radial-gradient(closest-side, rgb(255 255 255 / 0.07), transparent);
+    }
+
+    @media (min-width: 48rem) {
+        .win--lead {
+            padding: 3rem;
+        }
+    }
+
+    .win-badge {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .win-badge :global(svg) {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .win--lead .win-badge {
+        width: 3.75rem;
+        height: 3.75rem;
+    }
+
+    .win--lead .win-badge :global(svg) {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+
+    .win-title {
+        margin-top: 1.75rem;
+        font-size: clamp(1.375rem, 1.2rem + 0.6vw, 1.75rem);
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: -0.025em;
+        color: var(--ds-ink);
+        text-wrap: balance;
+    }
+
+    .win--lead .win-title {
+        margin-top: 2.5rem;
+        font-size: clamp(1.875rem, 1.3rem + 2vw, 3rem);
+        line-height: 1.06;
+        letter-spacing: -0.035em;
+        color: #ffffff;
+    }
+
+    .win-body {
+        margin-top: 0.75rem;
+        max-width: 34rem;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        color: var(--ds-ink-2);
+        text-wrap: pretty;
+    }
+
+    .win--lead .win-body {
+        margin-top: 1.1rem;
+        font-size: clamp(1rem, 0.95rem + 0.3vw, 1.1875rem);
+        line-height: 1.6;
+        color: rgb(255 255 255 / 0.72);
+    }
+
+    /* The proof: the criterion it rests on, and both marks. */
+    .win-proof {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.6rem 1rem;
+        margin-top: auto;
+        padding: 0.7rem 0.75rem 0.7rem 1rem;
+        border-radius: var(--radius-card);
+        background-color: var(--ds-surface);
+        box-shadow: inset 0 0 0 1px var(--ds-hairline);
+    }
+
+    .win:not(.win--lead) .win-body {
+        margin-bottom: 1.75rem;
+    }
+
+    .win--lead .win-body {
+        margin-bottom: 2.5rem;
+    }
+
+    .win--lead .win-proof {
+        background-color: rgb(255 255 255 / 0.07);
+        box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.1);
+        -webkit-backdrop-filter: blur(20px) saturate(160%);
+        backdrop-filter: blur(20px) saturate(160%);
+    }
+
+    .win-proof-label {
+        font-size: 0.8125rem;
+        line-height: 1.15rem;
+        font-weight: 600;
+        color: var(--ds-ink-2);
+    }
+
+    .win--lead .win-proof-label {
+        color: rgb(255 255 255 / 0.75);
+    }
+
+    /* The proof, in full: a row per side. */
+    .win-proof--detail {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.35rem;
+        padding: 1.1rem 1.25rem 0.5rem;
+    }
+
+    .win-proof-rows {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .win-proof-rows li {
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 0.85rem;
+        padding-block: 0.75rem;
+    }
+
+    .win-proof-rows li + li {
+        border-top: 1px solid var(--ds-hairline);
+    }
+
+    .win--lead .win-proof-rows li + li {
+        border-top-color: rgb(255 255 255 / 0.08);
+    }
+
+    .win-proof-who {
+        display: flex;
+        min-width: 0;
+        flex-direction: column;
+        gap: 0.1rem;
+        font-size: 0.9375rem;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        color: var(--ds-ink);
+    }
+
+    .win--lead .win-proof-who {
+        color: #ffffff;
+    }
+
+    .win-proof-who span {
+        font-size: 0.8125rem;
+        line-height: 1.15rem;
+        font-weight: 400;
+        letter-spacing: 0;
+        color: var(--ds-ink-2);
+        text-wrap: pretty;
+    }
+
+    .win--lead .win-proof-who span {
+        color: rgb(255 255 255 / 0.6);
+    }
+
+    @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+        .win--lead .win-proof {
+            background-color: #10251a;
+            -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+        }
+    }
+</style>

@@ -1,0 +1,190 @@
+---
+import { ChevronDown, ChevronLeft } from "lucide-react";
+import Button from "@/components/ds/Button.astro";
+import VsArena from "@/modules/compare/VsArena.astro";
+import ScoreRing from "@/modules/compare/ScoreRing.astro";
+import BrandTile from "@/modules/compare/BrandTile.astro";
+import { localizedDemoPath, type Translation } from "@/i18n";
+import { COMPARE_ROWS, EDENA_SCORE, scoreOf, type Competitor } from "@/data/competitors";
+import { comparePath, competitorCopy, formatCount, formatScore } from "@/lib/compare";
+
+/*
+ * A comparison's opening, on the same stage as the index: the title ("Edena vs …") and the line
+ * that sums it up, then the two app icons face to face, each inside the ring of its score. Under
+ * each, what it is and one line of fact, then the way to try Edena. The scoring rule sits at the
+ * foot, with the way down to the detail.
+ *
+ * The marks are drawn for the eye (`aria-hidden`); the heading carries "Edena vs …" in words and
+ * the scores are said once, in full, for screen readers.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+    competitor: Competitor;
+}
+
+const { t, lang, competitor } = Astro.props;
+const c = t.comparePage;
+const rival = competitorCopy(c, competitor);
+const total = COMPARE_ROWS.length;
+const rivalScore = scoreOf(competitor.status);
+const tile = "calc(var(--ring) * 0.58)";
+const scoreSr = c.scoreSr
+    .replace("{a}", formatScore(EDENA_SCORE, lang))
+    .replace("{b}", formatScore(rivalScore, lang))
+    .replace("{name}", competitor.name)
+    .replaceAll("{n}", String(total));
+const rivalSub = `${rival.owner} · ${c.centers.replace("{n}", formatCount(competitor.centers, lang))}`;
+---
+
+<section class="relative isolate -mt-15 overflow-x-clip pt-15">
+    <div class="ds-container pt-3 sm:pt-6">
+        <VsArena class="px-4 pt-7 pb-7 text-center sm:px-12 sm:pt-10 sm:pb-10">
+            <a href={comparePath(lang)} class="ds-intro hero-back" style="--intro-i: 0">
+                <ChevronLeft aria-hidden="true" />
+                {c.backToAll}
+            </a>
+
+            <div class="mx-auto mt-9 flex max-w-3xl flex-col items-center gap-5 sm:mt-12">
+                <h1 class="ds-intro type-display-2 text-gradient-ink pb-1" style="--intro-i: 1">
+                    Edena vs {competitor.name}
+                </h1>
+                <p class="ds-intro type-lead max-w-2xl text-ink-2" style="--intro-i: 2">
+                    {rival.lead}
+                </p>
+            </div>
+
+            <!-- The two contenders, their score rings and the disc between them. -->
+            <div class="fo mt-9 sm:mt-11" aria-hidden="true">
+                <span class="fo-side fo-side--edena">
+                    <ScoreRing
+                        value={EDENA_SCORE}
+                        total={total}
+                        lang={lang}
+                        id={`${competitor.id}-edena`}
+                        edena
+                    >
+                        <BrandTile size={tile} />
+                    </ScoreRing>
+                </span>
+                <span class="fo-vs">vs</span>
+                <span class="fo-side fo-side--rival">
+                    <ScoreRing
+                        value={rivalScore}
+                        total={total}
+                        lang={lang}
+                        id={`${competitor.id}-rival`}
+                    >
+                        <BrandTile competitor={competitor} size={tile} />
+                    </ScoreRing>
+                </span>
+            </div>
+
+            <div class="fo ds-intro mt-5" style="--intro-i: 3">
+                <p class="max-w-[17rem]">
+                    <span class="fo-tagline">{c.edenaTagline}</span>
+                    <span class="fo-sub">{c.edenaMeta}</span>
+                </p>
+                <span></span>
+                <p class="max-w-[17rem]">
+                    <span class="fo-tagline">{rival.tagline}</span>
+                    <span class="fo-sub">{rivalSub}</span>
+                </p>
+            </div>
+
+            <div
+                class="ds-intro mt-8 flex flex-col justify-center gap-3 sm:flex-row"
+                style="--intro-i: 4"
+            >
+                <Button href="https://app.edena.es/register-organization" size="lg">
+                    {t.registerButtonExtended}
+                </Button>
+                <Button href={localizedDemoPath(lang)} variant="secondary" size="lg"
+                    >{t.bookDemo}</Button
+                >
+            </div>
+
+            <p class="ds-intro hero-foot" style="--intro-i: 5">
+                <span class="sr-only">{scoreSr}</span>
+                <span>{c.scoreCaption.replace("{n}", String(total))}</span>
+                <a href="#head-to-head" class="hero-foot-link">
+                    {c.scoreLink}
+                    <ChevronDown aria-hidden="true" />
+                </a>
+            </p>
+        </VsArena>
+    </div>
+</section>
+
+<style>
+    .hero-back {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.2rem;
+        border-radius: 999px;
+        padding: 0.4rem 0.85rem 0.4rem 0.55rem;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        color: var(--ds-ink-2);
+        background-color: var(--ds-surface);
+        box-shadow: inset 0 0 0 1px var(--ds-hairline);
+        transition:
+            color 200ms var(--ease-fluid),
+            background-color 200ms var(--ease-fluid);
+    }
+
+    .hero-back:hover {
+        color: var(--ds-ink);
+        background-color: var(--ds-fill-2);
+    }
+
+    .hero-back:active {
+        transform: scale(0.97);
+    }
+
+    .hero-back:focus-visible,
+    .hero-foot-link:focus-visible {
+        outline: 2px solid var(--ds-focus);
+        outline-offset: 3px;
+    }
+
+    .hero-back :global(svg) {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    /* The scoring rule, as a footnote across the foot of the stage. */
+    .hero-foot {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 0.35rem 1rem;
+        margin: 2.25rem auto 0;
+        max-width: 46rem;
+        padding-top: 1.1rem;
+        border-top: 1px solid var(--ds-hairline);
+        font-size: 0.75rem;
+        line-height: 1.1rem;
+        color: var(--ds-ink-3);
+    }
+
+    .hero-foot-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.15rem;
+        border-radius: 0.375rem;
+        font-weight: 600;
+        color: var(--ds-brand-ink);
+    }
+
+    .hero-foot-link:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+    }
+
+    .hero-foot-link :global(svg) {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+</style>

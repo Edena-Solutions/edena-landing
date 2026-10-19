@@ -1,0 +1,145 @@
+---
+import Button from "@/components/ds/Button.astro";
+import VsArena from "@/modules/compare/VsArena.astro";
+import ScoreRing from "@/modules/compare/ScoreRing.astro";
+import BrandTile from "@/modules/compare/BrandTile.astro";
+import { localizedDemoPath, type Translation } from "@/i18n";
+import { COMPARE_ROWS, COMPETITORS, EDENA_SCORE } from "@/data/competitors";
+import { comparePath } from "@/lib/compare";
+
+/*
+ * The comparisons' index opens on the same stage: Edena in its ring, and across the disc every
+ * other mark at once, walking a slow circle and staying upright. The heading is the section title
+ * (`hub.eyebrow`); the line under it is the description, and the circle leads into each comparison.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+}
+
+const { t, lang } = Astro.props;
+const hub = t.comparePage.hub;
+const total = COMPARE_ROWS.length;
+const tile = "calc(var(--ring) * 0.58)";
+---
+
+<section class="relative isolate -mt-15 overflow-x-clip pt-15">
+    <div class="ds-container pt-3 sm:pt-6">
+        <VsArena class="px-4 pt-9 pb-8 text-center sm:px-12 sm:pt-12 sm:pb-12">
+            <div class="mx-auto flex max-w-3xl flex-col items-center gap-5">
+                <h1 class="ds-intro type-display-2 text-gradient-ink pb-1" style="--intro-i: 0">
+                    {hub.eyebrow}
+                </h1>
+                <p class="ds-intro type-lead max-w-2xl text-ink-2" style="--intro-i: 1">
+                    {hub.description}
+                </p>
+            </div>
+
+            <div class="fo mt-9 sm:mt-11">
+                <span class="fo-side fo-side--edena">
+                    <ScoreRing value={EDENA_SCORE} total={total} lang={lang} id="hub-edena" edena>
+                        <BrandTile size={tile} />
+                    </ScoreRing>
+                </span>
+                <span class="fo-vs" aria-hidden="true">vs</span>
+                <span class="fo-side fo-side--rival">
+                    <span class="logo-orbit" style={`--n: ${COMPETITORS.length}`}>
+                        <span class="logo-orbit-spin">
+                            {
+                                COMPETITORS.map((competitor, index) => (
+                                    <span class="logo-orbit-item" style={`--i: ${index}`}>
+                                        <a
+                                            class="logo-orbit-upright"
+                                            href={comparePath(lang, competitor)}
+                                            aria-label={competitor.name}
+                                        >
+                                            <BrandTile competitor={competitor} size="100%" />
+                                        </a>
+                                    </span>
+                                ))
+                            }
+                        </span>
+                    </span>
+                </span>
+            </div>
+
+            <div class="ds-intro mt-9 flex flex-col justify-center gap-3 sm:flex-row" style="--intro-i: 2">
+                <Button href="https://app.edena.es/register-organization" size="lg">
+                    {t.registerButtonExtended}
+                </Button>
+                <Button href={localizedDemoPath(lang)} variant="secondary" size="lg">{t.bookDemo}</Button>
+            </div>
+        </VsArena>
+    </div>
+</section>
+
+<style>
+    /* Every other mark, on a circle the size of Edena's ring, walking and staying upright. */
+    .logo-orbit {
+        --orbit-size: clamp(7rem, 4.4rem + 8.4vw, 12.5rem);
+        --logo: calc(var(--orbit-size) * 0.22);
+        --radius: calc((var(--orbit-size) - var(--logo)) / 2);
+        --orbit-time: 36s;
+        position: relative;
+        display: block;
+        width: var(--orbit-size);
+        height: var(--orbit-size);
+    }
+
+    .logo-orbit-spin,
+    .logo-orbit-upright {
+        animation: logo-orbit-spin var(--orbit-time) linear infinite;
+    }
+
+    .logo-orbit-upright {
+        animation-direction: reverse;
+    }
+
+    .logo-orbit-spin {
+        position: absolute;
+        inset: 0;
+    }
+
+    .logo-orbit-item {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: var(--logo);
+        height: var(--logo);
+        margin: calc(var(--logo) / -2);
+        transform:
+            rotate(calc(var(--i) * 360deg / var(--n)))
+            translateY(calc(var(--radius) * -1))
+            rotate(calc(var(--i) * -360deg / var(--n)));
+    }
+
+    .logo-orbit-upright {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        border-radius: 22.5%;
+        transition: transform 200ms var(--ease-fluid);
+    }
+
+    .logo-orbit-upright:hover {
+        transform: scale(1.08);
+    }
+
+    .logo-orbit-upright:focus-visible {
+        outline: 2px solid var(--ds-focus);
+        outline-offset: 3px;
+    }
+
+    @keyframes logo-orbit-spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .logo-orbit-spin,
+        .logo-orbit-upright {
+            animation: none;
+        }
+    }
+</style>

@@ -1,0 +1,167 @@
+---
+import { formatScore } from "@/lib/compare";
+
+/*
+ * A contender's score as an activity ring round its icon: the track, the share of the criteria it
+ * meets closing over it (Edena's in the brand's greens, the other's in ink), and the total on a
+ * pill where the ring meets the tile. The icon goes in the slot. The ring draws itself in on load;
+ * with reduced motion it is simply there.
+ *
+ * `--ring` sets the size and is inherited by what sits inside, so the icon can be sized against it.
+ * (Not `.ring`: Tailwind owns that class.)
+ */
+interface Props {
+    value: number;
+    total: number;
+    lang: string;
+    edena?: boolean;
+    /** Unique per page: it names the ring's gradient. */
+    id: string;
+    pill?: boolean;
+    class?: string;
+}
+
+const { value, total, lang, edena = false, id, pill = true, class: className } = Astro.props;
+const share = value / total;
+const gradient = `ring-gradient-${id}`;
+---
+
+<span class:list={["score-ring", edena && "score-ring--edena", className]}>
+    <svg viewBox="0 0 120 120" aria-hidden="true">
+        {
+            edena && (
+                <defs>
+                    <linearGradient id={gradient} x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0" stop-color="#a3e635" />
+                        <stop offset="0.55" stop-color="#22c55e" />
+                        <stop offset="1" stop-color="#14b8a6" />
+                    </linearGradient>
+                </defs>
+            )
+        }
+        <circle class="score-ring-track" cx="60" cy="60" r="55" />
+        <circle
+            class="score-ring-fill"
+            cx="60"
+            cy="60"
+            r="55"
+            pathLength="100"
+            style={`--off: ${(100 - share * 100).toFixed(2)};${edena ? ` stroke: url(#${gradient})` : ""}`}
+        />
+    </svg>
+    <span class="score-ring-core"><slot /></span>
+    {
+        pill && (
+            <span class="score-ring-pill" aria-hidden="true">
+                <span data-count>{formatScore(value, lang)}</span>
+                <span class="score-ring-of">/{total}</span>
+            </span>
+        )
+    }
+</span>
+
+<style>
+    .score-ring {
+        --ring: clamp(7rem, 4.4rem + 8.4vw, 12.5rem);
+        position: relative;
+        display: inline-grid;
+        width: var(--ring);
+        height: var(--ring);
+        flex-shrink: 0;
+        place-items: center;
+    }
+
+    /* Edena's ring glows a little, the same green a product scene carries behind it. */
+    .score-ring--edena::before {
+        content: "";
+        position: absolute;
+        inset: -18%;
+        z-index: -1;
+        border-radius: 999px;
+        background: radial-gradient(closest-side, rgb(74 222 128 / 0.28), transparent);
+        filter: blur(12px);
+    }
+
+    .score-ring svg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        rotate: -90deg;
+        overflow: visible;
+    }
+
+    .score-ring circle {
+        fill: none;
+        stroke-width: 5.5;
+    }
+
+    .score-ring-track {
+        stroke: var(--ds-hairline-strong);
+    }
+
+    .score-ring-fill {
+        stroke: color-mix(in srgb, var(--ds-ink) 28%, transparent);
+        stroke-linecap: round;
+        stroke-dasharray: 100;
+        stroke-dashoffset: var(--off);
+    }
+
+    .score-ring--edena .score-ring-fill {
+        filter: drop-shadow(0 0 6px rgb(74 222 128 / 0.35));
+    }
+
+    .score-ring-core {
+        display: grid;
+        place-items: center;
+    }
+
+    .score-ring-pill {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        display: inline-flex;
+        align-items: baseline;
+        gap: 0.1rem;
+        translate: -50% 42%;
+        border-radius: 999px;
+        padding: 0.3rem 0.7rem;
+        font-size: clamp(0.875rem, 0.7rem + 0.5vw, 1.0625rem);
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+        color: var(--ds-ink);
+        background-color: var(--ds-surface);
+        box-shadow:
+            inset 0 0 0 1px var(--ds-hairline),
+            0 8px 20px -12px rgb(0 0 0 / 0.28);
+    }
+
+    .score-ring--edena .score-ring-pill {
+        color: #04210f;
+        background-image: linear-gradient(100deg, #bef264 0%, #4ade80 55%, #2dd4bf 100%);
+        box-shadow:
+            inset 0 1px 0 rgb(255 255 255 / 0.45),
+            0 10px 28px -10px rgb(74 222 128 / 0.65);
+    }
+
+    .score-ring-of {
+        font-size: 0.72em;
+        font-weight: 700;
+        opacity: 0.6;
+    }
+
+    /* The ring closes as the page arrives. */
+    @media (prefers-reduced-motion: no-preference) {
+        .score-ring-fill {
+            animation: score-ring-close 1.9s var(--ease-out-expo) 520ms both;
+        }
+    }
+
+    @keyframes score-ring-close {
+        from {
+            stroke-dashoffset: 100;
+        }
+    }
+</style>

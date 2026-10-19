@@ -1,0 +1,400 @@
+---
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import StatusMark from "@/modules/compare/StatusMark.astro";
+import BrandTile from "@/modules/compare/BrandTile.astro";
+import type { Translation } from "@/i18n";
+import {
+    COMPARE_GROUPS,
+    COMPARE_ROWS,
+    EDENA_SCORE,
+    EDENA_STATUS,
+    scoreOf,
+    type CompareStatus,
+    type Competitor,
+} from "@/data/competitors";
+import { competitorCopy, formatScore } from "@/lib/compare";
+
+/*
+ * Head to head: every criterion, grouped as a buyer reads them, with each side's mark and what it
+ * amounts to. Edena's column is lit from top to bottom, one pane behind the rows; the two names hold
+ * under the nav as the rows pass (the pricing table's frosted bar). On a phone the criterion takes
+ * its own line and the two answers sit side by side under it, Edena's on its own tinted card, since
+ * a lit column would run through the criteria's names.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+    competitor: Competitor;
+}
+
+const { t, lang, competitor } = Astro.props;
+const c = t.comparePage;
+const rival = competitorCopy(c, competitor);
+const total = COMPARE_ROWS.length;
+const label = (status: CompareStatus) => c.status[status];
+
+const columns = [
+    { name: "Edena", score: EDENA_SCORE, edena: true },
+    { name: competitor.name, score: scoreOf(competitor.status), edena: false },
+];
+---
+
+<section id="head-to-head" class="ds-section scroll-mt-16">
+    <div class="ds-container">
+        <SectionHeader title={c.tableTitle} description={c.tableDescription} />
+
+        <ul
+            class="m-0 mx-auto mt-8 flex max-w-3xl list-none flex-wrap justify-center gap-x-5 gap-y-2 p-0"
+            data-reveal
+        >
+            {
+                (["yes", "partial", "none"] as const).map((status) => (
+                    <li class="flex items-center gap-2 type-footnote text-ink-2">
+                        <StatusMark status={status} label={label(status)} size="sm" />
+                        <span aria-hidden="true">{label(status)}</span>
+                    </li>
+                ))
+            }
+        </ul>
+
+        <div
+            class="h2h mt-10 sm:mt-12"
+            role="table"
+            aria-label={`${c.tableTitle}: Edena vs ${competitor.name}`}
+            data-reveal="rise"
+        >
+            <div class="h2h-sentinel" aria-hidden="true"></div>
+            <div role="rowgroup" class="h2h-head" data-h2h-head>
+                <div role="row" class="h2h-row h2h-head-row">
+                    <span role="columnheader" class="h2h-corner">{c.criterion}</span>
+                    {
+                        columns.map((column) => (
+                            <span role="columnheader" class:list={["h2h-col"]}>
+                                <span class="h2h-col-name">
+                                    <BrandTile
+                                        competitor={column.edena ? undefined : competitor}
+                                        size="1.75rem"
+                                    />
+                                    <span class="min-w-0">{column.name}</span>
+                                </span>
+                                <span class="h2h-col-score">
+                                    {formatScore(column.score, lang)}
+                                    <span class="h2h-col-of">/{total}</span>
+                                </span>
+                            </span>
+                        ))
+                    }
+                </div>
+            </div>
+
+            {
+                COMPARE_GROUPS.map((group) => (
+                    <div role="rowgroup">
+                        <div role="row" class="h2h-group">
+                            <span role="rowheader" aria-colspan="3">
+                                {c.groups[group.id]}
+                            </span>
+                        </div>
+                        {group.rows.map((row) => (
+                            <div role="row" class="h2h-row h2h-body-row">
+                                <span role="rowheader" class="h2h-label">
+                                    {c.rows[row]}
+                                </span>
+                                <span role="cell" class="h2h-cell">
+                                    <StatusMark
+                                        status={EDENA_STATUS[row]}
+                                        label={label(EDENA_STATUS[row])}
+                                    />
+                                    <span class="h2h-note">{c.edenaNotes[row]}</span>
+                                </span>
+                                <span role="cell" class="h2h-cell">
+                                    <StatusMark
+                                        status={competitor.status[row]}
+                                        label={label(competitor.status[row])}
+                                        note={rival.notes[row]}
+                                    />
+                                    {rival.notes[row] && (
+                                        <span class="h2h-note">{rival.notes[row]}</span>
+                                    )}
+                                </span>
+                            </div>
+                        ))}
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+</section>
+
+<script>
+    // The header knows when it has stuck: a hairline sentinel sits just above it, and once that has
+    // scrolled up under the nav, the header is pinned. CSS does the rest (`[data-stuck]`).
+    function watchHeadToHeadHeads() {
+        document.querySelectorAll<HTMLElement>("[data-h2h-head]").forEach((head) => {
+            const sentinel = head.previousElementSibling;
+            if (!sentinel) return;
+            const top = parseFloat(getComputedStyle(head).top) || 0;
+            const observer = new IntersectionObserver(
+                ([entry]) =>
+                    head.toggleAttribute(
+                        "data-stuck",
+                        !entry.isIntersecting && entry.boundingClientRect.top < top,
+                    ),
+                { rootMargin: `-${Math.ceil(top) + 1}px 0px 0px 0px` },
+            );
+            observer.observe(sentinel);
+            document.addEventListener("astro:before-swap", () => observer.disconnect(), {
+                once: true,
+            });
+        });
+    }
+    document.addEventListener("astro:page-load", watchHeadToHeadHeads);
+</script>
+
+<style>
+    /*
+     * Three columns from a tablet up: the criterion, then Edena, then the other. `--c1` is the
+     * criterion's share, which also places the pane that lights Edena's column.
+     */
+    .h2h {
+        --c1: 38%;
+        position: relative;
+        isolation: isolate;
+    }
+
+    .h2h::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: var(--c1);
+        display: none;
+        width: calc((100% - var(--c1)) / 2);
+    }
+
+    @media (min-width: 40rem) {
+        .h2h::before {
+            display: block;
+        }
+    }
+
+    .h2h-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        column-gap: 0.5rem;
+    }
+
+    @media (min-width: 40rem) {
+        .h2h-row {
+            grid-template-columns: var(--c1) minmax(0, 1fr) minmax(0, 1fr);
+            column-gap: 0;
+            align-items: start;
+        }
+    }
+
+    /* A phone: Edena's answers, and its name in the header, each on a tinted card. */
+    @media (max-width: 39.99rem) {
+        .h2h-col,
+        .h2h-cell {
+            border-radius: 0.875rem;
+        }
+
+        .h2h-col--edena,
+        .h2h-cell--edena {
+            background-color: color-mix(in srgb, var(--ds-brand) 9%, var(--ds-canvas));
+            box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ds-brand) 26%, transparent);
+        }
+
+        .h2h-col {
+            padding-block: 0.6rem;
+        }
+    }
+
+    /* The header: the two names and their totals. */
+    .h2h-sentinel {
+        height: 1px;
+    }
+
+    .h2h-head {
+        position: sticky;
+        top: 4.25rem;
+        z-index: 2;
+        transition:
+            background-color 300ms var(--ease-fluid),
+            box-shadow 300ms var(--ease-fluid);
+        border-radius: 1.25rem;
+    }
+
+    .h2h-head[data-stuck] {
+        background-color: color-mix(in srgb, var(--ds-surface) 80%, transparent);
+        -webkit-backdrop-filter: blur(24px) saturate(180%);
+        backdrop-filter: blur(24px) saturate(180%);
+        box-shadow:
+            inset 0 0 0 1px var(--ds-hairline),
+            0 12px 32px -14px rgb(0 0 0 / 0.28);
+    }
+
+    .h2h-head-row {
+        align-items: center;
+        padding-block: 1.1rem;
+        transition: padding 300ms var(--ease-fluid);
+    }
+
+    .h2h-head[data-stuck] .h2h-head-row {
+        padding-block: 0.75rem;
+    }
+
+    .h2h-corner {
+        display: none;
+        padding-inline: 1rem;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        color: var(--ds-ink-3);
+    }
+
+    @media (min-width: 40rem) {
+        .h2h-corner {
+            display: block;
+        }
+    }
+
+    .h2h-col {
+        display: flex;
+        min-width: 0;
+        flex-direction: column;
+        gap: 0.2rem;
+        padding-inline: 0.9rem;
+    }
+
+    @media (min-width: 40rem) {
+        .h2h-col {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.75rem;
+            padding-inline: 1.25rem;
+        }
+    }
+
+    .h2h-col-name {
+        display: flex;
+        min-width: 0;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1.0625rem;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        color: var(--ds-ink-2);
+    }
+
+    .h2h-col--edena .h2h-col-name {
+        color: var(--ds-ink);
+    }
+
+    .h2h-col-score {
+        font-size: 0.9375rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        font-variant-numeric: tabular-nums;
+        color: var(--ds-ink-2);
+    }
+
+    .h2h-col--edena .h2h-col-score {
+        color: var(--ds-brand-ink);
+    }
+
+    .h2h-col-of {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--ds-ink-3);
+    }
+
+    /* A group's label, across the table. */
+    .h2h-group {
+        padding: 2rem 0.25rem 0.6rem;
+        font-size: 0.6875rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ds-ink-3);
+    }
+
+    @media (min-width: 40rem) {
+        .h2h-group {
+            padding-inline: 1rem;
+        }
+    }
+
+    /* A criterion. On a phone its name is a line of its own, the answers under it. */
+    .h2h-body-row {
+        position: relative;
+    }
+
+    .h2h-body-row::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 1px;
+        background-color: var(--ds-hairline);
+    }
+
+    .h2h-label {
+        grid-column: 1 / -1;
+        padding: 1rem 0.25rem 0.6rem;
+        font-size: 0.9375rem;
+        line-height: 1.35rem;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: var(--ds-ink);
+        text-wrap: pretty;
+    }
+
+    @media (min-width: 40rem) {
+        .h2h-label {
+            grid-column: auto;
+            padding: 1.15rem 1.25rem 1.15rem 1rem;
+            font-size: 1rem;
+        }
+    }
+
+    .h2h-cell {
+        display: flex;
+        min-width: 0;
+        align-items: flex-start;
+        gap: 0.6rem;
+        margin-bottom: 0.9rem;
+        padding: 0.7rem 0.75rem;
+    }
+
+    @media (min-width: 40rem) {
+        .h2h-cell {
+            gap: 0.75rem;
+            margin-bottom: 0;
+            padding: 1.1rem 1.25rem;
+        }
+    }
+
+    .h2h-note {
+        padding-top: 0.15rem;
+        font-size: 0.8125rem;
+        line-height: 1.2rem;
+        color: var(--ds-ink-2);
+        text-wrap: pretty;
+    }
+
+    .h2h-cell--edena .h2h-note {
+        color: var(--ds-ink);
+        font-weight: 500;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .h2h-head,
+        .h2h-head-row {
+            transition: none;
+        }
+    }
+</style>

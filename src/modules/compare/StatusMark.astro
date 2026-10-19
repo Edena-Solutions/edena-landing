@@ -1,0 +1,63 @@
+---
+import { Check, Minus } from "lucide-react";
+import type { CompareStatus } from "@/data/competitors";
+
+/*
+ * One cell's verdict, drawn the same in every column so no side is flattered by its marks: a green
+ * disc with a tick when it is included, a half-filled ring when it is partial, a dash when it is
+ * not included or not public. The words are there for screen readers (`label`), and `note`, when
+ * given, rides along in the tooltip.
+ */
+interface Props {
+    status: CompareStatus;
+    label: string;
+    note?: string;
+    size?: "sm" | "md";
+}
+
+const { status, label, note, size = "md" } = Astro.props;
+---
+
+<span class:list={["mark", `mark--${status}`, size === "sm" && "mark--sm"]} title={note ? `${label} · ${note}` : label}>
+    {status === "yes" && <Check strokeWidth={3} aria-hidden="true" />}
+    {status === "none" && <Minus strokeWidth={2.5} aria-hidden="true" />}
+    <span class="sr-only">{label}</span>
+</span>
+
+<style>
+    .mark {
+        display: inline-flex;
+        width: 1.5rem;
+        height: 1.5rem;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+    }
+
+    .mark--sm {
+        width: 1.375rem;
+        height: 1.375rem;
+    }
+
+    .mark :global(svg) {
+        width: 0.875rem;
+        height: 0.875rem;
+    }
+
+    .mark--yes {
+        background-color: var(--ds-brand);
+        color: #ffffff;
+        box-shadow: 0 4px 10px -4px color-mix(in srgb, var(--ds-brand) 70%, transparent);
+    }
+
+    /* Half a disc inside its ring: there, but not all of it. */
+    .mark--partial {
+        background: linear-gradient(90deg, var(--ds-ink-2) 50%, transparent 50%);
+        box-shadow: inset 0 0 0 2px var(--ds-ink-2);
+    }
+
+    .mark--none {
+        color: color-mix(in srgb, var(--ds-ink-3) 75%, transparent);
+    }
+</style>
