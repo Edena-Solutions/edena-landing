@@ -2703,6 +2703,112 @@ html.dark [data-ena] .material-glass {
     inset: 0;
 }
 
+/* The board itself: `--cols` em across, `--rows` down (set by `ScenePlayer`). */
+.ds-scene__art {
+    position: relative;
+    font-size: calc(100cqw / var(--cols));
+    aspect-ratio: var(--cols) / var(--rows);
+}
+
+/* A scene with a narrow board takes it, and its own cut, once the board would fall under 32.5rem
+   (the card under 34rem: on a phone). Both queries draw the same line from their own container. */
+@container (max-width: 32.5rem) {
+    .ds-scene__art[data-narrow] {
+        font-size: calc(100cqw / var(--ncols));
+        aspect-ratio: var(--ncols) / var(--nrows);
+    }
+}
+
+@container (max-width: 34rem) {
+    .ds-scene[data-narrow] > .ds-scene__stage {
+        --scene-k: var(--scene-nk);
+    }
+}
+
+/*
+ * Three phones (`TrioStage` in the product scenes): placed by `--x --y` (board em) at scale `--s`,
+ * or by `--nx --ny --ns` on the narrow board. The two behind turn towards the one in front, hinged
+ * on their outer edges, and step out from behind it as they arrive; the cards that float between
+ * them sit above all three.
+ */
+.trio-place {
+    position: absolute;
+    font-size: calc(var(--s, 1) * 1em);
+    left: calc(var(--x) / var(--s, 1) * 1em);
+    top: calc(var(--y) / var(--s, 1) * 1em);
+}
+
+.trio-float {
+    width: calc(var(--w) * 1em);
+}
+
+.trio-back {
+    transition:
+        translate 1.1s var(--ease-out-expo),
+        opacity 0.9s var(--ease-out-expo);
+}
+
+.trio-back--left {
+    transform-origin: 0% 50%;
+    transform: perspective(70em) rotateY(20deg);
+}
+
+.trio-back--right {
+    transform-origin: 100% 50%;
+    transform: perspective(70em) rotateY(-20deg);
+}
+
+.trio-back[data-hidden] {
+    opacity: 0;
+}
+
+.trio-back--left[data-hidden] {
+    translate: 3.5em 0.6em;
+}
+
+.trio-back--right[data-hidden] {
+    translate: -3.5em 0.6em;
+}
+
+/* The front phone floats a little higher off the page than the two behind it. */
+.trio-front.ds-glass {
+    box-shadow:
+        inset 0 1px 0 rgb(255 255 255 / 0.95),
+        inset 0 0 0 1px rgb(255 255 255 / 0.55),
+        0 0 0 1px rgb(0 0 0 / 0.05),
+        0 2.4em 5em -2em rgb(0 0 0 / 0.26),
+        0 0.6em 1.4em -0.8em rgb(0 0 0 / 0.12);
+}
+
+.dark .trio-front.ds-glass {
+    box-shadow:
+        inset 0 1px 0 rgb(255 255 255 / 0.18),
+        inset 0 0 0 1px rgb(255 255 255 / 0.1),
+        0 2.4em 5em -2em rgb(0 0 0 / 0.7);
+}
+
+@container (max-width: 32.5rem) {
+    .ds-scene__art[data-narrow] .trio-place {
+        font-size: calc(var(--ns, var(--s, 1)) * 1em);
+        left: calc(var(--nx, var(--x)) / var(--ns, var(--s, 1)) * 1em);
+        top: calc(var(--ny, var(--y)) / var(--ns, var(--s, 1)) * 1em);
+    }
+
+    .ds-scene__art[data-narrow] .trio-float {
+        width: calc(var(--nw, var(--w)) * 1em);
+    }
+
+    .ds-scene__art[data-narrow] .trio-wide-only {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .trio-back {
+        transition: none;
+    }
+}
+
 @media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
     .ds-scene__content:not([data-live]) {
         opacity: 0;

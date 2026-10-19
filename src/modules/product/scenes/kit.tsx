@@ -11,6 +11,9 @@ import { cn } from "@/lib/utils";
  *   SOLO   one phone, centred and large, cut at the card's foot — for what happens on the phone
  *   DUO    the school's web app and a family's phone, one in front of the other: what one does,
  *          the other sees — the cause and its effect in one picture, not a phone and a floating card
+ *   TRIO   three phones in depth: one in front, two turned towards it behind, and the cards that
+ *          float out between them; on a phone, the one in front alone, large, the cards over its
+ *          edges (`TrioStage`)
  *
  * Boards are in em (`ScenePlayer` scales them); a scene on a DUO board places the pane and the
  * phone with the boxes below and lays its pane out inside `Pane`'s padding.
@@ -35,6 +38,97 @@ export const DUO_PANE_LEFT: Box = { x: 0.6, y: 3.4, w: 21.2, h: 23 };
 export const DUO_PHONE_RIGHT: Box = { x: 18.6, y: 0.9, w: 12.4, h: 25.6 };
 /** How far the phone covers the pane: the pane's content keeps clear of it. */
 export const DUO_OVERLAP = 3.2;
+
+export const TRIO = { board: { cols: 40, rows: 27 }, k: 0.6, narrow: { cols: 16, rows: 27, k: 1.5 } } as const;
+/** Each of the three phones, in its own em; the two behind stand at `TRIO_BACK` of it. */
+export const TRIO_PHONE = { w: 13, h: 26.6 };
+const TRIO_BACK = 0.86;
+
+/** Where a piece of a trio stands: board em, and its scale. */
+export interface Spot {
+    x: number;
+    y: number;
+    s?: number;
+}
+
+function spot(wide: Spot, narrow?: Spot): CSSProperties {
+    return {
+        "--x": wide.x,
+        "--y": wide.y,
+        "--s": wide.s ?? 1,
+        "--nx": narrow?.x ?? wide.x,
+        "--ny": narrow?.y ?? wide.y,
+        "--ns": narrow?.s ?? wide.s ?? 1,
+    } as CSSProperties;
+}
+
+/**
+ * Three phones in depth. `front` stands in the middle and comes up as it arrives; `left` and
+ * `right`, smaller, turn towards it and step out from behind it; on a phone (the narrow board)
+ * only `front` shows, across the board. Each is a `PhoneFrame` at 0, 0, `TRIO_PHONE` in size. The
+ * cards that float between them (`TrioFloat`) go in `children`, above all three.
+ */
+export function TrioStage({
+    shown,
+    left,
+    right,
+    front,
+    children,
+}: {
+    shown: { left: boolean; right: boolean; front: boolean };
+    left: ReactNode;
+    right: ReactNode;
+    front: ReactNode;
+    children?: ReactNode;
+}) {
+    const size = { width: `${TRIO_PHONE.w}em`, height: `${TRIO_PHONE.h}em` };
+    const backW = TRIO_PHONE.w * TRIO_BACK;
+    return (
+        <>
+            <div
+                className="trio-place trio-wide-only trio-back trio-back--left"
+                data-hidden={shown.left ? undefined : ""}
+                style={{ ...spot({ x: 4.2, y: 3.4, s: TRIO_BACK }), ...size }}
+            >
+                <div className="size-full [&_.ds-glass>div]:opacity-[0.86]">{left}</div>
+            </div>
+            <div
+                className="trio-place trio-wide-only trio-back trio-back--right"
+                data-hidden={shown.right ? undefined : ""}
+                style={{ ...spot({ x: 40 - 4.2 - backW, y: 3.4, s: TRIO_BACK }), ...size }}
+            >
+                <div className="size-full [&_.ds-glass>div]:opacity-[0.86]">{right}</div>
+            </div>
+            <div className="trio-place" style={{ ...spot({ x: (40 - TRIO_PHONE.w) / 2, y: 1 }, { x: 1.5, y: 1.2 }), ...size }}>
+                <Pop show={shown.front} from="up" className="absolute inset-0">
+                    {front}
+                </Pop>
+            </div>
+            {children}
+        </>
+    );
+}
+
+/** A card floating between the phones: `w` board em wide (`nw` on a phone), above all three. */
+export function TrioFloat({
+    wide,
+    narrow,
+    w,
+    nw = w,
+    children,
+}: {
+    wide: Spot;
+    narrow: Spot;
+    w: number;
+    nw?: number;
+    children: ReactNode;
+}) {
+    return (
+        <div className="trio-place trio-float" style={{ ...spot(wide, narrow), ["--w" as string]: w, ["--nw" as string]: nw }}>
+            {children}
+        </div>
+    );
+}
 
 export const ORBS: Record<"green" | "sky" | "warm", Orb[]> = {
     green: [

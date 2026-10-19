@@ -20,13 +20,19 @@ export interface SceneSpec<L> {
     board?: { cols: number; rows: number };
     /** The stage's height past its top margin, as a fraction of the board's width. */
     k?: number;
+    /**
+     * On a narrow card (a phone, where the board would be under 32.5rem), a board of its own,
+     * `cols` × `rows` em with its own `k`, so a wide composition is not just shrunk. The scene
+     * places its pieces for both (`.trio-place` and its narrow variables, `.trio-wide-only`).
+     */
+    narrow?: { cols: number; rows: number; k: number };
 }
 
 /** About seven eighths of the pane shows above the tile's foot. */
 const PANE_K = 0.6;
 
 export function ScenePlayer<L>({ spec, labels, locale, max = 56 }: { spec: SceneSpec<L>; labels: L; locale: string; max?: number }) {
-    const { Scene, duration, board } = spec;
+    const { Scene, duration, board, narrow } = spec;
     const ref = useRef<HTMLDivElement>(null);
     const [t, setT] = useState(Number.POSITIVE_INFINITY);
     const [live, setLive] = useState(false);
@@ -67,10 +73,20 @@ export function ScenePlayer<L>({ spec, labels, locale, max = 56 }: { spec: Scene
     const scene = <Scene t={t} labels={labels} locale={locale} />;
 
     return (
-        <div ref={ref} className="ds-scene" style={{ "--scene-max": `${max}rem`, "--scene-k": spec.k ?? PANE_K } as CSSProperties}>
+        <div
+            ref={ref}
+            className="ds-scene"
+            data-narrow={narrow ? "" : undefined}
+            style={{ "--scene-max": `${max}rem`, "--scene-k": spec.k ?? PANE_K, "--scene-nk": narrow?.k } as CSSProperties}
+        >
             <div className="ds-scene__stage">
                 <div className="ds-scene__board">
-                    <div aria-hidden className="relative select-none text-ink" style={{ fontSize: `calc(100cqw / ${cols})`, aspectRatio: `${cols} / ${rows}` }}>
+                    <div
+                        aria-hidden
+                        className="ds-scene__art select-none text-ink"
+                        data-narrow={narrow ? "" : undefined}
+                        style={{ "--cols": cols, "--rows": rows, "--ncols": narrow?.cols, "--nrows": narrow?.rows } as CSSProperties}
+                    >
                         {!board && <GlassPane />}
                         <div className="ds-scene__content" data-live={live ? "" : undefined}>
                             {board ? scene : <SceneContent>{scene}</SceneContent>}

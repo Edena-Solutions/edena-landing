@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { ChevronLeft, CreditCard, Plus, ReceiptText } from "lucide-react";
 
-import { PhoneFrame } from "@/components/wizard/app-frame";
+import { PhoneFrame, PhoneNotification } from "@/components/wizard/app-frame";
 import { CONTENT } from "@/components/wizard/glass-stage";
 import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
 import { At, Line, Pop, easeOut, fill, money, on, span, typed } from "@/components/wizard/scene-kit";
@@ -23,7 +23,11 @@ import {
     ProductArt,
     SOLO,
     SOLO_PHONE,
+    TRIO,
+    TRIO_PHONE,
     Toggle,
+    TrioFloat,
+    TrioStage,
     between,
     type ProductKind,
 } from "./kit";
@@ -35,7 +39,7 @@ export type ShopLabels = ProductSceneLabels & { s: Translation["shopScenes"] };
  * The shop page's scenes, drawn from `screenshots/shop/*` and `app/shop_*`:
  *
  *   trio      (hero) the shop on three phones: the catalogue, a product put in the cart, the
- *             cart paid
+ *             cart paid; what was added and the order's notification float out between them
  *   quick     two taps: a product added, paid with the card already saved
  *   admin     the school's catalogue: a new article written, priced and published to the app
  *   product   a product's page: its pictures, sizes and what's left of each
@@ -62,15 +66,7 @@ const PRODUCTS: { kind: ProductKind; price: number }[] = [
     { kind: "scissors", price: 3.5 },
 ];
 const SIZES = ["S", "M", "L", "XL"];
-const PHONE = { w: 12.4, h: 25.4 };
-
-function BackPhone({ x, y, scale, children }: { x: number; y: number; scale: number; children: ReactNode }) {
-    return (
-        <div className="absolute" style={{ left: `${x / scale}em`, top: `${y / scale}em`, width: `${PHONE.w}em`, height: `${PHONE.h}em`, fontSize: `${scale}em` }}>
-            {children}
-        </div>
-    );
-}
+const P = TRIO_PHONE;
 
 /** A product on the catalogue's grid: its picture, its name, its price. */
 function Tile({ index, labels, locale, className, children }: { index: number; labels: ShopLabels; locale: string; className?: string; children?: ReactNode }) {
@@ -107,27 +103,28 @@ function SizePicker({ chosen, className }: { chosen: number; className?: string 
 /* trio · catalogue, product, cart                                                                */
 /* ---------------------------------------------------------------------------------------------- */
 
-const TRIO = { size: 900, add: 1500, added: 1750, landed: 1950, pay: 3000, busy: 3200, paid: 3700 };
+const TRIO_AT = { size: 900, add: 1500, added: 1750, landed: 1950, pay: 3000, busy: 3200, paid: 3700 };
 
 function TrioScene({ t, labels, locale }: Props) {
     const { s } = labels;
-    const landed = on(t, TRIO.landed);
-    const total = 120 + 30 * easeOut(span(t, TRIO.landed, 700));
+    const landed = on(t, TRIO_AT.landed);
+    const total = 120 + 30 * easeOut(span(t, TRIO_AT.landed, 700));
 
     return (
         <>
             <Lights
                 orbs={[
-                    { x: 3, y: 5, size: 16, color: "#fbbf24" },
-                    { x: 15, y: 13, size: 18, color: "#22c55e" },
+                    { x: 2, y: 4, size: 16, color: "#fbbf24" },
+                    { x: 13, y: 12, size: 18, color: "#22c55e" },
                     { x: 25, y: 1, size: 16, color: "#a3e635" },
                 ]}
             />
 
-            {/* Behind, on the left: the catalogue. */}
-            <BackPhone x={1.6} y={3.4} scale={0.88}>
-                <Pop show={on(t, 150)} from="up" className="absolute inset-0">
-                    <PhoneFrame x={0} y={0} w={PHONE.w} h={PHONE.h} tab={0} cart>
+            <TrioStage
+                shown={{ left: on(t, 150), right: on(t, 250), front: on(t, 0) }}
+                left={
+                    // The catalogue.
+                    <PhoneFrame x={0} y={0} w={P.w} h={P.h} tab={0} cart>
                         <div className="flex h-full flex-col gap-[0.5em] px-[0.45em] pt-[0.3em]">
                             <span className="text-[0.4em] font-bold uppercase tracking-[0.1em]">{s.shop}</span>
                             <span className="grid grid-cols-2 gap-x-[0.4em] gap-y-[0.55em]">
@@ -139,22 +136,17 @@ function TrioScene({ t, labels, locale }: Props) {
                             </span>
                         </div>
                     </PhoneFrame>
-                </Pop>
-            </BackPhone>
-
-            {/* Behind, on the right: the cart, paid. */}
-            <BackPhone x={27.5} y={3.4} scale={0.88}>
-                <Pop show={on(t, 250)} from="up" className="absolute inset-0">
-                    <PhoneFrame x={0} y={0} w={PHONE.w} h={PHONE.h} tab={0} cart cartCount={landed ? 2 : 1}>
+                }
+                right={
+                    // The cart, paid.
+                    <PhoneFrame x={0} y={0} w={P.w} h={P.h} tab={0} cart cartCount={landed ? 2 : 1}>
                         <div className="flex h-full flex-col gap-[0.6em] px-[0.6em] pt-[0.3em]">
-                            <span className="flex items-center gap-[0.4em]">
-                                <span className="text-[0.44em] font-bold uppercase tracking-[0.1em]">{s.cart}</span>
-                            </span>
+                            <span className="text-[0.44em] font-bold uppercase tracking-[0.1em]">{s.cart}</span>
                             {[2, 3].map((index) => {
                                 const isNew = index === 2;
                                 return (
                                     <Pop key={index} show={isNew ? landed : on(t, 400)} from={isNew ? "down" : "up"} className="relative flex items-center gap-[0.5em] rounded-[0.5em]">
-                                        {isNew && <Fresh t={t} at={TRIO.landed} />}
+                                        {isNew && <Fresh t={t} at={TRIO_AT.landed} />}
                                         <ProductArt kind={PRODUCTS[index].kind} className="size-[2.4em] shrink-0 rounded-[0.4em]" />
                                         <span className="flex min-w-0 flex-col gap-[0.25em]">
                                             <span className="truncate text-[0.38em] font-bold uppercase tracking-[0.06em]">{s.products[index]}</span>
@@ -168,34 +160,59 @@ function TrioScene({ t, labels, locale }: Props) {
                                 <Caps tone="text-ink-3">{s.total}</Caps>
                                 <span className="text-[0.62em] font-semibold tabular-nums">{money(locale, total, 2)}</span>
                             </span>
-                            <ActionButton t={t} press={TRIO.pay} busy={TRIO.busy} done={TRIO.paid} label={s.checkout} doneLabel={s.ordered} />
+                            <ActionButton t={t} press={TRIO_AT.pay} busy={TRIO_AT.busy} done={TRIO_AT.paid} label={s.checkout} doneLabel={s.ordered} />
                         </div>
                     </PhoneFrame>
-                </Pop>
-            </BackPhone>
-
-            {/* In front: a product, sized and put in the cart. */}
-            <Pop show={on(t, 0)} from="up" className="absolute inset-0">
-                <PhoneFrame x={(40 - PHONE.w) / 2} y={1} w={PHONE.w} h={PHONE.h} tab={0} cart cartCount={on(t, TRIO.added) ? 2 : 1}>
-                    <div className="flex h-full flex-col">
-                        <span className="relative">
-                            <ProductArt kind="trousers" className="h-[9.6em] w-full" />
-                            <span className="absolute left-[0.5em] top-[0.5em] flex size-[1.3em] items-center justify-center rounded-[0.35em] bg-white text-neutral-900 elev-1">
-                                <ChevronLeft className="size-[0.6em]" />
+                }
+                front={
+                    // A product, sized and put in the cart.
+                    <PhoneFrame x={0} y={0} w={P.w} h={P.h} tab={0} cart cartCount={on(t, TRIO_AT.added) ? 2 : 1} className="trio-front">
+                        <div className="flex h-full flex-col">
+                            <span className="relative">
+                                <ProductArt kind="trousers" className="h-[9.6em] w-full" />
+                                <span className="absolute left-[0.5em] top-[0.5em] flex size-[1.3em] items-center justify-center rounded-[0.35em] bg-white text-neutral-900 elev-1">
+                                    <ChevronLeft className="size-[0.6em]" />
+                                </span>
+                            </span>
+                            <div className="flex flex-col gap-[0.5em] px-[0.6em] pt-[0.6em]">
+                                <span className="text-[0.46em] font-bold uppercase tracking-[0.08em]">{s.products[2]}</span>
+                                <span className="text-[0.75em] font-semibold tabular-nums tracking-[-0.02em]">{money(locale, 30, 2)}</span>
+                                <Caps tone="text-ink-3">{s.size}</Caps>
+                                <SizePicker chosen={on(t, TRIO_AT.size) ? 1 : -1} />
+                                <span className="mt-[0.3em]">
+                                    <ActionButton t={t} press={TRIO_AT.add} done={TRIO_AT.added} label={s.addToCart} doneLabel={s.added} />
+                                </span>
+                            </div>
+                        </div>
+                    </PhoneFrame>
+                }
+            >
+                {/* What was just added, out of the product's picture towards the catalogue. */}
+                <TrioFloat wide={{ x: 3, y: 8.6 }} narrow={{ x: 0.3, y: 4 }} w={12.8} nw={14}>
+                    <Pop show={on(t, TRIO_AT.added)} from="scale">
+                        <span className="flex items-center gap-[0.6em] rounded-[1em] p-[0.55em] material-thick elev-3 ring-1 ring-hairline">
+                            <ProductArt kind="trousers" className="size-[2.3em] shrink-0 rounded-[0.55em]" />
+                            <span className="flex min-w-0 flex-1 flex-col gap-[0.3em]">
+                                <span className="truncate text-[0.42em] font-bold uppercase leading-tight tracking-[0.04em]">{s.products[2]}</span>
+                                <span className="text-[0.38em] tabular-nums leading-none text-ink-2">M · {money(locale, 30, 2)}</span>
+                            </span>
+                            <span className="flex shrink-0 items-center gap-[0.25em] rounded-full bg-green-500 py-[0.25em] pl-[0.3em] pr-[0.55em] text-white">
+                                <span className="size-[0.7em]">
+                                    <DrawnCheck p={span(t, TRIO_AT.added + 80, 450)} className="size-full" />
+                                </span>
+                                <span className="text-[0.38em] font-semibold">{s.added}</span>
                             </span>
                         </span>
-                        <div className="flex flex-col gap-[0.5em] px-[0.6em] pt-[0.6em]">
-                            <span className="text-[0.46em] font-bold uppercase tracking-[0.08em]">{s.products[2]}</span>
-                            <span className="text-[0.75em] font-semibold tabular-nums tracking-[-0.02em]">{money(locale, 30, 2)}</span>
-                            <Caps tone="text-ink-3">{s.size}</Caps>
-                            <SizePicker chosen={on(t, TRIO.size) ? 1 : -1} />
-                            <span className="mt-[0.3em]">
-                                <ActionButton t={t} press={TRIO.add} done={TRIO.added} label={s.addToCart} doneLabel={s.added} />
-                            </span>
-                        </div>
-                    </div>
-                </PhoneFrame>
-            </Pop>
+                    </Pop>
+                </TrioFloat>
+
+                {/* The order, confirmed: the phone's notification, out under the cart. */}
+                <TrioFloat wide={{ x: 24.6, y: 16.4 }} narrow={{ x: 3.2, y: 9.4 }} w={13} nw={12.5}>
+                    <Pop show={on(t, TRIO_AT.paid)} from="up">
+                        <PhoneNotification title={s.ordered} body={money(locale, 150, 2)} />
+                    </Pop>
+                </TrioFloat>
+            </TrioStage>
         </>
     );
 }
@@ -555,7 +572,7 @@ function CheckoutScene({ t, labels, locale }: Props) {
 /* ---------------------------------------------------------------------------------------------- */
 
 const SCENES = {
-    trio: { Scene: TrioScene, duration: 4400, board: { cols: 40, rows: 27 }, k: 0.6 },
+    trio: { Scene: TrioScene, duration: 4400, ...TRIO },
     quick: { Scene: QuickScene, duration: 3800, ...SOLO },
     admin: { Scene: AdminScene, duration: 3900 },
     product: { Scene: ProductScene, duration: 3800, ...SOLO },
