@@ -196,7 +196,11 @@ function initScrub(): () => void {
                     x: gsap.quickSetter(el, "x", "px") as (value: number) => void,
                     y: gsap.quickSetter(el, "y", "px") as (value: number) => void,
                     rotation: gsap.quickSetter(el, "rotation", "deg") as (value: number) => void,
-                    scale: gsap.quickSetter(el, "scale") as (value: number) => void,
+                    // `scale` is an alias GSAP's quickSetter cannot take: it falls back to
+                    // setAttribute("scaleX,scaleY"), which Safari rejects with an error on every
+                    // frame, and ScrollTrigger's refresh with it. Chrome lets it pass.
+                    scaleX: gsap.quickSetter(el, "scaleX") as (value: number) => void,
+                    scaleY: gsap.quickSetter(el, "scaleY") as (value: number) => void,
                     opacity: gsap.quickSetter(el, "opacity") as (value: number) => void,
                 },
             }));
@@ -226,7 +230,9 @@ function initScrub(): () => void {
                 body.set.x(r * Math.cos(a) - r0 * Math.cos(a0));
                 body.set.y(r * Math.sin(a) - r0 * Math.sin(a0));
                 body.set.rotation(body.tilt * (1 - smooth(0, 0.8, p)));
-                body.set.scale(body.depth * (1 - 0.7 * smooth(0.45, 1, p)));
+                const scale = body.depth * (1 - 0.7 * smooth(0.45, 1, p));
+                body.set.scaleX(scale);
+                body.set.scaleY(scale);
                 body.set.opacity(1 - smooth(0.72, 1, p));
             };
 
@@ -471,7 +477,7 @@ function settleAfterNavigation() {
     let replayed = false;
     const again = () => {
         syncReveals();
-        if (!reduceMotion()) ScrollTrigger.refresh();
+        if (!reduceMotion()) safely("refresh", () => ScrollTrigger.refresh(), undefined);
         if (!navigated || replayed) return;
         replayed = true;
         document.querySelectorAll<HTMLElement>(".ds-intro").forEach((el) => {
@@ -497,19 +503,35 @@ function settleAfterNavigation() {
     };
 }
 
+/**
+ * Runs one part, so that a part that fails — an engine that rejects what another accepts, as
+ * Safari once did here — cannot take the others down with it. The ClientRouter keeps this module
+ * alive across pages: a throw while tearing one page down used to leave `teardown` pointing at the
+ * old page, and the next page's `init` stopped on it before setting anything up.
+ */
+function safely<T>(label: string, run: () => T, fallback: T): T {
+    try {
+        return run();
+    } catch (error) {
+        console.error(`[ds-motion] ${label}`, error);
+        return fallback;
+    }
+}
+
 function init() {
     teardown?.();
+    const none = () => {};
     const cleanups = [
-        initReveal(),
-        initCountUp(),
-        initScrub(),
-        initScrollFades(),
-        initWhatsAppInvert(),
-        settleAfterNavigation(),
+        safely("reveal", initReveal, none),
+        safely("count-up", initCountUp, none),
+        safely("scrub", initScrub, none),
+        safely("scroll fades", initScrollFades, none),
+        safely("whatsapp", initWhatsAppInvert, none),
+        safely("settle", settleAfterNavigation, none),
     ];
     teardown = () => {
-        cleanups.forEach((cleanup) => cleanup());
         teardown = null;
+        cleanups.forEach((cleanup) => safely("teardown", cleanup, undefined));
     };
 }
 
