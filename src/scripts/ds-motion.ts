@@ -116,6 +116,7 @@ function initScrub(): () => void {
     if (reduceMotion()) return () => {};
     gsap.registerPlugin(ScrollTrigger);
 
+    const expandCleanups: (() => void)[] = [];
     const ctx = gsap.context(() => {
         // The hero's composition arrives a little small and low and settles as the page scrolls.
         // Flat on purpose: a 3D transform (a tilt) on an ancestor of frosted glass cuts the glass
@@ -260,30 +261,79 @@ function initScrub(): () => void {
             timeline.to({}, { duration: 0.55 });
         });
 
+        // Not ScrollTrigger. Its start/end use a `100vh` probe and the window scroll position, which
+        // on a real iPhone disagree with the visible screen: the address bar changes the viewport,
+        // and `overflow-x: clip` on `<html>` makes Safari scroll a different box than Chrome. Device
+        // mode in DevTools is still desktop Chrome, so the ground grows there and stays inset on the
+        // phone. Measuring the section against the visual viewport matches what the reader sees.
+        // Insets, not width: a `translate: -50%` used to centre it, and Safari clips that layer
+        // instead of recentering it as the width changes, so the growth never reached the edges.
         document.querySelectorAll<HTMLElement>("[data-expand]").forEach((root) => {
             const ground = root.querySelector<HTMLElement>("[data-expand-ground]");
             if (!ground) return;
-            const constrained = () => Math.min(1200, root.offsetWidth - 32);
-            gsap.fromTo(
-                ground,
-                { width: () => constrained(), borderRadius: 40 },
-                {
-                    width: () => root.offsetWidth,
-                    borderRadius: 0,
-                    ease: "none",
-                    scrollTrigger: {
-                        trigger: root,
-                        start: "top 85%",
-                        end: "top 20%",
-                        scrub: 0.6,
-                        invalidateOnRefresh: true,
-                    },
+
+            let target = 0;
+            let current = 0;
+            let primed = false;
+            let watching = true;
+            const observer = new IntersectionObserver(
+                ([entry]) => {
+                    watching = entry?.isIntersecting ?? false;
                 },
+                { rootMargin: "100% 0px" },
             );
+            observer.observe(root);
+
+            const apply = (p: number) => {
+                const full = root.offsetWidth;
+                const startWidth = Math.min(1200, Math.max(0, full - 32));
+                const inset = ((full - startWidth) / 2) * (1 - p);
+                ground.style.left = `${inset}px`;
+                ground.style.right = `${inset}px`;
+                ground.style.width = "auto";
+                ground.style.marginLeft = "0";
+                ground.style.marginRight = "0";
+                ground.style.translate = "none";
+                ground.style.borderRadius = `${40 * (1 - p)}px`;
+            };
+
+            const tick = (_time: number, deltaMs: number) => {
+                if (!watching && Math.abs(target - current) < 0.001) return;
+                const vh = window.visualViewport?.height ?? window.innerHeight;
+                const start = vh * 0.85;
+                const end = vh * 0.2;
+                const next = (start - root.getBoundingClientRect().top) / (start - end);
+                target = Math.min(1, Math.max(0, next));
+                if (!primed) {
+                    current = target;
+                    primed = true;
+                } else {
+                    const dt = Math.max(0, deltaMs) / 1000;
+                    current += (target - current) * (1 - Math.exp(-dt / 0.6));
+                    if (Math.abs(target - current) < 0.001) current = target;
+                }
+                apply(current);
+            };
+
+            gsap.ticker.add(tick);
+            expandCleanups.push(() => {
+                observer.disconnect();
+                gsap.ticker.remove(tick);
+                ground.style.left = "";
+                ground.style.right = "";
+                ground.style.width = "";
+                ground.style.marginLeft = "";
+                ground.style.marginRight = "";
+                ground.style.translate = "";
+                ground.style.borderRadius = "";
+            });
         });
     });
 
-    return () => ctx.revert();
+    return () => {
+        expandCleanups.forEach((cleanup) => cleanup());
+        ctx.revert();
+    };
 }
 
 /**

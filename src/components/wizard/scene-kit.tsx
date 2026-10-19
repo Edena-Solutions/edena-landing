@@ -1,4 +1,4 @@
-import type { CSSProperties, ReactNode } from "react";
+import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from "react";
 import type { LucideIcon } from "lucide-react";
 
 import { cn } from "@/lib/utils";
@@ -159,8 +159,8 @@ export function smoothPoint(points: [number, number][], p: number): [number, num
 
 /**
  * The artboard (32 × 24 em unless a scene asks for another shape), fitted inside the stage below its controls
- * whatever the stage's shape: the outer box is a size container, the board takes the largest box of
- * its proportions that fits, and its font-size is a `cols`-th of its own width.
+ * whatever the stage's shape: the frame is measured, the board takes the largest box of its proportions
+ * that fits, and its font-size is a `cols`-th of that width.
  *
  * Below `minRem` the board stops shrinking and the stage crops it instead, centred on `focus` (0 is
  * its left edge, 1 its right) — on a phone the product stays legible, the way Apple crops a
@@ -181,24 +181,56 @@ export function Artboard({
     focus?: number;
     minRem?: number;
 }) {
-    const width = `max(min(100cqw, ${((100 * cols) / rows).toFixed(3)}cqh, 50rem), ${minRem}rem)`;
+    const frameRef = useRef<HTMLDivElement>(null);
+    const [box, setBox] = useState<{ width: number; left: number; top: number } | null>(null);
+
+    useEffect(() => {
+        const frame = frameRef.current;
+        if (!frame) return;
+
+        // `cqh` is 0 on iOS Safari when the box is only stretched with `top` and `bottom`, so the
+        // board never scaled up. Chrome's device mode resolves it, which is why the emulator looked
+        // right. The frame's real box is the same number on both.
+        const measure = () => {
+            const container = frame.clientWidth;
+            const height = frame.clientHeight;
+            if (container <= 0 || height <= 0) return;
+            const fitted = Math.min(container, (height * cols) / rows, 50 * 16);
+            const width = Math.max(fitted, minRem * 16);
+            const slack = container - width;
+            const left = slack >= 0 ? slack / 2 : Math.min(0, Math.max(slack, container / 2 - focus * width));
+            const top = (height - (width * rows) / cols) / 2;
+            setBox((prev) =>
+                prev &&
+                Math.abs(prev.width - width) < 0.5 &&
+                Math.abs(prev.left - left) < 0.5 &&
+                Math.abs(prev.top - top) < 0.5
+                    ? prev
+                    : { width, left, top },
+            );
+        };
+
+        measure();
+        const observer = new ResizeObserver(measure);
+        observer.observe(frame);
+        return () => observer.disconnect();
+    }, [cols, rows, focus, minRem]);
+
     return (
-        <div className="absolute inset-x-3 bottom-3 top-14 [container-type:size] sm:inset-x-8 sm:bottom-8 sm:top-16">
+        <div ref={frameRef} className="absolute inset-x-3 bottom-3 top-14 sm:inset-x-8 sm:bottom-8 sm:top-16">
             <div
-                className="absolute top-1/2 -translate-y-1/2 [container-type:inline-size]"
+                aria-hidden
+                className={cn("absolute select-none text-ink", className)}
                 style={{
-                    ["--w" as string]: width,
-                    width: "var(--w)",
-                    left: `calc(clamp(min(0px, 100cqw - var(--w)), 50cqw - ${focus} * var(--w), 0px) + max(0px, (100cqw - var(--w)) / 2))`,
+                    width: box?.width ?? 0,
+                    left: box?.left ?? 0,
+                    top: box?.top ?? 0,
+                    fontSize: box ? box.width / cols : 0,
+                    aspectRatio: `${cols} / ${rows}`,
+                    visibility: box ? "visible" : "hidden",
                 }}
             >
-                <div
-                    aria-hidden
-                    className={cn("relative select-none text-ink", className)}
-                    style={{ fontSize: `calc(100cqw / ${cols})`, aspectRatio: `${cols} / ${rows}` }}
-                >
-                    {children}
-                </div>
+                {children}
             </div>
         </div>
     );
