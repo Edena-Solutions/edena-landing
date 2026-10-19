@@ -26,9 +26,11 @@ interface LinkGroup {
 interface Props {
     className?: string;
     lang: string;
+    /** Per-language link for pages whose path differs by language (a blog post's translations). */
+    languageHrefs?: Record<string, string>;
 }
 
-const { lang, className } = Astro.props;
+const { lang, className, languageHrefs } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 // Canonical locale paths: Spanish lives unprefixed at the root.
 const p = (path: string) => localePath(lang, path);
@@ -176,7 +178,7 @@ const currentYear = new Date().getFullYear();
                     languages.map((code) => (
                         <li>
                             <a
-                                href={localePath(code, pathWithoutLang)}
+                                href={languageHrefs?.[code] ?? localePath(code, pathWithoutLang)}
                                 hreflang={code === "eus" ? "eu" : code}
                                 aria-current={code === lang ? "true" : undefined}
                             >

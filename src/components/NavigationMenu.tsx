@@ -161,6 +161,8 @@ interface Props {
     className?: string;
     lang: string;
     premium?: boolean;
+    /** Per-language link for pages whose path differs by language (a blog post's translations). */
+    languageHrefs?: Record<string, string>;
 }
 
 const Logo = ({ lang, className }: { lang: string; className?: string }) => {
@@ -512,7 +514,7 @@ const MobileMenuSection = ({
     );
 };
 
-const MainNavigationMenu = ({ lang, className, premium }: Props) => {
+const MainNavigationMenu = ({ lang, className, premium, languageHrefs }: Props) => {
     const headerRef = useRef<HTMLElement>(null);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [openMobileSection, setOpenMobileSection] = useState("");
@@ -1006,6 +1008,7 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
                     )}
                     <LanguageSwitcher
                         currentLang={lang}
+                        languageHrefs={languageHrefs}
                         iconButtonClassName={premium ? "ds-nav-icon-btn" : undefined}
                     />
                     <ThemeToggle
@@ -1094,6 +1097,7 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
                                         </p>
                                         <LanguageSwitcher
                                             currentLang={lang}
+                                            languageHrefs={languageHrefs}
                                             className="px-2 pb-2"
                                         />
                                         <div className="ds-nav-setting">
@@ -1181,7 +1185,7 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
                                     <p className="uppercase tracking-widest text-[10px] mb-4 text-muted-foreground">
                                         {t.changeWebsiteLanguage}
                                     </p>
-                                    <LanguageSwitcher currentLang={lang} />
+                                    <LanguageSwitcher currentLang={lang} languageHrefs={languageHrefs} />
                                 </div>
                                 <div className="flex items-center justify-between gap-3 rounded bg-secondary py-1.5 pl-4 pr-1.5">
                                     <span className="text-sm font-medium">{t.appearance}</span>

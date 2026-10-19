@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { getEntry, getCollection } from "astro:content";
 import { ChevronLeft } from "lucide-react";
 import Layout from "@/layouts/main.astro";
@@ -7,6 +8,7 @@ import ArticleSchema from "@/components/StructuredData/Article.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
 import FaqPanel from "@/components/ds/FaqPanel.astro";
 import { LogoMark } from "@/components/wizard/app-frame";
+import enaLogo from "@/assets/img/logos/ena.png";
 import HomeMotion from "@/modules/home/HomeMotion.astro";
 import ClosingCta from "@/modules/home/ClosingCta.astro";
 import RelatedArticles from "@/modules/blog/RelatedArticles.astro";
@@ -14,7 +16,13 @@ import { homeBreadcrumbName } from "@/lib/breadcrumb";
 import { blogCollectionForLang } from "@/lib/blog-collection";
 import { blogAlternatesFor } from "@/lib/blog-translations";
 import { formatLongDate } from "@/lib/intl-locale";
-import { coverAt, coverSrcset, readingMinutes, renderArticlePart, type ArticleHeading } from "@/lib/blog-article";
+import {
+    coverAt,
+    coverSrcset,
+    readingMinutes,
+    renderArticlePart,
+    type ArticleHeading,
+} from "@/lib/blog-article";
 import { relatedSlugsForPost, splitBeforeConclusion } from "@/lib/blog-related-posts";
 
 /*
@@ -77,14 +85,21 @@ const bySlug = new Map(allPostsInLang.map((p) => [p.slug, p]));
 const related = relatedSlugsForPost(post.data.relatedPosts, post.body)
     .map((relatedSlug) => bySlug.get(relatedSlug))
     .filter((p): p is NonNullable<typeof p> => !!p)
-    .map((p) => ({ href: localePath(lang, `/blog/${p.slug}`), title: p.data.title, cover: p.data.cover, body: p.body }));
+    .map((p) => ({
+        href: localePath(lang, `/blog/${p.slug}`),
+        title: p.data.title,
+        cover: p.data.cover,
+        body: p.body,
+    }));
 
 // The body as HTML with ids on its section headings, the related posts set before the conclusion.
 const { before, conclusion } = splitBeforeConclusion(post.body);
 const seen = new Set<string>(["faqs", "related-articles"]);
 const headings: ArticleHeading[] = [];
 const beforeHtml = renderArticlePart(before, { title: post.data.title, seen, headings });
-const conclusionHtml = conclusion ? renderArticlePart(conclusion, { title: post.data.title, seen, headings }) : "";
+const conclusionHtml = conclusion
+    ? renderArticlePart(conclusion, { title: post.data.title, seen, headings })
+    : "";
 const faqs = post.data.faqs ?? [];
 const toc = [...headings, ...(faqs.length ? [{ id: "faqs", text: t.blog.faqTitle }] : [])];
 
@@ -102,6 +117,8 @@ const coverIsUnsplash = Boolean(post.data.cover?.includes("unsplash.com"));
 const [unsplashCreditBefore, unsplashCreditAfter] = t.blog.unsplashCredit.split("{source}");
 
 const publishedDate = new Date(post.data.date).toISOString();
+const author = post.data.author || "Edena";
+const byEna = /^ena\b/i.test(author);
 ---
 
 <Layout
@@ -119,18 +136,45 @@ const publishedDate = new Date(post.data.date).toISOString();
     <article>
         <header class="relative isolate -mt-15 pt-15">
             <div class="ds-container flex flex-col items-center pt-12 text-center sm:pt-16">
-                <a href={localePath(lang, "/blog/")} class="ds-intro ds-link type-callout font-semibold" style="--intro-i: 0">
+                <a
+                    href={localePath(lang, "/blog/")}
+                    class="ds-intro ds-link type-callout font-semibold"
+                    style="--intro-i: 0"
+                >
                     <ChevronLeft />
                     {t.navigation.blog}
                 </a>
-                <h1 class="ds-intro mt-5 max-w-4xl text-balance pb-1 type-display-2 text-gradient-ink" style="--intro-i: 0">
+                <h1
+                    class="ds-intro mt-5 max-w-4xl text-balance pb-1 type-display-2 text-gradient-ink"
+                    style="--intro-i: 0"
+                >
                     {post.data.title}
                 </h1>
-                <p class="ds-intro mt-6 max-w-2xl type-lead text-ink-2" style="--intro-i: 1">{post.data.description}</p>
+                <p class="ds-intro mt-6 max-w-2xl type-lead text-ink-2" style="--intro-i: 1">
+                    {post.data.description}
+                </p>
                 <div class="ds-intro mt-8 flex items-center gap-3 text-left" style="--intro-i: 2">
-                    <LogoMark className="size-10 shrink-0 text-ink" />
+                    <span
+                        class="relative grid size-11 shrink-0 place-items-center overflow-hidden rounded-full bg-canvas-2 shadow-[inset_0_0_0_1px_var(--ds-hairline)]"
+                    >
+                        {
+                            byEna ? (
+                                <Image
+                                    src={enaLogo}
+                                    alt=""
+                                    width={400}
+                                    height={400}
+                                    quality={90}
+                                    loading="eager"
+                                    class="absolute top-[8%] left-1/2 h-auto w-[168%] max-w-none -translate-x-1/2"
+                                />
+                            ) : (
+                                <LogoMark className="size-6 text-ink" />
+                            )
+                        }
+                    </span>
                     <span class="flex flex-col">
-                        <span class="type-callout font-semibold text-ink">{post.data.author || "Edena"}</span>
+                        <span class="type-callout font-semibold text-ink">{author}</span>
                         <span class="type-footnote text-ink-3">
                             <time datetime={post.data.date}>{published}</time> | {minutes}
                         </span>
@@ -162,7 +206,9 @@ const publishedDate = new Date(post.data.date).toISOString();
                     toc.length > 1 && (
                         <nav class="hidden lg:block" aria-label={t.blogPage.onThisArticle}>
                             <div class="sticky top-24 flex max-h-[calc(100vh-8rem)] flex-col gap-3 overflow-y-auto pb-4">
-                                <p class="type-footnote font-semibold text-ink-3">{t.blogPage.onThisArticle}</p>
+                                <p class="type-footnote font-semibold text-ink-3">
+                                    {t.blogPage.onThisArticle}
+                                </p>
                                 <ol class="m-0 flex list-none flex-col gap-0.5 p-0" data-post-toc>
                                     {toc.map((item) => (
                                         <li>
@@ -205,7 +251,9 @@ const publishedDate = new Date(post.data.date).toISOString();
                     {
                         faqs.length > 0 && (
                             <section id="faqs" class="post-faqs">
-                                <h2 class="type-title-2 font-semibold text-ink">{t.blog.faqTitle}</h2>
+                                <h2 class="type-title-2 font-semibold text-ink">
+                                    {t.blog.faqTitle}
+                                </h2>
                                 <FaqPanel items={faqs} name="post-faqs" class="mt-6" />
                             </section>
                         )
@@ -218,7 +266,15 @@ const publishedDate = new Date(post.data.date).toISOString();
                                 <>
                                     {" "}
                                     {unsplashCreditBefore}
-                                    <a href="https://unsplash.com" class="underline underline-offset-2 hover:text-ink-2" rel="noopener noreferrer" target="_blank">Unsplash</a>{unsplashCreditAfter}
+                                    <a
+                                        href="https://unsplash.com"
+                                        class="underline underline-offset-2 hover:text-ink-2"
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                    >
+                                        Unsplash
+                                    </a>
+                                    {unsplashCreditAfter}
                                 </>
                             )
                         }
@@ -259,21 +315,30 @@ const publishedDate = new Date(post.data.date).toISOString();
     function watchPostToc() {
         const links = [...document.querySelectorAll<HTMLAnchorElement>("[data-post-toc] a")];
         if (!links.length) return;
-        const targets = links.map((link) => document.getElementById(link.hash.slice(1))).filter((el): el is HTMLElement => !!el);
+        const targets = links
+            .map((link) => document.getElementById(link.hash.slice(1)))
+            .filter((el): el is HTMLElement => !!el);
         let frame = 0;
         const update = () => {
             frame = 0;
             const line = window.innerHeight * 0.25;
             let current = targets[0];
-            for (const target of targets) if (target.getBoundingClientRect().top <= line) current = target;
-            links.forEach((link) => link.toggleAttribute("aria-current", link.hash === `#${current?.id}`));
+            for (const target of targets)
+                if (target.getBoundingClientRect().top <= line) current = target;
+            links.forEach((link) =>
+                link.toggleAttribute("aria-current", link.hash === `#${current?.id}`),
+            );
         };
         const onScroll = () => {
             if (!frame) frame = requestAnimationFrame(update);
         };
         update();
         window.addEventListener("scroll", onScroll, { passive: true });
-        document.addEventListener("astro:before-swap", () => window.removeEventListener("scroll", onScroll), { once: true });
+        document.addEventListener(
+            "astro:before-swap",
+            () => window.removeEventListener("scroll", onScroll),
+            { once: true },
+        );
     }
     document.addEventListener("astro:page-load", watchPostToc);
 </script>

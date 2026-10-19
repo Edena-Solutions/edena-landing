@@ -13,6 +13,11 @@ import { Check, Globe } from "lucide-react";
 interface LanguageSwitcherProps {
     currentLang: string;
     currentPath?: string;
+    /**
+     * Per-language link for pages whose path differs by language: a blog post's slug is translated,
+     * so swapping the prefix would land on a 404.
+     */
+    languageHrefs?: Record<string, string>;
     className?: string;
     /** Desktop icon trigger (e.g. `ds-nav-icon-btn` in premium nav). */
     iconButtonClassName?: string;
@@ -52,6 +57,7 @@ function LangFlag({ src }: { src: string }) {
 export default function LanguageSwitcher({
     currentLang,
     currentPath,
+    languageHrefs,
     className,
     iconButtonClassName,
 }: LanguageSwitcherProps) {
@@ -69,7 +75,7 @@ export default function LanguageSwitcher({
     }, []);
 
     const createLanguageUrl = (lang: string) => {
-        return localePath(lang, pathWithoutLang);
+        return languageHrefs?.[lang] ?? localePath(lang, pathWithoutLang);
     };
 
     const [isClient, setIsClient] = useState(false);
@@ -85,7 +91,7 @@ export default function LanguageSwitcher({
                     {languages.map((lang) => (
                         <a
                             key={lang}
-                            href={localePath(lang, currentPath || "/")}
+                            href={languageHrefs?.[lang] ?? localePath(lang, currentPath || "/")}
                             className={`inline-flex items-center px-3.5 py-1.5 rounded-full text-sm font-medium ${
                                 currentLang === lang
                                     ? "bg-ink text-canvas"

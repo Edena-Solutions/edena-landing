@@ -6,7 +6,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { ClientRouter } from "astro:transitions";
 import OrganizationSchema from "@/components/StructuredData/Organization.astro";
 import CookieConsentBanner from "@/components/CookieConsentBanner";
-import { translations } from "@/i18n/index.ts";
+import { translations, languages, localePath } from "@/i18n/index.ts";
 import { ogFromAsset } from "@/lib/og-image";
 import defaultOgImage from "@/assets/img/og.jpg";
 
@@ -28,6 +28,19 @@ const { content = {}, lang = "es", alternates = [], design = "classic" } = Astro
 const premium = design === "premium";
 
 const t = translations[lang as keyof typeof translations];
+
+// Blog slugs differ per language, so on a post each language links to that post's own translation
+// (from `alternates`), not to the same slug under another prefix, which does not exist. A language
+// with no translation of the post gets its blog index.
+const isBlogPost = /\/blog\/.+/.test(Astro.url.pathname);
+const translatedPaths = new Map(
+ alternates
+ .filter((alt) => alt.hreflang !== "x-default")
+ .map((alt) => [alt.hreflang === "eu" ? "eus" : alt.hreflang, new URL(alt.href).pathname]),
+);
+const languageHrefs = isBlogPost
+ ? Object.fromEntries(languages.map((code) => [code, translatedPaths.get(code) ?? localePath(code, "/blog")]))
+ : undefined;
 
 const title = content.title || t.meta.homeTitle;
 const description = content.description || t.meta.homeDescription;
@@ -276,11 +289,11 @@ const defaultImageAlt =
  document.addEventListener("astro:page-load", pushPageView);
  })();
  </script>
- <MainNavigationMenu client:load lang={lang} premium={premium} className={premium ? "ds-nav" : undefined} />
+ <MainNavigationMenu client:load lang={lang} premium={premium} className={premium ? "ds-nav" : undefined} languageHrefs={languageHrefs} />
  <main class="pt-15 flex-grow w-full max-w-[2000px] mx-auto overflow-x-clip">
  <slot />
  </main>
- <Footer lang={lang} />
+ <Footer lang={lang} languageHrefs={languageHrefs} />
  <WhatsAppButton labels={t.whatsapp} />
  <CookieConsentBanner client:load lang={lang} t={t} />
  </body>
