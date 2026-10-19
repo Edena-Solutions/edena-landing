@@ -60,12 +60,12 @@ const breadcrumbs = [
         <BreadcrumbListSchema items={breadcrumbs} lang={lang} />
     </Fragment>
     <HomeMotion />
-    <PageHero
-        eyebrow={t.navigation.pricing}
-        eyebrowHref={localePath(lang, "/pricing")}
-        title={t.pricing.centers.title}
-        description={t.pricing.centers.description}
+    <PageHero title={t.pricing.centers.title} description={t.pricing.centers.description} />
+    <CentersPricing
+        t={t}
+        lang={lang}
+        demoUrl={localizedDemoPath(lang)}
+        registerUrl={REGISTER_URL}
     />
-    <CentersPricing t={t} lang={lang} demoUrl={localizedDemoPath(lang)} registerUrl={REGISTER_URL} />
     <ClosingCta lang={lang} />
 </Layout>

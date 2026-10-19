@@ -3,7 +3,7 @@ export default {
     loginButton: "Access",
     registerButton: "Try for free",
     registerButtonExtended: "30-day free trial",
-    noCreditCardRequired: "No credit card required | Cancel anytime",
+    noCreditCardRequired: "No credit card required · Cancel anytime",
     downloadTheApp: "Download Free App",
     changeWebsiteLanguage: "Select language",
     appearance: "Appearance",
@@ -665,25 +665,25 @@ export default {
         forFamilies: "For families",
         students: "Student Management",
         studentsDescription:
-            "Complete solution for managing student records, attendance tracking, and academic performance monitoring.",
+            "Digital records, attendance, grades and follow-up for every student in one place.",
         guardians: "Family Portal",
         guardiansDescription:
             "Comprehensive platform for families and guardians to stay connected with their children's education.",
         dashboard: "Analytics Dashboard",
         dashboardDescription:
-            "Real-time insights and metrics to visualize your educational institution's performance and make data-driven decisions.",
+            "Your school's attendance, payments and enrolments in real time, to decide with data.",
         finance: "Billing & Payments",
         financeDescription:
-            "Automated financial management system for billing, payments, budgets, and financial reporting.",
+            "Verifactu billing, SEPA direct debits and arrears control, without chasing payments.",
         app: "Edena App",
         appDescription:
-            "Mobile application designed for families, students, and teachers to access school information on the go.",
+            "The free app for families, students and teachers on iOS and Android.",
         crm: "School CRM",
         crmDescription:
-            "Manage enrollment requests, capture leads and convert inquiries into new families with visual pipeline and customizable forms.",
+            "Enrolment enquiries, forms on your website and a stage-by-stage board to win more students.",
         assignment: "Assignments & Evaluations",
         assignmentDescription:
-            "Plan assignments, evaluation cycles and grade tracking. Automated report cards and family visibility.",
+            "Plan assignments, record grades and generate report cards automatically.",
         pricing: "Pricing",
         pricingAcademies: "Academies",
         pricingAcademiesDescription:
@@ -700,16 +700,16 @@ export default {
         blog: "Blog",
         nurseries: "For Nurseries",
         nurseriesDescription:
-            "Purpose-built for nurseries and infant schools: family communication, daily photo updates, and effortless daily management.",
+            "Digital daily diary, daily photos and automatic billing for nurseries and daycare centres.",
         schools: "For Schools",
         schoolsDescription:
-            "Complete management system for schools, from primary through sixth form: students, grades, attendance, and billing in one place.",
+            "Records, grades, attendance and Verifactu billing for schools, from primary to sixth form.",
         academies: "For Academies",
         academiesDescription:
-            "Management, student acquisition CRM, and automated billing for language, dance, music, and sports academies.",
+            "Automatic billing, a student acquisition CRM and attendance for language, music, dance or sports academies.",
         groups: "For School Groups",
         groupsDescription:
-            "Centralised management for school networks and multi-campus groups from a single unified dashboard.",
+            "Run your whole network of schools from a single dashboard, with centralised billing and reporting.",
     },
     contact: {
         title: "Get in Touch",
@@ -1087,7 +1087,7 @@ export default {
             offlineAccess: {
                 title: "Offline Access and Synchronization",
                 tagline:
-                    "Access academic information without connection with automatic synchronization and encrypted local storage capabilities.",
+                    "Check information offline; once you're back online everything syncs automatically, and data stored on the phone is encrypted.",
             },
             parentPortal: {
                 title: "Mobile Family Portal",
@@ -1113,7 +1113,7 @@ export default {
         familiesFeatures: {
             title: "Everything Families Need",
             tagline:
-                "Tools specifically designed for families to manage their children's education simply and efficiently.",
+                "Grades, receipts, messages, documents and school purchases in an app designed so families have everything at hand.",
             mobileApp: {
                 title: "Free Mobile App",
                 tagline:
@@ -1718,7 +1718,7 @@ export default {
         finance: {
             title: "Frequently Asked Questions about School Financial Management with Edena",
             description:
-                "Find answers to all your questions about invoicing, payments, security, and financial automation in educational centers with Edena. Discover how to optimize your school's financial management.",
+                "Answers about Verifactu billing, payment methods, unpaid receipts and the security of your school's financial data.",
         },
         finance_invoicing_process: "How does the invoicing process work in Edena?",
         finance_invoicing_process_answer:
@@ -1755,7 +1755,7 @@ export default {
         app: {
             title: "Frequently Asked Questions about the Edena Mobile App for Families and Schools",
             description:
-                "Get answers about downloads, notifications, security, features, and support for the Edena app. Enhance communication and the digital experience for your educational community.",
+                "Answers about downloads, notifications, security and features of Edena's school app for families, students and teachers.",
         },
         app_download: "How do I download the Edena app?",
         app_download_answer:
@@ -1790,7 +1790,7 @@ export default {
         assignment: {
             title: "Frequently Asked Questions about Assignment & Evaluation Management",
             description:
-                "Find answers about assignment planning, evaluation cycles, grade tracking and report generation. Optimize academic assessment in your center.",
+                "Answers about planning assignments, grading periods, grades and automatic report cards at your school.",
         },
         assignment_schedule_management: "How does assignment schedule planning work?",
         assignment_schedule_management_answer:
@@ -1816,7 +1816,7 @@ export default {
         dashboard: {
             title: "Frequently Asked Questions about Edena's Control Panel and Analytics",
             description:
-                "Clarify your questions about reports, roles, notifications, integrations, and dashboard security. Manage your school with real-time data and make smart decisions.",
+                "Answers about reports, user roles, notifications, integrations and security in Edena's dashboard.",
         },
         dashboard_real_time_data: "Does the dashboard display real-time data?",
         dashboard_real_time_data_answer:
@@ -1881,9 +1881,9 @@ export default {
         crm_data_security_answer:
             "All data is encrypted and complies with GDPR regulations. Only authorized staff can access request information.",
         students: {
-            title: "Frequently Asked Questions about Student Management in Edena",
+            title: "Frequently Asked Questions About Student Management",
             description:
-                "Discover how Edena streamlines enrollment, academic tracking, family communication, and student data protection. Everything you need to know for efficient student management.",
+                "Answers about enrolment, attendance, records, family communication and protecting your students' data.",
         },
         students_enrollment_process: "How is the student enrollment process carried out?",
         students_enrollment_process_answer:
@@ -2159,18 +2159,18 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             "Visualize the journey of each request: New, Contacted, Qualified, Proposal, Negotiation and Won. Change status with one click and keep the complete activity history.",
         heroRightCardTitle: "Every inquiry is a family waiting to enroll",
         heroRightCardDescription:
-            "Every lead that comes in is a potential family. Book your demo and see how Edena's CRM helps you close more spots without losing track of a single inquiry.",
+            "Reply before anyone else: every enquiry enters the CRM with its source, owner and history, so no place is left empty for lack of follow-up.",
         formsAndPipelineTitle: "From first enquiry to enrolment",
         formsAndPipelineDescription:
             "Pre-enrolment forms on your website and a stage-by-stage board so no family is left without an answer.",
     },
     dashboard: {
-        mainTitle: "Every Metric Your School Needs, Live",
+        mainTitle: "School dashboard: every metric of your school in real time",
         mainDescription:
             "Attendance, billing, enrolments, and communications in one live dashboard, updated in real time. Spot issues before they escalate and make smarter decisions with always-current data.",
         quickActionsTitle: "Quick Actions",
         quickActionsDescription:
-            "Access the most common tasks instantly. Generate invoices, manage calendar events, send invitations, and handle daily operations with just one click.",
+            "Generate invoices, schedule calendar events, send invitations and handle day-to-day tasks in a single click.",
         notificationsTitle: "Instant Notifications",
         notificationsDescription: "Instant alerts when something needs your attention: unpaid fees, absences, new enquiries or upcoming events.",
         calendarDescription:
@@ -2179,7 +2179,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
         realTimeNotificationsExtendedTitle: "Real-Time Notifications",
         realTimeNotificationsExtendedDescription:
             "Everyone in the school community instantly receives the alerts that concern them: events, timetable changes, absences or school announcements.",
-        notificationsAndCalendarTitle: "Integrated Communication",
+        notificationsAndCalendarTitle: "Calendar and alerts, connected",
         notificationsAndCalendarDescription:
             "School calendar and notifications connected: every event you schedule reaches the right people, without sending notices one by one.",
     },
@@ -2187,10 +2187,10 @@ The Platform is hosted in data centres operated by leading infrastructure provid
         mainTitle: "Automated Report Cards. 40% Less Grading Work.",
         mainDescription:
             "Plan assignments, configure evaluation periods, and generate report cards automatically. Families see grades in real time. Teaching teams save hours every week.",
-        scheduleTitle: "Assignment Planning",
+        scheduleTitle: "Assignments with calendar and deadlines",
         scheduleDescription:
             "Schedule assignments by subject, group or period. Calendar view, deadlines and automatic reminders. Teachers and coordinators aligned at all times.",
-        evaluationTitle: "Evaluation Management",
+        evaluationTitle: "Assessments without spreadsheets",
         evaluationDescription:
             "Record grades, configure evaluation cycles and generate report cards automatically. Integrated with student records for complete academic visibility.",
         cyclesAndScoresTitle: "From mark book to report card, with no manual steps",
@@ -2198,7 +2198,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             "Set up your grading periods once and Edena calculates averages, generates report cards and publishes them for families.",
         cyclesTitle: "Grading periods your way",
         cyclesDescription:
-            "Manage trimesters, quarters or custom evaluation periods. Centralized configuration with automatic grade calculation for each period.",
+            "Terms, semesters or whatever periods you use: set them once and every grade is assigned to its assessment automatically.",
         scoresTitle: "Score Cards & Progress",
         scoresDescription:
             "Visual grade tracking by student, subject or group. Weighted averages, rubrics and automated calculations for report cards.",
@@ -2236,10 +2236,10 @@ The Platform is hosted in data centres operated by leading infrastructure provid
         uploadPicturesAndVideosDescription: "Every post, notice or change reaches the right families instantly, based on their child's group.",
         communicateAndGetAlbumsTitle: "Communication & Albums",
         communicateAndGetAlbumsDescription:
-            "Direct communication and photo albums for each student. Send messages and photos to families securely and easily.",
+            "Direct messages and photo albums per student: each family receives their child's photos, sent securely from the app.",
     },
     finance: {
-        automationTitle: "Automation of Processes",
+        automationTitle: "Payments that run themselves",
         automationDescription:
             "Automate invoice generation, billing cycles, and payment tracking to eliminate errors and free up your administrative team.",
         paperlessBillingTitle: "Paperless Billing",
@@ -2891,7 +2891,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             heroRightTitle: "Activities always in view",
             heroRightDescription:
                 "Schedules, monitors and groups organised and accessible for families and staff.",
-            featuresTitle: "Everything you need to manage your activities",
+            featuresTitle: "Everything you need to run your extracurricular activities",
             featuresDescription:
                 "From enrolment to payment, Edena automates every step of your extracurriculars.",
             features: [
@@ -2991,7 +2991,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             navTitle: "Tracking",
             navDescription:
                 "Staff time tracking, daily agenda and internal task follow-up, all connected.",
-            mainTitle: "Your school's day to day, under control",
+            mainTitle: "Time tracking and your school's agenda, without the paperwork",
             mainDescription:
                 "Staff time tracking, a shared daily agenda and internal task follow-up in one platform. Meet labour regulations and coordinate your team without endless email chains.",
             heroLeftTitle: "One-tap clock-in",
@@ -3209,7 +3209,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             navTitle: "Shop",
             navDescription:
                 "Your school's online shop: uniforms, supplies and services with integrated payment.",
-            mainTitle: "Your school's shop, integrated and with no hidden fees",
+            mainTitle: "Your school's online shop, built in and with no hidden fees",
             mainDescription:
                 "Sell uniforms, supplies, meals and extra services from the app families already use. Automatic payments, up-to-date stock and all billing in one place.",
             heroLeftTitle: "Buy in two taps",
@@ -3425,7 +3425,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             navTitle: "Internal Payments",
             navDescription:
                 "School wallet with balances and top-ups to charge for meals, trips and services cashlessly.",
-            mainTitle: "Goodbye to cash at school",
+            mainTitle: "School wallet: goodbye to cash at school",
             mainDescription:
                 "An internal wallet for each family to pay for meals, trips and services in seconds. Online top-ups, real-time balances and full control of every movement.",
             heroLeftTitle: "Cashless payments",
@@ -3542,7 +3542,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             heroLeftTitle: "Your 24/7 assistant",
             heroLeftDescription:
                 "Ask @Ena whatever you need about your school and get instant answers, at any time.",
-            heroRightTitle: "AI automation",
+            heroRightTitle: "Tasks that get done on their own",
             heroRightDescription:
                 "Ena prepares invoices, takes attendance and handles administrative processes for you.",
             featuresTitle: "Fewer repetitive tasks, more time to teach",

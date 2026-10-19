@@ -32,9 +32,12 @@ const PAGE = 12;
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
-const posts = (await getCollection(blogCollectionForLang(lang))).sort((a, b) => b.data.date.localeCompare(a.data.date));
+const posts = (await getCollection(blogCollectionForLang(lang))).sort((a, b) =>
+    b.data.date.localeCompare(a.data.date),
+);
 const [latest, ...rest] = posts;
-const searchText = (post: (typeof posts)[number]) => foldText(`${post.data.title} ${post.data.description} ${(post.data.tags ?? []).join(" ")}`);
+const searchText = (post: (typeof posts)[number]) =>
+    foldText(`${post.data.title} ${post.data.description} ${(post.data.tags ?? []).join(" ")}`);
 ---
 
 <Layout
@@ -46,9 +49,12 @@ const searchText = (post: (typeof posts)[number]) => foldText(`${post.data.title
     design="premium"
 >
     <HomeMotion />
-    <PageHero eyebrow={t.navigation.blog} title={t.blogPage.title} description={t.blog.description}>
+    <PageHero title={t.blogPage.title} description={t.blog.description}>
         <div class="ds-intro mt-10 w-full max-w-xl" style="--intro-i: 2">
-            <SearchField placeholder={t.blogPage.searchPlaceholder} clearLabel={t.blogPage.clearSearch} />
+            <SearchField
+                placeholder={t.blogPage.searchPlaceholder}
+                clearLabel={t.blogPage.clearSearch}
+            />
         </div>
     </PageHero>
 
@@ -62,12 +68,24 @@ const searchText = (post: (typeof posts)[number]) => foldText(`${post.data.title
                 )
             }
 
-            <h2 class="mb-6 mt-16 type-title-2 font-semibold text-ink sm:mt-20" data-blog-heading>{t.blogPage.allArticles}</h2>
-            <ul class="m-0 grid list-none gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3" data-blog-grid data-reveal="rise">
+            <h2 class="mb-6 mt-16 type-title-2 font-semibold text-ink sm:mt-20" data-blog-heading>
+                {t.blogPage.allArticles}
+            </h2>
+            <ul
+                class="m-0 grid list-none gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3"
+                data-blog-grid
+                data-reveal="rise"
+            >
                 {
                     latest && (
                         // The newest post again, for search results only: above, it has its own tile.
-                        <li class="blog-item" data-blog-item data-latest data-search={searchText(latest)} hidden>
+                        <li
+                            class="blog-item"
+                            data-blog-item
+                            data-latest
+                            data-search={searchText(latest)}
+                            hidden
+                        >
                             <BlogCard t={t} lang={lang} post={latest} />
                         </li>
                     )
@@ -87,10 +105,21 @@ const searchText = (post: (typeof posts)[number]) => foldText(`${post.data.title
                 }
             </ul>
 
-            <p class="blog-empty type-body text-ink-2" data-blog-empty data-template={t.blogPage.noResults} hidden></p>
+            <p
+                class="blog-empty type-body text-ink-2"
+                data-blog-empty
+                data-template={t.blogPage.noResults}
+                hidden
+            >
+            </p>
 
             <div class="mt-10 flex justify-center">
-                <button type="button" class="ds-btn ds-btn--secondary ds-btn--lg" data-blog-more hidden={rest.length <= PAGE}>
+                <button
+                    type="button"
+                    class="ds-btn ds-btn--secondary ds-btn--lg"
+                    data-blog-more
+                    hidden={rest.length <= PAGE}
+                >
                     {t.blogPage.loadMore}
                 </button>
             </div>

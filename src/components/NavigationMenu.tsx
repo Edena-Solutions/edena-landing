@@ -659,7 +659,7 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
         {
             title: t.navigation.forFamilies,
             href: p("/families"),
-            description: t.features.appFeatures.tagline,
+            description: t.features.familiesFeatures.tagline,
             icon: HeartHandshake,
             tone: "green",
             group: "audience",

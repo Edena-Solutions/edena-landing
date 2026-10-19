@@ -1,5 +1,10 @@
 ---
-import { BILLING_FLOOR, PACKS, moduleSectionsById, type PlanFeatureSection } from "@/constants/pricing";
+import {
+    BILLING_FLOOR,
+    PACKS,
+    moduleSectionsById,
+    type PlanFeatureSection,
+} from "@/constants/pricing";
 import { translations, localeStaticPaths, localePath, localizedDemoPath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
 import HomeMotion from "@/modules/home/HomeMotion.astro";
@@ -29,7 +34,9 @@ const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 const base = "https://edena.es";
 const pageUrl = `${base}${localePath(lang, "/pricing/academies")}`;
-const sections = moduleSectionsById((t.pricing as { planFeatureSections?: PlanFeatureSection[] }).planFeatureSections ?? []);
+const sections = moduleSectionsById(
+    (t.pricing as { planFeatureSections?: PlanFeatureSection[] }).planFeatureSections ?? [],
+);
 
 /** One offer per pack, priced per enrolled student. */
 const offers = PACKS.map((pack) => ({
@@ -56,7 +63,9 @@ const copy = {
     annualDiscount: t.pricing.calculator.annualDiscount,
     bookDemo: t.bookDemo,
     startNow: t.pricing.startNow,
-    modules: Object.fromEntries(Object.entries(sections).map(([id, section]) => [id, section.title])),
+    modules: Object.fromEntries(
+        Object.entries(sections).map(([id, section]) => [id, section.title]),
+    ),
     tokens: t.pricingPage.tokensPerMonth,
 };
 ---
@@ -81,12 +90,7 @@ const copy = {
         <BreadcrumbListSchema items={breadcrumbs} lang={lang} />
     </Fragment>
     <HomeMotion />
-    <PageHero
-        eyebrow={t.navigation.pricing}
-        eyebrowHref={localePath(lang, "/pricing")}
-        title={t.pricing.packs.title}
-        description={t.pricing.packs.description}
-    >
+    <PageHero title={t.pricing.packs.title} description={t.pricing.packs.description}>
         <p class="ds-intro mt-4 type-footnote text-ink-3" style="--intro-i: 2">
             {t.pricing.packs.minNote.replace("{n}", String(BILLING_FLOOR.academies.value))}
         </p>
@@ -94,7 +98,13 @@ const copy = {
     <section class="ds-section pt-12 sm:pt-16">
         <div class="ds-container flex flex-col gap-4">
             <div data-reveal="rise">
-                <AcademyPacks client:load copy={copy} lang={lang} demoUrl={localizedDemoPath(lang)} registerUrl={REGISTER_URL} />
+                <AcademyPacks
+                    client:load
+                    copy={copy}
+                    lang={lang}
+                    demoUrl={localizedDemoPath(lang)}
+                    registerUrl={REGISTER_URL}
+                />
             </div>
             <div class="mt-6">
                 <PricingNotes t={t} />

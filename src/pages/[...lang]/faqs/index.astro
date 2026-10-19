@@ -26,11 +26,18 @@ const faqEntry = await getEntry("faqs", "faqspage");
 const faqs = faqEntry?.data.faqs ?? [];
 ---
 
-<Layout content={{ title: t.meta.faqsTitle, description: t.meta.faqsDescription }} lang={lang} design="premium">
+<Layout
+    content={{ title: t.meta.faqsTitle, description: t.meta.faqsDescription }}
+    lang={lang}
+    design="premium"
+>
     <HomeMotion />
-    <PageHero eyebrow={t.navigation.faqs} title={t.faqs.title} description={t.faqs.description}>
+    <PageHero title={t.faqs.title} description={t.faqs.description}>
         <div class="ds-intro mt-10 w-full max-w-xl" style="--intro-i: 2">
-            <SearchField placeholder={t.faqsPage.searchPlaceholder} clearLabel={t.faqsPage.clearSearch} />
+            <SearchField
+                placeholder={t.faqsPage.searchPlaceholder}
+                clearLabel={t.faqsPage.clearSearch}
+            />
         </div>
     </PageHero>
     <FaqBrowser t={t} faqs={faqs} />

@@ -27,28 +27,54 @@ const TOPICS = [
         title: f.groupStart,
         icon: Rocket,
         tone: "bg-sys-blue",
-        keys: ["centers_setup_time", "centers_cost_savings", "support_type", "platform_customization", "multiple_centers"],
+        keys: [
+            "centers_setup_time",
+            "centers_cost_savings",
+            "support_type",
+            "platform_customization",
+            "multiple_centers",
+        ],
     },
     {
         id: "billing",
         title: f.groupBilling,
         icon: Receipt,
         tone: "bg-sys-orange",
-        keys: ["verifactu", "finance_verifactu_integration", "billing_management", "finance_automated_billing", "finance_payment_methods", "finance_late_payments"],
+        keys: [
+            "verifactu",
+            "finance_verifactu_integration",
+            "billing_management",
+            "finance_automated_billing",
+            "finance_payment_methods",
+            "finance_late_payments",
+        ],
     },
     {
         id: "families",
         title: f.groupFamilies,
         icon: Smartphone,
         tone: "bg-sys-green",
-        keys: ["mobile_app_features", "app_multiplatform", "parent_onboarding", "parent_dashboard", "guardian_multiple_children", "sending_photos", "extracurricular_activities"],
+        keys: [
+            "mobile_app_features",
+            "app_multiplatform",
+            "parent_onboarding",
+            "parent_dashboard",
+            "guardian_multiple_children",
+            "sending_photos",
+            "extracurricular_activities",
+        ],
     },
     {
         id: "management",
         title: f.groupManagement,
         icon: LayoutDashboard,
         tone: "bg-sys-indigo",
-        keys: ["students_enrollment_process", "center_dashboard", "dashboard_real_time_data", "dashboard_user_roles"],
+        keys: [
+            "students_enrollment_process",
+            "center_dashboard",
+            "dashboard_real_time_data",
+            "dashboard_user_roles",
+        ],
     },
     {
         id: "security",
@@ -63,10 +89,15 @@ const TOPICS = [
 const placed = new Set(TOPICS.flatMap((topic) => topic.keys));
 const topics = TOPICS.map((topic, index) => {
     const keys = [...topic.keys.filter((key) => faqs.some((faq) => faq.question === key))];
-    if (index === 0) keys.push(...faqs.map((faq) => faq.question).filter((key) => !placed.has(key)));
+    if (index === 0)
+        keys.push(...faqs.map((faq) => faq.question).filter((key) => !placed.has(key)));
     const items = keys.map((key) => {
         const faq = faqs.find((entry) => entry.question === key)!;
-        return { id: `q-${key.replaceAll("_", "-")}`, question: text(faq.question), answer: text(faq.answer) };
+        return {
+            id: `q-${key.replaceAll("_", "-")}`,
+            question: text(faq.question),
+            answer: text(faq.answer),
+        };
     });
     return { ...topic, items };
 }).filter((topic) => topic.items.length > 0);
@@ -85,7 +116,12 @@ const topics = TOPICS.map((topic, index) => {
                                 return (
                                     <li data-topic={topic.id}>
                                         <a href={`#${topic.id}`} class="faq-topic">
-                                            <span class:list={["ds-app-icon size-7 rounded-[0.5rem]", topic.tone]}>
+                                            <span
+                                                class:list={[
+                                                    "ds-app-icon size-7 rounded-[0.5rem]",
+                                                    topic.tone,
+                                                ]}
+                                            >
                                                 <Icon className="size-3.5" />
                                             </span>
                                             <span class="flex-1">{topic.title}</span>
@@ -110,7 +146,12 @@ const topics = TOPICS.map((topic, index) => {
                             return (
                                 <li data-topic={topic.id}>
                                     <a href={`#${topic.id}`} class="faq-chip">
-                                        <span class:list={["ds-app-icon size-6 rounded-[0.45rem]", topic.tone]}>
+                                        <span
+                                            class:list={[
+                                                "ds-app-icon size-6 rounded-full",
+                                                topic.tone,
+                                            ]}
+                                        >
                                             <Icon className="size-3" />
                                         </span>
                                         {topic.title}
@@ -132,13 +173,23 @@ const topics = TOPICS.map((topic, index) => {
                                     </span>
                                     {topic.title}
                                 </h2>
-                                <FaqPanel items={topic.items} name={`faq-${topic.id}`} class="mt-5" />
+                                <FaqPanel
+                                    items={topic.items}
+                                    name={`faq-${topic.id}`}
+                                    class="mt-5"
+                                />
                             </section>
                         );
                     })
                 }
 
-                <p class="faq-empty type-body text-ink-2" data-faq-empty data-template={f.noResults} hidden></p>
+                <p
+                    class="faq-empty type-body text-ink-2"
+                    data-faq-empty
+                    data-template={f.noResults}
+                    hidden
+                >
+                </p>
             </div>
         </div>
     </div>
@@ -154,10 +205,12 @@ const topics = TOPICS.map((topic, index) => {
         const clear = document.querySelector<HTMLButtonElement>("[data-search-clear]");
         const empty = root.querySelector<HTMLElement>("[data-faq-empty]");
         const groups = [...root.querySelectorAll<HTMLElement>("[data-faq-group]")];
-        const items = [...root.querySelectorAll<HTMLDetailsElement>("[data-faq-item]")].map((el) => ({
-            el,
-            text: foldText(el.textContent ?? ""),
-        }));
+        const items = [...root.querySelectorAll<HTMLDetailsElement>("[data-faq-item]")].map(
+            (el) => ({
+                el,
+                text: foldText(el.textContent ?? ""),
+            }),
+        );
 
         // Narrow the questions as the query is typed; topics with nothing left step aside.
         const apply = () => {
@@ -169,11 +222,13 @@ const topics = TOPICS.map((topic, index) => {
                 const count = group.querySelectorAll("[data-faq-item]:not([hidden])").length;
                 group.hidden = count === 0;
                 shown += count;
-                root.querySelectorAll<HTMLElement>(`[data-topic="${group.id}"]`).forEach((entry) => {
-                    entry.hidden = count === 0;
-                    const counter = entry.querySelector("[data-topic-count]");
-                    if (counter) counter.textContent = String(count);
-                });
+                root.querySelectorAll<HTMLElement>(`[data-topic="${group.id}"]`).forEach(
+                    (entry) => {
+                        entry.hidden = count === 0;
+                        const counter = entry.querySelector("[data-topic-count]");
+                        if (counter) counter.textContent = String(count);
+                    },
+                );
             });
             if (empty) {
                 empty.hidden = shown > 0;
@@ -197,18 +252,27 @@ const topics = TOPICS.map((topic, index) => {
             const line = window.innerHeight * 0.25;
             const visible = groups.filter((group) => !group.hidden);
             let current = visible[0];
-            for (const group of visible) if (group.getBoundingClientRect().top <= line) current = group;
-            links.forEach((link) => link.toggleAttribute("aria-current", link.hash === `#${current?.id}`));
+            for (const group of visible)
+                if (group.getBoundingClientRect().top <= line) current = group;
+            links.forEach((link) =>
+                link.toggleAttribute("aria-current", link.hash === `#${current?.id}`),
+            );
         }
         const onScroll = () => {
             if (!frame) frame = requestAnimationFrame(update);
         };
         update();
         window.addEventListener("scroll", onScroll, { passive: true });
-        document.addEventListener("astro:before-swap", () => window.removeEventListener("scroll", onScroll), { once: true });
+        document.addEventListener(
+            "astro:before-swap",
+            () => window.removeEventListener("scroll", onScroll),
+            { once: true },
+        );
 
         // A link to one question opens it.
-        const target = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null;
+        const target = location.hash
+            ? document.getElementById(decodeURIComponent(location.hash.slice(1)))
+            : null;
         if (target instanceof HTMLDetailsElement) {
             target.open = true;
             target.scrollIntoView({ block: "center" });
