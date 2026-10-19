@@ -35,7 +35,7 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion";
 import { cn } from "@/lib/utils";
-import logo from "@/assets/img/logos/logo.png";
+import logo from "@/assets/img/logos/logo.svg";
 import enaLogo from "@/assets/img/logos/ena.png";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
