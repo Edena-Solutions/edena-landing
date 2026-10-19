@@ -1,0 +1,287 @@
+---
+import { LOGO_PATH, LOGO_VIEWBOX } from "@/lib/brand";
+import type { Translation } from "@/i18n";
+
+/*
+ * The integrations as data in motion: Edena at the centre, the tools a school already uses either
+ * side of it, and beams of light along the threads between them — what arrives on the left
+ * (messages, mail, the calendar) flows into Edena, and Edena passes it on to the right (Outlook,
+ * Slack, Classroom), one after another, while Edena glows as each comes through. Each tool lights
+ * up as its beam leaves or lands. With reduced motion the threads are drawn and nothing travels.
+ *
+ * Drawn on a 28 × 21 em board; the threads are an SVG in tenths of an em over it.
+ */
+interface Props {
+    t: Translation;
+}
+
+const { t } = Astro.props;
+const { logos } = t.integrationsSection;
+
+const W = 280;
+const H = 210;
+const C = { x: W / 2, y: H / 2 };
+/** Edena's disc and each tool's tile, in tenths of an em. */
+const CORE_R = 27;
+const TILE = 32;
+const COLUMN = 38;
+const ROWS = [38, H / 2, H - 38];
+
+const left = [
+    { src: "https://sinapsis.agency/uploads/images/2026/01/696c9f0aa8cff_c0ca1cb7.png", alt: logos.whatsapp },
+    { src: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg", alt: logos.gmail },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Calendar_icon_%282020%29.svg",
+        alt: logos.googleCalendar,
+    },
+];
+const right = [
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg/960px-Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg.png?_=20251003204701",
+        alt: logos.outlook,
+    },
+    { src: "https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg", alt: logos.slack },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Google_Classroom_Logo.svg/960px-Google_Classroom_Logo.svg.png",
+        alt: "Google Classroom",
+    },
+];
+
+/** The cycle every beam shares, and when each leaves within it: in from the left, out to the right. */
+const CYCLE = 3.6;
+const inDelay = [0, 0.35, 0.7];
+const outDelay = [1.45, 1.8, 2.15];
+
+const gap = 4;
+const inbound = ROWS.map((y, index) => {
+    const x0 = COLUMN + TILE / 2 + gap;
+    const x1 = C.x - CORE_R - gap;
+    const bend = (x1 - x0) * 0.55;
+    return { d: `M${x0} ${y} C${x0 + bend} ${y} ${x1 - bend} ${C.y} ${x1} ${C.y}`, delay: inDelay[index] };
+});
+const outbound = ROWS.map((y, index) => {
+    const x0 = C.x + CORE_R + gap;
+    const x1 = W - COLUMN - TILE / 2 - gap;
+    const bend = (x1 - x0) * 0.55;
+    return { d: `M${x0} ${C.y} C${x0 + bend} ${C.y} ${x1 - bend} ${y} ${x1} ${y}`, delay: outDelay[index] };
+});
+const beams = [...inbound, ...outbound];
+
+const tiles = [
+    ...left.map((logo, index) => ({ ...logo, x: COLUMN, y: ROWS[index], pulse: inDelay[index] })),
+    // A tool on the right lights up as its beam lands, about a third of the way into the cycle.
+    ...right.map((logo, index) => ({ ...logo, x: W - COLUMN, y: ROWS[index], pulse: outDelay[index] + CYCLE * 0.3 })),
+];
+const em = (v: number) => `${v / 10}em`;
+---
+
+<div class="ds-art mx-auto w-full" style="--ds-art-width: 28">
+    <div class="ds-artboard flow" style={`height: ${em(H)}; --cycle: ${CYCLE}s`} aria-label={t.integrationsSection.title}>
+        <!-- The light behind Edena. -->
+        <div
+            aria-hidden="true"
+            class="flow-glow absolute rounded-full blur-[2.2em]"
+            style={`left:${em(C.x - 50)};top:${em(C.y - 50)};width:10em;height:10em;background:var(--ds-brand-gradient)`}
+        >
+        </div>
+
+        <svg class="absolute inset-0 size-full overflow-visible" viewBox={`0 0 ${W} ${H}`} aria-hidden="true">
+            <defs>
+                <linearGradient id="flow-beam-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2={W} y2="0">
+                    <stop offset="0" stop-color="#9AE600"></stop>
+                    <stop offset="0.5" stop-color="#22c55e"></stop>
+                    <stop offset="1" stop-color="#00D492"></stop>
+                </linearGradient>
+                <filter id="flow-beam-glow" x="-20%" y="-50%" width="140%" height="200%">
+                    <feGaussianBlur stdDeviation="2.4"></feGaussianBlur>
+                </filter>
+            </defs>
+            {beams.map((beam) => <path class="flow-thread" d={beam.d} />)}
+            <g filter="url(#flow-beam-glow)" class="flow-beams-glow">
+                {
+                    beams.map((beam) => (
+                        <path class="flow-beam" d={beam.d} pathLength="100" stroke="url(#flow-beam-grad)" style={`--d:${beam.delay}s`} />
+                    ))
+                }
+            </g>
+            {
+                beams.map((beam) => (
+                    <path class="flow-beam flow-beam--core" d={beam.d} pathLength="100" stroke="url(#flow-beam-grad)" style={`--d:${beam.delay}s`} />
+                ))
+            }
+        </svg>
+
+        {
+            tiles.map((tile) => (
+                <span
+                    class="flow-tile"
+                    style={`left:${em(tile.x - TILE / 2)};top:${em(tile.y - TILE / 2)};width:${em(TILE)};height:${em(TILE)};--d:${tile.pulse}s`}
+                >
+                    <img
+                        src={tile.src}
+                        alt={tile.alt}
+                        title={tile.alt}
+                        width="28"
+                        height="28"
+                        loading="lazy"
+                        decoding="async"
+                        class="size-[1.7em] object-contain"
+                    />
+                </span>
+            ))
+        }
+
+        <!-- Edena: the mark, a disc of its own, with a ring that breathes as data passes through. -->
+        <span
+            class="flow-core"
+            style={`left:${em(C.x - CORE_R)};top:${em(C.y - CORE_R)};width:${em(CORE_R * 2)};height:${em(CORE_R * 2)}`}
+        >
+            <svg viewBox={LOGO_VIEWBOX} class="block size-full text-ink" aria-hidden="true">
+                <path fill="currentColor" fill-rule="evenodd" d={LOGO_PATH}></path>
+            </svg>
+        </span>
+    </div>
+</div>
+
+<style>
+    .flow-thread {
+        fill: none;
+        stroke: var(--ds-hairline-strong);
+        stroke-width: 1.1;
+        stroke-linecap: round;
+    }
+
+    /* A beam: a short dash of light that travels the thread once a cycle, then waits. */
+    .flow-beam {
+        fill: none;
+        stroke-width: 2.4;
+        stroke-linecap: round;
+        stroke-dasharray: 16 300;
+        stroke-dashoffset: 16;
+        opacity: 0;
+    }
+
+    .flow-beams-glow .flow-beam {
+        stroke-width: 6;
+    }
+
+    .flow-tile {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.8em;
+        background-color: var(--ds-surface);
+        box-shadow:
+            0 0 0 1px var(--ds-hairline),
+            0 0.6em 1.4em -0.7em rgb(0 0 0 / 0.22);
+    }
+
+    /* A tool lights up as its beam leaves or lands: a ring of the brand's green, out and gone. */
+    .flow-tile::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        box-shadow: 0 0 0 1.5px #22c55e;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .flow-core {
+        position: absolute;
+        border-radius: 999px;
+        background-color: var(--ds-surface);
+        box-shadow:
+            0 0 0 0.45em color-mix(in srgb, var(--ds-surface) 70%, transparent),
+            0 0 0 calc(0.45em + 1px) var(--ds-hairline),
+            0 1.2em 2.4em -1em rgb(0 0 0 / 0.35);
+    }
+
+    .flow-glow {
+        opacity: 0.32;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .flow-beam {
+            animation: flow-beam var(--cycle) cubic-bezier(0.45, 0, 0.25, 1) infinite;
+            animation-delay: var(--d);
+        }
+
+        .flow-tile::after {
+            animation: flow-tile-ping var(--cycle) var(--ease-out-expo) infinite;
+            animation-delay: var(--d);
+        }
+
+        .flow-glow {
+            animation: flow-glow var(--cycle) ease-in-out infinite;
+            animation-delay: 1.1s;
+        }
+
+        .flow-core {
+            animation: flow-core var(--cycle) ease-in-out infinite;
+            animation-delay: 1.1s;
+        }
+    }
+
+    @keyframes flow-beam {
+        0% {
+            stroke-dashoffset: 16;
+            opacity: 0;
+        }
+        4% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 1;
+        }
+        34% {
+            stroke-dashoffset: -100;
+            opacity: 0;
+        }
+        100% {
+            stroke-dashoffset: -100;
+            opacity: 0;
+        }
+    }
+
+    @keyframes flow-tile-ping {
+        0% {
+            opacity: 0.9;
+            transform: scale(1);
+        }
+        22% {
+            opacity: 0;
+            transform: scale(1.32);
+        }
+        100% {
+            opacity: 0;
+            transform: scale(1.32);
+        }
+    }
+
+    @keyframes flow-glow {
+        0%,
+        100% {
+            opacity: 0.26;
+            transform: scale(0.94);
+        }
+        30% {
+            opacity: 0.48;
+            transform: scale(1.06);
+        }
+    }
+
+    @keyframes flow-core {
+        0%,
+        100% {
+            transform: scale(1);
+        }
+        24% {
+            transform: scale(1.045);
+        }
+        42% {
+            transform: scale(1);
+        }
+    }
+</style>
