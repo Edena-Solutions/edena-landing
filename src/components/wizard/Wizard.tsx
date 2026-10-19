@@ -103,7 +103,7 @@ function DemoControls({
             <button
                 type="button"
                 onClick={() => onSpeedChange(speed === 1 ? 2 : 1)}
-                aria-label={`${copy.speed} · ${speed}×`}
+                aria-label={`${copy.speed} | ${speed}×`}
                 title={copy.speed}
                 className={PILL}
             >

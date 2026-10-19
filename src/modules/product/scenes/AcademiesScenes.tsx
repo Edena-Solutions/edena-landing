@@ -100,7 +100,7 @@ function TodayScene({ t, labels, locale }: Props) {
                 <Pop show={on(t, 300)} from="up" className="flex h-full flex-col gap-[0.4em] rounded-[0.9em] p-[0.7em] ds-glass-inner">
                     <span className="mb-[0.2em] flex items-center justify-between">
                         <Caps>
-                            {ac.register} · {ac.classNames[1]}
+                            {ac.register} | {ac.classNames[1]}
                         </Caps>
                         <span className="text-[0.44em] font-semibold tabular-nums text-ink-2">
                             {present}/{PUPILS.length}
@@ -226,7 +226,7 @@ function RatesScene({ t, labels, locale }: Props) {
                                     <span className="truncate text-[0.44em] font-medium">{row.name}</span>
                                     <span className="truncate text-[0.36em] text-ink-3">
                                         {ac.rateNames[row.rate]}
-                                        {index === 3 ? ` · ${ac.rateNames[3]}` : ""}
+                                        {index === 3 ? ` | ${ac.rateNames[3]}` : ""}
                                     </span>
                                 </span>
                                 <span className="text-[0.46em] font-semibold tabular-nums">{money(locale, row.amount, 2)}</span>
@@ -374,7 +374,7 @@ function BundleScene({ t, labels, locale }: Props) {
             {/* The invoice. */}
             <At x={0} y={7.4} w={W} h={13.2}>
                 <Pop show={on(t, 300)} from="up" className="flex h-full flex-col gap-[0.5em] rounded-[0.9em] p-[0.8em] ds-glass-inner">
-                    <Caps>{ac.invoice} · #A-2026-0612</Caps>
+                    <Caps>{ac.invoice} | #A-2026-0612</Caps>
                     {[
                         [ac.rateNames[2], 90],
                         [ac.rateNames[3], -9],

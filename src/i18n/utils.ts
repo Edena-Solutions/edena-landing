@@ -11,9 +11,21 @@ export function getLanguageFromURL(pathname: string): string {
     return defaultLanguage;
 }
 
-/** Book demo (Calendly) lives at /demo (es) and /[lang]/demo for the rest. */
+/** Book demo (Calendly) lives at /demo/ (es) and /[lang]/demo/ for the rest. */
 export function localizedDemoPath(lang: string): string {
-    return lang === defaultLanguage ? "/demo" : `/${lang}/demo`;
+    return localePath(lang, "/demo");
+}
+
+/**
+ * Pages are served from `…/index.html`, so `/schools` answers with a 301 to `/schools/`. Links
+ * end in a slash so they reach the canonical URL directly; files (`.pdf`, `.xml`) keep their name.
+ */
+export function withTrailingSlash(path: string): string {
+    const match = path.match(/^([^?#]*)(.*)$/)!;
+    const [, pathname, rest] = match;
+    const last = pathname.split("/").pop() ?? "";
+    if (pathname.endsWith("/") || last.includes(".")) return path;
+    return `${pathname}/${rest}`;
 }
 
 /**
@@ -21,7 +33,7 @@ export function localizedDemoPath(lang: string): string {
  * every other locale under its /[lang]/ prefix.
  */
 export function localePath(lang: string, path: string): string {
-    const normalized = path.startsWith("/") ? path : `/${path}`;
+    const normalized = withTrailingSlash(path.startsWith("/") ? path : `/${path}`);
     return lang === defaultLanguage ? normalized : `/${lang}${normalized}`;
 }
 

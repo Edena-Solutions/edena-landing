@@ -39,7 +39,9 @@ const organizationSchema = {
               ? "Edena est l'ERP de gestion scolaire pour écoles, académies, crèches et groupes éducatifs. Automatise la facturation, les présences, la communication familiale et les inscriptions sur une seule plateforme."
               : lang === "ca"
                 ? "Edena és l'ERP de gestió escolar per a col·legis, acadèmies, escoles infantils i grups educatius. Automatitza la facturació, l'assistència, la comunicació familiar i les matrícules en una sola plataforma."
-                : "Edena is the school management ERP for schools, academies, nurseries and educational groups. Automates billing, attendance, family communication and enrolments in one platform.",
+                : lang === "eus"
+                  ? "Edena ikastetxe, akademia, haur-eskola eta hezkuntza-taldeetarako eskola-kudeaketako ERPa da. Fakturazioa, asistentzia, familiekiko komunikazioa eta matrikulak plataforma bakarrean automatizatzen ditu."
+                  : "Edena is the school management ERP for schools, academies, nurseries and educational groups. Automates billing, attendance, family communication and enrolments in one platform.",
     foundingDate: "2022",
     address: {
         "@type": "PostalAddress",

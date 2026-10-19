@@ -310,7 +310,7 @@ function QuickScene({ t, labels, locale }: Props) {
                             <span className="text-[0.5em] font-semibold leading-tight">{db.newEvent}</span>
                             <span className="flex items-center gap-[0.3em] text-ink-2">
                                 <CalendarDays className="size-[0.55em]" />
-                                <span className="text-[0.42em] capitalize tabular-nums">{date} · 17:30</span>
+                                <span className="text-[0.42em] capitalize tabular-nums">{date} | 17:30</span>
                             </span>
                             <span className="flex items-center gap-[0.3em] text-green-700 dark:text-green-400">
                                 <Users className="size-[0.55em]" />

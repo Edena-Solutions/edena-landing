@@ -3,7 +3,7 @@ export default {
     loginButton: "Accéder",
     registerButton: "Essai de 30 jours",
     registerButtonExtended: "Essai gratuit 30 jours",
-    noCreditCardRequired: "Sans carte bancaire · Annulez quand vous voulez",
+    noCreditCardRequired: "Sans carte bancaire | Annulez quand vous voulez",
     downloadTheApp: "Téléchargez l’app gratuite",
     changeWebsiteLanguage: "Choisir la langue",
     appearance: "Apparence",
@@ -157,7 +157,7 @@ export default {
         now: "maintenant",
         minutesAgo: "il y a {n} min",
         invoicesTitle: "Factures d'octobre envoyées",
-        invoicesBody: "847 familles · registre Verifactu inclus",
+        invoicesBody: "847 familles | registre Verifactu inclus",
         enrolTitle: "3 nouvelles demandes d'inscription",
         enrolBody: "Depuis le formulaire de votre site",
         messageTitle: "María Torres",
@@ -221,7 +221,7 @@ export default {
         students: "élèves",
         allCentres: "Tous les établissements",
         attendanceByCentre: "Présence par établissement",
-        billing: "Facturation de juin · tout le réseau",
+        billing: "Facturation de juin | tout le réseau",
         runBilling: "Facturer le réseau",
         billed: "{n} factures émises",
         series: "Série",
@@ -247,7 +247,7 @@ export default {
         now: "En cours",
         register: "Faire l'appel",
         marked: "{n} sur {total} pointés",
-        familyTold: "Appel enregistré · 1 famille prévenue",
+        familyTold: "Appel enregistré | 1 famille prévenue",
         rates: "Tarifs",
         rateNames: ["Mensuel", "Trimestriel", "Carnet 10 cours", "Remise fratrie"],
         billMonth: "Facturer juin",
@@ -299,7 +299,7 @@ export default {
         reportDetail: "Disponible au téléchargement",
     },
     nurseriesScenes: {
-        group: "Canetons · 1-2 ans",
+        group: "Canetons | 1-2 ans",
         columns: ["Arrivée", "Repas", "Sieste", "Photos"],
         portions: ["Tout", "La moitié", "Un peu"],
         sentTo: "Journée envoyée à {n} familles",
@@ -308,7 +308,7 @@ export default {
         feedDetails: [
             "Arrivée de bonne humeur",
             "A tout mangé",
-            "1 h 35 min · Bien reposée",
+            "1 h 35 min | Bien reposée",
             "3 photos de l'atelier peinture",
         ],
         present: "Présente",
@@ -322,7 +322,7 @@ export default {
         note: "Aujourd'hui elle a dit son premier mot : « eau ». Nous l'avons fêté avec toute la classe !",
     },
     assignmentScenes: {
-        subject: "Catalan · I-3 A",
+        subject: "Catalan | I-3 A",
         columns: ["Examen 1", "Examen 2", "Examen 3", "Projet"],
         finalGrade: "Note finale",
         calculated: "Calculée",
@@ -366,7 +366,7 @@ export default {
         alertItems: [
             "3 prélèvements rejetés ce mois",
             "Nouvelle demande d'inscription",
-            "Absence non justifiée · 5e B",
+            "Absence non justifiée | 5e B",
         ],
         times: ["Maintenant", "Il y a 2 min", "Il y a 5 min", "Il y a 12 min", "Il y a 1 h"],
         notifications: "Notifications",
@@ -380,11 +380,11 @@ export default {
             "Prélèvement rejeté",
         ],
         notifDetails: [
-            "CE2 A · 09:00",
-            "María Torres · 6e",
-            "María García · 731,50 €",
-            "Stage d'été · Lucía García",
-            "Pedro Castro · Prélèvement",
+            "CE2 A | 09:00",
+            "María Torres | 6e",
+            "María García | 731,50 €",
+            "Stage d'été | Lucía García",
+            "Pedro Castro | Prélèvement",
         ],
         quickTitle: "Actions rapides",
         quickActions: [
@@ -399,7 +399,7 @@ export default {
         ],
         upcoming: "Événements à venir",
         noEvents: "Aucun événement",
-        newEvent: "Réunion des parents · 6e",
+        newEvent: "Réunion des parents | 6e",
         notified: "familles prévenues",
         done: "Événement créé et annoncé",
     },
@@ -419,7 +419,7 @@ export default {
         teachers: "Enseignants",
         students: "Élèves",
         room: "Salle",
-        roomName: "Salle 1 · Rez-de-chaussée",
+        roomName: "Salle 1 | Rez-de-chaussée",
         equipment: "Équipement",
         equipmentItems: ["Tableau numérique", "Projecteur", "14 tables", "Ordinateur"],
     },
@@ -530,7 +530,7 @@ export default {
         agendaEvents: [
             "Réunion de cycle",
             "Surveillance de cour",
-            "Cantine · 1er service",
+            "Cantine | 1er service",
             "Conseil des maîtres",
         ],
         newEvent: "Rendez-vous famille",
@@ -712,16 +712,16 @@ export default {
         readsByClass: "Lectures par classe",
     },
     meta: {
-        homeTitle: "Logiciel de Gestion Scolaire | ERP Éducatif · Edena",
+        homeTitle: "Logiciel de Gestion Scolaire | ERP Éducatif | Edena",
         homeDescription:
             "Logiciel de gestion scolaire avec facturation Verifactu, présences, dossiers, CRM d'inscriptions et appli pour les familles. Sans engagement, démo gratuite.",
-        pricingAcademiesTitle: "Tarifs pour Académies | Packs dès 0,60 € par élève · Edena",
+        pricingAcademiesTitle: "Tarifs pour Académies | Packs dès 0,60 € par élève | Edena",
         pricingAcademiesDescription:
             "Packs tout compris pour académies : communication, finances ou tout inclus. Prix par élève, sans frais d'ouverture ni engagement. Essai gratuit 30 jours.",
-        pricingCentersTitle: "Tarifs pour Établissements Scolaires | Dès 36 €/mois · Edena",
+        pricingCentersTitle: "Tarifs pour Établissements Scolaires | Dès 36 €/mois | Edena",
         pricingCentersDescription:
             "Plateforme modulaire pour écoles, crèches et groupes scolaires dès 36 € par mois. Activez uniquement les modules dont vous avez besoin et payez par élève.",
-        pricingTitle: "Tarifs | Logiciel de Gestion Scolaire dès 36 €/mois · Edena",
+        pricingTitle: "Tarifs | Logiciel de Gestion Scolaire dès 36 €/mois | Edena",
         pricingDescription:
             "Paiement par élève, sans frais d’ouverture ni engagement. À partir de 36 €/mois avec dossier numérique, présences et portail familles. Essai gratuit 30 jours.",
         faqsTitle: "Questions Fréquentes sur Edena | Gestion Scolaire",
@@ -730,22 +730,22 @@ export default {
         dashboardTitle: "Tableau de bord scolaire | Analytique en temps réel | Edena",
         dashboardDescription:
             "Présences, encaissements, inscriptions et communications dans un tableau de bord scolaire mis à jour en temps réel. Repérez les problèmes tôt et décidez.",
-        studentsTitle: "Logiciel de Gestion des Élèves | Dossiers et Notes · Edena",
+        studentsTitle: "Logiciel de Gestion des Élèves | Dossiers et Notes | Edena",
         studentsDescription:
             "Dossiers numériques, suivi des présences, notes et bulletins automatiques dans un seul logiciel de gestion des élèves. Moins de paperasse dès le premier jour.",
-        appTitle: "App pour Familles et Enseignants | iOS et Android · Edena",
+        appTitle: "App pour Familles et Enseignants | iOS et Android | Edena",
         appDescription:
             "Appli scolaire gratuite pour familles et enseignants sur iOS et Android : notifications, photos sécurisées, signature de documents, notes et factures.",
-        demoTitle: "Démo Gratuite du Logiciel de Gestion Scolaire · Edena",
+        demoTitle: "Démo Gratuite du Logiciel de Gestion Scolaire | Edena",
         demoDescription:
             "Une démo de 15 minutes, préparée pour votre école, votre crèche, votre académie ou votre groupe. Sans engagement.",
-        financeTitle: "Facturation Scolaire | Verifactu et SEPA · Edena",
+        financeTitle: "Facturation Scolaire | Verifactu et SEPA | Edena",
         financeDescription:
             "Facturation scolaire automatique adaptée à Verifactu : reçus, prélèvements SEPA et suivi des impayés en temps réel. Votre équipe cesse de courir après les paiements.",
         guardiansTitle: "Portail familles pour écoles | Communication école-famille | Edena",
         guardiansDescription:
             "Offrez aux familles un accès en temps réel aux notes, présences, factures et actualités de l’établissement. Messagerie sécurisée et signature électronique de documents. Intégration des familles en quelques minutes.",
-        familiesTitle: "Portail Familles | Notes, Factures et Paiements · Edena",
+        familiesTitle: "Portail Familles | Notes, Factures et Paiements | Edena",
         familiesDescription:
             "Toute la vie scolaire dans une appli gratuite : notes, factures, messages, photos et boutique de l'établissement. Plusieurs enfants sur un seul compte.",
         centersTitle: "Plateforme Intégrale pour Établissements Scolaires | ERP Éducatif | Edena",
@@ -754,7 +754,7 @@ export default {
         crmTitle: "CRM Scolaire | Convertissez les Demandes en Inscriptions | Edena",
         crmDescription:
             "CRM scolaire pour les admissions : recevez les demandes depuis votre site, suivez chaque famille par étapes et transformez plus de demandes en inscriptions.",
-        assignmentTitle: "Évaluations et Bulletins de Notes Automatiques · Edena",
+        assignmentTitle: "Évaluations et Bulletins de Notes Automatiques | Edena",
         assignmentDescription:
             "Planifiez les devoirs, configurez les périodes d'évaluation et générez les bulletins automatiquement. Les familles voient les notes en temps réel.",
         privacyTitle: "Politique de confidentialité | Logiciel de gestion scolaire Edena",
@@ -778,36 +778,58 @@ export default {
         nurseryTitle: "Logiciel pour Crèches et Écoles Maternelles | Edena",
         nurseryDescription:
             "Logiciel de gestion pour crèches et écoles maternelles : agenda numérique, communication quotidienne avec les familles, photos sécurisées et facturation.",
-        schoolsTitle: "Logiciel pour Écoles | Gestion Scolaire et Verifactu · Edena",
+        schoolsTitle: "Logiciel pour Écoles | Gestion Scolaire et Verifactu | Edena",
         schoolsDescription:
             "Logiciel de gestion pour écoles, de la maternelle au lycée : dossiers, notes, présences, facturation et communication avec les familles sur une seule plateforme.",
-        academiesTitle: "Logiciel pour Académies | Encaissements et CRM · Edena",
+        academiesTitle: "Logiciel pour Académies | Encaissements et CRM | Edena",
         academiesDescription:
             "Logiciel pour académies de langues, musique, danse et sport : paiements automatiques, CRM de prospection, suivi des présences et appli pour les familles.",
-        groupsTitle: "Gestion Multi-Sites pour Groupes Éducatifs · Edena",
+        groupsTitle: "Gestion Multi-Sites pour Groupes Éducatifs | Edena",
         groupsDescription:
             "Pilotez tout votre réseau d'établissements depuis un seul tableau de bord : facturation centralisée, rapports consolidés et mêmes processus partout.",
         contactTitle: "Contact | Edena - Logiciel de gestion scolaire",
         contactDescription:
             "Parlez à l'équipe Edena de notre logiciel de gestion scolaire : tarifs, Verifactu, migration des données ou démo pour votre établissement.",
-        blogTitle: "Blog Gestion Scolaire | Guides pour Établissements · Edena",
+        blogTitle: "Blog Gestion Scolaire | Guides pour Établissements | Edena",
         blogDescription:
             "Guides pratiques sur la gestion scolaire, Verifactu, les paiements, les inscriptions, la communication avec les familles et l'IA pour écoles et académies.",
     },
     hero: {
-        mainTitle: "Administrez, facturez et écrivez aux familles depuis le même endroit",
+        eyebrow: "Logiciel de gestion pour établissements scolaires",
+        mainTitle: "Administrez votre établissement, facturez et écrivez aux familles depuis le même endroit",
         mainDescription:
-            "Au secrétariat, on inscrit, on fait l'appel et on encaisse avec Verifactu. Les établissements déjà sur Edena gagnent plus de 37 heures par semaine.",
+            "Écoles, crèches et académies inscrivent, font l'appel et encaissent avec Verifactu depuis Edena. Chez Gimbebe, le secrétariat gagne 37 heures par semaine.",
         demoNote: "15 minutes, sur un établissement comme le vôtre.",
         pathsLabel: "Selon l'établissement",
-        mobileTitle: "L'avis arrive sur le téléphone de la famille",
+        mobileTitle: "L'avis arrive sur le téléphone de chaque famille",
         mobileDescription:
-            "Photos, messages et changements d'horaire partent d'Edena. L'équipe ne les renvoie pas sur WhatsApp.",
+            "Photos, circulaires et changements d'horaire partent d'Edena vers l'appli gratuite des familles, sur iOS et Android.",
         orgTitle: "Zéro papier en 30 jours, migration incluse",
         orgDescription:
             "Réduisez les coûts opérationnels de 25 % avec le système de gestion scolaire entièrement numérique d'Edena. Migration des données, intégration des familles et formation de l'équipe, tout pris en charge par nos soins.",
         verifactuReady: "Adapté à Verifactu (AEAT)",
         appScreens: ["Horaires", "Publications", "Mur", "Classes", "Boutique"],
+    },
+    /** What each product page is, set small above its headline inside the H1. */
+    pageEyebrows: {
+        schools: "Logiciel pour écoles",
+        nurseries: "Logiciel pour crèches",
+        academies: "Logiciel pour académies",
+        groups: "Gestion multi-sites pour groupes scolaires",
+        app: "Appli scolaire pour familles et enseignants",
+        assignment: "Bulletins et évaluations",
+        communication: "Communication scolaire",
+        crm: "CRM scolaire des admissions",
+        dashboard: "Tableau de bord scolaire",
+        extracurricular: "Gestion du périscolaire",
+        families: "Portail des familles",
+        internalPayments: "Porte-monnaie scolaire",
+        students: "Gestion des élèves",
+        tracking: "Pointage du personnel",
+        workflows: "Automatisations pour établissements scolaires",
+        ena: "Ena, l'IA d'Edena pour les établissements scolaires",
+        finance: "Facturation Verifactu et prélèvements SEPA",
+        shop: "Vente d'uniformes et de fournitures scolaires",
     },
     setup: {
         title: "Opérationnel en 2 semaines, avec une équipe qui vous accompagne à chaque étape",
@@ -1040,9 +1062,9 @@ export default {
         },
     },
     features: {
-        title: "Ce que l'établissement ouvre chaque semaine",
+        title: "Les modules les plus utilisés par un établissement",
         description:
-            "Les dossiers, l'appli, le tableau de bord, les familles, le réseau et les bulletins.",
+            "Dossiers, appli, tableau de bord, portail des familles, multi-sites et bulletins. Activez seulement ceux dont vous avez besoin.",
         digitalRecords: {
             title: "Dossiers numériques",
             tagline:
@@ -1408,7 +1430,7 @@ export default {
         },
         keyFeaturesTabsTitle: "Six tâches que le secrétariat arrête de faire à la main",
         keyFeaturesTabsDescription:
-            "Chacune, telle que le secrétariat la voit une fois qu'elle est faite.",
+            "Voici l'appli, le tableau de bord, la facturation, les bulletins et les inscriptions dans Edena.",
         keyFeaturesTabsGoToFeature: "Voir le résultat",
         keyFeaturesTabs: [
             {
@@ -1445,9 +1467,9 @@ export default {
     },
     enaSection: {
         badge: "Ena",
-        title: "Ena laisse la facture, l'avis et l'appel prêts à relire",
+        title: "Ena, l'IA d'Edena, prépare les factures, les avis et les listes d'appel",
         description:
-            "Vous le demandez dans Edena. Quelqu'un de l'établissement vérifie et envoie.",
+            "Elle travaille avec les données de votre établissement. Quelqu'un de l'équipe vérifie avant l'envoi.",
         cards: {
             agent: {
                 label: "@Ena Agent",
@@ -1495,7 +1517,7 @@ export default {
     wallOfFeatures: {
         title: "De l'inscription à l'encaissement, sans ouvrir un autre programme",
         description:
-            "Le dossier, la facture Verifactu et l'appli des familles utilisent la même donnée.",
+            "Dossiers, facturation Verifactu, communication et appli des familles travaillent sur les mêmes données de l'élève.",
         main: {
             students: {
                 name: "Gestion des Élèves",
@@ -2243,7 +2265,7 @@ export default {
             "Tous les établissements ont la même assistance : par e-mail et par chat, incluse dans le prix. L'équipe prend aussi en charge la migration des données et la formation initiale.",
         centers_cost_savings: "Combien mon établissement peut-il économiser avec Edena ?",
         centers_cost_savings_answer:
-            "Dans les établissements déjà sur Edena, l'administration récupère plus de 37 heures par semaine sur des tâches qui se répétaient à la main, et l'inscription d'une famille ne prend plus plusieurs jours.",
+            "Chez Gimbebe, le secrétariat gagne 37 heures par semaine sur des tâches qui se répétaient à la main. Dans les établissements sur Edena, l'inscription d'une famille ne prend plus plusieurs jours.",
         crm_custom_stages: "Puis-je adapter les étapes à mon processus d’admission ?",
         crm_custom_stages_answer:
             "Oui. Les étapes de départ s’adaptent au processus de votre établissement : vous pouvez les renommer ou les ajuster. Le changement de statut reste un clic et chaque mouvement reste dans l’historique.",
@@ -2975,7 +2997,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
     erpStats: {
         title: "Dans les établissements qui utilisent déjà Edena",
         description:
-            "Données agrégées d'écoles, d'académies et de crèches qui ont numérisé leur gestion avec Edena.",
+            "Résultats d'écoles, d'académies et de crèches qui travaillent déjà avec Edena.",
         cases: [
             {
                 stat: "37 h",
@@ -3016,7 +3038,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         relatedTitle: "Articles connexes",
         ctaTitle: "Rejoignez les établissements qui travaillent déjà sans paperasse",
         ctaDescription:
-            "Établissements utilisent Edena pour économiser plus de 37 heures par semaine sur les tâches administratives. Découvrez comment ça fonctionne avec une démo gratuite adaptée à votre type d’établissement.",
+            "Chez Gimbebe, Edena fait gagner 37 heures par semaine sur les tâches administratives. Découvrez comment ça fonctionne avec une démo gratuite adaptée à votre type d’établissement.",
         aiDisclaimer:
             "Ce contenu a été généré par Ena, l'agent d'intelligence artificielle d'Edena. Il peut contenir des erreurs ou des inexactitudes et ne constitue pas un conseil juridique, fiscal ou professionnel. Edena ne garantit ni l'exactitude, ni l'exhaustivité, ni l'actualité des informations. Consultez les sources officielles et, le cas échéant, un professionnel qualifié avant toute décision.",
         unsplashCredit: "L'image de couverture provient d'{source}.",
@@ -3145,7 +3167,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
     },
     productModules: {
         extracurricular: {
-            metaTitle: "Activités Périscolaires | Inscriptions et Paiements · Edena",
+            metaTitle: "Activités Périscolaires | Inscriptions et Paiements | Edena",
             metaDescription:
                 "Gérez les activités périscolaires de votre établissement : inscriptions en ligne, gestion des places, listes de présence et paiements automatiques.",
             navTitle: "Périscolaire",
@@ -3255,7 +3277,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             ],
         },
         tracking: {
-            metaTitle: "Suivi du Temps et Coordination Interne pour Écoles · Edena",
+            metaTitle: "Suivi du Temps et Coordination Interne pour Écoles | Edena",
             metaDescription:
                 "Pointage du personnel, agenda quotidien et tâches internes de l'établissement dans un seul outil. Respectez la réglementation sans feuilles de pointage.",
             navTitle: "Tracking",
@@ -3365,7 +3387,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             ],
         },
         workflows: {
-            metaTitle: "Automatisation pour Établissements Scolaires · Edena",
+            metaTitle: "Automatisation pour Établissements Scolaires | Edena",
             metaDescription:
                 "Automatisez rappels, communiqués, paiements et parcours d'inscription avec un éditeur visuel, sans coder. Gagnez des heures chaque semaine.",
             navTitle: "Automatisations",
@@ -3476,7 +3498,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             ],
         },
         shop: {
-            metaTitle: "Boutique en Ligne pour Écoles | Uniformes et Fournitures · Edena",
+            metaTitle: "Boutique en Ligne pour Écoles | Uniformes et Fournitures | Edena",
             metaDescription:
                 "Vendez uniformes, fournitures et services depuis une boutique en ligne intégrée à l'appli de votre établissement. Paiements automatiques, sans frais cachés.",
             navTitle: "Shop",
@@ -3586,7 +3608,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             ],
         },
         communication: {
-            metaTitle: "Communication Scolaire | Messagerie et Circulaires · Edena",
+            metaTitle: "Communication Scolaire | Messagerie et Circulaires | Edena",
             metaDescription:
                 "Messagerie sécurisée, circulaires avec accusé de lecture, notifications et mur de l'établissement dans une seule appli. Chaque famille reçoit chaque message.",
             navTitle: "Communication",
@@ -3697,7 +3719,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             ],
         },
         internalPayments: {
-            metaTitle: "Porte-Monnaie Scolaire | Cantine et Sorties · Edena",
+            metaTitle: "Porte-Monnaie Scolaire | Cantine et Sorties | Edena",
             metaDescription:
                 "Un porte-monnaie scolaire pour chaque famille : rechargements en ligne, soldes en temps réel et paiements de cantine, sorties et services. Fini les espèces.",
             navTitle: "Paiements Internes",
@@ -3806,7 +3828,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             ],
         },
         ena: {
-            metaTitle: "Ena | IA pour la Gestion de votre Établissement · Edena",
+            metaTitle: "Ena | IA pour la Gestion de votre Établissement | Edena",
             metaDescription:
                 "Ena, l'IA d'Edena : génère les factures, rédige les communiqués, fait l'appel et répond à toute votre organisation. L'intelligence artificielle pour l'école.",
             navTitle: "Ena",
@@ -3926,7 +3948,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         scoreCaption: "Points sur {n} critères clés. Inclus compte 1 ; partiel, 0,5.",
         scoreLink: "Voir le détail",
         edenaTagline: "Facture, dossier et familles",
-        edenaMeta: "Dès 36 €/mois · 30 jours gratuits",
+        edenaMeta: "Dès 36 €/mois | 30 jours gratuits",
         scoreSr: "Score : Edena {a} sur {n} ; {name} {b} sur {n}.",
         morePrevious: "Précédents",
         moreNext: "Suivants",
@@ -4017,10 +4039,10 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         trademarks:
             "Les marques citées appartiennent à leurs propriétaires respectifs, qui ne sont pas associés à Edena et ne parrainent pas ce comparatif.",
         hub: {
-            metaTitle: "Edena vs alternatives : comparatif de logiciels scolaires · Edena",
+            metaTitle: "Edena vs alternatives : comparatif de logiciels scolaires | Edena",
             metaDescription:
                 "Edena face à TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia et Dinantia : 17 critères comparés avec des sources publiques. Chaque critère, avec sa source.",
-            eyebrow: "Comparatifs",
+            eyebrow: "Comparatif de logiciels scolaires",
             title: "Le dossier, la facture et l'avis, face à sept plateformes",
             description:
                 "Nous mettons Edena face aux sept plateformes auxquelles il est le plus souvent comparé par les crèches, écoles et académies en Espagne. 17 critères, des sources publiques et une date de vérification. Sans petits caractères.",
@@ -4043,8 +4065,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         competitors: {
             tokapp: {
                 tagline: "Appli de communication et de paiements",
-                owner: "TokApp Online S.L. · Vigo",
-                metaTitle: "Edena vs TokApp | Dossier et Verifactu · Edena",
+                owner: "TokApp Online S.L. | Vigo",
+                metaTitle: "Edena vs TokApp : comparatif de communication scolaire",
                 metaDescription:
                     "Edena face à TokApp : communication, facturation VERI*FACTU, prélèvements SEPA, CRM des admissions, prix et essai gratuit. 17 critères, avec sources.",
                 headline: "Le dossier et la facture Verifactu, à côté de l'avis",
@@ -4105,7 +4127,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             clickedu: {
                 tagline: "Plateforme de gestion académique pour écoles",
                 owner: "Sanoma Learning",
-                metaTitle: "Edena vs Clickedu | Inscription et facture · Edena",
+                metaTitle: "Edena vs Clickedu : comparatif de gestion scolaire",
                 metaDescription:
                     "Edena face à Clickedu : gestion académique, facturation, CRM des admissions, IA, prix et essai gratuit. 17 critères comparés avec des sources publiques.",
                 headline: "La demande d'inscription et la facture, avec le prix sur le site",
@@ -4170,8 +4192,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             },
             livekid: {
                 tagline: "Appli de gestion pour crèches",
-                owner: "LiveKid · Cracovie et Barcelone",
-                metaTitle: "Edena vs LiveKid | Agenda et l'établissement suivant · Edena",
+                owner: "LiveKid | Cracovie et Barcelone",
+                metaTitle: "Edena vs LiveKid : comparatif de logiciels pour crèches",
                 metaDescription:
                     "Edena face à LiveKid pour les crèches : cahier de liaison numérique, facturation VERI*FACTU, CRM des admissions, IA et prix. 17 critères, avec sources.",
                 headline: "L'agenda de l'enfant, et l'établissement suivant quand vous l'ouvrez",
@@ -4235,7 +4257,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             educamos: {
                 tagline: "Plateforme éducative du groupe SM",
                 owner: "Groupe SM",
-                metaTitle: "Edena vs SM Educamos | Facture et inscription · Edena",
+                metaTitle: "Edena vs SM Educamos : comparatif de gestion scolaire",
                 metaDescription:
                     "Edena face à SM Educamos : gestion, facturation VERI*FACTU, CRM des admissions, IA, prix et mise en route. 17 critères, avec des sources publiques.",
                 headline: "La facture, l'inscription et l'avis partent du secrétariat",
@@ -4299,7 +4321,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             alexia: {
                 tagline: "Suite de gestion scolaire d’Educaria",
                 owner: "Educaria",
-                metaTitle: "Edena vs Alexia | Prix public et 30 jours · Edena",
+                metaTitle: "Edena vs Alexia : comparatif de gestion scolaire",
                 metaDescription:
                     "Edena face à Alexia (Educaria) : facturation, CRM des admissions, IA, automatisations, prix et essai gratuit. 17 critères comparés avec des sources publiques.",
                 headline: "Le prix est sur le site, vous essayez 30 jours, et vous êtes en marche en deux semaines",
@@ -4366,7 +4388,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             esemtia: {
                 tagline: "Plateforme de gestion éducative d’Edebé",
                 owner: "Groupe Edebé",
-                metaTitle: "Edena vs Esemtia | Encaissements et inscriptions · Edena",
+                metaTitle: "Edena vs Esemtia : comparatif de gestion scolaire",
                 metaDescription:
                     "Edena face à Esemtia (Edebé) : facturation, CRM des admissions intégré, IA, automatisations, prix et essai gratuit. 17 critères, avec des sources publiques.",
                 headline: "Vous encaissez, inscrivez et écrivez aux familles depuis le même endroit",
@@ -4429,8 +4451,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             },
             dinantia: {
                 tagline: "Communication, admissions et boutique",
-                owner: "Groupe LiveKid · depuis 2022",
-                metaTitle: "Edena vs Dinantia | Facture Verifactu et dossier · Edena",
+                owner: "Groupe LiveKid | depuis 2022",
+                metaTitle: "Edena vs Dinantia : comparatif de communication scolaire",
                 metaDescription:
                     "Edena face à Dinantia : communication avec les familles, gestion de l’établissement, facturation VERI*FACTU, CRM des admissions et prix. 17 critères, avec sources.",
                 headline: "La facture Verifactu et le dossier, à côté de l'inscription",

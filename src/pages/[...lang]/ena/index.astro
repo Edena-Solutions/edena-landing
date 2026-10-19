@@ -50,7 +50,7 @@ const features = m.features.map((f, i) => ({
     design="premium"
 >
     <HomeMotion />
-    <ProductHero t={t} title={m.mainTitle} description={m.mainDescription} bleed>
+    <ProductHero t={t} eyebrow={t.pageEyebrows.ena} title={m.mainTitle} description={m.mainDescription} bleed>
         <EnaHero slot="visual" t={t} lang={lang} />
     </ProductHero>
     <ProductSplit

@@ -34,7 +34,7 @@ const scoreSr = c.scoreSr
     .replace("{b}", formatScore(rivalScore, lang))
     .replace("{name}", competitor.name)
     .replaceAll("{n}", String(total));
-const rivalSub = `${rival.owner} · ${c.centers.replace("{n}", formatCount(competitor.centers, lang))}`;
+const rivalSub = `${rival.owner} | ${c.centers.replace("{n}", formatCount(competitor.centers, lang))}`;
 ---
 
 <section class="relative isolate -mt-15 overflow-x-clip pt-15">
@@ -46,11 +46,10 @@ const rivalSub = `${rival.owner} · ${c.centers.replace("{n}", formatCount(compe
             </a>
 
             <div class="mx-auto mt-9 flex max-w-3xl flex-col items-center gap-5 sm:mt-12">
-                <p class="ds-intro type-callout font-semibold text-brand-ink" style="--intro-i: 1">
-                    Edena vs {competitor.name}
-                </p>
-                <h1 class="ds-intro type-display-3 text-gradient-ink pb-1" style="--intro-i: 2">
-                    {rival.headline}
+                <!-- "Edena vs …" is part of the heading, so the page's H1 carries the query. -->
+                <h1 class="ds-intro flex flex-col items-center gap-5" style="--intro-i: 1">
+                    <span class="type-callout font-semibold text-brand-ink">Edena vs {competitor.name}</span>
+                    <span class="type-display-3 text-gradient-ink pb-1">{rival.headline}</span>
                 </h1>
                 <p class="ds-intro type-lead max-w-2xl text-ink-2" style="--intro-i: 3">
                     {rival.lead}

@@ -42,7 +42,7 @@ const features = m.features.map((f, i) => ({
     design="premium"
 >
     <HomeMotion />
-    <ProductHero t={t} title={m.mainTitle} description={m.mainDescription} bleed>
+    <ProductHero t={t} eyebrow={t.pageEyebrows.workflows} title={m.mainTitle} description={m.mainDescription} bleed>
         <WorkflowScenes slot="visual" client:visible scene="canvas" labels={labels} locale={locale} />
     </ProductHero>
     <ProductSplit

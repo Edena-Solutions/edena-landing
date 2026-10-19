@@ -28,11 +28,10 @@ const tile = "calc(var(--ring) * 0.58)";
     <div class="ds-container pt-3 sm:pt-6">
         <VsArena class="px-4 pt-9 pb-8 text-center sm:px-12 sm:pt-12 sm:pb-12">
             <div class="mx-auto flex max-w-3xl flex-col items-center gap-5">
-                <p class="ds-intro type-callout font-semibold text-brand-ink" style="--intro-i: 0">
-                    {hub.eyebrow}
-                </p>
-                <h1 class="ds-intro type-display-3 text-gradient-ink pb-1" style="--intro-i: 1">
-                    {hub.title}
+                <!-- The label is part of the heading, so the page's H1 names what it compares. -->
+                <h1 class="ds-intro flex flex-col items-center gap-5" style="--intro-i: 0">
+                    <span class="type-callout font-semibold text-brand-ink">{hub.eyebrow}</span>
+                    <span class="type-display-3 text-gradient-ink pb-1">{hub.title}</span>
                 </h1>
                 <p class="ds-intro type-lead max-w-2xl text-ink-2" style="--intro-i: 2">
                     {hub.description}

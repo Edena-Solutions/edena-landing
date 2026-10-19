@@ -19,7 +19,7 @@ interface Props {
 
 const { t, lang, post, featured = false } = Astro.props;
 const href = localePath(lang, `/blog/${post.slug}`);
-const meta = `${formatLongDate(lang, post.data.date)} · ${t.blogPage.readingTime.replace("{n}", String(readingMinutes(post.body)))}`;
+const meta = `${formatLongDate(lang, post.data.date)} | ${t.blogPage.readingTime.replace("{n}", String(readingMinutes(post.body)))}`;
 const cover = post.data.cover;
 ---
 

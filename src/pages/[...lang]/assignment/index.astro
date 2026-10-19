@@ -76,7 +76,7 @@ const features = [
     design="premium"
 >
     <HomeMotion />
-    <ProductHero t={t} title={t.assignment.mainTitle} description={t.assignment.mainDescription} bleed>
+    <ProductHero t={t} eyebrow={t.pageEyebrows.assignment} title={t.assignment.mainTitle} description={t.assignment.mainDescription} bleed>
         <AssignmentScenes slot="visual" client:visible scene="gradebook" labels={labels} locale={locale} />
     </ProductHero>
     <ProductSplit

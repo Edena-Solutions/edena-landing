@@ -50,11 +50,11 @@ function Amount({ value, locale, className }: { value: number; locale: string; c
 /* ---------------------------------------------------------------------------------------------- */
 
 const FAMILIES = [
-    { name: "García", child: "Lucía · I-3 A", initials: "G", hue: 25, balance: 32.5 },
-    { name: "Puig", child: "Marc · 2.º A", initials: "P", hue: 265, balance: 48.2 },
-    { name: "Etxeberria", child: "Ane · 4.º B", initials: "E", hue: 140, balance: 21 },
-    { name: "Fernández", child: "Hugo · I-3 A", initials: "F", hue: 45, balance: 82.5 },
-    { name: "Castro", child: "Pedro · 6.º A", initials: "C", hue: 205, balance: 15.75 },
+    { name: "García", child: "Lucía | I-3 A", initials: "G", hue: 25, balance: 32.5 },
+    { name: "Puig", child: "Marc | 2.º A", initials: "P", hue: 265, balance: 48.2 },
+    { name: "Etxeberria", child: "Ane | 4.º B", initials: "E", hue: 140, balance: 21 },
+    { name: "Fernández", child: "Hugo | I-3 A", initials: "F", hue: 45, balance: 82.5 },
+    { name: "Castro", child: "Pedro | 6.º A", initials: "C", hue: 205, balance: 15.75 },
 ];
 const MOVES = [
     { at: 1200, family: 0, value: 50, service: -1 },
@@ -380,7 +380,7 @@ function SpendScene({ t, labels, locale }: Props) {
                                             {w.family} {row.family}
                                         </span>
                                         <span className="truncate text-[0.34em] text-ink-3">
-                                            {row.service < 0 ? w.topUp : w.services[row.service]} · {row.time}
+                                            {row.service < 0 ? w.topUp : w.services[row.service]} | {row.time}
                                         </span>
                                     </span>
                                     <Amount value={row.value} locale={locale} className="text-[0.44em] font-semibold" />

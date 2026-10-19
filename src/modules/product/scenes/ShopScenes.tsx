@@ -194,7 +194,7 @@ function TrioScene({ t, labels, locale }: Props) {
                             <ProductArt kind="trousers" className="size-[2.3em] shrink-0 rounded-[0.55em]" />
                             <span className="flex min-w-0 flex-1 flex-col gap-[0.3em]">
                                 <span className="truncate text-[0.42em] font-bold uppercase leading-tight tracking-[0.04em]">{s.products[2]}</span>
-                                <span className="text-[0.38em] tabular-nums leading-none text-ink-2">M · {money(locale, 30, 2)}</span>
+                                <span className="text-[0.38em] tabular-nums leading-none text-ink-2">M | {money(locale, 30, 2)}</span>
                             </span>
                             <span className="flex shrink-0 items-center gap-[0.25em] rounded-full bg-green-500 py-[0.25em] pl-[0.3em] pr-[0.55em] text-white">
                                 <span className="size-[0.7em]">
@@ -505,7 +505,7 @@ function CheckoutScene({ t, labels, locale }: Props) {
                 </span>
                 <span className="flex items-center gap-[0.5em] rounded-[0.6em] bg-fill/70 px-[0.6em] py-[0.45em]">
                     <ProductArt kind="trousers" className="size-[1.6em] shrink-0 rounded-[0.35em]" />
-                    <span className="flex-1 truncate text-[0.44em]">{s.products[2]} · M</span>
+                    <span className="flex-1 truncate text-[0.44em]">{s.products[2]} | M</span>
                     <Caps tone="text-ink-3">{s.stock}</Caps>
                     <Morph
                         show={on(t, CHECKOUT.stock)}

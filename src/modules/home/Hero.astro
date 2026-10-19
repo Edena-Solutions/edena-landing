@@ -1,5 +1,5 @@
 ---
-import { Baby, ChevronRight, Landmark, School } from "lucide-react";
+import { BadgeCheck, Baby, ChevronRight, Landmark, School } from "lucide-react";
 import type { Translation } from "@/i18n";
 import { getLanguageFromURL, localizedDemoPath, useTranslatedPath } from "@/i18n";
 import Button from "@/components/ds/Button.astro";
@@ -26,15 +26,16 @@ const translatePath = useTranslatedPath(lang);
 
 <section class="relative isolate -mt-15 overflow-x-clip pt-15">
     <div class="ds-container flex flex-col items-center pt-14 text-center">
-        <p class="ds-intro mb-4 type-callout font-semibold text-brand-ink" style="--intro-i: 0">
-            {t.hero.verifactuReady}
-        </p>
-        <h1 class="ds-intro type-display-3 max-w-3xl pb-2 text-gradient-ink" style="--intro-i: 1">
-            {
-                t.hero.mainTitle.split("\n").map((line) => (
-                    <span class="block">{line}</span>
-                ))
-            }
+        <!-- What Edena is and who it is for comes first, inside the H1, for a visitor with no context. -->
+        <h1 class="ds-intro max-w-3xl" style="--intro-i: 0">
+            <span class="mb-4 block type-callout font-semibold text-brand-ink">{t.hero.eyebrow}</span>
+            <span class="block type-display-3 pb-2 text-gradient-ink">
+                {
+                    t.hero.mainTitle.split("\n").map((line) => (
+                        <span class="block">{line}</span>
+                    ))
+                }
+            </span>
         </h1>
         <p class="ds-intro type-body mt-5 max-w-2xl text-ink-2" style="--intro-i: 2">
             {t.hero.mainDescription}
@@ -56,8 +57,15 @@ const translatePath = useTranslatedPath(lang);
         <p class="ds-intro type-footnote text-ink-3" style="--intro-i: 4">
             {t.noCreditCardRequired}
         </p>
+        <p
+            class="ds-intro mt-4 inline-flex items-center gap-1.5 type-footnote font-medium text-ink-2"
+            style="--intro-i: 4"
+        >
+            <BadgeCheck className="size-4 shrink-0 text-brand-ink" aria-hidden="true" />
+            {t.hero.verifactuReady}
+        </p>
         <nav
-            class="ds-intro mt-8 hidden flex-wrap items-center justify-center gap-2 md:flex"
+            class="ds-intro mt-8 flex flex-wrap items-center justify-center gap-2"
             aria-label={t.hero.pathsLabel}
             style="--intro-i: 5"
         >

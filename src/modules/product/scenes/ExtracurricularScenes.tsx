@@ -412,7 +412,7 @@ function BrowseScene({ t, labels, locale }: Props) {
                                         <span className="flex min-w-0 flex-1 flex-col gap-[0.25em]">
                                             <span className="truncate text-[0.5em] font-semibold">{x.activityNames[activity.name]}</span>
                                             <span className="truncate text-[0.38em] capitalize text-ink-3">
-                                                {activity.days.map(dayName).join(" · ")} · 16:30
+                                                {activity.days.map(dayName).join(" | ")} | 16:30
                                             </span>
                                             <span className="text-[0.44em] font-medium tabular-nums">{money(locale, activity.price, 0)}</span>
                                         </span>

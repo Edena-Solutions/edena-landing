@@ -1,8 +1,8 @@
 # Edena: ERP de Gestión Escolar
 
-> Edena es una plataforma SaaS de gestión integral para centros educativos: colegios, escuelas infantiles, guarderías, academias y grupos educativos. Automatiza facturación con Verifactu, asistencia, comunicación con familias y matrículas en una sola plataforma. Los centros ahorran más de 37 horas semanales en tareas administrativas.
+> Edena es una plataforma SaaS de gestión integral para centros educativos: colegios, escuelas infantiles, guarderías, academias y grupos educativos. Automatiza facturación con Verifactu, asistencia, comunicación con familias y matrículas en una sola plataforma. En Gimbebe, uno de los centros que la usan, secretaría ahorra 37 horas cada semana.
 
-Edena Software S.L. (Barcelona, España) · https://edena.es
+Edena Software S.L. (Barcelona, España) | https://edena.es
 
 ---
 
@@ -74,9 +74,9 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 
 ---
 
-## Resultados (datos agregados de centros Edena)
+## Resultados en centros Edena
 
-- 37 horas semanales ahorradas en tareas administrativas
+- 37 horas semanales ahorradas en tareas de secretaría en Gimbebe
 - +35% de conversión de matrículas con el CRM y los formularios digitales
 - −75% de tiempo de incorporación de familias con el onboarding digital
 - 98% de familias satisfechas tras digitalizar la gestión y la comunicación
@@ -92,8 +92,8 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
   - Pack Academia 360: 1,00 € por alumno
   - Facturación mínima: 36 € al mes
 - **Centros** (colegios, escuelas infantiles y grupos): desde 36 € al mes. Pago por alumno, con un mínimo de 30 alumnos. El precio cerrado se da en la demostración.
-- Sin cuota de alta · Sin permanencia
-- Prueba gratuita de 30 días · Migración y formación incluidas
+- Sin cuota de alta | Sin permanencia
+- Prueba gratuita de 30 días | Migración y formación incluidas
 - En marcha en 2 semanas
 
 ---

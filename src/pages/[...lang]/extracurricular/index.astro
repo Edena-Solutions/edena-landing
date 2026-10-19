@@ -49,7 +49,7 @@ const features = m.features.map((f, i) => ({
     design="premium"
 >
     <HomeMotion />
-    <ProductHero t={t} title={m.mainTitle} description={m.mainDescription} bleed>
+    <ProductHero t={t} eyebrow={t.pageEyebrows.extracurricular} title={m.mainTitle} description={m.mainDescription} bleed>
         <ExtracurricularScenes slot="visual" client:visible scene="catalog" labels={labels} locale={locale} />
     </ProductHero>
     <ProductSplit

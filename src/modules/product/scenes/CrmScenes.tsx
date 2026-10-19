@@ -474,7 +474,7 @@ function EnquiryScene({ t, labels }: Props) {
                                     <Avatar initials={lead.initials} hue={lead.hue} size={1.25} />
                                     <span className="flex min-w-0 flex-1 flex-col gap-[0.2em]">
                                         <span className="truncate text-[0.46em] font-medium">{lead.name}</span>
-                                        {isNew && <span className="truncate text-[0.36em] text-ink-3">{p.formName} · {p.formOptions[1]}</span>}
+                                        {isNew && <span className="truncate text-[0.36em] text-ink-3">{p.formName} | {p.formOptions[1]}</span>}
                                     </span>
                                     <StageTag stages={ui.stages} stage={row.stage} />
                                 </Pop>

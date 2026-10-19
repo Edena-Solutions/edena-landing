@@ -153,7 +153,7 @@ function FamilyScene({ t, labels, locale }: Props) {
                     tab={1}
                     overlay={
                         <Pop show={between(t, 800, 2000)} from="down">
-                            <PhoneNotification title={sc.newMark} body={`${sc.subjects[0]} · ${number(locale, 8.5, 1)}`} />
+                            <PhoneNotification title={sc.newMark} body={`${sc.subjects[0]} | ${number(locale, 8.5, 1)}`} />
                         </Pop>
                     }
                 >
@@ -162,7 +162,7 @@ function FamilyScene({ t, labels, locale }: Props) {
                             <Avatar initials="HF" hue={45} size={1.6} />
                             <span className="flex flex-col gap-[0.15em]">
                                 <span className="text-[0.52em] font-semibold">Hugo Fernández</span>
-                                <span className="text-[0.38em] text-ink-3">4.º B · {sc.tutor}</span>
+                                <span className="text-[0.38em] text-ink-3">4.º B | {sc.tutor}</span>
                             </span>
                         </span>
 

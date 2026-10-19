@@ -81,7 +81,7 @@ const features = [
     design="premium"
 >
     <HomeMotion />
-    <ProductHero t={t} title={t.dashboard.mainTitle} description={t.dashboard.mainDescription} bleed>
+    <ProductHero t={t} eyebrow={t.pageEyebrows.dashboard} title={t.dashboard.mainTitle} description={t.dashboard.mainDescription} bleed>
         <DashboardScenes slot="visual" client:visible scene="overview" labels={labels} locale={locale} />
     </ProductHero>
     <ProductSplit

@@ -15,7 +15,7 @@ import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareAppli
 const lang = "eus";
 const t = translations[lang];
 
-const getPath = (path: string) => `/${lang}/${path}`;
+const getPath = (path: string) => `/${lang}/${path}/`;
 
 const features = [
     {
@@ -51,14 +51,14 @@ const features = [
         title: t.features.staffManagement.title,
         description: t.features.staffManagement.tagline,
         cta: t.features.staffManagement.cta,
-        navigateTo: getPath("dashboard"),
+        navigateTo: getPath("groups"),
     },
     {
         icon: "Calendar",
         title: t.features.calendarIntegration.title,
         description: t.features.calendarIntegration.tagline,
         cta: t.features.calendarIntegration.cta,
-        navigateTo: getPath("dashboard"),
+        navigateTo: getPath("assignment"),
     },
 ];
 ---

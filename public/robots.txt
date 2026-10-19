@@ -1,8 +1,8 @@
 User-agent: *
 Allow: /
 
-# Block build artifacts and internal paths
-Disallow: /_astro/
+# Block internal paths. /_astro/ stays crawlable: it holds the CSS, JS and
+# optimised images Google needs to render and index the pages.
 Disallow: /api/
 Disallow: /.well-known/
 Disallow: /src/
@@ -19,18 +19,27 @@ Disallow: /error
 User-agent: GPTBot
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: ChatGPT-User
 Allow: /
 
 # Anthropic (Claude)
-User-agent: anthropic-ai
+User-agent: ClaudeBot
 Allow: /
 
-User-agent: Claude-Web
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
 Allow: /
 
 # Perplexity
 User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
 Allow: /
 
 # Google (Gemini / AI Overviews)

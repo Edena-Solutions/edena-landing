@@ -80,7 +80,7 @@ const features = [
     design="premium"
 >
     <HomeMotion />
-    <ProductHero t={t} title={t.crm.mainTitle} description={t.crm.mainDescription} bleed>
+    <ProductHero t={t} eyebrow={t.pageEyebrows.crm} title={t.crm.mainTitle} description={t.crm.mainDescription} bleed>
         <CrmScenes slot="visual" client:visible scene="pipeline" labels={labels} locale={locale} />
     </ProductHero>
     <ProductSplit

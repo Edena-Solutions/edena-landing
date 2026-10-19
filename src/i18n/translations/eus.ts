@@ -3,7 +3,7 @@ export default {
     loginButton: "Hasi saioa",
     registerButton: "30 eguneko proba",
     registerButtonExtended: "Proba doan 30 egun",
-    noCreditCardRequired: "Kreditu-txartelik gabe · Bertan behera utzi nahi duzunean",
+    noCreditCardRequired: "Kreditu-txartelik gabe | Bertan behera utzi nahi duzunean",
     downloadTheApp: "Deskargatu doako aplikazioa",
     changeWebsiteLanguage: "Hautatu hizkuntza",
     appearance: "Itxura",
@@ -162,7 +162,7 @@ export default {
         now: "orain",
         minutesAgo: "duela {n} min",
         invoicesTitle: "Urriko fakturak bidalita",
-        invoicesBody: "847 familia · Verifactu erregistroarekin",
+        invoicesBody: "847 familia | Verifactu erregistroarekin",
         enrolTitle: "3 matrikula-eskaera berri",
         enrolBody: "Zure webguneko inprimakitik",
         messageTitle: "María Torres",
@@ -226,7 +226,7 @@ export default {
         students: "ikasle",
         allCentres: "Ikastetxe guztiak",
         attendanceByCentre: "Asistentzia ikastetxeka",
-        billing: "Ekaineko fakturazioa · sare osoa",
+        billing: "Ekaineko fakturazioa | sare osoa",
         runBilling: "Sarea fakturatu",
         billed: "{n} faktura igorrita",
         series: "Seriea",
@@ -251,7 +251,7 @@ export default {
         now: "Orain",
         register: "Zerrenda pasa",
         marked: "{n}/{total} markatuta",
-        familyTold: "Zerrenda gordeta · familia 1 abisatuta",
+        familyTold: "Zerrenda gordeta | familia 1 abisatuta",
         rates: "Tarifak",
         rateNames: ["Hilerokoa", "Hiruhilekoa", "10 eskolako bonua", "Anai-arreben deskontua"],
         billMonth: "Ekaina fakturatu",
@@ -312,7 +312,7 @@ export default {
         reportDetail: "Deskargatzeko prest",
     },
     nurseriesScenes: {
-        group: "Ahatetxoak · 1-2 urte",
+        group: "Ahatetxoak | 1-2 urte",
         columns: ["Iritsiera", "Bazkaria", "Siesta", "Argazkiak"],
         portions: ["Dena", "Erdia", "Gutxi"],
         sentTo: "Agenda {n} familiari bidalita",
@@ -321,7 +321,7 @@ export default {
         feedDetails: [
             "Pozik iritsi da",
             "Dena jan du",
-            "1 h 35 min · Ondo atseden hartu du",
+            "1 h 35 min | Ondo atseden hartu du",
             "Margo tailerreko 3 argazki",
         ],
         present: "Bertan",
@@ -335,7 +335,7 @@ export default {
         note: "Gaur bere lehen hitza esan du: «ura». Gela osoarekin ospatu dugu!",
     },
     assignmentScenes: {
-        subject: "Katalana · I-3 A",
+        subject: "Katalana | I-3 A",
         columns: ["1. azterketa", "2. azterketa", "3. azterketa", "Proiektua"],
         finalGrade: "Azken nota",
         calculated: "Kalkulatua",
@@ -379,7 +379,7 @@ export default {
         alertItems: [
             "3 ordainagiri itzuli hilabete honetan",
             "Matrikula eskaera berria",
-            "Justifikatu gabeko falta · DBH 2 B",
+            "Justifikatu gabeko falta | DBH 2 B",
         ],
         times: ["Orain", "Duela 2 min", "Duela 5 min", "Duela 12 min", "Duela 1 h"],
         notifications: "Jakinarazpenak",
@@ -393,11 +393,11 @@ export default {
             "Ordainagiria itzulita",
         ],
         notifDetails: [
-            "3. A · 09:00",
-            "María Torres · DBH 1",
-            "María García · 731,50 €",
-            "Udako campusa · Lucía García",
-            "Pedro Castro · Helbideratzea",
+            "3. A | 09:00",
+            "María Torres | DBH 1",
+            "María García | 731,50 €",
+            "Udako campusa | Lucía García",
+            "Pedro Castro | Helbideratzea",
         ],
         quickTitle: "Ekintza azkarrak",
         quickActions: [
@@ -412,7 +412,7 @@ export default {
         ],
         upcoming: "Hurrengo gertaerak",
         noEvents: "Ez dago gertaerarik",
-        newEvent: "Familien bilera · DBH 1",
+        newEvent: "Familien bilera | DBH 1",
         notified: "familiari abisatuta",
         done: "Gertaera sortuta eta jakinarazita",
     },
@@ -432,7 +432,7 @@ export default {
         teachers: "Irakasleak",
         students: "Ikasleak",
         room: "Gela",
-        roomName: "1. gela · Beheko solairua",
+        roomName: "1. gela | Beheko solairua",
         equipment: "Ekipamendua",
         equipmentItems: ["Arbel digitala", "Proiektorea", "14 mahai", "Ordenagailua"],
     },
@@ -550,7 +550,7 @@ export default {
         coffee: "Kafea",
         lunch: "Bazkaria",
         todayAgenda: "Gaurko agenda",
-        agendaEvents: ["Ziklo bilera", "Jolastoki zaintza", "Jangela · 1. txanda", "Klaustroa"],
+        agendaEvents: ["Ziklo bilera", "Jolastoki zaintza", "Jangela | 1. txanda", "Klaustroa"],
         newEvent: "Familiarekin tutoretza",
         addedBy: "Zuzendaritzak gehitua",
         timesheet: "Fitxaketa",
@@ -729,16 +729,16 @@ export default {
         readsByClass: "Irakurketak gelaka",
     },
     meta: {
-        homeTitle: "Eskola Kudeaketa Softwarea | Hezkuntza ERPa · Edena",
+        homeTitle: "Eskola Kudeaketa Softwarea | Hezkuntza ERPa | Edena",
         homeDescription:
             "Eskola-kudeaketako softwarea: Verifactu fakturazioa, asistentzia, agiriak, matrikulen CRMa eta familientzako aplikazioa. Iraunkortasunik gabe, demo doakoarekin.",
-        pricingAcademiesTitle: "Akademientzako Prezioak | Packak 0,60 €-tik ikasleko · Edena",
+        pricingAcademiesTitle: "Akademientzako Prezioak | Packak 0,60 €-tik ikasleko | Edena",
         pricingAcademiesDescription:
             "Akademientzako pack itxiak: komunikazioa, finantzak edo dena barne. Prezioa ikasleko, alta kuotarik eta iraunkortasunik gabe. 30 eguneko doako proba.",
-        pricingCentersTitle: "Ikastetxeentzako Prezioak | 36 €/hiletik · Edena",
+        pricingCentersTitle: "Ikastetxeentzako Prezioak | 36 €/hiletik | Edena",
         pricingCentersDescription:
             "Plataforma modularra ikastetxe, haur eskola eta talde hezitzaileentzat, hilean 36 €-tik. Aktibatu behar dituzun moduluak soilik eta ordaindu ikasleko.",
-        pricingTitle: "Prezioak | Eskola Kudeaketa Softwarea 36 €/hiletik · Edena",
+        pricingTitle: "Prezioak | Eskola Kudeaketa Softwarea 36 €/hiletik | Edena",
         pricingDescription:
             "Ikasleko ordainketa, alta-kuotarik eta iraunkortasunik gabe. 36 €/hiletik agiri digitalarekin, asistentziarekin eta familien atariarekin. 30 eguneko proba doakoa.",
         faqsTitle: "Edenari buruzko Galdera Ohikoak | Eskola Kudeaketa",
@@ -747,22 +747,22 @@ export default {
         dashboardTitle: "Eskola kontrol-panela | Analitika denbora errealean | Edena",
         dashboardDescription:
             "Asistentzia, kobrantzak, matrikulak eta komunikazioak berehala eguneratzen den kontrol-panel batean. Detektatu arazoak garaiz eta erabaki datu errealekin.",
-        studentsTitle: "Ikasle-kudeaketa Softwarea | Agiriak eta Notak · Edena",
+        studentsTitle: "Ikasle-kudeaketa Softwarea | Agiriak eta Notak | Edena",
         studentsDescription:
             "Agiri digitalak, asistentzia-kontrola, kalifikazioak eta boletin automatikoak ikasleak kudeatzeko software bakarrean. Paper gutxiago lehen egunetik.",
-        appTitle: "Familia eta Irakasleentzako Aplikazioa | iOS eta Android · Edena",
+        appTitle: "Familia eta Irakasleentzako Aplikazioa | iOS eta Android | Edena",
         appDescription:
             "Familia eta irakasleentzako eskola-aplikazio doakoa iOS eta Androiden: abisuak mugikorrean, argazki seguruak, agirien sinadura, notak eta fakturak.",
-        demoTitle: "Eskola Kudeaketa Softwarearen Demo Doakoa · Edena",
+        demoTitle: "Eskola Kudeaketa Softwarearen Demo Doakoa | Edena",
         demoDescription:
             "15 minutuko erakustaldia, zure ikastetxe, haur-eskola, akademia edo talderako prest. Konpromisorik gabe.",
-        financeTitle: "Eskola Fakturazioa Verifactu-rekin | SEPA Kobrantzak · Edena",
+        financeTitle: "Eskola Fakturazioa Verifactu-rekin | SEPA Kobrantzak | Edena",
         financeDescription:
             "Eskola-fakturazio automatikoa, Verifactu-ra egokitua: ordainagiriak, SEPA zordunketak eta ordainketen kontrola denbora errealean. Zure taldeak kobrantzak pertsegitzeari utziko dio.",
         guardiansTitle: "Ikastetxeetarako familien ataria | Zentro-familia komunikazioa | Edena",
         guardiansDescription:
             "Eman familiei denbora errealean notak, asistentzia, fakturak eta zentroaren berriak ikusteko. Mezularitza segurua eta agiri digitalen sinadura. Familien txertatzea minututan.",
-        familiesTitle: "Familien Ataria | Notak, Fakturak eta Ordainketak · Edena",
+        familiesTitle: "Familien Ataria | Notak, Fakturak eta Ordainketak | Edena",
         familiesDescription:
             "Eskolako guztia aplikazio doako batean: notak, fakturak, mezuak, argazkiak eta ikastetxeko denda. Seme-alaba guztiak kontu bakarrean, edozein gailutatik.",
         centersTitle: "Hezkuntza-Zentroetarako Plataforma Integrala | ERP Hezkuntzakoa | Edena",
@@ -771,7 +771,7 @@ export default {
         crmTitle: "Eskola CRM | Bihurtu Kontsultak Matrikulazioetan | Edena",
         crmDescription:
             "Onarpen eta matrikuletarako eskola-CRMa: jaso eskaerak zure webgunetik, jarraitu familia bakoitza etapaka eta bihurtu kontsulta gehiago ikasle.",
-        assignmentTitle: "Ebaluazioak eta Nota-boletin Automatikoak · Edena",
+        assignmentTitle: "Ebaluazioak eta Nota-boletin Automatikoak | Edena",
         assignmentDescription:
             "Planifikatu zereginak, konfiguratu ebaluazio-zikloak eta sortu nota-boletinak automatikoki. Familiek kalifikazioak denbora errealean ikusten dituzte.",
         privacyTitle: "Pribatutasun-politika | Edena eskola-kudeaketa softwarea",
@@ -795,36 +795,58 @@ export default {
         nurseryTitle: "Haur-eskola eta Haurtzaindegietarako Softwarea | Edena",
         nurseryDescription:
             "Haur-eskoletarako kudeaketa-programa: agenda digitala, familiekin eguneroko komunikazioa, argazki seguruak eta Verifactu fakturazioa.",
-        schoolsTitle: "Ikastetxeetarako Softwarea | Kudeaketa eta Verifactu · Edena",
+        schoolsTitle: "Ikastetxeetarako Softwarea | Kudeaketa eta Verifactu | Edena",
         schoolsDescription:
             "Ikastetxeetarako kudeaketa-softwarea, haur-hezkuntzatik batxilergora eta LHra: agiriak, notak, asistentzia, Verifactu fakturazioa eta familien komunikazioa.",
-        academiesTitle: "Akademientzako Softwarea | Kobrantzak eta CRM · Edena",
+        academiesTitle: "Akademientzako Softwarea | Kobrantzak eta CRM | Edena",
         academiesDescription:
             "Hizkuntza, musika, dantza eta kirol akademientzako softwarea: kobrantza automatikoak, erakartzeko CRMa, asistentzia-kontrola eta familientzako aplikazioa.",
-        groupsTitle: "Multi-Zentro Kudeaketa Hezkuntza-Taldeetarako · Edena",
+        groupsTitle: "Multi-Zentro Kudeaketa Hezkuntza-Taldeetarako | Edena",
         groupsDescription:
             "Kudeatu zure ikastetxe-sare osoa panel bakar batetik: fakturazio zentralizatua, txosten bateratuak eta prozesu berak ikastetxe bakoitzean.",
         contactTitle: "Kontaktua | Edena - Eskola-kudeaketa softwarea",
         contactDescription:
             "Hitz egin Edenaren taldearekin eskola-kudeaketako softwareari buruz: prezioak, Verifactu, datuen migrazioa edo zure ikastetxerako demo bat.",
-        blogTitle: "Eskola Kudeaketa Bloga | Ikastetxeentzako Gidak · Edena",
+        blogTitle: "Eskola Kudeaketa Bloga | Ikastetxeentzako Gidak | Edena",
         blogDescription:
             "Gida praktikoak eskola-kudeaketari, Verifactuari, kobrantzei, matrikulei, familiekiko komunikazioari eta IAri buruz ikastetxe eta akademientzat.",
     },
     hero: {
-        mainTitle: "Administratu, fakturatu eta hitz egin familiekin leku beretik",
+        eyebrow: "Hezkuntza-zentroetarako kudeaketa-softwarea",
+        mainTitle: "Administratu zure zentroa, fakturatu eta hitz egin familiekin leku beretik",
         mainDescription:
-            "Idazkaritzan matrikulatzen da, zerrenda pasatzen da eta Verifacturekin kobratzen da. Edena erabiltzen duten zentroek astean 37 ordu baino gehiago aurrezten dituzte.",
+            "Ikastetxeek, haur-eskolek eta akademiek Edenatik matrikulatzen dute, zerrenda pasatzen dute eta Verifacturekin kobratzen dute. Gimbeben, idazkaritzak 37 ordu aurrezten ditu astero.",
         demoNote: "15 minutu, zurea bezalako zentro batekin.",
         pathsLabel: "Zure zentroaren arabera",
-        mobileTitle: "Abisua familiaren mugikorrera iristen da",
+        mobileTitle: "Abisua familia bakoitzaren mugikorrera iristen da",
         mobileDescription:
-            "Argazkiak, mezuak eta ordutegi-aldaketak Edenatik ateratzen dira. Taldeak ez ditu WhatsAppetik birbidaltzen.",
+            "Argazkiak, zirkularrak eta ordutegi-aldaketak Edenatik familien doako aplikaziora iristen dira, iOSen eta Androiden.",
         orgTitle: "Paperik gabe 30 egunetan, migrazioa barne",
         orgDescription:
             "Murriztu kostu operatiboak %25 Edenaren eskola-kudeaketa sistema erabat digitalarekin. Datuen migrazioa, familien txertatzea eta taldearen prestakuntza, gure kontura.",
         verifactuReady: "Verifactu-ra egokitua (AEAT)",
         appScreens: ["Ordutegiak", "Argitalpenak", "Horma", "Klaseak", "Denda"],
+    },
+    /** What each product page is, set small above its headline inside the H1. */
+    pageEyebrows: {
+        schools: "Ikastetxeetarako softwarea",
+        nurseries: "Haur-eskoletarako softwarea",
+        academies: "Akademietarako softwarea",
+        groups: "Hezkuntza-taldeetarako zentro-sarearen kudeaketa",
+        app: "Familientzako eta irakasleentzako aplikazioa",
+        assignment: "Buletinak eta ebaluazioak",
+        communication: "Eskola-komunikazioa",
+        crm: "Onarpenetarako eskola-CRMa",
+        dashboard: "Eskolako kontrol-panela",
+        extracurricular: "Eskolaz kanpoko jardueren kudeaketa",
+        families: "Familien ataria",
+        internalPayments: "Eskola-diruzorroa",
+        students: "Ikasleen kudeaketa",
+        tracking: "Langileen ordutegi-kontrola",
+        workflows: "Hezkuntza-zentroetarako automatizazioak",
+        ena: "Ena, hezkuntza-zentroetarako Edenaren AA",
+        finance: "Verifactu fakturazioa eta SEPA kobrantzak",
+        shop: "Uniformeen eta eskola-materialaren salmenta",
     },
     setup: {
         title: "Martxan 2 astetan, prozesu osoan lagunduko dizun talde batekin",
@@ -1055,9 +1077,9 @@ export default {
         },
     },
     features: {
-        title: "Zentroak astean irekitzen duena",
+        title: "Zentroek gehien erabiltzen dituzten moduluak",
         description:
-            "Agiriak, aplikazioa, panela, familiak, zentroen sarea eta boletinak.",
+            "Agiriak, aplikazioa, kontrol-panela, familien ataria, zentro anitzak eta boletinak. Aktibatu behar dituzunak bakarrik.",
         digitalRecords: {
             title: "Agiri digitalak",
             tagline:
@@ -1417,7 +1439,7 @@ export default {
             tagline: "Lortu ikuspegi xehatuak zure hezkuntza-zentroaren errendimenduari buruz.",
         },
         keyFeaturesTabsTitle: "Eskuz egiteari uzten zaion sei lan",
-        keyFeaturesTabsDescription: "Bakoitza, idazkaritzak eginda dagoenean ikusten duen bezala.",
+        keyFeaturesTabsDescription: "Horrela geratzen dira Edenan aplikazioa, panela, fakturazioa, boletinak eta matrikulak.",
         keyFeaturesTabsGoToFeature: "Ikusi nola geratzen den",
         keyFeaturesTabs: [
             {
@@ -1452,8 +1474,8 @@ export default {
     },
     enaSection: {
         badge: "Ena",
-        title: "Enak faktura, komunikatua eta zerrenda berrikusteko prest uzten ditu",
-        description: "Edena barruan eskatzen diozu. Zentroko norbaitek begiratu eta bidaltzen du.",
+        title: "Ena, Edenaren AA, fakturak, komunikatuak eta zerrendak prestatzen ditu",
+        description: "Zure zentroko datuekin lan egiten du. Taldeko norbaitek berrikusten du bidali aurretik.",
         cards: {
             agent: {
                 label: "@Ena Agentea",
@@ -1500,7 +1522,7 @@ export default {
     wallOfFeatures: {
         title: "Matrikulatik kobrantzara, beste programa bat ireki gabe",
         description:
-            "Agiriak, Verifactu fakturak eta familien aplikazioak datu bera erabiltzen dute.",
+            "Agiriek, Verifactu fakturazioak, komunikazioak eta familien aplikazioak ikaslearen datu berberak erabiltzen dituzte.",
         main: {
             students: {
                 name: "Ikasle Kudeaketa",
@@ -2236,7 +2258,7 @@ export default {
             "Zentro guztiek laguntza bera dute, posta eta txat bidez, prezioan barne. Gainera, taldeak datuen migrazioa eta hasierako prestakuntza kudeatzen ditu.",
         centers_cost_savings: "Zenbat aurrez dezake nire zentroak Edenarekin?",
         centers_cost_savings_answer:
-            "Edena erabiltzen duten zentroetan, administrazioak astean 37 ordu baino gehiago berreskuratzen ditu eskuz errepikatzen ziren lanetan, eta familia baten altak ez du egun batzuk hartzen.",
+            "Gimbeben, idazkaritzak 37 ordu aurrezten ditu astero eskuz errepikatzen ziren lanetan. Edena erabiltzen duten zentroetan, familia baten altak ez du egun batzuk hartzen.",
         crm_custom_stages: "Etapak nire onarpen-prozesura egokitu ditzaket?",
         crm_custom_stages_answer:
             "Bai. Abiapuntuko etapak zure ikastetxearen prozesura egokitzen dira: izena alda diezaiekezu edo doitu. Egoera aldatzea klik bat izaten jarraitzen du eta mugimendu bakoitza historian geratzen da.",
@@ -2968,7 +2990,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
     erpStats: {
         title: "Edena erabiltzen duten zentroetan",
         description:
-            "Edenarekin kudeaketa digitalizatu duten ikastetxe, akademia eta haur-eskolen datu agregatuak.",
+            "Edenarekin dagoeneko lan egiten duten ikastetxe, akademia eta haur-eskolen emaitzak.",
         cases: [
             {
                 stat: "37 h",
@@ -3009,7 +3031,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         relatedTitle: "Erlazionatutako artikuluak",
         ctaTitle: "Batu paper-lanik gabe lan egiten duten zentroekin",
         ctaDescription:
-            "Zentrok erabiltzen dute Edena administrazio-lanetan astero 37 ordu baino gehiago aurrezteko. Ikusi nola funtzionatzen duen zure zentro-motara egokitutako doako erakustaldi batean.",
+            "Gimbeben 37 ordu aurrezten dituzte astero administrazio-lanetan Edenari esker. Ikusi nola funtzionatzen duen zure zentro-motara egokitutako doako erakustaldi batean.",
         aiDisclaimer:
             "Eduki hau Enak sortu du, Edenaren adimen artifizialeko agenteak. Akatsak edo zehaztugabetasunak izan ditzake eta ez da aholkularitza juridiko, fiskal edo profesionala. Edenak ez du bermaten informazioaren zehaztasuna, osotasuna ez indarraldia. Kontsultatu iturri ofizialak eta, dagokionean, profesional kualifikatu bat edozein erabaki hartu aurretik.",
         unsplashCredit: "Azaleko irudia {source}-etik dator.",
@@ -3138,7 +3160,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
     },
     productModules: {
         extracurricular: {
-            metaTitle: "Eskolaz Kanpoko Jarduerak | Izen-emateak eta Kobrantzak · Edena",
+            metaTitle: "Eskolaz Kanpoko Jarduerak | Izen-emateak eta Kobrantzak | Edena",
             metaDescription:
                 "Kudeatu zure ikastetxeko eskolaz kanpoko jarduerak: online izen-ematea, plazen kontrola, asistentzia-zerrendak eta kobrantza automatikoak.",
             navTitle: "Eskolaz kanpokoak",
@@ -3248,7 +3270,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             ],
         },
         tracking: {
-            metaTitle: "Ordutegi-kontrola eta Barne-jarraipena Zentroentzat · Edena",
+            metaTitle: "Ordutegi-kontrola eta Barne-jarraipena Zentroentzat | Edena",
             metaDescription:
                 "Langileen ordutegi-erregistroa, eguneroko agenda eta barne-zereginak tresna bakarrean. Bete ordutegi-kontrolaren araudia fitxaketa-orririk gabe.",
             navTitle: "Seguimiento",
@@ -3357,7 +3379,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             ],
         },
         workflows: {
-            metaTitle: "Automatizazioa Hezkuntza-zentroentzat | Fluxuak · Edena",
+            metaTitle: "Automatizazioa Hezkuntza-zentroentzat | Fluxuak | Edena",
             metaDescription:
                 "Automatizatu zure ikastetxeko gogorarazleak, komunikatuak, kobrantzak eta matrikula-fluxuak editore bisual batekin, programatu gabe. Aurreztu orduak astero.",
             navTitle: "Automatizazioak",
@@ -3466,7 +3488,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             ],
         },
         shop: {
-            metaTitle: "Lineako Denda Ikastetxeentzat | Uniformeak eta Materiala · Edena",
+            metaTitle: "Lineako Denda Ikastetxeentzat | Uniformeak eta Materiala | Edena",
             metaDescription:
                 "Saldu uniformeak, materiala eta zerbitzuak zure ikastetxeko aplikazioan integratutako online dendatik. Kobrantza automatikoak eta stock eguneratua.",
             navTitle: "Denda",
@@ -3574,7 +3596,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             ],
         },
         communication: {
-            metaTitle: "Eskola-komunikazioa | Mezularitza eta Zirkularrak · Edena",
+            metaTitle: "Eskola-komunikazioa | Mezularitza eta Zirkularrak | Edena",
             metaDescription:
                 "Mezularitza segurua, irakurketa-baieztapena duten zirkularrak, abisuak mugikorrean eta ikastetxeko horma aplikazio bakarrean. Mezu bakar bat ere galdu gabe.",
             navTitle: "Komunikazioa",
@@ -3683,7 +3705,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             ],
         },
         internalPayments: {
-            metaTitle: "Eskola-diruzorroa | Jangela eta Irteeren Ordainketak · Edena",
+            metaTitle: "Eskola-diruzorroa | Jangela eta Irteeren Ordainketak | Edena",
             metaDescription:
                 "Eskola-diruzorroa familia bakoitzarentzat: online kargak, denbora errealeko saldoak eta jangela, irteera eta zerbitzuen kobrantzak. Agur eskudiruari.",
             navTitle: "Barne-ordainketak",
@@ -3792,7 +3814,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             ],
         },
         ena: {
-            metaTitle: "Ena | IA zure Zentroaren Kudeaketarako · Edena",
+            metaTitle: "Ena | IA zure Zentroaren Kudeaketarako | Edena",
             metaDescription:
                 "Ena, Edenaren IA: fakturak sortzen ditu, komunikatuak idazten ditu, zerrenda pasatzen du eta erakunde osoari erantzuten dio. Adimen artifiziala ikastetxeentzat.",
             navTitle: "Ena",
@@ -3911,7 +3933,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         scoreCaption: "Puntuak {n} irizpide nagusitan. Barne dagoenak 1 balio du; partzialak, 0,5.",
         scoreLink: "Ikusi xehetasuna",
         edenaTagline: "Faktura, espedientea eta familiak",
-        edenaMeta: "36 €/hiletik · 30 egun doan",
+        edenaMeta: "36 €/hiletik | 30 egun doan",
         scoreSr: "Puntuazioa: Edena {a}/{n}; {name} {b}/{n}.",
         morePrevious: "Aurrekoak",
         moreNext: "Hurrengoak",
@@ -4002,10 +4024,10 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         trademarks:
             "Aipatutako markak beren titularrenak dira; ez daude Edenarekin lotuta eta ez dute konparazio hau babesten.",
         hub: {
-            metaTitle: "Edena vs alternatibak: eskola-softwareen konparazioa · Edena",
+            metaTitle: "Edena vs alternatibak: eskola-softwareen konparazioa | Edena",
             metaDescription:
                 "Edena TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia eta Dinantiaren aurrean: 17 irizpide iturri publikoekin alderatuta. Irizpide bakoitza, bere iturriarekin.",
-            eyebrow: "Konparazioak",
+            eyebrow: "Eskola-softwareen konparazioa",
             title: "Espedientea, faktura eta abisua, zazpi plataformen aurrean",
             description:
                 "Haur-eskola, ikastetxe eta akademiek Edenarekin gehien alderatzen dituzten zazpi plataformen aurrean jartzen dugu. 17 irizpide, iturri publikoak eta berrikuspen-data. Letra txikirik gabe.",
@@ -4028,8 +4050,8 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         competitors: {
             tokapp: {
                 tagline: "Komunikazio eta kobrantza aplikazioa",
-                owner: "TokApp Online S.L. · Vigo",
-                metaTitle: "Edena vs TokApp | Espedientea eta Verifactu · Edena",
+                owner: "TokApp Online S.L. | Vigo",
+                metaTitle: "Edena vs TokApp: eskola-komunikazioaren konparazioa",
                 metaDescription:
                     "Edena TokAppen aurrean: komunikazioa, VERI*FACTU fakturazioa, SEPA helbideratzeak, matrikulen CRMa, prezioa eta proba doakoa. 17 irizpide, iturriekin.",
                 headline: "Espedientea eta Verifactuko faktura, abisuaren ondoan",
@@ -4090,7 +4112,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             clickedu: {
                 tagline: "Ikastetxeentzako kudeaketa akademikoko plataforma",
                 owner: "Sanoma Learning",
-                metaTitle: "Edena vs Clickedu | Matrikula eta ordainagiria · Edena",
+                metaTitle: "Edena vs Clickedu: eskola-kudeaketaren konparazioa",
                 metaDescription:
                     "Edena Clickeduren aurrean: kudeaketa akademikoa, fakturazioa, matrikulen CRMa, AA, prezioa eta proba doakoa. 17 irizpide iturri publikoekin alderatuta.",
                 headline: "Matrikula-kontsulta eta ordainagiria, prezioa webean",
@@ -4155,8 +4177,8 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             },
             livekid: {
                 tagline: "Haur-eskolentzako kudeaketa aplikazioa",
-                owner: "LiveKid · Krakovia eta Bartzelona",
-                metaTitle: "Edena vs LiveKid | Agenda eta hurrengo zentroa · Edena",
+                owner: "LiveKid | Krakovia eta Bartzelona",
+                metaTitle: "Edena vs LiveKid: haur-eskoletarako softwareen konparazioa",
                 metaDescription:
                     "Edena LiveKiden aurrean haur-eskolentzat: agenda digitala, VERI*FACTU fakturazioa, matrikulen CRMa, AA eta prezioa. 17 irizpide, iturriekin.",
                 headline: "Haurraren agenda, eta hurrengo zentroa irekitzen duzunean",
@@ -4220,7 +4242,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             educamos: {
                 tagline: "SM taldearen hezkuntza-plataforma",
                 owner: "SM Taldea",
-                metaTitle: "Edena vs SM Educamos | Ordainagiria eta matrikula · Edena",
+                metaTitle: "Edena vs SM Educamos: eskola-kudeaketaren konparazioa",
                 metaDescription:
                     "Edena SM Educamosen aurrean: kudeaketa, VERI*FACTU fakturazioa, matrikulen CRMa, AA, prezioa eta abiaraztea. 17 irizpide, iturri publikoekin.",
                 headline: "Ordainagiria, matrikula eta abisua idazkaritzatik ateratzen dira",
@@ -4284,7 +4306,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             alexia: {
                 tagline: "Educariaren eskola-kudeaketa suitea",
                 owner: "Educaria",
-                metaTitle: "Edena vs Alexia | Prezio publikoa eta 30 egun · Edena",
+                metaTitle: "Edena vs Alexia: eskola-kudeaketaren konparazioa",
                 metaDescription:
                     "Edena Alexiaren (Educaria) aurrean: fakturazioa, matrikulen CRMa, AA, automatizazioak, prezioa eta proba doakoa. 17 irizpide iturri publikoekin alderatuta.",
                 headline: "Prezioa webean dago, 30 egunez probatzen duzu eta zentroa bi astetan martxan dago",
@@ -4351,7 +4373,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             esemtia: {
                 tagline: "Edebéren hezkuntza-kudeaketako plataforma",
                 owner: "Edebé Taldea",
-                metaTitle: "Edena vs Esemtia | Kobrantzak eta matrikulak · Edena",
+                metaTitle: "Edena vs Esemtia: eskola-kudeaketaren konparazioa",
                 metaDescription:
                     "Edena Esemtiaren (Edebé) aurrean: fakturazioa, matrikulen CRM integratua, AA, automatizazioak, prezioa eta proba doakoa. 17 irizpide, iturri publikoekin.",
                 headline: "Kobratu, matrikulatu eta familiei abisatzen diezu leku beretik",
@@ -4414,8 +4436,8 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             },
             dinantia: {
                 tagline: "Komunikazioa, matrikulak eta denda",
-                owner: "LiveKid taldea · 2022tik",
-                metaTitle: "Edena vs Dinantia | Verifactu faktura eta espedientea · Edena",
+                owner: "LiveKid taldea | 2022tik",
+                metaTitle: "Edena vs Dinantia: eskola-komunikazioaren konparazioa",
                 metaDescription:
                     "Edena Dinantiaren aurrean: familiekiko komunikazioa, ikastetxearen kudeaketa, VERI*FACTU fakturazioa, matrikulen CRMa eta prezioa. 17 irizpide, iturriekin.",
                 headline: "Verifactuko faktura eta espedientea, matrikularen ondoan",

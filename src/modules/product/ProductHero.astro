@@ -15,6 +15,8 @@ import { getLanguageFromURL, localizedDemoPath, useTranslatedPath } from "@/i18n
  */
 interface Props {
     t: Translation;
+    /** What the page is ("Software para colegios"), set small above the headline, inside the H1. */
+    eyebrow?: string;
     title: string;
     description: string;
     image?: ImageMetadata;
@@ -23,7 +25,7 @@ interface Props {
     bleed?: boolean;
 }
 
-const { t, title, description, image, imageDark, imageAlt, bleed = false } = Astro.props;
+const { t, eyebrow, title, description, image, imageDark, imageAlt, bleed = false } = Astro.props;
 const lang = getLanguageFromURL(Astro.url.pathname);
 const translatePath = useTranslatedPath(lang);
 const hasVisual = Astro.slots.has("visual");
@@ -31,8 +33,9 @@ const hasVisual = Astro.slots.has("visual");
 
 <section class="relative isolate -mt-15 overflow-x-clip pt-15">
     <div class="ds-container flex flex-col items-center pt-14 text-center">
-        <h1 class="ds-intro type-display-3 max-w-3xl pb-2 text-gradient-ink" style="--intro-i: 0">
-            {title}
+        <h1 class="ds-intro max-w-3xl" style="--intro-i: 0">
+            {eyebrow && <span class="mb-4 block type-callout font-semibold text-brand-ink">{eyebrow}</span>}
+            <span class="block type-display-3 pb-2 text-gradient-ink">{title}</span>
         </h1>
         <p class="ds-intro type-body mt-5 max-w-2xl text-ink-2" style="--intro-i: 1">
             {description}

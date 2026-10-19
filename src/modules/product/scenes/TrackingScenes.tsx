@@ -212,7 +212,7 @@ function ClockinScene({ t: clockT, labels }: Props) {
                     <div className="flex h-full flex-col items-center gap-[0.8em] px-[0.8em] pt-[0.5em]">
                         <span className="flex flex-col items-center gap-[0.25em]">
                             <span className="text-[0.62em] font-semibold">{tr.greeting}</span>
-                            <span className="text-[0.4em] text-ink-3">{tr.entry} · 08:02</span>
+                            <span className="text-[0.4em] text-ink-3">{tr.entry} | 08:02</span>
                         </span>
                         {/* The shift: a ring that fills toward the day's eight hours. */}
                         <span className="relative mt-[0.4em] grid size-[8em] place-items-center">

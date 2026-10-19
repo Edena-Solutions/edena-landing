@@ -18,7 +18,7 @@ interface Props {
 const { status, label, note, size = "md" } = Astro.props;
 ---
 
-<span class:list={["mark", `mark--${status}`, size === "sm" && "mark--sm"]} title={note ? `${label} · ${note}` : label}>
+<span class:list={["mark", `mark--${status}`, size === "sm" && "mark--sm"]} title={note ? `${label} | ${note}` : label}>
     {status === "yes" && <Check strokeWidth={3} aria-hidden="true" />}
     {status === "none" && <Minus strokeWidth={2.5} aria-hidden="true" />}
     <span class="sr-only">{label}</span>

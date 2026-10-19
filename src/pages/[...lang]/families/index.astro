@@ -80,7 +80,7 @@ const features = [
     design="premium"
 >
     <HomeMotion />
-    <ProductHero t={t} title={t.families.mainTitle} description={t.families.mainDescription} bleed>
+    <ProductHero t={t} eyebrow={t.pageEyebrows.families} title={t.families.mainTitle} description={t.families.mainDescription} bleed>
         <AppScenes slot="visual" client:visible scene="trio" labels={labels} locale={locale} />
     </ProductHero>
     <ProductSplit

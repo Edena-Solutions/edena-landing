@@ -73,7 +73,7 @@ const features = [
 
 <Layout content={{ title: t.meta.financeTitle, description: t.meta.financeDescription }} lang={lang} design="premium">
     <HomeMotion />
-    <ProductHero t={t} title={t.finance.mainTitle} description={t.finance.mainDescription} bleed>
+    <ProductHero t={t} eyebrow={t.pageEyebrows.finance} title={t.finance.mainTitle} description={t.finance.mainDescription} bleed>
         <FinanceScenes slot="visual" client:visible scene="breakdown" labels={labels} locale={locale} />
     </ProductHero>
     <ProductSplit

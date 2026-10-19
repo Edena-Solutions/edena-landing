@@ -142,15 +142,15 @@ export const COMPETITORS: Competitor[] = [
         sources: [
             { label: "tokappschool.com", url: "https://www.tokappschool.com/" },
             {
-                label: "tokappschool.com · Escuelas infantiles",
+                label: "tokappschool.com | Escuelas infantiles",
                 url: "https://www.tokappschool.com/escuelas-infantiles/",
             },
             {
-                label: "tokappschool.com · Tienda en la app",
+                label: "tokappschool.com | Tienda en la app",
                 url: "https://tokappschool.com/ahora-puedes-comprar-libros-y-material-escolar-desde-tokapp/",
             },
             {
-                label: "Google Play · TokApp School",
+                label: "Google Play | TokApp School",
                 url: "https://play.google.com/store/apps/details?id=com.MultiExpo.tokappschool&hl=es",
             },
         ],
@@ -179,9 +179,9 @@ export const COMPETITORS: Competitor[] = [
         }),
         wins: ["crm", "ai", "price"],
         sources: [
-            { label: "clickedu.net · Plataforma", url: "https://clickedu.net/plataforma/" },
+            { label: "clickedu.net | Plataforma", url: "https://clickedu.net/plataforma/" },
             {
-                label: "Interempresas · Clickedu",
+                label: "Interempresas | Clickedu",
                 url: "https://www.interempresas.net/Tecnologia-aulas/Articulos/392787-Mas-de-700-colegios-utilizan-la-plataforma-de-gestion-Clickedu.html",
             },
         ],
@@ -210,11 +210,11 @@ export const COMPETITORS: Competitor[] = [
         wins: ["segments", "verifactu", "crm"],
         sources: [
             { label: "livekid.com", url: "https://livekid.com/es/" },
-            { label: "livekid.com · Asistente", url: "https://livekid.com/" },
-            { label: "livekid.com · Funciones", url: "https://livekid.com/es/funciones/" },
-            { label: "livekid.com · Pricing", url: "https://livekid.com/pricing/" },
+            { label: "livekid.com | Asistente", url: "https://livekid.com/" },
+            { label: "livekid.com | Funciones", url: "https://livekid.com/es/funciones/" },
+            { label: "livekid.com | Pricing", url: "https://livekid.com/pricing/" },
             {
-                label: "tech.eu · LiveKid acquires Aldea (2026)",
+                label: "tech.eu | LiveKid acquires Aldea (2026)",
                 url: "https://tech.eu/2026/06/24/livekid-acquires-aldea-to-expand-in-latin-america/",
             },
         ],
@@ -242,11 +242,11 @@ export const COMPETITORS: Competitor[] = [
         wins: ["publisher", "verifactu", "migration"],
         sources: [
             {
-                label: "educamos.com · Gestión del centro",
+                label: "educamos.com | Gestión del centro",
                 url: "https://educamos.com/es/funcionalidades/gestion-del-centro/",
             },
             {
-                label: "educamos.com · Familias",
+                label: "educamos.com | Familias",
                 url: "https://educamos.com/es/beneficios/familias/",
             },
         ],
@@ -277,10 +277,10 @@ export const COMPETITORS: Competitor[] = [
         wins: ["crm", "price", "segments"],
         sources: [
             {
-                label: "Educación 3.0 · Alexia, suite educativa de Educaria",
+                label: "Educación 3.0 | Alexia, suite educativa de Educaria",
                 url: "https://www.educaciontrespuntocero.com/recursos/alexia-suite-educativa-de-educaria/",
             },
-            { label: "alexiaeducaria.com · Gestión", url: "https://www.alexiaeducaria.com/gestion/" },
+            { label: "alexiaeducaria.com | Gestión", url: "https://www.alexiaeducaria.com/gestion/" },
             { label: "alexiaeducaria.com", url: "https://www.alexiaeducaria.com/" },
         ],
     },
@@ -306,13 +306,13 @@ export const COMPETITORS: Competitor[] = [
         }),
         wins: ["crm", "ai", "trial"],
         sources: [
-            { label: "esemtia.com · School", url: "https://esemtia.com/soluciones/esemtia-school/" },
+            { label: "esemtia.com | School", url: "https://esemtia.com/soluciones/esemtia-school/" },
             {
-                label: "esemtia.com · Connect",
+                label: "esemtia.com | Connect",
                 url: "https://esemtia.com/esemtia-renueva-imagen-hub-educativo/",
             },
             {
-                label: "Educación 3.0 · Esemtia de Edebé",
+                label: "Educación 3.0 | Esemtia de Edebé",
                 url: "https://www.educaciontrespuntocero.com/noticias/esemtia-edebe-plataforma-mejorar-la-gestion-escolar/",
             },
         ],
@@ -338,9 +338,9 @@ export const COMPETITORS: Competitor[] = [
         wins: ["records", "billing", "price"],
         sources: [
             { label: "dinantia.com", url: "https://www.dinantia.com/" },
-            { label: "dinantia.com · CRM", url: "https://dinantia.com/es/crm/" },
+            { label: "dinantia.com | CRM", url: "https://dinantia.com/es/crm/" },
             { label: "ayuda.dinantia.com", url: "https://ayuda.dinantia.com/es/" },
-            { label: "AIN · LiveKid acquires Dinantia (2022)", url: "https://en.ain.ua/2022/07/04/livekid-acquires-dinantia" },
+            { label: "AIN | LiveKid acquires Dinantia (2022)", url: "https://en.ain.ua/2022/07/04/livekid-acquires-dinantia" },
         ],
     },
 ];

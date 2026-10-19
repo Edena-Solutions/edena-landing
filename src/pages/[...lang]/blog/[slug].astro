@@ -132,7 +132,7 @@ const publishedDate = new Date(post.data.date).toISOString();
                     <span class="flex flex-col">
                         <span class="type-callout font-semibold text-ink">{post.data.author || "Edena"}</span>
                         <span class="type-footnote text-ink-3">
-                            <time datetime={post.data.date}>{published}</time> · {minutes}
+                            <time datetime={post.data.date}>{published}</time> | {minutes}
                         </span>
                     </span>
                 </div>

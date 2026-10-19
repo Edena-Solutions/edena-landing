@@ -517,9 +517,9 @@ function SecureScene({ t, labels }: Props) {
 const ROW_H = 1.55;
 const INBOX = { message: 1100, channel: 2000, open: 3000 };
 const DIRECT = [
-    { id: "javier", name: "Javier Rodríguez", initials: "JR", hue: 210, child: "Leo · 1.º ESO" },
-    { id: "pablo", name: "Pablo Hernández", initials: "PH", hue: 30, child: "Marc · 2.º ESO" },
-    { id: "sofia", name: "Sofía Gómez", initials: "SG", hue: 300, child: "Emma · 1.º ESO" },
+    { id: "javier", name: "Javier Rodríguez", initials: "JR", hue: 210, child: "Leo | 1.º ESO" },
+    { id: "pablo", name: "Pablo Hernández", initials: "PH", hue: 30, child: "Marc | 2.º ESO" },
+    { id: "sofia", name: "Sofía Gómez", initials: "SG", hue: 300, child: "Emma | 1.º ESO" },
 ];
 
 function InboxScene({ t, labels }: Props) {
@@ -661,7 +661,7 @@ function CircularsScene({ t, labels, locale }: Props) {
 
     return (
         <>
-            <Title aside={<Pill tone="gray">{c.pubTabs[0]} · 15</Pill>}>{c.publications}</Title>
+            <Title aside={<Pill tone="gray">{c.pubTabs[0]} | 15</Pill>}>{c.publications}</Title>
 
             {/* The circular, on the feed. */}
             <At x={0} y={2.5} w={18.8} h={18.1}>
@@ -676,7 +676,7 @@ function CircularsScene({ t, labels, locale }: Props) {
                             <span className="text-[0.42em] font-bold uppercase tracking-[0.06em]">
                                 Jaime López
                             </span>
-                            <span className="text-[0.38em] text-ink-3">30 jun · 10:06</span>
+                            <span className="text-[0.38em] text-ink-3">30 jun | 10:06</span>
                         </span>
                     </span>
                     <span className="text-[0.7em] font-semibold leading-tight tracking-[-0.01em]">

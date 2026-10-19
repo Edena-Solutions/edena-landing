@@ -197,7 +197,7 @@ function PlannerScene({ t, labels, locale }: Props) {
                     <span className="text-[0.36em] font-semibold uppercase tracking-[0.08em] text-ink-2">{as.subjects[NEW.subject]}</span>
                     <span className="text-[0.44em] font-semibold leading-tight">{as.newTaskTitle}</span>
                     <span className="text-[0.36em] text-ink-2">
-                        {as.due} · 23:59
+                        {as.due} | 23:59
                     </span>
                     <Pop show={on(t, NEW.reminder)} from="scale" className="mt-auto flex w-fit items-center gap-[0.25em] rounded-full bg-surface/80 px-[0.45em] py-[0.15em]">
                         <Bell className="size-[0.45em] text-ink-2" />
@@ -292,7 +292,7 @@ function CyclesScene({ t, labels, locale }: Props) {
                     {TERM_MARKS.map((mark, index) => (
                         <Pop key={index} show={on(t, CYCLE.final - 600 + index * 180)} className="flex items-center justify-between border-b border-hairline pb-[0.35em]">
                             <span className="text-[0.42em] text-ink-2">
-                                {as.termsShort[index]} · {percent(locale, WEIGHTS[index], 0)}
+                                {as.termsShort[index]} | {percent(locale, WEIGHTS[index], 0)}
                             </span>
                             <span className="text-[0.48em] font-medium tabular-nums">{number(locale, mark, 1)}</span>
                         </Pop>

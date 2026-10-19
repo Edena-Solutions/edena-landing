@@ -379,7 +379,7 @@ function ChatScene({ t, labels }: Props) {
                     </Pop>
                     <Pop show={read} className="-mt-[0.25em] self-end">
                         <span className="text-[0.34em] font-medium text-sky-600 dark:text-sky-400">
-                            {p.read} · 16:37
+                            {p.read} | 16:37
                         </span>
                     </Pop>
                     <Pop show={on(t, CHAT.seen)} className="relative flex flex-col">

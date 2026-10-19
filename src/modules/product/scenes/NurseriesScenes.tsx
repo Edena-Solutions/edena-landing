@@ -304,7 +304,7 @@ function ChildScene({ t, labels }: Props) {
                     </span>
                     <span className="mt-auto flex items-center gap-[0.4em]">
                         <Avatar initials="SG" hue={330} size={1.1} />
-                        <span className="text-[0.4em] text-ink-3">Sara García · 15:40</span>
+                        <span className="text-[0.4em] text-ink-3">Sara García | 15:40</span>
                     </span>
                 </Pop>
             </At>

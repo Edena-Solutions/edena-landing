@@ -1,9 +1,22 @@
+import { withTrailingSlash } from "@/i18n/utils";
+
 /**
  * Blog posts mix HTML blocks (<strong>, <br>, <a>) with plain-text paragraphs.
  * set:html skips markdown, so plain lines need inline + block processing.
  */
 
 type LineKind = "ul" | "ol" | "paragraph";
+
+/**
+ * Links between posts are written by hand (`/es/blog/x`, `/ca/blog/y`). Point them at the canonical
+ * URL, unprefixed for Spanish and ending in "/", so neither costs a redirect or a duplicate.
+ */
+function canonicalInternalLinks(html: string): string {
+    return html.replace(/href="(\/[^"]*)"/g, (_, href: string) => {
+        const unprefixed = href === "/es" || href.startsWith("/es/") ? href.slice(3) || "/" : href;
+        return `href="${withTrailingSlash(unprefixed)}"`;
+    });
+}
 
 function applyInlineMarkdown(text: string): string {
     return text
@@ -134,7 +147,7 @@ export function renderBlogBodyHtml(raw: string): string {
         withBreaks.push(block);
     }
 
-    return withBreaks.join("\n");
+    return canonicalInternalLinks(withBreaks.join("\n"));
 }
 
 /** Count list tags in rendered HTML (for audit) */

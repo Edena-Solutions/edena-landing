@@ -3,7 +3,7 @@ export default {
     loginButton: "Accedir",
     registerButton: "Prova 30 dies",
     registerButtonExtended: "Prova gratis 30 dies",
-    noCreditCardRequired: "Sense targeta de crèdit · Cancel·la quan vulguis",
+    noCreditCardRequired: "Sense targeta de crèdit | Cancel·la quan vulguis",
     downloadTheApp: "Descarrega l'app gratuïta",
     changeWebsiteLanguage: "Seleccionar idioma",
     appearance: "Aparença",
@@ -158,7 +158,7 @@ export default {
         now: "ara",
         minutesAgo: "fa {n} min",
         invoicesTitle: "Factures d'octubre enviades",
-        invoicesBody: "847 famílies · amb registre Verifactu",
+        invoicesBody: "847 famílies | amb registre Verifactu",
         enrolTitle: "3 noves sol·licituds de matrícula",
         enrolBody: "Des del formulari del teu web",
         messageTitle: "María Torres",
@@ -222,7 +222,7 @@ export default {
         students: "alumnes",
         allCentres: "Tots els centres",
         attendanceByCentre: "Assistència per centre",
-        billing: "Facturació de juny · tota la xarxa",
+        billing: "Facturació de juny | tota la xarxa",
         runBilling: "Facturar la xarxa",
         billed: "{n} factures emeses",
         series: "Sèrie",
@@ -247,7 +247,7 @@ export default {
         now: "Ara",
         register: "Passar llista",
         marked: "{n} de {total} marcats",
-        familyTold: "Llista desada · 1 família avisada",
+        familyTold: "Llista desada | 1 família avisada",
         rates: "Tarifes",
         rateNames: ["Mensual", "Trimestral", "Bo 10 classes", "Descompte germans"],
         billMonth: "Facturar juny",
@@ -299,7 +299,7 @@ export default {
         reportDetail: "Disponible per descarregar",
     },
     nurseriesScenes: {
-        group: "Aneguets · 1-2 anys",
+        group: "Aneguets | 1-2 anys",
         columns: ["Arribada", "Dinar", "Migdiada", "Fotos"],
         portions: ["Tot", "La meitat", "Poc"],
         sentTo: "Agenda enviada a {n} famílies",
@@ -308,7 +308,7 @@ export default {
         feedDetails: [
             "Ha arribat contenta",
             "Ho ha menjat tot",
-            "1 h 35 min · Ha descansat bé",
+            "1 h 35 min | Ha descansat bé",
             "3 fotos del taller de pintura",
         ],
         present: "Present",
@@ -322,7 +322,7 @@ export default {
         note: "Avui ha dit la seva primera paraula: «aigua». Ho hem celebrat amb tota la classe!",
     },
     assignmentScenes: {
-        subject: "Català · I-3 A",
+        subject: "Català | I-3 A",
         columns: ["Examen 1", "Examen 2", "Examen 3", "Projecte"],
         finalGrade: "Nota final",
         calculated: "Calculada",
@@ -366,7 +366,7 @@ export default {
         alertItems: [
             "3 rebuts retornats aquest mes",
             "Nova sol·licitud de matrícula",
-            "Absència sense justificar · 2n B",
+            "Absència sense justificar | 2n B",
         ],
         times: ["Ara", "Fa 2 min", "Fa 5 min", "Fa 12 min", "Fa 1 h"],
         notifications: "Notificacions",
@@ -380,11 +380,11 @@ export default {
             "Rebut retornat",
         ],
         notifDetails: [
-            "3r A · 09:00",
-            "María Torres · 1r ESO",
-            "María García · 731,50 €",
-            "Casal d'estiu · Lucía García",
-            "Pedro Castro · Domiciliació",
+            "3r A | 09:00",
+            "María Torres | 1r ESO",
+            "María García | 731,50 €",
+            "Casal d'estiu | Lucía García",
+            "Pedro Castro | Domiciliació",
         ],
         quickTitle: "Accions ràpides",
         quickActions: [
@@ -399,7 +399,7 @@ export default {
         ],
         upcoming: "Propers esdeveniments",
         noEvents: "No hi ha esdeveniments",
-        newEvent: "Reunió de famílies · 1r ESO",
+        newEvent: "Reunió de famílies | 1r ESO",
         notified: "famílies avisades",
         done: "Esdeveniment creat i notificat",
     },
@@ -419,7 +419,7 @@ export default {
         teachers: "Professors",
         students: "Estudiants",
         room: "Aula",
-        roomName: "Aula 1 · Planta baixa",
+        roomName: "Aula 1 | Planta baixa",
         equipment: "Equipament",
         equipmentItems: ["Pissarra digital", "Projector", "14 taules", "Ordinador"],
     },
@@ -532,7 +532,7 @@ export default {
         coffee: "Cafè",
         lunch: "Dinar",
         todayAgenda: "Agenda d'avui",
-        agendaEvents: ["Reunió de cicle", "Guàrdia de pati", "Menjador · torn 1", "Claustre"],
+        agendaEvents: ["Reunió de cicle", "Guàrdia de pati", "Menjador | torn 1", "Claustre"],
         newEvent: "Tutoria amb família",
         addedBy: "Afegit per Direcció",
         timesheet: "Fitxatge",
@@ -711,16 +711,16 @@ export default {
         readsByClass: "Lectures per classe",
     },
     meta: {
-        homeTitle: "Programari de Gestió Escolar | ERP Educatiu · Edena",
+        homeTitle: "Programari de Gestió Escolar | ERP Educatiu | Edena",
         homeDescription:
             "Programari de gestió escolar amb facturació Verifactu, assistència, expedients, CRM de matrícules i app per a famílies. Sense permanència i amb demo gratuïta.",
-        pricingAcademiesTitle: "Preus per a Acadèmies | Des de 0,60 € per alumne · Edena",
+        pricingAcademiesTitle: "Preus per a Acadèmies | Des de 0,60 € per alumne | Edena",
         pricingAcademiesDescription:
             "Packs tancats per a acadèmies: comunicació, finances o tot inclòs. Preu per alumne, sense quota d'alta ni permanència. Prova gratuïta de 30 dies.",
-        pricingCentersTitle: "Preus per a Centres Educatius | Des de 36 €/mes · Edena",
+        pricingCentersTitle: "Preus per a Centres Educatius | Des de 36 €/mes | Edena",
         pricingCentersDescription:
             "Plataforma modular per a escoles, escoles bressol i grups educatius des de 36 € al mes. Activa només els mòduls que necessites i paga per alumne.",
-        pricingTitle: "Preus | Programari de Gestió Escolar des de 36 €/mes · Edena",
+        pricingTitle: "Preus | Programari de Gestió Escolar des de 36 €/mes | Edena",
         pricingDescription:
             "Pagament per alumne, sense quota d'alta ni permanència. Des de 36 €/mes amb expedient digital, assistència i portal de famílies. Prova gratis 30 dies.",
         faqsTitle: "Preguntes Freqüents sobre Edena | Gestió Escolar",
@@ -729,22 +729,22 @@ export default {
         dashboardTitle: "Panell de control escolar | Analítica en temps real | Edena",
         dashboardDescription:
             "Assistència, cobraments, matrícules i comunicacions en un panell de control escolar actualitzat a l'instant. Detecta problemes a temps i decideix amb dades.",
-        studentsTitle: "Programari de Gestió d'Alumnes | Expedients i Notes · Edena",
+        studentsTitle: "Programari de Gestió d'Alumnes | Expedients i Notes | Edena",
         studentsDescription:
             "Expedients digitals, control d'assistència, qualificacions i butlletins automàtics en un sol programari de gestió d'alumnes. Menys paperassa des del primer dia.",
-        appTitle: "App per a Famílies i Professors | iOS i Android · Edena",
+        appTitle: "App per a Famílies i Professors | iOS i Android | Edena",
         appDescription:
             "App escolar gratuïta per a famílies i professors a iOS i Android: avisos al mòbil, fotos segures, signatura de documents, notes i factures en un sol lloc.",
-        demoTitle: "Demo Gratuïta del Programari de Gestió Escolar · Edena",
+        demoTitle: "Demo Gratuïta del Programari de Gestió Escolar | Edena",
         demoDescription:
             "Demostració de 15 minuts, preparada per al teu col·legi, escola infantil, acadèmia o grup. Sense compromís.",
-        financeTitle: "Facturació Escolar amb Verifactu | Cobraments SEPA · Edena",
+        financeTitle: "Facturació Escolar amb Verifactu | Cobraments SEPA | Edena",
         financeDescription:
             "Facturació escolar automàtica adaptada a Verifactu: rebuts, domiciliacions SEPA i control d'impagaments en temps real. El teu equip deixa de perseguir cobraments.",
         guardiansTitle: "Portal de famílies per a col·legis | Comunicació centre-família | Edena",
         guardiansDescription:
             "Dóna a les famílies accés en temps real a notes, assistència, factures i novetats del centre. Missatgeria segura i signatura digital de documents. Incorporació de famílies en minuts.",
-        familiesTitle: "Portal de Famílies | Notes, Factures i Pagaments · Edena",
+        familiesTitle: "Portal de Famílies | Notes, Factures i Pagaments | Edena",
         familiesDescription:
             "Tot allò escolar en una app gratuïta: notes, factures, missatges, fotos i la botiga del centre. Diversos fills en un sol compte, des de qualsevol dispositiu.",
         centersTitle: "Plataforma Integral per a Centres Educatius | ERP Educatiu | Edena",
@@ -753,7 +753,7 @@ export default {
         crmTitle: "CRM Escolar | Converteix Consultes en Matrícules | Edena",
         crmDescription:
             "CRM escolar per a admissions i matrícules: recull sol·licituds des del teu web, segueix cada família per etapes i converteix més consultes en alumnes.",
-        assignmentTitle: "Avaluacions i Butlletins de Notes Automàtics · Edena",
+        assignmentTitle: "Avaluacions i Butlletins de Notes Automàtics | Edena",
         assignmentDescription:
             "Planifica tasques, configura cicles d'avaluació i genera butlletins de notes automàticament. Les famílies veuen les notes en temps real des de l'app.",
         privacyTitle: "Política de privacitat | Programa de gestió escolar Edena",
@@ -777,36 +777,58 @@ export default {
         nurseryTitle: "Programari per a Escoles Infantils i Llars d'Infants | Edena",
         nurseryDescription:
             "Programa de gestió per a escoles bressol i llars d'infants: agenda digital, comunicació diària amb les famílies, fotos segures i facturació amb Verifactu.",
-        schoolsTitle: "Programari per a Col·legis | Gestió i Verifactu · Edena",
+        schoolsTitle: "Programari per a Col·legis | Gestió i Verifactu | Edena",
         schoolsDescription:
             "Programari de gestió per a col·legis d'infantil a batxillerat i FP: expedients, notes, assistència, facturació amb Verifactu i comunicació amb famílies.",
-        academiesTitle: "Programari per a Acadèmies | Cobraments i CRM · Edena",
+        academiesTitle: "Programari per a Acadèmies | Cobraments i CRM | Edena",
         academiesDescription:
             "Programari per a acadèmies d'idiomes, música, dansa i esport: cobraments automàtics, CRM de captació, control d'assistència i app gratuïta per a famílies.",
-        groupsTitle: "Gestió Multi-Centre per a Grups Educatius · Edena",
+        groupsTitle: "Gestió Multi-Centre per a Grups Educatius | Edena",
         groupsDescription:
             "Gestiona tota la teva xarxa de centres des d'un únic panell: facturació centralitzada, informes consolidats i els mateixos processos a cada centre educatiu.",
         contactTitle: "Contacte | Edena - Programa de gestió escolar",
         contactDescription:
             "Parla amb l'equip d'Edena sobre el programari de gestió escolar: preus, Verifactu, migració de dades o una demo per al teu centre. Et responem de seguida.",
-        blogTitle: "Blog de Gestió Escolar | Guies per a Centres · Edena",
+        blogTitle: "Blog de Gestió Escolar | Guies per a Centres | Edena",
         blogDescription:
             "Guies pràctiques sobre gestió escolar, Verifactu, cobraments, matrícules, comunicació amb famílies i IA per a col·legis, escoles bressol i acadèmies.",
     },
     hero: {
-        mainTitle: "Administra, factura i parla amb les famílies des del mateix lloc",
+        eyebrow: "Programari de gestió per a centres educatius",
+        mainTitle: "Administra el teu centre, factura i parla amb les famílies des del mateix lloc",
         mainDescription:
-            "A secretaria es matricula, es passa llista i es cobra amb Verifactu. Els centres que ja fan servir Edena estalvien més de 37 hores cada setmana.",
+            "Col·legis, escoles infantils i acadèmies matriculen, passen llista i cobren amb Verifactu des d'Edena. A Gimbebe, secretaria estalvia 37 hores cada setmana.",
         demoNote: "15 minuts, amb un centre com el teu.",
         pathsLabel: "Segons el centre",
-        mobileTitle: "L'avís arriba al mòbil de la família",
+        mobileTitle: "L'avís arriba al mòbil de cada família",
         mobileDescription:
-            "Fotos, missatges i canvis d'horari surten d'Edena. L'equip no els reenvia per WhatsApp.",
+            "Fotos, circulars i canvis d'horari surten d'Edena i arriben a l'app gratuïta de les famílies, a iOS i Android.",
         orgTitle: "Sense paper en 30 dies, amb la migració inclosa",
         orgDescription:
             "Redueix els costos operatius un 25% amb el sistema de gestió escolar totalment digital d'Edena. Migració de dades, incorporació de famílies i formació de l'equip, tot a càrrec nostre.",
         verifactuReady: "Adaptat a Verifactu (AEAT)",
         appScreens: ["Horaris", "Publicacions", "Mur", "Classes", "Botiga"],
+    },
+    /** What each product page is, set small above its headline inside the H1. */
+    pageEyebrows: {
+        schools: "Programari per a col·legis",
+        nurseries: "Programari per a escoles infantils",
+        academies: "Programari per a acadèmies",
+        groups: "Gestió multicentre per a grups educatius",
+        app: "App escolar per a famílies i professors",
+        assignment: "Butlletins i avaluacions",
+        communication: "Comunicació escolar",
+        crm: "CRM escolar d'admissions",
+        dashboard: "Panell de control escolar",
+        extracurricular: "Gestió d'extraescolars",
+        families: "Portal de famílies",
+        internalPayments: "Moneder escolar",
+        students: "Gestió d'alumnes",
+        tracking: "Control horari del personal",
+        workflows: "Automatitzacions per a centres educatius",
+        ena: "Ena, la IA d'Edena per a centres educatius",
+        finance: "Facturació amb Verifactu i cobraments SEPA",
+        shop: "Venda d'uniformes i material escolar",
     },
     setup: {
         title: "En marxa en 2 setmanes, amb un equip que t'acompanya en tot el procés",
@@ -1037,9 +1059,9 @@ export default {
         },
     },
     features: {
-        title: "El que el centre obre cada setmana",
+        title: "Els mòduls que més fa servir un centre",
         description:
-            "Expedients, l'app, el panell, les famílies, la xarxa de centres i els butlletins.",
+            "Expedients, app, panell de control, portal de famílies, multicentre i butlletins. Activa només els que necessitis.",
         digitalRecords: {
             title: "Expedients digitals",
             tagline:
@@ -1400,7 +1422,7 @@ export default {
             tagline: "Obtén insights detallats sobre el rendiment del teu centre educatiu.",
         },
         keyFeaturesTabsTitle: "Sis tasques que deixen de fer-se a mà",
-        keyFeaturesTabsDescription: "Cadascuna, com la veu secretaria quan ja està feta.",
+        keyFeaturesTabsDescription: "Així queden a Edena l'app, el panell, la facturació, els butlletins i les matrícules.",
         keyFeaturesTabsGoToFeature: "Veure com queda",
         keyFeaturesTabs: [
             {
@@ -1436,8 +1458,8 @@ export default {
     },
     enaSection: {
         badge: "Ena",
-        title: "Ena deixa la factura, el comunicat i la llista llestos per revisar",
-        description: "Ho demanes dins d'Edena. Algú del centre ho mira i ho envia.",
+        title: "Ena, la IA d'Edena, prepara factures, comunicats i llistes",
+        description: "Treballa amb les dades del teu centre. Algú de l'equip ho revisa abans d'enviar-ho.",
         cards: {
             agent: {
                 label: "@Ena Agent",
@@ -1483,7 +1505,7 @@ export default {
     wallOfFeatures: {
         title: "De la matrícula al cobrament, sense obrir un altre programa",
         description:
-            "L'expedient, la factura amb Verifactu i l'app de les famílies fan servir la mateixa dada.",
+            "Expedients, facturació amb Verifactu, comunicació i l'app de les famílies treballen amb les mateixes dades de l'alumne.",
         main: {
             students: {
                 name: "Gestió d'Alumnes",
@@ -2216,7 +2238,7 @@ export default {
             "Tots els centres tenen el mateix suport, per correu i xat, inclòs en el preu. A més, l'equip s'encarrega de la migració de dades i la formació inicial.",
         centers_cost_savings: "Quant pot estalviar el meu centre amb Edena?",
         centers_cost_savings_answer:
-            "En els centres que ja fan servir Edena, l'administració recupera més de 37 hores cada setmana en tasques que abans es repetien a mà, i l'alta d'una família deixa d'ocupar diversos dies.",
+            "A Gimbebe, secretaria estalvia 37 hores cada setmana en tasques que abans es repetien a mà. En els centres que fan servir Edena, l'alta d'una família deixa d'ocupar diversos dies.",
         crm_custom_stages: "Puc adaptar les etapes al meu procés d'admissió?",
         crm_custom_stages_answer:
             "Sí. Les etapes de partida s'adapten al procés del teu centre: en pots canviar el nom o ajustar-les. El canvi d'estat segueix sent un clic i cada moviment queda a l'historial.",
@@ -2948,7 +2970,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
     erpStats: {
         title: "En els centres que ja fan servir Edena",
         description:
-            "Dades agregades de col·legis, acadèmies i escoles infantils que han digitalitzat la seva gestió amb Edena.",
+            "Resultats de col·legis, acadèmies i escoles infantils que ja treballen amb Edena.",
         cases: [
             {
                 stat: "37 h",
@@ -2989,7 +3011,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         relatedTitle: "Articles relacionats",
         ctaTitle: "Uneix-te als centres que ja treballen sense papeleo",
         ctaDescription:
-            "Centres usen Edena per estalviar més de 37 hores setmanals en tasques administratives. T'ensenyem com funciona en una demostració gratuïta adaptada al teu tipus de centre.",
+            "A Gimbebe estalvien 37 hores setmanals en tasques administratives amb Edena. T'ensenyem com funciona en una demostració gratuïta adaptada al teu tipus de centre.",
         aiDisclaimer:
             "Aquest contingut ha estat generat per Ena, l'agent d'intel·ligència artificial d'Edena. Pot contenir errors o inexactituds i no constitueix assessorament legal, fiscal ni professional. Edena no garanteix l'exactitud, la integritat ni la vigència de la informació. Consulteu les fonts oficials i, si escau, un professional qualificat abans d'adoptar qualsevol decisió.",
         unsplashCredit: "La imatge de portada procedeix de {source}.",
@@ -3118,7 +3140,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
     },
     productModules: {
         extracurricular: {
-            metaTitle: "Gestió d'Extraescolars | Inscripcions i Cobraments · Edena",
+            metaTitle: "Gestió d'Extraescolars | Inscripcions i Cobraments | Edena",
             metaDescription:
                 "Gestiona les extraescolars del teu centre: inscripcions en línia, control de places, llistes d'assistència i cobraments automàtics. Menys paperassa.",
             navTitle: "Extraescolars",
@@ -3228,7 +3250,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         tracking: {
-            metaTitle: "Control Horari i Seguiment Intern per a Centres · Edena",
+            metaTitle: "Control Horari i Seguiment Intern per a Centres | Edena",
             metaDescription:
                 "Registre horari del personal, agenda diària i tasques internes del centre en una sola eina. Compleix la normativa de control horari sense fulls de fitxatge.",
             navTitle: "Seguiment",
@@ -3337,7 +3359,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         workflows: {
-            metaTitle: "Automatització per a Centres Educatius | Fluxos · Edena",
+            metaTitle: "Automatització per a Centres Educatius | Fluxos | Edena",
             metaDescription:
                 "Automatitza recordatoris, comunicats, cobraments i fluxos de matrícula del teu centre amb un editor visual, sense programar. Estalvia hores cada setmana.",
             navTitle: "Automatitzacions",
@@ -3446,7 +3468,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         shop: {
-            metaTitle: "Botiga en Línia per a Col·legis | Uniformes i Material · Edena",
+            metaTitle: "Botiga en Línia per a Col·legis | Uniformes i Material | Edena",
             metaDescription:
                 "Ven uniformes, material i serveis des d'una botiga en línia integrada a l'app del teu centre. Cobraments automàtics i estoc al dia, sense comissions ocultes.",
             navTitle: "Botiga",
@@ -3555,7 +3577,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         communication: {
-            metaTitle: "Comunicació Escolar | Missatgeria i Circulars · Edena",
+            metaTitle: "Comunicació Escolar | Missatgeria i Circulars | Edena",
             metaDescription:
                 "Missatgeria segura, circulars amb confirmació de lectura, avisos al mòbil i mur del centre en una sola app escolar. Que cada família rebi cada missatge.",
             navTitle: "Comunicació",
@@ -3664,7 +3686,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         internalPayments: {
-            metaTitle: "Moneder Escolar | Pagaments de Menjador i Sortides · Edena",
+            metaTitle: "Moneder Escolar | Pagaments de Menjador i Sortides | Edena",
             metaDescription:
                 "Moneder escolar per a cada família: recàrregues en línia, saldos en temps real i cobraments de menjador, excursions i serveis. Adeu a l'efectiu al centre.",
             navTitle: "Pagaments Interns",
@@ -3773,7 +3795,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         ena: {
-            metaTitle: "Ena | IA per a la Gestió del teu Centre Educatiu · Edena",
+            metaTitle: "Ena | IA per a la Gestió del teu Centre Educatiu | Edena",
             metaDescription:
                 "Ena, la IA d'Edena: genera factures, redacta comunicats, passa llista i respon a tota la teva organització. Intel·ligència artificial per a centres educatius.",
             navTitle: "Ena",
@@ -3892,7 +3914,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         scoreCaption: "Punts sobre {n} criteris clau. Inclòs suma 1; parcial, 0,5.",
         scoreLink: "Veure el detall",
         edenaTagline: "Factura, expedient i famílies",
-        edenaMeta: "Des de 36 €/mes · 30 dies gratis",
+        edenaMeta: "Des de 36 €/mes | 30 dies gratis",
         scoreSr: "Puntuació: Edena {a} de {n}; {name} {b} de {n}.",
         morePrevious: "Veure anteriors",
         moreNext: "Veure següents",
@@ -3983,10 +4005,10 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         trademarks:
             "Les marques citades pertanyen als seus respectius titulars, que no estan associats amb Edena ni patrocinen aquesta comparativa.",
         hub: {
-            metaTitle: "Edena vs alternatives: comparativa de programari escolar · Edena",
+            metaTitle: "Edena vs alternatives: comparativa de programari escolar | Edena",
             metaDescription:
                 "Edena davant TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia i Dinantia: 17 criteris comparats amb fonts públiques. Cada criteri, amb la seva font.",
-            eyebrow: "Comparatives",
+            eyebrow: "Comparativa de programari escolar",
             title: "L'expedient, la factura i l'avís, davant de set plataformes",
             description:
                 "Posem Edena davant les set plataformes amb què més es compara a escoles bressol, escoles i acadèmies. 17 criteris, fonts públiques i data de revisió. Sense lletra petita.",
@@ -4009,8 +4031,8 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         competitors: {
             tokapp: {
                 tagline: "App de comunicació i cobraments",
-                owner: "TokApp Online S.L. · Vigo",
-                metaTitle: "Edena vs TokApp | Expedient i Verifactu · Edena",
+                owner: "TokApp Online S.L. | Vigo",
+                metaTitle: "Edena vs TokApp: comparativa de comunicació escolar",
                 metaDescription:
                     "Edena davant TokApp: comunicació, facturació amb VERI*FACTU, remeses SEPA, CRM d'admissions, preu i prova gratuïta. 17 criteris, amb fonts.",
                 headline: "L'expedient i la factura amb Verifactu, al costat de l'avís",
@@ -4071,7 +4093,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             clickedu: {
                 tagline: "Plataforma de gestió acadèmica per a escoles",
                 owner: "Sanoma Learning",
-                metaTitle: "Edena vs Clickedu | Matrícula i rebut · Edena",
+                metaTitle: "Edena vs Clickedu: comparativa de gestió escolar",
                 metaDescription:
                     "Edena davant Clickedu: gestió acadèmica, facturació, CRM d'admissions, IA, preu i prova gratuïta. 17 criteris comparats amb fonts públiques.",
                 headline: "La consulta de matrícula i el rebut, amb el preu a la web",
@@ -4136,8 +4158,8 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             },
             livekid: {
                 tagline: "App de gestió per a escoles bressol",
-                owner: "LiveKid · Cracòvia i Barcelona",
-                metaTitle: "Edena vs LiveKid | Agenda i el següent centre · Edena",
+                owner: "LiveKid | Cracòvia i Barcelona",
+                metaTitle: "Edena vs LiveKid: comparativa per a escoles infantils",
                 metaDescription:
                     "Edena davant LiveKid per a escoles bressol: agenda digital, facturació amb VERI*FACTU, CRM d'admissions, IA i preu. 17 criteris, amb fonts.",
                 headline: "L'agenda de l'infant, i el següent centre quan l'obris",
@@ -4201,7 +4223,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             educamos: {
                 tagline: "Plataforma educativa del grup SM",
                 owner: "Grup SM",
-                metaTitle: "Edena vs SM Educamos | Rebut i matrícula · Edena",
+                metaTitle: "Edena vs SM Educamos: comparativa de gestió escolar",
                 metaDescription:
                     "Edena davant SM Educamos: gestió, facturació amb VERI*FACTU, CRM d'admissions, IA, preu i posada en marxa. 17 criteris, amb fonts públiques.",
                 headline: "El rebut, la matrícula i l'avís surten de secretaria",
@@ -4265,7 +4287,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             alexia: {
                 tagline: "Suite de gestió escolar d'Educaria",
                 owner: "Educaria",
-                metaTitle: "Edena vs Alexia | Preu públic i 30 dies · Edena",
+                metaTitle: "Edena vs Alexia: comparativa de gestió escolar",
                 metaDescription:
                     "Edena davant Alexia (Educaria): facturació, CRM d'admissions, IA, automatitzacions, preu i prova gratuïta. 17 criteris comparats amb fonts públiques.",
                 headline: "Veus el preu, proves 30 dies i el centre arrenca en dues setmanes",
@@ -4332,7 +4354,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             esemtia: {
                 tagline: "Plataforma de gestió educativa d'Edebé",
                 owner: "Grup Edebé",
-                metaTitle: "Edena vs Esemtia | Cobraments i matrícules · Edena",
+                metaTitle: "Edena vs Esemtia: comparativa de gestió escolar",
                 metaDescription:
                     "Edena davant Esemtia (Edebé): facturació, CRM d'admissions integrat, IA, automatitzacions, preu i prova gratuïta. 17 criteris, amb fonts públiques.",
                 headline: "Cobres, matricules i avises les famílies des del mateix lloc",
@@ -4395,8 +4417,8 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             },
             dinantia: {
                 tagline: "Comunicació, admissions i botiga",
-                owner: "Grup LiveKid · des del 2022",
-                metaTitle: "Edena vs Dinantia | Factura Verifactu i expedient · Edena",
+                owner: "Grup LiveKid | des del 2022",
+                metaTitle: "Edena vs Dinantia: comparativa de comunicació escolar",
                 metaDescription:
                     "Edena davant Dinantia: comunicació amb famílies, gestió del centre, facturació amb VERI*FACTU, CRM d'admissions i preu. 17 criteris, amb fonts.",
                 headline: "La factura amb Verifactu i l'expedient, al costat de la matrícula",
