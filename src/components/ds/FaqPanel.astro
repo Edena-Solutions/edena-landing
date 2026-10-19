@@ -25,7 +25,7 @@ const { items, name, class: className } = Astro.props;
         items.map((item) => (
             <details class="faq-item" name={name} id={item.id} data-faq-item>
                 <summary>
-                    <span class="faq-question">{item.question}</span>
+                    <span class="faq-question text-sm">{item.question}</span>
                     <span class="faq-icon" aria-hidden="true">
                         <span class="faq-icon-bar" />
                         <span class="faq-icon-bar faq-icon-bar--v" />
@@ -73,10 +73,10 @@ const { items, name, class: className } = Astro.props;
         if (reduceMotion()) return;
 
         const to = body.scrollHeight;
-        const bodyAnimation = body.animate(
-            [{ height: `${from}px` }, { height: `${to}px` }],
-            { duration: 560, easing: OPEN_EASE },
-        );
+        const bodyAnimation = body.animate([{ height: `${from}px` }, { height: `${to}px` }], {
+            duration: 560,
+            easing: OPEN_EASE,
+        });
         const answerAnimation = answer.animate(
             [
                 { opacity: 0, transform: "translateY(-0.6rem)", filter: "blur(2px)" },
@@ -97,10 +97,11 @@ const { items, name, class: className } = Astro.props;
             return;
         }
 
-        const bodyAnimation = body.animate(
-            [{ height: `${from}px` }, { height: "0px" }],
-            { duration: 380, easing: CLOSE_EASE, fill: "forwards" },
-        );
+        const bodyAnimation = body.animate([{ height: `${from}px` }, { height: "0px" }], {
+            duration: 380,
+            easing: CLOSE_EASE,
+            fill: "forwards",
+        });
         const answerAnimation = answer.animate(
             [
                 { opacity: 1, transform: "none" },
@@ -118,32 +119,40 @@ const { items, name, class: className } = Astro.props;
     }
 
     function setupFaqPanels() {
-        document.querySelectorAll<HTMLElement>("[data-faq-panel]:not([data-ready])").forEach((panel) => {
-            panel.dataset.ready = "";
-            const items = [...panel.querySelectorAll<HTMLDetailsElement>("[data-faq-item]")];
-            // The panel keeps one answer open itself: the native `name` would close the other one
-            // instantly, before it could fold away.
-            const exclusive = items.some((details) => details.hasAttribute("name"));
-            items.forEach((details) => {
-                details.removeAttribute("name");
-                details.dataset.state = details.open ? "open" : "closed";
-                // Opened from elsewhere (a link to a question): its state follows.
-                details.addEventListener("toggle", () => {
-                    if (!running.has(details)) details.dataset.state = details.open ? "open" : "closed";
-                });
-                details.querySelector("summary")?.addEventListener("click", (event) => {
-                    event.preventDefault();
-                    if (details.dataset.state === "open") {
-                        close(details);
-                        return;
-                    }
-                    if (exclusive) {
-                        items.forEach((other) => other !== details && other.dataset.state === "open" && close(other));
-                    }
-                    open(details);
+        document
+            .querySelectorAll<HTMLElement>("[data-faq-panel]:not([data-ready])")
+            .forEach((panel) => {
+                panel.dataset.ready = "";
+                const items = [...panel.querySelectorAll<HTMLDetailsElement>("[data-faq-item]")];
+                // The panel keeps one answer open itself: the native `name` would close the other one
+                // instantly, before it could fold away.
+                const exclusive = items.some((details) => details.hasAttribute("name"));
+                items.forEach((details) => {
+                    details.removeAttribute("name");
+                    details.dataset.state = details.open ? "open" : "closed";
+                    // Opened from elsewhere (a link to a question): its state follows.
+                    details.addEventListener("toggle", () => {
+                        if (!running.has(details))
+                            details.dataset.state = details.open ? "open" : "closed";
+                    });
+                    details.querySelector("summary")?.addEventListener("click", (event) => {
+                        event.preventDefault();
+                        if (details.dataset.state === "open") {
+                            close(details);
+                            return;
+                        }
+                        if (exclusive) {
+                            items.forEach(
+                                (other) =>
+                                    other !== details &&
+                                    other.dataset.state === "open" &&
+                                    close(other),
+                            );
+                        }
+                        open(details);
+                    });
                 });
             });
-        });
     }
 
     document.addEventListener("astro:page-load", setupFaqPanels);
