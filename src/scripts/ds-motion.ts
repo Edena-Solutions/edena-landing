@@ -23,6 +23,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const reduceMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 let teardown: (() => void) | null = null;
+/** Marks reveals that are on screen now. iOS can miss the first observation (see `init`). */
+let syncReveals: () => void = () => {};
+let openedBefore = false;
 
 function initReveal(): () => void {
     document.querySelectorAll<HTMLElement>("[data-reveal-group]").forEach((group) => {
@@ -52,7 +55,27 @@ function initReveal(): () => void {
         { threshold: 0.12, rootMargin: "0px 0px -6% 0px" },
     );
     pending.forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
+
+    // Anything already on screen is revealed here too. After a client navigation Safari can
+    // report the old scroll (still down at Ena) for the first observation, then jump to the top
+    // without telling the observer, so the new page stays invisible until a refresh.
+    syncReveals = () => {
+        const height = window.visualViewport?.height ?? window.innerHeight;
+        const width = window.visualViewport?.width ?? window.innerWidth;
+        for (const el of pending) {
+            if (el.hasAttribute("data-revealed")) continue;
+            const rect = el.getBoundingClientRect();
+            const onScreen = rect.bottom > height * 0.06 && rect.top < height && rect.right > 0 && rect.left < width;
+            if (!onScreen) continue;
+            el.setAttribute("data-revealed", "");
+            observer.unobserve(el);
+        }
+    };
+
+    return () => {
+        observer.disconnect();
+        syncReveals = () => {};
+    };
 }
 
 /** The first number in `text`, with the decimals it was written with. */
@@ -276,13 +299,21 @@ function initScrub(): () => void {
             let current = 0;
             let primed = false;
             let watching = true;
+            let dirty = true;
             const observer = new IntersectionObserver(
                 ([entry]) => {
                     watching = entry?.isIntersecting ?? false;
+                    dirty = true;
                 },
                 { rootMargin: "100% 0px" },
             );
             observer.observe(root);
+            const markDirty = () => {
+                dirty = true;
+            };
+            window.addEventListener("scroll", markDirty, { passive: true, capture: true });
+            window.addEventListener("resize", markDirty);
+            window.visualViewport?.addEventListener("resize", markDirty);
 
             const apply = (p: number) => {
                 const full = root.offsetWidth;
@@ -298,6 +329,8 @@ function initScrub(): () => void {
             };
 
             const tick = (_time: number, deltaMs: number) => {
+                if (!dirty && Math.abs(target - current) < 0.001) return;
+                dirty = false;
                 if (!watching && Math.abs(target - current) < 0.001) return;
                 const vh = window.visualViewport?.height ?? window.innerHeight;
                 const bar = document.querySelector("header")?.getBoundingClientRect().height ?? 60;
@@ -311,6 +344,11 @@ function initScrub(): () => void {
                 if (!primed) {
                     current = target;
                     primed = true;
+                } else if (Math.abs(target - current) < 0.001) {
+                    // Settled. Writing left/right every frame forced layout for the whole time Ena
+                    // was near the screen, which on an iPhone left the next page's transition
+                    // without its animations.
+                    return;
                 } else {
                     const dt = Math.max(0, deltaMs) / 1000;
                     current += (target - current) * (1 - Math.exp(-dt / 0.18));
@@ -323,6 +361,9 @@ function initScrub(): () => void {
             expandCleanups.push(() => {
                 observer.disconnect();
                 gsap.ticker.remove(tick);
+                window.removeEventListener("scroll", markDirty, true);
+                window.removeEventListener("resize", markDirty);
+                window.visualViewport?.removeEventListener("resize", markDirty);
                 ground.style.left = "";
                 ground.style.right = "";
                 ground.style.width = "";
@@ -416,9 +457,56 @@ function initWhatsAppInvert(): () => void {
     };
 }
 
+/**
+ * The router scrolls to the top inside the view transition. On a real iPhone that scroll lands
+ * *after* `astro:page-load`, and only when the previous page was actually scrolled — leaving Ena,
+ * not the top of the home page. Measuring then builds the scroll scenes for the wrong position
+ * and the observer never hears the jump, so reveals stay hidden. A refresh starts at the top, so
+ * it looks right. Re-measure once the position has settled, and let the hero rise again: Safari
+ * does not replay a CSS animation that began during the transition.
+ */
+function settleAfterNavigation() {
+    const navigated = openedBefore;
+    openedBefore = true;
+    let replayed = false;
+    const again = () => {
+        syncReveals();
+        if (!reduceMotion()) ScrollTrigger.refresh();
+        if (!navigated || replayed) return;
+        replayed = true;
+        document.querySelectorAll<HTMLElement>(".ds-intro").forEach((el) => {
+            el.style.animation = "none";
+            void el.offsetWidth;
+            el.style.animation = "";
+        });
+    };
+    requestAnimationFrame(() => requestAnimationFrame(again));
+
+    let late = 0;
+    const timers = [window.setTimeout(again, 80), window.setTimeout(again, 400)];
+    const onScroll = () => {
+        if (late) return;
+        late = requestAnimationFrame(again);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true, capture: true });
+
+    return () => {
+        timers.forEach((timer) => window.clearTimeout(timer));
+        cancelAnimationFrame(late);
+        window.removeEventListener("scroll", onScroll, true);
+    };
+}
+
 function init() {
     teardown?.();
-    const cleanups = [initReveal(), initCountUp(), initScrub(), initScrollFades(), initWhatsAppInvert()];
+    const cleanups = [
+        initReveal(),
+        initCountUp(),
+        initScrub(),
+        initScrollFades(),
+        initWhatsAppInvert(),
+        settleAfterNavigation(),
+    ];
     teardown = () => {
         cleanups.forEach((cleanup) => cleanup());
         teardown = null;
