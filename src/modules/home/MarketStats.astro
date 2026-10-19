@@ -6,6 +6,11 @@ import type { Translation } from "@/i18n";
  * Results, set the way Apple sets a number: large, tight, and counted up once on arrival (the real
  * figure is what the markup carries; the count is only motion). The headline figure gets activity
  * rings in Edena's greens.
+ *
+ * Wide, the headline is a tall tile beside four smaller ones. Below that the headline lies on its
+ * side — the figure and its line on the left, the rings on the right — so it holds no empty field;
+ * and on a phone the other four stack as rows of one grouped panel, the figure beside its line,
+ * as iOS lists them, rather than four narrow tiles whose text wraps word by word.
  */
 interface Props {
     t: Translation;
@@ -27,12 +32,9 @@ const rings = [
     <div class="ds-container">
         <SectionHeader title={erpStats.title} description={erpStats.description} />
 
-        <div class="mt-14 grid grid-cols-2 gap-4 lg:grid-cols-4" data-reveal-group>
-            <article
-                class="ds-tile col-span-2 flex min-h-[22rem] flex-col justify-between gap-10 p-8 sm:p-10 lg:row-span-2"
-                data-reveal="scale"
-            >
-                <svg viewBox="0 0 120 120" class="size-36 -rotate-90 sm:size-44" aria-hidden="true">
+        <div class="mt-10 grid grid-cols-2 gap-3 sm:mt-14 sm:gap-4 lg:grid-cols-4" data-reveal-group>
+            <article class="ds-tile stat-lead col-span-2 lg:row-span-2" data-reveal="scale">
+                <svg viewBox="0 0 120 120" class="stat-lead-rings -rotate-90" aria-hidden="true">
                     {
                         rings.map((ring, index) => (
                             <g>
@@ -53,30 +55,164 @@ const rings = [
                         ))
                     }
                 </svg>
-                <div>
-                    <p class="type-stat text-gradient-brand" data-count>{lead.stat}</p>
-                    <p class="mt-4 max-w-sm type-body text-ink-2">{lead.description}</p>
-                </div>
+                <p class="stat-lead-value type-stat text-gradient-brand" data-count>{lead.stat}</p>
+                <p class="stat-lead-desc type-body text-ink-2">{lead.description}</p>
             </article>
 
-            {
-                rest.map((item) => (
-                    <article class="ds-tile flex min-h-[13rem] flex-col justify-between gap-6 p-6 sm:p-7" data-reveal="scale">
-                        <p
-                            class="text-[2.6rem] font-semibold leading-none tracking-[-0.045em] text-ink sm:text-[3.25rem]"
-                            data-count
-                        >
-                            {item.stat}
-                        </p>
-                        <p class="type-callout text-ink-2">{item.description}</p>
-                    </article>
-                ))
-            }
+            <div class="stat-list col-span-2 sm:contents">
+                {
+                    rest.map((item) => (
+                        <article class="ds-tile stat-row" data-reveal="scale">
+                            <p class="stat-row-value font-semibold leading-none tracking-[-0.045em] text-ink" data-count>
+                                {item.stat}
+                            </p>
+                            <p class="stat-row-desc text-ink-2">{item.description}</p>
+                        </article>
+                    ))
+                }
+            </div>
         </div>
     </div>
 </section>
 
 <style>
+    /* The headline. A phone: the figure and the rings side by side, the line under both. */
+    .stat-lead {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        grid-template-areas:
+            "value rings"
+            "desc desc";
+        align-items: center;
+        column-gap: 1rem;
+        row-gap: 1rem;
+        padding: 1.75rem;
+    }
+
+    .stat-lead-rings {
+        grid-area: rings;
+        width: 5.75rem;
+        height: 5.75rem;
+    }
+
+    .stat-lead-value {
+        grid-area: value;
+    }
+
+    .stat-lead-desc {
+        grid-area: desc;
+        max-width: 28rem;
+    }
+
+    /* A tablet: the figure and its line on the left, the rings large on the right. */
+    @media (min-width: 40rem) {
+        .stat-lead {
+            grid-template-areas:
+                "value rings"
+                "desc rings";
+            align-content: center;
+            column-gap: 2.5rem;
+            row-gap: 1rem;
+            padding: 2.5rem;
+        }
+
+        .stat-lead-value {
+            align-self: end;
+        }
+
+        .stat-lead-desc {
+            align-self: start;
+        }
+
+        .stat-lead-rings {
+            width: 10rem;
+            height: 10rem;
+        }
+    }
+
+    /* Wide: the tall tile, the rings at its head and the figure at its foot. */
+    @media (min-width: 64rem) {
+        .stat-lead {
+            grid-template-columns: minmax(0, 1fr);
+            grid-template-rows: auto 1fr auto auto;
+            grid-template-areas:
+                "rings"
+                "."
+                "value"
+                "desc";
+            align-items: start;
+            row-gap: 1rem;
+            min-height: 22rem;
+        }
+
+        .stat-lead-rings {
+            width: 11rem;
+            height: 11rem;
+        }
+    }
+
+    /* The other four. A phone: rows of one grouped panel, hairlines between them. */
+    @media (max-width: 39.99rem) {
+        .stat-list {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            border-radius: var(--radius-tile);
+            background-color: var(--ds-canvas-2);
+        }
+
+        .stat-row {
+            display: grid;
+            grid-template-columns: 5.5rem minmax(0, 1fr);
+            align-items: center;
+            column-gap: 1rem;
+            padding: 1.15rem 1.5rem;
+            border-radius: 0;
+            background: none;
+        }
+
+        .stat-row + .stat-row::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 1.5rem;
+            right: 1.5rem;
+            height: 1px;
+            background: var(--ds-hairline);
+        }
+
+        .stat-row-value {
+            font-size: 1.875rem;
+        }
+
+        .stat-row-desc {
+            font-size: 0.875rem;
+            line-height: 1.4;
+            text-wrap: pretty;
+        }
+    }
+
+    /* From a tablet up: each its own tile, the figure at its head and the line at its foot. */
+    @media (min-width: 40rem) {
+        .stat-row {
+            display: flex;
+            min-height: 13rem;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 1.5rem;
+            padding: 1.75rem;
+        }
+
+        .stat-row-value {
+            font-size: 3.25rem;
+        }
+
+        .stat-row-desc {
+            font-size: 0.9375rem;
+            line-height: 1.45;
+        }
+    }
+
     .stat-ring {
         stroke-dasharray: 100;
         stroke-dashoffset: var(--to);

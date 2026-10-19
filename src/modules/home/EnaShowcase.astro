@@ -45,12 +45,14 @@ const times = ["09:41", "09:42", "09:44"];
     </div>
 
     <div class="ds-container ds-section px-5 sm:px-8 lg:px-12">
-        <div class="mx-auto flex max-w-3xl flex-col items-center gap-8 text-center sm:gap-10" data-reveal-group>
+        <div
+            class="mx-auto flex max-w-3xl flex-col items-center gap-8 text-center sm:gap-10"
+            data-reveal-group
+        >
             <div class="overflow-visible py-8 sm:py-10 md:py-12" data-reveal="scale">
                 <div class="relative mx-auto size-36 sm:size-[9.5rem]">
                     <div
                         class="absolute inset-[-40%] animate-ds-angle rounded-full opacity-80 blur-2xl"
-                        style="background: conic-gradient(from var(--ds-angle), #22d3ee, #22c55e, #bef264, #14b8a6, #22d3ee)"
                     >
                     </div>
                     <EnaClover
@@ -61,7 +63,9 @@ const times = ["09:41", "09:42", "09:44"];
                     />
                 </div>
             </div>
-            <h2 class="type-display-2 text-gradient-ink max-w-xl pb-1" data-reveal>{enaSection.title}</h2>
+            <h2 class="type-display-2 text-gradient-ink max-w-xl pb-1" data-reveal>
+                {enaSection.title}
+            </h2>
             <p class="type-lead max-w-2xl text-ink-2" data-reveal>{enaSection.description}</p>
             <div class="flex flex-col gap-3 sm:flex-row" data-reveal>
                 <Button href={localizedDemoPath(lang)}>{t.bookDemo}</Button>
@@ -72,7 +76,12 @@ const times = ["09:41", "09:42", "09:44"];
         </div>
 
         <div class="mt-16 sm:mt-20" data-reveal="rise">
-            <EnaWizard client:visible cards={cards} copy={t.homeWizard} locale={intlLocaleForLang(lang)} />
+            <EnaWizard
+                client:visible
+                cards={cards}
+                copy={t.homeWizard}
+                locale={intlLocaleForLang(lang)}
+            />
         </div>
 
         <!-- The conversation, in words, for anyone the stage's drawing does not reach. -->
@@ -93,7 +102,9 @@ const times = ["09:41", "09:42", "09:44"];
             data-reveal="scale"
         >
             <div class="flex flex-col gap-4">
-                <p class="type-footnote font-semibold text-ink-2">{enaSection.highlight.replaces}</p>
+                <p class="type-footnote font-semibold text-ink-2">
+                    {enaSection.highlight.replaces}
+                </p>
                 <h3 class="type-title-1 max-w-md text-ink">{enaSection.highlight.title}</h3>
                 <p class="type-callout text-ink-2">{enaSection.highlight.description}</p>
                 <div class="mt-2 flex flex-col items-start gap-3">
@@ -121,7 +132,10 @@ const times = ["09:41", "09:42", "09:44"];
             </ol>
         </div>
 
-        <div class="mt-16 flex flex-col items-center gap-10 text-center lg:flex-row lg:justify-between lg:text-left" data-reveal-group>
+        <div
+            class="mt-16 flex flex-col items-center gap-10 text-center lg:flex-row lg:justify-between lg:text-left"
+            data-reveal-group
+        >
             <div class="flex max-w-md flex-col items-center gap-4 lg:items-start" data-reveal>
                 <h3 class="type-title-1 text-ink">{enaSection.trust.titleBold}</h3>
                 <p class="type-callout text-ink-2">{enaSection.trust.description}</p>
@@ -131,10 +145,14 @@ const times = ["09:41", "09:42", "09:44"];
                 </p>
             </div>
             <div class="flex flex-col items-center gap-3" data-reveal>
-                <span class="flex size-24 items-center justify-center rounded-[1.6rem] bg-fill-2 ring-1 ring-hairline">
+                <span
+                    class="flex size-24 items-center justify-center rounded-[1.6rem] bg-fill-2 ring-1 ring-hairline"
+                >
                     <ComplianceBadgeIcons id="gdpr" class="h-14 w-auto object-contain" />
                 </span>
-                <span class="type-footnote font-semibold text-ink-2">{enaSection.trust.badges.gdpr}</span>
+                <span class="type-footnote font-semibold text-ink-2"
+                    >{enaSection.trust.badges.gdpr}</span
+                >
             </div>
         </div>
     </div>
