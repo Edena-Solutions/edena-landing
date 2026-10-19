@@ -2,43 +2,226 @@
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/main.astro";
 import { translations } from "@/i18n/index.ts";
-import BlogPostList from "@/components/BlogPostList.tsx";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import PageHero from "@/modules/product/PageHero.astro";
+import SearchField from "@/components/ds/SearchField.astro";
+import BlogCard from "@/modules/blog/BlogCard.astro";
 import { blogCollectionForLang } from "@/lib/blog-collection";
+import { foldText } from "@/lib/search-text";
+
+/*
+ * The blog, in the home's design: a search field under the title, the newest post as a wide tile,
+ * then every other post in a grid of cards, a dozen at a time. All of them are in the page (hidden
+ * past the first dozen), so search reaches every post and crawlers every link.
+ */
 
 export async function getStaticPaths() {
- return [
- // Unprefixed root route: the canonical Spanish URL (/blog/).
- { params: { lang: undefined }, props: { lang: "es" } },
- { params: { lang: "es" }, props: { lang: "es" } },
- { params: { lang: "en" }, props: { lang: "en" } },
- { params: { lang: "ca" }, props: { lang: "ca" } },
- { params: { lang: "eus" }, props: { lang: "eus" } },
- { params: { lang: "fr" }, props: { lang: "fr" } },
- ];
+    return [
+        // Unprefixed root route: the canonical Spanish URL (/blog/).
+        { params: { lang: undefined }, props: { lang: "es" } },
+        { params: { lang: "es" }, props: { lang: "es" } },
+        { params: { lang: "en" }, props: { lang: "en" } },
+        { params: { lang: "ca" }, props: { lang: "ca" } },
+        { params: { lang: "eus" }, props: { lang: "eus" } },
+        { params: { lang: "fr" }, props: { lang: "fr" } },
+    ];
 }
+
+const PAGE = 12;
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
-const posts = await getCollection(blogCollectionForLang(lang));
-const sortedPosts = posts.sort((a, b) => b.data.date.localeCompare(a.data.date));
+const posts = (await getCollection(blogCollectionForLang(lang))).sort((a, b) =>
+    b.data.date.localeCompare(a.data.date),
+);
+const [latest, ...rest] = posts;
+const searchText = (post: (typeof posts)[number]) =>
+    foldText(`${post.data.title} ${post.data.description} ${(post.data.tags ?? []).join(" ")}`);
 ---
 
 <Layout
- content={{
- title: `${t.navigation.blog} | Edena`,
- description: `${t.navigation.blog}, Edena.`,
- }}
- lang={lang}
+    content={{
+        title: t.meta.blogTitle,
+        description: t.meta.blogDescription,
+    }}
+    lang={lang}
+    design="premium"
 >
- <section class="px-4 pt-10 flex flex-col gap-10">
- <div class="flex flex-col gap-4 items-center">
- <h1
- class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
- >
- {t.navigation.blog}
- </h1>
- <p class="text-muted-foreground max-w-150 text-center mx-auto">{t.blog.description}</p>
- </div>
- <BlogPostList client:load posts={sortedPosts} lang={lang} />
- </section>
+    <HomeMotion />
+    <PageHero title={t.blogPage.title} description={t.blog.description}>
+        <div class="ds-intro mt-10 w-full max-w-xl" style="--intro-i: 2">
+            <SearchField
+                placeholder={t.blogPage.searchPlaceholder}
+                clearLabel={t.blogPage.clearSearch}
+            />
+        </div>
+    </PageHero>
+
+    <section class="ds-section pt-10 sm:pt-14" data-blog-index data-page={PAGE}>
+        <div class="ds-container">
+            {
+                latest && (
+                    <div data-blog-latest data-reveal="rise">
+                        <BlogCard t={t} lang={lang} post={latest} featured />
+                    </div>
+                )
+            }
+
+            <h2 class="mb-6 mt-16 type-title-2 font-semibold text-ink sm:mt-20" data-blog-heading>
+                {t.blogPage.allArticles}
+            </h2>
+            <ul
+                class="m-0 grid list-none gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3"
+                data-blog-grid
+                data-reveal="rise"
+            >
+                {
+                    latest && (
+                        // The newest post again, for search results only: above, it has its own tile.
+                        <li
+                            class="blog-item"
+                            data-blog-item
+                            data-latest
+                            data-search={searchText(latest)}
+                            hidden
+                        >
+                            <BlogCard t={t} lang={lang} post={latest} />
+                        </li>
+                    )
+                }
+                {
+                    rest.map((post, index) => (
+                        <li
+                            class="blog-item"
+                            data-blog-item
+                            data-search={searchText(post)}
+                            style={`--i: ${index % PAGE}`}
+                            hidden={index >= PAGE}
+                        >
+                            <BlogCard t={t} lang={lang} post={post} />
+                        </li>
+                    ))
+                }
+            </ul>
+
+            <p
+                class="blog-empty type-body text-ink-2"
+                data-blog-empty
+                data-template={t.blogPage.noResults}
+                hidden
+            >
+            </p>
+
+            <div class="mt-10 flex justify-center">
+                <button
+                    type="button"
+                    class="ds-btn ds-btn--secondary ds-btn--lg"
+                    data-blog-more
+                    hidden={rest.length <= PAGE}
+                >
+                    {t.blogPage.loadMore}
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <ClosingCta lang={lang} />
 </Layout>
+
+<script>
+    import { matchesQuery } from "@/lib/search-text";
+
+    function setupBlogIndex() {
+        const root = document.querySelector<HTMLElement>("[data-blog-index]");
+        if (!root) return;
+        const page = Number(root.dataset.page) || 12;
+        const input = document.querySelector<HTMLInputElement>("[data-search-input]");
+        const clear = document.querySelector<HTMLButtonElement>("[data-search-clear]");
+        const latest = root.querySelector<HTMLElement>("[data-blog-latest]");
+        const heading = root.querySelector<HTMLElement>("[data-blog-heading]");
+        const empty = root.querySelector<HTMLElement>("[data-blog-empty]");
+        const more = root.querySelector<HTMLButtonElement>("[data-blog-more]");
+        const items = [...root.querySelectorAll<HTMLElement>("[data-blog-item]")];
+        const listed = items.filter((item) => !item.hasAttribute("data-latest"));
+        let shown = page;
+
+        // Browsing: the newest post on its own tile, then a dozen more at a time. Searching: every
+        // post that matches, the newest included, in the grid.
+        const apply = () => {
+            const query = input?.value.trim() ?? "";
+            if (clear) clear.hidden = !query;
+            if (latest) latest.hidden = !!query;
+            let matches = 0;
+            if (query) {
+                items.forEach((item) => {
+                    const hit = matchesQuery(item.dataset.search ?? "", query);
+                    item.hidden = !hit;
+                    if (hit) item.style.setProperty("--i", String(Math.min(matches++, 11)));
+                });
+            } else {
+                items.forEach((item) => (item.hidden = true));
+                listed.forEach((item, index) => {
+                    item.hidden = index >= shown;
+                    item.style.setProperty("--i", String(index % page));
+                });
+                matches = listed.length;
+            }
+            if (more) more.hidden = !!query || shown >= listed.length;
+            if (heading) heading.hidden = !!query && matches === 0;
+            if (empty) {
+                empty.hidden = !query || matches > 0;
+                empty.textContent = (empty.dataset.template ?? "").replace("{query}", query);
+            }
+        };
+
+        input?.addEventListener("input", apply);
+        clear?.addEventListener("click", () => {
+            if (!input) return;
+            input.value = "";
+            apply();
+            input.focus();
+        });
+        more?.addEventListener("click", () => {
+            shown += page;
+            apply();
+        });
+    }
+    document.addEventListener("astro:page-load", setupBlogIndex);
+</script>
+
+<style>
+    .blog-item {
+        animation: blog-item-in 700ms var(--ease-spring) both;
+        animation-delay: calc(var(--i, 0) * 45ms);
+    }
+
+    .blog-item[hidden] {
+        display: none;
+    }
+
+    @keyframes blog-item-in {
+        from {
+            opacity: 0;
+            translate: 0 1rem;
+        }
+    }
+
+    /* Searching, the newest post's tile steps aside and the grid moves up under the field. */
+    [data-blog-latest][hidden] + [data-blog-heading] {
+        margin-top: 0;
+    }
+
+    .blog-empty {
+        border-radius: var(--radius-card);
+        background-color: var(--ds-canvas-2);
+        padding: 2rem 1.5rem;
+        text-align: center;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .blog-item {
+            animation: none;
+        }
+    }
+</style>

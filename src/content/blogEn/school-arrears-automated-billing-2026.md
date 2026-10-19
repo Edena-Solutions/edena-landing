@@ -2,7 +2,7 @@
 title: "How to reduce late payments in schools and daycares with automated collections"
 date: "2026-03-20"
 translationKey: "morosidad-colegios-cobros-automaticos-2026"
-description: "Comprehensive strategy to reduce late payment with recurring collections and traceability. Practical guide for educational centers in Spain (2026)."
+description: "Late payment in schools and daycares is not just a number in a report: it is secretarial time, tension with families, pressure on the cash register and the risk of diverting attention from academics."
 tags:
     - "school delinquency"
     - "automatic payments"

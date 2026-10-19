@@ -2,7 +2,7 @@
 title: "Cómo reducir los impagos y mejorar la facturación en centros educativos"
 date: "2026-03-03"
 translationKey: "reducir-impagos-facturacion-colegios"
-description: "Quick wins administrativos para reducir impagos sin cambiar de software. Guía práctica para centros educativos en España (2026)."
+description: "Recibos con el concepto y la fecha de cargo claros, recordatorios solo a quien debe y un panel semanal de deuda por curso."
 tags: ["facturación colegios", "gestión de pagos escolares", "impagos", "cobro"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1662502729255-4d3a58486d4e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJhdWRzdGVyfGVufDB8fDB8fHww"

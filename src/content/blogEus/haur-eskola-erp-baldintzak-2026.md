@@ -2,7 +2,7 @@
 title: "Zer ERP izan beharko luke haur eskoletarako 2026an"
 date: "2026-04-08"
 translationKey: "erp-escuelas-infantiles-requisitos-2026"
-description: "ERP-ren baldintza espezifikoak haur eskoletarako. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Haur-eskolak edo haurtzaindegi batek oso behar zehatzak ditu: hileroko edo hiruhileko ordainketa-zikloak, itxaron-zerrenda luzeko plaza mugatuak."
 tags:
     - "ERP haur-eskolak"
     - "haurtzaindegiko softwarea"

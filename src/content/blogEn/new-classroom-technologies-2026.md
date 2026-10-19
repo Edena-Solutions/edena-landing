@@ -2,7 +2,7 @@
 title: "New Technologies in the Classroom 2026: Transforming the Educational Experience"
 date: "2026-01-29"
 translationKey: "nuevas-tecnologias-aula-2026"
-description: "Classroom technologies with a focus on competencies and liberated admin. Practical guide for educational centers in Spain (2026)."
+description: "The year 2026 is marking a before and after in how we teach and learn in Spanish classrooms."
 tags:
     - "educational technology"
     - "digital classroom"

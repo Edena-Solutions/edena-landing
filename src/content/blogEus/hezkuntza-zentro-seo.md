@@ -2,7 +2,7 @@
 title: "Hezkuntza zentroetarako SEO gida: Googlen agertu"
 date: "2026-02-12"
 translationKey: "seo-centros-educativos"
-description: "Tokiko SEO Google-n familiak erakartzeko. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Familiek eskola, haurtzaindegia edo prestakuntza zentro bat bilatzen dutenean, normalean Google-n hasten dira."
 tags:
     - "SEO hezkuntza zentroak"
     - "ikusgarritasuna"

@@ -2,7 +2,7 @@
 title: "Educational Dashboard: The control center for strategic management"
 date: "2025-02-25"
 translationKey: "dashboard-educativo"
-description: "Dashboard as a strategic control center of the center. Practical guide for educational centers in Spain (2026)."
+description: "In the information age, educational centers need management tools that provide full visibility over all their operations."
 tags:
     - "dashboard"
     - "administrative management"

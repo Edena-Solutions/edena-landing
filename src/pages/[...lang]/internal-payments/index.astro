@@ -1,20 +1,19 @@
 ---
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
-import Hero from "@/components/Hero.astro";
-import Section from "@/components/Section.astro";
-import GSAPSection from "@/components/ui/gsap-section";
-import Features from "@/components/Features";
-import ProductFAQs from "@/components/ProductFAQs.astro";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductHero from "@/modules/product/ProductHero.astro";
+import ProductSplit from "@/modules/product/ProductSplit.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import WalletScenes from "@/modules/product/scenes/WalletScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { ogFromAsset } from "@/lib/og-image";
 import billingInfo from "@/assets/img/screenshots/finance/billing_info.png";
-import billingInfoDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
-import invoiceAnalytics from "@/assets/img/screenshots/finance/invoice_analytics.png";
-import invoiceAnalyticsDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
-import heroImage from "@/assets/img/screenshots/finance/billing_cycle.png";
-import heroImageDark from "@/assets/img/screenshots/finance/dark/billing_cycle.png";
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -22,10 +21,11 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const labels = { ...productSceneLabels(t), w: t.walletScenes };
+const locale = intlLocaleForLang(lang);
 const m = t.productModules.internalPayments;
 
 const icons = ["Wallet", "CreditCard", "Zap", "Activity", "Bell", "FileBarChart"];
-// Related pages per feature card (avoids 6x self-links).
 const featureLinks = ["/families", "/app", "/finance", "/dashboard", "/communication", "/finance"];
 const features = m.features.map((f, i) => ({
     icon: icons[i],
@@ -42,63 +42,33 @@ const features = m.features.map((f, i) => ({
         ...ogFromAsset(billingInfo, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
-    <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero
-            t={t}
-            heroImage={heroImage}
-            heroImageDark={heroImageDark}
-            showBookDemoInHero={true}
-            mainTitle={m.mainTitle}
-            mainDescription={m.mainDescription}
-            leftCard={{
-                title: m.heroLeftTitle,
-                description: m.heroLeftDescription,
-                showButton: true,
-            }}
-            rightCard={{
-                title: m.heroRightTitle,
-                description: m.heroRightDescription,
-                image: billingInfo,
-                imageDark: billingInfoDark,
-                imageClass: "w-full mx-auto object-contain md:h-100",
-                altText: m.altHero,
-            }}
-        />
-        <Features
-            client:load
-            t={t}
-            features={features}
-            title={m.featuresTitle}
-            description={m.featuresDescription}
-        />
-        <Section
-            t={t}
-            sectionTitle={m.sectionTitle}
-            sectionDescription={m.sectionDescription}
-            leftCard={{
-                title: m.section1Title,
-                description: m.section1Description,
-                altText: m.altSection1,
-            }}
-            rightCard={{
-                title: m.section2Title,
-                description: m.section2Description,
-                image: invoiceAnalytics,
-                imageDark: invoiceAnalyticsDark,
-                imageClass: "w-full mx-auto object-contain md:h-100",
-                altText: m.altSection2,
-            }}
-        >
-            <img
-                slot="leftCardVisual"
-                src="/gifs/payment-success.gif"
-                alt={m.altSection1}
-                class="mx-auto md:mt-8 h-40 w-40 object-contain grayscale md:h-48 md:w-48"
-            />
-        </Section>
-        <ProductFAQs t={t} title={m.faqTitle} description={m.faqDescription} faqs={m.faqs} />
-    </GSAPSection>
+    <HomeMotion />
+    <ProductHero t={t} title={m.mainTitle} description={m.mainDescription} bleed>
+        <WalletScenes slot="visual" client:visible scene="wallets" labels={labels} locale={locale} />
+    </ProductHero>
+    <ProductSplit
+        t={t}
+        left={{ title: m.heroLeftTitle, description: m.heroLeftDescription, cta: true, bleed: true }}
+        right={{ title: m.heroRightTitle, description: m.heroRightDescription, bleed: true }}
+    >
+        <WalletScenes slot="left" client:visible scene="charge" labels={labels} locale={locale} />
+        <WalletScenes slot="right" client:visible scene="balance" labels={labels} locale={locale} />
+    </ProductSplit>
+    <FeatureGrid t={t} features={features} title={m.featuresTitle} description={m.featuresDescription} />
+    <ProductSplit
+        t={t}
+        title={m.sectionTitle}
+        description={m.sectionDescription}
+        left={{ title: m.section1Title, description: m.section1Description, bleed: true }}
+        right={{ title: m.section2Title, description: m.section2Description, bleed: true }}
+    >
+        <WalletScenes slot="left" client:visible scene="spend" labels={labels} locale={locale} />
+        <WalletScenes slot="right" client:visible scene="report" labels={labels} locale={locale} />
+    </ProductSplit>
+    <ProductFaqs t={t} title={m.faqTitle} description={m.faqDescription} faqs={m.faqs} />
+    <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
         name="Edena - Pagos Internos"

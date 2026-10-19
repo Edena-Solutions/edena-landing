@@ -2,7 +2,7 @@
 title: "Competències Digitals del Professorat el 2026: Més de 661.000 Docents Certificats"
 date: "2026-01-10"
 translationKey: "competencias-digitales-profesorado-2026"
-description: "Estat del professorat certificat i Pla DigEdu 2026. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "El Marc de Referència de la Competència Digital Docent, actualitzat el 2022 i alineat amb el marc europeu #DigCompEdu."
 tags:
     - "competències digitals"
     - "formació docent"

@@ -1,0 +1,437 @@
+---
+import { LOGO_PATH, LOGO_VIEWBOX } from "@/lib/brand";
+import {
+    AlertCircle,
+    Archive,
+    Banknote,
+    Bell,
+    BellRing,
+    BarChart2,
+    Building2,
+    Calendar,
+    CalendarCheck,
+    CheckSquare,
+    ClipboardCheck,
+    Clock,
+    Code2,
+    CreditCard,
+    Download,
+    FileText,
+    Flag,
+    Folder,
+    Globe,
+    GraduationCap,
+    Headphones,
+    Heart,
+    History,
+    Image,
+    LayoutDashboard,
+    ListChecks,
+    Lock,
+    MessageCircle,
+    MessageSquare,
+    Monitor,
+    PenLine,
+    PieChart,
+    Receipt,
+    Rocket,
+    Shield,
+    ShieldCheck,
+    ShoppingBag,
+    Smartphone,
+    Sparkles,
+    Star,
+    Target,
+    Upload,
+    UserCog,
+    UserPlus,
+    Users,
+} from "lucide-react";
+import type { ComponentType } from "react";
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import type { Translation } from "@/i18n";
+import { useTranslatedPath } from "@/i18n";
+
+/*
+ * Everything Edena does, at a glance: one grid of app-icon tiles with Edena glowing at its centre,
+ * the four pillars around it and every feature further out, fading into the page the further it
+ * sits — the way Lovable and Apple lay out what a product connects. Every tile is a link to where
+ * that feature lives; its name shows on hover and focus, and is the link's text.
+ *
+ * Server-rendered (the React version this replaced was `client:only`, so none of these links were
+ * in the HTML). The tiles ripple in from the centre when the grid comes into view.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+}
+
+const { t, lang } = Astro.props;
+const { wallOfFeatures } = t;
+const translatePath = useTranslatedPath(lang);
+
+type Icon = ComponentType<{ className?: string }>;
+type MainKey = keyof Translation["wallOfFeatures"]["main"];
+type ItemKey = keyof Translation["wallOfFeatures"]["items"];
+
+const main: { key: MainKey; icon?: Icon; text: string; path: string }[] = [
+    { key: "students", icon: GraduationCap, text: "text-sys-blue", path: "/students" },
+    { key: "guardians", icon: Users, text: "text-sys-orange", path: "/families" },
+    { key: "ai", icon: Sparkles, text: "text-sys-purple", path: "/ena" },
+    { key: "finance", icon: Receipt, text: "text-sys-green", path: "/finance" },
+];
+
+const items: { key: ItemKey; icon: Icon; path: string }[] = [
+    { key: "attendance", icon: CalendarCheck, path: "/students" },
+    { key: "grades", icon: Star, path: "/assignment" },
+    { key: "reportCards", icon: FileText, path: "/assignment" },
+    { key: "crm", icon: UserPlus, path: "/crm" },
+    { key: "tasks", icon: CheckSquare, path: "/assignment" },
+    { key: "communication", icon: MessageCircle, path: "/app" },
+    { key: "messaging", icon: MessageSquare, path: "/app" },
+    { key: "notifications", icon: Bell, path: "/app" },
+    { key: "digitalSignature", icon: PenLine, path: "/students" },
+    { key: "billing", icon: Receipt, path: "/finance" },
+    { key: "payments", icon: CreditCard, path: "/finance" },
+    { key: "directDebit", icon: Banknote, path: "/finance" },
+    { key: "reports", icon: BarChart2, path: "/dashboard" },
+    { key: "verifactu", icon: ShieldCheck, path: "/finance" },
+    { key: "controlPanel", icon: LayoutDashboard, path: "/dashboard" },
+    { key: "analytics", icon: PieChart, path: "/dashboard" },
+    { key: "calendar", icon: Calendar, path: "/assignment" },
+    { key: "schedules", icon: Clock, path: "/assignment" },
+    { key: "groups", icon: Users, path: "/groups" },
+    { key: "multiCenter", icon: Building2, path: "/groups" },
+    { key: "documents", icon: Folder, path: "/students" },
+    { key: "files", icon: Archive, path: "/students" },
+    { key: "securePhotos", icon: Image, path: "/app" },
+    { key: "health", icon: Heart, path: "/students" },
+    { key: "authorizations", icon: ClipboardCheck, path: "/students" },
+    { key: "permissions", icon: Lock, path: "/students" },
+    { key: "teacherPortal", icon: GraduationCap, path: "/assignment" },
+    { key: "assessments", icon: Target, path: "/assignment" },
+    { key: "rubrics", icon: ListChecks, path: "/assignment" },
+    { key: "goals", icon: Flag, path: "/assignment" },
+    { key: "gdpr", icon: Shield, path: "/students" },
+    { key: "api", icon: Code2, path: "/students" },
+    { key: "support", icon: Headphones, path: "/contact" },
+    { key: "onboarding", icon: Rocket, path: "/contact" },
+    { key: "import", icon: Upload, path: "/students" },
+    { key: "export", icon: Download, path: "/students" },
+    { key: "familyApp", icon: Smartphone, path: "/app" },
+    { key: "pushAlerts", icon: BellRing, path: "/app" },
+    { key: "multiDevice", icon: Monitor, path: "/app" },
+    { key: "roles", icon: UserCog, path: "/students" },
+    { key: "history", icon: History, path: "/students" },
+    { key: "schoolShop", icon: ShoppingBag, path: "/app" },
+    { key: "languages", icon: Globe, path: "/students" },
+    { key: "allergies", icon: AlertCircle, path: "/students" },
+];
+
+const tones = [
+    "text-sys-blue",
+    "text-sys-green",
+    "text-sys-orange",
+    "text-sys-pink",
+    "text-sys-purple",
+    "text-sys-teal",
+    "text-sys-indigo",
+    "text-sys-red",
+];
+
+/*
+ * The grid: 11 × 5 tiles around a centre. Distance is elliptical (the grid is wider than tall), so
+ * fading and the reveal ripple follow its shape. The pillars take the four cells touching the
+ * centre; the features fill the rest nearest-first, in the order above; the cells left over, the
+ * farthest corners, stay empty tiles.
+ */
+const COLS = 11;
+const ROWS = 5;
+const CENTER = { row: 2, col: 5 };
+const distance = (row: number, col: number) =>
+    Math.hypot((col - CENTER.col) / (COLS / 2), (row - CENTER.row) / (ROWS / 2));
+const pillarCells: Record<string, MainKey> = {
+    "1-5": "students",
+    "2-6": "finance",
+    "3-5": "guardians",
+    "2-4": "ai",
+};
+
+type Tile =
+    | { kind: "center"; row: number; col: number; d: number }
+    | { kind: "pillar"; row: number; col: number; d: number; pillar: (typeof main)[number] }
+    | {
+          kind: "item";
+          row: number;
+          col: number;
+          d: number;
+          item: (typeof items)[number];
+          tone: string;
+      }
+    | { kind: "empty"; row: number; col: number; d: number };
+
+const cells = Array.from({ length: ROWS * COLS }, (_, index) => {
+    const row = Math.floor(index / COLS);
+    const col = index % COLS;
+    return { row, col, d: distance(row, col) };
+});
+const free = cells
+    .filter(
+        (cell) =>
+            !(cell.row === CENTER.row && cell.col === CENTER.col) &&
+            !pillarCells[`${cell.row}-${cell.col}`],
+    )
+    .sort((a, b) => a.d - b.d);
+const placed = new Map<string, Tile>();
+placed.set(`${CENTER.row}-${CENTER.col}`, { kind: "center", ...CENTER, d: 0 });
+for (const [key, pillarKey] of Object.entries(pillarCells)) {
+    const [row, col] = key.split("-").map(Number);
+    const pillar = main.find((entry) => entry.key === pillarKey)!;
+    placed.set(key, { kind: "pillar", row, col, d: distance(row, col), pillar });
+}
+free.forEach((cell, index) => {
+    const item = items[index];
+    placed.set(
+        `${cell.row}-${cell.col}`,
+        item
+            ? { kind: "item", ...cell, item, tone: tones[index % tones.length] }
+            : { kind: "empty", ...cell },
+    );
+});
+const tiles = cells.map((cell) => placed.get(`${cell.row}-${cell.col}`)!);
+const maxD = Math.max(...tiles.map((tile) => tile.d));
+/** 0 at the centre, 1 at the farthest corner: drives the fade, the grey and the ripple's delay. */
+const fade = (tile: Tile) => Math.round((tile.d / maxD) * 100) / 100;
+const ring = (tile: Tile) =>
+    Math.max(Math.abs(tile.col - CENTER.col), Math.abs(tile.row - CENTER.row));
+---
+
+<section class="ds-section">
+    <div class="ds-container">
+        <SectionHeader title={wallOfFeatures.title} description={wallOfFeatures.description} />
+    </div>
+
+    <div class="ds-container mt-14">
+        <div
+            class="wall relative isolate overflow-hidden rounded-tile py-10 sm:py-14 dark:ring-1 dark:ring-hairline"
+        >
+            <ul class="wall-grid mx-auto" style={`--cols:${COLS};--rows:${ROWS}`}>
+                {
+                    tiles.map((tile) => {
+                        const style = `--d:${fade(tile)};--reveal-i:${ring(tile)}`;
+                        if (tile.kind === "empty") {
+                            return (
+                                <li class="wall-cell" style={style} aria-hidden="true">
+                                    <span class="wall-tile" />
+                                </li>
+                            );
+                        }
+                        if (tile.kind === "center") {
+                            return (
+                                <li class="wall-cell" style={style}>
+                                    <div data-reveal="scale" class="size-full">
+                                        <span class="wall-center">
+                                            <svg
+                                                viewBox={LOGO_VIEWBOX}
+                                                class="size-[50%] text-white"
+                                                role="img"
+                                                aria-label="Edena"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    fill-rule="evenodd"
+                    d={LOGO_PATH}
+                                                />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </li>
+                            );
+                        }
+                        const name =
+                            tile.kind === "pillar"
+                                ? wallOfFeatures.main[tile.pillar.key].name
+                                : wallOfFeatures.items[tile.item.key];
+                        const href = translatePath(
+                            tile.kind === "pillar" ? tile.pillar.path : tile.item.path,
+                        );
+                        const Glyph = tile.kind === "pillar" ? tile.pillar.icon : tile.item.icon;
+                        return (
+                            <li class="wall-cell" style={style}>
+                                <div data-reveal="scale" class="size-full">
+                                    <a
+                                        href={href}
+                                        class:list={[
+                                            "wall-tile wall-link group",
+                                            tile.kind === "pillar" && "wall-pillar",
+                                        ]}
+                                    >
+                                        {Glyph && (
+                                            <Glyph
+                                                className={`size-[40%] ${tile.kind === "pillar" ? tile.pillar.text : tile.tone}`}
+                                            />
+                                        )}
+                                        <span class="sr-only">{name}</span>
+                                        <span class="wall-label" aria-hidden="true">
+                                            {name}
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                        );
+                    })
+                }
+            </ul>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* The tile's size steps with the screen; the grid stays 11 × 5 and the frame crops its sides. */
+    .wall-grid {
+        --tile: 4.5rem;
+        --gap: 0.5rem;
+        display: grid;
+        width: max-content;
+        margin-inline: calc(50% - (var(--cols) * var(--tile) + (var(--cols) - 1) * var(--gap)) / 2);
+        grid-template-columns: repeat(var(--cols), var(--tile));
+        grid-template-rows: repeat(var(--rows), var(--tile));
+        gap: var(--gap);
+    }
+
+    @media (min-width: 48rem) {
+        .wall-grid {
+            --tile: 5.75rem;
+            --gap: 0.75rem;
+        }
+    }
+
+    @media (min-width: 64rem) {
+        .wall-grid {
+            --tile: 6.5rem;
+            --gap: 0.875rem;
+        }
+    }
+
+    /* Everything fades into the frame toward its edges, a little more than the grid's own ellipse. */
+    .wall {
+        -webkit-mask-image: radial-gradient(ellipse 50% 64% at 50% 50%, #000 32%, transparent 100%);
+        mask-image: radial-gradient(ellipse 50% 64% at 50% 50%, #000 32%, transparent 100%);
+    }
+
+    .wall-cell {
+        position: relative;
+        opacity: calc(1 - var(--d) * 0.45);
+    }
+
+    .wall-tile {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24%;
+        background: linear-gradient(
+            180deg,
+            var(--ds-surface),
+            color-mix(in srgb, var(--ds-surface) 92%, var(--ds-canvas-2))
+        );
+        box-shadow:
+            inset 0 0 0 1px var(--ds-hairline),
+            0 1px 2px rgb(0 0 0 / 0.04);
+        filter: grayscale(calc(var(--d) * 1.2));
+        transition:
+            transform 600ms var(--ease-spring),
+            filter 300ms var(--ease-fluid),
+            box-shadow 300ms var(--ease-fluid);
+    }
+
+    .wall-pillar {
+        box-shadow:
+            inset 0 0 0 1px var(--ds-hairline-strong),
+            0 8px 24px -10px rgb(0 0 0 / 0.18);
+    }
+
+    .wall-link:hover,
+    .wall-link:focus-visible {
+        z-index: 2;
+        transform: translateY(-4px) scale(1.06);
+        filter: none;
+        box-shadow:
+            inset 0 0 0 1px var(--ds-hairline-strong),
+            0 18px 36px -14px rgb(0 0 0 / 0.3);
+        outline: none;
+    }
+
+    .wall-link:focus-visible {
+        box-shadow:
+            0 0 0 2px var(--ds-focus),
+            0 18px 36px -14px rgb(0 0 0 / 0.3);
+    }
+
+    .wall-link:active {
+        transform: translateY(-1px) scale(0.98);
+        transition-duration: 100ms;
+    }
+
+    /* The name, rising into place above the tile. */
+    .wall-label {
+        position: absolute;
+        bottom: calc(100% + 0.5rem);
+        left: 50%;
+        z-index: 3;
+        translate: -50% 0.35rem;
+        white-space: nowrap;
+        border-radius: 999px;
+        padding: 0.3rem 0.7rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--ds-canvas);
+        background: var(--ds-ink);
+        opacity: 0;
+        pointer-events: none;
+        transition:
+            opacity 200ms var(--ease-fluid),
+            translate 500ms var(--ease-spring);
+    }
+
+    .wall-link:hover .wall-label,
+    .wall-link:focus-visible .wall-label {
+        opacity: 1;
+        translate: -50% 0;
+    }
+
+    /* Edena: the brand's green, lit from within, breathing. */
+    .wall-center {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24%;
+        background: linear-gradient(180deg, #a3e635 0%, #22c55e 52%, #0d9488 100%);
+        box-shadow:
+            inset 0 1px 0 rgb(255 255 255 / 0.35),
+            0 0 0 1px rgb(34 197 94 / 0.4),
+            0 0 2.5rem 0.25rem rgb(34 197 94 / 0.45),
+            0 0 6rem 1rem rgb(20 184 166 / 0.25);
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .wall-center {
+            animation: wall-breathe 4.5s ease-in-out infinite;
+        }
+    }
+
+    @keyframes wall-breathe {
+        50% {
+            box-shadow:
+                inset 0 1px 0 rgb(255 255 255 / 0.35),
+                0 0 0 1px rgb(34 197 94 / 0.5),
+                0 0 3.5rem 0.5rem rgb(34 197 94 / 0.55),
+                0 0 8rem 1.5rem rgb(20 184 166 / 0.3);
+        }
+    }
+</style>

@@ -2,7 +2,7 @@
 title: "Màrqueting educatiu digital: Estratègies per atraure i retenir famílies a l'era digital"
 date: "2025-09-08"
 translationKey: "marketing-educativo-digital-estrategias"
-description: "Màrqueting digital per a col·legis privats i concertats a Espanya. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "Si dirigeixes un col·legi privat o concertat de 150 a 800 famílies, probablement inverteixes a web, Open Day o xarxes i tot i així no veus el retorn en matrícules."
 tags:
     - "màrqueting educatiu"
     - "màrqueting digital"

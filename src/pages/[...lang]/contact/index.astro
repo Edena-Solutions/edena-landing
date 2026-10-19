@@ -2,8 +2,14 @@
 import { translations, localeStaticPaths } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
 import { ContactForm } from "@/components/ContactForm";
-import TopGlow from "@/components/TopGlow.astro";
-import Conclusion from "@/modules/home/Conclusion.astro";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import PageHero from "@/modules/product/PageHero.astro";
+
+/*
+ * Contact, in the home's design: the question, then the form — who is writing on the left, what
+ * they need on the right — and the closing call underneath.
+ */
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -13,22 +19,13 @@ const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
 ---
 
-<Layout
-    content={{ title: t.meta.contactTitle, description: t.meta.contactDescription }}
-    lang={lang}
->
-    <section class="relative grid gap-10 px-4 pt-10 md:p-10">
-        <div class="relative z-10 w-full max-w-7xl mx-auto flex flex-col gap-8">
-            <div class="text-center flex flex-col gap-2 items-center mx-auto">
-                <h1
-                    class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
-                >
-                    {t.contact.title}
-                </h1>
-                <p class="text-muted-foreground max-w-150">{t.contact.description}</p>
-            </div>
+<Layout content={{ title: t.meta.contactTitle, description: t.meta.contactDescription }} lang={lang} design="premium">
+    <HomeMotion />
+    <PageHero title={t.contact.title} description={t.contact.description} />
+    <section class="ds-section pt-12 sm:pt-16">
+        <div class="ds-container" data-reveal="rise">
             <ContactForm client:load lang={lang} formspreeUrl={"https://formspree.io/f/mykbqoeq"} />
-            <Conclusion lang={lang} isSimplified={true} />
         </div>
     </section>
+    <ClosingCta lang={lang} />
 </Layout>

@@ -1,26 +1,22 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState, type KeyboardEvent, type ReactNode } from "react";
 import { z } from "zod";
-import gsap from "gsap";
-import {
-    School,
-    Baby,
-    Network,
-    GraduationCap,
-    Handshake,
-    Mail,
-    Check,
-} from "lucide-react";
+import { AlertCircle, Baby, Check, GraduationCap, Handshake, Mail, Network, School, Send } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { Checkbox } from "@/components/ui/checkbox";
 import { PhoneInput } from "@/components/ui/phone-input";
 import { translations } from "@/i18n/index.ts";
 import { WHATSAPP_NUMBERS } from "@/constants/contact";
 import { WhatsAppLogo } from "@/components/WhatsAppLogo";
+
+/*
+ * The contact form, in the home's design. On the left, who is writing — five profiles as a radio
+ * group of app-icon rows — and the other ways in, email and WhatsApp. On the right, the form for
+ * that profile: its own fields slide in when the profile changes, every field a soft well that
+ * lights green while in use (`.ds-form`), and a drawn tick once it is sent.
+ *
+ * What it asks and what it sends are unchanged: the same validation, the same Formspree payload.
+ */
 
 interface Props {
     lang: string;
@@ -28,6 +24,8 @@ interface Props {
 }
 
 type Profile = "school" | "nursery" | "group" | "academy" | "partner";
+
+const PROFILES: Profile[] = ["school", "nursery", "group", "academy", "partner"];
 
 const profileIcons = {
     school: School,
@@ -37,18 +35,35 @@ const profileIcons = {
     partner: Handshake,
 } as const;
 
-/** Colors follow the module cards in PricingModules.tsx */
-const profileIconColors: Record<Profile, string> = {
-    school: "bg-sky-100 text-sky-600 dark:bg-sky-500/15 dark:text-sky-400",
-    nursery: "bg-amber-100 text-amber-600 dark:bg-amber-500/15 dark:text-amber-400",
-    group: "bg-indigo-100 text-indigo-600 dark:bg-indigo-500/15 dark:text-indigo-400",
-    academy: "bg-emerald-100 text-emerald-600 dark:bg-emerald-500/15 dark:text-emerald-400",
-    partner: "bg-rose-100 text-rose-600 dark:bg-rose-500/15 dark:text-rose-400",
+const profileTones: Record<Profile, string> = {
+    school: "bg-sys-blue",
+    nursery: "bg-sys-orange",
+    group: "bg-sys-indigo",
+    academy: "bg-sys-green",
+    partner: "bg-sys-pink",
 };
 
 const stageKeys = ["infantil", "primaria", "eso", "bachillerato", "fp"] as const;
 
 const CONTACT_EMAIL = "hola@edena.es";
+
+/** A label, its control and the line that says what is wrong with it. */
+function Field({ id, label, error, className, children }: { id?: string; label: string; error?: string; className?: string; children: ReactNode }) {
+    return (
+        <div className={cn("flex flex-col gap-2", className)}>
+            <label htmlFor={id} className="type-footnote font-medium text-ink-2">
+                {label}
+            </label>
+            {children}
+            {error && (
+                <p className="flex items-center gap-1.5 type-footnote text-red-600 dark:text-red-400">
+                    <AlertCircle className="size-3.5 shrink-0" aria-hidden />
+                    {error}
+                </p>
+            )}
+        </div>
+    );
+}
 
 export function ContactForm({ lang, formspreeUrl }: Props) {
     const t = translations[lang as keyof typeof translations];
@@ -80,35 +95,9 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
     const [phoneValid, setPhoneValid] = useState(true);
     const [errors, setErrors] = useState<Partial<Record<keyof typeof initialData, string>>>({});
     const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
-    const formRef = useRef<HTMLFormElement>(null);
+    const radios = useRef<(HTMLButtonElement | null)[]>([]);
 
-    const prefersReducedMotion = () =>
-        window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-    /** Animate the profile-dependent fields in whenever the profile changes */
-    useEffect(() => {
-        const form = formRef.current;
-        if (!form || prefersReducedMotion()) return;
-        const ctx = gsap.context(() => {
-            gsap.fromTo(
-                "[data-profile-anim]",
-                { autoAlpha: 0, y: 14 },
-                {
-                    autoAlpha: 1,
-                    y: 0,
-                    duration: 0.4,
-                    stagger: 0.06,
-                    ease: "power3.out",
-                    clearProps: "all",
-                },
-            );
-        }, form);
-        return () => ctx.revert();
-    }, [profile]);
-
-    const handleChange = (
-        e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>,
-    ) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
         const { name, value } = e.target;
         setFormData((prev) => ({ ...prev, [name]: value }));
         if (errors[name as keyof typeof initialData]) {
@@ -117,31 +106,23 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
     };
 
     const toggleStage = (stage: string) => {
-        setStages((prev) =>
-            prev.includes(stage) ? prev.filter((s) => s !== stage) : [...prev, stage],
-        );
+        setStages((prev) => (prev.includes(stage) ? prev.filter((s) => s !== stage) : [...prev, stage]));
     };
 
     const handleProfileChange = (next: Profile) => {
         if (next === profile) return;
-        const targets = formRef.current?.querySelectorAll("[data-profile-anim]");
-        if (!targets?.length || prefersReducedMotion()) {
-            setProfile(next);
-            setErrors({});
-            return;
-        }
-        gsap.killTweensOf(targets);
-        gsap.to(targets, {
-            autoAlpha: 0,
-            y: 6,
-            duration: 0.15,
-            stagger: 0.02,
-            ease: "power2.in",
-            onComplete: () => {
-                setProfile(next);
-                setErrors({});
-            },
-        });
+        setProfile(next);
+        setErrors({});
+    };
+
+    /** Arrow keys move through the profiles, as a radio group does. */
+    const handleRadioKey = (event: KeyboardEvent<HTMLButtonElement>, index: number) => {
+        const step = event.key === "ArrowDown" || event.key === "ArrowRight" ? 1 : event.key === "ArrowUp" || event.key === "ArrowLeft" ? -1 : 0;
+        if (!step) return;
+        event.preventDefault();
+        const next = (index + step + PROFILES.length) % PROFILES.length;
+        handleProfileChange(PROFILES[next]);
+        radios.current[next]?.focus();
     };
 
     const handleSubmit = async (e: React.FormEvent) => {
@@ -172,9 +153,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
 
         if (profile === "school") {
             payload.students = formData.students;
-            payload.stages = stages
-                .map((s) => ct.profileFields.school.stages[s as (typeof stageKeys)[number]])
-                .join(", ");
+            payload.stages = stages.map((s) => ct.profileFields.school.stages[s as (typeof stageKeys)[number]]).join(", ");
         } else if (profile === "nursery") {
             payload.children = formData.children;
             payload.classrooms = formData.classrooms;
@@ -214,429 +193,241 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
 
     const isFormValid =
         schema.safeParse(formData).success &&
-        (profile !== "partner" ||
-            (phoneValid && formData.centerName.trim() !== "" && formData.website.trim() !== ""));
+        (profile !== "partner" || (phoneValid && formData.centerName.trim() !== "" && formData.website.trim() !== ""));
+
+    const centerField = (label: string, className?: string) => (
+        <Field id="centerName" label={label} error={errors.centerName} className={className}>
+            <Input id="centerName" name="centerName" value={formData.centerName} onChange={handleChange} aria-invalid={!!errors.centerName} />
+        </Field>
+    );
+    const numberField = (name: "students" | "children" | "classrooms" | "centers", label: string) => (
+        <Field id={name} label={label}>
+            <Input id={name} name={name} type="number" min="1" inputMode="numeric" value={formData[name]} onChange={handleChange} />
+        </Field>
+    );
 
     return (
-        <div className="grid overflow-hidden rounded bg-card md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
-            {/* Left panel */}
-            <div className="relative flex flex-col gap-6 p-6 md:pr-3">
-                <div className="relative z-10 flex flex-col gap-1">
-                    <h2 className="text-xs font-bold uppercase tracking-widest">{ct.infoTitle}</h2>
-                    <p className="text-xs text-muted-foreground">{ct.infoSubtitle}</p>
+        <div className="ds-form grid gap-4 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+            {/* Who is writing, and the other ways in. */}
+            <aside className="ds-tile flex flex-col gap-6 p-5 sm:p-8">
+                <div className="flex flex-col gap-1 px-1">
+                    <h2 className="type-title-3 text-ink">{ct.infoTitle}</h2>
+                    <p className="type-footnote text-ink-2">{ct.infoSubtitle}</p>
                 </div>
 
-                <div
-                    className="relative z-10 grid md:grid-cols-2 gap-2"
-                    role="radiogroup"
-                    aria-label={ct.infoSubtitle}
-                >
-                    {(Object.keys(profileIcons) as Profile[]).map((key) => {
+                <div className="flex flex-col gap-1.5" role="radiogroup" aria-label={ct.infoSubtitle}>
+                    {PROFILES.map((key, index) => {
                         const Icon = profileIcons[key];
                         const selected = profile === key;
                         return (
-                            <div
+                            <button
                                 key={key}
-                                className={cn(
-                                    "group cursor-pointer relative w-full overflow-hidden rounded-[0.3em] bg-background p-[2px] transition-all duration-300 ease-in-out hover-gradient-primary hover:bg-gradient-to-r",
-                                    key === "partner" && "md:col-span-2",
-                                )}
+                                ref={(el) => {
+                                    radios.current[index] = el;
+                                }}
+                                type="button"
+                                role="radio"
+                                aria-checked={selected}
+                                tabIndex={selected ? 0 : -1}
                                 onClick={() => handleProfileChange(key)}
+                                onKeyDown={(event) => handleRadioKey(event, index)}
+                                className={cn(
+                                    "flex items-center gap-3.5 rounded-[1.1rem] p-3 text-left transition-[background-color,box-shadow] duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--ds-focus)]",
+                                    selected ? "bg-surface elev-2 ring-1 ring-hairline" : "hover:bg-fill-2",
+                                )}
                             >
-                                <div className="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible" />
-                                <Card
-                                    role="radio"
-                                    aria-checked={selected}
-                                    tabIndex={0}
-                                    className="relative rounded flex flex-col gap-2 p-4 h-full bg-background"
-                                    onKeyDown={(e) => {
-                                        if (e.key === "Enter" || e.key === " ") {
-                                            e.preventDefault();
-                                            handleProfileChange(key);
-                                        }
-                                    }}
-                                >
-                                    {selected && (
-                                        <span className="absolute top-4 right-4 flex size-3 items-center justify-center rounded-full bg-primary text-primary-foreground animate-in fade-in zoom-in-75 duration-200">
-                                            <Check className="size-2" />
-                                        </span>
+                                <span className={cn("ds-app-icon size-10", profileTones[key])}>
+                                    <Icon className="size-5" />
+                                </span>
+                                <span className="flex min-w-0 flex-1 flex-col gap-0.5">
+                                    <span className="type-callout font-semibold text-ink">{ct.profiles[key]}</span>
+                                    <span className="type-footnote text-ink-2">{ct.profileDescriptions[key]}</span>
+                                </span>
+                                <span
+                                    aria-hidden
+                                    className={cn(
+                                        "flex size-5 shrink-0 items-center justify-center rounded-full transition-[background-color,box-shadow] duration-300",
+                                        selected ? "bg-ink text-canvas" : "ring-[1.5px] ring-hairline-strong",
                                     )}
-                                    <div className="flex gap-2">
-                                        <div
-                                            className={cn(
-                                                "flex w-fit p-3 rounded h-fit",
-                                                profileIconColors[key],
-                                            )}
-                                        >
-                                            <Icon className="size-5" />
-                                        </div>
-                                        <div className="flex flex-col">
-                                            <h3 className="uppercase tracking-widest text-[10px] font-semibold">
-                                                {ct.profiles[key]}
-                                            </h3>
-                                            <p className="text-xs text-muted-foreground">
-                                                {ct.profileDescriptions[key]}
-                                            </p>
-                                        </div>
-                                    </div>
-                                </Card>
-                            </div>
+                                >
+                                    {selected && <Check className="size-3" strokeWidth={3} />}
+                                </span>
+                            </button>
                         );
                     })}
                 </div>
 
-                <div className="relative z-10 mt-auto flex flex-col gap-4 border-t border-primary/20 pt-6">
-                    <div className="flex items-center gap-2">
-                        <span className="flex size-10 shrink-0 items-center justify-center rounded bg-background">
+                <div className="mt-auto flex flex-col gap-1 border-t border-hairline pt-5">
+                    <a href={`mailto:${CONTACT_EMAIL}`} className="flex items-center gap-3.5 rounded-[1.1rem] p-3 transition-colors duration-300 hover:bg-fill-2">
+                        <span className="ds-app-icon size-10 bg-sys-blue">
                             <Mail className="size-5" />
                         </span>
-                        <div className="text-sm">
-                            <p className="text-[10px] uppercase tracking-widest">
-                                {ct.emailContactLabel}
-                            </p>
-                            <p className="text-muted-foreground">{CONTACT_EMAIL}</p>
-                        </div>
-                    </div>
-                    <div className="flex items-start gap-2">
-                        <span className="flex size-10 shrink-0 items-center justify-center rounded bg-background">
-                            <WhatsAppLogo className="size-5 text-foreground" />
+                        <span className="flex flex-col gap-0.5">
+                            <span className="type-footnote text-ink-2">{ct.emailContactLabel}</span>
+                            <span className="type-callout font-semibold text-ink">{CONTACT_EMAIL}</span>
                         </span>
-                        <div className="text-sm">
-                            <p className="text-[10px] uppercase tracking-widest">WhatsApp</p>
+                    </a>
+                    <div className="flex items-start gap-3.5 p-3">
+                        <span className="ds-app-icon size-10 bg-[#25d366]">
+                            <WhatsAppLogo className="size-5 text-white" />
+                        </span>
+                        <span className="flex flex-col gap-0.5">
+                            <span className="type-footnote text-ink-2">WhatsApp</span>
                             {WHATSAPP_NUMBERS.map((number) => (
-                                <a
-                                    key={number.url}
-                                    href={number.url}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="block text-muted-foreground hover:text-primary transition-colors"
-                                >
+                                <a key={number.url} href={number.url} target="_blank" rel="noopener noreferrer" className="type-callout font-semibold text-ink transition-colors hover:text-brand-ink">
                                     {number.display}
                                 </a>
                             ))}
-                        </div>
+                        </span>
                     </div>
                 </div>
-            </div>
+            </aside>
 
-            {/* Right panel */}
-            <div className="p-6 md:pl-3">
+            {/* The form for that profile. */}
+            <div className="ds-tile p-5 sm:p-10">
                 {status === "success" ? (
-                    <div className="flex h-full flex-col items-center justify-center gap-2 rounded bg-secondary p-6 text-center">
-                        <p className="text-lg font-semibold">{ct.successTitle}</p>
-                        <p className="text-sm text-muted-foreground">{ct.successDescription}</p>
+                    <div className="flex h-full min-h-[28rem] flex-col items-center justify-center gap-4 text-center" role="status">
+                        <span className="contact-sent flex size-16 items-center justify-center rounded-full bg-brand-soft text-brand-ink">
+                            <svg viewBox="0 0 24 24" className="size-8" fill="none" aria-hidden>
+                                <path d="M6 12.5l4 4L18 8.5" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" pathLength={1} />
+                            </svg>
+                        </span>
+                        <p className="type-title-2 text-ink">{ct.successTitle}</p>
+                        <p className="max-w-sm type-callout text-ink-2">{ct.successDescription}</p>
                     </div>
                 ) : (
-                    <form ref={formRef} onSubmit={handleSubmit} className="space-y-2">
-                        <div className="flex gap-2" data-profile-anim>
-                            <div
-                                className={cn("flex w-fit p-3 rounded", profileIconColors[profile])}
-                            >
-                                <SelectedProfileIcon className="size-5" />
-                            </div>
-                            <div>
-                                <h3 className="uppercase tracking-widest text-[10px] font-semibold">
-                                    {ct.profiles[profile]}
-                                </h3>
-                                <p className="text-xs text-muted-foreground">
-                                    {ct.profileDescriptions[profile]}
-                                </p>
-                            </div>
+                    <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
+                        <div key={`head-${profile}`} className="flex items-center gap-3.5 animate-ds-scene-fade-in">
+                            <span className={cn("ds-app-icon size-12", profileTones[profile])}>
+                                <SelectedProfileIcon className="size-6" />
+                            </span>
+                            <span className="flex flex-col gap-0.5">
+                                <span className="type-title-3 text-ink">{ct.profiles[profile]}</span>
+                                <span className="type-footnote text-ink-2">{ct.profileDescriptions[profile]}</span>
+                            </span>
                         </div>
 
-                        <div className="space-y-1.5">
-                            <Label htmlFor="name">{ct.nameLabel}</Label>
-                            <Input
-                                id="name"
-                                name="name"
-                                placeholder={ct.namePlaceholder}
-                                value={formData.name}
-                                onChange={handleChange}
-                                aria-invalid={!!errors.name}
-                            />
-                            {errors.name && (
-                                <p className="text-xs text-destructive">{errors.name}</p>
+                        <div className="grid gap-5 sm:grid-cols-2">
+                            <Field id="name" label={ct.nameLabel} error={errors.name}>
+                                <Input id="name" name="name" autoComplete="name" placeholder={ct.namePlaceholder} value={formData.name} onChange={handleChange} aria-invalid={!!errors.name} />
+                            </Field>
+                            <Field id="email" label={ct.emailLabel} error={errors.email}>
+                                <Input id="email" name="email" type="email" autoComplete="email" placeholder={ct.emailPlaceholder} value={formData.email} onChange={handleChange} aria-invalid={!!errors.email} />
+                            </Field>
+                        </div>
+
+                        {/* The profile's own fields: they slide in whenever the profile changes. */}
+                        <div key={`fields-${profile}`} className="grid gap-5 animate-ds-scene-fade-in">
+                            {profile === "school" && (
+                                <>
+                                    <div className="grid gap-5 sm:grid-cols-[2fr_1fr]">
+                                        {centerField(pf.school.centerLabel)}
+                                        {numberField("students", pf.school.studentsLabel)}
+                                    </div>
+                                    <fieldset className="flex flex-col gap-2">
+                                        <legend className="mb-2 type-footnote font-medium text-ink-2">{pf.school.stagesLabel}</legend>
+                                        <div className="flex flex-wrap gap-2">
+                                            {stageKeys.map((stage) => {
+                                                const on = stages.includes(stage);
+                                                return (
+                                                    <button
+                                                        key={stage}
+                                                        type="button"
+                                                        aria-pressed={on}
+                                                        onClick={() => toggleStage(stage)}
+                                                        className={cn(
+                                                            "flex h-10 items-center gap-1.5 rounded-full px-4 text-[0.9375rem] font-medium transition-[background-color,color,box-shadow] duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--ds-focus)]",
+                                                            on ? "bg-ink text-canvas" : "bg-surface text-ink shadow-[inset_0_0_0_1px_var(--ds-hairline)] hover:shadow-[inset_0_0_0_1px_var(--ds-hairline-strong)]",
+                                                        )}
+                                                    >
+                                                        {on && <Check className="size-3.5" strokeWidth={3} />}
+                                                        {pf.school.stages[stage]}
+                                                    </button>
+                                                );
+                                            })}
+                                        </div>
+                                    </fieldset>
+                                </>
+                            )}
+
+                            {profile === "nursery" && (
+                                <>
+                                    {centerField(pf.nursery.centerLabel)}
+                                    <div className="grid gap-5 sm:grid-cols-2">
+                                        {numberField("children", pf.nursery.childrenLabel)}
+                                        {numberField("classrooms", pf.nursery.classroomsLabel)}
+                                    </div>
+                                </>
+                            )}
+
+                            {profile === "group" && (
+                                <>
+                                    {centerField(pf.group.centerLabel)}
+                                    <div className="grid gap-5 sm:grid-cols-2">
+                                        {numberField("centers", pf.group.centersLabel)}
+                                        {numberField("students", pf.group.studentsLabel)}
+                                    </div>
+                                </>
+                            )}
+
+                            {profile === "academy" && (
+                                <>
+                                    <div className="grid gap-5 sm:grid-cols-[2fr_1fr]">
+                                        {centerField(pf.academy.centerLabel)}
+                                        {numberField("students", pf.academy.studentsLabel)}
+                                    </div>
+                                    <Field id="teachingType" label={pf.academy.typeLabel}>
+                                        <Input id="teachingType" name="teachingType" placeholder={pf.academy.typePlaceholder} value={formData.teachingType} onChange={handleChange} />
+                                    </Field>
+                                </>
+                            )}
+
+                            {profile === "partner" && (
+                                <>
+                                    {centerField(pf.partner.centerLabel)}
+                                    <div className="grid gap-5 sm:grid-cols-2">
+                                        <Field id="phone" label={ct.phoneLabel}>
+                                            <PhoneInput
+                                                name="phone"
+                                                value={formData.phone}
+                                                onChange={(value) => setFormData((prev) => ({ ...prev, phone: value }))}
+                                                onValidationChange={setPhoneValid}
+                                                invalidMessage={(country) => ct.phoneInvalid.replace("{country}", country)}
+                                            />
+                                        </Field>
+                                        <Field id="website" label={pf.partner.websiteLabel}>
+                                            <Input id="website" name="website" type="url" placeholder={ct.websitePlaceholder} value={formData.website} onChange={handleChange} />
+                                        </Field>
+                                    </div>
+                                </>
                             )}
                         </div>
 
-                        <div className="space-y-1.5">
-                            <Label htmlFor="email">{ct.emailLabel}</Label>
-                            <Input
-                                id="email"
-                                name="email"
-                                type="email"
-                                placeholder={ct.emailPlaceholder}
-                                value={formData.email}
-                                onChange={handleChange}
-                                aria-invalid={!!errors.email}
-                            />
-                            {errors.email && (
-                                <p className="text-xs text-destructive">{errors.email}</p>
-                            )}
-                        </div>
-
-                        {/* Profile-specific fields */}
-                        {profile === "school" && (
-                            <>
-                                <div
-                                    className="grid gap-2 sm:grid-cols-[2fr_1fr]"
-                                    data-profile-anim
-                                >
-                                    <div className="space-y-1.5">
-                                        <Label htmlFor="centerName">{pf.school.centerLabel}</Label>
-                                        <Input
-                                            id="centerName"
-                                            name="centerName"
-                                            value={formData.centerName}
-                                            onChange={handleChange}
-                                            aria-invalid={!!errors.centerName}
-                                        />
-                                        {errors.centerName && (
-                                            <p className="text-xs text-destructive">
-                                                {errors.centerName}
-                                            </p>
-                                        )}
-                                    </div>
-                                    <div className="space-y-1.5">
-                                        <Label htmlFor="students">{pf.school.studentsLabel}</Label>
-                                        <Input
-                                            id="students"
-                                            name="students"
-                                            type="number"
-                                            min="1"
-                                            value={formData.students}
-                                            onChange={handleChange}
-                                        />
-                                    </div>
-                                </div>
-                                <div className="space-y-1.5" data-profile-anim>
-                                    <Label>{pf.school.stagesLabel}</Label>
-                                    <div className="flex flex-wrap gap-x-5 gap-y-2 pt-1">
-                                        {stageKeys.map((stage) => (
-                                            <label
-                                                key={stage}
-                                                className="flex cursor-pointer items-center gap-2 text-sm"
-                                            >
-                                                <Checkbox
-                                                    checked={stages.includes(stage)}
-                                                    onCheckedChange={() => toggleStage(stage)}
-                                                />
-                                                {pf.school.stages[stage]}
-                                            </label>
-                                        ))}
-                                    </div>
-                                </div>
-                            </>
-                        )}
-
-                        {profile === "nursery" && (
-                            <>
-                                <div className="space-y-1.5" data-profile-anim>
-                                    <Label htmlFor="centerName">{pf.nursery.centerLabel}</Label>
-                                    <Input
-                                        id="centerName"
-                                        name="centerName"
-                                        value={formData.centerName}
-                                        onChange={handleChange}
-                                        aria-invalid={!!errors.centerName}
-                                    />
-                                    {errors.centerName && (
-                                        <p className="text-xs text-destructive">
-                                            {errors.centerName}
-                                        </p>
-                                    )}
-                                </div>
-                                <div className="grid gap-2 sm:grid-cols-2" data-profile-anim>
-                                    <div className="space-y-1.5">
-                                        <Label htmlFor="children">{pf.nursery.childrenLabel}</Label>
-                                        <Input
-                                            id="children"
-                                            name="children"
-                                            type="number"
-                                            min="1"
-                                            value={formData.children}
-                                            onChange={handleChange}
-                                        />
-                                    </div>
-                                    <div className="space-y-1.5">
-                                        <Label htmlFor="classrooms">
-                                            {pf.nursery.classroomsLabel}
-                                        </Label>
-                                        <Input
-                                            id="classrooms"
-                                            name="classrooms"
-                                            type="number"
-                                            min="1"
-                                            value={formData.classrooms}
-                                            onChange={handleChange}
-                                        />
-                                    </div>
-                                </div>
-                            </>
-                        )}
-
-                        {profile === "group" && (
-                            <>
-                                <div className="space-y-1.5" data-profile-anim>
-                                    <Label htmlFor="centerName">{pf.group.centerLabel}</Label>
-                                    <Input
-                                        id="centerName"
-                                        name="centerName"
-                                        value={formData.centerName}
-                                        onChange={handleChange}
-                                        aria-invalid={!!errors.centerName}
-                                    />
-                                    {errors.centerName && (
-                                        <p className="text-xs text-destructive">
-                                            {errors.centerName}
-                                        </p>
-                                    )}
-                                </div>
-                                <div className="grid gap-2 sm:grid-cols-2" data-profile-anim>
-                                    <div className="space-y-1.5">
-                                        <Label htmlFor="centers">{pf.group.centersLabel}</Label>
-                                        <Input
-                                            id="centers"
-                                            name="centers"
-                                            type="number"
-                                            min="1"
-                                            value={formData.centers}
-                                            onChange={handleChange}
-                                        />
-                                    </div>
-                                    <div className="space-y-1.5">
-                                        <Label htmlFor="students">{pf.group.studentsLabel}</Label>
-                                        <Input
-                                            id="students"
-                                            name="students"
-                                            type="number"
-                                            min="1"
-                                            value={formData.students}
-                                            onChange={handleChange}
-                                        />
-                                    </div>
-                                </div>
-                            </>
-                        )}
-
-                        {profile === "academy" && (
-                            <>
-                                <div
-                                    className="grid gap-2 sm:grid-cols-[2fr_1fr]"
-                                    data-profile-anim
-                                >
-                                    <div className="space-y-1.5">
-                                        <Label htmlFor="centerName">{pf.academy.centerLabel}</Label>
-                                        <Input
-                                            id="centerName"
-                                            name="centerName"
-                                            value={formData.centerName}
-                                            onChange={handleChange}
-                                            aria-invalid={!!errors.centerName}
-                                        />
-                                        {errors.centerName && (
-                                            <p className="text-xs text-destructive">
-                                                {errors.centerName}
-                                            </p>
-                                        )}
-                                    </div>
-                                    <div className="space-y-1.5">
-                                        <Label htmlFor="students">{pf.academy.studentsLabel}</Label>
-                                        <Input
-                                            id="students"
-                                            name="students"
-                                            type="number"
-                                            min="1"
-                                            value={formData.students}
-                                            onChange={handleChange}
-                                        />
-                                    </div>
-                                </div>
-                                <div className="space-y-1.5" data-profile-anim>
-                                    <Label htmlFor="teachingType">{pf.academy.typeLabel}</Label>
-                                    <Input
-                                        id="teachingType"
-                                        name="teachingType"
-                                        placeholder={pf.academy.typePlaceholder}
-                                        value={formData.teachingType}
-                                        onChange={handleChange}
-                                    />
-                                </div>
-                            </>
-                        )}
-
-                        {profile === "partner" && (
-                            <>
-                                <div className="space-y-1.5" data-profile-anim>
-                                    <Label htmlFor="centerName">{pf.partner.centerLabel}</Label>
-                                    <Input
-                                        id="centerName"
-                                        name="centerName"
-                                        value={formData.centerName}
-                                        onChange={handleChange}
-                                        aria-invalid={!!errors.centerName}
-                                    />
-                                    {errors.centerName && (
-                                        <p className="text-xs text-destructive">
-                                            {errors.centerName}
-                                        </p>
-                                    )}
-                                </div>
-                                <div className="space-y-1.5" data-profile-anim>
-                                    <Label htmlFor="phone">{ct.phoneLabel}</Label>
-                                    <PhoneInput
-                                        name="phone"
-                                        value={formData.phone}
-                                        onChange={(value) =>
-                                            setFormData((prev) => ({ ...prev, phone: value }))
-                                        }
-                                        onValidationChange={setPhoneValid}
-                                        invalidMessage={(country) =>
-                                            ct.phoneInvalid.replace("{country}", country)
-                                        }
-                                    />
-                                </div>
-                                <div className="space-y-1.5" data-profile-anim>
-                                    <Label htmlFor="website">{pf.partner.websiteLabel}</Label>
-                                    <Input
-                                        id="website"
-                                        name="website"
-                                        type="url"
-                                        placeholder={ct.websitePlaceholder}
-                                        value={formData.website}
-                                        onChange={handleChange}
-                                    />
-                                </div>
-                            </>
-                        )}
-
-                        <div className="space-y-1.5">
-                            <Label htmlFor="message">{ct.messageLabel}</Label>
-                            <Textarea
-                                id="message"
-                                name="message"
-                                placeholder={ct.messagePlaceholder}
-                                value={formData.message}
-                                onChange={handleChange}
-                                rows={5}
-                                aria-invalid={!!errors.message}
-                            />
-                            {errors.message && (
-                                <p className="text-xs text-destructive">{errors.message}</p>
-                            )}
-                        </div>
+                        <Field id="message" label={ct.messageLabel} error={errors.message}>
+                            <Textarea id="message" name="message" placeholder={ct.messagePlaceholder} value={formData.message} onChange={handleChange} rows={5} aria-invalid={!!errors.message} />
+                        </Field>
 
                         {status === "error" && (
-                            <p className="text-sm text-destructive">{ct.errorDescription}</p>
+                            <p className="flex items-center gap-2 rounded-[0.9rem] bg-red-50 px-4 py-3 type-callout text-red-700 dark:bg-red-500/15 dark:text-red-300" role="alert">
+                                <AlertCircle className="size-4 shrink-0" aria-hidden />
+                                {ct.errorDescription}
+                            </p>
                         )}
 
-                        <Button
+                        <button
                             type="submit"
-                            className="mt-2 w-full"
+                            className="ds-btn ds-btn--primary ds-btn--lg mt-1 w-full disabled:pointer-events-none disabled:opacity-35"
                             disabled={status === "submitting" || !isFormValid}
                         >
+                            {status === "submitting" ? (
+                                <svg viewBox="0 0 24 24" className="animate-spin" aria-hidden>
+                                    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" strokeWidth="3" strokeDasharray="40 60" strokeLinecap="round" />
+                                </svg>
+                            ) : (
+                                <Send aria-hidden />
+                            )}
                             {status === "submitting" ? ct.submitting : ct.submit}
-                        </Button>
+                        </button>
                     </form>
                 )}
             </div>

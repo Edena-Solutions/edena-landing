@@ -1,0 +1,74 @@
+---
+import LegalPage from "@/modules/legal/LegalPage.astro";
+import { linkify, parseLegal } from "@/lib/legal-content";
+import type { Translation } from "@/i18n";
+
+/*
+ * A legal document from the dictionaries (one string, see `parseLegal`), set for reading: each
+ * section under a numbered heading, lists with quiet bullets, the facts about the company as a fact
+ * sheet, emails and addresses as links. Not a word of the text changes.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+    title: string;
+    content: string;
+    current: "privacy" | "terms" | "cookies" | "dpa" | "delete" | "verifactu";
+}
+
+const { t, lang, title, content, current } = Astro.props;
+const doc = parseLegal(content, lang);
+const toc = doc.sections.map((section) => ({ id: section.id, number: section.number, title: section.title }));
+---
+
+<LegalPage t={t} lang={lang} title={title} updated={doc.updated} toc={toc} current={current}>
+    <slot name="actions" slot="actions" />
+    <article class="legal-prose">
+        {
+            doc.intro.length > 0 && (
+                <div class="legal-intro">
+                    {doc.intro.map((block) =>
+                        block.kind === "p" ? (
+                            <p>
+                                {linkify(block.text).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}
+                            </p>
+                        ) : null,
+                    )}
+                </div>
+            )
+        }
+        {
+            doc.sections.map((section) => (
+                <section id={section.id} class="legal-section">
+                    <h2>
+                        <span class="legal-number">{section.number}</span>
+                        <span>{section.title}</span>
+                    </h2>
+                    {section.blocks.map((block) =>
+                        block.kind === "h3" ? (
+                            <h3>{block.text}</h3>
+                        ) : block.kind === "ul" ? (
+                            <ul>
+                                {block.items.map((item) => (
+                                    <li>{linkify(item).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}</li>
+                                ))}
+                            </ul>
+                        ) : block.kind === "dl" ? (
+                            <dl>
+                                {block.rows.map((row) => (
+                                    <div>
+                                        <dt>{row.label}</dt>
+                                        <dd>{linkify(row.value).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}</dd>
+                                    </div>
+                                ))}
+                            </dl>
+                        ) : (
+                            <p>{linkify(block.text).map((part) => (part.href ? <a href={part.href}>{part.text}</a> : part.text))}</p>
+                        ),
+                    )}
+                </section>
+            ))
+        }
+    </article>
+</LegalPage>
+

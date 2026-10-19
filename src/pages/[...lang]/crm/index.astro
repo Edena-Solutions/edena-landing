@@ -1,22 +1,25 @@
 ---
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
+import { getCollection } from "astro:content";
 import Layout from "@/layouts/main.astro";
-import Hero from "@/components/Hero.astro";
-import Section from "@/components/Section.astro";
-import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from "@/modules/crm/FAQs.astro";
-import Features from "@/components/Features";
-import crmHero from "@/assets/img/screenshots/crm/crm_hero.png";
-import crmHeroDark from "@/assets/img/screenshots/crm/dark/crm_hero.png";
-import crmList from "@/assets/img/screenshots/crm/crm_list.png";
-import crmForm from "@/assets/img/screenshots/crm/crm_form.png";
-import crmFormDark from "@/assets/img/screenshots/crm/dark/crm_form.png";
-import crmListDark from "@/assets/img/screenshots/crm/dark/crm_list.png";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductHero from "@/modules/product/ProductHero.astro";
+import ProductSplit from "@/modules/product/ProductSplit.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import CrmScenes from "@/modules/product/scenes/CrmScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
-import { getCollection } from "astro:content";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import { ogFromAsset } from "@/lib/og-image";
-import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/constants/app-stores";
+import crmHero from "@/assets/img/screenshots/crm/crm_hero.png";
+
+/*
+ * The CRM's page, in the home's design: its screens drawn and brought to life rather than
+ * screenshotted (`scenes/CrmScenes.tsx`), each playing once as it comes into view.
+ */
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -24,6 +27,8 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const labels = productSceneLabels(t);
+const locale = intlLocaleForLang(lang);
 
 const faqsCollection = await getCollection("faqs");
 const crmFaqs = faqsCollection.find((entry) => entry.id === "faqsCrm.md");
@@ -75,60 +80,60 @@ const features = [
         ...ogFromAsset(crmHero, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
-    <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero
-            t={t}
-            heroImage={crmHero}
-            heroImageDark={crmHeroDark}
-            showBookDemoInHero={true}
-            mainTitle={t.crm.mainTitle}
-            mainDescription={t.crm.mainDescription}
-            leftCard={{
-                title: t.crm.requestsTitle,
-                description: t.crm.requestsDescription,
-                showButton: true,
-            }}
-            rightCard={{
-                title: t.crm.heroRightCardTitle,
-                description: t.crm.heroRightCardDescription,
-                downloadAppButtons: {
-                    iosUrl: APP_STORE_URL,
-                    androidUrl: GOOGLE_PLAY_URL,
-                },
-                cardClass: "justify-center items-center gap-4",
-            }}
-        />
-        <Features
-            client:load
-            t={t}
-            features={features}
-            title={t.features.crmFeatures.title}
-            description={t.features.crmFeatures.tagline}
-        />
-        <Section
-            t={t}
-            sectionTitle={t.crm.formsAndPipelineTitle}
-            sectionDescription={t.crm.formsAndPipelineDescription}
-            leftCard={{
-                title: t.crm.formTitle,
-                description: t.crm.formDescription,
-                image: crmForm,
-                imageDark: crmFormDark,
-                imageClass: "w-full mx-auto object-contain md:h-100",
-                altText: t.altText.crmForm,
-            }}
-            rightCard={{
-                title: t.crm.pipelineTitle,
-                description: t.crm.pipelineDescription,
-                image: crmList,
-                imageDark: crmListDark,
-                imageClass: "w-full mx-auto object-contain md:h-100",
-                altText: t.altText.crmList,
-            }}
-        />
-        <FAQs t={t} />
-    </GSAPSection>
+    <HomeMotion />
+    <ProductHero t={t} title={t.crm.mainTitle} description={t.crm.mainDescription} bleed>
+        <CrmScenes slot="visual" client:visible scene="pipeline" labels={labels} locale={locale} />
+    </ProductHero>
+    <ProductSplit
+        t={t}
+        left={{
+            title: t.crm.requestsTitle,
+            description: t.crm.requestsDescription,
+            cta: true,
+            bleed: true,
+        }}
+        right={{
+            title: t.crm.heroRightCardTitle,
+            description: t.crm.heroRightCardDescription,
+            bleed: true,
+        }}
+    >
+        <CrmScenes slot="left" client:visible scene="requests" labels={labels} locale={locale} />
+        <CrmScenes slot="right" client:visible scene="enquiry" labels={labels} locale={locale} />
+    </ProductSplit>
+    <FeatureGrid
+        t={t}
+        features={features}
+        title={t.features.crmFeatures.title}
+        description={t.features.crmFeatures.tagline}
+    />
+    <ProductSplit
+        t={t}
+        title={t.crm.formsAndPipelineTitle}
+        description={t.crm.formsAndPipelineDescription}
+        left={{
+            title: t.crm.formTitle,
+            description: t.crm.formDescription,
+            bleed: true,
+        }}
+        right={{
+            title: t.crm.pipelineTitle,
+            description: t.crm.pipelineDescription,
+            bleed: true,
+        }}
+    >
+        <CrmScenes slot="left" client:visible scene="editor" labels={labels} locale={locale} />
+        <CrmScenes slot="right" client:visible scene="stages" labels={labels} locale={locale} />
+    </ProductSplit>
+    <ProductFaqs
+        t={t}
+        title={t.faqs.crm?.title ?? t.faqs.title}
+        description={t.faqs.crm?.description ?? t.faqs.description}
+        faqs={crmFaqs?.data.faqs ?? []}
+    />
+    <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
         name="Edena - CRM Escolar"

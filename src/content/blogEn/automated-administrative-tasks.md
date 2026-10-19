@@ -2,7 +2,7 @@
 title: "Automation of administrative tasks: Free up time for education"
 date: "2025-07-15"
 translationKey: "automatizacion-tareas-administrativas"
-description: "General automation of repetitive admin tasks. Practical guide for educational centers in Spain (2026)."
+description: "Educational centers face a constant challenge: balancing administrative needs with the main objective of providing quality education."
 tags:
     - "automation"
     - "administrative processes"

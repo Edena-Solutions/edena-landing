@@ -23,9 +23,12 @@ interface Props {
  articlePublishedTime?: string;
  };
  lang?: string;
+ /** `premium` opts the page into the Edena Premium design system (`styles/design-system.css`). */
+ design?: "classic" | "premium";
 }
 
-const { content = {}, lang = "es", alternates = [] } = Astro.props;
+const { content = {}, lang = "es", alternates = [], design = "classic" } = Astro.props;
+const premium = design === "premium";
 
 const t = translations[lang as keyof typeof translations];
 
@@ -152,7 +155,8 @@ const defaultImageAlt =
  );
  })()}
  <!-- Favicons -->
- <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+ <link rel="icon" type="image/png" sizes="256x256" href="/assets/img/favicon.png?v=2" />
+ <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg?v=2" />
  <!-- Theme Color for Mobile (set by script before paint) -->
  <meta name="theme-color" content="#ffffff" />
  <script is:inline>
@@ -212,7 +216,7 @@ const defaultImageAlt =
  <link rel="preconnect" href="https://fonts.googleapis.com" />
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
  <link
- href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
  rel="stylesheet"
  />
  <!-- Structured Data -->
@@ -249,7 +253,7 @@ const defaultImageAlt =
  </script>
  <!-- End Google Tag Manager -->
  </head>
- <body class="min-h-dvh flex flex-col gap-8 bg-background">
+ <body class:list={["min-h-dvh flex flex-col gap-8 bg-background", premium && "ds"]}>
  <!-- Google Tag Manager (noscript) -->
  <noscript>
  <iframe
@@ -270,7 +274,7 @@ const defaultImageAlt =
  document.addEventListener("astro:page-load", pushPageView);
  })();
  </script>
- <MainNavigationMenu client:load lang={lang} />
+ <MainNavigationMenu client:load lang={lang} premium={premium} className={premium ? "ds-nav" : undefined} />
  <main class="pt-15 flex-grow w-full max-w-[2000px] mx-auto overflow-x-clip">
  <slot />
  </main>

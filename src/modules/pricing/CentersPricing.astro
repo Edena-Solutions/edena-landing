@@ -1,14 +1,20 @@
 ---
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import Icon from "@/components/ui/icon";
-import GSAPSection from "@/components/ui/gsap-section";
-import { PricingModules } from "@/components/PricingModules";
-import { CENTER_PACKS, floorFor, formatPriceTrim } from "@/constants/pricing";
+import { Check, LayoutGrid, ToggleRight, Users } from "lucide-react";
+import Button from "@/components/ds/Button.astro";
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import { ModuleIcon } from "@/modules/pricing/ModuleIcon";
+import PricingNotes from "@/modules/pricing/PricingNotes.astro";
+import { CENTER_PACKS, MODULE_IDS, floorFor, formatPriceTrim, moduleSectionsById } from "@/constants/pricing";
 import type { PlanFeatureSection } from "@/constants/pricing";
 import type { Translation } from "@/i18n";
 
+/*
+ * Centre pricing, in the home's design: the price it starts at, beside what that includes; how the
+ * price is worked out, in three steps, and the offer to close it in the demo; then every module.
+ *
+ * Only a "from" figure is published (see `CENTER_PACKS`): this page speaks to nurseries, schools
+ * and groups at once, and no single list serves all three.
+ */
 interface Props {
     t: Translation;
     lang: string;
@@ -18,103 +24,120 @@ interface Props {
 
 const { t, lang, demoUrl, registerUrl } = Astro.props;
 const c = t.pricing.centers;
-const sections = (t.pricing as { planFeatureSections?: PlanFeatureSection[] })
-    .planFeatureSections ?? [];
+const byId = moduleSectionsById((t.pricing as { planFeatureSections?: PlanFeatureSection[] }).planFeatureSections ?? []);
 // The "from" figure is the floor of the entry package (30 students x 1,20 EUR = 36), which is the
 // lowest anyone can actually pay and matches the academies floor, so both audiences enter at the
-// same number. `priceCaption` has to keep describing *this* package: point it at a richer one and
-// the figure and its own caption end up describing different things.
-const headlinePack = CENTER_PACKS[0];
-const fromPrice = formatPriceTrim(floorFor(headlinePack.pricePerStudent, "centers"), lang);
+// same number. `priceCaption` has to keep describing *this* package.
+const fromPrice = formatPriceTrim(floorFor(CENTER_PACKS[0].pricePerStudent, "centers"), lang);
+const stepIcons = [LayoutGrid, ToggleRight, Users];
+const stepTones = ["bg-sys-blue", "bg-sys-purple", "bg-sys-green"];
 ---
 
-<div class="flex flex-col gap-16 w-full">
-    <div class="px-4 mx-auto w-full max-w-5xl">
-        <Card
-            className="grid gap-8 rounded bg-card p-8 md:grid-cols-2 md:items-center md:gap-12 md:p-10"
-        >
-            <div class="flex flex-col gap-3">
-                <Badge variant="secondary" className="text-[10px] tracking-widest uppercase">
-                    {t.pricing.hub.centers.badge}
-                </Badge>
-                <p class="flex items-baseline gap-2">
-                    <span class="text-base font-normal text-muted-foreground"
-                        >{t.pricing.fromLabel}</span
-                    >
-                    <span class="text-5xl font-bold">{fromPrice}</span>
+<!-- The price, and what it includes. -->
+<section class="ds-section pt-12 sm:pt-16">
+    <div class="ds-container flex flex-col gap-4">
+        <div class="ds-tile grid gap-10 p-7 sm:p-12 lg:grid-cols-2 lg:items-center lg:gap-16" data-reveal="scale">
+            <div class="flex flex-col">
+                <span class="flex flex-wrap gap-2" aria-hidden="true">
+                    {MODULE_IDS.slice(0, 3).map((moduleId) => <ModuleIcon moduleId={moduleId} className="size-10" />)}
+                </span>
+                <p class="mt-8 flex items-baseline gap-2">
+                    <span class="type-callout text-ink-2">{t.pricing.fromLabel}</span>
+                    <span class="text-[3.75rem] font-semibold leading-none tracking-[-0.045em] tabular-nums text-ink sm:text-[4.75rem]">
+                        {fromPrice}
+                    </span>
                 </p>
-                <p class="text-[10px] tracking-widest uppercase text-muted-foreground">
-                    {c.fromNote}
-                </p>
-                <p class="text-sm text-muted-foreground">{c.priceCaption}</p>
+                <p class="mt-3 type-footnote text-ink-3">{c.fromNote}</p>
+                <p class="mt-5 max-w-sm type-callout text-ink-2">{c.priceCaption}</p>
             </div>
-
-            <div class="flex flex-col gap-6">
-                <ul class="m-0 list-none space-y-2 p-0">
+            <div class="flex flex-col gap-8">
+                <ul class="m-0 flex list-none flex-col gap-4 p-0">
                     {
                         c.priceBullets.map((bullet) => (
-                            <li class="flex items-start gap-2">
-                                <Icon
-                                    name="Check"
-                                    size={14}
-                                    className="mt-0.5 flex-shrink-0 text-muted-foreground"
-                                />
-                                <span class="text-sm leading-snug">{bullet}</span>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full bg-brand-soft text-brand-ink">
+                                    <Check className="size-3" strokeWidth={3} />
+                                </span>
+                                <span class="type-body text-ink">{bullet}</span>
                             </li>
                         ))
                     }
                 </ul>
-                <div class="flex flex-col gap-2 sm:flex-row">
-                    <a href={demoUrl} class="block w-full hover:no-underline">
-                        <Button className="w-full">{t.bookDemo}</Button>
-                    </a>
-                    <a href={registerUrl} class="block w-full hover:no-underline">
-                        <Button className="w-full" variant="secondary">{t.pricing.startNow}</Button>
-                    </a>
+                <div class="flex flex-col gap-3 sm:flex-row">
+                    <Button href={demoUrl} size="lg" class="sm:flex-1">{t.bookDemo}</Button>
+                    <Button href={registerUrl} variant="secondary" size="lg" class="sm:flex-1">{t.pricing.startNow}</Button>
                 </div>
             </div>
-        </Card>
-    </div>
-
-    <GSAPSection client:load className="flex flex-col gap-10 px-4">
-        <div class="flex flex-col gap-4 text-center">
-            <h2
-                class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
-            >
-                {c.howTitle}
-            </h2>
-            <p class="text-muted-foreground max-w-2xl mx-auto">{c.howDescription}</p>
         </div>
-        <ol class="m-0 grid list-none gap-4 p-0 mx-auto w-full max-w-5xl md:grid-cols-3">
+        <PricingNotes t={t} />
+    </div>
+</section>
+
+<!-- How the price is worked out. -->
+<section class="ds-section">
+    <div class="ds-container">
+        <SectionHeader title={c.howTitle} description={c.howDescription} />
+        <ol class="m-0 mt-14 grid list-none gap-4 p-0 md:grid-cols-3" data-reveal-group>
             {
-                c.steps.map((step, index) => (
-                    <li>
-                        <Card className="flex h-full flex-col gap-3 rounded bg-card p-6">
-                            <span class="text-[10px] font-semibold tracking-widest uppercase text-muted-foreground">
-                                {String(index + 1).padStart(2, "0")}
+                c.steps.map((step, index) => {
+                    const Icon = stepIcons[index];
+                    return (
+                        <li class="ds-tile flex flex-col gap-4 p-7 sm:p-8" data-reveal="scale">
+                            <span class="flex items-center justify-between">
+                                <span class:list={["ds-app-icon size-11", stepTones[index]]}>
+                                    <Icon className="size-5" />
+                                </span>
+                                <span class="text-[2.5rem] font-semibold leading-none tracking-[-0.04em] text-gradient-brand">
+                                    {String(index + 1).padStart(2, "0")}
+                                </span>
                             </span>
-                            <h3 class="text-base font-bold">{step.title}</h3>
-                            <p class="text-sm leading-snug text-muted-foreground">
-                                {step.description}
-                            </p>
-                        </Card>
-                    </li>
-                ))
+                            <h3 class="mt-4 type-title-3 text-ink">{step.title}</h3>
+                            <p class="type-callout text-ink-2">{step.description}</p>
+                        </li>
+                    );
+                })
             }
         </ol>
-    </GSAPSection>
 
-    <GSAPSection client:load className="flex flex-col gap-10 px-4">
-        <div class="flex flex-col gap-4 text-center">
-            <h2
-                class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent max-w-lg sm:max-w-2xl text-center mx-auto"
-            >
-                {c.modulesTitle}
-            </h2>
-            <p class="text-muted-foreground max-w-2xl mx-auto">{c.modulesDescription}</p>
+        <!-- The price for this centre, closed in the demo. -->
+        <div class="mt-4 flex flex-col items-center gap-5 rounded-tile bg-ink px-7 py-12 text-center text-canvas sm:py-16" data-reveal="scale">
+            <h3 class="type-title-1 max-w-xl">{c.ctaTitle}</h3>
+            <p class="type-callout max-w-xl opacity-70">{c.ctaDescription}</p>
+            <a href={demoUrl} class="ds-btn ds-btn--lg mt-2 bg-canvas text-ink hover:opacity-90">{t.bookDemo}</a>
         </div>
-        <div class="mx-auto w-full max-w-5xl">
-            <PricingModules sections={sections} />
+    </div>
+</section>
+
+<!-- Every module. -->
+<section class="ds-section pt-0">
+    <div class="ds-container">
+        <SectionHeader title={c.modulesTitle} description={c.modulesDescription} />
+        <div class="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3" data-reveal-group>
+            {
+                MODULE_IDS.map((moduleId) => {
+                    const section = byId[moduleId];
+                    if (!section) return null;
+                    // The base platform is where every centre starts: it spans the row, the nine
+                    // modules that sit on it fill three by three.
+                    const base = moduleId === "platformBase";
+                    return (
+                        <article class:list={["ds-tile flex flex-col gap-5 p-7", base && "sm:col-span-2 lg:col-span-3 sm:p-9"]} data-reveal="scale">
+                            <span class="flex items-center gap-3">
+                                <ModuleIcon moduleId={moduleId} className={base ? "size-12" : "size-11"} />
+                                <h3 class:list={[base ? "type-title-2" : "type-title-3", "text-ink"]}>{section.title}</h3>
+                            </span>
+                            <ul class:list={["m-0 grid list-none gap-2.5 p-0", base && "sm:grid-cols-2 sm:gap-x-10"]}>
+                                {section.items.map((item) => (
+                                    <li class="flex items-start gap-2.5">
+                                        <Check className="mt-1 size-3.5 shrink-0 text-brand-ink" strokeWidth={2.6} />
+                                        <span class="type-footnote text-ink-2">{item.label}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </article>
+                    );
+                })
+            }
         </div>
-    </GSAPSection>
-</div>
+    </div>
+</section>

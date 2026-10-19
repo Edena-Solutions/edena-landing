@@ -2,7 +2,7 @@
 title: "Adimen artifiziala ikastetxeko administrazioan"
 date: "2026-02-19"
 translationKey: "ia-gestion-escolar-casos-practicos"
-description: "AIren kasu praktikoak ikastetxeko administrazioan. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Ikastetxeko kudeaketan adimen artifiziala ez da eztabaidarako gaia soilik: administrazio-zereginetan, ereduen detekzioan eta erabakien laguntzan aplikatzen da jada."
 tags:
     - "AI ikastetxearen kudeaketa"
     - "adimen artifiziala"

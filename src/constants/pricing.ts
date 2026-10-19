@@ -9,7 +9,7 @@ import {
     WalletCards,
     Zap,
 } from "lucide-react";
-import aiLogo from "@/assets/img/logos/ai.png";
+import enaLogo from "@/assets/img/logos/ena.png";
 import edenaLogo from "@/assets/img/logos/logo-small.svg";
 import { intlLocaleForLang } from "@/lib/intl-locale";
 
@@ -125,7 +125,7 @@ export const MODULE_META: Record<string, ModuleMeta> = {
         iconColor: "bg-slate-100 text-slate-600 dark:bg-slate-500/15 dark:text-slate-400",
     },
     ena: {
-        iconImage: aiLogo,
+        iconImage: enaLogo,
         iconColor: "bg-muted text-black dark:text-white",
     },
     communicationPro: {

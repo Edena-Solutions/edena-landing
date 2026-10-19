@@ -1,0 +1,38 @@
+---
+import FaqPanel from "@/components/ds/FaqPanel.astro";
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import type { Translation } from "@/i18n";
+
+/*
+ * A page's questions in the FAQ panel (`FaqPanel`, on `<details>`): every answer is in the page's
+ * HTML, for readers and crawlers alike, not only in the FAQPage data. A question may be a key into
+ * `t.faqs` (the collections in `content/faqs`) or the text itself (the module pages).
+ */
+interface FAQItem {
+    question: string;
+    answer: string;
+}
+
+interface Props {
+    t: Translation;
+    title: string;
+    description: string;
+    faqs: FAQItem[];
+}
+
+const { t, title, description, faqs } = Astro.props;
+const text = (key: string) => {
+    const value = (t.faqs as Record<string, unknown>)[key];
+    return typeof value === "string" ? value : key;
+};
+const items = faqs.map((faq) => ({ question: text(faq.question), answer: text(faq.answer) }));
+---
+
+<section class="ds-section">
+    <div class="ds-container">
+        <SectionHeader title={title} description={description} />
+        <div class="mx-auto mt-10 max-w-3xl sm:mt-14" data-reveal>
+            <FaqPanel items={items} name="product-faqs" />
+        </div>
+    </div>
+</section>

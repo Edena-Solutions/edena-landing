@@ -2,7 +2,7 @@
 title: "Gestion administrative numérique dans les établissements scolaires 2026 : éliminer le papier, maximiser l'efficacité"
 date: "2026-01-22"
 translationKey: "gestion-administrativa-digital-centros-2026"
-description: "Vision de gestion holistique sur l'administration de la numérisation. Guide pratique pour les établissements scolaires en Espagne (2026)."
+description: "L’année 2026 voit une transformation radicale dans la gestion administrative des établissements scolaires espagnols."
 tags:
     - "gestion administrative"
     - "numérisation"

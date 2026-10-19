@@ -1,0 +1,30 @@
+---
+import { MessagesSquare } from "lucide-react";
+import Button from "@/components/ds/Button.astro";
+import { localePath, localizedDemoPath } from "@/i18n/index.ts";
+import type { Translation } from "@/i18n";
+
+/* The way out when the answer is not on the page: write to us, or see it in a demo. */
+interface Props {
+    t: Translation;
+    lang: string;
+}
+
+const { t, lang } = Astro.props;
+---
+
+<section class="ds-section pt-4">
+    <div class="ds-container">
+        <div class="ds-tile mx-auto flex max-w-[61rem] flex-col items-center gap-4 px-6 py-12 text-center sm:py-16" data-reveal="rise">
+            <span class="ds-app-icon size-14 bg-sys-green">
+                <MessagesSquare className="size-7" />
+            </span>
+            <h2 class="type-title-1 mt-2 text-ink">{t.faqsPage.stillTitle}</h2>
+            <p class="type-body max-w-xl text-ink-2">{t.faqsPage.stillDescription}</p>
+            <div class="mt-3 flex flex-wrap justify-center gap-3">
+                <Button href={localePath(lang, "/contact")}>{t.navigation.contact}</Button>
+                <Button href={localizedDemoPath(lang)} variant="secondary">{t.bookDemo}</Button>
+            </div>
+        </div>
+    </div>
+</section>

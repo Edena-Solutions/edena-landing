@@ -2,7 +2,7 @@
 title: "Analyse des performances académiques : des données pour améliorer l'apprentissage"
 date: "2025-01-10"
 translationKey: "analitica-rendimiento-academico"
-description: "Analyse des performances académiques en classe. Guide pratique pour les établissements scolaires en Espagne (2026)."
+description: "L'analyse pédagogique change la façon dont les écoles gèrent l'apprentissage et le développement des élèves."
 tags:
     - "analytique"
     - "performance académique"

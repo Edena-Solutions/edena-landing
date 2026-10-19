@@ -2,7 +2,7 @@
 title: "How to save 15 hours a week on school administration"
 date: "2026-04-12"
 translationKey: "ahorrar-15-horas-administracion-escolar-2026"
-description: "Breakdown of recoverable hours by admin process. Practical guide for educational centers in Spain (2026)."
+description: "In most centers, those six blocks add up to between twelve and twenty hours of work per week that do not require advanced human judgment."
 tags:
     - "save hours school administration"
     - "school automation"

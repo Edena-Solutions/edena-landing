@@ -1,28 +1,30 @@
 ---
 import { getEntry, getCollection } from "astro:content";
-import Layout from "@/layouts/main.astro";
-import { translations } from "@/i18n/index.ts";
 import { ChevronLeft } from "lucide-react";
-import TableOfContents from "@/components/TableOfContents";
+import Layout from "@/layouts/main.astro";
+import { translations, localePath } from "@/i18n/index.ts";
 import ArticleSchema from "@/components/StructuredData/Article.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
-import Link from "@/components/ui/link";
-import { Button } from "@/components/ui/button";
-import TopGlow from "@/components/TopGlow.astro";
+import FaqPanel from "@/components/ds/FaqPanel.astro";
+import { LogoMark } from "@/components/wizard/app-frame";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import RelatedArticles from "@/modules/blog/RelatedArticles.astro";
 import { homeBreadcrumbName } from "@/lib/breadcrumb";
 import { blogCollectionForLang } from "@/lib/blog-collection";
 import { blogAlternatesFor } from "@/lib/blog-translations";
 import { ogFromAsset } from "@/lib/og-image";
+import { formatLongDate } from "@/lib/intl-locale";
+import { coverAt, coverSrcset, readingMinutes, renderArticlePart, type ArticleHeading } from "@/lib/blog-article";
 import defaultBlogOg from "@/assets/img/screenshots/shared/hero.png";
-import Conclusion from "@/modules/home/Conclusion.astro";
-import FAQAccordion from "@/components/FAQAccordion";
-import BlogRelatedArticles from "@/components/BlogRelatedArticles";
-import BlogMarkdownPart from "@/components/BlogMarkdownPart.astro";
-import {
-    relatedSlugsForPost,
-    resolveRelatedPosts,
-    splitBeforeConclusion,
-} from "@/lib/blog-related-posts";
+import { relatedSlugsForPost, splitBeforeConclusion } from "@/lib/blog-related-posts";
+
+/*
+ * A post, in the home's design and at the pace of reading: the title, its line and its byline
+ * centred over the cover; the sections indexed in a column that stays in view (the one being read
+ * lit), folded away on a phone; the text at a reading measure, the posts it points to as a panel
+ * before its conclusion, its questions in the FAQ panel; and the closing call to action.
+ */
 
 export async function getStaticPaths() {
     const postsEs = await getCollection("blogEs");
@@ -73,15 +75,23 @@ const post = await getEntry(collection, slug);
 if (!post) throw new Error("Post not found");
 
 const allPostsInLang = await getCollection(collection);
-const titleBySlug = new Map(allPostsInLang.map((p) => [p.slug, p.data.title]));
+const bySlug = new Map(allPostsInLang.map((p) => [p.slug, p]));
+const related = relatedSlugsForPost(post.data.relatedPosts, post.body)
+    .map((relatedSlug) => bySlug.get(relatedSlug))
+    .filter((p): p is NonNullable<typeof p> => !!p)
+    .map((p) => ({ href: localePath(lang, `/blog/${p.slug}`), title: p.data.title, cover: p.data.cover, body: p.body }));
 
-const relatedSlugs = relatedSlugsForPost(post.data.relatedPosts, post.body);
-const relatedPosts = resolveRelatedPosts(relatedSlugs, lang, titleBySlug);
-
+// The body as HTML with ids on its section headings, the related posts set before the conclusion.
 const { before, conclusion } = splitBeforeConclusion(post.body);
-const useRelatedLayout = relatedPosts.length > 0;
+const seen = new Set<string>(["faqs", "related-articles"]);
+const headings: ArticleHeading[] = [];
+const beforeHtml = renderArticlePart(before, { title: post.data.title, seen, headings });
+const conclusionHtml = conclusion ? renderArticlePart(conclusion, { title: post.data.title, seen, headings }) : "";
+const faqs = post.data.faqs ?? [];
+const toc = [...headings, ...(faqs.length ? [{ id: "faqs", text: t.blog.faqTitle }] : [])];
 
-const { Content } = await post.render();
+const published = formatLongDate(lang, post.data.date);
+const minutes = t.blogPage.readingTime.replace("{n}", String(readingMinutes(post.body)));
 
 // Canonical URLs: Spanish lives unprefixed at the root.
 const langPrefix = lang === "es" ? "" : `${lang}/`;
@@ -91,8 +101,7 @@ const homeUrl = `https://edena.es/${langPrefix}`;
 
 const alternates = await blogAlternatesFor(lang, slug);
 const coverIsUnsplash = Boolean(post.data.cover?.includes("unsplash.com"));
-const [unsplashCreditBefore, unsplashCreditAfter] =
-    t.blog.unsplashCredit.split("{source}");
+const [unsplashCreditBefore, unsplashCreditAfter] = t.blog.unsplashCredit.split("{source}");
 
 const publishedDate = new Date(post.data.date).toISOString();
 const ogMeta = post.data.cover
@@ -110,97 +119,122 @@ const ogMeta = post.data.cover
     }}
     lang={lang}
     alternates={alternates}
+    design="premium"
 >
-    <div class="max-w-7xl mx-auto py-6 px-4">
-        <Link href={`/${langPrefix}blog/`} className="text-sm flex items-center gap-2">
-            <ChevronLeft className="w-4 h-4" />
-            {t.navigation.blog}
-        </Link>
-
-        <div class="lg:hidden mb-6">
-            <TableOfContents client:load variant="mobile" />
-        </div>
-
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 sm:mt-6">
-            <div class="hidden lg:block lg:col-span-1">
-                <TableOfContents client:load variant="sidebar" />
+    <HomeMotion />
+    <article>
+        <header class="relative isolate -mt-15 pt-15">
+            <div class="ds-container flex flex-col items-center pt-12 text-center sm:pt-16">
+                <a href={localePath(lang, "/blog/")} class="ds-intro ds-link type-callout font-semibold" style="--intro-i: 0">
+                    <ChevronLeft />
+                    {t.navigation.blog}
+                </a>
+                <h1 class="ds-intro mt-5 max-w-4xl text-balance pb-1 type-display-2 text-gradient-ink" style="--intro-i: 0">
+                    {post.data.title}
+                </h1>
+                <p class="ds-intro mt-6 max-w-2xl type-lead text-ink-2" style="--intro-i: 1">{post.data.description}</p>
+                <div class="ds-intro mt-8 flex items-center gap-3 text-left" style="--intro-i: 2">
+                    <LogoMark className="size-10 shrink-0 text-ink" />
+                    <span class="flex flex-col">
+                        <span class="type-callout font-semibold text-ink">{post.data.author || "Edena"}</span>
+                        <span class="type-footnote text-ink-3">
+                            <time datetime={post.data.date}>{published}</time> · {minutes}
+                        </span>
+                    </span>
+                </div>
             </div>
+        </header>
 
-            <article class="lg:col-span-3">
-                <h1 class="text-xl font-bold mb-2">{post.data.title}</h1>
-                <p class="text-muted-foreground text-sm mb-6">
-                    {
-                        new Date(post.data.date).toLocaleDateString(lang, {
-                            year: "numeric",
-                            month: "long",
-                            day: "numeric",
-                        })
-                    }
-                </p>
-                {
-                    post.data.cover && (
+        {
+            post.data.cover && (
+                <div class="ds-container mt-12 sm:mt-16">
+                    <div class="post-cover" data-reveal="scale">
                         <img
-                            src={post.data.cover}
+                            src={coverAt(post.data.cover, 1600)}
+                            srcset={coverSrcset(post.data.cover, [800, 1200, 1600, 2200])}
+                            sizes="(min-width: 75rem) 75rem, 100vw"
                             alt={post.data.title}
-                            class="mb-6 rounded w-full max-h-80 object-cover"
+                            fetchpriority="high"
+                            decoding="async"
                         />
-                    )
-                }
-                <div class="prose prose-neutral max-w-none blog-content">
-                    {
-                        useRelatedLayout ? (
-                            <>
-                                {before && <BlogMarkdownPart markdown={before} />}
-                                <BlogRelatedArticles
-                                    title={t.blog.relatedTitle}
-                                    posts={relatedPosts}
-                                />
-                                {conclusion && <BlogMarkdownPart markdown={conclusion} />}
-                            </>
-                        ) : (
-                            <Content />
-                        )
-                    }
+                    </div>
                 </div>
+            )
+        }
+
+        <div class="ds-container pb-16 pt-14 sm:pb-24 sm:pt-20">
+            <div class="post-grid">
                 {
-                    post.data.faqs && post.data.faqs.length > 0 && (
-                        <section class="mt-5 not-prose">
-                            <h2 class="font-bold">{t.blog.faqTitle}</h2>
-                            <FAQAccordion
-                                faqs={post.data.faqs}
-                                t={t}
-                                className="w-full max-w-none"
-                                client:load
-                            />
-                        </section>
+                    toc.length > 1 && (
+                        <nav class="hidden lg:block" aria-label={t.blogPage.onThisArticle}>
+                            <div class="sticky top-24 flex max-h-[calc(100vh-8rem)] flex-col gap-3 overflow-y-auto pb-4">
+                                <p class="type-footnote font-semibold text-ink-3">{t.blogPage.onThisArticle}</p>
+                                <ol class="m-0 flex list-none flex-col gap-0.5 p-0" data-post-toc>
+                                    {toc.map((item) => (
+                                        <li>
+                                            <a href={`#${item.id}`} class="post-toc-link">
+                                                {item.text}
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ol>
+                            </div>
+                        </nav>
                     )
                 }
-                <p class="mt-8 text-xs leading-relaxed text-muted-foreground">
-                    {t.blog.aiDisclaimer}
+
+                <div class="post-main min-w-0">
                     {
-                        coverIsUnsplash && (
-                            <>
-                                {" "}
-                                {unsplashCreditBefore}
-                                <a
-                                    href="https://unsplash.com"
-                                    class="underline underline-offset-2 hover:text-foreground"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                >
-                                    Unsplash
-                                </a>
-                                {unsplashCreditAfter}
-                            </>
+                        toc.length > 1 && (
+                            <details class="post-details mb-12 rounded-[1.25rem] bg-canvas-2 lg:hidden">
+                                <summary class="flex cursor-pointer list-none items-center justify-between px-5 py-4 type-callout font-semibold text-ink">
+                                    {t.blogPage.onThisArticle}
+                                    <ChevronLeft className="post-details-chevron size-4 text-ink-3" />
+                                </summary>
+                                <ol class="m-0 flex list-none flex-col gap-0.5 px-3 pb-4 pt-0">
+                                    {toc.map((item) => (
+                                        <li>
+                                            <a href={`#${item.id}`} class="post-toc-link">
+                                                {item.text}
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ol>
+                            </details>
                         )
                     }
-                </p>
-                <div class="mt-8">
-                    <Conclusion lang={lang} isSimplified={true} />
+
+                    <div class="blog-prose" set:html={beforeHtml} />
+                    {related.length > 0 && <RelatedArticles t={t} posts={related} />}
+                    {conclusionHtml && <div class="blog-prose" set:html={conclusionHtml} />}
+
+                    {
+                        faqs.length > 0 && (
+                            <section id="faqs" class="post-faqs">
+                                <h2 class="type-title-2 font-semibold text-ink">{t.blog.faqTitle}</h2>
+                                <FaqPanel items={faqs} name="post-faqs" class="mt-6" />
+                            </section>
+                        )
+                    }
+
+                    <p class="mt-14 border-t border-hairline pt-6 type-footnote text-ink-3">
+                        {t.blog.aiDisclaimer}
+                        {
+                            coverIsUnsplash && (
+                                <>
+                                    {" "}
+                                    {unsplashCreditBefore}
+                                    <a href="https://unsplash.com" class="underline underline-offset-2 hover:text-ink-2" rel="noopener noreferrer" target="_blank">Unsplash</a>{unsplashCreditAfter}
+                                </>
+                            )
+                        }
+                    </p>
                 </div>
-            </article>
+            </div>
         </div>
-    </div>
+    </article>
+    <ClosingCta lang={lang} />
+
     <ArticleSchema
         slot="structured-data"
         title={post.data.title}
@@ -224,3 +258,237 @@ const ogMeta = post.data.cover
         lang={lang}
     />
 </Layout>
+
+<script>
+    // The index lights the section being read: the last one whose top has passed a line a quarter
+    // of the way down the screen.
+    function watchPostToc() {
+        const links = [...document.querySelectorAll<HTMLAnchorElement>("[data-post-toc] a")];
+        if (!links.length) return;
+        const targets = links.map((link) => document.getElementById(link.hash.slice(1))).filter((el): el is HTMLElement => !!el);
+        let frame = 0;
+        const update = () => {
+            frame = 0;
+            const line = window.innerHeight * 0.25;
+            let current = targets[0];
+            for (const target of targets) if (target.getBoundingClientRect().top <= line) current = target;
+            links.forEach((link) => link.toggleAttribute("aria-current", link.hash === `#${current?.id}`));
+        };
+        const onScroll = () => {
+            if (!frame) frame = requestAnimationFrame(update);
+        };
+        update();
+        window.addEventListener("scroll", onScroll, { passive: true });
+        document.addEventListener("astro:before-swap", () => window.removeEventListener("scroll", onScroll), { once: true });
+    }
+    document.addEventListener("astro:page-load", watchPostToc);
+</script>
+
+<style>
+    .post-cover {
+        position: relative;
+        overflow: hidden;
+        aspect-ratio: 3 / 2;
+        border-radius: var(--radius-tile);
+        background-color: var(--ds-fill-2);
+    }
+
+    @media (min-width: 40rem) {
+        .post-cover {
+            aspect-ratio: 2 / 1;
+        }
+    }
+
+    .post-cover img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .post-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    @media (min-width: 64rem) {
+        .post-grid {
+            grid-template-columns: 15rem minmax(0, 44rem);
+            column-gap: 5rem;
+            justify-content: center;
+        }
+
+        .post-main {
+            grid-column: 2;
+        }
+    }
+
+    @media (max-width: 63.999rem) {
+        .post-main {
+            max-width: 44rem;
+            margin-inline: auto;
+        }
+    }
+
+    .post-grid :global(.post-toc-link) {
+        display: block;
+        border-radius: 0.75rem;
+        padding: 0.45rem 0.75rem;
+        font-size: 0.875rem;
+        line-height: 1.35;
+        color: var(--ds-ink-2);
+        transition:
+            background-color 200ms var(--ease-fluid),
+            color 200ms var(--ease-fluid);
+    }
+
+    .post-grid :global(.post-toc-link:hover),
+    .post-grid :global(.post-toc-link[aria-current]) {
+        background-color: var(--ds-fill-2);
+        color: var(--ds-ink);
+    }
+
+    .post-grid :global(.post-toc-link[aria-current]) {
+        font-weight: 600;
+    }
+
+    .post-details summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .post-grid :global(.post-details-chevron) {
+        rotate: 180deg;
+        transition: rotate 300ms var(--ease-spring);
+    }
+
+    .post-details[open] :global(.post-details-chevron) {
+        rotate: 270deg;
+    }
+
+    .post-faqs {
+        margin-top: 4rem;
+        scroll-margin-top: 6.5rem;
+    }
+
+    /* Reading type: a measure of ~70 characters, generous leading, headings that index. */
+    .blog-prose {
+        font-size: 1.125rem;
+        line-height: 1.75;
+        letter-spacing: -0.003em;
+        color: var(--ds-ink);
+        text-wrap: pretty;
+    }
+
+    .blog-prose :global(p),
+    .blog-prose :global(ul),
+    .blog-prose :global(ol) {
+        margin: 0;
+    }
+
+    .blog-prose :global(* + p),
+    .blog-prose :global(* + ul),
+    .blog-prose :global(* + ol) {
+        margin-top: 1.25rem;
+    }
+
+    .blog-prose :global(.blog-section-spacer) {
+        display: none;
+    }
+
+    .blog-prose :global(h2) {
+        margin: 3.25rem 0 1rem;
+        scroll-margin-top: 6.5rem;
+        font-size: clamp(1.5rem, 1.3rem + 0.6vw, 1.875rem);
+        line-height: 1.2;
+        font-weight: 700;
+        letter-spacing: -0.022em;
+        text-wrap: balance;
+    }
+
+    .blog-prose :global(h2:first-child) {
+        margin-top: 0;
+    }
+
+    .blog-prose :global(h2 + :not(h2)) {
+        margin-top: 0;
+    }
+
+    /* A heading that only introduces the next ("Checklist 2026" over "1. Facturación"). */
+    .blog-prose :global(h2 + h2) {
+        margin-top: 1.25rem;
+    }
+
+    .blog-prose :global(ul),
+    .blog-prose :global(ol) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 0;
+        list-style: none;
+    }
+
+    .blog-prose :global(li) {
+        position: relative;
+    }
+
+    .blog-prose :global(ul > li) {
+        padding-left: 1.5rem;
+    }
+
+    .blog-prose :global(ul > li::before) {
+        content: "";
+        position: absolute;
+        left: 0.3rem;
+        top: 0.72em;
+        width: 0.42rem;
+        height: 0.42rem;
+        border-radius: 999px;
+        background: var(--ds-brand-gradient);
+    }
+
+    .blog-prose :global(ol) {
+        counter-reset: post-item;
+    }
+
+    .blog-prose :global(ol > li) {
+        counter-increment: post-item;
+        padding-left: 2.35rem;
+    }
+
+    .blog-prose :global(ol > li::before) {
+        content: counter(post-item);
+        position: absolute;
+        left: 0;
+        top: 0.22em;
+        display: flex;
+        width: 1.55rem;
+        height: 1.55rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+        background-color: var(--ds-brand-soft);
+        color: var(--ds-brand-ink);
+        font-size: 0.8125rem;
+        font-weight: 700;
+        line-height: 1;
+        font-variant-numeric: tabular-nums;
+    }
+
+    .blog-prose :global(strong) {
+        font-weight: 600;
+    }
+
+    .blog-prose :global(a) {
+        color: var(--ds-brand-ink);
+        font-weight: 500;
+        text-decoration: underline;
+        text-decoration-color: color-mix(in srgb, var(--ds-brand-ink) 35%, transparent);
+        text-underline-offset: 0.2em;
+        transition: text-decoration-color 200ms var(--ease-fluid);
+    }
+
+    .blog-prose :global(a:hover) {
+        text-decoration-color: currentColor;
+    }
+</style>

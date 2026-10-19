@@ -2,7 +2,7 @@
 title: "How to choose the best school management software"
 date: "2025-01-15"
 translationKey: "elegir-software-gestion-escolar"
-description: "Express 5-step guide to narrow down your software search. Practical guide for educational centers in Spain (2026)."
+description: "If your center still distributes data between Excel, email, and a partial tool, this guide helps you narrow down your search to one week."
 tags:
     - "software"
     - "management"

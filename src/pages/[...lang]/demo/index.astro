@@ -2,10 +2,16 @@
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
-import ProductFAQs from "@/components/ProductFAQs.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
-import Link from "@/components/ui/link";
-import { Button } from "@/components/ui/button";
+import Button from "@/components/ds/Button.astro";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import PageHero from "@/modules/product/PageHero.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+
+/*
+ * Booking a demo, in the home's design: the promise, the calendar in a tile, the questions people
+ * ask before booking, and the way to the prices.
+ */
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -19,35 +25,31 @@ const calendlyUrl = "https://calendly.com/edena-software/1h-meeting";
 const pricingUrl = localePath(lang, "/pricing");
 ---
 
-<Layout content={{ title: t.meta.demoTitle, description: t.meta.demoDescription }} lang={lang}>
-    <section class="grid gap-10 px-4">
-        <div class="text-center flex flex-col gap-4 items-center pt-10 max-w-2xl mx-auto">
-            <h1
-                class="text-xl sm:text-3xl font-bold bg-gradient-to-r from-foreground to-foreground/40 bg-clip-text text-transparent text-center"
-            >
-                {d.heroTitle}
-            </h1>
-            <p class="text-muted-foreground max-w-150">{d.heroDescription}</p>
-            <p class="text-[10px] text-muted-foreground uppercase tracking-wider">
-                {t.hero.verifactuReady} | {t.noCreditCardRequired}
-            </p>
-        </div>
-
-        <div
-            id="calendly-inline-demo"
-            class="calendly-inline-widget"
-            data-url={calendlyUrl}
-            style="min-width:320px;height:700px;"
-        >
-        </div>
-
-        <ProductFAQs t={t} title={d.faqTitle} description="" faqs={d.faqs} />
-        <div class="text-center pb-10">
-            <Link href={pricingUrl}>
-                <Button variant="secondary">{d.pricingLinkLabel}</Button>
-            </Link>
+<Layout content={{ title: t.meta.demoTitle, description: t.meta.demoDescription }} lang={lang} design="premium">
+    <HomeMotion />
+    <PageHero title={d.heroTitle} description={d.heroDescription}>
+        <p class="ds-intro mt-5 type-footnote text-ink-3" style="--intro-i: 2">
+            {t.hero.verifactuReady} · {t.noCreditCardRequired}
+        </p>
+    </PageHero>
+    <section class="ds-section pt-12 sm:pt-16">
+        <div class="ds-container" data-reveal="rise">
+            <!-- The booking calendar, on white in both themes: it is Calendly's own page. -->
+            <div class="overflow-hidden rounded-tile bg-white ring-1 ring-hairline elev-2">
+                <div
+                    id="calendly-inline-demo"
+                    class="calendly-inline-widget"
+                    data-url={calendlyUrl}
+                    style="min-width:320px;height:700px;"
+                >
+                </div>
+            </div>
         </div>
     </section>
+    <ProductFaqs t={t} title={d.faqTitle} description="" faqs={d.faqs} />
+    <div class="ds-container flex justify-center pb-24">
+        <Button href={pricingUrl} variant="secondary" size="lg">{d.pricingLinkLabel}</Button>
+    </div>
     <FAQPageSchema slot="structured-data" faqs={d.faqs} translations={{}} lang={lang} />
     <script is:inline>
         document.addEventListener("astro:page-load", () => {

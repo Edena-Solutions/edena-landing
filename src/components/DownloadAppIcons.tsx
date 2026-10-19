@@ -9,14 +9,21 @@ const iconClass = "size-10 object-cover overflow-hidden";
 interface Props {
     lang: string;
     className?: string;
+    quiet?: boolean;
 }
 
-export default function DownloadAppIcons({ lang, className }: Props) {
+export default function DownloadAppIcons({ lang, className, quiet }: Props) {
     const t = translations[lang as keyof typeof translations];
 
     return (
         <div className={cn(className)}>
-            <p className="uppercase tracking-widest text-[10px] mb-4 text-muted-foreground">
+            <p
+                className={
+                    quiet
+                        ? "type-caption mb-3 text-ink-3"
+                        : "uppercase tracking-widest text-[10px] mb-4 text-muted-foreground"
+                }
+            >
                 {t.downloadTheApp}
             </p>
             <div className="flex items-center gap-10">

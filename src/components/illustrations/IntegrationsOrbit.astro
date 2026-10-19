@@ -1,0 +1,104 @@
+---
+import { LOGO_PATH, LOGO_VIEWBOX } from "@/lib/brand";
+import type { Translation } from "@/i18n";
+
+/*
+ * Edena at the centre, the tools a school already uses in orbit around it: the integrations as the
+ * Apple "works with" diagram rather than a row of logos. The rings turn slowly and each logo turns
+ * back as it goes, so it stays upright; with reduced motion they hold still.
+ *
+ * The logos are the ones `IntegrationsLogosStack` has always shown, from the same sources.
+ */
+interface Props {
+    t: Translation;
+}
+
+const { t } = Astro.props;
+const { logos } = t.integrationsSection;
+
+const inner = [
+    { src: "https://sinapsis.agency/uploads/images/2026/01/696c9f0aa8cff_c0ca1cb7.png", alt: logos.whatsapp },
+    { src: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg", alt: logos.gmail },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Calendar_icon_%282020%29.svg",
+        alt: logos.googleCalendar,
+    },
+];
+const outer = [
+    { src: "https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg", alt: logos.slack },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Google_Classroom_Logo.svg/960px-Google_Classroom_Logo.svg.png",
+        alt: logos.salesforce,
+    },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg/960px-Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg.png?_=20251003204701",
+        alt: logos.outlook,
+    },
+    {
+        src: "https://veevart.my.site.com/support/servlet/rtaImage?eid=ka0Vs000000c3bB&feoid=00Nf200000E0J7s&refid=0EMVs000001gMQA",
+        alt: logos.outlookCalendar,
+    },
+];
+
+const rings = [
+    { radius: 6, logos: inner, duration: "70s", offset: -90 },
+    { radius: 10, logos: outer, duration: "110s", offset: -45 },
+];
+---
+
+<div class="ds-art mx-auto w-full" style="--ds-art-width: 28">
+    <div class="ds-artboard" style="height: 26em">
+        <div
+            aria-hidden="true"
+            class="absolute left-1/2 top-1/2 size-[9em] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-60 blur-[2em]"
+            style="background: var(--ds-brand-gradient)"
+        >
+        </div>
+        {
+            rings.map((ring) => (
+                <ul
+                    class="absolute left-1/2 top-1/2 animate-ds-orbit rounded-full border border-dashed border-hairline-strong"
+                    style={`width:${ring.radius * 2}em;height:${ring.radius * 2}em;margin:-${ring.radius}em 0 0 -${ring.radius}em;--ds-orbit-duration:${ring.duration}`}
+                    aria-label={t.integrationsSection.title}
+                >
+                    {ring.logos.map((logo, index) => {
+                        const angle = ring.offset + (360 / ring.logos.length) * index;
+                        return (
+                            <li
+                                class="absolute left-1/2 top-1/2"
+                                style={`transform: rotate(${angle}deg) translateX(${ring.radius}em) rotate(${-angle}deg)`}
+                            >
+                                <span
+                                    class="-ml-[1.45em] -mt-[1.45em] flex size-[2.9em] animate-ds-orbit-reverse items-center justify-center rounded-[0.8em] bg-surface elev-2 ring-1 ring-hairline"
+                                    style={`--ds-orbit-duration:${ring.duration}`}
+                                >
+                                    <img
+                                        src={logo.src}
+                                        alt={logo.alt}
+                                        title={logo.alt}
+                                        width="28"
+                                        height="28"
+                                        loading="lazy"
+                                        decoding="async"
+                                        class="size-[1.6em] object-contain"
+                                    />
+                                </span>
+                            </li>
+                        );
+                    })}
+                </ul>
+            ))
+        }
+        <div
+            class="absolute left-1/2 top-1/2 flex size-[4.6em] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-[1.1em] bg-surface elev-3 ring-1 ring-hairline"
+        >
+            <svg viewBox={LOGO_VIEWBOX} class="size-[2.6em] text-ink" aria-hidden="true">
+                <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d={LOGO_PATH}
+                ></path>
+            </svg>
+        </div>
+    </div>
+</div>

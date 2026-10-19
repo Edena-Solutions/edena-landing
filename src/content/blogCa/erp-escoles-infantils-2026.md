@@ -2,7 +2,7 @@
 title: "Què ha de tenir un ERP per a escoles infantils el 2026"
 date: "2026-04-08"
 translationKey: "erp-escuelas-infantiles-requisitos-2026"
-description: "Requisits específics de ERP per a escoles infantils. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "Una escola infantil o escola bressol té necessitats molt específiques: cicles de pagament mensual o trimestral, places limitades amb llistes d'espera llargues."
 tags:
     - "ERP escoles infantils"
     - "programari guarderia"

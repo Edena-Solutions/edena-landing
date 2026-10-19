@@ -1,0 +1,23 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+/*
+ * The design system's pill, always a link on the landing (every call to action goes somewhere).
+ * One element, so there is no button nested in an anchor.
+ */
+interface Props extends HTMLAttributes<"a"> {
+    href: string;
+    variant?: "primary" | "secondary" | "white" | "glass";
+    size?: "md" | "lg";
+}
+
+const { href, variant = "primary", size = "md", class: className, ...rest } = Astro.props;
+---
+
+<a
+    href={href}
+    class:list={["ds-btn", `ds-btn--${variant}`, size === "lg" && "ds-btn--lg", className]}
+    {...rest}
+>
+    <slot />
+</a>

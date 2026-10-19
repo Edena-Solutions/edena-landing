@@ -1,0 +1,11 @@
+/*
+ * Edena's small logo: the "e" — a dome over a smile — cut out of a full circle, in one path drawn
+ * even-odd, so it takes `currentColor` and whatever lies behind shows through the cut. The same
+ * drawing as `assets/img/logos/logo-small.svg` and the favicon.
+ */
+export const LOGO_VIEWBOX = "0 0 196.59 196.59";
+
+export const LOGO_PATH =
+    "M98.295 0A98.295 98.295 0 1 1 98.295 196.59A98.295 98.295 0 1 1 98.295 0Z" +
+    "M97.56 106.18c-15.78 0-31.57-.21-47.34.12-5.46.11-7.46-1.47-7.65-7.1-1-31.13 24.52-57.37 56-57.16 31.05.21 56.26 26.69 55 57.45-.21 5.2-2 6.87-7.18 6.79C130.12 106 113.84 106.18 97.56 106.18Zm35.72-17.9c-1.19-17.68-21.93-29.22-36-28.63C80.13 60.36 63.55 73.81 63 88.28Z" +
+    "M138 135.55c-22.08 23.21-59.16 23.11-79.42.19v0l11-12.77c21.85 16.39 33.48 16.4 57 .27L138 135.54S138 135.54 138 135.55Z";

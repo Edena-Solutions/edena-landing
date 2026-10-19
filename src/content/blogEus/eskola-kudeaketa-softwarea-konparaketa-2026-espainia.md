@@ -2,7 +2,7 @@
 title: "Espainian ikastetxeak kudeatzeko software onena: 2026ko alderaketa"
 date: "2026-03-16"
 translationKey: "comparativa-software-gestion-escolar-espana-2026"
-description: "Espainiako ERP ikastetxearen merkatu eta erosketa irizpideak alderatu. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Espainian eskola kudeatzeko software onena aukeratzea jada ez da “ordena izatea” kontua eta eskudiruari."
 tags:
     - "eskola kudeatzeko softwarea"
     - "konparatiboa ERP hezkuntza"

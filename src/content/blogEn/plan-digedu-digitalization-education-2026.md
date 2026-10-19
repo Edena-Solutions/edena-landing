@@ -2,7 +2,7 @@
 title: "DigEdu 2026 Plan: digital transformation in education in Spain"
 date: "2026-01-08"
 translationKey: "plan-digedu-digitalizacion-educacion-2026"
-description: "DigEdu Plan: what it means for the center's management. Practical guide for educational centers in Spain (2026)."
+description: "With the start of 2026, the Digitalization and Digital Skills Plan of the Educational System (#DigEdu Plan) is consolidated as the most ambitious educational digitalization initiative in the history of Spain."
 tags:
     - "DigEdu Plan"
     - "educational digitization"

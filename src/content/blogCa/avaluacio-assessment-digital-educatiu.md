@@ -2,7 +2,7 @@
 title: "Avaluació i assessment digital a l'educació moderna: Eines i estratègies"
 date: "2025-08-20"
 translationKey: "evaluacion-assessment-digital-educativo"
-description: "Avaluació digital i competències clau LOMLOE. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "L'avaluació educativa està experimentant una revolució digital que transforma fonamentalment com mesurem, analitzem i utilitzem les dades de l'aprenentatge estudiantil."
 tags:
     - "avaluació digital"
     - "assessment"

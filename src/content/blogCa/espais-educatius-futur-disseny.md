@@ -2,7 +2,7 @@
 title: "Espais educatius del futur: Disseny i innovació per a l'aprenentatge modern"
 date: "2025-08-25"
 translationKey: "espacios-educativos-futuro-diseno"
-description: "Disseny despais flexibles i DigEdu. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "Els espais físics on passa l'aprenentatge tenen un impacte profund i subestimat sovint en l'efectivitat educativa."
 tags:
     - "espais educatius"
     - "disseny arquitectònic"

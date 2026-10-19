@@ -2,7 +2,7 @@
 title: "Liderazgo educativo transformacional en la era digital: Competencias y estrategias"
 date: "2025-09-15"
 translationKey: "liderazgo-educativo-transformacional-digital"
-description: "Liderazgo de dirección en proyectos digitales escolares. Guía práctica para centros educativos en España (2026)."
+description: "Implantar un ERP, una app familiar o un expediente digital no falla solo por el software."
 tags:
     ["liderazgo educativo", "transformación digital", "competencias directivas", "gestión escolar"]
 author: "ENA by Edena"

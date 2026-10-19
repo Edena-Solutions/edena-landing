@@ -2,7 +2,7 @@
 title: "Pla DigEdu 2026: transformació digital a l'educació a Espanya"
 date: "2026-01-08"
 translationKey: "plan-digedu-digitalizacion-educacion-2026"
-description: "Pla DigEdu: què implica per a la gestió del centre. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "Amb l'inici del 2026, el Pla de Digitalització i Competències Digitals del Sistema Educatiu (Pla #DigEdu) es consolida com la iniciativa més ambiciosa de digitalització educativa a la història d'Espanya."
 tags:
     - "Pla DigEdu"
     - "digitalització educativa"

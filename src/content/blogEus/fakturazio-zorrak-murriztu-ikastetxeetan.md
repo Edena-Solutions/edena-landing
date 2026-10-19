@@ -2,7 +2,7 @@
 title: "Nola murriztu ez-ordainketak eta fakturazioa hobetu hezkuntza-zentroetan"
 date: "2026-03-03"
 translationKey: "reducir-impagos-facturacion-colegios"
-description: "Administrazio-irabazi azkarrak lehenetsiak murrizteko softwarea aldatu gabe. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Ordainagiri argiak, zordunei soilik bidalitako abisuak eta ikastaro bakoitzeko zorren asteko panela."
 tags:
     - "ikastetxeko fakturazioa"
     - "ikastetxeko ordainketen kudeaketa"

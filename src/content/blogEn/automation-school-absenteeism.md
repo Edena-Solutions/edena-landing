@@ -2,7 +2,7 @@
 title: "How automation reduces school absenteeism"
 date: "2026-02-10"
 translationKey: "automatizacion-absentismo-escolar"
-description: "Automate attendance and alerts to reduce absenteeism. Practical guide for educational centers in Spain (2026)."
+description: "School absenteeism is not resolved with regulations alone: it requires reliable registration, early detection and agile communication with families."
 tags:
     - "automation"
     - "school truancy"

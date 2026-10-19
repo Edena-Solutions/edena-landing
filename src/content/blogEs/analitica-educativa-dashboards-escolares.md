@@ -2,7 +2,7 @@
 title: "Datos y analítica en educación: cómo tomar mejores decisiones con dashboards escolares"
 date: "2026-03-15"
 translationKey: "analitica-educativa-dashboards-escolares"
-description: "Analítica operativa para decisiones de dirección. Guía práctica para centros educativos en España (2026)."
+description: "La analítica educativa y el dashboard escolar permiten tomar decisiones basadas en datos en lugar de intuición."
 tags: ["analítica educativa", "dashboard escolar", "datos", "toma de decisiones"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

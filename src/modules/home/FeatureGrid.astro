@@ -1,0 +1,49 @@
+---
+import { ChevronRight } from "lucide-react";
+import Icon from "@/components/ui/icon";
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import type { Translation } from "@/i18n";
+
+/*
+ * The six everyday features as tiles, each a real link to its page (the cards it replaces navigated
+ * by script, which crawlers and middle-clicks do not follow). The home page's own version of
+ * `components/Features.tsx`, which the product pages keep using.
+ */
+interface Props {
+    t: Translation;
+    features: { icon: string; title: string; description: string; navigateTo: string }[];
+    title?: string;
+    description?: string;
+}
+
+const { t, features, title = t.features.title, description = t.features.description } = Astro.props;
+const tones = ["bg-sys-blue", "bg-sys-pink", "bg-sys-orange", "bg-sys-green", "bg-sys-indigo", "bg-sys-teal"];
+---
+
+<section class="ds-section">
+    <div class="ds-container">
+        <SectionHeader title={title} description={description} />
+
+        <div class="ds-rail-frame mt-14">
+        <div class="ds-rail ds-scroll-fade flex gap-3 md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-3" data-reveal-group>
+            {
+                features.map((feature, index) => (
+                    <div data-reveal="scale">
+                        <a href={feature.navigateTo} class="ds-tile ds-tile--link group flex h-full flex-col gap-3 p-7 sm:p-8">
+                            <span class:list={["ds-app-icon size-12", tones[index % tones.length]]}>
+                                <Icon name={feature.icon} size={22} />
+                            </span>
+                            <h3 class="mt-4 type-title-3 text-ink">{feature.title}</h3>
+                            <p class="type-callout text-ink-2">{feature.description}</p>
+                            <span class="ds-link mt-auto pt-3 type-callout">
+                                {t.knowMore}
+                                <ChevronRight aria-hidden="true" />
+                            </span>
+                        </a>
+                    </div>
+                ))
+            }
+        </div>
+        </div>
+    </div>
+</section>

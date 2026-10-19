@@ -57,7 +57,16 @@ export function ThemeToggle({
 
     if (!mounted) {
         return (
-            <div className={cn("size-9 shrink-0 rounded bg-secondary", className)} aria-hidden />
+            <Button
+                type="button"
+                variant="secondary"
+                size="icon"
+                tabIndex={-1}
+                className={cn("pointer-events-none shrink-0 rounded-full", className)}
+                aria-hidden
+            >
+                <span className="size-4" aria-hidden />
+            </Button>
         );
     }
 
@@ -72,12 +81,12 @@ export function ThemeToggle({
             onClick={handleClick}
             aria-label={label}
             title={label}
-            className={cn("shrink-0", className)}
+            className={cn("shrink-0 rounded-full", className)}
         >
-            <span className="relative inline-flex size-5 items-center justify-center">
+            <span className="relative inline-flex size-4 items-center justify-center">
                 <Sun
                     className={cn(
-                        "size-5 absolute transition-all duration-300 ease-out",
+                        "size-4 absolute transition-all duration-300 ease-out",
                         isDark
                             ? "rotate-0 opacity-100"
                             : "-rotate-90 opacity-0 pointer-events-none",
@@ -86,7 +95,7 @@ export function ThemeToggle({
                 />
                 <Moon
                     className={cn(
-                        "size-5 absolute transition-all duration-300 ease-out",
+                        "size-4 absolute transition-all duration-300 ease-out",
                         !isDark
                             ? "rotate-0 opacity-100"
                             : "rotate-90 opacity-0 pointer-events-none",

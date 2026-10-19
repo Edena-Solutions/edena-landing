@@ -2,7 +2,7 @@
 title: "Communication with families: tools beyond email"
 date: "2026-02-17"
 translationKey: "comunicacion-digital-centros-educativos"
-description: "Digital channels beyond mass email. Practical guide for educational centers in Spain (2026)."
+description: "Email is still useful, but it is not enough for all communication with families: circulars, payment reminders, absences or urgent notices require channels that families consult daily."
 tags:
     - "digital communication educational centers"
     - "families"

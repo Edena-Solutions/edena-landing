@@ -2,7 +2,7 @@
 title: "Hezkuntza-lidergo eraldatzailea aro digitalean: gaitasunak eta estrategiak"
 date: "2025-09-15"
 translationKey: "liderazgo-educativo-transformacional-digital"
-description: "Zuzendaritzako lidergoa ikastetxeko proiektu digitaletan. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "ERP, familiaren aplikazio bat edo fitxategi digital bat ezartzeak ez du huts egiten softwareagatik bakarrik."
 tags:
     - "liderazgo educativo"
     - "transformación digital"

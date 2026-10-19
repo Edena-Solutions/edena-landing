@@ -2,7 +2,7 @@
 title: "Compétences numériques des enseignants en 2026 : plus de 661 000 enseignants certifiés"
 date: "2026-01-10"
 translationKey: "competencias-digitales-profesorado-2026"
-description: "Statut des enseignants certifiés et plan DigEdu 2026. Guide pratique pour les établissements scolaires en Espagne (2026)."
+description: "Le Référentiel de référence des compétences pédagogiques numériques, mis à jour en 2022 et aligné sur le cadre européen #DigCompEdu."
 tags:
     - "compétences numériques"
     - "formation des enseignants"

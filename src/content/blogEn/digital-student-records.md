@@ -2,7 +2,7 @@
 title: "How to centralize all student information in a single system"
 date: "2026-03-09"
 translationKey: "expediente-academico-digital-estudiantes"
-description: "Teacher/tutor view of the unified academic record. Practical guide for educational centers in Spain (2026)."
+description: "The digital academic record and the management of students at school scattered in folders, spreadsheets and emails generate errors, delays and frustration."
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1769074257962-c297d5908fd5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2VudHJhbGl6ZWR8ZW58MHx8MHx8fDA%3D"
 relatedPosts:

@@ -2,16 +2,18 @@
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
-import Hero from "@/components/Hero.astro";
-import Section from "@/components/Section.astro";
-import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from "@/modules/families/FAQs.astro";
-import AppAnimation from "@/components/AppAnimation";
-import ShopAppAnimation from "@/components/ShopAppAnimation";
-import Features from "@/components/Features";
-import featuresAnimation from "@/assets/animations/functions.json";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductHero from "@/modules/product/ProductHero.astro";
+import ProductSplit from "@/modules/product/ProductSplit.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import AppScenes from "@/modules/product/scenes/AppScenes";
+import FinanceScenes from "@/modules/product/scenes/FinanceScenes";
+import ShopScenes from "@/modules/product/scenes/ShopScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import billingCycle from "@/assets/img/screenshots/finance/billing_info.png";
-import billingCycleDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -23,6 +25,10 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const base = productSceneLabels(t);
+const labels = base;
+const shopLabels = { ...base, s: t.shopScenes };
+const locale = intlLocaleForLang(lang);
 
 const faqsCollection = await getCollection("faqs");
 const familiesFaqs = faqsCollection.find((entry) => entry.id === "faqsFamilies.md");
@@ -74,59 +80,38 @@ const features = [
         ...ogFromAsset(billingCycle, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
-    <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero
-            t={t}
-            showBookDemoInHero={true}
-            mainTitle={t.families.mainTitle}
-            mainDescription={t.families.mainDescription}
-            leftCard={{
-                title: t.families.mobileAppTitle,
-                description: t.families.mobileAppDescription,
-                showButton: true,
-            }}
-            rightCard={{
-                title: t.families.digitalBillingTitle,
-                description: t.families.digitalBillingDescription,
-                image: billingCycle,
-                imageDark: billingCycleDark,
-                altText: t.altText.billingCycle,
-            }}
-        >
-            <AppAnimation slot="heroVisual" client:only="react" />
-        </Hero>
-        <Features
-            client:load
-            t={t}
-            features={features}
-            title={t.features.familiesFeatures.title}
-            description={t.features.familiesFeatures.tagline}
-        />
-        <Section
-            t={t}
-            sectionTitle={t.families.communicationAndStoreTitle}
-            sectionDescription={t.families.communicationAndStoreDescription}
-            leftCard={{
-                title: t.families.appFeaturesTitle,
-                description: t.families.appFeaturesDescription,
-                lottie: featuresAnimation,
-                imageClass: "w-full mx-auto md:-mt-20",
-                cardClass: "md:overflow-hidden md:h-105",
-                altText: t.altText.appDetail,
-            }}
-            rightCard={{
-                title: t.families.onlineStoreTitle,
-                description: t.families.onlineStoreDescription,
-                imageClass: "md:w-2/3 mx-auto overflow-hidden",
-                cardClass: "h-100 md:h-105 overflow-hidden",
-                altText: t.altText.appHero,
-            }}
-        >
-            <ShopAppAnimation slot="rightCardVisual" client:only="react" />
-        </Section>
-        <FAQs t={t} />
-    </GSAPSection>
+    <HomeMotion />
+    <ProductHero t={t} title={t.families.mainTitle} description={t.families.mainDescription} bleed>
+        <AppScenes slot="visual" client:visible scene="trio" labels={labels} locale={locale} />
+    </ProductHero>
+    <ProductSplit
+        t={t}
+        left={{ title: t.families.mobileAppTitle, description: t.families.mobileAppDescription, cta: true, bleed: true }}
+        right={{ title: t.families.digitalBillingTitle, description: t.families.digitalBillingDescription, bleed: true }}
+    >
+        <AppScenes slot="left" client:visible scene="stores" labels={labels} locale={locale} />
+        <FinanceScenes slot="right" client:visible scene="pay" labels={labels} locale={locale} />
+    </ProductSplit>
+    <FeatureGrid t={t} features={features} title={t.features.familiesFeatures.title} description={t.features.familiesFeatures.tagline} />
+    <ProductSplit
+        t={t}
+        title={t.families.communicationAndStoreTitle}
+        description={t.families.communicationAndStoreDescription}
+        left={{ title: t.families.appFeaturesTitle, description: t.families.appFeaturesDescription, bleed: true }}
+        right={{ title: t.families.onlineStoreTitle, description: t.families.onlineStoreDescription, bleed: true }}
+    >
+        <AppScenes slot="left" client:visible scene="album" labels={labels} locale={locale} />
+        <ShopScenes slot="right" client:visible scene="quick" labels={shopLabels} locale={locale} />
+    </ProductSplit>
+    <ProductFaqs
+        t={t}
+        title={t.faqs.families?.title ?? t.faqs.title}
+        description={t.faqs.families?.description ?? t.faqs.description}
+        faqs={familiesFaqs?.data.faqs ?? []}
+    />
+    <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
         name="Edena - Portal para Familias"

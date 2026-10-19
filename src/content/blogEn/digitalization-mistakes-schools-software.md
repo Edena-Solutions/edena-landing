@@ -2,7 +2,7 @@
 title: "Digitization in schools: 7 mistakes that schools make when implementing educational software"
 date: "2026-03-05"
 translationKey: "errores-digitalizacion-colegios-software"
-description: "7 mistakes when implementing software and how to avoid them. Practical guide for educational centers in Spain (2026)."
+description: "Educational digitalization is advancing, but many centers make mistakes that delay results, generate resistance or waste investment."
 tags:
     - "educational digitization"
     - "software for schools"

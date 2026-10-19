@@ -1,0 +1,47 @@
+---
+/*
+ * A page's opening without a product to show — pricing, contact, the demo: an eyebrow, the
+ * statement and the line that explains it, rising on load like every hero on the site, with room
+ * underneath (`slot`) for whatever the page asks first.
+ */
+interface Props {
+    title: string;
+    description: string;
+    eyebrow?: string;
+    /** Where the eyebrow leads, when it is the way back to a parent page. */
+    eyebrowHref?: string;
+}
+
+const { title, description, eyebrow, eyebrowHref } = Astro.props;
+---
+
+<section class="relative isolate -mt-15 overflow-x-clip pt-15">
+    <div class="ds-container flex flex-col items-center pt-14 text-center">
+        {
+            eyebrow &&
+                (eyebrowHref ? (
+                    <a
+                        href={eyebrowHref}
+                        class="ds-intro ds-link mb-4 type-callout font-semibold"
+                        style="--intro-i: 0"
+                    >
+                        {eyebrow}
+                    </a>
+                ) : (
+                    <p
+                        class="ds-intro mb-4 type-callout font-semibold text-brand-ink"
+                        style="--intro-i: 0"
+                    >
+                        {eyebrow}
+                    </p>
+                ))
+        }
+        <h1 class="ds-intro type-display-1 max-w-4xl pb-2 text-gradient-ink" style="--intro-i: 0">
+            {title}
+        </h1>
+        <p class="ds-intro type-lead mt-6 max-w-2xl text-ink-2" style="--intro-i: 1">
+            {description}
+        </p>
+        <slot />
+    </div>
+</section>

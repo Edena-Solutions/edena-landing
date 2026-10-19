@@ -1,26 +1,35 @@
 ---
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
+import { getCollection } from "astro:content";
 import Layout from "@/layouts/main.astro";
-import Section from "@/components/Section.astro";
-import Hero from "@/components/Hero.astro";
-import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from "@/modules/app/FAQs.astro";
-import Features from "@/components/Features";
-import AppAnimation from "@/components/AppAnimation";
-import notificationAnimation from "@/assets/animations/notification.json";
-import touchbarAnimation from "@/assets/animations/touchbar.json";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductHero from "@/modules/product/ProductHero.astro";
+import ProductSplit from "@/modules/product/ProductSplit.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import AppScenes from "@/modules/product/scenes/AppScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import DownloadAppIcons from "@/components/DownloadAppIcons";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
-import { getCollection } from "astro:content";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import { ogFromAsset } from "@/lib/og-image";
 import appHero from "@/assets/img/screenshots/app/app_hero.png";
-import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/constants/app-stores";
+
+/*
+ * The families' app's page, in the home's design: the app drawn on phones of glass and brought to
+ * life rather than screenshotted (`scenes/AppScenes.tsx`), each scene playing once as it comes into
+ * view.
+ */
 
 export function getStaticPaths() {
     return localeStaticPaths();
 }
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const labels = productSceneLabels(t);
+const locale = intlLocaleForLang(lang);
 
 const faqsCollection = await getCollection("faqs");
 const appFaqs = faqsCollection.find((entry) => entry.id === "faqsApp.md");
@@ -72,58 +81,63 @@ const features = [
         ...ogFromAsset(appHero, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
-    <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero
-            t={t}
-            mainTitle={t.app.mainTitle}
-            mainDescription={t.app.mainDescription}
-            showBookDemoInHero={true}
-            leftCard={{
-                title: t.app.parentsConnectedTitle,
-                description: t.app.parentsConnectedDescription,
-                showButton: true,
-            }}
-            rightCard={{
-                title: t.app.androidIosTitle,
-                description: t.app.androidIosDescription,
-                downloadAppButtons: {
-                    iosUrl: APP_STORE_URL,
-                    androidUrl: GOOGLE_PLAY_URL,
-                },
-                cardClass: "h-60 justify-center items-center gap-4",
-            }}
-        >
-            <AppAnimation slot="heroVisual" client:only="react" className="mt-10 md:mt-0" />
-        </Hero>
-        <Features
-            client:load
-            t={t}
-            features={features}
-            title={t.features.appFeatures.title}
-            description={t.features.appFeatures.tagline}
-        />
-        <Section
-            t={t}
-            sectionTitle={t.app.uploadPicturesTitle}
-            sectionDescription={t.app.uploadPicturesDescription}
-            leftCard={{
-                title: t.app.communicateAndGetAlbumsTitle,
-                description: t.app.communicateAndGetAlbumsDescription,
-                lottie: touchbarAnimation,
-                imageClass: "w-1/3 md:w-1/4 mx-auto",
-                altText: t.altText.appHero,
-            }}
-            rightCard={{
-                title: t.app.uploadPicturesAndVideosTitle,
-                description: t.app.uploadPicturesAndVideosDescription,
-                lottie: notificationAnimation,
-                imageClass: "w-full md:w-2/3 mx-auto",
-                altText: t.altText.appFeed,
-            }}
-        />
-        <FAQs t={t} />
-    </GSAPSection>
+    <HomeMotion />
+    <ProductHero t={t} title={t.app.mainTitle} description={t.app.mainDescription} bleed>
+        <AppScenes slot="visual" client:visible scene="trio" labels={labels} locale={locale} max={60} />
+    </ProductHero>
+    <ProductSplit
+        t={t}
+        left={{
+            title: t.app.parentsConnectedTitle,
+            description: t.app.parentsConnectedDescription,
+            cta: true,
+            bleed: true,
+        }}
+        right={{
+            title: t.app.androidIosTitle,
+            description: t.app.androidIosDescription,
+            bleed: true,
+        }}
+    >
+        <AppScenes slot="left" client:visible scene="chat" labels={labels} locale={locale} />
+        <div slot="right" class="flex w-full flex-col items-center gap-2">
+            <DownloadAppIcons lang={lang} quiet className="flex flex-col items-center" />
+            <AppScenes client:visible scene="stores" labels={labels} locale={locale} />
+        </div>
+    </ProductSplit>
+    <FeatureGrid
+        t={t}
+        features={features}
+        title={t.features.appFeatures.title}
+        description={t.features.appFeatures.tagline}
+    />
+    <ProductSplit
+        t={t}
+        title={t.app.uploadPicturesTitle}
+        description={t.app.uploadPicturesDescription}
+        left={{
+            title: t.app.communicateAndGetAlbumsTitle,
+            description: t.app.communicateAndGetAlbumsDescription,
+            bleed: true,
+        }}
+        right={{
+            title: t.app.uploadPicturesAndVideosTitle,
+            description: t.app.uploadPicturesAndVideosDescription,
+            bleed: true,
+        }}
+    >
+        <AppScenes slot="left" client:visible scene="album" labels={labels} locale={locale} />
+        <AppScenes slot="right" client:visible scene="updates" labels={labels} locale={locale} />
+    </ProductSplit>
+    <ProductFaqs
+        t={t}
+        title={t.faqs.app?.title ?? t.faqs.title}
+        description={t.faqs.app?.description ?? t.faqs.description}
+        faqs={appFaqs?.data.faqs ?? []}
+    />
+    <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
         name="Edena"

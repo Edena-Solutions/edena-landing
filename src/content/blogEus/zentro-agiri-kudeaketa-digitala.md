@@ -2,7 +2,7 @@
 title: "Agiri-kudeaketa digitala: eskola-administrazioaren etorkizuna"
 date: "2025-01-18"
 translationKey: "gestion-documental-digital-centros"
-description: "Agintaritza, baimenak eta agiri-atxikipena. Hezkuntza-zentroentzako gida praktikoa Espainian (2026)."
+description: "Hezkuntza-zentroek agiri kopuru izugarria kudeatzen dute: espediente akademikoak, fakturak, kontratuak, komunikazio ofizialak eta askoz gehiago."
 tags:
     - "documentos"
     - "digital"

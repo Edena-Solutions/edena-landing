@@ -2,7 +2,7 @@
 title: "Noves Tecnologies a l'Aula 2026: Transformant l'Experiència Educativa"
 date: "2026-01-29"
 translationKey: "nuevas-tecnologias-aula-2026"
-description: "Tecnologies d´aula amb focus en competències i admin alliberada. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "L'any 2026 està marcant un abans i un després com s'ensenya i s'aprèn a les aules espanyoles. Amb la implementació del Pla DigEdu en ple apogeu, més de 240."
 tags:
     - "tecnologia educativa"
     - "aula digital"

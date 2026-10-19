@@ -1,0 +1,50 @@
+---
+/*
+ * A section's heading: the statement, then the line that explains it. Both rise in on scroll, the
+ * line a beat after the statement. `mobileDescription` swaps in a shorter line below `md`.
+ */
+interface Props {
+    title: string;
+    description?: string;
+    mobileDescription?: string;
+    align?: "center" | "start";
+    class?: string;
+}
+
+const {
+    title,
+    description,
+    mobileDescription,
+    align = "center",
+    class: className,
+} = Astro.props;
+---
+
+<div
+    data-reveal-group
+    class:list={[
+        "flex flex-col gap-5",
+        align === "center" ? "mx-auto max-w-3xl items-center text-center" : "max-w-2xl",
+        className,
+    ]}
+>
+    <h2 data-reveal class="type-display-2 text-gradient-ink pb-1">{title}</h2>
+    {
+        description && (
+            <p
+                data-reveal
+                class:list={["type-lead max-w-2xl text-ink-2", mobileDescription && "hidden md:block"]}
+            >
+                {description}
+            </p>
+        )
+    }
+    {
+        mobileDescription && (
+            <p data-reveal class="type-lead max-w-2xl text-ink-2 md:hidden">
+                {mobileDescription}
+            </p>
+        )
+    }
+    <slot />
+</div>

@@ -2,7 +2,7 @@
 title: "Innovative pedagogical methodologies: Transforming the teaching-learning process"
 date: "2025-08-10"
 translationKey: "metodologias-pedagogicas-innovadoras"
-description: "Active methodologies aligned with LOMLOE. Practical guide for educational centers in Spain (2026)."
+description: "The educational landscape is undergoing a fundamental transformation in its pedagogical approaches."
 tags:
     - "pedagogical methodologies"
     - "educational innovation"

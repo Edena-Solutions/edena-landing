@@ -2,7 +2,7 @@
 title: "Bienestar emocional de estudiantes en la era digital: Estrategias y herramientas"
 date: "2025-08-30"
 translationKey: "bienestar-emocional-estudiantes-digitales"
-description: "Bienestar emocional y uso equilibrado de pantallas. Guía práctica para centros educativos en España (2026)."
+description: "El bienestar emocional de los estudiantes se ha convertido en una prioridad crítica para los centros educativos en la era digital."
 tags: ["bienestar emocional", "salud mental", "era digital", "apoyo estudiantil"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1503891617560-5b8c2e28cbf6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

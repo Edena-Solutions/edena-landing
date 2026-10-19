@@ -2,7 +2,7 @@
 title: "Digital educational marketing: Strategies to attract and retain families in the digital age"
 date: "2025-09-08"
 translationKey: "marketing-educativo-digital-estrategias"
-description: "Digital marketing for private and charter schools in Spain. Practical guide for educational centers in Spain (2026)."
+description: "If you run a private or charter school with 150 to 800 families, you probably invest in the website, Open Day or networks and still do not see the return in enrollment."
 tags:
     - "educational marketing"
     - "digital marketing"

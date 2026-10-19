@@ -2,7 +2,7 @@
 title: "What an ERP for nursery schools should have in 2026"
 date: "2026-04-08"
 translationKey: "erp-escuelas-infantiles-requisitos-2026"
-description: "Specific ERP requirements for nursery schools. Practical guide for educational centers in Spain (2026)."
+description: "A nursery school or daycare has very specific needs: monthly or quarterly payment cycles, limited places with long waiting lists."
 tags:
     - "ERP nursery schools"
     - "daycare software"

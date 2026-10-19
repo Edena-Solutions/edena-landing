@@ -1,0 +1,141 @@
+---
+import { CircleCheck, Globe } from "lucide-react";
+import { EnaClover } from "@/components/wizard/app-frame";
+import Button from "@/components/ds/Button.astro";
+import ComplianceBadgeIcons from "@/components/icons/ComplianceBadgeIcons.astro";
+import type { Translation } from "@/i18n";
+import { getLanguageFromURL, localizedDemoPath } from "@/i18n";
+import { intlLocaleForLang } from "@/lib/intl-locale";
+import EnaWizard from "@/modules/home/EnaWizard";
+
+/*
+ * Ena on the home page: a dark stage on a light page, a white stage when the page is dark.
+ * The ground grows from the page's width to full bleed as it arrives, Ena's orb glows, and the
+ * three cards play as one conversation. `EnaSection` stays as it is for the /ena page.
+ *
+ * `.dark` on the section makes it a dark island in light mode. `html.dark [data-ena]` flips those
+ * tokens back to black type on white. The nav watches `data-ena` and inverts while it crosses.
+ */
+interface Props {
+    t: Translation;
+}
+
+const { t } = Astro.props;
+const { enaSection } = t;
+const lang = getLanguageFromURL(Astro.url.pathname);
+const cards = {
+    agent: enaSection.cards.agent,
+    automate: enaSection.cards.automate,
+    organization: enaSection.cards.organization,
+};
+const times = ["09:41", "09:42", "09:44"];
+---
+
+<section class="dark relative isolate text-ink" data-ena data-expand>
+    <div
+        aria-hidden="true"
+        class="absolute inset-y-0 left-1/2 -z-10 w-[min(75rem,calc(100%-2rem))] -translate-x-1/2 overflow-hidden rounded-[2.5rem] bg-canvas"
+        data-expand-ground
+    >
+        <div
+            class="ds-ena-stage-aurora absolute left-1/2 -translate-x-1/2 animate-ds-aurora rounded-full blur-3xl"
+            aria-hidden="true"
+        >
+        </div>
+    </div>
+
+    <div class="ds-container ds-section px-5 sm:px-8 lg:px-12">
+        <div class="mx-auto flex max-w-3xl flex-col items-center gap-8 text-center sm:gap-10" data-reveal-group>
+            <div class="overflow-visible py-8 sm:py-10 md:py-12" data-reveal="scale">
+                <div class="relative mx-auto size-36 sm:size-[9.5rem]">
+                    <div
+                        class="absolute inset-[-40%] animate-ds-angle rounded-full opacity-80 blur-2xl"
+                        style="background: conic-gradient(from var(--ds-angle), #22d3ee, #22c55e, #bef264, #14b8a6, #22d3ee)"
+                    >
+                    </div>
+                    <EnaClover
+                        size={9}
+                        alive
+                        alt={enaSection.badge}
+                        className="relative z-10 mx-auto drop-shadow-[0_12px_24px_rgb(34_197_94_/_0.35)]"
+                    />
+                </div>
+            </div>
+            <h2 class="type-display-2 text-gradient-ink max-w-xl pb-1" data-reveal>{enaSection.title}</h2>
+            <p class="type-lead max-w-2xl text-ink-2" data-reveal>{enaSection.description}</p>
+            <div class="flex flex-col gap-3 sm:flex-row" data-reveal>
+                <Button href={localizedDemoPath(lang)}>{t.bookDemo}</Button>
+                <Button href="https://app.edena.es/register-organization" variant="secondary">
+                    {t.registerButton}
+                </Button>
+            </div>
+        </div>
+
+        <div class="mt-16 sm:mt-20" data-reveal="rise">
+            <EnaWizard client:visible cards={cards} copy={t.homeWizard} locale={intlLocaleForLang(lang)} />
+        </div>
+
+        <!-- The conversation, in words, for anyone the stage's drawing does not reach. -->
+        <ol class="sr-only">
+            {
+                Object.values(cards).map((card) => (
+                    <li>
+                        <p>{card.label}</p>
+                        <p>{card.prompt}</p>
+                        <p>{card.response}</p>
+                    </li>
+                ))
+            }
+        </ol>
+
+        <div
+            class="mt-6 grid gap-10 overflow-hidden rounded-tile p-7 material-glass sm:p-10 md:grid-cols-2 md:items-center"
+            data-reveal="scale"
+        >
+            <div class="flex flex-col gap-4">
+                <p class="type-footnote font-semibold text-ink-2">{enaSection.highlight.replaces}</p>
+                <h3 class="type-title-1 max-w-md text-ink">{enaSection.highlight.title}</h3>
+                <p class="type-callout text-ink-2">{enaSection.highlight.description}</p>
+                <div class="mt-2 flex flex-col items-start gap-3">
+                    <Button href="https://app.edena.es/register-organization">
+                        {t.registerButtonExtended}
+                    </Button>
+                    <p class="type-footnote text-ink-3">{t.noCreditCardRequired}</p>
+                </div>
+            </div>
+            <ol class="flex flex-col gap-3" data-reveal-group>
+                {
+                    enaSection.highlight.tasks.map((task, index) => (
+                        <li
+                            class="flex items-center gap-3.5 rounded-[1.1rem] bg-fill-2 px-4 py-3.5 ring-1 ring-hairline"
+                            data-reveal
+                        >
+                            <span class="relative flex size-7 shrink-0 items-center justify-center rounded-full bg-brand/15 text-brand">
+                                <CircleCheck className="size-4" />
+                            </span>
+                            <span class="type-callout min-w-0 flex-1 text-ink">{task}</span>
+                            <span class="type-caption tabular-nums text-ink-3">{times[index]}</span>
+                        </li>
+                    ))
+                }
+            </ol>
+        </div>
+
+        <div class="mt-16 flex flex-col items-center gap-10 text-center lg:flex-row lg:justify-between lg:text-left" data-reveal-group>
+            <div class="flex max-w-md flex-col items-center gap-4 lg:items-start" data-reveal>
+                <h3 class="type-title-1 text-ink">{enaSection.trust.titleBold}</h3>
+                <p class="type-callout text-ink-2">{enaSection.trust.description}</p>
+                <p class="flex items-center gap-2 type-footnote text-ink-2">
+                    <Globe className="size-4 shrink-0" />
+                    {enaSection.trust.support}
+                </p>
+            </div>
+            <div class="flex flex-col items-center gap-3" data-reveal>
+                <span class="flex size-24 items-center justify-center rounded-[1.6rem] bg-fill-2 ring-1 ring-hairline">
+                    <ComplianceBadgeIcons id="gdpr" class="h-14 w-auto object-contain" />
+                </span>
+                <span class="type-footnote font-semibold text-ink-2">{enaSection.trust.badges.gdpr}</span>
+            </div>
+        </div>
+    </div>
+</section>

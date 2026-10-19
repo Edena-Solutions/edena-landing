@@ -2,7 +2,7 @@
 title: "Qué es un SIS (Sistema de Información Estudiantil) y por qué tu centro educativo necesita uno en 2026"
 date: "2026-02-27"
 translationKey: "sis-sistema-informacion-estudiantil-2026"
-description: "SIS vs ERP: cuándo basta un SIS y cuándo hace falta plataforma integral. Guía práctica para centros educativos en España (2026)."
+description: "Un SIS escolar, o sistema de información estudiantil, es la columna vertebral digital de cualquier centro educativo moderno."
 tags: ["SIS escolar", "sistema de información estudiantil", "gestión escolar", "centros educativos"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1012&auto=format&fit=crop"

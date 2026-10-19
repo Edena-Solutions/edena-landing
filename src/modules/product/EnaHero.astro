@@ -1,0 +1,637 @@
+---
+import { Check, Receipt, UserPlus, Users } from "lucide-react";
+import { Avatar } from "@/components/wizard/scene-kit";
+import { EnaClover } from "@/components/wizard/app-frame";
+import type { Translation } from "@/i18n";
+import { intlLocaleForLang } from "@/lib/intl-locale";
+
+/*
+ * Ena's page's hero: Ena herself, alive, at the centre, and around her the conversations she is
+ * having with the whole school — someone asks, Ena types, answers, and what she did lands under the
+ * answer. Each conversation comes and goes on its own clock, so there are always three or four on
+ * screen and the loop never shows. Two depths: the near ones sharp, the far ones small and soft.
+ *
+ * CSS only (no island): the markup is every conversation at rest, which is also what a reader who
+ * asked for reduced motion sees — the four nearest, still. Decorative: the words are the page's own
+ * (`enaSection.cards`, `enaScenes`), said again in text by the Ena stage further down.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+}
+
+const { t, lang } = Astro.props;
+const cards = t.enaSection.cards;
+const ena = t.enaScenes;
+const tasks = t.enaSection.highlight.tasks;
+const locale = intlLocaleForLang(lang);
+const number = (value: number, digits = 0) => new Intl.NumberFormat(locale, { minimumFractionDigits: digits, maximumFractionDigits: digits }).format(value);
+
+type Result =
+    | { kind: "stat"; icon: typeof Check; value: string; tone: string }
+    | { kind: "done"; text: string }
+    | { kind: "pills"; items: string[] }
+    | { kind: "team" };
+
+interface Conversation {
+    who: [string, number];
+    q: string;
+    a: string;
+    result: Result;
+    /** Its slot round Ena; `far` ones sit behind, smaller and softer. */
+    slot: string;
+    far?: boolean;
+}
+
+const conversations: Conversation[] = [
+    { who: ["MG", 330], q: cards.agent.prompt, a: cards.agent.response, result: { kind: "stat", icon: UserPlus, value: "+12", tone: "sky" }, slot: "tl" },
+    { who: ["LT", 25], q: ena.askQuestion, a: ena.askAnswer, result: { kind: "pills", items: ena.allergens }, slot: "tr" },
+    { who: ["AD", 200], q: cards.automate.prompt, a: cards.automate.response, result: { kind: "stat", icon: Receipt, value: number(847), tone: "green" }, slot: "br" },
+    { who: ["JP", 140], q: cards.organization.prompt, a: cards.organization.response, result: { kind: "team" }, slot: "bl" },
+    { who: ["SR", 280], q: ena.taskPrompt, a: ena.taskDone, result: { kind: "done", text: tasks[1] }, slot: "t", far: true },
+    { who: ["DR", 160], q: ena.summaryPrompt, a: ena.summaryAnswer, result: { kind: "stat", icon: Users, value: `${number(96.4, 1)} %`, tone: "lime" }, slot: "b", far: true },
+];
+---
+
+<div class="ena-hero" aria-hidden="true">
+    <span class="ena-hero__light ena-hero__light--a"></span>
+    <span class="ena-hero__light ena-hero__light--b"></span>
+    <span class="ena-hero__light ena-hero__light--c"></span>
+
+    <!-- Ena, alive, with her light turning behind her. -->
+    <div class="ena-hero__ena">
+        <span class="ena-hero__halo"></span>
+        <EnaClover size={1} alive className="ena-hero__clover" />
+    </div>
+
+    {
+        conversations.map((conversation, index) => (
+            <div
+                class:list={["ena-hero__chat", `ena-hero__chat--${conversation.slot}`, conversation.far && "ena-hero__chat--far"]}
+                style={`--i: ${index}`}
+            >
+                <div class="ena-hero__q">
+                    <span class="ena-hero__q-text">{conversation.q}</span>
+                    <Avatar initials={conversation.who[0]} hue={conversation.who[1]} size={1.6} className="ena-hero__who" />
+                </div>
+                <div class="ena-hero__answer">
+                    <EnaClover size={1.9} className="ena-hero__mini" />
+                    <div class="ena-hero__a-wrap">
+                        <span class="ena-hero__dots">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </span>
+                        <div class="ena-hero__a">
+                            <span class="ena-hero__a-text">{conversation.a}</span>
+                            {
+                                conversation.result.kind === "stat" && (
+                                    <span class:list={["ena-hero__result", `ena-hero__result--${conversation.result.tone}`]}>
+                                        <conversation.result.icon className="ena-hero__icon" />
+                                        <b>{conversation.result.value}</b>
+                                        <Check className="ena-hero__tick" />
+                                    </span>
+                                )
+                            }
+                            {
+                                conversation.result.kind === "done" && (
+                                    <span class="ena-hero__result ena-hero__result--green">
+                                        <Check className="ena-hero__icon" />
+                                        <span class="ena-hero__result-text">{conversation.result.text}</span>
+                                    </span>
+                                )
+                            }
+                            {
+                                conversation.result.kind === "pills" && (
+                                    <span class="ena-hero__pills">
+                                        {conversation.result.items.map((item) => (
+                                            <span class="ena-hero__pill">{item}</span>
+                                        ))}
+                                    </span>
+                                )
+                            }
+                            {
+                                conversation.result.kind === "team" && (
+                                    <span class="ena-hero__result ena-hero__result--sky">
+                                        <span class="ena-hero__team">
+                                            {[
+                                                ["AM", 200],
+                                                ["JL", 30],
+                                                ["MR", 130],
+                                                ["SP", 300],
+                                            ].map(([initials, hue]) => (
+                                                <Avatar initials={initials as string} hue={hue as number} size={1.25} className="ena-hero__team-face" />
+                                            ))}
+                                        </span>
+                                        <Check className="ena-hero__tick" />
+                                    </span>
+                                )
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        ))
+    }
+</div>
+
+<style>
+    .ena-hero {
+        --cycle: 18s;
+        position: relative;
+        height: clamp(34rem, 46vw, 40rem);
+        overflow: hidden;
+        isolation: isolate;
+    }
+
+    /* Faint lights in Ena's colours, drifting behind everything. */
+    .ena-hero__light {
+        position: absolute;
+        z-index: -1;
+        border-radius: 50%;
+        filter: blur(4rem);
+        opacity: 0.35;
+    }
+
+    .ena-hero__light--a {
+        left: 18%;
+        top: 22%;
+        width: 22rem;
+        height: 22rem;
+        background: #a3e635;
+    }
+
+    .ena-hero__light--b {
+        right: 16%;
+        top: 30%;
+        width: 24rem;
+        height: 24rem;
+        background: #22d3ee;
+        opacity: 0.28;
+    }
+
+    .ena-hero__light--c {
+        left: 42%;
+        bottom: -8rem;
+        width: 20rem;
+        height: 20rem;
+        background: #22c55e;
+        opacity: 0.25;
+    }
+
+    :global(.dark) .ena-hero__light {
+        opacity: 0.18;
+    }
+
+    /* Ena. */
+    .ena-hero__ena {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 2;
+        width: clamp(9rem, 17vw, 14rem);
+        height: clamp(9rem, 17vw, 14rem);
+        translate: -50% -50%;
+        font-size: clamp(9rem, 17vw, 14rem);
+    }
+
+    .ena-hero__halo {
+        position: absolute;
+        inset: -45%;
+        border-radius: 50%;
+        background: conic-gradient(from var(--ds-angle, 0deg), #22d3ee, #22c55e, #bef264, #14b8a6, #22d3ee);
+        filter: blur(3.5rem);
+        opacity: 0.3;
+    }
+
+    :global(.ena-hero__clover) {
+        position: relative;
+        filter: drop-shadow(0 1.2rem 2rem rgb(34 197 94 / 0.35));
+    }
+
+    /* A conversation: the question, then Ena's answer and what she did. */
+    .ena-hero__chat {
+        position: absolute;
+        z-index: 3;
+        display: flex;
+        width: min(19rem, 30%);
+        flex-direction: column;
+        gap: 0.55rem;
+        font-size: 0.8rem;
+    }
+
+    .ena-hero__chat--far {
+        z-index: 1;
+        width: min(15rem, 24%);
+        font-size: 0.66rem;
+        filter: blur(0.6px);
+        opacity: 0.6;
+    }
+
+    .ena-hero__chat--tl {
+        left: 4%;
+        top: 9%;
+    }
+
+    .ena-hero__chat--tr {
+        right: 4%;
+        top: 13%;
+    }
+
+    .ena-hero__chat--br {
+        right: 6%;
+        bottom: 9%;
+    }
+
+    .ena-hero__chat--bl {
+        left: 5%;
+        bottom: 12%;
+    }
+
+    .ena-hero__chat--t {
+        left: 50%;
+        top: 3%;
+        translate: -50% 0;
+    }
+
+    .ena-hero__chat--b {
+        left: 50%;
+        bottom: 2%;
+        translate: -50% 0;
+    }
+
+    .ena-hero__q {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 0.45rem;
+    }
+
+    .ena-hero__q-text {
+        border-radius: 1.1em 1.1em 0.3em 1.1em;
+        background: var(--ds-ink);
+        color: var(--ds-canvas);
+        padding: 0.6em 0.85em;
+        line-height: 1.4;
+    }
+
+    :global(.ena-hero__who) {
+        font-size: 0.9em;
+    }
+
+    .ena-hero__answer {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.45rem;
+    }
+
+    :global(.ena-hero__mini) {
+        margin-top: -0.1em;
+    }
+
+    .ena-hero__a-wrap {
+        display: grid;
+        min-width: 0;
+        flex: 1;
+    }
+
+    .ena-hero__dots,
+    .ena-hero__a {
+        grid-area: 1 / 1;
+    }
+
+    /* Glass: the answer is Ena's, frosted, over the lights. */
+    .ena-hero__a,
+    .ena-hero__dots {
+        border-radius: 1.1em 1.1em 1.1em 0.3em;
+        background: linear-gradient(140deg, rgb(255 255 255 / 0.85), rgb(255 255 255 / 0.6));
+        backdrop-filter: blur(18px) saturate(170%);
+        box-shadow:
+            inset 0 1px 0 rgb(255 255 255 / 0.95),
+            inset 0 0 0 1px rgb(255 255 255 / 0.6),
+            0 0 0 1px rgb(0 0 0 / 0.05),
+            0 1rem 2rem -1.2rem rgb(0 0 0 / 0.25);
+    }
+
+    :global(.dark) .ena-hero__a,
+    :global(.dark) .ena-hero__dots {
+        background: linear-gradient(140deg, rgb(255 255 255 / 0.12), rgb(255 255 255 / 0.05));
+        box-shadow:
+            inset 0 1px 0 rgb(255 255 255 / 0.14),
+            inset 0 0 0 1px rgb(255 255 255 / 0.08),
+            0 1rem 2rem -1.2rem rgb(0 0 0 / 0.6);
+    }
+
+    .ena-hero__a {
+        display: flex;
+        flex-direction: column;
+        gap: 0.55em;
+        padding: 0.65em 0.85em 0.75em;
+        line-height: 1.45;
+        color: var(--ds-ink);
+    }
+
+    .ena-hero__dots {
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        gap: 0.3em;
+        align-self: start;
+        padding: 0.75em 0.9em;
+        opacity: 0;
+    }
+
+    .ena-hero__dots i {
+        width: 0.42em;
+        height: 0.42em;
+        border-radius: 50%;
+        background: #22c55e;
+    }
+
+    .ena-hero__result {
+        display: inline-flex;
+        width: fit-content;
+        align-items: center;
+        gap: 0.4em;
+        border-radius: 999px;
+        padding: 0.3em 0.7em;
+        font-size: 0.92em;
+    }
+
+    .ena-hero__result b {
+        font-weight: 600;
+        font-variant-numeric: tabular-nums;
+    }
+
+    .ena-hero__result-text {
+        font-weight: 500;
+    }
+
+    .ena-hero__result--green {
+        background: rgb(34 197 94 / 0.14);
+        color: rgb(21 128 61);
+    }
+
+    .ena-hero__result--sky {
+        background: rgb(14 165 233 / 0.13);
+        color: rgb(3 105 161);
+    }
+
+    .ena-hero__result--lime {
+        background: rgb(132 204 22 / 0.16);
+        color: rgb(77 124 15);
+    }
+
+    :global(.dark) .ena-hero__result--green {
+        color: rgb(74 222 128);
+    }
+
+    :global(.dark) .ena-hero__result--sky {
+        color: rgb(125 211 252);
+    }
+
+    :global(.dark) .ena-hero__result--lime {
+        color: rgb(190 242 100);
+    }
+
+    :global(.ena-hero__icon),
+    :global(.ena-hero__tick) {
+        width: 1em;
+        height: 1em;
+        flex-shrink: 0;
+    }
+
+    .ena-hero__team {
+        display: flex;
+    }
+
+    :global(.ena-hero__team-face) {
+        margin-left: -0.35em;
+        box-shadow: 0 0 0 0.12em var(--ds-canvas);
+    }
+
+    :global(.ena-hero__team-face:first-child) {
+        margin-left: 0;
+    }
+
+    .ena-hero__pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3em;
+    }
+
+    .ena-hero__pill {
+        border-radius: 999px;
+        background: rgb(245 158 11 / 0.16);
+        color: rgb(180 83 9);
+        padding: 0.2em 0.6em;
+        font-size: 0.88em;
+        font-weight: 600;
+    }
+
+    :global(.dark) .ena-hero__pill {
+        color: rgb(252 211 77);
+    }
+
+    /* The loop: each conversation lives on its own offset of one cycle. It arrives, Ena types,
+       answers, what she did lands; it holds, then goes, and the slot rests before the next one. */
+    @media (prefers-reduced-motion: no-preference) {
+        .ena-hero__halo {
+            animation: ds-angle 14s linear infinite;
+        }
+
+        .ena-hero__chat {
+            animation: ena-chat var(--cycle) var(--ease-fluid) infinite both;
+            animation-delay: calc(var(--i) * var(--cycle) / -6);
+        }
+
+        .ena-hero__chat--far {
+            animation-name: ena-chat-far;
+        }
+
+        .ena-hero__dots {
+            animation: ena-dots var(--cycle) linear infinite both;
+        }
+
+        .ena-hero__a {
+            animation: ena-answer var(--cycle) var(--ease-fluid) infinite both;
+        }
+
+        .ena-hero__result,
+        .ena-hero__pills {
+            animation: ena-result var(--cycle) var(--ease-fluid) infinite both;
+        }
+
+        .ena-hero__a,
+        .ena-hero__dots,
+        .ena-hero__result,
+        .ena-hero__pills {
+            animation-delay: calc(var(--i) * var(--cycle) / -6);
+        }
+
+        .ena-hero__dots i {
+            animation: ena-dot 1s ease-in-out infinite;
+        }
+
+        .ena-hero__dots i:nth-child(2) {
+            animation-delay: 0.15s;
+        }
+
+        .ena-hero__dots i:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+    }
+
+    @keyframes ena-chat {
+        0% {
+            opacity: 0;
+            transform: translateY(0.9rem) scale(0.96);
+            filter: blur(6px);
+        }
+        4%,
+        56% {
+            opacity: 1;
+            transform: none;
+            filter: blur(0);
+        }
+        63%,
+        100% {
+            opacity: 0;
+            transform: translateY(-0.7rem) scale(0.98);
+            filter: blur(6px);
+        }
+    }
+
+    @keyframes ena-chat-far {
+        0% {
+            opacity: 0;
+            transform: translateY(0.6rem);
+        }
+        5%,
+        55% {
+            opacity: 0.6;
+            transform: none;
+        }
+        62%,
+        100% {
+            opacity: 0;
+            transform: translateY(-0.5rem);
+        }
+    }
+
+    @keyframes ena-dots {
+        0%,
+        4% {
+            opacity: 0;
+        }
+        5%,
+        13% {
+            opacity: 1;
+        }
+        14%,
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes ena-answer {
+        0%,
+        13% {
+            opacity: 0;
+            transform: translateY(0.4rem);
+            filter: blur(4px);
+        }
+        16%,
+        100% {
+            opacity: 1;
+            transform: none;
+            filter: blur(0);
+        }
+    }
+
+    @keyframes ena-result {
+        0%,
+        19% {
+            opacity: 0;
+            transform: scale(0.85);
+        }
+        22%,
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+    }
+
+    @keyframes ena-dot {
+        0%,
+        100% {
+            translate: 0 0;
+            opacity: 0.5;
+        }
+        50% {
+            translate: 0 -0.2em;
+            opacity: 1;
+        }
+    }
+
+    /* A phone: Ena above, one conversation over her and one under; the far ones rest. */
+    @media (max-width: 639px) {
+        .ena-hero {
+            height: 40rem;
+        }
+
+        .ena-hero__ena {
+            top: 50%;
+            width: 7.5rem;
+            height: 7.5rem;
+            font-size: 7.5rem;
+        }
+
+        .ena-hero__chat {
+            width: calc(100% - 2.5rem);
+            font-size: 0.78rem;
+        }
+
+        .ena-hero__chat--tl,
+        .ena-hero__chat--tr {
+            left: 1.25rem;
+            right: auto;
+            top: 1.5rem;
+        }
+
+        .ena-hero__chat--bl,
+        .ena-hero__chat--br {
+            left: 1.25rem;
+            right: auto;
+            bottom: 1.5rem;
+        }
+
+        .ena-hero__chat--far {
+            display: none;
+        }
+
+        /* One conversation over Ena and one under her, half a cycle apart. */
+        .ena-hero__chat--tr,
+        .ena-hero__chat--bl {
+            display: none;
+        }
+
+        @media (prefers-reduced-motion: no-preference) {
+            .ena-hero__chat--br,
+            .ena-hero__chat--br .ena-hero__a,
+            .ena-hero__chat--br .ena-hero__dots,
+            .ena-hero__chat--br .ena-hero__result,
+            .ena-hero__chat--br .ena-hero__pills {
+                animation-delay: calc(var(--cycle) / -2);
+            }
+        }
+    }
+
+    /* Reduced motion: the four near conversations, still; the far ones rest. */
+    @media (prefers-reduced-motion: reduce) {
+        .ena-hero__chat--far,
+        .ena-hero__dots {
+            display: none;
+        }
+    }
+</style>

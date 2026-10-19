@@ -2,7 +2,7 @@
 title: "Analítica educativa i intel·ligència artificial: Dades que transformen leducació"
 date: "2024-09-15"
 translationKey: "analitica-educativa-inteligencia-artificial"
-description: "IA aplicada a l'analítica d'aprenentatge (angle pedagògic). Guia pràctica per a centres educatius a Espanya (2026)."
+description: "L'analítica educativa i la intel·ligència artificial estan transformant fonamentalment com els centres educatius prenen decisions."
 tags:
     - "analítica"
     - "intel·ligència artificial"

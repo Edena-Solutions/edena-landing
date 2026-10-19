@@ -2,7 +2,7 @@
 title: "Nola aurreztu astean 15 ordu ikastetxeko administrazioan"
 date: "2026-04-12"
 translationKey: "ahorrar-15-horas-administracion-escolar-2026"
-description: "Berreskura daitezkeen orduen banaketa administrazio-prozesuaren arabera. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Eseri zure idazkaritza-taldearekin eta ohartu, iragazi gabe, zenbat denbora ematen duten aste bakoitzean."
 tags:
     - "orduak aurreztu eskola administrazioa"
     - "eskola automatizazioa"

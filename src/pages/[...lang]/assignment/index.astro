@@ -1,19 +1,16 @@
 ---
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
-import Section from "@/components/Section.astro";
-import Hero from "@/components/Hero.astro";
-import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from "@/modules/assignment/FAQs.astro";
-import Features from "@/components/Features";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductHero from "@/modules/product/ProductHero.astro";
+import ProductSplit from "@/modules/product/ProductSplit.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import AssignmentScenes from "@/modules/product/scenes/AssignmentScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import heroImage from "@/assets/img/screenshots/assignment/evaluation_cycle.png";
-import heroImageDark from "@/assets/img/screenshots/assignment/dark/evaluation_cycle.png";
-import assignmentScoreCard from "@/assets/img/screenshots/assignment/assignment_score_card.png";
-import assignmentScoreCardDark from "@/assets/img/screenshots/assignment/dark/assignment_score_card.png";
-import assignmentEvaluation from "@/assets/img/screenshots/assignment/assignment_evaluation.png";
-import assignmentEvaluationDark from "@/assets/img/screenshots/assignment/dark/assignment_evaluation.png";
-import studentScoreCard from "@/assets/img/screenshots/students/student_evaluation.png";
-import studentScoreCardDark from "@/assets/img/screenshots/students/dark/student_evaluation.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -25,6 +22,9 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const base = productSceneLabels(t);
+const labels = { ...base, as: t.assignmentScenes };
+const locale = intlLocaleForLang(lang);
 
 const faqsCollection = await getCollection("faqs");
 const assignmentFaqs = faqsCollection.find((entry) => entry.id === "faqsAssignment.md");
@@ -76,56 +76,38 @@ const features = [
         ...ogFromAsset(heroImage, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
-    <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero
-            t={t}
-            heroImage={heroImage}
-            heroImageDark={heroImageDark}
-            mainTitle={t.assignment.mainTitle}
-            mainDescription={t.assignment.mainDescription}
-            showBookDemoInHero={true}
-            leftCard={{
-                title: t.assignment.scheduleTitle,
-                description: t.assignment.scheduleDescription,
-                showButton: true,
-            }}
-            rightCard={{
-                title: t.assignment.evaluationTitle,
-                description: t.assignment.evaluationDescription,
-                image: studentScoreCard,
-                imageDark: studentScoreCardDark,
-                altText: t.altText.assignmentEvaluation,
-            }}
-        />
-        <Features
-            client:load
-            t={t}
-            features={features}
-            title={t.features.assignmentFeatures.title}
-            description={t.features.assignmentFeatures.tagline}
-        />
-        <Section
-            t={t}
-            sectionTitle={t.assignment.cyclesAndScoresTitle}
-            sectionDescription={t.assignment.cyclesAndScoresDescription}
-            leftCard={{
-                title: t.assignment.cyclesTitle,
-                description: t.assignment.cyclesDescription,
-                image: assignmentEvaluation,
-                imageDark: assignmentEvaluationDark,
-                altText: t.altText.evaluationCycle,
-            }}
-            rightCard={{
-                title: t.assignment.scoresTitle,
-                description: t.assignment.scoresDescription,
-                image: assignmentScoreCard,
-                imageDark: assignmentScoreCardDark,
-                altText: t.altText.assignmentScoreCard,
-            }}
-        />
-        <FAQs t={t} />
-    </GSAPSection>
+    <HomeMotion />
+    <ProductHero t={t} title={t.assignment.mainTitle} description={t.assignment.mainDescription} bleed>
+        <AssignmentScenes slot="visual" client:visible scene="gradebook" labels={labels} locale={locale} />
+    </ProductHero>
+    <ProductSplit
+        t={t}
+        left={{ title: t.assignment.scheduleTitle, description: t.assignment.scheduleDescription, cta: true, bleed: true }}
+        right={{ title: t.assignment.evaluationTitle, description: t.assignment.evaluationDescription, bleed: true }}
+    >
+        <AssignmentScenes slot="left" client:visible scene="planner" labels={labels} locale={locale} />
+        <AssignmentScenes slot="right" client:visible scene="grades" labels={labels} locale={locale} />
+    </ProductSplit>
+    <FeatureGrid t={t} features={features} title={t.features.assignmentFeatures.title} description={t.features.assignmentFeatures.tagline} />
+    <ProductSplit
+        t={t}
+        title={t.assignment.cyclesAndScoresTitle}
+        description={t.assignment.cyclesAndScoresDescription}
+        left={{ title: t.assignment.cyclesTitle, description: t.assignment.cyclesDescription, bleed: true }}
+        right={{ title: t.assignment.scoresTitle, description: t.assignment.scoresDescription, bleed: true }}
+    >
+        <AssignmentScenes slot="left" client:visible scene="cycles" labels={labels} locale={locale} />
+        <AssignmentScenes slot="right" client:visible scene="progress" labels={labels} locale={locale} />
+    </ProductSplit>
+    <ProductFaqs
+        t={t}
+        title={t.faqs.assignment?.title ?? t.faqs.title}
+        description={t.faqs.assignment?.description ?? t.faqs.description}
+        faqs={assignmentFaqs?.data.faqs ?? []}
+    />
+    <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
         name="Edena - Assignment & Evaluation Management"

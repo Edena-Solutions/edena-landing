@@ -1,0 +1,147 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+import Button from "@/components/ds/Button.astro";
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import ThemedImage from "@/components/ThemedImage.astro";
+import type { Translation } from "@/i18n";
+import { getLanguageFromURL, localizedDemoPath } from "@/i18n";
+
+/*
+ * A pair of tiles — the home page's two-up after the hero, reused for a product's supporting
+ * claims. Text sits at the top; the picture (or a slot) bleeds off the bottom of the tile. A card's
+ * `bleed` gives its slot the tile's full width and foot, for a scene that sets its own margins.
+ */
+interface Card {
+    title: string;
+    description: string;
+    image?: ImageMetadata;
+    imageDark?: ImageMetadata;
+    alt?: string;
+    cta?: boolean;
+    bleed?: boolean;
+}
+
+interface Props {
+    t: Translation;
+    title?: string;
+    description?: string;
+    left: Card;
+    right: Card;
+}
+
+const { t, title, description, left, right } = Astro.props;
+const lang = getLanguageFromURL(Astro.url.pathname);
+const hasLeft = Astro.slots.has("left");
+const hasRight = Astro.slots.has("right");
+
+const visual = (card: Card, slotted: boolean) => {
+    if (slotted) return null;
+    if (card.image && card.imageDark) {
+        return {
+            kind: "themed" as const,
+            src: card.image,
+            dark: card.imageDark,
+            alt: card.alt || card.title,
+        };
+    }
+    if (card.image) {
+        return { kind: "plain" as const, src: card.image, alt: card.alt || card.title };
+    }
+    return null;
+};
+
+const leftVisual = visual(left, hasLeft);
+const rightVisual = visual(right, hasRight);
+---
+
+<section class="ds-section">
+    <div class="ds-container">
+        {title && <SectionHeader title={title} description={description} />}
+
+        <div
+            class:list={["grid gap-4 lg:grid-cols-2", title && "mt-14"]}
+            data-reveal-group
+        >
+            <article class="ds-tile flex flex-col pt-10 sm:pt-12" data-reveal="scale">
+                <div class="flex flex-col items-center gap-3 px-6 text-center sm:px-10">
+                    <h3 class="type-title-1 max-w-md text-ink">{left.title}</h3>
+                    <p class="type-callout max-w-md text-ink-2">{left.description}</p>
+                    {
+                        left.cta && (
+                            <div class="mt-3">
+                                <Button href={localizedDemoPath(lang)} variant="secondary">
+                                    {t.bookDemo}
+                                </Button>
+                            </div>
+                        )
+                    }
+                </div>
+                {
+                    hasLeft ? (
+                        <div class:list={["mt-8 flex flex-1 items-end", !left.bleed && "justify-center px-4 pb-6"]}>
+                            <slot name="left" />
+                        </div>
+                    ) : leftVisual?.kind === "themed" ? (
+                        <div class="mt-8 px-4">
+                            <ThemedImage
+                                src={leftVisual.src}
+                                darkImage={leftVisual.dark}
+                                alt={leftVisual.alt}
+                                className="w-full rounded-t-[1.1rem]"
+                            />
+                        </div>
+                    ) : leftVisual?.kind === "plain" ? (
+                        <div class="mt-8 px-4">
+                            <Image
+                                src={leftVisual.src}
+                                alt={leftVisual.alt}
+                                class="w-full rounded-t-[1.1rem]"
+                            />
+                        </div>
+                    ) : null
+                }
+            </article>
+
+            <article class="ds-tile flex flex-col pt-10 sm:pt-12" data-reveal="scale">
+                <div class="flex flex-col items-center gap-3 px-6 text-center sm:px-10">
+                    <h3 class="type-title-1 max-w-md text-ink">{right.title}</h3>
+                    <p class="type-callout max-w-md text-ink-2">{right.description}</p>
+                    {
+                        right.cta && (
+                            <div class="mt-3">
+                                <Button href={localizedDemoPath(lang)} variant="secondary">
+                                    {t.bookDemo}
+                                </Button>
+                            </div>
+                        )
+                    }
+                </div>
+                {
+                    hasRight ? (
+                        <div class:list={["mt-8 flex flex-1 items-end", !right.bleed && "justify-center px-4 pb-6"]}>
+                            <slot name="right" />
+                        </div>
+                    ) : rightVisual?.kind === "themed" ? (
+                        <div class="mt-8 px-4">
+                            <ThemedImage
+                                src={rightVisual.src}
+                                darkImage={rightVisual.dark}
+                                alt={rightVisual.alt}
+                                className="w-full rounded-t-[1.1rem]"
+                            />
+                        </div>
+                    ) : rightVisual?.kind === "plain" ? (
+                        <div class="mt-8 px-4">
+                            <Image
+                                src={rightVisual.src}
+                                alt={rightVisual.alt}
+                                class="w-full rounded-t-[1.1rem]"
+                            />
+                        </div>
+                    ) : null
+                }
+            </article>
+        </div>
+    </div>
+</section>

@@ -2,18 +2,19 @@
 import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
 
 import Layout from "@/layouts/main.astro";
-import Hero from "@/components/Hero.astro";
-import Section from "@/components/Section.astro";
-import GSAPSection from "@/components/ui/gsap-section";
-import FAQs from "@/modules/schools/FAQs.astro";
-import Features from "@/components/Features";
-import AppAnimation from "@/components/AppAnimation";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductHero from "@/modules/product/ProductHero.astro";
+import ProductSplit from "@/modules/product/ProductSplit.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import SchoolsScenes from "@/modules/product/scenes/SchoolsScenes";
+import CommunicationScenes from "@/modules/product/scenes/CommunicationScenes";
+import AssignmentScenes from "@/modules/product/scenes/AssignmentScenes";
+import FinanceScenes from "@/modules/product/scenes/FinanceScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import { intlLocaleForLang } from "@/lib/intl-locale";
 import heroImage from "@/assets/img/screenshots/finance/invoice_analytics.png";
-import heroImageDark from "@/assets/img/screenshots/finance/dark/invoice_analytics.png";
-import billingCycle from "@/assets/img/screenshots/finance/billing_info.png";
-import billingCycleDark from "@/assets/img/screenshots/finance/dark/billing_info.png";
-import evaluationCycle from "@/assets/img/screenshots/assignment/assignment_score_card.png";
-import evaluationCycleDark from "@/assets/img/screenshots/assignment/dark/assignment_score_card.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
@@ -25,6 +26,11 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
+const base = productSceneLabels(t);
+const labels = { ...base, sc: t.schoolsScenes };
+const communicationLabels = { ...base, c: t.communicationScenes };
+const assignmentLabels = { ...base, as: t.assignmentScenes };
+const locale = intlLocaleForLang(lang);
 
 const faqsCollection = await getCollection("faqs");
 const schoolsFaqs = faqsCollection.find((entry) => entry.id === "faqsSchools.md");
@@ -76,58 +82,38 @@ const features = [
         ...ogFromAsset(heroImage, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
-    <GSAPSection client:load className="grid gap-16" animationType="opacity">
-        <Hero
-            t={t}
-            heroImage={heroImage}
-            heroImageDark={heroImageDark}
-            showBookDemoInHero={true}
-            mainTitle={t.schools.mainTitle}
-            mainDescription={t.schools.mainDescription}
-            leftCard={{
-                title: t.schools.communicationTitle,
-                description: t.schools.communicationDescription,
-                showButton: true,
-            }}
-            rightCard={{
-                title: t.schools.automationTitle,
-                description: t.schools.automationDescription,
-                image: evaluationCycle,
-                imageDark: evaluationCycleDark,
-                altText: t.altText.evaluationCycle,
-            }}
-        />
-        <Features
-            client:load
-            t={t}
-            features={features}
-            title={t.schools.integratedManagementTitle}
-            description={t.schools.integratedManagementDescription}
-        />
-        <Section
-            t={t}
-            sectionTitle={t.schools.familyAndBillingSectionTitle}
-            sectionDescription={t.schools.familyAndBillingSectionDescription}
-            leftCard={{
-                title: t.schools.realTimeCommunicationTitle,
-                description: t.schools.realTimeCommunicationDescription,
-                cardClass: "h-80 md:h-120 overflow-hidden",
-            }}
-            rightCard={{
-                title: t.schools.financialAutomationTitle,
-                description: t.schools.financialAutomationDescription,
-                image: billingCycle,
-                imageDark: billingCycleDark,
-                imageClass: "w-full mx-auto",
-                cardClass: "h-80 md:h-120 overflow-hidden",
-                altText: t.altText.studentClassroom,
-            }}
-        >
-            <AppAnimation slot="leftCardVisual" client:only="react" className="-mt-10 md:-mt-30" />
-        </Section>
-        <FAQs t={t} />
-    </GSAPSection>
+    <HomeMotion />
+    <ProductHero t={t} title={t.schools.mainTitle} description={t.schools.mainDescription} bleed>
+        <SchoolsScenes slot="visual" client:visible scene="year" labels={labels} locale={locale} />
+    </ProductHero>
+    <ProductSplit
+        t={t}
+        left={{ title: t.schools.communicationTitle, description: t.schools.communicationDescription, cta: true, bleed: true }}
+        right={{ title: t.schools.automationTitle, description: t.schools.automationDescription, bleed: true }}
+    >
+        <CommunicationScenes slot="left" client:visible scene="channels" labels={communicationLabels} locale={locale} />
+        <AssignmentScenes slot="right" client:visible scene="gradebook" labels={assignmentLabels} locale={locale} />
+    </ProductSplit>
+    <FeatureGrid t={t} features={features} title={t.schools.integratedManagementTitle} description={t.schools.integratedManagementDescription} />
+    <ProductSplit
+        t={t}
+        title={t.schools.familyAndBillingSectionTitle}
+        description={t.schools.familyAndBillingSectionDescription}
+        left={{ title: t.schools.realTimeCommunicationTitle, description: t.schools.realTimeCommunicationDescription, bleed: true }}
+        right={{ title: t.schools.financialAutomationTitle, description: t.schools.financialAutomationDescription, bleed: true }}
+    >
+        <SchoolsScenes slot="left" client:visible scene="family" labels={labels} locale={locale} />
+        <FinanceScenes slot="right" client:visible scene="breakdown" labels={base} locale={locale} />
+    </ProductSplit>
+    <ProductFaqs
+        t={t}
+        title={t.faqs.schools?.title ?? t.faqs.title}
+        description={t.faqs.schools?.description ?? t.faqs.description}
+        faqs={schoolsFaqs?.data.faqs ?? []}
+    />
+    <ClosingCta lang={lang} />
     <SoftwareApplicationSchema
         slot="structured-data"
         name="Edena - Software para Colegios"

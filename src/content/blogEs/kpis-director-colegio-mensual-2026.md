@@ -2,7 +2,7 @@
 title: "KPIs que todo director de colegio debería medir cada mes"
 date: "2026-04-16"
 translationKey: "kpis-director-colegio-mensual-2026"
-description: "KPIs mensuales imprescindibles para dirección. Guía práctica para centros educativos en España (2026)."
+description: "Un director de colegio, guardería o academia sin indicadores trabaja con impresiones."
 tags:
     [
         "KPIs director colegio",

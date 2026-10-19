@@ -2,7 +2,7 @@
 title: "Seguretat de dades en centres educatius: Protegint el futur digital"
 date: "2025-01-25"
 translationKey: "seguridad-datos-centros-educativos"
-description: "Mesures tècniques i organitzatives de ciberseguretat. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "A l'era digital, els centres educatius manegen quantitats massives de dades sensibles: informació personal d'estudiants i famílies, registres acadèmics."
 tags:
     - "seguretat"
     - "dades"

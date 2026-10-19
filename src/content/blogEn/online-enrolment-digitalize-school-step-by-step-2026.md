@@ -2,7 +2,7 @@
 title: "How to digitize the online registration of your educational center step by step"
 date: "2026-03-28"
 translationKey: "matricula-online-centro-educativo-pasos-2026"
-description: "Step-by-step implementation of online registration. Practical guide for educational centers in Spain (2026)."
+description: "Transferring the registration to an online flow is not about uploading a PDF to the web: it is about rearranging criteria, responsible parties, deadlines and messages."
 tags:
     - "online registration"
     - "digital registration"

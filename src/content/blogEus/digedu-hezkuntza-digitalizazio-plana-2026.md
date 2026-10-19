@@ -2,7 +2,7 @@
 title: "DigEdu 2026 plana: eraldaketa digitala hezkuntzan Espainian"
 date: "2026-01-08"
 translationKey: "plan-digedu-digitalizacion-educacion-2026"
-description: "DigEdu plana: zer suposatzen duen zentroaren kudeaketarako. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "DigEdu Planak gaitasun digitalaren irakaskuntza, ingurune seguruak eta teknologiaren erabilera pedagogikoa sustatzen ditu."
 tags:
     - "DigEdu plana"
     - "hezkuntzaren digitalizazioa"

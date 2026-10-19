@@ -2,7 +2,7 @@
 title: "Datuen segurtasuna hezkuntza-zentroetan: etorkizun digitala babesten"
 date: "2025-01-25"
 translationKey: "seguridad-datos-centros-educativos"
-description: "Zibersegurtasun neurri tekniko eta organizatiboak. Hezkuntza-zentroentzako gida praktikoa Espainian (2026)."
+description: "Garai digitalean, hezkuntza-zentroek datu sentikorren kopuru masiboak kudeatzen dituzte: ikasle eta familien datu pertsonalak, erregistro akademikoak."
 tags:
     - "seguridad"
     - "datos"

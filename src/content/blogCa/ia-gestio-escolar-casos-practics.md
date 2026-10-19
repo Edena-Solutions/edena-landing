@@ -2,7 +2,7 @@
 title: "Intel·ligència artificial a l'administració escolar"
 date: "2026-02-19"
 translationKey: "ia-gestion-escolar-casos-practicos"
-description: "Casos pràctics de l'IA en administració escolar. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "La intel·ligència artificial en la gestió escolar no és només un tema de debat: ja s'aplica a tasques administratives, a la detecció de patrons i al suport a la decisió."
 tags:
     - "IA gestió escolar"
     - "intel·ligència artificial"

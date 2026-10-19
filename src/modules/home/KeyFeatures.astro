@@ -1,0 +1,65 @@
+---
+import SectionHeader from "@/components/ds/SectionHeader.astro";
+import type { Translation } from "@/i18n";
+import { useTranslatedPath } from "@/i18n";
+import { intlLocaleForLang } from "@/lib/intl-locale";
+import KeyFeaturesWizard from "@/modules/home/KeyFeaturesWizard";
+import { KEY_FEATURE_SCENES } from "@/modules/home/KeyFeaturesScenes";
+
+/*
+ * "Las 6 claves de nuestra plataforma" as a self-playing wizard (the pattern avern-landing's "How it
+ * works" set): the six features are the stepper, and each plays a scene of the product where the
+ * section used to swap screenshots. Every title and description is in the server markup.
+ *
+ * `client:visible`: it sits well below the fold, and its clock only runs on screen anyway.
+ */
+interface Props {
+    t: Translation;
+    lang: string;
+}
+
+const { t, lang } = Astro.props;
+const translatePath = useTranslatedPath(lang);
+const { features, wallOfFeatures } = t;
+const items = wallOfFeatures.items;
+
+/** Where each tab's feature lives, by its index in `features.keyFeaturesTabs`. */
+const HREFS = ["/app", "/dashboard", "/finance", "/assignment", "/crm", "/crm"];
+
+const steps = KEY_FEATURE_SCENES.map(({ tab }) => ({
+    title: features.keyFeaturesTabs[tab].title,
+    description: features.keyFeaturesTabs[tab].description,
+    href: translatePath(HREFS[tab]),
+}));
+
+// Picked string by string: an island's props are serialised into the page.
+const labels = {
+    ui: t.homeScenes,
+    controlPanel: items.controlPanel,
+    billing: items.billing,
+    assessments: items.assessments,
+    crm: items.crm,
+    forms: features.keyFeaturesTabs[5].title,
+    communication: items.communication,
+    verifactu: items.verifactu,
+    reportCards: items.reportCards,
+    crmStat: t.erpStats.cases[1].stat,
+}
+
+const copy = { ...t.homeWizard, link: features.keyFeaturesTabsGoToFeature };
+---
+
+<section class="ds-section">
+    <div class="ds-container">
+        <SectionHeader title={features.keyFeaturesTabsTitle} description={features.keyFeaturesTabsDescription} />
+        <div class="mt-14 sm:mt-16" data-reveal="rise">
+            <KeyFeaturesWizard
+                client:visible
+                steps={steps}
+                labels={labels}
+                copy={copy}
+                locale={intlLocaleForLang(lang)}
+            />
+        </div>
+    </div>
+</section>

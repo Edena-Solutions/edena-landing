@@ -2,7 +2,7 @@
 title: "CRM escolar: cómo aumentar matrículas y convertir más solicitudes"
 date: "2026-03-24"
 translationKey: "crm-escolar-matriculas-conversion-2026"
-description: "CRM escolar para convertir solicitudes en matrículas. Guía práctica para centros educativos en España (2026)."
+description: "Un CRM escolar no es un “extra de comercial” para centros que quieren parecer modernos: es el antídoto contra la matrícula que se enfría en bandeja."
 tags:
     [
         "CRM escolar",

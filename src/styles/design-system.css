@@ -1,0 +1,2933 @@
+/*
+ * Edena Premium — the design system the home page runs on (v2).
+ *
+ * A page opts in with `<Layout design="premium">`, which puts `.ds` on <body>. Everything here is
+ * either a new token (`--ds-*`, `ink`, `canvas`, …) or scoped under `.ds`, so the pages still on
+ * the classic look do not change until they opt in too.
+ *
+ * The rules, in one place:
+ *   - White and near-black grounds (#fff / #000) with #f5f5f7 tiles, Apple's neutrals. Edena green
+ *     is the single tint; the Apple system colours appear only inside illustrations.
+ *   - Edena's face, Montserrat. Large type tightens (negative tracking), small type opens up, body
+ *     sits near zero; headings fade from ink to 40% ink, the brand's own gesture. Hierarchy comes
+ *     from weight + size + leading together.
+ *   - Motion starts from where things are. CSS transitions retarget from the live value, so hovers
+ *     and reveals are interruptible; the curves are Apple's critically damped spring. Bounce only
+ *     after momentum, and nothing on a marketing page is thrown.
+ *   - Reduced motion gets cross-fades and every illustration at its finished frame. Reduced
+ *     transparency and increased contrast get solid materials.
+ */
+
+/* Registered so keyframes can interpolate them; an unregistered custom property jumps. */
+@property --ds-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@property --ds-fade-start {
+    syntax: "<length>";
+    inherits: false;
+    initial-value: 0px;
+}
+
+@property --ds-fade-end {
+    syntax: "<length>";
+    inherits: false;
+    initial-value: 0px;
+}
+
+/*
+ * A row that scrolls sideways (a `.ds-rail` on a phone, the FAQ topic chips…) fades out at the edge
+ * where there is more to see: its content melts into whatever is behind it, over a short distance,
+ * rather than a blurred veil laid on top. `ds-motion.ts` sets `data-fade` (start, end, both, none)
+ * as it scrolls; the fades grow and shrink rather than switch.
+ */
+.ds-scroll-fade {
+    -webkit-mask-image: linear-gradient(
+        90deg,
+        transparent 0,
+        #000 var(--ds-fade-start),
+        #000 calc(100% - var(--ds-fade-end)),
+        transparent 100%
+    );
+    mask-image: linear-gradient(
+        90deg,
+        transparent 0,
+        #000 var(--ds-fade-start),
+        #000 calc(100% - var(--ds-fade-end)),
+        transparent 100%
+    );
+    transition:
+        --ds-fade-start 320ms var(--ease-fluid),
+        --ds-fade-end 320ms var(--ease-fluid);
+}
+
+.ds-scroll-fade:is([data-fade="start"], [data-fade="both"]) {
+    --ds-fade-start: 2rem;
+}
+
+.ds-scroll-fade:is([data-fade="end"], [data-fade="both"]) {
+    --ds-fade-end: 2rem;
+}
+
+@theme inline {
+    --color-canvas: var(--ds-canvas);
+    --color-canvas-2: var(--ds-canvas-2);
+    --color-surface: var(--ds-surface);
+    --color-surface-2: var(--ds-surface-2);
+    --color-ink: var(--ds-ink);
+    --color-ink-2: var(--ds-ink-2);
+    --color-ink-3: var(--ds-ink-3);
+    --color-hairline: var(--ds-hairline);
+    --color-hairline-strong: var(--ds-hairline-strong);
+    --color-fill: var(--ds-fill);
+    --color-fill-2: var(--ds-fill-2);
+    --color-brand: var(--ds-brand);
+    --color-brand-ink: var(--ds-brand-ink);
+    --color-brand-soft: var(--ds-brand-soft);
+
+    /* Apple's system colours, theme-aware. Illustrations only — never for UI chrome or text. */
+    --color-sys-blue: var(--ds-sys-blue);
+    --color-sys-green: var(--ds-sys-green);
+    --color-sys-indigo: var(--ds-sys-indigo);
+    --color-sys-orange: var(--ds-sys-orange);
+    --color-sys-pink: var(--ds-sys-pink);
+    --color-sys-purple: var(--ds-sys-purple);
+    --color-sys-red: var(--ds-sys-red);
+    --color-sys-teal: var(--ds-sys-teal);
+    --color-sys-yellow: var(--ds-sys-yellow);
+    --color-sys-mint: var(--ds-sys-mint);
+
+    --font-ds: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, system-ui, sans-serif;
+
+    /*
+     * Concentric radii: a surface's radius minus its padding is the radius of what sits inside it.
+     * Tiles (28) hold cards (20), cards hold controls (14 → 10).
+     */
+    --radius-tile: 1.75rem;
+    --radius-card: 1.25rem;
+    --radius-inner: 0.875rem;
+    --radius-control: 0.625rem;
+
+    /*
+     * `fluid` is the curve iOS sheets move on: front-loaded, soft to land. `spring` is Apple's
+     * critically damped spring (damping 1.0, response 0.5s, settles in ~730ms) sampled into
+     * `linear()`; `spring-bounce` is damping 0.8, for the one thing that arrives with momentum.
+     */
+    --ease-fluid: cubic-bezier(0.32, 0.72, 0, 1);
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-spring: linear(
+        0,
+        0.0437,
+        0.1416,
+        0.2599,
+        0.3794,
+        0.4901,
+        0.5876,
+        0.6705,
+        0.7394,
+        0.7955,
+        0.8407,
+        0.8766,
+        0.9049,
+        0.9271,
+        0.9443,
+        0.9575,
+        0.9678,
+        0.9756,
+        0.9816,
+        0.9861,
+        0.9896,
+        0.9922,
+        0.9941,
+        0.9956,
+        0.9967,
+        0.9976,
+        0.9982,
+        0.9986,
+        1
+    );
+    --ease-spring-bounce: linear(
+        0,
+        0.0389,
+        0.1321,
+        0.252,
+        0.3797,
+        0.5031,
+        0.6149,
+        0.7115,
+        0.7919,
+        0.8564,
+        0.9064,
+        0.944,
+        0.9713,
+        0.9901,
+        1.0024,
+        1.0098,
+        1.0137,
+        1.0151,
+        1.0149,
+        1.0137,
+        1.0119,
+        1.01,
+        1.0081,
+        1.0063,
+        1.0048,
+        1.0035,
+        1.0025,
+        1.0016,
+        1
+    );
+}
+
+@theme {
+    --animate-ds-rise: ds-rise 1.1s var(--ease-out-expo) both;
+    --animate-ds-marquee: ds-marquee var(--ds-marquee-duration, 60s) linear infinite;
+    --animate-ds-orbit: ds-orbit var(--ds-orbit-duration, 80s) linear infinite;
+    --animate-ds-orbit-reverse: ds-orbit var(--ds-orbit-duration, 80s) linear infinite reverse;
+    --animate-ds-float: ds-float 9s ease-in-out infinite;
+    --animate-ds-aurora: ds-aurora 24s ease-in-out infinite alternate;
+    --animate-ds-angle: ds-angle 6s linear infinite;
+    --animate-ds-shimmer: ds-shimmer 1.6s linear infinite;
+    --animate-ds-caret: ds-caret 1s steps(1) infinite;
+    --animate-ds-scene-in: ds-scene-in 560ms var(--ease-spring) both;
+    --animate-ds-scene-out: ds-scene-out 380ms var(--ease-fluid) both;
+    --animate-ds-scene-fade-in: ds-scene-fade-in 620ms var(--ease-out-expo) both;
+    --animate-ds-scene-fade-out: ds-scene-fade-out 380ms var(--ease-fluid) both;
+
+    /* Scenes that change inside a window that stays: they dissolve in place, settling from a blur. */
+    @keyframes ds-scene-fade-in {
+        from {
+            opacity: 0;
+            filter: blur(6px);
+            transform: scale(0.985);
+        }
+        to {
+            opacity: 1;
+            filter: none;
+            transform: none;
+        }
+    }
+
+    @keyframes ds-scene-fade-out {
+        to {
+            opacity: 0;
+            filter: blur(4px);
+        }
+    }
+
+    /* A wizard's scenes slide the way the step went (`--dir` is +1 or -1). */
+    @keyframes ds-scene-in {
+        from {
+            opacity: 0;
+            transform: translate3d(calc(var(--dir, 1) * 28px), 0, 0);
+        }
+        to {
+            opacity: 1;
+            transform: none;
+        }
+    }
+
+    @keyframes ds-scene-out {
+        from {
+            opacity: 1;
+            transform: none;
+        }
+        to {
+            opacity: 0;
+            transform: translate3d(calc(var(--dir, 1) * -28px), 0, 0);
+        }
+    }
+
+    @keyframes ds-rise {
+        from {
+            opacity: 0;
+            transform: translate3d(0, 1.25rem, 0);
+            filter: blur(6px);
+        }
+        to {
+            opacity: 1;
+            transform: none;
+            filter: none;
+        }
+    }
+
+    @keyframes ds-marquee {
+        to {
+            transform: translate3d(-50%, 0, 0);
+        }
+    }
+
+    @keyframes ds-orbit {
+        to {
+            rotate: 360deg;
+        }
+    }
+
+    @keyframes ds-float {
+        0%,
+        100% {
+            translate: 0 0;
+        }
+        50% {
+            translate: 0 -0.5rem;
+        }
+    }
+
+    @keyframes ds-aurora {
+        0% {
+            transform: translate3d(-4%, -2%, 0) scale(1);
+        }
+        50% {
+            transform: translate3d(3%, 2%, 0) scale(1.08);
+        }
+        100% {
+            transform: translate3d(-2%, 4%, 0) scale(1.02);
+        }
+    }
+
+    @keyframes ds-angle {
+        to {
+            --ds-angle: 360deg;
+        }
+    }
+
+    @keyframes ds-shimmer {
+        from {
+            background-position: 200% 0;
+        }
+        to {
+            background-position: -200% 0;
+        }
+    }
+
+    @keyframes ds-caret {
+        50% {
+            opacity: 0;
+        }
+    }
+}
+
+/*
+ * The type ramp. `type-*` rather than `text-*`: tailwind-merge reads any `text-*` as a colour and
+ * would drop `text-ink` next to it. Sizes are fluid where a heading spans phone to desktop; body
+ * sizes are fixed in rem so they follow the reader's text-size setting.
+ */
+@utility type-display-1 {
+    font-size: clamp(2rem, 1.1rem + 3vw, 3.5rem);
+    line-height: 1.06;
+    letter-spacing: -0.032em;
+    font-weight: 700;
+    text-wrap: balance;
+}
+
+@utility type-display-2 {
+    font-size: clamp(1.875rem, 1.2rem + 2.6vw, 3.125rem);
+    line-height: 1.1;
+    letter-spacing: -0.028em;
+    font-weight: 700;
+    text-wrap: balance;
+}
+
+@utility type-display-3 {
+    font-size: clamp(1.75rem, 1.25rem + 2vw, 2.75rem);
+    line-height: 1.1;
+    letter-spacing: -0.024em;
+    font-weight: 700;
+    text-wrap: balance;
+}
+
+@utility type-title-1 {
+    font-size: clamp(1.5rem, 1.3rem + 0.8vw, 2rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    text-wrap: balance;
+}
+
+@utility type-title-2 {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+}
+
+@utility type-title-3 {
+    font-size: 1.1875rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.016em;
+    font-weight: 600;
+}
+
+@utility type-lead {
+    font-size: clamp(1rem, 0.95rem + 0.3vw, 1.1875rem);
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    font-weight: 400;
+    text-wrap: pretty;
+}
+
+@utility type-body {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    letter-spacing: -0.005em;
+    text-wrap: pretty;
+}
+
+@utility type-callout {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    letter-spacing: 0;
+    text-wrap: pretty;
+}
+
+@utility type-footnote {
+    font-size: 0.8125rem;
+    line-height: 1.125rem;
+    letter-spacing: -0.004em;
+}
+
+@utility type-caption {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+    font-weight: 500;
+}
+
+@utility type-stat {
+    font-size: clamp(3rem, 2rem + 4vw, 5.5rem);
+    line-height: 1;
+    letter-spacing: -0.045em;
+    font-weight: 700;
+}
+
+/*
+ * Elevation. Light: layered soft shadows, the way Apple stacks them (a contact shadow plus a long
+ * ambient one). Dark: where a shadow has nothing left to darken, a hairline and a faint top light.
+ */
+@utility elev-1 {
+    box-shadow: var(--ds-shadow-1);
+}
+
+@utility elev-2 {
+    box-shadow: var(--ds-shadow-2);
+}
+
+@utility elev-3 {
+    box-shadow: var(--ds-shadow-3);
+}
+
+@utility elev-4 {
+    box-shadow: var(--ds-shadow-4);
+}
+
+/*
+ * Materials: translucent layers that float over content without cutting a hole in it. Weight tracks
+ * size — chips take `material`, panels `material-thick`. Each falls back to solid for reduced
+ * transparency and increased contrast.
+ */
+@utility material {
+    background-color: color-mix(in srgb, var(--ds-surface) 72%, transparent);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    backdrop-filter: blur(24px) saturate(180%);
+
+    @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+        background-color: var(--ds-surface);
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+}
+
+@utility material-thick {
+    background-color: color-mix(in srgb, var(--ds-surface) 86%, transparent);
+    -webkit-backdrop-filter: blur(40px) saturate(180%);
+    backdrop-filter: blur(40px) saturate(180%);
+
+    @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+        background-color: var(--ds-surface);
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+}
+
+/* Glass on a dark or tinted ground: the Ena section and the closing call to action. */
+@utility material-glass {
+    background-color: rgb(255 255 255 / 0.08);
+    box-shadow:
+        inset 0 1px 0 rgb(255 255 255 / 0.1),
+        inset 0 0 0 1px rgb(255 255 255 / 0.08);
+    -webkit-backdrop-filter: blur(24px) saturate(160%);
+    backdrop-filter: blur(24px) saturate(160%);
+
+    @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+        background-color: #1c1c1e;
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+}
+
+/* The headings' fade, as the site has always set them: ink to 40% ink, left to right. */
+@utility text-gradient-ink {
+    background-image: linear-gradient(
+        to right,
+        var(--ds-ink),
+        color-mix(in srgb, var(--ds-ink) 40%, transparent)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@utility text-gradient-brand {
+    background-image: var(--ds-brand-text-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@layer base {
+    :root {
+        --ds-canvas: #ffffff;
+        --ds-canvas-2: #f5f5f7;
+        --ds-surface: #ffffff;
+        --ds-surface-2: #fbfbfd;
+        --ds-ink: #1d1d1f;
+        /* 5.0:1 on white, 4.6:1 on the #f5f5f7 tiles. */
+        --ds-ink-2: #6e6e73;
+        --ds-ink-3: #86868b;
+        --ds-hairline: rgb(0 0 0 / 0.08);
+        --ds-hairline-strong: rgb(0 0 0 / 0.14);
+        --ds-fill: rgb(120 120 128 / 0.12);
+        --ds-fill-2: rgb(120 120 128 / 0.07);
+        --ds-focus: #16a34a;
+
+        --ds-brand: #22c55e;
+        /* Green that holds 5:1 on white, for links and small brand text. */
+        --ds-brand-ink: #15803d;
+        --ds-brand-soft: rgb(34 197 94 / 0.12);
+        --ds-brand-gradient: linear-gradient(115deg, #a3e635 0%, #22c55e 42%, #14b8a6 100%);
+        --ds-brand-text-gradient: linear-gradient(100deg, #16a34a 0%, #059669 50%, #0d9488 100%);
+
+        --ds-sys-blue: #007aff;
+        --ds-sys-green: #34c759;
+        --ds-sys-indigo: #5856d6;
+        --ds-sys-orange: #ff9500;
+        --ds-sys-pink: #ff2d55;
+        --ds-sys-purple: #af52de;
+        --ds-sys-red: #ff3b30;
+        --ds-sys-teal: #30b0c7;
+        --ds-sys-yellow: #ffcc00;
+        --ds-sys-mint: #00c7be;
+
+        --ds-shadow-1: 0 1px 2px rgb(0 0 0 / 0.05), 0 1px 1px rgb(0 0 0 / 0.03);
+        --ds-shadow-2:
+            0 1px 2px rgb(0 0 0 / 0.04), 0 2px 6px -2px rgb(0 0 0 / 0.05),
+            0 12px 28px -8px rgb(0 0 0 / 0.1);
+        --ds-shadow-3:
+            0 2px 4px rgb(0 0 0 / 0.04), 0 12px 24px -12px rgb(0 0 0 / 0.1),
+            0 28px 56px -16px rgb(0 0 0 / 0.16);
+        --ds-shadow-4:
+            0 3px 6px rgb(0 0 0 / 0.04), 0 30px 60px -30px rgb(0 0 0 / 0.3),
+            0 50px 100px -20px rgb(0 0 0 / 0.22);
+    }
+
+    .dark {
+        --ds-canvas: #000000;
+        --ds-canvas-2: #101012;
+        --ds-surface: #1c1c1e;
+        --ds-surface-2: #242427;
+        --ds-ink: #f5f5f7;
+        --ds-ink-2: #a1a1a6;
+        --ds-ink-3: #6e6e73;
+        --ds-hairline: rgb(255 255 255 / 0.1);
+        --ds-hairline-strong: rgb(255 255 255 / 0.18);
+        --ds-fill: rgb(120 120 128 / 0.28);
+        --ds-fill-2: rgb(120 120 128 / 0.16);
+        --ds-focus: #4ade80;
+
+        --ds-brand: #30d158;
+        --ds-brand-ink: #4ade80;
+        --ds-brand-soft: rgb(48 209 88 / 0.16);
+        --ds-brand-text-gradient: linear-gradient(100deg, #bef264 0%, #4ade80 45%, #2dd4bf 100%);
+
+        --ds-sys-blue: #0a84ff;
+        --ds-sys-green: #30d158;
+        --ds-sys-indigo: #5e5ce6;
+        --ds-sys-orange: #ff9f0a;
+        --ds-sys-pink: #ff375f;
+        --ds-sys-purple: #bf5af2;
+        --ds-sys-red: #ff453a;
+        --ds-sys-teal: #40c8e0;
+        --ds-sys-yellow: #ffd60a;
+        --ds-sys-mint: #63e6e2;
+
+        --ds-shadow-1: 0 0 0 1px rgb(255 255 255 / 0.06), 0 1px 2px rgb(0 0 0 / 0.6);
+        --ds-shadow-2:
+            inset 0 1px 0 rgb(255 255 255 / 0.05), 0 0 0 1px rgb(255 255 255 / 0.07),
+            0 12px 28px -8px rgb(0 0 0 / 0.7);
+        --ds-shadow-3:
+            inset 0 1px 0 rgb(255 255 255 / 0.06), 0 0 0 1px rgb(255 255 255 / 0.08),
+            0 28px 56px -16px rgb(0 0 0 / 0.8);
+        --ds-shadow-4:
+            inset 0 1px 0 rgb(255 255 255 / 0.07), 0 0 0 1px rgb(255 255 255 / 0.09),
+            0 50px 100px -20px rgb(0 0 0 / 0.9);
+    }
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* Page                                                                                          */
+/* -------------------------------------------------------------------------------------------- */
+
+.ds {
+    background-color: var(--ds-canvas);
+    color: var(--ds-ink);
+    font-family: var(--font-ds);
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* Theme changes ease rather than flash (an abrupt brightness jump is a vestibular trigger too). */
+.ds,
+.ds main {
+    transition: background-color 400ms var(--ease-fluid);
+}
+
+/* In `components`, so `pt-0` / `pb-0` on a section can trim it. */
+@layer components {
+    .ds-container {
+        --ds-gutter: clamp(1rem, 4vw, 2rem);
+        width: min(100% - 2 * var(--ds-gutter), 75rem);
+        margin-inline: auto;
+    }
+
+    .ds-section {
+        padding-block: clamp(2.25rem, 1.25rem + 3vw, 4.5rem);
+    }
+
+    /*
+     * The converge stage sticks with Edena in the middle of the viewport. Extra track height is the
+     * scroll the apps spend flying in; without motion it is just the stage, no empty runway.
+     */
+    .ds-converge-track {
+        --ds-converge-h: 28rem;
+    }
+
+    .ds-converge-stage {
+        position: relative;
+    }
+
+    /* Edena's orbits: hairline circles, centred, sized by the stage's height. */
+    .ds-converge-orbits {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .ds-converge-orbits > span {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        translate: -50% -50%;
+        height: calc(var(--o) * 100%);
+        aspect-ratio: 1;
+        border-radius: 999px;
+        border: 1px solid var(--ds-hairline);
+        background: radial-gradient(closest-side, transparent 70%, color-mix(in srgb, var(--ds-brand) 4%, transparent));
+    }
+
+    .ds-converge-item {
+        will-change: transform, opacity;
+    }
+
+    /* The ring around Edena, filling as the tools come in. */
+    .ds-converge-progress {
+        position: absolute;
+        inset: -0.6rem;
+        width: calc(100% + 1.2rem);
+        height: calc(100% + 1.2rem);
+        rotate: -90deg;
+        overflow: visible;
+    }
+
+    /* In the ring's own units: a scaling stroke keeps `pathLength` true for the dash. */
+    .ds-converge-progress circle {
+        fill: none;
+        stroke-width: 1.5;
+    }
+
+    .ds-converge-progress-track {
+        stroke: var(--ds-hairline-strong);
+    }
+
+    .ds-converge-progress-fill {
+        stroke-linecap: round;
+        stroke-dasharray: 100;
+        stroke-dashoffset: 100;
+    }
+
+    @media (min-width: 40rem) {
+        .ds-converge-track {
+            --ds-converge-h: 38rem;
+        }
+    }
+
+    @media (min-width: 64rem) {
+        .ds-converge-track {
+            --ds-converge-h: 44rem;
+        }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .ds-converge-track {
+            height: calc(var(--ds-converge-h) + 115vh);
+        }
+
+        .ds-converge-stage {
+            position: sticky;
+            top: max(0px, calc(50dvh - var(--ds-converge-h) / 2));
+        }
+    }
+}
+
+/*
+ * The navigation as a material over the page: translucent, with the content scrolling under it. The
+ * blur lives on a pseudo-element because `backdrop-filter` on the header itself would become the
+ * containing block of the mobile menu, which is `position: fixed` inside it.
+ */
+.ds-nav {
+    background-color: transparent;
+}
+
+.ds-nav::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-color: color-mix(in srgb, var(--ds-canvas) 72%, transparent);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    backdrop-filter: blur(20px) saturate(180%);
+    transition: background-color 400ms var(--ease-fluid);
+}
+
+/*
+ * While the bar crosses Ena, it takes the opposite tone of the page: dark over the black stage,
+ * light over the white one — and so does everything in it, the sheet opened from it included. The
+ * shadcn tokens go with the design system's, for the controls drawn with them (language, theme).
+ */
+.ds-nav.ds-nav--invert {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 18%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 64%;
+    --accent: 0 0% 18%;
+    --accent-foreground: 0 0% 98%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 0 0% 83%;
+    --ds-canvas: #000000;
+    --ds-canvas-2: #101012;
+    --ds-surface: #1c1c1e;
+    --ds-ink: #f5f5f7;
+    --ds-ink-2: #a1a1a6;
+    --ds-ink-3: #6e6e73;
+    --ds-hairline: rgb(255 255 255 / 0.1);
+    --ds-hairline-strong: rgb(255 255 255 / 0.18);
+    --ds-fill: rgb(120 120 128 / 0.28);
+    --ds-fill-2: rgb(120 120 128 / 0.16);
+    color: var(--ds-ink);
+}
+
+.dark .ds-nav.ds-nav--invert {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 4%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 94%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 9%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 4%;
+    --ds-canvas: #ffffff;
+    --ds-canvas-2: #f5f5f7;
+    --ds-surface: #ffffff;
+    --ds-ink: #1d1d1f;
+    --ds-ink-2: #6e6e73;
+    --ds-ink-3: #86868b;
+    --ds-hairline: rgb(0 0 0 / 0.08);
+    --ds-hairline-strong: rgb(0 0 0 / 0.14);
+    --ds-fill: rgb(120 120 128 / 0.12);
+    --ds-fill-2: rgb(120 120 128 / 0.07);
+}
+
+/*
+ * Over Ena the bar is the stage's own colour, so where its material ends must not show: a hard
+ * edge, with the stage's glow blurred and saturated above it and sharp below, reads as a border.
+ * It fades out instead, a little past the bar. Not while the sheet is open: the sheet meets it.
+ */
+.ds-nav.ds-nav--invert:not([data-menu-open])::before {
+    bottom: -1.25rem;
+    -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 2.25rem), transparent);
+    mask-image: linear-gradient(to bottom, #000 calc(100% - 2.25rem), transparent);
+}
+
+.ds-nav .ds-nav-logo {
+    transition: filter 400ms var(--ease-fluid);
+}
+
+.ds-nav.ds-nav--invert .ds-nav-logo {
+    filter: invert(1);
+}
+
+.dark .ds-nav.ds-nav--invert .ds-nav-logo {
+    filter: none;
+}
+
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+    .ds-nav::before {
+        background-color: var(--ds-canvas);
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+}
+
+.ds-nav [data-slot="button"],
+.ds-nav [data-slot="navigation-menu-trigger"] {
+    border-radius: 999px;
+}
+
+/* Idioma + tema: misma pastilla secondary (Radix usa distinto data-slot en cada uno). */
+.ds-nav [data-slot="dropdown-menu-trigger"].ds-nav-icon-btn,
+.ds-nav [data-slot="button"].ds-nav-icon-btn {
+    display: inline-flex;
+    flex-shrink: 0;
+    border-radius: 999px;
+    color: hsl(var(--secondary-foreground));
+    background-color: hsl(var(--secondary));
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.ds-nav [data-slot="dropdown-menu-trigger"].ds-nav-icon-btn:hover,
+.ds-nav [data-slot="button"].ds-nav-icon-btn:hover {
+    background-color: hsl(var(--secondary) / 0.8);
+}
+
+.ds-nav [data-slot="dropdown-menu-trigger"].ds-nav-icon-btn svg,
+.ds-nav [data-slot="button"].ds-nav-icon-btn svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* The menu's triggers sit on the material, not on their own white boxes. */
+.ds-nav [data-slot="navigation-menu-trigger"] {
+    background-color: transparent;
+}
+
+.ds-nav [data-slot="navigation-menu-trigger"]:hover,
+.ds-nav [data-slot="navigation-menu-trigger"][data-state="open"] {
+    background-color: var(--ds-fill-2);
+}
+
+.ds-nav [data-slot="navigation-menu-trigger"],
+.ds-nav [data-slot="button"]:not(.bg-secondary) {
+    color: var(--ds-ink);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.012em;
+    font-weight: 500;
+    transition:
+        background-color 240ms var(--ease-fluid),
+        color 240ms var(--ease-fluid),
+        transform 730ms var(--ease-spring);
+}
+
+.ds-nav [data-slot="navigation-menu-trigger"]:active,
+.ds-nav [data-slot="button"]:not(.bg-secondary):active,
+.ds-nav-burger:active {
+    transform: scale(0.97);
+    transition-duration: 80ms;
+    transition-timing-function: ease-out;
+}
+
+.ds-nav [data-slot="navigation-menu-trigger"]:focus-visible,
+.ds-nav [data-slot="button"]:focus-visible,
+.ds-nav-burger:focus-visible {
+    outline: 2px solid var(--ds-focus);
+    outline-offset: 3px;
+}
+
+/* Compact pills so the 60px bar still reads as a single strip of chrome. */
+.ds-nav .ds-btn {
+    min-height: 2.25rem;
+    padding: 0.4rem 1rem;
+    font-size: 0.8125rem;
+}
+
+/* Contáctanos sits in the same type as the menu triggers. Pedir demo stays the quieter link. */
+.ds-nav [data-slot="navigation-menu-item"] > .ds-nav-text-link {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.012em;
+    font-weight: 500;
+}
+
+/* Pedir demo on desktop: a quiet ink link, not a green one and not bold. */
+.ds-nav-text-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.25rem;
+    padding: 0.4rem 0.85rem;
+    border-radius: 999px;
+    color: var(--ds-ink);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.012em;
+    font-weight: 400;
+    text-decoration: none;
+    transition:
+        background-color 240ms var(--ease-fluid),
+        transform 730ms var(--ease-spring);
+}
+
+.ds-nav-text-link:hover {
+    background-color: var(--ds-fill-2);
+}
+
+.ds-nav-text-link:active {
+    transform: scale(0.97);
+    transition-duration: 80ms;
+}
+
+.ds-nav-text-link:focus-visible {
+    outline: 2px solid var(--ds-focus);
+    outline-offset: 3px;
+}
+
+.ds-nav [data-slot="navigation-menu-trigger"] svg {
+    transition: rotate 400ms var(--ease-spring);
+}
+
+/*
+ * The dropdown is a material that grows from the trigger, not a hard card that pops.
+ * Exit along the same path. Reduced motion cross-fades.
+ */
+.ds-nav [data-slot="navigation-menu-viewport"] {
+    margin-top: 0.5rem;
+    overflow: hidden;
+    border-radius: 1.375rem;
+    background-color: color-mix(in srgb, var(--ds-surface) 82%, transparent);
+    -webkit-backdrop-filter: blur(48px) saturate(190%);
+    backdrop-filter: blur(48px) saturate(190%);
+    box-shadow:
+        var(--ds-shadow-3),
+        inset 0 1px 0 rgb(255 255 255 / 0.62);
+    outline: none;
+    border: none;
+    transform-origin: 50% 0;
+}
+
+.ds-nav [data-slot="navigation-menu-viewport"][data-state="open"] {
+    animation: ds-nav-panel-in 400ms var(--ease-spring) both;
+}
+
+.ds-nav [data-slot="navigation-menu-viewport"][data-state="closed"] {
+    animation: ds-nav-panel-out 220ms var(--ease-fluid) both;
+}
+
+.ds-nav [data-slot="navigation-menu-content"] {
+    padding: 0.55rem;
+}
+
+@keyframes ds-nav-panel-in {
+    from {
+        opacity: 0;
+        transform: scale(0.96) translateY(-6px);
+        filter: blur(4px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+        filter: none;
+    }
+}
+
+@keyframes ds-nav-panel-out {
+    from {
+        opacity: 1;
+        transform: none;
+        filter: none;
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.98) translateY(-4px);
+        filter: blur(2px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ds-nav [data-slot="navigation-menu-viewport"][data-state="open"],
+    .ds-nav [data-slot="navigation-menu-viewport"][data-state="closed"] {
+        animation: none;
+    }
+}
+
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+    .ds-nav [data-slot="navigation-menu-viewport"] {
+        background-color: var(--ds-surface);
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+        box-shadow: var(--ds-shadow-3), inset 0 0 0 1px var(--ds-hairline-strong);
+    }
+}
+
+.ds-nav-panel {
+    display: grid;
+    align-items: stretch;
+    gap: 0.35rem 0.55rem;
+    width: min(22rem, calc(100vw - 2rem));
+}
+
+.ds-nav-panel--products {
+    width: min(54rem, calc(100vw - 2rem));
+    grid-template-columns: 16.25rem minmax(16rem, 1.05fr) minmax(0, 1fr);
+}
+
+.ds-nav-panel--products > .ds-nav-featured {
+    grid-row: 1 / -1;
+}
+
+.ds-nav-panel--segments {
+    width: min(44rem, calc(100vw - 2rem));
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+}
+
+.ds-nav-panel--pricing {
+    width: min(42rem, calc(100vw - 2rem));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+}
+
+.ds-nav-featured,
+.ds-nav-choice {
+    display: flex;
+    min-width: 0;
+    height: 100%;
+}
+
+.ds-nav-featured > a,
+.ds-nav-choice > a {
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.ds-nav-col {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.ds-nav-col-label {
+    padding: 0.4rem 0.75rem 0.4rem;
+    color: var(--ds-ink-3);
+    font-size: 0.6875rem;
+    line-height: 1rem;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+}
+
+.ds-nav-col-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.05rem;
+}
+
+.ds-nav .ds-nav-item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem !important;
+    min-height: 3.15rem;
+    padding: 0.55rem 0.7rem !important;
+    border-radius: 0.95rem;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    transition:
+        background-color 200ms var(--ease-fluid),
+        transform 730ms var(--ease-spring);
+}
+
+.ds-nav-item-copy {
+    min-width: 0;
+    flex: 1;
+}
+
+.ds-nav-item .ds-app-icon {
+    color: #ffffff;
+}
+
+.ds-nav-item .ds-app-icon svg {
+    color: inherit;
+}
+
+.ds-nav .ds-nav-item:hover,
+.ds-nav .ds-nav-item:focus-visible {
+    background-color: var(--ds-fill-2);
+}
+
+.ds-nav .ds-nav-item:active {
+    transform: scale(0.97);
+    transition-duration: 80ms;
+    transition-timing-function: ease-out;
+}
+
+.ds-nav .ds-nav-item:focus-visible {
+    outline: 2px solid var(--ds-focus);
+    outline-offset: 2px;
+}
+
+.ds-nav-item-title {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.018em;
+    font-weight: 500;
+    color: var(--ds-ink);
+}
+
+.ds-nav-item-desc {
+    display: -webkit-box;
+    margin-top: 0.1rem;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    font-size: 0.75rem;
+    line-height: 1.05rem;
+    letter-spacing: 0.004em;
+    color: var(--ds-ink-2);
+}
+
+.ds-nav-item-chevron {
+    flex-shrink: 0;
+    width: 0.95rem;
+    height: 0.95rem;
+    color: var(--ds-ink-3);
+    opacity: 0;
+    translate: -0.2rem 0;
+    transition:
+        opacity 220ms var(--ease-fluid),
+        translate 400ms var(--ease-spring);
+}
+
+.ds-nav .ds-nav-item:hover .ds-nav-item-chevron,
+.ds-nav .ds-nav-item:focus-visible .ds-nav-item-chevron {
+    opacity: 1;
+    translate: 0;
+}
+
+.ds-nav .ds-nav-item--featured {
+    isolation: isolate;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 1.6rem !important;
+    height: 100%;
+    min-height: 16rem !important;
+    padding: 1.35rem 1.3rem 1.2rem !important;
+    border-radius: 1.15rem;
+    background-color: var(--ds-canvas-2);
+    box-shadow:
+        inset 0 1px 0 rgb(255 255 255 / 0.72),
+        inset 0 0 0 1px var(--ds-hairline);
+}
+
+.ds-nav .ds-nav-item--featured::before {
+    content: "";
+    position: absolute;
+    top: -3rem;
+    left: -2.25rem;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    background: var(--ds-brand);
+    opacity: 0.14;
+    filter: blur(32px);
+    pointer-events: none;
+}
+
+.ds-nav .ds-nav-item--featured > * {
+    position: relative;
+    z-index: 1;
+}
+
+.ds-nav-featured-visual {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ds-nav-featured-visual img {
+    width: 3.75rem;
+    height: 3.75rem;
+    filter: drop-shadow(0 10px 18px rgb(0 0 0 / 0.14));
+}
+
+.ds-nav-featured-copy {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.35rem;
+}
+
+.ds-nav-item-eyebrow {
+    color: var(--ds-ink-3);
+    font-size: 0.6875rem;
+    line-height: 1rem;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+}
+
+.ds-nav .ds-nav-item--featured .ds-nav-item-title {
+    font-size: 1.75rem;
+    line-height: 1.1;
+    letter-spacing: -0.036em;
+    font-weight: 600;
+}
+
+.ds-nav .ds-nav-item--featured .ds-nav-item-desc {
+    -webkit-line-clamp: 4;
+    margin-top: 0.15rem;
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+}
+
+.ds-nav .ds-nav-item--featured .ds-nav-item-more {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.ds-nav .ds-nav-item--featured:hover,
+.ds-nav .ds-nav-item--featured:focus-visible {
+    background-color: color-mix(in srgb, var(--ds-canvas-2) 78%, var(--ds-fill));
+    transform: translateY(-2px);
+    box-shadow:
+        var(--ds-shadow-2),
+        inset 0 1px 0 rgb(255 255 255 / 0.8);
+}
+
+.ds-nav .ds-nav-item--featured:active {
+    transform: translateY(0) scale(0.985);
+}
+
+/*
+ * Pricing tiles: two paths on the same glass, not gray cards stacked on it.
+ * Title is the hero, price is the payoff, the icon is a quiet badge.
+ */
+.ds-nav .ds-nav-item--choice {
+    --ds-choice-glow: transparent;
+    isolation: isolate;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 2.15rem !important;
+    height: 100%;
+    min-height: 14.5rem !important;
+    padding: 1.35rem 1.35rem 1.2rem !important;
+    border-radius: 1.15rem;
+    background-color: var(--ds-canvas-2);
+    box-shadow:
+        inset 0 1px 0 rgb(255 255 255 / 0.72),
+        inset 0 0 0 1px var(--ds-hairline);
+}
+
+.ds-nav-item--choice::before {
+    content: "";
+    position: absolute;
+    top: -2.5rem;
+    right: -2.25rem;
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 50%;
+    background: var(--ds-choice-glow);
+    opacity: 0.16;
+    filter: blur(28px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.ds-nav .ds-nav-item--choice[data-tone="orange"] {
+    --ds-choice-glow: var(--ds-sys-orange);
+}
+
+.ds-nav .ds-nav-item--choice[data-tone="blue"] {
+    --ds-choice-glow: var(--ds-sys-blue);
+}
+
+.ds-nav .ds-nav-item--choice > * {
+    position: relative;
+    z-index: 1;
+}
+
+.ds-nav-choice-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.85rem;
+}
+
+.ds-nav-choice-copy {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.ds-nav .ds-nav-item--choice .ds-nav-item-title {
+    padding-top: 0.15rem;
+    font-size: 1.5rem;
+    line-height: 1.15;
+    letter-spacing: -0.032em;
+    font-weight: 600;
+}
+
+.ds-nav .ds-nav-item--choice .ds-app-icon {
+    width: 2.75rem;
+    height: 2.75rem;
+}
+
+.ds-nav .ds-nav-item--choice .ds-nav-item-desc {
+    -webkit-line-clamp: 2;
+    margin-top: 0;
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+}
+
+.ds-nav .ds-nav-item--choice:hover,
+.ds-nav .ds-nav-item--choice:focus-visible {
+    background-color: color-mix(in srgb, var(--ds-canvas-2) 78%, var(--ds-fill));
+    transform: translateY(-2px);
+    box-shadow:
+        var(--ds-shadow-2),
+        inset 0 1px 0 rgb(255 255 255 / 0.8);
+}
+
+.ds-nav .ds-nav-item--choice:active {
+    transform: translateY(0) scale(0.985);
+}
+
+.ds-nav-item-price {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.45rem;
+    color: var(--ds-ink);
+}
+
+.ds-nav-item-price-value {
+    font-size: 0.9375rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+}
+
+.ds-nav-item-price-unit {
+    color: var(--ds-ink-3);
+    font-size: 0.75rem;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+}
+
+.ds-nav-item--choice .ds-nav-item-chevron {
+    align-self: center;
+    margin-left: auto;
+    opacity: 0.4;
+    translate: 0;
+}
+
+.ds-nav .ds-nav-item--choice:hover .ds-nav-item-chevron,
+.ds-nav .ds-nav-item--choice:focus-visible .ds-nav-item-chevron {
+    opacity: 1;
+    translate: 0.15rem 0;
+}
+
+.ds-nav-item-price--inline {
+    margin-top: 0.3rem;
+}
+
+.ds-nav-item-price--inline .ds-nav-item-price-value {
+    font-size: 0.8125rem;
+    color: var(--ds-brand-ink);
+}
+
+.ds-nav-item-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.12rem;
+    margin-top: auto;
+    padding-top: 1.1rem;
+    color: var(--ds-brand-ink);
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    letter-spacing: -0.014em;
+    font-weight: 500;
+}
+
+.ds-nav-item-more svg {
+    width: 0.85rem;
+    height: 0.85rem;
+    transition: translate 400ms var(--ease-spring);
+}
+
+.ds-nav .ds-nav-item:hover .ds-nav-item-more svg,
+.ds-nav .ds-nav-item:focus-visible .ds-nav-item-more svg {
+    translate: 0.15rem 0;
+}
+
+.ds-nav-item--spotlight {
+    align-items: center;
+    padding: 0.7rem 0.75rem;
+    background-color: color-mix(in srgb, var(--ds-brand) 8%, var(--ds-canvas));
+}
+
+.ds-nav .ds-nav-item--spotlight:hover,
+.ds-nav .ds-nav-item--spotlight:focus-visible {
+    background-color: color-mix(in srgb, var(--ds-brand) 12%, var(--ds-canvas));
+}
+
+.ds-nav-item--spotlight .ds-nav-item-eyebrow {
+    margin-bottom: 0.1rem;
+}
+
+.ds-nav-item--spotlight .ds-nav-item-title {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.ds-nav-item--spotlight .ds-nav-item-desc {
+    -webkit-line-clamp: 2;
+}
+
+.ds-nav-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 22.5%;
+    color: var(--ds-ink);
+    background: var(--ds-fill-2);
+    box-shadow: inset 0 0 0 1px var(--ds-hairline);
+}
+
+.ds-nav-icon svg,
+.ds-nav-item .ds-app-icon svg {
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.ds-nav-item--featured .ds-app-icon svg,
+.ds-nav-item--choice .ds-app-icon svg {
+    width: 1.45rem;
+    height: 1.45rem;
+}
+
+.ds-nav [data-slot="navigation-menu-viewport"][data-state="open"] .ds-nav-item {
+    animation: ds-nav-item-in 420ms var(--ease-spring) both;
+}
+
+.ds-nav-featured .ds-nav-item {
+    animation-delay: 0ms;
+}
+
+.ds-nav-col-list > :nth-child(1) .ds-nav-item,
+.ds-nav-panel--pricing > :nth-child(1) .ds-nav-item {
+    animation-delay: 40ms;
+}
+
+.ds-nav-col-list > :nth-child(2) .ds-nav-item,
+.ds-nav-panel--pricing > :nth-child(2) .ds-nav-item {
+    animation-delay: 70ms;
+}
+
+.ds-nav-col-list > :nth-child(3) .ds-nav-item {
+    animation-delay: 100ms;
+}
+
+.ds-nav-col-list > :nth-child(4) .ds-nav-item {
+    animation-delay: 130ms;
+}
+
+.ds-nav-col-list > :nth-child(5) .ds-nav-item {
+    animation-delay: 160ms;
+}
+
+.ds-nav-col-list > :nth-child(6) .ds-nav-item {
+    animation-delay: 190ms;
+}
+
+@keyframes ds-nav-item-in {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@media (hover: none) {
+    .ds-nav-item-chevron {
+        display: none;
+    }
+
+    .ds-nav-item--choice .ds-nav-item-chevron {
+        display: block;
+        opacity: 0.5;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ds-nav [data-slot="navigation-menu-viewport"][data-state="open"] .ds-nav-item {
+        animation: none;
+    }
+
+    .ds-nav .ds-nav-item--choice:hover,
+    .ds-nav .ds-nav-item--choice:focus-visible,
+    .ds-nav .ds-nav-item--choice:active,
+    .ds-nav .ds-nav-item--featured:hover,
+    .ds-nav .ds-nav-item--featured:focus-visible,
+    .ds-nav .ds-nav-item--featured:active {
+        transform: none;
+    }
+}
+
+.dark .ds-nav [data-slot="navigation-menu-viewport"] {
+    box-shadow: var(--ds-shadow-3);
+}
+
+.dark .ds-nav-item--choice,
+.dark .ds-nav .ds-nav-item--featured {
+    box-shadow:
+        inset 0 1px 0 rgb(255 255 255 / 0.08),
+        inset 0 0 0 1px var(--ds-hairline);
+}
+
+.dark .ds-nav-item--choice::before,
+.dark .ds-nav .ds-nav-item--featured::before {
+    opacity: 0.22;
+}
+
+.dark .ds-nav .ds-nav-item--choice:hover,
+.dark .ds-nav .ds-nav-item--choice:focus-visible,
+.dark .ds-nav .ds-nav-item--featured:hover,
+.dark .ds-nav .ds-nav-item--featured:focus-visible {
+    box-shadow:
+        var(--ds-shadow-2),
+        inset 0 1px 0 rgb(255 255 255 / 0.1);
+}
+
+.dark .ds-nav-featured-visual img {
+    filter: drop-shadow(0 10px 18px rgb(0 0 0 / 0.45));
+}
+
+/*
+ * The sheet is the bar's own material carried down the screen — the same tint, blur and saturation,
+ * so bar and sheet read as one pane — and what sits on it is opaque: the groups, the buttons.
+ * Tailwind's `-translate-y-*` utilities write the `translate` property, not `transform`.
+ * Open settles on the spring; close takes the same path, a little quicker.
+ */
+.ds-nav #mobile-nav-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: color-mix(in srgb, var(--ds-canvas) 72%, transparent);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    backdrop-filter: blur(20px) saturate(180%);
+    transition:
+        translate 460ms var(--ease-spring),
+        background-color 400ms var(--ease-fluid);
+}
+
+.ds-nav #mobile-nav-menu.ds-nav-sheet-hidden {
+    transition-duration: 280ms;
+    transition-timing-function: var(--ease-fluid);
+}
+
+.ds-nav-sheet-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 0.75rem;
+    overflow-y: auto;
+    padding: 0.75rem 1rem 1.25rem;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+}
+
+/* On the sheet's material, a hairline where the list scrolls away above it. */
+.ds-nav-sheet-foot {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.85rem 1rem max(1.1rem, env(safe-area-inset-bottom));
+    box-shadow: inset 0 1px 0 var(--ds-hairline);
+}
+
+.ds-nav-sheet-foot .ds-nav-text-link {
+    min-height: 2.75rem;
+    font-size: 1.0625rem;
+    letter-spacing: -0.018em;
+}
+
+/*
+ * overflow isn't visible, so a flex item's min-height becomes 0 and the group was
+ * shrinking inside the sheet — an open section got clipped instead of scrolling.
+ */
+.ds-nav-group {
+    flex-shrink: 0;
+    min-height: min-content;
+    overflow: hidden;
+    border-radius: var(--radius-card);
+    background-color: var(--ds-canvas-2);
+    padding: 0.3rem;
+}
+
+.ds-nav-group-label {
+    padding: 0.45rem 0.85rem 0.2rem;
+    color: var(--ds-ink-3);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: -0.01em;
+}
+
+.ds-nav-group-label--center {
+    text-align: center;
+}
+
+/* Direct links share the accordion row: same type, padding and hairline. */
+.ds-nav-group > a.ds-nav-plain,
+.ds-nav-group [data-slot="accordion"] + a.ds-nav-plain {
+    min-height: 0;
+    padding: 0.85rem;
+    border-radius: 0;
+    font-size: 0.9375rem;
+    line-height: 1.35rem;
+    letter-spacing: -0.014em;
+    font-weight: 500;
+}
+
+.ds-nav-group > a.ds-nav-plain:hover,
+.ds-nav-group > a.ds-nav-plain:focus-visible {
+    background-color: transparent;
+}
+
+.ds-nav-group > a.ds-nav-plain:active {
+    transform: none;
+}
+
+.ds-nav-group [data-slot="accordion"] + a.ds-nav-plain,
+.ds-nav-group > a.ds-nav-plain + a.ds-nav-plain {
+    box-shadow: inset 0 1px 0 var(--ds-hairline);
+}
+
+.ds-nav-group [data-slot="accordion-trigger"] {
+    padding: 0.95rem 0.85rem;
+    font-size: 1.0625rem;
+    line-height: 1.35rem;
+    letter-spacing: -0.018em;
+    font-weight: 500;
+    color: var(--ds-ink);
+}
+
+.ds-nav-group [data-slot="accordion-trigger"]:hover {
+    color: var(--ds-ink);
+    text-decoration: none;
+}
+
+.ds-nav-group [data-slot="accordion-trigger"] svg {
+    color: var(--ds-ink-3);
+    transition: rotate 400ms var(--ease-spring);
+}
+
+.ds-nav-group [data-slot="accordion-item"] {
+    border-color: var(--ds-hairline);
+}
+
+.ds-nav-group [data-slot="accordion-item"]:last-child {
+    border-bottom-width: 0;
+}
+
+.ds-nav-group .ds-nav-col + .ds-nav-col {
+    margin-top: 0.2rem;
+}
+
+.ds-nav-group .ds-nav-col-label {
+    padding: 0.5rem 0.75rem 0.15rem;
+}
+
+.ds-nav-group .ds-nav-col + .ds-nav-col {
+    margin-top: 0.2rem;
+}
+
+.ds-nav-group .ds-nav-col-label {
+    padding: 0.5rem 0.75rem 0.15rem;
+}
+
+.ds-nav-group [data-slot="accordion-content"] {
+    padding-bottom: 0.35rem;
+}
+
+.ds-nav-group [data-slot="accordion-content"][data-state="open"] {
+    animation: accordion-down 420ms var(--ease-spring);
+}
+
+.ds-nav-group [data-slot="accordion-content"][data-state="closed"] {
+    animation: accordion-up 280ms var(--ease-fluid);
+}
+
+.ds-nav-plain {
+    display: flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.7rem 0.85rem;
+    border-radius: 0.9rem;
+    color: var(--ds-ink);
+    font-size: 1.0625rem;
+    line-height: 1.35rem;
+    letter-spacing: -0.018em;
+    font-weight: 400;
+    text-decoration: none;
+    transition:
+        background-color 240ms var(--ease-fluid),
+        transform 730ms var(--ease-spring);
+}
+
+.ds-nav-plain:hover,
+.ds-nav-plain:focus-visible {
+    background-color: var(--ds-fill-2);
+}
+
+.ds-nav-plain:active {
+    transform: scale(0.98);
+    transition-duration: 80ms;
+}
+
+.ds-nav-setting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-height: 2.75rem;
+    padding: 0.55rem 0.7rem 0.55rem 0.85rem;
+}
+
+.ds-nav-setting + .ds-nav-setting {
+    box-shadow: inset 0 1px 0 var(--ds-hairline);
+}
+
+/* Three lines; open, the outer two meet in a cross on the spring and the middle one draws away. */
+.ds-nav-burger span {
+    display: block;
+    width: 1.15rem;
+    height: 1.5px;
+    border-radius: 999px;
+    background-color: var(--ds-ink);
+    transform-origin: center;
+    transition:
+        translate 400ms var(--ease-spring),
+        rotate 400ms var(--ease-spring),
+        scale 300ms var(--ease-fluid),
+        opacity 200ms var(--ease-fluid),
+        background-color 400ms var(--ease-fluid);
+}
+
+.ds-nav-burger[aria-expanded="true"] span:nth-child(1) {
+    translate: 0 6.5px;
+    rotate: 45deg;
+}
+
+.ds-nav-burger[aria-expanded="true"] span:nth-child(2) {
+    scale: 0 1;
+    opacity: 0;
+}
+
+.ds-nav-burger[aria-expanded="true"] span:nth-child(3) {
+    translate: 0 -6.5px;
+    rotate: -45deg;
+}
+
+/*
+ * Ena is a dark stage on a light page. On a dark page it flips: white ground, black type.
+ * The bar watches [data-ena] and inverts while it crosses the section.
+ */
+html.dark [data-ena] {
+    --ds-canvas: #ffffff;
+    --ds-canvas-2: #f5f5f7;
+    --ds-surface: #ffffff;
+    --ds-surface-2: #fbfbfd;
+    --ds-ink: #1d1d1f;
+    --ds-ink-2: #6e6e73;
+    --ds-ink-3: #86868b;
+    --ds-hairline: rgb(0 0 0 / 0.08);
+    --ds-hairline-strong: rgb(0 0 0 / 0.14);
+    --ds-fill: rgb(120 120 128 / 0.12);
+    --ds-fill-2: rgb(120 120 128 / 0.07);
+    color: var(--ds-ink);
+}
+
+/* The conversation stays a dark device on the white stage, with its own light type. */
+html.dark [data-ena] .ena-device {
+    --ds-canvas: #000000;
+    --ds-canvas-2: #101012;
+    --ds-surface: #1c1c1e;
+    --ds-surface-2: #242427;
+    --ds-ink: #f5f5f7;
+    --ds-ink-2: #a1a1a6;
+    --ds-ink-3: #6e6e73;
+    --ds-hairline: rgb(255 255 255 / 0.1);
+    --ds-fill: rgb(120 120 128 / 0.28);
+    --ds-fill-2: rgb(120 120 128 / 0.16);
+    color: var(--ds-ink);
+}
+
+html.dark [data-ena] .material-glass {
+    background-color: rgb(0 0 0 / 0.04);
+    box-shadow:
+        inset 0 1px 0 rgb(255 255 255 / 0.8),
+        inset 0 0 0 1px rgb(0 0 0 / 0.08);
+}
+
+/* Soft aurora behind the Ena stage — large, lifted toward the section top. */
+[data-ena] .ds-ena-stage-aurora {
+    top: clamp(-40rem, -34vw, -26rem);
+    width: clamp(44rem, 95vw, 88rem);
+    height: clamp(48rem, 72vw, 64rem);
+    opacity: 0.62;
+    background:
+        radial-gradient(farthest-side at 35% 48%, rgb(34 211 238 / 0.72), transparent 72%),
+        radial-gradient(farthest-side at 65% 48%, rgb(163 230 53 / 0.62), transparent 72%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ds-nav #mobile-nav-menu {
+        transition: opacity 200ms ease;
+        translate: none !important;
+        transform: none !important;
+    }
+
+    .ds-nav #mobile-nav-menu.ds-nav-sheet-hidden {
+        opacity: 0;
+    }
+
+    .ds-nav-group [data-slot="accordion-content"][data-state="open"],
+    .ds-nav-group [data-slot="accordion-content"][data-state="closed"],
+    .ds-faq-panel [data-slot="accordion-content"][data-state="open"],
+    .ds-faq-panel [data-slot="accordion-content"][data-state="closed"] {
+        animation: none;
+    }
+
+    .ds-nav-burger span {
+        transition: none;
+    }
+}
+
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+    .ds-nav #mobile-nav-menu,
+    .ds-nav-sheet-foot {
+        background-color: var(--ds-canvas);
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+}
+
+.ds-nav [data-slot="accordion-trigger"] {
+    padding-block: 0.85rem;
+    font-size: 0.9375rem;
+    line-height: 1.35rem;
+    letter-spacing: -0.014em;
+    font-weight: 500;
+    color: var(--ds-ink);
+}
+
+.ds-nav [data-slot="accordion-trigger"]:hover {
+    color: var(--ds-ink);
+    text-decoration: none;
+}
+
+.ds-nav [data-slot="accordion-item"] {
+    border-color: var(--ds-hairline);
+}
+
+.ds [data-slot="dropdown-menu-content"] {
+    overflow: hidden;
+    border-radius: var(--radius-inner);
+    background-color: color-mix(in srgb, var(--ds-surface) 90%, transparent);
+    -webkit-backdrop-filter: blur(28px) saturate(180%);
+    backdrop-filter: blur(28px) saturate(180%);
+    box-shadow: var(--ds-shadow-2);
+    outline: none;
+    border: none;
+    padding: 0.3rem;
+}
+
+.ds [data-slot="dropdown-menu-item"] {
+    border-radius: 0.65rem;
+    font-size: 0.875rem;
+    letter-spacing: -0.01em;
+}
+
+.ds [data-slot="dropdown-menu-item"]:focus,
+.ds [data-slot="dropdown-menu-item"]:hover {
+    background-color: var(--ds-fill-2);
+}
+
+/*
+ * FAQs (product pages): avern-landing's grouped panel — one raised surface, hairline rows inset
+ * from the question, fill on hover and a deeper fill on press. Chevron is the only accent motion.
+ */
+.ds-faq-panel {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: var(--radius-card);
+    background-color: var(--ds-canvas-2);
+    box-shadow: inset 0 0 0 1px var(--ds-hairline);
+}
+
+.ds-faq-panel [data-slot="accordion-item"] {
+    position: relative;
+    border: none;
+}
+
+.ds-faq-panel [data-slot="accordion-item"]:not(:first-child)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 1.5rem;
+    height: 1px;
+    background: var(--ds-hairline);
+    pointer-events: none;
+}
+
+.ds-faq-panel [data-slot="accordion-trigger"] {
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0;
+    font-size: 1.0625rem;
+    line-height: 1.35rem;
+    letter-spacing: -0.018em;
+    font-weight: 500;
+    color: var(--ds-ink);
+    transition:
+        background-color 240ms var(--ease-fluid),
+        color 240ms var(--ease-fluid);
+}
+
+.ds-faq-panel [data-slot="accordion-trigger"]:hover,
+.ds-faq-panel [data-slot="accordion-trigger"]:focus-visible {
+    background-color: var(--ds-fill-2);
+    color: var(--ds-ink);
+    text-decoration: none;
+}
+
+.ds-faq-panel [data-slot="accordion-trigger"]:active {
+    background-color: color-mix(in srgb, var(--ds-fill) 82%, var(--ds-ink-3));
+    transition-duration: 80ms;
+}
+
+.ds-faq-panel [data-slot="accordion-trigger"]:focus-visible {
+    outline: none;
+    box-shadow: inset 0 0 0 3px color-mix(in srgb, var(--ds-focus) 45%, transparent);
+}
+
+.ds-faq-panel [data-slot="accordion-trigger"] svg {
+    color: var(--ds-ink-3);
+    transition: rotate 400ms var(--ease-spring);
+}
+
+.ds-faq-panel [data-slot="accordion-content"][data-state="open"] {
+    animation: accordion-down 420ms var(--ease-spring);
+}
+
+.ds-faq-panel [data-slot="accordion-content"][data-state="closed"] {
+    animation: accordion-up 280ms var(--ease-fluid);
+}
+
+.ds-faq-panel .ds-faq-answer {
+    padding: 0 1.5rem 1.25rem;
+    color: var(--ds-ink-2);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    text-wrap: pretty;
+}
+
+.ds-faq-panel .ds-faq-answer :where(p, ul, ol) {
+    margin: 0;
+}
+
+.ds-faq-panel .ds-faq-answer :where(p + p, p + ul, p + ol, ul + p, ol + p) {
+    margin-top: 0.75rem;
+}
+
+.ds-faq-panel .ds-faq-answer a {
+    color: var(--ds-ink);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.ds-faq-panel .ds-faq-answer a:hover {
+    color: var(--ds-ink-2);
+}
+
+/* Components sit in Tailwind's `components` layer, so a utility on the same element wins. */
+@layer components {
+    /* -------------------------------------------------------------------------------------------- */
+    /* Controls                                                                                      */
+    /* -------------------------------------------------------------------------------------------- */
+
+    /*
+     * Pills. Feedback lives on the press and is instant (scale on :active, 80ms); the release eases
+     * back on the spring. Every variant clears 44px, Apple's minimum target.
+     */
+    .ds-btn {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.375rem;
+        min-height: 2.75rem;
+        padding: 0.625rem 1.375rem;
+        border-radius: 999px;
+        font-size: 0.9375rem;
+        line-height: 1.25rem;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+        white-space: nowrap;
+        cursor: pointer;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        transition:
+            background-color 240ms var(--ease-fluid),
+            color 240ms var(--ease-fluid),
+            box-shadow 240ms var(--ease-fluid),
+            transform 730ms var(--ease-spring);
+    }
+
+    .ds-btn:active {
+        transform: scale(0.97);
+        transition-duration: 80ms;
+        transition-timing-function: ease-out;
+    }
+
+    .ds-btn:focus-visible {
+        outline: 2px solid var(--ds-focus);
+        outline-offset: 3px;
+    }
+
+    .ds-btn svg {
+        width: 1rem;
+        height: 1rem;
+        flex-shrink: 0;
+    }
+
+    .ds-btn--lg {
+        min-height: 3.25rem;
+        padding-inline: 1.75rem;
+        font-size: 1.0625rem;
+    }
+
+    .ds-btn--primary {
+        background-color: var(--ds-ink);
+        color: var(--ds-canvas);
+    }
+
+    .ds-btn--primary:hover {
+        background-color: color-mix(in srgb, var(--ds-ink) 84%, var(--ds-canvas));
+    }
+
+    .ds-btn--secondary {
+        background-color: var(--ds-fill-2);
+        color: var(--ds-ink);
+        box-shadow: inset 0 0 0 1px var(--ds-hairline);
+    }
+
+    .ds-btn--secondary:hover {
+        background-color: var(--ds-fill);
+    }
+
+    .ds-btn--white {
+        background-color: #ffffff;
+        color: #1d1d1f;
+    }
+
+    .ds-btn--white:hover {
+        background-color: rgb(255 255 255 / 0.88);
+    }
+
+    .ds-btn--glass {
+        color: #ffffff;
+        background-color: rgb(255 255 255 / 0.1);
+        box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.18);
+        -webkit-backdrop-filter: blur(20px) saturate(160%);
+        backdrop-filter: blur(20px) saturate(160%);
+    }
+
+    .ds-btn--glass:hover {
+        background-color: rgb(255 255 255 / 0.18);
+    }
+
+    /* "Saber más ›": the link Apple puts under every tile. The chevron leans toward where it goes. */
+    .ds-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.125rem;
+        color: var(--ds-brand-ink);
+        font-weight: 500;
+        border-radius: 0.375rem;
+        transition: color 200ms var(--ease-fluid);
+    }
+
+    .ds-link svg {
+        width: 1em;
+        height: 1em;
+        transition: translate 500ms var(--ease-spring);
+    }
+
+    .ds-link:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+    }
+
+    .ds-link:hover svg,
+    .group:hover .ds-link svg {
+        translate: 0.1875rem 0;
+    }
+
+    .ds-link:focus-visible {
+        outline: 2px solid var(--ds-focus);
+        outline-offset: 3px;
+    }
+
+    /* -------------------------------------------------------------------------------------------- */
+    /* Surfaces                                                                                      */
+    /* -------------------------------------------------------------------------------------------- */
+
+    /*
+     * On a phone, a row of tiles becomes a gallery that scrolls sideways and snaps, bleeding to the
+     * screen's edges, as Apple lays out tile rows on the iPhone. From `md` it is the grid it says.
+     */
+    @media (max-width: 47.99rem) {
+        .ds-rail-frame {
+            position: relative;
+            margin-inline: calc(-1 * var(--ds-gutter, 1rem));
+        }
+
+        .ds-rail {
+            padding-inline: var(--ds-gutter, 1rem);
+            scroll-padding-inline: var(--ds-gutter, 1rem);
+            overflow-x: auto;
+            overscroll-behavior-x: contain;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: none;
+        }
+
+        .ds-rail-frame > .ds-rail {
+            margin-inline: 0;
+        }
+
+        .ds-rail:not(.ds-rail-frame > .ds-rail) {
+            margin-inline: calc(-1 * var(--ds-gutter, 1rem));
+        }
+
+        .ds-rail::-webkit-scrollbar {
+            display: none;
+        }
+
+        .ds-rail > * {
+            flex: 0 0 82%;
+            scroll-snap-align: center;
+        }
+    }
+
+    .ds-tile {
+        position: relative;
+        border-radius: var(--radius-tile);
+        background-color: var(--ds-canvas-2);
+        overflow: clip;
+        isolation: isolate;
+    }
+
+    /* A tile that is a link: it lifts toward the pointer and settles back on the spring. */
+    .ds-tile--link {
+        transition:
+            transform 730ms var(--ease-spring),
+            box-shadow 400ms var(--ease-fluid);
+    }
+
+    .ds-tile--link:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--ds-shadow-3);
+    }
+
+    .ds-tile--link:active {
+        transform: translateY(-1px) scale(0.99);
+        transition-duration: 120ms;
+    }
+
+    .ds-tile--link:focus-visible {
+        outline: 2px solid var(--ds-focus);
+        outline-offset: 4px;
+    }
+
+    /* An app icon: the iOS squircle, a top light and a contact shadow. */
+    .ds-app-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        border-radius: 22.5%;
+        color: #ffffff;
+        box-shadow:
+            inset 0 1px 0 rgb(255 255 255 / 0.25),
+            0 1px 2px rgb(0 0 0 / 0.08),
+            0 6px 16px -6px rgb(0 0 0 / 0.25);
+    }
+
+    /* Film grain over large gradients, so they do not band. */
+    .ds-grain::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+        opacity: 0.06;
+        mix-blend-mode: overlay;
+    }
+
+    /* Edges that fade instead of cutting: marquees and scenes that bleed off a tile. */
+    .ds-fade-x {
+        -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+        mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+    }
+
+    /* -------------------------------------------------------------------------------------------- */
+    /* Illustrations                                                                                 */
+    /* -------------------------------------------------------------------------------------------- */
+
+    /*
+     * Illustrations are drawn on an artboard in `em` and scale with their box like an image: the
+     * artboard's font-size is its box's width (`cqw`) over its width in em, so every measure inside
+     * follows. `--ds-art-min` keeps phones from shrinking it past
+     * legibility: below that the artboard keeps its size and the stage crops it, as Apple crops a
+     * hero shot.
+     */
+    .ds-art {
+        container-type: inline-size;
+        position: relative;
+        width: max(100%, var(--ds-art-min, 0px));
+        margin-inline: auto;
+    }
+
+    /* Where the artboard is cropped is the page's choice (`justify-center`, `max-sm:justify-end`…). */
+    .ds-art-crop {
+        display: flex;
+        overflow-x: clip;
+    }
+
+    /* `--ds-art-width` is the artboard's width in em: 75 for the hero, 30 for a tile's drawing. */
+    .ds-art > .ds-artboard {
+        font-size: calc(100cqw / var(--ds-art-width, 75));
+        position: relative;
+    }
+
+    /* A skeleton line of text in an illustration. */
+    .ds-bar {
+        display: block;
+        height: 0.5em;
+        border-radius: 999px;
+        background-color: var(--ds-fill);
+    }
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* Reveal                                                                                        */
+/* -------------------------------------------------------------------------------------------- */
+
+/*
+ * `data-reveal` rises into place once it scrolls into view (`ds-motion.ts` sets `data-revealed`).
+ * The hidden state only exists with scripting on and motion allowed, so without either everything
+ * is simply there. Inside a `data-reveal-group`, children are staggered by `--reveal-i`.
+ *
+ *   data-reveal          rise 24px + de-blur (text)
+ *   data-reveal="rise"   rise 48px, no blur (large illustrations — blur on a big layer is costly)
+ *   data-reveal="scale"  grow from 96% (tiles)
+ *   data-reveal="fade"   opacity only
+ *   data-reveal="drop"   from just above, a little small (a notification arriving)
+ */
+@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+    [data-reveal]:not([data-revealed]) {
+        opacity: 0;
+        transform: translate3d(0, 1.5rem, 0);
+        filter: blur(4px);
+    }
+
+    [data-reveal="rise"]:not([data-revealed]) {
+        transform: translate3d(0, 3rem, 0);
+        filter: none;
+    }
+
+    [data-reveal="scale"]:not([data-revealed]) {
+        transform: scale(0.96);
+        filter: none;
+    }
+
+    [data-reveal="fade"]:not([data-revealed]) {
+        transform: none;
+        filter: none;
+    }
+
+    /* A notification arriving: from just above, a little small, into focus. */
+    [data-reveal="drop"]:not([data-revealed]) {
+        transform: translate3d(0, -0.9rem, 0) scale(0.96);
+    }
+
+    [data-reveal] {
+        transition:
+            opacity 900ms var(--ease-out-expo),
+            transform 1100ms var(--ease-out-expo),
+            filter 900ms var(--ease-out-expo);
+        transition-delay: calc(var(--reveal-i, 0) * 90ms);
+    }
+}
+
+/*
+ * Desktop: logo on the left, "Hablemos" on the right. The word comes in from the right
+ * and leaves to the right — same path, same time, same ease.
+ */
+.ds-whatsapp-label,
+.ds-whatsapp-copy {
+    transition:
+        grid-template-columns 280ms cubic-bezier(0.45, 0, 0.55, 1),
+        opacity 280ms cubic-bezier(0.45, 0, 0.55, 1),
+        transform 280ms cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+@media (min-width: 64rem) {
+    .ds-whatsapp {
+        min-width: 2.75rem;
+        padding-inline: 0.75rem;
+    }
+
+    .ds-whatsapp-label {
+        grid-template-columns: 0fr;
+        opacity: 0;
+    }
+
+    .ds-whatsapp-copy {
+        transform: translateX(0.3em);
+    }
+
+    .ds-whatsapp:is(:hover, :focus-visible) .ds-whatsapp-label {
+        grid-template-columns: 1fr;
+        opacity: 1;
+    }
+
+    .ds-whatsapp:is(:hover, :focus-visible) .ds-whatsapp-copy {
+        transform: translateX(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ds-whatsapp-label,
+    .ds-whatsapp-copy {
+        transition: none;
+    }
+}
+
+/* Above the fold the hero rises on load, before any observer could see it. */
+@media (prefers-reduced-motion: no-preference) {
+    .ds-intro {
+        animation: var(--animate-ds-rise);
+        animation-delay: calc(var(--intro-i, 0) * 110ms + 80ms);
+    }
+}
+
+/* Everything that loops is decoration: with reduced motion it holds still. */
+@media (prefers-reduced-motion: reduce) {
+    .ds [class*="animate-ds-"] {
+        animation: none !important;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* Glass                                                                                         */
+/* -------------------------------------------------------------------------------------------- */
+
+/*
+ * The surface every product animation on the home page sits on: a pane of frosted glass with a lit
+ * top edge, over a few faint lights in the brand's greens that the blur refracts
+ * (`.ds-glass-orbs`). The lights drift, slowly and barely — decoration, so they hold still for
+ * anyone who asked for reduced motion.
+ * Placed by the caller (`At` or `absolute`); `--glass-radius` sets its corners. Inner cards take
+ * `.ds-glass-inner`, a lighter frost, rather than a second full pane — glass is never stacked on
+ * glass at the same weight.
+ */
+.ds-glass {
+    border-radius: var(--glass-radius, 1.4em);
+    background: linear-gradient(140deg, rgb(255 255 255 / 0.8), rgb(255 255 255 / 0.5));
+    -webkit-backdrop-filter: blur(28px) saturate(170%);
+    backdrop-filter: blur(28px) saturate(170%);
+    box-shadow:
+        inset 0 1px 0 rgb(255 255 255 / 0.95),
+        inset 0 0 0 1px rgb(255 255 255 / 0.55),
+        0 0 0 1px rgb(0 0 0 / 0.05),
+        0 28px 64px -26px rgb(0 0 0 / 0.24);
+}
+
+.dark .ds-glass {
+    background: linear-gradient(140deg, rgb(255 255 255 / 0.11), rgb(255 255 255 / 0.04));
+    box-shadow:
+        inset 0 1px 0 rgb(255 255 255 / 0.16),
+        inset 0 0 0 1px rgb(255 255 255 / 0.08),
+        0 30px 70px -26px rgb(0 0 0 / 0.75);
+}
+
+.ds-glass-inner {
+    background: rgb(255 255 255 / 0.55);
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.7);
+}
+
+.dark .ds-glass-inner {
+    background: rgb(255 255 255 / 0.05);
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.07);
+}
+
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+    .ds-glass {
+        background: var(--ds-surface);
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+}
+
+.ds-glass-orbs {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.ds-glass-orbs > span {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(3.2em);
+    opacity: 0.26;
+}
+
+.dark .ds-glass-orbs > span {
+    opacity: 0.2;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .ds-glass-orbs > span {
+        animation: ds-orb 24s ease-in-out infinite alternate;
+        animation-delay: calc(var(--orb, 0) * -8s);
+    }
+}
+
+@keyframes ds-orb {
+    0% {
+        translate: 0 0;
+        scale: 1;
+    }
+    50% {
+        translate: 2.5em -1.6em;
+        scale: 1.14;
+    }
+    100% {
+        translate: -1.6em 1.4em;
+        scale: 0.94;
+    }
+}
+
+
+/*
+ * Ena, alive (`EnaClover alive`): a jelly that breathes — it stretches a little as it draws breath
+ * and settles on its base — floats and sways slowly over a shadow that tightens as it rises, blinks
+ * now and then (twice, once a loop), and catches the light: a gleam crosses its metal every few
+ * seconds, cut to its silhouette. Hovered, it hops.
+ *
+ * Every period is different (4.4, 6.4, 8, 9 s), so the loop never visibly repeats. Only transforms,
+ * opacity and one masked gradient move. Nothing moves for a reader who asked for reduced motion.
+ *
+ * The lids are drawn over the eyes of `logos/ena.png` (512 × 512): if the image changes, so do
+ * their boxes, in fractions of it.
+ */
+.ena-alive {
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.ena-alive__float,
+.ena-alive__body {
+    position: absolute;
+    inset: 0;
+}
+
+.ena-alive__body {
+    transform-origin: 50% 92%;
+}
+
+.ena-alive__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* The gleam: a band of light, masked to Ena's silhouette. */
+.ena-alive__body::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(112deg, transparent 40%, rgb(255 255 255 / 0.42) 50%, transparent 60%) no-repeat;
+    background-size: 320% 100%;
+    background-position: 115% 0;
+    -webkit-mask: var(--ena-src) center / contain no-repeat;
+    mask: var(--ena-src) center / contain no-repeat;
+    opacity: 0;
+}
+
+/* The lids: ellipses over the dark eyes, each filled from the top as it closes. */
+.ena-alive__lid {
+    position: absolute;
+    top: 28.4%;
+    width: 17.2%;
+    height: 18.4%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.ena-alive__lid--left {
+    left: 30%;
+}
+
+.ena-alive__lid--right {
+    left: 56.6%;
+}
+
+.ena-alive__lid::before {
+    content: "";
+    position: absolute;
+    inset: -2%;
+    background: linear-gradient(180deg, #6ba664, #4b8547 60%, #36683a);
+    box-shadow: inset 0 -0.12em 0.1em -0.05em rgb(0 0 0 / 0.55);
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+}
+
+.ena-alive__shadow {
+    position: absolute;
+    left: 24%;
+    right: 24%;
+    bottom: -3%;
+    height: 7%;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, rgb(0 0 0 / 0.3), transparent);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .ena-alive__float {
+        animation: ena-float 6.4s ease-in-out infinite;
+        animation-delay: var(--ena-delay, 0s);
+    }
+
+    .ena-alive__shadow {
+        animation: ena-shadow 6.4s ease-in-out infinite;
+        animation-delay: var(--ena-delay, 0s);
+    }
+
+    .ena-alive__body {
+        animation: ena-breathe 4.4s ease-in-out infinite;
+        animation-delay: var(--ena-delay, 0s);
+    }
+
+    .ena-alive__lid::before {
+        animation: ena-blink 8s linear infinite;
+        animation-delay: calc(var(--ena-delay, 0s) - 2.5s);
+    }
+
+    .ena-alive__body::after {
+        animation: ena-gleam 9s var(--ease-fluid) infinite;
+        animation-delay: calc(var(--ena-delay, 0s) + 1.6s);
+    }
+
+    .ena-alive:hover .ena-alive__body {
+        animation: ena-hop 0.8s var(--ease-spring-bounce);
+    }
+}
+
+@keyframes ena-float {
+    0%,
+    100% {
+        translate: 0 0;
+        rotate: -1.6deg;
+    }
+    50% {
+        translate: 0 -4%;
+        rotate: 1.6deg;
+    }
+}
+
+@keyframes ena-shadow {
+    0%,
+    100% {
+        scale: 1;
+        opacity: 1;
+    }
+    50% {
+        scale: 0.82;
+        opacity: 0.6;
+    }
+}
+
+@keyframes ena-breathe {
+    0%,
+    100% {
+        scale: 1 1;
+    }
+    50% {
+        scale: 0.982 1.024;
+    }
+}
+
+/* Once around 45%, twice around 92%: a blink lasts a twelfth of a second each way. */
+@keyframes ena-blink {
+    0%,
+    44%,
+    47%,
+    89%,
+    91.2%,
+    92.4%,
+    94.6%,
+    100% {
+        transform: scaleY(0);
+    }
+    45.5% {
+        transform: scaleY(1);
+    }
+    90.1% {
+        transform: scaleY(1);
+    }
+    93.5% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes ena-gleam {
+    0% {
+        background-position: 115% 0;
+        opacity: 1;
+    }
+    18% {
+        background-position: -15% 0;
+        opacity: 1;
+    }
+    19%,
+    100% {
+        background-position: -15% 0;
+        opacity: 0;
+    }
+}
+
+/* Hovered: it gathers itself, hops and lands with a little squash. */
+@keyframes ena-hop {
+    0% {
+        scale: 1 1;
+        translate: 0 0;
+    }
+    18% {
+        scale: 1.06 0.92;
+        translate: 0 0;
+    }
+    45% {
+        scale: 0.95 1.07;
+        translate: 0 -12%;
+    }
+    75% {
+        scale: 1.04 0.96;
+        translate: 0 0;
+    }
+    100% {
+        scale: 1 1;
+        translate: 0 0;
+    }
+}
+
+/*
+ * A product scene on its tile (`ScenePlayer`): the board centred, as wide as the tile allows up to
+ * `--scene-max`, from a margin at the top down past the tile's foot, which cuts it. `--scene-k` is
+ * the stage's height past that margin, as a fraction of the board's width — how much of the board
+ * shows. The tile clips; the stage does not, so the lights behind the glass spill softly.
+ */
+.ds-scene {
+    container-type: inline-size;
+    width: 100%;
+}
+
+.ds-scene__stage {
+    --scene-top: 1.5rem;
+    --b: min(100cqw - 1.5rem, var(--scene-max, 56rem));
+    position: relative;
+    height: calc(var(--scene-top) + var(--scene-k, 0.6) * var(--b));
+}
+
+@container (min-width: 40rem) {
+    .ds-scene__stage {
+        --scene-top: 2.5rem;
+        --b: min(100cqw - 5rem, var(--scene-max, 56rem));
+    }
+}
+
+.ds-scene__board {
+    position: absolute;
+    left: 50%;
+    top: var(--scene-top);
+    width: var(--b);
+    translate: -50% 0;
+    container-type: inline-size;
+}
+
+.ds-scene__content {
+    position: absolute;
+    inset: 0;
+}
+
+/* The board itself: `--cols` em across, `--rows` down (set by `ScenePlayer`). */
+.ds-scene__art {
+    position: relative;
+    font-size: calc(100cqw / var(--cols));
+    aspect-ratio: var(--cols) / var(--rows);
+}
+
+/* A scene with a narrow board takes it, and its own cut, once the board would fall under 32.5rem
+   (the card under 34rem: on a phone). Both queries draw the same line from their own container. */
+@container (max-width: 32.5rem) {
+    .ds-scene__art[data-narrow] {
+        font-size: calc(100cqw / var(--ncols));
+        aspect-ratio: var(--ncols) / var(--nrows);
+    }
+}
+
+@container (max-width: 34rem) {
+    .ds-scene[data-narrow] > .ds-scene__stage {
+        --scene-k: var(--scene-nk);
+    }
+}
+
+/*
+ * Three phones (`TrioStage` in the product scenes): placed by `--x --y` (board em) at scale `--s`,
+ * or by `--nx --ny --ns` on the narrow board. The two behind turn towards the one in front, hinged
+ * on their outer edges, and step out from behind it as they arrive; the cards that float between
+ * them sit above all three.
+ */
+.trio-place {
+    position: absolute;
+    font-size: calc(var(--s, 1) * 1em);
+    left: calc(var(--x) / var(--s, 1) * 1em);
+    top: calc(var(--y) / var(--s, 1) * 1em);
+}
+
+.trio-float {
+    width: calc(var(--w) * 1em);
+}
+
+.trio-back {
+    transition:
+        translate 1.1s var(--ease-out-expo),
+        opacity 0.9s var(--ease-out-expo);
+}
+
+.trio-back--left {
+    transform-origin: 0% 50%;
+    transform: perspective(70em) rotateY(20deg);
+}
+
+.trio-back--right {
+    transform-origin: 100% 50%;
+    transform: perspective(70em) rotateY(-20deg);
+}
+
+.trio-back[data-hidden] {
+    opacity: 0;
+}
+
+.trio-back--left[data-hidden] {
+    translate: 3.5em 0.6em;
+}
+
+.trio-back--right[data-hidden] {
+    translate: -3.5em 0.6em;
+}
+
+/* The front phone floats a little higher off the page than the two behind it. */
+.trio-front.ds-glass {
+    box-shadow:
+        inset 0 1px 0 rgb(255 255 255 / 0.95),
+        inset 0 0 0 1px rgb(255 255 255 / 0.55),
+        0 0 0 1px rgb(0 0 0 / 0.05),
+        0 2.4em 5em -2em rgb(0 0 0 / 0.26),
+        0 0.6em 1.4em -0.8em rgb(0 0 0 / 0.12);
+}
+
+.dark .trio-front.ds-glass {
+    box-shadow:
+        inset 0 1px 0 rgb(255 255 255 / 0.18),
+        inset 0 0 0 1px rgb(255 255 255 / 0.1),
+        0 2.4em 5em -2em rgb(0 0 0 / 0.7);
+}
+
+@container (max-width: 32.5rem) {
+    .ds-scene__art[data-narrow] .trio-place {
+        font-size: calc(var(--ns, var(--s, 1)) * 1em);
+        left: calc(var(--nx, var(--x)) / var(--ns, var(--s, 1)) * 1em);
+        top: calc(var(--ny, var(--y)) / var(--ns, var(--s, 1)) * 1em);
+    }
+
+    .ds-scene__art[data-narrow] .trio-float {
+        width: calc(var(--nw, var(--w)) * 1em);
+    }
+
+    .ds-scene__art[data-narrow] .trio-wide-only {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .trio-back {
+        transition: none;
+    }
+}
+
+@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+    .ds-scene__content:not([data-live]) {
+        opacity: 0;
+    }
+}
+
+/* A badge or a count arriving: from nothing, past its size, back. */
+@keyframes ds-pop {
+    from {
+        scale: 0;
+    }
+}
+
+/*
+ * Forms on the premium pages (`.ds-form`): every field a soft well on its tile, rounded like the
+ * tiles' inner cards; its edge lights in the brand's green while in use and in red when something
+ * is wrong. It styles the shared ui fields from outside, so the phone input matches the rest.
+ */
+.ds-form [data-slot="input"],
+.ds-form [data-slot="textarea"],
+.ds-form [data-slot="select-trigger"] {
+    min-height: 2.875rem;
+    border: 0;
+    border-radius: 0.875rem;
+    background-color: var(--ds-surface);
+    box-shadow: inset 0 0 0 1px var(--ds-hairline);
+    padding-inline: 1rem;
+    font-size: 0.9375rem;
+    color: var(--ds-ink);
+    outline: none;
+    transition:
+        box-shadow 200ms var(--ease-fluid),
+        background-color 200ms var(--ease-fluid);
+}
+
+.ds-form [data-slot="textarea"] {
+    min-height: 8.5rem;
+    padding-block: 0.8rem;
+    resize: vertical;
+}
+
+.ds-form [data-slot="input"]::placeholder,
+.ds-form [data-slot="textarea"]::placeholder {
+    color: var(--ds-ink-3);
+    font-size: 0.9375rem;
+}
+
+.ds-form [data-slot="input"]:hover,
+.ds-form [data-slot="textarea"]:hover,
+.ds-form [data-slot="select-trigger"]:hover {
+    box-shadow: inset 0 0 0 1px var(--ds-hairline-strong);
+}
+
+.ds-form [data-slot="input"]:focus-visible,
+.ds-form [data-slot="textarea"]:focus-visible,
+.ds-form [data-slot="select-trigger"]:focus-visible {
+    outline: none;
+    box-shadow:
+        inset 0 0 0 1.5px var(--ds-brand),
+        0 0 0 4px var(--ds-brand-soft);
+}
+
+.ds-form [aria-invalid="true"] {
+    box-shadow:
+        inset 0 0 0 1.5px #ef4444,
+        0 0 0 4px rgb(239 68 68 / 0.12);
+}
+
+/* The phone input: the country picker and the number read as one field. */
+.ds-form [data-slot="select-trigger"] {
+    border-radius: 0.875rem 0 0 0.875rem;
+    height: auto;
+}
+
+.ds-form [data-slot="select-trigger"] ~ [data-slot="input"] {
+    border-radius: 0 0.875rem 0.875rem 0;
+}
+
+/* A form sent: the tick inside its circle draws itself once. */
+.contact-sent path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .contact-sent {
+        animation: ds-pop 600ms var(--ease-spring-bounce) both;
+    }
+
+    .contact-sent path {
+        animation: contact-tick 600ms var(--ease-out-expo) 250ms both;
+    }
+}
+
+@keyframes contact-tick {
+    from {
+        stroke-dashoffset: 1;
+    }
+}

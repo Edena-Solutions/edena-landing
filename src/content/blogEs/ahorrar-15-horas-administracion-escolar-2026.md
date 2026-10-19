@@ -2,7 +2,7 @@
 title: "Cómo ahorrar 15 horas semanales en administración escolar"
 date: "2026-04-12"
 translationKey: "ahorrar-15-horas-administracion-escolar-2026"
-description: "Desglose de horas recuperables por proceso admin. Guía práctica para centros educativos en España (2026)."
+description: "Quince horas a la semana equivalen a casi dos jornadas laborales completas. En un centro, ese tiempo se pierde respondiendo los mismos correos y reconstruyendo qué pagó quién."
 tags:
     [
         "ahorrar horas administración escolar",

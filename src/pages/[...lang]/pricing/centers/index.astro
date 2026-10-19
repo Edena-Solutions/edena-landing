@@ -1,7 +1,9 @@
 ---
 import { translations, localeStaticPaths, localePath, localizedDemoPath } from "@/i18n/index.ts";
 import Layout from "@/layouts/main.astro";
-import Hero from "@/modules/pricing/Hero.astro";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import PageHero from "@/modules/product/PageHero.astro";
 import CentersPricing from "@/modules/pricing/CentersPricing.astro";
 import ProductSchema from "@/components/StructuredData/Product.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
@@ -9,7 +11,6 @@ import { CENTER_PACKS, floorFor } from "@/constants/pricing";
 import { homeBreadcrumbName } from "@/lib/breadcrumb";
 import { ogFromAsset } from "@/lib/og-image";
 import pricingOgImage from "@/assets/img/screenshots/finance/billing_cycle.png";
-import Conclusion from "@/modules/home/Conclusion.astro";
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -46,6 +47,7 @@ const breadcrumbs = [
         ...ogFromAsset(pricingOgImage, Astro.site),
     }}
     lang={lang}
+    design="premium"
 >
     <Fragment slot="structured-data">
         <ProductSchema
@@ -57,14 +59,13 @@ const breadcrumbs = [
         />
         <BreadcrumbListSchema items={breadcrumbs} lang={lang} />
     </Fragment>
-    <section class="grid gap-16 px-4 w-full mx-auto">
-        <Hero t={t} title={t.pricing.centers.title} description={t.pricing.centers.description} />
-        <CentersPricing
-            t={t}
-            lang={lang}
-            demoUrl={localizedDemoPath(lang)}
-            registerUrl={REGISTER_URL}
-        />
-        <Conclusion lang={lang} />
-    </section>
+    <HomeMotion />
+    <PageHero title={t.pricing.centers.title} description={t.pricing.centers.description} />
+    <CentersPricing
+        t={t}
+        lang={lang}
+        demoUrl={localizedDemoPath(lang)}
+        registerUrl={REGISTER_URL}
+    />
+    <ClosingCta lang={lang} />
 </Layout>

@@ -2,7 +2,7 @@
 title: "Dashboard educatiu: El centre de control per a la gestió estratègica"
 date: "2025-02-25"
 translationKey: "dashboard-educativo"
-description: "Dashboard com a centre de control estratègic del centre. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "A l'era de la informació, els centres educatius necessiten eines de gestió que proporcionin visibilitat total sobre totes les operacions."
 tags:
     - "dashboard"
     - "gestió administrativa"

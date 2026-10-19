@@ -2,7 +2,7 @@
 title: "Hezkuntza analitika eta adimen artifiziala: hezkuntza eraldatzen duten datuak"
 date: "2024-09-15"
 translationKey: "analitica-educativa-inteligencia-artificial"
-description: "Ikaskuntzaren analitikari aplikatutako IA (angelu pedagogikoa). Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Hezkuntza analitika eta adimen artifiziala funtsean eraldatzen ari dira eskolak erabakiak hartzen, ikaskuntza pertsonalizatzen eta beren eragiketak optimizatzen dituzten modua."
 tags:
     - "analítica"
     - "inteligencia artificial"

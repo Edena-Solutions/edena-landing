@@ -2,7 +2,7 @@
 title: "App for families in schools: real advantages for management and parents"
 date: "2026-04-05"
 translationKey: "app-familias-colegios-ventajas-2026"
-description: "Operational advantages of a family app vs. dispersed channels. Practical guide for educational centers in Spain (2026)."
+description: "An app and a portal are not an image decoration: they are the channel where dates, payments, notices and documents coexist with traces."
 tags:
     - "school families app"
     - "educational portal"

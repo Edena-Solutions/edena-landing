@@ -2,7 +2,7 @@
 title: "Academic performance analytics: Data to enhance learning"
 date: "2025-01-10"
 translationKey: "analitica-rendimiento-academico"
-description: "Analysis of academic performance in the classroom. Practical guide for educational centers in Spain (2026)."
+description: "Educational analytics is changing the way schools manage student learning and development."
 tags:
     - "analytics"
     - "academic performance"

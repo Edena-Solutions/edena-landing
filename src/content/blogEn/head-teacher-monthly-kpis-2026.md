@@ -2,7 +2,7 @@
 title: "KPIs that every school principal should measure every month"
 date: "2026-04-16"
 translationKey: "kpis-director-colegio-mensual-2026"
-description: "Essential monthly KPIs for management. Practical guide for educational centers in Spain (2026)."
+description: "He closes the month knowing whether \"it went well or badly\" by intuition, debates figures in the committee that no one has defined the same."
 tags:
     - "KPIs school director"
     - "school management indicators"

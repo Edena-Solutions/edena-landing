@@ -2,7 +2,7 @@
 title: "ERP escolar: la guía completa para digitalizar la gestión de tu centro educativo"
 date: "2026-02-28"
 translationKey: "erp-escolar-guia-digitalizacion"
-description: "Qué es un ERP escolar y qué módulos debe incluir. Guía práctica para centros educativos en España (2026)."
+description: "Un ERP escolar integra en una sola plataforma la gestión administrativa, financiera y académica de un centro educativo."
 tags: ["ERP escolar", "software gestión colegios", "digitalización", "gestión educativa"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677363463978-1aaeb823b2ac?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

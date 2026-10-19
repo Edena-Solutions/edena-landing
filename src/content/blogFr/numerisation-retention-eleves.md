@@ -2,7 +2,7 @@
 title: "Impact de la numérisation sur la rétention des élèves"
 date: "2026-02-07"
 translationKey: "digitalizacion-retencion-alumnos"
-description: "Processus d'administration qui améliorent la rétention et réduisent le taux de désabonnement. Guide pratique pour les établissements scolaires en Espagne (2026)."
+description: "La persévérance scolaire ne dépend pas uniquement du projet éducatif : l'expérience administrative et la communication avec les familles influencent le renouvellement."
 tags:
     - "la persévérance scolaire"
     - "numérisation"

@@ -2,7 +2,7 @@
 title: "Comunicació amb famílies: eines més enllà de l'email"
 date: "2026-02-17"
 translationKey: "comunicacion-digital-centros-educativos"
-description: "Canals digitals més enllà de l'email massiu. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "El correu electrònic continua sent útil, però no n'hi ha prou per a tota la comunicació amb famílies: circulars, recordatoris de pagament."
 tags:
     - "comunicació digital centres educatius"
     - "famílies"

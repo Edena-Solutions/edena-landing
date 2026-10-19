@@ -2,7 +2,7 @@
 title: "Nola aukeratu ikastetxeko softwarea akatsik egin gabe: zuzendarientzako kontrol-zerrenda"
 date: "2026-04-20"
 translationKey: "elegir-software-escolar-checklist-directores-2026"
-description: "Zuzendarientzako erosketa-zerrenda: demoa, TCO eta batzordea. Espainiako hezkuntza-zentroentzako gida praktikoa (2026)."
+description: "Zure zentrorako kudeaketa softwarea aukeratzea da hartu beharreko erabakirik garestienetako bat: ez lizentziaren prezioan, baizik eta denboran."
 tags:
     - "aukeratu eskolako softwarea"
     - "hezkuntza-softwarearen kontrol-zerrenda"

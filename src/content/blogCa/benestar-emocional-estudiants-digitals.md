@@ -2,7 +2,7 @@
 title: "Benestar emocional d'estudiants a l'era digital: Estratègies i eines"
 date: "2025-08-30"
 translationKey: "bienestar-emocional-estudiantes-digitales"
-description: "Benestar emocional i ús equilibrat de pantalles. Guia pràctica per a centres educatius a Espanya (2026)."
+description: "El benestar emocional dels estudiants ha esdevingut una prioritat crítica per als centres educatius a l'era digital."
 tags:
     - "benestar emocional"
     - "salut mental"
