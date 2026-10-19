@@ -1,5 +1,6 @@
 ---
 title: "Automation of administrative tasks: Free up time for education"
+seoTitle: "Automating administrative tasks in schools"
 date: "2025-07-15"
 translationKey: "automatizacion-tareas-administrativas"
 description: "Educational centers face a constant challenge: balancing administrative needs with the main objective of providing quality education."

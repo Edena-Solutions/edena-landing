@@ -1,8 +1,9 @@
 ---
 title: "Educational spaces of the future: Design and innovation for modern learning"
+seoTitle: "Educational spaces of the future: design for learning"
 date: "2025-08-25"
 translationKey: "espacios-educativos-futuro-diseno"
-description: "The physical spaces where learning occurs have a profound and often underestimated impact on educational effectiveness."
+description: "How the design of physical learning spaces affects educational effectiveness, and how classrooms are being rethought for modern teaching methods."
 tags:
     - "educational spaces"
     - "architectural design"

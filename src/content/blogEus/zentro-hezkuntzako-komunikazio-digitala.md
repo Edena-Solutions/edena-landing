@@ -1,5 +1,6 @@
 ---
 title: "Familiekiko komunikazioa: posta elektronikoz haragoko tresnak"
+seoTitle: "Familiekiko komunikazioa: posta elektronikotik haratago"
 date: "2026-02-17"
 translationKey: "comunicacion-digital-centros-educativos"
 description: "Posta elektronikoa erabilgarria da oraindik, baina ez da nahikoa familiekin komunikazio guztietarako: zirkularrek, ordainketa-abisuak."

@@ -7,6 +7,7 @@ import { ClientRouter } from "astro:transitions";
 import OrganizationSchema from "@/components/StructuredData/Organization.astro";
 import CookieConsentBanner from "@/components/CookieConsentBanner";
 import { translations, languages, localePath } from "@/i18n/index.ts";
+import { navCopy } from "@/i18n/nav-copy";
 import { ogFromAsset } from "@/lib/og-image";
 import defaultOgImage from "@/assets/img/og.jpg";
 
@@ -223,13 +224,8 @@ const defaultImageAlt =
  <meta property="article:published_time" content={content.articlePublishedTime} />
  )
  }
- <!-- Fonts -->
- <link rel="preconnect" href="https://fonts.googleapis.com" />
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
- <link
- href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
- rel="stylesheet"
- />
+ <!-- Fonts: Montserrat is served from /fonts (see global.css); the Latin file is fetched early. -->
+ <link rel="preload" href="/fonts/montserrat-v31-latin.woff2" as="font" type="font/woff2" crossorigin />
  <!-- Structured Data -->
  <OrganizationSchema lang={lang} />
  <script type="application/ld+json" is:inline set:html={JSON.stringify({
@@ -289,12 +285,12 @@ const defaultImageAlt =
  document.addEventListener("astro:page-load", pushPageView);
  })();
  </script>
- <MainNavigationMenu client:load lang={lang} premium={premium} className={premium ? "ds-nav" : undefined} languageHrefs={languageHrefs} />
+ <MainNavigationMenu client:load lang={lang} copy={navCopy(t)} premium={premium} className={premium ? "ds-nav" : undefined} languageHrefs={languageHrefs} />
  <main class="pt-15 flex-grow w-full max-w-[2000px] mx-auto overflow-x-clip">
  <slot />
  </main>
  <Footer lang={lang} languageHrefs={languageHrefs} />
  <WhatsAppButton labels={t.whatsapp} />
- <CookieConsentBanner client:load lang={lang} t={t} />
+ <CookieConsentBanner client:load lang={lang} copy={t.cookieConsent} />
  </body>
 </html>

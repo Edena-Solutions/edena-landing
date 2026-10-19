@@ -2,7 +2,7 @@
 title: "Digitalization checklist 2026 for your educational center"
 date: "2026-02-24"
 translationKey: "checklist-digitalizacion-2026"
-description: "The digitization of educational centers in 2026 is not just technology: it is reviewing processes, data and channels with families to gain efficiency and compliance."
+description: "A 2026 checklist to digitalise your school: review processes, data and channels with families to gain efficiency and stay compliant."
 tags:
     - "digitization educational centers 2026"
     - "checklist"

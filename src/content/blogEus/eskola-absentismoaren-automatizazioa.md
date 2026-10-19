@@ -2,7 +2,7 @@
 title: "Automatizazioak nola murrizten duen eskola-absentismoa"
 date: "2026-02-10"
 translationKey: "automatizacion-absentismo-escolar"
-description: "Asistentzia eskuz edo orri solteetan erregistratzen denean, datuak berandu iristen dira zuzendaritzara eta familietara."
+description: "Absentismoa ez da araudiarekin bakarrik konpontzen: erregistro fidagarria, detekzio goiztiarra eta familiekin komunikazio arina behar dira."
 tags:
     - "automatizazioa"
     - "eskola uztekeria"

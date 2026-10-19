@@ -1,8 +1,9 @@
 ---
 title: "ERP escolar: la guia completa per digitalitzar la gestió del teu centre educatiu"
+seoTitle: "ERP escolar: guia per digitalitzar la gestió del centre"
 date: "2026-02-28"
 translationKey: "erp-escolar-guia-digitalizacion"
-description: "Un ERP escolar integra a una sola plataforma la gestió administrativa, financera i acadèmica d'un centre educatiu."
+description: "Un ERP escolar reuneix en una plataforma la gestió administrativa, financera i acadèmica: expedient, cobraments, comunicació i admissió. Què ha d'incloure."
 tags:
     - "ERP escolar"
     - "programari gestió escoles"
@@ -14,14 +15,13 @@ relatedPosts:
     - comparativa-programari-gestio-escolar-2026
     - checklist-software-escolar-director-2026
     - millor-programari-gestio-escolar
-    - triar-programari-gestio-escolar
 faqs:
     - question: "Un ERP escolar substitueix diversos sistemes?"
-      answer: "Sí. Un ERP escolar ben elegit pot reemplaçar fulls de càlcul, programari de facturació aïllat, eines de comunicació disperses i part de la gestió d'expedients. Lobjectiu és tenir un nucli unificat."
+      answer: "Sí. Un ERP escolar ben elegit pot reemplaçar fulls de càlcul, programari de facturació aïllat, eines de comunicació disperses i part de la gestió d'expedients. L'objectiu és tenir un nucli unificat."
     - question: "El programari de gestió per a escoles inclou facturació electrònica?"
       answer: "Els ERP escolars moderns solen incloure o integrar facturació electrònica i Verifactu. Comproveu que el vostre proveïdor estigui preparat o en via d'adaptació abans de signar."
     - question: "Quan triga la implantació d'un ERP escolar?"
-      answer: "Depèn del punt de partida i de labast. Un pilot amb facturació i famílies pot estar operatiu d'aquí a unes setmanes; una implantació completa amb migració de dades pot portar uns quants mesos. Planifica per fases."
+      answer: "Depèn del punt de partida i de l'abast. Un pilot amb facturació i famílies pot estar operatiu d'aquí a unes setmanes; una implantació completa amb migració de dades pot portar uns quants mesos. Planifica per fases."
 ---
 
 <strong>ERP escolar: la guia completa per digitalitzar la gestió del teu centre educatiu</strong>
@@ -42,7 +42,7 @@ Un ERP escolar integra a una sola plataforma la gestió administrativa, financer
 
 <br>
 
-Un ERP (Enterprise Resource Planning) escolar és un sistema integral que gestiona els recursos del centre: financers, humans, acadèmics i operatius. Un SIS se centra en la informació estudiantil; un ERP escolar va més enllà i inclou facturació, nòmines, inventari, menjador, rutes i altres processos. El programari de gestió per a escoles més complet sol ser un ERP que integra mòduls destudiants, famílies i administració.
+Un ERP (Enterprise Resource Planning) escolar és un sistema integral que gestiona els recursos del centre: financers, humans, acadèmics i operatius. Un SIS se centra en la informació estudiantil; un ERP escolar va més enllà i inclou facturació, nòmines, inventari, menjador, rutes i altres processos. El programari de gestió per a escoles més complet sol ser un ERP que integra mòduls d'estudiants, famílies i administració.
 
 <br>
 
@@ -117,7 +117,7 @@ Defineix els processos que més temps i queixes generen avui. Comproveu que el E
 - **Facturació i cobraments:** Rebuts recurrents, morositat i conciliació bancària.
 - **Comunicació/app familiar:** Circulars, autoritzacions i incidències amb traçabilitat.
 - **Admissió i CRM:** Pipeline, seguiment post-visita i reserva de plaça.
-- **Documents amb permisos:** Mínim privilegi per rol i registre daccés.
+- **Documents amb permisos:** Mínim privilegi per rol i registre d'accés.
 - **Rols i auditoria:** Traçabilitat davant d'inspecció i LOPDGDD.
 
 Opcionals segons perfil: transport, menjador, biblioteca.
@@ -136,7 +136,7 @@ Tres apps desconnectades multipliquen errors de transcripció. El cost ocult és
 
 <br>
 
-- **Dades mestres:** Alumnes, famílies, tarifes i cursos nets abans dactivar mòduls.
+- **Dades mestres:** Alumnes, famílies, tarifes i cursos nets abans d'activar mòduls.
 - **Cobraments:** Primer cicle real de rebuts; sol ser el dolor principal de secretaria.
 - **Comunicació:** Portal familiar quan cobraments i expedient comparteixen font.
 - **Admissió:** CRM connectat a matrícula i primer cobrament.
@@ -170,7 +170,7 @@ Una escola bressol de 85 places a Girona va avaluar tres proveïdors amb el mate
 
 <br>
 
-Un ERP escolar ben elegit digitalitza la gestió del centre, redueix càrrega administrativa i millora lexperiència de famílies i equip. Inverteix temps a definir necessitats, provar amb dades reals i alinear tot l'equip. Un programari de gestió per a escoles que s'adapta als processos és una inversió que s'amortitza en eficiència i satisfacció.
+Un ERP escolar ben elegit digitalitza la gestió del centre, redueix càrrega administrativa i millora l'experiència de famílies i equip. Inverteix temps a definir necessitats, provar amb dades reals i alinear tot l'equip. Un programari de gestió per a escoles que s'adapta als processos és una inversió que s'amortitza en eficiència i satisfacció.
 
 Vols veure com un ERP escolar pot transformar la gestió del teu centre? Demana una demo i revisem facturació, famílies i expedients sense compromís.
 

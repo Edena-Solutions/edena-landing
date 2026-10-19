@@ -1,5 +1,6 @@
 ---
 title: "Hezkuntza marketin digitala Espainian: familiak erakartzeko eta fideltasunean mantentzeko estrategiak"
+seoTitle: "Hezkuntza-marketin digitala: familiak erakarri eta atxiki"
 date: "2025-09-08"
 translationKey: "marketing-educativo-digital-estrategias"
 description: "Eskola pribatu edo kontzertatu bat zuzentzen baduzu, seguruenik webgunean eta sareetan inbertitzen duzu eta hala ere ez duzu itzulkina matrikuletan ikusten."

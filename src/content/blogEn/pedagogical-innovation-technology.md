@@ -1,5 +1,6 @@
 ---
 title: "Pedagogical innovation with technology: Transforming teaching and learning"
+seoTitle: "Pedagogical innovation with technology in the classroom"
 date: "2024-10-15"
 translationKey: "innovacion-pedagogica-tecnologia"
 description: "Explore how technology is changing pedagogical methodologies and creating more effective and engaging learning experiences."

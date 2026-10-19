@@ -1,8 +1,9 @@
 ---
 title: "Gaueko hamaiketan mezurik ez: deskonexio digitala eta komunikazio leihoak"
+seoTitle: "Deskonexio digitala: familiekiko komunikazio-leihoak"
 date: "2026-08-20"
 translationKey: "desconexion-digital-comunicacion-centros-familias-2026"
-description: "Frantziak jada behartzen du eskola softwarean 20:00etatik 07:00etara eta asteburuetan zabalkundea etetera. Nola finkatu komunikazio leihoak zentroaren, familien eta irakasleen artean abisu premiazkoa galdu gabe."
+description: "Frantziak behartzen du eskola-softwarearen bidalketak 20:00etatik 07:00etara etetera. Nola finkatu komunikazio-leihoak premiazko abisuak galdu gabe."
 tags:
     [
         "deskonexio digitala",

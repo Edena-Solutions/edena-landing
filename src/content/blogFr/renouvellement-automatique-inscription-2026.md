@@ -1,8 +1,9 @@
 ---
 title: "Renouvellement automatique d'inscription : comment accélérer la réinscription en 2026"
+seoTitle: "Renouvellement automatique des inscriptions à l'école"
 date: "2026-06-21"
 translationKey: "renovacion-automatica-matricula-2026"
-description: "Comment automatiser le renouvellement d'inscription dans les écoles et académies pour réduire les départs, économiser de la gestion et offrir une expérience sans friction en 2026."
+description: "Comment automatiser la réinscription dans les écoles et académies pour réduire les départs, alléger la gestion et offrir une expérience sans friction."
 tags:
     [
         "renouvellement inscription",

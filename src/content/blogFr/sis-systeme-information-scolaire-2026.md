@@ -1,8 +1,9 @@
 ---
 title: "Qu'est-ce qu'un SIS (système d'information scolaire) et pourquoi votre établissement en a besoin en 2026"
+seoTitle: "Qu'est-ce qu'un SIS (système d'information scolaire) ?"
 date: "2026-02-27"
 translationKey: "sis-sistema-informacion-estudiantil-2026"
-description: "Découvrez ce qu'est un SIS scolaire, comment un système d'information sur les élèves centralise les données et améliore la gestion de votre établissement en 2026."
+description: "Ce qu'est un SIS scolaire, comment un système d'information sur les élèves centralise les données et améliore la gestion de votre établissement."
 tags:
     [
         "SIS scolaire",

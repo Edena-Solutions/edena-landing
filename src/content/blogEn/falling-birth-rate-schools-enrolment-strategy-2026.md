@@ -1,8 +1,9 @@
 ---
 title: "Fewer children, same places: defending enrolment as birth rates fall"
+seoTitle: "Falling birth rates: how schools can defend enrolment"
 date: "2026-08-07"
 translationKey: "caida-natalidad-colegios-captacion-matriculas-2026"
-description: "Spain's demographic decline equals more than 32,000 classrooms lost in a decade. A three-front plan for schools: convert enquiries better, retain the families you have, and spot departures while there is still time."
+description: "Spain's falling birth rate equals over 32,000 classrooms lost in a decade. Three fronts for schools: convert enquiries, retain families, spot departures."
 tags: ["birth rate", "student recruitment", "enrolment", "retention", "school leadership"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1575313844062-39c66a566b6a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

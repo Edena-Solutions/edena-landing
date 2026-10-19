@@ -1,5 +1,6 @@
 ---
 title: "Llei Crea i Creix: factura electrònica B2B per a centres i acadèmies"
+seoTitle: "Llei Crea i Creix: factura electrònica per a centres"
 date: "2026-04-22"
 translationKey: "ley-crea-y-crece-factura-electronica-centros-2026"
 description: "Què implica la factura electrònica obligatòria entre empreses per a col·legis i acadèmies a Espanya i com preparar-se el 2026."

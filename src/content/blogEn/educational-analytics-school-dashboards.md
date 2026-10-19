@@ -1,8 +1,9 @@
 ---
 title: "Data and analytics in education: how to make better decisions with school dashboards"
+seoTitle: "School dashboards: making better decisions with data"
 date: "2026-03-15"
 translationKey: "analitica-educativa-dashboards-escolares"
-description: "Educational analytics and the school dashboard allow you to make decisions based on data instead of intuition."
+description: "How to use educational analytics and a school dashboard so the office and management make weekly decisions based on data instead of intuition."
 tags:
     - "educational analytics"
     - "school dashboard"

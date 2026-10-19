@@ -1,5 +1,6 @@
 ---
 title: "Tendances des technologies éducatives pour 2025 : l’avenir de l’apprentissage"
+seoTitle: "Tendances des technologies éducatives pour 2025"
 date: "2025-01-30"
 translationKey: "tecnologia-educativa-2025"
 description: "Explorez les technologies émergentes qui transforment l'éducation et comment les écoles peuvent se préparer à l'avenir numérique."

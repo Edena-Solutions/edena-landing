@@ -1,5 +1,6 @@
 ---
 title: "School ERP: the complete guide to digitize the management of your educational center"
+seoTitle: "School ERP: a guide to digitising your school's management"
 date: "2026-02-28"
 translationKey: "erp-escolar-guia-digitalizacion"
 description: "A school ERP integrates the administrative, financial and academic management of an educational center into a single platform."
@@ -14,7 +15,6 @@ relatedPosts:
     - school-management-software-comparison-spain-2026
     - school-software-purchase-checklist-2026
     - best-school-management-software
-    - choosing-school-management-software
 faqs:
     - question: "Does a school ERP replace several systems?"
       answer: "Yes. A well-chosen school ERP can replace spreadsheets, siled billing software, scattered communication tools, and some of your records management. The goal is to have a unified core."

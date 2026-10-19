@@ -1,4 +1,5 @@
 ---
+import { BRAND_LOGOS } from "@/data/brandLogos";
 import { LOGO_PATH, LOGO_VIEWBOX } from "@/lib/brand";
 import type { Translation } from "@/i18n";
 
@@ -17,21 +18,21 @@ const { t } = Astro.props;
 const { logos } = t.integrationsSection;
 
 const inner = [
-    { src: "https://sinapsis.agency/uploads/images/2026/01/696c9f0aa8cff_c0ca1cb7.png", alt: logos.whatsapp },
-    { src: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg", alt: logos.gmail },
+    { src: BRAND_LOGOS.whatsapp.src, alt: logos.whatsapp },
+    { src: BRAND_LOGOS.gmail.src, alt: logos.gmail },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Calendar_icon_%282020%29.svg",
+        src: BRAND_LOGOS.googleCalendar.src,
         alt: logos.googleCalendar,
     },
 ];
 const outer = [
-    { src: "https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg", alt: logos.slack },
+    { src: BRAND_LOGOS.slack.src, alt: logos.slack },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Google_Classroom_Logo.svg/960px-Google_Classroom_Logo.svg.png",
+        src: BRAND_LOGOS.googleClassroom.src,
         alt: logos.salesforce,
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg/960px-Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg.png?_=20251003204701",
+        src: BRAND_LOGOS.outlook.src,
         alt: logos.outlook,
     },
     {

@@ -1,8 +1,9 @@
 ---
 title: "Phones in school: writing the device policy the law is about to require"
+seoTitle: "Phones in school: writing the device policy the law requires"
 date: "2026-08-14"
 translationKey: "politica-uso-dispositivos-moviles-centros-educativos-2026"
-description: "Spain's Digital Protection of Minors Act will require every school to regulate device use and raises the data consent age from 14 to 16. What the document must cover and how to get it signed by families."
+description: "Spain's Digital Protection of Minors Act will require schools to regulate devices. What the policy must cover and how to get families to sign it."
 tags: ["mobile devices", "child protection", "regulation", "school conduct", "consent"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?q=80&w=820&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

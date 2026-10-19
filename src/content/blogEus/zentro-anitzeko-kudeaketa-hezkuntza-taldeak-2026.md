@@ -1,5 +1,6 @@
 ---
 title: "Zentro anitzeko kudeaketa: nola zuzendu hainbat zentro sistema bakar batekin"
+seoTitle: "Zentro anitzeko kudeaketa: hainbat zentro, sistema bakarra"
 date: "2026-06-06"
 translationKey: "gestion-multisede-grupos-educativos-2026"
 description: "Nola kudeatu hezkuntza taldeak eta zentro anitzeko zentroak datu kontsolidatuekin, irizpide komunekin eta zentroko autonomiarekin, kaosa biderkatu gabe 2026an."

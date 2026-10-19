@@ -1,8 +1,9 @@
 ---
 title: "Ni un missatge a les onze de la nit: desconnexió digital i finestres de comunicació"
+seoTitle: "Desconnexió digital: finestres de comunicació amb famílies"
 date: "2026-08-20"
 translationKey: "desconexion-digital-comunicacion-centros-familias-2026"
-description: "França ja obliga a suspendre la difusió al programari escolar de 20:00 a 07:00 i els caps de setmana. Com fixar finestres de comunicació entre centre, famílies i docents sense perdre capacitat d'avís urgent."
+description: "França ja obliga a suspendre els enviaments del programari escolar de 20:00 a 07:00. Com fixar finestres de comunicació sense perdre els avisos urgents."
 tags:
     [
         "desconnexió digital",

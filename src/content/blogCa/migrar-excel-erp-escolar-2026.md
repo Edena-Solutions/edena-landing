@@ -2,7 +2,7 @@
 title: "Migrar d'Excel a un ERP escolar: guia sense perdre dades"
 date: "2026-05-27"
 translationKey: "migrar-excel-erp-escolar-2026"
-description: "Com migrar d'Excel a un ERP escolar pas a pas, sense perdre dades crítiques ni aturar la gestió del centre, el 2026."
+description: "Com migrar d'Excel a un ERP escolar pas a pas, sense perdre dades crítiques ni aturar la gestió del centre, i quan l'Excel ja és un risc."
 tags:
     [
         "migrar Excel a ERP",

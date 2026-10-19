@@ -1,8 +1,9 @@
 ---
 title: "Zer da SIS (Ikasleentzako Informazio Sistema) eta zergatik behar du zure hezkuntza zentroak 2026an?"
+seoTitle: "Zer da SIS bat (ikasleen informazio-sistema)?"
 date: "2026-02-27"
 translationKey: "sis-sistema-informacion-estudiantil-2026"
-description: "Hezkuntza araudiak, datuen babesak eta familiaren itxaropenek trazabilitatea, segurtasuna eta abiadura eskatzen dute."
+description: "Zer den ikasleen informazio-sistema (SIS), zergatik den zentroaren bizkarrezur digitala eta zergatik behar duen zure hezkuntza-zentroak 2026an."
 tags:
     - "SIS eskola"
     - "ikasleen informazio sistema"
@@ -14,7 +15,6 @@ relatedPosts:
     - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
     - software-aukera-egiaztapen-2026
     - onena-eskola-kudeaketa-softwarea
-    - eskola-kudeaketa-softwarea-aukeratzea
 faqs:
     - question: "Eskola SIS hezkuntza ERP berdina al da?"
       answer: "Ez guztiz. A SIS ikasleen informazioan zentratzen da (espedienteak, asistentzia, komunikazioa). Eskola ERP normalean fakturazioa, giza baliabideak, inbentarioa eta beste modulu batzuk ere sartzen dira. Plataforma askok SIS eta ERP soluzio bakarrean integratzen dituzte."

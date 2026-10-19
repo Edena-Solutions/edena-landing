@@ -2,7 +2,7 @@
 title: "Artificial intelligence in school administration"
 date: "2026-02-19"
 translationKey: "ia-gestion-escolar-casos-practicos"
-description: "Artificial intelligence in school management is not just a topic of debate: it is already applied in administrative tasks, in pattern detection and in decision support."
+description: "Artificial intelligence is already used in school management: administrative tasks, pattern detection and decision support. Practical cases."
 tags:
     - "AI school management"
     - "artificial intelligence"

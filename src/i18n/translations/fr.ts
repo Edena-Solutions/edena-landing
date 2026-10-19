@@ -726,7 +726,7 @@ export default {
             "Paiement par élève, sans frais d’ouverture ni engagement. À partir de 36 €/mois avec dossier numérique, présences et portail familles. Essai gratuit 30 jours.",
         faqsTitle: "Questions Fréquentes sur Edena | Gestion Scolaire",
         faqsDescription:
-            "Trouvez les réponses à vos questions sur les tarifs, les fonctionnalités, la migration des données, Verifactu et la sécurité. Tout ce qu’il faut savoir avant de choisir Edena pour votre établissement.",
+            "Réponses sur les tarifs, les fonctionnalités, la migration des données, Verifactu et la sécurité : tout savoir avant de choisir Edena pour votre établissement.",
         dashboardTitle: "Tableau de bord scolaire | Analytique en temps réel | Edena",
         dashboardDescription:
             "Présences, encaissements, inscriptions et communications dans un tableau de bord scolaire mis à jour en temps réel. Repérez les problèmes tôt et décidez.",
@@ -738,10 +738,10 @@ export default {
             "Appli scolaire gratuite pour familles et enseignants sur iOS et Android : notifications, photos sécurisées, signature de documents, notes et factures.",
         demoTitle: "Démo Gratuite du Logiciel de Gestion Scolaire | Edena",
         demoDescription:
-            "Une démo de 15 minutes, préparée pour votre école, votre crèche, votre académie ou votre groupe. Sans engagement.",
+            "Une démo d'Edena de 15 minutes, préparée avec les données d'un établissement comme le vôtre : école, crèche, académie ou groupe. Sans engagement.",
         financeTitle: "Facturation Scolaire | Verifactu et SEPA | Edena",
         financeDescription:
-            "Facturation scolaire automatique adaptée à Verifactu : reçus, prélèvements SEPA et suivi des impayés en temps réel. Votre équipe cesse de courir après les paiements.",
+            "Facturation scolaire automatique adaptée à Verifactu : reçus, prélèvements SEPA et suivi des impayés en temps réel, sans courir après les paiements.",
         guardiansTitle: "Portail familles pour écoles | Communication école-famille | Edena",
         guardiansDescription:
             "Offrez aux familles un accès en temps réel aux notes, présences, factures et actualités de l’établissement. Messagerie sécurisée et signature électronique de documents. Intégration des familles en quelques minutes.",
@@ -751,22 +751,22 @@ export default {
         centersTitle: "Plateforme Intégrale pour Établissements Scolaires | ERP Éducatif | Edena",
         centersDescription:
             "Logiciel de gestion complet pour établissements scolaires : facturation automatique, CRM d’inscriptions, communication familiale, présences numériques et dossiers. En place en deux semaines.",
-        crmTitle: "CRM Scolaire | Convertissez les Demandes en Inscriptions | Edena",
+        crmTitle: "CRM Scolaire | Demandes converties en inscriptions · Edena",
         crmDescription:
             "CRM scolaire pour les admissions : recevez les demandes depuis votre site, suivez chaque famille par étapes et transformez plus de demandes en inscriptions.",
         assignmentTitle: "Évaluations et Bulletins de Notes Automatiques | Edena",
         assignmentDescription:
             "Planifiez les devoirs, configurez les périodes d'évaluation et générez les bulletins automatiquement. Les familles voient les notes en temps réel.",
-        privacyTitle: "Politique de confidentialité | Logiciel de gestion scolaire Edena",
+        privacyTitle: "Confidentialité | Logiciel de gestion scolaire Edena",
         privacyDescription:
             "Comment Edena protège les données des élèves, des familles et des établissements : ce que nous traitons, pourquoi, combien de temps et vos droits.",
         deleteAccountTitle: "Supprimer le compte et les données | Edena",
         deleteAccountDescription:
             "Comment demander la suppression de votre compte et de vos données personnelles sur Edena, avec ou sans accès à l'application.",
-        termsTitle: "Conditions d’utilisation | Logiciel de gestion scolaire Edena",
+        termsTitle: "Conditions d’utilisation | Logiciel scolaire Edena",
         termsDescription:
             "Conditions d'utilisation d'Edena, la plateforme de gestion scolaire : souscription, offres et paiements, obligations des parties, données et assistance.",
-        cookiesTitle: "Politique relative aux cookies | Logiciel de gestion scolaire Edena",
+        cookiesTitle: "Politique de cookies | Logiciel de gestion scolaire Edena",
         cookiesDescription:
             "Quels cookies utilise le site d'Edena, à quoi ils servent, combien de temps ils durent et comment les accepter, les refuser ou modifier votre choix.",
         dpaTitle: "Accord de Traitement des Données (RGPD) | Edena",
@@ -780,7 +780,7 @@ export default {
             "Logiciel de gestion pour crèches et écoles maternelles : agenda numérique, communication quotidienne avec les familles, photos sécurisées et facturation.",
         schoolsTitle: "Logiciel pour Écoles | Gestion Scolaire et Verifactu | Edena",
         schoolsDescription:
-            "Logiciel de gestion pour écoles, de la maternelle au lycée : dossiers, notes, présences, facturation et communication avec les familles sur une seule plateforme.",
+            "Logiciel de gestion pour écoles, de la maternelle au lycée : dossiers, notes, présences, facturation et communication avec les familles au même endroit.",
         academiesTitle: "Logiciel pour Académies | Encaissements et CRM | Edena",
         academiesDescription:
             "Logiciel pour académies de langues, musique, danse et sport : paiements automatiques, CRM de prospection, suivi des présences et appli pour les familles.",
@@ -3498,7 +3498,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             ],
         },
         shop: {
-            metaTitle: "Boutique en Ligne pour Écoles | Uniformes et Fournitures | Edena",
+            metaTitle: "Boutique en Ligne pour Écoles | Uniformes · Edena",
             metaDescription:
                 "Vendez uniformes, fournitures et services depuis une boutique en ligne intégrée à l'appli de votre établissement. Paiements automatiques, sans frais cachés.",
             navTitle: "Shop",
@@ -4039,9 +4039,9 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         trademarks:
             "Les marques citées appartiennent à leurs propriétaires respectifs, qui ne sont pas associés à Edena et ne parrainent pas ce comparatif.",
         hub: {
-            metaTitle: "Edena vs alternatives : comparatif de logiciels scolaires | Edena",
+            metaTitle: "Edena vs alternatives : comparatif de logiciels scolaires",
             metaDescription:
-                "Edena face à TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia et Dinantia : 17 critères comparés avec des sources publiques. Chaque critère, avec sa source.",
+                "Edena face à TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia et Dinantia : 17 critères comparés, chacun avec sa source publique.",
             eyebrow: "Comparatif de logiciels scolaires",
             title: "Le dossier, la facture et l'avis, face à sept plateformes",
             description:
@@ -4454,7 +4454,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                 owner: "Groupe LiveKid | depuis 2022",
                 metaTitle: "Edena vs Dinantia : comparatif de communication scolaire",
                 metaDescription:
-                    "Edena face à Dinantia : communication avec les familles, gestion de l’établissement, facturation VERI*FACTU, CRM des admissions et prix. 17 critères, avec sources.",
+                    "Edena face à Dinantia : communication avec les familles, gestion de l’établissement, facturation VERI*FACTU, CRM des admissions et prix. 17 critères sourcés.",
                 headline: "La facture Verifactu et le dossier, à côté de l'inscription",
                 lead: "Dinantia couvre la communication avec les familles, le CRM des admissions et la boutique. Edena aussi, et il porte en plus le dossier, les factures VERI*FACTU et les prélèvements sur la même plateforme.",
                 wins: [

@@ -1,5 +1,6 @@
 ---
 title: "CRM scolaire : comment augmenter les inscriptions et convertir plus de demandes"
+seoTitle: "CRM scolaire : convertir plus de demandes en inscriptions"
 date: "2026-03-22"
 translationKey: "crm-escolar-matriculas-conversion-2026"
 description: "Guide CRM scolaire 2026 : étapes du pipeline, sources de leads, formulaires et métriques pour convertir plus de demandes en inscriptions confirmées."

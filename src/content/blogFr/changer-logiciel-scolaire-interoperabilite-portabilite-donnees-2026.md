@@ -1,8 +1,9 @@
 ---
 title: "Changer de logiciel scolaire sans perdre ses données : interopérabilité, API et portabilité"
+seoTitle: "Changer de logiciel scolaire sans perdre ses données"
 date: "2026-08-12"
 translationKey: "cambiar-software-escolar-interoperabilidad-portabilidad-datos-2026"
-description: "Les questions à poser par écrit avant de signer avec un éditeur de gestion scolaire : ce que vous exportez, sous quel format, ce qui s'intègre et ce qu'il advient de vos données le jour où vous partez."
+description: "Les questions à poser par écrit avant de signer avec un éditeur de gestion scolaire : export, format, intégrations et sort de vos données au départ."
 tags: ["interopérabilité", "portabilité des données", "API", "migration", "choix de logiciel"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1682145189653-bb0b79db3415?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

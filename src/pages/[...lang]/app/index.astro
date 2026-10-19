@@ -11,6 +11,7 @@ import ProductFaqs from "@/modules/product/ProductFaqs.astro";
 import AppScenes from "@/modules/product/scenes/AppScenes";
 import { productSceneLabels } from "@/modules/product/scenes/labels";
 import DownloadAppIcons from "@/components/DownloadAppIcons";
+import { appStoreLabels } from "@/i18n/nav-copy";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { intlLocaleForLang } from "@/lib/intl-locale";
@@ -100,7 +101,7 @@ const features = [
     >
         <AppScenes slot="left" client:visible scene="chat" labels={labels} locale={locale} />
         <div slot="right" class="flex w-full flex-col items-center gap-2">
-            <DownloadAppIcons lang={lang} quiet className="flex flex-col items-center" />
+            <DownloadAppIcons labels={appStoreLabels(t)} quiet className="flex flex-col items-center" />
             <AppScenes client:visible scene="stores" labels={labels} locale={locale} />
         </div>
     </ProductSplit>

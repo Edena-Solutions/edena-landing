@@ -1,5 +1,6 @@
 ---
 title: "Seguridad de datos en centros educativos: Protegiendo el futuro digital"
+seoTitle: "Seguridad de datos en centros educativos"
 date: "2025-01-25"
 translationKey: "seguridad-datos-centros-educativos"
 description: "En la era digital, los centros educativos manejan cantidades masivas de datos sensibles: información personal de estudiantes y familias, registros académicos."
@@ -21,7 +22,7 @@ faqs:
 
 <br>
 
-En la era digital, los centros educativos manejan cantidades masivas de datos sensibles: información personal de estudiantes y familias, registros académicos, datos financieros, y comunicaciones privadas. Esta digitalización, aunque necesaria para la modernización educativa, también presenta nuevos desafíte de seguridad que requieren atención inmediata y estrategias robustas de protección.
+En la era digital, los centros educativos manejan cantidades masivas de datos sensibles: información personal de estudiantes y familias, registros académicos, datos financieros, y comunicaciones privadas. Esta digitalización, aunque necesaria para la modernización educativa, también presenta nuevos desafíos de seguridad que requieren atención inmediata y estrategias robustas de protección.
 
 <br>
 
@@ -31,7 +32,7 @@ En la era digital, los centros educativos manejan cantidades masivas de datos se
 
 Los centros educativos se han convertido en objetivos atractivos para los ciberdelincuentes por varias razones. En primer lugar, manejan datos altamente sensibles de menores de edad, que son especialmente valiosos en el mercado negro. En segundo lugar, muchos centros educativos tienen presupuestos limitados para seguridad informática, lo que los hace vulnerables a ataques relativamente simples.
 
-Los incidentes de seguridad en el sector educativo han aumentado significativamente en los últimos añte. Desde ataques de ransomware que paralizan sistemas completos hasta filtraciones de datos que exponen información personal de miles de estudiantes, las consecuencias pueden ser devastadoras tanto para el centro como para las familias afectadas.
+Los incidentes de seguridad en el sector educativo han aumentado significativamente en los últimos años. Desde ataques de ransomware que paralizan sistemas completos hasta filtraciones de datos que exponen información personal de miles de estudiantes, las consecuencias pueden ser devastadoras tanto para el centro como para las familias afectadas.
 
 <br>
 
@@ -109,7 +110,7 @@ El plan debe incluir roles y responsabilidades específicos, procedimientos de c
 
 <br>
 
-Las nuevas tecnologías como la inteligencia artificial, el aprendizaje automático, y el Internet de las Cosas están transformando la educación, pero también presentan nuevos desafíte de seguridad. Los dispositivos IoT en las aulas pueden crear puntos de entrada adicionales para los atacantes.
+Las nuevas tecnologías como la inteligencia artificial, el aprendizaje automático, y el Internet de las Cosas están transformando la educación, pero también presentan nuevos desafíos de seguridad. Los dispositivos IoT en las aulas pueden crear puntos de entrada adicionales para los atacantes.
 
 La IA y el aprendizaje automático pueden ser utilizados tanto para mejorar la seguridad como para facilitar ataques más sofisticados. Los centros educativos deben evaluar cuidadosamente los riesgos y beneficios de estas tecnologías antes de implementarlas.
 
@@ -139,7 +140,7 @@ Los centros educativos también deberán adaptarse a nuevas normativas y estánd
 
 <br>
 
-El centro educativo es responsable del tratamiento de datos de alumnos y familias. El proveedor de software actúa como encargado: debe ofrecer contrato de encargo de tratamiento, registro de actividades, cifrado en tránsito y reposo, y subprocesadores documentados. Para menores de 14 añte, el consentimiento de madre, padre o tutor es central en la mayoría de tratamientos.
+El centro educativo es responsable del tratamiento de datos de alumnos y familias. El proveedor de software actúa como encargado: debe ofrecer contrato de encargo de tratamiento, registro de actividades, cifrado en tránsito y reposo, y subprocesadores documentados. Para menores de 14 años, el consentimiento de madre, padre o tutor es central en la mayoría de tratamientos.
 
 Ante una brecha de seguridad, el plazo de notificación a la AEPD puede ser de 72 horas. Sin procedimiento escrito, registro de accesos y formación anual al personal, el cumplimiento en papel no aguanta una auditoría real. Migrar de hojas de cálculo compartidas a plataforma con roles elimina copias de listados en emails internos, uno de los vectores de riesgo más frecuentes.
 

@@ -1,8 +1,9 @@
 ---
 title: "Gestion des documents numériques : l'avenir de l'administration scolaire"
+seoTitle: "Gestion documentaire numérique de l'administration scolaire"
 date: "2025-01-18"
 translationKey: "gestion-documental-digital-centros"
-description: "La gestion traditionnelle des documents dans les établissements scolaires est depuis des décennies un processus manuel, sujet aux erreurs et extrêmement inefficace."
+description: "Depuis des décennies, la gestion documentaire des établissements est manuelle, sujette aux erreurs et peu efficace. Comment la passer au numérique."
 tags:
     - "documents"
     - "numérique"

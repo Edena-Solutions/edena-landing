@@ -1,8 +1,9 @@
 ---
 title: "Plan DigEdu 2026: transformación digital en la educación en España"
+seoTitle: "Plan DigEdu 2026: la digitalización educativa en España"
 date: "2026-01-08"
 translationKey: "plan-digedu-digitalizacion-educacion-2026"
-description: "Con el inicio de 2026, el Plan de Digitalización y Competencias Digitales del Sistema Educativo (Plan #DigEdu) se consolida como la iniciativa más ambiciosa de digitalización educativa en la historia de España."
+description: "Qué es el Plan #DigEdu, el plan de digitalización y competencias digitales del sistema educativo, y qué supone en 2026 para colegios y docentes."
 tags:
     [
         "Plan DigEdu",

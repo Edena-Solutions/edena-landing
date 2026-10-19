@@ -1,8 +1,9 @@
 ---
 title: "Cómo elegir software para una escuela infantil o guardería en 2026"
+seoTitle: "Cómo elegir software para una escuela infantil o guardería"
 date: "2026-07-08"
 translationKey: "elegir-software-escuela-infantil-guarderia-2026"
-description: "Guía práctica para elegir el software de gestión de tu escuela infantil o guardería en 2026: agenda digital, comunicación con familias, facturación y qué preguntar antes de firmar."
+description: "Guía para elegir el software de tu escuela infantil o guardería: agenda digital, comunicación con familias, facturación y qué preguntar antes de firmar."
 tags:
     [
         "software escuela infantil",

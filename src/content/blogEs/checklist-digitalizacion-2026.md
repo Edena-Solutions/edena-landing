@@ -2,7 +2,7 @@
 title: "Checklist de digitalización 2026 para tu centro educativo"
 date: "2026-02-24"
 translationKey: "checklist-digitalizacion-2026"
-description: "La digitalización de centros educativos en 2026 no es solo tecnología: es revisar procesos, datos y canales con las familias para ganar eficiencia y cumplimiento."
+description: "Checklist para digitalizar un centro educativo en 2026: revisar procesos, datos y canales con las familias para ganar eficiencia y cumplimiento."
 tags: ["digitalización centros educativos 2026", "checklist", "modernización", "procesos"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -77,7 +77,7 @@ Integrar facturación electrónica si aún no está resuelto. Implantar o reforz
 <br>
 
 - ¿Existe un canal único (portal o app) donde las familias consultan circulares, recibos y avisos?
-- ¿Puedes segmentar envíte por etapa, servicio o condición (p. ej. impagos)?
+- ¿Puedes segmentar envíos por etapa, servicio o condición (p. ej. impagos)?
 - ¿Las familias reciben notificaciones importantes (pago, ausencias) por un canal que consultan a diario?
 - ¿Hay plantillas para circulares y recordatorios y un criterio de qué se envía por cada canal?
 

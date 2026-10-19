@@ -1,5 +1,6 @@
 ---
 title: "School CRM: How to Increase Enrollment and Convert More Applications"
+seoTitle: "School CRM: convert more applications into enrollments"
 date: "2026-03-24"
 translationKey: "crm-escolar-matriculas-conversion-2026"
 description: "A school CRM is not a “commercial extra” for centers that want to appear modern: it is the antidote to enrollment that goes cold on a plate."

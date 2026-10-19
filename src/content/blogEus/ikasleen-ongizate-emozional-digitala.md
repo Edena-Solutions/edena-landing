@@ -1,8 +1,9 @@
 ---
 title: "Ikasleen ongizate emozionala aro digitalean: Estrategiak eta tresnak"
+seoTitle: "Ikasleen ongizate emozionala aro digitalean"
 date: "2025-08-30"
 translationKey: "bienestar-emocional-estudiantes-digitales"
-description: "Aldaketa teknologiko bizkorrek, presio akademiko areagotuek, etengabeko konektibitateak eta belaunaldi digitalen erronka sozial bereziek erronka berriak sortu dituzte ikasleen osasun mentalerako."
+description: "Konektibitate etengabeak, presio akademikoak eta erronka sozial berriek ikasleen ongizatean eragiten dute. Hori zaintzeko estrategiak eta tresnak."
 tags:
     - "bienestar emocional"
     - "salud mental"

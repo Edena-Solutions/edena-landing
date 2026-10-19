@@ -1,8 +1,9 @@
 ---
 title: "Digitalizazioa ikastetxeetan: hezkuntza-softwarea ezartzerakoan ikastetxeek egiten dituzten 7 akats"
+seoTitle: "Hezkuntza-softwarea ezartzean egiten diren 7 akats"
 date: "2026-03-05"
 translationKey: "errores-digitalizacion-colegios-software"
-description: "Hezkuntza digitalizazioa aurrera doa, baina zentro askok emaitzak atzeratzen dituzten akatsak egiten dituzte, erresistentzia sortzen dute edo inbertsioa xahutzen dute."
+description: "Digitalizazioa aurrera doa, baina zentro askok emaitzak atzeratzen dituzten, erresistentzia sortzen duten edo inbertsioa xahutzen duten akatsak egiten dituzte."
 tags:
     - "hezkuntzaren digitalizazioa"
     - "eskoletarako softwarea"
@@ -14,7 +15,6 @@ relatedPosts:
     - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
     - software-aukera-egiaztapen-2026
     - onena-eskola-kudeaketa-softwarea
-    - eskola-kudeaketa-softwarea-aukeratzea
 faqs:
     - question: "Zenbat denbora behar da hezkuntza digitalizazioaren emaitzak ikusteko?"
       answer: "Prozesuaren araberakoa da. Fakturazioek eta abisuak asteetan eragina izan dezakete. Eskoletan digitalizazio osoa egonkortzeko hilabete batzuk behar izan ditzake. Faseka neurtzea."

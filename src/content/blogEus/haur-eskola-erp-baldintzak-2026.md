@@ -16,7 +16,6 @@ relatedPosts:
     - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
     - software-aukera-egiaztapen-2026
     - onena-eskola-kudeaketa-softwarea
-    - eskola-kudeaketa-softwarea-aukeratzea
 faqs:
     - question: "Verifactu derrigorrezkoa al da dagoeneko haur eskoletarako?"
       answer: "Obligazioa eta egutegia zerga-araudiak eta ezarpen-egutegiak zehazten ditu; Kontsultatu zure zerga aholkulariarekin. Hornitzaileari eskatu behar diozuena argitasuna da fakturazio elektronikoa nola onartzen duen, zein epeetan eta trantsiziorako zer laguntza eskaintzen duen."

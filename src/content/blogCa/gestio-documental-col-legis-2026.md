@@ -1,5 +1,6 @@
 ---
 title: "Gestió documental a col·legis: adéu al paper i als expedients perduts"
+seoTitle: "Gestió documental a col·legis: expedients sense paper"
 date: "2026-04-01"
 translationKey: "gestion-documental-colegios-expediente-digital-2026"
 description: "Un expedient extraviat no és un inconvenient menor: implica risc legal, retard en comitès, queixes i hores de secretaria buscant l'últim correu."
@@ -21,7 +22,7 @@ faqs:
     - question: "Podem exigir a les famílies que pugin documents al portal en lloc de portar-los en paper?"
       answer: "Sí, amb transició. Requereix comunicació clara, guia de càrrega, alternativa per a famílies amb poca competència digital i acord intern sobre què passa si el document arriba en paper. No és un decret: és un canvi de procés que necessita acompanyament."
     - question: "Com gestionar un document que ja no es pot compartir per GDPR?"
-      answer: "Amb el criteri del teu DPO: baixa lògica o física en el termini definit, amb registre de lacció. La plataforma facilita l'accés i el control, però la decisió de què esborrar i quan la pren el responsable del tractament del centre, no pas el programari."
+      answer: "Amb el criteri del teu DPO: baixa lògica o física en el termini definit, amb registre de l'acció. La plataforma facilita l'accés i el control, però la decisió de què esborrar i quan la pren el responsable del tractament del centre, no pas el programari."
     - question: "Què passa amb els documents quan un alumne es dóna de baixa o es trasllada?"
       answer: "Depèn de la teva política i de la normativa aplicable: alguns documents es traslladen amb l'expedient, altres s'arxiven pel període legal i després es destrueixen. Defineix el protocol abans que passi la primera baixa, no després."
     - question: "El mòdul Cloud de Edena serveix també per a documents de l'equip docent?"
@@ -32,7 +33,7 @@ faqs:
 
 <br>
 
-Un expedient extraviat no és un inconvenient menor: implica risc legal, retard en comitès, queixes i dotzenes d'hores de secretaria rastrejant "qui tenia el darrer correu." El 2026, la gestió documental en col·legis, escoles bressol i acadèmies no consisteix a escanejar i guardar: exigeix ​​permisos clars, traces de lectura quan escau, visibilitat per curs, grup o alumne, un cicle definit de baixa o arxiu, i alineació amb el GDPR. Aquesta darrera part (base legal, retenció, accés, destrucció) la defineix el teu DPO o assessor; el programari facilita estructura i controls daccés, no reemplaça el criteri normatiu. Edena inclou, a la plataforma base, l'expedient digital i organigrama del centre. Amb el mòdul Cloud, afegeix documentació al núvol, carpetes i visibilitat per grup o alumne, tal com descriu el catàleg públic de mòduls. Res d'inventar funcionalitats: el valor és connectar expedient, famílies, facturació i captació en un únic criteri de dada, sense caixes de WeTransfer ni versions "v4_final_definitiva" al correu.
+Un expedient extraviat no és un inconvenient menor: implica risc legal, retard en comitès, queixes i dotzenes d'hores de secretaria rastrejant "qui tenia el darrer correu." El 2026, la gestió documental en col·legis, escoles bressol i acadèmies no consisteix a escanejar i guardar: exigeix ​​permisos clars, traces de lectura quan escau, visibilitat per curs, grup o alumne, un cicle definit de baixa o arxiu, i alineació amb el GDPR. Aquesta darrera part (base legal, retenció, accés, destrucció) la defineix el teu DPO o assessor; el programari facilita estructura i controls d'accés, no reemplaça el criteri normatiu. Edena inclou, a la plataforma base, l'expedient digital i organigrama del centre. Amb el mòdul Cloud, afegeix documentació al núvol, carpetes i visibilitat per grup o alumne, tal com descriu el catàleg públic de mòduls. Res d'inventar funcionalitats: el valor és connectar expedient, famílies, facturació i captació en un únic criteri de dada, sense caixes de WeTransfer ni versions "v4_final_definitiva" al correu.
 
 <br>
 
@@ -72,7 +73,7 @@ La plataforma base inclou expedient digital (dades de l'alumne, historial, organ
 
 <br>
 
-Setmana 1: inventari de tipus de documents, responsables, terminis de retenció, qui pot accedir a què i com es gestiona la baixa o el trasllat. Setmana 2: càrrega pilot amb un curs o grup, validació de criteri de qualitat (llegibilitat, metadades, categoria). Setmana 3: formació de lequip, comunicació a famílies sobre el portal i càrrega guiada. Setmana 4: extensió i revisió. Acceptar un pla híbrid és honest on la regulació o la pràctica encara requereix signatura física o document en paper, amb data compromesa de tancament daquesta excepció.
+Setmana 1: inventari de tipus de documents, responsables, terminis de retenció, qui pot accedir a què i com es gestiona la baixa o el trasllat. Setmana 2: càrrega pilot amb un curs o grup, validació de criteri de qualitat (llegibilitat, metadades, categoria). Setmana 3: formació de l'equip, comunicació a famílies sobre el portal i càrrega guiada. Setmana 4: extensió i revisió. Acceptar un pla híbrid és honest on la regulació o la pràctica encara requereix signatura física o document en paper, amb data compromesa de tancament d'aquesta excepció.
 
 <br>
 
@@ -92,7 +93,7 @@ Setmana 1: inventari de tipus de documents, responsables, terminis de retenció,
 
 <br>
 
-Setembre és el mes on la càrrega documental es dispara: altes, contractes, autoritzacions, certificats mèdics, formularis dAMPA, fotos de carnet. Un sistema ordenat absorbeix aquest bec amb càrrega progressiva en fases prèvies, en lloc de col·lapsar secretaria el primer dia. En admissió, el CRM amb estats i fases evita que un expedient quedi en llimbs per falta d'annex, amb alerta a la plataforma per a la família i per a l'equip. En inspeccions, la traçabilitat esborra el “hauria d'estar en algun lloc” i permet mostrar amb exactitud què es va comunicar, quan ia qui.
+Setembre és el mes on la càrrega documental es dispara: altes, contractes, autoritzacions, certificats mèdics, formularis d'AMPA, fotos de carnet. Un sistema ordenat absorbeix aquest bec amb càrrega progressiva en fases prèvies, en lloc de col·lapsar secretaria el primer dia. En admissió, el CRM amb estats i fases evita que un expedient quedi en llimbs per falta d'annex, amb alerta a la plataforma per a la família i per a l'equip. En inspeccions, la traçabilitat esborra el “hauria d'estar en algun lloc” i permet mostrar amb exactitud què es va comunicar, quan ia qui.
 
 <br>
 

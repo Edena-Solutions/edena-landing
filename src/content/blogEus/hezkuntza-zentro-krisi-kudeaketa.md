@@ -1,8 +1,9 @@
 ---
 title: "Krisiak kudeatzea hezkuntza-zentroetan: Jarraipenerako protokoloak eta estrategiak"
+seoTitle: "Krisien kudeaketa hezkuntza-zentroetan: protokoloak"
 date: "2025-08-01"
 translationKey: "gestion-crisis-centros-educativos"
-description: "Egungo hezkuntza-ingurunean, zentroek prestatuta egon behar dute jarduera akademikoak eten eta ikasleen eta langileen segurtasuna arriskuan jar dezaketen ustekabeko krisiei aurre egiteko."
+description: "Nola prestatu hezkuntza-zentro bat jarduera eten edo ikasle eta langileak arriskuan jar ditzaketen ustekabeko krisietarako: protokoloak eta jarraipena."
 tags:
     - "gestión de crisis"
     - "protocolos"

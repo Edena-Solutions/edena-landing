@@ -1,5 +1,6 @@
 ---
 title: "Digital document management: the future of school administration"
+seoTitle: "Digital document management in school administration"
 date: "2025-01-18"
 translationKey: "gestion-documental-digital-centros"
 description: "Traditional document management in educational centers has been a manual, error-prone and extremely inefficient process for decades."

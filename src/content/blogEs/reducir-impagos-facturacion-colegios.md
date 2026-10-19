@@ -1,5 +1,6 @@
 ---
 title: "Cómo reducir los impagos y mejorar la facturación en centros educativos"
+seoTitle: "Cómo reducir los impagos en centros educativos"
 date: "2026-03-03"
 translationKey: "reducir-impagos-facturacion-colegios"
 description: "Recibos con el concepto y la fecha de cargo claros, recordatorios solo a quien debe y un panel semanal de deuda por curso."

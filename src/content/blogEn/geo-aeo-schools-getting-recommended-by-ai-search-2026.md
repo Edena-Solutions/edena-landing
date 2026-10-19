@@ -1,8 +1,9 @@
 ---
 title: "Getting ChatGPT to recommend your school: a GEO and AEO guide for education"
+seoTitle: "Getting ChatGPT to recommend your school: GEO and AEO"
 date: "2026-08-24"
 translationKey: "geo-aeo-colegios-aparecer-buscadores-ia-2026"
-description: "AI-assisted search went from 5% to 21% in two years. How to get an assistant to cite your school when a family asks about schools in your area: consistent entity data, structured markup and citable content."
+description: "How to get an AI assistant to cite your school when a family asks about schools nearby: consistent entity data, structured markup and citable content."
 tags: ["GEO", "AEO", "education marketing", "SEO", "student recruitment"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1703022943822-0a1fa10cee23?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

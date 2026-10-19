@@ -25,14 +25,14 @@ faqs:
     - question: "Les xarxes socials influeixen en el SEO?"
       answer: "Indirectament: no ranquegen la web, però el trànsit i la marca ajuden. Enfoca't primer a la web ia la fitxa de Google; les xarxes són complement."
     - question: "He de contractar una agència per a SEO per a centres educatius?"
-      answer: "Depèn del temps intern. Moltes tasques (estructura de pàgines, fitxa Google, contingut bàsic) les pot fer lequip amb una guia; per a estratègia avançada o enllaços externs pot ser útil una agència amb experiència en educació."
+      answer: "Depèn del temps intern. Moltes tasques (estructura de pàgines, fitxa Google, contingut bàsic) les pot fer l'equip amb una guia; per a estratègia avançada o enllaços externs pot ser útil una agència amb experiència en educació."
 ---
 
 <strong>Guia SEO per a centres educatius: com aparèixer a Google quan les famílies busquen escola</strong>
 
 <br>
 
-Quan les famílies busquen col·legi, guarderia o centre de formació, solen començar a Google. El SEO per a centres educatius consisteix a alinear la teva web i els teus continguts amb aquestes cerques per aparèixer amb autoritat i captar sol·licituds dinformació o visites. No substitueix el boca-orella, però el complementa i escala.
+Quan les famílies busquen col·legi, guarderia o centre de formació, solen començar a Google. El SEO per a centres educatius consisteix a alinear la teva web i els teus continguts amb aquestes cerques per aparèixer amb autoritat i captar sol·licituds d'informació o visites. No substitueix el boca-orella, però el complementa i escala.
 
 <br>
 
@@ -84,7 +84,7 @@ Articles o seccions sobre "com triar col·legi", "què preguntar en una visita",
 
 <br>
 
-Tenir perfil a Google Business (i mantenir-lo actualitzat: adreça, telèfon, horaris, fotos) ajuda a aparèixer a cerques locals. Les valoracions de famílies, gestionades amb serietat, reforcen la confiança. Inclou a la teva estratègia de SEO per a centres educatius loptimització daquesta fitxa.
+Tenir perfil a Google Business (i mantenir-lo actualitzat: adreça, telèfon, horaris, fotos) ajuda a aparèixer a cerques locals. Les valoracions de famílies, gestionades amb serietat, reforcen la confiança. Inclou a la teva estratègia de SEO per a centres educatius l'optimització d'aquesta fitxa.
 
 <br>
 
@@ -92,7 +92,7 @@ Tenir perfil a Google Business (i mantenir-lo actualitzat: adreça, telèfon, ho
 
 <br>
 
-Una web lenta o mal adaptada a mòbil perjudica la posició i lexperiència. Revisa càrrega d'imatges, ús de la memòria cau i disseny responsive. El SEO per a centres educatius tècnic sol ser la base abans dinvertir molt en contingut.
+Una web lenta o mal adaptada a mòbil perjudica la posició i l'experiència. Revisa càrrega d'imatges, ús de la memòria cau i disseny responsive. El SEO per a centres educatius tècnic sol ser la base abans d'invertir molt en contingut.
 
 <br>
 
@@ -100,7 +100,7 @@ Una web lenta o mal adaptada a mòbil perjudica la posició i lexperiència. Rev
 
 <br>
 
-Un col·legi d'una ciutat mitjana va crear pàgines per etapa i per “col·legi bilingüe [ciutat]”; en sis mesos va augmentar les sol·licituds dinformació des de la web. Una escola bressol va optimitzar la seva fitxa de Google i les fotos d'instal·lacions; va millorar les visites al perfil i les trucades des de "guarderia [zona]".
+Un col·legi d'una ciutat mitjana va crear pàgines per etapa i per “col·legi bilingüe [ciutat]”; en sis mesos va augmentar les sol·licituds d'informació des de la web. Una escola bressol va optimitzar la seva fitxa de Google i les fotos d'instal·lacions; va millorar les visites al perfil i les trucades des de "guarderia [zona]".
 
 <br>
 
@@ -108,7 +108,7 @@ Un col·legi d'una ciutat mitjana va crear pàgines per etapa i per “col·legi
 
 <br>
 
-- Copiar textos genèrics daltres centres i no diferenciar oferta i ubicació.
+- Copiar textos genèrics d'altres centres i no diferenciar oferta i ubicació.
 - Tindre una sola pàgina per a tot el centre sense desglossament per etapa o servei.
 - Descuidar la fitxa de Google (dades desactualitzades, sense fotos recents).
 - Oblidar el mòbil o deixar la web lenta per imatges sense optimitzar.

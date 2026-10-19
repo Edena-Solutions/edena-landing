@@ -1,8 +1,9 @@
 ---
 title: "Eskola softwarea aldatzea datuak galdu gabe: elkarreragingarritasuna, APIak eta eramangarritasuna"
+seoTitle: "Eskola-softwarea aldatzea datuak galdu gabe"
 date: "2026-08-12"
 translationKey: "cambiar-software-escolar-interoperabilidad-portabilidad-datos-2026"
-description: "Eskola kudeaketa hornitzaile batekin sinatu aurretik idatziz egin beharreko galderak: zer esportatzen duzun, zein formaturekin, zer integratzen duen eta zer gertatzen den zure datuekin joaten zaren egunean."
+description: "Hornitzaile batekin sinatu aurretik idatziz egin beharreko galderak: zer esporta dezakezun, zein formatutan, zer integratzen duen eta zer gertatzen den joatean."
 tags:
     [
         "elkarreragingarritasuna",

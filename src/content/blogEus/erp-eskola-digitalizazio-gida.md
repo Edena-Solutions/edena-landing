@@ -1,5 +1,6 @@
 ---
 title: "Eskola ERP: zure hezkuntza zentroaren kudeaketa digitalizatzeko gida osoa"
+seoTitle: "Eskola ERPa: zentroaren kudeaketa digitalizatzeko gida"
 date: "2026-02-28"
 translationKey: "erp-escolar-guia-digitalizacion"
 description: "ERP ikastetxe batek hezkuntza-zentro baten kudeaketa administratiboa, finantzarioa eta akademikoa plataforma bakar batean integratzen ditu."
@@ -14,7 +15,6 @@ relatedPosts:
     - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
     - software-aukera-egiaztapen-2026
     - onena-eskola-kudeaketa-softwarea
-    - eskola-kudeaketa-softwarea-aukeratzea
 faqs:
     - question: "ERP ikastetxe batek hainbat sistema ordezkatzen al ditu?"
       answer: "Bai. Ongi aukeratutako eskola ERP kalkulu-orriak, fakturazio-softwarea, sakabanatuta dauden komunikazio-tresnak eta zure erregistroen kudeaketa batzuk ordezka ditzake. Helburua muin bateratua izatea da."

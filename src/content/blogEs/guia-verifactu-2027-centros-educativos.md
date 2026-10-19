@@ -1,8 +1,9 @@
 ---
 title: "Guía Verifactu 2027 para centros educativos: plazos, obligaciones y cómo prepararse"
+seoTitle: "Guía Verifactu 2027 para centros educativos"
 date: "2026-07-23"
 translationKey: "guia-verifactu-2027-centros-educativos"
-description: "Guía práctica de Verifactu para colegios, escuelas infantiles y academias: qué exige el RD 1007/2023, los plazos definitivos de 2027, sanciones y checklist para llegar a tiempo."
+description: "Qué exige el RD 1007/2023 a colegios, escuelas infantiles y academias, los plazos definitivos de 2027, las sanciones y un checklist para llegar a tiempo."
 tags:
     [
         "Verifactu",

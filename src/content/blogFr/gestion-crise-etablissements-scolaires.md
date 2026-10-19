@@ -1,5 +1,6 @@
 ---
 title: "Gestion de crise dans les établissements scolaires : protocoles et stratégies de continuité"
+seoTitle: "Gestion de crise à l'école : protocoles et continuité"
 date: "2025-08-01"
 translationKey: "gestion-crisis-centros-educativos"
 description: "Une gestion efficace des crises est devenue une compétence essentielle pour les directeurs et administrateurs pédagogiques."

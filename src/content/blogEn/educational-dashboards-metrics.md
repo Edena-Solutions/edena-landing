@@ -1,8 +1,9 @@
 ---
 title: "Educational dashboards to improve academic and financial metrics"
+seoTitle: "Educational dashboards for academic and financial metrics"
 date: "2026-02-27"
 translationKey: "dashboards-educativos-metricas"
-description: "An educational dashboard concentrates key management indicators in a single view: collection, retention, attendance, occupation and, if applicable, academic results."
+description: "An educational dashboard brings key indicators into one view: collections, retention, attendance, occupancy and, where relevant, academic results."
 tags:
     - "educational metrics dashboard"
     - "data"

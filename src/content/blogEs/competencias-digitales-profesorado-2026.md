@@ -1,5 +1,6 @@
 ---
 title: "Competencias Digitales del Profesorado en 2026: Más de 661.000 Docentes Certificados"
+seoTitle: "Competencia digital docente 2026: 661.000 certificados"
 date: "2026-01-10"
 translationKey: "competencias-digitales-profesorado-2026"
 description: "El Marco de Referencia de la Competencia Digital Docente, actualizado en 2022 y alineado con el marco europeo #DigCompEdu."
@@ -190,11 +191,11 @@ Estas metodologías, cuando son implementadas por profesores competentes digital
 
 <br>
 
-<strong>Desafíte y oportunidades para los centros educativos</strong>
+<strong>Desafíos y oportunidades para los centros educativos</strong>
 
 <br>
 
-Aunque la certificación masiva del profesorado es un logro extraordinario, también presenta desafíte y oportunidades para los centros educativos. Los centros deben asegurar que tienen la infraestructura tecnológica necesaria para que los profesores certificados puedan aplicar sus competencias.
+Aunque la certificación masiva del profesorado es un logro extraordinario, también presenta desafíos y oportunidades para los centros educativos. Los centros deben asegurar que tienen la infraestructura tecnológica necesaria para que los profesores certificados puedan aplicar sus competencias.
 
 Esto incluye:
 

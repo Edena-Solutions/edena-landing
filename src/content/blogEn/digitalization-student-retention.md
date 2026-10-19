@@ -2,7 +2,7 @@
 title: "Impact of digitalization on student retention"
 date: "2026-02-07"
 translationKey: "digitalizacion-retencion-alumnos"
-description: "School retention does not depend only on the educational project: administrative experience and communication with families directly influence whether they renew or look for another option."
+description: "Administrative experience and communication with families influence whether they renew their enrolment or look elsewhere. How to get them right."
 tags:
     - "school retention"
     - "digitization"

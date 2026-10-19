@@ -1,5 +1,6 @@
 ---
-title: "Gestió documental digital: el futur de ladministració escolar"
+title: "Gestió documental digital: el futur de l'administració escolar"
+seoTitle: "Gestió documental digital a l'administració escolar"
 date: "2025-01-18"
 translationKey: "gestion-documental-digital-centros"
 description: "La gestió documental tradicional a centres educatius ha estat durant dècades un procés manual, propens a errors i extremadament ineficient."
@@ -22,7 +23,7 @@ faqs:
       answer: "Consulteu tipus de document; moltes autoritzacions escolars admeten signatura simple amb traçabilitat."
 ---
 
-<strong>Gestió documental digital: el futur de ladministració escolar</strong>
+<strong>Gestió documental digital: el futur de l'administració escolar</strong>
 
 <br>
 
@@ -60,7 +61,7 @@ Els documents digitalitzats s'emmagatzemen al núvol amb múltiples capes de seg
 
 La gestió documental digital redueix dràsticament el temps necessari per trobar, processar i compartir documents. Els usuaris poden accedir a la informació que necessiten en segons, sense importar on es trobin.
 
-Els sistemes digitals proporcionen auditories completes daccés, compliment amb normatives de protecció de dades, i protecció contra pèrdua o deteriorament de documents.
+Els sistemes digitals proporcionen auditories completes d'accés, compliment amb normatives de protecció de dades, i protecció contra pèrdua o deteriorament de documents.
 
 La digitalització elimina la necessitat de paper, reduint l'impacte ambiental i els costos associats amb la impressió i l'emmagatzematge físic.
 
@@ -76,17 +77,17 @@ La implementació reeixida requereix una planificació acurada que inclogui l'av
 
 El procés de digitalització ha de ser sistemàtic i organitzat, prioritzant documents crítics i establint estàndards de qualitat per a la conversió digital.
 
-El personal ha de rebre formació completa sobre lús del nou sistema i les millors pràctiques per a la gestió documental digital.
+El personal ha de rebre formació completa sobre l'ús del nou sistema i les millors pràctiques per a la gestió documental digital.
 
 <br>
 
-<strong>Casos dèxit en gestió documental digital</strong>
+<strong>Casos d'èxit en gestió documental digital</strong>
 
 <br>
 
 Els centres educatius que implementen sistemes de gestió documental digital solen assolir resultats extraordinaris. El temps dedicat a cerques de documents es redueix dràsticament, i la satisfacció del personal augmenta significativament.
 
-Molts centres utilitzen la gestió documental digital com a part duna iniciativa més àmplia de transformació digital, millorant leficiència operativa de manera notable.
+Molts centres utilitzen la gestió documental digital com a part d'una iniciativa més àmplia de transformació digital, millorant l'eficiència operativa de manera notable.
 
 <br>
 
@@ -130,7 +131,7 @@ Autoritzacions d'imatge, sortides escolars i consentiments sanitaris amb traçab
 
 <br>
 
-Contracte de serveis i domiciliació SEPA vinculats a lexpedient familiar. Un sol lloc de debò.
+Contracte de serveis i domiciliació SEPA vinculats a l'expedient familiar. Un sol lloc de debò.
 
 <br>
 

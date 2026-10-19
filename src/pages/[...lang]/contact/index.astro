@@ -24,7 +24,7 @@ const t = translations[lang as keyof typeof translations];
     <PageHero title={t.contact.title} description={t.contact.description} />
     <section class="ds-section pt-12 sm:pt-16">
         <div class="ds-container" data-reveal="rise">
-            <ContactForm client:load lang={lang} formspreeUrl={"https://formspree.io/f/mykbqoeq"} />
+            <ContactForm client:load copy={t.contact} formspreeUrl={"https://formspree.io/f/mykbqoeq"} />
         </div>
     </section>
     <ClosingCta lang={lang} />

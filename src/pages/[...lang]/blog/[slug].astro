@@ -123,7 +123,7 @@ const byEna = /^ena\b/i.test(author);
 
 <Layout
     content={{
-        title: post.data.title,
+        title: post.data.seoTitle ?? post.data.title,
         description: post.data.description,
         articleAuthor: post.data.author || "Edena Team",
         articlePublishedTime: publishedDate,

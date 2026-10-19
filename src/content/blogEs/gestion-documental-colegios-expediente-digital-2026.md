@@ -1,5 +1,6 @@
 ---
 title: "Gestión documental en colegios: adiós al papel y a los expedientes perdidos"
+seoTitle: "Gestión documental en colegios: expedientes sin papel"
 date: "2026-04-01"
 translationKey: "gestion-documental-colegios-expediente-digital-2026"
 description: "Un expediente extraviado no es un inconveniente menor: implica riesgo legal, retraso en comités, quejas y horas de secretaría buscando el último correo."

@@ -1,5 +1,6 @@
 ---
 title: "Dashboards educatius per millorar mètriques acadèmiques i financeres"
+seoTitle: "Dashboards educatius: mètriques acadèmiques i financeres"
 date: "2026-02-27"
 translationKey: "dashboards-educativos-metricas"
 description: "Un dashboard educatiu concentra en una sola vista indicadors clau de gestió: cobrament, retenció, assistència, ocupació i, si escau, resultats acadèmics."
@@ -23,7 +24,7 @@ faqs:
     - question: "Les mètriques acadèmiques i les financeres poden estar al mateix dashboard?"
       answer: "Sí, en una vista de direcció. L'important és no barrejar gran nivell de detall operatiu (llista d'impagaments) amb indicadors estratègics (taxa de retenció) a la mateixa pantalla per a la mateixa persona."
     - question: "Amb quina freqüència cal actualitzar un dashboard educatiu?"
-      answer: "Depèn de lindicador. Cobrament i alertes poden ser en temps real o diari; ocupació i retenció solen ser setmanals o mensuals. El més crític és que l'actualització sigui automàtica des del sistema."
+      answer: "Depèn de l'indicador. Cobrament i alertes poden ser en temps real o diari; ocupació i retenció solen ser setmanals o mensuals. El més crític és que l'actualització sigui automàtica des del sistema."
     - question: "Com evitem que l'equip ignori el dashboard?"
       answer: "Vinculant-ne l'ús a rutines (reunió setmanal de direcció, revisió d'impagaments cada dilluns) i prenent decisions visibles a partir de les dades. Si ningú no actua, el dashboard educatiu perd sentit."
 ---
@@ -92,7 +93,7 @@ Un dashboard educatiu orientat a direcció sol incloure almenys estat de cobrame
 
 <br>
 
-<strong>Mètriques docupació i retenció</strong>
+<strong>Mètriques d'ocupació i retenció</strong>
 
 <br>
 
@@ -130,7 +131,7 @@ Aquestes mètriques en un dashboard educatiu ajuden a anticipar ingressos i prio
 
 <br>
 
-taxa dassistència per grup o centre, alumnes amb X faltes (risc dabsentisme).
+taxa d'assistència per grup o centre, alumnes amb X faltes (risc d'absentisme).
 
 <br>
 
@@ -138,7 +139,7 @@ taxa dassistència per grup o centre, alumnes amb X faltes (risc dabsentisme).
 
 <br>
 
-envieu realitzats, taxes dobertura o lectura si el canal ho permet.
+envieu realitzats, taxes d'obertura o lectura si el canal ho permet.
 
 <br>
 

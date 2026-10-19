@@ -1,5 +1,6 @@
 ---
 title: "Gestión del transporte escolar: rutas, control y cobros sin papeleo"
+seoTitle: "Gestión del transporte escolar: rutas, control y cobros"
 date: "2026-06-03"
 translationKey: "gestion-transporte-escolar-rutas-2026"
 description: "Cómo digitalizar el transporte escolar: rutas, listas de paradas, control de subida y bajada y cobros automatizados, con tranquilidad para las familias en 2026."

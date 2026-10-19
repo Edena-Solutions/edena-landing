@@ -1,5 +1,6 @@
 ---
 title: "Komunikazio instituzionala familiekin: Aro digitalerako estrategiak"
+seoTitle: "Familiekiko komunikazio instituzionala: estrategiak"
 date: "2025-03-10"
 translationKey: "comunicacion-familias-era-digital"
 description: "Ikasi hezkuntza-zentroen eta familien arteko harremana sendotzen duten erakunde-komunikazio estrategia eraginkorrak nola garatu."

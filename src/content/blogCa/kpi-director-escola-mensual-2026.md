@@ -2,7 +2,7 @@
 title: "KPIs que tot director de col·legi hauria de mesurar cada mes"
 date: "2026-04-16"
 translationKey: "kpis-director-colegio-mensual-2026"
-description: "Un director de col·legi, guarderia o acadèmia sense indicadors treballa amb impressions."
+description: "Els indicadors que un director de col·legi, llar d'infants o acadèmia hauria de revisar cada mes per deixar de decidir per intuïció i reaccionar a temps."
 tags:
     - "KPIs director col·legi"
     - "indicadors gestió escolar"
@@ -24,8 +24,8 @@ faqs:
       answer: "Els financers (cobrament, impagaments, reconciliació) al tancament mensual i amb alerta setmanal si hi ha llindars de risc. Els de matrícula i captació en obertura i tancament de període. Els de comunicació i famílies mensualment. No feu reunions de KPIs sense acció vinculada: és el camí més ràpid perquè l'equip deixi d'usar-los."
     - question: "Els KPIs de Edena són configurables o són els que marca la plataforma?"
       answer: "L'analítica de centre a la plataforma base inclou indicadors de cobraments, matrícula, places i famílies. El nivell de personalització depèn del mòdul contractat i de la configuració acordada a la implantació. Pregunta a la demo quins indicadors estan disponibles sense configuració addicional i quins requereixen treball extra."
-    - question: "Què diferencia un bon KPI duna vanity metric en educació?"
-      answer: "Un bon KPI dispara una acció si supera o baixa dun llindar: taxa de cobrament del 80% → activar segon avís automàtic. Una vanity metric mostra un número que no canvia la decisió: nombre total de missatges enviats aquest mes. Si la dada no mou cap agulla, no és un KPI, és un informe dactivitat."
+    - question: "Què diferencia un bon KPI d'una vanity metric en educació?"
+      answer: "Un bon KPI dispara una acció si supera o baixa d'un llindar: taxa de cobrament del 80% → activar segon avís automàtic. Una vanity metric mostra un número que no canvia la decisió: nombre total de missatges enviats aquest mes. Si la dada no mou cap agulla, no és un KPI, és un informe d'activitat."
     - question: "Com evitar que el comitè mensual es converteixi en debat de definicions?"
       answer: "Acorda per escrit, abans del primer comitè, la definició exacta de cada indicador: què inclou, què exclou, de quina font surt, amb quina periodicitat s'actualitza i qui n'és responsable. Amb aquest acord sobre la taula, el comitè comença a les accions. Sense ell, cada reunió obre el mateix debat."
 ---
@@ -42,7 +42,7 @@ Un director de col·legi, guarderia o acadèmia sense indicadors treballa amb im
 
 <br>
 
-El nombre dalumnes actius és una dada destat, no un KPI accionable. La ràtio de places ocupades sobre capacitat total sí que ho és: si està per sota del teu llindar de rendibilitat, és un senyal de captació o de baixa que necessita anàlisi. La diferència entre vanity metrics i KPIs accionables és si la dada indica què fer, no només com estàs. Abans de fixar el quadre de comandament, recorda amb el teu equip: quin indicador, quin llindar et preocupa, qui és propietari de l'indicador i quina acció dispara. Amb això, el comitè mensual comença a les accions, no al debat de definicions.
+El nombre d'alumnes actius és una dada d'estat, no un KPI accionable. La ràtio de places ocupades sobre capacitat total sí que ho és: si està per sota del teu llindar de rendibilitat, és un senyal de captació o de baixa que necessita anàlisi. La diferència entre vanity metrics i KPIs accionables és si la dada indica què fer, no només com estàs. Abans de fixar el quadre de comandament, recorda amb el teu equip: quin indicador, quin llindar et preocupa, qui és propietari de l'indicador i quina acció dispara. Amb això, el comitè mensual comença a les accions, no al debat de definicions.
 
 <br>
 
@@ -73,8 +73,8 @@ El nombre dalumnes actius és una dada destat, no un KPI accionable. La ràtio d
 <br>
 
 - **Ràtio d'incidències resoltes sense contacte extern:** quantes sol·licituds de famílies es van resoldre automàticament (portal, app, resposta automàtica) sense intervenció de secretaria. Mesura l'eficiència de l'autoservei.
-- **Temps dobertura de lexpedient:** quant triga a estar complet l'expedient d'un alumne nou des de la primera sol·licitud. Si supereu dues setmanes, hi ha un coll d'ampolla de documentació.
-- **Satisfacció de lequip en administració:** no és un KPI financer, però un equip cremat amb tasques repetitives abaixa el nivell de servei. Una enquesta trimestral de dues preguntes és suficient.
+- **Temps d'obertura de l'expedient:** quant triga a estar complet l'expedient d'un alumne nou des de la primera sol·licitud. Si supereu dues setmanes, hi ha un coll d'ampolla de documentació.
+- **Satisfacció de l'equip en administració:** no és un KPI financer, però un equip cremat amb tasques repetitives abaixa el nivell de servei. Una enquesta trimestral de dues preguntes és suficient.
 
 <br>
 
@@ -120,7 +120,7 @@ Si el quadre de comandament no és a la reunió mensual, no existeix. El dashboa
 <br>
 
 - **Minuts 0-10 (caixa i morositat):** Taxa de cobrament, antiguitat mitjana d'impagaments, import en móra >30 dies. Una acció si hi ha KPI en vermell.
-- **Minuts 10-20 (ocupació i baixes):** Places ocupades, baixes previstes, llista despera. Revisar si hi ha curs amb absentisme anòmal.
+- **Minuts 10-20 (ocupació i baixes):** Places ocupades, baixes previstes, llista d'espera. Revisar si hi ha curs amb absentisme anòmal.
 - **Minuts 20-30 (admissió i operació):** Pipeline de sol·licituds, conversió del mes, incidències de comunicació. Tancar amb responsable i data per acció acordada.
 
 <br>

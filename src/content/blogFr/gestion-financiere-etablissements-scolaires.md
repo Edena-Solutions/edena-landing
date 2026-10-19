@@ -1,8 +1,9 @@
 ---
 title: "Gestion financière intelligente pour les établissements scolaires"
+seoTitle: "Gestion financière intelligente des établissements"
 date: "2025-02-10"
 translationKey: "gestion-financiera-centros-educativos"
-description: "La gestion financière dans les établissements scolaires a considérablement évolué ces dernières années."
+description: "Gestion financière des établissements : flux de trésorerie, prévisions par année scolaire et reporting au propriétaire, avec les indicateurs à suivre."
 tags:
     - "finance"
     - "gestion"

@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 
 import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
+import sitemapLastmod from './integrations/sitemap-lastmod.mjs';
 
 export default defineConfig({
     site: 'https://edena.es',
@@ -25,6 +26,14 @@ export default defineConfig({
         '/en/blog/verifactu-education-integration': '/en/blog/verifactu-2027-guide-schools/',
         '/fr/blog/verifactu-integration-education': '/fr/blog/guide-verifactu-2027-etablissements/',
         '/eus/blog/verifactu-hezkuntza-integrazioa': '/eus/blog/verifactu-2027-gida-ikastetxeak/',
+        // Merged: two posts per language answered the same question with the same title. The newer
+        // one stays, with the older one's five steps and FAQs folded into it.
+        '/blog/elegir-software-gestion-escolar': '/blog/mejor-software-gestion-escolar/',
+        '/es/blog/elegir-software-gestion-escolar': '/blog/mejor-software-gestion-escolar/',
+        '/en/blog/choosing-school-management-software': '/en/blog/best-school-management-software/',
+        '/ca/blog/triar-programari-gestio-escolar': '/ca/blog/millor-programari-gestio-escolar/',
+        '/fr/blog/choisir-logiciel-gestion-scolaire': '/fr/blog/meilleur-logiciel-gestion-scolaire/',
+        '/eus/blog/eskola-kudeaketa-softwarea-aukeratzea': '/eus/blog/onena-eskola-kudeaketa-softwarea/',
     },
     // NOTE: Astro's built-in i18n routing was removed on purpose. Locales are
     // fully hand-rolled via [...lang] routes + literal locale dirs; the old
@@ -35,5 +44,5 @@ export default defineConfig({
             noExternal: ["gsap"]
         }
     },
-    integrations: [react()]
+    integrations: [react(), sitemapLastmod()]
 });

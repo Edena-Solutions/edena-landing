@@ -1,5 +1,6 @@
 ---
 title: "Eficiencia operativa en centros educativos: Optimizando recursos con tecnología"
+seoTitle: "Eficiencia operativa en centros educativos con tecnología"
 date: "2024-11-15"
 translationKey: "eficiencia-operativa-centros-educativos"
 description: "Descubre cómo la tecnología puede transformar las operaciones de los centros educativos, reduciendo costos y mejorando la calidad del servicio."
@@ -31,7 +32,7 @@ Los centros educativos enfrentan constantemente el desafío de hacer más con me
 
 Los centros educativos tradicionalmente han operado con procesos manuales y sistemas fragmentados que consumen tiempo valioso y recursos limitados. Desde la gestión administrativa hasta la comunicación con familias, muchos procesos siguen siendo ineficientes y propensos a errores.
 
-Los desafíte incluyen la duplicación de tareas administrativas, la falta de integración entre sistemas, la comunicación ineficiente con las familias, y la dificultad para obtener insights sobre el rendimiento operativo. Estos problemas no solo aumentan los costos, sino que también reducen la calidad de la experiencia educativa.
+Los desafíos incluyen la duplicación de tareas administrativas, la falta de integración entre sistemas, la comunicación ineficiente con las familias, y la dificultad para obtener insights sobre el rendimiento operativo. Estos problemas no solo aumentan los costos, sino que también reducen la calidad de la experiencia educativa.
 
 <br>
 

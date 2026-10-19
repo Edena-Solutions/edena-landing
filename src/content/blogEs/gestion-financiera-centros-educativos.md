@@ -32,15 +32,15 @@ faqs:
 
 Flujo de caja, previsión por curso, reporting para propietario. KPIs en <a href="/es/blog/kpis-director-colegio-mensual-2026">KPIs director mensual</a>.
 
-La gestión financiera en centros educativos ha evolucionado significativamente en los últimos añte. De los tradicionales libros de contabilidad en papel y hojas de cálculo básicas, hemos pasado a sistemas integrados que no solo automatizan procesos, sino que también proporcionan insights valiosos para la toma de decisiones estratégicas. Esta transformación digital está permitiendo a los centros educativos optimizar sus recursos, mejorar la transparencia y garantizar su sostenibilidad financiera.
+La gestión financiera en centros educativos ha evolucionado significativamente en los últimos años. De los tradicionales libros de contabilidad en papel y hojas de cálculo básicas, hemos pasado a sistemas integrados que no solo automatizan procesos, sino que también proporcionan insights valiosos para la toma de decisiones estratégicas. Esta transformación digital está permitiendo a los centros educativos optimizar sus recursos, mejorar la transparencia y garantizar su sostenibilidad financiera.
 
 <br>
 
-<strong>Los desafíte de la gestión financiera tradicional</strong>
+<strong>Los desafíos de la gestión financiera tradicional</strong>
 
 <br>
 
-Los centros educativos tradicionalmente han enfrentado múltiples desafíte en su gestión financiera. La fragmentación de datos entre diferentes sistemas, la falta de visibilidad en tiempo real sobre la situación financiera, y la dependencia de procesos manuales propensos a errores han sido obstáculos constantes para una gestión eficiente.
+Los centros educativos tradicionalmente han enfrentado múltiples desafíos en su gestión financiera. La fragmentación de datos entre diferentes sistemas, la falta de visibilidad en tiempo real sobre la situación financiera, y la dependencia de procesos manuales propensos a errores han sido obstáculos constantes para una gestión eficiente.
 
 Los directores financieros de centros educativos deben gestionar múltiples fuentes de ingresos: matrículas, actividades extraescolares, servicios complementarios, y subvenciones. Cada fuente tiene sus propios ciclos de facturación, métodos de pago, y requisitos de reporting, lo que complica significativamente la gestión.
 
@@ -110,7 +110,7 @@ La integración con el sistema de comunicación permite enviar notificaciones pe
 
 <br>
 
-El Colegio San Ignacio de Bilbao implementó un sistema de gestión financiera digital hace dos añte y los resultados han sido extraordinarios. El tiempo dedicado a la gestión de facturación se redujo en un 70%, los retrasos en pagos disminuyeron en un 50%, y la satisfacción de las familias mejoró significativamente.
+El Colegio San Ignacio de Bilbao implementó un sistema de gestión financiera digital hace dos años y los resultados han sido extraordinarios. El tiempo dedicado a la gestión de facturación se redujo en un 70%, los retrasos en pagos disminuyeron en un 50%, y la satisfacción de las familias mejoró significativamente.
 
 El director financiero puede ahora generar reportes completos en minutos en lugar de días, y la dirección tiene acceso a información en tiempo real para la toma de decisiones estratégicas. El centro también ha podido optimizar sus recursos, resultando en un ahorro del 25% en costes operativos.
 

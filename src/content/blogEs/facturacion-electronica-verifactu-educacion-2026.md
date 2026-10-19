@@ -1,8 +1,9 @@
 ---
 title: "Facturación Electrónica y Verifactu en Educación 2026: Cumplimiento Normativo y Eficiencia"
+seoTitle: "Facturación electrónica y Verifactu en educación (2026)"
 date: "2026-01-15"
 translationKey: "facturacion-electronica-verifactu-educacion-2026"
-description: "El año 2026 marca un punto de inflexión en la gestión financiera de los centros educativos españoles."
+description: "Facturación electrónica y Verifactu de la AEAT en centros educativos: qué exige la normativa, qué plazos hay y cómo prepararse sin frenar la gestión."
 tags:
     [
         "facturación electrónica",

@@ -1,8 +1,9 @@
 ---
 title: "App per a famílies a escoles: avantatges reals per a direcció i pares"
+seoTitle: "App per a famílies a les escoles: avantatges reals"
 date: "2026-04-05"
 translationKey: "app-familias-colegios-ventajas-2026"
-description: "Una app i un portal no són un adorn d'imatge: són el canal on dates, pagaments, avisos i documents conviuen amb traces."
+description: "Una app i un portal per a famílies són el canal on conviuen dates, pagaments, avisos i documents amb traçabilitat. Avantatges per a direcció i pares."
 tags:
     - "app famílies escola"
     - "portal educatiu"
@@ -42,7 +43,7 @@ Una app i un portal no són un adorn d'imatge: són el canal on dates, pagaments
 
 <br>
 
-L'adreça no necessita llegir tots els missatges del dia; sí que necessita saber si els canals crítics (cobraments, documentació urgent, circulars legals) arriben a les famílies i es llegeixen. Amb analítica de centre a la plataforma base i, si contractes Pro, dades d'obertura i confirmació de lectura, el comitè deixa de debatre “crec que ho enviem” i passa a treballar amb xifres. El criteri de tancament és clar: quina taxa dobertura en avisos de pagament justifica una escalada, quina confirmació de signatura en una circular obliga a un segon canal, sense dependre del record de ningú.
+L'adreça no necessita llegir tots els missatges del dia; sí que necessita saber si els canals crítics (cobraments, documentació urgent, circulars legals) arriben a les famílies i es llegeixen. Amb analítica de centre a la plataforma base i, si contractes Pro, dades d'obertura i confirmació de lectura, el comitè deixa de debatre “crec que ho enviem” i passa a treballar amb xifres. El criteri de tancament és clar: quina taxa d'obertura en avisos de pagament justifica una escalada, quina confirmació de signatura en una circular obliga a un segon canal, sense dependre del record de ningú.
 
 <br>
 
@@ -58,7 +59,7 @@ Pagar, consultar l'expedient, signar una autorització, notificar una absència 
 
 <br>
 
-La comunicació bàsica de la plataforma cobreix gran part de les necessitats amb missatge senzill, baixa freqüència i sense segmentació fina. És suficient si els grups són homogenis, la càrrega de missatges és moderada i el risc de “no llegit” en un avís legal és tolerable amb un segon canal de suport. Pro convé quan hi ha alta freqüència, molts grups diferents (curs, aula, activitat, menjador), missatges legals o de cobrament que necessiten confirmació de recepció, o quan el centre necessita arribar a famílies en temps real davant d'una incidència greu. No compris Pro i ho deixis buit: el mòdul necessita disciplina dús, plantilles, responsable de missatge i criteri de freqüència, o es converteix en soroll.
+La comunicació bàsica de la plataforma cobreix gran part de les necessitats amb missatge senzill, baixa freqüència i sense segmentació fina. És suficient si els grups són homogenis, la càrrega de missatges és moderada i el risc de “no llegit” en un avís legal és tolerable amb un segon canal de suport. Pro convé quan hi ha alta freqüència, molts grups diferents (curs, aula, activitat, menjador), missatges legals o de cobrament que necessiten confirmació de recepció, o quan el centre necessita arribar a famílies en temps real davant d'una incidència greu. No compris Pro i ho deixis buit: el mòdul necessita disciplina d'ús, plantilles, responsable de missatge i criteri de freqüència, o es converteix en soroll.
 
 <br>
 
@@ -66,7 +67,7 @@ La comunicació bàsica de la plataforma cobreix gran part de les necessitats am
 
 <br>
 
-Una app que només mou missatges és un xat escolar amb logotip. La diferència real és que l'avís de cobrament, la confirmació de matrícula o la càrrega d'un document viuen al mateix sistema que el rebut, l'estat de l'expedient i el pipeline del CRM. Així, secretaria no resol un "no sé què passa amb la meva matrícula" rebotant entre quatre pestanyes: la resposta és a la mateixa plataforma. Quan el mòdul de facturació, el CRM i el portal de famílies comparteixen criteri de dades, el tutor experimenta coherència i lequip treballa amb la meitat de fricció interna.
+Una app que només mou missatges és un xat escolar amb logotip. La diferència real és que l'avís de cobrament, la confirmació de matrícula o la càrrega d'un document viuen al mateix sistema que el rebut, l'estat de l'expedient i el pipeline del CRM. Així, secretaria no resol un "no sé què passa amb la meva matrícula" rebotant entre quatre pestanyes: la resposta és a la mateixa plataforma. Quan el mòdul de facturació, el CRM i el portal de famílies comparteixen criteri de dades, el tutor experimenta coherència i l'equip treballa amb la meitat de fricció interna.
 
 <br>
 

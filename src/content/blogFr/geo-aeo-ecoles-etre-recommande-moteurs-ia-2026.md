@@ -1,8 +1,9 @@
 ---
 title: "Faire que ChatGPT recommande votre établissement : guide GEO et AEO pour l'éducation"
+seoTitle: "Faire recommander votre école par ChatGPT : GEO et AEO"
 date: "2026-08-24"
 translationKey: "geo-aeo-colegios-aparecer-buscadores-ia-2026"
-description: "Le recours à l'IA pour chercher est passé de 5 % à 21 % en deux ans. Comment amener un assistant à citer votre établissement quand une famille cherche une école de votre secteur : entité cohérente, données structurées, contenu citable."
+description: "Comment amener un assistant d'IA à citer votre établissement quand une famille cherche une école près de chez elle : entité cohérente, données structurées."
 tags: ["GEO", "AEO", "marketing éducatif", "SEO", "recrutement d'élèves"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1703022943822-0a1fa10cee23?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

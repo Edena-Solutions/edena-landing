@@ -1,5 +1,6 @@
 ---
 title: "Compétences numériques des enseignants en 2026 : plus de 661 000 enseignants certifiés"
+seoTitle: "Compétences numériques des enseignants : 661 000 certifiés"
 date: "2026-01-10"
 translationKey: "competencias-digitales-profesorado-2026"
 description: "Le Référentiel de référence des compétences pédagogiques numériques, mis à jour en 2022 et aligné sur le cadre européen #DigCompEdu."

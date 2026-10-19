@@ -2,7 +2,7 @@
 title: "Data protection in the digital management of schools"
 date: "2026-02-14"
 translationKey: "proteccion-datos-escuela-digital"
-description: "The digital management of an educational center involves processing data of students, families and staff."
+description: "What processing student, family and staff data means for a school's digital management: responsibilities, risks and the measures to take."
 tags:
     - "data protection digital school"
     - "GDPR"

@@ -20,10 +20,10 @@ relatedPosts:
 faqs:
     - question: "Les 15 hores són reals per a un col·legi petit de menys de 100 alumnes?"
       answer: "Sí, encara que el desglossament canvia. A centres petits, el temps es perd més en tasques manuals de cobrament i comunicació un per un. Un pilot d‟automatització de rebuts i un formulari de matrícula digital pot recuperar entre sis i deu hores setmanals en dos mesos, depenent del volum i la disciplina d‟ús."
-    - question: "Necessito tots els mòduls per veure lestalvi?"
+    - question: "Necessito tots els mòduls per veure l'estalvi?"
       answer: "No. Comença amb el bloc que genera més fricció: si són els cobraments, el mòdul de facturació. Si és la matrícula, el CRM amb formularis. Si és la comunicació, avalua si la bàsica és suficient abans de contractar Pro. L'estalvi apareix quan es tanca el canal paral·lel, no quan s'acumulen mòduls."
     - question: "Quant de temps triga l'equip a adaptar-se al canvi?"
-      answer: "Entre dues i sis setmanes depenent de la freqüència dús i la formació. Els equips que tenen un responsable intern designat i una guia senzilla dús quotidià sadapten molt més ràpid que els que arrenquen sols. Edena inclou onboarding i suport 24/7 per acompanyar aquesta transició."
+      answer: "Entre dues i sis setmanes depenent de la freqüència d'ús i la formació. Els equips que tenen un responsable intern designat i una guia senzilla d'ús quotidià sadapten molt més ràpid que els que arrenquen sols. Edena inclou onboarding i suport 24/7 per acompanyar aquesta transició."
     - question: "¿L'estalvi de temps implica reduir personal?"
       answer: "No necessàriament. A la major part dels centres, el temps recuperat es redirigeix ​​cap a atenció de qualitat a famílies, projectes de millora o captació. L'eficiència no és excusa per reduir plantilla: és argument per fer una feina més útil i menys repetitiva."
     - question: "Com convenço la direcció que la inversió compensa?"
@@ -42,7 +42,7 @@ Quinze hores a la setmana equivalen a gairebé dues jornades laborals completes.
 
 <br>
 
-Abans de comprar res, feu l'inventari. Seu amb el teu equip de secretaria i anota, sense filtrar, quant de temps dediquen cada setmana a: respondre preguntes d'estat de matrícula o cobrament que el sistema podria respondre sol; perseguir documentació que les famílies ja van lliurar però no apareix; reconciliar cobraments al banc amb rebuts a la plataforma o el full; preparar llistats dalumnes per a un servei extern; actualitzar dos o tres sistemes diferents amb la mateixa informació; i enviar recordatoris de pagament un per un. A la majoria dels centres, aquests sis blocs sumen entre dotze i vint hores setmanals de treball que no requereixen criteri humà avançat. Són tasques de procés, no de decisió.
+Abans de comprar res, feu l'inventari. Seu amb el teu equip de secretaria i anota, sense filtrar, quant de temps dediquen cada setmana a: respondre preguntes d'estat de matrícula o cobrament que el sistema podria respondre sol; perseguir documentació que les famílies ja van lliurar però no apareix; reconciliar cobraments al banc amb rebuts a la plataforma o el full; preparar llistats d'alumnes per a un servei extern; actualitzar dos o tres sistemes diferents amb la mateixa informació; i enviar recordatoris de pagament un per un. A la majoria dels centres, aquests sis blocs sumen entre dotze i vint hores setmanals de treball que no requereixen criteri humà avançat. Són tasques de procés, no de decisió.
 
 <br>
 
@@ -74,7 +74,7 @@ Si cada tutor gestiona les comunicacions de la seva aula en un grup de WhatsApp 
 
 <br>
 
-El temps que la secretaria perd buscant un document en armaris, correus o carpetes compartides de xarxa és invisible fins que es mesura. Amb expedient digital i, si escau, mòdul Cloud per a documentació, l'accés és immediat amb rol i traces. El benefici en pics dinspecció o en resposta a famílies que pregunten per lestat dautorització és especialment visible: dos clics en lloc de vint minuts de cerca.
+El temps que la secretaria perd buscant un document en armaris, correus o carpetes compartides de xarxa és invisible fins que es mesura. Amb expedient digital i, si escau, mòdul Cloud per a documentació, l'accés és immediat amb rol i traces. El benefici en pics d'inspecció o en resposta a famílies que pregunten per l'estat d'autorització és especialment visible: dos clics en lloc de vint minuts de cerca.
 
 <br>
 
@@ -90,7 +90,7 @@ Si direcció i administració no tenen les mateixes definicions d'”alumnes act
 
 <br>
 
-Abans d'implantació registra dues setmanes de les tasques enumerades a dalt amb temps real per tasca. Als noranta dies, repeteix el registre. La diferència és el teu retorn. Els centres que aborden cobraments, matrícula i comunicació en aquest termini solen documentar entre deu i setze hores setmanals recuperades. Si el nombre és menor, analitza quin procés segueix sense disciplina dús o té un canal paral·lel que no es va tancar.
+Abans d'implantació registra dues setmanes de les tasques enumerades a dalt amb temps real per tasca. Als noranta dies, repeteix el registre. La diferència és el teu retorn. Els centres que aborden cobraments, matrícula i comunicació en aquest termini solen documentar entre deu i setze hores setmanals recuperades. Si el nombre és menor, analitza quin procés segueix sense disciplina d'ús o té un canal paral·lel que no es va tancar.
 
 <br>
 

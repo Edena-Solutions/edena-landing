@@ -1,8 +1,9 @@
 ---
 title: "La experiencia de usuario: clave en la adopción de tecnología educativa"
+seoTitle: "Experiencia de usuario en la tecnología educativa"
 date: "2025-01-20"
 translationKey: "experiencia-usuario-tecnologia-educativa"
-description: "Descubre por qué la experiencia de usuario es fundamental para el éxito de la tecnología educativa y cómo diseñar soluciones que los usuarios realmente quieran usar."
+description: "Por qué la experiencia de usuario decide si la tecnología educativa se adopta, y cómo elegir herramientas que el equipo y las familias quieran usar."
 tags: ["UX", "experiencia", "tecnología", "educación"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -21,7 +22,7 @@ faqs:
 
 <br>
 
-La tecnología educativa ha avanzado significativamente en los últimos añte, pero el éxito de cualquier solución no depende únicamente de sus funcionalidades técnicas. La experiencia de usuario (UX) es el factor determinante que decide si una tecnología será adoptada y utilizada efectivamente por la comunidad educativa. Un software con excelentes funcionalidades pero una mala experiencia de usuario está condenado al fracaso.
+La tecnología educativa ha avanzado significativamente en los últimos años, pero el éxito de cualquier solución no depende únicamente de sus funcionalidades técnicas. La experiencia de usuario (UX) es el factor determinante que decide si una tecnología será adoptada y utilizada efectivamente por la comunidad educativa. Un software con excelentes funcionalidades pero una mala experiencia de usuario está condenado al fracaso.
 
 <br>
 

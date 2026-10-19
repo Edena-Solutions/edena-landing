@@ -1,8 +1,9 @@
 ---
 title: "Hezkuntza-lidergo eraldatzailea aro digitalean: gaitasunak eta estrategiak"
+seoTitle: "Hezkuntza-lidergoa aro digitalean: funtsezko gaitasunak"
 date: "2025-09-15"
 translationKey: "liderazgo-educativo-transformacional-digital"
-description: "ERP, familiaren aplikazio bat edo fitxategi digital bat ezartzeak ez du huts egiten softwareagatik bakarrik."
+description: "Digitalizazioak huts egiten du zuzendaritzak aldaketa iragartzen duenean administrazio-ordu gutxiago edo familiei erantzun hobea ekarri gabe."
 tags:
     - "liderazgo educativo"
     - "transformación digital"

@@ -1,5 +1,6 @@
 ---
-title: "Analítica del rendiment acadèmic: Dades per potenciar laprenentatge"
+title: "Analítica del rendiment acadèmic: Dades per potenciar l'aprenentatge"
+seoTitle: "Analítica del rendiment acadèmic en centres educatius"
 date: "2025-01-10"
 translationKey: "analitica-rendimiento-academico"
 description: "L'analítica educativa està canviant la manera com els centres gestionen l'aprenentatge i el desenvolupament dels estudiants."
@@ -24,7 +25,7 @@ faqs:
       answer: "Intervenció tutorial i recursos, no només més exàmens."
 ---
 
-<strong>Analítica del rendiment acadèmic: Dades per potenciar laprenentatge</strong>
+<strong>Analítica del rendiment acadèmic: Dades per potenciar l'aprenentatge</strong>
 
 <br>
 
@@ -42,7 +43,7 @@ L'analítica educativa està canviant la manera com els centres gestionen l'apre
 
 <br>
 
-Els indicadors acadèmics directes inclouen tendències en qualificacions per assignatura que revelen patrons de rendiment al llarg del temps. Els patrons d'errors en avaluacions proporcionen informació valuosa sobre les àrees que requereixen més atenció. El temps dedicat a tasques i exercicis indica el nivell de compromís i esforç de lestudiant. Finalment, el progrés en objectius daprenentatge específics permet avaluar si lestudiant està avançant cap a les metes establertes.
+Els indicadors acadèmics directes inclouen tendències en qualificacions per assignatura que revelen patrons de rendiment al llarg del temps. Els patrons d'errors en avaluacions proporcionen informació valuosa sobre les àrees que requereixen més atenció. El temps dedicat a tasques i exercicis indica el nivell de compromís i esforç de l'estudiant. Finalment, el progrés en objectius d'aprenentatge específics permet avaluar si l'estudiant està avançant cap a les metes establertes.
 
 <br>
 
@@ -72,7 +73,7 @@ Els sistemes poden ajustar automàticament la dificultat del contingut basant-se
 
 L´analítica pot identificar patrons que revelen l´estil d´aprenentatge preferit de cada estudiant. Alguns estudiants aprenen millor amb contingut visual, altres amb exercicis pràctics i altres amb explicacions verbals. Els sistemes poden adaptar la presentació del contingut segons aquestes preferències.
 
-Cada estudiant té un ritme daprenentatge únic. L'analítica permet identificar quan un estudiant està preparat per avançar i quan necessita més temps per consolidar conceptes. Aquesta optimització del ritme millora significativament la retenció i la comprensió.
+Cada estudiant té un ritme d'aprenentatge únic. L'analítica permet identificar quan un estudiant està preparat per avançar i quan necessita més temps per consolidar conceptes. Aquesta optimització del ritme millora significativament la retenció i la comprensió.
 
 <br>
 
@@ -84,7 +85,7 @@ L'analítica del rendiment acadèmic permet intervencions proactives que poden p
 
 Els sistemes poden configurar alertes personalitzades basades en múltiples criteris. Per exemple, si un estudiant que normalment obté bones qualificacions comença a mostrar un patró d'errors específics, el sistema pot alertar el professor per a una intervenció primerenca.
 
-L'analítica no sols identifica problemes, sinó que també suggereix intervencions específiques. Els sistemes poden recomanar recursos educatius addicionals, estratègies densenyament específics o suport emocional segons el patró identificat.
+L'analítica no sols identifica problemes, sinó que també suggereix intervencions específiques. Els sistemes poden recomanar recursos educatius addicionals, estratègies d'ensenyament específics o suport emocional segons el patró identificat.
 
 Els sistemes poden mesurar l'efectivitat de les intervencions, permetent als educadors ajustar les estratègies basant-se en dades reals. Aquesta retroalimentació continua millora la qualitat de les intervencions futures.
 
@@ -126,7 +127,7 @@ L'analítica del rendiment acadèmic facilita la col·laboració efectiva entre 
 
 Els professors poden accedir a una visió completa del rendiment de cada estudiant, incloent-hi patrons identificats per altres professors. Aquesta visió compartida permet intervencions coordinades i efectives.
 
-Els sistemes poden identificar quines estratègies són més efectives per a diferents tipus destudiants, facilitant lintercanvi de millors pràctiques entre educadors.
+Els sistemes poden identificar quines estratègies són més efectives per a diferents tipus d'estudiants, facilitant l'intercanvi de millors pràctiques entre educadors.
 
 Els educadors poden fer servir els insights de l'analítica per planificar intervencions col·laboratives que aborden múltiples aspectes del desenvolupament de l'estudiant.
 

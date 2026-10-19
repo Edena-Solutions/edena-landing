@@ -24,17 +24,15 @@ const lang = getLanguageFromURL(Astro.url.pathname);
 const translatePath = useTranslatedPath(lang);
 ---
 
-<section class="relative isolate -mt-15 overflow-x-clip pt-15">
+<section class="relative isolate -mt-15 overflow-x-clip py-15">
     <div class="ds-container flex flex-col items-center pt-14 text-center">
         <!-- What Edena is and who it is for comes first, inside the H1, for a visitor with no context. -->
         <h1 class="ds-intro max-w-3xl" style="--intro-i: 0">
-            <span class="mb-4 block type-callout font-semibold text-brand-ink">{t.hero.eyebrow}</span>
+            <span class="mb-4 block type-callout font-semibold text-brand-ink"
+                >{t.hero.eyebrow}</span
+            >
             <span class="block type-display-3 pb-2 text-gradient-ink">
-                {
-                    t.hero.mainTitle.split("\n").map((line) => (
-                        <span class="block">{line}</span>
-                    ))
-                }
+                {t.hero.mainTitle.split("\n").map((line) => <span class="block">{line}</span>)}
             </span>
         </h1>
         <p class="ds-intro type-body mt-5 max-w-2xl text-ink-2" style="--intro-i: 2">
@@ -69,15 +67,27 @@ const translatePath = useTranslatedPath(lang);
             aria-label={t.hero.pathsLabel}
             style="--intro-i: 5"
         >
-            <a class="hero-path type-callout" style="--path: var(--ds-sys-blue)" href={translatePath("/schools")}>
+            <a
+                class="hero-path type-callout"
+                style="--path: var(--ds-sys-blue)"
+                href={translatePath("/schools")}
+            >
                 <School aria-hidden="true" />
                 {t.navigation.schools}
             </a>
-            <a class="hero-path type-callout" style="--path: var(--ds-sys-pink)" href={translatePath("/nurseries")}>
+            <a
+                class="hero-path type-callout"
+                style="--path: var(--ds-sys-pink)"
+                href={translatePath("/nurseries")}
+            >
                 <Baby aria-hidden="true" />
                 {t.navigation.nurseries}
             </a>
-            <a class="hero-path type-callout" style="--path: var(--ds-sys-orange)" href={translatePath("/academies")}>
+            <a
+                class="hero-path type-callout"
+                style="--path: var(--ds-sys-orange)"
+                href={translatePath("/academies")}
+            >
                 <Landmark aria-hidden="true" />
                 {t.navigation.academies}
             </a>

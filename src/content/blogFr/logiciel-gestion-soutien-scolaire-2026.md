@@ -1,8 +1,9 @@
 ---
 title: "Logiciel de gestion pour académies de soutien scolaire et périscolaire"
+seoTitle: "Logiciel pour académies de soutien scolaire et périscolaire"
 date: "2026-05-13"
 translationKey: "software-gestion-academias-refuerzo-2026"
-description: "Ce dont a besoin un logiciel pour académie de soutien scolaire et périscolaire : horaires, présence, facturation par blocs et communication avec les familles en 2026."
+description: "Ce dont a besoin un logiciel pour académie de soutien scolaire et périscolaire : horaires, présences, facturation par blocs et lien avec les familles."
 tags:
     [
         "logiciel académie soutien scolaire",

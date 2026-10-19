@@ -1,5 +1,6 @@
 ---
 title: "Hezkuntza-zentroetako antolaketa-aldaketaren kudeaketa: eraldaketa arrakastatsurako estrategiak"
+seoTitle: "Aldaketaren kudeaketa hezkuntza-zentroetan: estrategiak"
 date: "2025-08-15"
 translationKey: "gestion-cambio-organizacional-educativo"
 description: "Ikasi hezkuntza-zentroetan antolaketa-aldaketa-prozesuak modu eraginkorrean kudeatzen eraldaketa arrakastatsuak eta iraunkorrak bermatzeko."

@@ -1,4 +1,5 @@
 ---
+import { BRAND_LOGOS } from "@/data/brandLogos";
 import { LOGO_PATH, LOGO_VIEWBOX } from "@/lib/brand";
 import SectionHeader from "@/components/ds/SectionHeader.astro";
 import RailPager from "@/components/ds/RailPager.astro";
@@ -21,57 +22,57 @@ type Logo = { src: string; alt: string; invert?: boolean };
 
 const toolLogos: Logo[] = [
     {
-        src: "https://sinapsis.agency/uploads/images/2026/01/696c9f0aa8cff_c0ca1cb7.png",
+        src: BRAND_LOGOS.whatsapp.src,
         alt: problemSection.cards.tools.items[0],
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Calendar_icon_%282020%29.svg",
+        src: BRAND_LOGOS.googleCalendar.src,
         alt: problemSection.cards.tools.items[1],
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Google_Meet_icon_%282020%29.svg",
+        src: BRAND_LOGOS.googleMeet.src,
         alt: problemSection.cards.tools.items[2],
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Microsoft_Office_Teams_%282025%E2%80%93present%29.svg/500px-Microsoft_Office_Teams_%282025%E2%80%93present%29.svg.png",
+        src: BRAND_LOGOS.microsoftTeams.src,
         alt: problemSection.cards.tools.items[3],
     },
 ];
 const aiLogos: Logo[] = [
     {
-        src: "https://cdn.worldvectorlogo.com/logos/openai-2.svg",
+        src: BRAND_LOGOS.openai.src,
         alt: problemSection.cards.ai.items[0],
         invert: true,
     },
     {
-        src: "https://cdn.worldvectorlogo.com/logos/claude-logo.svg",
+        src: BRAND_LOGOS.claude.src,
         alt: problemSection.cards.ai.items[1],
     },
     {
-        src: "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.40.0/icons/gemini-color.svg",
+        src: BRAND_LOGOS.gemini.src,
         alt: problemSection.cards.ai.items[2],
     },
     {
         // The Wikipedia file this used to point at was deleted (404).
-        src: "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.40.0/icons/copilot-color.svg",
+        src: BRAND_LOGOS.copilot.src,
         alt: problemSection.cards.ai.items[3],
     },
 ];
 const financeLogos: Logo[] = [
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Microsoft_Office_Excel_%282019%E2%80%932025%29.svg/3840px-Microsoft_Office_Excel_%282019%E2%80%932025%29.svg.png",
+        src: BRAND_LOGOS.excel.src,
         alt: problemSection.cards.finance.items[0],
     },
     {
-        src: "https://www.neobis.es/wp-content/uploads/2025/04/Sage_Logo.png",
+        src: BRAND_LOGOS.sage.src,
         alt: problemSection.cards.finance.items[1],
     },
     {
-        src: "https://davizgonzalez.com/wp-content/uploads/2024/11/holded-logo.webp",
+        src: BRAND_LOGOS.holded.src,
         alt: problemSection.cards.finance.items[2],
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/330px-SAP_2011_logo.svg.png",
+        src: BRAND_LOGOS.sap.src,
         alt: problemSection.cards.finance.items[3],
     },
 ];
@@ -79,35 +80,35 @@ const financeLogos: Logo[] = [
 /** More SaaS brands in the converge scene only — the tiles above stay at four each. */
 const extraSaasLogos: Logo[] = [
     {
-        src: "https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg",
+        src: BRAND_LOGOS.slack.src,
         alt: problemSection.floatingExtras[0],
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg",
+        src: BRAND_LOGOS.gmail.src,
         alt: problemSection.floatingExtras[1],
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/1/11/Zoom_Logo_2022.svg",
+        src: BRAND_LOGOS.zoom.src,
         alt: problemSection.floatingExtras[2],
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+        src: BRAND_LOGOS.notion.src,
         alt: problemSection.floatingExtras[3],
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg",
+        src: BRAND_LOGOS.dropbox.src,
         alt: problemSection.floatingExtras[4],
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Asana_logo.svg",
+        src: BRAND_LOGOS.asana.src,
         alt: problemSection.floatingExtras[5],
     },
     {
-        src: "https://cdn.worldvectorlogo.com/logos/trello.svg",
+        src: BRAND_LOGOS.trello.src,
         alt: problemSection.floatingExtras[6],
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg/960px-Microsoft_Outlook_Icon_%282025%E2%80%93present%29.svg.png",
+        src: BRAND_LOGOS.outlook.src,
         alt: problemSection.floatingExtras[7],
     },
 ];

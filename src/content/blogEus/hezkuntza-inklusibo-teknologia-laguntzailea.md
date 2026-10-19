@@ -1,5 +1,6 @@
 ---
 title: "Hezkuntza inklusiboa eta laguntza-teknologia: guztientzako ikasgelak sortzea"
+seoTitle: "Hezkuntza inklusiboa eta laguntza-teknologia ikasgelan"
 date: "2025-08-05"
 translationKey: "educacion-inclusiva-tecnologia-asistiva"
 description: "Behar eta gaitasun anitzak dituzten ikasleen integrazio eraginkorrak metodologietatik haratago doazen ikuspegi berritzaileak eskatzen ditu."

@@ -1,5 +1,6 @@
 ---
 title: "Automatisation de la facturation scolaire : optimisez vos processus internes"
+seoTitle: "Automatisation de la facturation scolaire"
 date: "2025-01-15"
 translationKey: "automatizacion-facturacion-escolar"
 description: "La gestion de la facturation interne est l’un des processus les plus complexes et les plus sujets aux erreurs de tout établissement scolaire."

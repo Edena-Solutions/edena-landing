@@ -1,8 +1,9 @@
 ---
 title: "AI agents in the school office: from assistant that suggests to system that executes"
+seoTitle: "AI agents in the school office: what they can already do"
 date: "2026-08-18"
 translationKey: "agentes-ia-secretaria-escolar-automatizacion-2026"
-description: "Agentic AI is 2026's top technology trend. What separates an agent from an assistant, three school office workflows you can already delegate, and where a person still has to decide."
+description: "What separates an AI agent from an assistant, three school office workflows you can already delegate, and where a person still has to decide."
 tags: ["AI agents", "automation", "school office", "workflows", "artificial intelligence"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1655393001768-d946c97d6fd1?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

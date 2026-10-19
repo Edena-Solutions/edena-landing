@@ -19,7 +19,7 @@ faqs:
     - question: "Els pagaments en línia en educació són segurs?"
       answer: "Sí, si utilitzes una passarel·la que compleix PCI-DSS i no emmagatzemes dades de targeta. El pagament es fa a la pàgina del proveïdor o amb tokenització; el centre no maneja el número de targeta."
     - question: "Quin cost té una passarel·la per a centres educatius?"
-      answer: "Acostuma a ser un percentatge per transacció més un possible fix mensual. Compara amb el cost actual de gestionar cobraments manuals i amb limpacte de reduir impagaments."
+      answer: "Acostuma a ser un percentatge per transacció més un possible fix mensual. Compara amb el cost actual de gestionar cobraments manuals i amb l'impacte de reduir impagaments."
     - question: "Podem continuar oferint pagament en efectiu o taló?"
       answer: "Sí. Els pagaments en línia en educació poden conviure amb altres mètodes; l'objectiu és que qui prefereixi pagar en línia ho pugui fer sense fricció."
     - question: "Què fer si una família diu que ha pagat i no apareix al sistema?"
@@ -131,7 +131,7 @@ Un col·legi de 800 alumnes va passar de cobrament majoritari en efectiu i taló
 3. Configurar almenys un recordatori abans del venciment i un o dos després del venciment amb enllaç de pagament.
 4. Habilitar al portal de famílies la vista de rebuts i el pagament en un clic.
 5. Establir un procés de conciliació periòdica (setmanal o mensual) entre cobraments i banc/passarel·la.
-6. Comunicar a les famílies el nou canal, la seguretat i qui contactar en cas dincidència.
+6. Comunicar a les famílies el nou canal, la seguretat i qui contactar en cas d'incidència.
 7. Revisar cada curs taxes de cobrament i temps dedicat a gestionar impagaments per ajustar recordatoris i missatges.
 
 <br>
@@ -143,7 +143,7 @@ Un col·legi de 800 alumnes va passar de cobrament majoritari en efectiu i taló
 - **Domiciliació SEPA:** Preferida per a quotes recurrents; exigeix ​​preavís clar i gestió de devolucions.
 - **Targeta:** Pagaments puntuals (material, activitats, reserva de plaça).
 - **Transferència:** Vàlida si el ERP concilia automàticament; evita caixa en horari punta.
-- **Evitar:** Cobrament només en efectiu a recepció com a canal principal; genera colls dampolla i errors de caixa.
+- **Evitar:** Cobrament només en efectiu a recepció com a canal principal; genera colls d'ampolla i errors de caixa.
 
 <br>
 
@@ -154,7 +154,7 @@ Un col·legi de 800 alumnes va passar de cobrament majoritari en efectiu i taló
 1. Els pagaments en línia en educació redueixen fricció i solen abaixar la morositat.
 2. La passarel·la ha d'estar integrada amb la facturació per a enllaços i actualització d'estat.
 3. Els recordatoris automàtics amb enllaç de pagament augmenten la taxa de cobrament.
-4. Un portal on les famílies veuen i paguen rebuts millora lexperiència i la visibilitat.
+4. Un portal on les famílies veuen i paguen rebuts millora l'experiència i la visibilitat.
 5. Conciliació periòdica i comunicació clara a les famílies eviten errors i desconfiança.
 
 Vols veure com integrar pagaments en línia al teu centre i reduir impagaments? Demana una demo i revisem passarel·la, recordatoris i flux amb famílies.

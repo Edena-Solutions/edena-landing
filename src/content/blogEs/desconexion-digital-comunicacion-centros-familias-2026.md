@@ -1,8 +1,9 @@
 ---
 title: "Ni un mensaje a las once de la noche: desconexión digital y ventanas de comunicación"
+seoTitle: "Desconexión digital: ventanas de comunicación con familias"
 date: "2026-08-20"
 translationKey: "desconexion-digital-comunicacion-centros-familias-2026"
-description: "Francia ya obliga a suspender la difusión en el software escolar de 20:00 a 07:00 y los fines de semana. Cómo fijar ventanas de comunicación entre centro, familias y docentes sin perder capacidad de aviso urgente."
+description: "Francia ya obliga a suspender los envíos del software escolar de 20:00 a 07:00. Cómo fijar ventanas de comunicación sin perder los avisos urgentes."
 tags:
     [
         "desconexión digital",

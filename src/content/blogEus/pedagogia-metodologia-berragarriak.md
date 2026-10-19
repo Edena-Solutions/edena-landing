@@ -1,8 +1,9 @@
 ---
 title: "Metodologia pedagogiko berritzaileak: Irakaskuntza-ikaskuntza prozesua eraldatzea"
+seoTitle: "Metodologia pedagogiko berritzaileak ikasgelarako"
 date: "2025-08-10"
 translationKey: "metodologias-pedagogicas-innovadoras"
-description: "Irakaskuntza-metodo tradizionalak, bere balio historikoa izan badute ere, 2026ko ikasleen beharrei hobeto erantzuten dieten metodologia berritzaileekin osatu eta ordezkatzen ari dira kasu askotan."
+description: "Zein metodologia pedagogiko berritzaile ari diren irakaskuntza tradizionala osatzen eta nola hasi zure zentroko ikasgeletan aplikatzen."
 tags:
     - "metodologías pedagógicas"
     - "innovación educativa"

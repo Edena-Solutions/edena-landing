@@ -1,5 +1,6 @@
 ---
 title: "Ley Crea y Crece: factura electrónica B2B para centros y academias"
+seoTitle: "Ley Crea y Crece: factura electrónica en centros y academias"
 date: "2026-04-22"
 translationKey: "ley-crea-y-crece-factura-electronica-centros-2026"
 description: "Qué implica la factura electrónica obligatoria entre empresas para colegios y academias en España y cómo prepararse en 2026."

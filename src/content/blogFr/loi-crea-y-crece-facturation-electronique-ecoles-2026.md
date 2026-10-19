@@ -1,5 +1,6 @@
 ---
 title: "Loi Crea y Crece : facturation électronique B2B pour écoles et académies"
+seoTitle: "Loi Crea y Crece : facturation électronique B2B à l'école"
 date: "2026-04-22"
 translationKey: "ley-crea-y-crece-factura-electronica-centros-2026"
 description: "Ce qu'implique la facturation électronique obligatoire entre entreprises pour les écoles et académies en Espagne et comment se préparer en 2026."

@@ -49,7 +49,7 @@ El pensament crític i la resolució de problemes són més importants que mai a
 
 <br>
 
-<strong>Adaptació a nous mètodes daprenentatge</strong>
+<strong>Adaptació a nous mètodes d'aprenentatge</strong>
 
 <br>
 
@@ -63,7 +63,7 @@ Les plataformes d'aprenentatge adaptatiu proporcionen experiències personalitza
 
 <br>
 
-Tot i les oportunitats que ofereix la tecnologia, els estudiants digitals també enfronten desafiament únics. La sobrecàrrega dinformació pot ser aclaparadora, i molts estudiants lluiten per filtrar informació rellevant de la irrellevant. La distracció digital és un problema creixent, amb múltiples dispositius i plataformes competint per la vostra atenció.
+Tot i les oportunitats que ofereix la tecnologia, els estudiants digitals també enfronten desafiament únics. La sobrecàrrega d'informació pot ser aclaparadora, i molts estudiants lluiten per filtrar informació rellevant de la irrellevant. La distracció digital és un problema creixent, amb múltiples dispositius i plataformes competint per la vostra atenció.
 
 L'aïllament social pot ser un risc quan els estudiants passen massa temps a entorns digitals. És fonamental que desenvolupin habilitats socials i emocionals que els permetin navegar tant el món físic com el digital de manera efectiva.
 
@@ -73,7 +73,7 @@ L'aïllament social pot ser un risc quan els estudiants passen massa temps a ent
 
 <br>
 
-Els estudiants necessiten desenvolupar competències digitals que vagin més enllà de lús bàsic de dispositius. Això inclou la capacitat de programar, entendre com funcionen els algorismes i desenvolupar pensament computacional. També necessiten aprendre sobre seguretat digital, privadesa, i comportament ètic online.
+Els estudiants necessiten desenvolupar competències digitals que vagin més enllà de l'ús bàsic de dispositius. Això inclou la capacitat de programar, entendre com funcionen els algorismes i desenvolupar pensament computacional. També necessiten aprendre sobre seguretat digital, privadesa, i comportament ètic online.
 
 Les competències digitals també inclouen la capacitat de col·laborar efectivament en entorns virtuals, comunicar-se de manera clara i professional a través de diferents plataformes, i crear contingut digital que sigui informatiu, atractiu i ètic.
 
@@ -95,7 +95,7 @@ La tecnologia pot ser una eina poderosa per fomentar la creativitat, proporciona
 
 Els estudiants d'avui s'estan preparant per a un mercat laboral que serà molt diferent de l'actual. Moltes feines que existeixen avui no existiran en el futur, i sorgiran noves oportunitats que encara no podem imaginar. Els estudiants necessiten desenvolupar habilitats transferibles que els permetin adaptar-se a canvis ràpids.
 
-Això inclou habilitats daprenentatge continu, adaptabilitat, i capacitat per treballar en equips diversos i distribuïts globalment. Els estudiants també necessiten desenvolupar una mentalitat emprenedora, preparant-se per crear les seves pròpies oportunitats en lloc de dependre únicament de feines tradicionals.
+Això inclou habilitats d'aprenentatge continu, adaptabilitat, i capacitat per treballar en equips diversos i distribuïts globalment. Els estudiants també necessiten desenvolupar una mentalitat emprenedora, preparant-se per crear les seves pròpies oportunitats en lloc de dependre únicament de feines tradicionals.
 
 <br>
 
@@ -103,7 +103,7 @@ Això inclou habilitats daprenentatge continu, adaptabilitat, i capacitat per tr
 
 <br>
 
-El benestar digital ha esdevingut una preocupació important per als estudiants de l'era digital. Lús excessiu de tecnologia pot afectar la salut mental, el somni, i les relacions socials. Els estudiants necessiten aprendre a establir límits saludables amb la tecnologia i mantenir un equilibri entre el món digital i el físic.
+El benestar digital ha esdevingut una preocupació important per als estudiants de l'era digital. L'ús excessiu de tecnologia pot afectar la salut mental, el somni, i les relacions socials. Els estudiants necessiten aprendre a establir límits saludables amb la tecnologia i mantenir un equilibri entre el món digital i el físic.
 
 Les escoles i famílies tenen un paper important a ensenyar als estudiants sobre el benestar digital, incloent tècniques per reduir l'estrès digital, estratègies per desconnectar-se, i maneres d'usar la tecnologia de manera més conscient i saludable.
 
@@ -133,7 +133,7 @@ La realitat virtual i augmentada proporcionarà experiències d'aprenentatge imm
 
 <br>
 
-Accés clar a horaris, tasques i comunicacions oficials. No barrejar canals informals amb institucionals. Política dús de dispositius acordada amb famílies.
+Accés clar a horaris, tasques i comunicacions oficials. No barrejar canals informals amb institucionals. Política d'ús de dispositius acordada amb famílies.
 
 <br>
 

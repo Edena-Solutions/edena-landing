@@ -1,8 +1,9 @@
 ---
 title: "Guide Verifactu 2027 pour les établissements scolaires : délais, obligations et préparation"
+seoTitle: "Guide Verifactu 2027 pour les établissements scolaires"
 date: "2026-07-23"
 translationKey: "guia-verifactu-2027-centros-educativos"
-description: "Guide pratique Verifactu pour écoles, crèches et académies en Espagne : ce qu'exige le RD 1007/2023, les délais définitifs de 2027, les sanctions et une checklist pour être prêt à temps."
+description: "Ce qu'exige le RD 1007/2023 aux écoles, crèches et académies en Espagne : délais définitifs de 2027, sanctions et checklist pour être prêt à temps."
 tags:
     [
         "Verifactu",

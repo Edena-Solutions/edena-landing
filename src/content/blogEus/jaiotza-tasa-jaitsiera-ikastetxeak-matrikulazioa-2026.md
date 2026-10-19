@@ -1,8 +1,9 @@
 ---
 title: "Haur gutxiago, plaza berdinak: matrikula defendatzea jaiotza tasa jaisten ari denean"
+seoTitle: "Jaiotza-tasaren jaitsiera: nola defendatu matrikula"
 date: "2026-08-07"
 translationKey: "caida-natalidad-colegios-captacion-matriculas-2026"
-description: "Erorketa demografikoak hamarkada batean 32.000 gela baino gehiago galtzearen baliokidea da. Hiru fronteko plana ikastetxeentzat: eskaerak hobeto bihurtu, dauden familiak atxiki eta ihesa formalizatu aurretik hauteman."
+description: "Jaiotza-tasaren jaitsiera hamarkada batean 32.000 gela baino gehiago galtzea da. Hiru fronte ikastetxeentzat: eskaerak bihurtu, atxiki eta bajak hauteman."
 tags: ["jaiotza tasa", "ikasleen erakarpena", "matrikulak", "atxikipena", "zuzendaritza"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1575313844062-39c66a566b6a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

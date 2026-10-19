@@ -1,5 +1,6 @@
 ---
 title: "Digital transformation in educational centers: From resistance to success"
+seoTitle: "Digital transformation in schools: beating resistance"
 date: "2024-12-15"
 translationKey: "transformacion-digital-centros-educativos"
 description: "Discover the key strategies to successfully implement digital transformation in educational centers and overcome common challenges."

@@ -1,5 +1,6 @@
 ---
 title: "Fakturazio Elektronikoa eta Verifactu Hezkuntzan 2026an: Araugintza betetzea eta eraginkortasuna"
+seoTitle: "Faktura elektronikoa eta Verifactu hezkuntzan (2026)"
 date: "2026-01-15"
 translationKey: "facturacion-electronica-verifactu-educacion-2026"
 description: "Fakturazio elektronikoa, Zerga Agentziaren Verifactu sistemarekin integratuta (AEAT), ezinbesteko baldintza bihurtu da hezkuntza-zentro guztientzat."

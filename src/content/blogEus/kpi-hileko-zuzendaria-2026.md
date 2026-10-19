@@ -1,8 +1,9 @@
 ---
 title: "Ikastetxe zuzendari guztiak hilero neurtu behar dituzten KPIak"
+seoTitle: "Ikastetxeko zuzendariak hilero neurtu behar dituen KPIak"
 date: "2026-04-16"
 translationKey: "kpis-director-colegio-mensual-2026"
-description: "Ikastetxe, haur-eskola edo akademia zuzendari batek adierazlerik gabe inpresioekin lan egiten du."
+description: "Ikastetxe, haur-eskola edo akademia bateko zuzendariak hilero berrikusi beharreko adierazleak, intuizioz erabakitzeari uzteko eta garaiz erantzuteko."
 tags:
     - "KPI ikastetxe zuzendaria"
     - "eskola-kudeaketa adierazleak"

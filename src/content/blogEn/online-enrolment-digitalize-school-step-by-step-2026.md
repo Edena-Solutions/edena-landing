@@ -1,8 +1,9 @@
 ---
 title: "How to digitize the online registration of your educational center step by step"
+seoTitle: "How to move your school's enrolment online, step by step"
 date: "2026-03-28"
 translationKey: "matricula-online-centro-educativo-pasos-2026"
-description: "Transferring the registration to an online flow is not about uploading a PDF to the web: it is about rearranging criteria, responsible parties, deadlines and messages."
+description: "Moving enrolment online is more than uploading a PDF: it means reorganising criteria, owners, deadlines and messages. A step-by-step guide."
 tags:
     - "online registration"
     - "digital registration"

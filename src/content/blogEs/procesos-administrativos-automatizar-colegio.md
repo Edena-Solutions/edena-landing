@@ -1,8 +1,9 @@
 ---
 title: "Los 10 procesos administrativos que deberías automatizar en tu colegio"
+seoTitle: "10 procesos administrativos que automatizar en tu colegio"
 date: "2026-03-02"
 translationKey: "procesos-administrativos-automatizar-colegio"
-description: "La automatización en centros educativos no es un lujo; es una necesidad para liberar tiempo de secretaría y dirección."
+description: "Los 10 procesos administrativos que más tiempo ahorran al automatizarse en un colegio, para liberar a secretaría y dirección de errores y retrasos."
 tags:
     [
         "automatización en centros educativos",

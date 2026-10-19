@@ -1,8 +1,9 @@
 ---
 title: "Noves Tecnologies a l'Aula 2026: Transformant l'Experiència Educativa"
+seoTitle: "Noves tecnologies a l'aula el 2026"
 date: "2026-01-29"
 translationKey: "nuevas-tecnologias-aula-2026"
-description: "L'any 2026 està marcant un abans i un després com s'ensenya i s'aprèn a les aules espanyoles. Amb la implementació del Pla DigEdu en ple apogeu, més de 240."
+description: "Com està canviant la manera d'ensenyar i aprendre a les aules espanyoles el 2026, amb el Pla DigEdu en marxa i noves eines digitals a classe."
 tags:
     - "tecnologia educativa"
     - "aula digital"
@@ -243,7 +244,7 @@ Les plataformes d'aprenentatge adaptatiu utilitzen algoritmes avançats per crea
 - Narratives immersives que fan l'aprenentatge més engaging
 - Competències col·laboratives que fomenten treball en equip
 - Progressió visible que motiva els estudiants
-- Recompenses que reforcen comportaments daprenentatge positius
+- Recompenses que reforcen comportaments d'aprenentatge positius
 
 <br>
 
@@ -301,7 +302,7 @@ Les noves tecnologies faciliten formes de col·laboració que abans eren impossi
 
 <br>
 
-Les dades educatives estan sent utilitzades de manera més sofisticada per millorar contínuament lexperiència daprenentatge i els resultats educatius.
+Les dades educatives estan sent utilitzades de manera més sofisticada per millorar contínuament l'experiència d'aprenentatge i els resultats educatius.
 
 <br>
 
@@ -313,7 +314,7 @@ Les dades educatives estan sent utilitzades de manera més sofisticada per millo
 
 - Quins estudiants estan participant activament
 - Quins conceptes estan causant dificultats
-- Quins mètodes densenyament són més efectius
+- Quins mètodes d'ensenyament són més efectius
 - Com està progressant cada estudiant individualment
 - Quines intervencions estan funcionant millor
 
@@ -424,7 +425,7 @@ Les tecnologies a l'aula no només milloren l'aprenentatge actual; estan prepara
 
 : Les tecnologies estan fomentant:
 
-- Pensament crític i anàlisi dinformació
+- Pensament crític i anàlisi d'informació
 - Creativitat i innovació
 - Col·laboració en entorns digitals
 - Comunicació efectiva a través de múltiples mitjans
@@ -475,7 +476,7 @@ Tot i que les noves tecnologies ofereixen oportunitats extraordinàries, també 
 
 - Sistemes segurs que compleixin amb GDPR
 - Educació sobre seguretat digital
-- Polítiques clares dús de tecnologia
+- Polítiques clares d'ús de tecnologia
 - Control parental i supervisió apropiada
 
 <br>
@@ -535,7 +536,7 @@ El futur immediat portarà encara més innovacions:
 : Sistemes que poden:
 
 - Entendre el context emocional de l'aprenentatge
-- Adaptar-se a estats dànim i motivació
+- Adaptar-se a estats d'ànim i motivació
 - Proporcionar suport emocional a més d'acadèmic
 - Predir i prevenir problemes de benestar estudiantil
 
@@ -573,7 +574,7 @@ El futur immediat portarà encara més innovacions:
 
 - Monitoritzen l'ambient d'aprenentatge
 - Optimitzen condicions físiques automàticament
-- Proporcionen dades sobre ús despais i recursos
+- Proporcionen dades sobre ús d'espais i recursos
 
 <br>
 
@@ -583,7 +584,7 @@ El futur immediat portarà encara més innovacions:
 
 La LOMLOE situa les competències clau i l'avaluació continuada al centre del projecte educatiu. El Pla DigEdu impulsa competència digital docent, entorns tecnològics segurs i distribució de dispositius a aules. Com més temps perd el professorat en tasques administratives duplicades (parts en paper, llistats a Excel, circulars per canals diferents), menys queda per acompanyament i avaluació formativa.
 
-Digitalitzar gestió no substitueix la pedagogia: allibera hores reals en tutoria, coordinació de departament i seguiment individual. Un claustre que utilitza quatre eines de comunicació diferents perd coherència amb les famílies i coherència interna en criteris davaluació i seguiment.
+Digitalitzar gestió no substitueix la pedagogia: allibera hores reals en tutoria, coordinació de departament i seguiment individual. Un claustre que utilitza quatre eines de comunicació diferents perd coherència amb les famílies i coherència interna en criteris d'avaluació i seguiment.
 
 El 2026, la tecnologia educativa útil per a centres espanyols connecta aula i administració: expedient, comunicació, assistència i analítica comparteixen la mateixa font de dades. La innovació pedagògica sostenible recolza la LOMLOE quan la gestió admin deixa de robar hores al claustre al setembre i al tancament de trimestre.
 

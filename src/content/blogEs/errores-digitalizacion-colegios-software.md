@@ -1,5 +1,6 @@
 ---
 title: "Digitalización en colegios: 7 errores que cometen los centros al implementar software educativo"
+seoTitle: "7 errores al implantar software educativo en colegios"
 date: "2026-03-05"
 translationKey: "errores-digitalizacion-colegios-software"
 description: "La digitalización educativa avanza, pero muchos centros cometen errores que retrasan resultados, generan resistencia o desperdician inversión."
@@ -10,7 +11,6 @@ relatedPosts:
     - comparativa-software-gestion-escolar-espana-2026
     - elegir-software-escolar-checklist-directores-2026
     - mejor-software-gestion-escolar
-    - elegir-software-gestion-escolar
 faqs:
     - question: "¿Cuánto tarda ver resultados de la digitalización educativa?"
       answer: "Depende del proceso. Facturación y recordatorios pueden mostrar impacto en semanas. Una digitalización en colegios completa puede tardar varios meses en estabilizarse. Mide por fases."
@@ -66,7 +66,7 @@ Implantar el software para colegios y esperar que el equipo "aprenda sobre la ma
 
 <br>
 
-La licencia es solo una parte. Formación, migración, integraciones y soporte suman. La digitalización educativa barata puede salir cara si el software para colegios no cubre lo necesario o exige muchos parches. Compara coste total a 3 añte.
+La licencia es solo una parte. Formación, migración, integraciones y soporte suman. La digitalización educativa barata puede salir cara si el software para colegios no cubre lo necesario o exige muchos parches. Compara coste total a 3 años.
 
 <br>
 
@@ -128,7 +128,7 @@ Más allá de las notas y la asistencia, un software de gestión escolar en Espa
 
 En escuelas infantiles pesan plazas, ratios, menús y alergias; en academias, bonos, temporadas y sedes múltiples; en colegios privados, cuotas diferenciadas, becas internas y captación comercial. Un ERP que funciona en academias de idiomas puede quedarse corto si gestionas ratios de infantil, NEAE o comedor con facturación por jornada.
 
-Evalúa TCO a tres añte: licencia, migración, formación, horas internas de coordinación y coste de integraciones puente. Pide demo con tus datos reales (cinco familias, un ciclo de recibos) antes de decidir. El software que parece más barato al inicio puede encarecerse si obliga a sumar CRM, facturación o comunicación por separado.
+Evalúa TCO a tres años: licencia, migración, formación, horas internas de coordinación y coste de integraciones puente. Pide demo con tus datos reales (cinco familias, un ciclo de recibos) antes de decidir. El software que parece más barato al inicio puede encarecerse si obliga a sumar CRM, facturación o comunicación por separado.
 
 <br>
 

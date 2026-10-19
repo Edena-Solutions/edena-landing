@@ -121,7 +121,7 @@ Los centros educativos pueden utilizar Edena para gestionar proyectos de sosteni
 
 <br>
 
-Los centros educativos españoles combinan exigencia normativa creciente (LOPDGDD, Verifactu, LOMLOE, DigEdu) con equipos administrativos pequeñte y familias que esperan experiencia digital similar a la banca o al comercio online. Cualquier mejora de experiencia digital (familias, profesorado o alumnado) debe apoyarse en procesos de gestión coherentes, no en apps aisladas que duplican datos.
+Los centros educativos españoles combinan exigencia normativa creciente (LOPDGDD, Verifactu, LOMLOE, DigEdu) con equipos administrativos pequeños y familias que esperan experiencia digital similar a la banca o al comercio online. Cualquier mejora de experiencia digital (familias, profesorado o alumnado) debe apoyarse en procesos de gestión coherentes, no en apps aisladas que duplican datos.
 
 La fragmentación es el enemigo: CRM en un sitio, facturación en otro, comunicación en WhatsApp y expediente en carpetas compartidas. Ese modelo agota a secretaría, confunde a las familias y deja a dirección sin visibilidad unificada. Prioriza un tronco común (expediente, cobro, comunicación) antes de sumar módulos de moda.
 

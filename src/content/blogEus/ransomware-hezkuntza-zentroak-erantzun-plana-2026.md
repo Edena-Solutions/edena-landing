@@ -1,8 +1,9 @@
 ---
 title: "Zentroko datuak zifratu dituzte: idatzita eduki beharko zenukeen erantzun plana"
+seoTitle: "Ransomwarea zentroan: erantzun-plana idatzita"
 date: "2026-08-10"
 translationKey: "ransomware-centros-educativos-plan-respuesta-2026"
-description: "Hezkuntza Espainiako sektore erasotuenen artean dago. Zer egin intzidente baten lehen 72 orduetan: NIS2 eta DBEO jakinarazpen erlojuak, deien ordena, familiei zer komunikatzen zaien eta hornitzaileari zer eskatu."
+description: "Zer egin zentroaren aurkako zibereraso baten lehen 72 orduetan: NIS2 eta DBEOren jakinarazpen-epeak, nori deitu eta zer esan familiei."
 tags: ["zibersegurtasuna", "ransomware", "NIS2", "datuen babesa", "krisi kudeaketa"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1634224143538-ce0221abf732?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

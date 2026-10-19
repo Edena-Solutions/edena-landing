@@ -1,5 +1,6 @@
 ---
 title: "Gogobetetze inkestak eta NPS ikastetxeetan: familiak galdu aurretik neurtu"
+seoTitle: "Gogobetetze-inkestak eta NPS familientzat ikastetxeetan"
 date: "2026-06-13"
 translationKey: "encuestas-satisfaccion-nps-familias-2026"
 description: "Nola neurtu familien gogobetetzea inkestekin eta NPSarekin ikastetxe eta akademietan, ikasleak atxikitzeko eta joan aurretik hobetzeko, 2026an."

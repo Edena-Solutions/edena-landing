@@ -1,8 +1,9 @@
 ---
 title: "Hezkuntza analitika eta adimen artifiziala: hezkuntza eraldatzen duten datuak"
+seoTitle: "Hezkuntza-analitika eta AA: erabakitzeko datuak"
 date: "2024-09-15"
 translationKey: "analitica-educativa-inteligencia-artificial"
-description: "Hezkuntza analitika eta adimen artifiziala funtsean eraldatzen ari dira eskolak erabakiak hartzen, ikaskuntza pertsonalizatzen eta beren eragiketak optimizatzen dituzten modua."
+description: "Hezkuntza-analitika eta adimen artifiziala aldatzen ari dira ikastetxeek erabakiak hartzeko eta ikaskuntza pertsonalizatzeko modua."
 tags:
     - "analítica"
     - "inteligencia artificial"

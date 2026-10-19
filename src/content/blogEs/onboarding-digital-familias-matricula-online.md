@@ -1,5 +1,6 @@
 ---
 title: "Onboarding digital de familias: cómo matricular alumnos sin papeleo"
+seoTitle: "Onboarding digital de familias: matrícula sin papeleo"
 date: "2026-03-11"
 translationKey: "onboarding-digital-familias-matricula-online"
 description: "La matrícula online en colegio y la inscripción digital de alumnos transforman la experiencia de las familias y reducen carga en secretaría."

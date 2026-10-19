@@ -1,5 +1,6 @@
 ---
 title: "Mobile apps in education: The digital experience in your pocket"
+seoTitle: "Mobile apps in education: the school in your pocket"
 date: "2025-04-15"
 translationKey: "app-movil-educacion"
 description: "Mobile apps are changing the way families interact with schools, providing instant access to school information and services from anywhere and at any time."

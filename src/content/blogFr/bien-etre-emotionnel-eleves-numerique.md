@@ -1,8 +1,9 @@
 ---
 title: "Le bien-être émotionnel des élèves à l'ère numérique : stratégies et outils"
+seoTitle: "Bien-être émotionnel des élèves à l'ère numérique"
 date: "2025-08-30"
 translationKey: "bienestar-emocional-estudiantes-digitales"
-description: "Le bien-être émotionnel des élèves est devenu une priorité essentielle pour les écoles à l’ère numérique."
+description: "Connexion permanente, pression scolaire et nouveaux défis sociaux pèsent sur le bien-être des élèves. Stratégies et outils pour les accompagner."
 tags:
     - "bien-être émotionnel"
     - "santé mentale"

@@ -1,5 +1,6 @@
 ---
 title: "Encuestas de satisfacción y NPS en colegios: medir antes de perder familias"
+seoTitle: "Encuestas de satisfacción y NPS para familias en colegios"
 date: "2026-06-13"
 translationKey: "encuestas-satisfaccion-nps-familias-2026"
 description: "Cómo medir la satisfacción de las familias con encuestas y NPS en colegios y academias para retener alumnos y mejorar antes de que se vayan, en 2026."

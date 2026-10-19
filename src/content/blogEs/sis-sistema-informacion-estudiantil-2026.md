@@ -1,5 +1,6 @@
 ---
 title: "Qué es un SIS (Sistema de Información Estudiantil) y por qué tu centro educativo necesita uno en 2026"
+seoTitle: "Qué es un SIS (sistema de información estudiantil)"
 date: "2026-02-27"
 translationKey: "sis-sistema-informacion-estudiantil-2026"
 description: "Un SIS escolar, o sistema de información estudiantil, es la columna vertebral digital de cualquier centro educativo moderno."
@@ -10,7 +11,6 @@ relatedPosts:
     - comparativa-software-gestion-escolar-espana-2026
     - elegir-software-escolar-checklist-directores-2026
     - mejor-software-gestion-escolar
-    - elegir-software-gestion-escolar
 faqs:
     - question: "¿Un SIS escolar es lo mismo que un ERP educativo?"
       answer: "No exactamente. Un SIS se centra en la información estudiantil (expedientes, asistencia, comunicación). Un ERP escolar suele incluir además facturación, recursos humanos, inventario y otros módulos. Muchas plataformas integran SIS y ERP en una sola solución."
@@ -150,7 +150,7 @@ Más allá de las notas y la asistencia, un software de gestión escolar en Espa
 
 En escuelas infantiles pesan plazas, ratios, menús y alergias; en academias, bonos, temporadas y sedes múltiples; en colegios privados, cuotas diferenciadas, becas internas y captación comercial. Un ERP que funciona en academias de idiomas puede quedarse corto si gestionas ratios de infantil, NEAE o comedor con facturación por jornada.
 
-Evalúa TCO a tres añte: licencia, migración, formación, horas internas de coordinación y coste de integraciones puente. Pide demo con tus datos reales (cinco familias, un ciclo de recibos) antes de decidir. El software que parece más barato al inicio puede encarecerse si obliga a sumar CRM, facturación o comunicación por separado.
+Evalúa TCO a tres años: licencia, migración, formación, horas internas de coordinación y coste de integraciones puente. Pide demo con tus datos reales (cinco familias, un ciclo de recibos) antes de decidir. El software que parece más barato al inicio puede encarecerse si obliga a sumar CRM, facturación o comunicación por separado.
 
 <br>
 

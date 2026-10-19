@@ -1,8 +1,9 @@
 ---
 title: "Educational Technology Trends for 2025: The Future of Learning"
+seoTitle: "Educational technology trends for 2025"
 date: "2025-01-30"
 translationKey: "tecnologia-educativa-2025"
-description: "Explore emerging technologies that are transforming education and how schools can prepare for the digital future."
+description: "The emerging technologies transforming how we teach and learn, and how schools that want to stay competitive can prepare for what comes next."
 tags:
     - "technology"
     - "education"

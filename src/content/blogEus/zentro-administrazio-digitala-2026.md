@@ -1,5 +1,6 @@
 ---
 title: "Kudeaketa Digitala Hezkuntza Zentroetan 2026: Papera ezabatzea, eraginkortasuna maximizatzea"
+seoTitle: "Administrazio digitala hezkuntza-zentroetan (2026)"
 date: "2026-01-22"
 translationKey: "gestion-administrativa-digital-centros-2026"
 description: "Prozesu administratiboak erabat digitalizatu dituzten zentroek ezohiko emaitzak ematen ari dira: administrazio-kostuak %40 murriztea."
@@ -15,7 +16,6 @@ relatedPosts:
     - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
     - software-aukera-egiaztapen-2026
     - onena-eskola-kudeaketa-softwarea
-    - eskola-kudeaketa-softwarea-aukeratzea
 faqs:
     - question: "Non hasten da helbidea?"
       answer: "Orduen eta minaren diagnostikoa idazkaritzan, ez moduluen katalogoa."

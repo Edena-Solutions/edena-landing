@@ -1,8 +1,9 @@
 ---
 title: "Mòbils al centre: com escriure la política de dispositius que la llei t'exigirà"
+seoTitle: "Política de mòbils al centre: com redactar-la"
 date: "2026-08-14"
 translationKey: "politica-uso-dispositivos-moviles-centros-educativos-2026"
-description: "La Llei de Protecció de Menors en Entorns Digitals obligarà cada centre a regular l'ús de dispositius i puja el consentiment de dades de 14 a 16 anys. Quins apartats ha de tenir el document i com comunicar-lo a les famílies."
+description: "La Llei de Protecció de Menors en Entorns Digitals obligarà a regular els dispositius. Què ha d'incloure la política i com comunicar-la a les famílies."
 tags: ["dispositius mòbils", "protecció de menors", "normativa", "convivència", "consentiment"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?q=80&w=820&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

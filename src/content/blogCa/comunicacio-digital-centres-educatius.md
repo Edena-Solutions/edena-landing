@@ -17,11 +17,11 @@ relatedPosts:
     - app-mobil-educacio
 faqs:
     - question: "És millor una app pròpia o un portal web per a les famílies?"
-      answer: "Depèn del pressupost i de lús. Un portal responsive que funcioni bé en mòbil pot ser suficient; una app nativa pot donar més visibilitat (icona, notificacions) si les famílies la usen amb freqüència."
+      answer: "Depèn del pressupost i de l'ús. Un portal responsive que funcioni bé en mòbil pot ser suficient; una app nativa pot donar més visibilitat (icona, notificacions) si les famílies la usen amb freqüència."
     - question: "Les notificacions push substitueixen el correu electrònic?"
       answer: "No necessàriament. El correu electrònic continua sent útil per a contingut llarg i per a arxiu. Push i SMS són millors per a avisos curts i urgents que requereixen acció ràpida."
     - question: "Com complim la protecció de dades en enviar missatges massius?"
-      answer: "Usar eines que permetin gestionar consentiments i llistes, no compartir dades amb fins comercials no autoritzats, i donar de baixa a qui ho sol·liciti. El proveïdor ha dactuar com a encarregat del tractament si processa dades per compte del centre."
+      answer: "Usar eines que permetin gestionar consentiments i llistes, no compartir dades amb fins comercials no autoritzats, i donar de baixa a qui ho sol·liciti. El proveïdor ha d'actuar com a encarregat del tractament si processa dades per compte del centre."
     - question: "Què fem amb els grups de WhatsApp de pares?"
       answer: "No és recomanable fer-los servir com a canal oficial: poc control, risc per a la privadesa i barreja de temes. Millor oferir un canal oficial (portal, notificacions) i deixar WhatsApp per a ús informal si el centre ho considera adequat, amb normes clares."
     - question: "La comunicació digital en centres educatius requereix molt de manteniment?"
@@ -118,7 +118,7 @@ Un col·legi va substituir les circulars en paper per publicacions al portal i n
 - No tenir un únic lloc on les famílies trobin documentació i avisos.
 - Usar grups de WhatsApp no oficials com a canal principal (risc de dades i de control).
 - No segmentar: enviar el mateix a infantil ia batxillerat resta rellevància.
-- No mesurar: no revisar taxes dobertura o de lectura quan el canal ho permeti.
+- No mesurar: no revisar taxes d'obertura o de lectura quan el canal ho permeti.
 
 <br>
 
@@ -164,7 +164,7 @@ Vols revisar com millorar la comunicació amb les famílies del teu centre? Dema
 
 - **Push segmentat:** Per curs o etapa; no llistats complets en còpia.
 - **Confirmació de lectura:** Traçabilitat en avisos crítics (autoritzacions, pagaments).
-- **Arxiu en expedient:** Comunicacions institucionals vinculades a lalumne o família.
+- **Arxiu en expedient:** Comunicacions institucionals vinculades a l'alumne o família.
 - **Email per a allò extens:** Documents llargs; app per a allò operatiu diari.
 
 <br>

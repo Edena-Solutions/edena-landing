@@ -1,5 +1,6 @@
 ---
 title: "Gestión documental digital: el futuro de la administración escolar"
+seoTitle: "Gestión documental digital en la administración escolar"
 date: "2025-01-18"
 translationKey: "gestion-documental-digital-centros"
 description: "La gestión documental tradicional en centros educativos ha sido durante décadas un proceso manual, propenso a errores y extremadamente ineficiente."

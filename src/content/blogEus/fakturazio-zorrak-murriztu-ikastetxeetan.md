@@ -1,8 +1,9 @@
 ---
 title: "Nola murriztu ez-ordainketak eta fakturazioa hobetu hezkuntza-zentroetan"
+seoTitle: "Nola murriztu ez-ordainketak hezkuntza-zentroetan"
 date: "2026-03-03"
 translationKey: "reducir-impagos-facturacion-colegios"
-description: "Ordainagiri argiak, zordunei soilik bidalitako abisuak eta ikastaro bakoitzeko zorren asteko panela."
+description: "Ordainagiri argiak, zordunei soilik bidalitako oroigarriak eta ikasturte bakoitzeko zorren asteko panela ez-ordainketak murrizteko."
 tags:
     - "ikastetxeko fakturazioa"
     - "ikastetxeko ordainketen kudeaketa"

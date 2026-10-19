@@ -1,5 +1,6 @@
 ---
 title: "Transformació digital a centres educatius: De la resistència a l'èxit"
+seoTitle: "Transformació digital en centres educatius: claus"
 date: "2024-12-15"
 translationKey: "transformacion-digital-centros-educativos"
 description: "Descobreix les estratègies clau per implementar amb èxit la transformació digital en centres educatius i superar els desafiaments comuns."
@@ -14,11 +15,11 @@ relatedPosts:
     - llista-verificacio-digitalitzacio-2026
 faqs:
     - question: "Com es pot mesurar l'èxit del canvi?"
-      answer: "Hores admin setmanals, taxa derror en facturació o temps mitjà dalta de família nova."
+      answer: "Hores admin setmanals, taxa d'error en facturació o temps mitjà d'alta de família nova."
     - question: "Per què procés començo a automatitzar?"
       answer: "Cobraments recurrents i assistència solen ser els de més retorn immediat en hores i errors evitats."
     - question: "Quan dura un pilot raonable?"
-      answer: "Entre 8 i 12 setmanes, amb un cicle real de facturació o admissió i criteri dèxit escrit."
+      answer: "Entre 8 i 12 setmanes, amb un cicle real de facturació o admissió i criteri d'èxit escrit."
 ---
 
 <strong>Transformació digital a centres educatius: De la resistència a l'èxit</strong>
@@ -93,9 +94,9 @@ Els centres poden crear comitès de transformació digital que incloguin represe
 
 <br>
 
-És fonamental establir mètriques clares per mesurar el progrés de la transformació digital. Aquestes mètriques han dincloure tant indicadors quantitatius (com lús de sistemes digitals) com qualitatius (com la satisfacció dels usuaris).
+És fonamental establir mètriques clares per mesurar el progrés de la transformació digital. Aquestes mètriques han d'incloure tant indicadors quantitatius (com l'ús de sistemes digitals) com qualitatius (com la satisfacció dels usuaris).
 
-Els centres han de fer avaluacions regulars per identificar què està funcionant bé i què necessita ajustaments. Aquesta informació ha de ser utilitzada per refinar lestratègia i millorar la implementació. És important celebrar els èxits i aprendre dels desafiaments.
+Els centres han de fer avaluacions regulars per identificar què està funcionant bé i què necessita ajustaments. Aquesta informació ha de ser utilitzada per refinar l'estratègia i millorar la implementació. És important celebrar els èxits i aprendre dels desafiaments.
 
 <br>
 
@@ -146,7 +147,7 @@ Una mètrica per fase; no saltis fase 1 si les dades estan brutes.
 
 <br>
 
-Llicència + implantació + formació + hores internes. Compara amb cost dExcel i errors.
+Llicència + implantació + formació + hores internes. Compara amb cost d'Excel i errors.
 
 <br>
 

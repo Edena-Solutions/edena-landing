@@ -1,5 +1,6 @@
 ---
 title: "Com digitalitzar la matrícula en línia del teu centre educatiu pas a pas"
+seoTitle: "Matrícula en línia al teu centre educatiu, pas a pas"
 date: "2026-03-28"
 translationKey: "matricula-online-centro-educativo-pasos-2026"
 description: "Passar la matrícula a un flux en línia no és pujar un PDF a la web: és reordenar criteris, responsables, terminis i missatges."
@@ -90,7 +91,7 @@ Càrrega darxius, validació, visibilitat per curs, grup, alumne, mòdul cloud, 
 
 <br>
 
-El mòdul dautomatització, amb regles, workflows, onboarding, pot posar tasques, recordatoris, passos, sense reemplaçar criteri d'admissió, però baixa tasques baixes. Amb política, plantilles, algú amb ownership, o el pipeline s'omple de soroll, pitjor que no pas manual.
+El mòdul d'automatització, amb regles, workflows, onboarding, pot posar tasques, recordatoris, passos, sense reemplaçar criteri d'admissió, però baixa tasques baixes. Amb política, plantilles, algú amb ownership, o el pipeline s'omple de soroll, pitjor que no pas manual.
 
 <br>
 
@@ -159,7 +160,7 @@ Després de visita o proposta acceptada, al mateix flux digital, abans de l'alta
 
 <br>
 
-- **Interès:** DNI tutor, dades bàsiques de lalumne, curs sol·licitat.
+- **Interès:** DNI tutor, dades bàsiques de l'alumne, curs sol·licitat.
 - **Reserva:** Contracte de serveis, domiciliació SEPA opcional, senyal de reserva si s'aplica.
 - **Matrícula:** Autoritzacions d'imatge, fitxa de salut, persones autoritzades a arreplegar.
 - **Alta definitiva:** Expedient complet a plataforma amb tots els documents signats i primer cobrament programat.

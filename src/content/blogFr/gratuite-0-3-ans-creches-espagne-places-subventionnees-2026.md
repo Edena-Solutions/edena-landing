@@ -1,8 +1,9 @@
 ---
 title: "Gratuité du 0-3 ans : gérer les places subventionnées sans déséquilibrer la trésorerie"
+seoTitle: "Gratuité 0-3 ans : gérer les places subventionnées"
 date: "2026-08-05"
 translationKey: "gratuidad-0-3-escuelas-infantiles-plazas-subvencionadas-2026"
-description: "L'Andalousie approuve la gratuité totale de 0 à 3 ans pour 2026-2027 et d'autres régions élargissent leur offre. Comment la facturation d'une crèche change lorsque place subventionnée, services complémentaires et tarif privé coexistent."
+description: "Comment la facturation d'une crèche change lorsque place subventionnée, services complémentaires et tarif privé coexistent avec la gratuité 0-3 ans."
 tags: ["crèches", "gratuité 0-3", "subventions", "facturation", "petite enfance"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1634757439914-23b8acb9d411?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

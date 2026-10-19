@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 
 import type { Translation } from "@/i18n";
+import { localePath } from "@/i18n/utils";
 
 const STORAGE_KEY = "edena-cookie-consent";
 
@@ -21,10 +22,11 @@ function applyAnalyticsConsent(granted: boolean) {
 
 interface Props {
     lang: string;
-    t: Translation;
+    /** Only the banner's own words: the island's props are written into every page's HTML. */
+    copy: Translation["cookieConsent"];
 }
 
-export default function CookieConsentBanner({ lang, t }: Props) {
+export default function CookieConsentBanner({ lang, copy }: Props) {
     const [visible, setVisible] = useState(false);
 
     useEffect(() => {
@@ -62,8 +64,7 @@ export default function CookieConsentBanner({ lang, t }: Props) {
         return null;
     }
 
-    const policyHref = `/${lang}/cookies`;
-    const copy = t.cookieConsent;
+    const policyHref = localePath(lang, "/cookies");
 
     return (
         <div

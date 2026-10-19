@@ -2,7 +2,7 @@
 title: "Communication with families: tools beyond email"
 date: "2026-02-17"
 translationKey: "comunicacion-digital-centros-educativos"
-description: "Email is still useful, but it is not enough for all communication with families: circulars, payment reminders, absences or urgent notices require channels that families consult daily."
+description: "Email is not enough for talking to families: circulars, payment reminders, absences and urgent notices need channels that families check every day."
 tags:
     - "digital communication educational centers"
     - "families"

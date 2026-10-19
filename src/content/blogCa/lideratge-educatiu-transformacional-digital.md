@@ -1,8 +1,9 @@
 ---
 title: "Lideratge educatiu transformacional a l'era digital: Competències i estratègies"
+seoTitle: "Lideratge educatiu a l'era digital: competències clau"
 date: "2025-09-15"
 translationKey: "liderazgo-educativo-transformacional-digital"
-description: "Implantar un ERP, una app familiar o un expedient digital no falla només pel programari."
+description: "La digitalització falla quan la direcció anuncia el canvi sense traduir-lo en menys hores d'administració, menys morositat o millor resposta a famílies."
 tags:
     - "lideratge educatiu"
     - "transformació digital"
@@ -91,7 +92,7 @@ A centres amb plantilla consolidada, el canvi va per reducció de tasques repeti
 
 <br>
 
-Calendari visible, canal únic d'incidències del projecte, victòries petites celebrades (primera campanya de matrícula 100% online, primer mes sense duplicar llistats). Transparència sobre terminis i què queda fora de labast del pilot.
+Calendari visible, canal únic d'incidències del projecte, victòries petites celebrades (primera campanya de matrícula 100% online, primer mes sense duplicar llistats). Transparència sobre terminis i què queda fora de l'abast del pilot.
 
 <br>
 

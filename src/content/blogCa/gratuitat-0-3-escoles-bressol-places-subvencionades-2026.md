@@ -1,8 +1,9 @@
 ---
 title: "Gratuïtat del 0-3: com gestionar places subvencionades sense descompensar la caixa"
+seoTitle: "Gratuïtat 0-3: com gestionar les places subvencionades"
 date: "2026-08-05"
 translationKey: "gratuidad-0-3-escuelas-infantiles-plazas-subvencionadas-2026"
-description: "Andalusia aprova la gratuïtat total de 0 a 3 anys per al 2026-2027 i altres comunitats amplien places. Com canvia la facturació d'una escola bressol quan conviuen plaça subvencionada, serveis complementaris i quota privada."
+description: "Com canvia la facturació d'una escola bressol quan conviuen plaça subvencionada, serveis complementaris i quota privada amb la gratuïtat 0-3."
 tags: ["escoles bressol", "gratuïtat 0-3", "subvencions", "facturació", "primera infància"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1634757439914-23b8acb9d411?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

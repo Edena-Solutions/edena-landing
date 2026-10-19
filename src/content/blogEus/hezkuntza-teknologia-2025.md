@@ -1,5 +1,6 @@
 ---
 title: "Hezkuntza-teknologiako joerak 2025erako: ikaskuntzaren etorkizuna"
+seoTitle: "Hezkuntza-teknologiako joerak 2025erako"
 date: "2025-01-30"
 translationKey: "tecnologia-educativa-2025"
 description: "Hezkuntza eraldatzen ari diren teknologia berriak aztertu eta hezkuntza-zentroek etorkizun digitalerako nola prestatu daitezkeen."

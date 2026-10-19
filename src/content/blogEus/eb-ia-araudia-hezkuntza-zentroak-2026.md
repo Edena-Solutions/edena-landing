@@ -1,8 +1,9 @@
 ---
 title: "EBko IA Araudia hezkuntza zentroetan: zer den jada eskatzekoa eta zer datorren 2027an"
+seoTitle: "EBko IA Araudia hezkuntza-zentroetan: zer eskatzen den"
 date: "2026-08-03"
 translationKey: "reglamento-ia-ue-centros-educativos-2026"
-description: "(EB) 2024/1689 Araudia oro har aplikagarria da 2026ko abuztuaren 2az geroztik. Zein betebeharrek eragiten diete gaur ikastetxeei, haur eskolei eta akademiei, zein sistema diren arrisku handikoak eta zer eskatu hornitzaileei."
+description: "(EB) 2024/1689 Araudiaren zein betebeharrek eragiten dieten jada ikastetxe, haur-eskola eta akademiei, zein sistema diren arrisku handikoak eta zer eskatu."
 tags: ["IA araudia", "adimen artifiziala", "araudia", "betetzea", "AI Act"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1658823276022-d6613757faa3?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

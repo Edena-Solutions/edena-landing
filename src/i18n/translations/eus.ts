@@ -740,25 +740,25 @@ export default {
             "Plataforma modularra ikastetxe, haur eskola eta talde hezitzaileentzat, hilean 36 €-tik. Aktibatu behar dituzun moduluak soilik eta ordaindu ikasleko.",
         pricingTitle: "Prezioak | Eskola Kudeaketa Softwarea 36 €/hiletik | Edena",
         pricingDescription:
-            "Ikasleko ordainketa, alta-kuotarik eta iraunkortasunik gabe. 36 €/hiletik agiri digitalarekin, asistentziarekin eta familien atariarekin. 30 eguneko proba doakoa.",
+            "Ikasleko ordainketa, alta-kuotarik eta iraunkortasunik gabe. 36 €/hiletik, agiri digitala, asistentzia eta familien ataria barne. 30 eguneko proba doakoa.",
         faqsTitle: "Edenari buruzko Galdera Ohikoak | Eskola Kudeaketa",
         faqsDescription:
-            "Ebatzi zure zalantzak prezioei, funtzionalitateei, datuen migrazioari, Verifactu-ri eta segurtasunari buruz. Edena zure zentrorako aukeratu aurretik jakin behar duzun guztia.",
+            "Prezioei, funtzionalitateei, datuen migrazioari, Verifactu-ri eta segurtasunari buruzko zalantzak, Edena zure zentrorako aukeratu aurretik.",
         dashboardTitle: "Eskola kontrol-panela | Analitika denbora errealean | Edena",
         dashboardDescription:
             "Asistentzia, kobrantzak, matrikulak eta komunikazioak berehala eguneratzen den kontrol-panel batean. Detektatu arazoak garaiz eta erabaki datu errealekin.",
         studentsTitle: "Ikasle-kudeaketa Softwarea | Agiriak eta Notak | Edena",
         studentsDescription:
             "Agiri digitalak, asistentzia-kontrola, kalifikazioak eta boletin automatikoak ikasleak kudeatzeko software bakarrean. Paper gutxiago lehen egunetik.",
-        appTitle: "Familia eta Irakasleentzako Aplikazioa | iOS eta Android | Edena",
+        appTitle: "Familia eta Irakasleentzako Aplikazioa · Edena",
         appDescription:
             "Familia eta irakasleentzako eskola-aplikazio doakoa iOS eta Androiden: abisuak mugikorrean, argazki seguruak, agirien sinadura, notak eta fakturak.",
         demoTitle: "Eskola Kudeaketa Softwarearen Demo Doakoa | Edena",
         demoDescription:
-            "15 minutuko erakustaldia, zure ikastetxe, haur-eskola, akademia edo talderako prest. Konpromisorik gabe.",
+            "Edenaren 15 minutuko erakustaldia, zurea bezalako zentro baten datuekin prestatua: ikastetxe, haur-eskola, akademia edo taldea. Konpromisorik gabe.",
         financeTitle: "Eskola Fakturazioa Verifactu-rekin | SEPA Kobrantzak | Edena",
         financeDescription:
-            "Eskola-fakturazio automatikoa, Verifactu-ra egokitua: ordainagiriak, SEPA zordunketak eta ordainketen kontrola denbora errealean. Zure taldeak kobrantzak pertsegitzeari utziko dio.",
+            "Eskola-fakturazio automatikoa, Verifactu-ra egokitua: ordainagiriak, SEPA zordunketak eta ordainketen kontrola denbora errealean.",
         guardiansTitle: "Ikastetxeetarako familien ataria | Zentro-familia komunikazioa | Edena",
         guardiansDescription:
             "Eman familiei denbora errealean notak, asistentzia, fakturak eta zentroaren berriak ikusteko. Mezularitza segurua eta agiri digitalen sinadura. Familien txertatzea minututan.",
@@ -779,7 +779,7 @@ export default {
             "Nola babesten dituen Edenak ikasle, familia eta ikastetxeen datuak: zer tratatzen dugun, zertarako, zenbat denboraz eta nola baliatu zure eskubideak.",
         deleteAccountTitle: "Kontua eta datuak ezabatu | Edena",
         deleteAccountDescription:
-            "Nola eskatu zure kontua eta datu pertsonalak ezabatzea Edenan, aplikaziora sarbidearekin edo gabe.",
+            "Nola eskatu Edenako kontua eta datu pertsonalak ezabatzea, aplikaziora sartzeko aukera izan zein ez, urratsez urrats azalduta.",
         termsTitle: "Zerbitzu-baldintzak | Edena eskola-kudeaketa softwarea",
         termsDescription:
             "Edena eskola-kudeaketako plataforma erabiltzeko baldintzak: kontratazioa, planak eta ordainketak, alderdien betebeharrak, datuak eta laguntza.",
@@ -3160,7 +3160,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
     },
     productModules: {
         extracurricular: {
-            metaTitle: "Eskolaz Kanpoko Jarduerak | Izen-emateak eta Kobrantzak | Edena",
+            metaTitle: "Eskolaz Kanpoko Jarduerak | Izen-emateak · Edena",
             metaDescription:
                 "Kudeatu zure ikastetxeko eskolaz kanpoko jarduerak: online izen-ematea, plazen kontrola, asistentzia-zerrendak eta kobrantza automatikoak.",
             navTitle: "Eskolaz kanpokoak",
@@ -3488,7 +3488,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             ],
         },
         shop: {
-            metaTitle: "Lineako Denda Ikastetxeentzat | Uniformeak eta Materiala | Edena",
+            metaTitle: "Lineako Denda Ikastetxeentzat | Uniformeak · Edena",
             metaDescription:
                 "Saldu uniformeak, materiala eta zerbitzuak zure ikastetxeko aplikazioan integratutako online dendatik. Kobrantza automatikoak eta stock eguneratua.",
             navTitle: "Denda",
@@ -4026,7 +4026,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         hub: {
             metaTitle: "Edena vs alternatibak: eskola-softwareen konparazioa | Edena",
             metaDescription:
-                "Edena TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia eta Dinantiaren aurrean: 17 irizpide iturri publikoekin alderatuta. Irizpide bakoitza, bere iturriarekin.",
+                "Edena TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia eta Dinantiaren aurrean: 17 irizpide alderatuta, bakoitza bere iturri publikoarekin.",
             eyebrow: "Eskola-softwareen konparazioa",
             title: "Espedientea, faktura eta abisua, zazpi plataformen aurrean",
             description:

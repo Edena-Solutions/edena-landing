@@ -2,7 +2,7 @@
 title: "Zaindariak hezkuntza digitalean: familien rola"
 date: "2025-03-01"
 translationKey: "guardianes-educacion-digital"
-description: "Gaur egungo gurasoek erronka paregabea dute: mundu fisikoaren zein digitalaren zaindari izan behar dute."
+description: "Familien rola seme-alaben hezkuntza digitalean: baimenak, pantaila-denbora eta erabilera-akordioak familien eta ikastetxearen artean."
 tags:
     - "familias"
     - "guardianes"

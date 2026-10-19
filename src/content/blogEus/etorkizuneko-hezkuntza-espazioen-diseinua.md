@@ -1,8 +1,9 @@
 ---
 title: "Etorkizuneko hezkuntza espazioak: ikaskuntza modernorako diseinua eta berrikuntza"
+seoTitle: "Etorkizuneko hezkuntza-espazioak: ikasteko diseinua"
 date: "2025-08-25"
 translationKey: "espacios-educativos-futuro-diseno"
-description: "Ikaskuntza gertatzen den espazio fisikoek eragin handia eta askotan gutxietsia dute hezkuntza-eraginkortasunean."
+description: "Espazio fisikoen diseinuak eragin handia du ikaskuntzan. Nola ari diren ikasgelak berrasmatzen lankidetza, sormena eta ikaskuntza aktiboa sustatzeko."
 tags:
     - "espacios educativos"
     - "diseño arquitectónico"

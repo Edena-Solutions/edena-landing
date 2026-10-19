@@ -1,5 +1,6 @@
 ---
 title: "How to choose school software without making a mistake: checklist for directors"
+seoTitle: "How to choose school software: a checklist for heads"
 date: "2026-04-20"
 translationKey: "elegir-software-escolar-checklist-directores-2026"
 description: "Choosing the management software for your center is one of the most expensive decisions to make: not in license price, but in time."
@@ -15,7 +16,6 @@ cover: "https://images.unsplash.com/photo-1661732017132-28b644cbcf9c?q=80&w=687&
 relatedPosts:
     - school-management-software-comparison-spain-2026
     - best-school-management-software
-    - choosing-school-management-software
     - erp-school-digitalization-guide
 faqs:
     - question: "How long does a complete software change process take?"

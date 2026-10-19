@@ -2,7 +2,7 @@
 title: "School billing automation: Optimize your internal processes"
 date: "2025-01-15"
 translationKey: "automatizacion-facturacion-escolar"
-description: "Internal billing management is one of the most complex and error-prone processes in any educational center."
+description: "How to automate school billing: recurring cycles, templates, corrections and the link with Verifactu, in one of a school's most error-prone processes."
 tags:
     - "billing"
     - "automation"

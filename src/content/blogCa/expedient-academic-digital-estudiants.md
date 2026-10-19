@@ -1,5 +1,6 @@
 ---
 title: "Com centralitzar tota la informació de l'alumne en un únic sistema"
+seoTitle: "Expedient acadèmic digital: l'alumne en un sol sistema"
 date: "2026-03-09"
 translationKey: "expediente-academico-digital-estudiantes"
 description: "L'expedient acadèmic digital i la gestió d'estudiants a l'escola dispersos en carpetes, fulls de càlcul i correus generen errors, retards i frustració."
@@ -11,10 +12,10 @@ relatedPosts:
 faqs:
     - question: "L'expedient acadèmic digital compleix el GDPR?"
       answer: "Sí, si el sistema té mesures de seguretat (accés restringit, xifrat, auditoria) i el proveïdor actua com a encarregat del tractament. La gestió d'estudiants a l'escola amb dades sensibles exigeix ​​compliment normatiu."
-    - question: "Qui pot accedir a lexpedient acadèmic digital?"
+    - question: "Qui pot accedir a l'expedient acadèmic digital?"
       answer: "Depèn dels permisos configurats. Secretaria, adreça i professors de l'alumne solen tenir accés. La gestió d'estudiants a l'escola ha de permetre perfils per rol per complir el principi de mínim accés."
-    - question: "Les famílies poden veure lexpedient acadèmic digital?"
-      answer: "Podeu veure la informació que els correspon (assistència, comunicacions, documentació que hagin signat). Lexpedient acadèmic digital complet sol ser intern. La gestió d'estudiants a l'escola amb portal per a famílies permet transparència controlada."
+    - question: "Les famílies poden veure l'expedient acadèmic digital?"
+      answer: "Podeu veure la informació que els correspon (assistència, comunicacions, documentació que hagin signat). L'expedient acadèmic digital complet sol ser intern. La gestió d'estudiants a l'escola amb portal per a famílies permet transparència controlada."
     - question: "¿Digitalitzar tot l'arxiu històric?"
       answer: "Prioritzeu curs actual i documents actius; l'històric per fases."
 ---
@@ -57,7 +58,7 @@ Secretaria, professors i direcció consulten la informació de l'alumne sense ce
 
 <br>
 
-Registre de qui hi ha accedit, què s'ha modificat i quan. Lexpedient acadèmic digital facilita el compliment del GDPR i la resposta a inspeccions. La gestió d'estudiants a l'escola amb auditoria dóna seguretat jurídica.
+Registre de qui hi ha accedit, què s'ha modificat i quan. L'expedient acadèmic digital facilita el compliment del GDPR i la resposta a inspeccions. La gestió d'estudiants a l'escola amb auditoria dóna seguretat jurídica.
 
 <br>
 
@@ -93,7 +94,7 @@ Prioritza curs actual i documents actius; l'històric per fases.
 
 <br>
 
-<strong>Què ha de contenir lexpedient digital</strong>
+<strong>Què ha de contenir l'expedient digital</strong>
 
 <br>
 
@@ -103,7 +104,7 @@ Prioritza curs actual i documents actius; l'històric per fases.
 - **Informes de salut:** Al·lèrgies, medicació i protocols accessibles per infermeria.
 - **Incidències:** Convivència i seguiment tutoria amb registre cronològic.
 - **Documents NEAE:** Adaptacions i acords amb accés restringit per rol.
-- **Comunicacions arxivades:** Missatges institucionals vinculats a lexpedient.
+- **Comunicacions arxivades:** Missatges institucionals vinculats a l'expedient.
 
 Cada accés registrat per usuari i data.
 

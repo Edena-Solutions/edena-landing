@@ -1,8 +1,9 @@
 ---
 title: "Verifactu 2027 guide for schools: deadlines, obligations and how to prepare"
+seoTitle: "Verifactu 2027 guide for schools in Spain"
 date: "2026-07-23"
 translationKey: "guia-verifactu-2027-centros-educativos"
-description: "A practical Verifactu guide for schools, nurseries and academies in Spain: what RD 1007/2023 requires, the definitive 2027 deadlines, penalties and a checklist to arrive on time."
+description: "What RD 1007/2023 requires from schools, nurseries and academies in Spain: the definitive 2027 deadlines, penalties and a checklist to arrive on time."
 tags:
     [
         "Verifactu",

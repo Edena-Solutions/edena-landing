@@ -1,5 +1,6 @@
 ---
 title: "Guide SEO pour les établissements scolaires : apparaître sur Google"
+seoTitle: "Guide SEO pour établissements scolaires : être sur Google"
 date: "2026-02-12"
 translationKey: "seo-centros-educativos"
 description: "SEO pour établissements scolaires : comment apparaître quand les familles recherchent une école. Guide pratique pour les directions et équipes."

@@ -1,8 +1,9 @@
 ---
 title: "Switching school software without losing your data: interoperability, APIs and portability"
+seoTitle: "Switching school software without losing your data"
 date: "2026-08-12"
 translationKey: "cambiar-software-escolar-interoperabilidad-portabilidad-datos-2026"
-description: "The questions to put in writing before signing with a school management vendor: what you can export, in what format, what it integrates with and what happens to your data the day you leave."
+description: "What to ask in writing before signing with a school software vendor: what you can export, in what format, what it integrates with and how you leave."
 tags: ["interoperability", "data portability", "API", "migration", "software selection"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1682145189653-bb0b79db3415?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

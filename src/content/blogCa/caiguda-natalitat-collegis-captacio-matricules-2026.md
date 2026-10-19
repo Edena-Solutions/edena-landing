@@ -1,8 +1,9 @@
 ---
 title: "Menys infants, mateixes places: com defensar la matrícula amb la natalitat en caiguda"
+seoTitle: "Caiguda de la natalitat: com defensar la matrícula"
 date: "2026-08-07"
 translationKey: "caida-natalidad-colegios-captacion-matriculas-2026"
-description: "L'esfondrament demogràfic equival a més de 32.000 aules perdudes en una dècada. Pla de tres fronts per a col·legis: convertir millor les sol·licituds, retenir els qui ja hi són i detectar la fuga abans que es formalitzi."
+description: "La caiguda de la natalitat equival a més de 32.000 aules perdudes en una dècada. Tres fronts per a col·legis: convertir, retenir i detectar baixes."
 tags: ["natalitat", "captació d'alumnes", "matrícules", "retenció", "direcció"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1575313844062-39c66a566b6a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

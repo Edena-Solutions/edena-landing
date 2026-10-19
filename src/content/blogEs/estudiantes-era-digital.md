@@ -21,7 +21,7 @@ faqs:
 
 <br>
 
-Los estudiantes de hoy están creciendo en un mundo radicalmente diferente al de generaciones anteriores. Nacidos en la era digital, estos "nativos digitales" tienen acceso a información ilimitada, herramientas de comunicación global, y tecnologías que transforman constantemente la forma en que aprenden y se desarrollan. Sin embargo, este nuevo contexto también presenta desafíte únicos que requieren nuevas habilidades, estrategias de aprendizaje, y preparación para un futuro que evoluciona a velocidad vertiginosa.
+Los estudiantes de hoy están creciendo en un mundo radicalmente diferente al de generaciones anteriores. Nacidos en la era digital, estos "nativos digitales" tienen acceso a información ilimitada, herramientas de comunicación global, y tecnologías que transforman constantemente la forma en que aprenden y se desarrollan. Sin embargo, este nuevo contexto también presenta desafíos únicos que requieren nuevas habilidades, estrategias de aprendizaje, y preparación para un futuro que evoluciona a velocidad vertiginosa.
 
 <br>
 
@@ -55,11 +55,11 @@ Las plataformas de aprendizaje adaptativo están proporcionando experiencias per
 
 <br>
 
-<strong>Desafíte de la era digital</strong>
+<strong>Desafíos de la era digital</strong>
 
 <br>
 
-A pesar de las oportunidades que ofrece la tecnología, los estudiantes digitales también enfrentan desafíte únicos. La sobrecarga de información puede ser abrumadora, y muchos estudiantes luchan por filtrar información relevante de la irrelevante. La distracción digital es un problema creciente, con múltiples dispositivos y plataformas compitiendo por su atención.
+A pesar de las oportunidades que ofrece la tecnología, los estudiantes digitales también enfrentan desafíos únicos. La sobrecarga de información puede ser abrumadora, y muchos estudiantes luchan por filtrar información relevante de la irrelevante. La distracción digital es un problema creciente, con múltiples dispositivos y plataformas compitiendo por su atención.
 
 El aislamiento social puede ser un riesgo cuando los estudiantes pasan demasiado tiempo en entornos digitales. Es fundamental que desarrollen habilidades sociales y emocionales que les permitan navegar tanto el mundo físico como el digital de manera efectiva.
 

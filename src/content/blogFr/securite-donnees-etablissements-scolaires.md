@@ -1,8 +1,9 @@
 ---
 title: "Sécurité des données dans les établissements scolaires : protéger l'avenir numérique"
+seoTitle: "Sécurité des données dans les établissements scolaires"
 date: "2025-01-25"
 translationKey: "seguridad-datos-centros-educativos"
-description: "À l’ère du numérique, les établissements scolaires traitent d’énormes quantités de données sensibles : informations personnelles des élèves et de leurs familles."
+description: "Les établissements traitent d'énormes quantités de données sensibles, à commencer par celles des élèves et des familles. Comment les protéger."
 tags:
     - "sécurité"
     - "données"

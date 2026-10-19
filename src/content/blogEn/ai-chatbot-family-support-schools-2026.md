@@ -1,5 +1,6 @@
 ---
 title: "AI Chatbot for Families: 24/7 Support in Schools and Academies in 2026"
+seoTitle: "AI chatbot for families in schools and academies"
 date: "2026-06-29"
 translationKey: "chatbot-ia-atencion-familias-colegios-2026"
 description: "How an AI chatbot can handle families' frequent questions 24/7, relieve the office, and improve the experience without losing the human touch in 2026."

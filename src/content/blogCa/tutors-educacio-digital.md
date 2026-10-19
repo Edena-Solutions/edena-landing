@@ -2,7 +2,7 @@
 title: "Guardians a l'educació digital: El paper de les famílies"
 date: "2025-03-01"
 translationKey: "guardianes-educacion-digital"
-description: "A l'era digital, el paper dels pares com a guardians de l'educació dels seus fills ha evolucionat significativament."
+description: "El paper de les famílies en l'educació digital dels fills: consentiments, temps de pantalla i acords d'ús entre les famílies i el centre."
 tags:
     - "famílies"
     - "guardians"
@@ -16,7 +16,7 @@ relatedPosts:
     - comunicacio-digital-centres-educatius
     - comunicacio-families-era-digital
 faqs:
-    - question: "Acord dús de dispositius?"
+    - question: "Acord d'ús de dispositius?"
       answer: "Regles clares per edat, signat per famílies en matricular-se."
     - question: "Control parental a app del centre?"
       answer: "El centre informa; el control a casa és responsabilitat familiar amb guia del centre."
@@ -32,7 +32,7 @@ faqs:
 
 <br>
 
-Consentiments, temps de pantalla i acords dús.
+Consentiments, temps de pantalla i acords d'ús.
 
 A l'era digital, el paper dels pares com a guardians de l'educació dels seus fills ha evolucionat significativament. Ja no es tracta només de supervisar tasques escolars i assistir a reunions de pares, sinó convertir-se en guies actius en un món on la tecnologia està omnipresent. Els pares moderns han d'equilibrar l'aprofitament de les oportunitats digitals amb la protecció dels seus fills davant dels riscos del món en línia, creant un entorn on la tecnologia sigui una eina de creixement i no una distracció.
 
@@ -52,7 +52,7 @@ El rol del guardià digital va més enllà de limitar el temps de pantalla. Incl
 
 <br>
 
-Un dels desafiaments més importants que enfronten els pares és trobar l'equilibri adequat entre l'ús de tecnologia i altres activitats importants per al desenvolupament. La tecnologia pot ser una eina poderosa per a laprenentatge, però també pot interferir amb el desenvolupament dhabilitats socials, lactivitat física, i la creativitat.
+Un dels desafiaments més importants que enfronten els pares és trobar l'equilibri adequat entre l'ús de tecnologia i altres activitats importants per al desenvolupament. La tecnologia pot ser una eina poderosa per a l'aprenentatge, però també pot interferir amb el desenvolupament d'habilitats socials, l'activitat física, i la creativitat.
 
 Els guardians digitals efectius estableixen límits clars però flexibles i s'adapten a les necessitats individuals de cada fill. Reconeixen que no tots els infants necessiten les mateixes restriccions i que l'ús de tecnologia ha d'evolucionar a mesura que els infants creixen i desenvolupen més responsabilitat.
 
@@ -64,7 +64,7 @@ Els guardians digitals efectius estableixen límits clars però flexibles i s'ad
 
 L'educació digital ha de començar des dels primers anys de vida, quan els nens estan més receptius a aprendre nous conceptes i hàbits. Els pares poden introduir la tecnologia de manera gradual i supervisada, ensenyant als infants conceptes bàsics com la privadesa, la seguretat, i el comportament apropiat online.
 
-Els jocs educatius, les aplicacions daprenentatge i el contingut digital de qualitat poden ser eines valuoses per al desenvolupament cognitiu i social. Els pares han de seleccionar amb cura el contingut i participar activament en l'experiència digital dels seus fills, no només com a supervisors, sinó com a companys d'aprenentatge.
+Els jocs educatius, les aplicacions d'aprenentatge i el contingut digital de qualitat poden ser eines valuoses per al desenvolupament cognitiu i social. Els pares han de seleccionar amb cura el contingut i participar activament en l'experiència digital dels seus fills, no només com a supervisors, sinó com a companys d'aprenentatge.
 
 <br>
 
@@ -74,7 +74,7 @@ Els jocs educatius, les aplicacions daprenentatge i el contingut digital de qual
 
 Una de les responsabilitats més importants dels guardians digitals és protegir els seus fills dels riscos del món en línia. Això inclou ensenyar sobre privadesa, configurar controls parentals apropiats, i mantenir línies de comunicació obertes sobre les experiències digitals dels infants.
 
-Els pares han d'estar informats sobre les plataformes que els seus fills utilitzen, els riscos associats amb cadascuna i les millors pràctiques per mantenir la seguretat. També han densenyar als seus fills a reconèixer i reportar contingut inapropiat, cyberbullying, i altres riscos digitals.
+Els pares han d'estar informats sobre les plataformes que els seus fills utilitzen, els riscos associats amb cadascuna i les millors pràctiques per mantenir la seguretat. També han d'ensenyar als seus fills a reconèixer i reportar contingut inapropiat, cyberbullying, i altres riscos digitals.
 
 <br>
 
@@ -94,7 +94,7 @@ Els pares poden modelar el pensament crític discutint notícies, verificant fon
 
 Els guardians digitals més efectius treballen en col·laboració amb els centres educatius per crear una experiència educativa coherent. Els pares han d'estar informats sobre les polítiques de tecnologia del centre, les eines digitals que es fan servir i les expectatives sobre l'ús de dispositius a casa.
 
-Aquesta col·laboració permet que els pares reforcin a casa les lliçons apreses a lescola i que els professors comprenguin millor el context digital de cada estudiant. Els centres educatius poden proporcionar recursos i formació per ajudar els pares a ser guardians digitals més efectius.
+Aquesta col·laboració permet que els pares reforcin a casa les lliçons apreses a l'escola i que els professors comprenguin millor el context digital de cada estudiant. Els centres educatius poden proporcionar recursos i formació per ajudar els pares a ser guardians digitals més efectius.
 
 <br>
 
@@ -114,7 +114,7 @@ Els pares poden mostrar als seus fills com fer servir la tecnologia per aprendre
 
 El rol del guardià digital evoluciona a mesura que els infants creixen. Els infants petits necessiten supervisió constant i límits clars, mentre que els adolescents necessiten més autonomia i oportunitats per desenvolupar responsabilitat digital.
 
-Els pares han d'adaptar les seves estratègies segons l'edat, la maduresa i les necessitats individuals de cada fill. Això pot incloure ajustar els controls parentals, canviar les expectatives sobre lús de dispositius, i modificar les converses sobre seguretat i responsabilitat digital.
+Els pares han d'adaptar les seves estratègies segons l'edat, la maduresa i les necessitats individuals de cada fill. Això pot incloure ajustar els controls parentals, canviar les expectatives sobre l'ús de dispositius, i modificar les converses sobre seguretat i responsabilitat digital.
 
 <br>
 
@@ -122,7 +122,7 @@ Els pares han d'adaptar les seves estratègies segons l'edat, la maduresa i les 
 
 <br>
 
-Els guardians digitals moderns tenen accés a una àmplia gamma d'eines i recursos per ajudar-los en el rol. Les aplicacions de control parental poden ajudar a establir límits i monitoritzar lús de dispositius. Els recursos educatius poden proporcionar informació sobre els darrers riscos digitals i millors pràctiques.
+Els guardians digitals moderns tenen accés a una àmplia gamma d'eines i recursos per ajudar-los en el rol. Les aplicacions de control parental poden ajudar a establir límits i monitoritzar l'ús de dispositius. Els recursos educatius poden proporcionar informació sobre els darrers riscos digitals i millors pràctiques.
 
 Els grups de pares i comunitats en línia poden donar suport i compartir experiències. Els centres educatius i organitzacions sense ànim de lucre ofereixen tallers i recursos per ajudar els pares a desenvolupar les seves habilitats com a guardians digitals.
 

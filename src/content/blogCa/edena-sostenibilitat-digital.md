@@ -27,7 +27,7 @@ faqs:
 
 <br>
 
-En un món cada cop més conscient de la importància de la sostenibilitat, els centres educatius tenen una responsabilitat especial. No només han d'educar les generacions futures sobre la importància de protegir el medi ambient, sinó que també han de liderar amb l'exemple implementant pràctiques sostenibles en les seves pròpies operacions. La digitalització, quan es fa correctament, pot ser una eina poderosa per reduir limpacte ambiental i millorar leficiència econòmica.
+En un món cada cop més conscient de la importància de la sostenibilitat, els centres educatius tenen una responsabilitat especial. No només han d'educar les generacions futures sobre la importància de protegir el medi ambient, sinó que també han de liderar amb l'exemple implementant pràctiques sostenibles en les seves pròpies operacions. La digitalització, quan es fa correctament, pot ser una eina poderosa per reduir l'impacte ambiental i millorar l'eficiència econòmica.
 
 <br>
 
@@ -49,7 +49,7 @@ La digitalització dels processos educatius no és només una qüestió de moder
 
 La implementació de Edena elimina la necessitat de la majoria de documents en paper. Les comunicacions amb les famílies es realitzen digitalment, les factures s'envien per correu electrònic, els expedients acadèmics s'emmagatzemen al núvol, i els reports es generen automàticament sense necessitat d'impressió.
 
-Aquesta reducció en el consum de paper no només salva arbres, sinó que també redueix l'energia necessària per a la producció, el transport i l'eliminació de paper. A més, elimina la necessitat demmagatzematge físic de documents, reduint lespai necessari i lenergia per a climatització.
+Aquesta reducció en el consum de paper no només salva arbres, sinó que també redueix l'energia necessària per a la producció, el transport i l'eliminació de paper. A més, elimina la necessitat d'emmagatzematge físic de documents, reduint l'espai necessari i l'energia per a climatització.
 
 Els sistemes digitals com Edena optimitzen els processos administratius, reduint el temps i energia necessaris per completar tasques rutinàries. L'automatització de processos com la facturació, el control d'assistència i la comunicació elimina passos innecessaris i redueix el consum de recursos.
 
@@ -75,11 +75,11 @@ A més, els sistemes digitals permeten un millor control de l'ús d'energia a le
 
 <br>
 
-Edena utilitza infraestructura al núvol que és significativament més eficient energèticament que els servidors tradicionals. Els centres de dades moderns utilitzen tecnologies de refrigeració avançades, energies renovables i optimització automàtica de lús de recursos.
+Edena utilitza infraestructura al núvol que és significativament més eficient energèticament que els servidors tradicionals. Els centres de dades moderns utilitzen tecnologies de refrigeració avançades, energies renovables i optimització automàtica de l'ús de recursos.
 
 Aquesta infraestructura no només redueix l'impacte ambiental directe, sinó que també permet que múltiples centres educatius comparteixin recursos, maximitzant-ne l'eficiència i minimitzant-ne el malbaratament.
 
-Edena ha estat dissenyat des del principi amb leficiència en ment. Cada funcionalitat ha estat optimitzada per reduir el temps i els recursos necessaris per completar les tasques administratives. L'automatització de processos elimina passos innecessaris i redueix la possibilitat d'errades que requereixen correcció.
+Edena ha estat dissenyat des del principi amb l'eficiència en ment. Cada funcionalitat ha estat optimitzada per reduir el temps i els recursos necessaris per completar les tasques administratives. L'automatització de processos elimina passos innecessaris i redueix la possibilitat d'errades que requereixen correcció.
 
 Edena no només proporciona eines digitals, sinó que també inclou formació sobre com utilitzar la tecnologia de manera sostenible. Els centres educatius aprenen a maximitzar els beneficis ambientals de la digitalització i implementar millors pràctiques de sostenibilitat.
 
@@ -93,7 +93,7 @@ Els centres educatius que implementen sistemes de sostenibilitat digital solen a
 
 Els estalvis econòmics solen ser igualment impressionants. Els centres estalvien milers d'euros anuals en costos de paper, impressió i emmagatzematge. Aquests estalvis es reinverteixen en programes educatius sobre sostenibilitat i en millores de les instal·lacions.
 
-Molts centres fan servir la digitalització com a part duna iniciativa més àmplia de sostenibilitat. Aquests centres no només digitalitzen els processos administratius, sinó que també implementen sistemes d'energia renovable, optimització de residus i educació ambiental.
+Molts centres fan servir la digitalització com a part d'una iniciativa més àmplia de sostenibilitat. Aquests centres no només digitalitzen els processos administratius, sinó que també implementen sistemes d'energia renovable, optimització de residus i educació ambiental.
 
 Els resultats solen ser transformadors. Molts centres ara generen més energia de la que consumeixen, han eliminat completament els residus que van a l'abocador i han integrat la sostenibilitat en tots els aspectes del seu currículum educatiu.
 
@@ -103,9 +103,9 @@ Els resultats solen ser transformadors. Molts centres ara generen més energia d
 
 <br>
 
-Les versions futures de Edena inclouran funcionalitats d'intel·ligència artificial que optimitzaran automàticament l'ús de recursos. Els sistemes aprendran els patrons dús del centre i ajustaran automàticament la configuració per maximitzar leficiència.
+Les versions futures de Edena inclouran funcionalitats d'intel·ligència artificial que optimitzaran automàticament l'ús de recursos. Els sistemes aprendran els patrons d'ús del centre i ajustaran automàticament la configuració per maximitzar l'eficiència.
 
-Edena està desenvolupant integracions amb sistemes d'energia renovable que permetran als centres educatius optimitzar l'ús d'energia solar, eòlica i altres fonts renovables. Els sistemes podran ajustar automàticament el consum basant-se en la disponibilitat denergia renovable.
+Edena està desenvolupant integracions amb sistemes d'energia renovable que permetran als centres educatius optimitzar l'ús d'energia solar, eòlica i altres fonts renovables. Els sistemes podran ajustar automàticament el consum basant-se en la disponibilitat d'energia renovable.
 
 Els centres educatius podran utilitzar Edena per analitzar i reportar-ne l'impacte ambiental. Els sistemes generaran reports automàtics sobre el consum de recursos, la petjada de carboni i les millores en sostenibilitat, permetent una transparència completa i una millora contínua.
 
@@ -115,9 +115,9 @@ Els centres educatius podran utilitzar Edena per analitzar i reportar-ne l'impac
 
 <br>
 
-Edena no només proporciona eines per a la gestió sostenible, sinó que també inclou recursos educatius que ajuden els centres a integrar la sostenibilitat en el seu currículum. Els estudiants poden aprendre sobre limpacte ambiental de diferents activitats i com la tecnologia pot ajudar a reduir aquest impacte.
+Edena no només proporciona eines per a la gestió sostenible, sinó que també inclou recursos educatius que ajuden els centres a integrar la sostenibilitat en el seu currículum. Els estudiants poden aprendre sobre l'impacte ambiental de diferents activitats i com la tecnologia pot ajudar a reduir aquest impacte.
 
-Els centres educatius poden utilitzar Edena per gestionar projectes de sostenibilitat que involucren tota la comunitat educativa. Des de campanyes de reciclatge fins a projectes denergia renovable, la plataforma proporciona les eines necessàries per coordinar i mesurar limpacte daquestes iniciatives.
+Els centres educatius poden utilitzar Edena per gestionar projectes de sostenibilitat que involucren tota la comunitat educativa. Des de campanyes de reciclatge fins a projectes d'energia renovable, la plataforma proporciona les eines necessàries per coordinar i mesurar l'impacte d'aquestes iniciatives.
 
 <br>
 

@@ -1,8 +1,9 @@
 ---
 title: "Erabiltzaile-esperientzia: hezkuntza-teknologiaren adopzioko gakoa"
+seoTitle: "Erabiltzaile-esperientzia hezkuntza-teknologian"
 date: "2025-01-20"
 translationKey: "experiencia-usuario-tecnologia-educativa"
-description: "Ezagutu zergatik den erabiltzaile-esperientzia funtsezkoa hezkuntza-teknologiaren arrakastarako eta nola diseinatu erabiltzaileek benetako erabili nahi izango dituzten irtenbideak."
+description: "Zergatik erabakitzen duen erabiltzaile-esperientziak hezkuntza-teknologia onartzen den ala ez, eta nola aukeratu taldeak erabili nahi dituen tresnak."
 tags:
     - "UX"
     - "experiencia"

@@ -1,5 +1,6 @@
 ---
 title: "Innovación pedagógica con tecnología: Transformando la enseñanza y el aprendizaje"
+seoTitle: "Innovación pedagógica con tecnología en el aula"
 date: "2024-10-15"
 translationKey: "innovacion-pedagogica-tecnologia"
 description: "Explora cómo la tecnología está cambiando las metodologías pedagógicas y creando experiencias de aprendizaje más efectivas y atractivas."
@@ -155,6 +156,6 @@ Un centro de 280 familias automatizó asistencia, recordatorios de pago y boleti
 
 La innovación pedagógica con tecnología no es una opción, sino una necesidad para preparar a los estudiantes para el futuro. Los centros educativos que adoptan enfoques pedagógicos innovadores están creando experiencias de aprendizaje más efectivas, atractivas, y relevantes.
 
-¿Estás listo para transformar la pedagogía en tu centro educativo? Descubre cómo Edena puede ayudarte a implementar metodologías innovadoras que potencien el aprendizaje de tus estudiantes y los preparen para los desafíte del
+¿Estás listo para transformar la pedagogía en tu centro educativo? Descubre cómo Edena puede ayudarte a implementar metodologías innovadoras que potencien el aprendizaje de tus estudiantes y los preparen para los desafíos del
 
 <br>

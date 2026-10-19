@@ -1,5 +1,6 @@
 ---
 title: "Com millorar la comunicació amb les famílies des d'una única plataforma digital"
+seoTitle: "Comunicació amb les famílies des d'una sola plataforma"
 date: "2026-03-01"
 translationKey: "comunicacion-colegio-familias-plataforma-digital"
 description: "La comunicació col·legi famílies dispersa en emails, grups de WhatsApp i papers genera caos, malentesos i una mala experiència."
@@ -17,11 +18,11 @@ relatedPosts:
     - app-mobil-educacio
 faqs:
     - question: "Una app per a pares de col·legi substitueix a l'email?"
-      answer: "No necessàriament. El correu electrònic continua sent útil per a contingut llarg. Però una app per a pares de col·legi és millor per a avisos urgents, notificacions dassistència i recordatoris de pagament. L'ideal és tenir tots dos i fer-los servir segons el tipus de missatge."
+      answer: "No necessàriament. El correu electrònic continua sent útil per a contingut llarg. Però una app per a pares de col·legi és millor per a avisos urgents, notificacions d'assistència i recordatoris de pagament. L'ideal és tenir tots dos i fer-los servir segons el tipus de missatge."
     - question: "Les famílies adopten l'app per a pares de col·legi?"
       answer: "Sí, si el centre la presenta bé i ofereix valor (consulteu assistència, pagar, rebre avisos). La clau és que el primer contacte sigui útil; si només reben circulars llargues, l'adopció serà menor."
     - question: "Com complir GDPR en la comunicació col·legi famílies?"
-      answer: "Usar eines que permetin gestionar consentiments, no compartir dades amb fins no autoritzats i donar de baixa a qui ho sol·liciti. El proveïdor ha dactuar com a encarregat del tractament si processa dades per compte del centre."
+      answer: "Usar eines que permetin gestionar consentiments, no compartir dades amb fins no autoritzats i donar de baixa a qui ho sol·liciti. El proveïdor ha d'actuar com a encarregat del tractament si processa dades per compte del centre."
     - question: "És legal fer servir WhatsApp amb famílies?"
       answer: "Amb consentiment i criteri, per a coordinació; no substitueix canal institucional traçable."
 ---
@@ -36,7 +37,7 @@ faqs:
 
 Centralitzar circulars, incidències i autoritzacions. Pilar: <a href="/ca/blog/app-familles-collegis-avantatges-2026">app famílies 2026</a>.
 
-La comunicació col·legi famílies dispersa en emails, grups de WhatsApp i papers genera caos, malentesos i una mala experiència. Una app per a pares o portal digital unifica els canals: notificacions dassistència, circulars, recordatoris de pagament i missatges personalitzats des dun sol lloc. Aquest article explica com millorar la comunicació amb les famílies usant una plataforma digital i què ha d'incloure una app per a pares de col·legi.
+La comunicació col·legi famílies dispersa en emails, grups de WhatsApp i papers genera caos, malentesos i una mala experiència. Una app per a pares o portal digital unifica els canals: notificacions d'assistència, circulars, recordatoris de pagament i missatges personalitzats des d'un sol lloc. Aquest article explica com millorar la comunicació amb les famílies usant una plataforma digital i què ha d'incloure una app per a pares de col·legi.
 
 <br>
 

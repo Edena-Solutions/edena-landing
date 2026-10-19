@@ -13,7 +13,6 @@ cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&
 relatedPosts:
     - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
     - software-aukera-egiaztapen-2026
-    - eskola-kudeaketa-softwarea-aukeratzea
     - erp-eskola-digitalizazio-gida
 faqs:
     - question: "Zenbat balio du ikastetxeak kudeatzeko softwarea ezartzeak?"
@@ -26,6 +25,12 @@ faqs:
       answer: "Espainian, araudia aurrera doa. Ikastetxeetarako ikastetxeen kudeaketa-software onena prestatuta edo egokitzapen-prozesuan egon behar da; Mesedez, egiaztatu sinatu aurretik."
     - question: "Egokia al da software modularra edo bakarrean?"
       answer: "Dagoeneko mantendu nahi dituzun tresnak (adibidez, plataforma akademikoa) badituzuen araberakoa da. Nukleo bateratu batek (fakturazioa, familiak, administrazioa) eguneroko eragiketak errazten ditu askotan."
+    - question: "Zenbat iraun behar du bilaketa-faseak?"
+      answer: "Irizpide argiak badituzue, astebete mugatzeko eta bi-lau asteko demo bideratuak nahikoa dira. Bi hilabete baino gehiago pilotu gabe erabaki barneko faltarengatia da, ez eskaintzaren faltagatik."
+    - question: "Kobrantzatik soilik hasi al daiteke?"
+      answer: "Bai, hornitzaileak modulu batekin hazi ahal badu berriz-migratu gabe. Ziurtatu expediente eta familiak datu-nagusi berdinera iritsiko direla."
+    - question: "Zer egin nire zentroa itunpekoa bada?"
+      answer: "Lehenetsi kuoten, beken eta administrazioarekiko komunikazioaren trazagarritasuna; CRM komertziala pisua du gutxiago pribatu hutsean baino, baina Verifactu eta LOPDGDD berdin aplikatzen dira."
 ---
 
 <strong>Nola aukeratu eskola kudeatzeko software onena zure hezkuntza zentrorako</strong>
@@ -159,6 +164,62 @@ Ikastetxeko kudeaketa softwarea zure ikastetxeko prozesuekin nola molda daitekee
 <br>
 
 Ez baduzu eskaera-matrikula-ordainketa demoan ixten datu errealekin, baztertu edo eskatu bigarren pilotu bat.
+
+<br>
+
+<strong>Bost urratseko gida labur bat (demoak eskatu baino lehen)</strong>
+
+<br>
+
+Zure zentroak oraindik datuak Excel, email eta tresna partzial baten artean banatzen baditu, gida honek bilaketa astebetean mugatzen laguntzen dizu. Ez du zuzendarirentzako egiaztapen-zerrenda osoa ordezkatzen, baina kobrantzak, familiak edo expedientea ez datorren hornitzaileekin hilabeteak galtzea ekiditen du. Helburua: hiru aukeren zerrenda laburra eta pilotu-irizpide argiekin atera.
+
+<br>
+
+<strong>1. urratsa: Mina euretan eta orduetan idatzi</strong>
+
+<br>
+
+Bildu idazkaritza eta zuzendaritza 45 minutuz. Zerrendatu hiru prozesue gehien mina ematen dutenak: ez-ordainketak, matrikula, komunikazioa, dokumentuak edo bertaratzea. Kalkulatu asteko orduak eta errore-kostua (faktura zuzentzaileak, erreklamazioak, familia-frustrazioak). ZenbakIrik gabe, edozein software garestia dirudi.
+
+<br>
+
+<strong>2. urratsa: Ezinbestekoak vs nahi direnak definitu</strong>
+
+<br>
+
+Ezinbestekoak normalean hauxe hartzen du: fakturazio erregularra, familia-portala edo aplikazioa, ikasle bakoitzeko expedientea, sarbide-rolak eta babeskopia. Nahi direnak: onarpenen CRM, denda, analitika aurreratua. Haur-eskola batek plazak eta menuak lehenetsi ohi ditu; hizkuntza akademia batek, bonoak eta denboraldiak.
+
+<br>
+
+<strong>3. urratsa: Exijitu demo zure datuekin</strong>
+
+<br>
+
+Ez onartu demo komertziala soilik. Igo bost familia fikzio baina errealista, ordainagiri-ziklo bat eta eskaera-kanpaina bat. Neurtu klikak eta denbora. Deman jada Excel-zubia behar baduzue, ekoizpenean okerrago izango da.
+
+<br>
+
+<strong>4. urratsa: Kalkulatu TCO hiru urterako</strong>
+
+<br>
+
+Batu lizentzia, inplementazioa, prestakuntza eta barne-orduak. Zatitu familien edo ikasleen artean eskaintzak konparatzeko. Pantailako prezioaren engainua; ikasle bakoitzeko eta berreskuratutako orduko kostua ez.
+
+<br>
+
+<strong>5. urratsa: Pilotuak ebaketa-irizpidearekin</strong>
+
+<br>
+
+Zortzi eta hamabi aste artean, modulu oso bat (adibidez, kobrantzak edo onarpena). Aurretik adostu zein neurrikek agintzen duen: morositatea bi puntu jaitsi, matrikula-denbora erdi murriztu edo tresna-bikoizketa ezabatu.
+
+<br>
+
+<strong>Erabakitzeko gutxieneko taldea</strong>
+
+<br>
+
+Zuzendari edo kudeatzailea (aurrekontua eta lehentasuna), idazkaritza-arduraduna (eguneroko erabilera), onarpenetako norbait aktiboki ekartzen baduzue, eta datu pertsonalak ulertzen dituen norbait (DPO barne edo kanpoko). Idazkaritzarik mahai gainean gabe, iraila-saboteatzen duen tresna bat erosiko duzue.
 
 <br>
 

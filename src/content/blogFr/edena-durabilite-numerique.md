@@ -1,5 +1,6 @@
 ---
 title: "Edena et la durabilité numérique dans les établissements scolaires"
+seoTitle: "Edena et la durabilité numérique à l'école"
 date: "2025-07-20"
 translationKey: "edena-sostenibilidad-digital"
 description: "Dans un monde de plus en plus conscient de l’importance de la durabilité, les établissements scolaires ont une responsabilité particulière."

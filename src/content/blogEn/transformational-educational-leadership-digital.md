@@ -1,8 +1,9 @@
 ---
 title: "Transformational educational leadership in the digital era: Competencies and strategies"
+seoTitle: "Educational leadership in the digital age: key skills"
 date: "2025-09-15"
 translationKey: "liderazgo-educativo-transformacional-digital"
-description: "Saying \"we are a digital center\" without three concrete results in the first month generates cynicism."
+description: "Digital change fails when leaders announce it without fewer admin hours, fewer late payments or faster replies to families. How to lead it."
 tags:
     - "educational leadership"
     - "digital transformation"

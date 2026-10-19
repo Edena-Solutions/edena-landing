@@ -1,5 +1,6 @@
 ---
 title: "Digital Skills of Teachers in 2026: More than 661,000 Certified Teachers"
+seoTitle: "Teachers' digital competence in 2026: 661,000 certified"
 date: "2026-01-10"
 translationKey: "competencias-digitales-profesorado-2026"
 description: "The Digital Teaching Competence Reference Framework, updated in 2022 and aligned with the European #DigCompEdu framework."

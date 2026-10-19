@@ -1,5 +1,6 @@
 ---
 title: "Cómo mejorar la comunicación con las familias desde una única plataforma digital"
+seoTitle: "Comunicación con las familias desde una sola plataforma"
 date: "2026-03-01"
 translationKey: "comunicacion-colegio-familias-plataforma-digital"
 description: "La comunicación colegio familias dispersa en emails, grupos de WhatsApp y papeles genera caos, malentendidos y una mala experiencia."

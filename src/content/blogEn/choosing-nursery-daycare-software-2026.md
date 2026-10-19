@@ -1,8 +1,9 @@
 ---
 title: "How to choose software for a nursery or daycare centre in 2026"
+seoTitle: "How to choose software for a nursery or daycare centre"
 date: "2026-07-08"
 translationKey: "elegir-software-escuela-infantil-guarderia-2026"
-description: "A practical guide to choosing management software for your nursery or daycare in 2026: digital daily diary, family communication, billing, and what to ask before signing."
+description: "A guide to choosing your nursery or daycare software: digital daily diary, family communication, billing and what to ask before signing."
 tags:
     [
         "nursery software",

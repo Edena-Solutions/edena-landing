@@ -1,5 +1,6 @@
 ---
 title: "Eskola-fakturazioaren automatizazioa: barne-prozesuak optimizatzen"
+seoTitle: "Eskola-fakturazioaren automatizazioa"
 date: "2025-01-15"
 translationKey: "automatizacion-facturacion-escolar"
 description: "Hezkuntza-zentroek fakturazio-mota anitz kudeatzen dituzte: matrikulak, hileko kuotak, jarduera estrakurrrikularrak, zerbitzu osagarriak eta gehiago."

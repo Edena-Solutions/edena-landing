@@ -1,5 +1,6 @@
 ---
 title: "Agiri-kudeaketa digitala: eskola-administrazioaren etorkizuna"
+seoTitle: "Agiri-kudeaketa digitala eskola-administrazioan"
 date: "2025-01-18"
 translationKey: "gestion-documental-digital-centros"
 description: "Hezkuntza-zentroek agiri kopuru izugarria kudeatzen dute: espediente akademikoak, fakturak, kontratuak, komunikazio ofizialak eta askoz gehiago."

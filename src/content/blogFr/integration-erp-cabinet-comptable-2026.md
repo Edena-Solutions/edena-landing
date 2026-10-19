@@ -1,8 +1,9 @@
 ---
 title: "Intégration de l'ERP scolaire avec le cabinet comptable : comptabilité sans double travail"
+seoTitle: "ERP scolaire et cabinet comptable : sans double saisie"
 date: "2026-06-25"
 translationKey: "integracion-erp-gestoria-contabilidad-2026"
-description: "Comment connecter l'ERP de l'établissement au cabinet comptable pour éviter le double travail comptable, réduire les erreurs et clôturer le mois sans stress en 2026."
+description: "Comment connecter l'ERP de l'établissement au cabinet comptable pour éviter la double saisie, réduire les erreurs et clôturer le mois sans stress."
 tags:
     [
         "intégration ERP comptable",

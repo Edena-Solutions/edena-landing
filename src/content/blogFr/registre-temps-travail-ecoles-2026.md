@@ -1,8 +1,9 @@
 ---
 title: "Registre du temps de travail dans les établissements scolaires : obligations et conformité en 2026"
+seoTitle: "Registre du temps de travail : obligations des écoles"
 date: "2026-07-19"
 translationKey: "registro-jornada-centros-educativos-2026"
-description: "Ce que le registre du temps de travail exige des écoles, crèches et académies en Espagne en 2026 : réglementation, sanctions, enseignants et comment pointer sans feuilles papier."
+description: "Ce que le registre du temps de travail exige des écoles, crèches et académies en Espagne : règles, sanctions, enseignants et pointage sans papier."
 tags:
     [
         "registre du temps de travail",

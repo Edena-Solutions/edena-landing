@@ -1,8 +1,9 @@
 ---
 title: "Dokumentuen kudeaketa ikastetxeetan: agur paperari eta fitxategi galduei"
+seoTitle: "Dokumentu-kudeaketa ikastetxeetan: paperik gabe"
 date: "2026-04-01"
 translationKey: "gestion-documental-colegios-expediente-digital-2026"
-description: "Galdutako fitxategia ez da eragozpen txikia: arrisku legala, batzordeen atzerapenak, kexak eta idazkaritza-ordu dozenaka dakartza «azken posta nork zuen» jarraitzeko."
+description: "Galdutako espediente bat ez da eragozpen txikia: arrisku legala, batzordeen atzerapenak, kexak eta idazkaritzako orduak azken mezuaren bila."
 tags:
     - "ikastetxeko dokumentuen kudeaketa"
     - "fitxategi digitala"

@@ -1,5 +1,6 @@
 ---
 title: "Comment intégrer les paiements en ligne dans les écoles et réduire les impayés"
+seoTitle: "Paiements en ligne à l'école : réduire les impayés"
 date: "2026-02-21"
 translationKey: "pagos-online-educacion"
 description: "Paiements en ligne dans l'éducation : passerelles, relances et bonnes pratiques pour réduire les impayés dans les établissements scolaires."

@@ -1,8 +1,9 @@
 ---
 title: "Reglamento Europeo de IA en centros educativos: qué es exigible ya y qué llega en 2027"
+seoTitle: "Reglamento europeo de IA en centros educativos"
 date: "2026-08-03"
 translationKey: "reglamento-ia-ue-centros-educativos-2026"
-description: "El Reglamento (UE) 2024/1689 es de aplicación general desde el 2 de agosto de 2026. Qué obligaciones afectan hoy a colegios, escuelas infantiles y academias, qué sistemas son de alto riesgo y qué exigir a tus proveedores."
+description: "Qué obligaciones del Reglamento (UE) 2024/1689 afectan ya a colegios, escuelas infantiles y academias, qué sistemas son de alto riesgo y qué exigir."
 tags: ["reglamento IA", "inteligencia artificial", "normativa", "cumplimiento", "AI Act"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1658823276022-d6613757faa3?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

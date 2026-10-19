@@ -1,5 +1,6 @@
 ---
 title: "User experience: key in the adoption of educational technology"
+seoTitle: "User experience in educational technology"
 date: "2025-01-20"
 translationKey: "experiencia-usuario-tecnologia-educativa"
 description: "Discover why user experience is critical to the success of educational technology and how to design solutions that users actually want to use."

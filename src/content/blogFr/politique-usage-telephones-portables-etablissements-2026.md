@@ -1,8 +1,9 @@
 ---
 title: "Portables dans l'établissement : rédiger la politique des appareils que la loi va exiger"
+seoTitle: "Portables à l'école : rédiger la politique des appareils"
 date: "2026-08-14"
 translationKey: "politica-uso-dispositivos-moviles-centros-educativos-2026"
-description: "La loi espagnole de protection des mineurs en environnements numériques obligera chaque établissement à encadrer l'usage des appareils et relève l'âge du consentement de 14 à 16 ans. Ce que le document doit contenir et comment le faire signer."
+description: "La loi espagnole sur les mineurs en environnements numériques imposera d'encadrer les appareils. Ce que la politique doit contenir et comment la faire signer."
 tags:
     [
         "appareils mobiles",

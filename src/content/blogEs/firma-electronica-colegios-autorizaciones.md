@@ -1,5 +1,6 @@
 ---
 title: "Firma electrónica en colegios: autorizaciones y matrículas sin papel"
+seoTitle: "Firma electrónica en colegios: autorizaciones sin papel"
 date: "2026-05-16"
 translationKey: "firma-electronica-colegios-autorizaciones"
 description: "Cómo usar la firma electrónica en colegios para autorizaciones, matrículas y consentimientos, con validez y trazabilidad, en 2026."

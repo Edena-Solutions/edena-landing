@@ -1,5 +1,6 @@
 ---
 title: "Ikastetxeetako familientzako aplikazioa: zuzendaritza eta gurasoentzako benetako abantailak"
+seoTitle: "Familientzako aplikazioa ikastetxeetan: benetako abantailak"
 date: "2026-04-05"
 translationKey: "app-familias-colegios-ventajas-2026"
 description: "Aplikazio bat eta atari bat ez dira irudien apainketa: datak, ordainketak, oharrak eta dokumentuak aztarnekin elkarbizitzen dituen kanala dira."

@@ -1,8 +1,9 @@
 ---
 title: "How to reduce late payments in schools and daycares with automated collections"
+seoTitle: "Reduce late payments in schools with automated collection"
 date: "2026-03-20"
 translationKey: "morosidad-colegios-cobros-automaticos-2026"
-description: "Late payment in schools and daycares is not just a number in a report: it is secretarial time, tension with families, pressure on the cash register and the risk of diverting attention from academics."
+description: "Late payments cost office time, tension with families and pressure on cash flow. How schools and daycares reduce them with automated collection."
 tags:
     - "school delinquency"
     - "automatic payments"

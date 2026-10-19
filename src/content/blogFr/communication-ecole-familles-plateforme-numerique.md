@@ -1,5 +1,6 @@
 ---
 title: "Comment améliorer la communication avec les familles depuis une seule plateforme numérique"
+seoTitle: "Communiquer avec les familles depuis une seule plateforme"
 date: "2026-03-01"
 translationKey: "comunicacion-colegio-familias-plataforma-digital"
 description: "Communication école–familles : centralisez notifications, circulaires et messages dans une application parents et améliorez la relation avec les familles."

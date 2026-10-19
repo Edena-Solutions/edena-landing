@@ -1,8 +1,9 @@
 ---
 title: "Verifactu 2027 gida hezkuntza-zentroentzat: epeak, betebeharrak eta nola prestatu"
+seoTitle: "Verifactu 2027 gida hezkuntza-zentroentzat"
 date: "2026-07-23"
 translationKey: "guia-verifactu-2027-centros-educativos"
-description: "Verifactu gida praktikoa ikastetxe, haur-eskola eta akademientzat: zer eskatzen duen 1007/2023 EDak, 2027ko behin betiko epeak, zigorrak eta garaiz iristeko checklista."
+description: "Zer eskatzen dien 1007/2023 EDak ikastetxe, haur-eskola eta akademiei: 2027ko behin betiko epeak, zigorrak eta garaiz iristeko kontrol-zerrenda."
 tags:
     [
         "Verifactu",

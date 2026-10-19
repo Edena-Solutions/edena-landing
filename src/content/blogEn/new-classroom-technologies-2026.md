@@ -1,8 +1,9 @@
 ---
 title: "New Technologies in the Classroom 2026: Transforming the Educational Experience"
+seoTitle: "New technologies in the classroom in 2026"
 date: "2026-01-29"
 translationKey: "nuevas-tecnologias-aula-2026"
-description: "The year 2026 is marking a before and after in how we teach and learn in Spanish classrooms."
+description: "How teaching and learning are changing in Spanish classrooms in 2026, with the DigEdu Plan equipping more than 240,000 classrooms with digital systems."
 tags:
     - "educational technology"
     - "digital classroom"

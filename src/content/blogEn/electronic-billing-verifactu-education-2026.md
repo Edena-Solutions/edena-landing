@@ -1,8 +1,9 @@
 ---
 title: "Electronic Billing and Verifactu in Education 2026: Regulatory Compliance and Efficiency"
+seoTitle: "Electronic invoicing and Verifactu in education (2026)"
 date: "2026-01-15"
 translationKey: "facturacion-electronica-verifactu-educacion-2026"
-description: "The year 2026 marks a turning point in the financial management of Spanish educational centers."
+description: "Electronic invoicing and the AEAT's Verifactu system for Spanish schools: what the rules require, the deadlines and how to prepare without disruption."
 tags:
     - "electronic billing"
     - "Verifactu"

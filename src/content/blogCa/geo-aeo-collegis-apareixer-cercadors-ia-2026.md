@@ -1,8 +1,9 @@
 ---
 title: "Que ChatGPT recomani el teu col·legi: guia de GEO i AEO per a centres educatius"
+seoTitle: "Que ChatGPT recomani el teu col·legi: guia de GEO i AEO"
 date: "2026-08-24"
 translationKey: "geo-aeo-colegios-aparecer-buscadores-ia-2026"
-description: "L'ús d'IA per cercar va passar del 5 % al 21 % en dos anys. Com fer que un assistent citi el teu centre quan una família pregunta per col·legis de la teva zona: entitat coherent, dades estructurades i contingut citable."
+description: "Com aconseguir que un assistent d'IA citi el teu centre quan una família busca escola a la zona: entitat coherent, dades estructurades i contingut citable."
 tags: ["GEO", "AEO", "màrqueting educatiu", "SEO", "captació"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1703022943822-0a1fa10cee23?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

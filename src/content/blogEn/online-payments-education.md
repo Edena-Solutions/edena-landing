@@ -1,5 +1,6 @@
 ---
 title: "How to integrate online payments in schools and reduce defaults"
+seoTitle: "Online payments in schools: how to reduce defaults"
 date: "2026-02-21"
 translationKey: "pagos-online-educacion"
 description: "Here we are not talking about late payment policy but about how to collect: SEPA, card, reconciliation and family payment experience."

@@ -2,7 +2,7 @@
 title: "Edena and digital sustainability in educational centers"
 date: "2025-07-20"
 translationKey: "edena-sostenibilidad-digital"
-description: "In a world increasingly aware of the importance of sustainability, educational centers have a special responsibility."
+description: "Schools have a special responsibility on sustainability. How digital management helps them lead by example and reduce their environmental footprint."
 tags:
     - "sustainability"
     - "digital"

@@ -1,8 +1,9 @@
 ---
 title: "The school as employer: whistleblowing channel, equality plan and the duties nobody looks at"
+seoTitle: "The school as employer: whistleblowing and equality plans"
 date: "2026-08-26"
 translationKey: "canal-denuncias-plan-igualdad-centros-educativos-2026"
-description: "Everyone watches safeguarding and data protection. Almost nobody watches the school's duties as an employing organisation: the whistleblowing channel required by Spain's Law 2/2023, the equality plan, working time records and how they fit together."
+description: "Spain's Law 2/2023 whistleblowing channel, the equality plan and working time records: a school's duties as an employer and how they fit together."
 tags: ["whistleblowing", "equality plan", "compliance", "human resources", "governance"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1490127252417-7c393f993ee4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

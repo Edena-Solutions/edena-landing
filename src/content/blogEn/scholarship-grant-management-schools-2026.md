@@ -1,8 +1,9 @@
 ---
 title: "Scholarship and Grant Management in Schools: From Paper Chaos to Full Control"
+seoTitle: "Scholarship and grant management in schools"
 date: "2026-06-10"
 translationKey: "gestion-becas-ayudas-centros-educativos-2026"
-description: "How to manage scholarships and grants in schools and academies: applications, documentation, discounts, and justification, without missing deadlines or balances in 2026."
+description: "How to manage scholarships and grants in schools and academies: applications, documents, discounts and justification, without missing deadlines."
 tags:
     - "scholarship management"
     - "school grants"

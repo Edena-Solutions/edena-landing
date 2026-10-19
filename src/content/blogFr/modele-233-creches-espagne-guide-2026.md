@@ -2,7 +2,7 @@
 title: "Modèle 233 pour les crèches en Espagne : guide pratique"
 date: "2026-07-14"
 translationKey: "modelo-233-guarderias-guia-2026"
-description: "Ce qu'est le modèle 233 espagnol, quelles crèches doivent le déposer, quelles données exige l'administration fiscale et comment préparer la déclaration de janvier sans épuiser votre équipe."
+description: "Ce qu'est le modèle 233 espagnol, quelles crèches doivent le déposer, quelles données exige le fisc et comment préparer la déclaration de janvier."
 tags:
     [
         "modèle 233",

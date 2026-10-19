@@ -2,7 +2,7 @@
 title: "Edena eta iraunkortasun digitala hezkuntza zentroetan"
 date: "2025-07-20"
 translationKey: "edena-sostenibilidad-digital"
-description: "Iraunkortasunaren garrantziaz gero eta kontzientziatuago dagoen munduan, hezkuntza zentroek ardura berezia dute."
+description: "Hezkuntza-zentroek ardura berezia dute iraunkortasunean. Nola laguntzen dien kudeaketa digitalak eredu izaten eta ingurumen-aztarna murrizten."
 tags:
     - "sostenibilidad"
     - "digital"

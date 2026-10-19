@@ -1,8 +1,9 @@
 ---
 title: "Irakasleen gaitasun digitalak 2026an: 661.000 irakasle ziurtatu baino gehiago"
+seoTitle: "Irakasleen gaitasun digitala 2026an: 661.000 ziurtatu"
 date: "2026-01-10"
 translationKey: "competencias-digitales-profesorado-2026"
-description: "366 irakasle baino gehiagorekin, Espainiak DigEdu Planaren helburua gainditu du funts publikoekin lagundutako zentroetan irakasleen %80ko ziurtagiria lortzeko."
+description: "661.000 irakasle baino gehiago ziurtatuta, Espainiak gainditu egin du DigEdu Planak funts publikoko zentroetarako zuen % 80ko ziurtapen-helburua."
 tags:
     - "gaitasun digitalak"
     - "irakasleen prestakuntza"

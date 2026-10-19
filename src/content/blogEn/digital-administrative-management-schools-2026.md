@@ -1,8 +1,9 @@
 ---
 title: "Digital Administrative Management in Educational Centers 2026: Eliminating Paper, Maximizing Efficiency"
+seoTitle: "Digital administrative management in schools (2026)"
 date: "2026-01-22"
 translationKey: "gestion-administrativa-digital-centros-2026"
-description: "The year 2026 is witnessing a radical transformation in the administrative management of Spanish educational centers."
+description: "How Spanish schools are taking administration fully digital in 2026: removing paper, automating processes and the results schools report."
 tags:
     - "administrative management"
     - "digitization"
@@ -15,7 +16,6 @@ relatedPosts:
     - school-management-software-comparison-spain-2026
     - school-software-purchase-checklist-2026
     - best-school-management-software
-    - choosing-school-management-software
 faqs:
     - question: "Where does the address begin?"
       answer: "Diagnosis of hours and pain in the secretariat, not a catalog of modules."

@@ -78,7 +78,7 @@ El software de gestión debe poder generar el recibo o la factura y enviar un en
 
 <br>
 
-Configura envíte automáticos antes del vencimiento y tras el vencimiento (por ejemplo, a los 3 y a los 7 días). Incluir el enlace de pago en el recordatorio aumenta la probabilidad de cobro. Los pagos online en educación se refuerzan cuando las familias reciben recordatorios útiles y pueden pagar sin pasos adicionales.
+Configura envíos automáticos antes del vencimiento y tras el vencimiento (por ejemplo, a los 3 y a los 7 días). Incluir el enlace de pago en el recordatorio aumenta la probabilidad de cobro. Los pagos online en educación se refuerzan cuando las familias reciben recordatorios útiles y pueden pagar sin pasos adicionales.
 
 <br>
 

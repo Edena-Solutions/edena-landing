@@ -1,5 +1,6 @@
 ---
 title: "Comunicación institucional con familias: Estrategias para la era digital"
+seoTitle: "Comunicación institucional con familias: estrategias"
 date: "2025-03-10"
 translationKey: "comunicacion-familias-era-digital"
 description: "Descubre cómo desarrollar estrategias de comunicación institucional efectivas que fortalezcan la relación entre centros educativos y familias."
@@ -39,7 +40,7 @@ La revolución digital ha transformado completamente las expectativas de comunic
 
 <br>
 
-La transparencia debe ser el principio rector de toda comunicación institucional. Los centros educativos deben compartir información honesta y completa sobre las políticas y procedimientos del centro, incluyendo los resultados académicos y las metodologías de evaluación utilizadas. También es fundamental ser transparentes en la gestión financiera y el uso de recursos, así como en las decisiones estratégicas y cambios organizacionales que afectan a la comunidad educativa. Incluso los problemas y desafíte que enfrenta el centro deben comunicarse de manera abierta para construir confianza y permitir que las familias tomen decisiones informadas.
+La transparencia debe ser el principio rector de toda comunicación institucional. Los centros educativos deben compartir información honesta y completa sobre las políticas y procedimientos del centro, incluyendo los resultados académicos y las metodologías de evaluación utilizadas. También es fundamental ser transparentes en la gestión financiera y el uso de recursos, así como en las decisiones estratégicas y cambios organizacionales que afectan a la comunidad educativa. Incluso los problemas y desafíos que enfrenta el centro deben comunicarse de manera abierta para construir confianza y permitir que las familias tomen decisiones informadas.
 
 Cada familia tiene necesidades específicas de información que varían según la edad y nivel educativo de los estudiantes, así como por los intereses y necesidades específicas de cada familia. Los sistemas modernos permiten personalizar las comunicaciones considerando las preferencias de comunicación de cada familia, ya sea email, SMS, app móvil u otros canales. También se adaptan a la frecuencia deseada de comunicaciones y al tipo de información más relevante para cada familia, creando una experiencia de comunicación verdaderamente personalizada.
 

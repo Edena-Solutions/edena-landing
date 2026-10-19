@@ -1,5 +1,6 @@
 ---
 title: "School Transport Management: Routes, Control, and Billing Without Paperwork"
+seoTitle: "School transport management: routes, control and billing"
 date: "2026-06-03"
 translationKey: "gestion-transporte-escolar-rutas-2026"
 description: "How to digitize school transport: routes, stop lists, boarding and alighting control, and automated billing, with peace of mind for families in 2026."

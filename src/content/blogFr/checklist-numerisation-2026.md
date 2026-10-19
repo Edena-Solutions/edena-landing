@@ -1,5 +1,6 @@
 ---
 title: "Checklist de numérisation 2026 pour votre établissement scolaire"
+seoTitle: "Checklist de numérisation 2026 pour votre établissement"
 date: "2026-02-24"
 translationKey: "checklist-digitalizacion-2026"
 description: "Checklist de numérisation des établissements scolaires 2026 : facturation, familles, données et processus pour moderniser votre structure."

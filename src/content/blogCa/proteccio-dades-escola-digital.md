@@ -2,7 +2,7 @@
 title: "Protecció de dades a la gestió digital d'escoles"
 date: "2026-02-14"
 translationKey: "proteccion-datos-escuela-digital"
-description: "La gestió digital d‟un centre educatiu implica tractar dades d‟alumnes, famílies i personal."
+description: "Quines responsabilitats, riscos i mesures implica tractar dades d'alumnes, famílies i personal en la gestió digital d'un centre educatiu."
 tags:
     - "protecció dades escola digital"
     - "GDPR"
@@ -16,12 +16,12 @@ faqs:
     - question: "Qui és el responsable del tractament en un centre educatiu?"
       answer: "Sol ser el titular del centre (entitat jurídica que dirigeix ​​el centre). Els directius actuen en nom seu; els proveïdors de programari són encarregats."
     - question: "Les dades han de ser a servidors de la UE?"
-      answer: "No és obligatori en tots els casos, però és lopció més senzilla per complir el GDPR. Si el proveïdor utilitza països tercers, hi ha d'haver garanties (clàusules tipus, decisions d'adequació)."
+      answer: "No és obligatori en tots els casos, però és l'opció més senzilla per complir el GDPR. Si el proveïdor utilitza països tercers, hi ha d'haver garanties (clàusules tipus, decisions d'adequació)."
     - question: "Què fer si hi ha una fuita de dades?"
       answer: "Avaluar el risc per als afectats; si hi ha risc, notificar a l'autoritat de control en 72 hores i, si escau, informar les persones afectades. Tenir un procediment escrit accelera la resposta."
     - question: "Les famílies poden demanar que esborrem totes les dades del vostre fill?"
       answer: "Tenen dret a la supressió quan ja no cal conservar-los (per exemple, després de deixar el centre i complert el termini legal de conservació). Hi ha excepcions (obligacions legals); convé documentar el criteri i el termini."
-    - question: "La protecció de dades a lescola digital exigeix ​​un DPO?"
+    - question: "La protecció de dades a l'escola digital exigeix ​​un DPO?"
       answer: "No sempre. És obligatori en organismes públics i en tractaments a gran escala o de categories especials. Molts centres privats no estan obligats, però designen un responsable intern per coordinar; és bona pràctica."
 ---
 
@@ -105,7 +105,7 @@ Un col·legi va revisar els contractes amb el programari de gestió i el d'envia
 
 <br>
 
-- Signar contractes amb proveïdors sense clàusules dencarregat del tractament.
+- Signar contractes amb proveïdors sense clàusules d'encarregat del tractament.
 - No informar les famílies sobre els tractaments o fer servir consentiments genèrics sense concretar finalitats.
 - Guardar dades en dispositius personals o en núvols no corporatius sense mesures de seguretat.
 - No tenir procediment davant de bretxes (comunicació a l'AEPD i als afectats en termini).
@@ -117,7 +117,7 @@ Un col·legi va revisar els contractes amb el programari de gestió i el d'envia
 
 <br>
 
-1. Elaborar o actualitzar el registre dactivitats de tractament (quines dades, finalitat, base legal, conservació).
+1. Elaborar o actualitzar el registre d'activitats de tractament (quines dades, finalitat, base legal, conservació).
 2. Revisar contractes amb proveïdors de programari: encarregat del tractament, ubicació de dades, subcontractació.
 3. Publicar o lliurar informació clara a famílies i personal sobre tractaments (clàusules informatives).
 4. Definir terminis de retenció per tipus de dada i procediment de supressió o anonimització.
@@ -159,9 +159,9 @@ Si vols alinear la gestió digital del teu centre amb la protecció de dades, po
 
 <br>
 
-El centre educatiu és responsable del tractament de dades dalumnes i famílies. El proveïdor de programari actua com a encarregat: ha d'oferir contracte d'encàrrec de tractament, registre d'activitats, xifrat en trànsit i repòs i subprocessadors documentats. Per a menors de 14 anys, el consentiment de mare, pare o tutor és central en la majoria de tractaments.
+El centre educatiu és responsable del tractament de dades d'alumnes i famílies. El proveïdor de programari actua com a encarregat: ha d'oferir contracte d'encàrrec de tractament, registre d'activitats, xifrat en trànsit i repòs i subprocessadors documentats. Per a menors de 14 anys, el consentiment de mare, pare o tutor és central en la majoria de tractaments.
 
-Davant d'una bretxa de seguretat, el termini de notificació a l'AEPD pot ser de 72 hores. Sense procediment escrit, registre daccessos i formació anual al personal, el compliment en paper no aguanta una auditoria real. Migrar de fulls de càlcul compartits a plataforma amb rols elimina còpies de llistats en correus electrònics interns, un dels vectors de risc més freqüents.
+Davant d'una bretxa de seguretat, el termini de notificació a l'AEPD pot ser de 72 hores. Sense procediment escrit, registre d'accessos i formació anual al personal, el compliment en paper no aguanta una auditoria real. Migrar de fulls de càlcul compartits a plataforma amb rols elimina còpies de llistats en correus electrònics interns, un dels vectors de risc més freqüents.
 
 Abans de signar amb un SaaS, exigeix ​​DPA (contracte d'encàrrec), ubicació de servidors, política de backups i pla de resposta a incidents. La protecció de dades no és un mòdul opcional: és la base sobre la qual famílies, professorat i inspecció confien en la teva digitalització.
 

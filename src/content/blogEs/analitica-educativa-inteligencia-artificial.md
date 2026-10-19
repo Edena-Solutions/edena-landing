@@ -1,8 +1,9 @@
 ---
 title: "Analítica educativa e inteligencia artificial: Datos que transforman la educación"
+seoTitle: "Analítica educativa e IA: datos para decidir en el centro"
 date: "2024-09-15"
 translationKey: "analitica-educativa-inteligencia-artificial"
-description: "La analítica educativa y la inteligencia artificial están transformando fundamentalmente cómo los centros educativos toman decisiones, personalizan el aprendizaje."
+description: "La analítica educativa y la inteligencia artificial cambian cómo los centros toman decisiones y personalizan el aprendizaje. Qué aplicar y cómo."
 tags: ["analítica", "inteligencia artificial", "datos", "decisiones"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1739805591936-39f03383c9a9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

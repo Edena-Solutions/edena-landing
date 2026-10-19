@@ -1,5 +1,6 @@
 ---
 title: "Signatura electrònica en col·legis: autoritzacions i matrícules sense paper"
+seoTitle: "Signatura electrònica a l'escola: autoritzacions sense paper"
 date: "2026-05-16"
 translationKey: "firma-electronica-colegios-autorizaciones"
 description: "Com utilitzar la signatura electrònica en col·legis per a autoritzacions, matrícules i consentiments, amb validesa i traçabilitat, el 2026."

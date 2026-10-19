@@ -1,8 +1,9 @@
 ---
 title: "Les données de l'établissement sont chiffrées : le plan de réponse que vous devriez déjà avoir"
+seoTitle: "Rançongiciel à l'école : le plan de réponse à écrire"
 date: "2026-08-10"
 translationKey: "ransomware-centros-educativos-plan-respuesta-2026"
-description: "L'éducation figure parmi les secteurs les plus attaqués d'Espagne. Que faire dans les 72 premières heures : horloges de notification NIS2 et RGPD, ordre des appels, ce qu'on dit aux familles et ce qu'il faut exiger de son prestataire."
+description: "Que faire dans les 72 premières heures d'une cyberattaque : délais de notification NIS2 et RGPD, qui appeler, que dire aux familles et au prestataire."
 tags: ["cybersécurité", "rançongiciel", "NIS2", "protection des données", "gestion de crise"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1682145189653-bb0b79db3415?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

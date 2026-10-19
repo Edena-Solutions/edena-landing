@@ -1,5 +1,6 @@
 ---
 title: "Innovation pédagogique grâce à la technologie : transformer l’enseignement et l’apprentissage"
+seoTitle: "Innovation pédagogique et technologie en classe"
 date: "2024-10-15"
 translationKey: "innovacion-pedagogica-tecnologia"
 description: "Découvrez comment la technologie modifie les méthodologies pédagogiques et crée des expériences d'apprentissage plus efficaces et plus engageantes."

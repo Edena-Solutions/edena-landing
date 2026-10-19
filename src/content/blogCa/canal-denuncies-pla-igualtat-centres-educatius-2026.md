@@ -1,8 +1,9 @@
 ---
 title: "El centre com a ocupador: canal de denúncies, pla d'igualtat i les obligacions que ningú no mira"
+seoTitle: "El centre com a ocupador: canal de denúncies i igualtat"
 date: "2026-08-26"
 translationKey: "canal-denuncias-plan-igualdad-centros-educativos-2026"
-description: "Tothom mira LOPIVI i protecció de dades. Gairebé ningú no mira les obligacions del centre com a organització ocupadora: canal de denúncies de la Llei 2/2023, pla d'igualtat, registre de jornada i com encaixen entre si."
+description: "Canal de denúncies de la Llei 2/2023, pla d'igualtat i registre de jornada: les obligacions del centre com a ocupador i com encaixen entre si."
 tags: ["canal de denúncies", "pla d'igualtat", "compliment", "recursos humans", "titularitat"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1490127252417-7c393f993ee4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

@@ -1,8 +1,9 @@
 ---
 title: "Competències Digitals del Professorat el 2026: Més de 661.000 Docents Certificats"
+seoTitle: "Competència digital docent 2026: 661.000 certificats"
 date: "2026-01-10"
 translationKey: "competencias-digitales-profesorado-2026"
-description: "El Marc de Referència de la Competència Digital Docent, actualitzat el 2022 i alineat amb el marc europeu #DigCompEdu."
+description: "Més de 661.000 docents ja tenen la certificació en competència digital. Què implica el Marc de Referència de la Competència Digital Docent al centre."
 tags:
     - "competències digitals"
     - "formació docent"
@@ -47,7 +48,7 @@ La primera àrea,
 
 <br>
 
-, capacita els docents per buscar, avaluar, gestionar i compartir informació digital de manera crítica i efectiva. En un món saturat dinformació, aquesta competència és essencial per ajudar els estudiants a navegar lentorn digital de forma segura i productiva.
+, capacita els docents per buscar, avaluar, gestionar i compartir informació digital de manera crítica i efectiva. En un món saturat d'informació, aquesta competència és essencial per ajudar els estudiants a navegar l'entorn digital de forma segura i productiva.
 
 La segona àrea,
 
@@ -67,7 +68,7 @@ La tercera àrea,
 
 <br>
 
-, empodera els docents per crear, editar i compartir recursos educatius digitals de qualitat. Des de vídeos educatius fins a presentacions interactives, els professors certificats poden crear materials que enriqueixen significativament lexperiència daprenentatge.
+, empodera els docents per crear, editar i compartir recursos educatius digitals de qualitat. Des de vídeos educatius fins a presentacions interactives, els professors certificats poden crear materials que enriqueixen significativament l'experiència d'aprenentatge.
 
 La quarta àrea,
 
@@ -141,16 +142,16 @@ Aquests canvis no són superficials; milloren significativament els resultats ed
 
 <br>
 
-Una de les transformacions més significatives que porta la competència digital docent és la capacitat de personalitzar laprenentatge a una escala que abans era impossible. Els professors certificats poden utilitzar eines danàlisi de dades educatives per identificar les necessitats individuals de cada estudiant.
+Una de les transformacions més significatives que porta la competència digital docent és la capacitat de personalitzar l'aprenentatge a una escala que abans era impossible. Els professors certificats poden utilitzar eines d'anàlisi de dades educatives per identificar les necessitats individuals de cada estudiant.
 
 Els sistemes de gestió escolar moderns, integrats amb plataformes d'aprenentatge, permeten als professors:
 
 - Identificar estudiants que necessiten suport addicional abans que es quedin enrere
-- Adaptar el contingut i el ritme densenyament a les necessitats específiques de cada estudiant
+- Adaptar el contingut i el ritme d'ensenyament a les necessitats específiques de cada estudiant
 - Proporcionar recursos addicionals automàticament quan es detecten dificultats
 - Celebrar els èxits individuals de manera més visible i motivadora
 
-Aquesta personalització no només millora els resultats acadèmics; també augmenta la motivació estudiantil i redueix la frustració, creant un ambient daprenentatge més positiu i productiu.
+Aquesta personalització no només millora els resultats acadèmics; també augmenta la motivació estudiantil i redueix la frustració, creant un ambient d'aprenentatge més positiu i productiu.
 
 <br>
 
@@ -192,7 +193,7 @@ Aquestes metodologies, quan són implementades per professors competents digital
 
 <br>
 
-Tot i que la certificació massiva del professorat és un èxit extraordinari, també presenta desafiament i oportunitats per als centres educatius. Els centres han dassegurar que tenen la infraestructura tecnològica necessària perquè els professors certificats puguin aplicar les seves competències.
+Tot i que la certificació massiva del professorat és un èxit extraordinari, també presenta desafiament i oportunitats per als centres educatius. Els centres han d'assegurar que tenen la infraestructura tecnològica necessària perquè els professors certificats puguin aplicar les seves competències.
 
 Això inclou:
 
@@ -218,7 +219,7 @@ Els sistemes de gestió escolar moderns són essencials perquè els professors c
 - **Recursos educatius**: Emmagatzematge i compartició de materials didàctics
 - **Anàlisi de dades**: Insights sobre el rendiment estudiantil i l'efectivitat de l'ensenyament
 
-Quan els professors certificats tenen accés a aquestes eines, poden maximitzar limpacte de les seves competències digitals i transformar veritablement lexperiència educativa.
+Quan els professors certificats tenen accés a aquestes eines, poden maximitzar l'impacte de les seves competències digitals i transformar veritablement l'experiència educativa.
 
 <br>
 
@@ -278,7 +279,7 @@ Amb Edena, els professors certificats poden transformar la pràctica docent i cr
 
 La LOMLOE situa les competències clau i l'avaluació continuada al centre del projecte educatiu. El Pla DigEdu impulsa competència digital docent, entorns tecnològics segurs i distribució de dispositius a aules. Com més temps perd el professorat en tasques administratives duplicades (parts en paper, llistats a Excel, circulars per canals diferents), menys queda per acompanyament i avaluació formativa.
 
-Digitalitzar gestió no substitueix la pedagogia: allibera hores reals en tutoria, coordinació de departament i seguiment individual. Un claustre que utilitza quatre eines de comunicació diferents perd coherència amb les famílies i coherència interna en criteris davaluació i seguiment.
+Digitalitzar gestió no substitueix la pedagogia: allibera hores reals en tutoria, coordinació de departament i seguiment individual. Un claustre que utilitza quatre eines de comunicació diferents perd coherència amb les famílies i coherència interna en criteris d'avaluació i seguiment.
 
 El 2026, la tecnologia educativa útil per a centres espanyols connecta aula i administració: expedient, comunicació, assistència i analítica comparteixen la mateixa font de dades. La innovació pedagògica sostenible recolza la LOMLOE quan la gestió admin deixa de robar hores al claustre al setembre i al tancament de trimestre.
 

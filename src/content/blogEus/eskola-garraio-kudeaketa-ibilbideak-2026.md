@@ -1,5 +1,6 @@
 ---
 title: "Eskola garraioaren kudeaketa: ibilbideak, kontrola eta kobruak paperik gabe"
+seoTitle: "Eskola-garraioaren kudeaketa: ibilbideak eta kobroak"
 date: "2026-06-03"
 translationKey: "gestion-transporte-escolar-rutas-2026"
 description: "Nola digitalizatu eskola garraioa: ibilbideak, geltoki zerrendak, igoera eta jaitsiera kontrola eta kobru automatizatuak, familientzako lasaitasunarekin 2026an."

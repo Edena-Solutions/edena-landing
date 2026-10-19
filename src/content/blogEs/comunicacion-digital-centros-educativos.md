@@ -2,7 +2,7 @@
 title: "Comunicación con familias: herramientas más allá del email"
 date: "2026-02-17"
 translationKey: "comunicacion-digital-centros-educativos"
-description: "El email sigue siendo útil, pero no basta para toda la comunicación con familias: circulares, recordatorios de pago, ausencias o avisos urgentes requieren canales que las familias consulten a diario."
+description: "El email no basta para hablar con las familias: circulares, recordatorios de pago, ausencias y avisos urgentes necesitan canales que consulten a diario."
 tags: ["comunicación digital centros educativos", "familias", "canales", "herramientas"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1170&auto=format&fit=crop"
@@ -78,7 +78,7 @@ Para recordatorios de pago, ausencias o avisos urgentes (cierre por incidencia, 
 
 <br>
 
-Si el software de gestión permite enviar mensajes desde la ficha del alumno o desde listas (por etapa, por grupo), se evita cambiar de herramienta y se mantiene registro de envíte. La comunicación digital en centros educativos gana en coherencia cuando está ligada a matrícula, pagos y asistencia.
+Si el software de gestión permite enviar mensajes desde la ficha del alumno o desde listas (por etapa, por grupo), se evita cambiar de herramienta y se mantiene registro de envíos. La comunicación digital en centros educativos gana en coherencia cuando está ligada a matrícula, pagos y asistencia.
 
 <br>
 
@@ -124,7 +124,7 @@ Un colegio sustituyó las circulares en papel por publicaciones en el portal y n
 
 1. Definir qué mensajes son urgentes (pago, ausencia, incidencia) y cuáles informativos (circular, calendario).
 2. Ofrecer al menos un canal móvil (portal con acceso desde navegador o app, o notificaciones).
-3. Segmentar envíte por etapa, servicio o tipo de familia cuando sea posible.
+3. Segmentar envíos por etapa, servicio o tipo de familia cuando sea posible.
 4. Usar plantillas para circulares y recordatorios y revisar tono y claridad.
 5. Automatizar al menos un flujo (por ejemplo, recordatorio de pago o bienvenida).
 6. Documentar qué canal se usa para cada tipo de mensaje y formar al equipo.

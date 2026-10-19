@@ -1,8 +1,9 @@
 ---
 title: "Cómo reducir la morosidad en colegios y guarderías con cobros automatizados"
+seoTitle: "Reducir la morosidad en colegios con cobros automáticos"
 date: "2026-03-20"
 translationKey: "morosidad-colegios-cobros-automaticos-2026"
-description: "La morosidad en colegios y guarderías no es solo un número en un informe: es tiempo de secretaría, tensión con familias, presión sobre la caja y riesgo de desviar atención de lo académico."
+description: "La morosidad cuesta horas de secretaría, tensión con las familias y presión sobre la caja. Cómo reducirla en colegios y guarderías con cobros automáticos."
 tags:
     [
         "morosidad colegios",
@@ -67,7 +68,7 @@ Cada pilar aprovecha módulos que Edena incluye o puede combinar: facturación e
 
 <br>
 
-Con 180 familias, 12% de recibos retrasados de media, secretaría dedicaba ocho a diez horas semanales a llamadas, correos y reenvíte. Al migrar a recurrencia, recordatorios a tres, siete y catorce días (segmentados: solo moros, sin molestar a aldos), y un único vencimiento con claridad, la mora a tres meses bajó un tercio en dos trimestres. No por “mágica” digital, sino por previsibilidad, menos ruido y datos que permitieron a dirección priorizar acompañamiento humano a casos reales. Eso es un patrón repetible, no anécdota de marketing: condiciona a tener sistema y disciplina, no a comprar un botón misterioso.
+Con 180 familias, 12% de recibos retrasados de media, secretaría dedicaba ocho a diez horas semanales a llamadas, correos y reenvíos. Al migrar a recurrencia, recordatorios a tres, siete y catorce días (segmentados: solo moros, sin molestar a aldos), y un único vencimiento con claridad, la mora a tres meses bajó un tercio en dos trimestres. No por “mágica” digital, sino por previsibilidad, menos ruido y datos que permitieron a dirección priorizar acompañamiento humano a casos reales. Eso es un patrón repetible, no anécdota de marketing: condiciona a tener sistema y disciplina, no a comprar un botón misterioso.
 
 <br>
 

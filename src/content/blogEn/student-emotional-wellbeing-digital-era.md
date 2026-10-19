@@ -1,8 +1,9 @@
 ---
 title: "Emotional well-being of students in the digital age: Strategies and tools"
+seoTitle: "Student emotional wellbeing in the digital age"
 date: "2025-08-30"
 translationKey: "bienestar-emocional-estudiantes-digitales"
-description: "Student emotional well-being has become a critical priority for schools in the digital age."
+description: "Constant connectivity, academic pressure and new social challenges affect student wellbeing. Strategies and tools schools can use to support it."
 tags:
     - "emotional well-being"
     - "mental health"

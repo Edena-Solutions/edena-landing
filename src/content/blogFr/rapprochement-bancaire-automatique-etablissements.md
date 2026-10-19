@@ -1,5 +1,6 @@
 ---
 title: "Rapprochement bancaire automatique dans les établissements scolaires"
+seoTitle: "Rapprochement bancaire automatique à l'école"
 date: "2026-05-02"
 translationKey: "conciliacion-bancaria-automatica-centros-educativos"
 description: "Ce qu'est le rapprochement bancaire, pourquoi il consomme tant d'heures dans les écoles et comment l'automatiser pour clôturer le mois sans écarts en 2026."

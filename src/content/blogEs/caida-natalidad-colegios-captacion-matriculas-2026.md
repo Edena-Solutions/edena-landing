@@ -1,8 +1,9 @@
 ---
 title: "Menos niños, mismas plazas: cómo defender la matrícula con la natalidad en caída"
+seoTitle: "Caída de la natalidad: cómo defender la matrícula"
 date: "2026-08-07"
 translationKey: "caida-natalidad-colegios-captacion-matriculas-2026"
-description: "El desplome demográfico equivale a más de 32.000 aulas perdidas en una década. Plan de tres frentes para colegios: convertir mejor las solicitudes, retener a los que ya están y detectar la fuga antes de que se formalice."
+description: "La caída de la natalidad equivale a más de 32.000 aulas perdidas en una década. Tres frentes para colegios: convertir, retener y detectar bajas."
 tags: ["natalidad", "captación de alumnos", "matrículas", "retención", "dirección"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1575313844062-39c66a566b6a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

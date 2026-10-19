@@ -1,8 +1,9 @@
 ---
 title: "Apps móviles en educación: La experiencia digital en tu bolsillo"
+seoTitle: "Apps móviles en educación: el centro en el bolsillo"
 date: "2025-04-15"
 translationKey: "app-movil-educacion"
-description: "Las apps móviles están cambiando la forma en que las familias interactúan con los centros educativos."
+description: "Notificaciones, pagos y firmas en el móvil de la familia: cómo las apps móviles cambian la relación entre las familias y los centros educativos."
 tags: ["apps móviles", "experiencia digital", "acceso instantáneo", "tecnología"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1584206863352-ce8b3a1c10e3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -60,7 +61,7 @@ Las apps modernas incluyen funcionalidades administrativas completas. Los padres
 
 <br>
 
-Las apps educativas modernas están diseñadas específicamente para dispositivos móviles. La interfaz se adapta automáticamente a diferentes tamañte de pantalla, desde smartphones hasta tablets. Menús simples y navegación por gestos que facilitan el uso incluso para usuarios menos tecnológicos. Características de accesibilidad como texto ampliable, contraste mejorado, y compatibilidad con lectores de pantalla. Los usuarios pueden personalizar la app según sus preferencias, configurar notificaciones, y organizar la información más relevante.
+Las apps educativas modernas están diseñadas específicamente para dispositivos móviles. La interfaz se adapta automáticamente a diferentes tamaños de pantalla, desde smartphones hasta tablets. Menús simples y navegación por gestos que facilitan el uso incluso para usuarios menos tecnológicos. Características de accesibilidad como texto ampliable, contraste mejorado, y compatibilidad con lectores de pantalla. Los usuarios pueden personalizar la app según sus preferencias, configurar notificaciones, y organizar la información más relevante.
 
 Las apps modernas incluyen funcionalidades que funcionan sin conexión. Los datos se sincronizan automáticamente cuando hay conexión, permitiendo acceso a información reciente incluso offline. Información importante se almacena localmente para acceso rápido y confiable. Funcionalidades básicas como consulta de horarios o acceso a documentos guardados funcionan sin internet.
 

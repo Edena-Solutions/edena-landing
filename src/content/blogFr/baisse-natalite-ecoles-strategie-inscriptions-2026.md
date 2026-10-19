@@ -1,8 +1,9 @@
 ---
 title: "Moins d'enfants, autant de places : défendre ses inscriptions face à la baisse de la natalité"
+seoTitle: "Baisse de la natalité : comment défendre ses inscriptions"
 date: "2026-08-07"
 translationKey: "caida-natalidad-colegios-captacion-matriculas-2026"
-description: "L'effondrement démographique espagnol équivaut à plus de 32 000 classes perdues en une décennie. Un plan en trois fronts : mieux convertir les demandes, retenir les familles présentes et repérer les départs à temps."
+description: "La baisse de la natalité en Espagne équivaut à plus de 32 000 classes perdues en dix ans. Trois fronts : convertir, retenir et repérer les départs."
 tags: ["natalité", "recrutement d'élèves", "inscriptions", "fidélisation", "direction"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1575313844062-39c66a566b6a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

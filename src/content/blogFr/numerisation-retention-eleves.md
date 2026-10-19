@@ -2,7 +2,7 @@
 title: "Impact de la numérisation sur la rétention des élèves"
 date: "2026-02-07"
 translationKey: "digitalizacion-retencion-alumnos"
-description: "La persévérance scolaire ne dépend pas uniquement du projet éducatif : l'expérience administrative et la communication avec les familles influencent le renouvellement."
+description: "L'expérience administrative et la communication avec les familles pèsent sur leur décision de se réinscrire ou de partir. Comment en prendre soin."
 tags:
     - "la persévérance scolaire"
     - "numérisation"

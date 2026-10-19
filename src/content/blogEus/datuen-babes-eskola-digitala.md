@@ -2,7 +2,7 @@
 title: "Datuen babesa ikastetxeen kudeaketa digitalean"
 date: "2026-02-14"
 translationKey: "proteccion-datos-escuela-digital"
-description: "Hezkuntza zentro baten kudeaketa digitalak ikasleen, familien eta langileen datuak prozesatzea dakar."
+description: "Zer erantzukizun, arrisku eta neurri dakartzan hezkuntza-zentro baten kudeaketa digitalean ikasle, familia eta langileen datuak tratatzeak."
 tags:
     - "Datuak babesteko eskola digitala"
     - "GDPR"

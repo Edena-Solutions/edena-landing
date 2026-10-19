@@ -2,7 +2,7 @@
 title: "Impacte de la digitalització a la retenció d'alumnes"
 date: "2026-02-07"
 translationKey: "digitalizacion-retencion-alumnos"
-description: "La retenció escolar no depèn només del projecte educatiu: l'experiència administrativa i de comunicació amb les famílies influeix directament que renovin o busquin una altra opció."
+description: "L'experiència administrativa i la comunicació amb les famílies pesen en la decisió de renovar la matrícula o buscar un altre centre. Com cuidar-les."
 tags:
     - "retenció escolar"
     - "digitalització"
@@ -19,7 +19,7 @@ faqs:
     - question: "La retenció escolar depèn més del que és acadèmic o de l'administració?"
       answer: "Tots dos. Allò acadèmic i el clima són decisius; però l'experiència administrativa (pagaments, documentació, comunicació) influeix en la percepció de serietat i la decisió de renovar."
     - question: "Quins indicadors de retenció escolar he de seguir?"
-      answer: "Taxa de renovació per etapa, per any dincorporació i, si és possible, per tipus de família o programa. Creua amb impagaments i assistència per detectar risc."
+      answer: "Taxa de renovació per etapa, per any d'incorporació i, si és possible, per tipus de família o programa. Creua amb impagaments i assistència per detectar risc."
     - question: "La digitalització pot empitjorar la relació amb les famílies?"
       answer: "Només si es fa servir de forma freda o massiva. Ben usada (missatges clars, recordatoris útils, menys errors), la digitalització sol millorar la percepció."
     - question: "Necessito un CRM educatiu per treballar la retenció?"
@@ -90,7 +90,7 @@ Terminis llargs, formularis en paper o passos confusos augmenten la probabilitat
 
 <br>
 
-Dashboards amb taxes de retenció per etapa, per curs dincorporació o per tipus de família permeten prioritzar accions. La retenció escolar deixa de ser intuïció i passa a ser estratègia basada en dades.
+Dashboards amb taxes de retenció per etapa, per curs d'incorporació o per tipus de família permeten prioritzar accions. La retenció escolar deixa de ser intuïció i passa a ser estratègia basada en dades.
 
 <br>
 
@@ -110,7 +110,7 @@ Un col·legi de 600 alumnes va introduir recordatoris automàtics de pagament i 
 - No formar secretaria i adreça en l'ús d'alertes i reports.
 - Deixar la comunicació en mans de correus electrònics genèrics sense segmentació ni seguiment.
 - No mesurar retenció per cohort o etapa i perdre el focus on actuar.
-- Ignorar lexperiència de renovació de matrícula (terminis, claredat, pagaments).
+- Ignorar l'experiència de renovació de matrícula (terminis, claredat, pagaments).
 
 <br>
 

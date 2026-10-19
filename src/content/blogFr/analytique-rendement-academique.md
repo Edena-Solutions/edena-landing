@@ -1,8 +1,9 @@
 ---
 title: "Analyse des performances académiques : des données pour améliorer l'apprentissage"
+seoTitle: "Analyse des résultats scolaires pour mieux apprendre"
 date: "2025-01-10"
 translationKey: "analitica-rendimiento-academico"
-description: "L'analyse pédagogique change la façon dont les écoles gèrent l'apprentissage et le développement des élèves."
+description: "Comment les établissements utilisent l'analyse des résultats pour suivre l'enseignement et l'évaluation, repérer les élèves en difficulté et agir."
 tags:
     - "analytique"
     - "performance académique"

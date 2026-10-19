@@ -1,5 +1,6 @@
 ---
 title: "Matrikula berritze automatikoa: nola arindu birmatrikulazioa 2026an"
+seoTitle: "Matrikula berritze automatikoa ikastetxeetan"
 date: "2026-06-21"
 translationKey: "renovacion-automatica-matricula-2026"
 description: "Nola automatizatu matrikula berritzea ikastetxe eta akademietan, bajak murrizteko, kudeaketa aurrezteko eta frikziorik gabeko esperientzia emateko 2026an."

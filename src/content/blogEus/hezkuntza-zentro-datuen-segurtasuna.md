@@ -1,5 +1,6 @@
 ---
 title: "Datuen segurtasuna hezkuntza-zentroetan: etorkizun digitala babesten"
+seoTitle: "Datuen segurtasuna hezkuntza-zentroetan"
 date: "2025-01-25"
 translationKey: "seguridad-datos-centros-educativos"
 description: "Garai digitalean, hezkuntza-zentroek datu sentikorren kopuru masiboak kudeatzen dituzte: ikasle eta familien datu pertsonalak, erregistro akademikoak."

@@ -1,8 +1,9 @@
 ---
 title: "Liderazgo educativo transformacional en la era digital: Competencias y estrategias"
+seoTitle: "Liderazgo educativo en la era digital: competencias clave"
 date: "2025-09-15"
 translationKey: "liderazgo-educativo-transformacional-digital"
-description: "Implantar un ERP, una app familiar o un expediente digital no falla solo por el software."
+description: "La digitalización falla cuando dirección anuncia el cambio sin traducirlo en menos horas de administración, menos morosidad o mejor respuesta a familias."
 tags:
     ["liderazgo educativo", "transformación digital", "competencias directivas", "gestión escolar"]
 author: "ENA by Edena"

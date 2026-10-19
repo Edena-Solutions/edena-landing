@@ -1,5 +1,6 @@
 ---
 title: "Hezkuntza-dashboarda: kudeaketa estrategikorako kontrol-zentroa"
+seoTitle: "Hezkuntza-dashboarda: kudeaketaren kontrol-zentroa"
 date: "2025-02-25"
 translationKey: "dashboard-educativo"
 description: "Informazioaren aroan, hezkuntza-zentroek beren eragiketei buruzko ikusgarritasun osoa ematen duten kudeaketa-tresnak behar dituzte."

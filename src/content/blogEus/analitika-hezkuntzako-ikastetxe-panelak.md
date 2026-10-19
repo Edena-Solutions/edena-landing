@@ -1,8 +1,9 @@
 ---
 title: "Datuak eta analitika hezkuntzan: nola hartu erabaki hobeak ikastetxeko aginte-panelekin"
+seoTitle: "Ikastetxeko aginte-panelak: datuekin erabaki hobeak"
 date: "2026-03-15"
 translationKey: "analitica-educativa-dashboards-escolares"
-description: "Datu zentralizaturik gabe, zaila da jakitea non jokatu: zein fasetan daude lehenetsi gehiago?"
+description: "Nola erabili hezkuntza-analitika eta aginte-panel bat idazkaritzak eta zuzendaritzak asteroko erabakiak datuetan oinarrituta har ditzaten."
 tags:
     - "hezkuntza-analitika"
     - "dashboard eskola"

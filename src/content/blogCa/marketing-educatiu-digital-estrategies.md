@@ -1,8 +1,9 @@
 ---
 title: "Màrqueting educatiu digital: Estratègies per atraure i retenir famílies a l'era digital"
+seoTitle: "Màrqueting educatiu digital per atraure i retenir famílies"
 date: "2025-09-08"
 translationKey: "marketing-educativo-digital-estrategias"
-description: "Si dirigeixes un col·legi privat o concertat de 150 a 800 famílies, probablement inverteixes a web, Open Day o xarxes i tot i així no veus el retorn en matrícules."
+description: "Per a col·legis privats o concertats de 150 a 800 famílies que inverteixen en web, jornades de portes obertes o xarxes i no en veuen el retorn."
 tags:
     - "màrqueting educatiu"
     - "màrqueting digital"
@@ -85,7 +86,7 @@ Origen, curs, data de contacte, estat, propera acció i motiu de pèrdua si no m
 
 <br>
 
-El concertat sol captar per reputació i zona; el privat competeix més en proposta de valor i serveis. En tots dos, lexperiència admin post-visita (resposta, claredat de quotes) tanca o trenca la matrícula. No prometis en publicitat allò que la visita no confirma.
+El concertat sol captar per reputació i zona; el privat competeix més en proposta de valor i serveis. En tots dos, l'experiència admin post-visita (resposta, claredat de quotes) tanca o trenca la matrícula. No prometis en publicitat allò que la visita no confirma.
 
 <br>
 
@@ -93,7 +94,7 @@ El concertat sol captar per reputació i zona; el privat competeix més en propo
 
 <br>
 
-Bases de dades dinteressats amb opt-in clar, sense llistes comprades. Guarda consentiment i data. El formulari web ha d'enllaçar política de privadesa i finalitat (informació sobre places, no cessió a tercers).
+Bases de dades d'interessats amb opt-in clar, sense llistes comprades. Guarda consentiment i data. El formulari web ha d'enllaçar política de privadesa i finalitat (informació sobre places, no cessió a tercers).
 
 <br>
 

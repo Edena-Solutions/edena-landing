@@ -1,5 +1,6 @@
 ---
 title: "Eraginkortasun operatiboa hezkuntza-zentroetan: Baliabideak optimizatzea teknologiarekin"
+seoTitle: "Eraginkortasun operatiboa hezkuntza-zentroetan"
 date: "2024-11-15"
 translationKey: "eficiencia-operativa-centros-educativos"
 description: "Ezagutu nola eraldatzen duen teknologiak hezkuntza-zentroen funtzionamendua, kostuak murriztuz eta zerbitzuaren kalitatea hobetuz."

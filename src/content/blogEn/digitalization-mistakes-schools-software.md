@@ -1,5 +1,6 @@
 ---
 title: "Digitization in schools: 7 mistakes that schools make when implementing educational software"
+seoTitle: "7 mistakes schools make when implementing software"
 date: "2026-03-05"
 translationKey: "errores-digitalizacion-colegios-software"
 description: "Educational digitalization is advancing, but many centers make mistakes that delay results, generate resistance or waste investment."
@@ -14,7 +15,6 @@ relatedPosts:
     - school-management-software-comparison-spain-2026
     - school-software-purchase-checklist-2026
     - best-school-management-software
-    - choosing-school-management-software
 faqs:
     - question: "How long does it take to see results from educational digitalization?"
       answer: "It depends on the process. Billing and reminders can show impact in weeks. A complete digitization in schools can take several months to stabilize. Measure in phases."

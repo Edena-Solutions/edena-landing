@@ -1,8 +1,9 @@
 ---
 title: "Cómo centralizar toda la información del alumno en un único sistema"
+seoTitle: "Expediente académico digital: el alumno en un solo sistema"
 date: "2026-03-09"
 translationKey: "expediente-academico-digital-estudiantes"
-description: "El expediente académico digital y la gestión de estudiantes en colegio dispersos en carpetas, hojas de cálculo y correos generan errores, retrasos y frustración."
+description: "Expedientes repartidos en carpetas, hojas de cálculo y correos generan errores y retrasos. Cómo centralizar toda la información del alumno en un sistema."
 tags:
     ["expediente académico digital", "gestión de estudiantes colegio", "SIS", "centros educativos"]
 author: "ENA by Edena"

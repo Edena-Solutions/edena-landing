@@ -1,8 +1,9 @@
 ---
 title: "Errendimendu akademikoaren analisia: ikaskuntza hobetzeko datuak"
+seoTitle: "Errendimendu akademikoaren analisia ikastetxeetan"
 date: "2025-01-10"
 translationKey: "analitica-rendimiento-academico"
-description: "Datuen analisiari esker, ereduak identifikatzea, beharrak aurreikustea eta hezkuntza-esperientzia pertsonalizatzea posible da ikasle bakoitzaren potentziala maximizatzeko."
+description: "Datuen analisiari esker, ereduak identifikatu, beharrak aurreikusi eta ikasle bakoitzaren hezkuntza-esperientzia pertsonaliza daitezke."
 tags:
     - "analítica"
     - "rendimiento académico"

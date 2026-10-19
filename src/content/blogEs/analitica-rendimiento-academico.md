@@ -1,5 +1,6 @@
 ---
 title: "Analítica del rendimiento académico: Datos para potenciar el aprendizaje"
+seoTitle: "Analítica del rendimiento académico en centros educativos"
 date: "2025-01-10"
 translationKey: "analitica-rendimiento-academico"
 description: "La analítica educativa está cambiando la forma en que los centros gestionan el aprendizaje y el desarrollo de los estudiantes."
@@ -108,7 +109,7 @@ La analítica del rendimiento académico también puede mejorar la motivación y
 
 Los sistemas pueden generar feedback específico y constructivo basándose en el rendimiento individual. Este feedback puede incluir sugerencias específicas para mejorar y reconocimiento de fortalezas.
 
-La analítica puede adaptar elementos de gamificación según las preferencias y necesidades de cada estudiante. Algunos estudiantes pueden responder mejor a desafíte de tiempo, otros a logros de progreso, y otros a competencia colaborativa.
+La analítica puede adaptar elementos de gamificación según las preferencias y necesidades de cada estudiante. Algunos estudiantes pueden responder mejor a desafíos de tiempo, otros a logros de progreso, y otros a competencia colaborativa.
 
 Los sistemas pueden identificar y celebrar logros específicos de cada estudiante, desde mejoras en calificaciones hasta desarrollo de habilidades específicas. Esta celebración personalizada mejora la autoestima y la motivación.
 

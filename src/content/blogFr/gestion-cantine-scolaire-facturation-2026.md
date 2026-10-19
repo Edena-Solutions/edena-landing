@@ -1,5 +1,6 @@
 ---
 title: "Gestion de la cantine scolaire : inscriptions, annulations et facturation automatisées"
+seoTitle: "Gestion de la cantine scolaire : inscriptions et facturation"
 date: "2026-05-20"
 translationKey: "gestion-comedor-escolar-cobros-2026"
 description: "Comment gérer la cantine scolaire sans Excel : inscriptions et annulations quotidiennes, jours ponctuels, allergènes et facturation automatique en 2026."

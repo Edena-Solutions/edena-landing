@@ -1,5 +1,6 @@
 ---
 title: "Remesas SEPA en colegios: domiciliación de recibos sin errores"
+seoTitle: "Remesas SEPA en colegios: domiciliación sin errores"
 date: "2026-04-29"
 translationKey: "remesas-sepa-domiciliacion-recibos-colegios"
 description: "Cómo funcionan las remesas SEPA en colegios y guarderías, qué errores generan devoluciones y cómo automatizar la domiciliación de recibos en 2026."

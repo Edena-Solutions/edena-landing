@@ -1,19 +1,19 @@
 import appleSmall from "@/assets/img/logos/apple-small.png";
 import googleSmall from "@/assets/img/logos/google-small.png";
 import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/constants/app-stores";
-import { translations } from "@/i18n/index.ts";
+import type { AppStoreLabels } from "@/i18n/nav-copy";
 import { cn } from "@/lib/utils";
 
 const iconClass = "size-10 object-cover overflow-hidden";
 
 interface Props {
-    lang: string;
+    /** The buttons' words in the page's language (see `appStoreLabels`). */
+    labels: AppStoreLabels;
     className?: string;
     quiet?: boolean;
 }
 
-export default function DownloadAppIcons({ lang, className, quiet }: Props) {
-    const t = translations[lang as keyof typeof translations];
+export default function DownloadAppIcons({ labels, className, quiet }: Props) {
 
     return (
         <div className={cn(className)}>
@@ -24,7 +24,7 @@ export default function DownloadAppIcons({ lang, className, quiet }: Props) {
                         : "uppercase tracking-widest text-[10px] mb-4 text-muted-foreground"
                 }
             >
-                {t.downloadTheApp}
+                {labels.downloadTheApp}
             </p>
             <div className="flex items-center gap-10">
                 <a
@@ -33,7 +33,7 @@ export default function DownloadAppIcons({ lang, className, quiet }: Props) {
                     rel="noopener noreferrer"
                     className="inline-flex"
                 >
-                    <img src={appleSmall.src} alt={t.altText.appStoreBadge} className={iconClass} />
+                    <img src={appleSmall.src} alt={labels.appStoreBadge} className={iconClass} />
                 </a>
                 <a
                     href={GOOGLE_PLAY_URL}
@@ -43,7 +43,7 @@ export default function DownloadAppIcons({ lang, className, quiet }: Props) {
                 >
                     <img
                         src={googleSmall.src}
-                        alt={t.altText.googlePlayBadge}
+                        alt={labels.googlePlayBadge}
                         className={iconClass}
                     />
                 </a>

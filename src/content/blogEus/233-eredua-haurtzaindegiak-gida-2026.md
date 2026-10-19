@@ -1,8 +1,9 @@
 ---
 title: "233 eredua haurtzaindegi eta haur-eskolentzat: gida praktikoa"
+seoTitle: "233 eredua haurtzaindegi eta haur-eskoletarako: gida"
 date: "2026-07-14"
 translationKey: "modelo-233-guarderias-guia-2026"
-description: "Zer den 233 eredua, zein haurtzaindegik eta haur-eskolak aurkeztu behar duten, zer datu eskatzen dituen AEATek eta nola prestatu urtarrileko aitorpena zure taldea erotu gabe."
+description: "Zer den 233 eredua, zein haurtzaindegik eta haur-eskolak aurkeztu behar duten, zer datu eskatzen dituen AEATek eta nola prestatu urtarrileko aitorpena."
 tags:
     [
         "233 eredua",

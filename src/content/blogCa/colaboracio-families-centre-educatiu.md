@@ -1,5 +1,6 @@
 ---
 title: "Col·laboració famílies-centre educatiu: Construint una comunitat unida"
+seoTitle: "Col·laboració entre famílies i centre educatiu"
 date: "2024-10-30"
 translationKey: "colaboracion-familias-centro-educativo"
 description: "Descobriu com la tecnologia pot enfortir la col·laboració entre famílies i centres educatius, creant una comunitat educativa més forta i efectiva."
@@ -25,7 +26,7 @@ faqs:
 
 <br>
 
-La col·laboració efectiva entre famílies i centres educatius és fonamental per a lèxit acadèmic i personal dels estudiants. Quan les famílies i els centres treballen junts com a veritables socis, els resultats són significativament millors. La tecnologia digital ofereix eines poderoses per facilitar i enfortir aquesta col·laboració, creant una comunitat educativa més unida i efectiva.
+La col·laboració efectiva entre famílies i centres educatius és fonamental per a l'èxit acadèmic i personal dels estudiants. Quan les famílies i els centres treballen junts com a veritables socis, els resultats són significativament millors. La tecnologia digital ofereix eines poderoses per facilitar i enfortir aquesta col·laboració, creant una comunitat educativa més unida i efectiva.
 
 <br>
 
@@ -35,7 +36,7 @@ La col·laboració efectiva entre famílies i centres educatius és fonamental p
 
 La investigació educativa ha demostrat consistentment que quan les famílies estan involucrades activament en l'educació dels fills, els estudiants obtenen millors resultats acadèmics, tenen millor comportament i desenvolupen actituds més positives cap a l'aprenentatge. Tanmateix, aconseguir aquesta col·laboració efectiva pot ser un desafiament al món actual.
 
-Els obstacles inclouen horaris ocupats, barreres de comunicació, diferents expectatives i manca d'eines efectives per facilitar la col·laboració. La tecnologia pot superar molts daquests obstacles, creant canals de comunicació més accessibles i efectius.
+Els obstacles inclouen horaris ocupats, barreres de comunicació, diferents expectatives i manca d'eines efectives per facilitar la col·laboració. La tecnologia pot superar molts d'aquests obstacles, creant canals de comunicació més accessibles i efectius.
 
 <br>
 
@@ -55,7 +56,7 @@ Els sistemes poden enviar notificacions automàtiques sobre qualificacions, tasq
 
 La tecnologia pot facilitar la participació activa de les famílies a la vida del centre educatiu. Els pares poden participar en comitès, esdeveniments i activitats sense necessitat d'estar físicament presents al centre. Les plataformes digitals permeten participació virtual en reunions, votacions i discussions.
 
-Els centres poden crear grups de treball virtuals on les famílies poden contribuir amb idees, recursos i suport. Els pares poden oferir les seves habilitats professionals per enriquir lexperiència educativa, com xerrades sobre les seves carreres, tallers, o mentoria destudiants.
+Els centres poden crear grups de treball virtuals on les famílies poden contribuir amb idees, recursos i suport. Els pares poden oferir les seves habilitats professionals per enriquir l'experiència educativa, com xerrades sobre les seves carreres, tallers, o mentoria d'estudiants.
 
 <br>
 
@@ -65,7 +66,7 @@ Els centres poden crear grups de treball virtuals on les famílies poden contrib
 
 Els sistemes digitals permeten que les famílies tinguin una visibilitat completa del progrés acadèmic dels seus fills. Els pares poden accedir a qualificacions, comentaris de professors i recomanacions de millora en temps real. Aquesta transparència permet que les famílies donin suport millor a l'aprenentatge dels seus fills.
 
-Els sistemes poden proporcionar insights personalitzats sobre les fortaleses i les àrees de millora de cada estudiant. Els pares poden rebre suggeriments específics sobre com recolzar laprenentatge a casa, recursos addicionals, i estratègies per abordar desafiament específics.
+Els sistemes poden proporcionar insights personalitzats sobre les fortaleses i les àrees de millora de cada estudiant. Els pares poden rebre suggeriments específics sobre com recolzar l'aprenentatge a casa, recursos addicionals, i estratègies per abordar desafiament específics.
 
 <br>
 
@@ -75,7 +76,7 @@ Els sistemes poden proporcionar insights personalitzats sobre les fortaleses i l
 
 La col·laboració efectiva inclou el suport a l'aprenentatge que passa fora de l'aula. Les plataformes digitals poden proporcionar recursos i eines que ajudin les famílies a donar suport a l'aprenentatge dels fills a casa.
 
-Els centres poden compartir materials educatius, guies destudi, i activitats que les famílies poden realitzar juntes. Els sistemes poden proporcionar accés a biblioteques digitals, recursos multimèdia i eines d'aprenentatge interactives. Els pares poden rebre formació sobre com fer servir aquests recursos de manera efectiva.
+Els centres poden compartir materials educatius, guies d'estudi, i activitats que les famílies poden realitzar juntes. Els sistemes poden proporcionar accés a biblioteques digitals, recursos multimèdia i eines d'aprenentatge interactives. Els pares poden rebre formació sobre com fer servir aquests recursos de manera efectiva.
 
 <br>
 
@@ -115,7 +116,7 @@ Els sistemes poden destacar èxits acadèmics, contribucions de voluntaris, i ex
 
 La col·laboració efectiva requereix que tant les famílies com el personal del centre desenvolupin competències específiques. Les plataformes digitals poden proporcionar formació i recursos per millorar aquestes competències.
 
-Els centres poden oferir tallers virtuals sobre temes com ara comunicació efectiva, resolució de conflictes, i suport a l'aprenentatge. Els pares poden accedir a recursos sobre desenvolupament infantil, estratègies daprenentatge, i navegació del sistema educatiu. Aquesta formació empodera tots els membres de la comunitat.
+Els centres poden oferir tallers virtuals sobre temes com ara comunicació efectiva, resolució de conflictes, i suport a l'aprenentatge. Els pares poden accedir a recursos sobre desenvolupament infantil, estratègies d'aprenentatge, i navegació del sistema educatiu. Aquesta formació empodera tots els membres de la comunitat.
 
 <br>
 
@@ -141,7 +142,7 @@ AMPA digital, enquestes amb opt-in, voluntariat amb registre. Canal oficial per 
 
 <br>
 
-Decisions dautorització i consentiment arxivades en expedient.
+Decisions d'autorització i consentiment arxivades en expedient.
 
 <br>
 
@@ -157,7 +158,7 @@ Un centre de 280 famílies va automatitzar assistència, recordatoris de pagamen
 
 <br>
 
-La col·laboració efectiva entre famílies i centres educatius és fonamental per a lèxit dels estudiants. La tecnologia proporciona les eines necessàries per facilitar aquesta col·laboració, creant una comunitat educativa més forta, unida i efectiva.
+La col·laboració efectiva entre famílies i centres educatius és fonamental per a l'èxit dels estudiants. La tecnologia proporciona les eines necessàries per facilitar aquesta col·laboració, creant una comunitat educativa més forta, unida i efectiva.
 
 Estàs llest per enfortir la col·laboració a la teva comunitat educativa? Descobreix com Edena pot ajudar-te a implementar solucions que connectin famílies i centres educatius, creant una experiència educativa veritablement col·laborativa i transformadora.
 

@@ -1,8 +1,9 @@
 ---
 title: "Automatisation des tâches administratives : libérer du temps pour l'éducation"
+seoTitle: "Automatisation des tâches administratives à l'école"
 date: "2025-07-15"
 translationKey: "automatizacion-tareas-administrativas"
-description: "Les établissements scolaires sont confrontés à un défi constant : concilier les besoins administratifs avec l'objectif principal de fournir une éducation de qualité."
+description: "Les établissements concilient chaque jour charge administrative et mission éducative. Quelles tâches automatiser d'abord pour libérer du temps."
 tags:
     - "automation"
     - "démarches administratives"

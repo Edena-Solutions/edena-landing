@@ -16,7 +16,7 @@ import { cn } from "@/lib/utils";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { PhoneInput } from "@/components/ui/phone-input";
-import { translations } from "@/i18n/index.ts";
+import type { Translation } from "@/i18n";
 import { WHATSAPP_NUMBERS } from "@/constants/contact";
 import { WhatsAppLogo } from "@/components/WhatsAppLogo";
 
@@ -30,7 +30,8 @@ import { WhatsAppLogo } from "@/components/WhatsAppLogo";
  */
 
 interface Props {
-    lang: string;
+    /** The form's words in the page's language, passed in so the browser is not sent every language. */
+    copy: Translation["contact"];
     formspreeUrl: string;
 }
 
@@ -215,9 +216,7 @@ function ProfileSelect({
     );
 }
 
-export function ContactForm({ lang, formspreeUrl }: Props) {
-    const t = translations[lang as keyof typeof translations];
-    const ct = t.contact;
+export function ContactForm({ copy: ct, formspreeUrl }: Props) {
 
     const schema = z.object({
         name: z.string().min(1, ct.nameRequired),

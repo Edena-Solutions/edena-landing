@@ -1,5 +1,6 @@
 ---
 title: "Tableau de bord pédagogique : le centre de contrôle pour la gestion stratégique"
+seoTitle: "Tableau de bord pédagogique : piloter l'établissement"
 date: "2025-02-25"
 translationKey: "dashboard-educativo"
 description: "À l’ère de l’information, les établissements scolaires ont besoin d’outils de gestion offrant une visibilité complète sur toutes leurs opérations."

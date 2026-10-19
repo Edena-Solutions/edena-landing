@@ -1,8 +1,9 @@
 ---
 title: "0-3 doakotasuna: diruz lagundutako plazak kudeatzea kutxa desorekatu gabe"
+seoTitle: "0-3 doakotasuna: diruz lagundutako plazak kudeatzea"
 date: "2026-08-05"
 translationKey: "gratuidad-0-3-escuelas-infantiles-plazas-subvencionadas-2026"
-description: "Andaluziak 0-3 urteko doakotasun osoa onartu du 2026-2027rako eta beste erkidego batzuek plazak zabaltzen dituzte. Nola aldatzen den haur eskola baten fakturazioa diruz lagundutako plaza, zerbitzu osagarriak eta kuota pribatua batera bizi direnean."
+description: "Nola aldatzen den haur-eskola baten fakturazioa diruz lagundutako plaza, zerbitzu osagarriak eta kuota pribatua batera daudenean."
 tags: ["haur eskolak", "0-3 doakotasuna", "diru laguntzak", "fakturazioa", "haur hezkuntza"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1634757439914-23b8acb9d411?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

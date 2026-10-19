@@ -1,5 +1,6 @@
 ---
 title: "Administrazio-zereginen automatizazioa: hezkuntzarako denbora askatu"
+seoTitle: "Administrazio-lanen automatizazioa hezkuntza-zentroetan"
 date: "2025-07-15"
 translationKey: "automatizacion-tareas-administrativas"
 description: "Hezkuntza-zentroek etengabeko erronka bat dute: administrazio-beharrak orekatzea kalitatezko hezkuntza eskaintzeko helburu nagusiarekin."

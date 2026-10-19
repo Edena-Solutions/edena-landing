@@ -1,5 +1,6 @@
 ---
 title: "Com reduir la morositat a escoles i guarderies amb cobraments automatitzats"
+seoTitle: "Reduir la morositat a les escoles amb cobraments automàtics"
 date: "2026-03-20"
 translationKey: "morosidad-colegios-cobros-automaticos-2026"
 description: "La morositat en col·legis i escoles bressol no és només un número en un informe: és temps de secretaria, tensió amb famílies."
@@ -19,7 +20,7 @@ relatedPosts:
     - pagaments-en-linia-educacio
 faqs:
     - question: "Quant puc abaixar la mora realistament amb automatització i processos correctes?"
-      answer: "Depèn de mix dingressos, perfils i política, però en capes estructurals, reduccions dun terç a la meitat de la cua baixa, en 6–12 mesos, amb mesura, no són infreqüents. No prometem miracles, prometem menys variació dolenta."
+      answer: "Depèn de mix d'ingressos, perfils i política, però en capes estructurals, reduccions d'un terç a la meitat de la cua baixa, en 6–12 mesos, amb mesura, no són infreqüents. No prometem miracles, prometem menys variació dolenta."
     - question: "Afecta la facturació electrònica els recordatoris de famílies?"
       answer: "Sí, indirectament: si l'emissió i el rebut viuen amb claredat, baixen disputes i baixa retreball. Assegureu-vos que el proveïdor no us deixi a mitges amb l'explicació als tutors."
     - question: "Què faig amb incompliments reiterats?"
@@ -42,7 +43,7 @@ La morositat en col·legis i escoles bressol no és només un número en un info
 
 <br>
 
-No tot impagament se soluciona amb programari. Hi ha situacions de vulnerabilitat, disconformitat reiterada, errors dimport o retard documental. Però una part important de la morositat de centres amb quotes o serveis facturables és estructural: dates poc alineades amb nòmines, absència de recurrència, canals múltiples (transferència, targeta, domiciliació barrejada) sense rastre, famílies que no llegeixen un únic avís i equips d'administració que reciclen tasques creient que “és el que toca”. Aquesta capa és la que baixa amb cobraments predictibles, recordatoris segmentats, regles i analítica. Si la plataforma no ofereix control d'impagaments, analítica financera i encaix amb l'expedient, la direcció no veu el problema a temps; si la comunicació no arriba amb el to adequat, la família ho percep com a càstig, no com a claredat. L'automatització combina regles, canals, to, dades.
+No tot impagament se soluciona amb programari. Hi ha situacions de vulnerabilitat, disconformitat reiterada, errors d'import o retard documental. Però una part important de la morositat de centres amb quotes o serveis facturables és estructural: dates poc alineades amb nòmines, absència de recurrència, canals múltiples (transferència, targeta, domiciliació barrejada) sense rastre, famílies que no llegeixen un únic avís i equips d'administració que reciclen tasques creient que “és el que toca”. Aquesta capa és la que baixa amb cobraments predictibles, recordatoris segmentats, regles i analítica. Si la plataforma no ofereix control d'impagaments, analítica financera i encaix amb l'expedient, la direcció no veu el problema a temps; si la comunicació no arriba amb el to adequat, la família ho percep com a càstig, no com a claredat. L'automatització combina regles, canals, to, dades.
 
 <br>
 
@@ -82,7 +83,7 @@ Amb famílies heterogènies, la segmentació mata l'efecte de cartell a tothom q
 <br>
 
 - Emissió i rebuts amb traçabilitat, tancament clar de períodes, exportacions auditables, coherència amb requisit fiscal aplicable, sense que secretaria recomposi PDFs.
-- Integració lògica amb lexpedient de lalumne, perquè deute i situació de serveis no visquin desconnectats.
+- Integració lògica amb l'expedient de l'alumne, perquè deute i situació de serveis no visquin desconnectats.
 - Comunicació que permeti recordatoris i segments, i confirmació de lectura quan aplica, per baixar el “no me'n vaig assabentar” genuí, no el que és excusa.
 - Analítica d'impagaments: antiguitat, import, comparativa mes a mes, amb filtres, per alimentar la reunió de direcció, no una pantalla motivacional.
 - Possibilitat d'afegir regles o automatitzacions (workflows) per a onboarding, recordatoris o tasques, sense multiplicar fulls de ruta a mà.
@@ -98,7 +99,7 @@ Això connecta amb la proposta de Edena: mòdul de facturació amb anàlisi de m
 
 - Creient que n'hi ha prou amb domiciliació sense missatges, quan el que falten són conciliació i segmentació.
 - Disparar recordatoris a tota la base i disparar soroll i xurn reputacional, pitjor encara sense to.
-- No actualitzar excepcions: beques, fraccionaments, baixes dactivitat, deute duplicat.
+- No actualitzar excepcions: beques, fraccionaments, baixes d'activitat, deute duplicat.
 - Oblidar formació: secretaria ha de dominar criteri i tancaments, no el botó vist una vegada.
 - Mesurar “menys queixes de diners” sense mirar taxa, per autoenganyar-se. Mesura simple: taxa i import al tancament, mes a mes, mateixa regla, sense canviar criteri per conveniència.
 

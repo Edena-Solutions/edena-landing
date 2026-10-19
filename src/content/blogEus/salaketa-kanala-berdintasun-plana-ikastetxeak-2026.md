@@ -1,8 +1,9 @@
 ---
 title: "Zentroa enplegatzaile gisa: salaketa kanala, berdintasun plana eta inork begiratzen ez dituen betebeharrak"
+seoTitle: "Zentroa enplegatzaile gisa: salaketa-kanala eta berdintasuna"
 date: "2026-08-26"
 translationKey: "canal-denuncias-plan-igualdad-centros-educativos-2026"
-description: "Denek begiratzen dute LOPIVI eta datuen babesa. Ia inork ez ditu begiratzen zentroaren betebeharrak erakunde enplegatzaile gisa: 2/2023 Legeko salaketa kanala, berdintasun plana, lanaldi erregistroa eta nola uztartzen diren."
+description: "2/2023 Legeko salaketa-kanala, berdintasun-plana eta lanaldi-erregistroa: zentroaren betebeharrak enplegatzaile gisa eta nola uztartzen diren."
 tags: ["salaketa kanala", "berdintasun plana", "betetzea", "giza baliabideak", "titulartasuna"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1490127252417-7c393f993ee4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

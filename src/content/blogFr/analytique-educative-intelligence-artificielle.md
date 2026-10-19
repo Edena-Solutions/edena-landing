@@ -1,5 +1,6 @@
 ---
 title: "Analyse pédagogique et intelligence artificielle : des données qui transforment l'éducation"
+seoTitle: "Analyse pédagogique et IA : décider avec les données"
 date: "2024-09-15"
 translationKey: "analitica-educativa-inteligencia-artificial"
 description: "L’analyse pédagogique et l’intelligence artificielle transforment fondamentalement la façon dont les écoles prennent des décisions."

@@ -1,8 +1,9 @@
 ---
 title: "Educational analytics and artificial intelligence: Data that transforms education"
+seoTitle: "Educational analytics and AI: data for better decisions"
 date: "2024-09-15"
 translationKey: "analitica-educativa-inteligencia-artificial"
-description: "Educational analytics and artificial intelligence are fundamentally transforming how schools make decisions, personalize learning, and optimize their operations."
+description: "Educational analytics and AI are changing how schools make decisions, personalise learning and run their operations. What to apply and how."
 tags:
     - "analytics"
     - "artificial intelligence"

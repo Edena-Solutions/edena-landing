@@ -1,5 +1,6 @@
 ---
 title: "Leadership éducatif transformationnel à l’ère numérique : compétences et stratégies"
+seoTitle: "Leadership éducatif à l'ère numérique : compétences clés"
 date: "2025-09-15"
 translationKey: "liderazgo-educativo-transformacional-digital"
 description: "La mise en œuvre d'un ERP, d'une application familiale ou d'un dossier numérique n'échoue pas uniquement à cause du logiciel."

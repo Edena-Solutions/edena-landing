@@ -2,7 +2,7 @@
 title: "Laguntza eta eskolaz kanpoko akademien kudeaketa softwarea"
 date: "2026-05-13"
 translationKey: "software-gestion-academias-refuerzo-2026"
-description: "Eskola laguntza eta eskolaz kanpoko akademia batek softwarean zer behar duen: ordutegiak, bertaratzea, blokeen araberako kobroak eta familiekiko komunikazioa 2026an."
+description: "Errefortzu eta eskolaz kanpoko akademia batek softwarean behar duena: ordutegiak, asistentzia, blokekako kobroak eta familiekiko komunikazioa."
 tags:
     [
         "laguntza akademia softwarea",

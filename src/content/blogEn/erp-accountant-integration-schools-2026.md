@@ -1,5 +1,6 @@
 ---
 title: "Integrating the School ERP with the Accountant: Accounting Without Double Work"
+seoTitle: "School ERP and accountant: accounting without double work"
 date: "2026-06-25"
 translationKey: "integracion-erp-gestoria-contabilidad-2026"
 description: "How to connect the center's ERP with the accountant to avoid double accounting work, reduce errors, and close the month without stress in 2026."

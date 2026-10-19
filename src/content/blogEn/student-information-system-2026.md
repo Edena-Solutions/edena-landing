@@ -1,8 +1,9 @@
 ---
 title: "What is a SIS (Student Information System) and why your educational center needs one in 2026"
+seoTitle: "What is a SIS (student information system)?"
 date: "2026-02-27"
 translationKey: "sis-sistema-informacion-estudiantil-2026"
-description: "A school SIS, or student information system, is the digital backbone of any modern educational center."
+description: "What a student information system (SIS) is, what it does as a school's digital backbone and why your school needs one in 2026."
 tags:
     - "school SIS"
     - "student information system"
@@ -14,7 +15,6 @@ relatedPosts:
     - school-management-software-comparison-spain-2026
     - school-software-purchase-checklist-2026
     - best-school-management-software
-    - choosing-school-management-software
 faqs:
     - question: "Is a school SIS the same as an educational ERP?"
       answer: "Not quite. A SIS focuses on student information (records, attendance, communication). A school ERP usually also includes billing, human resources, inventory and other modules. Many platforms integrate SIS and ERP into a single solution."

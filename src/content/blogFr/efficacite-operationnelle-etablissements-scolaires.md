@@ -1,5 +1,6 @@
 ---
 title: "Efficacité opérationnelle dans les établissements scolaires : optimiser les ressources grâce à la technologie"
+seoTitle: "Efficacité opérationnelle des établissements scolaires"
 date: "2024-11-15"
 translationKey: "eficiencia-operativa-centros-educativos"
 description: "Découvrez comment la technologie peut transformer les opérations des établissements scolaires, en réduisant les coûts et en améliorant la qualité du service."

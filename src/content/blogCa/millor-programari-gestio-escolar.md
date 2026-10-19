@@ -2,7 +2,7 @@
 title: "Com triar el millor programari de gestió escolar"
 date: "2026-02-03"
 translationKey: "mejor-software-gestion-escolar"
-description: "L'elecció del millor programari de gestió escolar marca la diferència entre un centre que perd hores en tasques repetitives i un que concentra recursos en allò que importa: alumnes i famílies."
+description: "Com triar el programari de gestió del teu centre: criteris, errors freqüents, cinc passos abans de demanar demos i un checklist per decidir amb dades."
 tags:
     - "programari gestió escolar"
     - "centres educatius"
@@ -13,7 +13,6 @@ cover: "https://images.unsplash.com/photo-1677022725616-91e41d36db21?q=80&w=987&
 relatedPosts:
     - comparativa-programari-gestio-escolar-2026
     - checklist-software-escolar-director-2026
-    - triar-programari-gestio-escolar
     - erp-escolar-guia-digitalitzacio
 faqs:
     - question: "Quan costa implantar un programari de gestió escolar?"
@@ -26,6 +25,12 @@ faqs:
       answer: "A Espanya, la normativa avança. El millor programari de gestió escolar per a centres ha d'estar preparat o en adaptació; comprova-ho abans de signar."
     - question: "Convé un programari modular o tot en un?"
       answer: "Depèn de si ja tens eines que vols mantenir (per exemple, plataforma acadèmica). Un nucli unificat (facturació, famílies, administració) sol simplificar el dia a dia."
+    - question: "Quant ha de durar la fase de cerca?"
+      answer: "Una setmana d'acotació i dues a quatre setmanes de donem enfocades són suficients si teniu criteris clars. Més de dos mesos sense pilot sol indicar manca de decisió interna, no manca oferta."
+    - question: "Puc començar només per cobraments?"
+      answer: "Sí, si el proveïdor permet créixer per mòduls sense remigrar. Assegureu que expedient i famílies arribaran a la mateixa dada mestre."
+    - question: "Què faig si el meu centre és concertat?"
+      answer: "Prioritzeu traçabilitat de quotes, beques i comunicació amb administració; el CRM comercial pesa menys que en privat pur, però Verifactu i LOPDGDD apliquen igual."
 ---
 
 <strong>Com triar el millor programari de gestió escolar per al teu centre educatiu</strong>
@@ -98,7 +103,7 @@ En educació, la protecció de dades és obligatòria. Exigeix ​​garanties s
 
 <br>
 
-Un col·legi concertat de 800 alumnes va prioritzar la facturació recurrent i el recordatori de pagaments; reduir impagaments va justificar la inversió el primer any. Un centre de formació professional va valorar la generació dinformes per a inspecció i la traçabilitat de la documentació. En tots dos casos, la decisió es va prendre després de mapejar els colls d'ampolla reials (no només "volem estar al dia").
+Un col·legi concertat de 800 alumnes va prioritzar la facturació recurrent i el recordatori de pagaments; reduir impagaments va justificar la inversió el primer any. Un centre de formació professional va valorar la generació d'informes per a inspecció i la traçabilitat de la documentació. En tots dos casos, la decisió es va prendre després de mapejar els colls d'ampolla reials (no només "volem estar al dia").
 
 <br>
 
@@ -162,6 +167,62 @@ Si no tanca sol·licitud-matrícula-cobrament en demo amb dades reals, descarta 
 
 <br>
 
+<strong>Guia express en cinc passos (abans de demanar donem)</strong>
+
+<br>
+
+Si el vostre centre encara reparteix dades entre Excel, email i una eina parcial, aquesta guia us ajuda a fitar la cerca en una setmana. No substitueix el checklist complet per a directors, però evita perdre mesos a proveïdors que no encaixen amb cobraments, famílies o expedient. L'objectiu és sortir amb una llista curta de tres opcions i criteris de pilot clars.
+
+<br>
+
+<strong>Pas 1: Escriviu el dolor en euros i hores</strong>
+
+<br>
+
+Reuniu a secretaria i direcció 45 minuts. Llista tres processos que més fan mal: impagaments, matrícula, comunicació, documents o assistència. Estimeu hores setmanals i cost d'errors (factures rectificatives, reclamacions, baixes per frustració familiar). Sense número, qualsevol programari sembla car.
+
+<br>
+
+<strong>Pas 2: Definiu imprescindibles vs desitjables</strong>
+
+<br>
+
+Imprescindibles sol incloure: facturació recurrent, portal o app familiar, expedient per alumne, rols d'accés i còpia de seguretat. Desitjables: CRM d'admissions, botiga, analítica avançada. Un col·legi infantil prioritza places i menús; una acadèmia, bons i temporades.
+
+<br>
+
+<strong>Pas 3: Exigeix ​​demo amb les teves dades</strong>
+
+<br>
+
+No accepteu només la demo comercial. Pugeu cinc famílies fictícies però realistes, un cicle de rebuts i una campanya de sol·licituds. Mesura clics i temps. Si a la demo ja necessiteu Excel pont, en producció serà pitjor.
+
+<br>
+
+<strong>Pas 4: Calculeu TCO a tres anys</strong>
+
+<br>
+
+Suma llicència, implantació, formació i hores internes. Divideix entre famílies o alumnes per comparar ofertes. El preu per pantalla enganya; el cost per alumne i per hora recuperada no.
+
+<br>
+
+<strong>Pas 5: Pilot amb criteri de tall</strong>
+
+<br>
+
+Vuit a dotze setmanes, un mòdul complet (per exemple cobraments o admissió). Abans recorda quina mètrica mana: baixar morositat dos punts, reduir a la meitat el temps de matrícula o eliminar un duplicat d'eina.
+
+<br>
+
+<strong>Equip mínim per decidir bé</strong>
+
+<br>
+
+Director o gerent (pressupost i prioritat), responsable de secretaria (ús diari), algú d'admissions si capteu activament, i una persona que entengui dades personals (DPO intern o extern). Sense secretaria a taula, comprareu una eina que el claustre saboteja al setembre.
+
+<br>
+
 <strong>Context a Espanya: què exigeix ​​un ERP escolar el 2026</strong>
 
 <br>
@@ -186,6 +247,6 @@ Una escola bressol de 85 places a Girona va avaluar tres proveïdors amb el mate
 
 <br>
 
-Escollir el millor programari de gestió escolar és una decisió estratègica: redueix càrrega administrativa, millora la comunicació amb famílies i dóna visibilitat sobre cobraments i absentisme. Inverteix temps a definir necessitats reals, provar amb dades reals i alinear tot l'equip abans de comprometre't. Un procés ordenat redueix riscos i augmenta les probabilitats dèxit.
+Escollir el millor programari de gestió escolar és una decisió estratègica: redueix càrrega administrativa, millora la comunicació amb famílies i dóna visibilitat sobre cobraments i absentisme. Inverteix temps a definir necessitats reals, provar amb dades reals i alinear tot l'equip abans de comprometre't. Un procés ordenat redueix riscos i augmenta les probabilitats d'èxit.
 
 <br>

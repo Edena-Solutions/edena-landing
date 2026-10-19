@@ -1,5 +1,6 @@
 ---
 title: "Experiencia del estudiante en la era digital: Más allá del aprendizaje tradicional"
+seoTitle: "Experiencia del estudiante en la era digital"
 date: "2024-09-01"
 translationKey: "experiencia-estudiante-era-digital"
 description: "Descubre cómo crear experiencias estudiantiles excepcionales que combinen tecnología, personalización y conexión humana."
@@ -81,7 +82,7 @@ Los estudiantes pueden acceder al contenido educativo en cualquier momento y des
 
 La gamificación puede hacer que la experiencia educativa sea más atractiva y motivadora. Los sistemas pueden incluir elementos de juego como badges, puntos, niveles, y competencias que incentiven la participación y el progreso.
 
-Los estudiantes pueden participar en "misiones" educativas, resolver "enigmas" que requieren conocimientos específicos, y colaborar en "equipos" para lograr objetivos comunes. La gamificación también puede incluir desafíte grupales que fomenten la colaboración y el trabajo en equipo.
+Los estudiantes pueden participar en "misiones" educativas, resolver "enigmas" que requieren conocimientos específicos, y colaborar en "equipos" para lograr objetivos comunes. La gamificación también puede incluir desafíos grupales que fomenten la colaboración y el trabajo en equipo.
 
 <br>
 

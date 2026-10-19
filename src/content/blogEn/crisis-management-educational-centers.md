@@ -1,8 +1,9 @@
 ---
 title: "Crisis management in educational centers: Protocols and strategies for continuity"
+seoTitle: "Crisis management in schools: protocols and continuity"
 date: "2025-08-01"
 translationKey: "gestion-crisis-centros-educativos"
-description: "In the current educational environment, centers must be prepared to face unforeseen crises that can disrupt academic activities and put the safety of students and staff at risk."
+description: "How to prepare a school for unforeseen crises that disrupt activity or put students and staff at risk, with protocols and strategies for continuity."
 tags:
     - "crisis management"
     - "protocols"

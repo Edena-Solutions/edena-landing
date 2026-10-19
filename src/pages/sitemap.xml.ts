@@ -64,6 +64,10 @@ export async function GET() {
      * Canonical URL layout: Spanish (default locale) lives unprefixed at the
      * root; en/ca/eus/fr live under their locale prefix. /es/* duplicates are
      * canonicalised to the root and are therefore NOT listed here.
+     *
+     * Pages other than blog posts are written with today's date; after the build,
+     * `integrations/sitemap-lastmod.mjs` replaces it with the date their text last
+     * changed.
      */
     const locales: Array<{ prefix: string; hreflang: string }> = [
         { prefix: "en", hreflang: "en" },
@@ -147,22 +151,7 @@ export async function GET() {
             priority: "0.8",
             changefreq: "weekly",
             lastmod: latestBlogEsDate,
-            hreflangLinks: [
-                { hreflang: "x-default", href: `${base}/blog/` },
-                { hreflang: "es", href: `${base}/es/blog/` },
-                { hreflang: "en", href: `${base}/en/blog/` },
-            ],
-        },
-        {
-            path: "/es/blog/",
-            priority: "0.8",
-            changefreq: "weekly",
-            lastmod: latestBlogEsDate,
-            hreflangLinks: [
-                { hreflang: "x-default", href: `${base}/blog/` },
-                { hreflang: "es", href: `${base}/es/blog/` },
-                { hreflang: "en", href: `${base}/en/blog/` },
-            ],
+            hreflangLinks: buildHreflang("blog/"),
         },
     ];
 
@@ -187,9 +176,7 @@ export async function GET() {
             priority: "0.8",
             changefreq: "weekly",
             lastmod: blogLastmodByPrefix[l.prefix],
-            hreflangLinks: [
-                { hreflang: l.hreflang, href: `${base}/${l.prefix}/blog/` },
-            ],
+            hreflangLinks: buildHreflang("blog/"),
         },
         ...sharedLocaleSubpaths.map((p) => ({
             path: `/${l.prefix}/${p.segment}`,
@@ -243,7 +230,6 @@ export async function GET() {
         });
 
     const blogEsUrls = blogUrlsFor(blogEsPosts, "/", "es");
-    const blogEsUrlsWithPrefix = blogUrlsFor(blogEsPosts, "/es/", "es");
     const blogEnUrls = blogUrlsFor(blogEnPosts, "/en/", "en");
     const blogCaUrls = blogUrlsFor(blogCaPosts, "/ca/", "ca");
     const blogEusUrls = blogUrlsFor(blogEusPosts, "/eus/", "eu");
@@ -253,7 +239,6 @@ export async function GET() {
         ...staticUrls,
         ...localeStaticUrls,
         ...blogEsUrls,
-        ...blogEsUrlsWithPrefix,
         ...blogEnUrls,
         ...blogCaUrls,
         ...blogEusUrls,

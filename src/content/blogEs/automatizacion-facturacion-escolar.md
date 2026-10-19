@@ -1,5 +1,6 @@
 ---
 title: "Automatización de la facturación escolar: Optimiza tus procesos internos"
+seoTitle: "Automatización de la facturación escolar"
 date: "2025-01-15"
 translationKey: "automatizacion-facturacion-escolar"
 description: "La gestión interna de la facturación es uno de los procesos más complejos y propensos a errores en cualquier centro educativo."
@@ -36,7 +37,7 @@ La gestión interna de la facturación es uno de los procesos más complejos y p
 
 <br>
 
-<strong>Los desafíte de la facturación manual interna</strong>
+<strong>Los desafíos de la facturación manual interna</strong>
 
 <br>
 

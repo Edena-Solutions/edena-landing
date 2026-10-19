@@ -1,5 +1,6 @@
 ---
 title: "Educational Dashboard: The control center for strategic management"
+seoTitle: "Educational dashboard: the control centre for management"
 date: "2025-02-25"
 translationKey: "dashboard-educativo"
 description: "In the information age, educational centers need management tools that provide full visibility over all their operations."

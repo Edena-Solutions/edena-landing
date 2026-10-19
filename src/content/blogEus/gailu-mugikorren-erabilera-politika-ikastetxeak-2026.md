@@ -1,8 +1,9 @@
 ---
 title: "Mugikorrak zentroan: legeak eskatuko dizun gailuen politika nola idatzi"
+seoTitle: "Mugikorrak zentroan: gailuen politika nola idatzi"
 date: "2026-08-14"
 translationKey: "politica-uso-dispositivos-moviles-centros-educativos-2026"
-description: "Ingurune Digitaletan Adingabeak Babesteko Legeak zentro bakoitza gailuen erabilera arautzera behartuko du eta datuen baimena 14tik 16 urtera igotzen du. Dokumentuak zein atal izan behar dituen eta familiei nola komunikatu."
+description: "Ingurune digitaletan adingabeak babesteko legeak gailuen erabilera arautzera behartuko ditu zentroak. Zer jaso behar duen politikak eta nola komunikatu."
 tags: ["gailu mugikorrak", "adingabeen babesa", "araudia", "bizikidetza", "baimena"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?q=80&w=820&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

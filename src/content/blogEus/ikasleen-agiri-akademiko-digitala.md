@@ -1,8 +1,9 @@
 ---
 title: "Nola zentralizatu ikasleen informazio guztia sistema bakarrean"
+seoTitle: "Espediente akademiko digitala: ikaslea sistema bakarrean"
 date: "2026-03-09"
 translationKey: "expediente-academico-digital-estudiantes"
-description: "Espediente akademiko digitalak eta ikastetxeko ikasleen kudeaketa karpetetan, kalkulu-orrietan eta mezu elektronikoetan sakabanatuta dauden akatsak."
+description: "Karpetetan, kalkulu-orrietan eta mezuetan sakabanatutako espedienteek akatsak eta atzerapenak sortzen dituzte. Nola zentralizatu ikaslearen informazioa."
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1769074257962-c297d5908fd5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2VudHJhbGl6ZWR8ZW58MHx8MHx8fDA%3D"
 relatedPosts:

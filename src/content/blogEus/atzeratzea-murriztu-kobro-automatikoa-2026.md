@@ -1,5 +1,6 @@
 ---
 title: "Nola murriztu berandutza ordainketak ikastetxeetan eta haurtzaindegietan bilketa automatizatuekin"
+seoTitle: "Berandutzak murriztu ikastetxeetan kobro automatikoekin"
 date: "2026-03-20"
 translationKey: "morosidad-colegios-cobros-automaticos-2026"
 description: "Ikastetxeetan eta haurtzaindegietan berandu ordaintzea ez da zenbaki bat bakarrik txosten batean: idazkaritza ordua da, familiekin tentsioa."

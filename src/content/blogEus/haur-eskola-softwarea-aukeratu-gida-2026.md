@@ -1,8 +1,9 @@
 ---
 title: "Nola aukeratu softwarea haur-eskola edo haurtzaindegi baterako 2026an"
+seoTitle: "Nola aukeratu softwarea haur-eskola edo haurtzaindegirako"
 date: "2026-07-08"
 translationKey: "elegir-software-escuela-infantil-guarderia-2026"
-description: "Gida praktikoa zure haur-eskola edo haurtzaindegirako kudeaketa-softwarea aukeratzeko 2026an: agenda digitala, familiekiko komunikazioa, fakturazioa eta zer galdetu sinatu aurretik."
+description: "Zure haur-eskola edo haurtzaindegirako softwarea aukeratzeko gida: agenda digitala, familiekiko komunikazioa, fakturazioa eta zer galdetu sinatu aurretik."
 tags:
     [
         "haur-eskola softwarea",
@@ -16,7 +17,7 @@ author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1539992190939-08f22d7ebaad?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
     - haur-eskola-erp-baldintzak-2026
-    - eskola-kudeaketa-softwarea-aukeratzea
+    - onena-eskola-kudeaketa-softwarea
     - guraso-app-ikastetxean-2026
     - erp-eskola-digitalizazio-gida
 faqs:

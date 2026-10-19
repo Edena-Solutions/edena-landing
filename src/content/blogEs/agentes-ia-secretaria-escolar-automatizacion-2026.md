@@ -1,8 +1,9 @@
 ---
 title: "Agentes de IA en secretaría: de asistente que sugiere a sistema que ejecuta"
+seoTitle: "Agentes de IA en secretaría escolar: qué pueden hacer ya"
 date: "2026-08-18"
 translationKey: "agentes-ia-secretaria-escolar-automatizacion-2026"
-description: "La IA agéntica es la tendencia tecnológica número uno de 2026. Qué distingue un agente de un asistente, tres flujos de secretaría que ya se pueden delegar y dónde una persona debe seguir decidiendo."
+description: "Qué distingue un agente de IA de un asistente, tres flujos de secretaría que ya se pueden delegar y dónde debe seguir decidiendo una persona."
 tags:
     [
         "agentes de IA",

@@ -1,8 +1,9 @@
 ---
 title: "Pas de message à onze heures du soir : déconnexion numérique et fenêtres de communication"
+seoTitle: "Déconnexion numérique : fenêtres de communication"
 date: "2026-08-20"
 translationKey: "desconexion-digital-comunicacion-centros-familias-2026"
-description: "La diffusion dans les ENT et les logiciels de gestion est désormais suspendue de 20h à 7h et le week-end. Comment définir des fenêtres de communication entre établissement, familles et personnels sans perdre l'alerte urgente."
+description: "Les ENT et logiciels de gestion suspendent désormais la diffusion de 20h à 7h. Comment fixer des fenêtres de communication sans perdre l'alerte urgente."
 tags:
     [
         "déconnexion numérique",

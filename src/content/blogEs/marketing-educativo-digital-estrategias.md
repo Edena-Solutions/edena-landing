@@ -1,5 +1,6 @@
 ---
 title: "Marketing educativo digital: Estrategias para atraer y retener familias en la era digital"
+seoTitle: "Marketing educativo digital para atraer y retener familias"
 date: "2025-09-08"
 translationKey: "marketing-educativo-digital-estrategias"
 description: "Si diriges un colegio privado o concertado de 150 a 800 familias, probablemente inviertes en web, Open Day o redes y aun así no ves el retorno en matrículas."

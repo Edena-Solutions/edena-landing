@@ -1,5 +1,6 @@
 ---
 title: "Cómo digitalizar la matrícula online de tu centro educativo paso a paso"
+seoTitle: "Matrícula online en tu centro educativo, paso a paso"
 date: "2026-03-28"
 translationKey: "matricula-online-centro-educativo-pasos-2026"
 description: "Pasar la matrícula a un flujo online no es subir un PDF a la web: es reordenar criterios, responsables, plazos y mensajes."

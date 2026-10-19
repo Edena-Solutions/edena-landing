@@ -1,5 +1,6 @@
 ---
 title: "CRM escolar: com augmentar matrícules i convertir més sol·licituds"
+seoTitle: "CRM escolar: com convertir més sol·licituds en matrícules"
 date: "2026-03-24"
 translationKey: "crm-escolar-matriculas-conversion-2026"
 description: "Un CRM escolar no és un “extra de comercial” per a centres que volen semblar moderns: és l'antídot contra la matrícula que es refreda a la safata."
@@ -95,7 +96,7 @@ Missatge genèric a tots vs segmentació: les famílies en etapa de visita no ne
 - Leads per etapa, conversió etapa a etapa, en finestra fixa, per exemple, matrícules 2026 en curs.
 - Origen, cost relatiu, si escau, i ràtio de tancament, no “impressions”.
 - Temps en etapa, alertes.
-- Taxa dabandonament documental.
+- Taxa d'abandonament documental.
 - Coherència: mateixa definició que utilitza adreça, no cinc Excel diferents.
 
 Amb analítica de centre a la plataforma base, més mòdul CRM, la lectura guanya corda; sense CRM, mesures caixa sense saber d'on va venir el darrer 20% de matrícules.

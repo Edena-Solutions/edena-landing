@@ -1,8 +1,9 @@
 ---
 title: "The EU AI Act in schools: what applies now and what arrives in 2027"
+seoTitle: "The EU AI Act in schools: what applies now and in 2027"
 date: "2026-08-03"
 translationKey: "reglamento-ia-ue-centros-educativos-2026"
-description: "Regulation (EU) 2024/1689 has applied generally since 2 August 2026. Which obligations already affect schools, nurseries and academies, which systems count as high-risk, and what to demand from your vendors."
+description: "Which obligations of Regulation (EU) 2024/1689 already affect schools, nurseries and academies, which systems are high-risk and what to ask vendors."
 tags: ["AI Act", "artificial intelligence", "compliance", "regulation", "EU"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1658823276022-d6613757faa3?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

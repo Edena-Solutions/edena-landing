@@ -1,8 +1,9 @@
 ---
 title: "Working-time records in schools: obligations and how to comply in 2026"
+seoTitle: "Working-time records in schools: how to comply"
 date: "2026-07-19"
 translationKey: "registro-jornada-centros-educativos-2026"
-description: "What Spain's working-time registry requires from schools, nurseries and academies in 2026: the rules, penalties, teaching staff, and how to track hours without paper sheets."
+description: "What Spain's working-time rules require from schools, nurseries and academies: obligations, penalties, teaching staff and tracking hours without paper."
 tags:
     [
         "working time records",

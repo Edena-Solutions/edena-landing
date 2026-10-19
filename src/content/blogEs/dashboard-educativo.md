@@ -1,5 +1,6 @@
 ---
 title: "Dashboard educativo: El centro de control para la gestión estratégica"
+seoTitle: "Dashboard educativo: el centro de control de la gestión"
 date: "2025-02-25"
 translationKey: "dashboard-educativo"
 description: "En la era de la información, los centros educativos necesitan herramientas de gestión que proporcionen visibilidad total sobre todas sus operaciones."

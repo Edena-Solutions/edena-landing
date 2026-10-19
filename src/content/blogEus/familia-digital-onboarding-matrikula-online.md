@@ -1,5 +1,6 @@
 ---
 title: "Onboarding familia digitalak: nola matrikulatu ikasleak paperik gabe"
+seoTitle: "Familien onboarding digitala: matrikula paperik gabe"
 date: "2026-03-11"
 translationKey: "onboarding-digital-familias-matricula-online"
 description: "Familiek euren seme-alabak bidaiatu gabe matrikulatu ahal izatea espero dute, paperik inprimatu gabe eta idazkaritzak datuak transkribatu arte itxaron gabe."

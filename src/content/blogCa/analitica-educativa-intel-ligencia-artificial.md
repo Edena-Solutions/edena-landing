@@ -1,5 +1,6 @@
 ---
-title: "Analítica educativa i intel·ligència artificial: Dades que transformen leducació"
+title: "Analítica educativa i intel·ligència artificial: Dades que transformen l'educació"
+seoTitle: "Analítica educativa i IA: dades per decidir al centre"
 date: "2024-09-15"
 translationKey: "analitica-educativa-inteligencia-artificial"
 description: "L'analítica educativa i la intel·ligència artificial estan transformant fonamentalment com els centres educatius prenen decisions."
@@ -21,10 +22,10 @@ faqs:
     - question: "Necessito científic de dades?"
       answer: "A centres mitjans n'hi ha prou amb informes automàtics del ERP i criteri de direcció d'estudis."
     - question: "És compatible amb LOMLOE?"
-      answer: "Sí si recolza avaluació formativa, no si imposa etiquetes opaques a lalumnat."
+      answer: "Sí si recolza avaluació formativa, no si imposa etiquetes opaques a l'alumnat."
 ---
 
-<strong>Analítica educativa i intel·ligència artificial: Dades que transformen leducació</strong>
+<strong>Analítica educativa i intel·ligència artificial: Dades que transformen l'educació</strong>
 
 <br>
 
@@ -66,9 +67,9 @@ Quan es detecta un estudiant en risc, el sistema pot activar automàticament int
 
 <br>
 
-L'analítica educativa pot ajudar els centres a optimitzar l'ús dels recursos limitats. Els sistemes poden analitzar patrons dús daules, equips, i personal per identificar oportunitats de millora.
+L'analítica educativa pot ajudar els centres a optimitzar l'ús dels recursos limitats. Els sistemes poden analitzar patrons d'ús d'aules, equips, i personal per identificar oportunitats de millora.
 
-Els algorismes poden suggerir horaris òptims que maximitzin lús despais i minimitzin conflictes. Podeu identificar quins recursos educatius són més efectius per a diferents tipus d'estudiants. I poden ajudar a predir necessitats futures de recursos basant-se en tendències històriques.
+Els algorismes poden suggerir horaris òptims que maximitzin l'ús d'espais i minimitzin conflictes. Podeu identificar quins recursos educatius són més efectius per a diferents tipus d'estudiants. I poden ajudar a predir necessitats futures de recursos basant-se en tendències històriques.
 
 <br>
 
@@ -98,7 +99,7 @@ Els algorismes poden detectar canvis en el comportament que podrien indicar prob
 
 Els professors també es beneficien de l¿analítica educativa. Els sistemes poden proporcionar insights sobre l'efectivitat de diferents mètodes d'ensenyament, materials i estratègies pedagògiques.
 
-Les dades poden mostrar quins enfocaments són més efectius per a diferents tipus destudiants o matèries. Poden identificar àrees on els professors podrien beneficiar-se de formació addicional. I poden proporcionar feedback sobre limpacte de diferents estratègies densenyament.
+Les dades poden mostrar quins enfocaments són més efectius per a diferents tipus d'estudiants o matèries. Poden identificar àrees on els professors podrien beneficiar-se de formació addicional. I poden proporcionar feedback sobre l'impacte de diferents estratègies d'ensenyament.
 
 <br>
 
@@ -128,7 +129,7 @@ Els algorismes poden identificar patrons a la demanda de certs cursos o programe
 
 Amb el poder de l'analítica educativa ve la responsabilitat de fer-la servir de manera ètica i responsable. Els centres han d'assegurar que les dades es recopilin i s'utilitzen de manera transparent, amb el consentiment apropiat.
 
-És fonamental protegir la privadesa dels estudiants i les seves famílies. Els sistemes han dimplementar mesures de seguretat robustes i complir amb regulacions de protecció de dades. Els centres han de ser transparents sobre quines dades es recopilen i com es fan servir.
+És fonamental protegir la privadesa dels estudiants i les seves famílies. Els sistemes han d'implementar mesures de seguretat robustes i complir amb regulacions de protecció de dades. Els centres han de ser transparents sobre quines dades es recopilen i com es fan servir.
 
 <br>
 
@@ -156,7 +157,7 @@ Assistents genèrics no coneixen el teu reglament. La IA integrada al ERP pot al
 
 La LOMLOE situa les competències clau i l'avaluació continuada al centre del projecte educatiu. El Pla DigEdu impulsa competència digital docent, entorns tecnològics segurs i distribució de dispositius a aules. Com més temps perd el professorat en tasques administratives duplicades (parts en paper, llistats a Excel, circulars per canals diferents), menys queda per acompanyament i avaluació formativa.
 
-Digitalitzar gestió no substitueix la pedagogia: allibera hores reals en tutoria, coordinació de departament i seguiment individual. Un claustre que utilitza quatre eines de comunicació diferents perd coherència amb les famílies i coherència interna en criteris davaluació i seguiment.
+Digitalitzar gestió no substitueix la pedagogia: allibera hores reals en tutoria, coordinació de departament i seguiment individual. Un claustre que utilitza quatre eines de comunicació diferents perd coherència amb les famílies i coherència interna en criteris d'avaluació i seguiment.
 
 El 2026, la tecnologia educativa útil per a centres espanyols connecta aula i administració: expedient, comunicació, assistència i analítica comparteixen la mateixa font de dades. La innovació pedagògica sostenible recolza la LOMLOE quan la gestió admin deixa de robar hores al claustre al setembre i al tancament de trimestre.
 

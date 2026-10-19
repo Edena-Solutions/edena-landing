@@ -1,5 +1,6 @@
 ---
 title: "Chatbot amb IA per a famílies: atenció 24/7 en col·legis i acadèmies el 2026"
+seoTitle: "Chatbot amb IA per a famílies en col·legis i acadèmies"
 date: "2026-06-29"
 translationKey: "chatbot-ia-atencion-familias-colegios-2026"
 description: "Com un chatbot amb IA pot atendre els dubtes freqüents de les famílies 24/7, alleujar secretaria i millorar l'experiència sense perdre el tracte humà el 2026."

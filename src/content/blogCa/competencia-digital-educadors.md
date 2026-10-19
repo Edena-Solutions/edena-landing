@@ -1,5 +1,6 @@
 ---
 title: "Competència digital per a educadors: Preparant els professors del futur"
+seoTitle: "Competència digital docent: el que necessita el professorat"
 date: "2024-09-30"
 translationKey: "competencia-digital-educadores"
 description: "Descobreix les competències digitals essencials que els educadors necessiten per preparar els estudiants per al món digital."
@@ -43,7 +44,7 @@ Els educadors digitalment competents no només fan servir eines tecnològiques, 
 
 <br>
 
-Els educadors necessiten desenvolupar competències tècniques bàsiques que els permetin fer servir eines digitals de manera efectiva. Això inclou el maneig de dispositius, programari educatiu, plataformes daprenentatge, i eines de comunicació digital.
+Els educadors necessiten desenvolupar competències tècniques bàsiques que els permetin fer servir eines digitals de manera efectiva. Això inclou el maneig de dispositius, programari educatiu, plataformes d'aprenentatge, i eines de comunicació digital.
 
 Els professors han de ser capaços de crear contingut digital, gestionar informació en línia i resoldre problemes tècnics bàsics. També necessiten entendre conceptes fonamentals com seguretat digital, privadesa, i ciutadania digital per poder ensenyar aquests temes als seus estudiants.
 
@@ -53,7 +54,7 @@ Els professors han de ser capaços de crear contingut digital, gestionar informa
 
 <br>
 
-La competència digital inclou la capacitat de dissenyar experiències daprenentatge que aprofitin les possibilitats de la tecnologia. Els educadors han d'entendre com diferents eines digitals poden donar suport a diferents objectius d'aprenentatge i metodologies pedagògiques.
+La competència digital inclou la capacitat de dissenyar experiències d'aprenentatge que aprofitin les possibilitats de la tecnologia. Els educadors han d'entendre com diferents eines digitals poden donar suport a diferents objectius d'aprenentatge i metodologies pedagògiques.
 
 Els professors digitalment competents poden dissenyar activitats que integrin tecnologia de manera significativa, no pas com un afegitó, sinó com un element fonamental del procés d'aprenentatge. Saben com fer servir la tecnologia per personalitzar l'aprenentatge, facilitar la col·laboració i crear experiències més atractives.
 
@@ -73,7 +74,7 @@ Els professors han de saber fer servir eines d'avaluació digital que els permet
 
 <br>
 
-Els educadors digitalment competents saben com fer servir la tecnologia per facilitar la col·laboració i comunicació amb estudiants, pares, i col·legues. Les eines digitals poden crear espais de col·laboració que transcendeixin les limitacions del temps i lespai.
+Els educadors digitalment competents saben com fer servir la tecnologia per facilitar la col·laboració i comunicació amb estudiants, pares, i col·legues. Les eines digitals poden crear espais de col·laboració que transcendeixin les limitacions del temps i l'espai.
 
 Els professors han de saber fer servir plataformes de comunicació per mantenir informats els pares sobre el progrés dels seus fills, facilitar la col·laboració entre estudiants, i connectar amb altres educadors per compartir recursos i millors pràctiques.
 
@@ -83,7 +84,7 @@ Els professors han de saber fer servir plataformes de comunicació per mantenir 
 
 <br>
 
-Els educadors han de desenvolupar el seu propi pensament crític sobre la tecnologia i ser capaços d'ensenyar els estudiants a navegar críticament en el món digital. Això inclou la capacitat davaluar la qualitat i credibilitat de la informació en línia.
+Els educadors han de desenvolupar el seu propi pensament crític sobre la tecnologia i ser capaços d'ensenyar els estudiants a navegar críticament en el món digital. Això inclou la capacitat d'avaluar la qualitat i credibilitat de la informació en línia.
 
 Els professors han d'entendre els biaixos algorítmics, la desinformació i els desafiaments ètics de la tecnologia digital. Han de ser capaços d'ensenyar els estudiants a ser consumidors crítics i creadors responsables de contingut digital.
 
@@ -95,7 +96,7 @@ Els professors han d'entendre els biaixos algorítmics, la desinformació i els 
 
 La competència digital no és estàtica; requereix desenvolupament professional continu. Els educadors han d'estar disposats a aprendre constantment sobre noves tecnologies, eines i metodologies pedagògiques.
 
-Els centres educatius han de proporcionar oportunitats de formació continuada que permetin als professors desenvolupar les seves competències digitals. Això pot incloure tallers, cursos en línia, comunitats de pràctica i oportunitats dexperimentació amb noves tecnologies.
+Els centres educatius han de proporcionar oportunitats de formació continuada que permetin als professors desenvolupar les seves competències digitals. Això pot incloure tallers, cursos en línia, comunitats de pràctica i oportunitats d'experimentació amb noves tecnologies.
 
 <br>
 
@@ -115,7 +116,7 @@ Els professors líders poden crear comunitats de pràctica on compartir recursos
 
 Els educadors digitalment competents entenen la importància de l'equitat digital i saben com fer servir la tecnologia per crear experiències educatives més inclusives. Han de ser conscients de les barreres digitals que poden enfrontar alguns estudiants i saber com abordar-les.
 
-Els professors han de saber utilitzar eines daccessibilitat, dissenyar contingut que sigui accessible per a estudiants amb diferents necessitats, i assegurar que la tecnologia no creï noves barreres per a laprenentatge.
+Els professors han de saber utilitzar eines d'accessibilitat, dissenyar contingut que sigui accessible per a estudiants amb diferents necessitats, i assegurar que la tecnologia no creï noves barreres per a l'aprenentatge.
 
 <br>
 
@@ -123,7 +124,7 @@ Els professors han de saber utilitzar eines daccessibilitat, dissenyar contingut
 
 <br>
 
-Els educadors han de modelar i ensenyar lús ètic i responsable de la tecnologia. Això inclou el respecte per la privadesa, la propietat intel·lectual, i els drets digitals d'altres.
+Els educadors han de modelar i ensenyar l'ús ètic i responsable de la tecnologia. Això inclou el respecte per la privadesa, la propietat intel·lectual, i els drets digitals d'altres.
 
 Els professors han de ser capaços d'ensenyar als seus estudiants sobre seguretat digital, privadesa en línia, i comportament responsable en espais digitals. Han de modelar l'ús ètic de la tecnologia en les pròpies pràctiques.
 

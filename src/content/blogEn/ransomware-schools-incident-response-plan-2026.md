@@ -1,8 +1,9 @@
 ---
 title: "They've encrypted the school's data: the response plan you should already have written"
+seoTitle: "Ransomware at school: the response plan to have in writing"
 date: "2026-08-10"
 translationKey: "ransomware-centros-educativos-plan-respuesta-2026"
-description: "Education ranks among Spain's most attacked sectors. What to do in the first 72 hours: NIS2 and GDPR notification clocks, who to call in what order, what to tell families and what to demand from your vendor."
+description: "What to do in the first 72 hours of a cyberattack on your school: NIS2 and GDPR notification clocks, who to call and what to tell families."
 tags: ["cybersecurity", "ransomware", "NIS2", "data protection", "crisis management"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1634224143538-ce0221abf732?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

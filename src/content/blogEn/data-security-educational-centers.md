@@ -1,8 +1,9 @@
 ---
 title: "Data security in educational centers: Protecting the digital future"
+seoTitle: "Data security in schools: protecting sensitive data"
 date: "2025-01-25"
 translationKey: "seguridad-datos-centros-educativos"
-description: "In the digital age, educational centers handle massive amounts of sensitive data: personal information of students and families, academic records, financial data."
+description: "Schools handle large amounts of sensitive data: personal details of students and families, academic records and financial data. How to protect it."
 tags:
     - "security"
     - "data"

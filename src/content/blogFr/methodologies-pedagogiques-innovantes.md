@@ -1,8 +1,9 @@
 ---
 title: "Méthodologies pédagogiques innovantes : transformer le processus d’enseignement-apprentissage"
+seoTitle: "Méthodologies pédagogiques innovantes en classe"
 date: "2025-08-10"
 translationKey: "metodologias-pedagogicas-innovadoras"
-description: "Le paysage éducatif connaît une transformation fondamentale dans ses approches pédagogiques."
+description: "Quelles méthodologies pédagogiques innovantes complètent l'enseignement traditionnel et comment commencer à les appliquer dans les classes de votre école."
 tags:
     - "méthodologies pédagogiques"
     - "innovation pédagogique"

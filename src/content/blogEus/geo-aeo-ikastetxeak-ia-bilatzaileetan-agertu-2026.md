@@ -1,8 +1,9 @@
 ---
 title: "ChatGPTk zure ikastetxea gomenda dezan: GEO eta AEO gida hezkuntza zentroentzat"
+seoTitle: "ChatGPTk zure ikastetxea gomenda dezan: GEO eta AEO"
 date: "2026-08-24"
 translationKey: "geo-aeo-colegios-aparecer-buscadores-ia-2026"
-description: "IA bilatzeko erabiltzea % 5etik % 21era pasa zen bi urtetan. Nola lortu laguntzaile batek zure zentroa aipatzea familia batek zure inguruko ikastetxeez galdetzen duenean: entitate koherentea, datu egituratuak eta eduki aipagarria."
+description: "Nola lortu IA laguntzaile batek zure zentroa aipatzea familia batek inguruko ikastetxeez galdetzean: entitate koherentea, datu egituratuak eta eduki aipagarria."
 tags: ["GEO", "AEO", "hezkuntza marketina", "SEO", "erakarpena"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1703022943822-0a1fa10cee23?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

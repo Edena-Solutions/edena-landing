@@ -2,7 +2,7 @@
 title: "Protección de datos en la gestión digital de escuelas"
 date: "2026-02-14"
 translationKey: "proteccion-datos-escuela-digital"
-description: "La gestión digital de un centro educativo implica tratar datos de alumnos, familias y personal."
+description: "Qué responsabilidades, riesgos y medidas implica tratar datos de alumnos, familias y personal en la gestión digital de un centro educativo."
 tags: ["protección datos escuela digital", "GDPR", "seguridad", "directivos"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1545175928-65a104e66691?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -155,7 +155,7 @@ Si quieres alinear la gestión digital de tu centro con la protección de datos,
 
 <br>
 
-El centro educativo es responsable del tratamiento de datos de alumnos y familias. El proveedor de software actúa como encargado: debe ofrecer contrato de encargo de tratamiento, registro de actividades, cifrado en tránsito y reposo, y subprocesadores documentados. Para menores de 14 añte, el consentimiento de madre, padre o tutor es central en la mayoría de tratamientos.
+El centro educativo es responsable del tratamiento de datos de alumnos y familias. El proveedor de software actúa como encargado: debe ofrecer contrato de encargo de tratamiento, registro de actividades, cifrado en tránsito y reposo, y subprocesadores documentados. Para menores de 14 años, el consentimiento de madre, padre o tutor es central en la mayoría de tratamientos.
 
 Ante una brecha de seguridad, el plazo de notificación a la AEPD puede ser de 72 horas. Sin procedimiento escrito, registro de accesos y formación anual al personal, el cumplimiento en papel no aguanta una auditoría real. Migrar de hojas de cálculo compartidas a plataforma con roles elimina copias de listados en emails internos, uno de los vectores de riesgo más frecuentes.
 

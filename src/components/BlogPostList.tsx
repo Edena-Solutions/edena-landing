@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { localePath } from "@/i18n/index.ts";
+import { localePath } from "@/i18n/utils";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";

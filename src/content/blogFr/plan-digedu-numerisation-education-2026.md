@@ -1,5 +1,6 @@
 ---
 title: "Plan DigEdu 2026 : transformation numérique dans l'éducation en Espagne"
+seoTitle: "Plan DigEdu 2026 : le numérique dans l'éducation espagnole"
 date: "2026-01-08"
 translationKey: "plan-digedu-digitalizacion-educacion-2026"
 description: "Le plan DigEdu promeut l’enseignement des compétences numériques, des environnements sûrs et l’utilisation pédagogique de la technologie."

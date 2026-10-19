@@ -1,8 +1,9 @@
 ---
 title: "Dades i analítica en educació: com prendre millors decisions amb dashboards escolars"
+seoTitle: "Dashboards escolars: decidir amb dades al teu centre"
 date: "2026-03-15"
 translationKey: "analitica-educativa-dashboards-escolares"
-description: "L'analítica educativa i el dashboard escolar permeten prendre decisions basades en dades en comptes d'intuïció."
+description: "Com fer servir l'analítica educativa i un dashboard escolar perquè secretaria i direcció prenguin decisions setmanals amb dades i no per intuïció."
 tags:
     - "analítica educativa"
     - "dashboard escolar"
@@ -21,7 +22,7 @@ faqs:
     - question: "Qui ha de configurar el dashboard escolar?"
       answer: "Algú que conegui els processos (admin o adreça) amb suport del proveïdor. L'analítica educativa ha de respondre preguntes reals del centre, no allò que el sistema ofereix per defecte."
     - question: "Amb quina freqüència cal actualitzar l'analítica educativa?"
-      answer: "Depèn de lindicador. Cobrament i alertes poden ser en temps real o diari. Retenció sol ser setmanal o mensual. El més crític és que el dashboard escolar s'actualitzi automàticament des del sistema."
+      answer: "Depèn de l'indicador. Cobrament i alertes poden ser en temps real o diari. Retenció sol ser setmanal o mensual. El més crític és que el dashboard escolar s'actualitzi automàticament des del sistema."
     - question: "Quants dashboards necessito?"
       answer: "Un operatiu mensual per a adreça; eviteu duplicar l'Excel."
 ---
@@ -44,7 +45,7 @@ L'analítica educativa i el dashboard escolar permeten prendre decisions basades
 
 <br>
 
-Sense dades centralitzades, és difícil saber on actuar: en quina etapa hi ha més impagaments? Quines famílies tenen risc de baixa? Com evoluciona lassistència? L?analítica educativa respon aquestes preguntes. Un dashboard escolar ben configurat dóna visibilitat i permet prioritzar. Els centres que usen analítica educativa prenen decisions més informades i obtenen millors resultats.
+Sense dades centralitzades, és difícil saber on actuar: en quina etapa hi ha més impagaments? Quines famílies tenen risc de baixa? Com evoluciona l'assistència? L?analítica educativa respon aquestes preguntes. Un dashboard escolar ben configurat dóna visibilitat i permet prioritzar. Els centres que usen analítica educativa prenen decisions més informades i obtenen millors resultats.
 
 <br>
 
@@ -64,7 +65,7 @@ Taxa de cobrament, factures pendents, impagaments per antiguitat. L‟analítica
 
 <br>
 
-Taxes dassistència per grup, alumnes amb faltes repetides, evolució temporal. L´analítica educativa de l´absentisme permet detectar patrons i actuar amb orientació i famílies. Un dashboard escolar amb dades d'assistència dóna visibilitat a tutors i adreça.
+Taxes d'assistència per grup, alumnes amb faltes repetides, evolució temporal. L´analítica educativa de l´absentisme permet detectar patrons i actuar amb orientació i famílies. Un dashboard escolar amb dades d'assistència dóna visibilitat a tutors i adreça.
 
 <br>
 

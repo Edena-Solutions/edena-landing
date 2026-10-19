@@ -1,8 +1,9 @@
 ---
 title: "No messages at eleven at night: the right to disconnect and communication windows"
+seoTitle: "Right to disconnect: communication windows with families"
 date: "2026-08-20"
 translationKey: "desconexion-digital-comunicacion-centros-familias-2026"
-description: "France now requires school software to suspend delivery from 8pm to 7am and at weekends. How to set communication windows between school, families and staff without losing the ability to raise an urgent alert."
+description: "France now requires school software to stop sending from 8pm to 7am. How to set communication windows without losing the ability to send urgent alerts."
 tags:
     [
         "right to disconnect",

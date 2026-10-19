@@ -1,8 +1,9 @@
 ---
 title: "Pla DigEdu 2026: transformació digital a l'educació a Espanya"
+seoTitle: "Pla DigEdu 2026: la digitalització educativa a Espanya"
 date: "2026-01-08"
 translationKey: "plan-digedu-digitalizacion-educacion-2026"
-description: "Amb l'inici del 2026, el Pla de Digitalització i Competències Digitals del Sistema Educatiu (Pla #DigEdu) es consolida com la iniciativa més ambiciosa de digitalització educativa a la història d'Espanya."
+description: "Què és el Pla #DigEdu, el pla de digitalització i competències digitals del sistema educatiu, i què suposa el 2026 per a col·legis i docents."
 tags:
     - "Pla DigEdu"
     - "digitalització educativa"
@@ -83,7 +84,7 @@ Abans d'ampliar pissarres o laboratoris, assegura dades mestres netes, cobrament
 
 La LOMLOE situa les competències clau i l'avaluació continuada al centre del projecte educatiu. El Pla DigEdu impulsa competència digital docent, entorns tecnològics segurs i distribució de dispositius a aules. Com més temps perd el professorat en tasques administratives duplicades (parts en paper, llistats a Excel, circulars per canals diferents), menys queda per acompanyament i avaluació formativa.
 
-Digitalitzar gestió no substitueix la pedagogia: allibera hores reals en tutoria, coordinació de departament i seguiment individual. Un claustre que utilitza quatre eines de comunicació diferents perd coherència amb les famílies i coherència interna en criteris davaluació i seguiment.
+Digitalitzar gestió no substitueix la pedagogia: allibera hores reals en tutoria, coordinació de departament i seguiment individual. Un claustre que utilitza quatre eines de comunicació diferents perd coherència amb les famílies i coherència interna en criteris d'avaluació i seguiment.
 
 El 2026, la tecnologia educativa útil per a centres espanyols connecta aula i administració: expedient, comunicació, assistència i analítica comparteixen la mateixa font de dades. La innovació pedagògica sostenible recolza la LOMLOE quan la gestió admin deixa de robar hores al claustre al setembre i al tancament de trimestre.
 

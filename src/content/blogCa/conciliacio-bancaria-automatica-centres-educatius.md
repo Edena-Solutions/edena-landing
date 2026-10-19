@@ -36,7 +36,7 @@ faqs:
 
 <br>
 
-El dia 5 de cada mes, en moltes secretaries, algú obre l'extracte del banc i el full de facturació i comença a creuar línies. Rebut a rebut, busca per què el total cobrat no coincideix amb el total emès: una devolució per aquí, un pagament parcial per allà, una transferència sense concepte, una comissió que ningú esperava. Aquesta tasca —la conciliació bancària— és de les que més hores consumeix i menys es veu, fins que un descquadre obliga a refer-la sencera. Aquest article explica què és la conciliació bancària en un centre educatiu, per què costa tant fer-la a mà i com automatitzar-la per tancar el mes amb dades en lloc de paciència.
+El dia 5 de cada mes, en moltes secretaries, algú obre l'extracte del banc i el full de facturació i comença a creuar línies. Rebut a rebut, busca per què el total cobrat no coincideix amb el total emès: una d'evolució per aquí, un pagament parcial per allà, una transferència sense concepte, una comissió que ningú esperava. Aquesta tasca —la conciliació bancària— és de les que més hores consumeix i menys es veu, fins que un descquadre obliga a refer-la sencera. Aquest article explica què és la conciliació bancària en un centre educatiu, per què costa tant fer-la a mà i com automatitzar-la per tancar el mes amb dades en lloc de paciència.
 
 <br>
 
@@ -52,7 +52,7 @@ Conciliar és creuar dues veritats que haurien de coincidir: el que el teu siste
 
 <br>
 
-El problema no és la dificultat, és el volum i la dispersió. Un centre mitjà emet centenars de rebuts al mes en diversos conceptes —quota, menjador, transport, extraescolars— i rep pagaments per remesa, per transferència i de vegades en efectiu o per TPV. Creuar tot això a mà significa revisar combinacions: un pagament que agrupa dos rebuts, una transferència sense concepte que cal endevinar, una devolució que descquadra el total. Com més creix el centre, més combinacions, i el tancament que abans durava un matí acaba durant diversos dies.
+El problema no és la dificultat, és el volum i la dispersió. Un centre mitjà emet centenars de rebuts al mes en diversos conceptes —quota, menjador, transport, extraescolars— i rep pagaments per remesa, per transferència i de vegades en efectiu o per TPV. Creuar tot això a mà significa revisar combinacions: un pagament que agrupa dos rebuts, una transferència sense concepte que cal endevinar, una d'evolució que descquadra el total. Com més creix el centre, més combinacions, i el tancament que abans durava un matí acaba durant diversos dies.
 
 <br>
 
@@ -76,7 +76,7 @@ La part automatitzable és l'aparellament massiu: creuar cada rebut amb el seu m
 
 <br>
 
-La conciliació és impossible d'automatitzar bé si la facturació viu en un lloc i el control de cobraments en un altre. Quan el rebut, la dada bancària de la família, l'estat de cobrament i la devolució comparteixen plataforma i criteri, el creuament amb el moviment bancari és directe. Quan viuen en Excel separats, cada tancament és una reconstrucció manual. Per això la conciliació no és un mòdul aïllat: és la conseqüència natural de tenir la facturació ben integrada.
+La conciliació és impossible d'automatitzar bé si la facturació viu en un lloc i el control de cobraments en un altre. Quan el rebut, la dada bancària de la família, l'estat de cobrament i la d'evolució comparteixen plataforma i criteri, el creuament amb el moviment bancari és directe. Quan viuen en Excel separats, cada tancament és una reconstrucció manual. Per això la conciliació no és un mòdul aïllat: és la conseqüència natural de tenir la facturació ben integrada.
 
 <br>
 

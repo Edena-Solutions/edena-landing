@@ -1,8 +1,9 @@
 ---
 title: "Canviar de programari escolar sense perdre les dades: interoperabilitat, APIs i portabilitat"
+seoTitle: "Canviar de programari escolar sense perdre les dades"
 date: "2026-08-12"
 translationKey: "cambiar-software-escolar-interoperabilidad-portabilidad-datos-2026"
-description: "Les preguntes que cal fer per escrit abans de signar amb un proveïdor de gestió escolar: què exportes, amb quin format, què integra i què passa amb les teves dades el dia que te'n vas."
+description: "Què cal preguntar per escrit abans de signar amb un proveïdor de gestió escolar: què exportes, en quin format, què integra i què passa amb les dades."
 tags: ["interoperabilitat", "portabilitat de dades", "API", "migració", "elecció de programari"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1682145189653-bb0b79db3415?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

@@ -2,7 +2,7 @@
 title: "Hezkuntza zentroetarako SEO gida: Googlen agertu"
 date: "2026-02-12"
 translationKey: "seo-centros-educativos"
-description: "Familiek eskola, haurtzaindegia edo prestakuntza zentro bat bilatzen dutenean, normalean Google-n hasten dira."
+description: "Familiek ikastetxe edo haurtzaindegi bila Googlen hasten dute bilaketa. Nola agertu bilaketa horietan zure webgunearekin eta edukiarekin: SEO gida."
 tags:
     - "SEO hezkuntza zentroak"
     - "ikusgarritasuna"

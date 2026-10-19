@@ -1,5 +1,6 @@
 ---
 title: "Remeses SEPA en col·legis: domiciliació de rebuts sense errors"
+seoTitle: "Remeses SEPA en col·legis: domiciliació sense errors"
 date: "2026-04-29"
 translationKey: "remesas-sepa-domiciliacion-recibos-colegios"
 description: "Com funcionen les remeses SEPA en col·legis i llars d'infants, quins errors generen devolucions i com automatitzar la domiciliació de rebuts el 2026."
@@ -23,11 +24,11 @@ faqs:
     - question: "Què és una remesa SEPA i per què la fan servir els col·legis?"
       answer: "Una remesa SEPA és un fitxer que agrupa diverses ordres de cobrament domiciliat per enviar-les al banc d'una vegada. Els col·legis i llars d'infants la fan servir per cobrar quotes mensuals a centenars de famílies sense tramitar rebut per rebut. En lloc de cobraments solts, es genera un únic enviament amb tots els deutes del període."
     - question: "Quina diferència hi ha entre CORE i B2B en SEPA?"
-      answer: "L'esquema CORE és l'habitual per a deutes a particulars (famílies) i permet la devolució per part del deutor en un termini ampli. L'esquema B2B és per a operacions entre empreses, amb terminis de devolució diferents. Per al cobrament de quotes a famílies, el normal és l'esquema CORE; confirma sempre amb el teu banc i la teva assessoria quin esquema aplica a cada cas."
+      answer: "L'esquema CORE és l'habitual per a deutes a particulars (famílies) i permet la d'evolució per part del deutor en un termini ampli. L'esquema B2B és per a operacions entre empreses, amb terminis de d'evolució diferents. Per al cobrament de quotes a famílies, el normal és l'esquema CORE; confirma sempre amb el teu banc i la teva assessoria quin esquema aplica a cada cas."
     - question: "Per què es retornen els rebuts domiciliats?"
       answer: "Les causes més comunes són: IBAN incorrecte o desactualitzat, manca de fons, mandat no signat o caducat, i dades del titular que no coincideixen. Una part important de les devolucions no són impagaments reals, sinó errors de dades que un sistema amb mandats digitals i validació d'IBAN evita abans de generar la remesa."
     - question: "És obligatori tenir el mandat signat per la família?"
-      answer: "Sí. Per domiciliar un rebut necessites un mandat SEPA vàlid signat pel titular del compte, amb la informació requerida i conservat de manera que puguis demostrar-lo si hi ha una devolució per mandat inexistent. Gestionar els mandats en paper solt és la principal causa de problemes en una auditoria de devolucions."
+      answer: "Sí. Per domiciliar un rebut necessites un mandat SEPA vàlid signat pel titular del compte, amb la informació requerida i conservat de manera que puguis demostrar-lo si hi ha una d'evolució per mandat inexistent. Gestionar els mandats en paper solt és la principal causa de problemes en una auditoria de devolucions."
     - question: "Edena genera les remeses SEPA automàticament?"
       answer: "El mòdul de facturació d'Edena gestiona la facturació recurrent i els rebuts de les famílies dins de la plataforma, amb anàlisi d'impagaments. L'abast exacte de generació de fitxers i conciliació depèn del mòdul contractat i de la configuració amb la teva entitat bancària; pregunta-ho a la demo per confirmar quin circuit queda cobert sense feina manual."
 ---
@@ -52,7 +53,7 @@ SEPA (Zona Única de Pagaments en Euros) és el marc que unifica els deutes domi
 
 <br>
 
-Per domiciliar un rebut necessites un mandat signat pel titular del compte. Aquest mandat és l'autorització legal del cobrament, i inclou dades concretes que s'han de conservar. L'error clàssic és gestionar els mandats en paper dispers: quan arriba una devolució per "deute no autoritzat", el centre no troba el mandat i perd la discussió. Amb mandats digitals associats a l'expedient de cada família, l'autorització està localitzable, datada i vinculada als rebuts que genera. No és burocràcia: és la prova que et protegeix.
+Per domiciliar un rebut necessites un mandat signat pel titular del compte. Aquest mandat és l'autorització legal del cobrament, i inclou dades concretes que s'han de conservar. L'error clàssic és gestionar els mandats en paper dispers: quan arriba una d'evolució per "deute no autoritzat", el centre no troba el mandat i perd la discussió. Amb mandats digitals associats a l'expedient de cada família, l'autorització està localitzable, datada i vinculada als rebuts que genera. No és burocràcia: és la prova que et protegeix.
 
 <br>
 
@@ -60,7 +61,7 @@ Per domiciliar un rebut necessites un mandat signat pel titular del compte. Aque
 
 <br>
 
-SEPA distingeix esquemes. El CORE és l'habitual per a cobraments a particulars —les famílies— i contempla un termini de devolució ampli a favor del deutor. El B2B és per a operacions entre empreses, amb regles i terminis diferents. Confondre esquemes genera rebuigs. Per a la quota d'una família, el normal és CORE; per a una factura a una altra empresa, pot aplicar B2B. La regla pràctica: confirma sempre amb el teu banc i la teva assessoria quin esquema correspon a cada tipus de cobrament abans de muntar la remesa.
+SEPA distingeix esquemes. El CORE és l'habitual per a cobraments a particulars —les famílies— i contempla un termini de d'evolució ampli a favor del deutor. El B2B és per a operacions entre empreses, amb regles i terminis diferents. Confondre esquemes genera rebuigs. Per a la quota d'una família, el normal és CORE; per a una factura a una altra empresa, pot aplicar B2B. La regla pràctica: confirma sempre amb el teu banc i la teva assessoria quin esquema correspon a cada tipus de cobrament abans de muntar la remesa.
 
 <br>
 
@@ -76,7 +77,7 @@ No totes les devolucions són impagaments. Una part significativa són errors de
 
 <br>
 
-Cada devolució té un cost triple: la comissió bancària, les hores d'administració per identificar-la i regestionar-la, i el desgast amb la família que rep un avís confús. Multiplicat per les devolucions d'un curs, el cost és rellevant. Reduir devolucions no és només cobrar abans: és alliberar hores de secretaria i evitar fricció amb les famílies. Per això la qualitat de la remesa importa tant com la puntualitat del cobrament.
+Cada d'evolució té un cost triple: la comissió bancària, les hores d'administració per identificar-la i regestionar-la, i el desgast amb la família que rep un avís confús. Multiplicat per les devolucions d'un curs, el cost és rellevant. Reduir devolucions no és només cobrar abans: és alliberar hores de secretaria i evitar fricció amb les famílies. Per això la qualitat de la remesa importa tant com la puntualitat del cobrament.
 
 <br>
 
@@ -88,7 +89,7 @@ Cada devolució té un cost triple: la comissió bancària, les hores d'administ
 - Validació d'IBAN en el moment d'introduir-lo, per detectar errors abans de generar la remesa.
 - Facturació recurrent que generi els rebuts del període de manera consistent, amb el mateix criteri cada mes.
 - Seguiment de devolucions amb causa codificada, per distingir error de dada d'impagament real.
-- Comunicació amb la família integrada, per avisar d'una devolució sense obrir un canal a part.
+- Comunicació amb la família integrada, per avisar d'una d'evolució sense obrir un canal a part.
 
 <br>
 

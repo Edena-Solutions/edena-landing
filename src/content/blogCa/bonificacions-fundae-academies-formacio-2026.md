@@ -1,5 +1,6 @@
 ---
 title: "Bonificacions FUNDAE: com gestionar-les en acadèmies de formació"
+seoTitle: "Bonificacions FUNDAE: com gestionar-les en acadèmies"
 date: "2026-05-06"
 translationKey: "bonificaciones-fundae-academias-formacion-2026"
 description: "Què és la formació bonificada FUNDAE, quins requisits de documentació exigeix i com gestionar-la en acadèmies sense perdre bonificació el 2026."

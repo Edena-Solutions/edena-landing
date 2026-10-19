@@ -1,5 +1,6 @@
 ---
 title: "Bizum eta TPV ordainketak ikastetxeetan: berehala kobratu 2026an"
+seoTitle: "Bizum eta TPV ordainketak ikastetxeetan: berehala kobratu"
 date: "2026-05-30"
 translationKey: "pagos-bizum-tpv-colegios-2026"
 description: "Nola integratu Bizum eta TPVa ikastetxe eta akademien kobruan berehala kobratzeko, ez-ordainketak murrizteko eta esfortzurik gabe adosteko 2026an."

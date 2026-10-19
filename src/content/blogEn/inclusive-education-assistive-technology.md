@@ -1,5 +1,6 @@
 ---
 title: "Inclusive education and assistive technology: Creating classrooms for all"
+seoTitle: "Inclusive education and assistive technology"
 date: "2025-08-05"
 translationKey: "educacion-inclusiva-tecnologia-asistiva"
 description: "Inclusive education represents one of the greatest challenges and opportunities in the contemporary educational landscape."

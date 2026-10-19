@@ -40,7 +40,7 @@ En la era digital, el papel de los padres como guardianes de la educación de su
 
 Los padres de hoy se enfrentan a un desafío único: deben ser guardianes tanto del mundo físico como del digital. Sus hijos crecen en un entorno donde la tecnología está integrada en prácticamente todos los aspectos de la vida, desde la educación hasta la socialización. Este nuevo contexto requiere que los padres desarrollen nuevas habilidades y estrategias para guiar efectivamente a sus hijos.
 
-El rol del guardián digital va más allá de simplemente limitar el tiempo de pantalla. Incluye enseñar a los niñte a usar la tecnología de manera responsable, ayudarlos a desarrollar pensamiento crítico sobre el contenido digital, y prepararlos para navegar de manera segura en el mundo online. Los padres deben convertirse en modelos de comportamiento digital saludable y en mentores que guíen a sus hijos hacia un uso constructivo de la tecnología.
+El rol del guardián digital va más allá de simplemente limitar el tiempo de pantalla. Incluye enseñar a los niños a usar la tecnología de manera responsable, ayudarlos a desarrollar pensamiento crítico sobre el contenido digital, y prepararlos para navegar de manera segura en el mundo online. Los padres deben convertirse en modelos de comportamiento digital saludable y en mentores que guíen a sus hijos hacia un uso constructivo de la tecnología.
 
 <br>
 
@@ -48,9 +48,9 @@ El rol del guardián digital va más allá de simplemente limitar el tiempo de p
 
 <br>
 
-Uno de los desafíte más importantes que enfrentan los padres es encontrar el equilibrio adecuado entre el uso de tecnología y otras actividades importantes para el desarrollo. La tecnología puede ser una herramienta poderosa para el aprendizaje, pero también puede interferir con el desarrollo de habilidades sociales, la actividad física, y la creatividad.
+Uno de los desafíos más importantes que enfrentan los padres es encontrar el equilibrio adecuado entre el uso de tecnología y otras actividades importantes para el desarrollo. La tecnología puede ser una herramienta poderosa para el aprendizaje, pero también puede interferir con el desarrollo de habilidades sociales, la actividad física, y la creatividad.
 
-Los guardianes digitales efectivos establecen límites claros pero flexibles, adaptándose a las necesidades individuales de cada hijo. Reconocen que no todos los niñte necesitan las mismas restricciones y que el uso de tecnología debe evolucionar a medida que los niñte crecen y desarrollan mayor responsabilidad.
+Los guardianes digitales efectivos establecen límites claros pero flexibles, adaptándose a las necesidades individuales de cada hijo. Reconocen que no todos los niños necesitan las mismas restricciones y que el uso de tecnología debe evolucionar a medida que los niños crecen y desarrollan mayor responsabilidad.
 
 <br>
 
@@ -58,7 +58,7 @@ Los guardianes digitales efectivos establecen límites claros pero flexibles, ad
 
 <br>
 
-La educación digital debe comenzar desde los primeros añte de vida, cuando los niñte están más receptivos a aprender nuevos conceptos y hábitos. Los padres pueden introducir la tecnología de manera gradual y supervisada, enseñando a los niñte conceptos básicos como la privacidad, la seguridad, y el comportamiento apropiado online.
+La educación digital debe comenzar desde los primeros años de vida, cuando los niños están más receptivos a aprender nuevos conceptos y hábitos. Los padres pueden introducir la tecnología de manera gradual y supervisada, enseñando a los niños conceptos básicos como la privacidad, la seguridad, y el comportamiento apropiado online.
 
 Los juegos educativos, las aplicaciones de aprendizaje, y el contenido digital de calidad pueden ser herramientas valiosas para el desarrollo cognitivo y social. Los padres deben seleccionar cuidadosamente el contenido y participar activamente en la experiencia digital de sus hijos, no solo como supervisores, sino como compañeros de aprendizaje.
 
@@ -68,7 +68,7 @@ Los juegos educativos, las aplicaciones de aprendizaje, y el contenido digital d
 
 <br>
 
-Una de las responsabilidades más importantes de los guardianes digitales es proteger a sus hijos de los riesgos del mundo online. Esto incluye enseñar sobre privacidad, configurar controles parentales apropiados, y mantener líneas de comunicación abiertas sobre las experiencias digitales de los niñte.
+Una de las responsabilidades más importantes de los guardianes digitales es proteger a sus hijos de los riesgos del mundo online. Esto incluye enseñar sobre privacidad, configurar controles parentales apropiados, y mantener líneas de comunicación abiertas sobre las experiencias digitales de los niños.
 
 Los padres deben estar informados sobre las plataformas que sus hijos utilizan, los riesgos asociados con cada una, y las mejores prácticas para mantener la seguridad. También deben enseñar a sus hijos a reconocer y reportar contenido inapropiado, cyberbullying, y otros riesgos digitales.
 
@@ -78,7 +78,7 @@ Los padres deben estar informados sobre las plataformas que sus hijos utilizan, 
 
 <br>
 
-En un mundo donde la información está disponible instantáneamente, es fundamental que los niñte desarrollen pensamiento crítico para evaluar la credibilidad y relevancia del contenido digital. Los guardianes digitales pueden ayudar a sus hijos a desarrollar estas habilidades enseñándoles a hacer preguntas sobre la información que encuentran online.
+En un mundo donde la información está disponible instantáneamente, es fundamental que los niños desarrollen pensamiento crítico para evaluar la credibilidad y relevancia del contenido digital. Los guardianes digitales pueden ayudar a sus hijos a desarrollar estas habilidades enseñándoles a hacer preguntas sobre la información que encuentran online.
 
 Los padres pueden modelar el pensamiento crítico discutiendo noticias, verificando fuentes, y cuestionando afirmaciones que parecen demasiado buenas para ser ciertas. También pueden enseñar a sus hijos a reconocer sesgos, propaganda, y contenido diseñado para manipular emociones.
 
@@ -98,7 +98,7 @@ Esta colaboración permite que los padres refuercen en casa las lecciones aprend
 
 <br>
 
-Los niñte aprenden más de lo que ven que de lo que se les dice. Los guardianes digitales deben modelar el comportamiento digital que quieren que sus hijos desarrollen. Esto incluye usar la tecnología de manera responsable, mantener límites saludables, y demostrar respeto en las interacciones online.
+Los niños aprenden más de lo que ven que de lo que se les dice. Los guardianes digitales deben modelar el comportamiento digital que quieren que sus hijos desarrollen. Esto incluye usar la tecnología de manera responsable, mantener límites saludables, y demostrar respeto en las interacciones online.
 
 Los padres pueden mostrar a sus hijos cómo usar la tecnología para aprender, crear, y conectar de manera significativa. También pueden modelar cómo desconectarse de la tecnología para dedicar tiempo a otras actividades importantes como la lectura, el ejercicio, y la interacción social cara a cara.
 
@@ -108,7 +108,7 @@ Los padres pueden mostrar a sus hijos cómo usar la tecnología para aprender, c
 
 <br>
 
-El rol del guardián digital evoluciona a medida que los niñte crecen. Los niñte pequeñte necesitan supervisión constante y límites claros, mientras que los adolescentes necesitan más autonomía y oportunidades para desarrollar responsabilidad digital.
+El rol del guardián digital evoluciona a medida que los niños crecen. Los niños pequeños necesitan supervisión constante y límites claros, mientras que los adolescentes necesitan más autonomía y oportunidades para desarrollar responsabilidad digital.
 
 Los padres deben adaptar sus estrategias según la edad, madurez, y necesidades individuales de cada hijo. Esto puede incluir ajustar los controles parentales, cambiar las expectativas sobre el uso de dispositivos, y modificar las conversaciones sobre seguridad y responsabilidad digital.
 
@@ -130,7 +130,7 @@ Los grupos de padres y comunidades online pueden proporcionar apoyo y compartir 
 
 A medida que la tecnología continúa evolucionando, el rol de los guardianes digitales también evolucionará. Los padres necesitarán mantenerse informados sobre las nuevas tecnologías, plataformas, y riesgos que emergen constantemente.
 
-La inteligencia artificial, la realidad virtual, y otras tecnologías emergentes presentarán nuevos desafíte y oportunidades. Los guardianes digitales del futuro necesitarán ser adaptables, informados, y proactivos en su enfoque hacia la educación digital de sus hijos.
+La inteligencia artificial, la realidad virtual, y otras tecnologías emergentes presentarán nuevos desafíos y oportunidades. Los guardianes digitales del futuro necesitarán ser adaptables, informados, y proactivos en su enfoque hacia la educación digital de sus hijos.
 
 <br>
 

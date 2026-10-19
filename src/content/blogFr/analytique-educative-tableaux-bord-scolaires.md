@@ -1,5 +1,6 @@
 ---
 title: "Données et analytique en éducation : de meilleures décisions grâce aux tableaux de bord scolaires"
+seoTitle: "Tableaux de bord scolaires : mieux décider avec les données"
 date: "2026-03-15"
 translationKey: "analitica-educativa-dashboards-escolares"
 description: "Analytique éducative et tableau de bord scolaire : indicateurs clés, mise en œuvre et prise de décision fondée sur les données dans votre établissement."

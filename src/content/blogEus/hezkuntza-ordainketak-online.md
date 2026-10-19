@@ -1,5 +1,6 @@
 ---
 title: "Nola integratu online ordainketak eskoletan eta lehenetsiak murriztu"
+seoTitle: "Online ordainketak ikastetxeetan: ez-ordainketak murriztu"
 date: "2026-02-21"
 translationKey: "pagos-online-educacion"
 description: "Hemen ez gara berandu ordaintzeko politikaz ari, kobratzeko moduaz baizik: SEPA, txartela, adiskidetzea eta familiaren ordainketa esperientzia."

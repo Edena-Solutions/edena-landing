@@ -16,7 +16,6 @@ relatedPosts:
     - school-management-software-comparison-spain-2026
     - school-software-purchase-checklist-2026
     - best-school-management-software
-    - choosing-school-management-software
 faqs:
     - question: "Is Verifactu already mandatory for nursery schools?"
       answer: "The obligation and calendar are defined by the tax regulations and the implementation calendar; Consult with your tax advisor. What you should demand from the supplier is clarity about how it supports electronic billing, in what period, and what support it offers for the transition."

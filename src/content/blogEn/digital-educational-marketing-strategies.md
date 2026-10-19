@@ -1,8 +1,9 @@
 ---
 title: "Digital educational marketing: Strategies to attract and retain families in the digital age"
+seoTitle: "Digital marketing for schools: attract and retain families"
 date: "2025-09-08"
 translationKey: "marketing-educativo-digital-estrategias"
-description: "If you run a private or charter school with 150 to 800 families, you probably invest in the website, Open Day or networks and still do not see the return in enrollment."
+description: "For private and charter schools with 150 to 800 families that invest in a website, open days and social media yet see no return in enrolment."
 tags:
     - "educational marketing"
     - "digital marketing"

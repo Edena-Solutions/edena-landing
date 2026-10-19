@@ -1,8 +1,9 @@
 ---
 title: "Éducation inclusive et technologies d’assistance : créer des salles de classe pour tous"
+seoTitle: "Éducation inclusive et technologies d'assistance"
 date: "2025-08-05"
 translationKey: "educacion-inclusiva-tecnologia-asistiva"
-description: "L’éducation inclusive représente l’un des plus grands défis et opportunités du paysage éducatif contemporain."
+description: "Comment les technologies d'assistance aident à intégrer des élèves aux besoins et capacités variés, avec des approches qui dépassent le cours classique."
 tags:
     - "éducation inclusive"
     - "technologie d'assistance"

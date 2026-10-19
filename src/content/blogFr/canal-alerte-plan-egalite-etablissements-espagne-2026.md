@@ -1,8 +1,9 @@
 ---
 title: "L'établissement comme employeur : canal d'alerte, plan d'égalité et les obligations que personne ne regarde"
+seoTitle: "L'établissement employeur : canal d'alerte et plan d'égalité"
 date: "2026-08-26"
 translationKey: "canal-denuncias-plan-igualdad-centros-educativos-2026"
-description: "Tout le monde surveille la protection de l'enfance et des données. Presque personne ne surveille les obligations de l'établissement comme organisation employeuse : canal d'alerte de la loi 2/2023, plan d'égalité, registre du temps de travail."
+description: "Canal d'alerte de la loi 2/2023, plan d'égalité et registre du temps de travail : les obligations de l'établissement employeur et leurs liens."
 tags: ["canal d'alerte", "plan d'égalité", "conformité", "ressources humaines", "gouvernance"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1490127252417-7c393f993ee4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

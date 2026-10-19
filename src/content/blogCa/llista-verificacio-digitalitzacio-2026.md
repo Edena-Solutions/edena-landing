@@ -2,7 +2,7 @@
 title: "Checklist de digitalització 2026 pel teu centre educatiu"
 date: "2026-02-24"
 translationKey: "checklist-digitalizacion-2026"
-description: "La digitalització de centres educatius el 2026 no és només tecnologia: és revisar processos, dades i canals amb les famílies per guanyar eficiència i compliment."
+description: "Checklist per digitalitzar un centre educatiu el 2026: revisar processos, dades i canals amb les famílies per guanyar eficiència i compliment."
 tags:
     - "digitalització centres educatius 2026"
     - "checklist"
@@ -92,7 +92,7 @@ Integrar facturació electrònica si encara no està resolt. Implantar o reforç
 <br>
 
 - Tens registre d'activitats de tractament i clàusules informatives actualitzades?
-- Els contractes amb proveïdors de programari inclouen figures dencarregat del tractament i ubicació de dades?
+- Els contractes amb proveïdors de programari inclouen figures d'encarregat del tractament i ubicació de dades?
 - Hi ha criteris de retenció i supressió de dades per tipus (acadèmics, facturació, comunicacions)?
 - Hi ha un canal i un responsable per atendre drets (accés, rectificació, supressió)?
 

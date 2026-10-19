@@ -18,7 +18,6 @@ relatedPosts:
     - comparativa-software-gestion-escolar-espana-2026
     - elegir-software-escolar-checklist-directores-2026
     - mejor-software-gestion-escolar
-    - elegir-software-gestion-escolar
 faqs:
     - question: "¿Verifactu es ya obligatorio para escuelas infantiles?"
       answer: "La obligación y el calendario la define la normativa fiscal y el calendario de implantación; consulta con tu asesor fiscal. Lo que sí debes exigir al proveedor es claridad sobre cómo soporta la facturación electrónica, en qué plazo, y qué acompañamiento ofrece para la transición."
@@ -69,11 +68,11 @@ Pide recorrer el flujo completo desde una solicitud de plaza hasta el primer cob
 
 <br>
 
-<strong>TCO a tres añte: no te dejes llevar solo por el precio de licencia</strong>
+<strong>TCO a tres años: no te dejes llevar solo por el precio de licencia</strong>
 
 <br>
 
-El precio por alumno o por plaza es solo la primera capa. Añade: coste de migración de datos del sistema anterior, horas de formación (del equipo, no solo de "alguien que aprendió solo"), coste de mantener el sistema antiguo en paralelo durante la transición, posibles integraciones con aplicaciones externas que ahora tendrás que desechar o conectar, y el riesgo de re-migrar en dos añte si el sistema no escala. Un ERP que parece barato pero te obliga a un tercero para la facturación y otro para las familias acaba costando más que uno integrado con precio modular.
+El precio por alumno o por plaza es solo la primera capa. Añade: coste de migración de datos del sistema anterior, horas de formación (del equipo, no solo de "alguien que aprendió solo"), coste de mantener el sistema antiguo en paralelo durante la transición, posibles integraciones con aplicaciones externas que ahora tendrás que desechar o conectar, y el riesgo de re-migrar en dos años si el sistema no escala. Un ERP que parece barato pero te obliga a un tercero para la facturación y otro para las familias acaba costando más que uno integrado con precio modular.
 
 <br>
 
@@ -108,7 +107,7 @@ Más allá de las notas y la asistencia, un software de gestión escolar en Espa
 
 En escuelas infantiles pesan plazas, ratios, menús y alergias; en academias, bonos, temporadas y sedes múltiples; en colegios privados, cuotas diferenciadas, becas internas y captación comercial. Un ERP que funciona en academias de idiomas puede quedarse corto si gestionas ratios de infantil, NEAE o comedor con facturación por jornada.
 
-Evalúa TCO a tres añte: licencia, migración, formación, horas internas de coordinación y coste de integraciones puente. Pide demo con tus datos reales (cinco familias, un ciclo de recibos) antes de decidir. El software que parece más barato al inicio puede encarecerse si obliga a sumar CRM, facturación o comunicación por separado.
+Evalúa TCO a tres años: licencia, migración, formación, horas internas de coordinación y coste de integraciones puente. Pide demo con tus datos reales (cinco familias, un ciclo de recibos) antes de decidir. El software que parece más barato al inicio puede encarecerse si obliga a sumar CRM, facturación o comunicación por separado.
 
 <br>
 

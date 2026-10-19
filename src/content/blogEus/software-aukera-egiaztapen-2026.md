@@ -1,5 +1,6 @@
 ---
 title: "Nola aukeratu ikastetxeko softwarea akatsik egin gabe: zuzendarientzako kontrol-zerrenda"
+seoTitle: "Ikastetxeko softwarea aukeratu: zuzendarientzako zerrenda"
 date: "2026-04-20"
 translationKey: "elegir-software-escolar-checklist-directores-2026"
 description: "Zure zentrorako kudeaketa softwarea aukeratzea da hartu beharreko erabakirik garestienetako bat: ez lizentziaren prezioan, baizik eta denboran."
@@ -15,7 +16,6 @@ cover: "https://images.unsplash.com/photo-1661732017132-28b644cbcf9c?q=80&w=687&
 relatedPosts:
     - eskola-kudeaketa-softwarea-konparaketa-2026-espainia
     - onena-eskola-kudeaketa-softwarea
-    - eskola-kudeaketa-softwarea-aukeratzea
     - erp-eskola-digitalizazio-gida
 faqs:
     - question: "Zenbat denbora behar du software aldaketa prozesu oso batek?"

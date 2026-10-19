@@ -1,5 +1,6 @@
 ---
 title: "Digital evaluation and assessment in modern education: Tools and strategies"
+seoTitle: "Digital assessment in education: tools and strategies"
 date: "2025-08-20"
 translationKey: "evaluacion-assessment-digital-educativo"
 description: "Educational assessment is undergoing a digital revolution that is fundamentally transforming how we measure, analyze and use student learning data."

@@ -1,8 +1,9 @@
 ---
 title: "L'experiència d'usuari: clau en l'adopció de tecnologia educativa"
+seoTitle: "Experiència d'usuari en la tecnologia educativa"
 date: "2025-01-20"
 translationKey: "experiencia-usuario-tecnologia-educativa"
-description: "Descobreix per què lexperiència dusuari és fonamental per a lèxit de la tecnologia educativa i com dissenyar solucions que els usuaris realment vulguin utilitzar."
+description: "Per què l'experiència d'usuari decideix si la tecnologia educativa s'adopta, i com triar eines que l'equip i les famílies vulguin fer servir."
 tags:
     - "UX"
     - "experiència"
@@ -25,7 +26,7 @@ faqs:
 
 <br>
 
-La tecnologia educativa ha avançat significativament en els darrers anys, però l'èxit de qualsevol solució no depèn únicament de les seves funcionalitats tècniques. L'experiència d'usuari (UX) és el factor determinant que decideix si la tecnologia educativa serà adoptada i utilitzada efectivament. Un programari amb excel·lents funcionalitats però una mala experiència dusuari està condemnat al fracàs.
+La tecnologia educativa ha avançat significativament en els darrers anys, però l'èxit de qualsevol solució no depèn únicament de les seves funcionalitats tècniques. L'experiència d'usuari (UX) és el factor determinant que decideix si la tecnologia educativa serà adoptada i utilitzada efectivament. Un programari amb excel·lents funcionalitats però una mala experiència d'usuari està condemnat al fracàs.
 
 <br>
 
@@ -41,7 +42,7 @@ Els centres educatius enfronten un desafiament únic a l'adopció de tecnologia:
 
 <br>
 
-La tecnologia educativa ha de ser intuïtiva i fàcil dutilitzar des del primer moment. Els usuaris no han de necessitar formació extensa per fer tasques bàsiques, i la interfície ha de guiar naturalment cap a les funcionalitats correctes.
+La tecnologia educativa ha de ser intuïtiva i fàcil d'utilitzar des del primer moment. Els usuaris no han de necessitar formació extensa per fer tasques bàsiques, i la interfície ha de guiar naturalment cap a les funcionalitats correctes.
 
 Els usuaris se senten més còmodes amb interfícies que segueixen patrons familiars i consistents. La tecnologia educativa ha d'aprofitar les convencions establertes a altres aplicacions que els usuaris ja coneixen.
 
@@ -57,7 +58,7 @@ Els usuaris esperen que la tecnologia funcioni de manera ràpida i fiable. Els t
 
 Una mala experiència d'usuari genera resistència al canvi i pot fer que els usuaris rebutgin completament la tecnologia, tornant a mètodes tradicionals menys eficients.
 
-Les interfícies confuses o mal dissenyades porten a errors dusuari, pèrdua de dades, i frustració. En el context educatiu, aquests errors poden tenir conseqüències significatives.
+Les interfícies confuses o mal dissenyades porten a errors d'usuari, pèrdua de dades, i frustració. En el context educatiu, aquests errors poden tenir conseqüències significatives.
 
 Els usuaris que tenen experiències negatives amb la tecnologia perden confiança no només en aquesta solució específica, sinó també en la tecnologia educativa en general.
 
@@ -67,11 +68,11 @@ Els usuaris que tenen experiències negatives amb la tecnologia perden confianç
 
 <br>
 
-El disseny centrat en lusuari comença amb una comprensió profunda de les necessitats, frustracions, i objectius dels usuaris reals. La investigació ha dincloure observació directa, entrevistes, i anàlisi de comportament.
+El disseny centrat en l'usuari comença amb una comprensió profunda de les necessitats, frustracions, i objectius dels usuaris reals. La investigació ha d'incloure observació directa, entrevistes, i anàlisi de comportament.
 
-El disseny dexperiència dusuari és un procés iteratiu que requereix feedback constant dels usuaris i millores contínues basades en dades reals dús.
+El disseny d'experiència d'usuari és un procés iteratiu que requereix feedback constant dels usuaris i millores contínues basades en dades reals d'ús.
 
-Les proves amb usuaris reals són essencials per identificar problemes d'usabilitat abans que la tecnologia s'implementi completament. Aquestes proves han dincloure usuaris representatius de tots els grups objectiu.
+Les proves amb usuaris reals són essencials per identificar problemes d'usabilitat abans que la tecnologia s'implementi completament. Aquestes proves han d'incloure usuaris representatius de tots els grups objectiu.
 
 <br>
 
@@ -79,15 +80,15 @@ Les proves amb usuaris reals són essencials per identificar problemes d'usabili
 
 <br>
 
-Edena ha estat dissenyat des del principi amb un enfocament centrat en lusuari. Cada funcionalitat ha estat desenvolupada basant-se en investigació exhaustiva amb professors, famílies i personal administratiu de centres educatius reals.
+Edena ha estat dissenyat des del principi amb un enfocament centrat en l'usuari. Cada funcionalitat ha estat desenvolupada basant-se en investigació exhaustiva amb professors, famílies i personal administratiu de centres educatius reals.
 
 <br>
 
-<strong>El futur de lexperiència dusuari en educació</strong>
+<strong>El futur de l'experiència d'usuari en educació</strong>
 
 <br>
 
-Lexperiència dusuari en tecnologia educativa continuarà evolucionant amb noves tecnologies com la intel·ligència artificial, la realitat augmentada, i la personalització avançada.
+L'experiència d'usuari en tecnologia educativa continuarà evolucionant amb noves tecnologies com la intel·ligència artificial, la realitat augmentada, i la personalització avançada.
 
 <br>
 
@@ -98,7 +99,7 @@ Lexperiència dusuari en tecnologia educativa continuarà evolucionant amb noves
 - Formularis curts
 - **Menys clics:** emetre rebut
 - Estat visible de deute
-- Cerca ràpida dalumne. Si secretaria pateix, el projecte se saboteja
+- Cerca ràpida d'alumne. Si secretaria pateix, el projecte se saboteja
 
 <br>
 

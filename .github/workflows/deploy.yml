@@ -34,19 +34,22 @@ jobs:
               id: deployment
               uses: actions/deploy-pages@v4
             # Notify Bing/IndexNow so AI search engines (ChatGPT Search uses
-            # Bing's index) re-crawl the site right after each deploy. The URL
-            # list is derived from the live sitemap, so new pages are always
-            # included without touching this workflow (IndexNow accepts up to
-            # 10,000 URLs per POST).
+            # Bing's index) re-crawl what changed right after each deploy. The
+            # URL list is the live sitemap's entries dated today: the build
+            # dates a page by when its text last changed, so unchanged pages
+            # are not resubmitted (IndexNow asks for changed URLs only).
             - name: Ping IndexNow
               run: |
                   sleep 30 # let the Pages CDN start serving the fresh deploy
-                  urls=$(curl -sf https://edena.es/sitemap.xml \
-                    | grep -o '<loc>[^<]*</loc>' \
-                    | sed 's/<[^>]*>//g')
+                  urls=$(curl -sf https://edena.es/sitemap.xml | python3 -c '
+                  import re, sys
+                  for loc, lastmod in re.findall(r"<loc>([^<]+)</loc>\s*<lastmod>([^<]+)</lastmod>", sys.stdin.read()):
+                      if lastmod.startswith(sys.argv[1]):
+                          print(loc.replace("&amp;", "&"))
+                  ' "$(date -u +%F)")
                   count=$(printf '%s\n' "$urls" | grep -c . || true)
                   if [ "$count" -eq 0 ]; then
-                    echo "No URLs extracted from sitemap; skipping IndexNow ping."
+                    echo "No page changed in this deploy; skipping IndexNow ping."
                     exit 0
                   fi
                   echo "Submitting $count URLs to IndexNow"

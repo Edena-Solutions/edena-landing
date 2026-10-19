@@ -1,5 +1,6 @@
 ---
 title: "Cómo elegir software escolar sin equivocarte: checklist para directores"
+seoTitle: "Cómo elegir software escolar: checklist para directores"
 date: "2026-04-20"
 translationKey: "elegir-software-escolar-checklist-directores-2026"
 description: "Elegir el software de gestión de tu centro es una de las decisiones más costosas de revertir: no en precio de licencia, sino en tiempo."
@@ -17,7 +18,6 @@ cover: "https://images.unsplash.com/photo-1661732017132-28b644cbcf9c?q=80&w=687&
 relatedPosts:
     - comparativa-software-gestion-escolar-espana-2026
     - mejor-software-gestion-escolar
-    - elegir-software-gestion-escolar
     - erp-escolar-guia-digitalizacion
 faqs:
     - question: "¿Cuánto tiempo lleva un proceso de cambio de software completo?"
@@ -36,7 +36,7 @@ faqs:
 
 <br>
 
-Elegir el software de gestión de tu centro es una de las decisiones más costosas de revertir: no en precio de licencia, sino en tiempo, datos y disrupciones cuando el sistema no encaja y hay que empezar de nuevo. En 2026, el mercado español tiene opciones sólidas, pero también soluciones que venden módulos que nadie va a usar, prometen integraciones que no existen y ocultan el coste de migración hasta la firma. El antídoto es un proceso de evaluación honesto, con criterios propios (no los del vendedor), una demo con tus datos reales, y un cálculo de coste total a tres añte antes de comprometerte. Este checklist para directores te da el marco para ese proceso.
+Elegir el software de gestión de tu centro es una de las decisiones más costosas de revertir: no en precio de licencia, sino en tiempo, datos y disrupciones cuando el sistema no encaja y hay que empezar de nuevo. En 2026, el mercado español tiene opciones sólidas, pero también soluciones que venden módulos que nadie va a usar, prometen integraciones que no existen y ocultan el coste de migración hasta la firma. El antídoto es un proceso de evaluación honesto, con criterios propios (no los del vendedor), una demo con tus datos reales, y un cálculo de coste total a tres años antes de comprometerte. Este checklist para directores te da el marco para ese proceso.
 
 <br>
 
@@ -81,7 +81,7 @@ La mayoría de los centros empieza buscando "el mejor software escolar" sin habe
 
 - ¿Puedo ver el flujo completo desde una solicitud de plaza hasta el primer cobro con mis datos, no con datos de demo?
 - ¿Cómo se gestiona un impago: cuántos clicks, qué acciones automáticas y cómo queda registrado?
-- ¿Cómo se exportan mis datos si decido cambiar de proveedor en dos añte?
+- ¿Cómo se exportan mis datos si decido cambiar de proveedor en dos años?
 - ¿Qué pasa si hay un error en un recibo ya enviado: cómo se rectifica sin romper la numeración?
 - ¿Dónde está el plan de migración detallado por fases: datos maestros, histórico, documentos?
 - ¿Cuántos usuarios simultáneos tiene el soporte de hoy? ¿La respuesta es 24/7 o en horario de oficina?
@@ -89,7 +89,7 @@ La mayoría de los centros empieza buscando "el mejor software escolar" sin habe
 
 <br>
 
-<strong>Cómo calcular el TCO a tres añte</strong>
+<strong>Cómo calcular el TCO a tres años</strong>
 
 <br>
 
@@ -101,7 +101,7 @@ El precio de licencia mensual por alumno es solo la primera capa. Añade:
 - Módulos no incluidos en el precio base que necesitarás en el año dos.
 - Riesgo de re-migración: si el sistema no escala o el proveedor cambia de modelo de negocio.
 
-En la mayoría de los casos, un sistema aparentemente más barato que obliga a dos integraciones externas acaba siendo más costoso que uno integrado con precio modular. Pide al proveedor la proyección a tres añte con todos esos componentes, no solo la tarifa mensual.
+En la mayoría de los casos, un sistema aparentemente más barato que obliga a dos integraciones externas acaba siendo más costoso que uno integrado con precio modular. Pide al proveedor la proyección a tres años con todos esos componentes, no solo la tarifa mensual.
 
 <br>
 
@@ -163,7 +163,7 @@ Más allá de las notas y la asistencia, un software de gestión escolar en Espa
 
 En escuelas infantiles pesan plazas, ratios, menús y alergias; en academias, bonos, temporadas y sedes múltiples; en colegios privados, cuotas diferenciadas, becas internas y captación comercial. Un ERP que funciona en academias de idiomas puede quedarse corto si gestionas ratios de infantil, NEAE o comedor con facturación por jornada.
 
-Evalúa TCO a tres añte: licencia, migración, formación, horas internas de coordinación y coste de integraciones puente. Pide demo con tus datos reales (cinco familias, un ciclo de recibos) antes de decidir. El software que parece más barato al inicio puede encarecerse si obliga a sumar CRM, facturación o comunicación por separado.
+Evalúa TCO a tres años: licencia, migración, formación, horas internas de coordinación y coste de integraciones puente. Pide demo con tus datos reales (cinco familias, un ciclo de recibos) antes de decidir. El software que parece más barato al inicio puede encarecerse si obliga a sumar CRM, facturación o comunicación por separado.
 
 <br>
 

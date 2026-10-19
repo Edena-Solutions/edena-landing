@@ -1,5 +1,6 @@
 ---
 title: "Espaces éducatifs du futur : conception et innovation pour un apprentissage moderne"
+seoTitle: "Espaces éducatifs du futur : concevoir pour apprendre"
 date: "2025-08-25"
 translationKey: "espacios-educativos-futuro-diseno"
 description: "Les espaces physiques où se déroule l’apprentissage ont un impact profond et souvent sous-estimé sur l’efficacité éducative."

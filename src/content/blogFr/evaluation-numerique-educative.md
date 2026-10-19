@@ -1,8 +1,9 @@
 ---
-title: "Évaluation et évaluation numériques dans l'éducation moderne : outils et stratégies"
+title: "Évaluation numérique dans l'éducation moderne : outils et stratégies"
+seoTitle: "Évaluation numérique en éducation : outils et stratégies"
 date: "2025-08-20"
 translationKey: "evaluacion-assessment-digital-educativo"
-description: "L’évaluation pédagogique connaît une révolution numérique qui transforme fondamentalement la façon dont nous mesurons, analysons et utilisons les données d’apprentissage des élèves."
+description: "Comment l'évaluation numérique change la manière de mesurer, d'analyser et d'utiliser les données d'apprentissage, avec outils et stratégies."
 tags:
     - "évaluation numérique"
     - "évaluation"
@@ -24,7 +25,7 @@ faqs:
       answer: "Oui avec une autocorrection formative et des banques d’items bien conçues."
 ---
 
-<strong>Évaluation et évaluation numériques dans l'éducation moderne : outils et stratégies</strong>
+<strong>Évaluation numérique dans l'éducation moderne : outils et stratégies</strong>
 
 <br>
 

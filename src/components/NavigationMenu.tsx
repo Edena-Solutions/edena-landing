@@ -40,7 +40,8 @@ import logo from "@/assets/img/logos/logo.svg";
 import enaLogo from "@/assets/img/logos/ena.png";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
-import { translations, localePath } from "@/i18n/index.ts";
+import { localePath } from "@/i18n/utils";
+import type { NavCopy } from "@/i18n/nav-copy";
 import { Button } from "./ui/button";
 import Link from "./ui/link";
 import DownloadAppIcons from "./DownloadAppIcons";
@@ -160,19 +161,20 @@ const iconBoxDefault =
 interface Props {
     className?: string;
     lang: string;
+    /** The navigation's words in the page's language (see `navCopy`). */
+    copy: NavCopy;
     premium?: boolean;
     /** Per-language link for pages whose path differs by language (a blog post's translations). */
     languageHrefs?: Record<string, string>;
 }
 
-const Logo = ({ lang, className }: { lang: string; className?: string }) => {
-    const t = translations[lang as keyof typeof translations];
+const Logo = ({ lang, alt, className }: { lang: string; alt: string; className?: string }) => {
     const url = lang === "es" ? "/" : `/${lang}/`;
     return (
         <a href={url} className={cn("block shrink-0", className)}>
             <img
                 src={logo.src}
-                alt={t.altText.logo}
+                alt={alt}
                 className="ds-nav-logo h-5 w-auto dark:invert"
             />
         </a>
@@ -514,11 +516,11 @@ const MobileMenuSection = ({
     );
 };
 
-const MainNavigationMenu = ({ lang, className, premium, languageHrefs }: Props) => {
+const MainNavigationMenu = ({ lang, copy, className, premium, languageHrefs }: Props) => {
     const headerRef = useRef<HTMLElement>(null);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [openMobileSection, setOpenMobileSection] = useState("");
-    const t = translations[lang as keyof typeof translations];
+    const t = copy;
 
     const pm = t.productModules;
     // Canonical locale paths: Spanish lives unprefixed at the root.
@@ -839,7 +841,7 @@ const MainNavigationMenu = ({ lang, className, premium, languageHrefs }: Props) 
         >
             <div className="container mx-auto px-4 flex h-fit items-center">
                 <div className="flex min-w-0 items-center gap-3 xl:gap-4">
-                    <Logo lang={lang} className="lg:hidden xl:block" />
+                    <Logo lang={lang} alt={t.altText.logo} className="lg:hidden xl:block" />
 
                     <div className="hidden lg:flex relative overflow-visible">
                         <NavigationMenu className="flex-none justify-start">
@@ -1086,7 +1088,7 @@ const MainNavigationMenu = ({ lang, className, premium, languageHrefs }: Props) 
                                     </div>
 
                                     <DownloadAppIcons
-                                        lang={lang}
+                                        labels={t.appStore}
                                         quiet
                                         className="flex flex-col items-center py-3"
                                     />
@@ -1178,7 +1180,7 @@ const MainNavigationMenu = ({ lang, className, premium, languageHrefs }: Props) 
                                 </a>
 
                                 <DownloadAppIcons
-                                    lang={lang}
+                                    labels={t.appStore}
                                     className="flex flex-col justify-center items-center py-4"
                                 />
                                 <div className="flex flex-col items-center py-4">

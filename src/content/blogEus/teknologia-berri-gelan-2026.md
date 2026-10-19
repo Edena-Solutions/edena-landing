@@ -1,8 +1,9 @@
 ---
 title: "Teknologia berriak ikasgelan 2026: hezkuntza-esperientzia eraldatzen"
+seoTitle: "Teknologia berriak ikasgelan 2026an"
 date: "2026-01-29"
 translationKey: "nuevas-tecnologias-aula-2026"
-description: "urtea aurretik eta ondoren markatzen ari da gaztelaniazko geletan nola irakasten eta ikasten dugun."
+description: "Nola aldatzen ari den irakasteko eta ikasteko modua Espainiako ikasgeletan 2026an, DigEdu Planak 240.000 gela baino gehiago sistema digitalez hornitzen dituela."
 tags:
     - "hezkuntza teknologia"
     - "ikasgela digitala"

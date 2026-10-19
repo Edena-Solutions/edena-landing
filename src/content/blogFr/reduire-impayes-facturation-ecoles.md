@@ -1,5 +1,6 @@
 ---
 title: "Comment réduire les impayés et améliorer la facturation dans les établissements scolaires"
+seoTitle: "Comment réduire les impayés dans les établissements"
 date: "2026-03-03"
 translationKey: "reducir-impagos-facturacion-colegios"
 description: "Facturation des écoles et gestion des paiements scolaires : stratégies pour réduire les impayés, automatiser les encaissements et améliorer la trésorerie."

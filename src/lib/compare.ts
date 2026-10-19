@@ -1,4 +1,5 @@
-import { localePath, translations } from "@/i18n/index.ts";
+import type { Translation } from "@/i18n";
+import { localePath } from "@/i18n/utils";
 import { intlLocaleForLang } from "@/lib/intl-locale";
 import type { CompareRowId, Competitor } from "@/data/competitors";
 
@@ -19,7 +20,7 @@ export function formatCount(value: number, lang: string): string {
     return new Intl.NumberFormat(intlLocaleForLang(lang), { useGrouping: "always" }).format(value);
 }
 
-type CompareCopy = (typeof translations)[keyof typeof translations]["comparePage"];
+type CompareCopy = Translation["comparePage"];
 
 /** One competitor's words in a locale, with its cell notes typed by criterion. */
 export function competitorCopy(copy: CompareCopy, competitor: Pick<Competitor, "id">) {

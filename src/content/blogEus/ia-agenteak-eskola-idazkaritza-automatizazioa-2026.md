@@ -1,8 +1,9 @@
 ---
 title: "IA agenteak idazkaritzan: iradokitzen duen laguntzailetik exekutatzen duen sistemara"
+seoTitle: "IA agenteak eskola-idazkaritzan: zer egin dezaketen jada"
 date: "2026-08-18"
 translationKey: "agentes-ia-secretaria-escolar-automatizacion-2026"
-description: "IA agentikoa 2026ko lehen joera teknologikoa da. Zerk bereizten duen agente bat laguntzaile batetik, dagoeneko eskuorde daitezkeen hiru idazkaritza fluxu eta non erabaki behar duen pertsona batek."
+description: "Zerk bereizten duen IA agente bat laguntzaile batetik, dagoeneko eskuorde daitezkeen hiru idazkaritza-fluxu eta non erabaki behar duen pertsona batek."
 tags: ["IA agenteak", "automatizazioa", "idazkaritza", "lan fluxuak", "adimen artifiziala"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1655393001768-d946c97d6fd1?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

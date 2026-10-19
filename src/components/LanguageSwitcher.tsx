@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { languages, localePath } from "@/i18n/index.ts";
+import { languages, localePath } from "@/i18n/utils";
 import { cn } from "@/lib/utils";
 import {
     DropdownMenu,
@@ -9,6 +9,11 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { Check, Globe } from "lucide-react";
+import flagCa from "@/assets/img/flags/ca.png";
+import flagEn from "@/assets/img/flags/en.svg";
+import flagEs from "@/assets/img/flags/es.svg";
+import flagEus from "@/assets/img/flags/eus.png";
+import flagFr from "@/assets/img/flags/fr.svg";
 
 interface LanguageSwitcherProps {
     currentLang: string;
@@ -24,19 +29,19 @@ interface LanguageSwitcherProps {
 }
 
 const languageNames: Record<string, { code: string; name: string; flag: string }> = {
-    en: { code: "EN", name: "English", flag: "https://flagcdn.com/gb.svg" },
+    en: { code: "EN", name: "English", flag: flagEn.src },
     ca: {
         code: "CA",
         name: "Català",
-        flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/330px-Flag_of_Catalonia.svg.png",
+        flag: flagCa.src,
     },
-    es: { code: "ES", name: "Español", flag: "https://flagcdn.com/es.svg" },
+    es: { code: "ES", name: "Español", flag: flagEs.src },
     eus: {
         code: "EUS",
         name: "Euskera",
-        flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_of_the_Basque_Country.svg/960px-Flag_of_the_Basque_Country.svg.png",
+        flag: flagEus.src,
     },
-    fr: { code: "FR", name: "Français", flag: "https://flagcdn.com/fr.svg" },
+    fr: { code: "FR", name: "Français", flag: flagFr.src },
 };
 
 function LangFlag({ src }: { src: string }) {

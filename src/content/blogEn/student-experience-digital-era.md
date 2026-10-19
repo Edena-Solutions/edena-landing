@@ -1,8 +1,9 @@
 ---
 title: "Student experience in the digital age: Beyond traditional learning"
+seoTitle: "Student experience in the digital age"
 date: "2024-09-01"
 translationKey: "experiencia-estudiante-era-digital"
-description: "Discover how to create exceptional student experiences that combine technology, personalization and human connection."
+description: "How to build a student experience that combines technology, personalisation and human connection, beyond attending classes and handing in work."
 tags:
     - "student experience"
     - "personalization"

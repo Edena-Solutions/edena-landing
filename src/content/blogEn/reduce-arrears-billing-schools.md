@@ -1,5 +1,6 @@
 ---
 title: "How to reduce non-payments and improve billing in educational centers"
+seoTitle: "How to reduce non-payments in schools"
 date: "2026-03-03"
 translationKey: "reducir-impagos-facturacion-colegios"
 description: "Receipts that spell out each item and the charge date, reminders only for those who owe, and a weekly debt panel by year group."

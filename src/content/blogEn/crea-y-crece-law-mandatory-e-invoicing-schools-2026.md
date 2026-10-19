@@ -2,7 +2,7 @@
 title: "Crea y Crece Law: B2B E-Invoicing for Schools and Academies"
 date: "2026-04-22"
 translationKey: "ley-crea-y-crece-factura-electronica-centros-2026"
-description: "What mandatory business-to-business e-invoicing means for schools and academies in Spain and how to prepare in 2026."
+description: "What Spain's Crea y Crece Law and mandatory B2B e-invoicing mean for schools, nurseries and academies, and how to prepare for it in 2026."
 tags:
     - "Crea y Crece law"
     - "mandatory e-invoicing"

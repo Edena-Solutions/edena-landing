@@ -1,8 +1,9 @@
 ---
 title: "Digital competence for educators: Preparing the teachers of the future"
+seoTitle: "Digital competence for educators: what teachers need"
 date: "2024-09-30"
 translationKey: "competencia-digital-educadores"
-description: "Discover the essential digital skills educators need to prepare their students for the digital world."
+description: "The digital skills educators need to integrate technology into their teaching and prepare their students for a digital world, beyond basic tool use."
 tags:
     - "digital competence"
     - "teacher training"

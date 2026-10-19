@@ -2,7 +2,7 @@
 title: "Cómo ahorrar 15 horas semanales en administración escolar"
 date: "2026-04-12"
 translationKey: "ahorrar-15-horas-administracion-escolar-2026"
-description: "Quince horas a la semana equivalen a casi dos jornadas laborales completas. En un centro, ese tiempo se pierde respondiendo los mismos correos y reconstruyendo qué pagó quién."
+description: "Quince horas semanales son casi dos jornadas. En un centro se pierden respondiendo los mismos correos y reconstruyendo qué pagó quién."
 tags:
     [
         "ahorrar horas administración escolar",
@@ -113,7 +113,7 @@ Antes de implantación, registra dos semanas de las tareas enumeradas arriba con
 
 - **Matrícula y altas (3-4 h/semana):** Formularios, validación documental, altas duplicadas en sistemas distintos.
 - **Cobros y conciliación (4-5 h):** Llamadas de recordatorio, conciliación bancaria manual, disputas por importes.
-- **Comunicación y circulares (3-4 h):** Reenvíte, confirmaciones por teléfono, circulares en canales múltiples.
+- **Comunicación y circulares (3-4 h):** Reenvíos, confirmaciones por teléfono, circulares en canales múltiples.
 - **Documentos y autorizaciones (2-3 h):** Búsqueda en carpetas, escaneos, firmas en papel.
 - **Asistencia y absentismo (1-2 h):** Llamadas de confirmación a familias.
 - **Total típico en centro mediano:** 13-18 h/semana parcialmente automatizables con ERP integrado y política clara.

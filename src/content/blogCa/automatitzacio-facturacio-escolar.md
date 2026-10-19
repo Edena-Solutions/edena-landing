@@ -1,8 +1,9 @@
 ---
 title: "Automatització de la facturació escolar: Optimitza els teus processos interns"
+seoTitle: "Automatització de la facturació escolar"
 date: "2025-01-15"
 translationKey: "automatizacion-facturacion-escolar"
-description: "La gestió interna de la facturació és un dels processos més complexos i propensos a errors a qualsevol centre educatiu."
+description: "Com automatitzar la facturació escolar: cicles recurrents, plantilles, rectificatives i enllaç amb Verifactu en un procés molt propens a errors."
 tags:
     - "facturació"
     - "automatització"
@@ -100,11 +101,11 @@ L'automatització elimina els errors humans en càlculs, aplicacions de descompt
 
 <br>
 
-El primer pas és mapejar tots els processos de facturació actuals, tot identificant colls d'ampolla, errors freqüents i oportunitats de millora. Aquesta avaluació ha d'incloure input de tot el personal involucrat a la facturació. La configuració inicial inclou establir tarifes, descomptes, calendaris de facturació i regles de negoci específiques del centre. Aquesta fase és crucial per assegurar que el sistema reflecteixi exactament les necessitats del centre educatiu. La migració de dades existents s'ha de fer amb cura per preservar l'historial financer i evitar duplicacions. Els sistemes moderns poden importar dades des de fulls de càlcul, bases de dades existents o sistemes legacy. El personal administratiu ha de rebre formació completa sobre el nou sistema, incloent-hi com configurar tarifes, generar reports i resoldre incidències comunes. La formació ha dincloure casos pràctics específics del centre.
+El primer pas és mapejar tots els processos de facturació actuals, tot identificant colls d'ampolla, errors freqüents i oportunitats de millora. Aquesta avaluació ha d'incloure input de tot el personal involucrat a la facturació. La configuració inicial inclou establir tarifes, descomptes, calendaris de facturació i regles de negoci específiques del centre. Aquesta fase és crucial per assegurar que el sistema reflecteixi exactament les necessitats del centre educatiu. La migració de dades existents s'ha de fer amb cura per preservar l'historial financer i evitar duplicacions. Els sistemes moderns poden importar dades des de fulls de càlcul, bases de dades existents o sistemes legacy. El personal administratiu ha de rebre formació completa sobre el nou sistema, incloent-hi com configurar tarifes, generar reports i resoldre incidències comunes. La formació ha d'incloure casos pràctics específics del centre.
 
 <br>
 
-<strong>Mètriques dèxit</strong>
+<strong>Mètriques d'èxit</strong>
 
 <br>
 
@@ -136,7 +137,7 @@ L'automatització de la facturació interna continuarà evolucionant amb noves t
 
 <br>
 
-Regles clares per a abonaments i errors dimport. Cada rectificativa ha de quedar traçada en expedient familiar i en registre fiscal.
+Regles clares per a abonaments i errors d'import. Cada rectificativa ha de quedar traçada en expedient familiar i en registre fiscal.
 
 <br>
 

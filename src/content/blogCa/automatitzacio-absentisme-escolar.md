@@ -17,7 +17,7 @@ relatedPosts:
     - automatitzacio-tasques-administratives
 faqs:
     - question: "L'automatització de l'absentisme escolar substitueix el tutor o orientació?"
-      answer: "No. L'automatització aporta dades i avisos; la interpretació, el contacte amb la família i les mesures educatives continuen sent responsabilitat de lequip."
+      answer: "No. L'automatització aporta dades i avisos; la interpretació, el contacte amb la família i les mesures educatives continuen sent responsabilitat de l'equip."
     - question: "Quin llindar de faltes és raonable per enviar una alerta?"
       answer: "Depèn de l'etapa i de la normativa autonòmica. Com a referència, molts centres avisen després de 3–5 faltes injustificades en un mes; l'important és ser coherent i revisar-ne l'impacte."
     - question: "Les famílies poden veure el vostre historial d'assistència?"
@@ -25,7 +25,7 @@ faqs:
     - question: "Com es compleix la normativa de protecció de dades amb aquestes dades?"
       answer: "L'assistència és dada necessària per a la relació educativa. Hi ha d'haver base legal, informació clara a les famílies i mesures de seguretat (accés restringit, registres auditats). El proveïdor del programari ha de complir GDPR."
     - question: "Serveix l'automatització per a absentisme en formació professional o adults?"
-      answer: "Sí. El mateix esquema (registre centralitzat, alertes, informes) aplica; només cal adaptar llindars i canals de comunicació al perfil de lalumnat."
+      answer: "Sí. El mateix esquema (registre centralitzat, alertes, informes) aplica; només cal adaptar llindars i canals de comunicació al perfil de l'alumnat."
 ---
 
 <strong>Com l'automatització redueix l'absentisme escolar</strong>
@@ -56,7 +56,7 @@ L'absentisme escolar repetit s'associa a risc d'abandó i dificultats acadèmiqu
 
 <br>
 
-<strong>1. Registre dassistència unificat</strong>
+<strong>1. Registre d'assistència unificat</strong>
 
 <br>
 
@@ -92,7 +92,7 @@ La normativa demana acreditar el control de l'absentisme escolar. Amb dades digi
 
 <br>
 
-Un institut va implantar passi de llista digital i alertes a les famílies a les 3 faltes injustificades en un mes; en un curs van reduir les faltes repetides en un 22% i van millorar la puntualitat de les justificacions. Un col·legi de primària va unificar el registre dassistència i menjador; en creuar dades, van detectar alumnes que només faltaven certs dies i van poder abordar causes (per exemple, transport o situació familiar) amb més criteri.
+Un institut va implantar passi de llista digital i alertes a les famílies a les 3 faltes injustificades en un mes; en un curs van reduir les faltes repetides en un 22% i van millorar la puntualitat de les justificacions. Un col·legi de primària va unificar el registre d'assistència i menjador; en creuar dades, van detectar alumnes que només faltaven certs dies i van poder abordar causes (per exemple, transport o situació familiar) amb més criteri.
 
 <br>
 
@@ -112,7 +112,7 @@ Un institut va implantar passi de llista digital i alertes a les famílies a les
 
 <br>
 
-1. Centralitzar el registre dassistència en una sola eina accessible per a docents i direcció.
+1. Centralitzar el registre d'assistència en una sola eina accessible per a docents i direcció.
 2. Definir llindars d'alerta (per exemple, faltes per setmana o mes) i qui rep cada avís.
 3. Activar notificacions automàtiques a famílies quan s'assoleixin aquests llindars.
 4. Establir un flux de justificació de faltes (formulari o canal únic) amb registre.

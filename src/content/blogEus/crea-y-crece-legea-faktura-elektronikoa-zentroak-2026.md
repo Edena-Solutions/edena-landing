@@ -1,5 +1,6 @@
 ---
 title: "Crea y Crece legea: B2B faktura elektronikoa zentro eta akademientzat"
+seoTitle: "Crea y Crece legea: faktura elektronikoa zentroetan"
 date: "2026-04-22"
 translationKey: "ley-crea-y-crece-factura-electronica-centros-2026"
 description: "Enpresen arteko nahitaezko faktura elektronikoak ikastetxe eta akademientzat zer dakarren Espainian eta nola prestatu 2026an."

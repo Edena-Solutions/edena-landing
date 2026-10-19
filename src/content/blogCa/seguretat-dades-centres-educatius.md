@@ -1,5 +1,6 @@
 ---
 title: "Seguretat de dades en centres educatius: Protegint el futur digital"
+seoTitle: "Seguretat de dades en centres educatius"
 date: "2025-01-25"
 translationKey: "seguridad-datos-centros-educativos"
 description: "A l'era digital, els centres educatius manegen quantitats massives de dades sensibles: informació personal d'estudiants i famílies, registres acadèmics."
@@ -43,7 +44,7 @@ Els incidents de seguretat al sector educatiu han augmentat significativament en
 
 <br>
 
-Els centres educatius manegen múltiples tipus de dades que requereixen diferents nivells de protecció. Les dades personals inclouen noms, adreces, números de telèfon, i documents didentitat destudiants i famílies. Les dades acadèmiques comprenen qualificacions, avaluacions, informes de comportament, i plans educatius individuals.
+Els centres educatius manegen múltiples tipus de dades que requereixen diferents nivells de protecció. Les dades personals inclouen noms, adreces, números de telèfon, i documents d'identitat d'estudiants i famílies. Les dades acadèmiques comprenen qualificacions, avaluacions, informes de comportament, i plans educatius individuals.
 
 Les dades financeres inclouen informació de facturació, mètodes de pagament i registres de beques o ajuts. Les dades de salut poden incloure al·lèrgies, condicions mèdiques i necessitats especials. Cada tipus de dades requereix protocols específics de protecció i compliment normatiu.
 
@@ -63,7 +64,7 @@ A Espanya, la Llei orgànica de protecció de dades personals i garantia dels dr
 
 <br>
 
-Els centres educatius enfronten múltiples tipus d¿amenaces cibernètiques. Els atacs de pesca són especialment efectius perquè els empleats educatius solen estar menys familiaritzats amb les amenaces digitals. Els atacants es fan passar per autoritats educatives, proveïdors de serveis, o fins i tot companys de feina per obtenir credencials daccés.
+Els centres educatius enfronten múltiples tipus d¿amenaces cibernètiques. Els atacs de pesca són especialment efectius perquè els empleats educatius solen estar menys familiaritzats amb les amenaces digitals. Els atacants es fan passar per autoritats educatives, proveïdors de serveis, o fins i tot companys de feina per obtenir credencials d'accés.
 
 Els atacs de ransomware són particularment devastadors perquè poden paralitzar completament les operacions del centre. Els atacants xifren totes les dades i exigeixen un rescat per restaurar-ne l'accés. Al sector educatiu, on la continuïtat del servei és crítica, aquests atacs poden tenir conseqüències especialment greus.
 
@@ -73,7 +74,7 @@ Els atacs de ransomware són particularment devastadors perquè poden paralitzar
 
 <br>
 
-La implementació dun programa de seguretat robust requereix un enfocament integral que combini mesures tècniques, organitzatives i de formació. L'autenticació multifactor és essencial per protegir l'accés als sistemes crítics. Els empleats han de fer servir contrasenyes fortes i úniques, i els sistemes han de requerir verificació addicional per a accessos sensibles.
+La implementació d'un programa de seguretat robust requereix un enfocament integral que combini mesures tècniques, organitzatives i de formació. L'autenticació multifactor és essencial per protegir l'accés als sistemes crítics. Els empleats han de fer servir contrasenyes fortes i úniques, i els sistemes han de requerir verificació addicional per a accessos sensibles.
 
 El xifratge de dades és fonamental tant en trànsit com en repòs. Totes les dades sensibles han d'estar xifrades quan s'emmagatzemen a servidors o dispositius, i les comunicacions entre sistemes han d'utilitzar protocols segurs com HTTPS o VPN.
 
@@ -119,7 +120,7 @@ La IA i l'aprenentatge automàtic es poden utilitzar tant per millorar la segure
 
 <br>
 
-<strong>Un cas dèxit real</strong>
+<strong>Un cas d'èxit real</strong>
 
 <br>
 
@@ -143,9 +144,9 @@ Els centres educatius també s'han d'adaptar a noves normatives i estàndards de
 
 <br>
 
-El centre educatiu és responsable del tractament de dades dalumnes i famílies. El proveïdor de programari actua com a encarregat: ha d'oferir contracte d'encàrrec de tractament, registre d'activitats, xifrat en trànsit i repòs i subprocessadors documentats. Per a menors de 14 anys, el consentiment de mare, pare o tutor és central en la majoria de tractaments.
+El centre educatiu és responsable del tractament de dades d'alumnes i famílies. El proveïdor de programari actua com a encarregat: ha d'oferir contracte d'encàrrec de tractament, registre d'activitats, xifrat en trànsit i repòs i subprocessadors documentats. Per a menors de 14 anys, el consentiment de mare, pare o tutor és central en la majoria de tractaments.
 
-Davant d'una bretxa de seguretat, el termini de notificació a l'AEPD pot ser de 72 hores. Sense procediment escrit, registre daccessos i formació anual al personal, el compliment en paper no aguanta una auditoria real. Migrar de fulls de càlcul compartits a plataforma amb rols elimina còpies de llistats en correus electrònics interns, un dels vectors de risc més freqüents.
+Davant d'una bretxa de seguretat, el termini de notificació a l'AEPD pot ser de 72 hores. Sense procediment escrit, registre d'accessos i formació anual al personal, el compliment en paper no aguanta una auditoria real. Migrar de fulls de càlcul compartits a plataforma amb rols elimina còpies de llistats en correus electrònics interns, un dels vectors de risc més freqüents.
 
 Abans de signar amb un SaaS, exigeix ​​DPA (contracte d'encàrrec), ubicació de servidors, política de backups i pla de resposta a incidents. La protecció de dades no és un mòdul opcional: és la base sobre la qual famílies, professorat i inspecció confien en la teva digitalització.
 

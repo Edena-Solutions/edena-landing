@@ -1,8 +1,9 @@
 ---
 title: "Com reduir els impagaments i millorar la facturació a centres educatius"
+seoTitle: "Com reduir els impagaments en centres educatius"
 date: "2026-03-03"
 translationKey: "reducir-impagos-facturacion-colegios"
-description: "Rebuts amb el concepte i la data de càrrec clars, recordatoris només a qui deu i un panell setmanal de deute per curs."
+description: "Rebuts amb el concepte i la data de càrrec clars, recordatoris només a qui deu i un panell setmanal de deute per curs per reduir els impagaments."
 tags:
     - "facturació col·legis"
     - "gestió de pagaments escolars"
@@ -123,7 +124,7 @@ Actualitzar l'estat de les factures quan arriba el pagament (per passarel·la o 
 
 <br>
 
-Assumpte: Recordatori quota [mes]. Cos breu: data de venciment, enllaç al portal, telèfon dadministració en horari fix. To neutre, sense amenaces en el primer avís.
+Assumpte: Recordatori quota [mes]. Cos breu: data de venciment, enllaç al portal, telèfon d'administració en horari fix. To neutre, sense amenaces en el primer avís.
 
 <br>
 

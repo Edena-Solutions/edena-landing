@@ -1,8 +1,9 @@
 ---
 title: "ERP escolar: la guía completa para digitalizar la gestión de tu centro educativo"
+seoTitle: "ERP escolar: guía para digitalizar la gestión del centro"
 date: "2026-02-28"
 translationKey: "erp-escolar-guia-digitalizacion"
-description: "Un ERP escolar integra en una sola plataforma la gestión administrativa, financiera y académica de un centro educativo."
+description: "Un ERP escolar reúne en una plataforma la gestión administrativa, financiera y académica: expediente, cobros, comunicación y admisión. Qué debe incluir."
 tags: ["ERP escolar", "software gestión colegios", "digitalización", "gestión educativa"]
 author: "ENA by Edena"
 cover: "https://plus.unsplash.com/premium_photo-1677363463978-1aaeb823b2ac?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -10,7 +11,6 @@ relatedPosts:
     - comparativa-software-gestion-escolar-espana-2026
     - elegir-software-escolar-checklist-directores-2026
     - mejor-software-gestion-escolar
-    - elegir-software-gestion-escolar
 faqs:
     - question: "¿Un ERP escolar sustituye a varios sistemas?"
       answer: "Sí. Un ERP escolar bien elegido puede reemplazar hojas de cálculo, software de facturación aislado, herramientas de comunicación dispersas y parte de la gestión de expedientes. El objetivo es tener un núcleo unificado."
@@ -150,7 +150,7 @@ Más allá de las notas y la asistencia, un software de gestión escolar en Espa
 
 En escuelas infantiles pesan plazas, ratios, menús y alergias; en academias, bonos, temporadas y sedes múltiples; en colegios privados, cuotas diferenciadas, becas internas y captación comercial. Un ERP que funciona en academias de idiomas puede quedarse corto si gestionas ratios de infantil, NEAE o comedor con facturación por jornada.
 
-Evalúa TCO a tres añte: licencia, migración, formación, horas internas de coordinación y coste de integraciones puente. Pide demo con tus datos reales (cinco familias, un ciclo de recibos) antes de decidir. El software que parece más barato al inicio puede encarecerse si obliga a sumar CRM, facturación o comunicación por separado.
+Evalúa TCO a tres años: licencia, migración, formación, horas internas de coordinación y coste de integraciones puente. Pide demo con tus datos reales (cinco familias, un ciclo de recibos) antes de decidir. El software que parece más barato al inicio puede encarecerse si obliga a sumar CRM, facturación o comunicación por separado.
 
 <br>
 

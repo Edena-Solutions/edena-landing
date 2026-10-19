@@ -1,8 +1,9 @@
 ---
 title: "Han xifrat les dades del centre: el pla de resposta que hauries de tenir escrit"
+seoTitle: "Ransomware al centre: el pla de resposta per escrit"
 date: "2026-08-10"
 translationKey: "ransomware-centros-educativos-plan-respuesta-2026"
-description: "Educació és entre els sectors més atacats d'Espanya. Què fer les primeres 72 hores d'un incident: rellotges de notificació NIS2 i RGPD, ordre de trucades, què es comunica a les famílies i què exigir al proveïdor."
+description: "Què fer les primeres 72 hores d'un ciberatac al centre: terminis de notificació NIS2 i RGPD, a qui trucar i què dir a les famílies."
 tags: ["ciberseguretat", "ransomware", "NIS2", "protecció de dades", "gestió de crisi"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1634224143538-ce0221abf732?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

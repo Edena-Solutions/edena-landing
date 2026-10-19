@@ -1,5 +1,6 @@
 ---
 title: "Indicateurs mensuels que tout directeur d'école devrait suivre"
+seoTitle: "Indicateurs mensuels que tout directeur d'école doit suivre"
 date: "2026-04-16"
 translationKey: "kpis-director-colegio-mensual-2026"
 description: "KPIs de facturation, inscription, occupation et communication pour les directeurs d'établissements : quoi mesurer, à quelle fréquence et comment agir."

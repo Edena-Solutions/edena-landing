@@ -1,5 +1,6 @@
 ---
 title: "Onboarding digital de famílies: com matricular alumnes sense paperassa"
+seoTitle: "Incorporació digital de famílies: matrícula sense paper"
 date: "2026-03-11"
 translationKey: "onboarding-digital-familias-matricula-online"
 description: "La matrícula en línia a l'escola i la inscripció digital d'alumnes transformen l'experiència de les famílies i redueixen càrrega a secretaria."
@@ -44,7 +45,7 @@ La matrícula en línia a l'escola i la inscripció digital d'alumnes transforme
 
 <br>
 
-Les famílies esperen poder matricular els seus fills sense desplaçar-se, sense imprimir papers i sense esperar que secretaria transcrigui dades. La matrícula en línia a l'escola millora l'experiència i redueix l'abandonament en el procés. La inscripció digital dalumnes accelera la incorporació i dóna visibilitat al centre sobre lestat de cada matrícula.
+Les famílies esperen poder matricular els seus fills sense desplaçar-se, sense imprimir papers i sense esperar que secretaria transcrigui dades. La matrícula en línia a l'escola millora l'experiència i redueix l'abandonament en el procés. La inscripció digital d'alumnes accelera la incorporació i dóna visibilitat al centre sobre l'estat de cada matrícula.
 
 <br>
 
@@ -56,7 +57,7 @@ Les famílies esperen poder matricular els seus fills sense desplaçar-se, sense
 
 <br>
 
-Dades de lalumne i la família, etapa, serveis contractats. La matrícula en línia a l'escola ha de ser clara, guiada i validada en temps real. La inscripció digital dels alumnes evita errors de transcripció i accelera el procés.
+Dades de l'alumne i la família, etapa, serveis contractats. La matrícula en línia a l'escola ha de ser clara, guiada i validada en temps real. La inscripció digital dels alumnes evita errors de transcripció i accelera el procés.
 
 <br>
 
@@ -72,7 +73,7 @@ Pujada de DNI, llibre de família, informes si s'aplica. El onboarding digital d
 
 <br>
 
-Contracte de matrícula, autoritzacions i condicions. La inscripció digital dalumnes amb signatura electrònica té validesa legal i evita desplaçaments. El onboarding digital de famílies es completa sense que ningú hagi d'anar a secretaria a signar.
+Contracte de matrícula, autoritzacions i condicions. La inscripció digital d'alumnes amb signatura electrònica té validesa legal i evita desplaçaments. El onboarding digital de famílies es completa sense que ningú hagi d'anar a secretaria a signar.
 
 <br>
 

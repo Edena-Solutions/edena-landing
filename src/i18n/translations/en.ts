@@ -739,7 +739,7 @@ export default {
             "Free school app for families and teachers on iOS and Android: push notifications, secure photos, document signing, grades and invoices in one place.",
         demoTitle: "Free Demo of Our School Management Software | Edena",
         demoDescription:
-            "A 15-minute demo, prepared for your school, nursery, academy or group. No commitment.",
+            "A 15-minute Edena demo, set up with data from a school like yours: school, nursery, academy or group. Book a time that suits you. No commitment.",
         financeTitle: "School Billing Software | Verifactu & SEPA | Edena",
         financeDescription:
             "Automated, Verifactu-ready school billing: receipts, SEPA direct debits and real-time arrears tracking. Your team stops chasing payments.",
@@ -763,7 +763,7 @@ export default {
             "How Edena protects the data of students, families and schools: what we process, why, how long we keep it and how to exercise your rights.",
         deleteAccountTitle: "Delete account and data | Edena",
         deleteAccountDescription:
-            "How to request deletion of your account and personal data in Edena, with or without access to the app.",
+            "How to request deletion of your Edena account and personal data, whether you can still sign in to the app or no longer have access to it.",
         termsTitle: "Terms of Service | Edena School Management Software",
         termsDescription:
             "Terms and conditions for Edena, the school management platform: sign-up, plans and payments, each party's obligations, data and support.",
@@ -3981,7 +3981,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
         trademarks:
             "The brands mentioned belong to their respective owners, who are not affiliated with Edena and do not sponsor this comparison.",
         hub: {
-            metaTitle: "Edena vs alternatives: school software comparison | Edena",
+            metaTitle: "Edena vs alternatives: school software comparison",
             metaDescription:
                 "Edena against TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia and Dinantia: 17 criteria compared with public sources. Each criterion, with its source.",
             eyebrow: "School software comparison",

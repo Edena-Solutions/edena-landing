@@ -1,5 +1,6 @@
 ---
 title: "Dashboards educativos para mejorar métricas académicas y financieras"
+seoTitle: "Dashboards educativos: métricas académicas y financieras"
 date: "2026-02-27"
 translationKey: "dashboards-educativos-metricas"
 description: "Un dashboard educativo concentra en una sola vista indicadores clave de gestión: cobro, retención, asistencia, ocupación y, si aplica, resultados académicos."
@@ -134,7 +135,7 @@ tasa de asistencia por grupo o centro, alumnos con X faltas (riesgo de absentism
 
 <br>
 
-envíte realizados, tasas de apertura o lectura si el canal lo permite.
+envíos realizados, tasas de apertura o lectura si el canal lo permite.
 
 <br>
 

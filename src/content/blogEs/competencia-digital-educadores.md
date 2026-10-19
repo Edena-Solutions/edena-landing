@@ -1,5 +1,6 @@
 ---
 title: "Competencia digital para educadores: Preparando a los profesores del futuro"
+seoTitle: "Competencia digital docente: lo que necesita el profesorado"
 date: "2024-09-30"
 translationKey: "competencia-digital-educadores"
 description: "Descubre las competencias digitales esenciales que los educadores necesitan para preparar a sus estudiantes para el mundo digital."
@@ -81,7 +82,7 @@ Los profesores deben saber usar plataformas de comunicación para mantener infor
 
 Los educadores deben desarrollar su propio pensamiento crítico sobre la tecnología y ser capaces de enseñar a sus estudiantes a navegar críticamente en el mundo digital. Esto incluye la capacidad de evaluar la calidad y credibilidad de la información en línea.
 
-Los profesores deben entender los sesgos algorítmicos, la desinformación, y los desafíte éticos de la tecnología digital. Deben ser capaces de enseñar a sus estudiantes a ser consumidores críticos y creadores responsables de contenido digital.
+Los profesores deben entender los sesgos algorítmicos, la desinformación, y los desafíos éticos de la tecnología digital. Deben ser capaces de enseñar a sus estudiantes a ser consumidores críticos y creadores responsables de contenido digital.
 
 <br>
 

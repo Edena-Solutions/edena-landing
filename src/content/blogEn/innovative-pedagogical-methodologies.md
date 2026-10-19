@@ -1,8 +1,9 @@
 ---
 title: "Innovative pedagogical methodologies: Transforming the teaching-learning process"
+seoTitle: "Innovative teaching methodologies for the classroom"
 date: "2025-08-10"
 translationKey: "metodologias-pedagogicas-innovadoras"
-description: "The educational landscape is undergoing a fundamental transformation in its pedagogical approaches."
+description: "Which innovative teaching methodologies are complementing traditional instruction, and how to start applying them in your school's classrooms."
 tags:
     - "pedagogical methodologies"
     - "educational innovation"

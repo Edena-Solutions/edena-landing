@@ -1,8 +1,9 @@
 ---
 title: "Ebaluazioa eta assessment digitala hezkuntza modernoan: tresnak eta estrategiak"
+seoTitle: "Ebaluazio digitala hezkuntzan: tresnak eta estrategiak"
 date: "2025-08-20"
 translationKey: "evaluacion-assessment-digital-educativo"
-description: "Tresna digitalek eraldaketa hori ahalbidetu dute, denbora errealean datuak biltzea, analisi automatizatua eta informazio konplexuaren aurkezpen bisuala ahalbidetuz."
+description: "Nola aldatzen duen ebaluazio digitalak ikaskuntzaren datuak neurtzeko, aztertzeko eta erabiltzeko modua, zentroarentzako tresna eta estrategiekin."
 tags:
     - "evaluación digital"
     - "assessment"

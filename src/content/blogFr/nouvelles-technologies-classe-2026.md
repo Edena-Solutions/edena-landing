@@ -1,8 +1,9 @@
 ---
 title: "Nouvelles technologies en classe 2026 : transformer l’expérience éducative"
+seoTitle: "Nouvelles technologies en classe en 2026"
 date: "2026-01-29"
 translationKey: "nuevas-tecnologias-aula-2026"
-description: "L’année 2026 marque un avant et un après dans la façon dont nous enseignons et apprenons dans les classes d’espagnol."
+description: "Comment l'enseignement change dans les classes espagnoles en 2026, avec le plan DigEdu qui équipe plus de 240 000 salles de systèmes numériques interactifs."
 tags:
     - "technologie éducative"
     - "classe numérique"

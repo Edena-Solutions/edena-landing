@@ -2,7 +2,7 @@
 title: "Digitalizazioak ikasleen atxikipenean duen eragina"
 date: "2026-02-07"
 translationKey: "digitalizacion-retencion-alumnos"
-description: "Eskola atxikipena ez da hezkuntza-proiektuaren araberakoa bakarrik: administrazio-esperientzia eta familiekin komunikazioak zuzenean eragiten du berritu edo beste aukeraren bat bilatzen."
+description: "Administrazio-esperientziak eta familiekiko komunikazioak eragina dute matrikula berritzeko edo beste zentro bat bilatzeko erabakian. Nola zaindu."
 tags:
     - "eskola atxikipena"
     - "digitalizazioa"

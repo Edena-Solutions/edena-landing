@@ -1,8 +1,9 @@
 ---
 title: "Móviles en el centro: cómo escribir la política de dispositivos que la ley va a exigirte"
+seoTitle: "Política de móviles en el centro: cómo redactarla"
 date: "2026-08-14"
 translationKey: "politica-uso-dispositivos-moviles-centros-educativos-2026"
-description: "La Ley de Protección de Menores en Entornos Digitales obligará a cada centro a regular el uso de dispositivos y sube el consentimiento de datos de 14 a 16 años. Qué apartados debe tener el documento y cómo comunicarlo a las familias."
+description: "La Ley de Protección de Menores en Entornos Digitales obligará a regular los dispositivos. Qué debe incluir la política y cómo comunicarla a las familias."
 tags: ["dispositivos móviles", "protección de menores", "normativa", "convivencia", "consentimiento"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?q=80&w=820&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

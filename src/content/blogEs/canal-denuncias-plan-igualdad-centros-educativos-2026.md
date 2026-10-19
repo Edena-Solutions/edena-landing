@@ -1,8 +1,9 @@
 ---
 title: "El centro como empleador: canal de denuncias, plan de igualdad y las obligaciones que nadie mira"
+seoTitle: "El centro como empleador: canal de denuncias e igualdad"
 date: "2026-08-26"
 translationKey: "canal-denuncias-plan-igualdad-centros-educativos-2026"
-description: "Todo el mundo mira LOPIVI y protección de datos. Casi nadie mira las obligaciones del centro como organización empleadora: canal de denuncias de la Ley 2/2023, plan de igualdad, registro de jornada y cómo encajan entre sí."
+description: "Canal de denuncias de la Ley 2/2023, plan de igualdad y registro de jornada: las obligaciones del centro como empleador y cómo encajan entre sí."
 tags: ["canal de denuncias", "plan de igualdad", "cumplimiento", "recursos humanos", "titularidad"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1490127252417-7c393f993ee4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

@@ -39,6 +39,9 @@ const blogFaqSchema = z.array(
 
 const blogPostSchema = z.object({
     title: z.string(),
+    // Shorter title for <title> and social cards (about 60 characters, so search results do not
+    // cut it). The full `title` stays the H1. Only set when `title` is longer.
+    seoTitle: z.string().optional(),
     date: z.string(),
     // Shared across the five language versions of the same article so the
     // build can emit cross-language hreflang. Value is the Spanish slug.

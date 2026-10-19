@@ -16,7 +16,6 @@ relatedPosts:
     - comparativa-programari-gestio-escolar-2026
     - checklist-software-escolar-director-2026
     - millor-programari-gestio-escolar
-    - triar-programari-gestio-escolar
 faqs:
     - question: "Verifactu és ja obligatori per a escoles infantils?"
       answer: "L‟obligació i el calendari la defineix la normativa fiscal i el calendari d‟implantació; consulta amb el teu assessor fiscal. El que sí que has d'exigir al proveïdor és claredat sobre com suporta la facturació electrònica, en quin termini, i quin acompanyament ofereix per a la transició."
@@ -27,7 +26,7 @@ faqs:
     - question: "Quan triga a estar operativa la plataforma?"
       answer: "Depèn del volum de dades, la complexitat del centre i el nivell de personalització. A centres de fins a 150 places, un pilot bàsic pot estar actiu en quatre a sis setmanes amb migració i formació incloses, si hi ha dedicació d'un responsable intern."
     - question: "Val la pena el mòdul d'extraescolars si tenim poques activitats?"
-      answer: "Si les activitats generen cobraments propis i tenen places limitades, el mòdul evita la gestió per correu electrònic i el circuit paral·lel de full dinscripció. Si només tens una activitat amb inscripció lliure i sense cobrament, avalua si el cost del mòdul compensa."
+      answer: "Si les activitats generen cobraments propis i tenen places limitades, el mòdul evita la gestió per correu electrònic i el circuit paral·lel de full d'inscripció. Si només tens una activitat amb inscripció lliure i sense cobrament, avalua si el cost del mòdul compensa."
 ---
 
 <strong>Què ha de tenir un ERP per a escoles infantils el 2026</strong>
@@ -90,7 +89,7 @@ El preu per alumne o per plaça només és la primera capa. Afegeix: cost de mig
 
 <br>
 
-- **Places i ràtios:** Control docupació per aula i compliment normatiu.
+- **Places i ràtios:** Control d'ocupació per aula i compliment normatiu.
 - **Menús i al·lèrgies:** Integrats en expedient i comunicació diària amb famílies.
 - **Autoritzacions de recollida:** Persones autoritzades actualitzables sense paper a recepció.
 - **Facturació per jornada:** Mitja jornada, menjador, matiners amb tarifes diferenciades.

@@ -1,8 +1,9 @@
 ---
 title: "Hezkuntza-arbelak neurri akademikoak eta finantzarioak hobetzeko"
+seoTitle: "Hezkuntza-panelak: adierazle akademiko eta finantzarioak"
 date: "2026-02-27"
 translationKey: "dashboards-educativos-metricas"
-description: "Hezkuntza dashboard-k kudeaketa-adierazleak ikuspegi bakarrean biltzen ditu: bilketa, atxikipena, asistentzia, okupazioa eta, hala badagokio, emaitza akademikoak."
+description: "Hezkuntza-panel batek kudeaketa-adierazleak ikuspegi bakarrean biltzen ditu: kobroak, atxikipena, asistentzia, okupazioa eta emaitza akademikoak."
 tags:
     - "dashboard hezkuntza-neurriak"
     - "datuak"

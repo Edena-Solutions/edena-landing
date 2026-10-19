@@ -1,5 +1,6 @@
 ---
 title: "IA chatbota familientzat: 24/7 arreta ikastetxe eta akademietan 2026an"
+seoTitle: "IA chatbota familientzat ikastetxe eta akademietan"
 date: "2026-06-29"
 translationKey: "chatbot-ia-atencion-familias-colegios-2026"
 description: "Nola IA chatbot batek familien ohiko zalantzak 24/7 artatu ditzakeen, idazkaritza arindu eta esperientzia hobetu tratu humanoa galdu gabe 2026an."

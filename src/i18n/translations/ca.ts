@@ -737,10 +737,10 @@ export default {
             "App escolar gratuïta per a famílies i professors a iOS i Android: avisos al mòbil, fotos segures, signatura de documents, notes i factures en un sol lloc.",
         demoTitle: "Demo Gratuïta del Programari de Gestió Escolar | Edena",
         demoDescription:
-            "Demostració de 15 minuts, preparada per al teu col·legi, escola infantil, acadèmia o grup. Sense compromís.",
+            "Demostració de 15 minuts d'Edena, preparada amb les dades d'un centre com el teu: col·legi, escola infantil, acadèmia o grup. Sense compromís.",
         financeTitle: "Facturació Escolar amb Verifactu | Cobraments SEPA | Edena",
         financeDescription:
-            "Facturació escolar automàtica adaptada a Verifactu: rebuts, domiciliacions SEPA i control d'impagaments en temps real. El teu equip deixa de perseguir cobraments.",
+            "Facturació escolar automàtica adaptada a Verifactu: rebuts, domiciliacions SEPA i control d'impagaments en temps real, sense perseguir cobraments.",
         guardiansTitle: "Portal de famílies per a col·legis | Comunicació centre-família | Edena",
         guardiansDescription:
             "Dóna a les famílies accés en temps real a notes, assistència, factures i novetats del centre. Missatgeria segura i signatura digital de documents. Incorporació de famílies en minuts.",
@@ -761,7 +761,7 @@ export default {
             "Com protegeix Edena les dades d'alumnes, famílies i centres: què tractem, per a què, quant de temps les conservem i com pots exercir els teus drets.",
         deleteAccountTitle: "Eliminar compte i dades | Edena",
         deleteAccountDescription:
-            "Com sol·licitar l'eliminació del teu compte i les teves dades personals a Edena, amb o sense accés a l'aplicació.",
+            "Com sol·licitar l'eliminació del teu compte i de les teves dades personals a Edena, tant si pots entrar a l'aplicació com si ja no hi tens accés.",
         termsTitle: "Termes del servei | Programa de gestió escolar Edena",
         termsDescription:
             "Termes i condicions d'ús d'Edena, la plataforma de gestió escolar: contractació, plans i pagaments, obligacions de les parts, dades i suport.",
@@ -3468,7 +3468,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             ],
         },
         shop: {
-            metaTitle: "Botiga en Línia per a Col·legis | Uniformes i Material | Edena",
+            metaTitle: "Botiga en Línia per a Col·legis | Uniformes · Edena",
             metaDescription:
                 "Ven uniformes, material i serveis des d'una botiga en línia integrada a l'app del teu centre. Cobraments automàtics i estoc al dia, sense comissions ocultes.",
             navTitle: "Botiga",
@@ -4005,7 +4005,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         trademarks:
             "Les marques citades pertanyen als seus respectius titulars, que no estan associats amb Edena ni patrocinen aquesta comparativa.",
         hub: {
-            metaTitle: "Edena vs alternatives: comparativa de programari escolar | Edena",
+            metaTitle: "Edena vs alternatives: comparativa de programari escolar",
             metaDescription:
                 "Edena davant TokApp, Clickedu, LiveKid, SM Educamos, Alexia, Esemtia i Dinantia: 17 criteris comparats amb fonts públiques. Cada criteri, amb la seva font.",
             eyebrow: "Comparativa de programari escolar",

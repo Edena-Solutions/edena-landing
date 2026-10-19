@@ -2,7 +2,7 @@
 title: "Comment l'automatisation réduit l'absentéisme scolaire"
 date: "2026-02-10"
 translationKey: "automatizacion-absentismo-escolar"
-description: "L'absentéisme scolaire ne se résout pas uniquement par la réglementation : cela nécessite une inscription fiable, une détection précoce et une communication agile avec les familles."
+description: "L'absentéisme ne se règle pas seulement par le règlement : il faut un relevé fiable, une détection précoce et une communication rapide avec les familles."
 tags:
     - "automation"
     - "école buissonnière"

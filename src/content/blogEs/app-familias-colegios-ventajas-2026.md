@@ -1,5 +1,6 @@
 ---
 title: "App para familias en colegios: ventajas reales para dirección y padres"
+seoTitle: "App para familias en colegios: ventajas reales"
 date: "2026-04-05"
 translationKey: "app-familias-colegios-ventajas-2026"
 description: "Una app y un portal no son un adorno de imagen: son el canal donde fechas, pagos, avisos y documentos conviven con trazas."
@@ -56,7 +57,7 @@ Pagar, consultar el expediente, firmar una autorización, notificar una ausencia
 
 <br>
 
-<strong>Básica o Pro: cómo elegir sin tirar dinero en módulos vacíte</strong>
+<strong>Básica o Pro: cómo elegir sin tirar dinero en módulos vacíos</strong>
 
 <br>
 

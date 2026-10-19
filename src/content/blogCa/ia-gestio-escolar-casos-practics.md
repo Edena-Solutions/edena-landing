@@ -2,7 +2,7 @@
 title: "Intel·ligència artificial a l'administració escolar"
 date: "2026-02-19"
 translationKey: "ia-gestion-escolar-casos-practicos"
-description: "La intel·ligència artificial en la gestió escolar no és només un tema de debat: ja s'aplica a tasques administratives, a la detecció de patrons i al suport a la decisió."
+description: "La intel·ligència artificial ja s'aplica a la gestió escolar: tasques administratives, detecció de patrons i suport a la decisió. Casos pràctics."
 tags:
     - "IA gestió escolar"
     - "intel·ligència artificial"
@@ -21,7 +21,7 @@ faqs:
     - question: "Necessitem moltes dades per utilitzar IA?"
       answer: "Depèn del cas. Per a regles d'alerta (llindars de faltes, impagaments) n'hi ha prou amb dades operatives. Per a models predictius (risc d'impagament o baixa) sol fer falta historial d'almenys un o dos anys."
     - question: "Què passa amb la protecció de dades i la IA?"
-      answer: "Les dades han de tractar-se amb base legal i mesures de seguretat. Si el proveïdor processa dades per entrenar models, el contracte l'ha de regular i assegurar que no s'utilitzen per a fins no autoritzats. La transparència amb les famílies sobre lús de dades és important."
+      answer: "Les dades han de tractar-se amb base legal i mesures de seguretat. Si el proveïdor processa dades per entrenar models, el contracte l'ha de regular i assegurar que no s'utilitzen per a fins no autoritzats. La transparència amb les famílies sobre l'ús de dades és important."
     - question: "Podem començar sense un departament tècnic?"
       answer: "Sí. Moltes solucions d'IA en gestió escolar estan integrades en programari de gestió (alertes, priorització, plantilles). El centre no ha de fer models; sí que ha de definir objectius i supervisar resultats."
     - question: "Com triar un proveïdor d'IA per a la gestió escolar?"
@@ -32,7 +32,7 @@ faqs:
 
 <br>
 
-La intel·ligència artificial en la gestió escolar no és només un tema de debat: ja s'aplica a tasques administratives, a la detecció de patrons i al suport a la decisió. Aquest article recull casos pràctics reals perquè directius i equips dadministració valorin on la IA pot aportar valor sense substituir el criteri humà.
+La intel·ligència artificial en la gestió escolar no és només un tema de debat: ja s'aplica a tasques administratives, a la detecció de patrons i al suport a la decisió. Aquest article recull casos pràctics reals perquè directius i equips d'administració valorin on la IA pot aportar valor sense substituir el criteri humà.
 
 <br>
 
@@ -40,7 +40,7 @@ La intel·ligència artificial en la gestió escolar no és només un tema de de
 
 <br>
 
-En el context d'un centre educatiu, la IA en gestió escolar fa referència a l'ús de sistemes que aprenen de dades o segueixen regles avançades per automatitzar tasques, classificar informació, predir resultats o suggerir accions. No reemplaça les persones; complementa la capacitat de lequip per prioritzar i actuar amb més informació.
+En el context d'un centre educatiu, la IA en gestió escolar fa referència a l'ús de sistemes que aprenen de dades o segueixen regles avançades per automatitzar tasques, classificar informació, predir resultats o suggerir accions. No reemplaça les persones; complementa la capacitat de l'equip per prioritzar i actuar amb més informació.
 
 <br>
 
@@ -128,7 +128,7 @@ Un col·legi va provar diferents moments i canals (email, SMS) per a recordatori
 - **Esborranys de circulars:** L'equip revisa i publica; no enviament automàtic sense humà.
 - **Classificació d'incidències:** Enrutar administració, tutoria o direcció segons tipus.
 - **Alertes de morositat predictiva:** Assenyalar famílies en risc abans de l'impagament crònic.
-- **FAQ interna per a secretaria:** Respostes sobre procediments sense exportar dades personals fora de lentorn contractat.
+- **FAQ interna per a secretaria:** Respostes sobre procediments sense exportar dades personals fora de l'entorn contractat.
 
 <br>
 
@@ -136,7 +136,7 @@ Un col·legi va provar diferents moments i canals (email, SMS) per a recordatori
 
 <br>
 
-1. La IA en gestió escolar automatitza i prioritza; no substitueix la decisió final de lequip.
+1. La IA en gestió escolar automatitza i prioritza; no substitueix la decisió final de l'equip.
 2. Casos amb més impacte: cobrament, retenció, consultes freqüents i informes.
 3. La qualitat de les dades és condició prèvia per a resultats útils.
 4. Sempre hi ha d'haver supervisió humana i formació de l'equip.

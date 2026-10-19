@@ -1,5 +1,6 @@
 ---
 title: "Programari de gestió per a acadèmies de reforç i extraescolars"
+seoTitle: "Programari per a acadèmies de reforç i extraescolars"
 date: "2026-05-13"
 translationKey: "software-gestion-academias-refuerzo-2026"
 description: "Què necessita un programari per a acadèmies de reforç escolar i extraescolars: horaris, assistència, cobraments per blocs i comunicació amb famílies el 2026."

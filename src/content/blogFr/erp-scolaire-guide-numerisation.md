@@ -1,5 +1,6 @@
 ---
 title: "ERP scolaire : le guide complet pour numériser la gestion de votre établissement"
+seoTitle: "ERP scolaire : guide pour numériser la gestion"
 date: "2026-02-28"
 translationKey: "erp-escolar-guia-digitalizacion"
 description: "ERP scolaire et logiciel de gestion pour les écoles : guide pratique pour numériser la facturation, les familles, les dossiers et les processus administratifs."

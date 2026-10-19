@@ -1,8 +1,9 @@
 ---
 title: "Free 0-3 childcare: managing subsidised places without breaking your cash flow"
+seoTitle: "Free 0-3 childcare: subsidised places without cash gaps"
 date: "2026-08-05"
 translationKey: "gratuidad-0-3-escuelas-infantiles-plazas-subvencionadas-2026"
-description: "Andalusia approves fully free 0-3 schooling for 2026-2027 and other regions expand places. How billing changes in a nursery when subsidised places, add-on services and private fees all coexist."
+description: "How nursery billing changes when subsidised places, add-on services and private fees coexist, as free 0-3 schooling expands across Spain."
 tags: ["nurseries", "free childcare", "subsidies", "billing", "early years"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1634757439914-23b8acb9d411?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

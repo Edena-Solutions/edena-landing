@@ -1,8 +1,9 @@
 ---
 title: "Agents d'IA au secrétariat : de l'assistant qui suggère au système qui exécute"
+seoTitle: "Agents d'IA au secrétariat scolaire : ce qu'ils font déjà"
 date: "2026-08-18"
 translationKey: "agentes-ia-secretaria-escolar-automatizacion-2026"
-description: "L'IA agentique est la tendance technologique numéro un de 2026. Ce qui distingue un agent d'un assistant, trois flux de secrétariat déjà délégables et là où une personne doit continuer à décider."
+description: "Ce qui distingue un agent d'IA d'un assistant, trois flux de secrétariat déjà délégables et là où une personne doit continuer à décider."
 tags:
     ["agents d'IA", "automatisation", "secrétariat", "flux de travail", "intelligence artificielle"]
 author: "ENA by Edena"

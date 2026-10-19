@@ -1,5 +1,6 @@
 ---
 title: "Retenció d'estudiants a l'era digital: Estratègies que funcionen"
+seoTitle: "Retenció d'estudiants: estratègies que funcionen"
 date: "2024-11-28"
 translationKey: "retencion-estudiantes-era-digital"
 description: "Descobreix com pot ajudar la tecnologia a millorar la retenció d'estudiants i crear experiències educatives més atractives i personalitzades."
@@ -33,9 +34,9 @@ La retenció d'estudiants és un dels desafiaments més crítics que enfronten e
 
 <br>
 
-Els estudiants d'avui tenen expectatives diferents de les de generacions anteriors. Han crescut en un món digital on la informació està disponible instantàniament, la personalització és la norma, i lexperiència de lusuari és fonamental. Els centres educatius que no adapten les estratègies de retenció a aquestes noves expectatives s'arrisquen a perdre estudiants.
+Els estudiants d'avui tenen expectatives diferents de les de generacions anteriors. Han crescut en un món digital on la informació està disponible instantàniament, la personalització és la norma, i l'experiència de l'usuari és fonamental. Els centres educatius que no adapten les estratègies de retenció a aquestes noves expectatives s'arrisquen a perdre estudiants.
 
-Els factors que influeixen en la retenció inclouen la qualitat de lexperiència educativa, la rellevància del contingut, la flexibilitat dels horaris, el suport personalitzat, i la connectivitat amb la comunitat educativa. La tecnologia pot abordar cadascun d‟aquests factors de manera efectiva.
+Els factors que influeixen en la retenció inclouen la qualitat de l'experiència educativa, la rellevància del contingut, la flexibilitat dels horaris, el suport personalitzat, i la connectivitat amb la comunitat educativa. La tecnologia pot abordar cadascun d‟aquests factors de manera efectiva.
 
 <br>
 
@@ -45,7 +46,7 @@ Els factors que influeixen en la retenció inclouen la qualitat de lexperiència
 
 La personalització és clau per mantenir els estudiants compromesos. Els sistemes digitals poden analitzar el progrés de cada estudiant i adaptar el contingut educatiu a les necessitats específiques, interessos i estil d'aprenentatge.
 
-Els algoritmes daprenentatge automàtic poden identificar patrons en el comportament de lestudiant, detectar àrees on necessita suport addicional, i suggerir recursos personalitzats. Aquesta personalització no només millora el rendiment acadèmic, sinó que també augmenta la satisfacció de l'estudiant i el compromís amb el centre.
+Els algoritmes d'aprenentatge automàtic poden identificar patrons en el comportament de l'estudiant, detectar àrees on necessita suport addicional, i suggerir recursos personalitzats. Aquesta personalització no només millora el rendiment acadèmic, sinó que també augmenta la satisfacció de l'estudiant i el compromís amb el centre.
 
 <br>
 
@@ -73,7 +74,7 @@ Els fòrums de discussió, grups d'estudis virtuals i xarxes socials educatives 
 
 <br>
 
-La gamificació utilitza elements de joc per fer laprenentatge més atractiu i motivador. Els sistemes poden incloure badges, punts, nivells i competències que incentivin la participació i el progrés.
+La gamificació utilitza elements de joc per fer l'aprenentatge més atractiu i motivador. Els sistemes poden incloure badges, punts, nivells i competències que incentivin la participació i el progrés.
 
 Els estudiants poden guanyar punts per completar tasques, participar en discussions, o ajudar altres companys. Els líders poden ser reconeguts públicament, creant un sentit d'èxit i pertinença. La gamificació també pot incloure desafiament grupals que fomentin la col·laboració i el treball en equip.
 
@@ -85,7 +86,7 @@ Els estudiants poden guanyar punts per completar tasques, participar en discussi
 
 Els estudiants d'avui valoren la flexibilitat en les opcions educatives. La tecnologia permet oferir múltiples modalitats d'aprenentatge: presencial, híbrida i completament virtual. Aquesta flexibilitat pot ser crucial per a estudiants que tenen responsabilitats laborals, familiars o de salut.
 
-Els sistemes de gestió daprenentatge permeten que els estudiants accedeixin al contingut educatiu en qualsevol moment i des de qualsevol lloc. Els enregistraments de classes, materials digitals, i recursos multimèdia estan disponibles 24/7, permetent que els estudiants aprenguin al seu ritme.
+Els sistemes de gestió d'aprenentatge permeten que els estudiants accedeixin al contingut educatiu en qualsevol moment i des de qualsevol lloc. Els enregistraments de classes, materials digitals, i recursos multimèdia estan disponibles 24/7, permetent que els estudiants aprenguin al seu ritme.
 
 <br>
 
@@ -93,7 +94,7 @@ Els sistemes de gestió daprenentatge permeten que els estudiants accedeixin al 
 
 <br>
 
-Els sistemes danàlisi predictiva poden identificar estudiants en risc dabandonament abans que sigui evident. Aquests sistemes analitzen múltiples factors: assistència, rendiment acadèmic, participació en activitats i comportament en plataformes digitals.
+Els sistemes d'anàlisi predictiva poden identificar estudiants en risc d'abandonament abans que sigui evident. Aquests sistemes analitzen múltiples factors: assistència, rendiment acadèmic, participació en activitats i comportament en plataformes digitals.
 
 Quan es detecta un estudiant en risc, el sistema pot activar automàticament intervencions personalitzades. Aquestes poden incloure contactes proactius de consellers, ofertes de tutoria addicional, o ajustaments al pla d'estudis. La intervenció primerenca pot prevenir l'abandó en molts casos.
 
@@ -125,7 +126,7 @@ Els estudiants poden programar cites en línia, accedir a recursos d'autoajuda i
 
 És fonamental mesurar l'efectivitat de les estratègies de retenció. Els centres han d'establir mètriques clares com taxes de retenció, satisfacció de l'estudiant i temps fins a l'abandó. Aquestes mètriques han de ser monitorades regularment i utilitzades per refinar les estratègies.
 
-Els sistemes danàlisi poden proporcionar insights detallats sobre quines estratègies són més efectives per a diferents grups destudiants. Aquesta informació pot ser utilitzada per personalitzar encara més les intervencions i millorar-ne els resultats.
+Els sistemes d'anàlisi poden proporcionar insights detallats sobre quines estratègies són més efectives per a diferents grups d'estudiants. Aquesta informació pot ser utilitzada per personalitzar encara més les intervencions i millorar-ne els resultats.
 
 <br>
 

@@ -1,5 +1,6 @@
 ---
 title: "Com triar programari escolar sense equivocar-te: checklist per a directors"
+seoTitle: "Com triar programari escolar: checklist per a directors"
 date: "2026-04-20"
 translationKey: "elegir-software-escolar-checklist-directores-2026"
 description: "Triar el programari de gestió del teu centre és una de les decisions més costoses de revertir: no en preu de llicència, sinó en temps."
@@ -15,7 +16,6 @@ cover: "https://images.unsplash.com/photo-1661732017132-28b644cbcf9c?q=80&w=687&
 relatedPosts:
     - comparativa-programari-gestio-escolar-2026
     - millor-programari-gestio-escolar
-    - triar-programari-gestio-escolar
     - erp-escolar-guia-digitalitzacio
 faqs:
     - question: "Quant de temps porta un procés de canvi de programari complet?"
@@ -54,7 +54,7 @@ La majoria dels centres comença buscant “el millor programari escolar” sens
 
 <br>
 
-- Expedient digital unificat amb dades dalumne, tutors, historial i grups.
+- Expedient digital unificat amb dades d'alumne, tutors, historial i grups.
 - Facturació recurrent amb rebuts, domiciliació, historial de cobrament i gestió d'impagaments.
 - Portal o app per a famílies amb autogestió bàsica (accés a expedient, pagaments, comunicació bàsica).
 - Onboarding i suport documentat: no pots dependre d'un sol tècnic per fer servir la teva pròpia eina.
@@ -82,7 +82,7 @@ La majoria dels centres comença buscant “el millor programari escolar” sens
 - Com s'exporten les meves dades si decideixo canviar de proveïdor en dos anys?
 - Què passa si hi ha un error en un rebut ja enviat: com es rectifica sense trencar la numeració?
 - On és el pla de migració detallat per fases: dades mestres, històric, documents?
-- Quants usuaris simultanis té suport avui? La resposta és 24/7 o en horari doficina?
+- Quants usuaris simultanis té suport avui? La resposta és 24/7 o en horari d'oficina?
 - Quins mòduls estan inclosos al preu base i quins tenen cost addicional?
 
 <br>
@@ -120,7 +120,7 @@ En la majoria dels casos, un sistema aparentment més barat que obliga dues inte
 
 <br>
 
-Setmana 1: inventari de frecs i criteris propis. Setmana 2: shortlist de tres proveïdors, primera demo amb catàleg. Setmana 3: demo en profunditat amb dades pròpies als dos finalistes. Setmana 4: càlcul de TCO, revisió de contracte (portabilitat de dades, clàusules de sortida, suport) i decisió. Pilot: arrenca amb el procés de més fricció, mesura a noranta dies i després expandeix. No compris set mòduls si només en pots activar dos bé en els primers tres mesos: el programari buit dús no és inversió, és cost.
+Setmana 1: inventari de frecs i criteris propis. Setmana 2: shortlist de tres proveïdors, primera demo amb catàleg. Setmana 3: demo en profunditat amb dades pròpies als dos finalistes. Setmana 4: càlcul de TCO, revisió de contracte (portabilitat de dades, clàusules de sortida, suport) i decisió. Pilot: arrenca amb el procés de més fricció, mesura a noranta dies i després expandeix. No compris set mòduls si només en pots activar dos bé en els primers tres mesos: el programari buit d'ús no és inversió, és cost.
 
 <br>
 
@@ -145,7 +145,7 @@ Setmana 1: inventari de frecs i criteris propis. Setmana 2: shortlist de tres pr
 - **Facturació i morositat (0-5):** Emet rebuts recurrents, concilia pagaments i mostra antiguitat de deute sense Excel? Permet recordatoris esglaonats i traçabilitat d'adobs?
 - **Portal familiar (0-5):** La família consulta estat, autoritza sortides i paga sense trucar a secretaria? Hi ha confirmació de lectura en avisos crítics?
 - **CRM i admissió (0-5):** Pipeline amb etapes, origen del lead i seguiment a 48 h? Connecta reserva amb primer cobrament?
-- **Expedient (0-5):** Dades dalumne, tutors, NEAE i documents centralitzats amb permisos per rol?
+- **Expedient (0-5):** Dades d'alumne, tutors, NEAE i documents centralitzats amb permisos per rol?
 - **Automatització (0-5):** Regles per a recordatoris, onboarding i tasques repetitives sense multiplicar fulls de ruta a mà?
 - **Seguretat i LOPDGDD (0-5):** Contracte d'encàrrec, rols, registre d'accessos i subprocessadors documentats?
 - **Suport i implantació (0-5):** Pla de migració per fases, formació i suport en horari crític (setembre)?

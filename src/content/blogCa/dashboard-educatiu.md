@@ -1,5 +1,6 @@
 ---
 title: "Dashboard educatiu: El centre de control per a la gestió estratègica"
+seoTitle: "Dashboard educatiu: el centre de control de la gestió"
 date: "2025-02-25"
 translationKey: "dashboard-educativo"
 description: "A l'era de la informació, els centres educatius necessiten eines de gestió que proporcionin visibilitat total sobre totes les operacions."
@@ -54,7 +55,7 @@ Els directors i administradors s'enfrontaven al desafiament de prendre decisions
 
 Els dashboards educatius moderns resolen aquests problemes proporcionant una vista unificada i en temps real de totes les operacions del centre. Aquests sistemes integren dades de múltiples fonts i les presenten de manera visual i intuïtiva, permetent que cada nivell de gestió vegi exactament la informació que necessita per al seu rol específic.
 
-Els directors poden accedir a mètriques clau de rendiment organitzacional, analitzar tendències dinscripció, avaluar indicadors de satisfacció de famílies i consultar dades financeres consolidades. Aquesta visió executiva facilita la presa de decisions estratègiques informades sobre el futur del centre.
+Els directors poden accedir a mètriques clau de rendiment organitzacional, analitzar tendències d'inscripció, avaluar indicadors de satisfacció de famílies i consultar dades financeres consolidades. Aquesta visió executiva facilita la presa de decisions estratègiques informades sobre el futur del centre.
 
 Els administradors tenen la capacitat de monitoritzar la situació financera en temps real, gestionar recursos humans, controlar-ne el compliment normatiu i optimitzar processos administratius. Aquesta visibilitat operativa permet identificar ineficiències i oportunitats de millora de manera proactiva.
 
@@ -66,7 +67,7 @@ Els coordinadors acadèmics poden consultar mètriques específiques de les seve
 
 <br>
 
-Els dashboards estratègics se centren en mètriques que realment importen per a lèxit del centre. Entre aquestes destaquen les mètriques de creixement, com ara les taxes d'inscripció, la retenció d'estudiants i l'expansió de programes; els indicadors de qualitat, que inclouen la satisfacció de famílies, els resultats acadèmics generals i les acreditacions; les mètriques financeres, com ara el flux de caixa, la rendibilitat per programa i l'eficiència operativa; i els indicadors deficiència, que abasten la utilització de recursos, la productivitat del personal i els costos per estudiant.
+Els dashboards estratègics se centren en mètriques que realment importen per a l'èxit del centre. Entre aquestes destaquen les mètriques de creixement, com ara les taxes d'inscripció, la retenció d'estudiants i l'expansió de programes; els indicadors de qualitat, que inclouen la satisfacció de famílies, els resultats acadèmics generals i les acreditacions; les mètriques financeres, com ara el flux de caixa, la rendibilitat per programa i l'eficiència operativa; i els indicadors d'eficiència, que abasten la utilització de recursos, la productivitat del personal i els costos per estudiant.
 
 Els dashboards també monitoregen la salut general del centre a través de la satisfacció del personal, mesurada mitjançant enquestes de clima laboral, retenció d'empleats i desenvolupament professional. A més, controlen el compliment normatiu i avalua l'estat d'acreditacions, el compliment fiscal i les regulacions educatives. Per acabar, la gestió de riscos s'aborda mitjançant la identificació de riscos operatius, financers i reputacionals.
 
@@ -78,7 +79,7 @@ Els dashboards també monitoregen la salut general del centre a través de la sa
 
 Els dashboards moderns no només mostren informació, sinó que també actuen com a sistemes d'alerta estratègica. Quan una mètrica es desvia dels paràmetres establerts, el sistema pot enviar notificacions automàtiques als responsables corresponents.
 
-Per exemple, si les taxes dinscripció cauen per sota dels objectius, el sistema alerta automàticament al director de màrqueting i admissions. Si els indicadors de satisfacció mostren tendències negatives, es notifica al director de qualitat per prendre mesures correctives.
+Per exemple, si les taxes d'inscripció cauen per sota dels objectius, el sistema alerta automàticament al director de màrqueting i admissions. Si els indicadors de satisfacció mostren tendències negatives, es notifica al director de qualitat per prendre mesures correctives.
 
 Els sistemes detecten desviacions en el flux de caixa, els costos operatius o la rendibilitat per programa, permetent intervencions primerenques abans que els problemes s'agreugin.
 
@@ -90,7 +91,7 @@ Els dashboards supervisen el compliment de normatives educatives, fiscals i labo
 
 <br>
 
-Els dashboards educatius més avançats inclouen capacitats danàlisi predictiva que identifiquen tendències i fan prediccions sobre el futur del centre.
+Els dashboards educatius més avançats inclouen capacitats d'anàlisi predictiva que identifiquen tendències i fan prediccions sobre el futur del centre.
 
 Aquests sistemes analitzen patrons històrics d'inscripció per anticipar futures tendències, cosa que permet una planificació més efectiva de recursos i programes.
 
@@ -166,7 +167,7 @@ Un operatiu mensual per a adreça; evita duplicar l'Excel.
 
 <br>
 
-- **Ocupació de places:** % per curs i llista despera actualitzada.
+- **Ocupació de places:** % per curs i llista d'espera actualitzada.
 - **Morositat a 30 dies:** Import i antiguitat; no només taxa global.
 - **Absentisme del mes:** Per curs amb llindar d´alerta.
 - **Sol·licituds obertes:** Pipeline d´admissió i conversió del mes.

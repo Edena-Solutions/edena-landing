@@ -1,5 +1,6 @@
 ---
 title: "Nola hobetu familiekin komunikazioa plataforma digital bakar batetik"
+seoTitle: "Familiekiko komunikazioa plataforma digital bakarretik"
 date: "2026-03-01"
 translationKey: "comunicacion-colegio-familias-plataforma-digital"
 description: "Mezu elektronikoetan, WhatsApp taldeetan eta paperetan sakabanatutako eskola-familia komunikazioak kaosa, gaizki-ulertuak eta esperientzia txarra sortzen ditu."

@@ -1,8 +1,9 @@
 ---
 title: "Applications mobiles dans l'éducation : l'expérience numérique dans votre poche"
+seoTitle: "Applications mobiles dans l'éducation : l'école en poche"
 date: "2025-04-15"
 translationKey: "app-movil-educacion"
-description: "Les applications mobiles changent la façon dont les familles interagissent avec les écoles, en offrant un accès instantané aux informations et aux services scolaires."
+description: "Les applications mobiles changent la relation entre familles et écoles, avec un accès instantané aux informations et aux services scolaires."
 tags:
     - "applications mobiles"
     - "expérience numérique"

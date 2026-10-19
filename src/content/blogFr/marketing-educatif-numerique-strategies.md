@@ -1,8 +1,9 @@
 ---
 title: "Marketing éducatif numérique : stratégies pour attirer et fidéliser les familles à l'ère numérique"
+seoTitle: "Marketing éducatif : attirer et fidéliser les familles"
 date: "2025-09-08"
 translationKey: "marketing-educativo-digital-estrategias"
-description: "Si vous dirigez une école privée ou à charte comptant 150 à 800 familles, vous investissez probablement dans le site Web."
+description: "Pour les écoles privées ou sous contrat de 150 à 800 familles qui investissent dans le site web, les portes ouvertes ou les réseaux sans retour en inscriptions."
 tags:
     - "marketing éducatif"
     - "marketing numérique"

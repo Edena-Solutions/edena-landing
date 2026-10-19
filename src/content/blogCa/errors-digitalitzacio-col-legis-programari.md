@@ -1,5 +1,6 @@
 ---
 title: "Digitalització a col·legis: 7 errors que cometen els centres en implementar programari educatiu"
+seoTitle: "7 errors en implantar programari educatiu als col·legis"
 date: "2026-03-05"
 translationKey: "errores-digitalizacion-colegios-software"
 description: "La digitalització educativa avança, però molts centres cometen errors que retarden resultats, generen resistència o desaprofiten inversió."
@@ -14,7 +15,6 @@ relatedPosts:
     - comparativa-programari-gestio-escolar-2026
     - checklist-software-escolar-director-2026
     - millor-programari-gestio-escolar
-    - triar-programari-gestio-escolar
 faqs:
     - question: "Quan triga veure resultats de la digitalització educativa?"
       answer: "Depèn del procés. Facturació i recordatoris poden mostrar impacte a les setmanes. Una digitalització a col·legis completa pot trigar diversos mesos a estabilitzar-se. Mesura per fases."
@@ -23,7 +23,7 @@ faqs:
     - question: "ERP o SIS: què necessito primer?"
       answer: "Si el dolor principal és secretaria, cobraments i famílies, prioritzeu un ERP integral. Si només necessiteu notes i assistència a l'aula, amb un SIS pot ser suficient a curt termini, però acabareu duplicant dades."
     - question: "Quan dura un pilot raonable?"
-      answer: "Entre 8 i 12 setmanes, amb un cicle de facturació o admissió real i criteris dèxit acordats abans de començar."
+      answer: "Entre 8 i 12 setmanes, amb un cicle de facturació o admissió real i criteris d'èxit acordats abans de començar."
 ---
 
 <strong>Digitalització a col·legis: 7 errors que cometen els centres en implementar programari educatiu</strong>
@@ -78,7 +78,7 @@ La llicència és només una part. Formació, migració, integracions i suport s
 
 <br>
 
-Signar amb un proveïdor sense revisar GDPR, ubicació de dades o clàusules dencarregat del tractament. La digitalització a col·legis implica dades sensibles; el programari per a escoles ha de complir normativa. No assumeixis que “tot val”.
+Signar amb un proveïdor sense revisar GDPR, ubicació de dades o clàusules d'encarregat del tractament. La digitalització a col·legis implica dades sensibles; el programari per a escoles ha de complir normativa. No assumeixis que “tot val”.
 
 <br>
 
@@ -120,7 +120,7 @@ Defineix necessitats, involucra l'equip, planifica migració i formació, valora
 - **TCO a 36 mesos:** Llicència, migració, formació i integracions a la mateixa unitat.
 - **Comitè quinzenal:** Adreça, secretaria i referent d'etapa amb agenda fixa.
 - **Data de tall del legacy:** Excel o eina antiga amb fi calendari, no "convivència".
-- **KPI acordat:** Hores admin, morositat o temps de matrícula amb llindar escrit dèxit.
+- **KPI acordat:** Hores admin, morositat o temps de matrícula amb llindar escrit d'èxit.
 
 <br>
 

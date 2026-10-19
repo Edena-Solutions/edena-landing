@@ -1,5 +1,6 @@
 ---
 title: "Document management in schools: goodbye to paper and lost files"
+seoTitle: "Document management in schools: no more lost files"
 date: "2026-04-01"
 translationKey: "gestion-documental-colegios-expediente-digital-2026"
 description: "A lost file is no small inconvenience: it means legal risk, delayed meetings, complaints and hours spent hunting for the last email."
