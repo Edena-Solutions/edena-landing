@@ -34,6 +34,8 @@ export default defineConfig({
         '/ca/blog/triar-programari-gestio-escolar': '/ca/blog/millor-programari-gestio-escolar/',
         '/fr/blog/choisir-logiciel-gestion-scolaire': '/fr/blog/meilleur-logiciel-gestion-scolaire/',
         '/eus/blog/eskola-kudeaketa-softwarea-aukeratzea': '/eus/blog/onena-eskola-kudeaketa-softwarea/',
+        // Crawled from the old language switcher, which kept the English slug under /fr/.
+        '/fr/blog/operational-efficiency-educational-centers': '/fr/blog/efficacite-operationnelle-etablissements-scolaires/',
     },
     // NOTE: Astro's built-in i18n routing was removed on purpose. Locales are
     // fully hand-rolled via [...lang] routes + literal locale dirs; the old
