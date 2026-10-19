@@ -1,16 +1,24 @@
 ---
-import { cn } from "@/lib/utils";
-import { Image } from "astro:assets";
 import logo from "@/assets/img/logos/logo.svg";
-import { translations, localePath } from "@/i18n/index.ts";
-import LanguageSwitcher from "./LanguageSwitcher";
+import { cn } from "@/lib/utils";
+import { translations, localePath, languages } from "@/i18n/index.ts";
+import { localizedDemoPath } from "@/i18n";
 import DownloadAppButtons from "./DownloadAppButtons.astro";
+
+/*
+ * The site's foot, in the premium pages' manner — Apple's directory, set on Edena's ground: the
+ * brand and the app's store badges on the left, every page in four columns beside it, then a
+ * hairline and the small print with the language. Under it all, the wordmark at the width of the
+ * page, barely there, cut by the foot of the screen.
+ *
+ * On a phone the four columns become one panel of disclosures, the FAQ panel's look and motion
+ * (`scripts/disclosure.ts`): the directory is long, and a reader at the foot of a page is usually
+ * looking for one thing.
+ */
 interface LinkGroup {
+    id: string;
     title: string;
-    links: {
-        title: string;
-        href: string;
-    }[];
+    links: { title: string; href: string }[];
 }
 
 interface Props {
@@ -23,8 +31,9 @@ const t = translations[lang as keyof typeof translations];
 // Canonical locale paths: Spanish lives unprefixed at the root.
 const p = (path: string) => localePath(lang, path);
 
-const footerGroups: LinkGroup[] = [
+const groups: LinkGroup[] = [
     {
+        id: "products",
         title: t.navigation.products,
         links: [
             { title: t.navigation.crm, href: p("/crm") },
@@ -32,10 +41,7 @@ const footerGroups: LinkGroup[] = [
             { title: t.navigation.finance, href: p("/finance") },
             { title: t.productModules.extracurricular.navTitle, href: p("/extracurricular") },
             { title: t.productModules.communication.navTitle, href: p("/communication") },
-            {
-                title: t.productModules.internalPayments.navTitle,
-                href: p("/internal-payments"),
-            },
+            { title: t.productModules.internalPayments.navTitle, href: p("/internal-payments") },
             { title: t.productModules.shop.navTitle, href: p("/shop") },
             { title: t.productModules.tracking.navTitle, href: p("/tracking") },
             { title: t.productModules.workflows.navTitle, href: p("/workflows") },
@@ -43,6 +49,7 @@ const footerGroups: LinkGroup[] = [
         ],
     },
     {
+        id: "features",
         title: t.navigation.functionalities,
         links: [
             { title: t.navigation.students, href: p("/students") },
@@ -56,6 +63,18 @@ const footerGroups: LinkGroup[] = [
         ],
     },
     {
+        id: "resources",
+        title: t.footer.resources,
+        links: [
+            { title: t.navigation.pricing, href: p("/pricing") },
+            { title: t.navigation.blog, href: p("/blog/") },
+            { title: t.navigation.faqs, href: p("/faqs") },
+            { title: t.navigation.contact, href: p("/contact") },
+            { title: t.bookDemo, href: localizedDemoPath(lang) },
+        ],
+    },
+    {
+        id: "legal",
         title: t.footer.legal,
         links: [
             { title: t.footer.privacyPolicy, href: p("/privacy") },
@@ -68,67 +87,437 @@ const footerGroups: LinkGroup[] = [
     },
 ];
 
+/** The same page in each language: the path without its locale prefix, re-prefixed. */
+const LANGUAGE_NAMES: Record<string, string> = {
+    es: "Español",
+    en: "English",
+    ca: "Català",
+    eus: "Euskara",
+    fr: "Français",
+};
+const segments = Astro.url.pathname.split("/").filter(Boolean);
+const pathWithoutLang =
+    "/" + (languages.includes(segments[0]) ? segments.slice(1) : segments).join("/");
+
 const currentYear = new Date().getFullYear();
 ---
 
-<footer class={cn("mt-[16px] shrink-0 bg-card pb-[env(safe-area-inset-bottom)]", className)}>
-    <div class="container mx-auto px-4 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <div
-                class="col-span-1 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-2 text-center md:text-left"
-            >
-                {
-                    footerGroups.map((group) => (
-                        <div class="space-y-2">
-                            <h3 class="uppercase tracking-widest text-[10px]">{group.title}</h3>
-                            <ul>
-                                {group.links.map((link) => (
-                                    <li>
-                                        <a
-                                            href={link.href}
-                                            class="text-sm text-muted-foreground hover:text-primary transition-colors"
-                                        >
-                                            {link.title}
-                                        </a>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    ))
-                }
-            </div>
-
-            <div
-                class="md:col-span-1 text-center md:text-left order-first md:order-last mt-8 md:mt-0"
-            >
-                <a href={p("/")} class="inline-block mb-2">
-                    <Image src={logo} alt={t.altText.logo} class="h-6 w-auto dark:invert" />
+<footer class={cn("ds-footer shrink-0 pb-[env(safe-area-inset-bottom)]", className)}>
+    <div class="ds-container pt-14 sm:pt-20">
+        <div class="footer-top">
+            <!-- The brand, and the app. -->
+            <div class="footer-brand">
+                <a href={p("/")} class="inline-flex rounded-md" aria-label="Edena">
+                    <img
+                        src={logo.src}
+                        alt={t.altText.logo}
+                        class="h-6 w-auto dark:invert"
+                        width="125"
+                        height="24"
+                    />
                 </a>
-                <p class="text-muted-foreground mb-6 text-sm">
+                <p class="mt-4 max-w-[19rem] text-[0.8125rem] leading-[1.6] text-ink-2">
                     {t.footer.description}
                 </p>
-                <p class="uppercase tracking-widest text-[10px] mb-3">{t.downloadTheApp}</p>
-                <DownloadAppButtons t={t} className="justify-center md:justify-start" />
+
+                <div class="mt-7 flex flex-col gap-3">
+                    <p class="text-[0.75rem] font-semibold text-ink">{t.downloadTheApp}</p>
+                    <DownloadAppButtons t={t} />
+                </div>
             </div>
+
+            <!-- Every page, in four columns; on a phone, one panel of disclosures. -->
+            <nav class="footer-directory" aria-label="Edena" data-footer-directory>
+                {
+                    groups.map((group) => (
+                        <details class="footer-group" open data-footer-group>
+                            <summary>
+                                <span class="text-sm">{group.title}</span>
+                                <span class="footer-icon" aria-hidden="true">
+                                    <span class="footer-icon-bar" />
+                                    <span class="footer-icon-bar footer-icon-bar--v" />
+                                </span>
+                            </summary>
+                            <div class="footer-group-body">
+                                <ul class="footer-group-links">
+                                    {group.links.map((link) => (
+                                        <li>
+                                            <a href={link.href}>{link.title}</a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </details>
+                    ))
+                }
+            </nav>
         </div>
 
-        <div class="pt-8 flex flex-col-reverse md:flex-row justify-between gap-4 items-center">
-            <p class="text-sm text-muted-foreground text-center md:text-left">
+        <!-- The small print. -->
+        <div class="footer-bottom">
+            <p class="text-[0.75rem] text-ink-3">
                 &copy; {currentYear} Edena Software S.L. {t.footer.allRightsReserved}
             </p>
-
-            <div class="text-center md:text-left flex flex-col sm:flex-row items-center gap-6">
-                <a href={p("/blog/")} class="text-sm text-muted-foreground hover:text-primary"
-                    >{t.navigation.blog}</a
-                >
-                <a href={p("/pricing")} class="text-sm text-muted-foreground hover:text-primary"
-                    >{t.navigation.pricing}</a
-                >
-                <a href={p("/faqs")} class="text-sm text-muted-foreground hover:text-primary"
-                    >{t.navigation.faqs}</a
-                >
-                <LanguageSwitcher client:load currentLang={lang} />
-            </div>
+            <ul class="footer-languages" aria-label={t.changeWebsiteLanguage}>
+                {
+                    languages.map((code) => (
+                        <li>
+                            <a
+                                href={localePath(code, pathWithoutLang)}
+                                hreflang={code === "eus" ? "eu" : code}
+                                aria-current={code === lang ? "true" : undefined}
+                            >
+                                {LANGUAGE_NAMES[code]}
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
         </div>
     </div>
+
+    <!-- The wordmark at the width of the page, barely there, cut by the foot. -->
+    <div class="footer-wordmark" aria-hidden="true">
+        <img src={logo.src} alt="" class="dark:invert" width="1271" height="247" loading="lazy" />
+    </div>
 </footer>
+
+<script>
+    import {
+        closeDisclosure,
+        isAnimating,
+        openDisclosure,
+        setDisclosure,
+    } from "@/scripts/disclosure";
+
+    // One panel of disclosures on a phone, four open columns from a tablet up. The markup ships
+    // them open, so without scripting every link is there.
+    const wide = window.matchMedia("(min-width: 48rem)");
+    const parts = (details: HTMLDetailsElement) => ({
+        body: details.querySelector<HTMLElement>(".footer-group-body")!,
+        content: details.querySelector<HTMLElement>(".footer-group-links")!,
+    });
+    const groups = () => [...document.querySelectorAll<HTMLDetailsElement>("[data-footer-group]")];
+    const syncFooter = () =>
+        groups().forEach((group) => setDisclosure(group, parts(group), wide.matches));
+
+    function setupFooter() {
+        const directory = document.querySelector<HTMLElement>(
+            "[data-footer-directory]:not([data-ready])",
+        );
+        if (!directory) return;
+        directory.dataset.ready = "";
+        syncFooter();
+        groups().forEach((group) => {
+            group.addEventListener("toggle", () => {
+                if (!isAnimating(group)) group.dataset.state = group.open ? "open" : "closed";
+            });
+            group.querySelector("summary")?.addEventListener("click", (event) => {
+                event.preventDefault();
+                if (wide.matches) return;
+                if (group.dataset.state === "open") {
+                    closeDisclosure(group, parts(group));
+                    return;
+                }
+                // One open at a time, as in the FAQ panel.
+                groups().forEach(
+                    (other) =>
+                        other !== group &&
+                        other.dataset.state === "open" &&
+                        closeDisclosure(other, parts(other)),
+                );
+                openDisclosure(group, parts(group));
+            });
+        });
+    }
+
+    wide.addEventListener("change", syncFooter);
+    document.addEventListener("astro:page-load", setupFooter);
+</script>
+
+<style>
+    .ds-footer {
+        position: relative;
+        overflow: hidden;
+        background-color: var(--ds-canvas-2);
+        box-shadow: inset 0 1px 0 var(--ds-hairline);
+        color: var(--ds-ink);
+    }
+
+    .footer-top {
+        display: grid;
+        gap: 2.5rem;
+    }
+
+    /* Side by side once five columns have room; below that the brand sits over the directory. */
+    @media (min-width: 80rem) {
+        .footer-top {
+            grid-template-columns: minmax(17rem, 1.35fr) minmax(0, 3.65fr);
+            gap: 3.5rem;
+        }
+    }
+
+    /* The directory. */
+    .footer-directory {
+        display: grid;
+    }
+
+    @media (min-width: 48rem) {
+        .footer-directory {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 2rem;
+        }
+    }
+
+    .footer-group summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: -0.005em;
+        color: var(--ds-ink);
+    }
+
+    .footer-group summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .footer-group ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .footer-group a {
+        display: inline-block;
+        font-size: 0.8125rem;
+        line-height: 1.35;
+        color: var(--ds-ink-2);
+        transition: color 200ms var(--ease-fluid);
+    }
+
+    .footer-group a:hover {
+        color: var(--ds-ink);
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+        text-decoration-color: var(--ds-hairline-strong);
+    }
+
+    /* A phone: the FAQ panel — one raised surface, a row per section, "+" turning into "−". */
+    @media (max-width: 47.99rem) {
+        .footer-directory {
+            overflow: hidden;
+            border-radius: var(--radius-card);
+            background-color: var(--ds-surface);
+            box-shadow: inset 0 0 0 1px var(--ds-hairline);
+        }
+
+        .footer-group {
+            position: relative;
+        }
+
+        .footer-group:not(:first-child)::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 1.25rem;
+            left: 1.25rem;
+            height: 1px;
+            background: var(--ds-hairline);
+            pointer-events: none;
+        }
+
+        .footer-group summary {
+            gap: 1rem;
+            padding: 1rem 1rem 1rem 1.25rem;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: -0.016em;
+            -webkit-tap-highlight-color: transparent;
+            transition: background-color 300ms var(--ease-fluid);
+        }
+
+        .footer-group summary:active {
+            background-color: color-mix(in srgb, var(--ds-fill) 82%, var(--ds-ink-3));
+            transition-duration: 80ms;
+        }
+
+        .footer-group summary:focus-visible {
+            outline: none;
+            box-shadow: inset 0 0 0 3px color-mix(in srgb, var(--ds-focus) 45%, transparent);
+        }
+
+        .footer-icon {
+            display: inline-grid;
+            width: 1.75rem;
+            height: 1.75rem;
+            flex-shrink: 0;
+            place-items: center;
+            border-radius: 999px;
+            background-color: var(--ds-fill-2);
+            color: var(--ds-ink-2);
+            transition:
+                background-color 420ms var(--ease-fluid),
+                color 420ms var(--ease-fluid),
+                rotate 520ms var(--ease-fluid);
+        }
+
+        .footer-icon-bar {
+            grid-area: 1 / 1;
+            width: 0.7rem;
+            height: 1.5px;
+            border-radius: 999px;
+            background-color: currentColor;
+            transition: rotate 520ms var(--ease-fluid);
+        }
+
+        .footer-icon-bar--v {
+            rotate: 90deg;
+        }
+
+        .footer-group:is([open]:not([data-state]), [data-state="open"]) .footer-icon {
+            rotate: 180deg;
+            background-color: var(--ds-ink);
+            color: var(--ds-canvas);
+        }
+
+        .footer-group:is([open]:not([data-state]), [data-state="open"]) .footer-icon-bar--v {
+            rotate: 0deg;
+        }
+
+        .footer-group-body {
+            overflow: hidden;
+        }
+
+        .footer-group .footer-group-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+            padding: 0.1rem 1.25rem 1.25rem;
+            will-change: transform, opacity;
+        }
+
+        .footer-group a {
+            font-size: 0.9375rem;
+        }
+    }
+
+    @media (hover: hover) and (max-width: 47.99rem) {
+        .footer-group summary:hover {
+            background-color: var(--ds-fill-2);
+        }
+    }
+
+    /* From a tablet up: open columns, the title a label rather than a control. */
+    @media (min-width: 48rem) {
+        .footer-group summary {
+            pointer-events: none;
+            margin-bottom: 0.9rem;
+        }
+
+        .footer-icon {
+            display: none;
+        }
+
+        .footer-group-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .footer-group summary,
+        .footer-icon,
+        .footer-icon-bar {
+            transition: none;
+        }
+    }
+
+    /* The small print. */
+    .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1.25rem;
+        margin-top: 2.5rem;
+        padding: 1.5rem 0 0.5rem;
+        border-top: 1px solid var(--ds-hairline);
+    }
+
+    @media (max-width: 47.99rem) {
+        .footer-bottom {
+            margin-top: 2rem;
+        }
+    }
+
+    @media (min-width: 48rem) {
+        .footer-bottom {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 3.5rem;
+        }
+    }
+
+    .footer-languages {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .footer-languages li + li::before {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        height: 0.7rem;
+        margin: 0 0.6rem;
+        vertical-align: middle;
+        background-color: var(--ds-hairline-strong);
+    }
+
+    .footer-languages a {
+        font-size: 0.75rem;
+        color: var(--ds-ink-3);
+        transition: color 200ms var(--ease-fluid);
+    }
+
+    .footer-languages a:hover,
+    .footer-languages a[aria-current] {
+        color: var(--ds-ink);
+    }
+
+    .footer-languages a[aria-current] {
+        font-weight: 600;
+    }
+
+    /* The wordmark: as wide as the page's column, a breath of ink, most of it showing — only its
+       last fifth is cut by the foot, and only the lower half fades. */
+    .footer-wordmark {
+        --gutter: clamp(1rem, 4vw, 2rem);
+        width: min(100% - 2 * var(--gutter), 75rem);
+        aspect-ratio: 1271 / 200;
+        margin: 2rem auto 0;
+        overflow: hidden;
+        pointer-events: none;
+        user-select: none;
+        -webkit-mask-image: linear-gradient(180deg, #000 45%, transparent 100%);
+        mask-image: linear-gradient(180deg, #000 45%, transparent 100%);
+    }
+
+    .footer-wordmark img {
+        display: block;
+        width: 100%;
+        height: auto;
+        opacity: 0.07;
+    }
+
+    :global(.dark) .footer-wordmark img {
+        opacity: 0.1;
+    }
+</style>

@@ -809,6 +809,7 @@ export default {
         description:
             "Edena is the school management platform that eliminates paperwork, automates billing, and keeps families engaged, so your team can focus on what actually matters: education.",
         allRightsReserved: "All rights reserved.",
+        resources: "Resources",
     },
     navigation: {
         products: "Products",

@@ -40,83 +40,12 @@ const { items, name, class: className } = Astro.props;
 </div>
 
 <script>
-    const OPEN_EASE = "cubic-bezier(0.32, 0.72, 0, 1)";
-    const CLOSE_EASE = "cubic-bezier(0.4, 0, 0.2, 1)";
-    const reduceMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-    type Running = { body: Animation; answer: Animation };
-    const running = new WeakMap<HTMLDetailsElement, Running>();
+    import { closeDisclosure, isAnimating, openDisclosure } from "@/scripts/disclosure";
 
     const parts = (details: HTMLDetailsElement) => ({
         body: details.querySelector<HTMLElement>(".faq-body")!,
-        answer: details.querySelector<HTMLElement>(".faq-answer")!,
+        content: details.querySelector<HTMLElement>(".faq-answer")!,
     });
-
-    /** Stops whatever is moving on it and returns the height it had reached. */
-    function halt(details: HTMLDetailsElement): number {
-        const { body } = parts(details);
-        const height = body.getBoundingClientRect().height;
-        const current = running.get(details);
-        if (current) {
-            current.body.cancel();
-            current.answer.cancel();
-            running.delete(details);
-        }
-        return height;
-    }
-
-    function open(details: HTMLDetailsElement) {
-        const { body, answer } = parts(details);
-        const from = details.open ? halt(details) : 0;
-        details.dataset.state = "open";
-        details.open = true;
-        if (reduceMotion()) return;
-
-        const to = body.scrollHeight;
-        const bodyAnimation = body.animate([{ height: `${from}px` }, { height: `${to}px` }], {
-            duration: 560,
-            easing: OPEN_EASE,
-        });
-        const answerAnimation = answer.animate(
-            [
-                { opacity: 0, transform: "translateY(-0.6rem)", filter: "blur(2px)" },
-                { opacity: 1, transform: "none", filter: "blur(0)" },
-            ],
-            { duration: 520, delay: 70, easing: OPEN_EASE, fill: "backwards" },
-        );
-        running.set(details, { body: bodyAnimation, answer: answerAnimation });
-        bodyAnimation.onfinish = () => running.delete(details);
-    }
-
-    function close(details: HTMLDetailsElement) {
-        const { body, answer } = parts(details);
-        const from = halt(details);
-        details.dataset.state = "closed";
-        if (reduceMotion()) {
-            details.open = false;
-            return;
-        }
-
-        const bodyAnimation = body.animate([{ height: `${from}px` }, { height: "0px" }], {
-            duration: 380,
-            easing: CLOSE_EASE,
-            fill: "forwards",
-        });
-        const answerAnimation = answer.animate(
-            [
-                { opacity: 1, transform: "none" },
-                { opacity: 0, transform: "translateY(-0.35rem)" },
-            ],
-            { duration: 200, easing: CLOSE_EASE, fill: "forwards" },
-        );
-        running.set(details, { body: bodyAnimation, answer: answerAnimation });
-        bodyAnimation.onfinish = () => {
-            details.open = false;
-            bodyAnimation.cancel();
-            answerAnimation.cancel();
-            running.delete(details);
-        };
-    }
 
     function setupFaqPanels() {
         document
@@ -132,13 +61,13 @@ const { items, name, class: className } = Astro.props;
                     details.dataset.state = details.open ? "open" : "closed";
                     // Opened from elsewhere (a link to a question): its state follows.
                     details.addEventListener("toggle", () => {
-                        if (!running.has(details))
+                        if (!isAnimating(details))
                             details.dataset.state = details.open ? "open" : "closed";
                     });
                     details.querySelector("summary")?.addEventListener("click", (event) => {
                         event.preventDefault();
                         if (details.dataset.state === "open") {
-                            close(details);
+                            closeDisclosure(details, parts(details));
                             return;
                         }
                         if (exclusive) {
@@ -146,10 +75,10 @@ const { items, name, class: className } = Astro.props;
                                 (other) =>
                                     other !== details &&
                                     other.dataset.state === "open" &&
-                                    close(other),
+                                    closeDisclosure(other, parts(other)),
                             );
                         }
-                        open(details);
+                        openDisclosure(details, parts(details));
                     });
                 });
             });

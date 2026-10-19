@@ -831,6 +831,7 @@ export default {
         description:
             "Edena eskola-kudeaketa plataforma da paper-lana kentzen duena, fakturazioa automatizatzen duena eta familiak informatuta mantentzen dituena, zure taldeak garrantzizkoenean zentratu ahal izan dezan: hezkuntzan.",
         allRightsReserved: "Eskubide guztiak erreserbatuak.",
+        resources: "Baliabideak",
     },
     navigation: {
         products: "Produktuak",

@@ -812,6 +812,7 @@ export default {
         description:
             "Edena es la plataforma de gestión escolar que elimina el papeleo, automatiza la facturación y mantiene a las familias informadas para que tu equipo pueda centrarse en lo que importa: la educación.",
         allRightsReserved: "Todos los derechos reservados.",
+        resources: "Recursos",
     },
     navigation: {
         products: "Productos",
