@@ -2905,6 +2905,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             slack: "Slack",
             gmail: "Gmail",
             outlook: "Outlook",
+            stripe: "Stripe",
         },
     },
     erpStats: {

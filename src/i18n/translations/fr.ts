@@ -2930,6 +2930,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
             slack: "Slack",
             gmail: "Gmail",
             outlook: "Outlook",
+            stripe: "Stripe",
         },
     },
     erpStats: {

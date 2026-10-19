@@ -2903,6 +2903,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             slack: "Slack",
             gmail: "Gmail",
             outlook: "Outlook",
+            stripe: "Stripe",
         },
     },
     erpStats: {

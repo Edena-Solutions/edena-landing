@@ -2635,6 +2635,7 @@ The Platform is hosted in data centres operated by leading infrastructure provid
             slack: "Slack",
             gmail: "Gmail",
             outlook: "Outlook",
+            stripe: "Stripe",
         },
     },
     erpStats: {

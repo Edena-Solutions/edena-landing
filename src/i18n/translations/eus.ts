@@ -2926,6 +2926,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             slack: "Slack",
             gmail: "Gmail",
             outlook: "Outlook",
+            stripe: "Stripe",
         },
     },
     erpStats: {

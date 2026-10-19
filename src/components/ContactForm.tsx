@@ -449,7 +449,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                                                         aria-pressed={on}
                                                         onClick={() => toggleStage(stage)}
                                                         className={cn(
-                                                            "flex h-10 items-center gap-1.5 rounded-full px-4 text-[0.9375rem] font-medium transition-[background-color,color,box-shadow] duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--ds-focus)]",
+                                                            "cursor-pointer flex h-10 items-center gap-1.5 rounded-full px-4 text-[0.9375rem] font-medium transition-[background-color,color,box-shadow] duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--ds-focus)]",
                                                             on
                                                                 ? "bg-ink text-canvas"
                                                                 : "bg-surface text-ink shadow-[inset_0_0_0_1px_var(--ds-hairline)] hover:shadow-[inset_0_0_0_1px_var(--ds-hairline-strong)]",

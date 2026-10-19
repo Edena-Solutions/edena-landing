@@ -1,13 +1,14 @@
 ---
 import { LOGO_PATH, LOGO_VIEWBOX } from "@/lib/brand";
+import outlookCalendar from "@/assets/img/logos/outlook-calendar.svg";
+import stripe from "@/assets/img/logos/stripe.svg";
 import type { Translation } from "@/i18n";
 
 /*
  * The integrations as data in motion: Edena at the centre, the tools a school already uses either
- * side of it, and beams of light along the threads between them — what arrives on the left
- * (messages, mail, the calendar) flows into Edena, and Edena passes it on to the right (Outlook,
- * Slack, Classroom), one after another, while Edena glows as each comes through. Each tool lights
- * up as its beam leaves or lands. With reduced motion the threads are drawn and nothing travels.
+ * side of it, and beams of light along the threads between them. Every beam runs into Edena — the
+ * ones on the right are the same path, reversed — and each tool lights up as its beam leaves.
+ * With reduced motion the threads are drawn and nothing travels.
  *
  * Drawn on a 28 × 21 em board; the threads are an SVG in tenths of an em over it.
  */
@@ -23,9 +24,9 @@ const H = 210;
 const C = { x: W / 2, y: H / 2 };
 /** Edena's disc and each tool's tile, in tenths of an em. */
 const CORE_R = 27;
-const TILE = 32;
-const COLUMN = 38;
-const ROWS = [38, H / 2, H - 38];
+const TILE = 28;
+const COLUMN = 36;
+const ROWS = [30, 80, 130, 180];
 
 const left = [
     { src: "https://sinapsis.agency/uploads/images/2026/01/696c9f0aa8cff_c0ca1cb7.png", alt: logos.whatsapp },
@@ -34,6 +35,7 @@ const left = [
         src: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Calendar_icon_%282020%29.svg",
         alt: logos.googleCalendar,
     },
+    { src: outlookCalendar.src, alt: logos.outlookCalendar },
 ];
 const right = [
     {
@@ -45,32 +47,32 @@ const right = [
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Google_Classroom_Logo.svg/960px-Google_Classroom_Logo.svg.png",
         alt: "Google Classroom",
     },
+    { src: stripe.src, alt: logos.stripe },
 ];
 
-/** The cycle every beam shares, and when each leaves within it: in from the left, out to the right. */
+/** The cycle every beam shares. Each row leaves together, left and right, and both run into Edena. */
 const CYCLE = 3.6;
-const inDelay = [0, 0.35, 0.7];
-const outDelay = [1.45, 1.8, 2.15];
+const delay = [0, 0.3, 0.6, 0.9];
 
 const gap = 4;
 const inbound = ROWS.map((y, index) => {
     const x0 = COLUMN + TILE / 2 + gap;
     const x1 = C.x - CORE_R - gap;
     const bend = (x1 - x0) * 0.55;
-    return { d: `M${x0} ${y} C${x0 + bend} ${y} ${x1 - bend} ${C.y} ${x1} ${C.y}`, delay: inDelay[index] };
+    return { d: `M${x0} ${y} C${x0 + bend} ${y} ${x1 - bend} ${C.y} ${x1} ${C.y}`, delay: delay[index] };
 });
-const outbound = ROWS.map((y, index) => {
+// Same curve as the left, drawn from the tool back to Edena so the light travels inward.
+const inboundRight = ROWS.map((y, index) => {
     const x0 = C.x + CORE_R + gap;
     const x1 = W - COLUMN - TILE / 2 - gap;
     const bend = (x1 - x0) * 0.55;
-    return { d: `M${x0} ${C.y} C${x0 + bend} ${C.y} ${x1 - bend} ${y} ${x1} ${y}`, delay: outDelay[index] };
+    return { d: `M${x1} ${y} C${x1 - bend} ${y} ${x0 + bend} ${C.y} ${x0} ${C.y}`, delay: delay[index] };
 });
-const beams = [...inbound, ...outbound];
+const beams = [...inbound, ...inboundRight];
 
 const tiles = [
-    ...left.map((logo, index) => ({ ...logo, x: COLUMN, y: ROWS[index], pulse: inDelay[index] })),
-    // A tool on the right lights up as its beam lands, about a third of the way into the cycle.
-    ...right.map((logo, index) => ({ ...logo, x: W - COLUMN, y: ROWS[index], pulse: outDelay[index] + CYCLE * 0.3 })),
+    ...left.map((logo, index) => ({ ...logo, x: COLUMN, y: ROWS[index], pulse: delay[index] })),
+    ...right.map((logo, index) => ({ ...logo, x: W - COLUMN, y: ROWS[index], pulse: delay[index] })),
 ];
 const em = (v: number) => `${v / 10}em`;
 ---
