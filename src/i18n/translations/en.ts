@@ -39,7 +39,16 @@ export default {
         saveForm: "Save form",
         welcomeBack: "Welcome back!",
         appSections: ["Communication", "School management", "Schedule", "Finance"],
-        appTiles: ["New post", "New event", "Clock in", "Classes", "Daily reports", "Calendar", "Invoices", "Delivery notes"],
+        appTiles: [
+            "New post",
+            "New event",
+            "Clock in",
+            "Classes",
+            "Daily reports",
+            "Calendar",
+            "Invoices",
+            "Delivery notes",
+        ],
         studentTabs: ["General information", "Attendance", "Billing", "Assessments"],
         takeAttendance: "Take attendance",
         active: "Active",
@@ -115,7 +124,7 @@ export default {
         invoicesBody: "847 families · Verifactu record included",
         enrolTitle: "3 new enrolment enquiries",
         enrolBody: "From your website's form",
-        messageTitle: "Laura Torres",
+        messageTitle: "María Torres",
         messageBody: "Thanks for the trip photos!",
         attendanceTitle: "Year 3A attendance recorded",
         attendanceBody: "24 of 25 students present",
@@ -147,7 +156,8 @@ export default {
         groupManagement: "Running your centre",
         groupSecurity: "Security and privacy",
         stillTitle: "Can’t find your answer?",
-        stillDescription: "Write to us and we’ll answer, or book a demo and we’ll walk through it with your centre in mind.",
+        stillDescription:
+            "Write to us and we’ll answer, or book a demo and we’ll walk through it with your centre in mind.",
     },
     legalPage: {
         onThisPage: "On this page",
@@ -162,7 +172,14 @@ export default {
         network: "School network",
         centresCount: "{n} schools",
         kpis: ["Students", "Attendance", "Collected"],
-        centres: ["Mirador School", "Ribera School", "Montecillo School", "Brisa Nursery", "Las Lomas School", "Puerto Academy"],
+        centres: [
+            "Mirador School",
+            "Ribera School",
+            "Montecillo School",
+            "Brisa Nursery",
+            "Las Lomas School",
+            "Puerto Academy",
+        ],
         centresShort: ["Mirador", "Ribera", "Montecillo", "Brisa", "Las Lomas", "Puerto"],
         cities: ["Madrid", "Seville", "Valencia", "Bilbao", "Málaga", "Barcelona"],
         students: "students",
@@ -211,14 +228,32 @@ export default {
         paidOf: "Paid {paid} of {total}",
         partial: "Part paid",
         autoCollect: "Automatic collection",
-        rules: ["On the 1st of each month", "SEPA direct debit", "Late-payment notice after 3 days"],
+        rules: [
+            "On the 1st of each month",
+            "SEPA direct debit",
+            "Late-payment notice after 3 days",
+        ],
     },
     schoolsScenes: {
         year: "School year 2025-2026",
         inProgress: "In progress",
         yearClosed: "Year closed",
-        milestones: ["Enrolment open", "September bills", "Autumn term", "Family communication", "Spring term", "Final report"],
-        details: ["486 students enrolled", "Direct debits with Verifactu", "486 reports sent", "Circulars 94% read", "486 reports sent", "Year closed, paper-free"],
+        milestones: [
+            "Enrolment open",
+            "September bills",
+            "Autumn term",
+            "Family communication",
+            "Spring term",
+            "Final report",
+        ],
+        details: [
+            "486 students enrolled",
+            "Direct debits with Verifactu",
+            "486 reports sent",
+            "Circulars 94% read",
+            "486 reports sent",
+            "Year closed, paper-free",
+        ],
         kpis: ["Students", "Reports sent", "Billed this year", "Average attendance"],
         newMark: "New mark",
         tutor: "Tutor: Ana Martín",
@@ -237,7 +272,12 @@ export default {
         sentTo: "Day sent to {n} families",
         today: "Today",
         feedItems: ["Arrived", "Lunch", "Nap", "New photos"],
-        feedDetails: ["Arrived happy", "Ate it all up", "1 h 35 min · Slept well", "3 photos from the painting workshop"],
+        feedDetails: [
+            "Arrived happy",
+            "Ate it all up",
+            "1 h 35 min · Slept well",
+            "3 photos from the painting workshop",
+        ],
         present: "Present",
         age: "18 months",
         sections: ["Attendance", "Meals", "Nap", "Incidents", "Development note"],
@@ -246,7 +286,7 @@ export default {
         incident: "Small bump on the knee playing outside",
         notifying: "Notifying",
         familyNotified: "Family notified",
-        note: "Today she said her first word: \"water\". We celebrated with the whole class!",
+        note: 'Today she said her first word: "water". We celebrated with the whole class!',
     },
     assignmentScenes: {
         subject: "Catalan · I-3 A",
@@ -258,7 +298,14 @@ export default {
         weekTasks: "This week's tasks",
         newTask: "New task",
         subjects: ["Maths", "English", "Science", "French", "History"],
-        tasks: ["Fractions worksheet", "Text commentary", "Listening unit 4", "Geometry problems", "Timeline", "Essay: my neighbourhood"],
+        tasks: [
+            "Fractions worksheet",
+            "Text commentary",
+            "Listening unit 4",
+            "Geometry problems",
+            "Timeline",
+            "Essay: my neighbourhood",
+        ],
         newTaskTitle: "Solar system model",
         due: "Due",
         reminder: "Reminder 24 h before",
@@ -283,15 +330,40 @@ export default {
         kpis: ["Attendance today", "Collected this month", "Students", "Messages read"],
         collections: "This month's collections",
         alerts: "Alerts",
-        alertItems: ["3 payments returned this month", "New enrolment enquiry", "Unexcused absence · Year 8 B"],
+        alertItems: [
+            "3 payments returned this month",
+            "New enrolment enquiry",
+            "Unexcused absence · Year 8 B",
+        ],
         times: ["Now", "2 min ago", "5 min ago", "12 min ago", "1 h ago"],
         notifications: "Notifications",
         today: "Today",
         markRead: "Mark all as read",
-        notifItems: ["Museum trip tomorrow", "New message from a family", "Payment received", "New enrolment enquiry", "Payment returned"],
-        notifDetails: ["3 A · 09:00", "Laura Torres · Year 7", "María García · €731.50", "Summer camp · Lucía García", "Pedro Castro · Direct debit"],
+        notifItems: [
+            "Museum trip tomorrow",
+            "New message from a family",
+            "Payment received",
+            "New enrolment enquiry",
+            "Payment returned",
+        ],
+        notifDetails: [
+            "3 A · 09:00",
+            "María Torres · Year 7",
+            "María García · €731.50",
+            "Summer camp · Lucía García",
+            "Pedro Castro · Direct debit",
+        ],
         quickTitle: "Quick actions",
-        quickActions: ["Clock in", "Create advance", "Add student", "Add guardian", "Invite admin", "Create event", "Create lead", "Create subject"],
+        quickActions: [
+            "Clock in",
+            "Create advance",
+            "Add student",
+            "Add guardian",
+            "Invite admin",
+            "Create event",
+            "Create lead",
+            "Create subject",
+        ],
         upcoming: "Upcoming events",
         noEvents: "No events yet",
         newEvent: "Parents' meeting · Year 7",
@@ -322,10 +394,16 @@ export default {
         byEdena: "by edena",
         modes: ["Ena", "Ask"],
         quick: ["View items", "View discounts", "Upcoming events", "Org summary"],
-        quickHints: ["Active billing items", "Available discounts", "What's coming up", "General overview"],
+        quickHints: [
+            "Active billing items",
+            "Available discounts",
+            "What's coming up",
+            "General overview",
+        ],
         placeholder: "Turn ideas into actions: create, edit, delete or ask…",
         summaryPrompt: "Give me a summary of the organisation",
-        summaryAnswer: "Here's your school today: all in order, with 12 new enquiries waiting for review.",
+        summaryAnswer:
+            "Here's your school today: all in order, with 12 new enquiries waiting for review.",
         summaryLabels: ["Students", "Attendance today", "Collected this month", "New enquiries"],
         enrolmentTrend: "Enrolments vs. last year",
         chips: ["View enquiries", "Send to the head"],
@@ -340,7 +418,12 @@ export default {
         completed: "Completed",
         inProgress: "In progress",
         decimal: ".",
-        taskSteps: ["Attendance for 3 A recorded", "1 unexcused absence found", "Family notified", "Logged on the pupil's record"],
+        taskSteps: [
+            "Attendance for 3 A recorded",
+            "1 unexcused absence found",
+            "Family notified",
+            "Logged on the pupil's record",
+        ],
         taskMeta: ["24/25", "Hugo F.", "09:02", "09:02"],
     },
     workflowScenes: {
@@ -356,11 +439,21 @@ export default {
         chooseEvent: "Choose an event",
         scopes: ["Extracurriculars", "Billing", "Assessments", "CRM", "Communication"],
         extraEvent: "Activity request created",
-        billingEvents: ["Invoice created", "Payment received", "Payment returned", "Billing cycle closed"],
+        billingEvents: [
+            "Invoice created",
+            "Payment received",
+            "Payment returned",
+            "Billing cycle closed",
+        ],
         ranIn: "Ran in 0.4 s",
         insertStep: "Insert step",
         stepTypes: ["Action", "Condition", "Parallel", "Join"],
-        stepDescs: ["Runs a task", "Sets the routing logic", "Runs several branches at once", "Waits for every branch to finish"],
+        stepDescs: [
+            "Runs a task",
+            "Sets the routing logic",
+            "Runs several branches at once",
+            "Waits for every branch to finish",
+        ],
         conditionRule: "If the amount is over €100",
         willRun: "Will run on every payment received",
         sendReceipt: "Send the family a receipt",
@@ -372,7 +465,12 @@ export default {
         avgTime: "Average time",
         completed: "Completed",
         running: "Running",
-        workflowNames: ["Activity request received", "Invoice notice", "Welcome new families", "Unexcused absence"],
+        workflowNames: [
+            "Activity request received",
+            "Invoice notice",
+            "Welcome new families",
+            "Unexcused absence",
+        ],
     },
     trackingScenes: {
         dailyReports: "Daily reports",
@@ -391,7 +489,7 @@ export default {
         observations: "Notes for the day",
         observationText: "Took an active part in reading aloud today.",
         correctWithEna: "Fix with Ena",
-        greeting: "Good morning, Laura",
+        greeting: "Good morning, María",
         clockIn: "Clock in",
         clockOut: "Clock out",
         onShift: "On shift",
@@ -401,7 +499,12 @@ export default {
         coffee: "Coffee",
         lunch: "Lunch",
         todayAgenda: "Today",
-        agendaEvents: ["Year group meeting", "Playground duty", "Lunch · first sitting", "Staff meeting"],
+        agendaEvents: [
+            "Year group meeting",
+            "Playground duty",
+            "Lunch · first sitting",
+            "Staff meeting",
+        ],
         newEvent: "Parent meeting",
         addedBy: "Added by the head",
         timesheet: "Clock-ins",
@@ -410,13 +513,29 @@ export default {
         inspectionReady: "Ready for inspection",
         views: ["Day", "Week", "Month"],
         today: "Today",
-        teamEvents: ["Parent–tutor meeting", "Supplies hand-out", "Swimming session", "Careers talk", "Nature park trip", "Science club close", "PTA meeting", "Report card review"],
+        teamEvents: [
+            "Parent–tutor meeting",
+            "Supplies hand-out",
+            "Swimming session",
+            "Careers talk",
+            "Nature park trip",
+            "Science club close",
+            "PTA meeting",
+            "Report card review",
+        ],
         staffMeeting: "Termly staff meeting",
         everyone: "On the whole team's calendar",
     },
     shopScenes: {
         shop: "Shop",
-        products: ["A3 card", "Short tracksuit", "Long tracksuit", "I-2 books", "Backpack", "Scissors"],
+        products: [
+            "A3 card",
+            "Short tracksuit",
+            "Long tracksuit",
+            "I-2 books",
+            "Backpack",
+            "Scissors",
+        ],
         size: "Size",
         addToCart: "Add to cart",
         added: "Added",
@@ -428,7 +547,14 @@ export default {
         savedCard: "Saved card",
         newCategory: "New category",
         addArticle: "Add item",
-        categories: ["Tuck shop", "Health and hygiene", "Books and reading", "Art supplies", "Sports kit", "Uniforms"],
+        categories: [
+            "Tuck shop",
+            "Health and hygiene",
+            "Books and reading",
+            "Art supplies",
+            "Sports kit",
+            "Uniforms",
+        ],
         articles: "items",
         articleName: "School hoodie",
         name: "Name",
@@ -486,7 +612,17 @@ export default {
         monthly: "Monthly",
         single: "One-off payment",
         full: "Full",
-        activityNames: ["Chess", "Athletics", "Drums", "Choir", "Dance", "Football", "Robotics", "English", "Drama"],
+        activityNames: [
+            "Chess",
+            "Athletics",
+            "Drums",
+            "Choir",
+            "Dance",
+            "Football",
+            "Robotics",
+            "English",
+            "Drama",
+        ],
         tabs: ["General information", "Students", "Requests"],
         basicInfo: "Basic information",
         availability: "Availability",
@@ -519,7 +655,8 @@ export default {
         messageIn: "Message",
         improveWithEna: "Improve with Ena",
         draftRough: "trip tomorrow bring lunch and cap",
-        draftPolished: "Just a reminder that tomorrow is our trip: please bring a packed lunch and a cap. Thank you!",
+        draftPolished:
+            "Just a reminder that tomorrow is our trip: please bring a packed lunch and a cap. Thank you!",
         circular: "Circular",
         circularTitle: "Museum trip: permission slip",
         fromDirection: "School management",
@@ -626,7 +763,8 @@ export default {
         contactDescription:
             "Talk to the Edena team about our school management software: pricing, Verifactu, data migration or a demo for your school. We reply quickly.",
         blogTitle: "School Management Blog | Guides for Schools · Edena",
-        blogDescription: "Practical guides on school management, Verifactu, payments, admissions, family communication and AI for schools, nurseries and academies.",
+        blogDescription:
+            "Practical guides on school management, Verifactu, payments, admissions, family communication and AI for schools, nurseries and academies.",
     },
     hero: {
         mainTitle: "School management software for billing, student records and families",
@@ -693,8 +831,7 @@ export default {
         financeDescription:
             "Verifactu billing, SEPA direct debits and arrears control, without chasing payments.",
         app: "Edena App",
-        appDescription:
-            "The free app for families, students and teachers on iOS and Android.",
+        appDescription: "The free app for families, students and teachers on iOS and Android.",
         crm: "School CRM",
         crmDescription:
             "Enrolment enquiries, forms on your website and a stage-by-stage board to win more students.",
@@ -703,13 +840,11 @@ export default {
             "Plan assignments, record grades and generate report cards automatically.",
         pricing: "Pricing",
         pricingAcademies: "Academies",
-        pricingAcademiesDescription:
-            "Languages, music, dance, tutoring and more.",
+        pricingAcademiesDescription: "Languages, music, dance, tutoring and more.",
         pricingAcademiesPrice: "From €0.60",
         pricingAcademiesUnit: "per student",
         pricingCenters: "Education Centres",
-        pricingCentersDescription:
-            "Schools, nurseries and education groups.",
+        pricingCentersDescription: "Schools, nurseries and education groups.",
         pricingCentersPrice: "From €36",
         pricingCentersUnit: "per month",
         contact: "Contact Us",
@@ -873,11 +1008,13 @@ export default {
         },
         mobileApp: {
             title: "Mobile App",
-            tagline: "Notifications, messages, photos and payments in a free app for families and teachers.",
+            tagline:
+                "Notifications, messages, photos and payments in a free app for families and teachers.",
         },
         documentManagement: {
             title: "Dashboard",
-            tagline: "Your school's attendance, payments and enrolments in real time, on a single dashboard.",
+            tagline:
+                "Your school's attendance, payments and enrolments in real time, on a single dashboard.",
         },
         familyPortal: {
             title: "Family Portal",
@@ -885,7 +1022,8 @@ export default {
         },
         staffManagement: {
             title: "School groups",
-            tagline: "Run several schools from a single platform, with reporting across the whole network.",
+            tagline:
+                "Run several schools from a single platform, with reporting across the whole network.",
         },
         calendarIntegration: {
             title: "Assignments and assessments",
@@ -1471,9 +1609,9 @@ export default {
                 },
                 complete: {
                     name: "Academy 360 Pack",
-                    tagline:
-                        "All of Edena in one pack: the repetitive work runs itself with Ena.",
-                    bestFor: "you want to digitise everything and stop repeating the same tasks every week.",
+                    tagline: "All of Edena in one pack: the repetitive work runs itself with Ena.",
+                    bestFor:
+                        "you want to digitise everything and stop repeating the same tasks every week.",
                 },
             },
             notes: [
@@ -2023,17 +2161,23 @@ export default {
         centers_cost_savings_answer:
             "Centers using Edena report reductions of up to 40% in administrative costs, 75% less time on family onboarding and savings of more than 37 hours per week on routine tasks.",
         crm_custom_stages: "Can I adapt the stages to my admissions process?",
-        crm_custom_stages_answer: "Yes. The default stages can be adapted to your school's process: you can rename or adjust them. Changing status is still one click and every move stays in the history.",
+        crm_custom_stages_answer:
+            "Yes. The default stages can be adapted to your school's process: you can rename or adjust them. Changing status is still one click and every move stays in the history.",
         crm_after_won: "What happens when a request moves to Won?",
-        crm_after_won_answer: "The family's details are ready to complete the student's registration. If you have the Automation module, you can set the registration to be created automatically once enrolment is confirmed.",
+        crm_after_won_answer:
+            "The family's details are ready to complete the student's registration. If you have the Automation module, you can set the registration to be created automatically once enrolment is confirmed.",
         crm_plan: "Which plan includes the school CRM?",
-        crm_plan_answer: "For schools it is a module you switch on over the base platform. For academies it is included in the Finance Pack and the Academy 360 Pack.",
+        crm_plan_answer:
+            "For schools it is a module you switch on over the base platform. For academies it is included in the Finance Pack and the Academy 360 Pack.",
         assignment_grade_calculation: "How is the grade for each period calculated?",
-        assignment_grade_calculation_answer: "You set weighted averages and rubrics to match how your school assesses. Edena calculates each period's grade and adds it to the report card, with no spreadsheets.",
+        assignment_grade_calculation_answer:
+            "You set weighted averages and rubrics to match how your school assesses. Edena calculates each period's grade and adds it to the report card, with no spreadsheets.",
         assignment_who_enters_grades: "Who records the grades?",
-        assignment_who_enters_grades_answer: "Teachers enter the grades for their subjects and groups, and coordinators review the full set before the report cards are generated.",
+        assignment_who_enters_grades_answer:
+            "Teachers enter the grades for their subjects and groups, and coordinators review the full set before the report cards are generated.",
         assignment_report_cards_app: "Where do families see the report card?",
-        assignment_report_cards_app_answer: "Once you publish it, the family sees it in the app and the portal, with no email or paper. You decide how much detail is shown.",
+        assignment_report_cards_app_answer:
+            "Once you publish it, the family sees it in the app and the portal, with no email or paper. You decide how much detail is shown.",
     },
     termsOfService: {
         title: "Terms and Conditions of Use",
@@ -2189,7 +2333,8 @@ The Platform is hosted in data centres operated by leading infrastructure provid
         quickActionsDescription:
             "Generate invoices, schedule calendar events, send invitations and handle day-to-day tasks in a single click.",
         notificationsTitle: "Instant Notifications",
-        notificationsDescription: "Instant alerts when something needs your attention: unpaid fees, absences, new enquiries or upcoming events.",
+        notificationsDescription:
+            "Instant alerts when something needs your attention: unpaid fees, absences, new enquiries or upcoming events.",
         calendarDescription:
             "Manage schedules, events, and key dates efficiently. Notify important events to the entire educational community.",
         calendarTitle: "School Calendar",
@@ -2231,7 +2376,8 @@ The Platform is hosted in data centres operated by leading infrastructure provid
         studentInvoicingDescription:
             "Each student's fees, services and receipts linked to their record, with payment status always in view.",
         organizationTitle: "School organisation",
-        organizationDescription: "Departments, staff, classrooms and resources organised from a single dashboard, with every student in their group and classroom.",
+        organizationDescription:
+            "Departments, staff, classrooms and resources organised from a single dashboard, with every student in their group and classroom.",
         classroomsTitle: "Classroom Management",
         classroomsDescription:
             "Organise classrooms, spaces and timetables to make the most of every room and avoid booking clashes between groups.",
@@ -2244,13 +2390,17 @@ The Platform is hosted in data centres operated by leading infrastructure provid
         mainDescription:
             "Free for all families on iOS and Android. Real-time notifications, secure photo sharing, grades, invoices, and direct messaging: everything school-related in one place.",
         androidIosTitle: "App for Android & iOS",
-        androidIosDescription: "Free on the App Store and Google Play. Families, students and teachers sign in with their own profile and see what is meant for them.",
+        androidIosDescription:
+            "Free on the App Store and Google Play. Families, students and teachers sign in with their own profile and see what is meant for them.",
         parentsConnectedTitle: "Families always up to date",
-        parentsConnectedDescription: "Attendance alerts, announcements, photos and messages reach their phone instantly, without relying on email or WhatsApp groups.",
+        parentsConnectedDescription:
+            "Attendance alerts, announcements, photos and messages reach their phone instantly, without relying on email or WhatsApp groups.",
         uploadPicturesTitle: "Share Moments",
-        uploadPicturesDescription: "Everyday photos and videos, shared securely and organised into albums for each student.",
+        uploadPicturesDescription:
+            "Everyday photos and videos, shared securely and organised into albums for each student.",
         uploadPicturesAndVideosTitle: "Real-Time Updates",
-        uploadPicturesAndVideosDescription: "Every post, notice or change reaches the right families instantly, based on their child's group.",
+        uploadPicturesAndVideosDescription:
+            "Every post, notice or change reaches the right families instantly, based on their child's group.",
         communicateAndGetAlbumsTitle: "Communication & Albums",
         communicateAndGetAlbumsDescription:
             "Direct messages and photo albums per student: each family receives their child's photos, sent securely from the app.",
@@ -2387,7 +2537,8 @@ The Platform is hosted in data centres operated by leading infrastructure provid
         financialAutomationDescription:
             "Per-activity rates, class bundles, family discounts, and partial payments, all handled automatically. Export to accounting with one click.",
         dailyLifeSectionTitle: "Built for the day-to-day of an academy",
-        dailyLifeSectionDescription: "Changing timetables, groups by level and fees per activity: Edena keeps every family informed and bills every class with no manual work.",
+        dailyLifeSectionDescription:
+            "Changing timetables, groups by level and fees per activity: Edena keeps every family informed and bills every class with no manual work.",
     },
     groups: {
         mainTitle: "One Platform for Your Entire School Network",
@@ -2461,7 +2612,16 @@ The Platform is hosted in data centres operated by leading infrastructure provid
                 items: ["Microsoft Excel", "Sage", "Holded", "SAP"],
             },
         },
-        floatingExtras: ["Slack", "Gmail", "Zoom", "Notion", "Dropbox", "Asana", "Trello", "Outlook"],
+        floatingExtras: [
+            "Slack",
+            "Gmail",
+            "Zoom",
+            "Notion",
+            "Dropbox",
+            "Asana",
+            "Trello",
+            "Outlook",
+        ],
     },
     integrationsSection: {
         title: "Integrations",
@@ -2809,8 +2969,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
     },
     verifactuDeclarationPage: {
         title: "Responsible declaration of the invoicing system",
-        intro:
-            "Edena Software S.L., as producer of the Edena invoicing system, declares under its own responsibility that the system complies with the Regulation approved by Royal Decree 1007/2023 (VERI*FACTU) and Order HAC/1177/2024.",
+        intro: "Edena Software S.L., as producer of the Edena invoicing system, declares under its own responsibility that the system complies with the Regulation approved by Royal Decree 1007/2023 (VERI*FACTU) and Order HAC/1177/2024.",
         aeatNote:
             "The Spanish Tax Agency (AEAT) does not certify or approve invoicing software: each producer attests that its system complies through this responsible declaration (declaración responsable). The same declaration is available inside the application.",
         languageNote:
@@ -3430,7 +3589,8 @@ For any questions related to this Agreement you can write to us at privacidad@ed
                     answer: "Yes. Conversations and announcements are kept with their history, organised by family and student, so you can look them up whenever you need.",
                 },
                 {
-                    question: "What does the base platform include, and what does the Communication module add?",
+                    question:
+                        "What does the base platform include, and what does the Communication module add?",
                     answer: "The base platform includes basic communication and family sign-up. The Communication module adds real-time chat, push notifications with read receipts and messages by group or class.",
                 },
             ],

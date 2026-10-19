@@ -35,11 +35,28 @@ export default {
         stages: ["Nou", "Contactat", "Qualificat", "Proposta", "Negociació", "Guanyat"],
         activity: "Activitat",
         components: "Components",
-        fieldTypes: ["Text curt", "Email", "Telèfon", "Número", "Desplegable", "Text llarg", "Casella"],
+        fieldTypes: [
+            "Text curt",
+            "Email",
+            "Telèfon",
+            "Número",
+            "Desplegable",
+            "Text llarg",
+            "Casella",
+        ],
         saveForm: "Desa el formulari",
         welcomeBack: "Benvingut de nou!",
         appSections: ["Comunicació", "Gestió del centre", "Agenda", "Finances"],
-        appTiles: ["Crear publicació", "Crear esdeveniment", "Fitxar", "Classes", "Informes diaris", "Calendari", "Factures", "Albarans"],
+        appTiles: [
+            "Crear publicació",
+            "Crear esdeveniment",
+            "Fitxar",
+            "Classes",
+            "Informes diaris",
+            "Calendari",
+            "Factures",
+            "Albarans",
+        ],
         studentTabs: ["Informació general", "Assistència", "Facturació", "Avaluacions"],
         takeAttendance: "Passar llista",
         active: "Actiu",
@@ -115,7 +132,7 @@ export default {
         invoicesBody: "847 famílies · amb registre Verifactu",
         enrolTitle: "3 noves sol·licituds de matrícula",
         enrolBody: "Des del formulari del teu web",
-        messageTitle: "Laura Torres",
+        messageTitle: "María Torres",
         messageBody: "Gràcies per les fotos de l'excursió!",
         attendanceTitle: "Assistència de 3r A registrada",
         attendanceBody: "24 de 25 alumnes presents",
@@ -147,7 +164,8 @@ export default {
         groupManagement: "Gestió del centre",
         groupSecurity: "Seguretat i privacitat",
         stillTitle: "No trobes la teva resposta?",
-        stillDescription: "Escriu-nos i et responem nosaltres, o demana una demostració i ho veiem junts sobre el teu centre.",
+        stillDescription:
+            "Escriu-nos i et responem nosaltres, o demana una demostració i ho veiem junts sobre el teu centre.",
     },
     legalPage: {
         onThisPage: "En aquesta pàgina",
@@ -162,7 +180,14 @@ export default {
         network: "Xarxa de centres",
         centresCount: "{n} centres",
         kpis: ["Alumnes", "Assistència", "Cobrat"],
-        centres: ["Col·legi Mirador", "Col·legi Ribera", "Col·legi Montecillo", "Escola Bressol Brisa", "Col·legi Las Lomas", "Acadèmia Puerto"],
+        centres: [
+            "Col·legi Mirador",
+            "Col·legi Ribera",
+            "Col·legi Montecillo",
+            "Escola Bressol Brisa",
+            "Col·legi Las Lomas",
+            "Acadèmia Puerto",
+        ],
         centresShort: ["Mirador", "Ribera", "Montecillo", "Brisa", "Las Lomas", "Puerto"],
         cities: ["Madrid", "Sevilla", "València", "Bilbao", "Màlaga", "Barcelona"],
         students: "alumnes",
@@ -217,8 +242,22 @@ export default {
         year: "Curs 2025-2026",
         inProgress: "En curs",
         yearClosed: "Curs tancat",
-        milestones: ["Matrícula oberta", "Rebuts de setembre", "1a avaluació", "Comunicació amb famílies", "2a avaluació", "Butlletí final"],
-        details: ["486 alumnes matriculats", "Domiciliats amb Verifactu", "486 butlletins enviats", "Circulars llegides al 94 %", "486 butlletins enviats", "Curs tancat sense paper"],
+        milestones: [
+            "Matrícula oberta",
+            "Rebuts de setembre",
+            "1a avaluació",
+            "Comunicació amb famílies",
+            "2a avaluació",
+            "Butlletí final",
+        ],
+        details: [
+            "486 alumnes matriculats",
+            "Domiciliats amb Verifactu",
+            "486 butlletins enviats",
+            "Circulars llegides al 94 %",
+            "486 butlletins enviats",
+            "Curs tancat sense paper",
+        ],
         kpis: ["Alumnes", "Butlletins enviats", "Facturat al curs", "Assistència mitjana"],
         newMark: "Nova qualificació",
         tutor: "Tutora: Ana Martín",
@@ -237,7 +276,12 @@ export default {
         sentTo: "Agenda enviada a {n} famílies",
         today: "Avui",
         feedItems: ["Ha arribat", "Dinar", "Migdiada", "Fotos noves"],
-        feedDetails: ["Ha arribat contenta", "Ho ha menjat tot", "1 h 35 min · Ha descansat bé", "3 fotos del taller de pintura"],
+        feedDetails: [
+            "Ha arribat contenta",
+            "Ho ha menjat tot",
+            "1 h 35 min · Ha descansat bé",
+            "3 fotos del taller de pintura",
+        ],
         present: "Present",
         age: "18 mesos",
         sections: ["Assistència", "Àpats", "Migdiada", "Incidències", "Nota de desenvolupament"],
@@ -258,7 +302,14 @@ export default {
         weekTasks: "Tasques de la setmana",
         newTask: "Nova tasca",
         subjects: ["Matemàtiques", "Llengua", "Ciències", "Anglès", "Història"],
-        tasks: ["Fitxes de fraccions", "Comentari de text", "Listening unit 4", "Problemes de geometria", "Línia del temps", "Redacció: el meu barri"],
+        tasks: [
+            "Fitxes de fraccions",
+            "Comentari de text",
+            "Listening unit 4",
+            "Problemes de geometria",
+            "Línia del temps",
+            "Redacció: el meu barri",
+        ],
         newTaskTitle: "Maqueta del sistema solar",
         due: "Lliurament",
         reminder: "Recordatori 24 h abans",
@@ -283,15 +334,40 @@ export default {
         kpis: ["Assistència avui", "Cobrat aquest mes", "Alumnes", "Missatges llegits"],
         collections: "Cobraments del mes",
         alerts: "Alertes",
-        alertItems: ["3 rebuts retornats aquest mes", "Nova sol·licitud de matrícula", "Absència sense justificar · 2n B"],
+        alertItems: [
+            "3 rebuts retornats aquest mes",
+            "Nova sol·licitud de matrícula",
+            "Absència sense justificar · 2n B",
+        ],
         times: ["Ara", "Fa 2 min", "Fa 5 min", "Fa 12 min", "Fa 1 h"],
         notifications: "Notificacions",
         today: "Avui",
         markRead: "Marcar-les totes com a llegides",
-        notifItems: ["Excursió al museu demà", "Nou missatge d'una família", "Pagament rebut", "Nova sol·licitud de matrícula", "Rebut retornat"],
-        notifDetails: ["3r A · 09:00", "Laura Torres · 1r ESO", "María García · 731,50 €", "Casal d'estiu · Lucía García", "Pedro Castro · Domiciliació"],
+        notifItems: [
+            "Excursió al museu demà",
+            "Nou missatge d'una família",
+            "Pagament rebut",
+            "Nova sol·licitud de matrícula",
+            "Rebut retornat",
+        ],
+        notifDetails: [
+            "3r A · 09:00",
+            "María Torres · 1r ESO",
+            "María García · 731,50 €",
+            "Casal d'estiu · Lucía García",
+            "Pedro Castro · Domiciliació",
+        ],
         quickTitle: "Accions ràpides",
-        quickActions: ["Fitxar avui", "Crear bestreta", "Crear estudiant", "Crear tutor", "Convidar administrador", "Crear esdeveniment", "Crear lead", "Crear assignatura"],
+        quickActions: [
+            "Fitxar avui",
+            "Crear bestreta",
+            "Crear estudiant",
+            "Crear tutor",
+            "Convidar administrador",
+            "Crear esdeveniment",
+            "Crear lead",
+            "Crear assignatura",
+        ],
         upcoming: "Propers esdeveniments",
         noEvents: "No hi ha esdeveniments",
         newEvent: "Reunió de famílies · 1r ESO",
@@ -322,10 +398,16 @@ export default {
         byEdena: "by edena",
         modes: ["Ena", "Pregunta"],
         quick: ["Veure conceptes", "Veure descomptes", "Propers esdeveniments", "Resum de l'org"],
-        quickHints: ["Conceptes actius", "Descomptes disponibles", "Esdeveniments propers", "Resum general"],
+        quickHints: [
+            "Conceptes actius",
+            "Descomptes disponibles",
+            "Esdeveniments propers",
+            "Resum general",
+        ],
         placeholder: "Transforma idees en accions: crea, edita, elimina o pregunta…",
         summaryPrompt: "Fes-me un resum de l'organització",
-        summaryAnswer: "Així va el teu centre avui: tot en ordre, amb 12 sol·licituds noves pendents de revisar.",
+        summaryAnswer:
+            "Així va el teu centre avui: tot en ordre, amb 12 sol·licituds noves pendents de revisar.",
         summaryLabels: ["Alumnes", "Assistència avui", "Cobrat aquest mes", "Sol·licituds noves"],
         enrolmentTrend: "Matrícules vs. curs passat",
         chips: ["Veure sol·licituds", "Enviar a direcció"],
@@ -340,7 +422,12 @@ export default {
         completed: "Completat",
         inProgress: "En curs",
         decimal: ",",
-        taskSteps: ["Assistència de 3r A registrada", "1 absència sense justificar detectada", "Avís enviat a la família", "Anotat a l'historial de l'alumne"],
+        taskSteps: [
+            "Assistència de 3r A registrada",
+            "1 absència sense justificar detectada",
+            "Avís enviat a la família",
+            "Anotat a l'historial de l'alumne",
+        ],
         taskMeta: ["24/25", "Hugo F.", "09:02", "09:02"],
     },
     workflowScenes: {
@@ -356,11 +443,21 @@ export default {
         chooseEvent: "Tria un esdeveniment",
         scopes: ["Extraescolars", "Facturació", "Avaluacions", "CRM", "Comunicació"],
         extraEvent: "Sol·licitud extraescolar creada",
-        billingEvents: ["Factura creada", "Pagament rebut", "Rebut retornat", "Cicle de facturació tancat"],
+        billingEvents: [
+            "Factura creada",
+            "Pagament rebut",
+            "Rebut retornat",
+            "Cicle de facturació tancat",
+        ],
         ranIn: "Executat en 0,4 s",
         insertStep: "Inserir pas",
         stepTypes: ["Acció", "Condicional", "Paral·lel", "Unió"],
-        stepDescs: ["Executa una tasca", "Defineix la lògica d'encaminament", "Executa diverses branques alhora", "Espera que acabin totes les branques"],
+        stepDescs: [
+            "Executa una tasca",
+            "Defineix la lògica d'encaminament",
+            "Executa diverses branques alhora",
+            "Espera que acabin totes les branques",
+        ],
         conditionRule: "Si l'import supera 100 €",
         willRun: "S'executarà amb cada pagament rebut",
         sendReceipt: "Enviar rebut a la família",
@@ -372,7 +469,12 @@ export default {
         avgTime: "Temps mitjà",
         completed: "Completat",
         running: "En curs",
-        workflowNames: ["Sol·licitud extraescolar rebuda", "Avís de factura", "Benvinguda a famílies noves", "Absència sense justificar"],
+        workflowNames: [
+            "Sol·licitud extraescolar rebuda",
+            "Avís de factura",
+            "Benvinguda a famílies noves",
+            "Absència sense justificar",
+        ],
     },
     trackingScenes: {
         dailyReports: "Registrar informes diaris",
@@ -391,7 +493,7 @@ export default {
         observations: "Observacions del dia",
         observationText: "Ha participat molt en la lectura en veu alta.",
         correctWithEna: "Corregir amb l'Ena",
-        greeting: "Bon dia, Laura",
+        greeting: "Bon dia, María",
         clockIn: "Fitxar entrada",
         clockOut: "Fitxar sortida",
         onShift: "En torn",
@@ -410,13 +512,29 @@ export default {
         inspectionReady: "A punt per a la inspecció",
         views: ["Dia", "Setmana", "Mes"],
         today: "Avui",
-        teamEvents: ["Reunió tutoria familiar", "Entrega de material", "Activitat de natació", "Xerrada d'orientació", "Excursió al parc natural", "Cloenda club de ciències", "Assemblea AFA", "Revisió de butlletins"],
+        teamEvents: [
+            "Reunió tutoria familiar",
+            "Entrega de material",
+            "Activitat de natació",
+            "Xerrada d'orientació",
+            "Excursió al parc natural",
+            "Cloenda club de ciències",
+            "Assemblea AFA",
+            "Revisió de butlletins",
+        ],
         staffMeeting: "Claustre trimestral",
         everyone: "A l'agenda de tot l'equip",
     },
     shopScenes: {
         shop: "Botiga",
-        products: ["Cartolines A3", "Xandall curt", "Xandall llarg", "Llibres I-2", "Motxilla", "Tisores"],
+        products: [
+            "Cartolines A3",
+            "Xandall curt",
+            "Xandall llarg",
+            "Llibres I-2",
+            "Motxilla",
+            "Tisores",
+        ],
         size: "Talla",
         addToCart: "Afegir al carret",
         added: "Afegit",
@@ -428,7 +546,14 @@ export default {
         savedCard: "Targeta desada",
         newCategory: "Nova categoria",
         addArticle: "Afegir article",
-        categories: ["Cantina i snacks", "Higiene i salut", "Llibres i lectura", "Material d'art", "Material esportiu", "Uniformes"],
+        categories: [
+            "Cantina i snacks",
+            "Higiene i salut",
+            "Llibres i lectura",
+            "Material d'art",
+            "Material esportiu",
+            "Uniformes",
+        ],
         articles: "articles",
         articleName: "Dessuadora del centre",
         name: "Nom",
@@ -486,7 +611,17 @@ export default {
         monthly: "Mensual",
         single: "Pagament únic",
         full: "Complet",
-        activityNames: ["Escacs", "Atletisme", "Bateria", "Coral", "Dansa", "Futbol", "Robòtica", "Anglès", "Teatre"],
+        activityNames: [
+            "Escacs",
+            "Atletisme",
+            "Bateria",
+            "Coral",
+            "Dansa",
+            "Futbol",
+            "Robòtica",
+            "Anglès",
+            "Teatre",
+        ],
         tabs: ["Informació general", "Estudiants", "Sol·licituds"],
         basicInfo: "Informació bàsica",
         availability: "Disponibilitat",
@@ -626,7 +761,8 @@ export default {
         contactDescription:
             "Parla amb l'equip d'Edena sobre el programari de gestió escolar: preus, Verifactu, migració de dades o una demo per al teu centre. Et responem de seguida.",
         blogTitle: "Blog de Gestió Escolar | Guies per a Centres · Edena",
-        blogDescription: "Guies pràctiques sobre gestió escolar, Verifactu, cobraments, matrícules, comunicació amb famílies i IA per a col·legis, escoles bressol i acadèmies.",
+        blogDescription:
+            "Guies pràctiques sobre gestió escolar, Verifactu, cobraments, matrícules, comunicació amb famílies i IA per a col·legis, escoles bressol i acadèmies.",
     },
     hero: {
         mainTitle: "El programari de gestió escolar per a cobraments, expedients i famílies",
@@ -698,8 +834,7 @@ export default {
         financeDescription:
             "Facturació amb Verifactu, rebuts SEPA i control d'impagaments, sense empaitar cobraments.",
         app: "Edena App",
-        appDescription:
-            "L'app gratuïta per a famílies, alumnes i professors a iOS i Android.",
+        appDescription: "L'app gratuïta per a famílies, alumnes i professors a iOS i Android.",
         crm: "CRM escolar",
         crmDescription:
             "Sol·licituds de matrícula, formularis al teu web i un tauler per etapes per captar més alumnes.",
@@ -708,13 +843,11 @@ export default {
             "Planifica tasques, registra notes i genera els butlletins automàticament.",
         pricing: "Preus",
         pricingAcademies: "Acadèmies",
-        pricingAcademiesDescription:
-            "Idiomes, música, dansa, reforç i més.",
+        pricingAcademiesDescription: "Idiomes, música, dansa, reforç i més.",
         pricingAcademiesPrice: "Des de 0,60 €",
         pricingAcademiesUnit: "per alumne",
         pricingCenters: "Centres Educatius",
-        pricingCentersDescription:
-            "Escoles, escoles bressol i grups educatius.",
+        pricingCentersDescription: "Escoles, escoles bressol i grups educatius.",
         pricingCentersPrice: "Des de 36 €",
         pricingCentersUnit: "al mes",
         contact: "Contacta'ns",
@@ -874,27 +1007,33 @@ export default {
             "De la matrícula al butlletí, de l'assistència al cobrament: Edena centralitza tota l'operativa del teu centre en una sola plataforma intuïtiva.",
         digitalRecords: {
             title: "Expedients digitals",
-            tagline: "L'historial, l'assistència i els documents de cada alumne, segurs i sempre a mà.",
+            tagline:
+                "L'historial, l'assistència i els documents de cada alumne, segurs i sempre a mà.",
         },
         mobileApp: {
             title: "App mòbil",
-            tagline: "Avisos, missatges, fotos i pagaments en una app gratuïta per a famílies i professors.",
+            tagline:
+                "Avisos, missatges, fotos i pagaments en una app gratuïta per a famílies i professors.",
         },
         documentManagement: {
             title: "Panell de control",
-            tagline: "Assistència, cobraments i matrícules del teu centre en temps real, en un únic panell.",
+            tagline:
+                "Assistència, cobraments i matrícules del teu centre en temps real, en un únic panell.",
         },
         familyPortal: {
             title: "Portal familiar",
-            tagline: "Les famílies consulten notes, rebuts i novetats dels seus fills des de qualsevol dispositiu.",
+            tagline:
+                "Les famílies consulten notes, rebuts i novetats dels seus fills des de qualsevol dispositiu.",
         },
         staffManagement: {
             title: "Grups educatius",
-            tagline: "Gestiona diversos centres des d'una sola plataforma, amb informes de tota la xarxa.",
+            tagline:
+                "Gestiona diversos centres des d'una sola plataforma, amb informes de tota la xarxa.",
         },
         calendarIntegration: {
             title: "Tasques i avaluacions",
-            tagline: "Planifica tasques, registra qualificacions i genera els butlletins automàticament.",
+            tagline:
+                "Planifica tasques, registra qualificacions i genera els butlletins automàticament.",
         },
         guardianFeatures: {
             title: "Per a famílies i tutors",
@@ -1054,7 +1193,8 @@ export default {
             },
             assignment: {
                 title: "Assignació de responsables",
-                tagline: "Assigna cada sol·licitud a una persona de l'equip perquè cap família es quedi sense resposta.",
+                tagline:
+                    "Assigna cada sol·licitud a una persona de l'equip perquè cap família es quedi sense resposta.",
             },
             origin: {
                 title: "Origen multicanal",
@@ -1482,8 +1622,7 @@ export default {
                 },
                 complete: {
                     name: "Pack Acadèmia 360",
-                    tagline:
-                        "Tot Edena en un pack: les tasques repetitives es fan soles amb Ena.",
+                    tagline: "Tot Edena en un pack: les tasques repetitives es fan soles amb Ena.",
                     bestFor: "vols digitalitzar-ho tot i deixar de repetir tasques cada setmana.",
                 },
             },
@@ -2042,17 +2181,23 @@ export default {
         centers_cost_savings_answer:
             "Els centres que usen Edena informen reduccions de fins a un 40% en costos administratius, un 75% menys de temps en incorporació de famílies i estalvi de més de 37 hores setmanals en tasques rutinàries.",
         crm_custom_stages: "Puc adaptar les etapes al meu procés d'admissió?",
-        crm_custom_stages_answer: "Sí. Les etapes de partida s'adapten al procés del teu centre: en pots canviar el nom o ajustar-les. El canvi d'estat segueix sent un clic i cada moviment queda a l'historial.",
+        crm_custom_stages_answer:
+            "Sí. Les etapes de partida s'adapten al procés del teu centre: en pots canviar el nom o ajustar-les. El canvi d'estat segueix sent un clic i cada moviment queda a l'historial.",
         crm_after_won: "Què passa quan una sol·licitud passa a Guanyat?",
-        crm_after_won_answer: "Les dades de la família queden a punt per completar l'alta de l'alumne. Si tens el mòdul d'Automatització, pots configurar que l'alta es creï sola en confirmar la matrícula.",
+        crm_after_won_answer:
+            "Les dades de la família queden a punt per completar l'alta de l'alumne. Si tens el mòdul d'Automatització, pots configurar que l'alta es creï sola en confirmar la matrícula.",
         crm_plan: "Quin pla inclou el CRM escolar?",
-        crm_plan_answer: "Als centres educatius és un mòdul que actives sobre la plataforma base. A les acadèmies ve inclòs al Pack Finances i al Pack Acadèmia 360.",
+        crm_plan_answer:
+            "Als centres educatius és un mòdul que actives sobre la plataforma base. A les acadèmies ve inclòs al Pack Finances i al Pack Acadèmia 360.",
         assignment_grade_calculation: "Com es calcula la nota de cada període?",
-        assignment_grade_calculation_answer: "Defineixes mitjanes ponderades i rúbriques segons com avalua el teu centre. Edena calcula la nota de cada període i la incorpora al butlletí, sense fulls de càlcul.",
+        assignment_grade_calculation_answer:
+            "Defineixes mitjanes ponderades i rúbriques segons com avalua el teu centre. Edena calcula la nota de cada període i la incorpora al butlletí, sense fulls de càlcul.",
         assignment_who_enters_grades: "Qui registra les qualificacions?",
-        assignment_who_enters_grades_answer: "El professorat introdueix les notes de les seves assignatures i grups, i la coordinació consulta el conjunt abans de generar els butlletins.",
+        assignment_who_enters_grades_answer:
+            "El professorat introdueix les notes de les seves assignatures i grups, i la coordinació consulta el conjunt abans de generar els butlletins.",
         assignment_report_cards_app: "On veuen les famílies el butlletí?",
-        assignment_report_cards_app_answer: "Quan el publiques, la família el consulta a l'app i al portal, sense correu ni paper. Tu decideixes el nivell de detall que es mostra.",
+        assignment_report_cards_app_answer:
+            "Quan el publiques, la família el consulta a l'app i al portal, sense correu ni paper. Tu decideixes el nivell de detall que es mostra.",
     },
     privacyPolicy: {
         title: "Política de privacitat",
@@ -2519,7 +2664,8 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         parentsConnectedDescription:
             "Avisos d'assistència, circulars, fotos i missatges arriben al mòbil a l'instant, sense dependre del correu ni dels grups de WhatsApp.",
         uploadPicturesTitle: "Comparteix moments",
-        uploadPicturesDescription: "Fotos i vídeos del dia a dia, enviats de manera segura i organitzats en àlbums per alumne.",
+        uploadPicturesDescription:
+            "Fotos i vídeos del dia a dia, enviats de manera segura i organitzats en àlbums per alumne.",
         uploadPicturesAndVideosTitle: "Actualitzacions en temps real",
         uploadPicturesAndVideosDescription:
             "Cada publicació, avís o canvi arriba a l'instant a les famílies que toca, segons el grup del seu fill.",
@@ -2659,7 +2805,8 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         financialAutomationDescription:
             "Tarifes per activitat, bons, descomptes familiars i pagaments parcials gestionats automàticament. Exporta a comptabilitat amb un clic.",
         dailyLifeSectionTitle: "Pensat per al dia a dia d'una acadèmia",
-        dailyLifeSectionDescription: "Horaris que canvien, grups per nivell i tarifes per activitat: Edena avisa cada família i factura cada classe sense feina manual.",
+        dailyLifeSectionDescription:
+            "Horaris que canvien, grups per nivell i tarifes per activitat: Edena avisa cada família i factura cada classe sense feina manual.",
     },
     groups: {
         mainTitle: "Una sola plataforma per a tota la teva xarxa de centres",
@@ -2733,7 +2880,16 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
                 items: ["Microsoft Excel", "Sage", "Holded", "SAP"],
             },
         },
-        floatingExtras: ["Slack", "Gmail", "Zoom", "Notion", "Dropbox", "Asana", "Trello", "Outlook"],
+        floatingExtras: [
+            "Slack",
+            "Gmail",
+            "Zoom",
+            "Notion",
+            "Dropbox",
+            "Asana",
+            "Trello",
+            "Outlook",
+        ],
     },
     integrationsSection: {
         title: "Integracions",
@@ -2833,8 +2989,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
     },
     verifactuDeclarationPage: {
         title: "Declaració responsable del sistema de facturació",
-        intro:
-            "Edena Software S.L., com a productora del sistema informàtic de facturació Edena, declara sota la seva responsabilitat que el sistema compleix el Reglament aprovat pel Reial Decret 1007/2023 (VERI*FACTU) i l'Ordre HAC/1177/2024.",
+        intro: "Edena Software S.L., com a productora del sistema informàtic de facturació Edena, declara sota la seva responsabilitat que el sistema compleix el Reglament aprovat pel Reial Decret 1007/2023 (VERI*FACTU) i l'Ordre HAC/1177/2024.",
         aeatNote:
             "L'Agència Tributària no certifica ni homologa programes de facturació: cada productor acredita que el seu sistema compleix mitjançant aquesta declaració responsable. La mateixa declaració està disponible dins de l'aplicació.",
         languageNote:
@@ -3017,7 +3172,8 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
                     answer: "Sí. Cada activitat té la seva franja d'edat, el monitor assignat, els horaris setmanals i el concepte de cobrament, i les famílies envien la sol·licitud d'inscripció en línia.",
                 },
                 {
-                    question: "Els cobraments d'extraescolars apareixen a la facturació del centre?",
+                    question:
+                        "Els cobraments d'extraescolars apareixen a la facturació del centre?",
                     answer: "Sí. Cada inscripció queda vinculada al seu concepte de cobrament, de manera que les activitats es facturen i es concilien amb la resta de rebuts del centre, sense fulls de càlcul a part.",
                 },
                 {
@@ -3456,7 +3612,8 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
                     answer: "Sí. Converses i comunicats es desen amb el seu historial, organitzats per família i alumne, per consultar-los sempre que ho necessitis.",
                 },
                 {
-                    question: "Què inclou la plataforma base i què afegeix el mòdul de Comunicació?",
+                    question:
+                        "Què inclou la plataforma base i què afegeix el mòdul de Comunicació?",
                     answer: "La plataforma base inclou la comunicació bàsica i l'alta de famílies. El mòdul de Comunicació afegeix el xat en temps real, els avisos al mòbil amb confirmació de lectura i els enviaments per grup o aula.",
                 },
             ],

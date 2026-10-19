@@ -35,11 +35,28 @@ export default {
         stages: ["Nouveau", "Contacté", "Qualifié", "Proposition", "Négociation", "Gagné"],
         activity: "Activité",
         components: "Composants",
-        fieldTypes: ["Texte court", "E-mail", "Téléphone", "Nombre", "Liste déroulante", "Texte long", "Case à cocher"],
+        fieldTypes: [
+            "Texte court",
+            "E-mail",
+            "Téléphone",
+            "Nombre",
+            "Liste déroulante",
+            "Texte long",
+            "Case à cocher",
+        ],
         saveForm: "Enregistrer le formulaire",
         welcomeBack: "Bon retour !",
         appSections: ["Communication", "Gestion de l'établissement", "Agenda", "Finances"],
-        appTiles: ["Créer une publication", "Créer un événement", "Pointer", "Classes", "Rapports quotidiens", "Calendrier", "Factures", "Bons de livraison"],
+        appTiles: [
+            "Créer une publication",
+            "Créer un événement",
+            "Pointer",
+            "Classes",
+            "Rapports quotidiens",
+            "Calendrier",
+            "Factures",
+            "Bons de livraison",
+        ],
         studentTabs: ["Informations générales", "Présence", "Facturation", "Évaluations"],
         takeAttendance: "Faire l'appel",
         active: "Actif",
@@ -115,7 +132,7 @@ export default {
         invoicesBody: "847 familles · registre Verifactu inclus",
         enrolTitle: "3 nouvelles demandes d'inscription",
         enrolBody: "Depuis le formulaire de votre site",
-        messageTitle: "Laura Torres",
+        messageTitle: "María Torres",
         messageBody: "Merci pour les photos de la sortie !",
         attendanceTitle: "Présences de la classe 3A enregistrées",
         attendanceBody: "24 élèves présents sur 25",
@@ -147,7 +164,8 @@ export default {
         groupManagement: "Gestion de l’établissement",
         groupSecurity: "Sécurité et confidentialité",
         stillTitle: "Vous ne trouvez pas votre réponse ?",
-        stillDescription: "Écrivez-nous et nous vous répondrons, ou demandez une démonstration et nous verrons ensemble votre établissement.",
+        stillDescription:
+            "Écrivez-nous et nous vous répondrons, ou demandez une démonstration et nous verrons ensemble votre établissement.",
     },
     legalPage: {
         onThisPage: "Sur cette page",
@@ -162,7 +180,14 @@ export default {
         network: "Réseau d'établissements",
         centresCount: "{n} établissements",
         kpis: ["Élèves", "Présence", "Encaissé"],
-        centres: ["École Mirador", "École Ribera", "École Montecillo", "Crèche Brisa", "École Las Lomas", "Académie Puerto"],
+        centres: [
+            "École Mirador",
+            "École Ribera",
+            "École Montecillo",
+            "Crèche Brisa",
+            "École Las Lomas",
+            "Académie Puerto",
+        ],
         centresShort: ["Mirador", "Ribera", "Montecillo", "Brisa", "Las Lomas", "Puerto"],
         cities: ["Madrid", "Séville", "Valence", "Bilbao", "Malaga", "Barcelone"],
         students: "élèves",
@@ -174,7 +199,8 @@ export default {
         series: "Série",
         seriesCodes: ["MIR-26", "RIB-26", "MON-26", "BRI-26", "LOM-26", "PUE-26"],
         newMessage: "Nouvelle annonce",
-        message: "Demain, journée portes ouvertes dans tous nos établissements. Nous vous attendons !",
+        message:
+            "Demain, journée portes ouvertes dans tous nos établissements. Nous vous attendons !",
         audience: "Destinataires",
         wholeNetwork: "Tout le réseau",
         send: "Envoyer",
@@ -217,8 +243,22 @@ export default {
         year: "Année 2025-2026",
         inProgress: "En cours",
         yearClosed: "Année clôturée",
-        milestones: ["Inscriptions ouvertes", "Factures de septembre", "1er trimestre", "Communication familles", "2e trimestre", "Bulletin final"],
-        details: ["486 élèves inscrits", "Prélevées avec Verifactu", "486 bulletins envoyés", "Circulaires lues à 94 %", "486 bulletins envoyés", "Année clôturée sans papier"],
+        milestones: [
+            "Inscriptions ouvertes",
+            "Factures de septembre",
+            "1er trimestre",
+            "Communication familles",
+            "2e trimestre",
+            "Bulletin final",
+        ],
+        details: [
+            "486 élèves inscrits",
+            "Prélevées avec Verifactu",
+            "486 bulletins envoyés",
+            "Circulaires lues à 94 %",
+            "486 bulletins envoyés",
+            "Année clôturée sans papier",
+        ],
         kpis: ["Élèves", "Bulletins envoyés", "Facturé sur l'année", "Présence moyenne"],
         newMark: "Nouvelle note",
         tutor: "Professeure principale : Ana Martín",
@@ -237,7 +277,12 @@ export default {
         sentTo: "Journée envoyée à {n} familles",
         today: "Aujourd'hui",
         feedItems: ["Arrivée", "Repas", "Sieste", "Nouvelles photos"],
-        feedDetails: ["Arrivée de bonne humeur", "A tout mangé", "1 h 35 min · Bien reposée", "3 photos de l'atelier peinture"],
+        feedDetails: [
+            "Arrivée de bonne humeur",
+            "A tout mangé",
+            "1 h 35 min · Bien reposée",
+            "3 photos de l'atelier peinture",
+        ],
         present: "Présente",
         age: "18 mois",
         sections: ["Présence", "Repas", "Sieste", "Incidents", "Note de développement"],
@@ -258,7 +303,14 @@ export default {
         weekTasks: "Devoirs de la semaine",
         newTask: "Nouveau devoir",
         subjects: ["Maths", "Français", "Sciences", "Anglais", "Histoire"],
-        tasks: ["Fiches de fractions", "Commentaire de texte", "Listening unit 4", "Problèmes de géométrie", "Frise chronologique", "Rédaction : mon quartier"],
+        tasks: [
+            "Fiches de fractions",
+            "Commentaire de texte",
+            "Listening unit 4",
+            "Problèmes de géométrie",
+            "Frise chronologique",
+            "Rédaction : mon quartier",
+        ],
         newTaskTitle: "Maquette du système solaire",
         due: "À rendre",
         reminder: "Rappel 24 h avant",
@@ -283,15 +335,40 @@ export default {
         kpis: ["Présence du jour", "Encaissé ce mois", "Élèves", "Messages lus"],
         collections: "Encaissements du mois",
         alerts: "Alertes",
-        alertItems: ["3 prélèvements rejetés ce mois", "Nouvelle demande d'inscription", "Absence non justifiée · 5e B"],
+        alertItems: [
+            "3 prélèvements rejetés ce mois",
+            "Nouvelle demande d'inscription",
+            "Absence non justifiée · 5e B",
+        ],
         times: ["Maintenant", "Il y a 2 min", "Il y a 5 min", "Il y a 12 min", "Il y a 1 h"],
         notifications: "Notifications",
         today: "Aujourd'hui",
         markRead: "Tout marquer comme lu",
-        notifItems: ["Sortie au musée demain", "Nouveau message d'une famille", "Paiement reçu", "Nouvelle demande d'inscription", "Prélèvement rejeté"],
-        notifDetails: ["CE2 A · 09:00", "Laura Torres · 6e", "María García · 731,50 €", "Stage d'été · Lucía García", "Pedro Castro · Prélèvement"],
+        notifItems: [
+            "Sortie au musée demain",
+            "Nouveau message d'une famille",
+            "Paiement reçu",
+            "Nouvelle demande d'inscription",
+            "Prélèvement rejeté",
+        ],
+        notifDetails: [
+            "CE2 A · 09:00",
+            "María Torres · 6e",
+            "María García · 731,50 €",
+            "Stage d'été · Lucía García",
+            "Pedro Castro · Prélèvement",
+        ],
         quickTitle: "Actions rapides",
-        quickActions: ["Pointer", "Créer une avance", "Ajouter un élève", "Ajouter un tuteur", "Inviter un admin", "Créer un événement", "Créer un prospect", "Créer une matière"],
+        quickActions: [
+            "Pointer",
+            "Créer une avance",
+            "Ajouter un élève",
+            "Ajouter un tuteur",
+            "Inviter un admin",
+            "Créer un événement",
+            "Créer un prospect",
+            "Créer une matière",
+        ],
         upcoming: "Événements à venir",
         noEvents: "Aucun événement",
         newEvent: "Réunion des parents · 6e",
@@ -325,7 +402,8 @@ export default {
         quickHints: ["Libellés actifs", "Remises disponibles", "À venir", "Vue d'ensemble"],
         placeholder: "Transformez vos idées en actions : créez, modifiez, supprimez ou demandez…",
         summaryPrompt: "Fais-moi un résumé de l'organisation",
-        summaryAnswer: "Voici votre établissement aujourd'hui : tout est en ordre, avec 12 nouvelles demandes à examiner.",
+        summaryAnswer:
+            "Voici votre établissement aujourd'hui : tout est en ordre, avec 12 nouvelles demandes à examiner.",
         summaryLabels: ["Élèves", "Présence du jour", "Encaissé ce mois", "Nouvelles demandes"],
         enrolmentTrend: "Inscriptions vs. l'an dernier",
         chips: ["Voir les demandes", "Envoyer à la direction"],
@@ -340,7 +418,12 @@ export default {
         completed: "Terminé",
         inProgress: "En cours",
         decimal: ",",
-        taskSteps: ["Présence de CE2 A enregistrée", "1 absence non justifiée détectée", "Famille prévenue", "Noté dans le dossier de l'élève"],
+        taskSteps: [
+            "Présence de CE2 A enregistrée",
+            "1 absence non justifiée détectée",
+            "Famille prévenue",
+            "Noté dans le dossier de l'élève",
+        ],
         taskMeta: ["24/25", "Hugo F.", "09:02", "09:02"],
     },
     workflowScenes: {
@@ -356,11 +439,21 @@ export default {
         chooseEvent: "Choisissez un événement",
         scopes: ["Périscolaire", "Facturation", "Évaluations", "CRM", "Communication"],
         extraEvent: "Demande d'activité créée",
-        billingEvents: ["Facture créée", "Paiement reçu", "Prélèvement rejeté", "Cycle de facturation clos"],
+        billingEvents: [
+            "Facture créée",
+            "Paiement reçu",
+            "Prélèvement rejeté",
+            "Cycle de facturation clos",
+        ],
         ranIn: "Exécuté en 0,4 s",
         insertStep: "Insérer une étape",
         stepTypes: ["Action", "Condition", "Parallèle", "Jonction"],
-        stepDescs: ["Exécute une tâche", "Définit la logique de routage", "Exécute plusieurs branches à la fois", "Attend la fin de toutes les branches"],
+        stepDescs: [
+            "Exécute une tâche",
+            "Définit la logique de routage",
+            "Exécute plusieurs branches à la fois",
+            "Attend la fin de toutes les branches",
+        ],
         conditionRule: "Si le montant dépasse 100 €",
         willRun: "S'exécutera à chaque paiement reçu",
         sendReceipt: "Envoyer le reçu à la famille",
@@ -372,7 +465,12 @@ export default {
         avgTime: "Temps moyen",
         completed: "Terminé",
         running: "En cours",
-        workflowNames: ["Demande d'activité reçue", "Avis de facture", "Bienvenue aux nouvelles familles", "Absence non justifiée"],
+        workflowNames: [
+            "Demande d'activité reçue",
+            "Avis de facture",
+            "Bienvenue aux nouvelles familles",
+            "Absence non justifiée",
+        ],
     },
     trackingScenes: {
         dailyReports: "Saisir les rapports du jour",
@@ -391,7 +489,7 @@ export default {
         observations: "Observations du jour",
         observationText: "A beaucoup participé à la lecture à voix haute.",
         correctWithEna: "Corriger avec Ena",
-        greeting: "Bonjour, Laura",
+        greeting: "Bonjour, María",
         clockIn: "Pointer l'arrivée",
         clockOut: "Pointer le départ",
         onShift: "En service",
@@ -401,7 +499,12 @@ export default {
         coffee: "Café",
         lunch: "Déjeuner",
         todayAgenda: "Agenda du jour",
-        agendaEvents: ["Réunion de cycle", "Surveillance de cour", "Cantine · 1er service", "Conseil des maîtres"],
+        agendaEvents: [
+            "Réunion de cycle",
+            "Surveillance de cour",
+            "Cantine · 1er service",
+            "Conseil des maîtres",
+        ],
         newEvent: "Rendez-vous famille",
         addedBy: "Ajouté par la direction",
         timesheet: "Pointage",
@@ -410,13 +513,29 @@ export default {
         inspectionReady: "Prêt pour un contrôle",
         views: ["Jour", "Semaine", "Mois"],
         today: "Aujourd'hui",
-        teamEvents: ["Réunion parents-tuteur", "Remise du matériel", "Séance de natation", "Réunion d'orientation", "Sortie au parc naturel", "Clôture du club sciences", "Assemblée des parents", "Revue des bulletins"],
+        teamEvents: [
+            "Réunion parents-tuteur",
+            "Remise du matériel",
+            "Séance de natation",
+            "Réunion d'orientation",
+            "Sortie au parc naturel",
+            "Clôture du club sciences",
+            "Assemblée des parents",
+            "Revue des bulletins",
+        ],
         staffMeeting: "Conseil trimestriel",
         everyone: "Dans l'agenda de toute l'équipe",
     },
     shopScenes: {
         shop: "Boutique",
-        products: ["Bristol A3", "Survêtement court", "Survêtement long", "Livres I-2", "Sac à dos", "Ciseaux"],
+        products: [
+            "Bristol A3",
+            "Survêtement court",
+            "Survêtement long",
+            "Livres I-2",
+            "Sac à dos",
+            "Ciseaux",
+        ],
         size: "Taille",
         addToCart: "Ajouter au panier",
         added: "Ajouté",
@@ -428,7 +547,14 @@ export default {
         savedCard: "Carte enregistrée",
         newCategory: "Nouvelle catégorie",
         addArticle: "Ajouter un article",
-        categories: ["Goûters", "Hygiène et santé", "Livres et lecture", "Arts plastiques", "Matériel de sport", "Uniformes"],
+        categories: [
+            "Goûters",
+            "Hygiène et santé",
+            "Livres et lecture",
+            "Arts plastiques",
+            "Matériel de sport",
+            "Uniformes",
+        ],
         articles: "articles",
         articleName: "Sweat de l'école",
         name: "Nom",
@@ -486,7 +612,17 @@ export default {
         monthly: "Mensuel",
         single: "Paiement unique",
         full: "Complet",
-        activityNames: ["Échecs", "Athlétisme", "Batterie", "Chorale", "Danse", "Football", "Robotique", "Anglais", "Théâtre"],
+        activityNames: [
+            "Échecs",
+            "Athlétisme",
+            "Batterie",
+            "Chorale",
+            "Danse",
+            "Football",
+            "Robotique",
+            "Anglais",
+            "Théâtre",
+        ],
         tabs: ["Informations générales", "Élèves", "Demandes"],
         basicInfo: "Informations de base",
         availability: "Disponibilités",
@@ -519,7 +655,8 @@ export default {
         messageIn: "Message dans",
         improveWithEna: "Améliorer avec Ena",
         draftRough: "sortie demain apporter repas et casquette",
-        draftPolished: "Pour rappel, demain c'est la sortie : prévoyez un repas et une casquette. Merci !",
+        draftPolished:
+            "Pour rappel, demain c'est la sortie : prévoyez un repas et une casquette. Merci !",
         circular: "Circulaire",
         circularTitle: "Sortie au musée : autorisation",
         fromDirection: "Direction de l'établissement",
@@ -626,10 +763,12 @@ export default {
         contactDescription:
             "Parlez à l'équipe Edena de notre logiciel de gestion scolaire : tarifs, Verifactu, migration des données ou démo pour votre établissement.",
         blogTitle: "Blog Gestion Scolaire | Guides pour Établissements · Edena",
-        blogDescription: "Guides pratiques sur la gestion scolaire, Verifactu, les paiements, les inscriptions, la communication avec les familles et l'IA pour écoles et académies.",
+        blogDescription:
+            "Guides pratiques sur la gestion scolaire, Verifactu, les paiements, les inscriptions, la communication avec les familles et l'IA pour écoles et académies.",
     },
     hero: {
-        mainTitle: "Le logiciel de gestion scolaire pour les encaissements, les dossiers et les familles",
+        mainTitle:
+            "Le logiciel de gestion scolaire pour les encaissements, les dossiers et les familles",
         mainDescription:
             "Facturation Verifactu et présences, dans un seul système. Plus de 37 heures gagnées par semaine, sans engagement.",
         mobileTitle: "Restez proches de chaque famille, sans effort supplémentaire",
@@ -708,13 +847,11 @@ export default {
             "Planifiez les devoirs, saisissez les notes et générez les bulletins automatiquement.",
         pricing: "Tarifs",
         pricingAcademies: "Académies",
-        pricingAcademiesDescription:
-            "Langues, musique, danse, soutien scolaire et plus.",
+        pricingAcademiesDescription: "Langues, musique, danse, soutien scolaire et plus.",
         pricingAcademiesPrice: "Dès 0,60 €",
         pricingAcademiesUnit: "par élève",
         pricingCenters: "Établissements",
-        pricingCentersDescription:
-            "Écoles, crèches et groupes scolaires.",
+        pricingCentersDescription: "Écoles, crèches et groupes scolaires.",
         pricingCentersPrice: "Dès 36 €",
         pricingCentersUnit: "par mois",
         contact: "Contactez-nous",
@@ -880,23 +1017,28 @@ export default {
         },
         mobileApp: {
             title: "Application mobile",
-            tagline: "Avis, messages, photos et paiements dans une appli gratuite pour familles et enseignants.",
+            tagline:
+                "Avis, messages, photos et paiements dans une appli gratuite pour familles et enseignants.",
         },
         documentManagement: {
             title: "Tableau de bord",
-            tagline: "Présences, encaissements et inscriptions de votre établissement en temps réel, sur un seul tableau de bord.",
+            tagline:
+                "Présences, encaissements et inscriptions de votre établissement en temps réel, sur un seul tableau de bord.",
         },
         familyPortal: {
             title: "Portail familles",
-            tagline: "Les familles consultent les notes, reçus et actualités de leurs enfants depuis n'importe quel appareil.",
+            tagline:
+                "Les familles consultent les notes, reçus et actualités de leurs enfants depuis n'importe quel appareil.",
         },
         staffManagement: {
             title: "Groupes scolaires",
-            tagline: "Gérez plusieurs établissements depuis une seule plateforme, avec des rapports sur tout le réseau.",
+            tagline:
+                "Gérez plusieurs établissements depuis une seule plateforme, avec des rapports sur tout le réseau.",
         },
         calendarIntegration: {
             title: "Devoirs et évaluations",
-            tagline: "Planifiez les devoirs, saisissez les notes et générez les bulletins automatiquement.",
+            tagline:
+                "Planifiez les devoirs, saisissez les notes et générez les bulletins automatiquement.",
         },
         guardianFeatures: {
             title: "Pour les familles et tuteurs",
@@ -1058,7 +1200,8 @@ export default {
             },
             assignment: {
                 title: "Attribution des responsables",
-                tagline: "Attribuez chaque demande à un membre de l’équipe pour qu’aucune famille ne reste sans réponse.",
+                tagline:
+                    "Attribuez chaque demande à un membre de l’équipe pour qu’aucune famille ne reste sans réponse.",
             },
             origin: {
                 title: "Origine multicanal",
@@ -1493,7 +1636,8 @@ export default {
                     name: "Pack Académie 360",
                     tagline:
                         "Tout Edena dans un pack : les tâches répétitives se font toutes seules avec Ena.",
-                    bestFor: "vous voulez tout digitaliser et cesser de répéter les mêmes tâches chaque semaine.",
+                    bestFor:
+                        "vous voulez tout digitaliser et cesser de répéter les mêmes tâches chaque semaine.",
                 },
             },
             notes: [
@@ -2063,17 +2207,23 @@ export default {
         centers_cost_savings_answer:
             "Les établissements utilisant Edena rapportent jusqu’à 40 % de réduction des coûts administratifs, 75 % de temps en moins pour intégrer les familles et plus de 37 heures hebdomadaires économisées sur les tâches répétitives.",
         crm_custom_stages: "Puis-je adapter les étapes à mon processus d’admission ?",
-        crm_custom_stages_answer: "Oui. Les étapes de départ s’adaptent au processus de votre établissement : vous pouvez les renommer ou les ajuster. Le changement de statut reste un clic et chaque mouvement reste dans l’historique.",
+        crm_custom_stages_answer:
+            "Oui. Les étapes de départ s’adaptent au processus de votre établissement : vous pouvez les renommer ou les ajuster. Le changement de statut reste un clic et chaque mouvement reste dans l’historique.",
         crm_after_won: "Que se passe-t-il quand une demande passe à Gagné ?",
-        crm_after_won_answer: "Les données de la famille sont prêtes pour finaliser l’inscription de l’élève. Avec le module Automatisation, vous pouvez faire créer l’inscription automatiquement dès que la demande est confirmée.",
+        crm_after_won_answer:
+            "Les données de la famille sont prêtes pour finaliser l’inscription de l’élève. Avec le module Automatisation, vous pouvez faire créer l’inscription automatiquement dès que la demande est confirmée.",
         crm_plan: "Quelle offre inclut le CRM scolaire ?",
-        crm_plan_answer: "Pour les établissements scolaires, c’est un module que vous activez sur la plateforme de base. Pour les académies, il est inclus dans le Pack Finances et le Pack Académie 360.",
+        crm_plan_answer:
+            "Pour les établissements scolaires, c’est un module que vous activez sur la plateforme de base. Pour les académies, il est inclus dans le Pack Finances et le Pack Académie 360.",
         assignment_grade_calculation: "Comment la note de chaque période est-elle calculée ?",
-        assignment_grade_calculation_answer: "Vous définissez moyennes pondérées et grilles d’évaluation selon la façon dont votre établissement note. Edena calcule la note de chaque période et l’ajoute au bulletin, sans tableur.",
+        assignment_grade_calculation_answer:
+            "Vous définissez moyennes pondérées et grilles d’évaluation selon la façon dont votre établissement note. Edena calcule la note de chaque période et l’ajoute au bulletin, sans tableur.",
         assignment_who_enters_grades: "Qui saisit les notes ?",
-        assignment_who_enters_grades_answer: "Les enseignants saisissent les notes de leurs matières et de leurs groupes, et la coordination consulte l’ensemble avant de générer les bulletins.",
+        assignment_who_enters_grades_answer:
+            "Les enseignants saisissent les notes de leurs matières et de leurs groupes, et la coordination consulte l’ensemble avant de générer les bulletins.",
         assignment_report_cards_app: "Où les familles consultent-elles le bulletin ?",
-        assignment_report_cards_app_answer: "Une fois publié, la famille le consulte dans l’appli et sur le portail, sans e-mail ni papier. Vous décidez du niveau de détail affiché.",
+        assignment_report_cards_app_answer:
+            "Une fois publié, la famille le consulte dans l’appli et sur le portail, sans e-mail ni papier. Vous décidez du niveau de détail affiché.",
     },
     privacyPolicy: {
         title: "Politique de confidentialité",
@@ -2477,7 +2627,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         quickActionsDescription:
             "Générez des factures, planifiez des événements, envoyez des invitations et réglez les démarches du quotidien en un seul clic.",
         notificationsTitle: "Notifications instantanées",
-        notificationsDescription: "Des alertes immédiates quand quelque chose demande votre attention : impayés, absences, nouvelles demandes ou événements à venir.",
+        notificationsDescription:
+            "Des alertes immédiates quand quelque chose demande votre attention : impayés, absences, nouvelles demandes ou événements à venir.",
         calendarDescription:
             "Gérez plannings, événements et dates clés efficacement. Notifiez les événements importants à toute la communauté éducative.",
         calendarTitle: "Calendrier scolaire",
@@ -2519,7 +2670,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         studentInvoicingDescription:
             "Les frais, services et reçus de chaque élève liés à son dossier, avec l'état des paiements toujours visible.",
         organizationTitle: "Organisation de l'établissement",
-        organizationDescription: "Services, personnel, salles et ressources organisés depuis un seul tableau de bord, avec chaque élève dans son groupe et sa salle.",
+        organizationDescription:
+            "Services, personnel, salles et ressources organisés depuis un seul tableau de bord, avec chaque élève dans son groupe et sa salle.",
         classroomsTitle: "Gestion des salles",
         classroomsDescription:
             "Organisez salles, espaces et emplois du temps pour mieux exploiter chaque salle et éviter les conflits de réservation entre groupes.",
@@ -2538,7 +2690,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         parentsConnectedDescription:
             "Alertes de présence, circulaires, photos et messages arrivent sur le téléphone instantanément, sans dépendre des e-mails ni des groupes WhatsApp.",
         uploadPicturesTitle: "Partagez les moments",
-        uploadPicturesDescription: "Les photos et vidéos du quotidien, envoyées en toute sécurité et classées en albums par élève.",
+        uploadPicturesDescription:
+            "Les photos et vidéos du quotidien, envoyées en toute sécurité et classées en albums par élève.",
         uploadPicturesAndVideosTitle: "Mises à jour en temps réel",
         uploadPicturesAndVideosDescription:
             "Chaque publication, avis ou changement arrive instantanément aux familles concernées, selon le groupe de leur enfant.",
@@ -2677,7 +2830,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         financialAutomationDescription:
             "Tarifs par activité, forfaits, remises familiales et paiements partiels gérés automatiquement. Export comptable en un clic.",
         dailyLifeSectionTitle: "Pensé pour le quotidien d'une académie",
-        dailyLifeSectionDescription: "Horaires qui changent, groupes par niveau et tarifs par activité : Edena prévient chaque famille et facture chaque cours sans travail manuel.",
+        dailyLifeSectionDescription:
+            "Horaires qui changent, groupes par niveau et tarifs par activité : Edena prévient chaque famille et facture chaque cours sans travail manuel.",
     },
     groups: {
         mainTitle: "Une seule plateforme pour tout votre réseau d’établissements",
@@ -2753,7 +2907,16 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                 items: ["Microsoft Excel", "Sage", "Holded", "SAP"],
             },
         },
-        floatingExtras: ["Slack", "Gmail", "Zoom", "Notion", "Dropbox", "Asana", "Trello", "Outlook"],
+        floatingExtras: [
+            "Slack",
+            "Gmail",
+            "Zoom",
+            "Notion",
+            "Dropbox",
+            "Asana",
+            "Trello",
+            "Outlook",
+        ],
     },
     integrationsSection: {
         title: "Intégrations",
@@ -2828,7 +2991,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         dashboardHero: "Tableau de bord scolaire Edena avec métriques et analytique en temps réel",
         studentsHero: "Système d’information élèves Edena avec gestion des dossiers scolaires",
         guardiansHero: "Portail familles Edena pour la communication et le suivi scolaire",
-        financeHero: "Facturation et paiements dans Edena : facturation automatique et gestion des paiements",
+        financeHero:
+            "Facturation et paiements dans Edena : facturation automatique et gestion des paiements",
         billingCycle: "Cycle de facturation automatisé Edena pour établissements scolaires",
         invoiceAnalytics: "Analytique financière et rapports de facturation dans Edena",
         emailInvoice: "Facturation électronique sans papier dans Edena",
@@ -2852,8 +3016,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
     },
     verifactuDeclarationPage: {
         title: "Déclaration responsable du système de facturation",
-        intro:
-            "Edena Software S.L., en tant qu'éditeur du système informatique de facturation Edena, déclare sous sa responsabilité que le système est conforme au règlement approuvé par le décret royal 1007/2023 (VERI*FACTU) et à l'arrêté HAC/1177/2024.",
+        intro: "Edena Software S.L., en tant qu'éditeur du système informatique de facturation Edena, déclare sous sa responsabilité que le système est conforme au règlement approuvé par le décret royal 1007/2023 (VERI*FACTU) et à l'arrêté HAC/1177/2024.",
         aeatNote:
             "L'Agence fiscale espagnole (AEAT) ne certifie ni n'homologue les logiciels de facturation : chaque éditeur atteste la conformité de son système par cette déclaration responsable (declaración responsable). La même déclaration est disponible dans l'application.",
         languageNote:
@@ -3036,7 +3199,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     answer: "Oui. Chaque activité a sa tranche d'âge, son animateur, ses créneaux hebdomadaires et son poste de facturation, et les familles envoient leur demande d'inscription en ligne.",
                 },
                 {
-                    question: "Les paiements des activités périscolaires apparaissent-ils dans la facturation ?",
+                    question:
+                        "Les paiements des activités périscolaires apparaissent-ils dans la facturation ?",
                     answer: "Oui. Chaque inscription est liée à son poste de facturation : les activités sont facturées et rapprochées avec les autres reçus de l'établissement, sans tableur à part.",
                 },
                 {
@@ -3145,7 +3309,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     answer: "Oui. Toute l'équipe de l'établissement, enseignants, administration, animateurs ou personnel de service, peut pointer et consulter l'agenda depuis son téléphone ou son navigateur.",
                 },
                 {
-                    question: "Comment cela aide-t-il lors d'un contrôle de l'inspection du travail ?",
+                    question:
+                        "Comment cela aide-t-il lors d'un contrôle de l'inspection du travail ?",
                     answer: "Le registre du temps de travail est conservé de manière fiable et vous pouvez l'exporter par salarié et par période à tout moment, prêt à être présenté à l'inspection du travail.",
                 },
                 {
@@ -3242,7 +3407,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     answer: "Une fois configurés, ils s'exécutent automatiquement lorsque le déclencheur est rempli, sans que vous ayez à intervenir.",
                 },
                 {
-                    question: "Quelles sont les automatisations les plus courantes dans un établissement ?",
+                    question:
+                        "Quelles sont les automatisations les plus courantes dans un établissement ?",
                     answer: "Relancer une facture impayée, prévenir la famille en cas d'absence, inscrire l'élève dès que l'inscription est confirmée ou générer chaque mois les factures récurrentes.",
                 },
                 {
@@ -3250,7 +3416,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     answer: "Oui. En plus du déclencheur, vous définissez des conditions pour que chaque action ne s'exécute que lorsqu'elles sont remplies, par exemple uniquement pour un niveau ou un groupe.",
                 },
                 {
-                    question: "Les automatisations peuvent-elles envoyer des communiqués aux familles ?",
+                    question:
+                        "Les automatisations peuvent-elles envoyer des communiqués aux familles ?",
                     answer: "Oui. Elles envoient e-mails et notifications aux familles et à l'équipe au bon moment, avec le message que vous définissez, sans que personne ait à y penser.",
                 },
                 {
@@ -3351,7 +3518,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     answer: "Vous pouvez créer des variantes de tailles, couleurs et modèles pour les uniformes et fournitures, chacune avec son propre stock.",
                 },
                 {
-                    question: "Des bons de livraison et des factures sont-ils créés pour chaque achat ?",
+                    question:
+                        "Des bons de livraison et des factures sont-ils créés pour chaque achat ?",
                     answer: "Oui. Chaque commande génère son bon de livraison et sa facture, et elle est enregistrée dans l'historique d'achats de l'élève pour être consultée à tout moment.",
                 },
                 {
@@ -3468,7 +3636,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     answer: "Non. La messagerie entre l'établissement et les familles fonctionne dans Edena, sans partager les numéros personnels des enseignants ni des familles.",
                 },
                 {
-                    question: "Puis-je publier des actualités et des photos pour tout l'établissement ?",
+                    question:
+                        "Puis-je publier des actualités et des photos pour tout l'établissement ?",
                     answer: "Oui. Sur le mur de l'établissement, vous publiez actualités, photos et événements pour tout l'établissement ou pour un groupe, et les familles les suivent dans l'appli.",
                 },
                 {
@@ -3476,7 +3645,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     answer: "Oui. Conversations et communiqués sont conservés avec leur historique, classés par famille et par élève, pour être consultés dès que nécessaire.",
                 },
                 {
-                    question: "Que comprend la plateforme de base et qu'ajoute le module Communication ?",
+                    question:
+                        "Que comprend la plateforme de base et qu'ajoute le module Communication ?",
                     answer: "La plateforme de base comprend la communication de base et l'inscription des familles. Le module Communication ajoute la messagerie en temps réel, les notifications avec accusé de lecture et les envois par groupe ou par classe.",
                 },
             ],
@@ -3692,7 +3862,8 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
                     answer: "Oui. Ena rédige des communiqués aux familles dans le ton de votre établissement, comme l'annonce d'une sortie, et les envoie quand vous le lui demandez.",
                 },
                 {
-                    question: "Ena peut-elle répondre aux questions sur les protocoles de l'établissement ?",
+                    question:
+                        "Ena peut-elle répondre aux questions sur les protocoles de l'établissement ?",
                     answer: "Oui. Elle résume les protocoles et règlements internes, comme celui sur l'absentéisme, et vous propose de les partager avec l'équipe pour que tous travaillent avec la même information.",
                 },
                 {

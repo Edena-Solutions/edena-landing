@@ -35,11 +35,28 @@ export default {
         stages: ["Berria", "Kontaktatua", "Kualifikatua", "Proposamena", "Negoziazioa", "Irabazia"],
         activity: "Jarduera",
         components: "Osagaiak",
-        fieldTypes: ["Testu laburra", "Emaila", "Telefonoa", "Zenbakia", "Goitibeherakoa", "Testu luzea", "Kontrol-laukia"],
+        fieldTypes: [
+            "Testu laburra",
+            "Emaila",
+            "Telefonoa",
+            "Zenbakia",
+            "Goitibeherakoa",
+            "Testu luzea",
+            "Kontrol-laukia",
+        ],
         saveForm: "Gorde formularioa",
         welcomeBack: "Ongi etorri berriro!",
         appSections: ["Komunikazioa", "Zentroaren kudeaketa", "Agenda", "Finantzak"],
-        appTiles: ["Argitalpena sortu", "Ekitaldia sortu", "Fitxatu", "Klaseak", "Eguneko txostenak", "Egutegia", "Fakturak", "Albaranak"],
+        appTiles: [
+            "Argitalpena sortu",
+            "Ekitaldia sortu",
+            "Fitxatu",
+            "Klaseak",
+            "Eguneko txostenak",
+            "Egutegia",
+            "Fakturak",
+            "Albaranak",
+        ],
         studentTabs: ["Informazio orokorra", "Asistentzia", "Fakturazioa", "Ebaluazioak"],
         takeAttendance: "Asistentzia hartu",
         active: "Aktiboa",
@@ -58,7 +75,12 @@ export default {
         requests: "Eskaerak",
         requestColumns: ["Egoera", "Izena", "Kontaktua", "Jatorria", "Arduraduna", "Data"],
         formName: "Udako campusa",
-        formFields: ["Parte-hartzailearen izena", "Adina", "Aste hobetsia", "Harremanetarako emaila"],
+        formFields: [
+            "Parte-hartzailearen izena",
+            "Adina",
+            "Aste hobetsia",
+            "Harremanetarako emaila",
+        ],
         formOptions: ["Uztaila A1", "Uztaila A2", "Abuztua A1", "Abuztua A2"],
         send: "Bidali",
         sent: "Eskaera bidalita",
@@ -115,7 +137,7 @@ export default {
         invoicesBody: "847 familia · Verifactu erregistroarekin",
         enrolTitle: "3 matrikula-eskaera berri",
         enrolBody: "Zure webguneko inprimakitik",
-        messageTitle: "Laura Torres",
+        messageTitle: "María Torres",
         messageBody: "Eskerrik asko txangoko argazkiengatik!",
         attendanceTitle: "3. A-ko asistentzia erregistratuta",
         attendanceBody: "25etik 24 ikasle bertan",
@@ -147,7 +169,8 @@ export default {
         groupManagement: "Ikastetxearen kudeaketa",
         groupSecurity: "Segurtasuna eta pribatutasuna",
         stillTitle: "Ez duzu zure erantzuna aurkitzen?",
-        stillDescription: "Idatzi iezaguzu eta guk erantzungo dizugu, edo eskatu erakustaldi bat eta zure ikastetxearen gainean ikusiko dugu elkarrekin.",
+        stillDescription:
+            "Idatzi iezaguzu eta guk erantzungo dizugu, edo eskatu erakustaldi bat eta zure ikastetxearen gainean ikusiko dugu elkarrekin.",
     },
     legalPage: {
         onThisPage: "Orri honetan",
@@ -162,7 +185,14 @@ export default {
         network: "Ikastetxe sarea",
         centresCount: "{n} ikastetxe",
         kpis: ["Ikasleak", "Asistentzia", "Kobratua"],
-        centres: ["Mirador ikastetxea", "Ribera ikastetxea", "Montecillo ikastetxea", "Brisa haur eskola", "Las Lomas ikastetxea", "Puerto akademia"],
+        centres: [
+            "Mirador ikastetxea",
+            "Ribera ikastetxea",
+            "Montecillo ikastetxea",
+            "Brisa haur eskola",
+            "Las Lomas ikastetxea",
+            "Puerto akademia",
+        ],
         centresShort: ["Mirador", "Ribera", "Montecillo", "Brisa", "Las Lomas", "Puerto"],
         cities: ["Madril", "Sevilla", "Valentzia", "Bilbo", "Malaga", "Bartzelona"],
         students: "ikasle",
@@ -211,15 +241,38 @@ export default {
         paidOf: "{total}-tik {paid} ordainduta",
         partial: "Ordainketa partziala",
         autoCollect: "Kobrantza automatikoa",
-        rules: ["Hilabete bakoitzeko 1ean", "SEPA helbideratzea", "Ez-ordaintzearen abisua 3 egunera"],
+        rules: [
+            "Hilabete bakoitzeko 1ean",
+            "SEPA helbideratzea",
+            "Ez-ordaintzearen abisua 3 egunera",
+        ],
     },
     schoolsScenes: {
         year: "2025-2026 ikasturtea",
         inProgress: "Martxan",
         yearClosed: "Ikasturtea itxita",
-        milestones: ["Matrikula irekita", "Iraileko ordainagiriak", "1. ebaluazioa", "Familiekiko komunikazioa", "2. ebaluazioa", "Azken buletina"],
-        details: ["486 ikasle matrikulatuta", "Verifacturekin helbideratuta", "486 buletin bidalita", "Zirkularren % 94 irakurrita", "486 buletin bidalita", "Ikasturtea paperik gabe itxita"],
-        kpis: ["Ikasleak", "Bidalitako buletinak", "Ikasturtean fakturatua", "Batez besteko asistentzia"],
+        milestones: [
+            "Matrikula irekita",
+            "Iraileko ordainagiriak",
+            "1. ebaluazioa",
+            "Familiekiko komunikazioa",
+            "2. ebaluazioa",
+            "Azken buletina",
+        ],
+        details: [
+            "486 ikasle matrikulatuta",
+            "Verifacturekin helbideratuta",
+            "486 buletin bidalita",
+            "Zirkularren % 94 irakurrita",
+            "486 buletin bidalita",
+            "Ikasturtea paperik gabe itxita",
+        ],
+        kpis: [
+            "Ikasleak",
+            "Bidalitako buletinak",
+            "Ikasturtean fakturatua",
+            "Batez besteko asistentzia",
+        ],
         newMark: "Kalifikazio berria",
         tutor: "Tutorea: Ana Martín",
         attendance: "Hileko asistentzia",
@@ -237,7 +290,12 @@ export default {
         sentTo: "Agenda {n} familiari bidalita",
         today: "Gaur",
         feedItems: ["Iritsi da", "Bazkaria", "Siesta", "Argazki berriak"],
-        feedDetails: ["Pozik iritsi da", "Dena jan du", "1 h 35 min · Ondo atseden hartu du", "Margo tailerreko 3 argazki"],
+        feedDetails: [
+            "Pozik iritsi da",
+            "Dena jan du",
+            "1 h 35 min · Ondo atseden hartu du",
+            "Margo tailerreko 3 argazki",
+        ],
         present: "Bertan",
         age: "18 hilabete",
         sections: ["Asistentzia", "Otorduak", "Siesta", "Gorabeherak", "Garapen oharra"],
@@ -258,7 +316,14 @@ export default {
         weekTasks: "Asteko atazak",
         newTask: "Ataza berria",
         subjects: ["Matematika", "Hizkuntza", "Zientziak", "Ingelesa", "Historia"],
-        tasks: ["Zatikien fitxak", "Testu iruzkina", "Listening unit 4", "Geometria problemak", "Denbora lerroa", "Idazlana: nire auzoa"],
+        tasks: [
+            "Zatikien fitxak",
+            "Testu iruzkina",
+            "Listening unit 4",
+            "Geometria problemak",
+            "Denbora lerroa",
+            "Idazlana: nire auzoa",
+        ],
         newTaskTitle: "Eguzki-sistemaren maketa",
         due: "Entrega",
         reminder: "Oroigarria 24 h lehenago",
@@ -283,15 +348,40 @@ export default {
         kpis: ["Gaurko asistentzia", "Hilean kobratua", "Ikasleak", "Irakurritako mezuak"],
         collections: "Hileko kobrantzak",
         alerts: "Alertak",
-        alertItems: ["3 ordainagiri itzuli hilabete honetan", "Matrikula eskaera berria", "Justifikatu gabeko falta · DBH 2 B"],
+        alertItems: [
+            "3 ordainagiri itzuli hilabete honetan",
+            "Matrikula eskaera berria",
+            "Justifikatu gabeko falta · DBH 2 B",
+        ],
         times: ["Orain", "Duela 2 min", "Duela 5 min", "Duela 12 min", "Duela 1 h"],
         notifications: "Jakinarazpenak",
         today: "Gaur",
         markRead: "Markatu denak irakurritzat",
-        notifItems: ["Bihar museora irteera", "Familia baten mezu berria", "Ordainketa jasota", "Matrikula eskaera berria", "Ordainagiria itzulita"],
-        notifDetails: ["3. A · 09:00", "Laura Torres · DBH 1", "María García · 731,50 €", "Udako campusa · Lucía García", "Pedro Castro · Helbideratzea"],
+        notifItems: [
+            "Bihar museora irteera",
+            "Familia baten mezu berria",
+            "Ordainketa jasota",
+            "Matrikula eskaera berria",
+            "Ordainagiria itzulita",
+        ],
+        notifDetails: [
+            "3. A · 09:00",
+            "María Torres · DBH 1",
+            "María García · 731,50 €",
+            "Udako campusa · Lucía García",
+            "Pedro Castro · Helbideratzea",
+        ],
         quickTitle: "Ekintza azkarrak",
-        quickActions: ["Gaur fitxatu", "Aurrerakina sortu", "Ikaslea sortu", "Tutorea sortu", "Administratzailea gonbidatu", "Gertaera sortu", "Leada sortu", "Ikasgaia sortu"],
+        quickActions: [
+            "Gaur fitxatu",
+            "Aurrerakina sortu",
+            "Ikaslea sortu",
+            "Tutorea sortu",
+            "Administratzailea gonbidatu",
+            "Gertaera sortu",
+            "Leada sortu",
+            "Ikasgaia sortu",
+        ],
         upcoming: "Hurrengo gertaerak",
         noEvents: "Ez dago gertaerarik",
         newEvent: "Familien bilera · DBH 1",
@@ -321,11 +411,22 @@ export default {
     enaScenes: {
         byEdena: "by edena",
         modes: ["Ena", "Galdera"],
-        quick: ["Kontzeptuak ikusi", "Deskontuak ikusi", "Hurrengo gertaerak", "Erakundearen laburpena"],
-        quickHints: ["Kontzeptu aktiboak", "Deskontu erabilgarriak", "Laster datozenak", "Laburpen orokorra"],
+        quick: [
+            "Kontzeptuak ikusi",
+            "Deskontuak ikusi",
+            "Hurrengo gertaerak",
+            "Erakundearen laburpena",
+        ],
+        quickHints: [
+            "Kontzeptu aktiboak",
+            "Deskontu erabilgarriak",
+            "Laster datozenak",
+            "Laburpen orokorra",
+        ],
         placeholder: "Bihurtu ideiak ekintza: sortu, editatu, ezabatu edo galdetu…",
         summaryPrompt: "Eman erakundearen laburpen bat",
-        summaryAnswer: "Horrela doa zure ikastetxea gaur: dena ondo, berrikusteko 12 eskaera berrirekin.",
+        summaryAnswer:
+            "Horrela doa zure ikastetxea gaur: dena ondo, berrikusteko 12 eskaera berrirekin.",
         summaryLabels: ["Ikasleak", "Gaurko asistentzia", "Hilean kobratua", "Eskaera berriak"],
         enrolmentTrend: "Matrikulak vs. iazko ikasturtea",
         chips: ["Eskaerak ikusi", "Zuzendaritzari bidali"],
@@ -340,7 +441,12 @@ export default {
         completed: "Osatuta",
         inProgress: "Martxan",
         decimal: ",",
-        taskSteps: ["3. A-ren asistentzia erregistratuta", "Justifikatu gabeko falta 1 detektatuta", "Abisua familiari bidalita", "Ikaslearen historian jasota"],
+        taskSteps: [
+            "3. A-ren asistentzia erregistratuta",
+            "Justifikatu gabeko falta 1 detektatuta",
+            "Abisua familiari bidalita",
+            "Ikaslearen historian jasota",
+        ],
         taskMeta: ["24/25", "Hugo F.", "09:02", "09:02"],
     },
     workflowScenes: {
@@ -356,11 +462,21 @@ export default {
         chooseEvent: "Aukeratu gertaera bat",
         scopes: ["Eskolaz kanpokoak", "Fakturazioa", "Ebaluazioak", "CRM", "Komunikazioa"],
         extraEvent: "Jarduera eskaera sortuta",
-        billingEvents: ["Faktura sortuta", "Ordainketa jasota", "Ordainagiria itzulita", "Fakturazio zikloa itxita"],
+        billingEvents: [
+            "Faktura sortuta",
+            "Ordainketa jasota",
+            "Ordainagiria itzulita",
+            "Fakturazio zikloa itxita",
+        ],
         ranIn: "0,4 s-tan exekutatua",
         insertStep: "Txertatu urratsa",
         stepTypes: ["Ekintza", "Baldintza", "Paraleloa", "Batasuna"],
-        stepDescs: ["Ataza bat exekutatzen du", "Bideratze logika definitzen du", "Hainbat adar batera exekutatzen ditu", "Adar guztiak amaitu arte itxaroten du"],
+        stepDescs: [
+            "Ataza bat exekutatzen du",
+            "Bideratze logika definitzen du",
+            "Hainbat adar batera exekutatzen ditu",
+            "Adar guztiak amaitu arte itxaroten du",
+        ],
         conditionRule: "Zenbatekoa 100 € baino handiagoa bada",
         willRun: "Jasotako ordainketa bakoitzean exekutatuko da",
         sendReceipt: "Bidali ordainagiria familiari",
@@ -372,7 +488,12 @@ export default {
         avgTime: "Batez besteko denbora",
         completed: "Osatuta",
         running: "Martxan",
-        workflowNames: ["Jarduera eskaera jasota", "Faktura abisua", "Familia berriei ongietorria", "Justifikatu gabeko falta"],
+        workflowNames: [
+            "Jarduera eskaera jasota",
+            "Faktura abisua",
+            "Familia berriei ongietorria",
+            "Justifikatu gabeko falta",
+        ],
     },
     trackingScenes: {
         dailyReports: "Eguneko txostenak erregistratu",
@@ -391,7 +512,7 @@ export default {
         observations: "Eguneko oharrak",
         observationText: "Asko parte hartu du ozen irakurtzean.",
         correctWithEna: "Zuzendu Enarekin",
-        greeting: "Egun on, Laura",
+        greeting: "Egun on, María",
         clockIn: "Sarrera fitxatu",
         clockOut: "Irteera fitxatu",
         onShift: "Txandan",
@@ -410,13 +531,29 @@ export default {
         inspectionReady: "Ikuskapenerako prest",
         views: ["Eguna", "Astea", "Hilabetea"],
         today: "Gaur",
-        teamEvents: ["Familia-tutoretza bilera", "Materiala banatzea", "Igeriketa jarduera", "Orientazio hitzaldia", "Parke naturalera irteera", "Zientzia klubaren itxiera", "Guraso elkartearen batzarra", "Buletinen berrikuspena"],
+        teamEvents: [
+            "Familia-tutoretza bilera",
+            "Materiala banatzea",
+            "Igeriketa jarduera",
+            "Orientazio hitzaldia",
+            "Parke naturalera irteera",
+            "Zientzia klubaren itxiera",
+            "Guraso elkartearen batzarra",
+            "Buletinen berrikuspena",
+        ],
         staffMeeting: "Hiruhileko klaustroa",
         everyone: "Talde osoaren agendan",
     },
     shopScenes: {
         shop: "Denda",
-        products: ["A3 kartulinak", "Txandal motza", "Txandal luzea", "I-2 liburuak", "Motxila", "Artaziak"],
+        products: [
+            "A3 kartulinak",
+            "Txandal motza",
+            "Txandal luzea",
+            "I-2 liburuak",
+            "Motxila",
+            "Artaziak",
+        ],
         size: "Neurria",
         addToCart: "Gehitu saskira",
         added: "Gehituta",
@@ -428,7 +565,14 @@ export default {
         savedCard: "Gordetako txartela",
         newCategory: "Kategoria berria",
         addArticle: "Gehitu artikulua",
-        categories: ["Kantina eta askariak", "Higienea eta osasuna", "Liburuak eta irakurketa", "Arte materiala", "Kirol materiala", "Uniformeak"],
+        categories: [
+            "Kantina eta askariak",
+            "Higienea eta osasuna",
+            "Liburuak eta irakurketa",
+            "Arte materiala",
+            "Kirol materiala",
+            "Uniformeak",
+        ],
         articles: "artikulu",
         articleName: "Ikastetxeko izerdi-jertsea",
         name: "Izena",
@@ -486,7 +630,17 @@ export default {
         monthly: "Hilerokoa",
         single: "Ordainketa bakarra",
         full: "Beteta",
-        activityNames: ["Xakea", "Atletismoa", "Bateria", "Abesbatza", "Dantza", "Futbola", "Robotika", "Ingelesa", "Antzerkia"],
+        activityNames: [
+            "Xakea",
+            "Atletismoa",
+            "Bateria",
+            "Abesbatza",
+            "Dantza",
+            "Futbola",
+            "Robotika",
+            "Ingelesa",
+            "Antzerkia",
+        ],
         tabs: ["Informazio orokorra", "Ikasleak", "Eskaerak"],
         basicInfo: "Oinarrizko informazioa",
         availability: "Erabilgarritasuna",
@@ -626,7 +780,8 @@ export default {
         contactDescription:
             "Hitz egin Edenaren taldearekin eskola-kudeaketako softwareari buruz: prezioak, Verifactu, datuen migrazioa edo zure ikastetxerako demo bat.",
         blogTitle: "Eskola Kudeaketa Bloga | Ikastetxeentzako Gidak · Edena",
-        blogDescription: "Gida praktikoak eskola-kudeaketari, Verifactuari, kobrantzei, matrikulei, familiekiko komunikazioari eta IAri buruz ikastetxe eta akademientzat.",
+        blogDescription:
+            "Gida praktikoak eskola-kudeaketari, Verifactuari, kobrantzei, matrikulei, familiekiko komunikazioari eta IAri buruz ikastetxe eta akademientzat.",
     },
     hero: {
         mainTitle: "Eskola-kudeaketako softwarea kobrantzetarako, agirietarako eta familientzat",
@@ -698,8 +853,7 @@ export default {
         financeDescription:
             "Verifactu fakturazioa, SEPA ordainagiriak eta ordaindu gabekoen kontrola, kobrantzen atzetik ibili gabe.",
         app: "Edena App",
-        appDescription:
-            "Familia, ikasle eta irakasleentzako aplikazio doakoa iOS eta Androiden.",
+        appDescription: "Familia, ikasle eta irakasleentzako aplikazio doakoa iOS eta Androiden.",
         crm: "Eskola CRM",
         crmDescription:
             "Matrikula-eskaerak, inprimakiak zure webgunean eta etapakako taula bat ikasle gehiago erakartzeko.",
@@ -708,13 +862,11 @@ export default {
             "Planifikatu zereginak, erregistratu notak eta sortu boletinak automatikoki.",
         pricing: "Prezioak",
         pricingAcademies: "Akademiak",
-        pricingAcademiesDescription:
-            "Hizkuntzak, musika, dantza, errefortzua eta gehiago.",
+        pricingAcademiesDescription: "Hizkuntzak, musika, dantza, errefortzua eta gehiago.",
         pricingAcademiesPrice: "0,60 €-tik",
         pricingAcademiesUnit: "ikasleko",
         pricingCenters: "Ikastetxeentzat",
-        pricingCentersDescription:
-            "Ikastetxeak, haur eskolak eta talde hezitzaileak.",
+        pricingCentersDescription: "Ikastetxeak, haur eskolak eta talde hezitzaileak.",
         pricingCentersPrice: "36 €-tik",
         pricingCentersUnit: "hilean",
         contact: "Jarri gurekin harremanetan",
@@ -874,27 +1026,33 @@ export default {
             "Matrikulaziotik boletinera, asistentziatik kobraketara: Edenak zure zentroaren eragiketa osoa plataforma intuitibo bakarrean zentralizatzen du.",
         digitalRecords: {
             title: "Agiri digitalak",
-            tagline: "Ikasle bakoitzaren historia, asistentzia eta agiriak, seguru eta beti eskura.",
+            tagline:
+                "Ikasle bakoitzaren historia, asistentzia eta agiriak, seguru eta beti eskura.",
         },
         mobileApp: {
             title: "Mugikorreko aplikazioa",
-            tagline: "Abisuak, mezuak, argazkiak eta ordainketak familia eta irakasleentzako aplikazio doako batean.",
+            tagline:
+                "Abisuak, mezuak, argazkiak eta ordainketak familia eta irakasleentzako aplikazio doako batean.",
         },
         documentManagement: {
             title: "Kontrol-panela",
-            tagline: "Zure ikastetxeko asistentzia, kobrantzak eta matrikulak denbora errealean, panel bakar batean.",
+            tagline:
+                "Zure ikastetxeko asistentzia, kobrantzak eta matrikulak denbora errealean, panel bakar batean.",
         },
         familyPortal: {
             title: "Familien ataria",
-            tagline: "Familiek seme-alaben notak, ordainagiriak eta berriak edozein gailutatik kontsultatzen dituzte.",
+            tagline:
+                "Familiek seme-alaben notak, ordainagiriak eta berriak edozein gailutatik kontsultatzen dituzte.",
         },
         staffManagement: {
             title: "Hezkuntza-taldeak",
-            tagline: "Kudeatu hainbat ikastetxe plataforma bakar batetik, sare osoaren txostenekin.",
+            tagline:
+                "Kudeatu hainbat ikastetxe plataforma bakar batetik, sare osoaren txostenekin.",
         },
         calendarIntegration: {
             title: "Zereginak eta ebaluazioak",
-            tagline: "Planifikatu zereginak, erregistratu kalifikazioak eta sortu boletinak automatikoki.",
+            tagline:
+                "Planifikatu zereginak, erregistratu kalifikazioak eta sortu boletinak automatikoki.",
         },
         guardianFeatures: {
             title: "Familia eta tutoreentzat",
@@ -1053,7 +1211,8 @@ export default {
             },
             assignment: {
                 title: "Arduradunen esleipena",
-                tagline: "Esleitu eskaera bakoitza taldeko kide bati, familia bakar bat ere erantzunik gabe gera ez dadin.",
+                tagline:
+                    "Esleitu eskaera bakoitza taldeko kide bati, familia bakar bat ere erantzunik gabe gera ez dadin.",
             },
             origin: {
                 title: "Jatorri anitzeko kanala",
@@ -1485,7 +1644,8 @@ export default {
                     name: "Akademia 360 Packa",
                     tagline:
                         "Edena osoa pack batean: zeregin errepikakorrak bakarrik egiten dira Enarekin.",
-                    bestFor: "dena digitalizatu nahi duzu eta astero zereginak errepikatzeari utzi.",
+                    bestFor:
+                        "dena digitalizatu nahi duzu eta astero zereginak errepikatzeari utzi.",
                 },
             },
             notes: [
@@ -1500,7 +1660,8 @@ export default {
                 },
                 {
                     title: "Bolumen deskontua",
-                    description: "Zenbat eta ikasle gehiago, orduan eta gutxiago ordainduko duzu bakoitzeko.",
+                    description:
+                        "Zenbat eta ikasle gehiago, orduan eta gutxiago ordainduko duzu bakoitzeko.",
                 },
             ],
         },
@@ -2042,17 +2203,23 @@ export default {
         centers_cost_savings_answer:
             "Edena erabiltzen duten zentroek administrazio-kostuetan %40 arte murrizketak, familien txertatze-denboran %75 gutxiago eta astero 37 ordutik gorako aurrezpena lan errepikatuetan jakinarazten dute.",
         crm_custom_stages: "Etapak nire onarpen-prozesura egokitu ditzaket?",
-        crm_custom_stages_answer: "Bai. Abiapuntuko etapak zure ikastetxearen prozesura egokitzen dira: izena alda diezaiekezu edo doitu. Egoera aldatzea klik bat izaten jarraitzen du eta mugimendu bakoitza historian geratzen da.",
+        crm_custom_stages_answer:
+            "Bai. Abiapuntuko etapak zure ikastetxearen prozesura egokitzen dira: izena alda diezaiekezu edo doitu. Egoera aldatzea klik bat izaten jarraitzen du eta mugimendu bakoitza historian geratzen da.",
         crm_after_won: "Zer gertatzen da eskaera bat Irabazia egoerara pasatzen denean?",
-        crm_after_won_answer: "Familiaren datuak ikaslearen alta osatzeko prest geratzen dira. Automatizazioa modulua baduzu, matrikula baieztatzean alta berez sor dadin konfigura dezakezu.",
+        crm_after_won_answer:
+            "Familiaren datuak ikaslearen alta osatzeko prest geratzen dira. Automatizazioa modulua baduzu, matrikula baieztatzean alta berez sor dadin konfigura dezakezu.",
         crm_plan: "Zein planek barne hartzen du eskola-CRMa?",
-        crm_plan_answer: "Ikastetxeetan oinarrizko plataformaren gainean aktibatzen duzun modulua da. Akademietan Finantza Packean eta Akademia 360 Packean dago barne.",
+        crm_plan_answer:
+            "Ikastetxeetan oinarrizko plataformaren gainean aktibatzen duzun modulua da. Akademietan Finantza Packean eta Akademia 360 Packean dago barne.",
         assignment_grade_calculation: "Nola kalkulatzen da aldi bakoitzeko nota?",
-        assignment_grade_calculation_answer: "Zure ikastetxeak ebaluatzen duen moduaren arabera batezbesteko haztatuak eta errubrikak zehazten dituzu. Edenak aldi bakoitzeko nota kalkulatzen du eta boletinean sartzen du, kalkulu-orririk gabe.",
+        assignment_grade_calculation_answer:
+            "Zure ikastetxeak ebaluatzen duen moduaren arabera batezbesteko haztatuak eta errubrikak zehazten dituzu. Edenak aldi bakoitzeko nota kalkulatzen du eta boletinean sartzen du, kalkulu-orririk gabe.",
         assignment_who_enters_grades: "Nork erregistratzen ditu kalifikazioak?",
-        assignment_who_enters_grades_answer: "Irakasleek beren irakasgai eta taldeen notak sartzen dituzte, eta koordinazioak multzo osoa kontsultatzen du boletinak sortu aurretik.",
+        assignment_who_enters_grades_answer:
+            "Irakasleek beren irakasgai eta taldeen notak sartzen dituzte, eta koordinazioak multzo osoa kontsultatzen du boletinak sortu aurretik.",
         assignment_report_cards_app: "Familiek non ikusten dute boletina?",
-        assignment_report_cards_app_answer: "Argitaratzen duzunean, familiak aplikazioan eta atarian kontsultatzen du, posta edo paperik gabe. Erakusten den xehetasun-maila zuk erabakitzen duzu.",
+        assignment_report_cards_app_answer:
+            "Argitaratzen duzunean, familiak aplikazioan eta atarian kontsultatzen du, posta edo paperik gabe. Erakusten den xehetasun-maila zuk erabakitzen duzu.",
     },
     privacyPolicy: {
         title: "Pribatutasun-politika",
@@ -2499,7 +2666,8 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         studentInvoicingDescription:
             "Ikasle bakoitzaren kuotak, zerbitzuak eta ordainagiriak bere agiriari lotuta, ordainketaren egoera beti begi-bistan.",
         organizationTitle: "Ikastetxearen antolaketa",
-        organizationDescription: "Sailak, langileak, ikasgelak eta baliabideak panel bakar batetik antolatuta, ikasle bakoitza bere taldean eta bere ikasgelan.",
+        organizationDescription:
+            "Sailak, langileak, ikasgelak eta baliabideak panel bakar batetik antolatuta, ikasle bakoitza bere taldean eta bere ikasgelan.",
         classroomsTitle: "Gelen kudeaketa",
         classroomsDescription:
             "Antolatu ikasgelak, espazioak eta ordutegiak gela bakoitza hobeto aprobetxatzeko eta taldeen arteko erreserba-gatazkak saihesteko.",
@@ -2515,9 +2683,11 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         androidIosDescription:
             "Doan App Storen eta Google Playn. Familiak, ikasleak eta irakasleak beren profilarekin sartzen dira eta dagokiena ikusten dute.",
         parentsConnectedTitle: "Familiak beti egunean",
-        parentsConnectedDescription: "Asistentzia-abisuak, zirkularrak, argazkiak eta mezuak berehala iristen dira mugikorrera, posta elektronikoaren edo WhatsApp taldeen menpe egon gabe.",
+        parentsConnectedDescription:
+            "Asistentzia-abisuak, zirkularrak, argazkiak eta mezuak berehala iristen dira mugikorrera, posta elektronikoaren edo WhatsApp taldeen menpe egon gabe.",
         uploadPicturesTitle: "Partekatu uneak",
-        uploadPicturesDescription: "Eguneroko argazki eta bideoak, modu seguruan bidalita eta ikasleka albumetan antolatuta.",
+        uploadPicturesDescription:
+            "Eguneroko argazki eta bideoak, modu seguruan bidalita eta ikasleka albumetan antolatuta.",
         uploadPicturesAndVideosTitle: "Denbora errealeko eguneraketak",
         uploadPicturesAndVideosDescription:
             "Argitalpen, abisu edo aldaketa bakoitza berehala iristen zaie dagozkien familiei, beren seme-alabaren taldearen arabera.",
@@ -2657,7 +2827,8 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         financialAutomationDescription:
             "Jarduera bakoitzeko tarifak, bonuak, familien deskontuak eta ordainketa partzialak automatikoki kudeatuta. Esportatu kontabilitatera klik batean.",
         dailyLifeSectionTitle: "Akademia baten egunerokorako pentsatua",
-        dailyLifeSectionDescription: "Aldatzen diren ordutegiak, mailakako taldeak eta jarduerako tarifak: Edenak familia bakoitzari abisatzen dio eta klase bakoitza fakturatzen du eskuzko lanik gabe.",
+        dailyLifeSectionDescription:
+            "Aldatzen diren ordutegiak, mailakako taldeak eta jarduerako tarifak: Edenak familia bakoitzari abisatzen dio eta klase bakoitza fakturatzen du eskuzko lanik gabe.",
     },
     groups: {
         mainTitle: "Plataforma bakarra zure zentro-sare osoarentzat",
@@ -2732,7 +2903,16 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
                 items: ["Microsoft Excel", "Sage", "Holded", "SAP"],
             },
         },
-        floatingExtras: ["Slack", "Gmail", "Zoom", "Notion", "Dropbox", "Asana", "Trello", "Outlook"],
+        floatingExtras: [
+            "Slack",
+            "Gmail",
+            "Zoom",
+            "Notion",
+            "Dropbox",
+            "Asana",
+            "Trello",
+            "Outlook",
+        ],
     },
     integrationsSection: {
         title: "Integrazioak",
@@ -2808,7 +2988,8 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         dashboardHero: "Edena eskola kontrol-panela metrika eta denbora errealeko analisiarekin",
         studentsHero: "Edena ikasleen informazio sistema agiri akademikoen kudeaketarekin",
         guardiansHero: "Edena familien ataria komunikazio eta jarraipen akademikorako",
-        financeHero: "Fakturazioa eta kobrantzak Edenan: fakturazio automatikoa eta ordainketa-kudeaketa",
+        financeHero:
+            "Fakturazioa eta kobrantzak Edenan: fakturazio automatikoa eta ordainketa-kudeaketa",
         billingCycle: "Hezkuntza-zentroetarako fakturazio-ziklo automatizatua Edenan",
         invoiceAnalytics: "Finantza-analisia eta fakturazio-txostenak Edenan",
         emailInvoice: "Paperik gabeko fakturazio elektronikoa Edenan",
@@ -2832,8 +3013,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
     },
     verifactuDeclarationPage: {
         title: "Fakturazio-sistemaren erantzukizunpeko adierazpena",
-        intro:
-            "Edena Software S.L.-k, Edena fakturazio-sistema informatikoaren ekoizle gisa, bere erantzukizunpean adierazten du sistemak betetzen dituela 1007/2023 Errege Dekretuak onartutako Erregelamendua (VERI*FACTU) eta HAC/1177/2024 Agindua.",
+        intro: "Edena Software S.L.-k, Edena fakturazio-sistema informatikoaren ekoizle gisa, bere erantzukizunpean adierazten du sistemak betetzen dituela 1007/2023 Errege Dekretuak onartutako Erregelamendua (VERI*FACTU) eta HAC/1177/2024 Agindua.",
         aeatNote:
             "Zerga Agentziak (AEAT) ez ditu fakturazio-programak ziurtatzen ezta homologatzen ere: ekoizle bakoitzak erantzukizunpeko adierazpen honen bidez egiaztatzen du bere sistemak araudia betetzen duela. Adierazpen bera aplikazioaren barruan ere eskuragarri dago.",
         languageNote: "Adierazpena gaztelaniaz jasotzen da, sinatu zen hizkuntzan.",
@@ -3015,7 +3195,8 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
                     answer: "Bai. Jarduera bakoitzak bere adin-tartea, esleitutako begiralea, asteko ordutegiak eta kobrantza-kontzeptua ditu, eta familiek izen-emate eskaera online bidaltzen dute.",
                 },
                 {
-                    question: "Eskolaz kanpokoen kobrantzak ikastetxeko fakturazioan agertzen dira?",
+                    question:
+                        "Eskolaz kanpokoen kobrantzak ikastetxeko fakturazioan agertzen dira?",
                     answer: "Bai. Izen-emate bakoitza bere kobrantza-kontzeptuari lotuta geratzen da; beraz, jarduerak ikastetxeko gainerako ordainagiriekin batera fakturatu eta bateratzen dira, kalkulu-orri bereizirik gabe.",
                 },
                 {
@@ -3453,7 +3634,8 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
                     answer: "Bai. Elkarrizketak eta komunikatuak beren historiarekin gordetzen dira, familia eta ikasleka antolatuta, behar duzun guztietan kontsultatzeko.",
                 },
                 {
-                    question: "Zer dakar oinarrizko plataformak eta zer gehitzen du Komunikazioa moduluak?",
+                    question:
+                        "Zer dakar oinarrizko plataformak eta zer gehitzen du Komunikazioa moduluak?",
                     answer: "Oinarrizko plataformak oinarrizko komunikazioa eta familien alta barne hartzen ditu. Komunikazioa moduluak denbora errealeko txata, irakurketa-baieztapena duten abisuak eta talde edo gelakako bidalketak gehitzen ditu.",
                 },
             ],

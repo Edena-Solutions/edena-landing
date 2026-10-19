@@ -360,7 +360,9 @@ function ChatScene({ t, labels }: Props) {
                     <span className="flex min-w-0 flex-col gap-[0.3em]">
                         <span className="truncate text-[0.56em] font-semibold">Pol Brigneti</span>
                         <span className="flex w-fit items-center rounded-full bg-green-100 px-[0.5em] py-[0.18em] text-green-700 dark:bg-green-500/15 dark:text-green-400">
-                            <span className="text-[0.36em] font-semibold leading-tight">{p.chatTag}</span>
+                            <span className="text-[0.36em] font-semibold leading-tight">
+                                {p.chatTag}
+                            </span>
                         </span>
                     </span>
                 </span>
@@ -415,7 +417,7 @@ function ChatScene({ t, labels }: Props) {
                         tab={3}
                         overlay={
                             <Pop show={between(t, CHAT.notify, CHAT.open)} from="down">
-                                <PhoneNotification title="Laura Torres" />
+                                <PhoneNotification title="María Torres" />
                             </Pop>
                         }
                     >
@@ -425,7 +427,7 @@ function ChatScene({ t, labels }: Props) {
                                 <Avatar initials="LT" hue={330} size={1.5} />
                                 <span className="flex min-w-0 flex-col gap-[0.25em]">
                                     <span className="truncate text-[0.42em] font-semibold">
-                                        Laura Torres
+                                        María Torres
                                     </span>
                                     <span className="truncate text-[0.34em] text-ink-3">I-3 A</span>
                                 </span>
