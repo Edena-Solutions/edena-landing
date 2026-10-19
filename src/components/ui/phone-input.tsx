@@ -19,6 +19,21 @@ interface Country {
     format: (value: string) => string;
 }
 
+function CountryFlag({ src }: { src: string }) {
+    return (
+        <span className="relative block h-4 w-5 shrink-0 overflow-hidden rounded-[3px]">
+            <img
+                src={src}
+                alt=""
+                width={20}
+                height={16}
+                draggable={false}
+                className="pointer-events-none absolute inset-0 size-full object-cover"
+            />
+        </span>
+    );
+}
+
 const countries: Country[] = [
     {
         code: "ES",
@@ -363,38 +378,30 @@ export const PhoneInput = React.forwardRef<HTMLInputElement, PhoneInputProps>(
 
         return (
             <div className={cn("flex flex-col", className)}>
-                <div className="flex">
+                <div className="flex w-full min-w-0">
                     <Select
                         value={selectedCountry.code}
                         onValueChange={handleCountryChange}
                         disabled={disabled}
                     >
-                        <SelectTrigger className="w-[120px] rounded-r-none border-r-0">
+                        <SelectTrigger className="w-auto shrink-0 justify-start gap-2 rounded-r-none border-r-0">
                             <SelectValue>
-                                <div className="flex items-center gap-2">
-                                    <img
-                                        src={selectedCountry.flag}
-                                        alt={selectedCountry.name}
-                                        className="w-5 h-4 rounded-xs object-cover"
-                                    />
-                                    <span className="text-sm">{selectedCountry.prefix}</span>
-                                </div>
+                                <span className="flex items-center gap-2">
+                                    <CountryFlag src={selectedCountry.flag} />
+                                    <span className="text-sm tabular-nums">
+                                        {selectedCountry.prefix}
+                                    </span>
+                                </span>
                             </SelectValue>
                         </SelectTrigger>
                         <SelectContent>
                             {countries.map((country) => (
                                 <SelectItem key={country.code} value={country.code}>
-                                    <div className="flex items-center gap-2">
-                                        <img
-                                            src={country.flag}
-                                            alt={country.name}
-                                            className="w-5 h-4 rounded-xs object-cover"
-                                        />
-                                        <span className="text-sm">{country.prefix}</span>
-                                        <span className="text-sm text-gray-600">
-                                            {country.name}
-                                        </span>
-                                    </div>
+                                    <span className="flex items-center gap-2">
+                                        <CountryFlag src={country.flag} />
+                                        <span className="text-sm tabular-nums">{country.prefix}</span>
+                                        <span className="text-sm text-gray-600">{country.name}</span>
+                                    </span>
                                 </SelectItem>
                             ))}
                         </SelectContent>
@@ -409,7 +416,7 @@ export const PhoneInput = React.forwardRef<HTMLInputElement, PhoneInputProps>(
                         placeholder={selectedCountry.placeholder}
                         disabled={disabled}
                         className={cn(
-                            "rounded-l-none",
+                            "min-w-0 flex-1 rounded-l-none",
                             showValidation &&
                                 !isValid &&
                                 phoneNumber &&

@@ -2923,10 +2923,15 @@ html.dark [data-ena] .material-glass {
         0 0 0 4px rgb(239 68 68 / 0.12);
 }
 
-/* The phone input: the country picker and the number read as one field. */
+/* The phone input: the country picker and the number read as one field.
+   The trigger sizes to the flag plus the dial code, and never shrinks into them. */
 .ds-form [data-slot="select-trigger"] {
     border-radius: 0.875rem 0 0 0.875rem;
     height: auto;
+    flex: 0 0 auto;
+    width: max-content;
+    gap: 0.5rem;
+    padding-inline: 0.75rem 0.625rem;
 }
 
 .ds-form [data-slot="select-trigger"] ~ [data-slot="input"] {

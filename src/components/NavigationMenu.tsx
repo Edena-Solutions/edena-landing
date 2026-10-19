@@ -1065,13 +1065,13 @@ const MainNavigationMenu = ({ lang, className, premium }: Props) => {
                                     <div className="flex gap-2">
                                         <a
                                             href="https://app.edena.es/login"
-                                            className="ds-btn ds-btn--secondary w-full"
+                                            className="ds-btn ds-btn--secondary w-full h-12"
                                         >
                                             {t.loginButton}
                                         </a>
                                         <a
                                             href="https://app.edena.es/register-organization"
-                                            className="ds-btn ds-btn--primary w-full"
+                                            className="ds-btn ds-btn--primary w-full h-12"
                                         >
                                             {t.registerButton}
                                         </a>

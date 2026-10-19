@@ -137,7 +137,7 @@ function ProfileSelect({
                 aria-labelledby="profile-label"
                 onClick={() => setOpen((was) => !was)}
                 className={cn(
-                    "flex w-full cursor-pointer items-center gap-3 rounded-[0.875rem] bg-surface px-3 py-2 text-left transition-[box-shadow] duration-200 focus-visible:outline-none",
+                    "flex w-full min-w-0 cursor-pointer items-center gap-3 rounded-[0.875rem] bg-surface px-3 py-2 text-left transition-[box-shadow] duration-200 focus-visible:outline-none",
                     open
                         ? "shadow-[inset_0_0_0_1.5px_var(--ds-brand),0_0_0_4px_var(--ds-brand-soft)]"
                         : "shadow-[inset_0_0_0_1px_var(--ds-hairline)]",
@@ -146,8 +146,8 @@ function ProfileSelect({
                 <span className={cn("ds-app-icon size-9 shrink-0", profileTones[current.key])}>
                     <CurrentIcon className="size-[1.125rem]" />
                 </span>
-                <span className="flex min-w-0 flex-1 flex-col">
-                    <span className="type-callout font-semibold text-ink">{current.name}</span>
+                <span className="flex min-w-0 flex-1 flex-col overflow-hidden">
+                    <span className="truncate type-callout font-semibold text-ink">{current.name}</span>
                     <span className="truncate type-footnote text-ink-2">{current.description}</span>
                 </span>
                 <ChevronDown
@@ -178,7 +178,7 @@ function ProfileSelect({
                                     setOpen(false);
                                 }}
                                 className={cn(
-                                    "flex cursor-pointer items-center gap-3 rounded-[0.85rem] px-2.5 py-2 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--ds-focus)]",
+                                    "flex w-full min-w-0 cursor-pointer items-center gap-3 rounded-[0.85rem] px-2.5 py-2 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--ds-focus)]",
                                     selected ? "bg-fill-2" : "hover:bg-fill-2",
                                 )}
                             >
@@ -187,11 +187,11 @@ function ProfileSelect({
                                 >
                                     <Icon className="size-[1.125rem]" />
                                 </span>
-                                <span className="flex min-w-0 flex-1 flex-col">
-                                    <span className="type-callout font-semibold text-ink">
+                                <span className="flex min-w-0 flex-1 flex-col overflow-hidden">
+                                    <span className="truncate type-callout font-semibold text-ink">
                                         {option.name}
                                     </span>
-                                    <span className="type-footnote text-ink-2">
+                                    <span className="truncate type-footnote text-ink-2">
                                         {option.description}
                                     </span>
                                 </span>
@@ -386,10 +386,10 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
     );
 
     return (
-        <div className="ds-form grid gap-4 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+        <div className="ds-form grid min-w-0 gap-4 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
             {/* Who is writing, and the other ways in. On a phone the profile is a field in the
                 form, so this tile is only the other ways in, and it follows the form. */}
-            <aside className="ds-tile order-2 flex flex-col gap-6 p-5 sm:p-8 lg:order-1">
+            <aside className="ds-tile order-2 flex min-w-0 flex-col gap-6 p-5 sm:p-8 lg:order-1">
                 <div className="hidden flex-col gap-1 px-1 lg:flex">
                     <h2 className="type-title-3 text-ink">{ct.infoTitle}</h2>
                     <p className="type-footnote text-ink-2">{ct.infoSubtitle}</p>
@@ -487,7 +487,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
             </aside>
 
             {/* The form for that profile. */}
-            <div className="ds-tile order-1 p-5 sm:p-10 lg:order-2">
+            <div className="ds-tile order-1 min-w-0 p-5 sm:p-10 lg:order-2">
                 {status === "success" ? (
                     <div
                         className="flex h-full min-h-[18rem] flex-col items-center justify-center gap-4 text-center sm:min-h-[28rem]"
