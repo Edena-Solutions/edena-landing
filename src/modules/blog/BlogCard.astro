@@ -68,8 +68,8 @@ const cover = post.data.cover;
                 {cover && (
                     <img
                         src={coverAt(cover, 800)}
-                        srcset={coverSrcset(cover, [480, 800, 1200])}
-                        sizes="(min-width: 64rem) 24rem, (min-width: 40rem) 50vw, 100vw"
+                        srcset={coverSrcset(cover, [480, 800, 1200, 1600])}
+                        sizes="(min-width: 64rem) 42rem, (min-width: 40rem) 50vw, 100vw"
                         alt=""
                         loading="lazy"
                         decoding="async"

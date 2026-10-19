@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import Layout from "@/layouts/main.astro";
 import { translations } from "@/i18n/index.ts";
 import HomeMotion from "@/modules/home/HomeMotion.astro";
@@ -15,10 +16,14 @@ import { BLOG_TOPICS, TOPIC_PARAM } from "@/data/blogTopics";
 
 /*
  * The blog, in the home's design: a search field under the title and the topics as a row of pills,
- * the newest post as a wide tile, then every other post in a grid of cards, a dozen at a time. All
- * of them are in the page (hidden past the first dozen), so search and the topic filter reach every
- * post and crawlers every link. The chosen topic is kept in the address (`?topic=`), so a post's
- * topic pill can link straight to it and a filtered blog can be shared.
+ * the newest post as a wide tile, then every other post in a bento, ten at a time. All of them are
+ * in the page (only one page is shown), so search and the topic filter reach every post and
+ * crawlers every link. The chosen topic and page stay in the address (`?topic=&page=`), so a
+ * filtered blog can be shared.
+ *
+ * On a desktop the ten cards fill a 12-column bento: a wide one beside a narrow one, then three
+ * equal, then two halves, then three equal again. A short last page stretches its last card so the
+ * row still fills.
  */
 
 export async function getStaticPaths() {
@@ -33,7 +38,10 @@ export async function getStaticPaths() {
     ];
 }
 
-const PAGE = 12;
+const PAGE_SIZE = 10;
+/** One page of the desktop bento, in 12ths: 8+4, 4+4+4, 6+6, 4+4+4. */
+const BENTO = [8, 4, 4, 4, 4, 6, 6, 4, 4, 4];
+const spanOf = (index: number) => BENTO[index] ?? 4;
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
@@ -41,6 +49,24 @@ const posts = (await getCollection(blogCollectionForLang(lang))).sort((a, b) =>
     b.data.date.localeCompare(a.data.date),
 );
 const [latest, ...rest] = posts;
+const pageCount = Math.ceil(rest.length / PAGE_SIZE);
+/** Page numbers with an ellipsis once there are more than seven. */
+const pageWindow = (current: number, total: number) => {
+    if (total <= 7) return Array.from({ length: total }, (_, index) => index + 1);
+    const pages = new Set([1, total, current - 1, current, current + 1]);
+    if (current <= 3) pages.add(2).add(3);
+    if (current >= total - 2) pages.add(total - 1).add(total - 2);
+    const nums = [...pages].filter((n) => n >= 1 && n <= total).sort((a, b) => a - b);
+    const out: Array<number | "…"> = [];
+    let prev = 0;
+    for (const n of nums) {
+        if (prev && n - prev > 1) out.push("…");
+        out.push(n);
+        prev = n;
+    }
+    return out;
+};
+const initialPages = pageWindow(1, pageCount);
 const topicsBySlug = new Map(
     await Promise.all(posts.map(async (post) => [post.slug, topicLabels(t, await topicsFor(post))] as const)),
 );
@@ -100,7 +126,13 @@ const filters = BLOG_TOPICS.map((id) => ({
         }
     </PageHero>
 
-    <section class="ds-section pt-10 sm:pt-14" data-blog-index data-page={PAGE}>
+    <section
+        class="ds-section pt-10 sm:pt-14"
+        data-blog-index
+        data-page={PAGE_SIZE}
+        data-bento={BENTO.join(",")}
+        data-page-label={t.blogPage.pageLabel}
+    >
         <div class="ds-container">
             {
                 latest && (
@@ -113,11 +145,7 @@ const filters = BLOG_TOPICS.map((id) => ({
             <h2 class="mb-6 mt-16 type-title-2 font-semibold text-ink sm:mt-20" data-blog-heading>
                 {t.blogPage.allArticles}
             </h2>
-            <ul
-                class="m-0 grid list-none gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3"
-                data-blog-grid
-                data-reveal="rise"
-            >
+            <ul class="blog-grid m-0 grid list-none gap-4 p-0 sm:grid-cols-2" data-blog-grid data-reveal="rise">
                 {
                     latest && (
                         // The newest post again, for search results only: above, it has its own tile.
@@ -140,8 +168,13 @@ const filters = BLOG_TOPICS.map((id) => ({
                             data-blog-item
                             data-search={searchText(post)}
                             data-topics={topicIds(post)}
-                            style={`--i: ${index % PAGE}`}
-                            hidden={index >= PAGE}
+                            data-span={index < PAGE_SIZE ? spanOf(index) : undefined}
+                            style={
+                                index < PAGE_SIZE
+                                    ? `--blog-span: ${spanOf(index)}; --i: ${index}`
+                                    : undefined
+                            }
+                            hidden={index >= PAGE_SIZE}
                         >
                             <BlogCard t={t} lang={lang} post={post} topics={topicsOf(post)} />
                         </li>
@@ -157,16 +190,44 @@ const filters = BLOG_TOPICS.map((id) => ({
             >
             </p>
 
-            <div class="mt-10 flex justify-center">
-                <button
-                    type="button"
-                    class="ds-btn ds-btn--secondary ds-btn--lg"
-                    data-blog-more
-                    hidden={rest.length <= PAGE}
-                >
-                    {t.blogPage.loadMore}
-                </button>
-            </div>
+            <nav
+                class="blog-pages"
+                data-blog-pages
+                aria-label={t.blogPage.paginationLabel}
+                hidden={pageCount <= 1}
+            >
+                <div class="blog-pages__track">
+                    <button type="button" class="blog-pages__step" data-blog-prev aria-label={t.blogPage.previousPage} disabled>
+                        <ChevronLeft aria-hidden="true" />
+                        <span class="blog-pages__word">{t.blogPage.previous}</span>
+                    </button>
+                    <div class="blog-pages__list" data-blog-page-list>
+                        {
+                            initialPages.map((entry) =>
+                                entry === "…" ? (
+                                    <span class="blog-pages__gap" aria-hidden="true">
+                                        …
+                                    </span>
+                                ) : (
+                                    <button
+                                        type="button"
+                                        class="blog-pages__page"
+                                        data-blog-page={entry}
+                                        aria-label={t.blogPage.pageLabel.replace("{n}", String(entry))}
+                                        aria-current={entry === 1 ? "page" : undefined}
+                                    >
+                                        {entry}
+                                    </button>
+                                ),
+                            )
+                        }
+                    </div>
+                    <button type="button" class="blog-pages__step" data-blog-next aria-label={t.blogPage.nextPage}>
+                        <span class="blog-pages__word">{t.blogPage.next}</span>
+                        <ChevronRight aria-hidden="true" />
+                    </button>
+                </div>
+            </nav>
         </div>
     </section>
 
@@ -178,8 +239,12 @@ const filters = BLOG_TOPICS.map((id) => ({
 
     function setupBlogIndex() {
         const root = document.querySelector<HTMLElement>("[data-blog-index]");
-        if (!root) return;
-        const page = Number(root.dataset.page) || 12;
+        if (!root || root.dataset.ready) return;
+        root.dataset.ready = "1";
+
+        const pageSize = Number(root.dataset.page) || 10;
+        const bento = (root.dataset.bento ?? "").split(",").map(Number).filter((span) => span > 0);
+        const pageLabel = root.dataset.pageLabel ?? "Page {n}";
         const input = document.querySelector<HTMLInputElement>("[data-search-input]");
         const clear = document.querySelector<HTMLButtonElement>("[data-search-clear]");
         const filter = document.querySelector<HTMLElement>("[data-blog-filter]");
@@ -189,88 +254,213 @@ const filters = BLOG_TOPICS.map((id) => ({
         const heading = root.querySelector<HTMLElement>("[data-blog-heading]");
         const headingText = heading?.textContent ?? "";
         const empty = root.querySelector<HTMLElement>("[data-blog-empty]");
-        const more = root.querySelector<HTMLButtonElement>("[data-blog-more]");
+        const pagesNav = root.querySelector<HTMLElement>("[data-blog-pages]");
+        const pageList = root.querySelector<HTMLElement>("[data-blog-page-list]");
+        const prev = root.querySelector<HTMLButtonElement>("[data-blog-prev]");
+        const next = root.querySelector<HTMLButtonElement>("[data-blog-next]");
         const items = [...root.querySelectorAll<HTMLElement>("[data-blog-item]")];
         const listed = items.filter((item) => !item.hasAttribute("data-latest"));
-        let shown = page;
 
-        // The topic in the address, if it is one this blog has.
-        const requested = new URLSearchParams(location.search).get(param) ?? "";
-        let topic = pills.some((pill) => pill.dataset.topic === requested) ? requested : "";
+        // The topic and page in the address, when they are ones this blog has.
+        const readUrl = () => {
+            const params = new URLSearchParams(location.search);
+            const requested = params.get(param) ?? "";
+            topic = pills.some((pill) => pill.dataset.topic === requested) ? requested : "";
+            const requestedPage = Number(params.get("page"));
+            page = Number.isInteger(requestedPage) && requestedPage > 0 ? requestedPage : 1;
+        };
+        let topic = "";
+        let page = 1;
 
         const hasTopic = (item: HTMLElement) => (item.dataset.topics ?? "").split(" ").includes(topic);
 
-        // Browsing: the newest post on its own tile, then a dozen more at a time. Searching or
-        // filtering by topic: every post that matches both, the newest included, in the grid.
-        const apply = () => {
+        // Each page repeats the bento. A short page grows its last card until the row is full.
+        const assignSpans = (visible: HTMLElement[]) => {
+            let used = 0;
+            visible.forEach((item, index) => {
+                const span = bento[index] ?? 4;
+                item.dataset.span = String(span);
+                item.style.setProperty("--blog-span", String(span));
+                item.style.setProperty("--i", String(index));
+                used += span;
+            });
+            const remainder = used % 12;
+            const last = visible[visible.length - 1];
+            if (remainder !== 0 && last) {
+                const span = Number(last.dataset.span) + (12 - remainder);
+                last.dataset.span = String(span);
+                last.style.setProperty("--blog-span", String(span));
+            }
+        };
+
+        const windowOf = (current: number, total: number) => {
+            if (total <= 7) return Array.from({ length: total }, (_, index) => index + 1);
+            const pages = new Set([1, total, current - 1, current, current + 1]);
+            if (current <= 3) pages.add(2).add(3);
+            if (current >= total - 2) pages.add(total - 1).add(total - 2);
+            const nums = [...pages].filter((n) => n >= 1 && n <= total).sort((a, b) => a - b);
+            const out: Array<number | "…"> = [];
+            let previous = 0;
+            for (const n of nums) {
+                if (previous && n - previous > 1) out.push("…");
+                out.push(n);
+                previous = n;
+            }
+            return out;
+        };
+
+        const renderPages = (total: number) => {
+            if (prev) prev.disabled = page <= 1;
+            if (next) next.disabled = page >= total;
+            if (!pageList) return;
+            pageList.replaceChildren(
+                ...windowOf(page, total).map((entry) => {
+                    if (entry === "…") {
+                        const gap = document.createElement("span");
+                        gap.className = "blog-pages__gap";
+                        gap.setAttribute("aria-hidden", "true");
+                        gap.textContent = "…";
+                        return gap;
+                    }
+                    const button = document.createElement("button");
+                    button.type = "button";
+                    button.className = "blog-pages__page";
+                    button.dataset.blogPage = String(entry);
+                    button.textContent = String(entry);
+                    button.setAttribute("aria-label", pageLabel.replace("{n}", String(entry)));
+                    if (entry === page) button.setAttribute("aria-current", "page");
+                    return button;
+                }),
+            );
+        };
+
+        // Browsing: the newest post on its own tile (page 1 only), then ten of the rest per page.
+        // Searching or filtering: every post that matches both, the newest included, ten per page.
+        const apply = (scroll = false) => {
             const query = input?.value.trim() ?? "";
             const narrowed = !!query || !!topic;
+            const hits = (narrowed ? items : listed).filter(
+                (item) => (!query || matchesQuery(item.dataset.search ?? "", query)) && (!topic || hasTopic(item)),
+            );
+            const total = Math.max(1, Math.ceil(hits.length / pageSize));
+            if (page > total) page = total;
+            if (page < 1) page = 1;
+            const visible = hits.slice((page - 1) * pageSize, page * pageSize);
+            const shown = new Set(visible);
+
             if (clear) clear.hidden = !query;
-            if (latest) latest.hidden = narrowed;
+            if (latest) latest.hidden = narrowed || page !== 1;
             pills.forEach((pill) => pill.setAttribute("aria-pressed", String(pill.dataset.topic === topic)));
-            let matches = 0;
-            if (narrowed) {
-                items.forEach((item) => {
-                    const hit =
-                        (!query || matchesQuery(item.dataset.search ?? "", query)) && (!topic || hasTopic(item));
-                    item.hidden = !hit;
-                    if (hit) item.style.setProperty("--i", String(Math.min(matches++, 11)));
-                });
-            } else {
-                items.forEach((item) => (item.hidden = true));
-                listed.forEach((item, index) => {
-                    item.hidden = index >= shown;
-                    item.style.setProperty("--i", String(index % page));
-                });
-                matches = listed.length;
-            }
-            if (more) more.hidden = narrowed || shown >= listed.length;
+            items.forEach((item) => (item.hidden = !shown.has(item)));
+            assignSpans(visible);
+            if (pagesNav) pagesNav.hidden = hits.length <= pageSize;
+            renderPages(Math.max(1, Math.ceil(hits.length / pageSize)));
             if (heading) {
-                heading.hidden = narrowed && matches === 0;
+                heading.hidden = narrowed && hits.length === 0;
                 const active = pills.find((pill) => pill.dataset.topic === topic && topic);
                 heading.textContent = active?.dataset.label ?? headingText;
             }
             if (empty) {
-                empty.hidden = !narrowed || matches > 0;
+                empty.hidden = !narrowed || hits.length > 0;
                 empty.textContent = (empty.dataset.template ?? "").replace("{query}", query);
+            }
+            if (scroll) {
+                const target = !narrowed && page === 1 ? latest ?? heading : heading;
+                target?.scrollIntoView({
+                    behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+                    block: "start",
+                });
             }
         };
 
-        // A topic replaces the address's, so the filtered blog can be shared and survives a reload.
-        const remember = () => {
+        // Topic and page stay in the address, so a page of the blog can be shared and survives a reload.
+        const remember = (push: boolean) => {
             const url = new URL(location.href);
             if (topic) url.searchParams.set(param, topic);
             else url.searchParams.delete(param);
-            history.replaceState(history.state, "", url);
+            if (page > 1) url.searchParams.set("page", String(page));
+            else url.searchParams.delete("page");
+            const nextUrl = url.pathname + url.search + url.hash;
+            const current = location.pathname + location.search + location.hash;
+            if (nextUrl === current) return;
+            if (push) history.pushState(history.state, "", url);
+            else history.replaceState(history.state, "", url);
         };
+
+        const onPop = () => {
+            readUrl();
+            apply();
+        };
+        window.addEventListener("popstate", onPop);
+        document.addEventListener("astro:before-swap", () => window.removeEventListener("popstate", onPop), {
+            once: true,
+        });
 
         pills.forEach((pill) =>
             pill.addEventListener("click", () => {
-                topic = pill.dataset.topic ?? "";
-                remember();
-                apply();
+                const nextTopic = pill.dataset.topic ?? "";
+                if (nextTopic === topic && page === 1) return;
+                topic = nextTopic;
+                page = 1;
+                apply(true);
+                remember(true);
             }),
         );
-        input?.addEventListener("input", apply);
+        pagesNav?.addEventListener("click", (event) => {
+            const target = event.target;
+            if (!(target instanceof Element)) return;
+            const before = page;
+            const pageButton = target.closest<HTMLButtonElement>("[data-blog-page]");
+            if (pageButton) page = Number(pageButton.dataset.blogPage) || 1;
+            else if (target.closest("[data-blog-prev]")) {
+                if (prev?.disabled) return;
+                page -= 1;
+            } else if (target.closest("[data-blog-next]")) {
+                if (next?.disabled) return;
+                page += 1;
+            } else return;
+            if (page === before) return;
+            apply(true);
+            remember(true);
+        });
+        input?.addEventListener("input", () => {
+            page = 1;
+            apply();
+            remember(false);
+        });
         clear?.addEventListener("click", () => {
             if (!input) return;
             input.value = "";
+            page = 1;
             apply();
+            remember(false);
             input.focus();
         });
-        more?.addEventListener("click", () => {
-            shown += page;
-            apply();
-        });
-        if (topic) apply();
+        readUrl();
+        apply();
+        remember(false);
     }
     document.addEventListener("astro:page-load", setupBlogIndex);
 </script>
 
 <style>
+    /* An integer, so `span var(--blog-span)` is valid on the bento. */
+    @property --blog-span {
+        syntax: "<integer>";
+        inherits: false;
+        initial-value: 4;
+    }
+
     .blog-item {
+        display: flex;
+        min-width: 0;
         animation: blog-item-in 700ms var(--ease-spring) both;
         animation-delay: calc(var(--i, 0) * 45ms);
+    }
+
+    .blog-item > :global(a) {
+        flex: 1;
+        width: 100%;
     }
 
     .blog-item[hidden] {
@@ -284,9 +474,46 @@ const filters = BLOG_TOPICS.map((id) => ({
         }
     }
 
-    /* Searching, the newest post's tile steps aside and the grid moves up under the field. */
+    /* Searching or leaving page 1, the newest post's tile steps aside and the grid moves up. */
     [data-blog-latest][hidden] + [data-blog-heading] {
         margin-top: 0;
+    }
+
+    [data-blog-latest],
+    [data-blog-heading] {
+        scroll-margin-top: 6rem;
+    }
+
+    /*
+     * Desktop bento: twelve columns, each card as many as `--blog-span`. The photo grows so the
+     * cards in a row share a height. A wide card (8) carries a larger title.
+     */
+    @media (min-width: 64rem) {
+        .blog-grid {
+            grid-template-columns: repeat(12, minmax(0, 1fr));
+        }
+
+        .blog-item {
+            grid-column: span var(--blog-span);
+        }
+
+        .blog-grid :global(.blog-cover) {
+            aspect-ratio: auto;
+            flex: 1 1 auto;
+            min-height: 12rem;
+        }
+
+        .blog-item[data-span="8"] :global(.blog-cover),
+        .blog-item[data-span="12"] :global(.blog-cover) {
+            min-height: 16rem;
+        }
+
+        .blog-item[data-span="8"] :global(h3),
+        .blog-item[data-span="12"] :global(h3) {
+            font-size: 1.375rem;
+            line-height: 1.75rem;
+            letter-spacing: -0.02em;
+        }
     }
 
     /*
@@ -323,6 +550,117 @@ const filters = BLOG_TOPICS.map((id) => ({
         background-color: var(--ds-canvas-2);
         padding: 2rem 1.5rem;
         text-align: center;
+    }
+
+    /* A segmented control: a grey track, the current page a raised white pill, as on iOS. */
+    .blog-pages {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .blog-pages[hidden] {
+        display: none;
+    }
+
+    .blog-pages__track {
+        display: flex;
+        align-items: center;
+        gap: 0.125rem;
+        max-width: 100%;
+        padding: 0.25rem;
+        border-radius: 999px;
+        background-color: var(--ds-fill);
+    }
+
+    .blog-pages__list {
+        display: flex;
+        align-items: center;
+        gap: 0.125rem;
+    }
+
+    .blog-pages__step,
+    .blog-pages__page {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.375rem;
+        height: 2.25rem;
+        border: 0;
+        border-radius: 999px;
+        background: transparent;
+        color: var(--ds-ink-2);
+        font: inherit;
+        font-size: 0.8125rem;
+        line-height: 1.125rem;
+        letter-spacing: -0.004em;
+        font-weight: 500;
+        cursor: pointer;
+        transition:
+            background-color 240ms var(--ease-fluid),
+            color 240ms var(--ease-fluid),
+            box-shadow 240ms var(--ease-fluid);
+    }
+
+    .blog-pages__page {
+        min-width: 2.25rem;
+        padding-inline: 0.7rem;
+        font-variant-numeric: tabular-nums;
+    }
+
+    .blog-pages__step {
+        padding-inline: 0.85rem;
+    }
+
+    .blog-pages__step svg {
+        width: 1rem;
+        height: 1rem;
+        flex-shrink: 0;
+    }
+
+    .blog-pages__step:hover:not(:disabled),
+    .blog-pages__page:hover:not([aria-current="page"]) {
+        background-color: rgb(120 120 128 / 0.16);
+        color: var(--ds-ink);
+    }
+
+    .blog-pages__page[aria-current="page"] {
+        background-color: var(--ds-canvas);
+        color: var(--ds-ink);
+        font-weight: 600;
+        box-shadow:
+            var(--ds-shadow-1),
+            inset 0 0 0 0.5px var(--ds-hairline);
+    }
+
+    .blog-pages__step:disabled {
+        cursor: default;
+        color: color-mix(in srgb, var(--ds-ink-3) 45%, transparent);
+    }
+
+    .blog-pages__step:focus-visible,
+    .blog-pages__page:focus-visible {
+        outline: 2px solid var(--ds-focus);
+        outline-offset: 2px;
+    }
+
+    .blog-pages__gap {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 1.25rem;
+        height: 2.25rem;
+        color: var(--ds-ink-3);
+    }
+
+    @media (max-width: 39.999rem) {
+        .blog-pages__word {
+            display: none;
+        }
+
+        .blog-pages__step {
+            padding-inline: 0.65rem;
+        }
     }
 
     @media (prefers-reduced-motion: reduce) {
