@@ -1,9 +1,10 @@
-import { useRef, useState, type KeyboardEvent, type ReactNode } from "react";
+import { useEffect, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
 import { z } from "zod";
 import {
     AlertCircle,
     Baby,
     Check,
+    ChevronDown,
     GraduationCap,
     Handshake,
     Mail,
@@ -20,10 +21,10 @@ import { WHATSAPP_NUMBERS } from "@/constants/contact";
 import { WhatsAppLogo } from "@/components/WhatsAppLogo";
 
 /*
- * The contact form, in the home's design. On the left, who is writing — five profiles as a radio
- * group of app-icon rows — and the other ways in, email and WhatsApp. On the right, the form for
- * that profile: its own fields slide in when the profile changes, every field a soft well that
- * lights green while in use (`.ds-form`), and a drawn tick once it is sent.
+ * The contact form, in the home's design. On a wide screen, who is writing is five profiles as a
+ * radio group of app-icon rows, beside the form. On a phone that list is a single field at the
+ * top of the form — it opens into the same five choices — and email and WhatsApp follow. Every
+ * field is a soft well that lights green while in use (`.ds-form`), and a drawn tick once sent.
  *
  * What it asks and what it sends are unchanged: the same validation, the same Formspree payload.
  */
@@ -82,6 +83,133 @@ function Field({
                     <AlertCircle className="size-3.5 shrink-0" aria-hidden />
                     {error}
                 </p>
+            )}
+        </div>
+    );
+}
+
+/**
+ * The profile, on a phone: one field, the same well as the other inputs. It opens into the five
+ * choices underneath — a select, not five rows before the form. The menu stays in the flow so the
+ * tile, which clips, does not cut it off.
+ */
+function ProfileSelect({
+    label,
+    value,
+    options,
+    onChange,
+}: {
+    label: string;
+    value: Profile;
+    options: { key: Profile; name: string; description: string }[];
+    onChange: (next: Profile) => void;
+}) {
+    const [open, setOpen] = useState(false);
+    const root = useRef<HTMLDivElement>(null);
+    const current = options.find((option) => option.key === value) ?? options[0];
+    const CurrentIcon = profileIcons[current.key];
+
+    useEffect(() => {
+        if (!open) return;
+        const onPointer = (event: PointerEvent) => {
+            if (!root.current?.contains(event.target as Node)) setOpen(false);
+        };
+        const onKey = (event: globalThis.KeyboardEvent) => {
+            if (event.key === "Escape") setOpen(false);
+        };
+        document.addEventListener("pointerdown", onPointer);
+        document.addEventListener("keydown", onKey);
+        return () => {
+            document.removeEventListener("pointerdown", onPointer);
+            document.removeEventListener("keydown", onKey);
+        };
+    }, [open]);
+
+    return (
+        <div ref={root} className="flex flex-col gap-2 lg:hidden">
+            <span id="profile-label" className="type-footnote font-medium text-ink-2">
+                {label.replace(/:\s*$/, "")}
+            </span>
+            <button
+                type="button"
+                aria-haspopup="listbox"
+                aria-expanded={open}
+                aria-labelledby="profile-label"
+                onClick={() => setOpen((was) => !was)}
+                className={cn(
+                    "flex w-full cursor-pointer items-center gap-3 rounded-[0.875rem] bg-surface px-3 py-2 text-left transition-[box-shadow] duration-200 focus-visible:outline-none",
+                    open
+                        ? "shadow-[inset_0_0_0_1.5px_var(--ds-brand),0_0_0_4px_var(--ds-brand-soft)]"
+                        : "shadow-[inset_0_0_0_1px_var(--ds-hairline)]",
+                )}
+            >
+                <span className={cn("ds-app-icon size-9 shrink-0", profileTones[current.key])}>
+                    <CurrentIcon className="size-[1.125rem]" />
+                </span>
+                <span className="flex min-w-0 flex-1 flex-col">
+                    <span className="type-callout font-semibold text-ink">{current.name}</span>
+                    <span className="truncate type-footnote text-ink-2">{current.description}</span>
+                </span>
+                <ChevronDown
+                    aria-hidden
+                    className={cn(
+                        "size-4 shrink-0 text-ink-3 transition-transform duration-200",
+                        open && "rotate-180",
+                    )}
+                />
+            </button>
+            {open && (
+                <div
+                    role="listbox"
+                    aria-labelledby="profile-label"
+                    className="flex flex-col gap-0.5 rounded-[1.1rem] bg-surface p-1.5 ring-1 ring-hairline"
+                >
+                    {options.map((option) => {
+                        const Icon = profileIcons[option.key];
+                        const selected = option.key === value;
+                        return (
+                            <button
+                                key={option.key}
+                                type="button"
+                                role="option"
+                                aria-selected={selected}
+                                onClick={() => {
+                                    onChange(option.key);
+                                    setOpen(false);
+                                }}
+                                className={cn(
+                                    "flex cursor-pointer items-center gap-3 rounded-[0.85rem] px-2.5 py-2 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--ds-focus)]",
+                                    selected ? "bg-fill-2" : "hover:bg-fill-2",
+                                )}
+                            >
+                                <span
+                                    className={cn("ds-app-icon size-9 shrink-0", profileTones[option.key])}
+                                >
+                                    <Icon className="size-[1.125rem]" />
+                                </span>
+                                <span className="flex min-w-0 flex-1 flex-col">
+                                    <span className="type-callout font-semibold text-ink">
+                                        {option.name}
+                                    </span>
+                                    <span className="type-footnote text-ink-2">
+                                        {option.description}
+                                    </span>
+                                </span>
+                                <span
+                                    aria-hidden
+                                    className={cn(
+                                        "flex size-5 shrink-0 items-center justify-center rounded-full",
+                                        selected
+                                            ? "bg-ink text-canvas"
+                                            : "ring-[1.5px] ring-hairline-strong",
+                                    )}
+                                >
+                                    {selected && <Check className="size-3" strokeWidth={3} />}
+                                </span>
+                            </button>
+                        );
+                    })}
+                </div>
             )}
         </div>
     );
@@ -259,15 +387,16 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
 
     return (
         <div className="ds-form grid gap-4 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
-            {/* Who is writing, and the other ways in. */}
-            <aside className="ds-tile flex flex-col gap-6 p-5 sm:p-8">
-                <div className="flex flex-col gap-1 px-1">
+            {/* Who is writing, and the other ways in. On a phone the profile is a field in the
+                form, so this tile is only the other ways in, and it follows the form. */}
+            <aside className="ds-tile order-2 flex flex-col gap-6 p-5 sm:p-8 lg:order-1">
+                <div className="hidden flex-col gap-1 px-1 lg:flex">
                     <h2 className="type-title-3 text-ink">{ct.infoTitle}</h2>
                     <p className="type-footnote text-ink-2">{ct.infoSubtitle}</p>
                 </div>
 
                 <div
-                    className="flex flex-col gap-1.5"
+                    className="hidden flex-col gap-1.5 lg:flex"
                     role="radiogroup"
                     aria-label={ct.infoSubtitle}
                 >
@@ -320,7 +449,7 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                     })}
                 </div>
 
-                <div className="mt-auto flex flex-col gap-1 border-t border-hairline pt-5">
+                <div className="flex flex-col gap-1 border-hairline pt-0 lg:mt-auto lg:border-t lg:pt-5">
                     <a
                         href={`mailto:${CONTACT_EMAIL}`}
                         className="flex items-center gap-3.5 rounded-[1.1rem] p-3 transition-colors duration-300 hover:bg-fill-2"
@@ -358,10 +487,10 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
             </aside>
 
             {/* The form for that profile. */}
-            <div className="ds-tile p-5 sm:p-10">
+            <div className="ds-tile order-1 p-5 sm:p-10 lg:order-2">
                 {status === "success" ? (
                     <div
-                        className="flex h-full min-h-[28rem] flex-col items-center justify-center gap-4 text-center"
+                        className="flex h-full min-h-[18rem] flex-col items-center justify-center gap-4 text-center sm:min-h-[28rem]"
                         role="status"
                     >
                         <span className="contact-sent flex size-16 items-center justify-center rounded-full bg-brand-soft text-brand-ink">
@@ -381,9 +510,19 @@ export function ContactForm({ lang, formspreeUrl }: Props) {
                     </div>
                 ) : (
                     <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
+                        <ProfileSelect
+                            label={ct.infoSubtitle}
+                            value={profile}
+                            options={PROFILES.map((key) => ({
+                                key,
+                                name: ct.profiles[key],
+                                description: ct.profileDescriptions[key],
+                            }))}
+                            onChange={handleProfileChange}
+                        />
                         <div
                             key={`head-${profile}`}
-                            className="flex items-center gap-3.5 animate-ds-scene-fade-in"
+                            className="hidden items-center gap-3.5 animate-ds-scene-fade-in lg:flex"
                         >
                             <span className={cn("ds-app-icon size-12", profileTones[profile])}>
                                 <SelectedProfileIcon className="size-6" />
