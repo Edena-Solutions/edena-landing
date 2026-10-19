@@ -6,7 +6,7 @@ import { translations, localePath } from "@/i18n/index.ts";
 import ArticleSchema from "@/components/StructuredData/Article.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
 import FaqPanel from "@/components/ds/FaqPanel.astro";
-import { AppIcon } from "@/components/wizard/app-frame";
+import { LogoMark } from "@/components/wizard/app-frame";
 import HomeMotion from "@/modules/home/HomeMotion.astro";
 import ClosingCta from "@/modules/home/ClosingCta.astro";
 import RelatedArticles from "@/modules/blog/RelatedArticles.astro";
@@ -134,7 +134,7 @@ const ogMeta = post.data.cover
                 </h1>
                 <p class="ds-intro mt-6 max-w-2xl type-lead text-ink-2" style="--intro-i: 1">{post.data.description}</p>
                 <div class="ds-intro mt-8 flex items-center gap-3 text-left" style="--intro-i: 2">
-                    <AppIcon size={2.5} className="text-[16px]" />
+                    <LogoMark className="size-10 shrink-0 text-ink" />
                     <span class="flex flex-col">
                         <span class="type-callout font-semibold text-ink">{post.data.author || "Edena"}</span>
                         <span class="type-footnote text-ink-3">

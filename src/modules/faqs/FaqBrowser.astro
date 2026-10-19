@@ -139,7 +139,7 @@ const topics = TOPICS.map((topic, index) => {
 
             <div class="min-w-0">
                 <!-- On a phone, the topics as a row of chips that scrolls sideways. -->
-                <ul class="faq-chips">
+                <ul class="faq-chips ds-scroll-fade" data-fade="end">
                     {
                         topics.map((topic) => {
                             const Icon = topic.icon;

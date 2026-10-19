@@ -830,7 +830,7 @@ function StoresScene({ t, labels, locale }: Props) {
                                 <AppIcon size={3.3} />
                                 <Ripple
                                     p={span(t, IOS.to, 900)}
-                                    className="rounded-[0.33em] text-sky-500"
+                                    className="rounded-[0.74em] text-sky-500"
                                 />
                             </span>
                             <span className="flex min-w-0 flex-1 flex-col gap-[0.3em]">
@@ -948,7 +948,7 @@ function StoresScene({ t, labels, locale }: Props) {
                                 <AppIcon size={3.3} />
                                 <Ripple
                                     p={span(t, ANDROID.to, 900)}
-                                    className="rounded-[0.33em] text-green-500"
+                                    className="rounded-[0.74em] text-green-500"
                                 />
                             </span>
                             <span className="flex min-w-0 flex-1 flex-col gap-[0.3em]">

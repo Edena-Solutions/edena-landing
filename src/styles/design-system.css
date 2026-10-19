@@ -25,6 +25,52 @@
     initial-value: 0deg;
 }
 
+@property --ds-fade-start {
+    syntax: "<length>";
+    inherits: false;
+    initial-value: 0px;
+}
+
+@property --ds-fade-end {
+    syntax: "<length>";
+    inherits: false;
+    initial-value: 0px;
+}
+
+/*
+ * A row that scrolls sideways (a `.ds-rail` on a phone, the FAQ topic chips…) fades out at the edge
+ * where there is more to see: its content melts into whatever is behind it, over a short distance,
+ * rather than a blurred veil laid on top. `ds-motion.ts` sets `data-fade` (start, end, both, none)
+ * as it scrolls; the fades grow and shrink rather than switch.
+ */
+.ds-scroll-fade {
+    -webkit-mask-image: linear-gradient(
+        90deg,
+        transparent 0,
+        #000 var(--ds-fade-start),
+        #000 calc(100% - var(--ds-fade-end)),
+        transparent 100%
+    );
+    mask-image: linear-gradient(
+        90deg,
+        transparent 0,
+        #000 var(--ds-fade-start),
+        #000 calc(100% - var(--ds-fade-end)),
+        transparent 100%
+    );
+    transition:
+        --ds-fade-start 320ms var(--ease-fluid),
+        --ds-fade-end 320ms var(--ease-fluid);
+}
+
+.ds-scroll-fade:is([data-fade="start"], [data-fade="both"]) {
+    --ds-fade-start: 2rem;
+}
+
+.ds-scroll-fade:is([data-fade="end"], [data-fade="both"]) {
+    --ds-fade-end: 2rem;
+}
+
 @theme inline {
     --color-canvas: var(--ds-canvas);
     --color-canvas-2: var(--ds-canvas-2);
@@ -2091,67 +2137,6 @@ html.dark [data-ena] .material-glass {
             flex: 0 0 82%;
             scroll-snap-align: center;
         }
-
-        /*
-         * A frosted edge, not a hard cut: the next tile dissolves into the page so the
-         * gallery reads as something you can throw sideways.
-         */
-        .ds-rail-frame::before,
-        .ds-rail-frame::after {
-            content: "";
-            position: absolute;
-            inset-block: 0;
-            width: 4.5rem;
-            z-index: 2;
-            pointer-events: none;
-            opacity: 0;
-            transition: opacity 280ms var(--ease-fluid);
-            -webkit-backdrop-filter: blur(16px) saturate(160%);
-            backdrop-filter: blur(16px) saturate(160%);
-        }
-
-        .ds-rail-frame::after {
-            right: 0;
-            background: linear-gradient(
-                90deg,
-                transparent 0%,
-                color-mix(in srgb, var(--ds-canvas) 38%, transparent) 42%,
-                var(--ds-canvas) 100%
-            );
-            -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 48%, #000 100%);
-            mask-image: linear-gradient(90deg, transparent 0%, #000 48%, #000 100%);
-        }
-
-        .ds-rail-frame::before {
-            left: 0;
-            background: linear-gradient(
-                270deg,
-                transparent 0%,
-                color-mix(in srgb, var(--ds-canvas) 38%, transparent) 42%,
-                var(--ds-canvas) 100%
-            );
-            -webkit-mask-image: linear-gradient(270deg, transparent 0%, #000 48%, #000 100%);
-            mask-image: linear-gradient(270deg, transparent 0%, #000 48%, #000 100%);
-        }
-
-        .ds-rail-frame[data-rail-more="end"]::after,
-        .ds-rail-frame[data-rail-more="both"]::after {
-            opacity: 1;
-        }
-
-        .ds-rail-frame[data-rail-more="start"]::before,
-        .ds-rail-frame[data-rail-more="both"]::before {
-            opacity: 1;
-        }
-    }
-
-    @media (max-width: 47.99rem) and (prefers-reduced-transparency: reduce),
-        (max-width: 47.99rem) and (prefers-contrast: more) {
-        .ds-rail-frame::before,
-        .ds-rail-frame::after {
-            -webkit-backdrop-filter: none;
-            backdrop-filter: none;
-        }
     }
 
     .ds-tile {
@@ -2267,6 +2252,7 @@ html.dark [data-ena] .material-glass {
  *   data-reveal="rise"   rise 48px, no blur (large illustrations — blur on a big layer is costly)
  *   data-reveal="scale"  grow from 96% (tiles)
  *   data-reveal="fade"   opacity only
+ *   data-reveal="drop"   from just above, a little small (a notification arriving)
  */
 @media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
     [data-reveal]:not([data-revealed]) {
@@ -2288,6 +2274,11 @@ html.dark [data-ena] .material-glass {
     [data-reveal="fade"]:not([data-revealed]) {
         transform: none;
         filter: none;
+    }
+
+    /* A notification arriving: from just above, a little small, into focus. */
+    [data-reveal="drop"]:not([data-revealed]) {
+        transform: translate3d(0, -0.9rem, 0) scale(0.96);
     }
 
     [data-reveal] {

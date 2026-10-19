@@ -24,8 +24,8 @@ const tones = ["bg-sys-blue", "bg-sys-pink", "bg-sys-orange", "bg-sys-green", "b
     <div class="ds-container">
         <SectionHeader title={title} description={description} />
 
-        <div class="ds-rail-frame mt-14" data-rail-more="end">
-        <div class="ds-rail flex gap-3 md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-3" data-reveal-group>
+        <div class="ds-rail-frame mt-14">
+        <div class="ds-rail ds-scroll-fade flex gap-3 md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-3" data-reveal-group>
             {
                 features.map((feature, index) => (
                     <div data-reveal="scale">

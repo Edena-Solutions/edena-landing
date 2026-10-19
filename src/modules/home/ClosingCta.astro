@@ -1,5 +1,6 @@
 ---
-import { CalendarCheck, CircleCheck, MessageCircle, Receipt } from "lucide-react";
+import { Receipt, UserPlus } from "lucide-react";
+import appIcon from "@/assets/img/logos/app-icon.svg";
 import Button from "@/components/ds/Button.astro";
 import { translations } from "@/i18n/index.ts";
 import { localizedDemoPath } from "@/i18n";
@@ -8,9 +9,10 @@ import { money, percent } from "@/components/wizard/scene-kit";
 
 /*
  * The last word, on Edena's own ground: a deep green lit by the brand's three greens drifting under
- * grain, the app icon, the promise, and the day's work as three glass cards rising from the edge —
- * the invoices paid, the class present, a family answered. The home page's version of
- * `Conclusion.astro`, which the other pages keep.
+ * grain, the app icon, the promise, and the promise kept — the school's phone rising from the foot,
+ * its lock screen filling with what Edena did on its own (the month's invoices sent, enquiries in,
+ * a family thanking, the register taken), and on a wide screen the term's numbers floating either
+ * side as widgets. One phone and nothing else on a phone.
  */
 interface Props {
     lang: string;
@@ -18,8 +20,18 @@ interface Props {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
-const items = t.wallOfFeatures.items;
+const c = t.closingCta;
 const locale = intlLocaleForLang(lang);
+const ago = (n: number) => c.minutesAgo.replace("{n}", String(n));
+const notifications = [
+    { title: c.invoicesTitle, body: c.invoicesBody, time: c.now },
+    { title: c.enrolTitle, body: c.enrolBody, time: ago(4) },
+    { title: c.messageTitle, body: c.messageBody, time: ago(12) },
+    { title: c.attendanceTitle, body: c.attendanceBody, time: ago(38) },
+];
+const enrolmentsGrowth = `+${percent(locale, 35)}`;
+/** The enrolments by month, the last one now. */
+const BARS = [0.42, 0.5, 0.46, 0.62, 0.74, 1];
 ---
 
 <section class="ds-section pt-0 pb-12 sm:pb-16">
@@ -66,59 +78,72 @@ const locale = intlLocaleForLang(lang);
                 </div>
             </div>
 
-            <div class="relative mx-auto mt-16 h-[15rem] max-w-3xl sm:mt-20 sm:h-[17rem]" aria-hidden="true" data-reveal-group>
-                <div class="absolute bottom-[-3rem] left-0 w-[14rem] -rotate-6 sm:w-[15.5rem]" data-parallax="-30">
-                    <div class="rounded-[1.4rem] p-5 text-left material-glass" data-reveal="rise">
-                        <span class="flex items-center gap-3">
-                            <span class="ds-app-icon size-9 bg-sys-green"><Receipt className="size-4" /></span>
-                            <span class="type-footnote font-semibold text-white">{items.billing}</span>
-                        </span>
-                        <span class="mt-5 flex items-center justify-between">
-                            <span class="text-2xl font-semibold tracking-[-0.03em] tabular-nums text-white">{money(locale, 48250)}</span>
-                            <CircleCheck className="size-5 text-[#30d158]" />
-                        </span>
-                        <span class="mt-4 block h-1.5 overflow-hidden rounded-full bg-white/15">
-                            <span class="block h-full w-full rounded-full" style="background: var(--ds-brand-gradient)"></span>
-                        </span>
-                    </div>
+            <!--
+                The day, handled: the school's phone rising from the foot, its lock screen filling
+                with what Edena did on its own; on a wide screen, the term's numbers as two widgets
+                floating either side, at their own depths.
+            -->
+            <div class="cta-art" aria-hidden="true" data-reveal-group>
+                <div class="cta-phone" data-reveal="rise">
+                    <p class="cta-date">{c.date}</p>
+                    <p class="cta-time">9:41</p>
+                    <ul class="cta-notifs">
+                        {
+                            notifications.map((note) => (
+                                <li class="cta-notif" data-reveal="drop">
+                                    <img src={appIcon.src} alt="" class="cta-notif-icon" />
+                                    <span class="min-w-0 flex-1">
+                                        <span class="flex items-baseline justify-between gap-2">
+                                            <span class="cta-notif-app">Edena</span>
+                                            <span class="cta-notif-time">{note.time}</span>
+                                        </span>
+                                        <span class="cta-notif-title">{note.title}</span>
+                                        <span class="cta-notif-body">{note.body}</span>
+                                    </span>
+                                </li>
+                            ))
+                        }
+                    </ul>
                 </div>
-                <div class="absolute bottom-[-3rem] right-0 w-[14rem] rotate-6 sm:w-[15.5rem]" data-parallax="-50">
-                    <div class="rounded-[1.4rem] p-5 text-left material-glass" data-reveal="rise">
-                        <span class="flex items-center gap-3">
-                            <span class="ds-app-icon size-9 bg-sys-orange"><CalendarCheck className="size-4" /></span>
-                            <span class="type-footnote font-semibold text-white">{items.attendance}</span>
+
+                <div class="cta-widget-slot cta-widget-slot--left" data-parallax="-40">
+                    <div class="cta-widget" data-reveal="rise">
+                        <span class="flex items-center gap-2.5">
+                            <span class="ds-app-icon size-8 bg-sys-blue"><UserPlus className="size-4" /></span>
+                            <span class="type-footnote font-semibold text-white">{c.enrolmentsLabel}</span>
                         </span>
-                        <span class="mt-5 flex items-end justify-between">
-                            <span class="text-2xl font-semibold tracking-[-0.03em] tabular-nums text-white">{percent(locale, 98.2, 1)}</span>
-                            <span class="flex h-8 items-end gap-1">
-                                {[0.7, 0.9, 0.8, 1, 0.85].map((h) => (
-                                    <span class="w-2 rounded-sm bg-white/70" style={`height:${h * 100}%`} />
+                        <span class="mt-4 flex items-end justify-between gap-3">
+                            <span class="flex flex-col">
+                                <span class="cta-widget-value">{enrolmentsGrowth}</span>
+                                <span class="cta-widget-caption">{c.enrolmentsCaption}</span>
+                            </span>
+                            <span class="cta-bars">
+                                {BARS.map((h, i) => (
+                                    <span class:list={["cta-bar", i === BARS.length - 1 && "cta-bar--now"]} style={`height:${h * 100}%; --i:${i}`} />
                                 ))}
                             </span>
                         </span>
                     </div>
                 </div>
-                <div class="absolute bottom-[-2rem] left-1/2 w-[16rem] -translate-x-1/2 sm:w-[19rem]" data-parallax="-80">
-                    <div class="rounded-[1.5rem] bg-[#0b2117] p-5 text-left ring-1 ring-white/12 elev-4" data-reveal="rise">
-                        <span class="flex items-center gap-3">
-                            <span class="ds-app-icon size-9 bg-sys-blue"><MessageCircle className="size-4" /></span>
-                            <span class="type-footnote font-semibold text-white">{items.communication}</span>
-                            <span class="ml-auto type-caption tabular-nums text-white/60">9:41</span>
+
+                <div class="cta-widget-slot cta-widget-slot--right" data-parallax="-70">
+                    <div class="cta-widget" data-reveal="rise">
+                        <span class="flex items-center gap-2.5">
+                            <span class="ds-app-icon size-8 bg-sys-green"><Receipt className="size-4" /></span>
+                            <span class="type-footnote font-semibold text-white">{c.collectedLabel}</span>
                         </span>
-                        <span class="mt-5 flex items-start gap-3">
-                            <span
-                                class="size-9 shrink-0 rounded-full"
-                                style="background: linear-gradient(135deg, hsl(30 90% 66%), hsl(350 80% 58%))"
-                            ></span>
-                            <span class="flex flex-1 flex-col gap-2 rounded-2xl rounded-tl-md bg-white/10 p-3">
-                                <span class="block h-2 w-4/5 rounded-full bg-white/60"></span>
-                                <span class="block h-2 w-3/5 rounded-full bg-white/35"></span>
+                        <span class="mt-4 flex items-center justify-between gap-3">
+                            <span class="flex flex-col">
+                                <span class="cta-widget-value">{money(locale, 48250)}</span>
+                                <span class="cta-widget-caption">{c.collectedCaption}</span>
                             </span>
-                        </span>
-                        <span class="mt-3 grid grid-cols-3 gap-1.5">
-                            <span class="h-12 rounded-lg" style="background: linear-gradient(160deg, #ffd29d, #ff8a65)"></span>
-                            <span class="h-12 rounded-lg" style="background: linear-gradient(160deg, #9be7ff, #4a90e2)"></span>
-                            <span class="h-12 rounded-lg" style="background: linear-gradient(160deg, #b9f6ca, #2ecc71)"></span>
+                            <span class="cta-ring">
+                                <svg viewBox="0 0 64 64">
+                                    <circle cx="32" cy="32" r="27" class="cta-ring-track" />
+                                    <circle cx="32" cy="32" r="27" pathLength="100" class="cta-ring-fill" />
+                                </svg>
+                                <span class="cta-ring-label">{percent(locale, 96)}</span>
+                            </span>
                         </span>
                     </div>
                 </div>
@@ -126,3 +151,279 @@ const locale = intlLocaleForLang(lang);
         </div>
     </div>
 </section>
+
+<style>
+    .cta-art {
+        position: relative;
+        margin: 3.5rem auto 0;
+        height: 23rem;
+        max-width: 64rem;
+    }
+
+    @media (min-width: 40rem) {
+        .cta-art {
+            margin-top: 4.5rem;
+            height: 25rem;
+        }
+    }
+
+    /* The phone: a pane of the banner's glass, cut by its foot. */
+    .cta-phone {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: min(17.5rem, 100%);
+        height: 32rem;
+        translate: -50% 0;
+        padding: 1.6rem 0.85rem 0;
+        border-radius: 2.9rem;
+        background: linear-gradient(180deg, rgb(255 255 255 / 0.13), rgb(255 255 255 / 0.04) 70%);
+        -webkit-backdrop-filter: blur(26px) saturate(160%);
+        backdrop-filter: blur(26px) saturate(160%);
+        box-shadow:
+            inset 0 1px 0 rgb(255 255 255 / 0.22),
+            inset 0 0 0 1px rgb(255 255 255 / 0.12),
+            0 50px 90px -40px rgb(0 0 0 / 0.75);
+        text-align: center;
+    }
+
+    @media (min-width: 40rem) {
+        .cta-phone {
+            width: 19.5rem;
+            padding-inline: 1rem;
+        }
+    }
+
+    .cta-date {
+        font-size: 0.8125rem;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: rgb(255 255 255 / 0.72);
+    }
+
+    .cta-time {
+        margin-top: 0.1rem;
+        font-size: 4.25rem;
+        line-height: 1;
+        font-weight: 600;
+        letter-spacing: -0.045em;
+        font-variant-numeric: tabular-nums;
+        color: rgb(255 255 255 / 0.92);
+    }
+
+    @media (min-width: 40rem) {
+        .cta-time {
+            font-size: 4.75rem;
+        }
+    }
+
+    .cta-notifs {
+        display: flex;
+        flex-direction: column;
+        gap: 0.45rem;
+        margin: 1.4rem 0 0;
+        padding: 0;
+        list-style: none;
+        text-align: left;
+    }
+
+    .cta-notif {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.7rem;
+        border-radius: 1.15rem;
+        background-color: rgb(255 255 255 / 0.1);
+        box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.08);
+        padding: 0.65rem 0.8rem 0.65rem 0.65rem;
+    }
+
+    /* Edena's app icon, as the phone shows it. */
+    .cta-notif-icon {
+        width: 2.15rem;
+        height: 2.15rem;
+        flex-shrink: 0;
+        border-radius: 0.5rem;
+        background: #fff;
+        box-shadow: 0 0 0 1px rgb(255 255 255 / 0.14);
+    }
+
+    .cta-notif-app {
+        font-size: 0.625rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: rgb(255 255 255 / 0.5);
+    }
+
+    /* Title and text up to two lines each, as the lock screen shows them. */
+    .cta-notif-title,
+    .cta-notif-body {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        text-wrap: pretty;
+    }
+
+    .cta-notif-title {
+        margin-top: 0.1rem;
+        line-height: 1.3;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: #fff;
+    }
+
+    .cta-notif-time {
+        flex-shrink: 0;
+        font-size: 0.625rem;
+        color: rgb(255 255 255 / 0.5);
+    }
+
+    .cta-notif-body {
+        margin-top: 0.1rem;
+        line-height: 1.35;
+        font-size: 0.75rem;
+        color: rgb(255 255 255 / 0.66);
+    }
+
+    /* The widgets, either side of the phone, only where there is room for them. */
+    .cta-widget-slot {
+        position: absolute;
+        display: none;
+        width: 14.5rem;
+    }
+
+    @media (min-width: 64rem) {
+        .cta-widget-slot {
+            display: block;
+        }
+    }
+
+    .cta-widget-slot--left {
+        left: calc(50% - 9.75rem - 2rem - 14.5rem);
+        top: 3.25rem;
+    }
+
+    .cta-widget-slot--right {
+        left: calc(50% + 9.75rem + 2rem);
+        top: 8.5rem;
+    }
+
+    .cta-widget {
+        border-radius: 1.6rem;
+        padding: 1.15rem 1.2rem 1.2rem;
+        text-align: left;
+        background: linear-gradient(160deg, rgb(255 255 255 / 0.13), rgb(255 255 255 / 0.05));
+        -webkit-backdrop-filter: blur(24px) saturate(160%);
+        backdrop-filter: blur(24px) saturate(160%);
+        box-shadow:
+            inset 0 1px 0 rgb(255 255 255 / 0.2),
+            inset 0 0 0 1px rgb(255 255 255 / 0.1),
+            0 30px 60px -30px rgb(0 0 0 / 0.7);
+    }
+
+    .cta-widget-value {
+        font-size: 1.75rem;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: -0.035em;
+        font-variant-numeric: tabular-nums;
+        color: #fff;
+    }
+
+    .cta-widget-caption {
+        margin-top: 0.3rem;
+        font-size: 0.75rem;
+        line-height: 1.3;
+        color: rgb(255 255 255 / 0.6);
+    }
+
+    .cta-bars {
+        display: flex;
+        height: 3rem;
+        flex-shrink: 0;
+        align-items: flex-end;
+        gap: 0.25rem;
+    }
+
+    .cta-bar {
+        width: 0.45rem;
+        border-radius: 999px;
+        background-color: rgb(255 255 255 / 0.28);
+        transform-origin: bottom;
+    }
+
+    .cta-bar--now {
+        background: linear-gradient(180deg, #a3e635, #22c55e);
+    }
+
+    .cta-ring {
+        position: relative;
+        display: grid;
+        width: 3.75rem;
+        height: 3.75rem;
+        flex-shrink: 0;
+        place-items: center;
+    }
+
+    .cta-ring svg {
+        position: absolute;
+        inset: 0;
+        rotate: -90deg;
+    }
+
+    .cta-ring circle {
+        fill: none;
+        stroke-width: 6;
+    }
+
+    .cta-ring-label {
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        font-variant-numeric: tabular-nums;
+        color: #fff;
+    }
+
+    .cta-ring-track {
+        stroke: rgb(255 255 255 / 0.14);
+    }
+
+    .cta-ring-fill {
+        stroke: #30d158;
+        stroke-linecap: round;
+        stroke-dasharray: 100;
+        stroke-dashoffset: 4;
+    }
+
+    /* As the widgets arrive, the bars grow month by month and the ring closes. */
+    @media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+        .cta-bar {
+            transition: scale 900ms var(--ease-out-expo);
+            transition-delay: calc(400ms + var(--i) * 70ms);
+        }
+
+        .cta-widget:not([data-revealed]) .cta-bar {
+            scale: 1 0.15;
+        }
+
+        .cta-ring-fill {
+            transition: stroke-dashoffset 1.6s var(--ease-out-expo) 450ms;
+        }
+
+        .cta-widget:not([data-revealed]) .cta-ring-fill {
+            stroke-dashoffset: 100;
+        }
+    }
+
+    @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+        .cta-phone,
+        .cta-widget {
+            background: #10251a;
+            -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+        }
+    }
+</style>

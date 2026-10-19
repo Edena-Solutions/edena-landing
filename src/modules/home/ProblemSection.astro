@@ -35,7 +35,7 @@ const aiLogos: Logo[] = [
     { src: "https://cdn.worldvectorlogo.com/logos/openai-2.svg", alt: problemSection.cards.ai.items[0], invert: true },
     { src: "https://cdn.worldvectorlogo.com/logos/claude-logo.svg", alt: problemSection.cards.ai.items[1] },
     {
-        src: "https://static.vecteezy.com/system/resources/previews/055/687/065/non_2x/gemini-google-icon-symbol-logo-free-png.png",
+        src: "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.40.0/icons/gemini-color.svg",
         alt: problemSection.cards.ai.items[2],
     },
     {
@@ -132,8 +132,8 @@ const tilts = [-8, 5, -4, 9];
             mobileDescription={problemSection.mobileSummary}
         />
 
-        <div class="ds-rail-frame mt-14" data-rail-more="end">
-        <div class="ds-rail flex gap-3 md:grid md:grid-cols-3 md:gap-4" data-reveal-group>
+        <div class="ds-rail-frame mt-14">
+        <div class="ds-rail ds-scroll-fade flex gap-3 md:grid md:grid-cols-3 md:gap-4" data-reveal-group>
             {
                 cards.map((card) => (
                     <article class="ds-tile flex flex-col gap-8 p-7 sm:p-8" data-reveal="scale">

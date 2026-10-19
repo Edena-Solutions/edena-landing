@@ -17,6 +17,7 @@ import {
     type LucideIcon,
 } from "lucide-react";
 
+import appIcon from "@/assets/img/logos/app-icon.svg";
 import enaLogo from "@/assets/img/logos/ena.png";
 import wordmark from "@/assets/img/logos/logo.png";
 import { cn } from "@/lib/utils";
@@ -31,6 +32,7 @@ import { At, Line } from "./scene-kit";
  */
 
 const orbSrc = typeof enaLogo === "string" ? enaLogo : enaLogo.src;
+const appIconSrc = typeof appIcon === "string" ? appIcon : appIcon.src;
 export const wordmarkSrc = typeof wordmark === "string" ? wordmark : wordmark.src;
 
 const LOGO_PATH =
@@ -97,17 +99,18 @@ export function EnaClover({
 }
 
 /**
- * Edena's app icon (`logos/logo-small.svg`): the mark in black on white, as a phone's home screen
- * and its notifications show it. `size` is its width in em.
+ * Edena's app icon (`logos/app-icon.svg`): the green mark on white, as the phone's notifications
+ * and the App Store and Google Play show it, rounded like a home-screen icon. `size` is its width
+ * in em.
  */
 export function AppIcon({ size, className }: { size: number; className?: string }) {
     return (
-        <span
-            className={cn("relative inline-flex shrink-0 overflow-hidden bg-white dark:ring-1 dark:ring-white/25", className)}
-            style={{ width: `${size}em`, height: `${size}em`, borderRadius: `${size * 0.1}em` }}
-        >
-            <LogoMark className="absolute inset-0 size-full text-neutral-950" />
-        </span>
+        <img
+            src={appIconSrc}
+            alt=""
+            className={cn("shrink-0 bg-white shadow-[0_0_0_1px_rgb(0_0_0/0.06)] dark:shadow-[0_0_0_1px_rgb(255_255_255/0.18)]", className)}
+            style={{ width: `${size}em`, height: `${size}em`, borderRadius: `${size * 0.225}em` }}
+        />
     );
 }
 

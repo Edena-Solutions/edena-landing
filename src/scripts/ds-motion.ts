@@ -10,7 +10,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
  *   data-settle                       arrives a little small and low, settles as the page scrolls
  *   data-converge                     scattered items fly into `data-converge-core`
  *   data-expand                       a dark ground grows from the container to full bleed
- *   data-rail-more                    frosted edge of a mobile `.ds-rail` (start / end / both)
+ *   .ds-scroll-fade                   a sideways row fading where there is more (data-fade)
  *
  * The markup carries the finished state (the real numbers, every word), so a crawler,
  * a reader without scripting and a reader who asked for reduced motion all get the same page. The
@@ -325,41 +325,42 @@ function initScrub(): () => void {
     return () => ctx.revert();
 }
 
-function initRailEdges(): () => void {
-    const frames = Array.from(document.querySelectorAll<HTMLElement>(".ds-rail-frame"));
-    if (!frames.length) return () => {};
+/**
+ * Rows that scroll sideways fade at the edges where there is more to see (`.ds-scroll-fade` in the
+ * design system): each says which on `data-fade`. A row that does not scroll (a grid on a wide
+ * screen) says "none".
+ */
+function initScrollFades(): () => void {
+    const rows = Array.from(document.querySelectorAll<HTMLElement>(".ds-scroll-fade"));
+    if (!rows.length) return () => {};
 
     const cleanups: (() => void)[] = [];
 
-    frames.forEach((frame) => {
-        const rail = frame.querySelector<HTMLElement>(".ds-rail");
-        if (!rail) return;
-
+    rows.forEach((row) => {
         const update = () => {
-            const max = rail.scrollWidth - rail.clientWidth;
+            const max = row.scrollWidth - row.clientWidth;
             if (max <= 8) {
-                frame.dataset.railMore = "none";
+                row.dataset.fade = "none";
                 return;
             }
-            const start = rail.scrollLeft <= 8;
-            const end = rail.scrollLeft >= max - 8;
-            frame.dataset.railMore = start && end ? "none" : start ? "end" : end ? "start" : "both";
+            const start = row.scrollLeft <= 8;
+            const end = row.scrollLeft >= max - 8;
+            row.dataset.fade = start && end ? "none" : start ? "end" : end ? "start" : "both";
         };
 
         update();
-        rail.addEventListener("scroll", update, { passive: true });
-        const onResize = () => update();
-        window.addEventListener("resize", onResize, { passive: true });
+        row.addEventListener("scroll", update, { passive: true });
+        window.addEventListener("resize", update, { passive: true });
 
         let ro: ResizeObserver | null = null;
         if ("ResizeObserver" in window) {
             ro = new ResizeObserver(update);
-            ro.observe(rail);
+            ro.observe(row);
         }
 
         cleanups.push(() => {
-            rail.removeEventListener("scroll", update);
-            window.removeEventListener("resize", onResize);
+            row.removeEventListener("scroll", update);
+            window.removeEventListener("resize", update);
             ro?.disconnect();
         });
     });
@@ -369,7 +370,7 @@ function initRailEdges(): () => void {
 
 function init() {
     teardown?.();
-    const cleanups = [initReveal(), initCountUp(), initScrub(), initRailEdges()];
+    const cleanups = [initReveal(), initCountUp(), initScrub(), initScrollFades()];
     teardown = () => {
         cleanups.forEach((cleanup) => cleanup());
         teardown = null;
