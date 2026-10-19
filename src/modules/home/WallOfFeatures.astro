@@ -1,5 +1,5 @@
 ---
-import { LOGO_PATH, LOGO_VIEWBOX } from "@/lib/brand";
+import appIcon from "@/assets/img/logos/app-icon.svg";
 import {
     AlertCircle,
     Archive,
@@ -53,7 +53,7 @@ import type { Translation } from "@/i18n";
 import { useTranslatedPath } from "@/i18n";
 
 /*
- * Everything Edena does, at a glance: one grid of app-icon tiles with Edena glowing at its centre,
+ * Everything Edena does, at a glance: one grid of app-icon tiles with the app's own icon at its centre,
  * the four pillars around it and every feature further out, fading into the page the further it
  * sits — the way Lovable and Apple lay out what a product connects. Every tile is a link to where
  * that feature lives; its name shows on hover and focus, and is the link's text.
@@ -230,19 +230,8 @@ const ring = (tile: Tile) =>
                             return (
                                 <li class="wall-cell" style={style}>
                                     <div data-reveal="scale" class="size-full">
-                                        <span class="wall-center">
-                                            <svg
-                                                viewBox={LOGO_VIEWBOX}
-                                                class="size-[50%] text-white"
-                                                role="img"
-                                                aria-label="Edena"
-                                            >
-                                                <path
-                                                    fill="currentColor"
-                                                    fill-rule="evenodd"
-                                                    d={LOGO_PATH}
-                                                />
-                                            </svg>
+                                        <span class="wall-tile">
+                                            <img src={appIcon.src} alt="Edena" class="wall-app" />
                                         </span>
                                     </div>
                                 </li>
@@ -402,36 +391,11 @@ const ring = (tile: Tile) =>
         translate: -50% 0;
     }
 
-    /* Edena: the brand's green, lit from within, breathing. */
-    .wall-center {
-        position: relative;
-        display: flex;
-        width: 100%;
-        height: 100%;
-        align-items: center;
-        justify-content: center;
-        border-radius: 24%;
-        background: linear-gradient(180deg, #a3e635 0%, #22c55e 52%, #0d9488 100%);
-        box-shadow:
-            inset 0 1px 0 rgb(255 255 255 / 0.35),
-            0 0 0 1px rgb(34 197 94 / 0.4),
-            0 0 2.5rem 0.25rem rgb(34 197 94 / 0.45),
-            0 0 6rem 1rem rgb(20 184 166 / 0.25);
-    }
-
-    @media (prefers-reduced-motion: no-preference) {
-        .wall-center {
-            animation: wall-breathe 4.5s ease-in-out infinite;
-        }
-    }
-
-    @keyframes wall-breathe {
-        50% {
-            box-shadow:
-                inset 0 1px 0 rgb(255 255 255 / 0.35),
-                0 0 0 1px rgb(34 197 94 / 0.5),
-                0 0 3.5rem 0.5rem rgb(34 197 94 / 0.55),
-                0 0 8rem 1.5rem rgb(20 184 166 / 0.3);
-        }
+    /* The phone's app icon, on the same tile as every feature around it. */
+    .wall-app {
+        width: 68%;
+        height: 68%;
+        object-fit: cover;
+        border-radius: 22.5%;
     }
 </style>
