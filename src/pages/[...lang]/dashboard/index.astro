@@ -13,11 +13,9 @@ import TrackingScenes from "@/modules/product/scenes/TrackingScenes";
 import CommunicationScenes from "@/modules/product/scenes/CommunicationScenes";
 import { productSceneLabels } from "@/modules/product/scenes/labels";
 import { intlLocaleForLang } from "@/lib/intl-locale";
-import heroImage from "@/assets/img/screenshots/finance/invoice_analytics.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
-import { ogFromAsset } from "@/lib/og-image";
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -78,7 +76,6 @@ const features = [
     content={{
         title: t.meta.dashboardTitle,
         description: t.meta.dashboardDescription,
-        ...ogFromAsset(heroImage, Astro.site),
     }}
     lang={lang}
     design="premium"

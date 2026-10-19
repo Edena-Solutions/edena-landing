@@ -12,8 +12,6 @@ import { productSceneLabels } from "@/modules/product/scenes/labels";
 import { intlLocaleForLang } from "@/lib/intl-locale";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
-import { ogFromAsset } from "@/lib/og-image";
-import communicationImage from "@/assets/img/screenshots/communication/communication.png";
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -39,7 +37,6 @@ const features = m.features.map((f, i) => ({
     content={{
         title: m.metaTitle,
         description: m.metaDescription,
-        ...ogFromAsset(communicationImage, Astro.site),
     }}
     lang={lang}
     design="premium"

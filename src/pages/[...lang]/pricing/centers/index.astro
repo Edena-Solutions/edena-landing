@@ -9,8 +9,6 @@ import ProductSchema from "@/components/StructuredData/Product.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
 import { CENTER_PACKS, floorFor } from "@/constants/pricing";
 import { homeBreadcrumbName } from "@/lib/breadcrumb";
-import { ogFromAsset } from "@/lib/og-image";
-import pricingOgImage from "@/assets/img/screenshots/finance/billing_cycle.png";
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -44,7 +42,6 @@ const breadcrumbs = [
     content={{
         title: t.meta.pricingCentersTitle,
         description: t.meta.pricingCentersDescription,
-        ...ogFromAsset(pricingOgImage, Astro.site),
     }}
     lang={lang}
     design="premium"

@@ -8,7 +8,7 @@ import OrganizationSchema from "@/components/StructuredData/Organization.astro";
 import CookieConsentBanner from "@/components/CookieConsentBanner";
 import { translations } from "@/i18n/index.ts";
 import { ogFromAsset } from "@/lib/og-image";
-import defaultOgImage from "@/assets/img/screenshots/shared/hero.png";
+import defaultOgImage from "@/assets/img/og.jpg";
 
 interface Props {
  /** Cross-language alternates for pages whose slug differs per locale (blog posts). */
@@ -16,9 +16,6 @@ interface Props {
  content?: {
  title?: string;
  description?: string;
- ogImage?: string;
- ogImageWidth?: string;
- ogImageHeight?: string;
  articleAuthor?: string;
  articlePublishedTime?: string;
  };
@@ -34,10 +31,7 @@ const t = translations[lang as keyof typeof translations];
 
 const title = content.title || t.meta.homeTitle;
 const description = content.description || t.meta.homeDescription;
-const fallbackOg = ogFromAsset(defaultOgImage, Astro.site);
-const ogImage = content.ogImage || fallbackOg.ogImage;
-const ogImageWidth = content.ogImageWidth || fallbackOg.ogImageWidth;
-const ogImageHeight = content.ogImageHeight || fallbackOg.ogImageHeight;
+const { ogImage, ogImageWidth, ogImageHeight } = ogFromAsset(defaultOgImage, Astro.site);
 
 const defaultImageAlt =
  lang === "es"

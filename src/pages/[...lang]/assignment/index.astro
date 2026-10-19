@@ -10,11 +10,9 @@ import ProductFaqs from "@/modules/product/ProductFaqs.astro";
 import AssignmentScenes from "@/modules/product/scenes/AssignmentScenes";
 import { productSceneLabels } from "@/modules/product/scenes/labels";
 import { intlLocaleForLang } from "@/lib/intl-locale";
-import heroImage from "@/assets/img/screenshots/assignment/evaluation_cycle.png";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { getCollection } from "astro:content";
-import { ogFromAsset } from "@/lib/og-image";
 
 export function getStaticPaths() {
     return localeStaticPaths();
@@ -73,7 +71,6 @@ const features = [
     content={{
         title: t.meta.assignmentTitle,
         description: t.meta.assignmentDescription,
-        ...ogFromAsset(heroImage, Astro.site),
     }}
     lang={lang}
     design="premium"

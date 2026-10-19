@@ -13,8 +13,6 @@ import { productSceneLabels } from "@/modules/product/scenes/labels";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { intlLocaleForLang } from "@/lib/intl-locale";
-import { ogFromAsset } from "@/lib/og-image";
-import crmHero from "@/assets/img/screenshots/crm/crm_hero.png";
 
 /*
  * The CRM's page, in the home's design: its screens drawn and brought to life rather than
@@ -77,7 +75,6 @@ const features = [
     content={{
         title: t.meta.crmTitle,
         description: t.meta.crmDescription,
-        ...ogFromAsset(crmHero, Astro.site),
     }}
     lang={lang}
     design="premium"

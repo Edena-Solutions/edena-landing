@@ -16,8 +16,6 @@ import PricingNotes from "@/modules/pricing/PricingNotes.astro";
 import ProductSchema from "@/components/StructuredData/Product.astro";
 import BreadcrumbListSchema from "@/components/StructuredData/BreadcrumbList.astro";
 import { homeBreadcrumbName } from "@/lib/breadcrumb";
-import { ogFromAsset } from "@/lib/og-image";
-import pricingOgImage from "@/assets/img/screenshots/finance/billing_cycle.png";
 
 /*
  * Academy pricing, in the home's design: the three packs under a monthly/annual switch, what every
@@ -74,7 +72,6 @@ const copy = {
     content={{
         title: t.meta.pricingAcademiesTitle,
         description: t.meta.pricingAcademiesDescription,
-        ...ogFromAsset(pricingOgImage, Astro.site),
     }}
     lang={lang}
     design="premium"

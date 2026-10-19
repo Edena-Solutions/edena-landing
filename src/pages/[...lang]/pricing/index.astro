@@ -8,8 +8,6 @@ import AudienceCards from "@/modules/pricing/AudienceCards.astro";
 import PricingNotes from "@/modules/pricing/PricingNotes.astro";
 import ProductSchema from "@/components/StructuredData/Product.astro";
 import { CENTER_PACKS, PACKS, floorFor } from "@/constants/pricing";
-import { ogFromAsset } from "@/lib/og-image";
-import pricingOgImage from "@/assets/img/screenshots/finance/billing_cycle.png";
 
 /*
  * The pricing hub, in the home's design: two ways in — packs for academies, a modular platform for
@@ -44,7 +42,6 @@ const offers = [
     content={{
         title: t.meta.pricingTitle,
         description: t.meta.pricingDescription,
-        ...ogFromAsset(pricingOgImage, Astro.site),
     }}
     lang={lang}
     design="premium"

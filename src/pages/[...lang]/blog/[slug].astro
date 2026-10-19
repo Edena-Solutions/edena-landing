@@ -13,10 +13,8 @@ import RelatedArticles from "@/modules/blog/RelatedArticles.astro";
 import { homeBreadcrumbName } from "@/lib/breadcrumb";
 import { blogCollectionForLang } from "@/lib/blog-collection";
 import { blogAlternatesFor } from "@/lib/blog-translations";
-import { ogFromAsset } from "@/lib/og-image";
 import { formatLongDate } from "@/lib/intl-locale";
 import { coverAt, coverSrcset, readingMinutes, renderArticlePart, type ArticleHeading } from "@/lib/blog-article";
-import defaultBlogOg from "@/assets/img/screenshots/shared/hero.png";
 import { relatedSlugsForPost, splitBeforeConclusion } from "@/lib/blog-related-posts";
 
 /*
@@ -104,16 +102,12 @@ const coverIsUnsplash = Boolean(post.data.cover?.includes("unsplash.com"));
 const [unsplashCreditBefore, unsplashCreditAfter] = t.blog.unsplashCredit.split("{source}");
 
 const publishedDate = new Date(post.data.date).toISOString();
-const ogMeta = post.data.cover
-    ? { ogImage: post.data.cover, ogImageWidth: "1200", ogImageHeight: "630" }
-    : ogFromAsset(defaultBlogOg, Astro.site);
 ---
 
 <Layout
     content={{
         title: post.data.title,
         description: post.data.description,
-        ...ogMeta,
         articleAuthor: post.data.author || "Edena Team",
         articlePublishedTime: publishedDate,
     }}

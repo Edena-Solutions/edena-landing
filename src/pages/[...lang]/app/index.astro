@@ -14,8 +14,6 @@ import DownloadAppIcons from "@/components/DownloadAppIcons";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { intlLocaleForLang } from "@/lib/intl-locale";
-import { ogFromAsset } from "@/lib/og-image";
-import appHero from "@/assets/img/screenshots/app/app_hero.png";
 
 /*
  * The families' app's page, in the home's design: the app drawn on phones of glass and brought to
@@ -78,7 +76,6 @@ const features = [
     content={{
         title: t.meta.appTitle,
         description: t.meta.appDescription,
-        ...ogFromAsset(appHero, Astro.site),
     }}
     lang={lang}
     design="premium"

@@ -14,8 +14,6 @@ import { productSceneLabels } from "@/modules/product/scenes/labels";
 import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
 import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
 import { intlLocaleForLang } from "@/lib/intl-locale";
-import { ogFromAsset } from "@/lib/og-image";
-import enaImage from "@/assets/img/screenshots/shared/hero_ena.png";
 
 /*
  * Ena's page, in the home's design: Ena herself in the hero, alive, with the school's conversations
@@ -47,7 +45,6 @@ const features = m.features.map((f, i) => ({
     content={{
         title: m.metaTitle,
         description: m.metaDescription,
-        ...ogFromAsset(enaImage, Astro.site),
     }}
     lang={lang}
     design="premium"
