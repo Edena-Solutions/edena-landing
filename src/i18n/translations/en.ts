@@ -3025,6 +3025,7 @@ For any questions related to this Agreement you can write to us at privacidad@ed
             "Edena school management dashboard showing real-time analytics and administrative tools",
         appStoreBadge: "Download Edena on App Store",
         googlePlayBadge: "Download Edena on Google Play",
+        appQrCode: "QR code to download the Edena app on your phone",
         appDetail:
             "Edena mobile app for families with student attendance notifications and school communication",
         dashboardHero: "Edena school dashboard with real-time metrics and analytics",

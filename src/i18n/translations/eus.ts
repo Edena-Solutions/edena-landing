@@ -3065,6 +3065,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             "Edena eskola-kudeaketa panela denbora errealeko analisi eta administrazio-tresnak erakutsiz",
         appStoreBadge: "Deskargatu Edena App Store-n",
         googlePlayBadge: "Deskargatu Edena Google Play-n",
+        appQrCode: "Edena aplikazioa mugikorrean deskargatzeko QR kodea",
         appDetail:
             "Familientzako Edena mugikor-aplikazioa ikasleen asistentzia-jakinarazpenekin eta eskola-komunikazioarekin",
         dashboardHero: "Edena eskola kontrol-panela metrika eta denbora errealeko analisiarekin",

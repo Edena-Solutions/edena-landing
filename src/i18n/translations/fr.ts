@@ -3071,6 +3071,7 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         heroImage: "Tableau de bord Edena avec analytique en temps réel et outils administratifs",
         appStoreBadge: "Télécharger Edena sur l’App Store",
         googlePlayBadge: "Télécharger Edena sur Google Play",
+        appQrCode: "QR code pour télécharger l’app Edena sur votre téléphone",
         appDetail:
             "App mobile Edena pour les familles avec notifications de présence et communication scolaire",
         dashboardHero: "Tableau de bord scolaire Edena avec métriques et analytique en temps réel",

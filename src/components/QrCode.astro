@@ -1,0 +1,49 @@
+---
+import QRCode from "qrcode";
+
+/*
+ * A QR code drawn at build time: an SVG of square modules, nothing to load or run in the browser.
+ * Dark on white in either theme (not every phone's camera reads a code inverted), with a quiet
+ * zone of two modules inside the white. It fills the width it is given.
+ */
+interface Props {
+    value: string;
+    /** What scanning it does, for a screen reader. */
+    label: string;
+}
+
+const { value, label } = Astro.props;
+const { modules } = QRCode.create(value, { errorCorrectionLevel: "M" });
+
+const QUIET_ZONE = 2;
+const size = modules.size + QUIET_ZONE * 2;
+
+// One subpath per run of dark modules along a row: a fraction of the markup of one per module.
+let path = "";
+for (let row = 0; row < modules.size; row++) {
+    let col = 0;
+    while (col < modules.size) {
+        if (!modules.get(row, col)) {
+            col++;
+            continue;
+        }
+        const start = col;
+        while (col < modules.size && modules.get(row, col)) col++;
+        const run = col - start;
+        path += `M${start + QUIET_ZONE} ${row + QUIET_ZONE}h${run}v1h-${run}z`;
+    }
+}
+---
+
+<svg viewBox={`0 0 ${size} ${size}`} role="img" aria-label={label} shape-rendering="crispEdges">
+    <rect width={size} height={size} fill="#fff"></rect>
+    <path d={path} fill="#1d1d1f"></path>
+</svg>
+
+<style>
+    svg {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+</style>

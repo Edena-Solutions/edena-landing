@@ -1,0 +1,45 @@
+---
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/constants/app-stores";
+
+/*
+ * Where the footer's QR code leads: a phone goes straight on to its own store, the App Store on an
+ * iPhone or iPad and Google Play on Android; anything else lands on the app's page, which has both.
+ * A hop rather than a page: no layout, kept out of search, and the two store links in plain HTML for
+ * a browser that runs no script.
+ */
+export function getStaticPaths() {
+    return localeStaticPaths();
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+const appPage = localePath(lang, "/app");
+---
+
+<!doctype html>
+<html lang={lang}>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex, follow" />
+        <meta name="color-scheme" content="light dark" />
+        <title>{t.downloadTheApp} · Edena</title>
+        <script
+            is:inline
+            define:vars={{ appStore: APP_STORE_URL, googlePlay: GOOGLE_PLAY_URL, appPage }}
+        >
+            const ua = navigator.userAgent;
+            // iPadOS asks for the desktop site, so an iPad says "Macintosh"; its touch screen tells.
+            const ios =
+                /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+            location.replace(ios ? appStore : /Android/.test(ua) ? googlePlay : appPage);
+        </script>
+    </head>
+    <body style="font-family: system-ui, sans-serif; text-align: center; padding: 3rem 1rem">
+        <p>{t.downloadTheApp}</p>
+        <p>
+            <a href={APP_STORE_URL}>App Store</a> · <a href={GOOGLE_PLAY_URL}>Google Play</a>
+        </p>
+    </body>
+</html>

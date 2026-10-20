@@ -3051,6 +3051,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             "Panel de gestión escolar Edena con estadísticas en tiempo real y herramientas administrativas",
         appStoreBadge: "Descargar Edena en App Store",
         googlePlayBadge: "Descargar Edena en Google Play",
+        appQrCode: "Código QR para descargar la app de Edena en el móvil",
         appDetail:
             "App móvil Edena para familias con notificaciones de asistencia estudiantil y comunicación escolar",
         dashboardHero: "Panel de control escolar Edena con métricas y análisis en tiempo real",
