@@ -64,9 +64,10 @@ const { class: className } = Astro.props;
         }
     }
 
-    /* The face-off's columns: Edena, the disc, the other. */
+    /* The face-off's columns: Edena, the disc, the other. `--fo-tile` sizes the two app icons. */
     .vs-arena :global(.fo) {
         --vs-w: clamp(2.75rem, 1.6rem + 3vw, 5rem);
+        --fo-tile: clamp(5.25rem, 3.3rem + 6.3vw, 9.25rem);
         display: grid;
         grid-template-columns: minmax(0, 1fr) var(--vs-w) minmax(0, 1fr);
         align-items: center;

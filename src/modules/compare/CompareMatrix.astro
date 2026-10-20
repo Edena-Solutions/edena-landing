@@ -12,9 +12,10 @@ import {
 import { comparePath, competitorCopy } from "@/lib/compare";
 
 /*
- * Everyone against everyone, without a sideways scroll: each criterion, then the logos of the
- * platforms that meet it. A full logo is included; a faded one is partial. Anything absent is not
- * included, or has no public information. The words travel with the logo for screen readers, and
+ * Every platform, criterion by criterion, without a sideways scroll: each criterion, then the tiles
+ * of the platforms whose public information shows it. A full tile is included; a faded one is
+ * partial. A platform that is absent does not show it in its public information, which is not to
+ * say it lacks it. The words travel with the tile for screen readers, and
  * the name rises above it on hover, the same pill as the home wall.
  */
 interface Props {

@@ -3954,24 +3954,23 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         breadcrumb: "Konparazioak",
         backToAll: "Konparazio guztiak",
         heroEyebrow: "Konparazioa",
-        centers: "+{n} ikastetxe",
-        scoreCaption: "Puntuak {n} irizpide nagusitan. Barne dagoenak 1 balio du; partzialak, 0,5.",
-        scoreLink: "Ikusi xehetasuna",
         edenaTagline: "Faktura, espedientea eta familiak",
         edenaMeta: "36 €/hiletik | 30 egun doan",
-        scoreSr: "Puntuazioa: Edena {a}/{n}; {name} {b}/{n}.",
+        heroNote:
+            "Hornitzaile bakoitzaren informazio publikoarekin egina. Berrikuspen-data: {date}.",
+        detailLink: "Ikusi xehetasuna",
         morePrevious: "Aurrekoak",
         moreNext: "Hurrengoak",
-        verdictTitle: "Non irabazten du Edenak",
-        verdictDescription: "Zure taldeak lehen hilabetetik nabaritzen dituen hiru alde.",
+        verdictTitle: "Zertan bereizten den Edena",
+        verdictDescription: "Hiru alde, bakoitza taulako bere irizpideak babestuta.",
         tableTitle: "Aurrez aurre",
         tableDescription:
-            "Eskola-software baten erosketa erabakitzen duten 17 irizpideak, bakoitzak bere informazio publikoaren arabera eskaintzen duenarekin.",
+            "Ikastetxea kudeatzeko 17 irizpide, plataforma bakoitzak bere informazio publikoan erakusten duenarekin.",
         criterion: "Irizpidea",
         status: {
             yes: "Barne",
             partial: "Partziala",
-            none: "Ez dago barne edo ez dago informazio publikorik",
+            none: "Ez da agertzen bere informazio publikoan",
         },
         groups: {
             comms: "Komunikazioa",
@@ -3990,7 +3989,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             lms: "Ikasgela birtuala eta edukiak",
             payments: "Familiei kobratzea",
             billing: "Fakturazioa (fakturak eta helbideratzeak)",
-            verifactu: "VERI*FACTU adierazpen argitaratua",
+            verifactu: "VERI*FACTU",
             store: "Lineako denda",
             crm: "Matrikulen CRMa",
             ai: "Adimen artifizial integratua",
@@ -4009,7 +4008,7 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             lms: "Zereginak, notak eta boletinak; argitaletxeen edukirik gabe",
             payments: "Online kobrantzak eta aplikazioan",
             billing: "Fakturak, SEPA helbideratzeak eta ordaindu gabekoak",
-            verifactu: "Publikoa eta sinatua, bertsioz bertsio",
+            verifactu: "Erantzukizunpeko adierazpena argitaratua eta sinatua",
             store: "Ikastetxearen denda eta eskola-diruzorroa",
             crm: "Web-inprimakiak, inbudoa eta bihurketa",
             ai: "Ena, zereginak egiten dituen agentea",
@@ -4043,11 +4042,12 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         moreDescription: "Edena merkatuko gainerako plataformen aurrean.",
         sourcesTitle: "Nola egin dugun konparazio hau",
         sourcesBody:
-            "Hornitzaile bakoitzaren informazio publikoarekin egina (webgune ofiziala, produktu-fitxak eta sektoreko prentsa). Berrikuspen-data: {date}. «Ez dago barne edo ez dago informazio publikorik» esan nahi du iturri horietan ez dela agertzen, ez dela existitzen. Ikastetxe-kopuruak hornitzaile bakoitzak argitaratzen dituenak dira.",
-        sourcesFix: "Datu zaharkiturik ikusi duzu? Idatzi iezaguzu {email} helbidera eta zuzenduko dugu.",
+            "Hornitzaile bakoitzaren informazio publikoarekin egina (webgune ofiziala, produktu-fitxak eta sektoreko prentsa). Berrikuspen-data: {date}. «Ez da agertzen bere informazio publikoan» esan nahi du iturri horietan ez dugula aurkitu, ez plataformak ez duela. Konparazioak ez du neurtzen funtzio bakoitzaren sakontasuna, eta ez ditu jasotzen zure ikastetxeari axola dakizkiokeen gai guztiak, hala nola zure autonomia-erkidegoko hezkuntza-plataformarekiko lotura, ordutegiak sortzea edo ikasgelako edukiak: eskatu hornitzaile bakoitzari demo bat zure kasuekin.",
+        sourcesFix:
+            "Datu oker edo zaharkiturik ikusi duzu? Idatzi iezaguzu {email} helbidera: berrikusi eta, behar bada, zuzenduko dugu.",
         sourcesLabel: "Kontsultatutako iturriak",
         trademarks:
-            "Aipatutako markak beren titularrenak dira; ez daude Edenarekin lotuta eta ez dute konparazio hau babesten.",
+            "Aipatutako markak beren titularrenak dira; ez daude Edenarekin lotuta eta ez dute konparazio hau babesten. Produktu bakoitza identifikatzeko soilik aipatzen ditugu.",
         hub: {
             metaTitle: "Edena vs alternatibak: eskola-softwareen konparazioa | Edena",
             metaDescription:
@@ -4055,19 +4055,17 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             eyebrow: "Eskola-softwareen konparazioa",
             title: "Espedientea, faktura eta abisua, zazpi plataformen aurrean",
             description:
-                "Haur-eskola, ikastetxe eta akademiek Edenarekin gehien alderatzen dituzten zazpi plataformen aurrean jartzen dugu. 17 irizpide, iturri publikoak eta berrikuspen-data. Letra txikirik gabe.",
+                "Edena haur-eskola, ikastetxe eta akademietan ohikoak diren zazpi plataformaren aurrean jartzen dugu: 17 irizpide, bakoitza bere iturriarekin eta berrikuspen-datarekin.",
             cardsTitle: "Aukeratu aurrez aurrekoa",
-            cardsDescription:
-                "Konparazio bakoitza, bere markagailuarekin, garrantzizko aldeekin eta iturriekin.",
+            cardsDescription: "Konparazio bakoitza, bere aldeekin eta iturriekin.",
             cardCta: "Ikusi konparazioa",
             missingTitle: "Zure plataforma falta da?",
             missingBody:
                 "Kontaiguzu gaur zer erabiltzen duzun eta zure datuekin egindako konparazioa erakutsiko dizugu 15 minutuko demo batean.",
             missingCta: "Eskatu demo bat",
-            matrixTitle: "Denak denen aurka",
+            matrixTitle: "Zortzi plataformak, irizpidez irizpide",
             matrixDescription:
-                "Zortzi plataformak eta 17 irizpideak taula bakarrean. Marka bakoitzak bere xehetasuna erakusten du kurtsorea gainetik pasatzean.",
-            total: "Puntuazioa",
+                "Irizpide bakoitza, bere informazio publikoan erakusten duten plataformekin. Pasatu kurtsorea bakoitzaren gainetik xehetasuna ikusteko.",
             statRivals: "alderatutako alternatiba",
             statCriteria: "irizpide nagusi",
             statSources: "iturri publiko",
@@ -4075,192 +4073,231 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         competitors: {
             tokapp: {
                 tagline: "Komunikazio eta kobrantza aplikazioa",
-                owner: "TokApp Online S.L. | Vigo",
+                owner: "TokApp OnLine, S.L.",
                 metaTitle: "Edena vs TokApp: eskola-komunikazioaren konparazioa",
                 metaDescription:
-                    "Edena TokAppen aurrean: komunikazioa, VERI*FACTU fakturazioa, SEPA helbideratzeak, matrikulen CRMa, prezioa eta proba doakoa. 17 irizpide, iturriekin.",
-                headline: "Espedientea eta Verifactuko faktura, abisuaren ondoan",
-                lead: "TokAppek ikastetxea familiekin konektatzen du: mezuak, asistentzia, kobrantzak, denda eta Tok.IA. Edenak ere bai, eta gainera agiria, VERI*FACTU fakturak, SEPA helbideratzeak eta matrikulak plataforma berean daramatza.",
+                    "Edena TokAppen aurrean: komunikazioa, VERI*FACTU fakturazioa, SEPA helbideratzeak, matrikulen CRMa, prezioa eta doako proba. 17 irizpide, iturriekin.",
+                headline: "Espedientea eta Verifactu faktura, abisuaren ondoan",
+                lead:
+                    "TokAppek ikastetxea familiekin konektatzen du: mezuak, asistentzia, kobrantzak, denda eta Tok.IA. Edenak ere bai, eta gainera espedientea, VERI*FACTU fakturak, SEPA helbideratzeak eta matrikulak plataforma berean eramaten ditu.",
                 wins: [
                     {
                         title: "Sistema bat, ez bi",
-                        body: "TokApp zure kudeaketa-softwarearekin integratzen da: komunikazio, kobrantza eta denda geruza da. Edenan, komunikazioa, agiria, fakturazioa eta matrikulak plataforma berean daude. Sinkronizaziorik eta lan bikoitzik gabe.",
+                        body:
+                            "TokAppek API bat argitaratzen du ikastetxearen kudeaketa-softwarearekin konektatzeko. Edenan, komunikazioa, espedientea, fakturazioa eta matrikulak plataforma berean daude, bi sistema sinkronizatu beharrik gabe.",
                     },
                     {
                         title: "Kobratzea ez da fakturatzea",
-                        body: "TokAppek kobrantzen kudeaketa eta aplikazioko denda bat argitaratzen ditu. VERI*FACTU fakturak egitea, SEPA helbideratzeak bidaltzea eta ordaindu gabekoak kudeatzea ez da agertzen bere informazio publikoan. Edenan fluxu berean doa, hilero.",
+                        body:
+                            "TokAppek kobrantzen kudeaketa eta aplikazioko denda argitaratzen ditu. VERI*FACTU fakturak egitea, SEPA helbideratzeak eta ordaindu gabekoen kontrola ez dira agertzen bere informazio publikoan. Edenan fluxu berean doaz, hilero.",
                     },
                     {
                         title: "Prezioa, begi-bistan",
-                        body: "Edenan badakizu zer ordainduko duzun inorekin hitz egin aurretik: 36 €/hiletik, 30 egun doan eta iraunkortasunik gabe.",
+                        body:
+                            "Edenak bere prezioa argitaratzen du: 36 €/hiletik, 30 egun doan eta iraunkortasunik gabe. TokAppek ez du preziorik argitaratzen bere webgunean.",
                     },
                 ],
                 notes: {
-                    comms: "Balio juridikoko mezuak eta irakurtze-berrespena",
-                    app: "Doakoa, familientzat eta irakasleentzat; ikastetxearen markarekin ere",
+                    comms: "Balio juridikoa duten mezuak eta irakurketa-berrespena",
+                    app:
+                        "Doakoa, familientzat eta irakasleentzat; ikastetxearen markarekin ere bai",
                     attendance: "Asistentzia-kontrola",
-                    records: "Asistentzia, jarduerak eta taldeak; ikastetxearen kudeaketa APIaren bidez integratzen da",
-                    segments: "Ikastetxeak, haur-eskolak, akademiak, unibertsitateak eta guraso-elkarteak",
-                    payments: "Kobrantzen kudeaketa eta jardueren ordainketak",
+                    records:
+                        "Asistentzia, jarduerak eta taldeak; kudeaketa-softwarearekin APIaren bidez konektatzen da",
+                    segments:
+                        "Ikastetxeak, haur-eskolak, akademiak, unibertsitateak eta guraso-elkarteak",
+                    payments: "Kobrantzen eta jardueren ordainketen kudeaketa",
                     store: "Denda integratua: liburuak eta eskola-materiala",
                     ai: "Tok.IA: txatbota, itzulpena eta ozen irakurtzea",
-                    price: "Demoaren bidez",
-                    trial: "Demo doakoa bere taldearekin",
+                    price: "Ez dago argitaratuta bere webgunean",
+                    trial: "Doako demoa bere taldearekin",
                 },
                 faqs: [
                     {
                         question: "Zer alde dago Edenaren eta TokAppen artean?",
-                        answer: "TokApp komunikazio, kobrantza eta denda plataforma da, asistentziarekin eta Tok.IArekin, eta ikastetxearen kudeaketa-softwarearekin integratzen da. Edena kudeaketa-software osoa da: agiria, VERI*FACTU fakturazioa, SEPA helbideratzeak, matrikulen CRMa, ordutegi-kontrola eta familiekiko komunikazioa, plataforma bakarrean.",
+                        answer:
+                            "TokApp komunikazio, kobrantza eta denda plataforma bat da, asistentziarekin eta Tok.IArekin, eta API bat argitaratzen du ikastetxearen kudeaketa-softwarearekin konektatzeko. Edena kudeaketa-software osoa da: espedientea, VERI*FACTU fakturazioa, SEPA helbideratzeak, matrikulen CRMa, ordutegi-kontrola eta familiekiko komunikazioa, plataforma bakarrean.",
                     },
                     {
-                        question: "TokAppetik Edenara pasa naiteke ikasturtearen erdian?",
-                        answer: "Bai. Ikasleak, familiak eta taldeak inportatzen ditugu, fakturazioa konfiguratzen dugu eta familiak aplikazioan alta ematen ditugu. Ikastetxe gehienak bi astean martxan daude, eguneroko lana eten gabe.",
+                        question: "TokAppetik Edenara alda naiteke ikasturtearen erdian?",
+                        answer:
+                            "Bai. Ikasleak, familiak eta taldeak inportatzen ditugu, fakturazioa konfiguratzen dugu eta familiei aplikazioan alta ematen diegu. Ikastetxe gehienak bi astean daude martxan, eguneroko lana eten gabe.",
                     },
                     {
-                        question: "Edenak ere irakurtze-baieztapena duten mezuak bidaltzen ditu?",
-                        answer: "Bai. Zirkularrak eta mezuak irakurtze-baieztapenarekin, push jakinarazpenekin eta itzulpen automatikoarekin, telefono pertsonalik partekatu gabe.",
+                        question: "Edenak ere bidaltzen ditu irakurketa-berrespena duten mezuak?",
+                        answer:
+                            "Bai. Zirkularrak eta mezuak irakurketa-berrespenarekin, push jakinarazpenak eta itzulpen automatikoa, telefono pertsonalik partekatu gabe.",
                     },
                     {
-                        question: "TokAppek dagoeneko kobratzen du eta denda du. Zer gehitzen du Edenak?",
-                        answer: "Biek dituzte familien kobrantzak eta denda. Edenak fakturazioa gehitzen du: VERI*FACTU fakturak, SEPA helbideratzeak eta ordaindu gabekoak, agiriaren eta matrikulen leku berean. Hori ez da agertzen TokAppen informazio publikoan.",
+                        question:
+                            "TokAppek dagoeneko kobratzen du eta denda du. Zer gehitzen du Edenak?",
+                        answer:
+                            "Biek dituzte familiei kobratzea eta denda. Edenak fakturazioa gehitzen du: VERI*FACTU fakturak, SEPA helbideratzeak eta ordaindu gabekoak, espedientearen eta matrikulen leku berean. Hori ez da agertzen TokAppen informazio publikoan.",
                     },
                     {
-                        question: "Edenak adimen artifiziala du, Tok.IA bezala?",
-                        answer: "Bai. Tok.IAk itzuli, mezuak ozen irakurri eta chatbot batekin erantzuten du. Enak, Edenaren AAk, lan mota hori egiten du eta, gainera, ikastetxeko lana exekutatzen du: fakturak prestatzen ditu, oharrak idazten ditu eta zerrenda pasatzen du. Zuk berrikusi eta baieztatzen duzu.",
+                        question: "Edenak ba al du adimen artifizialik, Tok.IA bezala?",
+                        answer:
+                            "Bai. Tok.IAk itzuli, mezuak ozen irakurri eta txatbot batekin erantzuten du. Enak, Edenaren AAk, horrelako zereginak egiten ditu, eta gainera ikastetxeko lana egiten du: fakturak prestatu, komunikatuak idatzi eta zerrenda pasatu. Zuk berrikusi eta berresten duzu.",
                     },
                     {
-                        question: "TokApp uzten badut, beste kudeaketa-programa bat ordaintzen jarraitu behar dut?",
-                        answer: "Ez. TokApp dagoeneko duzun kudeaketa-softwarearekin integratzen da. Edena software hori da: agiria, kobrantzak, fakturazioa, matrikulak eta familiak. Ikasleen, familien eta taldeen migrazioa sartuta dago.",
+                        question: "Edenak kudeaketa-programa ere ordezkatzen du?",
+                        answer:
+                            "Bai. Edenak espedientea, kobrantzak, fakturazioa, matrikulak eta familiekiko komunikazioa ditu. Gaur TokApp beste kudeaketa-programa batekin erabiltzen baduzu, Edenak biak betetzen ditu plataforma bakarrean. Ikasleen, familien eta taldeen migrazioa barne dago.",
                     },
                 ],
             },
             clickedu: {
-                tagline: "Ikastetxeentzako kudeaketa akademikoko plataforma",
+                tagline: "Kudeaketa akademikoa, ekonomikoa eta komunikazioa",
                 owner: "Sanoma Learning",
                 metaTitle: "Edena vs Clickedu: eskola-kudeaketaren konparazioa",
                 metaDescription:
-                    "Edena Clickeduren aurrean: kudeaketa akademikoa, fakturazioa, matrikulen CRMa, AA, prezioa eta proba doakoa. 17 irizpide iturri publikoekin alderatuta.",
-                headline: "Matrikula-kontsulta eta ordainagiria, prezioa webean",
-                lead: "Clickedu ikastetxeentzako plataforma akademiko sendoa da. Edena ikasgelatik haratago doa: bere CRMarekin matrikulak erakartzen ditu, fakturazioa automatizatzen du eta berdin dabil haur-eskoletan, ikastetxeetan eta akademietan, prezio publikoarekin.",
+                    "Edena Clickeduren aurrean: kudeaketa akademikoa, fakturazioa, matrikulen CRMa, AA, prezioa eta doako proba. 17 irizpide, iturri publikoekin alderatuta.",
+                headline: "Matrikula-kontsulta eta ordainagiria, prezioa webgunean dagoela",
+                lead:
+                    "Clickeduk kudeaketa akademikoa, ekonomikoa eta komunikazioa betetzen ditu eskola eta ikastetxeetan, Haur Hezkuntzatik LHra. Edenak matrikulen CRMa inbudoarekin, zereginak egiten dituen AA eta langileen ordutegi-kontrola gehitzen ditu, eta bere prezioa argitaratzen du.",
                 wins: [
                     {
-                        title: "Ikasleak erakarri, ez kudeatu bakarrik",
-                        body: "Jaiotza-tasa jaisten ari denez, matrikula bakoitzak balio du. Edenaren CRMak zure webguneko eskaerak jasotzen ditu, etapaka antolatzen ditu eta bihurketa neurtzen du. Clickeduk aurreinskripzioa eta matrikulazioa argitaratzen ditu; kaptazioko CRM bat inbudoarekin ez da agertzen bere informazio publikoan.",
+                        title: "Ikasleak erakarri, ez soilik kudeatu",
+                        body:
+                            "Jaiotza-tasa jaisten ari den honetan, matrikula bakoitzak balio du. Edenaren CRMak zure webguneko eskaerak jasotzen ditu, etapaka antolatzen ditu eta bihurketa neurtzen du. Clickeduk aurrematrikula eta matrikula moduluak argitaratzen ditu; inbudoa duen erakartze-CRM bat ez da agertzen bere informazio publikoan.",
                     },
                     {
                         title: "Lan egiten duen AA",
-                        body: "Enak hileko fakturak prestatzen ditu, oharrak idazten ditu eta zerrenda pasatzen du eskatzen diozunean. Zuk berrikusi eta baieztatzen duzu. Clickeduk ez du AA funtziorik zehazten bere webgunean.",
+                        body:
+                            "Enak hileko fakturak prestatzen ditu, komunikatuak idazten ditu eta zerrenda pasatzen du eskatzen diozunean. Zuk berrikusi eta berresten duzu. Clickeduren informazio publikoan ez da agertzen ikastetxeko taldearentzako AA funtziorik.",
                     },
                     {
-                        title: "Prezioa gaur jakin",
-                        body: "Clickedu demo eta aurrekontu bidez dabil. Edenak bere prezioa argitaratzen du, 36 €/hiletik, eta 30 egunez txartelik gabe probatzen uzten dizu.",
+                        title: "Prezioa gaur dakizu",
+                        body:
+                            "Clickeduk ez du preziorik argitaratzen bere webgunean eta demo bat eskaintzen du. Edenak bere prezioa argitaratzen du, 36 €/hiletik, eta 30 egunez txartelik gabe probatzen uzten dizu.",
                     },
                 ],
                 notes: {
-                    comms: "Familiekiko mezularitza",
+                    comms: "Berehalako mezularitza familiekin",
                     app: "Notak, asistentzia, ordainagiriak eta mezularitza",
                     attendance: "Asistentzia-kontrola",
                     records: "Kudeaketa akademikoa, ekonomikoa eta komunikazioa",
-                    segments: "Ikastetxeak, Haur Hezkuntzatik LHra",
                     grades: "Notak, ebaluazioak eta boletinak",
-                    lms: "Microsoft 365, Google eta liburu digitalekin integratzen da",
+                    segments: "Eskolak eta ikastetxeak, Haur Hezkuntzatik LHra",
+                    lms:
+                        "Moodle, itslearning, Microsoft 365, Google eta liburu digitalekin integratzen da",
                     payments: "Ordainagiriak eta TPV birtuala",
-                    billing: "Ordainagiriak",
-                    verifactu: "Adierazpena bere webgunean estekatuta",
-                    store: "Jantoki, eskolaz kanpoko eta garraioaren e-commercea",
-                    crm: "Aurreinskripzioa eta matrikulazioa",
-                    price: "Demoaren bidez",
-                    trial: "Salmenta-demoa",
-                    migration: "Laguntza-zerbitzua («Embarque»)",
+                    billing: "Fakturazioa, ordainketak eta ordainagiriak",
+                    verifactu: "Erantzukizunpeko adierazpena bere webgunean estekatuta",
+                    store:
+                        "Jantoki, eskolaz kanpoko jarduera eta garraioaren merkataritza elektronikoa",
+                    crm: "Aurrematrikula eta matrikula",
+                    price: "Ez dago argitaratuta bere webgunean",
+                    trial: "Demo komertziala",
+                    migration: "Inplementazio pertsonalizatua",
                 },
                 faqs: [
                     {
                         question: "Zer alde dago Edenaren eta Clickeduren artean?",
-                        answer: "Biek hartzen dituzte kudeaketa akademikoa, komunikazioa, asistentzia, kobrantzak eta zerbitzuen e-commercea. Edenak, gainera, inbudoa duen matrikulen CRM bat, zereginak egiten dituen AA bat (Ena) eta langileen ordutegi-kontrola ditu, eta bere prezioa argitaratzen du, 30 eguneko proba doakoarekin.",
+                        answer:
+                            "Biek betetzen dituzte kudeaketa akademikoa eta ekonomikoa, komunikazioa, asistentzia, kobrantzak eta zerbitzuen merkataritza elektronikoa. Edenak ere baditu inbudoa duen matrikulen CRMa, zereginak egiten dituen AA (Ena) eta langileen ordutegi-kontrola, Clickeduren informazio publikoan agertzen ez direnak, eta bere prezioa argitaratzen du, 30 eguneko doako probarekin.",
                     },
                     {
                         question: "Nire datuak Clickedutik Edenara migra ditzaket?",
-                        answer: "Bai. Ikasleak, familiak, taldeak eta fakturazio-datuak migratzen ditugu, eta zure taldea prestatzen dugu. Migrazioa prezioan sartuta dago.",
+                        answer:
+                            "Bai. Ikasleak, familiak, taldeak eta fakturazio-datuak migratzen ditugu, eta zure taldea prestatzen dugu. Migrazioa prezioan sartuta dago.",
                     },
                     {
-                        question: "Edenak VERI*FACTU betetzen du?",
-                        answer: "Bai. Edenak bere VERI*FACTU erantzukizunpeko adierazpena argitaratzen du, bertsio bakoitza sinatuta eta deskargagarri edena.es/eus/verifactu helbidean. Clickeduk ere Verifactu argitaratzen du, kontabilitate eta ordainagirien modulu gisa.",
+                        question: "Edenak betetzen du VERI*FACTU?",
+                        answer:
+                            "Bai. Edenak bere VERI*FACTU erantzukizunpeko adierazpena argitaratzen du, bertsio bakoitza sinatuta eta deskargagarri edena.es/verifactu helbidean. Clickeduk ere argitaratzen du bere Verifactu erantzukizunpeko adierazpena.",
                     },
                     {
-                        question: "Clickeduk dagoeneko notak eta e-commerce ditu. Zertan bereizten zarete?",
-                        answer: "Kudeaketa akademikoan, asistentzian, kobrantzetan eta zerbitzuen dendan gertu zaudete. Aldea matrikulen CRMa da, inbudoarekin, Ena (lanak exekutatzen dituen AA) eta langileen ordutegi-kontrola. Eta Edenak prezioa argitaratzen duela.",
+                        question:
+                            "Clickeduk badu notak eta merkataritza elektronikoa. Zertan bereizten dira?",
+                        answer:
+                            "Kudeaketa akademikoan, asistentzian, kobrantzetan eta zerbitzuen dendan, biak gertu daude. Aldea inbudoa duen matrikulen CRMan, Enan (zereginak egiten dituen AA) eta langileen ordutegi-kontrolean dago, Clickeduren informazio publikoan agertzen ez direnak. Eta Edenak prezioa argitaratzen duela.",
                     },
                     {
-                        question: "Edenak haur-eskola eta akademientzat balio du, edo ikastetxeentzat bakarrik?",
-                        answer: "Hirurentzat, eta ikastetxe-taldeentzat, plataforma berean. Clickedu ikastetxeentzat argitaratuta dago, Haur Hezkuntzatik LHra.",
+                        question:
+                            "Edena haur-eskola eta akademientzat ere bada, ala ikastetxeentzat soilik?",
+                        answer:
+                            "Hirurentzat, eta ikastetxe-taldeentzat, plataforma berarekin. Clickedu eskola eta ikastetxeentzat dago argitaratuta, Haur Hezkuntzatik LHra.",
                     },
                     {
-                        question: "Edena demo bat eskatu gabe proba dezaket?",
-                        answer: "Bai. 30 egun doan, txartelik eta iraunkortasunik gabe. Prezioa webean dago, 36 €/hiletik. Clickedu demo eta aurrekontu bidez dabil.",
+                        question: "Edena proba dezaket demorik eskatu gabe?",
+                        answer:
+                            "Bai. 30 egun doan, txartelik eta iraunkortasunik gabe. Prezioa webgunean dago, 36 €/hiletik. Clickeduk ez du preziorik argitaratzen eta demo bat eskaintzen du.",
                     },
                 ],
             },
             livekid: {
-                tagline: "Haur-eskolentzako kudeaketa aplikazioa",
-                owner: "LiveKid | Krakovia eta Bartzelona",
-                metaTitle: "Edena vs LiveKid: haur-eskoletarako softwareen konparazioa",
+                tagline: "Haur-eskolentzako kudeaketa-aplikazioa",
+                owner: "LiveKid",
+                metaTitle: "Edena vs LiveKid: haur-eskolentzako konparazioa",
                 metaDescription:
-                    "Edena LiveKiden aurrean haur-eskolentzat: agenda digitala, VERI*FACTU fakturazioa, matrikulen CRMa, AA eta prezioa. 17 irizpide, iturriekin.",
-                headline: "Haurraren agenda, eta hurrengo zentroa irekitzen duzunean",
-                lead: "LiveKid haur-eskolentzat pentsatuta dago. Edenak 0-3 etapa hartzen du agenda digitalarekin eta fakturazioarekin, eta zurekin jarraitzen du bihar ikastetxe bat, akademia bat edo bigarren zentro bat irekitzen baduzu.",
+                    "Edena LiveKiden aurrean haur-eskoletarako: agenda digitala, VERI*FACTU fakturazioa, matrikulen CRMa, AA eta prezioa. 17 irizpide, iturriekin.",
+                headline: "Haurraren agenda, eta hurrengo ikastetxea irekitzen duzunean",
+                lead:
+                    "LiveKid haur-eskolentzat pentsatuta dago. Edenak 0-3 etapa betetzen du agenda digitalarekin eta fakturazioarekin, eta zurekin jarraitzen du bihar ikastetxe, akademia edo bigarren zentro bat irekitzen baduzu.",
                 wins: [
                     {
                         title: "Hazi softwarez aldatu gabe",
-                        body: "Edenak berdin balio du haur-eskola, ikastetxe, akademia edo zentro-talde batentzat. Zure softwarea ez zaizu txiki geratzen hazten zarenean.",
+                        body:
+                            "Edenak berdin balio du haur-eskola, ikastetxe, akademia edo zentro-talde batentzat. Bihar beste zentro mota bat irekitzen baduzu, plataforma berean jarraitzen duzu. LiveKid haur hezkuntzako zentroentzat dago argitaratuta.",
                     },
                     {
                         title: "VERI*FACTU, idatziz",
-                        body: "Edenak bere VERI*FACTU erantzukizunpeko adierazpena argitaratzen du, bertsioz bertsio sinatuta. LiveKiden informazio publikoan ez dugu aurkitu.",
+                        body:
+                            "Edenak bere VERI*FACTU erantzukizunpeko adierazpena argitaratzen du, bertsioz bertsio sinatuta. LiveKiden informazio publikoan ez dugu VERI*FACTUri buruzko informaziorik aurkitu.",
                     },
                     {
-                        title: "Matrikulak benetako CRM batekin",
-                        body: "Inprimakiak zure webgunean, etapakako inbudoa, arduradunak eta bihurketa. 0-3 plazak betetzea salmenta bat da, eta Edenak hura ixteko tresnak ematen dizkizu.",
+                        title: "Matrikulak inbudoarekin",
+                        body:
+                            "Zure webguneko inprimakiak, etapakako inbudoa, arduradunak eta bihurketa. LiveKidek matrikula-modulu bat argitaratzen du, inprimakiarekin eta eskaerekin; inbudoa eta bihurketaren neurketa ez dira agertzen bere informazio publikoan.",
                     },
                 ],
                 notes: {
-                    comms: "Eguneroko agenda eta mezuak familiei",
-                    app: "Eguneroko agenda, argazkiak eta ordainketak",
-                    attendance: "Haur bakoitzaren sarrera, irteera eta hutsegiteak",
+                    comms: "Eguneko agenda eta mezuak familiei",
+                    app: "Eguneko agenda, argazkiak eta ordainketak",
+                    attendance: "Haur bakoitzaren etorrera, irteera eta hutsegiteak",
                     records: "Haur-eskolen kudeaketa eta komunikazioa",
-                    segments: "Haur-eskolak bakarrik",
+                    segments: "Haur-eskolak",
                     payments: "Ordainketa aplikazioan",
                     billing: "Fakturazio automatikoa",
-                    crm: "Matrikulen kudeaketa",
-                    staffTime: "Langileen ordutegiak eta fitxaketa",
+                    crm: "Matrikula-modulua, inprimakiarekin eta eskaerekin",
                     ai: "Mezuak, jarduerak eta galeriak idazten dituen laguntzailea",
+                    staffTime: "Langileen asistentzia- eta lan-orduak",
                     price: "Zentroko hileko tarifa",
-                    trial: "Proba-kontu doakoa",
-                    migration: "Ezarpen doakoa",
+                    trial: "Doako proba-kontua",
+                    migration: "Doako inplementazioa",
                 },
                 faqs: [
                     {
-                        question: "Edenak agenda digitala du haur-eskolentzat?",
-                        answer: "Bai. Haur bakoitzaren otorduak, siestak, argazkiak eta jarduerak segundotan erregistratzen dira, eta familia bakoitzak berehala ikusten ditu aplikazio doakoan.",
+                        question: "Edenak ba al du agenda digitalik haur-eskolentzat?",
+                        answer:
+                            "Bai. Haur bakoitzaren otorduak, siestak, argazkiak eta jarduerak segundotan erregistratzen dira, eta familia bakoitzak berehala ikusten ditu doako aplikazioan.",
                     },
                     {
                         question: "Zer alde dago Edenaren eta LiveKiden artean?",
-                        answer: "LiveKid haur-eskoletan espezializatuta dago. Edenak etapa hori eta ikastetxeak, akademiak eta taldeak ere hartzen ditu, VERI*FACTU fakturazioarekin, SEPA helbideratzeekin, matrikulen CRMarekin, automatizazioekin eta AArekin plataforma berean.",
+                        answer:
+                            "LiveKid haur-eskoletan espezializatuta dago. Edenak etapa hori betetzen du, baita ikastetxeak, akademiak eta zentro-taldeak ere, plataforma berean, VERI*FACTU fakturazioarekin, SEPA helbideratzeekin eta matrikulen CRMarekin.",
                     },
                     {
                         question: "Zenbat balio du Edenak haur-eskola batentzat?",
-                        answer: "36 €/hiletik, ikasleko ordainduta, alta-kuotarik eta iraunkortasunik gabe. 30 egunez doan proba dezakezu, txartelik gabe. LiveKidek hileko tarifa bat argitaratzen du ikastetxeko, eta proba-kontu bat.",
+                        answer:
+                            "36 €/hiletik, ikasleko ordainduta, alta-kuotarik eta iraunkortasunik gabe. 30 egunez doan proba dezakezu, txartelik gabe. LiveKidek zentroko hileko tarifa bat eta proba-kontu bat argitaratzen ditu.",
                     },
                     {
                         question: "LiveKidek dagoeneko fakturatzen du eta AA du. Zein da aldea?",
-                        answer: "LiveKidek fakturatu, aplikaziotik kobratu eta mezuak eta jarduerak idazten dituen laguntzaile bat du. Edenak hori 0-3 etapan egiten du eta, gainera, bere VERI*FACTU adierazpena argitaratzen du, eta balio izaten jarraitzen du ikastetxea eskola, akademia edo talde batera hazten bada.",
+                        answer:
+                            "LiveKidek fakturatzen du, aplikazioan kobratzen du eta mezuak eta jarduerak idazten dituen laguntzaile bat du. Edenak hori egiten du 0-3 etapan, eta gainera bere VERI*FACTU adierazpena argitaratzen du eta balio du zentroa ikastetxe, akademia edo talde bihurtzen bada.",
                     },
                     {
                         question: "Edenak langileen ordutegia kontrolatzen du, LiveKidek bezala?",
-                        answer: "Bai. Taldeak mugikorretik fitxatzen du eta ikastetxeak lanaldien erregistroa du. LiveKiden ere fitxatzea eta langileen ordutegiak argitaratuta daude.",
+                        answer:
+                            "Bai. Taldeak mugikorretik fitxatzen du eta zentroak lanaldiaren erregistroa du. LiveKidek ere argitaratzen du langileen lan-orduen erregistroa.",
                     },
                     {
-                        question: "Bihar ikastetxe bat irekitzen badut, softwarez aldatu behar dut?",
-                        answer: "Edenarekin, ez. Plataforma berak haur-eskola, ikastetxea, akademia eta zentro-talde bat hartzen ditu. LiveKid haur-eskoletan argitaratuta dago.",
+                        question:
+                            "Bihar ikastetxe bat irekitzen badut, softwarez aldatu behar dut?",
+                        answer:
+                            "Edenarekin, ez. Plataforma berak betetzen ditu haur-eskola, ikastetxea, akademia eta zentro-talde bat. LiveKid haur-eskolentzat dago argitaratuta.",
                     },
                 ],
             },
@@ -4271,127 +4308,153 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
                 metaDescription:
                     "Edena SM Educamosen aurrean: kudeaketa, VERI*FACTU fakturazioa, matrikulen CRMa, AA, prezioa eta abiaraztea. 17 irizpide, iturri publikoekin.",
                 headline: "Ordainagiria, matrikula eta abisua idazkaritzatik ateratzen dira",
-                lead: "Educamos argitaletxe batean jaio zen eta SMren edukiak dituen ikasgela birtualean distiratzen du. Edena kudeaketatik jaio zen: kobratzen du, fakturatzen du, matrikulak erakartzen ditu eta idazkaritza automatizatzen du, inongo argitaletxeri lotu gabe.",
+                lead:
+                    "Educamosek, SM taldearenak, ikastetxearen kudeaketa eta ikasgela birtual bat batzen ditu; ikasgelak argitaletxeen baliabideak, norberarenak edo hirugarrenenak onartzen ditu. Edena kudeaketan zentratzen da: kobratu, VERI*FACTU bidez fakturatu, matrikulak erakarri bere CRMarekin eta idazkaritza automatizatu.",
                 wins: [
                     {
-                        title: "Argitaletxe bati lotu gabe",
-                        body: "Edenak ez du libururik ez edukirik saltzen. Ikasgelarako nahi dituzun materialak aukeratzen dituzu eta Edena gainerakoaz arduratzen da: kudeaketa, kobrantzak eta familiak.",
+                        title: "Matrikulak inbudoarekin eta bihurketarekin",
+                        body:
+                            "Educamosek onarpen- eta matrikula-prozesuak argitaratzen ditu. Edenak erakartze-CRM bat gehitzen du: zure webguneko inprimakiak, etapakako inbudoa eta bihurketa, espedientearekin eta ordainagiriarekin lotuta.",
                     },
                     {
                         title: "VERI*FACTU, idatziz",
-                        body: "Educamosek fakturatu, kobratu eta denda du. Edenak, gainera, bere VERI*FACTU adierazpena argitaratzen du, bertsioz bertsio sinatuta, helbideratzeen eta ordaindu gabekoen fluxu berean.",
+                        body:
+                            "Edenak bere VERI*FACTU erantzukizunpeko adierazpena argitaratzen du, bertsioz bertsio sinatuta, helbideratzeen eta ordaindu gabekoen fluxu berean. Educamosen informazio publikoan ez dugu VERI*FACTUri buruzko informaziorik aurkitu.",
                     },
                     {
-                        title: "Martxan bi astean",
-                        body: "Migrazioa, konfigurazioa eta prestakuntza gure kontura, prezio publikoarekin eta iraunkortasunik gabe.",
+                        title: "Prezioa, begi-bistan",
+                        body:
+                            "Edenak bere prezioa argitaratzen du: 36 €/hiletik, 30 eguneko doako probarekin eta iraunkortasunik gabe. Educamosek ez du preziorik argitaratzen bere webgunean.",
                     },
                 ],
                 notes: {
-                    comms: "Mezuak familiei",
+                    comms: "Berehalako mezularitza familiekin",
                     app: "Notak, ordainketak, dokumentuak eta mezuak",
-                    attendance: "Asistentzia, atzerapenak eta gorabeherak",
+                    attendance: "Asistentzia, berandutzeak eta gorabeherak",
                     records: "Kudeaketa, komunikazioa eta ikasgela birtuala",
                     grades: "Kalifikazioak eta boletinak",
                     segments: "Ikastetxeak",
-                    lms: "Ikasgela birtuala SMren edukiekin",
-                    payments: "Lineako ordainketak",
+                    lms:
+                        "Ikasgela birtuala, argitaletxeen baliabideekin, norberarenekin edo hirugarrenenekin",
+                    payments: "Online ordainketak Kineoxekin",
                     billing: "Ordainagiriak, bekak eta 182 eta 233 ereduak",
                     store: "Familien eskaeretarako denda birtuala",
-                    crm: "Onarpen eta matrikulazio prozesuak",
-                    price: "Demoaren bidez",
-                    trial: "Salmenta-demoa",
+                    crm: "Onarpen- eta matrikula-prozesuak",
+                    price: "Ez dago argitaratuta bere webgunean",
+                    trial: "Demo komertziala",
+                    migration: "Aholkulari espezialistek egindako ezarpena",
                 },
                 faqs: [
                     {
                         question: "Zer alde dago Edenaren eta SM Educamosen artean?",
-                        answer: "Educamosek kudeaketa eta SMren edukiak dituen ikasgela birtuala uztartzen ditu. Edena ikastetxearen kudeaketan zentratzen da: VERI*FACTU fakturazioa, SEPA helbideratzeak, matrikulen CRMa, ordutegi-kontrola, automatizazioak, AA eta familiekiko komunikazioa, argitaletxe baten menpe egon gabe.",
+                        answer:
+                            "Educamosek ikastetxearen kudeaketa eta ikasgela birtual bat konbinatzen ditu; ikasgelak argitaletxeen baliabideak, norberarenak edo hirugarrenenak onartzen ditu. Edena kudeaketan zentratzen da: VERI*FACTU fakturazioa, SEPA helbideratzeak, matrikulen CRMa, ordutegi-kontrola, automatizazioak, AA eta familiekiko komunikazioa.",
                     },
                     {
-                        question: "Edena nire argitaletxearen liburu digitalekin erabil dezaket?",
-                        answer: "Bai. Edenak ez du edukirik inposatzen: zure ikastetxeak nahiago dituen ikasgelako material eta plataformak erabiltzen jarraitzen du, eta Edenak gainerakoa kudeatzen du.",
+                        question: "Edena erabil dezaket nire argitaletxearen liburu digitalekin?",
+                        answer:
+                            "Bai. Edenak ez du edukirik inposatzen: zure ikastetxeak nahi dituen ikasgelako materialak eta plataformak erabiltzen jarraitzen du, eta Edenak gainerakoa kudeatzen du.",
                     },
                     {
-                        question: "Zenbat behar da Educamosetik Edenara pasatzeko?",
-                        answer: "Ikastetxe gehienak bi astean martxan daude. Datuak migratzen ditugu, fakturazioa konfiguratzen dugu eta taldea prestatzen dugu, kostu gehigarririk gabe.",
+                        question: "Zenbat denbora behar da Educamosetik Edenara pasatzeko?",
+                        answer:
+                            "Ikastetxe gehienak bi astean daude martxan. Datuak migratzen ditugu, fakturazioa konfiguratzen dugu eta taldea prestatzen dugu, kostu gehigarririk gabe.",
                     },
                     {
-                        question: "Educamosek dagoeneko fakturatzen du eta denda du. Zergatik begiratu Edena?",
-                        answer: "Educamosek fakturazioa, denda birtuala, asistentzia eta boletinak argitaratzen ditu, SMren edukiekin ikasgelan. Edenak ez zaitu argitaletxe bati lotzen, prezioa eta VERI*FACTU adierazpena argitaratzen ditu, eta matrikulen CRMa agiriarekin eta ordainagiriarekin konektatuta doa.",
+                        question:
+                            "Educamosek dagoeneko fakturatzen du eta denda du. Zergatik begiratu Edena?",
+                        answer:
+                            "Educamosek ordainagiriak, denda birtuala, asistentzia, boletinak eta ikasgela birtual bat argitaratzen ditu. Edenak bere prezioa eta VERI*FACTU adierazpena argitaratzen ditu, eta bere matrikulen CRMa espedientearekin eta ordainagiriarekin lotuta dago.",
                     },
                     {
-                        question: "Edenak notak eta boletinak ditu?",
-                        answer: "Bai. Lanak, notak eta boletinak, argitaletxeko edukirik gabe. SMren materialak dituen ikasgela birtuala Educamosen indargunea da; Edenan dagoeneko erabiltzen dituzun materialak aukeratzen dituzu.",
+                        question: "Edenak ba al ditu notak eta boletinak?",
+                        answer:
+                            "Bai. Zereginak, notak eta boletinak, argitaletxeko eduki propiorik gabe: ikastetxeak dagoeneko erabiltzen dituen materialekin jarraitzen du. Ikasgela birtuala Educamosen indarguneetako bat da.",
                     },
                     {
-                        question: "Iraunkortasunik edo alta-kuotarik badago?",
-                        answer: "Ez. Ikasleko ordaintzen duzu, 36 €/hiletik, eta 30 egunez proba dezakezu txartelik gabe. Educamos demo eta aurrekontu bidez dabil.",
+                        question: "Ba al dago iraunkortasunik edo alta-kuotarik?",
+                        answer:
+                            "Ez. Ikasleko ordaintzen duzu, 36 €/hiletik, eta 30 egunez txartelik gabe proba dezakezu. Educamosek ez du preziorik argitaratzen eta demo bat eskaintzen du.",
                     },
                 ],
             },
             alexia: {
-                tagline: "Educariaren eskola-kudeaketa suitea",
+                tagline: "Educariaren eskola-kudeaketako suitea",
                 owner: "Educaria",
                 metaTitle: "Edena vs Alexia: eskola-kudeaketaren konparazioa",
                 metaDescription:
-                    "Edena Alexiaren (Educaria) aurrean: fakturazioa, matrikulen CRMa, AA, automatizazioak, prezioa eta proba doakoa. 17 irizpide iturri publikoekin alderatuta.",
-                headline: "Prezioa webean dago, 30 egunez probatzen duzu eta zentroa bi astetan martxan dago",
-                lead: "Alexia ikastetxeentzako suite beterano eta oso osatua da. Edenak beste abiadura batean jokatzen du: prezio publikoa, 30 eguneko proba, matrikulen CRM propioa eta bi astean martxan.",
+                    "Edena Alexiaren (Educaria) aurrean: fakturazioa, matrikulen CRMa, AA, automatizazioak, prezioa eta doako proba. 17 irizpide, iturri publikoekin alderatuta.",
+                headline:
+                    "Prezioa ikusten duzu, 30 egunez probatzen duzu eta bi astean abiatzen zara",
+                lead:
+                    "Alexia, Educariarena, edozein hezkuntza-zentrotarako eta taldeetarako suite osoa da. Edena baldintzetan eta matrikuletan bereizten da: prezio publikoa, 30 eguneko proba eta matrikulen CRMa barne.",
                 wins: [
                     {
                         title: "Matrikulak barruan, ez ondoan",
-                        body: "Alexiak aurreinskripzioa eta matrikula argitaratzen ditu, eta kaptazioa kanpoko CRM batekin konektatzen du. Edenan matrikulen CRMa barruan doa: eskaera ikasle, familia eta ordainagiri bihurtzen da ezer esportatu gabe.",
+                        body:
+                            "Alexiak aurrematrikula eta matrikula argitaratzen ditu, baita kanpoko CRMekiko integrazioa ere. Edenan matrikulen CRMa barne dago: eskaera ikasle, familia eta ordainagiri bihurtzen da ezer esportatu gabe.",
                     },
                     {
-                        title: "Prezioa agerian, proba konpromisorik gabe",
-                        body: "36 €/hiletik, 30 egun doan txartelik eta iraunkortasunik gabe. Aurrekonturik itxaron gabe.",
+                        title: "Prezioa, begi-bistan",
+                        body:
+                            "Edenak bere prezioa argitaratzen du: 36 €/hiletik, alta-kuotarik eta iraunkortasunik gabe. Alexiak ez du preziorik argitaratzen bere webgunean.",
                     },
                     {
-                        title: "Edozein ikastetxe motarentzat",
-                        body: "Haur-eskolak, ikastetxeak, akademiak eta taldeak plataforma berean, gehi langileen ordutegi-kontrola eta eskola-diruzorroa.",
+                        title: "Probatu erabaki aurretik",
+                        body:
+                            "30 egun doan, txartelik gabe, zure ikastetxearen datuekin. Alexiak demo bat eskaintzen du.",
                     },
                 ],
                 notes: {
-                    comms: "Baimenak eta oharrak familiei",
+                    comms: "Baimenak eta abisuak familiei",
                     app: "Ordutegiak, notak, ordainagiriak eta baimenak",
                     attendance: "Zerrenda pasatzea ikasgelako aplikaziotik",
                     records: "Kudeaketa akademikoa, ekonomikoa eta administratiboa",
                     grades: "Irakaslearen koadernoa, errubrikak eta boletinak",
-                    segments: "Ikastetxeak eta hezkuntza-taldeak",
+                    segments: "Edozein hezkuntza-zentro, prestakuntza ez-arautua barne",
                     lms: "Moodlen oinarritutako ikaskuntza-ingurunea, eduki digitalekin",
                     payments: "Kobrantzak",
                     billing: "Kobrantzak eta fakturazioa",
-                    verifactu: "Verifactu, SEPA eta eredu fiskalak",
+                    verifactu: "Verifactu, faktura egiaztagarrien sistema",
                     store: "Lineako denda",
-                    crm: "Aurreinskripzioa eta matrikula; kaptazioa, kanpoko CRMarekin",
-                    staffTime: "Lanaldien erregistroa aipatzen du estaltzen dituen betebeharren artean",
-                    ai: "AlexIA: datuak balidatzen ditu eta ekintzak iradokitzen ditu",
-                    price: "Demoaren bidez",
-                    trial: "Salmenta-demoa",
+                    crm: "Aurrematrikula eta matrikula; kanpoko CRMekin integratzen da",
+                    ai: "AlexIA: edukia sortu, laburtu, itzuli eta zereginak automatizatzen ditu",
+                    staffTime:
+                        "Ordutegi-erregistroa betetzen dituen betebeharren artean aipatzen du",
+                    price: "Ez dago argitaratuta bere webgunean",
+                    trial: "Demo komertziala",
+                    migration: "Plangintza, datuen migrazioa eta prestakuntza",
                 },
                 faqs: [
                     {
                         question: "Zer alde dago Edenaren eta Alexiaren artean?",
-                        answer: "Biek hartzen dute ikastetxearen kudeaketa akademikoa eta ekonomikoa, eta biek dute AA laguntzailea. Edenak, gainera, matrikulen CRM propioa, langileen ordutegi-kontrola, koderik gabeko automatizazioak eta eskola-diruzorroa ditu, bere prezioa argitaratzen du eta 30 eguneko proba doakoa eskaintzen du.",
+                        answer:
+                            "Biek betetzen dituzte kudeaketa akademikoa eta ekonomikoa, hainbat zentro motari zerbitzatzen diete eta AA laguntzailea dute. Edenak bere matrikulen CRMa du, bere prezioa argitaratzen du eta 30 eguneko doako proba eskaintzen du. Alexia kanpoko CRMekin integratzen da eta demoarekin lan egiten du.",
                     },
                     {
                         question: "Alexiatik Edenara migra dezaket?",
-                        answer: "Bai. Ikasleak, familiak, taldeak eta fakturazio-datuak migratzen ditugu, zure kuotak konfiguratzen ditugu eta zure taldea prestatzen dugu. Prezioan sartuta dago.",
+                        answer:
+                            "Bai. Ikasleak, familiak, taldeak eta fakturazio-datuak migratzen ditugu, zure kuotak konfiguratzen ditugu eta zure taldea prestatzen dugu. Prezioan sartuta dago.",
                     },
                     {
                         question: "Edenak balio du hainbat ikastetxeko taldeentzat?",
-                        answer: "Bai. Sare osoa panel bakar batetik kudeatzen duzu, fakturazio zentralizatuarekin, txosten bateratuekin eta prozesu berberekin ikastetxe bakoitzean. Alexia ere ikastetxe eta taldeentzat argitaratuta dago.",
+                        answer:
+                            "Bai. Sare osoa panel batetik kudeatzen duzu, fakturazio zentralizatuarekin, txosten bateratuekin eta prozesu berberekin ikastetxe bakoitzean. Alexia ere hezkuntza-taldeentzat dago argitaratuta.",
                     },
                     {
-                        question: "Alexiak dagoeneko Verifactu eta AA ditu. Zer aldatzen da?",
-                        answer: "Biek Verifacturekin fakturatzen dute, eta denda, notak eta AA laguntzaile bat dituzte. Alexiak aurreinskripzioa argitaratzen du eta kaptazioa kanpoko CRM batekin konektatzen du. Edenan matrikulen CRMa barruan doa, prezioa webean dago eta 30 egunez proba dezakezu txartelik gabe.",
+                        question: "Alexiak badu Verifactu eta AA. Zer aldatzen da?",
+                        answer:
+                            "Biek fakturatzen dute Verifacturekin, eta biek dituzte denda, notak eta AA laguntzailea. Alexiak aurrematrikula eta matrikula argitaratzen ditu, eta kanpoko CRMekin integratzen da. Edenan matrikulen CRMa barne dago, prezioa webgunean dago eta 30 egunez txartelik gabe proba dezakezu.",
                     },
                     {
                         question: "Edena proba dezaket Alexiatik migratu aurretik?",
-                        answer: "Bai. 30 egun doan, txartelik eta iraunkortasunik gabe. Geratzen bazara, ikasleak, familiak, taldeak eta fakturazioa migratzen ditugu. Prezioan sartuta dago.",
+                        answer:
+                            "Bai. 30 egun doan, txartelik eta iraunkortasunik gabe. Geratzen bazara, ikasleak, familiak, taldeak eta fakturazioa migratzen ditugu. Prezioan sartuta dago.",
                     },
                     {
-                        question: "Edenak noten koadernoa du?",
-                        answer: "Bai. Notak, boletinak eta irakasleen koadernoa. Ez ditu argitaletxeko edukiak barne: ikasgela ikastetxeak dagoeneko erabiltzen dituen materialetan oinarritzen da. Alexiak Moodle oinarriko ikaskuntza-ingurune bat argitaratzen du.",
+                        question: "Edenak ba al du notetarako koadernorik?",
+                        answer:
+                            "Bai. Notak, boletinak eta irakaslearen koadernoa. Ez du argitaletxeko edukirik: ikasgelak ikastetxeak dagoeneko erabiltzen dituen materialak erabiltzen ditu. Alexiak Moodlen oinarritutako ikaskuntza-ingurune bat argitaratzen du.",
                     },
                 ],
             },
@@ -4400,123 +4463,148 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
                 owner: "Edebé Taldea",
                 metaTitle: "Edena vs Esemtia: eskola-kudeaketaren konparazioa",
                 metaDescription:
-                    "Edena Esemtiaren (Edebé) aurrean: fakturazioa, matrikulen CRM integratua, AA, automatizazioak, prezioa eta proba doakoa. 17 irizpide, iturri publikoekin.",
-                headline: "Kobratu, matrikulatu eta familiei abisatzen diezu leku beretik",
-                lead: "Esemtiak Haur Hezkuntza, ikastetxeak eta LH hartzen ditu, ikuspegi akademiko eta LOMLOE indartsuarekin. Edenak denbora gehien kostatzen denean jartzen du arreta: kobratzea, matrikulak erakartzea eta familiekin komunikatzea, AA eta automatizazioak berez dituela.",
+                    "Edena Esemtiaren (Edebé) aurrean: fakturazioa, matrikulen CRMa, AA, automatizazioak, prezioa eta doako proba. 17 irizpide, iturri publikoekin.",
+                headline: "Erakarri, kobratu eta familiak abisatu, prezioa begi-bistan duzula",
+                lead:
+                    "Esemtiak, Edebérenak, haur-eskolak, ikastetxeak eta LH betetzen ditu kudeaketa akademikoarekin, fakturazioarekin eta familiekiko komunikazioarekin. Edenak matrikulen CRMa inbudoarekin, zereginak egiten dituen AA eta langileen ordutegi-kontrola gehitzen ditu, eta bere prezioa argitaratzen du.",
                 wins: [
                     {
-                        title: "CRM propioa, konektorerik gabe",
-                        body: "Esemtia Zoho CRMarekin integratzen da. Edenak matrikulen CRMa barruan dakar: inprimakiak, inbudoa eta bihurketa, agiriarekin eta fakturazioarekin konektatuta.",
+                        title: "Matrikulen CRMa barne",
+                        body:
+                            "Esemtiak online matrikula argitaratzen du. Edenak erakartze-CRM bat gehitzen du: zure webguneko inprimakiak, inbudoa eta bihurketa, espedientearekin eta fakturazioarekin lotuta.",
                     },
                     {
                         title: "Ena, lana egiten duen AA",
-                        body: "Fakturak sortzen ditu, oharrak idazten ditu eta zerrenda pasatzen du eskatzen diozunean. Zuk berrikusi eta baieztatzen duzu.",
+                        body:
+                            "Fakturak sortzen ditu, komunikatuak idazten ditu eta zerrenda pasatzen du eskatzen diozunean. Zuk berrikusi eta berresten duzu. Esemtiaren informazio publikoan ez da AA funtziorik agertzen.",
                     },
                     {
                         title: "Probatu gaur, ez demo baten ondoren",
-                        body: "Edenak bere prezioa argitaratzen du eta 30 egunez doan probatzen uzten dizu, txartelik eta iraunkortasunik gabe.",
+                        body:
+                            "Edenak bere prezioa argitaratzen du eta 30 egunez doan probatzen uzten dizu, txartelik eta iraunkortasunik gabe. Esemtiak ikastetxe bakoitzari egokitutako demo bat prestatzen du.",
                     },
                 ],
                 notes: {
-                    comms: "Komunikazioa familiekin eta ikasleekin",
+                    comms: "Familiekiko eta ikasleekiko komunikazioa",
                     app: "Familientzako eta ikasleentzako aplikazioak",
                     attendance: "Asistentzia, absentismoa eta hutsegiteen justifikazioa",
                     records: "Administrazioa, kudeaketa akademikoa eta komunikazioa",
-                    grades: "Ebaluazio-koadernoa, konpetentziak eta boletinak",
-                    segments: "Haur Hezkuntza, ikastetxeak eta LH",
-                    lms: "Moodle propioa, Edebéren edukiekin edo beste iturri batzuekin",
-                    payments: "Lineako ordainketak",
-                    billing: "Fakturazioa eta lineako ordainketak",
+                    grades: "Ebaluazio-koadernoa, gaitasunak eta boletinak",
+                    segments: "Haur-eskolak, ikastetxeak eta LH",
+                    lms: "Moodle propioa ikaskuntza-ingurune gisa",
+                    payments: "Online ordainketak",
+                    billing: "Ordainagirien helbideratzeak, kobrantzak eta online ordainketak",
+                    verifactu: "Fakturak AEATra bidaltzea Verifacturekin",
                     store: "Uniformeen, liburuen eta artikuluen lineako salmenta",
-                    crm: "Zoho CRMarekiko integrazioaren bidez",
-                    price: "Demoaren bidez",
-                    trial: "Salmenta-demoa",
+                    crm:
+                        "Online matrikula; bere LHko soluzioak ZohoCRMekiko integrazioa aipatzen du",
+                    price: "Ez dago argitaratuta bere webgunean",
+                    trial: "Ikastetxe bakoitzari egokitutako demoa",
+                    migration: "Migrazio- eta prestakuntza-zerbitzuak",
                 },
                 faqs: [
                     {
                         question: "Zer alde dago Edenaren eta Esemtiaren artean?",
-                        answer: "Esemtia oso bideratuta dago kudeaketa akademikora, konpetentzien ebaluaziora eta LHra. Edena ikastetxearen kudeaketan zentratzen da: VERI*FACTU fakturazioa, SEPA helbideratzeak, matrikulen CRM integratua, ordutegi-kontrola, automatizazioak, lineako denda eta AA, prezio publikoarekin eta proba doakoarekin.",
+                        answer:
+                            "Biek betetzen dituzte kudeaketa akademikoa, helbideratzeak eta Verifactu dituen fakturazioa, online ordainketak eta familiekiko komunikazioa. Esemtia oso bideratuta dago gaitasunen ebaluaziora eta LHra. Edenak inbudoa duen matrikulen CRMa, langileen ordutegi-kontrola eta zereginak egiten dituen AA ditu, eta bere prezioa argitaratzen du 30 eguneko probarekin.",
                     },
                     {
                         question: "Esemtiatik Edenara migra dezaket?",
-                        answer: "Bai. Zure datuak migratzen ditugu, fakturazioa konfiguratzen dugu eta taldea prestatzen dugu. Ikastetxe gehienak bi astean martxan daude.",
+                        answer:
+                            "Bai. Zure datuak migratzen ditugu, fakturazioa konfiguratzen dugu eta taldea prestatzen dugu. Ikastetxe gehienak bi astean daude martxan.",
                     },
                     {
-                        question: "Edenak aplikaziorik du familientzat eta ikasleentzat?",
-                        answer: "Bai. iOS eta Androiderako aplikazio doakoa, mezuekin, notekin, fakturekin, baimenekin eta ikastetxearen dendarekin. Esemtiak aplikazioak argitaratzen ditu familientzat eta ikasleentzat, eta ikasgelarako.",
+                        question: "Edenak ba al du aplikaziorik familientzat eta ikasleentzat?",
+                        answer:
+                            "Bai. iOS eta Androiderako doako aplikazio bat, mezuekin, notekin, fakturekin, baimenekin eta ikastetxearen dendarekin. Esemtiak familientzako eta ikasleentzako aplikazioak argitaratzen ditu, baita ikasgelarako ere.",
                     },
                     {
-                        question: "Esemtiak ebaluazioa eta LH hartzen ditu. Edenak ere bai?",
-                        answer: "Esemtia ebaluazio konpetentzialera, bere Moodlera eta LHra oso bideratuta dago. Edenak notak eta boletinak ditu, eta ikasgela birtuala argitaletxeko edukirik gabe. Kudeaketan bereizten dira: matrikulen CRMa plataformaren barruan, lanak exekutatzen dituen AA eta prezio publikoa.",
+                        question: "Esemtiak ebaluazioa eta LH betetzen ditu. Edenak ere bai?",
+                        answer:
+                            "Esemtia oso bideratuta dago gaitasunen ebaluaziora, Moodle propiora eta LHra. Edenak notak eta boletinak ditu, argitaletxeko edukirik gabe. Bereizten diren tokia matrikulen CRMa, zereginak egiten dituen AA eta prezio publikoa dira.",
                     },
                     {
-                        question: "Edenaren CRMak Zoho ordezkatzen du?",
-                        answer: "Esemtiak kaptazioa Zoho CRMaren bidez argitaratzen du. Edenan CRMa barruan doa: inprimakiak zure webgunean, inbudoa eta bihurketa, agiriarekin eta fakturazioarekin konektatuta, konektore bereizirik gabe.",
+                        question: "Edenak fakturatzen du Verifacturekin, Esemtiak bezala?",
+                        answer:
+                            "Bai. Biek argitaratzen dute fakturak AEATra bidaltzen dituztela Verifacturekin. Edenaren erantzukizunpeko adierazpena argitaratuta eta sinatuta dago, bertsioz bertsio, edena.es/verifactu helbidean.",
                     },
                     {
                         question: "Edena proba dezaket demo baten zain egon gabe?",
-                        answer: "Bai. 30 egun doan, txartelik eta iraunkortasunik gabe, 36 €/hiletik. Esemtia demo eta aurrekontu bidez dabil.",
+                        answer:
+                            "Bai. 30 egun doan, txartelik eta iraunkortasunik gabe, 36 €/hiletik. Esemtiak ez du preziorik argitaratzen eta demo bat eskaintzen du.",
                     },
                 ],
             },
             dinantia: {
                 tagline: "Komunikazioa, matrikulak eta denda",
-                owner: "LiveKid taldea | 2022tik",
+                owner: "LiveKid Taldea | 2022tik",
                 metaTitle: "Edena vs Dinantia: eskola-komunikazioaren konparazioa",
                 metaDescription:
                     "Edena Dinantiaren aurrean: familiekiko komunikazioa, ikastetxearen kudeaketa, VERI*FACTU fakturazioa, matrikulen CRMa eta prezioa. 17 irizpide, iturriekin.",
-                headline: "Verifactuko faktura eta espedientea, matrikularen ondoan",
-                lead: "Dinantiak familiekiko komunikazioa, matrikulen CRMa eta denda hartzen ditu. Edenak ere bai, eta gainera agiria, VERI*FACTU fakturak eta helbideratzeak plataforma berean daramatza.",
+                headline: "Verifactu faktura eta espedientea, matrikularen ondoan",
+                lead:
+                    "Dinantiak familiekiko komunikazioa, kobrantzak, matrikulen CRMa eta denda betetzen ditu. Edenak ere bai, eta gainera espedientea, VERI*FACTU fakturak eta helbideratzeak plataforma berean eramaten ditu.",
                 wins: [
                     {
                         title: "Komunikatzea hasiera besterik ez da",
-                        body: "Oharrak eta irakurtze-baieztapenak Edenan ere badaude. Dinantiak asistentzia, agenda eta ordutegiak gehitzen ditu. Konektatutako agiria eta fakturazioa Edenan bizi dira, beste tresnarik gabe.",
+                        body:
+                            "Abisuak eta irakurketa-berrespenak Edenan ere badaude. Dinantiak asistentzia, agenda eta ordutegiak gehitzen ditu. Edenan, espedientea eta fakturazioa lotuta daude plataforma berean.",
                     },
                     {
-                        title: "Dirua, konponduta",
-                        body: "Dinantiak aplikaziotik kobratzen du eta denda du. VERI*FACTU fakturak egitea, SEPA helbideratzeak bidaltzea eta ordaindu gabekoak kontrolatzea ez da agertzen bere informazio publikoan. Edenan fluxu berean doa.",
+                        title: "Fakturatu, ez soilik kobratu",
+                        body:
+                            "Dinantiak aplikaziotik kobratzen du, hileko harpidetzekin, ordaindu ez dutenentzako oroigarriekin eta fakturak deskargatzeko aukerarekin. VERI*FACTU fakturazioa eta SEPA helbideratzeak ez dira agertzen bere informazio publikoan. Edenan fluxu berean doaz.",
                     },
                     {
-                        title: "Ordaintzeko tresna bat gutxiago",
-                        body: "Gaur komunikazio aplikazio bat eta kudeaketa-programa bat bereizita ordaintzen badituzu, Edenak biak ordezkatzen ditu, 36 €/hiletik.",
+                        title: "Ordaindu beharreko tresna bat gutxiago",
+                        body:
+                            "Gaur komunikazio-aplikazio bat eta kudeaketa-programa bat bereiz ordaintzen badituzu, Edenak biak ordezkatzen ditu, prezio publikoarekin, 36 €/hiletik.",
                     },
                 ],
                 notes: {
-                    comms: "Mezuak, murrua eta zirkularrak",
+                    comms: "Mezuak, horma eta zirkularrak",
                     app: "Ikastetxearen markarekin",
                     attendance: "Zerrenda pasatzea eta jarraipena",
-                    records: "Asistentzia, ordutegiak eta haur-agenda",
-                    segments: "Ikastetxeak, institutuak, kontserbatorioak eta haur-agenda",
-                    payments: "Kobrantzak aplikaziotik",
-                    store: "Denda: produktuak, ekitaldiak eta harpidetzak",
-                    crm: "Inprimakiak, inbudoa, bihurketa eta automatizazioak",
-                    staffTime: "Langileen presentzia-kontrola",
+                    records: "Asistentzia, ordutegiak eta haur hezkuntzako agenda",
+                    segments:
+                        "Ikastetxeak, institutuak, kontserbatorioak eta haur hezkuntzako agenda",
+                    payments: "Txartelarekin kobratzea aplikaziotik",
+                    billing: "Harpidetzak, ordainketa-oroigarriak eta fakturak deskargatzea",
+                    store: "Denda: produktuak, txartelak, ekitaldiak eta harpidetzak",
+                    crm: "Inprimakiak, inbudoa, bihurketa eta hautagaien alta automatikoa",
+                    staffTime: "Presentzia-kontrola: lanaldiaren erregistroa",
                     trial: "30 egun",
                 },
                 faqs: [
                     {
                         question: "Zer alde dago Edenaren eta Dinantiaren artean?",
-                        answer: "Dinantiak familiekiko komunikazioa, asistentzia, matrikulen CRMa eta denda hartzen ditu. Edenak komunikazio hori agiria, VERI*FACTU fakturazioa, SEPA helbideratzeak eta AA batekin biltzen ditu plataforma berean, CRMa ikasleari eta ordainagiriari lotuta.",
+                        answer:
+                            "Dinantiak familiekiko komunikazioa, asistentzia, kobrantzak, matrikulen CRMa eta denda betetzen ditu. Edenak komunikazio hori espedientearekin, VERI*FACTU fakturazioarekin, SEPA helbideratzeekin eta AArekin batzen du plataforma berean, CRMa ikaslearekin eta ordainagiriarekin lotuta.",
                     },
                     {
-                        question: "Edenak sinadura digitaleko baimenak ditu?",
-                        answer: "Bai. Familiek baimenak eta dokumentuak aplikaziotik sinatzen dituzte eta ikastetxeak berehala ikusten du nork sinatu duen.",
+                        question: "Edenak ba al du sinadura digitala duten baimenik?",
+                        answer:
+                            "Bai. Familiek baimenak eta dokumentuak aplikaziotik sinatzen dituzte, eta ikastetxeak berehala ikusten du nork sinatu duen.",
                     },
                     {
                         question: "Edena proba dezaket aldatu aurretik?",
-                        answer: "Bai. 30 egun doan, txartelik eta iraunkortasunik gabe. Eta aldatzea erabakitzen baduzu, zure datuak kosturik gabe migratzen ditugu. Dinantiak ere 30 eguneko proba argitaratzen du.",
+                        answer:
+                            "Bai. 30 egun doan, txartelik eta iraunkortasunik gabe. Eta aldatzea erabakitzen baduzu, zure datuak kosturik gabe migratzen ditugu. Dinantiak ere 30 eguneko proba argitaratzen du.",
                     },
                     {
-                        question: "Dinantiak dagoeneko CRM eta denda ditu. Zer ez du hartzen?",
-                        answer: "Dinantiak komunikazioa, asistentzia, matrikulen CRMa, denda eta presentzia-kontrola argitaratzen ditu. VERI*FACTU fakturazioa eta SEPA helbideratzeak ez dira agertzen bere informazio publikoan. Edenan CRMa ikaslearekin eta ordainagiriarekin konektatuta geratzen da.",
+                        question: "Dinantiak badu CRMa eta denda. Zertan bereizten dira?",
+                        answer:
+                            "Dinantiak komunikazioa, asistentzia, kobrantzak, matrikulen CRMa, denda eta presentzia-kontrola argitaratzen ditu. VERI*FACTU fakturazioa eta SEPA helbideratzeak ez dira agertzen bere informazio publikoan. Edenan CRMa ikaslearekin eta ordainagiriarekin lotuta geratzen da.",
                     },
                     {
-                        question: "Edenak zerrenda pasatzea eta ordutegi-kontrola ditu?",
-                        answer: "Bai. Ikasleen zerrenda eta hutsegiteak, eta langileen lanaldien erregistroa mugikorretik. Dinantiak ere zerrenda pasatzea eta langileen presentzia-kontrola argitaratzen ditu.",
+                        question: "Edenak ba al ditu zerrenda pasatzea eta ordutegi-kontrola?",
+                        answer:
+                            "Bai. Ikasleen zerrenda eta hutsegiteak, eta langileen lanaldiaren erregistroa mugikorretik. Dinantiak ere argitaratzen ditu zerrenda pasatzea eta langileen presentzia-kontrola.",
                     },
                     {
-                        question: "Dinantiatik Edenara pasa naiteke ikasturtearen erdian?",
-                        answer: "Bai. Ikasleak, familiak eta taldeak inportatzen ditugu, fakturazioa konfiguratzen dugu eta familiak aplikazioan alta ematen ditugu. Ikastetxe gehienak bi astean martxan daude.",
+                        question: "Dinantiatik Edenara alda naiteke ikasturtearen erdian?",
+                        answer:
+                            "Bai. Ikasleak, familiak eta taldeak inportatzen ditugu, fakturazioa konfiguratzen dugu eta familiei aplikazioan alta ematen diegu. Ikastetxe gehienak bi astean daude martxan.",
                     },
                 ],
             },

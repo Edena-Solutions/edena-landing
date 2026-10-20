@@ -12,12 +12,18 @@ import tokappLogo from "@/assets/img/logos/competitors/tokapp.png";
  * with the language; the words for them live in each locale's `comparePage`.
  *
  * Every competitor cell has to be defensible as comparative advertising (Ley 3/1991, art. 10):
- * objective, verifiable, about the same need. So a cell only says `yes` or `partial` where a source
- * in `sources` says so, and `none` reads "not included or no public information" — it never claims
- * a product lacks something, only that its public information does not show it. Re-check the cells
- * against the sources and move `COMPARE_REVIEWED_ON` whenever this file is touched.
+ * objective, verifiable, about the same need, and Edena carries the burden of proving it (LEC
+ * art. 217.4). So a cell only says `yes` or `partial` where a source in `sources` says so, and
+ * `none` reads "not in its public information": it never claims a product lacks something. When a
+ * source could support either mark, the cell takes the one more favourable to the competitor.
+ *
+ * There is no score. A total would count "not public" as "missing" and turn a list of criteria
+ * Edena chose into a ranking.
+ *
+ * Re-check every cell against its sources, keep a dated copy of each source (an archive.org
+ * snapshot) and move `COMPARE_REVIEWED_ON` whenever this file is touched.
  */
-export const COMPARE_REVIEWED_ON = "2026-10-19";
+export const COMPARE_REVIEWED_ON = "2026-10-20";
 
 export type CompareStatus = "yes" | "partial" | "none";
 
@@ -44,9 +50,11 @@ export type CompareGroupId = "comms" | "platform" | "money" | "growth" | "terms"
 
 /**
  * The criteria, grouped as a buyer reads them. Communication, collections and the shop are their
- * own rows, so a messaging product is not scored as if it had failed at being an ERP. Invoicing
+ * own rows, so a messaging product is not read as if it had failed at being an ERP. Invoicing
  * (`billing`) is separate from family payments (`payments`). `store` is an online shop, not a
- * wallet. `trial` is `yes` for a self-serve trial and `partial` for a published demo.
+ * wallet. `verifactu` is `yes` when the vendor states VERI*FACTU support in public, declaration or
+ * not. `trial` is `yes` for a self-serve trial and `partial` for a published demo. `migration` is
+ * `yes` when the vendor publishes an implementation or data-migration service, paid or not.
  */
 export const COMPARE_GROUPS: { id: CompareGroupId; rows: CompareRowId[] }[] = [
     { id: "comms", rows: ["comms", "app", "attendance"] },
@@ -79,13 +87,6 @@ export const EDENA_STATUS: Record<CompareRowId, CompareStatus> = {
     migration: "yes",
 };
 
-/**
- * What each of the three "where Edena wins" arguments is about, in the order of the locale's
- * `wins`: a criterion of the table, whose two marks then stand under the argument as its proof, or
- * `publisher` (Educamos's first argument, which no criterion measures).
- */
-export type WinTopic = CompareRowId | "publisher";
-
 export type CompetitorId =
     | "tokapp"
     | "clickedu"
@@ -100,15 +101,18 @@ export interface Competitor {
     /** Path segment under `/compare/`. */
     slug: string;
     name: string;
-    /** Centres the vendor claims, as published (see `sources`). */
-    centers: number;
     /**
      * The brand's mark, cut from its white ground and trimmed (`assets/img/logos/competitors`). It is
      * drawn on a white app-icon tile, so marks with white inside them read as intended.
      */
     logo: { src: string; width: number; height: number };
     status: Record<CompareRowId, CompareStatus>;
-    wins: [WinTopic, WinTopic, WinTopic];
+    /**
+     * The criteria behind the three differences the page argues, in the order of the locale's
+     * `wins`. Each argument closes on that criterion's two marks, so every claim points at the
+     * evidence.
+     */
+    wins: [CompareRowId, CompareRowId, CompareRowId];
     sources: { label: string; url: string }[];
 }
 
@@ -125,7 +129,6 @@ export const COMPETITORS: Competitor[] = [
         id: "tokapp",
         slug: "edena-vs-tokapp",
         name: "TokApp",
-        centers: 5000,
         logo: tokappLogo,
         status: none({
             comms: "yes",
@@ -149,6 +152,7 @@ export const COMPETITORS: Competitor[] = [
                 label: "tokappschool.com | Tienda en la app",
                 url: "https://tokappschool.com/ahora-puedes-comprar-libros-y-material-escolar-desde-tokapp/",
             },
+            { label: "tokappschool.com | Ayuda", url: "https://tokappschool.com/ayuda/" },
             {
                 label: "Google Play | TokApp School",
                 url: "https://play.google.com/store/apps/details?id=com.MultiExpo.tokappschool&hl=es",
@@ -159,7 +163,6 @@ export const COMPETITORS: Competitor[] = [
         id: "clickedu",
         slug: "edena-vs-clickedu",
         name: "Clickedu",
-        centers: 700,
         logo: clickeduLogo,
         status: none({
             comms: "yes",
@@ -168,21 +171,21 @@ export const COMPETITORS: Competitor[] = [
             records: "yes",
             grades: "yes",
             segments: "partial",
-            lms: "partial",
+            lms: "yes",
             payments: "yes",
             billing: "yes",
             verifactu: "yes",
             store: "yes",
             crm: "partial",
             trial: "partial",
-            migration: "partial",
+            migration: "yes",
         }),
         wins: ["crm", "ai", "price"],
         sources: [
             { label: "clickedu.net | Plataforma", url: "https://clickedu.net/plataforma/" },
             {
-                label: "Interempresas | Clickedu",
-                url: "https://www.interempresas.net/Tecnologia-aulas/Articulos/392787-Mas-de-700-colegios-utilizan-la-plataforma-de-gestion-Clickedu.html",
+                label: "clickedu.net | Declaración responsable Verifactu",
+                url: "https://clickedu.net/declaracion-responsable-verifactu/",
             },
         ],
     },
@@ -190,7 +193,6 @@ export const COMPETITORS: Competitor[] = [
         id: "livekid",
         slug: "edena-vs-livekid",
         name: "LiveKid",
-        centers: 6000,
         logo: livekidLogo,
         status: none({
             comms: "yes",
@@ -214,8 +216,8 @@ export const COMPETITORS: Competitor[] = [
             { label: "livekid.com | Funciones", url: "https://livekid.com/es/funciones/" },
             { label: "livekid.com | Pricing", url: "https://livekid.com/pricing/" },
             {
-                label: "tech.eu | LiveKid acquires Aldea (2026)",
-                url: "https://tech.eu/2026/06/24/livekid-acquires-aldea-to-expand-in-latin-america/",
+                label: "livekid.com | Matriculación",
+                url: "https://livekid.com/es/faq/configuracion/",
             },
         ],
     },
@@ -223,7 +225,6 @@ export const COMPETITORS: Competitor[] = [
         id: "educamos",
         slug: "edena-vs-educamos",
         name: "SM Educamos",
-        centers: 1600,
         logo: educamosLogo,
         status: none({
             comms: "yes",
@@ -238,8 +239,9 @@ export const COMPETITORS: Competitor[] = [
             crm: "partial",
             attendance: "yes",
             trial: "partial",
+            migration: "yes",
         }),
-        wins: ["publisher", "verifactu", "migration"],
+        wins: ["crm", "verifactu", "price"],
         sources: [
             {
                 label: "educamos.com | Gestión del centro",
@@ -255,8 +257,40 @@ export const COMPETITORS: Competitor[] = [
         id: "alexia",
         slug: "edena-vs-alexia",
         name: "Alexia",
-        centers: 1400,
         logo: alexiaLogo,
+        status: none({
+            comms: "yes",
+            app: "yes",
+            records: "yes",
+            grades: "yes",
+            segments: "yes",
+            lms: "yes",
+            attendance: "yes",
+            payments: "yes",
+            billing: "yes",
+            verifactu: "yes",
+            store: "yes",
+            crm: "partial",
+            ai: "yes",
+            staffTime: "partial",
+            trial: "partial",
+            migration: "yes",
+        }),
+        wins: ["crm", "price", "trial"],
+        sources: [
+            { label: "alexiaeducaria.com", url: "https://www.alexiaeducaria.com/" },
+            { label: "alexiaeducaria.com | Gestión", url: "https://www.alexiaeducaria.com/gestion/" },
+            {
+                label: "Educación 3.0 | Alexia, suite educativa de Educaria",
+                url: "https://www.educaciontrespuntocero.com/recursos/alexia-suite-educativa-de-educaria/",
+            },
+        ],
+    },
+    {
+        id: "esemtia",
+        slug: "edena-vs-esemtia",
+        name: "Esemtia",
+        logo: esemtiaLogo,
         status: none({
             comms: "yes",
             app: "yes",
@@ -270,43 +304,17 @@ export const COMPETITORS: Competitor[] = [
             verifactu: "yes",
             store: "yes",
             crm: "partial",
-            ai: "yes",
-            staffTime: "partial",
             trial: "partial",
-        }),
-        wins: ["crm", "price", "segments"],
-        sources: [
-            {
-                label: "Educación 3.0 | Alexia, suite educativa de Educaria",
-                url: "https://www.educaciontrespuntocero.com/recursos/alexia-suite-educativa-de-educaria/",
-            },
-            { label: "alexiaeducaria.com | Gestión", url: "https://www.alexiaeducaria.com/gestion/" },
-            { label: "alexiaeducaria.com", url: "https://www.alexiaeducaria.com/" },
-        ],
-    },
-    {
-        id: "esemtia",
-        slug: "edena-vs-esemtia",
-        name: "Esemtia",
-        centers: 700,
-        logo: esemtiaLogo,
-        status: none({
-            comms: "yes",
-            app: "yes",
-            records: "yes",
-            grades: "yes",
-            segments: "partial",
-            lms: "yes",
-            attendance: "yes",
-            payments: "yes",
-            billing: "yes",
-            store: "yes",
-            crm: "partial",
-            trial: "partial",
+            migration: "yes",
         }),
         wins: ["crm", "ai", "trial"],
         sources: [
             { label: "esemtia.com | School", url: "https://esemtia.com/soluciones/esemtia-school/" },
+            { label: "esemtia.com | FP", url: "https://esemtia.com/soluciones/esemtia-fp/" },
+            {
+                label: "esemtia.com | Verifactu",
+                url: "https://esemtia.com/facturacion-electronica-para-colegios-verifactu/",
+            },
             {
                 label: "esemtia.com | Connect",
                 url: "https://esemtia.com/esemtia-renueva-imagen-hub-educativo/",
@@ -321,7 +329,6 @@ export const COMPETITORS: Competitor[] = [
         id: "dinantia",
         slug: "edena-vs-dinantia",
         name: "Dinantia",
-        centers: 900,
         logo: dinantiaLogo,
         status: none({
             comms: "yes",
@@ -330,6 +337,7 @@ export const COMPETITORS: Competitor[] = [
             records: "partial",
             segments: "partial",
             payments: "yes",
+            billing: "partial",
             store: "yes",
             crm: "yes",
             staffTime: "yes",
@@ -339,8 +347,16 @@ export const COMPETITORS: Competitor[] = [
         sources: [
             { label: "dinantia.com", url: "https://www.dinantia.com/" },
             { label: "dinantia.com | CRM", url: "https://dinantia.com/es/crm/" },
+            { label: "dinantia.com | Pagos", url: "https://dinantia.com/es/pagos/" },
+            {
+                label: "dinantia.com | Tienda",
+                url: "https://dinantia.com/es/blog/nueva-funcionalidad-tienda-en-dinantia/",
+            },
             { label: "ayuda.dinantia.com", url: "https://ayuda.dinantia.com/es/" },
-            { label: "AIN | LiveKid acquires Dinantia (2022)", url: "https://en.ain.ua/2022/07/04/livekid-acquires-dinantia" },
+            {
+                label: "AIN | LiveKid acquires Dinantia (2022)",
+                url: "https://en.ain.ua/2022/07/04/livekid-acquires-dinantia",
+            },
         ],
     },
 ];
@@ -348,13 +364,3 @@ export const COMPETITORS: Competitor[] = [
 export function competitorBySlug(slug: string): Competitor | undefined {
     return COMPETITORS.find((competitor) => competitor.slug === slug);
 }
-
-/** Included counts one, partial a half: the hero's scoreboard and the matrix's totals. */
-export function scoreOf(status: Record<CompareRowId, CompareStatus>): number {
-    return COMPARE_ROWS.reduce(
-        (sum, row) => sum + (status[row] === "yes" ? 1 : status[row] === "partial" ? 0.5 : 0),
-        0,
-    );
-}
-
-export const EDENA_SCORE = scoreOf(EDENA_STATUS);

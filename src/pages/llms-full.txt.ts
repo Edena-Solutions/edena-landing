@@ -1,10 +1,9 @@
-import { readFile } from "node:fs/promises";
-import path from "node:path";
 import type { APIRoute } from "astro";
 import { getCollection, getEntry } from "astro:content";
 import { translations } from "@/i18n/index.ts";
 import { revisedOn } from "@/lib/blog-article";
 import { pricingMarkdown } from "@/lib/pricing-markdown";
+import summary from "../../public/llms.txt?raw";
 
 /*
  * /llms-full.txt: what an AI agent needs about Edena in one request. It opens with /llms.txt as
@@ -25,7 +24,6 @@ const plain = (html: string) =>
 
 export const GET: APIRoute = async () => {
     const t = translations.es;
-    const summary = await readFile(path.join(process.cwd(), "public/llms.txt"), "utf8");
 
     const faqs = (await getEntry("faqs", "faqspage"))?.data.faqs ?? [];
     const faqTexts = t.faqs as Record<string, unknown>;

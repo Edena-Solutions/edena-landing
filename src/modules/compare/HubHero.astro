@@ -1,15 +1,14 @@
 ---
 import Button from "@/components/ds/Button.astro";
 import VsArena from "@/modules/compare/VsArena.astro";
-import ScoreRing from "@/modules/compare/ScoreRing.astro";
 import BrandTile from "@/modules/compare/BrandTile.astro";
 import { localizedDemoPath, type Translation } from "@/i18n";
-import { COMPARE_ROWS, COMPETITORS, EDENA_SCORE } from "@/data/competitors";
+import { COMPETITORS } from "@/data/competitors";
 import { comparePath } from "@/lib/compare";
 
 /*
- * The comparisons' index opens on the same stage: Edena in its ring, and across the disc every
- * other mark at once, walking a slow circle and staying upright. The label is the section
+ * The comparisons' index opens on the same stage: Edena's icon, and across the disc every
+ * other platform's tile at once, walking a slow circle and staying upright. The label is the section
  * (`hub.eyebrow`); the heading is the scene (`hub.title`); the line under it is the description,
  * and the circle leads into each comparison.
  */
@@ -20,8 +19,6 @@ interface Props {
 
 const { t, lang } = Astro.props;
 const hub = t.comparePage.hub;
-const total = COMPARE_ROWS.length;
-const tile = "calc(var(--ring) * 0.58)";
 ---
 
 <section class="relative isolate -mt-15 overflow-x-clip pt-15">
@@ -40,9 +37,7 @@ const tile = "calc(var(--ring) * 0.58)";
 
             <div class="fo mt-9 sm:mt-11">
                 <span class="fo-side fo-side--edena">
-                    <ScoreRing value={EDENA_SCORE} total={total} lang={lang} id="hub-edena" edena>
-                        <BrandTile size={tile} />
-                    </ScoreRing>
+                    <BrandTile size="var(--fo-tile)" />
                 </span>
                 <span class="fo-vs" aria-hidden="true">vs</span>
                 <span class="fo-side fo-side--rival">
@@ -77,7 +72,7 @@ const tile = "calc(var(--ring) * 0.58)";
 </section>
 
 <style>
-    /* Every other mark, on a circle the size of Edena's ring, walking and staying upright. */
+    /* Every other tile, walking a circle and staying upright. */
     .logo-orbit {
         --orbit-size: clamp(7rem, 4.4rem + 8.4vw, 12.5rem);
         --logo: calc(var(--orbit-size) * 0.22);

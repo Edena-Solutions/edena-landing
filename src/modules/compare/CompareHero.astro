@@ -2,20 +2,19 @@
 import { ChevronDown, ChevronLeft } from "lucide-react";
 import Button from "@/components/ds/Button.astro";
 import VsArena from "@/modules/compare/VsArena.astro";
-import ScoreRing from "@/modules/compare/ScoreRing.astro";
 import BrandTile from "@/modules/compare/BrandTile.astro";
 import { localizedDemoPath, type Translation } from "@/i18n";
-import { COMPARE_ROWS, EDENA_SCORE, scoreOf, type Competitor } from "@/data/competitors";
-import { comparePath, competitorCopy, formatCount, formatScore } from "@/lib/compare";
+import { COMPARE_REVIEWED_ON, type Competitor } from "@/data/competitors";
+import { comparePath, competitorCopy } from "@/lib/compare";
+import { formatLongDate } from "@/lib/intl-locale";
 
 /*
  * A comparison's opening, on the same stage as the index: "Edena vs …" as the query, then the
- * scene a buyer can picture, then the line that sums it up. The two app icons face each other,
- * each inside the ring of its score. Under each, what it is and one line of fact, then the way
- * to try Edena. The scoring rule sits at the foot, with the way down to the detail.
+ * scene a buyer can picture, then the line that sums it up. The two app icons face each other
+ * across the disc. Under each, what it is and who makes it, then the way to try Edena. How the
+ * comparison was made sits at the foot, with the way down to the detail.
  *
- * The marks are drawn for the eye (`aria-hidden`). "Edena vs …" stays in words above the scene,
- * and the scores are said once, in full, for screen readers.
+ * The icons are drawn for the eye (`aria-hidden`); "Edena vs …" stays in words above the scene.
  */
 interface Props {
     t: Translation;
@@ -26,15 +25,6 @@ interface Props {
 const { t, lang, competitor } = Astro.props;
 const c = t.comparePage;
 const rival = competitorCopy(c, competitor);
-const total = COMPARE_ROWS.length;
-const rivalScore = scoreOf(competitor.status);
-const tile = "calc(var(--ring) * 0.58)";
-const scoreSr = c.scoreSr
-    .replace("{a}", formatScore(EDENA_SCORE, lang))
-    .replace("{b}", formatScore(rivalScore, lang))
-    .replace("{name}", competitor.name)
-    .replaceAll("{n}", String(total));
-const rivalSub = `${rival.owner} | ${c.centers.replace("{n}", formatCount(competitor.centers, lang))}`;
 ---
 
 <section class="relative isolate -mt-15 overflow-x-clip pt-15">
@@ -56,29 +46,14 @@ const rivalSub = `${rival.owner} | ${c.centers.replace("{n}", formatCount(compet
                 </p>
             </div>
 
-            <!-- The two contenders, their score rings and the disc between them. -->
+            <!-- The two contenders and the disc between them. -->
             <div class="fo mt-9 sm:mt-11" aria-hidden="true">
                 <span class="fo-side fo-side--edena">
-                    <ScoreRing
-                        value={EDENA_SCORE}
-                        total={total}
-                        lang={lang}
-                        id={`${competitor.id}-edena`}
-                        edena
-                    >
-                        <BrandTile size={tile} />
-                    </ScoreRing>
+                    <BrandTile size="var(--fo-tile)" />
                 </span>
                 <span class="fo-vs">vs</span>
                 <span class="fo-side fo-side--rival">
-                    <ScoreRing
-                        value={rivalScore}
-                        total={total}
-                        lang={lang}
-                        id={`${competitor.id}-rival`}
-                    >
-                        <BrandTile competitor={competitor} size={tile} />
-                    </ScoreRing>
+                    <BrandTile competitor={competitor} size="var(--fo-tile)" />
                 </span>
             </div>
 
@@ -90,7 +65,7 @@ const rivalSub = `${rival.owner} | ${c.centers.replace("{n}", formatCount(compet
                 <span></span>
                 <p class="max-w-[17rem]">
                     <span class="fo-tagline">{rival.tagline}</span>
-                    <span class="fo-sub">{rivalSub}</span>
+                    <span class="fo-sub">{rival.owner}</span>
                 </p>
             </div>
 
@@ -105,10 +80,9 @@ const rivalSub = `${rival.owner} | ${c.centers.replace("{n}", formatCount(compet
             </div>
 
             <p class="ds-intro hero-foot" style="--intro-i: 6">
-                <span class="sr-only">{scoreSr}</span>
-                <span>{c.scoreCaption.replace("{n}", String(total))}</span>
+                <span>{c.heroNote.replace("{date}", formatLongDate(lang, COMPARE_REVIEWED_ON))}</span>
                 <a href="#head-to-head" class="hero-foot-link">
-                    {c.scoreLink}
+                    {c.detailLink}
                     <ChevronDown aria-hidden="true" />
                 </a>
             </p>
@@ -153,7 +127,7 @@ const rivalSub = `${rival.owner} | ${c.centers.replace("{n}", formatCount(compet
         height: 1rem;
     }
 
-    /* The scoring rule, as a footnote across the foot of the stage. */
+    /* How the comparison was made, as a footnote across the foot of the stage. */
     .hero-foot {
         display: flex;
         flex-wrap: wrap;

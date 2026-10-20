@@ -1,23 +1,10 @@
 import type { Translation } from "@/i18n";
 import { localePath } from "@/i18n/utils";
-import { intlLocaleForLang } from "@/lib/intl-locale";
 import type { CompareRowId, Competitor } from "@/data/competitors";
 
 /** The comparison hub, or one competitor's page, in a locale. */
 export function comparePath(lang: string, competitor?: Pick<Competitor, "slug">): string {
     return localePath(lang, competitor ? `/compare/${competitor.slug}` : "/compare");
-}
-
-/** A score as the locale writes it: "14,5" in Spanish, "14.5" in English. */
-export function formatScore(value: number, lang: string): string {
-    return new Intl.NumberFormat(intlLocaleForLang(lang), { maximumFractionDigits: 1 }).format(
-        value,
-    );
-}
-
-/** A count with its thousands always grouped: "5.000", where Spanish would otherwise print "5000". */
-export function formatCount(value: number, lang: string): string {
-    return new Intl.NumberFormat(intlLocaleForLang(lang), { useGrouping: "always" }).format(value);
 }
 
 type CompareCopy = Translation["comparePage"];

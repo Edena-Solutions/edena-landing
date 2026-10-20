@@ -3,13 +3,13 @@ import { ArrowRight, ChevronLeft, ChevronRight, Plus } from "lucide-react";
 import SectionHeader from "@/components/ds/SectionHeader.astro";
 import BrandTile from "@/modules/compare/BrandTile.astro";
 import { localizedDemoPath, type Translation } from "@/i18n";
-import { EDENA_SCORE, scoreOf, type Competitor } from "@/data/competitors";
-import { comparePath, competitorCopy, formatScore } from "@/lib/compare";
+import type { Competitor } from "@/data/competitors";
+import { comparePath, competitorCopy } from "@/lib/compare";
 
 /*
- * A card per comparison: the two app icons face to face, the other's name, what it is, and
- * the score as a tug of war — one bar split in proportion to the two totals. On hover the card
- * only deepens a shade and the icons lean apart; it does not lift, and the arrow stays put.
+ * A card per comparison: the two app icons face to face, the other's name and what it is. On
+ * hover the card only deepens a shade and the icons lean apart; it does not lift, and the arrow
+ * stays put.
  *
  * The hub lays the cards out as its index, a grid ending on a card for the platform not compared
  * yet. A comparison page closes with the others as a gallery, Apple's: a row that runs off the
@@ -50,7 +50,6 @@ const c = t.comparePage;
         {
             competitors.map((competitor) => {
                 const rival = competitorCopy(c, competitor);
-                const rivalScore = scoreOf(competitor.status);
                 return (
                     <li class="flex" data-reveal="scale">
                         <a href={comparePath(lang, competitor)} class="cc ds-tile">
@@ -66,30 +65,6 @@ const c = t.comparePage;
 
                             <span class="cc-title">{competitor.name}</span>
                             <span class="cc-tagline">{rival.tagline}</span>
-
-                            <span class="cc-meter" aria-hidden="true">
-                                <span class="cc-meter-bar">
-                                    <span
-                                        class="cc-meter-edena"
-                                        style={`flex-grow: ${EDENA_SCORE}`}
-                                    />
-                                    <span
-                                        class="cc-meter-rival"
-                                        style={`flex-grow: ${rivalScore}`}
-                                    />
-                                </span>
-                                <span class="cc-meter-labels">
-                                    <span>
-                                        Edena{" "}
-                                        <b class="text-brand-ink">
-                                            {formatScore(EDENA_SCORE, lang)}
-                                        </b>
-                                    </span>
-                                    <span>
-                                        <b>{formatScore(rivalScore, lang)}</b> {competitor.name}
-                                    </span>
-                                </span>
-                            </span>
 
                             <span class="cc-foot">
                                 <span>{c.hub.cardCta}</span>
@@ -361,57 +336,11 @@ const c = t.comparePage;
 
     .cc-tagline {
         margin-top: 0.5rem;
+        padding-bottom: 1.25rem;
         font-size: 0.9375rem;
         line-height: 1.4rem;
         color: var(--ds-ink-2);
         text-wrap: pretty;
-    }
-
-    /* The score as a tug of war. */
-    .cc-meter {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        margin-top: auto;
-        padding-top: 1.75rem;
-    }
-
-    .cc-meter-bar {
-        display: flex;
-        height: 0.4rem;
-        gap: 3px;
-    }
-
-    .cc-meter-bar > span {
-        flex-basis: 0;
-        border-radius: 999px;
-    }
-
-    .cc-meter-edena {
-        background-image: var(--ds-brand-gradient);
-    }
-
-    .cc-meter-rival {
-        background-color: var(--ds-ink-3);
-        opacity: 0.55;
-    }
-
-    .cc-meter-labels {
-        display: flex;
-        justify-content: space-between;
-        gap: 1rem;
-        font-size: 0.75rem;
-        color: var(--ds-ink-3);
-    }
-
-    .cc-meter-labels b {
-        font-weight: 700;
-        font-variant-numeric: tabular-nums;
-        color: var(--ds-ink-2);
-    }
-
-    .cc-meter-labels b.text-brand-ink {
-        color: var(--ds-brand-ink);
     }
 
     .cc-foot {
@@ -419,16 +348,12 @@ const c = t.comparePage;
         align-items: center;
         justify-content: space-between;
         gap: 1rem;
-        margin-top: 1.25rem;
+        margin-top: auto;
         padding-top: 1rem;
         border-top: 1px solid var(--ds-hairline);
         font-size: 0.9375rem;
         font-weight: 600;
         color: var(--ds-ink);
-    }
-
-    .cc--missing .cc-foot {
-        margin-top: auto;
     }
 
     .cc-arrow {

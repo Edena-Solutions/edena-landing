@@ -7,7 +7,6 @@ import {
     CreditCard,
     Gift,
     Layers,
-    LockOpen,
     MessagesSquare,
     Receipt,
     Rocket,
@@ -23,11 +22,11 @@ import SectionHeader from "@/components/ds/SectionHeader.astro";
 import BrandTile from "@/modules/compare/BrandTile.astro";
 import StatusMark from "@/modules/compare/StatusMark.astro";
 import type { Translation } from "@/i18n";
-import { EDENA_STATUS, type Competitor, type WinTopic } from "@/data/competitors";
+import { EDENA_STATUS, type CompareRowId, type Competitor } from "@/data/competitors";
 import { competitorCopy } from "@/lib/compare";
 
 /*
- * Where Edena wins, as a bento: the first argument on the stage the comparison heroes used to open
+ * What sets Edena apart, as a bento: the first argument on the stage the comparison heroes used to open
  * on — a dark tile lit from above, Edena's green on one side and a cool white on the other — and
  * the other two as ordinary tiles. On a tablet the lead stands tall on the left with the other two
  * stacked beside it; on desktop the lead runs across the top, its argument beside its proof, and
@@ -45,7 +44,7 @@ const { t, competitor } = Astro.props;
 const c = t.comparePage;
 const rival = competitorCopy(c, competitor);
 
-const TOPICS: Record<WinTopic, { icon: typeof Layers; tone: string }> = {
+const TOPICS: Record<CompareRowId, { icon: typeof Layers; tone: string }> = {
     comms: { icon: MessagesSquare, tone: "bg-sys-blue" },
     app: { icon: Smartphone, tone: "bg-sys-blue" },
     attendance: { icon: ClipboardCheck, tone: "bg-sys-mint" },
@@ -63,13 +62,11 @@ const TOPICS: Record<WinTopic, { icon: typeof Layers; tone: string }> = {
     price: { icon: Tag, tone: "bg-sys-orange" },
     trial: { icon: Gift, tone: "bg-sys-pink" },
     migration: { icon: Rocket, tone: "bg-sys-mint" },
-    publisher: { icon: LockOpen, tone: "bg-sys-red" },
 };
 
 const wins = rival.wins.map((win, index) => {
-    const topic = competitor.wins[index];
-    const row = topic === "publisher" ? undefined : topic;
-    return { ...win, ...TOPICS[topic], row, lead: index === 0 };
+    const row = competitor.wins[index];
+    return { ...win, ...TOPICS[row], row, lead: index === 0 };
 });
 ---
 

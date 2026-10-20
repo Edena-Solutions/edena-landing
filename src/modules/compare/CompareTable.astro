@@ -5,14 +5,11 @@ import BrandTile from "@/modules/compare/BrandTile.astro";
 import type { Translation } from "@/i18n";
 import {
     COMPARE_GROUPS,
-    COMPARE_ROWS,
-    EDENA_SCORE,
     EDENA_STATUS,
-    scoreOf,
     type CompareStatus,
     type Competitor,
 } from "@/data/competitors";
-import { competitorCopy, formatScore } from "@/lib/compare";
+import { competitorCopy } from "@/lib/compare";
 
 /*
  * Head to head: every criterion, grouped as a buyer reads them, with each side's mark and what it
@@ -27,15 +24,14 @@ interface Props {
     competitor: Competitor;
 }
 
-const { t, lang, competitor } = Astro.props;
+const { t, competitor } = Astro.props;
 const c = t.comparePage;
 const rival = competitorCopy(c, competitor);
-const total = COMPARE_ROWS.length;
 const label = (status: CompareStatus) => c.status[status];
 
 const columns = [
-    { name: "Edena", score: EDENA_SCORE, edena: true },
-    { name: competitor.name, score: scoreOf(competitor.status), edena: false },
+    { name: "Edena", edena: true },
+    { name: competitor.name, edena: false },
 ];
 ---
 
@@ -76,10 +72,6 @@ const columns = [
                                         size="1.75rem"
                                     />
                                     <span class="min-w-0">{column.name}</span>
-                                </span>
-                                <span class="h2h-col-score">
-                                    {formatScore(column.score, lang)}
-                                    <span class="h2h-col-of">/{total}</span>
                                 </span>
                             </span>
                         ))
@@ -312,24 +304,6 @@ const columns = [
 
     .h2h-col--edena .h2h-col-name {
         color: var(--ds-ink);
-    }
-
-    .h2h-col-score {
-        font-size: 0.9375rem;
-        font-weight: 700;
-        letter-spacing: -0.02em;
-        font-variant-numeric: tabular-nums;
-        color: var(--ds-ink-2);
-    }
-
-    .h2h-col--edena .h2h-col-score {
-        color: var(--ds-brand-ink);
-    }
-
-    .h2h-col-of {
-        font-size: 0.75rem;
-        font-weight: 600;
-        color: var(--ds-ink-3);
     }
 
     /* A group's label, across the table. */
