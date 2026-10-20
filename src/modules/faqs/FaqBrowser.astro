@@ -5,7 +5,8 @@ import type { Translation } from "@/i18n";
 
 /*
  * Every question, by topic: the topics in a column that stays in view (the one being read lit), as
- * a row of chips on a phone; each topic a heading with its icon over one panel of questions. The
+ * a row of pills on a phone — the same tinted `.ds-pill` the blog uses for its filters, the one
+ * being read ringed. Each topic is a heading with its icon over one panel of questions. The
  * search field in the hero (`data-search-input`) narrows them as you type, topics and counts with
  * it. A link to a question (`#q-…`) opens it.
  */
@@ -27,6 +28,7 @@ const TOPICS = [
         title: f.groupStart,
         icon: Rocket,
         tone: "bg-sys-blue",
+        color: "var(--ds-sys-blue)",
         keys: [
             "centers_setup_time",
             "centers_cost_savings",
@@ -40,6 +42,7 @@ const TOPICS = [
         title: f.groupBilling,
         icon: Receipt,
         tone: "bg-sys-orange",
+        color: "var(--ds-sys-orange)",
         keys: [
             "verifactu",
             "finance_verifactu_integration",
@@ -54,6 +57,7 @@ const TOPICS = [
         title: f.groupFamilies,
         icon: Smartphone,
         tone: "bg-sys-green",
+        color: "var(--ds-sys-green)",
         keys: [
             "mobile_app_features",
             "app_multiplatform",
@@ -69,6 +73,7 @@ const TOPICS = [
         title: f.groupManagement,
         icon: LayoutDashboard,
         tone: "bg-sys-indigo",
+        color: "var(--ds-sys-indigo)",
         keys: [
             "students_enrollment_process",
             "center_dashboard",
@@ -81,6 +86,7 @@ const TOPICS = [
         title: f.groupSecurity,
         icon: ShieldCheck,
         tone: "bg-sys-teal",
+        color: "var(--ds-sys-teal)",
         keys: ["app_security", "students_data_privacy"],
     },
 ];
@@ -138,23 +144,26 @@ const topics = TOPICS.map((topic, index) => {
             </nav>
 
             <div class="min-w-0">
-                <!-- On a phone, the topics as a row of chips that scrolls sideways. -->
-                <ul class="faq-chips ds-scroll-fade" data-fade="end">
+                <!-- On a phone, the topics as the blog's filter pills, scrolling sideways. -->
+                <ul class="faq-chips ds-scroll-fade" data-faq-chips data-fade="end">
                     {
-                        topics.map((topic) => {
+                        topics.map((topic, index) => {
                             const Icon = topic.icon;
                             return (
                                 <li data-topic={topic.id}>
-                                    <a href={`#${topic.id}`} class="faq-chip">
-                                        <span
-                                            class:list={[
-                                                "ds-app-icon size-6 rounded-full",
-                                                topic.tone,
-                                            ]}
-                                        >
-                                            <Icon className="size-3" />
+                                    <a
+                                        href={`#${topic.id}`}
+                                        class="ds-pill ds-pill--tone"
+                                        style={`--pill: ${topic.color}`}
+                                        aria-current={index === 0 ? "true" : undefined}
+                                    >
+                                        <span class="ds-pill-icon" aria-hidden="true">
+                                            <Icon />
                                         </span>
                                         {topic.title}
+                                        <span class="ds-pill-count" data-topic-count>
+                                            {topic.items.length}
+                                        </span>
                                     </a>
                                 </li>
                             );
@@ -245,7 +254,9 @@ const topics = TOPICS.map((topic, index) => {
         });
 
         // The topic being read, lit in the index: the last one whose top has passed a quarter down.
-        const links = [...root.querySelectorAll<HTMLAnchorElement>("[data-faq-toc] a")];
+        const links = [
+            ...root.querySelectorAll<HTMLAnchorElement>("[data-faq-toc] a, [data-faq-chips] a"),
+        ];
         let frame = 0;
         function update() {
             frame = 0;
@@ -353,21 +364,6 @@ const topics = TOPICS.map((topic, index) => {
         .faq-chips {
             display: none;
         }
-    }
-
-    .faq-chip {
-        display: flex;
-        flex-shrink: 0;
-        align-items: center;
-        gap: 0.5rem;
-        border-radius: 999px;
-        background-color: var(--ds-canvas-2);
-        box-shadow: inset 0 0 0 1px var(--ds-hairline);
-        padding: 0.3rem 0.9rem 0.3rem 0.3rem;
-        font-size: 0.875rem;
-        font-weight: 600;
-        white-space: nowrap;
-        color: var(--ds-ink);
     }
 
     .faq-empty {

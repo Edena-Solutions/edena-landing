@@ -1,10 +1,10 @@
 ---
 /*
- * The stage the comparison pages open on: the product hero's light tile, with Ena's cyan in the
- * top-left corner and, on desktop, lime in the bottom-right. The face-off it hosts is a three-column grid — Edena, the
- * "VS" disc, the other — repeated row after row (marks, names, taglines) with the same columns, so
- * each name sits under its mark whatever its length. The classes are global to the stage so both
- * heroes share them.
+ * The stage the comparison pages open on: the product hero's light tile, with Edena's green in the
+ * top-left corner and lime in the other — top-right on a phone, bottom-right from desktop up. The
+ * face-off it hosts is a three-column grid — Edena, the "VS" disc, the other — repeated row after
+ * row (marks, names, taglines) with the same columns, so each name sits under its mark whatever
+ * its length. The classes are global to the stage so both heroes share them.
  */
 interface Props {
     class?: string;
@@ -20,39 +20,41 @@ const { class: className } = Astro.props;
 
 <style>
     /*
-     * Ena's two colours, a little of each: cyan in the top-left corner, lime in the bottom-right.
-     * The layer bleeds past the tile so the blur is clipped by the card, not before it — otherwise
-     * the lime fades out short of the corner. On a phone the lime sits on top of the buttons, so
-     * it only paints from desktop up.
+     * The brand's two greens: #22c55e in the top-left, lime in the other. The layer bleeds past
+     * the tile so the blur is clipped by the card, not before it — otherwise the lime fades out
+     * short of the corner. On a phone the bottom-right sits on the buttons, so the lime moves to
+     * the top-right; from desktop up it returns to the bottom-right.
      */
     .vs-aurora {
+        --vs-green: radial-gradient(
+            ellipse 26rem 16rem at 3rem 2.25rem,
+            rgb(34 197 94 / 0.7) 0%,
+            rgb(34 197 94 / 0.28) 38%,
+            transparent 72%
+        );
+        --vs-lime: radial-gradient(
+            ellipse 22rem 14rem at calc(100% - 4rem) 4rem,
+            rgb(163 230 53 / 0.85) 0%,
+            rgb(163 230 53 / 0.4) 32%,
+            transparent 68%
+        );
         position: absolute;
         z-index: -1;
         inset: -4rem;
         opacity: 0.95;
         filter: blur(18px);
         pointer-events: none;
-        background: radial-gradient(
-            ellipse 26rem 16rem at 3rem 2.25rem,
-            rgb(34 211 238 / 0.62),
-            transparent 72%
-        );
+        background: var(--vs-green), var(--vs-lime);
     }
 
     @media (min-width: 64rem) {
         .vs-aurora {
-            background:
-                radial-gradient(
-                    ellipse 26rem 16rem at 3rem 2.25rem,
-                    rgb(34 211 238 / 0.62),
-                    transparent 72%
-                ),
-                radial-gradient(
-                    ellipse 32rem 18rem at calc(100% - 4rem) calc(100% - 4rem),
-                    rgb(163 230 53 / 0.85) 0%,
-                    rgb(163 230 53 / 0.4) 32%,
-                    transparent 68%
-                );
+            --vs-lime: radial-gradient(
+                ellipse 32rem 18rem at calc(100% - 4rem) calc(100% - 4rem),
+                rgb(163 230 53 / 0.85) 0%,
+                rgb(163 230 53 / 0.4) 32%,
+                transparent 68%
+            );
         }
     }
 
