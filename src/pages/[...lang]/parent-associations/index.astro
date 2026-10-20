@@ -1,0 +1,88 @@
+---
+import { translations, localeStaticPaths, localePath } from "@/i18n/index.ts";
+import Layout from "@/layouts/main.astro";
+import HomeMotion from "@/modules/home/HomeMotion.astro";
+import FeatureGrid from "@/modules/home/FeatureGrid.astro";
+import ClosingCta from "@/modules/home/ClosingCta.astro";
+import ProductHero from "@/modules/product/ProductHero.astro";
+import ProductSplit from "@/modules/product/ProductSplit.astro";
+import ProductFaqs from "@/modules/product/ProductFaqs.astro";
+import ParentAssociationScenes from "@/modules/product/scenes/ParentAssociationScenes";
+import ExtracurricularScenes from "@/modules/product/scenes/ExtracurricularScenes";
+import { productSceneLabels } from "@/modules/product/scenes/labels";
+import { intlLocaleForLang } from "@/lib/intl-locale";
+import SoftwareApplicationSchema from "@/components/StructuredData/SoftwareApplication.astro";
+import FAQPageSchema from "@/components/StructuredData/FAQPage.astro";
+
+/*
+ * The parents' associations' page (AMPA, AFA, PTA), in the home's design: the association's
+ * members, fees and notices drawn as scenes (`scenes/ParentAssociationScenes.tsx`). Its activities
+ * reuse the extracurricular page's scene of the families' app: on the phone it is the same screen.
+ */
+
+export function getStaticPaths() {
+    return localeStaticPaths();
+}
+
+const { lang } = Astro.props;
+const t = translations[lang as keyof typeof translations];
+const base = productSceneLabels(t);
+const labels = { ...base, a: t.parentAssociationsScenes };
+const activityLabels = { ...base, x: t.extracurricularScenes };
+const locale = intlLocaleForLang(lang);
+const m = t.parentAssociations;
+
+const icons = ["Users", "CreditCard", "Sparkles", "Megaphone", "Store", "Smartphone"];
+const featureLinks = ["/families", "/finance", "/extracurricular", "/communication", "/shop", "/app"];
+const features = m.features.map((f, i) => ({
+    icon: icons[i],
+    title: f.title,
+    description: f.description,
+    navigateTo: localePath(lang, featureLinks[i] ?? "/demo"),
+}));
+---
+
+<Layout
+    content={{
+        title: m.metaTitle,
+        description: m.metaDescription,
+    }}
+    lang={lang}
+    design="premium"
+>
+    <HomeMotion />
+    <ProductHero t={t} eyebrow={t.pageEyebrows.parentAssociations} title={m.mainTitle} description={m.mainDescription} bleed>
+        <ParentAssociationScenes slot="visual" client:visible scene="roster" labels={labels} locale={locale} />
+    </ProductHero>
+    <ProductSplit
+        t={t}
+        left={{ title: m.heroLeftTitle, description: m.heroLeftDescription, cta: true, bleed: true }}
+        right={{ title: m.heroRightTitle, description: m.heroRightDescription, bleed: true }}
+    >
+        <ParentAssociationScenes slot="left" client:visible scene="pay" labels={labels} locale={locale} />
+        <ParentAssociationScenes slot="right" client:visible scene="fee" labels={labels} locale={locale} />
+    </ProductSplit>
+    <FeatureGrid t={t} features={features} title={m.featuresTitle} description={m.featuresDescription} actions />
+    <ProductSplit
+        t={t}
+        title={m.sectionTitle}
+        description={m.sectionDescription}
+        left={{ title: m.section1Title, description: m.section1Description, bleed: true, cta: "demo" }}
+        right={{ title: m.section2Title, description: m.section2Description, bleed: true, cta: "trial" }}
+    >
+        <ParentAssociationScenes slot="left" client:visible scene="notice" labels={labels} locale={locale} />
+        <ExtracurricularScenes slot="right" client:visible scene="browse" labels={activityLabels} locale={locale} />
+    </ProductSplit>
+    <ProductFaqs t={t} title={m.faqTitle} description={m.faqDescription} faqs={m.faqs} />
+    <ClosingCta lang={lang} />
+    <SoftwareApplicationSchema
+        slot="structured-data"
+        name={t.schema.parentAssociations}
+        description={m.metaDescription}
+        applicationCategory="EducationalApplication"
+        operatingSystem={["Web", "iOS", "Android"]}
+        url={`https://edena.es/${lang}/parent-associations`}
+        lang={lang}
+    />
+    <FAQPageSchema slot="structured-data" faqs={m.faqs} translations={{}} lang={lang} />
+</Layout>

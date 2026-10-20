@@ -6,6 +6,7 @@ import {
     ChevronRight,
     Clock,
     GraduationCap,
+    HandHeart,
     HeartHandshake,
     Landmark,
     LayoutDashboard,
@@ -671,6 +672,14 @@ const MainNavigationMenu = ({ lang, copy, className, premium, languageHrefs }: P
             description: t.navigation.academiesDescription,
             icon: Landmark,
             tone: "orange",
+            group: "audience",
+        },
+        {
+            title: t.navigation.parentAssociations,
+            href: p("/parent-associations"),
+            description: t.navigation.parentAssociationsDescription,
+            icon: HandHeart,
+            tone: "mint",
             group: "audience",
         },
         {

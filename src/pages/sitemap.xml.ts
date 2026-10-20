@@ -109,6 +109,7 @@ export async function GET() {
         { segment: "nurseries/", priority: "0.9", changefreq: "monthly" },
         { segment: "schools/", priority: "0.9", changefreq: "monthly" },
         { segment: "academies/", priority: "0.9", changefreq: "monthly" },
+        { segment: "parent-associations/", priority: "0.9", changefreq: "monthly" },
         { segment: "groups/", priority: "0.9", changefreq: "monthly" },
         { segment: "contact/", priority: "0.8", changefreq: "monthly" },
         { segment: "privacy/", priority: "0.5", changefreq: "yearly" },

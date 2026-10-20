@@ -141,6 +141,7 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 - Para escuelas infantiles y guarderías: https://edena.es/nurseries/
 - Para colegios: https://edena.es/schools/
 - Para academias: https://edena.es/academies/
+- Software para AMPAs y AFAs (cuota por SEPA, circulares y actividades): https://edena.es/parent-associations/
 - Para grupos educativos: https://edena.es/groups/
 - Facturación escolar y Verifactu: https://edena.es/finance/
 - Declaración responsable Verifactu: https://edena.es/verifactu/

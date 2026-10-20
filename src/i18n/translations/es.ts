@@ -21,6 +21,7 @@ export default {
         nurseries: "Edena - Software para escuelas infantiles",
         academies: "Edena - Software para academias",
         groups: "Edena - Gestión multicentro",
+        parentAssociations: "Edena - Software para AMPAs y AFAs",
         extracurricular: "Edena - Extraescolares",
         tracking: "Edena - Control horario",
         workflows: "Edena - Automatizaciones",
@@ -699,6 +700,54 @@ export default {
         placesLeft: "Quedan {n}",
         signUp: "Apuntarse",
     },
+    parentAssociationsScenes: {
+        members: "Socios",
+        newMember: "Nuevo socio",
+        year: "Curso 2026-27",
+        stats: ["Familias", "Cobrado", "Pendiente"],
+        columns: ["Familia", "Hijos", "Cuota", "Estado"],
+        familyName: "Familia {name}",
+        newTag: "Nueva",
+        paid: "Pagada",
+        pending: "Pendiente",
+        reminded: "Avisada",
+        directDebit: "Domiciliada",
+        association: "AMPA",
+        fee: "Cuota de socio",
+        dueBy: "Antes del {date}",
+        pay: "Pagar",
+        receiptReady: "Recibo listo",
+        fromAssociation: "Del AMPA",
+        items: ["Fiesta de otoño", "Extraescolares", "Tienda del AMPA"],
+        itemMeta: ["Sábado 24 oct", "Inscripción abierta", "Uniformes y lotería"],
+        grades: ["I-3 A", "2.º B", "4.º A", "1.º ESO", "I-5 B", "3.º A", "6.º A", "I-3 B"],
+        amount: "Importe",
+        frequency: "Frecuencia",
+        yearly: "Anual",
+        method: "Cobro",
+        sepa: "Domiciliación SEPA",
+        chargeDay: "Día de cargo",
+        setup: "La cuota, una vez",
+        generate: "Generar recibos",
+        generated: "Recibos listos",
+        receipts: "Recibos del curso",
+        preparing: "Preparando",
+        remittanceReady: "Remesa lista",
+        newNotice: "Nueva circular",
+        to: "Para",
+        allMembers: "Todos los socios",
+        subjectLabel: "Asunto",
+        subject: "Asamblea, 12 de noviembre",
+        send: "Enviar",
+        sent: "Enviada",
+        readBy: "Leída por",
+        noticeBody: "Os convocamos a la asamblea ordinaria. Trataremos el presupuesto del curso y las actividades de Navidad.",
+        confirmRead: "Confirmar lectura",
+        read: "Leída",
+        now: "Ahora",
+        olderPost: "Lotería de Navidad",
+        olderPostMeta: "Ya podéis reservar el décimo",
+    },
     communicationScenes: {
         channels: "Canales",
         directMessages: "Mensajes directos",
@@ -839,6 +888,7 @@ export default {
         nurseries: "Software para escuelas infantiles y guarderías",
         academies: "Software para academias",
         groups: "Gestión multicentro para grupos educativos",
+        parentAssociations: "Software para AMPAs y AFAs",
         app: "App escolar para familias y profesores",
         assignment: "Boletines y evaluaciones",
         communication: "Comunicación escolar",
@@ -951,6 +1001,9 @@ export default {
         groups: "Para grupos educativos",
         groupsDescription:
             "Gestiona toda tu red de centros desde un único panel, con facturación e informes centralizados.",
+        parentAssociations: "Para AMPAs",
+        parentAssociationsDescription:
+            "Cuotas, circulares y actividades para AMPAs y AFAs, con la app de las familias.",
     },
     contact: {
         title: "¿Hablamos?",
@@ -2924,6 +2977,95 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
         networkSectionTitle: "Abre otro centro con los mismos procesos",
         networkSectionDescription:
             "Cada centro nuevo trabaja con los mismos procesos y la misma app que el resto, y dirección lo sigue en el mismo panel desde el primer día.",
+    },
+    parentAssociations: {
+        metaTitle: "Software para AMPAs y AFAs | Cuotas y Circulares | Edena",
+        metaDescription:
+            "Software para AMPAs y AFAs: la cuota anual de socio por domiciliación SEPA, las circulares a los socios y las actividades, en la app gratuita. Pide una demo.",
+        mainTitle: "La cuota del AMPA entra por SEPA, y la circular llega a quien es socio",
+        mainDescription:
+            "La junta publica la cuota y la circular. El cargo entra por domiciliación y la familia lo ve en la app.",
+        heroLeftTitle: "La cuota, desde la app",
+        heroLeftDescription:
+            "La familia paga la cuota de socio en un toque y el recibo queda listo, sin transferencias que perseguir.",
+        heroRightTitle: "Una cuota por familia",
+        heroRightDescription:
+            "La cuota cubre el curso, tengan un hijo en el centro o varios. Fijas el día y el cargo sale por domiciliación SEPA.",
+        featuresTitle: "Qué incluye Edena para un AMPA o un AFA",
+        featuresDescription:
+            "Socios, cuota, circulares y actividades, en el mismo sistema y en la app que ya usan las familias.",
+        features: [
+            {
+                title: "Socios del curso",
+                description:
+                    "El listado de familias socias, con los hijos en el centro y el estado de la cuota, en una sola lista.",
+            },
+            {
+                title: "Cuota con SEPA",
+                description:
+                    "Una cuota por familia para todo el curso. Los recibos salen juntos y el cargo va por domiciliación SEPA.",
+            },
+            {
+                title: "Actividades del AMPA",
+                description:
+                    "Publicas la extraescolar, la familia se apunta desde la app y el cobro queda con la cuota.",
+            },
+            {
+                title: "Circulares de la junta",
+                description: "Escribes la circular, la envías a las familias socias y ves quién la ha leído.",
+            },
+            {
+                title: "Tienda del AMPA",
+                description:
+                    "Uniformes, lotería o material: la familia lo compra desde la app y el cobro queda en la facturación del AMPA.",
+            },
+            {
+                title: "La app que ya tienen",
+                description:
+                    "La cuota, la circular y la tienda están en la app gratuita de Edena. Las familias no instalan otra.",
+            },
+        ],
+        sectionTitle: "La circular sale de la junta y la actividad se cubre en la app",
+        sectionDescription:
+            "Lo que la junta llevaba en WhatsApp y en una hoja de cálculo queda en Edena, con el resto del centro.",
+        section1Title: "Circular enviada y leída",
+        section1Description:
+            "La junta escribe la circular, la manda a las familias socias y ve quién la ha leído.",
+        section2Title: "Actividades con plaza y cobro",
+        section2Description:
+            "La junta publica la actividad. La familia se apunta desde la app y el cobro queda con la cuota del AMPA.",
+        faqTitle: "Preguntas frecuentes sobre Edena para AMPAs y AFAs",
+        faqDescription: "Socios, cuota, circulares y actividades: lo que el AMPA o el AFA hace con Edena.",
+        faqs: [
+            {
+                question: "¿Hay un software de gestión para AMPAs y AFAs?",
+                answer: "Sí. Edena es un software de gestión para la junta del AMPA o del AFA, no solo para la secretaría del colegio: socios, cuota por domiciliación SEPA, circulares con confirmación de lectura y actividades, en la app de las familias.",
+            },
+            {
+                question: "¿Cómo se cobra la cuota de socio?",
+                answer: "Defines el importe una vez. Edena genera un recibo por familia y lo cobra por domiciliación SEPA, o la familia lo paga desde la app.",
+            },
+            {
+                question: "¿La cuota es por hijo o por familia?",
+                answer: "Puedes definir una cuota por familia para todo el curso, tengan uno o varios hijos en el centro.",
+            },
+            {
+                question: "¿Puedo enviar una circular solo a los socios?",
+                answer: "Sí. Redactas la circular y la envías a las familias socias. En la app llega como aviso y ves quién la ha leído.",
+            },
+            {
+                question: "¿El AMPA puede gestionar sus extraescolares?",
+                answer: "Sí. Publicas la actividad, las familias se inscriben desde la app y el cobro queda en la facturación, con control de plazas.",
+            },
+            {
+                question: "¿Las familias necesitan otra app?",
+                answer: "No. La cuota, la circular, la actividad y la tienda del AMPA aparecen en la app gratuita de Edena, en iOS y Android.",
+            },
+            {
+                question: "¿Cuánto cuesta Edena para un AMPA?",
+                answer: "El precio es el de un centro: desde 36 € al mes, sin cuota de alta ni permanencia. Se cierra en la demo y puedes probarlo 30 días.",
+            },
+        ],
     },
     centers: {
         mainTitle: "La administración del centro, en un solo sistema",

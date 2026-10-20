@@ -21,6 +21,7 @@ export default {
         nurseries: "Edena - Programari per a escoles infantils",
         academies: "Edena - Programari per a acadèmies",
         groups: "Edena - Gestió multicentre",
+        parentAssociations: "Edena - Programari per a AFAs i AMPAs",
         extracurricular: "Edena - Extraescolars",
         tracking: "Edena - Control horari",
         workflows: "Edena - Automatitzacions",
@@ -699,6 +700,54 @@ export default {
         placesLeft: "En queden {n}",
         signUp: "Apuntar-se",
     },
+    parentAssociationsScenes: {
+        members: "Socis",
+        newMember: "Nou soci",
+        year: "Curs 2026-27",
+        stats: ["Famílies", "Cobrat", "Pendent"],
+        columns: ["Família", "Fills", "Quota", "Estat"],
+        familyName: "Família {name}",
+        newTag: "Nova",
+        paid: "Pagada",
+        pending: "Pendent",
+        reminded: "Avisada",
+        directDebit: "Domiciliada",
+        association: "AFA",
+        fee: "Quota de soci",
+        dueBy: "Abans del {date}",
+        pay: "Pagar",
+        receiptReady: "Rebut a punt",
+        fromAssociation: "De l'AFA",
+        items: ["Festa de tardor", "Extraescolars", "Botiga de l'AFA"],
+        itemMeta: ["Dissabte 24 oct", "Inscripció oberta", "Uniformes i loteria"],
+        grades: ["I3 A", "2n B", "4t A", "1r ESO", "I5 B", "3r A", "6è A", "I3 B"],
+        amount: "Import",
+        frequency: "Freqüència",
+        yearly: "Anual",
+        method: "Cobrament",
+        sepa: "Domiciliació SEPA",
+        chargeDay: "Dia de càrrec",
+        setup: "La quota, un cop",
+        generate: "Generar rebuts",
+        generated: "Rebuts a punt",
+        receipts: "Rebuts del curs",
+        preparing: "Preparant",
+        remittanceReady: "Remesa a punt",
+        newNotice: "Nova circular",
+        to: "Per a",
+        allMembers: "Tots els socis",
+        subjectLabel: "Assumpte",
+        subject: "Assemblea, 12 de novembre",
+        send: "Enviar",
+        sent: "Enviada",
+        readBy: "Llegida per",
+        noticeBody: "Us convoquem a l'assemblea ordinària. Hi tractarem el pressupost del curs i les activitats de Nadal.",
+        confirmRead: "Confirmar lectura",
+        read: "Llegida",
+        now: "Ara",
+        olderPost: "Loteria de Nadal",
+        olderPostMeta: "Ja podeu reservar el dècim",
+    },
     communicationScenes: {
         channels: "Canals",
         directMessages: "Missatges directes",
@@ -839,6 +888,7 @@ export default {
         nurseries: "Programari per a escoles infantils",
         academies: "Programari per a acadèmies",
         groups: "Gestió multicentre per a grups educatius",
+        parentAssociations: "Programari per a AFAs i AMPAs",
         app: "App escolar per a famílies i professors",
         assignment: "Butlletins i avaluacions",
         communication: "Comunicació escolar",
@@ -951,6 +1001,9 @@ export default {
         groups: "Per a grups educatius",
         groupsDescription:
             "Gestiona tota la teva xarxa de centres des d'un únic panell, amb facturació i informes centralitzats.",
+        parentAssociations: "Per a AFAs",
+        parentAssociationsDescription:
+            "Quotes, circulars i activitats per a AFAs i AMPAs, amb l'app de les famílies.",
     },
     contact: {
         title: "Parlem?",
@@ -2918,6 +2971,95 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         networkSectionTitle: "Obre un altre centre amb els mateixos processos",
         networkSectionDescription:
             "Cada centre nou treballa amb els mateixos processos i la mateixa app que la resta, i la direcció el segueix al mateix panell des del primer dia.",
+    },
+    parentAssociations: {
+        metaTitle: "Programari per a AFAs i AMPAs | Quotes i Circulars | Edena",
+        metaDescription:
+            "Programari per a AFAs i AMPAs: la quota anual de soci per domiciliació SEPA, les circulars als socis i les activitats, a l'app gratuïta. Demana una demo.",
+        mainTitle: "La quota de l'AFA entra per SEPA, i la circular arriba a qui és soci",
+        mainDescription:
+            "La junta publica la quota i la circular. El càrrec entra per domiciliació i la família ho veu a l'app.",
+        heroLeftTitle: "La quota, des de l'app",
+        heroLeftDescription:
+            "La família paga la quota de soci amb un toc i el rebut queda a punt, sense transferències a perseguir.",
+        heroRightTitle: "Una quota per família",
+        heroRightDescription:
+            "La quota cobreix el curs, tinguin un fill al centre o més d'un. Fixes el dia i el càrrec surt per domiciliació SEPA.",
+        featuresTitle: "Què inclou Edena per a una AFA o una AMPA",
+        featuresDescription:
+            "Socis, quota, circulars i activitats, al mateix sistema i a l'app que ja fan servir les famílies.",
+        features: [
+            {
+                title: "Socis del curs",
+                description:
+                    "El llistat de famílies sòcies, amb els fills al centre i l'estat de la quota, en una sola llista.",
+            },
+            {
+                title: "Quota amb SEPA",
+                description:
+                    "Una quota per família per a tot el curs. Els rebuts surten junts i el càrrec va per domiciliació SEPA.",
+            },
+            {
+                title: "Activitats de l'AFA",
+                description:
+                    "Publiques l'extraescolar, la família s'hi apunta des de l'app i el cobrament queda amb la quota.",
+            },
+            {
+                title: "Circulars de la junta",
+                description: "Escrius la circular, l'envies a les famílies sòcies i veus qui l'ha llegida.",
+            },
+            {
+                title: "Botiga de l'AFA",
+                description:
+                    "Uniformes, loteria o material: la família ho compra des de l'app i el cobrament queda a la facturació de l'AFA.",
+            },
+            {
+                title: "L'app que ja tenen",
+                description:
+                    "La quota, la circular i la botiga són a l'app gratuïta d'Edena. Les famílies no n'instal·len una altra.",
+            },
+        ],
+        sectionTitle: "La circular surt de la junta i l'activitat es cobreix a l'app",
+        sectionDescription:
+            "El que la junta portava per WhatsApp i per full de càlcul queda a Edena, amb la resta del centre.",
+        section1Title: "Circular enviada i llegida",
+        section1Description:
+            "La junta escriu la circular, l'envia a les famílies sòcies i veu qui l'ha llegida.",
+        section2Title: "Activitats amb plaça i cobrament",
+        section2Description:
+            "La junta publica l'activitat. La família s'hi apunta des de l'app i el cobrament queda amb la quota de l'AFA.",
+        faqTitle: "Preguntes freqüents sobre Edena per a AFAs i AMPAs",
+        faqDescription: "Socis, quota, circulars i activitats: el que l'AFA o l'AMPA fa amb Edena.",
+        faqs: [
+            {
+                question: "Hi ha un programari de gestió per a AFAs i AMPAs?",
+                answer: "Sí. Edena és programari de gestió per a la junta de l'AFA o de l'AMPA, no només per a la secretaria del col·legi: socis, quota per domiciliació SEPA, circulars amb confirmació de lectura i activitats, a l'app de les famílies.",
+            },
+            {
+                question: "Com es cobra la quota de soci?",
+                answer: "Defineixes l'import un cop. Edena genera un rebut per família i el cobra per domiciliació SEPA, o la família el paga des de l'app.",
+            },
+            {
+                question: "La quota és per fill o per família?",
+                answer: "Pots definir una quota per família per a tot el curs, tinguin un fill al centre o més d'un.",
+            },
+            {
+                question: "Puc enviar una circular només als socis?",
+                answer: "Sí. Redactes la circular i l'envies a les famílies sòcies. A l'app arriba com a avís i veus qui l'ha llegida.",
+            },
+            {
+                question: "L'AFA pot gestionar les seves extraescolars?",
+                answer: "Sí. Publiques l'activitat, les famílies s'hi inscriuen des de l'app i el cobrament queda a la facturació, amb control de places.",
+            },
+            {
+                question: "Les famílies necessiten una altra app?",
+                answer: "No. La quota, la circular, l'activitat i la botiga de l'AFA apareixen a l'app gratuïta d'Edena, a iOS i Android.",
+            },
+            {
+                question: "Quant costa Edena per a una AFA?",
+                answer: "El preu és el d'un centre: des de 36 € al mes, sense quota d'alta ni permanència. Es tanca a la demo i el pots provar 30 dies.",
+            },
+        ],
     },
     centers: {
         mainTitle: "L'administració del centre, en un sol sistema",

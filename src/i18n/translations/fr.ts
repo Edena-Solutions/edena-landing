@@ -21,6 +21,7 @@ export default {
         nurseries: "Edena - Logiciel pour crèches",
         academies: "Edena - Logiciel pour académies",
         groups: "Edena - Gestion multi-sites",
+        parentAssociations: "Edena - Logiciel pour les associations de parents",
         extracurricular: "Edena - Périscolaire",
         tracking: "Edena - Pointage du personnel",
         workflows: "Edena - Automatisations",
@@ -699,6 +700,54 @@ export default {
         placesLeft: "{n} restantes",
         signUp: "S'inscrire",
     },
+    parentAssociationsScenes: {
+        members: "Adhérents",
+        newMember: "Nouvel adhérent",
+        year: "2026-27",
+        stats: ["Familles", "Encaissé", "À recevoir"],
+        columns: ["Famille", "Enfants", "Cotisation", "Statut"],
+        familyName: "Famille {name}",
+        newTag: "Nouveau",
+        paid: "Payée",
+        pending: "En attente",
+        reminded: "Relancée",
+        directDebit: "Prélèvement",
+        association: "APE",
+        fee: "Cotisation",
+        dueBy: "Avant le {date}",
+        pay: "Payer",
+        receiptReady: "Reçu prêt",
+        fromAssociation: "De l'APE",
+        items: ["Fête d'automne", "Périscolaire", "Boutique APE"],
+        itemMeta: ["Sam. 24 oct.", "Inscriptions ouvertes", "Uniformes et loterie"],
+        grades: ["PS A", "CE1 B", "CM1 A", "6e", "GS B", "CE2 A", "CM2 A", "PS B"],
+        amount: "Montant",
+        frequency: "Fréquence",
+        yearly: "Annuelle",
+        method: "Encaissement",
+        sepa: "Prélèvement SEPA",
+        chargeDay: "Date de prélèvement",
+        setup: "La cotisation, une fois",
+        generate: "Créer les reçus",
+        generated: "Reçus prêts",
+        receipts: "Reçus de l'année",
+        preparing: "Préparation",
+        remittanceReady: "Fichier prêt",
+        newNotice: "Nouvelle circulaire",
+        to: "Pour",
+        allMembers: "Tous les adhérents",
+        subjectLabel: "Objet",
+        subject: "Assemblée, 12 novembre",
+        send: "Envoyer",
+        sent: "Envoyée",
+        readBy: "Lue par",
+        noticeBody: "Nous vous convoquons à l'assemblée ordinaire. Nous y traiterons le budget de l'année et les activités de Noël.",
+        confirmRead: "Confirmer la lecture",
+        read: "Lue",
+        now: "Maintenant",
+        olderPost: "Loterie de Noël",
+        olderPostMeta: "Réservez votre billet",
+    },
     communicationScenes: {
         channels: "Canaux",
         directMessages: "Messages directs",
@@ -840,6 +889,7 @@ export default {
         nurseries: "Logiciel pour crèches",
         academies: "Logiciel pour académies",
         groups: "Gestion multi-sites pour groupes scolaires",
+        parentAssociations: "Logiciel pour les associations de parents",
         app: "Appli scolaire pour familles et enseignants",
         assignment: "Bulletins et évaluations",
         communication: "Communication scolaire",
@@ -953,6 +1003,9 @@ export default {
         groups: "Pour les réseaux d’établissements",
         groupsDescription:
             "Pilotez tout votre réseau d'établissements depuis un seul tableau de bord, avec facturation et rapports centralisés.",
+        parentAssociations: "Pour les APE",
+        parentAssociationsDescription:
+            "Cotisations, circulaires et activités pour les associations de parents, dans l'appli des familles.",
     },
     contact: {
         title: "On discute ?",
@@ -2944,6 +2997,95 @@ Pour toute question relative au présent Accord, vous pouvez nous écrire à pri
         networkSectionTitle: "Ouvrez un autre établissement avec les mêmes processus",
         networkSectionDescription:
             "Chaque nouvel établissement fonctionne avec les mêmes processus et la même application que les autres, et la direction le suit dans le même tableau de bord dès le premier jour.",
+    },
+    parentAssociations: {
+        metaTitle: "Logiciel pour les APE | Cotisations et circulaires | Edena",
+        metaDescription:
+            "Logiciel pour les APE : la cotisation annuelle par prélèvement SEPA, les circulaires aux adhérents et les activités, dans l'appli gratuite. Demandez une démo.",
+        mainTitle: "La cotisation part en SEPA, et la circulaire arrive aux adhérents",
+        mainDescription:
+            "Le bureau publie la cotisation et la circulaire. Le prélèvement part, et la famille le voit dans l'appli.",
+        heroLeftTitle: "La cotisation, depuis l'appli",
+        heroLeftDescription:
+            "La famille paie la cotisation en un geste et le reçu est prêt, sans virement à relancer.",
+        heroRightTitle: "Une cotisation par famille",
+        heroRightDescription:
+            "La cotisation couvre l'année, qu'ils aient un enfant dans l'établissement ou plusieurs. Vous fixez le jour, et le prélèvement part en SEPA.",
+        featuresTitle: "Ce qu'Edena inclut pour une APE",
+        featuresDescription:
+            "Adhérents, cotisation, circulaires et activités, dans le même système et sur l'appli que les familles utilisent déjà.",
+        features: [
+            {
+                title: "Adhérents de l'année",
+                description:
+                    "Les familles adhérentes, les enfants dans l'établissement et l'état de la cotisation, sur une seule liste.",
+            },
+            {
+                title: "Cotisation par SEPA",
+                description:
+                    "Une cotisation par famille pour toute l'année. Les reçus partent ensemble et le prélèvement se fait par SEPA.",
+            },
+            {
+                title: "Activités de l'APE",
+                description:
+                    "Vous publiez l'activité, la famille s'inscrit depuis l'appli et l'encaissement suit la cotisation.",
+            },
+            {
+                title: "Circulaires du bureau",
+                description: "Vous écrivez la circulaire, vous l'envoyez aux familles adhérentes et vous voyez qui l'a lue.",
+            },
+            {
+                title: "Boutique de l'APE",
+                description:
+                    "Uniformes, loterie ou fournitures : la famille achète depuis l'appli et le paiement reste dans la facturation de l'APE.",
+            },
+            {
+                title: "L'appli qu'elles ont déjà",
+                description:
+                    "La cotisation, la circulaire et la boutique sont dans l'appli gratuite d'Edena. Les familles n'en installent pas une autre.",
+            },
+        ],
+        sectionTitle: "La circulaire part du bureau, et l'activité se remplit dans l'appli",
+        sectionDescription:
+            "Ce que le bureau tenait sur WhatsApp et dans un tableur reste dans Edena, avec le reste de l'établissement.",
+        section1Title: "Circulaire envoyée et lue",
+        section1Description:
+            "Le bureau écrit la circulaire, l'envoie aux familles adhérentes et voit qui l'a lue.",
+        section2Title: "Activités, avec une place et un encaissement",
+        section2Description:
+            "Le bureau publie l'activité. La famille s'inscrit depuis l'appli et l'encaissement suit la cotisation de l'APE.",
+        faqTitle: "Questions sur Edena pour les associations de parents",
+        faqDescription: "Adhérents, cotisation, circulaires et activités : ce qu'une APE fait avec Edena.",
+        faqs: [
+            {
+                question: "Existe-t-il un logiciel de gestion pour les associations de parents ?",
+                answer: "Oui. Edena est un logiciel de gestion pour le bureau de l'APE, pas seulement pour le secrétariat de l'école : adhérents, cotisation par prélèvement SEPA, circulaires avec confirmation de lecture et activités, dans l'appli des familles.",
+            },
+            {
+                question: "Comment la cotisation est-elle encaissée ?",
+                answer: "Vous fixez le montant une fois. Edena émet un reçu par famille et le prélève par SEPA, ou la famille le paie depuis l'appli.",
+            },
+            {
+                question: "La cotisation est-elle par enfant ou par famille ?",
+                answer: "Vous pouvez définir une cotisation par famille pour toute l'année, qu'ils aient un enfant dans l'établissement ou plusieurs.",
+            },
+            {
+                question: "Puis-je envoyer une circulaire seulement aux adhérents ?",
+                answer: "Oui. Vous rédigez la circulaire et l'envoyez aux familles adhérentes. Elle arrive dans l'appli, et vous voyez qui l'a lue.",
+            },
+            {
+                question: "L'association peut-elle gérer ses activités périscolaires ?",
+                answer: "Oui. Vous publiez l'activité, les familles s'inscrivent depuis l'appli et l'encaissement entre dans la facturation, avec un plafond de places.",
+            },
+            {
+                question: "Les familles ont-elles besoin d'une autre appli ?",
+                answer: "Non. La cotisation, la circulaire, l'activité et la boutique de l'APE apparaissent dans l'appli gratuite d'Edena, sur iOS et Android.",
+            },
+            {
+                question: "Quel est le prix d'Edena pour une APE ?",
+                answer: "Le même que pour un établissement : à partir de 36 € par mois, sans frais d'ouverture ni engagement. Le prix se fixe à la démo, et vous pouvez l'essayer 30 jours.",
+            },
+        ],
     },
     centers: {
         mainTitle: "L'administration de l'établissement, dans un seul système",

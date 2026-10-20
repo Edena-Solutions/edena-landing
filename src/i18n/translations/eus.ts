@@ -21,6 +21,7 @@ export default {
         nurseries: "Edena - Haur-eskoletarako softwarea",
         academies: "Edena - Akademietarako softwarea",
         groups: "Edena - Zentro-sarearen kudeaketa",
+        parentAssociations: "Edena - Guraso-elkarteetarako softwarea",
         extracurricular: "Edena - Eskolaz kanpokoak",
         tracking: "Edena - Ordutegi-kontrola",
         workflows: "Edena - Automatizazioak",
@@ -717,6 +718,54 @@ export default {
         placesLeft: "{n} geratzen dira",
         signUp: "Izena eman",
     },
+    parentAssociationsScenes: {
+        members: "Bazkideak",
+        newMember: "Bazkide berria",
+        year: "2026-27",
+        stats: ["Familiak", "Kobratuta", "Zain"],
+        columns: ["Familia", "Haurrak", "Kuota", "Egoera"],
+        familyName: "{name} familia",
+        newTag: "Berria",
+        paid: "Ordainduta",
+        pending: "Zain",
+        reminded: "Abisatuta",
+        directDebit: "Zordunketa",
+        association: "Gurasoak",
+        fee: "Bazkide-kuota",
+        dueBy: "{date} baino lehen",
+        pay: "Ordaindu",
+        receiptReady: "Ordainagiria prest",
+        fromAssociation: "Elkartetik",
+        items: ["Udazkeneko festa", "Eskolaz kanpokoak", "Elkartearen denda"],
+        itemMeta: ["Urriak 24", "Izen-ematea zabalik", "Uniformeak eta loteria"],
+        grades: ["HH3 A", "LH2 B", "LH4 A", "DBH1", "HH5 B", "LH3 A", "LH6 A", "HH3 B"],
+        amount: "Zenbatekoa",
+        frequency: "Maiztasuna",
+        yearly: "Urtekoa",
+        method: "Kobrantza",
+        sepa: "SEPA zordunketa",
+        chargeDay: "Kargu-eguna",
+        setup: "Kuota, behin",
+        generate: "Sortu ordainagiriak",
+        generated: "Ordainagiriak prest",
+        receipts: "Ikasturteko ordainagiriak",
+        preparing: "Prestatzen",
+        remittanceReady: "Bidalketa prest",
+        newNotice: "Zirkular berria",
+        to: "Nori",
+        allMembers: "Bazkide guztiak",
+        subjectLabel: "Gaia",
+        subject: "Batzarra, azaroak 12",
+        send: "Bidali",
+        sent: "Bidalita",
+        readBy: "Irakurtzaileak",
+        noticeBody: "Ohiko batzarrera deitzen zaituztegu. Ikasturteko aurrekontua eta Gabonetako jarduerak landuko ditugu.",
+        confirmRead: "Irakurri dut",
+        read: "Irakurrita",
+        now: "Orain",
+        olderPost: "Gabonetako loteria",
+        olderPostMeta: "Hamarrekoa erreserbatu",
+    },
     communicationScenes: {
         channels: "Kanalak",
         directMessages: "Mezu zuzenak",
@@ -857,6 +906,7 @@ export default {
         nurseries: "Haur-eskoletarako softwarea",
         academies: "Akademietarako softwarea",
         groups: "Hezkuntza-taldeetarako zentro-sarearen kudeaketa",
+        parentAssociations: "Guraso-elkarteetarako softwarea",
         app: "Familientzako eta irakasleentzako aplikazioa",
         assignment: "Buletinak eta ebaluazioak",
         communication: "Eskola-komunikazioa",
@@ -969,6 +1019,9 @@ export default {
         groups: "Hezkuntza-taldeentzat",
         groupsDescription:
             "Kudeatu zure ikastetxe-sare osoa panel bakar batetik, fakturazio eta txosten zentralizatuekin.",
+        parentAssociations: "Guraso-elkarteentzat",
+        parentAssociationsDescription:
+            "Kuotak, zirkularrak eta jarduerak guraso-elkarteentzat, familien apparekin.",
     },
     contact: {
         title: "Berba egiten dugu?",
@@ -2938,6 +2991,95 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         networkSectionTitle: "Ireki beste zentro bat prozesu berberekin",
         networkSectionDescription:
             "Zentro berri bakoitzak gainerakoen prozesu eta aplikazio berberekin lan egiten du, eta zuzendaritzak panel berean jarraitzen du lehen egunetik.",
+    },
+    parentAssociations: {
+        metaTitle: "Guraso-elkarteen softwarea | Kuotak, zirkularrak | Edena",
+        metaDescription:
+            "Guraso-elkarteen softwarea: urteko bazkide-kuota SEPA zordunketaz, zirkularrak bazkideentzat eta jarduerak, familien doako app-ean. Eskatu demo bat.",
+        mainTitle: "Kuota SEPA bidez sartzen da, eta zirkularra bazkideari iristen zaio",
+        mainDescription:
+            "Batzordeak kuota eta zirkularra argitaratzen ditu. Kargua zordunketa bidez sartzen da eta familiak app-ean ikusten du.",
+        heroLeftTitle: "Kuota, app-etik",
+        heroLeftDescription:
+            "Familiak bazkide-kuota ukitu batean ordaintzen du eta ordainagiria prest geratzen da, transferentziarik jarraitu gabe.",
+        heroRightTitle: "Kuota bat familiako",
+        heroRightDescription:
+            "Kuotak ikasturtea estaltzen du, haur bat izan edo gehiago ikastetxean. Eguna finkatzen duzu eta kargua SEPA zordunketa bidez ateratzen da.",
+        featuresTitle: "Zer dakarren Edenak guraso-elkarte baterako",
+        featuresDescription:
+            "Bazkideak, kuota, zirkularrak eta jarduerak, sistema berean eta familiek dagoeneko darabilten app-ean.",
+        features: [
+            {
+                title: "Ikasturteko bazkideak",
+                description:
+                    "Familia bazkideen zerrenda, ikastetxeko haurrekin eta kuotaren egoerarekin, zerrenda bakarrean.",
+            },
+            {
+                title: "Kuota SEPArekin",
+                description:
+                    "Kuota bat familiako ikasturte osorako. Ordainagiriak batera ateratzen dira eta kargua SEPA zordunketa bidez doa.",
+            },
+            {
+                title: "Elkartearen jarduerak",
+                description:
+                    "Eskolaz kanpokoa argitaratzen duzu, familia app-etik apuntatzen da eta kobrantza kuotarekin geratzen da.",
+            },
+            {
+                title: "Batzordearen zirkularrak",
+                description: "Zirkularra idatzi, familia bazkideei bidali eta nork irakurri duen ikusten duzu.",
+            },
+            {
+                title: "Elkartearen denda",
+                description:
+                    "Uniformeak, loteria edo materiala: familiak app-etik erosten du eta kobrantza elkartearen fakturazioan geratzen da.",
+            },
+            {
+                title: "Dagoeneko duten app-a",
+                description:
+                    "Kuota, zirkularra eta denda Edenaren doako app-ean daude. Familiek ez dute besterik instalatzen.",
+            },
+        ],
+        sectionTitle: "Zirkularra batzordetik ateratzen da eta jarduera app-ean betetzen da",
+        sectionDescription:
+            "Batzordeak WhatsAppetik eta kalkulu-orritik zeraman hori Edenan geratzen da, ikastetxearen gainerakoarekin.",
+        section1Title: "Zirkularra bidalita eta irakurrita",
+        section1Description:
+            "Batzordeak zirkularra idazten du, familia bazkideei bidaltzen die eta nork irakurri duen ikusten du.",
+        section2Title: "Jarduerak, plazarekin eta kobrantzarekin",
+        section2Description:
+            "Batzordeak jarduera argitaratzen du. Familia app-etik apuntatzen da eta kobrantza elkartearen kuotarekin geratzen da.",
+        faqTitle: "Edenari buruzko galderak guraso-elkarteentzat",
+        faqDescription: "Bazkideak, kuota, zirkularrak eta jarduerak: guraso-elkarteak Edenarekin egiten duena.",
+        faqs: [
+            {
+                question: "Badago guraso-elkarteetarako kudeaketa-softwarerik?",
+                answer: "Bai. Edena guraso-elkartearen batzordearentzako kudeaketa-softwarea da, ez soilik ikastetxeko idazkaritzarentzat: bazkideak, SEPA zordunketaz kuota, irakurketa-berrespeneko zirkularrak eta jarduerak, familien app-ean.",
+            },
+            {
+                question: "Nola kobratzen da bazkide-kuota?",
+                answer: "Zenbatekoa behin ezartzen duzu. Edenak ordainagiri bat sortzen du familiako eta SEPA zordunketaz kobratzen du, edo familiak app-etik ordaintzen du.",
+            },
+            {
+                question: "Kuota haurkoa da ala familiakoa?",
+                answer: "Ikasturte osorako kuota bat ezar dezakezu familiako, haur bat izan edo gehiago ikastetxean.",
+            },
+            {
+                question: "Zirkular bat bazkideei soilik bidal dezaket?",
+                answer: "Bai. Zirkularra idatzi eta familia bazkideei bidaltzen diezu. App-era abisu gisa iristen da eta nork irakurri duen ikusten duzu.",
+            },
+            {
+                question: "Elkarteak bere eskolaz kanpokoak kudea ditzake?",
+                answer: "Bai. Jarduera argitaratzen duzu, familiak app-etik izena ematen dute eta kobrantza fakturazioan geratzen da, plazen kontrolarekin.",
+            },
+            {
+                question: "Familiek beste app bat behar dute?",
+                answer: "Ez. Kuota, zirkularra, jarduera eta elkartearen denda Edenaren doako app-ean agertzen dira, iOSen eta Androiden.",
+            },
+            {
+                question: "Zenbat balio du Edenak guraso-elkarte baterako?",
+                answer: "Ikastetxe baten prezio bera: 36 €-tik hilean, altako kuotarik gabe eta loturarik gabe. Demoa egitean ixten da eta 30 egunez proba dezakezu.",
+            },
+        ],
     },
     centers: {
         mainTitle: "Zentroaren administrazioa, sistema bakarrean",

@@ -21,6 +21,7 @@ export default {
         nurseries: "Edena - Nursery and daycare software",
         academies: "Edena - Academy software",
         groups: "Edena - Multi-school management",
+        parentAssociations: "Edena - Software for parent associations",
         extracurricular: "Edena - Extracurriculars",
         tracking: "Edena - Staff time tracking",
         workflows: "Edena - Automations",
@@ -700,6 +701,54 @@ export default {
         placesLeft: "{n} left",
         signUp: "Sign up",
     },
+    parentAssociationsScenes: {
+        members: "Members",
+        newMember: "New member",
+        year: "2026–27",
+        stats: ["Families", "Collected", "Outstanding"],
+        columns: ["Family", "Children", "Fee", "Status"],
+        familyName: "{name} family",
+        newTag: "New",
+        paid: "Paid",
+        pending: "Pending",
+        reminded: "Reminded",
+        directDebit: "Debit",
+        association: "PTA",
+        fee: "Membership fee",
+        dueBy: "Due {date}",
+        pay: "Pay",
+        receiptReady: "Receipt ready",
+        fromAssociation: "From the PTA",
+        items: ["Autumn fair", "Activities", "PTA shop"],
+        itemMeta: ["Sat 24 Oct", "Sign-up open", "Uniforms and raffle"],
+        grades: ["Rec A", "Y2 B", "Y4 A", "Y7", "Rec B", "Y3 A", "Y6 A", "Rec C"],
+        amount: "Amount",
+        frequency: "Frequency",
+        yearly: "Yearly",
+        method: "Collection",
+        sepa: "SEPA direct debit",
+        chargeDay: "Charge date",
+        setup: "The fee, once",
+        generate: "Create bills",
+        generated: "Bills ready",
+        receipts: "This year's bills",
+        preparing: "Preparing",
+        remittanceReady: "File ready",
+        newNotice: "New notice",
+        to: "To",
+        allMembers: "All members",
+        subjectLabel: "Subject",
+        subject: "Meeting, 12 November",
+        send: "Send",
+        sent: "Sent",
+        readBy: "Read by",
+        noticeBody: "You are invited to the ordinary meeting. We will cover this year's budget and the Christmas activities.",
+        confirmRead: "Confirm read",
+        read: "Read",
+        now: "Now",
+        olderPost: "Christmas raffle",
+        olderPostMeta: "Reserve your ticket",
+    },
     communicationScenes: {
         channels: "Channels",
         directMessages: "Direct messages",
@@ -841,6 +890,7 @@ export default {
         nurseries: "Nursery and daycare software",
         academies: "Academy software",
         groups: "Multi-school management for education groups",
+        parentAssociations: "Software for parent associations",
         app: "School app for families and teachers",
         assignment: "Report cards and assessments",
         communication: "School communication",
@@ -948,6 +998,9 @@ export default {
         groups: "For School Groups",
         groupsDescription:
             "Run your whole network of schools from a single dashboard, with centralised billing and reporting.",
+        parentAssociations: "For parent associations",
+        parentAssociationsDescription:
+            "Membership fees, notices and activities for PTAs, on the families' app.",
     },
     contact: {
         title: "Get in Touch",
@@ -2650,6 +2703,95 @@ The Platform is hosted in data centres operated by leading infrastructure provid
         networkSectionTitle: "Open another centre with the same processes",
         networkSectionDescription:
             "Each new centre works with the same processes and the same app as the rest, and management follows it on the same dashboard from day one.",
+    },
+    parentAssociations: {
+        metaTitle: "Parent Association Software | Fees and Notices | Edena",
+        metaDescription:
+            "Software for PTAs and parent associations: the annual fee by SEPA direct debit, notices to members and activities, on the free family app. Book a demo.",
+        mainTitle: "The membership fee goes out by SEPA, and the notice reaches every member",
+        mainDescription:
+            "The committee publishes the fee and the notice. The charge goes out by direct debit, and the family sees it in the app.",
+        heroLeftTitle: "The fee, from the app",
+        heroLeftDescription:
+            "A family pays the membership fee in one tap and the receipt is ready, with no transfers to chase.",
+        heroRightTitle: "One fee per family",
+        heroRightDescription:
+            "The fee covers the year, whether they have one child at the school or several. You set the day, and the charge goes out by SEPA direct debit.",
+        featuresTitle: "What Edena includes for a PTA",
+        featuresDescription:
+            "Members, the fee, notices and activities, in one system and on the app families already use.",
+        features: [
+            {
+                title: "This year's members",
+                description:
+                    "Member families, the children at the school and the state of each fee, on a single list.",
+            },
+            {
+                title: "The fee, by SEPA",
+                description:
+                    "One fee per family for the whole year. The bills go out together, and the charge is a SEPA direct debit.",
+            },
+            {
+                title: "Association activities",
+                description:
+                    "You publish the activity, the family signs up from the app and the charge sits with the fee.",
+            },
+            {
+                title: "Notices from the committee",
+                description: "Write the notice, send it to member families and see who has read it.",
+            },
+            {
+                title: "The association shop",
+                description:
+                    "Uniforms, a raffle or supplies: the family buys from the app and the payment stays in the association's billing.",
+            },
+            {
+                title: "The app they already have",
+                description:
+                    "The fee, the notice and the shop are in Edena's free app. Families do not install another.",
+            },
+        ],
+        sectionTitle: "The notice leaves the committee, and the activity fills up in the app",
+        sectionDescription:
+            "What the committee kept in WhatsApp and a spreadsheet now sits in Edena, with the rest of the school.",
+        section1Title: "A notice sent, and read",
+        section1Description:
+            "The committee writes the notice, sends it to member families and sees who has read it.",
+        section2Title: "Activities, with a place and a charge",
+        section2Description:
+            "The committee publishes the activity. The family signs up from the app and the charge sits with the association's fee.",
+        faqTitle: "Questions about Edena for parent associations",
+        faqDescription: "Members, the fee, notices and activities: what a PTA runs with Edena.",
+        faqs: [
+            {
+                question: "Is there management software for parent associations?",
+                answer: "Yes. Edena is management software for the PTA committee, not only for the school office: members, a fee by SEPA direct debit, notices with read confirmation and activities, on the families' app.",
+            },
+            {
+                question: "How is the membership fee collected?",
+                answer: "You set the amount once. Edena raises one bill per family and collects it by SEPA direct debit, or the family pays it from the app.",
+            },
+            {
+                question: "Is the fee per child or per family?",
+                answer: "You can set one fee per family for the whole year, whether they have one child at the school or several.",
+            },
+            {
+                question: "Can I send a notice only to members?",
+                answer: "Yes. You write the notice and send it to member families. It arrives in the app, and you see who has read it.",
+            },
+            {
+                question: "Can the association run its own activities?",
+                answer: "Yes. You publish the activity, families sign up from the app and the charge lands in billing, with a cap on places.",
+            },
+            {
+                question: "Do families need another app?",
+                answer: "No. The fee, the notice, the activity and the association shop appear in Edena's free app, on iOS and Android.",
+            },
+            {
+                question: "What does Edena cost for a parent association?",
+                answer: "The same as for a school: from €36 a month, with no setup fee and no lock-in. The price is settled on the demo, and you can try it for 30 days.",
+            },
+        ],
     },
     centers: {
         mainTitle: "The school's administration, in one system",
