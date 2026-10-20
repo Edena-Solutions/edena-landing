@@ -147,7 +147,7 @@ export default function AcademyPacks({ copy, lang, demoUrl, registerUrl }: Props
                                         </span>
                                     </p>
                                 )}
-                                <h3 className="type-title-2 text-ink">{data.name}</h3>
+                                <h2 className="type-title-2 text-ink">{data.name}</h2>
                                 <p className="mt-3 type-callout text-ink-2">{data.tagline}</p>
 
                                 <p className="mt-7 flex items-baseline gap-2.5">

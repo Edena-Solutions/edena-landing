@@ -1,5 +1,6 @@
 ---
-title: "Apps mòbils en educació: L'experiència digital a la butxaca"
+title: "Apps mòbils en educació: el centre a la butxaca de les famílies"
+seoTitle: "Apps mòbils en educació: el centre a la butxaca"
 date: "2025-04-15"
 translationKey: "app-movil-educacion"
 description: "Les apps mòbils canvien la relació entre famílies i centres educatius: accés instantani a informació i serveis escolars des de qualsevol lloc."
@@ -24,7 +25,7 @@ faqs:
       answer: "Urgències en push; informatiu en safata digestiva o email resum."
 ---
 
-<strong>Apps mòbils en educació: L'experiència digital a la butxaca</strong>
+<strong>Apps mòbils en educació: el centre a la butxaca de les famílies</strong>
 
 <br>
 

@@ -1,5 +1,5 @@
 ---
-title: "Metodologies pedagògiques innovadores: Transformant el procés d'ensenyament-aprenentatge"
+title: "Metodologies pedagògiques innovadores: com transformen l'ensenyament i l'aprenentatge"
 seoTitle: "Metodologies pedagògiques innovadores per a l'aula"
 date: "2025-08-10"
 translationKey: "metodologias-pedagogicas-innovadoras"
@@ -25,7 +25,7 @@ faqs:
       answer: "Indicadors de competència clau, no només satisfacció del professorat."
 ---
 
-<strong>Metodologies pedagògiques innovadores: Transformant el procés d'ensenyament-aprenentatge</strong>
+<strong>Metodologies pedagògiques innovadores: com transformen l'ensenyament i l'aprenentatge</strong>
 
 <br>
 

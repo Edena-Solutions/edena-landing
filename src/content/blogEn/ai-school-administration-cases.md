@@ -134,7 +134,7 @@ One school tested different times and channels (email, SMS) for payment reminder
 
 <br>
 
-1. AI in school management automates and prioritizes; It does not replace the team's final decision.
+1. AI in school management automates and prioritizes; it does not replace the team's final decision.
 2. Cases with more impact: collection, retention, frequent queries and reports.
 3. Data quality is a precondition for useful results.
 4. There should always be human supervision and team training.

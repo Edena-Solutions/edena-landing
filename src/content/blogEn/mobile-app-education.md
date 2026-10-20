@@ -18,7 +18,7 @@ relatedPosts:
     - institutional-communication-families
 faqs:
     - question: "Is it legal to use WhatsApp with families?"
-      answer: "With consent and discretion, for coordination; It does not replace a traceable institutional channel."
+      answer: "With consent and discretion, for coordination; it does not replace a traceable institutional channel."
     - question: "Mandatory app for all families?"
       answer: "Recommended with an alternative for those who cannot; Equal communication is mandatory."
     - question: "Push notifications without cluttering?"
@@ -111,7 +111,7 @@ The apps will be integrated with notifications and alerts on wearable devices fo
 
 <strong>Is it legal to use WhatsApp with families?</strong><br>
 
-With consent and discretion, for coordination; It does not replace a traceable institutional channel.
+With consent and discretion, for coordination; it does not replace a traceable institutional channel.
 
 <br>
 

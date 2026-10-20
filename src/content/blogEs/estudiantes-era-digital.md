@@ -1,5 +1,5 @@
 ---
-title: "Estudiantes en la era digital: Nativos tecnológicos"
+title: "Estudiantes en la era digital: los nativos tecnológicos"
 date: "2025-03-05"
 translationKey: "estudiantes-era-digital"
 description: "Descubre cómo los estudiantes de hoy interactúan con la tecnología y cómo los centros educativos pueden aprovechar esta realidad."

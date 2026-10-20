@@ -1,5 +1,5 @@
 ---
-title: "Tendencias en tecnología educativa para 2025: El futuro del aprendizaje"
+title: "Tendencias en tecnología educativa para 2025: el futuro del aprendizaje"
 seoTitle: "Tendencias en tecnología educativa para 2025"
 date: "2025-01-30"
 translationKey: "tecnologia-educativa-2025"
@@ -19,7 +19,7 @@ faqs:
       answer: "Bien hecha, lo devuelve: menos duplicar listados y circulares manuales significa más tiempo para evaluación y tutoría."
 ---
 
-<strong>Tendencias en tecnología educativa para 2025: El futuro del aprendizaje</strong>
+<strong>Tendencias en tecnología educativa para 2025: el futuro del aprendizaje</strong>
 
 <br>
 

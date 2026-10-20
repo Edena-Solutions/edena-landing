@@ -33,7 +33,7 @@ faqs:
 
 <br>
 
-A lost file is no small inconvenience: it involves legal risk, committee delays, complaints, and dozens of secretarial hours tracking down "who had the latest mail." In 2026, document management in schools, nurseries and academies is not about scanning and saving: it requires clear permissions, reading traces where appropriate, visibility by course, group or student, a defined deregistration or archiving cycle, and alignment with the GDPR. This last part (legal basis, retention, access, destruction) is defined by your DPO or advisor; The software facilitates structure and access controls, it does not replace regulatory criteria. Edena includes, in the base platform, the digital file and organizational chart of the center. With the Cloud module, add cloud documentation, folders, and visibility by group or student, as described in the public module catalog. No need to invent functionalities: the value is in connecting files, families, billing and collection in a single data criterion, without WeTransfer boxes or "v4_final_definitiva" versions in the email.
+A lost file is no small inconvenience: it involves legal risk, committee delays, complaints, and dozens of secretarial hours tracking down "who had the latest mail." In 2026, document management in schools, nurseries and academies is not about scanning and saving: it requires clear permissions, reading traces where appropriate, visibility by course, group or student, a defined deregistration or archiving cycle, and alignment with the GDPR. This last part (legal basis, retention, access, destruction) is defined by your DPO or advisor; the software facilitates structure and access controls, it does not replace regulatory criteria. Edena includes, in the base platform, the digital file and organizational chart of the center. With the Cloud module, add cloud documentation, folders, and visibility by group or student, as described in the public module catalog. No need to invent functionalities: the value is in connecting files, families, billing and collection in a single data criterion, without WeTransfer boxes or "v4_final_definitiva" versions in the email.
 
 <br>
 
@@ -65,7 +65,7 @@ The platform provides tools: role access, audit trail, encryption, folders with 
 
 <br>
 
-The base platform includes digital file (student data, history, center organization chart), portal and app for families and team, basic communication, onboarding, family self-management, center analytics and 24/7 support. If you hire the Cloud module, you add cloud documentation, folders and visibility by group or student. When combined with CRM and billing, the same student identity accompanies the tutor from the initial application to the receipts, authorization documents and, if applicable, extracurricular activities, without the secretary having to rewrite the name three times in three different systems.
+The base platform includes digital file (student data, history, center organization chart), portal and app for families and team, basic communication, onboarding, family self-management, center analytics and email and chat support. If you hire the Cloud module, you add cloud documentation, folders and visibility by group or student. When combined with CRM and billing, the same student identity accompanies the tutor from the initial application to the receipts, authorization documents and, if applicable, extracurricular activities, without the secretary having to rewrite the name three times in three different systems.
 
 <br>
 
@@ -122,7 +122,7 @@ Prioritizes current course and active documents; the history by phases.
 - **Consult with advice** deadlines by type: academic, work, tax.
 - **Deletion blocking** on documents subject to mandatory conservation.
 - **Access record** before inspection, complaint or internal audit.
-- **Migration by phases:** Prioritizes current course; The paper history can be digitized later.
+- **Migration by phases:** Prioritizes current course; the paper history can be digitized later.
 
 <br>
 
@@ -148,6 +148,6 @@ A private school digitized authorizations and incident reports. Average time to 
 
 <strong>Conclusion</strong><br>
 
-Managing documentation in a school or center means putting limits on improvisation: drawing up files, uploading, reading and closing with legal criteria and accompanying tools. Edena unifies base platform, Cloud if applicable, CRM and billing under the same data identity, with communication, analytics and 24/7 support. Request a demo and review file, cloud and risk reduction with your real data, today.
+Managing documentation in a school or center means putting limits on improvisation: drawing up files, uploading, reading and closing with legal criteria and accompanying tools. Edena unifies base platform, Cloud if applicable, CRM and billing under the same data identity, with communication, analytics and email and chat support. Request a demo and review file, cloud and risk reduction with your real data, today.
 
 <br>

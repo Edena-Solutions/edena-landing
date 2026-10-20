@@ -1,85 +1,174 @@
 ---
-title: "Comment digitaliser l'inscription en ligne de votre école étape par étape"
+title: "Inscription en ligne dans votre établissement : comment la mettre en place étape par étape"
 seoTitle: "Inscription en ligne dans votre école, étape par étape"
 date: "2026-03-28"
+updated: "2026-10-20"
 translationKey: "matricula-online-centro-educativo-pasos-2026"
-description: "Guide pas à pas pour digitaliser les inscriptions scolaires : formulaires numériques, pipeline CRM, paiement et documents dans un flux unifié."
-tags:
-    [
-        "inscription en ligne école",
-        "formulaires numériques école",
-        "CRM inscription scolaire",
-        "portail famille inscription",
-        "digitaliser admissions",
-        "Edena",
-    ]
+description: "Passer l’inscription en ligne : quoi demander à chaque étape, comment recueillir signatures et arrhes, comment tester le processus et quelles erreurs éviter."
+tags: ["inscription en ligne", "inscription numérique", "secrétariat", "signature électronique", "CRM scolaire"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop"
+relatedPosts:
+    - crm-scolaire-inscriptions-conversion-2026
+    - onboarding-numerique-familles-inscription-ligne
+    - renouvellement-automatique-inscription-2026
+    - signature-electronique-ecoles-autorisations
 faqs:
-    - question: "Un formulaire seul peut-il remplacer un CRM pour la gestion des inscriptions ?"
-      answer: "Non. Un formulaire sans CRM envoie les soumissions dans une boîte mail et vous gérez à nouveau le processus par e-mail. Le CRM donne à chaque demande une étape, un responsable, une source enregistrée et un taux de conversion mesurable. Sans cela, vous ne pouvez pas voir où les demandes stagnent ni quel canal de captation vaut l'investissement."
-    - question: "Le processus d'inscription numérique est-il conforme au GDPR ?"
-      answer: "La plateforme fournit un accès par rôle, des journaux d'audit et une visibilité contrôlée des données. La base légale du traitement des données familiales, les durées de conservation et la procédure de réponse aux droits sont définis par votre DPO, pas par le logiciel. Assurez-vous que votre politique de confidentialité couvre le processus de captation numérique avant le lancement."
-    - question: "Que faire avec les demandes de familles ayant un accès numérique limité ?"
-      answer: "Définissez un canal de soutien avant le lancement : un appel téléphonique ou une session d'aide en présentiel où l'administration complète le formulaire au nom de la famille, en saisissant les données dans le même CRM. Ainsi, toutes les demandes, quel que soit le canal d'entrée, sont dans le même pipeline avec des données cohérentes."
-    - question: "Combien de temps faut-il pour configurer le processus d'inscription dans Edena ?"
-      answer: "Une configuration de base (formulaire, étapes de pipeline, règle de paiement et confirmation automatisée) peut être mise en place en une semaine si la conception du processus est déjà définie. Des flux plus complexes avec plusieurs types de documents, des automatisations d'étapes et la communication Pro prennent deux à trois semaines. L'équipe d'implémentation accompagne la configuration dans le cadre de l'onboarding."
-    - question: "Quelle métrique utiliser pour juger si le processus numérique fonctionne ?"
-      answer: 'Les indicateurs les plus fiables sont : le taux de complétion des demandes (soumissions démarrées vs. soumises), le délai de la première prise de contact à la place confirmée, et le pourcentage d''appels "avez-vous reçu mon dossier ?" après le lancement. Si les taux de complétion sont faibles, le formulaire est trop long ou la première étape trop exigeante.'
+    - question: "Combien de temps faut-il pour passer l’inscription en ligne ?"
+      answer: "Cela dépend du nombre de documents, de services et de profils d’élèves de l’établissement. Le plus raisonnable est de concevoir le processus hors période d’inscription, de le tester avec un petit groupe de familles puis de l’ouvrir à toute la campagne, pour ne pas l’inaugurer pendant la semaine la plus chargée."
+    - question: "Quels documents peut-on signer en ligne ?"
+      answer: "Les autorisations habituelles (droit à l’image, sorties, personnes autorisées à récupérer l’enfant, informations de santé), le contrat de services et, si l’établissement prélève les frais, le mandat de prélèvement. Chaque signature doit être conservée dans le dossier de l’élève avec sa date."
+    - question: "Et les familles qui ne peuvent pas le faire en ligne ?"
+      answer: "Proposez-leur un rendez-vous au secrétariat où le même formulaire est rempli avec de l’aide. La demande arrive ainsi dans le même système que les autres et il n’y a pas de circuit papier à maintenir en parallèle."
+    - question: "Comment gérer la protection des données dans l’inscription en ligne ?"
+      answer: "Le formulaire doit indiquer la finalité et la base légale du traitement, ne demander à chaque étape que les données nécessaires et traiter à part les données de santé, qui sont une catégorie particulière. Faites relire les textes par votre délégué à la protection des données avant d’ouvrir la campagne."
 ---
 
-<strong>Comment digitaliser l'inscription en ligne de votre école étape par étape</strong>
+<strong>Inscription en ligne dans votre établissement : comment la mettre en place étape par étape</strong>
 
 <br>
 
-L'inscription en ligne n'est pas un PDF sur votre site web. Si le formulaire n'est pas connecté au reste de vos systèmes, votre équipe administrative continuera à ressaisir chaque donnée à la main, le "numérique" doublera le coût au lieu de le réduire de moitié, et les familles appelleront pour demander si leur demande a bien été reçue. Un flux d'inscription correctement digitalisé connecte la captation, la validation, la documentation, la réservation de place et le premier paiement dans une chaîne de données unique, sans copier-coller, sans relais de tableur. Ce guide parcourt chaque étape, du design du processus à la mesure que le changement fonctionne, en utilisant ce qu'Edena propose réellement : CRM avec demandes d'inscription, pipeline, formulaires personnalisables et suivi d'origine multicanal ; plateforme de base avec portail, application, onboarding et gestion autonome des familles ; facturation avec factures, règles de paiement et analyse des impayés ; et documentation Cloud, activités périscolaires, automatisation et communication Pro en option.
+Une inscription en ligne, c’est quand la famille envoie la demande, dépose les documents, signe et, si besoin, paie les arrhes depuis son téléphone, et que le secrétariat la reçoit prête à être vérifiée. Mettre sur le site un PDF à imprimer, remplir et renvoyer par e-mail ne l’est pas : la paperasse reste la même, elle change seulement de boîte.
+
+Ce guide parcourt le processus en sept étapes, de la cartographie de ce que vous faites aujourd’hui au test avec un petit groupe de familles avant d’ouvrir la campagne.
 
 <br>
 
-<strong>Étape 0 : auditez votre processus actuel avant de toucher à la technologie</strong>
+<strong>Étape 1 : décrire le processus actuel</strong>
 
 <br>
 
-Avant de configurer un outil, cartographiez ce qui se passe réellement aujourd'hui. Combien de demandes recevez-vous par an, par quels canaux ? Où l'administration passe-t-elle le plus de temps lors des pics d'inscription : ressaisie de données, traitement des relances de documents, réponses aux mêmes appels, ou rapprochement de qui a payé ? Combien de jours s'écoulent entre une première prise de contact et une place confirmée ? Quels documents sont requis à chaque étape et qui les valide ? Cet audit vous donne les vrais problèmes à résoudre. Si vous le sautez et passez directement à la configuration des formulaires, vous numériserez le désordre plutôt que d'améliorer le processus.
+Avant de toucher au moindre formulaire, notez comment un nouvel élève est inscrit aujourd’hui :
+
+- Par quels canaux arrivent les demandes et combien il y en a dans une campagne normale.
+- Quels documents sont demandés et à quel moment.
+- Qui examine chaque demande et qui décide de la place.
+- Quand et comment sont encaissés les arrhes ou les premiers frais.
+- Où ça bloque : documents manquants, familles qui ne répondent pas, données saisies deux fois.
+
+Cette description vous dira quoi numériser et quoi simplifier d’abord. Mettre en ligne un processus avec des étapes inutiles ne fait que les accélérer.
 
 <br>
 
-<strong>Étape 1 : dessinez le flux de processus, pas seulement le formulaire</strong>
+<strong>Étape 2 : découper l’inscription en phases</strong>
 
 <br>
 
-Un flux d'inscription solide comporte des étapes définies : demande initiale, soumission du formulaire, validation des données, visite ou appel (le cas échéant), téléversement des documents, validation interne, réservation de place avec conditions, paiement, inscription confirmée et première communication familiale. Chaque étape a besoin d'un responsable, d'un délai, d'un message clair à la famille sur ce qu'elle doit faire ensuite, et d'une condition de sortie qui fait avancer la demande. Une réservation de place sans règle de paiement liée crée une injustice dans la file d'attente. Le CRM avec pipeline configuré montre en un coup d'œil où les candidats abandonnent l'entonnoir : pas "septembre a été difficile", mais "22 % des demandes stagnent à l'étape de téléversement des documents".
+Tout demander d’un coup est le meilleur moyen de faire abandonner les familles à mi-parcours. Il vaut mieux répartir l’information en quatre phases :
+
+- **Demande** : données de l’élève et de la famille, niveau souhaité et comment la famille a connu l’établissement.
+- **Place et arrhes** : confirmation de la place, contrat de services et, si l’établissement en demande, les arrhes.
+- **Documents et signatures** : autorisations de droit à l’image et de sorties, personnes autorisées à récupérer l’enfant, fiche de santé et allergies, mandat de prélèvement.
+- **Inscription** : dossier complet, services souscrits (cantine, transport, activités périscolaires) et première facture programmée.
+
+Chaque phase doit avoir un responsable au secrétariat et un message pour la famille quand elle est terminée.
 
 <br>
 
-<strong>Étape 2 : construisez un formulaire léger, optimisé pour mobile</strong>
+<strong>Étape 3 : concevoir un formulaire court et pensé pour le mobile</strong>
 
 <br>
 
-Le premier écran doit demander le minimum nécessaire pour ouvrir la demande : classe souhaitée, date de rentrée préférée et un contact. Tout le reste est collecté progressivement à mesure que la demande avance. Concevez pour le mobile dès le départ : plus de 70 % des soumissions de formulaires dans les contextes éducatifs proviennent d'un smartphone. Évitez les téléversements de fichiers volumineux à la première étape. Les formulaires personnalisables d'Edena alimentent directement le pipeline CRM avec la source du lead enregistrée.
+La plupart des familles ouvriront le formulaire sur leur téléphone. Quelques règles :
+
+- **Le premier écran, avec le minimum** : qui est l’élève, comment joindre la famille et quel niveau l’intéresse.
+- **Des champs qui se vérifient seuls**, comme l’e-mail ou le téléphone, pour éviter des erreurs difficiles à corriger ensuite.
+- **Une confirmation immédiate** qui dit ce qui va se passer et dans quel délai.
+- **Une demande par élève.** Si une famille inscrit deux enfants, elle ne doit pas ressaisir ses propres données.
+
+Le formulaire doit alimenter directement le système avec lequel le secrétariat gère les demandes. S’il arrive par e-mail et que quelqu’un le recopie, une bonne partie du gain est perdue. Le guide sur le <a href="/fr/blog/crm-scolaire-inscriptions-conversion-2026/">CRM scolaire</a> explique comment organiser ce suivi.
 
 <br>
 
-<strong>Étape 3 : automatisez les bonnes communications</strong>
+<strong>Étape 4 : signatures et documents sans papier</strong>
 
 <br>
 
-Les deux moments où les familles se désengagent le plus sont : immédiatement après la soumission du formulaire (sans confirmation, sans clarté sur la prochaine étape) et quand elles attendent une décision sans aucune mise à jour. Un accusé de réception automatique confirmant la réception et expliquant la prochaine étape élimine la majorité des appels "avez-vous reçu mon dossier ?". Une notification de changement d'étape quand la demande passe d'un statut à un autre maintient la famille informée sans que l'administration n'envoie des e-mails individuels.
+Les autorisations sont ce qui génère le plus de papier. Avec une signature électronique depuis l’application ou le portail des familles, chaque document est conservé dans le dossier de l’élève avec sa date, et le secrétariat voit d’un coup d’œil ce qui manque.
+
+Demandez les documents à l’étape où ils sont nécessaires, pas avant. Les informations de santé, par exemple, servent à l’inscription, pas à une demande de renseignements.
 
 <br>
 
-<strong>Étape 4 : liez la réservation de place à un vrai paiement</strong>
+<strong>Étape 5 : arrhes et premier paiement</strong>
 
 <br>
 
-Une réservation de place qui ne requiert pas de paiement n'est pas une réservation : c'est une file d'attente non engagée. Lier la confirmation de réservation à un paiement d'arrhes, dans le module de facturation, crée un engagement. Les arrhes sont liées au dossier de l'élève, suivies dans l'historique de facturation et rapprochées automatiquement quand le cycle de cotisation complet commence.
+Si l’établissement demande des arrhes, le moment habituel est celui où la famille accepte la place proposée, dans le même processus et avant l’inscription définitive. Les arrhes confirment l’engagement et l’établissement sait quelles places sont vraiment prises.
+
+La facture des arrhes doit partir du même système que celui qui facturera ensuite les frais de scolarité, avec son enregistrement Verifactu. Si les arrhes sont encaissées d’un côté et les frais de l’autre, le rapprochement de septembre se complique.
 
 <br>
 
-<strong>Étape 5 : gérez les documents avec une structure, pas des pièces jointes par e-mail</strong>
+<strong>Étape 6 : prévenir la famille à chaque changement</strong>
 
 <br>
 
-Définissez quels documents sont requis à chaque étape et faites du téléversement une partie intégrante du processus, pas une afterthought. Avec le module Cloud, les documents sont stockés dans des dossiers avec une visibilité par élève ou groupe, liés au dossier de l'élève. Les familles téléversent une fois ; l'administration valide une fois ; le fichier accompagne l'élève de l'inscription jusqu'à l'historique de facturation.
+Une bonne partie des appels au secrétariat pendant la campagne viennent de familles qui demandent si leur dossier est bien arrivé. Une notification sur le téléphone à chaque changement de phase les évite :
+
+- Demande reçue, avec la prochaine étape.
+- Un document manque, avec un lien pour le déposer.
+- Place confirmée, avec le délai pour l’accepter.
+- Inscription terminée, avec la première facture et l’accès à l’application.
+
+<br>
+
+<strong>Étape 7 : tester avec un petit groupe avant d’ouvrir la campagne</strong>
+
+<br>
+
+Avant d’ouvrir l’inscription à toutes les familles, testez-la avec un groupe restreint : frères et sœurs d’élèves actuels, familles du personnel ou un seul niveau. Regardez trois choses :
+
+- **Combien de familles terminent le formulaire** parmi celles qui le commencent. Si beaucoup abandonnent, il est trop long ou demande quelque chose au mauvais moment.
+- **Combien de temps met le secrétariat** à examiner une demande complète.
+- **Quelles questions arrivent** par téléphone ou par e-mail. Chaque question qui revient est un texte qui manque dans le formulaire.
+
+Ajustez ce qu’il faut et ouvrez la campagne quand le processus fonctionne sans explications.
+
+<br>
+
+<strong>Ce qui change selon le type d’établissement</strong>
+
+<br>
+
+- **Crèches** : les places sont rares et la liste d’attente est courante. Elle doit être une étape du processus, avec un ordre clair, et les informations de santé et d’alimentation doivent être recueillies avant la période d’adaptation.
+- **Écoles** : en plus des nouveaux élèves, il y a la réinscription des élèves actuels, qui peut se faire par une simple confirmation. Les services (cantine, transport, activités périscolaires) doivent être souscrits à l’inscription pour que la première facture soit juste.
+- **Académies** : l’inscription est continue pendant l’année et les groupes s’organisent par niveau et par horaire. Le formulaire doit montrer les places disponibles et le système doit prévenir quand un groupe est complet.
+
+<br>
+
+<strong>Erreurs fréquentes</strong>
+
+<br>
+
+- **Un formulaire isolé** qui envoie un e-mail au lieu de créer la demande dans le système.
+- **Demander tous les documents le premier jour**, alors que la famille compare encore les établissements.
+- **Ne pas désigner de responsables** : en pleine campagne, ce qui est à tout le monde n’est fait par personne.
+- **Ne pas prévoir d’alternative en présentiel** pour les familles qui ne peuvent pas le faire en ligne.
+- **Ouvrir la campagne sans l’avoir testée** avec de vraies familles.
+
+<br>
+
+<strong>Comment cela se passe dans Edena</strong>
+
+<br>
+
+Dans Edena, l’inscription en ligne utilise les mêmes briques que le reste de la gestion de l’établissement :
+
+- Les **formulaires de recrutement** du <a href="/fr/crm/">CRM scolaire</a> sont publiés sur le site de l’établissement et chaque demande arrive dans un tableau par étapes, avec son origine et son responsable.
+- Les familles **signent autorisations et documents** depuis l’application, et ils sont conservés dans le dossier de l’élève.
+- Les **arrhes et les frais** sont facturés avec Verifactu et encaissés par prélèvement SEPA, virement ou carte depuis la <a href="/fr/finance/">facturation scolaire</a>.
+- Les familles reçoivent des **notifications** dans l’application gratuite pour iOS et Android.
+- Avec le module **Automatisation**, l’inscription de l’élève peut se créer toute seule à la confirmation.
+
+<br>
+
+<strong>Conclusion</strong>
+
+<br>
+
+L’inscription en ligne fonctionne quand la famille peut tout faire depuis son téléphone et que le secrétariat reçoit chaque demande complète et au même endroit. Pour y arriver, découpez le processus en phases, demandez chaque document au moment où il est utile, reliez les arrhes à la facturation et testez avec quelques familles avant d’ouvrir la campagne.
+
+Pour le voir avec le processus de votre établissement, <a href="/fr/demo/">demandez une démo de 15 minutes</a>.
 
 <br>

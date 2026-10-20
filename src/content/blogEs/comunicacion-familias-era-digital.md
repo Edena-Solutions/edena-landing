@@ -1,5 +1,5 @@
 ---
-title: "Comunicación institucional con familias: Estrategias para la era digital"
+title: "Comunicación institucional con las familias: estrategias para la era digital"
 seoTitle: "Comunicación institucional con familias: estrategias"
 date: "2025-03-10"
 translationKey: "comunicacion-familias-era-digital"
@@ -19,7 +19,7 @@ faqs:
       answer: "Ofrece email y SMS como alternativa; nunca exijas solo app sin vía paralela documentada."
 ---
 
-<strong>Comunicación institucional con familias: Estrategias para la era digital</strong>
+<strong>Comunicación institucional con las familias: estrategias para la era digital</strong>
 
 <br>
 

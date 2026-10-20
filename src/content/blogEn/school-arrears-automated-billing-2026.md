@@ -43,7 +43,7 @@ Late payment in schools and daycares is not just a number in a report: it is sec
 
 <br>
 
-Not all non-payments are solved with software. There are situations of vulnerability, repeated disagreements, amount errors or documentary delays. But an important part of the late payment of centers with fees or billable services is structural: dates poorly aligned with payrolls, absence of recurrence, multiple channels (transfer, card, mixed direct debit) without a trace, families that do not read a single notice, and administration teams that recycle tasks believing that "it's what they have to do." That layer is the one that comes down with predictable charges, segmented reminders, rules and analytics. If the platform does not offer non-payment control, financial analysis and fit with the file, management does not see the problem in time; If the communication does not reach the appropriate tone, the family perceives it as punishment, not as clarity. Automation combines: rules, channels, tone, data.
+Not all non-payments are solved with software. There are situations of vulnerability, repeated disagreements, amount errors or documentary delays. But an important part of the late payment of centers with fees or billable services is structural: dates poorly aligned with payrolls, absence of recurrence, multiple channels (transfer, card, mixed direct debit) without a trace, families that do not read a single notice, and administration teams that recycle tasks believing that "it's what they have to do." That layer is the one that comes down with predictable charges, segmented reminders, rules and analytics. If the platform does not offer non-payment control, financial analysis and fit with the file, management does not see the problem in time; if the communication does not reach the appropriate tone, the family perceives it as punishment, not as clarity. Automation combines: rules, channels, tone, data.
 
 <br>
 
@@ -85,7 +85,7 @@ With heterogeneous families, segmentation kills the “cartel to all” effect t
 - Communication that allows reminders and segments, and reading confirmation when applicable, to reduce the genuine “I didn't find out”, not the one that is an excuse.
 - Non-payment analysis: age, amount, month-by-month comparison, with filters, to feed the management meeting, not a motivational screenshot.
 - Possibility of adding rules or automations (workflows) for onboarding, reminders or tasks, without multiplying route sheets by hand.
-- 24/7 support and migration: the arrears do not go down on day 1, but the chaos cannot add to an unresolved malfunction.
+- Support and migration: the arrears do not go down on day 1, but the chaos cannot add to an unresolved malfunction.
 
 This connects with Edena's proposal: billing module with late payment analysis, base platform, communication (Pro if you need strong notifications and segments), and automation for specific cases, without selling modules that the center is not going to feed with data and clear policy.
 
@@ -133,7 +133,7 @@ Automated collection is not dehumanizing. Free families from foolish forgetfulne
 
 - **Subject:** Fee reminder [month] – [center name]
 - **Body:** Dear family, we remind you of the expiration of [day]. You can check the status on the portal or contact administration at [hours].
-- **If you have already paid:** Ignore this message; The system may take 24-48 hours to reconcile.
+- **If you have already paid:** Ignore this message; the system may take 24-48 hours to reconcile.
 - **Tone:** Firm and neutral at the first notice; scale according to written internal policy, not according to who answers the phone that day.
 
 <br>
@@ -162,6 +162,6 @@ A private school with 320 families in Valencia had 11% unpaid fees 45 days after
 
 <br>
 
-Reducing late payments in schools and daycares with automated collections means aligning the calendar, messages, statuses, analytics and human judgment, not installing a reminder. The right tool, like Edena, supports billing, filing, communication, analytics and, if you need it, automation, to reduce load, friction and variation, with 24/7 support. If you want to see it with your figures, request a demo, discover how Edena can help you lower low tasks and raise high traces, and automate the control of non-payments today; Your team deserves to focus on families and criteria, not on chasing receipts that the system was able to clearly advance.
+Reducing late payments in schools and daycares with automated collections means aligning the calendar, messages, statuses, analytics and human judgment, not installing a reminder. The right tool, like Edena, supports billing, filing, communication, analytics and, if you need it, automation, to reduce load, friction and variation, with email and chat support. If you want to see it with your figures, request a demo, discover how Edena can help you lower low tasks and raise high traces, and automate the control of non-payments today; Your team deserves to focus on families and criteria, not on chasing receipts that the system was able to clearly advance.
 
 <br>

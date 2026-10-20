@@ -1,5 +1,5 @@
 ---
-title: "Analítica educativa e inteligencia artificial: Datos que transforman la educación"
+title: "Analítica educativa e inteligencia artificial: datos que ayudan a decidir en el centro"
 seoTitle: "Analítica educativa e IA: datos para decidir en el centro"
 date: "2024-09-15"
 translationKey: "analitica-educativa-inteligencia-artificial"
@@ -22,7 +22,7 @@ faqs:
       answer: "Sí si apoya evaluación formativa, no si impone etiquetas opacas al alumnado."
 ---
 
-<strong>Analítica educativa e inteligencia artificial: Datos que transforman la educación</strong>
+<strong>Analítica educativa e inteligencia artificial: datos que ayudan a decidir en el centro</strong>
 
 <br>
 

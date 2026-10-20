@@ -1,5 +1,5 @@
 ---
-title: "Nuevas Tecnologías en el Aula 2026: Transformando la Experiencia Educativa"
+title: "Nuevas tecnologías en el aula en 2026: cómo cambian la experiencia educativa"
 seoTitle: "Nuevas tecnologías en el aula en 2026"
 date: "2026-01-29"
 translationKey: "nuevas-tecnologias-aula-2026"
@@ -29,7 +29,7 @@ faqs:
       answer: "Renovación por ciclos, no por moda."
 ---
 
-<strong>Nuevas Tecnologías en el Aula 2026: Transformando la Experiencia Educativa</strong>
+<strong>Nuevas tecnologías en el aula en 2026: cómo cambian la experiencia educativa</strong>
 
 <br>
 

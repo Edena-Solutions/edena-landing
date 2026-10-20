@@ -1,5 +1,6 @@
 ---
-title: "Guardians a l'educació digital: El paper de les famílies"
+title: "Famílies i educació digital: el paper de pares, mares i tutors"
+seoTitle: "Famílies i educació digital: el paper dels tutors"
 date: "2025-03-01"
 translationKey: "guardianes-educacion-digital"
 description: "El paper de les famílies en l'educació digital dels fills: consentiments, temps de pantalla i acords d'ús entre les famílies i el centre."
@@ -38,7 +39,7 @@ A l'era digital, el paper dels pares com a guardians de l'educació dels seus fi
 
 <br>
 
-Els pares d?avui s?enfronten a un desafiament únic: han de ser guardians tant del món físic com del digital. Els seus fills creixen en un entorn on la tecnologia està integrada pràcticament en tots els aspectes de la vida, des de l'educació fins a la socialització. Aquest nou context requereix que els pares desenvolupin noves habilitats i estratègies per guiar efectivament els fills.
+Els pares d'avui s'enfronten a un desafiament únic: han de ser guardians tant del món físic com del digital. Els seus fills creixen en un entorn on la tecnologia està integrada pràcticament en tots els aspectes de la vida, des de l'educació fins a la socialització. Aquest nou context requereix que els pares desenvolupin noves habilitats i estratègies per guiar efectivament els fills.
 
 El rol del guardià digital va més enllà de limitar el temps de pantalla. Inclou ensenyar els infants a utilitzar la tecnologia de manera responsable, ajudar-los a desenvolupar pensament crític sobre el contingut digital, i preparar-los per navegar de manera segura al món online. Els pares han de convertir-se en models de comportament digital saludable i en mentors que guiïn els seus fills cap a un ús constructiu de la tecnologia.
 

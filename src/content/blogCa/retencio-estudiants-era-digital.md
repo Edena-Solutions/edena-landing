@@ -1,5 +1,5 @@
 ---
-title: "Retenció d'estudiants a l'era digital: Estratègies que funcionen"
+title: "Retenció d'estudiants a l'era digital: estratègies que funcionen"
 seoTitle: "Retenció d'estudiants: estratègies que funcionen"
 date: "2024-11-28"
 translationKey: "retencion-estudiantes-era-digital"
@@ -22,7 +22,7 @@ faqs:
       answer: "Taxa de renovació per curs, NPS familiar trimestral i temps de resposta admin a incidències."
 ---
 
-<strong>Retenció d'estudiants a l'era digital: Estratègies que funcionen</strong>
+<strong>Retenció d'estudiants a l'era digital: estratègies que funcionen</strong>
 
 <br>
 

@@ -1,5 +1,5 @@
 ---
-title: "Competència digital per a educadors: Preparant els professors del futur"
+title: "Competència digital per a educadors: com preparar el professorat"
 seoTitle: "Competència digital docent: el que necessita el professorat"
 date: "2024-09-30"
 translationKey: "competencia-digital-educadores"
@@ -22,7 +22,7 @@ faqs:
       answer: "Ben feta, ho torna: menys duplicar llistats i circulars manuals significa més temps per a avaluació i tutoria."
 ---
 
-<strong>Competència digital per a educadors: Preparant els professors del futur</strong>
+<strong>Competència digital per a educadors: com preparar el professorat</strong>
 
 <br>
 

@@ -1,5 +1,5 @@
 ---
-title: "Gestión del cambio organizacional en centros educativos: Estrategias para la transformación exitosa"
+title: "Gestión del cambio en centros educativos: estrategias para una transformación con éxito"
 seoTitle: "Gestión del cambio en centros educativos: estrategias"
 date: "2025-08-15"
 translationKey: "gestion-cambio-organizacional-educativo"
@@ -19,7 +19,7 @@ faqs:
       answer: "SEO local, Google Business, Open Day con formulario corto y seguimiento CRM en 24-48 horas."
 ---
 
-<strong>Gestión del cambio organizacional en centros educativos: Estrategias para la transformación exitosa</strong>
+<strong>Gestión del cambio en centros educativos: estrategias para una transformación con éxito</strong>
 
 <br>
 

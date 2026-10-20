@@ -1,5 +1,5 @@
 ---
-title: "Evaluación y assessment digital en la educación moderna: Herramientas y estrategias"
+title: "Evaluación digital en la educación: herramientas y estrategias"
 seoTitle: "Evaluación digital en educación: herramientas y estrategias"
 date: "2025-08-20"
 translationKey: "evaluacion-assessment-digital-educativo"
@@ -22,7 +22,7 @@ faqs:
       answer: "Sí con autocorrección formativa y bancos de ítems bien diseñados."
 ---
 
-<strong>Evaluación y assessment digital en la educación moderna: Herramientas y estrategias</strong>
+<strong>Evaluación digital en la educación: herramientas y estrategias</strong>
 
 <br>
 

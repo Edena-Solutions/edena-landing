@@ -23,7 +23,7 @@ faqs:
     - question: "Do I need all the modules to see the savings?"
       answer: "No. Start with the block that generates the most friction: if it is the collections, the billing module. If it is the registration, the CRM with forms. If it is communication, evaluate if the basic one is sufficient before hiring Pro. The savings appear when the parallel channel is closed, not when modules are accumulated."
     - question: "How long does it take the team to adapt to the change?"
-      answer: "Between two and six weeks depending on frequency of use and training. Teams that have a designated internal leader and a simple guide for everyday use adapt much faster than those that start on their own. Edena includes onboarding and 24/7 support to accompany that transition."
+      answer: "Between two and six weeks depending on frequency of use and training. Teams that have a designated internal leader and a simple guide for everyday use adapt much faster than those that start on their own. Edena includes setup plus email and chat support to accompany that transition."
     - question: "Does saving time mean reducing staff?"
       answer: "Not necessarily. In most centers, the recovered time is redirected towards quality care for families, improvement projects or recruitment. Efficiency is not an excuse to reduce staff: it is an argument to do more useful and less repetitive work."
     - question: "How do I convince management that the investment pays off?"
@@ -80,7 +80,7 @@ The time the secretariat wastes searching for a document in closets, emails or s
 
 <br>
 
-If management and administration do not have the same definitions of "active students", "pending payments" or "available places", the monthly committee begins by debating figures instead of making decisions. An agreed dashboard with fixed indicators reduces that debate to zero and allows the meeting to focus on actions. Analytics does not replace criteria: it liberates it. Edena includes core analytics in the base platform; The committee decides which three or four indicators close the month.
+If management and administration do not have the same definitions of "active students", "pending payments" or "available places", the monthly committee begins by debating figures instead of making decisions. An agreed dashboard with fixed indicators reduces that debate to zero and allows the meeting to focus on actions. Analytics does not replace criteria: it liberates it. Edena includes core analytics in the base platform; the committee decides which three or four indicators close the month.
 
 <br>
 

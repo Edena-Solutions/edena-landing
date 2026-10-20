@@ -3,7 +3,7 @@ title: "Réunion de rentrée avec les familles : déroulé, convocation et suivi
 seoTitle: "Réunion de rentrée avec les familles : déroulé et conseils"
 date: "2026-09-17"
 translationKey: "reunion-inicio-curso-familias-guion"
-description: "Déroulé de la réunion de rentrée avec les familles : quoi dire en 45 minutes, comment la convoquer pour qu'elles viennent et comment envoyer le compte rendu à celles qui manquent."
+description: "Déroulé de la réunion de rentrée avec les familles : quoi dire en 45 minutes, comment la convoquer pour qu'elles viennent et quoi envoyer aux absents."
 tags: ["réunion de rentrée", "tutorat", "communication avec les familles", "rentrée", "écoles"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1680778470833-ce470c4ec93a?q=80&w=1200&auto=format&fit=crop"

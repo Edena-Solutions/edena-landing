@@ -225,7 +225,7 @@ Un dashboard educatiu guanya valor quan dispara avisos: cobrament per sota de ll
 
 <br>
 
-Un col·legi va configurar un dashboard per a direcció amb estat de cobrament, retenció per etapa i previsió de matrícules; les reunions d'equip van passar de “no tenim dades” a decisions basades en números. Un centre de FP va afegir una vista d?administració amb llista d?impagaments per antiguitat i recordatoris enviats; van reduir el temps a preparar informes i van prioritzar el contacte amb famílies en risc.
+Un col·legi va configurar un dashboard per a direcció amb estat de cobrament, retenció per etapa i previsió de matrícules; les reunions d'equip van passar de “no tenim dades” a decisions basades en números. Un centre de FP va afegir una vista d'administració amb llista d'impagaments per antiguitat i recordatoris enviats; van reduir el temps a preparar informes i van prioritzar el contacte amb famílies en risc.
 
 <br>
 

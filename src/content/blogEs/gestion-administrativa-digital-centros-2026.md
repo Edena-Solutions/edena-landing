@@ -1,5 +1,5 @@
 ---
-title: "Gestión Administrativa Digital en Centros Educativos 2026: Eliminando el Papel, Maximizando la Eficiencia"
+title: "Gestión administrativa digital en centros educativos (2026): menos papel y más eficiencia"
 seoTitle: "Gestión administrativa digital en centros educativos"
 date: "2026-01-22"
 translationKey: "gestion-administrativa-digital-centros-2026"
@@ -30,7 +30,7 @@ faqs:
       answer: "Entre 8 y 12 semanas, con un ciclo de facturación o admisión real y criterios de éxito acordados antes de empezar."
 ---
 
-<strong>Gestión Administrativa Digital en Centros Educativos 2026: Eliminando el Papel, Maximizando la Eficiencia</strong>
+<strong>Gestión administrativa digital en centros educativos (2026): menos papel y más eficiencia</strong>
 
 <br>
 

@@ -23,7 +23,7 @@ faqs:
     - question: "Necessito tots els mòduls per veure l'estalvi?"
       answer: "No. Comença amb el bloc que genera més fricció: si són els cobraments, el mòdul de facturació. Si és la matrícula, el CRM amb formularis. Si és la comunicació, avalua si la bàsica és suficient abans de contractar Pro. L'estalvi apareix quan es tanca el canal paral·lel, no quan s'acumulen mòduls."
     - question: "Quant de temps triga l'equip a adaptar-se al canvi?"
-      answer: "Entre dues i sis setmanes depenent de la freqüència d'ús i la formació. Els equips que tenen un responsable intern designat i una guia senzilla d'ús quotidià sadapten molt més ràpid que els que arrenquen sols. Edena inclou onboarding i suport 24/7 per acompanyar aquesta transició."
+      answer: "Entre dues i sis setmanes depenent de la freqüència d'ús i la formació. Els equips que tenen un responsable intern designat i una guia senzilla d'ús quotidià sadapten molt més ràpid que els que arrenquen sols. Edena inclou la posada en marxa i suport per correu i xat per acompanyar aquesta transició."
     - question: "¿L'estalvi de temps implica reduir personal?"
       answer: "No necessàriament. A la major part dels centres, el temps recuperat es redirigeix ​​cap a atenció de qualitat a famílies, projectes de millora o captació. L'eficiència no és excusa per reduir plantilla: és argument per fer una feina més útil i menys repetitiva."
     - question: "Com convenço la direcció que la inversió compensa?"
@@ -134,7 +134,7 @@ La digitalització justa reparteix la càrrega: famílies amb autoservei en paga
 
 <br>
 
-Un centre de 280 famílies va automatitzar assistència, recordatoris de pagament i enviament de butlletins trimestrals. La secretària principal va estimar 14 hores setmanals recuperades, dedicades a atenció presencial i tancament d?exercici.
+Un centre de 280 famílies va automatitzar assistència, recordatoris de pagament i enviament de butlletins trimestrals. La secretària principal va estimar 14 hores setmanals recuperades, dedicades a atenció presencial i tancament d'exercici.
 
 <br>
 

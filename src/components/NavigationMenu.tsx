@@ -37,7 +37,7 @@ import {
 } from "@/components/ui/accordion";
 import { cn } from "@/lib/utils";
 import logo from "@/assets/img/logos/logo.svg";
-import enaLogo from "@/assets/img/logos/ena.png";
+import enaLogo from "@/assets/img/logos/ena-256.webp";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
 import { localePath } from "@/i18n/utils";
@@ -175,6 +175,8 @@ const Logo = ({ lang, alt, className }: { lang: string; alt: string; className?:
             <img
                 src={logo.src}
                 alt={alt}
+                width={logo.width}
+                height={logo.height}
                 className="ds-nav-logo h-5 w-auto dark:invert"
             />
         </a>
@@ -485,6 +487,7 @@ const MobileMenuSection = ({
     return (
         <AccordionItem value={value} className={premium ? undefined : "border-0"}>
             <AccordionTrigger
+                headerAs="div"
                 className={cn(
                     "py-2 text-sm font-medium hover:no-underline hover:text-primary",
                     premium && "hover:text-ink",

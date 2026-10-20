@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 import appIcon from "@/assets/img/logos/app-icon.svg";
-import enaLogo from "@/assets/img/logos/ena.png";
+import enaLogo from "@/assets/img/logos/ena-256.webp";
 import wordmark from "@/assets/img/logos/logo.svg";
 import { LOGO_PATH, LOGO_VIEWBOX } from "@/lib/brand";
 import { cn } from "@/lib/utils";

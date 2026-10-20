@@ -148,7 +148,7 @@ export default {
         install: "Instalar",
         open: "Abrir",
         category: "Educación",
-        ratings: "valoraciones",
+        free: "Gratis",
         publish: "Publicar",
         published: "Publicado",
         age: "Edad",
@@ -853,6 +853,11 @@ export default {
         ena: "Ena, la IA de Edena para centros educativos",
         finance: "Facturación con Verifactu y cobros SEPA",
         shop: "Venta de uniformes y material escolar",
+        pricing: "Precios del software de gestión escolar",
+        pricingCenters: "Precios para centros educativos",
+        pricingAcademies: "Precios para academias",
+        demo: "Demo gratuita del software de gestión escolar",
+        contact: "Contacto con Edena",
     },
     setup: {
         title: "En marcha en 2 semanas, con un equipo que te acompaña en todo el proceso",
@@ -1156,7 +1161,7 @@ export default {
             },
         },
         studentFeatures: {
-            title: "Todo lo que necesitas para gestionar a tus alumnos",
+            title: "Gestión de alumnos: expediente, asistencia y notas, conectados",
             tagline:
                 "Expedientes, asistencia, calificaciones y seguimiento conectados entre sí, para que dirección, tutores y familias trabajen con los mismos datos.",
             digitalRecords: {
@@ -1490,7 +1495,7 @@ export default {
         cards: {
             agent: {
                 label: "@Ena Agente",
-                title: "Usa @Ena como asistente inteligente disponible 24/7.",
+                title: "Pregúntale a @Ena por cualquier dato del centro, a cualquier hora.",
                 prompt: "¿Cuántos alumnos nuevos tenemos este mes?",
                 response:
                     "Este mes se han matriculado 12 alumnos nuevos. ¿Quieres ver el desglose por curso?",
@@ -1684,9 +1689,9 @@ export default {
             },
         },
         packs: {
-            title: "Packs para academias",
+            title: "Tres packs cerrados, con precio por alumno",
             description:
-                "Tres packs cerrados con precio por alumno. Elige el que resuelve tu prioridad de hoy y cambia cuando lo necesites: sin cuota de alta y sin permanencia.",
+                "Elige el que resuelve tu prioridad de hoy y cambia de pack cuando lo necesites. Sin cuota de alta y sin permanencia.",
             minNote: "Facturación mínima de {n} € al mes",
             includes: "Qué incluye",
             bestFor: "Ideal si",
@@ -1915,28 +1920,28 @@ export default {
         },
         parent_onboarding: "¿Cómo funciona la incorporación de familias a la plataforma?",
         parent_onboarding_answer:
-            "Edena envía automáticamente correos personalizados con instrucciones paso a paso para las familias, incluyendo firma digital de documentos, creación de perfiles y configuración de cuenta, simplificando todo el proceso de bienvenida.",
+            "Cada familia recibe un correo con su invitación. Desde ahí crea su cuenta, firma los documentos del centro y entra en la app con su perfil, sin pasar por secretaría.",
         verifactu: "¿Qué es Verifactu?",
         verifactu_answer:
             "Verifactu es el sistema de la Agencia Tributaria (AEAT) por el que los programas de facturación remiten automáticamente a la AEAT un registro de cada factura que emiten (Real Decreto 1007/2023 y Orden HAC/1177/2024). Edena está adaptado a Verifactu: genera y encadena esos registros, los remite a la AEAT e incluye el código QR tributario en cada factura. La AEAT no certifica programas: el cumplimiento se acredita con la declaración responsable del fabricante, que puedes consultar en edena.es/verifactu.",
         parent_dashboard: "¿Qué pueden hacer las familias en su panel de control?",
         parent_dashboard_answer:
-            "Las familias disponen de un completo panel donde pueden gestionar información de sus hijos, consultar y pagar facturas, inscribirse en actividades extracurriculares y comunicarse directamente con el centro.",
+            "Desde la app o el portal, cada familia consulta las notas y la asistencia de sus hijos, paga los recibos, los inscribe en extraescolares, firma autorizaciones y escribe al centro.",
         mobile_app_features: "¿Qué funcionalidades ofrece la aplicación móvil?",
         mobile_app_features_answer:
             "Nuestra app móvil permite a las familias recibir notificaciones instantáneas, ver fotos y actualizaciones de sus hijos, firmar documentos digitalmente y mantener toda la comunicación con el centro desde cualquier lugar.",
         sending_photos: "¿Cómo funciona el envío de fotos y actualizaciones a las familias?",
         sending_photos_answer:
-            "El personal del centro puede compartir fácilmente fotos, actividades y mensajes personalizados desde el panel administrativo, que llegan instantáneamente a la app móvil de los padres de forma segura.",
+            "El personal sube las fotos y las novedades del día desde la app o el panel, y cada familia recibe las de su hijo en la app, con aviso al móvil. Las fotos no circulan por grupos de mensajería.",
         billing_management: "¿Cómo se gestiona la facturación y los cobros?",
         billing_management_answer:
-            "Edena automatiza completamente la generación de facturas según los servicios contratados, facilita cobros recurrentes, seguimiento de pagos en tiempo real y gestión eficiente de impagos.",
+            "Configuras una vez las tarifas y los servicios de cada alumno, y Edena genera las facturas cada mes con su registro Verifactu. Las familias pagan por domiciliación SEPA, transferencia o tarjeta, y los recibos pendientes quedan a la vista con recordatorio automático.",
         extracurricular_activities: "¿Se pueden gestionar actividades extraescolares?",
         extracurricular_activities_answer:
-            "Sí, la plataforma permite crear y gestionar actividades extraescolares, controlar inscripciones y capacitar a las familias para inscribir o modificar la participación de sus hijos directamente desde su panel.",
+            "Sí. Creas cada actividad con sus plazas y su precio, las familias inscriben a sus hijos o los dan de baja desde la app y el importe se suma a su recibo.",
         multiple_centers: "¿Es posible gestionar varios centros educativos a la vez?",
         multiple_centers_answer:
-            "Absolutamente. Edena ofrece potentes capacidades de gestión multi-sede desde un único panel centralizado, ideal para grupos escolares, cadenas de escuelas infantiles o instituciones con varias ubicaciones.",
+            "Sí. Desde un solo panel gestionas todos los centros de la red: cada uno conserva sus datos y su serie de facturación, y dirección ve los informes de toda la red. Sirve para grupos escolares, cadenas de escuelas infantiles y academias con varias sedes.",
         center_dashboard: "¿Qué información proporciona el panel de control para directores?",
         center_dashboard_answer:
             "El panel ofrece métricas en tiempo real sobre asistencia, inscripciones, estado financiero, comunicaciones enviadas y rendimiento general del centro, ayudando a tomar decisiones basadas en datos.",
@@ -1985,10 +1990,10 @@ export default {
         },
         finance_invoicing_process: "¿Cómo funciona el proceso de facturación en Edena?",
         finance_invoicing_process_answer:
-            "Edena automatiza la generación y envío de facturas, permitiendo un control total sobre los cobros y pagos del centro educativo.",
+            "Defines una vez las tarifas y los servicios de cada alumno. Cada mes Edena genera las facturas, crea su registro Verifactu, las envía a las familias por la app y gestiona el cobro de las domiciliaciones SEPA.",
         finance_payment_methods: "¿Qué métodos de pago acepta la plataforma?",
         finance_payment_methods_answer:
-            "La plataforma admite transferencias bancarias, domiciliaciones, tarjetas y otros métodos digitales para facilitar el pago a las familias.",
+            "Domiciliación bancaria SEPA, transferencia y pago con tarjeta desde la app. Cada pago queda asociado a su recibo, así que secretaría ve qué está cobrado sin cuadrar extractos a mano.",
         finance_automated_billing: "¿Se pueden programar facturaciones automáticas?",
         finance_automated_billing_answer:
             "Sí, puedes configurar ciclos de facturación automáticos para cuotas recurrentes y servicios adicionales.",
@@ -2000,10 +2005,10 @@ export default {
             "Sí, puedes procesar devoluciones y reembolsos directamente desde el panel de administración de Edena.",
         finance_reporting_tools: "¿Qué informes financieros ofrece Edena?",
         finance_reporting_tools_answer:
-            "Incluye informes detallados de ingresos, gastos, balances y previsiones para una gestión financiera eficiente.",
+            "Informes de ingresos, cobros e impagos, seguimiento del presupuesto y de los gastos por área, y coste por alumno. Puedes exportarlos para dirección, tu gestoría o una auditoría.",
         finance_data_security: "¿Cómo se protege la información financiera?",
         finance_data_security_answer:
-            "Todos los datos están cifrados y cumplen con la normativa vigente para garantizar la máxima seguridad.",
+            "Los datos financieros viajan y se guardan cifrados, con copias de seguridad automáticas, y solo acceden a ellos las personas a las que el centro da permiso.",
         finance_parent_portal: "¿Las familias pueden consultar su historial de pagos?",
         finance_parent_portal_answer:
             "Sí, cada familia tiene acceso a su portal donde puede ver facturas, pagos realizados y pendientes.",
@@ -2012,7 +2017,7 @@ export default {
             "Edena permite exportar datos y conectarse con los principales softwares de contabilidad del mercado.",
         finance_support_options: "¿Qué soporte ofrece Edena para temas financieros?",
         finance_support_options_answer:
-            "Dispones de soporte especializado por chat, email y una base de conocimiento para resolver cualquier duda financiera.",
+            "El mismo soporte que el resto de Edena: email y chat, incluido en el precio. En la puesta en marcha, el equipo configura contigo las tarifas, las series de facturación y Verifactu.",
         finance_verifactu_integration: "¿Edena está integrado con Verifactu?",
         finance_verifactu_integration_answer:
             "Sí. Edena genera el registro Verifactu de cada factura que emites y lo remite automáticamente a la AEAT, con el código QR tributario en la factura. Nuestra declaración responsable como fabricante está publicada en edena.es/verifactu.",
@@ -2050,7 +2055,7 @@ export default {
             "Sí, puedes seleccionar tu idioma preferido desde la configuración de la app.",
         app_support_options: "¿Qué opciones de soporte tengo desde la app?",
         app_support_options_answer:
-            "Puedes contactar con soporte desde la app vía chat, email o acceder a la sección de ayuda integrada.",
+            "Desde la app escribes al centro por chat. Para problemas con la cuenta o la app, el soporte de Edena responde por email y chat.",
         assignment: {
             title: "Preguntas frecuentes sobre tareas y evaluaciones",
             description:
@@ -2070,13 +2075,13 @@ export default {
             "Sí. Las familias acceden a calificaciones y evaluaciones en tiempo real mediante la app o el portal de familias. Puedes controlar la visibilidad y el nivel de detalle mostrado.",
         assignment_integration: "¿Se integra con el resto de Edena?",
         assignment_integration_answer:
-            "Sí. Las tareas y evaluaciones están integradas con expedientes, asistencia y comunicación. Todos los datos académicos están unificados para una gestión integral.",
+            "Sí. Las tareas y las notas comparten datos con el expediente, la asistencia y la comunicación: lo que registra el profesorado llega al boletín y a la app de la familia.",
         assignment_report_generation: "¿Puedo generar boletines automáticamente?",
         assignment_report_generation_answer:
             "Sí. Los boletines y expedientes académicos se generan automáticamente a partir de las calificaciones registradas. Puedes exportar a PDF y compartirlos digitalmente con las familias.",
         assignment_support_options: "¿Qué soporte ofrece Edena para la gestión de tareas?",
         assignment_support_options_answer:
-            "Tienes acceso a soporte técnico vía chat y email, además de documentación y formación. Nuestro equipo puede ayudarte a configurar ciclos y optimizar tu flujo de evaluación.",
+            "Soporte por email y chat, incluido en el precio. En la puesta en marcha, el equipo configura contigo los periodos de evaluación y las ponderaciones.",
         dashboard: {
             title: "Preguntas frecuentes sobre el panel de control y analítica de Edena",
             description:
@@ -2111,7 +2116,7 @@ export default {
             "El panel está optimizado para funcionar con fluidez sin ralentizar el resto de la plataforma.",
         dashboard_support_options: "¿Qué soporte ofrece Edena para el panel?",
         dashboard_support_options_answer:
-            "Dispones de soporte técnico especializado y documentación detallada para resolver cualquier incidencia.",
+            "Soporte por email y chat, incluido en el precio, y formación inicial para tu equipo en la puesta en marcha.",
         crm: {
             title: "Preguntas frecuentes sobre el CRM escolar de Edena",
             description:
@@ -2151,10 +2156,10 @@ export default {
         },
         students_enrollment_process: "¿Cómo se realiza el proceso de matriculación de estudiantes?",
         students_enrollment_process_answer:
-            "El proceso es 100% digital, permitiendo la inscripción y gestión de estudiantes desde cualquier dispositivo.",
+            "La familia envía la solicitud desde el formulario de matrícula de tu web, en el móvil o en el ordenador, y firma los documentos en la app. Secretaría la revisa en el CRM y, al confirmarla, completa el alta del alumno con esos mismos datos.",
         students_attendance_tracking: "¿Cómo se controla la asistencia de los estudiantes?",
         students_attendance_tracking_answer:
-            "La plataforma registra la asistencia de forma automática y genera informes para el seguimiento académico.",
+            "El profesorado pasa lista desde el móvil o el ordenador, la familia recibe un aviso en el momento de cada ausencia y dirección consulta los informes de asistencia al día.",
         students_academic_records: "¿Dónde consulto los expedientes académicos?",
         students_academic_records_answer:
             "Los expedientes están disponibles en el panel de cada estudiante, accesibles para familias y personal autorizado.",
@@ -2166,7 +2171,7 @@ export default {
             "Sí, puedes crear, inscribir y gestionar actividades desde el panel de estudiantes.",
         students_data_privacy: "¿Cómo se protege la privacidad de los datos de los estudiantes?",
         students_data_privacy_answer:
-            "Todos los datos cumplen con la normativa de protección de datos (RGPD) y están protegidos mediante cifrado avanzado.",
+            "La información se guarda cifrada y cada usuario ve solo lo que le permite su rol. Edena cumple el RGPD y trata los datos de los alumnos como encargado del tratamiento del centro.",
         students_support_services: "¿Las notas y los boletines salen del expediente del alumno?",
         students_support_services_answer:
             "Sí. Las calificaciones se registran por evaluación en el expediente y los boletines se generan automáticamente a partir de esas notas.",
@@ -2175,7 +2180,7 @@ export default {
             "Sí, la plataforma es accesible desde cualquier dispositivo móvil o tablet.",
         students_performance_monitoring: "¿Cómo se monitoriza el rendimiento académico?",
         students_performance_monitoring_answer:
-            "El sistema genera informes y alertas automáticas sobre el progreso y rendimiento de cada estudiante.",
+            "Con informes de rendimiento por alumno, grupo o asignatura, que salen de las notas de cada evaluación. Tutores y dirección los consultan sin montar hojas de cálculo.",
         students_support_options: "¿Puedo anotar incidencias en la ficha del alumno?",
         students_support_options_answer:
             "Sí. Tutores y dirección registran incidencias, logros y observaciones en el mismo expediente, junto a la asistencia y las notas.",
@@ -2207,10 +2212,10 @@ export default {
             "Sí, desde una única cuenta puedes gestionar la información, facturación y comunicación de todos tus hijos, independientemente del centro educativo al que asistan.",
         families_data_security: "¿Cómo se protegen los datos de mi familia?",
         families_data_security_answer:
-            "Todos los datos están protegidos con cifrado avanzado y cumplen con la normativa de protección de datos (RGPD). Solo el personal autorizado del centro y tú pueden acceder a la información de tus hijos.",
+            "Los datos se guardan cifrados y se tratan conforme al RGPD. A la información de tus hijos solo accedéis tú y el personal autorizado del centro.",
         families_support: "¿Qué soporte tengo disponible como familia?",
         families_support_answer:
-            "Puedes contactar con nuestro equipo de soporte a través de chat, email o desde la app móvil. También dispones de una sección de ayuda con guías y tutoriales para resolver dudas comunes.",
+            "Para dudas sobre tus hijos, escribe al centro desde el chat de la app. Si el problema es de la cuenta o de la app, el soporte de Edena te atiende por email y chat.",
         families_app_features: "¿La app para familias es gratuita?",
         families_app_features_answer:
             "Sí. Es gratuita en iOS y Android. La descargas en App Store o Google Play y entras con el perfil que te facilita el centro.",
@@ -2241,13 +2246,13 @@ export default {
         },
         centers_communication_tools: "¿Qué herramientas de comunicación ofrece Edena?",
         centers_communication_tools_answer:
-            "Edena ofrece un sistema completo de comunicación que incluye mensajería segura con familias, notificaciones al móvil, envío de fotos y actualizaciones, calendario de eventos compartido y comunicación bidireccional en tiempo real.",
+            "Chat entre el centro y las familias sin compartir números personales, circulares con confirmación de lectura, avisos al móvil, un muro con las fotos y los eventos del centro y traducción automática de los mensajes.",
         centers_billing_automation: "¿Cómo funciona la facturación automatizada?",
         centers_billing_automation_answer:
-            "El sistema genera automáticamente facturas según los servicios contratados, envía recordatorios de pago, gestiona domiciliaciones y proporciona seguimiento en tiempo real del estado de los cobros, reduciendo la carga administrativa significativamente.",
+            "Cada mes Edena genera las facturas de los servicios de cada alumno, las registra en Verifactu, gestiona las domiciliaciones SEPA y envía recordatorios de los recibos pendientes. El estado de cada cobro se ve en el panel al momento.",
         centers_process_automation: "¿Qué procesos se pueden automatizar?",
         centers_process_automation_answer:
-            "Puedes automatizar la generación de facturas, el registro de asistencia, el envío de notificaciones, la creación de informes, la gestión de matriculaciones y muchas otras tareas administrativas repetitivas.",
+            "Con el módulo de Automatización creas reglas sin programar: recordatorios de pago, avisos de ausencia a las familias, el alta del alumno al confirmar la matrícula, comunicados programados e informes periódicos.",
         centers_analytics_dashboard: "¿Qué información muestra el panel?",
         centers_analytics_dashboard_answer:
             "El panel muestra métricas en tiempo real sobre asistencia, matriculaciones, estado financiero, comunicaciones enviadas, rendimiento académico y otros indicadores clave para la gestión del centro.",
@@ -2256,10 +2261,10 @@ export default {
             "Edena centraliza toda la información estudiantil: expedientes académicos, asistencia, calificaciones, comunicación con familias, facturación y documentos. Todo accesible desde un único sistema.",
         centers_data_security: "¿Cómo garantiza Edena la seguridad de los datos?",
         centers_data_security_answer:
-            "Edena utiliza cifrado avanzado, cumple con la normativa de protección de datos (RGPD), realiza copias de seguridad automáticas y mantiene estrictos controles de acceso para garantizar la máxima seguridad de los datos del centro y las familias.",
+            "La información viaja y se guarda cifrada, con copias de seguridad automáticas, y cada usuario entra con su rol y ve solo lo que le corresponde. Edena trata los datos como encargado del tratamiento conforme al RGPD, con el acuerdo publicado en la web.",
         centers_integration_options: "¿Se puede integrar con otros sistemas?",
         centers_integration_options_answer:
-            "Sí, Edena permite integraciones con sistemas de contabilidad, plataformas de comunicación externas y otros software educativos mediante APIs y exportación de datos en formatos estándar.",
+            "Sí. Edena se conecta con Gmail, Outlook y el calendario, exporta los datos a tu programa de contabilidad o a tu gestoría y ofrece API para conectar otros sistemas.",
         centers_setup_time: "¿Cuánto tiempo tarda la implementación?",
         centers_setup_time_answer:
             "La mayoría de los centros están en marcha en 2 semanas. Nuestro equipo se encarga de la migración de datos, la configuración y la formación del personal para que el cambio sea sencillo.",
@@ -2765,19 +2770,19 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
     finance: {
         automationTitle: "Cobros que se gestionan solos",
         automationDescription:
-            "Automatiza la generación de facturas, los ciclos de cobro y el seguimiento de pagos para eliminar errores y liberar a tu equipo administrativo.",
+            "Las facturas, los ciclos de cobro y el seguimiento de pagos se configuran una vez y se repiten cada mes, sin rehacer hojas de cálculo.",
         paperlessBillingTitle: "Facturación sin papel",
         paperlessBillingDescription:
             "Genera y envía facturas adaptadas a Verifactu de forma automática. Facturas legalmente válidas, rastreables y entregadas a las familias al instante.",
         analyticsTitle: "Analítica financiera",
         analyticsDescription:
-            "Paneles en tiempo real con informes de ingresos, gastos y estado de cobros. Obtén la visibilidad financiera que necesitas para tomar decisiones con confianza.",
+            "Paneles en tiempo real con ingresos, gastos y estado de cobros, para saber cada día cuánto falta por cobrar.",
         fastBillingTitle: "Facturación rápida",
         fastBillingDescription:
             "Genera y envía facturas electrónicas de forma automática. Las familias reciben sus facturas al instante y pueden pagar online en segundos.",
         billingCycleTitle: "Ciclos de facturación",
         billingCycleDescription:
-            "Configura ciclos de cobro recurrentes para matrículas, actividades y servicios. Los cobros salen en plazo, siempre, sin intervención manual.",
+            "Configura ciclos de cobro recurrentes para matrículas, actividades y servicios. Cada mes, los recibos salen en la fecha que fijaste.",
         mainTitle: "Facturación escolar que cobra puntualmente, sin perseguir a nadie",
         mainDescription:
             "Edena automatiza la facturación escolar adaptada a Verifactu: recibos, domiciliaciones SEPA y seguimiento de cobros en tiempo real, sin gestión manual.",
@@ -2857,22 +2862,22 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             "Software para colegios de infantil a bachillerato y FP: expedientes, notas, asistencia, Verifactu y comunicación con familias, en un solo sistema.",
         communicationTitle: "Comunicación centralizada con familias",
         communicationDescription:
-            "Mensajería segura, alertas de asistencia y novedades del centro en una sola app. Sin WhatsApp, sin circulares en papel, sin mensajes perdidos.",
+            "Mensajería segura, alertas de asistencia y novedades del centro en una sola app. Los avisos dejan los grupos de WhatsApp y las circulares en papel, y ves quién los ha leído.",
         automationTitle: "Boletines y calificaciones automáticos",
         automationDescription:
             "Los profesores registran las notas y el sistema genera los boletines automáticamente. Las familias los reciben en tiempo real a través de la app.",
         integratedManagementTitle: "¿Qué incluye Edena para tu colegio?",
         integratedManagementDescription:
-            "Desde la matrícula hasta la graduación, Edena centraliza toda la información académica y reduce significativamente la carga del personal administrativo.",
+            "De la matrícula al título, el expediente, las notas, la asistencia y los recibos de cada alumno están en Edena. Secretaría deja de copiar el mismo dato en varios programas.",
         realTimeCommunicationTitle: "Visibilidad académica en tiempo real para todos",
         realTimeCommunicationDescription:
             "Las familias acceden al instante a notas, asistencia e incidencias. Los directores tienen visión completa del centro en un único panel centralizado.",
         financialAutomationTitle: "Facturación escolar automatizada",
         financialAutomationDescription:
             "Matrículas, cuotas mensuales y servicios adicionales facturados automáticamente con Verifactu, domiciliaciones SEPA y control de impagos integrado.",
-        familyAndBillingSectionTitle: "Familias conectadas, cobros sin esfuerzo",
+        familyAndBillingSectionTitle: "La familia ve la nota y paga el recibo en la misma app",
         familyAndBillingSectionDescription:
-            "Todo lo que las familias necesitan en una app y todo lo que administración necesita para cobrar sin trabajo manual.",
+            "Notas, asistencia y recibos llegan a la app de cada familia, y secretaría factura con Verifactu y cobra por domiciliación desde el mismo sitio.",
     },
     academies: {
         mainTitle: "La consulta entra en el CRM y la cuota sale cada mes",
@@ -2883,7 +2888,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             "Gestiona cada consulta, sigue cada familia interesada en un tablero visual por etapas y convierte más interesados en alumnos matriculados. Tu lista de espera, siempre organizada.",
         automationTitle: "Facturación automática para tus tarifas",
         automationDescription:
-            "Configura mensualidades, trimestres o tarifas por actividad y Edena factura y cobra automáticamente. Sin recordatorios manuales ni perseguir pagos.",
+            "Configura mensualidades, trimestres o tarifas por actividad y Edena factura y cobra cada mes. Si un recibo queda pendiente, la familia recibe el aviso sin que nadie tenga que llamarla.",
         integratedManagementTitle: "¿Qué incluye Edena para tu academia?",
         integratedManagementDescription:
             "Asistencia, cobros, comunicación con alumnos y familias, y gestión de plazas por actividad: todo integrado para que no se te escape nada.",
@@ -2909,16 +2914,16 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             "Unifica la gestión económica de todos tus centros. Tarifas, facturación y cobros gestionados de forma central con visibilidad individual por centro.",
         integratedManagementTitle: "¿Qué incluye Edena para tu grupo educativo?",
         integratedManagementDescription:
-            "Mismos procesos, mismos estándares y misma experiencia para las familias en toda la red. Crece sin multiplicar la carga administrativa.",
+            "Los mismos procesos y la misma app para las familias en todos los centros, con la facturación y los informes de la red en un solo panel.",
         realTimeCommunicationTitle: "Comunicación unificada con todas las familias",
         realTimeCommunicationDescription:
             "Centraliza la comunicación de toda la red manteniendo la identidad de cada centro. Mensajes globales o por centro con un solo clic.",
         financialAutomationTitle: "Informes financieros de toda la red",
         financialAutomationDescription:
             "Informes de ingresos, ocupación y morosidad de toda la red en tiempo real. Toma decisiones estratégicas con datos de todos tus centros.",
-        networkSectionTitle: "Crece sin multiplicar la carga administrativa",
+        networkSectionTitle: "Abre otro centro con los mismos procesos",
         networkSectionDescription:
-            "Pasa de dos centros a veinte sin añadir complejidad operativa. Una sola plataforma que mantiene cada centro alineado.",
+            "Cada centro nuevo trabaja con los mismos procesos y la misma app que el resto, y dirección lo sigue en el mismo panel desde el primer día.",
     },
     centers: {
         mainTitle: "La administración del centro, en un solo sistema",
@@ -3185,9 +3190,9 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             heroRightTitle: "Actividades siempre a la vista",
             heroRightDescription:
                 "Horarios, monitores y grupos organizados y accesibles para familias y equipo.",
-            featuresTitle: "Todo lo que necesitas para gestionar tus actividades extraescolares",
+            featuresTitle: "Gestión de extraescolares: plazas, listas y cobros",
             featuresDescription:
-                "Desde la inscripción hasta el cobro, Edena automatiza cada paso de tus extraescolares.",
+                "La inscripción, la lista de cada sesión y el cobro de cada actividad salen del mismo sistema.",
             features: [
                 {
                     title: "Inscripciones online",
@@ -3220,9 +3225,9 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
                         "Consulta qué actividades funcionan mejor y decide tu oferta con datos reales.",
                 },
             ],
-            sectionTitle: "Del papel a un flujo totalmente digital",
+            sectionTitle: "Inscripciones desde la app y agenda sin solapamientos",
             sectionDescription:
-                "Centraliza la gestión de extraescolares y elimina las hojas de cálculo, los cobros manuales y las listas en papel.",
+                "Las inscripciones, las listas y los cobros de extraescolares pasan de las hojas de cálculo y el papel a Edena.",
             section1Title: "Inscripción desde la app",
             section1Description:
                 "Las familias descubren, comparan y se inscriben en actividades desde el móvil, con confirmación y pago inmediatos.",
@@ -3330,9 +3335,9 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
                         "Recibe avisos automáticos de tareas pendientes, fichajes olvidados y eventos próximos.",
                 },
             ],
-            sectionTitle: "Del caos de correos a un centro coordinado",
+            sectionTitle: "Fichajes, agenda y tareas del equipo en un solo sitio",
             sectionDescription:
-                "Reúne fichajes, agenda y tareas internas en un único lugar y libera a tu equipo de la gestión manual.",
+                "El registro de jornada queda listo para la inspección y cada persona ve su agenda y sus tareas sin cadenas de correos.",
             section1Title: "Control horario conforme a la ley",
             section1Description:
                 "Registro de jornada fiable y exportable, listo para cualquier inspección de trabajo.",
@@ -3398,15 +3403,15 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             mainTitle: "El impago avisa, y la factura del mes sale sola",
         mainDescription:
             "Defines el disparador una vez. El aviso de impago, la factura del mes y el alta de la matrícula salen sin que nadie los lance.",
-            heroLeftTitle: "Sin programar, sin límites",
+            heroLeftTitle: "Automatizaciones sin programar",
             heroLeftDescription:
                 "Crea automatizaciones arrastrando bloques. Define el disparador y deja que Edena haga el resto.",
             heroRightTitle: "Disparadores inteligentes",
             heroRightDescription:
                 "Cada evento del centro puede desencadenar acciones automáticas: matrículas, pagos, ausencias y mucho más.",
-            featuresTitle: "Tu centro trabajando en piloto automático",
+            featuresTitle: "Recordatorios, facturas y altas que salen solos",
             featuresDescription:
-                "Convierte los procesos manuales en flujos automáticos que se ejecutan solos, día y noche.",
+                "Defines la regla una vez y Edena la aplica cada vez que ocurre: un impago, una ausencia o una matrícula confirmada.",
             features: [
                 {
                     title: "Editor visual",
@@ -3843,9 +3848,9 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
             heroRightTitle: "Tareas que se hacen solas",
             heroRightDescription:
                 "Ena prepara facturas, pasa lista y tramita procesos administrativos por ti.",
-            featuresTitle: "Menos tareas repetitivas, más tiempo para educar",
+            featuresTitle: "Lo que Ena prepara para tu equipo",
             featuresDescription:
-                "Ena se encarga de lo que consume el tiempo de tu equipo para que puedan centrarse en lo que importa.",
+                "Facturas, comunicados, listas y respuestas con los datos del centro. Alguien del equipo lo revisa antes de enviarlo.",
             features: [
                 {
                     title: "Asistente inteligente",
@@ -3886,7 +3891,7 @@ Para cualquier consulta relacionada con este Acuerdo puede escribirnos a privaci
                 "Comunicados, asistencia y recursos humanos gestionados por Ena directamente dentro de Edena.",
             section2Title: "Seguridad profesional de serie",
             section2Description:
-                "Seguridad integrada e IA con más privacidad que un chatbot genérico, con soporte 24/7.",
+                "Seguridad integrada e IA con más privacidad que un chatbot genérico.",
             altHero: "Ena, el agente de inteligencia artificial de Edena",
             altSection1: "Ena automatizando tareas administrativas en Edena",
             altSection2: "Seguridad y privacidad de la IA de Edena",

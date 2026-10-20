@@ -1,5 +1,5 @@
 ---
-title: "Gestió Administrativa Digital a Centres Educatius 2026: Eliminant el Paper, Maximitzant l'Eficiència"
+title: "Gestió administrativa digital als centres educatius (2026): menys paper i més eficiència"
 seoTitle: "Gestió administrativa digital en centres educatius"
 date: "2026-01-22"
 translationKey: "gestion-administrativa-digital-centros-2026"
@@ -27,7 +27,7 @@ faqs:
       answer: "Entre 8 i 12 setmanes, amb un cicle de facturació o admissió real i criteris d'èxit acordats abans de començar."
 ---
 
-<strong>Gestió Administrativa Digital a Centres Educatius 2026: Eliminant el Paper, Maximitzant l'Eficiència</strong>
+<strong>Gestió administrativa digital als centres educatius (2026): menys paper i més eficiència</strong>
 
 <br>
 
@@ -63,7 +63,7 @@ La gestió administrativa tradicional a centres educatius té costos ocults que 
 
 <br>
 
-: Sense sistemes digitals, és extremadament difícil tenir una visió clara de l'estat del centre. Quants estudiants tenim? Quin és l?estat dels pagaments? Quines famílies necessiten seguiment? Respondre aquestes preguntes requereix temps i esforç significatiu.
+: Sense sistemes digitals, és extremadament difícil tenir una visió clara de l'estat del centre. Quants estudiants tenim? Quin és l'estat dels pagaments? Quines famílies necessiten seguiment? Respondre aquestes preguntes requereix temps i esforç significatiu.
 
 <br>
 

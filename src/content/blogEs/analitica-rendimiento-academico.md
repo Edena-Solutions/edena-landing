@@ -1,5 +1,5 @@
 ---
-title: "Analítica del rendimiento académico: Datos para potenciar el aprendizaje"
+title: "Analítica del rendimiento académico: cómo usar los datos para mejorar el aprendizaje"
 seoTitle: "Analítica del rendimiento académico en centros educativos"
 date: "2025-01-10"
 translationKey: "analitica-rendimiento-academico"
@@ -22,7 +22,7 @@ faqs:
       answer: "Intervención tutorial y recursos, no solo más exámenes."
 ---
 
-<strong>Analítica del rendimiento académico: Datos para potenciar el aprendizaje</strong>
+<strong>Analítica del rendimiento académico: cómo usar los datos para mejorar el aprendizaje</strong>
 
 <br>
 

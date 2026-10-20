@@ -1,5 +1,5 @@
 ---
-title: "Automatització de la facturació escolar: Optimitza els teus processos interns"
+title: "Automatització de la facturació escolar: com deixar de fer els rebuts a mà"
 seoTitle: "Automatització de la facturació escolar"
 date: "2025-01-15"
 translationKey: "automatizacion-facturacion-escolar"
@@ -27,7 +27,7 @@ faqs:
       answer: "Verifactu afecta sobretot l'emissió i la traçabilitat de factures davant l'AEAT, no el mètode de pagament en si. Sí que obliga que el teu programari de facturació generi registres conformes; convé integrar-lo amb cobraments i conciliació."
 ---
 
-<strong>Automatització de la facturació escolar: Optimitza els teus processos interns</strong>
+<strong>Automatització de la facturació escolar: com deixar de fer els rebuts a mà</strong>
 
 <br>
 

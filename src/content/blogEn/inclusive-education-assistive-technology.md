@@ -83,7 +83,7 @@ Adaptive learning platforms can present the same curricular content in multiple 
 
 <br>
 
-Successful implementation of assistive technology requires more than simply acquiring tools; It needs a systematic approach that includes needs assessment, staff training and curricular adaptation. Educators must develop competencies to identify which technologies are most appropriate for specific students and how to effectively integrate them into learning activities.
+Successful implementation of assistive technology requires more than simply acquiring tools; it needs a systematic approach that includes needs assessment, staff training and curricular adaptation. Educators must develop competencies to identify which technologies are most appropriate for specific students and how to effectively integrate them into learning activities.
 
 Multidisciplinary teams including special educators, occupational therapists, technology specialists, and mental health professionals collaborate to develop individualized implementation plans. These plans consider not only technical needs, but also environmental, social, and emotional factors that affect the effective use of assistive technology.
 

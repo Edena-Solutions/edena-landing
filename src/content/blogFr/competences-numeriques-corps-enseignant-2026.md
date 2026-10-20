@@ -40,17 +40,13 @@ L’année 2026 marque une étape historique dans la formation des professeurs d
 
 Le Référentiel de référence des compétences pédagogiques numériques, mis à jour en 2022 et aligné sur le cadre européen #DigCompEdu, établit les compétences que les enseignants doivent maîtriser à l’ère du numérique. Ce cadre ne se limite pas à l’utilisation basique des outils technologiques ; Il couvre six domaines fondamentaux qui transforment la pratique pédagogique.
 
-Le premier domaine,
-
 <br>
 
 <strong>Information et maîtrise de l’information</strong>
 
 <br>
 
-, forme les enseignants à rechercher, évaluer, gérer et partager des informations numériques de manière critique et efficace. Dans un monde saturé d’informations, cette compétence est essentielle pour aider les élèves à naviguer dans l’environnement numérique de manière sûre et productive.
-
-Le deuxième domaine,
+Le premier domaine forme les enseignants à rechercher, évaluer, gérer et partager des informations numériques de manière critique et efficace. Dans un monde saturé d’informations, cette compétence est essentielle pour aider les élèves à naviguer dans l’environnement numérique de manière sûre et productive.
 
 <br>
 
@@ -58,9 +54,7 @@ Le deuxième domaine,
 
 <br>
 
-, prépare les enseignants à communiquer efficacement via les médias numériques, à collaborer dans des environnements virtuels et à participer à des communautés professionnelles en ligne. Cette compétence est cruciale dans un monde où l’éducation transcende les murs de la salle de classe.
-
-Le troisième domaine,
+Le deuxième domaine prépare les enseignants à communiquer efficacement via les médias numériques, à collaborer dans des environnements virtuels et à participer à des communautés professionnelles en ligne. Cette compétence est cruciale dans un monde où l’éducation transcende les murs de la salle de classe.
 
 <br>
 
@@ -68,9 +62,7 @@ Le troisième domaine,
 
 <br>
 
-, permet aux enseignants de créer, éditer et partager des ressources éducatives numériques de qualité. Des vidéos éducatives aux présentations interactives, les enseignants certifiés peuvent créer du matériel qui enrichit considérablement l’expérience d’apprentissage.
-
-Le quatrième domaine,
+Le troisième domaine permet aux enseignants de créer, éditer et partager des ressources éducatives numériques de qualité. Des vidéos éducatives aux présentations interactives, les enseignants certifiés peuvent créer du matériel qui enrichit considérablement l’expérience d’apprentissage.
 
 <br>
 
@@ -78,9 +70,7 @@ Le quatrième domaine,
 
 <br>
 
-, veille à ce que les enseignants protègent leurs propres informations et celles de leurs élèves, comprennent les risques numériques et promeuvent une utilisation sûre et responsable de la technologie. À une époque de préoccupations croissantes concernant la confidentialité et la sécurité numérique, cette compétence est plus importante que jamais.
-
-Le cinquième domaine,
+Le quatrième domaine veille à ce que les enseignants protègent leurs propres informations et celles de leurs élèves, comprennent les risques numériques et promeuvent une utilisation sûre et responsable de la technologie. À une époque de préoccupations croissantes concernant la confidentialité et la sécurité numérique, cette compétence est plus importante que jamais.
 
 <br>
 
@@ -88,9 +78,7 @@ Le cinquième domaine,
 
 <br>
 
-, forme les enseignants à identifier les besoins technologiques, à résoudre les problèmes techniques et à utiliser la technologie de manière innovante pour améliorer l'enseignement et l'apprentissage.
-
-Le sixième domaine,
+Le cinquième domaine forme les enseignants à identifier les besoins technologiques, à résoudre les problèmes techniques et à utiliser la technologie de manière innovante pour améliorer l'enseignement et l'apprentissage.
 
 <br>
 
@@ -98,7 +86,7 @@ Le sixième domaine,
 
 <br>
 
-, permet aux enseignants de réfléchir à leur pratique numérique, d'évaluer l'efficacité des technologies utilisées et de s'adapter continuellement aux nouveaux outils et méthodologies.
+Le sixième domaine permet aux enseignants de réfléchir à leur pratique numérique, d'évaluer l'efficacité des technologies utilisées et de s'adapter continuellement aux nouveaux outils et méthodologies.
 
 <br>
 

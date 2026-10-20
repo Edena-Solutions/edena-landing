@@ -18,11 +18,11 @@ relatedPosts:
     - reduce-arrears-billing-schools
 faqs:
     - question: "Are online payments in education secure?"
-      answer: "Yes, if you use a PCI-DSS compliant gateway and do not store card data. Payment is made on the provider's page or with tokenization; The center does not manage the card number."
+      answer: "Yes, if you use a PCI-DSS compliant gateway and do not store card data. Payment is made on the provider's page or with tokenization; the center does not manage the card number."
     - question: "What does a gateway for educational centers cost?"
       answer: "It is usually a percentage per transaction plus a possible monthly fixed amount. Compare with the current cost of managing manual collections and the impact of reducing non-payments."
     - question: "Can we continue to offer cash or check payment?"
-      answer: "Yes. Online payments in education can coexist with other methods; The goal is that anyone who prefers to pay online can do so without friction."
+      answer: "Yes. Online payments in education can coexist with other methods; the goal is that anyone who prefers to pay online can do so without friction."
     - question: "What to do if a family says they have paid and it does not appear in the system?"
       answer: "Have a clear process: check at the gateway and at the bank, ask the family for proof and update the status when confirmed. Periodic conciliation reduces these cases."
     - question: "Does electronic invoicing (Verifactu) affect online payments?"
@@ -107,7 +107,7 @@ The center must be able to reconcile payments received with bank or gateway tran
 
 <br>
 
-A school with 800 students went from mostly cash and check payment to online payments with automatic reminders; In the first course they reduced 30-day delinquency by 40% and secretarial time in collections by about 8 hours per week. A vocational training center integrated the gateway with its management software and offered the option of payment in installments by card; The number of families choosing to split increased and defaults decreased in the first months of the course.
+A school with 800 students went from mostly cash and check payment to online payments with automatic reminders; in the first course they reduced 30-day delinquency by 40% and secretarial time in collections by about 8 hours per week. A vocational training center integrated the gateway with its management software and offered the option of payment in installments by card; the number of families choosing to split increased and defaults decreased in the first months of the course.
 
 <br>
 

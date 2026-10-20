@@ -1,5 +1,5 @@
 ---
-title: "Innovación pedagógica con tecnología: Transformando la enseñanza y el aprendizaje"
+title: "Innovación pedagógica con tecnología: cómo cambian la enseñanza y el aprendizaje"
 seoTitle: "Innovación pedagógica con tecnología en el aula"
 date: "2024-10-15"
 translationKey: "innovacion-pedagogica-tecnologia"
@@ -19,7 +19,7 @@ faqs:
       answer: "Bien hecha, lo devuelve: menos duplicar listados y circulares manuales significa más tiempo para evaluación y tutoría."
 ---
 
-<strong>Innovación pedagógica con tecnología: Transformando la enseñanza y el aprendizaje</strong>
+<strong>Innovación pedagógica con tecnología: cómo cambian la enseñanza y el aprendizaje</strong>
 
 <br>
 

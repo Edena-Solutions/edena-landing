@@ -119,10 +119,10 @@ A useful dashboard has fewer than ten indicators, automatic updating from the ER
 
 <br>
 
-- **Billing:** Delinquency, age of debt and collection rate; It must be fed from the ERP collections module, not from manual Excel.
+- **Billing:** Delinquency, age of debt and collection rate; it must be fed from the ERP collections module, not from manual Excel.
 - **File:** Absenteeism, incidents and monitoring per student; same source that the secretariat uses daily.
 - **CRM:** Application-enrollment conversion, pipeline and time at each stage.
-- **HR:** Only if it is integrated into the ERP; If a KPI requires Excel export, it will no longer be reviewed by the committee.
+- **HR:** Only if it is integrated into the ERP; if a KPI requires Excel export, it will no longer be reviewed by the committee.
 
 <br>
 

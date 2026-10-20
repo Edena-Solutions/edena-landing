@@ -148,7 +148,7 @@ export default {
         install: "Instal·lar",
         open: "Obrir",
         category: "Educació",
-        ratings: "valoracions",
+        free: "Gratuïta",
         publish: "Publicar",
         published: "Publicat",
         age: "Edat",
@@ -853,6 +853,11 @@ export default {
         ena: "Ena, la IA d'Edena per a centres educatius",
         finance: "Facturació amb Verifactu i cobraments SEPA",
         shop: "Venda d'uniformes i material escolar",
+        pricing: "Preus del programari de gestió escolar",
+        pricingCenters: "Preus per a centres educatius",
+        pricingAcademies: "Preus per a acadèmies",
+        demo: "Demo gratuïta del programari de gestió escolar",
+        contact: "Contacte amb Edena",
     },
     setup: {
         title: "En marxa en 2 setmanes, amb un equip que t'acompanya en tot el procés",
@@ -1156,7 +1161,7 @@ export default {
             },
         },
         studentFeatures: {
-            title: "Tot el que necessites per gestionar els teus alumnes",
+            title: "Gestió d'alumnes: expedient, assistència i notes, connectats",
             tagline:
                 "Expedients, assistència, qualificacions i seguiment connectats entre si, perquè direcció, tutors i famílies treballin amb les mateixes dades.",
             digitalRecords: {
@@ -1487,7 +1492,7 @@ export default {
         cards: {
             agent: {
                 label: "@Ena Agent",
-                title: "Utilitza @Ena com a assistent intel·ligent disponible 24/7.",
+                title: "Pregunta a @Ena per qualsevol dada del centre, a qualsevol hora.",
                 prompt: "Quants alumnes nous tenim aquest mes?",
                 response:
                     "Aquest mes s'han matriculat 12 alumnes nous. Vols veure el desglossament per curs?",
@@ -1679,9 +1684,9 @@ export default {
             },
         },
         packs: {
-            title: "Packs per a acadèmies",
+            title: "Tres packs tancats, amb preu per alumne",
             description:
-                "Tres packs tancats amb preu per alumne. Tria el que resol la teva prioritat d'avui i canvia quan ho necessitis: sense quota d'alta i sense permanència.",
+                "Tria el que resol la teva prioritat d'avui i canvia de pack quan ho necessitis. Sense quota d'alta i sense permanència.",
             minNote: "Facturació mínima de {n} € al mes",
             includes: "Què inclou",
             bestFor: "Ideal si",
@@ -1909,28 +1914,28 @@ export default {
         },
         parent_onboarding: "Com funciona la incorporació de famílies a la plataforma?",
         parent_onboarding_answer:
-            "Edena envia automàticament correus personalitzats amb instruccions pas a pas per a les famílies, incloent signatura digital de documents, creació de perfils i configuració del compte, simplificant tot el procés de benvinguda.",
+            "Cada família rep un correu amb la seva invitació. Des d'allà crea el compte, signa els documents del centre i entra a l'app amb el seu perfil, sense passar per secretaria.",
         verifactu: "Què és Verifactu?",
         verifactu_answer:
             "Verifactu és el sistema de l'Agència Tributària (AEAT) pel qual els programes de facturació remeten automàticament a l'AEAT un registre de cada factura que emeten (Reial Decret 1007/2023 i Ordre HAC/1177/2024). Edena està adaptat a Verifactu: genera i encadena aquests registres, els remet a l'AEAT i inclou el codi QR tributari a cada factura. L'AEAT no certifica programes: el compliment s'acredita amb la declaració responsable del fabricant, que pots consultar a edena.es/ca/verifactu.",
         parent_dashboard: "Què poden fer les famílies al seu panell de control?",
         parent_dashboard_answer:
-            "Les famílies disposen d'un panell complet on poden gestionar la informació dels seus fills, consultar i pagar factures, inscriure's en activitats extraescolars i comunicar-se directament amb el centre.",
+            "Des de l'app o el portal, cada família consulta les notes i l'assistència dels fills, paga els rebuts, els inscriu a extraescolars, signa autoritzacions i escriu al centre.",
         mobile_app_features: "Quines funcionalitats ofereix l'aplicació mòbil?",
         mobile_app_features_answer:
             "La nostra app mòbil permet a les famílies rebre notificacions instantànies, veure fotos i actualitzacions dels seus fills, signar documents digitalment i mantenir tota la comunicació amb el centre des de qualsevol lloc.",
         sending_photos: "Com funciona l'enviament de fotos i actualitzacions a les famílies?",
         sending_photos_answer:
-            "El personal del centre pot compartir fàcilment fotos, activitats i missatges personalitzats des del panell administratiu, que arriben a l'instant a l'app mòbil dels pares de forma segura.",
+            "El personal penja les fotos i les novetats del dia des de l'app o el panell, i cada família rep les del seu fill a l'app, amb avís al mòbil. Les fotos no circulen per grups de missatgeria.",
         billing_management: "Com es gestiona la facturació i els cobraments?",
         billing_management_answer:
-            "Edena automatitza completament la generació de factures segons els serveis contractats, facilita cobraments recurrents, seguiment de pagaments en temps real i gestió eficient d'impagaments.",
+            "Configures un cop les tarifes i els serveis de cada alumne, i Edena genera les factures cada mes amb el registre Verifactu. Les famílies paguen per domiciliació SEPA, transferència o targeta, i els rebuts pendents queden a la vista amb recordatori automàtic.",
         extracurricular_activities: "Es poden gestionar activitats extraescolars?",
         extracurricular_activities_answer:
-            "Sí, la plataforma permet crear i gestionar activitats extraescolars, controlar inscripcions i capacitar les famílies per inscriure o modificar la participació dels seus fills directament des del seu panell.",
+            "Sí. Crees cada activitat amb les seves places i el seu preu, les famílies hi inscriuen els fills o els donen de baixa des de l'app i l'import se suma al seu rebut.",
         multiple_centers: "És possible gestionar diversos centres educatius alhora?",
         multiple_centers_answer:
-            "Absolutament. Edena ofereix potents capacitats de gestió multi-seu des d'un únic panell centralitzat, ideal per a grups escolars, cadenes d'escoles infantils o institucions amb diverses ubicacions.",
+            "Sí. Des d'un sol panell gestiones tots els centres de la xarxa: cadascun conserva les seves dades i la seva sèrie de facturació, i la direcció veu els informes de tota la xarxa. Serveix per a grups escolars, cadenes d'escoles bressol i acadèmies amb diverses seus.",
         center_dashboard: "Quina informació proporciona el panell de control per a directors?",
         center_dashboard_answer:
             "El panell ofereix mètriques en temps real sobre assistència, inscripcions, estat financer, comunicacions enviades i rendiment general del centre, ajudant a prendre decisions basades en dades.",
@@ -1979,10 +1984,10 @@ export default {
         },
         finance_invoicing_process: "Com funciona el procés de facturació a Edena?",
         finance_invoicing_process_answer:
-            "Edena automatitza la generació i l'enviament de factures, permetent un control total sobre els cobraments i pagaments del centre educatiu.",
+            "Defineixes un cop les tarifes i els serveis de cada alumne. Cada mes Edena genera les factures, en crea el registre Verifactu, les envia a les famílies per l'app i gestiona el cobrament de les domiciliacions SEPA.",
         finance_payment_methods: "Quins mètodes de pagament accepta la plataforma?",
         finance_payment_methods_answer:
-            "La plataforma admet transferències bancàries, domiciliacions, targetes i altres mètodes digitals per facilitar el pagament a les famílies.",
+            "Domiciliació bancària SEPA, transferència i pagament amb targeta des de l'app. Cada pagament queda associat al seu rebut, així que secretaria veu què està cobrat sense quadrar extractes a mà.",
         finance_automated_billing: "Es poden programar facturacions automàtiques?",
         finance_automated_billing_answer:
             "Sí, pots configurar cicles de facturació automàtics per a quotes recurrents i serveis addicionals.",
@@ -1994,10 +1999,10 @@ export default {
             "Sí, pots processar devolucions i reemborsaments directament des del panell d'administració d'Edena.",
         finance_reporting_tools: "Quines eines d'informe financer ofereix Edena?",
         finance_reporting_tools_answer:
-            "Inclou informes detallats d'ingressos, despeses, balanços i previsions per a una gestió financera eficient.",
+            "Informes d'ingressos, cobraments i impagaments, seguiment del pressupost i de les despeses per àrea, i cost per alumne. Els pots exportar per a la direcció, la gestoria o una auditoria.",
         finance_data_security: "Com es protegeix la informació financera?",
         finance_data_security_answer:
-            "Totes les dades estan xifrades i compleixen la normativa vigent per garantir la màxima seguretat.",
+            "Les dades financeres viatgen i es desen xifrades, amb còpies de seguretat automàtiques, i només hi accedeixen les persones a qui el centre dona permís.",
         finance_parent_portal: "Les famílies poden consultar el seu historial de pagaments?",
         finance_parent_portal_answer:
             "Sí, cada família té accés al seu portal on pot veure factures, pagaments realitzats i pendents.",
@@ -2006,7 +2011,7 @@ export default {
             "Edena permet exportar dades i connectar-se amb els principals programaris de comptabilitat del mercat.",
         finance_support_options: "Quin suport ofereix Edena per a temes financers?",
         finance_support_options_answer:
-            "Disposes de suport especialitzat per xat, correu i una base de coneixement per resoldre qualsevol dubte financer.",
+            "El mateix suport que la resta d'Edena: correu i xat, inclòs en el preu. A la posada en marxa, l'equip configura amb tu les tarifes, les sèries de facturació i Verifactu.",
         finance_verifactu_integration: "Edena està integrat amb Verifactu?",
         finance_verifactu_integration_answer:
             "Sí. Edena genera el registre Verifactu de cada factura que emets i el remet automàticament a l'AEAT, amb el codi QR tributari a la factura. La nostra declaració responsable com a fabricant està publicada a edena.es/ca/verifactu.",
@@ -2044,7 +2049,7 @@ export default {
             "Sí, pots seleccionar el teu idioma preferit des de la configuració de l'app.",
         app_support_options: "Quines opcions de suport tinc des de l'app?",
         app_support_options_answer:
-            "Pots contactar amb suport des de l'app via xat, correu o accedir a la secció d'ajuda integrada.",
+            "Des de l'app escrius al centre pel xat. Per a problemes amb el compte o l'app, el suport d'Edena respon per correu i xat.",
         assignment: {
             title: "Preguntes freqüents sobre tasques i avaluacions",
             description:
@@ -2064,13 +2069,13 @@ export default {
             "Sí. Les famílies accedeixen a qualificacions i avaluacions en temps real mitjançant l'app o el portal de famílies. Pots controlar la visibilitat i el nivell de detall mostrat.",
         assignment_integration: "S'integra amb la resta d'Edena?",
         assignment_integration_answer:
-            "Sí. Les tasques i avaluacions estan integrades amb expedients, assistència i comunicació. Totes les dades acadèmiques estan unificades per a una gestió integral.",
+            "Sí. Les tasques i les notes comparteixen dades amb l'expedient, l'assistència i la comunicació: el que registra el professorat arriba al butlletí i a l'app de la família.",
         assignment_report_generation: "Puc generar butlletins automàticament?",
         assignment_report_generation_answer:
             "Sí. Els butlletins i expedients acadèmics es generen automàticament a partir de les qualificacions registrades. Pots exportar a PDF i compartir-los digitalment amb les famílies.",
         assignment_support_options: "Quin suport ofereix Edena per a la gestió de tasques?",
         assignment_support_options_answer:
-            "Tens accés a suport tècnic via xat i correu, a més de documentació i formació. El nostre equip pot ajudar-te a configurar cicles i optimitzar el teu flux d'avaluació.",
+            "Suport per correu i xat, inclòs en el preu. A la posada en marxa, l'equip configura amb tu els períodes d'avaluació i les ponderacions.",
         dashboard: {
             title: "Preguntes freqüents sobre el panell de control i l'analítica d'Edena",
             description:
@@ -2105,7 +2110,7 @@ export default {
             "El panell està optimitzat per funcionar amb fluïdesa sense alentir la resta de la plataforma.",
         dashboard_support_options: "Quin suport ofereix Edena per al panell?",
         dashboard_support_options_answer:
-            "Disposes de suport tècnic especialitzat i documentació detallada per resoldre qualsevol incidència.",
+            "Suport per correu i xat, inclòs en el preu, i formació inicial per al teu equip a la posada en marxa.",
         crm: {
             title: "Preguntes freqüents sobre el CRM escolar d'Edena",
             description:
@@ -2145,10 +2150,10 @@ export default {
         },
         students_enrollment_process: "Com es realitza el procés de matrícula d'estudiants?",
         students_enrollment_process_answer:
-            "El procés és 100% digital, permetent la inscripció i gestió d'estudiants des de qualsevol dispositiu.",
+            "La família envia la sol·licitud des del formulari de matrícula del teu web, al mòbil o a l'ordinador, i signa els documents a l'app. Secretaria la revisa al CRM i, quan la confirma, completa l'alta de l'alumne amb aquestes mateixes dades.",
         students_attendance_tracking: "Com es controla l'assistència dels estudiants?",
         students_attendance_tracking_answer:
-            "La plataforma registra l'assistència de forma automàtica i genera informes per al seguiment acadèmic.",
+            "El professorat passa llista des del mòbil o l'ordinador, la família rep un avís en el moment de cada absència i la direcció consulta els informes d'assistència al dia.",
         students_academic_records: "On consulto els expedients acadèmics?",
         students_academic_records_answer:
             "Els expedients estan disponibles al panell de cada estudiant, accessibles per a famílies i personal autoritzat.",
@@ -2160,7 +2165,7 @@ export default {
             "Sí, pots crear, inscriure i gestionar activitats des del panell d'estudiants.",
         students_data_privacy: "Com es protegeix la privacitat de les dades dels estudiants?",
         students_data_privacy_answer:
-            "Totes les dades compleixen la normativa de protecció de dades (RGPD) i estan protegides mitjançant xifratge avançat.",
+            "La informació es desa xifrada i cada usuari veu només el que li permet el seu rol. Edena compleix l'RGPD i tracta les dades dels alumnes com a encarregat del tractament del centre.",
         students_support_services: "Les notes i els butlletins surten de l'expedient de l'alumne?",
         students_support_services_answer:
             "Sí. Les qualificacions es registren per avaluació a l'expedient i els butlletins es generen automàticament a partir d'aquestes notes.",
@@ -2169,7 +2174,7 @@ export default {
             "Sí, la plataforma és accessible des de qualsevol dispositiu mòbil o tauleta.",
         students_performance_monitoring: "Com es monitoritza el rendiment acadèmic?",
         students_performance_monitoring_answer:
-            "El sistema genera informes i alertes automàtiques sobre el progrés i rendiment de cada estudiant.",
+            "Amb informes de rendiment per alumne, grup o assignatura, que surten de les notes de cada avaluació. Tutors i direcció els consulten sense muntar fulls de càlcul.",
         students_support_options: "Puc anotar incidències a la fitxa de l'alumne?",
         students_support_options_answer:
             "Sí. Tutors i direcció registren incidències, assoliments i observacions al mateix expedient, juntament amb l'assistència i les notes.",
@@ -2201,10 +2206,10 @@ export default {
             "Sí, des d'un únic compte pots gestionar la informació, facturació i comunicació de tots els teus fills, independentment del centre educatiu al qual assisteixin.",
         families_data_security: "Com es protegeixen les dades de la meva família?",
         families_data_security_answer:
-            "Totes les dades estan protegides amb xifratge avançat i compleixen la normativa de protecció de dades (RGPD). Només el personal autoritzat del centre i tu podeu accedir a la informació dels teus fills.",
+            "Les dades es desen xifrades i es tracten d'acord amb l'RGPD. A la informació dels teus fills només hi accediu tu i el personal autoritzat del centre.",
         families_support: "Quin suport tinc disponible com a família?",
         families_support_answer:
-            "Pots contactar amb el nostre equip de suport a través de xat, correu o des de l'app mòbil. També disposes d'una secció d'ajuda amb guies i tutorials per resoldre dubtes comuns.",
+            "Per a dubtes sobre els teus fills, escriu al centre des del xat de l'app. Si el problema és del compte o de l'app, el suport d'Edena t'atén per correu i xat.",
         families_app_features: "L'app per a famílies és gratuïta?",
         families_app_features_answer:
             "Sí. És gratuïta a iOS i Android. La descarregues a l'App Store o a Google Play i entres amb el perfil que et facilita el centre.",
@@ -2235,13 +2240,13 @@ export default {
         },
         centers_communication_tools: "Quines eines de comunicació ofereix Edena?",
         centers_communication_tools_answer:
-            "Edena ofereix un sistema complet de comunicació que inclou missatgeria segura amb famílies, notificacions al mòbil, enviament de fotos i actualitzacions, calendari d'esdeveniments compartit i comunicació bidireccional en temps real.",
+            "Xat entre el centre i les famílies sense compartir números personals, circulars amb confirmació de lectura, avisos al mòbil, un mur amb les fotos i els esdeveniments del centre i traducció automàtica dels missatges.",
         centers_billing_automation: "Com funciona la facturació automatitzada?",
         centers_billing_automation_answer:
-            "El sistema genera automàticament factures segons els serveis contractats, envia recordatoris de pagament, gestiona domiciliacions i proporciona seguiment en temps real de l'estat dels cobraments, reduint la càrrega administrativa de manera significativa.",
+            "Cada mes Edena genera les factures dels serveis de cada alumne, les registra a Verifactu, gestiona les domiciliacions SEPA i envia recordatoris dels rebuts pendents. L'estat de cada cobrament es veu al panell al moment.",
         centers_process_automation: "Quins processos es poden automatitzar?",
         centers_process_automation_answer:
-            "Pots automatitzar la generació de factures, el registre d'assistència, l'enviament de notificacions, la creació d'informes, la gestió de matrícules i moltes altres tasques administratives repetitives.",
+            "Amb el mòdul d'Automatització crees regles sense programar: recordatoris de pagament, avisos d'absència a les famílies, l'alta de l'alumne en confirmar la matrícula, comunicats programats i informes periòdics.",
         centers_analytics_dashboard: "Quina informació mostra el panell?",
         centers_analytics_dashboard_answer:
             "El panell mostra mètriques en temps real sobre assistència, matrícules, estat financer, comunicacions enviades, rendiment acadèmic i altres indicadors clau per a la gestió del centre.",
@@ -2250,10 +2255,10 @@ export default {
             "Edena centralitza tota la informació estudiantil: expedients acadèmics, assistència, qualificacions, comunicació amb famílies, facturació i documents. Tot accessible des d'un únic sistema.",
         centers_data_security: "Com garanteix Edena la seguretat de les dades?",
         centers_data_security_answer:
-            "Edena utilitza xifratge avançat, compleix la normativa de protecció de dades (RGPD), fa còpies de seguretat automàtiques i manté controls d'accés estrictes per garantir la màxima seguretat de les dades del centre i les famílies.",
+            "La informació viatja i es desa xifrada, amb còpies de seguretat automàtiques, i cada usuari entra amb el seu rol i veu només el que li correspon. Edena tracta les dades com a encarregat del tractament d'acord amb l'RGPD, amb l'acord publicat al web.",
         centers_integration_options: "Es pot integrar amb altres sistemes?",
         centers_integration_options_answer:
-            "Sí, Edena permet integracions amb sistemes de comptabilitat, plataformes de comunicació externes i altres programaris educatius mitjançant APIs i exportació de dades en formats estàndard.",
+            "Sí. Edena es connecta amb Gmail, Outlook i el calendari, exporta les dades al teu programa de comptabilitat o a la gestoria i ofereix API per connectar altres sistemes.",
         centers_setup_time: "Quant de temps triga la implementació?",
         centers_setup_time_answer:
             "La majoria de centres estan en marxa en 2 setmanes. El nostre equip s'encarrega de la migració de dades, la configuració i la formació del personal perquè el canvi sigui senzill.",
@@ -2759,19 +2764,19 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
     finance: {
         automationTitle: "Cobraments que es gestionen sols",
         automationDescription:
-            "Automatitza la generació de factures, els cicles de cobrament i el seguiment de pagaments per eliminar errors i alliberar el teu equip administratiu.",
+            "Les factures, els cicles de cobrament i el seguiment de pagaments es configuren un cop i es repeteixen cada mes, sense refer fulls de càlcul.",
         paperlessBillingTitle: "Facturació sense paper",
         paperlessBillingDescription:
             "Genera i envia factures adaptades a Verifactu de forma automàtica. Factures legalment vàlides, traçables i lliurades a les famílies a l'instant.",
         analyticsTitle: "Analítica financera",
         analyticsDescription:
-            "Panells en temps real amb informes d'ingressos, despeses i estat de cobraments. Obtén la visibilitat financera que necessites per prendre decisions amb confiança.",
+            "Panells en temps real amb ingressos, despeses i estat dels cobraments, per saber cada dia quant falta per cobrar.",
         fastBillingTitle: "Facturació ràpida",
         fastBillingDescription:
             "Genera i envia factures electròniques de forma automàtica. Les famílies reben les seves factures a l'instant i poden pagar en línia en segons.",
         billingCycleTitle: "Cicles de facturació",
         billingCycleDescription:
-            "Configura cicles de cobrament recurrents per a matrícules, activitats i serveis. Els cobraments surten a temps, sempre, sense intervenció manual.",
+            "Configura cicles de cobrament recurrents per a matrícules, activitats i serveis. Cada mes, els rebuts surten en la data que vas fixar.",
         mainTitle: "Facturació escolar que cobra puntualment, sense perseguir ningú",
         mainDescription:
             "Edena automatitza la facturació escolar adaptada a Verifactu: rebuts, domiciliacions SEPA i seguiment de cobraments en temps real, sense gestió manual.",
@@ -2851,22 +2856,22 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             "Programari per a col·legis d'infantil a batxillerat i FP: expedients, notes, assistència, Verifactu i comunicació amb famílies, en un sol sistema.",
         communicationTitle: "Comunicació centralitzada amb famílies",
         communicationDescription:
-            "Missatgeria segura, alertes d'assistència i novetats del centre en una sola app. Sense WhatsApp, sense circulars en paper, sense missatges perduts.",
+            "Missatgeria segura, alertes d'assistència i novetats del centre en una sola app. Els avisos deixen els grups de WhatsApp i les circulars en paper, i veus qui els ha llegit.",
         automationTitle: "Butlletins i qualificacions automàtics",
         automationDescription:
             "Els professors registren les notes i el sistema genera els butlletins automàticament. Les famílies els reben en temps real a través de l'app.",
         integratedManagementTitle: "Què inclou Edena per al teu col·legi?",
         integratedManagementDescription:
-            "Des de la matrícula fins a la graduació, Edena centralitza tota la informació acadèmica i redueix significativament la càrrega del personal administratiu.",
+            "De la matrícula al títol, l'expedient, les notes, l'assistència i els rebuts de cada alumne són a Edena. Secretaria deixa de copiar la mateixa dada en diversos programes.",
         realTimeCommunicationTitle: "Visibilitat acadèmica en temps real per a tothom",
         realTimeCommunicationDescription:
             "Les famílies accedeixen a l'instant a notes, assistència i incidències. Els directors tenen visió completa del centre en un únic panell centralitzat.",
         financialAutomationTitle: "Facturació escolar automatitzada",
         financialAutomationDescription:
             "Matrícules, quotes mensuals i serveis addicionals facturats automàticament amb Verifactu, domiciliacions SEPA i control d'impagaments integrat.",
-        familyAndBillingSectionTitle: "Famílies connectades, cobraments sense esforç",
+        familyAndBillingSectionTitle: "La família veu la nota i paga el rebut a la mateixa app",
         familyAndBillingSectionDescription:
-            "Tot el que les famílies necessiten en una app i tot el que administració necessita per cobrar sense feina manual.",
+            "Notes, assistència i rebuts arriben a l'app de cada família, i secretaria factura amb Verifactu i cobra per domiciliació des del mateix lloc.",
     },
     academies: {
         mainTitle: "La consulta entra al CRM i la quota surt cada mes",
@@ -2877,7 +2882,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             "Gestiona cada consulta, segueix cada família interessada en un tauler visual per etapes i converteix més interessats en alumnes matriculats. La teva llista d'espera, sempre organitzada.",
         automationTitle: "Facturació automàtica per a les teves tarifes",
         automationDescription:
-            "Configura mensualitats, trimestres o tarifes per activitat i Edena factura i cobra automàticament. Sense recordatoris manuals ni perseguir pagaments.",
+            "Configura mensualitats, trimestres o tarifes per activitat i Edena factura i cobra cada mes. Si un rebut queda pendent, la família rep l'avís sense que ningú l'hagi de trucar.",
         integratedManagementTitle: "Què inclou Edena per a la teva acadèmia?",
         integratedManagementDescription:
             "Assistència, cobraments, comunicació amb alumnes i famílies, i gestió de places per activitat: tot integrat perquè no se t'escapi res.",
@@ -2903,16 +2908,16 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             "Unifica la gestió econòmica de tots els teus centres. Tarifes, facturació i cobraments gestionats de forma central amb visibilitat individual per centre.",
         integratedManagementTitle: "Què inclou Edena per al teu grup educatiu?",
         integratedManagementDescription:
-            "Mateixos processos, mateixos estàndards i mateixa experiència per a les famílies a tota la xarxa. Creix sense multiplicar la càrrega administrativa.",
+            "Els mateixos processos i la mateixa app per a les famílies a tots els centres, amb la facturació i els informes de la xarxa en un sol panell.",
         realTimeCommunicationTitle: "Comunicació unificada amb totes les famílies",
         realTimeCommunicationDescription:
             "Centralitza la comunicació de tota la xarxa mantenint la identitat de cada centre. Missatges globals o per centre amb un sol clic.",
         financialAutomationTitle: "Informes financers de tota la xarxa",
         financialAutomationDescription:
             "Informes d'ingressos, ocupació i morositat de tota la xarxa en temps real. Pren decisions estratègiques amb dades de tots els teus centres.",
-        networkSectionTitle: "Creix sense multiplicar la càrrega administrativa",
+        networkSectionTitle: "Obre un altre centre amb els mateixos processos",
         networkSectionDescription:
-            "Passa de dos centres a vint sense afegir complexitat operativa. Una sola plataforma que manté cada centre alineat.",
+            "Cada centre nou treballa amb els mateixos processos i la mateixa app que la resta, i la direcció el segueix al mateix panell des del primer dia.",
     },
     centers: {
         mainTitle: "L'administració del centre, en un sol sistema",
@@ -3180,9 +3185,9 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             heroRightTitle: "Activitats sempre a la vista",
             heroRightDescription:
                 "Horaris, monitors i grups organitzats i accessibles per a famílies i equip.",
-            featuresTitle: "Tot el que necessites per gestionar les teves activitats extraescolars",
+            featuresTitle: "Gestió d'extraescolars: places, llistes i cobraments",
             featuresDescription:
-                "Des de la inscripció fins al cobrament, Edena automatitza cada pas de les teves extraescolars.",
+                "La inscripció, la llista de cada sessió i el cobrament de cada activitat surten del mateix sistema.",
             features: [
                 {
                     title: "Inscripcions en línia",
@@ -3215,9 +3220,9 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
                         "Consulta quines activitats funcionen millor i decideix la teva oferta amb dades reals.",
                 },
             ],
-            sectionTitle: "Del paper a un flux totalment digital",
+            sectionTitle: "Inscripcions des de l'app i agenda sense solapaments",
             sectionDescription:
-                "Centralitza la gestió d'extraescolars i elimina els fulls de càlcul, els cobraments manuals i les llistes en paper.",
+                "Les inscripcions, les llistes i els cobraments d'extraescolars passen dels fulls de càlcul i el paper a Edena.",
             section1Title: "Inscripció des de l'app",
             section1Description:
                 "Les famílies descobreixen, comparen i s'inscriuen en activitats des del mòbil, amb confirmació i pagament immediats.",
@@ -3325,9 +3330,9 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
                         "Rep avisos automàtics de tasques pendents, fitxatges oblidats i esdeveniments propers.",
                 },
             ],
-            sectionTitle: "Del caos de correus a un centre coordinat",
+            sectionTitle: "Fitxatges, agenda i tasques de l'equip en un sol lloc",
             sectionDescription:
-                "Reuneix fitxatges, agenda i tasques internes en un únic lloc i allibera el teu equip de la gestió manual.",
+                "El registre de jornada queda llest per a la inspecció i cada persona veu la seva agenda i les seves tasques sense cadenes de correus.",
             section1Title: "Control horari conforme a la llei",
             section1Description:
                 "Registre de jornada fiable i exportable, a punt per a qualsevol inspecció de treball.",
@@ -3393,15 +3398,15 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             mainTitle: "L'impagat avisa, i la factura del mes surt sola",
         mainDescription:
             "Defineixes el disparador una vegada. L'avís d'impagat, la factura del mes i l'alta de la matrícula surten sense que ningú els llanci.",
-            heroLeftTitle: "Sense programar, sense límits",
+            heroLeftTitle: "Automatitzacions sense programar",
             heroLeftDescription:
                 "Crea automatitzacions arrossegant blocs. Defineix el disparador i deixa que Edena faci la resta.",
             heroRightTitle: "Disparadors intel·ligents",
             heroRightDescription:
                 "Cada esdeveniment del centre pot desencadenar accions automàtiques: matrícules, pagaments, absències i molt més.",
-            featuresTitle: "El teu centre treballant en pilot automàtic",
+            featuresTitle: "Recordatoris, factures i altes que surten sols",
             featuresDescription:
-                "Converteix els processos manuals en fluxos automàtics que s'executen sols, dia i nit.",
+                "Defineixes la regla un cop i Edena l'aplica cada vegada que passa: un impagament, una absència o una matrícula confirmada.",
             features: [
                 {
                     title: "Editor visual",
@@ -3837,9 +3842,9 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             heroRightTitle: "Tasques que es fan soles",
             heroRightDescription:
                 "Ena prepara factures, passa llista i tramita processos administratius per tu.",
-            featuresTitle: "Menys tasques repetitives, més temps per educar",
+            featuresTitle: "El que l'Ena prepara per al teu equip",
             featuresDescription:
-                "Ena s'encarrega del que consumeix el temps del teu equip perquè es puguin centrar en el que importa.",
+                "Factures, comunicats, llistes i respostes amb les dades del centre. Algú de l'equip ho revisa abans d'enviar-ho.",
             features: [
                 {
                     title: "Assistent intel·ligent",
@@ -3880,7 +3885,7 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
                 "Comunicats, assistència i recursos humans gestionats per Ena directament dins d'Edena.",
             section2Title: "Seguretat professional de sèrie",
             section2Description:
-                "Seguretat integrada i IA amb més privacitat que un chatbot genèric, amb suport 24/7.",
+                "Seguretat integrada i IA amb més privacitat que un chatbot genèric.",
             altHero: "Ena, l'agent d'intel·ligència artificial d'Edena",
             altSection1: "Ena automatitzant tasques administratives a Edena",
             altSection2: "Seguretat i privacitat de la IA d'Edena",

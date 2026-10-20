@@ -1,5 +1,5 @@
 ---
-title: "Competencias Digitales del Profesorado en 2026: Más de 661.000 Docentes Certificados"
+title: "Competencias digitales del profesorado en 2026: más de 661.000 docentes certificados"
 seoTitle: "Competencia digital docente 2026: 661.000 certificados"
 date: "2026-01-10"
 translationKey: "competencias-digitales-profesorado-2026"
@@ -29,7 +29,7 @@ faqs:
       answer: "Lo que usáis cada semana (plataforma común) antes que herramientas aisladas."
 ---
 
-<strong>Competencias Digitales del Profesorado en 2026: Más de 661.000 Docentes Certificados</strong>
+<strong>Competencias digitales del profesorado en 2026: más de 661.000 docentes certificados</strong>
 
 <br>
 
@@ -43,17 +43,13 @@ El año 2026 marca un hito histórico en la formación del profesorado español.
 
 El Marco de Referencia de la Competencia Digital Docente, actualizado en 2022 y alineado con el marco europeo #DigCompEdu, establece las competencias que los profesores deben dominar en la era digital. Este marco no se limita al uso básico de herramientas tecnológicas; abarca seis áreas fundamentales que transforman la práctica docente.
 
-La primera área,
-
 <br>
 
 <strong>Información y alfabetización informacional</strong>
 
 <br>
 
-, capacita a los docentes para buscar, evaluar, gestionar y compartir información digital de manera crítica y efectiva. En un mundo saturado de información, esta competencia es esencial para ayudar a los estudiantes a navegar el entorno digital de forma segura y productiva.
-
-La segunda área,
+La primera área capacita a los docentes para buscar, evaluar, gestionar y compartir información digital de manera crítica y efectiva. En un mundo saturado de información, esta competencia es esencial para ayudar a los estudiantes a navegar el entorno digital de forma segura y productiva.
 
 <br>
 
@@ -61,9 +57,7 @@ La segunda área,
 
 <br>
 
-, prepara a los profesores para comunicarse eficientemente a través de medios digitales, colaborar en entornos virtuales y participar en comunidades profesionales online. Esta competencia es crucial en un mundo donde la educación trasciende las paredes del aula.
-
-La tercera área,
+La segunda área prepara a los profesores para comunicarse eficientemente a través de medios digitales, colaborar en entornos virtuales y participar en comunidades profesionales online. Esta competencia es crucial en un mundo donde la educación trasciende las paredes del aula.
 
 <br>
 
@@ -71,9 +65,7 @@ La tercera área,
 
 <br>
 
-, empodera a los docentes para crear, editar y compartir recursos educativos digitales de calidad. Desde videos educativos hasta presentaciones interactivas, los profesores certificados pueden crear materiales que enriquecen significativamente la experiencia de aprendizaje.
-
-La cuarta área,
+La tercera área empodera a los docentes para crear, editar y compartir recursos educativos digitales de calidad. Desde videos educativos hasta presentaciones interactivas, los profesores certificados pueden crear materiales que enriquecen significativamente la experiencia de aprendizaje.
 
 <br>
 
@@ -81,9 +73,7 @@ La cuarta área,
 
 <br>
 
-, asegura que los docentes protejan tanto su propia información como la de sus estudiantes, comprendan los riesgos digitales y promuevan un uso seguro y responsable de la tecnología. En una era de crecientes preocupaciones sobre privacidad y seguridad digital, esta competencia es más importante que nunca.
-
-La quinta área,
+La cuarta área asegura que los docentes protejan tanto su propia información como la de sus estudiantes, comprendan los riesgos digitales y promuevan un uso seguro y responsable de la tecnología. En una era de crecientes preocupaciones sobre privacidad y seguridad digital, esta competencia es más importante que nunca.
 
 <br>
 
@@ -91,9 +81,7 @@ La quinta área,
 
 <br>
 
-, capacita a los profesores para identificar necesidades tecnológicas, resolver problemas técnicos y utilizar la tecnología de manera innovadora para mejorar la enseñanza y el aprendizaje.
-
-La sexta área,
+La quinta área capacita a los profesores para identificar necesidades tecnológicas, resolver problemas técnicos y utilizar la tecnología de manera innovadora para mejorar la enseñanza y el aprendizaje.
 
 <br>
 
@@ -101,7 +89,7 @@ La sexta área,
 
 <br>
 
-, permite a los docentes reflexionar sobre su práctica digital, evaluar la efectividad de las tecnologías utilizadas y adaptarse continuamente a las nuevas herramientas y metodologías.
+La sexta área permite a los docentes reflexionar sobre su práctica digital, evaluar la efectividad de las tecnologías utilizadas y adaptarse continuamente a las nuevas herramientas y metodologías.
 
 <br>
 

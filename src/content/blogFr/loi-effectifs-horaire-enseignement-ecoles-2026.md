@@ -3,7 +3,7 @@ title: "Loi sur les effectifs et l'horaire d'enseignement : ce qui change pour l
 seoTitle: "Loi sur les effectifs et les heures de cours : ce qui change"
 date: "2026-09-24"
 translationKey: "ley-ratios-jornada-lectiva-colegios-2026"
-description: "Le projet de loi fixe 22 élèves en primaire et 25 au collège dans les établissements financés par des fonds publics, et plafonne les heures de cours. Calendrier et effets."
+description: "Le projet de loi fixe 22 élèves en primaire et 25 au collège dans les établissements financés par des fonds publics et plafonne les heures de cours. Calendrier."
 tags: ["loi sur les effectifs", "ratios scolaires", "horaire d'enseignement", "écoles sous contrat", "réglementation éducative"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1200&auto=format&fit=crop"

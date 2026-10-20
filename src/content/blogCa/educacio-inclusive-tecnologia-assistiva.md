@@ -1,5 +1,5 @@
 ---
-title: "Educació inclusiva i tecnologia asistiva: Creant aules per a tothom"
+title: "Educació inclusiva i tecnologia assistiva: com crear aules per a tothom"
 seoTitle: "Educació inclusiva i tecnologia assistiva a l'aula"
 date: "2025-08-05"
 translationKey: "educacion-inclusiva-tecnologia-asistiva"
@@ -25,7 +25,7 @@ faqs:
       answer: "Prioritzeu adaptacions d'alt impacte baix cost abans que maquinari car sense formació."
 ---
 
-<strong>Educació inclusiva i tecnologia asistiva: Creant aules per a tothom</strong>
+<strong>Educació inclusiva i tecnologia assistiva: com crear aules per a tothom</strong>
 
 <br>
 

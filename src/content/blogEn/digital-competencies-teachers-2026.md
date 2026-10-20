@@ -21,7 +21,7 @@ faqs:
     - question: "What does DigEdu demand from the center?"
       answer: "Safe environments, teacher training and equitable access; Consult the current regional call."
     - question: "Does it replace the teaching certificate?"
-      answer: "No; It is complemented with tools and protected time."
+      answer: "No; it is complemented with tools and protected time."
     - question: "How to prioritize training?"
       answer: "What you use every week (common platform) before isolated tools."
 ---
@@ -30,7 +30,7 @@ faqs:
 
 <br>
 
-The year 2026 marks a historic milestone in the training of Spanish teachers. With more than 661,366 teachers already certified in digital skills, Spain has exceeded the DigEdu Plan's objective of achieving 80% certification of teachers in centers supported by public funds. This transformation is not just a number; It is a silent revolution that is changing how we teach and learn in Spanish classrooms.
+The year 2026 marks a historic milestone in the training of Spanish teachers. With more than 661,366 teachers already certified in digital skills, Spain has exceeded the DigEdu Plan's objective of achieving 80% certification of teachers in centers supported by public funds. This transformation is not just a number; it is a silent revolution that is changing how we teach and learn in Spanish classrooms.
 
 <br>
 
@@ -38,9 +38,7 @@ The year 2026 marks a historic milestone in the training of Spanish teachers. Wi
 
 <br>
 
-The Digital Teaching Competence Reference Framework, updated in 2022 and aligned with the European #DigCompEdu framework, establishes the competencies that teachers must master in the digital era. This framework is not limited to the basic use of technological tools; It covers six fundamental areas that transform teaching practice.
-
-The first area,
+The Digital Teaching Competence Reference Framework, updated in 2022 and aligned with the European #DigCompEdu framework, establishes the competencies that teachers must master in the digital era. This framework is not limited to the basic use of technological tools; it covers six fundamental areas that transform teaching practice.
 
 <br>
 
@@ -48,9 +46,7 @@ The first area,
 
 <br>
 
-, trains teachers to search, evaluate, manage and share digital information critically and effectively. In an information-saturated world, this competency is essential to help students navigate the digital environment safely and productively.
-
-The second area,
+The first area trains teachers to search, evaluate, manage and share digital information critically and effectively. In an information-saturated world, this competency is essential to help students navigate the digital environment safely and productively.
 
 <br>
 
@@ -58,9 +54,7 @@ The second area,
 
 <br>
 
-, prepares teachers to communicate efficiently through digital media, collaborate in virtual environments, and participate in online professional communities. This competence is crucial in a world where education transcends the walls of the classroom.
-
-The third area,
+The second area prepares teachers to communicate efficiently through digital media, collaborate in virtual environments, and participate in online professional communities. This competence is crucial in a world where education transcends the walls of the classroom.
 
 <br>
 
@@ -68,9 +62,7 @@ The third area,
 
 <br>
 
-, empowers teachers to create, edit and share quality digital educational resources. From educational videos to interactive presentations, certified teachers can create materials that significantly enrich the learning experience.
-
-The fourth area,
+The third area empowers teachers to create, edit and share quality digital educational resources. From educational videos to interactive presentations, certified teachers can create materials that significantly enrich the learning experience.
 
 <br>
 
@@ -78,9 +70,7 @@ The fourth area,
 
 <br>
 
-, ensures that teachers protect their own and their students' information, understand digital risks, and promote safe and responsible use of technology. In an era of growing concerns about privacy and digital security, this competency is more important than ever.
-
-The fifth area,
+The fourth area ensures that teachers protect their own and their students' information, understand digital risks, and promote safe and responsible use of technology. In an era of growing concerns about privacy and digital security, this competency is more important than ever.
 
 <br>
 
@@ -88,9 +78,7 @@ The fifth area,
 
 <br>
 
-, trains teachers to identify technology needs, solve technical problems, and use technology innovatively to improve teaching and learning.
-
-The sixth area,
+The fifth area trains teachers to identify technology needs, solve technical problems, and use technology innovatively to improve teaching and learning.
 
 <br>
 
@@ -98,7 +86,7 @@ The sixth area,
 
 <br>
 
-, allows teachers to reflect on their digital practice, evaluate the effectiveness of the technologies used and continually adapt to new tools and methodologies.
+The sixth area allows teachers to reflect on their digital practice, evaluate the effectiveness of the technologies used and continually adapt to new tools and methodologies.
 
 <br>
 
@@ -149,7 +137,7 @@ Modern school management systems, integrated with learning platforms, allow teac
 - Provide additional resources automatically when difficulties are detected
 - Celebrate individual achievements in a more visible and motivating way
 
-This personalization not only improves academic results; It also increases student motivation and reduces frustration, creating a more positive and productive learning environment.
+This personalization not only improves academic results; it also increases student motivation and reduces frustration, creating a more positive and productive learning environment.
 
 <br>
 
@@ -223,7 +211,7 @@ When certified teachers have access to these tools, they can maximize the impact
 
 <br>
 
-Digital competence is not a destination; It is a continuous journey. Educational technologies are constantly evolving, and teachers must stay up to date. Centers that invest in continuous training are ensuring that their teachers continue to be leaders in educational innovation.
+Digital competence is not a destination; it is a continuous journey. Educational technologies are constantly evolving, and teachers must stay up to date. Centers that invest in continuous training are ensuring that their teachers continue to be leaders in educational innovation.
 
 This continuing training includes:
 
@@ -249,7 +237,7 @@ The future of teaching in Spain is being shaped by these more than 661,000 certi
 - Data guides pedagogical decisions
 - Innovation is constant and expected
 
-This future is not far away; It is happening now in thousands of Spanish classrooms where digitally competent teachers are transforming education day by day.
+This future is not far away; it is happening now in thousands of Spanish classrooms where digitally competent teachers are transforming education day by day.
 
 <br>
 

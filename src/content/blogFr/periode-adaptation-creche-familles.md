@@ -3,7 +3,7 @@ title: "La période d'adaptation en crèche : plan et communication avec les fam
 seoTitle: "Période d'adaptation en crèche : guide pratique"
 date: "2026-09-03"
 translationKey: "periodo-adaptacion-escuela-infantil-familias"
-description: "Comment organiser la période d'adaptation en crèche : horaires progressifs, rôle des familles, ce qu'il faut leur dire chaque jour et comment savoir si cela se passe bien."
+description: "Organiser la période d'adaptation en crèche : horaires progressifs, rôle des familles, ce qu'il faut leur dire chaque jour et comment savoir si tout va bien."
 tags: ["période d'adaptation", "crèche", "petite enfance", "communication avec les familles", "0-3 ans"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1578349035260-9f3d4042f1f7?q=80&w=1200&auto=format&fit=crop"

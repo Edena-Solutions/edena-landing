@@ -20,7 +20,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props;
 const t = translations[lang as keyof typeof translations];
-const pricingUrl = lang === "es" ? "https://edena.es/pricing" : `https://edena.es/${lang}/pricing`;
+const pricingUrl = lang === "es" ? "https://edena.es/pricing/" : `https://edena.es/${lang}/pricing/`;
 
 /** Entry price for the whole catalogue: the monthly billing floor. */
 const offers = [
@@ -55,7 +55,7 @@ const offers = [
         lang={lang}
     />
     <HomeMotion />
-    <PageHero title={t.pricing.hub.title} description={t.pricing.hub.description} />
+    <PageHero eyebrow={t.pageEyebrows.pricing} title={t.pricing.hub.title} description={t.pricing.hub.description} />
     <section class="ds-section pt-12 sm:pt-16">
         <div class="ds-container flex flex-col gap-4">
             <AudienceCards

@@ -3,7 +3,7 @@ title: "Checklist de rentrée 2026-2027 pour le secrétariat et la direction"
 seoTitle: "Checklist de rentrée 2026-2027 pour le secrétariat"
 date: "2026-09-01"
 translationKey: "checklist-inicio-curso-secretaria-2026-2027"
-description: "Ce que le secrétariat et la direction doivent avoir bouclé en septembre : inscriptions, frais et prélèvements, autorisations, accès des familles et calendrier de l'année."
+description: "Ce que le secrétariat et la direction doivent boucler en septembre : inscriptions, frais et prélèvements, autorisations, accès des familles et calendrier."
 tags: ["rentrée", "secrétariat scolaire", "gestion scolaire", "inscription", "encaissements"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1632152053640-da3a8b3ee812?q=80&w=1200&auto=format&fit=crop"

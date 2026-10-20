@@ -34,6 +34,18 @@ export function coverAt(url: string, width: number): string {
     }
 }
 
+/** The cover as a 1200×630 social card, cropped by Unsplash; other covers are left as they are. */
+export function coverOg(url: string): string | undefined {
+    try {
+        const u = new URL(coverAt(url, 1200));
+        if (!u.hostname.endsWith("unsplash.com")) return undefined;
+        u.searchParams.set("h", "630");
+        return u.toString();
+    } catch {
+        return undefined;
+    }
+}
+
 export function coverSrcset(url: string, widths: number[]): string | undefined {
     if (!url.includes("unsplash.com")) return undefined;
     return widths.map((width) => `${coverAt(url, width)} ${width}w`).join(", ");

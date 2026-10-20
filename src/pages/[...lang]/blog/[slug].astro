@@ -19,6 +19,7 @@ import { blogAlternatesFor } from "@/lib/blog-translations";
 import { formatLongDate } from "@/lib/intl-locale";
 import {
     coverAt,
+    coverOg,
     coverSrcset,
     readingMinutes,
     renderArticlePart,
@@ -109,10 +110,10 @@ const toc = [...headings, ...(faqs.length ? [{ id: "faqs", text: t.blog.faqTitle
 const published = formatLongDate(lang, post.data.date);
 const minutes = t.blogPage.readingTime.replace("{n}", String(readingMinutes(post.body)));
 
-// Canonical URLs: Spanish lives unprefixed at the root.
+// Canonical URLs: Spanish lives unprefixed at the root, and every page ends in "/".
 const langPrefix = lang === "es" ? "" : `${lang}/`;
-const postUrl = `https://edena.es/${langPrefix}blog/${slug}`;
-const blogUrl = `https://edena.es/${langPrefix}blog`;
+const postUrl = `https://edena.es/${langPrefix}blog/${slug}/`;
+const blogUrl = `https://edena.es/${langPrefix}blog/`;
 const homeUrl = `https://edena.es/${langPrefix}`;
 
 const alternates = await blogAlternatesFor(lang, slug);
@@ -139,6 +140,8 @@ const byEna = /^ena\b/i.test(author);
     lang={lang}
     alternates={alternates}
     design="premium"
+    ogImage={post.data.cover ? coverOg(post.data.cover) : undefined}
+    ogType="article"
 >
     <HomeMotion />
     <article>

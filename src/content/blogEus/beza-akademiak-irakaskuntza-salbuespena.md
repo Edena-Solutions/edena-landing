@@ -3,7 +3,7 @@ title: "BEZa akademietan: noiz dagoen irakaskuntza salbuetsita eta nola fakturat
 seoTitle: "BEZa akademietan: noiz dagoen irakaskuntza salbuetsita"
 date: "2026-09-30"
 translationKey: "iva-academias-exencion-ensenanza"
-description: "Zein akademiak aplika dezaketen BEZaren Legearen 20.Uno.9. artikuluko salbuespena, zer gertatzen den hizkuntzekin, errefortzuarekin, musika edo kirolarekin, eta nola adierazi fakturan."
+description: "Zein akademiak aplika dezaketen BEZaren Legearen 20.Uno.9. artikuluko salbuespena, zer gertatzen den hizkuntza, musika edo kirolarekin, eta nola fakturatu."
 tags: ["akademietako BEZa", "BEZ salbuespena", "akademiak", "fakturazioa", "fiskalitatea"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1761914410572-02614b575847?q=80&w=1200&auto=format&fit=crop"

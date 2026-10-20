@@ -1,5 +1,5 @@
 ---
-title: "Bienestar emocional de estudiantes en la era digital: Estrategias y herramientas"
+title: "Bienestar emocional del alumnado en la era digital: estrategias y herramientas"
 seoTitle: "Bienestar emocional del alumnado en la era digital"
 date: "2025-08-30"
 translationKey: "bienestar-emocional-estudiantes-digitales"
@@ -22,7 +22,7 @@ faqs:
       answer: "Sesiones breves sobre uso equilibrado y controles parentales."
 ---
 
-<strong>Bienestar emocional de estudiantes en la era digital: Estrategias y herramientas</strong>
+<strong>Bienestar emocional del alumnado en la era digital: estrategias y herramientas</strong>
 
 <br>
 

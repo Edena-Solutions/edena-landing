@@ -1,5 +1,5 @@
 ---
-title: "Metodologías pedagógicas innovadoras: Transformando el proceso de enseñanza-aprendizaje"
+title: "Metodologías pedagógicas innovadoras: cómo transforman la enseñanza y el aprendizaje"
 seoTitle: "Metodologías pedagógicas innovadoras para el aula"
 date: "2025-08-10"
 translationKey: "metodologias-pedagogicas-innovadoras"
@@ -22,7 +22,7 @@ faqs:
       answer: "Indicadores de competencia clave, no solo satisfacción del profesorado."
 ---
 
-<strong>Metodologías pedagógicas innovadoras: Transformando el proceso de enseñanza-aprendizaje</strong>
+<strong>Metodologías pedagógicas innovadoras: cómo transforman la enseñanza y el aprendizaje</strong>
 
 <br>
 

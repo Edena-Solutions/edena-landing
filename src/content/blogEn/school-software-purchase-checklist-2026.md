@@ -21,7 +21,7 @@ faqs:
     - question: "How long does a complete software change process take?"
       answer: "Between two and six months, depending on the volume of data, the complexity of the center and the availability of the internal team. A basic pilot (master data, first collection cycle, family portal) can be active in four weeks if there is a dedicated internal manager and the provider has a defined migration plan."
     - question: "Is it better to change the system in summer or in January?"
-      answer: "Summer reduces the impact on families and team, but compresses the validation time with real enrollment and collection data in progress. January is quieter in registration but it coincides with the accounting close. The answer depends on where your biggest pain is: if it's September tuition, it changes in the summer; If it is billing, consider doing it with data from a quiet month."
+      answer: "Summer reduces the impact on families and team, but compresses the validation time with real enrollment and collection data in progress. January is quieter in registration but it coincides with the accounting close. The answer depends on where your biggest pain is: if it's September tuition, it changes in the summer; if it is billing, consider doing it with data from a quiet month."
     - question: "Should I require a data portability contract?"
       answer: "Yes, always. Before signing, confirm that you can export all your data (students, charges, files, documents) in open format (CSV, JSON, Excel) at any time. If the supplier does not include this in the contract or conditions it at an additional cost, it is a red flag."
     - question: "Does it make sense to implement a system just before an enrollment peak?"
@@ -173,6 +173,6 @@ An 85-place nursery school in Girona evaluated three providers with the same che
 
 <br>
 
-Choosing the software for your center well is not about comparing product sheets: it is about defining your problem, doing the demo with your data, calculating the real cost and reading the contract. Edena is the platform that centralizes file, collection, registration, communication, documents and analytics with modules that can be activated according to the real need of the center, 24/7 support and accompaniment in the change process. Request a demo, bring your five main frictions and in ninety minutes you will know if it fits.
+Choosing the software for your center well is not about comparing product sheets: it is about defining your problem, doing the demo with your data, calculating the real cost and reading the contract. Edena is the platform that centralizes file, collection, registration, communication, documents and analytics with modules that can be activated according to the real need of the center, email and chat support and accompaniment in the change process. Request a demo, bring your five main frictions and in ninety minutes you will know if it fits.
 
 <br>

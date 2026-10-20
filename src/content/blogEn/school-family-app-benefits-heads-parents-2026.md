@@ -20,7 +20,7 @@ relatedPosts:
     - mobile-app-education
 faqs:
     - question: "Does the app replace the paper agenda or face-to-face meetings?"
-      answer: "No. The app organizes, notifies and records; It does not replace the tutoring interview, the beginning of the course meeting or the support when a family needs personalized attention. Free up time for those interactions by reducing the burden of repetitive messages."
+      answer: "No. The app organizes, notifies and records; it does not replace the tutoring interview, the beginning of the course meeting or the support when a family needs personalized attention. Free up time for those interactions by reducing the burden of repetitive messages."
     - question: "What happens to families that do not have a smartphone or have low digital competence?"
       answer: 'The web portal is accessed from any browser without downloading anything. For families with digital barriers, define a backup protocol (call, note, secretary) and don''t assume that "everyone has an app." Basic email communication is still valid as a support channel.'
     - question: "Are push notifications only for messages or also for payment reminders?"
@@ -35,7 +35,7 @@ faqs:
 
 <br>
 
-An app and a portal are not an image decoration: they are the channel where dates, payments, notices and documents coexist with traces. When everything is managed by loose mail or paper, the secretariat repeats the same explanations and the management loses visibility about what message arrived, what fee is due or what annex is missing. In Edena, the base platform includes web portal and mobile app for families and team, basic communication, onboarding and family self-management, center analytics and 24/7 support. The Pro communication module, if contracted, adds real-time chat, push notifications, reading confirmation and segmented communication by group or classroom. Everything according to the published catalog: nothing invented. The real benefit is not technological, it is business: a single data identity connects the guardian from the initial interest to the receipt, the file and the documents, without reconstructing it in five different boxes.
+An app and a portal are not an image decoration: they are the channel where dates, payments, notices and documents coexist with traces. When everything is managed by loose mail or paper, the secretariat repeats the same explanations and the management loses visibility about what message arrived, what fee is due or what annex is missing. In Edena, the base platform includes web portal and mobile app for families and team, basic communication, onboarding and family self-management, center analytics and email and chat support. The Pro communication module, if contracted, adds real-time chat, push notifications, reading confirmation and segmented communication by group or classroom. Everything according to the published catalog: nothing invented. The real benefit is not technological, it is business: a single data identity connects the guardian from the initial interest to the receipt, the file and the documents, without reconstructing it in five different boxes.
 
 <br>
 
@@ -43,7 +43,7 @@ An app and a portal are not an image decoration: they are the channel where date
 
 <br>
 
-Management does not need to read all the messages of the day; You do need to know if critical channels (collections, urgent documentation, legal circulars) reach families and are read. With central analytics in the base platform and, if you hire Pro, opening data and read confirmation, the committee stops debating "I think we sent it" and starts working with figures. El criterio de cierre es claro: qué tasa de apertura en avisos de pago justifica una escalada, qué confirmación de firma en una circular obliga a un segundo canal, sin depender del recuerdo de nadie.
+Management does not need to read all the messages of the day; you do need to know if critical channels (collections, urgent documentation, legal circulars) reach families and are read. With central analytics in the base platform and, if you hire Pro, opening data and read confirmation, the committee stops debating "I think we sent it" and starts working with figures. El criterio de cierre es claro: qué tasa de apertura en avisos de pago justifica una escalada, qué confirmación de firma en una circular obliga a un segundo canal, sin depender del recuerdo de nadie.
 
 <br>
 
@@ -116,6 +116,6 @@ A Primary school in Madrid unified circulars, incidents and authorizations in a 
 
 <br>
 
-A solid app and portal do not replace the human relationship: they prepare it. They reduce the friction of routine so that the team has the capacity to attend to what matters. With Edena, the portal, the app, billing, the file, the CRM and the documentation share data criteria, with Pro when the load justifies it and always 24/7 support. Request a demo, put a real load and measure ninety days with a fixed indicator: your equipment deserves to work with signal, not with noise.
+A solid app and portal do not replace the human relationship: they prepare it. They reduce the friction of routine so that the team has the capacity to attend to what matters. With Edena, the portal, the app, billing, the file, the CRM and the documentation share data criteria, with Pro when the load justifies it and email and chat support included. Request a demo, put a real load and measure ninety days with a fixed indicator: your equipment deserves to work with signal, not with noise.
 
 <br>

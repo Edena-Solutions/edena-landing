@@ -1,5 +1,5 @@
 ---
-title: "Colaboración familias-centro educativo: Construyendo una comunidad unida"
+title: "Colaboración entre familias y centro educativo: cómo construir una comunidad"
 seoTitle: "Colaboración entre familias y centro educativo"
 date: "2024-10-30"
 translationKey: "colaboracion-familias-centro-educativo"
@@ -19,7 +19,7 @@ faqs:
       answer: "No tiene por qué. La app canaliza lo institucional; WhatsApp puede quedar para coordinación puntual con criterio escrito."
 ---
 
-<strong>Colaboración familias-centro educativo: Construyendo una comunidad unida</strong>
+<strong>Colaboración entre familias y centro educativo: cómo construir una comunidad</strong>
 
 <br>
 

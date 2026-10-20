@@ -3,7 +3,7 @@ title: "Guide IA du ministère de l'Éducation (version 2.0) : ce qui change pou
 seoTitle: "Guide IA du ministère 2.0 : ce qui change pour les écoles"
 date: "2026-09-15"
 translationKey: "guia-ia-ministerio-educacion-centros-2026"
-description: "L'INTEF publie la version 2.0 de son guide sur l'IA dans l'éducation. Ce qu'il contient, ce qu'il n'impose pas et comment en faire un plan d'établissement pour cette année."
+description: "L'INTEF publie la version 2.0 de son guide sur l'IA dans l'éducation : ce qu'il contient, ce qu'il n'impose pas et comment en tirer un plan d'établissement."
 tags: ["intelligence artificielle", "INTEF", "guide IA éducation", "littératie en IA", "plan d'établissement"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1758270705290-62b6294dd044?q=80&w=1200&auto=format&fit=crop"

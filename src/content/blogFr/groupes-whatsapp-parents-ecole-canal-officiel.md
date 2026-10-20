@@ -3,7 +3,7 @@ title: "Groupes WhatsApp de parents : ce que l'école peut faire et quel canal p
 seoTitle: "Groupes WhatsApp de parents : ce que l'école peut faire"
 date: "2026-09-09"
 translationKey: "grupos-whatsapp-padres-colegio-canal-oficial"
-description: "Les groupes WhatsApp des familles reviennent avec la rentrée. Ce que recommande l'AEPD, ce qui revient à l'établissement et comment proposer un canal officiel qui fonctionne."
+description: "Les groupes WhatsApp des familles reviennent à la rentrée. Ce que recommande l'AEPD, ce qui relève de l'établissement et quel canal officiel proposer."
 tags: ["groupes WhatsApp", "communication avec les familles", "protection des données", "AEPD", "rentrée"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1488509082528-cefbba5ad692?q=80&w=1200&auto=format&fit=crop"

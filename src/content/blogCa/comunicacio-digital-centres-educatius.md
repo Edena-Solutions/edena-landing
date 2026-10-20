@@ -86,7 +86,7 @@ Si el programari de gestió us permet enviar missatges des de la fitxa de l'alum
 
 <br>
 
-No tot ha d?anar a tot el centre. Missatges per etapa, per servei (menjador, rutes) o per estat (impagaments, renovació) augmenten la rellevància i redueixen la fatiga. La comunicació digital a centres educatius ha de permetre llistes o filtres per curs, grup o condició.
+No tot ha d'anar a tot el centre. Missatges per etapa, per servei (menjador, rutes) o per estat (impagaments, renovació) augmenten la rellevància i redueixen la fatiga. La comunicació digital a centres educatius ha de permetre llistes o filtres per curs, grup o condició.
 
 <br>
 

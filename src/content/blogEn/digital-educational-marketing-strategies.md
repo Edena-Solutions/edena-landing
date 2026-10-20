@@ -62,7 +62,7 @@ Loading time of less than 3 seconds on mobile, three-field form (name, email, co
 
 <br>
 
-Real photos of the center, visiting hours, link to the form, response to reviews within 48 hours. Families read reviews before calling; A polite response to criticism builds trust. Update holiday schedules and link the Open Day landing page in each campaign.
+Real photos of the center, visiting hours, link to the form, response to reviews within 48 hours. Families read reviews before calling; a polite response to criticism builds trust. Update holiday schedules and link the Open Day landing page in each campaign.
 
 <br>
 
@@ -86,7 +86,7 @@ Origin, course, contact date, status, next action and reason for loss if you do 
 
 <br>
 
-The contract usually recruits by reputation and area; The private sector competes more in value proposition and services. In both, the post-visit admin experience (response, clarity of quotas) makes or breaks the registration. Do not promise in advertising what the visit does not confirm.
+The contract usually recruits by reputation and area; the private sector competes more in value proposition and services. In both, the post-visit admin experience (response, clarity of quotas) makes or breaks the registration. Do not promise in advertising what the visit does not confirm.
 
 <br>
 

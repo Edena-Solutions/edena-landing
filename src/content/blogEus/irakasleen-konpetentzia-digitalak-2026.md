@@ -40,17 +40,13 @@ faqs:
 
 Irakaskuntzarako Gaitasun Digitaleko Erreferentzia Markoak, 2022an eguneratua eta Europako #DigCompEdu markoarekin lerrokatuta, irakasleek aro digitalean menderatu behar dituzten gaitasunak ezartzen ditu. Esparru hori ez da tresna teknologikoen oinarrizko erabilerara mugatzen; Irakaskuntza praktika eraldatzen duten oinarrizko sei arlo biltzen ditu.
 
-Lehenengo eremua,
-
 <br>
 
 <strong>Informazio eta informazio alfabetatzea</strong>
 
 <br>
 
-, irakasleak trebatzen ditu informazio digitala modu kritikoan eta eraginkorrean bilatu, ebaluatu, kudeatu eta partekatzeko. Informazioz betetako mundu batean, gaitasun hau ezinbestekoa da ikasleei ingurune digitalean modu seguruan eta produktiboan nabigatzen laguntzeko.
-
-Bigarren eremua,
+Lehenengo eremua irakasleak trebatzen ditu informazio digitala modu kritikoan eta eraginkorrean bilatu, ebaluatu, kudeatu eta partekatzeko. Informazioz betetako mundu batean, gaitasun hau ezinbestekoa da ikasleei ingurune digitalean modu seguruan eta produktiboan nabigatzen laguntzeko.
 
 <br>
 
@@ -58,9 +54,7 @@ Bigarren eremua,
 
 <br>
 
-, irakasleak euskarri digitalen bidez eraginkortasunez komunikatzeko, ingurune birtualetan elkarlanean aritzeko eta sareko komunitate profesionaletan parte hartzeko prestatzen ditu. Gaitasun hori funtsezkoa da hezkuntzak ikasgelako hormak gainditzen dituen mundu batean.
-
-Hirugarren eremua,
+Bigarren eremua irakasleak euskarri digitalen bidez eraginkortasunez komunikatzeko, ingurune birtualetan elkarlanean aritzeko eta sareko komunitate profesionaletan parte hartzeko prestatzen ditu. Gaitasun hori funtsezkoa da hezkuntzak ikasgelako hormak gainditzen dituen mundu batean.
 
 <br>
 
@@ -68,9 +62,7 @@ Hirugarren eremua,
 
 <br>
 
-, irakasleei ahalmena ematen die kalitatezko hezkuntza baliabide digitalak sortu, editatu eta partekatzeko. Hezkuntza-bideoetatik hasi eta aurkezpen interaktiboetaraino, ziurtatutako irakasleek ikas-esperientzia nabarmen aberasten duten materialak sor ditzakete.
-
-Laugarren eremua,
+Hirugarren eremua irakasleei ahalmena ematen die kalitatezko hezkuntza baliabide digitalak sortu, editatu eta partekatzeko. Hezkuntza-bideoetatik hasi eta aurkezpen interaktiboetaraino, ziurtatutako irakasleek ikas-esperientzia nabarmen aberasten duten materialak sor ditzakete.
 
 <br>
 
@@ -78,9 +70,7 @@ Laugarren eremua,
 
 <br>
 
-, bermatzen du irakasleek beren eta ikasleen informazioa babesten dutela, arrisku digitalak ulertzen dituztela eta teknologiaren erabilera seguru eta arduratsua sustatzen dutela. Pribatutasunari eta segurtasun digitalari buruzko kezka gero eta handiagoa den garai honetan, gaitasun hau inoiz baino garrantzitsuagoa da.
-
-Bosgarren eremua,
+Laugarren eremua bermatzen du irakasleek beren eta ikasleen informazioa babesten dutela, arrisku digitalak ulertzen dituztela eta teknologiaren erabilera seguru eta arduratsua sustatzen dutela. Pribatutasunari eta segurtasun digitalari buruzko kezka gero eta handiagoa den garai honetan, gaitasun hau inoiz baino garrantzitsuagoa da.
 
 <br>
 
@@ -88,9 +78,7 @@ Bosgarren eremua,
 
 <br>
 
-, irakasleak trebatzen ditu teknologia beharrak identifikatzeko, arazo teknikoak konpontzeko eta teknologia modu berritzailean erabiltzeko irakaskuntza eta ikaskuntza hobetzeko.
-
-Seigarren eremua,
+Bosgarren eremua irakasleak trebatzen ditu teknologia beharrak identifikatzeko, arazo teknikoak konpontzeko eta teknologia modu berritzailean erabiltzeko irakaskuntza eta ikaskuntza hobetzeko.
 
 <br>
 
@@ -98,7 +86,7 @@ Seigarren eremua,
 
 <br>
 
-, irakasleei beren praktika digitalari buruz hausnartzeko, erabiltzen diren teknologien eraginkortasuna ebaluatzeko eta tresna eta metodologia berrietara etengabe egokitzeko aukera ematen du.
+Seigarren eremua irakasleei beren praktika digitalari buruz hausnartzeko, erabiltzen diren teknologien eraginkortasuna ebaluatzeko eta tresna eta metodologia berrietara etengabe egokitzeko aukera ematen du.
 
 <br>
 

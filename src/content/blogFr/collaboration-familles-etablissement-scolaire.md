@@ -1,5 +1,5 @@
 ---
-title: "Collaboration famille-école : Bâtir une communauté unie"
+title: "Collaboration famille-école : bâtir une communauté unie"
 date: "2024-10-30"
 translationKey: "colaboracion-familias-centro-educativo"
 description: "Comment la technologie renforce la collaboration entre les familles et l'établissement pour bâtir une communauté éducative plus forte et efficace."
@@ -21,7 +21,7 @@ faqs:
       answer: "Ce n’est pas obligatoire. L'application canalise l'institutionnel ; WhatsApp peut être laissé à une coordination spécifique avec des critères écrits."
 ---
 
-<strong>Collaboration famille-école : Bâtir une communauté unie</strong>
+<strong>Collaboration famille-école : bâtir une communauté unie</strong>
 
 <br>
 

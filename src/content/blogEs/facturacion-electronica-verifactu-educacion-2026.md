@@ -1,5 +1,5 @@
 ---
-title: "Facturación Electrónica y Verifactu en Educación 2026: Cumplimiento Normativo y Eficiencia"
+title: "Facturación electrónica y Verifactu en educación (2026): cumplimiento normativo y eficiencia"
 seoTitle: "Facturación electrónica y Verifactu en educación (2026)"
 date: "2026-01-15"
 translationKey: "facturacion-electronica-verifactu-educacion-2026"
@@ -29,7 +29,7 @@ faqs:
       answer: "Verifactu afecta sobre todo a la emisión y trazabilidad de facturas ante la AEAT, no al método de pago en sí. Sí obliga a que tu software de facturación genere registros conformes; conviene integrarlo con cobros y conciliación."
 ---
 
-<strong>Facturación Electrónica y Verifactu en Educación 2026: Cumplimiento Normativo y Eficiencia</strong>
+<strong>Facturación electrónica y Verifactu en educación (2026): cumplimiento normativo y eficiencia</strong>
 
 <br>
 

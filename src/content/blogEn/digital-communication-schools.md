@@ -17,7 +17,7 @@ relatedPosts:
     - mobile-app-education
 faqs:
     - question: "Is it better to have your own app or a web portal for families?"
-      answer: "It depends on the budget and the use. A responsive portal that works well on mobile may be enough; A native app can provide more visibility (icon, notifications) if families use it frequently."
+      answer: "It depends on the budget and the use. A responsive portal that works well on mobile may be enough; a native app can provide more visibility (icon, notifications) if families use it frequently."
     - question: "Do push notifications replace email?"
       answer: "Not necessarily. Email is still useful for long content and archiving. Push and SMS are best for short, urgent notices that require quick action."
     - question: "How do we comply with data protection when sending mass messages?"
@@ -134,7 +134,7 @@ One school replaced paper circulars with portal posts and push notifications; "I
 
 <br>
 
-With consent and discretion, for coordination; It does not replace a traceable institutional channel.
+With consent and discretion, for coordination; it does not replace a traceable institutional channel.
 
 <br>
 

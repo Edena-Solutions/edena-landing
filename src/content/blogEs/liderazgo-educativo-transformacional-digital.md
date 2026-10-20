@@ -1,5 +1,5 @@
 ---
-title: "Liderazgo educativo transformacional en la era digital: Competencias y estrategias"
+title: "Liderazgo educativo transformacional en la era digital: competencias y estrategias"
 seoTitle: "Liderazgo educativo en la era digital: competencias clave"
 date: "2025-09-15"
 translationKey: "liderazgo-educativo-transformacional-digital"

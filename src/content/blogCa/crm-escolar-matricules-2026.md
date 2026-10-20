@@ -1,194 +1,165 @@
 ---
-title: "CRM escolar: com augmentar matrícules i convertir més sol·licituds"
-seoTitle: "CRM escolar: com convertir més sol·licituds en matrícules"
+title: "CRM escolar: com convertir més sol·licituds en matrícules"
 date: "2026-03-24"
+updated: "2026-10-20"
 translationKey: "crm-escolar-matriculas-conversion-2026"
-description: "Un CRM escolar no és un “extra de comercial” per a centres que volen semblar moderns: és l'antídot contra la matrícula que es refreda a la safata."
-tags:
-    - "CRM escolar"
-    - "matrícules en línia"
-    - "captació col·legis"
-    - "leads educació"
-    - "formularis escolars"
-    - "inscripcions"
+description: "Què és un CRM escolar, quines etapes fer servir a les admissions, què mesurar cada setmana i com implantar-lo perquè cap sol·licitud quedi sense resposta."
+tags: ["CRM escolar", "admissions", "matrícula", "captació d'alumnes", "sol·licituds de matrícula"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1730382624360-9cf5609c8364?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
     - matricula-online-centre-pas-2026
     - incorporacio-digital-families-matricula-en-linia
-    - digitalitzacio-retencio-alumnes
-    - retencio-estudiants-era-digital
+    - jornades-portes-obertes-captacio-2027-2028
+    - caiguda-natalitat-collegis-captacio-matricules-2026
 faqs:
-    - question: "Un CRM “enganxat amb APIs” a la plataforma és igual que integrat?"
-      answer: "De vegades, amb cost, latència, duplicats, desincronització, i errades en tancament, integrat, sol baixar risc."
-    - question: "Quant puja la conversió amb CRM?"
-      answer: "Depèn d'embut, sector, oferta, no fixem xifra màgica, però veure etapes i fons, sol alinear esforç, cosa que puja taxa, no garanteix 20 punts, però evita fugues ximples."
-    - question: "Com es gestiona una llista d'espera al CRM?"
-      answer: 'Crea una etapa específica de llista d''espera al pipeline amb camp de posició i confirmació automàtica per a la família. Quan quedi lliure una plaça, el sistema alerta el propietari de l''etapa per avançar la sol·licitud següent. Evita gestionar la llista d''espera en un Excel separat: és on neixen els conflictes de "qui feia més temps".'
-    - question: "Quan afegir el mòdul de comunicació Pro al flux del CRM?"
-      answer: "Quan el volum de sol·licituds sigui prou alt perquè el correu només provoqui que les famílies no vegin notificacions de canvi d'etapa, o quan necessitis confirmació de lectura en missatges de confirmació de plaça o pagament de senyal. La comunicació bàsica funciona per a volums moderats; Pro afegeix push i confirmació quan el procés d'admissió ho justifica."
-    - question: "Què passa amb dades sensibles i GDPR?"
-      answer: "Criteri de base legal, terminis, neteja i consentiment, el programari acompanya, no reemplaça assessoria, exigeix ​​mínims, Edena, enfocament plataforma amb control d'accessos, documentació, responsabilitat compartida."
+    - question: "Quina diferència hi ha entre un CRM escolar i un full de càlcul d'admissions?"
+      answer: "Un full de càlcul registra qui ha preguntat. Un CRM escolar registra, a més, en quina etapa és cada família, qui l'atén, què se li ha dit i quan toca el pas següent, i deixa a la vista les sol·licituds que fa dies que estan aturades."
+    - question: "Quines etapes hauria de tenir el procés d'admissió?"
+      answer: "Poques i amb un criteri clar per passar de l'una a l'altra: sol·licitud nova, primer contacte fet, visita o entrevista, proposta de plaça i matrícula confirmada. Si el centre treballa amb llista d'espera o reserva de plaça, cadascuna mereix la seva pròpia etapa."
+    - question: "Serveix un CRM genèric per a una escola?"
+      answer: "Pot servir per registrar contactes, però les dades de la família queden fora del sistema que després matricula, factura i comunica. Cada alta obliga a copiar les dades a mà, i la direcció veu quin canal porta consultes, no quin canal porta matrícules."
+    - question: "Quins indicadors convé revisar cada setmana?"
+      answer: "Sol·licituds noves per canal, temps fins al primer contacte, sol·licituds aturades més d'una setmana i conversió de visita a matrícula. Amb aquestes quatre xifres es veu en quin punt es perden famílies."
+    - question: "Què cal tenir en compte sobre la protecció de dades?"
+      answer: "Les sol·licituds contenen dades personals de famílies i, sovint, de menors. El formulari ha d'informar de la finalitat i demanar només el necessari a cada fase, i el centre ha de fixar quant de temps conserva les sol·licituds que no acaben en matrícula. Convé revisar-ho amb el delegat de protecció de dades."
 ---
 
-<strong>CRM escolar: com augmentar matrícules i convertir més sol·licituds</strong>
+<strong>CRM escolar: com convertir més sol·licituds en matrícules</strong>
 
 <br>
 
-Un CRM escolar no és un “extra de comercial” per a centres que volen semblar moderns: és l'antídot contra la matrícula que es refreda a la safata, la visita sense seguiment i el full de càlcul que ningú actualitza divendres. Quan la captació viu fora del sistema que després cobra i dóna servei, es dupliquen dades, es perden orígens i la direcció veu xifres tard. El 2026, amb competència entre col·legis, escoles bressol i acadèmies, convertir sol·licituds en places signades exigeix ​​pipeline, tasques, recordatoris i formularis que alimentin el mateix expedient. Edena inclou al mòdul CRM escolar sol·licituds de matriculació, pipeline i seguiment de leads, formularis de captació personalitzables i origen multicanal: no inventem funcions alienes al producte; parlem del que una plataforma integrada pot fer quan l'admissió deixa de ser “un altre Excel”.
+Quan una família busca centre, escriu a diversos alhora. Demana informació, en visita dos o tres i decideix en poques setmanes. El centre que respon ràpid, recorda el que es va parlar a la visita i truca després sol ser el que matricula.
+
+Les sol·licituds poques vegades es perden per manca d'interès. Es perden entre safates de correu, notes de telèfon i un full de càlcul que només entén qui el va crear. Un CRM escolar reuneix cada sol·licitud en un sol lloc, amb una persona responsable i un pas següent amb data.
 
 <br>
 
-<strong>Què és i què no és un CRM escolar a la pràctica</strong>
+<strong>Què és un CRM escolar</strong>
 
 <br>
 
-Un CRM escolar és un registre operatiu d'interessats i candidats a plaça, amb etapes, responsables, propers passos i anàlisis d'origen. No és un llistat de màrqueting, ni un repositori de “correus copiats.” No substitueix la visita presencial ni la qualitat pedagògica, ni arregla una oferta feble, però sí que elimina l'error de no tornar una trucada, de barrejar prioritats, o de no saber quantes places reals queden lligades a reserves sense pagament. Quan la direcció pregunta “d'on vénen les matrícules d'abril?”, el CRM respon amb canal, curs, seu, sense refer informes a mà. Quan secretaria debat “a qui recordem avui”, la llista neix filtrada per etapa i antiguitat, no per memòria. Aquesta diferència, multiplicada per desenes o centenars de famílies, és caixa i reputació, no pas un adorn. En plataformes integrades, el pas de “preinscrit amb documentació” a “alumne amb recurrència activa” hauria de ser traçable, amb menys re-keying, menys discrepància entre el nom en el pagament i el de la fitxa, i menys risc d'assignar aula equivocada en l'arrencada de curs, que és quan més fricció neix, sense parlar després de sostenibilitat o de màrqueting, després de sostenibilitat o màrqueting rebut o al primer accés a l'app.
+És l'eina amb què el centre registra i fa el seguiment de cada família interessada, des de la primera consulta fins a la matrícula. Serveix per a cinc coses:
+
+- **Registrar cada sol·licitud** amb les seves dades i el canal per on ha arribat: el web, una trucada, un correu, una visita o una jornada de portes obertes.
+- **Saber en quina etapa és** cada família i què falta perquè avanci.
+- **Assignar un responsable**, perquè cada sol·licitud tingui algú que l'atengui.
+- **Desar l'historial:** trucades, correus, visites i canvis d'etapa, amb la seva data.
+- **Mesurar la conversió:** quantes consultes acaben en matrícula, per canal i per etapa.
 
 <br>
 
-<strong>Per què l'embut es trenca sense CRM</strong>
+<strong>Per què es perden sol·licituds sense un CRM</strong>
 
 <br>
 
-Tres patrons habituals: (1) la web genera interès, algú reenvia a secretaria i el lead mor a l'oblit; (2) diverses fonts (meta, visita, referit) barregen criteri i no saps quin canal rendeix; (3) la matrícula “oficial” ocorre en un altre sistema, amb error de càrrega i re-treball. Conseqüència: director que creu que n'hi ha prou amb “campanyes de marca” mentre l'embut fuga a la setmana 2 post-visita, on realment guanya o perd un centre amb capacitat fitada. Un CRM integrat, no aïllat, evita reescriptura, dóna origen, responsable i etapa, i connecta amb facturació i família en el mateix criteri de dades.
+Els motius es repeteixen en escoles, escoles bressol i acadèmies:
+
+- La consulta arriba al correu d'una persona que és de vacances o de baixa, i ningú més la veu.
+- La família fa la visita, però ningú no la truca després per resoldre dubtes o proposar plaça.
+- La llista d'espera viu en un full a part i, quan queda una plaça lliure, costa saber a qui li toca.
+- La direcció sap quantes matrícules hi ha, però no d'on vénen ni en quin punt es queden les famílies que no hi arriben.
+
+Durant la campanya, quan secretaria atén alhora les famílies actuals i les noves, aquests forats es noten més.
 
 <br>
 
-<strong>Definir etapes que el teu equip sí fa servir</strong>
+<strong>Les etapes del procés d'admissió</strong>
 
 <br>
 
-De ben poc serveix clonar un pipeline B2B genèric. En educació, etapes típiques: interès, visita/entrevista, preinscripció, documentació, reserva, signatura, alta operativa, primer cobrament. Cada etapa amb amo, SLA intern, i tasca. Si un pas dura dies amb correus solts, el familiar compara i tria un altre. Menys fricció, més taxa, sense prometre miracle: requereix disciplina, no només programari. El mòdul ha de permetre personalitzar, no imposar un flux inútil, i hi entren formularis personalitzables i orígens: saber si vi de web, de porta, d'alumnes actuals, ajusta missatge i prioritat, no mesura vaïtat, mesura inversió.
+L'error més habitual és copiar un embut de vendes amb deu etapes que ningú no actualitza. Per a un centre educatiu solen n'hi ha prou amb aquestes:
+
+1. **Sol·licitud nova.** Ha entrat la consulta i encara no hi ha contactat ningú.
+2. **Contactada.** Algú de l'equip ha respost i ha resolt els primers dubtes.
+3. **Visita o entrevista.** La família ha visitat el centre o té la visita agendada.
+4. **Proposta de plaça.** Se li ha ofert plaça en un curs i ho està decidint.
+5. **Matrícula confirmada.** La família ha acceptat i comença l'alta.
+
+Si el centre treballa amb **llista d'espera** o demana una **reserva de plaça**, convé que cadascuna sigui una etapa pròpia. I cal una sortida clara, **descartada**, amb el motiu: ha triat un altre centre, s'ha traslladat, no hi havia plaça. Aquest motiu és el que després explica per què es perden famílies.
+
+L'important és que cada pas tingui un criteri que tot l'equip entengui igual. "Contactada" vol dir que algú ha parlat amb la família, no que se li ha enviat un correu automàtic.
 
 <br>
 
-<strong>Formularis i autogestió: primera impressió</strong>
+<strong>El formulari és la porta d'entrada</strong>
 
 <br>
 
-Un formulari confús, amb camps duplicats o sense confirmació, genera leads escombraries. Un clar, amb validació, confirmació, i càrrega a pipeline, estalvia trucades. L'autogestió familiar de la plataforma base, juntament amb onboarding, redueix fricció en altes, sempre que l'oficina tingui criteri de què passa amb dades incompletes. El CRM no substitueix el criteri d'admissió, però exposa coll d'ampolla, per exemple, documents pendents de X curs, perquè comitè o adreça reaccioni amb fets.
+Si el formulari del web és llarg o confús, moltes famílies no l'acaben. Algunes pautes que funcionen:
+
+- **Demana el mínim a la primera pantalla:** nom, telèfon o correu, curs d'interès i com ha conegut el centre.
+- **Deixa els documents per a més endavant**, quan la família ja ha decidit seguir.
+- **Confirma la recepció al moment**, amb un missatge que digui què passarà a continuació i en quin termini.
+- **Fes servir un formulari per campanya:** curs nou, casal d'estiu, jornada de portes obertes. Així saps quina acció porta cada sol·licitud.
+
+Cada formulari ha de crear la sol·licitud directament al CRM. Si arriba per correu i algú la copia a mà, tornen els errors i els retards.
 
 <br>
 
-<strong>Comunicació alineada: Pro quan cal</strong>
+<strong>Responsables i terminis de resposta</strong>
 
 <br>
 
-Missatge genèric a tots vs segmentació: les famílies en etapa de visita no necessiten el mateix avís que les ja matriculades. Comunicació Pro, amb xat, notificacions push, confirmació de lectura, segmentada per grup o aula, alimenta l'experiència sense bolcar el mòdul d'admissió. No és publicitat, és senyal oportú. Un centre que sap llegir taxa d'avenç per etapa i temps mitjà entre fites entén on invertir: si la caiguda és post-visita, milloreu visita, script, o seguiment, no el logo.
+Una sol·licitud sense responsable acaba sense resposta. Assigna-les a una persona de l'equip tan bon punt entren i fixa un termini intern per al primer contacte, per exemple dos dies laborables.
+
+Un cop per setmana, revisa les sol·licituds que fa més de set dies que no es mouen. És una reunió curta: per a cadascuna, es decideix el pas següent o es descarta amb el seu motiu.
 
 <br>
 
-<strong>Exemples sense ficció d'èxit instantani</strong>
+<strong>Què mesurar cada setmana</strong>
 
 <br>
 
-- Acadèmia d'idiomes, diverses seus, leads a Excel per recepcionista, sense origen. Després d'assignar origen i tasques, la direcció va veure quin local convertia; va reassignar pressupost de campanya i va ajustar jornada d'atenció, no “va pujar un 300% en una setmana”, que seria fals, però va sanejar vessa.
-- Llar d'infants amb llista d'espera, leads sense prioritat: qui paga inscripció mentre altres esperen correu, genera conflicte. Amb etapes i regles, la gestió de cua i missatges, transparent, baixa fricció i reclamació.
-- Col·legi que unifica CRM i expedient, evita càrrega doble, l'equip administra amb menys error de nom o curs, cosa que impacta en confiança del tutor.
+Amb quatre indicadors es veu gairebé tot:
+
+- **Sol·licituds noves per canal.** Diu quines accions atrauen famílies: el web, les jornades, les recomanacions.
+- **Temps fins al primer contacte.** Si puja, les famílies esperen massa mentre altres centres els responen.
+- **Sol·licituds aturades.** Les que fa més d'una setmana que no canvien d'etapa.
+- **Conversió de visita a matrícula.** Si és baixa, el problema és a la visita o al seguiment posterior, no a la captació.
+
+Mira les xifres per curs o etapa educativa. P3 i 1r d'ESO solen tenir ritmes diferents.
 
 <br>
 
-<strong>KPIs mínims del CRM, sense dashboard buit</strong>
+<strong>Del CRM a la matrícula sense tornar a teclejar</strong>
 
 <br>
 
-- Leads per etapa, conversió etapa a etapa, en finestra fixa, per exemple, matrícules 2026 en curs.
-- Origen, cost relatiu, si escau, i ràtio de tancament, no “impressions”.
-- Temps en etapa, alertes.
-- Taxa d'abandonament documental.
-- Coherència: mateixa definició que utilitza adreça, no cinc Excel diferents.
+Quan una família confirma la plaça, les seves dades han d'arribar a l'expedient de l'alumne, a la facturació i a l'app de les famílies. Si el CRM és una eina a part, secretaria torna a escriure les mateixes dades al programa de gestió, i aquí apareixen els errors en noms, cursos i comptes bancaris.
 
-Amb analítica de centre a la plataforma base, més mòdul CRM, la lectura guanya corda; sense CRM, mesures caixa sense saber d'on va venir el darrer 20% de matrícules.
+Per això convé que el CRM formi part del mateix sistema amb què el centre matricula, factura i es comunica. Si cobres una reserva de plaça, el rebut ha de sortir d'aquesta mateixa fitxa.
 
 <br>
 
-<strong>Onboarding, automatització i compte amb la promesa</strong>
+<strong>Errors habituals en implantar-lo</strong>
 
 <br>
 
-Mòdul d'automatització, regles, workflows, onboarding pot ajudar a tasques de seguiment: recordatori de cita, checklist documental, sense substituir el judici. No venem “IA que reemplaça direcció”, venem fluxos que allibera hores, si apliques política, plantilles i límits. Un CRM ple d'automatió sense criteri genera soroll; buit, no rescata. El valor és connectar CRM amb facturació, família, i documentació, mateixa clau, mateixa visibilitat.
+- **Massa etapes.** Si ningú no sap en quina posar una família, el tauler deixa de reflectir la realitat.
+- **Sol·licituds sense responsable.** Tot l'equip les veu i ningú no truca.
+- **Importar l'històric sense netejar-lo.** Els duplicats i les sol·licituds de fa tres cursos embruten les xifres des del primer dia.
+- **Mesurar només el nombre de consultes.** El que importa és quantes acaben en matrícula i on es queden les altres.
+- **Dissenyar-lo sense secretaria.** És qui el farà servir cada dia; si el procés no encaixa amb la seva feina, tornarà al full de càlcul.
+
+Per al pas següent, la matrícula en si, tens una guia sobre <a href="/ca/blog/matricula-online-centre-pas-2026/">com implantar la matrícula en línia pas a pas</a>.
 
 <br>
 
-<strong>Relació amb facturació, reserves i primer cobrament</strong>
+<strong>Com funciona a Edena</strong>
 
 <br>
 
-Si el CRM viu als llimbs, la reserva de plaça sense rebut o sense condicions clares genera llistes d'espera “ofensores” i disputes. Connectar l'etapa de reserva amb mòdul de facturació, rebuts i control d'impagaments, no és ser dur, és transparent: la família entén el compromís, el centre assegura intenció, i la direcció veu embut i caixa alineats. A Edena, el paquet que combina CRM, facturació i plataforma base permet que “pagat” i “estat d'embut” no divergeixin en dos sistemes. Així mateix, les famílies que ja són clients i porten referits queden rastrejades per origen: reflecteix el valor del boca-orella, sol ser el canal de menor cost marginal, i mereix visibilitat en informes, no un post-it. Les acadèmies amb diverses seus poden comparar conversió per centre i reassignar recursos, no només màrqueting en línia, sinó franges de visita, personal d'admissió, o fins i tot prioritzar serveis de documentació a la seu que més satura.
+El <a href="/ca/crm/">CRM escolar d'Edena</a> forma part de la mateixa plataforma que l'expedient, la facturació i l'app de les famílies:
 
-<br>
+- **Formularis de captació** que es creen amb un editor visual i es publiquen amb un enllaç al web del centre o als correus de campanya.
+- **Etapes de partida** Nou, Contactat, Qualificat, Proposta, Negociació i Guanyat, que pots canviar de nom o ajustar al teu procés.
+- **Origen de cada sol·licitud** (web, telèfon, correu, visita o formulari) i **responsable assignat**.
+- **Historial d'activitat** amb la data i l'hora de cada canvi d'etapa, contacte o acció.
+- **Informes de captació:** quantes sol·licituds arriben, quantes avancen a cada etapa i els resultats de cada responsable.
+- **En passar a Guanyat**, les dades de la família queden a punt per a l'alta de l'alumne. Amb el mòdul d'Automatització, l'alta es pot crear sola en confirmar la matrícula.
 
-<strong>Errors en implantar</strong>
-
-<br>
-
-- Comprar CRM i no assignar amos d'etapa, tot cau a “el que pugui.”
-- No formar a recepció, sense ells, el pipeline menteix.
-- Mesurar “leads” sense qualificar.
-- Desconnectar de cobrament, reserva sense rebut, caos.
-- Prometre a comitè resultats en 10 dies, sense cicles reals, la corba tarda, honestedat convenç més.
-
-<br>
-
-<strong>Com presentar el CRM al comitè sense que soni a “més eina”</strong>
-
-<br>
-
-Tradueix el benefici a hores i risc: hores de secretaria en reclassificació, hores de direcció a armar xifres, risc de plaça mal assignada, risc de lead sense seguiment amb llista d'espera enfadada. Amb dues o tres sortides mensuals (embut, origen, temps en etapa) el comitè deixa de discutir intuïcions. Si algú demana “AI per predir matrícules”, recorda: sense dades netes i etapes complertes, qualsevol promesa predictiva és soroll. Primer coherència operativa, després refinament. A molts centres, el salt de matrícula no ve de més publicitat, sinó de seguiment disciplinat en dues setmanes crítiques post-visita, on el CRM guanya o perd el partit, no el cartell a la tanca.
-
-<br>
-
-<strong>Quan cobrar la reserva?</strong>
-
-<br>
-
-Després de visita o proposta acceptada, al mateix flux digital, abans de l'alta definitiva.
-
-<br>
-
-<strong>Embut d'exemple amb conversió</strong>
-
-<br>
-
-- **100 sol·licituds web:** Entrada inicial del pipeline; registra origen (web, referit, Open Day).
-- **60 visites agendades (60 %):** Meta mínima de conversió sol·licitud-visita; per sota, revisa formulari i temps de resposta.
-- **45 propostes enviades (75 % de visites):** Proposta clara amb quotes, serveis i terminis documentats.
-- **32 matrícules (71 % de propostes):** Conversió total sol·licitud-matrícula: 32%. Millorar el seguiment en 48 h sol pujar 5-8 punts el primer tram.
-
-<br>
-
-<strong>Estats de pipeline recomanats</strong>
-
-<br>
-
-- **Interessat:** Lead registrat; assignar responsable a les 24 h.
-- **Contactat:** Primera resposta enviada; registrar canal i data.
-- **Visita:** Open Day o entrevista agendada o realitzada.
-- **Proposta:** Quotes i serveis enviats per escrit.
-- **Reserva pagada:** Compromís econòmic registrat a facturació.
-- **Matriculat:** Alta operativa en expedient i primer cobrament programat.
-- **Perdut (motiu codificat):** Preu, distància, competència o un altre; obligatori per analitzar conversió.
-
-<br>
-
-<strong>Context a Espanya: captació i matrícula sota pressió demogràfica</strong>
-
-<br>
-
-A moltes comunitats autònomes la competència entre centres privats i concertats és alta. Captar una sol·licitud no és matricular: cal pipeline amb etapes clares, terminis de resposta, documentació digital i cobrament de reserva quan correspongui. Les famílies comparen diversos centres en paral·lel; qui triga més de 48-72 hores a confirmar visita o enviar proposta perd candidats sense saber-ho.
-
-Digitalitzar la matrícula redueix de cinc a set dies a 24-48 hores l'alta administrativa d'una família nova si el flux inclou signatura, pagament i alta en expedient en un sol circuit. Sense CRM amb estats (interessat, visita, reserva, matriculat) i seguiment en 48 hores, la direcció mesura "leads" però no conversió real per origen ni per etapa.
-
-El 2026, la captació educativa a Espanya combina SEO local, Open Day, referits i formulari web connectat al ERP. El ROI no està en més anuncis, sinó en seguiment disciplinat postvisita i coherència entre allò promès a web i allò que secretaria executa en matrícula.
-
-<br>
-
-<strong>Cas pràctic (Espanya)</strong>
-
-<br>
-
-Una acadèmia d'idiomes amb 420 alumnes actius va implementar formulari web, CRM amb estats (interessat, visita, reserva, matriculat) i pagament de matrícula en línia. La conversió de sol·licitud a matrícula va pujar del 42% al 58% en un any, amb seguiment automàtic a qui va deixar el formulari a mitges.
+En escoles, escoles bressol i grups educatius és un mòdul que s'activa sobre la plataforma base. En acadèmies està inclòs al Pack Finances i al Pack Acadèmia 360.
 
 <br>
 
@@ -196,6 +167,8 @@ Una acadèmia d'idiomes amb 420 alumnes actius va implementar formulari web, CRM
 
 <br>
 
-Augmentar matrícules i convertir sol·licituds, amb CRM escolar, exigeix ​​estructurar orígens, etapes, tasques, missatge i tancament, a la mateixa base que l'expedient i, quan toca, la facturació, sense salts. Edena, amb CRM, formularis, facturació, comunicació, automatització, et permet créixer amb focus, no amb caos, i suport 24/7, perquè admissió mai visqui a les fosques. Demana una demo, descobreix el pipeline, elimina fulles paral·leles, i porta al teu comitè xifres que aguanten preguntes, no bonisme.
+Un CRM escolar no capta famílies per si sol, però evita que es perdin les que ja han preguntat. Amb poques etapes ben definides, un responsable per a cada sol·licitud i una revisió setmanal de les que estan aturades, el centre sap quin canal porta matrícules i en quin punt se li escapen.
+
+Si vols veure com quedaria amb el teu procés d'admissió, <a href="/ca/demo/">demana una demo de 15 minuts</a>.
 
 <br>

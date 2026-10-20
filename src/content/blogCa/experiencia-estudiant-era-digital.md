@@ -1,5 +1,5 @@
 ---
-title: "Experiència de l'estudiant a l'era digital: Més enllà de l'aprenentatge tradicional"
+title: "Experiència de l'estudiant a l'era digital: més enllà de l'aprenentatge tradicional"
 seoTitle: "Experiència de l'estudiant a l'era digital"
 date: "2024-09-01"
 translationKey: "experiencia-estudiante-era-digital"
@@ -22,7 +22,7 @@ faqs:
       answer: "30-45 minuts setmanals en les primeres dotze setmanes solen ser suficients per desbloquejar sense microgestionar."
 ---
 
-<strong>Experiència de l'estudiant a l'era digital: Més enllà de l'aprenentatge tradicional</strong>
+<strong>Experiència de l'estudiant a l'era digital: més enllà de l'aprenentatge tradicional</strong>
 
 <br>
 

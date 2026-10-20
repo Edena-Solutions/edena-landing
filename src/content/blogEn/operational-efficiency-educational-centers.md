@@ -156,7 +156,7 @@ A school with 280 families automated attendance, payment reminders, and newslett
 
 <br>
 
-Operational efficiency in educational centers is not just a matter of reducing costs; It is a strategy to improve the quality of education and the experience of the entire educational community. Technology provides the tools necessary to achieve this efficiency in a sustainable way.
+Operational efficiency in educational centers is not just a matter of reducing costs; it is a strategy to improve the quality of education and the experience of the entire educational community. Technology provides the tools necessary to achieve this efficiency in a sustainable way.
 
 Are you ready to transform your educational center's operations? Discover how Edena can help you implement solutions that optimize resources, reduce costs, and improve the quality of the educational service you offer.
 

@@ -1,5 +1,5 @@
 ---
-title: "Seguridad de datos en centros educativos: Protegiendo el futuro digital"
+title: "Seguridad de datos en centros educativos: cómo proteger la información del alumnado"
 seoTitle: "Seguridad de datos en centros educativos"
 date: "2025-01-25"
 translationKey: "seguridad-datos-centros-educativos"
@@ -19,7 +19,7 @@ faqs:
       answer: "Recomendable en administración y dirección."
 ---
 
-<strong>Seguridad de datos en centros educativos: Protegiendo el futuro digital</strong>
+<strong>Seguridad de datos en centros educativos: cómo proteger la información del alumnado</strong>
 
 <br>
 

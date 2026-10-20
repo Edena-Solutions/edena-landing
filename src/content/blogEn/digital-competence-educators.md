@@ -26,7 +26,7 @@ faqs:
 
 <br>
 
-In an increasingly digital world, educators need to develop digital competencies that allow them not only to use technology, but also to integrate it effectively into their pedagogical practices. Digital competence is not just a technical skill; It is a fundamental competency that determines the quality of education we can offer our students.
+In an increasingly digital world, educators need to develop digital competencies that allow them not only to use technology, but also to integrate it effectively into their pedagogical practices. Digital competence is not just a technical skill; it is a fundamental competency that determines the quality of education we can offer our students.
 
 <br>
 

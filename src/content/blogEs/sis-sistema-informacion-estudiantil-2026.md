@@ -1,5 +1,5 @@
 ---
-title: "Qué es un SIS (Sistema de Información Estudiantil) y por qué tu centro educativo necesita uno en 2026"
+title: "Qué es un SIS (sistema de información estudiantil) y por qué tu centro lo necesita en 2026"
 seoTitle: "Qué es un SIS (sistema de información estudiantil)"
 date: "2026-02-27"
 translationKey: "sis-sistema-informacion-estudiantil-2026"

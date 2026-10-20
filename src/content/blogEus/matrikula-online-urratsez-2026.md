@@ -1,205 +1,165 @@
 ---
-title: "Nola digitalizatu zure hezkuntza-zentroaren lineako erregistroa urratsez urrats"
+title: "Matrikula online zure zentroan: nola ezarri urratsez urrats"
 seoTitle: "Matrikula online zure zentroan, urratsez urrats"
 date: "2026-03-28"
+updated: "2026-10-20"
 translationKey: "matricula-online-centro-educativo-pasos-2026"
-description: "Erregistroa lineako fluxu batera pasatzea ez da PDF bat sarera igotzea: irizpideak, arduradunak, epeak eta mezuak berrantolatzea baizik."
-tags:
-    - "lineako izen-ematea"
-    - "erregistro digitala"
-    - "hezkuntza zentroa"
-    - "izena emateko formularioak"
-    - "CRM eskola"
-    - "familiaren autogestioa"
+description: "Nola eraman matrikula online prozesu batera: fase bakoitzean zer eskatu, sinadurak eta plaza-erreserba nola jaso, nola probatu eta zer akats saihestu."
+tags: ["matrikula online", "izen-emate digitala", "idazkaritza", "sinadura elektronikoa", "eskola-CRMa"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
     - eskola-crm-matrikulak-bihurketak-2026
     - familia-digital-onboarding-matrikula-online
-    - ikasleen-atzokitze-digitalizazioa
-    - ikasle-atzokitzea-garai-digitalan
+    - matrikula-berritze-automatikoa-2026
+    - sinadura-elektronikoa-ikastetxeak-baimenak
 faqs:
-    - question: "Zenbat denbora behar da Edena-n erregistratzeko prozesua konfiguratzeko?"
-      answer: "Oinarrizko konfigurazio bat (inprimakia, kanalizazio-etapak, ordainketa-araua eta berrespen automatizatua) aste batean prest egon daiteke prozesuaren diseinua dagoeneko definituta badago. Dokumentu mota anitz dituzten fluxu konplexuagoak, etapako automatizazioak eta Pro komunikazioa bi edo hiru aste behar dituzte. Inplementazio-taldea onboarding barruan doa konfigurazioarekin."
-    - question: "Nola neurtu prozesu digitala funtzionatzen ari dela?"
-      answer: 'Adierazle fidagarrienak hauek dira: eskaera betetze-tasa (hasitakoa eta bidalitakoa), lehen kontaktutik berretsitako lekurainoko denbora eta deien ehunekoa "jaso al duzu nire eskaera?" martxan jarri ondoren. Osatzeko tasak baxuak badira, formularioa luzeegia da edo lehen urratsa zorrotzegia da. Berrespenerako denbora gutxitu ez bada, botila-lepoa barne baliozkotze prozesuan dago, ez formularioan.'
-    - question: "CRM eta erregistroa behar ditut, ala nahikoa al da inprimaki isolatua?"
-      answer: "Inbuturik gabeko formulario batek erretiletara itzultzen zaitu. CRM etapa, arduraduna, jatorria eta neurketa eskaintzen ditu. Hori gabe, ez duzu batzorde gisa eskalatzen edo lehenesten."
-    - question: "Zer gertatzen da GDPR?"
-      answer: "Lege-oinarria, atxikipena, sarbidea eta baimenak ezarri behar dituzu zure DPO edo aholkulariarekin. Softwareak rolaren, arrastoen eta atarien araberako sarbidea errazten du, baina ez ditu zentroaren legezko irizpideak ordezkatzen. Edena produktuen irizpideak aurkezten ditu, ez aholkularitza juridikoa."
-    - question: "Nola egokitzen da hitzartutako erregimena edo dokumentazio osagarria?"
-      answer: 'Banaketa: eskatu eranskinak dagokion fasean, ez egiaztapena kolapsatzen duen "dena astelehen batean". Aurreikusi gailurrak, ez lan karga faltsua.'
+    - question: "Zenbat denbora behar da matrikula online eramateko?"
+      answer: "Zentroak dituen dokumentu, zerbitzu eta ikasle motaren araberakoa da. Zentzuzkoena da prozesua matrikula-garaitik kanpo diseinatzea, familia talde txiki batekin probatzea eta gero kanpaina osorako irekitzea, lan gehien dagoen astean estreinatu gabe."
+    - question: "Zer dokumentu sina daitezke online?"
+      answer: "Ohiko baimenak (irudiaren erabilera, irteerak, haurra jasotzeko baimena duten pertsonak, osasun-datuak), zerbitzu-kontratua eta, zentroak helbideratzez kobratzen badu, helbideratze-agindua. Sinadura bakoitza ikaslearen espedientean gorde behar da, bere datarekin."
+    - question: "Zer gertatzen da online egin ezin duten familiekin?"
+      answer: "Komeni da idazkaritzan hitzordu bat eskaintzea, formulario bera laguntzarekin betetzeko. Horrela eskaera besteen sistema berean amaitzen da eta ez da paperezko zirkuitu bat paraleloan mantendu behar."
+    - question: "Nola tratatzen da datuen babesa matrikula onlinean?"
+      answer: "Formularioak tratamenduaren helburuaren eta oinarri juridikoaren berri eman behar du, fase bakoitzean beharrezko datuak bakarrik eskatu eta osasun-datuak bereizita tratatu, kategoria berezia baitira. Berrikusi testuak datuak babesteko ordezkariarekin kanpaina ireki aurretik."
 ---
 
-<strong>Nola digitalizatu zure hezkuntza-zentroaren lineako erregistroa urratsez urrats</strong>
+<strong>Matrikula online zure zentroan: nola ezarri urratsez urrats</strong>
 
 <br>
 
-Erregistroa lineako fluxu batera pasatzea ez da PDF bat sarera igotzea: irizpideak, arduradunak, epeak eta mezuak berrantolatzea baizik. Inprimakia isolatuta bizi bada, taldeak berriro idazten du idazkaritzan, eta “digitalizazioa” bikoitza kostatzen da. Hedapen on batek harrapaketa, baliozkotzea, dokumentazioa, erreserba, sinadura eta, hala badagokio, lehen ordainketa lotzen ditu datu-irizpide bakarrean. Edena-n, CRM erregistro-eskaerak, kanalizazioa eta inprimaki pertsonalizagarriak dituena, oinarrizko plataformarekin batera (ataria eta aplikazioa, onboarding eta familiaren autogestioa), ordainagiriekin fakturatzea eta komunikazioa, familiaren bidea sistema artean ez etetea ahalbidetzen du, produktuak onartzen ez dituen funtzioak gehitu gabe: hodeia, automatizazioa edo benetako moduluak onartzen ez dituen funtzioak gehitu gabe: hodeia, automatizazioa. zure fluxuari laguntzen badiote, ez apaintzeko.
+Matrikula online da familiak eskaera bidali, dokumentuak igo, sinatu eta, behar bada, erreserba mugikorretik ordaintzen duenean, eta idazkaritzak berrikusteko prest jasotzen duenean. Webgunean PDF bat jartzea inprimatu, bete eta posta bidez itzultzeko ez da matrikula online: paperak berdin jarraitzen du, ontziz aldatzen da soilik.
+
+Gida honek prozesua zazpi urratsetan azaltzen du, gaur egiten denaren mapatik hasi eta kanpaina ireki aurretik familia talde txiki batekin egiten den probaraino.
 
 <br>
 
-<strong>0. urratsa: mapa "aurretik" eta erabaki zer neurtzen duzun</strong>
+<strong>1. urratsa: marraztu gaur duzun prozesua</strong>
 
 <br>
 
-Inbentarioa: zenbat eskaera urtean, bideak, lepokoak, idazkaritza-denbora gailurretan, etapaka eskatzen diren agiriak, erreserba irizpideak, nork balio duen, zer gertatzen den itxaron zerrendarekin, zenbat atzerapen onartzen duzun hasieran. Gutxieneko adierazlea: betetako eskaera-tasa, erantzuteko denbora, izenpetutako erregistro bihurtzea, intzidentzia dokumentala. Argazki hori gabe, proiektua “forma bat daukagu ​​eta inork ez daki irakurtzen” bihurtzen da, hau da, porrota modala.
+Inongo formulariori ukitu aurretik, idatzi nola matrikulatzen den orain ikasle berri bat:
+
+- Zer kanaletatik iristen diren eskaerak eta zenbat dauden kanpaina arrunt batean.
+- Zer dokumentu eskatzen diren eta noiz.
+- Nork berrikusten duen eskaera bakoitza eta nork erabakitzen duen plaza.
+- Noiz eta nola kobratzen den erreserba edo lehen kuota.
+- Non trabatzen den: falta diren dokumentuak, erantzuten ez duten familiak, bi aldiz kopiatzen diren datuak.
+
+Mapa horrek esango dizu zer digitalizatu behar den eta zer sinplifikatu aurretik. Beharrik gabeko urratsak dituen prozesu bat online eramateak urrats horiek azkarrago egitea besterik ez du lortzen.
 
 <br>
 
-<strong>1. urratsa: diseina ezazu fluxua, ez testu-koadroa</strong>
+<strong>2. urratsa: banatu matrikula faseetan</strong>
 
 <br>
 
-Zozketa faseak: interesa, alta, datuen entrega, bisita, dokumentuen entrega, barne onespena, erreserba baldintzekin, ordainketa, erregistro operatiboa, lehen abisua. Fase, jabea, epea, mezua eta ebaketa irizpide bakoitza. Ordainketa irizpiderik gabe erreserba bat uzten baduzu, ilara iraingarriak izango dituzu; Ordainketa lasterregi eskatzen baduzu, legezko marruskadura duten familiak galduko dituzu. Zentro motara egokitzen da: haur-eskola, eskola, akademia, eta araubideari, diruz lagundua, pribatua, dokumentazioa eta betekizunak agintzen dituena. Fluxuak, ez diseinuak, abandonua zigilatu edo apurtzen du, horregatik CRM eta forma integratuek, kanal anitzeko jatorria dutenek, inbutua non erortzen den jakitea ahalbidetzen dute, ez “uztailean jaisten dela sinestea” irudirik gabe.
+Dena batera eskatzea da familiak erdibidean uzteko biderik seguruena. Hobeto funtzionatzen du informazioa lau fasetan banatzeak:
+
+- **Eskaera**: ikaslearen eta familiaren datuak, interesatzen zaien maila eta nola ezagutu duten zentroa.
+- **Plaza eta erreserba**: plazaren berrespena, zerbitzu-kontratua eta, zentroak eskatzen badu, plaza-erreserba.
+- **Dokumentazioa eta sinadurak**: irudiaren eta irteeren baimenak, haurra jasotzeko baimena duten pertsonak, osasun- eta alergia-fitxa, helbideratze-agindua.
+- **Alta**: espediente osoa, kontratatutako zerbitzuak (jantokia, garraioa, eskolaz kanpoko jarduerak) eta programatutako lehen ordainagiria.
+
+Fase bakoitzak arduradun bat izan behar du idazkaritzan eta familiarentzako mezu bat osatzen denean.
 
 <br>
 
-<strong>2. urratsa: formularioa, sinplea eta lotua</strong>
+<strong>3. urratsa: diseinatu formulario labur bat, mugikorrerako pentsatua</strong>
 
 <br>
 
-Hasierako eremu gutxi, balioztatzea, berrespena, atseden progresiboa. Eskatu ezinbestekoa dena lehenengo pantailan, saihestu familiak mugikorretan murriztea; eranskinak eskatzen ditu faseka, ez hormak, legez eskatzen ez bada. Edena-ko sarrera-inprimaki pertsonalizagarriak kanalizazioa elikatzen du, ez Excel bat. Saihestu harrapaketa bikoitza, gurutzatu fitxategiekin eta prestatu idazkaritza homogeneotasun-zerrenda baterako, ez izenak berriro idazten.
+Familia gehienek telefonotik irekiko dute formularioa. Jarraibide batzuk:
+
+- **Lehen pantailan, gutxienekoa**: nor den ikaslea, nola jarri harremanetan eta zer maila interesatzen zaion.
+- **Berez egiaztatzen diren eremuak**, posta elektronikoa edo telefonoa kasu, gero zuzentzen zailak diren akatsak saihesteko.
+- **Berehalako berrespena**, hurrengo urratsa eta epea adierazten dituena.
+- **Eskaera bat ikasle bakoitzeko.** Familia batek bi seme-alaba matrikulatzen baditu, ez ditu bere datuak errepikatu behar.
+
+Formularioak zuzenean elikatu behar du idazkaritzak eskaerak kudeatzeko erabiltzen duen sistema. Posta bidez iristen bada eta norbaitek eskuz kopiatzen badu, irabazitakoaren zati handi bat galtzen da. <a href="/eus/blog/eskola-crm-matrikulak-bihurketak-2026/">Eskola-CRMari</a> buruzko gidan duzu jarraipen hori nola antolatu.
 
 <br>
 
-<strong>3. urratsa: konektatu komunikazioa, bonbardaketarik gabe</strong>
+<strong>4. urratsa: sinadurak eta dokumentuak paperik gabe</strong>
 
 <br>
 
-Posta elektronikoz soilik komunikatzea ez da nahikoa familia askotan, gehitu jakinarazpenak aplikazioan edo atarian, dagokion tonuarekin. Pro-komunikazioa, txata, push, irakurketaren berrespena, faseka segmentatua, zintzoa "ez nuen irakurri" eta karga baxua murrizten du, familia oharren horma bihurtu gabe. Lerrokatu mezuak gertakariekin: jasotako dokumentua, ordainketa falta, hitzorduaren data, itxiera, idazkaritzak ikusten duenarekin talka egin gabe, plataforma bera, oinarri bera.
+Baimenek sortzen dute paper gehien. Aplikaziotik edo familien ataritik egindako sinadura elektroniko batekin, dokumentu bakoitza ikaslearen espedientean gordetzen da bere datarekin, eta idazkaritzak begirada batean ikusten du zer falta den.
+
+Eskatu dokumentuak behar diren fasean, eta ez lehenago. Osasun-datuak, adibidez, altarako behar dira, ez informazioa eskatzeko.
 
 <br>
 
-<strong>4. urratsa: erreserba, dokumentua eta kutxa</strong>
+<strong>5. urratsa: plaza-erreserba eta lehen kobrantza</strong>
 
 <br>
 
-Lotu erreserba, zenbatekoa, jaulkipena, ordainagiriak, arrastoak. Fakturazio elektronikoa eta ez-ordainketen azterketa, fakturazio moduluan, erreserba segurua izan dadin zorraren kontrolarekin, ez sorpresarekin. Eskolaz kanpoko jarduerak edo zerbitzuak kudeatzen badituzu plazak eta lotuta dauden karguekin, saihestu adiskidetzea hausten duen hirugarren "gurdi" bat. Lineako denda, albaranak eta ikasle bakoitzeko historia, zure eskaintzari dagokionean, irizpide bakarrean egokitzen da, ez kutxa isolatu batean.
+Zentroak plaza-erreserba kobratzen badu, ohiko unea familiak proposatutako plaza onartzen duenekoa da, prozesu beraren barruan eta behin betiko altaren aurretik. Horrela erreserbak konpromisoa berresten du eta zentroak badaki benetan zer plaza dituen beteta.
+
+Erreserbaren ordainagiriak gero kuotak fakturatuko dituen sistema beretik atera behar du, bere Verifactu erregistroarekin. Erreserba alde batetik eta kuotak bestetik kobratzen badira, iraileko bateratzea zaildu egiten da.
 
 <br>
 
-<strong>5. urratsa: dokumentazioa, fitxategia, hodeia</strong>
+<strong>6. urratsa: abisatu familiari aldaketa bakoitzean</strong>
 
 <br>
 
-Fitxategiak kargatzea, baliozkotzea, ikusgarritasuna ikastaro, talde, ikasle, hodeiko modulua, karpetak, jaitsi "WeTransfer bidez bidali didazu eta galdu egin da". Hodeia edo dokumentuen kudeaketa eskasa bada, zentroa postontzietan bizi da, jasangaitza, agerian. Hodeian dauden dokumentuek, baimenekin, arriskua eta birprozesatzea murrizten dute.
+Kanpainan idazkaritzara iristen diren dei askok galdetzen dute eskaera iritsi den. Fase-aldaketa bakoitzean mugikorrera bidalitako abisu batek saihesten ditu:
+
+- Eskaera jasota, hurrengo urratsarekin.
+- Dokumentu bat falta da, igotzeko esteka batekin.
+- Plaza berretsita, onartzeko epearekin.
+- Matrikula osatuta, lehen ordainagiriarekin eta aplikaziorako sarbidearekin.
 
 <br>
 
-<strong>6. urratsa: automatizatu magia, arau eta arrastorik gabe</strong>
+<strong>7. urratsa: probatu talde txiki batekin kanpaina ireki aurretik</strong>
 
 <br>
 
-Automatizazio moduluak, arauak, lan-fluxuak, onboarding dituena, zereginak, abisuak, urratsak ezar ditzake, onarpen irizpideak ordezkatu gabe, baina zeregin baxuak murrizten ditu. Politikarekin, txantiloiekin, jabetza duen norbaitekin edo kanalizazioa zarataz betetzen da, eskuz baino okerrago.
+Matrikula familia guztiei ireki aurretik, probatu talde murriztu batekin: egungo ikasleen anai-arrebak, langileen familiak edo maila bakar bat. Begiratu hiru gauzari:
+
+- **Zenbat familiak amaitzen duten formularioa** hasten dutenen artean. Askok uzten badute, luzeegia da edo zerbait une okerrean eskatzen du.
+- **Zenbat denbora behar duen idazkaritzak** eskaera oso bat berrikusteko.
+- **Zer galdera iristen diren** telefonoz edo posta bidez. Errepikatzen den galdera bakoitza formularioan falta den testu bat da.
+
+Doitu behar dena eta ireki kanpaina prozesuak azalpenik gabe funtzionatzen duenean.
 
 <br>
 
-<strong>Sareko matrikula profilaren arabera: haurtzaindegia, eskola, akademia</strong>
+<strong>Zentro motaren arabera aldatzen dena</strong>
 
 <br>
 
-Abiarazi aurretik, prestatu “krisi-kit”-a: zein mezu ateratzen den ordainketak huts egiten badu, dokumentu bat irakurgaitza bada, ikastaro bat bero-bero beteta badago, norbait eskaera bat bikoizten saiatzen bada. Idatzizko erantzun hauek idazkaritza arintzen dute eta inprobisazioa saihesten dute aste kritikoan. Kit-a existitzen ez bada, softwarea ahuntz bilakatzen da, hutsunea prozesatzen denean.
+- **Haur-eskolak**: plaza gutxi daude eta itxaron-zerrenda ohikoa da. Komeni da zerrenda prozesuaren beste etapa bat izatea, ordena argi batekin, eta osasun- eta elikadura-datuak egokitzapen-aldiaren aurretik jasotzea.
+- **Ikastetxeak**: ikasle berriez gain, egungoen berritzea dago, berrespen sinple batekin konpon daitekeena. Zerbitzuak (jantokia, garraioa, eskolaz kanpokoak) matrikulan kontratatuta geratu behar dira, lehen ordainagiria ondo atera dadin.
+- **Akademiak**: izen-ematea etengabea da ikasturtean zehar eta taldeak mailaren eta ordutegiaren arabera antolatzen dira. Formularioak plaza erabilgarriak erakutsi behar ditu, eta sistemak abisatu talde bat betetzen denean.
 
 <br>
 
-Plaza mugatuak eta itxaron zerrenda dituen haur eskola edo haurtzaindegi bat marruskaduraz bizi eta hiltzen da: egun berean zortzi eranskin eskatzen badituzu, familiak alderatu, utzi egiten du edo prozesua erdibidean uzten du, eta ez dakizu interes falta edo erabilgarritasun eskasa izan den. Hobe da datu batzuk biltzea, berrestea eta dokumentu sentikorra bigarren leiho batean jartzea, mezu argi batekin, "X egunetan egiaztatzearen zain", hau da, zintzoa, ez atzerapena. Hainbat etapa eta prezio anitz dituen eskola: eremu mamuekin "forma generikoa" logika saihesten du; mapak ikastaroa, zerbitzuak, zatikatzea, eta fakturazioan eta erreserban islatzen du, ez mezu elektronikoetan. Akademia edo prestakuntza-zentro bat: txandak, egoitzak, promozioak, jatorria eta eskaintza ikusgaia eskatzen du CRMn, bisita dagokion pertsonari esleitzeko, ez lehen doakoari, hau da, aukera galtzen da, ez amaieran, ordaintzerakoan, hasieran baizik, ez erantzunez. Profil guztietan, hari bera: iturri bat, etapak, zereginak, tonua eta neurketa, hau da, Edenak eusten duen estandarra, moduluaren hedapenean agertzen ez diren promesak gehitu gabe.
+<strong>Ohiko akatsak</strong>
 
 <br>
 
-<strong>7. urratsa: proba xerrarekin, neurtu, luzatu</strong>
+- **Formulario isolatu bat**, sisteman eskaera sortu beharrean mezu bat bidaltzen duena.
+- **Dokumentu guztiak lehen egunean eskatzea**, familia oraindik zentroak alderatzen ari denean.
+- **Arduradunik ez esleitzea**: kanpaina betean, guztiona dena ez du inork artatzen.
+- **Aurrez aurreko aukerarik ez aurreikustea** online egin ezin duten familientzat.
+- **Kanpaina probatu gabe irekitzea** benetako familiekin.
 
 <br>
 
-Zortzi-hamabi aste, karga erreala, hilabeteko sarrera, familia boluntarioak edo ikastaro baxua, metrika finkoa, gero irekitzea, ez "1. eguna marketing masiboa eta bulegoan hiru pertsona dituzten guztiei".
+<strong>Nola egiten den Edenan</strong>
 
 <br>
 
-<strong>Maiz akatsak</strong>
+Edenan, matrikula onlineak zentroaren gainerako kudeaketak erabiltzen dituen pieza berberak erabiltzen ditu:
 
-<br>
-
-- CRMtik isolatuta dauden inprimakiak, idazketa bikoitza eta datuen noraeza.
-- Erantzukizunik gabe: gailurretan dena “ahal duenari” erortzen zaio eta zerbitzua matxuratzen da.
-- Erreserba irizpiderik gabeko ohartarazpena: zerrendekin gatazkak eta ospe kaltetua.
-- Ez lehenetsi mugikorra: familia askok lehen pantailan abandonatzen dute.
-- "Zero paper" hitzeman eta kopia fisikoa eskatzen jarraitu plan hibrido argirik gabe.
-
-<br>
-
-<strong>Kasu laburra, eredu errepikagarria</strong>
-
-<br>
-
-Web-kontratazioa eta egungo ikasleen familia deribatuak jatorri bateratu, formularioa birdiseinatu, erreserbak ordainketa-irizpideekin ezarri eta abisu segmentatu aktibatu ditu. Ez zegoen marketin “miraria” zifrarik, baina dokumentazioan uzteak behera egin zuen eta itxiera areagotu egin zen bisitaren osteko fasean, hau da, batzordeak pultsua hartzen du datuekin, ez intuizioarekin.
-
-<br>
-
-<strong>Noiz kobratu erreserba?</strong>
-
-<br>
-
-Bisita baten ondoren edo onartutako proposamenaren ondoren, fluxu digital berean, behin betiko alta baino lehen.
-
-<br>
-
-<strong>Ezartzeko epea (6 aste)</strong>
-
-<br>
-
-- **1. astea:** Dokumentuen mapa eta beharrezko eremuak ikastaro eta zerbitzuaren arabera.
-- **2. astea:** Web-inprimakia CRM eta kanalizazio-egoeretara konektatuta.
-- **3. astea:** Sinadura digitala eta baimenak (irudia, osasuna, bilduma).
-- **4. astea:** Erreserba-ordainketa fakturazioarekin integratuta.
-- **5. astea:** Probatu 10 familia piloturekin eta doitu marruskadurak.
-- **6. astea:** Idazkaritzako prestakuntza eta izena emateko kanpainaren irekiera.
-
-<br>
-
-<strong>Dokumentuak faseka</strong>
-
-<br>
-
-- **Interesa:** Tutorearen NANa, ikaslearen oinarrizko informazioa, eskatutako ikastaroa.
-- **Erreserba:** Zerbitzu-kontratua, aukerako SEPA zordunketa, erreserba-gordailua hala badagokio.
-- **Irakaskuntza:** Irudi baimenak, osasun erregistroa, biltzeko baimena duten pertsonak.
-- **Azken isuria:** Fitxategi osoa plataforman sinatutako dokumentu guztiekin eta programatutako lehen ordainketarekin.
-
-<br>
-
-<strong>Eskatu demo bat</strong>
-
-<br>
-
-, bide-orria gaur iritsi da,
-
-<br>
-
-<strong>automatizatu zure zentroa</strong>
-
-<br>
-
-eta posturak saihestu: neurtzen duzuna hobetzen duzu.
-
-<br>
-
-<strong>Testuingurua Espainian: kontratazioa eta matrikulazioa presio demografikoan</strong>
-
-<br>
-
-Autonomia erkidego askotan, zentro pribatuen eta diruz lagundutakoen arteko lehia handia da. Eskaera bat harrapatzea ez da matrikulatzea: etapa argiak, erantzun-epeak, dokumentazio digitala eta erreserba-kostuak dituen kanalizazioa behar duzu. Familiek hainbat zentro paraleloan alderatzen dituzte; Bisita bat berresteko edo proposamen bat bidaltzeko 48-72 ordu baino gehiago behar dituenak hautagaiak galtzen ditu jakin gabe.
-
-Erregistroa digitalizatzeak familia berri baten inskripzio administratiboa bost egunetik zazpi egunera 24-48 ordura murrizten du, fluxuak zirkuitu bakarrean espedientean sinadura, ordainketa eta inskripzioa barne hartzen baditu. CRM egoerarekin (interesatua, bisita, erreserba, erregistratuta) eta 48 orduko jarraipenarekin, kudeaketak "buruak" neurtzen ditu, baina ez benetako bihurketa jatorriaren edo etaparen arabera.
-
-2026an, Espainian hezkuntza-kontratazioak tokiko SEO, Open Day, erreferentziak eta ERP-rekin konektatutako web-inprimakia uztartzen ditu. ROI ez dago iragarki gehiagotan, baizik eta bisitaren ondorengo jarraipen diziplinatuan eta webgunean agintzen denaren eta idazkaritzak erregistroan exekutatzen duenaren arteko koherentzian.
-
-<br>
-
-<strong>Kasu praktikoa (Espainia)</strong>
-
-<br>
-
-420 ikasle aktibo dituen hizkuntza akademia batek web inprimaki bat ezarri zuen, CRM egoerarekin (interesatuta, bisitatu, erreserba, matrikulatuta) eta lineako matrikula ordainketarekin. Eskaeratik matrikularako bihurketa %42tik %58ra igo zen urtebetean, inprimakia erdibidean utzi zutenei jarraipen automatikoa eginez.
+- <a href="/eus/crm/">Eskola-CRMaren</a> **erakarpen-formularioak** zentroaren webgunean argitaratzen dira, eta eskaera bakoitza etapakako taula batean sartzen da, bere jatorriarekin eta arduradunarekin.
+- Familiek **baimenak eta dokumentuak sinatzen dituzte** aplikaziotik, eta ikaslearen espedientean gordetzen dira.
+- **Erreserba eta kuotak** Verifactu bidez fakturatzen dira eta SEPA helbideratzearen, transferentziaren edo txartelaren bidez kobratzen dira <a href="/eus/finance/">eskola-fakturaziotik</a>.
+- Familiek **mugikorrerako abisuak** jasotzen dituzte iOS eta Androiderako doako aplikazioan.
+- **Automatizazio** moduluarekin, ikaslearen alta berez sor daiteke matrikula berrestean.
 
 <br>
 
@@ -207,6 +167,8 @@ Erregistroa digitalizatzeak familia berri baten inskripzio administratiboa bost 
 
 <br>
 
-Sareko erregistroa digitalizatzea datuak, mezuak, ordainketa eta dokumentuak bide koherente batean berrantolatzea da, zifra finkoak aztertzen dituen batzorde batekin eta plataforma bateratu batekin. Edena oinarrizko plataforma, atari eta aplikazio bat biltzen du, CRM inprimakiekin, fakturazio ordainagiriekin eta ez-ordainketen azterketa, Pro edo oinarrizko komunikazioa planaren arabera, automatizazioa, hodeia, eskolaz kanpoko jarduerak edo denda hala badagokio, eta 24/24 laguntza.
+Matrikula onlineak funtzionatzen du familiak dena mugikorretik egin dezakeenean eta idazkaritzak eskaera bakoitza osorik eta leku bakarrean jasotzen duenean. Hori lortzeko, banatu prozesua faseetan, eskatu dokumentu bakoitza behar denean, lotu erreserba fakturazioarekin eta probatu familia gutxi batzuekin kanpaina ireki aurretik.
+
+Zure zentroaren prozesuarekin ikusi nahi baduzu, <a href="/eus/demo/">eskatu 15 minutuko demo bat</a>.
 
 <br>

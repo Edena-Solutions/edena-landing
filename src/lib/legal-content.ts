@@ -1,3 +1,5 @@
+import { withTrailingSlash } from "@/i18n/utils";
+
 /** Detects numbered section headings in legal policy content (e.g. "1. TITLE", "4.1 Subsection"). */
 export function isLegalSectionTitle(line: string): boolean {
     const trimmed = line.trim();
@@ -138,6 +140,19 @@ export function parseLegal(content: string, lang: string): LegalDocument {
     return doc;
 }
 
+/**
+ * The site's own addresses, as the legal texts write them ("www.edena.es/pricing"), linked at their
+ * canonical URL: no www and a trailing slash, so the link costs no redirects.
+ */
+function siteHref(url: string): string {
+    const u = new URL(url);
+    if (u.hostname !== "www.edena.es" && u.hostname !== "edena.es") return url;
+    u.hostname = "edena.es";
+    if (u.pathname.startsWith("/es/")) u.pathname = u.pathname.slice(3);
+    u.pathname = withTrailingSlash(u.pathname);
+    return u.toString();
+}
+
 /** Splits text into plain runs and links: emails, and web addresses. */
 export function linkify(text: string): { text: string; href?: string }[] {
     const parts: { text: string; href?: string }[] = [];
@@ -150,7 +165,7 @@ export function linkify(text: string): { text: string; href?: string }[] {
         found = found.slice(0, found.length - trail.length);
         const start = match.index ?? 0;
         if (start > last) parts.push({ text: text.slice(last, start) });
-        const href = match[1] ? `mailto:${found}` : found.startsWith("http") ? found : `https://${found}`;
+        const href = match[1] ? `mailto:${found}` : siteHref(found.startsWith("http") ? found : `https://${found}`);
         parts.push({ text: found, href });
         last = start + found.length;
     }

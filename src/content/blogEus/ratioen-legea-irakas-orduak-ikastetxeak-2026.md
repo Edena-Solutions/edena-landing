@@ -3,7 +3,7 @@ title: "Ratioen eta irakas-orduen legea: zer aldatzen den ikastetxeentzat eta no
 seoTitle: "Ratioen eta irakas-orduen legea: zer aldatzen den"
 date: "2026-09-24"
 translationKey: "ley-ratios-jornada-lectiva-colegios-2026"
-description: "Lege-proiektuak 22 ikasle finkatzen ditu Lehen Hezkuntzan eta 25 DBHn funts publikoekin sostengatutako zentroetan, eta irakas-orduak mugatzen ditu. Egutegia eta ondorioak."
+description: "Lege-proiektuak 22 ikasle finkatzen ditu Lehen Hezkuntzan eta 25 DBHn funts publikoko zentroetan, eta irakas-orduak mugatzen ditu. Egutegia eta ondorioak."
 tags: ["ratioen legea", "eskola-ratioak", "irakas-orduak", "itunpeko ikastetxeak", "hezkuntza-araudia"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1200&auto=format&fit=crop"

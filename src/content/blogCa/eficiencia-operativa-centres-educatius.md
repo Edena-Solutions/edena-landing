@@ -1,5 +1,5 @@
 ---
-title: "Eficiència operativa en centres educatius: Optimitzant recursos amb tecnologia"
+title: "Eficiència operativa en centres educatius: aprofitar millor els recursos amb tecnologia"
 seoTitle: "Eficiència operativa en centres educatius amb tecnologia"
 date: "2024-11-15"
 translationKey: "eficiencia-operativa-centros-educativos"
@@ -22,7 +22,7 @@ faqs:
       answer: "Entre 8 i 12 setmanes, amb un cicle real de facturació o admissió i criteri d'èxit escrit."
 ---
 
-<strong>Eficiència operativa en centres educatius: Optimitzant recursos amb tecnologia</strong>
+<strong>Eficiència operativa en centres educatius: aprofitar millor els recursos amb tecnologia</strong>
 
 <br>
 

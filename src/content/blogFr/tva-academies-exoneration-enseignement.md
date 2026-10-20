@@ -3,7 +3,7 @@ title: "TVA dans les académies : quand l'enseignement est exonéré et comment 
 seoTitle: "TVA dans les académies : quand l'enseignement est exonéré"
 date: "2026-09-30"
 translationKey: "iva-academias-exencion-ensenanza"
-description: "Quelles académies peuvent appliquer l'exonération de TVA de l'article 20.Un.9º, ce qu'il en est des langues, du soutien, de la musique ou du sport, et comment l'indiquer sur la facture."
+description: "Quelles académies peuvent appliquer l'exonération de TVA de l'article 20.Un.9º, et ce qu'il en est des langues, du soutien, de la musique ou du sport."
 tags: ["TVA académies", "exonération de TVA", "académies", "facturation", "fiscalité"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1761914410572-02614b575847?q=80&w=1200&auto=format&fit=crop"

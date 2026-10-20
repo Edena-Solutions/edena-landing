@@ -1,135 +1,118 @@
 ---
-title: "Meilleur logiciel de gestion scolaire en Espagne : comparatif 2026"
-seoTitle: "Meilleur logiciel de gestion scolaire en Espagne (2026)"
+title: "Comparatif des logiciels de gestion scolaire en Espagne : 8 plateformes, critère par critère"
+seoTitle: "Logiciels de gestion scolaire en Espagne : comparatif 2026"
 date: "2026-03-16"
+updated: "2026-10-20"
 translationKey: "comparativa-software-gestion-escolar-espana-2026"
-description: "Comparatif 2026 des logiciels scolaires en Espagne : critères d’achat, facturation, CRM, TCO, conformité et feuille de route."
-tags:
-    [
-        "logiciel gestion scolaire",
-        "ERP éducatif",
-        "facturation école",
-        "CRM scolaire",
-        "dématérialisation",
-        "cours et collectes",
-    ]
+description: "Edena, Alexia, Clickedu, Esemtia, SM Educamos, TokApp, Dinantia et LiveKid : ce que chacune montre dans ses informations publiques et comment choisir."
+tags: ["logiciel de gestion scolaire", "comparatif", "ERP éducatif", "Verifactu", "CRM scolaire"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop"
+relatedPosts:
+    - meilleur-logiciel-gestion-scolaire
+    - choisir-logiciel-scolaire-checklist-2026
+    - changer-logiciel-scolaire-interoperabilite-portabilite-donnees-2026
+    - migrer-excel-erp-scolaire-2026
 faqs:
-    - question: "Existe-t-il un “meilleur” universel ?"
-      answer: "Non. Tout est alignement de process, taille, modèle, priorités d’encaissement."
-    - question: "Verifactu : que demander ?"
-      answer: "Clarifier périmètre, accompagnement, preuve d’exploitation, pas de promesse."
-    - question: "Durée de pilote ?"
-      answer: "8–12 semaines, données réelles, un cycle, une campagne, critère de sortie."
-    - question: "Risque de licence basse ?"
-      answer: "Rattrapage en heures, intégration, re-migration. Utilisez TCO."
-    - question: "Comment évaluer si la plateforme est vraiment intégrée ou juste connectée via API ?"
-      answer: 'Demandez à voir le flux complet d''une demande d''inscription jusqu''à la première facture dans la même interface, sans changement d''écran ni ressaisie de données. Si le commercial doit ouvrir un autre onglet ou vous dit "cette partie est gérée par un partenaire", vous avez votre réponse. Une vraie intégration signifie une identité de donnée unique : le même élève dans le dossier, la facturation, le CRM et le portail famille.'
+    - question: "Quel est le meilleur logiciel de gestion scolaire ?"
+      answer: "Aucun ne convient de la même façon à tous les établissements. Une crèche a besoin d’un cahier de liaison quotidien et de l’encaissement des frais ; une école, d’évaluation, de bulletins et d’une facturation avec plusieurs services ; une académie, d’inscriptions continues et de tarifs par activité. Le meilleur est celui qui couvre vos processus sans vous obliger à garder un autre outil à côté."
+    - question: "Quelles plateformes indiquent leur compatibilité avec Verifactu ?"
+      answer: "D’après leurs informations publiques, vérifiées le 20 octobre 2026, Edena, Alexia, Clickedu et Esemtia indiquent prendre en charge VERI*FACTU. Pour TokApp, SM Educamos, Dinantia et LiveKid, cela n’apparaît pas dans leurs informations publiques, ce qui ne veut pas dire qu’ils ne l’ont pas : posez la question lors de la démo."
+    - question: "Quelles plateformes publient leur prix ?"
+      answer: "Edena et LiveKid publient leur prix sur leur site. Les autres le communiquent à chaque établissement après une démo ou une demande de devis."
+    - question: "Quelle différence entre une application de communication et un logiciel de gestion scolaire ?"
+      answer: "Une application de communication gère les annonces, les messages et parfois les paiements des familles. Un logiciel de gestion scolaire gère en plus le dossier de l’élève, l’évaluation, la facturation et le secrétariat. Si vous utilisez aujourd’hui une application de communication et un autre logiciel pour facturer, comparez le coût de garder les deux."
+    - question: "Combien de temps consacrer au test d’une plateforme ?"
+      answer: "Assez pour parcourir un cycle complet avec des données réelles : une demande d’inscription, une inscription, une facture et son paiement, et une annonce aux familles. Demandez au fournisseur de faire la démo avec ces cas plutôt qu’avec des données d’exemple."
 ---
 
-<strong>Meilleur logiciel de gestion scolaire en Espagne : comparatif 2026</strong>
+<strong>Comparatif des logiciels de gestion scolaire en Espagne : 8 plateformes, critère par critère</strong>
 
 <br>
 
-Choisir le meilleur logiciel de gestion scolaire en Espagne, c’est trancher sur la trésorerie, la conformité et l’expérience des familles, pas seulement remplacer des chemises. Les établissements se disputent des inscriptions, subissent une exigence réglementaire en hausse et font travailler des équipes d’administration serrées. En 2026, celles et ceux qui routent encore par boîte mail, tableur et papier paient en heures, erreurs et impayés. Cette comparaison fournit des critères d’achat, des nuances de terrain et une lecture du marché sans tomber dans la “modularité” creuse. La question n’est pas ce que montre la démo, mais ce qui tient à quatre-vingt-dix jours, avec le secrétariat aligné, la direction face à des chiffres fiables, et des familles sur des canaux clairs. L’objectif : protéger l’établissement, réduire la charge, sécuriser les encaissements. Un ERP scolaire ou une plateforme aboutie relie dossier, prélèvements, communication et, le cas échéant, pipeline d’inscription, sans friction inutile.
+Si vous choisissez un logiciel pour votre établissement en Espagne, vous finirez probablement par comparer certaines de ces plateformes : Edena, Alexia, Clickedu, Esemtia, SM Educamos, TokApp, Dinantia et LiveKid. Elles ne font pas toutes la même chose. Certaines sont nées pour la communication avec les familles, d’autres pour la gestion pédagogique, d’autres pour les crèches.
+
+Cet article est publié par Edena, l’une des plateformes comparées. Pour que vous puissiez vérifier chaque information, nous suivons la même méthode que dans notre <a href="/fr/compare/">comparatif des logiciels scolaires</a> : les informations publiques de chaque fournisseur (site officiel, fiches produit et presse spécialisée), vérifiées le 20 octobre 2026. Quand nous disons qu’une fonction « n’apparaît pas dans ses informations publiques », cela veut dire que nous ne l’avons pas trouvée dans ces sources, pas que la plateforme ne l’a pas.
 
 <br>
 
-<strong>Pourquoi un comparatif sérieux n’est pas une grille binaire</strong>
+<strong>Trois types de plateformes</strong>
 
 <br>
 
-Hier, numériser la présence ou envoyer un mail de masse suffisait. Aujourd’hui, un outil de gestion éducative crédible assemble au minimum le dossier numérique, un portail ou une application familiale, la facturation traçable, une analytique de pilotage, et une sécurité proche des attentes du GDPR. La facturation électronique, les parcours d’inscription en ligne, le suivi de demande : ce n’est plus du confort, c’est de l’hygiène d’acquisition. Si le cœur de système n’inclut pas de CRM scolaire, de formulaires et d’origine de piste, quelqu’un recolle la réalité à la main, et le coût revient à l’établissement.
+Avant de comparer les fonctions, mieux vaut savoir de quel type d’outil il s’agit :
+
+- **Applications de communication avec les familles** : TokApp et Dinantia. Elles gèrent les annonces, les messages, les autorisations et les paiements des familles. Leurs informations publiques ne montrent ni dossier scolaire complet ni facturation avec VERI*FACTU.
+- **Plateformes de gestion pédagogique et administrative** : Alexia, Clickedu, Esemtia et SM Educamos. Elles couvrent le dossier de l’élève, l’évaluation, l’espace numérique de travail et la gestion financière, et sont souvent liées à des groupes d’édition ou éducatifs.
+- **Applications pour les crèches** : LiveKid, centrée sur le quotidien des enfants de 0 à 3 ans.
+
+Edena réunit la gestion de l’établissement, la communication avec les familles, la facturation avec Verifactu et un CRM d’admissions, pour les crèches, les écoles, les académies et les groupes scolaires.
 
 <br>
 
-<strong>Typologie d’offres : ce qu’on compare vraiment</strong>
+<strong>Les huit plateformes, une par une</strong>
 
 <br>
 
-- Plateformes intégrées écoles et crèches, facturation, communication, parfois extrascolaires, automatisation, espace documentaire, objectif baisse d’impayés et visibilité.
-- Systèmes pédagogiques lourds, plus faibles sur relances, CRM, encaissement récurrent.
-- Offres verticales par cycle : chacune ajuste fréquence de prélèvement, sensibilité de communication.
-- Assemblages modulaires de connecteurs : chiffrer le coût total, pas l’écran isolé.
-
-Le comparatif sain note la chaîne entière, de l’intérêt initiale à l’encaissement.
-
-<br>
-
-<strong>Critères 2026 : poids en comité d’achat</strong>
+- **Edena.** Communication, application gratuite pour les familles, présences, dossier de l’élève, évaluation et bulletins, paiements et facturation avec remises SEPA, boutique de l’établissement, CRM d’admissions, intelligence artificielle intégrée (Ena) et suivi du temps de travail du personnel. Elle publie son prix (à partir de 36 € par mois), propose un essai de 30 jours sans carte et sa déclaration de conformité VERI*FACTU. L’espace numérique est partiel : devoirs, notes et bulletins, sans contenus d’éditeur.
+- **Alexia** (Educaria). Suite de gestion scolaire avec communication, application, dossier, évaluation, espace numérique de travail, paiements, facturation avec VERI*FACTU, boutique et intelligence artificielle. Ses informations publiques montrent un CRM d’admissions partiel. Pas de prix publié ; démo proposée. <a href="/fr/compare/edena-vs-alexia/">Edena vs Alexia</a>.
+- **Clickedu** (Sanoma Learning). Gestion pédagogique, financière et communication, avec espace numérique de travail, facturation et déclaration VERI*FACTU publiée. CRM d’admissions partiel selon ses informations publiques. Pas de prix publié ; démo proposée. <a href="/fr/compare/edena-vs-clickedu/">Edena vs Clickedu</a>.
+- **Esemtia** (Groupe Edebé). Plateforme de gestion éducative avec des solutions pour les écoles et la formation professionnelle, espace numérique de travail, facturation et prise en charge de VERI*FACTU. CRM d’admissions partiel selon ses informations publiques. Pas de prix publié ; démo proposée. <a href="/fr/compare/edena-vs-esemtia/">Edena vs Esemtia</a>.
+- **SM Educamos** (Groupe SM). Plateforme éducative avec gestion de l’établissement, communication, espace numérique de travail, paiements, facturation et boutique. VERI*FACTU n’apparaît pas dans ses informations publiques et son CRM d’admissions est partiel. Pas de prix publié. <a href="/fr/compare/edena-vs-educamos/">Edena vs SM Educamos</a>.
+- **TokApp.** Application de communication et de paiements, avec présences, boutique et intelligence artificielle. Ses informations publiques ne montrent ni facturation avec VERI*FACTU ni CRM d’admissions. Pas de prix publié ; démo proposée. <a href="/fr/compare/edena-vs-tokapp/">Edena vs TokApp</a>.
+- **Dinantia** (groupe LiveKid depuis 2022). Communication, admissions avec CRM, paiements, boutique et suivi du temps de travail. La facturation y apparaît comme partielle et VERI*FACTU n’apparaît pas dans ses informations publiques. Essai proposé. <a href="/fr/compare/edena-vs-dinantia/">Edena vs Dinantia</a>.
+- **LiveKid.** Application de gestion pour les crèches avec communication, présences, dossier, paiements, facturation, suivi du temps de travail et intelligence artificielle. Elle publie son prix et propose un essai. VERI*FACTU n’apparaît pas dans ses informations publiques. <a href="/fr/compare/edena-vs-livekid/">Edena vs LiveKid</a>.
 
 <br>
 
-1. <strong>Facturation, prélèvement, traçabilité</strong>: Au-delà du PDF, émission cohérente avec règles, historique de reçus, suivi d’arriérés, maturité Verifactu.
-2. <strong>Expérience familiale</strong>: App, push, accusé, segmentation.
-3. <strong>CRM, formulaires, canaux d’acquisition</strong>: Pipeline, tâches, suivi, pas de fuite d’opportunité.
-4. <strong>Dossier et documentation</strong>: Dossiers, visibilité par groupe ou élève, moins d’allers-retour.
-5. <strong>Opérations : présence, devoirs, notes</strong>: Alertes, communication ciblée.
-6. <strong>Sécurité, accès, reprise</strong>: Rôles, chiffrement, preuve de lecture.
-7. <strong>Automatisation, onboarding</strong>: Règles, relances, réduction d’invisibles.
-
-Le poids change : établissement subventionné, encaissement ; centre de langues, inscriptions en ligne, créneaux. La grille honnête reflète votre douleur, pas le discours marketing.
+<strong>Réponses rapides</strong>
 
 <br>
 
-<strong>Erreurs fréquentes</strong>
+- **Facturation avec VERI*FACTU dans leurs informations publiques** : Edena, Alexia, Clickedu et Esemtia.
+- **Prix publié sur le site** : Edena et LiveKid.
+- **Essai gratuit sans passer par une démo** : Edena, LiveKid et Dinantia.
+- **CRM d’admissions complet** : Edena et Dinantia. Alexia, Clickedu, Esemtia, SM Educamos et LiveKid le montrent en partie.
+- **Espace numérique de travail et contenus** : Alexia, Clickedu, Esemtia et SM Educamos. Edena couvre les devoirs, les notes et les bulletins.
+- **Suivi du temps de travail du personnel** : Edena, LiveKid et Dinantia ; Alexia, en partie.
+
+Les sources de chaque critère sont indiquées sur la page de chaque comparatif.
 
 <br>
 
-- Croire la démo aux données de démonstration.
-- Omettre le secrétariat des tests, pourtant moteur du rythme.
-- Payer la licence, oublier migration, double-run, formation.
-- Cumuler un pont tableur sur leads ou recettes, risque maintenu.
-- Rester sur une feuille de route floue au lieu d’une reference client au profil proche.
-
-Éviter cela, c’est des dizaines d’heures par trimestre, moins d’aléas, moins de fragmentations de données.
+<strong>Comment choisir selon votre type d’établissement</strong>
 
 <br>
 
-<strong>Cas réels, anonymisés</strong>
+- **Crèche** : ce qui compte, c’est le cahier de liaison quotidien pour les familles (repas, siestes, photos), la liste d’attente et l’encaissement des frais avec aides ou places subventionnées. Comparez aussi la facturation et la préparation à Verifactu.
+- **École privée ou sous contrat** : il vous faut l’évaluation et les bulletins, plusieurs services par élève (cantine, transport, activités périscolaires), une facturation avec remises et une communication fiable avec les familles. Si votre communauté autonome a sa propre plateforme éducative, demandez comment elle se connecte.
+- **Académie** : l’inscription est continue, les tarifs varient selon l’activité et le nombre de cours, et le recrutement pèse davantage. Regardez le CRM, les forfaits de cours et les réductions pour les fratries.
+- **Groupe scolaire** : cherchez des rapports pour tout le réseau et la possibilité pour chaque établissement d’avoir sa propre série de factures.
 
 <br>
 
-Crèche de 140 places, arriérés >9% quinze mois, oubli, faible récurrence, messages mal cadrés. Unification de relances, rattachement des encaissements au dossier, segmentation, retour vers des niveaux sereins, temps secrétariat réaffecté à l’admission. Collège-lycée privé, besoin d’un pipeline d’inscription lisible, duplication d’états dans des feuilles. Mise en place d’entonnoir, de formulaires, de canaux, amélioration de la conversion, surtout avec historique de rappel. Académie multi-sites, besoin d’une seule source de vérité pour la BI, pas d’un beau graphique seul.
+<strong>Quoi demander pendant la démo</strong>
 
 <br>
 
-<strong>Questions propriétaires</strong>
+Une démo avec des données d’exemple montre les écrans, pas l’adéquation à votre établissement. Demandez au fournisseur de parcourir avec vous :
+
+1. **Une demande d’inscription**, du formulaire de votre site à l’inscription de l’élève.
+2. **Une vraie facture** de votre établissement, avec plusieurs services, une réduction et son enregistrement Verifactu.
+3. **Un impayé** : comment la famille est relancée et comment il apparaît dans le tableau de bord.
+4. **Une annonce aux familles** d’un seul niveau, avec accusé de lecture.
+5. **La migration** : quelles données sont importées, dans quel format et qui s’en charge.
+
+Demandez les réponses par écrit et comparez le coût total sur trois ans (licence, mise en place, formation et outils à garder à côté), pas seulement le prix par élève. Vous trouverez une liste plus complète dans la <a href="/fr/blog/choisir-logiciel-scolaire-checklist-2026/">checklist pour choisir un logiciel scolaire</a>.
 
 <br>
 
-- Parcours d’impayé, de l’alerte au rapprochement.
-- Constitution et audit d’un dossier, visibilité par niveau, groupe, élève.
-- Gestion de documents et journal de lecture.
-- Contenu concret du CRM, pipeline, origines, formulaires, relances.
-- Liaison chat, push, annonces.
-- Automatisations aujourd’hui.
-- Extras, boutique, albaran, stock, une seule caisse logique.
-- SLA, migration, calendrier, preuves.
-
-Tout par écrit. L’oral ne tient pas la rentrée.
+<strong>Conclusion</strong>
 
 <br>
 
-<strong>Comparaison de chiffres : TCO sur trois ans</strong>
+Les huit plateformes répondent à des besoins différents. Si votre priorité est la communication avec les familles, une application de communication peut suffire. Si vous avez besoin d’évaluation, d’un espace numérique de travail et de contenus, les plateformes pédagogiques sont la référence. Si vous voulez gérer dans un seul système le secrétariat, la facturation avec Verifactu, les admissions et l’application des familles, avec un prix public et un essai gratuit, Edena est conçue pour cela.
 
-<br>
-
-Licence, modules, mise en service, heures internes, coût d’opportunité, risque de re-migrer, croissance. Un logiciel d’apparence bon marché qui ajoute un prestataire pour caisse ou CRM s’alourdit. Décidez en euros par élève, fiabilité de recouvrement, vitesse d’inscription, heures gagnées, expérience.
-
-Edena exprime cela de façon modulaire, pour écoles, crèches, académies, formation : base, facturation, communication Pro, CRM, extras, automatisation, boutique, espace documentaire, support 24/7, pour piloter, réduire l’arriéré, traiter l’inscription, sans disperser l’outillage.
-
-<br>
-
-<strong>Ce qui “gagne” en 2026</strong>
-
-<br>
-
-- Noyau unique dossier–paiement–communication.
-- Analytique crédible.
-- Acquisition structurée.
-- Marge de croissance : règles, flux, services annexes, cloud.
-- Rigueur d’onboarding, pas de slide vide.
+Vous pouvez consulter chaque face-à-face avec ses sources dans le <a href="/fr/compare/">comparatif des logiciels scolaires</a> ou <a href="/fr/demo/">demander une démo de 15 minutes</a> avec les cas de votre établissement.
 
 <br>

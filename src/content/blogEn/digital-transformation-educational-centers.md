@@ -26,7 +26,7 @@ faqs:
 
 <br>
 
-Digital transformation is not just a fad; It is an imperative need for educational centers that want to remain relevant and competitive in 2026. However, implementing this change is not an easy task. It requires strategic vision, effective leadership, and a systematic approach that considers both technological and human aspects.
+Digital transformation is not just a fad; it is an imperative need for educational centers that want to remain relevant and competitive in 2026. However, implementing this change is not an easy task. It requires strategic vision, effective leadership, and a systematic approach that considers both technological and human aspects.
 
 <br>
 

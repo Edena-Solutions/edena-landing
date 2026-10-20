@@ -23,7 +23,7 @@ faqs:
     - question: "How much late payment is 'normal' at a private school?"
       answer: "It varies by socioeconomic profile and collection method, but many healthy centers move between 4% and 8% at 45 days. Above 10% it is advisable to review the calendar, direct debit and sequence of reminders before expanding the workforce."
     - question: "Does Verifactu change how I charge families?"
-      answer: "Verifactu mainly affects the issuance and traceability of invoices before the AEAT, not the payment method itself. It does require your billing software to generate compliant records; It is advisable to integrate it with collections and conciliation."
+      answer: "Verifactu mainly affects the issuance and traceability of invoices before the AEAT, not the payment method itself. It does require your billing software to generate compliant records; it is advisable to integrate it with collections and conciliation."
 ---
 
 <strong>Smart financial management for educational centers</strong>

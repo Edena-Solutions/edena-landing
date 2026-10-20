@@ -1,5 +1,5 @@
 ---
-title: "Innovació pedagògica amb tecnologia: Transformant l'ensenyament i l'aprenentatge"
+title: "Innovació pedagògica amb tecnologia: com canvien l'ensenyament i l'aprenentatge"
 seoTitle: "Innovació pedagògica amb tecnologia a l'aula"
 date: "2024-10-15"
 translationKey: "innovacion-pedagogica-tecnologia"
@@ -22,7 +22,7 @@ faqs:
       answer: "Ben feta, ho torna: menys duplicar llistats i circulars manuals significa més temps per a avaluació i tutoria."
 ---
 
-<strong>Innovació pedagògica amb tecnologia: Transformant l'ensenyament i l'aprenentatge</strong>
+<strong>Innovació pedagògica amb tecnologia: com canvien l'ensenyament i l'aprenentatge</strong>
 
 <br>
 

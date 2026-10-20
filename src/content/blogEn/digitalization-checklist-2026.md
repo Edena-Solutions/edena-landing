@@ -17,7 +17,7 @@ relatedPosts:
     - administrative-processes-automate-school
 faqs:
     - question: "Does this 2026 digitalization checklist apply to any type of center?"
-      answer: "Yes. The blocks (billing, families, data, processes, visibility) are common; The detail is adapted to the size, educational stage and regional or national regulations."
+      answer: "Yes. The blocks (billing, families, data, processes, visibility) are common; the detail is adapted to the size, educational stage and regional or national regulations."
     - question: "Where do I start if I'm too far behind?"
       answer: "Usually a priority is: electronic billing if it is mandatory, and then collection (online payments and reminders) and communication with families. Data and compliance go in parallel to avoid accumulating legal debt."
     - question: "Do we need a single software for everything?"

@@ -1,5 +1,5 @@
 ---
-title: "Competencia digital para educadores: Preparando a los profesores del futuro"
+title: "Competencia digital para educadores: cómo preparar al profesorado"
 seoTitle: "Competencia digital docente: lo que necesita el profesorado"
 date: "2024-09-30"
 translationKey: "competencia-digital-educadores"
@@ -19,7 +19,7 @@ faqs:
       answer: "Bien hecha, lo devuelve: menos duplicar listados y circulares manuales significa más tiempo para evaluación y tutoría."
 ---
 
-<strong>Competencia digital para educadores: Preparando a los profesores del futuro</strong>
+<strong>Competencia digital para educadores: cómo preparar al profesorado</strong>
 
 <br>
 

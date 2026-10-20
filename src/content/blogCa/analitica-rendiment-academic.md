@@ -1,5 +1,5 @@
 ---
-title: "Analítica del rendiment acadèmic: Dades per potenciar l'aprenentatge"
+title: "Analítica del rendiment acadèmic: com fer servir les dades per millorar l'aprenentatge"
 seoTitle: "Analítica del rendiment acadèmic en centres educatius"
 date: "2025-01-10"
 translationKey: "analitica-rendimiento-academico"
@@ -25,7 +25,7 @@ faqs:
       answer: "Intervenció tutorial i recursos, no només més exàmens."
 ---
 
-<strong>Analítica del rendiment acadèmic: Dades per potenciar l'aprenentatge</strong>
+<strong>Analítica del rendiment acadèmic: com fer servir les dades per millorar l'aprenentatge</strong>
 
 <br>
 

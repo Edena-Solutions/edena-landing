@@ -1,5 +1,5 @@
 ---
-title: "Apps móviles en educación: La experiencia digital en tu bolsillo"
+title: "Apps móviles en educación: el centro en el bolsillo de las familias"
 seoTitle: "Apps móviles en educación: el centro en el bolsillo"
 date: "2025-04-15"
 translationKey: "app-movil-educacion"
@@ -22,7 +22,7 @@ faqs:
       answer: "Urgencias en push; informativo en bandeja digestiva o email resumen."
 ---
 
-<strong>Apps móviles en educación: La experiencia digital en tu bolsillo</strong>
+<strong>Apps móviles en educación: el centro en el bolsillo de las familias</strong>
 
 <br>
 

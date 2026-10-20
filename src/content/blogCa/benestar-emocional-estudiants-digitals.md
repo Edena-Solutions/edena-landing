@@ -1,5 +1,5 @@
 ---
-title: "Benestar emocional d'estudiants a l'era digital: Estratègies i eines"
+title: "Benestar emocional de l'alumnat a l'era digital: estratègies i eines"
 seoTitle: "Benestar emocional de l'alumnat a l'era digital"
 date: "2025-08-30"
 translationKey: "bienestar-emocional-estudiantes-digitales"
@@ -25,7 +25,7 @@ faqs:
       answer: "Sessions breus sobre ús equilibrat i controls parentals."
 ---
 
-<strong>Benestar emocional d'estudiants a l'era digital: Estratègies i eines</strong>
+<strong>Benestar emocional de l'alumnat a l'era digital: estratègies i eines</strong>
 
 <br>
 

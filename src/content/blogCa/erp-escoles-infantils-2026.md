@@ -22,7 +22,7 @@ faqs:
     - question: "Un ERP per a infantil pot gestionar també alumnes amb necessitats especials?"
       answer: "L'expedient digital pot emmagatzemar informació específica d'adaptacions, autoritzacions i protocols. El nivell de detall i l'estructura d'aquests registres depèn de com configureu el sistema; consulta quins camps personalitzables ofereix el proveïdor per a aquest perfil abans de comprometre't."
     - question: "Com es gestiona la transició d'un sistema antic sense perdre dades crítiques?"
-      answer: "Exigeix ​​al proveïdor un pla de migració per fases: primer dades mestres (alumnes, tutors, grups), després històric de cobraments, després documents. Valida amb dades reals abans de tancar el sistema anterior i planifica un període de coexistència. Sense aquest pla, el risc de perdre històric d?impagaments o contractes és real."
+      answer: "Exigeix ​​al proveïdor un pla de migració per fases: primer dades mestres (alumnes, tutors, grups), després històric de cobraments, després documents. Valida amb dades reals abans de tancar el sistema anterior i planifica un període de coexistència. Sense aquest pla, el risc de perdre històric d'impagaments o contractes és real."
     - question: "Quan triga a estar operativa la plataforma?"
       answer: "Depèn del volum de dades, la complexitat del centre i el nivell de personalització. A centres de fins a 150 places, un pilot bàsic pot estar actiu en quatre a sis setmanes amb migració i formació incloses, si hi ha dedicació d'un responsable intern."
     - question: "Val la pena el mòdul d'extraescolars si tenim poques activitats?"
@@ -121,6 +121,6 @@ Una escola bressol de 85 places a Girona va avaluar tres proveïdors amb el mate
 
 <br>
 
-Un ERP per a escoles infantils el 2026 no és un caprici tecnològic: és la diferència entre un equip que treballa amb criteri i traces, i un que reconstrueix la realitat cada dilluns des de tres fonts diferents. Tria amb TCO, demo amb les teves dades i comitè alineat. A Edena pots començar amb els mòduls que alimentaràs de debò i afegir quan el volum ho justifiqui, amb suport 24/7 i sense sorpreses de catàleg. Demana una sessió i veu el flux complet amb les places, el cicle de cobrament i la comunicació.
+Un ERP per a escoles infantils el 2026 no és un caprici tecnològic: és la diferència entre un equip que treballa amb criteri i traces, i un que reconstrueix la realitat cada dilluns des de tres fonts diferents. Tria amb TCO, demo amb les teves dades i comitè alineat. A Edena pots començar amb els mòduls que alimentaràs de debò i afegir quan el volum ho justifiqui, amb suport per correu i xat i sense sorpreses de catàleg. Demana una sessió i veu el flux complet amb les places, el cicle de cobrament i la comunicació.
 
 <br>

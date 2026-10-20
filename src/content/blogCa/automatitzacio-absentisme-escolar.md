@@ -189,7 +189,7 @@ La digitalització justa reparteix la càrrega: famílies amb autoservei en paga
 
 <br>
 
-Un centre de 280 famílies va automatitzar assistència, recordatoris de pagament i enviament de butlletins trimestrals. La secretària principal va estimar 14 hores setmanals recuperades, dedicades a atenció presencial i tancament d?exercici.
+Un centre de 280 famílies va automatitzar assistència, recordatoris de pagament i enviament de butlletins trimestrals. La secretària principal va estimar 14 hores setmanals recuperades, dedicades a atenció presencial i tancament d'exercici.
 
 <br>
 

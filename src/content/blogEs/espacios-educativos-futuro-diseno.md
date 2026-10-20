@@ -1,5 +1,5 @@
 ---
-title: "Espacios educativos del futuro: Diseño e innovación para el aprendizaje moderno"
+title: "Espacios educativos del futuro: diseño e innovación para aprender"
 seoTitle: "Espacios educativos del futuro: diseño para aprender"
 date: "2025-08-25"
 translationKey: "espacios-educativos-futuro-diseno"
@@ -22,7 +22,7 @@ faqs:
       answer: "El aula mejora; la percección global del centro sigue ligada a secretaría."
 ---
 
-<strong>Espacios educativos del futuro: Diseño e innovación para el aprendizaje moderno</strong>
+<strong>Espacios educativos del futuro: diseño e innovación para aprender</strong>
 
 <br>
 

@@ -177,6 +177,6 @@ Una escola bressol de 85 places a Girona va avaluar tres proveïdors amb el mate
 
 <br>
 
-Triar bé el programari del teu centre no és comparar fitxes de producte: és definir el teu problema, fer la demo amb les dades, calcular el cost real i llegir el contracte. Edena és la plataforma que centralitza expedient, cobrament, matrícula, comunicació, documents i analítica amb mòduls activables segons la necessitat real del centre, suport 24/7 i acompanyament en el procés de canvi. Demana una demo, porta els teus cinc frecs principals i en noranta minuts sabràs si encaixa.
+Triar bé el programari del teu centre no és comparar fitxes de producte: és definir el teu problema, fer la demo amb les dades, calcular el cost real i llegir el contracte. Edena és la plataforma que centralitza expedient, cobrament, matrícula, comunicació, documents i analítica amb mòduls activables segons la necessitat real del centre, suport per correu i xat i acompanyament en el procés de canvi. Demana una demo, porta els teus cinc frecs principals i en noranta minuts sabràs si encaixa.
 
 <br>

@@ -1,5 +1,5 @@
 ---
-title: "Automatització de tasques administratives: Allibera temps per a l'educació"
+title: "Automatització de tasques administratives: més temps per a l'educació"
 seoTitle: "Automatització de tasques administratives en centres"
 date: "2025-07-15"
 translationKey: "automatizacion-tareas-administrativas"
@@ -25,7 +25,7 @@ faqs:
       answer: "Sí si no proveu regles; comenceu amb un curs pilot."
 ---
 
-<strong>Automatització de tasques administratives: Allibera temps per a l'educació</strong>
+<strong>Automatització de tasques administratives: més temps per a l'educació</strong>
 
 <br>
 
@@ -131,7 +131,7 @@ La digitalització justa reparteix la càrrega: famílies amb autoservei en paga
 
 <br>
 
-Un centre de 280 famílies va automatitzar assistència, recordatoris de pagament i enviament de butlletins trimestrals. La secretària principal va estimar 14 hores setmanals recuperades, dedicades a atenció presencial i tancament d?exercici.
+Un centre de 280 famílies va automatitzar assistència, recordatoris de pagament i enviament de butlletins trimestrals. La secretària principal va estimar 14 hores setmanals recuperades, dedicades a atenció presencial i tancament d'exercici.
 
 <br>
 

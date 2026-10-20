@@ -1,5 +1,5 @@
 ---
-title: "Marketing educativo digital: Estrategias para atraer y retener familias en la era digital"
+title: "Marketing educativo digital: estrategias para atraer y retener familias"
 seoTitle: "Marketing educativo digital para atraer y retener familias"
 date: "2025-09-08"
 translationKey: "marketing-educativo-digital-estrategias"

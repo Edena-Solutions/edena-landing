@@ -1,5 +1,5 @@
 ---
-title: "Guardianes en la educación digital: El papel de las familias"
+title: "Familias y educación digital: el papel de padres y tutores"
 date: "2025-03-01"
 translationKey: "guardianes-educacion-digital"
 description: "En la era digital, el papel de los padres como guardianes de la educación de sus hijos ha evolucionado significativamente."

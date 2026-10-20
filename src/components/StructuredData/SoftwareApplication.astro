@@ -1,4 +1,6 @@
 ---
+import { withTrailingSlash } from "@/i18n/utils";
+
 interface Props {
     name: string;
     description: string;
@@ -51,8 +53,9 @@ interface SoftwareSchema {
     };
 }
 
-// Spanish pages live unprefixed at the root; /es/ is a canonicalised duplicate.
-const canonicalUrl = url.replace("https://edena.es/es/", "https://edena.es/");
+// Spanish pages live unprefixed at the root; /es/ is a canonicalised duplicate. Pages are served
+// with a trailing slash, so the URL here matches the canonical link.
+const canonicalUrl = withTrailingSlash(url.replace("https://edena.es/es/", "https://edena.es/"));
 
 const softwareSchema: SoftwareSchema = {
     "@context": "https://schema.org",

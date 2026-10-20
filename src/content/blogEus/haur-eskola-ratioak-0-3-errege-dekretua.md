@@ -3,7 +3,7 @@ title: "Ratioak 0-3 haur-eskoletan: Ministerioaren proposamena eta nola prestatu
 seoTitle: "0-3ko ratio berriak: Hezkuntza Ministerioak zer proposatzen duen"
 date: "2026-09-23"
 translationKey: "ratios-escuelas-infantiles-0-3-real-decreto"
-description: "Errege-dekretu zirriborroak 4, 6 eta 8 haur finkatzen ditu profesional bakoitzeko adinaren arabera. Aurreikusitako egutegia, nori eragiten dion eta nola planifikatu plazak, langileak eta kuotak."
+description: "Errege-dekretu zirriborroak 4, 6 eta 8 haur finkatzen ditu profesional bakoitzeko, adinaren arabera. Egutegia, nori eragiten dion eta nola planifikatu plazak."
 tags: ["0-3 ratioak", "haur-eskolak", "132/2010 Errege Dekretua", "haurtzaindegiak", "hezkuntza-araudia"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1537655780520-1e392ead81f2?q=80&w=1200&auto=format&fit=crop"

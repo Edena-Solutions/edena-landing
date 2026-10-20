@@ -1,5 +1,5 @@
 ---
-title: "Avaluació i assessment digital a l'educació moderna: Eines i estratègies"
+title: "Avaluació digital a l'educació: eines i estratègies"
 seoTitle: "Avaluació digital a l'educació: eines i estratègies"
 date: "2025-08-20"
 translationKey: "evaluacion-assessment-digital-educativo"
@@ -25,7 +25,7 @@ faqs:
       answer: "Sí, amb autocorrecció formativa i bancs d'ítems ben dissenyats."
 ---
 
-<strong>Avaluació i assessment digital a l'educació moderna: Eines i estratègies</strong>
+<strong>Avaluació digital a l'educació: eines i estratègies</strong>
 
 <br>
 

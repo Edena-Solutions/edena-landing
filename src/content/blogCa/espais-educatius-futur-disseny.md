@@ -1,5 +1,5 @@
 ---
-title: "Espais educatius del futur: Disseny i innovació per a l'aprenentatge modern"
+title: "Espais educatius del futur: disseny i innovació per aprendre"
 seoTitle: "Espais educatius del futur: disseny per aprendre"
 date: "2025-08-25"
 translationKey: "espacios-educativos-futuro-diseno"
@@ -25,7 +25,7 @@ faqs:
       answer: "L'aula millora; la percepció global del centre continua lligada a secretaria."
 ---
 
-<strong>Espais educatius del futur: Disseny i innovació per a l'aprenentatge modern</strong>
+<strong>Espais educatius del futur: disseny i innovació per aprendre</strong>
 
 <br>
 

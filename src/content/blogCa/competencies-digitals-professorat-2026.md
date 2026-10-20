@@ -1,5 +1,5 @@
 ---
-title: "Competències Digitals del Professorat el 2026: Més de 661.000 Docents Certificats"
+title: "Competències digitals del professorat el 2026: més de 661.000 docents certificats"
 seoTitle: "Competència digital docent 2026: 661.000 certificats"
 date: "2026-01-10"
 translationKey: "competencias-digitales-profesorado-2026"
@@ -26,7 +26,7 @@ faqs:
       answer: "El que feu servir cada setmana (plataforma comuna) abans que eines aïllades."
 ---
 
-<strong>Competències Digitals del Professorat el 2026: Més de 661.000 Docents Certificats</strong>
+<strong>Competències digitals del professorat el 2026: més de 661.000 docents certificats</strong>
 
 <br>
 
@@ -40,17 +40,13 @@ L'any 2026 marca una fita històrica a la formació del professorat espanyol. Am
 
 El Marc de Referència de la Competència Digital Docent, actualitzat el 2022 i alineat amb el marc europeu #DigCompEdu, estableix les competències que els professors han de dominar a l'era digital. Aquest marc no es limita a l'ús bàsic de les eines tecnològiques; inclou sis àrees fonamentals que transformen la pràctica docent.
 
-La primera àrea,
-
 <br>
 
 <strong>Informació i alfabetització informacional</strong>
 
 <br>
 
-, capacita els docents per buscar, avaluar, gestionar i compartir informació digital de manera crítica i efectiva. En un món saturat d'informació, aquesta competència és essencial per ajudar els estudiants a navegar l'entorn digital de forma segura i productiva.
-
-La segona àrea,
+La primera àrea capacita els docents per buscar, avaluar, gestionar i compartir informació digital de manera crítica i efectiva. En un món saturat d'informació, aquesta competència és essencial per ajudar els estudiants a navegar l'entorn digital de forma segura i productiva.
 
 <br>
 
@@ -58,9 +54,7 @@ La segona àrea,
 
 <br>
 
-, prepara els professors per comunicar-se eficientment a través de mitjans digitals, col·laborar en entorns virtuals i participar en comunitats professionals en línia. Aquesta competència és crucial en un món on l?educació transcendeix les parets de l?aula.
-
-La tercera àrea,
+La segona àrea prepara els professors per comunicar-se eficientment a través de mitjans digitals, col·laborar en entorns virtuals i participar en comunitats professionals en línia. Aquesta competència és crucial en un món on l'educació transcendeix les parets de l'aula.
 
 <br>
 
@@ -68,9 +62,7 @@ La tercera àrea,
 
 <br>
 
-, empodera els docents per crear, editar i compartir recursos educatius digitals de qualitat. Des de vídeos educatius fins a presentacions interactives, els professors certificats poden crear materials que enriqueixen significativament l'experiència d'aprenentatge.
-
-La quarta àrea,
+La tercera àrea empodera els docents per crear, editar i compartir recursos educatius digitals de qualitat. Des de vídeos educatius fins a presentacions interactives, els professors certificats poden crear materials que enriqueixen significativament l'experiència d'aprenentatge.
 
 <br>
 
@@ -78,9 +70,7 @@ La quarta àrea,
 
 <br>
 
-, assegura que els docents protegeixin tant la seva pròpia informació com la dels seus estudiants, comprenguin els riscos digitals i promoguin un ús segur i responsable de la tecnologia. En una era de creixents preocupacions sobre privadesa i seguretat digital, aquesta competència és més important que mai.
-
-La cinquena àrea,
+La quarta àrea assegura que els docents protegeixin tant la seva pròpia informació com la dels seus estudiants, comprenguin els riscos digitals i promoguin un ús segur i responsable de la tecnologia. En una era de creixents preocupacions sobre privadesa i seguretat digital, aquesta competència és més important que mai.
 
 <br>
 
@@ -88,7 +78,7 @@ La cinquena àrea,
 
 <br>
 
-, capacita els professors per identificar necessitats tecnològiques, resoldre problemes tècnics i utilitzar la tecnologia de manera innovadora per millorar l'ensenyament i l'aprenentatge.
+La cinquena àrea capacita els professors per identificar necessitats tecnològiques, resoldre problemes tècnics i utilitzar la tecnologia de manera innovadora per millorar l'ensenyament i l'aprenentatge.
 
 La sisena àrea,
 

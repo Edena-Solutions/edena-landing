@@ -3,7 +3,7 @@ title: "Autorisation d'images des élèves 2026-2027 : comment la demander et co
 seoTitle: "Autorisation d'images des élèves : comment bien la demander"
 date: "2026-09-11"
 translationKey: "autorizacion-imagenes-alumnos-curso-2026-2027"
-description: "Quelles photos l'établissement peut prendre sans permission, quand il a besoin d'un consentement, comment le rédiger par finalité et combien de temps conserver la preuve."
+description: "Quelles photos l'établissement peut prendre sans autorisation, quand il faut un consentement, comment le rédiger par finalité et combien de temps le garder."
 tags: ["droits à l'image", "protection des données", "AEPD", "autorisations", "photos d'élèves"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1519038983316-43241d5d7b61?q=80&w=1200&auto=format&fit=crop"

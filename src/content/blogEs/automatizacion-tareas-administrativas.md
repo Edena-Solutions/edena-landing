@@ -1,5 +1,5 @@
 ---
-title: "Automatización de tareas administrativas: Libera tiempo para la educación"
+title: "Automatización de tareas administrativas: más tiempo para la educación"
 seoTitle: "Automatización de tareas administrativas en centros"
 date: "2025-07-15"
 translationKey: "automatizacion-tareas-administrativas"
@@ -22,7 +22,7 @@ faqs:
       answer: "Sí si no probáis reglas; empezad con un curso piloto."
 ---
 
-<strong>Automatización de tareas administrativas: Libera tiempo para la educación</strong>
+<strong>Automatización de tareas administrativas: más tiempo para la educación</strong>
 
 <br>
 

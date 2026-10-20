@@ -29,7 +29,7 @@ faqs:
 
 <br>
 
-Automation in educational centers is not a luxury; It is a necessity to free up secretarial and management time. Manual school administrative management generates errors, delays and frustration. These are the 10 processes that have the most impact when automated in your school.
+Automation in educational centers is not a luxury; it is a necessity to free up secretarial and management time. Manual school administrative management generates errors, delays and frustration. These are the 10 processes that have the most impact when automated in your school.
 
 <br>
 

@@ -1,5 +1,5 @@
 ---
-title: "Gestión de crisis en centros educativos: Protocolos y estrategias para la continuidad"
+title: "Gestión de crisis en centros educativos: protocolos y estrategias para la continuidad"
 seoTitle: "Gestión de crisis en centros educativos: protocolos"
 date: "2025-08-01"
 translationKey: "gestion-crisis-centros-educativos"
@@ -22,7 +22,7 @@ faqs:
       answer: "Rapidez, hechos verificados, una voz institucional."
 ---
 
-<strong>Gestión de crisis en centros educativos: Protocolos y estrategias para la continuidad</strong>
+<strong>Gestión de crisis en centros educativos: protocolos y estrategias para la continuidad</strong>
 
 <br>
 

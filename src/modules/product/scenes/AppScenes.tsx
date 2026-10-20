@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { CheckCheck, ChevronLeft, Heart, ImagePlus, Send, Star } from "lucide-react";
+import { CheckCheck, ChevronLeft, Heart, ImagePlus, Send } from "lucide-react";
 
 import appStoreIcon from "@/assets/img/logos/apple-small.png";
 import playStoreIcon from "@/assets/img/logos/google-small.png";
@@ -720,16 +720,6 @@ function MiniScreen({ kind }: { kind: number }) {
     );
 }
 
-function Stars() {
-    return (
-        <span className="flex gap-[0.08em] text-amber-400">
-            {[0, 1, 2, 3, 4].map((index) => (
-                <Star key={index} className="size-[0.48em] fill-current" />
-            ))}
-        </span>
-    );
-}
-
 /** A store's listing: its header, the app, a row of its own (`info`), the screenshots, prose. */
 function Listing({
     x,
@@ -796,17 +786,9 @@ function StoresScene({ t, labels, locale }: Props) {
         done: on(t, ANDROID.to),
         p: easeInOut(span(t, ANDROID.from, ANDROID.to - ANDROID.from)),
     };
-    const rating = (
-        <span className="flex items-center gap-[0.35em]">
-            <span className="text-[0.6em] font-semibold tabular-nums">
-                {number(locale, 4.8, 1)}
-            </span>
-            <Stars />
-            <span className="truncate text-[0.38em] text-ink-3">
-                {number(locale, 150)} {p.ratings}
-            </span>
-        </span>
-    );
+    // The listings show only what the stores really say about Edena: free, rated 4+, Education.
+    // No star rating or chart position: the stores publish none for it yet.
+    const price = <span className="truncate text-[0.42em] text-ink-3">{p.free}</span>;
 
     return (
         <>
@@ -896,15 +878,14 @@ function StoresScene({ t, labels, locale }: Props) {
                                 </span>
                             </span>
                         </span>
-                        {/* The App Store's strip: rating, age, category. */}
+                        {/* The App Store's strip: age and category. */}
                         <span
                             className={cn(
-                                "grid grid-cols-3 items-center border-y border-hairline",
+                                "grid grid-cols-2 items-center border-y border-hairline",
                                 ROW.info,
                             )}
                         >
                             {[
-                                [number(locale, 4.8, 1), <Stars key="stars" />],
                                 [
                                     "4+",
                                     <span key="age" className="text-[0.36em] text-ink-3">
@@ -913,8 +894,8 @@ function StoresScene({ t, labels, locale }: Props) {
                                 ],
                                 [
                                     p.category,
-                                    <span key="rank" className="text-[0.36em] text-ink-3">
-                                        #12
+                                    <span key="price" className="text-[0.36em] text-ink-3">
+                                        {p.free}
                                     </span>,
                                 ],
                             ].map(([value, sub], index) => (
@@ -960,7 +941,7 @@ function StoresScene({ t, labels, locale }: Props) {
                                 <span className="truncate text-[0.42em] font-medium text-green-700 dark:text-green-400">
                                     Edena Organization
                                 </span>
-                                {rating}
+                                {price}
                             </span>
                         </span>
                         {/* Install → a bar that fills → Open. */}

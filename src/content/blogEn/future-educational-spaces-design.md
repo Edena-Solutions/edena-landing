@@ -22,7 +22,7 @@ faqs:
     - question: "How to link space and LOMLOE?"
       answer: "Competencies of learning to learn and autonomy in varied environments."
     - question: "Invest in classrooms without digitizing admin?"
-      answer: "The classroom improves; The overall perception of the center remains linked to the secretariat."
+      answer: "The classroom improves; the overall perception of the center remains linked to the secretariat."
 ---
 
 <strong>Educational spaces of the future: Design and innovation for modern learning</strong>

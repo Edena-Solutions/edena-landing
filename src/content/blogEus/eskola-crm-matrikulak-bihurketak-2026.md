@@ -1,194 +1,165 @@
 ---
-title: "CRM eskola: matrikulazioa nola handitu eta aplikazio gehiago bihurtu"
-seoTitle: "Eskola-CRMa: nola bihurtu eskaera gehiago matrikula"
+title: "Eskola-CRMa: nola bihurtu eskaera gehiago matrikula"
 date: "2026-03-24"
+updated: "2026-10-20"
 translationKey: "crm-escolar-matriculas-conversion-2026"
-description: "Nola lagun dezakeen eskola-CRM batek matrikula-eskaerak jarraitzen, eskaera gehiago matrikula bihurtzen eta zuzendaritzari zifrak garaiz erakusten."
-tags:
-    - "CRM eskola"
-    - "online inskripzioak"
-    - "eskola-kontratazioa"
-    - "hezkuntza eramaten du"
-    - "eskola formak"
-    - "inskripzioak"
+description: "Zer den eskola-CRM bat, onarpenetan zer etapa erabili, astero zer neurtu eta nola ezarri, matrikula-eskaera bakar bat ere erantzunik gabe gera ez dadin."
+tags: ["eskola-CRMa", "onarpenak", "matrikula", "ikasleen erakarpena", "matrikula-eskaerak"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1730382624360-9cf5609c8364?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
     - matrikula-online-urratsez-2026
     - familia-digital-onboarding-matrikula-online
-    - ikasleen-atzokitze-digitalizazioa
-    - ikasle-atzokitzea-garai-digitalan
+    - ate-irekien-jardunaldiak-matrikulazioa-2027-2028
+    - jaiotza-tasa-jaitsiera-ikastetxeak-matrikulazioa-2026
 faqs:
-    - question: 'CRM "APIekin itsatsita" plataforman integratuta dagoen berdina al da?'
-      answer: "Batzuetan, kostua, latentzia, bikoiztuak, desinkronizazioa eta ixteko hutsegiteekin, integratuta, arriskua gutxitu ohi da."
-    - question: "Zenbat handitzen da bihurketa CRM-rekin?"
-      answer: "Inbutuaren, sektorearen, eskaintzaren araberakoa da, ez dugu zifra magikorik ezartzen, baina etapak eta funtsak ikusita, normalean esfortzua lerrokatzen du, eta horrek tasa handitzen du, ez du 20 puntu bermatzen, baina isuri tontoak saihesten ditu."
-    - question: "Nola kudeatzen da itxaron-zerrenda CRM-n?"
-      answer: 'Sortu itxaron-zerrendako etapa espezifiko bat kanalizazioan posizio-eremu batekin eta familiarentzako berrespen automatikoarekin. Espazio bat libre geratzen denean, sistemak agertokiaren jabeari abisatzen dio hurrengo eskaera aurrera dezan. Saihestu itxaron-zerrenda Excel bereizi batean kudeatzea: hor sortzen dira "nor izan da denbora luzeagoan" gatazkak.'
-    - question: "Noiz gehitu Pro komunikazio modulua CRM fluxuari?"
-      answer: "Eskaeren bolumena nahikoa altua denean, mezu elektronikoak bakarrik familiei etapa-aldaketaren jakinarazpenak ez ikustea eragin diezaioten, edo berrespen-mezuak irakurtzeko berrespena behar duzunean. Oinarrizko komunikazioak bolumen moderatuetarako funtzionatzen du; Pro-k bultzada eta berrespena gehitzen ditu onarpen prozesuak hala eskatzen duenean."
-    - question: "Zer gertatzen da datu sentikorrak eta GDPR?"
-      answer: "Lege-oinarri-irizpideak, epeak, garbitasuna eta adostasuna, softwareak laguntzen ditu, ez ditu aholkuak ordezkatzen, gutxienekoak eskatzen ditu, Edena, plataformaren ikuspegia sarbide-kontrolarekin, dokumentazioa, erantzukizun partekatua."
+    - question: "Zer alde dago eskola-CRM baten eta onarpenetarako kalkulu-orri baten artean?"
+      answer: "Kalkulu-orri batek nork galdetu duen jasotzen du. Eskola-CRM batek, gainera, familia bakoitza zer etapatan dagoen, nork artatzen duen, zer esan zaion eta hurrengo urratsa noiz den jasotzen du, eta egunak geldirik daramatzaten eskaerak agerian uzten ditu."
+    - question: "Zer etapa izan behar ditu onarpen-prozesuak?"
+      answer: "Gutxi, eta bakoitzetik hurrengora pasatzeko irizpide argiarekin: eskaera berria, lehen kontaktua eginda, bisita edo elkarrizketa, plaza-proposamena eta matrikula berretsia. Zentroak itxaron-zerrenda badu edo plaza-erreserba eskatzen badu, bakoitzak bere etapa merezi du."
+    - question: "Balio al du CRM generiko batek ikastetxe baterako?"
+      answer: "Kontaktuak erregistratzeko balio dezake, baina familiaren datuak gero matrikulatu, fakturatu eta komunikatzen duen sistematik kanpo geratzen dira. Alta bakoitzean datuak eskuz kopiatu behar dira, eta zuzendaritzak ikusten du zer kanalek dakarren kontsultak, ez zer kanalek dakarren matrikulak."
+    - question: "Zer adierazle berrikusi behar dira astero?"
+      answer: "Eskaera berriak kanalaren arabera, lehen kontakturako denbora, astebete baino gehiago geldirik dauden eskaerak eta bisitatik matrikularako bihurketa. Lau zifra horiekin ikusten da non galtzen diren familiak."
+    - question: "Zer kontuan hartu behar da datuen babesari dagokionez?"
+      answer: "Eskaerek familien datu pertsonalak dituzte, eta askotan adingabeenak. Formularioak helburuaren berri eman behar du eta fase bakoitzean beharrezkoa dena bakarrik eskatu, eta zentroak erabaki behar du zenbat denboraz gordetzen dituen matrikula bihurtzen ez diren eskaerak. Komeni da datuak babesteko ordezkariarekin berrikustea."
 ---
 
-<strong>CRM eskola: matrikulazioa nola handitu eta aplikazio gehiago bihurtu</strong>
+<strong>Eskola-CRMa: nola bihurtu eskaera gehiago matrikula</strong>
 
 <br>
 
-Eskola CRM ez da “extra komertziala” modernoa iruditu nahi duten zentroentzat: erretiluan hozten den matrikularen aurkako antidotoa da, jarraipenik gabeko bisitak eta ostiralean inork eguneratzen ez duen kalkulu orria. Bilduma gero kobratu eta zerbitzua ematen duen sistematik kanpo bizi denean, datuak bikoiztu egiten dira, jatorria galtzen da eta zuzendaritzak berandu ikusten ditu zifrak. 2026an, ikastetxeen, haurtzaindegien eta akademien arteko lehiarekin, eskaerak leku sinatuak bihurtzeko, fitxategi bera elikatzen duten kanalizazioa, zereginak, abisuak eta inprimakiak behar dira. Edena-k bere CRM eskola-moduluan matrikula-eskaerak, kanalizazio eta lead-en jarraipena, kontratazio inprimaki pertsonalizagarriak eta kanal anitzeko jatorria biltzen ditu: ez dugu produktuarekin zerikusirik ez duten funtziorik asmatzen; Plataforma integratu batek egin dezakeenari buruz hitz egin dugu sarrera "beste Excel bat" ez denean.
+Familia batek ikastetxea bilatzen duenean, hainbat zentrotara idazten du aldi berean. Informazioa eskatzen du, bizpahiru bisitatzen ditu eta aste gutxitan erabakitzen du. Azkar erantzuten duen zentroak, bisitan esandakoa gogoratzen duenak eta gero deitzen duenak matrikulatu ohi du.
+
+Eskaerak oso gutxitan galtzen dira interes faltagatik. Posta-ontzien, telefono-oharren eta sortu zuenak bakarrik ulertzen duen kalkulu-orri baten artean galtzen dira. Eskola-CRM batek eskaera bakoitza leku bakarrean biltzen du, arduradun batekin eta datadun hurrengo urrats batekin.
 
 <br>
 
-<strong>Zer den eskola CRM eta zer ez den praktikan</strong>
+<strong>Zer da eskola-CRM bat</strong>
 
 <br>
 
-Ikastetxe bat CRM interesdunen eta karguetarako hautagaien erregistro operatiboa da, faseak, arduradunak, hurrengo urratsak eta jatorriaren azterketarekin. Ez da marketin-zerrenda bat, ezta "kopiatutako mezu elektronikoen" biltegi bat ere. Ez du ordezkatzen bisita pertsonala edo kalitate pedagogikoa, ezta eskaintza ahul bat konpontzen ere, baina ezabatzen du dei bat ez itzultzearen, lehentasunak nahasteko edo ordainketarik gabeko erreserbekin zenbat leku erreal lotzen diren ez jakitearen akatsa. Zuzendaritzak “nondik datoz apirileko matrikulak?” galdetzen duenean, CRM-k kanal, ikastaro, egoitzarekin erantzuten du, txostenak eskuz berriro egin gabe. Idazkaritzak “gaur gogoratzen duguna” eztabaidatzen duenean, zerrenda etaparen eta antzinatasunaren arabera iragazten da, ez memoriaren arabera. Alde hori, dozenaka edo ehunka familiaz biderkatuta, dirua eta ospea da, ez apaingarri bat. Plataforma integratuetan, "dokumentazioarekin aurrez izena emanda"tik "errepikapen aktiboa duen ikaslea" izatera pasatzea trazagarria izan beharko litzateke, berriro teklatu gutxiagorekin, ordainketako izenaren eta inprimakiko izenaren arteko desadostasun gutxiagorekin eta kurtsoaren hasieran ikasgela okerra esleitzeko arrisku gutxiagorekin, hau da, marruskadura gehien sortzen den momentuan, marketin, tutoreari edo ordainagiri hutsari buruz hitz egin gabe. edo aplikaziorako lehen sarbidean.
+Interesa duen familia bakoitza lehen kontsultatik matrikularaino erregistratzeko eta jarraitzeko tresna da. Bost gauzatarako balio du:
+
+- **Eskaera bakoitza erregistratzeko**, bere datuekin eta iritsi den kanalarekin: webgunea, dei bat, mezu elektroniko bat, bisita bat edo ate irekien jardunaldi bat.
+- **Familia bakoitza zer etapatan dagoen jakiteko** eta aurrera egiteko zer falta den.
+- **Arduradun bat esleitzeko**, eskaera bakoitzak hura artatuko duen norbait izan dezan.
+- **Historia gordetzeko**: deiak, mezuak, bisitak eta etapa-aldaketak, bakoitza bere datarekin.
+- **Bihurketa neurtzeko**: zenbat kontsulta bihurtzen diren matrikula, kanalaren eta etaparen arabera.
 
 <br>
 
-<strong>Zergatik hausten da inbutua CRM gabe</strong>
+<strong>Zergatik galtzen diren eskaerak CRMrik gabe</strong>
 
 <br>
 
-Hiru eredu komun: (1) webguneak interesa sortzen du, norbaitek idazkaritzara bidaltzen du eta liderra ahanzturan hiltzen da; (2) hainbat iturrik (Helburua, bisita, erreferentzia) irizpideak nahasten dituzte eta ez dakizu zein kanal egiten duen; (3) Erregistro “ofiziala” beste sistema batean gertatzen da, kargatzeko eta berriro lantzeko errore batekin. Ondorioa: "markaren kanpainak" nahikoak direla uste duen zuzendaria, bisitaren ondorengo 2. astean inbutuak ihes egiten duen bitartean, non edukiera mugatua duen zentro batek benetan irabazi edo galtzen duen. CRM integratu eta ez isolatu batek berridazketa saihesten du, jatorria, arduratsua eta eszenaratzea, eta fakturazioarekin eta familiarekin konektatzen da datu-irizpide berdinetan.
+Arrazoiak errepikatu egiten dira ikastetxeetan, haur-eskoletan eta akademietan:
+
+- Kontsulta oporretan edo bajan dagoen pertsona baten postara iristen da, eta beste inork ez du ikusten.
+- Familiak bisita egiten du, baina gero inork ez dio deitzen zalantzak argitzeko edo plaza proposatzeko.
+- Itxaron-zerrenda beste orri batean dago eta, plaza bat libre geratzen denean, zaila da jakitea nori dagokion.
+- Zuzendaritzak badaki zenbat matrikula dauden, baina ez nondik datozen ezta iristen ez diren familiak non geratzen diren ere.
+
+Kanpainan, idazkaritzak aldi berean egungo familiak eta berriak artatzen dituenean, hutsune horiek gehiago nabaritzen dira.
 
 <br>
 
-<strong>Definitu zure taldeak erabiltzen dituen etapak</strong>
+<strong>Onarpen-prozesuaren etapak</strong>
 
 <br>
 
-Ez du ezertarako balio B2B kanalizazio generiko bat klonatzea. Hezkuntzan, etapa tipikoak: interesa, bisita/elkarrizketa, aurrematrikula, dokumentazioa, erreserba, sinadura, erregistro operatiboa, lehen ordainketa. Etapa bakoitza jabea, barne SLA eta zereginarekin. Pauso batek mezu elektroniko solteekin egun irauten badu, familiako kideak beste bat konparatzen eta aukeratzen du. Marruskadura gutxiago, tasa gehiago, miraririk itxaron gabe: diziplina eskatzen du, ez softwarea bakarrik. Moduluak pertsonalizazioa ahalbidetu behar du, ez alferrikako fluxua inposatu, eta hor sartzen dira forma eta jatorri pertsonalizagarriak: saretik, atetik, egungo ikasleengandik etorri den jakiteak, mezua eta lehentasuna doitzen ditu, ez du merezimendurik neurtzen, inbertsioa neurtzen du.
+Akatsik ohikoena inork eguneratzen ez dituen hamar etapako salmenta-inbutu bat kopiatzea da. Hezkuntza-zentro baterako, hauek nahikoak izan ohi dira:
+
+1. **Eskaera berria.** Kontsulta sartu da eta oraindik inork ez du harremanik izan.
+2. **Kontaktatua.** Taldeko norbaitek erantzun du eta lehen zalantzak argitu ditu.
+3. **Bisita edo elkarrizketa.** Familiak zentroa bisitatu du edo bisita hitzartuta du.
+4. **Plaza-proposamena.** Maila batean plaza eskaini zaio eta erabakitzen ari da.
+5. **Matrikula berretsia.** Familiak onartu du eta alta hasten da.
+
+Zentroak **itxaron-zerrenda** badu edo **plaza-erreserba** eskatzen badu, komeni da bakoitza etapa propioa izatea. Eta irteera argi bat behar da, **baztertua**, arrazoiarekin: beste zentro bat aukeratu du, etxez aldatu da, ez zegoen plazarik. Arrazoi horrek azaltzen du gero zergatik galtzen diren familiak.
+
+Garrantzitsuena da urrats bakoitzak talde osoak berdin ulertzen duen irizpide bat izatea. "Kontaktatua" esan nahi du norbaitek familiarekin hitz egin duela, ez mezu automatiko bat bidali zaiola.
 
 <br>
 
-<strong>Formak eta autogestioa: lehen inpresioa</strong>
+<strong>Formularioa da sarrerako atea</strong>
 
 <br>
 
-Inprimaki nahasi batek, eremu bikoiztuak dituena edo berrespenik gabe, zabor-lerroak sortzen ditu. Argiak, baliozkotzea, berrespena eta kanalizazioan kargatzearekin, deiak gordetzen ditu. Oinarrizko plataformaren familiaren autogestioak, onboarding-rekin batera, matrikulazioetan marruskadura murrizten du, betiere bulegoak datu osatugabeekin gertatzen denaren irizpideak baditu. CRM-k ez du onarpen-irizpidea ordezkatzen, baizik eta botila-lepo bat agerian uzten du, adibidez, X ikastaroko dokumentuak zain daudenak, batzordeak edo zuzendaritzak egitateekin erreakzionatu dezan.
+Webguneko formularioa luzea edo nahasia bada, familia askok ez dute amaitzen. Funtzionatzen duten jarraibide batzuk:
+
+- **Eskatu gutxienekoa lehen pantailan**: izena, telefonoa edo posta elektronikoa, interesatzen zaion maila eta nola ezagutu duen zentroa.
+- **Utzi dokumentuak geroagorako**, familiak aurrera jarraitzea erabaki duenean.
+- **Berretsi jasotzea berehala**, hurrengo urratsa eta epea adierazten dituen mezu batekin.
+- **Erabili formulario bat kanpaina bakoitzeko**: ikasturte berria, udako campusa, ate irekien jardunaldia. Horrela jakingo duzu zer ekintzak dakarren eskaera bakoitza.
+
+Formulario bakoitzak eskaera zuzenean sortu behar du CRMan. Posta bidez iristen bada eta norbaitek eskuz kopiatzen badu, akatsak eta atzerapenak itzultzen dira.
 
 <br>
 
-<strong>Lerrokaturiko komunikazioa: Pro beharrezkoa denean</strong>
+<strong>Arduradunak eta erantzun-epeak</strong>
 
 <br>
 
-Guztientzako mezu orokorra vs segmentazioa: bisita fasean dauden familiek ez dute matrikulatuta daudenen abisu bera behar. Pro Communication, txatarekin, push jakinarazpenekin, irakurketaren baieztapenarekin, taldeka edo ikasgelaka segmentatua, esperientzia elikatzen du onarpen modulua irauli gabe. Ez da publizitatea, seinale puntuala da. Aurrerapen-tasa etapaka eta mugarrien arteko batez besteko denbora irakurtzen dakien zentro batek ulertzen du non inbertitu behar den: jaitsiera bisita ostekoa bada, hobetu bisita, gidoia edo jarraipena, ez logotipoa.
+Arduradunik gabeko eskaera erantzunik gabe geratzen da. Esleitu eskaera bakoitza taldeko pertsona bati sartu bezain laster, eta finkatu barne-epe bat lehen kontakturako, adibidez bi lanegun.
+
+Astean behin, berrikusi zazpi egun baino gehiago geldirik daramatzaten eskaerak. Bilera laburra da: bakoitzerako, hurrengo urratsa erabakitzen da edo arrazoiarekin baztertzen da.
 
 <br>
 
-<strong>Adibideak, ez-fikziozko berehalako arrakastak</strong>
+<strong>Zer neurtu astero</strong>
 
 <br>
 
-- Hizkuntza akademia, hainbat kokapen, harrera-hartzaile bakoitzeko Excel-en gidak, jatorririk gabe. Jatorria eta zereginak esleitu ondoren, zuzendaritzak ikusi zuen zein kokapen bihurtu zen; Kanpainaren aurrekontua birbanatu zuen eta arreta orduak egokitu zituen, ez zen «aste batean %300 igo», hori faltsua litzateke, baina isuria garbitu zuen.
-- Itxaron-zerrenda duen haurtzaindegiak, lehentasunik gabe eramaten dutenak: izen-ematea ordaintzen dutenek postaren zain dauden bitartean gatazka sortzen dute. Etapa eta arauekin, ilarak eta mezuen kudeaketa, gardena, marruskadura baxua eta kexa.
-- CRM eta fitxategia bateratzen dituen ikastetxea, karga bikoitza saihesten duena, taldeak izen edo ikastaro akats gutxiagorekin administratzen du, eta horrek tutorearen konfiantzan eragiten du.
+Lau adierazlerekin ia dena ikusten da:
+
+- **Eskaera berriak kanalaren arabera.** Zer ekintzak erakartzen dituen familiak adierazten du: webgunea, jardunaldiak, gomendioak.
+- **Lehen kontakturako denbora.** Igotzen bada, familiek gehiegi itxaroten dute beste zentro batzuek erantzuten dieten bitartean.
+- **Geldirik dauden eskaerak.** Astebete baino gehiago etapaz aldatu gabe daramatzatenak.
+- **Bisitatik matrikularako bihurketa.** Txikia bada, arazoa bisitan edo ondorengo jarraipenean dago, ez erakarpenean.
+
+Begiratu zifrak mailaren edo etaparen arabera. Haur Hezkuntzako 3 urtekoek eta DBHko 1. mailak erritmo desberdinak izan ohi dituzte.
 
 <br>
 
-<strong>KPIs gutxieneko CRM, dashboard hutsik gabe</strong>
+<strong>CRMtik matrikulara, berriro idatzi gabe</strong>
 
 <br>
 
-- Liderrak etapaka, bihurketa etapaz etapa, leiho finko batean, adibidez, 2026 erregistroak martxan.
-- Jatorria, kostu erlatiboa, hala badagokio, eta itxiera-ratioa, ez “inpresioak”.
-- Denbora etapa, alertak.
-- Dokumentuak uzteko tasa.
-- Koherentzia: helbidea erabiltzen duen definizio bera, ez bost Excel ezberdin.
+Familia batek plaza berresten duenean, haren datuek ikaslearen espedientera, fakturaziora eta familien aplikaziora iritsi behar dute. CRMa tresna bereizia bada, idazkaritzak datu berberak berriro idazten ditu kudeaketa-programan, eta hor agertzen dira akatsak izenetan, mailetan eta banku-kontuetan.
 
-Oinarrizko plataforman zentroko analisiekin, gehi CRM moduluarekin, irakurketak indarra hartzen du; CRM gabe, dirua neurtzen duzu matrikulazioen azken %20a nondik datozen jakin gabe.
+Horregatik komeni da CRMa zentroak matrikulatzeko, fakturatzeko eta komunikatzeko erabiltzen duen sistema beraren parte izatea. Plaza-erreserba kobratzen baduzu, ordainagiria fitxa beretik atera behar da.
 
 <br>
 
-<strong>Onboarding, automatizazioa eta zaintza promesarekin</strong>
+<strong>Ezartzean egin ohi diren akatsak</strong>
 
 <br>
 
-Automatizazio moduluak, arauak, lan-fluxuak, onboarding, jarraipen-zereginetan lagun dezakete: hitzorduen abisua, dokumentazio-zerrenda, epaia ordezkatu gabe. Ez dugu "kudeaketa ordezkatzen duen AI" saltzen, orduak askatzen dituzten fluxuak saltzen ditugu, politika, txantiloiak eta mugak aplikatzen badituzu. Irizpiderik gabeko automatizazioz betetako CRM zarata sortzen du; hutsik, ez du erreskatatzen. Balioa CRM fakturazioarekin, familiarekin eta dokumentazioarekin konektatzean dago, gako bera, ikusgarritasun bera.
+- **Etapa gehiegi.** Inork ez badaki familia bat non jarri, taulak errealitatea islatzeari uzten dio.
+- **Arduradunik gabeko eskaerak.** Talde osoak ikusten ditu eta inork ez du deitzen.
+- **Historia garbitu gabe inportatzea.** Bikoiztuek eta duela hiru ikasturteko eskaerek zifrak zikintzen dituzte lehen egunetik.
+- **Kontsulta kopurua bakarrik neurtzea.** Garrantzitsuena da zenbat bihurtzen diren matrikula eta besteak non geratzen diren.
+- **Idazkaritzarik gabe diseinatzea.** Haiek erabiliko dute egunero; prozesua haien lanarekin bat ez badator, kalkulu-orrira itzuliko dira.
+
+Hurrengo urratserako, matrikularako bertarako, gida bat duzu hemen: <a href="/eus/blog/matrikula-online-urratsez-2026/">matrikula online urratsez urrats nola ezarri</a>.
 
 <br>
 
-<strong>Fakturazioarekin, erreserbekin eta lehen kobrarekin erlazioa</strong>
+<strong>Nola funtzionatzen duen Edenan</strong>
 
 <br>
 
-CRM linboan bizi bada, leku bat ordainagiririk gabe edo baldintza argirik gabe erreserbatzeak itxaron-zerrenda "iraingarriak" eta gatazkak sortzen ditu. Erreserba fasea fakturazio moduluarekin, ordainagiriak eta ez-ordainketen kontrola ez da “gogorra” izaten ari, gardena izaten ari da: familiak ulertzen du konpromisoa, zentroak asmoa bermatzen du, eta zuzendaritzak inbutua eta kutxa erregistratzailea lerrokatuta ikusten ditu. Edena-n, CRM, fakturazioa eta oinarrizko plataforma konbinatzen dituen paketeak "ordaindutako" eta "inbutu egoera" bi sistemetan ez bereiztea ahalbidetzen du. Era berean, dagoeneko bezeroak diren eta erreferentziak ekartzen dituzten familiei jatorriaren jarraipena egiten zaie: ahoz ahoko balioa islatzen du, kostu marjinal txikiena duen kanala izan ohi da, eta ikusgarritasuna merezi du txostenetan, ez post-it batean. Hainbat kokapen dituzten akademiek zentroen araberako bihurketa alderatu eta baliabideak birlokatu ditzakete, ez bakarrik lineako marketina, baizik eta zirrikituak bisitatu, onarpeneko langileak edo dokumentazio-zerbitzuak ere lehenetsi kokapen saturatuenean.
+<a href="/eus/crm/">Edenaren eskola-CRMa</a> espedientea, fakturazioa eta familien aplikazioa dituen plataforma beraren parte da:
 
-<br>
+- **Erakarpen-formularioak**, editore bisual batekin sortu eta zentroaren webgunean edo kanpainako mezuetan esteka batekin argitaratzen direnak.
+- **Abiapuntuko etapak** Berria, Kontaktatua, Kualifikatua, Proposamena, Negoziazioa eta Irabazia; izena aldatu edo zure prozesura egokitu ditzakezu.
+- **Eskaera bakoitzaren jatorria** (webgunea, telefonoa, posta elektronikoa, bisita edo formularioa) eta **esleitutako arduraduna**.
+- **Jardueraren historia**, etapa-aldaketa, kontaktu edo ekintza bakoitzaren data eta orduarekin.
+- **Erakarpen-txostenak**: zenbat eskaera iristen diren, zenbatek egiten duten aurrera etapa bakoitzean eta arduradun bakoitzaren emaitzak.
+- **Irabazia egoerara pasatzean**, familiaren datuak prest geratzen dira ikaslearen altarako. Automatizazio moduluarekin, alta berez sor daiteke matrikula berrestean.
 
-<strong>Akatsak ezartzerakoan</strong>
-
-<br>
-
-- Erosi CRM eta ez eszena-jaberik esleitu, dena "ahal duenari" dagokio.
-- Ez trebatu harrera, haiek gabe, kanalizazioa datza.
-- Neurtu "buruak" sailkatu gabe.
-- Bilketatik deskonektatu, erreserba ordainagiririk gabe, kaosa.
-- Promesa batzordearen emaitzak 10 egunetan, benetako ziklorik gabe, kurbak denbora behar du, zintzotasunak gehiago konbentzitzen du.
-
-<br>
-
-<strong>Nola aurkeztu CRM batzordeari "tresna gehiago" itxura izan gabe</strong>
-
-<br>
-
-Itzuli prestazioa ordu eta arriskutan: idazkaritza-orduak birkalifikazioan, kudeaketa-orduak zifrak batzean, oker esleitutako lanpostuen arriskua, itxaron-zerrenda haserre batekin jarraipenik gabe bideratzeko arriskua. Hileroko bizpahiru txostenen irteerarekin (inbutua, jatorria, etapako denbora) batzordeak intuizioei buruz eztabaidatzeari uzten dio. Norbaitek "AI matrikulak aurreikusteko" galdetzen badu, gogoratu: datu garbiak eta mugarriak bete gabe, edozein promesa iragarle zarata da. Lehenik koherentzia operatiboa, gero fintasuna. Zentro askotan, matrikularen jauzia ez da publizitate gehiagotik dator, bisita osteko bi aste kritikoetan egindako jarraipen diziplinatutik baizik, non CRMk partida irabazten edo galtzen duen, ez hesiko seinalea.
-
-<br>
-
-<strong>Noiz kobratu erreserba?</strong>
-
-<br>
-
-Bisita baten ondoren edo onartutako proposamenaren ondoren, fluxu digital berean, behin betiko alta baino lehen.
-
-<br>
-
-<strong>Bihurketa duen inbutu adibidea</strong>
-
-<br>
-
-- **100 web eskaera:** Hasierako kanalizazioaren sarrera; jatorria erregistratzen du (weba, erreferentzia, Open Day).
-- **Programatutako 60 bisita (%60):** Gutxieneko eskaera-bisita bihurtzeko helburua; Jarraian, egiaztatu formularioa eta erantzun denbora.
-- **45 proposamen bidali (bisiten % 75):** Proposamen argia kuota, zerbitzu eta epe dokumentatuekin.
-- **32 izen-emate (proposamenen %71):** Eskaera-matrikula bihurketa guztira: % 32. 48 orduko jarraipena hobetzeak normalean lehen atala 5-8 puntutan handitzen du.
-
-<br>
-
-<strong>Gomendatutako kanalizazio-egoerak</strong>
-
-<br>
-
-- **Interesatuta:** Erregistratutako Lead; arduraduna esleitu 24 ordutan.
-- **Jarri harremanetan:** Bidalitako lehen erantzuna; erregistratu kanala eta data.
-- **Bisitatu:** Open Day edo programatutako edo egindako elkarrizketa.
-- **Proposamena:** Idatziz bidalitako tasak eta zerbitzuak.
-- **Ordaindutako erreserba:** Fakturazioan erregistratutako finantza-konpromisoa.
-- **Erregistratua:** Erregistro operatiboa fitxategian eta programatutako lehen bilketa.
-- **Galdua (kodetutako arrazoia):** Prezioa, distantzia, lehiaketa edo beste; bihurketa aztertzeko beharrezkoa.
-
-<br>
-
-<strong>Testuingurua Espainian: kontratazioa eta matrikulazioa presio demografikoan</strong>
-
-<br>
-
-Autonomia erkidego askotan, zentro pribatuen eta diruz lagundutakoen arteko lehia handia da. Eskaera bat harrapatzea ez da matrikulatzea: etapa argiak, erantzun-epeak, dokumentazio digitala eta erreserba-kostuak dituen kanalizazioa behar duzu. Familiek hainbat zentro paraleloan alderatzen dituzte; Bisita bat berresteko edo proposamen bat bidaltzeko 48-72 ordu baino gehiago behar dituenak hautagaiak galtzen ditu jakin gabe.
-
-Erregistroa digitalizatzeak familia berri baten inskripzio administratiboa bost egunetik zazpi egunera 24-48 ordura murrizten du, fluxuak zirkuitu bakarrean espedientean sinadura, ordainketa eta inskripzioa barne hartzen baditu. CRM egoerarekin (interesatua, bisita, erreserba, erregistratuta) eta 48 orduko jarraipenarekin, kudeaketak "buruak" neurtzen ditu, baina ez benetako bihurketa jatorriaren edo etaparen arabera.
-
-2026an, Espainian hezkuntza-kontratazioak tokiko SEO, Open Day, erreferentziak eta ERP-rekin konektatutako web-inprimakia uztartzen ditu. ROI ez dago iragarki gehiagotan, baizik eta bisitaren ondorengo jarraipen diziplinatuan eta webgunean agintzen denaren eta idazkaritzak erregistroan exekutatzen duenaren arteko koherentzian.
-
-<br>
-
-<strong>Kasu praktikoa (Espainia)</strong>
-
-<br>
-
-420 ikasle aktibo dituen hizkuntza akademia batek web inprimaki bat ezarri zuen, CRM egoerarekin (interesatuta, bisitatu, erreserba, matrikulatuta) eta lineako matrikula ordainketarekin. Eskaeratik matrikularako bihurketa %42tik %58ra igo zen urtebetean, inprimakia erdibidean utzi zutenei jarraipen automatikoa eginez.
+Ikastetxeetan, haur-eskoletan eta hezkuntza-taldeetan oinarrizko plataformaren gainean aktibatzen den modulua da. Akademietan Finantza Packean eta Akademia 360 Packean dago barne.
 
 <br>
 
@@ -196,6 +167,8 @@ Erregistroa digitalizatzeak familia berri baten inskripzio administratiboa bost 
 
 <br>
 
-Matrikulazioa handitzeak eta aplikazioak bihurtzeak, eskola CRMrekin, jatorria, etapak, zereginak, mezua eta itxiera egituratzea eskatzen du, fitxategiaren oinarri berdinean eta, hala badagokio, fakturazioa, jauzirik gabe. Edena, CRM, inprimakiak, fakturazioa, komunikazioa, automatizazioarekin, arretarekin hazteko aukera ematen du, ez kaosarekin, eta 24/7 laguntzarekin, onarpena ez dadin inoiz ilunpean bizi. Eskatu demo bat, ezagutu kanalizazioa, ezabatu orri paraleloak eta ekarri zure batzordera galderak dituzten zifrak, ez ontasuna.
+Eskola-CRM batek ez ditu familiak berez erakartzen, baina dagoeneko galdetu dutenak galtzea saihesten du. Ondo definitutako etapa gutxirekin, eskaera bakoitzerako arduradun batekin eta geldirik daudenen asteroko berrikuspenarekin, zentroak badaki zer kanalek dakarren matrikulak eta non ihes egiten dioten familiek.
+
+Zure onarpen-prozesuarekin nola geratuko litzatekeen ikusi nahi baduzu, <a href="/eus/demo/">eskatu 15 minutuko demo bat</a>.
 
 <br>

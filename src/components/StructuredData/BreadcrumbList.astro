@@ -1,4 +1,6 @@
 ---
+import { withTrailingSlash } from "@/i18n/utils";
+
 interface BreadcrumbItem {
     name: string;
     url: string;
@@ -40,7 +42,8 @@ const breadcrumbSchema: BreadcrumbSchema = {
         "@type": "ListItem",
         position: index + 1,
         name: item.name,
-        item: item.url,
+        // Same form as the canonical link: pages are served with a trailing slash.
+        item: withTrailingSlash(item.url),
     })),
 };
 ---

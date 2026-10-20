@@ -25,7 +25,7 @@ faqs:
     - question: "Do social networks influence SEO?"
       answer: "Indirectly: they do not rank the website, but the traffic and the brand help. Focus first on the website and the Google listing; networks are complement."
     - question: "Should I hire an agency for SEO for educational centers?"
-      answer: "It depends on the internal time. Many tasks (page structure, Google tab, basic content) can be done by the team with a guide; For advanced strategy or external links, an agency with experience in education may be useful."
+      answer: "It depends on the internal time. Many tasks (page structure, Google tab, basic content) can be done by the team with a guide; for advanced strategy or external links, an agency with experience in education may be useful."
 ---
 
 <strong>SEO guide for educational centers: how to appear on Google when families search for a school</strong>
@@ -100,7 +100,7 @@ A slow website or one that is poorly adapted to mobile devices harms the positio
 
 <br>
 
-A school in a medium-sized city created pages by stage and by "bilingual school [city]"; In six months, requests for information from the web increased. A nursery school optimized its Google listing and facility photos; improved profile visits and calls from "daycare [area]".
+A school in a medium-sized city created pages by stage and by "bilingual school [city]"; in six months, requests for information from the web increased. A nursery school optimized its Google listing and facility photos; improved profile visits and calls from "daycare [area]".
 
 <br>
 

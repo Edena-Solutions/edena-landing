@@ -1,197 +1,166 @@
 ---
-title: "CRM escolar: cómo aumentar matrículas y convertir más solicitudes"
-seoTitle: "CRM escolar: cómo convertir más solicitudes en matrículas"
+title: "CRM escolar: cómo convertir más solicitudes en matrículas"
 date: "2026-03-24"
+updated: "2026-10-20"
 translationKey: "crm-escolar-matriculas-conversion-2026"
-description: "Un CRM escolar no es un “extra de comercial” para centros que quieren parecer modernos: es el antídoto contra la matrícula que se enfría en bandeja."
-tags:
-    [
-        "CRM escolar",
-        "matrículas online",
-        "captación colegios",
-        "leads educación",
-        "formularios escolares",
-        "inscripciones",
-    ]
+description: "Qué es un CRM escolar, qué etapas usar en admisiones, qué medir cada semana y cómo implantarlo para que ninguna solicitud de matrícula se quede sin respuesta."
+tags: ["CRM escolar", "admisiones", "matrícula", "captación de alumnos", "solicitudes de matrícula"]
 topics: ["admissions"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1730382624360-9cf5609c8364?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 relatedPosts:
     - matricula-online-centro-educativo-pasos-2026
     - onboarding-digital-familias-matricula-online
-    - digitalizacion-retencion-alumnos
-    - retencion-estudiantes-era-digital
+    - jornadas-puertas-abiertas-captacion-2027-2028
+    - caida-natalidad-colegios-captacion-matriculas-2026
 faqs:
-    - question: "¿Un CRM “pegado con APIs” a la plataforma val igual que integrado?"
-      answer: "A veces, con coste, latencia, duplicados, desincronización, y fallos en cierre, integrado, suele bajar riesgo."
-    - question: "¿Cuánto sube la conversión con CRM?"
-      answer: "Depende de embudo, sector, oferta, no fijamos cifra mágica, pero ver etapas y fondos, suele alinear esfuerzo, lo cual sube tasa, no garantiza 20 puntos, pero evita fugas tontas."
-    - question: "¿Cómo se gestiona una lista de espera en el CRM?"
-      answer: 'Crea una etapa específica de lista de espera en el pipeline con campo de posición y confirmación automática para la familia. Cuando quede libre una plaza, el sistema alerta al propietario de la etapa para avanzar la siguiente solicitud. Evita gestionar la lista de espera en un Excel separado: ahí es donde nacen los conflictos de "quién llevaba más tiempo".'
-    - question: "¿Cuándo añadir el módulo de comunicación Pro al flujo del CRM?"
-      answer: "Cuando el volumen de solicitudes sea suficientemente alto como para que el correo solo provoque que las familias no vean notificaciones de cambio de etapa, o cuando necesites confirmación de lectura en mensajes de confirmación de plaza o pago de señal. La comunicación básica funciona para volúmenes moderados; Pro añade push y confirmación cuando el proceso de admisión lo justifica."
-    - question: "¿Qué pasa con datos sensibles y GDPR?"
-      answer: "Criterio de base legal, plazos, limpieza, y consentimiento, el software acompaña, no reemplaza asesoría, exige mínimos, Edena, enfoque plataforma con control de accesos, documentación, responsabilidad compartida."
+    - question: "¿Qué diferencia hay entre un CRM escolar y una hoja de cálculo de admisiones?"
+      answer: "Una hoja de cálculo registra quién ha preguntado. Un CRM escolar registra además en qué etapa está cada familia, quién la atiende, qué se le ha dicho y cuándo toca el siguiente paso, y deja a la vista las solicitudes que llevan días paradas."
+    - question: "¿Qué etapas debería tener el proceso de admisión?"
+      answer: "Pocas y con un criterio claro para pasar de una a otra: nueva solicitud, primer contacto hecho, visita o entrevista, propuesta de plaza y matrícula confirmada. Si el centro trabaja con lista de espera o reserva de plaza, cada una merece su propia etapa."
+    - question: "¿Sirve un CRM genérico para un colegio?"
+      answer: "Puede servir para registrar contactos, pero los datos de la familia se quedan fuera del sistema que después matricula, factura y comunica. Cada alta obliga a copiar los datos a mano, y la dirección ve qué canal trae consultas, no qué canal trae matrículas."
+    - question: "¿Qué indicadores conviene revisar cada semana?"
+      answer: "Solicitudes nuevas por canal, tiempo hasta el primer contacto, solicitudes paradas más de una semana y conversión de visita a matrícula. Con esas cuatro cifras se ve en qué punto se pierden familias."
+    - question: "¿Qué hay que tener en cuenta sobre protección de datos?"
+      answer: "Las solicitudes contienen datos personales de familias y, a menudo, de menores. El formulario debe informar de la finalidad, pedir solo lo necesario en cada fase y el centro debe fijar cuánto tiempo conserva las solicitudes que no acaban en matrícula. Conviene revisarlo con el delegado de protección de datos."
 ---
 
-<strong>CRM escolar: cómo aumentar matrículas y convertir más solicitudes</strong>
+<strong>CRM escolar: cómo convertir más solicitudes en matrículas</strong>
 
 <br>
 
-Un CRM escolar no es un “extra de comercial” para centros que quieren parecer modernos: es el antídoto contra la matrícula que se enfría en bandeja, la visita sin seguimiento y la hoja de cálculo que nadie actualiza el viernes. Cuando la captación vive fuera del sistema que luego cobra y da servicio, se duplican datos, se pierden orígenes y la dirección ve cifras tarde. En 2026, con competencia entre colegios, guarderías y academias, convertir solicitudes en plazas firmadas exige pipeline, tareas, recordatorios y formularios que alimenten el mismo expediente. Edena incluye en su módulo CRM escolar solicitudes de matriculación, pipeline y seguimiento de leads, formularios de captación personalizables y origen multicanal: no inventamos funciones ajenas al producto; hablamos de lo que una plataforma integrada puede hacer cuando la admisión deja de ser “otro Excel”.
+Cuando una familia busca centro, escribe a varios a la vez. Pide información, visita dos o tres y decide en pocas semanas. El centro que responde rápido, recuerda lo que se habló en la visita y llama después suele ser el que matricula.
+
+Las solicitudes rara vez se pierden por falta de interés. Se pierden entre bandejas de correo, notas de teléfono y una hoja de cálculo que solo entiende quien la creó. Un CRM escolar reúne cada solicitud en un solo sitio, con una persona responsable y un siguiente paso con fecha.
 
 <br>
 
-<strong>Qué es y qué no es un CRM escolar en la práctica</strong>
+<strong>Qué es un CRM escolar</strong>
 
 <br>
 
-Un CRM escolar es un registro operativo de interesados y candidatos a plaza, con etapas, responsables, próximos pasos y análisis de origen. No es un listado de marketing, ni un repositorio de “correos copiados.” No sustituye la visita presencial ni la calidad pedagógica, ni arregla una oferta débil, pero sí elimina el error de no devolver una llamada, de mezclar prioridades, o de no saber cuántas plazas reales quedan atadas a reservas sin pago. Cuando la dirección pregunta “¿de dónde vienen las matrículas de abril?”, el CRM responde con canal, curso, sede, sin rehacer informes a mano. Cuando secretaría debate “a quién recordamos hoy,” la lista nace filtrada por etapa y antigüedad, no por memoria. Esa diferencia, multiplicada por decenas o cientos de familias, es caja y reputación, no un adorno. En plataformas integradas, el paso de “preinscrito con documentación” a “alumno con recurrencia activa” debería ser trazable, con menos re-keying, menos discrepancia entre el nombre en el pago y el de la ficha, y menos riesgo de asignar aula equivocada en el arranque de curso, que es cuando más fricción nace, sin hablar luego de sostenibilidad o marketing genérico, sino de operación pura, que el tutor nota al primer recibo o al primer acceso a la app.
+Es la herramienta en la que el centro registra y sigue a cada familia interesada, desde la primera consulta hasta la matrícula. Sirve para cinco cosas:
+
+- **Registrar cada solicitud** con sus datos y el canal por el que llegó: la web, una llamada, un correo, una visita o una jornada de puertas abiertas.
+- **Saber en qué etapa está** cada familia y qué falta para que avance.
+- **Asignar un responsable**, para que cada solicitud tenga a alguien que la atiende.
+- **Guardar el historial**: llamadas, correos, visitas y cambios de etapa, con su fecha.
+- **Medir la conversión**: cuántas consultas acaban en matrícula, por canal y por etapa.
 
 <br>
 
-<strong>Por qué el embudo se rompe sin CRM</strong>
+<strong>Por qué se pierden solicitudes sin un CRM</strong>
 
 <br>
 
-Tres patrones habituales: (1) la web genera interés, alguien reenvía a secretaría y el lead muere en el olvido; (2) varias fuentes (Meta, visita, referido) mezclan criterio y no sabes qué canal rinde; (3) la matrícula “oficial” ocurre en otro sistema, con error de carga y re-trabajo. Consecuencia: director que cree que basta con “campañas de marca” mientras el embudo fuga en la semana 2 post-visita, donde realmente gana o pierde un centro con capacidad acotada. Un CRM integrado, no aislado, evita reescritura, da origen, responsable y etapa, y conecta con facturación y familia en el mismo criterio de datos.
+Los motivos se repiten en colegios, escuelas infantiles y academias:
+
+- La consulta llega al correo de una persona que está de vacaciones o de baja, y nadie más la ve.
+- La familia hace la visita, pero nadie la llama después para resolver dudas o proponer plaza.
+- La lista de espera vive en una hoja aparte y, cuando queda una plaza libre, cuesta saber a quién le toca.
+- La dirección sabe cuántas matrículas hay, pero no de dónde vienen ni en qué punto se quedan las familias que no llegan.
+
+En los meses de campaña, cuando secretaría atiende a la vez a las familias actuales y a las nuevas, estos huecos se notan más.
 
 <br>
 
-<strong>Definir etapas que tu equipo sí usa</strong>
+<strong>Las etapas del proceso de admisión</strong>
 
 <br>
 
-De poco sirve clonar un pipeline B2B genérico. En educación, etapas típicas: interés, visita/entrevista, pre-inscripción, documentación, reserva, firma, alta operativa, primer cobro. Cada etapa con dueño, SLA interno, y tarea. Si un paso dura días con correos sueltos, el familiar compara y elige a otro. Menos fricción, más tasa, sin prometer milagro: requiere disciplina, no solo software. El módulo debe permitir personalizar, no imponer un flujo inútil, y ahí entran formularios personalizables y orígenes: saber si vino de web, de puerta, de alumnos actuales, ajusta mensaje y prioridad, no mide vaidad, mide inversión.
+El error más común es copiar un embudo de ventas con diez etapas que nadie actualiza. Para un centro educativo suelen bastar estas:
+
+1. **Nueva solicitud.** Ha entrado la consulta y nadie ha contactado todavía.
+2. **Contactada.** Alguien del equipo ha respondido y ha resuelto las primeras dudas.
+3. **Visita o entrevista.** La familia ha visitado el centro o tiene la visita agendada.
+4. **Propuesta de plaza.** Se le ha ofrecido plaza en un curso y está decidiendo.
+5. **Matrícula confirmada.** La familia ha aceptado y empieza el alta.
+
+Si el centro trabaja con **lista de espera** o pide una **reserva de plaza**, conviene que cada una sea una etapa propia. Y hace falta una salida clara, **descartada**, con el motivo: eligió otro centro, se mudó, no había plaza. Ese motivo es lo que después explica por qué se pierden familias.
+
+Lo importante es que cada paso tenga un criterio que todo el equipo entienda igual. "Contactada" significa que alguien ha hablado con la familia, no que se le ha enviado un correo automático.
 
 <br>
 
-<strong>Formularios y autogestión: primera impresión</strong>
+<strong>El formulario es la puerta de entrada</strong>
 
 <br>
 
-Un formulario confuso, con campos duplicados o sin confirmación, genera leads basura. Uno claro, con validación, confirmación, y carga a pipeline, ahorra llamadas. La autogestión familiar de la plataforma base, junto a onboarding, reduce fricción en altas, siempre que la oficina tenga criterio de qué pasa con datos incompletos. El CRM no sustituye el criterio de admisión, pero expone cuello de botella, por ejemplo, documentos pendientes de X curso, para que comité o dirección reaccione con hechos.
+Si el formulario de la web es largo o confuso, muchas familias no lo terminan. Algunas pautas que funcionan:
+
+- **Pide lo mínimo en la primera pantalla:** nombre, teléfono o correo, curso de interés y cómo conoció el centro.
+- **Deja los documentos para después**, cuando la familia ya ha decidido seguir adelante.
+- **Confirma la recepción en el momento**, con un mensaje que diga qué pasará a continuación y en qué plazo.
+- **Usa un formulario por campaña:** curso nuevo, campus de verano, jornada de puertas abiertas. Así sabes qué acción trae cada solicitud.
+
+Cada formulario debe crear la solicitud directamente en el CRM. Si llega por correo y alguien la copia a mano, vuelven los errores y los retrasos.
 
 <br>
 
-<strong>Comunicación alineada: Pro cuando hace falta</strong>
+<strong>Responsables y plazos de respuesta</strong>
 
 <br>
 
-Mensaje genérico a todos vs segmentación: las familias en etapa de visita no necesitan el mismo aviso que las ya matriculadas. Comunicación Pro, con chat, notificaciones push, confirmación de lectura, segmentada por grupo o aula, alimenta la experiencia sin volcar el módulo de admisión. No es publicidad, es señal oportuna. Un centro que sabe leer tasa de avance por etapa y tiempo medio entre hitos entiende dónde invertir: si la caída es post-visita, mejore visita, script, o seguimiento, no el logo.
+Una solicitud sin dueño acaba sin respuesta. Asigna cada una a una persona del equipo nada más entrar y fija un plazo interno para el primer contacto, por ejemplo dos días laborables.
+
+Una vez por semana, revisa las solicitudes que llevan más de siete días sin moverse. Es una reunión corta: para cada una, se decide el siguiente paso o se descarta con su motivo.
 
 <br>
 
-<strong>Ejemplos, sin ficción de éxito instantáneo</strong>
+<strong>Qué medir cada semana</strong>
 
 <br>
 
-- Academia de idiomas, varias sedes, leads en Excel por recepcionista, sin origen. Tras asignar origen y tareas, la dirección vio qué local convertía; reasignó presupuesto de campaña y ajustó jornada de atención, no “subió un 300% en una semana”, que sería falso, pero saneó derrama.
-- Guardería con lista de espera, leads sin prioridad: quien paga inscripción mientras otros aguardan correo, genera conflicto. Con etapas y reglas, la gestión de cola y mensajes, transparente, baja fricción y reclamación.
-- Colegio que unifica CRM y expediente, evita carga doble, el equipo administra con menos error de nombre o curso, lo cual impacta en confianza del tutor.
+Con cuatro indicadores se ve casi todo:
+
+- **Solicitudes nuevas por canal.** Dice qué acciones atraen familias: la web, las jornadas, las recomendaciones.
+- **Tiempo hasta el primer contacto.** Si sube, las familias esperan demasiado mientras otros centros les responden.
+- **Solicitudes paradas.** Las que llevan más de una semana sin cambiar de etapa.
+- **Conversión de visita a matrícula.** Si es baja, el problema está en la visita o en el seguimiento posterior, no en la captación.
+
+Mira las cifras por curso o etapa educativa. Infantil 3 años y 1.º de ESO suelen comportarse de forma distinta.
 
 <br>
 
-<strong>KPIs mínimos del CRM, sin dashboard vacío</strong>
+<strong>Del CRM a la matrícula sin volver a teclear</strong>
 
 <br>
 
-- Leads por etapa, conversión etapa a etapa, en ventana fija, por ejemplo, matrículas 2026 en curso.
-- Origen, coste relativo, si aplica, y ratio de cierre, no “impresiones”.
-- Tiempo en etapa, alertas.
-- Tasa de abandono documental.
-- Coherencia: mismo definición que usa dirección, no cinco Excel distintos.
+Cuando una familia confirma la plaza, sus datos tienen que llegar al expediente del alumno, a la facturación y a la app de las familias. Si el CRM es una herramienta aparte, secretaría vuelve a escribir los mismos datos en el programa de gestión, y ahí aparecen los errores en nombres, cursos y cuentas bancarias.
 
-Con analítica de centro en la plataforma base, más módulo CRM, la lectura gana cuerda; sin CRM, mides caja sin saber de dónde vino el último 20% de matrículas.
+Por eso conviene que el CRM forme parte del mismo sistema con el que el centro matricula, factura y se comunica. Si cobras una reserva de plaza, el recibo debe salir de esa misma ficha.
 
 <br>
 
-<strong>Onboarding, automatización y cuidado con la promesa</strong>
+<strong>Errores habituales al implantarlo</strong>
 
 <br>
 
-Módulo de automatización, reglas, workflows, onboarding, puede ayudar a tareas de seguimiento: recordatorio de cita, checklist documental, sin sustituir el juicio. No vendemos “IA que reemplaza a dirección”, vendemos flujos que libera horas, si aplicas política, plantillas y límites. Un CRM lleno de automation sin criterio genera ruido; vacío, no rescata. El valor está en conectar CRM con facturación, familia, y documentación, misma clave, misma visibilidad.
+- **Demasiadas etapas.** Si nadie sabe en cuál poner a una familia, el tablero deja de reflejar la realidad.
+- **Solicitudes sin responsable.** Todo el equipo las ve y nadie llama.
+- **Importar el histórico sin limpiar.** Los duplicados y las solicitudes de hace tres cursos ensucian las cifras desde el primer día.
+- **Medir solo el número de consultas.** Lo que importa es cuántas acaban en matrícula y dónde se quedan las demás.
+- **Diseñarlo sin secretaría.** Son quienes lo van a usar cada día; si el proceso no encaja con su trabajo, volverán a la hoja de cálculo.
+
+Para el paso siguiente, la matrícula en sí, tienes una guía en <a href="/blog/matricula-online-centro-educativo-pasos-2026/">cómo implantar la matrícula online paso a paso</a>.
 
 <br>
 
-<strong>Relación con facturación, reservas y primer cobro</strong>
+<strong>Cómo funciona en Edena</strong>
 
 <br>
 
-Si el CRM vive en el limbo, la reserva de plaza sin recibo o sin condiciones claras genera listas de espera “ofensoras” y disputas. Conectar la etapa de reserva con módulo de facturación, recibos y control de impagos, no es ser “duro”, es ser transparente: la familia entiende el compromiso, el centro asegura intención, y la dirección ve embudo y caja alineados. En Edena, el paquete que combina CRM, facturación y plataforma base permite que “pagado” y “estado de embudo” no diverjan en dos sistemas. Asimismo, las familias que ya son clientes y traen referidos quedan rastreadas por origen: refleja el valor del boca a boca, suele ser el canal de menor coste marginal, y merece visibilidad en informes, no un post-it. Las academias con varias sedes pueden comparar conversión por centro y reasignar recursos, no solo marketing online, sino franjas de visita, personal de admisión, o incluso priorizar servicios de documentación en la sede que más satura.
+El <a href="/crm/">CRM escolar de Edena</a> forma parte de la misma plataforma que el expediente, la facturación y la app de las familias:
 
-<br>
+- **Formularios de captación** que se crean con un editor visual y se publican con un enlace en la web del centro o en los correos de campaña.
+- **Etapas de partida** Nuevo, Contactado, Cualificado, Propuesta, Negociación y Ganado, que puedes renombrar o ajustar a tu proceso.
+- **Origen de cada solicitud** (web, teléfono, correo, visita o formulario) y **responsable asignado**.
+- **Historial de actividad** con fecha y hora de cada cambio de etapa, contacto o acción.
+- **Informes de captación:** cuántas solicitudes llegan, cuántas avanzan en cada etapa y los resultados de cada responsable.
+- **Al pasar a Ganado**, los datos de la familia quedan listos para el alta del alumno. Con el módulo de Automatización, el alta puede crearse sola al confirmar la matrícula.
 
-<strong>Errores al implantar</strong>
-
-<br>
-
-- Comprar CRM y no asignar dueños de etapa, todo cae a “el que pueda.”
-- No formar a recepción, sin ellos, el pipeline miente.
-- Medir “leads” sin calificar.
-- Desconectar de cobro, reserva sin recibo, caos.
-- Prometer a comité resultados en 10 días, sin ciclos reales, la curva tarda, honestidad convence más.
-
-<br>
-
-<strong>Cómo presentar el CRM al comité sin que suene a “más herramienta”</strong>
-
-<br>
-
-Traduce el beneficio a horas y riesgo: horas de secretaría en reclasificación, horas de dirección en armar cifras, riesgo de plaza mal asignada, riesgo de lead sin seguimiento con lista de espera enfadada. Con dos o tres salidas de informe mensuales (embudo, origen, tiempo en etapa) el comité deja de discutir intuiciones. Si alguien pide “AI para predecir matrículas”, recuerda: sin datos limpios y etapas cumplidas, cualquier promesa predictiva es ruido. Primero coherencia operativa, luego refinamiento. En muchos centros, el salto de matrícula no viene de más publicidad, sino de seguimiento disciplinado en dos semanas críticas post-visita, donde el CRM gana o pierde el partido, no el cartel en la valla.
-
-<br>
-
-<strong>¿Cuándo cobrar la reserva?</strong>
-
-<br>
-
-Tras visita o propuesta aceptada, en el mismo flujo digital, antes del alta definitiva.
-
-<br>
-
-<strong>Embudo de ejemplo con conversión</strong>
-
-<br>
-
-- **100 solicitudes web:** Entrada inicial del pipeline; registra origen (web, referido, Open Day).
-- **60 visitas agendadas (60 %):** Meta mínima de conversión solicitud-visita; por debajo, revisa formulario y tiempo de respuesta.
-- **45 propuestas enviadas (75 % de visitas):** Propuesta clara con cuotas, servicios y plazos documentados.
-- **32 matrículas (71 % de propuestas):** Conversión total solicitud-matrícula: 32 %. Mejorar seguimiento en 48 h suele subir 5-8 puntos el primer tramo.
-
-<br>
-
-<strong>Estados de pipeline recomendados</strong>
-
-<br>
-
-- **Interesado:** Lead registrado; asignar responsable en 24 h.
-- **Contactado:** Primera respuesta enviada; registrar canal y fecha.
-- **Visita:** Open Day o entrevista agendada o realizada.
-- **Propuesta:** Cuotas y servicios enviados por escrito.
-- **Reserva pagada:** Compromiso económico registrado en facturación.
-- **Matriculado:** Alta operativa en expediente y primer cobro programado.
-- **Perdido (motivo codificado):** Precio, distancia, competencia u otro; obligatorio para analizar conversión.
-
-<br>
-
-<strong>Contexto en España: captación y matrícula bajo presión demográfica</strong>
-
-<br>
-
-En muchas CCAA la competencia entre centros privados y concertados es alta. Captar una solicitud no es matricular: hace falta pipeline con etapas claras, plazos de respuesta, documentación digital y cobro de reserva cuando corresponda. Las familias comparan varios centros en paralelo; quien tarda más de 48-72 horas en confirmar visita o enviar propuesta pierde candidatos sin saberlo.
-
-Digitalizar la matrícula reduce de cinco a siete días a 24-48 horas el alta administrativa de una familia nueva, si el flujo incluye firma, pago y alta en expediente en un solo circuito. Sin CRM con estados (interesado, visita, reserva, matriculado) y seguimiento en 48 horas, la dirección mide "leads" pero no conversión real por origen ni por etapa.
-
-En 2026, la captación educativa en España combina SEO local, Open Day, referidos y formulario web conectado al ERP. El ROI no está en más anuncios, sino en seguimiento disciplinado post-visita y coherencia entre lo prometido en web y lo que secretaría ejecuta en matrícula.
-
-<br>
-
-<strong>Caso práctico (España)</strong>
-
-<br>
-
-Una academia de idiomas con 420 alumnos activos implementó formulario web, CRM con estados (interesado, visita, reserva, matriculado) y pago de matrícula online. La conversión de solicitud a matrícula subió del 42 % al 58 % en un año, con seguimiento automático a quien dejó el formulario a medias.
+En colegios, escuelas infantiles y grupos educativos es un módulo que se activa sobre la plataforma base. En academias está incluido en el Pack Finanzas y en el Pack Academia 360.
 
 <br>
 
@@ -199,6 +168,8 @@ Una academia de idiomas con 420 alumnos activos implementó formulario web, CRM 
 
 <br>
 
-Aumentar matrículas y convertir solicitudes, con CRM escolar, exige estructurar orígenes, etapas, tareas, mensaje y cierre, en la misma base que el expediente y, cuando toca, la facturación, sin saltos. Edena, con CRM, formularios, facturación, comunicación, automatización, te permite crecer con foco, no con caos, y soporte 24/7, para que admisión nunca viva a oscuras. Pide una demo, descubre el pipeline, elimina hojas paralelas, y trae a tu comité cifras que aguantan preguntas, no buenismo.
+Un CRM escolar no capta familias por sí solo, pero evita que se pierdan las que ya han preguntado. Con pocas etapas bien definidas, un responsable para cada solicitud y una revisión semanal de las que están paradas, el centro sabe qué canal trae matrículas y en qué punto se le escapan.
+
+Si quieres ver cómo quedaría con tu proceso de admisión, <a href="/demo/">pide una demo de 15 minutos</a>.
 
 <br>

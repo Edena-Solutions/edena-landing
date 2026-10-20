@@ -41,7 +41,7 @@ L'analítica educativa i el dashboard escolar permeten prendre decisions basades
 
 <br>
 
-Sense dades centralitzades, és difícil saber on actuar: en quina etapa hi ha més impagaments? Quines famílies tenen risc de baixa? Com evoluciona l'assistència? L?analítica educativa respon aquestes preguntes. Un dashboard escolar ben configurat dóna visibilitat i permet prioritzar. Els centres que usen analítica educativa prenen decisions més informades i obtenen millors resultats.
+Sense dades centralitzades, és difícil saber on actuar: en quina etapa hi ha més impagaments? Quines famílies tenen risc de baixa? Com evoluciona l'assistència? L'analítica educativa respon aquestes preguntes. Un dashboard escolar ben configurat dóna visibilitat i permet prioritzar. Els centres que usen analítica educativa prenen decisions més informades i obtenen millors resultats.
 
 <br>
 

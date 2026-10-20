@@ -1,5 +1,5 @@
 ---
-title: "Gestió del canvi organitzacional en centres educatius: Estratègies per a la transformació amb èxit"
+title: "Gestió del canvi als centres educatius: estratègies per a una transformació amb èxit"
 seoTitle: "Gestió del canvi en centres educatius: estratègies"
 date: "2025-08-15"
 translationKey: "gestion-cambio-organizacional-educativo"
@@ -22,7 +22,7 @@ faqs:
       answer: "SEO local, Google Business, Open Day amb formulari curt i seguiment CRM en 24-48 hores."
 ---
 
-<strong>Gestió del canvi organitzacional en centres educatius: Estratègies per a la transformació amb èxit</strong>
+<strong>Gestió del canvi als centres educatius: estratègies per a una transformació amb èxit</strong>
 
 <br>
 

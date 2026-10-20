@@ -1,8 +1,8 @@
 ---
-title: "Estudiants a l'era digital: Natius tecnològics"
+title: "Estudiants a l'era digital: els nadius tecnològics"
 date: "2025-03-05"
 translationKey: "estudiantes-era-digital"
-description: "Descobreix com els estudiants d?avui interactuen amb la tecnologia i com els centres educatius poden aprofitar aquesta realitat."
+description: "Descobreix com els estudiants d'avui interactuen amb la tecnologia i com els centres educatius poden aprofitar aquesta realitat."
 tags:
     - "estudiants"
     - "tecnologia"

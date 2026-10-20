@@ -1,5 +1,5 @@
 ---
-title: "Transformación digital en centros educativos: De la resistencia al éxito"
+title: "Transformación digital en centros educativos: de la resistencia al éxito"
 seoTitle: "Transformación digital en centros educativos: claves"
 date: "2024-12-15"
 translationKey: "transformacion-digital-centros-educativos"
@@ -19,7 +19,7 @@ faqs:
       answer: "Entre 8 y 12 semanas, con un ciclo real de facturación o admisión y criterio de éxito escrito."
 ---
 
-<strong>Transformación digital en centros educativos: De la resistencia al éxito</strong>
+<strong>Transformación digital en centros educativos: de la resistencia al éxito</strong>
 
 <br>
 

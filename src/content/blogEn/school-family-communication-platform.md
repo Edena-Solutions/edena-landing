@@ -20,11 +20,11 @@ faqs:
     - question: "Does an app for school parents replace email?"
       answer: "Not necessarily. Email is still useful for long content. But an app for school parents is best for urgent notices, attendance notifications, and payment reminders. The ideal is to have both and use them depending on the type of message."
     - question: "Do families adopt the app for school parents?"
-      answer: "Yes, if the center presents it well and offers value (consult assistance, pay, receive notifications). The key is that the first contact is useful; If they only receive long circulars, adoption will be lower."
+      answer: "Yes, if the center presents it well and offers value (consult assistance, pay, receive notifications). The key is that the first contact is useful; if they only receive long circulars, adoption will be lower."
     - question: "How to comply with GDPR in school-family communication?"
       answer: "Use tools that allow you to manage consents, do not share data for unauthorized purposes and unsubscribe whoever requests it. The provider must act as data processor if it processes data on behalf of the center."
     - question: "Is it legal to use WhatsApp with families?"
-      answer: "With consent and discretion, for coordination; It does not replace a traceable institutional channel."
+      answer: "With consent and discretion, for coordination; it does not replace a traceable institutional channel."
 ---
 
 <strong>How to improve communication with families from a single digital platform</strong>
@@ -85,7 +85,7 @@ Consultation of pending invoices and link to pay online. Integrating payments in
 
 <br>
 
-Send messages by stage, group or family type. Effective school-family communication is not massive; It is relevant to each recipient.
+Send messages by stage, group or family type. Effective school-family communication is not massive; it is relevant to each recipient.
 
 <br>
 
@@ -104,7 +104,7 @@ Send messages by stage, group or family type. Effective school-family communicat
 
 <br>
 
-With consent and discretion, for coordination; It does not replace a traceable institutional channel.
+With consent and discretion, for coordination; it does not replace a traceable institutional channel.
 
 <br>
 

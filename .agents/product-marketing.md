@@ -1,7 +1,7 @@
 # Product Marketing Context
 
-**Document version:** v1
-**Last updated:** 2026-10-19
+**Document version:** v1.1
+**Last updated:** 2026-10-20
 
 ## Product Overview
 **One-liner:** Software de gestión para centros educativos: colegios, escuelas infantiles, academias y grupos educativos.
@@ -63,6 +63,10 @@ Comparativas con fuentes públicas en `/compare/` (`src/data/competitors.ts`).
 | Date | Learning | Evidence | Applies to | Status |
 |------|----------|----------|------------|--------|
 | 2026-10-19 | Los H1 escritos solo como escena ("Administra, factura y habla con las familias…") dejan a la home sin decir qué es Edena ni para quién; hay que poner la categoría primero. | Revisión del equipo: en la home renderizada, "gestión escolar", "software" y "centro educativo" aparecían 0 veces. | copywriting, seo-audit, cro | active |
+| 2026-10-20 | El soporte es por email y chat, incluido en el precio; no hay soporte 24/7 ni centro de ayuda. Lo que funciona 24/7 es Ena. | Auditoría SEO: 16 posts por idioma y la página de Ena prometían "soporte 24/7", en contra de las FAQ (`centers_support_levels`). Corregido. | copywriting, seo-audit, content-strategy | active |
+| 2026-10-20 | Las fichas de App Store y Google Play no publican valoración: no mostrar estrellas, número de valoraciones ni posición en ranking. | Fichas públicas revisadas el 2026-10-20, sin `aggregateRating`; la ilustración de /app/ mostraba 4,8 y 150 valoraciones. Corregido. | copywriting, cro | active |
+| 2026-10-20 | En el blog, ni casos con cifras inventadas ni frases genéricas sobre competidores: cualquier dato de un competidor sale de `src/data/competitors.ts` y enlaza a su comparativa. | Auditoría SEO: la comparativa 2026 prometía comparar plataformas sin nombrar ninguna e incluía casos sin fuente. Reescrita en 5 idiomas. | copywriting, seo-audit, competitors | active |
 
 ## Changelog
 - v1 (2026-10-19) — Initial context, built from the site (llms.txt, pricing, comparativas) after the home copy review.
+- v1.1 (2026-10-20) — Three learnings from the full SEO audit (support hours, store ratings, competitor and case claims in the blog).

@@ -21,7 +21,7 @@ faqs:
     - question: "Does school management software include electronic billing?"
       answer: "Modern school ERPs typically include or integrate e-invoicing and Verifactu. Check that your supplier is ready or adapting before signing."
     - question: "How long does it take to implement a school ERP?"
-      answer: "It depends on the starting point and the scope. A pilot with billing and families can be operational in a few weeks; A full implementation with data migration can take several months. Plan in phases."
+      answer: "It depends on the starting point and the scope. A pilot with billing and families can be operational in a few weeks; a full implementation with data migration can take several months. Plan in phases."
 ---
 
 <strong>School ERP: the complete guide to digitize the management of your educational center</strong>
@@ -38,7 +38,7 @@ A school ERP integrates the administrative, financial and academic management of
 
 <br>
 
-A school ERP (Enterprise Resource Planning) is a comprehensive system that manages the center's resources: financial, human, academic and operational. A SIS focuses on student information; A school ERP goes further and includes billing, payroll, inventory, cafeteria, routing and other processes. The most complete management software for schools is usually an ERP that integrates student, family and administration modules.
+A school ERP (Enterprise Resource Planning) is a comprehensive system that manages the center's resources: financial, human, academic and operational. A SIS focuses on student information; a school ERP goes further and includes billing, payroll, inventory, cafeteria, routing and other processes. The most complete management software for schools is usually an ERP that integrates student, family and administration modules.
 
 <br>
 
@@ -131,7 +131,7 @@ Three disconnected apps multiply transcription errors. The hidden cost is in sec
 <strong>Recommended implementation order</strong><br>
 
 - **Master data:** Clean students, families, rates and courses before activating modules.
-- **Collection:** First actual cycle of receipts; It is usually the main secretarial pain.
+- **Collection:** First actual cycle of receipts; it is usually the main secretarial pain.
 - **Communication:** Family portal when collections and files share source.
 - **Admission:** CRM connected to registration and first payment.
 - **Analytics:** Monthly Dashboard when operational data is reliable.

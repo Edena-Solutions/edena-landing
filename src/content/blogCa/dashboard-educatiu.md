@@ -1,5 +1,5 @@
 ---
-title: "Dashboard educatiu: El centre de control per a la gestió estratègica"
+title: "Dashboard educatiu: el centre de control de la gestió estratègica"
 seoTitle: "Dashboard educatiu: el centre de control de la gestió"
 date: "2025-02-25"
 translationKey: "dashboard-educativo"
@@ -25,7 +25,7 @@ faqs:
       answer: "Diària o setmanal n'hi ha prou per a decisions estratègiques; temps real només en operació de cobraments."
 ---
 
-<strong>Dashboard educatiu: El centre de control per a la gestió estratègica</strong>
+<strong>Dashboard educatiu: el centre de control de la gestió estratègica</strong>
 
 <br>
 

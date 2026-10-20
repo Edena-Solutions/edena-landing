@@ -124,6 +124,6 @@ Una escuela infantil de 85 plazas en Girona evaluó tres proveedores con el mism
 
 <br>
 
-Un ERP para escuelas infantiles en 2026 no es un capricho tecnológico: es la diferencia entre un equipo que trabaja con criterio y trazas, y uno que reconstruye la realidad cada lunes desde tres fuentes distintas. Elige con TCO, demo con tus datos y comité alineado. En Edena puedes empezar con los módulos que vas a alimentar de verdad y añadir cuando el volumen lo justifique, con soporte 24/7 y sin sorpresas de catálogo. Pide una sesión y ve el flujo completo con tus plazas, tu ciclo de cobro y tu comunicación.
+Un ERP para escuelas infantiles en 2026 no es un capricho tecnológico: es la diferencia entre un equipo que trabaja con criterio y trazas, y uno que reconstruye la realidad cada lunes desde tres fuentes distintas. Elige con TCO, demo con tus datos y comité alineado. En Edena puedes empezar con los módulos que vas a alimentar de verdad y añadir cuando el volumen lo justifique, con soporte por email y chat y sin sorpresas de catálogo. Pide una sesión y ve el flujo completo con tus plazas, tu ciclo de cobro y tu comunicación.
 
 <br>

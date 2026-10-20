@@ -26,7 +26,7 @@ faqs:
     - question: "Verifactu canvia com cobrament a les famílies?"
       answer: "Verifactu afecta sobretot l'emissió i la traçabilitat de factures davant l'AEAT, no el mètode de pagament en si. Sí que obliga que el teu programari de facturació generi registres conformes; convé integrar-lo amb cobraments i conciliació."
     - question: "Puc començar només amb recordatoris sense domiciliació?"
-      answer: "Sí, però l?impacte sol ser menor. Combineu tots dos per a màxim efecte."
+      answer: "Sí, però l'impacte sol ser menor. Combineu tots dos per a màxim efecte."
 ---
 
 <strong>Com reduir els impagaments i millorar la facturació a centres educatius</strong>

@@ -1,117 +1,139 @@
 ---
-title: "Com digitalitzar la matrícula en línia del teu centre educatiu pas a pas"
+title: "Matrícula en línia al teu centre educatiu: com implantar-la pas a pas"
 seoTitle: "Matrícula en línia al teu centre educatiu, pas a pas"
 date: "2026-03-28"
+updated: "2026-10-20"
 translationKey: "matricula-online-centro-educativo-pasos-2026"
-description: "Passar la matrícula a un flux en línia no és pujar un PDF a la web: és reordenar criteris, responsables, terminis i missatges."
-tags:
-    - "matrícula en línia"
-    - "inscripció digital"
-    - "centre educatiu"
-    - "formularis matrícula"
-    - "CRM escolar"
-    - "autogestió famílies"
+description: "Com passar la matrícula a un procés en línia: què demanar a cada fase, com recollir signatures i la reserva de plaça, com provar-ho i quins errors evitar."
+tags: ["matrícula en línia", "inscripció digital", "secretaria", "signatura electrònica", "CRM escolar"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop"
 relatedPosts:
     - crm-escolar-matricules-2026
     - incorporacio-digital-families-matricula-en-linia
-    - digitalitzacio-retencio-alumnes
-    - retencio-estudiants-era-digital
+    - renovacio-automatica-matricula-2026
+    - signatura-electronica-col-legis-autoritzacions
 faqs:
-    - question: "Quant de temps porta configurar el procés de matrícula a Edena?"
-      answer: "Una configuració bàsica (formulari, etapes de pipeline, regla de pagament i confirmació automatitzada) pot estar llesta en una setmana si el disseny del procés ja està definit. Fluxos més complexos amb múltiples tipus de documents, automatitzacions d'etapa i comunicació Pro requereixen dues o tres setmanes. L'equip d'implementació acompanya la configuració dins del onboarding."
-    - question: "Com es pot mesurar que el procés digital està funcionant?"
-      answer: 'Els indicadors més fiables són: taxa de compleció de sol·licituds (iniciades vs. enviades), temps des del primer contacte fins a plaça confirmada, i percentatge de trucades "Veu rebre la meva sol·licitud?" després del llançament. Si les taxes de compleció són baixes, el formulari és massa llarg o el primer pas massa exigent. Si el temps fins a confirmació no ha baixat, el coll d''ampolla està al procés intern de validació, no al formulari.'
-    - question: "Necessito CRM i matrícula, o n'hi ha prou amb un formulari aïllat?"
-      answer: "Un formulari sense embut et torna a safates. El CRM aporta etapa, responsable, origen i mesurament. Sense això, no aprens a escalar ni prioritzar en comitè."
-    - question: "Què passa amb el GDPR?"
-      answer: "Has de fixar la base legal, la retenció, l'accés i els consentiments amb el teu DPO o assessor. El programari facilita accessos per rol, traces i portals, però no reemplaça el criteri legal del centre. Edena exposa criteri de producte, no assessoria jurídica."
-    - question: "Com encaixa el règim concertat o documentació addicional?"
-      answer: "Particiona: demana annexos a la fase oportuna, no “tot en un dilluns” que col·lapsa verificació. Anticipa pics, no carrega falsa de treball."
+    - question: "Quant es triga a passar la matrícula a en línia?"
+      answer: "Depèn de quants documents, serveis i tipus d'alumne tingui el centre. El més raonable és dissenyar el procés fora de la temporada de matrícula, provar-lo amb un grup petit de famílies i obrir-lo després a tota la campanya, per no estrenar-lo la setmana amb més feina."
+    - question: "Quins documents es poden signar en línia?"
+      answer: "Les autoritzacions habituals (ús d'imatge, sortides, persones autoritzades per a la recollida, dades de salut), el contracte de serveis i, si el centre cobra per domiciliació, l'ordre de domiciliació. Cada signatura ha de quedar desada a l'expedient de l'alumne amb la seva data."
+    - question: "Què passa amb les famílies que no ho poden fer en línia?"
+      answer: "Convé oferir-los una cita a secretaria en què s'emplena el mateix formulari amb ajuda. Així la sol·licitud acaba al mateix sistema que les altres i no cal mantenir un circuit en paper en paral·lel."
+    - question: "Com es tracta la protecció de dades a la matrícula en línia?"
+      answer: "El formulari ha d'informar de la finalitat i la base legal del tractament, demanar a cada fase només les dades necessàries i tractar a part les dades de salut, que són una categoria especial. Revisa els textos amb el delegat de protecció de dades abans d'obrir la campanya."
 ---
 
-<strong>Com digitalitzar la matrícula en línia del teu centre educatiu pas a pas</strong>
+<strong>Matrícula en línia al teu centre educatiu: com implantar-la pas a pas</strong>
 
 <br>
 
-Passar la matrícula a un flux en línia no és pujar un PDF a la web: és reordenar criteris, responsables, terminis i missatges. Si el formulari viu aïllat, l'equip torna a reescriure a secretaria, i la “digitalització” costa el doble. Un bon desplegament connecta captació, validació, documentació, reserva, signatura i, quan pertoca, el primer cobrament, en un sol criteri de dades. A Edena, el CRM amb sol·licituds de matriculació, pipeline i formularis personalitzables, al costat de la plataforma base (portal i app, onboarding i autogestió familiar), a la facturació amb rebuts, ia la comunicació, permet que el camí de la família no es trenqui entre sistemes, sense afegir funcions que el producte no suporta: ens núvol, només si aporten al teu flux, no de guarniment.
+Una matrícula en línia és aquella en què la família envia la sol·licitud, puja els documents, signa i, si cal, paga la reserva des del mòbil, i secretaria la rep a punt per revisar. Penjar al web un PDF per imprimir, emplenar i retornar per correu no ho és: la paperassa continua igual, només canvia de safata.
+
+Aquesta guia recorre el procés en set passos, des del mapa del que es fa avui fins a la prova amb un grup petit de famílies abans d'obrir la campanya.
 
 <br>
 
-<strong>Pas 0: mapeja l'abans i decideix què mesures</strong>
+<strong>Pas 1: dibuixa el procés que tens avui</strong>
 
 <br>
 
-Inventaria: quantes sol·licituds a l'any, canals, colls, temps de secretaria en pics, documents exigits per etapa, criteri de reserva, qui valida, què passa amb llista d'espera, quanta mora acceptes a l'arrencada. Indicador mínim: taxa de sol·licitud completada, temps de resposta, conversió a matrícula signada, incidència documental. Sense aquesta foto, el projecte vira a “tenim un formulari i ningú no sap llegir-lo”, que és el fracàs modal.
+Abans de tocar cap formulari, apunta com es matricula ara un alumne nou:
+
+- Per quins canals arriben les sol·licituds i quantes n'hi ha en una campanya normal.
+- Quins documents es demanen i en quin moment.
+- Qui revisa cada sol·licitud i qui decideix la plaça.
+- Quan i com es cobra la reserva o la primera quota.
+- On s'encalla: documents que falten, famílies que no responen, dades que es copien dues vegades.
+
+Aquest mapa et dirà què cal digitalitzar i què convé simplificar abans. Passar a en línia un procés amb passos innecessaris només els fa més ràpids.
 
 <br>
 
-<strong>Pas 1: dissenya el flux, no el quadre de text</strong>
+<strong>Pas 2: divideix la matrícula en fases</strong>
 
 <br>
 
-Dibuixa fases: interès, registre, entrega de dades, visita, entrega de documents, aprovació interna, reserva amb condicions, pagament, alta operativa, primer avís. Cada fase, amo, termini, missatge, i criteri de tall. Si deixes reserva sense criteri de pagament, tindràs cues ofensives; si demanes pagament massa aviat, perdràs famílies amb fricció legítima. Ajusta al tipus de centre: escola bressol, col·legi, acadèmia, i al règim, concertat, privat, que dicta documentació i requisits. El flux, no el disseny, segella o trenca l'abandó, per això el CRM i els formularis integrats, amb origen multicanal, et permeten saber on cau l'embut, no “creure que baixa al juliol” sense xifra.
+Demanar-ho tot de cop és la manera més segura que la família abandoni a mitges. Funciona millor repartir la informació en quatre fases:
+
+- **Sol·licitud:** dades de l'alumne i de la família, curs d'interès i com han conegut el centre.
+- **Plaça i reserva:** confirmació de plaça, contracte de serveis i, si el centre la demana, la reserva de plaça.
+- **Documentació i signatures:** autoritzacions d'imatge i sortides, persones autoritzades per a la recollida, fitxa de salut i al·lèrgies, ordre de domiciliació.
+- **Alta:** expedient complet, serveis contractats (menjador, transport, extraescolars) i primer rebut programat.
+
+Cada fase ha de tenir un responsable a secretaria i un missatge per a la família quan es completa.
 
 <br>
 
-<strong>Pas 2: el formulari, simple i vinculat</strong>
+<strong>Pas 3: dissenya un formulari curt i pensat per al mòbil</strong>
 
 <br>
 
-Pocs camps inicials, validació, confirmació, resta progressiva. Demana a la primera pantalla allò imprescindible, evita restringir famílies en mòbil; demana annexos en fases, no murs, excepte requisit legal. El formulari de captació personalitzable a Edena alimenta el pipeline, no un Excel. Evita doble captura, creua amb expedient, i prepara a secretaria per a checklist d'homogeneïtat, no retipat de noms.
+La majoria de famílies obriran el formulari des del telèfon. Algunes pautes:
+
+- **La primera pantalla, amb el mínim:** qui és l'alumne, com contactar i quin curs li interessa.
+- **Camps que es validen sols**, com el correu o el telèfon, per evitar errors que després costa corregir.
+- **Una confirmació immediata** que digui què passa a continuació i en quin termini.
+- **Una sol·licitud per alumne.** Si una família matricula dos fills, que no hagi de repetir les seves pròpies dades.
+
+El formulari ha d'alimentar directament el sistema amb què secretaria gestiona les sol·licituds. Si arriba per correu i algú la copia a mà, es perd bona part del que s'ha guanyat. A la guia sobre el <a href="/ca/blog/crm-escolar-matricules-2026/">CRM escolar</a> tens com organitzar aquest seguiment.
 
 <br>
 
-<strong>Pas 3: connectar comunicació, sense bombardejar</strong>
+<strong>Pas 4: signatures i documents sense paper</strong>
 
 <br>
 
-Comunicar per email només és insuficient en moltes famílies, suma notificacions a app o portal, amb to adequat. Comunicació Pro, xat, push, confirmació de lectura, segmentada per fase, redueix “no vaig llegir” honest i baixa càrrega, sense convertir la família en mur d'avisos. Alinea missatges amb fets: es va rebre document, falta pagament, data de cita, tancament, sense xocar amb allò que veu secretaria, mateixa plataforma, mateixa base.
+Les autoritzacions són la part que genera més paper. Amb una signatura electrònica des de l'app o el portal de famílies, cada document queda desat a l'expedient de l'alumne amb la seva data, i secretaria veu d'un cop d'ull què falta.
+
+Demana els documents a la fase en què calen i no abans. Les dades de salut, per exemple, es necessiten per a l'alta, no per demanar informació.
 
 <br>
 
-<strong>Pas 4: reserva, document i caixa</strong>
+<strong>Pas 5: reserva de plaça i primer cobrament</strong>
 
 <br>
 
-Connecta reserva, import, emissió, rebuts, traces. Facturació electrònica i analítica d'impagaments, al mòdul de facturació, perquè reserva tingui corda amb control de deute, no sorpreses. Si gestiones activitats o serveis, extrascolars amb places i cobraments vinculats, evita tercer “carret” que trenqui conciliació. Botiga online, albarans i històric per alumne, si aplica a la teva oferta, encaixa sota criteri únic, no caixa aïllada.
+Si el centre cobra una reserva de plaça, el moment habitual és quan la família accepta la plaça proposada, dins del mateix procés i abans de l'alta definitiva. Així la reserva confirma el compromís i el centre sap quines places té ocupades de debò.
+
+El rebut de la reserva ha de sortir del mateix sistema que facturarà després les quotes, amb el seu registre Verifactu. Si la reserva es cobra per un costat i les quotes per un altre, la conciliació de setembre es complica.
 
 <br>
 
-<strong>Pas 5: documentació, expedient, núvol</strong>
+<strong>Pas 6: avisa la família a cada canvi</strong>
 
 <br>
 
-Càrrega darxius, validació, visibilitat per curs, grup, alumne, mòdul cloud, carpetes, baixa el “m'ho envieu per WeTransfer i es va perdre.” Si el núvol o la gestió de documents és escassa, el centre viu en caixes de correu, insostenible, exposat. Documents al núvol, amb permisos, redueixen risc i reprocés.
+Bona part de les trucades a secretaria en campanya són de famílies que pregunten si la seva sol·licitud ha arribat. Un avís al mòbil a cada canvi de fase les evita:
+
+- Sol·licitud rebuda, amb el pas següent.
+- Falta un document, amb un enllaç per pujar-lo.
+- Plaça confirmada, amb el termini per acceptar-la.
+- Matrícula completada, amb el primer rebut i l'accés a l'app.
 
 <br>
 
-<strong>Pas 6: automatitzar sense màgia, regles i seguiments</strong>
+<strong>Pas 7: prova-ho amb un grup petit abans d'obrir la campanya</strong>
 
 <br>
 
-El mòdul d'automatització, amb regles, workflows, onboarding, pot posar tasques, recordatoris, passos, sense reemplaçar criteri d'admissió, però baixa tasques baixes. Amb política, plantilles, algú amb ownership, o el pipeline s'omple de soroll, pitjor que no pas manual.
+Abans d'obrir la matrícula a totes les famílies, prova-la amb un grup reduït: germans d'alumnes actuals, famílies del personal o un sol curs. Fixa't en tres coses:
+
+- **Quantes famílies acaben el formulari** de les que el comencen. Si moltes el deixen, és massa llarg o demana alguna cosa en el moment equivocat.
+- **Quant triga secretaria** a revisar una sol·licitud completa.
+- **Quines preguntes arriben** per telèfon o correu. Cada pregunta repetida és un text que falta al formulari.
+
+Ajusta el que calgui i obre la campanya quan el procés funcioni sense explicacions.
 
 <br>
 
-<strong>Matrícula en línia segons perfil: escola bressol, escola, acadèmia</strong>
+<strong>El que canvia segons el tipus de centre</strong>
 
 <br>
 
-Abans de llançar, prepara el “kit de crisi”: quin missatge surt si el pagament falla, si un document és il·legible, si un curs s'omple en calent, si algú intenta duplicar sol·licitud. Aquestes respostes, escrites, alleugen a secretaria i eviten improvisació la setmana crítica. Si el kit no existeix, el programari es torna el boc expiatori, quan el buit és de procés.
-
-<br>
-
-Una escola bressol o escola bressol amb places limitades i llista d'espera viu i mor per la fricció: si demanes vuit annexos el mateix dia, la família compara, se'n va, o deixa el procés a mitges, i tu no saps si era manca d'interès o mala usabilitat. Millor recollir poques dades, confirmar, i posar document sensible a una segona finestra, amb missatge clar, “pendent de verificació en X dies,” que és honest, no és dilació. Un col·legi amb diverses etapes i preus múltiples: evita lògica de “formulari genèric” amb camps fantasma; mapeja curs, serveis, fraccionament, i reflecteix en facturació i reserva, no en correus. Una acadèmia o centre de formació: torns, seus, promocions, requereix orígens i oferta visible al CRM, per assignar la visita a la persona adequada, no a la primera lliure, que és on es perd l'oportunitat, no al final, en pagar, sinó al principi, en no contestar. A tots els perfils, el mateix fil: una font, etapes, tasques, to, i mesurament, que és l'estàndard que Edena sosté, sense afegir promeses que no apareguin al desplegament de mòduls.
-
-<br>
-
-<strong>Pas 7: prova amb slice, mesura, estén</strong>
-
-<br>
-
-Vuit a dotze setmanes, càrrega real, un mes d'admissió, famílies volunteer o curs baix, mètrica fixa, després obertura, no “dia 1 a tothom amb màrqueting massiu i tres persones a l'oficina.”
+- **Escoles bressol:** les places són poques i la llista d'espera és habitual. Convé que la llista sigui una etapa més del procés, amb un ordre clar, i que les dades de salut i alimentació es recullin abans del període d'adaptació.
+- **Escoles:** a més dels alumnes nous hi ha la renovació dels actuals, que es pot resoldre amb una confirmació senzilla. Els serveis (menjador, transport, extraescolars) han de quedar contractats a la matrícula perquè el primer rebut surti bé.
+- **Acadèmies:** la inscripció és contínua durant el curs i els grups s'organitzen per nivell i horari. El formulari ha de mostrar les places disponibles i el sistema, avisar quan un grup s'omple.
 
 <br>
 
@@ -119,87 +141,25 @@ Vuit a dotze setmanes, càrrega real, un mes d'admissió, famílies volunteer o 
 
 <br>
 
-- Formularis aïllats del CRM, doble tecleig i deriva de dades.
-- Sense responsable: en pics, tot recau en “qui pugui” i el servei es fa fallida.
-- Avís sense criteri de reserva: conflictes amb llistes i reputació danyada.
-- No prioritzar mòbil: moltes famílies abandonen a la primera pantalla.
-- Prometre “zero papers” i continuar demanant còpia física sense un pla híbrid clar.
+- **Un formulari aïllat** que envia un correu en lloc de crear la sol·licitud al sistema.
+- **Demanar tots els documents el primer dia**, quan la família encara està comparant centres.
+- **No assignar responsables:** en plena campanya, el que és de tothom no ho atén ningú.
+- **No preveure una alternativa presencial** per a les famílies que no ho poden fer en línia.
+- **Obrir la campanya sense haver-la provat** amb famílies reals.
 
 <br>
 
-<strong>Cas breu, patró repetible</strong>
+<strong>Com es fa a Edena</strong>
 
 <br>
 
-Un col·legi amb captació web i famílies derivades alumnat actual va unificar orígens, va redissenyar el formulari, va fixar reserva amb criteri de pagament i va activar recordatoris segmentats. No hi va haver xifra “miracle” de màrqueting, però va baixar l'abandó en documentació i va pujar el tancament a la fase post-visita, que és on el comitè pren el pols amb dades, no amb intuïció.
+A Edena, la matrícula en línia fa servir les mateixes peces que la resta de la gestió del centre:
 
-<br>
-
-<strong>Quan cobrar la reserva?</strong>
-
-<br>
-
-Després de visita o proposta acceptada, al mateix flux digital, abans de l'alta definitiva.
-
-<br>
-
-<strong>Timeline d'implementació (6 setmanes)</strong>
-
-<br>
-
-- **Setmana 1:** Mapa de documents i camps obligatoris per curs i servei.
-- **Setmana 2:** Formulari web connectat al CRM i estats de pipeline.
-- **Setmana 3:** Signatura digital i autoritzacions (imatge, salut, recollida).
-- **Setmana 4:** Pagament de reserva integrat amb facturació.
-- **Setmana 5:** Prova amb 10 famílies pilot i ajustament de friccions.
-- **Setmana 6:** Formació de secretaria i obertura de campanya de matrícula.
-
-<br>
-
-<strong>Documents per fase</strong>
-
-<br>
-
-- **Interès:** DNI tutor, dades bàsiques de l'alumne, curs sol·licitat.
-- **Reserva:** Contracte de serveis, domiciliació SEPA opcional, senyal de reserva si s'aplica.
-- **Matrícula:** Autoritzacions d'imatge, fitxa de salut, persones autoritzades a arreplegar.
-- **Alta definitiva:** Expedient complet a plataforma amb tots els documents signats i primer cobrament programat.
-
-<br>
-
-<strong>Demana una demo</strong>
-
-<br>
-
-, aterra avui el full de ruta,
-
-<br>
-
-<strong>automatitza el teu centre</strong>
-
-<br>
-
-i evita el postureig: allò que mesura, millora.
-
-<br>
-
-<strong>Context a Espanya: captació i matrícula sota pressió demogràfica</strong>
-
-<br>
-
-A moltes comunitats autònomes la competència entre centres privats i concertats és alta. Captar una sol·licitud no és matricular: cal pipeline amb etapes clares, terminis de resposta, documentació digital i cobrament de reserva quan correspongui. Les famílies comparen diversos centres en paral·lel; qui triga més de 48-72 hores a confirmar visita o enviar proposta perd candidats sense saber-ho.
-
-Digitalitzar la matrícula redueix de cinc a set dies a 24-48 hores l'alta administrativa d'una família nova si el flux inclou signatura, pagament i alta en expedient en un sol circuit. Sense CRM amb estats (interessat, visita, reserva, matriculat) i seguiment en 48 hores, la direcció mesura "leads" però no conversió real per origen ni per etapa.
-
-El 2026, la captació educativa a Espanya combina SEO local, Open Day, referits i formulari web connectat al ERP. El ROI no està en més anuncis, sinó en seguiment disciplinat postvisita i coherència entre allò promès a web i allò que secretaria executa en matrícula.
-
-<br>
-
-<strong>Cas pràctic (Espanya)</strong>
-
-<br>
-
-Una acadèmia d'idiomes amb 420 alumnes actius va implementar formulari web, CRM amb estats (interessat, visita, reserva, matriculat) i pagament de matrícula en línia. La conversió de sol·licitud a matrícula va pujar del 42% al 58% en un any, amb seguiment automàtic a qui va deixar el formulari a mitges.
+- Els **formularis de captació** del <a href="/ca/crm/">CRM escolar</a> es publiquen al web del centre i cada sol·licitud entra en un tauler per etapes, amb el seu origen i el seu responsable.
+- Les famílies **signen autoritzacions i documents** des de l'app, i queden desats a l'expedient de l'alumne.
+- La **reserva i les quotes** es facturen amb Verifactu i es cobren per domiciliació SEPA, transferència o targeta des de la <a href="/ca/finance/">facturació escolar</a>.
+- Les famílies reben **avisos al mòbil** a l'app gratuïta per a iOS i Android.
+- Amb el mòdul d'**Automatització**, l'alta de l'alumne es pot crear sola en confirmar la matrícula.
 
 <br>
 
@@ -207,6 +167,8 @@ Una acadèmia d'idiomes amb 420 alumnes actius va implementar formulari web, CRM
 
 <br>
 
-Digitalitzar la matrícula en línia és reordenar dades, missatge, cobrament i document en una ruta coherent, amb un comitè que mira xifres fixes i una plataforma unificada. Edena reuneix plataforma base, portal i app, CRM amb formularis, facturació amb rebuts i anàlisis d'impagaments, comunicació Pro o bàsica segons el pla, automatització, núvol, extrascolars o botiga si apliquen, i suport 24/
+La matrícula en línia funciona quan la família ho pot fer tot des del mòbil i secretaria rep cada sol·licitud completa i en un sol lloc. Per aconseguir-ho, divideix el procés en fases, demana cada document quan cal, connecta la reserva amb la facturació i prova-ho amb unes quantes famílies abans d'obrir la campanya.
+
+Si vols veure-ho amb el procés del teu centre, <a href="/ca/demo/">demana una demo de 15 minuts</a>.
 
 <br>

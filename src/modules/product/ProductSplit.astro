@@ -53,6 +53,9 @@ const visual = (card: Card, slotted: boolean) => {
     return null;
 };
 
+// Without a section header the tiles head their own section, so they take the level below the H1.
+const CardHeading = title ? "h3" : "h2";
+
 const leftVisual = visual(left, hasLeft);
 const rightVisual = visual(right, hasRight);
 ---
@@ -67,7 +70,7 @@ const rightVisual = visual(right, hasRight);
         >
             <article class="ds-tile flex flex-col pt-10 sm:pt-12" data-reveal="scale">
                 <div class="flex flex-col items-center gap-3 px-6 text-center sm:px-10">
-                    <h3 class="type-title-1 max-w-md text-ink">{left.title}</h3>
+                    <CardHeading class="type-title-1 max-w-md text-ink">{left.title}</CardHeading>
                     <p class="type-callout max-w-md text-ink-2">{left.description}</p>
                     {
                         left.cta &&
@@ -114,7 +117,7 @@ const rightVisual = visual(right, hasRight);
 
             <article class="ds-tile flex flex-col pt-10 sm:pt-12" data-reveal="scale">
                 <div class="flex flex-col items-center gap-3 px-6 text-center sm:px-10">
-                    <h3 class="type-title-1 max-w-md text-ink">{right.title}</h3>
+                    <CardHeading class="type-title-1 max-w-md text-ink">{right.title}</CardHeading>
                     <p class="type-callout max-w-md text-ink-2">{right.description}</p>
                     {
                         right.cta &&

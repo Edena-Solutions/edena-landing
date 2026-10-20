@@ -1,5 +1,5 @@
 ---
-title: "Màrqueting educatiu digital: Estratègies per atraure i retenir famílies a l'era digital"
+title: "Màrqueting educatiu digital: estratègies per atraure i retenir famílies"
 seoTitle: "Màrqueting educatiu digital per atraure i retenir famílies"
 date: "2025-09-08"
 translationKey: "marketing-educativo-digital-estrategias"

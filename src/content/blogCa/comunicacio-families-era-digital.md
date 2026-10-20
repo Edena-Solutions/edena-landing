@@ -1,5 +1,5 @@
 ---
-title: "Comunicació institucional amb famílies: Estratègies per a l'era digital"
+title: "Comunicació institucional amb les famílies: estratègies per a l'era digital"
 seoTitle: "Comunicació institucional amb famílies: estratègies"
 date: "2025-03-10"
 translationKey: "comunicacion-familias-era-digital"
@@ -22,7 +22,7 @@ faqs:
       answer: "Ofereix email i SMS com a alternativa; mai no exigeixis només app sense via paral·lela documentada."
 ---
 
-<strong>Comunicació institucional amb famílies: Estratègies per a l'era digital</strong>
+<strong>Comunicació institucional amb les famílies: estratègies per a l'era digital</strong>
 
 <br>
 

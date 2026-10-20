@@ -28,7 +28,7 @@ faqs:
     - question: "He de connectar amb passarel·la de pagament o banc?"
       answer: "Estratègia: minimitza caixes i duplicació de criteri. Com menys llocs, menys buits. La plataforma hauria de concentrar criteri i traces."
     - question: "Quan té sentit escalar a gestió externa de cobraments?"
-      answer: "Quan la seqüència interna d'escalada està completa, s'ha ofert un pla de pagament per escrit i rebutjat. El llindar d'escalada és una decisió de política, no de programari: recorda'l amb el teu equip abans que passi el primer cas, documenta'l i aplica'l de manera consistent perquè les famílies experimentin un tracte just i predictible. La plataforma registra l?historial que fa aquesta decisió defensable."
+      answer: "Quan la seqüència interna d'escalada està completa, s'ha ofert un pla de pagament per escrit i rebutjat. El llindar d'escalada és una decisió de política, no de programari: recorda'l amb el teu equip abans que passi el primer cas, documenta'l i aplica'l de manera consistent perquè les famílies experimentin un tracte just i predictible. La plataforma registra l'historial que fa aquesta decisió defensable."
 ---
 
 <strong>Com reduir la morositat a escoles i guarderies amb cobraments automatitzats</strong>
@@ -87,7 +87,7 @@ Amb famílies heterogènies, la segmentació mata l'efecte de cartell a tothom q
 - Comunicació que permeti recordatoris i segments, i confirmació de lectura quan aplica, per baixar el “no me'n vaig assabentar” genuí, no el que és excusa.
 - Analítica d'impagaments: antiguitat, import, comparativa mes a mes, amb filtres, per alimentar la reunió de direcció, no una pantalla motivacional.
 - Possibilitat d'afegir regles o automatitzacions (workflows) per a onboarding, recordatoris o tasques, sense multiplicar fulls de ruta a mà.
-- Suport 24/7 i migració: la mora no baixa el dia 1, però el caos tampoc no es pot sumar a un malfuncionament no resolt.
+- Suport i migració: la mora no baixa el dia 1, però el caos tampoc no es pot sumar a un malfuncionament no resolt.
 
 Això connecta amb la proposta de Edena: mòdul de facturació amb anàlisi de morositat, plataforma base, comunicació (Pro si necessites notificacions i segments forts), i automatització per a casos concrets, sense vendre mòduls que el centre no alimentarà amb dades i política clara.
 
@@ -166,6 +166,6 @@ Un col·legi privat de 320 famílies a València tenia un 11% de quotes impagade
 
 <br>
 
-Reduir la morositat a escoles i guarderies amb cobraments automatitzats és alinear calendari, missatges, estats, analítica i criteri humà, no és instal·lar un recordatori. L'eina adequada, com Edena, dóna suport a facturació, expedient, comunicació, analítica i, si necessites, automatització, per baixar càrrega, fricció i variació, amb suport 24/7. Si vols veure'l amb les teves xifres, demana una demo, descobreix com Edena pot ajudar-te a baixar tasques baixes i pujar traces altes, i automatitza avui el control d'impagaments; el teu equip mereix centrar-se en famílies i criteri, no perseguir rebuts que el sistema va poder avançar amb claredat.
+Reduir la morositat a escoles i guarderies amb cobraments automatitzats és alinear calendari, missatges, estats, analítica i criteri humà, no és instal·lar un recordatori. L'eina adequada, com Edena, dóna suport a facturació, expedient, comunicació, analítica i, si necessites, automatització, per baixar càrrega, fricció i variació, amb suport per correu i xat. Si vols veure'l amb les teves xifres, demana una demo, descobreix com Edena pot ajudar-te a baixar tasques baixes i pujar traces altes, i automatitza avui el control d'impagaments; el teu equip mereix centrar-se en famílies i criteri, no perseguir rebuts que el sistema va poder avançar amb claredat.
 
 <br>

@@ -3,7 +3,7 @@ title: "VAT in academies: when teaching is exempt and how to invoice it"
 seoTitle: "VAT in academies: when teaching is exempt"
 date: "2026-09-30"
 translationKey: "iva-academias-exencion-ensenanza"
-description: "Which academies can apply the VAT exemption in article 20.One.9 of the Spanish VAT Act, what happens with languages, tutoring, music or sport, and how to show it on the invoice."
+description: "Which academies can apply the VAT exemption in article 20.One.9 of the Spanish VAT Act, how it treats languages, tutoring, music or sport, and how to invoice."
 tags: ["VAT academies", "VAT exemption", "academies", "invoicing", "tax"]
 author: "ENA by Edena"
 cover: "https://images.unsplash.com/photo-1761914410572-02614b575847?q=80&w=1200&auto=format&fit=crop"

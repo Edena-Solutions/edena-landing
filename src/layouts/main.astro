@@ -24,9 +24,22 @@ interface Props {
  lang?: string;
  /** `premium` opts the page into the Edena Premium design system (`styles/design-system.css`). */
  design?: "classic" | "premium";
+ /** Kept out of search (the 404 page): robots noindex, and no canonical, hreflang or og:url. */
+ noindex?: boolean;
+ /** Social card for the page, absolute and 1200×630; the default Edena card otherwise. */
+ ogImage?: string;
+ ogType?: "website" | "article";
 }
 
-const { content = {}, lang = "es", alternates = [], design = "classic" } = Astro.props;
+const {
+ content = {},
+ lang = "es",
+ alternates = [],
+ design = "classic",
+ noindex = false,
+ ogImage: pageOgImage,
+ ogType = "website",
+} = Astro.props;
 const premium = design === "premium";
 
 const t = translations[lang as keyof typeof translations];
@@ -40,13 +53,21 @@ const translatedPaths = new Map(
  .filter((alt) => alt.hreflang !== "x-default")
  .map((alt) => [alt.hreflang === "eu" ? "eus" : alt.hreflang, new URL(alt.href).pathname]),
 );
+// A page outside search (the 404) has no translations: each language links to its home.
 const languageHrefs = isBlogPost
  ? Object.fromEntries(languages.map((code) => [code, translatedPaths.get(code) ?? localePath(code, "/blog")]))
+ : Astro.props.noindex
+ ? Object.fromEntries(languages.map((code) => [code, localePath(code, "/")]))
  : undefined;
 
 const title = content.title || t.meta.homeTitle;
 const description = content.description || t.meta.homeDescription;
-const { ogImage, ogImageWidth, ogImageHeight } = ogFromAsset(defaultOgImage, Astro.site);
+const defaultOg = ogFromAsset(defaultOgImage, Astro.site);
+const ogImage = pageOgImage ?? defaultOg.ogImage;
+const ogImageWidth = pageOgImage ? "1200" : defaultOg.ogImageWidth;
+const ogImageHeight = pageOgImage ? "630" : defaultOg.ogImageHeight;
+// BCP 47 has no "eus": Basque is "eu" (the URL prefix stays /eus/).
+const htmlLang = lang === "eus" ? "eu" : lang;
 
 const defaultImageAlt =
  lang === "es"
@@ -60,7 +81,7 @@ const defaultImageAlt =
  : "Edena - School Management Software";
 ---
 
-<html lang={lang} class="overflow-x-clip overflow-y-auto">
+<html lang={htmlLang} class="overflow-x-clip overflow-y-auto">
  <head>
  <ClientRouter />
  <!-- Consent Mode (default) must run before any Google tag. Choice is read from localStorage on full page loads; the banner updates consent on accept/reject. -->
@@ -116,13 +137,13 @@ const defaultImageAlt =
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  <meta
  name="robots"
- content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+ content={noindex ? "noindex, follow" : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"}
  />
  <meta name="description" content={description} />
  <title>{title}</title>
  <!-- Canonical -->
  {
- Astro.url.pathname.startsWith("/es/") ? (
+ noindex ? null : Astro.url.pathname.startsWith("/es/") ? (
  <link
  rel="canonical"
  href={`https://edena.es${Astro.url.pathname.replace("/es/", "/")}`}
@@ -135,6 +156,7 @@ const defaultImageAlt =
  {(() => {
  const siteBase = "https://edena.es";
  const pathname = Astro.url.pathname;
+ if (noindex) return null;
  // Blog slugs differ per language, so their alternates are resolved from the
  // shared translationKey and passed in as a prop.
  const isBlogPost = /\/blog\/.+/.test(pathname);
@@ -184,7 +206,7 @@ const defaultImageAlt =
  })();
  </script>
  <!-- Open Graph -->
- <meta property="og:type" content="website" />
+ <meta property="og:type" content={ogType} />
  <meta
  property="og:locale"
  content={
@@ -201,7 +223,7 @@ const defaultImageAlt =
  />
  <meta property="og:title" content={title} />
  <meta property="og:description" content={description} />
- <meta property="og:url" content={`https://edena.es${Astro.url.pathname}`} />
+ {!noindex && <meta property="og:url" content={`https://edena.es${Astro.url.pathname.replace(/^\/es\//, "/")}`} />}
  <meta property="og:site_name" content="Edena" />
  <meta property="og:image" content={ogImage} />
  <meta property="og:image:width" content={ogImageWidth} />
@@ -209,8 +231,6 @@ const defaultImageAlt =
  <meta property="og:image:alt" content={title || defaultImageAlt} />
  <!-- Twitter Card -->
  <meta name="twitter:card" content="summary_large_image" />
- <meta name="twitter:site" content="@edena" />
- <meta name="twitter:creator" content="@edena" />
  <meta name="twitter:title" content={title} />
  <meta name="twitter:description" content={description} />
  <meta name="twitter:image" content={ogImage} />

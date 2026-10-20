@@ -1,27 +1,60 @@
 ---
 import Layout from "@/layouts/main.astro";
+import Button from "@/components/ds/Button.astro";
+
+/*
+ * One 404 for every path, so it speaks Spanish (the site's default) with a line for English
+ * readers, and points to the pages people most often look for. Kept out of search: no canonical
+ * or hreflang, since it has no URL of its own.
+ */
+const links = [
+    { href: "/", label: "Inicio" },
+    { href: "/pricing/", label: "Precios" },
+    { href: "/blog/", label: "Blog" },
+    { href: "/contact/", label: "Contacto" },
+    { href: "/en/", label: "English" },
+];
 ---
 
 <Layout
     content={{
-        title: "Page Not Found | Edena",
+        title: "Página no encontrada | Edena",
         description:
-            "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+            "Esta página no existe o ha cambiado de dirección. Vuelve al inicio de Edena, el software de gestión para centros educativos, o consulta precios y blog.",
     }}
-    lang={"en"}
+    lang="es"
+    design="premium"
+    noindex
 >
-    <section class="flex flex-col items-center justify-center min-h-[70vh] px-4 text-center">
-        <div class="space-y-6 max-w-3xl">
-            <h1
-                class="text-9xl font-extrabold tracking-tighter bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
-            >
-                404
+    <section class="ds-section">
+        <div class="ds-container flex min-h-[60vh] flex-col items-center justify-center text-center">
+            <p class="type-callout font-semibold text-ink-3">Error 404</p>
+            <h1 class="mt-3 max-w-2xl text-balance type-display-2 text-gradient-ink">
+                Esta página no existe o ha cambiado de dirección
             </h1>
-            <h2 class="text-xl font-bold">Oops! We've lost this page</h2>
-            <p class="text-muted-foreground text-lg max-w-md mx-auto">
-                The page you are looking for might have been removed, had its name changed, or is
-                temporarily unavailable.
+            <p class="mt-5 max-w-xl type-lead text-ink-2">
+                Puede que el enlace esté mal escrito o que el contenido se haya movido. Desde aquí
+                llegas a lo que más se busca.
             </p>
+            <p class="mt-2 max-w-xl type-callout text-ink-3" lang="en">
+                This page doesn't exist or has moved.
+            </p>
+            <div class="mt-8">
+                <Button href="/">Volver al inicio</Button>
+            </div>
+            <nav aria-label="Páginas principales" class="mt-8">
+                <ul class="m-0 flex list-none flex-wrap justify-center gap-x-6 gap-y-2 p-0">
+                    {
+                        links.map((link) => (
+                            <li>
+                                <a href={link.href} class="ds-link type-callout font-semibold">
+                                    {link.label}
+                                </a>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </nav>
         </div>
     </section>
 </Layout>

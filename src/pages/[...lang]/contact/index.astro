@@ -21,7 +21,7 @@ const t = translations[lang as keyof typeof translations];
 
 <Layout content={{ title: t.meta.contactTitle, description: t.meta.contactDescription }} lang={lang} design="premium">
     <HomeMotion />
-    <PageHero title={t.contact.title} description={t.contact.description} />
+    <PageHero eyebrow={t.pageEyebrows.contact} title={t.contact.title} description={t.contact.description} />
     <section class="ds-section pt-12 sm:pt-16">
         <div class="ds-container" data-reveal="rise">
             <ContactForm client:load copy={t.contact} formspreeUrl={"https://formspree.io/f/mykbqoeq"} />

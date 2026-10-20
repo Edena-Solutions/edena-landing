@@ -84,7 +84,7 @@ La force de nombreuses académies de langues est de combiner des élèves partic
 
 <br>
 
-Edena offre, selon les modules souscrits, une plateforme de base avec dossier, portail et application pour élèves et équipe, gestion des groupes, communication, gestion autonome et analytique ; un CRM avec demandes, pipeline et formulaires pour la captation continue ; facturation électronique avec Verifactu, cotisations et analyse des impayés ; et documentation en ligne. Ce n'est pas un produit « exclusivement langues », mais il couvre exactement ce dont une académie de langues a besoin : rotation des groupes, inscription continue, facturation récurrente et multisite sur une seule plateforme, avec support 24/7.
+Edena offre, selon les modules souscrits, une plateforme de base avec dossier, portail et application pour élèves et équipe, gestion des groupes, communication, gestion autonome et analytique ; un CRM avec demandes, pipeline et formulaires pour la captation continue ; facturation électronique avec Verifactu, cotisations et analyse des impayés ; et documentation en ligne. Ce n'est pas un produit « exclusivement langues », mais il couvre exactement ce dont une académie de langues a besoin : rotation des groupes, inscription continue, facturation récurrente et multisite sur une seule plateforme, avec support par e-mail et chat.
 
 <br>
 

@@ -18,11 +18,11 @@ faqs:
     - question: "Does the data have to be on EU servers?"
       answer: "It is not mandatory in all cases, but it is the easiest option to comply with the GDPR. If the supplier uses third countries, there must be guarantees (standard clauses, adequacy decisions)."
     - question: "What to do if there is a data leak?"
-      answer: "Assess the risk to those affected; If there is a risk, notify the supervisory authority within 72 hours and, if appropriate, inform the affected persons. Having a written procedure speeds up the response."
+      answer: "Assess the risk to those affected; if there is a risk, notify the supervisory authority within 72 hours and, if appropriate, inform the affected persons. Having a written procedure speeds up the response."
     - question: "Can families request that we delete all of their child's data?"
-      answer: "They have the right to deletion when it is no longer necessary to retain them (for example, after leaving the center and the legal retention period has expired). There are exceptions (legal obligations); It is advisable to document the criteria and the deadline."
+      answer: "They have the right to deletion when it is no longer necessary to retain them (for example, after leaving the center and the legal retention period has expired). There are exceptions (legal obligations); it is advisable to document the criteria and the deadline."
     - question: "Does data protection in the digital school require a DPO?"
-      answer: "Not always. It is mandatory in public organizations and in large-scale or special category treatments. Many private centers are not obliged but designate an internal person to coordinate; It is good practice."
+      answer: "Not always. It is mandatory in public organizations and in large-scale or special category treatments. Many private centers are not obliged but designate an internal person to coordinate; it is good practice."
 ---
 
 <strong>Data protection in the digital management of schools: practical guide for managers</strong>
