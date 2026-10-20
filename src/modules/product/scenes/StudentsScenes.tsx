@@ -2,7 +2,7 @@ import { ChevronRight, Clock, Landmark, Monitor, Network, Plus, Presentation, Pr
 
 import { CONTENT } from "@/components/wizard/glass-stage";
 import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
-import { At, Avatar, Pop, capitalize, easeOut, money, monthName, on, span } from "@/components/wizard/scene-kit";
+import { At, Avatar, Pop, capitalize, course, easeOut, money, monthName, on, span } from "@/components/wizard/scene-kit";
 import { KEY_FEATURE_SCENES, Title } from "@/modules/home/KeyFeaturesScenes";
 import { STUDENT_DURATION, StudentScene } from "@/modules/home/StudentScene";
 import type { Translation } from "@/i18n";
@@ -129,14 +129,14 @@ function BillingScene({ t, labels, locale }: Props) {
 /* ---------------------------------------------------------------------------------------------- */
 
 const LEVELS = [
-    { courses: ["P-1", "P-2"], groups: [2, 2], seats: [28, 30], cap: 32 },
-    { courses: ["I-3", "I-4", "I-5"], groups: [2, 2, 2], seats: [46, 44, 48], cap: 50 },
-    { courses: ["1.º", "2.º", "3.º", "4.º"], groups: [2, 2, 2, 2], seats: [50, 48, 52, 49], cap: 56 },
-];
+    { courses: ["p1", "p2"], groups: [2, 2], seats: [28, 30], cap: 32 },
+    { courses: ["i3", "i4", "i5"], groups: [2, 2, 2], seats: [46, 44, 48], cap: 50 },
+    { courses: ["y1", "y2", "y3", "y4"], groups: [2, 2, 2, 2], seats: [50, 48, 52, 49], cap: 56 },
+] as const;
 const GROW = { at: 2900, level: 1, course: 1 };
 
 function StructureScene({ t, labels }: Props) {
-    const { st } = labels;
+    const { st, ui } = labels;
     const added = on(t, GROW.at);
     let row = 0;
 
@@ -164,17 +164,17 @@ function StructureScene({ t, labels }: Props) {
                                 <span className="text-[0.36em] font-semibold uppercase tracking-[0.1em] text-ink-3">{st.level}</span>
                             </Pop>
                         </At>
-                        {level.courses.map((course, c) => {
+                        {level.courses.map((year, c) => {
                             const grows = l === GROW.level && c === GROW.course && added;
                             const groups = level.groups[c] + (grows ? 1 : 0);
                             const seats = level.seats[c] + (grows ? 20 : 0);
                             const cap = level.cap + (grows ? 25 : 0);
                             return (
-                                <At key={course} x={c * 7.6} y={y + 1.3} w={7.2} h={4}>
+                                <At key={year} x={c * 7.6} y={y + 1.3} w={7.2} h={4}>
                                     <Pop show={on(t, 300 + l * 500 + c * 90)} from="up" className="relative flex h-full flex-col justify-between rounded-[0.7em] p-[0.6em] ds-glass-inner">
                                         {grows && <Fresh t={t} at={GROW.at} className="rounded-[0.7em]" />}
                                         <span className="flex flex-col gap-[0.15em]">
-                                            <span className="text-[0.55em] font-semibold">{course}</span>
+                                            <span className="text-[0.55em] font-semibold">{course(ui.courses, year)}</span>
                                             <span className="text-[0.34em] font-semibold uppercase tracking-[0.1em] text-ink-3">{st.course}</span>
                                         </span>
                                         <span className="flex items-center gap-[0.45em]">
@@ -210,13 +210,13 @@ const PUPILS = ["Adrián", "Lucas", "Juan", "Sofía", "María", "Lucía", "Inés
 const EQUIPMENT = [Presentation, Projector, Table2, Monitor];
 
 function ClassroomScene({ t, labels }: Props) {
-    const { st } = labels;
+    const { st, ui } = labels;
     const seated = PUPILS.filter((_, index) => on(t, 700 + index * 140)).length;
 
     return (
         <>
             <At x={0} y={0} w={W} h={1.9} className="flex items-center gap-[0.35em] text-ink-3">
-                {[st.courses, st.levels[1], "I-1", "I-1 A"].map((crumb, index) => (
+                {[st.courses, st.levels[1], course(ui.courses, "i3"), course(ui.courses, "i3", "A")].map((crumb, index) => (
                     <span key={crumb} className="flex items-center gap-[0.35em]">
                         {index > 0 && <ChevronRight className="size-[0.5em]" />}
                         <span className={cn(index === 3 ? "text-[0.8em] font-semibold tracking-[-0.01em] text-ink" : "text-[0.46em] font-medium")}>{crumb}</span>

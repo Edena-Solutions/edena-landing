@@ -3,6 +3,7 @@ import type { CSSProperties, ReactNode } from "react";
 import { GlassOrbs, type Orb } from "@/components/wizard/glass-stage";
 import { At, Pop, clamp01, span } from "@/components/wizard/scene-kit";
 import { DrawnCheck } from "@/modules/home/KeyFeaturesScenes";
+import { formatDate } from "@/lib/intl-locale";
 import { cn } from "@/lib/utils";
 
 /*
@@ -467,7 +468,7 @@ export function WeekCalendar({
     const y = (hour: number) => calY(hour, firstHour);
     const days = Array.from({ length: CAL.days }, (_, index) => new Date(2026, 5, 8 + index));
     const weekday = new Intl.DateTimeFormat(locale, { weekday: "short" });
-    const month = new Intl.DateTimeFormat(locale, { month: "long", year: "numeric" }).format(days[0]);
+    const month = formatDate(locale, days[0], { month: "long", year: "numeric" });
     const now = clamp01((t - nowAt) / 700);
 
     return (

@@ -23,6 +23,7 @@ import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
 import { At, Pop, easeInOut, easeOut, money, number, on, percent, smoothPath, smoothPoint, span } from "@/components/wizard/scene-kit";
 import { DrawnCheck, Ripple, Title } from "@/modules/home/KeyFeaturesScenes";
 import type { Translation } from "@/i18n";
+import { formatDate } from "@/lib/intl-locale";
 import { cn } from "@/lib/utils";
 import { Caps, Fresh, Pill, TONES, between } from "./kit";
 import type { ProductSceneLabels } from "./labels";
@@ -265,8 +266,8 @@ const PICKED = 5;
 function QuickScene({ t, labels, locale }: Props) {
     const { db } = labels;
     const created = on(t, QUICK.created);
-    const date = new Intl.DateTimeFormat(locale, { weekday: "short", day: "numeric", month: "short" }).format(new Date(2026, 5, 18));
-    const reached = Math.round(486 * easeOut(span(t, QUICK.created + 500, 1400)));
+    const date = formatDate(locale, new Date(2026, 5, 18), { weekday: "short", day: "numeric", month: "short" });
+    const reached = Math.round(54 * easeOut(span(t, QUICK.created + 500, 1400)));
 
     return (
         <>

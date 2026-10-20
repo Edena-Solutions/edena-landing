@@ -4,9 +4,10 @@ import { ArrowLeft, CalendarDays, ChevronDown, ChevronRight, Coffee, Download, U
 import { EnaClover, PhoneFrame } from "@/components/wizard/app-frame";
 import { CONTENT } from "@/components/wizard/glass-stage";
 import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
-import { At, Avatar, Pop, capitalize, clamp01, easeInOut, on, shortDate, span, typed } from "@/components/wizard/scene-kit";
+import { At, Avatar, Pop, capitalize, clamp01, course, easeInOut, on, shortDate, span, typed } from "@/components/wizard/scene-kit";
 import { DrawnCheck, Title } from "@/modules/home/KeyFeaturesScenes";
 import type { Translation } from "@/i18n";
+import { formatDate } from "@/lib/intl-locale";
 import { cn } from "@/lib/utils";
 import {
     ActionButton,
@@ -81,7 +82,7 @@ const PUPILS = [
 const REPORT = { present: 800, mood: 1500, note: 2000, send: 3500, sent: 3750 };
 
 function ReportsScene({ t, labels, locale }: Props) {
-    const { tr } = labels;
+    const { tr, ui } = labels;
     const note = typed(tr.observationText, t, REPORT.note, 26);
     const sent = on(t, REPORT.sent);
     const filled = (on(t, REPORT.present) ? 1 : 0) + (on(t, REPORT.mood) ? 1 : 0) + (on(t, REPORT.note + 300) ? 1 : 0);
@@ -108,7 +109,7 @@ function ReportsScene({ t, labels, locale }: Props) {
                 {[
                     [tr.day, <span key="d" className="flex items-center gap-[0.35em]"><span className="text-[0.46em] tabular-nums">{shortDate(locale, new Date(2026, 6, 22))}</span><CalendarDays className="size-[0.55em] text-ink-3" /></span>, "w-[6.2em]"],
                     [tr.template, <span key="p" className="flex w-full items-center justify-between"><span className="truncate text-[0.46em]">{tr.templateName}</span><ChevronDown className="size-[0.55em] text-ink-3" /></span>, "w-[9.6em]"],
-                    [tr.classes, <span key="c" className="flex gap-[0.25em]">{["6.º B", "6.º A"].map((name) => <span key={name} className="flex items-center gap-[0.2em] rounded-[0.3em] bg-ink px-[0.35em] py-[0.1em] text-canvas"><span className="text-[0.38em] font-semibold">{name}</span><X className="size-[0.4em]" /></span>)}</span>, "w-[7.6em]"],
+                    [tr.classes, <span key="c" className="flex gap-[0.25em]">{[course(ui.courses, "y6", "B"), course(ui.courses, "y6", "A")].map((name) => <span key={name} className="flex items-center gap-[0.2em] rounded-[0.3em] bg-ink px-[0.35em] py-[0.1em] text-canvas"><span className="text-[0.38em] font-semibold">{name}</span><X className="size-[0.4em]" /></span>)}</span>, "w-[7.6em]"],
                 ].map(([label, value, width], index) => (
                     <Pop key={index} show={on(t, 100 + index * 80)} from="up" className={cn("flex flex-col gap-[0.3em]", width as string)}>
                         <Caps tone="text-ink-3">{label}</Caps>
@@ -288,7 +289,7 @@ const AGENDA = [
 
 function TodayScene({ t, labels, locale }: Props) {
     const { tr } = labels;
-    const date = capitalize(new Intl.DateTimeFormat(locale, { weekday: "long", day: "numeric", month: "long" }).format(new Date(2026, 5, 10)));
+    const date = capitalize(formatDate(locale, new Date(2026, 5, 10), { weekday: "long", day: "numeric", month: "long" }));
     const now = clamp01((t - TODAY.now) / 700);
     const event = (start: number, end: number, title: string, tone: string, people: number[], extra?: ReactNode) => (
         <span className={cn("flex h-full items-center gap-[0.6em] rounded-[0.5em] border-l-[0.2em] px-[0.6em] text-ink", tone)}>
@@ -358,9 +359,9 @@ function TodayScene({ t, labels, locale }: Props) {
 const SHEET = [
     { date: new Date(2026, 6, 21), in: "08:07", out: "18:15", breaks: "00:45:00", worked: "09:22:33" },
     { date: new Date(2026, 6, 20), in: "08:53", out: "17:41", breaks: "00:49:00", worked: "07:58:14" },
-    { date: new Date(2026, 6, 19), in: "07:55", out: "18:39", breaks: "00:49:00", worked: "09:54:20" },
-    { date: new Date(2026, 6, 18), in: "07:59", out: "18:22", breaks: "00:57:00", worked: "09:26:06" },
-    { date: new Date(2026, 6, 17), in: "07:53", out: "18:31", breaks: "01:14:00", worked: "09:24:34" },
+    { date: new Date(2026, 6, 17), in: "07:55", out: "18:39", breaks: "00:49:00", worked: "09:54:20" },
+    { date: new Date(2026, 6, 16), in: "07:59", out: "18:22", breaks: "00:57:00", worked: "09:26:06" },
+    { date: new Date(2026, 6, 15), in: "07:53", out: "18:31", breaks: "01:14:00", worked: "09:24:34" },
 ];
 const COLS = [1.3, 6.4, 9.6, 21.4, 25.8];
 const TIMESHEET = { open: 1100, export: 3000, busy: 3200, done: 3700 };

@@ -32,7 +32,8 @@ export interface AcademyPacksCopy {
     startNow: string;
     /** Module titles by id. */
     modules: Record<string, string>;
-    tokens: string;
+    /** What follows Ena's name: its monthly use, included. */
+    enaUsage: string;
 }
 
 interface Props {
@@ -196,7 +197,7 @@ export default function AcademyPacks({ copy, lang, demoUrl, registerUrl }: Props
                                                     <span className="font-normal text-ink-3">
                                                         {" "}
                                                         ·{" "}
-                                                        {copy.tokens.replace("{n}", pack.enaTokens)}
+                                                        {copy.enaUsage}
                                                     </span>
                                                 )}
                                             </span>
