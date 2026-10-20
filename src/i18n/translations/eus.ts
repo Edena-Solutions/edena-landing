@@ -56,7 +56,6 @@ export default {
         concepts: "Kontzeptuak",
         toInvoice: "fakturatzeko zain",
         invoiced: "Fakturatuta",
-        invoiceAction: "Fakturatu",
         pending: "Zain",
         invoicedBadge: "Fakturatuta",
         pendingShort: "zain",
@@ -130,7 +129,6 @@ export default {
         invoiceLines: ["Mantenu osoa", "Hileko askaria", "Eskolatzea"],
         payNow: "Ordaindu orain",
         paid: "Ordainduta",
-        paymentReceived: "Kobrantza jasota",
         collected: "Kobratuta",
         returned: "Itzulita",
         byMonth: "Hileko fakturazioa",
@@ -832,15 +830,9 @@ export default {
         financeTitle: "Eskola Fakturazioa Verifactu-rekin | SEPA Kobrantzak | Edena",
         financeDescription:
             "Eskola-fakturazio automatikoa, Verifactu-ra egokitua: ordainagiriak, SEPA zordunketak eta ordainketen kontrola denbora errealean.",
-        guardiansTitle: "Ikastetxeetarako familien ataria | Zentro-familia komunikazioa | Edena",
-        guardiansDescription:
-            "Eman familiei denbora errealean notak, asistentzia, fakturak eta zentroaren berriak ikusteko. Mezularitza segurua eta agiri digitalen sinadura. Familien txertatzea minututan.",
         familiesTitle: "Familien Ataria | Notak, Fakturak eta Ordainketak | Edena",
         familiesDescription:
             "Eskolako guztia aplikazio doako batean: notak, fakturak, mezuak, argazkiak eta ikastetxeko denda. Seme-alaba guztiak kontu bakarrean, edozein gailutatik.",
-        centersTitle: "Hezkuntza-Zentroetarako Plataforma Integrala | ERP Hezkuntzakoa | Edena",
-        centersDescription:
-            "Kudeaketa-programa hezkuntza-zentroetarako: Verifactu fakturazioa, matrikulak, familiekiko komunikazioa, asistentzia eta agiriak. Bi astetan martxan.",
         crmTitle: "Eskola CRM | Bihurtu Kontsultak Matrikulazioetan | Edena",
         crmDescription:
             "Onarpen eta matrikuletarako eskola-CRMa: jaso eskaerak zure webgunetik, jarraitu familia bakoitza etapaka eta bihurtu kontsulta gehiago ikasle.",
@@ -894,11 +886,7 @@ export default {
         mobileTitle: "Abisua familia bakoitzaren mugikorrera iristen da",
         mobileDescription:
             "Argazkiak, zirkularrak eta ordutegi-aldaketak Edenatik familien doako aplikaziora iristen dira, iOSen eta Androiden.",
-        orgTitle: "Paperik gabe 30 egunetan, migrazioa barne",
-        orgDescription:
-            "Murriztu kostu operatiboak %25 Edenaren eskola-kudeaketa sistema erabat digitalarekin. Datuen migrazioa, familien txertatzea eta taldearen prestakuntza, gure kontura.",
         verifactuReady: "Verifactu-ra egokitua (AEAT)",
-        appScreens: ["Ordutegiak", "Argitalpenak", "Horma", "Klaseak", "Denda"],
     },
     /** What each product page is, set small above its headline inside the H1. */
     pageEyebrows: {
@@ -927,17 +915,6 @@ export default {
         demo: "Eskola-kudeaketako softwarearen doako demoa",
         contact: "Jarri harremanetan Edenarekin",
     },
-    setup: {
-        title: "Martxan 2 astetan, prozesu osoan lagunduko dizun talde batekin",
-        description:
-            "Datuen migrazioa, langileei prestakuntza eta konfigurazio osoa gure kontura. Zentro gehienek Edenarekin martxan daude 2 astetan, eguneroko jarduna eten gabe.",
-        onboardingDescription:
-            "Murriztu familien txertatze-denbora %75 gure sistema automatizatuarekin. Familiek gonbidapen segurua jasotzen dute, digitalki sinatzen dute eta minututan prest daude, ez egunetan.",
-        operationsDescription:
-            "Ikusgarritasun osoa asistentzia, finantzak eta komunikazioetan txosten automatiko eta panel pertsonalizagarriekin. Hartu erabaki azkarrago eta zuzenagoak egunero.",
-        bookADemoCTA:
-            "Eskatu doako erakustaldia eta erakutsiko dizugu nola egokitzen den Edena zure zentroan. Konpromisorik gabe.",
-    },
     cookieConsent: {
         title: "Cookieak eta analitika",
         description:
@@ -947,11 +924,6 @@ export default {
         policy: "Cookie-politika",
     },
     footer: {
-        users: "Familiak",
-        students: "Ikasleak",
-        administration: "Administrazioa",
-        dashboard: "Kontrol-panela",
-        finance: "Finantzak",
         legal: "Legea",
         privacyPolicy: "Pribatutasun-politika",
         termsOfService: "Zerbitzu-baldintzak",
@@ -979,8 +951,6 @@ export default {
         studentsDescription:
             "Agiri digitalak, asistentzia, kalifikazioak eta ikasle bakoitzaren jarraipena leku bakarrean.",
         guardians: "Familien ataria",
-        guardiansDescription:
-            "Familia eta tutoreak seme-alaben hezkuntzarekin konektatuta mantentzeko plataforma integrala.",
         dashboard: "Kontrol-panela",
         dashboardDescription:
             "Zure ikastetxeko asistentzia, kobrantzak eta matrikulak denbora errealean, datuekin erabakitzeko.",
@@ -1036,19 +1006,15 @@ export default {
         submitting: "Bidaltzen...",
         successTitle: "Mezua bidalita!",
         successDescription: "Zure kontsulta jaso dugu. Posta honetara erantzungo dizugu.",
-        errorTitle: "Errorea bidaltzean",
         errorDescription: "Errore bat gertatu da. Mesedez, saiatu berriro.",
         nameRequired: "Izena derrigorrezkoa da",
         emailRequired: "Posta elektronikoa derrigorrezkoa da",
         emailInvalid: "Sartu baliozko helbide elektronikoa",
         messageRequired: "Mezua derrigorrezkoa da",
         messageMinLength: "Mezuak gutxienez 10 karaktere izan behar ditu",
-        requiredField: "Eremu hau derrigorrezkoa da",
         infoTitle: "Kontaktu-informazioa",
         infoSubtitle: "Aukeratu zure profila jarraitzeko:",
         emailContactLabel: "Posta elektronikoa",
-        locationLabel: "Kokapena",
-        locationValue: "Madril, Espainia",
         profiles: {
             school: "Ikastetxea",
             nursery: "Haur Eskola",
@@ -1064,11 +1030,8 @@ export default {
             partner: "Edenarekin lankidetzan aritu nahi duten enpresak eta erakundeak.",
         },
         phoneLabel: "Telefonoa (aukerakoa)",
-        phonePlaceholder: "+34 600 000 000",
         websiteLabel: "Zentroaren webgunea (aukerakoa)",
         websitePlaceholder: "https://www.zurezentroa.eus",
-        productInterestLabel: "Produktu hau interesatzen zait (aukerakoa)",
-        productInterestPlaceholder: "Aukeratu aukera bat",
         phoneInvalid: "Telefono-zenbaki baliogabea: {country}",
         productOptions: {
             platform: "Plataforma osoa",
@@ -1121,43 +1084,6 @@ export default {
         description:
             "Verifactu fakturak ateratzen dira, asistentzia erregistratuta geratzen da eta familia bakoitzak aplikazioan ikusten du. Zurea bezalako zentro batekin ikusteak 15 minutu hartzen ditu.",
     },
-    bento: {
-        title: "Plataforma bakarra. Zure zentroak behar duen guztia.",
-        description:
-            "Fakturazioa, familien komunikazioa, mugikorreko aplikazioa, ikasleen agiriak eta askoz gehiago: guztia konektatuta plataforma bakarrean, hezkuntza-zentroen eguneroko errealitaterako diseinatua.",
-        chat: {
-            title: "Eskola-komunikazioa",
-            description:
-                "Irakasle eta familien arteko mezularitza segurua bi norabidean. Push jakinarazpen berehalakoak, asistentzia-abisuak eta argazki eta agiriak modu pribatuan partekatzea. %60 arte handitu familien konpromisoa.",
-        },
-        app: {
-            title: "Zentro-familien komunikazioa",
-            description:
-                "Zure zentroa eta familien arteko kanal zuzena. Jakinarazpen berehalakoak, mezularitza segurua eta denbora errealeko eguneraketak guraso eta tutoreak uneoro informatuta mantentzeko.",
-        },
-        functions: {
-            title: "Funtzionalitate-suitea",
-            description:
-                "Ikasle-kudeaketa, fakturazio automatizatua, asistentzia-kontrola, agiri digitalak eta familien ataria. Guztia hezkuntza ERP bakarrean integratuta administrazio-kostuak %40 arte murrizteko.",
-        },
-        touchbar: {
-            title: "Interfaze intuitiboa",
-            description:
-                "Eskolako egunerokoan pentsatutako diseinua. Sarbide azkarra maiz erabilitako funtzioetara, nabigazio sinplifikatua eta erabiltzaile-esperientzia optimizatua zure taldea produktibo egon dadin lehen egunetik.",
-        },
-        users: {
-            title: "Erabiltzaile-kudeaketa",
-            description:
-                "Kudeatu familiak, ikasleak, irakasleak eta zentroaren langileak panel bakarretik. Profil pertsonalizatuak eta rolaren arabeko baimenak.",
-            portraits: {
-                family: "Familia",
-                teacher: "Irakaslea",
-                student: "Ikaslea",
-                administration: "Administrazioa",
-                director: "Zuzendaria",
-            },
-        },
-    },
     features: {
         title: "Zentroek gehien erabiltzen dituzten moduluak",
         description:
@@ -1197,38 +1123,6 @@ export default {
             tagline:
                 "Planifikatu zereginak, erregistratu kalifikazioak eta sortu boletinak automatikoki.",
             cta: "Ikusi boletinak",
-        },
-        guardianFeatures: {
-            title: "Familia eta tutoreentzat",
-            tagline:
-                "Familia eta tutoreentzat diseinatutako funtzionalitateak seme-alaben informazioa kudeatzeko.",
-            realTimeNotifications: {
-                title: "Denbora errealeko jakinarazpenak",
-                tagline:
-                    "Jaso abisu berehalakoak asistentzia, kalifikazioak eta eskola-gertaerei buruz.",
-            },
-            academicProgress: {
-                title: "Jarraipen akademikoa",
-                tagline:
-                    "Monitorizatu seme-alaben aurrerapen akademikoa txosten xehatuak erabiliz.",
-            },
-            secureMessaging: {
-                title: "Mezularitza segurua",
-                tagline: "Komunikatu zuzen irakasle eta zentroaren langileekin modu pribatuan.",
-            },
-            eventCalendar: {
-                title: "Gertaeren egutegia",
-                tagline: "Egon eguneratuta eskola-gertaera eta data garrantzitsu guztiekin.",
-            },
-            digitalDocuments: {
-                title: "Agiri digitalak",
-                tagline: "Sartu boletinak, ziurtagiriak eta agiri garrantzitsuak edonondik.",
-            },
-            paymentPortal: {
-                title: "Ordainketen ataria",
-                tagline:
-                    "Kudeatu matrikula, irteera eta zerbitzuen ordainketak modu seguruan sarean.",
-            },
         },
         studentFeatures: {
             title: "Ikasleen kudeaketa: espedientea, asistentzia eta notak, lotuta",
@@ -1474,9 +1368,6 @@ export default {
             },
         },
         centersFeatures: {
-            title: "Hezkuntza-zentroetarako irtenbide integrala",
-            tagline:
-                "Zure hezkuntza-zentroaren kudeaketa, komunikazioa eta eragiketak optimizatzeko diseinatutako tresna profesionalak.",
             communicationHub: {
                 title: "Komunikazio-zentroa",
                 tagline:
@@ -1507,18 +1398,6 @@ export default {
                 tagline:
                     "Datuen babes aurreratua enkriptatzearekin, DBEO betearazpenarekin eta segurtasun-kopia automatikoekin.",
             },
-        },
-        reportingTools: {
-            title: "Txosten-tresnak",
-            tagline: "Sortu txosten pertsonalizatuak datuetan oinarritutako erabakiak hartzeko.",
-        },
-        automatedBilling: {
-            title: "Fakturazio automatikoa",
-            tagline: "Sortu eta bidali fakturak automatikoki kontratatutako zerbitzuen arabera.",
-        },
-        realTimeAnalytics: {
-            title: "Denbora errealeko analitika",
-            tagline: "Lortu ikuspegi xehatuak zure hezkuntza-zentroaren errendimenduari buruz.",
         },
         keyFeaturesTabsTitle: "Eskuz egiteari uzten zaion sei lan",
         keyFeaturesTabsDescription: "Horrela geratzen dira Edenan aplikazioa, panela, fakturazioa, boletinak eta matrikulak.",
@@ -1593,7 +1472,6 @@ export default {
         },
         trust: {
             titleBold: "Maila profesionaleko segurtasuna",
-            titleMuted: "lehenetsita",
             description: "Integratutako segurtasuna eta IA, chatbot generiko bat baino pribatuagoa",
             support: "Posta eta txat bidezko laguntza",
             badges: {
@@ -1608,20 +1486,15 @@ export default {
         main: {
             students: {
                 name: "Ikasle Kudeaketa",
-                description: "Expediente digitalak, asistentzia eta jarraipen akademiko osoa",
             },
             guardians: {
                 name: "Familia Ataria",
-                description:
-                    "Familientzako doako aplikazioa notekin, fakturekin eta mezularitzarekin",
             },
             ai: {
                 name: "Ena",
-                description: "Hezkuntza kudeaketara aplikatutako adimen artifiziala",
             },
             finance: {
                 name: "Fakturazioa eta Kobrantzak",
-                description: "Fakturazio automatikoa, kobrantzak eta Verifactu",
             },
         },
         items: {
@@ -1669,51 +1542,6 @@ export default {
             schoolShop: "Eskola Denda",
             languages: "Hizkuntzak",
             allergies: "Alergiak",
-        },
-    },
-    carousel: {
-        title: "Aurkitu eskola-kudeaketa adimentsuaren indarra",
-        description:
-            "Arakatu zure hezkuntza-zentroaren administrazioa eraldatuko duten funtzionalitate aurreratuak",
-        studentManagement: {
-            title: "Ikasle-kudeaketa integrala",
-            tagline:
-                "Zentralizatu zure ikasleen informazio akademiko eta pertsonala plataforma bateratuan.",
-        },
-        classScheduling: {
-            title: "Akademia-planifikazio adimentsua",
-            tagline:
-                "Optimizatu automatikoki ordutegiak, baliabideak eta espazioak hezkuntza-eraginkortasuna maximizatzeko.",
-        },
-        dashboard: {
-            title: "Exekutibo-panela",
-            tagline:
-                "Ikusi metrika gakoak eta hartu erabaki informatuak denbora errealeko datuekin.",
-        },
-        financeManagement: {
-            title: "Finantza-kudeaketa automatizatua",
-            tagline:
-                "Murriztu erroreak eta optimizatu diru-fluxua kobrantza automatikoekin eta jarraipen adimentsuarekin.",
-        },
-        settingsConfiguration: {
-            title: "Pertsonalizazio aurreratua",
-            tagline:
-                "Egokitu plataformaren alderdi bakoitza zure zentroaren nortasun eta behar espezifikoei.",
-        },
-        parentCommunication: {
-            title: "Familien komunikazio proaktiboa",
-            tagline:
-                "Mantendu familiak informatuta eta konprometituta eguneraketa automatiko eta pertsonalizatuekin.",
-        },
-        studentAttendance: {
-            title: "Asistentzia-kontrol adimentsua",
-            tagline:
-                "Automatizatu asistentzia-erregistroa eta sortu abisu proaktiboak jarraipena hobetzeko.",
-        },
-        invoices: {
-            title: "Fakturazio elektroniko aurreratua",
-            tagline:
-                "Kendu papera eta azkartu kobrantzak fakturazio automatikoarekin eta ordainketa digitalekin.",
         },
     },
     pricing: {
@@ -1765,7 +1593,6 @@ export default {
             comparisonDescription:
                 "Pack bakoitzak modulu multzo bat aktibatzen du. Hemen ikusiko duzu bakoitzak zer egiten duen eta zein packetan dagoen.",
             moduleColumn: "Modulua",
-            packsColumn: "Packak",
             items: {
                 communication: {
                     name: "Komunikazio Packa",
@@ -1982,11 +1809,6 @@ export default {
         title: "Edena buruzko galdera ohikoak",
         description:
             "Ebatzi zure zalantzak funtzionalitateen, prezioei, inplementazioari, Verifactu-ri eta datuen segurtasunari buruz. Zure zentrorako erabaki onena hartu aurretik jakin behar duzun guztia.",
-        guardians: {
-            title: "Familia eta tutoreentzako Edena buruzko galdera ohikoak",
-            description:
-                "Argitzen ditugu zure zalantzak Edena familia eta tutoreentzako funtzionamenduari, funtzionalitateei eta gure irtenbide digitalak nola eralda dezakeen zure zentroaren kudeaketa.",
-        },
         parent_onboarding: "Nola funtzionatzen du familien plataformara txertatzea?",
         parent_onboarding_answer:
             "Familia bakoitzak gonbidapen bat jasotzen du posta elektronikoz. Hortik kontua sortzen du, zentroko dokumentuak sinatzen ditu eta bere profilarekin sartzen da aplikazioan, idazkaritzatik pasatu gabe.",
@@ -2020,36 +1842,9 @@ export default {
         platform_customization: "Plataforma zentroaren nortasunarekin pertsonaliza daiteke?",
         platform_customization_answer:
             "Bai, logoa, kolore korporatiboak, komunikazio-txantiloiak eta familien aldera bidaltzen diren mezu automatikoak pertsonaliza ditzakezu zure zentroaren nortasuna islatzeko.",
-        guardian_access_rights: "Zer baimen ditu tutoreak plataforman?",
-        guardian_access_rights_answer:
-            "Tutoreak informazio akademikora, fakturaziora, jardueretara sartu eta zentroarekin komunika daiteke zentroaren administrazioak esleitutako baimenen arabera.",
-        guardian_invitation_process: "Nola gonbidatzen da tutorea plataformara?",
-        guardian_invitation_process_answer:
-            "Gonbidapena posta elektroniko bidez egiten da erregistroa osatzeko eta kredentzialak ezartzeko esteka segurua duena.",
-        guardian_data_privacy: "Nola babesten da tutoreen datuen pribatutasuna?",
-        guardian_data_privacy_answer:
-            "Datu guztiak enkriptatuta daude eta DBEO araudiarekin bat datoz. Langile baimenduak soilik sartu daiteke tutoreen informaziora.",
         guardian_multiple_children: "Tutoreak hainbat seme-alaba kudeatu ditzake kontu bakarretik?",
         guardian_multiple_children_answer:
             "Bai, tutoreak seme-alaba guztien informazioa eta jarduerak profil bakarretik kudeatu ditzake.",
-        guardian_communication_channels: "Zer komunikazio-kanal daude tutoreentzat eskuragarri?",
-        guardian_communication_channels_answer:
-            "Tutoreek barne-mezuak, mugikorreko jakinarazpenak eta plataforman integratutako posta elektronikoa erabil ditzakete komunikatzeko.",
-        guardian_update_information: "Nola egunera dezake tutoreak bere informazio pertsonala?",
-        guardian_update_information_answer:
-            "Tutoreak bere datu pertsonal eta kontaktuak alda ditzake erabiltzaile-paneletik, autentifikazioaren ondoren.",
-        guardian_emergency_contacts: "Gehitu daitezke larrialdi-kontaktuak tutoreentzat?",
-        guardian_emergency_contacts_answer:
-            "Bai, plataformak tutore edo ikasle bakoitzari lotutako larrialdi-kontaktuak erregistratu eta kudeatzea ahalbidetzen du.",
-        guardian_language_support: "Plataforma hizkuntza anitzetan dago tutoreentzat eskuragarri?",
-        guardian_language_support_answer:
-            "Plataformak eleaniztasun-laguntza eskaintzen du, tutoreek ezarpenetan hizkuntza hobetsia hauta dezaten.",
-        guardian_notifications: "Zer motatako jakinarazpen jasotzen dituzte tutoreek?",
-        guardian_notifications_answer:
-            "Gertaerei, jardueretari, fakturazioari, zentroaren mezuei eta gogorarazle garrantzitsuei buruzko jakinarazpenak jasotzen dituzte.",
-        guardian_support_options: "Zer laguntza-aukerak dituzte tutoreek laguntza behar badute?",
-        guardian_support_options_answer:
-            "Tutoreek txat, posta elektronikoa edo plataformako laguntza-atala kontsulta dezakete.",
         finance: {
             title: "Edenarekin eskola-finantza-kudeaketari buruzko galdera ohikoak",
             description:
@@ -2079,9 +1874,6 @@ export default {
         finance_parent_portal: "Familiek ikus dezakete beren ordainketa-historia?",
         finance_parent_portal_answer:
             "Bai, familia bakoitzak bere atarira sartzen da fakturak, egindako ordainketak eta zor direnak ikusteko.",
-        finance_integration_accounting: "Edena kanpoko kontabilitate-sistemekin integratzen da?",
-        finance_integration_accounting_answer:
-            "Edenak datuak esportatu eta merkatuko kontabilitate-software nagusiekin konektatzea ahalbidetzen du.",
         finance_support_options: "Zer laguntza eskaintzen du Edenak gai finantzarioetarako?",
         finance_support_options_answer:
             "Edenaren gainerako atalen laguntza bera: posta elektronikoa eta txata, prezioan barne. Abian jartzean, taldeak zurekin konfiguratzen ditu tarifak, fakturazio-serieak eta Verifactu.",
@@ -2286,11 +2078,6 @@ export default {
         families_app_features: "Familientzako aplikazioa doakoa da?",
         families_app_features_answer:
             "Bai. Doakoa da iOS eta Androiden. App Storen edo Google Playn deskargatzen duzu eta ikastetxeak ematen dizun profilarekin sartzen zara.",
-        centers: {
-            title: "Hezkuntza-zentroentzako Edena buruzko galdera ohikoak",
-            description:
-                "Aurkitu erantzunak Edenak nola lagun dezakeen zure zentroan: komunikazioa, fakturazioa, automatizazioa eta kudeaketa integrala.",
-        },
         nurseries: {
             title: "Haur-eskoletarako galdera ohikoak",
             description:
@@ -2311,21 +2098,6 @@ export default {
             description:
                 "Multi-zentro kudeaketari, panel zentralizatuari eta zentro-sarearen hazkundeari buruzko erantzunak.",
         },
-        centers_communication_tools: "Zer komunikazio-tresna eskaintzen ditu Edenak?",
-        centers_communication_tools_answer:
-            "Zentroaren eta familien arteko txata, zenbaki pertsonalak partekatu gabe; irakurketa-berrespena duten zirkularrak; mugikorrerako abisuak; zentroko argazki eta ekitaldien horma; eta mezuen itzulpen automatikoa.",
-        centers_billing_automation: "Nola funtzionatzen du fakturazio automatizatuak?",
-        centers_billing_automation_answer:
-            "Hilero, Edenak ikasle bakoitzaren zerbitzuen fakturak sortzen ditu, Verifactun erregistratzen ditu, SEPA helbideratzeak kudeatzen ditu eta ordaintzeke dauden ordainagirien oroigarriak bidaltzen ditu. Kobrantza bakoitzaren egoera berehala ikusten da panelean.",
-        centers_process_automation: "Zer prozesu automatiza daitezke?",
-        centers_process_automation_answer:
-            "Automatizazio moduluarekin arauak sortzen dituzu programatu gabe: ordainketa-oroigarriak, familientzako absentzia-abisuak, ikaslearen alta matrikula berrestean, programatutako komunikatuak eta aldizkako txostenak.",
-        centers_analytics_dashboard: "Zer informazio erakusten du panelak?",
-        centers_analytics_dashboard_answer:
-            "Panelak denbora errealeko metrikak erakusten ditu asistentzia, matrikulazioak, egoera finantzarioa, bidalitako komunikazioak, errendimendu akademikoa eta zentroaren kudeaketarako adierazle gako gehiago.",
-        centers_student_management: "Nola kudeatzen du Edenak ikasleen informazioa?",
-        centers_student_management_answer:
-            "Edenak ikasleen informazio guztia zentralizatzen du: agiri akademikoak, asistentzia, kalifikazioak, familien komunikazioa, fakturazioa eta agiriak. Guztia sistema bakarretik eskuragarri.",
         centers_data_security: "Nola bermatzen du Edenak datuen segurtasuna?",
         centers_data_security_answer:
             "Informazioa zifratuta bidaltzen eta gordetzen da, segurtasun-kopia automatikoekin, eta erabiltzaile bakoitza bere rolarekin sartzen da eta dagokiona soilik ikusten du. Edenak datuak tratamendu-arduradun gisa tratatzen ditu DBEOren arabera, eta akordioa webgunean argitaratuta dago.",
@@ -2335,9 +2107,6 @@ export default {
         centers_setup_time: "Zenbat denbora behar du inplementazioak?",
         centers_setup_time_answer:
             "Zentro gehienak 2 astean daude martxan. Gure taldeak datuen migrazioa, konfigurazioa eta langileen prestakuntza kudeatzen ditu, aldaketa erraza izan dadin.",
-        centers_support_levels: "Zer laguntza-maila eskaintzen ditu Edenak?",
-        centers_support_levels_answer:
-            "Zentro guztiek laguntza bera dute, posta eta txat bidez, prezioan barne. Gainera, taldeak datuen migrazioa eta hasierako prestakuntza kudeatzen ditu.",
         centers_cost_savings: "Zenbat aurrez dezake nire zentroak Edenarekin?",
         centers_cost_savings_answer:
             "Gimbeben, idazkaritzak 37 ordu aurrezten ditu astero eskuz errepikatzen ziren lanetan. Edena erabiltzen duten zentroetan, familia baten altak ez du egun batzuk hartzen.",
@@ -2854,29 +2623,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         mainDescription:
             "Edenak Verifactu-ra egokitutako eskola-fakturazioa automatizatzen du: ordainagiriak, SEPA zordunketak eta kobrantzen jarraipena denbora errealean, eskuzko kudeaketarik gabe.",
     },
-    guardians: {
-        mainTitle: "Familiak beti informatuta, zure taldearentzat esfortzu gehigarririk gabe",
-        mainDescription:
-            "Denbora errealeko notak, asistentzia-abisuak, agiri digitalak eta fakturak ordaintzea atari bakarrean. %75 murriztu txertatze-denbora eta %60 handitu familien asebetetzea.",
-        onboardingTitle: "Familien txertatzea",
-        onboardingDescription:
-            "Murriztu familien txertatze-denbora %75 gure sistema automatizatuarekin. Agiri digitalen sinadura, profilen sorrer berehalakoa eta gidatutako konfigurazioak trantsizio arina bermatzen dute guztientzat.",
-        dashboardTitle: "Familien kontrol-panela",
-        dashboardDescription:
-            "Familiek seme-alaben informazioa kudeatu, fakturak kontsultatu eta ordaindu, eskolaz kanpoko jardueretan izena eman eta zentroarekin zuzenean komunika daitezke.",
-        studentControlTitle: "Ikasleen kontrola",
-        studentControlDescription:
-            "Kudeatu erregistroak, asistentzia eta ikasleen jarraipen akademikoa eraginkortasunez.",
-        appTitle: "Mugikor-aplikazioa",
-        appDescription:
-            "Sartu funtzio guztietara edozein gailutatik. Kudeaketa osoa esku-ahurrean.",
-        documentSigningTitle: "Agirien sinadura",
-        documentSigningDescription:
-            "Agiri digitalen sinadura komunikazio eraginkorrerako. Prozesu sinplifikatuak administrazio-kudeaketa azkartzen du.",
-        signaturePlaceholder: "Probatu hemen",
-        signatureClear: "Ezabatu",
-        signatureSave: "Gorde",
-    },
     families: {
         mainTitle: "Familiak notak, ordainagiria eta abisua ikusten ditu",
         mainDescription:
@@ -2913,9 +2659,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         realTimeCommunicationTitle: "Zure haur-eskolaren egunerokoa, denbora errealean",
         realTimeCommunicationDescription:
             "Langileak argazkiak, otorduak, siesta eta jarduerak zuzenean partekatzen ditu aplikaziotik. Gurasoek berehala eta modu seguruan jasotzen dute mugikorrean.",
-        financialAutomationTitle: "Administrazio-kargarik gabeko fakturazioa",
-        financialAutomationDescription:
-            "Behin konfiguratu tarifak eta Edenak hilero fakturazioa eta kobrantza automatizatzen ditu. Verifactu-ra egokitua araudi fiskala betetzeko.",
         childrenManagementTitle: "Haur bakoitzaren eguna, xehetasunez erregistratua",
         childrenManagementDescription:
             "Asistentzia, otorduak, siesta, gertakariak eta garapen-oharrak ikasleko erregistratuta. Agiri digital osoak langileentzat eskuragarri eta familien aldera denbora errealean ikusgarri.",
@@ -3081,29 +2824,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             },
         ],
     },
-    centers: {
-        mainTitle: "Zentroaren administrazioa, sistema bakarrean",
-        mainDescription:
-            "Familiak, Verifactu fakturak, matrikulak eta agiriak. Bi astetan martxan, migrazioa eginda.",
-        communicationTitle: "Komunikazio zentralizatua",
-        communicationDescription:
-            "Kudeatu familien, irakasleen eta langileen komunikazio guztia panel bakarretik. Mezularitza segurua, jakinarazpenak eta denbora errealeko eguneraketak.",
-        automationTitle: "Automatizazio adimentsua",
-        automationDescription:
-            "Automatizatu administrazio-prozesuak hala nola fakturazioa, asistentzia eta txosten-sorrera. Aurreztu denbora eta murriztu erroreak nabarmen.",
-        integratedManagementTitle: "Lehen hilabetetik barruan geratzen dena",
-        integratedManagementDescription:
-            "Familientzako abisua, ordainagiria eta ikaslearen agiria, leku berean.",
-        realTimeCommunicationTitle: "Denbora errealeko komunikazioa",
-        realTimeCommunicationDescription:
-            "Hezkuntza-komunitate osoa konektatuta mantentzen duen jakinarazpen eta mezularitza-sistema. Bidali eguneraketa berehalakoak eta kudeatu komunikazioak modu zentralizatuan.",
-        financialAutomationTitle: "Finantza-automatizazioa",
-        financialAutomationDescription:
-            "Sortu fakturak automatikoki, kudeatu kobrantza errepikatuak eta lortu finantza-analisia denbora errealean. Murriztu administrazio-karga eta hobetu diru-fluxua.",
-    },
-    trustedBySection: {
-        title: "Honen konfiantza dut",
-    },
     problemSection: {
         title: "Zure zentroak elkarrekin hitz egiten ez duten tresnak erabiltzen jarraitzen al du?",
         description:
@@ -3167,31 +2887,26 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
                 stat: "37 h",
                 description:
                     "Gimbeben, astero aurreztuta idazkaritzako lanetan.",
-                bg: "dark",
             },
             {
                 stat: "+35%",
                 description:
                     "Matrikula bihurtutako kontsultetan igoera CRMarekin, inprimaki digitalekin eta sareko erregistroarekin.",
-                bg: "light",
             },
             {
                 stat: "-75%",
                 description:
                     "Familien txertatze-denboraren murrizketa erregistro digitalari eta sinadura elektronikoari esker.",
-                bg: "light",
             },
             {
                 stat: "98%",
                 description:
                     "Familien asebetetzea zentroaren kudeaketa eta komunikazioa digitalizatu ondoren.",
-                bg: "light",
             },
             {
                 stat: "-40%",
                 description:
                     "Ordainketa-atzerapenen murrizketa fakturazio eta kobrantza automatizatuari esker.",
-                bg: "dark",
             },
         ],
     },
@@ -3200,9 +2915,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             "Gidak, kasu praktikoak eta berriak eskola-kudeaketari, digitalizazio hezkuntzakoari eta Edena produktuari buruz.",
         faqTitle: "Galdera ohikoak",
         relatedTitle: "Erlazionatutako artikuluak",
-        ctaTitle: "Batu paper-lanik gabe lan egiten duten zentroekin",
-        ctaDescription:
-            "Gimbeben 37 ordu aurrezten dituzte astero administrazio-lanetan Edenari esker. Ikusi nola funtzionatzen duen zure zentro-motara egokitutako doako erakustaldi batean.",
         aiDisclaimer:
             "Eduki hau Enak sortu du, Edenaren adimen artifizialeko agenteak. Akatsak edo zehaztugabetasunak izan ditzake eta ez da aholkularitza juridiko, fiskal edo profesionala. Edenak ez du bermaten informazioaren zehaztasuna, osotasuna ez indarraldia. Kontsultatu iturri ofizialak eta, dagokionean, profesional kualifikatu bat edozein erabaki hartu aurretik.",
         unsplashCredit: "Azaleko irudia {source}-etik dator.",
@@ -3214,32 +2926,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         appStoreBadge: "Deskargatu Edena App Store-n",
         googlePlayBadge: "Deskargatu Edena Google Play-n",
         appQrCode: "Edena aplikazioa mugikorrean deskargatzeko QR kodea",
-        appDetail:
-            "Familientzako Edena mugikor-aplikazioa ikasleen asistentzia-jakinarazpenekin eta eskola-komunikazioarekin",
-        dashboardHero: "Edena eskola kontrol-panela metrika eta denbora errealeko analisiarekin",
-        studentsHero: "Edena ikasleen informazio sistema agiri akademikoen kudeaketarekin",
-        guardiansHero: "Edena familien ataria komunikazio eta jarraipen akademikorako",
-        financeHero:
-            "Fakturazioa eta kobrantzak Edenan: fakturazio automatikoa eta ordainketa-kudeaketa",
-        billingCycle: "Hezkuntza-zentroetarako fakturazio-ziklo automatizatua Edenan",
-        invoiceAnalytics: "Finantza-analisia eta fakturazio-txostenak Edenan",
-        emailInvoice: "Paperik gabeko fakturazio elektronikoa Edenan",
-        studentDetail: "Edenan ikaslearen xehetasuna informazio akademiko osoarekin",
-        studentClassroom: "Gelen eta hezkuntza-espazioen kudeaketa Edenan",
-        organization: "Ikasle eta taldeen antolaketa Edenan",
-        guardianManagement: "Edenan familien eta tutoreen kudeaketa-panela",
-        appFeed: "Jakinarazpen eta eguneraketen jarioa Edena mugikor-aplikazioan",
-        appHero: "Familientzako Edena mugikor-aplikazioaren pantaila nagusia",
-        quickActions: "Edena eskola kontrol-panelaren ekintza azkarrak",
-        notifications: "Edena denbora errealeko jakinarazpen-sistema",
-        calendar: "Edenan integratutako eskola-egutegia",
-        crmHero: "Edena eskola CRM eskaeren kudeaketa eta familien erakarpenetarako",
-        crmList: "Familien eskaeren zerrenda Edena eskola CRM-an",
-        crmForm: "Edena CRM inprimaki pertsonalizagarrien editorea",
-        assignmentSchedule: "Zereginen planifikazioa Edenan",
-        assignmentEvaluation: "Ebaluazio eta kalifikazioen kudeaketa Edenan",
-        evaluationCycle: "Ebaluazio-zikloen konfigurazioa Edenan",
-        assignmentScoreCard: "Boletina eta kalifikazioen jarraipena Edenan",
         conclusionLogo: "Edena logotipoa - Eraldatu zure hezkuntza-zentroaren kudeaketa",
     },
     verifactuDeclarationPage: {
@@ -3280,11 +2966,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
         heroTitle: "Ikusi Edena martxan, zurea bezalako zentro baten datuekin",
         heroDescription:
             "15 minutuko erakustaldia, zure ikastetxe, haur-eskola, akademia edo talderako prest. Konpromisorik gabe.",
-        expects: [
-            "Zurearen antzeko zentro batekin ikusten duzu.",
-            "Idazkaritza edo zuzendaritza daramanak egon beharko luke.",
-            "Ordainagiri bat, familien aplikazioa eta Verifactu erregistroa.",
-        ],
         faqTitle: "Beste zentro batzuek galdetzen dutena",
         faqs: [
             {
@@ -3391,9 +3072,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             section2Title: "Agenda koordinatua",
             section2Description:
                 "Jarduera bakoitza zentroaren egutegian islatzen da, begiraleekin, geletarekin eta gatazkarik gabeko ordutegiekin.",
-            altHero: "Eskolaz kanpoko jardueren pantaila Edena aplikazioan",
-            altSection1: "Eskolaz kanpoko jardueretan izen-ematea Edena aplikaziotik",
-            altSection2: "Eskolaz kanpoko jardueren egutegia Edenan",
             faqTitle: "Eskolaz kanpoko jardueren kudeaketari buruzko ohiko galderak",
             faqDescription:
                 "Izen-emateei, kobrantzei eta eskolaz kanpoko jardueren antolaketari buruzko ohiko zalantzak argitzen ditugu.",
@@ -3501,9 +3179,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             section2Title: "Talde osoa orri berean",
             section2Description:
                 "Eguneko agendak eta barne-atazek zuzendaritza, administrazioa eta irakasleak sinkronizatuta mantentzen dituzte.",
-            altHero: "Zentroaren eguneko agenda eta ordutegi-kontrola Edenan",
-            altSection1: "Lanaldiaren erregistroa eta langileen fitxaketa Edenan",
-            altSection2: "Hezkuntza-taldearen partekatutako agenda Edenan",
             faqTitle: "Ordutegi-kontrolari eta agendari buruzko ohiko galderak",
             faqDescription:
                 "Ordutegi-erregistroari, eguneko agendari eta barne-atazen jarraipenari buruzko zalantzak argitzen ditugu.",
@@ -3610,9 +3285,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             section2Title: "Akats gutxiago, koherentzia gehiago",
             section2Description:
                 "Prozesu bakoitza beti berdin exekutatzen da, ahazteak eta giza akatsak ezabatuz.",
-            altHero: "Lan-fluxuen eta automatizazioen editorea Edenan",
-            altSection1: "Prozesuen automatizazioa arau eta abiarazleekin Edenan",
-            altSection2: "Hezkuntza-zentroaren automatizazioen panela Edenan",
             faqTitle: "Automatizazioei buruzko ohiko galderak",
             faqDescription:
                 "Zure zentroan prozesuak nola automatizatu eta lan-fluxuak nola sortu buruzko zalantzak argitzen ditugu.",
@@ -3718,9 +3390,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             section2Title: "Berehalako ordainketa segurua",
             section2Description:
                 "Familiek berehala ordaintzen dute beren ohiko metodoekin eta ordainagiria aplikazioan jasotzen dute.",
-            altHero: "Zentroaren lineako denda Edena aplikazioan",
-            altSection1: "Edena eskola-dendaren produktu-fitxa",
-            altSection2: "Erosketa- eta ordainketa-prozesua Edena dendan",
             faqTitle: "Lineako dendari buruzko ohiko galderak",
             faqDescription:
                 "Edenatik uniformeak, materiala eta zerbitzuak nola saldu buruzko zalantzak argitzen ditugu.",
@@ -3826,9 +3495,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             section2Title: "Jarraipena duten komunikatuak",
             section2Description:
                 "Bidali zirkularrak eta egiaztatu nork irakurri dituen inor informazio garrantzitsurik gabe ez uzteko.",
-            altHero: "Zentroaren eta familien arteko komunikazio-txata Edena aplikazioan",
-            altSection1: "Familia-zentroa mezularitza zuzena Edenan",
-            altSection2: "Zirkularren eta komunikatuen bidalketa jarraipenarekin Edenan",
             faqTitle: "Eskola-komunikazioari buruzko ohiko galderak",
             faqDescription:
                 "Familiekin mezularitzari, zirkularrei eta jakinarazpenei buruzko zalantzak argitzen ditugu.",
@@ -3936,9 +3602,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             section2Title: "Euro bakoitza, kontrolatuta",
             section2Description:
                 "Kontsultatu diru-sarrerak, gastuak eta saldoak familiaka eta zerbitzuka txosten automatikoekin.",
-            altHero: "Barne-diruzorroa eta familia-saldoa Edena aplikazioan",
-            altSection1: "Saldoaren birkarga eta barne-ordainketak Edenan",
-            altSection2: "Barne-mugimenduen eta saldoen txostena Edenan",
             faqTitle: "Barne-ordainketei buruzko ohiko galderak",
             faqDescription:
                 "Barne-diruzorroari, birkargei eta zentroaren zerbitzuen kobrantzei buruzko zalantzak argitzen ditugu.",
@@ -4038,18 +3701,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
                         "Chatbot generiko batek baino pribatutasun handiagoa duen IA: zure datuak beti babestuta eta zure kontrolpean.",
                 },
             ],
-            sectionTitle: "Automatizatu zure taldeari denbora gehien kontsumitzen diona",
-            sectionDescription:
-                "Enak komunikatuak idazten ditu, zerrenda pasatzen du eta GGBBen prozesuak kudeatzen ditu zuzenean Edenan.",
-            section1Title: "Ena zure zentroak lan egiten duen lekuan lan egiten du",
-            section1Description:
-                "Komunikatuak, bertaratzea eta giza baliabideak Enak zuzenean Edena barruan kudeatuta.",
-            section2Title: "Segurtasun profesionala seriez",
-            section2Description:
-                "Segurtasun integratua eta chatbot generiko batek baino pribatutasun handiagoa duen IA.",
-            altHero: "Ena, Edenaren adimen artifizialeko agentea",
-            altSection1: "Ena ataza administratiboak automatizatzen Edenan",
-            altSection2: "Edenaren IAren segurtasuna eta pribatutasuna",
             faqTitle: "Enari buruzko ohiko galderak, Edenaren IA",
             faqDescription:
                 "Enak zer egin dezakeen eta zure zentroaren datuak nola babesten dituen buruzko zalantzak argitzen ditugu.",
@@ -4100,7 +3751,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
     comparePage: {
         breadcrumb: "Konparazioak",
         backToAll: "Konparazio guztiak",
-        heroEyebrow: "Konparazioa",
         edenaTagline: "Faktura, espedientea eta familiak",
         edenaMeta: "36 €/hiletik | 30 egun doan",
         heroNote:
@@ -4213,9 +3863,6 @@ Hitzarmen honi buruzko edozein kontsultarako, idatz iezaguzu privacidad@edena.es
             matrixTitle: "Zortzi plataformak, irizpidez irizpide",
             matrixDescription:
                 "Irizpide bakoitza, bere informazio publikoan erakusten duten plataformekin. Pasatu kurtsorea bakoitzaren gainetik xehetasuna ikusteko.",
-            statRivals: "alderatutako alternatiba",
-            statCriteria: "irizpide nagusi",
-            statSources: "iturri publiko",
         },
         competitors: {
             tokapp: {

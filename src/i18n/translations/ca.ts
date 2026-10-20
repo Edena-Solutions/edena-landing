@@ -57,7 +57,6 @@ export default {
         concepts: "Conceptes",
         toInvoice: "pendents de facturar",
         invoiced: "Facturat",
-        invoiceAction: "Facturar",
         pending: "Pendent",
         invoicedBadge: "Facturada",
         pendingShort: "pendents",
@@ -126,7 +125,6 @@ export default {
         invoiceLines: ["Mitja pensió completa", "Berenar mensual", "Escolaritat"],
         payNow: "Pagar ara",
         paid: "Pagada",
-        paymentReceived: "Cobrament rebut",
         collected: "Cobrat",
         returned: "Retornat",
         byMonth: "Facturació per mes",
@@ -814,15 +812,9 @@ export default {
         financeTitle: "Facturació Escolar amb Verifactu | Cobraments SEPA | Edena",
         financeDescription:
             "Facturació escolar automàtica adaptada a Verifactu: rebuts, domiciliacions SEPA i control d'impagaments en temps real, sense perseguir cobraments.",
-        guardiansTitle: "Portal de famílies per a col·legis | Comunicació centre-família | Edena",
-        guardiansDescription:
-            "Dóna a les famílies accés en temps real a notes, assistència, factures i novetats del centre. Missatgeria segura i signatura digital de documents. Incorporació de famílies en minuts.",
         familiesTitle: "Portal de Famílies | Notes, Factures i Pagaments | Edena",
         familiesDescription:
             "Tot allò escolar en una app gratuïta: notes, factures, missatges, fotos i la botiga del centre. Diversos fills en un sol compte, des de qualsevol dispositiu.",
-        centersTitle: "Plataforma Integral per a Centres Educatius | ERP Educatiu | Edena",
-        centersDescription:
-            "Programari de gestió per a centres educatius: facturació amb Verifactu, matrícules, comunicació amb famílies, assistència i expedients. En marxa en dues setmanes.",
         crmTitle: "CRM Escolar | Converteix Consultes en Matrícules | Edena",
         crmDescription:
             "CRM escolar per a admissions i matrícules: recull sol·licituds des del teu web, segueix cada família per etapes i converteix més consultes en alumnes.",
@@ -876,11 +868,7 @@ export default {
         mobileTitle: "L'avís arriba al mòbil de cada família",
         mobileDescription:
             "Fotos, circulars i canvis d'horari surten d'Edena i arriben a l'app gratuïta de les famílies, a iOS i Android.",
-        orgTitle: "Sense paper en 30 dies, amb la migració inclosa",
-        orgDescription:
-            "Redueix els costos operatius un 25% amb el sistema de gestió escolar totalment digital d'Edena. Migració de dades, incorporació de famílies i formació de l'equip, tot a càrrec nostre.",
         verifactuReady: "Adaptat a Verifactu (AEAT)",
-        appScreens: ["Horaris", "Publicacions", "Mur", "Classes", "Botiga"],
     },
     /** What each product page is, set small above its headline inside the H1. */
     pageEyebrows: {
@@ -909,17 +897,6 @@ export default {
         demo: "Demo gratuïta del programari de gestió escolar",
         contact: "Contacte amb Edena",
     },
-    setup: {
-        title: "En marxa en 2 setmanes, amb un equip que t'acompanya en tot el procés",
-        description:
-            "Migració de dades, formació del personal i configuració completa a càrrec nostre. La majoria de centres estan operatius amb Edena en només 2 setmanes, sense interrompre la seva activitat diària.",
-        onboardingDescription:
-            "Redueix el temps d'incorporació de famílies un 75% amb el nostre sistema automatitzat. Les famílies reben una invitació segura, signen digitalment i estan llestes en minuts, no en dies.",
-        operationsDescription:
-            "Visibilitat total sobre assistència, finances i comunicacions amb informes automàtics i panells personalitzables. Pren decisions més ràpides i encertades cada dia.",
-        bookADemoCTA:
-            "Demana una demostració gratuïta i t'ensenyem com encaixa Edena al teu centre. Sense compromís.",
-    },
     cookieConsent: {
         title: "Galetes i analítica",
         description:
@@ -929,11 +906,6 @@ export default {
         policy: "Política de galetes",
     },
     footer: {
-        users: "Famílies",
-        students: "Estudiants",
-        administration: "Administració",
-        dashboard: "Panell de control",
-        finance: "Finances",
         legal: "Legal",
         privacyPolicy: "Política de privacitat",
         termsOfService: "Termes del servei",
@@ -961,8 +933,6 @@ export default {
         studentsDescription:
             "Expedients digitals, assistència, qualificacions i seguiment de cada alumne en un sol lloc.",
         guardians: "Portal de famílies",
-        guardiansDescription:
-            "Plataforma integral perquè famílies i tutors es mantinguin connectats amb l'educació dels seus fills.",
         dashboard: "Panell de control",
         dashboardDescription:
             "Assistència, cobraments i matrícules del teu centre en temps real per decidir amb dades.",
@@ -1018,19 +988,15 @@ export default {
         submitting: "Enviant...",
         successTitle: "Missatge enviat!",
         successDescription: "Hem rebut la teva consulta. Et responem en aquest correu.",
-        errorTitle: "Error en enviar",
         errorDescription: "S'ha produït un error. Si us plau, torna-ho a provar.",
         nameRequired: "El nom és obligatori",
         emailRequired: "El correu electrònic és obligatori",
         emailInvalid: "Introdueix un correu electrònic vàlid",
         messageRequired: "El missatge és obligatori",
         messageMinLength: "El missatge ha de tenir almenys 10 caràcters",
-        requiredField: "Aquest camp és obligatori",
         infoTitle: "Informació de contacte",
         infoSubtitle: "Selecciona el teu perfil per continuar:",
         emailContactLabel: "Correu electrònic",
-        locationLabel: "Ubicació",
-        locationValue: "Barcelona, Espanya",
         profiles: {
             school: "Col·legi",
             nursery: "Escola Infantil",
@@ -1046,11 +1012,8 @@ export default {
             partner: "Empreses i organitzacions que volen col·laborar amb Edena.",
         },
         phoneLabel: "Telèfon (opcional)",
-        phonePlaceholder: "+34 600 000 000",
         websiteLabel: "Web del centre (opcional)",
         websitePlaceholder: "https://www.elteucentre.com",
-        productInterestLabel: "M'interessa aquest producte (opcional)",
-        productInterestPlaceholder: "Selecciona una opció",
         phoneInvalid: "Número de telèfon no vàlid per a {country}",
         productOptions: {
             platform: "Plataforma completa",
@@ -1103,43 +1066,6 @@ export default {
         description:
             "Les factures amb Verifactu surten, l'assistència queda registrada i cada família ho veu a l'app. Veure-ho amb un centre com el teu porta 15 minuts.",
     },
-    bento: {
-        title: "Una plataforma. Tot el que necessita el teu centre.",
-        description:
-            "Facturació, comunicació familiar, app mòbil, expedients d'alumnes i molt més: tot connectat en una sola plataforma dissenyada per al dia a dia real dels centres educatius.",
-        chat: {
-            title: "Comunicació escolar",
-            description:
-                "Missatgeria segura bidireccional entre professors i famílies. Notificacions push instantànies, alertes d'assistència i compartir fotos i documents de forma privada. Augmenta el compromís familiar fins a un 60%.",
-        },
-        app: {
-            title: "Comunicació centre-famílies",
-            description:
-                "Canal directe entre el teu centre i les famílies. Notificacions instantànies, missatgeria segura i actualitzacions en temps real per mantenir pares i tutors informats en tot moment.",
-        },
-        functions: {
-            title: "Suite de funcionalitats",
-            description:
-                "Gestió d'estudiants, facturació automatitzada, control d'assistència, expedients digitals i portal de famílies. Tot integrat en un únic ERP educatiu per reduir costos administratius fins a un 40%.",
-        },
-        touchbar: {
-            title: "Interfície intuïtiva",
-            description:
-                "Disseny pensat per al dia a dia escolar. Accés ràpid a funcions freqüents, navegació simplificada i experiència d'usuari optimitzada perquè el teu equip sigui productiu des del primer dia.",
-        },
-        users: {
-            title: "Gestió d'usuaris",
-            description:
-                "Administra famílies, estudiants, professors i personal del centre des d'un únic panell. Perfils personalitzats i permisos per rol.",
-            portraits: {
-                family: "Família",
-                teacher: "Professor",
-                student: "Estudiant",
-                administration: "Administració",
-                director: "Director",
-            },
-        },
-    },
     features: {
         title: "Els mòduls que més fa servir un centre",
         description:
@@ -1179,39 +1105,6 @@ export default {
             tagline:
                 "Planifica tasques, registra qualificacions i genera els butlletins automàticament.",
             cta: "Veure els butlletins",
-        },
-        guardianFeatures: {
-            title: "Per a famílies i tutors",
-            tagline:
-                "Funcionalitats dissenyades per a famílies i tutors per gestionar la informació dels seus fills.",
-            realTimeNotifications: {
-                title: "Notificacions en temps real",
-                tagline:
-                    "Rep alertes instantànies sobre assistència, qualificacions i esdeveniments escolars.",
-            },
-            academicProgress: {
-                title: "Seguiment acadèmic",
-                tagline: "Monitoritza el progrés acadèmic dels teus fills amb informes detallats.",
-            },
-            secureMessaging: {
-                title: "Missatgeria segura",
-                tagline:
-                    "Comunica't directament amb professors i personal del centre de forma privada.",
-            },
-            eventCalendar: {
-                title: "Calendari d'esdeveniments",
-                tagline: "Mantén-te al dia amb tots els esdeveniments escolars i dates importants.",
-            },
-            digitalDocuments: {
-                title: "Documents digitals",
-                tagline:
-                    "Accedeix a butlletins, certificats i documents importants des de qualsevol lloc.",
-            },
-            paymentPortal: {
-                title: "Portal de pagaments",
-                tagline:
-                    "Gestiona pagaments de matrícules, excursions i serveis de forma segura en línia.",
-            },
         },
         studentFeatures: {
             title: "Gestió d'alumnes: expedient, assistència i notes, connectats",
@@ -1457,9 +1350,6 @@ export default {
             },
         },
         centersFeatures: {
-            title: "Solució integral per a centres educatius",
-            tagline:
-                "Eines professionals dissenyades per optimitzar la gestió, comunicació i operacions del teu centre educatiu.",
             communicationHub: {
                 title: "Centre de comunicació",
                 tagline:
@@ -1490,18 +1380,6 @@ export default {
                 tagline:
                     "Protecció avançada de dades amb xifratge, compliment del RGPD i còpies de seguretat automàtiques.",
             },
-        },
-        reportingTools: {
-            title: "Eines d'informes",
-            tagline: "Genera informes personalitzats per prendre decisions basades en dades.",
-        },
-        automatedBilling: {
-            title: "Facturació automàtica",
-            tagline: "Genera i envia factures de forma automàtica segons els serveis contractats.",
-        },
-        realTimeAnalytics: {
-            title: "Analítiques en temps real",
-            tagline: "Obtén insights detallats sobre el rendiment del teu centre educatiu.",
         },
         keyFeaturesTabsTitle: "Sis tasques que deixen de fer-se a mà",
         keyFeaturesTabsDescription: "Així queden a Edena l'app, el panell, la facturació, els butlletins i les matrícules.",
@@ -1576,7 +1454,6 @@ export default {
         },
         trust: {
             titleBold: "Seguretat professional",
-            titleMuted: "de sèrie",
             description: "Seguretat integrada i IA amb més privacitat que un xatbot genèric",
             support: "Suport per correu i xat",
             badges: {
@@ -1591,19 +1468,15 @@ export default {
         main: {
             students: {
                 name: "Gestió d'Alumnes",
-                description: "Expedients digitals, assistència i seguiment acadèmic complet",
             },
             guardians: {
                 name: "Portal Familiar",
-                description: "App gratuïta per a famílies amb notes, factures i missatgeria",
             },
             ai: {
                 name: "Ena",
-                description: "Intel·ligència artificial aplicada a la gestió educativa",
             },
             finance: {
                 name: "Facturació i Cobraments",
-                description: "Facturació automàtica, cobraments i Verifactu",
             },
         },
         items: {
@@ -1651,51 +1524,6 @@ export default {
             schoolShop: "Botiga Escolar",
             languages: "Idiomes",
             allergies: "Al·lèrgies",
-        },
-    },
-    carousel: {
-        title: "Descobreix el poder de la gestió escolar intel·ligent",
-        description:
-            "Explora les funcionalitats avançades que transformaran l'administració del teu centre educatiu",
-        studentManagement: {
-            title: "Gestió estudiantil integral",
-            tagline:
-                "Centralitza tota la informació acadèmica i personal dels teus estudiants en una plataforma unificada.",
-        },
-        classScheduling: {
-            title: "Planificació acadèmica intel·ligent",
-            tagline:
-                "Optimitza automàticament horaris, recursos i espais per maximitzar l'eficiència educativa.",
-        },
-        dashboard: {
-            title: "Dashboard executiu",
-            tagline:
-                "Visualitza mètriques clau i pren decisions informades amb dades en temps real.",
-        },
-        financeManagement: {
-            title: "Gestió financera automatitzada",
-            tagline:
-                "Redueix errors i optimitza el flux de caixa amb cobraments automàtics i seguiment intel·ligent.",
-        },
-        settingsConfiguration: {
-            title: "Personalització avançada",
-            tagline:
-                "Adapta cada aspecte de la plataforma a la identitat i necessitats específiques del teu centre.",
-        },
-        parentCommunication: {
-            title: "Comunicació familiar proactiva",
-            tagline:
-                "Mantén les famílies informades i compromeses amb actualitzacions automàtiques i personalitzades.",
-        },
-        studentAttendance: {
-            title: "Control d'assistència intel·ligent",
-            tagline:
-                "Automatitza el registre d'assistència i genera alertes proactives per millorar el seguiment.",
-        },
-        invoices: {
-            title: "Facturació electrònica avançada",
-            tagline:
-                "Elimina el paper i accelera els cobraments amb facturació automàtica i pagaments digitals.",
         },
     },
     pricing: {
@@ -1747,7 +1575,6 @@ export default {
             comparisonDescription:
                 "Cada pack activa un conjunt de mòduls. Aquí veus què fa cadascun i en quin pack entra.",
             moduleColumn: "Mòdul",
-            packsColumn: "Packs",
             items: {
                 communication: {
                     name: "Pack Comunicació",
@@ -1960,11 +1787,6 @@ export default {
         title: "Preguntes freqüents sobre Edena",
         description:
             "Resol els teus dubtes sobre funcionalitats, preus, implementació, Verifactu i seguretat de dades. Tot el que necessites saber per prendre la millor decisió per al teu centre.",
-        guardians: {
-            title: "Preguntes freqüents sobre Edena per a famílies i tutors",
-            description:
-                "Resolem els teus dubtes sobre el funcionament d'Edena per a famílies i tutors, les seves funcionalitats i com pot transformar la gestió del teu centre educatiu amb la nostra solució digital.",
-        },
         parent_onboarding: "Com funciona la incorporació de famílies a la plataforma?",
         parent_onboarding_answer:
             "Cada família rep un correu amb la seva invitació. Des d'allà crea el compte, signa els documents del centre i entra a l'app amb el seu perfil, sense passar per secretaria.",
@@ -1998,38 +1820,9 @@ export default {
         platform_customization: "Es pot personalitzar la plataforma amb la identitat del centre?",
         platform_customization_answer:
             "Sí, pots personalitzar elements visuals com el logotip, colors corporatius, plantilles de comunicació i missatges automàtics que s'envien a les famílies per reflectir la identitat del teu centre.",
-        guardian_access_rights: "Quins permisos té un tutor a la plataforma?",
-        guardian_access_rights_answer:
-            "Un tutor pot accedir a la informació acadèmica, facturació, activitats i comunicar-se amb el centre segons els permisos assignats per l'administració del centre.",
-        guardian_invitation_process: "Com s'invita un tutor a la plataforma?",
-        guardian_invitation_process_answer:
-            "La invitació es fa mitjançant correu electrònic amb un enllaç segur per completar el registre i establir les seves credencials.",
-        guardian_data_privacy: "Com es protegeix la privacitat de les dades dels tutors?",
-        guardian_data_privacy_answer:
-            "Totes les dades estan xifrades i compleixen la normativa de protecció de dades (RGPD). Només el personal autoritzat pot accedir a la informació dels tutors.",
         guardian_multiple_children: "Pot un tutor gestionar diversos fills des d'un sol compte?",
         guardian_multiple_children_answer:
             "Sí, un tutor pot gestionar la informació i activitats de tots els seus fills des d'un únic perfil.",
-        guardian_communication_channels:
-            "Quins canals de comunicació estan disponibles per als tutors?",
-        guardian_communication_channels_answer:
-            "Els tutors poden comunicar-se mitjançant missatges interns, notificacions al mòbil i correu electrònic integrats a la plataforma.",
-        guardian_update_information: "Com pot un tutor actualitzar la seva informació personal?",
-        guardian_update_information_answer:
-            "El tutor pot modificar les seves dades personals i de contacte des del seu panell d'usuari, prèvia autenticació.",
-        guardian_emergency_contacts: "Es poden afegir contactes d'emergència per als tutors?",
-        guardian_emergency_contacts_answer:
-            "Sí, la plataforma permet registrar i gestionar contactes d'emergència associats a cada tutor o estudiant.",
-        guardian_language_support:
-            "La plataforma està disponible en diversos idiomes per als tutors?",
-        guardian_language_support_answer:
-            "La plataforma ofereix suport multilingüe, permetent als tutors seleccionar el seu idioma preferit a la configuració.",
-        guardian_notifications: "Quin tipus de notificacions reben els tutors?",
-        guardian_notifications_answer:
-            "Reben notificacions sobre esdeveniments, activitats, facturació, missatges del centre i recordatoris importants.",
-        guardian_support_options: "Quines opcions de suport tenen els tutors si necessiten ajuda?",
-        guardian_support_options_answer:
-            "Els tutors poden accedir al suport via xat, correu electrònic o consultar la secció d'ajuda dins la plataforma.",
         finance: {
             title: "Preguntes freqüents sobre gestió financera escolar amb Edena",
             description:
@@ -2059,9 +1852,6 @@ export default {
         finance_parent_portal: "Les famílies poden consultar el seu historial de pagaments?",
         finance_parent_portal_answer:
             "Sí, cada família té accés al seu portal on pot veure factures, pagaments realitzats i pendents.",
-        finance_integration_accounting: "S'integra Edena amb sistemes de comptabilitat externs?",
-        finance_integration_accounting_answer:
-            "Edena permet exportar dades i connectar-se amb els principals programaris de comptabilitat del mercat.",
         finance_support_options: "Quin suport ofereix Edena per a temes financers?",
         finance_support_options_answer:
             "El mateix suport que la resta d'Edena: correu i xat, inclòs en el preu. A la posada en marxa, l'equip configura amb tu les tarifes, les sèries de facturació i Verifactu.",
@@ -2266,11 +2056,6 @@ export default {
         families_app_features: "L'app per a famílies és gratuïta?",
         families_app_features_answer:
             "Sí. És gratuïta a iOS i Android. La descarregues a l'App Store o a Google Play i entres amb el perfil que et facilita el centre.",
-        centers: {
-            title: "Preguntes freqüents sobre Edena per a centres educatius",
-            description:
-                "Troba respostes sobre com Edena pot ajudar el teu centre: comunicació, facturació, automatització i gestió integral.",
-        },
         nurseries: {
             title: "Preguntes freqüents per a escoles infantils",
             description:
@@ -2291,21 +2076,6 @@ export default {
             description:
                 "Respostes sobre gestió multi-centre, panell centralitzat i com créixer amb la teva xarxa de centres.",
         },
-        centers_communication_tools: "Quines eines de comunicació ofereix Edena?",
-        centers_communication_tools_answer:
-            "Xat entre el centre i les famílies sense compartir números personals, circulars amb confirmació de lectura, avisos al mòbil, un mur amb les fotos i els esdeveniments del centre i traducció automàtica dels missatges.",
-        centers_billing_automation: "Com funciona la facturació automatitzada?",
-        centers_billing_automation_answer:
-            "Cada mes Edena genera les factures dels serveis de cada alumne, les registra a Verifactu, gestiona les domiciliacions SEPA i envia recordatoris dels rebuts pendents. L'estat de cada cobrament es veu al panell al moment.",
-        centers_process_automation: "Quins processos es poden automatitzar?",
-        centers_process_automation_answer:
-            "Amb el mòdul d'Automatització crees regles sense programar: recordatoris de pagament, avisos d'absència a les famílies, l'alta de l'alumne en confirmar la matrícula, comunicats programats i informes periòdics.",
-        centers_analytics_dashboard: "Quina informació mostra el panell?",
-        centers_analytics_dashboard_answer:
-            "El panell mostra mètriques en temps real sobre assistència, matrícules, estat financer, comunicacions enviades, rendiment acadèmic i altres indicadors clau per a la gestió del centre.",
-        centers_student_management: "Com gestiona Edena la informació dels estudiants?",
-        centers_student_management_answer:
-            "Edena centralitza tota la informació estudiantil: expedients acadèmics, assistència, qualificacions, comunicació amb famílies, facturació i documents. Tot accessible des d'un únic sistema.",
         centers_data_security: "Com garanteix Edena la seguretat de les dades?",
         centers_data_security_answer:
             "La informació viatja i es desa xifrada, amb còpies de seguretat automàtiques, i cada usuari entra amb el seu rol i veu només el que li correspon. Edena tracta les dades com a encarregat del tractament d'acord amb l'RGPD, amb l'acord publicat al web.",
@@ -2315,9 +2085,6 @@ export default {
         centers_setup_time: "Quant de temps triga la implementació?",
         centers_setup_time_answer:
             "La majoria de centres estan en marxa en 2 setmanes. El nostre equip s'encarrega de la migració de dades, la configuració i la formació del personal perquè el canvi sigui senzill.",
-        centers_support_levels: "Quins nivells de suport ofereix Edena?",
-        centers_support_levels_answer:
-            "Tots els centres tenen el mateix suport, per correu i xat, inclòs en el preu. A més, l'equip s'encarrega de la migració de dades i la formació inicial.",
         centers_cost_savings: "Quant pot estalviar el meu centre amb Edena?",
         centers_cost_savings_answer:
             "A Gimbebe, secretaria estalvia 37 hores cada setmana en tasques que abans es repetien a mà. En els centres que fan servir Edena, l'alta d'una família deixa d'ocupar diversos dies.",
@@ -2834,29 +2601,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         mainDescription:
             "Edena automatitza la facturació escolar adaptada a Verifactu: rebuts, domiciliacions SEPA i seguiment de cobraments en temps real, sense gestió manual.",
     },
-    guardians: {
-        mainTitle: "Les famílies sempre informades, sense esforç addicional per al teu equip",
-        mainDescription:
-            "Notes en temps real, alertes d'assistència, documents digitals i pagament de factures en un sol portal. Redueix el temps d'incorporació un 75% i augmenta la satisfacció familiar un 60%.",
-        onboardingTitle: "Incorporació de famílies",
-        onboardingDescription:
-            "Redueix el temps d'incorporació de famílies un 75% amb el nostre sistema automatitzat. Signatura digital de documents, creació instantània de perfils i configuració guiada garanteixen una transició fluida per a tothom.",
-        dashboardTitle: "Panell de control de famílies",
-        dashboardDescription:
-            "Les famílies poden gestionar la informació dels seus fills, consultar i pagar factures, inscriure's en activitats extraescolars i comunicar-se directament amb el centre.",
-        studentControlTitle: "Control d'estudiants",
-        studentControlDescription:
-            "Gestiona registres, assistència i seguiment acadèmic d'estudiants de forma eficient.",
-        appTitle: "App mòbil",
-        appDescription:
-            "Accedeix a totes les funcions des de qualsevol dispositiu. Gestió total al palmell de la mà.",
-        documentSigningTitle: "Signatura de documents",
-        documentSigningDescription:
-            "Signatura digital de documents per a una comunicació eficient. Procés simplificat que accelera la gestió administrativa.",
-        signaturePlaceholder: "Prova-ho aquí",
-        signatureClear: "Esborrar",
-        signatureSave: "Desar",
-    },
     families: {
         mainTitle: "La família veu les notes, el rebut i l'avís",
         mainDescription:
@@ -2893,9 +2637,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         realTimeCommunicationTitle: "El dia a dia de la teva escola infantil, en temps real",
         realTimeCommunicationDescription:
             "El personal comparteix fotos, menjars, migdiades i activitats directament des de l'app. Els pares ho reben a l'instant i de forma segura al mòbil.",
-        financialAutomationTitle: "Facturació sense càrrega administrativa",
-        financialAutomationDescription:
-            "Configura les tarifes una vegada i Edena automatitza la facturació i el cobrament cada mes. Adaptat a Verifactu per complir la normativa fiscal.",
         childrenManagementTitle: "El dia de cada nen, registrat al detall",
         childrenManagementDescription:
             "Assistència, menjars, migdiades, incidències i notes de desenvolupament registrades per alumne. Expedients digitals complets accessibles per al personal i visibles per a les famílies en temps real.",
@@ -3061,29 +2802,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             },
         ],
     },
-    centers: {
-        mainTitle: "L'administració del centre, en un sol sistema",
-        mainDescription:
-            "Famílies, factures amb Verifactu, matrícules i expedients. En marxa en dues setmanes, amb la migració feta.",
-        communicationTitle: "Comunicació centralitzada",
-        communicationDescription:
-            "Gestiona tota la comunicació amb famílies, professors i personal des d'un únic panell. Missatgeria segura, notificacions i actualitzacions en temps real.",
-        automationTitle: "Automatització intel·ligent",
-        automationDescription:
-            "Automatitza processos administratius com facturació, assistència i generació d'informes. Estalvia temps i redueix errors significativament.",
-        integratedManagementTitle: "El que queda dins des del primer mes",
-        integratedManagementDescription:
-            "L'avís a les famílies, el rebut i l'expedient de l'alumne, al mateix lloc.",
-        realTimeCommunicationTitle: "Comunicació en temps real",
-        realTimeCommunicationDescription:
-            "Sistema de notificacions i missatgeria que manté tota la comunitat educativa connectada. Envia actualitzacions instantànies i gestiona comunicacions de forma centralitzada.",
-        financialAutomationTitle: "Automatització financera",
-        financialAutomationDescription:
-            "Genera factures automàticament, gestiona cobraments recurrents i obtén anàlisis financers en temps real. Redueix la càrrega administrativa i millora el flux de caixa.",
-    },
-    trustedBySection: {
-        title: "Amb la confiança de",
-    },
     problemSection: {
         title: "El teu centre continua usant eines que no parlen entre si?",
         description:
@@ -3147,31 +2865,26 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
                 stat: "37 h",
                 description:
                     "A Gimbebe, estalviades cada setmana en tasques de secretaria.",
-                bg: "dark",
             },
             {
                 stat: "+35%",
                 description:
                     "De consultes convertides en matrícula amb el CRM, els formularis digitals i l'alta en línia.",
-                bg: "light",
             },
             {
                 stat: "-75%",
                 description:
                     "De temps d'incorporació de famílies gràcies a l'alta digital i la signatura electrònica.",
-                bg: "light",
             },
             {
                 stat: "98%",
                 description:
                     "De satisfacció de famílies després de digitalitzar la gestió i la comunicació del centre.",
-                bg: "light",
             },
             {
                 stat: "-40%",
                 description:
                     "De reducció en impagaments i retards gràcies a la facturació i cobrament automatitzat.",
-                bg: "dark",
             },
         ],
     },
@@ -3180,9 +2893,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             "Guies, casos pràctics i novetats sobre gestió escolar, digitalització educativa i producte Edena.",
         faqTitle: "Preguntes freqüents",
         relatedTitle: "Articles relacionats",
-        ctaTitle: "Uneix-te als centres que ja treballen sense papeleo",
-        ctaDescription:
-            "A Gimbebe estalvien 37 hores setmanals en tasques administratives amb Edena. T'ensenyem com funciona en una demostració gratuïta adaptada al teu tipus de centre.",
         aiDisclaimer:
             "Aquest contingut ha estat generat per Ena, l'agent d'intel·ligència artificial d'Edena. Pot contenir errors o inexactituds i no constitueix assessorament legal, fiscal ni professional. Edena no garanteix l'exactitud, la integritat ni la vigència de la informació. Consulteu les fonts oficials i, si escau, un professional qualificat abans d'adoptar qualsevol decisió.",
         unsplashCredit: "La imatge de portada procedeix de {source}.",
@@ -3194,31 +2904,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         appStoreBadge: "Descarregar Edena a l'App Store",
         googlePlayBadge: "Descarregar Edena a Google Play",
         appQrCode: "Codi QR per descarregar l'app d'Edena al mòbil",
-        appDetail:
-            "App mòbil Edena per a famílies amb notificacions d'assistència estudiantil i comunicació escolar",
-        dashboardHero: "Panell de control escolar Edena amb mètriques i anàlisi en temps real",
-        studentsHero: "Sistema d'informació estudiantil Edena amb gestió d'expedients acadèmics",
-        guardiansHero: "Portal de famílies Edena per a comunicació i seguiment acadèmic",
-        financeHero: "Facturació i cobraments a Edena: facturació automàtica i gestió de pagaments",
-        billingCycle: "Cicle de facturació automatitzat a Edena per a centres educatius",
-        invoiceAnalytics: "Anàlisi financer i informes de facturació a Edena",
-        emailInvoice: "Facturació electrònica sense paper a Edena",
-        studentDetail: "Detall d'estudiant a Edena amb informació acadèmica completa",
-        studentClassroom: "Gestió d'aules i espais educatius a Edena",
-        organization: "Organització d'estudiants i grups a Edena",
-        guardianManagement: "Panell de gestió de famílies i tutors a Edena",
-        appFeed: "Mur de notificacions i novetats a l'app mòbil Edena",
-        appHero: "Pantalla principal de l'app mòbil Edena per a famílies",
-        quickActions: "Accions ràpides del panell de control escolar Edena",
-        notifications: "Sistema de notificacions en temps real d'Edena",
-        calendar: "Calendari escolar integrat a Edena",
-        crmHero: "CRM escolar Edena per a gestió de sol·licituds i captació de famílies",
-        crmList: "Llista de sol·licituds de famílies al CRM escolar Edena",
-        crmForm: "Editor de formularis personalitzables del CRM Edena",
-        assignmentSchedule: "Planificació de tasques a Edena",
-        assignmentEvaluation: "Gestió d'avaluacions i qualificacions a Edena",
-        evaluationCycle: "Configuració de cicles d'avaluació a Edena",
-        assignmentScoreCard: "Butlletí i seguiment de qualificacions a Edena",
         conclusionLogo: "Logotip d'Edena - Transforma la gestió del teu centre educatiu",
     },
     verifactuDeclarationPage: {
@@ -3260,11 +2945,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
         heroTitle: "Mira Edena funcionant amb les dades d'un centre com el teu",
         heroDescription:
             "Demostració de 15 minuts, preparada per al teu col·legi, escola infantil, acadèmia o grup. Sense compromís.",
-        expects: [
-            "Ho veus amb un centre semblant al teu.",
-            "Convé que hi sigui qui porta secretaria o direcció.",
-            "Un rebut, l'app de les famílies i el registre Verifactu.",
-        ],
         faqTitle: "El que pregunten altres centres",
         faqs: [
             {
@@ -3371,9 +3051,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             section2Title: "Agenda coordinada",
             section2Description:
                 "Cada activitat queda reflectida al calendari del centre, amb monitors, aules i horaris sense conflictes.",
-            altHero: "Pantalla d'activitats extraescolars a l'app d'Edena",
-            altSection1: "Inscripció a extraescolars des de l'app d'Edena",
-            altSection2: "Calendari d'activitats extraescolars a Edena",
             faqTitle: "Preguntes freqüents sobre la gestió d'extraescolars",
             faqDescription:
                 "Resolem els dubtes més habituals sobre inscripcions, cobraments i organització d'activitats extraescolars.",
@@ -3481,9 +3158,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             section2Title: "Tot l'equip a la mateixa pàgina",
             section2Description:
                 "L'agenda diària i les tasques internes mantenen direcció, administració i docents sincronitzats.",
-            altHero: "Agenda diària i control horari del centre a Edena",
-            altSection1: "Registre de jornada i fitxatge del personal a Edena",
-            altSection2: "Agenda compartida de l'equip educatiu a Edena",
             faqTitle: "Preguntes freqüents sobre control horari i agenda",
             faqDescription:
                 "Resolem els teus dubtes sobre el registre horari, l'agenda diària i el seguiment intern de tasques.",
@@ -3590,9 +3264,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             section2Title: "Menys errors, més consistència",
             section2Description:
                 "Cada procés s'executa igual sempre, eliminant oblits i errors humans.",
-            altHero: "Editor de fluxos de treball i automatitzacions a Edena",
-            altSection1: "Automatització de processos amb regles i disparadors a Edena",
-            altSection2: "Panell d'automatitzacions del centre educatiu a Edena",
             faqTitle: "Preguntes freqüents sobre automatitzacions",
             faqDescription:
                 "Resolem els teus dubtes sobre com automatitzar processos i crear fluxos de treball al teu centre.",
@@ -3699,9 +3370,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             section2Title: "Pagament immediat i segur",
             section2Description:
                 "Les famílies paguen a l'instant amb els seus mètodes habituals i reben el rebut a l'app.",
-            altHero: "Botiga en línia del centre a l'app d'Edena",
-            altSection1: "Fitxa de producte de la botiga escolar d'Edena",
-            altSection2: "Procés de compra i pagament a la botiga d'Edena",
             faqTitle: "Preguntes freqüents sobre la botiga en línia",
             faqDescription:
                 "Resolem els teus dubtes sobre com vendre uniformes, material i serveis des d'Edena.",
@@ -3807,9 +3475,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             section2Title: "Comunicats amb seguiment",
             section2Description:
                 "Envia circulars i comprova qui les ha llegit per no deixar ningú sense la informació important.",
-            altHero: "Xat de comunicació entre centre i famílies a l'app d'Edena",
-            altSection1: "Missatgeria directa família-centre a Edena",
-            altSection2: "Enviament de circulars i comunicats amb seguiment a Edena",
             faqTitle: "Preguntes freqüents sobre comunicació escolar",
             faqDescription:
                 "Resolem els teus dubtes sobre missatgeria, circulars i notificacions amb les famílies.",
@@ -3917,9 +3582,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             section2Title: "Cada euro, controlat",
             section2Description:
                 "Consulta ingressos, despeses i saldos per família i servei amb informes automàtics.",
-            altHero: "Moneder intern i saldo familiar a l'app d'Edena",
-            altSection1: "Recàrrega de saldo i pagaments interns a Edena",
-            altSection2: "Informe de moviments i saldos interns a Edena",
             faqTitle: "Preguntes freqüents sobre pagaments interns",
             faqDescription:
                 "Resolem els teus dubtes sobre el moneder intern, les recàrregues i els cobraments de serveis del centre.",
@@ -4019,18 +3681,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
                         "IA amb més privacitat que un chatbot genèric: les teves dades sempre protegides i sota el teu control.",
                 },
             ],
-            sectionTitle: "Automatitza el que més temps consumeix al teu equip",
-            sectionDescription:
-                "Ena redacta comunicats, passa llista i gestiona processos de RH directament a Edena.",
-            section1Title: "Ena treballa on treballa el teu centre",
-            section1Description:
-                "Comunicats, assistència i recursos humans gestionats per Ena directament dins d'Edena.",
-            section2Title: "Seguretat professional de sèrie",
-            section2Description:
-                "Seguretat integrada i IA amb més privacitat que un chatbot genèric.",
-            altHero: "Ena, l'agent d'intel·ligència artificial d'Edena",
-            altSection1: "Ena automatitzant tasques administratives a Edena",
-            altSection2: "Seguretat i privacitat de la IA d'Edena",
             faqTitle: "Preguntes freqüents sobre Ena, la IA d'Edena",
             faqDescription:
                 "Resolem els teus dubtes sobre què pot fer Ena i com protegeix les dades del teu centre.",
@@ -4081,7 +3731,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
     comparePage: {
         breadcrumb: "Comparatives",
         backToAll: "Totes les comparatives",
-        heroEyebrow: "Comparativa",
         edenaTagline: "Factura, expedient i famílies",
         edenaMeta: "Des de 36 €/mes | 30 dies gratis",
         heroNote: "Amb la informació pública de cada proveïdor, revisada el {date}.",
@@ -4194,9 +3843,6 @@ Per a qualsevol consulta relacionada amb aquest Acord pots escriure'ns a privaci
             matrixTitle: "Les vuit plataformes, criteri a criteri",
             matrixDescription:
                 "Cada criteri, amb les plataformes que el mostren en la seva informació pública. Passa el cursor per sobre de cadascuna per veure'n el detall.",
-            statRivals: "alternatives comparades",
-            statCriteria: "criteris clau",
-            statSources: "fonts públiques",
         },
         competitors: {
             tokapp: {
