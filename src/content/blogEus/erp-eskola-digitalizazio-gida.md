@@ -28,10 +28,6 @@ faqs:
 
 <br>
 
-<strong>Angelua: zer den ERP eta bere moduluak</strong>
-
-<br>
-
 Fitxategia, bildumak, komunikazioa, onarpena. SIS <a href="/eus/blog/sis-ikasle-informazio-sistema-2026">SIS vs ERP</a>-n dagoen aldea.
 
 ERP ikastetxe batek hezkuntza-zentro baten kudeaketa administratiboa, finantzarioa eta akademikoa plataforma bakar batean integratzen ditu. Fakturazioa, kobraketak, erregistroak, asistentzia, familiekin komunikazioa eta giza baliabideak ikastetxeen kudeaketa software berean bizi daitezke, bikoiztuak ezabatuz eta prozesuak automatizatuz. Gida honek eskola ERP zer den, zer modulu sartu eta irtenbide egokia nola aukeratu azaltzen du.

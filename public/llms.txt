@@ -134,8 +134,10 @@ Panel unificado para redes de centros educativos. Facturación centralizada, rep
 ## URLs principales
 
 - Página principal: https://edena.es/
+- Este archivo con los precios, las preguntas frecuentes y el índice del blog completos: https://edena.es/llms-full.txt
 - Solicitar demo gratuita: https://edena.es/demo/
 - Precios: https://edena.es/pricing/
+- Precios en Markdown: https://edena.es/pricing.md
 - Para escuelas infantiles y guarderías: https://edena.es/nurseries/
 - Para colegios: https://edena.es/schools/
 - Para academias: https://edena.es/academies/

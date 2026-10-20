@@ -30,10 +30,6 @@ What is a SIS (Student Information System) and why your educational center needs
 
 <br>
 
-<strong>Angle: SIS vs ERP</strong>
-
-<br>
-
 SIS for classroom; ERP when the secretariat and families are the bottleneck.
 
 A school SIS, or student information system, is the digital backbone of any modern educational center. In 2026, schools that still manage records on paper or in scattered spreadsheets waste time, make mistakes, and provide a poor experience for families and teachers. This article explains what a student information system is, what functions it covers, and why your school needs one.

@@ -23,10 +23,6 @@ faqs:
 
 <br>
 
-<strong>Angle: teacher/tutor view</strong>
-
-<br>
-
 Unified pedagogical monitoring. Governance in <a href="/en/blog/school-document-management-digital-records-2026">digital file 2026</a>.
 
 The digital academic record and the management of students at school scattered in folders, spreadsheets and emails generate errors, delays and frustration. Centralizing all student information in a single system allows the secretary, teachers and management to access updated data, with traceability and regulatory compliance. This article explains how to implement a digital academic record and improve student management at school.

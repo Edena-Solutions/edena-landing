@@ -28,10 +28,6 @@ faqs:
 
 <br>
 
-<strong>Angle : les familles, gardiennes du numérique</strong>
-
-<br>
-
 Consentements, temps d’écran et accords d’utilisation.
 
 À l’ère du numérique, le rôle des parents en tant que gardiens de l’éducation de leurs enfants a considérablement évolué. Il ne s’agit plus seulement de superviser les devoirs et d’assister aux réunions de parents, mais de devenir des guides actifs dans un monde où la technologie est omniprésente. Les parents modernes doivent trouver un équilibre entre tirer parti des opportunités numériques et protéger leurs enfants des risques du monde en ligne, en créant un environnement dans lequel la technologie est un outil de croissance et non une distraction.

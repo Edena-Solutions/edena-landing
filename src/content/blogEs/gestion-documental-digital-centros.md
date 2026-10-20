@@ -24,10 +24,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: gobernanza y permisos</strong>
-
-<br>
-
 Roles, retención y auditoría documental.
 
 La gestión documental tradicional en centros educativos ha sido durante décadas un proceso manual, propenso a errores y extremadamente ineficiente. Los archivos físicos ocupan espacio valioso, son difíciles de buscar, y representan un riesgo significativo de pérdida o deterioro. La transformación digital de la gestión documental está cambiando completamente este panorama, proporcionando soluciones que no solo mejoran la eficiencia, sino que también garantizan la seguridad y accesibilidad de la información.

@@ -29,10 +29,6 @@ faqs:
 
 <br>
 
-<strong>Angelua: mugikorretarako aplikazioa</strong>
-
-<br>
-
 Jakinarazpenak, ordainketak eta sinadurak familiaren poltsikoan.
 
 Mugikorretarako aplikazioek familiek eskolekin elkarreragiteko modua aldatzen ari dira, eskolaren informazio eta zerbitzuetarako berehalako sarbidea eskaintzen dute edonondik eta edonoiz. Teknologia mugikor honek hezkuntza-informaziorako sarbidea demokratizatzen ari da, gurasoei, ikasleei eta irakasleak modu eroso eta eraginkor batean konektatuta eta eguneratuta egoteko aukera ematen die.

@@ -32,10 +32,6 @@ faqs:
 
 <br>
 
-<strong>Angle: beyond mass email</strong>
-
-<br>
-
 Push, segmentation and read confirmation.
 
 Email is still useful, but it is not enough for all communication with families: circulars, payment reminders, absences or urgent notices require channels that families consult daily. Digital communication in educational centers is moving towards integrated messaging, portals and notifications that reduce noise and improve response.

@@ -29,10 +29,6 @@ faqs:
 
 <br>
 
-<strong>Angle: rendiment a l'aula</strong>
-
-<br>
-
 Avaluació i seguiment docent, no tresoreria.
 
 L'analítica educativa està canviant la manera com els centres gestionen l'aprenentatge i el desenvolupament dels estudiants. Gràcies a l'anàlisi de dades, es poden identificar patrons, anticipar necessitats i personalitzar l'experiència educativa per maximitzar el potencial de cada alumne.

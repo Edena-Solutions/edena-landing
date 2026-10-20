@@ -167,6 +167,7 @@ export default {
         clearSearch: "Clear search",
         noResults: "No article matches “{query}”.",
         readingTime: "{n} min read",
+        updatedOn: "Updated {date}",
         latest: "Latest article",
         readArticle: "Read article",
         allArticles: "All articles",

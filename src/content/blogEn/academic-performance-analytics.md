@@ -28,10 +28,6 @@ faqs:
 
 <br>
 
-<strong>Angle: classroom performance</strong>
-
-<br>
-
 Teaching evaluation and monitoring, not treasury.
 
 Educational analytics is changing the way schools manage student learning and development. Thanks to data analysis, it is possible to identify patterns, anticipate needs and personalize the educational experience to maximize the potential of each student.

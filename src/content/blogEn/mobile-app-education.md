@@ -29,10 +29,6 @@ faqs:
 
 <br>
 
-<strong>Angle: mobile app</strong>
-
-<br>
-
 Notifications, payments and signatures in the family's pocket.
 
 Mobile apps are changing the way families interact with schools, providing instant access to school information and services from anywhere and at any time. This mobile technology is democratizing access to educational information, allowing parents, students, and teachers to stay connected and updated in a convenient and efficient way.

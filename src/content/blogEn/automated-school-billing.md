@@ -30,10 +30,6 @@ faqs:
 
 <br>
 
-<strong>Angle: automate emission and cycles</strong>
-
-<br>
-
 Recurring cycles, templates, rectifications and link with Verifactu. Regulations in <a href="/en/blog/electronic-billing-verifactu-education-2026">Verifactu education 2026</a>.
 
 Internal billing management is one of the most complex and error-prone processes in any educational center. From setting up rates to tracking payments, every step of the process can become a bottleneck that consumes valuable administrative staff time. The automation of these internal processes is transforming the way in which educational centers manage their billing, freeing up resources for more strategic activities.

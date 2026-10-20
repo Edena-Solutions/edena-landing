@@ -9,6 +9,8 @@ export default defineConfig({
     server: {
         open: true,
     },
+    // GitHub Pages cannot answer 301, so Astro writes these as meta-refresh pages. A Cloudflare Bulk
+    // Redirect list mirrors them with real 301s (plus /es/* → /*): add each new entry there too.
     redirects: {
         // /guardians (Portal de Familias) was merged into /families.
         // One entry per path: trailing-slash duplicates collide in the router.

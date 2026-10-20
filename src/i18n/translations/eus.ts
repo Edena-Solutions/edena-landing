@@ -179,6 +179,7 @@ export default {
         clearSearch: "Garbitu bilaketa",
         noResults: "Ez dago «{query}» bilaketarekin bat datorren artikulurik.",
         readingTime: "{n} min-ko irakurketa",
+        updatedOn: "Eguneratua: {date}",
         latest: "Azken artikulua",
         readArticle: "Irakurri artikulua",
         allArticles: "Artikulu guztiak",

@@ -29,10 +29,6 @@ faqs:
 
 <br>
 
-<strong>Angelua: gelako errendimendua</strong>
-
-<br>
-
 Irakaskuntzaren ebaluazioa eta jarraipena, ez diruzaintza.
 
 Hezkuntza-analisiak ikastetxeek ikasleen ikaskuntza eta garapena kudeatzeko modua aldatzen ari da. Datuen analisiari esker, ereduak identifikatzea, beharrak aurreikustea eta hezkuntza-esperientzia pertsonalizatzea posible da ikasle bakoitzaren potentziala maximizatzeko.

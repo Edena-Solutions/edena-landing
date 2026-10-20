@@ -24,10 +24,6 @@ faqs:
 
 <br>
 
-<strong>Angle: vista docent/tutor</strong>
-
-<br>
-
 Seguiment pedagògic unificat. Governança a <a href="/ca/blog/gestio-documental-col-legis-2026">expedient digital 2026</a>.
 
 L'expedient acadèmic digital i la gestió d'estudiants a l'escola dispersos en carpetes, fulls de càlcul i correus generen errors, retards i frustració. Centralitzar tota la informació de l'alumne en un únic sistema permet que secretaria, professors i adreça accedeixin a dades actualitzades, amb traçabilitat i compliment normatiu. Aquest article explica com implementar un expedient acadèmic digital i millorar la gestió d'estudiants a l'escola.

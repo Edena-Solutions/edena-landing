@@ -32,10 +32,6 @@ faqs:
 
 <br>
 
-<strong>Angle: processos admin que retenen</strong>
-
-<br>
-
 Cobraments transparents i comunicació predictible vs captació en CRM.
 
 La retenció escolar no depèn només del projecte educatiu: l'experiència administrativa i de comunicació amb les famílies influeix directament que renovin o busquin una altra opció. La digitalització ben orientada converteix secretaria i adreça en aliats de la retenció.

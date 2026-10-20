@@ -32,10 +32,6 @@ faqs:
 
 <br>
 
-<strong>Angle: admin processes that retain</strong>
-
-<br>
-
 Transparent collections and predictable communication vs. acquisition in CRM.
 
 School retention does not depend only on the educational project: administrative experience and communication with families directly influence whether they renew or look for another option. Well-oriented digitalization turns the secretariat and management into allies of retention.

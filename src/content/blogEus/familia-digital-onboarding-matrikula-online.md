@@ -31,10 +31,6 @@ faqs:
 
 <br>
 
-<strong>Angelua: familiaren lehen hilabetea</strong>
-
-<br>
-
 Ezarpen teknikoa <a href="/eus/blog/matrikula-online-urratsez-2026">lineako erregistroa urratsez urrats</a>n.
 
 Ikastetxean online izena emateak eta ikasleen matrikula digitalak familien esperientzia eraldatzen du eta idazkaritzaren zama murrizten du. Inprimaki digitalak, sareko dokumentazioa, sinadura elektronikoa eta berrespen automatikoa ilarak, paperak eta akatsak ezabatzen dituzte. Artikulu honek eskolan online matrikula eta ikasleen matrikula digitala duten familien onboarding digitala nola ezarri azaltzen du.

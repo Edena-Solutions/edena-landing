@@ -33,10 +33,6 @@ faqs:
 
 <br>
 
-<strong>Angelua: diseinu akademikoa eta finantzarioa</strong>
-
-<br>
-
 Zer widget sartu eta zer datu-iturri erabili.
 
 Hezkuntza dashboard-k kudeaketa-adierazleak ikuspegi bakarrean biltzen ditu: bilketa, atxikipena, asistentzia, okupazioa eta, hala badagokio, emaitza akademikoak. dashboard hezkuntza eta neurketak ondo erabiltzeak intuizioan edo sakabanatuta dauden txostenetan oinarritutako erabakiak saihesten ditu eta ekintza puntualak egiteko aukera ematen du. Gida honek zer neurtu, nola egituratu eta zein akats saihestu azaltzen du.

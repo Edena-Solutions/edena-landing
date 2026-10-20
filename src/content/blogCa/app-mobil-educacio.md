@@ -28,10 +28,6 @@ faqs:
 
 <br>
 
-<strong>Angle: app mòbil</strong>
-
-<br>
-
 Notificacions, pagaments i signatures a la butxaca de la família.
 
 Les apps mòbils estan canviant la manera com les famílies interactuen amb els centres educatius, proporcionant accés instantani a informació i serveis escolars des de qualsevol lloc i en qualsevol moment. Aquesta tecnologia mòbil està democratitzant l'accés a la informació educativa, permetent que pares, estudiants, i professors es mantinguin connectats i actualitzats de manera convenient i eficient.

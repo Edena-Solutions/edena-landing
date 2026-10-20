@@ -29,10 +29,6 @@ faqs:
 
 <br>
 
-<strong>Angle: strategic dashboard</strong>
-
-<br>
-
 Control center for direction. KPIs based on <a href="/en/blog/head-teacher-monthly-kpis-2026">Monthly KPIs</a>.
 
 In the information age, educational centers need management tools that provide full visibility over all their operations. Educational dashboards are emerging as the strategic control center that allows principals and administrators to make informed decisions based on real and up-to-date data. This technology is transforming educational management, providing the control and visibility necessary to optimize all aspects of the center.

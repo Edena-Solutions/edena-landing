@@ -26,10 +26,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: rendimiento en aula</strong>
-
-<br>
-
 Evaluación y seguimiento docente, no tesorería.
 
 La analítica educativa está cambiando la forma en que los centros gestionan el aprendizaje y el desarrollo de los estudiantes. Gracias al análisis de datos, es posible identificar patrones, anticipar necesidades y personalizar la experiencia educativa para maximizar el potencial de cada alumno.

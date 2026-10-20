@@ -27,10 +27,6 @@ Qué es un SIS (Sistema de Información Estudiantil) y por qué tu centro educat
 
 <br>
 
-<strong>Ángulo: SIS vs ERP</strong>
-
-<br>
-
 SIS para aula; ERP cuando secretaría y familias son el cuello de botella.
 
 Un SIS escolar, o sistema de información estudiantil, es la columna vertebral digital de cualquier centro educativo moderno. En 2026, los centros que aún gestionan expedientes en papel o en hojas de cálculo dispersas pierden tiempo, cometen errores y ofrecen una experiencia deficiente a familias y profesores. Este artículo explica qué es un sistema de información estudiantil, qué funciones cubre y por qué tu centro necesita uno.

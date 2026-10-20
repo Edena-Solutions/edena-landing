@@ -27,10 +27,6 @@ faqs:
 
 <br>
 
-<strong>Angle: governance and permissions</strong>
-
-<br>
-
 Roles, retention and documentary audit.
 
 Traditional document management in educational centers has been a manual, error-prone and extremely inefficient process for decades. Physical files take up valuable space, are difficult to search, and pose a significant risk of loss or deterioration. The digital transformation of document management is completely changing this landscape, providing solutions that not only improve efficiency, but also guarantee the security and accessibility of information.

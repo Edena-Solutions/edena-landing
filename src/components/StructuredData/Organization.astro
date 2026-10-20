@@ -1,4 +1,5 @@
 ---
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/constants/app-stores";
 import { CENTER_PACKS, PACKS, floorFor } from "@/constants/pricing";
 
 /** Cheapest recommended entry across both catalogues — what "from …" may honestly claim. */
@@ -92,9 +93,10 @@ const organizationSchema = {
         email: "hola@edena.es",
         availableLanguage: ["Spanish", "Catalan", "English", "French", "Basque"],
     },
-    // NOTE: add real profile URLs here (App Store, Google Play, LinkedIn) once
-    // available. Placeholder store URLs were removed: pointing sameAs at
-    // non-resolving pages hurts entity trust.
+    // Only profiles that resolve and belong to Edena: a non-resolving sameAs hurts entity trust.
+    // The store pages go without the Play link's campaign parameter. NOTE: add the LinkedIn
+    // company page (and Crunchbase/Wikidata) once they exist.
+    sameAs: [APP_STORE_URL, GOOGLE_PLAY_URL.replace(/&utm_[^&]*/g, "")],
 };
 ---
 

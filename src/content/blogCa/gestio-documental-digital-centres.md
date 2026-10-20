@@ -27,10 +27,6 @@ faqs:
 
 <br>
 
-<strong>Angle: governança i permisos</strong>
-
-<br>
-
 Rols, retenció i auditoria documental.
 
 La gestió documental tradicional a centres educatius ha estat durant dècades un procés manual, propens a errors i extremadament ineficient. Els fitxers físics ocupen espai valuós, són difícils de buscar, i representen un risc significatiu de pèrdua o deteriorament. La transformació digital de la gestió documental està canviant completament aquest panorama, proporcionant solucions que no només milloren l'eficiència, sinó que també garanteixen la seguretat i l'accessibilitat de la informació.

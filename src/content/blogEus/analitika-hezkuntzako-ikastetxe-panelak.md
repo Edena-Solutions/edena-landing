@@ -31,10 +31,6 @@ faqs:
 
 <br>
 
-<strong>Angelua: analitika operatiboa</strong>
-
-<br>
-
 Asteroko idazkaritza- eta zuzendaritza-erabakiak.
 
 Hezkuntza analitikak eta eskola dashboard intuizioan baino datuetan oinarritutako erabakiak hartzeko aukera ematen du. Bilketa tasak, asistentzia, atxikipena eta familiaren gogobetetasuna zuzendaritzak eta idazkaritzak ekintzak lehenesteko kontsultatzen duten ikastetxe batean dashboard bistaratu daitezke. Artikulu honek hezkuntza-analisiak nola ezarri ikastetxeko aginte-panelekin eta zein adierazle lehenetsi azaltzen du.

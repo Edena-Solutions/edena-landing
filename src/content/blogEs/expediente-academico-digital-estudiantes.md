@@ -27,10 +27,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: vista docente/tutor</strong>
-
-<br>
-
 Seguimiento pedagógico unificado. Gobernanza en <a href="/es/blog/gestion-documental-colegios-expediente-digital-2026">expediente digital 2026</a>.
 
 El expediente académico digital y la gestión de estudiantes en colegio dispersos en carpetas, hojas de cálculo y correos generan errores, retrasos y frustración. Centralizar toda la información del alumno en un único sistema permite que secretaría, profesores y dirección accedan a datos actualizados, con trazabilidad y cumplimiento normativo. Este artículo explica cómo implementar un expediente académico digital y mejorar la gestión de estudiantes en colegio.

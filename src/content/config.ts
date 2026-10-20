@@ -44,6 +44,11 @@ const blogPostSchema = z.object({
     // cut it). The full `title` stays the H1. Only set when `title` is longer.
     seoTitle: z.string().optional(),
     date: z.string(),
+    // Date of the last substantial revision (new facts, figures, sources or sections; not a typo
+    // fix), set by hand on each language version that got it. Shown as "Updated on …" under the
+    // byline and used as the article's dateModified and its sitemap <lastmod>. Ignored unless it
+    // is later than `date`.
+    updated: z.string().optional(),
     // Shared across the five language versions of the same article so the
     // build can emit cross-language hreflang. Value is the Spanish slug.
     translationKey: z.string().optional(),

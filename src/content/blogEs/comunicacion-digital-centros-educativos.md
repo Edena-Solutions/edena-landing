@@ -29,10 +29,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: más allá del email masivo</strong>
-
-<br>
-
 Push, segmentación y confirmación de lectura.
 
 El email sigue siendo útil, pero no basta para toda la comunicación con familias: circulares, recordatorios de pago, ausencias o avisos urgentes requieren canales que las familias consulten a diario. La comunicación digital en centros educativos avanza hacia mensajería integrada, portales y notificaciones que reducen ruido y mejoran la respuesta.

@@ -28,10 +28,6 @@ faqs:
 
 <br>
 
-<strong>Angle: famílies com a guardians digitals</strong>
-
-<br>
-
 Consentiments, temps de pantalla i acords d'ús.
 
 A l'era digital, el paper dels pares com a guardians de l'educació dels seus fills ha evolucionat significativament. Ja no es tracta només de supervisar tasques escolars i assistir a reunions de pares, sinó convertir-se en guies actius en un món on la tecnologia està omnipresent. Els pares moderns han d'equilibrar l'aprofitament de les oportunitats digitals amb la protecció dels seus fills davant dels riscos del món en línia, creant un entorn on la tecnologia sigui una eina de creixement i no una distracció.

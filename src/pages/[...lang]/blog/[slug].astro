@@ -22,6 +22,7 @@ import {
     coverSrcset,
     readingMinutes,
     renderArticlePart,
+    revisedOn,
     type ArticleHeading,
 } from "@/lib/blog-article";
 import { relatedSlugsForPost, splitBeforeConclusion } from "@/lib/blog-related-posts";
@@ -121,6 +122,8 @@ const coverIsUnsplash = Boolean(post.data.cover?.includes("unsplash.com"));
 const [unsplashCreditBefore, unsplashCreditAfter] = t.blog.unsplashCredit.split("{source}");
 
 const publishedDate = new Date(post.data.date).toISOString();
+const updated = revisedOn(post.data);
+const updatedOn = updated && t.blogPage.updatedOn.replace("{date}", formatLongDate(lang, updated));
 const author = post.data.author || "Edena";
 const byEna = /^ena\b/i.test(author);
 ---
@@ -131,6 +134,7 @@ const byEna = /^ena\b/i.test(author);
         description: post.data.description,
         articleAuthor: post.data.author || "Edena Team",
         articlePublishedTime: publishedDate,
+        articleModifiedTime: updated && new Date(updated).toISOString(),
     }}
     lang={lang}
     alternates={alternates}
@@ -182,6 +186,13 @@ const byEna = /^ena\b/i.test(author);
                         <span class="type-footnote text-ink-3">
                             <time datetime={post.data.date}>{published}</time> | {minutes}
                         </span>
+                        {
+                            updated && (
+                                <span class="type-footnote text-ink-3">
+                                    <time datetime={updated}>{updatedOn}</time>
+                                </span>
+                            )
+                        }
                     </span>
                 </div>
                 {
@@ -245,21 +256,28 @@ const byEna = /^ena\b/i.test(author);
                 <div class="post-main min-w-0">
                     {
                         toc.length > 1 && (
-                            <details class="post-details mb-12 rounded-[1.25rem] bg-canvas-2 lg:hidden">
-                                <summary class="flex cursor-pointer list-none items-center justify-between px-5 py-4 type-callout font-semibold text-ink">
-                                    {t.blogPage.onThisArticle}
-                                    <ChevronLeft className="post-details-chevron size-4 text-ink-3" />
-                                </summary>
-                                <ol class="m-0 flex list-none flex-col gap-0.5 px-3 pb-4 pt-0">
-                                    {toc.map((item) => (
-                                        <li>
-                                            <a href={`#${item.id}`} class="post-toc-link">
-                                                {item.text}
-                                            </a>
-                                        </li>
-                                    ))}
-                                </ol>
-                            </details>
+                            <nav class="post-toc-mobile lg:hidden" aria-label={t.blogPage.onThisArticle}>
+                                <details class="post-toc-details" data-post-toc-details>
+                                    <summary>
+                                        <span>{t.blogPage.onThisArticle}</span>
+                                        <span class="post-toc-icon" aria-hidden="true">
+                                            <span class="post-toc-icon-bar" />
+                                            <span class="post-toc-icon-bar post-toc-icon-bar--v" />
+                                        </span>
+                                    </summary>
+                                    <div class="post-toc-body">
+                                        <ol class="post-toc-list" data-post-toc>
+                                            {toc.map((item) => (
+                                                <li>
+                                                    <a href={`#${item.id}`} class="post-toc-link">
+                                                        {item.text}
+                                                    </a>
+                                                </li>
+                                            ))}
+                                        </ol>
+                                    </div>
+                                </details>
+                            </nav>
                         )
                     }
 
@@ -309,6 +327,7 @@ const byEna = /^ena\b/i.test(author);
         title={post.data.title}
         description={post.data.description}
         date={post.data.date}
+        updated={updated}
         author={post.data.author}
         cover={post.data.cover}
         url={postUrl}
@@ -330,6 +349,32 @@ const byEna = /^ena\b/i.test(author);
 </Layout>
 
 <script>
+    import { closeDisclosure, isAnimating, openDisclosure } from "@/scripts/disclosure";
+
+    // The phone index is one disclosure, the FAQ panel's trigger and motion: "+" opens the
+    // sections, and a second tap folds them away.
+    function setupPostToc() {
+        document
+            .querySelectorAll<HTMLDetailsElement>("[data-post-toc-details]:not([data-ready])")
+            .forEach((details) => {
+                details.dataset.ready = "";
+                details.dataset.state = details.open ? "open" : "closed";
+                const parts = {
+                    body: details.querySelector<HTMLElement>(".post-toc-body")!,
+                    content: details.querySelector<HTMLElement>(".post-toc-list")!,
+                };
+                details.addEventListener("toggle", () => {
+                    if (!isAnimating(details))
+                        details.dataset.state = details.open ? "open" : "closed";
+                });
+                details.querySelector("summary")?.addEventListener("click", (event) => {
+                    event.preventDefault();
+                    if (details.dataset.state === "open") closeDisclosure(details, parts);
+                    else openDisclosure(details, parts);
+                });
+            });
+    }
+
     // The index lights the section being read: the last one whose top has passed a line a quarter
     // of the way down the screen.
     function watchPostToc() {
@@ -360,7 +405,10 @@ const byEna = /^ena\b/i.test(author);
             { once: true },
         );
     }
-    document.addEventListener("astro:page-load", watchPostToc);
+    document.addEventListener("astro:page-load", () => {
+        setupPostToc();
+        watchPostToc();
+    });
 </script>
 
 <style>
@@ -432,17 +480,111 @@ const byEna = /^ena\b/i.test(author);
         font-weight: 600;
     }
 
-    .post-details summary::-webkit-details-marker {
+    /* Phone and tablet: the same raised row as a FAQ, with the sections inside. */
+    .post-toc-mobile {
+        margin-bottom: 3rem;
+        overflow: hidden;
+        border-radius: var(--radius-card);
+        background-color: var(--ds-canvas-2);
+        box-shadow: inset 0 0 0 1px var(--ds-hairline);
+    }
+
+    .post-toc-mobile summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.25rem;
+        padding: 1.15rem 1.25rem 1.15rem 1.5rem;
+        cursor: pointer;
+        list-style: none;
+        font-size: 1.0625rem;
+        line-height: 1.4;
+        letter-spacing: -0.018em;
+        font-weight: 500;
+        color: var(--ds-ink);
+        -webkit-tap-highlight-color: transparent;
+        transition: background-color 300ms var(--ease-fluid);
+    }
+
+    .post-toc-mobile summary::-webkit-details-marker {
         display: none;
     }
 
-    .post-grid :global(.post-details-chevron) {
-        rotate: 180deg;
-        transition: rotate 300ms var(--ease-spring);
+    @media (hover: hover) {
+        .post-toc-mobile summary:hover {
+            background-color: var(--ds-fill-2);
+        }
     }
 
-    .post-details[open] :global(.post-details-chevron) {
-        rotate: 270deg;
+    .post-toc-mobile summary:active {
+        background-color: color-mix(in srgb, var(--ds-fill) 82%, var(--ds-ink-3));
+        transition-duration: 80ms;
+    }
+
+    .post-toc-mobile summary:focus-visible {
+        outline: none;
+        box-shadow: inset 0 0 0 3px color-mix(in srgb, var(--ds-focus) 45%, transparent);
+    }
+
+    .post-toc-icon {
+        position: relative;
+        display: inline-grid;
+        width: 1.75rem;
+        height: 1.75rem;
+        flex-shrink: 0;
+        place-items: center;
+        border-radius: 999px;
+        background-color: var(--ds-fill-2);
+        color: var(--ds-ink-2);
+        transition:
+            background-color 420ms var(--ease-fluid),
+            color 420ms var(--ease-fluid),
+            rotate 520ms var(--ease-fluid);
+    }
+
+    .post-toc-icon-bar {
+        grid-area: 1 / 1;
+        width: 0.7rem;
+        height: 1.5px;
+        border-radius: 999px;
+        background-color: currentColor;
+        transition: rotate 520ms var(--ease-fluid);
+    }
+
+    .post-toc-icon-bar--v {
+        rotate: 90deg;
+    }
+
+    .post-toc-details:is([open]:not([data-state]), [data-state="open"]) .post-toc-icon {
+        rotate: 180deg;
+        background-color: var(--ds-ink);
+        color: var(--ds-canvas);
+    }
+
+    .post-toc-details:is([open]:not([data-state]), [data-state="open"]) .post-toc-icon-bar--v {
+        rotate: 0deg;
+    }
+
+    .post-toc-body {
+        overflow: hidden;
+    }
+
+    .post-toc-list {
+        margin: 0;
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        gap: 0.125rem;
+        padding: 0 0.75rem 0.85rem;
+        will-change: transform, opacity;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .post-toc-mobile summary,
+        .post-toc-icon,
+        .post-toc-icon-bar {
+            transition: none;
+        }
     }
 
     .post-faqs {

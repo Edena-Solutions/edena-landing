@@ -26,10 +26,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: dashboard estratégico</strong>
-
-<br>
-
 Centro de control para dirección. KPIs base en <a href="/es/blog/kpis-director-colegio-mensual-2026">KPIs mensuales</a>.
 
 En la era de la información, los centros educativos necesitan herramientas de gestión que proporcionen visibilidad total sobre todas sus operaciones. Los dashboards educativos están emergiendo como el centro de control estratégico que permite a directores y administradores tomar decisiones informadas basándose en datos reales y actualizados. Esta tecnología está transformando la gestión educativa, proporcionando el control y la visibilidad necesarios para optimizar todos los aspectos del centro.

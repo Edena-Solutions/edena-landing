@@ -26,10 +26,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: app móvil</strong>
-
-<br>
-
 Notificaciones, pagos y firmas en el bolsillo de la familia.
 
 Las apps móviles están cambiando la forma en que las familias interactúan con los centros educativos, proporcionando acceso instantáneo a información y servicios escolares desde cualquier lugar y en cualquier momento. Esta tecnología móvil está democratizando el acceso a la información educativa, permitiendo que padres, estudiantes, y profesores se mantengan conectados y actualizados de manera conveniente y eficiente.

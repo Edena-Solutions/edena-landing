@@ -3,6 +3,8 @@ interface Props {
     title: string;
     description: string;
     date: string;
+    /** Last substantial revision, when later than `date` (see `updated` in the blog schema). */
+    updated?: string;
     author?: string;
     cover?: string;
     url: string;
@@ -11,7 +13,7 @@ interface Props {
     sections?: string[];
 }
 
-const { title, description, date, author = "Edena Team", cover, url, lang = "es", sections = [] } = Astro.props;
+const { title, description, date, updated, author = "Edena Team", cover, url, lang = "es", sections = [] } = Astro.props;
 
 interface ArticleSchema {
     "@context": string;
@@ -50,7 +52,7 @@ const articleSchema: ArticleSchema = {
     headline: title,
     description: description,
     datePublished: date,
-    dateModified: date,
+    dateModified: updated ?? date,
     inLanguage:
         lang === "es"
             ? "es-ES"

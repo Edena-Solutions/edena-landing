@@ -30,10 +30,6 @@ Zer da SIS (Ikasleentzako Informazio Sistema) eta zergatik behar du zure hezkunt
 
 <br>
 
-<strong>Angelua: SIS vs ERP</strong>
-
-<br>
-
 SIS ikasgelarako; ERP idazkaritza eta familiak lepoa direnean.
 
 Eskola SIS, edo ikasleen informazio sistema, edozein hezkuntza zentro modernoren ardatz digitala da. 2026an, oraindik ere erregistroak paperean edo sakabanatuta dauden kalkulu-orrietan kudeatzen dituzten ikastetxeek denbora galtzen dute, akatsak egiten dituzte eta esperientzia eskasa eskaintzen diete familiei eta irakasleei. Artikulu honek ikasleen informazio sistema zer den, zer funtzio betetzen dituen eta zure eskolak zergatik behar duen azaltzen du.

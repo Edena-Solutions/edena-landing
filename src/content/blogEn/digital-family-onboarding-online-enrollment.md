@@ -31,10 +31,6 @@ faqs:
 
 <br>
 
-<strong>Angle: first month of the family</strong>
-
-<br>
-
 Technical implementation in <a href="/en/blog/online-enrolment-digitalize-school-step-by-step-2026">online registration step by step</a>.
 
 Online registration at school and digital registration of students transform the experience of families and reduce the burden on the secretariat. Digital forms, online documentation, electronic signature and automatic confirmation eliminate queues, papers and errors. This article explains how to implement digital onboarding for families with online school registration and digital student registration.

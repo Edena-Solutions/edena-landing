@@ -175,6 +175,7 @@ export default {
         clearSearch: "Esborra la cerca",
         noResults: "Cap article coincideix amb «{query}».",
         readingTime: "{n} min de lectura",
+        updatedOn: "Actualitzat el {date}",
         latest: "Darrer article",
         readArticle: "Llegeix l’article",
         allArticles: "Tots els articles",

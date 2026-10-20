@@ -25,10 +25,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: familias como guardianes digitales</strong>
-
-<br>
-
 Consentimientos, tiempo de pantalla y acuerdos de uso.
 
 En la era digital, el papel de los padres como guardianes de la educación de sus hijos ha evolucionado significativamente. Ya no se trata solo de supervisar tareas escolares y asistir a reuniones de padres, sino de convertirse en guías activos en un mundo donde la tecnología está omnipresente. Los padres modernos deben equilibrar el aprovechamiento de las oportunidades digitales con la protección de sus hijos frente a los riesgos del mundo online, creando un entorno donde la tecnología sea una herramienta de crecimiento y no una distracción.

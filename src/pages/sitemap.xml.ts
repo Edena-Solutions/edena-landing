@@ -1,6 +1,7 @@
 import { getCollection } from "astro:content";
 import { alternatesForKey, buildBlogTranslationIndex } from "@/lib/blog-translations";
 import { COMPETITORS } from "@/data/competitors";
+import { revisedOn } from "@/lib/blog-article";
 
 export async function GET() {
     const base = "https://edena.es";
@@ -197,7 +198,13 @@ export async function GET() {
     const blogUrlsFor = (
         posts: Array<{
             slug: string;
-            data: { date: string; title: string; cover?: string; translationKey?: string };
+            data: {
+                date: string;
+                updated?: string;
+                title: string;
+                cover?: string;
+                translationKey?: string;
+            };
         }>,
         prefix: string,
         ownHreflang: string,
@@ -220,7 +227,7 @@ export async function GET() {
                 path: `${prefix}blog/${post.slug}/`,
                 priority: "0.7",
                 changefreq: "monthly",
-                lastmod: post.data.date.split("T")[0],
+                lastmod: (revisedOn(post.data) ?? post.data.date).split("T")[0],
                 hreflangLinks:
                     groupAlternates.length > 0
                         ? groupAlternates

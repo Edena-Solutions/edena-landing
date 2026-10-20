@@ -30,10 +30,6 @@ Què és un SIS (Sistema d'Informació Estudiantil) i per què el teu centre edu
 
 <br>
 
-<strong>Angle: SIS vs ERP</strong>
-
-<br>
-
 SIS per a aula; ERP quan la secretaria i les famílies són el coll d'ampolla.
 
 Un SIS escolar o sistema d'informació estudiantil és la columna vertebral digital de qualsevol centre educatiu modern. El 2026, els centres que encara gestionen expedients en paper o en fulls de càlcul dispersos perden temps, cometen errors i ofereixen una experiència deficient a famílies i professors. Aquest article explica què és un sistema d'informació estudiantil, quines funcions cobreix i per què el teu centre en necessita un.

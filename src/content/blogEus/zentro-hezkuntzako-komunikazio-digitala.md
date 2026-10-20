@@ -33,10 +33,6 @@ faqs:
 
 <br>
 
-<strong>Angelua: posta elektroniko masibotik harago</strong>
-
-<br>
-
 Push, segmentatu eta irakurri berrespena.
 
 Posta elektronikoa erabilgarria da oraindik, baina ez da nahikoa familiekin komunikazio guztietarako: zirkularrek, ordainketa-abisuak, absentziak edo premiazko oharrak familiek egunero kontsultatzen dituzten bideak behar dituzte. Hezkuntza-zentroetako komunikazio digitala zarata murrizten eta erantzuna hobetzen duten mezularitza, atari eta jakinarazpen integraturantz doa.

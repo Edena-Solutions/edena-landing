@@ -28,10 +28,6 @@ faqs:
 
 <br>
 
-<strong>Angle: families as digital guardians</strong>
-
-<br>
-
 Consents, screen time and usage agreements.
 
 In the digital age, the role of parents as guardians of their children's education has evolved significantly. It is no longer just about supervising homework and attending parent meetings, but about becoming active guides in a world where technology is omnipresent. Modern parents must balance taking advantage of digital opportunities with protecting their children from the risks of the online world, creating an environment where technology is a tool for growth and not a distraction.

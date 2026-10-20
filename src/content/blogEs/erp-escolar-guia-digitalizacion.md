@@ -25,10 +25,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: qué es un ERP y sus módulos</strong>
-
-<br>
-
 Expediente, cobros, comunicación, admisión. Diferencia con SIS en <a href="/es/blog/sis-sistema-informacion-estudiantil-2026">SIS vs ERP</a>.
 
 Un ERP escolar integra en una sola plataforma la gestión administrativa, financiera y académica de un centro educativo. Facturación, cobros, expedientes, asistencia, comunicación con familias y recursos humanos pueden convivir en el mismo software de gestión para colegios, eliminando duplicados y automatizando procesos. Esta guía explica qué es un ERP escolar, qué módulos incluir y cómo elegir la solución adecuada.

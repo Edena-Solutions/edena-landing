@@ -63,3 +63,5 @@ Sitemap: https://edena.es/sitemap.xml
 
 # LLM-friendly summary of this site
 # See: https://edena.es/llms.txt
+# Full version (prices, FAQs and the blog index): https://edena.es/llms-full.txt
+# Prices in Markdown: https://edena.es/pricing.md

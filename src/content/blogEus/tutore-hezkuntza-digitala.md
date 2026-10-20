@@ -28,10 +28,6 @@ faqs:
 
 <br>
 
-<strong>Angelua: familiak tutore digital gisa</strong>
-
-<br>
-
 Baimenak, pantaila-denbora eta erabilera-akordioak.
 
 Aro digitalean, gurasoek beren seme-alaben hezkuntzaren zaindari gisa duten rola nabarmen eboluzionatu da. Jada ez da soilik etxeko lanak gainbegiratzea eta gurasoen bileretara joatea, teknologia noranahikoa den mundu batean gida aktibo bihurtzea baizik. Guraso modernoek aukera digitalak aprobetxatzea eta seme-alabak sareko munduaren arriskuetatik babestearekin orekatu behar dituzte, teknologia hazteko tresna eta ez distrakzio bat den ingurune bat sortuz.

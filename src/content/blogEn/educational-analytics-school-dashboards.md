@@ -31,10 +31,6 @@ faqs:
 
 <br>
 
-<strong>Angle: operational analytics</strong>
-
-<br>
-
 Weekly secretarial and management decisions.
 
 Educational analytics and the school dashboard allow you to make decisions based on data instead of intuition. Collection rates, attendance, retention and family satisfaction can be displayed on a school dashboard that the management and secretariat consult to prioritize actions. This article explains how to implement educational analytics with school dashboards and what indicators to prioritize.

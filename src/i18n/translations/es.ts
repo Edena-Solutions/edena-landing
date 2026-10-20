@@ -175,6 +175,7 @@ export default {
         clearSearch: "Borrar búsqueda",
         noResults: "Ningún artículo coincide con «{query}».",
         readingTime: "{n} min de lectura",
+        updatedOn: "Actualizado el {date}",
         latest: "Último artículo",
         readArticle: "Leer artículo",
         allArticles: "Todos los artículos",

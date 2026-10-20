@@ -32,10 +32,6 @@ faqs:
 
 <br>
 
-<strong>Angle: més enllà de l'email massiu</strong>
-
-<br>
-
 Push, segmentació i confirmació de lectura.
 
 El correu electrònic continua sent útil, però no n'hi ha prou per a tota la comunicació amb famílies: circulars, recordatoris de pagament, absències o avisos urgents requereixen canals que les famílies consultin diàriament. La comunicació digital a centres educatius avança cap a missatgeria integrada, portals i notificacions que redueixen soroll i milloren la resposta.

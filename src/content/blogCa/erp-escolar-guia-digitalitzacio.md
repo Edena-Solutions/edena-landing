@@ -28,10 +28,6 @@ faqs:
 
 <br>
 
-<strong>Angle: què és un ERP i els seus mòduls</strong>
-
-<br>
-
 Expedient, cobraments, comunicació, admissió. Diferència amb SIS a <a href="/ca/blog/sie-sistema-informacio-estudiantil-2026">SIS vs ERP</a>.
 
 Un ERP escolar integra a una sola plataforma la gestió administrativa, financera i acadèmica d'un centre educatiu. Facturació, cobraments, expedients, assistència, comunicació amb famílies i recursos humans poden conviure en el mateix programari de gestió per a escoles, eliminant duplicats i automatitzant processos. Aquesta guia explica què és un ERP escolar, quins mòduls incloure i com triar la solució adequada.

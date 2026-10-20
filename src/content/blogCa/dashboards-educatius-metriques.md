@@ -33,10 +33,6 @@ faqs:
 
 <br>
 
-<strong>Angle: disseny acadèmic i financer</strong>
-
-<br>
-
 Quins ginys incloure i quina font de dades utilitzar.
 
 Un dashboard educatiu concentra en una sola vista indicadors clau de gestió: cobrament, retenció, assistència, ocupació i, si escau, resultats acadèmics. Usar bé un dashboard educatiu i mètriques evita decisions basades en intuïció o en informes dispersos i permet actuar a temps. Aquesta guia explica què mesurar, com estructurar-ho i quins errors evitar.

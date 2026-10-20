@@ -31,10 +31,6 @@ faqs:
 
 <br>
 
-<strong>Angle: analítica operativa</strong>
-
-<br>
-
 Decisions setmanals de secretaria i adreça.
 
 L'analítica educativa i el dashboard escolar permeten prendre decisions basades en dades en comptes d'intuïció. Taxes de cobrament, assistència, retenció i satisfacció de famílies es poden visualitzar en un dashboard escolar que direcció i secretaria consulten per prioritzar accions. Aquest article explica com implementar analítica educativa amb dashboards escolars i quins indicadors prioritzar.

@@ -28,10 +28,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: analítica operativa</strong>
-
-<br>
-
 Decisiones semanales de secretaría y dirección.
 
 La analítica educativa y el dashboard escolar permiten tomar decisiones basadas en datos en lugar de intuición. Tasas de cobro, asistencia, retención y satisfacción de familias pueden visualizarse en un dashboard escolar que dirección y secretaría consultan para priorizar acciones. Este artículo explica cómo implementar analítica educativa con dashboards escolares y qué indicadores priorizar.

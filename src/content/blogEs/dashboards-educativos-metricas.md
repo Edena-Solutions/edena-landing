@@ -30,10 +30,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: diseño académico y financiero</strong>
-
-<br>
-
 Qué widgets incluir y qué fuente de datos usar.
 
 Un dashboard educativo concentra en una sola vista indicadores clave de gestión: cobro, retención, asistencia, ocupación y, si aplica, resultados académicos. Usar bien un dashboard educativo y métricas evita decisiones basadas en intuición o en informes dispersos y permite actuar a tiempo. Esta guía explica qué medir, cómo estructurarlo y qué errores evitar.

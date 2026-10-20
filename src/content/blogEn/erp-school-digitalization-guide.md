@@ -28,10 +28,6 @@ faqs:
 
 <br>
 
-<strong>Angle: what is an ERP and its modules</strong>
-
-<br>
-
 File, collections, communication, admission. Difference with SIS in <a href="/en/blog/student-information-system-2026">SIS vs ERP</a>.
 
 A school ERP integrates the administrative, financial and academic management of an educational center into a single platform. Billing, collections, records, attendance, communication with families and human resources can coexist in the same management software for schools, eliminating duplicates and automating processes. This guide explains what a school ERP is, what modules to include, and how to choose the right solution.

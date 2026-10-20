@@ -31,10 +31,6 @@ faqs:
 
 <br>
 
-<strong>Angle: single platform</strong>
-
-<br>
-
 Centralize circulars, incidents and authorizations. Pilar: <a href="/en/blog/school-family-app-benefits-heads-parents-2026">appfamilias 2026</a>.
 
 School-family communication dispersed in emails, WhatsApp groups and papers generates chaos, misunderstandings and a bad experience. A parent app or digital portal unifies channels: attendance notifications, circulars, payment reminders and personalized messages from one place. This article explains how to improve communication with families using a digital platform and what an app for school parents should include.

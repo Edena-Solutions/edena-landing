@@ -24,10 +24,6 @@ faqs:
 
 <br>
 
-<strong>Angelua: irakasle/tutorearen ikuspegia</strong>
-
-<br>
-
 Jarraipen pedagogiko bateratua. Gobernantza <a href="/eus/blog/dokumentu-kudeaketa-eskola-2026">fitxategi digitala 2026</a>n.
 
 Espediente akademiko digitalak eta ikastetxeko ikasleen kudeaketa karpetetan, kalkulu-orrietan eta mezu elektronikoetan sakabanatuta dauden akatsak, atzerapenak eta frustrazioa sortzen dute. Ikasleen informazio guztia sistema bakar batean zentralizatzeak aukera ematen die idazkariari, irakasleei eta zuzendaritzari datu eguneratuak atzitzeko, trazabilitatea eta araudia betez. Artikulu honek espediente akademiko digitala nola ezarri eta ikasleen kudeaketa eskolan nola hobetu azaltzen du.

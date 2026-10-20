@@ -29,10 +29,6 @@ faqs:
 
 <br>
 
-<strong>Angle : tableau de bord stratégique</strong>
-
-<br>
-
 Centre de contrôle pour la direction. KPI basés sur <a href="/fr/blog/kpi-mensuels-direction-ecole-2026">KPIs mensuales</a>.
 
 À l’ère de l’information, les établissements scolaires ont besoin d’outils de gestion offrant une visibilité complète sur toutes leurs opérations. Les tableaux de bord pédagogiques apparaissent comme le centre de contrôle stratégique qui permet aux directeurs et aux administrateurs de prendre des décisions éclairées basées sur des données réelles et à jour. Cette technologie transforme la gestion éducative, offrant le contrôle et la visibilité nécessaires pour optimiser tous les aspects du centre.

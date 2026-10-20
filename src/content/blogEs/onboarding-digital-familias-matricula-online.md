@@ -34,10 +34,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: primer mes de la familia</strong>
-
-<br>
-
 Implementación técnica en <a href="/es/blog/matricula-online-centro-educativo-pasos-2026">matrícula online paso a paso</a>.
 
 La matrícula online en colegio y la inscripción digital de alumnos transforman la experiencia de las familias y reducen carga en secretaría. Formularios digitales, documentación online, firma electrónica y confirmación automática eliminan colas, papeles y errores. Este artículo explica cómo implementar el onboarding digital de familias con matrícula online en colegio e inscripción digital de alumnos.

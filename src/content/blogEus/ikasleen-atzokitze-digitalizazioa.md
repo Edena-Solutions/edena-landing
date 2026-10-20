@@ -32,10 +32,6 @@ faqs:
 
 <br>
 
-<strong>Angelua: mantentzen diren administrazio-prozesuak</strong>
-
-<br>
-
 Bilduma gardenak eta aurreikusteko komunikazioa vs eskuratzea CRM-n.
 
 Eskola atxikipena ez da hezkuntza-proiektuaren araberakoa bakarrik: administrazio-esperientzia eta familiekin komunikazioak zuzenean eragiten du berritu edo beste aukeraren bat bilatzen. Ondo zuzendutako digitalizazioak idazkaritza eta zuzendaritza atxikipenaren aliatu bihurtzen ditu.

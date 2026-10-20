@@ -33,10 +33,6 @@ faqs:
 
 <br>
 
-<strong>Angle: academic and financial design</strong>
-
-<br>
-
 What widgets to include and what data source to use.
 
 An educational dashboard concentrates key management indicators in a single view: collection, retention, attendance, occupation and, if applicable, academic results. Using an educational dashboard and metrics well avoids decisions based on intuition or scattered reports and allows you to act in time. This guide explains what to measure, how to structure it, and what mistakes to avoid.

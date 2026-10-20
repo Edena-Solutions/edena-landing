@@ -5,6 +5,11 @@ import { renderBlogBodyHtml } from "@/lib/render-blog-markdown";
  * at the size a card shows it, and its body as HTML whose section headings carry ids for the index.
  */
 
+/** The post's last substantial revision: its `updated` date, when later than the publication. */
+export function revisedOn(data: { date: string; updated?: string }): string | undefined {
+    return data.updated && data.updated > data.date ? data.updated : undefined;
+}
+
 /** Minutes to read the body, at an unhurried 220 words a minute. */
 export function readingMinutes(body: string): number {
     const words = body

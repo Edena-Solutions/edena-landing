@@ -27,10 +27,6 @@ faqs:
 
 <br>
 
-<strong>Ángulo: visión CFO y tesorería</strong>
-
-<br>
-
 Flujo de caja, previsión por curso, reporting para propietario. KPIs en <a href="/es/blog/kpis-director-colegio-mensual-2026">KPIs director mensual</a>.
 
 La gestión financiera en centros educativos ha evolucionado significativamente en los últimos años. De los tradicionales libros de contabilidad en papel y hojas de cálculo básicas, hemos pasado a sistemas integrados que no solo automatizan procesos, sino que también proporcionan insights valiosos para la toma de decisiones estratégicas. Esta transformación digital está permitiendo a los centros educativos optimizar sus recursos, mejorar la transparencia y garantizar su sostenibilidad financiera.
