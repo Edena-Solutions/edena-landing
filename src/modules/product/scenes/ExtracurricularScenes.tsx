@@ -417,7 +417,7 @@ function BrowseScene({ t, labels, locale }: Props) {
                                             <span className="text-[0.44em] font-medium tabular-nums">{money(locale, activity.price, 0)}</span>
                                         </span>
                                         <span key={left} className="animate-[ds-pop_350ms_var(--ease-spring-bounce)]">
-                                            <Pill tone={full ? "red" : left <= 2 ? "yellow" : "gray"}>{full ? x.full : fill(x.placesLeft, { n: String(left) })}</Pill>
+                                            <Pill tone={full ? "red" : left <= 2 ? "yellow" : "gray"}>{full ? x.full : fill(left === 1 ? x.placesLeftOne : x.placesLeft, { n: String(left) })}</Pill>
                                         </span>
                                     </span>
                                     {index === 0 && (

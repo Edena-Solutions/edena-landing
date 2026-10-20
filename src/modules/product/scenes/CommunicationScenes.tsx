@@ -21,6 +21,7 @@ import {
     Avatar,
     Line,
     Pop,
+    course,
     easeOut,
     number,
     on,
@@ -31,6 +32,7 @@ import {
 } from "@/components/wizard/scene-kit";
 import { Title } from "@/modules/home/KeyFeaturesScenes";
 import type { Translation } from "@/i18n";
+import { formatDate } from "@/lib/intl-locale";
 import { cn } from "@/lib/utils";
 import {
     ActionButton,
@@ -297,11 +299,11 @@ function DeliveredScene({ t, labels, locale }: Props) {
     const { c, p } = labels;
     const notes = [c.circularTitle, p.notifMessage, p.notifPhotos];
     const arrived = LOCK.notes.filter((at) => on(t, at)).length;
-    const date = new Intl.DateTimeFormat(locale, {
+    const date = formatDate(locale, new Date(2026, 5, 10), {
         weekday: "long",
         day: "numeric",
         month: "long",
-    }).format(new Date(2026, 5, 10));
+    });
     const sheet = on(t, LOCK.sheet);
 
     return (
@@ -517,13 +519,13 @@ function SecureScene({ t, labels }: Props) {
 const ROW_H = 1.55;
 const INBOX = { message: 1100, channel: 2000, open: 3000 };
 const DIRECT = [
-    { id: "javier", name: "Javier Rodríguez", initials: "JR", hue: 210, child: "Leo | 1.º ESO" },
-    { id: "pablo", name: "Pablo Hernández", initials: "PH", hue: 30, child: "Marc | 2.º ESO" },
-    { id: "sofia", name: "Sofía Gómez", initials: "SG", hue: 300, child: "Emma | 1.º ESO" },
-];
+    { id: "javier", name: "Javier Rodríguez", initials: "JR", hue: 210, child: "Leo", year: "eso1" },
+    { id: "pablo", name: "Pablo Hernández", initials: "PH", hue: 30, child: "Marc", year: "eso2" },
+    { id: "sofia", name: "Sofía Gómez", initials: "SG", hue: 300, child: "Emma", year: "eso1" },
+] as const;
 
 function InboxScene({ t, labels }: Props) {
-    const { c } = labels;
+    const { c, ui } = labels;
     const risen = on(t, INBOX.message);
     const order = risen ? ["sofia", "javier", "pablo"] : ["javier", "pablo", "sofia"];
     const read = on(t, INBOX.open + 300);
@@ -614,7 +616,7 @@ function InboxScene({ t, labels }: Props) {
                                                 {person.name}
                                             </span>
                                             <span className="truncate text-[0.36em] text-ink-3">
-                                                {person.child}
+                                                {person.child} | {course(ui.courses, person.year)}
                                             </span>
                                         </span>
                                         {isNew && !read && (
@@ -648,14 +650,14 @@ function InboxScene({ t, labels }: Props) {
 
 const READS = { from: 700, to: 2900, total: 24, read: 22, remind: 3500, reminded: 3750 };
 const CLASSES = [
-    { name: "P-1 A", share: 100 },
-    { name: "I-3 A", share: 92 },
-    { name: "2.º A", share: 88 },
-    { name: "6.º B", share: 83 },
-];
+    { year: "p1", group: "A", share: 100 },
+    { year: "i3", group: "A", share: 92 },
+    { year: "y2", group: "A", share: 88 },
+    { year: "y6", group: "B", share: 83 },
+] as const;
 
 function CircularsScene({ t, labels, locale }: Props) {
-    const { c } = labels;
+    const { c, ui } = labels;
     const reading = easeOut(span(t, READS.from, READS.to - READS.from));
     const read = Math.round(READS.read * reading);
 
@@ -751,9 +753,9 @@ function CircularsScene({ t, labels, locale }: Props) {
                     {CLASSES.map((row, index) => {
                         const grow = easeOut(span(t, 900 + index * 150, 1200));
                         return (
-                            <span key={row.name} className="flex flex-col gap-[0.3em]">
+                            <span key={row.year} className="flex flex-col gap-[0.3em]">
                                 <span className="flex justify-between">
-                                    <span className="text-[0.46em] font-medium">{row.name}</span>
+                                    <span className="text-[0.46em] font-medium">{course(ui.courses, row.year, row.group)}</span>
                                     <span className="text-[0.44em] tabular-nums text-ink-2">
                                         {percent(locale, row.share * grow, 0)}
                                     </span>

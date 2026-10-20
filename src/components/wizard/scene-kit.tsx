@@ -102,6 +102,10 @@ export const monthName = (locale: string, month = 2, style: "long" | "short" = "
 
 export const capitalize = (value: string) => value.charAt(0).toLocaleUpperCase() + value.slice(1);
 
+/** A school year in the page's language ("6.º", "CM2", "LH6"…), with its group when given. */
+export const course = <K extends string>(courses: Record<K, string>, year: K, group?: string) =>
+    group ? `${courses[year]} ${group}` : courses[year];
+
 /**
  * A stat from the copy ("+35%", "37 h", "%73") counted up to `p` of itself: the first number is
  * scaled, everything around it is kept, so each language keeps its own way of writing it.

@@ -16,7 +16,7 @@ import type { ReactNode } from "react";
 import { PhoneFrame, PhoneNotification, wordmarkSrc } from "@/components/wizard/app-frame";
 import { CONTENT } from "@/components/wizard/glass-stage";
 import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
-import { At, Chip, Line, Pop, capitalize, clamp01, easeInOut, easeOut, money, monthName, on, percent, shortDate, span } from "@/components/wizard/scene-kit";
+import { At, Chip, Line, Pop, capitalize, clamp01, course, easeInOut, easeOut, money, monthName, on, percent, shortDate, span } from "@/components/wizard/scene-kit";
 import { DrawnCheck, KEY_FEATURE_SCENES, Ripple, Title } from "@/modules/home/KeyFeaturesScenes";
 import { cn } from "@/lib/utils";
 import { ActionButton, Caps, DUO, DUO_PANE_RIGHT, DUO_PHONE_LEFT, Fresh, Lights, Pane, Pill, SettlePill, between } from "./kit";
@@ -86,12 +86,12 @@ const METHODS: { icon: LucideIcon; amount: number; tone: string; bar: string }[]
 ];
 const TOTAL = METHODS.reduce((sum, method) => sum + method.amount, 0);
 const STUDENTS = [
-    { name: "Leo Serrano", course: "P-2 A", method: 0, amount: 500 },
-    { name: "Sofía López", course: "I-4 B", method: 1, amount: 739.65 },
-    { name: "Thiago Rodríguez", course: "2.º A", method: 0, amount: 547.01 },
-    { name: "Valeria Vargas", course: "6.º B", method: 2, amount: 592.1 },
-    { name: "Daniel Navarro", course: "6.º A", method: 0, amount: 753.65 },
-];
+    { name: "Leo Serrano", year: "p2", group: "A", method: 0, amount: 500 },
+    { name: "Sofía López", year: "i4", group: "B", method: 1, amount: 739.65 },
+    { name: "Thiago Rodríguez", year: "y2", group: "A", method: 0, amount: 547.01 },
+    { name: "Valeria Vargas", year: "y6", group: "B", method: 2, amount: 592.1 },
+    { name: "Daniel Navarro", year: "y6", group: "A", method: 0, amount: 753.65 },
+] as const;
 const BILL = { at: 900, duration: 1700 };
 const SEND_AT = 3300;
 const SENT_AT = SEND_AT + 900;
@@ -221,7 +221,7 @@ function BreakdownScene({ t, labels, locale }: Props) {
                                 <method.icon className="size-[0.55em]" />
                             </span>
                             <span className="ml-[0.8em] w-[4em]">
-                                <span className="text-[0.48em] text-ink-2">{student.course}</span>
+                                <span className="text-[0.48em] text-ink-2">{course(ui.courses, student.year, student.group)}</span>
                             </span>
                             <Line w={5 - (index % 3)} className="h-[0.26em]" />
                             <span className="ml-auto flex items-center gap-[0.5em]">

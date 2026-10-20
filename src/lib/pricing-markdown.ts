@@ -29,12 +29,11 @@ export function pricingMarkdown(): string {
         (t.pricing as { planFeatureSections?: PlanFeatureSection[] }).planFeatureSections ?? [],
     );
     const moduleName = (id: string) => sections[id]?.title ?? id;
-    const tokens = (n: string) => t.pricingPage.tokensPerMonth.replace("{n}", n);
     const perStudent = (value: number) => `${formatPrice(value, lang)} ${t.pricing.perStudent}`;
 
     const packRows = PACKS.map((pack) => {
         const modules = pack.modules.map((id) =>
-            id === "ena" ? `${moduleName(id)} (${tokens(pack.enaTokens)})` : moduleName(id),
+            id === "ena" ? `${moduleName(id)} (${t.pricingPage.enaUsage})` : moduleName(id),
         );
         return `| ${t.pricing.packs.items[pack.id].name} | ${perStudent(pack.pricePerStudent)} | ${perStudent(annualPrice(pack.pricePerStudent))} | ${modules.join(", ")} |`;
     });

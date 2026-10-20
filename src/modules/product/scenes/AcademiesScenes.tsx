@@ -6,6 +6,7 @@ import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
 import { At, Avatar, Pop, capitalize, easeInOut, fill, money, on, span } from "@/components/wizard/scene-kit";
 import { Title } from "@/modules/home/KeyFeaturesScenes";
 import type { Translation } from "@/i18n";
+import { formatDate } from "@/lib/intl-locale";
 import { cn } from "@/lib/utils";
 import { ActionButton, Caps, Fresh, Lights, Morph, Pill, SOLO, SOLO_PHONE, SettlePill, between } from "./kit";
 import type { ProductSceneLabels } from "./labels";
@@ -60,7 +61,7 @@ function TodayScene({ t, labels, locale }: Props) {
     const { ac } = labels;
     const marked = PUPILS.filter((_, index) => on(t, MARK_AT(index))).length;
     const present = PUPILS.filter((pupil, index) => !pupil.absent && on(t, MARK_AT(index))).length;
-    const date = capitalize(new Intl.DateTimeFormat(locale, { weekday: "long", day: "numeric", month: "long" }).format(new Date(2026, 5, 10)));
+    const date = capitalize(formatDate(locale, new Date(2026, 5, 10), { weekday: "long", day: "numeric", month: "long" }));
 
     return (
         <>
