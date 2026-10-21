@@ -938,6 +938,10 @@ export default {
         bookADemoCTA:
             "Eskatu doako erakustaldia eta erakutsiko dizugu nola egokitzen den Edena zure zentroan. Konpromisorik gabe.",
     },
+    scrollCta: {
+        message: "Ikusi zer egin dezakeen Edenak zuretzat",
+        close: "Itxi",
+    },
     cookieConsent: {
         title: "Cookieak eta analitika",
         description:

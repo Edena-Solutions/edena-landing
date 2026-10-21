@@ -920,6 +920,10 @@ export default {
         bookADemoCTA:
             "Pide una demostración gratuita y te enseñamos cómo encaja Edena en tu centro. Sin compromiso.",
     },
+    scrollCta: {
+        message: "Mira qué puede hacer Edena por tu centro",
+        close: "Cerrar",
+    },
     cookieConsent: {
         title: "Cookies y analítica",
         description:

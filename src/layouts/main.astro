@@ -6,7 +6,8 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { ClientRouter } from "astro:transitions";
 import OrganizationSchema from "@/components/StructuredData/Organization.astro";
 import CookieConsentBanner from "@/components/CookieConsentBanner";
-import { translations, languages, localePath } from "@/i18n/index.ts";
+import { translations, languages, localePath, localizedDemoPath } from "@/i18n/index.ts";
+import ScrollCtaBanner from "@/components/ScrollCtaBanner";
 import { navCopy } from "@/i18n/nav-copy";
 import { ogFromAsset } from "@/lib/og-image";
 import defaultOgImage from "@/assets/img/og.jpg";
@@ -316,6 +317,17 @@ const defaultImageAlt =
  <slot />
  </main>
  <Footer lang={lang} languageHrefs={languageHrefs} />
+ <ScrollCtaBanner
+  client:idle
+  demoHref={localizedDemoPath(lang)}
+  trialHref="https://app.edena.es/register-organization"
+  copy={{
+   message: t.scrollCta.message,
+   bookDemo: t.bookDemo,
+   trial: t.registerButtonExtended,
+   close: t.scrollCta.close,
+  }}
+ />
  <WhatsAppButton labels={t.whatsapp} />
  <CookieConsentBanner client:load lang={lang} copy={t.cookieConsent} />
  </body>

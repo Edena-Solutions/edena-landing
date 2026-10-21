@@ -921,6 +921,10 @@ export default {
         bookADemoCTA:
             "Réservez une démo gratuite et découvrez exactement comment Edena s’intègre à votre établissement. Sans engagement.",
     },
+    scrollCta: {
+        message: "Voyez ce qu’Edena peut faire pour vous",
+        close: "Fermer",
+    },
     cookieConsent: {
         title: "Cookies et analytique",
         description:

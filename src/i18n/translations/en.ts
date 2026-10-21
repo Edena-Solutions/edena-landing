@@ -922,6 +922,10 @@ export default {
         bookADemoCTA:
             "Book a free demo and discover exactly how Edena fits your school. No commitment required.",
     },
+    scrollCta: {
+        message: "See what Edena can do for your school",
+        close: "Close",
+    },
     cookieConsent: {
         title: "Cookies and analytics",
         description:

@@ -920,6 +920,10 @@ export default {
         bookADemoCTA:
             "Demana una demostració gratuïta i t'ensenyem com encaixa Edena al teu centre. Sense compromís.",
     },
+    scrollCta: {
+        message: "Mira què pot fer Edena pel teu centre",
+        close: "Tanca",
+    },
     cookieConsent: {
         title: "Galetes i analítica",
         description:
