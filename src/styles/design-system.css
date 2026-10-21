@@ -63,12 +63,35 @@
         --ds-fade-end 320ms var(--ease-fluid);
 }
 
-.ds-scroll-fade:is([data-fade="start"], [data-fade="both"]) {
+.ds-scroll-fade:is([data-fade="start"], [data-fade="both"]),
+.ds-scroll-fade-y:is([data-fade="start"], [data-fade="both"]) {
     --ds-fade-start: 2rem;
 }
 
-.ds-scroll-fade:is([data-fade="end"], [data-fade="both"]) {
+.ds-scroll-fade:is([data-fade="end"], [data-fade="both"]),
+.ds-scroll-fade-y:is([data-fade="end"], [data-fade="both"]) {
     --ds-fade-end: 2rem;
+}
+
+/* The same melt, top and bottom: the mobile menu's list, between the bar and the fixed foot. */
+.ds-scroll-fade-y {
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0,
+        #000 var(--ds-fade-start),
+        #000 calc(100% - var(--ds-fade-end)),
+        transparent 100%
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0,
+        #000 var(--ds-fade-start),
+        #000 calc(100% - var(--ds-fade-end)),
+        transparent 100%
+    );
+    transition:
+        --ds-fade-start 320ms var(--ease-fluid),
+        --ds-fade-end 320ms var(--ease-fluid);
 }
 
 /* From `md` a rail is a grid. The mask would clip the hover shadow of the last row. */
@@ -1591,14 +1614,12 @@
     overscroll-behavior: contain;
 }
 
-/* On the sheet's material, a hairline where the list scrolls away above it. */
 .ds-nav-sheet-foot {
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
     gap: 0.5rem;
     padding: 0.85rem 1rem max(1.1rem, env(safe-area-inset-bottom));
-    box-shadow: inset 0 1px 0 var(--ds-hairline);
 }
 
 .ds-nav-sheet-foot .ds-nav-text-link {

@@ -522,6 +522,7 @@ const MobileMenuSection = ({
 
 const MainNavigationMenu = ({ lang, copy, className, premium, languageHrefs }: Props) => {
     const headerRef = useRef<HTMLElement>(null);
+    const sheetBodyRef = useRef<HTMLDivElement>(null);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [openMobileSection, setOpenMobileSection] = useState("");
     const t = copy;
@@ -811,6 +812,32 @@ const MainNavigationMenu = ({ lang, copy, className, premium, languageHrefs }: P
         };
     }, [isMobileMenuOpen]);
 
+    useEffect(() => {
+        const row = sheetBodyRef.current;
+        if (!row) return;
+
+        const update = () => {
+            const max = row.scrollHeight - row.clientHeight;
+            if (max <= 8) {
+                row.dataset.fade = "none";
+                return;
+            }
+            const atStart = row.scrollTop <= 8;
+            const atEnd = row.scrollTop >= max - 8;
+            row.dataset.fade = atStart && atEnd ? "none" : atStart ? "end" : atEnd ? "start" : "both";
+        };
+
+        update();
+        row.addEventListener("scroll", update, { passive: true });
+        const observed = new ResizeObserver(update);
+        observed.observe(row);
+        Array.from(row.children).forEach((child) => observed.observe(child));
+        return () => {
+            row.removeEventListener("scroll", update);
+            observed.disconnect();
+        };
+    }, [isMobileMenuOpen, openMobileSection]);
+
     const renderItems = (items: MenuItem[], featuredFirst?: MenuItem) => (
         <>
             {featuredFirst && (
@@ -1052,7 +1079,7 @@ const MainNavigationMenu = ({ lang, copy, className, premium, languageHrefs }: P
                     >
                         {premium ? (
                             <>
-                                <div className="ds-nav-sheet-body">
+                                <div ref={sheetBodyRef} className="ds-nav-sheet-body ds-scroll-fade-y" data-fade="none">
                                     <div className="ds-nav-group w-full">
                                         <Accordion
                                             type="single"
