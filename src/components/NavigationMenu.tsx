@@ -188,10 +188,14 @@ const MenuButton = ({
     isOpen,
     onClick,
     premium,
+    openLabel,
+    closeLabel,
 }: {
     isOpen: boolean;
     onClick: () => void;
     premium?: boolean;
+    openLabel: string;
+    closeLabel: string;
 }) => {
     if (premium) {
         return (
@@ -201,7 +205,7 @@ const MenuButton = ({
                 onClick={onClick}
                 aria-expanded={isOpen}
                 aria-controls="mobile-nav-menu"
-                aria-label={isOpen ? "Close menu" : "Open menu"}
+                aria-label={isOpen ? closeLabel : openLabel}
             >
                 <span />
                 <span />
@@ -217,7 +221,7 @@ const MenuButton = ({
             onClick={onClick}
             aria-expanded={isOpen}
             aria-controls="mobile-nav-menu"
-            aria-label={isOpen ? "Close menu" : "Open menu"}
+            aria-label={isOpen ? closeLabel : openLabel}
         >
             <span
                 className={cn(
@@ -883,7 +887,7 @@ const MainNavigationMenu = ({ lang, copy, className, premium, languageHrefs }: P
                     <Logo lang={lang} alt={t.altText.logo} className="lg:hidden xl:block" />
 
                     <div className="hidden lg:flex relative overflow-visible">
-                        <NavigationMenu className="flex-none justify-start">
+                        <NavigationMenu className="flex-none justify-start" aria-label={t.navigation.mainMenu}>
                             <NavigationMenuList className="justify-start">
                                 <NavigationMenuItem>
                                     <NavigationMenuTrigger className="font-medium">
@@ -1010,6 +1014,8 @@ const MainNavigationMenu = ({ lang, copy, className, premium, languageHrefs }: P
                         isOpen={isMobileMenuOpen}
                         onClick={toggleMobileMenu}
                         premium={premium}
+                        openLabel={t.navigation.openMenu}
+                        closeLabel={t.navigation.closeMenu}
                     />
                 </div>
 

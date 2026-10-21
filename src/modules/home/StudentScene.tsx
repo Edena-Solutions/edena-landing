@@ -1,6 +1,6 @@
 import { ArrowLeft, Cake, CalendarDays, Clock, FileText, LayoutGrid, Plus, Sparkles, type LucideIcon } from "lucide-react";
 
-import { At, Avatar, Line, Pop, easeOut, on, percent, shortDate, span, typed } from "@/components/wizard/scene-kit";
+import { At, Avatar, Line, Pop, course, easeOut, on, percent, shortDate, span, typed } from "@/components/wizard/scene-kit";
 import type { Translation } from "@/i18n";
 import { cn } from "@/lib/utils";
 import { DrawnCheck, Ripple, Title } from "./KeyFeaturesScenes";
@@ -108,7 +108,7 @@ function NameAndBirthday({ t, locale }: { t: number; locale: string }) {
             <span className="truncate text-[0.62em] font-bold uppercase tracking-[0.06em]">Lucía García López</span>
             <span className="flex items-center gap-[0.35em] text-ink-2">
                 <Cake className="size-[0.62em]" />
-                <span className="text-[0.5em] tabular-nums">{shortDate(locale, new Date(2018, 5, 2))}</span>
+                <span className="text-[0.5em] tabular-nums">{shortDate(locale, new Date(2024, 5, 2))}</span>
             </span>
         </Pop>
     );
@@ -224,7 +224,7 @@ export function StudentScene({ t, ui, locale }: Props) {
                 <At key={field} x={0.9 + index * 6.1} y={12.75} w={5.6}>
                     <Pop show={on(t, 900 + index * 110)} className="flex flex-col gap-[0.4em]">
                         <span className="truncate text-[0.38em] font-medium uppercase tracking-[0.1em] text-ink-3">{field}</span>
-                        <span className="truncate text-[0.62em] font-medium">{[ui.academicLevel, "I-2", "I-2 B"][index]}</span>
+                        <span className="truncate text-[0.62em] font-medium">{[ui.academicLevel, course(ui.courses, "p2"), course(ui.courses, "p2", "B")][index]}</span>
                     </Pop>
                 </At>
             ))}

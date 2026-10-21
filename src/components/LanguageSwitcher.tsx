@@ -38,7 +38,7 @@ const languageNames: Record<string, { code: string; name: string; flag: string }
     es: { code: "ES", name: "Español", flag: flagEs.src },
     eus: {
         code: "EUS",
-        name: "Euskera",
+        name: "Euskara",
         flag: flagEus.src,
     },
     fr: { code: "FR", name: "Français", flag: flagFr.src },

@@ -4,7 +4,7 @@ import { ChevronLeft, CreditCard, Plus, ReceiptText } from "lucide-react";
 import { PhoneFrame, PhoneNotification } from "@/components/wizard/app-frame";
 import { CONTENT } from "@/components/wizard/glass-stage";
 import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
-import { At, Line, Pop, easeOut, fill, money, on, span, typed } from "@/components/wizard/scene-kit";
+import { At, Line, Pop, course, easeOut, fill, money, on, span, typed } from "@/components/wizard/scene-kit";
 import { DrawnCheck, Title } from "@/modules/home/KeyFeaturesScenes";
 import type { Translation } from "@/i18n";
 import { cn } from "@/lib/utils";
@@ -106,7 +106,7 @@ function SizePicker({ chosen, className }: { chosen: number; className?: string 
 const TRIO_AT = { size: 900, add: 1500, added: 1750, landed: 1950, pay: 3000, busy: 3200, paid: 3700 };
 
 function TrioScene({ t, labels, locale }: Props) {
-    const { s } = labels;
+    const { s, ui } = labels;
     const landed = on(t, TRIO_AT.landed);
     const total = 120 + 30 * easeOut(span(t, TRIO_AT.landed, 700));
 
@@ -150,7 +150,7 @@ function TrioScene({ t, labels, locale }: Props) {
                                         <ProductArt kind={PRODUCTS[index].kind} className="size-[2.4em] shrink-0 rounded-[0.4em]" />
                                         <span className="flex min-w-0 flex-col gap-[0.25em]">
                                             <span className="truncate text-[0.38em] font-bold uppercase tracking-[0.06em]">{s.products[index]}</span>
-                                            <span className="text-[0.36em] text-ink-3">{isNew ? "M" : "I-2"}</span>
+                                            <span className="text-[0.36em] text-ink-3">{isNew ? "M" : course(ui.courses, "y3")}</span>
                                             <span className="text-[0.42em] font-semibold tabular-nums">{money(locale, PRODUCTS[index].price, 2)}</span>
                                         </span>
                                     </Pop>

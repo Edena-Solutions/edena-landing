@@ -3,7 +3,7 @@ import { ArrowDownLeft, ArrowUpRight, Bus, Cookie, Download, Landmark, Pencil, P
 import { PhoneFrame } from "@/components/wizard/app-frame";
 import { CONTENT } from "@/components/wizard/glass-stage";
 import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
-import { At, Avatar, Line, Pop, capitalize, easeInOut, easeOut, fill, money, monthName, on, span } from "@/components/wizard/scene-kit";
+import { At, Avatar, Line, Pop, capitalize, course, easeInOut, easeOut, fill, money, monthName, on, span } from "@/components/wizard/scene-kit";
 import { Title } from "@/modules/home/KeyFeaturesScenes";
 import type { Translation } from "@/i18n";
 import { cn } from "@/lib/utils";
@@ -50,12 +50,12 @@ function Amount({ value, locale, className }: { value: number; locale: string; c
 /* ---------------------------------------------------------------------------------------------- */
 
 const FAMILIES = [
-    { name: "García", child: "Lucía | I-3 A", initials: "G", hue: 25, balance: 32.5 },
-    { name: "Puig", child: "Marc | 2.º A", initials: "P", hue: 265, balance: 48.2 },
-    { name: "Etxeberria", child: "Ane | 4.º B", initials: "E", hue: 140, balance: 21 },
-    { name: "Fernández", child: "Hugo | I-3 A", initials: "F", hue: 45, balance: 82.5 },
-    { name: "Castro", child: "Pedro | 6.º A", initials: "C", hue: 205, balance: 15.75 },
-];
+    { name: "García", child: "Lucía", year: "i3", group: "A", initials: "G", hue: 25, balance: 32.5 },
+    { name: "Puig", child: "Marc", year: "y2", group: "A", initials: "P", hue: 265, balance: 48.2 },
+    { name: "Etxeberria", child: "Ane", year: "y4", group: "B", initials: "E", hue: 140, balance: 21 },
+    { name: "Fernández", child: "Hugo", year: "i3", group: "A", initials: "F", hue: 45, balance: 82.5 },
+    { name: "Castro", child: "Pedro", year: "y6", group: "A", initials: "C", hue: 205, balance: 15.75 },
+] as const;
 const MOVES = [
     { at: 1200, family: 0, value: 50, service: -1 },
     { at: 2200, family: 1, value: -6.5, service: 0 },
@@ -63,7 +63,7 @@ const MOVES = [
 ];
 
 function WalletsScene({ t, labels, locale }: Props) {
-    const { w } = labels;
+    const { w, ui } = labels;
     const done = MOVES.filter((move) => on(t, move.at));
     const settle = (move: (typeof MOVES)[number]) => easeOut(span(t, move.at, 700));
     const total = 4820 + MOVES.reduce((sum, move) => sum + move.value * settle(move), 0);
@@ -112,7 +112,7 @@ function WalletsScene({ t, labels, locale }: Props) {
                                     <span className="truncate text-[0.46em] font-medium">
                                         {w.family} {family.name}
                                     </span>
-                                    <span className="truncate text-[0.36em] text-ink-3">{family.child}</span>
+                                    <span className="truncate text-[0.36em] text-ink-3">{family.child} | {course(ui.courses, family.year, family.group)}</span>
                                 </span>
                                 <span className="text-[0.5em] font-semibold tabular-nums">{money(locale, balance, 2)}</span>
                             </span>
@@ -166,7 +166,7 @@ const PRICE = 12;
 const CHARGE = { press: 1300, from: 1600, step: 260, remind: 3400 };
 
 function ChargeScene({ t, labels, locale }: Props) {
-    const { w } = labels;
+    const { w, ui } = labels;
     const charged = (index: number) => on(t, CHARGE.from + index * CHARGE.step);
     const count = CLASS.filter((child, index) => child.balance >= PRICE && charged(index)).length;
     const collected = (24 - CLASS.length + count) * PRICE * clamp(span(t, CHARGE.from, CLASS.length * CHARGE.step));
@@ -188,7 +188,7 @@ function ChargeScene({ t, labels, locale }: Props) {
                 {[
                     [w.concept, <span key="c" className="flex items-center gap-[0.4em]"><Bus className="size-[0.6em] text-ink-2" /><span className="truncate text-[0.5em] font-medium">{w.tripName}</span></span>],
                     [w.amount, <span key="a" className="text-[0.5em] font-semibold tabular-nums">{money(locale, PRICE, 2)}</span>],
-                    [w.group, <span key="g" className="flex gap-[0.3em]"><Pill tone="violet">3.º A</Pill></span>],
+                    [w.group, <span key="g" className="flex gap-[0.3em]"><Pill tone="violet">{course(ui.courses, "y3", "A")}</Pill></span>],
                 ].map(([label, value], index) => (
                     <Pop key={index} show={on(t, 100 + index * 90)} from="up" className="flex flex-col justify-center gap-[0.4em] rounded-[0.7em] px-[0.7em] ds-glass-inner">
                         <Caps tone="text-ink-3">{label}</Caps>

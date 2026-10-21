@@ -6,6 +6,7 @@ import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
 import { At, Avatar, Pop, easeInOut, easeOut, fill, on, span, typed } from "@/components/wizard/scene-kit";
 import { Title } from "@/modules/home/KeyFeaturesScenes";
 import type { Translation } from "@/i18n";
+import { formatDate } from "@/lib/intl-locale";
 import { cn } from "@/lib/utils";
 import { Caps, Caret, Fresh, Lights, Photo, Pill, SOLO, SOLO_PHONE, SettlePill, TONES, between } from "./kit";
 import type { ProductSceneLabels } from "./labels";
@@ -54,7 +55,7 @@ const ICONS: LucideIcon[] = [LogIn, Utensils, Moon, Camera];
 function AgendaScene({ t, labels, locale }: Props) {
     const { nu } = labels;
     const cell = (column: number, row: number) => on(t, COLUMN_AT[column] + row * ROW_STEP);
-    const date = new Intl.DateTimeFormat(locale, { weekday: "long", day: "numeric", month: "long" }).format(new Date(2026, 5, 10));
+    const date = formatDate(locale, new Date(2026, 5, 10), { weekday: "long", day: "numeric", month: "long" });
 
     return (
         <>

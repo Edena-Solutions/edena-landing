@@ -3,7 +3,7 @@ import { BookOpenCheck, ClipboardList, FileText, GraduationCap, MessageCircle, R
 import { PhoneFrame, PhoneNotification } from "@/components/wizard/app-frame";
 import { CONTENT } from "@/components/wizard/glass-stage";
 import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
-import { At, Avatar, Pop, capitalize, easeInOut, easeOut, money, number, on, percent, span } from "@/components/wizard/scene-kit";
+import { At, Avatar, Pop, capitalize, course, easeInOut, easeOut, money, number, on, percent, span } from "@/components/wizard/scene-kit";
 import { DrawnCheck, Ripple, Title } from "@/modules/home/KeyFeaturesScenes";
 import type { Translation } from "@/i18n";
 import { cn } from "@/lib/utils";
@@ -138,7 +138,7 @@ const MARKS = [
 const REPORT_AT = 2700;
 
 function FamilyScene({ t, labels, locale }: Props) {
-    const { sc } = labels;
+    const { sc, ui } = labels;
     const attendance = 98 * easeOut(span(t, 400, 1400));
 
     return (
@@ -162,7 +162,7 @@ function FamilyScene({ t, labels, locale }: Props) {
                             <Avatar initials="HF" hue={45} size={1.6} />
                             <span className="flex flex-col gap-[0.15em]">
                                 <span className="text-[0.52em] font-semibold">Hugo Fernández</span>
-                                <span className="text-[0.38em] text-ink-3">4.º B | {sc.tutor}</span>
+                                <span className="text-[0.38em] text-ink-3">{course(ui.courses, "y4", "B")} | {sc.tutor}</span>
                             </span>
                         </span>
 

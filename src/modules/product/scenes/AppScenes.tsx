@@ -10,6 +10,7 @@ import {
     Avatar,
     Line,
     Pop,
+    course,
     easeInOut,
     easeOut,
     number,
@@ -344,7 +345,7 @@ const CHAT = {
 };
 
 function ChatScene({ t, labels }: Props) {
-    const { p } = labels;
+    const { p, ui } = labels;
     const writing = span(t, CHAT.write, CHAT.send - CHAT.write - 150);
     const replying = span(t, CHAT.reply, CHAT.replied - CHAT.reply - 150);
     const read = on(t, CHAT.read);
@@ -429,7 +430,7 @@ function ChatScene({ t, labels }: Props) {
                                     <span className="truncate text-[0.42em] font-semibold">
                                         María Torres
                                     </span>
-                                    <span className="truncate text-[0.34em] text-ink-3">I-3 A</span>
+                                    <span className="truncate text-[0.34em] text-ink-3">{course(ui.courses, "i3", "A")}</span>
                                 </span>
                             </span>
                             <div className="flex flex-1 flex-col gap-[0.5em] bg-fill/50 px-[0.5em] py-[0.6em]">

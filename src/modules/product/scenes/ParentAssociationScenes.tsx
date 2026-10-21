@@ -7,6 +7,7 @@ import { ScenePlayer, type SceneSpec } from "@/components/wizard/ScenePlayer";
 import { At, Avatar, Line, Pop, easeInOut, easeOut, fill, money, on, span, typed } from "@/components/wizard/scene-kit";
 import { Title } from "@/modules/home/KeyFeaturesScenes";
 import type { Translation } from "@/i18n";
+import { formatDate } from "@/lib/intl-locale";
 import { cn } from "@/lib/utils";
 import {
     ActionButton,
@@ -223,7 +224,7 @@ const NEWS: { icon: LucideIcon; from: string; to: string }[] = [
 
 function PayScene({ t, labels, locale }: Props) {
     const { a } = labels;
-    const due = new Intl.DateTimeFormat(locale, { day: "numeric", month: "long" }).format(new Date(2026, 9, 30));
+    const due = formatDate(locale, new Date(2026, 9, 30), { day: "numeric", month: "long" });
 
     return (
         <>
@@ -288,7 +289,7 @@ const FAMILIES = BEFORE.members + 1;
 
 function FeeScene({ t, labels, locale }: Props) {
     const { a } = labels;
-    const chargeDay = new Intl.DateTimeFormat(locale, { day: "numeric", month: "long" }).format(new Date(2026, 9, 1));
+    const chargeDay = formatDate(locale, new Date(2026, 9, 1), { day: "numeric", month: "long" });
     const generated = Math.round(FAMILIES * easeInOut(span(t, SETUP.bills, 1400)));
     const card = "flex flex-col gap-[0.6em] rounded-[0.9em] p-[0.8em] ds-glass-inner";
     const fields: [string, ReactNode][] = [
