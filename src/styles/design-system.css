@@ -2750,7 +2750,7 @@ html.dark [data-ena] .material-glass {
  * Every period is different (4.4, 6.4, 8, 9 s), so the loop never visibly repeats. Only transforms,
  * opacity and one masked gradient move. Nothing moves for a reader who asked for reduced motion.
  *
- * The lids are drawn over the eyes of `logos/ena.png` (512 × 512): if the image changes, so do
+ * The lids are drawn over the LED eyes of `logos/ena.png` (512 × 512): if the image changes, so do
  * their boxes, in fractions of it.
  */
 .ena-alive {
@@ -2790,29 +2790,29 @@ html.dark [data-ena] .material-glass {
     opacity: 0;
 }
 
-/* The lids: ellipses over the dark eyes, each filled from the top as it closes. */
+/* Circles over her LED eyes. They fill with the screen's black as they close. */
 .ena-alive__lid {
     position: absolute;
-    top: 28.4%;
-    width: 17.2%;
-    height: 18.4%;
+    top: 44%;
+    width: 12.2%;
+    height: 12.2%;
     overflow: hidden;
     border-radius: 50%;
 }
 
 .ena-alive__lid--left {
-    left: 30%;
+    left: 33.6%;
 }
 
 .ena-alive__lid--right {
-    left: 56.6%;
+    left: 56%;
 }
 
 .ena-alive__lid::before {
     content: "";
     position: absolute;
     inset: -2%;
-    background: linear-gradient(180deg, #6ba664, #4b8547 60%, #36683a);
+    background: #101614;
     box-shadow: inset 0 -0.12em 0.1em -0.05em rgb(0 0 0 / 0.55);
     transform: scaleY(0);
     transform-origin: 50% 0;
